@@ -1,0 +1,657 @@
+{
+  "metadata_lot": {
+    "nom": "prototype_v0_fictif",
+    "version": "0.1",
+    "statut": "DONNEES_100_POURCENT_FICTIVES",
+    "gabarit_source": "gabarits/gabarit_entite_temporelle_atlas.json",
+    "note": "Données inventées pour tester le moteur temporel du prototype V0. Codes pays xa/xb/xc = codes ISO réservés à l'usage privé : ils ne correspondent à aucun pays réel. Ne jamais mélanger avec le corpus historique."
+  },
+  "entites": [
+    {
+      "entite_id": "territoire-xa-ruritanie",
+      "type_entite": "territoire",
+      "nom": "Ruritanie (FICTIF)",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "1918",
+            "precision": "annee"
+          },
+          "valid_to": {
+            "date": "1945-01-15",
+            "precision": "exacte"
+          },
+          "statut": "etat_souverain",
+          "proprietes": {
+            "souverainete_id": "ruritanie",
+            "controle_id": "ruritanie",
+            "alignement_id": "camp_fictif_a",
+            "note": "Frontière orientale sur la ligne du méridien 21."
+          },
+          "geometrie": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  21.0,
+                  50.0
+                ],
+                [
+                  21.0,
+                  48.0
+                ],
+                [
+                  21.0,
+                  46.0
+                ],
+                [
+                  18.9,
+                  46.1
+                ],
+                [
+                  17.2,
+                  46.6
+                ],
+                [
+                  16.4,
+                  47.8
+                ],
+                [
+                  16.6,
+                  49.1
+                ],
+                [
+                  17.8,
+                  49.9
+                ],
+                [
+                  19.5,
+                  50.3
+                ],
+                [
+                  21.0,
+                  50.0
+                ]
+              ]
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-fictif-atlas-ruritanien-1938",
+              "locator": "planche 4",
+              "usage": "tracé d'avant-guerre"
+            }
+          ]
+        },
+        {
+          "etat_id": "etat-02",
+          "valid_from": {
+            "date": "1945-01-15",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "etat_souverain",
+          "proprietes": {
+            "souverainete_id": "ruritanie",
+            "controle_id": "ruritanie",
+            "alignement_id": "camp_fictif_a",
+            "note": "Gagne la bande orientale par le traité fictif de Valbourg."
+          },
+          "geometrie": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  21.0,
+                  50.0
+                ],
+                [
+                  21.7,
+                  49.0
+                ],
+                [
+                  22.5,
+                  47.7
+                ],
+                [
+                  21.9,
+                  46.7
+                ],
+                [
+                  21.0,
+                  46.0
+                ],
+                [
+                  18.9,
+                  46.1
+                ],
+                [
+                  17.2,
+                  46.6
+                ],
+                [
+                  16.4,
+                  47.8
+                ],
+                [
+                  16.6,
+                  49.1
+                ],
+                [
+                  17.8,
+                  49.9
+                ],
+                [
+                  19.5,
+                  50.3
+                ],
+                [
+                  21.0,
+                  50.0
+                ]
+              ]
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-fictif-traite-valbourg",
+              "locator": "annexe cartographique",
+              "usage": "nouveau tracé de frontière"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "territoire-xb-kovalie",
+      "type_entite": "territoire",
+      "nom": "Kovalie (FICTIF)",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "1920",
+            "precision": "annee"
+          },
+          "valid_to": {
+            "date": "1945-01-10",
+            "precision": "exacte"
+          },
+          "statut": "etat_souverain",
+          "proprietes": {
+            "souverainete_id": "kovalie",
+            "controle_id": "kovalie",
+            "alignement_id": "neutre_fictif"
+          },
+          "geometrie": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  21.0,
+                  50.0
+                ],
+                [
+                  22.8,
+                  50.4
+                ],
+                [
+                  24.6,
+                  50.0
+                ],
+                [
+                  25.6,
+                  48.9
+                ],
+                [
+                  25.4,
+                  47.3
+                ],
+                [
+                  24.2,
+                  46.3
+                ],
+                [
+                  22.4,
+                  45.9
+                ],
+                [
+                  21.0,
+                  46.0
+                ],
+                [
+                  21.0,
+                  48.0
+                ],
+                [
+                  21.0,
+                  50.0
+                ]
+              ]
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-fictif-atlas-ruritanien-1938",
+              "locator": "planche 5",
+              "usage": "tracé d'avant-guerre"
+            }
+          ]
+        },
+        {
+          "etat_id": "etat-02",
+          "valid_from": {
+            "date": "1945-01-10",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "1945-01-15",
+            "precision": "exacte"
+          },
+          "statut": "occupe",
+          "proprietes": {
+            "souverainete_id": "kovalie",
+            "controle_id": "cordanie",
+            "alignement_id": "camp_fictif_b",
+            "statut_administratif": "occupation_militaire",
+            "note": "Souveraineté kovalienne, contrôle cordanien : les deux modes de lecture divergent."
+          },
+          "geometrie": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  21.0,
+                  50.0
+                ],
+                [
+                  22.8,
+                  50.4
+                ],
+                [
+                  24.6,
+                  50.0
+                ],
+                [
+                  25.6,
+                  48.9
+                ],
+                [
+                  25.4,
+                  47.3
+                ],
+                [
+                  24.2,
+                  46.3
+                ],
+                [
+                  22.4,
+                  45.9
+                ],
+                [
+                  21.0,
+                  46.0
+                ],
+                [
+                  21.0,
+                  48.0
+                ],
+                [
+                  21.0,
+                  50.0
+                ]
+              ]
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-fictif-etude-regionale",
+              "locator": "chap. 3",
+              "usage": "occupation cordanienne"
+            }
+          ]
+        },
+        {
+          "etat_id": "etat-03",
+          "valid_from": {
+            "date": "1945-01-15",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "occupe",
+          "proprietes": {
+            "souverainete_id": "kovalie",
+            "controle_id": "cordanie",
+            "alignement_id": "camp_fictif_b",
+            "statut_administratif": "occupation_militaire",
+            "note": "Perd la bande occidentale (traité de Valbourg), reste occupée."
+          },
+          "geometrie": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  21.0,
+                  50.0
+                ],
+                [
+                  22.8,
+                  50.4
+                ],
+                [
+                  24.6,
+                  50.0
+                ],
+                [
+                  25.6,
+                  48.9
+                ],
+                [
+                  25.4,
+                  47.3
+                ],
+                [
+                  24.2,
+                  46.3
+                ],
+                [
+                  22.4,
+                  45.9
+                ],
+                [
+                  21.0,
+                  46.0
+                ],
+                [
+                  21.9,
+                  46.7
+                ],
+                [
+                  22.5,
+                  47.7
+                ],
+                [
+                  21.7,
+                  49.0
+                ],
+                [
+                  21.0,
+                  50.0
+                ]
+              ]
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-fictif-traite-valbourg",
+              "locator": "annexe cartographique",
+              "usage": "nouveau tracé de frontière"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "frontiere-xa-ruritanie-kovalie",
+      "type_entite": "frontiere",
+      "nom": "Frontière Ruritanie–Kovalie (FICTIF)",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "1920",
+            "precision": "annee"
+          },
+          "valid_to": {
+            "date": "1945-01-15",
+            "precision": "exacte"
+          },
+          "statut": "ouverte",
+          "proprietes": {},
+          "geometrie": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                21.0,
+                50.0
+              ],
+              [
+                21.0,
+                48.0
+              ],
+              [
+                21.0,
+                46.0
+              ]
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-fictif-atlas-ruritanien-1938",
+              "locator": "planche 4",
+              "usage": "tracé d'avant-guerre"
+            }
+          ]
+        },
+        {
+          "etat_id": "etat-02",
+          "valid_from": {
+            "date": "1945-01-15",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "fermee",
+          "proprietes": {
+            "note": "Fermée depuis l'occupation cordanienne de la Kovalie."
+          },
+          "geometrie": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                21.0,
+                50.0
+              ],
+              [
+                21.7,
+                49.0
+              ],
+              [
+                22.5,
+                47.7
+              ],
+              [
+                21.9,
+                46.7
+              ],
+              [
+                21.0,
+                46.0
+              ]
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-fictif-traite-valbourg",
+              "locator": "art. 1",
+              "usage": "nouveau tracé"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "pont-xa-trois-pins",
+      "type_entite": "pont",
+      "nom": "Pont de Trois-Pins (FICTIF)",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "1911",
+            "precision": "annee"
+          },
+          "valid_to": {
+            "date": "1945-01-20",
+            "precision": "exacte"
+          },
+          "statut": "intact",
+          "proprietes": {
+            "note": "Pont routier à une voie."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              18.2,
+              47.3
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-fictif-etude-regionale",
+              "locator": "p. 88",
+              "usage": "description du pont"
+            }
+          ]
+        },
+        {
+          "etat_id": "etat-02",
+          "valid_from": {
+            "date": "1945-01-20",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "detruit",
+          "proprietes": {
+            "note": "Détruit, passage impossible."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              18.2,
+              47.3
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-fictif-rapport-genie",
+              "locator": "feuillet 2",
+              "usage": "constat de destruction"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ligne_front-xb-kovalie-ouest",
+      "type_entite": "ligne_front",
+      "nom": "Front cordanien face à la Ruritanie (FICTIF)",
+      "nom_court": "Front",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "1945-01-10",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "1945-01-15",
+            "precision": "exacte"
+          },
+          "statut": "ligne_de_contact",
+          "proprietes": {
+            "note": "Les troupes cordaniennes atteignent la frontière."
+          },
+          "geometrie": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                21.25,
+                50.0
+              ],
+              [
+                21.25,
+                48.0
+              ],
+              [
+                21.25,
+                46.0
+              ]
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-fictif-etude-regionale",
+              "locator": "carte 7",
+              "usage": "position des troupes cordaniennes"
+            }
+          ]
+        },
+        {
+          "etat_id": "etat-02",
+          "valid_from": {
+            "date": "1945-01-15",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ligne_de_contact",
+          "proprietes": {
+            "note": "Le front suit la nouvelle frontière."
+          },
+          "geometrie": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                21.25,
+                50.0
+              ],
+              [
+                21.95,
+                49.0
+              ],
+              [
+                22.75,
+                47.7
+              ],
+              [
+                22.15,
+                46.7
+              ],
+              [
+                21.25,
+                46.0
+              ]
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-fictif-etude-regionale",
+              "locator": "carte 7",
+              "usage": "position des troupes cordaniennes"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    }
+  ]
+}

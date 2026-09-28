@@ -1,0 +1,582 @@
+{
+  "metadata_lot": {
+    "nom": "snapshot0_lot02_pologne_allemagne_autriche_baltique",
+    "date_reference": "1945-01-01",
+    "statut": "integre_dans_le_depot",
+    "regles": [
+      "IDs stables; préfixes selon le lexique du dépôt",
+      "appartenance datée via proprietes.parent_id",
+      "sources référencées uniquement par source_id",
+      "aucune couleur dans les données",
+      "aucune géométrie historique inventée",
+      "un changement ultérieur = nouvel état"
+    ],
+    "note": "Lot volontairement limité au Snapshot 0 couche frontières/statuts + une ligne de front nécessaire pour interpréter le contrôle. Il ne traite pas encore routes, rail, ports, ferries, ponts ou flux.",
+    "version": "0.4",
+    "gabarit_source": "gabarits/gabarit_entite_temporelle_atlas.json",
+    "integration": "Intégré par Claude le 28/09/2026 : identifiants de sources harmonisés avec le registre, ligne_front renommée selon la règle « préfixe = type_entite », controle_id « allemagne_nazie » ramené à l'acteur « allemagne » (le régime reste dans regime_id), souverainete_id retiré des RSS baltes. Voir docs/pour_ether/2026-09-28_integration_lot02.md."
+  },
+  "entites": [
+    {
+      "entite_id": "territoire-de-allemagne",
+      "type_entite": "territoire",
+      "nom": "Allemagne — territoire de référence (frontières du 31 décembre 1937)",
+      "nom_court": "Allemagne",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "1945-01-01",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "etat_souverain_sous_regime_nazi",
+          "proprietes": {
+            "souverainete_id": "allemagne",
+            "controle_id": "allemagne",
+            "alignement_id": "axis_ww2",
+            "regime_id": "allemagne_nazie",
+            "statut_administratif": "territoire_de_reference_frontieres_1937",
+            "note": "Pour l'Atlas, cette entité sert de noyau territorial de référence de l'Allemagne dans ses frontières du 31/12/1937, choix cohérent avec les protocoles alliés d'occupation de 1944-1945. Les annexions et territoires administrés pendant la guerre (Autriche, Dantzig, Memel, territoires polonais annexés, etc.) ne sont pas absorbés silencieusement dans cette géométrie : ils sont représentés séparément."
+          },
+          "geometrie_ref": "geom-territoire-de-allemagne-1945-01-01",
+          "sources": [
+            {
+              "source_id": "src-frus-1945-v03-d380",
+              "locator": "passage sur le protocole du 12/09/1944",
+              "usage": "frontières allemandes du 31/12/1937 utilisées comme référence par la Commission consultative européenne"
+            },
+            {
+              "source_id": "src-ushmm-german-administration-europe-1944",
+              "locator": "carte",
+              "usage": "contrôle/administration allemande en Europe à comparer avec le noyau de 1937"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "territoire-at-autriche",
+      "type_entite": "territoire",
+      "nom": "Autriche",
+      "nom_court": "Autriche",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "1945-01-01",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "territoire_incorpore_de_facto_au_reich_statut_juridique_conteste",
+          "proprietes": {
+            "souverainete_id": "autriche",
+            "controle_id": "allemagne",
+            "statut_administratif": "incorporee_de_facto_au_reich",
+            "note": "Au Snapshot 0, l'Autriche est effectivement incorporée et administrée dans le Reich. La Déclaration de Moscou de 1943 des États-Unis, du Royaume-Uni et de l'URSS considère cependant l'annexion de 1938 comme nulle et non avenue et annonce le rétablissement d'une Autriche indépendante. L'Atlas sépare donc statut/souveraineté et contrôle effectif."
+          },
+          "geometrie_ref": "geom-territoire-at-autriche-1945-01-01",
+          "sources": [
+            {
+              "source_id": "src-frus-1943-v01-d684",
+              "locator": "Annex 6 — Declaration on Austria",
+              "usage": "annexion de 1938 considérée nulle par les trois puissances alliées et objectif de rétablissement d'une Autriche indépendante"
+            },
+            {
+              "source_id": "src-ushmm-german-administration-europe-1944",
+              "locator": "carte",
+              "usage": "administration allemande effective"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "territoire-pl-pologne",
+      "type_entite": "territoire",
+      "nom": "Pologne",
+      "nom_court": "Pologne",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "1945-01-01",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "etat_souverain_frontieres_et_controle_partiellement_contestes",
+          "proprietes": {
+            "souverainete_id": "pologne",
+            "alignement_id": "allies_ww2",
+            "statut_administratif": "etat_en_guerre_frontiere_orientale_provisoire",
+            "note": "La géométrie opérationnelle du Snapshot 0 ne doit PAS reprendre la future frontière Oder-Neisse. À l'est, elle doit s'appuyer sur l'accord URSS-PKWN du 27/07/1944 fondé sur la ligne Curzon, tout en signalant que le règlement international définitif n'est pas encore acquis et que le secteur de Białystok reste administrativement ambigu dans certaines sources soviétiques. Le contrôle militaire est morcelé et doit être lu via le front/les zones de contrôle, pas via un unique controle_id. [28/09/2026 : Zaolzie (Teschen) HORS de la Pologne au Snapshot 0 : au 01/01/1945 la question polono-tchécoslovaque reste contestée et la zone est sous contrôle allemand ; le mémorandum américain du 11/01/1945 préconise le retour à la frontière d'avant 1938 (Teschen, Spiš, Orava). À traiter avec la Tchécoslovaquie.]"
+          },
+          "geometrie_ref": "geom-territoire-pl-pologne-1945-01-01",
+          "sources": [
+            {
+              "source_id": "src-historyrussia-urss-pkwn-frontiere-1944-07-27",
+              "locator": "accord du 27/07/1944",
+              "usage": "base de la frontière opérationnelle URSS-PKWN"
+            },
+            {
+              "source_id": "src-uwb-bialystok-delimitation",
+              "locator": "conclusion / secteur de Białystok",
+              "usage": "ambiguïté persistante du statut administratif de Białystok malgré l'accord de juillet 1944"
+            },
+            {
+              "source_id": "src-frus-1944-v03-d1164",
+              "locator": "question de la frontière soviéto-polonaise",
+              "usage": "position soviétique sur la ligne Curzon et absence de règlement final accepté par tous"
+            },
+            {
+              "source_id": "src-frus-1945-v04-d432",
+              "locator": "Annex 1, point 7 (mémorandum du 11/01/1945)",
+              "usage": "position américaine : restauration de la frontière polono-tchécoslovaque d'avant 1938 (Teschen, Spiš, Orava)"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "frontiere-pl-su-est",
+      "type_entite": "frontiere",
+      "nom": "Frontière orientale Pologne–URSS",
+      "nom_court": "Frontière Pologne–URSS",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "1944-07-27",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "accord_bilateral_provisoire_base_ligne_curzon",
+          "proprietes": {
+            "cote_ouest_id": "pologne",
+            "cote_est_id": "urss",
+            "statut_administratif": "frontiere_provisoire_accord_urss_pkwn",
+            "note": "Cette ligne est l'état opérationnel à utiliser pour le Snapshot 0, mais elle ne doit pas être présentée comme un règlement international définitif. Białystok doit être du côté polonais dans le rendu opérationnel, avec une indication d'incertitude/contestation : des recherches universitaires montrent que des autorités soviétiques continuent encore à traiter le secteur comme relevant de la Biélorussie soviétique pendant une partie de 1944-1945. OpenHistoricalMap ne doit pas être utilisé ici sans correction s'il reproduit la ligne de 1941."
+          },
+          "geometrie_ref": "geom-frontiere-pl-su-est-1945-01-01",
+          "sources": [
+            {
+              "source_id": "src-historyrussia-urss-pkwn-frontiere-1944-07-27",
+              "locator": "document d'archive et métadonnées de l'accord",
+              "usage": "existence et date de l'accord bilatéral sur la frontière"
+            },
+            {
+              "source_id": "src-uwb-bialystok-delimitation",
+              "locator": "pp. 145-162 / conclusion",
+              "usage": "secteur de Białystok et caractère encore imparfaitement réglé de la délimitation"
+            },
+            {
+              "source_id": "src-frus-1944-v03-d1164",
+              "locator": "",
+              "usage": "contexte diplomatique de la ligne Curzon et désaccord sur la frontière"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "territoire-su-estonie",
+      "type_entite": "territoire",
+      "nom": "République socialiste soviétique d'Estonie",
+      "nom_court": "RSS d’Estonie",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "1945-01-01",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "rss_sovietique_incorporation_internationalement_contestee",
+          "proprietes": {
+            "parent_id": "territoire-su-urss",
+            "souverainete_revendiquee_par": [
+              "urss"
+            ],
+            "controle_id": "urss",
+            "alignement_id": "allies_ww2",
+            "statut_administratif": "republique_federee_urss",
+            "note": "Dans le système administratif soviétique, l'Estonie est une RSS de l'URSS. Les États-Unis ne reconnaissent pas juridiquement l'incorporation de 1940. La géométrie du 01/01/1945 doit déjà tenir compte des transferts de 1944 vers la RSFSR : majeure partie de Petseri/Pechory et territoires à l'est de la Narva. Ne pas utiliser automatiquement la frontière estonienne de 1939 ni la frontière moderne. [Intégration Claude 28/09/2026 : souverainete_id retiré, comme l'annonce la note de lot d'Ether (« volontairement omis »), le JSON reçu le contenant encore — souveraineté contestée, voir note.] [28/09/2026 : champ souverainete_revendiquee_par ajouté avec la revendication soviétique ; à compléter par Ether si elle source une revendication de continuité des États baltes (légations, gouvernements en exil).] [28/09/2026, Ether : TRANSFERT SOVIÉTIQUE EFFECTIF, FORMALISATION INCOMPLÈTE — Petserimaa transféré vers la RSFSR dès août 1944 ; rive orientale de la Narva incorporée au district de Leningrad le 24/11/1944 ; formalisation côté RSS d'Estonie le 18/01/1945 → nouvel état juridique à créer au ratissage de janvier, sans changement de géométrie.]"
+          },
+          "geometrie_ref": "geom-territoire-su-estonie-1945-01-01",
+          "sources": [
+            {
+              "source_id": "src-frus-1944-v04-d843",
+              "locator": "Baltic States",
+              "usage": "non-reconnaissance américaine de l'incorporation soviétique"
+            },
+            {
+              "source_id": "src-trames-2025-baltic-border-policy-1944",
+              "locator": "passages Petserimaa/Narva",
+              "usage": "transferts administratifs de 1944 de l'Estonie soviétique vers la RSFSR"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "territoire-su-lettonie",
+      "type_entite": "territoire",
+      "nom": "République socialiste soviétique de Lettonie",
+      "nom_court": "RSS de Lettonie",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "1945-01-01",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "rss_sovietique_incorporation_internationalement_contestee",
+          "proprietes": {
+            "parent_id": "territoire-su-urss",
+            "souverainete_revendiquee_par": [
+              "urss"
+            ],
+            "controle_id": "urss",
+            "alignement_id": "allies_ww2",
+            "statut_administratif": "republique_federee_urss",
+            "note": "Dans le système administratif soviétique, la Lettonie est une RSS de l'URSS; les États-Unis ne reconnaissent pas juridiquement cette incorporation. Pour le Snapshot 0, la géométrie administrative soviétique doit prendre en compte le transfert d'Abrene/Pytalovo vers la RSFSR en 1944. La partie occidentale de la Courlande reste toutefois sous contrôle militaire allemand et doit être superposée comme sous-zone de contrôle. [Intégration Claude 28/09/2026 : souverainete_id retiré, comme l'annonce la note de lot d'Ether (« volontairement omis »), le JSON reçu le contenant encore — souveraineté contestée, voir note.] [28/09/2026 : champ souverainete_revendiquee_par ajouté avec la revendication soviétique ; à compléter par Ether si elle source une revendication de continuité des États baltes (légations, gouvernements en exil).] [28/09/2026, Ether : TRANSFERT SOVIÉTIQUE EFFECTIF, FORMALISATION INCOMPLÈTE — Abrene transférée vers la RSFSR dès août 1944 ; formalisation à dater lors du ratissage.]"
+          },
+          "geometrie_ref": "geom-territoire-su-lettonie-1945-01-01",
+          "sources": [
+            {
+              "source_id": "src-frus-1944-v04-d843",
+              "locator": "Baltic States",
+              "usage": "non-reconnaissance américaine de l'incorporation soviétique"
+            },
+            {
+              "source_id": "src-trames-2025-baltic-border-policy-1944",
+              "locator": "passage Abrene",
+              "usage": "transfert administratif de la zone d'Abrene vers la RSFSR en 1944"
+            },
+            {
+              "source_id": "src-westpoint-russian-balkan-baltic-1944",
+              "locator": "map 31, situation au 31/12/1944",
+              "usage": "contrôle militaire soviétique/allemand et poche de Courlande"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "territoire-su-courlande",
+      "type_entite": "territoire",
+      "nom": "Courlande occidentale — zone sous contrôle allemand",
+      "nom_court": "Courlande",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "1945-01-01",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "zone_sous_controle_militaire_allemand",
+          "proprietes": {
+            "parent_id": "territoire-su-lettonie",
+            "souverainete_revendiquee_par": [
+              "urss"
+            ],
+            "controle_id": "allemagne",
+            "alignement_id": "axis_ww2",
+            "statut_administratif": "zone_de_controle_militaire",
+            "note": "Cette entité sert uniquement à représenter la divergence entre appartenance administrative soviétique revendiquée et contrôle militaire allemand effectif dans la poche de Courlande au passage au 01/01/1945. La géométrie doit être vectorisée depuis la carte militaire West Point arrêtée au 31/12/1944, avec marge d'incertitude cartographique. [Intégration Claude 28/09/2026 : souverainete_id retiré, comme l'annonce la note de lot d'Ether (« volontairement omis »), le JSON reçu le contenant encore — souveraineté contestée, voir note.] [28/09/2026 : champ souverainete_revendiquee_par ajouté avec la revendication soviétique ; à compléter par Ether si elle source une revendication de continuité des États baltes (légations, gouvernements en exil).] [28/09/2026 : tracée depuis la carte West Point n° 31 géoréférencée (incertitude ≈ 15 km). alignement_id axis_ww2 (anthracite), comme la zone allemande de Laponie : une poche tenue par l'Allemagne.]"
+          },
+          "geometrie_ref": "geom-territoire-su-courlande-1945-01-01",
+          "sources": [
+            {
+              "source_id": "src-westpoint-russian-balkan-baltic-1944",
+              "locator": "map 31",
+              "usage": "limites approximatives de la poche de Courlande au 31/12/1944"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "territoire-su-lituanie",
+      "type_entite": "territoire",
+      "nom": "République socialiste soviétique de Lituanie",
+      "nom_court": "RSS de Lituanie",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "1945-01-01",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "rss_sovietique_incorporation_internationalement_contestee",
+          "proprietes": {
+            "parent_id": "territoire-su-urss",
+            "souverainete_revendiquee_par": [
+              "urss"
+            ],
+            "controle_id": "urss",
+            "alignement_id": "allies_ww2",
+            "statut_administratif": "republique_federee_urss",
+            "note": "Dans le système soviétique, la Lituanie est une RSS de l'URSS; les États-Unis ne reconnaissent pas juridiquement l'incorporation de 1940. La géométrie du Snapshot 0 ne doit pas englober automatiquement Memel/Klaipėda : ce territoire a été cédé à l'Allemagne sous ultimatum en mars 1939 et reste sous contrôle allemand au 01/01/1945. [Intégration Claude 28/09/2026 : souverainete_id retiré, comme l'annonce la note de lot d'Ether (« volontairement omis »), le JSON reçu le contenant encore — souveraineté contestée, voir note.] [28/09/2026 : champ souverainete_revendiquee_par ajouté avec la revendication soviétique ; à compléter par Ether si elle source une revendication de continuité des États baltes (légations, gouvernements en exil).]"
+          },
+          "geometrie_ref": "geom-territoire-su-lituanie-1945-01-01",
+          "sources": [
+            {
+              "source_id": "src-frus-1944-v04-d843",
+              "locator": "Baltic States",
+              "usage": "non-reconnaissance américaine de l'incorporation soviétique"
+            },
+            {
+              "source_id": "src-frus-1939-v01-d88",
+              "locator": "",
+              "usage": "cession et occupation de Memel par l'Allemagne en mars 1939"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "territoire-de-memel",
+      "type_entite": "territoire",
+      "nom": "Territoire de Memel / Klaipėda",
+      "nom_court": "Memel",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "1945-01-01",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "territoire_sous_souverainete_et_controle_allemands_apres_cession_sous_ultimatum",
+          "proprietes": {
+            "souverainete_id": "allemagne",
+            "controle_id": "allemagne",
+            "alignement_id": "axis_ww2",
+            "statut_administratif": "territoire_incorpore_au_reich",
+            "note": "Memel/Klaipėda a été cédé à l'Allemagne en mars 1939 après ultimatum et reste allemand au Snapshot 0. La manière coercitive de la cession est documentée; l'entité est donc séparée de la RSS de Lituanie. Son état changera en janvier 1945 lorsque le contrôle militaire basculera. [28/09/2026 : surface à vérifier — 2 657 km² (définition courante de la région de Klaipėda) contre 2 828 km² (Columbia Encyclopedia) selon Ether ; notre tracé donne ≈ 2 500 km² de terres. On ne retouche pas le polygone pour atteindre un chiffre : l'écart vient sans doute de la côte, de la lagune et de ce qui est compté.]"
+          },
+          "geometrie_ref": "geom-territoire-de-memel-1945-01-01",
+          "sources": [
+            {
+              "source_id": "src-frus-1939-v01-d88",
+              "locator": "",
+              "usage": "occupation et transfert de Memel à l'Allemagne le 23/03/1939"
+            },
+            {
+              "source_id": "src-ushmm-lithuania",
+              "locator": "section pré-guerre",
+              "usage": "contexte de l'annexion allemande de Memel"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "territoire-de-dantzig",
+      "type_entite": "territoire",
+      "nom": "Dantzig / Gdańsk",
+      "nom_court": "Dantzig",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "1945-01-01",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ancienne_ville_libre_annexee_par_allemagne",
+          "proprietes": {
+            "souverainete_id": "allemagne",
+            "controle_id": "allemagne",
+            "alignement_id": "axis_ww2",
+            "statut_administratif": "annexion_allemande_depuis_1939",
+            "note": "La ville libre de Dantzig a été annexée unilatéralement par l'Allemagne après l'invasion de la Pologne en septembre 1939. Elle est représentée séparément du noyau allemand de 1937 et de la Pologne afin de pouvoir suivre son changement de statut ultérieur."
+          },
+          "geometrie_ref": "geom-territoire-de-dantzig-1945-01-01",
+          "sources": [
+            {
+              "source_id": "src-ushmm-danzig",
+              "locator": "",
+              "usage": "statut de ville libre avant-guerre et annexion allemande de 1939"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ligne_front-de-su-est-europe",
+      "type_entite": "ligne_front",
+      "nom": "Front germano-soviétique — Europe orientale",
+      "nom_court": "Front de l’Est",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "1945-01-01",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ligne_de_contact",
+          "proprietes": {
+            "camp_ouest_id": "allemagne",
+            "camp_est_id": "urss",
+            "alignement_id_ouest": "axis_ww2",
+            "alignement_id_est": "allies_ww2",
+            "note": "La géométrie du 01/01/1945 doit être dérivée de la carte West Point couvrant les campagnes balkaniques et baltes jusqu'au 31/12/1944. La ligne est une représentation cartographique militaire, pas une frontière internationale. Elle devra être fermée/remplacée dès que le ratissage de janvier rencontre un déplacement documenté."
+          },
+          "geometrie_ref": "geom-ligne_front-de-su-est-europe-1945-01-01",
+          "sources": [
+            {
+              "source_id": "src-westpoint-russian-balkan-baltic-1944",
+              "locator": "map 31",
+              "usage": "position du front oriental arrêtée au 31/12/1944"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "geometries_a_creer": [
+    {
+      "geometrie_ref": "geom-territoire-de-allemagne-1945-01-01",
+      "priorite": "haute",
+      "methode": "OHM/QGIS puis contrôle sur référence 1937",
+      "attention": "Noyau allemand aux frontières du 31/12/1937; ne pas fusionner les annexions de guerre.",
+      "statut": "provisoire_ohm",
+      "fichier": "data/geometries/snapshot0/geom-territoire-de-allemagne-1945-01-01.geojson"
+    },
+    {
+      "geometrie_ref": "geom-territoire-at-autriche-1945-01-01",
+      "priorite": "haute",
+      "methode": "OHM/QGIS, contrôle historique",
+      "attention": "Autriche séparée graphiquement; contrôle allemand porté par les propriétés.",
+      "statut": "provisoire_ohm",
+      "fichier": "data/geometries/snapshot0/geom-territoire-at-autriche-1945-01-01.geojson"
+    },
+    {
+      "geometrie_ref": "geom-territoire-pl-pologne-1945-01-01",
+      "priorite": "critique",
+      "methode": "construire depuis la frontière orientale 27/07/1944 + frontière occidentale d'avant-guerre; aucune Oder-Neisse",
+      "attention": "Ne pas accepter automatiquement OHM. Białystok doit être du côté polonais dans le rendu opérationnel, mais signaler l'ambiguïté historique.",
+      "statut": "provisoire_ohm",
+      "fichier": "data/geometries/snapshot0/geom-territoire-pl-pologne-1945-01-01.geojson"
+    },
+    {
+      "geometrie_ref": "geom-frontiere-pl-su-est-1945-01-01",
+      "priorite": "critique",
+      "methode": "vectorisation d'une carte/document lié à l'accord du 27/07/1944; comparaison académique Białystok",
+      "attention": "Ne pas utiliser la ligne de 1941 comme frontière du Snapshot 0.",
+      "statut": "provisoire_ohm",
+      "fichier": "data/geometries/snapshot0/geom-frontiere-pl-su-est-1945-01-01.geojson"
+    },
+    {
+      "geometrie_ref": "geom-territoire-su-estonie-1945-01-01",
+      "priorite": "haute",
+      "methode": "OHM/QGIS corrigé des transferts soviétiques de 1944",
+      "attention": "Petseri/Pechory et rive est de la Narva transférés vers la RSFSR avant le Snapshot 0.",
+      "statut": "provisoire_ohm",
+      "fichier": "data/geometries/snapshot0/geom-territoire-su-estonie-1945-01-01.geojson"
+    },
+    {
+      "geometrie_ref": "geom-territoire-su-lettonie-1945-01-01",
+      "priorite": "haute",
+      "methode": "OHM/QGIS corrigé du transfert d'Abrene",
+      "attention": "La poche de Courlande est une sous-zone de contrôle, pas une autre souveraineté.",
+      "statut": "provisoire_ohm",
+      "fichier": "data/geometries/snapshot0/geom-territoire-su-lettonie-1945-01-01.geojson"
+    },
+    {
+      "geometrie_ref": "geom-territoire-su-courlande-1945-01-01",
+      "priorite": "haute",
+      "methode": "géoréférencement/vectorisation de la carte West Point map 31",
+      "attention": "Ajouter une marge d'incertitude; carte opérationnelle stylisée.",
+      "statut": "provisoire_carte_georeferencee",
+      "fichier": "data/geometries/snapshot0/geom-territoire-su-courlande-1945-01-01.geojson"
+    },
+    {
+      "geometrie_ref": "geom-territoire-su-lituanie-1945-01-01",
+      "priorite": "haute",
+      "methode": "OHM/QGIS avec vérification du secteur Memel",
+      "attention": "Memel/Klaipėda doit être exclu au 01/01/1945.",
+      "statut": "provisoire_ohm",
+      "fichier": "data/geometries/snapshot0/geom-territoire-su-lituanie-1945-01-01.geojson"
+    },
+    {
+      "geometrie_ref": "geom-territoire-de-memel-1945-01-01",
+      "priorite": "haute",
+      "methode": "frontière historique du territoire de Memel; OHM + contrôle documentaire",
+      "attention": "Entité séparée jusqu'au basculement de janvier 1945.",
+      "statut": "provisoire_ohm",
+      "fichier": "data/geometries/snapshot0/geom-territoire-de-memel-1945-01-01.geojson"
+    },
+    {
+      "geometrie_ref": "geom-territoire-de-dantzig-1945-01-01",
+      "priorite": "moyenne",
+      "methode": "frontière historique de la Ville libre de Dantzig; OHM + contrôle historique",
+      "attention": "Ne pas la fusionner automatiquement à la Pologne ni au noyau allemand de 1937.",
+      "statut": "provisoire_ohm",
+      "fichier": "data/geometries/snapshot0/geom-territoire-de-dantzig-1945-01-01.geojson"
+    },
+    {
+      "geometrie_ref": "geom-ligne_front-de-su-est-europe-1945-01-01",
+      "priorite": "critique",
+      "methode": "géoréférencement/vectorisation de West Point map 31 (19 août-31 décembre 1944)",
+      "attention": "Ligne de contact, pas frontière. Fermer/remplacer au premier changement de janvier.",
+      "statut": "provisoire_carte_georeferencee",
+      "fichier": "data/geometries/snapshot0/geom-ligne_front-de-su-est-europe-1945-01-01.geojson"
+    }
+  ],
+  "points_a_ne_pas_canoniser_sans_verification": [
+    "Position exacte de la ligne URSS-Pologne du 27/07/1944 dans le secteur de Białystok : l'accord existe, mais l'administration soviétique locale reste ambiguë dans certaines sources jusqu'en 1945.",
+    "Frontières administratives exactes de l'Estonie et de la Lettonie soviétiques après les transferts de 1944 : vectoriser depuis une carte/source adaptée, pas depuis les frontières modernes.",
+    "Poche de Courlande : géométrie à dériver d'une carte militaire avec zone d'incertitude, pas d'un polygone dessiné à l'œil."
+  ]
+}

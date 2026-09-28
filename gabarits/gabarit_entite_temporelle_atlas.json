@@ -1,0 +1,340 @@
+{
+  "gabarit_a_copier": {
+    "entite_id": "type-pays-motcle[-precision] (ex: pont-fr-trois-pins, territoire-su-kazakhstan) — IMMUABLE. 'pays' = code ISO 3166-1 alpha-2 en minuscules ; pour un État disparu, son ancien code alpha-2 (su = URSS, yu = Yougoslavie, cs = Tchécoslovaquie, dd = RDA) ; c'est le pays du PREMIER état de l'entité dans le corpus, il ne change jamais même si le territoire change de pays ensuite. L'id désigne le LIEU stable, jamais son statut à une date (pas de 'post-armistice-1944', pas de 'bail-sovietique', pas de 'republique-populaire'). Chaque mot-clé doit figurer dans docs/LEXIQUE_ID.md.",
+    "type_entite": "choisir un seul : frontiere | route | pont | port | ferry | poste_frontiere | territoire | voie_ferree | ligne_front | autre",
+    "nom": "nom descriptif de l'entité (peut évoluer librement, contrairement à l'id)",
+    "nom_court": "facultatif — étiquette courte affichée sur la carte (ex: URSS, RSS kazakhe). Peut évoluer librement.",
+    "etats": [
+      {
+        "etat_id": "identifiant court et unique DANS cette entité, ex: etat-01, etat-02...",
+        "valid_from": {
+          "date": "AAAA-MM-JJ, ou AAAA-MM si seul le mois est connu, ou AAAA si seule l'année est connue",
+          "precision": "choisir un seul : exacte | mois | annee | inconnue"
+        },
+        "valid_to": {
+          "date": "AAAA-MM-JJ (laisser la date vide si l'état est toujours en cours aujourd'hui)",
+          "precision": "choisir un seul : exacte | mois | annee | en_cours | inconnue"
+        },
+        "statut": "description libre courte de l'état, ex: intact, detruit, ouvert, ferme, en_construction, controle, ligne_de_contact",
+        "proprietes": {
+          "souverainete_id": "facultatif — à qui appartient légalement ce territoire à cette date (ex: pologne). Laisser le champ absent si non pertinent (un pont n'a pas de souveraineté) — identifiant COURT de l'acteur (voir docs/LEXIQUE_ID.md) ; toute nuance (de jure, revendiqué, contesté...) va dans note, jamais dans l'id",
+          "souverainete_revendiquee_par": "facultatif — LISTE des acteurs qui revendiquent juridiquement ce territoire à cette date, quand la souveraineté est contestée ou non tranchée (ex: [\"urss\"] pour les RSS baltes, [\"republique_de_chine\"] pour la Mongolie extérieure). Dans ce cas souverainete_id reste ABSENT : on ne force pas un souverain unique.",
+          "controle_id": "facultatif — qui contrôle réellement le terrain à cette date, peut différer de souverainete_id (ex: urss)",
+          "administration_id": "facultatif — qui administre civilement le territoire à cette date, quand c'est différent de celui qui le tient militairement (controle_id). Ex: un secteur tenu par l'Armée rouge mais administré par le gouvernement provisoire polonais → controle_id: urss, administration_id: pologne_gouvernement_provisoire.",
+          "alignement_id": "facultatif — identifiant SEMANTIQUE d'alignement pour le mode de lecture correspondant (ex: allies_ww2, axis_ww2, neutral_ww2, soviet_bloc) — JAMAIS une couleur, c'est le futur thème visuel du frontend qui décidera de la couleur associée à cet identifiant",
+          "regime_id": "facultatif — identifiant du régime politique en place, seulement si ça éclaire un flux étudié par l'atlas",
+          "statut_administratif": "facultatif — ex: occupation_militaire, annexion, mandat, protectorat...",
+          "parent_id": "facultatif — entite_id du territoire qui CONTIENT celui-ci à cette date (ex: territoire-su-kazakhstan → parent_id territoire-su-urss). Porté par l'état, donc datable : si l'appartenance change (ex: Crimée RSFSR → RSS d'Ukraine en 1954), on ferme l'état et on en ouvre un nouveau avec le nouveau parent_id.",
+          "note": "champ libre pour tout autre détail propre à cette entité et non couvert ci-dessus (largeur de route, capacité du pont...)"
+        },
+        "geometrie": {
+          "type": "Point | LineString | Polygon | MultiLineString",
+          "coordinates": "coordonnées GeoJSON en [longitude, latitude] (laisser vide si tu utilises geometrie_ref à la place)"
+        },
+        "geometrie_ref": "id d'une géométrie partagée dans un futur registre (laisser vide si tu remplis geometrie directement — jamais les deux en même temps)",
+        "zone_incertitude": {
+          "type": "Polygon (laisser cet objet totalement absent si non pertinent)",
+          "coordinates": "utile surtout pour une ligne_front quand la position exacte n'est pas connue avec certitude — dessine la zone probable plutôt que de forcer une ligne précise qui n'existe pas dans les sources"
+        },
+        "sources": [
+          {
+            "source_id": "id stable du registre data/sources/atlas_registre_sources.json (ex: src-frus-1946-v04-d5). La source doit d'abord être enregistrée dans le registre : niveau, titre, url, date de consultation vivent LÀ-BAS, une seule fois.",
+            "locator": "où exactement dans la source (page, article, section, carte...) — laisser vide si identique au locator du registre",
+            "usage": "ce que cette source prouve ICI, en une phrase courte"
+          }
+        ]
+      }
+    ],
+    "relations": [
+      {
+        "type": "choisir : precede | suit | entraine | modifie | explique | detache_de. 'explique' = lien NARRATIF/causal uniquement. 'detache_de' = ce territoire a été retiré à la cible (cession, annexion...) (ex: Petsamo detache_de Finlande). L'appartenance à un territoire parent ne se met PAS ici mais dans proprietes.parent_id de chaque état.",
+        "cible_type": "choisir un seul : entite | evenement",
+        "cible_id": "id de la cible — utile surtout pour lier deux entités entre elles (ex: une route qui en remplace une autre), l'inverse (événement → entité) est déjà porté par le gabarit événement, pas la peine de le dupliquer ici",
+        "note": "facultatif — une phrase de contexte"
+      }
+    ]
+  },
+  "exemple_illustratif_fictif": {
+    "note": "Ceci est un exemple fictif pour montrer comment le gabarit doit être rempli — ce n'est pas une vraie donnée historique. Il reprend le pont fictif des Trois-Pins pour montrer la mécanique intact → détruit → reconstruit",
+    "entite_id": "pont-fictif-trois-pins",
+    "type_entite": "pont",
+    "nom": "Pont fictif des Trois-Pins",
+    "etats": [
+      {
+        "etat_id": "etat-01",
+        "valid_from": {
+          "date": "1938",
+          "precision": "annee"
+        },
+        "valid_to": {
+          "date": "1945-04-03",
+          "precision": "exacte"
+        },
+        "statut": "intact",
+        "proprietes": {
+          "note": "pont routier à une voie"
+        },
+        "geometrie": {
+          "type": "Point",
+          "coordinates": [
+            6.91,
+            45.88
+          ]
+        },
+        "geometrie_ref": "",
+        "sources": [
+          {
+            "source_id": "src-fictif-ouvrage-regional-fictif-sur-les-infrastr",
+            "locator": "",
+            "usage": "Ouvrage régional fictif sur les infrastructures alpines"
+          }
+        ]
+      },
+      {
+        "etat_id": "etat-02",
+        "valid_from": {
+          "date": "1945-04-03",
+          "precision": "exacte"
+        },
+        "valid_to": {
+          "date": "1947",
+          "precision": "annee"
+        },
+        "statut": "detruit",
+        "proprietes": {
+          "note": "détruit lors du repli, passage impossible"
+        },
+        "geometrie": {
+          "type": "Point",
+          "coordinates": [
+            6.91,
+            45.88
+          ]
+        },
+        "geometrie_ref": "",
+        "sources": [
+          {
+            "source_id": "src-fictif-rapport-fictif-du-genie-militaire",
+            "locator": "",
+            "usage": "Rapport fictif du génie militaire"
+          }
+        ]
+      },
+      {
+        "etat_id": "etat-03",
+        "valid_from": {
+          "date": "1947",
+          "precision": "annee"
+        },
+        "valid_to": {
+          "date": "",
+          "precision": "en_cours"
+        },
+        "statut": "reconstruit",
+        "proprietes": {
+          "note": "reconstruit à deux voies"
+        },
+        "geometrie": {
+          "type": "Point",
+          "coordinates": [
+            6.91,
+            45.88
+          ]
+        },
+        "geometrie_ref": "",
+        "sources": [
+          {
+            "source_id": "src-fictif-ouvrage-regional-fictif-sur-les-infrastr",
+            "locator": "",
+            "usage": "Ouvrage régional fictif sur les infrastructures alpines"
+          }
+        ]
+      }
+    ],
+    "relations": []
+  },
+  "second_exemple_illustratif_fictif": {
+    "note": "Second exemple fictif — une ligne_front, pour montrer la mécanique de la zone d'incertitude et des propriétés d'alignement. Toujours fictif, aucune donnée historique réelle",
+    "entite_id": "ligne-front-fictive-secteur-nord",
+    "type_entite": "ligne_front",
+    "nom": "Ligne de front fictive, secteur nord",
+    "etats": [
+      {
+        "etat_id": "etat-01",
+        "valid_from": {
+          "date": "1945-01-05",
+          "precision": "exacte"
+        },
+        "valid_to": {
+          "date": "1945-01-18",
+          "precision": "exacte"
+        },
+        "statut": "ligne_de_contact",
+        "proprietes": {
+          "camp_ouest": "Camp fictif A",
+          "camp_est": "Camp fictif B",
+          "alignement_id_ouest": "camp-fictif-a",
+          "alignement_id_est": "camp-fictif-b"
+        },
+        "geometrie": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              7.0,
+              48.6
+            ],
+            [
+              7.3,
+              48.7
+            ],
+            [
+              7.6,
+              48.75
+            ]
+          ]
+        },
+        "geometrie_ref": "",
+        "zone_incertitude": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                6.95,
+                48.55
+              ],
+              [
+                7.65,
+                48.55
+              ],
+              [
+                7.65,
+                48.8
+              ],
+              [
+                6.95,
+                48.8
+              ],
+              [
+                6.95,
+                48.55
+              ]
+            ]
+          ]
+        },
+        "sources": [
+          {
+            "source_id": "src-fictif-carte-militaire-fictive-du-secteur-situa",
+            "locator": "",
+            "usage": "Carte militaire fictive du secteur, situation au 5 janvier"
+          }
+        ]
+      },
+      {
+        "etat_id": "etat-02",
+        "valid_from": {
+          "date": "1945-01-18",
+          "precision": "exacte"
+        },
+        "valid_to": {
+          "date": "",
+          "precision": "en_cours"
+        },
+        "statut": "ligne_de_contact",
+        "proprietes": {
+          "camp_ouest": "Camp fictif A",
+          "camp_est": "Camp fictif B",
+          "alignement_id_ouest": "camp-fictif-a",
+          "alignement_id_est": "camp-fictif-b"
+        },
+        "geometrie": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              7.0,
+              48.5
+            ],
+            [
+              7.35,
+              48.55
+            ],
+            [
+              7.6,
+              48.6
+            ]
+          ]
+        },
+        "geometrie_ref": "",
+        "sources": [
+          {
+            "source_id": "src-fictif-rapport-fictif-d-etat-major-apres-l-avan",
+            "locator": "",
+            "usage": "Rapport fictif d'état-major après l'avancée du 18 janvier"
+          }
+        ]
+      }
+    ],
+    "relations": []
+  },
+  "troisieme_exemple_illustratif_fictif": {
+    "note": "Troisième exemple fictif — un territoire, pour montrer le cas où souveraineté et contrôle divergent sur la même géométrie. Pays entièrement inventé (Ruritanie), aucune donnée historique réelle",
+    "entite_id": "territoire-fictif-ruritanie-est",
+    "type_entite": "territoire",
+    "nom": "Ruritanie orientale (fictif)",
+    "etats": [
+      {
+        "etat_id": "etat-01",
+        "valid_from": {
+          "date": "1945-01-01",
+          "precision": "annee"
+        },
+        "valid_to": {
+          "date": "",
+          "precision": "en_cours"
+        },
+        "statut": "occupe",
+        "proprietes": {
+          "souverainete_id": "ruritanie",
+          "controle_id": "urss-fictif",
+          "alignement_id": "allies_ww2",
+          "statut_administratif": "occupation_militaire_alliee"
+        },
+        "geometrie": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                21.0,
+                52.0
+              ],
+              [
+                23.5,
+                52.0
+              ],
+              [
+                23.5,
+                53.5
+              ],
+              [
+                21.0,
+                53.5
+              ],
+              [
+                21.0,
+                52.0
+              ]
+            ]
+          ]
+        },
+        "geometrie_ref": "",
+        "sources": [
+          {
+            "source_id": "src-fictif-etude-regionale-fictive-sur-les-zones-d-",
+            "locator": "",
+            "usage": "Étude régionale fictive sur les zones d'occupation de 1945"
+          }
+        ]
+      }
+    ],
+    "relations": []
+  }
+}

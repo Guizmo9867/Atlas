@@ -1,0 +1,264 @@
+{
+  "metadata": {
+    "nom": "prototype_v0_fictif_evenements",
+    "statut": "DONNEES_100_POURCENT_FICTIVES"
+  },
+  "evenements": [
+    {
+      "id": "1945-xb-occupation-kovalie",
+      "titre": "Occupation de la Kovalie par la Cordanie (FICTIF)",
+      "annee": 1945,
+      "date_precise": "1945-01-10",
+      "date_fin": "",
+      "pays": [
+        "xb",
+        "xc"
+      ],
+      "lieu": "Kovgrad, capitale de la Kovalie",
+      "geographie": {
+        "type": "point",
+        "geometrie": {
+          "type": "Point",
+          "coordinates": [
+            24.2,
+            47.6
+          ]
+        }
+      },
+      "categories": [
+        "territoire"
+      ],
+      "niveau_importance": "evenement_majeur",
+      "profondeur_affichage": "atlas",
+      "resume": "Les troupes cordaniennes prennent le contrôle de la Kovalie. La souveraineté reste kovalienne, mais le contrôle effectif passe à la Cordanie.",
+      "contexte": "Exemple fictif conçu pour montrer la différence entre les modes de lecture « souveraineté » et « contrôle ».",
+      "deroulement": "",
+      "consequences": {
+        "humaines": "Début des départs de réfugiés vers la Ruritanie.",
+        "politiques": "Contrôle cordanien sur la Kovalie."
+      },
+      "relations": [
+        {
+          "type": "modifie",
+          "cible_type": "entite",
+          "cible_id": "territoire-xb-kovalie"
+        },
+        {
+          "type": "entraine",
+          "cible_type": "evenement",
+          "cible_id": "1945-xb-fuite-refugies-gue-noir"
+        }
+      ],
+      "certitude_evenement": "confirme",
+      "etat_sources": "concordantes",
+      "notes_incertitude": "",
+      "sources": [
+        {
+          "source_id": "src-fictif-etude-regionale",
+          "locator": "chap. 3",
+          "usage": "occupation cordanienne"
+        }
+      ],
+      "temoignage_personnel": ""
+    },
+    {
+      "id": "1945-xa-traite-valbourg",
+      "titre": "Traité de Valbourg : la frontière est déplacée (FICTIF)",
+      "annee": 1945,
+      "date_precise": "1945-01-15",
+      "date_fin": "",
+      "pays": [
+        "xa",
+        "xb"
+      ],
+      "lieu": "Valbourg",
+      "geographie": {
+        "type": "frontiere",
+        "geometrie": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              21.0,
+              50.0
+            ],
+            [
+              21.7,
+              49.0
+            ],
+            [
+              22.5,
+              47.7
+            ],
+            [
+              21.9,
+              46.7
+            ],
+            [
+              21.0,
+              46.0
+            ]
+          ]
+        }
+      },
+      "categories": [
+        "frontiere",
+        "territoire"
+      ],
+      "niveau_importance": "structurel",
+      "profondeur_affichage": "atlas",
+      "resume": "Le traité fictif de Valbourg cède à la Ruritanie une bande de territoire kovalien.",
+      "contexte": "Exemple fictif : un changement de frontière daté qui modifie deux territoires et une frontière.",
+      "deroulement": "",
+      "consequences": {
+        "politiques": "Nouvelle frontière Ruritanie–Kovalie.",
+        "logistiques": "Frontière fermée."
+      },
+      "relations": [
+        {
+          "type": "modifie",
+          "cible_type": "entite",
+          "cible_id": "frontiere-xa-ruritanie-kovalie"
+        },
+        {
+          "type": "modifie",
+          "cible_type": "entite",
+          "cible_id": "territoire-xa-ruritanie"
+        },
+        {
+          "type": "modifie",
+          "cible_type": "entite",
+          "cible_id": "territoire-xb-kovalie"
+        }
+      ],
+      "certitude_evenement": "confirme",
+      "etat_sources": "concordantes",
+      "notes_incertitude": "",
+      "sources": [
+        {
+          "source_id": "src-fictif-traite-valbourg",
+          "locator": "art. 1",
+          "usage": "texte du traité"
+        }
+      ],
+      "temoignage_personnel": ""
+    },
+    {
+      "id": "1945-xb-fuite-refugies-gue-noir",
+      "titre": "Fuite de réfugiés kovaliens par le gué Noir (FICTIF)",
+      "annee": 1945,
+      "date_precise": "1945-01-18",
+      "date_fin": "1945-01-24",
+      "pays": [
+        "xb",
+        "xa"
+      ],
+      "lieu": "Gué Noir",
+      "geographie": {
+        "type": "parcours",
+        "geometrie": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              24.2,
+              47.6
+            ],
+            [
+              23.4,
+              47.9
+            ],
+            [
+              22.6,
+              48.1
+            ],
+            [
+              21.6,
+              48.0
+            ],
+            [
+              20.8,
+              47.7
+            ],
+            [
+              20.3,
+              47.4
+            ]
+          ]
+        }
+      },
+      "categories": [
+        "migration"
+      ],
+      "niveau_importance": "micro_histoire",
+      "profondeur_affichage": "archive",
+      "resume": "Plusieurs centaines de réfugiés quittent la Kovalie occupée et rejoignent la Ruritanie par un gué, la frontière officielle étant fermée.",
+      "contexte": "Exemple fictif d'un parcours migratoire tracé : c'est le type de pastille « micro-histoire » qui n'apparaît qu'en zoom rapproché.",
+      "deroulement": "Départ de la capitale kovalienne, traversée de nuit, arrivée côté ruritanien.",
+      "consequences": {
+        "humaines": "Afflux de réfugiés en Ruritanie orientale."
+      },
+      "relations": [],
+      "certitude_evenement": "confirme",
+      "etat_sources": "divergentes",
+      "notes_incertitude": "Le nombre de réfugiés varie selon les témoignages.",
+      "sources": [
+        {
+          "source_id": "src-fictif-temoignage-refugies",
+          "locator": "entretien n° 3",
+          "usage": "récit de la traversée"
+        }
+      ],
+      "temoignage_personnel": ""
+    },
+    {
+      "id": "1945-xa-destruction-trois-pins",
+      "titre": "Destruction du pont de Trois-Pins (FICTIF)",
+      "annee": 1945,
+      "date_precise": "1945-01-20",
+      "date_fin": "",
+      "pays": [
+        "xa"
+      ],
+      "lieu": "Trois-Pins",
+      "geographie": {
+        "type": "point",
+        "geometrie": {
+          "type": "Point",
+          "coordinates": [
+            18.2,
+            47.3
+          ]
+        }
+      },
+      "categories": [
+        "infrastructure",
+        "transport"
+      ],
+      "niveau_importance": "evenement_majeur",
+      "profondeur_affichage": "regional",
+      "resume": "Le pont routier de Trois-Pins est détruit. La route vers l'ouest est coupée.",
+      "contexte": "Exemple fictif : une infrastructure change d'état à une date précise.",
+      "deroulement": "",
+      "consequences": {
+        "logistiques": "Plus de passage routier à Trois-Pins."
+      },
+      "relations": [
+        {
+          "type": "modifie",
+          "cible_type": "entite",
+          "cible_id": "pont-xa-trois-pins"
+        }
+      ],
+      "certitude_evenement": "confirme",
+      "etat_sources": "concordantes",
+      "notes_incertitude": "",
+      "sources": [
+        {
+          "source_id": "src-fictif-rapport-genie",
+          "locator": "feuillet 2",
+          "usage": "constat de destruction"
+        }
+      ],
+      "temoignage_personnel": ""
+    }
+  ]
+}

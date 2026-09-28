@@ -1,0 +1,112 @@
+{
+  "gabarit_a_copier": {
+    "id": "annee-pays-motcle-titre (ex: 1945-de-partition-berlin) — IMMUABLE ; 'pays' = code ISO 3166-1 alpha-2 en minuscules ; pour un État disparu, son ancien code alpha-2 (su, yu, cs, dd) — voir docs/LEXIQUE_ID.md",
+    "titre": "",
+    "annee": 0,
+    "date_precise": "AAAA-MM-JJ (laisser vide si inconnue, l'année seule suffit)",
+    "date_fin": "si l'événement dure dans le temps, sinon laisser vide",
+    "pays": [
+      "codes pays ISO à 2 lettres en minuscules (ex: fr, ch, su) — les mêmes que dans les ids"
+    ],
+    "lieu": "nom du lieu précis",
+    "geographie": {
+      "type": "choisir un seul : point | zone | frontiere | parcours | corridor",
+      "geometrie": {
+        "type": "choisir selon geographie.type : Point (pour point) | LineString (pour parcours/corridor simple) | Polygon (pour zone) | MultiLineString (pour frontiere ou corridor en plusieurs tronçons)",
+        "coordinates": "un point = [lon, lat] ; une ligne = [[lon,lat],[lon,lat],...] ; laisser vide si tu utilises geometrie_ref à la place"
+      },
+      "geometrie_ref": "id d'une géométrie réutilisable dans un futur registre partagé (laisser vide pour l'instant, ne pas remplir les deux en même temps)"
+    },
+    "categories": [
+      "choisir une ou plusieurs parmi : territoire_frontieres, infrastructures_corridors, transport_economie_logistique, migration_mobilite, criminalite_flux_clandestins, accidentologie_securite, geopolitique, temoignage_personnel"
+    ],
+    "niveau_importance": "choisir un seul : structurel | evenement_majeur | micro_histoire",
+    "profondeur_affichage": "choisir un seul : atlas | regional | archive (archive = pastille visible seulement en zoom rapproché)",
+    "resume": "2-3 phrases, ce qui s'est passé",
+    "contexte": "pourquoi cet événement existe",
+    "deroulement": "chronologie des faits si connue",
+    "consequences": {
+      "humaines": "",
+      "economiques": "",
+      "politiques": "",
+      "reglementaires": "",
+      "logistiques": ""
+    },
+    "relations": [
+      {
+        "type": "choisir : precede | suit | entraine | modifie | explique ('explique' = lien narratif/causal uniquement)",
+        "cible_type": "choisir un seul : evenement | entite (modifie vise presque toujours une entite ; les autres visent en général un evenement)",
+        "cible_id": "id de la cible (un autre événement, ou une entité temporelle si cible_type = entite)"
+      }
+    ],
+    "certitude_evenement": "l'événement lui-même a-t-il bien eu lieu, tel que décrit ? choisir un seul : confirme | tres_probable | estime | conteste",
+    "etat_sources": "les sources sont-elles d'accord entre elles sur les détails (chiffres, dates précises...) ? choisir un seul : coherent | source_unique | chiffres_divergents (laisser vide si non applicable)",
+    "notes_incertitude": "ex: Sources A et B parlent de 47 victimes, source C en annonce 52 (laisser vide si non applicable)",
+    "sources": [
+      {
+        "source_id": "id stable du registre data/sources/atlas_registre_sources.json (ex: src-frus-1946-v04-d5). La source doit d'abord être enregistrée dans le registre : niveau, titre, url, date de consultation vivent LÀ-BAS, une seule fois.",
+        "locator": "où exactement dans la source (page, article, section, carte...) — laisser vide si identique au locator du registre",
+        "usage": "ce que cette source prouve ICI, en une phrase courte"
+      }
+    ],
+    "temoignage_personnel": false
+  },
+  "exemple_illustratif_fictif": {
+    "note": "Ceci est un exemple fictif pour montrer comment le gabarit doit être rempli — ce n'est pas une vraie donnée historique",
+    "id": "1962-fr-ch-fictif-tunnel",
+    "titre": "Exemple fictif : ouverture d'un tunnel routier alpin",
+    "annee": 1962,
+    "date_precise": "1962-06-15",
+    "date_fin": "",
+    "pays": [
+      "fr",
+      "ch"
+    ],
+    "lieu": "Col fictif des Trois-Pins",
+    "geographie": {
+      "type": "point",
+      "geometrie": {
+        "type": "Point",
+        "coordinates": [
+          6.9,
+          45.9
+        ]
+      },
+      "geometrie_ref": ""
+    },
+    "categories": [
+      "infrastructures_corridors",
+      "transport_economie_logistique"
+    ],
+    "niveau_importance": "evenement_majeur",
+    "profondeur_affichage": "regional",
+    "resume": "Ouverture d'un tunnel routier fictif reliant deux vallées, jusque-là séparées par un col fermé l'hiver.",
+    "contexte": "Le col était impraticable 4 mois par an, isolant les échanges commerciaux transfrontaliers.",
+    "deroulement": "Travaux commencés en 1958, ouverture officielle en juin 1962.",
+    "consequences": {
+      "humaines": "Désenclavement de deux vallées",
+      "economiques": "Hausse du trafic poids lourds transfrontalier",
+      "politiques": "",
+      "reglementaires": "Nouvel accord douanier bilatéral",
+      "logistiques": "Réduction du temps de trajet de 3h à 40 minutes"
+    },
+    "relations": [
+      {
+        "type": "entraine",
+        "cible_type": "evenement",
+        "cible_id": "1963-fr-ch-fictif-accord-douanier"
+      }
+    ],
+    "certitude_evenement": "confirme",
+    "etat_sources": "coherent",
+    "notes_incertitude": "",
+    "sources": [
+      {
+        "source_id": "src-fictif-archives-ministerielles-fictives-des-tra",
+        "locator": "",
+        "usage": "Archives ministérielles fictives des travaux publics"
+      }
+    ],
+    "temoignage_personnel": false
+  }
+}

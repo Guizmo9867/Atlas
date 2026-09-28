@@ -1,0 +1,462 @@
+{
+  "metadata_lot": {
+    "nom": "snapshot0_lot01_nord_est",
+    "date_reference": "1945-01-01",
+    "version": "0.7",
+    "statut": "brouillon_recherche_structure",
+    "gabarit_source": "gabarits/gabarit_entite_temporelle_atlas.json",
+    "note": "Les objets de entites[] suivent le gabarit. Géométries v0.3 : tracés PROVISOIRES dérivés d'OpenHistoricalMap (voir data/geometries/snapshot0/ et outils/geo/deriver_snapshot0_lot01.py) — à confirmer par des sources A/B.",
+    "corrections": "v0.2 (Claude, 2026-09-26) : voir docs/pour_ether/2026-09-26_corrections_lot01.md"
+  },
+  "entites": [
+    {
+      "entite_id": "territoire-su-urss",
+      "type_entite": "territoire",
+      "nom": "Union des républiques socialistes soviétiques",
+      "nom_court": "URSS",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "1922-12-30",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "etat_federal",
+          "proprietes": {
+            "souverainete_id": "urss",
+            "controle_id": "urss",
+            "alignement_id": "allies_ww2",
+            "statut_administratif": "etat_federal",
+            "note": "État parent du Snapshot 0. Les républiques fédérées doivent être représentées comme subdivisions internes distinctes."
+          },
+          "geometrie_ref": "geom-territoire-su-urss-1945-01-01",
+          "sources": [
+            {
+              "source_id": "src-britannica-russia",
+              "locator": "",
+              "usage": "formation de l'URSS le 30 décembre 1922"
+            },
+            {
+              "source_id": "src-constitution-urss-1936",
+              "locator": "",
+              "usage": "structure fédérale de l'URSS et liste des républiques fédérées"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "territoire-su-kazakhstan",
+      "type_entite": "territoire",
+      "nom": "République socialiste soviétique kazakhe",
+      "nom_court": "RSS kazakhe",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "1936-12-05",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "republique_federee_urss",
+          "proprietes": {
+            "souverainete_id": "urss",
+            "controle_id": "urss",
+            "alignement_id": "allies_ww2",
+            "statut_administratif": "republique_federee_urss",
+            "parent_id": "territoire-su-urss",
+            "note": "La Constitution soviétique de 1936 énumère la RSS kazakhe parmi les républiques fédérées. Géométrie 1945 à vérifier."
+          },
+          "geometrie_ref": "geom-territoire-su-kazakhstan-1945-01-01",
+          "sources": [
+            {
+              "source_id": "src-constitution-urss-1936",
+              "locator": "",
+              "usage": "structure fédérale de l'URSS et liste des républiques fédérées"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "territoire-su-touva",
+      "type_entite": "territoire",
+      "nom": "Oblast autonome de Touva au sein de la RSFSR",
+      "nom_court": "Touva",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "1944-10-13",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "oblast_autonome_rsfsr",
+          "proprietes": {
+            "souverainete_id": "urss",
+            "controle_id": "urss",
+            "alignement_id": "allies_ww2",
+            "statut_administratif": "oblast_autonome_rsfsr",
+            "parent_id": "territoire-su-urss",
+            "note": "La République populaire de Touva est admise dans l'URSS le 11/10/1944 puis intégrée à la RSFSR comme oblast autonome le 13/10/1944. Rattachement direct à la RSFSR : parent_id pointe provisoirement vers l'URSS tant que l'entité RSFSR n'existe pas dans le corpus."
+          },
+          "geometrie_ref": "geom-territoire-su-touva-1945-01-01",
+          "sources": [
+            {
+              "source_id": "src-archives-touva-integration-1944",
+              "locator": "",
+              "usage": "intégration à l'URSS puis à la RSFSR, octobre 1944"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "territoire-mn-mongolie",
+      "type_entite": "territoire",
+      "nom": "Mongolie extérieure (République populaire mongole)",
+      "nom_court": "Mongolie extérieure",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "1924-11-26",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "1946-01-05",
+            "precision": "exacte"
+          },
+          "statut": "etat_de_facto_statut_international_conteste",
+          "proprietes": {
+            "controle_id": "republique_populaire_mongole",
+            "souverainete_revendiquee_par": [
+              "republique_de_chine"
+            ],
+            "alignement_id": "pro_sovietique_non_belligerant",
+            "regime_id": "republique_populaire",
+            "statut_administratif": "etat_de_facto",
+            "note": "Indépendance de facto ; souveraineté encore revendiquée par la République de Chine et non encore reconnue par celle-ci au 01/01/1945 (revendication juridique, pas contrôle : souverainete_id volontairement absent, on ne force pas un souverain unique). Fortement liée à l'URSS, qui la domine politiquement et militairement sans l'avoir annexée : pas de parent_id. Non belligérante au 01/01/1945 ; entre en guerre contre le Japon le 10/08/1945 (futur passage à allies_ww2, à dater au ratissage). Reconnaissance chinoise de l'indépendance le 05/01/1946. [Décision Ether/Guizmo du 28/09/2026 ; ancienne note : Au 01/01/1945 la République populaire mongole administre effectivement le territoire. souverainete_id = revendication chinoise de jure : le mémorandum FRUS décrit encore une souveraineté chinoise de jure non exercée de facto. Reconnaissance chinoise de l'indépendance le 05/01/1946.]"
+          },
+          "geometrie_ref": "geom-territoire-mn-mongolie-1945-01-01",
+          "sources": [
+            {
+              "source_id": "src-encyclopedia-com-mongolia",
+              "locator": "",
+              "usage": "République populaire mongole proclamée le 26 novembre 1924"
+            },
+            {
+              "source_id": "src-frus-1945-v07-d662",
+              "locator": "",
+              "usage": "statut de la Mongolie extérieure"
+            },
+            {
+              "source_id": "src-frus-1946-v10-d958",
+              "locator": "",
+              "usage": "reconnaissance chinoise de l'indépendance de la Mongolie extérieure le 5 janvier 1946"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "territoire-fi-finlande",
+      "type_entite": "territoire",
+      "nom": "Finlande",
+      "nom_court": "Finlande",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "1944-09-19",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "etat_souverain_frontieres_post_armistice",
+          "proprietes": {
+            "souverainete_id": "finlande",
+            "controle_id": "finlande",
+            "alignement_id": "anti_axis_non_allied",
+            "statut_administratif": "etat_souverain",
+            "note": "Les clauses de 1944 modifient notamment Petsamo et créent le bail de Porkkala. Les forces allemandes résiduelles en Laponie seront une couche de contrôle/front séparée. Ces frontières seront confirmées par le Traité de paix de Paris avec la Finlande (signé le 10/02/1947, en vigueur le 15/09/1947). Quand le ratissage atteindra le 15/09/1947 : fermer cet état et en ouvrir un nouveau (régime du traité de paix). Alignement au 01/01/1945 (décision Ether/Guizmo du 28/09/2026) : hors des coalitions principales, mais en guerre contre l'Allemagne dans le Nord (guerre de Laponie) — statut particulier « anti_axis_non_allied », pas « Alliés »."
+          },
+          "geometrie_ref": "geom-territoire-fi-finlande-1945-01-01",
+          "sources": [
+            {
+              "source_id": "src-frus-1946-v04-d5",
+              "locator": "",
+              "usage": "clauses territoriales confirmant l'armistice du 19 septembre 1944 (Petsamo, Porkkala)"
+            },
+            {
+              "source_id": "src-uk-ts-1948-53-traite-paix-finlande",
+              "locator": "art. 2 à 4",
+              "usage": "Confirmation en 1947 des clauses territoriales de l'armistice"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "territoire-su-petsamo",
+      "type_entite": "territoire",
+      "nom": "Petsamo / Pechenga",
+      "nom_court": "Petsamo",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "1944-09-19",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "territoire_cede_urss",
+          "proprietes": {
+            "souverainete_id": "urss",
+            "controle_id": "urss",
+            "alignement_id": "allies_ww2",
+            "statut_administratif": "territoire_cede_par_armistice",
+            "parent_id": "territoire-su-urss",
+            "note": "Petsamo/Pechenga est transféré à l'URSS selon l'armistice du 19/09/1944. Le Traité de paix de Paris avec la Finlande (signé le 10/02/1947, en vigueur le 15/09/1947), art. 2, CONFIRME ce retour : le transfert date bien de 1944, 1947 en est la consécration juridique définitive. Quand le ratissage atteindra le 15/09/1947 : fermer cet état et en ouvrir un nouveau (statut_administratif : territoire_cede_par_traite_de_paix)."
+          },
+          "geometrie_ref": "geom-territoire-su-petsamo-1945-01-01",
+          "sources": [
+            {
+              "source_id": "src-frus-1946-v04-d5",
+              "locator": "",
+              "usage": "clauses territoriales confirmant l'armistice du 19 septembre 1944 (Petsamo, Porkkala)"
+            },
+            {
+              "source_id": "src-uk-ts-1948-53-traite-paix-finlande",
+              "locator": "art. 2",
+              "usage": "Confirmation en 1947 du retour de Petsamo à l'URSS décidé par l'armistice de 1944"
+            }
+          ]
+        }
+      ],
+      "relations": [
+        {
+          "type": "detache_de",
+          "cible_type": "entite",
+          "cible_id": "territoire-fi-finlande",
+          "note": "Petsamo était finlandais (traités de 1920 et 1940) jusqu'à l'armistice du 19/09/1944."
+        }
+      ]
+    },
+    {
+      "entite_id": "territoire-fi-porkkala",
+      "type_entite": "territoire",
+      "nom": "Porkkala-Udd",
+      "nom_court": "Porkkala",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "1944-09-19",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "territoire_loue_base_navale_sovietique",
+          "proprietes": {
+            "souverainete_id": "finlande",
+            "controle_id": "urss",
+            "statut_administratif": "bail_base_navale_sovietique",
+            "parent_id": "territoire-fi-finlande",
+            "note": "Souveraineté finlandaise, usage et administration soviétiques. Le texte prévoit aussi l'usage des chemins de fer, voies d'eau, routes et voies aériennes vers la base. Le Traité de paix de Paris avec la Finlande (signé le 10/02/1947, en vigueur le 15/09/1947), art. 4, CONFIRME le bail (50 ans). Au 15/09/1947 : nouvel état (bail confirmé par traité). Retour à la Finlande le 26/01/1956 (accord du 19/09/1955) : nouvel état à créer à ce moment du ratissage. Début du contrôle soviétique : PRUDENCE, pas de date unique. Yle (B) : évacuation en dix jours, barrière de la nouvelle frontière abaissée le 29/09/1944 à 8 h. Musée ferroviaire (B) : la gare de Kirkkonummi est remise à l'URSS le 03/10/1944. valid_from reste donc le 19/09/1944 (armistice, base juridique) tant qu'une source A ne date pas la prise de contrôle effective."
+          },
+          "geometrie_ref": "geom-territoire-fi-porkkala-1945-01-01",
+          "sources": [
+            {
+              "source_id": "src-frus-1946-v04-d5",
+              "locator": "",
+              "usage": "clauses territoriales confirmant l'armistice du 19 septembre 1944 (Petsamo, Porkkala)"
+            },
+            {
+              "source_id": "src-uk-ts-1948-53-traite-paix-finlande",
+              "locator": "art. 4",
+              "usage": "Confirmation en 1947 du bail de 50 ans de Porkkala-Udd"
+            },
+            {
+              "source_id": "src-yle-elava-arkisto-porkkala-1944",
+              "locator": "article du 08/09/2006",
+              "usage": "évacuation en dix jours ; frontière fermée le 29/09/1944 à 8 h"
+            },
+            {
+              "source_id": "src-rautatiemuseo-kirkkonummi-asema",
+              "locator": "photo VR1:2307",
+              "usage": "gare de Kirkkonummi remise à l’URSS le 03/10/1944"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "territoire-fi-laponie-nord-ouest",
+      "type_entite": "territoire",
+      "nom": "Laponie du nord-ouest (bras de Käsivarsi) — zone tenue par les Allemands",
+      "nom_court": "Laponie (zone allemande)",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "1944-11-29",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "zone_sous_controle_militaire_allemand",
+          "proprietes": {
+            "parent_id": "territoire-fi-finlande",
+            "souverainete_id": "finlande",
+            "controle_id": "allemagne",
+            "alignement_id": "axis_ww2",
+            "statut_administratif": "zone_de_controle_militaire",
+            "note": "Au 01/01/1945, la Finlande est hors des coalitions mais en guerre contre l'Allemagne en Laponie (guerre de Laponie). Les Allemands tiennent le « bras » nord-ouest au-delà de la Lätäseno (position « Sturmbock ») depuis l'arrêt de l'avance finlandaise le 29/11/1944 ; retrait vers Kilpisjärvi le 27/04/1945 (à dater au ratissage). Pas de bleu territorial : aucune source datée ne montre de troupes soviétiques engagées ici ce jour-là (décision Ether/Guizmo)."
+          },
+          "geometrie_ref": "geom-territoire-fi-laponie-nord-ouest-1945-01-01",
+          "sources": [
+            {
+              "source_id": "src-piirainen-lapland-war",
+              "locator": "Western Lapland",
+              "usage": "arrêt de l'avance finlandaise sur la Lätäseno le 29/11/1944 ; retrait allemand vers Kilpisjärvi le 27/04/1945"
+            },
+            {
+              "source_id": "src-metsahallitus-schutzwall-2002",
+              "locator": "position de la Lätäseno",
+              "usage": "position allemande « Sturmbock » sur la Lätäseno"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ligne_front-de-fi-laponie",
+      "type_entite": "ligne_front",
+      "nom": "Front de Laponie — position « Sturmbock » sur la Lätäseno",
+      "nom_court": "Front de Laponie",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "1944-11-29",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ligne_de_contact",
+          "proprietes": {
+            "camp_ouest_id": "allemagne",
+            "camp_est_id": "finlande",
+            "note": "Ligne de contact germano-finlandaise figée sur la Lätäseno du 29/11/1944 au 27/04/1945. Tracé = cours de la rivière (OHM) ; incertitude ≈ 5 km."
+          },
+          "geometrie_ref": "geom-ligne_front-de-fi-laponie-1945-01-01",
+          "sources": [
+            {
+              "source_id": "src-piirainen-lapland-war",
+              "locator": "Western Lapland",
+              "usage": "arrêt de l'avance finlandaise sur la Lätäseno le 29/11/1944 ; retrait allemand vers Kilpisjärvi le 27/04/1945"
+            },
+            {
+              "source_id": "src-metsahallitus-schutzwall-2002",
+              "locator": "position de la Lätäseno",
+              "usage": "position allemande « Sturmbock » sur la Lätäseno"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "geometries_a_creer": [
+    {
+      "geometrie_ref": "geom-territoire-su-urss-1945-01-01",
+      "statut": "provisoire_ohm",
+      "priorite": "haute",
+      "fichier": "data/geometries/snapshot0/geom-territoire-su-urss-1945-01-01.geojson",
+      "note": "Tracé provisoire issu d’OpenHistoricalMap : voir points_a_verifier dans le fichier."
+    },
+    {
+      "geometrie_ref": "geom-territoire-su-kazakhstan-1945-01-01",
+      "statut": "provisoire_ohm",
+      "priorite": "haute",
+      "fichier": "data/geometries/snapshot0/geom-territoire-su-kazakhstan-1945-01-01.geojson",
+      "note": "Tracé provisoire issu d’OpenHistoricalMap : voir points_a_verifier dans le fichier."
+    },
+    {
+      "geometrie_ref": "geom-territoire-su-touva-1945-01-01",
+      "statut": "provisoire_ohm",
+      "priorite": "moyenne",
+      "fichier": "data/geometries/snapshot0/geom-territoire-su-touva-1945-01-01.geojson",
+      "note": "Tracé provisoire issu d’OpenHistoricalMap : voir points_a_verifier dans le fichier."
+    },
+    {
+      "geometrie_ref": "geom-territoire-mn-mongolie-1945-01-01",
+      "statut": "provisoire_ohm",
+      "priorite": "haute",
+      "fichier": "data/geometries/snapshot0/geom-territoire-mn-mongolie-1945-01-01.geojson",
+      "note": "Tracé provisoire issu d’OpenHistoricalMap : voir points_a_verifier dans le fichier."
+    },
+    {
+      "geometrie_ref": "geom-territoire-fi-finlande-1945-01-01",
+      "statut": "provisoire_ohm",
+      "priorite": "haute",
+      "fichier": "data/geometries/snapshot0/geom-territoire-fi-finlande-1945-01-01.geojson",
+      "note": "Tracé provisoire issu d’OpenHistoricalMap : voir points_a_verifier dans le fichier."
+    },
+    {
+      "geometrie_ref": "geom-territoire-su-petsamo-1945-01-01",
+      "statut": "provisoire_ohm",
+      "priorite": "haute",
+      "fichier": "data/geometries/snapshot0/geom-territoire-su-petsamo-1945-01-01.geojson",
+      "note": "Tracé provisoire issu d’OpenHistoricalMap : voir points_a_verifier dans le fichier."
+    },
+    {
+      "geometrie_ref": "geom-territoire-fi-porkkala-1945-01-01",
+      "statut": "provisoire_ohm",
+      "priorite": "haute",
+      "fichier": "data/geometries/snapshot0/geom-territoire-fi-porkkala-1945-01-01.geojson",
+      "note": "Tracé provisoire issu d’OpenHistoricalMap : voir points_a_verifier dans le fichier."
+    },
+    {
+      "geometrie_ref": "geom-territoire-fi-laponie-nord-ouest-1945-01-01",
+      "statut": "provisoire_ohm",
+      "priorite": "haute",
+      "fichier": "data/geometries/snapshot0/geom-territoire-fi-laponie-nord-ouest-1945-01-01.geojson"
+    },
+    {
+      "geometrie_ref": "geom-ligne_front-de-fi-laponie-1945-01-01",
+      "statut": "provisoire_ohm",
+      "priorite": "haute",
+      "fichier": "data/geometries/snapshot0/geom-ligne_front-de-fi-laponie-1945-01-01.geojson"
+    }
+  ]
+}

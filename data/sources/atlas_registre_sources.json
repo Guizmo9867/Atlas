@@ -1,0 +1,1003 @@
+{
+  "metadata": {
+    "nom": "registre_sources_atlas",
+    "version": "0.6",
+    "date_creation": "2026-09-26",
+    "principe": "Une source = un source_id stable. Les fiches événements/entités peuvent référencer ce source_id et préciser l'usage/locator.",
+    "statut": "registre_initial_a_completer"
+  },
+  "sources": [
+    {
+      "source_id": "src-frus-1945-v07-d662",
+      "niveau": "A",
+      "type_source": "document_diplomatique_officiel",
+      "titre": "FRUS 1945, The Far East: China, Volume VII, document 662",
+      "institution": "U.S. Department of State, Office of the Historian",
+      "url": "https://history.state.gov/historicaldocuments/frus1945v07/d662",
+      "date_consultation": "2026-09-26",
+      "periode_couverte": [
+        "1945"
+      ],
+      "zones": [
+        "Mongolie",
+        "Chine",
+        "URSS"
+      ],
+      "usages_atlas": [
+        "statut_juridique",
+        "controle_effectif",
+        "alignement"
+      ],
+      "locator": "document 662",
+      "resume_passage": "Source utilisée pour distinguer souveraineté chinoise de jure, absence de contrôle chinois de facto et forte influence soviétique en Mongolie extérieure.",
+      "archive_locale": null,
+      "notes": ""
+    },
+    {
+      "source_id": "src-frus-1946-v10-d958",
+      "niveau": "A",
+      "type_source": "document_diplomatique_officiel",
+      "titre": "FRUS 1946, The Far East: China, Volume X, document 958",
+      "institution": "U.S. Department of State, Office of the Historian",
+      "url": "https://history.state.gov/historicaldocuments/frus1946v10/d958",
+      "date_consultation": "2026-09-26",
+      "periode_couverte": [
+        "1946"
+      ],
+      "zones": [
+        "Mongolie",
+        "Chine"
+      ],
+      "usages_atlas": [
+        "reconnaissance_internationale",
+        "changement_statut"
+      ],
+      "locator": "document 958",
+      "resume_passage": "Source utilisée pour la reconnaissance chinoise de l'indépendance de la Mongolie extérieure au début de 1946.",
+      "archive_locale": null,
+      "notes": ""
+    },
+    {
+      "source_id": "src-frus-1946-v04-d5",
+      "niveau": "A",
+      "type_source": "document_diplomatique_officiel",
+      "titre": "FRUS 1946, Volume IV, document 5 — Finlande",
+      "institution": "U.S. Department of State, Office of the Historian",
+      "url": "https://history.state.gov/historicaldocuments/frus1946v04/d5",
+      "date_consultation": "2026-09-26",
+      "periode_couverte": [
+        "1944",
+        "1946"
+      ],
+      "zones": [
+        "Finlande",
+        "URSS",
+        "Petsamo",
+        "Porkkala"
+      ],
+      "usages_atlas": [
+        "frontiere",
+        "cession_territoriale",
+        "bail_base_navale",
+        "flux_transport"
+      ],
+      "locator": "document 5",
+      "resume_passage": "Source utilisée pour les clauses territoriales finlandaises liées à l'armistice de 1944, dont Petsamo et Porkkala.",
+      "archive_locale": null,
+      "notes": ""
+    },
+    {
+      "source_id": "src-archives-touva-integration-1944",
+      "niveau": "A",
+      "type_source": "archives_regionales_officielles",
+      "titre": "Entrée de la République populaire de Touva dans l'URSS et intégration à la RSFSR en octobre 1944",
+      "institution": "Archives nationales de la République de Touva",
+      "url": "https://gosarhivrt.ru/?p=13369",
+      "date_consultation": "2026-09-26",
+      "periode_couverte": [
+        "1944"
+      ],
+      "zones": [
+        "Touva",
+        "URSS",
+        "RSFSR"
+      ],
+      "usages_atlas": [
+        "changement_statut",
+        "subdivision_administrative"
+      ],
+      "locator": "page web",
+      "resume_passage": "Source utilisée pour dater l'admission de Touva dans l'URSS et son intégration à la RSFSR comme oblast autonome.",
+      "archive_locale": null,
+      "notes": ""
+    },
+    {
+      "source_id": "src-constitution-urss-1936",
+      "niveau": "B",
+      "type_source": "transcription_document_juridique",
+      "titre": "Constitution (Fundamental Law) of the USSR, 1936",
+      "institution": "Transcription en ligne d'un texte constitutionnel soviétique",
+      "url": "https://www.marxists.org/reference/archive/stalin/works/1936/12/05.htm",
+      "date_consultation": "2026-09-26",
+      "periode_couverte": [
+        "1936",
+        "1945"
+      ],
+      "zones": [
+        "URSS",
+        "RSS soviétiques"
+      ],
+      "usages_atlas": [
+        "structure_federale",
+        "subdivisions_administratives"
+      ],
+      "locator": "articles relatifs aux républiques fédérées",
+      "resume_passage": "Source utilisée pour la structure fédérale de l'URSS et l'existence de la RSS kazakhe comme république fédérée.",
+      "archive_locale": null,
+      "notes": "À compléter plus tard par une édition officielle/numérisation primaire si disponible."
+    },
+    {
+      "source_id": "src-loc-12th-army-group-1945-01-01",
+      "niveau": "A",
+      "type_source": "carte_militaire_officielle",
+      "titre": "HQ Twelfth Army Group situation map — 1 January 1945",
+      "institution": "Library of Congress / U.S. Army",
+      "url": "https://www.loc.gov/item/2004630304/",
+      "date_consultation": "2026-09-26",
+      "periode_couverte": [
+        "1945-01-01"
+      ],
+      "zones": [
+        "France",
+        "Belgique",
+        "Luxembourg",
+        "Pays-Bas",
+        "Allemagne"
+      ],
+      "usages_atlas": [
+        "ligne_front",
+        "controle_militaire",
+        "geometrie_source"
+      ],
+      "locator": "carte datée du 1 janvier 1945",
+      "resume_passage": "Source cartographique utilisée pour reconstruire le front occidental au jour du Snapshot 0.",
+      "archive_locale": null,
+      "notes": "À télécharger/archiver localement si les conditions d'utilisation le permettent ; conserver la référence d'origine et les métadonnées de géoréférencement."
+    },
+    {
+      "source_id": "src-westpoint-russian-balkan-baltic-1944",
+      "niveau": "B",
+      "type_source": "atlas_militaire_academique",
+      "titre": "Eastern Europe, 1941 — Russian Balkan and Baltic Campaigns, Operations 19 Aug.–31 Dec. 1944 (carte n° 31, West Point Atlas, WWII European Theater)",
+      "institution": "United States Military Academy, West Point — Department of History, Digital History Center",
+      "url": "https://dhc.westpoint.edu/wp-content/uploads/sites/6/2025/01/WWIIEurope31.jpg",
+      "date_consultation": "2026-09-28",
+      "periode_couverte": [
+        "1944-08-19",
+        "1944-12-31"
+      ],
+      "zones": [
+        "Europe orientale",
+        "Balkans",
+        "Pays baltes",
+        "Hongrie",
+        "Pologne"
+      ],
+      "usages_atlas": [
+        "ligne_front",
+        "controle_militaire",
+        "geometrie_source"
+      ],
+      "locator": "carte n° 31, JPG 5100×3300 px ; trait rouge plein « 31 Dec. » = front au 31/12/1944",
+      "resume_passage": "Position du front germano-soviétique au 31/12/1944, de la Courlande à la Yougoslavie (dont tête de pont de Memel et anneau de Budapest) ; positions antérieures en pointillés.",
+      "archive_locale": "téléchargée par outils/geo/deriver_snapshot0_fronts.py dans le cache (non versionnée)",
+      "notes": "Lien exact fourni par Ether le 28/09/2026. Géoréférencée par Claude (23 points d'appui, Lambert + plaque mince) : erreur de validation croisée ≈ 9 km en moyenne ; carte stylisée → incertitude retenue 15 km."
+    },
+    {
+      "source_id": "src-ushmm-german-administration-europe-1944",
+      "niveau": "B",
+      "type_source": "carte_historique_institutionnelle",
+      "titre": "German administration of Europe, 1944",
+      "institution": "United States Holocaust Memorial Museum",
+      "url": "https://encyclopedia.ushmm.org/content/en/map/german-administration-of-europe-1944",
+      "date_consultation": "2026-09-26",
+      "periode_couverte": [
+        "1944"
+      ],
+      "zones": [
+        "Europe occupée par l'Allemagne nazie"
+      ],
+      "usages_atlas": [
+        "administration",
+        "occupation",
+        "contexte_cartographique"
+      ],
+      "locator": "carte",
+      "resume_passage": "Source utilisée pour distinguer administrations allemandes, territoires occupés et États juridiquement distincts.",
+      "archive_locale": null,
+      "notes": ""
+    },
+    {
+      "source_id": "src-frus-1943-v01-d684",
+      "niveau": "A",
+      "type_source": "document_diplomatique_officiel",
+      "titre": "FRUS 1943, Volume I, document 684 — Déclaration de Moscou sur l'Autriche",
+      "institution": "U.S. Department of State, Office of the Historian",
+      "url": "https://history.state.gov/historicaldocuments/frus1943v01/d684",
+      "date_consultation": "2026-09-26",
+      "periode_couverte": [
+        "1943",
+        "1945"
+      ],
+      "zones": [
+        "Autriche",
+        "Allemagne"
+      ],
+      "usages_atlas": [
+        "statut_juridique",
+        "annexion",
+        "souverainete"
+      ],
+      "locator": "document 684",
+      "resume_passage": "Source utilisée pour le statut allié de l'Autriche distinct de son incorporation effective au Reich.",
+      "archive_locale": null,
+      "notes": ""
+    },
+    {
+      "source_id": "src-frus-1944-v04-d843",
+      "niveau": "A",
+      "type_source": "document_diplomatique_officiel",
+      "titre": "FRUS 1944, Volume IV, document 843 — États baltes",
+      "institution": "U.S. Department of State, Office of the Historian",
+      "url": "https://history.state.gov/historicaldocuments/frus1944v04/d843",
+      "date_consultation": "2026-09-26",
+      "periode_couverte": [
+        "1944",
+        "1945"
+      ],
+      "zones": [
+        "Estonie",
+        "Lettonie",
+        "Lituanie",
+        "URSS"
+      ],
+      "usages_atlas": [
+        "statut_juridique",
+        "annexion_contestee",
+        "reconnaissance_internationale"
+      ],
+      "locator": "document 843",
+      "resume_passage": "Source utilisée pour la non-reconnaissance américaine de l'incorporation des États baltes dans l'URSS.",
+      "archive_locale": null,
+      "notes": ""
+    },
+    {
+      "source_id": "src-frus-1944-v03-d1164",
+      "niveau": "A",
+      "type_source": "document_diplomatique_officiel",
+      "titre": "FRUS 1944, Volume III, document 1164 — question des frontières polonaises",
+      "institution": "U.S. Department of State, Office of the Historian",
+      "url": "https://history.state.gov/historicaldocuments/frus1944v03/d1164",
+      "date_consultation": "2026-09-26",
+      "periode_couverte": [
+        "1944",
+        "1945"
+      ],
+      "zones": [
+        "Pologne",
+        "URSS",
+        "Allemagne"
+      ],
+      "usages_atlas": [
+        "frontiere_contestee",
+        "statut_juridique",
+        "revendication"
+      ],
+      "locator": "document 1164",
+      "resume_passage": "Source utilisée pour éviter d'appliquer rétroactivement les frontières polonaises de l'après-guerre au Snapshot 0.",
+      "archive_locale": null,
+      "notes": ""
+    },
+    {
+      "source_id": "src-frus-1945-v04-d432",
+      "niveau": "A",
+      "type_source": "document_diplomatique_officiel",
+      "titre": "FRUS 1945, Volume IV, document 432 — restauration de la Tchécoslovaquie",
+      "institution": "U.S. Department of State, Office of the Historian",
+      "url": "https://history.state.gov/historicaldocuments/frus1945v04/d432",
+      "date_consultation": "2026-09-26",
+      "periode_couverte": [
+        "1945"
+      ],
+      "zones": [
+        "Tchécoslovaquie",
+        "Ruthénie subcarpatique",
+        "URSS"
+      ],
+      "usages_atlas": [
+        "statut_juridique",
+        "frontiere",
+        "souverainete"
+      ],
+      "locator": "document 432",
+      "resume_passage": "Source utilisée pour la référence aux frontières tchécoslovaques d'avant-guerre et le statut encore non cédé de la Ruthénie au début de 1945.",
+      "archive_locale": null,
+      "notes": ""
+    },
+    {
+      "source_id": "src-avalon-romania-armistice-1944",
+      "niveau": "A",
+      "type_source": "texte_armistice",
+      "titre": "Agreement Concerning an Armistice between the United States of America, the United Kingdom and the Union of Soviet Socialist Republics, on the one hand, and Rumania, on the other hand",
+      "institution": "Avalon Project, Yale Law School — transcription d'un texte officiel",
+      "url": "https://avalon.law.yale.edu/wwii/rumania.asp",
+      "date_consultation": "2026-09-26",
+      "periode_couverte": [
+        "1944",
+        "1945"
+      ],
+      "zones": [
+        "Roumanie",
+        "URSS",
+        "Transylvanie"
+      ],
+      "usages_atlas": [
+        "frontiere",
+        "armistice",
+        "statut_juridique"
+      ],
+      "locator": "texte de l'armistice",
+      "resume_passage": "Source utilisée pour la frontière soviéto-roumaine et le statut du second arbitrage de Vienne.",
+      "archive_locale": null,
+      "notes": ""
+    },
+    {
+      "source_id": "src-avalon-hungary-armistice-1945",
+      "niveau": "A",
+      "type_source": "texte_armistice",
+      "titre": "Agreement Concerning an Armistice between the Allied Powers and Hungary",
+      "institution": "Avalon Project, Yale Law School — transcription d'un texte officiel",
+      "url": "https://avalon.law.yale.edu/wwii/hungary.asp",
+      "date_consultation": "2026-09-26",
+      "periode_couverte": [
+        "1945-01-20"
+      ],
+      "zones": [
+        "Hongrie",
+        "Roumanie",
+        "Tchécoslovaquie",
+        "Yougoslavie"
+      ],
+      "usages_atlas": [
+        "frontiere",
+        "armistice",
+        "changement_statut"
+      ],
+      "locator": "texte de l'armistice",
+      "resume_passage": "Source utilisée pour rappeler que les obligations territoriales hongroises entrent en vigueur le 20 janvier, pas au Snapshot 0.",
+      "archive_locale": null,
+      "notes": ""
+    },
+    {
+      "source_id": "src-avalon-bulgaria-armistice-1944",
+      "niveau": "A",
+      "type_source": "texte_armistice",
+      "titre": "Agreement Concerning an Armistice between the Allied Powers and Bulgaria",
+      "institution": "Avalon Project, Yale Law School — transcription d'un texte officiel",
+      "url": "https://avalon.law.yale.edu/wwii/bulgaria.asp",
+      "date_consultation": "2026-09-26",
+      "periode_couverte": [
+        "1944",
+        "1945"
+      ],
+      "zones": [
+        "Bulgarie",
+        "Grèce",
+        "Yougoslavie"
+      ],
+      "usages_atlas": [
+        "retrait_occupation",
+        "frontiere",
+        "armistice"
+      ],
+      "locator": "texte de l'armistice",
+      "resume_passage": "Source utilisée pour le retrait bulgare des territoires grecs et yougoslaves occupés pendant la guerre.",
+      "archive_locale": null,
+      "notes": ""
+    },
+    {
+      "source_id": "src-britannica-russia",
+      "niveau": "B",
+      "type_source": "encyclopedie",
+      "titre": "Encyclopaedia Britannica — Russia (formation de l'URSS, 30 décembre 1922)",
+      "institution": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/place/Russia",
+      "date_consultation": "2026-09-25",
+      "periode_couverte": [
+        "1922"
+      ],
+      "zones": [
+        "URSS"
+      ],
+      "usages_atlas": [
+        "date_creation_etat"
+      ],
+      "locator": "section histoire — formation de l'URSS",
+      "resume_passage": "Source utilisée pour la date de formation de l'URSS (30/12/1922).",
+      "archive_locale": null,
+      "notes": "Ajoutée par Claude le 2026-09-26 : citée dans le lot 01 mais absente du registre."
+    },
+    {
+      "source_id": "src-encyclopedia-com-mongolia",
+      "niveau": "B",
+      "type_source": "encyclopedie",
+      "titre": "Encyclopedia.com — Mongolia (proclamation de la République populaire mongole, 26 novembre 1924)",
+      "institution": "Encyclopedia.com",
+      "url": "https://www.encyclopedia.com/places/asia/chinese-political-geography/mongolia",
+      "date_consultation": "2026-09-25",
+      "periode_couverte": [
+        "1924"
+      ],
+      "zones": [
+        "Mongolie"
+      ],
+      "usages_atlas": [
+        "date_creation_etat"
+      ],
+      "locator": "section histoire",
+      "resume_passage": "Source utilisée pour la date de proclamation de la République populaire mongole (26/11/1924).",
+      "archive_locale": null,
+      "notes": "Ajoutée par Claude le 2026-09-26 : citée dans le lot 01 mais absente du registre."
+    },
+    {
+      "source_id": "src-uk-ts-1948-53-traite-paix-finlande",
+      "niveau": "A",
+      "type_source": "traite_international",
+      "titre": "Treaty of Peace with Finland, Paris, 10 February 1947 — UK Treaty Series No. 53 (1948)",
+      "institution": "UK Foreign, Commonwealth & Development Office — Treaty Series",
+      "url": "https://treaties.fcdo.gov.uk/data/Library2/pdf/1948-TS0053.pdf",
+      "date_consultation": "2026-09-26",
+      "periode_couverte": [
+        "1944",
+        "1947"
+      ],
+      "zones": [
+        "Finlande",
+        "URSS",
+        "Petsamo",
+        "Porkkala"
+      ],
+      "usages_atlas": [
+        "frontiere",
+        "cession_territoriale",
+        "bail_base_navale",
+        "changement_statut"
+      ],
+      "locator": "art. 2 (Petsamo), art. 4 (Porkkala), art. 36 + protocole de dépôt des ratifications (entrée en vigueur)",
+      "resume_passage": "Art. 2 : la Finlande confirme le retour de Petsamo (Pechenga) à l'URSS. Art. 4 : la Finlande confirme le bail de 50 ans de Porkkala-Udd à l'URSS (base navale). Signé le 10/02/1947, en vigueur le 15/09/1947.",
+      "archive_locale": null,
+      "notes": "Vérifié par Claude le 2026-09-26 sur le PDF officiel."
+    },
+    {
+      "source_id": "src-openhistoricalmap",
+      "niveau": "C",
+      "type_source": "base_cartographique_collaborative",
+      "titre": "OpenHistoricalMap — relations administratives datées (start_date / end_date)",
+      "institution": "OpenHistoricalMap (communauté, licence CC0)",
+      "url": "https://www.openhistoricalmap.org",
+      "date_consultation": "2026-09-26",
+      "periode_couverte": [
+        "1945"
+      ],
+      "zones": [
+        "URSS",
+        "Finlande",
+        "Mongolie",
+        "Kazakhstan",
+        "Touva"
+      ],
+      "usages_atlas": [
+        "geometrie_source",
+        "frontiere"
+      ],
+      "locator": "préciser le numéro de relation dans chaque fiche (ex. relation 2957472)",
+      "resume_passage": "Tracés de frontières datés, extraits via l’API Overpass OHM le 2026-09-26. Beaucoup de segments reprennent des tracés officiels modernes (LSIB du Département d’État américain, cadastres nationaux) là où la frontière n’a pas bougé.",
+      "archive_locale": "outils/geo/deriver_snapshot0_lot01.py (refait l’extraction)",
+      "notes": "Niveau C : compilation collaborative. Selon le récap technique, OHM est une référence de COMPARAISON, jamais la base de vérité → toute géométrie qui en vient reste « provisoire » tant qu’une source A/B ne l’a pas confirmée."
+    },
+    {
+      "source_id": "src-natural-earth-10m",
+      "niveau": "B",
+      "type_source": "donnees_geographiques",
+      "titre": "Natural Earth 1:10m — Land, Minor Islands",
+      "institution": "Natural Earth (domaine public)",
+      "url": "https://www.naturalearthdata.com",
+      "date_consultation": "2026-09-26",
+      "periode_couverte": [
+        "actuel"
+      ],
+      "zones": [
+        "monde"
+      ],
+      "usages_atlas": [
+        "trait_de_cote"
+      ],
+      "locator": "ne_10m_land, ne_10m_minor_islands",
+      "resume_passage": "Trait de côte utilisé pour retirer les eaux territoriales des tracés OHM (précision ~1 km).",
+      "archive_locale": null,
+      "notes": "Géographie physique actuelle : les côtes ont peu changé depuis 1945, sauf lacs de barrage et mer d’Aral."
+    },
+    {
+      "source_id": "src-cshapes-2-0",
+      "niveau": "B",
+      "type_source": "jeu_de_donnees_academique",
+      "titre": "CShapes 2.0 — frontières des États 1886-2019",
+      "institution": "ETH Zürich (Schvitz, Girardin, Rüegger, Weidmann, Cederman, Gleditsch, 2022) — licence CC BY-NC-SA 4.0",
+      "url": "https://icr.ethz.ch/data/cshapes/",
+      "date_consultation": "2026-09-26",
+      "periode_couverte": [
+        "1886",
+        "2019"
+      ],
+      "zones": [
+        "monde"
+      ],
+      "usages_atlas": [
+        "controle_geometrie"
+      ],
+      "locator": "CShapes-2.0.geojson, entités valides au 1945-01-01",
+      "resume_passage": "Frontières d’États datées, fondées surtout sur la reconnaissance internationale. Utilisé UNIQUEMENT pour comparer avec OHM.",
+      "archive_locale": null,
+      "notes": "Licence NON COMMERCIALE et « partage à l’identique » : ne pas copier ses tracés dans l’Atlas. Limites constatées : pas de subdivisions (RSS), Petsamo toujours finlandais au 01/01/1945, frontière polonaise d’avant-guerre jusqu’au 07/05/1945."
+    },
+    {
+      "source_id": "src-yle-elava-arkisto-porkkala-1944",
+      "niveau": "B",
+      "type_source": "archives_audiovisuelles_institutionnelles",
+      "titre": "« Porkkala tyhjennettiin kymmenessä päivässä » (Porkkala vidée en dix jours)",
+      "institution": "Yle, Elävä arkisto (archives de la radiotélévision publique finlandaise)",
+      "url": "https://yle.fi/aihe/artikkeli/2006/09/08/porkkala-tyhjennettiin-kymmenessa-paivassa",
+      "date_consultation": "2026-09-28",
+      "periode_couverte": [
+        "1944"
+      ],
+      "zones": [
+        "Porkkala",
+        "Finlande",
+        "URSS"
+      ],
+      "usages_atlas": [
+        "changement_controle",
+        "deplacement_population"
+      ],
+      "locator": "article du 08/09/2006",
+      "resume_passage": "« Porkkalan vuokra-alue piti tyhjentää kymmenessä päivässä » ; « Raja-alueen puomi laskeutui 29. syyskuuta 1944 tasan klo 8 » : la zone devait être évacuée en dix jours, la barrière de la nouvelle frontière est abaissée le 29/09/1944 à 8 h.",
+      "archive_locale": null,
+      "notes": "Apportée par Ether le 28/09/2026, citations vérifiées par Claude. Évacuation et fermeture de la frontière ≠ forcément prise de contrôle complète : chercher une source A."
+    },
+    {
+      "source_id": "src-rautatiemuseo-kirkkonummi-asema",
+      "niveau": "B",
+      "type_source": "notice_de_collection_museale",
+      "titre": "Kirkkonummen aseman portti (portail de la gare de Kirkkonummi), photographie VR1:2307",
+      "institution": "Suomen Rautatiemuseo (Musée ferroviaire finlandais), via Finna",
+      "url": "https://www.finna.fi/Record/musketti_rautatie.M014:VR1:2307",
+      "date_consultation": "2026-09-28",
+      "periode_couverte": [
+        "1944",
+        "1956"
+      ],
+      "zones": [
+        "Porkkala",
+        "Finlande",
+        "URSS"
+      ],
+      "usages_atlas": [
+        "infrastructure",
+        "changement_controle"
+      ],
+      "locator": "notice de la photo VR1:2307 (photo datée du 26/01/1956)",
+      "resume_passage": "« Kirkkonummi asema jäi Neuvostoliitolle luovutetulle Porkkalan vuokra-alueelle 3.10.1944 - 1.5.1956 väliseksi ajaksi » : la gare de Kirkkonummi est dans la zone remise à l’URSS du 03/10/1944 au 01/05/1956.",
+      "archive_locale": null,
+      "notes": "Apportée par Ether le 28/09/2026, citation vérifiée par Claude. Deux écarts à noter : début le 03/10/1944 (et non le 29/09) et fin le 01/05/1956 (et non le 26/01/1956, date du retour de la zone). Utile plus tard pour l’entité « gare » de la couche infrastructures."
+    },
+    {
+      "source_id": "src-historyrussia-urss-pkwn-frontiere-1944-07-27",
+      "niveau": "A",
+      "type_source": "document_diplomatique_archive",
+      "titre": "Accord entre le gouvernement de l’URSS et le Comité polonais de libération nationale (PKWN) sur la frontière soviéto-polonaise, Moscou, 27 juillet 1944",
+      "institution": "Bibliothèque électronique des documents historiques / fonds AVP URSS et archives du ministère polonais des Affaires étrangères",
+      "url": "https://docs.historyrussia.org/ru/nodes/270306-soglashenie-mezhdu-pravitelstvom-soyuza-sovetskih-sotsialisticheskih-respublik-i-polskim-komitetom-natsionalnogo-osvobozhdeniya-o-sovetsko-polskoy-granitse-moskva-27-iyulya-1944-g",
+      "date_consultation": "2026-09-28",
+      "periode_couverte": [
+        "1944-07-27",
+        "1945-01-01"
+      ],
+      "zones": [
+        "Pologne",
+        "URSS",
+        "Biélorussie",
+        "Ukraine"
+      ],
+      "usages_atlas": [
+        "frontiere_orientale_pologne",
+        "accord_bilateral",
+        "snapshot0"
+      ],
+      "locator": "document du 27 juillet 1944",
+      "resume_passage": "Accord bilatéral PKWN–URSS fixant une frontière fondée sur la ligne Curzon. À utiliser comme base opérationnelle pour le tracé oriental au Snapshot 0, sans le présenter comme un règlement international définitif.",
+      "notes": "Source primaire/archivistique. Le statut international de la frontière reste contesté à cette date. [Apportée par Ether (lot 02), URL vérifiée par Claude le 28/09/2026.]",
+      "archive_locale": null
+    },
+    {
+      "source_id": "src-uwb-bialystok-delimitation",
+      "niveau": "B",
+      "type_source": "article_academique",
+      "titre": "Przyczynek do kwestii delimitacji granicy wschodniej Polski po II wojnie światowej z uwzględnieniem odcinka białostockiego",
+      "institution": "Université de Białystok",
+      "url": "https://repozytorium.uwb.edu.pl/jspui/handle/11320/829",
+      "date_consultation": "2026-09-28",
+      "periode_couverte": [
+        "1944",
+        "1945"
+      ],
+      "zones": [
+        "Białystok",
+        "Pologne",
+        "RSS de Biélorussie"
+      ],
+      "usages_atlas": [
+        "verification_bialystok",
+        "incertitude_frontiere",
+        "delimitation"
+      ],
+      "locator": "résumé et étude du secteur de Białystok",
+      "resume_passage": "Confirme l’existence de l’accord secret du 27 juillet 1944 fondé sur la ligne Curzon, mais montre que le statut pratique du secteur de Białystok demeure encore disputé/ambigu jusqu’en 1945.",
+      "notes": "À utiliser pour documenter l’incertitude, pas pour remplacer le texte de l’accord. [Apportée par Ether (lot 02), URL vérifiée par Claude le 28/09/2026.]",
+      "archive_locale": null
+    },
+    {
+      "source_id": "src-frus-1945-v05-d106",
+      "niveau": "A",
+      "type_source": "document_diplomatique_officiel",
+      "titre": "FRUS 1945, Europe, Volume V, document 106 — position américaine sur la représentation polonaise",
+      "institution": "U.S. Department of State, Office of the Historian",
+      "url": "https://history.state.gov/historicaldocuments/frus1945v05/d106",
+      "date_consultation": "2026-09-28",
+      "periode_couverte": [
+        "1945-01-01",
+        "1945-01-10"
+      ],
+      "zones": [
+        "Pologne",
+        "Royaume-Uni",
+        "États-Unis"
+      ],
+      "usages_atlas": [
+        "reconnaissance_gouvernementale",
+        "statut_pologne"
+      ],
+      "locator": "note 2",
+      "resume_passage": "Le 1er janvier 1945, les États-Unis maintiennent encore leurs relations diplomatiques formelles avec le gouvernement polonais en exil à Londres.",
+      "notes": "[Apportée par Ether (lot 02), URL vérifiée par Claude le 28/09/2026.]",
+      "archive_locale": null
+    },
+    {
+      "source_id": "src-frus-1945-v05-d104",
+      "niveau": "A",
+      "type_source": "document_diplomatique_officiel",
+      "titre": "FRUS 1945, Europe, Volume V, document 104 — échange Roosevelt/Staline sur le gouvernement provisoire polonais",
+      "institution": "U.S. Department of State, Office of the Historian",
+      "url": "https://history.state.gov/historicaldocuments/frus1945v05/d104",
+      "date_consultation": "2026-09-28",
+      "periode_couverte": [
+        "1944-12-31",
+        "1945-01-05"
+      ],
+      "zones": [
+        "Pologne",
+        "URSS"
+      ],
+      "usages_atlas": [
+        "gouvernement_provisoire",
+        "reconnaissance_sovietique",
+        "evenement_futur_janvier"
+      ],
+      "locator": "note 6",
+      "resume_passage": "Le PKWN est transformé en Gouvernement provisoire le 31 décembre 1944. La note éditoriale FRUS date l’annonce de la reconnaissance soviétique du 5 janvier 1945.",
+      "notes": "Un autre document FRUS rétrospectif formule la reconnaissance comme accordée le 1er janvier. Pour la timeline journalière, conserver l’incertitude et privilégier l’annonce documentée du 5 janvier tant qu’une source primaire plus précise n’a pas été archivée. [Apportée par Ether (lot 02), URL vérifiée par Claude le 28/09/2026.]",
+      "archive_locale": null
+    },
+    {
+      "source_id": "src-frus-1945-v03-d380",
+      "niveau": "A",
+      "type_source": "document_diplomatique_officiel",
+      "titre": "FRUS 1945, European Advisory Commission; Austria; Germany, Volume III, document 380 — Report on the Work of the European Advisory Commission",
+      "institution": "U.S. Department of State, Office of the Historian",
+      "url": "https://history.state.gov/historicaldocuments/frus1945v03/d380",
+      "date_consultation": "2026-09-28",
+      "periode_couverte": [
+        "1944-09-12",
+        "1945"
+      ],
+      "zones": [
+        "Allemagne",
+        "Berlin"
+      ],
+      "usages_atlas": [
+        "frontiere_reference_1937",
+        "allemagne",
+        "occupation_future"
+      ],
+      "locator": "résumé du protocole signé le 12 septembre 1944",
+      "resume_passage": "Rapport sur les travaux de la Commission consultative européenne : le protocole du 12/09/1944 définit trois zones d'occupation « within her frontiers as they were on 31st December, 1937 » et trois secteurs à Berlin.",
+      "notes": "Cette ligne est une référence alliée de travail, pas une description de toutes les zones effectivement administrées par le Reich au 1er janvier 1945. [Claude, 28/09/2026 : identifiant corrigé de « src-frus-1944-v01-d380 » en « src-frus-1945-v03-d380 » pour suivre l'URL (FRUS 1945, vol. III, doc. 380).] [Apportée par Ether (lot 02), URL vérifiée par Claude le 28/09/2026.]",
+      "archive_locale": null
+    },
+    {
+      "source_id": "src-frus-1943-d366",
+      "niveau": "A",
+      "type_source": "document_diplomatique_officiel",
+      "titre": "FRUS 1943, document 366 — Germany–Austria, Territorial Problems: The Austro-German Frontier",
+      "institution": "U.S. Department of State, Office of the Historian",
+      "url": "https://history.state.gov/historicaldocuments/frus1943/d366",
+      "date_consultation": "2026-09-28",
+      "periode_couverte": [
+        "1938",
+        "1943",
+        "1945"
+      ],
+      "zones": [
+        "Autriche",
+        "Allemagne"
+      ],
+      "usages_atlas": [
+        "frontiere_autriche_allemagne",
+        "geometrie_reference"
+      ],
+      "locator": "section i — The Problem",
+      "resume_passage": "Documente la frontière austro-allemande de 1937 et le petit transfert administratif de 316 km² vers la Bavière après l’Anschluss.",
+      "notes": "[Apportée par Ether (lot 02), URL vérifiée par Claude le 28/09/2026.]",
+      "archive_locale": null
+    },
+    {
+      "source_id": "src-frus-1944-v04-d773",
+      "niveau": "A",
+      "type_source": "document_diplomatique_officiel",
+      "titre": "FRUS 1944, Europe, Volume IV, document 773 — Baltic States and the Soviet Union",
+      "institution": "U.S. Department of State, Office of the Historian",
+      "url": "https://history.state.gov/historicaldocuments/frus1944v04/d773",
+      "date_consultation": "2026-09-28",
+      "periode_couverte": [
+        "1940",
+        "1944",
+        "1945"
+      ],
+      "zones": [
+        "Estonie",
+        "Lettonie",
+        "Lituanie",
+        "URSS"
+      ],
+      "usages_atlas": [
+        "souverainete_contestee",
+        "non_reconnaissance",
+        "pays_baltes"
+      ],
+      "locator": "section (1) The Baltic States",
+      "resume_passage": "Expose simultanément la position soviétique (intégration des trois États baltes à l’URSS) et la position américaine de non-reconnaissance de cette incorporation.",
+      "notes": "Très utile pour éviter de transformer l’appartenance administrative soviétique en souveraineté internationale incontestée. [Apportée par Ether (lot 02), URL vérifiée par Claude le 28/09/2026.]",
+      "archive_locale": null
+    },
+    {
+      "source_id": "src-ushmm-lithuania",
+      "niveau": "B",
+      "type_source": "synthese_institutionnelle",
+      "titre": "Lithuania — Holocaust Encyclopedia",
+      "institution": "United States Holocaust Memorial Museum",
+      "url": "https://encyclopedia.ushmm.org/content/en/article/lithuania",
+      "date_consultation": "2026-09-28",
+      "periode_couverte": [
+        "1939",
+        "1940",
+        "1944"
+      ],
+      "zones": [
+        "Lituanie",
+        "Klaipėda/Memel"
+      ],
+      "usages_atlas": [
+        "memel_1939",
+        "occupation",
+        "reoccupation_sovietique"
+      ],
+      "locator": "paragraphes sur 1939–1944",
+      "resume_passage": "Rappelle la cession du territoire de Memel/Klaipėda à l’Allemagne en mars 1939, l’annexion soviétique de la Lituanie en 1940 et la réoccupation soviétique de la majeure partie du pays en 1944.",
+      "notes": "[Apportée par Ether (lot 02), URL vérifiée par Claude le 28/09/2026.]",
+      "archive_locale": null
+    },
+    {
+      "source_id": "src-lituanistika-samogitie-courlande-2021",
+      "niveau": "B",
+      "type_source": "article_academique",
+      "titre": "Žemaitijos–Kuršo karinis gynybinis placdarmas: XX a. pirmosios pusės patirtys",
+      "institution": "Istorija / Lituanistika — Vytautas Jokubauskas, Nedas Ignatavičius, Titas Tamkvaitis",
+      "url": "https://www.lituanistika.lt/content/97017",
+      "date_consultation": "2026-09-28",
+      "periode_couverte": [
+        "1944-10-10",
+        "1945-05-09"
+      ],
+      "zones": [
+        "Courlande",
+        "Lettonie",
+        "Klaipėda",
+        "Lituanie"
+      ],
+      "usages_atlas": [
+        "poche_courlande",
+        "controle_allemand",
+        "klaipeda_janvier_1945"
+      ],
+      "locator": "résumé anglais/lituanien et article, pp. 94–142",
+      "resume_passage": "Situe la formation de la poche de Courlande à partir du 10 octobre 1944 et indique que Klaipėda reste défendue par les forces allemandes jusqu’au 28 janvier 1945.",
+      "notes": "Source B académique ; utile pour le Snapshot 0 et pour préparer l’événement du 28 janvier. [Apportée par Ether (lot 02), URL vérifiée par Claude le 28/09/2026.]",
+      "archive_locale": null
+    },
+    {
+      "source_id": "src-ushmm-danzig",
+      "niveau": "B",
+      "type_source": "synthese_institutionnelle",
+      "titre": "Danzig — Holocaust Encyclopedia",
+      "institution": "United States Holocaust Memorial Museum",
+      "url": "https://encyclopedia.ushmm.org/content/en/article/danzig",
+      "date_consultation": "2026-09-28",
+      "periode_couverte": [
+        "1939",
+        "1945"
+      ],
+      "zones": [
+        "Dantzig/Gdańsk",
+        "Allemagne",
+        "Pologne"
+      ],
+      "usages_atlas": [
+        "annexion_dantzig",
+        "statut_territorial"
+      ],
+      "locator": "section sur septembre 1939",
+      "resume_passage": "Décrit l’annexion unilatérale de la Ville libre de Dantzig par l’Allemagne après l’invasion de la Pologne.",
+      "notes": "Le règlement international définitif n’est pas encore fixé au 1er janvier 1945. [Apportée par Ether (lot 02), URL vérifiée par Claude le 28/09/2026.]",
+      "archive_locale": null
+    },
+    {
+      "source_id": "src-ushmm-administration-pologne",
+      "niveau": "B",
+      "type_source": "synthese_institutionnelle",
+      "titre": "German Administration of Poland",
+      "institution": "United States Holocaust Memorial Museum",
+      "url": "https://encyclopedia.ushmm.org/content/en/article/german-administration-of-poland",
+      "date_consultation": "2026-09-28",
+      "periode_couverte": [
+        "1939",
+        "1944",
+        "1945"
+      ],
+      "zones": [
+        "Pologne",
+        "Allemagne"
+      ],
+      "usages_atlas": [
+        "annexions_directes",
+        "gouvernement_general",
+        "administration_allemande"
+      ],
+      "locator": "paragraphes sur l’administration allemande après octobre 1939",
+      "resume_passage": "Distingue les territoires polonais annexés directement au Reich (dont Warthegau, Dantzig-Prusse-Occidentale, etc.) du Gouvernement général.",
+      "notes": "Au 1er janvier 1945, ces cadres administratifs doivent être croisés avec la ligne de front, car une partie du territoire est déjà passée sous contrôle soviétique/polonais. [Apportée par Ether (lot 02), URL vérifiée par Claude le 28/09/2026.]",
+      "archive_locale": null
+    },
+    {
+      "source_id": "src-frus-1939-v01-d88",
+      "niveau": "A",
+      "type_source": "document_diplomatique_officiel",
+      "titre": "FRUS 1939, General, Volume I, document 88 — télégramme du ministre américain en Lituanie (Norem), Kaunas, 23 mars 1939",
+      "institution": "U.S. Department of State, Office of the Historian",
+      "url": "https://history.state.gov/historicaldocuments/frus1939v01/d88",
+      "date_consultation": "2026-09-28",
+      "periode_couverte": [
+        "1939-03-23"
+      ],
+      "zones": [
+        "Memel/Klaipėda",
+        "Lituanie",
+        "Allemagne"
+      ],
+      "usages_atlas": [
+        "cession_territoriale",
+        "memel_1939"
+      ],
+      "locator": "document 88",
+      "resume_passage": "« The occupation of Memel territory effected today. German troops entered at 5 this morning and Hitler arrived at 2 p.m. »",
+      "archive_locale": null,
+      "notes": "Citée par Ether dans le lot 02 sous l'ID « src-frus-1939-v01-d88-memel » mais absente du delta : retrouvée et vérifiée par Claude le 28/09/2026."
+    },
+    {
+      "source_id": "src-trames-2025-baltic-border-policy-1944",
+      "niveau": "B",
+      "type_source": "article_academique",
+      "titre": "Toomas Alatalu, « Stalin's Geopolitics and Border Policy 1944: From the Heart of Asia (In Full Secrecy) to the Baltic Sea », TRAMES, vol. 29, n° 2, 2025, p. 107-131",
+      "institution": "Estonian Academy Publishers — TRAMES",
+      "url": "https://doi.org/10.3176/tr.2025.2.01",
+      "date_consultation": "2026-09-28",
+      "periode_couverte": [
+        "1944",
+        "1945"
+      ],
+      "zones": [
+        "Estonie",
+        "Lettonie",
+        "RSFSR",
+        "Touva"
+      ],
+      "usages_atlas": [
+        "transferts_administratifs",
+        "frontieres_internes_urss"
+      ],
+      "locator": "passages Petserimaa / Narva / Abrene",
+      "resume_passage": "D'après la lecture d'Ether (28/09/2026) : Petserimaa transféré vers la RSFSR dès août 1944, Abrene également ; rive orientale de la Narva incorporée au district de Leningrad le 24/11/1944 ; formalisation de ce dernier transfert côté RSS d'Estonie le 18/01/1945.",
+      "archive_locale": null,
+      "notes": "Citée par Ether dans le lot 02 mais absente du delta : référence retrouvée par Claude (résumé seulement). Wikipédia (niveau C, non enregistré) donne : rive est de la Narva transférée par décret du Présidium du Soviet suprême de l'URSS en novembre 1944 ; acceptation par le Présidium de la RSS d'Estonie le 18/01/1945 ; Abrene rattachée en 1944, formalisée en 1946. OHM date le changement au 16/01/1945 : écart à trancher."
+    },
+    {
+      "source_id": "src-metsahallitus-schutzwall-2002",
+      "niveau": "B",
+      "type_source": "rapport_institutionnel",
+      "titre": "Tapani Postila, « Schutzwall – sodanaikainen puolustusasema Urho Kekkosen kansallispuistossa », 2e éd.",
+      "institution": "Metsähallitus (Office national des forêts finlandais) — Luonnonsuojelujulkaisuja, série A, n° 71, 2002",
+      "url": "https://julkaisut.metsa.fi/wp-content/uploads/sites/2/2019/02/a71.pdf",
+      "date_consultation": "2026-09-28",
+      "periode_couverte": [
+        "1944",
+        "1945"
+      ],
+      "zones": [
+        "Laponie",
+        "Finlande"
+      ],
+      "usages_atlas": [
+        "ligne_front",
+        "fortifications"
+      ],
+      "locator": "passage sur les positions allemandes de la Lätäseno (« Sturmbock ») et de Tankavaara (« Schutzwall »)",
+      "resume_passage": "Donne le nom de code « Sturmbock » à la position de la Lätäseno et « Schutzwall-Stellung » à celle de Tankavaara ; largeur prévue de la position : environ 20 km.",
+      "archive_locale": null,
+      "notes": "Trouvée par Claude le 28/09/2026 en cherchant le rapport Doria cité par Ether (≈ 26 km de fortifications, ligne Lätäseno–Tankavaara–Petsamo) : ce n'est PAS forcément le même document. Lien Doria d'Ether à ajouter."
+    },
+    {
+      "source_id": "src-piirainen-lapland-war",
+      "niveau": "C",
+      "type_source": "synthese_historique_en_ligne",
+      "titre": "Lassi Piirainen, « Länsi-Lapin sotahistoria / Western Lapland military history »",
+      "institution": "lassipiirainen.fi (historien et guide spécialisé)",
+      "url": "https://www.lassipiirainen.fi/en/military-history/western-lapland/",
+      "date_consultation": "2026-09-28",
+      "periode_couverte": [
+        "1944",
+        "1945"
+      ],
+      "zones": [
+        "Laponie",
+        "Finlande"
+      ],
+      "usages_atlas": [
+        "ligne_front",
+        "dates"
+      ],
+      "locator": "section Western Lapland",
+      "resume_passage": "« The Germans withdrew to the Lätäseno Sturmbock defence positions, where the Finnish advance halted on 29 November. » ; « The Germans withdrew from Lätäseno to Kilpisjärvi on 27 April. »",
+      "archive_locale": null,
+      "notes": "Apportée par Ether, citations vérifiées par Claude le 28/09/2026. Niveau C : synthèse d'auteur, à doubler par une source A/B pour les dates."
+    }
+  ]
+}
