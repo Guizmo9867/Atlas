@@ -1,0 +1,1047 @@
+{
+  "metadata_lot": {
+    "nom": "snapshot0_lot03_nord_ouest_europe",
+    "date_reference": "1945-01-01",
+    "version": "0.2",
+    "statut": "integre_par_claude",
+    "perimetre": [
+      "Danemark/Féroé",
+      "Norvège",
+      "Suède",
+      "Islande",
+      "Royaume-Uni/Îles Anglo-Normandes",
+      "Irlande",
+      "France",
+      "Belgique",
+      "Luxembourg",
+      "Pays-Bas"
+    ],
+    "regles": [
+      "frontière politique != ligne de front",
+      "souveraineté != contrôle",
+      "aucune géométrie inventée",
+      "pas encore de villes/plaques/codes : boucle territoriale d’abord"
+    ],
+    "gabarit_source": "gabarits/gabarit_entite_temporelle_atlas.json",
+    "integration": {
+      "date": "2026-09-28",
+      "par": "Claude",
+      "corrections": [
+        "ID du front : ligne_front-allies-de-ouest → ligne_front-de-ouest-europe (code pays après le type, comme ligne_front-de-su-est-europe)",
+        "valid_to : précision « en_cours » → « inconnue » (convention des lots 01-02 : valid_to vide = état ouvert)",
+        "Danemark : regime_id « occupation_militaire_allemande » retiré (ce n'est pas un régime) ; alignement_id = occupe_hors_coalitions (nouveau statut particulier, fond ivoire)",
+        "Féroé : administration_id = feroe ; Est-Finnmark : administration_id = norvege ; Pays-Bas libérés : administration_id = pays_bas",
+        "France : regime_id = gprf",
+        "nom_court ajouté partout ; locators vides → « à préciser »",
+        "Deux entités ajoutées (PROPOSITIONS, à valider) : territoire-de-zone-alliee-ouest, territoire-fr-zone-allemande-nord-est",
+        "Jersey et Guernesey : alignement_id allies_ww2 ajouté (à valider)"
+      ]
+    }
+  },
+  "entites": [
+    {
+      "entite_id": "territoire-dk-danemark",
+      "type_entite": "territoire",
+      "nom": "Danemark",
+      "nom_court": "Danemark",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "1943-08-29",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "etat_occupe_par_allemagne",
+          "proprietes": {
+            "souverainete_id": "danemark",
+            "controle_id": "allemagne",
+            "statut_administratif": "occupation_directe_apres_demission_gouvernement",
+            "note": "Occupé par l'Allemagne ; contrôle allemand direct depuis la démission du gouvernement (29/08/1943). Ne pas classer comme État de l'Axe : statut particulier « occupé, hors coalitions » (fond ivoire + hachures de l'occupant).",
+            "alignement_id": "occupe_hors_coalitions"
+          },
+          "geometrie_ref": "geom-territoire-dk-danemark-1945-01-01",
+          "sources": [
+            {
+              "source_id": "src-ushmm-denmark",
+              "locator": "à préciser",
+              "usage": "Contrôle allemand direct au Snapshot 0"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "territoire-dk-feroe",
+      "type_entite": "territoire",
+      "nom": "Îles Féroé",
+      "nom_court": "Féroé",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "1940-04-12",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "territoire_danois_defendu_par_royaume_uni",
+          "proprietes": {
+            "parent_id": "territoire-dk-danemark",
+            "souverainete_id": "danemark",
+            "controle_id": "royaume_uni",
+            "statut_administratif": "autogestion_de_guerre_sous_protection_britannique",
+            "note": "Territoire danois coupé de Copenhague occupée : défense britannique (depuis le 12/04/1940), gestion par les autorités féroïennes (Løgting et préfet). Alignement hérité du Danemark ; hachures bleues = contrôle britannique.",
+            "administration_id": "feroe"
+          },
+          "geometrie_ref": "geom-territoire-dk-feroe-1945-01-01",
+          "sources": [
+            {
+              "source_id": "src-govfo-faroe-status-wwii",
+              "locator": "à préciser",
+              "usage": "Statut et gestion féroïenne pendant la guerre"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "territoire-no-norvege",
+      "type_entite": "territoire",
+      "nom": "Norvège",
+      "nom_court": "Norvège",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "1940-06-10",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "etat_allie_majoritairement_occupe",
+          "proprietes": {
+            "souverainete_id": "norvege",
+            "controle_id": "allemagne",
+            "alignement_id": "allies_ww2",
+            "statut_administratif": "occupation_allemande_gouvernement_en_exil",
+            "note": "L’Est-Finnmark est traité comme surcouche distincte."
+          },
+          "geometrie_ref": "geom-territoire-no-norvege-1945-01-01",
+          "sources": [
+            {
+              "source_id": "src-snl-east-finnmark-1944",
+              "locator": "à préciser",
+              "usage": "Exception de l’Est-Finnmark"
+            },
+            {
+              "source_id": "src-snl-nordlicht-1944",
+              "locator": "à préciser",
+              "usage": "Retrait allemand vers Lyngen"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "territoire-no-est-finnmark",
+      "type_entite": "territoire",
+      "nom": "Est-Finnmark libéré",
+      "nom_court": "Est-Finnmark",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "1944-11-06",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "zone_liberee_presence_sovietique_et_norvegienne",
+          "proprietes": {
+            "parent_id": "territoire-no-norvege",
+            "souverainete_id": "norvege",
+            "controle_id": "urss",
+            "statut_administratif": "presence_militaire_sovietique_autorites_norvegiennes_retablies",
+            "note": "Libéré par l'Armée rouge (Kirkenes le 25/10/1944), qui s'arrête à la Tana ; autorités norvégiennes rétablies à Kirkenes dès novembre. Hachures claires : contrôle d'un autre acteur du même camp. À l'ouest de la Tana, zone évacuée : pas de frontière inventée.",
+            "administration_id": "norvege"
+          },
+          "geometrie_ref": "geom-territoire-no-est-finnmark-1945-01-01",
+          "sources": [
+            {
+              "source_id": "src-snl-east-finnmark-1944",
+              "locator": "à préciser",
+              "usage": "Tana, Kirkenes et présence norvégienne"
+            }
+          ],
+          "zone_incertitude": "Entre Tana et les positions allemandes plus à l’ouest, éviter toute frontière nette sans carte source : zone évacuée/faiblement contrôlée."
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "territoire-se-suede",
+      "type_entite": "territoire",
+      "nom": "Suède",
+      "nom_court": "Suède",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "1939-09-01",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "etat_neutre",
+          "proprietes": {
+            "souverainete_id": "suede",
+            "controle_id": "suede",
+            "alignement_id": "neutral_ww2",
+            "statut_administratif": "etat_independant",
+            "note": "Neutralité générale avec concessions antérieures et soutien nordique accru en fin de guerre."
+          },
+          "geometrie_ref": "geom-territoire-se-suede-1945-01-01",
+          "sources": [
+            {
+              "source_id": "src-govse-neutrality-wwii",
+              "locator": "à préciser",
+              "usage": "Neutralité suédoise"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "territoire-is-islande",
+      "type_entite": "territoire",
+      "nom": "République d’Islande",
+      "nom_court": "Islande",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "1944-06-17",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "republique_independante_non_belligerante",
+          "proprietes": {
+            "souverainete_id": "islande",
+            "controle_id": "islande",
+            "alignement_id": "neutral_ww2",
+            "statut_administratif": "republique_independante",
+            "note": "Présence militaire américaine de défense, sans modéliser un contrôle territorial américain."
+          },
+          "geometrie_ref": "geom-territoire-is-islande-1945-01-01",
+          "sources": [
+            {
+              "source_id": "src-frus-1944-v03-d915-iceland",
+              "locator": "à préciser",
+              "usage": "Indépendance et République"
+            },
+            {
+              "source_id": "src-frus-1941-v02-d769-iceland-defense",
+              "locator": "à préciser",
+              "usage": "Défense américaine"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "territoire-gb-royaume-uni",
+      "type_entite": "territoire",
+      "nom": "Royaume-Uni",
+      "nom_court": "Royaume-Uni",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "1939-09-03",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "puissance_alliee_belligerante",
+          "proprietes": {
+            "souverainete_id": "royaume_uni",
+            "controle_id": "royaume_uni",
+            "alignement_id": "allies_ww2",
+            "statut_administratif": "etat_independant",
+            "note": "Grande-Bretagne + Irlande du Nord. Îles Anglo-Normandes séparées."
+          },
+          "geometrie_ref": "geom-territoire-gb-royaume-uni-1945-01-01",
+          "sources": [
+            {
+              "source_id": "src-frus-1943-v01-d684",
+              "locator": "à préciser",
+              "usage": "Royaume-Uni parmi les puissances alliées"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "territoire-je-jersey",
+      "type_entite": "territoire",
+      "nom": "Jersey",
+      "nom_court": "Jersey",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "1940-07-01",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "dependance_couronne_occupee_par_allemagne",
+          "proprietes": {
+            "souverainete_id": "couronne_britannique",
+            "controle_id": "allemagne",
+            "statut_administratif": "occupation_militaire_allemande",
+            "note": "Dépendance de la Couronne, pas partie constitutive du Royaume-Uni. alignement_id allies_ww2 ajouté par Claude (la Couronne britannique est en guerre) : à valider.",
+            "alignement_id": "allies_ww2"
+          },
+          "geometrie_ref": "geom-territoire-je-jersey-1945-01-01",
+          "sources": [
+            {
+              "source_id": "src-govje-occupation-liberation",
+              "locator": "à préciser",
+              "usage": "Occupation allemande de Jersey"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "territoire-gg-guernesey",
+      "type_entite": "territoire",
+      "nom": "Bailliage de Guernesey",
+      "nom_court": "Guernesey",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "1940-06-30",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "dependance_couronne_occupee_par_allemagne",
+          "proprietes": {
+            "souverainete_id": "couronne_britannique",
+            "controle_id": "allemagne",
+            "statut_administratif": "occupation_militaire_allemande",
+            "note": "Dépendance de la Couronne, à garder séparée du Royaume-Uni. alignement_id allies_ww2 ajouté par Claude (la Couronne britannique est en guerre) : à valider.",
+            "alignement_id": "allies_ww2"
+          },
+          "geometrie_ref": "geom-territoire-gg-guernesey-1945-01-01",
+          "sources": [
+            {
+              "source_id": "src-hol-channel-islands-occupation",
+              "locator": "à préciser",
+              "usage": "Occupation allemande des Îles Anglo-Normandes"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "territoire-ie-irlande",
+      "type_entite": "territoire",
+      "nom": "Irlande",
+      "nom_court": "Irlande",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "1939-09-03",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "etat_neutre",
+          "proprietes": {
+            "souverainete_id": "irlande",
+            "controle_id": "irlande",
+            "alignement_id": "neutral_ww2",
+            "statut_administratif": "etat_independant",
+            "note": "Ne pas inclure l’Irlande du Nord."
+          },
+          "geometrie_ref": "geom-territoire-ie-irlande-1945-01-01",
+          "sources": [
+            {
+              "source_id": "src-govie-neutrality-policy",
+              "locator": "à préciser",
+              "usage": "Neutralité militaire irlandaise"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "territoire-fr-france",
+      "type_entite": "territoire",
+      "nom": "France métropolitaine",
+      "nom_court": "France",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "1944-10-23",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "republique_alliee_majoritairement_liberee",
+          "proprietes": {
+            "souverainete_id": "france",
+            "controle_id": "france",
+            "alignement_id": "allies_ww2",
+            "regime_id": "gprf",
+            "statut_administratif": "etat_retabli_majoritairement",
+            "note": "Inclure juridiquement Alsace et Moselle ; les zones allemandes sont des surcouches de contrôle."
+          },
+          "geometrie_ref": "geom-territoire-fr-france-1945-01-01",
+          "sources": [
+            {
+              "source_id": "src-frus-1944-v04-d836-france-recognition",
+              "locator": "à préciser",
+              "usage": "Reconnaissance du GPRF"
+            },
+            {
+              "source_id": "src-frus-1944-v01-d154-west-borders",
+              "locator": "à préciser",
+              "usage": "Alsace-Lorraine et frontière occidentale"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "territoire-fr-poches-atlantiques",
+      "type_entite": "territoire",
+      "nom": "Poches allemandes du littoral français",
+      "nom_court": "Poches allemandes",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "1944-09-01",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "enclaves_sous_controle_allemand",
+          "proprietes": {
+            "parent_id": "territoire-fr-france",
+            "souverainete_id": "france",
+            "controle_id": "allemagne",
+            "statut_administratif": "poches_fortifiees_allemandes",
+            "note": "Dunkerque, Lorient (+ Groix, Belle-Île), Saint-Nazaire (deux rives), La Rochelle/La Pallice (+ Ré), Royan (+ Oléron) et pointe de Grave. Limites tirées d'une carte au 1:5 000 000 (West Point 71) : surfaces probablement sous-estimées (Saint-Nazaire surtout). Scinder en entités séparées lors des fiches locales."
+          },
+          "geometrie_ref": "geom-territoire-fr-poches-atlantiques-1945-01-01",
+          "sources": [
+            {
+              "source_id": "src-chemins-poches-atlantique-1945",
+              "locator": "à préciser",
+              "usage": "Poches allemandes encore actives"
+            },
+            {
+              "source_id": "src-westpoint-general-situation-1944-12-15",
+              "locator": "carte 71",
+              "usage": "limites des poches au 15/12/1944"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "territoire-fr-poche-colmar",
+      "type_entite": "territoire",
+      "nom": "Poche de Colmar",
+      "nom_court": "Poche de Colmar",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "1944-11-01",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "zone_sous_controle_militaire_allemand",
+          "proprietes": {
+            "parent_id": "territoire-fr-france",
+            "souverainete_id": "france",
+            "controle_id": "allemagne",
+            "statut_administratif": "poche_militaire_allemande",
+            "note": "Tracer selon la situation du 01/01/1945, pas une carte générique de la campagne d’Alsace."
+          },
+          "geometrie_ref": "geom-territoire-fr-poche-colmar-1945-01-01",
+          "sources": [
+            {
+              "source_id": "src-chemins-colmar-1945",
+              "locator": "à préciser",
+              "usage": "Poche de Colmar au 1er janvier"
+            },
+            {
+              "source_id": "src-loc-12ag-1945-01-01",
+              "locator": "situation 1200 hrs, 1 January 1945",
+              "usage": "Front daté du jour"
+            },
+            {
+              "source_id": "src-westpoint-alsace-colmar-1945",
+              "locator": "carte 75a, ligne du 20/01",
+              "usage": "partie sud de la poche (hors carte LOC)"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "territoire-be-belgique",
+      "type_entite": "territoire",
+      "nom": "Belgique",
+      "nom_court": "Belgique",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "1944-09-01",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "etat_allie_majoritairement_libere",
+          "proprietes": {
+            "souverainete_id": "belgique",
+            "controle_id": "belgique",
+            "alignement_id": "allies_ww2",
+            "statut_administratif": "etat_retabli_majoritairement",
+            "note": "Frontière souveraine belgo-allemande de 1920 ; zone allemande des Ardennes en surcouche."
+          },
+          "geometrie_ref": "geom-territoire-be-belgique-1945-01-01",
+          "sources": [
+            {
+              "source_id": "src-frus-1944-v01-d154-west-borders",
+              "locator": "à préciser",
+              "usage": "Frontière belge de 1920"
+            },
+            {
+              "source_id": "src-belgium-chancellery-bulge",
+              "locator": "à préciser",
+              "usage": "Offensive allemande des Ardennes"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "territoire-be-zone-allemande-ardennes",
+      "type_entite": "territoire",
+      "nom": "Belgique — zone allemande des Ardennes",
+      "nom_court": "Ardennes (zone allemande)",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "1944-12-16",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "zone_de_controle_militaire_allemand",
+          "proprietes": {
+            "parent_id": "territoire-be-belgique",
+            "souverainete_id": "belgique",
+            "controle_id": "allemagne",
+            "statut_administratif": "zone_de_combat",
+            "note": "Dériver du front LOC du 01/01, pas de l’extension maximale de l’offensive."
+          },
+          "geometrie_ref": "geom-territoire-be-zone-allemande-ardennes-1945-01-01",
+          "sources": [
+            {
+              "source_id": "src-loc-12ag-1945-01-01",
+              "locator": "situation 1200 hrs, 1 January 1945",
+              "usage": "Géométrie du saillant au 01/01"
+            },
+            {
+              "source_id": "src-belgium-chancellery-bulge",
+              "locator": "à préciser",
+              "usage": "Contexte"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "territoire-lu-luxembourg",
+      "type_entite": "territoire",
+      "nom": "Luxembourg",
+      "nom_court": "Luxembourg",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "1944-09-10",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "etat_allie_partiellement_reoccupe",
+          "proprietes": {
+            "souverainete_id": "luxembourg",
+            "controle_id": "luxembourg",
+            "alignement_id": "allies_ww2",
+            "statut_administratif": "etat_retabli_front_actif_nord_est",
+            "note": "Le nord et l’est redeviennent zone de combat en décembre."
+          },
+          "geometrie_ref": "geom-territoire-lu-luxembourg-1945-01-01",
+          "sources": [
+            {
+              "source_id": "src-luxembourg-wwii",
+              "locator": "à préciser",
+              "usage": "Libération puis bataille des Ardennes"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "territoire-lu-zone-allemande-ardennes",
+      "type_entite": "territoire",
+      "nom": "Luxembourg — zone allemande des Ardennes",
+      "nom_court": "Ardennes lux. (zone allemande)",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "1944-12-16",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "zone_de_controle_militaire_allemand",
+          "proprietes": {
+            "parent_id": "territoire-lu-luxembourg",
+            "souverainete_id": "luxembourg",
+            "controle_id": "allemagne",
+            "statut_administratif": "zone_de_combat",
+            "note": "Tracer selon la carte LOC du 01/01/1945."
+          },
+          "geometrie_ref": "geom-territoire-lu-zone-allemande-ardennes-1945-01-01",
+          "sources": [
+            {
+              "source_id": "src-loc-12ag-1945-01-01",
+              "locator": "situation 1200 hrs, 1 January 1945",
+              "usage": "Géométrie du front"
+            },
+            {
+              "source_id": "src-luxembourg-bulge",
+              "locator": "à préciser",
+              "usage": "Zone touchée par l’offensive"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "territoire-nl-pays-bas",
+      "type_entite": "territoire",
+      "nom": "Pays-Bas",
+      "nom_court": "Pays-Bas",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "1940-05-15",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "etat_allie_partiellement_libere",
+          "proprietes": {
+            "souverainete_id": "pays_bas",
+            "controle_id": "allemagne",
+            "alignement_id": "allies_ww2",
+            "statut_administratif": "occupation_allemande_nord_ouest",
+            "note": "Le sud libéré est une surcouche distincte."
+          },
+          "geometrie_ref": "geom-territoire-nl-pays-bas-1945-01-01",
+          "sources": [
+            {
+              "source_id": "src-nationaalarchief-south-netherlands-liberation",
+              "locator": "à préciser",
+              "usage": "Libération du sud"
+            },
+            {
+              "source_id": "src-annefrank-netherlands-liberation",
+              "locator": "à préciser",
+              "usage": "Front d’hiver et occupation persistante"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "territoire-nl-zone-liberee-sud",
+      "type_entite": "territoire",
+      "nom": "Pays-Bas — zone libérée au sud",
+      "nom_court": "Pays-Bas libérés",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "1944-12-03",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "zone_liberee",
+          "proprietes": {
+            "parent_id": "territoire-nl-pays-bas",
+            "souverainete_id": "pays_bas",
+            "controle_id": "pays_bas",
+            "statut_administratif": "territoire_libere_commandement_allie_autorites_neerlandaises",
+            "note": "Géométrie exacte du 01/01 à dériver de la carte LOC.",
+            "administration_id": "pays_bas"
+          },
+          "geometrie_ref": "geom-territoire-nl-zone-liberee-sud-1945-01-01",
+          "sources": [
+            {
+              "source_id": "src-nationaalarchief-south-netherlands-liberation",
+              "locator": "à préciser",
+              "usage": "Sud libéré"
+            },
+            {
+              "source_id": "src-loc-12ag-1945-01-01",
+              "locator": "situation 1200 hrs, 1 January 1945",
+              "usage": "Front du 01/01"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ligne_front-de-ouest-europe",
+      "type_entite": "ligne_front",
+      "nom": "Front occidental — Alliés / Allemagne",
+      "nom_court": "Front de l’Ouest",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "1945-01-01",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ligne_de_contact",
+          "proprietes": {
+            "note": "Vectoriser directement depuis la carte officielle du 12th Army Group datée du 01/01/1945. Ce n’est pas une frontière politique."
+          },
+          "geometrie_ref": "geom-ligne_front-de-ouest-europe-1945-01-01",
+          "sources": [
+            {
+              "source_id": "src-loc-12ag-1945-01-01",
+              "locator": "situation 1200 hrs, 1 January 1945",
+              "usage": "Source géométrique principale"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "territoire-de-zone-alliee-ouest",
+      "type_entite": "territoire",
+      "nom": "Allemagne — zones tenues par les Alliés à l'ouest (Aix-la-Chapelle, bordures de la Sarre)",
+      "nom_court": "Allemagne (zones alliées)",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "1944-10-21",
+            "precision": "mois"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "zone_sous_controle_militaire_allie",
+          "proprietes": {
+            "parent_id": "territoire-de-allemagne",
+            "souverainete_id": "allemagne",
+            "controle_id": "etats_unis",
+            "statut_administratif": "gouvernement_militaire_allie",
+            "note": "PROPOSITION de Claude, à valider par Ether : dérivée du même front LOC. Aix-la-Chapelle prise le 21/10/1944 (date de début approximative : les autres morceaux ont été pris à d'autres dates). Contrôle : armées américaines (1re et 9e) ; à affiner."
+          },
+          "geometrie_ref": "geom-territoire-de-zone-alliee-ouest-1945-01-01",
+          "sources": [
+            {
+              "source_id": "src-loc-12ag-1945-01-01",
+              "locator": "situation 1200 hrs, 1 January 1945",
+              "usage": "ligne de front du jour"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "territoire-fr-zone-allemande-nord-est",
+      "type_entite": "territoire",
+      "nom": "France — secteur tenu par les Allemands au nord-est (Bitche, frontière de la Sarre)",
+      "nom_court": "Nord-est (zone allemande)",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "1944-11-01",
+            "precision": "mois"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "zone_sous_controle_militaire_allemand",
+          "proprietes": {
+            "parent_id": "territoire-fr-france",
+            "souverainete_id": "france",
+            "controle_id": "allemagne",
+            "statut_administratif": "zone_de_combat",
+            "note": "PROPOSITION de Claude, à valider par Ether : parties de la Moselle et du nord de l'Alsace du côté allemand du front LOC au 01/01/1945 (opération Nordwind lancée le 31/12/1944). Date de début approximative."
+          },
+          "geometrie_ref": "geom-territoire-fr-zone-allemande-nord-est-1945-01-01",
+          "sources": [
+            {
+              "source_id": "src-loc-12ag-1945-01-01",
+              "locator": "situation 1200 hrs, 1 January 1945",
+              "usage": "ligne de front du jour"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "geometries_a_creer": [
+    {
+      "geometrie_ref": "geom-territoire-dk-danemark-1945-01-01",
+      "entite_id": "territoire-dk-danemark",
+      "statut": "provisoire_ohm",
+      "fichier": "data/geometries/snapshot0/geom-territoire-dk-danemark-1945-01-01.geojson"
+    },
+    {
+      "geometrie_ref": "geom-territoire-dk-feroe-1945-01-01",
+      "entite_id": "territoire-dk-feroe",
+      "statut": "provisoire_ohm",
+      "fichier": "data/geometries/snapshot0/geom-territoire-dk-feroe-1945-01-01.geojson"
+    },
+    {
+      "geometrie_ref": "geom-territoire-no-norvege-1945-01-01",
+      "entite_id": "territoire-no-norvege",
+      "statut": "provisoire_ohm",
+      "fichier": "data/geometries/snapshot0/geom-territoire-no-norvege-1945-01-01.geojson"
+    },
+    {
+      "geometrie_ref": "geom-territoire-no-est-finnmark-1945-01-01",
+      "entite_id": "territoire-no-est-finnmark",
+      "statut": "provisoire_ohm",
+      "fichier": "data/geometries/snapshot0/geom-territoire-no-est-finnmark-1945-01-01.geojson"
+    },
+    {
+      "geometrie_ref": "geom-territoire-se-suede-1945-01-01",
+      "entite_id": "territoire-se-suede",
+      "statut": "provisoire_ohm",
+      "fichier": "data/geometries/snapshot0/geom-territoire-se-suede-1945-01-01.geojson"
+    },
+    {
+      "geometrie_ref": "geom-territoire-is-islande-1945-01-01",
+      "entite_id": "territoire-is-islande",
+      "statut": "provisoire_ohm",
+      "fichier": "data/geometries/snapshot0/geom-territoire-is-islande-1945-01-01.geojson"
+    },
+    {
+      "geometrie_ref": "geom-territoire-gb-royaume-uni-1945-01-01",
+      "entite_id": "territoire-gb-royaume-uni",
+      "statut": "provisoire_ohm",
+      "fichier": "data/geometries/snapshot0/geom-territoire-gb-royaume-uni-1945-01-01.geojson"
+    },
+    {
+      "geometrie_ref": "geom-territoire-je-jersey-1945-01-01",
+      "entite_id": "territoire-je-jersey",
+      "statut": "provisoire_ohm",
+      "fichier": "data/geometries/snapshot0/geom-territoire-je-jersey-1945-01-01.geojson"
+    },
+    {
+      "geometrie_ref": "geom-territoire-gg-guernesey-1945-01-01",
+      "entite_id": "territoire-gg-guernesey",
+      "statut": "provisoire_ohm",
+      "fichier": "data/geometries/snapshot0/geom-territoire-gg-guernesey-1945-01-01.geojson"
+    },
+    {
+      "geometrie_ref": "geom-territoire-ie-irlande-1945-01-01",
+      "entite_id": "territoire-ie-irlande",
+      "statut": "provisoire_ohm",
+      "fichier": "data/geometries/snapshot0/geom-territoire-ie-irlande-1945-01-01.geojson"
+    },
+    {
+      "geometrie_ref": "geom-territoire-fr-france-1945-01-01",
+      "entite_id": "territoire-fr-france",
+      "statut": "provisoire_ohm",
+      "fichier": "data/geometries/snapshot0/geom-territoire-fr-france-1945-01-01.geojson"
+    },
+    {
+      "geometrie_ref": "geom-territoire-fr-poches-atlantiques-1945-01-01",
+      "entite_id": "territoire-fr-poches-atlantiques",
+      "statut": "provisoire_carte_georeferencee",
+      "fichier": "data/geometries/snapshot0/geom-territoire-fr-poches-atlantiques-1945-01-01.geojson"
+    },
+    {
+      "geometrie_ref": "geom-territoire-fr-poche-colmar-1945-01-01",
+      "entite_id": "territoire-fr-poche-colmar",
+      "statut": "provisoire_carte_georeferencee",
+      "fichier": "data/geometries/snapshot0/geom-territoire-fr-poche-colmar-1945-01-01.geojson"
+    },
+    {
+      "geometrie_ref": "geom-territoire-be-belgique-1945-01-01",
+      "entite_id": "territoire-be-belgique",
+      "statut": "provisoire_ohm",
+      "fichier": "data/geometries/snapshot0/geom-territoire-be-belgique-1945-01-01.geojson"
+    },
+    {
+      "geometrie_ref": "geom-territoire-be-zone-allemande-ardennes-1945-01-01",
+      "entite_id": "territoire-be-zone-allemande-ardennes",
+      "statut": "provisoire_carte_georeferencee",
+      "fichier": "data/geometries/snapshot0/geom-territoire-be-zone-allemande-ardennes-1945-01-01.geojson"
+    },
+    {
+      "geometrie_ref": "geom-territoire-lu-luxembourg-1945-01-01",
+      "entite_id": "territoire-lu-luxembourg",
+      "statut": "provisoire_ohm",
+      "fichier": "data/geometries/snapshot0/geom-territoire-lu-luxembourg-1945-01-01.geojson"
+    },
+    {
+      "geometrie_ref": "geom-territoire-lu-zone-allemande-ardennes-1945-01-01",
+      "entite_id": "territoire-lu-zone-allemande-ardennes",
+      "statut": "provisoire_carte_georeferencee",
+      "fichier": "data/geometries/snapshot0/geom-territoire-lu-zone-allemande-ardennes-1945-01-01.geojson"
+    },
+    {
+      "geometrie_ref": "geom-territoire-nl-pays-bas-1945-01-01",
+      "entite_id": "territoire-nl-pays-bas",
+      "statut": "provisoire_ohm",
+      "fichier": "data/geometries/snapshot0/geom-territoire-nl-pays-bas-1945-01-01.geojson"
+    },
+    {
+      "geometrie_ref": "geom-territoire-nl-zone-liberee-sud-1945-01-01",
+      "entite_id": "territoire-nl-zone-liberee-sud",
+      "statut": "provisoire_carte_georeferencee",
+      "fichier": "data/geometries/snapshot0/geom-territoire-nl-zone-liberee-sud-1945-01-01.geojson"
+    },
+    {
+      "geometrie_ref": "geom-ligne_front-de-ouest-europe-1945-01-01",
+      "entite_id": "ligne_front-de-ouest-europe",
+      "statut": "provisoire_carte_georeferencee",
+      "fichier": "data/geometries/snapshot0/geom-ligne_front-de-ouest-europe-1945-01-01.geojson"
+    },
+    {
+      "geometrie_ref": "geom-territoire-de-zone-alliee-ouest-1945-01-01",
+      "entite_id": "territoire-de-zone-alliee-ouest",
+      "statut": "provisoire_carte_georeferencee",
+      "fichier": "data/geometries/snapshot0/geom-territoire-de-zone-alliee-ouest-1945-01-01.geojson"
+    },
+    {
+      "geometrie_ref": "geom-territoire-fr-zone-allemande-nord-est-1945-01-01",
+      "entite_id": "territoire-fr-zone-allemande-nord-est",
+      "statut": "provisoire_carte_georeferencee",
+      "fichier": "data/geometries/snapshot0/geom-territoire-fr-zone-allemande-nord-est-1945-01-01.geojson"
+    }
+  ],
+  "points_a_trancher": [
+    {
+      "sujet": "administration_id",
+      "recommandation": "adopter",
+      "raison": "Est-Finnmark, Féroé et zones libérées montrent déjà contrôle militaire != administration civile."
+    },
+    {
+      "sujet": "Danemark_alignement",
+      "recommandation": "statut_particulier_pays_occupe",
+      "raison": "Ne pas transformer un pays occupé en État de l’Axe."
+    },
+    {
+      "sujet": "Îles_Anglo_Normandes",
+      "recommandation": "entites_separees",
+      "raison": "Dépendances de la Couronne, pas parties constitutives du Royaume-Uni."
+    },
+    {
+      "sujet": "poches_atlantiques",
+      "recommandation": "MultiPolygon_snapshot0_puis_scission",
+      "raison": "Scinder quand les fiches locales/chronologies seront activées."
+    }
+  ]
+}

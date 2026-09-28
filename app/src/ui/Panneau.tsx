@@ -46,7 +46,7 @@ export default function Panneau({ corpus, setCorpus, fictif, calques, setCalques
         {mode === 'alignement' && valeursPresentes.filter((v) => LISERES[v]).map((v) => (
           <li key={`lisere-${v}`} className="note"><i style={{ background: 'transparent', border: `3px solid ${LISERES[v]}` }} />liseré : {LIBELLES[v] ?? v}</li>
         ))}
-        {mode !== 'controle' && <li className="note"><i className="hachure" />hachures : contrôlé par un autre acteur</li>}
+        {mode !== 'controle' && <li className="note"><i className="hachure" />hachures : contrôlé par un autre acteur{mode === 'alignement' ? ' (couleur de son camp)' : ''}</li>}
         <li className="note"><i className="front" />bande : ligne de front</li>
       </ul>
 

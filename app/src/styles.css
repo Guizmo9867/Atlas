@@ -113,3 +113,4 @@ dd { margin: 0; overflow-wrap: anywhere; }
 
 .zoom-faible .etiquette:not([data-profondeur="0"]) { display: none; }
 .zoom-moyen .etiquette[data-petit="1"] { display: none; }
+.zoom-regional .etiquette[data-minuscule="1"]:not([data-profondeur="0"]) { display: none; }

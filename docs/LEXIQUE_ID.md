@@ -33,8 +33,19 @@ On le construit au fil de l'eau, jamais à l'avance. **Avant de créer un ID : c
 | `de` | Allemagne | lot 02 |
 | `at` | Autriche | lot 02 |
 | `pl` | Pologne | lot 02 |
-| `fr` | France | exemple du gabarit |
+| `fr` | France | lot 03 |
 | `ch` | Suisse | exemple du gabarit |
+| `dk` | Danemark (Féroé comprises : `territoire-dk-feroe`) | lot 03 |
+| `no` | Norvège | lot 03 |
+| `se` | Suède | lot 03 |
+| `is` | Islande | lot 03 |
+| `gb` | Royaume-Uni | lot 03 |
+| `je` | Jersey (dépendance de la Couronne : code propre) | lot 03 |
+| `gg` | Guernesey (idem) | lot 03 |
+| `ie` | Irlande | lot 03 |
+| `be` | Belgique | lot 03 |
+| `lu` | Luxembourg | lot 03 |
+| `nl` | Pays-Bas | lot 03 |
 
 ## 3. Types d'entités
 
@@ -62,6 +73,15 @@ On le construit au fil de l'eau, jamais à l'avance. **Avant de créer un ID : c
 | territoire | `laponie-nord-ouest` | bras nord-ouest de la Laponie finlandaise tenu par les Allemands (1944-1945) | `territoire-fi-laponie-nord-ouest` |
 | ligne_front | `su-est-europe` | front germano-soviétique en Europe orientale | `ligne_front-de-su-est-europe` |
 | ligne_front | `laponie` | front germano-finlandais de Laponie (Lätäseno) | `ligne_front-de-fi-laponie` |
+| ligne_front | `ouest-europe` | front occidental Alliés / Allemagne | `ligne_front-de-ouest-europe` |
+| territoire | `danemark`, `feroe`, `norvege`, `suede`, `islande`, `royaume-uni`, `jersey`, `guernesey`, `irlande`, `belgique`, `luxembourg`, `pays-bas` | l'État ou le territoire dans son ensemble | `territoire-dk-danemark`… |
+| territoire | `est-finnmark` | Finnmark à l'est de la Tana (libéré, 1944-1945) | `territoire-no-est-finnmark` |
+| territoire | `poches-atlantiques` | poches allemandes du littoral français (Dunkerque → Royan) | `territoire-fr-poches-atlantiques` |
+| territoire | `poche-colmar` | poche de Colmar | `territoire-fr-poche-colmar` |
+| territoire | `zone-allemande-ardennes` | partie d'un pays tenue par les Allemands dans le saillant des Ardennes | `territoire-be-zone-allemande-ardennes`, `territoire-lu-…` |
+| territoire | `zone-allemande-nord-est` | secteur français tenu par les Allemands au nord-est (Bitche) | `territoire-fr-zone-allemande-nord-est` |
+| territoire | `zone-liberee-sud` | partie libérée d'un pays occupé | `territoire-nl-zone-liberee-sud` |
+| territoire | `zone-alliee-ouest` | territoire allemand tenu par les Alliés à l'ouest | `territoire-de-zone-alliee-ouest` |
 | territoire | `partition` | partage d'un territoire | `1945-de-partition-berlin` (exemple) |
 
 ## 5. Identifiants sémantiques (acteurs, alignements)
@@ -79,6 +99,13 @@ Valeurs de `souverainete_id`, `controle_id`, `alignement_id`. Courts, toujours l
 | `allemagne` | Allemagne (l'État ; le régime nazi va dans `regime_id: allemagne_nazie`) |
 | `autriche` | Autriche |
 | `pologne` | Pologne |
+| `danemark`, `norvege`, `suede`, `islande`, `irlande`, `france`, `belgique`, `luxembourg`, `pays_bas` | les États du lot 03 |
+| `royaume_uni` | Royaume-Uni |
+| `couronne_britannique` | la Couronne, souveraine de Jersey et Guernesey (pas le Royaume-Uni) |
+| `feroe` | autorités féroïennes (Løgting, préfet) — `administration_id` des Féroé |
+| `etats_unis` | États-Unis (armées américaines) — acteur sans territoire dans le corpus : son camp est donné dans `CAMP_HORS_CORPUS` (palettes.ts) |
+
+**Régimes** (`regime_id`) : `allemagne_nazie`, `republique_populaire`, `gprf` (Gouvernement provisoire de la République française).
 
 **Alignements** — Snapshot 0 : **4 familles principales + statuts particuliers quand les faits l'exigent** (règle du 28/09/2026). Occupation = hachures, front = bande. Les couleurs vivent dans `app/src/theme/palettes.ts`, jamais dans les données.
 
@@ -90,7 +117,10 @@ Valeurs de `souverainete_id`, `controle_id`, `alignement_id`. Courts, toujours l
 | `neutral_ww2` | neutres ou hors du conflit affiché | blanc / ivoire |
 | `anti_axis_non_allied` | statut particulier : hors des coalitions, mais en guerre contre l'Axe (Finlande au 01/01/1945) | ivoire |
 | `pro_sovietique_non_belligerant` | statut particulier : lié à l'URSS, non belligérant (Mongolie jusqu'au 10/08/1945) | ivoire + liseré bleu |
+| `occupe_hors_coalitions` | statut particulier : pays occupé dont le gouvernement n'est dans aucune coalition (Danemark au 01/01/1945) | ivoire + hachures de l'occupant |
 | `soviet_bloc` | bloc soviétique (guerre froide, plus tard) | — |
+
+**Règle « pays occupé ≠ Axe »** (lot 03, 28/09/2026) : un territoire garde le camp de son souverain (hérité du parent pour une zone) ; l'occupation se lit par des **hachures à la couleur du camp de l'occupant** (anthracite = Allemagne, bleu = Alliés ; rayures claires si l'occupant est du même camp, ex. Est-Finnmark).
 
 ## 6. Types de relations
 

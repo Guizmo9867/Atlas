@@ -1,7 +1,7 @@
 {
   "metadata": {
     "nom": "registre_sources_atlas",
-    "version": "0.6",
+    "version": "0.7",
     "date_creation": "2026-09-26",
     "principe": "Une source = un source_id stable. Les fiches événements/entités peuvent référencer ce source_id et préciser l'usage/locator.",
     "statut": "registre_initial_a_completer"
@@ -998,6 +998,495 @@
       "resume_passage": "« The Germans withdrew to the Lätäseno Sturmbock defence positions, where the Finnish advance halted on 29 November. » ; « The Germans withdrew from Lätäseno to Kilpisjärvi on 27 April. »",
       "archive_locale": null,
       "notes": "Apportée par Ether, citations vérifiées par Claude le 28/09/2026. Niveau C : synthèse d'auteur, à doubler par une source A/B pour les dates."
+    },
+    {
+      "source_id": "src-loc-12ag-1945-01-01",
+      "niveau": "A",
+      "type_source": "carte_militaire_officielle",
+      "titre": "[January 1, 1945], HQ Twelfth Army Group situation map",
+      "institution": "Library of Congress / 12th Army Group",
+      "url": "https://www.loc.gov/item/2004630304/",
+      "date_consultation": "2026-09-28",
+      "periode_couverte": [
+        "1944",
+        "1945"
+      ],
+      "zones": [],
+      "usages_atlas": [
+        "Front occidental exact au 01/01/1945."
+      ],
+      "locator": "« Situation 1200 hrs 1 January 1945 », 1:1 000 000 ; image IIIF de la LOC (6575 × 5976 px)",
+      "resume_passage": "",
+      "archive_locale": "téléchargée dans le cache (non versionnée)",
+      "notes": "Apportée par Ether (lot 03), intégrée par Claude le 28/09/2026. Géoréférencée par Claude (ajustement automatique sur les fleuves Natural Earth, écart ≈ 1-2 km). La LOC conserve la même carte pour CHAQUE jour de janvier 1945 (items 2004630304 à 2004630334) : base idéale pour le ratissage mensuel."
+    },
+    {
+      "source_id": "src-ushmm-denmark",
+      "niveau": "B",
+      "type_source": "synthese_institutionnelle",
+      "titre": "Denmark",
+      "institution": "United States Holocaust Memorial Museum",
+      "url": "https://encyclopedia.ushmm.org/content/en/article/denmark",
+      "date_consultation": "2026-09-28",
+      "periode_couverte": [
+        "1944",
+        "1945"
+      ],
+      "zones": [],
+      "usages_atlas": [
+        "Occupation allemande ; contrôle direct après août 1943."
+      ],
+      "locator": "",
+      "resume_passage": "",
+      "archive_locale": null,
+      "notes": "Apportée par Ether (lot 03), intégrée par Claude le 28/09/2026."
+    },
+    {
+      "source_id": "src-govfo-faroe-status-wwii",
+      "niveau": "A",
+      "type_source": "site_gouvernemental",
+      "titre": "The Political and Legal Status of The Faroe Islands",
+      "institution": "Government of the Faroe Islands",
+      "url": "https://www.government.fo/en/foreign-relations/the-political-and-legal-status-of-the-faroe-islands/",
+      "date_consultation": "2026-09-28",
+      "periode_couverte": [
+        "1944",
+        "1945"
+      ],
+      "zones": [],
+      "usages_atlas": [
+        "Statut féroïen et défense britannique."
+      ],
+      "locator": "",
+      "resume_passage": "",
+      "archive_locale": null,
+      "notes": "Apportée par Ether (lot 03), intégrée par Claude le 28/09/2026."
+    },
+    {
+      "source_id": "src-snl-east-finnmark-1944",
+      "niveau": "B",
+      "type_source": "encyclopedie_historique",
+      "titre": "frigjøringen av Øst-Finnmark under andre verdenskrig",
+      "institution": "Store norske leksikon",
+      "url": "https://snl.no/frigj%C3%B8ringen_av_%C3%98st-Finnmark_under_andre_verdenskrig",
+      "date_consultation": "2026-09-28",
+      "periode_couverte": [
+        "1944",
+        "1945"
+      ],
+      "zones": [],
+      "usages_atlas": [
+        "Avancée soviétique jusqu’à la Tana ; présence norvégienne."
+      ],
+      "locator": "",
+      "resume_passage": "",
+      "archive_locale": null,
+      "notes": "Apportée par Ether (lot 03), intégrée par Claude le 28/09/2026."
+    },
+    {
+      "source_id": "src-snl-nordlicht-1944",
+      "niveau": "B",
+      "type_source": "encyclopedie_historique",
+      "titre": "Operasjon Nordlicht",
+      "institution": "Store norske leksikon",
+      "url": "https://snl.no/Operasjon_Nordlicht",
+      "date_consultation": "2026-09-28",
+      "periode_couverte": [
+        "1944",
+        "1945"
+      ],
+      "zones": [],
+      "usages_atlas": [
+        "Retrait allemand vers Lyngen–Kilpisjärvi."
+      ],
+      "locator": "",
+      "resume_passage": "",
+      "archive_locale": null,
+      "notes": "Apportée par Ether (lot 03), intégrée par Claude le 28/09/2026."
+    },
+    {
+      "source_id": "src-govse-neutrality-wwii",
+      "niveau": "A",
+      "type_source": "site_gouvernemental",
+      "titre": "Statement of Government Policy Following Sweden’s Accession to NATO",
+      "institution": "Government Offices of Sweden",
+      "url": "https://www.government.se/speeches/2024/03/statement-of-government-policy-following-swedens-accession-to-nato/",
+      "date_consultation": "2026-09-28",
+      "periode_couverte": [
+        "1944",
+        "1945"
+      ],
+      "zones": [],
+      "usages_atlas": [
+        "Neutralité suédoise et nuances de fin de guerre."
+      ],
+      "locator": "",
+      "resume_passage": "",
+      "archive_locale": null,
+      "notes": "Apportée par Ether (lot 03), intégrée par Claude le 28/09/2026."
+    },
+    {
+      "source_id": "src-frus-1944-v03-d915-iceland",
+      "niveau": "A",
+      "type_source": "document_diplomatique_officiel",
+      "titre": "FRUS 1944, Volume III, document 915",
+      "institution": "U.S. Department of State, Office of the Historian",
+      "url": "https://history.state.gov/historicaldocuments/frus1944v03/d915",
+      "date_consultation": "2026-09-28",
+      "periode_couverte": [
+        "1944",
+        "1945"
+      ],
+      "zones": [],
+      "usages_atlas": [
+        "République islandaise proclamée le 17/06/1944."
+      ],
+      "locator": "",
+      "resume_passage": "",
+      "archive_locale": null,
+      "notes": "Apportée par Ether (lot 03), intégrée par Claude le 28/09/2026."
+    },
+    {
+      "source_id": "src-frus-1941-v02-d769-iceland-defense",
+      "niveau": "A",
+      "type_source": "document_diplomatique_officiel",
+      "titre": "FRUS 1941, Volume II, document 769",
+      "institution": "U.S. Department of State, Office of the Historian",
+      "url": "https://history.state.gov/historicaldocuments/frus1941v02/d769",
+      "date_consultation": "2026-09-28",
+      "periode_couverte": [
+        "1944",
+        "1945"
+      ],
+      "zones": [],
+      "usages_atlas": [
+        "Défense de l’Islande par les États-Unis."
+      ],
+      "locator": "",
+      "resume_passage": "",
+      "archive_locale": null,
+      "notes": "Apportée par Ether (lot 03), intégrée par Claude le 28/09/2026."
+    },
+    {
+      "source_id": "src-govie-neutrality-policy",
+      "niveau": "A",
+      "type_source": "site_gouvernemental",
+      "titre": "International Security Policy: Background information",
+      "institution": "Government of Ireland, Department of Foreign Affairs",
+      "url": "https://www.gov.ie/en/department-of-foreign-affairs/publications/international-security-policy-background-information/",
+      "date_consultation": "2026-09-28",
+      "periode_couverte": [
+        "1944",
+        "1945"
+      ],
+      "zones": [],
+      "usages_atlas": [
+        "Neutralité irlandaise durant la Seconde Guerre mondiale."
+      ],
+      "locator": "",
+      "resume_passage": "",
+      "archive_locale": null,
+      "notes": "Apportée par Ether (lot 03), intégrée par Claude le 28/09/2026."
+    },
+    {
+      "source_id": "src-govje-occupation-liberation",
+      "niveau": "A",
+      "type_source": "site_gouvernemental",
+      "titre": "History of Liberation",
+      "institution": "Government of Jersey",
+      "url": "https://www.gov.je/Leisure/Liberation/pages/liberationhistory.aspx",
+      "date_consultation": "2026-09-28",
+      "periode_couverte": [
+        "1944",
+        "1945"
+      ],
+      "zones": [],
+      "usages_atlas": [
+        "Occupation allemande de Jersey jusqu’en mai 1945."
+      ],
+      "locator": "",
+      "resume_passage": "",
+      "archive_locale": null,
+      "notes": "Apportée par Ether (lot 03), intégrée par Claude le 28/09/2026."
+    },
+    {
+      "source_id": "src-hol-channel-islands-occupation",
+      "niveau": "B",
+      "type_source": "site_parlementaire",
+      "titre": "The Channel Islands: Occupation and liberation",
+      "institution": "House of Lords Library",
+      "url": "https://lordslibrary.parliament.uk/the-channel-islands-occupation-and-liberation/",
+      "date_consultation": "2026-09-28",
+      "periode_couverte": [
+        "1944",
+        "1945"
+      ],
+      "zones": [],
+      "usages_atlas": [
+        "Occupation allemande des Îles Anglo-Normandes."
+      ],
+      "locator": "",
+      "resume_passage": "",
+      "archive_locale": null,
+      "notes": "Apportée par Ether (lot 03), intégrée par Claude le 28/09/2026."
+    },
+    {
+      "source_id": "src-frus-1944-v04-d836-france-recognition",
+      "niveau": "A",
+      "type_source": "document_diplomatique_officiel",
+      "titre": "FRUS 1944, Europe, Volume IV, document 836",
+      "institution": "U.S. Department of State, Office of the Historian",
+      "url": "https://history.state.gov/historicaldocuments/frus1944v04/d836",
+      "date_consultation": "2026-09-28",
+      "periode_couverte": [
+        "1944",
+        "1945"
+      ],
+      "zones": [],
+      "usages_atlas": [
+        "Reconnaissance du Gouvernement provisoire français."
+      ],
+      "locator": "",
+      "resume_passage": "",
+      "archive_locale": null,
+      "notes": "Apportée par Ether (lot 03), intégrée par Claude le 28/09/2026."
+    },
+    {
+      "source_id": "src-frus-1944-v01-d154-west-borders",
+      "niveau": "A",
+      "type_source": "document_diplomatique_officiel",
+      "titre": "FRUS 1944, Volume I, document 154",
+      "institution": "U.S. Department of State, Office of the Historian",
+      "url": "https://history.state.gov/historicaldocuments/frus1944v01/d154",
+      "date_consultation": "2026-09-28",
+      "periode_couverte": [
+        "1944",
+        "1945"
+      ],
+      "zones": [],
+      "usages_atlas": [
+        "Frontière belge de 1920 et Alsace-Lorraine."
+      ],
+      "locator": "",
+      "resume_passage": "",
+      "archive_locale": null,
+      "notes": "Apportée par Ether (lot 03), intégrée par Claude le 28/09/2026."
+    },
+    {
+      "source_id": "src-chemins-alsace-moselle-annexion",
+      "niveau": "B",
+      "type_source": "site_institutionnel",
+      "titre": "Struthof histoire du camp",
+      "institution": "Chemins de mémoire — Ministère des Armées",
+      "url": "https://www.cheminsdememoire.gouv.fr/fr/struthof-histoire-du-camp",
+      "date_consultation": "2026-09-28",
+      "periode_couverte": [
+        "1944",
+        "1945"
+      ],
+      "zones": [],
+      "usages_atlas": [
+        "Annexion de fait de l’Alsace-Moselle."
+      ],
+      "locator": "",
+      "resume_passage": "",
+      "archive_locale": null,
+      "notes": "Apportée par Ether (lot 03), intégrée par Claude le 28/09/2026."
+    },
+    {
+      "source_id": "src-chemins-poches-atlantique-1945",
+      "niveau": "B",
+      "type_source": "site_institutionnel",
+      "titre": "La Libération des poches de l’Atlantique",
+      "institution": "Chemins de mémoire — Ministère des Armées",
+      "url": "https://www.cheminsdememoire.gouv.fr/fr/liberation-de-la-poche-de-lile-de-re",
+      "date_consultation": "2026-09-28",
+      "periode_couverte": [
+        "1944",
+        "1945"
+      ],
+      "zones": [],
+      "usages_atlas": [
+        "Poches allemandes du littoral français."
+      ],
+      "locator": "",
+      "resume_passage": "",
+      "archive_locale": null,
+      "notes": "Apportée par Ether (lot 03), intégrée par Claude le 28/09/2026."
+    },
+    {
+      "source_id": "src-chemins-colmar-1945",
+      "niveau": "B",
+      "type_source": "site_institutionnel",
+      "titre": "La nécropole nationale de Sigolsheim",
+      "institution": "Chemins de mémoire — Ministère des Armées",
+      "url": "https://www.cheminsdememoire.gouv.fr/de/node/3614",
+      "date_consultation": "2026-09-28",
+      "periode_couverte": [
+        "1944",
+        "1945"
+      ],
+      "zones": [],
+      "usages_atlas": [
+        "Poche de Colmar au 01/01/1945."
+      ],
+      "locator": "",
+      "resume_passage": "",
+      "archive_locale": null,
+      "notes": "Apportée par Ether (lot 03), intégrée par Claude le 28/09/2026."
+    },
+    {
+      "source_id": "src-belgium-chancellery-bulge",
+      "niveau": "A",
+      "type_source": "publication_gouvernementale",
+      "titre": "Cérémonie de commémoration — Bastogne / Bataille des Ardennes",
+      "institution": "Chancellerie du Premier Ministre de Belgique",
+      "url": "https://kanselarij.belgium.be/sites/default/files/paragraphs/mep_brochure_bastogne_version_online.pdf",
+      "date_consultation": "2026-09-28",
+      "periode_couverte": [
+        "1944",
+        "1945"
+      ],
+      "zones": [],
+      "usages_atlas": [
+        "Contre-offensive allemande et contrôle dans les Ardennes."
+      ],
+      "locator": "",
+      "resume_passage": "",
+      "archive_locale": null,
+      "notes": "Apportée par Ether (lot 03), intégrée par Claude le 28/09/2026."
+    },
+    {
+      "source_id": "src-luxembourg-wwii",
+      "niveau": "A",
+      "type_source": "site_gouvernemental",
+      "titre": "The Second World War",
+      "institution": "luxembourg.public.lu",
+      "url": "https://luxembourg.public.lu/en/society-and-culture/history/second-world-war.html",
+      "date_consultation": "2026-09-28",
+      "periode_couverte": [
+        "1944",
+        "1945"
+      ],
+      "zones": [],
+      "usages_atlas": [
+        "Libération de septembre 1944 puis retour des combats."
+      ],
+      "locator": "",
+      "resume_passage": "",
+      "archive_locale": null,
+      "notes": "Apportée par Ether (lot 03), intégrée par Claude le 28/09/2026."
+    },
+    {
+      "source_id": "src-luxembourg-bulge",
+      "niveau": "A",
+      "type_source": "site_gouvernemental",
+      "titre": "Battle of the Bulge: War rears its ugly head one last time in Luxembourg",
+      "institution": "luxembourg.public.lu",
+      "url": "https://luxembourg.public.lu/en/society-and-culture/history/battle-bulge.html",
+      "date_consultation": "2026-09-28",
+      "periode_couverte": [
+        "1944",
+        "1945"
+      ],
+      "zones": [],
+      "usages_atlas": [
+        "Nord/est du Luxembourg touché par l’offensive."
+      ],
+      "locator": "",
+      "resume_passage": "",
+      "archive_locale": null,
+      "notes": "Apportée par Ether (lot 03), intégrée par Claude le 28/09/2026."
+    },
+    {
+      "source_id": "src-nationaalarchief-south-netherlands-liberation",
+      "niveau": "A",
+      "type_source": "archives_nationales",
+      "titre": "Recht en Onrecht: De bevrijding van Zuid-Nederland en de nasleep",
+      "institution": "Nationaal Archief",
+      "url": "https://www.nationaalarchief.nl/onderzoeken/nieuws/recht-en-onrecht-de-bevrijding-van-zuid-nederland-en-de-nasleep",
+      "date_consultation": "2026-09-28",
+      "periode_couverte": [
+        "1944",
+        "1945"
+      ],
+      "zones": [],
+      "usages_atlas": [
+        "Libération du sud des Pays-Bas à l’automne 1944."
+      ],
+      "locator": "",
+      "resume_passage": "",
+      "archive_locale": null,
+      "notes": "Apportée par Ether (lot 03), intégrée par Claude le 28/09/2026."
+    },
+    {
+      "source_id": "src-annefrank-netherlands-liberation",
+      "niveau": "B",
+      "type_source": "base_historique_institutionnelle",
+      "titre": "Liberation",
+      "institution": "Anne Frank House",
+      "url": "https://research.annefrank.org/en/onderwerpen/4e033d12-cfa0-45fc-b774-443e0d58a787/",
+      "date_consultation": "2026-09-28",
+      "periode_couverte": [
+        "1944",
+        "1945"
+      ],
+      "zones": [],
+      "usages_atlas": [
+        "Front d’hiver 1944-45 et occupation du nord/ouest."
+      ],
+      "locator": "",
+      "resume_passage": "",
+      "archive_locale": null,
+      "notes": "Apportée par Ether (lot 03), intégrée par Claude le 28/09/2026."
+    },
+    {
+      "source_id": "src-westpoint-general-situation-1944-12-15",
+      "niveau": "B",
+      "type_source": "atlas_militaire",
+      "titre": "Western Europe, 1940 — The General Situation, 15 December 1944 (carte n° 71)",
+      "institution": "United States Military Academy, West Point — Department of History",
+      "url": "https://dhc.westpoint.edu/wp-content/uploads/sites/6/2025/01/WWIIEurope71.jpg",
+      "date_consultation": "2026-09-28",
+      "periode_couverte": [
+        "1944"
+      ],
+      "zones": [
+        "France",
+        "Belgique",
+        "Pays-Bas"
+      ],
+      "usages_atlas": [
+        "ligne_front",
+        "poches"
+      ],
+      "locator": "arcs rouges : Dunkerque, Lorient, Saint-Nazaire, La Rochelle, Royan, pointe de Grave",
+      "resume_passage": "Situation générale sur le front de l’Ouest au 15/12/1944, dont les poches allemandes du littoral.",
+      "archive_locale": null,
+      "notes": "Trouvée par Claude. Carte à petite échelle (≈ 1:5 000 000) : incertitude ≈ 5 km. Géoréférencée sur les côtes et fleuves Natural Earth."
+    },
+    {
+      "source_id": "src-westpoint-alsace-colmar-1945",
+      "niveau": "B",
+      "type_source": "atlas_militaire",
+      "titre": "Southeastern France 1944 — German Offensive, 1-30 January 1945, and Allied Reduction of Colmar Pocket (carte n° 75a)",
+      "institution": "United States Military Academy, West Point — Department of History",
+      "url": "https://dhc.westpoint.edu/wp-content/uploads/sites/6/2025/01/WWIIEurope75combined.jpg",
+      "date_consultation": "2026-09-28",
+      "periode_couverte": [
+        "1945"
+      ],
+      "zones": [
+        "Alsace"
+      ],
+      "usages_atlas": [
+        "ligne_front",
+        "poche de Colmar"
+      ],
+      "locator": "tireté rouge « 20 Jan. »",
+      "resume_passage": "Offensive allemande en Alsace (janvier 1945) et réduction de la poche de Colmar (20/01-09/02/1945).",
+      "archive_locale": null,
+      "notes": "Trouvée par Claude. Sert pour le sud de la poche, hors de la carte LOC. Utile aussi pour le ratissage de janvier (Nordwind, Sonnenwende)."
     }
   ]
 }

@@ -17,7 +17,8 @@ km2 = lambda g: transform(EQ, g).area / 1e6
 def telecharger(url, fichier, data=None):
     chemin = os.path.join(CACHE, fichier)
     if not os.path.exists(chemin):
-        req = urllib.request.Request(url, data=urllib.parse.urlencode({'data': data}).encode() if data else None)
+        req = urllib.request.Request(url, data=urllib.parse.urlencode({'data': data}).encode() if data else None,
+                                     headers={'User-Agent': 'AtlasEurasie/0.2 (+https://github.com/Guizmo9867/Atlas)'})
         with urllib.request.urlopen(req, timeout=600) as r, open(chemin, 'wb') as f: f.write(r.read())
     return chemin
 

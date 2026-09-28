@@ -19,8 +19,7 @@ Ce tableau de bord dit où on en est, pour ne rien oublier. Claude le met à jou
 | Est / Nord | 01 | URSS, RSS kazakhe, Touva, Mongolie extérieure, Finlande, Petsamo, Porkkala, Laponie (zone allemande), front de Laponie | 9/9, provisoires (OHM) | intégré le 26/09/2026 ; points à sourcer, voir `docs/pour_ether/2026-09-26_traces_snapshot0_lot01.md` |
 | Est / centre | 02 | Allemagne (1937), Autriche, Pologne, frontière Pologne–URSS, RSS d'Estonie, de Lettonie, de Lituanie, Courlande, Memel, Dantzig, front de l'Est | 11/11, provisoires (OHM ; Courlande et front : carte West Point n° 31 géoréférencée) | **verrouillé le 28/09/2026** ; voir `docs/pour_ether/2026-09-28_integration_lot02.md` |
 | Est (suite) | — | à définir : autres RSS, Hongrie, Slovaquie, Roumanie… | — | à faire |
-| Nord | — | à définir | — | à faire |
-| Ouest | — | à définir | — | à faire |
+| Nord + Ouest | 03 | Danemark, Féroé, Norvège (+ Est-Finnmark), Suède, Islande, Royaume-Uni, Jersey, Guernesey, Irlande, France (+ poches, Colmar, nord-est), Belgique et Luxembourg (+ Ardennes), Pays-Bas (+ sud libéré), zones alliées en Allemagne, front de l'Ouest | 22/22, provisoires (OHM + cartes LOC et West Point géoréférencées) | intégré le 28/09/2026 ; voir `docs/pour_ether/2026-09-28_integration_lot03.md` |
 | Sud | — | à définir | — | à faire |
 
 *Les limites exactes de chaque zone seront fixées avec Ether (voir aussi le document de vision globale, pas encore versé dans le dépôt).*
@@ -35,12 +34,15 @@ Ce tableau de bord dit où on en est, pour ne rien oublier. Claude le met à jou
 - **Zaolzie** : à traiter avec la Tchécoslovaquie. *(Ether)*
 - **RSS baltes** : `souverainete_revendiquee_par` ne contient que l'URSS ; ajouter une revendication de continuité des États baltes si elle est sourcée. *(Ether)*
 
+- **Lot 03** : île de Man, Svalbard / Jan Mayen, Noirmoutier, Groix (absente du trait de côte) ; source par île pour les poches ; valider les deux zones proposées par Claude. *(Ether)*
+- **Janvier 1945** : la LOC a la même carte du 12e groupe d'armées pour **chaque jour** de janvier (items 2004630304 → 2004630334) : base du ratissage mensuel à l'Ouest. *(Claude)*
+
 ## Couches suivantes (après le Snapshot 0 des frontières)
 
 | Couche | Statut |
 |---|---|
 | Territoires et frontières | en cours (Snapshot 0) |
-| Lignes de front / contrôle militaire | Snapshot 0 : front de l'Est, Courlande, Laponie tracés ; zones de contrôle derrière le front à décider |
+| Lignes de front / contrôle militaire | Snapshot 0 : fronts de l'Est, de Laponie et de l'Ouest tracés ; zones de contrôle faites à l'Ouest, à décider à l'Est |
 | Ports, ferries | à faire |
 | Grands axes routiers | à faire |
 | Postes-frontière, douanes | à faire |

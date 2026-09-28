@@ -13,6 +13,7 @@ Ce qu'on a le droit de faire avec chaque source de données ou chaque outil, et 
 | ↳ segments tagués « CC BY 4.0 » sans auteur indiqué (relations URSS et Pologne 1945) | CC BY 4.0 | frontière de l'URSS | origine à identifier ; en attendant, créditer « contributeurs OpenHistoricalMap » |
 | **Natural Earth** | domaine public | fond de carte (terres, lacs, fleuves) + découpage du trait de côte | aucune (crédit apprécié) |
 | **OpenStreetMap** (tuiles du calque « repères modernes ») | données ODbL ; tuiles soumises à la politique d'usage d'OSM | simple affichage des tuiles, aucune donnée copiée | **Crédit obligatoire** « © OpenStreetMap contributors » (affiché par la carte). Les serveurs de tuiles d'OSM ne sont pas faits pour un site public à fort trafic : **avant la mise en ligne**, passer par un autre fournisseur de tuiles ou héberger les nôtres. Si un jour on **copie** des données OSM dans le corpus, l'ODbL impose le partage à l'identique de la base dérivée : à éviter ou à décider consciemment. |
+| **Carte West Point n° 31** (US Military Academy, Department of History) | œuvre d'une institution fédérale américaine, en principe domaine public aux États-Unis | géoréférencée pour tracer le front de l'Est et la Courlande (seules des **coordonnées dérivées** sont dans le dépôt, pas l'image) | crédit donné par politesse et traçabilité (registre : `src-westpoint-russian-balkan-baltic-1944`) |
 | **CShapes 2.0** (ETH Zurich) | CC BY-NC-SA 4.0 (**non commercial**, partage à l'identique) | **comparaison uniquement** (repérer des écarts) | Ne jamais copier ses tracés dans l'Atlas. |
 
 Le détail « segment par segment » se trouve dans chaque fichier de géométrie (propriété `licences_segments`), rempli par les scripts `outils/geo/deriver_snapshot0_lot*.py`.
@@ -29,8 +30,26 @@ Le détail « segment par segment » se trouve dans chaque fichier de géométri
 
 ## Dans l'application
 
-Le bouton ⓘ en bas à droite de la carte affiche les crédits : Natural Earth, OpenHistoricalMap (CC0), Kartverket (CC BY 4.0), GURS Slovénie (CC BY 4.0), OCHA (CC BY-IGO), et OpenStreetMap quand le calque « repères modernes » est actif.
+Le bouton ⓘ en bas à droite de la carte affiche les crédits : Natural Earth, OpenHistoricalMap (CC0), Kartverket (CC BY 4.0), GURS Slovénie (CC BY 4.0), OCHA (CC BY-IGO), West Point (fronts), et l'Atlas lui-même (CC BY 4.0), et OpenStreetMap quand le calque « repères modernes » est actif.
 
-## À décider avant toute publication
+## Licences de l'Atlas (décidées le 28/09/2026)
 
-- La **licence du code** de l'Atlas (ex. MIT) et celle du **contenu** (fiches, textes, géométries retravaillées), à choisir séparément. L'ouverture du contenu reste à discuter (récap technique, §10).
+- **Code** (`app/`, `outils/`) : **MIT** (fichier `LICENSE`).
+- **Données et textes** (`data/`, `docs/`, `gabarits/`) : **CC BY 4.0** (fichier `LICENCE_DONNEES.md`) : réutilisation libre, y compris commerciale, **citation obligatoire**.
+- Guizmo reste l'auteur : ces licences ne l'empêchent pas de proposer plus tard une version financée, des services ou une autre licence pour ses propres contributions.
+
+## Règle d'entrée d'une nouvelle source de données
+
+Avant qu'une donnée **copiée** (tracé, point, attribut) entre dans `data/`, vérifier que sa licence permet de la republier sous CC BY 4.0 :
+
+| Licence de la source | Peut entrer dans le corpus ? |
+|---|---|
+| Domaine public, CC0 | oui |
+| CC BY, CC BY-IGO, licence ouverte Etalab / OGL | oui, **avec le crédit** (dans `licences_segments` et le bouton ⓘ) |
+| ODbL (OpenStreetMap) | **oui, mais dans un dossier à part** (`data/osm/`, sous ODbL, avec « © OpenStreetMap contributors ») : jamais mélangée aux fichiers CC BY. Une donnée tirée ou retouchée d'OSM (ex. une route de 1945 redessinée sur une route OSM) reste ODbL et va dans ce dossier |
+| CC BY-SA | même principe : dossier à part, sous sa propre licence |
+| NC (non commercial), ND (pas de modification), « tous droits réservés » | **non** : comparaison, lecture ou citation courte seulement |
+
+Pourquoi OSM à part : l'ODbL autorise tout (y compris public et commercial), mais exige que la base qui **contient** ses données soit partagée sous ODbL. Deux bases posées côte à côte gardent chacune leur licence ; une base où on les a mélangées devient entièrement ODbL. La **carte affichée** (l'image) peut, elle, combiner les deux avec les crédits.
+
+Les documents historiques (livres, archives, articles) ne sont jamais copiés : on les **cite** (référence + court extrait), ce qui reste permis quelle que soit leur licence.

@@ -2,6 +2,25 @@
 
 Une ligne par décision, datée. Plus récente en haut. Ce journal remplace les versions éparpillées dans les conversations : si ce n'est pas ici, ce n'est pas décidé.
 
+## 2026-09-28 (suite : lot 03, Nord et Ouest)
+
+- **Lot 03 intégré** (Danemark, Féroé, Norvège, Suède, Islande, Royaume-Uni, Jersey, Guernesey, Irlande, France, Belgique, Luxembourg, Pays-Bas) : 22 entités, toutes tracées. *(Ether, intégré par Claude)*
+- **Front de l'Ouest tracé depuis la carte officielle LOC du 12e groupe d'armées (01/01/1945, midi)**, géoréférencée automatiquement sur les fleuves (écart ≈ 1-2 km). Zones dérivées du front : Ardennes belges et luxembourgeoises, Pays-Bas libérés, poche de Colmar (sud d'après West Point 75a). Poches de l'Atlantique et Dunkerque d'après West Point 71 (15/12/1944, ≈ 5 km). *(Claude)*
+- **Règle « pays occupé ≠ Axe » appliquée partout** : un territoire garde le camp de son souverain ; l'occupation = hachures à la couleur du camp de l'occupant. Conséquence : Courlande et Laponie perdent leur `alignement_id: axis_ww2` et deviennent « couleur du parent + hachures anthracite ». *(Ether, harmonisation Claude)*
+- **Nouveau statut particulier `occupe_hors_coalitions`** (Danemark) : fond ivoire + hachures de l'occupant. *(Ether + Claude)*
+- **`administration_id` utilisé** : Féroé (`feroe`, contrôle britannique), Est-Finnmark (`norvege`, contrôle soviétique), Pays-Bas libérés (`pays_bas`). *(Ether)*
+- **Îles Anglo-Normandes séparées du Royaume-Uni** (`souverainete_id: couronne_britannique`) ; alignement allié ajouté par Claude, à valider. *(Ether + Claude)*
+- **Propositions de Claude, à valider** : `territoire-de-zone-alliee-ouest` (Aix-la-Chapelle, bords de la Sarre) et `territoire-fr-zone-allemande-nord-est` (Bitche), tirés du même front. *(Claude)*
+- **Affichage** : étiquettes posées au « cœur » du territoire (algorithme polylabel) ; zones locales étiquetées seulement de près ; une zone « enfant » masque les hachures de son parent. *(Claude)*
+
+## 2026-09-28 (suite : ouverture publique)
+
+- **Le dépôt GitHub devient public, en lecture seule** : chacun peut suivre l'avancée et proposer une correction sourcée ; seul Guizmo écrit dans le dépôt. *(Guizmo)*
+- **Licences : code MIT, données et textes CC BY 4.0** : réutilisation libre, y compris commerciale, avec citation obligatoire de l'Atlas. Objectif : que l'Atlas serve (enseignants, élèves, chercheurs) et que son origine soit toujours citée. *(Guizmo, mis en forme par Claude)*
+- **Règle d'entrée des sources** : une donnée copiée dans `data/` doit être compatible CC BY 4.0 (domaine public, CC0, CC BY) ; ODbL/SA/NC/ND interdites dans le corpus (voir `docs/LICENCES_ET_ATTRIBUTIONS.md`). *(Claude)*
+- **OpenStreetMap autorisé, mais rangé à part** : données OSM (ou dérivées d'OSM) dans `data/osm/` sous ODbL, jamais mélangées au corpus CC BY ; la carte affichée combine les deux avec les crédits. *(question de Guizmo, règle proposée par Claude)*
+- L'adresse e-mail des commits reste visible : choix assumé par Guizmo. *(Guizmo)*
+
 ## 2026-09-28 (suite : fronts, Courlande, Laponie)
 
 - **Front de l'Est et poche de Courlande tracés** depuis la carte West Point n° 31 (trait rouge du 31/12/1944), géoréférencée par Claude (23 points d'appui, erreur ≈ 9 km en moyenne) : incertitude affichée de 15 km. Courlande ≈ 15 200 km², `alignement_id: axis_ww2` (anthracite). *(Ether a fourni la carte, Claude a tracé)*

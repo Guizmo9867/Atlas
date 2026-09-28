@@ -21,9 +21,11 @@ export interface Calques {
 export const ZOOM_MIN = { atlas: 0, regional: 5, archive: 6.5 } as const
 const PROFONDEURS = ['atlas', 'regional', 'archive'] as const
 
+const ETAGES = [0, 1, 2]
+const couche = (base: string, d: number) => (d === 0 ? base : `${base}-${d}`)
 const VIDE: FeatureCollection = { type: 'FeatureCollection', features: [] }
 const GROUPES: Record<keyof Calques, string[]> = {
-  territoires: ['territoires-fond', 'territoires-hachures', 'territoires-lisere', 'territoires-contour'],
+  territoires: [...ETAGES.flatMap((d) => [...(d > 0 ? [`territoires-masque-${d}`] : []), couche('territoires-fond', d), couche('territoires-hachures', d)]), 'territoires-lisere', 'territoires-contour'],
   frontieres: ['frontieres'],
   fronts: ['fronts-bande', 'fronts-trait'],
   ponts: ['ponts'],
@@ -31,7 +33,7 @@ const GROUPES: Record<keyof Calques, string[]> = {
   parcours: PROFONDEURS.map((p) => `parcours-${p}`),
   reperesModernes: ['osm'],
 }
-const CLIQUABLES = [...PROFONDEURS.map((p) => `pastilles-${p}`), ...PROFONDEURS.map((p) => `parcours-${p}`), 'ponts', 'frontieres', 'territoires-fond']
+const CLIQUABLES = [...PROFONDEURS.map((p) => `pastilles-${p}`), ...PROFONDEURS.map((p) => `parcours-${p}`), 'ponts', 'frontieres', ...ETAGES.map((d) => couche('territoires-fond', d))]
 
 interface Props {
   emprise: [number, number, number, number]
@@ -60,7 +62,7 @@ export default function MapView({ emprise, couches, calques, selection, onSelect
       maxZoom: 12,
       attributionControl: {
         compact: true,
-        customAttribution: '<a href="https://www.openhistoricalmap.org/copyright" target="_blank">OpenHistoricalMap</a> (CC0) · Kartverket (CC BY 4.0) · GURS Slovénie (CC BY 4.0) · OCHA (CC BY-IGO)',
+        customAttribution: '<a href="https://www.openhistoricalmap.org/copyright" target="_blank">OpenHistoricalMap</a> (CC0) · Kartverket (CC BY 4.0) · GURS Slovénie (CC BY 4.0) · OCHA (CC BY-IGO) · fronts : <a href="https://dhc.westpoint.edu/atlases/" target="_blank">West Point</a> · <a href="https://github.com/Guizmo9867/Atlas" target="_blank">Atlas Eurasie</a> (CC BY 4.0)',
       },
       style: {
         version: 8,
@@ -81,9 +83,18 @@ export default function MapView({ emprise, couches, calques, selection, onSelect
           // Terres « sans données » : gris clair neutre, pour ne pas les confondre avec les pays neutres (ivoire)
           { id: 'terres', type: 'fill', source: 'terres', paint: { 'fill-color': '#e2e0d9' } },
           { id: 'osm', type: 'raster', source: 'osm', layout: { visibility: 'none' }, paint: { 'raster-opacity': 0.55 } },
-          { id: 'territoires-fond', type: 'fill', source: 'territoires', paint: { 'fill-color': ['get', 'couleur'], 'fill-opacity': 0.62 } },
-          { id: 'territoires-hachures', type: 'fill', source: 'territoires', filter: ['!=', ['get', 'hachure'], ''],
-            paint: { 'fill-pattern': ['get', 'hachure'] as unknown as string } },
+          // Un étage par profondeur (pays, puis zones « enfants », puis sous-zones) : un enfant masque d'abord
+          // le fond ET les hachures de son parent (sinon les hachures du parent débordent sur une zone libérée).
+          ...ETAGES.flatMap((d) => [
+            ...(d > 0 ? [{ id: `territoires-masque-${d}`, type: 'fill' as const, source: 'territoires',
+              filter: ['==', ['get', 'profondeur'], d] as maplibregl.FilterSpecification, paint: { 'fill-color': '#e2e0d9' } }] : []),
+            { id: couche('territoires-fond', d), type: 'fill' as const, source: 'territoires',
+              filter: (d < ETAGES.length - 1 ? ['==', ['get', 'profondeur'], d] : ['>=', ['get', 'profondeur'], d]) as maplibregl.FilterSpecification,
+              paint: { 'fill-color': ['get', 'couleur'] as unknown as string, 'fill-opacity': 0.62 } },
+            { id: couche('territoires-hachures', d), type: 'fill' as const, source: 'territoires',
+              filter: ['all', ['!=', ['get', 'hachure'], ''], d < ETAGES.length - 1 ? ['==', ['get', 'profondeur'], d] : ['>=', ['get', 'profondeur'], d]] as maplibregl.FilterSpecification,
+              paint: { 'fill-pattern': ['get', 'hachure'] as unknown as string } },
+          ]),
           { id: 'territoires-lisere', type: 'line', source: 'territoires', filter: ['!=', ['get', 'lisere'], ''],
             paint: { 'line-color': ['get', 'lisere'] as unknown as string, 'line-width': 3, 'line-opacity': 0.85 } },
           { id: 'territoires-contour', type: 'line', source: 'territoires', paint: { 'line-color': '#5b5448', 'line-width': 0.8 } },
@@ -142,7 +153,7 @@ export default function MapView({ emprise, couches, calques, selection, onSelect
     map.on('mousemove', (e) => {
       const f = map.queryRenderedFeatures(e.point, { layers: CLIQUABLES })[0]
       map.getCanvas().style.cursor = f ? 'pointer' : ''
-      const titre = f && (f.properties.titre ?? (f.layer.id === 'territoires-fond' ? null : f.properties.nom))
+      const titre = f && (f.properties.titre ?? (f.layer.id.startsWith('territoires-fond') ? null : f.properties.nom))
       if (titre) survol.setLngLat(e.lngLat).setText(String(titre)).addTo(map)
       else survol.remove()
     })
@@ -159,6 +170,7 @@ export default function MapView({ emprise, couches, calques, selection, onSelect
       // à petite échelle, on n'étiquette que les territoires « parents » (sinon tout se chevauche)
       map.getContainer().classList.toggle('zoom-faible', map.getZoom() < 3.8)
       map.getContainer().classList.toggle('zoom-moyen', map.getZoom() < 5)
+      map.getContainer().classList.toggle('zoom-regional', map.getZoom() < 6.5)
     }
     map.on('zoom', majZoom)
     map.on('load', majZoom)
@@ -202,6 +214,7 @@ function appliquer(map: maplibregl.Map, c: CouchesDuJour, etiquettes: React.Muta
     const nom = String(f.properties?.nom_court ?? f.properties?.nom ?? '')
     el.dataset.profondeur = String(f.properties?.profondeur ?? 0)
     el.dataset.petit = etendue(f.geometry) < 25 ? '1' : '0' // < ~25 degrés² : petit territoire
+    el.dataset.minuscule = etendue(f.geometry) < 2 ? '1' : '0' // zones locales (poches, zones de front) : étiquette seulement de près
     const v = String(f.properties?.valeur_mode ?? '')
     const libelle = LIBELLES[v] ?? v
     // Sous-titre seulement s'il apporte une info (ex. « Cordanie (occupant) » en mode contrôle)

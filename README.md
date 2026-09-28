@@ -2,6 +2,8 @@
 
 Atlas historique interactif des flux eurasiatiques (frontières, routes, migrations…) du **1er janvier 1945, 0 h** à aujourd'hui.
 
+> **Projet en cours, ouvert en lecture.** Les tracés sont provisoires tant qu'ils ne sont pas confirmés par une source solide. Vous pouvez suivre l'avancée version par version et signaler une erreur (onglet *Issues*), **avec une source** de préférence.
+
 Une carte qu'on peut agrandir et réduire, et un curseur de date. À chaque date, la carte est **recalculée** à partir de l'état valable ce jour-là pour chaque frontière, territoire, pont, route… Les pastilles d'événements ouvrent une fiche sourcée.
 
 ## Où se trouve quoi
@@ -9,6 +11,9 @@ Une carte qu'on peut agrandir et réduire, et un curseur de date. À chaque date
 ```
 Atlas/
 ├─ README.md                  ← ce fichier
+├─ LICENSE                    ← licence du code (MIT)
+├─ LICENCE_DONNEES.md         ← licence des données et textes (CC BY 4.0)
+├─ CITATION.cff               ← comment citer l'Atlas
 ├─ docs/
 │   ├─ recap_technique.md     ← toutes les décisions techniques jusqu'au 25/09/2026
 │   ├─ JOURNAL_DECISIONS.md   ← chaque décision datée depuis (à lire en premier)
@@ -20,7 +25,7 @@ Atlas/
 ├─ gabarits/                  ← modèles JSON : entité temporelle, événement
 ├─ data/
 │   ├─ sources/               ← registre central des sources (une source = un source_id)
-│   ├─ snapshot0/             ← état de l'Eurasie au 1945-01-01, lot par lot (01 Nord/Est, 02 Pologne-Allemagne-Autriche-Baltes)
+│   ├─ snapshot0/             ← état de l'Eurasie au 1945-01-01, lot par lot (01 Nord/Est, 02 Pologne-Allemagne-Autriche-Baltes, 03 Nord et Ouest)
 │   ├─ geometries/            ← un fichier .geojson par tracé, avec sa provenance
 │   └─ prototype_v0/          ← données 100 % FICTIVES pour tester le moteur (Ruritanie, Kovalie…)
 ├─ outils/geo/                ← scripts qui fabriquent les tracés (trace d'audit)
@@ -30,6 +35,16 @@ Atlas/
 ## Lancer la carte
 
 Dans `app/` : `npm install` (la première fois), puis `npm run dev`. Contrôle des données : `npm run validate:data`.
+
+## Licence et citation
+
+- **Données et textes** (`data/`, `docs/`, `gabarits/`) : **CC BY 4.0**, réutilisables librement, y compris en classe, **à condition de citer** « Atlas Eurasie — Guizmo et contributeurs ». Détails : `LICENCE_DONNEES.md`.
+- **Code** (`app/`, `outils/`) : **MIT**, voir `LICENSE`.
+- Les **données de tiers** gardent leur licence et leurs crédits : `docs/LICENCES_ET_ATTRIBUTIONS.md`.
+
+## Contribuer
+
+Le dépôt est ouvert en lecture : seul le mainteneur y écrit. Pour proposer une correction, ouvrez une *Issue* (ou une *Pull request*) en donnant **la source** (document, carte, archive, avec la page ou le passage). Toute contribution acceptée est publiée sous les mêmes licences (CC BY 4.0 pour les données, MIT pour le code).
 
 ## Règles de rangement
 

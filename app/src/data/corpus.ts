@@ -29,7 +29,7 @@ export interface Corpus {
 }
 
 export const LISTE_CORPUS: { id: IdCorpus; nom: string; aide: string }[] = [
-  { id: 'snapshot0', nom: 'Snapshot 0 — 1er janvier 1945', aide: 'Données réelles (lots 01 et 02). Tracés provisoires.' },
+  { id: 'snapshot0', nom: 'Snapshot 0 — 1er janvier 1945', aide: 'Données réelles (lots 01 à 03). Tracés provisoires.' },
   { id: 'prototype', nom: 'Prototype V0 (fictif)', aide: 'Ruritanie et Kovalie : pour tester le moteur.' },
 ]
 
