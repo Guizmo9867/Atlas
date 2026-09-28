@@ -7,11 +7,11 @@ Atlas — dérivation des géométries du Snapshot 0 (1945-01-01), lot 03 : Nord
      - Belgique = frontières de 1920 (Eupen-Malmedy compris) ; Luxembourg = frontières d'avant l'annexion ;
      - Norvège sans Svalbard ni Jan Mayen (statut militaire différent, à traiter à part) ;
      - Îles Anglo-Normandes (Jersey, Guernesey) séparées du Royaume-Uni ; Féroé séparées du Danemark.
-2. Zones de contrôle, dérivées de la ligne de front (cartes géoréférencées par outils/geo/lot03/) :
-     - carte LOC du 12e groupe d'armées, situation du 01/01/1945 à midi (front des Pays-Bas à l'Alsace) ;
-     - carte West Point n° 75a, ligne du 20/01/1945 (sud de la poche de Colmar, hors de la carte LOC ; front
-       inchangé entre fin novembre et le 20 janvier dans ce secteur) ;
-     - carte West Point n° 71, situation du 15/12/1944 (poches de l'Atlantique et de Dunkerque, inchangées au 01/01).
+2. Zones de contrôle, dérivées de la ligne de front (cartes géoréférencées par outils/geo/lot03/).
+   RÈGLE DU SNAPSHOT 0 : dernière situation connue AVANT le 01/01/1945 à 00:00 (ce qui vient après = ratissage de janvier) :
+     - carte LOC du 12e groupe d'armées, situation du 31/12/1944 à midi (front des Pays-Bas à l'Alsace) ;
+     - carte West Point n° 70, front du 15/12/1944 (sud de la poche de Colmar, hors de la carte LOC) ;
+     - carte West Point n° 71, situation du 15/12/1944 (poches de l'Atlantique et de Dunkerque).
    « Côté allemand » = polygone fermé par la ligne de front, puis intersecté avec chaque pays ; ouverture
    morphologique de 1,5 km pour supprimer les liserés parasites le long des frontières que suit le front.
 3. Est-Finnmark : Norvège à l'est de la Tana (Store norske leksikon : les Soviétiques s'arrêtent à la Tana).
@@ -66,13 +66,17 @@ est_tana = Polygon(TANA + [(32.5, 71.4), (32.5, 68.8), (28.0, 68.8)])
 est_finnmark = T['norvege'].intersection(est_tana).buffer(0)
 
 # ---------- Front occidental ----------
-F = L3('front_loc_12ag_lonlat.json')      # morceaux extraits de la carte LOC
-C = L3('colmar_sud_wp75_lonlat.json')     # ligne du 20/01 au sud de Colmar
-principal = F['principal'] + C['colmar_sud_20jan']      # raccord LOC → WP75 : segment droit (~8 km, Munster)
-front = MultiLineString([F['walcheren'], F['beveland'], principal])
+# RÈGLE DU SNAPSHOT 0 (Guizmo, 28/09/2026) : on part de la DERNIÈRE situation connue AVANT le 01/01/1945 à 00:00.
+# Tout ce qui est observé après (même la carte du 01/01 à 12:00) entre au ratissage de janvier comme nouvel état.
+F = L3('front_loc_12ag_1944-12-31_lonlat.json')   # carte LOC « Situation 1200 hrs 31 December 1944 »
+S = L3('alsace_sud_wp70_lonlat.json')              # sud de la poche de Colmar au 15/12/1944 (West Point 70), hors carte LOC
+fin = F['principal'][-1]
+sud = [p for p in S['front_15dec'] if p[1] < fin[1] - 0.02]     # partie au sud de la carte LOC
+principal = F['principal'] + sud                                 # raccord LOC → West Point : segment droit court
+front = MultiLineString([F['walcheren'], F['beveland'], F['tholen'], principal])
 # Côté allemand : fermé par la mer du Nord à l'ouest/nord, par l'Allemagne à l'est
-cote_allemand = Polygon(F['walcheren'] + F['beveland'] + principal +
-                        [(7.60, 47.62), (13.0, 47.62), (13.0, 55.5), (2.8, 55.5), (2.8, 51.62), (3.30, 51.62)]).buffer(0)
+cote_allemand = Polygon(F['walcheren'] + F['beveland'] + F['tholen'] + principal +
+                        [(7.62, 47.585), (13.0, 47.585), (13.0, 55.5), (2.8, 55.5), (2.8, 51.62), (3.30, 51.62)]).buffer(0)
 EQ = pyproj.Transformer.from_crs(4326, 3035, always_xy=True).transform
 QE = pyproj.Transformer.from_crs(3035, 4326, always_xy=True).transform
 def ouverture(g, m=1500):
@@ -112,10 +116,9 @@ for k, arc in A.items():
     garde = [p for p in (local.geoms if local.geom_type == 'MultiPolygon' else [local]) if any(p.distance(Point(v)) < 0.03 for v in VILLE[k])]
     poches += garde
     print(f"poche {k:16} {sum(km2(p) for p in garde):7.0f} km²")
-ILES = {'groix': (-3.46, 47.64), 'belle-ile': (-3.18, 47.33), 're': (-1.43, 46.20), 'oleron': (-1.30, 45.93)}
-iles = [p for p in (T['france'].geoms if T['france'].geom_type == 'MultiPolygon' else [T['france']])
-        if km2(p) > 5 and any(p.distance(Point(v)) < 0.04 for v in ILES.values())]
-poches_atl = unary_union(poches + iles).buffer(0)
+# Îles (Groix, Belle-Île, Ré, Oléron, Noirmoutier) : PAS rattachées tant qu'une source ne fixe pas leur statut au 01/01/1945
+# (décision Ether, 28/09/2026 : pas de remplissage automatique).
+poches_atl = unary_union(poches).buffer(0)
 
 resultat = {
     'geom-territoire-dk-danemark-1945-01-01': T['danemark'],
@@ -145,8 +148,8 @@ resultat = {k: arrondir(v if v.geom_type.endswith('LineString') else v.buffer(0)
 
 def ohm(cle, quoi): return {'source_id': 'src-openhistoricalmap', 'locator': f'relation {REL[cle]} — {quoi}', 'usage': 'tracé de la frontière'}
 NE = {'source_id': 'src-natural-earth-10m', 'locator': 'ne_10m_land + ne_10m_minor_islands', 'usage': 'trait de côte'}
-LOC = {'source_id': 'src-loc-12ag-1945-01-01', 'locator': 'situation 1200 hrs, 1 January 1945 ; trait noir épais « front line »', 'usage': 'ligne de front du jour, géoréférencée'}
-WP75 = {'source_id': 'src-westpoint-alsace-colmar-1945', 'locator': 'carte 75a, tireté rouge « 20 Jan. »', 'usage': 'sud de la poche de Colmar'}
+LOC = {'source_id': 'src-loc-12ag-1944-12-31', 'locator': 'situation 1200 hrs, 31 December 1944 ; trait noir épais « front line »', 'usage': 'dernière position du front connue avant le Snapshot, géoréférencée'}
+WP70 = {'source_id': 'src-westpoint-6-12ag-1944-11-12', 'locator': 'carte 70, trait rouge plein « 8 Nov.-15 Dec. »', 'usage': 'sud de la poche de Colmar au 15/12/1944'}
 WP71 = {'source_id': 'src-westpoint-general-situation-1944-12-15', 'locator': 'carte 71, arcs rouges des poches', 'usage': 'limites des poches'}
 SNL = {'source_id': 'src-snl-east-finnmark-1944', 'locator': 'Tana', 'usage': 'limite ouest de la zone soviétique'}
 NE_R = {'source_id': 'src-natural-earth-10m', 'locator': 'ne_10m_rivers_europe « Tana River »', 'usage': 'cours de la Tana'}
@@ -173,27 +176,45 @@ META = {
         "Frontières de 1918-1940, Alsace-Moselle comprise (lecture juridique alliée). Monaco exclu (enclave). Frontière franco-italienne d'avant 1947 (Tende et La Brigue italiens)."),
     'geom-territoire-fr-poches-atlantiques-1945-01-01': ([WP71, ohm('france', 'French Republic'), NE, {'source_id': 'src-chemins-poches-atlantique-1945', 'locator': '', 'usage': 'liste des poches, île de Ré'}],
         ['arcs rouges de la carte West Point 71 (15/12/1944), géoréférencée sur les côtes et fleuves Natural Earth (écart ≈ 3 km)',
-         'terre française coupée par chaque arc ; on garde le côté du port', '+ îles de Groix, Belle-Île, Ré et Oléron'],
+         'terre française coupée par chaque arc ; on garde le côté du port', 'îles non incluses (attente de source par île)'],
         ["Carte au 1:5 000 000 environ : incertitude ≈ 5 km. Situation du 15/12/1944, inchangée au 01/01/1945 pour ces poches (fronts figés de l'automne 1944 au printemps 1945).",
          "Dunkerque, Lorient, Saint-Nazaire (deux rives de la Loire), La Rochelle/La Pallice, Royan et pointe de Grave.",
-         "Îles rattachées aux poches (Groix et Belle-Île → Lorient ; Ré → La Rochelle ; Oléron → Royan) : à confirmer par une source par île. Noirmoutier NON inclus faute de source."]),
-    'geom-territoire-fr-poche-colmar-1945-01-01': ([LOC, WP75, ohm('france', 'French Republic'), NE],
-        ['France ∩ côté allemand du front', 'nord et ouest : carte LOC du 01/01 ; sud (Munster → Mulhouse → Rhin) : ligne du 20/01 de la carte West Point 75a'],
-        [GEOREF_LOC, "Partie sud tirée de la ligne du 20/01/1945 (West Point 75a, géoréférencée sur 13 villes, écart moyen 1,8 km) : secteur resté figé de fin novembre au 20 janvier, mais la date n'est pas celle du Snapshot.",
-         "Raccord LOC → West Point près de Munster par un segment droit d'environ 8 km."]),
+         "Îles NON rattachées (Groix, Belle-Île, Ré, Oléron, Noirmoutier) : chacune attend une source qui établit son statut au 01/01/1945."]),
+    'geom-territoire-fr-poche-colmar-1945-01-01': ([LOC, WP70, ohm('france', 'French Republic'), NE],
+        ['France ∩ côté allemand du front', 'nord et ouest : carte LOC du 31/12/1944 ; sud (Vosges → Mulhouse → Rhin) : trait du 15/12/1944 de la carte West Point 70'],
+        [GEOREF_LOC, "Partie sud tirée du front du 15/12/1944 (West Point 70, carte stylisée, calée sur 11 villes, écart moyen 1,7 km) : incertitude ≈ 5 km dans ce secteur.",
+         "Raccord LOC → West Point au bord sud de la carte LOC par un segment droit court."]),
     'geom-territoire-be-belgique-1945-01-01': SIMPLE('belgique', 'Belgium 1920-01-10 → 1940-06-25', "Frontière de 1920, Eupen-Malmedy compris (lecture alliée)."),
-    'geom-territoire-be-zone-allemande-ardennes-1945-01-01': ([LOC, ohm('belgique', 'Belgium 1920-1940'), NE], ['Belgique ∩ côté allemand du front LOC du 01/01'], [GEOREF_LOC, "Situation du 01/01 à midi, pas l'extension maximale de l'offensive (24-26/12)."]),
+    'geom-territoire-be-zone-allemande-ardennes-1945-01-01': ([LOC, ohm('belgique', 'Belgium 1920-1940'), NE], ['Belgique ∩ côté allemand du front LOC du 31/12/1944'], [GEOREF_LOC, "Situation du 31/12 à midi (dernière connue avant le Snapshot), pas l'extension maximale de l'offensive (24-26/12)."]),
     'geom-territoire-lu-luxembourg-1945-01-01': SIMPLE('luxembourg', 'Luxembourg 1840-09-12 → 1940-07-29'),
-    'geom-territoire-lu-zone-allemande-ardennes-1945-01-01': ([LOC, ohm('luxembourg', 'Luxembourg'), NE], ['Luxembourg ∩ côté allemand du front LOC du 01/01'], [GEOREF_LOC]),
+    'geom-territoire-lu-zone-allemande-ardennes-1945-01-01': ([LOC, ohm('luxembourg', 'Luxembourg'), NE], ['Luxembourg ∩ côté allemand du front LOC du 31/12/1944'], [GEOREF_LOC]),
     'geom-territoire-nl-pays-bas-1945-01-01': SIMPLE('pays_bas', 'Koninkrijk der Nederlanden 1848-10-14 → 1949', "Partie européenne seulement."),
-    'geom-territoire-nl-zone-liberee-sud-1945-01-01': ([LOC, ohm('pays_bas', 'Nederland'), NE], ['Pays-Bas moins le côté allemand du front LOC du 01/01'],
+    'geom-territoire-nl-zone-liberee-sud-1945-01-01': ([LOC, ohm('pays_bas', 'Nederland'), NE], ['Pays-Bas moins le côté allemand du front LOC du 31/12/1944'],
         [GEOREF_LOC, "Walcheren, Nord- et Zuid-Beveland libérés ; Schouwen-Duiveland, Tholen-nord et Goeree-Overflakkee encore allemands (arcs de front de la carte)."]),
     'geom-territoire-de-zone-alliee-ouest-1945-01-01': ([LOC, {'source_id': 'src-openhistoricalmap', 'locator': 'relation 2693085 — German Reich 1936-1938', 'usage': 'frontières de 1937'}, NE],
-        ['Allemagne (1937) ∩ côté allié du front LOC du 01/01', 'ouverture 3 km, morceaux de moins de 30 km² retirés'], [GEOREF_LOC, "Région d'Aix-la-Chapelle et bordures de la Sarre et du Palatinat tenues par les Alliés. PROPOSITION de Claude, à valider par Ether."]),
-    'geom-ligne_front-de-ouest-europe-1945-01-01': ([LOC, WP75], ['trait du front extrait automatiquement (seuil de noir + ouverture morphologique + squelette)', '+ ligne du 20/01 au sud de Colmar (West Point 75a)'],
+        ['Allemagne (1937) ∩ côté allié du front LOC du 31/12/1944', 'ouverture 3 km, morceaux de moins de 30 km² retirés'], [GEOREF_LOC, "Région d'Aix-la-Chapelle et bordures de la Sarre et du Palatinat tenues par les Alliés. PROPOSITION de Claude, à valider par Ether."]),
+    'geom-ligne_front-de-ouest-europe-1945-01-01': ([LOC, WP70], ['trait du front extrait automatiquement (seuil de noir + ouverture morphologique + squelette)', '+ trait du 15/12/1944 au sud de Colmar (West Point 70)'],
         [GEOREF_LOC, "Les arcs de Zélande (Walcheren, Beveland) sont des morceaux séparés, comme sur la carte.", "Poches de l'Atlantique et Dunkerque : voir la géométrie des poches (limites propres)."]),
-    'geom-territoire-fr-zone-allemande-nord-est-1945-01-01': ([LOC, ohm('france', 'French Republic'), NE], ['France ∩ côté allemand du front, au nord de 48,45° N'], [GEOREF_LOC, "Secteur de Bitche / nord de l'Alsace tenu par les Allemands au 01/01 (opération Nordwind lancée le 31/12). PROPOSITION de Claude, à valider."]),
+    'geom-territoire-fr-zone-allemande-nord-est-1945-01-01': ([LOC, ohm('france', 'French Republic'), NE], ['France ∩ côté allemand du front, au nord de 48,45° N'], [GEOREF_LOC, "Secteur de Bitche / nord de l'Alsace tenu par les Allemands au 01/01 (avant l'opération Nordwind, lancée vers 23:00 le 31/12). PROPOSITION de Claude, à valider."]),
 }
+# ---------- Référence temporelle (règle du Snapshot 0) ----------
+# Snapshot 0 = état au 01/01/1945 à 00:00, construit avec la DERNIÈRE situation connue AVANT ce moment.
+SUIVANT = ("État suivant connu (ratissage de janvier) : carte LOC du 01/01/1945 à 12:00 (item 2004630304) ; écart médian 0,7 km avec celle du 31/12, "
+           "secteurs changés ≈ 31 km² à l'ouest de Bastogne et ≈ 20 km² vers Monschau (outils/geo/lot03/comparer_31dec_01jan.py).")
+LOC_T = {'snapshot': '1945-01-01T00:00', 'observation_source': '1944-12-31T12:00', 'ecart': '12 h avant',
+         'statut': 'derniere_situation_connue_avant_snapshot', 'etat_suivant': SUIVANT}
+TEMPS = {k: LOC_T for k in ['geom-ligne_front-de-ouest-europe-1945-01-01', 'geom-territoire-be-zone-allemande-ardennes-1945-01-01',
+         'geom-territoire-lu-zone-allemande-ardennes-1945-01-01', 'geom-territoire-nl-zone-liberee-sud-1945-01-01',
+         'geom-territoire-de-zone-alliee-ouest-1945-01-01', 'geom-territoire-fr-zone-allemande-nord-est-1945-01-01']}
+TEMPS['geom-territoire-fr-zone-allemande-nord-est-1945-01-01'] = dict(LOC_T, note="Situation antérieure à l'offensive Nordwind (lancée vers 23:00 le 31/12) : ses gains entrent au ratissage de janvier.")
+TEMPS['geom-ligne_front-de-ouest-europe-1945-01-01'] = dict(LOC_T, observation_source='1944-12-31T12:00 (sud de Colmar : 1944-12-15)')
+TEMPS['geom-territoire-fr-poche-colmar-1945-01-01'] = {'snapshot': '1945-01-01T00:00', 'observation_source': 'nord et ouest : 1944-12-31T12:00 (LOC) ; sud : 1944-12-15 (West Point 70)',
+    'ecart': '12 h avant (nord et ouest) ; 17 jours avant (sud)', 'statut': 'derniere_situation_connue_avant_snapshot',
+    'etat_suivant': "Janvier : offensive Sonnenwende (7-13/01) au nord de la poche, puis réduction de la poche à partir du 20/01 (West Point 75a). " + SUIVANT}
+TEMPS['geom-territoire-fr-poches-atlantiques-1945-01-01'] = {'snapshot': '1945-01-01T00:00', 'observation_source': '1944-12-15', 'ecart': '17 jours avant',
+    'statut': 'derniere_situation_connue_avant_snapshot', 'etat_suivant': "Pas de changement connu avant le printemps 1945 (fronts figés)."}
+TEMPS['geom-territoire-no-est-finnmark-1945-01-01'] = {'snapshot': '1945-01-01T00:00', 'observation_source': 'arrêt soviétique sur la Tana, novembre 1944 (SNL)', 'ecart': 'environ 7 semaines avant',
+    'statut': 'derniere_situation_connue_avant_snapshot'}
 sortie = os.path.join(RACINE, 'data', 'geometries', 'snapshot0')
 os.makedirs(sortie, exist_ok=True)
 for gid, g in resultat.items():
@@ -213,6 +234,7 @@ for gid, g in resultat.items():
         'licence': 'CC0 (OpenHistoricalMap) + segments sous licence d’origine listés dans licences_segments : à créditer' if lic else 'CC0 (OpenHistoricalMap) ; Natural Earth : domaine public',
         'licences_segments': lic, 'points_a_verifier': points,
     }}
+    if gid in TEMPS: feat['properties']['reference_temporelle'] = TEMPS[gid]
     with open(os.path.join(sortie, gid + '.geojson'), 'w', encoding='utf-8') as f:
         json.dump(feat, f, ensure_ascii=False, separators=(',', ':'))
     print(f"{gid:58} {(str(round(km2(g)))+' km²') if not g.geom_type.endswith('LineString') else str(round(g.length,2))+' °':>12}  {g.geom_type}")

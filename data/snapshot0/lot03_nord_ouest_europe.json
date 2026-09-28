@@ -2,7 +2,7 @@
   "metadata_lot": {
     "nom": "snapshot0_lot03_nord_ouest_europe",
     "date_reference": "1945-01-01",
-    "version": "0.2",
+    "version": "0.4",
     "statut": "integre_par_claude",
     "perimetre": [
       "Danemark/Féroé",
@@ -34,7 +34,9 @@
         "France : regime_id = gprf",
         "nom_court ajouté partout ; locators vides → « à préciser »",
         "Deux entités ajoutées (PROPOSITIONS, à valider) : territoire-de-zone-alliee-ouest, territoire-fr-zone-allemande-nord-est",
-        "Jersey et Guernesey : alignement_id allies_ww2 ajouté (à valider)"
+        "Jersey et Guernesey : alignement_id allies_ww2 ajouté (à valider)",
+        "28/09/2026 (retour Ether) : îles retirées des poches ; référence temporelle (heure réelle de la source + écart au Snapshot 00:00) inscrite dans chaque géométrie tirée d'une carte datée ; front encadré par la carte LOC du 31/12/1944 à midi",
+        "28/09/2026 (règle de Guizmo) : Snapshot 0 = dernière situation connue AVANT le 01/01/1945 00:00. Front de l'Ouest refait depuis la carte LOC du 31/12/1944 à 12:00 ; sud de Colmar depuis West Point 70 (15/12/1944) au lieu de 75a (20/01/1945) ; les cartes du 01/01 à 12:00 et du 20/01 passent au ratissage de janvier."
       ]
     }
   },
@@ -476,7 +478,7 @@
             "souverainete_id": "france",
             "controle_id": "allemagne",
             "statut_administratif": "poches_fortifiees_allemandes",
-            "note": "Dunkerque, Lorient (+ Groix, Belle-Île), Saint-Nazaire (deux rives), La Rochelle/La Pallice (+ Ré), Royan (+ Oléron) et pointe de Grave. Limites tirées d'une carte au 1:5 000 000 (West Point 71) : surfaces probablement sous-estimées (Saint-Nazaire surtout). Scinder en entités séparées lors des fiches locales."
+            "note": "Dunkerque, Lorient, Saint-Nazaire (deux rives), La Rochelle/La Pallice, Royan et pointe de Grave. Îles (Groix, Belle-Île, Ré, Oléron, Noirmoutier) NON rattachées tant qu'une source par île n'établit pas leur statut au 01/01/1945. Limites tirées d'une carte du 15/12/1944 au 1:5 000 000 (West Point 71) : approximation documentée du Snapshot, surfaces probablement sous-estimées. Scinder en entités séparées lors des fiches locales."
           },
           "geometrie_ref": "geom-territoire-fr-poches-atlantiques-1945-01-01",
           "sources": [
@@ -522,19 +524,19 @@
           "geometrie_ref": "geom-territoire-fr-poche-colmar-1945-01-01",
           "sources": [
             {
+              "source_id": "src-loc-12ag-1944-12-31",
+              "locator": "situation 1200 hrs, 31 December 1944",
+              "usage": "dernière position du front connue avant le Snapshot"
+            },
+            {
               "source_id": "src-chemins-colmar-1945",
               "locator": "à préciser",
               "usage": "Poche de Colmar au 1er janvier"
             },
             {
-              "source_id": "src-loc-12ag-1945-01-01",
-              "locator": "situation 1200 hrs, 1 January 1945",
-              "usage": "Front daté du jour"
-            },
-            {
-              "source_id": "src-westpoint-alsace-colmar-1945",
-              "locator": "carte 75a, ligne du 20/01",
-              "usage": "partie sud de la poche (hors carte LOC)"
+              "source_id": "src-westpoint-6-12ag-1944-11-12",
+              "locator": "carte 70, front au 15/12/1944",
+              "usage": "sud de la poche de Colmar"
             }
           ]
         }
@@ -609,9 +611,9 @@
           "geometrie_ref": "geom-territoire-be-zone-allemande-ardennes-1945-01-01",
           "sources": [
             {
-              "source_id": "src-loc-12ag-1945-01-01",
-              "locator": "situation 1200 hrs, 1 January 1945",
-              "usage": "Géométrie du saillant au 01/01"
+              "source_id": "src-loc-12ag-1944-12-31",
+              "locator": "situation 1200 hrs, 31 December 1944",
+              "usage": "dernière position du front connue avant le Snapshot"
             },
             {
               "source_id": "src-belgium-chancellery-bulge",
@@ -686,9 +688,9 @@
           "geometrie_ref": "geom-territoire-lu-zone-allemande-ardennes-1945-01-01",
           "sources": [
             {
-              "source_id": "src-loc-12ag-1945-01-01",
-              "locator": "situation 1200 hrs, 1 January 1945",
-              "usage": "Géométrie du front"
+              "source_id": "src-loc-12ag-1944-12-31",
+              "locator": "situation 1200 hrs, 31 December 1944",
+              "usage": "dernière position du front connue avant le Snapshot"
             },
             {
               "source_id": "src-luxembourg-bulge",
@@ -769,14 +771,14 @@
           "geometrie_ref": "geom-territoire-nl-zone-liberee-sud-1945-01-01",
           "sources": [
             {
+              "source_id": "src-loc-12ag-1944-12-31",
+              "locator": "situation 1200 hrs, 31 December 1944",
+              "usage": "dernière position du front connue avant le Snapshot"
+            },
+            {
               "source_id": "src-nationaalarchief-south-netherlands-liberation",
               "locator": "à préciser",
               "usage": "Sud libéré"
-            },
-            {
-              "source_id": "src-loc-12ag-1945-01-01",
-              "locator": "situation 1200 hrs, 1 January 1945",
-              "usage": "Front du 01/01"
             }
           ]
         }
@@ -801,14 +803,19 @@
           },
           "statut": "ligne_de_contact",
           "proprietes": {
-            "note": "Vectoriser directement depuis la carte officielle du 12th Army Group datée du 01/01/1945. Ce n’est pas une frontière politique."
+            "note": "Snapshot 0 = dernière situation connue avant le 01/01/1945 00:00 : carte officielle du 12e groupe d'armées du 31/12/1944 à 12:00 ; sud de la poche de Colmar au 15/12/1944 (West Point 70). La carte du 01/01 à 12:00 servira au ratissage de janvier. Ce n'est pas une frontière politique."
           },
           "geometrie_ref": "geom-ligne_front-de-ouest-europe-1945-01-01",
           "sources": [
             {
-              "source_id": "src-loc-12ag-1945-01-01",
-              "locator": "situation 1200 hrs, 1 January 1945",
-              "usage": "Source géométrique principale"
+              "source_id": "src-loc-12ag-1944-12-31",
+              "locator": "situation 1200 hrs, 31 December 1944",
+              "usage": "dernière position du front connue avant le Snapshot"
+            },
+            {
+              "source_id": "src-westpoint-6-12ag-1944-11-12",
+              "locator": "carte 70, front au 15/12/1944",
+              "usage": "sud de la poche de Colmar"
             }
           ]
         }
@@ -837,14 +844,14 @@
             "souverainete_id": "allemagne",
             "controle_id": "etats_unis",
             "statut_administratif": "gouvernement_militaire_allie",
-            "note": "PROPOSITION de Claude, à valider par Ether : dérivée du même front LOC. Aix-la-Chapelle prise le 21/10/1944 (date de début approximative : les autres morceaux ont été pris à d'autres dates). Contrôle : armées américaines (1re et 9e) ; à affiner."
+            "note": "PROPOSITION de Claude, à valider par Ether : dérivée du front LOC du 31/12/1944. Aix-la-Chapelle prise le 21/10/1944 (date de début approximative : les autres morceaux ont été pris à d'autres dates). Contrôle : armées américaines (1re et 9e) ; à affiner."
           },
           "geometrie_ref": "geom-territoire-de-zone-alliee-ouest-1945-01-01",
           "sources": [
             {
-              "source_id": "src-loc-12ag-1945-01-01",
-              "locator": "situation 1200 hrs, 1 January 1945",
-              "usage": "ligne de front du jour"
+              "source_id": "src-loc-12ag-1944-12-31",
+              "locator": "situation 1200 hrs, 31 December 1944",
+              "usage": "dernière position du front connue avant le Snapshot"
             }
           ]
         }
@@ -873,14 +880,14 @@
             "souverainete_id": "france",
             "controle_id": "allemagne",
             "statut_administratif": "zone_de_combat",
-            "note": "PROPOSITION de Claude, à valider par Ether : parties de la Moselle et du nord de l'Alsace du côté allemand du front LOC au 01/01/1945 (opération Nordwind lancée le 31/12/1944). Date de début approximative."
+            "note": "PROPOSITION de Claude, à valider par Ether : parties de la Moselle et du nord de l'Alsace du côté allemand du front LOC du 31/12/1944 (situation du 31/12 à midi, avant l'opération Nordwind lancée vers 23:00). Date de début approximative."
           },
           "geometrie_ref": "geom-territoire-fr-zone-allemande-nord-est-1945-01-01",
           "sources": [
             {
-              "source_id": "src-loc-12ag-1945-01-01",
-              "locator": "situation 1200 hrs, 1 January 1945",
-              "usage": "ligne de front du jour"
+              "source_id": "src-loc-12ag-1944-12-31",
+              "locator": "situation 1200 hrs, 31 December 1944",
+              "usage": "dernière position du front connue avant le Snapshot"
             }
           ]
         }

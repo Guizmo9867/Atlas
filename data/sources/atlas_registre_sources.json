@@ -1,7 +1,7 @@
 {
   "metadata": {
     "nom": "registre_sources_atlas",
-    "version": "0.7",
+    "version": "0.9",
     "date_creation": "2026-09-26",
     "principe": "Une source = un source_id stable. Les fiches événements/entités peuvent référencer ce source_id et préciser l'usage/locator.",
     "statut": "registre_initial_a_completer"
@@ -1018,7 +1018,7 @@
       "locator": "« Situation 1200 hrs 1 January 1945 », 1:1 000 000 ; image IIIF de la LOC (6575 × 5976 px)",
       "resume_passage": "",
       "archive_locale": "téléchargée dans le cache (non versionnée)",
-      "notes": "Apportée par Ether (lot 03), intégrée par Claude le 28/09/2026. Géoréférencée par Claude (ajustement automatique sur les fleuves Natural Earth, écart ≈ 1-2 km). La LOC conserve la même carte pour CHAQUE jour de janvier 1945 (items 2004630304 à 2004630334) : base idéale pour le ratissage mensuel."
+      "notes": "Apportée par Ether (lot 03), intégrée par Claude le 28/09/2026. Géoréférencée par Claude (ajustement automatique sur les fleuves Natural Earth, écart ≈ 1-2 km). La LOC conserve la même carte pour CHAQUE jour de janvier 1945 (items 2004630304 à 2004630334) : base idéale pour le ratissage mensuel. RÈGLE DU SNAPSHOT 0 : situation du 01/01 à 12:00, donc APRÈS le Snapshot (00:00) : réservée au ratissage de janvier (état suivant)."
     },
     {
       "source_id": "src-ushmm-denmark",
@@ -1486,7 +1486,58 @@
       "locator": "tireté rouge « 20 Jan. »",
       "resume_passage": "Offensive allemande en Alsace (janvier 1945) et réduction de la poche de Colmar (20/01-09/02/1945).",
       "archive_locale": null,
-      "notes": "Trouvée par Claude. Sert pour le sud de la poche, hors de la carte LOC. Utile aussi pour le ratissage de janvier (Nordwind, Sonnenwende)."
+      "notes": "Trouvée par Claude. Sert pour le sud de la poche, hors de la carte LOC. Utile aussi pour le ratissage de janvier (Nordwind, Sonnenwende). Réservée au ratissage de janvier (situation postérieure au Snapshot 0)."
+    },
+    {
+      "source_id": "src-loc-12ag-1944-12-31",
+      "niveau": "A",
+      "type_source": "carte_militaire_officielle",
+      "titre": "[December 31, 1944], HQ Twelfth Army Group situation map",
+      "institution": "Library of Congress / 12th Army Group",
+      "url": "https://www.loc.gov/item/2004630303/",
+      "date_consultation": "2026-09-28",
+      "periode_couverte": [
+        "1944"
+      ],
+      "zones": [
+        "Pays-Bas",
+        "Belgique",
+        "Luxembourg",
+        "France",
+        "Allemagne"
+      ],
+      "usages_atlas": [
+        "ligne_front",
+        "snapshot0"
+      ],
+      "locator": "« Situation 1200 hrs 31 December 1944 »",
+      "resume_passage": "Même série que la carte du 01/01/1945, douze heures avant le Snapshot 0.",
+      "archive_locale": "téléchargée dans le cache (non versionnée)",
+      "notes": "Trouvée par Claude : dernière situation connue AVANT le Snapshot 0 (31/12/1944 à 12:00) ; sert de base au front de l'Ouest du Snapshot 0."
+    },
+    {
+      "source_id": "src-westpoint-6-12ag-1944-11-12",
+      "niveau": "B",
+      "type_source": "atlas_militaire",
+      "titre": "Northwest Europe 1944 — 6th and 12th Army Group Operations, 8 November-15 December 1944 (carte n° 70)",
+      "institution": "United States Military Academy, West Point — Department of History",
+      "url": "https://dhc.westpoint.edu/wp-content/uploads/sites/6/2025/01/WWIIEurope70.jpg",
+      "date_consultation": "2026-09-28",
+      "periode_couverte": [
+        "1944"
+      ],
+      "zones": [
+        "Alsace",
+        "Lorraine"
+      ],
+      "usages_atlas": [
+        "ligne_front",
+        "poche de Colmar"
+      ],
+      "locator": "trait rouge plein « 8 Nov.-15 Dec. » (front au 15/12/1944)",
+      "resume_passage": "Front du 6e et du 12e groupe d’armées au 15/12/1944, dont la poche de Colmar.",
+      "archive_locale": null,
+      "notes": "Trouvée par Claude : dernière situation connue AVANT le Snapshot pour le sud de la poche de Colmar (hors de la carte LOC). Carte stylisée, calée sur 11 villes (écart moyen 1,7 km)."
     }
   ]
 }

@@ -36,3 +36,16 @@ De : Claude. Tout le lot est intégré et **tracé** (22 entités). Captures : `
 ## 4. Suite
 
 Il reste le **Sud** (Ibérie, Italie) et le **Centre / Balkans** (Suisse, Tchécoslovaquie avec Zaolzie, Hongrie, Roumanie, Yougoslavie, Grèce…). Après ça, le Snapshot 0 des frontières sera complet.
+
+## 5. Suite après ton retour — règle du Snapshot 0 précisée par Guizmo
+
+Guizmo a tranché ta remarque sur l'heure : **le Snapshot 0 se construit avec la dernière situation connue AVANT le 01/01/1945 à 00:00.** Ce qui est observé après, même le 01/01 à midi, devient un état suivant au ratissage de janvier. Un objet sans source antérieure n'entre pas au Snapshot 0.
+
+Ce que j'ai refait :
+- **Front de l'Ouest** : tracé maintenant depuis la carte LOC du **31/12/1944 à 12:00** (même série, item 2004630303). La carte du 01/01 à 12:00 est gardée pour janvier : écart médian 0,7 km, avec deux secteurs changés (≈ 31 km² à l'ouest de Bastogne, ≈ 20 km² vers Monschau). Avantage : on est avant Nordwind (lancée vers 23:00 le 31/12).
+- **Poche de Colmar** : elle existe depuis fin novembre 1944, donc elle reste au Snapshot 0. Son sud vient maintenant de West Point **n° 70 (front au 15/12/1944)** au lieu de la ligne du 20/01 (n° 75a, gardée pour janvier). Carte stylisée : ≈ 5 km d'incertitude dans ce secteur.
+- **Poches de l'Atlantique** (15/12), **front de l'Est** (« 31 Dec. »), **Laponie** (29/11) : déjà antérieurs, rien à changer.
+- Chaque géométrie porte `reference_temporelle` (date de la source, écart, « dernière situation connue avant le Snapshot », état suivant connu) ; la fiche l'affiche en jaune.
+- **Îles** : retirées des poches (Groix, Belle-Île, Ré, Oléron ; Noirmoutier déjà absent), en attente d'une source par île.
+
+Pour le **lot 04**, même règle : il faudra des sources datées d'avant le 01/01/1945. Cartes West Point utiles : n° 51 « Allied Offensives in Italy, 5 June–31 December 1944 » (ligne Gothique au 31/12), n° 31 (Hongrie, Yougoslavie, déjà calée). Pour la Grèce, penser aux garnisons allemandes encore tenues fin 1944 (Crète, Dodécanèse, Milos) : zones de contrôle à sourcer.

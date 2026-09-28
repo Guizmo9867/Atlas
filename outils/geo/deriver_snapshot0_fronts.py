@@ -132,6 +132,12 @@ def ecrire(gid, g, ops, points, sources, statut='provisoire_carte_georeferencee'
              'points_a_verifier': points}
     if not g.geom_type.endswith('LineString'): props['surface_km2'] = round(km2(g))
     if incertitude_km: props['zone_incertitude_km'] = incertitude_km
+        # Règle du Snapshot 0 : dernière situation connue AVANT le 01/01/1945 à 00:00.
+    props['reference_temporelle'] = ({'snapshot': '1945-01-01T00:00', 'observation_source': '1944-12-31', 'ecart': 'le 31/12 (heure non précisée), avant le Snapshot',
+        'statut': 'derniere_situation_connue_avant_snapshot'}
+        if statut.endswith('georeferencee') else
+        {'snapshot': '1945-01-01T00:00', 'observation_source': '1944-11-29 (arrêt de l’avance finlandaise)', 'ecart': 'position stable depuis le 29/11/1944',
+         'statut': 'derniere_situation_connue_avant_snapshot'})
     with open(os.path.join(RACINE, 'data', 'geometries', 'snapshot0', gid + '.geojson'), 'w', encoding='utf-8') as f:
         json.dump({'type': 'Feature', 'geometry': mapping(arrondir(g, 4)), 'properties': props}, f, ensure_ascii=False, separators=(',', ':'))
 

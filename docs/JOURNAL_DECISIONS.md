@@ -2,6 +2,16 @@
 
 Une ligne par décision, datée. Plus récente en haut. Ce journal remplace les versions éparpillées dans les conversations : si ce n'est pas ici, ce n'est pas décidé.
 
+## 2026-09-28 (suite : retour d'Ether sur le lot 03)
+
+- **Lot 03 validé** : harmonisation Courlande/Laponie, alignement allié de Jersey/Guernesey, les deux zones tirées du front (Allemagne tenue par les Alliés, secteur de Bitche). *(Ether)*
+- **RÈGLE DU SNAPSHOT 0 (précisée par Guizmo)** : le Snapshot 0 montre l'état au **01/01/1945 à 00:00**, construit avec la **dernière situation connue AVANT ce moment**. Ce qui est observé après — même le 01/01 à 12:00 — n'entre pas au Snapshot 0 : il deviendra un nouvel état lors du ratissage de janvier (ex. front du 01/01 à midi → état suivant ; réduction de la poche de Colmar → janvier). Un objet dont aucune source antérieure n'atteste l'existence n'entre pas au Snapshot 0. Chaque géométrie tirée d'une carte datée porte `reference_temporelle` (date de la source, écart, `derniere_situation_connue_avant_snapshot`, état suivant connu), affichée dans la fiche. *(Guizmo, d'après la remarque d'Ether)*
+- Application : front de l'Ouest refait depuis la **carte LOC du 31/12/1944 à 12:00** ; sud de la poche de Colmar depuis **West Point 70 (15/12/1944)** au lieu de la ligne du 20/01 ; poches de l'Atlantique : 15/12/1944 ; front de l'Est : « 31 Dec. » ; Laponie : position du 29/11/1944. Les cartes du 01/01 à 12:00 (LOC) et du 20/01 (West Point 75a) sont gardées pour janvier. *(Claude)*
+- **Îles des poches retirées** (Groix, Belle-Île, Ré, Oléron, Noirmoutier) : pas de rattachement sans source par île. *(Ether)*
+- **Île de Man et Svalbard / Jan Mayen** : entités voulues, mais plus tard (pas prioritaire devant le lot 04). *(Ether)*
+- **Lot 04 = Ibérie → Italie → Suisse → Europe centrale (Tchécoslovaquie avec Zaolzie, Hongrie) → Roumanie, Bulgarie → Yougoslavie, Albanie → Grèce → Turquie ENTIÈRE** (pont Europe / Caucase / mer Noire / Méditerranée orientale : on ne la coupe pas à Istanbul). *(Ether + Guizmo)*
+- Les briefs d'Ether sont archivés à côté de leur lot (`data/snapshot0/lot0X_…_brief_ether.md`) ; les comptes rendus d'intégration de Claude dans `docs/pour_ether/` (historique de fabrication du corpus). *(Ether)*
+
 ## 2026-09-28 (suite : lot 03, Nord et Ouest)
 
 - **Lot 03 intégré** (Danemark, Féroé, Norvège, Suède, Islande, Royaume-Uni, Jersey, Guernesey, Irlande, France, Belgique, Luxembourg, Pays-Bas) : 22 entités, toutes tracées. *(Ether, intégré par Claude)*

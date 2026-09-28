@@ -146,3 +146,5 @@ L'appartenance à un territoire parent ne passe **pas** par une relation mais pa
 | `regime_id` | régime politique (`allemagne_nazie`, `republique_populaire`…) |
 | `parent_id` | territoire qui le contient à cette date |
 | `statut_administratif`, `note` | précisions libres |
+
+**Dans un fichier de géométrie** (`data/geometries/…`), en plus de la provenance : `reference_temporelle` = `{snapshot, observation_source, ecart, statut: "derniere_situation_connue_avant_snapshot", etat_suivant?, note?}` quand le tracé vient d'une source datée. Règle : on prend la **dernière situation connue avant** l'état représenté (ex. carte du 31/12/1944 à 12:00 pour le Snapshot du 01/01 à 00:00) ; ce qui est observé après devient un état suivant.

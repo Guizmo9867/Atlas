@@ -114,3 +114,5 @@ dd { margin: 0; overflow-wrap: anywhere; }
 .zoom-faible .etiquette:not([data-profondeur="0"]) { display: none; }
 .zoom-moyen .etiquette[data-petit="1"] { display: none; }
 .zoom-regional .etiquette[data-minuscule="1"]:not([data-profondeur="0"]) { display: none; }
+
+.trace .temps { font-size: 12px; background: #fff6d8; border-left: 3px solid #d9a400; padding: 4px 6px; margin: 6px 0; }

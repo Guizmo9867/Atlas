@@ -31,7 +31,8 @@ function Sources({ refs, corpus }: { refs: RefSource[]; corpus: Corpus }) {
 
 interface MetaGeometrie {
   statut: string; operations: string[]; precision: string; surface_km2: number
-  sources: RefSource[]; points_a_verifier?: string[]; script?: string
+  sources: RefSource[]; points_a_verifier?: string[]; script?: string; zone_incertitude_km?: number
+  reference_temporelle?: { snapshot: string; observation_source: string; ecart: string; etat_suivant?: string; note?: string }
 }
 
 /** D'où vient le tracé affiché : sources, opérations, points à vérifier. */
@@ -40,7 +41,12 @@ function Trace({ meta, corpus }: { meta?: MetaGeometrie; corpus: Corpus }) {
   return (
     <div className="trace">
       <h4>Tracé {meta.statut.startsWith('provisoire') && <span className="provisoire">provisoire</span>}</h4>
-      <p className="muet">{meta.surface_km2.toLocaleString('fr-FR')} km² · {meta.operations.join(' → ')}</p>
+      <p className="muet">{meta.surface_km2 ? `${meta.surface_km2.toLocaleString('fr-FR')} km² · ` : ''}{meta.operations.join(' → ')}
+        {meta.zone_incertitude_km ? ` · incertitude ≈ ${meta.zone_incertitude_km} km` : ''}</p>
+      {meta.reference_temporelle && <p className="temps">
+        <strong>Dernière situation connue avant le 01/01/1945 à 00:00</strong> — source : {meta.reference_temporelle.observation_source} ({meta.reference_temporelle.ecart}).
+        {meta.reference_temporelle.etat_suivant ? ` ${meta.reference_temporelle.etat_suivant}` : ''}{meta.reference_temporelle.note ? ` ${meta.reference_temporelle.note}` : ''}
+      </p>}
       <Sources refs={meta.sources} corpus={corpus} />
       {meta.points_a_verifier?.length ? <>
         <h4>À vérifier</h4>
