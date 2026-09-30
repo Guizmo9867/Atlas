@@ -144,7 +144,7 @@ resultat = {
     'geom-ligne_front-de-ouest-europe-1945-01-01': front,
 }
 if not fr_nord.is_empty: resultat['geom-territoire-fr-zone-allemande-nord-est-1945-01-01'] = fr_nord
-resultat = {k: arrondir(v if v.geom_type.endswith('LineString') else v.buffer(0)) for k, v in resultat.items()}
+resultat = {k: (arrondir(v) if v.geom_type.endswith('LineString') else arrondir(v.buffer(0)).buffer(0)) for k, v in resultat.items()}  # re-valider après l'arrondi
 
 def ohm(cle, quoi): return {'source_id': 'src-openhistoricalmap', 'locator': f'relation {REL[cle]} — {quoi}', 'usage': 'tracé de la frontière'}
 NE = {'source_id': 'src-natural-earth-10m', 'locator': 'ne_10m_land + ne_10m_minor_islands', 'usage': 'trait de côte'}

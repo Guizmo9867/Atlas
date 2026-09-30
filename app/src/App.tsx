@@ -1,8 +1,9 @@
 import { useCallback, useEffect, useMemo, useState } from 'react'
 import MapView, { type Calques } from './map/MapView'
-import Timeline, { type Marque } from './timeline/Timeline'
+import RegleTemps from './timeline/RegleTemps'
+import type { Marque } from './timeline/Timeline'
 import Fiche from './ui/Fiche'
-import Panneau from './ui/Panneau'
+import { Barre, Entete, FondCarte, type IdFond } from './ui/Commandes'
 import { chargerCorpus, geometriesSeules, type Corpus, type IdCorpus } from './data/corpus'
 import { construireCouches } from './engine/features'
 import { couleurPour } from './theme/palettes'
@@ -15,6 +16,7 @@ export default function App() {
   const [mode, setMode] = useState<ModeLecture>('alignement')
   const [selection, setSelection] = useState<Selection>(null)
   const [zoom, setZoom] = useState(3)
+  const [fond, setFond] = useState<IdFond>('plan')
   const [calques, setCalques] = useState<Calques>({
     territoires: true, frontieres: true, fronts: true, ponts: true, evenements: true, parcours: true, reperesModernes: false,
   })
@@ -38,17 +40,17 @@ export default function App() {
 
   return (
     <div className="app">
-      <Panneau corpus={idCorpus} setCorpus={setIdCorpus} fictif={corpus?.fictif ?? false}
-        calques={calques} setCalques={setCalques} mode={mode} setMode={setMode} zoom={zoom}
-        sansGeometrie={couches?.sansGeometrie ?? []} valeursPresentes={valeursPresentes} />
       <main className="zone-carte">
         {couches && corpus && <>
           <MapView couches={couches} calques={calques} selection={selection} emprise={corpus.emprise}
             onSelect={setSelection} onZoom={setZoom} />
-          <Timeline date={date} debut={corpus.debut} fin={corpus.fin} marques={marques} onChange={changerDate}
-            titre={!corpus.fictif && date === '1945-01-01' ? 'Snapshot 0 · 1er janvier 1945, 0 h 00' : undefined} />
+          <RegleTemps date={date} debut={corpus.debut} fin={corpus.fin} marques={marques} onChange={changerDate}
+            titre={!corpus.fictif ? 'Snapshot 0 · 0 h 00' : undefined} />
           <Fiche selection={selection} date={date} corpus={corpus} onClose={() => setSelection(null)} onSelect={setSelection} />
         </>}
+        <Entete fictif={corpus?.fictif ?? false} corpus={idCorpus} setCorpus={setIdCorpus} zoom={zoom} sansGeometrie={couches?.sansGeometrie ?? []} />
+        <Barre mode={mode} setMode={setMode} calques={calques} setCalques={setCalques} valeursPresentes={valeursPresentes} />
+        <FondCarte fond={fond} setFond={setFond} />
         {!corpus && <div className="chargement">Chargement des tracés…</div>}
       </main>
     </div>

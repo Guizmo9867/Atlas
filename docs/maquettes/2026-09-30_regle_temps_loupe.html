@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Règle du temps v3</title>
+<style>
+  :root { --fond: #151a23; --carte: #243042; --verre: rgba(15,19,27,.80); --bord: rgba(224,169,74,.30);
+    --texte: #ece7da; --doux: #8e97a6; --or: #e0a94a; --case: #232b38; }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; height: 100%; background: var(--fond); color: var(--texte);
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif; overflow: hidden; }
+  .carte { position: absolute; inset: 0;
+    background: radial-gradient(ellipse at 28% 62%, #3a475b 0, transparent 42%),
+                radial-gradient(ellipse at 72% 42%, #475366 0, transparent 38%), var(--carte); }
+  .haut { position: absolute; top: 10px; left: 50%; transform: translateX(-50%);
+    width: min(640px, calc(100vw - 32px)); z-index: 2; display: flex; flex-direction: column; align-items: center; gap: 6px; }
+  .date { border: 1px solid var(--bord); background: var(--verre); color: var(--texte); cursor: pointer;
+    font: 600 16px Georgia, "Times New Roman", serif; padding: 7px 16px; border-radius: 999px;
+    -webkit-backdrop-filter: blur(8px); backdrop-filter: blur(8px); display: flex; gap: 8px; align-items: baseline; }
+  .date .jour-sem { font: 12px system-ui, sans-serif; color: var(--doux); }
+  .date .fleche { font-size: 10px; color: var(--or); }
+  .vitesse { position: absolute; top: 132px; left: 50%; transform: translateX(-50%); font: 600 12px system-ui, sans-serif; color: #17120a; background: var(--or);
+    padding: 3px 10px; border-radius: 999px; opacity: 0; transition: opacity .25s; pointer-events: none; }
+  .vitesse.visible { opacity: .95; }
+  .regle { position: relative; width: 100%; height: 84px; touch-action: none; cursor: grab;
+    background: var(--verre); border: 1px solid var(--bord); border-radius: 18px;
+    -webkit-backdrop-filter: blur(8px); backdrop-filter: blur(8px);
+    -webkit-mask-image: linear-gradient(to right, transparent 0, #000 9%, #000 91%, transparent 100%);
+            mask-image: linear-gradient(to right, transparent 0, #000 9%, #000 91%, transparent 100%); }
+  .regle:active { cursor: grabbing; }
+  canvas { width: 100%; height: 100%; display: block; }
+
+  .selecteur { display: none; width: min(360px, calc(100vw - 32px)); background: #1a202b;
+    border: 1px solid var(--bord); border-radius: 16px; padding: 14px; box-shadow: 0 18px 40px rgba(0,0,0,.45); }
+  .selecteur.ouvert { display: block; }
+  .fil { display: flex; gap: 6px; margin-bottom: 12px; }
+  .fil button { flex: 1; border: 1px solid #2f3848; background: transparent; color: var(--doux);
+    border-radius: 10px; padding: 6px 4px; font: 13px system-ui, sans-serif; cursor: pointer; }
+  .fil button.rempli { color: var(--texte); border-color: var(--or); }
+  .fil button.actif { background: rgba(224,169,74,.14); }
+  .fil button:disabled { opacity: .35; cursor: default; }
+  .titre { font: 12px system-ui, sans-serif; color: var(--doux); margin: 0 0 8px; text-transform: uppercase; letter-spacing: .06em; }
+  .annees { max-height: 196px; overflow-y: auto; padding-right: 4px; }
+  .decennie { font: 11px system-ui, sans-serif; color: var(--doux); margin: 8px 0 4px; }
+  .grille { display: grid; gap: 6px; }
+  .g5 { grid-template-columns: repeat(5, 1fr); }
+  .g4 { grid-template-columns: repeat(4, 1fr); }
+  .g7 { grid-template-columns: repeat(7, 1fr); }
+  .case { border: 0; background: var(--case); color: var(--texte); border-radius: 9px; padding: 9px 0;
+    font: 14px system-ui, sans-serif; cursor: pointer; }
+  .case.actuel { outline: 1px solid rgba(224,169,74,.55); }
+  .case.choisi { background: var(--or); color: #17120a; font-weight: 600; }
+  .case.vide { visibility: hidden; }
+  .entete { font: 11px system-ui, sans-serif; color: var(--doux); text-align: center; }
+  .pied { display: flex; gap: 8px; margin-top: 14px; }
+  .pied button { border: 0; border-radius: 10px; padding: 10px; font: 600 14px system-ui, sans-serif; cursor: pointer; }
+  .annuler { background: var(--case); color: var(--texte); }
+  .ok { flex: 1; background: var(--or); color: #17120a; }
+  .ok:disabled { opacity: .35; cursor: default; }
+  .note { font: 12px system-ui, sans-serif; color: var(--doux); margin: 10px 0 0; text-align: center; }
+
+  .aide { position: absolute; bottom: 18px; left: 16px; right: 16px; text-align: center;
+    color: var(--doux); font: 14px/1.55 system-ui, sans-serif; }
+  .aide b { color: var(--texte); }
+  .legende { display: inline-flex; gap: 14px; margin-top: 6px; font-size: 13px; }
+  .legende i { display: inline-block; width: 3px; height: 12px; border-radius: 2px; margin-right: 6px; vertical-align: -1px; }
+</style>
+</head>
+<body>
+<div class="carte"></div>
+
+<div class="haut">
+  <button class="date" id="date" aria-haspopup="dialog"><span class="jour-sem" id="jourSem"></span><span id="texteDate"></span><span class="fleche">▼</span></button>
+  <div class="vitesse" id="vitesse"></div>
+  <div class="regle" id="regle" aria-label="Règle du temps"><canvas id="c"></canvas></div>
+
+  <div class="selecteur" id="sel" role="dialog" aria-label="Choisir une date">
+    <div class="fil">
+      <button id="filA">Année</button>
+      <button id="filM" disabled>Mois</button>
+      <button id="filJ" disabled>Jour</button>
+    </div>
+    <div id="vue"></div>
+    <div class="pied">
+      <button class="annuler" id="annuler">Annuler</button>
+      <button class="ok" id="ok" disabled>OK</button>
+    </div>
+    <p class="note">Le mois et le jour sont facultatifs.</p>
+  </div>
+</div>
+
+<div class="aide">
+  <b>Glisse</b> ou <b>molette</b> pour voyager. <b>Relance</b> pendant que ça défile : ça accélère : 1-2 coups = jours, 3 à 5 = mois, 6 et plus = années.<br><b>Touche</b> la règle pour arrêter, ou un trait pour y sauter.<br>
+  <b>Touche la date</b> en haut pour choisir une année, un mois ou un jour.
+  <div class="legende"><span><i style="background:#e0a94a"></i>mois</span><span><i style="background:#ece7da"></i>semaine (lundi)</span><span><i style="background:#6f7888"></i>jour</span></div>
+</div>
+
+<script>
+const MOIS = ['janv.','févr.','mars','avr.','mai','juin','juil.','août','sept.','oct.','nov.','déc.'];
+const MOIS_LONG = ['janvier','février','mars','avril','mai','juin','juillet','août','septembre','octobre','novembre','décembre'];
+const JOURS_SEM = ['dimanche','lundi','mardi','mercredi','jeudi','vendredi','samedi'];
+const JOUR = 86400000, ORIGINE = Date.UTC(1945, 0, 1);
+const indexDe = (a, m, j) => Math.round((Date.UTC(a, m, j) - ORIGINE) / JOUR);
+const dateDe = (i) => new Date(ORIGINE + Math.round(i) * JOUR);
+const MIN = 0, MAX = indexDe(2026, 11, 31);
+const ANNEE_MIN = 1945, ANNEE_MAX = 2026;
+const borne = (v) => Math.min(MAX, Math.max(MIN, v));
+
+let pos = 0, cible = 0;
+
+// ---------- la règle ----------
+const regle = document.getElementById('regle'), c = document.getElementById('c'), ctx = c.getContext('2d');
+let W = 0, H = 0;
+function taille() { const r = regle.getBoundingClientRect(), d = devicePixelRatio || 1;
+  W = r.width; H = r.height; c.width = W * d; c.height = H * d; ctx.setTransform(d, 0, 0, d, 0, 0); }
+addEventListener('resize', taille); taille();
+
+// Œil de poisson : ±D jours visibles, M = force de la loupe.
+const D = 150, M = 14;
+const demi = () => W / 2;
+const X = (d) => { const u = Math.min(1, Math.abs(d) / D); return demi() + Math.sign(d) * demi() * ((M + 1) * u) / (M * u + 1); };
+const pente = (d) => { const u = Math.min(1, Math.abs(d) / D); return demi() / D * (M + 1) / ((M * u + 1) ** 2); };
+const ecartDe = (x) => { const g = Math.min(0.999, Math.abs(x - demi()) / demi()); return Math.sign(x - demi()) * D * g / ((M + 1) - M * g); };
+
+function dessiner() {
+  ctx.clearRect(0, 0, W, H);
+  const base = H - 24, p0 = pente(0);
+  const lueur = ctx.createRadialGradient(W / 2, base - 10, 0, W / 2, base - 10, W * 0.16);
+  lueur.addColorStop(0, 'rgba(224,169,74,.13)'); lueur.addColorStop(1, 'rgba(224,169,74,0)');
+  ctx.fillStyle = lueur; ctx.fillRect(0, 0, W, H);
+  ctx.lineCap = 'round';
+  for (let i = Math.floor(pos - D); i <= Math.ceil(pos + D); i++) {
+    if (i < MIN || i > MAX) continue;
+    const d = i - pos, x = X(d), p = pente(d), L = Math.pow(p / p0, 0.6), dt = dateDe(i);
+    const estMois = dt.getUTCDate() === 1, estSemaine = dt.getUTCDay() === 1;
+    let h, couleur, epais;
+    if (estMois) { h = 14 + 30 * L; couleur = `rgba(224,169,74,${0.55 + 0.45 * L})`; epais = 2.2; }
+    else if (estSemaine) { if (p < 1.6) continue; h = 8 + 22 * L; couleur = `rgba(236,231,218,${0.3 + 0.65 * L})`; epais = 1.6; }
+    else { if (p < 3.5) continue; h = 3 + 13 * L; couleur = `rgba(160,168,182,${0.2 + 0.6 * L})`; epais = 1; }
+    ctx.strokeStyle = couleur; ctx.lineWidth = epais;
+    ctx.beginPath(); ctx.moveTo(x, base); ctx.lineTo(x, base - h); ctx.stroke();
+    if (estMois && 30 * p > 30) {
+      const janv = dt.getUTCMonth() === 0;
+      ctx.fillStyle = janv ? `rgba(242,191,94,${0.6 + 0.4 * L})` : `rgba(236,231,218,${0.45 + 0.55 * L})`;
+      ctx.font = `${janv ? 600 : 400} ${10 + 3 * L}px system-ui, sans-serif`; ctx.textAlign = 'center';
+      ctx.fillText(janv ? String(dt.getUTCFullYear()) : MOIS[dt.getUTCMonth()], x, base + 15);
+    } else if (!estMois && p >= 13 && Math.abs(d) > 0.5 && (p >= 26 || (dt.getUTCDate() !== 2 && dateDe(i + 1).getUTCDate() !== 1))) {
+      ctx.fillStyle = `rgba(160,168,182,${L})`; ctx.font = '10px system-ui, sans-serif'; ctx.textAlign = 'center';
+      ctx.fillText(String(dt.getUTCDate()), x, base + 15);
+    }
+  }
+  // curseur central
+  ctx.strokeStyle = '#f2bf5e'; ctx.lineWidth = 2;
+  ctx.beginPath(); ctx.moveTo(W / 2, 12); ctx.lineTo(W / 2, base + 6); ctx.stroke();
+  ctx.fillStyle = '#f2bf5e'; ctx.beginPath();
+  ctx.moveTo(W / 2 - 5, 6); ctx.lineTo(W / 2 + 5, 6); ctx.lineTo(W / 2, 12); ctx.closePath(); ctx.fill();
+}
+
+const texteDate = document.getElementById('texteDate'), jourSem = document.getElementById('jourSem');
+let dernierAffiche = -1;
+function afficherDate() { const i = Math.round(pos); if (i === dernierAffiche) return; dernierAffiche = i;
+  const dt = dateDe(i); jourSem.textContent = JOURS_SEM[dt.getUTCDay()];
+  texteDate.textContent = `${dt.getUTCDate() === 1 ? '1er' : dt.getUTCDate()} ${MOIS_LONG[dt.getUTCMonth()]} ${dt.getUTCFullYear()}`; }
+
+// Élan avec accélérateur par paliers (le « tempo ») : on compte les coups enchaînés
+// dans le même sens pendant que ça défile encore.
+//   coups 1-2 : jours   ·   coups 3-5 : mois   ·   coup 6 et plus : années
+let elan = 0;                              // vitesse en jours par image (≈ 25 × vitesse jours parcourus)
+const FROTTEMENT = 0.96, PLAFOND = 320, BASE_MOLETTE = 0.5;
+//                 coup :  -   1    2    3    4    5    6    7    8    9    10+
+const VITESSES =        [0, 0.5, 1.2, 2.5, 4,   6,   16,  32,  64,  128, 256];
+let coups = 0, dernierElan = 0;
+function relancer(sens, impulsion) {
+  const maintenant = performance.now();
+  const enchaine = elan !== 0 && Math.sign(elan) === sens && maintenant - dernierElan < 1500;
+  coups = enchaine ? coups + 1 : 1;
+  const v = coups === 1 ? Math.min(1.2, Math.max(0.3, impulsion)) : VITESSES[Math.min(coups, VITESSES.length - 1)];
+  elan = sens * Math.min(PLAFOND, v); dernierElan = maintenant;
+}
+function boucle() {
+  if (!tir && elan !== 0) {
+    cible = borne(cible + elan); pos = cible; elan *= FROTTEMENT;
+    if (cible === MIN || cible === MAX) elan = 0;
+    if (Math.abs(elan) < 0.06) { elan = 0; cible = Math.round(cible); }
+  }
+  pos += (cible - pos) * 0.18; if (Math.abs(cible - pos) < 0.002) pos = cible;
+  dessiner(); afficherDate(); afficherVitesse(); requestAnimationFrame(boucle);
+}
+const vitesseEl = document.getElementById('vitesse');
+function afficherVitesse() {
+  if (Math.abs(elan) < 0.3) { vitesseEl.classList.remove('visible'); return; }
+  const f = elan > 0 ? '▶▶' : '◀◀';
+  vitesseEl.textContent = coups <= 2 ? `${f} jours` : coups <= 5 ? `${f} mois` : `${f} années`;
+  vitesseEl.classList.add('visible'); }
+
+// glisser, toucher, molette, clavier
+let tir = null;
+regle.addEventListener('pointerdown', (e) => { tir = { x: e.clientX, depart: cible, bouge: false, elanAvant: elan, hist: [[e.clientX, performance.now()]] }; elan = 0; regle.setPointerCapture(e.pointerId); });
+regle.addEventListener('pointermove', (e) => { if (!tir) return; const dx = e.clientX - tir.x;
+  if (Math.abs(dx) > 5) tir.bouge = true;
+  if (tir.bouge) { cible = borne(tir.depart - dx / pente(0)); pos = cible; tir.hist.push([e.clientX, performance.now()]); if (tir.hist.length > 6) tir.hist.shift(); } });
+regle.addEventListener('pointerup', (e) => { if (!tir) return; const t = tir; tir = null;
+  if (!t.bouge) {
+    if (Math.abs(t.elanAvant) > 0.3) { cible = Math.round(cible); return; }        // toucher pendant que ça défile = stop
+    const r = regle.getBoundingClientRect(); cible = borne(Math.round(pos + ecartDe(e.clientX - r.left))); return;
+  }
+  const [a, b] = [t.hist[0], t.hist[t.hist.length - 1]], dtm = Math.max(1, b[1] - a[1]);
+  const vitesse = -(b[0] - a[0]) / dtm / pente(0) * 16;
+  if (Math.abs(vitesse) < 0.2) { cible = Math.round(cible); return; }
+  elan = t.elanAvant; relancer(Math.sign(vitesse), Math.abs(vitesse)); });
+regle.addEventListener('pointercancel', () => { tir = null; cible = Math.round(cible); });
+let dernierCoup = 0;
+regle.addEventListener('wheel', (e) => { e.preventDefault();
+  const delta = Math.abs(e.deltaY) >= Math.abs(e.deltaX) ? e.deltaY : e.deltaX; if (!delta) return;
+  const maintenant = performance.now(); if (maintenant - dernierCoup < 140) return;   // un « coup » de molette à la fois
+  dernierCoup = maintenant; relancer(Math.sign(delta), BASE_MOLETTE); }, { passive: false });
+addEventListener('keydown', (e) => { if (sel.classList.contains('ouvert')) { if (e.key === 'Escape') fermer(); return; }
+  const pas = e.shiftKey ? 7 : 1;
+  if (e.key === 'ArrowRight') { elan = 0; cible = borne(Math.round(cible) + pas); }
+  if (e.key === 'ArrowLeft') { elan = 0; cible = borne(Math.round(cible) - pas); } });
+
+// ---------- le sélecteur de date ----------
+const sel = document.getElementById('sel'), vue = document.getElementById('vue'), ok = document.getElementById('ok');
+const filA = document.getElementById('filA'), filM = document.getElementById('filM'), filJ = document.getElementById('filJ');
+let choix = { a: null, m: null, j: null }, etape = 'a';
+const nbJours = (a, m) => new Date(Date.UTC(a, m + 1, 0)).getUTCDate();
+
+function bouton(texte, classes, action) { const b = document.createElement('button'); b.className = 'case ' + classes; b.textContent = texte; b.onclick = action; return b; }
+function rendre() {
+  const actuel = dateDe(cible);
+  filA.textContent = choix.a ?? 'Année'; filM.textContent = choix.m !== null ? MOIS_LONG[choix.m] : 'Mois'; filJ.textContent = choix.j ?? 'Jour';
+  filA.className = (choix.a ? 'rempli ' : '') + (etape === 'a' ? 'actif' : '');
+  filM.className = (choix.m !== null ? 'rempli ' : '') + (etape === 'm' ? 'actif' : ''); filM.disabled = !choix.a;
+  filJ.className = (choix.j ? 'rempli ' : '') + (etape === 'j' ? 'actif' : ''); filJ.disabled = choix.m === null;
+  vue.innerHTML = '';
+  if (etape === 'a') {
+    const t = document.createElement('p'); t.className = 'titre'; t.textContent = 'Choisis une année'; vue.appendChild(t);
+    const zone = document.createElement('div'); zone.className = 'annees';
+    for (let dec = 1940; dec <= ANNEE_MAX; dec += 10) {
+      const l = document.createElement('div'); l.className = 'decennie'; l.textContent = `Années ${dec}`; zone.appendChild(l);
+      const g = document.createElement('div'); g.className = 'grille g5';
+      for (let a = dec; a < dec + 10; a++) {
+        if (a < ANNEE_MIN || a > ANNEE_MAX) continue;
+        const b = bouton(a, (choix.a === a ? 'choisi ' : '') + (actuel.getUTCFullYear() === a ? 'actuel' : ''), () => { choix = { a, m: null, j: null }; etape = 'm'; rendre(); });
+        g.appendChild(b);
+      }
+      zone.appendChild(g);
+    }
+    vue.appendChild(zone);
+    requestAnimationFrame(() => { const cibleB = zone.querySelector('.choisi') || zone.querySelector('.actuel'); if (cibleB) zone.scrollTop = cibleB.offsetTop - zone.offsetTop - 60; });
+  } else if (etape === 'm') {
+    const t = document.createElement('p'); t.className = 'titre'; t.textContent = `Un mois de ${choix.a} ? (facultatif)`; vue.appendChild(t);
+    const g = document.createElement('div'); g.className = 'grille g4';
+    MOIS.forEach((nom, m) => g.appendChild(bouton(nom, choix.m === m ? 'choisi' : '', () => { choix.m = m; choix.j = null; etape = 'j'; rendre(); })));
+    vue.appendChild(g);
+  } else {
+    const t = document.createElement('p'); t.className = 'titre'; t.textContent = `Un jour de ${MOIS_LONG[choix.m]} ${choix.a} ? (facultatif)`; vue.appendChild(t);
+    const g = document.createElement('div'); g.className = 'grille g7';
+    ['L', 'M', 'M', 'J', 'V', 'S', 'D'].forEach((l) => { const e = document.createElement('div'); e.className = 'entete'; e.textContent = l; g.appendChild(e); });
+    const decalage = (new Date(Date.UTC(choix.a, choix.m, 1)).getUTCDay() + 6) % 7;
+    for (let k = 0; k < decalage; k++) g.appendChild(bouton('', 'vide', null));
+    for (let j = 1; j <= nbJours(choix.a, choix.m); j++) g.appendChild(bouton(j, choix.j === j ? 'choisi' : '', () => { choix.j = j; rendre(); }));
+    vue.appendChild(g);
+  }
+  ok.disabled = !choix.a;
+  ok.textContent = choix.a ? `Aller au ${choix.j && choix.j > 1 ? choix.j : '1er'} ${MOIS_LONG[choix.m ?? 0]} ${choix.a}` : 'OK';
+}
+function ouvrir() { choix = { a: null, m: null, j: null }; etape = 'a'; rendre(); sel.classList.add('ouvert'); }
+function fermer() { sel.classList.remove('ouvert'); }
+document.getElementById('date').onclick = () => sel.classList.contains('ouvert') ? fermer() : ouvrir();
+document.getElementById('annuler').onclick = fermer;
+filA.onclick = () => { etape = 'a'; rendre(); };
+filM.onclick = () => { if (choix.a) { etape = 'm'; rendre(); } };
+filJ.onclick = () => { if (choix.m !== null) { etape = 'j'; rendre(); } };
+ok.onclick = () => { if (!choix.a) return; elan = 0; cible = borne(indexDe(choix.a, choix.m ?? 0, choix.j ?? 1)); fermer(); };
+
+boucle();
+</script>
+</body>
+</html>

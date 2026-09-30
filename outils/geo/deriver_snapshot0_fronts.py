@@ -63,7 +63,7 @@ def composante_en(x, y):  # l'étiquette de la composante rouge la plus proche d
 MORCEAUX = {
     'courlande': [(1738, 896), (1787, 900), (1909, 881)],
     'memel': [(1749, 962)],
-    'principal': [(1822, 1163), (1664, 1773), (1231, 2524)],
+    'principal': [(1822, 1163), (1664, 1773), (1231, 2524), (1300, 2650), (1318, 2860), (1400, 3015)],  # jusqu'au bord sud de la carte (Yougoslavie)
     'budapest': [(1373, 2231)],
 }
 def chemin(mask):
@@ -93,6 +93,10 @@ for nom, reperes in MORCEAUX.items():
     ligne = relier([chemin(lab == i) for i in ids])
     FRONT[nom] = LineString(px2lonlat(ligne[::4] + [ligne[-1]])).simplify(0.005)
     print(f'front {nom:10} {len(ids)} morceau(x), {len(FRONT[nom].coords)} points')
+
+# Lignes en lon/lat, réutilisées par le lot 04 (Hongrie, Tchécoslovaquie, Yougoslavie)
+json.dump({k: [list(map(lambda v: round(v, 5), c)) for c in l.coords] for k, l in FRONT.items()},
+          open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'front_est_31dec_lonlat.json'), 'w'))
 
 # ---------------------------------------------------------------- 3. géométries
 geo = lambda n: shape(json.load(open(os.path.join(RACINE, 'data', 'geometries', 'snapshot0', n + '.geojson')))['geometry'])

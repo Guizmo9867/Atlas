@@ -20,7 +20,7 @@ Ce tableau de bord dit où on en est, pour ne rien oublier. Claude le met à jou
 | Est / centre | 02 | Allemagne (1937), Autriche, Pologne, frontière Pologne–URSS, RSS d'Estonie, de Lettonie, de Lituanie, Courlande, Memel, Dantzig, front de l'Est | 11/11, provisoires (OHM ; Courlande et front : carte West Point n° 31 géoréférencée) | **verrouillé le 28/09/2026** ; voir `docs/pour_ether/2026-09-28_integration_lot02.md` |
 | Est (suite) | — | autres RSS (Ukraine, Biélorussie, Caucase…) à préciser ; Hongrie, Slovaquie, Roumanie passent au lot 04 | — | à faire |
 | Nord + Ouest | 03 | Danemark, Féroé, Norvège (+ Est-Finnmark), Suède, Islande, Royaume-Uni, Jersey, Guernesey, Irlande, France (+ poches, Colmar, nord-est), Belgique et Luxembourg (+ Ardennes), Pays-Bas (+ sud libéré), zones alliées en Allemagne, front de l'Ouest | 22/22, provisoires (OHM + cartes LOC et West Point géoréférencées) | intégré le 28/09/2026 ; voir `docs/pour_ether/2026-09-28_integration_lot03.md` |
-| Sud + Centre + Balkans + Turquie | 04 | Espagne, Portugal, Andorre, Italie (+ Saint-Marin, Vatican), Suisse, Liechtenstein, Tchécoslovaquie (+ Zaolzie), Hongrie, Roumanie, Bulgarie, Yougoslavie, Albanie, Grèce, Turquie entière | — | brief d'Ether attendu |
+| Sud + Centre + Balkans + Turquie | 04 | Espagne, Portugal, Andorre, Gibraltar, Suisse, Monaco, Vatican, Italie (+ zones nord/sud, Dodécanèse), Tchécoslovaquie (+ Ruthénie, Zaolzie, zone soviétique), Hongrie (+ zone soviétique, Budapest encerclée), Roumanie, Transylvanie du Nord, Bulgarie, Yougoslavie, Albanie, Grèce (+ Athènes, sans tracé), Turquie entière, Malte, Chypre, front d'Italie | 35/37 (OHM + West Point 31 et 51) ; Athènes et Crète sans tracé | intégré le 28/09, corrigé le 29/09/2026 ; voir `docs/pour_ether/2026-09-28_integration_lot04.md` |
 
 *Les limites exactes de chaque zone seront fixées avec Ether (voir aussi le document de vision globale, pas encore versé dans le dépôt).*
 
@@ -36,6 +36,10 @@ Ce tableau de bord dit où on en est, pour ne rien oublier. Claude le met à jou
 
 - **Lot 03** : île de Man et Svalbard / Jan Mayen (entités voulues, plus tard) ; Groix, Belle-Île, Ré, Oléron, Noirmoutier (source par île) ; carte du 6e groupe d'armées pour le secteur de Nordwind (Bitche) le 01/01 à 00:00. *(Ether)*
 - **Janvier 1945 — états déjà repérés pour le ratissage** : front de l'Ouest jour par jour (cartes LOC du 12e groupe d'armées, une par jour, items 2004630304 → 2004630334 ; la première = 01/01 à 12:00) ; Nordwind (dès le 31/12 vers 23:00) et Sonnenwende (7-13/01) en Alsace ; réduction de la poche de Colmar (à partir du 20/01, West Point 75a) ; RSS d'Estonie (formalisation du 18/01) ; Memel (28/01). *(Claude)*
+
+- **Avant de fermer la première passe territoriale** : Liechtenstein, Saint-Marin, île de Man, Svalbard / Jan Mayen (entités à sourcer) ; limites de l'enclave allemande de Crète ; carte yougoslave datée (côte dalmate, Monténégro) ; sources A/B pour Oujhorod, l'administration soviétique en Transylvanie du Nord, le Dodécanèse. *(Ether + Claude)*
+- **Deuxième passe du Snapshot 0 (ensuite)** : villes, capitales, noms historiques temporels. *(Ether + Guizmo)*
+- **Encore sans données au Snapshot 0** : Afrique du Nord et Proche-Orient au contact (« on montre par contact »), Irak, Iran, Caucase soviétique déjà dans l'URSS. *(à décider)*
 
 ## Couches suivantes (après le Snapshot 0 des frontières)
 

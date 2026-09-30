@@ -2,6 +2,36 @@
 
 Une ligne par décision, datée. Plus récente en haut. Ce journal remplace les versions éparpillées dans les conversations : si ce n'est pas ici, ce n'est pas décidé.
 
+## 2026-09-30 (interface : la règle du temps)
+
+- **Règle du temps en haut de la carte** : remplace le lecteur du bas (plus de bouton Lecture). Effet loupe (« œil de poisson ») au centre ; traits orange = mois, blancs = semaines (lundi), gris = jours ; verre fumé transparent, environ 70 px de haut. *(Guizmo, fait par Claude)*
+- **Voyager** : glisser au doigt ou à la souris, molette (vers le bas = avancer), flèches du clavier (Maj = une semaine) ; toucher un trait = y aller ; toucher pendant le défilement = stop. *(Guizmo)*
+- **Tempo de l'accélérateur** : coups enchaînés dans le même sens pendant que ça défile : 1-2 = jours, 3 à 5 = mois, 6 et plus = années ; le compteur repart à zéro à l'arrêt, après 1,5 s ou si on change de sens. À ajuster à l'usage. *(Guizmo)*
+- **Sélecteur de date** (toucher la date) : l'année seule suffit (→ 1er janvier), le mois et le jour sont facultatifs (→ 1er du mois). *(Guizmo)*
+- **Volet de gauche supprimé** : les commandes sont posées autour de la carte, en verre fumé. En bas, une barre **Mode · Couches · Calques · Filtres · Aujourd'hui**, un seul petit panneau ouvert à la fois ; la légende (palette) est dans « Mode ». En bas à gauche, le carré **Fond de carte**. En haut à gauche, le nom et le bouton « i » (tracés provisoires, petit lexique, et pour l'équipe : choix du corpus, zoom). Ce qui n'existe pas encore est affiché en gris « bientôt », prêt à brancher. *(Guizmo, fait par Claude)*
+- **Vocabulaire : ajout de « fond de carte »** (plan, relief, vue naturelle, satellite, vue reconstituée), ni calque ni mode de lecture. Ajouté au récap technique, à faire valider par Ether. *(Guizmo + Claude)*
+- **Idées premium gardées pour plus tard** (satellite, photos aériennes d'époque, vue reconstituée, flux en « veines ») : `docs/IDEES_POUR_PLUS_TARD.md`. *(Guizmo)*
+- **En pause** : la simplification des couleurs (« qui tient le terrain » en carte principale, le légal dans la fiche), à trancher ensemble. *(Guizmo)*
+
+## 2026-09-29 (retour d'Ether sur le lot 04)
+
+- **Validé** : Hongrie `axis_associe_ww2` ; Monaco `neutral_ww2` ; zone soviétique de Hongrie avec le gouvernement provisoire de Debrecen (Assemblée le 21/12, gouvernement le 22/12/1944) ; Transylvanie du Nord sous administration militaire soviétique ; est de la Slovaquie soviétique. *(Ether)*
+- **Roumanie, Bulgarie, Italie = `anti_axis_non_allied`** : les retournements de 1944 ne valent pas adhésion pleine à la coalition alliée ; les différences passent par statut, contrôle, administration et notes. *(Ether)*
+- **Yougoslavie découpée** : plus de contrôle partisan uniforme ; zone partisane (est) et zone allemande / oustachie (ouest) tirées du front de la carte West Point 31 ; au sud du bord de la carte, rattachement partisan par défaut (à sourcer) ; côte dalmate à affiner. *(Ether, fait par Claude)*
+- **Tchécoslovaquie** : État slovaque (Tiso, occupé par l'Allemagne depuis l'insurrection d'août 1944) et sud annexé par la Hongrie (1938) en zones distinctes. **Italie du Nord** : zones d'opérations allemandes OZAK (littoral adriatique) et OZAV (Préalpes) d'après OHM. *(Ether, fait par Claude)*
+- **Grèce** : Milos (garnison allemande jusqu'au 09/05/1945, Musée de la guerre de Milos) tracée ; Crète occidentale sans tracé (limites non sourcées) ; Grèce en « contrôle non tranché ». *(Ether + Claude)*
+- **Affichage** : rayures croisées grises = souverain connu, contrôle réel non tranché ; hachures colorées selon le camp du **souverain** de l'occupant (ex. Hongrie → brun) ; de près, l'étiquette d'un pays presque entièrement couvert par ses zones s'efface ; un clic choisit la zone la plus précise. *(Claude)*
+
+## 2026-09-28 (suite : lot 04, Sud, Centre, Balkans, Turquie)
+
+- **Lot 04 intégré** : 29 entités (Espagne, Portugal, Andorre, Gibraltar, Suisse, Monaco, Vatican, Italie et ses zones, Tchécoslovaquie et ses zones, Hongrie et ses zones, Roumanie, Transylvanie du Nord, Bulgarie, Yougoslavie, Albanie, Grèce, Turquie entière, Malte, Chypre, front d'Italie). 28 tracés ; Athènes–Le Pirée sans géométrie (pas de carte datée). *(Ether, intégré par Claude)*
+- **Lecture juridique alliée** : Tchécoslovaquie d'avant Munich, Hongrie du Trianon, Yougoslavie et Grèce d'avant-guerre, Italie de 1939 (+ Dodécanèse), Roumanie de septembre 1940 ; la Transylvanie du Nord est une zone à part (annulation de l'arbitrage de Vienne par l'armistice, mais retour roumain le 09/03/1945 seulement). *(Claude, à valider)*
+- **Fronts d'avant le Snapshot** : Italie = West Point 51 (« 31 Dec. », carte stylisée, ≈ 10 km) ; Hongrie, Tchécoslovaquie, Yougoslavie = West Point 31 (« 31 Dec. »), dont l'anneau de Budapest encerclée. En Yougoslavie, pas de zones tirées du front (contrôle partisan / allemand / NDH trop morcelé sans carte datée). *(Claude)*
+- **Un acteur = un ID** appliqué au lot 04 (gouvernement Hoxha, régence grecque, RSI en regime_id ou administration_id) ; « allies » → `allies_occidentaux` ; « conteste » → contrôle absent. Colonies britanniques : code propre (`gi`, `mt`, `cy`). *(Claude)*
+- **Nouveau statut particulier `pro_allied_armed_neutral`** (Turquie, ivoire). *(Ether)*
+- **Propositions à valider** : Hongrie `axis_associe_ww2` au lieu d'`axis_ww2` ; Monaco `neutral_ww2` ; zones soviétiques de Hongrie et de Tchécoslovaquie, Budapest encerclée, Dodécanèse allemand, Transylvanie du Nord ; statut commun Roumanie / Bulgarie. *(Claude)*
+- **Affichage** : géométries re-validées après arrondi (un polygone invalide dessinait un triangle parasite en Belgique) ; étiquettes des micro-États seulement de très près ; calcul du point d'étiquette accéléré. *(Claude)*
+
 ## 2026-09-28 (suite : retour d'Ether sur le lot 03)
 
 - **Lot 03 validé** : harmonisation Courlande/Laponie, alignement allié de Jersey/Guernesey, les deux zones tirées du front (Allemagne tenue par les Alliés, secteur de Bitche). *(Ether)*

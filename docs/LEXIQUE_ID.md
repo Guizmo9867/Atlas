@@ -26,8 +26,8 @@ On le construit au fil de l'eau, jamais à l'avance. **Avant de créer un ID : c
 | `su` | URSS (ancien alpha-2 ; ISO 3166-3 : SUHH) | lot 01 |
 | `fi` | Finlande | lot 01 |
 | `mn` | Mongolie | lot 01 |
-| `yu` | Yougoslavie (ancien alpha-2 ; ISO 3166-3 : YUCS) | réservé |
-| `cs` | Tchécoslovaquie (ancien alpha-2 ; ISO 3166-3 : CSHH) | réservé |
+| `yu` | Yougoslavie (ancien alpha-2 ; ISO 3166-3 : YUCS) | lot 04 |
+| `cs` | Tchécoslovaquie (ancien alpha-2 ; ISO 3166-3 : CSHH) | lot 04 |
 | `dd` | RDA, à partir de 1949 (ancien alpha-2 ; ISO 3166-3 : DDDE) | réservé |
 | `xa`, `xb`, `xc`… | **FICTIF** — codes alpha-2 réservés par l'ISO à l'usage privé | prototype V0 uniquement |
 | `de` | Allemagne | lot 02 |
@@ -46,6 +46,21 @@ On le construit au fil de l'eau, jamais à l'avance. **Avant de créer un ID : c
 | `be` | Belgique | lot 03 |
 | `lu` | Luxembourg | lot 03 |
 | `nl` | Pays-Bas | lot 03 |
+| `es` | Espagne | lot 04 |
+| `pt` | Portugal | lot 04 |
+| `ad` | Andorre | lot 04 |
+| `gi` | Gibraltar (colonie : code propre, comme Jersey) | lot 04 |
+| `mc` | Monaco | lot 04 |
+| `va` | Vatican | lot 04 |
+| `it` | Italie | lot 04 |
+| `hu` | Hongrie | lot 04 |
+| `ro` | Roumanie | lot 04 |
+| `bg` | Bulgarie | lot 04 |
+| `al` | Albanie | lot 04 |
+| `gr` | Grèce | lot 04 |
+| `tr` | Turquie | lot 04 |
+| `mt` | Malte (colonie : code propre) | lot 04 |
+| `cy` | Chypre (colonie : code propre) | lot 04 |
 
 ## 3. Types d'entités
 
@@ -82,6 +97,20 @@ On le construit au fil de l'eau, jamais à l'avance. **Avant de créer un ID : c
 | territoire | `zone-allemande-nord-est` | secteur français tenu par les Allemands au nord-est (Bitche) | `territoire-fr-zone-allemande-nord-est` |
 | territoire | `zone-liberee-sud` | partie libérée d'un pays occupé | `territoire-nl-zone-liberee-sud` |
 | territoire | `zone-alliee-ouest` | territoire allemand tenu par les Alliés à l'ouest | `territoire-de-zone-alliee-ouest` |
+| territoire | `espagne`, `portugal`, `andorre`, `gibraltar`, `suisse`, `monaco`, `vatican`, `italie`, `tchecoslovaquie`, `hongrie`, `roumanie`, `bulgarie`, `yougoslavie`, `albanie`, `grece`, `turquie`, `malte`, `chypre` | l'État ou le territoire dans son ensemble | `territoire-es-espagne`… |
+| territoire | `zone-allemande-nord`, `zone-alliee-sud` | Italie de part et d'autre du front | `territoire-it-zone-…` |
+| territoire | `dodecanese` | Dodécanèse (occupation allemande) | `territoire-it-dodecanese` |
+| territoire | `ruthenie-subcarpatique`, `zaolzie` | sous-zones de la Tchécoslovaquie | `territoire-cs-…` |
+| territoire | `zone-sovietique`, `zone-sovietique-est` | partie d'un pays derrière le front soviétique | `territoire-hu-zone-sovietique`, `territoire-cs-zone-sovietique-est` |
+| territoire | `budapest-encerclee` | Budapest assiégée | `territoire-hu-budapest-encerclee` |
+| territoire | `transylvanie-nord` | Transylvanie du Nord (disputée) | `territoire-ro-transylvanie-nord` |
+| territoire | `athenes-piree-combats` | zone des Dekemvriana | `territoire-gr-athenes-piree-combats` |
+| ligne_front | `italie` | front d'Italie (ligne Gothique) | `ligne_front-it-italie` |
+| territoire | `zone-partisane`, `zone-allemande` | Yougoslavie de part et d'autre du front | `territoire-yu-zone-…` |
+| territoire | `slovaquie` | État slovaque (Tiso) dans la Tchécoslovaquie juridique | `territoire-cs-slovaquie` |
+| territoire | `sud-annexe-hongrie` | sud de la Slovaquie annexé par la Hongrie en 1938 | `territoire-cs-sud-annexe-hongrie` |
+| territoire | `ozak`, `ozav` | zones d'opérations allemandes (littoral adriatique, Préalpes) | `territoire-it-ozak`, `territoire-it-ozav` |
+| territoire | `milos`, `crete-garnison-allemande` | garnisons allemandes en Grèce | `territoire-gr-…` |
 | territoire | `partition` | partage d'un territoire | `1945-de-partition-berlin` (exemple) |
 
 ## 5. Identifiants sémantiques (acteurs, alignements)
@@ -104,8 +133,14 @@ Valeurs de `souverainete_id`, `controle_id`, `alignement_id`. Courts, toujours l
 | `couronne_britannique` | la Couronne, souveraine de Jersey et Guernesey (pas le Royaume-Uni) |
 | `feroe` | autorités féroïennes (Løgting, préfet) — `administration_id` des Féroé |
 | `etats_unis` | États-Unis (armées américaines) — acteur sans territoire dans le corpus : son camp est donné dans `CAMP_HORS_CORPUS` (palettes.ts) |
+| `espagne`, `portugal`, `andorre`, `suisse`, `monaco`, `vatican`, `italie`, `tchecoslovaquie`, `hongrie`, `roumanie`, `bulgarie`, `yougoslavie`, `albanie`, `grece`, `turquie` | les États du lot 04 |
+| `allies_occidentaux` | forces et gouvernement militaire des Alliés occidentaux (Italie) — camp dans `CAMP_HORS_CORPUS` |
+| `republique_sociale_italienne` | RSI (Salò) — `administration_id` de l'Italie du Nord |
+| `partisans_yougoslaves` | Partisans / AVNOJ — camp dans `CAMP_HORS_CORPUS` |
+| `gouvernement_provisoire_hongrois` | gouvernement de Debrecen (22/12/1944) — `administration_id` de la zone soviétique de Hongrie |
+| `republique_slovaque` | État slovaque de Tiso — `administration_id` de la Slovaquie |
 
-**Régimes** (`regime_id`) : `allemagne_nazie`, `republique_populaire`, `gprf` (Gouvernement provisoire de la République française).
+**Régimes** (`regime_id`) : `allemagne_nazie`, `republique_populaire`, `gprf` (Gouvernement provisoire de la République française), `franquisme`, `estado_novo`, `royaume_italie`, `croix_flechees` (Szálasi), `regence` (Grèce), `gouvernement_democratique_albanie` (Hoxha).
 
 **Alignements** — Snapshot 0 : **4 familles principales + statuts particuliers quand les faits l'exigent** (règle du 28/09/2026). Occupation = hachures, front = bande. Les couleurs vivent dans `app/src/theme/palettes.ts`, jamais dans les données.
 
@@ -118,7 +153,10 @@ Valeurs de `souverainete_id`, `controle_id`, `alignement_id`. Courts, toujours l
 | `anti_axis_non_allied` | statut particulier : hors des coalitions, mais en guerre contre l'Axe (Finlande au 01/01/1945) | ivoire |
 | `pro_sovietique_non_belligerant` | statut particulier : lié à l'URSS, non belligérant (Mongolie jusqu'au 10/08/1945) | ivoire + liseré bleu |
 | `occupe_hors_coalitions` | statut particulier : pays occupé dont le gouvernement n'est dans aucune coalition (Danemark au 01/01/1945) | ivoire + hachures de l'occupant |
+| `pro_allied_armed_neutral` | statut particulier : neutralité armée orientée vers les Alliés (Turquie au 01/01/1945) | ivoire |
 | `soviet_bloc` | bloc soviétique (guerre froide, plus tard) | — |
+
+**Contrôle non tranché** : souverain connu mais `controle_id` absent (contrôle réel disputé, ex. Grèce des Dekemvriana) → **rayures croisées grises**.
 
 **Règle « pays occupé ≠ Axe »** (lot 03, 28/09/2026) : un territoire garde le camp de son souverain (hérité du parent pour une zone) ; l'occupation se lit par des **hachures à la couleur du camp de l'occupant** (anthracite = Allemagne, bleu = Alliés ; rayures claires si l'occupant est du même camp, ex. Est-Finnmark).
 

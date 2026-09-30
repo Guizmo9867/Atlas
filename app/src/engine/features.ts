@@ -3,7 +3,7 @@
 import type { Feature, FeatureCollection, Geometry, Position } from 'geojson'
 import type { Entite, Evenement, ModeLecture } from '../types'
 import { etatActif, phaseEvenement } from './temporal'
-import { CAMP_HORS_CORPUS, couleurPour, HACHURE_CLAIRE, HACHURE_NEUTRE, LISERES } from '../theme/palettes'
+import { CAMP_HORS_CORPUS, couleurPour, HACHURE_CLAIRE, HACHURE_NEUTRE, HACHURE_NON_TRANCHE, LISERES } from '../theme/palettes'
 
 const vide = (): FeatureCollection => ({ type: 'FeatureCollection', features: [] })
 
@@ -32,12 +32,23 @@ export function construireCouches(
     return pid && n < 10 ? profondeur(pid, n + 1) : n
   }
   const ordonnees = [...entites].sort((a, b) => profondeur(a.entite_id) - profondeur(b.entite_id))
-  // Camp de chaque acteur ce jour-là, lu dans les données : l'alignement du territoire « racine » qu'il détient
-  // (sans parent, souverain = contrôleur). Sert à colorer les hachures d'occupation en mode Alignements.
+  // Camp de chaque acteur ce jour-là, lu dans les données : l'alignement du territoire « racine » dont il est souverain
+  // Sert à colorer les hachures d'occupation en mode Alignements.
+  // (le territoire dont il est souverain, sans parent ; ex. hongrie → axis_associe_ww2, royaume_uni → allies_ww2)
+  // Territoires presque entièrement couverts (≥ 90 %) par leurs zones « enfants » ce jour-là :
+  // de près, leur étiquette s'efface au profit de celles des zones (Italie → Italie du Nord / Italie libérée)
+  const geomDe = (id: string) => { const et = actifs.get(id); return et?.geometrie ?? (et?.geometrie_ref ? geometries[et.geometrie_ref] : undefined) }
+  const couvert = new Map<string, number>()
+  for (const e of entites) {
+    const pid = actifs.get(e.entite_id)?.proprietes?.parent_id; const g = geomDe(e.entite_id)
+    if (pid && g) couvert.set(pid, (couvert.get(pid) ?? 0) + aireGeometrie(g))
+  }
+  const aDesEnfants = new Set<string>()
+  for (const [pid, a] of couvert) { const g = geomDe(pid); if (g && a >= 0.9 * aireGeometrie(g)) aDesEnfants.add(pid) }
   const campActeur = new Map<string, string>()
   for (const e of entites) {
     const pp = actifs.get(e.entite_id)?.proprietes
-    if (pp && !pp.parent_id && pp.alignement_id && pp.controle_id && pp.souverainete_id === pp.controle_id && !campActeur.has(pp.controle_id)) campActeur.set(pp.controle_id, pp.alignement_id)
+    if (pp && !pp.parent_id && pp.alignement_id && pp.souverainete_id && !campActeur.has(pp.souverainete_id)) campActeur.set(pp.souverainete_id, pp.alignement_id)
   }
 
   for (const ent of ordonnees) {
@@ -63,12 +74,14 @@ export function construireCouches(
       geometry: geom,
       properties: {
         entite_id: ent.entite_id, nom: ent.nom, nom_court: ent.nom_court ?? ent.nom.replace(' (FICTIF)', ''), etat_id: etat.etat_id, statut: etat.statut,
-        valeur_mode: valeurMode, couleur: couleurPour(mode, valeurMode), profondeur: profondeur(ent.entite_id),
+        valeur_mode: valeurMode, couleur: couleurPour(mode, valeurMode), profondeur: profondeur(ent.entite_id), a_enfants: aDesEnfants.has(ent.entite_id),
         type: ent.type_entite,
         // Occupation / contrôle concurrent = HACHURES par-dessus la couleur de fond (jamais une nouvelle couleur).
         // Mode souveraineté : hachures à la couleur de l'occupant. Mode alignements : à la couleur du camp de l'occupant.
         // Mode contrôle : rien (le fond montre déjà l'occupant).
-        hachure: mode !== 'controle' && concurrent ? `hachure-${couleurHachure(mode, p.controle_id, valeurMode, campActeur).slice(1)}` : '',
+        hachure: mode !== 'controle' && concurrent ? `hachure-${couleurHachure(mode, p.controle_id, valeurMode, campActeur).slice(1)}`
+          // souverain connu mais contrôle réel non tranché (champ absent) : rayures croisées grises (ex. Grèce des Dekemvriana)
+          : p.souverainete_id && !p.controle_id && ent.type_entite === 'territoire' ? `croise-${HACHURE_NON_TRANCHE.slice(1)}` : '',
         lisere: mode === 'alignement' ? (LISERES[valeurMode] ?? '') : '',
       },
     }
@@ -133,9 +146,21 @@ function calculerPoint(g: Geometry): Position {
   return [pts.reduce((s, p) => s + p[0], 0) / n, pts.reduce((s, p) => s + p[1], 0) / n]
 }
 
-/** Anneau allégé (≤ 600 points) : suffisant pour placer une étiquette, sans parcourir des centaines de milliers de points. */
+/** Aire approximative (degrés², anneaux allégés) : sert seulement à comparer un territoire à ses zones. Mise en cache. */
+const cacheAires = new WeakMap<object, number>()
+function aireGeometrie(g: Geometry): number {
+  const deja = cacheAires.get(g)
+  if (deja !== undefined) return deja
+  const polys = g.type === 'Polygon' ? [g.coordinates] : g.type === 'MultiPolygon' ? g.coordinates : []
+  let a = 0
+  for (const p of polys) p.forEach((r, i) => { a += (i === 0 ? 1 : -1) * Math.abs(aire(allege(r))) })
+  cacheAires.set(g, a)
+  return a
+}
+
+/** Anneau allégé (≤ 400 points) : suffisant pour placer une étiquette, sans parcourir des centaines de milliers de points. */
 function allege(r: Position[]): Position[] {
-  const pas = Math.max(1, Math.ceil(r.length / 600))
+  const pas = Math.max(1, Math.ceil(r.length / 400))
   if (pas === 1) return r
   const out: Position[] = []
   for (let i = 0; i < r.length; i += pas) out.push(r[i])
@@ -170,21 +195,39 @@ function poleInaccessibilite(anneaux: Position[][]): Position {
   for (const [x, y] of anneaux[0]) { if (x < x0) x0 = x; if (x > x1) x1 = x; if (y < y0) y0 = y; if (y > y1) y1 = y }
   const taille = Math.min(x1 - x0, y1 - y0)
   if (!taille) return [x0, y0]
-  const precision = taille / 100
+  const precision = taille / 60
   type Cellule = { x: number; y: number; h: number; d: number; max: number }
   const cellule = (x: number, y: number, h: number): Cellule => { const d = distanceBord(x, y, anneaux); return { x, y, h, d, max: d + h * Math.SQRT2 } }
-  const file: Cellule[] = []
+  // file de priorité (tas binaire) : la cellule la plus prometteuse d'abord
+  const tas: Cellule[] = []
+  const pousser = (c: Cellule) => {
+    tas.push(c); let i = tas.length - 1
+    while (i > 0) { const p = (i - 1) >> 1; if (tas[p].max >= tas[i].max) break; [tas[p], tas[i]] = [tas[i], tas[p]]; i = p }
+  }
+  const tirer = (): Cellule => {
+    const haut = tas[0], dernier = tas.pop()!
+    if (tas.length) {
+      tas[0] = dernier; let i = 0
+      for (;;) {
+        const g = 2 * i + 1, d = g + 1; let m = i
+        if (g < tas.length && tas[g].max > tas[m].max) m = g
+        if (d < tas.length && tas[d].max > tas[m].max) m = d
+        if (m === i) break
+        ;[tas[m], tas[i]] = [tas[i], tas[m]]; i = m
+      }
+    }
+    return haut
+  }
   let h = taille / 2
-  for (let x = x0; x < x1; x += taille) for (let y = y0; y < y1; y += taille) file.push(cellule(x + h, y + h, h))
+  for (let x = x0; x < x1; x += taille) for (let y = y0; y < y1; y += taille) pousser(cellule(x + h, y + h, h))
   let best = cellule((x0 + x1) / 2, (y0 + y1) / 2, 0)
   let n = 0
-  while (file.length && n++ < 1500) {
-    file.sort((a, b) => a.max - b.max)
-    const c = file.pop()!
+  while (tas.length && n++ < 400) {
+    const c = tirer()
     if (c.d > best.d) best = c
     if (c.max - best.d <= precision) continue
     h = c.h / 2
-    file.push(cellule(c.x - h, c.y - h, h), cellule(c.x + h, c.y - h, h), cellule(c.x - h, c.y + h, h), cellule(c.x + h, c.y + h, h))
+    pousser(cellule(c.x - h, c.y - h, h)); pousser(cellule(c.x + h, c.y - h, h)); pousser(cellule(c.x - h, c.y + h, h)); pousser(cellule(c.x + h, c.y + h, h))
   }
   return [best.x, best.y]
 }

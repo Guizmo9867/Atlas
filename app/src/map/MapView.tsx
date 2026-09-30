@@ -33,7 +33,7 @@ const GROUPES: Record<keyof Calques, string[]> = {
   parcours: PROFONDEURS.map((p) => `parcours-${p}`),
   reperesModernes: ['osm'],
 }
-const CLIQUABLES = [...PROFONDEURS.map((p) => `pastilles-${p}`), ...PROFONDEURS.map((p) => `parcours-${p}`), 'ponts', 'frontieres', ...ETAGES.map((d) => couche('territoires-fond', d))]
+const CLIQUABLES = [...PROFONDEURS.map((p) => `pastilles-${p}`), ...PROFONDEURS.map((p) => `parcours-${p}`), 'ponts', 'frontieres', ...[...ETAGES].reverse().map((d) => couche('territoires-fond', d))]
 
 interface Props {
   emprise: [number, number, number, number]
@@ -57,7 +57,7 @@ export default function MapView({ emprise, couches, calques, selection, onSelect
     const map = new maplibregl.Map({
       container: conteneur.current!,
       bounds: emprise,
-      fitBoundsOptions: { padding: { top: 30, bottom: 140, left: 30, right: 30 } },
+      fitBoundsOptions: { padding: { top: 90, bottom: 90, left: 30, right: 30 } },
       minZoom: 2,
       maxZoom: 12,
       attributionControl: {
@@ -144,8 +144,9 @@ export default function MapView({ emprise, couches, calques, selection, onSelect
     map.addControl(new maplibregl.NavigationControl({ showCompass: false }), 'top-right')
     // Motifs de hachures fabriqués à la demande : « hachure-rrggbb » → rayures diagonales de cette couleur
     map.setMissingStyleImageResolver((id) => {
-      if (!id.startsWith('hachure-') || map.hasImage(id)) return
-      map.addImage(id, dessinerHachure(`#${id.slice(8)}`), { pixelRatio: 2 })
+      if (map.hasImage(id)) return
+      if (id.startsWith('hachure-')) map.addImage(id, dessinerHachure(`#${id.slice(8)}`), { pixelRatio: 2 })
+      else if (id.startsWith('croise-')) map.addImage(id, dessinerHachure(`#${id.slice(7)}`, true), { pixelRatio: 2 })
     })
     map.addControl(new maplibregl.ScaleControl({ unit: 'metric' }), 'bottom-right')
 
@@ -171,6 +172,7 @@ export default function MapView({ emprise, couches, calques, selection, onSelect
       map.getContainer().classList.toggle('zoom-faible', map.getZoom() < 3.8)
       map.getContainer().classList.toggle('zoom-moyen', map.getZoom() < 5)
       map.getContainer().classList.toggle('zoom-regional', map.getZoom() < 6.5)
+      map.getContainer().classList.toggle('zoom-local', map.getZoom() < 7.5)
     }
     map.on('zoom', majZoom)
     map.on('load', majZoom)
@@ -213,7 +215,9 @@ function appliquer(map: maplibregl.Map, c: CouchesDuJour, etiquettes: React.Muta
     el.className = 'etiquette'
     const nom = String(f.properties?.nom_court ?? f.properties?.nom ?? '')
     el.dataset.profondeur = String(f.properties?.profondeur ?? 0)
+    el.dataset.parent = f.properties?.a_enfants ? '1' : '0' // de près, on lit les zones plutôt que l'enveloppe
     el.dataset.petit = etendue(f.geometry) < 25 ? '1' : '0' // < ~25 degrés² : petit territoire
+    el.dataset.micro = etendue(f.geometry) < 0.2 ? '1' : '0' // micro-États, îles : étiquette seulement de très près
     el.dataset.minuscule = etendue(f.geometry) < 2 ? '1' : '0' // zones locales (poches, zones de front) : étiquette seulement de près
     const v = String(f.properties?.valeur_mode ?? '')
     const libelle = LIBELLES[v] ?? v
@@ -236,13 +240,16 @@ function surligner(map: maplibregl.Map, s: Selection) {
 }
 
 /** Un carreau 16×16 px de rayures diagonales (se répète sans couture). */
-function dessinerHachure(couleur: string): ImageData {
+/** Rayures diagonales ; croisées = « contrôle non tranché » (souverain connu, contrôle réel disputé). */
+function dessinerHachure(couleur: string, croise = false): ImageData {
   const t = 16
   const ctx = Object.assign(document.createElement('canvas'), { width: t, height: t }).getContext('2d')!
   ctx.strokeStyle = couleur
   ctx.globalAlpha = 0.75
   ctx.lineWidth = 2.5
+  if (croise) { ctx.lineWidth = 1.2; ctx.setLineDash([3, 3]) }
   for (const d of [-t, 0, t]) { ctx.beginPath(); ctx.moveTo(d, t); ctx.lineTo(d + t, 0); ctx.stroke() }
+  if (croise) for (const d of [-t, 0, t]) { ctx.beginPath(); ctx.moveTo(d, 0); ctx.lineTo(d + t, t); ctx.stroke() }
   return ctx.getImageData(0, 0, t, t)
 }
 

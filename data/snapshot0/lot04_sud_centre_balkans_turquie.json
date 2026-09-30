@@ -1,0 +1,1651 @@
+{
+  "metadata_lot": {
+    "nom": "snapshot0_lot04_sud_centre_balkans_turquie",
+    "date_reference": "1945-01-01",
+    "heure_reference": "00:00",
+    "version": "0.3",
+    "statut": "integre_par_claude",
+    "gabarit_source": "gabarits/gabarit_entite_temporelle_atlas.json",
+    "regles": [
+      "Turquie entière dans le périmètre permanent",
+      "pays occupé != pays de l'Axe",
+      "souveraineté, contrôle, administration et régime séparés",
+      "aucun changement postérieur au 01/01/1945 appliqué rétroactivement",
+      "aucune géométrie inventée"
+    ],
+    "integration": {
+      "date": "2026-09-28",
+      "par": "Claude",
+      "corrections": [
+        "Format converti : bloc « snapshot0 » → etats[] (valid_from/valid_to) ; dates de début proposées par Claude quand Ether n'en donnait pas (précision indiquée)",
+        "IDs des colonies : territoire-gb-gibraltar/malte/chypre → territoire-gi-gibraltar, territoire-mt-malte, territoire-cy-chypre (code propre du territoire, comme Jersey/Guernesey)",
+        "Un acteur = un ID : Albanie controle/administration = albanie, gouvernement Hoxha en regime_id ; Grèce administration = grece, régence en regime_id ; Italie du Nord : RSI en administration_id seulement",
+        "controle_id « allies » → allies_occidentaux (nouvel acteur) ; controle_id « conteste » → controle_id absent (règle : non tranché = absent)",
+        "alignement_id retiré des zones (hérité du parent) ; Hongrie axis_ww2 → axis_associe_ww2 (à valider) ; Monaco hors_coalitions → neutral_ww2 (à valider)",
+        "Ajouts (PROPOSITIONS) : zones soviétiques de Hongrie et de Tchécoslovaquie, Budapest encerclée, Dodécanèse sous contrôle allemand, Transylvanie du Nord ; front d'Italie en entité ligne_front",
+        "Athènes–Le Pirée : pas de géométrie (pas de carte datée)",
+        "29/09/2026 (retour d'Ether) : Roumanie anti_axis_non_allied ; Hongrie axis_associe_ww2 et Monaco neutral_ww2 validés ; zones soviétiques, Debrecen, Transylvanie du Nord validés ; Yougoslavie découpée (zone partisane / zone allemande) sans contrôle uniforme ; État slovaque et sud annexé par la Hongrie ; zones d'opérations allemandes OZAK et OZAV ; Milos et Crète occidentale (sans tracé)"
+      ]
+    }
+  },
+  "entites": [
+    {
+      "entite_id": "territoire-es-espagne",
+      "type_entite": "territoire",
+      "nom": "Espagne",
+      "nom_court": "Espagne",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "1939-04-01",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "etat_neutre_autoritaire",
+          "proprietes": {
+            "souverainete_id": "espagne",
+            "controle_id": "espagne",
+            "alignement_id": "neutral_ww2",
+            "regime_id": "franquisme",
+            "note": "Hors guerre au 01/01/1945 (neutre / non-belligérante). Ne pas colorer « Axe». Baléares et Canaries incluses ; possessions africaines hors périmètre."
+          },
+          "geometrie_ref": "geom-territoire-es-espagne-1945-01-01",
+          "sources": [
+            {
+              "source_id": "src-frus-1943-v02-d554-spain",
+              "locator": "à préciser",
+              "usage": ""
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "territoire-pt-portugal",
+      "type_entite": "territoire",
+      "nom": "Portugal",
+      "nom_court": "Portugal",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "1939-09-01",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "etat_neutre_avec_facilites_alliees_aux_acores",
+          "proprietes": {
+            "souverainete_id": "portugal",
+            "controle_id": "portugal",
+            "alignement_id": "neutral_ww2",
+            "regime_id": "estado_novo",
+            "note": "Neutre. Les facilités alliées aux Açores (depuis 1943) sont un fait militaire, pas une perte de souveraineté : futures couches infrastructures/flux."
+          },
+          "geometrie_ref": "geom-territoire-pt-portugal-1945-01-01",
+          "sources": [
+            {
+              "source_id": "src-frus-1945-v05-d313-portugal",
+              "locator": "à préciser",
+              "usage": ""
+            },
+            {
+              "source_id": "src-frus-1944-v04-d69-azores",
+              "locator": "à préciser",
+              "usage": ""
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "territoire-ad-andorre",
+      "type_entite": "territoire",
+      "nom": "Andorre",
+      "nom_court": "Andorre",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "1939-09-01",
+            "precision": "annee"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "coprincipaute_neutre",
+          "proprietes": {
+            "souverainete_id": "andorre",
+            "controle_id": "andorre",
+            "alignement_id": "neutral_ww2"
+          },
+          "geometrie_ref": "geom-territoire-ad-andorre-1945-01-01",
+          "sources": [
+            {
+              "source_id": "src-andorra-neutrality-wwii",
+              "locator": "à préciser",
+              "usage": ""
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "territoire-gi-gibraltar",
+      "type_entite": "territoire",
+      "nom": "Gibraltar",
+      "nom_court": "Gibraltar",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "1713-07-13",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "colonie_britannique_forteresse",
+          "proprietes": {
+            "souverainete_id": "royaume_uni",
+            "controle_id": "royaume_uni",
+            "alignement_id": "allies_ww2",
+            "note": "Population civile largement évacuée pendant la guerre."
+          },
+          "geometrie_ref": "geom-territoire-gi-gibraltar-1945-01-01",
+          "sources": [
+            {
+              "source_id": "src-gibraltar-political-development",
+              "locator": "à préciser",
+              "usage": ""
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "territoire-ch-suisse",
+      "type_entite": "territoire",
+      "nom": "Suisse",
+      "nom_court": "Suisse",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "1939-08-31",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "etat_neutre",
+          "proprietes": {
+            "souverainete_id": "suisse",
+            "controle_id": "suisse",
+            "alignement_id": "neutral_ww2",
+            "note": "Transits ferroviaires et échanges avec l'Allemagne : future couche de flux. Liechtenstein : entité différée."
+          },
+          "geometrie_ref": "geom-territoire-ch-suisse-1945-01-01",
+          "sources": [
+            {
+              "source_id": "src-frus-1945-v05-d582-switzerland",
+              "locator": "à préciser",
+              "usage": ""
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "territoire-mc-monaco",
+      "type_entite": "territoire",
+      "nom": "Monaco",
+      "nom_court": "Monaco",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "1944-09-03",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "principaute_liberee",
+          "proprietes": {
+            "souverainete_id": "monaco",
+            "controle_id": "monaco",
+            "alignement_id": "neutral_ww2",
+            "note": "Libéré le 03/09/1944 après une occupation italienne (novembre 1942) puis allemande (septembre 1943). neutral_ww2 retenu au Snapshot 0 plutôt qu'un statut particulier. [Validé par Ether le 29/09/2026.]"
+          },
+          "geometrie_ref": "geom-territoire-mc-monaco-1945-01-01",
+          "sources": [
+            {
+              "source_id": "src-monaco-liberation-1944",
+              "locator": "à préciser",
+              "usage": ""
+            },
+            {
+              "source_id": "src-monaco-occupation-report",
+              "locator": "à préciser",
+              "usage": ""
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "territoire-va-vatican",
+      "type_entite": "territoire",
+      "nom": "Cité du Vatican",
+      "nom_court": "Vatican",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "1929-02-11",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "etat_souverain",
+          "proprietes": {
+            "souverainete_id": "vatican",
+            "controle_id": "vatican",
+            "alignement_id": "neutral_ww2"
+          },
+          "geometrie_ref": "geom-territoire-va-vatican-1945-01-01",
+          "sources": [
+            {
+              "source_id": "src-vatican-history-1929",
+              "locator": "à préciser",
+              "usage": ""
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "territoire-it-italie",
+      "type_entite": "territoire",
+      "nom": "Italie (royaume, frontières de 1939)",
+      "nom_court": "Italie",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "1943-10-13",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "etat_cobelligerant_sous_armistice",
+          "proprietes": {
+            "souverainete_id": "italie",
+            "alignement_id": "anti_axis_non_allied",
+            "regime_id": "royaume_italie",
+            "note": "Cobelligérante depuis la déclaration de guerre à l'Allemagne (13/10/1943) mais sous armistice : pas le statut des puissances alliées. Contrôle : voir les zones nord (Allemagne/RSI) et sud (Alliés). Frontières d'avant-guerre, Dodécanèse compris ; Saint-Marin : entité différée."
+          },
+          "geometrie_ref": "geom-territoire-it-italie-1945-01-01",
+          "sources": [
+            {
+              "source_id": "src-frus-1945-v04-d973-italy",
+              "locator": "à préciser",
+              "usage": ""
+            },
+            {
+              "source_id": "src-frus-1945-v01-d194-italy",
+              "locator": "à préciser",
+              "usage": ""
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "territoire-it-zone-allemande-nord",
+      "type_entite": "territoire",
+      "nom": "Italie — zone sous contrôle allemand (nord)",
+      "nom_court": "Italie du Nord (zone allemande)",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "1943-09-10",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "zone_occupee_et_administree_par_rsi",
+          "proprietes": {
+            "parent_id": "territoire-it-italie",
+            "souverainete_id": "italie",
+            "controle_id": "allemagne",
+            "administration_id": "republique_sociale_italienne",
+            "note": "Au nord du front du 31/12/1944 (ligne Gothique d'hiver). Administration de la République sociale italienne, sauf zones d'opérations administrées directement par l'Allemagne (Alpes, littoral adriatique). regime_id retiré : la RSI est ici l'administration, pas le régime du souverain."
+          },
+          "geometrie_ref": "geom-territoire-it-zone-allemande-nord-1945-01-01",
+          "sources": [
+            {
+              "source_id": "src-westpoint-italy-jun-dec1944",
+              "locator": "carte 51, « 31 Dec. »",
+              "usage": "front du 31/12/1944"
+            },
+            {
+              "source_id": "src-frus-1945-v04-d973-italy",
+              "locator": "à préciser",
+              "usage": ""
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "territoire-it-zone-alliee-sud",
+      "type_entite": "territoire",
+      "nom": "Italie — zone contrôlée par les Alliés (centre et sud)",
+      "nom_court": "Italie libérée",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "1944-12-31",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "zone_liberee_sous_commandement_allie",
+          "proprietes": {
+            "parent_id": "territoire-it-italie",
+            "souverainete_id": "italie",
+            "controle_id": "allies_occidentaux",
+            "administration_id": "italie",
+            "note": "Au sud du front du 31/12/1944. Administration italienne (gouvernement du royaume) sous contrôle de la Commission alliée ; gouvernement militaire allié près du front. valid_from : étendue au 31/12/1944 (la zone a grandi depuis 1943)."
+          },
+          "geometrie_ref": "geom-territoire-it-zone-alliee-sud-1945-01-01",
+          "sources": [
+            {
+              "source_id": "src-westpoint-italy-jun-dec1944",
+              "locator": "carte 51, « 31 Dec. »",
+              "usage": "front du 31/12/1944"
+            },
+            {
+              "source_id": "src-frus-1945-v04-d973-italy",
+              "locator": "à préciser",
+              "usage": ""
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "territoire-it-dodecanese",
+      "type_entite": "territoire",
+      "nom": "Dodécanèse — occupation allemande",
+      "nom_court": "Dodécanèse (zone allemande)",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "1943-09-11",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "iles_italiennes_occupees_par_allemagne",
+          "proprietes": {
+            "parent_id": "territoire-it-italie",
+            "souverainete_id": "italie",
+            "controle_id": "allemagne",
+            "note": "PROPOSITION de Claude : îles italiennes de l'Égée (Rhodes, Leros, Kos…) tenues par l'Allemagne de septembre 1943 au 08/05/1945 (dates OHM, à doubler par une source A/B)."
+          },
+          "geometrie_ref": "geom-territoire-it-dodecanese-1945-01-01",
+          "sources": [
+            {
+              "source_id": "src-openhistoricalmap",
+              "locator": "relation 2920370",
+              "usage": "occupation allemande du Dodécanèse 1943-09-11 → 1945-05-08"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "territoire-cs-tchecoslovaquie",
+      "type_entite": "territoire",
+      "nom": "Tchécoslovaquie (frontières d’avant Munich)",
+      "nom_court": "Tchécoslovaquie",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "1938-09-29",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "etat_allie_majoritairement_occupe",
+          "proprietes": {
+            "souverainete_id": "tchecoslovaquie",
+            "controle_id": "allemagne",
+            "alignement_id": "allies_ww2",
+            "note": "Lecture alliée : accords de Munich et arbitrage de Vienne nuls. Gouvernement Beneš (en exil) allié. Contrôle allemand dominant (Protectorat, Sudètes, Slovaquie de Tiso occupée après l'insurrection) ; est déjà soviétique (voir zones). À affiner : Slovaquie (État slovaque) et sud annexé par la Hongrie."
+          },
+          "geometrie_ref": "geom-territoire-cs-tchecoslovaquie-1945-01-01",
+          "sources": [
+            {
+              "source_id": "src-frus-1945-v04-czechoslovakia",
+              "locator": "à préciser",
+              "usage": ""
+            },
+            {
+              "source_id": "src-frus-1945-v02-d582-czechoslovakia",
+              "locator": "à préciser",
+              "usage": ""
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "territoire-cs-ruthenie-subcarpatique",
+      "type_entite": "territoire",
+      "nom": "Ruthénie subcarpatique",
+      "nom_court": "Ruthénie subcarpatique",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "1944-10-27",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "territoire_tchecoslovaque_sous_controle_sovietique",
+          "proprietes": {
+            "parent_id": "territoire-cs-tchecoslovaquie",
+            "souverainete_id": "tchecoslovaquie",
+            "controle_id": "urss",
+            "note": "Encore juridiquement tchécoslovaque au 01/01/1945 (cession à l'URSS : traité du 29/06/1945). valid_from : prise d'Oujhorod (27/10/1944), à sourcer."
+          },
+          "geometrie_ref": "geom-territoire-cs-ruthenie-subcarpatique-1945-01-01",
+          "sources": [
+            {
+              "source_id": "src-frus-1945-v04-czechoslovakia",
+              "locator": "à préciser",
+              "usage": ""
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "territoire-cs-zaolzie",
+      "type_entite": "territoire",
+      "nom": "Zaolzie (Teschen)",
+      "nom_court": "Zaolzie",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "1939-09-01",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "territoire_dispute_sous_controle_allemand",
+          "proprietes": {
+            "parent_id": "territoire-cs-tchecoslovaquie",
+            "souverainete_id": "tchecoslovaquie",
+            "controle_id": "allemagne",
+            "note": "Pris par la Pologne en octobre 1938, sous contrôle allemand depuis septembre 1939. Au 01/01/1945 : contesté ; position américaine du 11/01/1945 (FRUS 1945 IV doc. 432) favorable au retour à la frontière d'avant 1938. Même tracé que celui retiré de la Pologne (lot 02)."
+          },
+          "geometrie_ref": "geom-territoire-cs-zaolzie-1945-01-01",
+          "sources": [
+            {
+              "source_id": "src-frus-1945-v04-czechoslovakia",
+              "locator": "à préciser",
+              "usage": ""
+            },
+            {
+              "source_id": "src-frus-1945-v04-d432",
+              "locator": "Annex 1, point 7",
+              "usage": "position américaine (Teschen, Spiš, Orava)"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "territoire-cs-zone-sovietique-est",
+      "type_entite": "territoire",
+      "nom": "Tchécoslovaquie — zone tenue par les Soviétiques (est de la Slovaquie)",
+      "nom_court": "Slovaquie orientale (zone soviétique)",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "1944-12-31",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "zone_sous_controle_militaire_sovietique",
+          "proprietes": {
+            "parent_id": "territoire-cs-tchecoslovaquie",
+            "souverainete_id": "tchecoslovaquie",
+            "controle_id": "urss",
+            "note": "partie de la Tchécoslovaquie (hors Ruthénie) à l'est du front du 31/12/1944 (West Point 31). [Validé par Ether le 29/09/2026.]"
+          },
+          "geometrie_ref": "geom-territoire-cs-zone-sovietique-est-1945-01-01",
+          "sources": [
+            {
+              "source_id": "src-westpoint-russian-balkan-baltic-1944",
+              "locator": "carte 31, « 31 Dec. »",
+              "usage": "front du 31/12/1944"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "territoire-hu-hongrie",
+      "type_entite": "territoire",
+      "nom": "Hongrie (frontières du Trianon)",
+      "nom_court": "Hongrie",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "1944-10-16",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "etat_en_guerre_sous_forte_emprise_allemande",
+          "proprietes": {
+            "souverainete_id": "hongrie",
+            "controle_id": "allemagne",
+            "administration_id": "hongrie",
+            "alignement_id": "axis_associe_ww2",
+            "regime_id": "croix_flechees",
+            "note": "Gouvernement Szálasi (Croix fléchées) installé par l'Allemagne le 16/10/1944 : État associé à l'Axe (axis_associe_ww2 ; axis_ww2 est réservé à l'Allemagne nazie et à ce qu'elle administre directement). Armistice du 20/01/1945 : état futur, non appliqué. [Validé par Ether le 29/09/2026.]"
+          },
+          "geometrie_ref": "geom-territoire-hu-hongrie-1945-01-01",
+          "sources": [
+            {
+              "source_id": "src-frus-1944-v03-d899-hungary",
+              "locator": "à préciser",
+              "usage": ""
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "territoire-hu-zone-sovietique",
+      "type_entite": "territoire",
+      "nom": "Hongrie — zone tenue par les Soviétiques",
+      "nom_court": "Hongrie (zone soviétique)",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "1944-12-22",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "zone_sous_controle_militaire_sovietique",
+          "proprietes": {
+            "parent_id": "territoire-hu-hongrie",
+            "souverainete_id": "hongrie",
+            "controle_id": "urss",
+            "administration_id": "gouvernement_provisoire_hongrois",
+            "note": "à l'est du front du 31/12/1944, hors Budapest encerclée. Gouvernement provisoire formé à Debrecen le 22/12/1944 (en guerre contre l'Allemagne le 28/12) : administration_id à confirmer par une source. [Validé par Ether le 29/09/2026.] Assemblée nationale provisoire réunie à Debrecen le 21/12/1944, gouvernement provisoire établi le 22/12/1944 (FRUS, d'après Ether)."
+          },
+          "geometrie_ref": "geom-territoire-hu-zone-sovietique-1945-01-01",
+          "sources": [
+            {
+              "source_id": "src-westpoint-russian-balkan-baltic-1944",
+              "locator": "carte 31, « 31 Dec. »",
+              "usage": "front du 31/12/1944"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "territoire-hu-budapest-encerclee",
+      "type_entite": "territoire",
+      "nom": "Budapest encerclée",
+      "nom_court": "Budapest (encerclée)",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "1944-12-26",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_assiegee",
+          "proprietes": {
+            "parent_id": "territoire-hu-hongrie",
+            "souverainete_id": "hongrie",
+            "controle_id": "allemagne",
+            "note": "PROPOSITION de Claude : garnison germano-hongroise encerclée depuis le 26/12/1944 (anneau de la carte West Point 31, stylisé). Siège jusqu'au 13/02/1945 : états futurs."
+          },
+          "geometrie_ref": "geom-territoire-hu-budapest-encerclee-1945-01-01",
+          "sources": [
+            {
+              "source_id": "src-westpoint-russian-balkan-baltic-1944",
+              "locator": "carte 31, anneau de Budapest",
+              "usage": "encerclement au 31/12/1944"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "territoire-ro-roumanie",
+      "type_entite": "territoire",
+      "nom": "Roumanie (frontières de septembre 1940)",
+      "nom_court": "Roumanie",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "1944-09-12",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "etat_cobelligerant_sous_armistice",
+          "proprietes": {
+            "souverainete_id": "roumanie",
+            "controle_id": "urss",
+            "administration_id": "roumanie",
+            "alignement_id": "anti_axis_non_allied",
+            "note": "Armistice du 12/09/1944 : en guerre contre l'Allemagne et la Hongrie sous direction générale du commandement soviétique. Même statut que la Bulgarie et l'Italie (anti_axis_non_allied) : retournement de 1944 ≠ adhésion pleine à la coalition alliée ; les différences passent par statut, controle_id, administration_id et notes. [Décision Ether du 29/09/2026.]"
+          },
+          "geometrie_ref": "geom-territoire-ro-roumanie-1945-01-01",
+          "sources": [
+            {
+              "source_id": "src-avalon-rumania-armistice-1944",
+              "locator": "à préciser",
+              "usage": ""
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "territoire-ro-transylvanie-nord",
+      "type_entite": "territoire",
+      "nom": "Transylvanie du Nord",
+      "nom_court": "Transylvanie du Nord",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "1944-11-14",
+            "precision": "mois"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "territoire_dispute_sous_administration_militaire_sovietique",
+          "proprietes": {
+            "souverainete_revendiquee_par": [
+              "roumanie",
+              "hongrie"
+            ],
+            "controle_id": "urss",
+            "administration_id": "urss",
+            "alignement_id": "allies_ww2",
+            "note": "l'armistice (art. 19) annule l'arbitrage de Vienne et prévoit le retour « de la Transylvanie ou de sa plus grande partie » à la Roumanie, sous réserve du traité de paix ; administration militaire soviétique à partir de novembre 1944, retour à l'administration roumaine le 09/03/1945 (état futur). Dates à sourcer. [Validé par Ether le 29/09/2026.]"
+          },
+          "geometrie_ref": "geom-territoire-ro-transylvanie-nord-1945-01-01",
+          "sources": [
+            {
+              "source_id": "src-avalon-rumania-armistice-1944",
+              "locator": "article 19",
+              "usage": "annulation de l’arbitrage de Vienne"
+            },
+            {
+              "source_id": "src-openhistoricalmap",
+              "locator": "relations 2877966 et 2693256",
+              "usage": "tracé"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "territoire-bg-bulgarie",
+      "type_entite": "territoire",
+      "nom": "Bulgarie",
+      "nom_court": "Bulgarie",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "1944-10-28",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "etat_sous_armistice_engage_contre_allemagne",
+          "proprietes": {
+            "souverainete_id": "bulgarie",
+            "controle_id": "urss",
+            "administration_id": "bulgarie",
+            "alignement_id": "anti_axis_non_allied",
+            "note": "Armistice du 28/10/1944 : rupture avec l'Allemagne, évacuation des territoires grecs et yougoslaves, forces sous commandement soviétique."
+          },
+          "geometrie_ref": "geom-territoire-bg-bulgarie-1945-01-01",
+          "sources": [
+            {
+              "source_id": "src-avalon-bulgaria-armistice-1944",
+              "locator": "à préciser",
+              "usage": ""
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "territoire-yu-yougoslavie",
+      "type_entite": "territoire",
+      "nom": "Yougoslavie (frontières d’avant-guerre)",
+      "nom_court": "Yougoslavie",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "1944-10-20",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "etat_allie_partiellement_libere",
+          "proprietes": {
+            "souverainete_id": "yougoslavie",
+            "alignement_id": "allies_ww2",
+            "note": "Enveloppe souveraine (frontières d'avant-guerre). Pas de contrôle uniforme : voir la zone partisane (est, Serbie libérée) et la zone allemande / oustachie (ouest), découpées par le front de la carte West Point 31 au 31/12/1944. [Correction d'Ether du 29/09/2026 : pas de contrôle partisan pour tout le pays.]"
+          },
+          "geometrie_ref": "geom-territoire-yu-yougoslavie-1945-01-01",
+          "sources": [
+            {
+              "source_id": "src-frus-1945-malta-d180-yugoslavia",
+              "locator": "à préciser",
+              "usage": ""
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "territoire-al-albanie",
+      "type_entite": "territoire",
+      "nom": "Albanie",
+      "nom_court": "Albanie",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "1944-11-29",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "etat_libere_sous_gouvernement_hoxha",
+          "proprietes": {
+            "souverainete_id": "albanie",
+            "controle_id": "albanie",
+            "administration_id": "albanie",
+            "alignement_id": "allies_ww2",
+            "regime_id": "gouvernement_democratique_albanie",
+            "note": "Libération de Tirana le 17/11/1944, tout le pays le 29/11. Contrôle effectif ≠ reconnaissance diplomatique complète. Un acteur = un ID : le gouvernement Hoxha va dans regime_id."
+          },
+          "geometrie_ref": "geom-territoire-al-albanie-1945-01-01",
+          "sources": [
+            {
+              "source_id": "src-frus-1944-v03-d210-albania",
+              "locator": "à préciser",
+              "usage": ""
+            },
+            {
+              "source_id": "src-frus-1944-v03-d203-albania",
+              "locator": "à préciser",
+              "usage": ""
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "territoire-gr-grece",
+      "type_entite": "territoire",
+      "nom": "Grèce",
+      "nom_court": "Grèce",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "1944-10-12",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "etat_libere_en_conflit_interne",
+          "proprietes": {
+            "souverainete_id": "grece",
+            "administration_id": "grece",
+            "alignement_id": "allies_ww2",
+            "regime_id": "regence",
+            "note": "Athènes libérée le 12/10/1944 ; régence de l'archevêque Damaskinos le 31/12/1944. Contrôle réel non tranché (Dekemvriana : gouvernement + Britanniques à Athènes, EAM-ELAS dans une grande partie du pays) : controle_id absent → rayures croisées « contrôle non tranché » sur la carte. Garnisons allemandes : Dodécanèse (italien), Milos, Crète occidentale (sans tracé)."
+          },
+          "geometrie_ref": "geom-territoire-gr-grece-1945-01-01",
+          "sources": [
+            {
+              "source_id": "src-frus-1944-v05-d157-greece",
+              "locator": "à préciser",
+              "usage": ""
+            },
+            {
+              "source_id": "src-frus-1945-v08-d51-greece",
+              "locator": "à préciser",
+              "usage": ""
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "territoire-gr-athenes-piree-combats",
+      "type_entite": "territoire",
+      "nom": "Athènes–Le Pirée — zone de combats (Dekemvriana)",
+      "nom_court": "Athènes (combats)",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "1944-12-03",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "zone_de_combat_gouvernement_britanniques_contre_elas",
+          "proprietes": {
+            "parent_id": "territoire-gr-grece",
+            "souverainete_id": "grece",
+            "note": "Contrôle contesté (controle_id absent). Pas de géométrie : aucune carte militaire datée du 01/01/1945 (consigne d'Ether). Trêve le 11/01/1945, accord de Varkiza le 12/02 : états futurs."
+          },
+          "sources": [
+            {
+              "source_id": "src-frus-1944-v05-d157-greece",
+              "locator": "à préciser",
+              "usage": ""
+            },
+            {
+              "source_id": "src-frus-1945-v08-d51-greece",
+              "locator": "à préciser",
+              "usage": ""
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "territoire-tr-turquie",
+      "type_entite": "territoire",
+      "nom": "Turquie",
+      "nom_court": "Turquie",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "1939-10-19",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "etat_neutre_arme_oriente_vers_allies",
+          "proprietes": {
+            "souverainete_id": "turquie",
+            "controle_id": "turquie",
+            "alignement_id": "pro_allied_armed_neutral",
+            "note": "Territoire entier (périmètre permanent). Pas en guerre au 01/01/1945 ; rupture avec le Japon effective le 06/01/1945 et déclaration de guerre du 23/02/1945 : événements futurs. valid_from : traité d'assistance mutuelle anglo-franco-turc (19/10/1939), à confirmer."
+          },
+          "geometrie_ref": "geom-territoire-tr-turquie-1945-01-01",
+          "sources": [
+            {
+              "source_id": "src-frus-1945-berlin-v01-d682-turkey",
+              "locator": "à préciser",
+              "usage": ""
+            },
+            {
+              "source_id": "src-frus-1944-v05-d968-turkey",
+              "locator": "à préciser",
+              "usage": ""
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "territoire-mt-malte",
+      "type_entite": "territoire",
+      "nom": "Malte",
+      "nom_court": "Malte",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "1939-09-03",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "colonie_britannique_forteresse",
+          "proprietes": {
+            "souverainete_id": "royaume_uni",
+            "controle_id": "royaume_uni",
+            "alignement_id": "allies_ww2"
+          },
+          "geometrie_ref": "geom-territoire-mt-malte-1945-01-01",
+          "sources": [
+            {
+              "source_id": "src-malta-qala-history",
+              "locator": "à préciser",
+              "usage": ""
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "territoire-cy-chypre",
+      "type_entite": "territoire",
+      "nom": "Chypre",
+      "nom_court": "Chypre",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "1939-09-03",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "colonie_de_la_couronne_britannique",
+          "proprietes": {
+            "souverainete_id": "royaume_uni",
+            "controle_id": "royaume_uni",
+            "alignement_id": "allies_ww2",
+            "note": "Colonie de la Couronne depuis 1925."
+          },
+          "geometrie_ref": "geom-territoire-cy-chypre-1945-01-01",
+          "sources": [
+            {
+              "source_id": "src-govcy-cyprus-history",
+              "locator": "à préciser",
+              "usage": ""
+            },
+            {
+              "source_id": "src-cyprus-education-1878-1955",
+              "locator": "à préciser",
+              "usage": ""
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ligne_front-it-italie",
+      "type_entite": "ligne_front",
+      "nom": "Front d’Italie — ligne Gothique d’hiver",
+      "nom_court": "Front d’Italie",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "1944-12-31",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ligne_de_contact",
+          "proprietes": {
+            "camp_nord_id": "allemagne",
+            "camp_sud_id": "allies_occidentaux",
+            "note": "Dernière position connue avant le Snapshot : tireté « 31 Dec. » de la carte West Point 51 (carte stylisée, ≈ 10 km). Ce n'est pas une frontière politique."
+          },
+          "geometrie_ref": "geom-ligne_front-it-italie-1945-01-01",
+          "sources": [
+            {
+              "source_id": "src-westpoint-italy-jun-dec1944",
+              "locator": "carte 51, « 31 Dec. »",
+              "usage": "front du 31/12/1944"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "territoire-yu-zone-partisane",
+      "type_entite": "territoire",
+      "nom": "Yougoslavie — zone tenue par les Partisans (et l’Armée rouge)",
+      "nom_court": "Yougoslavie libérée",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "1944-10-20",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "zone_liberee_sous_controle_partisan",
+          "proprietes": {
+            "parent_id": "territoire-yu-yougoslavie",
+            "souverainete_id": "yougoslavie",
+            "controle_id": "partisans_yougoslaves",
+            "administration_id": "partisans_yougoslaves",
+            "note": "À l'est du front du 31/12/1944 (Serbie, Voïvodine, Macédoine, Monténégro). Belgrade libérée le 20/10/1944 avec l'Armée rouge. Au sud du bord de la carte 31, rattachement par défaut (régions libérées en novembre-décembre 1944, à sourcer)."
+          },
+          "geometrie_ref": "geom-territoire-yu-zone-partisane-1945-01-01",
+          "sources": [
+            {
+              "source_id": "src-westpoint-russian-balkan-baltic-1944",
+              "locator": "carte 31, « 31 Dec. »",
+              "usage": "front du 31/12/1944"
+            },
+            {
+              "source_id": "src-frus-1945-malta-d180-yugoslavia",
+              "locator": "à préciser",
+              "usage": ""
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "territoire-yu-zone-allemande",
+      "type_entite": "territoire",
+      "nom": "Yougoslavie — zone tenue par l’Allemagne et l’État indépendant de Croatie",
+      "nom_court": "Yougoslavie (zone allemande)",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "1941-04-17",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "zone_occupee",
+          "proprietes": {
+            "parent_id": "territoire-yu-yougoslavie",
+            "souverainete_id": "yougoslavie",
+            "controle_id": "allemagne",
+            "note": "À l'ouest du front du 31/12/1944 : Croatie et Bosnie (État indépendant de Croatie, oustachi), Slovénie (annexée ou administrée par l'Allemagne). La carte 31 y range tout l'ouest ; la côte dalmate et plusieurs régions étaient déjà partisanes : à affiner avec une carte yougoslave datée. administration_id non rempli (NDH / administration allemande selon les régions)."
+          },
+          "geometrie_ref": "geom-territoire-yu-zone-allemande-1945-01-01",
+          "sources": [
+            {
+              "source_id": "src-westpoint-russian-balkan-baltic-1944",
+              "locator": "carte 31, « 31 Dec. »",
+              "usage": "front du 31/12/1944"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "territoire-cs-slovaquie",
+      "type_entite": "territoire",
+      "nom": "Slovaquie — État slovaque (Tiso) sous occupation allemande",
+      "nom_court": "État slovaque",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "1944-08-29",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "etat_collaborateur_sous_occupation_allemande",
+          "proprietes": {
+            "parent_id": "territoire-cs-tchecoslovaquie",
+            "souverainete_id": "tchecoslovaquie",
+            "controle_id": "allemagne",
+            "administration_id": "republique_slovaque",
+            "note": "Dans la Tchécoslovaquie juridique (lecture alliée). État slovaque de Tiso (1939), occupé par l'Allemagne depuis l'insurrection nationale slovaque (29/08/1944 ; Banská Bystrica reprise le 27/10/1944). Partie encore à l'ouest du front du 31/12/1944. [Demande d'Ether du 29/09/2026.]"
+          },
+          "geometrie_ref": "geom-territoire-cs-slovaquie-1945-01-01",
+          "sources": [
+            {
+              "source_id": "src-openhistoricalmap",
+              "locator": "relation 2747847",
+              "usage": "Slovak Republic 1939-11-21 → 1945-04-04"
+            },
+            {
+              "source_id": "src-westpoint-russian-balkan-baltic-1944",
+              "locator": "carte 31",
+              "usage": "front du 31/12/1944"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "territoire-cs-sud-annexe-hongrie",
+      "type_entite": "territoire",
+      "nom": "Sud de la Slovaquie annexé par la Hongrie (1938)",
+      "nom_court": "Sud slovaque (annexé par la Hongrie)",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "1938-11-02",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "territoire_annexe_non_reconnu",
+          "proprietes": {
+            "parent_id": "territoire-cs-tchecoslovaquie",
+            "souverainete_id": "tchecoslovaquie",
+            "controle_id": "hongrie",
+            "administration_id": "hongrie",
+            "note": "1er arbitrage de Vienne (02/11/1938), tenu pour nul par les Alliés. Partie encore à l'ouest du front du 31/12/1944 ; le reste est dans la zone soviétique. [Demande d'Ether du 29/09/2026.]"
+          },
+          "geometrie_ref": "geom-territoire-cs-sud-annexe-hongrie-1945-01-01",
+          "sources": [
+            {
+              "source_id": "src-openhistoricalmap",
+              "locator": "relations 2747873 et 2695633",
+              "usage": "Hongrie de novembre 1938 − Hongrie du Trianon"
+            },
+            {
+              "source_id": "src-westpoint-russian-balkan-baltic-1944",
+              "locator": "carte 31",
+              "usage": "front du 31/12/1944"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "territoire-it-ozak",
+      "type_entite": "territoire",
+      "nom": "Zone d’opérations du littoral adriatique (Adriatisches Küstenland)",
+      "nom_court": "Littoral adriatique (OZAK)",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "1943-09-10",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "zone_administree_directement_par_allemagne",
+          "proprietes": {
+            "parent_id": "territoire-it-zone-allemande-nord",
+            "souverainete_id": "italie",
+            "controle_id": "allemagne",
+            "administration_id": "allemagne",
+            "note": "Frioul, Gorizia, Trieste, Istrie, Fiume : administration civile allemande directe (Gauleiter Rainer), soustraite à la RSI. Partie slovène (Ljubljana) dans la zone allemande de Yougoslavie. [Demande d'Ether.]"
+          },
+          "geometrie_ref": "geom-territoire-it-ozak-1945-01-01",
+          "sources": [
+            {
+              "source_id": "src-openhistoricalmap",
+              "locator": "relation 2961565",
+              "usage": "Operationszone Adriatisches Küstenland 1943-09-10 → 1945-05"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "territoire-it-ozav",
+      "type_entite": "territoire",
+      "nom": "Zone d’opérations des Préalpes (Alpenvorland)",
+      "nom_court": "Préalpes (OZAV)",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "1943-09-10",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "zone_administree_directement_par_allemagne",
+          "proprietes": {
+            "parent_id": "territoire-it-zone-allemande-nord",
+            "souverainete_id": "italie",
+            "controle_id": "allemagne",
+            "administration_id": "allemagne",
+            "note": "Bolzano, Trente, Belluno : administration civile allemande directe (Gauleiter Hofer), soustraite à la RSI. [Demande d'Ether.]"
+          },
+          "geometrie_ref": "geom-territoire-it-ozav-1945-01-01",
+          "sources": [
+            {
+              "source_id": "src-openhistoricalmap",
+              "locator": "relation 2879989",
+              "usage": "Operationszone Alpenvorland 1943-09-10 → 1945-05"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "territoire-gr-milos",
+      "type_entite": "territoire",
+      "nom": "Milos — garnison allemande",
+      "nom_court": "Milos (garnison allemande)",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "1941-05-09",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ile_occupee",
+          "proprietes": {
+            "parent_id": "territoire-gr-grece",
+            "souverainete_id": "grece",
+            "controle_id": "allemagne",
+            "note": "Occupation allemande du 09/05/1941 au 09/05/1945 : garnison d'environ 500 hommes retranchée jusqu'à la capitulation (Musée de la guerre de Milos). L'île entière est tracée ; limites réelles de la garnison non connues."
+          },
+          "geometrie_ref": "geom-territoire-gr-milos-1945-01-01",
+          "sources": [
+            {
+              "source_id": "src-milos-war-museum",
+              "locator": "page « World War II »",
+              "usage": "occupation du 09/05/1941 au 09/05/1945"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "territoire-gr-crete-garnison-allemande",
+      "type_entite": "territoire",
+      "nom": "Crète occidentale — garnison allemande (« Festung Kreta »)",
+      "nom_court": "Crète (garnison allemande)",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "1944-10-01",
+            "precision": "mois"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "enclave_militaire_allemande",
+          "proprietes": {
+            "parent_id": "territoire-gr-grece",
+            "souverainete_id": "grece",
+            "controle_id": "allemagne",
+            "note": "Après le retrait allemand de Grèce (octobre 1944), les forces allemandes restent en Crète ; l'est de l'île est évacué pendant l'hiver ; reddition le 12/05/1945. PAS DE GÉOMÉTRIE : limites de l'enclave (autour de La Canée) non sourcées."
+          },
+          "sources": [
+            {
+              "source_id": "src-wikipedia-fortress-crete",
+              "locator": "sections « 1944 » et « Surrender »",
+              "usage": "maintien en Crète, reddition du 12/05/1945"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "geometries_a_creer": [
+    {
+      "geometrie_ref": "geom-territoire-es-espagne-1945-01-01",
+      "entite_id": "territoire-es-espagne",
+      "statut": "provisoire_ohm",
+      "fichier": "data/geometries/snapshot0/geom-territoire-es-espagne-1945-01-01.geojson"
+    },
+    {
+      "geometrie_ref": "geom-territoire-pt-portugal-1945-01-01",
+      "entite_id": "territoire-pt-portugal",
+      "statut": "provisoire_ohm",
+      "fichier": "data/geometries/snapshot0/geom-territoire-pt-portugal-1945-01-01.geojson"
+    },
+    {
+      "geometrie_ref": "geom-territoire-ad-andorre-1945-01-01",
+      "entite_id": "territoire-ad-andorre",
+      "statut": "provisoire_ohm",
+      "fichier": "data/geometries/snapshot0/geom-territoire-ad-andorre-1945-01-01.geojson"
+    },
+    {
+      "geometrie_ref": "geom-territoire-gi-gibraltar-1945-01-01",
+      "entite_id": "territoire-gi-gibraltar",
+      "statut": "provisoire_ohm",
+      "fichier": "data/geometries/snapshot0/geom-territoire-gi-gibraltar-1945-01-01.geojson"
+    },
+    {
+      "geometrie_ref": "geom-territoire-ch-suisse-1945-01-01",
+      "entite_id": "territoire-ch-suisse",
+      "statut": "provisoire_ohm",
+      "fichier": "data/geometries/snapshot0/geom-territoire-ch-suisse-1945-01-01.geojson"
+    },
+    {
+      "geometrie_ref": "geom-territoire-mc-monaco-1945-01-01",
+      "entite_id": "territoire-mc-monaco",
+      "statut": "provisoire_ohm",
+      "fichier": "data/geometries/snapshot0/geom-territoire-mc-monaco-1945-01-01.geojson"
+    },
+    {
+      "geometrie_ref": "geom-territoire-va-vatican-1945-01-01",
+      "entite_id": "territoire-va-vatican",
+      "statut": "provisoire_ohm",
+      "fichier": "data/geometries/snapshot0/geom-territoire-va-vatican-1945-01-01.geojson"
+    },
+    {
+      "geometrie_ref": "geom-territoire-it-italie-1945-01-01",
+      "entite_id": "territoire-it-italie",
+      "statut": "provisoire_ohm",
+      "fichier": "data/geometries/snapshot0/geom-territoire-it-italie-1945-01-01.geojson"
+    },
+    {
+      "geometrie_ref": "geom-territoire-it-zone-allemande-nord-1945-01-01",
+      "entite_id": "territoire-it-zone-allemande-nord",
+      "statut": "provisoire_carte_georeferencee",
+      "fichier": "data/geometries/snapshot0/geom-territoire-it-zone-allemande-nord-1945-01-01.geojson"
+    },
+    {
+      "geometrie_ref": "geom-territoire-it-zone-alliee-sud-1945-01-01",
+      "entite_id": "territoire-it-zone-alliee-sud",
+      "statut": "provisoire_carte_georeferencee",
+      "fichier": "data/geometries/snapshot0/geom-territoire-it-zone-alliee-sud-1945-01-01.geojson"
+    },
+    {
+      "geometrie_ref": "geom-territoire-it-dodecanese-1945-01-01",
+      "entite_id": "territoire-it-dodecanese",
+      "statut": "provisoire_ohm",
+      "fichier": "data/geometries/snapshot0/geom-territoire-it-dodecanese-1945-01-01.geojson"
+    },
+    {
+      "geometrie_ref": "geom-territoire-cs-tchecoslovaquie-1945-01-01",
+      "entite_id": "territoire-cs-tchecoslovaquie",
+      "statut": "provisoire_ohm",
+      "fichier": "data/geometries/snapshot0/geom-territoire-cs-tchecoslovaquie-1945-01-01.geojson"
+    },
+    {
+      "geometrie_ref": "geom-territoire-cs-ruthenie-subcarpatique-1945-01-01",
+      "entite_id": "territoire-cs-ruthenie-subcarpatique",
+      "statut": "provisoire_ohm",
+      "fichier": "data/geometries/snapshot0/geom-territoire-cs-ruthenie-subcarpatique-1945-01-01.geojson"
+    },
+    {
+      "geometrie_ref": "geom-territoire-cs-zaolzie-1945-01-01",
+      "entite_id": "territoire-cs-zaolzie",
+      "statut": "provisoire_ohm",
+      "fichier": "data/geometries/snapshot0/geom-territoire-cs-zaolzie-1945-01-01.geojson"
+    },
+    {
+      "geometrie_ref": "geom-territoire-cs-zone-sovietique-est-1945-01-01",
+      "entite_id": "territoire-cs-zone-sovietique-est",
+      "statut": "provisoire_carte_georeferencee",
+      "fichier": "data/geometries/snapshot0/geom-territoire-cs-zone-sovietique-est-1945-01-01.geojson"
+    },
+    {
+      "geometrie_ref": "geom-territoire-hu-hongrie-1945-01-01",
+      "entite_id": "territoire-hu-hongrie",
+      "statut": "provisoire_ohm",
+      "fichier": "data/geometries/snapshot0/geom-territoire-hu-hongrie-1945-01-01.geojson"
+    },
+    {
+      "geometrie_ref": "geom-territoire-hu-zone-sovietique-1945-01-01",
+      "entite_id": "territoire-hu-zone-sovietique",
+      "statut": "provisoire_carte_georeferencee",
+      "fichier": "data/geometries/snapshot0/geom-territoire-hu-zone-sovietique-1945-01-01.geojson"
+    },
+    {
+      "geometrie_ref": "geom-territoire-hu-budapest-encerclee-1945-01-01",
+      "entite_id": "territoire-hu-budapest-encerclee",
+      "statut": "provisoire_carte_georeferencee",
+      "fichier": "data/geometries/snapshot0/geom-territoire-hu-budapest-encerclee-1945-01-01.geojson"
+    },
+    {
+      "geometrie_ref": "geom-territoire-ro-roumanie-1945-01-01",
+      "entite_id": "territoire-ro-roumanie",
+      "statut": "provisoire_ohm",
+      "fichier": "data/geometries/snapshot0/geom-territoire-ro-roumanie-1945-01-01.geojson"
+    },
+    {
+      "geometrie_ref": "geom-territoire-ro-transylvanie-nord-1945-01-01",
+      "entite_id": "territoire-ro-transylvanie-nord",
+      "statut": "provisoire_ohm",
+      "fichier": "data/geometries/snapshot0/geom-territoire-ro-transylvanie-nord-1945-01-01.geojson"
+    },
+    {
+      "geometrie_ref": "geom-territoire-bg-bulgarie-1945-01-01",
+      "entite_id": "territoire-bg-bulgarie",
+      "statut": "provisoire_ohm",
+      "fichier": "data/geometries/snapshot0/geom-territoire-bg-bulgarie-1945-01-01.geojson"
+    },
+    {
+      "geometrie_ref": "geom-territoire-yu-yougoslavie-1945-01-01",
+      "entite_id": "territoire-yu-yougoslavie",
+      "statut": "provisoire_ohm",
+      "fichier": "data/geometries/snapshot0/geom-territoire-yu-yougoslavie-1945-01-01.geojson"
+    },
+    {
+      "geometrie_ref": "geom-territoire-al-albanie-1945-01-01",
+      "entite_id": "territoire-al-albanie",
+      "statut": "provisoire_ohm",
+      "fichier": "data/geometries/snapshot0/geom-territoire-al-albanie-1945-01-01.geojson"
+    },
+    {
+      "geometrie_ref": "geom-territoire-gr-grece-1945-01-01",
+      "entite_id": "territoire-gr-grece",
+      "statut": "provisoire_ohm",
+      "fichier": "data/geometries/snapshot0/geom-territoire-gr-grece-1945-01-01.geojson"
+    },
+    {
+      "geometrie_ref": "geom-territoire-tr-turquie-1945-01-01",
+      "entite_id": "territoire-tr-turquie",
+      "statut": "provisoire_ohm",
+      "fichier": "data/geometries/snapshot0/geom-territoire-tr-turquie-1945-01-01.geojson"
+    },
+    {
+      "geometrie_ref": "geom-territoire-mt-malte-1945-01-01",
+      "entite_id": "territoire-mt-malte",
+      "statut": "provisoire_ohm",
+      "fichier": "data/geometries/snapshot0/geom-territoire-mt-malte-1945-01-01.geojson"
+    },
+    {
+      "geometrie_ref": "geom-territoire-cy-chypre-1945-01-01",
+      "entite_id": "territoire-cy-chypre",
+      "statut": "provisoire_ohm",
+      "fichier": "data/geometries/snapshot0/geom-territoire-cy-chypre-1945-01-01.geojson"
+    },
+    {
+      "geometrie_ref": "geom-ligne_front-it-italie-1945-01-01",
+      "entite_id": "ligne_front-it-italie",
+      "statut": "provisoire_carte_georeferencee",
+      "fichier": "data/geometries/snapshot0/geom-ligne_front-it-italie-1945-01-01.geojson"
+    },
+    {
+      "geometrie_ref": "geom-territoire-yu-zone-partisane-1945-01-01",
+      "entite_id": "territoire-yu-zone-partisane",
+      "statut": "provisoire_carte_georeferencee",
+      "fichier": "data/geometries/snapshot0/geom-territoire-yu-zone-partisane-1945-01-01.geojson"
+    },
+    {
+      "geometrie_ref": "geom-territoire-yu-zone-allemande-1945-01-01",
+      "entite_id": "territoire-yu-zone-allemande",
+      "statut": "provisoire_carte_georeferencee",
+      "fichier": "data/geometries/snapshot0/geom-territoire-yu-zone-allemande-1945-01-01.geojson"
+    },
+    {
+      "geometrie_ref": "geom-territoire-cs-slovaquie-1945-01-01",
+      "entite_id": "territoire-cs-slovaquie",
+      "statut": "provisoire_ohm",
+      "fichier": "data/geometries/snapshot0/geom-territoire-cs-slovaquie-1945-01-01.geojson"
+    },
+    {
+      "geometrie_ref": "geom-territoire-cs-sud-annexe-hongrie-1945-01-01",
+      "entite_id": "territoire-cs-sud-annexe-hongrie",
+      "statut": "provisoire_ohm",
+      "fichier": "data/geometries/snapshot0/geom-territoire-cs-sud-annexe-hongrie-1945-01-01.geojson"
+    },
+    {
+      "geometrie_ref": "geom-territoire-it-ozak-1945-01-01",
+      "entite_id": "territoire-it-ozak",
+      "statut": "provisoire_ohm",
+      "fichier": "data/geometries/snapshot0/geom-territoire-it-ozak-1945-01-01.geojson"
+    },
+    {
+      "geometrie_ref": "geom-territoire-it-ozav-1945-01-01",
+      "entite_id": "territoire-it-ozav",
+      "statut": "provisoire_ohm",
+      "fichier": "data/geometries/snapshot0/geom-territoire-it-ozav-1945-01-01.geojson"
+    },
+    {
+      "geometrie_ref": "geom-territoire-gr-milos-1945-01-01",
+      "entite_id": "territoire-gr-milos",
+      "statut": "provisoire_ohm",
+      "fichier": "data/geometries/snapshot0/geom-territoire-gr-milos-1945-01-01.geojson"
+    }
+  ],
+  "entites_differees_a_sourcer": [
+    {
+      "nom": "Liechtenstein",
+      "raison": "source historique officielle 1945 à consolider"
+    },
+    {
+      "nom": "Saint-Marin",
+      "raison": "neutralité + combats/occupation de 1944 à sourcer précisément"
+    },
+    {
+      "nom": "Île de Man",
+      "raison": "dépendance de la Couronne à créer avec source dédiée"
+    },
+    {
+      "nom": "Svalbard / Jan Mayen",
+      "raison": "statuts militaires/météo trop particuliers pour un aplat simple"
+    }
+  ]
+}

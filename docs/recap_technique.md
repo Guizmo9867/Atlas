@@ -78,6 +78,7 @@ Trois exemples fictifs inclus dans le fichier : un pont (intact → détruit →
 - **Filtre** = sélection de contenu à l'intérieur des calques affichés.
 - **Mode de lecture** = logique visuelle d'interprétation (souveraineté / contrôle effectif / alignements / infrastructures / flux). Un même objet, une même géométrie, une même date peuvent être lus différemment selon le mode actif — c'est pour ça que `souverainete_id`, `controle_id` et `alignement_id` coexistent sur le même état.
 - **Palette** = association couleur ↔ valeur sémantique, propre à un mode de lecture donné. Vit uniquement dans le frontend/thème, jamais dans les données historiques.
+- **Fond de carte** = l'image de base sous tout le reste (plan, relief, vue naturelle, satellite, vue reconstituée). Ni un calque ni un mode de lecture. *(ajouté le 30/09/2026 par Guizmo et Claude, à faire valider par Ether)*
 
 Principe éditorial : **la politique n'est pas un sujet de l'Atlas, c'est parfois une cause des flux qu'il étudie.** On ne documente un régime que lorsqu'il explique un changement de frontière, un déplacement de population, un corridor commercial modifié, etc.
 
