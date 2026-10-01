@@ -32,16 +32,10 @@ Le **fond de carte** est l'image du dessous, sur laquelle tout le reste est pos�
 - Fiches courtes : un clic, quelques lignes et le lien vers la source.
 - On zoome et on comprend l'essentiel ; on clique pour le détail.
 
-## 4. Atelier technique : que Claude puisse faire les commits (à régler dès qu'on a du temps)
+## 4. Claude fait les commits : RÉGLÉ le 01/10/2026
 
-Demande de Guizmo (01/10/2026) : il n'est pas souvent devant le PC ; Claude devrait pouvoir enregistrer (commit) plus souvent, par petites étapes.
-
-Premier diagnostic de Claude (01/10/2026, lecture seule, rien modifié) :
-- Claude voit bien le dépôt et le lien avec GitHub (le dépôt est lisible).
-- **Il manque l'identité** (nom et e-mail de l'auteur) dans l'environnement de Claude : sans elle, un commit est refusé.
-- **Il manque l'autorisation d'envoyer (push)** : la clé GitHub est rangée dans GitHub Desktop, côté Windows, et Claude n'y a pas accès.
-
-Pistes, de la plus simple à la plus complète :
-1. Claude fait les commits sur le PC, et Guizmo n'a plus qu'à cliquer « Push origin » dans GitHub Desktop quand il passe. Il suffit de régler l'identité.
-2. Claude envoie aussi sur GitHub : il faut un jeton d'accès limité au seul dépôt Atlas, créé par Guizmo, révocable à tout moment.
-À tester d'abord sur un petit commit, en vérifiant que GitHub Desktop le voit bien.
+Guizmo a choisi la piste complète : Claude enregistre (commit) et envoie (push) lui-même, par petites étapes.
+- Clé GitHub « Claude Atlas » : limitée au seul dépôt Atlas, droit « Contents : Read and write », expire au bout de 90 jours (à renouveler vers fin décembre 2026). Guizmo peut l'annuler à tout moment sur GitHub (Settings > Developer settings > Personal access tokens).
+- La clé est rangée dans le dossier caché `.git` du dépôt, que Git n'envoie jamais. La configuration partagée avec GitHub Desktop n'est pas modifiée.
+- Les commits de Claude apparaissent sous le nom « Claude (pour Guizmo) ». Revenir en arrière reste possible à tout moment (historique Git).
+- Avant chaque commit, Claude lance le validateur ; il ne commite jamais un fichier de clé ou un fichier hors du dépôt.
