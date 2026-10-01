@@ -1,0 +1,211 @@
+<title>Sources à valider</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,500;8..60,650&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<style>
+/* Carnet de vérification de l'Atlas : une colonne de fiches, pensée pour le téléphone. Encre et papier, ambre de la règle du temps. */
+:root {
+  --fond: #f3f1ec; --carte: #fffdf8; --encre: #23272e; --encre-2: #5d6470; --trait: #ddd6c8;
+  --ambre: #b9822c; --ambre-doux: #f6ead3; --ok: #2f7a4f; --ok-doux: #e1f0e6; --non: #a6402f; --non-doux: #f6e3df; --mort: #6c6a74; --mort-doux: #e9e8ee;
+  --titre: "Source Serif 4", Georgia, serif; --texte: "IBM Plex Sans", system-ui, sans-serif;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --fond: #15181e; --carte: #1e222a; --encre: #ece7da; --encre-2: #a9a59c; --trait: #343a45;
+  --ambre: #e0a94a; --ambre-doux: #3a2f1d; --ok: #6cc08f; --ok-doux: #1d3127; --non: #e38a78; --non-doux: #3a2420; --mort: #b3b1bb; --mort-doux: #2b2c33; color-scheme: dark; } }
+:root[data-theme="dark"] {
+  --fond: #15181e; --carte: #1e222a; --encre: #ece7da; --encre-2: #a9a59c; --trait: #343a45;
+  --ambre: #e0a94a; --ambre-doux: #3a2f1d; --ok: #6cc08f; --ok-doux: #1d3127; --non: #e38a78; --non-doux: #3a2420; --mort: #b3b1bb; --mort-doux: #2b2c33; color-scheme: dark; }
+body { background: var(--fond); color: var(--encre); font: 15px/1.5 var(--texte); }
+.page { max-width: 720px; margin: 0 auto; padding: 20px 16px 48px; display: grid; gap: 18px; }
+h1 { font: 650 1.7rem/1.15 var(--titre); margin: 0; text-wrap: balance; }
+.intro { color: var(--encre-2); margin: 6px 0 0; max-width: 62ch; }
+.bilan { display: grid; gap: 8px; }
+.bilan-ligne { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; font-variant-numeric: tabular-nums; }
+.bilan-ligne strong { font: 650 1.25rem var(--titre); }
+.jauge { height: 6px; border-radius: 3px; background: var(--trait); overflow: hidden; }
+.jauge span { display: block; height: 100%; width: 0; background: var(--ambre); transition: width .3s; }
+.etat-connexion { font-size: .85rem; color: var(--encre-2); }
+.filtres { display: flex; flex-wrap: wrap; gap: 8px; }
+.filtre { border: 1px solid var(--trait); background: var(--carte); color: var(--encre); border-radius: 999px; padding: 6px 12px; font: 500 .85rem var(--texte); cursor: pointer; font-variant-numeric: tabular-nums; }
+.filtre[aria-pressed="true"] { background: var(--encre); color: var(--fond); border-color: var(--encre); }
+.filtre:focus-visible, button:focus-visible, a:focus-visible, textarea:focus-visible { outline: 2px solid var(--ambre); outline-offset: 2px; }
+.separateur { flex-basis: 100%; height: 0; }
+.filtre-domaine[aria-pressed="true"] { background: var(--ambre); border-color: var(--ambre); color: #1b1712; }
+.cacher { display: flex; align-items: center; gap: 8px; font-size: .9rem; color: var(--encre-2); }
+.liste { display: grid; gap: 12px; }
+.fiche { background: var(--carte); border: 1px solid var(--trait); border-radius: 10px; padding: 14px; display: grid; gap: 10px; min-width: 0; }
+.fiche[data-decision="verifiee"] { border-left: 4px solid var(--ok); }
+.fiche[data-decision="ne_prouve_pas"] { border-left: 4px solid var(--non); }
+.fiche[data-decision="lien_mort"] { border-left: 4px solid var(--mort); }
+.entete { display: grid; gap: 4px; min-width: 0; }
+.groupe { font: 600 .72rem var(--texte); letter-spacing: .08em; text-transform: uppercase; color: var(--ambre); }
+.titre { font: 600 1.08rem/1.3 var(--titre); margin: 0; overflow-wrap: anywhere; }
+.institution { color: var(--encre-2); font-size: .88rem; }
+.villes { display: flex; flex-wrap: wrap; gap: 6px; }
+.ville { background: var(--ambre-doux); border-radius: 4px; padding: 1px 7px; font-size: .8rem; }
+.bloc { display: grid; gap: 2px; min-width: 0; }
+.bloc b { font: 600 .74rem var(--texte); letter-spacing: .06em; text-transform: uppercase; color: var(--encre-2); }
+.bloc p { margin: 0; overflow-wrap: anywhere; }
+.extrait { font-family: var(--titre); font-style: italic; }
+details { font-size: .88rem; color: var(--encre-2); }
+details summary { cursor: pointer; }
+details p { margin: 6px 0 0; overflow-wrap: anywhere; }
+.liens { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.traduire { color: var(--encre); border: 1px solid var(--trait); border-radius: 6px; padding: 7px 12px; font-weight: 600; text-decoration: none; font-size: .9rem; }
+.aide { flex-basis: 100%; font-size: .8rem; color: var(--encre-2); }
+.ouvrir { justify-self: start; display: inline-flex; align-items: center; gap: 6px; color: var(--encre); background: var(--ambre-doux); border: 1px solid var(--ambre); border-radius: 6px; padding: 7px 12px; font-weight: 600; text-decoration: none; font-size: .9rem; }
+.actions { display: grid; gap: 8px; }
+textarea { width: 100%; box-sizing: border-box; min-height: 2.6em; resize: vertical; border: 1px solid var(--trait); border-radius: 6px; background: var(--fond); color: var(--encre); font: .9rem var(--texte); padding: 7px 9px; }
+.boutons { display: flex; flex-wrap: wrap; gap: 8px; }
+.b { border: 1px solid transparent; border-radius: 6px; padding: 8px 12px; font: 600 .88rem var(--texte); cursor: pointer; }
+.b-ok { background: var(--ok-doux); color: var(--ok); border-color: var(--ok); }
+.b-non { background: var(--non-doux); color: var(--non); border-color: var(--non); }
+.b-mort { background: var(--mort-doux); color: var(--mort); border-color: var(--mort); }
+.b-annuler { background: transparent; color: var(--encre-2); border-color: var(--trait); }
+.b:disabled { opacity: .45; cursor: not-allowed; }
+.decision { font-size: .88rem; display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+.pastille { border-radius: 999px; padding: 2px 10px; font-weight: 600; font-size: .8rem; }
+.p-verifiee { background: var(--ok-doux); color: var(--ok); }
+.p-ne_prouve_pas { background: var(--non-doux); color: var(--non); }
+.p-lien_mort { background: var(--mort-doux); color: var(--mort); }
+.vide { text-align: center; color: var(--encre-2); padding: 24px 0; }
+.erreur { color: var(--non); font-size: .85rem; }
+@media (prefers-reduced-motion: reduce) { .jauge span { transition: none; } }
+</style>
+
+<main class="page">
+  <header>
+    <h1>Sources à valider</h1>
+    <p class="intro">Les pages que Claude n'a pas pu lire, ou seulement en partie, pour les frontières et les villes. Pour chacune : ouvre la page, cherche le passage indiqué, puis dis si elle prouve ce qu'on lui fait dire. Ton choix est enregistré et Claude le reportera dans le registre de l'Atlas.</p>
+  </header>
+
+  <section class="bilan" aria-label="Avancement">
+    <div class="bilan-ligne"><span><strong id="nb-faites">0</strong> traitées sur <span id="nb-total">0</span></span><span class="etat-connexion" id="etat">Connexion…</span></div>
+    <div class="jauge"><span id="jauge"></span></div>
+  </section>
+
+  <nav class="filtres" id="filtres" aria-label="Filtrer"></nav>
+  <label class="cacher"><input type="checkbox" id="masquer"> Masquer celles déjà traitées</label>
+
+  <section class="liste" id="liste" aria-live="polite"></section>
+</main>
+
+<script type="application/json" id="donnees">__DONNEES__</script>
+<script>
+const DONNEES = JSON.parse(document.getElementById('donnees').textContent).sources
+const GROUPES = { a_lire: 'Claude n’a pas pu lire', partielle: 'Lecture partielle', lien_mort: 'Lien mort', remplacee: 'Remplacée (facultatif)' }
+const DECISIONS = { verifiee: 'Ça prouve', ne_prouve_pas: 'Ne prouve pas', lien_mort: 'Lien mort' }
+let validations = {}   // id source -> {decision, commentaire, par, le}
+let noms = {}          // id personne -> nom affiché
+let domaine = 'tout', filtre = 'tout', masquer = false, db = null, user = null, moi = null, peutEcrire = false
+
+const $ = (id) => document.getElementById(id)
+const el = (tag, cls, txt) => { const e = document.createElement(tag); if (cls) e.className = cls; if (txt != null) e.textContent = txt; return e }
+const dateCourte = (iso) => { try { return new Date(iso).toLocaleDateString('fr-FR', { day: 'numeric', month: 'short', year: 'numeric' }) } catch { return '' } }
+
+function filtres() {
+  const box = $('filtres'); box.textContent = ''
+  const DOM = { tout: 'Tout', frontieres: 'Fronti\u00e8res', villes: 'Villes' }
+  for (const d of ['tout', 'frontieres', 'villes']) {
+    const n = DONNEES.filter((s) => d === 'tout' || s.domaine === d).length
+    const b = el('button', 'filtre filtre-domaine', `${DOM[d]} (${n})`)
+    b.type = 'button'; b.setAttribute('aria-pressed', String(domaine === d))
+    b.onclick = () => { domaine = d; rendre() }
+    box.append(b)
+  }
+  box.append(el('span', 'separateur'))
+  const cpt = (g) => DONNEES.filter((s) => (domaine === 'tout' || s.domaine === domaine) && (g === 'tout' || s.groupe === g)).length
+  for (const g of ['tout', 'a_lire', 'partielle', 'lien_mort', 'remplacee']) {
+    const n = cpt(g); if (!n) continue
+    const b = el('button', 'filtre', `${g === 'tout' ? 'Toutes' : GROUPES[g]} (${n})`)
+    b.type = 'button'; b.setAttribute('aria-pressed', String(filtre === g))
+    b.onclick = () => { filtre = g; rendre() }
+    box.append(b)
+  }
+}
+
+function fiche(s) {
+  const v = validations[s.id]
+  const f = el('article', 'fiche'); f.dataset.decision = v?.decision || ''
+  const t = el('div', 'entete')
+  t.append(el('span', 'groupe', (s.domaine === 'villes' ? 'Villes \u00b7 ' : 'Fronti\u00e8res \u00b7 ') + GROUPES[s.groupe]), el('h2', 'titre', s.titre || s.id), el('span', 'institution', `${s.institution || ''}${s.niveau ? ' · niveau ' + s.niveau : ''}`))
+  f.append(t)
+  if (s.villes.length) { const vs = el('div', 'villes'); s.villes.forEach((n) => vs.append(el('span', 'ville', n))); f.append(vs) }
+  if (s.url) {
+    const liens = el('div', 'liens')
+    const a = el('a', 'ouvrir', 'Ouvrir la page ↗'); a.href = s.url; a.target = '_blank'; a.rel = 'noopener'
+    const pdf = /\.pdf($|[?#])/i.test(s.url) || /\/pdf\//i.test(s.url)
+    const tr = el('a', 'traduire', pdf ? 'Traduire le PDF ↗' : 'Lire en français ↗')
+    tr.href = pdf ? 'https://translate.google.com/?sl=auto&tl=fr&op=docs' : 'https://translate.google.com/translate?sl=auto&tl=fr&u=' + encodeURIComponent(s.url)
+    tr.target = '_blank'; tr.rel = 'noopener'
+    liens.append(a, tr)
+    if (pdf) liens.append(el('span', 'aide', 'PDF : télécharge-le avec « Ouvrir la page », puis dépose-le dans Google Traduction (onglet Documents).'))
+    f.append(liens)
+  }
+  if (s.ou_regarder) { const b = el('div', 'bloc'); b.append(el('b', null, 'Où regarder'), el('p', null, s.ou_regarder)); f.append(b) }
+  if (s.extrait) { const b = el('div', 'bloc'); b.append(el('b', null, 'Ce que Claude a pu lire'), el('p', 'extrait', s.extrait)); f.append(b) }
+  if (s.remplacee_par.length) { const b = el('div', 'bloc'); b.append(el('b', null, 'Déjà remplacée par'), el('p', null, s.remplacee_par.join(', '))); f.append(b) }
+  if (s.notes) { const d = el('details'); d.append(el('summary', null, 'Ce qu’on attend de cette source (notes)'), el('p', null, s.notes)); f.append(d) }
+
+  const act = el('div', 'actions')
+  if (v) {
+    const d = el('div', 'decision')
+    d.append(el('span', 'pastille p-' + v.decision, DECISIONS[v.decision] || v.decision))
+    d.append(el('span', null, `${noms[v.par] ? 'par ' + noms[v.par] + ', ' : ''}${dateCourte(v.le)}`))
+    if (v.commentaire) d.append(el('span', null, '« ' + v.commentaire + ' »'))
+    act.append(d)
+  }
+  const ta = el('textarea'); ta.id = 'com-' + s.id; ta.placeholder = 'Un mot si besoin (facultatif) : ce que tu as trouvé, ce qui manque…'; ta.value = v?.commentaire || ''
+  const bs = el('div', 'boutons')
+  const btn = (cls, txt, decision) => { const b = el('button', 'b ' + cls, txt); b.type = 'button'; b.disabled = !db || !peutEcrire; b.onclick = () => decider(s.id, decision, ta.value.trim(), b); return b }
+  bs.append(btn('b-ok', '✓ Ça prouve', 'verifiee'), btn('b-non', '✗ Ne prouve pas', 'ne_prouve_pas'), btn('b-mort', 'Lien mort', 'lien_mort'))
+  if (v) { const b = el('button', 'b b-annuler', 'Annuler'); b.type = 'button'; b.disabled = !db || !peutEcrire; b.onclick = () => annuler(s.id, b); bs.append(b) }
+  const err = el('p', 'erreur'); err.id = 'err-' + s.id; err.hidden = true
+  act.append(ta, bs, err)
+  f.append(act)
+  return f
+}
+
+function rendre() {
+  filtres()
+  const faites = DONNEES.filter((s) => validations[s.id]).length
+  $('nb-faites').textContent = faites; $('nb-total').textContent = DONNEES.length
+  $('jauge').style.width = (100 * faites / DONNEES.length) + '%'
+  const liste = $('liste'); liste.textContent = ''
+  const vues = DONNEES.filter((s) => (domaine === 'tout' || s.domaine === domaine) && (filtre === 'tout' || s.groupe === filtre) && !(masquer && validations[s.id]))
+  if (!vues.length) liste.append(el('p', 'vide', masquer ? 'Tout est traité dans cette catégorie.' : 'Aucune source ici.'))
+  vues.forEach((s) => liste.append(fiche(s)))
+}
+
+async function decider(id, decision, commentaire, bouton) {
+  const err = $('err-' + id); err.hidden = true; bouton.disabled = true
+  try {
+    await db.collection('validations').doc(id).set({ decision, commentaire, par: moi || '', le: new Date().toISOString() })
+  } catch (e) {
+    err.textContent = e?.code === 'permission_denied' ? 'Tu n’as pas le droit d’enregistrer ici (demande un accès « contributeur »).' : 'Pas enregistré : réessaie dans un instant.'
+    err.hidden = false; bouton.disabled = false
+  }
+}
+async function annuler(id, bouton) {
+  bouton.disabled = true
+  try { await db.collection('validations').doc(id).delete() } catch { bouton.disabled = false }
+}
+
+$('masquer').onchange = (e) => { masquer = e.target.checked; rendre() }
+rendre()
+
+;(async () => {
+  db = await window.claude?.use?.('db') ?? null
+  user = await window.claude?.use?.('user') ?? null
+  if (!db) { $('etat').textContent = 'Lecture seule : connecte-toi à claude.ai pour enregistrer.'; rendre(); return }
+  try { moi = user ? (await user.me()).id : null } catch { moi = null }
+  try { peutEcrire = user ? (await user.can('data.write')) !== false : true } catch { peutEcrire = true }
+  $('etat').textContent = peutEcrire ? 'Enregistrement actif' : 'Lecture seule'
+  db.collection('validations').onSnapshot(async (snap) => {
+    const v = {}; snap.docs.forEach((d) => { v[d.id] = d.data() }); validations = v
+    const ids = [...new Set(Object.values(v).map((x) => x.par).filter(Boolean))]
+    if (user && ids.length) { try { const ps = await user.profiles(ids); ids.forEach((i) => { noms[i] = ps[i]?.name || '' }) } catch {} }
+    rendre()
+  }, () => { $('etat').textContent = 'Connexion perdue : recharge la page.' })
+})()
+</script>
