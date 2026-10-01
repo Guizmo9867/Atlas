@@ -1,0 +1,289 @@
+{
+  "metadata": {
+    "lot": "villes_1.4",
+    "type": "consignes_de_fusion_ciblees_non_patch_executable",
+    "date": "2026-10-01",
+    "villes_dans_lot": 61
+  },
+  "regle_noms": {
+    "regle": "Exonyme français traditionnel si usage pour la ville et la période documenté; sinon forme locale attestée à la date. Les formes actuelles et historiques restent des alias. Une occupation, une langue d’administration ou une couleur de carte ne suffit pas à déduire un nom.",
+    "date": "Inscrire le libellé dans l’état temporel lu par le rendu. Ne pas inventer les intervalles de renommage.",
+    "ids": "Conserver les IDs existants et les relations territoriales.",
+    "contexte_1_3": "Même règle que Cassovie/Kassa et Aussig; preuve individuelle par ville."
+  },
+  "nomenclature": [
+    {
+      "entity_id": "ville-pl-poznan",
+      "nom_affiche_snapshot0": "Posen",
+      "nom_local_snapshot0": "Poznań",
+      "alias_a_conserver": [
+        "Poznań",
+        "Posen"
+      ],
+      "sources": [
+        "src-14-pl-posen-plan-1944"
+      ],
+      "justification": "Plans d’archives portant les intitulés Gauhauptstadt Posen, notamment des plans de transport de 1944.",
+      "operation": "fusionner dans le champ temporel lu par le rendu S0; garder l'ID et les champs canoniques"
+    },
+    {
+      "entity_id": "ville-pl-bydgoszcz",
+      "nom_affiche_snapshot0": "Bromberg",
+      "nom_local_snapshot0": "Bydgoszcz",
+      "alias_a_conserver": [
+        "Bydgoszcz",
+        "Bromberg"
+      ],
+      "sources": [
+        "src-14-pl-bromberg-museum"
+      ],
+      "justification": "Le musée documente le projet allemand de nouvelle Bromberg en 1939; preuve d’usage, pas décret de renommage.",
+      "operation": "fusionner dans le champ temporel lu par le rendu S0; garder l'ID et les champs canoniques"
+    },
+    {
+      "entity_id": "ville-pl-torun",
+      "nom_affiche_snapshot0": "Thorn",
+      "nom_local_snapshot0": "Toruń",
+      "alias_a_conserver": [
+        "Toruń",
+        "Thorn"
+      ],
+      "sources": [
+        "src-14-pl-thorn-museum"
+      ],
+      "justification": "Le musée cite le slogan de propagande de 1943 nommant la ville Thorn.",
+      "operation": "fusionner dans le champ temporel lu par le rendu S0; garder l'ID et les champs canoniques"
+    },
+    {
+      "entity_id": "ville-pl-katowice",
+      "nom_affiche_snapshot0": "Kattowitz",
+      "nom_local_snapshot0": "Katowice",
+      "alias_a_conserver": [
+        "Katowice",
+        "Kattowitz"
+      ],
+      "sources": [
+        "src-14-pl-kattowitz-archive"
+      ],
+      "justification": "L’inventaire municipal mentionne Stadtkreis et Stadtverwaltung Kattowitz, 1939–45.",
+      "operation": "fusionner dans le champ temporel lu par le rendu S0; garder l'ID et les champs canoniques"
+    },
+    {
+      "entity_id": "ville-pl-zabrze",
+      "nom_affiche_snapshot0": "Hindenburg",
+      "nom_local_snapshot0": "Zabrze",
+      "alias_a_conserver": [
+        "Zabrze",
+        "Hindenburg"
+      ],
+      "sources": [
+        "src-14-pl-hindenburg-auschwitz"
+      ],
+      "justification": "Le Musée d’État Auschwitz-Birkenau donne explicitement Zabrze (allemand: Hindenburg) en 1944.",
+      "operation": "fusionner dans le champ temporel lu par le rendu S0; garder l'ID et les champs canoniques"
+    },
+    {
+      "entity_id": "ville-pl-chorzow",
+      "nom_affiche_snapshot0": "Königshütte",
+      "nom_local_snapshot0": "Chorzów",
+      "alias_a_conserver": [
+        "Chorzów",
+        "Königshütte"
+      ],
+      "sources": [
+        "src-14-pl-konigshutte-archive"
+      ],
+      "justification": "L’archive décrit le district Königshütte sur le territoire de Chorzów, 1939–45.",
+      "operation": "fusionner dans le champ temporel lu par le rendu S0; garder l'ID et les champs canoniques"
+    },
+    {
+      "entity_id": "ville-pl-swinoujscie",
+      "nom_affiche_snapshot0": "Swinemünde",
+      "nom_local_snapshot0": "Świnoujście",
+      "alias_a_conserver": [
+        "Świnoujście",
+        "Swinemünde"
+      ],
+      "sources": [
+        "src-14-pl-swinemunde-city"
+      ],
+      "justification": "Le portail municipal emploie Swinemünde pour la ville en 1944.",
+      "operation": "fusionner dans le champ temporel lu par le rendu S0; garder l'ID et les champs canoniques"
+    },
+    {
+      "entity_id": "ville-pl-tarnowskie-gory",
+      "nom_affiche_snapshot0": "Tarnowitz",
+      "nom_local_snapshot0": "Tarnowskie Góry",
+      "alias_a_conserver": [
+        "Tarnowskie Góry",
+        "Tarnowitz"
+      ],
+      "sources": [
+        "src-14-pl-tarnowitz-archive"
+      ],
+      "justification": "Le catalogue d’archives comprend des adresses de Tarnowitz en 1944; rang ferroviaire non renforcé.",
+      "operation": "fusionner dans le champ temporel lu par le rendu S0; garder l'ID et les champs canoniques"
+    },
+    {
+      "entity_id": "ville-pl-kedzierzyn",
+      "nom_affiche_snapshot0": "Heydebreck",
+      "nom_local_snapshot0": "Kędzierzyn",
+      "alias_a_conserver": [
+        "Kędzierzyn",
+        "Heydebreck",
+        "Kandrzin"
+      ],
+      "sources": [
+        "src-14-pl-heydebreck-archive"
+      ],
+      "justification": "Les archives foncières distinguent Heydebreck et Kandrzin en 1944.",
+      "operation": "fusionner dans le champ temporel lu par le rendu S0; garder l'ID et les champs canoniques"
+    },
+    {
+      "entity_id": "ville-pl-kozle",
+      "nom_affiche_snapshot0": "Cosel — port",
+      "nom_local_snapshot0": "Koźle",
+      "alias_a_conserver": [
+        "Koźle",
+        "Cosel"
+      ],
+      "sources": [
+        "src-14-pl-cosel-archive",
+        "src-14-pl-kedzierzyn-kozle"
+      ],
+      "justification": "Le nom Cosel apparaît en archive; le port séparé date de 1891–1908. Garder le point sur les bassins.",
+      "operation": "fusionner dans le champ temporel lu par le rendu S0; garder l'ID et les champs canoniques"
+    },
+    {
+      "entity_id": "ville-pl-elblag",
+      "nom_affiche_snapshot0": "Elbing",
+      "nom_local_snapshot0": "Elbląg",
+      "alias_a_conserver": [
+        "Elbląg",
+        "Elbing"
+      ],
+      "sources": [
+        "src-14-pl-elbing-map-1944"
+      ],
+      "justification": "Proposé d’après un index de carte ELBING datée 1944; l’original n’a pas été ouvert, preuve partielle.",
+      "operation": "fusionner dans le champ temporel lu par le rendu S0; garder l'ID et les champs canoniques"
+    },
+    {
+      "entity_id": "ville-pl-tczew",
+      "nom_affiche_snapshot0": "Tczew",
+      "alias_a_conserver": [
+        "Dirschau"
+      ],
+      "sources": [
+        "src-14-pl-dirschau-archive"
+      ],
+      "justification": "Le fonds atteste Dirschau pour le district administratif; nom urbain non prouvé par ce seul fonds.",
+      "operation": "ne pas renommer au S0"
+    },
+    {
+      "entity_id": "ville-pl-walbrzych",
+      "nom_affiche_snapshot0": "Wałbrzych",
+      "alias_a_conserver": [
+        "Waldenburg"
+      ],
+      "sources": [
+        "src-14-pl-waldenburg-grossrosen"
+      ],
+      "justification": "Le musée date un site Waldenburg/Gaj en 1944, sans établir le nom urbain légal.",
+      "operation": "ne pas renommer au S0"
+    }
+  ],
+  "capitales": {
+    "decision": "Confirmer l’intégration de Claude: Varsovie nationale; Cracovie, Tallinn, Riga et Vilnius régionales; ni Kaunas ni Lublin capitale.",
+    "entity_id": "ville-pl-warszawa",
+    "classe": "nationale",
+    "note": "Capitale nationale par continuité de l’État polonais. Cela ne veut pas dire qu’un gouvernement siège à Varsovie au snapshot. Gouvernement polonais en exil à Londres; siège du PKWN à Lublin dès le 27 juillet 1944; transformation en gouvernement provisoire le 31 décembre, et non première installation à Lublin.",
+    "sources": [
+      "src-14-pl-london-government",
+      "src-14-pl-lublin-administration"
+    ],
+    "lublin": "Garder le rôle administration, pas capitale."
+  },
+  "corrections_factuelles": [
+    {
+      "source_id": "src-14-lt-rail-ministere",
+      "changement": "Corriger le locator: la page donne 1861 comme première ligne; elle ne prouve pas 1862 pour Vilnius."
+    },
+    {
+      "source_id": "src-14-lt-rail-vle",
+      "changement": "Kaunas–Kybartai 1861; ligne traversante achevée via Vilnius 1862."
+    },
+    {
+      "entity_id": "ville-ee-tapa",
+      "changement": "Garder les deux attestations EVR 1877 trafic régulier et Tapa Museum 1876; le rôle antérieur à 1945 est sûr, l’année d’ouverture reste divergente."
+    },
+    {
+      "entity_id": "ville-pl-gdansk",
+      "changement": "1889 achat du terrain près d’une ligne; chantier 1890–92; première activité navale 1891; ouverture formelle 1892. Ne pas qualifier 1889 de date de raccordement achevé."
+    },
+    {
+      "entity_id": "ville-pl-czestochowa",
+      "changement": "Chemin de fer 1846; synthèse industrielle 1793–1918; Raków était périphérique. N’affirmer ni volume de 1944 ni bornage moderne."
+    },
+    {
+      "entity_id": "ville-ee-kohtla-jarve",
+      "changement": "Retenir le noyau historique Järve; ville 1946, communes/districts ajoutés après-guerre. Nouveau complexe daté de 1945 reste hors état du 31 décembre 1944."
+    },
+    {
+      "entity_id": "ville-pl-stalowa-wola",
+      "changement": "Usine et cité documentées au 14 juin 1939; ne pas étendre aux limites actuelles."
+    }
+  ],
+  "renforts_locaux": [
+    {
+      "entity_id": "ville-ee-tapa",
+      "source": "src-14-ee-tapa-local",
+      "decision": "Jonction historique attestée; date divergente."
+    },
+    {
+      "entity_id": "ville-ee-valga",
+      "source": "src-14-ee-valga-local",
+      "decision": "Nœud de lignes 1887–89; voie étroite vers Pärnu endommagée en 1944."
+    },
+    {
+      "entity_id": "ville-lv-krustpils",
+      "source": "src-14-lv-krustpils-local",
+      "decision": "Gare et installations depuis 1861; garder séparé de Jēkabpils et ne pas rétablir la jonction fermée en 1944."
+    },
+    {
+      "entity_id": "ville-lt-radviliskis",
+      "source": "src-14-lt-radviliskis-local",
+      "decision": "Gare en 1871 et rôle de nœud; aucune mesure du trafic 1944."
+    }
+  ],
+  "reserves": [
+    "Port de Gdańsk: article global bloqué; Gedania prouve seulement un ferry ferroviaire spécifique.",
+    "Liepāja: page municipale en anglais reste partielle; pas de capitalité 1919 projetée en 1944.",
+    "Garder les 33 mentions À renforcer, elles ne sont pas levées globalement par quatre preuves locales.",
+    "Tczew/Dirschau: nom urbain pas prouvé; Wałbrzych/Waldenburg: preuve locale mais statut urbain incomplet; Elbing: index cartographique 1944 lu, scan inaccessible."
+  ],
+  "geometrie": [
+    {
+      "entity_id": "ville-pl-kozle",
+      "instruction": "Placer le point sur les bassins portuaires historiques, pas au centre moderne par défaut."
+    },
+    {
+      "entity_id": "ville-pl-kedzierzyn",
+      "instruction": "Ne pas fusionner avec le port de Koźle ni attribuer tout site industriel municipal au seul point Kędzierzyn."
+    },
+    {
+      "entity_id": "ville-ee-kohtla-jarve",
+      "instruction": "Cibler le noyau Järve et les sites pré-1945; exclure les quartiers ajoutés après-guerre."
+    },
+    {
+      "entity_id": "ville-lv-krustpils",
+      "instruction": "Conserver le point distinct de Jēkabpils en 1944."
+    }
+  ],
+  "instructions": [
+    "Fusionner sources par source_id.",
+    "Placer les noms dans les champs temporels lus par le rendu; conserver les alias.",
+    "Ne pas changer ID, rang, rôle ou coordonnées hors corrections citées.",
+    "Delta documentaire destiné à Claude; aucun dépôt modifié."
+  ]
+}

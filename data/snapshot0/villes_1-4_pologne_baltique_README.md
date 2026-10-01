@@ -9,3 +9,9 @@ Fichier : `villes_1-4_pologne_baltique.json` (v0.1, 61 villes : 32 Pologne, 9 Es
 - Hors périmètre (lot suivant) : Königsberg, Pillau, Tilsit, Insterburg ; Brest, Grodno, Lviv. 14 candidats différés (Bielsko/Biała, Bytom, Opole, Olsztyn, Malbork, Police/Pölitz…).
 
 Script rejouable : `outils/villes/construire_villes_1_4.py`. Questions : `docs/pour_ether/2026-10-01_villes_1-4.md`.
+
+## v0.2 (01/10/2026) — réponse d'Ether
+
+- **Noms à la date dans l'état** (`proprietes.nom`, lu en premier par la carte) et nom actuel sur la fiche, comme au lot 1.3 : Litzmannstadt, Breslau, Stettin, Dantzig, Gotenhafen, Gleiwitz, Memel, et sur preuve individuelle Posen, Bromberg, Thorn, Kattowitz, Hindenburg, Königshütte, Swinemünde, Tarnowitz, Heydebreck, Cosel, Elbing. Tczew et Wałbrzych ne sont pas renommées.
+- Note de Varsovie (aucun gouvernement sur place) ; preuves locales de rail pour Tapa, Valga, Krustpils, Radviliškis ; Koźle placé sur la gare du port (bassins).
+- Registre v1.14. Réponse d'Ether : `villes_1-4_reponses_ether_2026-10-01.md` ; corrections et sources : `data/sources/deltas_ether/2026-10-01_villes_1-4_reponses_*.json` ; compte rendu : `docs/pour_ether/2026-10-01_villes_1-4_reponses.md`.

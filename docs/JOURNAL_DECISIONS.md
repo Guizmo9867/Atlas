@@ -2,13 +2,23 @@
 
 Une ligne par décision, datée. Plus récente en haut. Ce journal remplace les versions éparpillées dans les conversations : si ce n'est pas ici, ce n'est pas décidé.
 
+## 2026-10-01 (suite : réponse d'Ether au lot villes 1.4)
+
+- **Règle des noms confirmée par Ether et appliquée à tout le lot 1.4** : la fiche porte le nom actuel (Łódź, Wrocław, Gdańsk…), l'état du Snapshot 0 porte le nom de 1945 (Litzmannstadt, Breslau, Dantzig…). Même forme qu'au lot 1.3 : les deux lots sont harmonisés. *(Ether, fait par Claude)*
+- **11 villes renommées sur preuve individuelle** : Posen, Bromberg, Thorn, Kattowitz, Hindenburg, Königshütte, Swinemünde, Tarnowitz, Heydebreck, Cosel, Elbing. **Tczew et Wałbrzych gardent leur nom** : Dirschau et Waldenburg sont attestés, mais pas comme nom officiel de la ville. *(Ether)*
+- **Varsovie** : capitale nationale par continuité, avec une note qui précise qu'aucun gouvernement n'y siège (exil à Londres ; PKWN à Lublin depuis le 27/07/1944, gouvernement provisoire le 31/12). Pas de capitale à Lublin ni à Kaunas. *(Ether, confirme Claude)*
+- **Koźle (Cosel)** : point déplacé sur la gare du port, au bord des bassins. *(Ether, fait par Claude)*
+- Preuves locales de rail pour Tapa, Valga, Krustpils et Radviliškis. « À renforcer » passe de 33 à 29 villes (Valga, Krustpils, Radviliškis et Stalowa Wola levées par des sources confirmées ; Tapa reste, sa source n'étant que partiellement confirmée). *(Ether + Claude)*
+- Sources : 18 nouvelles + 4 relues (11 confirmées ; 7 illisibles ou partielles, Bromberg en lien mort). Les repères qu'Ether avait réécrits en anglais sont retraduits en français. Registre v1.14 ; « Sources à valider » : 121. *(Claude)*
+- **Ether passe du moteur « 6Sol » à « 6Luna »** (6Sol surchargé, réponses trop longues ou inachevées). *(Guizmo)*
+
 ## 2026-10-01 (suite : réponse d'Ether au lot villes 1.3, feature « régime routier »)
 
 - **Règle des noms à la date (Ether)** : nom français traditionnel réellement attesté en priorité, sinon le nom historique documenté pour la date ; `nom_local` daté à part ; les autres formes en alias. **Chaque ville est renommée sur preuve individuelle**, jamais d'après la seule couleur de son territoire. Le changement de nom ne change pas l'ID. *(Ether)*
 - **Le nom à la date est porté dans l'état** (`proprietes.nom`) : la carte le lit en premier ; la fiche affiche ce nom et rappelle le nom actuel (« aujourd'hui : Košice »). *(Ether, fait par Claude)*
 - **Košice → Cassovie** (sur place : Kassa, ville hongroise depuis novembre 1938) et **Ústí nad Labem → Aussig** au Snapshot 0. Les dates du retour aux noms d'après-guerre restent à prouver : une prise militaire ne date pas à elle seule un changement de nom. *(Ether)*
 - **Fusion Miskolc–Diósgyőr datée du 01/01/1945** (Ether, PDF municipal p. 102) : deux points au Snapshot 0, fusion au ratissage de janvier, sans intervalle vide au 1er janvier. Page 102 hors de portée de l'outil de Claude : dans « Sources à valider ». *(Ether)*
-- **Deux façons de nommer coexistent pour l'instant** : au lot 1.4 le nom à la date est le nom de la fiche (Breslau, Stettin…) ; au lot 1.3 il est dans l'état. À harmoniser à l'audit transversal (de préférence : nom actuel sur la fiche, nom à la date dans l'état). *(Claude)*
+- ~~Deux façons de nommer coexistent~~ : réglé le même jour, le lot 1.4 suit la forme du 1.3 (voir plus haut). *(Claude)*
 - Sources : 6 relues (4 confirmées ; S44 p. 102 et l'article sur « Cassovie » illisibles pour Claude). Registre v1.13 ; « Sources à valider » : 114. *(Claude)*
 - **Feature « régime routier »** (plaques, permis, signalisation, contrôles) : notée, à étudier vers la fin du Snapshot 0. Avis de Claude : commencer par le côté de conduite, pastille au cœur du territoire plutôt qu'à la capitale, zones de plaques bien plus tard. Note d'Ether conservée dans `docs/idees/`. *(Guizmo + Ether)*
 

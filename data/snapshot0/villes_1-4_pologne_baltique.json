@@ -3,7 +3,7 @@
     "nom": "snapshot0_villes_1-4_pologne_baltique",
     "date_reference": "1945-01-01",
     "heure_reference": "00:00",
-    "version": "0.1",
+    "version": "0.2",
     "statut": "integre_par_claude",
     "gabarit_source": "gabarits/gabarit_entite_temporelle_atlas.json",
     "zone": [
@@ -39,7 +39,8 @@
         "Données : JSON d'Ether (rangs, rôles, preuves rôle par rôle, notes) ; noms au Snapshot 0 tels que proposés (Litzmannstadt, Breslau, Stettin, Dantzig, Gotenhafen, Gleiwitz, Memel…), autres formes en alias.",
         "Capitales : convention de Vienne et Prague — Cracovie (Gouvernement général), Tallinn, Riga, Vilnius (RSS) régionales ; Varsovie nationale par continuité ; Kaunas et Lublin sans capitale (Lublin : administration).",
         "Positions : Wikidata ; Kędzierzyn et Koźle distincts ; Krustpils distinct de Jēkabpils.",
-        "« À renforcer » : réserves d'Ether et rôles dont aucune preuve n'a été confirmée par la relecture de Claude."
+        "« À renforcer » : réserves d'Ether et rôles dont aucune preuve n'a été confirmée par la relecture de Claude.",
+        "v0.2 (01/10) : réponse d'Ether — nom de 1945 porté dans l'état et nom actuel sur la fiche, pour toutes les villes renommées (Litzmannstadt, Breslau, Stettin, Dantzig, Gotenhafen, Gleiwitz, Memel, puis Posen, Bromberg, Thorn, Kattowitz, Hindenburg, Königshütte, Swinemünde, Tarnowitz, Heydebreck, Cosel, Elbing) ; Tczew et Wałbrzych gardés (nom urbain non prouvé) ; note de Varsovie ; preuves locales de rail pour Tapa, Valga, Krustpils, Radviliškis ; Koźle placé sur les bassins du port."
       ]
     }
   },
@@ -73,7 +74,7 @@
             "roles": [
               "rail"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.4) : Métropole nationale et grand nœud historique, à conserver comme rupture majeure du réseau. Ville très endommagée : Praga prise en septembre 1944, rive occidentale tenue par les forces allemandes. Aucun gouvernement opérationnel ni trafic normal n’est supposé dans l’ensemble urbain. Capitale nationale par continuité (proposition d'Ether, appliquée par cohérence : aucun siège de gouvernement sur place). À renforcer : rail."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.4) : Métropole nationale et grand nœud historique, à conserver comme rupture majeure du réseau. Ville très endommagée : Praga prise en septembre 1944, rive occidentale tenue par les forces allemandes. Aucun gouvernement opérationnel ni trafic normal n’est supposé dans l’ensemble urbain. Capitale nationale par continuité de l’État polonais (confirmé par Ether) : cela ne veut pas dire qu’un gouvernement siège à Varsovie au Snapshot 0. Gouvernement en exil à Londres ; PKWN siégeant à Lublin depuis le 27/07/1944, devenu gouvernement provisoire le 31/12/1944. À renforcer : rail."
           },
           "geometrie": {
             "type": "Point",
@@ -90,7 +91,7 @@
             },
             {
               "source_id": "src-14-pl-rail-premieres",
-              "locator": "Section « Poznaj naszą historię » : Wrocław–Oława 1842 ; Varsovie 1845 ; Cracovie 1847.",
+              "locator": "Histoire PKP : Wrocław–Oława 1842 ; premier tronçon Varsovie–Vienne 1845 ; Cracovie reliée en 1847.",
               "usage": "preuve locale : rail (non vérifiée par Claude)"
             },
             {
@@ -102,6 +103,16 @@
               "source_id": "src-14-pl-warszawa-praga",
               "locator": "Septembre 1944 : Praga occupée le 14 septembre et front organisé sur la rive occidentale ; capitulation de l’insurrection le 2 octobre.",
               "usage": "contexte (situation, nom ou périmètre)"
+            },
+            {
+              "source_id": "src-14-pl-london-government",
+              "locator": "L’IPN légende à Londres la première réunion du gouvernement Arciszewski au 1er décembre 1944; le siège du PKWN à Lublin est documenté par l’archive locale.",
+              "usage": "contexte : gouvernements"
+            },
+            {
+              "source_id": "src-14-pl-lublin-administration",
+              "locator": "Archives d'État de Lublin : siège du PKWN à Lublin dès le 27 juillet 1944 ; transformation en gouvernement provisoire le 31 décembre.",
+              "usage": "contexte : gouvernements"
             }
           ]
         }
@@ -154,7 +165,7 @@
             },
             {
               "source_id": "src-14-pl-rail-premieres",
-              "locator": "Section « Poznaj naszą historię » : Wrocław–Oława 1842 ; Varsovie 1845 ; Cracovie 1847.",
+              "locator": "Histoire PKP : Wrocław–Oława 1842 ; premier tronçon Varsovie–Vienne 1845 ; Cracovie reliée en 1847.",
               "usage": "preuve locale : rail (non vérifiée par Claude)"
             },
             {
@@ -170,10 +181,9 @@
     {
       "entite_id": "ville-pl-lodz",
       "type_entite": "ville",
-      "nom": "Litzmannstadt",
-      "nom_court": "Litzmannstadt",
+      "nom": "Łódź",
+      "nom_court": "Łódź",
       "aliases": [
-        "Łódź",
         "Lodz"
       ],
       "etats": [
@@ -189,11 +199,12 @@
           },
           "statut": "ville_au_snapshot0",
           "proprietes": {
+            "nom": "Litzmannstadt",
             "importance_atlas": "B",
             "roles": [
               "industrie"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.4) : Grand pôle textile antérieur à la guerre. Nom imposé en 1940, étayé ici par un extrait municipal ; capacité de production fin 1944 non mesurée. À renforcer : industrie."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.4) : Grand pôle textile antérieur à la guerre. Nom imposé en 1940, étayé ici par un extrait municipal ; capacité de production fin 1944 non mesurée. Nom à la date : Litzmannstadt (aujourd'hui Łódź). À renforcer : industrie."
           },
           "geometrie": {
             "type": "Point",
@@ -228,9 +239,6 @@
       "type_entite": "ville",
       "nom": "Poznań",
       "nom_court": "Poznań",
-      "aliases": [
-        "Posen"
-      ],
       "etats": [
         {
           "etat_id": "etat-01",
@@ -244,11 +252,12 @@
           },
           "statut": "ville_au_snapshot0",
           "proprietes": {
+            "nom": "Posen",
             "importance_atlas": "B",
             "roles": [
               "rail"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.4) : Articulation ferroviaire majeure de la Pologne occidentale. Fonction historique retenue ; état précis du service au passage à 1945 non établi."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.4) : Articulation ferroviaire majeure de la Pologne occidentale. Fonction historique retenue ; état précis du service au passage à 1945 non établi. Nom à la date : Posen (aujourd'hui Poznań)."
           },
           "geometrie": {
             "type": "Point",
@@ -272,6 +281,11 @@
               "source_id": "src-14-pl-poznan-gare",
               "locator": "Notice : première gare à Jeżyce en 1848 ; gare centrale urbaine depuis 1879.",
               "usage": "preuve locale : rail"
+            },
+            {
+              "source_id": "src-14-pl-posen-plan-1944",
+              "locator": "Catalogue de plans occupés; intitulés Plan der Gauhauptstadt Posen et plans de transport, dont 1944.",
+              "usage": "nom à la date (lecture partielle)"
             }
           ]
         }
@@ -281,11 +295,8 @@
     {
       "entite_id": "ville-pl-wroclaw",
       "type_entite": "ville",
-      "nom": "Breslau",
-      "nom_court": "Breslau",
-      "aliases": [
-        "Wrocław"
-      ],
+      "nom": "Wrocław",
+      "nom_court": "Wrocław",
       "etats": [
         {
           "etat_id": "etat-01",
@@ -299,11 +310,12 @@
           },
           "statut": "ville_au_snapshot0",
           "proprietes": {
+            "nom": "Breslau",
             "importance_atlas": "B",
             "roles": [
               "rail"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.4) : Grand centre ferroviaire silésien. La bataille et la destruction de 1945 restent postérieures au snapshot. À renforcer : rail."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.4) : Grand centre ferroviaire silésien. La bataille et la destruction de 1945 restent postérieures au snapshot. Nom à la date : Breslau (aujourd'hui Wrocław). À renforcer : rail."
           },
           "geometrie": {
             "type": "Point",
@@ -320,7 +332,7 @@
             },
             {
               "source_id": "src-14-pl-rail-premieres",
-              "locator": "Section « Poznaj naszą historię » : Wrocław–Oława 1842 ; Varsovie 1845 ; Cracovie 1847.",
+              "locator": "Histoire PKP : Wrocław–Oława 1842 ; premier tronçon Varsovie–Vienne 1845 ; Cracovie reliée en 1847.",
               "usage": "preuve locale : rail (non vérifiée par Claude)"
             },
             {
@@ -336,11 +348,8 @@
     {
       "entite_id": "ville-pl-szczecin",
       "type_entite": "ville",
-      "nom": "Stettin",
-      "nom_court": "Stettin",
-      "aliases": [
-        "Szczecin"
-      ],
+      "nom": "Szczecin",
+      "nom_court": "Szczecin",
       "etats": [
         {
           "etat_id": "etat-01",
@@ -354,12 +363,13 @@
           },
           "statut": "ville_au_snapshot0",
           "proprietes": {
+            "nom": "Stettin",
             "importance_atlas": "B",
             "roles": [
               "rail",
               "port_maritime"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.4) : Grand port de la Baltique articulé au rail. Fonction historique retenue ; état précis du service au passage à 1945 non établi."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.4) : Grand port de la Baltique articulé au rail. Fonction historique retenue ; état précis du service au passage à 1945 non établi. Nom à la date : Stettin (aujourd'hui Szczecin)."
           },
           "geometrie": {
             "type": "Point",
@@ -397,10 +407,9 @@
     {
       "entite_id": "ville-pl-gdansk",
       "type_entite": "ville",
-      "nom": "Dantzig",
-      "nom_court": "Dantzig",
+      "nom": "Gdańsk",
+      "nom_court": "Gdańsk",
       "aliases": [
-        "Gdańsk",
         "Danzig"
       ],
       "etats": [
@@ -416,6 +425,7 @@
           },
           "statut": "ville_au_snapshot0",
           "proprietes": {
+            "nom": "Dantzig",
             "nom_local": "Danzig",
             "importance_atlas": "B",
             "roles": [
@@ -423,7 +433,7 @@
               "port_maritime",
               "construction_navale"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.4) : Concentration de port, chemins de fer et construction navale. Ancrer l’ancien port intérieur ; le Port Nord moderne et les sociétés navales créées après-guerre ne sont pas rétrodatés. À renforcer : rail, port_maritime, construction_navale."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.4) : Concentration de port, chemins de fer et construction navale. Ancrer l’ancien port intérieur ; le Port Nord moderne et les sociétés navales créées après-guerre ne sont pas rétrodatés. Nom à la date : Dantzig (aujourd'hui Gdańsk). Chantier Schichau : terrain acheté en 1889 près d'une voie existante, chantier construit 1890–1892, ouverture officielle en janvier 1892 (1889 n'est pas une date de raccordement). À renforcer : rail, port_maritime, construction_navale."
           },
           "geometrie": {
             "type": "Point",
@@ -440,12 +450,12 @@
             },
             {
               "source_id": "src-14-pl-gdansk-schichau",
-              "locator": "Gdańsk : implantation reliée au rail en 1889, chantier en activité dès 1891 et ouverture formelle en 1892. Elbląg : machines navales et turbines, licence de 1907, moteurs depuis 1911.",
+              "locator": "Gedanopedia : terrain acheté en 1889 le long d'une voie ferrée existante ; chantier construit 1890–1892 ; premiers travaux navals 1891 ; ouverture officielle en janvier 1892.",
               "usage": "preuve locale : rail, construction_navale (lecture partielle)"
             },
             {
               "source_id": "src-14-pl-gdansk-port-ferroviaire",
-              "locator": "Ferry ferroviaire construit en 1926 pour le port ; repris en 1939 sous le nom Danzig ; même trajet avant son naufrage de 1945.",
+              "locator": "Gedanopedia : ferry ferroviaire Gedania construit en 1926 pour le service du port ; saisi en 1939, il garde son trajet sous le nom « Danzig ».",
               "usage": "preuve locale : rail, port_maritime (non vérifiée par Claude)"
             }
           ]
@@ -456,11 +466,8 @@
     {
       "entite_id": "ville-pl-gdynia",
       "type_entite": "ville",
-      "nom": "Gotenhafen",
-      "nom_court": "Gotenhafen",
-      "aliases": [
-        "Gdynia"
-      ],
+      "nom": "Gdynia",
+      "nom_court": "Gdynia",
       "etats": [
         {
           "etat_id": "etat-01",
@@ -474,11 +481,12 @@
           },
           "statut": "ville_au_snapshot0",
           "proprietes": {
+            "nom": "Gotenhafen",
             "importance_atlas": "B",
             "roles": [
               "port_maritime"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.4) : Grand port créé avant la guerre, complémentaire de Dantzig. Gdynia renommée Gotenhafen le 19 septembre 1939 ; capture de mars 1945 non anticipée."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.4) : Grand port créé avant la guerre, complémentaire de Dantzig. Gdynia renommée Gotenhafen le 19 septembre 1939 ; capture de mars 1945 non anticipée. Nom à la date : Gotenhafen (aujourd'hui Gdynia)."
           },
           "geometrie": {
             "type": "Point",
@@ -513,9 +521,6 @@
       "type_entite": "ville",
       "nom": "Świnoujście",
       "nom_court": "Świnoujście",
-      "aliases": [
-        "Swinemünde"
-      ],
       "etats": [
         {
           "etat_id": "etat-01",
@@ -529,12 +534,13 @@
           },
           "statut": "ville_au_snapshot0",
           "proprietes": {
+            "nom": "Swinemünde",
             "importance_atlas": "B",
             "roles": [
               "port_maritime",
               "militaire"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.4) : Port et base navale à l’entrée du système de l’Oder. Le bombardement du 12 mars 1945 reste futur. La forme officielle Swinemünde doit être normalisée avec une preuve nomenclaturale dédiée."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.4) : Port et base navale à l’entrée du système de l’Oder. Le bombardement du 12 mars 1945 reste futur. Nom à la date : Swinemünde (aujourd'hui Świnoujście)."
           },
           "geometrie": {
             "type": "Point",
@@ -553,6 +559,11 @@
               "source_id": "src-14-pl-swinoujscie-port",
               "locator": "Aménagements portuaires du XIXe siècle ; agrandissement en base de la Kriegsmarine à la fin des années 1930 et dans les années 1940 ; bombardement du 12 mars 1945.",
               "usage": "preuve locale : port_maritime, militaire"
+            },
+            {
+              "source_id": "src-14-pl-swinemunde-city",
+              "locator": "Récit municipal de septembre 1944 emploie Swinemünde pour la ville; navires de réfugiés et chemin de fer mentionnés.",
+              "usage": "nom à la date"
             }
           ]
         }
@@ -564,9 +575,6 @@
       "type_entite": "ville",
       "nom": "Bydgoszcz",
       "nom_court": "Bydgoszcz",
-      "aliases": [
-        "Bromberg"
-      ],
       "etats": [
         {
           "etat_id": "etat-01",
@@ -580,11 +588,12 @@
           },
           "statut": "ville_au_snapshot0",
           "proprietes": {
+            "nom": "Bromberg",
             "importance_atlas": "B",
             "roles": [
               "rail"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.4) : Jonction ferroviaire structurante entre corridors occidentaux et de la Vistule. Fonction historique retenue ; état précis du service au passage à 1945 non établi."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.4) : Jonction ferroviaire structurante entre corridors occidentaux et de la Vistule. Fonction historique retenue ; état précis du service au passage à 1945 non établi. Nom à la date : Bromberg (aujourd'hui Bydgoszcz)."
           },
           "geometrie": {
             "type": "Point",
@@ -608,6 +617,11 @@
               "source_id": "src-14-pl-torun-rail",
               "locator": "Ligne Bydgoszcz–Toruń de 1861 ; gare de 1873 ; extension ferroviaire de 1883.",
               "usage": "preuve locale : rail (lecture partielle)"
+            },
+            {
+              "source_id": "src-14-pl-bromberg-museum",
+              "locator": "Le musée rapporte le projet du maire allemand de créer une « neue deutsche Bromberg » en 1939.",
+              "usage": "nom à la date (non vérifiée par Claude)"
             }
           ]
         }
@@ -619,9 +633,6 @@
       "type_entite": "ville",
       "nom": "Toruń",
       "nom_court": "Toruń",
-      "aliases": [
-        "Thorn"
-      ],
       "etats": [
         {
           "etat_id": "etat-01",
@@ -635,11 +646,12 @@
           },
           "statut": "ville_au_snapshot0",
           "proprietes": {
+            "nom": "Thorn",
             "importance_atlas": "C",
             "roles": [
               "rail"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.4) : Relais régional du réseau de la Vistule. Fonction historique retenue ; état précis du service au passage à 1945 non établi. À renforcer : rail."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.4) : Relais régional du réseau de la Vistule. Fonction historique retenue ; état précis du service au passage à 1945 non établi. Nom à la date : Thorn (aujourd'hui Toruń). À renforcer : rail."
           },
           "geometrie": {
             "type": "Point",
@@ -658,6 +670,11 @@
               "source_id": "src-14-pl-torun-rail",
               "locator": "Ligne Bydgoszcz–Toruń de 1861 ; gare de 1873 ; extension ferroviaire de 1883.",
               "usage": "preuve locale : rail (lecture partielle)"
+            },
+            {
+              "source_id": "src-14-pl-thorn-museum",
+              "locator": "Le musée cite en 1943 le slogan allemand de propagande nommant la ville Thorn.",
+              "usage": "nom à la date (lecture partielle)"
             }
           ]
         }
@@ -708,6 +725,11 @@
               "source_id": "src-14-pl-tczew-rail",
               "locator": "Ouverture le 19 juillet 1852 et histoire du nœud de franchissement.",
               "usage": "preuve locale : rail"
+            },
+            {
+              "source_id": "src-14-pl-dirschau-archive",
+              "locator": "Inventaire du Landratsamt Dirschau en activité de 1940 à 1945.",
+              "usage": "nom allemand attesté localement (ville non renommée : nom officiel non prouvé)"
             }
           ]
         }
@@ -719,9 +741,6 @@
       "type_entite": "ville",
       "nom": "Katowice",
       "nom_court": "Katowice",
-      "aliases": [
-        "Kattowitz"
-      ],
       "etats": [
         {
           "etat_id": "etat-01",
@@ -735,12 +754,13 @@
           },
           "statut": "ville_au_snapshot0",
           "proprietes": {
+            "nom": "Kattowitz",
             "importance_atlas": "B",
             "roles": [
               "rail",
               "industrie"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.4) : Articulation rail–charbon au cœur du bassin industriel. Fonction historique retenue ; état précis du service au passage à 1945 non établi. À renforcer : rail."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.4) : Articulation rail–charbon au cœur du bassin industriel. Fonction historique retenue ; état précis du service au passage à 1945 non établi. Nom à la date : Kattowitz (aujourd'hui Katowice). À renforcer : rail."
           },
           "geometrie": {
             "type": "Point",
@@ -757,13 +777,18 @@
             },
             {
               "source_id": "src-14-pl-katowice-gare",
-              "locator": "Fiche d’inventaire : ensemble ferroviaire daté de 1906.",
+              "locator": "Fiche d'inventaire de l'Institut national du patrimoine : ensemble de l'ancienne gare ; bâtiment voyageurs daté de 1906.",
               "usage": "preuve locale : rail (lecture partielle)"
             },
             {
               "source_id": "src-14-pl-katowice-industrie",
               "locator": "Mine Ferdinand créée en 1823 ; histoire industrielle jusqu’au XXe siècle.",
               "usage": "preuve locale : industrie"
+            },
+            {
+              "source_id": "src-14-pl-kattowitz-archive",
+              "locator": "Inventaire municipal: Stadtkreis Kattowitz et Stadtverwaltung Kattowitz pour 1939–45.",
+              "usage": "nom à la date"
             }
           ]
         }
@@ -773,11 +798,8 @@
     {
       "entite_id": "ville-pl-gliwice",
       "type_entite": "ville",
-      "nom": "Gleiwitz",
-      "nom_court": "Gleiwitz",
-      "aliases": [
-        "Gliwice"
-      ],
+      "nom": "Gliwice",
+      "nom_court": "Gliwice",
       "etats": [
         {
           "etat_id": "etat-01",
@@ -791,11 +813,12 @@
           },
           "statut": "ville_au_snapshot0",
           "proprietes": {
+            "nom": "Gleiwitz",
             "importance_atlas": "B",
             "roles": [
               "industrie"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.4) : Pôle métallurgique historique du bassin silésien. Fonction historique retenue ; état précis du service au passage à 1945 non établi."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.4) : Pôle métallurgique historique du bassin silésien. Fonction historique retenue ; état précis du service au passage à 1945 non établi. Nom à la date : Gleiwitz (aujourd'hui Gliwice)."
           },
           "geometrie": {
             "type": "Point",
@@ -825,9 +848,6 @@
       "type_entite": "ville",
       "nom": "Zabrze",
       "nom_court": "Zabrze",
-      "aliases": [
-        "Hindenburg"
-      ],
       "etats": [
         {
           "etat_id": "etat-01",
@@ -841,11 +861,12 @@
           },
           "statut": "ville_au_snapshot0",
           "proprietes": {
+            "nom": "Hindenburg",
             "importance_atlas": "B",
             "roles": [
               "industrie"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.4) : Pôle charbonnier de grande importance dans le bassin silésien. Libellé actuel de repérage ; forme historique Hindenburg O.S. à étayer dans le registre des noms avant import."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.4) : Pôle charbonnier de grande importance dans le bassin silésien. Nom à la date : Hindenburg (aujourd'hui Zabrze)."
           },
           "geometrie": {
             "type": "Point",
@@ -864,6 +885,11 @@
               "source_id": "src-14-pl-zabrze-industrie",
               "locator": "Mine royale dès 1791, Guido 1855, documentation de la mine Królowa Luiza en 1939.",
               "usage": "preuve locale : industrie"
+            },
+            {
+              "source_id": "src-14-pl-hindenburg-auschwitz",
+              "locator": "Le musée identifie Zabrze comme Hindenburg pour le sous-camp local d’août 1944.",
+              "usage": "nom à la date"
             }
           ]
         }
@@ -875,9 +901,6 @@
       "type_entite": "ville",
       "nom": "Chorzów",
       "nom_court": "Chorzów",
-      "aliases": [
-        "Königshütte"
-      ],
       "etats": [
         {
           "etat_id": "etat-01",
@@ -891,11 +914,12 @@
           },
           "statut": "ville_au_snapshot0",
           "proprietes": {
+            "nom": "Königshütte",
             "importance_atlas": "B",
             "roles": [
               "industrie"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.4) : Pôle sidérurgique, notamment de produits destinés au réseau ferroviaire. Königshütte est attesté comme nom d’usine ; ne pas déduire du seul nom industriel le nom officiel ni le périmètre municipal de 1944."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.4) : Pôle sidérurgique, notamment de produits destinés au réseau ferroviaire. Königshütte est attesté comme nom d’usine ; ne pas déduire du seul nom industriel le nom officiel ni le périmètre municipal de 1944. Nom à la date : Königshütte (aujourd'hui Chorzów)."
           },
           "geometrie": {
             "type": "Point",
@@ -914,6 +938,11 @@
               "source_id": "src-14-pl-chorzow-industrie",
               "locator": "Chronologie de l’usine depuis 1802 et étapes de l’entre-deux-guerres.",
               "usage": "preuve locale : industrie"
+            },
+            {
+              "source_id": "src-14-pl-konigshutte-archive",
+              "locator": "Le fonds situe la Kreisleitung Königshütte sur le territoire de Chorzów; activité documentée de 1939 à 1945.",
+              "usage": "nom à la date"
             }
           ]
         }
@@ -925,9 +954,6 @@
       "type_entite": "ville",
       "nom": "Tarnowskie Góry",
       "nom_court": "Tarnowskie Góry",
-      "aliases": [
-        "Tarnowitz"
-      ],
       "etats": [
         {
           "etat_id": "etat-01",
@@ -941,11 +967,12 @@
           },
           "statut": "ville_au_snapshot0",
           "proprietes": {
+            "nom": "Tarnowitz",
             "importance_atlas": "B",
             "roles": [
               "rail"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.4) : Nœud ferroviaire historique à conserver malgré sa taille urbaine plus faible. Rang B proposé avec réserve : la notice municipale reprend Wikipédia. Attestation ferroviaire indépendante à ajouter. À renforcer : rail."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.4) : Nœud ferroviaire historique à conserver malgré sa taille urbaine plus faible. Rang B proposé avec réserve : la notice municipale reprend Wikipédia. Attestation ferroviaire indépendante à ajouter. Nom à la date : Tarnowitz (aujourd'hui Tarnowskie Góry). À renforcer : rail."
           },
           "geometrie": {
             "type": "Point",
@@ -964,6 +991,11 @@
               "source_id": "src-14-pl-tarnowskie-gory-rail",
               "locator": "Arrivée du chemin de fer en 1854 et nouvelle gare de 1888.",
               "usage": "preuve locale : rail"
+            },
+            {
+              "source_id": "src-14-pl-tarnowitz-archive",
+              "locator": "Inventaire d’archives, adresses Tarnowitz datées 1944–45.",
+              "usage": "nom à la date (non vérifiée par Claude)"
             }
           ]
         }
@@ -1010,7 +1042,7 @@
             },
             {
               "source_id": "src-14-pl-czestochowa-industrialisation",
-              "locator": "Chemin de fer Varsovie–Vienne en 1846 ; usines textiles et métallurgiques avant 1914.",
+              "locator": "Histoire culturelle municipale : chemin de fer Varsovie–Vienne en 1846 ; usines historiques citées ; aciérie Hantke à Raków, alors en périphérie.",
               "usage": "preuve locale : rail, industrie (lecture partielle)"
             }
           ]
@@ -1109,6 +1141,11 @@
               "source_id": "src-14-pl-walbrzych-charbon",
               "locator": "Charbonnages anciens regroupés au XIXe siècle ; puits Bahnschächte actifs depuis 1882 ; appartenance à Waldenburger Bergwerks A.G. depuis 1930.",
               "usage": "preuve locale : industrie"
+            },
+            {
+              "source_id": "src-14-pl-waldenburg-grossrosen",
+              "locator": "Le musée situe AL Waldenburg au Stadtpark/Gaj en septembre–octobre 1944.",
+              "usage": "nom allemand attesté localement (ville non renommée : nom officiel non prouvé)"
             }
           ]
         }
@@ -1201,7 +1238,7 @@
             },
             {
               "source_id": "src-14-pl-lublin-administration",
-              "locator": "Siège à Lublin à partir du 27 juillet 1944 ; transformation en gouvernement provisoire le 31 décembre.",
+              "locator": "Archives d'État de Lublin : siège du PKWN à Lublin dès le 27 juillet 1944 ; transformation en gouvernement provisoire le 31 décembre.",
               "usage": "preuve locale : administration"
             }
           ]
@@ -1325,7 +1362,7 @@
             "roles": [
               "industrie"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.4) : Pôle de l’industrie mécanique créé avant la guerre. L’installation industrielle préexiste aux statuts municipaux ultérieurs ; le point n’est pas écarté pour ce motif. À renforcer : industrie."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.4) : Pôle de l’industrie mécanique créé avant la guerre. L’installation industrielle préexiste aux statuts municipaux ultérieurs ; le point n’est pas écarté pour ce motif."
           },
           "geometrie": {
             "type": "Point",
@@ -1342,8 +1379,8 @@
             },
             {
               "source_id": "src-14-pl-stalowa-wola-industrie",
-              "locator": "Zakłady Południowe et cité ouvrière déjà ouvertes en juin 1939.",
-              "usage": "preuve locale : industrie (non vérifiée par Claude)"
+              "locator": "Histoire municipale : Zakłady Południowe inaugurées le 14 juin 1939 ; cité ouvrière et équipements déjà construits.",
+              "usage": "preuve locale : industrie"
             }
           ]
         }
@@ -1543,9 +1580,6 @@
       "type_entite": "ville",
       "nom": "Elbląg",
       "nom_court": "Elbląg",
-      "aliases": [
-        "Elbing"
-      ],
       "etats": [
         {
           "etat_id": "etat-01",
@@ -1559,11 +1593,12 @@
           },
           "statut": "ville_au_snapshot0",
           "proprietes": {
+            "nom": "Elbing",
             "importance_atlas": "B",
             "roles": [
               "industrie"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.4) : Centre industriel de construction mécanique navale. Les appellations et entreprises de l’après-guerre ne sont pas rétrodatées. Le rôle de chantier naval propre à Elbląg devra être étayé séparément. À renforcer : industrie."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.4) : Centre industriel de construction mécanique navale. Les appellations et entreprises de l’après-guerre ne sont pas rétrodatées. Le rôle de chantier naval propre à Elbląg devra être étayé séparément. Nom à la date : Elbing (aujourd'hui Elbląg). À renforcer : industrie."
           },
           "geometrie": {
             "type": "Point",
@@ -1580,8 +1615,13 @@
             },
             {
               "source_id": "src-14-pl-gdansk-schichau",
-              "locator": "Gdańsk : implantation reliée au rail en 1889, chantier en activité dès 1891 et ouverture formelle en 1892. Elbląg : machines navales et turbines, licence de 1907, moteurs depuis 1911.",
+              "locator": "Gedanopedia : terrain acheté en 1889 le long d'une voie ferrée existante ; chantier construit 1890–1892 ; premiers travaux navals 1891 ; ouverture officielle en janvier 1892.",
               "usage": "preuve locale : industrie (lecture partielle)"
+            },
+            {
+              "source_id": "src-14-pl-elbing-map-1944",
+              "locator": "Extrait du catalogue: carte ELBING datée de 1944; l’original n’a pas été ouvert.",
+              "usage": "nom à la date (non vérifiée par Claude)"
             }
           ]
         }
@@ -1594,7 +1634,7 @@
       "nom": "Kędzierzyn",
       "nom_court": "Kędzierzyn",
       "aliases": [
-        "Heydebreck",
+        "Kandrzin",
         "Kędzierzyn-Koźle"
       ],
       "etats": [
@@ -1610,11 +1650,12 @@
           },
           "statut": "ville_au_snapshot0",
           "proprietes": {
+            "nom": "Heydebreck",
             "importance_atlas": "B",
             "roles": [
               "rail"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.4) : Nœud ferroviaire distinct des autres centres réunis après-guerre. Kędzierzyn-Koźle n’est pas une commune unique à importer au snapshot. Position : quartier de Kędzierzyn (Wikidata), distinct de Koźle."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.4) : Nœud ferroviaire distinct des autres centres réunis après-guerre. Kędzierzyn-Koźle n’est pas une commune unique à importer au snapshot. Nom à la date : Heydebreck (aujourd'hui Kędzierzyn). Position : quartier de Kędzierzyn (Wikidata), distinct de Koźle."
           },
           "geometrie": {
             "type": "Point",
@@ -1633,6 +1674,11 @@
               "source_id": "src-14-pl-kedzierzyn-kozle",
               "locator": "Chemin de fer en 1845 ; port de Koźle construit en 1891–1908 ; usines chimiques de guerre dans la zone aujourd’hui municipale ; regroupement de 1975.",
               "usage": "preuve locale : rail"
+            },
+            {
+              "source_id": "src-14-pl-heydebreck-archive",
+              "locator": "Catalogue foncier distingue Heydebreck et Kandrzin; plusieurs pièces sont datées 1944.",
+              "usage": "nom à la date (non vérifiée par Claude)"
             }
           ]
         }
@@ -1645,7 +1691,6 @@
       "nom": "Koźle",
       "nom_court": "Koźle",
       "aliases": [
-        "Cosel",
         "Kędzierzyn-Koźle"
       ],
       "etats": [
@@ -1661,29 +1706,35 @@
           },
           "statut": "ville_au_snapshot0",
           "proprietes": {
+            "nom": "Cosel",
             "importance_atlas": "B",
             "roles": [
               "port_fluvial"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.4) : Interface fluviale et ferroviaire de l’Oder, à distinguer du point Kędzierzyn. Rang B du nœud portuaire ; rattachement municipal exact du terrain portuaire à vérifier."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.4) : Interface fluviale et ferroviaire de l’Oder, à distinguer du point Kędzierzyn. Rang B du nœud portuaire ; rattachement municipal exact du terrain portuaire à vérifier. Nom à la date : Cosel (aujourd'hui Koźle). Position : gare du port (Wikidata Q16570466), au bord des bassins portuaires historiques (consigne d'Ether), pas le centre de Koźle."
           },
           "geometrie": {
             "type": "Point",
             "coordinates": [
-              18.1458,
-              50.3353
+              18.1767,
+              50.3544
             ]
           },
           "sources": [
             {
               "source_id": "src-wikidata",
-              "locator": "Q364601",
+              "locator": "Q16570466",
               "usage": "position (coordonnées)"
             },
             {
               "source_id": "src-14-pl-kedzierzyn-kozle",
               "locator": "Chemin de fer en 1845 ; port de Koźle construit en 1891–1908 ; usines chimiques de guerre dans la zone aujourd’hui municipale ; regroupement de 1975.",
               "usage": "preuve locale : port_fluvial"
+            },
+            {
+              "source_id": "src-14-pl-cosel-archive",
+              "locator": "Inventaire emploie Cosel [Koźle], y compris des entrées datées 1944.",
+              "usage": "nom à la date (non vérifiée par Claude)"
             }
           ]
         }
@@ -1735,12 +1786,12 @@
             },
             {
               "source_id": "src-14-ee-rail-histoire",
-              "locator": "Section historique : axe de 1870 ; Tapa–Tartu 1877, Valga 1887 ; réseau étroit 1896–1901. Guerre : voie large convertie en 1435 mm puis rétablie.",
+              "locator": "EVR : trafic régulier Tapa–Tartu en 1877 ; Valga 1887 ; liaison régulière vers Riga 1889. Le musée de Tapa donne 1876.",
               "usage": "preuve locale : rail (lecture partielle)"
             },
             {
               "source_id": "src-14-ee-tallinn-histoire",
-              "locator": "Chemin de fer en 1870 ; chantiers et port militaire avant 1914 ; capitale de l’Estonie puis de la RSS d’Estonie en 1940 ; Nõmme intégré en 1940.",
+              "locator": "Notice : chemin de fer 1870 ; capitale de la RSS d'Estonie dès 1940 ; bombardement des 9–10 mars 1944 ; entrée de l'Armée rouge le 22 septembre 1944.",
               "usage": "preuve locale : port_maritime, administration (lecture partielle)"
             }
           ]
@@ -1790,7 +1841,7 @@
             },
             {
               "source_id": "src-14-ee-rail-histoire",
-              "locator": "Section historique : axe de 1870 ; Tapa–Tartu 1877, Valga 1887 ; réseau étroit 1896–1901. Guerre : voie large convertie en 1435 mm puis rétablie.",
+              "locator": "EVR : trafic régulier Tapa–Tartu en 1877 ; Valga 1887 ; liaison régulière vers Riga 1889. Le musée de Tapa donne 1876.",
               "usage": "preuve locale : rail (lecture partielle)"
             }
           ]
@@ -1837,7 +1888,7 @@
             },
             {
               "source_id": "src-14-ee-rail-histoire",
-              "locator": "Section historique : axe de 1870 ; Tapa–Tartu 1877, Valga 1887 ; réseau étroit 1896–1901. Guerre : voie large convertie en 1435 mm puis rétablie.",
+              "locator": "EVR : trafic régulier Tapa–Tartu en 1877 ; Valga 1887 ; liaison régulière vers Riga 1889. Le musée de Tapa donne 1876.",
               "usage": "preuve locale : rail (lecture partielle)"
             },
             {
@@ -1872,7 +1923,7 @@
             "roles": [
               "rail"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.4) : Jonction ferroviaire majeure malgré une petite agglomération. Fonction historique retenue ; état précis du service au passage à 1945 non établi. À renforcer : rail."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.4) : Jonction ferroviaire majeure malgré une petite agglomération. Fonction historique retenue ; état précis du service au passage à 1945 non établi. Embranchement de Tartu : 1876 selon le musée de Tapa, 1877 (trafic régulier) selon les chemins de fer estoniens ; les deux dates sont gardées. À renforcer : rail."
           },
           "geometrie": {
             "type": "Point",
@@ -1889,7 +1940,12 @@
             },
             {
               "source_id": "src-14-ee-rail-histoire",
-              "locator": "Section historique : axe de 1870 ; Tapa–Tartu 1877, Valga 1887 ; réseau étroit 1896–1901. Guerre : voie large convertie en 1435 mm puis rétablie.",
+              "locator": "EVR : trafic régulier Tapa–Tartu en 1877 ; Valga 1887 ; liaison régulière vers Riga 1889. Le musée de Tapa donne 1876.",
+              "usage": "preuve locale : rail (lecture partielle)"
+            },
+            {
+              "source_id": "src-14-ee-tapa-local",
+              "locator": "Le musée cite 1876 pour la branche de Tartu et la fonction de nœud; une annonce postale est datée de décembre 1876.",
               "usage": "preuve locale : rail (lecture partielle)"
             }
           ]
@@ -1919,7 +1975,7 @@
             "roles": [
               "rail"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.4) : Nœud ferroviaire au contact des réseaux estonien et letton. Valga et Valka sont distinguées depuis 1920. Pas de rôle frontière international ajouté au seul motif de cette partition. À renforcer : rail."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.4) : Nœud ferroviaire au contact des réseaux estonien et letton. Valga et Valka sont distinguées depuis 1920. Pas de rôle frontière international ajouté au seul motif de cette partition."
           },
           "geometrie": {
             "type": "Point",
@@ -1936,13 +1992,18 @@
             },
             {
               "source_id": "src-14-ee-rail-histoire",
-              "locator": "Section historique : axe de 1870 ; Tapa–Tartu 1877, Valga 1887 ; réseau étroit 1896–1901. Guerre : voie large convertie en 1435 mm puis rétablie.",
+              "locator": "EVR : trafic régulier Tapa–Tartu en 1877 ; Valga 1887 ; liaison régulière vers Riga 1889. Le musée de Tapa donne 1876.",
               "usage": "preuve locale : rail (lecture partielle)"
             },
             {
               "source_id": "src-14-ee-valga-valka",
               "locator": "Décision du 1er juillet 1920 divisant Walk en Valga, côté estonien, et Valka, côté letton.",
               "usage": "contexte (situation, nom ou périmètre)"
+            },
+            {
+              "source_id": "src-14-ee-valga-local",
+              "locator": "Tartu–Valga 1887; Riga 1888; Pskov 1889; Valga devient un nœud ferroviaire.",
+              "usage": "preuve locale : rail"
             }
           ]
         }
@@ -1988,7 +2049,7 @@
             },
             {
               "source_id": "src-14-ee-rail-histoire",
-              "locator": "Section historique : axe de 1870 ; Tapa–Tartu 1877, Valga 1887 ; réseau étroit 1896–1901. Guerre : voie large convertie en 1435 mm puis rétablie.",
+              "locator": "EVR : trafic régulier Tapa–Tartu en 1877 ; Valga 1887 ; liaison régulière vers Riga 1889. Le musée de Tapa donne 1876.",
               "usage": "preuve locale : rail (lecture partielle)"
             }
           ]
@@ -2035,7 +2096,7 @@
             },
             {
               "source_id": "src-14-ee-rail-histoire",
-              "locator": "Section historique : axe de 1870 ; Tapa–Tartu 1877, Valga 1887 ; réseau étroit 1896–1901. Guerre : voie large convertie en 1435 mm puis rétablie.",
+              "locator": "EVR : trafic régulier Tapa–Tartu en 1877 ; Valga 1887 ; liaison régulière vers Riga 1889. Le musée de Tapa donne 1876.",
               "usage": "preuve locale : rail (lecture partielle)"
             }
           ]
@@ -2082,7 +2143,7 @@
             },
             {
               "source_id": "src-14-ee-rail-histoire",
-              "locator": "Section historique : axe de 1870 ; Tapa–Tartu 1877, Valga 1887 ; réseau étroit 1896–1901. Guerre : voie large convertie en 1435 mm puis rétablie.",
+              "locator": "EVR : trafic régulier Tapa–Tartu en 1877 ; Valga 1887 ; liaison régulière vers Riga 1889. Le musée de Tapa donne 1876.",
               "usage": "preuve locale : rail (lecture partielle)"
             }
           ]
@@ -2112,7 +2173,7 @@
             "roles": [
               "industrie"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.4) : Pôle historique des schistes bitumineux, important pour les flux énergétiques. Ne pas rétrodater le nouveau complexe de 1945 ni l’ensemble de la commune polycentrique développée ensuite. État des anciennes unités fin 1944 à consolider. À renforcer : industrie."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.4) : Pôle historique des schistes bitumineux, important pour les flux énergétiques. Ne pas rétrodater le nouveau complexe de 1945 ni l’ensemble de la commune polycentrique développée ensuite. État des anciennes unités fin 1944 à consolider. Point sur le noyau historique de Järve ; statut de ville en 1946. À renforcer : industrie."
           },
           "geometrie": {
             "type": "Point",
@@ -2129,12 +2190,12 @@
             },
             {
               "source_id": "src-14-ee-kohtla-jarve-industrie",
-              "locator": "Débuts de l’industrie en 1916 ; quatre unités Kiviter construites en 1924–1943 ; nouveau complexe daté de 1945.",
+              "locator": "VKG : industrie du schiste bitumineux dès 1916 ; usine d'essai 1921 ; quatre usines Kiviter 1924–1943 ; nouveau complexe daté de 1945.",
               "usage": "preuve locale : industrie (lecture partielle)"
             },
             {
               "source_id": "src-14-ee-kohtla-jarve-perimetre",
-              "locator": "Extrait indexé : statut de ville en 1946 et regroupements de plusieurs noyaux après 1945.",
+              "locator": "Encyclopédie : statut de ville en 1946 ; bourg de Järve d'avant-guerre et ajouts d'après-guerre décrits.",
               "usage": "contexte (situation, nom ou périmètre) (non vérifiée par Claude)"
             }
           ]
@@ -2188,7 +2249,7 @@
             },
             {
               "source_id": "src-14-lv-rail-chronologie",
-              "locator": "Tableau : Riga–Daugavpils 1861, Jelgava 1868, Liepāja 1871, Ventspils/Krustpils 1901–1904 ; Gulbene 1903/1916, Rēzekne 1934 ; raccordement Krustpils–Jēkabpils fermé en 1944.",
+              "locator": "Tableau : Riga–Daugavpils 1861 ; Riga–Jelgava 1868 ; Liepāja–Vaiņode 1871 ; Sita–Rēzekne 1934 ; ligne Krustpils–Jēkabpils fermée en 1944.",
               "usage": "preuve locale : rail (lecture partielle)"
             },
             {
@@ -2254,12 +2315,12 @@
             },
             {
               "source_id": "src-14-lv-rail-chronologie",
-              "locator": "Tableau : Riga–Daugavpils 1861, Jelgava 1868, Liepāja 1871, Ventspils/Krustpils 1901–1904 ; Gulbene 1903/1916, Rēzekne 1934 ; raccordement Krustpils–Jēkabpils fermé en 1944.",
+              "locator": "Tableau : Riga–Daugavpils 1861 ; Riga–Jelgava 1868 ; Liepāja–Vaiņode 1871 ; Sita–Rēzekne 1934 ; ligne Krustpils–Jēkabpils fermée en 1944.",
               "usage": "preuve locale : rail (lecture partielle)"
             },
             {
               "source_id": "src-14-lv-liepaja-port",
-              "locator": "Extrait indexé : port et ligne maritime vers New York au début du XXe siècle ; bombardement du port en 1914 ; gouvernement réfugié sur un navire dans le port en 1919.",
+              "locator": "Histoire municipale (extrait indexé) : port bombardé le 2 août 1914 ; rôle maritime au début du XXe siècle.",
               "usage": "preuve locale : port_maritime (lecture partielle)"
             },
             {
@@ -2315,7 +2376,7 @@
             },
             {
               "source_id": "src-14-lv-rail-chronologie",
-              "locator": "Tableau : Riga–Daugavpils 1861, Jelgava 1868, Liepāja 1871, Ventspils/Krustpils 1901–1904 ; Gulbene 1903/1916, Rēzekne 1934 ; raccordement Krustpils–Jēkabpils fermé en 1944.",
+              "locator": "Tableau : Riga–Daugavpils 1861 ; Riga–Jelgava 1868 ; Liepāja–Vaiņode 1871 ; Sita–Rēzekne 1934 ; ligne Krustpils–Jēkabpils fermée en 1944.",
               "usage": "preuve locale : rail (lecture partielle)"
             },
             {
@@ -2376,7 +2437,7 @@
             },
             {
               "source_id": "src-14-lv-rail-chronologie",
-              "locator": "Tableau : Riga–Daugavpils 1861, Jelgava 1868, Liepāja 1871, Ventspils/Krustpils 1901–1904 ; Gulbene 1903/1916, Rēzekne 1934 ; raccordement Krustpils–Jēkabpils fermé en 1944.",
+              "locator": "Tableau : Riga–Daugavpils 1861 ; Riga–Jelgava 1868 ; Liepāja–Vaiņode 1871 ; Sita–Rēzekne 1934 ; ligne Krustpils–Jēkabpils fermée en 1944.",
               "usage": "preuve locale : rail (lecture partielle)"
             }
           ]
@@ -2426,7 +2487,7 @@
             },
             {
               "source_id": "src-14-lv-rail-chronologie",
-              "locator": "Tableau : Riga–Daugavpils 1861, Jelgava 1868, Liepāja 1871, Ventspils/Krustpils 1901–1904 ; Gulbene 1903/1916, Rēzekne 1934 ; raccordement Krustpils–Jēkabpils fermé en 1944.",
+              "locator": "Tableau : Riga–Daugavpils 1861 ; Riga–Jelgava 1868 ; Liepāja–Vaiņode 1871 ; Sita–Rēzekne 1934 ; ligne Krustpils–Jēkabpils fermée en 1944.",
               "usage": "preuve locale : rail (lecture partielle)"
             }
           ]
@@ -2473,7 +2534,7 @@
             },
             {
               "source_id": "src-14-lv-rail-chronologie",
-              "locator": "Tableau : Riga–Daugavpils 1861, Jelgava 1868, Liepāja 1871, Ventspils/Krustpils 1901–1904 ; Gulbene 1903/1916, Rēzekne 1934 ; raccordement Krustpils–Jēkabpils fermé en 1944.",
+              "locator": "Tableau : Riga–Daugavpils 1861 ; Riga–Jelgava 1868 ; Liepāja–Vaiņode 1871 ; Sita–Rēzekne 1934 ; ligne Krustpils–Jēkabpils fermée en 1944.",
               "usage": "preuve locale : rail (lecture partielle)"
             }
           ]
@@ -2503,7 +2564,7 @@
             "roles": [
               "rail"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.4) : Jonction ferroviaire distincte de Jēkabpils au snapshot. La liaison Krustpils–Jēkabpils a fermé en 1944 ; ne pas importer une traversée active ni la fusion municipale de 1962. Position : quartier de Krustpils (Wikidata), distinct de Jēkabpils. À renforcer : rail."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.4) : Jonction ferroviaire distincte de Jēkabpils au snapshot. La liaison Krustpils–Jēkabpils a fermé en 1944 ; ne pas importer une traversée active ni la fusion municipale de 1962. Position : quartier de Krustpils (Wikidata), distinct de Jēkabpils."
           },
           "geometrie": {
             "type": "Point",
@@ -2520,13 +2581,18 @@
             },
             {
               "source_id": "src-14-lv-rail-chronologie",
-              "locator": "Tableau : Riga–Daugavpils 1861, Jelgava 1868, Liepāja 1871, Ventspils/Krustpils 1901–1904 ; Gulbene 1903/1916, Rēzekne 1934 ; raccordement Krustpils–Jēkabpils fermé en 1944.",
+              "locator": "Tableau : Riga–Daugavpils 1861 ; Riga–Jelgava 1868 ; Liepāja–Vaiņode 1871 ; Sita–Rēzekne 1934 ; ligne Krustpils–Jēkabpils fermée en 1944.",
               "usage": "preuve locale : rail (lecture partielle)"
             },
             {
               "source_id": "src-14-lv-krustpils-jekabpils",
               "locator": "Réunion administrative de Jēkabpils et Krustpils en 1962.",
               "usage": "contexte (situation, nom ou périmètre)"
+            },
+            {
+              "source_id": "src-14-lv-krustpils-local",
+              "locator": "Gare intermédiaire et équipements ferroviaires établis avec la ligne Riga–Daugavpils en 1861; développement en 1901.",
+              "usage": "preuve locale : rail"
             }
           ]
         }
@@ -2572,7 +2638,7 @@
             },
             {
               "source_id": "src-14-lv-rail-chronologie",
-              "locator": "Tableau : Riga–Daugavpils 1861, Jelgava 1868, Liepāja 1871, Ventspils/Krustpils 1901–1904 ; Gulbene 1903/1916, Rēzekne 1934 ; raccordement Krustpils–Jēkabpils fermé en 1944.",
+              "locator": "Tableau : Riga–Daugavpils 1861 ; Riga–Jelgava 1868 ; Liepāja–Vaiņode 1871 ; Sita–Rēzekne 1934 ; ligne Krustpils–Jēkabpils fermée en 1944.",
               "usage": "preuve locale : rail (lecture partielle)"
             }
           ]
@@ -2619,7 +2685,7 @@
             },
             {
               "source_id": "src-14-lv-rail-chronologie",
-              "locator": "Tableau : Riga–Daugavpils 1861, Jelgava 1868, Liepāja 1871, Ventspils/Krustpils 1901–1904 ; Gulbene 1903/1916, Rēzekne 1934 ; raccordement Krustpils–Jēkabpils fermé en 1944.",
+              "locator": "Tableau : Riga–Daugavpils 1861 ; Riga–Jelgava 1868 ; Liepāja–Vaiņode 1871 ; Sita–Rēzekne 1934 ; ligne Krustpils–Jēkabpils fermée en 1944.",
               "usage": "preuve locale : rail (lecture partielle)"
             },
             {
@@ -2671,7 +2737,7 @@
             },
             {
               "source_id": "src-14-lv-rail-chronologie",
-              "locator": "Tableau : Riga–Daugavpils 1861, Jelgava 1868, Liepāja 1871, Ventspils/Krustpils 1901–1904 ; Gulbene 1903/1916, Rēzekne 1934 ; raccordement Krustpils–Jēkabpils fermé en 1944.",
+              "locator": "Tableau : Riga–Daugavpils 1861 ; Riga–Jelgava 1868 ; Liepāja–Vaiņode 1871 ; Sita–Rēzekne 1934 ; ligne Krustpils–Jēkabpils fermée en 1944.",
               "usage": "preuve locale : rail (lecture partielle)"
             }
           ]
@@ -2707,7 +2773,7 @@
               "rail",
               "administration"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.4) : Centre administratif et ferroviaire majeur. La convention capitale régionale/nationale doit être arbitrée séparément de la souveraineté territoriale. Capitale « régionale » au Snapshot 0 : RSS de Lituanie (même convention que Vienne et Prague)."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.4) : Centre administratif et ferroviaire majeur. Capitale « régionale » au Snapshot 0 : RSS de Lituanie (même convention que Vienne et Prague)."
           },
           "geometrie": {
             "type": "Point",
@@ -2724,7 +2790,7 @@
             },
             {
               "source_id": "src-14-lt-rail-vle",
-              "locator": "1861 Kaunas–Kybartai ; 1862 Vilnius ; 1873 branches ; 1875 Tilžė–Klaipėda ; 1930–1932 raccordement vers Šiauliai.",
+              "locator": "VLE : Kaunas–Kybartai en service en 1861 ; ligne Saint-Pétersbourg–Varsovie achevée à travers la Lituanie (par Vilnius) en 1862 ; Liepāja–Romny par Radviliškis 1871–1873.",
               "usage": "preuve locale : rail"
             },
             {
@@ -2785,7 +2851,7 @@
             },
             {
               "source_id": "src-14-lt-rail-vle",
-              "locator": "1861 Kaunas–Kybartai ; 1862 Vilnius ; 1873 branches ; 1875 Tilžė–Klaipėda ; 1930–1932 raccordement vers Šiauliai.",
+              "locator": "VLE : Kaunas–Kybartai en service en 1861 ; ligne Saint-Pétersbourg–Varsovie achevée à travers la Lituanie (par Vilnius) en 1862 ; Liepāja–Romny par Radviliškis 1871–1873.",
               "usage": "preuve locale : rail"
             },
             {
@@ -2845,12 +2911,12 @@
             },
             {
               "source_id": "src-14-lt-rail-ministere",
-              "locator": "Lignes 1862 et 1871–1874 ; branches de 1873 ; trajet Kaunas–Šiauliai documenté avant 1939 ; modification d’écartement en 1940.",
+              "locator": "Le ministère date de 1861 la première ligne de Lituanie ; Liepāja–Romny par Radviliškis 1871–1874 ; embranchements de 1873.",
               "usage": "preuve locale : rail (lecture partielle)"
             },
             {
               "source_id": "src-14-lt-rail-vle",
-              "locator": "1861 Kaunas–Kybartai ; 1862 Vilnius ; 1873 branches ; 1875 Tilžė–Klaipėda ; 1930–1932 raccordement vers Šiauliai.",
+              "locator": "VLE : Kaunas–Kybartai en service en 1861 ; ligne Saint-Pétersbourg–Varsovie achevée à travers la Lituanie (par Vilnius) en 1862 ; Liepāja–Romny par Radviliškis 1871–1873.",
               "usage": "contexte (situation, nom ou périmètre)"
             },
             {
@@ -2866,11 +2932,8 @@
     {
       "entite_id": "ville-lt-klaipeda",
       "type_entite": "ville",
-      "nom": "Memel",
-      "nom_court": "Memel",
-      "aliases": [
-        "Klaipėda"
-      ],
+      "nom": "Klaipėda",
+      "nom_court": "Klaipėda",
       "etats": [
         {
           "etat_id": "etat-01",
@@ -2884,12 +2947,13 @@
           },
           "statut": "ville_au_snapshot0",
           "proprietes": {
+            "nom": "Memel",
             "importance_atlas": "B",
             "roles": [
               "rail",
               "port_maritime"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.4) : Grand port relié aux réseaux ferroviaires baltiques. La prise soviétique du 28 janvier 1945 reste future. Le contexte de siège et de rupture fin 1944 interdit de supposer des liaisons ordinaires intactes."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.4) : Grand port relié aux réseaux ferroviaires baltiques. La prise soviétique du 28 janvier 1945 reste future. Le contexte de siège et de rupture fin 1944 interdit de supposer des liaisons ordinaires intactes. Nom à la date : Memel (aujourd'hui Klaipėda)."
           },
           "geometrie": {
             "type": "Point",
@@ -2906,7 +2970,7 @@
             },
             {
               "source_id": "src-14-lt-rail-vle",
-              "locator": "1861 Kaunas–Kybartai ; 1862 Vilnius ; 1873 branches ; 1875 Tilžė–Klaipėda ; 1930–1932 raccordement vers Šiauliai.",
+              "locator": "VLE : Kaunas–Kybartai en service en 1861 ; ligne Saint-Pétersbourg–Varsovie achevée à travers la Lituanie (par Vilnius) en 1862 ; Liepāja–Romny par Radviliškis 1871–1873.",
               "usage": "preuve locale : rail"
             },
             {
@@ -2963,7 +3027,7 @@
             },
             {
               "source_id": "src-14-lt-rail-vle",
-              "locator": "1861 Kaunas–Kybartai ; 1862 Vilnius ; 1873 branches ; 1875 Tilžė–Klaipėda ; 1930–1932 raccordement vers Šiauliai.",
+              "locator": "VLE : Kaunas–Kybartai en service en 1861 ; ligne Saint-Pétersbourg–Varsovie achevée à travers la Lituanie (par Vilnius) en 1862 ; Liepāja–Romny par Radviliškis 1871–1873.",
               "usage": "preuve locale : rail"
             },
             {
@@ -2998,7 +3062,7 @@
             "roles": [
               "rail"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.4) : Jonction ferroviaire structurante malgré une ville plus petite. Fonction historique retenue ; état précis du service au passage à 1945 non établi. À renforcer : rail."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.4) : Jonction ferroviaire structurante malgré une ville plus petite. Fonction historique retenue ; état précis du service au passage à 1945 non établi."
           },
           "geometrie": {
             "type": "Point",
@@ -3015,8 +3079,13 @@
             },
             {
               "source_id": "src-14-lt-rail-ministere",
-              "locator": "Lignes 1862 et 1871–1874 ; branches de 1873 ; trajet Kaunas–Šiauliai documenté avant 1939 ; modification d’écartement en 1940.",
+              "locator": "Le ministère date de 1861 la première ligne de Lituanie ; Liepāja–Romny par Radviliškis 1871–1874 ; embranchements de 1873.",
               "usage": "preuve locale : rail (lecture partielle)"
+            },
+            {
+              "source_id": "src-14-lt-radviliskis-local",
+              "locator": "La municipalité date la gare du 4 septembre 1871 et décrit son rôle dans la croissance de la ville.",
+              "usage": "preuve locale : rail"
             }
           ]
         }
@@ -3062,7 +3131,7 @@
             },
             {
               "source_id": "src-14-lt-rail-ministere",
-              "locator": "Lignes 1862 et 1871–1874 ; branches de 1873 ; trajet Kaunas–Šiauliai documenté avant 1939 ; modification d’écartement en 1940.",
+              "locator": "Le ministère date de 1861 la première ligne de Lituanie ; Liepāja–Romny par Radviliškis 1871–1874 ; embranchements de 1873.",
               "usage": "preuve locale : rail (lecture partielle)"
             }
           ]
@@ -3109,12 +3178,12 @@
             },
             {
               "source_id": "src-14-lt-rail-vle",
-              "locator": "1861 Kaunas–Kybartai ; 1862 Vilnius ; 1873 branches ; 1875 Tilžė–Klaipėda ; 1930–1932 raccordement vers Šiauliai.",
+              "locator": "VLE : Kaunas–Kybartai en service en 1861 ; ligne Saint-Pétersbourg–Varsovie achevée à travers la Lituanie (par Vilnius) en 1862 ; Liepāja–Romny par Radviliškis 1871–1873.",
               "usage": "preuve locale : rail"
             },
             {
               "source_id": "src-14-lt-rail-ministere",
-              "locator": "Lignes 1862 et 1871–1874 ; branches de 1873 ; trajet Kaunas–Šiauliai documenté avant 1939 ; modification d’écartement en 1940.",
+              "locator": "Le ministère date de 1861 la première ligne de Lituanie ; Liepāja–Romny par Radviliškis 1871–1874 ; embranchements de 1873.",
               "usage": "contexte (situation, nom ou périmètre) (lecture partielle)"
             }
           ]
@@ -3161,7 +3230,7 @@
             },
             {
               "source_id": "src-14-lt-rail-vle",
-              "locator": "1861 Kaunas–Kybartai ; 1862 Vilnius ; 1873 branches ; 1875 Tilžė–Klaipėda ; 1930–1932 raccordement vers Šiauliai.",
+              "locator": "VLE : Kaunas–Kybartai en service en 1861 ; ligne Saint-Pétersbourg–Varsovie achevée à travers la Lituanie (par Vilnius) en 1862 ; Liepāja–Romny par Radviliškis 1871–1873.",
               "usage": "preuve locale : rail"
             }
           ]
