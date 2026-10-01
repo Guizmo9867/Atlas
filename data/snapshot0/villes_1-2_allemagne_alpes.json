@@ -3,7 +3,7 @@
     "nom": "snapshot0_villes_1-2_allemagne_alpes",
     "date_reference": "1945-01-01",
     "heure_reference": "00:00",
-    "version": "0.2",
+    "version": "0.3",
     "statut": "integre_par_claude",
     "gabarit_source": "gabarits/gabarit_entite_temporelle_atlas.json",
     "zone": [
@@ -48,7 +48,8 @@
         "Vaduz : aucune source fournie -> Wikidata (capitale du Liechtenstein) en attendant une source officielle.",
         "Villes marquées « à renforcer » par Ether : mention « Rôle à sourcer localement » dans la note.",
         "Positions : Wikidata (CC0), QID en locator ; vérifiées contre Natural Earth.",
-        "v0.2 (01/10, retour d'audit d'Ether) : Vaduz A -> C (capitale nationale gardée : type de capitale et importance sont indépendants), source officielle de la commune ajoutée ; Vienne A et capitale régionale confirmées ; Aix-la-Chapelle « évacuée et détruite » (source MWI/West Point) ; Graz : page sur les pompiers retirée des preuves ; sources générales (DB Museum, CFF) et limitées = contexte seulement ; « Rôle à sourcer localement » sur chaque ville sans source lue qui prouve son rôle. Lot ouvert : 9 candidats à l'ajout et sources de remplacement attendus d'Ether."
+        "v0.2 (01/10, retour d'audit d'Ether) : Vaduz A -> C (capitale nationale gardée : type de capitale et importance sont indépendants), source officielle de la commune ajoutée ; Vienne A et capitale régionale confirmées ; Aix-la-Chapelle « évacuée et détruite » (source MWI/West Point) ; Graz : page sur les pompiers retirée des preuves ; sources générales (DB Museum, CFF) et limitées = contexte seulement ; « Rôle à sourcer localement » sur chaque ville sans source lue qui prouve son rôle. Lot ouvert : 9 candidats à l'ajout et sources de remplacement attendus d'Ether.",
+        "v0.3 (01/10, second audit d'Ether) : 9 villes ajoutées (Hamm, Ludwigshafen, Mayence, Schweinfurt, Augsbourg, Leuna, Watenstedt-Salzgitter, Leoben avec Donawitz, Osnabrück) ; Bremerhaven s'appelle Wesermünde au Snapshot 0 (même ID) ; Rostock : industrie au lieu d'aviation (Heinkel = fabrication) ; Bâle : + industrie ; Bregenz : + port (lac) ; preuves locales rôle par rôle (75 sources nouvelles, relues par Claude) ; la note dit précisément quels rôles restent à renforcer."
       ]
     }
   },
@@ -79,7 +80,7 @@
               "industrie",
               "administration"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Capitale du Reich au 01/01/1945, centre politique, industriel et ferroviaire majeur. Rôle à sourcer localement (aucune source lue ne le prouve encore)."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Capitale du Reich au 01/01/1945, centre politique, industriel et ferroviaire majeur. Audit du 01/10 : Anhalter Bahnhof : édifices de 1839–1841/1880 et S-Bahn de 1939 ; rupture de 1945 non anticipée. À renforcer : industrie."
           },
           "geometrie": {
             "type": "Point",
@@ -98,6 +99,11 @@
               "source_id": "src-db-museum-history",
               "locator": "",
               "usage": "contexte national seulement (ne prouve pas le rôle local)"
+            },
+            {
+              "source_id": "src-12a-berlin-anhalter",
+              "locator": "Section Entstehung und Funktion ; raccordement S-Bahn 1939",
+              "usage": "preuve locale : rail"
             }
           ]
         }
@@ -132,7 +138,7 @@
               "rail",
               "industrie"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Grand port maritime de l'Elbe et nœud de commerce international. Rôle à sourcer localement (aucune source lue ne le prouve encore)."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Grand port maritime de l'Elbe et nœud de commerce international. Audit du 01/10 : Port et entrepôts historiques ; extension territoriale de 1937. Rail et industrie locale restent à étayer. À renforcer : rail, industrie, port_maritime."
           },
           "geometrie": {
             "type": "Point",
@@ -150,7 +156,7 @@
             {
               "source_id": "src-hamburg-port-history",
               "locator": "",
-              "usage": "rôle de la ville au 01/01/1945 (non vérifiée lors de l'audit)"
+              "usage": "preuve locale : port_maritime (non vérifiée par Claude)"
             }
           ]
         }
@@ -185,7 +191,7 @@
               "rail",
               "industrie"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Ville portuaire de la Weser, historiquement couplée à Bremerhaven. Rôle à sourcer localement (aucune source lue ne le prouve encore)."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Ville portuaire de la Weser, historiquement couplée à Bremerhaven. Audit du 01/10 : Rail vers Hanovre dès 1847 ; port historique. Dégâts du 18–19/08/1944 distincts du bilan de toute la guerre. À renforcer : industrie."
           },
           "geometrie": {
             "type": "Point",
@@ -204,6 +210,16 @@
               "source_id": "src-bremenports",
               "locator": "",
               "usage": "contexte (ne prouve pas seule le rôle au 01/01/1945)"
+            },
+            {
+              "source_id": "src-12a-dresden-gare",
+              "locator": "Sections Dresde (1898), Nuremberg (1844–1847, remaniement 1900–1906), Francfort (1888, extension 1924), Brême (1885–1889)",
+              "usage": "preuve locale : rail"
+            },
+            {
+              "source_id": "src-12a-bremen-histoire",
+              "locator": "Chronologie : 1580, 1827, 1847 et 1939–1945",
+              "usage": "preuve locale : rail, port_maritime"
             }
           ]
         }
@@ -213,8 +229,12 @@
     {
       "entite_id": "ville-de-bremerhaven",
       "type_entite": "ville",
-      "nom": "Bremerhaven",
-      "nom_court": "Bremerhaven",
+      "nom": "Wesermünde",
+      "nom_court": "Wesermünde",
+      "aliases": [
+        "Bremerhaven",
+        "Wesermuende"
+      ],
       "etats": [
         {
           "etat_id": "etat-01",
@@ -233,7 +253,7 @@
               "port_maritime",
               "rail"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Avant-port maritime profond de Brême à l'embouchure de la Weser. Rôle à sourcer localement (aucune source lue ne le prouve encore)."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Avant-port maritime profond de Brême à l'embouchure de la Weser. Audit du 01/10 : Au Snapshot 0 : Wesermünde. Réunion de 1939 ; changement de nom en 1947. Dégâts du 18/09/1944."
           },
           "geometrie": {
             "type": "Point",
@@ -252,6 +272,11 @@
               "source_id": "src-bremenports",
               "locator": "",
               "usage": "contexte (ne prouve pas seule le rôle au 01/01/1945)"
+            },
+            {
+              "source_id": "src-12a-wesermuende",
+              "locator": "Paragraphes Geestemünde, fusion 1939 et bombardement du 18 septembre 1944",
+              "usage": "preuve locale : rail, port_maritime"
             }
           ]
         }
@@ -282,7 +307,7 @@
               "militaire",
               "construction_navale"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Grand port militaire et chantier naval de la Baltique. Rôle à sourcer localement (aucune source lue ne le prouve encore)."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Grand port militaire et chantier naval de la Baltique. Audit du 01/10 : Chantiers et production navale de guerre ; bombardements de juillet 1944 affectant la production. Avril/mai 1945 séparés. À renforcer : port_maritime, construction_navale, militaire."
           },
           "geometrie": {
             "type": "Point",
@@ -301,6 +326,11 @@
               "source_id": "src-kiel-1945",
               "locator": "",
               "usage": "contexte (ne prouve pas seule le rôle au 01/01/1945)"
+            },
+            {
+              "source_id": "src-12a-kiel-chantiers",
+              "locator": "Section Die Kieler Werften ab 1933 im Dienst der Rüstungsindustrie",
+              "usage": "preuve locale : construction_navale, militaire (non vérifiée par Claude)"
             }
           ]
         }
@@ -333,7 +363,7 @@
               "port_maritime",
               "rail"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Port historique de la Baltique et tête des échanges avec la Scandinavie. Rôle à sourcer localement (aucune source lue ne le prouve encore)."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Port historique de la Baltique et tête des échanges avec la Scandinavie. Audit du 01/10 : Gare LBE ouverte en 1908 ; cette preuve ne couvre pas le port. À renforcer : port_maritime, rail."
           },
           "geometrie": {
             "type": "Point",
@@ -352,6 +382,11 @@
               "source_id": "src-db-museum-history",
               "locator": "",
               "usage": "contexte national seulement (ne prouve pas le rôle local)"
+            },
+            {
+              "source_id": "src-12a-luebeck-gare",
+              "locator": "Section « Nächster Halt seit 1908 », ouverture du 01/05/1908",
+              "usage": "preuve locale : rail (non vérifiée par Claude)"
             }
           ]
         }
@@ -386,7 +421,7 @@
               "rail",
               "industrie"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Grand carrefour ferroviaire transversal et important centre de fret."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Grand carrefour ferroviaire transversal et important centre de fret. Audit du 01/10 : Ligne de 1843 et gare de marchandises reconstruite en 1931 ; capacités des années 1950 exclues. À renforcer : industrie."
           },
           "geometrie": {
             "type": "Point",
@@ -404,12 +439,12 @@
             {
               "source_id": "src-hannover-rail",
               "locator": "",
-              "usage": "rôle de la ville au 01/01/1945"
+              "usage": "preuve locale : rail"
             },
             {
               "source_id": "src-hannover-freight",
               "locator": "",
-              "usage": "rôle de la ville au 01/01/1945"
+              "usage": "preuve locale : rail"
             }
           ]
         }
@@ -445,7 +480,7 @@
               "rail",
               "charbon"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Nœud Rhin–Ruhr, port fluvial et centre sidérurgique/charbonnier. Rôle à sourcer localement (aucune source lue ne le prouve encore)."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Nœud Rhin–Ruhr, port fluvial et centre sidérurgique/charbonnier. Audit du 01/10 : Embranchement de Ruhrort en 1848 destiné aux installations portuaires ; moyens actuels exclus. À renforcer : industrie."
           },
           "geometrie": {
             "type": "Point",
@@ -464,6 +499,11 @@
               "source_id": "src-db-museum-history",
               "locator": "",
               "usage": "contexte national seulement (ne prouve pas le rôle local)"
+            },
+            {
+              "source_id": "src-12a-duisburg-rail-port",
+              "locator": "Sous-titre « Schiene mit Tradition: Von 1848 bis heute », paragraphe du 14/10/1848",
+              "usage": "preuve locale : rail, port_fluvial"
             }
           ]
         }
@@ -495,7 +535,7 @@
               "rail",
               "militaire"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Cœur industriel de la Ruhr, marqué par Krupp et le charbon."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Cœur industriel de la Ruhr, marqué par Krupp et le charbon. Audit du 01/10 : Mines, acier Krupp, rail local de 1847/1862 et production d’armement ; militaire au sens industriel."
           },
           "geometrie": {
             "type": "Point",
@@ -513,12 +553,12 @@
             {
               "source_id": "src-essen-industry",
               "locator": "",
-              "usage": "rôle de la ville au 01/01/1945"
+              "usage": "preuve locale : rail, industrie, militaire"
             },
             {
               "source_id": "src-essen-krupp",
               "locator": "",
-              "usage": "rôle de la ville au 01/01/1945"
+              "usage": "preuve locale : industrie, militaire"
             }
           ]
         }
@@ -550,7 +590,7 @@
               "charbon",
               "port_fluvial"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Grand nœud ferroviaire de la Ruhr, charbon, acier et port-canal."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Grand nœud ferroviaire de la Ruhr, charbon, acier et port-canal. Audit du 01/10 : Mines et sidérurgie Hoesch/Union ; port de 1899. Jour d’ouverture divergent dans deux notices municipales. À renforcer : industrie."
           },
           "geometrie": {
             "type": "Point",
@@ -568,17 +608,22 @@
             {
               "source_id": "src-dortmund-rail",
               "locator": "",
-              "usage": "rôle de la ville au 01/01/1945"
+              "usage": "preuve locale : rail"
             },
             {
               "source_id": "src-dortmund-port",
               "locator": "",
-              "usage": "rôle de la ville au 01/01/1945"
+              "usage": "preuve locale : port_fluvial"
             },
             {
               "source_id": "src-dortmund-industry",
               "locator": "",
-              "usage": "rôle de la ville au 01/01/1945 (non vérifiée lors de l'audit)"
+              "usage": "remplacée par src-12a-dortmund-industrie (ancienne page non relue)"
+            },
+            {
+              "source_id": "src-12a-dortmund-industrie",
+              "locator": "Sections 1850–1870 et 1871–1914 : sidérurgie, mines et arrivées de minerai ; section guerre pour limites",
+              "usage": "preuve locale : rail, industrie, port_fluvial (non vérifiée par Claude)"
             }
           ]
         }
@@ -614,7 +659,7 @@
               "port_fluvial",
               "industrie"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Grand nœud rhénan ferroviaire et fluvial. Rôle à sourcer localement (aucune source lue ne le prouve encore)."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Grand nœud rhénan ferroviaire et fluvial. Audit du 01/10 : Gare centrale et franchissement du Rhin de 1859 ; pont Hohenzollern antérieur à 1945. À renforcer : port_fluvial, industrie, rail."
           },
           "geometrie": {
             "type": "Point",
@@ -633,6 +678,11 @@
               "source_id": "src-db-museum-history",
               "locator": "",
               "usage": "contexte national seulement (ne prouve pas le rôle local)"
+            },
+            {
+              "source_id": "src-12a-koeln-gare",
+              "locator": "Entrées 03/10/1859 et 05/12/1859",
+              "usage": "preuve locale : rail (non vérifiée par Claude)"
             }
           ]
         }
@@ -667,7 +717,7 @@
               "industrie",
               "rail"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Centre rhénan industriel et ferroviaire. Rôle à sourcer localement (aucune source lue ne le prouve encore)."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Centre rhénan industriel et ferroviaire. Audit du 01/10 : Port de 1896 relié au rail ; étude patrimoniale locale C, industrie encore à documenter. À renforcer : industrie. Précisions à apporter : Consolidation de la source patrimoniale C par archives ou opérateur."
           },
           "geometrie": {
             "type": "Point",
@@ -686,6 +736,11 @@
               "source_id": "src-db-museum-history",
               "locator": "",
               "usage": "contexte national seulement (ne prouve pas le rôle local)"
+            },
+            {
+              "source_id": "src-12a-duesseldorf-port",
+              "locator": "Paragraphes du lancement de 1890 à l'ouverture de 1896, liaison ferroviaire et entrepôts",
+              "usage": "preuve locale : rail, port_fluvial"
             }
           ]
         }
@@ -721,7 +776,7 @@
               "port_fluvial",
               "aviation"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Très grand nœud ferroviaire sur le Main, avec rôle aérien déjà établi avant-guerre."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Très grand nœud ferroviaire sur le Main, avec rôle aérien déjà établi avant-guerre. Audit du 01/10 : Gare de 1888, extension de 1924. Cela ne valide ni port ni aéroport au Snapshot 0. À renforcer : port_fluvial, aviation."
           },
           "geometrie": {
             "type": "Point",
@@ -739,12 +794,17 @@
             {
               "source_id": "src-frankfurt-hbf",
               "locator": "",
-              "usage": "rôle de la ville au 01/01/1945 (non vérifiée lors de l'audit)"
+              "usage": "remplacée par src-12a-dresden-gare (ancienne page non relue)"
             },
             {
               "source_id": "src-frankfurt-station-district",
               "locator": "",
-              "usage": "rôle de la ville au 01/01/1945"
+              "usage": "preuve locale : rail"
+            },
+            {
+              "source_id": "src-12a-dresden-gare",
+              "locator": "Sections Dresde (1898), Nuremberg (1844–1847, remaniement 1900–1906), Francfort (1888, extension 1924), Brême (1885–1889)",
+              "usage": "preuve locale : rail"
             }
           ]
         }
@@ -775,7 +835,7 @@
               "rail",
               "industrie"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Confluence Rhin–Neckar, grand port intérieur et nœud ferroviaire industriel."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Confluence Rhin–Neckar, grand port intérieur et nœud ferroviaire industriel. Audit du 01/10 : Port de 1828/1840, première gare de 1840, liaison portuaire par Schleifbahn dès 1854. À renforcer : industrie."
           },
           "geometrie": {
             "type": "Point",
@@ -793,12 +853,12 @@
             {
               "source_id": "src-mannheim-rheinhafen",
               "locator": "",
-              "usage": "rôle de la ville au 01/01/1945"
+              "usage": "preuve locale : port_fluvial"
             },
             {
               "source_id": "src-mannheim-rail",
               "locator": "",
-              "usage": "rôle de la ville au 01/01/1945"
+              "usage": "preuve locale : rail, port_fluvial"
             }
           ]
         }
@@ -828,7 +888,7 @@
               "rail",
               "industrie"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Grand centre industriel et ferroviaire du sud-ouest allemand. Rôle à sourcer localement (aucune source lue ne le prouve encore)."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Grand centre industriel et ferroviaire du sud-ouest allemand. Audit du 01/10 : Gare de 1922–1928 et production de guerre à Untertürkheim ; chiffres du groupe Daimler non localisés exclus. À renforcer : industrie."
           },
           "geometrie": {
             "type": "Point",
@@ -847,6 +907,16 @@
               "source_id": "src-db-museum-history",
               "locator": "",
               "usage": "contexte national seulement (ne prouve pas le rôle local)"
+            },
+            {
+              "source_id": "src-12a-stuttgart-daimler",
+              "locator": "Paragraphes reconversion industrielle 1939–1943, Stuttgart-Untertürkheim",
+              "usage": "preuve locale : industrie (non vérifiée par Claude)"
+            },
+            {
+              "source_id": "src-12a-stuttgart-gare",
+              "locator": "Paragraphes inauguration 1922, voies complètes en 1925, bâtiment 1928",
+              "usage": "preuve locale : rail"
             }
           ]
         }
@@ -881,7 +951,7 @@
               "rail",
               "industrie"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Grand nœud ferroviaire bavarois et ville industrielle ; berceau historique du rail allemand. Rôle à sourcer localement (aucune source lue ne le prouve encore)."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Grand nœud ferroviaire bavarois et ville industrielle ; berceau historique du rail allemand. Audit du 01/10 : Gare de 1844–1847, transformation 1900–1906 ; pas d’événement journalier inventé en 1903 ou 1905. À renforcer : industrie."
           },
           "geometrie": {
             "type": "Point",
@@ -900,6 +970,11 @@
               "source_id": "src-db-museum-history",
               "locator": "",
               "usage": "contexte national seulement (ne prouve pas le rôle local)"
+            },
+            {
+              "source_id": "src-12a-dresden-gare",
+              "locator": "Sections Dresde (1898), Nuremberg (1844–1847, remaniement 1900–1906), Francfort (1888, extension 1924), Brême (1885–1889)",
+              "usage": "preuve locale : rail"
             }
           ]
         }
@@ -935,7 +1010,7 @@
               "industrie",
               "administration"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Grande métropole bavaroise, carrefour ferroviaire et industriel. Rôle à sourcer localement (aucune source lue ne le prouve encore)."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Grande métropole bavaroise, carrefour ferroviaire et industriel. Audit du 01/10 : Rail Munich–Augsbourg en 1839–1840 et implantation de Maffei ; pas de capacité industrielle chiffrée en 1945."
           },
           "geometrie": {
             "type": "Point",
@@ -954,6 +1029,11 @@
               "source_id": "src-db-museum-history",
               "locator": "",
               "usage": "contexte national seulement (ne prouve pas le rôle local)"
+            },
+            {
+              "source_id": "src-12a-muenchen-chronologie",
+              "locator": "Entrées 1839, 1840, 1847 et 1854",
+              "usage": "preuve locale : rail, industrie"
             }
           ]
         }
@@ -983,7 +1063,7 @@
               "rail",
               "industrie"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Grand centre ferroviaire et commercial ; Hauptbahnhof ouvert en 1915."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Grand centre ferroviaire et commercial ; Hauptbahnhof ouvert en 1915. Audit du 01/10 : Gare ouverte en 1915. Les véhicules exposés aujourd’hui ne prouvent pas leur affectation à Leipzig en 1945. À renforcer : industrie."
           },
           "geometrie": {
             "type": "Point",
@@ -1001,7 +1081,7 @@
             {
               "source_id": "src-leipzig-db-museum",
               "locator": "",
-              "usage": "rôle de la ville au 01/01/1945"
+              "usage": "preuve locale : rail"
             }
           ]
         }
@@ -1036,7 +1116,7 @@
               "industrie",
               "port_fluvial"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Grande ville industrielle et ferroviaire de l'Elbe. Rôle à sourcer localement (aucune source lue ne le prouve encore)."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Grande ville industrielle et ferroviaire de l'Elbe. Audit du 01/10 : Gare de 1898 ; bombardements de février 1945 non anticipés. Rail seul prouvé par cette notice. À renforcer : industrie, port_fluvial."
           },
           "geometrie": {
             "type": "Point",
@@ -1055,6 +1135,11 @@
               "source_id": "src-db-museum-history",
               "locator": "",
               "usage": "contexte national seulement (ne prouve pas le rôle local)"
+            },
+            {
+              "source_id": "src-12a-dresden-gare",
+              "locator": "Sections Dresde (1898), Nuremberg (1844–1847, remaniement 1900–1906), Francfort (1888, extension 1924), Brême (1885–1889)",
+              "usage": "preuve locale : rail"
             }
           ]
         }
@@ -1089,7 +1174,7 @@
               "rail",
               "industrie"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Port de l'Elbe et centre industriel ; installations portuaires majeures avant leur destruction en janvier 1945. Destruction du port le 16/01/1945 : à traiter au ratissage de janvier (préciser l'objet touché : port, équipements ou ville)."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Port de l'Elbe et centre industriel ; installations portuaires majeures avant leur destruction en janvier 1945. Destruction du port le 16/01/1945 : à traiter au ratissage de janvier (préciser l'objet touché : port, équipements ou ville). Audit du 01/10 : Port de 1888–1893 et raccordement ferroviaire ; destruction du 16/01/1945, puis arrêt complet plusieurs mois après. À renforcer : industrie."
           },
           "geometrie": {
             "type": "Point",
@@ -1107,7 +1192,7 @@
             {
               "source_id": "src-magdeburg-port",
               "locator": "",
-              "usage": "rôle de la ville au 01/01/1945"
+              "usage": "preuve locale : rail, port_fluvial"
             }
           ]
         }
@@ -1137,7 +1222,7 @@
               "rail",
               "industrie"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Nœud ferroviaire et industriel de l'Allemagne centrale. Rôle à sourcer localement (aucune source lue ne le prouve encore)."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Nœud ferroviaire et industriel de l'Allemagne centrale. Audit du 01/10 : Gare/nœud de 1890. L’industrie chimique de Leuna n’est pas transférée automatiquement à Halle. À renforcer : industrie."
           },
           "geometrie": {
             "type": "Point",
@@ -1156,6 +1241,11 @@
               "source_id": "src-db-museum-history",
               "locator": "",
               "usage": "contexte national seulement (ne prouve pas le rôle local)"
+            },
+            {
+              "source_id": "src-12a-halle-gare",
+              "locator": "Entrée 1890, gare centrale et séparation du fret",
+              "usage": "preuve locale : rail"
             }
           ]
         }
@@ -1184,9 +1274,9 @@
             "roles": [
               "port_maritime",
               "construction_navale",
-              "aviation"
+              "industrie"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Grand port baltique et centre industriel/aéronautique. Rôle à sourcer localement (aucune source lue ne le prouve encore)."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Grand port baltique et centre industriel/aéronautique. Audit du 01/10 : Heinkel atteste la construction d’avions, à classer industrie ; cela ne prouve pas un service de transport aérien. Rôle retiré : aviation (Heinkel prouve la construction aéronautique, pas un rôle de transport aérien. Le rôle aviation reste à instruire avec une source de terrain/service.) À renforcer : port_maritime, construction_navale."
           },
           "geometrie": {
             "type": "Point",
@@ -1205,6 +1295,11 @@
               "source_id": "src-db-museum-history",
               "locator": "",
               "usage": "contexte national seulement (ne prouve pas le rôle local)"
+            },
+            {
+              "source_id": "src-12a-rostock-heinkel",
+              "locator": "Présentation de l'exposition, paragraphes sur les années 1920–1930 et avril 1942",
+              "usage": "preuve locale : industrie"
             }
           ]
         }
@@ -1235,7 +1330,7 @@
               "militaire",
               "construction_navale"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Grande base navale de la mer du Nord. Rôle à sourcer localement (aucune source lue ne le prouve encore)."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Grande base navale de la mer du Nord. Audit du 01/10 : Établissement naval et essor 1933–1939 ; réunion avec Rüstringen en 1937 ; bilan final 1945 exclu. À renforcer : construction_navale."
           },
           "geometrie": {
             "type": "Point",
@@ -1254,6 +1349,11 @@
               "source_id": "src-db-museum-history",
               "locator": "",
               "usage": "contexte national seulement (ne prouve pas le rôle local)"
+            },
+            {
+              "source_id": "src-12a-wilhelmshaven-marine",
+              "locator": "Paragraphes « Marine-Etablissement », essor 1933–1939 et réunion de 1937",
+              "usage": "preuve locale : port_maritime, militaire"
             }
           ]
         }
@@ -1290,7 +1390,7 @@
               "frontalier",
               "industrie"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Centre du bassin sarrois, ferroviaire, charbonnier et frontalier avec la France. Rôle à sourcer localement (aucune source lue ne le prouve encore)."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Centre du bassin sarrois, ferroviaire, charbonnier et frontalier avec la France. Audit du 01/10 : Liaisons ferroviaires franco-allemandes de 1850–1852 ; ouverture effective des passages en 1945 non démontrée. À renforcer : industrie, frontalier."
           },
           "geometrie": {
             "type": "Point",
@@ -1309,6 +1409,11 @@
               "source_id": "src-db-museum-history",
               "locator": "",
               "usage": "contexte national seulement (ne prouve pas le rôle local)"
+            },
+            {
+              "source_id": "src-12a-saarbruecken-rail",
+              "locator": "Entrées 1850–1852 et 15 octobre 1852",
+              "usage": "preuve locale : rail"
             }
           ]
         }
@@ -1338,7 +1443,7 @@
               "industrie",
               "rail"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Grand centre industriel de Saxe, fortement lié à la mécanique et au rail. Rôle à sourcer localement (aucune source lue ne le prouve encore)."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Grand centre industriel de Saxe, fortement lié à la mécanique et au rail. Audit du 01/10 : Auto-Union à partir de 1936, production locale de guerre. Bombardements de février/mars 1945 exclus du Snapshot. À renforcer : rail, industrie."
           },
           "geometrie": {
             "type": "Point",
@@ -1357,6 +1462,11 @@
               "source_id": "src-db-museum-history",
               "locator": "",
               "usage": "contexte national seulement (ne prouve pas le rôle local)"
+            },
+            {
+              "source_id": "src-12a-chemnitz-industrie",
+              "locator": "Paragraphes sur 1936 et sur les entreprises pendant la Seconde Guerre mondiale",
+              "usage": "preuve locale : industrie (non vérifiée par Claude)"
             }
           ]
         }
@@ -1391,7 +1501,7 @@
               "industrie",
               "militaire"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Carrefour ferroviaire central et important centre industriel de guerre. Rôle à sourcer localement (aucune source lue ne le prouve encore)."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Carrefour ferroviaire central et important centre industriel de guerre. Audit du 01/10 : Henschel/industrie de guerre locale attestée ; ne pas absorber le site distinct d’Altenbauna dans la ville. À renforcer : rail."
           },
           "geometrie": {
             "type": "Point",
@@ -1410,6 +1520,11 @@
               "source_id": "src-db-museum-history",
               "locator": "",
               "usage": "contexte national seulement (ne prouve pas le rôle local)"
+            },
+            {
+              "source_id": "src-12a-kassel-industrie",
+              "locator": "Entrées production Henschel, Credé et bombardements 1941–1943",
+              "usage": "preuve locale : industrie, militaire"
             }
           ]
         }
@@ -1440,7 +1555,7 @@
               "port_fluvial",
               "industrie"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Nœud ferroviaire du Rhin supérieur, connecté vers France, Suisse et sud allemand. Rôle à sourcer localement (aucune source lue ne le prouve encore)."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Nœud ferroviaire du Rhin supérieur, connecté vers France, Suisse et sud allemand. Audit du 01/10 : Port de 1901 avec accès ferroviaire et charbon ; le Rhin géographique devient ici un rôle portuaire étayé. À renforcer : industrie, rail, port_fluvial."
           },
           "geometrie": {
             "type": "Point",
@@ -1459,6 +1574,11 @@
               "source_id": "src-db-museum-history",
               "locator": "",
               "usage": "contexte national seulement (ne prouve pas le rôle local)"
+            },
+            {
+              "source_id": "src-12a-karlsruhe-port",
+              "locator": "Paragraphes construction 1896–1901, charbon et expansions",
+              "usage": "preuve locale : rail, port_fluvial (lecture partielle)"
             }
           ]
         }
@@ -1494,7 +1614,7 @@
               "industrie"
             ],
             "situation": "evacuee et detruite",
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Ville-frontière ferroviaire vers Belgique/Pays-Bas, déjà occupée par les Alliés au Snapshot 0. Situation au 01/01/1945 (source MWI) : évacuation des civils ordonnée par les autorités allemandes à l'automne 1944, il ne restait qu'environ 5 000 à 20 000 des 165 000 habitants au début des combats ; plus de 80 % des bâtiments détruits ; ville prise par les Américains le 21/10/1944. Cela ne prouve pas l'arrêt total du réseau ferroviaire. Rôle à sourcer localement (aucune source lue ne le prouve encore)."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Ville-frontière ferroviaire vers Belgique/Pays-Bas, déjà occupée par les Alliés au Snapshot 0. Situation au 01/01/1945 (source MWI) : évacuation des civils ordonnée par les autorités allemandes à l'automne 1944, il ne restait qu'environ 5 000 à 20 000 des 165 000 habitants au début des combats ; plus de 80 % des bâtiments détruits ; ville prise par les Américains le 21/10/1944. Cela ne prouve pas l'arrêt total du réseau ferroviaire. Audit du 01/10 : Gare de 1841/1905 et situation issue des combats d’octobre 1944 ; pas d’arrêt total du rail déduit. À renforcer : industrie."
           },
           "geometrie": {
             "type": "Point",
@@ -1513,6 +1633,16 @@
               "source_id": "src-db-museum-history",
               "locator": "",
               "usage": "contexte national seulement (ne prouve pas le rôle local)"
+            },
+            {
+              "source_id": "src-12a-aachen-gare",
+              "locator": "Description historique : première gare de 1841 sur la ligne Cologne–Anvers ; gare de 1905",
+              "usage": "preuve locale : rail, frontalier"
+            },
+            {
+              "source_id": "src-mwi-aachen-1944",
+              "locator": "sections sur la population et le bilan",
+              "usage": "preuve locale : contexte"
             },
             {
               "source_id": "src-mwi-aachen-1944",
@@ -1551,7 +1681,7 @@
               "rail",
               "port_fluvial"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Confluence Rhin–Moselle et nœud ferroviaire régional. Rôle à sourcer localement (aucune source lue ne le prouve encore)."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Confluence Rhin–Moselle et nœud ferroviaire régional. Audit du 01/10 : Rail de 1858, lignes rhénanes/Moselle et gare réunie en 1902 ; confluence seule ne prouve pas un port. À renforcer : port_fluvial."
           },
           "geometrie": {
             "type": "Point",
@@ -1570,6 +1700,11 @@
               "source_id": "src-db-museum-history",
               "locator": "",
               "usage": "contexte national seulement (ne prouve pas le rôle local)"
+            },
+            {
+              "source_id": "src-12a-koblenz-gare",
+              "locator": "Sections premier train du 11/11/1858 et gare centrale de 1902 ; références Franke et Dehio",
+              "usage": "preuve locale : rail"
             }
           ]
         }
@@ -1604,7 +1739,7 @@
               "rail",
               "industrie"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Port danubien et carrefour ferroviaire bavarois. Rôle à sourcer localement (aucune source lue ne le prouve encore)."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Port danubien et carrefour ferroviaire bavarois. Audit du 01/10 : Transbordement Danube–rail de 1865, port de 1910. Relations avec Linz après 1945 non anticipées. À renforcer : industrie."
           },
           "geometrie": {
             "type": "Point",
@@ -1623,6 +1758,11 @@
               "source_id": "src-db-museum-history",
               "locator": "",
               "usage": "contexte national seulement (ne prouve pas le rôle local)"
+            },
+            {
+              "source_id": "src-12a-regensburg-port-rail",
+              "locator": "Section histoire : transbordement en 1865 ; ouverture de juin 1910 ; extension 1919–1923",
+              "usage": "preuve locale : rail, port_fluvial"
             }
           ]
         }
@@ -1653,7 +1793,7 @@
               "frontalier",
               "rail"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Ville de confluence du Danube à la frontière autrichienne, utile pour les flux fluviaux et terrestres. Rôle à sourcer localement (aucune source lue ne le prouve encore)."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Ville de confluence du Danube à la frontière autrichienne, utile pour les flux fluviaux et terrestres. Audit du 01/10 : Rail Passau–Straubing dès 1860. Confluence et proximité de frontière ne prouvent pas un trafic fluvial de 1945. À renforcer : port_fluvial, frontalier."
           },
           "geometrie": {
             "type": "Point",
@@ -1672,6 +1812,11 @@
               "source_id": "src-db-museum-history",
               "locator": "",
               "usage": "contexte national seulement (ne prouve pas le rôle local)"
+            },
+            {
+              "source_id": "src-12a-passau-rail",
+              "locator": "PDF p. 6 (index 5), chronologie, entrée 1860",
+              "usage": "preuve locale : rail"
             }
           ]
         }
@@ -1706,7 +1851,7 @@
               "frontalier",
               "rail"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Port et ville-frontière proche du Danemark. Rôle à sourcer localement (aucune source lue ne le prouve encore)."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Port et ville-frontière proche du Danemark. Audit du 01/10 : Rail de 1854 et transbordement rail–vapeur de 1856 ; transit frontalier de janvier 1945 non garanti. À renforcer : frontalier."
           },
           "geometrie": {
             "type": "Point",
@@ -1725,6 +1870,11 @@
               "source_id": "src-db-museum-history",
               "locator": "",
               "usage": "contexte national seulement (ne prouve pas le rôle local)"
+            },
+            {
+              "source_id": "src-12a-flensburg-port-rail",
+              "locator": "Entrées 1854, 1856 et 1864",
+              "usage": "preuve locale : rail, port_maritime"
             }
           ]
         }
@@ -1755,7 +1905,7 @@
               "industrie",
               "militaire"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Port de la mer du Nord et nœud maritime régional. Rôle à sourcer localement (aucune source lue ne le prouve encore)."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Port de la mer du Nord et nœud maritime régional. Audit du 01/10 : Quais et transbordement charbon/minerai avant 1945 ; ne pas confondre arrêt des extensions et fermeture du port. À renforcer : industrie, militaire."
           },
           "geometrie": {
             "type": "Point",
@@ -1774,6 +1924,11 @@
               "source_id": "src-db-museum-history",
               "locator": "",
               "usage": "contexte national seulement (ne prouve pas le rôle local)"
+            },
+            {
+              "source_id": "src-12a-emden-port-minerais",
+              "locator": "Sections « Standort Nord- und Südkai », « Start des Erz-Umschlags », 1922 et 1926",
+              "usage": "preuve locale : port_maritime"
             }
           ]
         }
@@ -1812,7 +1967,7 @@
               "industrie",
               "administration"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Capitale historique autrichienne, intégrée au Reich au Snapshot 0 ; grand nœud ferroviaire et danubien. Capitale régionale (Reichsgau Wien) au 01/01/1945. Retour au statut de capitale nationale : futur état daté, repère du 27/04/1945 à instruire avec une source dédiée (rétablissement politique, statut de capitale et contrôle effectif à distinguer). Rôle à sourcer localement (aucune source lue ne le prouve encore)."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Capitale historique autrichienne, intégrée au Reich au Snapshot 0 ; grand nœud ferroviaire et danubien. Capitale régionale (Reichsgau Wien) au 01/01/1945. Retour au statut de capitale nationale : futur état daté, repère du 27/04/1945 à instruire avec une source dédiée (rétablissement politique, statut de capitale et contrôle effectif à distinguer). Audit du 01/10 : Utiliser les gares Sud/Est historiques, pas le Hauptbahnhof moderne. Statut régional conservé de la v0.2. À renforcer : port_fluvial, industrie."
           },
           "geometrie": {
             "type": "Point",
@@ -1831,6 +1986,11 @@
               "source_id": "src-vienna-nazi-history",
               "locator": "",
               "usage": "contexte (ne prouve pas seule le rôle au 01/01/1945)"
+            },
+            {
+              "source_id": "src-12a-vienna-suedbahnhof",
+              "locator": "Entrées 1841, 1870 et 1874",
+              "usage": "preuve locale : rail"
             }
           ]
         }
@@ -1862,7 +2022,7 @@
               "industrie",
               "militaire"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Grand centre industriel du Danube, fortement lié à l'industrie lourde et d'armement en 1945."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Grand centre industriel du Danube, fortement lié à l'industrie lourde et d'armement en 1945. Audit du 01/10 : Bassins réalisés jusqu’en 1942 ; raccordement ferroviaire du port en 1948, port privé VÖEST en 1966. À renforcer : rail."
           },
           "geometrie": {
             "type": "Point",
@@ -1880,7 +2040,12 @@
             {
               "source_id": "src-linz-1938-1945",
               "locator": "",
-              "usage": "rôle de la ville au 01/01/1945"
+              "usage": "preuve locale : industrie, militaire"
+            },
+            {
+              "source_id": "src-12a-linz-port",
+              "locator": "Section historique : transbordement de 1894, aménagements réalisés jusqu'en 1942, raccordement ferroviaire de 1948",
+              "usage": "preuve locale : port_fluvial"
             }
           ]
         }
@@ -1911,7 +2076,7 @@
               "industrie",
               "militaire"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Grand centre industriel et ferroviaire de Styrie ; plusieurs grandes usines intégrées à l'économie de guerre."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Grand centre industriel et ferroviaire de Styrie ; plusieurs grandes usines intégrées à l'économie de guerre. Audit du 01/10 : Rail historique distinct de l’industrie d’armement de 1944 ; ancienne référence aux pompiers écartée. À renforcer : rail."
           },
           "geometrie": {
             "type": "Point",
@@ -1929,7 +2094,12 @@
             {
               "source_id": "src-graz-armaments",
               "locator": "",
-              "usage": "rôle de la ville au 01/01/1945"
+              "usage": "preuve locale : industrie, militaire"
+            },
+            {
+              "source_id": "src-12a-graz-rail",
+              "locator": "PDF p. 5 (index 4), chronique ferroviaire : trajet Vienne–Graz–Trieste de 1857, gares",
+              "usage": "preuve locale : rail (lecture partielle)"
             }
           ]
         }
@@ -1962,7 +2132,7 @@
             "roles": [
               "rail"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Carrefour ferroviaire vers Allemagne, Vienne et axe Tauern vers Villach. Rôle à sourcer localement (aucune source lue ne le prouve encore)."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Carrefour ferroviaire vers Allemagne, Vienne et axe Tauern vers Villach. Audit du 01/10 : Raccordement à la Westbahn en 1860 ; services des corridors alpins à étudier séparément. Précisions à apporter : Services et embranchements des corridors alpins au Snapshot 0."
           },
           "geometrie": {
             "type": "Point",
@@ -1981,6 +2151,11 @@
               "source_id": "src-oebb-tauern",
               "locator": "",
               "usage": "contexte (ne prouve pas seule le rôle au 01/01/1945)"
+            },
+            {
+              "source_id": "src-12a-salzburg-westbahn",
+              "locator": "Paragraphe sur le raccordement de 1860 à la Kaiserin-Elisabeth-Westbahn",
+              "usage": "preuve locale : rail"
             }
           ]
         }
@@ -2009,7 +2184,7 @@
             "roles": [
               "rail"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Nœud transalpin majeur sur l'axe du Brenner et vers l'Arlberg. Rôle à sourcer localement (aucune source lue ne le prouve encore)."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Nœud transalpin majeur sur l'axe du Brenner et vers l'Arlberg. Audit du 01/10 : Gare de 1858, Brenner 1867 et Arlberg 1884 ; infrastructure, sans horaires ni garantie de transit de guerre."
           },
           "geometrie": {
             "type": "Point",
@@ -2028,6 +2203,11 @@
               "source_id": "src-oebb-arlberg",
               "locator": "",
               "usage": "contexte (ne prouve pas seule le rôle au 01/01/1945)"
+            },
+            {
+              "source_id": "src-12a-innsbruck-gare",
+              "locator": "Entrées 1858, 1867 et 1884",
+              "usage": "preuve locale : rail"
             }
           ]
         }
@@ -2057,7 +2237,7 @@
               "rail",
               "frontalier"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Carrefour ferroviaire majeur des Alpes orientales vers Salzbourg, Italie et Balkans. Rôle à sourcer localement (aucune source lue ne le prouve encore)."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Carrefour ferroviaire majeur des Alpes orientales vers Salzbourg, Italie et Balkans. Audit du 01/10 : Nœud suprarégional et direction ferroviaire issus du développement de 1864 ; services frontières non précisés. À renforcer : frontalier."
           },
           "geometrie": {
             "type": "Point",
@@ -2076,6 +2256,11 @@
               "source_id": "src-oebb-tauern",
               "locator": "",
               "usage": "contexte (ne prouve pas seule le rôle au 01/01/1945)"
+            },
+            {
+              "source_id": "src-12a-villach-noeud",
+              "locator": "PDF p. 5–7 (index 4–6), rail en 1864, nœud et direction ferroviaire",
+              "usage": "preuve locale : rail"
             }
           ]
         }
@@ -2108,7 +2293,7 @@
               "rail",
               "industrie"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Nœud régional de Carinthie sur les axes ferroviaires vers Villach, Graz et Yougoslavie. Rôle à sourcer localement (aucune source lue ne le prouve encore)."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Nœud régional de Carinthie sur les axes ferroviaires vers Villach, Graz et Yougoslavie. Audit du 01/10 : Gare Südbahn et ligne de 1863 attestées par un guide numérisé ; métadonnées d’édition à compléter. À renforcer : industrie. Précisions à apporter : Date d’édition et métadonnées complètes du guide ancien."
           },
           "geometrie": {
             "type": "Point",
@@ -2127,6 +2312,11 @@
               "source_id": "src-oebb-tauern",
               "locator": "",
               "usage": "contexte (ne prouve pas seule le rôle au 01/01/1945)"
+            },
+            {
+              "source_id": "src-12a-klagenfurt-guide",
+              "locator": "Titre et auteur : scan p. 9 (index 8) ; gare et ligne de 1863 : p. 17 (index 16), p. imprimée 9",
+              "usage": "preuve locale : rail"
             }
           ]
         }
@@ -2154,9 +2344,10 @@
             "importance_atlas": "C",
             "roles": [
               "rail",
-              "frontalier"
+              "frontalier",
+              "port_fluvial"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Ville du lac de Constance sur l'axe ferroviaire du Vorarlberg vers Suisse et Allemagne. Rôle à sourcer localement (aucune source lue ne le prouve encore)."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Ville du lac de Constance sur l'axe ferroviaire du Vorarlberg vers Suisse et Allemagne. Audit du 01/10 : Rail de 1870–1872, réseaux allemand/suisse, transbordement et vapeur lacustres avant 1945."
           },
           "geometrie": {
             "type": "Point",
@@ -2175,6 +2366,11 @@
               "source_id": "src-oebb-arlberg",
               "locator": "",
               "usage": "contexte (ne prouve pas seule le rôle au 01/01/1945)"
+            },
+            {
+              "source_id": "src-12a-bregenz-rail",
+              "locator": "Entrées 1870–1872, 1883 et 1884",
+              "usage": "preuve locale : rail, port_fluvial, frontalier"
             }
           ]
         }
@@ -2204,7 +2400,7 @@
               "rail",
               "frontalier"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Nœud ferroviaire frontalier du Vorarlberg vers Liechtenstein et Suisse. Rôle à sourcer localement (aucune source lue ne le prouve encore)."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Nœud ferroviaire frontalier du Vorarlberg vers Liechtenstein et Suisse. Audit du 01/10 : Gare frontière de 1872, renforcée par l’Arlberg dans les années 1880 ; jour exact de 1872 à recouper."
           },
           "geometrie": {
             "type": "Point",
@@ -2223,6 +2419,11 @@
               "source_id": "src-oebb-arlberg",
               "locator": "",
               "usage": "contexte (ne prouve pas seule le rôle au 01/01/1945)"
+            },
+            {
+              "source_id": "src-12a-feldkirch-frontiere",
+              "locator": "PDF p. 4 (index 3), rubrique « Höchste Eisenbahn »",
+              "usage": "preuve locale : rail, frontalier"
             }
           ]
         }
@@ -2251,7 +2452,7 @@
             "roles": [
               "rail"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Carrefour ferroviaire de Haute-Autriche entre Vienne, Linz, Salzbourg et Passau. Rôle à sourcer localement (aucune source lue ne le prouve encore)."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Carrefour ferroviaire de Haute-Autriche entre Vienne, Linz, Salzbourg et Passau. Audit du 01/10 : Présence ferroviaire historique attestée ; bifurcation vers Passau non prouvée par cette notice. À renforcer : rail. Précisions à apporter : Bifurcation vers Passau et hiérarchie du nœud avant 1945."
           },
           "geometrie": {
             "type": "Point",
@@ -2270,6 +2471,11 @@
               "source_id": "src-db-museum-history",
               "locator": "",
               "usage": "contexte national seulement (ne prouve pas le rôle local)"
+            },
+            {
+              "source_id": "src-12a-wels-rail",
+              "locator": "Entrée XIXe siècle / 1800 : Pferdeeisenbahn, vapeur en 1855",
+              "usage": "preuve locale : rail (non vérifiée par Claude)"
             }
           ]
         }
@@ -2299,7 +2505,7 @@
               "industrie",
               "militaire"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Important centre métallurgique et mécanique, associé aux productions Steyr-Daimler-Puch. Rôle à sourcer localement (aucune source lue ne le prouve encore)."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Important centre métallurgique et mécanique, associé aux productions Steyr-Daimler-Puch. Audit du 01/10 : Armement Steyr-Daimler-Puch et sous-camp de mars 1942 ; preuve locale de guerre remplaçant le commerce ancien."
           },
           "geometrie": {
             "type": "Point",
@@ -2318,6 +2524,11 @@
               "source_id": "src-steyr-history",
               "locator": "",
               "usage": "contexte (ne prouve pas seule le rôle au 01/01/1945)"
+            },
+            {
+              "source_id": "src-12a-steyr-armement",
+              "locator": "Paragraphe sur Steyr-Daimler-Puch et le sous-camp de mars 1942",
+              "usage": "preuve locale : industrie, militaire"
             }
           ]
         }
@@ -2349,7 +2560,7 @@
               "aviation",
               "militaire"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Centre industriel et aéronautique au sud de Vienne. Rôle à sourcer localement (aucune source lue ne le prouve encore)."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Centre industriel et aéronautique au sud de Vienne. Audit du 01/10 : Terrain aérien de 1909 ; avions en 1940, tenders et A4 en 1943. Ruines finales non datées au 01/01. À renforcer : rail."
           },
           "geometrie": {
             "type": "Point",
@@ -2368,6 +2579,11 @@
               "source_id": "src-vienna-nazi-history",
               "locator": "",
               "usage": "contexte (ne prouve pas seule le rôle au 01/01/1945)"
+            },
+            {
+              "source_id": "src-12a-wiener-neustadt-industrie",
+              "locator": "Sections « Das Wiener Neustädter Flugfeld » et « Zerstörung im Zweiten Weltkrieg und Wiederaufbau »",
+              "usage": "preuve locale : industrie, aviation, militaire"
             }
           ]
         }
@@ -2401,7 +2617,7 @@
               "rail",
               "industrie"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Nœud ferroviaire de Basse-Autriche sur l'axe Vienne–Linz. Rôle à sourcer localement (aucune source lue ne le prouve encore)."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Nœud ferroviaire de Basse-Autriche sur l'axe Vienne–Linz. Audit du 01/10 : Westbahn construite dès 1856, achevée en 1858 ; nœud et essor industriel local."
           },
           "geometrie": {
             "type": "Point",
@@ -2420,6 +2636,11 @@
               "source_id": "src-db-museum-history",
               "locator": "",
               "usage": "contexte national seulement (ne prouve pas le rôle local)"
+            },
+            {
+              "source_id": "src-12a-st-poelten-westbahn",
+              "locator": "Paragraphes construction 1856, achèvement en deux ans, croissance 1870–1912 et guerre 1944–1945",
+              "usage": "preuve locale : rail, industrie"
             }
           ]
         }
@@ -2455,7 +2676,7 @@
               "rail",
               "administration"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Capitale fédérale et point majeur du réseau ferroviaire suisse. Rôle à sourcer localement (aucune source lue ne le prouve encore)."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Capitale fédérale et point majeur du réseau ferroviaire suisse. Audit du 01/10 : Ville fédérale depuis 1848, raccordements ferroviaires du XIXe siècle ; nuance juridique de capitale à conserver."
           },
           "geometrie": {
             "type": "Point",
@@ -2474,6 +2695,11 @@
               "source_id": "src-sbb-history",
               "locator": "",
               "usage": "contexte national seulement (ne prouve pas le rôle local)"
+            },
+            {
+              "source_id": "src-12a-dhs-bern",
+              "locator": "Paragraphes raccordements 1857–1864 et Ville fédérale 1848",
+              "usage": "preuve locale : capitale, administration, rail"
             }
           ]
         }
@@ -2508,7 +2734,7 @@
               "rail",
               "industrie"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Principal nœud ferroviaire suisse et grand centre industriel/commercial."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Principal nœud ferroviaire suisse et grand centre industriel/commercial. Audit du 01/10 : Gare de 1847/1865–1871 ; fret/entrepôts repris de l’audit Claude, industrie locale à compléter. À renforcer : industrie."
           },
           "geometrie": {
             "type": "Point",
@@ -2532,6 +2758,11 @@
               "source_id": "src-zurich-freight",
               "locator": "",
               "usage": "rôle de la ville au 01/01/1945"
+            },
+            {
+              "source_id": "src-12a-dhs-zuerich",
+              "locator": "Paragraphe grands chantiers 1847–1871",
+              "usage": "preuve locale : rail"
             }
           ]
         }
@@ -2564,9 +2795,10 @@
             "roles": [
               "port_fluvial",
               "rail",
-              "frontalier"
+              "frontalier",
+              "industrie"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Grand nœud frontalier et port rhénan, interface entre Suisse, France et Allemagne. Rôle à sourcer localement (aucune source lue ne le prouve encore)."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Grand nœud frontalier et port rhénan, interface entre Suisse, France et Allemagne. Audit du 01/10 : Ports et gares avant 1945 ; chimie historique attestée. Interruption de navigation pendant les guerres sans bornes exactes. À renforcer : rail, port_fluvial, frontalier, industrie."
           },
           "geometrie": {
             "type": "Point",
@@ -2590,6 +2822,11 @@
               "source_id": "src-sbb-history",
               "locator": "",
               "usage": "contexte national seulement (ne prouve pas le rôle local)"
+            },
+            {
+              "source_id": "src-12a-dhs-basel",
+              "locator": "Sections économie et transports : tableau cantonal de 1939, chimie, ports Saint-Jean/Petit-Huningue et gares avant 1945",
+              "usage": "preuve locale : rail, port_fluvial, frontalier, industrie (non vérifiée par Claude)"
             }
           ]
         }
@@ -2623,7 +2860,7 @@
               "frontalier",
               "aviation"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Grande ville-frontière reliée au réseau national et aux flux internationaux. Rôle à sourcer localement (aucune source lue ne le prouve encore)."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Grande ville-frontière reliée au réseau national et aux flux internationaux. Audit du 01/10 : Rail franco-suisse de 1858 ; terrain aérien de 1920, piste de 1937. Les grandes lignes contournent Genève."
           },
           "geometrie": {
             "type": "Point",
@@ -2642,6 +2879,16 @@
               "source_id": "src-sbb-history",
               "locator": "",
               "usage": "contexte national seulement (ne prouve pas le rôle local)"
+            },
+            {
+              "source_id": "src-12a-dhs-geneve",
+              "locator": "Section développement XIXe siècle, réseau ferroviaire de 1858",
+              "usage": "preuve locale : rail, frontalier"
+            },
+            {
+              "source_id": "src-12a-geneve-aeroport",
+              "locator": "Chronologie 1919, 1920, 1932 et 1937",
+              "usage": "preuve locale : aviation"
             }
           ]
         }
@@ -2670,7 +2917,7 @@
             "roles": [
               "rail"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Nœud ferroviaire majeur de Suisse romande, relié directement à l'Italie par le Simplon. Rôle à sourcer localement (aucune source lue ne le prouve encore)."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Nœud ferroviaire majeur de Suisse romande, relié directement à l'Italie par le Simplon. Audit du 01/10 : Gare de 1915, fret Sébeillon de 1927, axe vers Paris/Milan ; remplacement des deux liens Museris."
           },
           "geometrie": {
             "type": "Point",
@@ -2688,12 +2935,17 @@
             {
               "source_id": "src-lausanne-station",
               "locator": "",
-              "usage": "rôle de la ville au 01/01/1945 (non vérifiée lors de l'audit)"
+              "usage": "remplacée par src-12a-dhs-lausanne (ancienne page non relue)"
             },
             {
               "source_id": "src-lausanne-simplon",
               "locator": "",
-              "usage": "rôle de la ville au 01/01/1945 (non vérifiée lors de l'audit)"
+              "usage": "remplacée par src-12a-dhs-lausanne, src-12a-dhs-brig (ancienne page non relue)"
+            },
+            {
+              "source_id": "src-12a-dhs-lausanne",
+              "locator": "Paragraphes XIXe–XXe siècle, nœud Paris–Milan et Sébeillon",
+              "usage": "preuve locale : rail"
             }
           ]
         }
@@ -2722,7 +2974,7 @@
             "roles": [
               "rail"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Nœud ferroviaire central dont la croissance urbaine est directement liée au rail. Rôle à sourcer localement (aucune source lue ne le prouve encore)."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Nœud ferroviaire central dont la croissance urbaine est directement liée au rail. Audit du 01/10 : Nœud et ateliers dès 1856, photographie de l’atelier en 1944 ; pas de tonnage de fret déduit. Précisions à apporter : Fonction et installations spécifiques de fret : le nœud/atelier ne donne pas leur volume."
           },
           "geometrie": {
             "type": "Point",
@@ -2740,7 +2992,12 @@
             {
               "source_id": "src-olten-rail",
               "locator": "",
-              "usage": "rôle de la ville au 01/01/1945 (non vérifiée lors de l'audit)"
+              "usage": "remplacée par src-12a-dhs-olten (ancienne page non relue)"
+            },
+            {
+              "source_id": "src-12a-dhs-olten",
+              "locator": "Paragraphe Eisenbahnknotenpunkt et photographie de l'atelier principal en 1944",
+              "usage": "preuve locale : rail"
             }
           ]
         }
@@ -2773,7 +3030,7 @@
             "roles": [
               "rail"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Nœud de correspondance rail/lac sur les approches du Gothard. Rôle à sourcer localement (aucune source lue ne le prouve encore)."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Nœud de correspondance rail/lac sur les approches du Gothard. Audit du 01/10 : Réseau du XIXe siècle, accès Gothard en 1897 ; commerce lacustre ancien insuffisant pour un port de 1945."
           },
           "geometrie": {
             "type": "Point",
@@ -2791,7 +3048,12 @@
             {
               "source_id": "src-gotthard-history",
               "locator": "",
-              "usage": "rôle de la ville au 01/01/1945 (non vérifiée lors de l'audit)"
+              "usage": "remplacée par src-12a-dhs-bellinzona, src-12a-dhs-luzern (ancienne page non relue)"
+            },
+            {
+              "source_id": "src-12a-dhs-luzern",
+              "locator": "Paragraphes réseau 1859–1897, raccordement Immensee–Lucerne",
+              "usage": "preuve locale : rail"
             }
           ]
         }
@@ -2825,7 +3087,7 @@
               "rail",
               "industrie"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Grande ville industrielle et ferroviaire, notamment liée à la construction mécanique et locomotive. Rôle à sourcer localement (aucune source lue ne le prouve encore)."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Grande ville industrielle et ferroviaire, notamment liée à la construction mécanique et locomotive. Audit du 01/10 : Six lignes du XIXe siècle, Sulzer/SLM avant 1945 ; notice DHS allemande lisible remplace le long lien SLM."
           },
           "geometrie": {
             "type": "Point",
@@ -2848,7 +3110,12 @@
             {
               "source_id": "src-winterthur-locomotive",
               "locator": "",
-              "usage": "rôle de la ville au 01/01/1945 (non vérifiée lors de l'audit)"
+              "usage": "remplacée par src-12a-dhs-winterthur (ancienne page non relue)"
+            },
+            {
+              "source_id": "src-12a-dhs-winterthur",
+              "locator": "Sections Siedlungsentwicklung et Wirtschaft ; paragraphes 1855–1876 et vers 1910",
+              "usage": "preuve locale : rail, industrie"
             }
           ]
         }
@@ -2883,7 +3150,7 @@
               "rail",
               "industrie"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Centre industriel et ferroviaire de Suisse orientale. Rôle à sourcer localement (aucune source lue ne le prouve encore)."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Centre industriel et ferroviaire de Suisse orientale. Audit du 01/10 : Rail de 1856, broderie et exportateurs historiques ; ne pas transposer l’apogée d’avant 1914 à 1945."
           },
           "geometrie": {
             "type": "Point",
@@ -2902,6 +3169,11 @@
               "source_id": "src-sbb-history",
               "locator": "",
               "usage": "contexte national seulement (ne prouve pas le rôle local)"
+            },
+            {
+              "source_id": "src-12a-dhs-st-gallen",
+              "locator": "Introduction, arrivée du chemin de fer en 1856",
+              "usage": "preuve locale : rail, industrie"
             }
           ]
         }
@@ -2935,7 +3207,7 @@
               "rail",
               "frontalier"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Ville-frontière du Rhin, pertinente pour les flux ferroviaires et transfrontaliers. Rôle à sourcer localement (aucune source lue ne le prouve encore)."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Ville-frontière du Rhin, pertinente pour les flux ferroviaires et transfrontaliers. Audit du 01/10 : Rail de 1857 et bombardement du 01/04/1944. Maintenir l’absence de port_fluvial, sans destruction totale déduite."
           },
           "geometrie": {
             "type": "Point",
@@ -2954,6 +3226,11 @@
               "source_id": "src-sbb-history",
               "locator": "",
               "usage": "contexte national seulement (ne prouve pas le rôle local)"
+            },
+            {
+              "source_id": "src-12a-dhs-schaffhausen",
+              "locator": "Paragraphes gare 1857, douanes 1913–1914 et bombardement du 1er avril 1944",
+              "usage": "preuve locale : rail, frontalier"
             }
           ]
         }
@@ -2983,7 +3260,7 @@
               "rail",
               "frontalier"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Grand point-frontière ferroviaire vers l'Italie. Rôle à sourcer localement (aucune source lue ne le prouve encore)."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Grand point-frontière ferroviaire vers l'Italie. Audit du 01/10 : Rail de 1874/1876, gare internationale et port franc de 1925 ; passages de guerre non garantis."
           },
           "geometrie": {
             "type": "Point",
@@ -3002,6 +3279,11 @@
               "source_id": "src-sbb-history",
               "locator": "",
               "usage": "contexte national seulement (ne prouve pas le rôle local)"
+            },
+            {
+              "source_id": "src-12a-dhs-chiasso",
+              "locator": "Paragraphe Avec l'arrivée du chemin de fer",
+              "usage": "preuve locale : rail, frontalier"
             }
           ]
         }
@@ -3034,7 +3316,7 @@
             "roles": [
               "rail"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Nœud ferroviaire au débouché sud du Gothard. Rôle à sourcer localement (aucune source lue ne le prouve encore)."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Nœud ferroviaire au débouché sud du Gothard. Audit du 01/10 : Gothard de 1882, ateliers de 1884 ; infrastructure ferroviaire locale attestée. À renforcer : rail."
           },
           "geometrie": {
             "type": "Point",
@@ -3052,7 +3334,12 @@
             {
               "source_id": "src-gotthard-history",
               "locator": "",
-              "usage": "rôle de la ville au 01/01/1945 (non vérifiée lors de l'audit)"
+              "usage": "remplacée par src-12a-dhs-bellinzona, src-12a-dhs-luzern (ancienne page non relue)"
+            },
+            {
+              "source_id": "src-12a-dhs-bellinzona",
+              "locator": "Section époque contemporaine, paragraphes ouverture du Gothard et ateliers",
+              "usage": "preuve locale : rail (lecture partielle)"
             }
           ]
         }
@@ -3086,7 +3373,7 @@
               "rail",
               "frontalier"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Nœud ferroviaire alpin à l'entrée suisse du Simplon. Rôle à sourcer localement (aucune source lue ne le prouve encore)."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Nœud ferroviaire alpin à l'entrée suisse du Simplon. Audit du 01/10 : Simplon de 1906/1921, Lötschberg de 1913, installations de fret/frontière ; pas de service italien quotidien garanti."
           },
           "geometrie": {
             "type": "Point",
@@ -3104,7 +3391,12 @@
             {
               "source_id": "src-lausanne-simplon",
               "locator": "",
-              "usage": "rôle de la ville au 01/01/1945 (non vérifiée lors de l'audit)"
+              "usage": "remplacée par src-12a-dhs-lausanne, src-12a-dhs-brig (ancienne page non relue)"
+            },
+            {
+              "source_id": "src-12a-dhs-brig",
+              "locator": "Paragraphes transport, tunnels Simplon et Lötschberg, gare de 1910",
+              "usage": "preuve locale : rail, frontalier"
             }
           ]
         }
@@ -3134,7 +3426,7 @@
               "rail",
               "frontalier"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Point ferroviaire frontalier vers Liechtenstein et Autriche. Rôle à sourcer localement (aucune source lue ne le prouve encore)."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Point ferroviaire frontalier vers Liechtenstein et Autriche. Audit du 01/10 : Gare de 1858, Arlberg de 1884, contexte douanier de 1924 ; preuve locale indépendante de la page ÖBB actuelle."
           },
           "geometrie": {
             "type": "Point",
@@ -3158,6 +3450,11 @@
               "source_id": "src-oebb-arlberg",
               "locator": "",
               "usage": "contexte (ne prouve pas seule le rôle au 01/01/1945)"
+            },
+            {
+              "source_id": "src-12a-dhs-buchs",
+              "locator": "Paragraphes ponts et lignes ferrées 1858–1924",
+              "usage": "preuve locale : rail, frontalier"
             }
           ]
         }
@@ -3188,7 +3485,7 @@
               "port_fluvial",
               "ferry"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Port ferroviaire du lac de Constance et point de liaison vers l'Allemagne. Rôle à sourcer localement (aucune source lue ne le prouve encore)."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Port ferroviaire du lac de Constance et point de liaison vers l'Allemagne. Audit du 01/10 : Lindau : bac ferroviaire arrêté en 1939. Friedrichshafen : plage 1869–1976 insuffisante pour garantir le service en guerre. À renforcer : ferry. Précisions à apporter : Exploitation des bacs Friedrichshafen et automobile au 01/01/1945."
           },
           "geometrie": {
             "type": "Point",
@@ -3207,6 +3504,11 @@
               "source_id": "src-sbb-history",
               "locator": "",
               "usage": "contexte national seulement (ne prouve pas le rôle local)"
+            },
+            {
+              "source_id": "src-12a-dhs-romanshorn",
+              "locator": "Paragraphes port et voie ferrée 1855–1856, bacs ferroviaires",
+              "usage": "preuve locale : rail, port_fluvial"
             }
           ]
         }
@@ -3236,7 +3538,7 @@
               "rail",
               "frontalier"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Point-frontière ferroviaire du Jura vers la France. Rôle à sourcer localement (aucune source lue ne le prouve encore)."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Point-frontière ferroviaire du Jura vers la France. Audit du 01/10 : Rail de 1870/1875, tunnel Mont-d’Or de 1915 ; existence du corridor franco-suisse, sans horaire de guerre."
           },
           "geometrie": {
             "type": "Point",
@@ -3255,6 +3557,11 @@
               "source_id": "src-sbb-history",
               "locator": "",
               "usage": "contexte national seulement (ne prouve pas le rôle local)"
+            },
+            {
+              "source_id": "src-12a-dhs-vallorbe",
+              "locator": "Paragraphes arrivée du rail 1870–1875 et tunnel du Mont-d'Or 1915",
+              "usage": "preuve locale : rail, frontalier"
             }
           ]
         }
@@ -3285,7 +3592,7 @@
               "capitale",
               "administration"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Capitale du Liechtenstein ; affichée comme capitale malgré son rôle de flux limité."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Capitale du Liechtenstein ; affichée comme capitale malgré son rôle de flux limité. Audit du 01/10 : Siège du gouvernement depuis 1862, bâtiment de 1903–1905 ; C et capitale nationale, sans rail emprunté à Schaan. À renforcer : administration."
           },
           "geometrie": {
             "type": "Point",
@@ -3299,6 +3606,16 @@
               "source_id": "src-wikidata",
               "locator": "Q1844",
               "usage": "position (coordonnées) ; capitale du Liechtenstein"
+            },
+            {
+              "source_id": "src-12a-vaduz-gouvernement",
+              "locator": "Introduction : siège à Vaduz depuis 1862 ; bâtiment de gouvernement de 1903–1905",
+              "usage": "preuve locale : capitale, administration (non vérifiée par Claude)"
+            },
+            {
+              "source_id": "src-12a-vaduz-portrait-historique",
+              "locator": "Paragraphes Hauptort, rattachement de 1719, résidence depuis 1939",
+              "usage": "preuve locale : capitale"
             },
             {
               "source_id": "src-vaduz-portrait",
@@ -3332,7 +3649,7 @@
             "roles": [
               "rail"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Localité traversée par la ligne Feldkirch–Buchs, utile au corridor Autriche–Liechtenstein–Suisse. Rôle à sourcer localement (aucune source lue ne le prouve encore)."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Localité traversée par la ligne Feldkirch–Buchs, utile au corridor Autriche–Liechtenstein–Suisse. Audit du 01/10 : Gare de Schaan-Vaduz sur la ligne de 1872 ; rôle ferroviaire local, distinct de Vaduz."
           },
           "geometrie": {
             "type": "Point",
@@ -3351,6 +3668,484 @@
               "source_id": "src-oebb-arlberg",
               "locator": "",
               "usage": "contexte (ne prouve pas seule le rôle au 01/01/1945)"
+            },
+            {
+              "source_id": "src-12a-schaan-rail",
+              "locator": "Paragraphe Verkehr, gare Schaan-Vaduz et pont de 1928–1929",
+              "usage": "preuve locale : rail"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-de-hamm",
+      "type_entite": "ville",
+      "nom": "Hamm",
+      "nom_court": "Hamm",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "B",
+            "roles": [
+              "rail"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Nœud et triage avant 1945 ; dégâts photographiés en avril 1944. Ni 10 000 wagons/jour de 1927 ni bilan de 80 % détruits en 1945 appliqués au Snapshot 0."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              7.8192,
+              51.6814
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q2880",
+              "usage": "position (coordonnées)"
+            },
+            {
+              "source_id": "src-12a-hamm-triage",
+              "locator": "Sections introduction et « Der größte Verschiebebahnhof Europas » ; légende du 22 avril 1944",
+              "usage": "preuve locale : rail"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-de-ludwigshafen",
+      "type_entite": "ville",
+      "nom": "Ludwigshafen",
+      "nom_court": "Ludwigshafen",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "B",
+            "roles": [
+              "industrie"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Usines de Ludwigshafen/Oppau et production Buna de 1943 ; ajouter uniquement industrie. Rail, port et capacité exacte de janvier 1945 demandent leurs preuves."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              8.4353,
+              49.4811
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q2910",
+              "usage": "position (coordonnées)"
+            },
+            {
+              "source_id": "src-12a-ludwigshafen-igfarben",
+              "locator": "Sections « Autarkie und Aufrüstung » et « Forschen für den Krieg »",
+              "usage": "preuve locale : industrie"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-de-mainz",
+      "type_entite": "ville",
+      "nom": "Mayence",
+      "nom_court": "Mayence",
+      "aliases": [
+        "Mainz"
+      ],
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "nom_local": "Mainz",
+            "importance_atlas": "C",
+            "roles": [
+              "rail"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Pont ferroviaire de 1862 et gare de 1884. Le port n’est pas ajouté sur la seule position sur le Rhin."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              8.2736,
+              49.9994
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q1720",
+              "usage": "position (coordonnées)"
+            },
+            {
+              "source_id": "src-12a-mainz-gare",
+              "locator": "Section Hauptbahnhof auf einen Blick ; Brand und Umbau ; Wiederaufbau",
+              "usage": "preuve locale : rail"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-de-schweinfurt",
+      "type_entite": "ville",
+      "nom": "Schweinfurt",
+      "nom_court": "Schweinfurt",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "B",
+            "roles": [
+              "industrie"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Fabrication locale attestée par documents photographiques des années 1930/1940 ; lien avec armes, chars et avions. Aucune capacité de janvier 1945 supposée."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              10.2333,
+              50.05
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q4126",
+              "usage": "position (coordonnées)"
+            },
+            {
+              "source_id": "src-12a-schweinfurt-roulements",
+              "locator": "Description de la visite, paragraphe commençant par Waffen, Panzer oder Flugzeuge",
+              "usage": "preuve locale : industrie"
+            },
+            {
+              "source_id": "src-12a-schweinfurt-musee",
+              "locator": "PDF p. 9–10 (index 8–9), légendes d'archives VKF des années 1930 et assemblage des années 1940",
+              "usage": "preuve locale : industrie"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-de-augsburg",
+      "type_entite": "ville",
+      "nom": "Augsbourg",
+      "nom_court": "Augsbourg",
+      "aliases": [
+        "Augsburg"
+      ],
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "nom_local": "Augsburg",
+            "importance_atlas": "B",
+            "roles": [
+              "industrie"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : MAN et industrie de guerre attestés dans Augsburg ; distinguer Haunstetten, commune alors séparée. Construction d’avions ne vaut pas preuve d’un aéroport de transport."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              10.8978,
+              48.3689
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q2749",
+              "usage": "position (coordonnées)"
+            },
+            {
+              "source_id": "src-12a-augsburg-man",
+              "locator": "PDF p. 11 (index 10), chronologie et Forschungsanstalt de 1938",
+              "usage": "preuve locale : industrie"
+            },
+            {
+              "source_id": "src-12a-augsburg-armement",
+              "locator": "PDF p. 45 (index 44), texte sur MAN, moteurs de sous-marins et Messerschmitt ; article à partir de p. 37",
+              "usage": "preuve locale : industrie (non vérifiée par Claude)"
+            },
+            {
+              "source_id": "src-12a-augsburg-messerschmitt",
+              "locator": "Texte « Messerschmitt Informationstafel », paragraphes 1938 et novembre 1944",
+              "usage": "preuve locale : industrie (non vérifiée par Claude)"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-de-leuna",
+      "type_entite": "ville",
+      "nom": "Leuna",
+      "nom_court": "Leuna",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "B",
+            "roles": [
+              "industrie"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Commune industrielle depuis 1930 ; essence synthétique depuis 1926–1927. Droits de ville seulement en novembre 1945 : ne pas anticiper ce statut juridique."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              12.0167,
+              51.3167
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q505191",
+              "usage": "position (coordonnées)"
+            },
+            {
+              "source_id": "src-12a-leuna-commune",
+              "locator": "Section Historisches, paragraphes 1916–1930 et Stadt Leuna",
+              "usage": "preuve locale : industrie"
+            },
+            {
+              "source_id": "src-12a-leuna-essence",
+              "locator": "Section Die Leuna-Tankstelle, paragraphes 1926–1927 et 1944",
+              "usage": "preuve locale : industrie (non vérifiée par Claude)"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-de-salzgitter",
+      "type_entite": "ville",
+      "nom": "Watenstedt-Salzgitter",
+      "nom_court": "Watenstedt-Salzgitter",
+      "aliases": [
+        "Salzgitter"
+      ],
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "B",
+            "roles": [
+              "industrie"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Commune créée le 01/04/1942 sous ce nom ; première fonte locale attestée le 22/10/1939. Le nom Salzgitter est conservé en alias, pas projeté comme seul nom historique."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              10.3593,
+              52.1503
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q3200",
+              "usage": "position (coordonnées)"
+            },
+            {
+              "source_id": "src-12a-salzgitter-nom",
+              "locator": "Entrée 1942, 1er avril",
+              "usage": "preuve locale : industrie (non vérifiée par Claude)"
+            },
+            {
+              "source_id": "src-12a-salzgitter-siderurgie",
+              "locator": "§ fondation du 15/07/1937 et première fonte du 22/10/1939",
+              "usage": "preuve locale : industrie"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-at-leoben",
+      "type_entite": "ville",
+      "nom": "Leoben",
+      "nom_court": "Leoben",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "B",
+            "roles": [
+              "industrie",
+              "rail"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Donawitz rattaché au 01/10/1939 : un seul point urbain Leoben. Liaison industrielle et laminoirs antérieurs à 1945 ; procédé Linz–Donawitz de 1953 exclu."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              15.0972,
+              47.3817
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q485294",
+              "usage": "position (coordonnées)"
+            },
+            {
+              "source_id": "src-12a-donawitz-acier",
+              "locator": "Historical development et Historical views, paragraphes 1878, 1892 et 1941",
+              "usage": "preuve locale : industrie, rail"
+            },
+            {
+              "source_id": "src-12a-leoben-rattachement",
+              "locator": "Paragraphe Eingemeindungen, 1er octobre 1939",
+              "usage": "preuve locale : industrie, rail"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-de-osnabrueck",
+      "type_entite": "ville",
+      "nom": "Osnabrück",
+      "nom_court": "Osnabrück",
+      "aliases": [
+        "Osnabrueck"
+      ],
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "B",
+            "roles": [
+              "rail"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.2) : Gare de 1895 ; courbes d’accès au triage de 1911–1914. Sources locales C : décision de sélection positive, documentation à consolider. Précisions à apporter : Consolider les deux notices locales C avec archives ferroviaires ou source institutionnelle historique."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              8.0431,
+              52.2789
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q2916",
+              "usage": "position (coordonnées)"
+            },
+            {
+              "source_id": "src-12a-osnabrueck-croisement",
+              "locator": "Historique : gare du 24/04/1895 au croisement des deux lignes ; courbes du triage de 1911–1914",
+              "usage": "preuve locale : rail"
+            },
+            {
+              "source_id": "src-12a-osnabrueck-fret",
+              "locator": "Sections 1909–1944 et 1944–1961",
+              "usage": "preuve locale : rail"
             }
           ]
         }

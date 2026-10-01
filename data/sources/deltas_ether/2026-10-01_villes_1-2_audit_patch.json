@@ -1,0 +1,2441 @@
+{
+  "metadata_patch": {
+    "lot": "1.2 Allemagne + arc alpin",
+    "version": "audit_2026-10-01",
+    "date": "2026-10-01",
+    "snapshot0": "1945-01-01T00:00:00",
+    "base": "v0.2 décrite par Claude dans 2026-10-01_villes_1-2_suite_audit.md",
+    "nature": "Patch de proposition pour transposition par Claude ; pas une copie du dépôt ni un fichier canonique prêt à remplacer la v0.2.",
+    "geographie": "Périmètre géographique du lot ; aucune souveraineté ou contrôle ajoutés dans les villes.",
+    "interpretation_preuves": "Rôles structurels historiques ; aucune continuité de service ni capacité au Snapshot 0 inférée.",
+    "source_role_a_renforcer": "True si un rôle conservé, une précision revendiquée ou une source C reste à renforcer. False ne signifie pas exploitation opérationnelle prouvée.",
+    "ordre_integration": [
+      "Enrichir le registre sans effacer son historique",
+      "Appliquer les neuf décisions et résoudre les positions par la méthode du projet",
+      "Appliquer les corrections de noms/rôles et préserver les arbitrages v0.2",
+      "Ajouter les preuves rôle par rôle ; conserver les réserves",
+      "Traiter les événements postérieurs dans leurs couches datées"
+    ]
+  },
+  "decisions_candidats": [
+    {
+      "candidat": "Hamm",
+      "decision": "retenu",
+      "entite_id_retenue": "ville-de-hamm",
+      "nom_snapshot0": "Hamm",
+      "importance_atlas": "B",
+      "roles_proposes": [
+        "rail"
+      ],
+      "justification": "Triage majeur articulant les flux de la Ruhr avec les axes vers Hanovre/Berlin ; fonction réseau indépendante d’Essen et Dortmund.",
+      "sources": [
+        "src-12a-hamm-triage"
+      ],
+      "sous_decisions": []
+    },
+    {
+      "candidat": "Ludwigshafen",
+      "decision": "retenu",
+      "entite_id_retenue": "ville-de-ludwigshafen",
+      "nom_snapshot0": "Ludwigshafen",
+      "importance_atlas": "B",
+      "roles_proposes": [
+        "industrie"
+      ],
+      "justification": "Complexe chimique local participant directement à l’approvisionnement de l’industrie de guerre, distinct de Mannheim.",
+      "sources": [
+        "src-12a-ludwigshafen-igfarben"
+      ],
+      "sous_decisions": []
+    },
+    {
+      "candidat": "Mayence",
+      "decision": "retenu",
+      "entite_id_retenue": "ville-de-mainz",
+      "nom_snapshot0": "Mayence",
+      "importance_atlas": "C",
+      "roles_proposes": [
+        "rail"
+      ],
+      "justification": "Raccordement ferroviaire rhénan historique utile à la continuité régionale ; aucun motif documenté pour une priorité supérieure.",
+      "sources": [
+        "src-12a-mainz-gare"
+      ],
+      "sous_decisions": []
+    },
+    {
+      "candidat": "Schweinfurt",
+      "decision": "retenu",
+      "entite_id_retenue": "ville-de-schweinfurt",
+      "nom_snapshot0": "Schweinfurt",
+      "importance_atlas": "B",
+      "roles_proposes": [
+        "industrie"
+      ],
+      "justification": "Production de roulements déterminante pour les chaînes d’armement ; omission industrielle importante.",
+      "sources": [
+        "src-12a-schweinfurt-roulements",
+        "src-12a-schweinfurt-musee"
+      ],
+      "sous_decisions": []
+    },
+    {
+      "candidat": "Augsbourg",
+      "decision": "retenu",
+      "entite_id_retenue": "ville-de-augsburg",
+      "nom_snapshot0": "Augsbourg",
+      "importance_atlas": "B",
+      "roles_proposes": [
+        "industrie"
+      ],
+      "justification": "MAN et l’écosystème aéronautique fournissent l’effort de guerre ; nœud industriel distinct de Munich.",
+      "sources": [
+        "src-12a-augsburg-man",
+        "src-12a-augsburg-armement",
+        "src-12a-augsburg-messerschmitt"
+      ],
+      "sous_decisions": []
+    },
+    {
+      "candidat": "Leuna / Mersebourg",
+      "decision": "retenu",
+      "entite_id_retenue": "ville-de-leuna",
+      "nom_snapshot0": "Leuna",
+      "importance_atlas": "B",
+      "roles_proposes": [
+        "industrie"
+      ],
+      "justification": "Site et agglomération de production d’essence synthétique, fonction distincte du nœud de Halle.",
+      "sources": [
+        "src-12a-leuna-commune",
+        "src-12a-leuna-essence"
+      ],
+      "sous_decisions": [
+        {
+          "nom": "Mersebourg / Merseburg",
+          "decision": "differe",
+          "motif": "Pas de fusion avec Leuna. Un point urbain supplémentaire exige une justification ferroviaire/administrative propre et une source locale ; Leuna ne la fournit pas."
+        }
+      ]
+    },
+    {
+      "candidat": "Watenstedt-Salzgitter",
+      "decision": "retenu",
+      "entite_id_retenue": "ville-de-salzgitter",
+      "nom_snapshot0": "Watenstedt-Salzgitter",
+      "importance_atlas": "B",
+      "roles_proposes": [
+        "industrie"
+      ],
+      "justification": "Agglomération sidérurgique des Reichswerke créée avant le Snapshot, intégrée à l’économie de guerre.",
+      "sources": [
+        "src-12a-salzgitter-nom",
+        "src-12a-salzgitter-siderurgie"
+      ],
+      "sous_decisions": []
+    },
+    {
+      "candidat": "Leoben / Donawitz",
+      "decision": "retenu",
+      "entite_id_retenue": "ville-at-leoben",
+      "nom_snapshot0": "Leoben",
+      "importance_atlas": "B",
+      "roles_proposes": [
+        "industrie",
+        "rail"
+      ],
+      "justification": "Sidérurgie et rails à Donawitz, déjà intégré à Leoben : approvisionnement industriel et connexion ferroviaire.",
+      "sources": [
+        "src-12a-donawitz-acier",
+        "src-12a-leoben-rattachement"
+      ],
+      "sous_decisions": [
+        {
+          "nom": "Donawitz",
+          "decision": "rattache_a_leoben",
+          "motif": "Pas de seconde ville ; le site physique sidérurgique pourra avoir son propre ID dans la couche industrielle."
+        }
+      ]
+    },
+    {
+      "candidat": "Osnabrück",
+      "decision": "retenu",
+      "entite_id_retenue": "ville-de-osnabrueck",
+      "nom_snapshot0": "Osnabrück",
+      "importance_atlas": "B",
+      "roles_proposes": [
+        "rail"
+      ],
+      "justification": "Croisement à deux niveaux et accès au triage assurant des relations distinctes nord–sud et est–ouest.",
+      "sources": [
+        "src-12a-osnabrueck-croisement",
+        "src-12a-osnabrueck-fret"
+      ],
+      "sous_decisions": []
+    }
+  ],
+  "ajouts_villes": [
+    {
+      "entite_id": "ville-de-hamm",
+      "type_entite": "ville",
+      "nom": "Hamm",
+      "aliases": [],
+      "zone_geographique": "Allemagne",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "rail"
+        ],
+        "note": "Nœud et triage avant 1945 ; dégâts photographiés en avril 1944. Ni 10 000 wagons/jour de 1927 ni bilan de 80 % détruits en 1945 appliqués au Snapshot 0.",
+        "sources": [
+          "src-12a-hamm-triage"
+        ],
+        "source_role_a_renforcer": false
+      },
+      "complement_audit": {
+        "priorite": "Choix éditorial de l’Atlas, distinct du niveau de qualité des sources.",
+        "precisions_a_renforcer": [],
+        "exploitation_exacte_snapshot0": "non_etablie"
+      }
+    },
+    {
+      "entite_id": "ville-de-ludwigshafen",
+      "type_entite": "ville",
+      "nom": "Ludwigshafen",
+      "aliases": [],
+      "zone_geographique": "Allemagne",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "industrie"
+        ],
+        "note": "Usines de Ludwigshafen/Oppau et production Buna de 1943 ; ajouter uniquement industrie. Rail, port et capacité exacte de janvier 1945 demandent leurs preuves.",
+        "sources": [
+          "src-12a-ludwigshafen-igfarben"
+        ],
+        "source_role_a_renforcer": false
+      },
+      "complement_audit": {
+        "priorite": "Choix éditorial de l’Atlas, distinct du niveau de qualité des sources.",
+        "precisions_a_renforcer": [],
+        "exploitation_exacte_snapshot0": "non_etablie"
+      }
+    },
+    {
+      "entite_id": "ville-de-mainz",
+      "type_entite": "ville",
+      "nom": "Mayence",
+      "aliases": [
+        "Mainz"
+      ],
+      "zone_geographique": "Allemagne",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "C",
+        "roles": [
+          "rail"
+        ],
+        "note": "Pont ferroviaire de 1862 et gare de 1884. Le port n’est pas ajouté sur la seule position sur le Rhin.",
+        "sources": [
+          "src-12a-mainz-gare"
+        ],
+        "source_role_a_renforcer": false
+      },
+      "complement_audit": {
+        "priorite": "Choix éditorial de l’Atlas, distinct du niveau de qualité des sources.",
+        "precisions_a_renforcer": [],
+        "exploitation_exacte_snapshot0": "non_etablie"
+      }
+    },
+    {
+      "entite_id": "ville-de-schweinfurt",
+      "type_entite": "ville",
+      "nom": "Schweinfurt",
+      "aliases": [],
+      "zone_geographique": "Allemagne",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "industrie"
+        ],
+        "note": "Fabrication locale attestée par documents photographiques des années 1930/1940 ; lien avec armes, chars et avions. Aucune capacité de janvier 1945 supposée.",
+        "sources": [
+          "src-12a-schweinfurt-roulements",
+          "src-12a-schweinfurt-musee"
+        ],
+        "source_role_a_renforcer": false
+      },
+      "complement_audit": {
+        "priorite": "Choix éditorial de l’Atlas, distinct du niveau de qualité des sources.",
+        "precisions_a_renforcer": [],
+        "exploitation_exacte_snapshot0": "non_etablie"
+      }
+    },
+    {
+      "entite_id": "ville-de-augsburg",
+      "type_entite": "ville",
+      "nom": "Augsbourg",
+      "aliases": [
+        "Augsburg"
+      ],
+      "zone_geographique": "Allemagne",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "industrie"
+        ],
+        "note": "MAN et industrie de guerre attestés dans Augsburg ; distinguer Haunstetten, commune alors séparée. Construction d’avions ne vaut pas preuve d’un aéroport de transport.",
+        "sources": [
+          "src-12a-augsburg-man",
+          "src-12a-augsburg-armement",
+          "src-12a-augsburg-messerschmitt"
+        ],
+        "source_role_a_renforcer": false
+      },
+      "complement_audit": {
+        "priorite": "Choix éditorial de l’Atlas, distinct du niveau de qualité des sources.",
+        "precisions_a_renforcer": [],
+        "exploitation_exacte_snapshot0": "non_etablie"
+      }
+    },
+    {
+      "entite_id": "ville-de-leuna",
+      "type_entite": "ville",
+      "nom": "Leuna",
+      "aliases": [],
+      "zone_geographique": "Allemagne",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "industrie"
+        ],
+        "note": "Commune industrielle depuis 1930 ; essence synthétique depuis 1926–1927. Droits de ville seulement en novembre 1945 : ne pas anticiper ce statut juridique.",
+        "sources": [
+          "src-12a-leuna-commune",
+          "src-12a-leuna-essence"
+        ],
+        "source_role_a_renforcer": false
+      },
+      "complement_audit": {
+        "priorite": "Choix éditorial de l’Atlas, distinct du niveau de qualité des sources.",
+        "precisions_a_renforcer": [],
+        "exploitation_exacte_snapshot0": "non_etablie"
+      }
+    },
+    {
+      "entite_id": "ville-de-salzgitter",
+      "type_entite": "ville",
+      "nom": "Watenstedt-Salzgitter",
+      "aliases": [
+        "Salzgitter"
+      ],
+      "zone_geographique": "Allemagne",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "industrie"
+        ],
+        "note": "Commune créée le 01/04/1942 sous ce nom ; première fonte locale attestée le 22/10/1939. Le nom Salzgitter est conservé en alias, pas projeté comme seul nom historique.",
+        "sources": [
+          "src-12a-salzgitter-nom",
+          "src-12a-salzgitter-siderurgie"
+        ],
+        "source_role_a_renforcer": false
+      },
+      "complement_audit": {
+        "priorite": "Choix éditorial de l’Atlas, distinct du niveau de qualité des sources.",
+        "precisions_a_renforcer": [],
+        "exploitation_exacte_snapshot0": "non_etablie"
+      }
+    },
+    {
+      "entite_id": "ville-at-leoben",
+      "type_entite": "ville",
+      "nom": "Leoben",
+      "aliases": [],
+      "zone_geographique": "Autriche",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "industrie",
+          "rail"
+        ],
+        "note": "Donawitz rattaché au 01/10/1939 : un seul point urbain Leoben. Liaison industrielle et laminoirs antérieurs à 1945 ; procédé Linz–Donawitz de 1953 exclu.",
+        "sources": [
+          "src-12a-donawitz-acier",
+          "src-12a-leoben-rattachement"
+        ],
+        "source_role_a_renforcer": false
+      },
+      "complement_audit": {
+        "priorite": "Choix éditorial de l’Atlas, distinct du niveau de qualité des sources.",
+        "precisions_a_renforcer": [],
+        "exploitation_exacte_snapshot0": "non_etablie"
+      }
+    },
+    {
+      "entite_id": "ville-de-osnabrueck",
+      "type_entite": "ville",
+      "nom": "Osnabrück",
+      "aliases": [
+        "Osnabrueck"
+      ],
+      "zone_geographique": "Allemagne",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "rail"
+        ],
+        "note": "Gare de 1895 ; courbes d’accès au triage de 1911–1914. Sources locales C : décision de sélection positive, documentation à consolider.",
+        "sources": [
+          "src-12a-osnabrueck-croisement",
+          "src-12a-osnabrueck-fret"
+        ],
+        "source_role_a_renforcer": true
+      },
+      "complement_audit": {
+        "priorite": "Choix éditorial de l’Atlas, distinct du niveau de qualité des sources.",
+        "precisions_a_renforcer": [
+          "Consolider les deux notices locales C avec archives ferroviaires ou source institutionnelle historique."
+        ],
+        "exploitation_exacte_snapshot0": "non_etablie"
+      }
+    }
+  ],
+  "corrections_villes": [
+    {
+      "entite_id": "ville-de-berlin",
+      "nom_dossier": "Berlin",
+      "sources_ajouter": [
+        "src-12a-berlin-anhalter"
+      ],
+      "preuves_par_role": [
+        {
+          "role": "rail",
+          "sources": [
+            "src-12a-berlin-anhalter"
+          ],
+          "portee": "Infrastructure ou fonction historique locale ; exploitation exacte au Snapshot 0 non déduite."
+        }
+      ],
+      "roles_herites_non_reexamines": [
+        "capitale",
+        "administration"
+      ],
+      "roles_a_renforcer": [
+        "industrie"
+      ],
+      "precisions_a_renforcer": [],
+      "source_role_a_renforcer_propose": true,
+      "note_historique_ajouter": "Anhalter Bahnhof : édifices de 1839–1841/1880 et S-Bahn de 1939 ; rupture de 1945 non anticipée.",
+      "modifications_proposees": {},
+      "sources_retirer_des_preuves": []
+    },
+    {
+      "entite_id": "ville-de-hamburg",
+      "nom_dossier": "Hambourg",
+      "sources_ajouter": [],
+      "preuves_par_role": [
+        {
+          "role": "port_maritime",
+          "sources": [
+            "src-hamburg-port-history"
+          ],
+          "portee": "Infrastructure ou fonction historique locale ; exploitation exacte au Snapshot 0 non déduite."
+        }
+      ],
+      "roles_herites_non_reexamines": [],
+      "roles_a_renforcer": [
+        "rail",
+        "industrie"
+      ],
+      "precisions_a_renforcer": [],
+      "source_role_a_renforcer_propose": true,
+      "note_historique_ajouter": "Port et entrepôts historiques ; extension territoriale de 1937. Rail et industrie locale restent à étayer.",
+      "modifications_proposees": {},
+      "sources_retirer_des_preuves": []
+    },
+    {
+      "entite_id": "ville-de-bremen",
+      "nom_dossier": "Brême",
+      "sources_ajouter": [
+        "src-12a-dresden-gare",
+        "src-12a-bremen-histoire"
+      ],
+      "preuves_par_role": [
+        {
+          "role": "rail",
+          "sources": [
+            "src-12a-bremen-histoire",
+            "src-12a-dresden-gare"
+          ],
+          "portee": "Infrastructure ou fonction historique locale ; exploitation exacte au Snapshot 0 non déduite."
+        },
+        {
+          "role": "port_maritime",
+          "sources": [
+            "src-12a-bremen-histoire"
+          ],
+          "portee": "Infrastructure ou fonction historique locale ; exploitation exacte au Snapshot 0 non déduite."
+        }
+      ],
+      "roles_herites_non_reexamines": [],
+      "roles_a_renforcer": [
+        "industrie"
+      ],
+      "precisions_a_renforcer": [],
+      "source_role_a_renforcer_propose": true,
+      "note_historique_ajouter": "Rail vers Hanovre dès 1847 ; port historique. Dégâts du 18–19/08/1944 distincts du bilan de toute la guerre.",
+      "modifications_proposees": {},
+      "sources_retirer_des_preuves": []
+    },
+    {
+      "entite_id": "ville-de-bremerhaven",
+      "nom_dossier": "Bremerhaven",
+      "sources_ajouter": [
+        "src-12a-wesermuende"
+      ],
+      "preuves_par_role": [
+        {
+          "role": "rail",
+          "sources": [
+            "src-12a-wesermuende"
+          ],
+          "portee": "Infrastructure ou fonction historique locale ; exploitation exacte au Snapshot 0 non déduite."
+        },
+        {
+          "role": "port_maritime",
+          "sources": [
+            "src-12a-wesermuende"
+          ],
+          "portee": "Infrastructure ou fonction historique locale ; exploitation exacte au Snapshot 0 non déduite."
+        }
+      ],
+      "roles_herites_non_reexamines": [],
+      "roles_a_renforcer": [],
+      "precisions_a_renforcer": [],
+      "source_role_a_renforcer_propose": false,
+      "note_historique_ajouter": "Au Snapshot 0 : Wesermünde. Réunion de 1939 ; changement de nom en 1947. Dégâts du 18/09/1944.",
+      "modifications_proposees": {
+        "nom_snapshot0": "Wesermünde",
+        "aliases_ajouter": [
+          "Bremerhaven",
+          "Wesermuende"
+        ]
+      },
+      "sources_retirer_des_preuves": []
+    },
+    {
+      "entite_id": "ville-de-kiel",
+      "nom_dossier": "Kiel",
+      "sources_ajouter": [
+        "src-12a-kiel-chantiers"
+      ],
+      "preuves_par_role": [
+        {
+          "role": "construction_navale",
+          "sources": [
+            "src-12a-kiel-chantiers"
+          ],
+          "portee": "Infrastructure ou fonction historique locale ; exploitation exacte au Snapshot 0 non déduite."
+        },
+        {
+          "role": "militaire",
+          "sources": [
+            "src-12a-kiel-chantiers"
+          ],
+          "portee": "Infrastructure ou fonction historique locale ; exploitation exacte au Snapshot 0 non déduite."
+        }
+      ],
+      "roles_herites_non_reexamines": [],
+      "roles_a_renforcer": [
+        "port_maritime"
+      ],
+      "precisions_a_renforcer": [],
+      "source_role_a_renforcer_propose": true,
+      "note_historique_ajouter": "Chantiers et production navale de guerre ; bombardements de juillet 1944 affectant la production. Avril/mai 1945 séparés.",
+      "modifications_proposees": {},
+      "sources_retirer_des_preuves": []
+    },
+    {
+      "entite_id": "ville-de-luebeck",
+      "nom_dossier": "Lübeck",
+      "sources_ajouter": [
+        "src-12a-luebeck-gare"
+      ],
+      "preuves_par_role": [
+        {
+          "role": "rail",
+          "sources": [
+            "src-12a-luebeck-gare"
+          ],
+          "portee": "Infrastructure ou fonction historique locale ; exploitation exacte au Snapshot 0 non déduite."
+        }
+      ],
+      "roles_herites_non_reexamines": [],
+      "roles_a_renforcer": [
+        "port_maritime"
+      ],
+      "precisions_a_renforcer": [],
+      "source_role_a_renforcer_propose": true,
+      "note_historique_ajouter": "Gare LBE ouverte en 1908 ; cette preuve ne couvre pas le port.",
+      "modifications_proposees": {},
+      "sources_retirer_des_preuves": []
+    },
+    {
+      "entite_id": "ville-de-hannover",
+      "nom_dossier": "Hanovre",
+      "sources_ajouter": [],
+      "preuves_par_role": [
+        {
+          "role": "rail",
+          "sources": [
+            "src-hannover-rail",
+            "src-hannover-freight"
+          ],
+          "portee": "Infrastructure ou fonction historique locale ; exploitation exacte au Snapshot 0 non déduite."
+        }
+      ],
+      "roles_herites_non_reexamines": [],
+      "roles_a_renforcer": [
+        "industrie"
+      ],
+      "precisions_a_renforcer": [],
+      "source_role_a_renforcer_propose": true,
+      "note_historique_ajouter": "Ligne de 1843 et gare de marchandises reconstruite en 1931 ; capacités des années 1950 exclues.",
+      "modifications_proposees": {},
+      "sources_retirer_des_preuves": []
+    },
+    {
+      "entite_id": "ville-de-duisburg",
+      "nom_dossier": "Duisbourg",
+      "sources_ajouter": [
+        "src-12a-duisburg-rail-port"
+      ],
+      "preuves_par_role": [
+        {
+          "role": "rail",
+          "sources": [
+            "src-12a-duisburg-rail-port"
+          ],
+          "portee": "Infrastructure ou fonction historique locale ; exploitation exacte au Snapshot 0 non déduite."
+        },
+        {
+          "role": "port_fluvial",
+          "sources": [
+            "src-12a-duisburg-rail-port"
+          ],
+          "portee": "Infrastructure ou fonction historique locale ; exploitation exacte au Snapshot 0 non déduite."
+        }
+      ],
+      "roles_herites_non_reexamines": [],
+      "roles_a_renforcer": [
+        "industrie"
+      ],
+      "precisions_a_renforcer": [],
+      "source_role_a_renforcer_propose": true,
+      "note_historique_ajouter": "Embranchement de Ruhrort en 1848 destiné aux installations portuaires ; moyens actuels exclus.",
+      "modifications_proposees": {},
+      "sources_retirer_des_preuves": []
+    },
+    {
+      "entite_id": "ville-de-essen",
+      "nom_dossier": "Essen",
+      "sources_ajouter": [],
+      "preuves_par_role": [
+        {
+          "role": "rail",
+          "sources": [
+            "src-essen-industry"
+          ],
+          "portee": "Infrastructure ou fonction historique locale ; exploitation exacte au Snapshot 0 non déduite."
+        },
+        {
+          "role": "industrie",
+          "sources": [
+            "src-essen-industry",
+            "src-essen-krupp"
+          ],
+          "portee": "Infrastructure ou fonction historique locale ; exploitation exacte au Snapshot 0 non déduite."
+        },
+        {
+          "role": "militaire",
+          "sources": [
+            "src-essen-industry",
+            "src-essen-krupp"
+          ],
+          "portee": "Infrastructure ou fonction historique locale ; exploitation exacte au Snapshot 0 non déduite."
+        }
+      ],
+      "roles_herites_non_reexamines": [],
+      "roles_a_renforcer": [],
+      "precisions_a_renforcer": [],
+      "source_role_a_renforcer_propose": false,
+      "note_historique_ajouter": "Mines, acier Krupp, rail local de 1847/1862 et production d’armement ; militaire au sens industriel.",
+      "modifications_proposees": {},
+      "sources_retirer_des_preuves": []
+    },
+    {
+      "entite_id": "ville-de-dortmund",
+      "nom_dossier": "Dortmund",
+      "sources_ajouter": [
+        "src-12a-dortmund-industrie"
+      ],
+      "preuves_par_role": [
+        {
+          "role": "rail",
+          "sources": [
+            "src-dortmund-rail",
+            "src-12a-dortmund-industrie"
+          ],
+          "portee": "Infrastructure ou fonction historique locale ; exploitation exacte au Snapshot 0 non déduite."
+        },
+        {
+          "role": "industrie",
+          "sources": [
+            "src-12a-dortmund-industrie"
+          ],
+          "portee": "Infrastructure ou fonction historique locale ; exploitation exacte au Snapshot 0 non déduite."
+        },
+        {
+          "role": "port_fluvial",
+          "sources": [
+            "src-dortmund-port",
+            "src-12a-dortmund-industrie"
+          ],
+          "portee": "Infrastructure ou fonction historique locale ; exploitation exacte au Snapshot 0 non déduite."
+        }
+      ],
+      "roles_herites_non_reexamines": [],
+      "roles_a_renforcer": [],
+      "precisions_a_renforcer": [],
+      "source_role_a_renforcer_propose": false,
+      "note_historique_ajouter": "Mines et sidérurgie Hoesch/Union ; port de 1899. Jour d’ouverture divergent dans deux notices municipales.",
+      "modifications_proposees": {},
+      "sources_retirer_des_preuves": []
+    },
+    {
+      "entite_id": "ville-de-koeln",
+      "nom_dossier": "Cologne",
+      "sources_ajouter": [
+        "src-12a-koeln-gare"
+      ],
+      "preuves_par_role": [
+        {
+          "role": "rail",
+          "sources": [
+            "src-12a-koeln-gare"
+          ],
+          "portee": "Infrastructure ou fonction historique locale ; exploitation exacte au Snapshot 0 non déduite."
+        }
+      ],
+      "roles_herites_non_reexamines": [],
+      "roles_a_renforcer": [
+        "port_fluvial",
+        "industrie"
+      ],
+      "precisions_a_renforcer": [],
+      "source_role_a_renforcer_propose": true,
+      "note_historique_ajouter": "Gare centrale et franchissement du Rhin de 1859 ; pont Hohenzollern antérieur à 1945.",
+      "modifications_proposees": {},
+      "sources_retirer_des_preuves": []
+    },
+    {
+      "entite_id": "ville-de-duesseldorf",
+      "nom_dossier": "Düsseldorf",
+      "sources_ajouter": [
+        "src-12a-duesseldorf-port"
+      ],
+      "preuves_par_role": [
+        {
+          "role": "rail",
+          "sources": [
+            "src-12a-duesseldorf-port"
+          ],
+          "portee": "Infrastructure ou fonction historique locale ; exploitation exacte au Snapshot 0 non déduite."
+        },
+        {
+          "role": "port_fluvial",
+          "sources": [
+            "src-12a-duesseldorf-port"
+          ],
+          "portee": "Infrastructure ou fonction historique locale ; exploitation exacte au Snapshot 0 non déduite."
+        }
+      ],
+      "roles_herites_non_reexamines": [],
+      "roles_a_renforcer": [
+        "industrie"
+      ],
+      "precisions_a_renforcer": [
+        "Consolidation de la source patrimoniale C par archives ou opérateur."
+      ],
+      "source_role_a_renforcer_propose": true,
+      "note_historique_ajouter": "Port de 1896 relié au rail ; étude patrimoniale locale C, industrie encore à documenter.",
+      "modifications_proposees": {},
+      "sources_retirer_des_preuves": []
+    },
+    {
+      "entite_id": "ville-de-frankfurt",
+      "nom_dossier": "Francfort-sur-le-Main",
+      "sources_ajouter": [
+        "src-12a-dresden-gare"
+      ],
+      "preuves_par_role": [
+        {
+          "role": "rail",
+          "sources": [
+            "src-12a-dresden-gare",
+            "src-frankfurt-station-district"
+          ],
+          "portee": "Infrastructure ou fonction historique locale ; exploitation exacte au Snapshot 0 non déduite."
+        }
+      ],
+      "roles_herites_non_reexamines": [],
+      "roles_a_renforcer": [
+        "port_fluvial",
+        "aviation"
+      ],
+      "precisions_a_renforcer": [],
+      "source_role_a_renforcer_propose": true,
+      "note_historique_ajouter": "Gare de 1888, extension de 1924. Cela ne valide ni port ni aéroport au Snapshot 0.",
+      "modifications_proposees": {},
+      "sources_retirer_des_preuves": []
+    },
+    {
+      "entite_id": "ville-de-mannheim",
+      "nom_dossier": "Mannheim",
+      "sources_ajouter": [],
+      "preuves_par_role": [
+        {
+          "role": "rail",
+          "sources": [
+            "src-mannheim-rail"
+          ],
+          "portee": "Infrastructure ou fonction historique locale ; exploitation exacte au Snapshot 0 non déduite."
+        },
+        {
+          "role": "port_fluvial",
+          "sources": [
+            "src-mannheim-rheinhafen",
+            "src-mannheim-rail"
+          ],
+          "portee": "Infrastructure ou fonction historique locale ; exploitation exacte au Snapshot 0 non déduite."
+        }
+      ],
+      "roles_herites_non_reexamines": [],
+      "roles_a_renforcer": [
+        "industrie"
+      ],
+      "precisions_a_renforcer": [],
+      "source_role_a_renforcer_propose": true,
+      "note_historique_ajouter": "Port de 1828/1840, première gare de 1840, liaison portuaire par Schleifbahn dès 1854.",
+      "modifications_proposees": {},
+      "sources_retirer_des_preuves": []
+    },
+    {
+      "entite_id": "ville-de-stuttgart",
+      "nom_dossier": "Stuttgart",
+      "sources_ajouter": [
+        "src-12a-stuttgart-daimler",
+        "src-12a-stuttgart-gare"
+      ],
+      "preuves_par_role": [
+        {
+          "role": "rail",
+          "sources": [
+            "src-12a-stuttgart-gare"
+          ],
+          "portee": "Infrastructure ou fonction historique locale ; exploitation exacte au Snapshot 0 non déduite."
+        },
+        {
+          "role": "industrie",
+          "sources": [
+            "src-12a-stuttgart-daimler"
+          ],
+          "portee": "Infrastructure ou fonction historique locale ; exploitation exacte au Snapshot 0 non déduite."
+        }
+      ],
+      "roles_herites_non_reexamines": [],
+      "roles_a_renforcer": [],
+      "precisions_a_renforcer": [],
+      "source_role_a_renforcer_propose": false,
+      "note_historique_ajouter": "Gare de 1922–1928 et production de guerre à Untertürkheim ; chiffres du groupe Daimler non localisés exclus.",
+      "modifications_proposees": {},
+      "sources_retirer_des_preuves": []
+    },
+    {
+      "entite_id": "ville-de-nuernberg",
+      "nom_dossier": "Nuremberg",
+      "sources_ajouter": [
+        "src-12a-dresden-gare"
+      ],
+      "preuves_par_role": [
+        {
+          "role": "rail",
+          "sources": [
+            "src-12a-dresden-gare"
+          ],
+          "portee": "Infrastructure ou fonction historique locale ; exploitation exacte au Snapshot 0 non déduite."
+        }
+      ],
+      "roles_herites_non_reexamines": [],
+      "roles_a_renforcer": [
+        "industrie"
+      ],
+      "precisions_a_renforcer": [],
+      "source_role_a_renforcer_propose": true,
+      "note_historique_ajouter": "Gare de 1844–1847, transformation 1900–1906 ; pas d’événement journalier inventé en 1903 ou 1905.",
+      "modifications_proposees": {},
+      "sources_retirer_des_preuves": []
+    },
+    {
+      "entite_id": "ville-de-muenchen",
+      "nom_dossier": "Munich",
+      "sources_ajouter": [
+        "src-12a-muenchen-chronologie"
+      ],
+      "preuves_par_role": [
+        {
+          "role": "rail",
+          "sources": [
+            "src-12a-muenchen-chronologie"
+          ],
+          "portee": "Infrastructure ou fonction historique locale ; exploitation exacte au Snapshot 0 non déduite."
+        },
+        {
+          "role": "industrie",
+          "sources": [
+            "src-12a-muenchen-chronologie"
+          ],
+          "portee": "Infrastructure ou fonction historique locale ; exploitation exacte au Snapshot 0 non déduite."
+        }
+      ],
+      "roles_herites_non_reexamines": [
+        "administration"
+      ],
+      "roles_a_renforcer": [],
+      "precisions_a_renforcer": [],
+      "source_role_a_renforcer_propose": false,
+      "note_historique_ajouter": "Rail Munich–Augsbourg en 1839–1840 et implantation de Maffei ; pas de capacité industrielle chiffrée en 1945.",
+      "modifications_proposees": {},
+      "sources_retirer_des_preuves": []
+    },
+    {
+      "entite_id": "ville-de-leipzig",
+      "nom_dossier": "Leipzig",
+      "sources_ajouter": [],
+      "preuves_par_role": [
+        {
+          "role": "rail",
+          "sources": [
+            "src-leipzig-db-museum"
+          ],
+          "portee": "Infrastructure ou fonction historique locale ; exploitation exacte au Snapshot 0 non déduite."
+        }
+      ],
+      "roles_herites_non_reexamines": [],
+      "roles_a_renforcer": [
+        "industrie"
+      ],
+      "precisions_a_renforcer": [],
+      "source_role_a_renforcer_propose": true,
+      "note_historique_ajouter": "Gare ouverte en 1915. Les véhicules exposés aujourd’hui ne prouvent pas leur affectation à Leipzig en 1945.",
+      "modifications_proposees": {},
+      "sources_retirer_des_preuves": []
+    },
+    {
+      "entite_id": "ville-de-dresden",
+      "nom_dossier": "Dresde",
+      "sources_ajouter": [
+        "src-12a-dresden-gare"
+      ],
+      "preuves_par_role": [
+        {
+          "role": "rail",
+          "sources": [
+            "src-12a-dresden-gare"
+          ],
+          "portee": "Infrastructure ou fonction historique locale ; exploitation exacte au Snapshot 0 non déduite."
+        }
+      ],
+      "roles_herites_non_reexamines": [],
+      "roles_a_renforcer": [
+        "industrie",
+        "port_fluvial"
+      ],
+      "precisions_a_renforcer": [],
+      "source_role_a_renforcer_propose": true,
+      "note_historique_ajouter": "Gare de 1898 ; bombardements de février 1945 non anticipés. Rail seul prouvé par cette notice.",
+      "modifications_proposees": {},
+      "sources_retirer_des_preuves": []
+    },
+    {
+      "entite_id": "ville-de-magdeburg",
+      "nom_dossier": "Magdebourg",
+      "sources_ajouter": [],
+      "preuves_par_role": [
+        {
+          "role": "rail",
+          "sources": [
+            "src-magdeburg-port"
+          ],
+          "portee": "Infrastructure ou fonction historique locale ; exploitation exacte au Snapshot 0 non déduite."
+        },
+        {
+          "role": "port_fluvial",
+          "sources": [
+            "src-magdeburg-port"
+          ],
+          "portee": "Infrastructure ou fonction historique locale ; exploitation exacte au Snapshot 0 non déduite."
+        }
+      ],
+      "roles_herites_non_reexamines": [],
+      "roles_a_renforcer": [
+        "industrie"
+      ],
+      "precisions_a_renforcer": [],
+      "source_role_a_renforcer_propose": true,
+      "note_historique_ajouter": "Port de 1888–1893 et raccordement ferroviaire ; destruction du 16/01/1945, puis arrêt complet plusieurs mois après.",
+      "modifications_proposees": {},
+      "sources_retirer_des_preuves": []
+    },
+    {
+      "entite_id": "ville-de-halle",
+      "nom_dossier": "Halle (Saale)",
+      "sources_ajouter": [
+        "src-12a-halle-gare"
+      ],
+      "preuves_par_role": [
+        {
+          "role": "rail",
+          "sources": [
+            "src-12a-halle-gare"
+          ],
+          "portee": "Infrastructure ou fonction historique locale ; exploitation exacte au Snapshot 0 non déduite."
+        }
+      ],
+      "roles_herites_non_reexamines": [],
+      "roles_a_renforcer": [
+        "industrie"
+      ],
+      "precisions_a_renforcer": [],
+      "source_role_a_renforcer_propose": true,
+      "note_historique_ajouter": "Gare/nœud de 1890. L’industrie chimique de Leuna n’est pas transférée automatiquement à Halle.",
+      "modifications_proposees": {},
+      "sources_retirer_des_preuves": []
+    },
+    {
+      "entite_id": "ville-de-rostock",
+      "nom_dossier": "Rostock",
+      "sources_ajouter": [
+        "src-12a-rostock-heinkel"
+      ],
+      "preuves_par_role": [
+        {
+          "role": "industrie",
+          "sources": [
+            "src-12a-rostock-heinkel"
+          ],
+          "portee": "Infrastructure ou fonction historique locale ; exploitation exacte au Snapshot 0 non déduite."
+        }
+      ],
+      "roles_herites_non_reexamines": [],
+      "roles_a_renforcer": [
+        "port_maritime",
+        "construction_navale"
+      ],
+      "precisions_a_renforcer": [],
+      "source_role_a_renforcer_propose": true,
+      "note_historique_ajouter": "Heinkel atteste la construction d’avions, à classer industrie ; cela ne prouve pas un service de transport aérien.",
+      "modifications_proposees": {
+        "roles_ajouter": [
+          "industrie"
+        ],
+        "roles_retirer": [
+          "aviation"
+        ],
+        "motif": "Heinkel prouve la construction aéronautique, pas un rôle de transport aérien. Le rôle aviation reste à instruire avec une source de terrain/service."
+      },
+      "sources_retirer_des_preuves": [],
+      "roles_suspendus_en_attente_de_source": [
+        "aviation"
+      ]
+    },
+    {
+      "entite_id": "ville-de-wilhelmshaven",
+      "nom_dossier": "Wilhelmshaven",
+      "sources_ajouter": [
+        "src-12a-wilhelmshaven-marine"
+      ],
+      "preuves_par_role": [
+        {
+          "role": "port_maritime",
+          "sources": [
+            "src-12a-wilhelmshaven-marine"
+          ],
+          "portee": "Infrastructure ou fonction historique locale ; exploitation exacte au Snapshot 0 non déduite."
+        },
+        {
+          "role": "militaire",
+          "sources": [
+            "src-12a-wilhelmshaven-marine"
+          ],
+          "portee": "Infrastructure ou fonction historique locale ; exploitation exacte au Snapshot 0 non déduite."
+        }
+      ],
+      "roles_herites_non_reexamines": [],
+      "roles_a_renforcer": [
+        "construction_navale"
+      ],
+      "precisions_a_renforcer": [],
+      "source_role_a_renforcer_propose": true,
+      "note_historique_ajouter": "Établissement naval et essor 1933–1939 ; réunion avec Rüstringen en 1937 ; bilan final 1945 exclu.",
+      "modifications_proposees": {},
+      "sources_retirer_des_preuves": []
+    },
+    {
+      "entite_id": "ville-de-saarbruecken",
+      "nom_dossier": "Sarrebruck",
+      "sources_ajouter": [
+        "src-12a-saarbruecken-rail"
+      ],
+      "preuves_par_role": [
+        {
+          "role": "rail",
+          "sources": [
+            "src-12a-saarbruecken-rail"
+          ],
+          "portee": "Infrastructure ou fonction historique locale ; exploitation exacte au Snapshot 0 non déduite."
+        }
+      ],
+      "roles_herites_non_reexamines": [],
+      "roles_a_renforcer": [
+        "industrie",
+        "frontiere"
+      ],
+      "precisions_a_renforcer": [],
+      "source_role_a_renforcer_propose": true,
+      "note_historique_ajouter": "Liaisons ferroviaires franco-allemandes de 1850–1852 ; ouverture effective des passages en 1945 non démontrée.",
+      "modifications_proposees": {},
+      "sources_retirer_des_preuves": []
+    },
+    {
+      "entite_id": "ville-de-chemnitz",
+      "nom_dossier": "Chemnitz",
+      "sources_ajouter": [
+        "src-12a-chemnitz-industrie"
+      ],
+      "preuves_par_role": [
+        {
+          "role": "industrie",
+          "sources": [
+            "src-12a-chemnitz-industrie"
+          ],
+          "portee": "Infrastructure ou fonction historique locale ; exploitation exacte au Snapshot 0 non déduite."
+        }
+      ],
+      "roles_herites_non_reexamines": [],
+      "roles_a_renforcer": [
+        "rail"
+      ],
+      "precisions_a_renforcer": [],
+      "source_role_a_renforcer_propose": true,
+      "note_historique_ajouter": "Auto-Union à partir de 1936, production locale de guerre. Bombardements de février/mars 1945 exclus du Snapshot.",
+      "modifications_proposees": {},
+      "sources_retirer_des_preuves": []
+    },
+    {
+      "entite_id": "ville-de-kassel",
+      "nom_dossier": "Cassel",
+      "sources_ajouter": [
+        "src-12a-kassel-industrie"
+      ],
+      "preuves_par_role": [
+        {
+          "role": "industrie",
+          "sources": [
+            "src-12a-kassel-industrie"
+          ],
+          "portee": "Infrastructure ou fonction historique locale ; exploitation exacte au Snapshot 0 non déduite."
+        },
+        {
+          "role": "militaire",
+          "sources": [
+            "src-12a-kassel-industrie"
+          ],
+          "portee": "Infrastructure ou fonction historique locale ; exploitation exacte au Snapshot 0 non déduite."
+        }
+      ],
+      "roles_herites_non_reexamines": [],
+      "roles_a_renforcer": [
+        "rail"
+      ],
+      "precisions_a_renforcer": [],
+      "source_role_a_renforcer_propose": true,
+      "note_historique_ajouter": "Henschel/industrie de guerre locale attestée ; ne pas absorber le site distinct d’Altenbauna dans la ville.",
+      "modifications_proposees": {},
+      "sources_retirer_des_preuves": []
+    },
+    {
+      "entite_id": "ville-de-karlsruhe",
+      "nom_dossier": "Karlsruhe",
+      "sources_ajouter": [
+        "src-12a-karlsruhe-port"
+      ],
+      "preuves_par_role": [
+        {
+          "role": "rail",
+          "sources": [
+            "src-12a-karlsruhe-port"
+          ],
+          "portee": "Infrastructure ou fonction historique locale ; exploitation exacte au Snapshot 0 non déduite."
+        },
+        {
+          "role": "port_fluvial",
+          "sources": [
+            "src-12a-karlsruhe-port"
+          ],
+          "portee": "Infrastructure ou fonction historique locale ; exploitation exacte au Snapshot 0 non déduite."
+        }
+      ],
+      "roles_herites_non_reexamines": [],
+      "roles_a_renforcer": [
+        "industrie"
+      ],
+      "precisions_a_renforcer": [],
+      "source_role_a_renforcer_propose": true,
+      "note_historique_ajouter": "Port de 1901 avec accès ferroviaire et charbon ; le Rhin géographique devient ici un rôle portuaire étayé.",
+      "modifications_proposees": {},
+      "sources_retirer_des_preuves": []
+    },
+    {
+      "entite_id": "ville-de-aachen",
+      "nom_dossier": "Aix-la-Chapelle",
+      "sources_ajouter": [
+        "src-12a-aachen-gare",
+        "src-mwi-aachen-1944"
+      ],
+      "preuves_par_role": [
+        {
+          "role": "rail",
+          "sources": [
+            "src-12a-aachen-gare"
+          ],
+          "portee": "Infrastructure ou fonction historique locale ; exploitation exacte au Snapshot 0 non déduite."
+        },
+        {
+          "role": "frontiere",
+          "sources": [
+            "src-12a-aachen-gare"
+          ],
+          "portee": "Infrastructure ou fonction historique locale ; exploitation exacte au Snapshot 0 non déduite."
+        }
+      ],
+      "roles_herites_non_reexamines": [],
+      "roles_a_renforcer": [
+        "industrie"
+      ],
+      "precisions_a_renforcer": [],
+      "source_role_a_renforcer_propose": true,
+      "note_historique_ajouter": "Gare de 1841/1905 et situation issue des combats d’octobre 1944 ; pas d’arrêt total du rail déduit.",
+      "modifications_proposees": {
+        "situation": "evacuee et detruite"
+      },
+      "sources_retirer_des_preuves": []
+    },
+    {
+      "entite_id": "ville-de-koblenz",
+      "nom_dossier": "Coblence",
+      "sources_ajouter": [
+        "src-12a-koblenz-gare"
+      ],
+      "preuves_par_role": [
+        {
+          "role": "rail",
+          "sources": [
+            "src-12a-koblenz-gare"
+          ],
+          "portee": "Infrastructure ou fonction historique locale ; exploitation exacte au Snapshot 0 non déduite."
+        }
+      ],
+      "roles_herites_non_reexamines": [],
+      "roles_a_renforcer": [
+        "port_fluvial"
+      ],
+      "precisions_a_renforcer": [],
+      "source_role_a_renforcer_propose": true,
+      "note_historique_ajouter": "Rail de 1858, lignes rhénanes/Moselle et gare réunie en 1902 ; confluence seule ne prouve pas un port.",
+      "modifications_proposees": {},
+      "sources_retirer_des_preuves": []
+    },
+    {
+      "entite_id": "ville-de-regensburg",
+      "nom_dossier": "Ratisbonne",
+      "sources_ajouter": [
+        "src-12a-regensburg-port-rail"
+      ],
+      "preuves_par_role": [
+        {
+          "role": "rail",
+          "sources": [
+            "src-12a-regensburg-port-rail"
+          ],
+          "portee": "Infrastructure ou fonction historique locale ; exploitation exacte au Snapshot 0 non déduite."
+        },
+        {
+          "role": "port_fluvial",
+          "sources": [
+            "src-12a-regensburg-port-rail"
+          ],
+          "portee": "Infrastructure ou fonction historique locale ; exploitation exacte au Snapshot 0 non déduite."
+        }
+      ],
+      "roles_herites_non_reexamines": [],
+      "roles_a_renforcer": [
+        "industrie"
+      ],
+      "precisions_a_renforcer": [],
+      "source_role_a_renforcer_propose": true,
+      "note_historique_ajouter": "Transbordement Danube–rail de 1865, port de 1910. Relations avec Linz après 1945 non anticipées.",
+      "modifications_proposees": {},
+      "sources_retirer_des_preuves": []
+    },
+    {
+      "entite_id": "ville-de-passau",
+      "nom_dossier": "Passau",
+      "sources_ajouter": [
+        "src-12a-passau-rail"
+      ],
+      "preuves_par_role": [
+        {
+          "role": "rail",
+          "sources": [
+            "src-12a-passau-rail"
+          ],
+          "portee": "Infrastructure ou fonction historique locale ; exploitation exacte au Snapshot 0 non déduite."
+        }
+      ],
+      "roles_herites_non_reexamines": [],
+      "roles_a_renforcer": [
+        "port_fluvial",
+        "frontiere"
+      ],
+      "precisions_a_renforcer": [],
+      "source_role_a_renforcer_propose": true,
+      "note_historique_ajouter": "Rail Passau–Straubing dès 1860. Confluence et proximité de frontière ne prouvent pas un trafic fluvial de 1945.",
+      "modifications_proposees": {},
+      "sources_retirer_des_preuves": []
+    },
+    {
+      "entite_id": "ville-de-flensburg",
+      "nom_dossier": "Flensbourg",
+      "sources_ajouter": [
+        "src-12a-flensburg-port-rail"
+      ],
+      "preuves_par_role": [
+        {
+          "role": "rail",
+          "sources": [
+            "src-12a-flensburg-port-rail"
+          ],
+          "portee": "Infrastructure ou fonction historique locale ; exploitation exacte au Snapshot 0 non déduite."
+        },
+        {
+          "role": "port_maritime",
+          "sources": [
+            "src-12a-flensburg-port-rail"
+          ],
+          "portee": "Infrastructure ou fonction historique locale ; exploitation exacte au Snapshot 0 non déduite."
+        }
+      ],
+      "roles_herites_non_reexamines": [],
+      "roles_a_renforcer": [
+        "frontiere"
+      ],
+      "precisions_a_renforcer": [],
+      "source_role_a_renforcer_propose": true,
+      "note_historique_ajouter": "Rail de 1854 et transbordement rail–vapeur de 1856 ; transit frontalier de janvier 1945 non garanti.",
+      "modifications_proposees": {},
+      "sources_retirer_des_preuves": []
+    },
+    {
+      "entite_id": "ville-de-emden",
+      "nom_dossier": "Emden",
+      "sources_ajouter": [
+        "src-12a-emden-port-minerais"
+      ],
+      "preuves_par_role": [
+        {
+          "role": "port_maritime",
+          "sources": [
+            "src-12a-emden-port-minerais"
+          ],
+          "portee": "Infrastructure ou fonction historique locale ; exploitation exacte au Snapshot 0 non déduite."
+        }
+      ],
+      "roles_herites_non_reexamines": [],
+      "roles_a_renforcer": [
+        "industrie",
+        "militaire"
+      ],
+      "precisions_a_renforcer": [],
+      "source_role_a_renforcer_propose": true,
+      "note_historique_ajouter": "Quais et transbordement charbon/minerai avant 1945 ; ne pas confondre arrêt des extensions et fermeture du port.",
+      "modifications_proposees": {},
+      "sources_retirer_des_preuves": []
+    },
+    {
+      "entite_id": "ville-at-wien",
+      "nom_dossier": "Vienne",
+      "sources_ajouter": [
+        "src-12a-vienna-suedbahnhof"
+      ],
+      "preuves_par_role": [
+        {
+          "role": "rail",
+          "sources": [
+            "src-12a-vienna-suedbahnhof"
+          ],
+          "portee": "Infrastructure ou fonction historique locale ; exploitation exacte au Snapshot 0 non déduite."
+        }
+      ],
+      "roles_herites_non_reexamines": [
+        "capitale",
+        "administration"
+      ],
+      "roles_a_renforcer": [
+        "port_fluvial",
+        "industrie"
+      ],
+      "precisions_a_renforcer": [],
+      "source_role_a_renforcer_propose": true,
+      "note_historique_ajouter": "Utiliser les gares Sud/Est historiques, pas le Hauptbahnhof moderne. Statut régional conservé de la v0.2.",
+      "modifications_proposees": {
+        "importance_atlas": "A",
+        "capitale": "regionale"
+      },
+      "sources_retirer_des_preuves": []
+    },
+    {
+      "entite_id": "ville-at-linz",
+      "nom_dossier": "Linz",
+      "sources_ajouter": [
+        "src-12a-linz-port"
+      ],
+      "preuves_par_role": [
+        {
+          "role": "industrie",
+          "sources": [
+            "src-linz-1938-1945"
+          ],
+          "portee": "Infrastructure ou fonction historique locale ; exploitation exacte au Snapshot 0 non déduite."
+        },
+        {
+          "role": "militaire",
+          "sources": [
+            "src-linz-1938-1945"
+          ],
+          "portee": "Infrastructure ou fonction historique locale ; exploitation exacte au Snapshot 0 non déduite."
+        },
+        {
+          "role": "port_fluvial",
+          "sources": [
+            "src-12a-linz-port"
+          ],
+          "portee": "Infrastructure ou fonction historique locale ; exploitation exacte au Snapshot 0 non déduite."
+        }
+      ],
+      "roles_herites_non_reexamines": [],
+      "roles_a_renforcer": [
+        "rail"
+      ],
+      "precisions_a_renforcer": [],
+      "source_role_a_renforcer_propose": true,
+      "note_historique_ajouter": "Bassins réalisés jusqu’en 1942 ; raccordement ferroviaire du port en 1948, port privé VÖEST en 1966.",
+      "modifications_proposees": {},
+      "sources_retirer_des_preuves": []
+    },
+    {
+      "entite_id": "ville-at-graz",
+      "nom_dossier": "Graz",
+      "sources_ajouter": [
+        "src-12a-graz-rail"
+      ],
+      "preuves_par_role": [
+        {
+          "role": "rail",
+          "sources": [
+            "src-12a-graz-rail"
+          ],
+          "portee": "Infrastructure ou fonction historique locale ; exploitation exacte au Snapshot 0 non déduite."
+        },
+        {
+          "role": "industrie",
+          "sources": [
+            "src-graz-armaments"
+          ],
+          "portee": "Infrastructure ou fonction historique locale ; exploitation exacte au Snapshot 0 non déduite."
+        },
+        {
+          "role": "militaire",
+          "sources": [
+            "src-graz-armaments"
+          ],
+          "portee": "Infrastructure ou fonction historique locale ; exploitation exacte au Snapshot 0 non déduite."
+        }
+      ],
+      "roles_herites_non_reexamines": [],
+      "roles_a_renforcer": [],
+      "precisions_a_renforcer": [],
+      "source_role_a_renforcer_propose": false,
+      "note_historique_ajouter": "Rail historique distinct de l’industrie d’armement de 1944 ; ancienne référence aux pompiers écartée.",
+      "modifications_proposees": {},
+      "sources_retirer_des_preuves": [
+        "src-graz-rail-industry"
+      ]
+    },
+    {
+      "entite_id": "ville-at-salzburg",
+      "nom_dossier": "Salzbourg",
+      "sources_ajouter": [
+        "src-12a-salzburg-westbahn"
+      ],
+      "preuves_par_role": [
+        {
+          "role": "rail",
+          "sources": [
+            "src-12a-salzburg-westbahn"
+          ],
+          "portee": "Infrastructure ou fonction historique locale ; exploitation exacte au Snapshot 0 non déduite."
+        }
+      ],
+      "roles_herites_non_reexamines": [],
+      "roles_a_renforcer": [],
+      "precisions_a_renforcer": [
+        "Services et embranchements des corridors alpins au Snapshot 0."
+      ],
+      "source_role_a_renforcer_propose": true,
+      "note_historique_ajouter": "Raccordement à la Westbahn en 1860 ; services des corridors alpins à étudier séparément.",
+      "modifications_proposees": {},
+      "sources_retirer_des_preuves": []
+    },
+    {
+      "entite_id": "ville-at-innsbruck",
+      "nom_dossier": "Innsbruck",
+      "sources_ajouter": [
+        "src-12a-innsbruck-gare"
+      ],
+      "preuves_par_role": [
+        {
+          "role": "rail",
+          "sources": [
+            "src-12a-innsbruck-gare"
+          ],
+          "portee": "Infrastructure ou fonction historique locale ; exploitation exacte au Snapshot 0 non déduite."
+        }
+      ],
+      "roles_herites_non_reexamines": [],
+      "roles_a_renforcer": [],
+      "precisions_a_renforcer": [],
+      "source_role_a_renforcer_propose": false,
+      "note_historique_ajouter": "Gare de 1858, Brenner 1867 et Arlberg 1884 ; infrastructure, sans horaires ni garantie de transit de guerre.",
+      "modifications_proposees": {},
+      "sources_retirer_des_preuves": []
+    },
+    {
+      "entite_id": "ville-at-villach",
+      "nom_dossier": "Villach",
+      "sources_ajouter": [
+        "src-12a-villach-noeud"
+      ],
+      "preuves_par_role": [
+        {
+          "role": "rail",
+          "sources": [
+            "src-12a-villach-noeud"
+          ],
+          "portee": "Infrastructure ou fonction historique locale ; exploitation exacte au Snapshot 0 non déduite."
+        }
+      ],
+      "roles_herites_non_reexamines": [],
+      "roles_a_renforcer": [
+        "frontiere"
+      ],
+      "precisions_a_renforcer": [],
+      "source_role_a_renforcer_propose": true,
+      "note_historique_ajouter": "Nœud suprarégional et direction ferroviaire issus du développement de 1864 ; services frontières non précisés.",
+      "modifications_proposees": {},
+      "sources_retirer_des_preuves": []
+    },
+    {
+      "entite_id": "ville-at-klagenfurt",
+      "nom_dossier": "Klagenfurt",
+      "sources_ajouter": [
+        "src-12a-klagenfurt-guide"
+      ],
+      "preuves_par_role": [
+        {
+          "role": "rail",
+          "sources": [
+            "src-12a-klagenfurt-guide"
+          ],
+          "portee": "Infrastructure ou fonction historique locale ; exploitation exacte au Snapshot 0 non déduite."
+        }
+      ],
+      "roles_herites_non_reexamines": [],
+      "roles_a_renforcer": [
+        "industrie"
+      ],
+      "precisions_a_renforcer": [
+        "Date d’édition et métadonnées complètes du guide ancien."
+      ],
+      "source_role_a_renforcer_propose": true,
+      "note_historique_ajouter": "Gare Südbahn et ligne de 1863 attestées par un guide numérisé ; métadonnées d’édition à compléter.",
+      "modifications_proposees": {},
+      "sources_retirer_des_preuves": []
+    },
+    {
+      "entite_id": "ville-at-bregenz",
+      "nom_dossier": "Bregenz",
+      "sources_ajouter": [
+        "src-12a-bregenz-rail"
+      ],
+      "preuves_par_role": [
+        {
+          "role": "rail",
+          "sources": [
+            "src-12a-bregenz-rail"
+          ],
+          "portee": "Infrastructure ou fonction historique locale ; exploitation exacte au Snapshot 0 non déduite."
+        },
+        {
+          "role": "port_fluvial",
+          "sources": [
+            "src-12a-bregenz-rail"
+          ],
+          "portee": "Infrastructure ou fonction historique locale ; exploitation exacte au Snapshot 0 non déduite."
+        },
+        {
+          "role": "frontiere",
+          "sources": [
+            "src-12a-bregenz-rail"
+          ],
+          "portee": "Infrastructure ou fonction historique locale ; exploitation exacte au Snapshot 0 non déduite."
+        }
+      ],
+      "roles_herites_non_reexamines": [],
+      "roles_a_renforcer": [],
+      "precisions_a_renforcer": [],
+      "source_role_a_renforcer_propose": false,
+      "note_historique_ajouter": "Rail de 1870–1872, réseaux allemand/suisse, transbordement et vapeur lacustres avant 1945.",
+      "modifications_proposees": {},
+      "sources_retirer_des_preuves": []
+    },
+    {
+      "entite_id": "ville-at-feldkirch",
+      "nom_dossier": "Feldkirch",
+      "sources_ajouter": [
+        "src-12a-feldkirch-frontiere"
+      ],
+      "preuves_par_role": [
+        {
+          "role": "rail",
+          "sources": [
+            "src-12a-feldkirch-frontiere"
+          ],
+          "portee": "Infrastructure ou fonction historique locale ; exploitation exacte au Snapshot 0 non déduite."
+        },
+        {
+          "role": "frontiere",
+          "sources": [
+            "src-12a-feldkirch-frontiere"
+          ],
+          "portee": "Infrastructure ou fonction historique locale ; exploitation exacte au Snapshot 0 non déduite."
+        }
+      ],
+      "roles_herites_non_reexamines": [],
+      "roles_a_renforcer": [],
+      "precisions_a_renforcer": [],
+      "source_role_a_renforcer_propose": false,
+      "note_historique_ajouter": "Gare frontière de 1872, renforcée par l’Arlberg dans les années 1880 ; jour exact de 1872 à recouper.",
+      "modifications_proposees": {},
+      "sources_retirer_des_preuves": []
+    },
+    {
+      "entite_id": "ville-at-wels",
+      "nom_dossier": "Wels",
+      "sources_ajouter": [
+        "src-12a-wels-rail"
+      ],
+      "preuves_par_role": [
+        {
+          "role": "rail",
+          "sources": [
+            "src-12a-wels-rail"
+          ],
+          "portee": "Infrastructure ou fonction historique locale ; exploitation exacte au Snapshot 0 non déduite."
+        }
+      ],
+      "roles_herites_non_reexamines": [],
+      "roles_a_renforcer": [],
+      "precisions_a_renforcer": [
+        "Bifurcation vers Passau et hiérarchie du nœud avant 1945."
+      ],
+      "source_role_a_renforcer_propose": true,
+      "note_historique_ajouter": "Présence ferroviaire historique attestée ; bifurcation vers Passau non prouvée par cette notice.",
+      "modifications_proposees": {},
+      "sources_retirer_des_preuves": []
+    },
+    {
+      "entite_id": "ville-at-steyr",
+      "nom_dossier": "Steyr",
+      "sources_ajouter": [
+        "src-12a-steyr-armement"
+      ],
+      "preuves_par_role": [
+        {
+          "role": "industrie",
+          "sources": [
+            "src-12a-steyr-armement"
+          ],
+          "portee": "Infrastructure ou fonction historique locale ; exploitation exacte au Snapshot 0 non déduite."
+        },
+        {
+          "role": "militaire",
+          "sources": [
+            "src-12a-steyr-armement"
+          ],
+          "portee": "Infrastructure ou fonction historique locale ; exploitation exacte au Snapshot 0 non déduite."
+        }
+      ],
+      "roles_herites_non_reexamines": [],
+      "roles_a_renforcer": [],
+      "precisions_a_renforcer": [],
+      "source_role_a_renforcer_propose": false,
+      "note_historique_ajouter": "Armement Steyr-Daimler-Puch et sous-camp de mars 1942 ; preuve locale de guerre remplaçant le commerce ancien.",
+      "modifications_proposees": {},
+      "sources_retirer_des_preuves": []
+    },
+    {
+      "entite_id": "ville-at-wiener-neustadt",
+      "nom_dossier": "Wiener Neustadt",
+      "sources_ajouter": [
+        "src-12a-wiener-neustadt-industrie"
+      ],
+      "preuves_par_role": [
+        {
+          "role": "industrie",
+          "sources": [
+            "src-12a-wiener-neustadt-industrie"
+          ],
+          "portee": "Infrastructure ou fonction historique locale ; exploitation exacte au Snapshot 0 non déduite."
+        },
+        {
+          "role": "aviation",
+          "sources": [
+            "src-12a-wiener-neustadt-industrie"
+          ],
+          "portee": "Infrastructure ou fonction historique locale ; exploitation exacte au Snapshot 0 non déduite."
+        },
+        {
+          "role": "militaire",
+          "sources": [
+            "src-12a-wiener-neustadt-industrie"
+          ],
+          "portee": "Infrastructure ou fonction historique locale ; exploitation exacte au Snapshot 0 non déduite."
+        }
+      ],
+      "roles_herites_non_reexamines": [],
+      "roles_a_renforcer": [
+        "rail"
+      ],
+      "precisions_a_renforcer": [],
+      "source_role_a_renforcer_propose": true,
+      "note_historique_ajouter": "Terrain aérien de 1909 ; avions en 1940, tenders et A4 en 1943. Ruines finales non datées au 01/01.",
+      "modifications_proposees": {},
+      "sources_retirer_des_preuves": []
+    },
+    {
+      "entite_id": "ville-at-st-poelten",
+      "nom_dossier": "Sankt Pölten",
+      "sources_ajouter": [
+        "src-12a-st-poelten-westbahn"
+      ],
+      "preuves_par_role": [
+        {
+          "role": "rail",
+          "sources": [
+            "src-12a-st-poelten-westbahn"
+          ],
+          "portee": "Infrastructure ou fonction historique locale ; exploitation exacte au Snapshot 0 non déduite."
+        },
+        {
+          "role": "industrie",
+          "sources": [
+            "src-12a-st-poelten-westbahn"
+          ],
+          "portee": "Infrastructure ou fonction historique locale ; exploitation exacte au Snapshot 0 non déduite."
+        }
+      ],
+      "roles_herites_non_reexamines": [],
+      "roles_a_renforcer": [],
+      "precisions_a_renforcer": [],
+      "source_role_a_renforcer_propose": false,
+      "note_historique_ajouter": "Westbahn construite dès 1856, achevée en 1858 ; nœud et essor industriel local.",
+      "modifications_proposees": {},
+      "sources_retirer_des_preuves": []
+    },
+    {
+      "entite_id": "ville-ch-bern",
+      "nom_dossier": "Berne",
+      "sources_ajouter": [
+        "src-12a-dhs-bern"
+      ],
+      "preuves_par_role": [
+        {
+          "role": "capitale",
+          "sources": [
+            "src-12a-dhs-bern"
+          ],
+          "portee": "Infrastructure ou fonction historique locale ; exploitation exacte au Snapshot 0 non déduite."
+        },
+        {
+          "role": "administration",
+          "sources": [
+            "src-12a-dhs-bern"
+          ],
+          "portee": "Infrastructure ou fonction historique locale ; exploitation exacte au Snapshot 0 non déduite."
+        },
+        {
+          "role": "rail",
+          "sources": [
+            "src-12a-dhs-bern"
+          ],
+          "portee": "Infrastructure ou fonction historique locale ; exploitation exacte au Snapshot 0 non déduite."
+        }
+      ],
+      "roles_herites_non_reexamines": [],
+      "roles_a_renforcer": [],
+      "precisions_a_renforcer": [],
+      "source_role_a_renforcer_propose": false,
+      "note_historique_ajouter": "Ville fédérale depuis 1848, raccordements ferroviaires du XIXe siècle ; nuance juridique de capitale à conserver.",
+      "modifications_proposees": {},
+      "sources_retirer_des_preuves": []
+    },
+    {
+      "entite_id": "ville-ch-zuerich",
+      "nom_dossier": "Zurich",
+      "sources_ajouter": [
+        "src-12a-dhs-zuerich"
+      ],
+      "preuves_par_role": [
+        {
+          "role": "rail",
+          "sources": [
+            "src-12a-dhs-zuerich"
+          ],
+          "portee": "Infrastructure ou fonction historique locale ; exploitation exacte au Snapshot 0 non déduite."
+        }
+      ],
+      "roles_herites_non_reexamines": [],
+      "roles_a_renforcer": [
+        "industrie"
+      ],
+      "precisions_a_renforcer": [],
+      "source_role_a_renforcer_propose": true,
+      "note_historique_ajouter": "Gare de 1847/1865–1871 ; fret/entrepôts repris de l’audit Claude, industrie locale à compléter.",
+      "modifications_proposees": {},
+      "sources_retirer_des_preuves": []
+    },
+    {
+      "entite_id": "ville-ch-basel",
+      "nom_dossier": "Bâle",
+      "sources_ajouter": [
+        "src-12a-dhs-basel"
+      ],
+      "preuves_par_role": [
+        {
+          "role": "rail",
+          "sources": [
+            "src-12a-dhs-basel"
+          ],
+          "portee": "Infrastructure ou fonction historique locale ; exploitation exacte au Snapshot 0 non déduite."
+        },
+        {
+          "role": "port_fluvial",
+          "sources": [
+            "src-12a-dhs-basel"
+          ],
+          "portee": "Infrastructure ou fonction historique locale ; exploitation exacte au Snapshot 0 non déduite."
+        },
+        {
+          "role": "frontiere",
+          "sources": [
+            "src-12a-dhs-basel"
+          ],
+          "portee": "Infrastructure ou fonction historique locale ; exploitation exacte au Snapshot 0 non déduite."
+        },
+        {
+          "role": "industrie",
+          "sources": [
+            "src-12a-dhs-basel"
+          ],
+          "portee": "Infrastructure ou fonction historique locale ; exploitation exacte au Snapshot 0 non déduite."
+        }
+      ],
+      "roles_herites_non_reexamines": [],
+      "roles_a_renforcer": [],
+      "precisions_a_renforcer": [],
+      "source_role_a_renforcer_propose": false,
+      "note_historique_ajouter": "Ports et gares avant 1945 ; chimie historique attestée. Interruption de navigation pendant les guerres sans bornes exactes.",
+      "modifications_proposees": {
+        "roles_ajouter": [
+          "industrie"
+        ],
+        "motif": "Chimie locale attestée avant 1945 ; ne pas utiliser les chiffres cantonaux comme une capacité municipale au Snapshot 0."
+      },
+      "sources_retirer_des_preuves": []
+    },
+    {
+      "entite_id": "ville-ch-geneve",
+      "nom_dossier": "Genève",
+      "sources_ajouter": [
+        "src-12a-dhs-geneve",
+        "src-12a-geneve-aeroport"
+      ],
+      "preuves_par_role": [
+        {
+          "role": "rail",
+          "sources": [
+            "src-12a-dhs-geneve"
+          ],
+          "portee": "Infrastructure ou fonction historique locale ; exploitation exacte au Snapshot 0 non déduite."
+        },
+        {
+          "role": "frontiere",
+          "sources": [
+            "src-12a-dhs-geneve"
+          ],
+          "portee": "Infrastructure ou fonction historique locale ; exploitation exacte au Snapshot 0 non déduite."
+        },
+        {
+          "role": "aviation",
+          "sources": [
+            "src-12a-geneve-aeroport"
+          ],
+          "portee": "Infrastructure ou fonction historique locale ; exploitation exacte au Snapshot 0 non déduite."
+        }
+      ],
+      "roles_herites_non_reexamines": [],
+      "roles_a_renforcer": [],
+      "precisions_a_renforcer": [],
+      "source_role_a_renforcer_propose": false,
+      "note_historique_ajouter": "Rail franco-suisse de 1858 ; terrain aérien de 1920, piste de 1937. Les grandes lignes contournent Genève.",
+      "modifications_proposees": {},
+      "sources_retirer_des_preuves": []
+    },
+    {
+      "entite_id": "ville-ch-lausanne",
+      "nom_dossier": "Lausanne",
+      "sources_ajouter": [
+        "src-12a-dhs-lausanne"
+      ],
+      "preuves_par_role": [
+        {
+          "role": "rail",
+          "sources": [
+            "src-12a-dhs-lausanne"
+          ],
+          "portee": "Infrastructure ou fonction historique locale ; exploitation exacte au Snapshot 0 non déduite."
+        }
+      ],
+      "roles_herites_non_reexamines": [],
+      "roles_a_renforcer": [],
+      "precisions_a_renforcer": [],
+      "source_role_a_renforcer_propose": false,
+      "note_historique_ajouter": "Gare de 1915, fret Sébeillon de 1927, axe vers Paris/Milan ; remplacement des deux liens Museris.",
+      "modifications_proposees": {},
+      "sources_retirer_des_preuves": []
+    },
+    {
+      "entite_id": "ville-ch-olten",
+      "nom_dossier": "Olten",
+      "sources_ajouter": [
+        "src-12a-dhs-olten"
+      ],
+      "preuves_par_role": [
+        {
+          "role": "rail",
+          "sources": [
+            "src-12a-dhs-olten"
+          ],
+          "portee": "Infrastructure ou fonction historique locale ; exploitation exacte au Snapshot 0 non déduite."
+        }
+      ],
+      "roles_herites_non_reexamines": [],
+      "roles_a_renforcer": [],
+      "precisions_a_renforcer": [
+        "Fonction et installations spécifiques de fret : le nœud/atelier ne donne pas leur volume."
+      ],
+      "source_role_a_renforcer_propose": true,
+      "note_historique_ajouter": "Nœud et ateliers dès 1856, photographie de l’atelier en 1944 ; pas de tonnage de fret déduit.",
+      "modifications_proposees": {},
+      "sources_retirer_des_preuves": []
+    },
+    {
+      "entite_id": "ville-ch-luzern",
+      "nom_dossier": "Lucerne",
+      "sources_ajouter": [
+        "src-12a-dhs-luzern"
+      ],
+      "preuves_par_role": [
+        {
+          "role": "rail",
+          "sources": [
+            "src-12a-dhs-luzern"
+          ],
+          "portee": "Infrastructure ou fonction historique locale ; exploitation exacte au Snapshot 0 non déduite."
+        }
+      ],
+      "roles_herites_non_reexamines": [],
+      "roles_a_renforcer": [],
+      "precisions_a_renforcer": [],
+      "source_role_a_renforcer_propose": false,
+      "note_historique_ajouter": "Réseau du XIXe siècle, accès Gothard en 1897 ; commerce lacustre ancien insuffisant pour un port de 1945.",
+      "modifications_proposees": {},
+      "sources_retirer_des_preuves": []
+    },
+    {
+      "entite_id": "ville-ch-winterthur",
+      "nom_dossier": "Winterthour",
+      "sources_ajouter": [
+        "src-12a-dhs-winterthur"
+      ],
+      "preuves_par_role": [
+        {
+          "role": "rail",
+          "sources": [
+            "src-12a-dhs-winterthur"
+          ],
+          "portee": "Infrastructure ou fonction historique locale ; exploitation exacte au Snapshot 0 non déduite."
+        },
+        {
+          "role": "industrie",
+          "sources": [
+            "src-12a-dhs-winterthur"
+          ],
+          "portee": "Infrastructure ou fonction historique locale ; exploitation exacte au Snapshot 0 non déduite."
+        }
+      ],
+      "roles_herites_non_reexamines": [],
+      "roles_a_renforcer": [],
+      "precisions_a_renforcer": [],
+      "source_role_a_renforcer_propose": false,
+      "note_historique_ajouter": "Six lignes du XIXe siècle, Sulzer/SLM avant 1945 ; notice DHS allemande lisible remplace le long lien SLM.",
+      "modifications_proposees": {},
+      "sources_retirer_des_preuves": []
+    },
+    {
+      "entite_id": "ville-ch-st-gallen",
+      "nom_dossier": "Saint-Gall",
+      "sources_ajouter": [
+        "src-12a-dhs-st-gallen"
+      ],
+      "preuves_par_role": [
+        {
+          "role": "rail",
+          "sources": [
+            "src-12a-dhs-st-gallen"
+          ],
+          "portee": "Infrastructure ou fonction historique locale ; exploitation exacte au Snapshot 0 non déduite."
+        },
+        {
+          "role": "industrie",
+          "sources": [
+            "src-12a-dhs-st-gallen"
+          ],
+          "portee": "Infrastructure ou fonction historique locale ; exploitation exacte au Snapshot 0 non déduite."
+        }
+      ],
+      "roles_herites_non_reexamines": [],
+      "roles_a_renforcer": [],
+      "precisions_a_renforcer": [],
+      "source_role_a_renforcer_propose": false,
+      "note_historique_ajouter": "Rail de 1856, broderie et exportateurs historiques ; ne pas transposer l’apogée d’avant 1914 à 1945.",
+      "modifications_proposees": {},
+      "sources_retirer_des_preuves": []
+    },
+    {
+      "entite_id": "ville-ch-schaffhausen",
+      "nom_dossier": "Schaffhouse",
+      "sources_ajouter": [
+        "src-12a-dhs-schaffhausen"
+      ],
+      "preuves_par_role": [
+        {
+          "role": "rail",
+          "sources": [
+            "src-12a-dhs-schaffhausen"
+          ],
+          "portee": "Infrastructure ou fonction historique locale ; exploitation exacte au Snapshot 0 non déduite."
+        },
+        {
+          "role": "frontiere",
+          "sources": [
+            "src-12a-dhs-schaffhausen"
+          ],
+          "portee": "Infrastructure ou fonction historique locale ; exploitation exacte au Snapshot 0 non déduite."
+        }
+      ],
+      "roles_herites_non_reexamines": [],
+      "roles_a_renforcer": [],
+      "precisions_a_renforcer": [],
+      "source_role_a_renforcer_propose": false,
+      "note_historique_ajouter": "Rail de 1857 et bombardement du 01/04/1944. Maintenir l’absence de port_fluvial, sans destruction totale déduite.",
+      "modifications_proposees": {},
+      "sources_retirer_des_preuves": []
+    },
+    {
+      "entite_id": "ville-ch-chiasso",
+      "nom_dossier": "Chiasso",
+      "sources_ajouter": [
+        "src-12a-dhs-chiasso"
+      ],
+      "preuves_par_role": [
+        {
+          "role": "rail",
+          "sources": [
+            "src-12a-dhs-chiasso"
+          ],
+          "portee": "Infrastructure ou fonction historique locale ; exploitation exacte au Snapshot 0 non déduite."
+        },
+        {
+          "role": "frontiere",
+          "sources": [
+            "src-12a-dhs-chiasso"
+          ],
+          "portee": "Infrastructure ou fonction historique locale ; exploitation exacte au Snapshot 0 non déduite."
+        }
+      ],
+      "roles_herites_non_reexamines": [],
+      "roles_a_renforcer": [],
+      "precisions_a_renforcer": [],
+      "source_role_a_renforcer_propose": false,
+      "note_historique_ajouter": "Rail de 1874/1876, gare internationale et port franc de 1925 ; passages de guerre non garantis.",
+      "modifications_proposees": {},
+      "sources_retirer_des_preuves": []
+    },
+    {
+      "entite_id": "ville-ch-bellinzona",
+      "nom_dossier": "Bellinzone",
+      "sources_ajouter": [
+        "src-12a-dhs-bellinzona"
+      ],
+      "preuves_par_role": [
+        {
+          "role": "rail",
+          "sources": [
+            "src-12a-dhs-bellinzona"
+          ],
+          "portee": "Infrastructure ou fonction historique locale ; exploitation exacte au Snapshot 0 non déduite."
+        }
+      ],
+      "roles_herites_non_reexamines": [],
+      "roles_a_renforcer": [],
+      "precisions_a_renforcer": [],
+      "source_role_a_renforcer_propose": false,
+      "note_historique_ajouter": "Gothard de 1882, ateliers de 1884 ; infrastructure ferroviaire locale attestée.",
+      "modifications_proposees": {},
+      "sources_retirer_des_preuves": []
+    },
+    {
+      "entite_id": "ville-ch-brig",
+      "nom_dossier": "Brigue",
+      "sources_ajouter": [
+        "src-12a-dhs-brig"
+      ],
+      "preuves_par_role": [
+        {
+          "role": "rail",
+          "sources": [
+            "src-12a-dhs-brig"
+          ],
+          "portee": "Infrastructure ou fonction historique locale ; exploitation exacte au Snapshot 0 non déduite."
+        },
+        {
+          "role": "frontiere",
+          "sources": [
+            "src-12a-dhs-brig"
+          ],
+          "portee": "Infrastructure ou fonction historique locale ; exploitation exacte au Snapshot 0 non déduite."
+        }
+      ],
+      "roles_herites_non_reexamines": [],
+      "roles_a_renforcer": [],
+      "precisions_a_renforcer": [],
+      "source_role_a_renforcer_propose": false,
+      "note_historique_ajouter": "Simplon de 1906/1921, Lötschberg de 1913, installations de fret/frontière ; pas de service italien quotidien garanti.",
+      "modifications_proposees": {},
+      "sources_retirer_des_preuves": []
+    },
+    {
+      "entite_id": "ville-ch-buchs",
+      "nom_dossier": "Buchs SG",
+      "sources_ajouter": [
+        "src-12a-dhs-buchs"
+      ],
+      "preuves_par_role": [
+        {
+          "role": "rail",
+          "sources": [
+            "src-12a-dhs-buchs"
+          ],
+          "portee": "Infrastructure ou fonction historique locale ; exploitation exacte au Snapshot 0 non déduite."
+        },
+        {
+          "role": "frontiere",
+          "sources": [
+            "src-12a-dhs-buchs"
+          ],
+          "portee": "Infrastructure ou fonction historique locale ; exploitation exacte au Snapshot 0 non déduite."
+        }
+      ],
+      "roles_herites_non_reexamines": [],
+      "roles_a_renforcer": [],
+      "precisions_a_renforcer": [],
+      "source_role_a_renforcer_propose": false,
+      "note_historique_ajouter": "Gare de 1858, Arlberg de 1884, contexte douanier de 1924 ; preuve locale indépendante de la page ÖBB actuelle.",
+      "modifications_proposees": {},
+      "sources_retirer_des_preuves": []
+    },
+    {
+      "entite_id": "ville-ch-romanshorn",
+      "nom_dossier": "Romanshorn",
+      "sources_ajouter": [
+        "src-12a-dhs-romanshorn"
+      ],
+      "preuves_par_role": [
+        {
+          "role": "rail",
+          "sources": [
+            "src-12a-dhs-romanshorn"
+          ],
+          "portee": "Infrastructure ou fonction historique locale ; exploitation exacte au Snapshot 0 non déduite."
+        },
+        {
+          "role": "port_fluvial",
+          "sources": [
+            "src-12a-dhs-romanshorn"
+          ],
+          "portee": "Infrastructure ou fonction historique locale ; exploitation exacte au Snapshot 0 non déduite."
+        }
+      ],
+      "roles_herites_non_reexamines": [],
+      "roles_a_renforcer": [],
+      "precisions_a_renforcer": [
+        "Exploitation des bacs Friedrichshafen et automobile au 01/01/1945."
+      ],
+      "source_role_a_renforcer_propose": true,
+      "note_historique_ajouter": "Lindau : bac ferroviaire arrêté en 1939. Friedrichshafen : plage 1869–1976 insuffisante pour garantir le service en guerre.",
+      "modifications_proposees": {},
+      "sources_retirer_des_preuves": []
+    },
+    {
+      "entite_id": "ville-ch-vallorbe",
+      "nom_dossier": "Vallorbe",
+      "sources_ajouter": [
+        "src-12a-dhs-vallorbe"
+      ],
+      "preuves_par_role": [
+        {
+          "role": "rail",
+          "sources": [
+            "src-12a-dhs-vallorbe"
+          ],
+          "portee": "Infrastructure ou fonction historique locale ; exploitation exacte au Snapshot 0 non déduite."
+        },
+        {
+          "role": "frontiere",
+          "sources": [
+            "src-12a-dhs-vallorbe"
+          ],
+          "portee": "Infrastructure ou fonction historique locale ; exploitation exacte au Snapshot 0 non déduite."
+        }
+      ],
+      "roles_herites_non_reexamines": [],
+      "roles_a_renforcer": [],
+      "precisions_a_renforcer": [],
+      "source_role_a_renforcer_propose": false,
+      "note_historique_ajouter": "Rail de 1870/1875, tunnel Mont-d’Or de 1915 ; existence du corridor franco-suisse, sans horaire de guerre.",
+      "modifications_proposees": {},
+      "sources_retirer_des_preuves": []
+    },
+    {
+      "entite_id": "ville-li-vaduz",
+      "nom_dossier": "Vaduz",
+      "sources_ajouter": [
+        "src-12a-vaduz-gouvernement",
+        "src-12a-vaduz-portrait-historique"
+      ],
+      "preuves_par_role": [
+        {
+          "role": "capitale",
+          "sources": [
+            "src-12a-vaduz-gouvernement",
+            "src-12a-vaduz-portrait-historique"
+          ],
+          "portee": "Infrastructure ou fonction historique locale ; exploitation exacte au Snapshot 0 non déduite."
+        },
+        {
+          "role": "administration",
+          "sources": [
+            "src-12a-vaduz-gouvernement"
+          ],
+          "portee": "Infrastructure ou fonction historique locale ; exploitation exacte au Snapshot 0 non déduite."
+        }
+      ],
+      "roles_herites_non_reexamines": [],
+      "roles_a_renforcer": [],
+      "precisions_a_renforcer": [],
+      "source_role_a_renforcer_propose": false,
+      "note_historique_ajouter": "Siège du gouvernement depuis 1862, bâtiment de 1903–1905 ; C et capitale nationale, sans rail emprunté à Schaan.",
+      "modifications_proposees": {
+        "importance_atlas": "C",
+        "capitale": "nationale"
+      },
+      "sources_retirer_des_preuves": []
+    },
+    {
+      "entite_id": "ville-li-schaan",
+      "nom_dossier": "Schaan",
+      "sources_ajouter": [
+        "src-12a-schaan-rail"
+      ],
+      "preuves_par_role": [
+        {
+          "role": "rail",
+          "sources": [
+            "src-12a-schaan-rail"
+          ],
+          "portee": "Infrastructure ou fonction historique locale ; exploitation exacte au Snapshot 0 non déduite."
+        }
+      ],
+      "roles_herites_non_reexamines": [],
+      "roles_a_renforcer": [],
+      "precisions_a_renforcer": [],
+      "source_role_a_renforcer_propose": false,
+      "note_historique_ajouter": "Gare de Schaan-Vaduz sur la ligne de 1872 ; rôle ferroviaire local, distinct de Vaduz.",
+      "modifications_proposees": {},
+      "sources_retirer_des_preuves": []
+    }
+  ],
+  "points_ouverts": [
+    {
+      "id": "operation-snapshot0",
+      "sujet": "Infrastructure versus service actif",
+      "preuve": "Les notices documentent gares, ports et productions avant 1945.",
+      "manque": "Horaires, trafics, capacités et interruptions exactes au 01/01/1945 00:00.",
+      "decision_appliquee": "Retenir les points structurels ; aucune arête ou capacité opérationnelle nouvelle déduite de ces seules notices.",
+      "arbitrage_necessaire": "Seulement si l’Atlas exige une exploitation prouvée pour afficher le point lui-même."
+    },
+    {
+      "id": "basel-rhin",
+      "sujet": "Bâle : navigation de guerre",
+      "sources": [
+        "src-12a-dhs-basel"
+      ],
+      "preuve": "Ports construits avant 1945 ; le DHS indique interruption pendant les deux guerres.",
+      "manque": "Bornes des interruptions et reprises durant 1939–1945.",
+      "decision_appliquee": "Garder le port comme infrastructure ; suspendre toute affirmation de trafic normal au Snapshot 0."
+    },
+    {
+      "id": "romanshorn-bacs",
+      "sujet": "Romanshorn : bacs",
+      "sources": [
+        "src-12a-dhs-romanshorn"
+      ],
+      "preuve": "Lindau 1869–1939 ; Friedrichshafen 1869–1976 ; bac automobile dès 1929.",
+      "manque": "Suspensions et reprises en guerre pour Friedrichshafen et le bac automobile.",
+      "decision_appliquee": "Aucune liaison active vers Lindau en janvier 1945 ; autres services en attente de source datée."
+    },
+    {
+      "id": "dortmund-jour",
+      "sujet": "Dortmund : jour d’ouverture du port",
+      "sources": [
+        "src-dortmund-port",
+        "src-12a-dortmund-industrie"
+      ],
+      "preuve": "Année 1899 commune aux notices.",
+      "manque": "11 août dans l’audit de la première notice ; 21 août dans la seconde notice effectivement lue.",
+      "decision_appliquee": "Année seule, pas d’événement quotidien avant recoupement."
+    },
+    {
+      "id": "sources-locales-c",
+      "sujet": "Osnabrück et Düsseldorf",
+      "sources": [
+        "src-12a-osnabrueck-croisement",
+        "src-12a-osnabrueck-fret",
+        "src-12a-duesseldorf-port"
+      ],
+      "preuve": "Histoires locales cohérentes et précises de gare/triage et port.",
+      "manque": "Recoupement archival/institutionnel historique.",
+      "decision_appliquee": "Conserver les sources au niveau C et le besoin de consolidation ; importance B indépendante de ce niveau."
+    },
+    {
+      "id": "precisions-bibliographiques",
+      "sujet": "Klagenfurt, Feldkirch et Wels",
+      "sources": [
+        "src-12a-klagenfurt-guide",
+        "src-12a-feldkirch-frontiere",
+        "src-12a-wels-rail"
+      ],
+      "preuve": "Implantation ferroviaire historique locale.",
+      "manque": "Date d’édition du guide ; jour exact d’ouverture de Feldkirch en 1872 ; bifurcation de Wels vers Passau.",
+      "decision_appliquee": "Ne pas créer d’événements précis ou de branches non démontrées."
+    }
+  ],
+  "evenements_post_snapshot0_a_instruire": [
+    {
+      "cible": "ville-de-magdeburg",
+      "date": "1945-01-16",
+      "fait": "Destruction presque totale des installations portuaires ; arrêt complet du trafic plusieurs mois plus tard.",
+      "sources": [
+        "src-magdeburg-port"
+      ],
+      "consigne": "État de l’installation à instruire ; pas destruction automatique de toute la ville ou fermeture immédiate de toutes les liaisons."
+    },
+    {
+      "cible": "ville-at-wien",
+      "date_repere": "1945-04-27",
+      "fait": "Rétablissement politique autrichien ; futur changement de statut à instruire.",
+      "sources": [],
+      "consigne": "Préserver la réserve v0.2 ; pas de validation nouvelle de cet événement par le présent audit."
+    },
+    {
+      "cible": "ville-de-leuna",
+      "date_precision_mois": "1945-11",
+      "fait": "Droits de ville",
+      "sources": [
+        "src-12a-leuna-commune"
+      ],
+      "consigne": "Ne pas fabriquer un jour exact."
+    },
+    {
+      "cible": "ville-de-bremerhaven",
+      "date_precision_annee": "1947",
+      "fait": "Nom Bremerhaven",
+      "sources": [
+        "src-12a-wesermuende"
+      ],
+      "consigne": "Ne pas fabriquer un jour exact."
+    }
+  ]
+}

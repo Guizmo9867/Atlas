@@ -79,26 +79,78 @@ def roles_atlas(eid, liste):
         if x and x not in out: out.append(x)
     return out
 
+# --- Second audit d'Ether (01/10/2026, data/snapshot0/villes_1-2_allemagne_alpes_audit2_ether.md) ---
+# Patch : 9 villes ajoutées, preuves rôle par rôle pour les 64 autres, corrections de noms et de rôles.
+PATCH = json.load(open(RACINE / 'data/sources/deltas_ether/2026-10-01_villes_1-2_audit_patch.json', encoding='utf-8'))
+CORR = {c['entite_id']: c for c in PATCH['corrections_villes']}
+AJOUTEES = {a['entite_id']: a for a in PATCH['ajouts_villes']}
+NOM_LOCAL.update({'ville-de-mainz': 'Mainz', 'ville-de-augsburg': 'Augsburg'})
+VERS_ATLAS = {'frontiere': 'frontalier'}
+# Romanshorn : bac vers Lindau arrêté en 1939, Friedrichshafen non daté en guerre -> le rôle ferry reste à renforcer
+A_RENFORCER_EN_PLUS = {'ville-ch-romanshorn': ['ferry'], 'ville-ch-basel': ['industrie', 'port_fluvial']}  # Bâle : article DHS non confirmé par Claude
+REMPLACEES = {x['source_id']: x['sources_remplacement'] for x in json.load(open(RACINE / 'data/sources/deltas_ether/2026-10-01_villes_1-2_audit_delta.json', encoding='utf-8'))['suivi_8_liens_signales_par_claude'] if x['sources_remplacement']}
+
+def statut(sid): return REGISTRE[sid]['verification_claude']
+
+def usage_preuve(sid, roles):
+    u = 'preuve locale : ' + ', '.join(roles)
+    st = statut(sid)
+    return u if st == 'ok' else u + (' (non vérifiée par Claude)' if st == 'non_verifiee' else ' (lecture partielle)')
+
+def usage_ancienne(sid):
+    if sid in REMPLACEES: return f"remplacée par {', '.join(REMPLACEES[sid])} (ancienne page non relue)"
+    return usage_source(sid)
+
 entites = []
-for v in PROPOSITION['villes']:
+for v in [*PROPOSITION['villes'], *PATCH['ajouts_villes']]:
     eid, e0 = v['entite_id'], v['etat_snapshot0']
+    nouvelle = eid in AJOUTEES
+    c = CORR.get(eid, {})
+    modif = c.get('modifications_proposees', {})
     q = QID[eid]
+    nom = modif.get('nom_snapshot0', v['nom'])
     prop = {}
     if eid in NOM_LOCAL: prop['nom_local'] = NOM_LOCAL[eid]
     prop['importance_atlas'] = IMPORTANCE.get(eid, e0['importance_atlas'])
     if eid in CAPITALES: prop['capitale'] = CAPITALES[eid]
-    prop['roles'] = roles_atlas(eid, e0['roles'])
+    roles = roles_atlas(eid, e0['roles'])
+    # preuves rôle par rôle (patch d'audit) ; une ville ajoutée prouve ses rôles par ses sources
+    preuves = [{'role': VERS_ATLAS.get(x['role'], x['role']), 'sources': x['sources']} for x in c.get('preuves_par_role', [])]
+    if nouvelle: preuves = [{'role': r, 'sources': e0['sources']} for r in roles]
+    if eid == 'ville-li-vaduz':  # source de la commune lue par Claude : « seat of the authorities and parliament »
+        preuves += [{'role': r, 'sources': ['src-vaduz-portrait']} for r in ('capitale', 'administration')]
+    for r in [*modif.get('roles_ajouter', []), *[x['role'] for x in preuves]]:
+        if r not in roles: roles.append(r)
+    roles = [r for r in roles if r not in modif.get('roles_retirer', [])]
+    prop['roles'] = roles
     if eid in SITUATION: prop['situation'] = SITUATION[eid]
-    sources_role = [{'source_id': s, 'locator': '', 'usage': usage_source(s)} for s in e0['sources'] if s not in RETIREES.get(eid, set())]
+    # sources : anciennes (usage selon leur portée), puis preuves de l'audit
+    roles_par_source = {}
+    for x in preuves:
+        for sid in x['sources']: roles_par_source.setdefault(sid, []).append(x['role'])
+    retirees = RETIREES.get(eid, set()) | set(c.get('sources_retirer_des_preuves', []))
+    anciennes = [] if nouvelle else [sid for sid in e0['sources'] if sid not in retirees]
+    sources_role = [{'source_id': sid, 'locator': '', 'usage': usage_preuve(sid, roles_par_source[sid]) if sid in roles_par_source else usage_ancienne(sid)} for sid in anciennes]
+    for sid in [*c.get('sources_ajouter', []), *(e0['sources'] if nouvelle else [])]:
+        if sid not in anciennes and sid not in [x['source_id'] for x in sources_role]:
+            sources_role.append({'source_id': sid, 'locator': REGISTRE[sid].get('locator', ''), 'usage': usage_preuve(sid, roles_par_source.get(sid, ['contexte']))})
+    # ce qui reste à renforcer : réserves d'Ether + rôles dont aucune preuve n'a été confirmée par Claude
+    a_renforcer = [VERS_ATLAS.get(r, r) for r in c.get('roles_a_renforcer', [])]
+    a_renforcer += [x['role'] for x in preuves if not any(statut(sid) == 'ok' for sid in x['sources'])]
+    a_renforcer += A_RENFORCER_EN_PLUS.get(eid, [])
+    a_renforcer = [r for r in dict.fromkeys(a_renforcer) if r in roles]
+    precisions = c.get('precisions_a_renforcer', []) + (v.get('complement_audit', {}).get('precisions_a_renforcer', []) if nouvelle else [])
     note = f"Rôle dans l'Atlas (Ether, ratissage villes 1.2) : {e0['note']}" + NOTES_EN_PLUS.get(eid, '')
-    if eid != 'ville-li-vaduz' and (e0.get('source_role_a_renforcer') or not bien_sourcee(sources_role)):
-        note += ' Rôle à sourcer localement (aucune source lue ne le prouve encore).'
-    prop['note'] = note
-    aliases = [a for a in dict.fromkeys([NOM_LOCAL.get(eid), *v.get('aliases', []), q.get('label_en')]) if a and a != v['nom']]
+    if c.get('note_historique_ajouter'): note += f" Audit du 01/10 : {c['note_historique_ajouter']}"
+    if modif.get('roles_retirer'): note += f" Rôle retiré : {', '.join(modif['roles_retirer'])} ({modif.get('motif', '')})"
+    if a_renforcer: note += f" À renforcer : {', '.join(a_renforcer)}."
+    if precisions: note += ' Précisions à apporter : ' + ' ; '.join(p.rstrip('.') for p in precisions) + '.'
+    prop['note'] = note.replace('..', '.')
+    aliases = [a for a in dict.fromkeys([NOM_LOCAL.get(eid), *v.get('aliases', []), *modif.get('aliases_ajouter', []), q.get('label_en')]) if a and a != nom]
     sources = [{'source_id': 'src-wikidata', 'locator': q['qid'], 'usage': 'position (coordonnées)' + (' ; capitale du Liechtenstein' if eid == 'ville-li-vaduz' else '')}]
     sources += sources_role + AJOUTS.get(eid, [])
     entites.append({
-        'entite_id': eid, 'type_entite': 'ville', 'nom': v['nom'], 'nom_court': v['nom'], **({'aliases': aliases} if aliases else {}),
+        'entite_id': eid, 'type_entite': 'ville', 'nom': nom, 'nom_court': nom, **({'aliases': aliases} if aliases else {}),
         'etats': [{
             'etat_id': 'etat-01',
             'valid_from': {'date': '', 'precision': 'inconnue'},
@@ -115,7 +167,7 @@ m = PROPOSITION['metadata_lot']
 lot = {
   'metadata_lot': {
     'nom': 'snapshot0_villes_1-2_allemagne_alpes', 'date_reference': '1945-01-01', 'heure_reference': '00:00',
-    'version': '0.2', 'statut': 'integre_par_claude', 'gabarit_source': 'gabarits/gabarit_entite_temporelle_atlas.json',
+    'version': '0.3', 'statut': 'integre_par_claude', 'gabarit_source': 'gabarits/gabarit_entite_temporelle_atlas.json',
     'zone': m['perimetre'], 'note_perimetre': m['note_perimetre'],
     'exclusions_volontaires': PROPOSITION['exclusions_volontaires'],
     'audit_recommande': PROPOSITION['audit_recommande'],
@@ -128,6 +180,7 @@ lot = {
       "Villes marquées « à renforcer » par Ether : mention « Rôle à sourcer localement » dans la note.",
       "Positions : Wikidata (CC0), QID en locator ; vérifiées contre Natural Earth.",
       "v0.2 (01/10, retour d'audit d'Ether) : Vaduz A -> C (capitale nationale gardée : type de capitale et importance sont indépendants), source officielle de la commune ajoutée ; Vienne A et capitale régionale confirmées ; Aix-la-Chapelle « évacuée et détruite » (source MWI/West Point) ; Graz : page sur les pompiers retirée des preuves ; sources générales (DB Museum, CFF) et limitées = contexte seulement ; « Rôle à sourcer localement » sur chaque ville sans source lue qui prouve son rôle. Lot ouvert : 9 candidats à l'ajout et sources de remplacement attendus d'Ether.",
+      "v0.3 (01/10, second audit d'Ether) : 9 villes ajoutées (Hamm, Ludwigshafen, Mayence, Schweinfurt, Augsbourg, Leuna, Watenstedt-Salzgitter, Leoben avec Donawitz, Osnabrück) ; Bremerhaven s'appelle Wesermünde au Snapshot 0 (même ID) ; Rostock : industrie au lieu d'aviation (Heinkel = fabrication) ; Bâle : + industrie ; Bregenz : + port (lac) ; preuves locales rôle par rôle (75 sources nouvelles, relues par Claude) ; la note dit précisément quels rôles restent à renforcer.",
     ]},
   },
   'entites': entites,

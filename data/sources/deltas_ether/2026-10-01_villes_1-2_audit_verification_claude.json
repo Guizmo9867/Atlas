@@ -1,0 +1,459 @@
+{
+ "metadata": {
+  "objet": "Vérification par Claude (lecture des pages, via WebFetch) des 75 nouvelles sources du delta d'audit villes 1.2",
+  "date": "2026-10-01",
+  "statuts": "ok / limite / faible / non_verifiee / lien_casse"
+ },
+ "resultats": [
+  {
+   "id": "src-12a-hamm-triage",
+   "statut": "ok",
+   "citation": "So begannen ab 1911 die Arbeiten in Hamm für einen neuen Verschiebebahnhof, die 1916 hauptsächlich beendet waren.",
+   "commentaire": "Confirmé : 1847 (Köln-Mindener Eisenbahn), triage terminé en 1916, flux Ruhr–Hannover/Berlin et légende du bombardement du 22 avril 1944."
+  },
+  {
+   "id": "src-12a-schweinfurt-roulements",
+   "statut": "ok",
+   "citation": "Waffen, Panzer oder Flugzeuge – der Großteil der benötigten Kugellager wurde in Schweinfurt vor und auch während dem Krieg produziert.",
+   "commentaire": "Le passage confirme la fourniture de roulements pour armes, blindés et avions avant et pendant la guerre."
+  },
+  {
+   "id": "src-12a-leuna-essence",
+   "statut": "non_verifiee",
+   "citation": "",
+   "commentaire": "WebFetch refusé (ROBOTS_DISALLOWED, échec de lecture de robots.txt), deux essais ; contournement non tenté."
+  },
+  {
+   "id": "src-12a-dhs-buchs",
+   "statut": "ok",
+   "citation": "L'ouverture du chemin de fer de l'Arlberg (1884), l'agrandissement de la gare... l'accord douanier avec le Liechtenstein (1924), firent définitivement de B. la porte orientale de la Suisse.",
+   "commentaire": "Confirmés : première gare en 1858 (Rheineck-Coire), raccordement aux réseaux de l'Est (traité de 1870), Arlberg 1884, accord douanier 1924."
+  },
+  {
+   "id": "src-12a-dhs-olten",
+   "statut": "ok",
+   "citation": "Als Eisenbahnknotenpunkt wurde Olten in den Jahrzehnten nach Eröffnung der Werkstätte und des Bahnbetriebs der Schweizerischen Centralbahn 1856 zum Industrie- und Dienstleistungsstandort.",
+   "commentaire": "Nœud ferroviaire et ateliers depuis 1856 confirmés ; légende « Achsenlager der SBB-Hauptwerkstätte Olten. Fotografie, 1944 »."
+  },
+  {
+   "id": "src-12a-dhs-winterthur",
+   "statut": "ok",
+   "citation": "Um 1910 war Winterthur eine Industriestadt... Rieter mit seinen Spinnereimaschinen, Sulzer mit den Dieselmotoren und die SLM ... mit dem Lokomotivbau wurden zu weltweit tätigen Unternehmen.",
+   "commentaire": "Lignes ferroviaires 1855–1876 énumérées ; Sulzer (moteurs Diesel) et SLM (locomotives) confirmés vers 1910."
+  },
+  {
+   "id": "src-12a-dhs-geneve",
+   "statut": "ok",
+   "citation": "on profite également de l'espace dégagé pour déployer, en 1858, un réseau ferroviaire susceptible de rattacher la cité aux chemins de fer français et suisses. Mais il est trop tard: les grandes lignes sont déjà dessinées et contournent G.",
+   "commentaire": "Raccordement de 1858 et contournement de Genève par les grandes lignes confirmés (formulation « susceptible de rattacher »)."
+  },
+  {
+   "id": "src-12a-berlin-anhalter",
+   "statut": "ok",
+   "citation": "Der Anhalter Bahnhof war bis zu seiner Kriegsbeschädigung ein bedeutender Umschlagplatz und Fernbahnhof Berlins.",
+   "commentaire": "Importance de gare de grandes lignes et de transbordement et raccordement S-Bahn de 1939 confirmés ; l'intitulé exact « Entstehung und Funktion » n'a pas été identifié par WebFetch."
+  },
+  {
+   "id": "src-12a-karlsruhe-port",
+   "statut": "limite",
+   "citation": "wurde der Hafen am 1. Mai 1901 eröffnet. ... Hauptumschlag war die Kohle mit 53 %",
+   "commentaire": "Ouverture le 01/05/1901, dominance du charbon et extensions (1903, 1913, 1916) confirmées ; le raccordement ferroviaire n'a pas été vu explicitement dans les passages cités."
+  },
+  {
+   "id": "src-12a-halle-gare",
+   "statut": "ok",
+   "citation": "Der neu erbaute hallesche Hauptbahnhof wird eröffnet. Bisher war es so, dass man nach Berlin, Erfurt oder Leipzig jeweils von einem anderen Bahnhof abfahren musste.",
+   "commentaire": "Centralisation Berlin–Erfurt–Leipzig et séparation fret/voyageurs (« Güterverkehr vom Personenverkehr gleismäßig separiert ») confirmées pour 1890."
+  },
+  {
+   "id": "src-12a-innsbruck-gare",
+   "statut": "ok",
+   "citation": "Eröffnung der Arlbergbahn, die Innsbruck weiter als zentralen Verkehrsknotenpunkt zwischen Deutschland, Italien, Frankreich, der Schweiz und Wien etabliert.",
+   "commentaire": "Entrées 1858 (gare, liaison avec Munich), 1867 (Brenner) et 1884 (Arlberg) confirmées."
+  },
+  {
+   "id": "src-12a-bremen-histoire",
+   "statut": "ok",
+   "citation": "Große Teile der Stadt Bremen, die Häfen nahezu vollständig, werden im Zweiten Weltkrieg durch insgesamt 173 Luftangriffe zerstört. Beim schwersten Angriff am 18./19. August 1944 sterben über 1000 Menschen",
+   "commentaire": "Raccordement ferroviaire 1847, ports 1580/1827 et bilan 1939–1945 confirmés, bilan global de guerre non daté finement comme indiqué."
+  },
+  {
+   "id": "src-12a-rostock-heinkel",
+   "statut": "ok",
+   "citation": "Both Rostock's rise to a major city and the bomb attacks on the city in April 1942 can hardly be explained without aircraft manufacturing.",
+   "commentaire": "Lien entre construction aéronautique Heinkel, croissance urbaine (années 1920–30) et bombardements d'avril 1942 confirmé (citation rendue en anglais par WebFetch, texte original allemand)."
+  },
+  {
+   "id": "src-12a-passau-rail",
+   "statut": "ok",
+   "citation": "Eisenbahn Passau – Straubing, Gasbeleuchtung, Freiwillige Feuerwehr",
+   "commentaire": "Entrée 1860 de la chronologie du PDF mentionnant bien le rail Passau–Straubing (WebFetch indique « page 5 », numérotation possiblement décalée d'une page)."
+  },
+  {
+   "id": "src-12a-koeln-gare",
+   "statut": "non_verifiee",
+   "citation": "",
+   "commentaire": "WebFetch refusé (ROBOTS_DISALLOWED, timeout/échec robots.txt), deux essais ; contournement non tenté."
+  },
+  {
+   "id": "src-12a-wiener-neustadt-industrie",
+   "statut": "ok",
+   "citation": "in den Anlagen der ... Lokomotivfabrik „Rax-Werken\" wurden nicht nur Lokomotivtender gebaut, sondern hier ist 1943 auch mit der Montage von A-4- Raketen begonnen worden",
+   "commentaire": "Flugfeld de 1909, Me 109 en 1940 (un quart de la production), tenders et A4 aux Rax-Werke en 1943 et destruction quasi totale confirmés."
+  },
+  {
+   "id": "src-12a-salzburg-westbahn",
+   "statut": "ok",
+   "citation": "Die wesentlichen Impulse erfolgten hier 1860 durch den Anschluss Salzburgs an die Kaiserin-Elisabeth-Westbahn",
+   "commentaire": "Le raccordement de 1860 à la Westbahn est affirmé dans la notice ; il n'apporte aucun détail sur le corridor ni le fonctionnement en 1945, comme l'affirmation le précise."
+  },
+  {
+   "id": "src-12a-augsburg-armement",
+   "statut": "non_verifiee",
+   "citation": "",
+   "commentaire": "WebFetch refusé (ROBOTS_DISALLOWED, échec robots.txt) pour le PDF, deux essais ; contournement non tenté."
+  },
+  {
+   "id": "src-12a-vaduz-portrait-historique",
+   "statut": "ok",
+   "citation": "Vaduz ist Hauptort des Fürstentums Liechtenstein, Sitz der Behörden und des Landtags sowie seit 1939 fürstliche Residenz.",
+   "commentaire": "Hauptort, résidence princière depuis 1939 et création de la principauté (1712 acquisition + sept ans = 1719, Karl VI.) confirmés."
+  },
+  {
+   "id": "src-12a-ludwigshafen-igfarben",
+   "statut": "ok",
+   "citation": "Mit Beginn des Zweiten Weltkriegs werden die Werke Ludwigshafen/Oppau als Lieferant von Vorprodukten für die Rüstungsproduktion immer wichtiger. [...] Sie geht 1943 in Produktion.",
+   "commentaire": "Rôle de fournisseur de produits intermédiaires pour l'armement et mise en production de l'usine Buna en 1943 confirmés."
+  },
+  {
+   "id": "src-12a-osnabrueck-fret",
+   "statut": "ok",
+   "citation": "Der Rangier- und Güterbahnhof inkl. des Ringlokschuppens wurden bei Bombenangriffen auf Osnabrück in den Jahren 1944 und 1945 weitgehend zerstört.",
+   "commentaire": "Triage et gare de marchandises annoncés en 1909 (remise ouverte 1914) ; destructions regroupées sur 1944–1945, comme indiqué dans l'affirmation."
+  },
+  {
+   "id": "src-12a-donawitz-acier",
+   "statut": "ok",
+   "citation": "the construction of the Donawitz-Vordernberg railway line to reduce transport costs [...] 'Reichswerke AG Alpine Montanbetriebe' emerged after several fusions in 1941. At this time, the focus is on the production of war-required products",
+   "commentaire": "Liaison ferrée 1878, laminoir à poutrelles et rails 1892 et production de guerre du groupe de 1941 confirmés ; le LD 1953 figure bien sur la page (à exclure du Snapshot 0)."
+  },
+  {
+   "id": "src-12a-dhs-romanshorn",
+   "statut": "ok",
+   "citation": "Des bacs pour le passage des wagons de chemin de fer relièrent Romanshorn à Lindau (1869-1939) et à Friedrichshafen (1869-1976).",
+   "commentaire": "Voie ferrée 1855-1856, bacs ferroviaires Lindau 1869-1939, Friedrichshafen 1869-1976 et bacs automobiles dès 1929 confirmés ; pas de chronologie des suspensions de guerre."
+  },
+  {
+   "id": "src-12a-dhs-schaffhausen",
+   "statut": "ok",
+   "citation": "La gare construite en 1857 à l'ouest de la vieille ville fut remplacée en 1867-1869 par l'édifice actuel.",
+   "commentaire": "Gare de 1857, direction des douanes 1913-1914 et bombardement du 1er avril 1944 (40 morts, 450 sans-abri) confirmés ; rien sur un arrêt du réseau."
+  },
+  {
+   "id": "src-12a-dhs-brig",
+   "statut": "ok",
+   "citation": "1874 erhielt Brig den Bahnanschluss nach Westen durch das Rhonetal, 1913 durch den Lötschbergtunnel nach Bern. 1926 entstand die Furka-Oberalp-Bahn.",
+   "commentaire": "Rhônetal 1874, Lötschberg 1913, FO 1926, gare rebâtie en 1910, tunnels du Simplon 1906/1921 confirmés ; aucune donnée sur le trafic en guerre."
+  },
+  {
+   "id": "src-12a-dhs-basel",
+   "statut": "non_verifiee",
+   "citation": "",
+   "commentaire": "Page accessible mais l'extrait renvoyé par WebFetch (deux essais) ne contient ni les ports Saint-Jean/Petit-Huningue, ni la chimie, ni les gares ; seul le tableau 1939 (secteur secondaire 37 006) a été vu, le reste n'a pas pu être confirmé."
+  },
+  {
+   "id": "src-12a-wesermuende",
+   "statut": "ok",
+   "citation": "Erst 1939 erfolgte im Rahmen der Neugliederung des Reiches der Anschluss Bremerhavens an Wesermünde.",
+   "commentaire": "Fusion 1939, renommage en Bremerhaven 1947, quais de Geestemünde avec raccordement ferroviaire et centre-ville largement détruit le 18/09/1944 confirmés ; rien sur l'Overseas Harbor Area (non demandé)."
+  },
+  {
+   "id": "src-12a-stuttgart-daimler",
+   "statut": "non_verifiee",
+   "citation": "",
+   "commentaire": "Page accessible mais WebFetch n'a renvoyé que l'introduction/métadonnées, sans les paragraphes sur Untertürkheim ni la production militaire ; non confirmé."
+  },
+  {
+   "id": "src-12a-saarbruecken-rail",
+   "statut": "ok",
+   "citation": "Der Bau des Bahnhofes in St. Johann mit Anschluss an das deutsche und französische Eisenbahnnetz legt den Grundstein für die Industrialisierung der Region.",
+   "commentaire": "Entrée 1850-1852 (raccordement aux réseaux allemand et français, industrialisation) et premier train le 15/10/1852 confirmés ; rien sur janvier 1945."
+  },
+  {
+   "id": "src-12a-wels-rail",
+   "statut": "non_verifiee",
+   "citation": "",
+   "commentaire": "Page accessible mais WebFetch n'a renvoyé que la structure de navigation, pas l'entrée sur la Pferdeeisenbahn ni le vapeur en 1855 ; non confirmé."
+  },
+  {
+   "id": "src-12a-duisburg-rail-port",
+   "statut": "ok",
+   "citation": "Die Köln‑Mindener Eisenbahn‑Gesellschaft (CME) baute eine Stichbahn vom Oberhausener Bahnhof nach Ruhrort, um gezielt die Hafenanlagen zu erschließen. Diese Strecke wurde am 14. Oktober 1848 in Betrieb genommen",
+   "commentaire": "Embranchement Oberhausen–Ruhrort ouvert le 14/10/1848 pour desservir les installations portuaires confirmé."
+  },
+  {
+   "id": "src-12a-wilhelmshaven-marine",
+   "statut": "ok",
+   "citation": "die „Doppelstadt“ an der Jade wurde erst 1937 zu Wilhelmshaven vereinigt",
+   "commentaire": "Marine-Etablissement prussien, essor économique 1933-1939 et réunion de 1937 confirmés (extraits fragmentaires) ; pas d'information sur la construction navale ni sur 1945."
+  },
+  {
+   "id": "src-12a-flensburg-port-rail",
+   "statut": "ok",
+   "citation": "1856: Erbauung der 'Englischen Brücke' für den Umschlag von der Eisenbahn in Dampfschiffe im Transithandel zwischen Nord- und Ostsee.",
+   "commentaire": "1854 (Flensburg–Husum–Tönning), 1856 (Englische Brücke) et 1864 (ligne Flensburg-Weiche–Padborg–Tinglev–Rødekro–Vojens, donc vers le nord) confirmés."
+  },
+  {
+   "id": "src-12a-villach-noeud",
+   "statut": "ok",
+   "citation": "Innerhalb weniger Jahre wurde Villach zu einem Bahnknotenpunkt von überregionaler Bedeutung und als Sitz einer k. k. Staatsbahndirektion auch ein Verwaltungszentrum",
+   "commentaire": "Raccordement ferroviaire en 1864, nœud de portée suprarégionale et direction des chemins de fer d'État confirmés ; rien sur le Snapshot 0."
+  },
+  {
+   "id": "src-12a-st-poelten-westbahn",
+   "statut": "ok",
+   "citation": "In einem Zeitraum von nur 2 Jahren erfolgte die Fertigstellung der Westbahn und der Hauptbahnhof der [...]",
+   "commentaire": "Début en 1856, achèvement en 2 ans, croissance 8000 à 22000 hab. (1870-1912), nœud avec lignes secondaires, raids 1944/45 et premier train ÖBB en mai 1945 confirmés."
+  },
+  {
+   "id": "src-12a-klagenfurt-guide",
+   "statut": "ok",
+   "citation": "erst seit der im Jahre 1863 erfolgten Eröffnung der ursprünglich nur von Marburg nach Klagenfurt geführten Bahn erstandenen Stadttheil",
+   "commentaire": "Ouvrage « Klagenfurt und der Wörther-See » de M. v. Jabornegg, éd. Caesar Schmidt, attestant la ligne de 1863 ; aucune date d'édition visible, comme noté."
+  },
+  {
+   "id": "src-12a-schweinfurt-musee",
+   "statut": "ok",
+   "citation": "Die Aufnahme zeigt, wie in den 1930er Jahren bei der VKF in Schweinfurt Käfige für Kugellager gepresst wurden.",
+   "commentaire": "Légende VKF sur les cages de roulements (années 1930) et légende FAG sur l'assemblage de roulements (années 1940) confirmées ; le lien avec l'armement n'est pas vu sur ces pages."
+  },
+  {
+   "id": "src-12a-graz-rail",
+   "statut": "limite",
+   "citation": "Am 27. Juli 1857 verkehrte der erste Personenzug von Wien über den Semmering und Graz nach Triest.",
+   "commentaire": "Trajet Vienne–Graz–Trieste (1857) et ligne du tableau « 1861 Klagenfurt » vus ; l'histoire des gares locales n'a pas été confirmée par un passage cité."
+  },
+  {
+   "id": "src-12a-salzgitter-nom",
+   "statut": "non_verifiee",
+   "citation": "",
+   "commentaire": "WebFetch refuse la page (ROBOTS_DISALLOWED, robots.txt injoignable), deux essais ; aucun contournement tenté."
+  },
+  {
+   "id": "src-12a-mainz-gare",
+   "statut": "ok",
+   "citation": "Der Mainzer Hauptbahnhof wurde am 15. Oktober 1884 eröffnet",
+   "commentaire": "Gare 1884, pont de Gustavsburg 1862 et maintien du trafic après l'incendie du 23/12/1934 confirmés ; des destructions de guerre sont décrites sans état au 01/01/1945."
+  },
+  {
+   "id": "src-12a-dhs-bellinzona",
+   "statut": "limite",
+   "citation": "la construction de l'atelier de réparations de la Compagnie ferroviaire du Gothard (1884)",
+   "commentaire": "Ateliers de 1884 et statut de nœud ferroviaire de premier ordre vus ; la date d'ouverture de la ligne (1882) n'a pas été citée explicitement par la page extraite."
+  },
+  {
+   "id": "src-12a-dhs-lausanne",
+   "statut": "ok",
+   "citation": "L. fut bientôt le centre d'un nœud ferroviaire sur la ligne Paris-Milan. La gare construite en 1856 fut rebâtie en 1915.",
+   "commentaire": "Nœud Paris–Milan, gare rebâtie en 1915 et gare de marchandises de Sébeillon en 1927 confirmés."
+  },
+  {
+   "id": "src-12a-dhs-luzern",
+   "statut": "ok",
+   "citation": "le raccordement direct à cette ligne (tronçon Immensee-L.) n'intervint qu'en 1897",
+   "commentaire": "Liaisons Zoug/Zurich 1864, Berne 1875, Brünig 1889 et raccordement Gothard 1897 confirmés ; Olten 1859 non cité dans l'extrait mais mentionné par le résumé."
+  },
+  {
+   "id": "src-12a-dhs-bern",
+   "statut": "ok",
+   "citation": "Chef-lieu de canton et Ville fédérale (depuis 1848)",
+   "commentaire": "Rôle de Ville fédérale depuis 1848 et raccordements ferroviaires 1857-1864 (Thoune, Fribourg, Bienne, Langnau) confirmés."
+  },
+  {
+   "id": "src-12a-geneve-aeroport",
+   "statut": "ok",
+   "citation": "Durant la seconde guerre mondiale, la piste est prolongée.",
+   "commentaire": "Loi de 1919, piste herbeuse 1920, liaison Paris 1932, bétonnage 1937 et prolongation en guerre sans date confirmés."
+  },
+  {
+   "id": "src-12a-leoben-rattachement",
+   "statut": "ok",
+   "citation": "Eingemeindungen der Stadt Donawitz und des Marktes Göss am 1. Oktober 1939",
+   "commentaire": "Rattachement de Donawitz et Göss au 01/10/1939 confirmé."
+  },
+  {
+   "id": "src-12a-stuttgart-gare",
+   "statut": "ok",
+   "citation": "Erst Ende 1925 jedoch waren alle Gleise des Bahnhofs befahrbar.",
+   "commentaire": "Ouverture 1922, voies complètes fin 1925, achèvement ~1928 (déduit), hausse du trafic et dégâts de guerre sans date fine confirmés."
+  },
+  {
+   "id": "src-12a-kassel-industrie",
+   "statut": "ok",
+   "citation": "Die Firma Credé & Co. stellt verstärkt Waggons für die Deutsche Reichsbahn sowie Lkw-Aufbauten für die Wehrmacht her.",
+   "commentaire": "Locomotives, camions, blindés Henschel, wagons Credé et bombardements 1941-1943 attestés ; Altenbauna cité à part (moteurs HFM)."
+  },
+  {
+   "id": "src-12a-bregenz-rail",
+   "statut": "ok",
+   "citation": "Bau der Trajektanlage für die Verladung von Güterwaggons auf Trajektkähne, die von Dampfschleppschiffen über den Bodensee gezogen wurden",
+   "commentaire": "Connexions aux réseaux allemand/suisse (1870-72), transbordement 1883 et navigation à vapeur 1884 confirmés ; rien sur la période de guerre."
+  },
+  {
+   "id": "src-12a-duesseldorf-port",
+   "statut": "ok",
+   "citation": "Der neue Handelshafen wurde 1896 offiziell dem Verkehr übergeben",
+   "commentaire": "Travaux 1890, ouverture 1896, bonnes liaisons ferroviaires et entrepôts (matériaux, bois, denrées) confirmés."
+  },
+  {
+   "id": "src-12a-chemnitz-industrie",
+   "statut": "non_verifiee",
+   "citation": "",
+   "commentaire": "WebFetch ne renvoie que la navigation du site (contenu chronologique non rendu), deux essais ; Auto-Union 1936 et bombardements non vus."
+  },
+  {
+   "id": "src-12a-emden-port-minerais",
+   "statut": "ok",
+   "citation": "Per Gesellschaftervertrag wurde am 15.11.1922 die staatseigene, preußische Emder Hafen Umschlagsgesellschaft, kurz EHUG gegründet.",
+   "commentaire": "EHUG 1922, transbordement de minerai pour la Ruhr après le canal, quais 1913-1926 et transfert charbon/minerai 1926 confirmés."
+  },
+  {
+   "id": "src-12a-feldkirch-frontiere",
+   "statut": "ok",
+   "citation": "Mit der Eröffnung der Vorarlberger Eisenbahn am 1. Juli 1872 wurde Feldkirch zu Österreichs Grenzbahnhof im Westen",
+   "commentaire": "Gare frontière occidentale dès le 01/07/1872 et importance accrue par l'Arlberg (années 1880) confirmés."
+  },
+  {
+   "id": "src-12a-luebeck-gare",
+   "statut": "non_verifiee",
+   "citation": "",
+   "commentaire": "WebFetch ne renvoie que bandeau cookies et navigation (contenu éditorial non rendu), deux essais ; ouverture 1908 non vue."
+  },
+  {
+   "id": "src-12a-osnabrueck-croisement",
+   "statut": "ok",
+   "citation": "Am 24. April 1895 nahm dieser Zentralbahnhof zu Osnabrück seinen Betrieb auf",
+   "commentaire": "Ouverture 24/04/1895, croisement Hannoversche Westbahn / Hamburg–Venlo, quais sur deux niveaux et courbes 1911-1914 confirmés."
+  },
+  {
+   "id": "src-12a-dortmund-industrie",
+   "statut": "non_verifiee",
+   "citation": "",
+   "commentaire": "WebFetch refuse la page (ROBOTS_DISALLOWED, robots.txt injoignable), deux essais ; aucun contournement tenté."
+  },
+  {
+   "id": "src-12a-linz-port",
+   "statut": "ok",
+   "citation": "Bereits 1948 erfolgte der Anschluss des Hafens an die Eisenbahn",
+   "commentaire": "Transbordement 1894, bassins jusqu'en 1942, raccordement ferroviaire 1948 et port VÖEST 1966 confirmés."
+  },
+  {
+   "id": "src-12a-augsburg-messerschmitt",
+   "statut": "non_verifiee",
+   "citation": "",
+   "commentaire": "WebFetch bloqué par robots.txt (ROBOTS_DISALLOWED) ; contenu non vu."
+  },
+  {
+   "id": "src-12a-leuna-commune",
+   "statut": "ok",
+   "citation": "Leuna-Werks, dessen Bau 1916 begann ... Erst im November 1945 erhielt Leuna das Stadtrecht",
+   "commentaire": "Construction 1916, habitat 1917-1927, Grossgemeinde 1930 et droits de ville en novembre 1945 confirmés."
+  },
+  {
+   "id": "src-12a-dhs-chiasso",
+   "statut": "ok",
+   "citation": "Les lignes C.-Lugano (1874) et C.-Côme (1876) sont à l'origine de la gare internationale et du port franc, en activité depuis 1925.",
+   "commentaire": "Dates des lignes, gare internationale et port franc 1925 confirmés ; pas de restrictions de 1945 (comme prévu)."
+  },
+  {
+   "id": "src-12a-dhs-vallorbe",
+   "statut": "ok",
+   "citation": "L'arrivée du chemin de fer en 1870 (V.-Lausanne) et 1875 (V.-Pontarlier) ... tunnel du Mont-d'Or en 1915 (ligne V.-Frasne)",
+   "commentaire": "Raccordements Lausanne/Pontarlier et tunnel vers Frasne confirmés ; rien sur janvier 1945."
+  },
+  {
+   "id": "src-12a-dhs-st-gallen",
+   "statut": "ok",
+   "citation": "Malgré cet isolement (qui dura jusqu'à l'arrivée du chemin de fer en 1856)",
+   "commentaire": "Chemin de fer en 1856 et déclin de la broderie après la Première Guerre mondiale confirmés."
+  },
+  {
+   "id": "src-12a-dhs-zuerich",
+   "statut": "ok",
+   "citation": "L'inauguration de la gare ... en 1847 précéda la période des grands chantiers (1860-1890): ... nouvelle gare principale (1865-1871)",
+   "commentaire": "Gare de 1847 et nouvelle gare principale 1865-1871 confirmées."
+  },
+  {
+   "id": "src-12a-schaan-rail",
+   "statut": "ok",
+   "citation": "1872 erhielt Schaan ein Postamt und den Bahnhof Schaan-Vaduz an der neuen Eisenbahnstrecke zwischen Feldkirch und Buchs.",
+   "commentaire": "Gare 1872 sur Feldkirch-Buchs et pont routier de 1928/29 confirmés (section nommée Bevölkerung, Siedlung, Infrastruktur plutôt que Verkehr)."
+  },
+  {
+   "id": "src-12a-kiel-chantiers",
+   "statut": "non_verifiee",
+   "citation": "",
+   "commentaire": "WebFetch n'a renvoyé que menus et titre (Erinnerungstag 1. Juli 1955) ; la section sur les chantiers sous la Rüstungsindustrie n'a pas pu être lue."
+  },
+  {
+   "id": "src-12a-dresden-gare",
+   "statut": "ok",
+   "citation": "1898 erbaut, ersetzte er den Böhmischen Bahnhof. ... zwischen 1900 und 1906 vom Architekten Karl Zenger ... umgebaut. ... 1924 wurde das Empfangsgebäude um zwei Hallen ... erweitert.",
+   "commentaire": "Dresde 1898, Nuremberg 1844-47/1900-06, Francfort 1888/1924 et Brême 1885-1889 confirmés."
+  },
+  {
+   "id": "src-12a-vienna-suedbahnhof",
+   "statut": "ok",
+   "citation": "Die ersten Bahnhöfe auf diesem Areal waren der Gloggnitzer Bahnhof (Ausgangspunkt der Südbahn ...",
+   "commentaire": "Entrées sur Gloggnitzer Bahnhof (Südbahn), Raaber Bahnhof/Staatsbahnhof 1867-1870 et Südbahnhof 1874 vues (citations tronquées par l'outil)."
+  },
+  {
+   "id": "src-12a-salzgitter-siderurgie",
+   "statut": "ok",
+   "citation": "Am 22. Oktober 1939 ... wurde in Salzgitter erstmals Roheisen ausschließlich aus Salzgitter-Erzen erzeugt.",
+   "commentaire": "Fondation du 15/07/1937, première fonte 22/10/1939 et lien avec la politique d'armement confirmés."
+  },
+  {
+   "id": "src-12a-muenchen-chronologie",
+   "statut": "ok",
+   "citation": "Die Eröffnung der kompletten Strecke München-Augsburg findet am 4. Oktober 1840 statt. ... 1847: Gründung der Maschinenfabrik Maffei",
+   "commentaire": "Entrées 1839, 1840, 1847 (Maffei) et 1854 (exposition industrielle) confirmées."
+  },
+  {
+   "id": "src-12a-regensburg-port-rail",
+   "statut": "ok",
+   "citation": "In June 1910, the inauguration of the Luitpold Harbor ... took place. ... ship cargo transshipment from 1938 with 1.3 million tonnes",
+   "commentaire": "Transbordement 1865, ouverture juin 1910, extension 1919-1923 et 1,3 Mt en 1938 confirmés (page en anglais)."
+  },
+  {
+   "id": "src-12a-aachen-gare",
+   "statut": "ok",
+   "citation": "Bereits 1841 entstand der erste Aachener Bahnhof an der Eisenbahnstrecke Köln - Antwerpen ... Der Aachener Hauptbahnhof in seiner heutigen Form wurde 1905 eröffnet.",
+   "commentaire": "Gare de 1841 sur Cologne-Anvers et gare de 1905 confirmées ; pas de service de 1945 (comme prévu)."
+  },
+  {
+   "id": "src-12a-steyr-armement",
+   "statut": "ok",
+   "citation": "The first firm in Austria to make use of concentration camp prisoners as forced labourers was Steyr-Daimler-Puch AG ... In March 1942 a subcamp ... was set up in Steyr-Münichholz.",
+   "commentaire": "Armement (plus grande firme d'armement d'Autriche), travail forcé et sous-camp de mars 1942 confirmés."
+  },
+  {
+   "id": "src-12a-koblenz-gare",
+   "statut": "ok",
+   "citation": "Am 11. November 1858 traf der erste Eisenbahnzug in Koblenz ein. ... Nach der Zusammenlegung des vorher getrennten Rhein- und Moselbahnhofs",
+   "commentaire": "Premier train 1858, gare de 1902 issue de la fusion Rhein/Mosel et ligne Moselle (1878) vus ; références Franke/Dehio non vérifiées individuellement."
+  },
+  {
+   "id": "src-12a-augsburg-man",
+   "statut": "ok",
+   "citation": "Das kubische Bauwerk ... wurde 1938 als Forschungsanstalt für Mechanik und Gestaltung errichtet.",
+   "commentaire": "PDF p. 11 : chronologie MAN (1840, 1844, 1908 MAN) et Forschungsanstalt 1938 confirmées."
+  },
+  {
+   "id": "src-12a-vaduz-gouvernement",
+   "statut": "non_verifiee",
+   "citation": "",
+   "commentaire": "WebFetch bloqué par robots.txt (ROBOTS_DISALLOWED) ; contenu non vu."
+  }
+ ]
+}

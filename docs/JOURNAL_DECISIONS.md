@@ -2,6 +2,15 @@
 
 Une ligne par décision, datée. Plus récente en haut. Ce journal remplace les versions éparpillées dans les conversations : si ce n'est pas ici, ce n'est pas décidé.
 
+## 2026-10-01 (suite : second audit d'Ether sur les villes 1.2)
+
+- **Villes 1.2 v0.3 : 73 villes** (+ Hamm, Ludwigshafen, Mayence, Schweinfurt, Augsbourg, Leuna, Watenstedt-Salzgitter, Leoben avec Donawitz, Osnabrück). Un site industriel n'est pas un second point urbain : Donawitz est dans Leoben, Mersebourg différée. *(Ether, fait par Claude)*
+- **Le nom suit la date** : Bremerhaven s'appelle Wesermünde au Snapshot 0 (même ID, ancien nom en alias). Watenstedt-Salzgitter idem. *(Ether)*
+- **Fabriquer n'est pas transporter** : Rostock perd `aviation` (Heinkel = industrie) tant qu'il manque une preuve de terrain ou de service aérien. *(Ether)*
+- **Un point structurel peut rester affiché même si son service exact au 01/01/1945 n'est pas prouvé** (horaires, trafics inconnus) ; on ne déduit aucune liaison ou capacité de ces notices. *(Ether, appliqué par Claude)*
+- **Preuves rôle par rôle** : l'`usage` de chaque source dit quels rôles elle prouve ; la note de la ville liste ce qui reste « à renforcer » (45/73). 75 sources nouvelles relues par Claude : 59 confirmées, 3 partielles, 13 illisibles pour lui (robots, pages en JavaScript) ; signalées à Guizmo. Registre v1.8. *(Claude)*
+- **Vérification des sources par sous-agents** : pour les gros deltas, Claude répartit la relecture des liens entre plusieurs agents et garde leurs résultats dans un fichier de vérification. *(Claude)*
+
 ## 2026-10-01 (suite : retour d'audit d'Ether sur les villes 1.2)
 
 - **Type de capitale et priorité d'affichage sont indépendants** : une capitale nationale peut être C, une ville non capitale peut être A ou B. Inscrit au lexique. *(Ether)*

@@ -1,7 +1,7 @@
 {
  "metadata": {
   "nom": "registre_sources_atlas",
-  "version": "1.7",
+  "version": "1.8",
   "date_creation": "2026-09-26",
   "principe": "Une source = un source_id stable. Les fiches événements/entités peuvent référencer ce source_id et préciser l'usage/locator.",
   "statut": "registre_initial_a_completer"
@@ -3488,7 +3488,8 @@
    "periode_couverte": [],
    "zones": [],
    "usages_atlas": [
-    "rôle de ville au 01/01/1945 (ratissage villes 1.2)"
+    "rôle de ville au 01/01/1945 (ratissage villes 1.2)",
+    "contexte_national"
    ],
    "cibles": [
     "ville-de-berlin",
@@ -3516,11 +3517,18 @@
     "ville-at-wels",
     "ville-at-st-poelten"
    ],
-   "locator": "",
+   "locator": "Portée décrite dans l’audit Claude du 01/10/2026",
    "resume_passage": "Histoire générale du chemin de fer en Allemagne (exposition du DB Museum de Nuremberg).",
    "archive_locale": null,
    "verification_claude": "limite",
-   "notes": "Proposée par Ether (villes 1.2), vérifiée par Claude le 01/10/2026. Contexte général : ne prouve pas le rôle d’une ville précise. Audit Ether 01/10/2026 : contexte national seulement, jamais seule preuve d’un rôle local."
+   "notes": "Proposée par Ether (villes 1.2), vérifiée par Claude le 01/10/2026. Contexte général : ne prouve pas le rôle d’une ville précise. Audit Ether 01/10/2026 : contexte national seulement, jamais seule preuve d’un rôle local. Audit Ether 01/10/2026 : Histoire générale du rail allemand ; aucune ville locale validée à elle seule.",
+   "statut_usage": "contexte_national",
+   "verification_ether": {
+    "statut": "lecture_signalee_dans_audit_claude",
+    "lecteur": "Claude",
+    "relecture_ether": false,
+    "rapport": "2026-10-01_villes_1-2.md"
+   }
   },
   {
    "source_id": "src-hamburg-port-history",
@@ -3533,16 +3541,23 @@
    "periode_couverte": [],
    "zones": [],
    "usages_atlas": [
-    "rôle de ville au 01/01/1945 (ratissage villes 1.2)"
+    "rôle de ville au 01/01/1945 (ratissage villes 1.2)",
+    "port_maritime"
    ],
    "cibles": [
     "ville-de-hamburg"
    ],
-   "locator": "",
+   "locator": "Sections port au XIXe siècle, Freihafen et loi de 1937",
    "resume_passage": "",
    "archive_locale": null,
    "verification_claude": "non_verifiee",
-   "notes": "Proposée par Ether (villes 1.2). Page inaccessible pour Claude (délai dépassé) le 01/10/2026. Statut : non vérifiée lors de l’audit ; contenu non présenté comme confirmé tant qu’il n’a pas été lu (audit Ether 01/10/2026)."
+   "notes": "Proposée par Ether (villes 1.2). Page inaccessible pour Claude (délai dépassé) le 01/10/2026. Statut : non vérifiée lors de l’audit ; contenu non présenté comme confirmé tant qu’il n’a pas été lu (audit Ether 01/10/2026). Audit Ether 01/10/2026 : Atteste le grand port maritime, ses entrepôts et l'intégration d'Altona/Harburg en 1937. Alternative accessible au lien muet initial ; ne mesure pas le trafic ni l'état des installations en janvier 1945.",
+   "statut_usage": "preuve_locale_historique",
+   "verification_ether": {
+    "statut": "contenu_lu",
+    "lecteur": "Ether",
+    "perimetre": "Passages indiqués au locator ; aucune affirmation de lecture intégrale du document."
+   }
   },
   {
    "source_id": "src-bremenports",
@@ -3555,17 +3570,25 @@
    "periode_couverte": [],
    "zones": [],
    "usages_atlas": [
-    "rôle de ville au 01/01/1945 (ratissage villes 1.2)"
+    "rôle de ville au 01/01/1945 (ratissage villes 1.2)",
+    "contexte_actuel"
    ],
    "cibles": [
     "ville-de-bremen",
     "ville-de-bremerhaven"
    ],
-   "locator": "",
+   "locator": "Portée décrite dans l’audit Claude du 01/10/2026",
    "resume_passage": "Présentation actuelle des ports de Brême et Bremerhaven.",
    "archive_locale": null,
    "verification_claude": "limite",
-   "notes": "Proposée par Ether (villes 1.2), vérifiée par Claude le 01/10/2026. Page moderne, sans passage historique 1945."
+   "notes": "Proposée par Ether (villes 1.2), vérifiée par Claude le 01/10/2026. Page moderne, sans passage historique 1945. Audit Ether 01/10/2026 : Présentation contemporaine des ports ; histoire locale portée par les sources de Brême et Wesermünde.",
+   "statut_usage": "contexte_actuel",
+   "verification_ether": {
+    "statut": "lecture_signalee_dans_audit_claude",
+    "lecteur": "Claude",
+    "relecture_ether": false,
+    "rapport": "2026-10-01_villes_1-2.md"
+   }
   },
   {
    "source_id": "src-kiel-1945",
@@ -3578,16 +3601,24 @@
    "periode_couverte": [],
    "zones": [],
    "usages_atlas": [
-    "rôle de ville au 01/01/1945 (ratissage villes 1.2)"
+    "rôle de ville au 01/01/1945 (ratissage villes 1.2)",
+    "evenement_post_snapshot0"
    ],
    "cibles": [
     "ville-de-kiel"
    ],
-   "locator": "",
+   "locator": "Portée décrite dans l’audit Claude du 01/10/2026",
    "resume_passage": "Kiel : fin de la guerre et occupation le 4 mai 1945.",
    "archive_locale": null,
    "verification_claude": "limite",
-   "notes": "Proposée par Ether (villes 1.2), vérifiée par Claude le 01/10/2026. Ne traite que de l’occupation de mai 1945, pas du rôle naval au 01/01/1945."
+   "notes": "Proposée par Ether (villes 1.2), vérifiée par Claude le 01/10/2026. Ne traite que de l’occupation de mai 1945, pas du rôle naval au 01/01/1945. Audit Ether 01/10/2026 : Occupation du 04/05/1945 uniquement ; ne prouve pas un état de janvier.",
+   "statut_usage": "evenement_post_snapshot0",
+   "verification_ether": {
+    "statut": "lecture_signalee_dans_audit_claude",
+    "lecteur": "Claude",
+    "relecture_ether": false,
+    "rapport": "2026-10-01_villes_1-2.md"
+   }
   },
   {
    "source_id": "src-hannover-rail",
@@ -3600,16 +3631,23 @@
    "periode_couverte": [],
    "zones": [],
    "usages_atlas": [
-    "rôle de ville au 01/01/1945 (ratissage villes 1.2)"
+    "rôle de ville au 01/01/1945 (ratissage villes 1.2)",
+    "rail"
    ],
    "cibles": [
     "ville-de-hannover"
    ],
-   "locator": "",
+   "locator": "Entrée 1843 : ligne vers Lehrte et commencement de la gare",
    "resume_passage": "Hanovre 1843–1870 : arrivée du chemin de fer.",
    "archive_locale": null,
    "verification_claude": "ok",
-   "notes": "Proposée par Ether (villes 1.2), vérifiée par Claude le 01/10/2026."
+   "notes": "Proposée par Ether (villes 1.2), vérifiée par Claude le 01/10/2026. Audit Ether 01/10/2026 : Gare et voie locale attestées dès 1843. Les destructions et les trains du Snapshot 0 ne sont pas quantifiés.",
+   "statut_usage": "preuve_locale_historique",
+   "verification_ether": {
+    "statut": "contenu_lu",
+    "lecteur": "Ether",
+    "perimetre": "Passages indiqués au locator."
+   }
   },
   {
    "source_id": "src-hannover-freight",
@@ -3622,16 +3660,24 @@
    "periode_couverte": [],
    "zones": [],
    "usages_atlas": [
-    "rôle de ville au 01/01/1945 (ratissage villes 1.2)"
+    "rôle de ville au 01/01/1945 (ratissage villes 1.2)",
+    "rail",
+    "fret"
    ],
    "cibles": [
     "ville-de-hannover"
    ],
-   "locator": "",
+   "locator": "Ouverture 1931 ; récit 1877–1931 et dégâts de guerre",
    "resume_passage": "Hauptgüterbahnhof (1931) : « one of the largest and most modern freight halls in Europe ».",
    "archive_locale": null,
    "verification_claude": "ok",
-   "notes": "Proposée par Ether (villes 1.2), vérifiée par Claude le 01/10/2026."
+   "notes": "Proposée par Ether (villes 1.2), vérifiée par Claude le 01/10/2026. Audit Ether 01/10/2026 : Triage/manutention locale attestée en 1931. Les 390 wagons/jour sont une donnée d'après-guerre ; ne pas transposer au Snapshot 0.",
+   "statut_usage": "preuve_locale_historique",
+   "verification_ether": {
+    "statut": "contenu_lu",
+    "lecteur": "Ether",
+    "perimetre": "Passages indiqués au locator."
+   }
   },
   {
    "source_id": "src-essen-industry",
@@ -3644,16 +3690,26 @@
    "periode_couverte": [],
    "zones": [],
    "usages_atlas": [
-    "rôle de ville au 01/01/1945 (ratissage villes 1.2)"
+    "rôle de ville au 01/01/1945 (ratissage villes 1.2)",
+    "industrie",
+    "charbon",
+    "rail",
+    "militaire"
    ],
    "cibles": [
     "ville-de-essen"
    ],
-   "locator": "",
+   "locator": "Paragraphes mine, acier, rail de 1847/1862 et production d'armement",
    "resume_passage": "Histoire industrielle d’Essen (charbon, acier).",
    "archive_locale": null,
    "verification_claude": "ok",
-   "notes": "Proposée par Ether (villes 1.2), vérifiée par Claude le 01/10/2026."
+   "notes": "Proposée par Ether (villes 1.2), vérifiée par Claude le 01/10/2026. Audit Ether 01/10/2026 : Prouve mines, acier, gares et industrie de guerre dans Essen. Militaire renvoie ici à l'approvisionnement industriel, pas à une base de transport militaire.",
+   "statut_usage": "preuve_locale_historique",
+   "verification_ether": {
+    "statut": "contenu_lu",
+    "lecteur": "Ether",
+    "perimetre": "Passages indiqués au locator."
+   }
   },
   {
    "source_id": "src-essen-krupp",
@@ -3666,16 +3722,24 @@
    "periode_couverte": [],
    "zones": [],
    "usages_atlas": [
-    "rôle de ville au 01/01/1945 (ratissage villes 1.2)"
+    "rôle de ville au 01/01/1945 (ratissage villes 1.2)",
+    "industrie",
+    "militaire"
    ],
    "cibles": [
     "ville-de-essen"
    ],
-   "locator": "",
+   "locator": "Histoire de la Gussstahlfabrik et production d'armes",
    "resume_passage": "Krupp à Essen.",
    "archive_locale": null,
    "verification_claude": "ok",
-   "notes": "Proposée par Ether (villes 1.2), vérifiée par Claude le 01/10/2026."
+   "notes": "Proposée par Ether (villes 1.2), vérifiée par Claude le 01/10/2026. Audit Ether 01/10/2026 : Établit la présence de Krupp et son histoire d'armement ; ne garantit pas une capacité de production particulière en janvier 1945.",
+   "statut_usage": "preuve_locale_historique",
+   "verification_ether": {
+    "statut": "contenu_lu",
+    "lecteur": "Ether",
+    "perimetre": "Passages indiqués au locator."
+   }
   },
   {
    "source_id": "src-dortmund-rail",
@@ -3688,16 +3752,24 @@
    "periode_couverte": [],
    "zones": [],
    "usages_atlas": [
-    "rôle de ville au 01/01/1945 (ratissage villes 1.2)"
+    "rôle de ville au 01/01/1945 (ratissage villes 1.2)",
+    "rail"
    ],
    "cibles": [
     "ville-de-dortmund"
    ],
-   "locator": "",
+   "locator": "Rubrique Gründerjahre : industrialisation et rail",
    "resume_passage": "Gründerjahre : essor ferroviaire et industriel de Dortmund.",
    "archive_locale": null,
    "verification_claude": "ok",
-   "notes": "Proposée par Ether (villes 1.2), vérifiée par Claude le 01/10/2026."
+   "notes": "Proposée par Ether (villes 1.2), vérifiée par Claude le 01/10/2026. Audit Ether 01/10/2026 : Lecture rapportée par Claude ; non relue ici.",
+   "statut_usage": "preuve_locale_historique_rapportee",
+   "verification_ether": {
+    "statut": "lecture_signalee_dans_audit_claude",
+    "lecteur": "Claude",
+    "relecture_ether": false,
+    "rapport": "2026-10-01_villes_1-2.md"
+   }
   },
   {
    "source_id": "src-dortmund-port",
@@ -3710,16 +3782,24 @@
    "periode_couverte": [],
    "zones": [],
    "usages_atlas": [
-    "rôle de ville au 01/01/1945 (ratissage villes 1.2)"
+    "rôle de ville au 01/01/1945 (ratissage villes 1.2)",
+    "port_fluvial"
    ],
    "cibles": [
     "ville-de-dortmund"
    ],
-   "locator": "",
+   "locator": "Histoire du Dortmunder Hafen",
    "resume_passage": "Port de Dortmund inauguré le 11/08/1899.",
    "archive_locale": null,
    "verification_claude": "ok",
-   "notes": "Proposée par Ether (villes 1.2), vérifiée par Claude le 01/10/2026."
+   "notes": "Proposée par Ether (villes 1.2), vérifiée par Claude le 01/10/2026. Audit Ether 01/10/2026 : Lecture rapportée par Claude. Année 1899 retenue ; divergence 11/08 vs 21/08 avec la nouvelle notice municipale, jour à recouper.",
+   "statut_usage": "preuve_locale_historique_rapportee",
+   "verification_ether": {
+    "statut": "lecture_signalee_dans_audit_claude",
+    "lecteur": "Claude",
+    "relecture_ether": false,
+    "rapport": "2026-10-01_villes_1-2.md"
+   }
   },
   {
    "source_id": "src-dortmund-industry",
@@ -3728,20 +3808,31 @@
    "titre": "Industrialisierung und Urbanisierung",
    "institution": "Stadt Dortmund",
    "url": "https://www.dortmund.de/themen/dortmund-historisch/stadtgeschichte/20.-jahrhundert-heute/industrialisierung-und-urbanisierung/",
-   "date_consultation": "2026-10-01",
+   "date_consultation": null,
    "periode_couverte": [],
    "zones": [],
    "usages_atlas": [
-    "rôle de ville au 01/01/1945 (ratissage villes 1.2)"
+    "rôle de ville au 01/01/1945 (ratissage villes 1.2)",
+    "reference_archivée_non_verifiee"
    ],
    "cibles": [
     "ville-de-dortmund"
    ],
-   "locator": "",
+   "locator": "URL initiale ; pas de passage probant lu ici",
    "resume_passage": "",
    "archive_locale": null,
    "verification_claude": "non_verifiee",
-   "notes": "Proposée par Ether (villes 1.2). Page inaccessible pour Claude (robots.txt) le 01/10/2026. Statut : non vérifiée lors de l’audit ; contenu non présenté comme confirmé tant qu’il n’a pas été lu (audit Ether 01/10/2026)."
+   "notes": "Proposée par Ether (villes 1.2). Page inaccessible pour Claude (robots.txt) le 01/10/2026. Statut : non vérifiée lors de l’audit ; contenu non présenté comme confirmé tant qu’il n’a pas été lu (audit Ether 01/10/2026). Audit Ether 01/10/2026 : Blocage rapporté par Claude le 01/10/2026 ; ancienne référence non relue ici. Les remplacements ont été effectivement consultés.",
+   "statut_usage": "non_verifiee_remplacee",
+   "sources_remplacement": [
+    "src-12a-dortmund-industrie"
+   ],
+   "date_consultation_initiale": "2026-10-01",
+   "verification_ether": {
+    "statut": "non_verifiee",
+    "lecteur": "Claude (tentative signalée) / Ether (non relue)",
+    "rapport": "2026-10-01_villes_1-2.md"
+   }
   },
   {
    "source_id": "src-frankfurt-hbf",
@@ -3750,20 +3841,31 @@
    "titre": "Hauptbahnhof",
    "institution": "Stadt Frankfurt am Main",
    "url": "https://frankfurt.de/themen/kultur/baukultur/kulturdenkmale-und-denkxweb/hauptbahnhof",
-   "date_consultation": "2026-10-01",
+   "date_consultation": null,
    "periode_couverte": [],
    "zones": [],
    "usages_atlas": [
-    "rôle de ville au 01/01/1945 (ratissage villes 1.2)"
+    "rôle de ville au 01/01/1945 (ratissage villes 1.2)",
+    "reference_archivée_non_verifiee"
    ],
    "cibles": [
     "ville-de-frankfurt"
    ],
-   "locator": "",
+   "locator": "URL initiale ; pas de passage probant lu ici",
    "resume_passage": "",
    "archive_locale": null,
    "verification_claude": "non_verifiee",
-   "notes": "Proposée par Ether (villes 1.2). Page refusée (403) pour Claude le 01/10/2026. Statut : non vérifiée lors de l’audit ; contenu non présenté comme confirmé tant qu’il n’a pas été lu (audit Ether 01/10/2026)."
+   "notes": "Proposée par Ether (villes 1.2). Page refusée (403) pour Claude le 01/10/2026. Statut : non vérifiée lors de l’audit ; contenu non présenté comme confirmé tant qu’il n’a pas été lu (audit Ether 01/10/2026). Audit Ether 01/10/2026 : Blocage rapporté par Claude le 01/10/2026 ; ancienne référence non relue ici. Les remplacements ont été effectivement consultés.",
+   "statut_usage": "non_verifiee_remplacee",
+   "sources_remplacement": [
+    "src-12a-dresden-gare"
+   ],
+   "date_consultation_initiale": "2026-10-01",
+   "verification_ether": {
+    "statut": "non_verifiee",
+    "lecteur": "Claude (tentative signalée) / Ether (non relue)",
+    "rapport": "2026-10-01_villes_1-2.md"
+   }
   },
   {
    "source_id": "src-frankfurt-station-district",
@@ -3776,16 +3878,24 @@
    "periode_couverte": [],
    "zones": [],
    "usages_atlas": [
-    "rôle de ville au 01/01/1945 (ratissage villes 1.2)"
+    "rôle de ville au 01/01/1945 (ratissage villes 1.2)",
+    "rail"
    ],
    "cibles": [
     "ville-de-frankfurt"
    ],
-   "locator": "",
+   "locator": "Chronique du quartier, entrée 1888",
    "resume_passage": "« 1888: Eröffnung des Hauptbahnhofs ».",
    "archive_locale": null,
    "verification_claude": "ok",
-   "notes": "Proposée par Ether (villes 1.2), vérifiée par Claude le 01/10/2026."
+   "notes": "Proposée par Ether (villes 1.2), vérifiée par Claude le 01/10/2026. Audit Ether 01/10/2026 : Lecture rapportée par Claude ; gare de 1888 corroborée par la notice DB relue ici.",
+   "statut_usage": "preuve_locale_historique_rapportee",
+   "verification_ether": {
+    "statut": "lecture_signalee_dans_audit_claude",
+    "lecteur": "Claude",
+    "relecture_ether": false,
+    "rapport": "2026-10-01_villes_1-2.md"
+   }
   },
   {
    "source_id": "src-mannheim-rheinhafen",
@@ -3798,16 +3908,24 @@
    "periode_couverte": [],
    "zones": [],
    "usages_atlas": [
-    "rôle de ville au 01/01/1945 (ratissage villes 1.2)"
+    "rôle de ville au 01/01/1945 (ratissage villes 1.2)",
+    "port_fluvial",
+    "commerce"
    ],
    "cibles": [
     "ville-de-mannheim"
    ],
-   "locator": "",
+   "locator": "Paragraphe Freihafen 1828 et premier bassin 1840",
    "resume_passage": "Port rhénan de Mannheim (1828).",
    "archive_locale": null,
    "verification_claude": "ok",
-   "notes": "Proposée par Ether (villes 1.2), vérifiée par Claude le 01/10/2026."
+   "notes": "Proposée par Ether (villes 1.2), vérifiée par Claude le 01/10/2026. Audit Ether 01/10/2026 : Port franc rhénan de 1828, premier bassin de 1840 ; infrastructures historiques, sans volumes ou fonctionnement exact du Snapshot 0.",
+   "statut_usage": "preuve_locale_historique",
+   "verification_ether": {
+    "statut": "contenu_lu",
+    "lecteur": "Ether",
+    "perimetre": "Passages indiqués au locator."
+   }
   },
   {
    "source_id": "src-mannheim-rail",
@@ -3820,16 +3938,24 @@
    "periode_couverte": [],
    "zones": [],
    "usages_atlas": [
-    "rôle de ville au 01/01/1945 (ratissage villes 1.2)"
+    "rôle de ville au 01/01/1945 (ratissage villes 1.2)",
+    "rail",
+    "port_fluvial"
    ],
    "cibles": [
     "ville-de-mannheim"
    ],
-   "locator": "",
+   "locator": "Paragraphe première gare dès 1840, transfert 1876 et Schleifbahn de 1854",
    "resume_passage": "Arrivée du chemin de fer à Mannheim (1840).",
    "archive_locale": null,
    "verification_claude": "ok",
-   "notes": "Proposée par Ether (villes 1.2), vérifiée par Claude le 01/10/2026."
+   "notes": "Proposée par Ether (villes 1.2), vérifiée par Claude le 01/10/2026. Audit Ether 01/10/2026 : Gare et ligne vers Heidelberg dès 1840 ; liaison au port par voie à chevaux puis Schleifbahn de 1854. Infrastructure historique attestée, sans état opérationnel précis du Snapshot 0.",
+   "statut_usage": "preuve_locale_historique",
+   "verification_ether": {
+    "statut": "contenu_lu",
+    "lecteur": "Ether",
+    "perimetre": "Passages indiqués au locator."
+   }
   },
   {
    "source_id": "src-leipzig-db-museum",
@@ -3842,16 +3968,23 @@
    "periode_couverte": [],
    "zones": [],
    "usages_atlas": [
-    "rôle de ville au 01/01/1945 (ratissage villes 1.2)"
+    "rôle de ville au 01/01/1945 (ratissage villes 1.2)",
+    "rail"
    ],
    "cibles": [
     "ville-de-leipzig"
    ],
-   "locator": "",
+   "locator": "Paragraphe Leipzig Central Station, ouverture de 1915",
    "resume_passage": "Leipzig Hauptbahnhof (1915), plus grande gare terminus d’Europe.",
    "archive_locale": null,
    "verification_claude": "ok",
-   "notes": "Proposée par Ether (villes 1.2), vérifiée par Claude le 01/10/2026."
+   "notes": "Proposée par Ether (villes 1.2), vérifiée par Claude le 01/10/2026. Audit Ether 01/10/2026 : La gare ouverte en 1915 est explicitement attestée ; véhicules d'exposition actuels et trafics contemporains exclus. Industrie locale non établie.",
+   "statut_usage": "preuve_locale_historique",
+   "verification_ether": {
+    "statut": "contenu_lu",
+    "lecteur": "Ether",
+    "perimetre": "Passages indiqués au locator."
+   }
   },
   {
    "source_id": "src-magdeburg-port",
@@ -3864,16 +3997,25 @@
    "periode_couverte": [],
    "zones": [],
    "usages_atlas": [
-    "rôle de ville au 01/01/1945 (ratissage villes 1.2)"
+    "rôle de ville au 01/01/1945 (ratissage villes 1.2)",
+    "port_fluvial",
+    "rail",
+    "commerce"
    ],
    "cibles": [
     "ville-de-magdeburg"
    ],
-   "locator": "",
+   "locator": "Historique 1888–1893, pont de 1894 et bombardement du 16/01/1945",
    "resume_passage": "Port de commerce de Magdebourg ; détruit le 16/01/1945.",
    "archive_locale": null,
    "verification_claude": "ok",
-   "notes": "Proposée par Ether (villes 1.2), vérifiée par Claude le 01/10/2026."
+   "notes": "Proposée par Ether (villes 1.2), vérifiée par Claude le 01/10/2026. Audit Ether 01/10/2026 : Port et raccordement par Hafenbahn antérieurs à 1945. Dégâts portuaires presque totaux le 16/01/1945, puis arrêt complet du trafic seulement plusieurs mois plus tard : deux faits distincts, postérieurs au Snapshot 0.",
+   "statut_usage": "preuve_locale_historique",
+   "verification_ether": {
+    "statut": "contenu_lu",
+    "lecteur": "Ether",
+    "perimetre": "Passages indiqués au locator."
+   }
   },
   {
    "source_id": "src-vienna-nazi-history",
@@ -3886,17 +4028,25 @@
    "periode_couverte": [],
    "zones": [],
    "usages_atlas": [
-    "rôle de ville au 01/01/1945 (ratissage villes 1.2)"
+    "rôle de ville au 01/01/1945 (ratissage villes 1.2)",
+    "contexte_politique"
    ],
    "cibles": [
     "ville-at-wien",
     "ville-at-wiener-neustadt"
    ],
-   "locator": "",
+   "locator": "Portée décrite dans l’audit Claude du 01/10/2026",
    "resume_passage": "Vienne sous le régime nazi.",
    "archive_locale": null,
    "verification_claude": "limite",
-   "notes": "Proposée par Ether (villes 1.2), vérifiée par Claude le 01/10/2026. Pas de passage sur le rail ou l’industrie."
+   "notes": "Proposée par Ether (villes 1.2), vérifiée par Claude le 01/10/2026. Pas de passage sur le rail ou l’industrie. Audit Ether 01/10/2026 : Histoire politique ; pas une preuve du rail ou de l’industrie.",
+   "statut_usage": "contexte_politique",
+   "verification_ether": {
+    "statut": "lecture_signalee_dans_audit_claude",
+    "lecteur": "Claude",
+    "relecture_ether": false,
+    "rapport": "2026-10-01_villes_1-2.md"
+   }
   },
   {
    "source_id": "src-linz-1938-1945",
@@ -3909,16 +4059,25 @@
    "periode_couverte": [],
    "zones": [],
    "usages_atlas": [
-    "rôle de ville au 01/01/1945 (ratissage villes 1.2)"
+    "rôle de ville au 01/01/1945 (ratissage villes 1.2)",
+    "industrie",
+    "militaire"
    ],
    "cibles": [
     "ville-at-linz"
    ],
-   "locator": "",
+   "locator": "Chronologie 1938–1945 : Hermann-Göring-Werke",
    "resume_passage": "Linz 1938–1945 : Hermann-Göring-Werke, centre d’armement.",
    "archive_locale": null,
    "verification_claude": "ok",
-   "notes": "Proposée par Ether (villes 1.2), vérifiée par Claude le 01/10/2026."
+   "notes": "Proposée par Ether (villes 1.2), vérifiée par Claude le 01/10/2026. Audit Ether 01/10/2026 : Lecture rapportée par Claude ; ne pas attribuer les 22 attaques 1944/45 au seul état du 01/01/1945.",
+   "statut_usage": "preuve_locale_historique_rapportee",
+   "verification_ether": {
+    "statut": "lecture_signalee_dans_audit_claude",
+    "lecteur": "Claude",
+    "relecture_ether": false,
+    "rapport": "2026-10-01_villes_1-2.md"
+   }
   },
   {
    "source_id": "src-graz-armaments",
@@ -3931,16 +4090,25 @@
    "periode_couverte": [],
    "zones": [],
    "usages_atlas": [
-    "rôle de ville au 01/01/1945 (ratissage villes 1.2)"
+    "rôle de ville au 01/01/1945 (ratissage villes 1.2)",
+    "industrie",
+    "militaire"
    ],
    "cibles": [
     "ville-at-graz"
    ],
-   "locator": "",
+   "locator": "Armement : entreprises en 1944",
    "resume_passage": "Graz : 59 entreprises d’armement en 1944.",
    "archive_locale": null,
    "verification_claude": "ok",
-   "notes": "Proposée par Ether (villes 1.2), vérifiée par Claude le 01/10/2026."
+   "notes": "Proposée par Ether (villes 1.2), vérifiée par Claude le 01/10/2026. Audit Ether 01/10/2026 : Lecture rapportée par Claude ; 59 entreprises d’armement en 1944. Ne constitue pas une preuve du rail.",
+   "statut_usage": "preuve_locale_historique_rapportee",
+   "verification_ether": {
+    "statut": "lecture_signalee_dans_audit_claude",
+    "lecteur": "Claude",
+    "relecture_ether": false,
+    "rapport": "2026-10-01_villes_1-2.md"
+   }
   },
   {
    "source_id": "src-graz-rail-industry",
@@ -3953,14 +4121,24 @@
    "periode_couverte": [],
    "zones": [],
    "usages_atlas": [
-    "rôle de ville au 01/01/1945 (ratissage villes 1.2)"
+    "rôle de ville au 01/01/1945 (ratissage villes 1.2)",
+    "ecartee_comme_preuve"
    ],
-   "cibles": [],
-   "locator": "",
+   "cibles": [
+    "ville-at-graz"
+   ],
+   "locator": "Portée décrite dans l’audit Claude du 01/10/2026",
    "resume_passage": "Page sur la fondation des pompiers de Graz.",
    "archive_locale": null,
    "verification_claude": "faible",
-   "notes": "Proposée par Ether (villes 1.2), vérifiée par Claude le 01/10/2026. Le titre annoncé ne correspond pas : peu utile pour le rail. Audit Ether 01/10/2026 : page hors sujet, retirée des preuves de Graz (gardée ici pour la trace)."
+   "notes": "Proposée par Ether (villes 1.2), vérifiée par Claude le 01/10/2026. Le titre annoncé ne correspond pas : peu utile pour le rail. Audit Ether 01/10/2026 : page hors sujet, retirée des preuves de Graz (gardée ici pour la trace). Audit Ether 01/10/2026 : Fondation des pompiers : référence sans rapport avec le rail ; garder au registre, retirer des preuves de Graz.",
+   "statut_usage": "ecartee_comme_preuve",
+   "verification_ether": {
+    "statut": "lecture_signalee_dans_audit_claude",
+    "lecteur": "Claude",
+    "relecture_ether": false,
+    "rapport": "2026-10-01_villes_1-2.md"
+   }
   },
   {
    "source_id": "src-oebb-tauern",
@@ -3973,18 +4151,26 @@
    "periode_couverte": [],
    "zones": [],
    "usages_atlas": [
-    "rôle de ville au 01/01/1945 (ratissage villes 1.2)"
+    "rôle de ville au 01/01/1945 (ratissage villes 1.2)",
+    "contexte_limite"
    ],
    "cibles": [
     "ville-at-salzburg",
     "ville-at-villach",
     "ville-at-klagenfurt"
    ],
-   "locator": "",
+   "locator": "Portée décrite dans l’audit Claude du 01/10/2026",
    "resume_passage": "Ligne des Tauern Salzbourg–Villach ; tunnel des Tauern 1909.",
    "archive_locale": null,
    "verification_claude": "limite",
-   "notes": "Proposée par Ether (villes 1.2), vérifiée par Claude le 01/10/2026. Page de projets actuels ; une seule date historique."
+   "notes": "Proposée par Ether (villes 1.2), vérifiée par Claude le 01/10/2026. Page de projets actuels ; une seule date historique. Audit Ether 01/10/2026 : Projet actuel, mention historique du tunnel de 1909 ; pas une preuve locale des villes ou des services de guerre.",
+   "statut_usage": "contexte_limite",
+   "verification_ether": {
+    "statut": "lecture_signalee_dans_audit_claude",
+    "lecteur": "Claude",
+    "relecture_ether": false,
+    "rapport": "2026-10-01_villes_1-2.md"
+   }
   },
   {
    "source_id": "src-oebb-arlberg",
@@ -3997,7 +4183,8 @@
    "periode_couverte": [],
    "zones": [],
    "usages_atlas": [
-    "rôle de ville au 01/01/1945 (ratissage villes 1.2)"
+    "rôle de ville au 01/01/1945 (ratissage villes 1.2)",
+    "contexte_actuel"
    ],
    "cibles": [
     "ville-at-innsbruck",
@@ -4006,11 +4193,18 @@
     "ville-ch-buchs",
     "ville-li-schaan"
    ],
-   "locator": "",
+   "locator": "Portée décrite dans l’audit Claude du 01/10/2026",
    "resume_passage": "Ligne de l’Arlberg Innsbruck–Bregenz (projets actuels).",
    "archive_locale": null,
    "verification_claude": "limite",
-   "notes": "Proposée par Ether (villes 1.2), vérifiée par Claude le 01/10/2026. Pas d’historique (ouverture 1884 non citée), pas de Buchs."
+   "notes": "Proposée par Ether (villes 1.2), vérifiée par Claude le 01/10/2026. Pas d’historique (ouverture 1884 non citée), pas de Buchs. Audit Ether 01/10/2026 : Page de projet contemporain ; ne prouve pas les villes frontières de 1945 ni Buchs.",
+   "statut_usage": "contexte_actuel",
+   "verification_ether": {
+    "statut": "lecture_signalee_dans_audit_claude",
+    "lecteur": "Claude",
+    "relecture_ether": false,
+    "rapport": "2026-10-01_villes_1-2.md"
+   }
   },
   {
    "source_id": "src-steyr-history",
@@ -4023,16 +4217,24 @@
    "periode_couverte": [],
    "zones": [],
    "usages_atlas": [
-    "rôle de ville au 01/01/1945 (ratissage villes 1.2)"
+    "rôle de ville au 01/01/1945 (ratissage villes 1.2)",
+    "contexte_ancien"
    ],
    "cibles": [
     "ville-at-steyr"
    ],
-   "locator": "",
+   "locator": "Portée décrite dans l’audit Claude du 01/10/2026",
    "resume_passage": "Steyr, centre du commerce du fer aux XVIe–XVIIe siècles.",
    "archive_locale": null,
    "verification_claude": "limite",
-   "notes": "Proposée par Ether (villes 1.2), vérifiée par Claude le 01/10/2026. Ne parle pas des Steyr-Werke ni de l’armement."
+   "notes": "Proposée par Ether (villes 1.2), vérifiée par Claude le 01/10/2026. Ne parle pas des Steyr-Werke ni de l’armement. Audit Ether 01/10/2026 : Commerce du fer aux XVIe–XVIIe siècles ; ne prouve pas les usines de guerre.",
+   "statut_usage": "contexte_ancien",
+   "verification_ether": {
+    "statut": "lecture_signalee_dans_audit_claude",
+    "lecteur": "Claude",
+    "relecture_ether": false,
+    "rapport": "2026-10-01_villes_1-2.md"
+   }
   },
   {
    "source_id": "src-sbb-history",
@@ -4045,7 +4247,8 @@
    "periode_couverte": [],
    "zones": [],
    "usages_atlas": [
-    "rôle de ville au 01/01/1945 (ratissage villes 1.2)"
+    "rôle de ville au 01/01/1945 (ratissage villes 1.2)",
+    "contexte_national"
    ],
    "cibles": [
     "ville-ch-bern",
@@ -4058,11 +4261,18 @@
     "ville-ch-romanshorn",
     "ville-ch-vallorbe"
    ],
-   "locator": "",
+   "locator": "Portée décrite dans l’audit Claude du 01/10/2026",
    "resume_passage": "« C’est en 1902 qu’a débuté l’histoire mouvementée des Chemins de fer fédéraux suisses CFF. »",
    "archive_locale": null,
    "verification_claude": "ok",
-   "notes": "Proposée par Ether (villes 1.2), vérifiée par Claude le 01/10/2026. Source générale sur les CFF : ne prouve pas le rôle d’une ville précise. Audit Ether 01/10/2026 : contexte national seulement, jamais seule preuve d’un rôle local."
+   "notes": "Proposée par Ether (villes 1.2), vérifiée par Claude le 01/10/2026. Source générale sur les CFF : ne prouve pas le rôle d’une ville précise. Audit Ether 01/10/2026 : contexte national seulement, jamais seule preuve d’un rôle local. Audit Ether 01/10/2026 : Fondation des CFF en 1902 ; ne prouve pas les rôles de chaque ville.",
+   "statut_usage": "contexte_national",
+   "verification_ether": {
+    "statut": "lecture_signalee_dans_audit_claude",
+    "lecteur": "Claude",
+    "relecture_ether": false,
+    "rapport": "2026-10-01_villes_1-2.md"
+   }
   },
   {
    "source_id": "src-zurich-rail",
@@ -4075,16 +4285,24 @@
    "periode_couverte": [],
    "zones": [],
    "usages_atlas": [
-    "rôle de ville au 01/01/1945 (ratissage villes 1.2)"
+    "rôle de ville au 01/01/1945 (ratissage villes 1.2)",
+    "contexte_actuel"
    ],
    "cibles": [
     "ville-ch-zuerich"
    ],
-   "locator": "",
+   "locator": "Portée décrite dans l’audit Claude du 01/10/2026",
    "resume_passage": "« Unbestrittener Hauptverkehrsknotenpunkt … ist der Hauptbahnhof. »",
    "archive_locale": null,
    "verification_claude": "limite",
-   "notes": "Proposée par Ether (villes 1.2), vérifiée par Claude le 01/10/2026. Situation actuelle, peu d’histoire."
+   "notes": "Proposée par Ether (villes 1.2), vérifiée par Claude le 01/10/2026. Situation actuelle, peu d’histoire. Audit Ether 01/10/2026 : Situation actuelle du réseau ; source historique locale remplacée par le DHS.",
+   "statut_usage": "contexte_actuel",
+   "verification_ether": {
+    "statut": "lecture_signalee_dans_audit_claude",
+    "lecteur": "Claude",
+    "relecture_ether": false,
+    "rapport": "2026-10-01_villes_1-2.md"
+   }
   },
   {
    "source_id": "src-zurich-freight",
@@ -4097,16 +4315,25 @@
    "periode_couverte": [],
    "zones": [],
    "usages_atlas": [
-    "rôle de ville au 01/01/1945 (ratissage villes 1.2)"
+    "rôle de ville au 01/01/1945 (ratissage villes 1.2)",
+    "commerce",
+    "fret_historique"
    ],
    "cibles": [
     "ville-ch-zuerich"
    ],
-   "locator": "",
+   "locator": "Entrepôts autour de la gare",
    "resume_passage": "« Rund um den heutigen Hauptbahnhof entstanden Lagerhäuser und Lagerhallen für den Güterumschlag ».",
    "archive_locale": null,
    "verification_claude": "ok",
-   "notes": "Proposée par Ether (villes 1.2), vérifiée par Claude le 01/10/2026."
+   "notes": "Proposée par Ether (villes 1.2), vérifiée par Claude le 01/10/2026. Audit Ether 01/10/2026 : Lecture rapportée par Claude ; ne suffit pas à prouver la production industrielle locale de janvier 1945.",
+   "statut_usage": "preuve_locale_historique_rapportee",
+   "verification_ether": {
+    "statut": "lecture_signalee_dans_audit_claude",
+    "lecteur": "Claude",
+    "relecture_ether": false,
+    "rapport": "2026-10-01_villes_1-2.md"
+   }
   },
   {
    "source_id": "src-swiss-rhine-port",
@@ -4119,16 +4346,24 @@
    "periode_couverte": [],
    "zones": [],
    "usages_atlas": [
-    "rôle de ville au 01/01/1945 (ratissage villes 1.2)"
+    "rôle de ville au 01/01/1945 (ratissage villes 1.2)",
+    "contexte_actuel"
    ],
    "cibles": [
     "ville-ch-basel"
    ],
-   "locator": "",
+   "locator": "Portée décrite dans l’audit Claude du 01/10/2026",
    "resume_passage": "Port de St. Johann (Bâle) construit « au début du XXe siècle ».",
    "archive_locale": null,
    "verification_claude": "limite",
-   "notes": "Proposée par Ether (villes 1.2), vérifiée par Claude le 01/10/2026. FAQ moderne ; peu d’histoire."
+   "notes": "Proposée par Ether (villes 1.2), vérifiée par Claude le 01/10/2026. FAQ moderne ; peu d’histoire. Audit Ether 01/10/2026 : FAQ contemporaine ; ne démontre pas l’état historique ou le trafic de guerre.",
+   "statut_usage": "contexte_actuel",
+   "verification_ether": {
+    "statut": "lecture_signalee_dans_audit_claude",
+    "lecteur": "Claude",
+    "relecture_ether": false,
+    "rapport": "2026-10-01_villes_1-2.md"
+   }
   },
   {
    "source_id": "src-lausanne-station",
@@ -4137,20 +4372,31 @@
    "titre": "Gare CFF — chronologie",
    "institution": "Musée Historique Lausanne",
    "url": "https://museris.lausanne.ch/SGDO/Consultation.aspx?Id=30",
-   "date_consultation": "2026-10-01",
+   "date_consultation": null,
    "periode_couverte": [],
    "zones": [],
    "usages_atlas": [
-    "rôle de ville au 01/01/1945 (ratissage villes 1.2)"
+    "rôle de ville au 01/01/1945 (ratissage villes 1.2)",
+    "reference_archivée_non_verifiee"
    ],
    "cibles": [
     "ville-ch-lausanne"
    ],
-   "locator": "",
+   "locator": "URL initiale ; pas de passage probant lu ici",
    "resume_passage": "",
    "archive_locale": null,
    "verification_claude": "non_verifiee",
-   "notes": "Proposée par Ether (villes 1.2). Page inaccessible pour Claude (robots.txt) le 01/10/2026. Statut : non vérifiée lors de l’audit ; contenu non présenté comme confirmé tant qu’il n’a pas été lu (audit Ether 01/10/2026)."
+   "notes": "Proposée par Ether (villes 1.2). Page inaccessible pour Claude (robots.txt) le 01/10/2026. Statut : non vérifiée lors de l’audit ; contenu non présenté comme confirmé tant qu’il n’a pas été lu (audit Ether 01/10/2026). Audit Ether 01/10/2026 : Blocage rapporté par Claude le 01/10/2026 ; ancienne référence non relue ici. Les remplacements ont été effectivement consultés.",
+   "statut_usage": "non_verifiee_remplacee",
+   "sources_remplacement": [
+    "src-12a-dhs-lausanne"
+   ],
+   "date_consultation_initiale": "2026-10-01",
+   "verification_ether": {
+    "statut": "non_verifiee",
+    "lecteur": "Claude (tentative signalée) / Ether (non relue)",
+    "rapport": "2026-10-01_villes_1-2.md"
+   }
   },
   {
    "source_id": "src-lausanne-simplon",
@@ -4159,21 +4405,33 @@
    "titre": "Ouverture du Simplon et liaison directe Lausanne–Italie",
    "institution": "Musée Historique Lausanne",
    "url": "https://museris.lausanne.ch/SGCM/Consultation.aspx?Source=search_result.aspx&id=136949",
-   "date_consultation": "2026-10-01",
+   "date_consultation": null,
    "periode_couverte": [],
    "zones": [],
    "usages_atlas": [
-    "rôle de ville au 01/01/1945 (ratissage villes 1.2)"
+    "rôle de ville au 01/01/1945 (ratissage villes 1.2)",
+    "reference_archivée_non_verifiee"
    ],
    "cibles": [
     "ville-ch-lausanne",
     "ville-ch-brig"
    ],
-   "locator": "",
+   "locator": "URL initiale ; pas de passage probant lu ici",
    "resume_passage": "",
    "archive_locale": null,
    "verification_claude": "non_verifiee",
-   "notes": "Proposée par Ether (villes 1.2). Page inaccessible pour Claude (robots.txt) le 01/10/2026. Statut : non vérifiée lors de l’audit ; contenu non présenté comme confirmé tant qu’il n’a pas été lu (audit Ether 01/10/2026)."
+   "notes": "Proposée par Ether (villes 1.2). Page inaccessible pour Claude (robots.txt) le 01/10/2026. Statut : non vérifiée lors de l’audit ; contenu non présenté comme confirmé tant qu’il n’a pas été lu (audit Ether 01/10/2026). Audit Ether 01/10/2026 : Blocage rapporté par Claude le 01/10/2026 ; ancienne référence non relue ici. Les remplacements ont été effectivement consultés.",
+   "statut_usage": "non_verifiee_remplacee",
+   "sources_remplacement": [
+    "src-12a-dhs-lausanne",
+    "src-12a-dhs-brig"
+   ],
+   "date_consultation_initiale": "2026-10-01",
+   "verification_ether": {
+    "statut": "non_verifiee",
+    "lecteur": "Claude (tentative signalée) / Ether (non relue)",
+    "rapport": "2026-10-01_villes_1-2.md"
+   }
   },
   {
    "source_id": "src-olten-rail",
@@ -4182,20 +4440,31 @@
    "titre": "Olten Journal — Die Eisenbahn brachte den Durchbruch",
    "institution": "Stadt Olten",
    "url": "https://www.olten.ch/_docn/367601/129095_journal_low.pdf",
-   "date_consultation": "2026-10-01",
+   "date_consultation": null,
    "periode_couverte": [],
    "zones": [],
    "usages_atlas": [
-    "rôle de ville au 01/01/1945 (ratissage villes 1.2)"
+    "rôle de ville au 01/01/1945 (ratissage villes 1.2)",
+    "reference_archivée_non_verifiee"
    ],
    "cibles": [
     "ville-ch-olten"
    ],
-   "locator": "",
+   "locator": "URL initiale ; pas de passage probant lu ici",
    "resume_passage": "",
    "archive_locale": null,
    "verification_claude": "non_verifiee",
-   "notes": "Proposée par Ether (villes 1.2). PDF inaccessible pour Claude (robots.txt) le 01/10/2026. Statut : non vérifiée lors de l’audit ; contenu non présenté comme confirmé tant qu’il n’a pas été lu (audit Ether 01/10/2026)."
+   "notes": "Proposée par Ether (villes 1.2). PDF inaccessible pour Claude (robots.txt) le 01/10/2026. Statut : non vérifiée lors de l’audit ; contenu non présenté comme confirmé tant qu’il n’a pas été lu (audit Ether 01/10/2026). Audit Ether 01/10/2026 : Blocage rapporté par Claude le 01/10/2026 ; ancienne référence non relue ici. Les remplacements ont été effectivement consultés.",
+   "statut_usage": "non_verifiee_remplacee",
+   "sources_remplacement": [
+    "src-12a-dhs-olten"
+   ],
+   "date_consultation_initiale": "2026-10-01",
+   "verification_ether": {
+    "statut": "non_verifiee",
+    "lecteur": "Claude (tentative signalée) / Ether (non relue)",
+    "rapport": "2026-10-01_villes_1-2.md"
+   }
   },
   {
    "source_id": "src-winterthur-history",
@@ -4208,16 +4477,24 @@
    "periode_couverte": [],
    "zones": [],
    "usages_atlas": [
-    "rôle de ville au 01/01/1945 (ratissage villes 1.2)"
+    "rôle de ville au 01/01/1945 (ratissage villes 1.2)",
+    "contexte_limite"
    ],
    "cibles": [
     "ville-ch-winterthur"
    ],
-   "locator": "",
+   "locator": "Portée décrite dans l’audit Claude du 01/10/2026",
    "resume_passage": "Grandes étapes de l’histoire de Winterthour (commerce du coton au XVIIIe s.).",
    "archive_locale": null,
    "verification_claude": "limite",
-   "notes": "Proposée par Ether (villes 1.2), vérifiée par Claude le 01/10/2026. Ne cite ni Sulzer ni la SLM."
+   "notes": "Proposée par Ether (villes 1.2), vérifiée par Claude le 01/10/2026. Ne cite ni Sulzer ni la SLM. Audit Ether 01/10/2026 : Notice sans Sulzer/SLM selon l’audit Claude ; remplacée pour ce rôle par le DHS.",
+   "statut_usage": "contexte_limite",
+   "verification_ether": {
+    "statut": "lecture_signalee_dans_audit_claude",
+    "lecteur": "Claude",
+    "relecture_ether": false,
+    "rapport": "2026-10-01_villes_1-2.md"
+   }
   },
   {
    "source_id": "src-winterthur-locomotive",
@@ -4226,20 +4503,31 @@
    "titre": "Das Sulzer-Areal / SLM",
    "institution": "Stadt Winterthur",
    "url": "https://stadt.winterthur.ch/themen/leben-in-winterthur/planen-und-bauen/wir-beraten-sie/denkmalpflege/oeffentlichkeitsarbeit-und-dokumentation/rueckschau-veranstaltungen/tag-des-denkmals-zeitung/zeitung-tag-des-denkmals-2004.pdf/%40%40download/file/Zeitung_Tag_des_Denkmals_2004.pdf",
-   "date_consultation": "2026-10-01",
+   "date_consultation": null,
    "periode_couverte": [],
    "zones": [],
    "usages_atlas": [
-    "rôle de ville au 01/01/1945 (ratissage villes 1.2)"
+    "rôle de ville au 01/01/1945 (ratissage villes 1.2)",
+    "reference_archivée_non_verifiee"
    ],
    "cibles": [
     "ville-ch-winterthur"
    ],
-   "locator": "",
+   "locator": "URL initiale ; pas de passage probant lu ici",
    "resume_passage": "",
    "archive_locale": null,
    "verification_claude": "non_verifiee",
-   "notes": "Proposée par Ether (villes 1.2). PDF inaccessible pour Claude (adresse trop longue) le 01/10/2026. Statut : non vérifiée lors de l’audit ; contenu non présenté comme confirmé tant qu’il n’a pas été lu (audit Ether 01/10/2026)."
+   "notes": "Proposée par Ether (villes 1.2). PDF inaccessible pour Claude (adresse trop longue) le 01/10/2026. Statut : non vérifiée lors de l’audit ; contenu non présenté comme confirmé tant qu’il n’a pas été lu (audit Ether 01/10/2026). Audit Ether 01/10/2026 : Blocage rapporté par Claude le 01/10/2026 ; ancienne référence non relue ici. Les remplacements ont été effectivement consultés.",
+   "statut_usage": "non_verifiee_remplacee",
+   "sources_remplacement": [
+    "src-12a-dhs-winterthur"
+   ],
+   "date_consultation_initiale": "2026-10-01",
+   "verification_ether": {
+    "statut": "non_verifiee",
+    "lecteur": "Claude (tentative signalée) / Ether (non relue)",
+    "rapport": "2026-10-01_villes_1-2.md"
+   }
   },
   {
    "source_id": "src-gotthard-history",
@@ -4248,21 +4536,33 @@
    "titre": "125 Jahre Gotthardbahn",
    "institution": "Verkehrshaus der Schweiz",
    "url": "https://sammlung.verkehrshaus.ch/de/literature/item/9581/",
-   "date_consultation": "2026-10-01",
+   "date_consultation": null,
    "periode_couverte": [],
    "zones": [],
    "usages_atlas": [
-    "rôle de ville au 01/01/1945 (ratissage villes 1.2)"
+    "rôle de ville au 01/01/1945 (ratissage villes 1.2)",
+    "reference_archivée_non_verifiee"
    ],
    "cibles": [
     "ville-ch-luzern",
     "ville-ch-bellinzona"
    ],
-   "locator": "",
+   "locator": "URL initiale ; pas de passage probant lu ici",
    "resume_passage": "",
    "archive_locale": null,
    "verification_claude": "non_verifiee",
-   "notes": "Proposée par Ether (villes 1.2). Notice inaccessible pour Claude (redirections) le 01/10/2026. Statut : non vérifiée lors de l’audit ; contenu non présenté comme confirmé tant qu’il n’a pas été lu (audit Ether 01/10/2026)."
+   "notes": "Proposée par Ether (villes 1.2). Notice inaccessible pour Claude (redirections) le 01/10/2026. Statut : non vérifiée lors de l’audit ; contenu non présenté comme confirmé tant qu’il n’a pas été lu (audit Ether 01/10/2026). Audit Ether 01/10/2026 : Blocage rapporté par Claude le 01/10/2026 ; ancienne référence non relue ici. Les remplacements ont été effectivement consultés.",
+   "statut_usage": "non_verifiee_remplacee",
+   "sources_remplacement": [
+    "src-12a-dhs-bellinzona",
+    "src-12a-dhs-luzern"
+   ],
+   "date_consultation_initiale": "2026-10-01",
+   "verification_ether": {
+    "statut": "non_verifiee",
+    "lecteur": "Claude (tentative signalée) / Ether (non relue)",
+    "rapport": "2026-10-01_villes_1-2.md"
+   }
   },
   {
    "source_id": "src-vaduz-portrait",
@@ -4307,7 +4607,10 @@
     "de"
    ],
    "usages_atlas": [
-    "situation d’Aix-la-Chapelle au 01/01/1945 (évacuée et détruite)"
+    "situation d’Aix-la-Chapelle au 01/01/1945 (évacuée et détruite)",
+    "situation",
+    "degats_avant_snapshot0",
+    "occupation"
    ],
    "cibles": [
     "ville-de-aachen"
@@ -4316,7 +4619,2131 @@
    "resume_passage": "« Of the city’s 165,000 residents, approximately 5,000 to 20,000 remained at the start of the battle » ; « he directed its civilians to evacuate and declared Aachen a “fortress city” » ; « destroying over 80 percent of Aachen’s buildings » ; « The battle ended on October 21. »",
    "archive_locale": null,
    "verification_claude": "ok",
-   "notes": "Trouvée et lue par Claude le 01/10/2026 (arbitrage d’Ether sur Aix-la-Chapelle). Ne prouve pas l’arrêt total du réseau ferroviaire."
+   "notes": "Trouvée et lue par Claude le 01/10/2026 (arbitrage d’Ether sur Aix-la-Chapelle). Ne prouve pas l’arrêt total du réseau ferroviaire. Audit Ether 01/10/2026 : Source introduite par Claude, retrouvée et lue ici : évacuation ordonnée, forte dépopulation, prise le 21/10/1944, plus de 80 % des bâtiments détruits. Justifie « evacuee et detruite » au Snapshot 0 ; ne prouve pas l'arrêt total du rail ni le trafic de janvier 1945.",
+   "verification_ether": {
+    "statut": "contenu_lu",
+    "lecteur": "Ether",
+    "perimetre": "Passages indiqués au locator ; aucune affirmation de lecture intégrale du document."
+   }
+  },
+  {
+   "source_id": "src-12a-hamm-triage",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Verschiebebahnhof Hamm — histoire du triage",
+   "institution": "Stadtarchiv Hamm",
+   "url": "https://www.hamm.de/verschiebebahnhof-hamm",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rail",
+    "fret",
+    "degats_avant_snapshot0"
+   ],
+   "cibles": [
+    "ville-de-hamm"
+   ],
+   "locator": "Sections introduction et « Der größte Verschiebebahnhof Europas » ; légende du 22 avril 1944",
+   "resume_passage": "So begannen ab 1911 die Arbeiten in Hamm für einen neuen Verschiebebahnhof, die 1916 hauptsächlich beendet waren.",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "contenu_lu",
+    "lecteur": "Ether",
+    "perimetre": "Passages indiqués au locator ; aucune affirmation de lecture intégrale du document."
+   },
+   "notes": "Proposée par Ether (audit villes 1.2, 01/10/2026). Note d'Ether : Nœud développé dès 1847 ; triage principalement terminé en 1916, flux Ruhr–Hanovre/Berlin. Dégâts photographiés le 22/04/1944. Les 80 % de destructions et la capacité de 10 000 wagons/jour concernent respectivement le bilan 1945 et 1927 : ne pas les appliquer au 01/01/1945. Relecture Claude 01/10/2026 : Confirmé : 1847 (Köln-Mindener Eisenbahn), triage terminé en 1916, flux Ruhr–Hannover/Berlin et légende du bombardement du 22 avril 1944."
+  },
+  {
+   "source_id": "src-12a-ludwigshafen-igfarben",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Nationalsozialismus und Kriegswirtschaft — Ludwigshafen/Oppau",
+   "institution": "BASF Corporate History",
+   "url": "https://www.basf.com/global/de/who-we-are/history/chronology/1925-1944/1933-1945/",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "industrie",
+    "approvisionnement_armement",
+    "migration_travail_force"
+   ],
+   "cibles": [
+    "ville-de-ludwigshafen"
+   ],
+   "locator": "Sections « Autarkie und Aufrüstung » et « Forschen für den Krieg »",
+   "resume_passage": "Mit Beginn des Zweiten Weltkriegs werden die Werke Ludwigshafen/Oppau als Lieferant von Vorprodukten für die Rüstungsproduktion immer wichtiger. [...] Sie geht 1943 in Produktion.",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "contenu_lu",
+    "lecteur": "Ether",
+    "perimetre": "Passages indiqués au locator ; aucune affirmation de lecture intégrale du document."
+   },
+   "notes": "Proposée par Ether (audit villes 1.2, 01/10/2026). Note d'Ether : Établit le rôle des usines locales comme fournisseurs de produits intermédiaires pour l'armement ; usine Buna mise en production en 1943. Ne démontre pas seul les capacités portuaires et ferroviaires ni le fonctionnement exact à minuit. Relecture Claude 01/10/2026 : Rôle de fournisseur de produits intermédiaires pour l'armement et mise en production de l'usine Buna en 1943 confirmés."
+  },
+  {
+   "source_id": "src-12a-salzgitter-nom",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Chronik 1942–2011 — Watenstedt-Salzgitter",
+   "institution": "Stadt Salzgitter / Stadtbibliothek",
+   "url": "https://stadtbibliothek.salzgitter.de/kultur/stadtgeschichte/teil4.php",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "nom_historique",
+    "creation_urbaine"
+   ],
+   "cibles": [
+    "ville-de-salzgitter"
+   ],
+   "locator": "Entrée 1942, 1er avril",
+   "resume_passage": "",
+   "archive_locale": null,
+   "verification_claude": "non_verifiee",
+   "verification_ether": {
+    "statut": "contenu_lu",
+    "lecteur": "Ether",
+    "perimetre": "Passages indiqués au locator ; aucune affirmation de lecture intégrale du document."
+   },
+   "notes": "Proposée par Ether (audit villes 1.2, 01/10/2026). Note d'Ether : La commune créée le 01/04/1942 reçoit le nom Watenstedt-Salzgitter. La source ne date pas le changement ultérieur vers Salzgitter. Relecture Claude 01/10/2026 : WebFetch refuse la page (ROBOTS_DISALLOWED, robots.txt injoignable), deux essais ; aucun contournement tenté."
+  },
+  {
+   "source_id": "src-12a-augsburg-messerschmitt",
+   "niveau": "C",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Informationstafel Messerschmitt — texte de travail municipal",
+   "institution": "Stadt Augsburg, Erinnerungskultur",
+   "url": "https://machmit.augsburg.de/informationstafel-messerschmitt",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "industrie",
+    "aviation",
+    "migration_travail_force"
+   ],
+   "cibles": [
+    "ville-de-augsburg"
+   ],
+   "locator": "Texte « Messerschmitt Informationstafel », paragraphes 1938 et novembre 1944",
+   "resume_passage": "",
+   "archive_locale": null,
+   "verification_claude": "non_verifiee",
+   "verification_ether": {
+    "statut": "contenu_lu",
+    "lecteur": "Ether",
+    "perimetre": "Passages indiqués au locator ; aucune affirmation de lecture intégrale du document."
+   },
+   "notes": "Proposée par Ether (audit villes 1.2, 01/10/2026). Note d'Ether : Documente un complexe de production et de sous-traitance aéronautique ainsi que près de 20 000 employés fin novembre 1944. Le texte affiché est un projet municipal ; compléter avec la notice municipale définitive. Ne prouve pas le rôle ferroviaire. Relecture Claude 01/10/2026 : WebFetch bloqué par robots.txt (ROBOTS_DISALLOWED) ; contenu non vu."
+  },
+  {
+   "source_id": "src-12a-schweinfurt-roulements",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Bomben auf Schweinfurt — rôle de la production de roulements",
+   "institution": "Stadt Schweinfurt",
+   "url": "https://www.schweinfurt.de/kultur-freizeit/events?ev%5Bid%5D=225746",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "industrie",
+    "approvisionnement_armement"
+   ],
+   "cibles": [
+    "ville-de-schweinfurt"
+   ],
+   "locator": "Description de la visite, paragraphe commençant par Waffen, Panzer oder Flugzeuge",
+   "resume_passage": "Waffen, Panzer oder Flugzeuge – der Großteil der benötigten Kugellager wurde in Schweinfurt vor und auch während dem Krieg produziert.",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "contenu_lu",
+    "lecteur": "Ether",
+    "perimetre": "Passages indiqués au locator ; aucune affirmation de lecture intégrale du document."
+   },
+   "notes": "Proposée par Ether (audit villes 1.2, 01/10/2026). Note d'Ether : Décrit la fourniture de roulements pour armes, blindés et avions pendant la guerre. La page événementielle est une preuve institutionnelle synthétique ; les destructions sont un bilan de guerre non daté finement. Relecture Claude 01/10/2026 : Le passage confirme la fourniture de roulements pour armes, blindés et avions avant et pendant la guerre."
+  },
+  {
+   "source_id": "src-12a-osnabrueck-fret",
+   "niveau": "C",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Historie Güterbahnhof — Osnabrück",
+   "institution": "Lok-Viertel-OS / Aloys & Brigitte Coppenrath Stiftung",
+   "url": "https://lokviertel-os.de/lok-viertel/historie/",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rail",
+    "fret",
+    "degats_1944_1945"
+   ],
+   "cibles": [
+    "ville-de-osnabrueck"
+   ],
+   "locator": "Sections 1909–1944 et 1944–1961",
+   "resume_passage": "Der Rangier- und Güterbahnhof inkl. des Ringlokschuppens wurden bei Bombenangriffen auf Osnabrück in den Jahren 1944 und 1945 weitgehend zerstört.",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "contenu_lu",
+    "lecteur": "Ether",
+    "perimetre": "Passages indiqués au locator ; aucune affirmation de lecture intégrale du document."
+   },
+   "notes": "Proposée par Ether (audit villes 1.2, 01/10/2026). Note d'Ether : Décrit le triage et la gare de marchandises construits avant la guerre. Les destructions sont regroupées sur 1944–1945 : ne pas appliquer la destruction majoritaire au Snapshot 0. Relecture Claude 01/10/2026 : Triage et gare de marchandises annoncés en 1909 (remise ouverte 1914) ; destructions regroupées sur 1944–1945, comme indiqué dans l'affirmation."
+  },
+  {
+   "source_id": "src-12a-mainz-gare",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Hauptbahnhof — histoire de la gare de Mayence",
+   "institution": "Landeshauptstadt Mainz",
+   "url": "https://www.mainz.de/angebote-entdecken/zu-gast-in-mainz/sehenswertes/hauptbahnhof",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rail"
+   ],
+   "cibles": [
+    "ville-de-mainz"
+   ],
+   "locator": "Section Hauptbahnhof auf einen Blick ; Brand und Umbau ; Wiederaufbau",
+   "resume_passage": "Der Mainzer Hauptbahnhof wurde am 15. Oktober 1884 eröffnet",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "contenu_lu",
+    "lecteur": "Ether",
+    "perimetre": "Passages indiqués au locator ; aucune affirmation de lecture intégrale du document."
+   },
+   "notes": "Proposée par Ether (audit villes 1.2, 01/10/2026). Note d'Ether : Gare ouverte en 1884 et pont ferroviaire vers Gustavsburg en 1862. L'incendie de décembre 1934 n'interrompt pas le trafic selon le texte. Le bilan des dégâts enregistré en 1945 ne donne pas l'état exact au 01/01/1945. Relecture Claude 01/10/2026 : Gare 1884, pont de Gustavsburg 1862 et maintien du trafic après l'incendie du 23/12/1934 confirmés ; des destructions de guerre sont décrites sans état au 01/01/1945."
+  },
+  {
+   "source_id": "src-12a-leuna-commune",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Historisches — formation de Leuna",
+   "institution": "Stadt Leuna",
+   "url": "https://www.leuna.de/de/historisches.html",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "statut_urbain",
+    "industrie"
+   ],
+   "cibles": [
+    "ville-de-leuna"
+   ],
+   "locator": "Section Historisches, paragraphes 1916–1930 et Stadt Leuna",
+   "resume_passage": "Leuna-Werks, dessen Bau 1916 begann ... Erst im November 1945 erhielt Leuna das Stadtrecht",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "contenu_lu",
+    "lecteur": "Ether",
+    "perimetre": "Passages indiqués au locator ; aucune affirmation de lecture intégrale du document."
+   },
+   "notes": "Proposée par Ether (audit villes 1.2, 01/10/2026). Note d'Ether : Le site industriel est construit à partir de 1916 ; l'habitat associé à partir de 1917. Grande commune à partir de 1930 ; droits de ville seulement en novembre 1945. Type ville dans l'Atlas désigne ici un établissement urbain, sans lui attribuer ces droits au Snapshot 0. Relecture Claude 01/10/2026 : Construction 1916, habitat 1917-1927, Grossgemeinde 1930 et droits de ville en novembre 1945 confirmés."
+  },
+  {
+   "source_id": "src-12a-leuna-essence",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Die Leuna-Tankstelle — carburant synthétique",
+   "institution": "Stadt Leuna",
+   "url": "https://www.leuna.de/de/die-leunatankstelle/die-leuna-tankstelle.html",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "industrie",
+    "distribution_carburant",
+    "degats_avant_snapshot0"
+   ],
+   "cibles": [
+    "ville-de-leuna"
+   ],
+   "locator": "Section Die Leuna-Tankstelle, paragraphes 1926–1927 et 1944",
+   "resume_passage": "",
+   "archive_locale": null,
+   "verification_claude": "non_verifiee",
+   "verification_ether": {
+    "statut": "contenu_lu",
+    "lecteur": "Ether",
+    "perimetre": "Passages indiqués au locator ; aucune affirmation de lecture intégrale du document."
+   },
+   "notes": "Proposée par Ether (audit villes 1.2, 01/10/2026). Note d'Ether : Vente locale d'essence synthétique issue de l'hydrogénation du charbon en 1926–1927 ; station gravement endommagée en 1944. Ne prouve pas à elle seule le volume ou la continuité de production de l'usine en janvier 1945. Relecture Claude 01/10/2026 : WebFetch refusé (ROBOTS_DISALLOWED, échec de lecture de robots.txt), deux essais ; contournement non tenté."
+  },
+  {
+   "source_id": "src-12a-donawitz-acier",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "History of the Donawitz site — acier et rail",
+   "institution": "voestalpine Stahl Donawitz",
+   "url": "https://www.voestalpine.com/stahldonawitz/en/company/history/",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "industrie",
+    "rail",
+    "approvisionnement_armement"
+   ],
+   "cibles": [
+    "ville-at-leoben"
+   ],
+   "locator": "Historical development et Historical views, paragraphes 1878, 1892 et 1941",
+   "resume_passage": "the construction of the Donawitz-Vordernberg railway line to reduce transport costs [...] 'Reichswerke AG Alpine Montanbetriebe' emerged after several fusions in 1941. At this time, the focus is on the production of war-required products",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "contenu_lu",
+    "lecteur": "Ether",
+    "perimetre": "Passages indiqués au locator ; aucune affirmation de lecture intégrale du document."
+   },
+   "notes": "Proposée par Ether (audit villes 1.2, 01/10/2026). Note d'Ether : Documente la liaison ferrée pour réduire les coûts de transport, les laminoirs de rails et la production de guerre dans le groupe formé en 1941. Le procédé Linz-Donawitz ouvert en 1953 ne doit pas figurer au Snapshot 0. Relecture Claude 01/10/2026 : Liaison ferrée 1878, laminoir à poutrelles et rails 1892 et production de guerre du groupe de 1941 confirmés ; le LD 1953 figure bien sur la page (à exclure du Snapshot 0)."
+  },
+  {
+   "source_id": "src-12a-dhs-bellinzona",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Bellinzone (commune)",
+   "institution": "Dictionnaire historique de la Suisse / HLS",
+   "url": "https://hls-dhs-dss.ch/fr/articles/002031/2022-12-16/",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rail",
+    "industrie"
+   ],
+   "cibles": [
+    "ville-ch-bellinzona"
+   ],
+   "locator": "Section époque contemporaine, paragraphes ouverture du Gothard et ateliers",
+   "resume_passage": "la construction de l'atelier de réparations de la Compagnie ferroviaire du Gothard (1884)",
+   "archive_locale": null,
+   "verification_claude": "limite",
+   "verification_ether": {
+    "statut": "contenu_lu",
+    "lecteur": "Ether",
+    "perimetre": "Passages indiqués au locator ; aucune affirmation de lecture intégrale du document."
+   },
+   "notes": "Proposée par Ether (audit villes 1.2, 01/10/2026). Note d'Ether : Ligne du Gothard ouverte en 1882 ; nœud ferroviaire et ateliers de réparation ouverts en 1884. Justifie le rôle avant 1945, sans chiffrer le trafic au Snapshot 0. Relecture Claude 01/10/2026 : Ateliers de 1884 et statut de nœud ferroviaire de premier ordre vus ; la date d'ouverture de la ligne (1882) n'a pas été citée explicitement par la page extraite."
+  },
+  {
+   "source_id": "src-12a-dhs-chiasso",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Chiasso",
+   "institution": "Dictionnaire historique de la Suisse / HLS",
+   "url": "https://hls-dhs-dss.ch/fr/articles/002230/2022-06-30/",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rail",
+    "frontiere"
+   ],
+   "cibles": [
+    "ville-ch-chiasso"
+   ],
+   "locator": "Paragraphe Avec l'arrivée du chemin de fer",
+   "resume_passage": "Les lignes C.-Lugano (1874) et C.-Côme (1876) sont à l'origine de la gare internationale et du port franc, en activité depuis 1925.",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "contenu_lu",
+    "lecteur": "Ether",
+    "perimetre": "Passages indiqués au locator ; aucune affirmation de lecture intégrale du document."
+   },
+   "notes": "Proposée par Ether (audit villes 1.2, 01/10/2026). Note d'Ether : Lignes Lugano et Côme en 1874 et 1876, gare internationale et port franc actif depuis 1925. Ne décrit pas les restrictions frontalières exactes du 01/01/1945. Relecture Claude 01/10/2026 : Dates des lignes, gare internationale et port franc 1925 confirmés ; pas de restrictions de 1945 (comme prévu)."
+  },
+  {
+   "source_id": "src-12a-dhs-buchs",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Buchs (SG)",
+   "institution": "Dictionnaire historique de la Suisse / HLS",
+   "url": "https://hls-dhs-dss.ch/fr/articles/001346/2004-08-31/",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rail",
+    "frontiere"
+   ],
+   "cibles": [
+    "ville-ch-buchs"
+   ],
+   "locator": "Paragraphes ponts et lignes ferrées 1858–1924",
+   "resume_passage": "L'ouverture du chemin de fer de l'Arlberg (1884), l'agrandissement de la gare... l'accord douanier avec le Liechtenstein (1924), firent définitivement de B. la porte orientale de la Suisse.",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "contenu_lu",
+    "lecteur": "Ether",
+    "perimetre": "Passages indiqués au locator ; aucune affirmation de lecture intégrale du document."
+   },
+   "notes": "Proposée par Ether (audit villes 1.2, 01/10/2026). Note d'Ether : Gare en 1858, raccordement aux réseaux orientaux, Arlberg en 1884 et union douanière avec le Liechtenstein en 1924. Prouve le nœud frontière local sans garantir une circulation internationale normale pendant la guerre. Relecture Claude 01/10/2026 : Confirmés : première gare en 1858 (Rheineck-Coire), raccordement aux réseaux de l'Est (traité de 1870), Arlberg 1884, accord douanier 1924."
+  },
+  {
+   "source_id": "src-12a-dhs-romanshorn",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Romanshorn",
+   "institution": "Dictionnaire historique de la Suisse / HLS",
+   "url": "https://hls-dhs-dss.ch/fr/articles/001860/2020-04-28/",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rail",
+    "port_lacustre",
+    "ferry_historique",
+    "port_fluvial"
+   ],
+   "cibles": [
+    "ville-ch-romanshorn"
+   ],
+   "locator": "Paragraphes port et voie ferrée 1855–1856, bacs ferroviaires",
+   "resume_passage": "Des bacs pour le passage des wagons de chemin de fer relièrent Romanshorn à Lindau (1869-1939) et à Friedrichshafen (1869-1976).",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "contenu_lu",
+    "lecteur": "Ether",
+    "perimetre": "Passages indiqués au locator ; aucune affirmation de lecture intégrale du document."
+   },
+   "notes": "Proposée par Ether (audit villes 1.2, 01/10/2026). Note d'Ether : Bacs ferroviaires vers Lindau 1869–1939 : liaison absente en janvier 1945. Liaison Friedrichshafen donnée pour 1869–1976 et bac automobile dès 1929, sans chronologie des suspensions de guerre : fonctionnement au Snapshot 0 à vérifier. port_fluvial est ici le nom canonique déjà retenu par Claude pour un port lacustre, pas un port sur le Rhin. Relecture Claude 01/10/2026 : Voie ferrée 1855-1856, bacs ferroviaires Lindau 1869-1939, Friedrichshafen 1869-1976 et bacs automobiles dès 1929 confirmés ; pas de chronologie des suspensions de guerre."
+  },
+  {
+   "source_id": "src-12a-dhs-lausanne",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Lausanne (commune)",
+   "institution": "Dictionnaire historique de la Suisse / HLS",
+   "url": "https://hls-dhs-dss.ch/fr/articles/002408/2009-04-02/",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rail",
+    "fret"
+   ],
+   "cibles": [
+    "ville-ch-lausanne"
+   ],
+   "locator": "Paragraphes XIXe–XXe siècle, nœud Paris–Milan et Sébeillon",
+   "resume_passage": "L. fut bientôt le centre d'un nœud ferroviaire sur la ligne Paris-Milan. La gare construite en 1856 fut rebâtie en 1915.",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "contenu_lu",
+    "lecteur": "Ether",
+    "perimetre": "Passages indiqués au locator ; aucune affirmation de lecture intégrale du document."
+   },
+   "notes": "Proposée par Ether (audit villes 1.2, 01/10/2026). Note d'Ether : Documente nœud sur l'axe Paris–Milan, gare reconstruite en 1915 et gare de marchandises Sébeillon en 1927. Remplace les deux pages Museris inaccessibles pour ces affirmations. Relecture Claude 01/10/2026 : Nœud Paris–Milan, gare rebâtie en 1915 et gare de marchandises de Sébeillon en 1927 confirmés."
+  },
+  {
+   "source_id": "src-12a-dhs-vallorbe",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Vallorbe",
+   "institution": "Dictionnaire historique de la Suisse / HLS",
+   "url": "https://hls-dhs-dss.ch/fr/articles/002547/2014-12-27/",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rail",
+    "frontiere"
+   ],
+   "cibles": [
+    "ville-ch-vallorbe"
+   ],
+   "locator": "Paragraphes arrivée du rail 1870–1875 et tunnel du Mont-d'Or 1915",
+   "resume_passage": "L'arrivée du chemin de fer en 1870 (V.-Lausanne) et 1875 (V.-Pontarlier) ... tunnel du Mont-d'Or en 1915 (ligne V.-Frasne)",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "contenu_lu",
+    "lecteur": "Ether",
+    "perimetre": "Passages indiqués au locator ; aucune affirmation de lecture intégrale du document."
+   },
+   "notes": "Proposée par Ether (audit villes 1.2, 01/10/2026). Note d'Ether : Établit les raccordements vers Lausanne et Pontarlier, puis le tunnel vers Frasne. Ne suffit pas à établir l'ouverture de chaque liaison transfrontalière en janvier 1945. Relecture Claude 01/10/2026 : Raccordements Lausanne/Pontarlier et tunnel vers Frasne confirmés ; rien sur janvier 1945."
+  },
+  {
+   "source_id": "src-12a-dhs-olten",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Olten (Gemeinde) — commune d'Olten",
+   "institution": "Dictionnaire historique de la Suisse / HLS",
+   "url": "https://hls-dhs-dss.ch/de/articles/001168/2010-09-16/",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rail",
+    "industrie"
+   ],
+   "cibles": [
+    "ville-ch-olten"
+   ],
+   "locator": "Paragraphe Eisenbahnknotenpunkt et photographie de l'atelier principal en 1944",
+   "resume_passage": "Als Eisenbahnknotenpunkt wurde Olten in den Jahrzehnten nach Eröffnung der Werkstätte und des Bahnbetriebs der Schweizerischen Centralbahn 1856 zum Industrie- und Dienstleistungsstandort.",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "contenu_lu",
+    "lecteur": "Ether",
+    "perimetre": "Passages indiqués au locator ; aucune affirmation de lecture intégrale du document."
+   },
+   "notes": "Proposée par Ether (audit villes 1.2, 01/10/2026). Note d'Ether : Nœud ferroviaire et ateliers depuis 1856 ; photographie d'atelier datée de 1944. Alternative lisible au PDF initial ; pas de tonnage de fret à minuit. Relecture Claude 01/10/2026 : Nœud ferroviaire et ateliers depuis 1856 confirmés ; légende « Achsenlager der SBB-Hauptwerkstätte Olten. Fotografie, 1944 »."
+  },
+  {
+   "source_id": "src-12a-dhs-schaffhausen",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Schaffhouse (commune)",
+   "institution": "Dictionnaire historique de la Suisse / HLS",
+   "url": "https://hls-dhs-dss.ch/fr/articles/001281/2015-07-31/",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rail",
+    "degats_avant_snapshot0",
+    "frontiere"
+   ],
+   "cibles": [
+    "ville-ch-schaffhausen"
+   ],
+   "locator": "Paragraphes gare 1857, douanes 1913–1914 et bombardement du 1er avril 1944",
+   "resume_passage": "La gare construite en 1857 à l'ouest de la vieille ville fut remplacée en 1867-1869 par l'édifice actuel.",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "contenu_lu",
+    "lecteur": "Ether",
+    "perimetre": "Passages indiqués au locator ; aucune affirmation de lecture intégrale du document."
+   },
+   "notes": "Proposée par Ether (audit villes 1.2, 01/10/2026). Note d'Ether : Gare établie avant 1945 et présence douanière. Bombardement du 01/04/1944 attesté ; dégâts urbains, sans preuve d'un arrêt général du réseau. Ne justifie pas un port navigable à travers les chutes du Rhin. Relecture Claude 01/10/2026 : Gare de 1857, direction des douanes 1913-1914 et bombardement du 1er avril 1944 (40 morts, 450 sans-abri) confirmés ; rien sur un arrêt du réseau."
+  },
+  {
+   "source_id": "src-12a-dhs-luzern",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Lucerne (commune)",
+   "institution": "Dictionnaire historique de la Suisse / HLS",
+   "url": "https://hls-dhs-dss.ch/fr/articles/000624/2016-11-03/",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rail"
+   ],
+   "cibles": [
+    "ville-ch-luzern"
+   ],
+   "locator": "Paragraphes réseau 1859–1897, raccordement Immensee–Lucerne",
+   "resume_passage": "le raccordement direct à cette ligne (tronçon Immensee-L.) n'intervint qu'en 1897",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "contenu_lu",
+    "lecteur": "Ether",
+    "perimetre": "Passages indiqués au locator ; aucune affirmation de lecture intégrale du document."
+   },
+   "notes": "Proposée par Ether (audit villes 1.2, 01/10/2026). Note d'Ether : Documente réseau vers Olten, Zurich, Berne et Brünig et raccordement au Gothard en 1897. Pas de fret lacustre majeur en 1945 déduit du commerce médiéval. Relecture Claude 01/10/2026 : Liaisons Zoug/Zurich 1864, Berne 1875, Brünig 1889 et raccordement Gothard 1897 confirmés ; Olten 1859 non cité dans l'extrait mais mentionné par le résumé."
+  },
+  {
+   "source_id": "src-12a-dhs-st-gallen",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Saint-Gall (commune)",
+   "institution": "Dictionnaire historique de la Suisse / HLS",
+   "url": "https://hls-dhs-dss.ch/fr/articles/001321/2012-01-06/",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rail",
+    "industrie",
+    "commerce"
+   ],
+   "cibles": [
+    "ville-ch-st-gallen"
+   ],
+   "locator": "Introduction, arrivée du chemin de fer en 1856",
+   "resume_passage": "Malgré cet isolement (qui dura jusqu'à l'arrivée du chemin de fer en 1856)",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "contenu_lu",
+    "lecteur": "Ether",
+    "perimetre": "Passages indiqués au locator ; aucune affirmation de lecture intégrale du document."
+   },
+   "notes": "Proposée par Ether (audit villes 1.2, 01/10/2026). Note d'Ether : Atteste la desserte ferroviaire depuis 1856. La description initiale des lignes et du rôle régional n'est pas datée de 1945 ; pas de mesure du trafic de guerre. La broderie et ses exportateurs connaissent une crise après 1914 ; ne pas transposer l'apogée d'avant 1914 à 1945. Relecture Claude 01/10/2026 : Chemin de fer en 1856 et déclin de la broderie après la Première Guerre mondiale confirmés."
+  },
+  {
+   "source_id": "src-12a-dhs-winterthur",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Winterthur — Winterthour",
+   "institution": "Dictionnaire historique de la Suisse / HLS",
+   "url": "https://hls-dhs-dss.ch/de/articles/000157/2015-08-28/",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rail",
+    "industrie"
+   ],
+   "cibles": [
+    "ville-ch-winterthur"
+   ],
+   "locator": "Sections Siedlungsentwicklung et Wirtschaft ; paragraphes 1855–1876 et vers 1910",
+   "resume_passage": "Um 1910 war Winterthur eine Industriestadt... Rieter mit seinen Spinnereimaschinen, Sulzer mit den Dieselmotoren und die SLM ... mit dem Lokomotivbau wurden zu weltweit tätigen Unternehmen.",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "contenu_lu",
+    "lecteur": "Ether",
+    "perimetre": "Passages indiqués au locator ; aucune affirmation de lecture intégrale du document."
+   },
+   "notes": "Proposée par Ether (audit villes 1.2, 01/10/2026). Note d'Ether : Nœud de plusieurs lignes dès le XIXe siècle ; moteurs Diesel Sulzer et locomotives de la Fabrique suisse de locomotives et de machines (SLM). Lecture en allemand ; remplace les liens n'établissant pas les constructeurs. Relecture Claude 01/10/2026 : Lignes ferroviaires 1855–1876 énumérées ; Sulzer (moteurs Diesel) et SLM (locomotives) confirmés vers 1910."
+  },
+  {
+   "source_id": "src-12a-dhs-brig",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Brig (Stadt) — Brigue (ville)",
+   "institution": "Dictionnaire historique de la Suisse / HLS",
+   "url": "https://hls-dhs-dss.ch/de/articles/002662/2013-07-17/",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rail",
+    "frontiere"
+   ],
+   "cibles": [
+    "ville-ch-brig"
+   ],
+   "locator": "Paragraphes transport, tunnels Simplon et Lötschberg, gare de 1910",
+   "resume_passage": "1874 erhielt Brig den Bahnanschluss nach Westen durch das Rhonetal, 1913 durch den Lötschbergtunnel nach Bern. 1926 entstand die Furka-Oberalp-Bahn.",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "contenu_lu",
+    "lecteur": "Ether",
+    "perimetre": "Passages indiqués au locator ; aucune affirmation de lecture intégrale du document."
+   },
+   "notes": "Proposée par Ether (audit villes 1.2, 01/10/2026). Note d'Ether : Liaisons Rhônetal 1874, Simplon 1906/1921, Lötschberg 1913 et Furka-Oberalp 1926 ; gare de fret et frontière. Ne prouve pas le trafic quotidien vers l'Italie pendant la guerre. Relecture Claude 01/10/2026 : Rhônetal 1874, Lötschberg 1913, FO 1926, gare rebâtie en 1910, tunnels du Simplon 1906/1921 confirmés ; aucune donnée sur le trafic en guerre."
+  },
+  {
+   "source_id": "src-12a-dhs-bern",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Berne (commune)",
+   "institution": "Dictionnaire historique de la Suisse / HLS",
+   "url": "https://hls-dhs-dss.ch/fr/articles/000209/2016-11-10/",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rail",
+    "administration",
+    "capitale"
+   ],
+   "cibles": [
+    "ville-ch-bern"
+   ],
+   "locator": "Paragraphes raccordements 1857–1864 et Ville fédérale 1848",
+   "resume_passage": "Chef-lieu de canton et Ville fédérale (depuis 1848)",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "contenu_lu",
+    "lecteur": "Ether",
+    "perimetre": "Passages indiqués au locator ; aucune affirmation de lecture intégrale du document."
+   },
+   "notes": "Proposée par Ether (audit villes 1.2, 01/10/2026). Note d'Ether : Nœud régional et cantonal ferroviaire, rôle de Ville fédérale depuis 1848. Conserver le statut suisse spécifique dans la note ; pas de changement de priorité proposé. Relecture Claude 01/10/2026 : Rôle de Ville fédérale depuis 1848 et raccordements ferroviaires 1857-1864 (Thoune, Fribourg, Bienne, Langnau) confirmés."
+  },
+  {
+   "source_id": "src-12a-dhs-zuerich",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Zurich (commune)",
+   "institution": "Dictionnaire historique de la Suisse / HLS",
+   "url": "https://hls-dhs-dss.ch/fr/articles/000171/2015-01-25/",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rail"
+   ],
+   "cibles": [
+    "ville-ch-zuerich"
+   ],
+   "locator": "Paragraphe grands chantiers 1847–1871",
+   "resume_passage": "L'inauguration de la gare ... en 1847 précéda la période des grands chantiers (1860-1890): ... nouvelle gare principale (1865-1871)",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "contenu_lu",
+    "lecteur": "Ether",
+    "perimetre": "Passages indiqués au locator ; aucune affirmation de lecture intégrale du document."
+   },
+   "notes": "Proposée par Ether (audit villes 1.2, 01/10/2026). Note d'Ether : Gare en 1847 puis nouvelle gare principale 1865–1871. Preuve historique locale du rail ; ne mesure pas seule la centralité ni le fret au 01/01/1945. Relecture Claude 01/10/2026 : Gare de 1847 et nouvelle gare principale 1865-1871 confirmées."
+  },
+  {
+   "source_id": "src-12a-dhs-geneve",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Genève (commune)",
+   "institution": "Dictionnaire historique de la Suisse / HLS",
+   "url": "https://hls-dhs-dss.ch/fr/articles/002903/2018-02-07/",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rail",
+    "frontiere"
+   ],
+   "cibles": [
+    "ville-ch-geneve"
+   ],
+   "locator": "Section développement XIXe siècle, réseau ferroviaire de 1858",
+   "resume_passage": "on profite également de l'espace dégagé pour déployer, en 1858, un réseau ferroviaire susceptible de rattacher la cité aux chemins de fer français et suisses. Mais il est trop tard: les grandes lignes sont déjà dessinées et contournent G.",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "contenu_lu",
+    "lecteur": "Ether",
+    "perimetre": "Passages indiqués au locator ; aucune affirmation de lecture intégrale du document."
+   },
+   "notes": "Proposée par Ether (audit villes 1.2, 01/10/2026). Note d'Ether : Raccordement aux chemins de fer français et suisses en 1858 ; l'article précise aussi que les grandes lignes contournent Genève. Pas de rôle ferroviaire continental maximal déduit de sa notoriété. Relecture Claude 01/10/2026 : Raccordement de 1858 et contournement de Genève par les grandes lignes confirmés (formulation « susceptible de rattacher »)."
+  },
+  {
+   "source_id": "src-12a-dhs-basel",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Bâle-Ville",
+   "institution": "Dictionnaire historique de la Suisse / HLS",
+   "url": "https://hls-dhs-dss.ch/fr/articles/007478/2017-05-30/",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "port_fluvial",
+    "rail",
+    "frontiere",
+    "industrie",
+    "commerce"
+   ],
+   "cibles": [
+    "ville-ch-basel"
+   ],
+   "locator": "Sections économie et transports : tableau cantonal de 1939, chimie, ports Saint-Jean/Petit-Huningue et gares avant 1945",
+   "resume_passage": "",
+   "archive_locale": null,
+   "verification_claude": "non_verifiee",
+   "verification_ether": {
+    "statut": "contenu_lu",
+    "lecteur": "Ether",
+    "perimetre": "Passages indiqués au locator ; aucune affirmation de lecture intégrale du document."
+   },
+   "notes": "Proposée par Ether (audit villes 1.2, 01/10/2026). Note d'Ether : Ports Saint-Jean (1906–1907), Petit-Huningue (1919–1922 et 1936–1939), gares et réseaux internationaux antérieurs à 1945. Industrie chimique depuis 1859 ; chiffres de 1939 à l'échelle cantonale. Le texte indique une interruption de navigation pendant les guerres sans ses dates précises : ne pas garantir un trafic normal le 01/01/1945. Relecture Claude 01/10/2026 : Page accessible mais l'extrait renvoyé par WebFetch (deux essais) ne contient ni les ports Saint-Jean/Petit-Huningue, ni la chimie, ni les gares ; seul le tableau 1939 (secteur secondaire 37 006) a été vu, le reste n'a pas pu être confirmé. L'article est long : l'extrait que Claude a pu lire (deux essais + un essai ciblé) ne contient ni la chimie ni les ports ; non confirmé, pas infirmé."
+  },
+  {
+   "source_id": "src-12a-geneve-aeroport",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Notre histoire centenaire — Genève-Cointrin",
+   "institution": "Genève Aéroport",
+   "url": "https://www.gva.ch/fr/aeroport/presentation/notre-histoire",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "aviation"
+   ],
+   "cibles": [
+    "ville-ch-geneve"
+   ],
+   "locator": "Chronologie 1919, 1920, 1932 et 1937",
+   "resume_passage": "Durant la seconde guerre mondiale, la piste est prolongée.",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "contenu_lu",
+    "lecteur": "Ether",
+    "perimetre": "Passages indiqués au locator ; aucune affirmation de lecture intégrale du document."
+   },
+   "notes": "Proposée par Ether (audit villes 1.2, 01/10/2026). Note d'Ether : Champ d'aviation voté en 1919, piste en 1920 et bétonnée en 1937. La liaison Paris donnée pour 1932–1935 ne peut être projetée en janvier 1945 ; piste prolongée pendant la guerre sans date fine. Relecture Claude 01/10/2026 : Loi de 1919, piste herbeuse 1920, liaison Paris 1932, bétonnage 1937 et prolongation en guerre sans date confirmés."
+  },
+  {
+   "source_id": "src-12a-schaan-rail",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Schaan — gare et liaisons",
+   "institution": "Historisches Lexikon des Fürstentums Liechtenstein / Liechtenstein-Institut",
+   "url": "https://historisches-lexikon.li/Schaan",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rail"
+   ],
+   "cibles": [
+    "ville-li-schaan"
+   ],
+   "locator": "Paragraphe Verkehr, gare Schaan-Vaduz et pont de 1928–1929",
+   "resume_passage": "1872 erhielt Schaan ein Postamt und den Bahnhof Schaan-Vaduz an der neuen Eisenbahnstrecke zwischen Feldkirch und Buchs.",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "contenu_lu",
+    "lecteur": "Ether",
+    "perimetre": "Passages indiqués au locator ; aucune affirmation de lecture intégrale du document."
+   },
+   "notes": "Proposée par Ether (audit villes 1.2, 01/10/2026). Note d'Ether : Gare Schaan-Vaduz sur la ligne Feldkirch–Buchs depuis 1872. Ne transférer ni la gare ni son rôle ferroviaire à la commune de Vaduz ; aucune fréquence de trains de janvier 1945 établie. Relecture Claude 01/10/2026 : Gare 1872 sur Feldkirch-Buchs et pont routier de 1928/29 confirmés (section nommée Bevölkerung, Siedlung, Infrastruktur plutôt que Verkehr)."
+  },
+  {
+   "source_id": "src-12a-berlin-anhalter",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Anhalter Bahnhof — histoire locale",
+   "institution": "Land Berlin",
+   "url": "https://www.berlin.de/sehenswuerdigkeiten/3561282-3558930-anhalter-bahnhof.html",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rail"
+   ],
+   "cibles": [
+    "ville-de-berlin"
+   ],
+   "locator": "Section Entstehung und Funktion ; raccordement S-Bahn 1939",
+   "resume_passage": "Der Anhalter Bahnhof war bis zu seiner Kriegsbeschädigung ein bedeutender Umschlagplatz und Fernbahnhof Berlins.",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "contenu_lu",
+    "lecteur": "Ether",
+    "perimetre": "Passages indiqués au locator ; aucune affirmation de lecture intégrale du document."
+   },
+   "notes": "Proposée par Ether (audit villes 1.2, 01/10/2026). Note d'Ether : Établit l'importance d'une gare de grandes lignes et de transbordement berlinoise avant sa destruction en 1945. Ne prouve pas seule tous les rôles industriels et administratifs de Berlin. Relecture Claude 01/10/2026 : Importance de gare de grandes lignes et de transbordement et raccordement S-Bahn de 1939 confirmés ; l'intitulé exact « Entstehung und Funktion » n'a pas été identifié par WebFetch."
+  },
+  {
+   "source_id": "src-12a-wesermuende",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Stadtgeschichte Bremerhavens — Wesermünde en 1945",
+   "institution": "Stadtarchiv Bremerhaven",
+   "url": "https://www.bremerhaven.de/de/freizeit-kultur/stadtarchiv/stadtgeschichte-bremerhavens.13195.html",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "nom_historique",
+    "port_maritime",
+    "rail",
+    "degats_avant_snapshot0"
+   ],
+   "cibles": [
+    "ville-de-bremerhaven"
+   ],
+   "locator": "Paragraphes Geestemünde, fusion 1939 et bombardement du 18 septembre 1944",
+   "resume_passage": "Erst 1939 erfolgte im Rahmen der Neugliederung des Reiches der Anschluss Bremerhavens an Wesermünde.",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "contenu_lu",
+    "lecteur": "Ether",
+    "perimetre": "Passages indiqués au locator ; aucune affirmation de lecture intégrale du document."
+   },
+   "notes": "Proposée par Ether (audit villes 1.2, 01/10/2026). Note d'Ether : Ville réunie sous le nom Wesermünde en 1939, renommée Bremerhaven en 1947. Ports avec accès ferroviaire avant 1945 ; centre-ville largement détruit le 18/09/1944. L'Overseas Harbor Area demeure lié à Brême : aucune souveraineté de ville ajoutée. Relecture Claude 01/10/2026 : Fusion 1939, renommage en Bremerhaven 1947, quais de Geestemünde avec raccordement ferroviaire et centre-ville largement détruit le 18/09/1944 confirmés ; rien sur l'Overseas Harbor Area (non demandé)."
+  },
+  {
+   "source_id": "src-12a-leoben-rattachement",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Straßennamen mit Geschichte — rattachement de Donawitz",
+   "institution": "Stadt Leoben",
+   "url": "https://www.leoben.at/daten-geschichte/strassennamen/",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "perimetre_urbain"
+   ],
+   "cibles": [
+    "ville-at-leoben"
+   ],
+   "locator": "Paragraphe Eingemeindungen, 1er octobre 1939",
+   "resume_passage": "Eingemeindungen der Stadt Donawitz und des Marktes Göss am 1. Oktober 1939",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "contenu_lu",
+    "lecteur": "Ether",
+    "perimetre": "Passages indiqués au locator ; aucune affirmation de lecture intégrale du document."
+   },
+   "notes": "Proposée par Ether (audit villes 1.2, 01/10/2026). Note d'Ether : Donawitz et Göss sont incorporés à Leoben au 01/10/1939. Un seul point urbain Leoben ; site sidérurgique de Donawitz à créer séparément dans sa couche physique. Relecture Claude 01/10/2026 : Rattachement de Donawitz et Göss au 01/10/1939 confirmé."
+  },
+  {
+   "source_id": "src-12a-kiel-chantiers",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Erinnerungstag 1. Juli 1955 — histoire des chantiers de Kiel",
+   "institution": "Kieler Stadtarchiv",
+   "url": "https://www.kiel.de/de/kultur_freizeit/stadtarchiv/erinnerungstage.php?id=39",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "construction_navale",
+    "militaire"
+   ],
+   "cibles": [
+    "ville-de-kiel"
+   ],
+   "locator": "Section Die Kieler Werften ab 1933 im Dienst der Rüstungsindustrie",
+   "resume_passage": "",
+   "archive_locale": null,
+   "verification_claude": "non_verifiee",
+   "verification_ether": {
+    "statut": "contenu_lu",
+    "lecteur": "Ether",
+    "perimetre": "Passages indiqués au locator ; aucune affirmation de lecture intégrale du document."
+   },
+   "notes": "Proposée par Ether (audit villes 1.2, 01/10/2026). Note d'Ether : Documente les chantiers affectés à la marine et à la construction de navires de guerre avant 1945. Source historique malgré un titre daté de 1955 ; cette date ne borne pas le contenu. Pas de bilan des dégâts de janvier. La production des chantiers est explicitement affectée par les bombardements de juillet 1944 ; destruction d'avril 1945 exclue du Snapshot 0. Relecture Claude 01/10/2026 : WebFetch n'a renvoyé que menus et titre (Erinnerungstag 1. Juli 1955) ; la section sur les chantiers sous la Rüstungsindustrie n'a pas pu être lue."
+  },
+  {
+   "source_id": "src-12a-karlsruhe-port",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Rheinhafen Karlsruhe — port et rail",
+   "institution": "Stadtarchiv Karlsruhe / Stadtlexikon",
+   "url": "https://stadtlexikon.karlsruhe.de/index.php/De:Lexikon:ins-1511",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "port_fluvial",
+    "rail",
+    "industrie"
+   ],
+   "cibles": [
+    "ville-de-karlsruhe"
+   ],
+   "locator": "Paragraphes construction 1896–1901, charbon et expansions",
+   "resume_passage": "wurde der Hafen am 1. Mai 1901 eröffnet. ... Hauptumschlag war die Kohle mit 53 %",
+   "archive_locale": null,
+   "verification_claude": "limite",
+   "verification_ether": {
+    "statut": "contenu_lu",
+    "lecteur": "Ether",
+    "perimetre": "Passages indiqués au locator ; aucune affirmation de lecture intégrale du document."
+   },
+   "notes": "Proposée par Ether (audit villes 1.2, 01/10/2026). Note d'Ether : Port relié au rail ouvert le 01/05/1901 ; infrastructures charbonnières et extensions avant guerre. Preuve locale permettant d'expliciter port_fluvial. Importance C conservée par prudence ; débit réel de janvier non établi. Relecture Claude 01/10/2026 : Ouverture le 01/05/1901, dominance du charbon et extensions (1903, 1913, 1916) confirmées ; le raccordement ferroviaire n'a pas été vu explicitement dans les passages cités."
+  },
+  {
+   "source_id": "src-12a-stuttgart-daimler",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Unsere Geschichte. Unsere Verantwortung. — Daimler-Benz en guerre",
+   "institution": "Mercedes-Benz Group / archives de l'entreprise",
+   "url": "https://group.mercedes-benz.com/unternehmen/magazin/kultur/75-jahre-2-weltkrieg.html",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "industrie",
+    "approvisionnement_armement"
+   ],
+   "cibles": [
+    "ville-de-stuttgart"
+   ],
+   "locator": "Paragraphes reconversion industrielle 1939–1943, Stuttgart-Untertürkheim",
+   "resume_passage": "",
+   "archive_locale": null,
+   "verification_claude": "non_verifiee",
+   "verification_ether": {
+    "statut": "contenu_lu",
+    "lecteur": "Ether",
+    "perimetre": "Passages indiqués au locator ; aucune affirmation de lecture intégrale du document."
+   },
+   "notes": "Proposée par Ether (audit villes 1.2, 01/10/2026). Note d'Ether : Documente la production locale de pièces, munitions et équipements militaires à Untertürkheim. Les chiffres de personnel du groupe ne sont pas des chiffres propres à Stuttgart. Ne prouve pas une production civile normale. Relecture Claude 01/10/2026 : Page accessible mais WebFetch n'a renvoyé que l'introduction/métadonnées, sans les paragraphes sur Untertürkheim ni la production militaire ; non confirmé."
+  },
+  {
+   "source_id": "src-12a-stuttgart-gare",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Hauptbahnhof Stuttgart — histoire du Bonatzbau",
+   "institution": "Landesmedienzentrum Baden-Württemberg",
+   "url": "https://www.lmz-bw.de/statische-newsroom-seiten/hauptbahnhof-stuttgart",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rail"
+   ],
+   "cibles": [
+    "ville-de-stuttgart"
+   ],
+   "locator": "Paragraphes inauguration 1922, voies complètes en 1925, bâtiment 1928",
+   "resume_passage": "Erst Ende 1925 jedoch waren alle Gleise des Bahnhofs befahrbar.",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "contenu_lu",
+    "lecteur": "Ether",
+    "perimetre": "Passages indiqués au locator ; aucune affirmation de lecture intégrale du document."
+   },
+   "notes": "Proposée par Ether (audit villes 1.2, 01/10/2026). Note d'Ether : Nouvelle gare développée pour répondre à l'augmentation du trafic. Destruction pendant la guerre sans datation fine : ne pas appliquer un bilan final au Snapshot 0. Relecture Claude 01/10/2026 : Ouverture 1922, voies complètes fin 1925, achèvement ~1928 (déduit), hausse du trafic et dégâts de guerre sans date fine confirmés."
+  },
+  {
+   "source_id": "src-12a-dresden-gare",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Architektonische Schönheiten — Dresden, Nürnberg, Frankfurt et Bremen",
+   "institution": "Deutsche Bahn",
+   "url": "https://www.deutschebahn.com/de/architektur_bahnhof-6878040",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rail"
+   ],
+   "cibles": [
+    "ville-de-dresden",
+    "ville-de-nuernberg",
+    "ville-de-frankfurt",
+    "ville-de-bremen"
+   ],
+   "locator": "Sections Dresde (1898), Nuremberg (1844–1847, remaniement 1900–1906), Francfort (1888, extension 1924), Brême (1885–1889)",
+   "resume_passage": "1898 erbaut, ersetzte er den Böhmischen Bahnhof. ... zwischen 1900 und 1906 vom Architekten Karl Zenger ... umgebaut. ... 1924 wurde das Empfangsgebäude um zwei Hallen ... erweitert.",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "contenu_lu",
+    "lecteur": "Ether",
+    "perimetre": "Passages indiqués au locator ; aucune affirmation de lecture intégrale du document."
+   },
+   "notes": "Proposée par Ether (audit villes 1.2, 01/10/2026). Note d'Ether : Notices historiques locales de gares : infrastructure antérieure à 1945 dans les quatre villes. Ne pas dater un événement Nuremberg précisément en 1903 ou 1905 : cette notice décrit une transformation 1900–1906. Destinations, surfaces et fréquentations actuelles exclues ; ne couvre pas industrie, ports ou aéroports. Relecture Claude 01/10/2026 : Dresde 1898, Nuremberg 1844-47/1900-06, Francfort 1888/1924 et Brême 1885-1889 confirmés."
+  },
+  {
+   "source_id": "src-12a-halle-gare",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Chronik — Halle (Saale), gare centrale",
+   "institution": "Stadt Halle (Saale)",
+   "url": "https://halle.de/kultur-tourismus/stadtgeschichte/chronik",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rail",
+    "fret"
+   ],
+   "cibles": [
+    "ville-de-halle"
+   ],
+   "locator": "Entrée 1890, gare centrale et séparation du fret",
+   "resume_passage": "Der neu erbaute hallesche Hauptbahnhof wird eröffnet. Bisher war es so, dass man nach Berlin, Erfurt oder Leipzig jeweils von einem anderen Bahnhof abfahren musste.",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "contenu_lu",
+    "lecteur": "Ether",
+    "perimetre": "Passages indiqués au locator ; aucune affirmation de lecture intégrale du document."
+   },
+   "notes": "Proposée par Ether (audit villes 1.2, 01/10/2026). Note d'Ether : Centralisation des liaisons Berlin–Erfurt–Leipzig et voies de fret séparées avant 1945. Chimie et industrie non confirmées par ce passage. Relecture Claude 01/10/2026 : Centralisation Berlin–Erfurt–Leipzig et séparation fret/voyageurs (« Güterverkehr vom Personenverkehr gleismäßig separiert ») confirmées pour 1890."
+  },
+  {
+   "source_id": "src-12a-saarbruecken-rail",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Stadtchronik — gare et industrialisation",
+   "institution": "Landeshauptstadt Saarbrücken",
+   "url": "https://www.saarbruecken.de/zb/kultur/stadtgeschichte/chronik",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rail",
+    "frontiere",
+    "industrie"
+   ],
+   "cibles": [
+    "ville-de-saarbruecken"
+   ],
+   "locator": "Entrées 1850–1852 et 15 octobre 1852",
+   "resume_passage": "Der Bau des Bahnhofes in St. Johann mit Anschluss an das deutsche und französische Eisenbahnnetz legt den Grundstein für die Industrialisierung der Region.",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "contenu_lu",
+    "lecteur": "Ether",
+    "perimetre": "Passages indiqués au locator ; aucune affirmation de lecture intégrale du document."
+   },
+   "notes": "Proposée par Ether (audit villes 1.2, 01/10/2026). Note d'Ether : Raccordement aux réseaux allemand et français et transport de personnes/marchandises associé à l'industrialisation. Ne garantit pas l'ouverture du passage franco-allemand en janvier 1945. Relecture Claude 01/10/2026 : Entrée 1850-1852 (raccordement aux réseaux allemand et français, industrialisation) et premier train le 15/10/1852 confirmés ; rien sur janvier 1945."
+  },
+  {
+   "source_id": "src-12a-kassel-industrie",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Kasseler Chronik 1933–1945 — Henschel et industrie de transport",
+   "institution": "Stadt Kassel",
+   "url": "https://www.kassel.de/buerger/stadtgeschichte/chronik/inhaltsseiten/chronik-der-jahre-1933-1945.php",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "industrie",
+    "degats_avant_snapshot0",
+    "militaire"
+   ],
+   "cibles": [
+    "ville-de-kassel"
+   ],
+   "locator": "Entrées production Henschel, Credé et bombardements 1941–1943",
+   "resume_passage": "Die Firma Credé & Co. stellt verstärkt Waggons für die Deutsche Reichsbahn sowie Lkw-Aufbauten für die Wehrmacht her.",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "contenu_lu",
+    "lecteur": "Ether",
+    "perimetre": "Passages indiqués au locator ; aucune affirmation de lecture intégrale du document."
+   },
+   "notes": "Proposée par Ether (audit villes 1.2, 01/10/2026). Note d'Ether : Production locale de locomotives, wagons, camions et blindés attestée. Site d'Altenbauna distinct du centre-ville ; aucun transfert de sa géométrie. Compléter le rôle de nœud ferroviaire indépendamment. Militaire désigne l’approvisionnement industriel de guerre, pas une base opérationnelle. Relecture Claude 01/10/2026 : Locomotives, camions, blindés Henschel, wagons Credé et bombardements 1941-1943 attestés ; Altenbauna cité à part (moteurs HFM)."
+  },
+  {
+   "source_id": "src-12a-vienna-suedbahnhof",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Geschichte, Daten & Fakten — Südbahnhof et Ostbahnhof",
+   "institution": "Österreichische Bundesbahnen (ÖBB)",
+   "url": "https://hauptbahnhofcity.oebb.at/de/10jahrehauptbahnhof/geschichte-daten-fakten",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rail"
+   ],
+   "cibles": [
+    "ville-at-wien"
+   ],
+   "locator": "Entrées 1841, 1870 et 1874",
+   "resume_passage": "Die ersten Bahnhöfe auf diesem Areal waren der Gloggnitzer Bahnhof (Ausgangspunkt der Südbahn ...",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "contenu_lu",
+    "lecteur": "Ether",
+    "perimetre": "Passages indiqués au locator ; aucune affirmation de lecture intégrale du document."
+   },
+   "notes": "Proposée par Ether (audit villes 1.2, 01/10/2026). Note d'Ether : Documente les départs des réseaux méridional et oriental et leurs gares avant 1945. Le Hauptbahnhof moderne de 2014 n'est pas projeté au Snapshot 0. Aucune preuve d'industrie dans cette source. Relecture Claude 01/10/2026 : Entrées sur Gloggnitzer Bahnhof (Südbahn), Raaber Bahnhof/Staatsbahnhof 1867-1870 et Südbahnhof 1874 vues (citations tronquées par l'outil)."
+  },
+  {
+   "source_id": "src-12a-innsbruck-gare",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Geschichte, Daten & Fakten — Innsbruck Hauptbahnhof",
+   "institution": "Österreichische Bundesbahnen (ÖBB)",
+   "url": "https://bahnhofcityinnsbruck.oebb.at/de/center/geschichte-daten-fakten",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rail"
+   ],
+   "cibles": [
+    "ville-at-innsbruck"
+   ],
+   "locator": "Entrées 1858, 1867 et 1884",
+   "resume_passage": "Eröffnung der Arlbergbahn, die Innsbruck weiter als zentralen Verkehrsknotenpunkt zwischen Deutschland, Italien, Frankreich, der Schweiz und Wien etabliert.",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "contenu_lu",
+    "lecteur": "Ether",
+    "perimetre": "Passages indiqués au locator ; aucune affirmation de lecture intégrale du document."
+   },
+   "notes": "Proposée par Ether (audit villes 1.2, 01/10/2026). Note d'Ether : Gare, Brenner et Arlberg établissent le nœud international avant 1945. Ne prouve pas l'absence de perturbations en janvier 1945. Relecture Claude 01/10/2026 : Entrées 1858 (gare, liaison avec Munich), 1867 (Brenner) et 1884 (Arlberg) confirmées."
+  },
+  {
+   "source_id": "src-12a-wels-rail",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Stadtgeschichte — Wels et le chemin de fer",
+   "institution": "Stadtarchiv Wels",
+   "url": "https://www.wels.gv.at/lebensbereiche/bildung-und-kultur/stadtarchiv-und-geschichte/stadtgeschichte/",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rail"
+   ],
+   "cibles": [
+    "ville-at-wels"
+   ],
+   "locator": "Entrée XIXe siècle / 1800 : Pferdeeisenbahn, vapeur en 1855",
+   "resume_passage": "",
+   "archive_locale": null,
+   "verification_claude": "non_verifiee",
+   "verification_ether": {
+    "statut": "contenu_lu",
+    "lecteur": "Ether",
+    "perimetre": "Passages indiqués au locator ; aucune affirmation de lecture intégrale du document."
+   },
+   "notes": "Proposée par Ether (audit villes 1.2, 01/10/2026). Note d'Ether : Prouve la fonction ferroviaire avant 1945. Le rôle de bifurcation vers Passau demande un complément distinct ; pas de promotion B fondée sur cette seule notice. Relecture Claude 01/10/2026 : Page accessible mais WebFetch n'a renvoyé que la structure de navigation, pas l'entrée sur la Pferdeeisenbahn ni le vapeur en 1855 ; non confirmé."
+  },
+  {
+   "source_id": "src-12a-bregenz-rail",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Stadtgeschichte — Bregenz, rail et lac",
+   "institution": "Stadtarchiv Bregenz",
+   "url": "https://www.bregenz.gv.at/rathaus/stadtarchiv/stadtgeschichte",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rail",
+    "navigation_lacustre_historique",
+    "port_fluvial",
+    "frontiere"
+   ],
+   "cibles": [
+    "ville-at-bregenz"
+   ],
+   "locator": "Entrées 1870–1872, 1883 et 1884",
+   "resume_passage": "Bau der Trajektanlage für die Verladung von Güterwaggons auf Trajektkähne, die von Dampfschleppschiffen über den Bodensee gezogen wurden",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "contenu_lu",
+    "lecteur": "Ether",
+    "perimetre": "Passages indiqués au locator ; aucune affirmation de lecture intégrale du document."
+   },
+   "notes": "Proposée par Ether (audit villes 1.2, 01/10/2026). Note d'Ether : Connexions aux réseaux allemand et suisse ; installation de transbordement des wagons et navigation à vapeur avant 1945. Fonctionnement pendant la guerre non documenté ; pas de port fluvial rhénan déduit. port_fluvial est ici le nom canonique déjà retenu par Claude pour un port lacustre, pas un port sur le Rhin. Relecture Claude 01/10/2026 : Connexions aux réseaux allemand/suisse (1870-72), transbordement 1883 et navigation à vapeur 1884 confirmés ; rien sur la période de guerre."
+  },
+  {
+   "source_id": "src-12a-salzgitter-siderurgie",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Im Dienst des NS-Staates — histoire du site de Salzgitter",
+   "institution": "Salzgitter AG",
+   "url": "https://geschichte.salzgitter-ag.com/de/einzelne-geschaeftsbereiche-und-standorte/geschaeftsbereich-stahlerzeugung/salzgitter/im-dienst-des-ns-staates.html",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "industrie",
+    "siderurgie",
+    "approvisionnement_armement"
+   ],
+   "cibles": [
+    "ville-de-salzgitter"
+   ],
+   "locator": "§ fondation du 15/07/1937 et première fonte du 22/10/1939",
+   "resume_passage": "Am 22. Oktober 1939 ... wurde in Salzgitter erstmals Roheisen ausschließlich aus Salzgitter-Erzen erzeugt.",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "contenu_lu",
+    "lecteur": "Ether",
+    "perimetre": "Passages indiqués au locator ; aucune affirmation de lecture intégrale du document."
+   },
+   "notes": "Proposée par Ether (audit villes 1.2, 01/10/2026). Note d'Ether : Atteste une production métallurgique dès 1939 et une implantation destinée à la politique d'armement. Les données actuelles et le fonctionnement précis au Snapshot 0 ne sont pas transposés. Relecture Claude 01/10/2026 : Fondation du 15/07/1937, première fonte 22/10/1939 et lien avec la politique d'armement confirmés."
+  },
+  {
+   "source_id": "src-12a-bremen-histoire",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Stadtgeschichte: Bremens Geschichte im Überblick",
+   "institution": "Portail officiel Bremen.de / Staatsarchiv Bremen",
+   "url": "https://www.bremen.de/tourismus/stadt-leute/geschichte",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rail",
+    "port_maritime",
+    "degats_avant_snapshot0"
+   ],
+   "cibles": [
+    "ville-de-bremen"
+   ],
+   "locator": "Chronologie : 1580, 1827, 1847 et 1939–1945",
+   "resume_passage": "Große Teile der Stadt Bremen, die Häfen nahezu vollständig, werden im Zweiten Weltkrieg durch insgesamt 173 Luftangriffe zerstört. Beim schwersten Angriff am 18./19. August 1944 sterben über 1000 Menschen",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "contenu_lu",
+    "lecteur": "Ether",
+    "perimetre": "Passages indiqués au locator ; aucune affirmation de lecture intégrale du document."
+   },
+   "notes": "Proposée par Ether (audit villes 1.2, 01/10/2026). Note d'Ether : Raccordement ferroviaire en 1847 et histoire portuaire. Le bombardement du 18–19/08/1944 est antérieur au Snapshot 0 ; la destruction presque totale des ports est un bilan de toute la guerre, non un état chiffré au 01/01/1945. Industrie locale encore à documenter. Relecture Claude 01/10/2026 : Raccordement ferroviaire 1847, ports 1580/1827 et bilan 1939–1945 confirmés, bilan global de guerre non daté finement comme indiqué."
+  },
+  {
+   "source_id": "src-12a-duisburg-rail-port",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "25 Jahre duisport rail — Schiene mit Tradition: Von 1848 bis heute",
+   "institution": "Duisburger Hafen AG / duisport",
+   "url": "https://duisport.de/25-jahre-duisport-rail-rueckgrat-der-schienenlogistik-im-duisburger-hafen/",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rail",
+    "port_fluvial"
+   ],
+   "cibles": [
+    "ville-de-duisburg"
+   ],
+   "locator": "Sous-titre « Schiene mit Tradition: Von 1848 bis heute », paragraphe du 14/10/1848",
+   "resume_passage": "Die Köln‑Mindener Eisenbahn‑Gesellschaft (CME) baute eine Stichbahn vom Oberhausener Bahnhof nach Ruhrort, um gezielt die Hafenanlagen zu erschließen. Diese Strecke wurde am 14. Oktober 1848 in Betrieb genommen",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "contenu_lu",
+    "lecteur": "Ether",
+    "perimetre": "Passages indiqués au locator ; aucune affirmation de lecture intégrale du document."
+   },
+   "notes": "Proposée par Ether (audit villes 1.2, 01/10/2026). Note d'Ether : Notice contemporaine contenant un fait historique explicite : embranchement Oberhausen–Ruhrort ouvert en 1848 pour desservir les installations portuaires. Ne pas reprendre les moyens, volumes, trafics ou opérateurs actuels pour 1945. Relecture Claude 01/10/2026 : Embranchement Oberhausen–Ruhrort ouvert le 14/10/1848 pour desservir les installations portuaires confirmé."
+  },
+  {
+   "source_id": "src-12a-duesseldorf-port",
+   "niveau": "C",
+   "type_source": "etude_patrimoniale_locale",
+   "titre": "Der Düsseldorfer Handelshafen — Ralf Herkrath",
+   "institution": "Rheinische Industriekultur",
+   "url": "https://www.rheinische-industriekultur.de/objekte/duesseldorf/Handelshafen/Hafen.html",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "port_fluvial",
+    "rail",
+    "commerce"
+   ],
+   "cibles": [
+    "ville-de-duesseldorf"
+   ],
+   "locator": "Paragraphes du lancement de 1890 à l'ouverture de 1896, liaison ferroviaire et entrepôts",
+   "resume_passage": "Der neue Handelshafen wurde 1896 offiziell dem Verkehr übergeben",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "contenu_lu",
+    "lecteur": "Ether",
+    "perimetre": "Passages indiqués au locator ; aucune affirmation de lecture intégrale du document."
+   },
+   "notes": "Proposée par Ether (audit villes 1.2, 01/10/2026). Note d'Ether : Histoire technique locale : port ouvert en 1896, bonnes liaisons ferroviaires et stockage de matériaux, bois et produits alimentaires. Source spécialisée locale, classée C ; ni activité industrielle de 1945 ni exploitation exacte du port attestées. Relecture Claude 01/10/2026 : Travaux 1890, ouverture 1896, bonnes liaisons ferroviaires et entrepôts (matériaux, bois, denrées) confirmés."
+  },
+  {
+   "source_id": "src-12a-muenchen-chronologie",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "München — ein chronologischer Überblick",
+   "institution": "Landeshauptstadt München",
+   "url": "https://stadt.muenchen.de/infos/stadtgeschichte.html",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rail",
+    "industrie"
+   ],
+   "cibles": [
+    "ville-de-muenchen"
+   ],
+   "locator": "Entrées 1839, 1840, 1847 et 1854",
+   "resume_passage": "Die Eröffnung der kompletten Strecke München-Augsburg findet am 4. Oktober 1840 statt. ... 1847: Gründung der Maschinenfabrik Maffei",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "contenu_lu",
+    "lecteur": "Ether",
+    "perimetre": "Passages indiqués au locator ; aucune affirmation de lecture intégrale du document."
+   },
+   "notes": "Proposée par Ether (audit villes 1.2, 01/10/2026). Note d'Ether : Atteste la ligne Munich–Augsbourg, la fondation de Maffei et l'essor industriel du XIXe siècle. Justifie une implantation ferroviaire et industrielle historique, sans quantifier la production locale en janvier 1945. Relecture Claude 01/10/2026 : Entrées 1839, 1840, 1847 (Maffei) et 1854 (exposition industrielle) confirmées."
+  },
+  {
+   "source_id": "src-12a-rostock-heinkel",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Heinkel in Rostock. Innovation und Katastrophe — présentation de l'exposition",
+   "institution": "Kulturhistorisches Museum Rostock / Stadt Rostock",
+   "url": "https://rathaus.rostock.de/de/sonntagsfuehrung_durch_sonderausstellung_heinkel_in_rostock_innovation_und_katastrophe/353245",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "industrie",
+    "construction_aeronautique",
+    "degats_avant_snapshot0"
+   ],
+   "cibles": [
+    "ville-de-rostock"
+   ],
+   "locator": "Présentation de l'exposition, paragraphes sur les années 1920–1930 et avril 1942",
+   "resume_passage": "Both Rostock's rise to a major city and the bomb attacks on the city in April 1942 can hardly be explained without aircraft manufacturing.",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "contenu_lu",
+    "lecteur": "Ether",
+    "perimetre": "Passages indiqués au locator ; aucune affirmation de lecture intégrale du document."
+   },
+   "notes": "Proposée par Ether (audit villes 1.2, 01/10/2026). Note d'Ether : Lien local entre construction aéronautique, croissance urbaine et bombardements d'avril 1942. Prouve l'industrie aéronautique, pas un service de transport aérien ni le port ou les chantiers navals. Relecture Claude 01/10/2026 : Lien entre construction aéronautique Heinkel, croissance urbaine (années 1920–30) et bombardements d'avril 1942 confirmé (citation rendue en anglais par WebFetch, texte original allemand)."
+  },
+  {
+   "source_id": "src-12a-wilhelmshaven-marine",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Stadtgeschichte Wilhelmshaven",
+   "institution": "Stadt Wilhelmshaven",
+   "url": "https://www.wilhelmshaven.de/Tourismus/Stadtportrait/Stadtgeschichte.php",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "port_maritime",
+    "militaire",
+    "nom_historique"
+   ],
+   "cibles": [
+    "ville-de-wilhelmshaven"
+   ],
+   "locator": "Paragraphes « Marine-Etablissement », essor 1933–1939 et réunion de 1937",
+   "resume_passage": "die „Doppelstadt“ an der Jade wurde erst 1937 zu Wilhelmshaven vereinigt",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "contenu_lu",
+    "lecteur": "Ether",
+    "perimetre": "Passages indiqués au locator ; aucune affirmation de lecture intégrale du document."
+   },
+   "notes": "Proposée par Ether (audit villes 1.2, 01/10/2026). Note d'Ether : Établissement naval et port militaire antérieurs à 1945 ; réunion avec Rüstringen en 1937. Le bilan de destruction de 1945 est postérieur au Snapshot 0. Ne démontre pas séparément les capacités de construction navale. Relecture Claude 01/10/2026 : Marine-Etablissement prussien, essor économique 1933-1939 et réunion de 1937 confirmés (extraits fragmentaires) ; pas d'information sur la construction navale ni sur 1945."
+  },
+  {
+   "source_id": "src-12a-chemnitz-industrie",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Chronik — industrialisation et Seconde Guerre mondiale",
+   "institution": "Stadt Chemnitz",
+   "url": "https://www.chemnitz.de/de/unsere-stadt/geschichte/chronik",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "industrie",
+    "approvisionnement_armement"
+   ],
+   "cibles": [
+    "ville-de-chemnitz"
+   ],
+   "locator": "Paragraphes sur 1936 et sur les entreprises pendant la Seconde Guerre mondiale",
+   "resume_passage": "",
+   "archive_locale": null,
+   "verification_claude": "non_verifiee",
+   "verification_ether": {
+    "statut": "contenu_lu",
+    "lecteur": "Ether",
+    "perimetre": "Passages indiqués au locator ; aucune affirmation de lecture intégrale du document."
+   },
+   "notes": "Proposée par Ether (audit villes 1.2, 01/10/2026). Note d'Ether : Auto-Union siège à Chemnitz dès 1936 ; production locale pour l'armement pendant la guerre. Les principaux bombardements cités, février et mars 1945, sont postérieurs au Snapshot 0. Rail local non établi par cette page. Relecture Claude 01/10/2026 : WebFetch ne renvoie que la navigation du site (contenu chronologique non rendu), deux essais ; Auto-Union 1936 et bombardements non vus."
+  },
+  {
+   "source_id": "src-12a-regensburg-port-rail",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Regensburg — Geschichte des Hafens",
+   "institution": "bayernhafen",
+   "url": "https://www.bayernhafen.de/hafen/regensburg/",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "port_fluvial",
+    "rail",
+    "commerce"
+   ],
+   "cibles": [
+    "ville-de-regensburg"
+   ],
+   "locator": "Section histoire : transbordement en 1865 ; ouverture de juin 1910 ; extension 1919–1923",
+   "resume_passage": "In June 1910, the inauguration of the Luitpold Harbor ... took place. ... ship cargo transshipment from 1938 with 1.3 million tonnes",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "contenu_lu",
+    "lecteur": "Ether",
+    "perimetre": "Passages indiqués au locator ; aucune affirmation de lecture intégrale du document."
+   },
+   "notes": "Proposée par Ether (audit villes 1.2, 01/10/2026). Note d'Ether : Atteste le transbordement Danube–rail dès 1865 et le port moderne depuis 1910. 1,3 million de tonnes est une donnée de 1938, pas de janvier 1945. L'opérateur décrit un port de transbordement plutôt qu'une industrie portuaire ; les relations industrielles avec Linz décrites sont postérieures à 1945. Relecture Claude 01/10/2026 : Transbordement 1865, ouverture juin 1910, extension 1919-1923 et 1,3 Mt en 1938 confirmés (page en anglais)."
+  },
+  {
+   "source_id": "src-12a-passau-rail",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Neubürgerbroschüre 2023 — Stadtgeschichte",
+   "institution": "Stadt Passau",
+   "url": "https://www.passau.de/fileadmin/Homepage_Stadt_Passau/2._Rathaus_und_Buergerservice/Buergerservice/Downloadcenter/Broschueren_und_Flyer/22-11-09_Neubuergerbroschuere_2023.pdf",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rail"
+   ],
+   "cibles": [
+    "ville-de-passau"
+   ],
+   "locator": "PDF p. 6 (index 5), chronologie, entrée 1860",
+   "resume_passage": "Eisenbahn Passau – Straubing, Gasbeleuchtung, Freiwillige Feuerwehr",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "contenu_lu",
+    "lecteur": "Ether",
+    "perimetre": "Passages indiqués au locator ; aucune affirmation de lecture intégrale du document."
+   },
+   "notes": "Proposée par Ether (audit villes 1.2, 01/10/2026). Note d'Ether : Rail Passau–Straubing en 1860. Confirme l'infrastructure historique, sans prouver trafic fluvial, transit frontalier ou desserte active au 01/01/1945. Relecture Claude 01/10/2026 : Entrée 1860 de la chronologie du PDF mentionnant bien le rail Passau–Straubing (WebFetch indique « page 5 », numérotation possiblement décalée d'une page)."
+  },
+  {
+   "source_id": "src-12a-flensburg-port-rail",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Stadtgeschichte Flensburg — chronologie",
+   "institution": "Stadt Flensburg",
+   "url": "https://www.flensburg.de/Leben-Soziales/Freizeit-Kultur/Stadtportrait/Stadtgeschichte.php?FID=2306.33092.1&ModID=7&NavID=2306.12&object=tx%7C4204.5.1",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rail",
+    "port_maritime"
+   ],
+   "cibles": [
+    "ville-de-flensburg"
+   ],
+   "locator": "Entrées 1854, 1856 et 1864",
+   "resume_passage": "1856: Erbauung der 'Englischen Brücke' für den Umschlag von der Eisenbahn in Dampfschiffe im Transithandel zwischen Nord- und Ostsee.",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "contenu_lu",
+    "lecteur": "Ether",
+    "perimetre": "Passages indiqués au locator ; aucune affirmation de lecture intégrale du document."
+   },
+   "notes": "Proposée par Ether (audit villes 1.2, 01/10/2026). Note d'Ether : Rail Flensburg–Husum–Tönning en 1854, transbordement rail–vapeur par l'Englische Brücke en 1856, prolongement vers le nord en 1864. Ne permet pas d'affirmer un transit frontalier normal en janvier 1945. Relecture Claude 01/10/2026 : 1854 (Flensburg–Husum–Tönning), 1856 (Englische Brücke) et 1864 (ligne Flensburg-Weiche–Padborg–Tinglev–Rødekro–Vojens, donc vers le nord) confirmés."
+  },
+  {
+   "source_id": "src-12a-emden-port-minerais",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Hafenrundgang Emden — Nord- und Südkai",
+   "institution": "Niedersachsen Ports",
+   "url": "https://www.nports.de/haefen/emden/hafenrundgang/historie/nord-und-suedkai",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "port_maritime",
+    "charbon",
+    "minerai",
+    "commerce"
+   ],
+   "cibles": [
+    "ville-de-emden"
+   ],
+   "locator": "Sections « Standort Nord- und Südkai », « Start des Erz-Umschlags », 1922 et 1926",
+   "resume_passage": "Per Gesellschaftervertrag wurde am 15.11.1922 die staatseigene, preußische Emder Hafen Umschlagsgesellschaft, kurz EHUG gegründet.",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "contenu_lu",
+    "lecteur": "Ether",
+    "perimetre": "Passages indiqués au locator ; aucune affirmation de lecture intégrale du document."
+   },
+   "notes": "Proposée par Ether (audit villes 1.2, 01/10/2026). Note d'Ether : Précise les flux charbon/minerai entre la Ruhr et Emden par le canal, les quais de 1913–1926 et la société de manutention de 1922. Ne prouve ni présence d'une industrie lourde locale, ni rôle militaire, ni volumes du Snapshot 0. Relecture Claude 01/10/2026 : EHUG 1922, transbordement de minerai pour la Ruhr après le canal, quais 1913-1926 et transfert charbon/minerai 1926 confirmés."
+  },
+  {
+   "source_id": "src-12a-aachen-gare",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Aachener Hauptbahnhof — Architektouren",
+   "institution": "RWTH Aachen",
+   "url": "https://www.architektouren.rwth-aachen.de/bauwerke/projekte/aachener-hauptbahnhof/",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rail",
+    "frontiere"
+   ],
+   "cibles": [
+    "ville-de-aachen"
+   ],
+   "locator": "Description historique : première gare de 1841 sur la ligne Cologne–Anvers ; gare de 1905",
+   "resume_passage": "Bereits 1841 entstand der erste Aachener Bahnhof an der Eisenbahnstrecke Köln - Antwerpen ... Der Aachener Hauptbahnhof in seiner heutigen Form wurde 1905 eröffnet.",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "contenu_lu",
+    "lecteur": "Ether",
+    "perimetre": "Passages indiqués au locator ; aucune affirmation de lecture intégrale du document."
+   },
+   "notes": "Proposée par Ether (audit villes 1.2, 01/10/2026). Note d'Ether : Infrastructure ferroviaire internationale antérieure au Snapshot 0. À combiner avec l'audit West Point sur l'occupation et les dégâts de 1944 ; cette page ne prouve pas un service transfrontalier encore ouvert au 01/01/1945. Relecture Claude 01/10/2026 : Gare de 1841 sur Cologne-Anvers et gare de 1905 confirmées ; pas de service de 1945 (comme prévu)."
+  },
+  {
+   "source_id": "src-12a-koeln-gare",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Zeittafel 1859 — Kölner Rheinbrücke et premier Hauptbahnhof",
+   "institution": "Landschaftsverband Rheinland, Portal Rheinische Geschichte",
+   "url": "https://www.rheinische-geschichte.lvr.de/chronicle/1859",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rail"
+   ],
+   "cibles": [
+    "ville-de-koeln"
+   ],
+   "locator": "Entrées 03/10/1859 et 05/12/1859",
+   "resume_passage": "",
+   "archive_locale": null,
+   "verification_claude": "non_verifiee",
+   "verification_ether": {
+    "statut": "contenu_lu",
+    "lecteur": "Ether",
+    "perimetre": "Passages indiqués au locator ; aucune affirmation de lecture intégrale du document."
+   },
+   "notes": "Proposée par Ether (audit villes 1.2, 01/10/2026). Note d'Ether : Établit gare centrale et franchissement ferroviaire du Rhin ; la chronologie indique aussi le remplacement par le pont Hohenzollern en 1909–1911. Les dégâts et l'exploitation de janvier 1945 restent à documenter ; le rôle portuaire n'est pas prouvé ici. Relecture Claude 01/10/2026 : WebFetch refusé (ROBOTS_DISALLOWED, timeout/échec robots.txt), deux essais ; contournement non tenté."
+  },
+  {
+   "source_id": "src-12a-villach-noeud",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Auf dem Weg in die Gegenwart — Villach et l'essor ferroviaire",
+   "institution": "Museum der Stadt Villach, Museumsjahrbuch 2010",
+   "url": "https://villach.at/getmedia/7257a007-84e0-4d20-8b6a-2e57cd6a45a8/29_MJ2010_Auf_dem_Weg.pdf.aspx",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rail",
+    "noeud_interieur"
+   ],
+   "cibles": [
+    "ville-at-villach"
+   ],
+   "locator": "PDF p. 5–7 (index 4–6), rail en 1864, nœud et direction ferroviaire",
+   "resume_passage": "Innerhalb weniger Jahre wurde Villach zu einem Bahnknotenpunkt von überregionaler Bedeutung und als Sitz einer k. k. Staatsbahndirektion auch ein Verwaltungszentrum",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "contenu_lu",
+    "lecteur": "Ether",
+    "perimetre": "Passages indiqués au locator ; aucune affirmation de lecture intégrale du document."
+   },
+   "notes": "Proposée par Ether (audit villes 1.2, 01/10/2026). Note d'Ether : Décrit explicitement un nœud ferroviaire de portée suprarégionale dès le XIXe siècle. Ne prouve pas seul les circulations Tauern, les passages de frontières ou les dégâts précis au Snapshot 0. Relecture Claude 01/10/2026 : Raccordement ferroviaire en 1864, nœud de portée suprarégionale et direction des chemins de fer d'État confirmés ; rien sur le Snapshot 0."
+  },
+  {
+   "source_id": "src-12a-feldkirch-frontiere",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "An Feldkirch ging kein Weg vorbei — Höchste Eisenbahn",
+   "institution": "Stadtarchiv Feldkirch, Feldkirch aktuell 5/1998",
+   "url": "https://www.feldkirch.at/fileadmin/user_upload/document/Stadtarchiv/1998_5-Oktober_An_Feldkirch_ging_kein_Weg_vorbei.pdf",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rail",
+    "frontiere",
+    "corridor_suisse"
+   ],
+   "cibles": [
+    "ville-at-feldkirch"
+   ],
+   "locator": "PDF p. 4 (index 3), rubrique « Höchste Eisenbahn »",
+   "resume_passage": "Mit der Eröffnung der Vorarlberger Eisenbahn am 1. Juli 1872 wurde Feldkirch zu Österreichs Grenzbahnhof im Westen",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "contenu_lu",
+    "lecteur": "Ether",
+    "perimetre": "Passages indiqués au locator ; aucune affirmation de lecture intégrale du document."
+   },
+   "notes": "Proposée par Ether (audit villes 1.2, 01/10/2026). Note d'Ether : Feldkirch est qualifiée de gare frontière occidentale de l'Autriche depuis l'ouverture de 1872, renforcée par l'Arlberg dans les années 1880. Le jour exact indiqué pour l'ouverture est à recouper avant de créer un événement ; ne garantit pas un passage ouvert en janvier 1945. Relecture Claude 01/10/2026 : Gare frontière occidentale dès le 01/07/1872 et importance accrue par l'Arlberg (années 1880) confirmés."
+  },
+  {
+   "source_id": "src-12a-steyr-armement",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Forced Labour in the Arms Industry — Steyr-Münichholz",
+   "institution": "KZ-Gedenkstätte Mauthausen",
+   "url": "https://www.mauthausen-memorial.org/en/History/The-Mauthausen-Concentration-Camp-19381945/Forced-Labour-in-the-Arms-Industry",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "industrie",
+    "militaire",
+    "approvisionnement_armement"
+   ],
+   "cibles": [
+    "ville-at-steyr"
+   ],
+   "locator": "Paragraphe sur Steyr-Daimler-Puch et le sous-camp de mars 1942",
+   "resume_passage": "The first firm in Austria to make use of concentration camp prisoners as forced labourers was Steyr-Daimler-Puch AG ... In March 1942 a subcamp ... was set up in Steyr-Münichholz.",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "contenu_lu",
+    "lecteur": "Ether",
+    "perimetre": "Passages indiqués au locator ; aucune affirmation de lecture intégrale du document."
+   },
+   "notes": "Proposée par Ether (audit villes 1.2, 01/10/2026). Note d'Ether : Établit directement production d'armement et travail forcé à Steyr-Münichholz avant 1945. Militaire désigne ici l'approvisionnement industriel de guerre, sans affirmer l'existence d'une base opérationnelle. Relecture Claude 01/10/2026 : Armement (plus grande firme d'armement d'Autriche), travail forcé et sous-camp de mars 1942 confirmés."
+  },
+  {
+   "source_id": "src-12a-wiener-neustadt-industrie",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Geschichte der Stadt — Flugfeld et industrie de guerre",
+   "institution": "Stadt Wiener Neustadt",
+   "url": "https://www.wiener-neustadt.at/de/stadt/geschichte",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "industrie",
+    "construction_aeronautique",
+    "aviation",
+    "militaire"
+   ],
+   "cibles": [
+    "ville-at-wiener-neustadt"
+   ],
+   "locator": "Sections « Das Wiener Neustädter Flugfeld » et « Zerstörung im Zweiten Weltkrieg und Wiederaufbau »",
+   "resume_passage": "in den Anlagen der ... Lokomotivfabrik „Rax-Werken\" wurden nicht nur Lokomotivtender gebaut, sondern hier ist 1943 auch mit der Montage von A-4- Raketen begonnen worden",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "contenu_lu",
+    "lecteur": "Ether",
+    "perimetre": "Passages indiqués au locator ; aucune affirmation de lecture intégrale du document."
+   },
+   "notes": "Proposée par Ether (audit villes 1.2, 01/10/2026). Note d'Ether : Terrain aérien municipal créé en 1909 ; usine Me 109 attestée en 1940 et locomotives/tenders, montage A4 dans les Rax-Werke en 1943. Les destructions presque totales sont un bilan de guerre non daté au Snapshot 0. Aviation est ici terrain et construction, sans liaison commerciale établie. Relecture Claude 01/10/2026 : Flugfeld de 1909, Me 109 en 1940 (un quart de la production), tenders et A4 aux Rax-Werke en 1943 et destruction quasi totale confirmés."
+  },
+  {
+   "source_id": "src-12a-st-poelten-westbahn",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "150 Jahre Westbahn in St. Pölten — exposition de 2008",
+   "institution": "Stadtmuseum St. Pölten",
+   "url": "https://www.stadtmuseum-stp.at/veranstaltungen/150-jahre-westbahn-in-st-poelten/",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rail",
+    "industrie",
+    "noeud_interieur"
+   ],
+   "cibles": [
+    "ville-at-st-poelten"
+   ],
+   "locator": "Paragraphes construction 1856, achèvement en deux ans, croissance 1870–1912 et guerre 1944–1945",
+   "resume_passage": "In einem Zeitraum von nur 2 Jahren erfolgte die Fertigstellung der Westbahn und der Hauptbahnhof der [...]",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "contenu_lu",
+    "lecteur": "Ether",
+    "perimetre": "Passages indiqués au locator ; aucune affirmation de lecture intégrale du document."
+   },
+   "notes": "Proposée par Ether (audit villes 1.2, 01/10/2026). Note d'Ether : Distingue début des travaux en 1856 et ligne achevée en 1858 ; gare devenue nœud avec ses lignes secondaires, essor industriel local. Les attaques 1944–1945 et le retour des trains en mai 1945 ne donnent pas un état d'exploitation exact le 01/01/1945. Relecture Claude 01/10/2026 : Début en 1856, achèvement en 2 ans, croissance 8000 à 22000 hab. (1870-1912), nœud avec lignes secondaires, raids 1944/45 et premier train ÖBB en mai 1945 confirmés."
+  },
+  {
+   "source_id": "src-12a-luebeck-gare",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Lübecker Bahnhof — Nächster Halt seit 1908",
+   "institution": "Hansestadt Lübeck",
+   "url": "https://www.luebeck.de/de/stadtleben/tourismus/luebeck/sehenswuerdigkeiten/luebecker-bahnhof",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rail"
+   ],
+   "cibles": [
+    "ville-de-luebeck"
+   ],
+   "locator": "Section « Nächster Halt seit 1908 », ouverture du 01/05/1908",
+   "resume_passage": "",
+   "archive_locale": null,
+   "verification_claude": "non_verifiee",
+   "verification_ether": {
+    "statut": "contenu_lu",
+    "lecteur": "Ether",
+    "perimetre": "Passages indiqués au locator ; aucune affirmation de lecture intégrale du document."
+   },
+   "notes": "Proposée par Ether (audit villes 1.2, 01/10/2026). Note d'Ether : Gare ouverte en 1908 par la Lübeck-Büchener Eisenbahn. Fréquentation et rénovation actuelles exclues du Snapshot 0 ; rôle portuaire historique à documenter séparément. Relecture Claude 01/10/2026 : WebFetch ne renvoie que bandeau cookies et navigation (contenu éditorial non rendu), deux essais ; ouverture 1908 non vue."
+  },
+  {
+   "source_id": "src-12a-koblenz-gare",
+   "niveau": "B",
+   "type_source": "etude_historique_regionale",
+   "titre": "Bahnhöfe — Koblenz Hauptbahnhof",
+   "institution": "Institut für Geschichtliche Landeskunde Rheinland-Pfalz, regionalgeschichte.net",
+   "url": "https://www.regionalgeschichte.net/mittelrhein/koblenz/kulturdenkmaeler/hauptbahnhof.html",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rail"
+   ],
+   "cibles": [
+    "ville-de-koblenz"
+   ],
+   "locator": "Sections premier train du 11/11/1858 et gare centrale de 1902 ; références Franke et Dehio",
+   "resume_passage": "Am 11. November 1858 traf der erste Eisenbahnzug in Koblenz ein. ... Nach der Zusammenlegung des vorher getrennten Rhein- und Moselbahnhofs",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "contenu_lu",
+    "lecteur": "Ether",
+    "perimetre": "Passages indiqués au locator ; aucune affirmation de lecture intégrale du document."
+   },
+   "notes": "Proposée par Ether (audit villes 1.2, 01/10/2026). Note d'Ether : Lignes rhénanes et Moselle avant 1900, gare issue de la réunion des gares Rhin/Moselle en 1902. Alternative à la page municipale non lisible ; ne prouve pas un port fluvial actif en janvier 1945. Relecture Claude 01/10/2026 : Premier train 1858, gare de 1902 issue de la fusion Rhein/Mosel et ligne Moselle (1878) vus ; références Franke/Dehio non vérifiées individuellement."
+  },
+  {
+   "source_id": "src-12a-salzburg-westbahn",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Namen der Salzburger Stadtteile — extension urbaine et Westbahn",
+   "institution": "Stadtarchiv Salzburg",
+   "url": "https://facelift.stadt-salzburg.at/archiv/namen-der-salzburger-stadtteile",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rail"
+   ],
+   "cibles": [
+    "ville-at-salzburg"
+   ],
+   "locator": "Paragraphe sur le raccordement de 1860 à la Kaiserin-Elisabeth-Westbahn",
+   "resume_passage": "Die wesentlichen Impulse erfolgten hier 1860 durch den Anschluss Salzburgs an die Kaiserin-Elisabeth-Westbahn",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "contenu_lu",
+    "lecteur": "Ether",
+    "perimetre": "Passages indiqués au locator ; aucune affirmation de lecture intégrale du document."
+   },
+   "notes": "Proposée par Ether (audit villes 1.2, 01/10/2026). Note d'Ether : Source d'archives municipale attestant le raccordement de 1860. Corridor alpin et fonctionnement exact au Snapshot 0 ne sont pas établis par cette notice. Relecture Claude 01/10/2026 : Le raccordement de 1860 à la Westbahn est affirmé dans la notice ; il n'apporte aucun détail sur le corridor ni le fonctionnement en 1945, comme l'affirmation le précise."
+  },
+  {
+   "source_id": "src-12a-klagenfurt-guide",
+   "niveau": "B",
+   "type_source": "ouvrage_historique_numerise",
+   "titre": "Markus Frhr. v. Jabornegg von und zu Gamsenegg, Klagenfurt und der Wörther-See — no 52",
+   "institution": "Universitätsbibliothek Klagenfurt / édition Caesar Schmidt, Zurich",
+   "url": "https://ubdocs.aau.at/open/voll/altbestand/AC11123827.pdf",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rail"
+   ],
+   "cibles": [
+    "ville-at-klagenfurt"
+   ],
+   "locator": "Titre et auteur : scan p. 9 (index 8) ; gare et ligne de 1863 : p. 17 (index 16), p. imprimée 9",
+   "resume_passage": "erst seit der im Jahre 1863 erfolgten Eröffnung der ursprünglich nur von Marburg nach Klagenfurt geführten Bahn erstandenen Stadttheil",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "contenu_lu",
+    "lecteur": "Ether",
+    "perimetre": "Passages indiqués au locator ; aucune affirmation de lecture intégrale du document."
+   },
+   "notes": "Proposée par Ether (audit villes 1.2, 01/10/2026). Note d'Ether : Ouvrage numérisé dans les fonds anciens : atteste la gare et la ligne de 1863. Date d'édition non établie par les pages consultées ; ne vaut pas état du trafic ou preuve d'industrie en janvier 1945. Métadonnées bibliographiques à compléter. Relecture Claude 01/10/2026 : Ouvrage « Klagenfurt und der Wörther-See » de M. v. Jabornegg, éd. Caesar Schmidt, attestant la ligne de 1863 ; aucune date d'édition visible, comme noté."
+  },
+  {
+   "source_id": "src-12a-osnabrueck-croisement",
+   "niveau": "C",
+   "type_source": "etude_ferroviaire_locale",
+   "titre": "Der Hauptbahnhof Osnabrück — Eisenbahnkreuz Osnabrück",
+   "institution": "Matthias Beermann, Osnabahn",
+   "url": "https://www.osnabahn.de/bahnhoefe/osnabrueck-hbf/",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rail",
+    "fret"
+   ],
+   "cibles": [
+    "ville-de-osnabrueck"
+   ],
+   "locator": "Historique : gare du 24/04/1895 au croisement des deux lignes ; courbes du triage de 1911–1914",
+   "resume_passage": "Am 24. April 1895 nahm dieser Zentralbahnhof zu Osnabrück seinen Betrieb auf",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "contenu_lu",
+    "lecteur": "Ether",
+    "perimetre": "Passages indiqués au locator ; aucune affirmation de lecture intégrale du document."
+   },
+   "notes": "Proposée par Ether (audit villes 1.2, 01/10/2026). Note d'Ether : Source spécialisée locale C : gare à deux niveaux au croisement Hannoversche Westbahn / Hamburg–Venlo, accès au triage construits avant 1914. Informations contemporaines sur fréquentation et courbes en service exclues. À consolider par archives ferroviaires. Relecture Claude 01/10/2026 : Ouverture 24/04/1895, croisement Hannoversche Westbahn / Hamburg–Venlo, quais sur deux niveaux et courbes 1911-1914 confirmés."
+  },
+  {
+   "source_id": "src-12a-augsburg-man",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Tag des offenen Denkmals 2015 — MAN-Museum",
+   "institution": "Stadt Augsburg",
+   "url": "https://www.augsburg.de/fileadmin/portale/stadtplanung/Publikationen/Tag_des_offenen_Denkmals/pdf/Tag_des_offenen_Denkmals_2015.pdf",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "industrie"
+   ],
+   "cibles": [
+    "ville-de-augsburg"
+   ],
+   "locator": "PDF p. 11 (index 10), chronologie et Forschungsanstalt de 1938",
+   "resume_passage": "Das kubische Bauwerk ... wurde 1938 als Forschungsanstalt für Mechanik und Gestaltung errichtet.",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "contenu_lu",
+    "lecteur": "Ether",
+    "perimetre": "Passages indiqués au locator ; aucune affirmation de lecture intégrale du document."
+   },
+   "notes": "Proposée par Ether (audit villes 1.2, 01/10/2026). Note d'Ether : Atteste la présence de MAN dans Augsburg et un bâtiment de recherche industrielle de 1938. Le bilan de dommages 1944/45 n'est pas daté au Snapshot 0. Distinguer Augsburg et Haunstetten, alors commune autonome. Relecture Claude 01/10/2026 : PDF p. 11 : chronologie MAN (1840, 1844, 1908 MAN) et Forschungsanstalt 1938 confirmées."
+  },
+  {
+   "source_id": "src-12a-augsburg-armement",
+   "niveau": "B",
+   "type_source": "article_historique_universitaire",
+   "titre": "Tobias Brenner, Ein unbequemes Denkmal als Symbol der Befreiung — Halle 116",
+   "institution": "Augsburger Volkskundliche Nachrichten, Universitätsbibliothek Augsburg",
+   "url": "https://opus.bibliothek.uni-augsburg.de/opus4/files/2731/AVN_2014_H1_NR38.pdf",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "industrie",
+    "approvisionnement_armement",
+    "degats_avant_snapshot0"
+   ],
+   "cibles": [
+    "ville-de-augsburg"
+   ],
+   "locator": "PDF p. 45 (index 44), texte sur MAN, moteurs de sous-marins et Messerschmitt ; article à partir de p. 37",
+   "resume_passage": "",
+   "archive_locale": null,
+   "verification_claude": "non_verifiee",
+   "verification_ether": {
+    "statut": "contenu_lu",
+    "lecteur": "Ether",
+    "perimetre": "Passages indiqués au locator ; aucune affirmation de lecture intégrale du document."
+   },
+   "notes": "Proposée par Ether (audit villes 1.2, 01/10/2026). Note d'Ether : Étude signée et référencée : moteurs de sous-marins MAN et industrie aéronautique, attaques d'avril 1942 et février 1944. Prouve la fonction d'approvisionnement industriel de guerre ; ne suffit pas à créer un aéroport ni à absorber Haunstetten dans la commune d'Augsburg. Relecture Claude 01/10/2026 : WebFetch refusé (ROBOTS_DISALLOWED, échec robots.txt) pour le PDF, deux essais ; contournement non tenté."
+  },
+  {
+   "source_id": "src-12a-schweinfurt-musee",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Oma, bist Du … — Industriearbeit, Schweinfurter Museumsschriften 1 (2013)",
+   "institution": "Museen und Galerien der Stadt Schweinfurt",
+   "url": "https://www.schweinfurt.de/media/www.schweinfurt.de/org/med_1935/13142_museen-sw_low.pdf",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "industrie"
+   ],
+   "cibles": [
+    "ville-de-schweinfurt"
+   ],
+   "locator": "PDF p. 9–10 (index 8–9), légendes d'archives VKF des années 1930 et assemblage des années 1940",
+   "resume_passage": "Die Aufnahme zeigt, wie in den 1930er Jahren bei der VKF in Schweinfurt Käfige für Kugellager gepresst wurden.",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "contenu_lu",
+    "lecteur": "Ether",
+    "perimetre": "Passages indiqués au locator ; aucune affirmation de lecture intégrale du document."
+   },
+   "notes": "Proposée par Ether (audit villes 1.2, 01/10/2026). Note d'Ether : Photos d'archives légendées attestant la fabrication locale de cages et roulements avant 1945 ; les images et visites contemporaines ne sont pas transposées au Snapshot 0. Lien avec armement traité par la source municipale de visite historique. Relecture Claude 01/10/2026 : Légende VKF sur les cages de roulements (années 1930) et légende FAG sur l'assemblage de roulements (années 1940) confirmées ; le lien avec l'armement n'est pas vu sur ces pages."
+  },
+  {
+   "source_id": "src-12a-dortmund-industrie",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Geschichte der Innenstadt-Nord — Hoesch, Union et mines",
+   "institution": "Stadt Dortmund",
+   "url": "https://www.dortmund.de/themen/stadtbezirke/innenstadt-nord/geschichte/",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "industrie",
+    "charbon",
+    "rail",
+    "port_fluvial"
+   ],
+   "cibles": [
+    "ville-de-dortmund"
+   ],
+   "locator": "Sections 1850–1870 et 1871–1914 : sidérurgie, mines et arrivées de minerai ; section guerre pour limites",
+   "resume_passage": "",
+   "archive_locale": null,
+   "verification_claude": "non_verifiee",
+   "verification_ether": {
+    "statut": "contenu_lu",
+    "lecteur": "Ether",
+    "perimetre": "Passages indiqués au locator ; aucune affirmation de lecture intégrale du document."
+   },
+   "notes": "Proposée par Ether (audit villes 1.2, 01/10/2026). Note d'Ether : Source de remplacement pour l'ancienne page industrielle non lisible. Atteste mines, acier et échanges avec le port. Elle donne le 21/08/1899 pour l'ouverture du port, différent du 11/08 rapporté dans l'audit Claude : ne créer aucun événement journalier sans recoupement. Relecture Claude 01/10/2026 : WebFetch refuse la page (ROBOTS_DISALLOWED, robots.txt injoignable), deux essais ; aucun contournement tenté."
+  },
+  {
+   "source_id": "src-12a-vaduz-gouvernement",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Regierung — Paul Vogt",
+   "institution": "Historisches Lexikon des Fürstentums Liechtenstein / Liechtenstein-Institut",
+   "url": "https://historisches-lexikon.li/Regierung",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "capitale",
+    "administration"
+   ],
+   "cibles": [
+    "ville-li-vaduz"
+   ],
+   "locator": "Introduction : siège à Vaduz depuis 1862 ; bâtiment de gouvernement de 1903–1905",
+   "resume_passage": "",
+   "archive_locale": null,
+   "verification_claude": "non_verifiee",
+   "verification_ether": {
+    "statut": "contenu_lu",
+    "lecteur": "Ether",
+    "perimetre": "Passages indiqués au locator ; aucune affirmation de lecture intégrale du document."
+   },
+   "notes": "Proposée par Ether (audit villes 1.2, 01/10/2026). Note d'Ether : Atteste le siège du gouvernement à Vaduz dans la durée, antérieurement au Snapshot 0. Soutient capitale nationale et administration, sans attribuer de rôle de transport ni priorité A. Relecture Claude 01/10/2026 : WebFetch bloqué par robots.txt (ROBOTS_DISALLOWED) ; contenu non vu."
+  },
+  {
+   "source_id": "src-12a-vaduz-portrait-historique",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Vaduz — Hauptort et résidence princière",
+   "institution": "Gemeinde Vaduz",
+   "url": "https://www.vaduz.li/vaduz/portrait/vaduz",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "capitale",
+    "administration"
+   ],
+   "cibles": [
+    "ville-li-vaduz"
+   ],
+   "locator": "Paragraphes Hauptort, rattachement de 1719, résidence depuis 1939",
+   "resume_passage": "Vaduz ist Hauptort des Fürstentums Liechtenstein, Sitz der Behörden und des Landtags sowie seit 1939 fürstliche Residenz.",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "contenu_lu",
+    "lecteur": "Ether",
+    "perimetre": "Passages indiqués au locator ; aucune affirmation de lecture intégrale du document."
+   },
+   "notes": "Proposée par Ether (audit villes 1.2, 01/10/2026). Note d'Ether : Relie explicitement le chef-lieu à la création de la principauté et situe la résidence princière en 1939. Conserver la source déjà introduite par Claude ; nouvelle notice allemande consultée ici pour renforcer la profondeur historique. Relecture Claude 01/10/2026 : Hauptort, résidence princière depuis 1939 et création de la principauté (1712 acquisition + sept ans = 1719, Karl VI.) confirmés."
+  },
+  {
+   "source_id": "src-12a-graz-rail",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Graz historisch — Eisenbahngeschichte, BIG janvier 2010",
+   "institution": "Stadt Graz, bulletin municipal BIG",
+   "url": "https://www.graz.at/cms/dokumente/10135466_7747759/dabdc6cb/BIG_01_2010.pdf",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rail"
+   ],
+   "cibles": [
+    "ville-at-graz"
+   ],
+   "locator": "PDF p. 5 (index 4), chronique ferroviaire : trajet Vienne–Graz–Trieste de 1857, gares",
+   "resume_passage": "Am 27. Juli 1857 verkehrte der erste Personenzug von Wien über den Semmering und Graz nach Triest.",
+   "archive_locale": null,
+   "verification_claude": "limite",
+   "verification_ether": {
+    "statut": "contenu_lu",
+    "lecteur": "Ether",
+    "perimetre": "Passages indiqués au locator ; aucune affirmation de lecture intégrale du document."
+   },
+   "notes": "Proposée par Ether (audit villes 1.2, 01/10/2026). Note d'Ether : Établit l'histoire des gares locales et les liaisons du XIXe siècle. Le bilan de ruines 1944–1945 n'est pas un état daté au Snapshot 0. La ligne du tableau indiquant Klagenfurt en 1861 n'est pas reprise : elle demande un recoupement. Relecture Claude 01/10/2026 : Trajet Vienne–Graz–Trieste (1857) et ligne du tableau « 1861 Klagenfurt » vus ; l'histoire des gares locales n'a pas été confirmée par un passage cité."
+  },
+  {
+   "source_id": "src-12a-linz-port",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Geschichte des Linzer Hafens",
+   "institution": "LINZ AG",
+   "url": "https://www.linzag.at/portal/de/businesskunden/logistik/hafen_1/geschichte_1",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "port_fluvial",
+    "industrie"
+   ],
+   "cibles": [
+    "ville-at-linz"
+   ],
+   "locator": "Section historique : transbordement de 1894, aménagements réalisés jusqu'en 1942, raccordement ferroviaire de 1948",
+   "resume_passage": "Bereits 1948 erfolgte der Anschluss des Hafens an die Eisenbahn",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "contenu_lu",
+    "lecteur": "Ether",
+    "perimetre": "Passages indiqués au locator ; aucune affirmation de lecture intégrale du document."
+   },
+   "notes": "Proposée par Ether (audit villes 1.2, 01/10/2026). Note d'Ether : Bassins commerciaux, industriel et pétrolier réalisés jusqu'en 1942. Le port de 1945 ne doit pas recevoir son raccordement ferroviaire de 1948, ni le port privé VÖEST de 1966. La présence du rail dans la ville doit être prouvée indépendamment du port. Relecture Claude 01/10/2026 : Transbordement 1894, bassins jusqu'en 1942, raccordement ferroviaire 1948 et port VÖEST 1966 confirmés."
   }
  ]
 }
