@@ -22,8 +22,10 @@ button { font: inherit; cursor: pointer; }
 
 /* Étiquettes des territoires */
 .etiquette { pointer-events: none; text-align: center; font-family: Georgia, serif; color: var(--encre); text-shadow: 0 0 3px #fff, 0 0 6px #fff; line-height: 1.15; }
-.etiquette strong { display: block; font-size: 16px; letter-spacing: .12em; text-transform: uppercase; }
-.etiquette span { font-family: system-ui, sans-serif; font-size: 11px; color: var(--encre-2); }
+.etiquette strong { display: block; font-size: var(--taille-nom, 16px); letter-spacing: .12em; text-transform: uppercase; }
+.etiquette span { font-family: system-ui, sans-serif; font-size: var(--taille-sous, 11px); color: var(--encre-2); }
+/* Noms des territoires : taille et visibilité calculées selon le zoom (map/etiquettes.ts) */
+.etiquette[data-tient="0"], .etiquette[data-sous="0"] span { display: none; }
 .maplibregl-popup.survol .maplibregl-popup-content { padding: 5px 9px; font-size: 13px; border-radius: 6px; }
 
 /* Règle du temps (en haut de la carte, verre fumé transparent) */
@@ -131,11 +133,6 @@ dd { margin: 0; overflow-wrap: anywhere; }
 .a-verifier { padding-left: 16px; margin: 0; font-size: 13px; }
 .a-verifier li { margin-bottom: 6px; }
 
-.zoom-faible .etiquette:not([data-profondeur="0"]) { display: none; }
-.zoom-moyen .etiquette[data-petit="1"] { display: none; }
-.zoom-regional .etiquette[data-minuscule="1"]:not([data-profondeur="0"]) { display: none; }
-.zoom-local .etiquette[data-micro="1"] { display: none; }
-.maplibregl-map:not(.zoom-moyen) .etiquette[data-parent="1"] { display: none; }
 
 .trace .temps { font-size: 12px; background: #fff6d8; border-left: 3px solid #d9a400; padding: 4px 6px; margin: 6px 0; }
 

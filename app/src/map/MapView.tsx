@@ -6,6 +6,7 @@ import type { CouchesDuJour } from '../engine/features'
 import { pointRepresentatif } from '../engine/features'
 import type { Selection } from '../types'
 import { LIBELLES } from '../theme/palettes'
+import { espaceLibre, largeurNom, largeurSousTitre, largeurVille, placerEtiquettes, type Obstacle, type Place } from './etiquettes'
 
 export interface Calques {
   territoires: boolean
@@ -55,6 +56,8 @@ export default function MapView({ emprise, couches, calques, selection, onSelect
   const carte = useRef<maplibregl.Map | null>(null)
   const prete = useRef(false)
   const etiquettes = useRef<maplibregl.Marker[]>([])
+  const places = useRef<Place[]>([])
+  const obstacles = useRef<Obstacle[]>([])
   const derniers = useRef({ couches, calques, selection, onSelect, onZoom })
   derniers.current = { couches, calques, selection, onSelect, onZoom }
 
@@ -194,10 +197,13 @@ export default function MapView({ emprise, couches, calques, selection, onSelect
       map.getContainer().classList.toggle('zoom-local', map.getZoom() < 7.5)
     }
     map.on('zoom', majZoom)
+    // noms des territoires : taille et visibilité recalculées au zoom (une fois par image au plus)
+    let attente = 0
+    map.on('zoom', () => { if (!attente) attente = requestAnimationFrame(() => { attente = 0; placerEtiquettes(map, places.current, derniers.current.calques.villes ? obstacles.current : []) }) })
     map.on('load', majZoom)
     map.on('load', () => {
       prete.current = true
-      appliquer(map, derniers.current.couches, etiquettes)
+      appliquer(map, derniers.current.couches, etiquettes, places, obstacles, derniers.current.calques.villes)
       visibilite(map, derniers.current.calques)
       surligner(map, derniers.current.selection)
       derniers.current.onZoom(map.getZoom())
@@ -208,9 +214,11 @@ export default function MapView({ emprise, couches, calques, selection, onSelect
   }, [])
 
   useEffect(() => {
-    if (carte.current && prete.current) { appliquer(carte.current, couches, etiquettes); visibilite(carte.current, derniers.current.calques) }
+    if (carte.current && prete.current) { appliquer(carte.current, couches, etiquettes, places, obstacles, derniers.current.calques.villes); visibilite(carte.current, derniers.current.calques) }
   }, [couches])
-  useEffect(() => { if (carte.current && prete.current) visibilite(carte.current, calques) }, [calques])
+  useEffect(() => {
+    if (carte.current && prete.current) { visibilite(carte.current, calques); placerEtiquettes(carte.current, places.current, calques.villes ? obstacles.current : []) }
+  }, [calques])
   // Changement de corpus : on recadre la carte
   useEffect(() => {
     carte.current?.fitBounds(emprise, { padding: { top: 30, bottom: 140, left: 30, right: 30 }, duration: 800 })
@@ -220,7 +228,8 @@ export default function MapView({ emprise, couches, calques, selection, onSelect
   return <div ref={conteneur} className="carte" />
 }
 
-function appliquer(map: maplibregl.Map, c: CouchesDuJour, etiquettes: React.MutableRefObject<maplibregl.Marker[]>) {
+function appliquer(map: maplibregl.Map, c: CouchesDuJour, etiquettes: React.MutableRefObject<maplibregl.Marker[]>, places: React.MutableRefObject<Place[]>,
+  obstacles: React.MutableRefObject<Obstacle[]>, villesVisibles: boolean) {
   const src = (id: string) => map.getSource(id) as maplibregl.GeoJSONSource
   src('territoires').setData(c.territoires)
   src('frontieres').setData(c.frontieres)
@@ -230,21 +239,28 @@ function appliquer(map: maplibregl.Map, c: CouchesDuJour, etiquettes: React.Muta
   src('villes').setData(c.villes)
   // Étiquettes des territoires (éléments HTML : pas besoin de serveur de polices)
   etiquettes.current.forEach((m) => m.remove())
+  places.current = []
   etiquettes.current = c.territoires.features.map((f) => {
     const el = document.createElement('div')
     el.className = 'etiquette'
+    el.dataset.tient = '0' // visible seulement une fois placée (voir etiquettes.ts)
     const nom = String(f.properties?.nom_court ?? f.properties?.nom ?? '')
-    el.dataset.profondeur = String(f.properties?.profondeur ?? 0)
-    el.dataset.parent = f.properties?.a_enfants ? '1' : '0' // de près, on lit les zones plutôt que l'enveloppe
-    el.dataset.petit = etendue(f.geometry) < 25 ? '1' : '0' // < ~25 degrés² : petit territoire
-    el.dataset.micro = etendue(f.geometry) < 0.2 ? '1' : '0' // micro-États, îles : étiquette seulement de très près
-    el.dataset.minuscule = etendue(f.geometry) < 2 ? '1' : '0' // zones locales (poches, zones de front) : étiquette seulement de près
     const v = String(f.properties?.valeur_mode ?? '')
     const libelle = LIBELLES[v] ?? v
     // Sous-titre seulement s'il apporte une info (ex. « Cordanie (occupant) » en mode contrôle)
-    el.innerHTML = `<strong>${nom}</strong>${v && libelle !== nom ? `<span>${libelle}</span>` : ''}`
-    return new maplibregl.Marker({ element: el }).setLngLat(pointRepresentatif(f.geometry as Polygon) as [number, number]).addTo(map)
+    const sousTitre = v && libelle !== nom ? libelle : ''
+    el.innerHTML = `<strong>${nom}</strong>${sousTitre ? `<span>${sousTitre}</span>` : ''}`
+    const place = espaceLibre(f.geometry, pointRepresentatif(f.geometry as Polygon))
+    const point = place.point
+    places.current.push({
+      el, ...place,
+      largeur16: largeurNom(nom), largeurSous11: largeurSousTitre(sousTitre),
+      profondeur: Number(f.properties?.profondeur ?? 0),
+      parent: Boolean(f.properties?.a_enfants), // de près, on lit les zones plutôt que l'enveloppe
+    })
+    return new maplibregl.Marker({ element: el }).setLngLat(point as [number, number]).addTo(map)
   })
+  ;(window as unknown as { __atlasPlaces?: Place[] }).__atlasPlaces = places.current // pour les tests automatiques
   // Noms des villes : à droite du point, montrés selon le zoom par les classes zoom-* (voir styles.css)
   etiquettes.current.push(...c.villes.features.map((f) => {
     const el = document.createElement('div')
@@ -254,6 +270,11 @@ function appliquer(map: maplibregl.Map, c: CouchesDuJour, etiquettes: React.Muta
     el.textContent = String(f.properties?.nom ?? '')
     return new maplibregl.Marker({ element: el, anchor: 'left', offset: [7, 0] }).setLngLat((f.geometry as GeoJSON.Point).coordinates as [number, number]).addTo(map)
   }))
+  obstacles.current = c.villes.features.map((f) => {
+    const imp = String(f.properties?.importance ?? 'C') as keyof typeof ZOOM_VILLES
+    return { point: (f.geometry as GeoJSON.Point).coordinates, largeur: largeurVille(String(f.properties?.nom ?? ''), imp), seuil: ZOOM_VILLES[imp] ?? 6.5 }
+  })
+  placerEtiquettes(map, places.current, villesVisibles ? obstacles.current : [])
 }
 
 function visibilite(map: maplibregl.Map, calques: Calques) {
@@ -283,15 +304,3 @@ function dessinerHachure(couleur: string, croise = false): ImageData {
   return ctx.getImageData(0, 0, t, t)
 }
 
-/** Surface approximative du rectangle englobant du PLUS GRAND morceau, en degrés² (pour masquer les petites étiquettes
- *  à petite échelle). Par morceau : des poches éparpillées (Dunkerque… Royan) restent « minuscules ». */
-function etendue(g: GeoJSON.Geometry): number {
-  const anneaux = g.type === 'Polygon' ? [g.coordinates[0]] : g.type === 'MultiPolygon' ? g.coordinates.map((p) => p[0]) : []
-  let max = 0
-  for (const a of anneaux) {
-    let [x0, y0, x1, y1] = [Infinity, Infinity, -Infinity, -Infinity]
-    for (const [x, y] of a) { if (x < x0) x0 = x; if (x > x1) x1 = x; if (y < y0) y0 = y; if (y > y1) y1 = y }
-    max = Math.max(max, (x1 - x0) * (y1 - y0))
-  }
-  return max
-}
