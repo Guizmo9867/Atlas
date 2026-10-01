@@ -1,0 +1,152 @@
+{
+  "lot": "villes_1.4",
+  "date_controle": "2026-10-01",
+  "resultat": "coherence_interne_validee_proposition_historique_avec_reserves",
+  "nombre_familles_controlees": 22,
+  "controles": [
+    {
+      "controle": "ids_uniques",
+      "resultat": "ok",
+      "detail": "Villes et candidats identifiés sans collision."
+    },
+    {
+      "controle": "sources_uniques",
+      "resultat": "ok",
+      "detail": "Un ID par fiche source."
+    },
+    {
+      "controle": "references_sources",
+      "resultat": "ok",
+      "detail": "Sources de chaque ville présentes dans le delta."
+    },
+    {
+      "controle": "preuves_par_role",
+      "resultat": "ok",
+      "detail": "Chaque rôle a une preuve explicite."
+    },
+    {
+      "controle": "preuves_cibles",
+      "resultat": "ok",
+      "detail": "Chaque source de rôle vise la ville correspondante."
+    },
+    {
+      "controle": "cibles_sources",
+      "resultat": "ok",
+      "detail": "Toutes les cibles du delta existent dans la proposition ou les candidats."
+    },
+    {
+      "controle": "references_corrections",
+      "resultat": "ok",
+      "detail": "Corrections documentées avec sources du delta."
+    },
+    {
+      "controle": "references_candidats",
+      "resultat": "ok",
+      "detail": "Candidats documentés lorsque la preuve est disponible ; pistes non instruites explicitement signalées."
+    },
+    {
+      "controle": "cibles_corrections",
+      "resultat": "ok",
+      "detail": "Corrections rattachées à des cibles existantes."
+    },
+    {
+      "controle": "references_reperes",
+      "resultat": "ok",
+      "detail": "Repères postérieurs sourcés."
+    },
+    {
+      "controle": "sources_utilisees",
+      "resultat": "ok",
+      "detail": "Pas de fiche source orpheline."
+    },
+    {
+      "controle": "snapshot_uniforme",
+      "resultat": "ok",
+      "detail": "Même libellé de snapshot ; référence strictement antérieure à minuit dans les métadonnées."
+    },
+    {
+      "controle": "roles_autorises",
+      "resultat": "ok",
+      "detail": "Vocabulaire limité aux rôles documentés du lot."
+    },
+    {
+      "controle": "rangs_autorises",
+      "resultat": "ok",
+      "detail": "Rangs A/B/C sans quota national."
+    },
+    {
+      "controle": "politique_non_dupliquee",
+      "resultat": "ok",
+      "detail": "La politique reste portée par les territoires."
+    },
+    {
+      "controle": "capitales_reservees",
+      "resultat": "ok",
+      "detail": "Cinq propositions de capitale sont explicites, sans champ définitif prématuré."
+    },
+    {
+      "controle": "kaunas_sans_capitale",
+      "resultat": "ok",
+      "detail": "Pas de capitale temporaire recopiée à Kaunas."
+    },
+    {
+      "controle": "fusion_krustpils_non_anticipee",
+      "resultat": "ok",
+      "detail": "Krustpils retenue et Jēkabpils différée ; fusion future sourcée."
+    },
+    {
+      "controle": "usines_sans_aviation_automatique",
+      "resultat": "ok",
+      "detail": "Production aéronautique classée industrie."
+    },
+    {
+      "controle": "coordonnees_non_inventees",
+      "resultat": "ok",
+      "detail": "Ancrages décrits, coordonnées absentes."
+    },
+    {
+      "controle": "sources_avec_url",
+      "resultat": "ok",
+      "detail": "URL, institution et passage repère pour chaque source."
+    },
+    {
+      "controle": "lectures_limitees_signalees",
+      "resultat": "ok",
+      "detail": "Limites de lecture et preuve tertiaire explicites."
+    }
+  ],
+  "bilan": {
+    "villes": 61,
+    "sources": 58,
+    "rangs": {
+      "A": 2,
+      "B": 45,
+      "C": 14
+    },
+    "geographie": {
+      "Pologne": 32,
+      "Estonie": 9,
+      "Lettonie": 10,
+      "Lituanie": 10
+    },
+    "corrections_documentees": 18,
+    "candidats_differes": 13,
+    "roles_non_ajoutes": 1,
+    "sources_B": 57,
+    "sources_C": 1
+  },
+  "limites": [
+    "Proposition non intégrée au dépôt.",
+    "Noms historiques de plusieurs points à normaliser.",
+    "Cinq statuts de capitale non arbitrés.",
+    "Tarnowskie Góry : source tertiaire à renforcer.",
+    "Coordonnées et périmètres historiques non fournis.",
+    "Fonctions structurelles ; pas de certification du trafic au snapshot.",
+    "Candidats non instruits listés sans preuve spécifique."
+  ],
+  "empreintes_sha256": {
+    "atlas_villes_1-4_pologne_baltique_2026-10-01.json": "0a65d4ab3b0eaa7a492e88ce0f7517194479c41d358e23c909c21eb7de5ceb8f",
+    "atlas_registre_sources_villes_1-4_delta_2026-10-01.json": "8bbb9a62baabb71de3d3b8ff661335407bb08f4c751bf78793ac4b02acb6186c",
+    "atlas_villes_1-4_pour_claude_2026-10-01.md": "4a1522ea29a1037f5d0da16ecd8a72917d5ee4e718dda9d5ccc8e40cf61d933e"
+  }
+}

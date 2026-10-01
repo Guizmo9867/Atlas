@@ -2,6 +2,14 @@
 
 Une ligne par décision, datée. Plus récente en haut. Ce journal remplace les versions éparpillées dans les conversations : si ce n'est pas ici, ce n'est pas décidé.
 
+## 2026-10-01 (suite : villes, ratissage 1.4 Pologne et pays baltes)
+
+- **Villes 1.4 intégrées : 61 villes** (32 Pologne, 9 Estonie, 10 Lettonie, 10 Lituanie), depuis le JSON d'Ether. *(Ether, fait par Claude)*
+- **Convention des capitales appliquée** : capitale régionale = siège administratif de fait sous occupation ou en RSS (Cracovie, Tallinn, Riga, Vilnius, comme Vienne et Prague) ; Varsovie nationale par continuité ; pas de capitale à Kaunas (entre-deux-guerres) ni à Lublin (administration provisoire, comme Debrecen). *(Ether + Claude, suit la règle validée par Guizmo pour Prague)*
+- **Noms à la date** : Ether nomme au Snapshot 0 Litzmannstadt, Breslau, Stettin, Dantzig, Gotenhafen, Gleiwitz, Memel ; les autres formes sont des alias. La règle d'ensemble (noms officiels sous annexion ou occupation) attend la réponse d'Ether à la question posée au lot 1.3. *(Ether)*
+- Sources 1.4 : 58 relues (44 confirmées, 14 dans « Sources à valider »). Registre v1.12. *(Claude)*
+- **Dossier d'échange** : Guizmo dépose les fichiers d'Ether dans le dossier Atlas du Bureau, auquel Claude a accès (plus besoin de les joindre à la conversation). *(Guizmo)*
+
 ## 2026-10-01 (suite : villes, ratissage 1.3 Tchéquie, Slovaquie, Hongrie)
 
 - **Villes 1.3 intégrées : 53 villes** (19 Tchéquie, 16 Slovaquie, 18 Hongrie). Données tirées du document d'Ether (son JSON n'était pas joint). *(Ether, fait par Claude)*

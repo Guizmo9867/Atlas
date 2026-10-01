@@ -1,0 +1,3530 @@
+{
+  "metadata_lot": {
+    "projet": "Route Atlas",
+    "lot": "villes_1.4",
+    "version_proposition": "1.4",
+    "date_preparation": "2026-10-01",
+    "perimetre": "Pologne actuelle, Estonie, Lettonie, Lituanie ; classement géographique uniquement.",
+    "reference_temporelle": "Dernier état connu strictement avant le 1er janvier 1945 à 00:00 ; aucune modification datée du 1er janvier ou après n’est anticipée.",
+    "statut": "proposition_pour_integration_par_claude_non_integree_au_depot",
+    "compatibilite": "Structure de proposition des lots précédents ; pas un import direct du gabarit final du dépôt.",
+    "ids": "IDs de travail à rapprocher des IDs canoniques avant toute création.",
+    "nombre_villes": 61,
+    "repartition_geographique": {
+      "Pologne": 32,
+      "Estonie": 9,
+      "Lettonie": 10,
+      "Lituanie": 10
+    },
+    "repartition_importance": {
+      "A": 2,
+      "B": 45,
+      "C": 14
+    },
+    "nombre_sources": 58,
+    "nombre_candidats_differes": 13,
+    "limite_audit": "Pas de base canonique Pologne/Baltique fournie ni accès au dépôt : corrections proposées, pas corrections déjà appliquées.",
+    "regles": [
+      "A/B/C est un jugement Atlas argumenté, sans quota par pays.",
+      "La souveraineté, l’administration et le contrôle de terrain sont hérités des territoires, sans duplication dans les villes.",
+      "Fonctions structurelles historiques, pas certificat de trafic normal en 1945.",
+      "Capitales indépendantes des rangs ; cinq conventions laissées ouvertes.",
+      "Coordonnées et limites historiques à normaliser ; aucune géométrie inventée."
+    ],
+    "hors_perimetre": [
+      "Königsberg/Pillau/Tilsit/Insterburg : géographie actuelle russe, lot suivant.",
+      "Brest/Grodno/Lviv : géographie actuelle biélorusse ou ukrainienne, lot suivant."
+    ],
+    "sources_lecture_limitee": [
+      "src-14-pl-lodz-nom",
+      "src-14-ee-kohtla-jarve-perimetre",
+      "src-14-lv-liepaja-port",
+      "src-14-pl-gdansk-port-ferroviaire"
+    ],
+    "sources_tertiaires": [
+      "src-14-pl-tarnowskie-gory-rail"
+    ]
+  },
+  "villes": [
+    {
+      "entite_id": "ville-pl-warszawa",
+      "type_entite": "ville",
+      "nom": "Varsovie",
+      "nom_local": "Warszawa",
+      "aliases": [
+        "Warszawa"
+      ],
+      "zone_geographique": "Pologne",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "A",
+        "roles": [
+          "rail"
+        ],
+        "note": "Ville très endommagée : Praga prise en septembre 1944, rive occidentale tenue par les forces allemandes. Aucun gouvernement opérationnel ni trafic normal n’est supposé dans l’ensemble urbain.",
+        "sources": [
+          "src-14-pl-rail-premieres",
+          "src-14-pl-warszawa-destruction",
+          "src-14-pl-warszawa-praga"
+        ],
+        "source_role_a_renforcer": false
+      },
+      "audit": {
+        "decision": "retenir",
+        "justification_importance": "Métropole nationale et grand nœud historique, à conserver comme rupture majeure du réseau.",
+        "preuves_roles": {
+          "rail": {
+            "sources": [
+              "src-14-pl-rail-premieres"
+            ],
+            "justification": "Liaison Varsovie–Vienne ouverte en 1845.",
+            "nature": "attestation_historique_structurelle"
+          }
+        },
+        "geometrie": {
+          "statut": "a_normaliser_dans_le_depot",
+          "ancrage": "Noyau historique et infrastructure documentée ; aucune coordonnée ajoutée."
+        },
+        "etat_exploitation": {
+          "statut": "non_certifie_au_snapshot",
+          "principe": "La présence du point et ses fonctions structurelles ne certifient pas un trafic normal à minuit."
+        },
+        "nomenclature": {
+          "statut": "forme_historique_etayee",
+          "note": "Nom/exonyme historique documenté ; intervalles de changement à normaliser."
+        },
+        "capitale_a_arbitrer": {
+          "proposition": "nationale",
+          "statut": "non_arbitre",
+          "sources": [
+            "src-14-pl-warszawa-praga"
+          ],
+          "justification": "Continuité du rôle de capitale nationale, sans siège gouvernemental opérationnel sur place.",
+          "effet": "Ajouter le champ capitale après harmonisation ; rang inchangé."
+        }
+      }
+    },
+    {
+      "entite_id": "ville-pl-krakow",
+      "type_entite": "ville",
+      "nom": "Cracovie",
+      "nom_local": "Krakau",
+      "aliases": [
+        "Kraków",
+        "Krakau"
+      ],
+      "zone_geographique": "Pologne",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "rail",
+          "administration"
+        ],
+        "note": "L’administration d’occupation est documentée. Le complexe sidérurgique de Nowa Huta n’est pas un rôle du snapshot.",
+        "sources": [
+          "src-14-pl-rail-premieres",
+          "src-14-pl-krakow-administration"
+        ],
+        "source_role_a_renforcer": false
+      },
+      "audit": {
+        "decision": "retenir",
+        "justification_importance": "Grand centre ferroviaire et administratif du sud.",
+        "preuves_roles": {
+          "rail": {
+            "sources": [
+              "src-14-pl-rail-premieres"
+            ],
+            "justification": "Chemin de fer de Cracovie en 1847.",
+            "nature": "attestation_historique_structurelle"
+          },
+          "administration": {
+            "sources": [
+              "src-14-pl-krakow-administration"
+            ],
+            "justification": "Siège du Gouvernement général depuis 1939.",
+            "nature": "attestation_historique_structurelle"
+          }
+        },
+        "geometrie": {
+          "statut": "a_normaliser_dans_le_depot",
+          "ancrage": "Noyau historique et infrastructure documentée ; aucune coordonnée ajoutée."
+        },
+        "etat_exploitation": {
+          "statut": "non_certifie_au_snapshot",
+          "principe": "La présence du point et ses fonctions structurelles ne certifient pas un trafic normal à minuit."
+        },
+        "nomenclature": {
+          "statut": "forme_historique_etayee",
+          "note": "Nom/exonyme historique documenté ; intervalles de changement à normaliser."
+        },
+        "capitale_a_arbitrer": {
+          "proposition": "regionale",
+          "statut": "non_arbitre",
+          "sources": [
+            "src-14-pl-krakow-administration"
+          ],
+          "justification": "Siège administratif du Gouvernement général sous occupation.",
+          "effet": "Ajouter le champ capitale après harmonisation ; rang inchangé."
+        }
+      }
+    },
+    {
+      "entite_id": "ville-pl-lodz",
+      "type_entite": "ville",
+      "nom": "Litzmannstadt",
+      "nom_local": "Litzmannstadt",
+      "aliases": [
+        "Łódź",
+        "Lodz"
+      ],
+      "zone_geographique": "Pologne",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "industrie"
+        ],
+        "note": "Nom imposé en 1940, étayé ici par un extrait municipal ; capacité de production fin 1944 non mesurée.",
+        "sources": [
+          "src-14-pl-lodz-textile",
+          "src-14-pl-lodz-nom"
+        ],
+        "source_role_a_renforcer": true
+      },
+      "audit": {
+        "decision": "retenir",
+        "justification_importance": "Grand pôle textile antérieur à la guerre.",
+        "preuves_roles": {
+          "industrie": {
+            "sources": [
+              "src-14-pl-lodz-textile"
+            ],
+            "justification": "Manufacture textile du XIXe siècle.",
+            "nature": "attestation_historique_structurelle"
+          }
+        },
+        "geometrie": {
+          "statut": "a_normaliser_dans_le_depot",
+          "ancrage": "Noyau historique et infrastructure documentée ; aucune coordonnée ajoutée."
+        },
+        "etat_exploitation": {
+          "statut": "non_certifie_au_snapshot",
+          "principe": "La présence du point et ses fonctions structurelles ne certifient pas un trafic normal à minuit."
+        },
+        "nomenclature": {
+          "statut": "forme_historique_etayee",
+          "note": "Nom/exonyme historique documenté ; intervalles de changement à normaliser."
+        }
+      }
+    },
+    {
+      "entite_id": "ville-pl-poznan",
+      "type_entite": "ville",
+      "nom": "Poznań",
+      "nom_local": "Poznań",
+      "aliases": [],
+      "zone_geographique": "Pologne",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "rail"
+        ],
+        "note": "Fonction historique retenue ; état précis du service au passage à 1945 non établi.",
+        "sources": [
+          "src-14-pl-szczecin-gare",
+          "src-14-pl-poznan-gare"
+        ],
+        "source_role_a_renforcer": false
+      },
+      "audit": {
+        "decision": "retenir",
+        "justification_importance": "Articulation ferroviaire majeure de la Pologne occidentale.",
+        "preuves_roles": {
+          "rail": {
+            "sources": [
+              "src-14-pl-szczecin-gare",
+              "src-14-pl-poznan-gare"
+            ],
+            "justification": "Liaisons du XIXe siècle et gare centrale de 1879.",
+            "nature": "attestation_historique_structurelle"
+          }
+        },
+        "geometrie": {
+          "statut": "a_normaliser_dans_le_depot",
+          "ancrage": "Gare centrale historique, distincte de la première implantation de Jeżyce."
+        },
+        "etat_exploitation": {
+          "statut": "non_certifie_au_snapshot",
+          "principe": "La présence du point et ses fonctions structurelles ne certifient pas un trafic normal à minuit."
+        },
+        "nomenclature": {
+          "statut": "libelle_geographique_de_travail",
+          "note": "Libellé de repérage actuel, pas une certification du nom officiel sous occupation. Forme historique à contrôler avant import définitif des noms."
+        }
+      }
+    },
+    {
+      "entite_id": "ville-pl-wroclaw",
+      "type_entite": "ville",
+      "nom": "Breslau",
+      "nom_local": "Breslau",
+      "aliases": [
+        "Wrocław"
+      ],
+      "zone_geographique": "Pologne",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "rail"
+        ],
+        "note": "La bataille et la destruction de 1945 restent postérieures au snapshot.",
+        "sources": [
+          "src-14-pl-rail-premieres",
+          "src-14-pl-wroclaw-nom"
+        ],
+        "source_role_a_renforcer": false
+      },
+      "audit": {
+        "decision": "retenir",
+        "justification_importance": "Grand centre ferroviaire silésien.",
+        "preuves_roles": {
+          "rail": {
+            "sources": [
+              "src-14-pl-rail-premieres"
+            ],
+            "justification": "Première ligne silésienne en 1842.",
+            "nature": "attestation_historique_structurelle"
+          }
+        },
+        "geometrie": {
+          "statut": "a_normaliser_dans_le_depot",
+          "ancrage": "Noyau historique et infrastructure documentée ; aucune coordonnée ajoutée."
+        },
+        "etat_exploitation": {
+          "statut": "non_certifie_au_snapshot",
+          "principe": "La présence du point et ses fonctions structurelles ne certifient pas un trafic normal à minuit."
+        },
+        "nomenclature": {
+          "statut": "forme_historique_etayee",
+          "note": "Nom/exonyme historique documenté ; intervalles de changement à normaliser."
+        }
+      }
+    },
+    {
+      "entite_id": "ville-pl-szczecin",
+      "type_entite": "ville",
+      "nom": "Stettin",
+      "nom_local": "Stettin",
+      "aliases": [
+        "Szczecin"
+      ],
+      "zone_geographique": "Pologne",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "rail",
+          "port_maritime"
+        ],
+        "note": "Fonction historique retenue ; état précis du service au passage à 1945 non établi.",
+        "sources": [
+          "src-14-pl-szczecin-gare",
+          "src-14-pl-szczecin-urbanisme",
+          "src-14-pl-szczecin-nom"
+        ],
+        "source_role_a_renforcer": false
+      },
+      "audit": {
+        "decision": "retenir",
+        "justification_importance": "Grand port de la Baltique articulé au rail.",
+        "preuves_roles": {
+          "rail": {
+            "sources": [
+              "src-14-pl-szczecin-gare"
+            ],
+            "justification": "Gare et liaisons ouvertes au XIXe siècle.",
+            "nature": "attestation_historique_structurelle"
+          },
+          "port_maritime": {
+            "sources": [
+              "src-14-pl-szczecin-urbanisme",
+              "src-14-pl-szczecin-nom"
+            ],
+            "justification": "Port aménagé avant 1914 et attesté en 1934.",
+            "nature": "attestation_historique_structurelle"
+          }
+        },
+        "geometrie": {
+          "statut": "a_normaliser_dans_le_depot",
+          "ancrage": "Noyau historique et infrastructure documentée ; aucune coordonnée ajoutée."
+        },
+        "etat_exploitation": {
+          "statut": "non_certifie_au_snapshot",
+          "principe": "La présence du point et ses fonctions structurelles ne certifient pas un trafic normal à minuit."
+        },
+        "nomenclature": {
+          "statut": "forme_historique_etayee",
+          "note": "Nom/exonyme historique documenté ; intervalles de changement à normaliser."
+        }
+      }
+    },
+    {
+      "entite_id": "ville-pl-gdansk",
+      "type_entite": "ville",
+      "nom": "Dantzig",
+      "nom_local": "Danzig",
+      "aliases": [
+        "Gdańsk",
+        "Danzig"
+      ],
+      "zone_geographique": "Pologne",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "rail",
+          "port_maritime",
+          "construction_navale"
+        ],
+        "note": "Ancrer l’ancien port intérieur ; le Port Nord moderne et les sociétés navales créées après-guerre ne sont pas rétrodatés.",
+        "sources": [
+          "src-14-pl-gdansk-schichau",
+          "src-14-pl-gdansk-port-ferroviaire"
+        ],
+        "source_role_a_renforcer": true
+      },
+      "audit": {
+        "decision": "retenir",
+        "justification_importance": "Concentration de port, chemins de fer et construction navale.",
+        "preuves_roles": {
+          "rail": {
+            "sources": [
+              "src-14-pl-gdansk-schichau",
+              "src-14-pl-gdansk-port-ferroviaire"
+            ],
+            "justification": "Accès ferroviaire au chantier et ferry portuaire antérieurs à 1945.",
+            "nature": "attestation_historique_structurelle"
+          },
+          "port_maritime": {
+            "sources": [
+              "src-14-pl-gdansk-port-ferroviaire"
+            ],
+            "justification": "Ferry ferroviaire du port depuis 1926.",
+            "nature": "attestation_historique_structurelle"
+          },
+          "construction_navale": {
+            "sources": [
+              "src-14-pl-gdansk-schichau"
+            ],
+            "justification": "Chantier Schichau depuis 1891–1892 ; production navale de guerre documentée.",
+            "nature": "attestation_historique_structurelle"
+          }
+        },
+        "geometrie": {
+          "statut": "a_normaliser_dans_le_depot",
+          "ancrage": "Noyau historique et infrastructure documentée ; aucune coordonnée ajoutée."
+        },
+        "etat_exploitation": {
+          "statut": "non_certifie_au_snapshot",
+          "principe": "La présence du point et ses fonctions structurelles ne certifient pas un trafic normal à minuit."
+        },
+        "nomenclature": {
+          "statut": "forme_historique_etayee",
+          "note": "Nom/exonyme historique documenté ; intervalles de changement à normaliser."
+        }
+      }
+    },
+    {
+      "entite_id": "ville-pl-gdynia",
+      "type_entite": "ville",
+      "nom": "Gotenhafen",
+      "nom_local": "Gotenhafen",
+      "aliases": [
+        "Gdynia"
+      ],
+      "zone_geographique": "Pologne",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "port_maritime"
+        ],
+        "note": "Gdynia renommée Gotenhafen le 19 septembre 1939 ; capture de mars 1945 non anticipée.",
+        "sources": [
+          "src-14-pl-gdynia-plan",
+          "src-14-pl-gdynia-nom"
+        ],
+        "source_role_a_renforcer": false
+      },
+      "audit": {
+        "decision": "retenir",
+        "justification_importance": "Grand port créé avant la guerre, complémentaire de Dantzig.",
+        "preuves_roles": {
+          "port_maritime": {
+            "sources": [
+              "src-14-pl-gdynia-plan"
+            ],
+            "justification": "Port documenté par une notice du plan de 1937.",
+            "nature": "attestation_historique_structurelle"
+          }
+        },
+        "geometrie": {
+          "statut": "a_normaliser_dans_le_depot",
+          "ancrage": "Noyau historique et infrastructure documentée ; aucune coordonnée ajoutée."
+        },
+        "etat_exploitation": {
+          "statut": "non_certifie_au_snapshot",
+          "principe": "La présence du point et ses fonctions structurelles ne certifient pas un trafic normal à minuit."
+        },
+        "nomenclature": {
+          "statut": "forme_historique_etayee",
+          "note": "Nom/exonyme historique documenté ; intervalles de changement à normaliser."
+        }
+      }
+    },
+    {
+      "entite_id": "ville-pl-swinoujscie",
+      "type_entite": "ville",
+      "nom": "Świnoujście",
+      "nom_local": "Świnoujście",
+      "aliases": [],
+      "zone_geographique": "Pologne",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "port_maritime",
+          "militaire"
+        ],
+        "note": "Le bombardement du 12 mars 1945 reste futur. La forme officielle Swinemünde doit être normalisée avec une preuve nomenclaturale dédiée.",
+        "sources": [
+          "src-14-pl-swinoujscie-port"
+        ],
+        "source_role_a_renforcer": false
+      },
+      "audit": {
+        "decision": "retenir",
+        "justification_importance": "Port et base navale à l’entrée du système de l’Oder.",
+        "preuves_roles": {
+          "port_maritime": {
+            "sources": [
+              "src-14-pl-swinoujscie-port"
+            ],
+            "justification": "Aménagement portuaire du XIXe siècle.",
+            "nature": "attestation_historique_structurelle"
+          },
+          "militaire": {
+            "sources": [
+              "src-14-pl-swinoujscie-port"
+            ],
+            "justification": "Base navale développée avant 1945.",
+            "nature": "attestation_historique_structurelle"
+          }
+        },
+        "geometrie": {
+          "statut": "a_normaliser_dans_le_depot",
+          "ancrage": "Noyau historique et infrastructure documentée ; aucune coordonnée ajoutée."
+        },
+        "etat_exploitation": {
+          "statut": "non_certifie_au_snapshot",
+          "principe": "La présence du point et ses fonctions structurelles ne certifient pas un trafic normal à minuit."
+        },
+        "nomenclature": {
+          "statut": "libelle_geographique_de_travail",
+          "note": "Libellé de repérage actuel, pas une certification du nom officiel sous occupation. Forme historique à contrôler avant import définitif des noms."
+        }
+      }
+    },
+    {
+      "entite_id": "ville-pl-bydgoszcz",
+      "type_entite": "ville",
+      "nom": "Bydgoszcz",
+      "nom_local": "Bydgoszcz",
+      "aliases": [],
+      "zone_geographique": "Pologne",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "rail"
+        ],
+        "note": "Fonction historique retenue ; état précis du service au passage à 1945 non établi.",
+        "sources": [
+          "src-14-pl-bydgoszcz-rail",
+          "src-14-pl-torun-rail"
+        ],
+        "source_role_a_renforcer": false
+      },
+      "audit": {
+        "decision": "retenir",
+        "justification_importance": "Jonction ferroviaire structurante entre corridors occidentaux et de la Vistule.",
+        "preuves_roles": {
+          "rail": {
+            "sources": [
+              "src-14-pl-bydgoszcz-rail",
+              "src-14-pl-torun-rail"
+            ],
+            "justification": "Liaison vers Krzyż en 1851 ; liaison vers Toruń en 1861.",
+            "nature": "attestation_historique_structurelle"
+          }
+        },
+        "geometrie": {
+          "statut": "a_normaliser_dans_le_depot",
+          "ancrage": "Noyau historique et infrastructure documentée ; aucune coordonnée ajoutée."
+        },
+        "etat_exploitation": {
+          "statut": "non_certifie_au_snapshot",
+          "principe": "La présence du point et ses fonctions structurelles ne certifient pas un trafic normal à minuit."
+        },
+        "nomenclature": {
+          "statut": "libelle_geographique_de_travail",
+          "note": "Libellé de repérage actuel, pas une certification du nom officiel sous occupation. Forme historique à contrôler avant import définitif des noms."
+        }
+      }
+    },
+    {
+      "entite_id": "ville-pl-torun",
+      "type_entite": "ville",
+      "nom": "Toruń",
+      "nom_local": "Toruń",
+      "aliases": [],
+      "zone_geographique": "Pologne",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "C",
+        "roles": [
+          "rail"
+        ],
+        "note": "Fonction historique retenue ; état précis du service au passage à 1945 non établi.",
+        "sources": [
+          "src-14-pl-torun-rail"
+        ],
+        "source_role_a_renforcer": false
+      },
+      "audit": {
+        "decision": "retenir",
+        "justification_importance": "Relais régional du réseau de la Vistule.",
+        "preuves_roles": {
+          "rail": {
+            "sources": [
+              "src-14-pl-torun-rail"
+            ],
+            "justification": "Ligne de 1861, gare développée depuis 1873.",
+            "nature": "attestation_historique_structurelle"
+          }
+        },
+        "geometrie": {
+          "statut": "a_normaliser_dans_le_depot",
+          "ancrage": "Gare historique de la rive gauche ; périmètre municipal de 1944 à normaliser."
+        },
+        "etat_exploitation": {
+          "statut": "non_certifie_au_snapshot",
+          "principe": "La présence du point et ses fonctions structurelles ne certifient pas un trafic normal à minuit."
+        },
+        "nomenclature": {
+          "statut": "libelle_geographique_de_travail",
+          "note": "Libellé de repérage actuel, pas une certification du nom officiel sous occupation. Forme historique à contrôler avant import définitif des noms."
+        }
+      }
+    },
+    {
+      "entite_id": "ville-pl-tczew",
+      "type_entite": "ville",
+      "nom": "Tczew",
+      "nom_local": "Tczew",
+      "aliases": [],
+      "zone_geographique": "Pologne",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "rail"
+        ],
+        "note": "Les ponts et leur capacité fin 1944 demandent une fiche d’infrastructure distincte ; ne pas supposer tous les ouvrages intacts.",
+        "sources": [
+          "src-14-pl-tczew-rail"
+        ],
+        "source_role_a_renforcer": false
+      },
+      "audit": {
+        "decision": "retenir",
+        "justification_importance": "Nœud stratégique du corridor vers les ports baltiques.",
+        "preuves_roles": {
+          "rail": {
+            "sources": [
+              "src-14-pl-tczew-rail"
+            ],
+            "justification": "Chemin de fer depuis 1852.",
+            "nature": "attestation_historique_structurelle"
+          }
+        },
+        "geometrie": {
+          "statut": "a_normaliser_dans_le_depot",
+          "ancrage": "Noyau historique et infrastructure documentée ; aucune coordonnée ajoutée."
+        },
+        "etat_exploitation": {
+          "statut": "non_certifie_au_snapshot",
+          "principe": "La présence du point et ses fonctions structurelles ne certifient pas un trafic normal à minuit."
+        },
+        "nomenclature": {
+          "statut": "libelle_geographique_de_travail",
+          "note": "Libellé de repérage actuel, pas une certification du nom officiel sous occupation. Forme historique à contrôler avant import définitif des noms."
+        }
+      }
+    },
+    {
+      "entite_id": "ville-pl-katowice",
+      "type_entite": "ville",
+      "nom": "Katowice",
+      "nom_local": "Katowice",
+      "aliases": [],
+      "zone_geographique": "Pologne",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "rail",
+          "industrie"
+        ],
+        "note": "Fonction historique retenue ; état précis du service au passage à 1945 non établi.",
+        "sources": [
+          "src-14-pl-katowice-gare",
+          "src-14-pl-katowice-industrie"
+        ],
+        "source_role_a_renforcer": false
+      },
+      "audit": {
+        "decision": "retenir",
+        "justification_importance": "Articulation rail–charbon au cœur du bassin industriel.",
+        "preuves_roles": {
+          "rail": {
+            "sources": [
+              "src-14-pl-katowice-gare"
+            ],
+            "justification": "Ensemble de la gare ancienne documenté pour 1906.",
+            "nature": "attestation_historique_structurelle"
+          },
+          "industrie": {
+            "sources": [
+              "src-14-pl-katowice-industrie"
+            ],
+            "justification": "Bassin charbonnier et mine Ferdinand/Katowice antérieurs à 1945.",
+            "nature": "attestation_historique_structurelle"
+          }
+        },
+        "geometrie": {
+          "statut": "a_normaliser_dans_le_depot",
+          "ancrage": "Noyau historique et infrastructure documentée ; aucune coordonnée ajoutée."
+        },
+        "etat_exploitation": {
+          "statut": "non_certifie_au_snapshot",
+          "principe": "La présence du point et ses fonctions structurelles ne certifient pas un trafic normal à minuit."
+        },
+        "nomenclature": {
+          "statut": "libelle_geographique_de_travail",
+          "note": "Libellé de repérage actuel, pas une certification du nom officiel sous occupation. Forme historique à contrôler avant import définitif des noms."
+        }
+      }
+    },
+    {
+      "entite_id": "ville-pl-gliwice",
+      "type_entite": "ville",
+      "nom": "Gleiwitz",
+      "nom_local": "Gleiwitz",
+      "aliases": [
+        "Gliwice"
+      ],
+      "zone_geographique": "Pologne",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "industrie"
+        ],
+        "note": "Fonction historique retenue ; état précis du service au passage à 1945 non établi.",
+        "sources": [
+          "src-14-pl-gliwice-fonderie"
+        ],
+        "source_role_a_renforcer": false
+      },
+      "audit": {
+        "decision": "retenir",
+        "justification_importance": "Pôle métallurgique historique du bassin silésien.",
+        "preuves_roles": {
+          "industrie": {
+            "sources": [
+              "src-14-pl-gliwice-fonderie"
+            ],
+            "justification": "Fonderie royale depuis 1796 et équipements du début du XXe siècle.",
+            "nature": "attestation_historique_structurelle"
+          }
+        },
+        "geometrie": {
+          "statut": "a_normaliser_dans_le_depot",
+          "ancrage": "Noyau historique et infrastructure documentée ; aucune coordonnée ajoutée."
+        },
+        "etat_exploitation": {
+          "statut": "non_certifie_au_snapshot",
+          "principe": "La présence du point et ses fonctions structurelles ne certifient pas un trafic normal à minuit."
+        },
+        "nomenclature": {
+          "statut": "forme_historique_etayee",
+          "note": "Nom/exonyme historique documenté ; intervalles de changement à normaliser."
+        }
+      }
+    },
+    {
+      "entite_id": "ville-pl-zabrze",
+      "type_entite": "ville",
+      "nom": "Zabrze",
+      "nom_local": "Zabrze",
+      "aliases": [],
+      "zone_geographique": "Pologne",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "industrie"
+        ],
+        "note": "Libellé actuel de repérage ; forme historique Hindenburg O.S. à étayer dans le registre des noms avant import.",
+        "sources": [
+          "src-14-pl-zabrze-industrie"
+        ],
+        "source_role_a_renforcer": false
+      },
+      "audit": {
+        "decision": "retenir",
+        "justification_importance": "Pôle charbonnier de grande importance dans le bassin silésien.",
+        "preuves_roles": {
+          "industrie": {
+            "sources": [
+              "src-14-pl-zabrze-industrie"
+            ],
+            "justification": "Charbonnages et équipements miniers du XIXe siècle.",
+            "nature": "attestation_historique_structurelle"
+          }
+        },
+        "geometrie": {
+          "statut": "a_normaliser_dans_le_depot",
+          "ancrage": "Noyau historique et infrastructure documentée ; aucune coordonnée ajoutée."
+        },
+        "etat_exploitation": {
+          "statut": "non_certifie_au_snapshot",
+          "principe": "La présence du point et ses fonctions structurelles ne certifient pas un trafic normal à minuit."
+        },
+        "nomenclature": {
+          "statut": "libelle_geographique_de_travail",
+          "note": "Libellé de repérage actuel, pas une certification du nom officiel sous occupation. Forme historique à contrôler avant import définitif des noms."
+        }
+      }
+    },
+    {
+      "entite_id": "ville-pl-chorzow",
+      "type_entite": "ville",
+      "nom": "Chorzów",
+      "nom_local": "Chorzów",
+      "aliases": [],
+      "zone_geographique": "Pologne",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "industrie"
+        ],
+        "note": "Königshütte est attesté comme nom d’usine ; ne pas déduire du seul nom industriel le nom officiel ni le périmètre municipal de 1944.",
+        "sources": [
+          "src-14-pl-chorzow-industrie"
+        ],
+        "source_role_a_renforcer": false
+      },
+      "audit": {
+        "decision": "retenir",
+        "justification_importance": "Pôle sidérurgique, notamment de produits destinés au réseau ferroviaire.",
+        "preuves_roles": {
+          "industrie": {
+            "sources": [
+              "src-14-pl-chorzow-industrie"
+            ],
+            "justification": "Huta Królewska en production depuis 1802.",
+            "nature": "attestation_historique_structurelle"
+          }
+        },
+        "geometrie": {
+          "statut": "a_normaliser_dans_le_depot",
+          "ancrage": "Noyau historique et infrastructure documentée ; aucune coordonnée ajoutée."
+        },
+        "etat_exploitation": {
+          "statut": "non_certifie_au_snapshot",
+          "principe": "La présence du point et ses fonctions structurelles ne certifient pas un trafic normal à minuit."
+        },
+        "nomenclature": {
+          "statut": "libelle_geographique_de_travail",
+          "note": "Libellé de repérage actuel, pas une certification du nom officiel sous occupation. Forme historique à contrôler avant import définitif des noms."
+        }
+      }
+    },
+    {
+      "entite_id": "ville-pl-tarnowskie-gory",
+      "type_entite": "ville",
+      "nom": "Tarnowskie Góry",
+      "nom_local": "Tarnowskie Góry",
+      "aliases": [],
+      "zone_geographique": "Pologne",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "rail"
+        ],
+        "note": "Rang B proposé avec réserve : la notice municipale reprend Wikipédia. Attestation ferroviaire indépendante à ajouter.",
+        "sources": [
+          "src-14-pl-tarnowskie-gory-rail"
+        ],
+        "source_role_a_renforcer": true
+      },
+      "audit": {
+        "decision": "retenir",
+        "justification_importance": "Nœud ferroviaire historique à conserver malgré sa taille urbaine plus faible.",
+        "preuves_roles": {
+          "rail": {
+            "sources": [
+              "src-14-pl-tarnowskie-gory-rail"
+            ],
+            "justification": "Rail depuis 1854, gare de 1888.",
+            "nature": "attestation_historique_structurelle"
+          }
+        },
+        "geometrie": {
+          "statut": "a_normaliser_dans_le_depot",
+          "ancrage": "Noyau historique et infrastructure documentée ; aucune coordonnée ajoutée."
+        },
+        "etat_exploitation": {
+          "statut": "non_certifie_au_snapshot",
+          "principe": "La présence du point et ses fonctions structurelles ne certifient pas un trafic normal à minuit."
+        },
+        "nomenclature": {
+          "statut": "libelle_geographique_de_travail",
+          "note": "Libellé de repérage actuel, pas une certification du nom officiel sous occupation. Forme historique à contrôler avant import définitif des noms."
+        }
+      }
+    },
+    {
+      "entite_id": "ville-pl-czestochowa",
+      "type_entite": "ville",
+      "nom": "Częstochowa",
+      "nom_local": "Częstochowa",
+      "aliases": [],
+      "zone_geographique": "Pologne",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "rail",
+          "industrie"
+        ],
+        "note": "La fonction de pèlerinage ne sert pas de justification au classement.",
+        "sources": [
+          "src-14-pl-czestochowa-industrialisation"
+        ],
+        "source_role_a_renforcer": false
+      },
+      "audit": {
+        "decision": "retenir",
+        "justification_importance": "Centre ferroviaire et industriel structurant.",
+        "preuves_roles": {
+          "rail": {
+            "sources": [
+              "src-14-pl-czestochowa-industrialisation"
+            ],
+            "justification": "Chemin de fer depuis 1846.",
+            "nature": "attestation_historique_structurelle"
+          },
+          "industrie": {
+            "sources": [
+              "src-14-pl-czestochowa-industrialisation"
+            ],
+            "justification": "Bassin industriel documenté avant 1914.",
+            "nature": "attestation_historique_structurelle"
+          }
+        },
+        "geometrie": {
+          "statut": "a_normaliser_dans_le_depot",
+          "ancrage": "Noyau historique et infrastructure documentée ; aucune coordonnée ajoutée."
+        },
+        "etat_exploitation": {
+          "statut": "non_certifie_au_snapshot",
+          "principe": "La présence du point et ses fonctions structurelles ne certifient pas un trafic normal à minuit."
+        },
+        "nomenclature": {
+          "statut": "libelle_geographique_de_travail",
+          "note": "Libellé de repérage actuel, pas une certification du nom officiel sous occupation. Forme historique à contrôler avant import définitif des noms."
+        }
+      }
+    },
+    {
+      "entite_id": "ville-pl-sosnowiec",
+      "type_entite": "ville",
+      "nom": "Sosnowiec",
+      "nom_local": "Sosnowiec",
+      "aliases": [],
+      "zone_geographique": "Pologne",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "rail"
+        ],
+        "note": "Fonction historique retenue ; état précis du service au passage à 1945 non établi.",
+        "sources": [
+          "src-14-pl-sosnowiec-rail"
+        ],
+        "source_role_a_renforcer": false
+      },
+      "audit": {
+        "decision": "retenir",
+        "justification_importance": "Grand relais ferroviaire du bassin de Dąbrowa.",
+        "preuves_roles": {
+          "rail": {
+            "sources": [
+              "src-14-pl-sosnowiec-rail"
+            ],
+            "justification": "Gare Sosnowice Warszawskie depuis 1859.",
+            "nature": "attestation_historique_structurelle"
+          }
+        },
+        "geometrie": {
+          "statut": "a_normaliser_dans_le_depot",
+          "ancrage": "Centre historique et gare principale ; ne pas utiliser la gare de Maczki comme ancrage par défaut."
+        },
+        "etat_exploitation": {
+          "statut": "non_certifie_au_snapshot",
+          "principe": "La présence du point et ses fonctions structurelles ne certifient pas un trafic normal à minuit."
+        },
+        "nomenclature": {
+          "statut": "libelle_geographique_de_travail",
+          "note": "Libellé de repérage actuel, pas une certification du nom officiel sous occupation. Forme historique à contrôler avant import définitif des noms."
+        }
+      }
+    },
+    {
+      "entite_id": "ville-pl-walbrzych",
+      "type_entite": "ville",
+      "nom": "Wałbrzych",
+      "nom_local": "Wałbrzych",
+      "aliases": [],
+      "zone_geographique": "Pologne",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "industrie"
+        ],
+        "note": "Libellé géographique actuel ; nomenclature Waldenburg et limites historiques à normaliser.",
+        "sources": [
+          "src-14-pl-walbrzych-charbon"
+        ],
+        "source_role_a_renforcer": false
+      },
+      "audit": {
+        "decision": "retenir",
+        "justification_importance": "Pôle charbonnier de Basse-Silésie.",
+        "preuves_roles": {
+          "industrie": {
+            "sources": [
+              "src-14-pl-walbrzych-charbon"
+            ],
+            "justification": "Puits et groupe minier documentés avant 1930.",
+            "nature": "attestation_historique_structurelle"
+          }
+        },
+        "geometrie": {
+          "statut": "a_normaliser_dans_le_depot",
+          "ancrage": "Bassin urbain et puits historiques ; limites contemporaines non reprises."
+        },
+        "etat_exploitation": {
+          "statut": "non_certifie_au_snapshot",
+          "principe": "La présence du point et ses fonctions structurelles ne certifient pas un trafic normal à minuit."
+        },
+        "nomenclature": {
+          "statut": "libelle_geographique_de_travail",
+          "note": "Libellé de repérage actuel, pas une certification du nom officiel sous occupation. Forme historique à contrôler avant import définitif des noms."
+        }
+      }
+    },
+    {
+      "entite_id": "ville-pl-radom",
+      "type_entite": "ville",
+      "nom": "Radom",
+      "nom_local": "Radom",
+      "aliases": [],
+      "zone_geographique": "Pologne",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "industrie"
+        ],
+        "note": "Fonction historique retenue ; état précis du service au passage à 1945 non établi.",
+        "sources": [
+          "src-14-pl-radom-armes"
+        ],
+        "source_role_a_renforcer": false
+      },
+      "audit": {
+        "decision": "retenir",
+        "justification_importance": "Centre de fabrication d’armement lié à des flux industriels importants.",
+        "preuves_roles": {
+          "industrie": {
+            "sources": [
+              "src-14-pl-radom-armes"
+            ],
+            "justification": "Fabrique d’armes produisant depuis 1927 et documentée sous occupation.",
+            "nature": "attestation_historique_structurelle"
+          }
+        },
+        "geometrie": {
+          "statut": "a_normaliser_dans_le_depot",
+          "ancrage": "Noyau historique et infrastructure documentée ; aucune coordonnée ajoutée."
+        },
+        "etat_exploitation": {
+          "statut": "non_certifie_au_snapshot",
+          "principe": "La présence du point et ses fonctions structurelles ne certifient pas un trafic normal à minuit."
+        },
+        "nomenclature": {
+          "statut": "libelle_geographique_de_travail",
+          "note": "Libellé de repérage actuel, pas une certification du nom officiel sous occupation. Forme historique à contrôler avant import définitif des noms."
+        }
+      }
+    },
+    {
+      "entite_id": "ville-pl-lublin",
+      "type_entite": "ville",
+      "nom": "Lublin",
+      "nom_local": "Lublin",
+      "aliases": [],
+      "zone_geographique": "Pologne",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "administration"
+        ],
+        "note": "Le PKWN a été transformé en gouvernement provisoire fin 1944 : ne pas conserver son nom comme institution active au snapshot. Le rôle ferroviaire, probable, reste non ajouté faute de preuve spécifique dans ce lot.",
+        "sources": [
+          "src-14-pl-lublin-administration"
+        ],
+        "source_role_a_renforcer": false
+      },
+      "audit": {
+        "decision": "retenir",
+        "justification_importance": "Centre administratif temporaire de portée nationale.",
+        "preuves_roles": {
+          "administration": {
+            "sources": [
+              "src-14-pl-lublin-administration"
+            ],
+            "justification": "Siège du PKWN en 1944, puis du gouvernement provisoire à la fin de décembre.",
+            "nature": "attestation_historique_structurelle"
+          }
+        },
+        "geometrie": {
+          "statut": "a_normaliser_dans_le_depot",
+          "ancrage": "Noyau historique et infrastructure documentée ; aucune coordonnée ajoutée."
+        },
+        "etat_exploitation": {
+          "statut": "non_certifie_au_snapshot",
+          "principe": "La présence du point et ses fonctions structurelles ne certifient pas un trafic normal à minuit."
+        },
+        "nomenclature": {
+          "statut": "libelle_geographique_de_travail",
+          "note": "Libellé de repérage actuel, pas une certification du nom officiel sous occupation. Forme historique à contrôler avant import définitif des noms."
+        }
+      }
+    },
+    {
+      "entite_id": "ville-pl-chelm",
+      "type_entite": "ville",
+      "nom": "Chełm",
+      "nom_local": "Chełm",
+      "aliases": [],
+      "zone_geographique": "Pologne",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "C",
+        "roles": [
+          "rail"
+        ],
+        "note": "Gare détruite en 1944. Le rôle politique de juillet 1944 ne signifie pas siège gouvernemental encore actif en janvier 1945.",
+        "sources": [
+          "src-14-pl-chelm-rail"
+        ],
+        "source_role_a_renforcer": false
+      },
+      "audit": {
+        "decision": "retenir",
+        "justification_importance": "Relais ferroviaire régional vers les axes orientaux.",
+        "preuves_roles": {
+          "rail": {
+            "sources": [
+              "src-14-pl-chelm-rail"
+            ],
+            "justification": "Lignes de 1877 et 1887.",
+            "nature": "attestation_historique_structurelle"
+          }
+        },
+        "geometrie": {
+          "statut": "a_normaliser_dans_le_depot",
+          "ancrage": "Noyau historique et infrastructure documentée ; aucune coordonnée ajoutée."
+        },
+        "etat_exploitation": {
+          "statut": "non_certifie_au_snapshot",
+          "principe": "La présence du point et ses fonctions structurelles ne certifient pas un trafic normal à minuit."
+        },
+        "nomenclature": {
+          "statut": "libelle_geographique_de_travail",
+          "note": "Libellé de repérage actuel, pas une certification du nom officiel sous occupation. Forme historique à contrôler avant import définitif des noms."
+        }
+      }
+    },
+    {
+      "entite_id": "ville-pl-bialystok",
+      "type_entite": "ville",
+      "nom": "Białystok",
+      "nom_local": "Białystok",
+      "aliases": [],
+      "zone_geographique": "Pologne",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "rail"
+        ],
+        "note": "Fonction historique retenue ; état précis du service au passage à 1945 non établi.",
+        "sources": [
+          "src-14-pl-bialystok-rail"
+        ],
+        "source_role_a_renforcer": false
+      },
+      "audit": {
+        "decision": "retenir",
+        "justification_importance": "Nœud de plusieurs corridors ferroviaires orientaux.",
+        "preuves_roles": {
+          "rail": {
+            "sources": [
+              "src-14-pl-bialystok-rail"
+            ],
+            "justification": "Liaisons ferroviaires de 1862, 1873 et 1886.",
+            "nature": "attestation_historique_structurelle"
+          }
+        },
+        "geometrie": {
+          "statut": "a_normaliser_dans_le_depot",
+          "ancrage": "Noyau historique et infrastructure documentée ; aucune coordonnée ajoutée."
+        },
+        "etat_exploitation": {
+          "statut": "non_certifie_au_snapshot",
+          "principe": "La présence du point et ses fonctions structurelles ne certifient pas un trafic normal à minuit."
+        },
+        "nomenclature": {
+          "statut": "libelle_geographique_de_travail",
+          "note": "Libellé de repérage actuel, pas une certification du nom officiel sous occupation. Forme historique à contrôler avant import définitif des noms."
+        }
+      }
+    },
+    {
+      "entite_id": "ville-pl-stalowa-wola",
+      "type_entite": "ville",
+      "nom": "Stalowa Wola",
+      "nom_local": "Stalowa Wola",
+      "aliases": [],
+      "zone_geographique": "Pologne",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "industrie"
+        ],
+        "note": "L’installation industrielle préexiste aux statuts municipaux ultérieurs ; le point n’est pas écarté pour ce motif.",
+        "sources": [
+          "src-14-pl-stalowa-wola-industrie"
+        ],
+        "source_role_a_renforcer": false
+      },
+      "audit": {
+        "decision": "retenir",
+        "justification_importance": "Pôle de l’industrie mécanique créé avant la guerre.",
+        "preuves_roles": {
+          "industrie": {
+            "sources": [
+              "src-14-pl-stalowa-wola-industrie"
+            ],
+            "justification": "Usine et cité industrielle inaugurées en juin 1939.",
+            "nature": "attestation_historique_structurelle"
+          }
+        },
+        "geometrie": {
+          "statut": "a_normaliser_dans_le_depot",
+          "ancrage": "Noyau historique et infrastructure documentée ; aucune coordonnée ajoutée."
+        },
+        "etat_exploitation": {
+          "statut": "non_certifie_au_snapshot",
+          "principe": "La présence du point et ses fonctions structurelles ne certifient pas un trafic normal à minuit."
+        },
+        "nomenclature": {
+          "statut": "libelle_geographique_de_travail",
+          "note": "Libellé de repérage actuel, pas une certification du nom officiel sous occupation. Forme historique à contrôler avant import définitif des noms."
+        }
+      }
+    },
+    {
+      "entite_id": "ville-pl-mielec",
+      "type_entite": "ville",
+      "nom": "Mielec",
+      "nom_local": "Mielec",
+      "aliases": [],
+      "zone_geographique": "Pologne",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "industrie"
+        ],
+        "note": "Le rôle industrie est retenu ; aucune fonction de transport aérien ou d’aéroport n’est déduite de la seule usine.",
+        "sources": [
+          "src-14-pl-mielec-industrie"
+        ],
+        "source_role_a_renforcer": false
+      },
+      "audit": {
+        "decision": "retenir",
+        "justification_importance": "Pôle de production et réparation industrielle aéronautique.",
+        "preuves_roles": {
+          "industrie": {
+            "sources": [
+              "src-14-pl-mielec-industrie"
+            ],
+            "justification": "Usine aéronautique d’avant-guerre ; réparation d’avions documentée en 1944.",
+            "nature": "attestation_historique_structurelle"
+          }
+        },
+        "geometrie": {
+          "statut": "a_normaliser_dans_le_depot",
+          "ancrage": "Noyau historique et infrastructure documentée ; aucune coordonnée ajoutée."
+        },
+        "etat_exploitation": {
+          "statut": "non_certifie_au_snapshot",
+          "principe": "La présence du point et ses fonctions structurelles ne certifient pas un trafic normal à minuit."
+        },
+        "nomenclature": {
+          "statut": "libelle_geographique_de_travail",
+          "note": "Libellé de repérage actuel, pas une certification du nom officiel sous occupation. Forme historique à contrôler avant import définitif des noms."
+        }
+      }
+    },
+    {
+      "entite_id": "ville-pl-tarnow",
+      "type_entite": "ville",
+      "nom": "Tarnów",
+      "nom_local": "Tarnów",
+      "aliases": [],
+      "zone_geographique": "Pologne",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "C",
+        "roles": [
+          "rail"
+        ],
+        "note": "Fonction historique retenue ; état précis du service au passage à 1945 non établi.",
+        "sources": [
+          "src-14-pl-tarnow-rail"
+        ],
+        "source_role_a_renforcer": false
+      },
+      "audit": {
+        "decision": "retenir",
+        "justification_importance": "Relais régional sur l’axe ferroviaire de Galicie.",
+        "preuves_roles": {
+          "rail": {
+            "sources": [
+              "src-14-pl-tarnow-rail"
+            ],
+            "justification": "Ligne ouverte en 1856.",
+            "nature": "attestation_historique_structurelle"
+          }
+        },
+        "geometrie": {
+          "statut": "a_normaliser_dans_le_depot",
+          "ancrage": "Noyau historique et infrastructure documentée ; aucune coordonnée ajoutée."
+        },
+        "etat_exploitation": {
+          "statut": "non_certifie_au_snapshot",
+          "principe": "La présence du point et ses fonctions structurelles ne certifient pas un trafic normal à minuit."
+        },
+        "nomenclature": {
+          "statut": "libelle_geographique_de_travail",
+          "note": "Libellé de repérage actuel, pas une certification du nom officiel sous occupation. Forme historique à contrôler avant import définitif des noms."
+        }
+      }
+    },
+    {
+      "entite_id": "ville-pl-przemysl",
+      "type_entite": "ville",
+      "nom": "Przemyśl",
+      "nom_local": "Przemyśl",
+      "aliases": [],
+      "zone_geographique": "Pologne",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "rail"
+        ],
+        "note": "Le tracé historique n’attribue pas les frontières ou souverainetés de 1945 ; service exact non certifié.",
+        "sources": [
+          "src-14-pl-tarnow-rail"
+        ],
+        "source_role_a_renforcer": false
+      },
+      "audit": {
+        "decision": "retenir",
+        "justification_importance": "Nœud de passage structurant entre réseaux de Galicie et axes orientaux.",
+        "preuves_roles": {
+          "rail": {
+            "sources": [
+              "src-14-pl-tarnow-rail"
+            ],
+            "justification": "Axe Vienne–Cracovie–Tarnów–Przemyśl–Lviv attesté avant 1900.",
+            "nature": "attestation_historique_structurelle"
+          }
+        },
+        "geometrie": {
+          "statut": "a_normaliser_dans_le_depot",
+          "ancrage": "Noyau historique et infrastructure documentée ; aucune coordonnée ajoutée."
+        },
+        "etat_exploitation": {
+          "statut": "non_certifie_au_snapshot",
+          "principe": "La présence du point et ses fonctions structurelles ne certifient pas un trafic normal à minuit."
+        },
+        "nomenclature": {
+          "statut": "libelle_geographique_de_travail",
+          "note": "Libellé de repérage actuel, pas une certification du nom officiel sous occupation. Forme historique à contrôler avant import définitif des noms."
+        }
+      }
+    },
+    {
+      "entite_id": "ville-pl-rzeszow",
+      "type_entite": "ville",
+      "nom": "Rzeszów",
+      "nom_local": "Rzeszów",
+      "aliases": [],
+      "zone_geographique": "Pologne",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "industrie"
+        ],
+        "note": "Pas d’aviation de transport déduite de la construction mécanique.",
+        "sources": [
+          "src-14-pl-rzeszow-industrie"
+        ],
+        "source_role_a_renforcer": false
+      },
+      "audit": {
+        "decision": "retenir",
+        "justification_importance": "Pôle industriel du programme d’avant-guerre.",
+        "preuves_roles": {
+          "industrie": {
+            "sources": [
+              "src-14-pl-rzeszow-industrie"
+            ],
+            "justification": "Centre mécanique développé en 1937–1939.",
+            "nature": "attestation_historique_structurelle"
+          }
+        },
+        "geometrie": {
+          "statut": "a_normaliser_dans_le_depot",
+          "ancrage": "Noyau historique et sites industriels à localiser séparément ; les extensions modernes ne sont pas présumées."
+        },
+        "etat_exploitation": {
+          "statut": "non_certifie_au_snapshot",
+          "principe": "La présence du point et ses fonctions structurelles ne certifient pas un trafic normal à minuit."
+        },
+        "nomenclature": {
+          "statut": "libelle_geographique_de_travail",
+          "note": "Libellé de repérage actuel, pas une certification du nom officiel sous occupation. Forme historique à contrôler avant import définitif des noms."
+        }
+      }
+    },
+    {
+      "entite_id": "ville-pl-elblag",
+      "type_entite": "ville",
+      "nom": "Elbląg",
+      "nom_local": "Elbląg",
+      "aliases": [],
+      "zone_geographique": "Pologne",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "industrie"
+        ],
+        "note": "Les appellations et entreprises de l’après-guerre ne sont pas rétrodatées. Le rôle de chantier naval propre à Elbląg devra être étayé séparément.",
+        "sources": [
+          "src-14-pl-gdansk-schichau"
+        ],
+        "source_role_a_renforcer": false
+      },
+      "audit": {
+        "decision": "retenir",
+        "justification_importance": "Centre industriel de construction mécanique navale.",
+        "preuves_roles": {
+          "industrie": {
+            "sources": [
+              "src-14-pl-gdansk-schichau"
+            ],
+            "justification": "Turbines et moteurs navals Schichau avant 1914.",
+            "nature": "attestation_historique_structurelle"
+          }
+        },
+        "geometrie": {
+          "statut": "a_normaliser_dans_le_depot",
+          "ancrage": "Noyau historique et infrastructure documentée ; aucune coordonnée ajoutée."
+        },
+        "etat_exploitation": {
+          "statut": "non_certifie_au_snapshot",
+          "principe": "La présence du point et ses fonctions structurelles ne certifient pas un trafic normal à minuit."
+        },
+        "nomenclature": {
+          "statut": "libelle_geographique_de_travail",
+          "note": "Libellé de repérage actuel, pas une certification du nom officiel sous occupation. Forme historique à contrôler avant import définitif des noms."
+        }
+      }
+    },
+    {
+      "entite_id": "ville-pl-kedzierzyn",
+      "type_entite": "ville",
+      "nom": "Kędzierzyn",
+      "nom_local": "Kędzierzyn",
+      "aliases": [],
+      "zone_geographique": "Pologne",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "rail"
+        ],
+        "note": "Kędzierzyn-Koźle n’est pas une commune unique à importer au snapshot.",
+        "sources": [
+          "src-14-pl-kedzierzyn-kozle"
+        ],
+        "source_role_a_renforcer": false
+      },
+      "audit": {
+        "decision": "retenir",
+        "justification_importance": "Nœud ferroviaire distinct des autres centres réunis après-guerre.",
+        "preuves_roles": {
+          "rail": {
+            "sources": [
+              "src-14-pl-kedzierzyn-kozle"
+            ],
+            "justification": "Station sur la ligne ouverte en 1845.",
+            "nature": "attestation_historique_structurelle"
+          }
+        },
+        "geometrie": {
+          "statut": "a_normaliser_dans_le_depot",
+          "ancrage": "Gare et habitat ferroviaire de Kędzierzyn ; ne pas fusionner avec le port de Koźle."
+        },
+        "etat_exploitation": {
+          "statut": "non_certifie_au_snapshot",
+          "principe": "La présence du point et ses fonctions structurelles ne certifient pas un trafic normal à minuit."
+        },
+        "nomenclature": {
+          "statut": "libelle_geographique_de_travail",
+          "note": "Libellé de repérage actuel, pas une certification du nom officiel sous occupation. Forme historique à contrôler avant import définitif des noms."
+        }
+      }
+    },
+    {
+      "entite_id": "ville-pl-kozle",
+      "type_entite": "ville",
+      "nom": "Koźle — port",
+      "nom_local": "Koźle",
+      "aliases": [],
+      "zone_geographique": "Pologne",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "port_fluvial"
+        ],
+        "note": "Rang B du nœud portuaire ; rattachement municipal exact du terrain portuaire à vérifier.",
+        "sources": [
+          "src-14-pl-kedzierzyn-kozle"
+        ],
+        "source_role_a_renforcer": false
+      },
+      "audit": {
+        "decision": "retenir",
+        "justification_importance": "Interface fluviale et ferroviaire de l’Oder, à distinguer du point Kędzierzyn.",
+        "preuves_roles": {
+          "port_fluvial": {
+            "sources": [
+              "src-14-pl-kedzierzyn-kozle"
+            ],
+            "justification": "Port aménagé en 1891–1908.",
+            "nature": "attestation_historique_structurelle"
+          }
+        },
+        "geometrie": {
+          "statut": "a_normaliser_dans_le_depot",
+          "ancrage": "Bassins historiques du port de Koźle ; pas le centre ancien de la ville par défaut."
+        },
+        "etat_exploitation": {
+          "statut": "non_certifie_au_snapshot",
+          "principe": "La présence du point et ses fonctions structurelles ne certifient pas un trafic normal à minuit."
+        },
+        "nomenclature": {
+          "statut": "libelle_geographique_de_travail",
+          "note": "Libellé de repérage actuel, pas une certification du nom officiel sous occupation. Forme historique à contrôler avant import définitif des noms."
+        }
+      }
+    },
+    {
+      "entite_id": "ville-ee-tallinn",
+      "type_entite": "ville",
+      "nom": "Tallinn",
+      "nom_local": "Tallinn",
+      "aliases": [],
+      "zone_geographique": "Estonie",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "rail",
+          "port_maritime",
+          "administration"
+        ],
+        "note": "Bombardement de mars 1944 ; pouvoir soviétique rétabli en septembre. Nõmme avait déjà été intégré en 1940.",
+        "sources": [
+          "src-14-ee-rail-histoire",
+          "src-14-ee-tallinn-histoire"
+        ],
+        "source_role_a_renforcer": false
+      },
+      "audit": {
+        "decision": "retenir",
+        "justification_importance": "Principal pôle portuaire et administratif estonien.",
+        "preuves_roles": {
+          "rail": {
+            "sources": [
+              "src-14-ee-rail-histoire"
+            ],
+            "justification": "Ligne baltique depuis 1870.",
+            "nature": "attestation_historique_structurelle"
+          },
+          "port_maritime": {
+            "sources": [
+              "src-14-ee-tallinn-histoire"
+            ],
+            "justification": "Port et chantiers documentés avant 1914.",
+            "nature": "attestation_historique_structurelle"
+          },
+          "administration": {
+            "sources": [
+              "src-14-ee-tallinn-histoire"
+            ],
+            "justification": "Capitale de la RSS en 1940 ; retour des autorités soviétiques en 1944.",
+            "nature": "attestation_historique_structurelle"
+          }
+        },
+        "geometrie": {
+          "statut": "a_normaliser_dans_le_depot",
+          "ancrage": "Noyau historique et infrastructure documentée ; aucune coordonnée ajoutée."
+        },
+        "etat_exploitation": {
+          "statut": "non_certifie_au_snapshot",
+          "principe": "La présence du point et ses fonctions structurelles ne certifient pas un trafic normal à minuit."
+        },
+        "nomenclature": {
+          "statut": "forme_historique_etayee",
+          "note": "Nom/exonyme historique documenté ; intervalles de changement à normaliser."
+        },
+        "capitale_a_arbitrer": {
+          "proposition": "regionale",
+          "statut": "non_arbitre",
+          "sources": [
+            "src-14-ee-tallinn-histoire"
+          ],
+          "justification": "Siège de la RSS d’Estonie sous contrôle soviétique ; continuité juridique nationale à traiter distinctement.",
+          "effet": "Ajouter le champ capitale après harmonisation ; rang inchangé."
+        }
+      }
+    },
+    {
+      "entite_id": "ville-ee-tartu",
+      "type_entite": "ville",
+      "nom": "Tartu",
+      "nom_local": "Tartu",
+      "aliases": [],
+      "zone_geographique": "Estonie",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "C",
+        "roles": [
+          "rail"
+        ],
+        "note": "Fonction historique retenue ; état précis du service au passage à 1945 non établi.",
+        "sources": [
+          "src-14-ee-rail-histoire"
+        ],
+        "source_role_a_renforcer": false
+      },
+      "audit": {
+        "decision": "retenir",
+        "justification_importance": "Relais ferroviaire de l’intérieur estonien.",
+        "preuves_roles": {
+          "rail": {
+            "sources": [
+              "src-14-ee-rail-histoire"
+            ],
+            "justification": "Ligne Tapa–Tartu depuis 1877.",
+            "nature": "attestation_historique_structurelle"
+          }
+        },
+        "geometrie": {
+          "statut": "a_normaliser_dans_le_depot",
+          "ancrage": "Noyau historique et infrastructure documentée ; aucune coordonnée ajoutée."
+        },
+        "etat_exploitation": {
+          "statut": "non_certifie_au_snapshot",
+          "principe": "La présence du point et ses fonctions structurelles ne certifient pas un trafic normal à minuit."
+        },
+        "nomenclature": {
+          "statut": "libelle_geographique_de_travail",
+          "note": "Libellé de repérage actuel, pas une certification du nom officiel sous occupation. Forme historique à contrôler avant import définitif des noms."
+        }
+      }
+    },
+    {
+      "entite_id": "ville-ee-narva",
+      "type_entite": "ville",
+      "nom": "Narva",
+      "nom_local": "Narva",
+      "aliases": [],
+      "zone_geographique": "Estonie",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "rail"
+        ],
+        "note": "Destructions massives de 1944. Aucun fonctionnement intact ni périmètre englobant automatiquement Ivangorod n’est supposé.",
+        "sources": [
+          "src-14-ee-rail-histoire",
+          "src-14-ee-narva-destruction"
+        ],
+        "source_role_a_renforcer": false
+      },
+      "audit": {
+        "decision": "retenir",
+        "justification_importance": "Passage ferroviaire structurant, conservé comme rupture du réseau.",
+        "preuves_roles": {
+          "rail": {
+            "sources": [
+              "src-14-ee-rail-histoire"
+            ],
+            "justification": "Réseau baltique depuis 1870.",
+            "nature": "attestation_historique_structurelle"
+          }
+        },
+        "geometrie": {
+          "statut": "a_normaliser_dans_le_depot",
+          "ancrage": "Noyau historique et infrastructure documentée ; aucune coordonnée ajoutée."
+        },
+        "etat_exploitation": {
+          "statut": "non_certifie_au_snapshot",
+          "principe": "La présence du point et ses fonctions structurelles ne certifient pas un trafic normal à minuit."
+        },
+        "nomenclature": {
+          "statut": "libelle_geographique_de_travail",
+          "note": "Libellé de repérage actuel, pas une certification du nom officiel sous occupation. Forme historique à contrôler avant import définitif des noms."
+        }
+      }
+    },
+    {
+      "entite_id": "ville-ee-tapa",
+      "type_entite": "ville",
+      "nom": "Tapa",
+      "nom_local": "Tapa",
+      "aliases": [],
+      "zone_geographique": "Estonie",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "rail"
+        ],
+        "note": "Fonction historique retenue ; état précis du service au passage à 1945 non établi.",
+        "sources": [
+          "src-14-ee-rail-histoire"
+        ],
+        "source_role_a_renforcer": false
+      },
+      "audit": {
+        "decision": "retenir",
+        "justification_importance": "Jonction ferroviaire majeure malgré une petite agglomération.",
+        "preuves_roles": {
+          "rail": {
+            "sources": [
+              "src-14-ee-rail-histoire"
+            ],
+            "justification": "Intersection des lignes de 1870 et 1877.",
+            "nature": "attestation_historique_structurelle"
+          }
+        },
+        "geometrie": {
+          "statut": "a_normaliser_dans_le_depot",
+          "ancrage": "Noyau historique et infrastructure documentée ; aucune coordonnée ajoutée."
+        },
+        "etat_exploitation": {
+          "statut": "non_certifie_au_snapshot",
+          "principe": "La présence du point et ses fonctions structurelles ne certifient pas un trafic normal à minuit."
+        },
+        "nomenclature": {
+          "statut": "libelle_geographique_de_travail",
+          "note": "Libellé de repérage actuel, pas une certification du nom officiel sous occupation. Forme historique à contrôler avant import définitif des noms."
+        }
+      }
+    },
+    {
+      "entite_id": "ville-ee-valga",
+      "type_entite": "ville",
+      "nom": "Valga",
+      "nom_local": "Valga",
+      "aliases": [],
+      "zone_geographique": "Estonie",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "rail"
+        ],
+        "note": "Valga et Valka sont distinguées depuis 1920. Pas de rôle frontière international ajouté au seul motif de cette partition.",
+        "sources": [
+          "src-14-ee-rail-histoire",
+          "src-14-ee-valga-valka"
+        ],
+        "source_role_a_renforcer": false
+      },
+      "audit": {
+        "decision": "retenir",
+        "justification_importance": "Nœud ferroviaire au contact des réseaux estonien et letton.",
+        "preuves_roles": {
+          "rail": {
+            "sources": [
+              "src-14-ee-rail-histoire"
+            ],
+            "justification": "Liaisons de la fin des années 1880.",
+            "nature": "attestation_historique_structurelle"
+          }
+        },
+        "geometrie": {
+          "statut": "a_normaliser_dans_le_depot",
+          "ancrage": "Gare et noyau de Valga côté estonien ; ne pas représenter l’ancien Walk comme commune indivise."
+        },
+        "etat_exploitation": {
+          "statut": "non_certifie_au_snapshot",
+          "principe": "La présence du point et ses fonctions structurelles ne certifient pas un trafic normal à minuit."
+        },
+        "nomenclature": {
+          "statut": "libelle_geographique_de_travail",
+          "note": "Libellé de repérage actuel, pas une certification du nom officiel sous occupation. Forme historique à contrôler avant import définitif des noms."
+        }
+      }
+    },
+    {
+      "entite_id": "ville-ee-paldiski",
+      "type_entite": "ville",
+      "nom": "Paldiski",
+      "nom_local": "Paldiski",
+      "aliases": [],
+      "zone_geographique": "Estonie",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "C",
+        "roles": [
+          "rail"
+        ],
+        "note": "Le rôle maritime historique reste à renforcer ; les terminaux actuels ne constituent pas une preuve pour 1945.",
+        "sources": [
+          "src-14-ee-rail-histoire"
+        ],
+        "source_role_a_renforcer": false
+      },
+      "audit": {
+        "decision": "retenir",
+        "justification_importance": "Extrémité régionale du corridor ferroviaire baltique.",
+        "preuves_roles": {
+          "rail": {
+            "sources": [
+              "src-14-ee-rail-histoire"
+            ],
+            "justification": "Terminus de la ligne de 1870.",
+            "nature": "attestation_historique_structurelle"
+          }
+        },
+        "geometrie": {
+          "statut": "a_normaliser_dans_le_depot",
+          "ancrage": "Noyau historique et infrastructure documentée ; aucune coordonnée ajoutée."
+        },
+        "etat_exploitation": {
+          "statut": "non_certifie_au_snapshot",
+          "principe": "La présence du point et ses fonctions structurelles ne certifient pas un trafic normal à minuit."
+        },
+        "nomenclature": {
+          "statut": "libelle_geographique_de_travail",
+          "note": "Libellé de repérage actuel, pas une certification du nom officiel sous occupation. Forme historique à contrôler avant import définitif des noms."
+        }
+      }
+    },
+    {
+      "entite_id": "ville-ee-parnu",
+      "type_entite": "ville",
+      "nom": "Pärnu",
+      "nom_local": "Pärnu",
+      "aliases": [],
+      "zone_geographique": "Estonie",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "C",
+        "roles": [
+          "rail"
+        ],
+        "note": "Le port contemporain n’est pas utilisé pour ajouter automatiquement un rôle maritime historique.",
+        "sources": [
+          "src-14-ee-rail-histoire"
+        ],
+        "source_role_a_renforcer": false
+      },
+      "audit": {
+        "decision": "retenir",
+        "justification_importance": "Relais régional du réseau à voie étroite.",
+        "preuves_roles": {
+          "rail": {
+            "sources": [
+              "src-14-ee-rail-histoire"
+            ],
+            "justification": "Chemin de fer à voie étroite depuis 1896.",
+            "nature": "attestation_historique_structurelle"
+          }
+        },
+        "geometrie": {
+          "statut": "a_normaliser_dans_le_depot",
+          "ancrage": "Noyau historique et infrastructure documentée ; aucune coordonnée ajoutée."
+        },
+        "etat_exploitation": {
+          "statut": "non_certifie_au_snapshot",
+          "principe": "La présence du point et ses fonctions structurelles ne certifient pas un trafic normal à minuit."
+        },
+        "nomenclature": {
+          "statut": "libelle_geographique_de_travail",
+          "note": "Libellé de repérage actuel, pas une certification du nom officiel sous occupation. Forme historique à contrôler avant import définitif des noms."
+        }
+      }
+    },
+    {
+      "entite_id": "ville-ee-viljandi",
+      "type_entite": "ville",
+      "nom": "Viljandi",
+      "nom_local": "Viljandi",
+      "aliases": [],
+      "zone_geographique": "Estonie",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "C",
+        "roles": [
+          "rail"
+        ],
+        "note": "Fonction historique retenue ; état précis du service au passage à 1945 non établi.",
+        "sources": [
+          "src-14-ee-rail-histoire"
+        ],
+        "source_role_a_renforcer": false
+      },
+      "audit": {
+        "decision": "retenir",
+        "justification_importance": "Relais intérieur du réseau ferroviaire régional.",
+        "preuves_roles": {
+          "rail": {
+            "sources": [
+              "src-14-ee-rail-histoire"
+            ],
+            "justification": "Chemin de fer depuis 1897.",
+            "nature": "attestation_historique_structurelle"
+          }
+        },
+        "geometrie": {
+          "statut": "a_normaliser_dans_le_depot",
+          "ancrage": "Noyau historique et infrastructure documentée ; aucune coordonnée ajoutée."
+        },
+        "etat_exploitation": {
+          "statut": "non_certifie_au_snapshot",
+          "principe": "La présence du point et ses fonctions structurelles ne certifient pas un trafic normal à minuit."
+        },
+        "nomenclature": {
+          "statut": "libelle_geographique_de_travail",
+          "note": "Libellé de repérage actuel, pas une certification du nom officiel sous occupation. Forme historique à contrôler avant import définitif des noms."
+        }
+      }
+    },
+    {
+      "entite_id": "ville-ee-kohtla-jarve",
+      "type_entite": "ville",
+      "nom": "Kohtla-Järve",
+      "nom_local": "Kohtla-Järve",
+      "aliases": [],
+      "zone_geographique": "Estonie",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "industrie"
+        ],
+        "note": "Ne pas rétrodater le nouveau complexe de 1945 ni l’ensemble de la commune polycentrique développée ensuite. État des anciennes unités fin 1944 à consolider.",
+        "sources": [
+          "src-14-ee-kohtla-jarve-industrie",
+          "src-14-ee-kohtla-jarve-perimetre"
+        ],
+        "source_role_a_renforcer": true
+      },
+      "audit": {
+        "decision": "retenir",
+        "justification_importance": "Pôle historique des schistes bitumineux, important pour les flux énergétiques.",
+        "preuves_roles": {
+          "industrie": {
+            "sources": [
+              "src-14-ee-kohtla-jarve-industrie"
+            ],
+            "justification": "Unités d’huile de schiste établies avant 1944.",
+            "nature": "attestation_historique_structurelle"
+          }
+        },
+        "geometrie": {
+          "statut": "a_normaliser_dans_le_depot",
+          "ancrage": "Ancien noyau industriel de Kohtla-Järve ; pas l’ensemble des centres de la commune contemporaine."
+        },
+        "etat_exploitation": {
+          "statut": "non_certifie_au_snapshot",
+          "principe": "La présence du point et ses fonctions structurelles ne certifient pas un trafic normal à minuit."
+        },
+        "nomenclature": {
+          "statut": "libelle_geographique_de_travail",
+          "note": "Libellé de repérage actuel, pas une certification du nom officiel sous occupation. Forme historique à contrôler avant import définitif des noms."
+        }
+      }
+    },
+    {
+      "entite_id": "ville-lv-riga",
+      "type_entite": "ville",
+      "nom": "Riga",
+      "nom_local": "Rīga",
+      "aliases": [],
+      "zone_geographique": "Lettonie",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "A",
+        "roles": [
+          "rail",
+          "port_maritime",
+          "administration"
+        ],
+        "note": "Riga prise en octobre 1944 ; ne pas étendre cette situation à toute la Courlande.",
+        "sources": [
+          "src-14-lv-rail-chronologie",
+          "src-14-lv-riga-port",
+          "src-14-lv-riga-administration",
+          "src-14-lv-fin-1944"
+        ],
+        "source_role_a_renforcer": false
+      },
+      "audit": {
+        "decision": "retenir",
+        "justification_importance": "Métropole baltique concentrant port, réseau ferroviaire et administrations.",
+        "preuves_roles": {
+          "rail": {
+            "sources": [
+              "src-14-lv-rail-chronologie"
+            ],
+            "justification": "Lignes structurantes ouvertes au XIXe siècle.",
+            "nature": "attestation_historique_structurelle"
+          },
+          "port_maritime": {
+            "sources": [
+              "src-14-lv-riga-port"
+            ],
+            "justification": "Développements portuaires avant 1939.",
+            "nature": "attestation_historique_structurelle"
+          },
+          "administration": {
+            "sources": [
+              "src-14-lv-riga-administration"
+            ],
+            "justification": "Institutions de la RSS revenues fin 1944.",
+            "nature": "attestation_historique_structurelle"
+          }
+        },
+        "geometrie": {
+          "statut": "a_normaliser_dans_le_depot",
+          "ancrage": "Noyau historique et infrastructure documentée ; aucune coordonnée ajoutée."
+        },
+        "etat_exploitation": {
+          "statut": "non_certifie_au_snapshot",
+          "principe": "La présence du point et ses fonctions structurelles ne certifient pas un trafic normal à minuit."
+        },
+        "nomenclature": {
+          "statut": "forme_historique_etayee",
+          "note": "Nom/exonyme historique documenté ; intervalles de changement à normaliser."
+        },
+        "capitale_a_arbitrer": {
+          "proposition": "regionale",
+          "statut": "non_arbitre",
+          "sources": [
+            "src-14-lv-riga-administration",
+            "src-14-lv-fin-1944"
+          ],
+          "justification": "Siège de la RSS de Lettonie ; ne pas effacer la continuité juridique nationale.",
+          "effet": "Ajouter le champ capitale après harmonisation ; rang inchangé."
+        }
+      }
+    },
+    {
+      "entite_id": "ville-lv-liepaja",
+      "type_entite": "ville",
+      "nom": "Liepāja",
+      "nom_local": "Liepāja",
+      "aliases": [],
+      "zone_geographique": "Lettonie",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "rail",
+          "port_maritime"
+        ],
+        "note": "Le contexte de Courlande sous contrôle allemand persiste à la fin de 1944 ; la capitale temporaire de 1919 n’est pas un statut du snapshot.",
+        "sources": [
+          "src-14-lv-rail-chronologie",
+          "src-14-lv-liepaja-port",
+          "src-14-lv-fin-1944"
+        ],
+        "source_role_a_renforcer": true
+      },
+      "audit": {
+        "decision": "retenir",
+        "justification_importance": "Grande interface maritime et ferroviaire de Courlande.",
+        "preuves_roles": {
+          "rail": {
+            "sources": [
+              "src-14-lv-rail-chronologie"
+            ],
+            "justification": "Lignes de 1871 et 1929.",
+            "nature": "attestation_historique_structurelle"
+          },
+          "port_maritime": {
+            "sources": [
+              "src-14-lv-liepaja-port"
+            ],
+            "justification": "Port commercial et transit maritime documentés avant 1914.",
+            "nature": "attestation_historique_structurelle"
+          }
+        },
+        "geometrie": {
+          "statut": "a_normaliser_dans_le_depot",
+          "ancrage": "Noyau historique et infrastructure documentée ; aucune coordonnée ajoutée."
+        },
+        "etat_exploitation": {
+          "statut": "non_certifie_au_snapshot",
+          "principe": "La présence du point et ses fonctions structurelles ne certifient pas un trafic normal à minuit."
+        },
+        "nomenclature": {
+          "statut": "libelle_geographique_de_travail",
+          "note": "Libellé de repérage actuel, pas une certification du nom officiel sous occupation. Forme historique à contrôler avant import définitif des noms."
+        }
+      }
+    },
+    {
+      "entite_id": "ville-lv-ventspils",
+      "type_entite": "ville",
+      "nom": "Ventspils",
+      "nom_local": "Ventspils",
+      "aliases": [],
+      "zone_geographique": "Lettonie",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "rail",
+          "port_maritime"
+        ],
+        "note": "Contexte allemand de Courlande fin 1944 ; aucun terminal pétrolier soviétique postérieur ajouté.",
+        "sources": [
+          "src-14-lv-rail-chronologie",
+          "src-14-lv-ventspils-port",
+          "src-14-lv-fin-1944"
+        ],
+        "source_role_a_renforcer": false
+      },
+      "audit": {
+        "decision": "retenir",
+        "justification_importance": "Port de Courlande lié aux corridors ferroviaires vers l’intérieur.",
+        "preuves_roles": {
+          "rail": {
+            "sources": [
+              "src-14-lv-rail-chronologie"
+            ],
+            "justification": "Axe ferroviaire de 1901–1904.",
+            "nature": "attestation_historique_structurelle"
+          },
+          "port_maritime": {
+            "sources": [
+              "src-14-lv-ventspils-port"
+            ],
+            "justification": "Port commercial antérieur à 1940.",
+            "nature": "attestation_historique_structurelle"
+          }
+        },
+        "geometrie": {
+          "statut": "a_normaliser_dans_le_depot",
+          "ancrage": "Noyau historique et infrastructure documentée ; aucune coordonnée ajoutée."
+        },
+        "etat_exploitation": {
+          "statut": "non_certifie_au_snapshot",
+          "principe": "La présence du point et ses fonctions structurelles ne certifient pas un trafic normal à minuit."
+        },
+        "nomenclature": {
+          "statut": "libelle_geographique_de_travail",
+          "note": "Libellé de repérage actuel, pas une certification du nom officiel sous occupation. Forme historique à contrôler avant import définitif des noms."
+        }
+      }
+    },
+    {
+      "entite_id": "ville-lv-daugavpils",
+      "type_entite": "ville",
+      "nom": "Daugavpils",
+      "nom_local": "Daugavpils",
+      "aliases": [],
+      "zone_geographique": "Lettonie",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "rail"
+        ],
+        "note": "Fonction historique retenue ; état précis du service au passage à 1945 non établi.",
+        "sources": [
+          "src-14-lv-rail-chronologie"
+        ],
+        "source_role_a_renforcer": false
+      },
+      "audit": {
+        "decision": "retenir",
+        "justification_importance": "Jonction de corridors baltiques et orientaux.",
+        "preuves_roles": {
+          "rail": {
+            "sources": [
+              "src-14-lv-rail-chronologie"
+            ],
+            "justification": "Convergence de lignes de 1860–1866.",
+            "nature": "attestation_historique_structurelle"
+          }
+        },
+        "geometrie": {
+          "statut": "a_normaliser_dans_le_depot",
+          "ancrage": "Noyau historique et infrastructure documentée ; aucune coordonnée ajoutée."
+        },
+        "etat_exploitation": {
+          "statut": "non_certifie_au_snapshot",
+          "principe": "La présence du point et ses fonctions structurelles ne certifient pas un trafic normal à minuit."
+        },
+        "nomenclature": {
+          "statut": "libelle_geographique_de_travail",
+          "note": "Libellé de repérage actuel, pas une certification du nom officiel sous occupation. Forme historique à contrôler avant import définitif des noms."
+        }
+      }
+    },
+    {
+      "entite_id": "ville-lv-jelgava",
+      "type_entite": "ville",
+      "nom": "Jelgava",
+      "nom_local": "Jelgava",
+      "aliases": [],
+      "zone_geographique": "Lettonie",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "rail"
+        ],
+        "note": "État des ouvrages après les combats de 1944 non établi par la chronologie des ouvertures.",
+        "sources": [
+          "src-14-lv-rail-chronologie"
+        ],
+        "source_role_a_renforcer": false
+      },
+      "audit": {
+        "decision": "retenir",
+        "justification_importance": "Jonction entre Riga, les ports de Courlande et le réseau lituanien.",
+        "preuves_roles": {
+          "rail": {
+            "sources": [
+              "src-14-lv-rail-chronologie"
+            ],
+            "justification": "Lignes de 1868, 1873 et 1904.",
+            "nature": "attestation_historique_structurelle"
+          }
+        },
+        "geometrie": {
+          "statut": "a_normaliser_dans_le_depot",
+          "ancrage": "Noyau historique et infrastructure documentée ; aucune coordonnée ajoutée."
+        },
+        "etat_exploitation": {
+          "statut": "non_certifie_au_snapshot",
+          "principe": "La présence du point et ses fonctions structurelles ne certifient pas un trafic normal à minuit."
+        },
+        "nomenclature": {
+          "statut": "libelle_geographique_de_travail",
+          "note": "Libellé de repérage actuel, pas une certification du nom officiel sous occupation. Forme historique à contrôler avant import définitif des noms."
+        }
+      }
+    },
+    {
+      "entite_id": "ville-lv-rezekne",
+      "type_entite": "ville",
+      "nom": "Rēzekne",
+      "nom_local": "Rēzekne",
+      "aliases": [],
+      "zone_geographique": "Lettonie",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "C",
+        "roles": [
+          "rail"
+        ],
+        "note": "Le rôle de grand croisement des lignes principales demande une source supplémentaire ; la preuve utilisée porte sur la liaison régionale.",
+        "sources": [
+          "src-14-lv-rail-chronologie"
+        ],
+        "source_role_a_renforcer": false
+      },
+      "audit": {
+        "decision": "retenir",
+        "justification_importance": "Relais ferroviaire de Latgale.",
+        "preuves_roles": {
+          "rail": {
+            "sources": [
+              "src-14-lv-rail-chronologie"
+            ],
+            "justification": "Liaison régionale Sita–Rēzekne de 1934.",
+            "nature": "attestation_historique_structurelle"
+          }
+        },
+        "geometrie": {
+          "statut": "a_normaliser_dans_le_depot",
+          "ancrage": "Noyau historique et infrastructure documentée ; aucune coordonnée ajoutée."
+        },
+        "etat_exploitation": {
+          "statut": "non_certifie_au_snapshot",
+          "principe": "La présence du point et ses fonctions structurelles ne certifient pas un trafic normal à minuit."
+        },
+        "nomenclature": {
+          "statut": "libelle_geographique_de_travail",
+          "note": "Libellé de repérage actuel, pas une certification du nom officiel sous occupation. Forme historique à contrôler avant import définitif des noms."
+        }
+      }
+    },
+    {
+      "entite_id": "ville-lv-krustpils",
+      "type_entite": "ville",
+      "nom": "Krustpils",
+      "nom_local": "Krustpils",
+      "aliases": [],
+      "zone_geographique": "Lettonie",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "rail"
+        ],
+        "note": "La liaison Krustpils–Jēkabpils a fermé en 1944 ; ne pas importer une traversée active ni la fusion municipale de 1962.",
+        "sources": [
+          "src-14-lv-rail-chronologie",
+          "src-14-lv-krustpils-jekabpils"
+        ],
+        "source_role_a_renforcer": false
+      },
+      "audit": {
+        "decision": "retenir",
+        "justification_importance": "Jonction ferroviaire distincte de Jēkabpils au snapshot.",
+        "preuves_roles": {
+          "rail": {
+            "sources": [
+              "src-14-lv-rail-chronologie"
+            ],
+            "justification": "Convergence d’axes ouverts au début du XXe siècle.",
+            "nature": "attestation_historique_structurelle"
+          }
+        },
+        "geometrie": {
+          "statut": "a_normaliser_dans_le_depot",
+          "ancrage": "Gare et noyau historique de Krustpils ; distinct de Jēkabpils sur l’autre rive."
+        },
+        "etat_exploitation": {
+          "statut": "non_certifie_au_snapshot",
+          "principe": "La présence du point et ses fonctions structurelles ne certifient pas un trafic normal à minuit."
+        },
+        "nomenclature": {
+          "statut": "libelle_geographique_de_travail",
+          "note": "Libellé de repérage actuel, pas une certification du nom officiel sous occupation. Forme historique à contrôler avant import définitif des noms."
+        }
+      }
+    },
+    {
+      "entite_id": "ville-lv-gulbene",
+      "type_entite": "ville",
+      "nom": "Gulbene",
+      "nom_local": "Gulbene",
+      "aliases": [],
+      "zone_geographique": "Lettonie",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "C",
+        "roles": [
+          "rail"
+        ],
+        "note": "Fonction historique retenue ; état précis du service au passage à 1945 non établi.",
+        "sources": [
+          "src-14-lv-rail-chronologie"
+        ],
+        "source_role_a_renforcer": false
+      },
+      "audit": {
+        "decision": "retenir",
+        "justification_importance": "Articulation régionale de réseaux de plusieurs écartements.",
+        "preuves_roles": {
+          "rail": {
+            "sources": [
+              "src-14-lv-rail-chronologie"
+            ],
+            "justification": "Axes à voies étroites et larges documentés avant 1917.",
+            "nature": "attestation_historique_structurelle"
+          }
+        },
+        "geometrie": {
+          "statut": "a_normaliser_dans_le_depot",
+          "ancrage": "Noyau historique et infrastructure documentée ; aucune coordonnée ajoutée."
+        },
+        "etat_exploitation": {
+          "statut": "non_certifie_au_snapshot",
+          "principe": "La présence du point et ses fonctions structurelles ne certifient pas un trafic normal à minuit."
+        },
+        "nomenclature": {
+          "statut": "libelle_geographique_de_travail",
+          "note": "Libellé de repérage actuel, pas une certification du nom officiel sous occupation. Forme historique à contrôler avant import définitif des noms."
+        }
+      }
+    },
+    {
+      "entite_id": "ville-lv-tukums",
+      "type_entite": "ville",
+      "nom": "Tukums",
+      "nom_local": "Tukums",
+      "aliases": [],
+      "zone_geographique": "Lettonie",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "C",
+        "roles": [
+          "rail"
+        ],
+        "note": "La percée soviétique de juillet 1944 ne suffit pas à fixer le contrôle du point fin décembre ; rattachement territorial à vérifier.",
+        "sources": [
+          "src-14-lv-rail-chronologie",
+          "src-14-lv-fin-1944"
+        ],
+        "source_role_a_renforcer": false
+      },
+      "audit": {
+        "decision": "retenir",
+        "justification_importance": "Relais de l’axe de Courlande.",
+        "preuves_roles": {
+          "rail": {
+            "sources": [
+              "src-14-lv-rail-chronologie"
+            ],
+            "justification": "Lignes de 1877 et 1901–1904.",
+            "nature": "attestation_historique_structurelle"
+          }
+        },
+        "geometrie": {
+          "statut": "a_normaliser_dans_le_depot",
+          "ancrage": "Noyau historique et infrastructure documentée ; aucune coordonnée ajoutée."
+        },
+        "etat_exploitation": {
+          "statut": "non_certifie_au_snapshot",
+          "principe": "La présence du point et ses fonctions structurelles ne certifient pas un trafic normal à minuit."
+        },
+        "nomenclature": {
+          "statut": "libelle_geographique_de_travail",
+          "note": "Libellé de repérage actuel, pas une certification du nom officiel sous occupation. Forme historique à contrôler avant import définitif des noms."
+        }
+      }
+    },
+    {
+      "entite_id": "ville-lv-valmiera",
+      "type_entite": "ville",
+      "nom": "Valmiera",
+      "nom_local": "Valmiera",
+      "aliases": [],
+      "zone_geographique": "Lettonie",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "C",
+        "roles": [
+          "rail"
+        ],
+        "note": "Le tableau historique permet la présence ferroviaire, sans mesure de trafic de 1944.",
+        "sources": [
+          "src-14-lv-rail-chronologie"
+        ],
+        "source_role_a_renforcer": false
+      },
+      "audit": {
+        "decision": "retenir",
+        "justification_importance": "Relais régional documenté dans le réseau de Vidzeme.",
+        "preuves_roles": {
+          "rail": {
+            "sources": [
+              "src-14-lv-rail-chronologie"
+            ],
+            "justification": "Ligne régionale à voie étroite de 1912.",
+            "nature": "attestation_historique_structurelle"
+          }
+        },
+        "geometrie": {
+          "statut": "a_normaliser_dans_le_depot",
+          "ancrage": "Noyau historique et infrastructure documentée ; aucune coordonnée ajoutée."
+        },
+        "etat_exploitation": {
+          "statut": "non_certifie_au_snapshot",
+          "principe": "La présence du point et ses fonctions structurelles ne certifient pas un trafic normal à minuit."
+        },
+        "nomenclature": {
+          "statut": "libelle_geographique_de_travail",
+          "note": "Libellé de repérage actuel, pas une certification du nom officiel sous occupation. Forme historique à contrôler avant import définitif des noms."
+        }
+      }
+    },
+    {
+      "entite_id": "ville-lt-vilnius",
+      "type_entite": "ville",
+      "nom": "Vilnius",
+      "nom_local": "Vilnius",
+      "aliases": [],
+      "zone_geographique": "Lituanie",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "rail",
+          "administration"
+        ],
+        "note": "La convention capitale régionale/nationale doit être arbitrée séparément de la souveraineté territoriale.",
+        "sources": [
+          "src-14-lt-rail-vle",
+          "src-14-lt-capitale-vilnius",
+          "src-14-lt-fin-1944"
+        ],
+        "source_role_a_renforcer": false
+      },
+      "audit": {
+        "decision": "retenir",
+        "justification_importance": "Centre administratif et ferroviaire majeur.",
+        "preuves_roles": {
+          "rail": {
+            "sources": [
+              "src-14-lt-rail-vle"
+            ],
+            "justification": "Axe Saint-Pétersbourg–Varsovie depuis 1862.",
+            "nature": "attestation_historique_structurelle"
+          },
+          "administration": {
+            "sources": [
+              "src-14-lt-capitale-vilnius",
+              "src-14-lt-fin-1944"
+            ],
+            "justification": "Siège de la RSS ; autorités revenues à Vilnius en juillet 1944.",
+            "nature": "attestation_historique_structurelle"
+          }
+        },
+        "geometrie": {
+          "statut": "a_normaliser_dans_le_depot",
+          "ancrage": "Noyau historique et infrastructure documentée ; aucune coordonnée ajoutée."
+        },
+        "etat_exploitation": {
+          "statut": "non_certifie_au_snapshot",
+          "principe": "La présence du point et ses fonctions structurelles ne certifient pas un trafic normal à minuit."
+        },
+        "nomenclature": {
+          "statut": "forme_historique_etayee",
+          "note": "Nom/exonyme historique documenté ; intervalles de changement à normaliser."
+        },
+        "capitale_a_arbitrer": {
+          "proposition": "regionale",
+          "statut": "non_arbitre",
+          "sources": [
+            "src-14-lt-capitale-vilnius",
+            "src-14-lt-fin-1944"
+          ],
+          "justification": "Siège de la RSS de Lituanie ; convention Atlas à harmoniser avec Prague et Vienne.",
+          "effet": "Ajouter le champ capitale après harmonisation ; rang inchangé."
+        }
+      }
+    },
+    {
+      "entite_id": "ville-lt-kaunas",
+      "type_entite": "ville",
+      "nom": "Kaunas",
+      "nom_local": "Kaunas",
+      "aliases": [],
+      "zone_geographique": "Lituanie",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "rail"
+        ],
+        "note": "Le rôle de capitale temporaire appartient à 1919–1940 dans la source ; il n’est pas recopié en 1945.",
+        "sources": [
+          "src-14-lt-rail-vle",
+          "src-14-lt-capitale-vilnius",
+          "src-14-lt-fin-1944"
+        ],
+        "source_role_a_renforcer": false
+      },
+      "audit": {
+        "decision": "retenir",
+        "justification_importance": "Pôle ferroviaire majeur de Lituanie centrale.",
+        "preuves_roles": {
+          "rail": {
+            "sources": [
+              "src-14-lt-rail-vle"
+            ],
+            "justification": "Ligne Kaunas–Kybartai depuis 1861.",
+            "nature": "attestation_historique_structurelle"
+          }
+        },
+        "geometrie": {
+          "statut": "a_normaliser_dans_le_depot",
+          "ancrage": "Noyau historique et infrastructure documentée ; aucune coordonnée ajoutée."
+        },
+        "etat_exploitation": {
+          "statut": "non_certifie_au_snapshot",
+          "principe": "La présence du point et ses fonctions structurelles ne certifient pas un trafic normal à minuit."
+        },
+        "nomenclature": {
+          "statut": "libelle_geographique_de_travail",
+          "note": "Libellé de repérage actuel, pas une certification du nom officiel sous occupation. Forme historique à contrôler avant import définitif des noms."
+        }
+      }
+    },
+    {
+      "entite_id": "ville-lt-siauliai",
+      "type_entite": "ville",
+      "nom": "Šiauliai",
+      "nom_local": "Šiauliai",
+      "aliases": [],
+      "zone_geographique": "Lituanie",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "rail"
+        ],
+        "note": "État précis du service fin 1944 non certifié.",
+        "sources": [
+          "src-14-lt-rail-ministere",
+          "src-14-lt-rail-vle",
+          "src-14-lt-fin-1944"
+        ],
+        "source_role_a_renforcer": false
+      },
+      "audit": {
+        "decision": "retenir",
+        "justification_importance": "Articulation ferroviaire entre intérieur lituanien et ports baltiques.",
+        "preuves_roles": {
+          "rail": {
+            "sources": [
+              "src-14-lt-rail-ministere"
+            ],
+            "justification": "Services vers Kaunas documentés avant la guerre.",
+            "nature": "attestation_historique_structurelle"
+          }
+        },
+        "geometrie": {
+          "statut": "a_normaliser_dans_le_depot",
+          "ancrage": "Noyau historique et infrastructure documentée ; aucune coordonnée ajoutée."
+        },
+        "etat_exploitation": {
+          "statut": "non_certifie_au_snapshot",
+          "principe": "La présence du point et ses fonctions structurelles ne certifient pas un trafic normal à minuit."
+        },
+        "nomenclature": {
+          "statut": "libelle_geographique_de_travail",
+          "note": "Libellé de repérage actuel, pas une certification du nom officiel sous occupation. Forme historique à contrôler avant import définitif des noms."
+        }
+      }
+    },
+    {
+      "entite_id": "ville-lt-klaipeda",
+      "type_entite": "ville",
+      "nom": "Memel",
+      "nom_local": "Memel",
+      "aliases": [
+        "Klaipėda"
+      ],
+      "zone_geographique": "Lituanie",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "rail",
+          "port_maritime"
+        ],
+        "note": "La prise soviétique du 28 janvier 1945 reste future. Le contexte de siège et de rupture fin 1944 interdit de supposer des liaisons ordinaires intactes.",
+        "sources": [
+          "src-14-lt-rail-vle",
+          "src-14-lt-klaipeda-port",
+          "src-14-lt-fin-1944"
+        ],
+        "source_role_a_renforcer": false
+      },
+      "audit": {
+        "decision": "retenir",
+        "justification_importance": "Grand port relié aux réseaux ferroviaires baltiques.",
+        "preuves_roles": {
+          "rail": {
+            "sources": [
+              "src-14-lt-rail-vle"
+            ],
+            "justification": "Ligne Tilsit–Klaipėda depuis 1875.",
+            "nature": "attestation_historique_structurelle"
+          },
+          "port_maritime": {
+            "sources": [
+              "src-14-lt-klaipeda-port"
+            ],
+            "justification": "Aménagements portuaires des années 1920–1930.",
+            "nature": "attestation_historique_structurelle"
+          }
+        },
+        "geometrie": {
+          "statut": "a_normaliser_dans_le_depot",
+          "ancrage": "Noyau historique et infrastructure documentée ; aucune coordonnée ajoutée."
+        },
+        "etat_exploitation": {
+          "statut": "non_certifie_au_snapshot",
+          "principe": "La présence du point et ses fonctions structurelles ne certifient pas un trafic normal à minuit."
+        },
+        "nomenclature": {
+          "statut": "forme_historique_etayee",
+          "note": "Nom/exonyme historique documenté ; intervalles de changement à normaliser."
+        }
+      }
+    },
+    {
+      "entite_id": "ville-lt-panevezys",
+      "type_entite": "ville",
+      "nom": "Panevėžys",
+      "nom_local": "Panevėžys",
+      "aliases": [],
+      "zone_geographique": "Lituanie",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "C",
+        "roles": [
+          "rail"
+        ],
+        "note": "Fonction historique retenue ; état précis du service au passage à 1945 non établi.",
+        "sources": [
+          "src-14-lt-rail-vle",
+          "src-14-lt-fin-1944"
+        ],
+        "source_role_a_renforcer": false
+      },
+      "audit": {
+        "decision": "retenir",
+        "justification_importance": "Relais régional de plusieurs réseaux.",
+        "preuves_roles": {
+          "rail": {
+            "sources": [
+              "src-14-lt-rail-vle"
+            ],
+            "justification": "Ligne depuis 1873 et réseau à voie étroite avant 1900.",
+            "nature": "attestation_historique_structurelle"
+          }
+        },
+        "geometrie": {
+          "statut": "a_normaliser_dans_le_depot",
+          "ancrage": "Noyau historique et infrastructure documentée ; aucune coordonnée ajoutée."
+        },
+        "etat_exploitation": {
+          "statut": "non_certifie_au_snapshot",
+          "principe": "La présence du point et ses fonctions structurelles ne certifient pas un trafic normal à minuit."
+        },
+        "nomenclature": {
+          "statut": "libelle_geographique_de_travail",
+          "note": "Libellé de repérage actuel, pas une certification du nom officiel sous occupation. Forme historique à contrôler avant import définitif des noms."
+        }
+      }
+    },
+    {
+      "entite_id": "ville-lt-radviliskis",
+      "type_entite": "ville",
+      "nom": "Radviliškis",
+      "nom_local": "Radviliškis",
+      "aliases": [],
+      "zone_geographique": "Lituanie",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "rail"
+        ],
+        "note": "Fonction historique retenue ; état précis du service au passage à 1945 non établi.",
+        "sources": [
+          "src-14-lt-rail-ministere"
+        ],
+        "source_role_a_renforcer": false
+      },
+      "audit": {
+        "decision": "retenir",
+        "justification_importance": "Jonction ferroviaire structurante malgré une ville plus petite.",
+        "preuves_roles": {
+          "rail": {
+            "sources": [
+              "src-14-lt-rail-ministere"
+            ],
+            "justification": "Axe principal et branche de 1873.",
+            "nature": "attestation_historique_structurelle"
+          }
+        },
+        "geometrie": {
+          "statut": "a_normaliser_dans_le_depot",
+          "ancrage": "Noyau historique et infrastructure documentée ; aucune coordonnée ajoutée."
+        },
+        "etat_exploitation": {
+          "statut": "non_certifie_au_snapshot",
+          "principe": "La présence du point et ses fonctions structurelles ne certifient pas un trafic normal à minuit."
+        },
+        "nomenclature": {
+          "statut": "libelle_geographique_de_travail",
+          "note": "Libellé de repérage actuel, pas une certification du nom officiel sous occupation. Forme historique à contrôler avant import définitif des noms."
+        }
+      }
+    },
+    {
+      "entite_id": "ville-lt-mazeikiai",
+      "type_entite": "ville",
+      "nom": "Mažeikiai",
+      "nom_local": "Mažeikiai",
+      "aliases": [],
+      "zone_geographique": "Lituanie",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "C",
+        "roles": [
+          "rail"
+        ],
+        "note": "Fonction historique retenue ; état précis du service au passage à 1945 non établi.",
+        "sources": [
+          "src-14-lt-rail-ministere"
+        ],
+        "source_role_a_renforcer": false
+      },
+      "audit": {
+        "decision": "retenir",
+        "justification_importance": "Relais de jonction régional du nord-ouest.",
+        "preuves_roles": {
+          "rail": {
+            "sources": [
+              "src-14-lt-rail-ministere"
+            ],
+            "justification": "Axe baltique et branche vers Jelgava avant 1874.",
+            "nature": "attestation_historique_structurelle"
+          }
+        },
+        "geometrie": {
+          "statut": "a_normaliser_dans_le_depot",
+          "ancrage": "Noyau historique et infrastructure documentée ; aucune coordonnée ajoutée."
+        },
+        "etat_exploitation": {
+          "statut": "non_certifie_au_snapshot",
+          "principe": "La présence du point et ses fonctions structurelles ne certifient pas un trafic normal à minuit."
+        },
+        "nomenclature": {
+          "statut": "libelle_geographique_de_travail",
+          "note": "Libellé de repérage actuel, pas une certification du nom officiel sous occupation. Forme historique à contrôler avant import définitif des noms."
+        }
+      }
+    },
+    {
+      "entite_id": "ville-lt-kaisiadorys",
+      "type_entite": "ville",
+      "nom": "Kaišiadorys",
+      "nom_local": "Kaišiadorys",
+      "aliases": [],
+      "zone_geographique": "Lituanie",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "rail"
+        ],
+        "note": "Fonction historique retenue ; état précis du service au passage à 1945 non établi.",
+        "sources": [
+          "src-14-lt-rail-vle",
+          "src-14-lt-rail-ministere"
+        ],
+        "source_role_a_renforcer": false
+      },
+      "audit": {
+        "decision": "retenir",
+        "justification_importance": "Jonction des corridors vers Kaunas et Vilnius.",
+        "preuves_roles": {
+          "rail": {
+            "sources": [
+              "src-14-lt-rail-vle"
+            ],
+            "justification": "Croisement du réseau balte avec l’axe de Vilnius avant 1874.",
+            "nature": "attestation_historique_structurelle"
+          }
+        },
+        "geometrie": {
+          "statut": "a_normaliser_dans_le_depot",
+          "ancrage": "Noyau historique et infrastructure documentée ; aucune coordonnée ajoutée."
+        },
+        "etat_exploitation": {
+          "statut": "non_certifie_au_snapshot",
+          "principe": "La présence du point et ses fonctions structurelles ne certifient pas un trafic normal à minuit."
+        },
+        "nomenclature": {
+          "statut": "libelle_geographique_de_travail",
+          "note": "Libellé de repérage actuel, pas une certification du nom officiel sous occupation. Forme historique à contrôler avant import définitif des noms."
+        }
+      }
+    },
+    {
+      "entite_id": "ville-lt-kybartai",
+      "type_entite": "ville",
+      "nom": "Kybartai",
+      "nom_local": "Kybartai",
+      "aliases": [],
+      "zone_geographique": "Lituanie",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "C",
+        "roles": [
+          "rail"
+        ],
+        "note": "La fonction frontalière d’une autre période n’est pas automatiquement un rôle opérationnel du snapshot.",
+        "sources": [
+          "src-14-lt-rail-vle"
+        ],
+        "source_role_a_renforcer": false
+      },
+      "audit": {
+        "decision": "retenir",
+        "justification_importance": "Relais ferroviaire occidental.",
+        "preuves_roles": {
+          "rail": {
+            "sources": [
+              "src-14-lt-rail-vle"
+            ],
+            "justification": "Extrémité de la ligne Kaunas–Kybartai depuis 1861.",
+            "nature": "attestation_historique_structurelle"
+          }
+        },
+        "geometrie": {
+          "statut": "a_normaliser_dans_le_depot",
+          "ancrage": "Noyau historique et infrastructure documentée ; aucune coordonnée ajoutée."
+        },
+        "etat_exploitation": {
+          "statut": "non_certifie_au_snapshot",
+          "principe": "La présence du point et ses fonctions structurelles ne certifient pas un trafic normal à minuit."
+        },
+        "nomenclature": {
+          "statut": "libelle_geographique_de_travail",
+          "note": "Libellé de repérage actuel, pas une certification du nom officiel sous occupation. Forme historique à contrôler avant import définitif des noms."
+        }
+      }
+    },
+    {
+      "entite_id": "ville-lt-lentvaris",
+      "type_entite": "ville",
+      "nom": "Lentvaris",
+      "nom_local": "Lentvaris",
+      "aliases": [],
+      "zone_geographique": "Lituanie",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "rail"
+        ],
+        "note": "Droits de ville seulement en 1949 ; le nœud physique préexiste et reste pertinent en 1945.",
+        "sources": [
+          "src-14-lt-lentvaris-rail"
+        ],
+        "source_role_a_renforcer": false
+      },
+      "audit": {
+        "decision": "retenir",
+        "justification_importance": "Jonction structurante du réseau de Vilnius.",
+        "preuves_roles": {
+          "rail": {
+            "sources": [
+              "src-14-lt-lentvaris-rail"
+            ],
+            "justification": "Croisement ferroviaire développé à partir de 1862.",
+            "nature": "attestation_historique_structurelle"
+          }
+        },
+        "geometrie": {
+          "statut": "a_normaliser_dans_le_depot",
+          "ancrage": "Noyau historique et infrastructure documentée ; aucune coordonnée ajoutée."
+        },
+        "etat_exploitation": {
+          "statut": "non_certifie_au_snapshot",
+          "principe": "La présence du point et ses fonctions structurelles ne certifient pas un trafic normal à minuit."
+        },
+        "nomenclature": {
+          "statut": "libelle_geographique_de_travail",
+          "note": "Libellé de repérage actuel, pas une certification du nom officiel sous occupation. Forme historique à contrôler avant import définitif des noms."
+        }
+      }
+    }
+  ],
+  "candidats_differes": [
+    {
+      "candidat_id": "candidat-ee-sillamae",
+      "nom": "Sillamäe",
+      "decision": "differer",
+      "justification": "Usine et port d’avant-guerre attestés ; le rôle nucléaire de l’après-guerre ne justifie pas le snapshot.",
+      "preuves_disponibles": [
+        "src-14-ee-sillamae-chronologie"
+      ],
+      "preuve_manquante": "Date des destructions et fonction physique du site au dernier état de 1944."
+    },
+    {
+      "candidat_id": "candidat-lv-valka",
+      "nom": "Valka",
+      "decision": "differer",
+      "justification": "Unité historique distincte de Valga ; ne pas dupliquer le nœud estonien.",
+      "preuves_disponibles": [
+        "src-14-ee-valga-valka"
+      ],
+      "preuve_manquante": "Infrastructure et importance propre du côté letton en 1944."
+    },
+    {
+      "candidat_id": "candidat-lv-jekabpils",
+      "nom": "Jēkabpils",
+      "decision": "differer",
+      "justification": "Unité distincte de Krustpils ; le réseau à voie étroite est antérieur à 1945 mais la liaison entre les rives a fermé en 1944.",
+      "preuves_disponibles": [
+        "src-14-lv-rail-chronologie",
+        "src-14-lv-krustpils-jekabpils"
+      ],
+      "preuve_manquante": "Poids propre des flux et état d’exploitation du réseau de Jēkabpils à la fin de 1944."
+    },
+    {
+      "candidat_id": "candidat-pl-bielsko-biala",
+      "nom": "Bielsko / Biała / Bielitz-Ost",
+      "decision": "differer",
+      "justification": "Le musée atteste une incorporation sous occupation, puis la fusion de 1951. Déduire deux communes indépendantes au snapshot serait insuffisamment fondé.",
+      "preuves_disponibles": [
+        "src-14-pl-bielsko-biala-perimetre"
+      ],
+      "preuve_manquante": "Date, étendue et statut de l’incorporation de guerre ; preuve des fonctions et choix d’un ou deux points."
+    },
+    {
+      "candidat_id": "candidat-pl-chemie-slawiecice",
+      "nom": "Usines chimiques de Sławięcice / Blachownia",
+      "decision": "differer",
+      "justification": "Usines de guerre présentes dans la zone actuelle ; ne pas attribuer automatiquement leur industrie à Kędzierzyn.",
+      "preuves_disponibles": [
+        "src-14-pl-kedzierzyn-kozle"
+      ],
+      "preuve_manquante": "Implantations, rattachements et état fin 1944 de chaque usine."
+    },
+    {
+      "candidat_id": "candidat-pl-chelm-role-administratif",
+      "nom": "Chełm — rôle gouvernemental",
+      "decision": "ne_pas_ajouter_ce_role_au_snapshot",
+      "justification": "Le rôle politique de juillet 1944 ne se prolonge pas comme siège au snapshot.",
+      "preuves_disponibles": [
+        "src-14-pl-lublin-administration"
+      ],
+      "preuve_manquante": "Aucune pour ce retrait : le siège de Lublin est documenté."
+    },
+    {
+      "candidat_id": "candidat-pl-pila",
+      "nom": "Piła",
+      "decision": "differer",
+      "justification": "Nœud ferroviaire potentiel important à examiner.",
+      "preuves_disponibles": [],
+      "preuve_manquante": "Source historique dédiée avant 1945, rôle exact et nomenclature ; aucun rôle importé par défaut."
+    },
+    {
+      "candidat_id": "candidat-pl-olsztyn",
+      "nom": "Olsztyn",
+      "decision": "differer",
+      "justification": "Carrefour de Prusse orientale à examiner.",
+      "preuves_disponibles": [],
+      "preuve_manquante": "Source historique dédiée avant 1945, rôle exact et nomenclature ; aucun rôle importé par défaut."
+    },
+    {
+      "candidat_id": "candidat-pl-ilawa",
+      "nom": "Iława",
+      "decision": "differer",
+      "justification": "Jonction ferroviaire à examiner.",
+      "preuves_disponibles": [],
+      "preuve_manquante": "Source historique dédiée avant 1945, rôle exact et nomenclature ; aucun rôle importé par défaut."
+    },
+    {
+      "candidat_id": "candidat-pl-elk",
+      "nom": "Ełk",
+      "decision": "differer",
+      "justification": "Jonction ferroviaire orientale à examiner.",
+      "preuves_disponibles": [],
+      "preuve_manquante": "Source historique dédiée avant 1945, rôle exact et nomenclature ; aucun rôle importé par défaut."
+    },
+    {
+      "candidat_id": "candidat-pl-malbork",
+      "nom": "Malbork",
+      "decision": "differer",
+      "justification": "Traversée et nœud du corridor baltique à examiner.",
+      "preuves_disponibles": [],
+      "preuve_manquante": "Source historique dédiée avant 1945, rôle exact et nomenclature ; aucun rôle importé par défaut."
+    },
+    {
+      "candidat_id": "candidat-pl-bytom",
+      "nom": "Bytom",
+      "decision": "differer",
+      "justification": "Pôle minier à examiner avec les limites historiques de ses communes et sites.",
+      "preuves_disponibles": [],
+      "preuve_manquante": "Source historique dédiée avant 1945, rôle exact et nomenclature ; aucun rôle importé par défaut."
+    },
+    {
+      "candidat_id": "candidat-pl-opole",
+      "nom": "Opole",
+      "decision": "differer",
+      "justification": "Relais de l’Oder à examiner.",
+      "preuves_disponibles": [],
+      "preuve_manquante": "Source historique dédiée avant 1945, rôle exact et nomenclature ; aucun rôle importé par défaut."
+    },
+    {
+      "candidat_id": "candidat-pl-police",
+      "nom": "Police/Pölitz",
+      "decision": "differer",
+      "justification": "Site industriel de guerre potentiel ; ne pas le rejeter uniquement parce que les entreprises actuelles sont postérieures.",
+      "preuves_disponibles": [],
+      "preuve_manquante": "Source historique dédiée avant 1945, rôle exact et nomenclature ; aucun rôle importé par défaut."
+    }
+  ],
+  "corrections_historiques": [
+    {
+      "correction_id": "c14-01",
+      "cibles": [
+        "ville-pl-warszawa"
+      ],
+      "erreur_a_eviter": "Traiter Varsovie comme ville intacte et uniformément contrôlée.",
+      "correction_proposee": "Conserver A/rail ; annoter les destructions et laisser les deux rives suivre leurs territoires.",
+      "sources": [
+        "src-14-pl-warszawa-destruction",
+        "src-14-pl-warszawa-praga"
+      ],
+      "statut": "consigne_documentee_pour_integration"
+    },
+    {
+      "correction_id": "c14-02",
+      "cibles": [
+        "ville-pl-lodz",
+        "ville-pl-gdynia"
+      ],
+      "erreur_a_eviter": "Projeter les noms polonais actuels comme noms officiels de 1944.",
+      "correction_proposee": "Utiliser les propositions Litzmannstadt et Gotenhafen, avec alias et limites de preuve.",
+      "sources": [
+        "src-14-pl-lodz-nom",
+        "src-14-pl-gdynia-nom"
+      ],
+      "statut": "consigne_documentee_pour_integration"
+    },
+    {
+      "correction_id": "c14-03",
+      "cibles": [
+        "ville-pl-lublin",
+        "ville-pl-chelm"
+      ],
+      "erreur_a_eviter": "Conserver le PKWN comme institution active, ou placer son siège fin 1944 à Chełm.",
+      "correction_proposee": "Siège à Lublin ; transformation en gouvernement provisoire avant le snapshot.",
+      "sources": [
+        "src-14-pl-lublin-administration"
+      ],
+      "statut": "consigne_documentee_pour_integration"
+    },
+    {
+      "correction_id": "c14-04",
+      "cibles": [
+        "ville-lt-klaipeda"
+      ],
+      "erreur_a_eviter": "Anticiper la prise soviétique de Memel.",
+      "correction_proposee": "Repère futur daté du 28 janvier 1945 ; pas de changement politique dans la ville au snapshot.",
+      "sources": [
+        "src-14-lt-fin-1944"
+      ],
+      "statut": "consigne_documentee_pour_integration"
+    },
+    {
+      "correction_id": "c14-05",
+      "cibles": [
+        "ville-lt-kaunas"
+      ],
+      "erreur_a_eviter": "Recopier le statut de capitale temporaire de l’entre-deux-guerres.",
+      "correction_proposee": "Aucun champ capitale ajouté à Kaunas ; conserver le rôle ferroviaire.",
+      "sources": [
+        "src-14-lt-capitale-vilnius"
+      ],
+      "statut": "consigne_documentee_pour_integration"
+    },
+    {
+      "correction_id": "c14-06",
+      "cibles": [
+        "ville-lv-krustpils",
+        "candidat-lv-jekabpils"
+      ],
+      "erreur_a_eviter": "Importer Jēkabpils actuel comme fusion déjà réalisée ou garder la traversée de 1936 active.",
+      "correction_proposee": "Points historiques distincts ; liaison fermée en 1944 ; regroupement de 1962 postérieur.",
+      "sources": [
+        "src-14-lv-krustpils-jekabpils",
+        "src-14-lv-rail-chronologie"
+      ],
+      "statut": "consigne_documentee_pour_integration"
+    },
+    {
+      "correction_id": "c14-07",
+      "cibles": [
+        "ville-ee-valga",
+        "candidat-lv-valka"
+      ],
+      "erreur_a_eviter": "Réutiliser Walk comme point municipal unique.",
+      "correction_proposee": "Distinguer Valga/Valka selon la partition documentée de 1920.",
+      "sources": [
+        "src-14-ee-valga-valka"
+      ],
+      "statut": "consigne_documentee_pour_integration"
+    },
+    {
+      "correction_id": "c14-08",
+      "cibles": [
+        "ville-ee-kohtla-jarve"
+      ],
+      "erreur_a_eviter": "Recopier la commune polycentrique actuelle et son nouveau complexe.",
+      "correction_proposee": "Ancrer le site industriel ancien ; ne pas importer les regroupements futurs ni le complexe daté de 1945.",
+      "sources": [
+        "src-14-ee-kohtla-jarve-industrie",
+        "src-14-ee-kohtla-jarve-perimetre"
+      ],
+      "statut": "consigne_documentee_pour_integration"
+    },
+    {
+      "correction_id": "c14-09",
+      "cibles": [
+        "ville-ee-narva"
+      ],
+      "erreur_a_eviter": "Dessiner un nœud intact malgré les destructions déjà intervenues.",
+      "correction_proposee": "Conserver le passage structurel et afficher la rupture de 1944.",
+      "sources": [
+        "src-14-ee-narva-destruction"
+      ],
+      "statut": "consigne_documentee_pour_integration"
+    },
+    {
+      "correction_id": "c14-10",
+      "cibles": [
+        "ville-ee-tallinn"
+      ],
+      "erreur_a_eviter": "Traiter Nõmme comme incorporation postérieure au snapshot.",
+      "correction_proposee": "L’intégration de 1940 appartient déjà à l’état initial ; limites à normaliser.",
+      "sources": [
+        "src-14-ee-tallinn-histoire"
+      ],
+      "statut": "consigne_documentee_pour_integration"
+    },
+    {
+      "correction_id": "c14-11",
+      "cibles": [
+        "ville-pl-kedzierzyn",
+        "ville-pl-kozle"
+      ],
+      "erreur_a_eviter": "Importer une commune Kędzierzyn-Koźle unique.",
+      "correction_proposee": "Distinguer le nœud de gare et le nœud portuaire ; réunion de 1975 future.",
+      "sources": [
+        "src-14-pl-kedzierzyn-kozle"
+      ],
+      "statut": "consigne_documentee_pour_integration"
+    },
+    {
+      "correction_id": "c14-12",
+      "cibles": [
+        "candidat-pl-bielsko-biala"
+      ],
+      "erreur_a_eviter": "Déduire de la fusion de 1951 que les deux communes sont forcément distinctes en 1944.",
+      "correction_proposee": "Contrôler aussi l’incorporation de Biała/Bielitz-Ost sous occupation.",
+      "sources": [
+        "src-14-pl-bielsko-biala-perimetre"
+      ],
+      "statut": "consigne_documentee_pour_integration"
+    },
+    {
+      "correction_id": "c14-13",
+      "cibles": [
+        "ville-pl-mielec",
+        "ville-pl-rzeszow"
+      ],
+      "erreur_a_eviter": "Confondre usine aéronautique ou mécanique avec aéroport de transport.",
+      "correction_proposee": "Conserver industrie ; rôle aviation uniquement avec une preuve distincte.",
+      "sources": [
+        "src-14-pl-mielec-industrie",
+        "src-14-pl-rzeszow-industrie"
+      ],
+      "statut": "consigne_documentee_pour_integration"
+    },
+    {
+      "correction_id": "c14-14",
+      "cibles": [
+        "ville-pl-sosnowiec"
+      ],
+      "erreur_a_eviter": "Placer la ville au droit de Granica/Maczki sur la seule preuve de 1848.",
+      "correction_proposee": "Utiliser le centre et la gare Sosnowice Warszawskie attestée depuis 1859.",
+      "sources": [
+        "src-14-pl-sosnowiec-rail"
+      ],
+      "statut": "consigne_documentee_pour_integration"
+    },
+    {
+      "correction_id": "c14-15",
+      "cibles": [
+        "ville-lt-lentvaris",
+        "ville-pl-stalowa-wola"
+      ],
+      "erreur_a_eviter": "Écarter un nœud existant parce que le statut légal de ville est postérieur.",
+      "correction_proposee": "Retenir les infrastructures physiques antérieures à 1945 ; ne pas assimiler existence et charte municipale.",
+      "sources": [
+        "src-14-lt-lentvaris-rail",
+        "src-14-pl-stalowa-wola-industrie"
+      ],
+      "statut": "consigne_documentee_pour_integration"
+    },
+    {
+      "correction_id": "c14-16",
+      "cibles": [
+        "ville-lv-riga",
+        "ville-lv-liepaja",
+        "ville-lv-ventspils",
+        "ville-lv-tukums"
+      ],
+      "erreur_a_eviter": "Appliquer le contrôle de Riga à tous les points de Courlande.",
+      "correction_proposee": "Rattacher chaque point à la couche territoriale historique ; Courlande distincte fin 1944.",
+      "sources": [
+        "src-14-lv-fin-1944"
+      ],
+      "statut": "consigne_documentee_pour_integration"
+    },
+    {
+      "correction_id": "c14-17",
+      "cibles": [
+        "candidat-ee-sillamae"
+      ],
+      "erreur_a_eviter": "Utiliser l’industrie nucléaire de l’après-guerre comme justification initiale.",
+      "correction_proposee": "Conserver le candidat documenté ancien ; différer jusqu’à preuve de son état fin 1944.",
+      "sources": [
+        "src-14-ee-sillamae-chronologie"
+      ],
+      "statut": "consigne_documentee_pour_integration"
+    },
+    {
+      "correction_id": "c14-18",
+      "cibles": [
+        "ville-lv-gulbene",
+        "ville-lv-riga",
+        "ville-ee-tapa",
+        "ville-lt-kaunas"
+      ],
+      "erreur_a_eviter": "Appliquer un écartement moderne uniforme de 1520 mm à tous les axes.",
+      "correction_proposee": "Distinguer les voies historiques et leurs conversions ; ne pas tirer l’écartement de chaque tronçon du seul pays.",
+      "sources": [
+        "src-14-lv-rail-chronologie",
+        "src-14-ee-rail-histoire",
+        "src-14-lt-rail-ministere"
+      ],
+      "statut": "consigne_documentee_pour_integration"
+    }
+  ],
+  "arbitrages_ouverts": [
+    {
+      "arbitrage_id": "a14-capitales",
+      "sujet": "Convention des capitales sous occupation et dans les RSS",
+      "proposition": "Varsovie nationale ; Cracovie, Tallinn, Riga et Vilnius régionales au sens administratif de facto.",
+      "statut": "non_arbitre",
+      "effet": "Champs capitale omis dans les cinq snapshots proposés ; harmoniser avec les lots précédents sans modifier les rangs.",
+      "cibles": [
+        "ville-pl-warszawa",
+        "ville-pl-krakow",
+        "ville-ee-tallinn",
+        "ville-lv-riga",
+        "ville-lt-vilnius"
+      ],
+      "sources": [
+        "src-14-pl-warszawa-praga",
+        "src-14-pl-krakow-administration",
+        "src-14-ee-tallinn-histoire",
+        "src-14-lv-riga-administration",
+        "src-14-lv-fin-1944",
+        "src-14-lt-capitale-vilnius",
+        "src-14-lt-fin-1944"
+      ]
+    },
+    {
+      "arbitrage_id": "a14-noms",
+      "sujet": "Noms officiels sous occupation pour les libellés géographiques de travail",
+      "proposition": "Les noms historiques déjà étayés sont proposés ; compléter les formes de Poznań, Tczew, Katowice, Zabrze, Chorzów et autres points avant import définitif des noms.",
+      "statut": "verification_documentaire_requise",
+      "effet": "Ne pas inventer des intervalles de noms à partir des frontières ou des captures.",
+      "sources": []
+    },
+    {
+      "arbitrage_id": "a14-bielsko",
+      "sujet": "Bielsko/Biała au dernier état de 1944",
+      "proposition": "Contrôler l’incorporation de guerre puis décider entre un ensemble urbain et deux ancrages.",
+      "statut": "verification_documentaire_requise",
+      "effet": "Candidat non importé dans ce lot.",
+      "sources": [
+        "src-14-pl-bielsko-biala-perimetre"
+      ]
+    },
+    {
+      "arbitrage_id": "a14-tarnowskie",
+      "sujet": "Rang B et preuve ferroviaire de Tarnowskie Góry",
+      "proposition": "Conserver B proposé mais renforcer la notice tertiaire par une source spécialisée.",
+      "statut": "preuve_a_renforcer",
+      "effet": "Ne pas présenter ce point comme certifié au même niveau que les autres.",
+      "sources": [
+        "src-14-pl-tarnowskie-gory-rail"
+      ]
+    }
+  ],
+  "changements_a_preparer_apres_snapshot": [
+    {
+      "repere_id": "f14-memel",
+      "cibles": [
+        "ville-lt-klaipeda"
+      ],
+      "date": "1945-01-28",
+      "precision": "jour",
+      "description": "Prise soviétique de Memel.",
+      "sources": [
+        "src-14-lt-fin-1944"
+      ]
+    },
+    {
+      "repere_id": "f14-gdynia",
+      "cibles": [
+        "ville-pl-gdynia"
+      ],
+      "date": "1945-03-28",
+      "precision": "jour",
+      "description": "Prise de Gotenhafen/Gdynia.",
+      "sources": [
+        "src-14-pl-gdynia-nom"
+      ]
+    },
+    {
+      "repere_id": "f14-swinoujscie",
+      "cibles": [
+        "ville-pl-swinoujscie"
+      ],
+      "date": "1945-03-12",
+      "precision": "jour",
+      "description": "Bombardement de Świnoujście/Swinemünde.",
+      "sources": [
+        "src-14-pl-swinoujscie-port"
+      ]
+    },
+    {
+      "repere_id": "f14-kohtla",
+      "cibles": [
+        "ville-ee-kohtla-jarve"
+      ],
+      "date": "1945",
+      "precision": "annee",
+      "description": "Nouveau complexe industriel ; date plus précise à rechercher.",
+      "sources": [
+        "src-14-ee-kohtla-jarve-industrie"
+      ]
+    },
+    {
+      "repere_id": "f14-bielsko",
+      "cibles": [
+        "candidat-pl-bielsko-biala"
+      ],
+      "date": "1951",
+      "precision": "annee",
+      "description": "Réunion administrative d’après-guerre ; distincte de l’incorporation sous occupation.",
+      "sources": [
+        "src-14-pl-bielsko-biala-perimetre"
+      ]
+    },
+    {
+      "repere_id": "f14-jekabpils",
+      "cibles": [
+        "ville-lv-krustpils",
+        "candidat-lv-jekabpils"
+      ],
+      "date": "1962",
+      "precision": "annee",
+      "description": "Réunion Jēkabpils–Krustpils.",
+      "sources": [
+        "src-14-lv-krustpils-jekabpils"
+      ]
+    },
+    {
+      "repere_id": "f14-kedzierzyn",
+      "cibles": [
+        "ville-pl-kedzierzyn",
+        "ville-pl-kozle"
+      ],
+      "date": "1975",
+      "precision": "annee",
+      "description": "Formation de la commune actuelle Kędzierzyn-Koźle.",
+      "sources": [
+        "src-14-pl-kedzierzyn-kozle"
+      ]
+    }
+  ]
+}

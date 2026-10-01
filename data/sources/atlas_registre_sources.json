@@ -1,7 +1,7 @@
 {
  "metadata": {
   "nom": "registre_sources_atlas",
-  "version": "1.11",
+  "version": "1.12",
   "date_creation": "2026-09-26",
   "principe": "Une source = un source_id stable. Les fiches événements/entités peuvent référencer ce source_id et préciser l'usage/locator.",
   "statut": "registre_initial_a_completer"
@@ -8285,6 +8285,1607 @@
     "statut": "contenu_lu",
     "passages": "Historique : Šunychl devient Nový Bohumín en 1924 ; regroupement municipal décrit en 1949."
    }
+  },
+  {
+   "source_id": "src-14-ee-rail-histoire",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Histoire du réseau ferroviaire estonien",
+   "institution": "Eesti Raudtee — chemins de fer estoniens",
+   "url": "https://www.evr.ee/et/ettevottest",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rail",
+    "ecartement_contexte"
+   ],
+   "cibles": [
+    "ville-ee-tallinn",
+    "ville-ee-paldiski",
+    "ville-ee-narva",
+    "ville-ee-tapa",
+    "ville-ee-tartu",
+    "ville-ee-valga",
+    "ville-ee-parnu",
+    "ville-ee-viljandi"
+   ],
+   "locator": "Section historique : axe de 1870 ; Tapa–Tartu 1877, Valga 1887 ; réseau étroit 1896–1901. Guerre : voie large convertie en 1435 mm puis rétablie.",
+   "resume_passage": "Esimene raudtee Eestis avati liikluseks 5. novembril 1870. aastal Paldiski - Tallinn - Narva - Gatshina lõigul.",
+   "archive_locale": null,
+   "verification_claude": "limite",
+   "verification_ether": {
+    "statut": "passages_cibles_lus",
+    "passages": "Section historique : axe de 1870 ; Tapa–Tartu 1877, Valga 1887 ; réseau étroit 1896–1901. Guerre : voie large convertie en 1435 mm puis rétablie."
+   },
+   "notes": "Proposée par Ether (villes 1.4, 01/10/2026). Note d'Ether : Les longueurs actuelles et l’écartement de chaque ligne au 31 décembre 1944 ne sont pas extrapolés. Relecture Claude 01/10/2026 : Seul l'axe de 1870 est soutenu ; Tapa–Tartu 1877, Valga 1887, réseau étroit 1896–1901 et conversions de voie en guerre sont absents de la page."
+  },
+  {
+   "source_id": "src-14-lv-rail-chronologie",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Chronologie des lignes ferroviaires de Lettonie",
+   "institution": "Latvijas Dzelzceļa vēstures muzejs — musée d’histoire ferroviaire de Lettonie",
+   "url": "https://www.railwaymuseum.lv/en/content/railway-lines-latvia",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rail",
+    "rupture_reseau"
+   ],
+   "cibles": [
+    "ville-lv-riga",
+    "ville-lv-daugavpils",
+    "ville-lv-jelgava",
+    "ville-lv-liepaja",
+    "ville-lv-ventspils",
+    "ville-lv-rezekne",
+    "ville-lv-krustpils",
+    "ville-lv-gulbene",
+    "ville-lv-tukums",
+    "ville-lv-valmiera",
+    "candidat-lv-jekabpils"
+   ],
+   "locator": "Tableau : Riga–Daugavpils 1861, Jelgava 1868, Liepāja 1871, Ventspils/Krustpils 1901–1904 ; Gulbene 1903/1916, Rēzekne 1934 ; raccordement Krustpils–Jēkabpils fermé en 1944.",
+   "resume_passage": "Krustpils – Jēkabpils, closed in 1944.",
+   "archive_locale": null,
+   "verification_claude": "limite",
+   "verification_ether": {
+    "statut": "passages_cibles_lus",
+    "passages": "Tableau : Riga–Daugavpils 1861, Jelgava 1868, Liepāja 1871, Ventspils/Krustpils 1901–1904 ; Gulbene 1903/1916, Rēzekne 1934 ; raccordement Krustpils–Jēkabpils fermé en 1944."
+   },
+   "notes": "Proposée par Ether (villes 1.4, 01/10/2026). Note d'Ether : Ne pas confondre une ligne ancienne avec un trafic garanti ni changer automatiquement 1524 mm en 1520 mm. Relecture Claude 01/10/2026 : La fermeture Krustpils–Jēkabpils en 1944 est vue, mais les années 1861, 1868, 1871 et 1934 (Rēzekne) n'apparaissent pas dans les extraits restitués (Gulbene : seul 1916 vu, 1903 associé à Valka–Pļaviņas)."
+  },
+  {
+   "source_id": "src-14-lt-rail-ministere",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Histoire des chemins de fer lituaniens",
+   "institution": "Ministère des Transports et Communications de Lituanie",
+   "url": "https://sumin.lrv.lt/lt/veiklos-sritys/transporto-istorija/gelezinkeliai/",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rail",
+    "ecartement_contexte"
+   ],
+   "cibles": [
+    "ville-lt-vilnius",
+    "ville-lt-kaunas",
+    "ville-lt-siauliai",
+    "ville-lt-mazeikiai",
+    "ville-lt-radviliskis",
+    "ville-lt-kaisiadorys",
+    "ville-lt-panevezys"
+   ],
+   "locator": "Lignes 1862 et 1871–1874 ; branches de 1873 ; trajet Kaunas–Šiauliai documenté avant 1939 ; modification d’écartement en 1940.",
+   "resume_passage": "1871-1874 m. pro Mažeikius, Radviliškį, Kaišiadoris, Naują Vilnią paklota Liepojos-Romnų linija",
+   "archive_locale": null,
+   "verification_claude": "limite",
+   "verification_ether": {
+    "statut": "passages_cibles_lus",
+    "passages": "Lignes 1862 et 1871–1874 ; branches de 1873 ; trajet Kaunas–Šiauliai documenté avant 1939 ; modification d’écartement en 1940."
+   },
+   "notes": "Proposée par Ether (villes 1.4, 01/10/2026). Note d'Ether : Nouvelles conversions de guerre à vérifier ligne par ligne, sans état uniforme inventé. Relecture Claude 01/10/2026 : Lignes 1871-1874, branches de 1873, Kaunas-Šiauliai (1921/1937) et écartement 1940 sont vus, mais la page date la première ligne de 1861 et non de 1862."
+  },
+  {
+   "source_id": "src-14-lt-rail-vle",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Le chemin de fer en Lituanie",
+   "institution": "Visuotinė lietuvių enciklopedija — encyclopédie lituanienne",
+   "url": "https://www.vle.lt/straipsnis/gelezinkelis-lietuvoje/",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rail"
+   ],
+   "cibles": [
+    "ville-lt-vilnius",
+    "ville-lt-kaunas",
+    "ville-lt-kybartai",
+    "ville-lt-klaipeda",
+    "ville-lt-mazeikiai",
+    "ville-lt-radviliskis",
+    "ville-lt-panevezys",
+    "ville-lt-kaisiadorys",
+    "ville-lt-siauliai"
+   ],
+   "locator": "1861 Kaunas–Kybartai ; 1862 Vilnius ; 1873 branches ; 1875 Tilžė–Klaipėda ; 1930–1932 raccordement vers Šiauliai.",
+   "resume_passage": "1861 Kaunas–Kybartai: « Pirmasis geležinkelis Kaunas–Kybartai (Sankt Peterburgo–Varšuvos atšaka) pradėjo veikti 1861. » ; « 1930–32 Telšių–Kretingos geležinkelio linijos sujungė Klaipėdą su Šiauliais. »",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "passages_cibles_lus",
+    "passages": "1861 Kaunas–Kybartai ; 1862 Vilnius ; 1873 branches ; 1875 Tilžė–Klaipėda ; 1930–1932 raccordement vers Šiauliai."
+   },
+   "notes": "Proposée par Ether (villes 1.4, 01/10/2026). Note d'Ether : Les électrifications de 1975 restent hors Snapshot. Relecture Claude 01/10/2026 : Les cinq jalons (1861, 1862, 1873, 1875, 1930–32) sont présents dans l'article."
+  },
+  {
+   "source_id": "src-14-pl-rail-premieres",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Premières lignes ferroviaires sur le territoire polonais actuel",
+   "institution": "Polskie Koleje Państwowe — Chemins de fer de l’État polonais",
+   "url": "https://pkp.pl/pl/pkp-aktualnosci/3824-pkp-od-100-lat-laczymy-ludzi-miejsca-i-historie",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rail"
+   ],
+   "cibles": [
+    "ville-pl-wroclaw",
+    "ville-pl-warszawa",
+    "ville-pl-krakow"
+   ],
+   "locator": "Section « Poznaj naszą historię » : Wrocław–Oława 1842 ; Varsovie 1845 ; Cracovie 1847.",
+   "resume_passage": "",
+   "archive_locale": null,
+   "verification_claude": "non_verifiee",
+   "verification_ether": {
+    "statut": "passages_cibles_lus",
+    "passages": "Section « Poznaj naszą historię » : Wrocław–Oława 1842 ; Varsovie 1845 ; Cracovie 1847."
+   },
+   "notes": "Proposée par Ether (villes 1.4, 01/10/2026). Note d'Ether : Présence ferroviaire ancienne, pas capacité de guerre. Les gares citées pour une opération promotionnelle de 2026 ne constituent pas des preuves de 1945. Relecture Claude 01/10/2026 : WebFetch refusé : ROBOTS_DISALLOWED (robots.txt injoignable, ConnectTimeout)."
+  },
+  {
+   "source_id": "src-14-lv-riga-port",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Histoire du port de Riga",
+   "institution": "Rīgas brīvostas pārvalde — autorité du port de Riga",
+   "url": "https://rop.lv/en/history",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "port_maritime"
+   ],
+   "cibles": [
+    "ville-lv-riga"
+   ],
+   "locator": "Développement exportateur et port d’Andrejsala avant 1914 ; équipements et approfondissements de l’entre-deux-guerres.",
+   "resume_passage": "In 1901, in order to increase throughput capacity, the Russian government decided to build an Export Port on Andrei Dam",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "passages_cibles_lus",
+    "passages": "Développement exportateur et port d’Andrejsala avant 1914 ; équipements et approfondissements de l’entre-deux-guerres."
+   },
+   "notes": "Proposée par Ether (villes 1.4, 01/10/2026). Note d'Ether : Les terminaux des années 1960–1980 ne sont pas anticipés ; état opérationnel précis fin 1944 non fourni. Relecture Claude 01/10/2026 : Port d'exportation d'Andrejsala (1901-1902) et approfondissement du chenal (8,2 m en 1928, 9,0 m en 1938) confirmés."
+  },
+  {
+   "source_id": "src-14-lt-klaipeda-port",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Histoire du port de Klaipėda",
+   "institution": "Autorité portuaire de Klaipėda",
+   "url": "https://portofklaipeda.lt/en/port/get-to-know-the-port/history/",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "port_maritime"
+   ],
+   "cibles": [
+    "ville-lt-klaipeda"
+   ],
+   "locator": "Section 1924–1939 : nouveaux quais et entreprises portuaires.",
+   "resume_passage": "new quays were constructed, various companies started to operate, Lithuanian Shipping Company was founded.",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "passages_cibles_lus",
+    "passages": "Section 1924–1939 : nouveaux quais et entreprises portuaires."
+   },
+   "notes": "Proposée par Ether (villes 1.4, 01/10/2026). Note d'Ether : Ne pas reprendre les volumes et capacités actuels, ni conclure à un fonctionnement intact en décembre 1944. Relecture Claude 01/10/2026 : La section 1924-1939 mentionne bien de nouveaux quais et des entreprises ; aucune affirmation sur l'état fin 1944."
+  },
+  {
+   "source_id": "src-14-pl-warszawa-destruction",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Ordre allemand de destruction de Varsovie, octobre 1944",
+   "institution": "Muzeum II Wojny Światowej — musée de la Seconde Guerre mondiale de Gdańsk",
+   "url": "https://www.muzeum1939.pl/aktualnosci/-wojennydzien-niemiecki-rozkaz-calkowitego-zniszczenia-warszawy-11906",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "situation_fin_1944",
+    "capitale_contexte"
+   ],
+   "cibles": [
+    "ville-pl-warszawa"
+   ],
+   "locator": "Ordre du 9 octobre 1944 et destruction après le départ des insurgés et habitants.",
+   "resume_passage": "9 października 1944 r. Heinrich Himmler wydał rozkaz kompletnego zniszczenia miasta.",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "passages_cibles_lus",
+    "passages": "Ordre du 9 octobre 1944 et destruction après le départ des insurgés et habitants."
+   },
+   "notes": "Proposée par Ether (villes 1.4, 01/10/2026). Note d'Ether : Le bilan « jusqu’à janvier 1945 » n’est pas converti en un pourcentage exact au 31 décembre. Relecture Claude 01/10/2026 : Ordre du 9 octobre 1944 et poursuite de la destruction après le départ des insurgés et de la population confirmés."
+  },
+  {
+   "source_id": "src-14-pl-gdynia-nom",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Comment le nom Gotenhafen a été imposé à Gdynia",
+   "institution": "Muzeum Miasta Gdyni — musée de la ville de Gdynia",
+   "url": "https://muzeumgdynia.pl/2026/09/gotenort-steinberg-oxhoft-a-moze-wiekstad-jak-nazisci-wymyslili-gotenhafen/",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "nom_historique",
+    "situation_fin_1944"
+   ],
+   "cibles": [
+    "ville-pl-gdynia"
+   ],
+   "locator": "Nom Gotenhafen annoncé le 19 septembre 1939 ; actes municipaux de guerre ; prise de la ville le 28 mars 1945.",
+   "resume_passage": "Gdynia, która 28 marca 1945 r. została zajęta przez Armię Czerwoną",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "passages_cibles_lus",
+    "passages": "Nom Gotenhafen annoncé le 19 septembre 1939 ; actes municipaux de guerre ; prise de la ville le 28 mars 1945."
+   },
+   "notes": "Proposée par Ether (villes 1.4, 01/10/2026). Note d'Ether : Le transfert de la mairie à Flensburg en mars 1945 est un événement futur. Les archives citées ne sont pas toutes lues directement. Relecture Claude 01/10/2026 : Nom annoncé le 19 sept. 1939 (visite de Hitler), sceaux/imprimés municipaux de guerre (blason du 26.06.1942) et prise le 28.03.1945 vus."
+  },
+  {
+   "source_id": "src-14-pl-gdynia-plan",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Plan du port de Gdynia, 1937",
+   "institution": "Muzeum Miasta Gdyni — musée de la ville de Gdynia",
+   "url": "https://muzeumgdynia.pl/2021/05/plan-portu-gdynia/",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "port_maritime"
+   ],
+   "cibles": [
+    "ville-pl-gdynia"
+   ],
+   "locator": "Notice du plan de 1937, cote MMG/HM/I/422 ; texte sur les installations et projets incomplets avant 1939.",
+   "resume_passage": "Plan, Port Gdynia, 1937, światłokopia kolorowana, ze zbiorów Muzeum Miasta Gdyni, sygn. MMG/HM/I/422",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "passages_cibles_lus",
+    "passages": "Notice du plan de 1937, cote MMG/HM/I/422 ; texte sur les installations et projets incomplets avant 1939."
+   },
+   "notes": "Proposée par Ether (villes 1.4, 01/10/2026). Note d'Ether : La notice est lue ; le plan n’est pas utilisé ici pour une mesure géométrique ou une capacité. Relecture Claude 01/10/2026 : Notice du plan de 1937 avec la cote exacte et mention des projets non achevés avant 1939 (canal industriel, môle est)."
+  },
+  {
+   "source_id": "src-14-lv-ventspils-port",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Histoire du port de Ventspils",
+   "institution": "Ventspils brīvostas pārvalde — autorité du port de Ventspils",
+   "url": "https://www.portofventspils.lv/en/port-in-general/port-history/",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "port_maritime"
+   ],
+   "cibles": [
+    "ville-lv-ventspils"
+   ],
+   "locator": "Modernisation au tournant du XXe siècle et trafic portuaire jusqu’à l’entre-deux-guerres.",
+   "resume_passage": "At the end of the 19th century, construction works of unprecedented volume were started at the port.",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "passages_cibles_lus",
+    "passages": "Modernisation au tournant du XXe siècle et trafic portuaire jusqu’à l’entre-deux-guerres."
+   },
+   "notes": "Proposée par Ether (villes 1.4, 01/10/2026). Note d'Ether : Ne pas anticiper le complexe pétrolier et chimique développé après 1950. Relecture Claude 01/10/2026 : Modernisation de fin XIXe, trafic dépassant Liepāja en 1912 et stagnation de l'entre-deux-guerres sont attestés ; rien sur le complexe post-1950 dans les passages vus."
+  },
+  {
+   "source_id": "src-14-pl-szczecin-urbanisme",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Histoire du port et du réseau ferroviaire de Stettin",
+   "institution": "Bureau de planification urbaine de Szczecin",
+   "url": "https://bppm.szczecin.pl/wystawy/plany-historyczne-rozwoju-przestrzennego-szczecina/rok-1894",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rail",
+    "port_maritime"
+   ],
+   "cibles": [
+    "ville-pl-szczecin"
+   ],
+   "locator": "Notice historique : ligne de ceinture 1896–1898 ; bassins et port franc 1898/1910 ; embranchements portuaires.",
+   "resume_passage": "Budowa linii obwodowej Szczecin Główny – Jasienica [...] przypada na lata 1896 – 1898.",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "passages_cibles_lus",
+    "passages": "Notice historique : ligne de ceinture 1896–1898 ; bassins et port franc 1898/1910 ; embranchements portuaires."
+   },
+   "notes": "Proposée par Ether (villes 1.4, 01/10/2026). Note d'Ether : Le plan de 1894 contient aussi des projets : le texte historique distingue réalisation et projet. Relecture Claude 01/10/2026 : Ligne de ceinture 1896–1898, bassins 1898/1910, port franc 1898 et bocznices vus ; la distinction réalisation/projet n'a pas été vérifiée."
+  },
+  {
+   "source_id": "src-14-pl-szczecin-gare",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Histoire de la gare principale de Stettin",
+   "institution": "Visit Szczecin — portail touristique de la ville",
+   "url": "https://visitszczecin.eu/pl/kultura/335-dworzec-glowny-pkp",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rail"
+   ],
+   "cibles": [
+    "ville-pl-szczecin",
+    "ville-pl-poznan"
+   ],
+   "locator": "Berlin–Szczecin 1843 ; Stargard 1846 puis Poznań 1848 ; raccordement au port.",
+   "resume_passage": "Pierwszy pociąg przybył z Berlina do Szczecina 15 sierpnia 1843 r.",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "passages_cibles_lus",
+    "passages": "Berlin–Szczecin 1843 ; Stargard 1846 puis Poznań 1848 ; raccordement au port."
+   },
+   "notes": "Proposée par Ether (villes 1.4, 01/10/2026). Note d'Ether : Aucune infrastructure actuelle assimilée à celle de 1944. Relecture Claude 01/10/2026 : 1843, Stargard 1.05.1846, prolongement vers Poznań en 1848 et gare Szczecin Port avec raccordement au bassin portuaire confirmés."
+  },
+  {
+   "source_id": "src-14-pl-lublin-administration",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Comité polonais de libération nationale à Lublin, 1944",
+   "institution": "Archiwum Państwowe w Lublinie — archives d’État de Lublin",
+   "url": "https://lublin.ap.gov.pl/popularyzacja/galerie-online/15-najwazniejszych-wydarzen-z-historii-lubelszczyzny-w-dokumencie-archiwalnym/powstanie-polskiego-komitetu-wyzwolenia-narodowego-21-22-lipca-1944-r/",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "administration",
+    "chronologie"
+   ],
+   "cibles": [
+    "ville-pl-lublin",
+    "candidat-pl-chelm-role-administratif"
+   ],
+   "locator": "Siège à Lublin à partir du 27 juillet 1944 ; transformation en gouvernement provisoire le 31 décembre.",
+   "resume_passage": "Siedzibą PKWN od 27 lipca 1944 r. stał się Lublin",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "passages_cibles_lus",
+    "passages": "Siège à Lublin à partir du 27 juillet 1944 ; transformation en gouvernement provisoire le 31 décembre."
+   },
+   "notes": "Proposée par Ether (villes 1.4, 01/10/2026). Note d'Ether : D’autres récits donnent août pour certains transferts : distinguer la date générale de siège et l’installation des services. La fonction initiale de Chełm ne reste pas automatiquement active fin décembre. Relecture Claude 01/10/2026 : Siège à Lublin dès le 27 juillet 1944 vu ; la transformation en Rząd Tymczasowy apparaît dans la période 22 juillet–31 décembre 1944 (date du 31 décembre implicite)."
+  },
+  {
+   "source_id": "src-14-pl-katowice-gare",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Ancienne gare ferroviaire de Katowice",
+   "institution": "Narodowy Instytut Dziedzictwa — Institut national du patrimoine polonais",
+   "url": "https://zabytek.pl/pl/obiekty/katowice-zespol-starego-dworca-kolejowego",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rail"
+   ],
+   "cibles": [
+    "ville-pl-katowice"
+   ],
+   "locator": "Fiche d’inventaire : ensemble ferroviaire daté de 1906.",
+   "resume_passage": "budynek użyteczności publicznej 1906 r. Katowice",
+   "archive_locale": null,
+   "verification_claude": "limite",
+   "verification_ether": {
+    "statut": "passages_cibles_lus",
+    "passages": "Fiche d’inventaire : ensemble ferroviaire daté de 1906."
+   },
+   "notes": "Proposée par Ether (villes 1.4, 01/10/2026). Note d'Ether : Preuve de présence ancienne ; n’établit pas seule l’importance du trafic au Snapshot. Relecture Claude 01/10/2026 : La fiche ne donne que la date 1906 et indique n'avoir pas encore de description, donc rien qui détaille un ensemble ferroviaire."
+  },
+  {
+   "source_id": "src-14-lt-capitale-vilnius",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Capitales historiques de la Lituanie",
+   "institution": "Visuotinė lietuvių enciklopedija — encyclopédie lituanienne",
+   "url": "https://www.vle.lt/straipsnis/lietuvos-sostines/",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "capitale",
+    "administration",
+    "chronologie"
+   ],
+   "cibles": [
+    "ville-lt-vilnius",
+    "ville-lt-kaunas"
+   ],
+   "locator": "Kaunas capitale provisoire 1919–1940 ; Vilnius capitale et centre administratif de la république soviétique en 1944–1990.",
+   "resume_passage": "1919–40 Lietuvos laikinąja sostine buvo Kaunas ; 1940–41 ir 1944–90 [...] Vilnius buvo LSSR sostinė, faktiškai – administracinis centras",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "passages_cibles_lus",
+    "passages": "Kaunas capitale provisoire 1919–1940 ; Vilnius capitale et centre administratif de la république soviétique en 1944–1990."
+   },
+   "notes": "Proposée par Ether (villes 1.4, 01/10/2026). Note d'Ether : Capitale régionale proposée selon le siège administratif effectif ; ce classement de l’Atlas ne tranche pas la continuité juridique de l’État lituanien. Relecture Claude 01/10/2026 : Les deux affirmations sont soutenues par l'article."
+  },
+  {
+   "source_id": "src-14-lt-fin-1944",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Lituanie sous le régime stalinien, 1944–1953",
+   "institution": "Visuotinė lietuvių enciklopedija — encyclopédie lituanienne",
+   "url": "https://www.vle.lt/straipsnis/lietuva-stalininio-rezimo-metais-1944-1953/",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "situation_fin_1944",
+    "administration"
+   ],
+   "cibles": [
+    "ville-lt-vilnius",
+    "ville-lt-kaunas",
+    "ville-lt-siauliai",
+    "ville-lt-panevezys",
+    "ville-lt-klaipeda"
+   ],
+   "locator": "Institutions à Vilnius dès juillet 1944 ; Memel bloquée en octobre et prise seulement le 28 janvier 1945.",
+   "resume_passage": "1944 10 10 SSRS kariuomenės tankų daliniai prie Palangos pasiekė Baltijos jūrą ir blokavo Klaipėdą, šį miestą sovietinė kariuomenė po atkaklių mūšių užėmė 1945 01 28.",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "passages_cibles_lus",
+    "passages": "Institutions à Vilnius dès juillet 1944 ; Memel bloquée en octobre et prise seulement le 28 janvier 1945."
+   },
+   "notes": "Proposée par Ether (villes 1.4, 01/10/2026). Note d'Ether : Les découpages de 1947/1950 ne sont pas anticipés ; situation militaire décrite sans dupliquer les champs territoriaux dans les villes. Relecture Claude 01/10/2026 : Institutions soviétiques à Vilnius en juillet 1944, blocus de Klaipėda le 10.10.1944 et prise le 28.01.1945 confirmés."
+  },
+  {
+   "source_id": "src-14-ee-narva-destruction",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Destruction de Narva en 1944",
+   "institution": "Narva Muuseum — musée de Narva",
+   "url": "https://www.narvamuuseum.ee/en/muuseum/historical-blog/1944-aastal-joudsid-teise-maailmasoja-lahingud-taas-eesti-pinnale/",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "situation_fin_1944"
+   ],
+   "cibles": [
+    "ville-ee-narva"
+   ],
+   "locator": "Bombardements de mars ; combats jusqu’au 26 juillet 1944.",
+   "resume_passage": "from March 6 to 8, the Soviet Air Force carried out heavy bombing raids on the city.",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "passages_cibles_lus",
+    "passages": "Bombardements de mars ; combats jusqu’au 26 juillet 1944."
+   },
+   "notes": "Proposée par Ether (villes 1.4, 01/10/2026). Note d'Ether : Le maintien du point urbain représente le nœud historique endommagé, pas une ville intacte. Relecture Claude 01/10/2026 : Bombardements des 6-8 mars 1944 et fin de la bataille le 26 juillet 1944 confirmés."
+  },
+  {
+   "source_id": "src-14-pl-poznan-gare",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Gare centrale de Poznań : collection 1898–1945",
+   "institution": "CYRYL — dépôt numérique du patrimoine local de Poznań",
+   "url": "https://cyryl.poznan.pl/kolekcja/dworzec-glowny-1898-1945-pocztowki-ze-zb-prywatnych/",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rail",
+    "perimetre_historique"
+   ],
+   "cibles": [
+    "ville-pl-poznan"
+   ],
+   "locator": "Notice : première gare à Jeżyce en 1848 ; gare centrale urbaine depuis 1879.",
+   "resume_passage": "Pierwszy dworzec kolejowy na terenie obecnego Poznania otwarto w 1848 roku w leżącej wówczas na zachód od miasta wsi Jeżyce",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "passages_cibles_lus",
+    "passages": "Notice : première gare à Jeżyce en 1848 ; gare centrale urbaine depuis 1879."
+   },
+   "notes": "Proposée par Ether (villes 1.4, 01/10/2026). Note d'Ether : Ne pas faire de la commune Jeżyce de 1848 une commune distincte en 1944 sans considérer sa fusion ultérieure. Relecture Claude 01/10/2026 : La notice confirme la gare de Jeżyce en 1848 et l'ouverture de la gare centrale (Centralbahnhof) en 1879, qui ferme celle de Jeżyce."
+  },
+  {
+   "source_id": "src-14-pl-tczew-rail",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Histoire du nœud ferroviaire de Tczew",
+   "institution": "Ville de Tczew",
+   "url": "https://tczew.pl/ekspresem-przez-historie-tczewskiej-kolei/",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rail"
+   ],
+   "cibles": [
+    "ville-pl-tczew"
+   ],
+   "locator": "Ouverture le 19 juillet 1852 et histoire du nœud de franchissement.",
+   "resume_passage": "19 dzień lipca tegoż roku. Wówczas to do naszego miasta [...] wjechał pierwszy pociąg ciągnięty przez parowóz o nazwie „Drache”",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "passages_cibles_lus",
+    "passages": "Ouverture le 19 juillet 1852 et histoire du nœud de franchissement."
+   },
+   "notes": "Proposée par Ether (villes 1.4, 01/10/2026). Note d'Ether : État des ponts au 31 décembre 1944 à documenter séparément. Relecture Claude 01/10/2026 : Le 19 juillet est cité et l'article traite du franchissement de la Vistula ; l'année 1852 vient du contexte (« tegoż roku ») et n'apparaît pas dans l'extrait."
+  },
+  {
+   "source_id": "src-14-pl-bialystok-rail",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Développement ferroviaire de Białystok au XIXe siècle",
+   "institution": "Archiwum Państwowe w Białymstoku — archives d’État de Białystok",
+   "url": "https://www.bialystok.ap.gov.pl/arch/kalendarium/29_05.htm",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rail"
+   ],
+   "cibles": [
+    "ville-pl-bialystok"
+   ],
+   "locator": "Connexions vers Varsovie/Pétersbourg 1862, Königsberg/Odessa 1873 et Moscou 1886.",
+   "resume_passage": "z Warszawą i Petersburgiem (w roku 1862), z Królewcem i Odessą (w roku 1873), oraz Moskwą (w roku 1886)",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "passages_cibles_lus",
+    "passages": "Connexions vers Varsovie/Pétersbourg 1862, Königsberg/Odessa 1873 et Moscou 1886."
+   },
+   "notes": "Proposée par Ether (villes 1.4, 01/10/2026). Note d'Ether : Les destinations historiques ne constituent pas des services garantis fin 1944. Relecture Claude 01/10/2026 : Les trois liaisons ferroviaires et leurs dates sont textuellement présentes."
+  },
+  {
+   "source_id": "src-14-pl-katowice-industrie",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Deux cents ans de la mine de Katowice",
+   "institution": "Muzeum Śląskie — musée de Silésie",
+   "url": "https://muzeumslaskie.pl/200-lat-kopalni-katowice-nasza-kopalnia/",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "industrie"
+   ],
+   "cibles": [
+    "ville-pl-katowice"
+   ],
+   "locator": "Mine Ferdinand créée en 1823 ; histoire industrielle jusqu’au XXe siècle.",
+   "resume_passage": "Historia kopalni „Katowice\" („Ferdynand\") zaczęła się w 1823 roku.",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "passages_cibles_lus",
+    "passages": "Mine Ferdinand créée en 1823 ; histoire industrielle jusqu’au XXe siècle."
+   },
+   "notes": "Proposée par Ether (villes 1.4, 01/10/2026). Note d'Ether : La fonction muséale actuelle ne remplace pas la fonction industrielle historique. Relecture Claude 01/10/2026 : Fondation de la mine Ferdynand en 1823 et histoire industrielle jusqu'à la fin du XXe siècle (crise des années 30, fermeture fin années 90) vues."
+  },
+  {
+   "source_id": "src-14-pl-chorzow-industrie",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Chronologie de la sidérurgie de Königshütte / Chorzów",
+   "institution": "Muzeum Hutnictwa w Chorzowie — musée de la sidérurgie de Chorzów",
+   "url": "https://muzeumhutnictwa.pl/kalendarium-krolewska/",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "industrie",
+    "nom_historique"
+   ],
+   "cibles": [
+    "ville-pl-chorzow"
+   ],
+   "locator": "Chronologie de l’usine depuis 1802 et étapes de l’entre-deux-guerres.",
+   "resume_passage": "Produkcja ruszyła we wrześniu 1802 r. W 1818 r. ogień płonął już w aż czterech wielkich piecach.",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "passages_cibles_lus",
+    "passages": "Chronologie de l’usine depuis 1802 et étapes de l’entre-deux-guerres."
+   },
+   "notes": "Proposée par Ether (villes 1.4, 01/10/2026). Note d'Ether : Les arrêts de production après la prise soviétique de 1945 restent futurs. Relecture Claude 01/10/2026 : Le kalendarium couvre 1802 et les étapes interwar (1926 concern, 1935 nom Piłsudski, 1937 haut fourneau A)."
+  },
+  {
+   "source_id": "src-14-pl-zabrze-industrie",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Histoire des mines de Zabrze",
+   "institution": "Muzeum Górnictwa Węglowego — musée de l’industrie charbonnière",
+   "url": "https://muzeumgornictwa.pl/poznaj/muzeum/historia/",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "industrie"
+   ],
+   "cibles": [
+    "ville-pl-zabrze"
+   ],
+   "locator": "Mine royale dès 1791, Guido 1855, documentation de la mine Królowa Luiza en 1939.",
+   "resume_passage": "W 1791 roku powstała najstarsza państwowa kopalnia Królewska [...] W 1855 r. hrabia Guido Henckel von Donnersmarck [...] założył w Zabrzu kopalnię",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "passages_cibles_lus",
+    "passages": "Mine royale dès 1791, Guido 1855, documentation de la mine Królowa Luiza en 1939."
+   },
+   "notes": "Proposée par Ether (villes 1.4, 01/10/2026). Note d'Ether : Ne pas assimiler tous les travaux historiques de la galerie d’exhaure à une navigation commerciale active en 1945. Relecture Claude 01/10/2026 : 1791 et 1855 confirmés par le texte ; 1939 seulement via la légende d'une photo d'archive « Kopalnia Królowa Luiza 1939 »."
+  },
+  {
+   "source_id": "src-14-pl-stalowa-wola-industrie",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Fondation industrielle de Stalowa Wola",
+   "institution": "Ville de Stalowa Wola",
+   "url": "https://www.stalowawola.pl/pl/o-miescie.html",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "industrie",
+    "perimetre_historique"
+   ],
+   "cibles": [
+    "ville-pl-stalowa-wola"
+   ],
+   "locator": "Zakłady Południowe et cité ouvrière déjà ouvertes en juin 1939.",
+   "resume_passage": "",
+   "archive_locale": null,
+   "verification_claude": "non_verifiee",
+   "verification_ether": {
+    "statut": "passages_cibles_lus",
+    "passages": "Zakłady Południowe et cité ouvrière déjà ouvertes en juin 1939."
+   },
+   "notes": "Proposée par Ether (villes 1.4, 01/10/2026). Note d'Ether : Le point urbain fonctionnel ne dépend pas du rang légal de ville ni des extensions postérieures. Relecture Claude 01/10/2026 : WebFetch refusé : ROBOTS_DISALLOWED (robots.txt, erreur 429)."
+  },
+  {
+   "source_id": "src-14-pl-mielec-industrie",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Histoire de l’usine aéronautique de Mielec",
+   "institution": "PZL Mielec — constructeur aéronautique",
+   "url": "https://pzlmielec.pl/firma/dzialalnosc-i-historia",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "industrie",
+    "situation_fin_1944"
+   ],
+   "cibles": [
+    "ville-pl-mielec"
+   ],
+   "locator": "Usine 1938, montage 1939 ; reprise soviétique le 6 août 1944 et réparations d’avions.",
+   "resume_passage": "Armia Czerwona, która 6 sierpnia 1944 roku przejęła zakłady",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "passages_cibles_lus",
+    "passages": "Usine 1938, montage 1939 ; reprise soviétique le 6 août 1944 et réparations d’avions."
+   },
+   "notes": "Proposée par Ether (villes 1.4, 01/10/2026). Note d'Ether : Réparation et fabrication aéronautiques classées industrie ; rôle d’aérodrome de transport non ajouté automatiquement. Relecture Claude 01/10/2026 : Usine de 1938, montage du PZL.37 Łoś en mars 1939, reprise soviétique du 6 août 1944 et réparations d'avions confirmés."
+  },
+  {
+   "source_id": "src-14-pl-gliwice-fonderie",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Fonderie d’art : histoire du site",
+   "institution": "Muzeum w Gliwicach — Musée de Gliwice",
+   "url": "https://muzeum.gliwice.pl/pl/zwiedzaj/oddzial-odlewnictwa-artystycznego",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "industrie",
+    "nomenclature"
+   ],
+   "cibles": [
+    "ville-pl-gliwice"
+   ],
+   "locator": "Fonderie royale de 1796 ; bâtiment de 1912–1914 ; musée nommé Oberschlesisches Museum in Gleiwitz pour 1905–1945.",
+   "resume_passage": "w latach 1905–1945 jako Oberschlesisches Museum in Gleiwitz",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "passages_cibles_lus",
+    "passages": "Fonderie royale de 1796 ; bâtiment de 1912–1914 ; musée nommé Oberschlesisches Museum in Gleiwitz pour 1905–1945."
+   },
+   "notes": "Proposée par Ether (villes 1.4, 01/10/2026). Note d'Ether : Le nom du musée atteste la forme Gleiwitz ; il ne date pas chaque changement de nom de la commune. Relecture Claude 01/10/2026 : Fonderie 1796, bâtiment 1912-1914 et nom du musée pour 1905-1945 sont tous cités sur la page."
+  },
+  {
+   "source_id": "src-14-pl-chelm-rail",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Traditions ferroviaires de Chełm : gare principale",
+   "institution": "Muzeum Ziemi Chełmskiej — Musée du pays de Chełm",
+   "url": "https://mzch.pl/tradycje-kolejowe-chelma-dworzec-glowny-pkp-w-chelmie/",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rail",
+    "rupture"
+   ],
+   "cibles": [
+    "ville-pl-chelm"
+   ],
+   "locator": "Ligne de 1876–1877, liaison vers Brest de 1887, colonie ferroviaire de 1928 et gare endommagée en 1944.",
+   "resume_passage": "10 lat po uruchomieniu Kolei Nadwiślańskiej powstała kolej żelazna, łącząca Chełm z Brześciem.",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "passages_cibles_lus",
+    "passages": "Ligne de 1876–1877, liaison vers Brest de 1887, colonie ferroviaire de 1928 et gare endommagée en 1944."
+   },
+   "notes": "Proposée par Ether (villes 1.4, 01/10/2026). Note d'Ether :  Relecture Claude 01/10/2026 : 1876–77, 1928 et 1944 explicites ; 1887 pour Brest seulement déduit (10 ans après 1876–77), pas écrit tel quel."
+  },
+  {
+   "source_id": "src-14-pl-lodz-textile",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Biała Fabryka : histoire de la manufacture",
+   "institution": "Centralne Muzeum Włókiennictwa w Łodzi — Musée central du textile de Łódź",
+   "url": "https://cmwl.pl/public/informacje/biala-fabryka,27",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "industrie"
+   ],
+   "cibles": [
+    "ville-pl-lodz"
+   ],
+   "locator": "Manufacture textile construite en 1835–1838 ; développements de 1847 et 1886.",
+   "resume_passage": "Trzypiętrowy gmach fabryki przy ul. Piotrkowskiej 282 został zbudowany przez Ludwika Geyera i powstał w latach 1835-1838.",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "passages_cibles_lus",
+    "passages": "Manufacture textile construite en 1835–1838 ; développements de 1847 et 1886."
+   },
+   "notes": "Proposée par Ether (villes 1.4, 01/10/2026). Note d'Ether : La capacité de production au 31 décembre 1944 n’est pas mesurée par cette notice. Relecture Claude 01/10/2026 : Construction 1835–1838, aile sud 1847 et aile est 1886 confirmées."
+  },
+  {
+   "source_id": "src-14-pl-lodz-nom",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Histoire de Łódź : le changement de nom en Litzmannstadt",
+   "institution": "Urząd Miasta Łodzi — Ville de Łódź",
+   "url": "https://lodz.pl/artykul/historia-lodzi-zmiana-nazwy-na-litzmannstadt-nowe-ulice-i-herb-oraz-siedziba-gestapo-62432/",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "nomenclature"
+   ],
+   "cibles": [
+    "ville-pl-lodz"
+   ],
+   "locator": "Extrait indexé : changement du nom en Litzmannstadt le 11 avril 1940.",
+   "resume_passage": "zmiana nazwy miasta na Litzmannstadt, której dokonano uroczyście 11 kwietnia 1940 r.",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "extrait_recherche_lu_page_non_ouverte",
+    "passages": "Extrait indexé : changement du nom en Litzmannstadt le 11 avril 1940."
+   },
+   "notes": "Proposée par Ether (villes 1.4, 01/10/2026). Note d'Ether : Page non ouverte après erreur du site ; preuve limitée à l’extrait de recherche effectivement lu. Relecture Claude 01/10/2026 : La page s'est ouverte cette fois et le passage exact sur le changement de nom au 11 avril 1940 est vu."
+  },
+  {
+   "source_id": "src-14-pl-tarnowskie-gory-rail",
+   "niveau": "C",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Gare de Tarnowskie Góry : histoire",
+   "institution": "Urząd Miejski w Tarnowskich Górach — Ville de Tarnowskie Góry",
+   "url": "https://tarnowskiegory.pl/mobilny-informator-turystyczny-dworzec-kolejowy/",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rail"
+   ],
+   "cibles": [
+    "ville-pl-tarnowskie-gory"
+   ],
+   "locator": "Arrivée du chemin de fer en 1854 et nouvelle gare de 1888.",
+   "resume_passage": "Tarnowskie Góry dysponowały połączeniem kolejowym już od 1854 roku.",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "passages_cibles_lus",
+    "passages": "Arrivée du chemin de fer en 1854 et nouvelle gare de 1888."
+   },
+   "notes": "Proposée par Ether (villes 1.4, 01/10/2026). Note d'Ether : Le trafic cité pour la fin du XIXe siècle n’est pas une mesure de 1944. La page municipale déclare Wikipédia comme source : attestation tertiaire à renforcer par une archive ou une histoire ferroviaire spécialisée. Relecture Claude 01/10/2026 : 1854 et nouvelle gare mise en service le 15 octobre 1888 sont attestés ; la page indique bien « źródło: wikipedia.org »."
+  },
+  {
+   "source_id": "src-14-pl-radom-armes",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Fabryka Broni w Radomiu : présentation du fonds",
+   "institution": "Archiwum Państwowe w Radomiu / Szukaj w Archiwach — Archives d’État de Radom",
+   "url": "https://www.szukajwarchiwach.gov.pl/zespol/-/zespol/29946",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "industrie"
+   ],
+   "cibles": [
+    "ville-pl-radom"
+   ],
+   "locator": "Construction décidée en 1922, production depuis 1927 ; usine Waffenfabrik Radom pendant l’occupation.",
+   "resume_passage": "W 1922 roku Centralny Zarząd Wytwórni Wojskowych zdecydował o budowie fabryki broni w Radomiu",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "passages_cibles_lus",
+    "passages": "Construction décidée en 1922, production depuis 1927 ; usine Waffenfabrik Radom pendant l’occupation."
+   },
+   "notes": "Proposée par Ether (villes 1.4, 01/10/2026). Note d'Ether : Présentation archivistique lue ; aucune pièce originale du fonds consultée. Relecture Claude 01/10/2026 : 1922, 1927 et Waffenfabrik Radom sous l'occupation tous vus dans la notice d'archive."
+  },
+  {
+   "source_id": "src-14-pl-swinoujscie-port",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Histoire de Świnoujście et de son port",
+   "institution": "Muzeum Rybołówstwa Morskiego w Świnoujściu — Musée de la pêche maritime",
+   "url": "https://mrm.swinoujscie.pl/",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "port_maritime",
+    "militaire",
+    "rupture"
+   ],
+   "cibles": [
+    "ville-pl-swinoujscie"
+   ],
+   "locator": "Aménagements portuaires du XIXe siècle ; agrandissement en base de la Kriegsmarine à la fin des années 1930 et dans les années 1940 ; bombardement du 12 mars 1945.",
+   "resume_passage": "Na przełom lat 30-tych i 40-tych przypadł okres intensywnej rozbudowy portu, utworzono w Świnoujściu bazę niemieckiej Kriegsmarine",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "passages_cibles_lus",
+    "passages": "Aménagements portuaires du XIXe siècle ; agrandissement en base de la Kriegsmarine à la fin des années 1930 et dans les années 1940 ; bombardement du 12 mars 1945."
+   },
+   "notes": "Proposée par Ether (villes 1.4, 01/10/2026). Note d'Ether : Le bombardement de mars 1945 est un repère futur, absent du snapshot initial. Relecture Claude 01/10/2026 : Travaux portuaires du XIXe siècle, base Kriegsmarine et raid du 12 mars 1945 présents (ce dernier sous forme de passage résumé)."
+  },
+  {
+   "source_id": "src-14-pl-torun-rail",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Une gare accueillante pour les voyageurs : histoire de Toruń Główny",
+   "institution": "Urząd Miasta Torunia — Ville de Toruń",
+   "url": "https://torun.pl/pl/aktualnosc/dworzec-przyjazny-dla-podroznych",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rail"
+   ],
+   "cibles": [
+    "ville-pl-torun",
+    "ville-pl-bydgoszcz"
+   ],
+   "locator": "Ligne Bydgoszcz–Toruń de 1861 ; gare de 1873 ; extension ferroviaire de 1883.",
+   "resume_passage": "już w roku 1861 oddano do użytku połączenie Bydgoszcz – Toruń",
+   "archive_locale": null,
+   "verification_claude": "limite",
+   "verification_ether": {
+    "statut": "passages_cibles_lus",
+    "passages": "Ligne Bydgoszcz–Toruń de 1861 ; gare de 1873 ; extension ferroviaire de 1883."
+   },
+   "notes": "Proposée par Ether (villes 1.4, 01/10/2026). Note d'Ether : Les reconstructions après 1945 ne sont pas importées. Relecture Claude 01/10/2026 : Ligne de 1861 et gare de 1873 confirmées ; pour 1883 seule l'information « la gare avait 12 voies principales » est vue, pas une extension ferroviaire explicite."
+  },
+  {
+   "source_id": "src-14-pl-czestochowa-industrialisation",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Naissance de la Częstochowa moderne",
+   "institution": "Częstochowska Gazeta Kulturalna — Portail culturel de la ville de Częstochowa",
+   "url": "https://www.cgk.czestochowa.pl/blog/artykul/narodziny-nowoczesnej-czestochowy",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rail",
+    "industrie"
+   ],
+   "cibles": [
+    "ville-pl-czestochowa"
+   ],
+   "locator": "Chemin de fer Varsovie–Vienne en 1846 ; usines textiles et métallurgiques avant 1914.",
+   "resume_passage": "budowa Kolei Warszawsko-Wiedeńskiej w 1846 r.",
+   "archive_locale": null,
+   "verification_claude": "limite",
+   "verification_ether": {
+    "statut": "passages_cibles_lus",
+    "passages": "Chemin de fer Varsovie–Vienne en 1846 ; usines textiles et métallurgiques avant 1914."
+   },
+   "notes": "Proposée par Ether (villes 1.4, 01/10/2026). Note d'Ether : Le rang proposé repose sur le nœud et le bassin industriel historiques, sans chiffre de trafic pour 1944. Relecture Claude 01/10/2026 : Le chemin de fer de 1846 est confirmé, mais la page ne qualifie pas explicitement les usines de textiles/métallurgiques (elle cite Wełnopol, Warta, Elanex, Częstochowianka) ni ne date « avant 1914 »."
+  },
+  {
+   "source_id": "src-14-pl-gdansk-schichau",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Stocznia Schichaua : histoire du chantier naval",
+   "institution": "Fundacja Gdańska — Gedanopedia, Encyclopédie de Gdańsk",
+   "url": "https://gdansk.gedanopedia.pl/gdansk/?title=STOCZNIA_SCHICHAUA",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "construction_navale",
+    "rail",
+    "industrie"
+   ],
+   "cibles": [
+    "ville-pl-gdansk",
+    "ville-pl-elblag"
+   ],
+   "locator": "Gdańsk : implantation reliée au rail en 1889, chantier en activité dès 1891 et ouverture formelle en 1892. Elbląg : machines navales et turbines, licence de 1907, moteurs depuis 1911.",
+   "resume_passage": "Oficjalne otwarcie gdańskiej filii stoczni Schichaua z Elbląga nastąpiło w stycznia 1892.",
+   "archive_locale": null,
+   "verification_claude": "limite",
+   "verification_ether": {
+    "statut": "passages_cibles_lus",
+    "passages": "Gdańsk : implantation reliée au rail en 1889, chantier en activité dès 1891 et ouverture formelle en 1892. Elbląg : machines navales et turbines, licence de 1907, moteurs depuis 1911."
+   },
+   "notes": "Proposée par Ether (villes 1.4, 01/10/2026). Note d'Ether : Ne pas confondre ces entreprises avec les sociétés constituées après 1945. Relecture Claude 01/10/2026 : Ouverture 1892, activité 1891, licence 1907 et moteurs 1911 vus ; la date 1889 du raccordement ferroviaire n'est pas citée (seulement « Gdańsk mający połączenie kolejowe »)."
+  },
+  {
+   "source_id": "src-14-lt-lentvaris-rail",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Lentvaris : histoire",
+   "institution": "Visuotinė lietuvių enciklopedija — Encyclopédie générale lituanienne",
+   "url": "https://www.vle.lt/straipsnis/lentvaris/",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rail",
+    "perimetre"
+   ],
+   "cibles": [
+    "ville-lt-lentvaris"
+   ],
+   "locator": "Développement au croisement ferroviaire à partir de 1862 ; droits de ville accordés seulement en 1949.",
+   "resume_passage": "1862 pro Lentvarį nutiestas Sankt Peterburgo–Varšuvos geležinkelis su atšaka į Vokietiją. Išsiplėtė geležinkelininkų miestelis. / Miesto teisės nuo 1949.",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "passages_cibles_lus",
+    "passages": "Développement au croisement ferroviaire à partir de 1862 ; droits de ville accordés seulement en 1949."
+   },
+   "notes": "Proposée par Ether (villes 1.4, 01/10/2026). Note d'Ether : L’absence de statut municipal en 1945 n’annule pas le nœud ferroviaire antérieur. Relecture Claude 01/10/2026 : Voie ferrée de 1862 et droits de ville en 1949 confirmés."
+  },
+  {
+   "source_id": "src-14-lv-krustpils-jekabpils",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Histoire de Jēkabpils et Krustpils",
+   "institution": "Jēkabpils novada pašvaldība — Municipalité de Jēkabpils",
+   "url": "https://www.jekabpils.lv/en/history?consent=true",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "perimetre"
+   ],
+   "cibles": [
+    "ville-lv-krustpils",
+    "candidat-lv-jekabpils"
+   ],
+   "locator": "Réunion administrative de Jēkabpils et Krustpils en 1962.",
+   "resume_passage": "The existing borders of the city were established in 1962 when the neighbouring city Krustpils merged with Jēkabpils.",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "passages_cibles_lus",
+    "passages": "Réunion administrative de Jēkabpils et Krustpils en 1962."
+   },
+   "notes": "Proposée par Ether (villes 1.4, 01/10/2026). Note d'Ether : Le périmètre urbain actuel ne doit pas remplacer deux unités historiques en 1945. Relecture Claude 01/10/2026 : Fusion de Krustpils et Jēkabpils en 1962 confirmée."
+  },
+  {
+   "source_id": "src-14-ee-sillamae-chronologie",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Histoire de Sillamäe",
+   "institution": "Sillamäe linn — Ville de Sillamäe",
+   "url": "https://www.sillamae.ee/en/tourism/history",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "industrie",
+    "port_maritime",
+    "chronologie"
+   ],
+   "cibles": [
+    "candidat-ee-sillamae"
+   ],
+   "locator": "Usine de schistes bitumineux en 1928, port d’exportation en 1936, destructions pendant la guerre et nouveau programme industriel après 1945.",
+   "resume_passage": "In 1928 Estonia, using the capital of a Swedish consolidated company, built a factory for processing slate.",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "passages_cibles_lus",
+    "passages": "Usine de schistes bitumineux en 1928, port d’exportation en 1936, destructions pendant la guerre et nouveau programme industriel après 1945."
+   },
+   "notes": "Proposée par Ether (villes 1.4, 01/10/2026). Note d'Ether : La notice présente des formulations contradictoires sur le début de l’industrialisation ; la date des destructions et l’état fin 1944 doivent être consolidés. Relecture Claude 01/10/2026 : Usine 1928, port 1936, destruction de l'usine et de la centrale pendant la guerre, et usine nucléaire lancée en 1946 sont tous vus (date des destructions non précisée)."
+  },
+  {
+   "source_id": "src-14-ee-kohtla-jarve-industrie",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Histoire de l’industrie des schistes bitumineux",
+   "institution": "Viru Keemia Grupp — Groupe chimique Viru",
+   "url": "https://www.vkg.ee/ajalugu/",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "industrie",
+    "chronologie"
+   ],
+   "cibles": [
+    "ville-ee-kohtla-jarve"
+   ],
+   "locator": "Débuts de l’industrie en 1916 ; quatre unités Kiviter construites en 1924–1943 ; nouveau complexe daté de 1945.",
+   "resume_passage": "ehitatakse neli Kiviter õlivabrikut",
+   "archive_locale": null,
+   "verification_claude": "limite",
+   "verification_ether": {
+    "statut": "passages_cibles_lus",
+    "passages": "Débuts de l’industrie en 1916 ; quatre unités Kiviter construites en 1924–1943 ; nouveau complexe daté de 1945."
+   },
+   "notes": "Proposée par Ether (villes 1.4, 01/10/2026). Note d'Ether : Le complexe de 1945 reste futur ; le point retenu correspond au site industriel ancien. Relecture Claude 01/10/2026 : Contenu thématique concordant mais les extraits retournés ne montrent pas explicitement les dates 1916, 1924–1943 et 1945 : à reconfirmer."
+  },
+  {
+   "source_id": "src-14-ee-kohtla-jarve-perimetre",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Kohtla-Järve : histoire administrative",
+   "institution": "Eesti Entsüklopeedia — Encyclopédie estonienne",
+   "url": "https://entsyklopeedia.ee/artikkel/kohtla-j%C3%A4rve3",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "perimetre"
+   ],
+   "cibles": [
+    "ville-ee-kohtla-jarve"
+   ],
+   "locator": "Extrait indexé : statut de ville en 1946 et regroupements de plusieurs noyaux après 1945.",
+   "resume_passage": "",
+   "archive_locale": null,
+   "verification_claude": "non_verifiee",
+   "verification_ether": {
+    "statut": "extrait_recherche_lu_page_non_ouverte",
+    "passages": "Extrait indexé : statut de ville en 1946 et regroupements de plusieurs noyaux après 1945."
+   },
+   "notes": "Proposée par Ether (villes 1.4, 01/10/2026). Note d'Ether : Extrait seul ; les limites exactes de 1944 ne sont pas dessinées. Le point ne représente pas l’ensemble des quartiers de la commune moderne. Relecture Claude 01/10/2026 : WebFetch refusé : ROBOTS_DISALLOWED (robots.txt, échec de connexion)."
+  },
+  {
+   "source_id": "src-14-ee-tallinn-histoire",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Tallinn : histoire",
+   "institution": "Eesti Entsüklopeedia — Encyclopédie estonienne",
+   "url": "https://www.entsyklopeedia.ee/artikkel/tallinn3",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rail",
+    "port_maritime",
+    "administration",
+    "capitale",
+    "perimetre"
+   ],
+   "cibles": [
+    "ville-ee-tallinn"
+   ],
+   "locator": "Chemin de fer en 1870 ; chantiers et port militaire avant 1914 ; capitale de l’Estonie puis de la RSS d’Estonie en 1940 ; Nõmme intégré en 1940.",
+   "resume_passage": "Tallinna pindala kasvas 1940, pärast Nõmme Tallinnaga liitmist 1,5 korda",
+   "archive_locale": null,
+   "verification_claude": "limite",
+   "verification_ether": {
+    "statut": "passages_cibles_lus",
+    "passages": "Chemin de fer en 1870 ; chantiers et port militaire avant 1914 ; capitale de l’Estonie puis de la RSS d’Estonie en 1940 ; Nõmme intégré en 1940."
+   },
+   "notes": "Proposée par Ether (villes 1.4, 01/10/2026). Note d'Ether : Ne pas transformer automatiquement le port militaire de 1912 en un rôle militaire opérationnel documenté pour fin 1944. Relecture Claude 01/10/2026 : Seul l'intégration de Nõmme en 1940 est vue ; chemin de fer 1870, port militaire avant 1914 et statut de capitale de la RSS d'Estonie non retrouvés dans la page."
+  },
+  {
+   "source_id": "src-14-pl-szczecin-nom",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Affiche de 1934 : Stettin, port de la Baltique",
+   "institution": "Muzeum Narodowe w Szczecinie — Musée national de Szczecin",
+   "url": "https://e-zbiory.muzeum.szczecin.pl/kategorie/historia-szczecina/ikonografia-szczecina-1900-1945/mns-h-1113-2746.html",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "nomenclature",
+    "port_maritime"
+   ],
+   "cibles": [
+    "ville-pl-szczecin"
+   ],
+   "locator": "Notice de l’affiche de 1934 portant le nom Stettin et représentant la promotion du port.",
+   "resume_passage": "Na górze napis STETTIN, u dołu napis Der grüsste deutsche Ostseehafen",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "passages_cibles_lus",
+    "passages": "Notice de l’affiche de 1934 portant le nom Stettin et représentant la promotion du port."
+   },
+   "notes": "Proposée par Ether (villes 1.4, 01/10/2026). Note d'Ether : La notice a été lue ; l’affiche n’a pas été inspectée comme carte. Son slogan ne prouve pas un classement objectif des ports. Relecture Claude 01/10/2026 : La notice décrit l'affiche portant STETTIN et promouvant le port ; la date 1934 provient de la notice (non citée dans l'extrait)."
+  },
+  {
+   "source_id": "src-14-pl-tarnow-rail",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Histoire de la gare de Tarnów",
+   "institution": "Tarnowskie Centrum Informacji — Centre municipal d’information de Tarnów",
+   "url": "https://www.it.tarnow.pl/atrakcje/tarnow/ciekawostki/szkice-tarnowa/dworzec-kolejowy/",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rail"
+   ],
+   "cibles": [
+    "ville-pl-tarnow",
+    "ville-pl-przemysl"
+   ],
+   "locator": "Ouverture Tarnów–Bochnia–Dębica en 1856 ; axe Vienne–Cracovie–Tarnów–Przemyśl–Lviv attesté pour 1892.",
+   "resume_passage": "otwartym w 1856 roku odcinkiem Kolei Karola Ludwika, łączącym Tarnów z Bochnią i Dębicą",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "passages_cibles_lus",
+    "passages": "Ouverture Tarnów–Bochnia–Dębica en 1856 ; axe Vienne–Cracovie–Tarnów–Przemyśl–Lviv attesté pour 1892."
+   },
+   "notes": "Proposée par Ether (villes 1.4, 01/10/2026). Note d'Ether : Le texte établit le réseau antérieur à 1945, sans garantir son état d’exploitation à minuit. Relecture Claude 01/10/2026 : 1856 vu ; l'axe Lviv–Przemyśl–Tarnów–Cracovie–Vienne est cité à propos de 1892 (nationalisation)."
+  },
+  {
+   "source_id": "src-14-pl-krakow-administration",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Cracovie sous l’occupation : siège du Gouvernement général",
+   "institution": "Instytut Pamięci Narodowej — Institut de la mémoire nationale",
+   "url": "https://krakow.ipn.gov.pl/pl4/nauka-i-edukacja/edukacja-1/przystanek-historia/238251,Jak-Niemcy-zalozyli-getto-dla-Zydow-w-Krakowie.html",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "administration",
+    "capitale",
+    "nomenclature"
+   ],
+   "cibles": [
+    "ville-pl-krakow"
+   ],
+   "locator": "Occupation depuis septembre 1939 ; Cracovie/Krakau devient capitale du Gouvernement général institué en octobre 1939.",
+   "resume_passage": "»Stolicą« Generalnego Gubernatorstwa został ogłoszony Kraków",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "passages_cibles_lus",
+    "passages": "Occupation depuis septembre 1939 ; Cracovie/Krakau devient capitale du Gouvernement général institué en octobre 1939."
+   },
+   "notes": "Proposée par Ether (villes 1.4, 01/10/2026). Note d'Ether : Le terme « régionale » est une convention technique proposée pour ce siège administratif sous occupation. Relecture Claude 01/10/2026 : Entrée allemande le 6.09.1939, création du GG le 12.10.1939 et Cracovie proclamée capitale confirmées."
+  },
+  {
+   "source_id": "src-14-pl-walbrzych-charbon",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Tour de mine Chrobry I : histoire du bassin minier",
+   "institution": "Narodowy Instytut Dziedzictwa — Institut national du patrimoine",
+   "url": "https://zabytek.pl/pl/obiekty/walbrzych-wieza-szybowa-chrobry-i-wschod",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "industrie"
+   ],
+   "cibles": [
+    "ville-pl-walbrzych"
+   ],
+   "locator": "Charbonnages anciens regroupés au XIXe siècle ; puits Bahnschächte actifs depuis 1882 ; appartenance à Waldenburger Bergwerks A.G. depuis 1930.",
+   "resume_passage": "Bahnschächte (późniejsze szyby Bolesław Chrobry) - czynne od 1882 r.",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "passages_cibles_lus",
+    "passages": "Charbonnages anciens regroupés au XIXe siècle ; puits Bahnschächte actifs depuis 1882 ; appartenance à Waldenburger Bergwerks A.G. depuis 1930."
+   },
+   "notes": "Proposée par Ether (villes 1.4, 01/10/2026). Note d'Ether : Ancrer le point sur le bassin urbain historique ; ne pas supposer toutes les limites de la commune actuelle. Relecture Claude 01/10/2026 : Regroupement des mines au XIXe siècle, puits actifs depuis 1882 et appartenance à Waldenburger Bergwerks A.G. depuis 1930 confirmés."
+  },
+  {
+   "source_id": "src-14-pl-sosnowiec-rail",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Histoire de Sosnowiec : la naissance du nœud ferroviaire",
+   "institution": "Urząd Miejski w Sosnowcu — Ville de Sosnowiec",
+   "url": "https://www.sosnowiec.pl/zakochaj-sie-w-sosnowcu/",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rail",
+    "perimetre"
+   ],
+   "cibles": [
+    "ville-pl-sosnowiec"
+   ],
+   "locator": "Gare Sosnowice Warszawskie et nouvelle ligne en 1859 ; constitution de la ville en 1902.",
+   "resume_passage": "Nową linię z reprezentacyjnym dworcem Sosnowice Warszawskie, oddano do użytku w 1859 roku.",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "passages_cibles_lus",
+    "passages": "Gare Sosnowice Warszawskie et nouvelle ligne en 1859 ; constitution de la ville en 1902."
+   },
+   "notes": "Proposée par Ether (villes 1.4, 01/10/2026). Note d'Ether : La gare de Granica/Maczki citée pour 1848 est un autre site ; elle ne remplace pas l’ancrage du centre historique de Sosnowiec. Relecture Claude 01/10/2026 : Gare et ligne de 1859 vues ; l'ukase de juin 1902 du tsar Nicolas II constituant la ville est aussi cité."
+  },
+  {
+   "source_id": "src-14-pl-wroclaw-nom",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Les habitants de Breslau pendant la guerre : entretien historique",
+   "institution": "Wroclaw.pl — Portail de la ville de Wrocław",
+   "url": "https://www.wroclaw.pl/dla-mieszkanca/80-lat-polskiego-wroclawia-mieszkancy-breslau-wierzyli-hitlerowi-rozmowa",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "nomenclature",
+    "chronologie"
+   ],
+   "cibles": [
+    "ville-pl-wroclaw"
+   ],
+   "locator": "Entretien consacré à Breslau dans la période de guerre ; le titre et le contexte attestent l’appellation historique.",
+   "resume_passage": "Jak scharakteryzować Breslau jako miasto tuż przed wybuchem wojny?",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "passages_cibles_lus",
+    "passages": "Entretien consacré à Breslau dans la période de guerre ; le titre et le contexte attestent l’appellation historique."
+   },
+   "notes": "Proposée par Ether (villes 1.4, 01/10/2026). Note d'Ether : Aucune date exacte de changement de nom après 1945 n’est déduite de cette page. Relecture Claude 01/10/2026 : Entretien sur Breslau pendant la guerre, nom Breslau employé ; aucune date de changement de nom, conforme à la limite."
+  },
+  {
+   "source_id": "src-14-pl-bydgoszcz-rail",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Le premier train à Bydgoszcz",
+   "institution": "Urząd Miasta Bydgoszczy — Ville de Bydgoszcz",
+   "url": "https://www.bydgoszcz.pl/aktualnosci/tresc/parowoz-wjechal-na-stacje/",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rail"
+   ],
+   "cibles": [
+    "ville-pl-bydgoszcz"
+   ],
+   "locator": "Arrivée du premier train et ouverture de la liaison vers Krzyż en juillet 1851.",
+   "resume_passage": "13 lipca 1851 roku mieszkańcy Bydgoszczy po raz pierwszy mogli zobaczyć parowóz",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "passages_cibles_lus",
+    "passages": "Arrivée du premier train et ouverture de la liaison vers Krzyż en juillet 1851."
+   },
+   "notes": "Proposée par Ether (villes 1.4, 01/10/2026). Note d'Ether : Le terminal intermodal moderne évoqué à la fin de l’article est hors période. Relecture Claude 01/10/2026 : Premier train depuis Krzyż le 13.07.1851 et ouverture officielle le 25.07.1851 (ligne de 145 km) : juillet 1851 confirmé."
+  },
+  {
+   "source_id": "src-14-pl-rzeszow-industrie",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Histoire de Rzeszów : l’industrie avant la guerre",
+   "institution": "Urząd Miasta Rzeszowa — Ville de Rzeszów",
+   "url": "https://erzeszow.pl/516-historia/7323-historia-rzeszowa.html",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "industrie",
+    "perimetre"
+   ],
+   "cibles": [
+    "ville-pl-rzeszow"
+   ],
+   "locator": "Investissements industriels depuis l’automne 1936 ; important centre mécanique en 1937–1939 ; extension municipale proposée en 1928 non réalisée.",
+   "resume_passage": "W l. 1937–39 Rzeszów stał się ważnym ośrodkiem przemysłu maszynowego",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "passages_cibles_lus",
+    "passages": "Investissements industriels depuis l’automne 1936 ; important centre mécanique en 1937–1939 ; extension municipale proposée en 1928 non réalisée."
+   },
+   "notes": "Proposée par Ether (villes 1.4, 01/10/2026). Note d'Ether : Les implantations industrielles périphériques demandent une géométrie de site ; l’ensemble des quartiers actuels ne doit pas être attribué au centre de 1944. Relecture Claude 01/10/2026 : Investissements dès l'automne 1936, centre mécanique 1937-39 et résolution d'extension de 1928 restée sans suite confirmés."
+  },
+  {
+   "source_id": "src-14-ee-valga-valka",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Valga/Valka : conférence historique sur la partition de 1920",
+   "institution": "Valga Muuseum — Musée de Valga",
+   "url": "https://www.valgamuuseum.ee/en/science/conferences/2022/",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "perimetre",
+    "nomenclature"
+   ],
+   "cibles": [
+    "ville-ee-valga",
+    "candidat-lv-valka"
+   ],
+   "locator": "Décision du 1er juillet 1920 divisant Walk en Valga, côté estonien, et Valka, côté letton.",
+   "resume_passage": "Tallents had to declare the border for the town of Valga himself on July 1, 1920, dividing the town between Estonia and Latvia.",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "passages_cibles_lus",
+    "passages": "Décision du 1er juillet 1920 divisant Walk en Valga, côté estonien, et Valka, côté letton."
+   },
+   "notes": "Proposée par Ether (villes 1.4, 01/10/2026). Note d'Ether : La partition historique est attestée ; elle ne prouve pas un poste-frontière international opérationnel au 1er janvier 1945. Relecture Claude 01/10/2026 : La partition du 1er juillet 1920 est attestée (Walk devenant Valga côté estonien et Valka côté letton), sans rien sur la frontière en 1945."
+  },
+  {
+   "source_id": "src-14-pl-kedzierzyn-kozle",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Histoire de Kędzierzyn et Koźle",
+   "institution": "Urząd Miasta Kędzierzyn-Koźle — Ville de Kędzierzyn-Koźle",
+   "url": "https://kedzierzynkozle.pl/en/page/history",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rail",
+    "port_fluvial",
+    "perimetre",
+    "industrie"
+   ],
+   "cibles": [
+    "ville-pl-kedzierzyn",
+    "ville-pl-kozle",
+    "candidat-pl-chemie-slawiecice"
+   ],
+   "locator": "Chemin de fer en 1845 ; port de Koźle construit en 1891–1908 ; usines chimiques de guerre dans la zone aujourd’hui municipale ; regroupement de 1975.",
+   "resume_passage": "Between 1891 – 1908, the Koźle port was built as well as several industrial factories.",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "passages_cibles_lus",
+    "passages": "Chemin de fer en 1845 ; port de Koźle construit en 1891–1908 ; usines chimiques de guerre dans la zone aujourd’hui municipale ; regroupement de 1975."
+   },
+   "notes": "Proposée par Ether (villes 1.4, 01/10/2026). Note d'Ether : Conserver deux ancrages historiques. L’emplacement précis des usines chimiques ne permet pas de les attribuer automatiquement au seul point Kędzierzyn. Relecture Claude 01/10/2026 : 1845 (Opole–Gliwice), port 1891–1908, usines chimiques de guerre et fusion de 1975 tous confirmés."
+  },
+  {
+   "source_id": "src-14-pl-bielsko-biala-perimetre",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Histoire de Bielsko et Biała : exposition jusqu’en 1989",
+   "institution": "Muzeum Historyczne w Bielsku-Białej — Musée historique de Bielsko-Biała",
+   "url": "https://muzeum.bielsko.pl/pl/ekspozycje-stale-zamek/artykul/historia-miast-i-okolic-do-1989-r",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "perimetre"
+   ],
+   "cibles": [
+    "candidat-pl-bielsko-biala"
+   ],
+   "locator": "Plan de guerre : Biała incorporée à Bielsko sous la forme Bielitz-Ost ; réunion après-guerre en 1951, extensions en 1969–1977.",
+   "resume_passage": "plan Bielska z wcieloną do niego Białą (Bielitz-Ost) ; Oba miasta scalono w 1951 roku",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "passages_cibles_lus",
+    "passages": "Plan de guerre : Biała incorporée à Bielsko sous la forme Bielitz-Ost ; réunion après-guerre en 1951, extensions en 1969–1977."
+   },
+   "notes": "Proposée par Ether (villes 1.4, 01/10/2026). Note d'Ether : La fusion de 1951 ne prouve pas la séparation municipale au snapshot : une incorporation sous occupation est explicitement mentionnée. Date et limites de celle-ci à établir. Relecture Claude 01/10/2026 : Incorporation de guerre (Bielitz-Ost, simple légende de plan sans date), fusion de 1951 et extensions 1969–1977 vues ; la date de l'incorporation n'est pas donnée."
+  },
+  {
+   "source_id": "src-14-lv-riga-administration",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Fonds de la période de la RSS de Lettonie",
+   "institution": "Latvijas Nacionālais arhīvs, Latvijas Valsts arhīvs — Archives nationales de Lettonie",
+   "url": "https://www.lvarhivs.gov.lv/index.php?id=8101",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "administration",
+    "capitale"
+   ],
+   "cibles": [
+    "ville-lv-riga"
+   ],
+   "locator": "Riga qualifiée de capitale dans le cadre administratif de la RSS ; institutions évacuées reprenant leur activité en Lettonie fin 1944.",
+   "resume_passage": "Latvijā tās atsāka darboties 1944. gada nogalē",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "passages_cibles_lus",
+    "passages": "Riga qualifiée de capitale dans le cadre administratif de la RSS ; institutions évacuées reprenant leur activité en Lettonie fin 1944."
+   },
+   "notes": "Proposée par Ether (villes 1.4, 01/10/2026). Note d'Ether : Présentation de fonds, pas lecture d’un décret de siège ; classer B. Relecture Claude 01/10/2026 : Institutions évacuées reprenant leur activité fin 1944 vu ; Riga désignée galvaspilsēta (capitale) dans le cadre administratif, sans décret de siège."
+  },
+  {
+   "source_id": "src-14-lv-fin-1944",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "La Lettonie pendant la Seconde Guerre mondiale",
+   "institution": "Latvijas Okupācijas muzejs — Musée de l’occupation de la Lettonie",
+   "url": "https://okupacijasmuzejs.lv/lv/vesture/latvijas-okupacijas-vesture/pirma-padomju-okupacija/latvija-otraja-pasaules-kara",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "chronologie",
+    "rupture"
+   ],
+   "cibles": [
+    "ville-lv-riga",
+    "ville-lv-liepaja",
+    "ville-lv-ventspils",
+    "ville-lv-tukums"
+   ],
+   "locator": "Riga prise le 13 octobre 1944 ; autorités allemandes repliées et maintenues en Courlande ; mesures de janvier 1945 postérieures au snapshot.",
+   "resume_passage": "1944. gada 13. oktobrī PSRS Sarkanā armija ieņēma Rīgu, kuru organizēti jau bija atstājis vācu karaspēks",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "passages_cibles_lus",
+    "passages": "Riga prise le 13 octobre 1944 ; autorités allemandes repliées et maintenues en Courlande ; mesures de janvier 1945 postérieures au snapshot."
+   },
+   "notes": "Proposée par Ether (villes 1.4, 01/10/2026). Note d'Ether : La description de la continuité juridique nationale est distincte du contrôle de terrain ; aucun champ politique n’est ajouté aux villes. Relecture Claude 01/10/2026 : Prise de Riga le 13/10/1944 et autorités allemandes poursuivant en Courlande (passées sous Himmler le 21/01/1945) sont vues."
+  },
+  {
+   "source_id": "src-14-lv-liepaja-port",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Histoire de Liepāja : port et transit avant 1945",
+   "institution": "Liepājas valstspilsētas pašvaldība — Ville de Liepāja",
+   "url": "https://www.liepaja.lv/en/history-of-liepaja/",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "port_maritime"
+   ],
+   "cibles": [
+    "ville-lv-liepaja"
+   ],
+   "locator": "Extrait indexé : port et ligne maritime vers New York au début du XXe siècle ; bombardement du port en 1914 ; gouvernement réfugié sur un navire dans le port en 1919.",
+   "resume_passage": "Latvian Provisional Government took refuge aboard the steamship 'Saratow' in the Port of Liepāja.",
+   "archive_locale": null,
+   "verification_claude": "limite",
+   "verification_ether": {
+    "statut": "extrait_recherche_lu_page_non_ouverte",
+    "passages": "Extrait indexé : port et ligne maritime vers New York au début du XXe siècle ; bombardement du port en 1914 ; gouvernement réfugié sur un navire dans le port en 1919."
+   },
+   "notes": "Proposée par Ether (villes 1.4, 01/10/2026). Note d'Ether : Extrait de recherche lu ; ouverture de la page échouée. Le rôle de capitale de 1919 n’est pas reporté à 1945. Relecture Claude 01/10/2026 : Page ouverte : ligne directe vers New York, tirs sur le port le 2 août 1914 et refuge du gouvernement sur le Saratow vus ; l'année 1919 n'apparaît pas dans l'extrait cité."
+  },
+  {
+   "source_id": "src-14-pl-warszawa-praga",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "L’insurrection de Varsovie : chronologie",
+   "institution": "Muzeum Powstania Warszawskiego — Musée de l’insurrection de Varsovie",
+   "url": "https://www.1944.pl/artykul/powstanie-warszawskie,4736.html",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rupture",
+    "capitale"
+   ],
+   "cibles": [
+    "ville-pl-warszawa"
+   ],
+   "locator": "Septembre 1944 : Praga occupée le 14 septembre et front organisé sur la rive occidentale ; capitulation de l’insurrection le 2 octobre.",
+   "resume_passage": "14 września zajmują Pragę",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "passages_cibles_lus",
+    "passages": "Septembre 1944 : Praga occupée le 14 septembre et front organisé sur la rive occidentale ; capitulation de l’insurrection le 2 octobre."
+   },
+   "notes": "Proposée par Ether (villes 1.4, 01/10/2026). Note d'Ether : Le contrôle effectif des deux rives doit suivre la couche territoriale ; ne pas colorer automatiquement toute la ville d’une seule couleur. Relecture Claude 01/10/2026 : Praga le 14.09.1944, front allemand organisé sur la rive ouest ; le 2 octobre est un accord de cessation des hostilités signé à Ożarów (capitulation de fait)."
+  },
+  {
+   "source_id": "src-14-pl-gdansk-port-ferroviaire",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Gedania : ferry ferroviaire du port de Gdańsk",
+   "institution": "Fundacja Gdańska — Gedanopedia, Encyclopédie de Gdańsk",
+   "url": "https://gdansk.gedanopedia.pl/gdansk/?title=GEDANIA%2C_kolejowy_prom_portowy_%281926%29",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "port_maritime",
+    "rail"
+   ],
+   "cibles": [
+    "ville-pl-gdansk"
+   ],
+   "locator": "Ferry ferroviaire construit en 1926 pour le port ; repris en 1939 sous le nom Danzig ; même trajet avant son naufrage de 1945.",
+   "resume_passage": "",
+   "archive_locale": null,
+   "verification_claude": "non_verifiee",
+   "verification_ether": {
+    "statut": "extrait_recherche_lu",
+    "passages": "Ferry ferroviaire construit en 1926 pour le port ; repris en 1939 sous le nom Danzig ; même trajet avant son naufrage de 1945."
+   },
+   "notes": "Proposée par Ether (villes 1.4, 01/10/2026). Note d'Ether : Extrait indexé effectivement lu ; la destruction de 1945 n’appartient pas à l’état initial. Relecture Claude 01/10/2026 : WebFetch refusé : URL interdite par robots.txt (ROBOTS_DISALLOWED), pas de contournement tenté."
   }
  ]
 }

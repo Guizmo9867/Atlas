@@ -1,5 +1,5 @@
 {
- "version_registre": "1.10",
+ "version_registre": "1.12",
  "sources": [
   {
    "id": "src-12a-augsburg-armement",
@@ -339,6 +339,76 @@
    "domaine": "villes",
    "villes": [
     "Bratislava"
+   ],
+   "remplacee_par": []
+  },
+  {
+   "id": "src-14-ee-kohtla-jarve-perimetre",
+   "groupe": "a_lire",
+   "statut_claude": "non_verifiee",
+   "niveau": "B",
+   "titre": "Kohtla-Järve : histoire administrative",
+   "institution": "Eesti Entsüklopeedia — Encyclopédie estonienne",
+   "url": "https://entsyklopeedia.ee/artikkel/kohtla-j%C3%A4rve3",
+   "ou_regarder": "Extrait indexé : statut de ville en 1946 et regroupements de plusieurs noyaux après 1945.",
+   "extrait": "",
+   "notes": "Proposée par Ether (villes 1.4, 01/10/2026). Note d'Ether : Extrait seul ; les limites exactes de 1944 ne sont pas dessinées. Le point ne représente pas l’ensemble des quartiers de la commune moderne. Relecture Claude 01/10/2026 : WebFetch refusé : ROBOTS_DISALLOWED (robots.txt, échec de connexion).",
+   "domaine": "villes",
+   "villes": [
+    "Kohtla-Järve"
+   ],
+   "remplacee_par": []
+  },
+  {
+   "id": "src-14-pl-gdansk-port-ferroviaire",
+   "groupe": "a_lire",
+   "statut_claude": "non_verifiee",
+   "niveau": "B",
+   "titre": "Gedania : ferry ferroviaire du port de Gdańsk",
+   "institution": "Fundacja Gdańska — Gedanopedia, Encyclopédie de Gdańsk",
+   "url": "https://gdansk.gedanopedia.pl/gdansk/?title=GEDANIA%2C_kolejowy_prom_portowy_%281926%29",
+   "ou_regarder": "Ferry ferroviaire construit en 1926 pour le port ; repris en 1939 sous le nom Danzig ; même trajet avant son naufrage de 1945.",
+   "extrait": "",
+   "notes": "Proposée par Ether (villes 1.4, 01/10/2026). Note d'Ether : Extrait indexé effectivement lu ; la destruction de 1945 n’appartient pas à l’état initial. Relecture Claude 01/10/2026 : WebFetch refusé : URL interdite par robots.txt (ROBOTS_DISALLOWED), pas de contournement tenté.",
+   "domaine": "villes",
+   "villes": [
+    "Dantzig"
+   ],
+   "remplacee_par": []
+  },
+  {
+   "id": "src-14-pl-rail-premieres",
+   "groupe": "a_lire",
+   "statut_claude": "non_verifiee",
+   "niveau": "B",
+   "titre": "Premières lignes ferroviaires sur le territoire polonais actuel",
+   "institution": "Polskie Koleje Państwowe — Chemins de fer de l’État polonais",
+   "url": "https://pkp.pl/pl/pkp-aktualnosci/3824-pkp-od-100-lat-laczymy-ludzi-miejsca-i-historie",
+   "ou_regarder": "Section « Poznaj naszą historię » : Wrocław–Oława 1842 ; Varsovie 1845 ; Cracovie 1847.",
+   "extrait": "",
+   "notes": "Proposée par Ether (villes 1.4, 01/10/2026). Note d'Ether : Présence ferroviaire ancienne, pas capacité de guerre. Les gares citées pour une opération promotionnelle de 2026 ne constituent pas des preuves de 1945. Relecture Claude 01/10/2026 : WebFetch refusé : ROBOTS_DISALLOWED (robots.txt injoignable, ConnectTimeout).",
+   "domaine": "villes",
+   "villes": [
+    "Breslau",
+    "Varsovie",
+    "Cracovie"
+   ],
+   "remplacee_par": []
+  },
+  {
+   "id": "src-14-pl-stalowa-wola-industrie",
+   "groupe": "a_lire",
+   "statut_claude": "non_verifiee",
+   "niveau": "B",
+   "titre": "Fondation industrielle de Stalowa Wola",
+   "institution": "Ville de Stalowa Wola",
+   "url": "https://www.stalowawola.pl/pl/o-miescie.html",
+   "ou_regarder": "Zakłady Południowe et cité ouvrière déjà ouvertes en juin 1939.",
+   "extrait": "",
+   "notes": "Proposée par Ether (villes 1.4, 01/10/2026). Note d'Ether : Le point urbain fonctionnel ne dépend pas du rang légal de ville ni des extensions postérieures. Relecture Claude 01/10/2026 : WebFetch refusé : ROBOTS_DISALLOWED (robots.txt, erreur 429).",
+   "domaine": "villes",
+   "villes": [
+    "Stalowa Wola"
    ],
    "remplacee_par": []
   },
@@ -857,6 +927,201 @@
    "domaine": "villes",
    "villes": [
     "Párkány"
+   ],
+   "remplacee_par": []
+  },
+  {
+   "id": "src-14-ee-kohtla-jarve-industrie",
+   "groupe": "partielle",
+   "statut_claude": "limite",
+   "niveau": "B",
+   "titre": "Histoire de l’industrie des schistes bitumineux",
+   "institution": "Viru Keemia Grupp — Groupe chimique Viru",
+   "url": "https://www.vkg.ee/ajalugu/",
+   "ou_regarder": "Débuts de l’industrie en 1916 ; quatre unités Kiviter construites en 1924–1943 ; nouveau complexe daté de 1945.",
+   "extrait": "ehitatakse neli Kiviter õlivabrikut",
+   "notes": "Proposée par Ether (villes 1.4, 01/10/2026). Note d'Ether : Le complexe de 1945 reste futur ; le point retenu correspond au site industriel ancien. Relecture Claude 01/10/2026 : Contenu thématique concordant mais les extraits retournés ne montrent pas explicitement les dates 1916, 1924–1943 et 1945 : à reconfirmer.",
+   "domaine": "villes",
+   "villes": [
+    "Kohtla-Järve"
+   ],
+   "remplacee_par": []
+  },
+  {
+   "id": "src-14-ee-rail-histoire",
+   "groupe": "partielle",
+   "statut_claude": "limite",
+   "niveau": "B",
+   "titre": "Histoire du réseau ferroviaire estonien",
+   "institution": "Eesti Raudtee — chemins de fer estoniens",
+   "url": "https://www.evr.ee/et/ettevottest",
+   "ou_regarder": "Section historique : axe de 1870 ; Tapa–Tartu 1877, Valga 1887 ; réseau étroit 1896–1901. Guerre : voie large convertie en 1435 mm puis rétablie.",
+   "extrait": "Esimene raudtee Eestis avati liikluseks 5. novembril 1870. aastal Paldiski - Tallinn - Narva - Gatshina lõigul.",
+   "notes": "Proposée par Ether (villes 1.4, 01/10/2026). Note d'Ether : Les longueurs actuelles et l’écartement de chaque ligne au 31 décembre 1944 ne sont pas extrapolés. Relecture Claude 01/10/2026 : Seul l'axe de 1870 est soutenu ; Tapa–Tartu 1877, Valga 1887, réseau étroit 1896–1901 et conversions de voie en guerre sont absents de la page.",
+   "domaine": "villes",
+   "villes": [
+    "Tallinn",
+    "Paldiski",
+    "Narva",
+    "Tapa",
+    "Tartu",
+    "Valga",
+    "Pärnu",
+    "Viljandi"
+   ],
+   "remplacee_par": []
+  },
+  {
+   "id": "src-14-ee-tallinn-histoire",
+   "groupe": "partielle",
+   "statut_claude": "limite",
+   "niveau": "B",
+   "titre": "Tallinn : histoire",
+   "institution": "Eesti Entsüklopeedia — Encyclopédie estonienne",
+   "url": "https://www.entsyklopeedia.ee/artikkel/tallinn3",
+   "ou_regarder": "Chemin de fer en 1870 ; chantiers et port militaire avant 1914 ; capitale de l’Estonie puis de la RSS d’Estonie en 1940 ; Nõmme intégré en 1940.",
+   "extrait": "Tallinna pindala kasvas 1940, pärast Nõmme Tallinnaga liitmist 1,5 korda",
+   "notes": "Proposée par Ether (villes 1.4, 01/10/2026). Note d'Ether : Ne pas transformer automatiquement le port militaire de 1912 en un rôle militaire opérationnel documenté pour fin 1944. Relecture Claude 01/10/2026 : Seul l'intégration de Nõmme en 1940 est vue ; chemin de fer 1870, port militaire avant 1914 et statut de capitale de la RSS d'Estonie non retrouvés dans la page.",
+   "domaine": "villes",
+   "villes": [
+    "Tallinn"
+   ],
+   "remplacee_par": []
+  },
+  {
+   "id": "src-14-lt-rail-ministere",
+   "groupe": "partielle",
+   "statut_claude": "limite",
+   "niveau": "B",
+   "titre": "Histoire des chemins de fer lituaniens",
+   "institution": "Ministère des Transports et Communications de Lituanie",
+   "url": "https://sumin.lrv.lt/lt/veiklos-sritys/transporto-istorija/gelezinkeliai/",
+   "ou_regarder": "Lignes 1862 et 1871–1874 ; branches de 1873 ; trajet Kaunas–Šiauliai documenté avant 1939 ; modification d’écartement en 1940.",
+   "extrait": "1871-1874 m. pro Mažeikius, Radviliškį, Kaišiadoris, Naują Vilnią paklota Liepojos-Romnų linija",
+   "notes": "Proposée par Ether (villes 1.4, 01/10/2026). Note d'Ether : Nouvelles conversions de guerre à vérifier ligne par ligne, sans état uniforme inventé. Relecture Claude 01/10/2026 : Lignes 1871-1874, branches de 1873, Kaunas-Šiauliai (1921/1937) et écartement 1940 sont vus, mais la page date la première ligne de 1861 et non de 1862.",
+   "domaine": "villes",
+   "villes": [
+    "Vilnius",
+    "Kaunas",
+    "Šiauliai",
+    "Mažeikiai",
+    "Radviliškis",
+    "Kaišiadorys",
+    "Panevėžys"
+   ],
+   "remplacee_par": []
+  },
+  {
+   "id": "src-14-lv-liepaja-port",
+   "groupe": "partielle",
+   "statut_claude": "limite",
+   "niveau": "B",
+   "titre": "Histoire de Liepāja : port et transit avant 1945",
+   "institution": "Liepājas valstspilsētas pašvaldība — Ville de Liepāja",
+   "url": "https://www.liepaja.lv/en/history-of-liepaja/",
+   "ou_regarder": "Extrait indexé : port et ligne maritime vers New York au début du XXe siècle ; bombardement du port en 1914 ; gouvernement réfugié sur un navire dans le port en 1919.",
+   "extrait": "Latvian Provisional Government took refuge aboard the steamship 'Saratow' in the Port of Liepāja.",
+   "notes": "Proposée par Ether (villes 1.4, 01/10/2026). Note d'Ether : Extrait de recherche lu ; ouverture de la page échouée. Le rôle de capitale de 1919 n’est pas reporté à 1945. Relecture Claude 01/10/2026 : Page ouverte : ligne directe vers New York, tirs sur le port le 2 août 1914 et refuge du gouvernement sur le Saratow vus ; l'année 1919 n'apparaît pas dans l'extrait cité.",
+   "domaine": "villes",
+   "villes": [
+    "Liepāja"
+   ],
+   "remplacee_par": []
+  },
+  {
+   "id": "src-14-lv-rail-chronologie",
+   "groupe": "partielle",
+   "statut_claude": "limite",
+   "niveau": "B",
+   "titre": "Chronologie des lignes ferroviaires de Lettonie",
+   "institution": "Latvijas Dzelzceļa vēstures muzejs — musée d’histoire ferroviaire de Lettonie",
+   "url": "https://www.railwaymuseum.lv/en/content/railway-lines-latvia",
+   "ou_regarder": "Tableau : Riga–Daugavpils 1861, Jelgava 1868, Liepāja 1871, Ventspils/Krustpils 1901–1904 ; Gulbene 1903/1916, Rēzekne 1934 ; raccordement Krustpils–Jēkabpils fermé en 1944.",
+   "extrait": "Krustpils – Jēkabpils, closed in 1944.",
+   "notes": "Proposée par Ether (villes 1.4, 01/10/2026). Note d'Ether : Ne pas confondre une ligne ancienne avec un trafic garanti ni changer automatiquement 1524 mm en 1520 mm. Relecture Claude 01/10/2026 : La fermeture Krustpils–Jēkabpils en 1944 est vue, mais les années 1861, 1868, 1871 et 1934 (Rēzekne) n'apparaissent pas dans les extraits restitués (Gulbene : seul 1916 vu, 1903 associé à Valka–Pļaviņas).",
+   "domaine": "villes",
+   "villes": [
+    "Riga",
+    "Daugavpils",
+    "Jelgava",
+    "Liepāja",
+    "Ventspils",
+    "Rēzekne",
+    "Krustpils",
+    "Gulbene",
+    "Tukums",
+    "Valmiera",
+    "candidat-lv-jekabpils"
+   ],
+   "remplacee_par": []
+  },
+  {
+   "id": "src-14-pl-czestochowa-industrialisation",
+   "groupe": "partielle",
+   "statut_claude": "limite",
+   "niveau": "B",
+   "titre": "Naissance de la Częstochowa moderne",
+   "institution": "Częstochowska Gazeta Kulturalna — Portail culturel de la ville de Częstochowa",
+   "url": "https://www.cgk.czestochowa.pl/blog/artykul/narodziny-nowoczesnej-czestochowy",
+   "ou_regarder": "Chemin de fer Varsovie–Vienne en 1846 ; usines textiles et métallurgiques avant 1914.",
+   "extrait": "budowa Kolei Warszawsko-Wiedeńskiej w 1846 r.",
+   "notes": "Proposée par Ether (villes 1.4, 01/10/2026). Note d'Ether : Le rang proposé repose sur le nœud et le bassin industriel historiques, sans chiffre de trafic pour 1944. Relecture Claude 01/10/2026 : Le chemin de fer de 1846 est confirmé, mais la page ne qualifie pas explicitement les usines de textiles/métallurgiques (elle cite Wełnopol, Warta, Elanex, Częstochowianka) ni ne date « avant 1914 ».",
+   "domaine": "villes",
+   "villes": [
+    "Częstochowa"
+   ],
+   "remplacee_par": []
+  },
+  {
+   "id": "src-14-pl-gdansk-schichau",
+   "groupe": "partielle",
+   "statut_claude": "limite",
+   "niveau": "B",
+   "titre": "Stocznia Schichaua : histoire du chantier naval",
+   "institution": "Fundacja Gdańska — Gedanopedia, Encyclopédie de Gdańsk",
+   "url": "https://gdansk.gedanopedia.pl/gdansk/?title=STOCZNIA_SCHICHAUA",
+   "ou_regarder": "Gdańsk : implantation reliée au rail en 1889, chantier en activité dès 1891 et ouverture formelle en 1892. Elbląg : machines navales et turbines, licence de 1907, moteurs depuis 1911.",
+   "extrait": "Oficjalne otwarcie gdańskiej filii stoczni Schichaua z Elbląga nastąpiło w stycznia 1892.",
+   "notes": "Proposée par Ether (villes 1.4, 01/10/2026). Note d'Ether : Ne pas confondre ces entreprises avec les sociétés constituées après 1945. Relecture Claude 01/10/2026 : Ouverture 1892, activité 1891, licence 1907 et moteurs 1911 vus ; la date 1889 du raccordement ferroviaire n'est pas citée (seulement « Gdańsk mający połączenie kolejowe »).",
+   "domaine": "villes",
+   "villes": [
+    "Dantzig",
+    "Elbląg"
+   ],
+   "remplacee_par": []
+  },
+  {
+   "id": "src-14-pl-katowice-gare",
+   "groupe": "partielle",
+   "statut_claude": "limite",
+   "niveau": "B",
+   "titre": "Ancienne gare ferroviaire de Katowice",
+   "institution": "Narodowy Instytut Dziedzictwa — Institut national du patrimoine polonais",
+   "url": "https://zabytek.pl/pl/obiekty/katowice-zespol-starego-dworca-kolejowego",
+   "ou_regarder": "Fiche d’inventaire : ensemble ferroviaire daté de 1906.",
+   "extrait": "budynek użyteczności publicznej 1906 r. Katowice",
+   "notes": "Proposée par Ether (villes 1.4, 01/10/2026). Note d'Ether : Preuve de présence ancienne ; n’établit pas seule l’importance du trafic au Snapshot. Relecture Claude 01/10/2026 : La fiche ne donne que la date 1906 et indique n'avoir pas encore de description, donc rien qui détaille un ensemble ferroviaire.",
+   "domaine": "villes",
+   "villes": [
+    "Katowice"
+   ],
+   "remplacee_par": []
+  },
+  {
+   "id": "src-14-pl-torun-rail",
+   "groupe": "partielle",
+   "statut_claude": "limite",
+   "niveau": "B",
+   "titre": "Une gare accueillante pour les voyageurs : histoire de Toruń Główny",
+   "institution": "Urząd Miasta Torunia — Ville de Toruń",
+   "url": "https://torun.pl/pl/aktualnosc/dworzec-przyjazny-dla-podroznych",
+   "ou_regarder": "Ligne Bydgoszcz–Toruń de 1861 ; gare de 1873 ; extension ferroviaire de 1883.",
+   "extrait": "już w roku 1861 oddano do użytku połączenie Bydgoszcz – Toruń",
+   "notes": "Proposée par Ether (villes 1.4, 01/10/2026). Note d'Ether : Les reconstructions après 1945 ne sont pas importées. Relecture Claude 01/10/2026 : Ligne de 1861 et gare de 1873 confirmées ; pour 1883 seule l'information « la gare avait 12 voies principales » est vue, pas une extension ferroviaire explicite.",
+   "domaine": "villes",
+   "villes": [
+    "Toruń",
+    "Bydgoszcz"
    ],
    "remplacee_par": []
   },
