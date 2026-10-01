@@ -60,6 +60,7 @@ Ce document est lu **au début de chaque réveil** de la tâche programmée de C
       - puis vérifier avec `bash .git/claude_git.sh ls-remote origin main`.
    9. **Dossier d'échange** :
       - copier le compte rendu dans `01_lots/<lot>/<date>_claude_compte_rendu_<n>.md` ;
+      - copier (ou mettre à jour) le README du lot dans `01_lots/<lot>/00_claude_README_du_lot.md` ;
       - mettre à jour `STATUT.json` ;
       - écrire `PRET_claude.md` **en dernier** (une ligne : date, ce qui a été fait, s'il y a des questions).
 4. **Rafraîchir** `02_references/` : copier `JOURNAL_DECISIONS`, `SUIVI_RATISSAGE`, `protocole_sources_ether_claude`, `LEXIQUE_ID`, `IDEES_POUR_PLUS_TARD`, `CHIFFRES_PROJET` et ce document.
