@@ -11,7 +11,7 @@ export interface Etat {
   valid_to: DateFloue
   statut: string
   // Valeurs simples, sauf souverainete_revendiquee_par (liste d'acteurs)
-  proprietes: Record<string, string> & { souverainete_revendiquee_par?: string[] }
+  proprietes: Record<string, string> & { souverainete_revendiquee_par?: string[]; roles?: string[] }
   geometrie?: Geometry
   geometrie_ref?: string
   zone_incertitude?: Geometry
@@ -25,6 +25,7 @@ export interface Entite {
   type_entite: string
   nom: string
   nom_court?: string
+  aliases?: string[] // autres noms pour la recherche (Dover → Douvres)
   etats: Etat[]
   relations: Relation[]
 }

@@ -1,0 +1,281 @@
+{
+  "metadata": {
+    "nom": "registre_sources_villes_1-2_allemagne_alpes_delta",
+    "date_creation": "2026-10-01",
+    "instruction": "Fusionner si absent, réutiliser les IDs canoniques en cas de doublon. Les sources de contexte ne remplacent pas une source locale pour une affirmation précise."
+  },
+  "sources_a_ajouter_si_absentes": [
+    {
+      "source_id": "src-db-museum-history",
+      "niveau": "B",
+      "institution": "DB Museum",
+      "titre": "The history of the railway in Germany",
+      "url": "https://dbmuseum.de/en/nuremberg/exhibitions/the-history-of-the-railway-in-germany",
+      "date_consultation": "2026-10-01"
+    },
+    {
+      "source_id": "src-hamburg-port-history",
+      "niveau": "B",
+      "institution": "Freie und Hansestadt Hamburg",
+      "titre": "Historie des Hafens",
+      "url": "https://www.hamburg.de/freizeit/hafengeburtstag-hamburg/hafenhistorie-1099522",
+      "date_consultation": "2026-10-01"
+    },
+    {
+      "source_id": "src-bremenports",
+      "niveau": "B",
+      "institution": "bremenports",
+      "titre": "Ports of Bremen and Bremerhaven",
+      "url": "https://www.bremenports.de/en/ports",
+      "date_consultation": "2026-10-01"
+    },
+    {
+      "source_id": "src-kiel-1945",
+      "niveau": "A",
+      "institution": "Kieler Stadtarchiv",
+      "titre": "Kriegsende und Besetzung Kiels 4. Mai 1945",
+      "url": "https://www.kiel.de/de/kultur_freizeit/stadtarchiv/erinnerungstage.php?id=34",
+      "date_consultation": "2026-10-01"
+    },
+    {
+      "source_id": "src-hannover-rail",
+      "niveau": "B",
+      "institution": "Landeshauptstadt Hannover",
+      "titre": "Hannover von 1843 bis 1870",
+      "url": "https://www.hannover.de/Kultur-Freizeit/Geschichte-Geschichten/Echt-hann%C3%B6versch/Historisches-aus-Hannover/Stadtgeschichte-in-der-Station-Waterloo/Hannover-von-1843-bis-1870",
+      "date_consultation": "2026-10-01"
+    },
+    {
+      "source_id": "src-hannover-freight",
+      "niveau": "B",
+      "institution": "Landeshauptstadt Hannover",
+      "titre": "Hauptgüterbahnhof Hannover",
+      "url": "https://www.hannover.de/Kultur-Freizeit/Geschichte-Geschichten/Echt-hann%C3%B6versch/Zehn-Dinge/Zehn-neu-genutzte-Industrie-Anlagen-in-Hannover/Hauptg%C3%BCterbahnhof-Hannover",
+      "date_consultation": "2026-10-01"
+    },
+    {
+      "source_id": "src-essen-industry",
+      "niveau": "B",
+      "institution": "Haus der Essener Geschichte / Stadtarchiv",
+      "titre": "Industrie in Essen",
+      "url": "https://historischesportal.essen.de/startseite_7/industrie/industrie_allgemein.de.html",
+      "date_consultation": "2026-10-01"
+    },
+    {
+      "source_id": "src-essen-krupp",
+      "niveau": "B",
+      "institution": "Haus der Essener Geschichte / Stadtarchiv",
+      "titre": "Krupp",
+      "url": "https://historischesportal.essen.de/startseite_7/industrie/krupp_1.de.html",
+      "date_consultation": "2026-10-01"
+    },
+    {
+      "source_id": "src-dortmund-rail",
+      "niveau": "B",
+      "institution": "Stadt Dortmund",
+      "titre": "Gründerjahre",
+      "url": "https://www.dortmund.de/themen/dortmund-historisch/stadtgeschichte/18.-19.-jahrhundert/gruenderjahre/",
+      "date_consultation": "2026-10-01"
+    },
+    {
+      "source_id": "src-dortmund-port",
+      "niveau": "B",
+      "institution": "Stadt Dortmund",
+      "titre": "Der Dortmunder Hafen",
+      "url": "https://www.dortmund.de/themen/stadtbezirke/innenstadt-nord/geschichte/dortmunder-hafen/",
+      "date_consultation": "2026-10-01"
+    },
+    {
+      "source_id": "src-dortmund-industry",
+      "niveau": "B",
+      "institution": "Stadt Dortmund",
+      "titre": "Industrialisierung und Urbanisierung",
+      "url": "https://www.dortmund.de/themen/dortmund-historisch/stadtgeschichte/20.-jahrhundert-heute/industrialisierung-und-urbanisierung/",
+      "date_consultation": "2026-10-01"
+    },
+    {
+      "source_id": "src-frankfurt-hbf",
+      "niveau": "B",
+      "institution": "Stadt Frankfurt am Main",
+      "titre": "Hauptbahnhof",
+      "url": "https://frankfurt.de/themen/kultur/baukultur/kulturdenkmale-und-denkxweb/hauptbahnhof",
+      "date_consultation": "2026-10-01"
+    },
+    {
+      "source_id": "src-frankfurt-station-district",
+      "niveau": "B",
+      "institution": "Stadt Frankfurt am Main",
+      "titre": "Chronik des Bahnhofs- und Gutleutviertels",
+      "url": "https://frankfurt.de/frankfurt-entdecken-und-erleben/stadtportrait/stadtgeschichte/chroniken-der-stadtteile/chronik-des-bahnhofs--und-gutleutviertels",
+      "date_consultation": "2026-10-01"
+    },
+    {
+      "source_id": "src-mannheim-rheinhafen",
+      "niveau": "B",
+      "institution": "Stadt Mannheim",
+      "titre": "Rheinhafen und Rheinbrücke",
+      "url": "https://www.mannheim.de/de/tourismus-entdecken/stadtgeschichte/stadtpunkte/buergertum-handel-industrie/rheinhafen-und-rheinbruecke",
+      "date_consultation": "2026-10-01"
+    },
+    {
+      "source_id": "src-mannheim-rail",
+      "niveau": "B",
+      "institution": "Stadt Mannheim",
+      "titre": "Tattersall",
+      "url": "https://www.mannheim.de/de/tourismus-entdecken/stadtgeschichte/stadtpunkte/buergertum-handel-industrie/tattersall",
+      "date_consultation": "2026-10-01"
+    },
+    {
+      "source_id": "src-leipzig-db-museum",
+      "niveau": "B",
+      "institution": "DB Museum",
+      "titre": "Museumsgleis 24",
+      "url": "https://dbmuseum.de/en/halle/exhibitions/leipzig",
+      "date_consultation": "2026-10-01"
+    },
+    {
+      "source_id": "src-magdeburg-port",
+      "niveau": "B",
+      "institution": "Landeshauptstadt Magdeburg",
+      "titre": "Der historische Handelshafen",
+      "url": "https://www.magdeburg.de/Wissenschaft-Bildung/Wissenschaft/Wissenschaftshafen/Quartier/Historie/",
+      "date_consultation": "2026-10-01"
+    },
+    {
+      "source_id": "src-vienna-nazi-history",
+      "niveau": "B",
+      "institution": "City of Vienna",
+      "titre": "Vienna under the Nazi-Regime",
+      "url": "https://www.wien.gv.at/en/education/history-nazi-regime",
+      "date_consultation": "2026-10-01"
+    },
+    {
+      "source_id": "src-linz-1938-1945",
+      "niveau": "B",
+      "institution": "Archiv der Stadt Linz",
+      "titre": "timeline 1938-1945",
+      "url": "https://stadtgeschichte.linz.at/english/11576.php",
+      "date_consultation": "2026-10-01"
+    },
+    {
+      "source_id": "src-graz-armaments",
+      "niveau": "B",
+      "institution": "Stadt Graz / GrazMuseum",
+      "titre": "Unbekannte Rüstungsarbeiterin",
+      "url": "https://www.graz.at/cms/beitrag/10096289/7773004/Unbekannte_Ruestungsarbeiterin.html",
+      "date_consultation": "2026-10-01"
+    },
+    {
+      "source_id": "src-graz-rail-industry",
+      "niveau": "B",
+      "institution": "Stadt Graz",
+      "titre": "Graz und Industrie/Bahnhof",
+      "url": "https://www.graz.at/cms/beitrag/10362754/7748908/Graz_und_die_Gruendung_des.html",
+      "date_consultation": "2026-10-01"
+    },
+    {
+      "source_id": "src-oebb-tauern",
+      "niveau": "B",
+      "institution": "ÖBB-Infrastruktur AG",
+      "titre": "Tauern Line Salzburg–Villach",
+      "url": "https://infrastruktur.oebb.at/en/projects-for-austria/railway-lines/tauern-line-salzburg-villach",
+      "date_consultation": "2026-10-01"
+    },
+    {
+      "source_id": "src-oebb-arlberg",
+      "niveau": "B",
+      "institution": "ÖBB-Infrastruktur AG",
+      "titre": "Arlberg Line Innsbruck–Bregenz",
+      "url": "https://infrastruktur.oebb.at/en/projects-for-austria/railway-lines/arlberg-line-innsbruck-bregenz",
+      "date_consultation": "2026-10-01"
+    },
+    {
+      "source_id": "src-steyr-history",
+      "niveau": "B",
+      "institution": "Stadtmuseum Steyr",
+      "titre": "Zur Geschichte",
+      "url": "https://steyr.at/Zur_Geschichte",
+      "date_consultation": "2026-10-01"
+    },
+    {
+      "source_id": "src-sbb-history",
+      "niveau": "B",
+      "institution": "CFF / SBB",
+      "titre": "Historique",
+      "url": "https://company.sbb.ch/fr/entreprise/propos-nous/historique.html",
+      "date_consultation": "2026-10-01"
+    },
+    {
+      "source_id": "src-zurich-rail",
+      "niveau": "B",
+      "institution": "Stadt Zürich",
+      "titre": "Verkehr",
+      "url": "https://www.stadt-zuerich.ch/de/stadtleben/stadtportraet/zuerichs-geschichte/digitale-zeitreise/verkehr.html",
+      "date_consultation": "2026-10-01"
+    },
+    {
+      "source_id": "src-zurich-freight",
+      "niveau": "B",
+      "institution": "Stadt Zürich",
+      "titre": "Handel und Dienstleistungen",
+      "url": "https://www.stadt-zuerich.ch/de/stadtleben/stadtportraet/zuerichs-geschichte/digitale-zeitreise/handel-und-dienstleistungen.html",
+      "date_consultation": "2026-10-01"
+    },
+    {
+      "source_id": "src-swiss-rhine-port",
+      "niveau": "B",
+      "institution": "Port of Switzerland",
+      "titre": "FAQ — Schweizerische Rheinhäfen",
+      "url": "https://port-of-switzerland.ch/rheinhaefen/ueber-uns/faq/",
+      "date_consultation": "2026-10-01"
+    },
+    {
+      "source_id": "src-lausanne-station",
+      "niveau": "B",
+      "institution": "Musée Historique Lausanne",
+      "titre": "Gare CFF — chronologie",
+      "url": "https://museris.lausanne.ch/SGDO/Consultation.aspx?Id=30",
+      "date_consultation": "2026-10-01"
+    },
+    {
+      "source_id": "src-lausanne-simplon",
+      "niveau": "B",
+      "institution": "Musée Historique Lausanne",
+      "titre": "Ouverture du Simplon et liaison directe Lausanne–Italie",
+      "url": "https://museris.lausanne.ch/SGCM/Consultation.aspx?Source=search_result.aspx&id=136949",
+      "date_consultation": "2026-10-01"
+    },
+    {
+      "source_id": "src-olten-rail",
+      "niveau": "B",
+      "institution": "Stadt Olten",
+      "titre": "Olten Journal — Die Eisenbahn brachte den Durchbruch",
+      "url": "https://www.olten.ch/_docn/367601/129095_journal_low.pdf",
+      "date_consultation": "2026-10-01"
+    },
+    {
+      "source_id": "src-winterthur-history",
+      "niveau": "B",
+      "institution": "Stadt Winterthur",
+      "titre": "Kurz und bündig — Stadtgeschichte",
+      "url": "https://stadt.winterthur.ch/themen/die-stadt/winterthur/stadtgeschichte/meilensteine/",
+      "date_consultation": "2026-10-01"
+    },
+    {
+      "source_id": "src-winterthur-locomotive",
+      "niveau": "B",
+      "institution": "Stadt Winterthur",
+      "titre": "Das Sulzer-Areal / SLM",
+      "url": "https://stadt.winterthur.ch/themen/leben-in-winterthur/planen-und-bauen/wir-beraten-sie/denkmalpflege/oeffentlichkeitsarbeit-und-dokumentation/rueckschau-veranstaltungen/tag-des-denkmals-zeitung/zeitung-tag-des-denkmals-2004.pdf/%40%40download/file/Zeitung_Tag_des_Denkmals_2004.pdf",
+      "date_consultation": "2026-10-01"
+    },
+    {
+      "source_id": "src-gotthard-history",
+      "niveau": "B",
+      "institution": "Verkehrshaus der Schweiz",
+      "titre": "125 Jahre Gotthardbahn",
+      "url": "https://sammlung.verkehrshaus.ch/de/literature/item/9581/",
+      "date_consultation": "2026-10-01"
+    }
+  ]
+}

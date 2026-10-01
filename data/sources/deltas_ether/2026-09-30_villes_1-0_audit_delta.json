@@ -1,0 +1,107 @@
+{
+  "metadata": {
+    "nom": "atlas_sources_delta_villes_1-0_audit",
+    "date_creation": "2026-09-30",
+    "statut": "proposition_a_fusionner_dans_le_registre_officiel_par_claude",
+    "regle": "Le dépôt Atlas reste la source de vérité. Ce fichier contient uniquement des sources nouvelles ou à vérifier avant fusion."
+  },
+  "sources": [
+    {
+      "source_id": "src-port-antwerp-bruges-zeebrugge-history",
+      "niveau": "B",
+      "type_source": "site_institutionnel_portuaire",
+      "titre": "History of Zeebrugge",
+      "institution": "Port of Antwerp-Bruges",
+      "url": "https://www.portofantwerpbruges.com/en/our-port/world-port/history-zeebrugge",
+      "date_consultation": "2026-09-30",
+      "cibles": [
+        "ville-be-zeebruges",
+        "ville-be-bruges"
+      ],
+      "usage": [
+        "rôle portuaire de Zeebrugge",
+        "relation historique Bruges-Zeebrugge",
+        "liaisons maritimes historiques"
+      ],
+      "locator": "page d'histoire du port",
+      "note": "Vérifier doublon dans le registre officiel avant fusion."
+    },
+    {
+      "source_id": "src-nara-rg331-shaef",
+      "niveau": "A",
+      "type_source": "archives_nationales",
+      "titre": "Records of Allied Operational and Occupation Headquarters, World War II — Record Group 331",
+      "institution": "U.S. National Archives and Records Administration",
+      "url": "https://www.archives.gov/research/holocaust/finding-aid/military/rg-331.html",
+      "date_consultation": "2026-09-30",
+      "cibles": [
+        "ville-fr-versailles",
+        "ville-fr-reims"
+      ],
+      "usage": [
+        "quartier général SHAEF à Versailles",
+        "chronologie du déplacement du SHAEF vers Reims"
+      ],
+      "locator": "sections relatives aux sièges du SHAEF",
+      "note": "Versailles pertinent au Snapshot 0 ; le rôle SHAEF de Reims commence plus tard."
+    },
+    {
+      "source_id": "src-port-den-helder-history",
+      "niveau": "B",
+      "type_source": "site_institutionnel_portuaire",
+      "titre": "History",
+      "institution": "Port of Den Helder",
+      "url": "https://portofdenhelder.nl/port-of-den-helder/history",
+      "date_consultation": "2026-09-30",
+      "cibles": [
+        "ville-nl-den-helder"
+      ],
+      "usage": [
+        "port",
+        "base navale",
+        "importance maritime"
+      ],
+      "locator": "page historique du port",
+      "note": ""
+    },
+    {
+      "source_id": "src-shd-poches-atlantique-1945",
+      "niveau": "A",
+      "type_source": "service_historique_officiel",
+      "titre": "Poches de l'Atlantique — fonds et ressources",
+      "institution": "Service historique de la Défense",
+      "url": "https://www.servicehistorique.sga.defense.gouv.fr/ark/682172",
+      "date_consultation": "2026-09-30",
+      "cibles": [
+        "ville-fr-lorient",
+        "ville-fr-la-rochelle",
+        "ville-fr-royan",
+        "ville-fr-saint-nazaire"
+      ],
+      "usage": [
+        "poches allemandes encore actives en 1945",
+        "rôle militaire et portuaire"
+      ],
+      "locator": "notice/fonds relatif aux poches de l'Atlantique",
+      "note": "Peut compléter une source déjà existante ; vérifier doublon."
+    },
+    {
+      "source_id": "src-defense-reims-shaef-1945",
+      "niveau": "A",
+      "type_source": "site_institutionnel",
+      "titre": "Commémoration de la victoire du 8 mai 1945",
+      "institution": "Ministère des Armées",
+      "url": "https://www.defense.gouv.fr/sga/actualites/commemoration-victoire-du-8-mai-1945",
+      "date_consultation": "2026-09-30",
+      "cibles": [
+        "ville-fr-reims"
+      ],
+      "usage": [
+        "rôle de Reims dans la phase finale de la guerre",
+        "quartier général allié à partir de février 1945"
+      ],
+      "locator": "passage sur Reims et le quartier général allié",
+      "note": "Ne pas appliquer ce rôle au Snapshot 0 ; créer un nouvel état temporel."
+    }
+  ]
+}

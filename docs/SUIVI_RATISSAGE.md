@@ -38,7 +38,9 @@ Ce tableau de bord dit où on en est, pour ne rien oublier. Claude le met à jou
 - **Janvier 1945 — états déjà repérés pour le ratissage** : front de l'Ouest jour par jour (cartes LOC du 12e groupe d'armées, une par jour, items 2004630304 → 2004630334 ; la première = 01/01 à 12:00) ; Nordwind (dès le 31/12 vers 23:00) et Sonnenwende (7-13/01) en Alsace ; réduction de la poche de Colmar (à partir du 20/01, West Point 75a) ; RSS d'Estonie (formalisation du 18/01) ; Memel (28/01). *(Claude)*
 
 - **Avant de fermer la première passe territoriale** : Liechtenstein, Saint-Marin, île de Man, Svalbard / Jan Mayen (entités à sourcer) ; limites de l'enclave allemande de Crète ; carte yougoslave datée (côte dalmate, Monténégro) ; sources A/B pour Oujhorod, l'administration soviétique en Transylvanie du Nord, le Dodécanèse. *(Ether + Claude)*
-- **Deuxième passe du Snapshot 0 (ensuite)** : villes, capitales, noms historiques temporels. *(Ether + Guizmo)*
+- **Deuxième passe du Snapshot 0 : villes** (en cours). 1.0 France, Benelux, îles Britanniques : **73 villes intégrées le 30/09/2026** (61 + 12 après l'audit d'Ether ; 8 rôles déjà sourcés, les autres à sourcer par famille et par pays). 1.1 Nordiques : **65 villes intégrées le 30/09/2026** (56 + 9 après l'audit de zone ; 6 sources à revoir, voir le journal). 1.2 Allemagne + arc alpin : **64 villes intégrées le 01/10/2026**, arbitrages d'Ether appliqués (v0.2) ; **lot ouvert** : 9 candidats à examiner et rôles à sourcer localement (53 villes). Suite : 1.3 Tchécoslovaquie, Slovaquie, Hongrie → Baltique et Pologne → URSS et Mongolie → Caucase et Turquie → Balkans, Grèce, Italie → Ibérie (numéros à suivre) → **audit transversal** (ports, rail, frontières, industrie, capitales) avant de déclarer les villes terminées. *(Ether + Guizmo)*
+- **À dater au ratissage de janvier 1945** : bombardement allié de Royan le 5 janvier 1945 (source : `src-shd-poches-atlantique-1945`).
+- **À dater au ratissage de février 1945** : Reims entre dans l'Atlas comme QG avancé du SHAEF (source : `src-defense-reims-shaef-1945`). *(Guizmo + Ether)*
 - **Encore sans données au Snapshot 0** : Afrique du Nord et Proche-Orient au contact (« on montre par contact »), Irak, Iran, Caucase soviétique déjà dans l'URSS. *(à décider)*
 
 ## Couches suivantes (après le Snapshot 0 des frontières)
@@ -56,6 +58,7 @@ Ce tableau de bord dit où on en est, pour ne rien oublier. Claude le met à jou
 ## Repères à ajouter au Snapshot 0
 
 - **Capitales et grandes villes** avec leur **nom de 1945** (Königsberg, Dantzig, Stalingrad, Lwów/Lviv…). Pas les noms modernes : ceux-là restent dans le calque « repères modernes ». Il faut un type d'entité `ville` (ou un calque dédié) et une liste sourcée. *(Ether pour la liste, Claude pour le type et l'affichage)*
+  Affichage automatique selon le zoom, sans réglage pour l'utilisateur : Eurasie → pays ; continent → capitales ; pays → grandes villes structurantes ; région → nœuds ferroviaires, ports, villes frontalières et industrielles ; local → petites villes pertinentes et micro-histoire. *(Ether, validé le 30/09)*
 - **Zones restantes** : Europe centrale (Tchécoslovaquie, Hongrie…), Balkans et Grèce, Europe de l'Ouest (France, Benelux…), péninsule Ibérique, Italie, Scandinavie, Turquie, Caucase, Asie centrale soviétique en détail.
 
 ## Idées d'interface (à discuter après le Snapshot 0)

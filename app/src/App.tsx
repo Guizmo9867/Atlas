@@ -18,7 +18,7 @@ export default function App() {
   const [zoom, setZoom] = useState(3)
   const [fond, setFond] = useState<IdFond>('plan')
   const [calques, setCalques] = useState<Calques>({
-    territoires: true, frontieres: true, fronts: true, ponts: true, evenements: true, parcours: true, reperesModernes: false,
+    territoires: true, frontieres: true, fronts: true, ponts: true, evenements: true, parcours: true, villes: true, reperesModernes: false,
   })
 
   useEffect(() => {

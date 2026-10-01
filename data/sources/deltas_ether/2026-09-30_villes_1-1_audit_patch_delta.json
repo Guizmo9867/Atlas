@@ -1,0 +1,245 @@
+{
+  "metadata": {
+    "nom": "registre_sources_villes_1-1_audit_patch_delta",
+    "date_creation": "2026-09-30",
+    "instruction": "Fusionner uniquement si absent ; réutiliser les IDs canoniques existants en cas de doublon."
+  },
+  "sources_a_ajouter_si_absentes": [
+    {
+      "source_id": "src-jernbanemuseet-lillebaelt-1935",
+      "niveau": "B",
+      "type_source": "musee_national_ferroviaire",
+      "titre": "Det røde lyntog",
+      "institution": "Danmarks Jernbanemuseum",
+      "url": "https://www.jernbanemuseet.dk/aktiviteter/det-roede-lyntog/",
+      "date_consultation": "2026-09-30",
+      "cibles": [
+        "ville-dk-fredericia"
+      ],
+      "usage": [
+        "Lillebæltsbroen 1935",
+        "axe ferroviaire national"
+      ],
+      "locator": "section Historien om Det røde Lyntog",
+      "note": "Justifie Fredericia B."
+    },
+    {
+      "source_id": "src-boden-jarnvagsknut-fortress",
+      "niveau": "B",
+      "type_source": "publication_municipale",
+      "titre": "Fästningen / plan historique de Boden",
+      "institution": "Bodens kommun",
+      "url": "https://boden.se/download/18.629ca7561993706f39d426fc/1759136066717/Laga%20kraft%20handling.pdf",
+      "date_consultation": "2026-09-30",
+      "cibles": [
+        "ville-se-boden"
+      ],
+      "usage": [
+        "jonction Malmbanan–Stambanan",
+        "nœud ferroviaire",
+        "forteresse"
+      ],
+      "locator": "section Fästningen",
+      "note": ""
+    },
+    {
+      "source_id": "src-trafikverket-hallsberg-history",
+      "niveau": "B",
+      "type_source": "rapport_infrastructure_officiel",
+      "titre": "Kulturmiljöunderlag — Hallsberg/Mjölby",
+      "institution": "Trafikverket",
+      "url": "https://bransch.trafikverket.se/contentassets/019d98efa1d64ad9b4fcd9605871606b/arkiv/jarnvagsutredning/forslagshandling-april-2006/mkb_bilaga_2_kultur_s40-62_optimized.pdf",
+      "date_consultation": "2026-09-30",
+      "cibles": [
+        "ville-se-hallsberg"
+      ],
+      "usage": [
+        "nœud ferroviaire historique",
+        "lignes 1862/1873",
+        "électrification avant 1945"
+      ],
+      "locator": "passage sur Hallsberg comme järnvägsknut",
+      "note": ""
+    },
+    {
+      "source_id": "src-oxelosund-port-rail-history",
+      "niveau": "B",
+      "type_source": "publication_municipale",
+      "titre": "Kulturmiljön i Oxelösunds skärgård",
+      "institution": "Oxelösunds kommun",
+      "url": "https://www.oxelosund.se/download/18.553838ea17305720c321c672/1597732226198/Kulturmilj%C3%B6n_i_Oxel%C3%B6sunds_sk%C3%A4rg%C3%A5rd_-_F%C3%B6rstudie_F%C3%B6p_-_2016-12-13_Leverans.pdf",
+      "date_consultation": "2026-09-30",
+      "cibles": [
+        "ville-se-oxelosund"
+      ],
+      "usage": [
+        "port",
+        "rail vers Bergslagen",
+        "export de minerai",
+        "sidérurgie"
+      ],
+      "locator": "sections HAMN / JÄRNVÄGENS ANKOMST / INDUSTRI",
+      "note": ""
+    },
+    {
+      "source_id": "src-gallivare-malmberget-rail-history",
+      "niveau": "B",
+      "type_source": "publication_municipale",
+      "titre": "Översiktsplan Gällivare — planeringsförutsättningar",
+      "institution": "Gällivare kommun",
+      "url": "https://gallivare.se/download/18.4e20a890188bda337d1b0fb/1686925140527/2%20Del%202%20Planeringsf%C3%B6ruts%C3%A4ttningar.pdf",
+      "date_consultation": "2026-09-30",
+      "cibles": [
+        "ville-se-gallivare"
+      ],
+      "usage": [
+        "Malmberget",
+        "Malmbanan 1888",
+        "développement par minerai et rail"
+      ],
+      "locator": "passage sur l'arrivée de la Malmbanan",
+      "note": ""
+    },
+    {
+      "source_id": "src-harstad-garrison-wwii",
+      "niveau": "B",
+      "type_source": "patrimoine_militaire_officiel",
+      "titre": "Harstad garnisonsområde",
+      "institution": "Forsvarsbygg",
+      "url": "https://www.forsvarsbygg.no/no/verneplaner/landsverneplan-for-forsvaret/nord-norge/harstadgarnisonsomrade/",
+      "date_consultation": "2026-09-30",
+      "cibles": [
+        "ville-no-harstad"
+      ],
+      "usage": [
+        "centre allié en 1940",
+        "occupation allemande",
+        "commandements",
+        "ravitaillement"
+      ],
+      "locator": "section 1940–45",
+      "note": ""
+    },
+    {
+      "source_id": "src-harstad-port-history",
+      "niveau": "B",
+      "type_source": "site_institutionnel_portuaire",
+      "titre": "Historie",
+      "institution": "Harstad Havn KF",
+      "url": "https://harstadhavn.no/historie/",
+      "date_consultation": "2026-09-30",
+      "cibles": [
+        "ville-no-harstad"
+      ],
+      "usage": [
+        "port historique",
+        "trafic de vapeur",
+        "chantier naval"
+      ],
+      "locator": "historique du port",
+      "note": ""
+    },
+    {
+      "source_id": "src-snl-nordlandsbanen-historical",
+      "niveau": "B",
+      "type_source": "encyclopedie_historique",
+      "titre": "Nordlandsbanen",
+      "institution": "Store norske leksikon",
+      "url": "https://snl.no/Nordlandsbanen",
+      "date_consultation": "2026-09-30",
+      "cibles": [
+        "ville-no-mo-i-rana"
+      ],
+      "usage": [
+        "rail atteint Mo i Rana en 1942",
+        "construction stratégique sous occupation"
+      ],
+      "locator": "Nordlandsbanen under andre verdenskrig",
+      "note": ""
+    },
+    {
+      "source_id": "src-finland-lahti-railway-museum",
+      "niveau": "B",
+      "type_source": "musee_national_ferroviaire",
+      "titre": "Lahden rautatieasema",
+      "institution": "Suomen Rautatiemuseo / Finna",
+      "url": "https://rautatiemuseo.finna.fi/Record/musketti_rautatie.M014%3ASRMV1%3A1677",
+      "date_consultation": "2026-09-30",
+      "cibles": [
+        "ville-fi-lahti"
+      ],
+      "usage": [
+        "gare sur la Pietarin rata",
+        "gare active depuis 1869"
+      ],
+      "locator": "notice de la gare",
+      "note": ""
+    },
+    {
+      "source_id": "src-finland-kuopio-railway-history",
+      "niveau": "B",
+      "type_source": "musee_national_ferroviaire",
+      "titre": "Saman kellon alle",
+      "institution": "Suomen Rautatiemuseo",
+      "url": "https://rautatiemuseo.fi/rtm-story/saman-kellon-alle/",
+      "date_consultation": "2026-09-30",
+      "cibles": [
+        "ville-fi-kuopio"
+      ],
+      "usage": [
+        "Savon rata atteint Kuopio en 1889"
+      ],
+      "locator": "passage sur Kuopio 1889",
+      "note": ""
+    },
+    {
+      "source_id": "src-finland-joensuu-railway-museum",
+      "niveau": "B",
+      "type_source": "musee_national_ferroviaire",
+      "titre": "Joensuun rautatieasema",
+      "institution": "Suomen Rautatiemuseo / Finna",
+      "url": "https://www.finna.fi/Record/musketti_rautatie.M014%3ASRMV1%3A632/Details",
+      "date_consultation": "2026-09-30",
+      "cibles": [
+        "ville-fi-joensuu"
+      ],
+      "usage": [
+        "gare de Joensuu établie avant 1945"
+      ],
+      "locator": "notice historique de la gare",
+      "note": "Renforcer le rôle de nœud lors de l'audit final si besoin."
+    },
+    {
+      "source_id": "src-jarnvagsmuseet-wwii-transit",
+      "niveau": "B",
+      "type_source": "musee_national_ferroviaire",
+      "titre": "1941 — Krylbosmällen",
+      "institution": "Järnvägsmuseet",
+      "url": "https://www.jarnvagsmuseet.se/utforska/tidslinje/1900-tal/krylbosmallen",
+      "date_consultation": "2026-09-30",
+      "cibles": [
+        "contexte-reseau-ferroviaire-suede"
+      ],
+      "usage": [
+        "trafic militaire ferroviaire 1940–1942",
+        "importance du réseau en temps de guerre"
+      ],
+      "locator": "passage sur Tysktrafiken",
+      "note": "Contexte historique, pas preuve unique par ville."
+    }
+  ],
+  "sources_a_mettre_a_jour": [
+    {
+      "source_id": "src-us-army-iceland-transport",
+      "nouvelle_url": "https://history.army.mil/Portals/143/Images/Publications/Publication%20By%20Title%20Images/T%20PDF/transportation-corps-3.pdf",
+      "locator": "The Atlantic and Caribbean Bases / Iceland — Reykjavik, Akureyri, Seydisfjordur",
+      "raison": "Version officielle accessible ; remplace le lien 403."
+    },
+    {
+      "source_id": "src-us-navy-iceland-bases",
+      "url": "https://www.history.navy.mil/content/history/nhhc/research/library/online-reading-room/title-list-alphabetically/b/building-the-navys-bases/building-the-navys-bases-vol-2.html",
+      "locator": "Iceland — Fleet Air Base Reykjavik ; Seydisfjord fuel tanks",
+      "raison": "La section Islande est bien présente ; locator ajouté."
+    }
+  ]
+}

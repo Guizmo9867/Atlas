@@ -106,6 +106,7 @@ On le construit au fil de l'eau, jamais à l'avance. **Avant de créer un ID : c
 | territoire | `transylvanie-nord` | Transylvanie du Nord (disputée) | `territoire-ro-transylvanie-nord` |
 | territoire | `athenes-piree-combats` | zone des Dekemvriana | `territoire-gr-athenes-piree-combats` |
 | ligne_front | `italie` | front d'Italie (ligne Gothique) | `ligne_front-it-italie` |
+| ville | nom français sans accents ni espaces | une ville (un point) ; priorité d'affichage `importance_atlas` A/B/C/D, rôles en mots-clés | `ville-fr-paris`, `ville-be-liege`, `ville-nl-lahaye` |
 | territoire | `zone-partisane`, `zone-allemande` | Yougoslavie de part et d'autre du front | `territoire-yu-zone-…` |
 | territoire | `slovaquie` | État slovaque (Tiso) dans la Tchécoslovaquie juridique | `territoire-cs-slovaquie` |
 | territoire | `sud-annexe-hongrie` | sud de la Slovaquie annexé par la Hongrie en 1938 | `territoire-cs-sud-annexe-hongrie` |
@@ -155,6 +156,8 @@ Valeurs de `souverainete_id`, `controle_id`, `alignement_id`. Courts, toujours l
 | `occupe_hors_coalitions` | statut particulier : pays occupé dont le gouvernement n'est dans aucune coalition (Danemark au 01/01/1945) | ivoire + hachures de l'occupant |
 | `pro_allied_armed_neutral` | statut particulier : neutralité armée orientée vers les Alliés (Turquie au 01/01/1945) | ivoire |
 | `soviet_bloc` | bloc soviétique (guerre froide, plus tard) | — |
+
+**Rôles des villes** (`roles`) : `capitale`, `rail`, `port_maritime`, `port_fluvial`, `industrie`, `frontalier`, `administration`, `aviation`, `base_navale`, `ferry`, `detroit`, `charbon`, `construction_navale`, `siderurgie`, `transatlantique`, `base_sous_marine`, `quartier_general`, `minerai`, `peche`, `navigation_cotiere`, `militaire`. **Type de capitale (`capitale` : nationale / regionale / territoire) et priorité d'affichage (`importance_atlas`) sont indépendants** : une capitale nationale peut être C (Vaduz), une ville non capitale peut être B ou A si son rôle à la date le justifie. Situation d'une ville au jour affiché (`situation`) : `detruite`, `evacuee`, ou les deux (`evacuee et detruite`) ; le détail établi par la source va dans la note. Autres noms d'une ville : champ `aliases` de l'entité (nom local, nom anglais, Derry…). Libellés dans `palettes.ts`.
 
 **Contrôle non tranché** : souverain connu mais `controle_id` absent (contrôle réel disputé, ex. Grèce des Dekemvriana) → **rayures croisées grises**.
 

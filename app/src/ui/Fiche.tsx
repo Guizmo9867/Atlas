@@ -6,6 +6,12 @@ import { LIBELLES } from '../theme/palettes'
 const NOMS_PROPRIETES: Record<string, string> = {
   souverainete_id: 'Souveraineté', souverainete_revendiquee_par: 'Souveraineté revendiquée par', controle_id: 'Contrôle effectif', administration_id: 'Administration civile', alignement_id: 'Alignement',
   regime_id: 'Régime', statut_administratif: 'Statut administratif', parent_id: 'Fait partie de', note: 'Note',
+  nom_local: 'Nom sur place', importance_atlas: 'Importance dans l’Atlas', capitale: 'Capitale', roles: 'Rôles', situation: 'Situation',
+}
+const VALEURS_VILLE: Record<string, string> = {
+  A: 'A · capitale (visible dès le zoom continental)', B: 'B · grande ville structurante (zoom national)', C: 'C · nœud régional (zoom régional)', D: 'D · micro-histoire (zoom local)',
+  nationale: 'capitale d’État', regionale: 'capitale régionale', territoire: 'capitale du territoire',
+  detruite: 'détruite (flux coupés)', evacuee: 'évacuée', 'evacuee et detruite': 'évacuée et détruite (flux coupés)',
 }
 const NIVEAUX: Record<string, string> = { A: 'A · primaire', B: 'B · secondaire solide', C: 'C · exploratoire' }
 
@@ -105,6 +111,7 @@ export default function Fiche({ selection, date, corpus, onClose, onSelect }: {
       <button className="fermer" onClick={onClose} aria-label="Fermer">✕</button>
       <div className="surtitre">Entité · {ent.type_entite}</div>
       <h2>{ent.nom}</h2>
+      {ent.aliases?.length ? <div className="meta">aussi : {ent.aliases.join(' · ')}</div> : null}
       <div className="meta"><code>{ent.entite_id}</code></div>
       <h3>Historique des états</h3>
       <ol className="etats">
@@ -114,10 +121,10 @@ export default function Fiche({ selection, date, corpus, onClose, onSelect }: {
               <strong>{e.statut.replace(/_/g, ' ')}</strong>
               {e === actif && <span className="badge">affiché</span>}
             </div>
-            <div className="muet">{dateCourte(e.valid_from)} → {dateCourte(e.valid_to)}</div>
+            <div className="muet">{e.valid_from.date ? dateCourte(e.valid_from) : 'déjà en place avant l’Atlas'} → {dateCourte(e.valid_to)}</div>
             {e === actif && <>
               <dl>{Object.entries(e.proprietes ?? {}).map(([k, v]) => (
-                <div key={k}><dt>{NOMS_PROPRIETES[k] ?? k}</dt><dd>{Array.isArray(v) ? v.map((x) => LIBELLES[x] ?? x).join(', ') : k === 'parent_id' ? (entiteParId(v)?.nom ?? v) : (LIBELLES[v] ?? v)}</dd></div>
+                <div key={k}><dt>{NOMS_PROPRIETES[k] ?? k}</dt><dd>{Array.isArray(v) ? v.map((x) => LIBELLES[x] ?? x).join(', ') : k === 'parent_id' ? (entiteParId(v)?.nom ?? v) : (k === 'importance_atlas' || k === 'capitale' || k === 'situation' ? (VALEURS_VILLE[v] ?? v) : LIBELLES[v] ?? v)}</dd></div>
               ))}</dl>
               <Sources refs={e.sources} corpus={corpus} />
               {e.geometrie_ref && <Trace meta={corpus.geometries[e.geometrie_ref]?.properties as MetaGeometrie | undefined} corpus={corpus} />}

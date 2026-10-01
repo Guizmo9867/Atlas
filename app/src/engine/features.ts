@@ -13,6 +13,7 @@ export interface CouchesDuJour {
   ponts: FeatureCollection
   pastilles: FeatureCollection
   parcours: FeatureCollection
+  villes: FeatureCollection
   sansGeometrie: string[]
 }
 
@@ -23,7 +24,7 @@ export function construireCouches(
   mode: ModeLecture,
   geometries: Record<string, Geometry> = {},
 ): CouchesDuJour {
-  const c: CouchesDuJour = { territoires: vide(), frontieres: vide(), ponts: vide(), pastilles: vide(), parcours: vide(), sansGeometrie: [] }
+  const c: CouchesDuJour = { territoires: vide(), frontieres: vide(), ponts: vide(), pastilles: vide(), parcours: vide(), villes: vide(), sansGeometrie: [] }
 
   // Les territoires « parents » d'abord, les « enfants » (parent_id) par-dessus
   const actifs = new Map(entites.map((e) => [e.entite_id, etatActif(e, date)]))
@@ -57,6 +58,12 @@ export function construireCouches(
     const geom = etat.geometrie ?? (etat.geometrie_ref ? geometries[etat.geometrie_ref] : undefined)
     if (!geom) { c.sansGeometrie.push(ent.entite_id); continue }
     const p = etat.proprietes ?? {}
+    // Villes : un point, une priorité d'affichage (A→D) ; souveraineté et contrôle viennent du territoire où elles sont.
+    if (ent.type_entite === 'ville') {
+      c.villes.features.push({ type: 'Feature', geometry: geom, properties: {
+        entite_id: ent.entite_id, nom: ent.nom_court ?? ent.nom, importance: p.importance_atlas ?? 'C', capitale: p.capitale ?? '', situation: p.situation ?? '' } })
+      continue
+    }
     const parent = p.parent_id ? actifs.get(p.parent_id)?.proprietes : undefined
     // Alignement : un « enfant » sans valeur hérite de celle de son parent (ex. Courlande → Lettonie).
     // Pas d'héritage pour la souveraineté : une souveraineté absente = volontairement non tranchée.

@@ -26,7 +26,7 @@ const CALQUES: { cle: keyof Calques | null; nom: string; aide?: string }[] = [
   { cle: 'territoires', nom: 'Territoires', aide: 'les aplats de couleur' },
   { cle: 'frontieres', nom: 'Frontières' },
   { cle: 'fronts', nom: 'Lignes de front' },
-  { cle: null, nom: 'Villes', aide: 'capitales, puis grandes villes en zoomant — bientôt' },
+  { cle: 'villes', nom: 'Villes', aide: 'capitales, puis grandes villes en zoomant' },
   { cle: 'ponts', nom: 'Ponts' },
   { cle: 'evenements', nom: 'Pastilles d’événements' },
   { cle: 'parcours', nom: 'Parcours', aide: 'routes suivies' },
@@ -34,15 +34,20 @@ const CALQUES: { cle: keyof Calques | null; nom: string; aide?: string }[] = [
 const FILTRES = [
   { nom: 'Événements militaires' }, { nom: 'Événements politiques' },
   { nom: 'Événements humains', aide: 'réfugiés, déportations…' },
-  { nom: 'Micro-histoire', aide: 'petits événements locaux' }, { nom: 'Villes : capitales seulement' },
+  { nom: 'Micro-histoire', aide: 'petits événements locaux' },
 ]
-export type IdFond = 'plan' | 'relief' | 'naturel' | 'satellite' | 'reconstitue'
+// Fond de carte : le support visuel, séparé des données historiques.
+// Règle (Ether, 30/09) : pas de mensonge visuel. Aérien et satellite historiques ne s'affichent que là où
+// une image existe pour la date et la zone ; ailleurs, l'Atlas garde automatiquement Plan ou Relief.
+export type IdFond = 'plan' | 'relief' | 'naturel' | 'aerien' | 'satellite' | 'carte_epoque' | 'reconstitue'
 const FONDS: { id: IdFond; nom: string; aide: string; pret: boolean; apercu: string }[] = [
   { id: 'plan', nom: 'Plan', aide: 'terres et mers, sans frontières modernes', pret: true, apercu: 'linear-gradient(135deg,#dfe7ec 0 45%,#ebe5d4 45%)' },
   { id: 'relief', nom: 'Relief', aide: 'montagnes ombrées — bientôt', pret: false, apercu: 'radial-gradient(circle at 35% 40%,#f3efe6 0 18%,#c9c0ad 40%,#e8e2d2 70%)' },
   { id: 'naturel', nom: 'Vue naturelle', aide: 'forêts, déserts, glaciers — bientôt', pret: false, apercu: 'linear-gradient(135deg,#6f8f5a 0 35%,#c8b27e 35% 60%,#8aa8c4 60%)' },
-  { id: 'satellite', nom: 'Satellite', aide: 'à partir de 1960 environ — plus tard', pret: false, apercu: 'linear-gradient(135deg,#2c3a2a,#5b6a4a 50%,#1f3448)' },
-  { id: 'reconstitue', nom: 'Vue reconstituée', aide: 'l’époque recréée — projet', pret: false, apercu: 'linear-gradient(135deg,#8c7a5b,#b9a57f 50%,#6d7f8c)' },
+  { id: 'aerien', nom: 'Aérien historique', aide: 'photos d’époque, par endroits — plus tard', pret: false, apercu: 'linear-gradient(135deg,#5d5a52,#9a958a 50%,#6b6860)' },
+  { id: 'satellite', nom: 'Satellite historique', aide: 'dès 1960 environ, par endroits — plus tard', pret: false, apercu: 'linear-gradient(135deg,#2c3a2a,#5b6a4a 50%,#1f3448)' },
+  { id: 'carte_epoque', nom: 'Carte d’époque', aide: 'carte scannée superposée — plus tard', pret: false, apercu: 'linear-gradient(135deg,#e9dcb8,#cdb88a 50%,#e3d3a8)' },
+  { id: 'reconstitue', nom: 'Vue reconstituée', aide: 'l’époque recréée, annoncée comme telle — projet', pret: false, apercu: 'linear-gradient(135deg,#8c7a5b,#b9a57f 50%,#6d7f8c)' },
 ]
 
 type Pop = 'mode' | 'couches' | 'calques' | 'filtres' | null
@@ -71,7 +76,8 @@ export function Barre({ mode, setMode, calques, setCalques, valeursPresentes }: 
   return <>
     {pop && <div className="cmd-pop">
       {pop === 'mode' && <>
-        <h4>Mode de lecture : comment la carte est coloriée</h4>
+        <h4>Mode de lecture</h4>
+        <p className="cmd-question">Comment veux-tu lire la carte ?</p>
         {MODES.map((m) => (
           <button key={m.id} className={`cmd-option ${mode === m.id ? 'choisi' : ''}`} disabled={!m.pret} onClick={() => setMode(m.id as ModeLecture)}>
             <span className="puce" /><span><b>{m.nom}</b><small>{m.aide}</small></span>
@@ -91,11 +97,13 @@ export function Barre({ mode, setMode, calques, setCalques, valeursPresentes }: 
         </ul>
       </>}
       {pop === 'couches' && <>
-        <h4>Couches : de quel sujet parle la carte</h4>
+        <h4>Couches</h4>
+        <p className="cmd-question">Quels types d’histoire veux-tu explorer ?</p>
         {COUCHES.map((c) => <Ligne key={c.nom} nom={c.nom} aide={c.aide} actif={c.pret}><Interrupteur on={c.pret} actif={false} /></Ligne>)}
       </>}
       {pop === 'calques' && <>
-        <h4>Calques : ce qui est dessiné</h4>
+        <h4>Calques</h4>
+        <p className="cmd-question">Quels éléments veux-tu voir sur la carte ?</p>
         {CALQUES.map((c) => (
           <Ligne key={c.nom} nom={c.nom} aide={c.aide} actif={!!c.cle}>
             <Interrupteur on={c.cle ? calques[c.cle] : false} actif={!!c.cle}
@@ -104,7 +112,8 @@ export function Barre({ mode, setMode, calques, setCalques, valeursPresentes }: 
         ))}
       </>}
       {pop === 'filtres' && <>
-        <h4>Filtres : lesquels, parmi ce qui est dessiné</h4>
+        <h4>Filtres</h4>
+        <p className="cmd-question">Que veux-tu garder parmi ce qui est affiché ?</p>
         <p className="cmd-note">Bientôt. Exemples à définir ensemble :</p>
         {FILTRES.map((f) => <Ligne key={f.nom} nom={f.nom} aide={f.aide} actif={false}><Interrupteur on={false} actif={false} /></Ligne>)}
       </>}
@@ -133,6 +142,7 @@ export function FondCarte({ fond, setFond }: { fond: IdFond; setFond: (f: IdFond
     <div className="fond-carte">
       {ouvert && <div className="fond-liste">
         <h4>Fond de carte</h4>
+        <p className="cmd-question">Sur quel support veux-tu voir l’Atlas ?</p>
         {FONDS.map((f) => (
           <button key={f.id} className={`fond-choix ${f.id === fond ? 'choisi' : ''}`} disabled={!f.pret} onClick={() => { setFond(f.id); setOuvert(false) }}>
             <i style={{ background: f.apercu }} /><span><b>{f.nom}</b><small>{f.aide}</small></span>

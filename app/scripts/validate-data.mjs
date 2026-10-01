@@ -10,7 +10,7 @@ const erreurs = [], avertissements = [], provisoires = []
 const err = (f, m) => erreurs.push(`${f} : ${m}`)
 const avert = (f, m) => avertissements.push(`${f} : ${m}`)
 
-const TYPES_ENTITE = ['frontiere', 'route', 'pont', 'port', 'ferry', 'poste_frontiere', 'territoire', 'voie_ferree', 'ligne_front', 'autre']
+const TYPES_ENTITE = ['ville', 'frontiere', 'route', 'pont', 'port', 'ferry', 'poste_frontiere', 'territoire', 'voie_ferree', 'ligne_front', 'autre']
 const RELATIONS_ENTITE = ['precede', 'suit', 'entraine', 'modifie', 'explique', 'detache_de']
 const RELATIONS_EVENEMENT = ['precede', 'suit', 'entraine', 'modifie', 'explique']
 const PRECISIONS = ['exacte', 'mois', 'annee', 'inconnue', 'en_cours']
@@ -122,6 +122,10 @@ for (const [id, { e, f }] of entites) {
       else if (String(g.statut).startsWith('provisoire')) provisoires.push(s.geometrie_ref)
     }
     else avert(f.nom, `${ou} : aucune géométrie`)
+    if (e.type_entite === 'ville') {
+      if (!['A', 'B', 'C', 'D'].includes(s.proprietes?.importance_atlas)) err(f.nom, `${ou} : importance_atlas doit valoir A, B, C ou D`)
+      if (s.geometrie && s.geometrie.type !== 'Point') err(f.nom, `${ou} : une ville est un point`)
+    }
     const pid = s.proprietes?.parent_id
     if (pid && !entites.has(pid)) err(f.nom, `${ou} : parent_id « ${pid} » introuvable`)
     if (!s.sources?.length) err(f.nom, `${ou} : aucune source (règle : pas de fait sans source)`)

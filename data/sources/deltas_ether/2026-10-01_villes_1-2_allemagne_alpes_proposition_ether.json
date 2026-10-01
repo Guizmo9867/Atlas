@@ -1,0 +1,1479 @@
+{
+  "metadata_lot": {
+    "nom": "villes_1-2_allemagne_alpes",
+    "date_reference": "1945-01-01",
+    "heure_reference": "00:00",
+    "date_creation": "2026-10-01",
+    "statut": "proposition_a_integrer_par_claude",
+    "perimetre": [
+      "Allemagne actuelle",
+      "Autriche actuelle",
+      "Suisse",
+      "Liechtenstein"
+    ],
+    "nombre_villes": 64,
+    "note_perimetre": "Lot géographique, pas politique. Tchécoslovaquie/Slovaquie/Hongrie sont repoussées au lot suivant pour garder un audit maîtrisable."
+  },
+  "villes": [
+    {
+      "entite_id": "ville-de-berlin",
+      "type_entite": "ville",
+      "nom": "Berlin",
+      "aliases": [],
+      "zone_geographique": "Allemagne",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "A",
+        "roles": [
+          "capitale",
+          "rail",
+          "industrie",
+          "administration"
+        ],
+        "note": "Capitale du Reich au 01/01/1945, centre politique, industriel et ferroviaire majeur.",
+        "sources": [
+          "src-db-museum-history"
+        ],
+        "source_role_a_renforcer": true
+      }
+    },
+    {
+      "entite_id": "ville-de-hamburg",
+      "type_entite": "ville",
+      "nom": "Hambourg",
+      "aliases": [
+        "Hamburg"
+      ],
+      "zone_geographique": "Allemagne",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "port_maritime",
+          "rail",
+          "industrie",
+          "commerce"
+        ],
+        "note": "Grand port maritime de l'Elbe et nœud de commerce international.",
+        "sources": [
+          "src-hamburg-port-history"
+        ],
+        "source_role_a_renforcer": false
+      }
+    },
+    {
+      "entite_id": "ville-de-bremen",
+      "type_entite": "ville",
+      "nom": "Brême",
+      "aliases": [
+        "Bremen"
+      ],
+      "zone_geographique": "Allemagne",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "port_maritime",
+          "rail",
+          "industrie",
+          "commerce"
+        ],
+        "note": "Ville portuaire de la Weser, historiquement couplée à Bremerhaven.",
+        "sources": [
+          "src-bremenports"
+        ],
+        "source_role_a_renforcer": false
+      }
+    },
+    {
+      "entite_id": "ville-de-bremerhaven",
+      "type_entite": "ville",
+      "nom": "Bremerhaven",
+      "aliases": [],
+      "zone_geographique": "Allemagne",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "port_maritime",
+          "rail",
+          "commerce"
+        ],
+        "note": "Avant-port maritime profond de Brême à l'embouchure de la Weser.",
+        "sources": [
+          "src-bremenports"
+        ],
+        "source_role_a_renforcer": false
+      }
+    },
+    {
+      "entite_id": "ville-de-kiel",
+      "type_entite": "ville",
+      "nom": "Kiel",
+      "aliases": [],
+      "zone_geographique": "Allemagne",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "port_maritime",
+          "militaire",
+          "industrie_navale"
+        ],
+        "note": "Grand port militaire et chantier naval de la Baltique.",
+        "sources": [
+          "src-kiel-1945"
+        ],
+        "source_role_a_renforcer": false
+      }
+    },
+    {
+      "entite_id": "ville-de-luebeck",
+      "type_entite": "ville",
+      "nom": "Lübeck",
+      "aliases": [
+        "Lubeck"
+      ],
+      "zone_geographique": "Allemagne",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "port_maritime",
+          "commerce",
+          "rail"
+        ],
+        "note": "Port historique de la Baltique et tête des échanges avec la Scandinavie.",
+        "sources": [
+          "src-db-museum-history"
+        ],
+        "source_role_a_renforcer": true
+      }
+    },
+    {
+      "entite_id": "ville-de-hannover",
+      "type_entite": "ville",
+      "nom": "Hanovre",
+      "aliases": [
+        "Hannover"
+      ],
+      "zone_geographique": "Allemagne",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "rail",
+          "fret",
+          "industrie"
+        ],
+        "note": "Grand carrefour ferroviaire transversal et important centre de fret.",
+        "sources": [
+          "src-hannover-rail",
+          "src-hannover-freight"
+        ],
+        "source_role_a_renforcer": false
+      }
+    },
+    {
+      "entite_id": "ville-de-duisburg",
+      "type_entite": "ville",
+      "nom": "Duisbourg",
+      "aliases": [
+        "Duisburg"
+      ],
+      "zone_geographique": "Allemagne",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "port_fluvial",
+          "industrie",
+          "rail",
+          "charbon"
+        ],
+        "note": "Nœud Rhin–Ruhr, port fluvial et centre sidérurgique/charbonnier.",
+        "sources": [
+          "src-db-museum-history"
+        ],
+        "source_role_a_renforcer": true
+      }
+    },
+    {
+      "entite_id": "ville-de-essen",
+      "type_entite": "ville",
+      "nom": "Essen",
+      "aliases": [],
+      "zone_geographique": "Allemagne",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "industrie",
+          "charbon",
+          "rail",
+          "militaire"
+        ],
+        "note": "Cœur industriel de la Ruhr, marqué par Krupp et le charbon.",
+        "sources": [
+          "src-essen-industry",
+          "src-essen-krupp"
+        ],
+        "source_role_a_renforcer": false
+      }
+    },
+    {
+      "entite_id": "ville-de-dortmund",
+      "type_entite": "ville",
+      "nom": "Dortmund",
+      "aliases": [],
+      "zone_geographique": "Allemagne",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "rail",
+          "industrie",
+          "charbon",
+          "port_fluvial"
+        ],
+        "note": "Grand nœud ferroviaire de la Ruhr, charbon, acier et port-canal.",
+        "sources": [
+          "src-dortmund-rail",
+          "src-dortmund-port",
+          "src-dortmund-industry"
+        ],
+        "source_role_a_renforcer": false
+      }
+    },
+    {
+      "entite_id": "ville-de-koeln",
+      "type_entite": "ville",
+      "nom": "Cologne",
+      "aliases": [
+        "Köln",
+        "Koeln"
+      ],
+      "zone_geographique": "Allemagne",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "rail",
+          "port_fluvial",
+          "industrie"
+        ],
+        "note": "Grand nœud rhénan ferroviaire et fluvial.",
+        "sources": [
+          "src-db-museum-history"
+        ],
+        "source_role_a_renforcer": true
+      }
+    },
+    {
+      "entite_id": "ville-de-duesseldorf",
+      "type_entite": "ville",
+      "nom": "Düsseldorf",
+      "aliases": [
+        "Dusseldorf",
+        "Duesseldorf"
+      ],
+      "zone_geographique": "Allemagne",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "port_fluvial",
+          "industrie",
+          "rail"
+        ],
+        "note": "Centre rhénan industriel et ferroviaire.",
+        "sources": [
+          "src-db-museum-history"
+        ],
+        "source_role_a_renforcer": true
+      }
+    },
+    {
+      "entite_id": "ville-de-frankfurt",
+      "type_entite": "ville",
+      "nom": "Francfort-sur-le-Main",
+      "aliases": [
+        "Frankfurt am Main",
+        "Frankfurt"
+      ],
+      "zone_geographique": "Allemagne",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "rail",
+          "port_fluvial",
+          "aviation",
+          "commerce"
+        ],
+        "note": "Très grand nœud ferroviaire sur le Main, avec rôle aérien déjà établi avant-guerre.",
+        "sources": [
+          "src-frankfurt-hbf",
+          "src-frankfurt-station-district"
+        ],
+        "source_role_a_renforcer": false
+      }
+    },
+    {
+      "entite_id": "ville-de-mannheim",
+      "type_entite": "ville",
+      "nom": "Mannheim",
+      "aliases": [],
+      "zone_geographique": "Allemagne",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "port_fluvial",
+          "rail",
+          "industrie",
+          "commerce"
+        ],
+        "note": "Confluence Rhin–Neckar, grand port intérieur et nœud ferroviaire industriel.",
+        "sources": [
+          "src-mannheim-rheinhafen",
+          "src-mannheim-rail"
+        ],
+        "source_role_a_renforcer": false
+      }
+    },
+    {
+      "entite_id": "ville-de-stuttgart",
+      "type_entite": "ville",
+      "nom": "Stuttgart",
+      "aliases": [],
+      "zone_geographique": "Allemagne",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "rail",
+          "industrie",
+          "automobile"
+        ],
+        "note": "Grand centre industriel et ferroviaire du sud-ouest allemand.",
+        "sources": [
+          "src-db-museum-history"
+        ],
+        "source_role_a_renforcer": true
+      }
+    },
+    {
+      "entite_id": "ville-de-nuernberg",
+      "type_entite": "ville",
+      "nom": "Nuremberg",
+      "aliases": [
+        "Nürnberg",
+        "Nurnberg"
+      ],
+      "zone_geographique": "Allemagne",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "rail",
+          "industrie"
+        ],
+        "note": "Grand nœud ferroviaire bavarois et ville industrielle ; berceau historique du rail allemand.",
+        "sources": [
+          "src-db-museum-history"
+        ],
+        "source_role_a_renforcer": false
+      }
+    },
+    {
+      "entite_id": "ville-de-muenchen",
+      "type_entite": "ville",
+      "nom": "Munich",
+      "aliases": [
+        "München",
+        "Munchen"
+      ],
+      "zone_geographique": "Allemagne",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "rail",
+          "industrie",
+          "administration"
+        ],
+        "note": "Grande métropole bavaroise, carrefour ferroviaire et industriel.",
+        "sources": [
+          "src-db-museum-history"
+        ],
+        "source_role_a_renforcer": true
+      }
+    },
+    {
+      "entite_id": "ville-de-leipzig",
+      "type_entite": "ville",
+      "nom": "Leipzig",
+      "aliases": [],
+      "zone_geographique": "Allemagne",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "rail",
+          "commerce",
+          "industrie"
+        ],
+        "note": "Grand centre ferroviaire et commercial ; Hauptbahnhof ouvert en 1915.",
+        "sources": [
+          "src-leipzig-db-museum"
+        ],
+        "source_role_a_renforcer": false
+      }
+    },
+    {
+      "entite_id": "ville-de-dresden",
+      "type_entite": "ville",
+      "nom": "Dresde",
+      "aliases": [
+        "Dresden"
+      ],
+      "zone_geographique": "Allemagne",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "rail",
+          "industrie",
+          "elbe"
+        ],
+        "note": "Grande ville industrielle et ferroviaire de l'Elbe.",
+        "sources": [
+          "src-db-museum-history"
+        ],
+        "source_role_a_renforcer": true
+      }
+    },
+    {
+      "entite_id": "ville-de-magdeburg",
+      "type_entite": "ville",
+      "nom": "Magdebourg",
+      "aliases": [
+        "Magdeburg"
+      ],
+      "zone_geographique": "Allemagne",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "port_fluvial",
+          "rail",
+          "industrie"
+        ],
+        "note": "Port de l'Elbe et centre industriel ; installations portuaires majeures avant leur destruction en janvier 1945.",
+        "sources": [
+          "src-magdeburg-port"
+        ],
+        "source_role_a_renforcer": false
+      }
+    },
+    {
+      "entite_id": "ville-de-halle",
+      "type_entite": "ville",
+      "nom": "Halle (Saale)",
+      "aliases": [],
+      "zone_geographique": "Allemagne",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "rail",
+          "industrie",
+          "chimie"
+        ],
+        "note": "Nœud ferroviaire et industriel de l'Allemagne centrale.",
+        "sources": [
+          "src-db-museum-history"
+        ],
+        "source_role_a_renforcer": true
+      }
+    },
+    {
+      "entite_id": "ville-de-rostock",
+      "type_entite": "ville",
+      "nom": "Rostock",
+      "aliases": [],
+      "zone_geographique": "Allemagne",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "port_maritime",
+          "industrie_navale",
+          "aviation"
+        ],
+        "note": "Grand port baltique et centre industriel/aéronautique.",
+        "sources": [
+          "src-db-museum-history"
+        ],
+        "source_role_a_renforcer": true
+      }
+    },
+    {
+      "entite_id": "ville-de-wilhelmshaven",
+      "type_entite": "ville",
+      "nom": "Wilhelmshaven",
+      "aliases": [],
+      "zone_geographique": "Allemagne",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "port_maritime",
+          "militaire",
+          "industrie_navale"
+        ],
+        "note": "Grande base navale de la mer du Nord.",
+        "sources": [
+          "src-db-museum-history"
+        ],
+        "source_role_a_renforcer": true
+      }
+    },
+    {
+      "entite_id": "ville-de-saarbruecken",
+      "type_entite": "ville",
+      "nom": "Sarrebruck",
+      "aliases": [
+        "Saarbrücken",
+        "Saarbruecken"
+      ],
+      "zone_geographique": "Allemagne",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "rail",
+          "charbon",
+          "frontiere",
+          "industrie"
+        ],
+        "note": "Centre du bassin sarrois, ferroviaire, charbonnier et frontalier avec la France.",
+        "sources": [
+          "src-db-museum-history"
+        ],
+        "source_role_a_renforcer": true
+      }
+    },
+    {
+      "entite_id": "ville-de-chemnitz",
+      "type_entite": "ville",
+      "nom": "Chemnitz",
+      "aliases": [],
+      "zone_geographique": "Allemagne",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "industrie",
+          "rail",
+          "mecanique"
+        ],
+        "note": "Grand centre industriel de Saxe, fortement lié à la mécanique et au rail.",
+        "sources": [
+          "src-db-museum-history"
+        ],
+        "source_role_a_renforcer": true
+      }
+    },
+    {
+      "entite_id": "ville-de-kassel",
+      "type_entite": "ville",
+      "nom": "Cassel",
+      "aliases": [
+        "Kassel"
+      ],
+      "zone_geographique": "Allemagne",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "rail",
+          "industrie",
+          "militaire"
+        ],
+        "note": "Carrefour ferroviaire central et important centre industriel de guerre.",
+        "sources": [
+          "src-db-museum-history"
+        ],
+        "source_role_a_renforcer": true
+      }
+    },
+    {
+      "entite_id": "ville-de-karlsruhe",
+      "type_entite": "ville",
+      "nom": "Karlsruhe",
+      "aliases": [],
+      "zone_geographique": "Allemagne",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "C",
+        "roles": [
+          "rail",
+          "rhin",
+          "industrie"
+        ],
+        "note": "Nœud ferroviaire du Rhin supérieur, connecté vers France, Suisse et sud allemand.",
+        "sources": [
+          "src-db-museum-history"
+        ],
+        "source_role_a_renforcer": true
+      }
+    },
+    {
+      "entite_id": "ville-de-aachen",
+      "type_entite": "ville",
+      "nom": "Aix-la-Chapelle",
+      "aliases": [
+        "Aachen"
+      ],
+      "zone_geographique": "Allemagne",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "C",
+        "roles": [
+          "frontiere",
+          "rail",
+          "industrie",
+          "front"
+        ],
+        "note": "Ville-frontière ferroviaire vers Belgique/Pays-Bas, déjà occupée par les Alliés au Snapshot 0.",
+        "sources": [
+          "src-db-museum-history"
+        ],
+        "source_role_a_renforcer": true
+      }
+    },
+    {
+      "entite_id": "ville-de-koblenz",
+      "type_entite": "ville",
+      "nom": "Coblence",
+      "aliases": [
+        "Koblenz"
+      ],
+      "zone_geographique": "Allemagne",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "C",
+        "roles": [
+          "rail",
+          "port_fluvial",
+          "confluence"
+        ],
+        "note": "Confluence Rhin–Moselle et nœud ferroviaire régional.",
+        "sources": [
+          "src-db-museum-history"
+        ],
+        "source_role_a_renforcer": true
+      }
+    },
+    {
+      "entite_id": "ville-de-regensburg",
+      "type_entite": "ville",
+      "nom": "Ratisbonne",
+      "aliases": [
+        "Regensburg"
+      ],
+      "zone_geographique": "Allemagne",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "C",
+        "roles": [
+          "danube",
+          "rail",
+          "industrie"
+        ],
+        "note": "Port danubien et carrefour ferroviaire bavarois.",
+        "sources": [
+          "src-db-museum-history"
+        ],
+        "source_role_a_renforcer": true
+      }
+    },
+    {
+      "entite_id": "ville-de-passau",
+      "type_entite": "ville",
+      "nom": "Passau",
+      "aliases": [],
+      "zone_geographique": "Allemagne",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "C",
+        "roles": [
+          "danube",
+          "frontiere",
+          "rail",
+          "confluence"
+        ],
+        "note": "Ville de confluence du Danube à la frontière autrichienne, utile pour les flux fluviaux et terrestres.",
+        "sources": [
+          "src-db-museum-history"
+        ],
+        "source_role_a_renforcer": true
+      }
+    },
+    {
+      "entite_id": "ville-de-flensburg",
+      "type_entite": "ville",
+      "nom": "Flensbourg",
+      "aliases": [
+        "Flensburg"
+      ],
+      "zone_geographique": "Allemagne",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "C",
+        "roles": [
+          "port_maritime",
+          "frontiere",
+          "rail"
+        ],
+        "note": "Port et ville-frontière proche du Danemark.",
+        "sources": [
+          "src-db-museum-history"
+        ],
+        "source_role_a_renforcer": true
+      }
+    },
+    {
+      "entite_id": "ville-de-emden",
+      "type_entite": "ville",
+      "nom": "Emden",
+      "aliases": [],
+      "zone_geographique": "Allemagne",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "C",
+        "roles": [
+          "port_maritime",
+          "industrie",
+          "militaire"
+        ],
+        "note": "Port de la mer du Nord et nœud maritime régional.",
+        "sources": [
+          "src-db-museum-history"
+        ],
+        "source_role_a_renforcer": true
+      }
+    },
+    {
+      "entite_id": "ville-at-wien",
+      "type_entite": "ville",
+      "nom": "Vienne",
+      "aliases": [
+        "Wien",
+        "Vienna"
+      ],
+      "zone_geographique": "Autriche",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "A",
+        "roles": [
+          "capitale",
+          "rail",
+          "danube",
+          "industrie",
+          "administration"
+        ],
+        "note": "Capitale historique autrichienne, intégrée au Reich au Snapshot 0 ; grand nœud ferroviaire et danubien.",
+        "sources": [
+          "src-vienna-nazi-history"
+        ],
+        "source_role_a_renforcer": false
+      }
+    },
+    {
+      "entite_id": "ville-at-linz",
+      "type_entite": "ville",
+      "nom": "Linz",
+      "aliases": [],
+      "zone_geographique": "Autriche",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "danube",
+          "rail",
+          "industrie",
+          "militaire"
+        ],
+        "note": "Grand centre industriel du Danube, fortement lié à l'industrie lourde et d'armement en 1945.",
+        "sources": [
+          "src-linz-1938-1945"
+        ],
+        "source_role_a_renforcer": false
+      }
+    },
+    {
+      "entite_id": "ville-at-graz",
+      "type_entite": "ville",
+      "nom": "Graz",
+      "aliases": [],
+      "zone_geographique": "Autriche",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "rail",
+          "industrie",
+          "militaire"
+        ],
+        "note": "Grand centre industriel et ferroviaire de Styrie ; plusieurs grandes usines intégrées à l'économie de guerre.",
+        "sources": [
+          "src-graz-armaments",
+          "src-graz-rail-industry"
+        ],
+        "source_role_a_renforcer": false
+      }
+    },
+    {
+      "entite_id": "ville-at-salzburg",
+      "type_entite": "ville",
+      "nom": "Salzbourg",
+      "aliases": [
+        "Salzburg"
+      ],
+      "zone_geographique": "Autriche",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "rail",
+          "corridor_alpin"
+        ],
+        "note": "Carrefour ferroviaire vers Allemagne, Vienne et axe Tauern vers Villach.",
+        "sources": [
+          "src-oebb-tauern"
+        ],
+        "source_role_a_renforcer": true
+      }
+    },
+    {
+      "entite_id": "ville-at-innsbruck",
+      "type_entite": "ville",
+      "nom": "Innsbruck",
+      "aliases": [],
+      "zone_geographique": "Autriche",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "rail",
+          "corridor_alpin",
+          "brenner"
+        ],
+        "note": "Nœud transalpin majeur sur l'axe du Brenner et vers l'Arlberg.",
+        "sources": [
+          "src-oebb-arlberg"
+        ],
+        "source_role_a_renforcer": true
+      }
+    },
+    {
+      "entite_id": "ville-at-villach",
+      "type_entite": "ville",
+      "nom": "Villach",
+      "aliases": [],
+      "zone_geographique": "Autriche",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "rail",
+          "corridor_alpin",
+          "frontiere"
+        ],
+        "note": "Carrefour ferroviaire majeur des Alpes orientales vers Salzbourg, Italie et Balkans.",
+        "sources": [
+          "src-oebb-tauern"
+        ],
+        "source_role_a_renforcer": false
+      }
+    },
+    {
+      "entite_id": "ville-at-klagenfurt",
+      "type_entite": "ville",
+      "nom": "Klagenfurt",
+      "aliases": [],
+      "zone_geographique": "Autriche",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "C",
+        "roles": [
+          "rail",
+          "industrie"
+        ],
+        "note": "Nœud régional de Carinthie sur les axes ferroviaires vers Villach, Graz et Yougoslavie.",
+        "sources": [
+          "src-oebb-tauern"
+        ],
+        "source_role_a_renforcer": true
+      }
+    },
+    {
+      "entite_id": "ville-at-bregenz",
+      "type_entite": "ville",
+      "nom": "Bregenz",
+      "aliases": [],
+      "zone_geographique": "Autriche",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "C",
+        "roles": [
+          "rail",
+          "lac",
+          "frontiere"
+        ],
+        "note": "Ville du lac de Constance sur l'axe ferroviaire du Vorarlberg vers Suisse et Allemagne.",
+        "sources": [
+          "src-oebb-arlberg"
+        ],
+        "source_role_a_renforcer": false
+      }
+    },
+    {
+      "entite_id": "ville-at-feldkirch",
+      "type_entite": "ville",
+      "nom": "Feldkirch",
+      "aliases": [],
+      "zone_geographique": "Autriche",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "C",
+        "roles": [
+          "rail",
+          "frontiere",
+          "corridor_suisse"
+        ],
+        "note": "Nœud ferroviaire frontalier du Vorarlberg vers Liechtenstein et Suisse.",
+        "sources": [
+          "src-oebb-arlberg"
+        ],
+        "source_role_a_renforcer": false
+      }
+    },
+    {
+      "entite_id": "ville-at-wels",
+      "type_entite": "ville",
+      "nom": "Wels",
+      "aliases": [],
+      "zone_geographique": "Autriche",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "C",
+        "roles": [
+          "rail",
+          "noeud_interieur"
+        ],
+        "note": "Carrefour ferroviaire de Haute-Autriche entre Vienne, Linz, Salzbourg et Passau.",
+        "sources": [
+          "src-db-museum-history"
+        ],
+        "source_role_a_renforcer": true
+      }
+    },
+    {
+      "entite_id": "ville-at-steyr",
+      "type_entite": "ville",
+      "nom": "Steyr",
+      "aliases": [],
+      "zone_geographique": "Autriche",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "C",
+        "roles": [
+          "industrie",
+          "militaire",
+          "mecanique"
+        ],
+        "note": "Important centre métallurgique et mécanique, associé aux productions Steyr-Daimler-Puch.",
+        "sources": [
+          "src-steyr-history"
+        ],
+        "source_role_a_renforcer": true
+      }
+    },
+    {
+      "entite_id": "ville-at-wiener-neustadt",
+      "type_entite": "ville",
+      "nom": "Wiener Neustadt",
+      "aliases": [],
+      "zone_geographique": "Autriche",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "C",
+        "roles": [
+          "rail",
+          "industrie",
+          "aviation",
+          "militaire"
+        ],
+        "note": "Centre industriel et aéronautique au sud de Vienne.",
+        "sources": [
+          "src-vienna-nazi-history"
+        ],
+        "source_role_a_renforcer": true
+      }
+    },
+    {
+      "entite_id": "ville-at-st-poelten",
+      "type_entite": "ville",
+      "nom": "Sankt Pölten",
+      "aliases": [
+        "St. Pölten",
+        "St Poelten"
+      ],
+      "zone_geographique": "Autriche",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "C",
+        "roles": [
+          "rail",
+          "industrie"
+        ],
+        "note": "Nœud ferroviaire de Basse-Autriche sur l'axe Vienne–Linz.",
+        "sources": [
+          "src-db-museum-history"
+        ],
+        "source_role_a_renforcer": true
+      }
+    },
+    {
+      "entite_id": "ville-ch-bern",
+      "type_entite": "ville",
+      "nom": "Berne",
+      "aliases": [
+        "Bern"
+      ],
+      "zone_geographique": "Suisse",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "A",
+        "roles": [
+          "capitale",
+          "rail",
+          "administration"
+        ],
+        "note": "Capitale fédérale et point majeur du réseau ferroviaire suisse.",
+        "sources": [
+          "src-sbb-history"
+        ],
+        "source_role_a_renforcer": false
+      }
+    },
+    {
+      "entite_id": "ville-ch-zuerich",
+      "type_entite": "ville",
+      "nom": "Zurich",
+      "aliases": [
+        "Zürich",
+        "Zuerich"
+      ],
+      "zone_geographique": "Suisse",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "rail",
+          "industrie",
+          "commerce",
+          "fret"
+        ],
+        "note": "Principal nœud ferroviaire suisse et grand centre industriel/commercial.",
+        "sources": [
+          "src-zurich-rail",
+          "src-zurich-freight"
+        ],
+        "source_role_a_renforcer": false
+      }
+    },
+    {
+      "entite_id": "ville-ch-basel",
+      "type_entite": "ville",
+      "nom": "Bâle",
+      "aliases": [
+        "Basel"
+      ],
+      "zone_geographique": "Suisse",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "port_fluvial",
+          "rail",
+          "frontiere",
+          "commerce"
+        ],
+        "note": "Grand nœud frontalier et port rhénan, interface entre Suisse, France et Allemagne.",
+        "sources": [
+          "src-swiss-rhine-port",
+          "src-sbb-history"
+        ],
+        "source_role_a_renforcer": false
+      }
+    },
+    {
+      "entite_id": "ville-ch-geneve",
+      "type_entite": "ville",
+      "nom": "Genève",
+      "aliases": [
+        "Geneva"
+      ],
+      "zone_geographique": "Suisse",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "rail",
+          "frontiere",
+          "aviation",
+          "commerce"
+        ],
+        "note": "Grande ville-frontière reliée au réseau national et aux flux internationaux.",
+        "sources": [
+          "src-sbb-history"
+        ],
+        "source_role_a_renforcer": true
+      }
+    },
+    {
+      "entite_id": "ville-ch-lausanne",
+      "type_entite": "ville",
+      "nom": "Lausanne",
+      "aliases": [],
+      "zone_geographique": "Suisse",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "rail",
+          "corridor_simplon",
+          "fret"
+        ],
+        "note": "Nœud ferroviaire majeur de Suisse romande, relié directement à l'Italie par le Simplon.",
+        "sources": [
+          "src-lausanne-station",
+          "src-lausanne-simplon"
+        ],
+        "source_role_a_renforcer": false
+      }
+    },
+    {
+      "entite_id": "ville-ch-olten",
+      "type_entite": "ville",
+      "nom": "Olten",
+      "aliases": [],
+      "zone_geographique": "Suisse",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "rail",
+          "fret",
+          "noeud_interieur"
+        ],
+        "note": "Nœud ferroviaire central dont la croissance urbaine est directement liée au rail.",
+        "sources": [
+          "src-olten-rail"
+        ],
+        "source_role_a_renforcer": false
+      }
+    },
+    {
+      "entite_id": "ville-ch-luzern",
+      "type_entite": "ville",
+      "nom": "Lucerne",
+      "aliases": [
+        "Luzern"
+      ],
+      "zone_geographique": "Suisse",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "C",
+        "roles": [
+          "rail",
+          "lac",
+          "corridor_alpin"
+        ],
+        "note": "Nœud de correspondance rail/lac sur les approches du Gothard.",
+        "sources": [
+          "src-gotthard-history"
+        ],
+        "source_role_a_renforcer": true
+      }
+    },
+    {
+      "entite_id": "ville-ch-winterthur",
+      "type_entite": "ville",
+      "nom": "Winterthour",
+      "aliases": [
+        "Winterthur"
+      ],
+      "zone_geographique": "Suisse",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "C",
+        "roles": [
+          "rail",
+          "industrie",
+          "mecanique"
+        ],
+        "note": "Grande ville industrielle et ferroviaire, notamment liée à la construction mécanique et locomotive.",
+        "sources": [
+          "src-winterthur-history",
+          "src-winterthur-locomotive"
+        ],
+        "source_role_a_renforcer": false
+      }
+    },
+    {
+      "entite_id": "ville-ch-st-gallen",
+      "type_entite": "ville",
+      "nom": "Saint-Gall",
+      "aliases": [
+        "St. Gallen",
+        "Sankt Gallen"
+      ],
+      "zone_geographique": "Suisse",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "C",
+        "roles": [
+          "rail",
+          "industrie",
+          "commerce"
+        ],
+        "note": "Centre industriel et ferroviaire de Suisse orientale.",
+        "sources": [
+          "src-sbb-history"
+        ],
+        "source_role_a_renforcer": true
+      }
+    },
+    {
+      "entite_id": "ville-ch-schaffhausen",
+      "type_entite": "ville",
+      "nom": "Schaffhouse",
+      "aliases": [
+        "Schaffhausen"
+      ],
+      "zone_geographique": "Suisse",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "C",
+        "roles": [
+          "rail",
+          "frontiere",
+          "rhin"
+        ],
+        "note": "Ville-frontière du Rhin, pertinente pour les flux ferroviaires et transfrontaliers.",
+        "sources": [
+          "src-sbb-history"
+        ],
+        "source_role_a_renforcer": true
+      }
+    },
+    {
+      "entite_id": "ville-ch-chiasso",
+      "type_entite": "ville",
+      "nom": "Chiasso",
+      "aliases": [],
+      "zone_geographique": "Suisse",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "C",
+        "roles": [
+          "rail",
+          "frontiere",
+          "corridor_italie"
+        ],
+        "note": "Grand point-frontière ferroviaire vers l'Italie.",
+        "sources": [
+          "src-sbb-history"
+        ],
+        "source_role_a_renforcer": true
+      }
+    },
+    {
+      "entite_id": "ville-ch-bellinzona",
+      "type_entite": "ville",
+      "nom": "Bellinzone",
+      "aliases": [
+        "Bellinzona"
+      ],
+      "zone_geographique": "Suisse",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "C",
+        "roles": [
+          "rail",
+          "corridor_gothard"
+        ],
+        "note": "Nœud ferroviaire au débouché sud du Gothard.",
+        "sources": [
+          "src-gotthard-history"
+        ],
+        "source_role_a_renforcer": false
+      }
+    },
+    {
+      "entite_id": "ville-ch-brig",
+      "type_entite": "ville",
+      "nom": "Brigue",
+      "aliases": [
+        "Brig"
+      ],
+      "zone_geographique": "Suisse",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "C",
+        "roles": [
+          "rail",
+          "corridor_simplon",
+          "frontiere"
+        ],
+        "note": "Nœud ferroviaire alpin à l'entrée suisse du Simplon.",
+        "sources": [
+          "src-lausanne-simplon"
+        ],
+        "source_role_a_renforcer": false
+      }
+    },
+    {
+      "entite_id": "ville-ch-buchs",
+      "type_entite": "ville",
+      "nom": "Buchs SG",
+      "aliases": [],
+      "zone_geographique": "Suisse",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "C",
+        "roles": [
+          "rail",
+          "frontiere",
+          "corridor_autriche"
+        ],
+        "note": "Point ferroviaire frontalier vers Liechtenstein et Autriche.",
+        "sources": [
+          "src-sbb-history",
+          "src-oebb-arlberg"
+        ],
+        "source_role_a_renforcer": true
+      }
+    },
+    {
+      "entite_id": "ville-ch-romanshorn",
+      "type_entite": "ville",
+      "nom": "Romanshorn",
+      "aliases": [],
+      "zone_geographique": "Suisse",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "C",
+        "roles": [
+          "rail",
+          "port_lacustre",
+          "ferry"
+        ],
+        "note": "Port ferroviaire du lac de Constance et point de liaison vers l'Allemagne.",
+        "sources": [
+          "src-sbb-history"
+        ],
+        "source_role_a_renforcer": true
+      }
+    },
+    {
+      "entite_id": "ville-ch-vallorbe",
+      "type_entite": "ville",
+      "nom": "Vallorbe",
+      "aliases": [],
+      "zone_geographique": "Suisse",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "C",
+        "roles": [
+          "rail",
+          "frontiere",
+          "corridor_france"
+        ],
+        "note": "Point-frontière ferroviaire du Jura vers la France.",
+        "sources": [
+          "src-sbb-history"
+        ],
+        "source_role_a_renforcer": true
+      }
+    },
+    {
+      "entite_id": "ville-li-vaduz",
+      "type_entite": "ville",
+      "nom": "Vaduz",
+      "aliases": [],
+      "zone_geographique": "Liechtenstein",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "A",
+        "roles": [
+          "capitale",
+          "administration"
+        ],
+        "note": "Capitale du Liechtenstein ; affichée comme capitale malgré son rôle de flux limité.",
+        "sources": [],
+        "source_role_a_renforcer": true
+      }
+    },
+    {
+      "entite_id": "ville-li-schaan",
+      "type_entite": "ville",
+      "nom": "Schaan",
+      "aliases": [],
+      "zone_geographique": "Liechtenstein",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "C",
+        "roles": [
+          "rail",
+          "corridor_autriche_suisse"
+        ],
+        "note": "Localité traversée par la ligne Feldkirch–Buchs, utile au corridor Autriche–Liechtenstein–Suisse.",
+        "sources": [
+          "src-oebb-arlberg"
+        ],
+        "source_role_a_renforcer": true
+      }
+    }
+  ],
+  "audit_recommande": [
+    "Renforcer les sources locales de toutes les villes marquées source_role_a_renforcer=true.",
+    "Vérifier le niveau B/C de Karlsruhe, Wels, St. Pölten, Steyr, Lucerne et Schaan.",
+    "Fournir une source officielle pour Vaduz comme capitale.",
+    "Audit transversal ports / Rhin-Danube / rail / industrie / frontières / bases navales."
+  ],
+  "exclusions_volontaires": [
+    {
+      "nom": "Wrocław/Breslau",
+      "raison": "traitement dans le lot géographique Pologne malgré statut allemand au Snapshot 0"
+    },
+    {
+      "nom": "Szczecin/Stettin",
+      "raison": "lot Pologne/Baltique"
+    },
+    {
+      "nom": "Kaliningrad/Königsberg",
+      "raison": "lot Baltique/Est"
+    },
+    {
+      "nom": "Gdańsk/Danzig",
+      "raison": "lot Pologne/Baltique avec noms/statuts temporels"
+    }
+  ]
+}

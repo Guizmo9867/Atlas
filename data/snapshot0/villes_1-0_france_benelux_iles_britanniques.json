@@ -1,0 +1,3342 @@
+{
+  "metadata_lot": {
+    "nom": "snapshot0_villes_1-0_france_benelux_iles_britanniques",
+    "date_reference": "1945-01-01",
+    "heure_reference": "00:00",
+    "version": "0.3",
+    "statut": "integre_par_claude",
+    "gabarit_source": "gabarits/gabarit_entite_temporelle_atlas.json",
+    "regles": [
+      "importance_atlas A/B/C/D = priorité d'affichage automatique selon le zoom, jamais un calque à cocher",
+      "A : capitales (zoom continental) ; B : grandes villes structurantes (zoom national) ; C : nœuds régionaux ; D : micro-histoire",
+      "une ville ne porte ni souveraineté ni contrôle : elle prend ceux du territoire où elle se trouve, à la date affichée",
+      "valid_from inconnu = ville déjà en place avant le début de l'Atlas ; un changement d'importance, de nom ou de rôle = un nouvel état daté",
+      "une ville n'entre dans l'Atlas qu'à partir du moment où elle compte pour les flux (Reims : février 1945) ; elle peut en sortir ou redescendre de priorité par un nouvel état (Guizmo, 30/09)",
+      "nom = nom français traditionnel quand il existe réellement ; nom_local = nom sur place ; aliases = autres noms pour la recherche (validé par Ether le 30/09)",
+      "sources des rôles : par famille et par pays quand une source couvre plusieurs villes ; source propre pour un rôle particulier ou contestable (QG SHAEF, principale base navale…)"
+    ],
+    "integration": {
+      "date": "2026-09-30",
+      "par": "Claude",
+      "corrections": [
+        "Liste, rôles et priorités : proposition d'Ether (ratissage villes 1.0). Rôles notés en mots-clés (roles) + la phrase d'Ether en note ; rôles à sourcer.",
+        "Coordonnées : Wikidata (CC0), QID en locator de la source ; Charleroi : Natural Earth.",
+        "Noms français pour l'affichage (Douvres, Édimbourg, Flessingue, Nimègue, La Haye…), nom local conservé.",
+        "« Zeebruges / Bruges » : les deux, séparés (Ether, 30/09). Zeebruges deviendra une entité port quand la couche infrastructures arrivera.",
+        "v0.3 (30/09) : sources des rôles ajoutées (delta d'Ether vérifié) pour Versailles, Den Helder, Bruges, Zeebruges, Lorient, La Rochelle, Royan, Saint-Nazaire.",
+        "v0.2 (30/09) : 12 villes ajoutées après l'audit d'Ether (Bruges, Lorient, La Rochelle, Royan, Toulon, Versailles, Den Helder, Groningue, Londonderry, Leeds, Sheffield, Aberdeen) ; Reims retirée : elle entre au ratissage de février 1945 (Guizmo). Quand Ether hésite (« C/B »), la première lettre est retenue."
+      ]
+    }
+  },
+  "entites": [
+    {
+      "entite_id": "ville-fr-paris",
+      "type_entite": "ville",
+      "nom": "Paris",
+      "nom_court": "Paris",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "A",
+            "capitale": "nationale",
+            "roles": [
+              "capitale",
+              "rail",
+              "port_fluvial",
+              "administration",
+              "aviation"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.0) : capitale, rail national, Seine, administration, aviation. Rôles à sourcer."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              2.3522,
+              48.8567
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q90",
+              "usage": "position (coordonnées)"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-fr-marseille",
+      "type_entite": "ville",
+      "nom": "Marseille",
+      "nom_court": "Marseille",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "B",
+            "roles": [
+              "port_maritime",
+              "rail"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.0) : premier grand port méditerranéen français, Afrique/Méditerranée, rail Rhône. Rôles à sourcer."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              5.3764,
+              43.2967
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q23482",
+              "usage": "position (coordonnées)"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-fr-lyon",
+      "type_entite": "ville",
+      "nom": "Lyon",
+      "nom_court": "Lyon",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "B",
+            "roles": [
+              "rail",
+              "port_fluvial",
+              "industrie"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.0) : carrefour Rhône-Saône, rail, industrie, axe Paris-Méditerranée. Rôles à sourcer."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              4.835,
+              45.7675
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q456",
+              "usage": "position (coordonnées)"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-fr-lille",
+      "type_entite": "ville",
+      "nom": "Lille",
+      "nom_court": "Lille",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "B",
+            "roles": [
+              "rail",
+              "industrie",
+              "frontalier",
+              "charbon"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.0) : rail, industrie, Belgique, bassin minier, grands axes nord-européens. Rôles à sourcer."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              3.0575,
+              50.6319
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q648",
+              "usage": "position (coordonnées)"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-fr-strasbourg",
+      "type_entite": "ville",
+      "nom": "Strasbourg",
+      "nom_court": "Strasbourg",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "B",
+            "roles": [
+              "port_fluvial",
+              "rail",
+              "frontalier"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.0) : Rhin, Allemagne, rail, frontière mouvante, port fluvial. Rôles à sourcer."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              7.7522,
+              48.5733
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q6602",
+              "usage": "position (coordonnées)"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-fr-lehavre",
+      "type_entite": "ville",
+      "nom": "Le Havre",
+      "nom_court": "Le Havre",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "B",
+            "roles": [
+              "port_maritime",
+              "transatlantique",
+              "port_fluvial"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.0) : port océanique, Seine, transatlantique. Rôles à sourcer."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              0.1081,
+              49.4942
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q42810",
+              "usage": "position (coordonnées)"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-fr-bordeaux",
+      "type_entite": "ville",
+      "nom": "Bordeaux",
+      "nom_court": "Bordeaux",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "B",
+            "roles": [
+              "port_maritime",
+              "rail"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.0) : grand port atlantique, Garonne, rail vers Espagne et Paris. Rôles à sourcer."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              -0.5794,
+              44.8378
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q1479",
+              "usage": "position (coordonnées)"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-fr-nantes",
+      "type_entite": "ville",
+      "nom": "Nantes",
+      "nom_court": "Nantes",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "B",
+            "roles": [
+              "port_maritime",
+              "port_fluvial",
+              "industrie"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.0) : Loire, port, industrie, axe atlantique. Rôles à sourcer."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              -1.5539,
+              47.2172
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q12191",
+              "usage": "position (coordonnées)"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-fr-saintnazaire",
+      "type_entite": "ville",
+      "nom": "Saint-Nazaire",
+      "nom_court": "Saint-Nazaire",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "B",
+            "roles": [
+              "port_maritime",
+              "construction_navale"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.0) : port en eau profonde, construction navale, embouchure de Loire. Rôles à sourcer."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              -2.2139,
+              47.2736
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q152027",
+              "usage": "position (coordonnées)"
+            },
+            {
+              "source_id": "src-shd-poches-atlantique-1945",
+              "locator": "dossiers 1 à 3",
+              "usage": "poche allemande encore active en 1945"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-fr-dunkerque",
+      "type_entite": "ville",
+      "nom": "Dunkerque",
+      "nom_court": "Dunkerque",
+      "aliases": [
+        "Dunkirk"
+      ],
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "B",
+            "roles": [
+              "port_maritime",
+              "industrie",
+              "frontalier"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.0) : port, Belgique, mer du Nord, industrie. Rôles à sourcer."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              2.3764,
+              51.0378
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q45797",
+              "usage": "position (coordonnées)"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-fr-calais",
+      "type_entite": "ville",
+      "nom": "Calais",
+      "nom_court": "Calais",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "B",
+            "roles": [
+              "port_maritime",
+              "ferry",
+              "detroit"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.0) : détroit, ferries, Royaume-Uni, frontière maritime. Rôles à sourcer."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              1.8556,
+              50.9475
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q6454",
+              "usage": "position (coordonnées)"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-fr-rouen",
+      "type_entite": "ville",
+      "nom": "Rouen",
+      "nom_court": "Rouen",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "C",
+            "roles": [
+              "port_fluvial",
+              "port_maritime"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.0) : port fluvial-maritime de la Seine, axe Paris-Manche. Rôles à sourcer."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              1.1025,
+              49.4431
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q30974",
+              "usage": "position (coordonnées)"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-fr-cherbourg",
+      "type_entite": "ville",
+      "nom": "Cherbourg",
+      "nom_court": "Cherbourg",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "C",
+            "roles": [
+              "base_navale",
+              "port_maritime",
+              "transatlantique"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.0) : port militaire et transatlantique, Manche. Rôles à sourcer."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              -1.6,
+              49.6333
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q3667188",
+              "usage": "position (coordonnées)"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-fr-brest",
+      "type_entite": "ville",
+      "nom": "Brest",
+      "nom_court": "Brest",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "C",
+            "roles": [
+              "base_navale",
+              "port_maritime"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.0) : arsenal, Atlantique, marine. Rôles à sourcer."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              -4.4861,
+              48.3906
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q12193",
+              "usage": "position (coordonnées)"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-fr-metz",
+      "type_entite": "ville",
+      "nom": "Metz",
+      "nom_court": "Metz",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "C",
+            "roles": [
+              "rail",
+              "industrie",
+              "frontalier"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.0) : rail, Lorraine industrielle, Allemagne/Luxembourg. Rôles à sourcer."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              6.1769,
+              49.1197
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q22690",
+              "usage": "position (coordonnées)"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-fr-mulhouse",
+      "type_entite": "ville",
+      "nom": "Mulhouse",
+      "nom_court": "Mulhouse",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "C",
+            "roles": [
+              "industrie",
+              "rail",
+              "frontalier"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.0) : industrie, rail, Rhin, Allemagne/Suisse. Rôles à sourcer."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              7.3392,
+              47.7486
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q79815",
+              "usage": "position (coordonnées)"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-fr-toulouse",
+      "type_entite": "ville",
+      "nom": "Toulouse",
+      "nom_court": "Toulouse",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "C",
+            "roles": [
+              "aviation",
+              "industrie"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.0) : aviation, industrie, axe sud-ouest. Rôles à sourcer."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              1.4433,
+              43.6044
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q7880",
+              "usage": "position (coordonnées)"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-be-bruxelles",
+      "type_entite": "ville",
+      "nom": "Bruxelles",
+      "nom_court": "Bruxelles",
+      "aliases": [
+        "Brussel",
+        "Brussels"
+      ],
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "nom_local": "Brussel",
+            "importance_atlas": "A",
+            "capitale": "nationale",
+            "roles": [
+              "capitale",
+              "rail"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.0) : capitale, nœud ferroviaire national. Rôles à sourcer."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              4.3517,
+              50.8467
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q239",
+              "usage": "position (coordonnées)"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-be-anvers",
+      "type_entite": "ville",
+      "nom": "Anvers",
+      "nom_court": "Anvers",
+      "aliases": [
+        "Antwerpen",
+        "Antwerp"
+      ],
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "nom_local": "Antwerpen",
+            "importance_atlas": "B",
+            "roles": [
+              "port_maritime",
+              "industrie"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.0) : port majeur européen, Escaut, industrie, hinterland allemand. Rôles à sourcer."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              4.3997,
+              51.2211
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q12892",
+              "usage": "position (coordonnées)"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-be-liege",
+      "type_entite": "ville",
+      "nom": "Liège",
+      "nom_court": "Liège",
+      "aliases": [
+        "Luik"
+      ],
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "nom_local": "Luik",
+            "importance_atlas": "B",
+            "roles": [
+              "port_fluvial",
+              "siderurgie",
+              "rail",
+              "frontalier"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.0) : Meuse, sidérurgie, rail, Allemagne/Pays-Bas. Rôles à sourcer."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              5.5706,
+              50.6397
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q3992",
+              "usage": "position (coordonnées)"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-be-gand",
+      "type_entite": "ville",
+      "nom": "Gand",
+      "nom_court": "Gand",
+      "aliases": [
+        "Gent",
+        "Ghent"
+      ],
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "nom_local": "Gent",
+            "importance_atlas": "B",
+            "roles": [
+              "port_maritime",
+              "industrie"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.0) : port et industrie, canal Gand-Terneuzen. Rôles à sourcer."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              3.7253,
+              51.0536
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q1296",
+              "usage": "position (coordonnées)"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-be-charleroi",
+      "type_entite": "ville",
+      "nom": "Charleroi",
+      "nom_court": "Charleroi",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "B",
+            "roles": [
+              "industrie",
+              "charbon",
+              "rail"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.0) : industrie lourde, bassin charbonnier, rail. Rôles à sourcer."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              4.45,
+              50.4104
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-natural-earth-populated-places",
+              "locator": "Charleroi",
+              "usage": "position (coordonnées)"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-be-ostende",
+      "type_entite": "ville",
+      "nom": "Ostende",
+      "nom_court": "Ostende",
+      "aliases": [
+        "Oostende",
+        "Ostend"
+      ],
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "nom_local": "Oostende",
+            "importance_atlas": "C",
+            "roles": [
+              "port_maritime",
+              "ferry"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.0) : port et liaisons maritimes vers le Royaume-Uni. Rôles à sourcer."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              2.9194,
+              51.2258
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q12996",
+              "usage": "position (coordonnées)"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-be-zeebruges",
+      "type_entite": "ville",
+      "nom": "Zeebruges",
+      "nom_court": "Zeebruges",
+      "aliases": [
+        "Zeebrugge"
+      ],
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "nom_local": "Zeebrugge",
+            "importance_atlas": "C",
+            "roles": [
+              "port_maritime"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.0) : port maritime, mer du Nord. Rôles à sourcer."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              3.2075,
+              51.3308
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q184383",
+              "usage": "position (coordonnées)"
+            },
+            {
+              "source_id": "src-port-antwerp-bruges-zeebrugge-history",
+              "locator": "page d'histoire du port",
+              "usage": "rôle : port maritime"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-be-namur",
+      "type_entite": "ville",
+      "nom": "Namur",
+      "nom_court": "Namur",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "C",
+            "roles": [
+              "rail",
+              "port_fluvial"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.0) : confluence Sambre-Meuse, rail. Rôles à sourcer."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              4.8667,
+              50.4667
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q134121",
+              "usage": "position (coordonnées)"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-lu-luxembourg",
+      "type_entite": "ville",
+      "nom": "Luxembourg",
+      "nom_court": "Luxembourg",
+      "aliases": [
+        "Lëtzebuerg"
+      ],
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "nom_local": "Lëtzebuerg",
+            "importance_atlas": "A",
+            "capitale": "nationale",
+            "roles": [
+              "capitale",
+              "rail",
+              "frontalier"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.0) : capitale, rail, carrefour France-Belgique-Allemagne. Rôles à sourcer."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              6.13,
+              49.6114
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q1842",
+              "usage": "position (coordonnées)"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-lu-eschsuralzette",
+      "type_entite": "ville",
+      "nom": "Esch-sur-Alzette",
+      "nom_court": "Esch-sur-Alzette",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "B",
+            "roles": [
+              "siderurgie",
+              "industrie",
+              "frontalier"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.0) : sidérurgie et bassin industriel transfrontalier. Rôles à sourcer."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              5.9806,
+              49.4969
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q16010",
+              "usage": "position (coordonnées)"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-nl-amsterdam",
+      "type_entite": "ville",
+      "nom": "Amsterdam",
+      "nom_court": "Amsterdam",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "A",
+            "capitale": "nationale",
+            "roles": [
+              "capitale",
+              "port_maritime",
+              "rail"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.0) : capitale, port, canaux, rail. Rôles à sourcer."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              4.8833,
+              52.3667
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q727",
+              "usage": "position (coordonnées)"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-nl-rotterdam",
+      "type_entite": "ville",
+      "nom": "Rotterdam",
+      "nom_court": "Rotterdam",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "B",
+            "roles": [
+              "port_maritime",
+              "port_fluvial"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.0) : port du Rhin-Meuse, immense rôle continental (Ether : « B, presque A »). Rôles à sourcer."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              4.48,
+              51.92
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q34370",
+              "usage": "position (coordonnées)"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-nl-lahaye",
+      "type_entite": "ville",
+      "nom": "La Haye",
+      "nom_court": "La Haye",
+      "aliases": [
+        "'s-Gravenhage",
+        "The Hague",
+        "Den Haag"
+      ],
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "nom_local": "'s-Gravenhage",
+            "importance_atlas": "B",
+            "roles": [
+              "administration"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.0) : siège du gouvernement, administration, côte. Rôles à sourcer."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              4.31,
+              52.08
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q36600",
+              "usage": "position (coordonnées)"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-nl-utrecht",
+      "type_entite": "ville",
+      "nom": "Utrecht",
+      "nom_court": "Utrecht",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "B",
+            "roles": [
+              "rail"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.0) : principal nœud ferroviaire intérieur. Rôles à sourcer."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              5.1217,
+              52.0908
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q803",
+              "usage": "position (coordonnées)"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-nl-eindhoven",
+      "type_entite": "ville",
+      "nom": "Eindhoven",
+      "nom_court": "Eindhoven",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "B",
+            "roles": [
+              "industrie"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.0) : industrie et axe sud. Rôles à sourcer."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              5.4842,
+              51.4344
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q9832",
+              "usage": "position (coordonnées)"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-nl-arnhem",
+      "type_entite": "ville",
+      "nom": "Arnhem",
+      "nom_court": "Arnhem",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "C",
+            "roles": [
+              "port_fluvial",
+              "rail",
+              "frontalier"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.0) : Rhin, Allemagne, rail. Rôles à sourcer."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              5.9167,
+              51.9833
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q1310",
+              "usage": "position (coordonnées)"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-nl-nimegue",
+      "type_entite": "ville",
+      "nom": "Nimègue",
+      "nom_court": "Nimègue",
+      "aliases": [
+        "Nijmegen"
+      ],
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "nom_local": "Nijmegen",
+            "importance_atlas": "C",
+            "roles": [
+              "port_fluvial",
+              "rail",
+              "frontalier"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.0) : Waal/Rhin, Allemagne, rail. Rôles à sourcer."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              5.8625,
+              51.8475
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q47887",
+              "usage": "position (coordonnées)"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-nl-maastricht",
+      "type_entite": "ville",
+      "nom": "Maastricht",
+      "nom_court": "Maastricht",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "C",
+            "roles": [
+              "port_fluvial",
+              "frontalier",
+              "industrie"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.0) : Meuse, Belgique/Allemagne, industrie. Rôles à sourcer."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              5.6833,
+              50.8667
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q1309",
+              "usage": "position (coordonnées)"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-nl-flessingue",
+      "type_entite": "ville",
+      "nom": "Flessingue",
+      "nom_court": "Flessingue",
+      "aliases": [
+        "Vlissingen"
+      ],
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "nom_local": "Vlissingen",
+            "importance_atlas": "C",
+            "roles": [
+              "port_maritime"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.0) : Escaut, port maritime. Rôles à sourcer."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              3.5833,
+              51.45
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q10084",
+              "usage": "position (coordonnées)"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-nl-ijmuiden",
+      "type_entite": "ville",
+      "nom": "IJmuiden",
+      "nom_court": "IJmuiden",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "C",
+            "roles": [
+              "port_maritime",
+              "siderurgie"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.0) : accès maritime d'Amsterdam, port, sidérurgie. Rôles à sourcer."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              4.6194,
+              52.4586
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q282461",
+              "usage": "position (coordonnées)"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-gb-londres",
+      "type_entite": "ville",
+      "nom": "Londres",
+      "nom_court": "Londres",
+      "aliases": [
+        "London"
+      ],
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "nom_local": "London",
+            "importance_atlas": "A",
+            "capitale": "nationale",
+            "roles": [
+              "capitale",
+              "port_maritime",
+              "rail",
+              "aviation"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.0) : capitale, Tamise, rail, port, aviation, centre impérial. Rôles à sourcer."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              -0.1275,
+              51.5072
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q84",
+              "usage": "position (coordonnées)"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-gb-liverpool",
+      "type_entite": "ville",
+      "nom": "Liverpool",
+      "nom_court": "Liverpool",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "B",
+            "roles": [
+              "port_maritime",
+              "industrie",
+              "transatlantique"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.0) : grand port atlantique, industrie, migrations. Rôles à sourcer."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              -2.9917,
+              53.4072
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q24826",
+              "usage": "position (coordonnées)"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-gb-manchester",
+      "type_entite": "ville",
+      "nom": "Manchester",
+      "nom_court": "Manchester",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "B",
+            "roles": [
+              "industrie",
+              "rail"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.0) : industrie, canal maritime, rail. Rôles à sourcer."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              -2.2453,
+              53.4794
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q18125",
+              "usage": "position (coordonnées)"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-gb-birmingham",
+      "type_entite": "ville",
+      "nom": "Birmingham",
+      "nom_court": "Birmingham",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "B",
+            "roles": [
+              "industrie",
+              "rail"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.0) : industrie et immense nœud ferroviaire intérieur. Rôles à sourcer."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              -1.9025,
+              52.48
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q2256",
+              "usage": "position (coordonnées)"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-gb-glasgow",
+      "type_entite": "ville",
+      "nom": "Glasgow",
+      "nom_court": "Glasgow",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "B",
+            "roles": [
+              "port_maritime",
+              "construction_navale",
+              "industrie"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.0) : Clyde, construction navale, industrie. Rôles à sourcer."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              -4.25,
+              55.8611
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q4093",
+              "usage": "position (coordonnées)"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-gb-edimbourg",
+      "type_entite": "ville",
+      "nom": "Édimbourg",
+      "nom_court": "Édimbourg",
+      "aliases": [
+        "Edinburgh"
+      ],
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "nom_local": "Edinburgh",
+            "importance_atlas": "B",
+            "capitale": "regionale",
+            "roles": [
+              "rail",
+              "administration"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.0) : capitale écossaise, rail, Firth of Forth. Rôles à sourcer."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              -3.1892,
+              55.9533
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q23436",
+              "usage": "position (coordonnées)"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-gb-newcastle",
+      "type_entite": "ville",
+      "nom": "Newcastle",
+      "nom_court": "Newcastle",
+      "aliases": [
+        "Newcastle upon Tyne"
+      ],
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "nom_local": "Newcastle upon Tyne",
+            "importance_atlas": "B",
+            "roles": [
+              "port_maritime",
+              "charbon",
+              "industrie"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.0) : Tyne, charbon, industrie, port. Rôles à sourcer."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              -1.6133,
+              54.9778
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q1425428",
+              "usage": "position (coordonnées)"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-gb-hull",
+      "type_entite": "ville",
+      "nom": "Hull",
+      "nom_court": "Hull",
+      "aliases": [
+        "Kingston upon Hull"
+      ],
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "nom_local": "Kingston upon Hull",
+            "importance_atlas": "B",
+            "roles": [
+              "port_maritime"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.0) : mer du Nord, commerce avec l'Europe du Nord. Rôles à sourcer."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              -0.3325,
+              53.7444
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q128147",
+              "usage": "position (coordonnées)"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-gb-southampton",
+      "type_entite": "ville",
+      "nom": "Southampton",
+      "nom_court": "Southampton",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "B",
+            "roles": [
+              "port_maritime",
+              "transatlantique"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.0) : grand port, transatlantique. Rôles à sourcer."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              -1.4044,
+              50.9067
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q79848",
+              "usage": "position (coordonnées)"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-gb-portsmouth",
+      "type_entite": "ville",
+      "nom": "Portsmouth",
+      "nom_court": "Portsmouth",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "B",
+            "roles": [
+              "base_navale"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.0) : grande base navale. Rôles à sourcer."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              -1.0872,
+              50.8058
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q72259",
+              "usage": "position (coordonnées)"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-gb-douvres",
+      "type_entite": "ville",
+      "nom": "Douvres",
+      "nom_court": "Douvres",
+      "aliases": [
+        "Dover"
+      ],
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "nom_local": "Dover",
+            "importance_atlas": "B",
+            "roles": [
+              "port_maritime",
+              "ferry",
+              "detroit"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.0) : détroit et liaisons continentales. Rôles à sourcer."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              1.3122,
+              51.1275
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q179224",
+              "usage": "position (coordonnées)"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-gb-bristol",
+      "type_entite": "ville",
+      "nom": "Bristol",
+      "nom_court": "Bristol",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "B",
+            "roles": [
+              "port_maritime",
+              "industrie",
+              "aviation"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.0) : port, industrie, aviation. Rôles à sourcer."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              -2.5975,
+              51.4536
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q23154",
+              "usage": "position (coordonnées)"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-gb-cardiff",
+      "type_entite": "ville",
+      "nom": "Cardiff",
+      "nom_court": "Cardiff",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "B",
+            "roles": [
+              "port_maritime",
+              "charbon"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.0) : charbon gallois et port. Rôles à sourcer."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              -3.1792,
+              51.4817
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q10690",
+              "usage": "position (coordonnées)"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-gb-belfast",
+      "type_entite": "ville",
+      "nom": "Belfast",
+      "nom_court": "Belfast",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "B",
+            "roles": [
+              "port_maritime",
+              "construction_navale",
+              "industrie"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.0) : port, construction navale, industrie. Rôles à sourcer."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              -5.93,
+              54.5967
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q10686",
+              "usage": "position (coordonnées)"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-gb-plymouth",
+      "type_entite": "ville",
+      "nom": "Plymouth",
+      "nom_court": "Plymouth",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "C",
+            "roles": [
+              "base_navale",
+              "port_maritime"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.0) : base navale et Atlantique. Rôles à sourcer."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              -4.1422,
+              50.3714
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q43382",
+              "usage": "position (coordonnées)"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-gb-harwich",
+      "type_entite": "ville",
+      "nom": "Harwich",
+      "nom_court": "Harwich",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "C",
+            "roles": [
+              "ferry",
+              "port_maritime"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.0) : ferries et mer du Nord. Rôles à sourcer."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              1.2883,
+              51.9444
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q990616",
+              "usage": "position (coordonnées)"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-ie-dublin",
+      "type_entite": "ville",
+      "nom": "Dublin",
+      "nom_court": "Dublin",
+      "aliases": [
+        "Baile Átha Cliath"
+      ],
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "nom_local": "Baile Átha Cliath",
+            "importance_atlas": "A",
+            "capitale": "nationale",
+            "roles": [
+              "capitale",
+              "port_maritime",
+              "rail"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.0) : capitale, principal port et rail national. Rôles à sourcer."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              -6.2603,
+              53.3497
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q1761",
+              "usage": "position (coordonnées)"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-ie-cork",
+      "type_entite": "ville",
+      "nom": "Cork",
+      "nom_court": "Cork",
+      "aliases": [
+        "Corcaigh"
+      ],
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "nom_local": "Corcaigh",
+            "importance_atlas": "B",
+            "roles": [
+              "port_maritime"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.0) : grand port naturel, Atlantique. Rôles à sourcer."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              -8.4731,
+              51.9
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q36647",
+              "usage": "position (coordonnées)"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-ie-limerick",
+      "type_entite": "ville",
+      "nom": "Limerick",
+      "nom_court": "Limerick",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "C",
+            "roles": [
+              "port_fluvial",
+              "rail"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.0) : Shannon, rail, ouest irlandais. Rôles à sourcer."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              -8.6238,
+              52.6653
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q133315",
+              "usage": "position (coordonnées)"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-ie-waterford",
+      "type_entite": "ville",
+      "nom": "Waterford",
+      "nom_court": "Waterford",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "C",
+            "roles": [
+              "port_maritime",
+              "rail"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.0) : port et réseau ferroviaire. Rôles à sourcer."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              -7.119,
+              52.2583
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q183551",
+              "usage": "position (coordonnées)"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-ie-galway",
+      "type_entite": "ville",
+      "nom": "Galway",
+      "nom_court": "Galway",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "C",
+            "roles": [
+              "port_maritime"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.0) : port occidental, Atlantique. Rôles à sourcer."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              -9.0488,
+              53.2719
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q129610",
+              "usage": "position (coordonnées)"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-ie-rosslare",
+      "type_entite": "ville",
+      "nom": "Rosslare",
+      "nom_court": "Rosslare",
+      "aliases": [
+        "Rosslare Harbour"
+      ],
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "nom_local": "Rosslare Harbour",
+            "importance_atlas": "C",
+            "roles": [
+              "ferry",
+              "port_maritime"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.0) : ferry vers la Grande-Bretagne et le continent. Rôles à sourcer."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              -6.3381,
+              52.2494
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q2167772",
+              "usage": "position (coordonnées)"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-je-sainthelier",
+      "type_entite": "ville",
+      "nom": "Saint-Hélier",
+      "nom_court": "Saint-Hélier",
+      "aliases": [
+        "Saint Helier"
+      ],
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "nom_local": "Saint Helier",
+            "importance_atlas": "C",
+            "capitale": "territoire",
+            "roles": [
+              "port_maritime"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.0) : capitale/port, liaisons de la Manche. Rôles à sourcer."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              -2.11,
+              49.1858
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q147738",
+              "usage": "position (coordonnées)"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-gg-saintpierreport",
+      "type_entite": "ville",
+      "nom": "Saint-Pierre-Port",
+      "nom_court": "Saint-Pierre-Port",
+      "aliases": [
+        "St Peter Port",
+        "Saint Peter Port"
+      ],
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "nom_local": "St Peter Port",
+            "importance_atlas": "C",
+            "capitale": "territoire",
+            "roles": [
+              "port_maritime"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.0) : capitale/port, liaisons de la Manche. Rôles à sourcer."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              -2.5519,
+              49.46
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q174262",
+              "usage": "position (coordonnées)"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-be-bruges",
+      "type_entite": "ville",
+      "nom": "Bruges",
+      "nom_court": "Bruges",
+      "aliases": [
+        "Brugge"
+      ],
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "nom_local": "Brugge",
+            "importance_atlas": "C",
+            "roles": [
+              "port_maritime",
+              "rail"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.0) : la ville et son arrière-pays, reliée à son port de Zeebruges par le canal (ajout d'Ether, 30/09). Rôles à sourcer."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              3.2242,
+              51.2089
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q12994",
+              "usage": "position (coordonnées)"
+            },
+            {
+              "source_id": "src-port-antwerp-bruges-zeebrugge-history",
+              "locator": "page d'histoire du port",
+              "usage": "lien avec son port de Zeebruges"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-fr-lorient",
+      "type_entite": "ville",
+      "nom": "Lorient",
+      "nom_court": "Lorient",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "C",
+            "roles": [
+              "base_navale",
+              "base_sous_marine",
+              "port_maritime"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.0) : poche allemande et base sous-marine (ajout d'Ether, 30/09 ; « C/B »). Rôles à sourcer."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              -3.3664,
+              47.7458
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q71724",
+              "usage": "position (coordonnées)"
+            },
+            {
+              "source_id": "src-shd-poches-atlantique-1945",
+              "locator": "dossiers 1 à 3",
+              "usage": "poche allemande encore active en 1945"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-fr-larochelle",
+      "type_entite": "ville",
+      "nom": "La Rochelle",
+      "nom_court": "La Rochelle",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "C",
+            "roles": [
+              "port_maritime",
+              "base_sous_marine"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.0) : poche allemande ; La Pallice sera plus tard une entité port, pas une deuxième ville (ajout d'Ether, 30/09 ; « C/B »). Rôles à sourcer."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              -1.1514,
+              46.1594
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q82185",
+              "usage": "position (coordonnées)"
+            },
+            {
+              "source_id": "src-shd-poches-atlantique-1945",
+              "locator": "dossiers 1 à 3",
+              "usage": "poche allemande encore active en 1945"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-fr-royan",
+      "type_entite": "ville",
+      "nom": "Royan",
+      "nom_court": "Royan",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "C",
+            "roles": [
+              "port_maritime"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.0) : poche allemande et accès à la Gironde (ajout d'Ether, 30/09). Rôles à sourcer."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              -1.0431,
+              45.6231
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q81909",
+              "usage": "position (coordonnées)"
+            },
+            {
+              "source_id": "src-shd-poches-atlantique-1945",
+              "locator": "dossiers 1 à 3",
+              "usage": "poche allemande encore active en 1945"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-fr-toulon",
+      "type_entite": "ville",
+      "nom": "Toulon",
+      "nom_court": "Toulon",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "B",
+            "roles": [
+              "base_navale",
+              "port_maritime"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.0) : énorme rôle naval méditerranéen (ajout d'Ether, 30/09). Rôles à sourcer."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              5.9306,
+              43.125
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q44160",
+              "usage": "position (coordonnées)"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-fr-versailles",
+      "type_entite": "ville",
+      "nom": "Versailles",
+      "nom_court": "Versailles",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "C",
+            "roles": [
+              "quartier_general"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.0) : quartier général allié (SHAEF) d'août 1944 à mai 1945 (ajout d'Ether, 30/09). Rôles à sourcer."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              2.135,
+              48.805
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q621",
+              "usage": "position (coordonnées)"
+            },
+            {
+              "source_id": "src-nara-rg331-shaef",
+              "locator": "présentation du RG 331",
+              "usage": "rôle : QG du SHAEF (août 1944 - mai 1945)"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-nl-denhelder",
+      "type_entite": "ville",
+      "nom": "Den Helder",
+      "nom_court": "Den Helder",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "C",
+            "roles": [
+              "base_navale",
+              "port_maritime"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.0) : port et base navale néerlandaise historique (ajout d'Ether, 30/09 ; « C/B »). Rôles à sourcer."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              4.7593,
+              52.9599
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q33432868",
+              "usage": "position (coordonnées)"
+            },
+            {
+              "source_id": "src-port-den-helder-history",
+              "locator": "page d'histoire du port",
+              "usage": "rôle : port et base navale"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-nl-groningue",
+      "type_entite": "ville",
+      "nom": "Groningue",
+      "nom_court": "Groningue",
+      "aliases": [
+        "Groningen"
+      ],
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "nom_local": "Groningen",
+            "importance_atlas": "C",
+            "roles": [
+              "rail"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.0) : nœud régional du nord (ajout d'Ether, 30/09). Rôles à sourcer."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              6.5675,
+              53.2189
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q749",
+              "usage": "position (coordonnées)"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-gb-londonderry",
+      "type_entite": "ville",
+      "nom": "Londonderry",
+      "nom_court": "Londonderry",
+      "aliases": [
+        "Derry"
+      ],
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "nom_local": "Londonderry",
+            "importance_atlas": "B",
+            "roles": [
+              "port_maritime",
+              "base_navale"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.0) : très pertinent pour l'Atlantique : escorte des convois (ajout d'Ether, 30/09 ; « B ou C »). Rôles à sourcer."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              -7.3417,
+              54.9917
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q163584",
+              "usage": "position (coordonnées)"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-gb-leeds",
+      "type_entite": "ville",
+      "nom": "Leeds",
+      "nom_court": "Leeds",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "B",
+            "roles": [
+              "industrie",
+              "rail"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.0) : industrie et rail (ajout d'Ether, 30/09). Rôles à sourcer."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              -1.5436,
+              53.7975
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q39121",
+              "usage": "position (coordonnées)"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-gb-sheffield",
+      "type_entite": "ville",
+      "nom": "Sheffield",
+      "nom_court": "Sheffield",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "B",
+            "roles": [
+              "industrie",
+              "siderurgie",
+              "rail"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.0) : industrie et rail (ajout d'Ether, 30/09). Rôles à sourcer."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              -1.4703,
+              53.3808
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q42448",
+              "usage": "position (coordonnées)"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-gb-aberdeen",
+      "type_entite": "ville",
+      "nom": "Aberdeen",
+      "nom_court": "Aberdeen",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "C",
+            "roles": [
+              "port_maritime"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.0) : port de mer du Nord (ajout d'Ether, 30/09). Rôles à sourcer."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              -2.1,
+              57.15
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q36405",
+              "usage": "position (coordonnées)"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    }
+  ]
+}

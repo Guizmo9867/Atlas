@@ -1,0 +1,3439 @@
+{
+  "metadata_lot": {
+    "nom": "snapshot0_villes_1-1_nordiques",
+    "date_reference": "1945-01-01",
+    "heure_reference": "00:00",
+    "version": "0.2",
+    "statut": "integre_par_claude",
+    "gabarit_source": "gabarits/gabarit_entite_temporelle_atlas.json",
+    "zone": [
+      "Danemark",
+      "Îles Féroé",
+      "Norvège",
+      "Suède",
+      "Finlande",
+      "Islande"
+    ],
+    "regles": [
+      "Uniquement villes/nœuds ayant un rôle Atlas réel au 01/01/1945.",
+      "A = capitale/métropole continentale ; B = hub majeur ; C = nœud régional structurant ; D = micro-histoire/local.",
+      "L'affichage A/B/C/D est automatique selon le zoom, jamais un réglage utilisateur.",
+      "Une ville n'embarque ni souveraineté ni contrôle : elle hérite du territoire où tombe son point à la date affichée.",
+      "Nom français traditionnel si réellement établi ; nom_local et aliases conservés pour recherche.",
+      "Un rôle futur n'est pas anticipé : il apparaîtra lors du ratissage de la date correspondante.",
+      "Ports, bases, gares et aéroports pourront devenir des entités propres dans les couches suivantes ; ici leur rôle justifie seulement la présence de la ville.",
+      "Positions à récupérer comme pour le lot 1.0 via Wikidata/CC0, QID enregistré par Claude."
+    ],
+    "integration": {
+      "date": "2026-09-30",
+      "par": "Claude",
+      "corrections": [
+        "Format : champs d'Ether ramenés au modèle du lot 1.0 (importance, rôles, note et nom local dans proprietes ; etat-01 ; valid_from inconnu = ville déjà en place avant l'Atlas).",
+        "Rôles : mots-clés d'Ether ramenés au vocabulaire de l'Atlas (voir ROLES dans le script) ; nouveaux rôles : minerai, peche, navigation_cotiere, militaire. Les informations géographiques (arctique, nord…) restent dans la note.",
+        "Villes détruites ou évacuées au 01/01/1945 (Hammerfest, Kirkenes, Rovaniemi) : propriété « situation ».",
+        "Positions : Wikidata (CC0), QID en locator ; vérifiées contre Natural Earth.",
+        "Sources : delta d'Ether vérifié lien par lien ; 2 URL déjà au registre → IDs canoniques (src-govfo-faroe-status-wwii, src-snl-east-finnmark-1944).",
+        "v0.2 (30/09, audit d'Ether) : Fredericia C → B (pont du Petit Belt, 1935) ; 9 villes ajoutées : Boden B, Hallsberg B, Oxelösund C, Gällivare C, Harstad C, Mo i Rana C, Lahti C, Kuopio C, Joensuu C. Différés : Gedser, Malmberget (future entité mine), Örebro."
+      ]
+    }
+  },
+  "entites": [
+    {
+      "entite_id": "ville-dk-copenhague",
+      "type_entite": "ville",
+      "nom": "Copenhague",
+      "nom_court": "Copenhague",
+      "aliases": [
+        "København",
+        "Copenhagen"
+      ],
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "nom_local": "København",
+            "importance_atlas": "A",
+            "capitale": "nationale",
+            "roles": [
+              "capitale",
+              "port_maritime",
+              "rail",
+              "industrie",
+              "administration"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.1) : Capitale et principal nœud politique, ferroviaire et maritime du Danemark ; grand port de l'Øresund."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              12.5689,
+              55.6761
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q1748",
+              "usage": "position (coordonnées)"
+            },
+            {
+              "source_id": "src-cmp-history-copenhagen-malmo",
+              "locator": "",
+              "usage": "rôle de la ville au 01/01/1945"
+            },
+            {
+              "source_id": "src-dk-railway-museum-history",
+              "locator": "",
+              "usage": "rôle de la ville au 01/01/1945"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-dk-aarhus",
+      "type_entite": "ville",
+      "nom": "Aarhus",
+      "nom_court": "Aarhus",
+      "aliases": [
+        "Århus"
+      ],
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "B",
+            "roles": [
+              "port_maritime",
+              "rail",
+              "industrie"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.1) : Deuxième grande ville du pays ; port relié au rail et grand centre des échanges du Jutland."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              10.2097,
+              56.1564
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q25319",
+              "usage": "position (coordonnées)"
+            },
+            {
+              "source_id": "src-port-aarhus-history",
+              "locator": "",
+              "usage": "rôle de la ville au 01/01/1945"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-dk-odense",
+      "type_entite": "ville",
+      "nom": "Odense",
+      "nom_court": "Odense",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "B",
+            "roles": [
+              "rail",
+              "industrie"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.1) : Grand nœud urbain de Fionie sur l'axe ferroviaire Est-Ouest entre Copenhague et le Jutland."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              10.3833,
+              55.4
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q25331",
+              "usage": "position (coordonnées)"
+            },
+            {
+              "source_id": "src-dk-railway-museum-history",
+              "locator": "",
+              "usage": "rôle de la ville au 01/01/1945"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-dk-aalborg",
+      "type_entite": "ville",
+      "nom": "Aalborg",
+      "nom_court": "Aalborg",
+      "aliases": [
+        "Ålborg"
+      ],
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "B",
+            "roles": [
+              "port_maritime",
+              "rail",
+              "industrie",
+              "detroit"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.1) : Centre industriel et portuaire du Limfjord, structurant les flux du nord du Jutland."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              9.9167,
+              57.05
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q25410",
+              "usage": "position (coordonnées)"
+            },
+            {
+              "source_id": "src-dk-railway-museum-history",
+              "locator": "",
+              "usage": "rôle de la ville au 01/01/1945"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-dk-esbjerg",
+      "type_entite": "ville",
+      "nom": "Esbjerg",
+      "nom_court": "Esbjerg",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "B",
+            "roles": [
+              "port_maritime",
+              "rail",
+              "peche"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.1) : Grand port de la mer du Nord, tourné historiquement vers le Royaume-Uni et la pêche."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              8.4514,
+              55.4708
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q26234",
+              "usage": "position (coordonnées)"
+            },
+            {
+              "source_id": "src-port-esbjerg-history",
+              "locator": "",
+              "usage": "rôle de la ville au 01/01/1945"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-dk-frederikshavn",
+      "type_entite": "ville",
+      "nom": "Frederikshavn",
+      "nom_court": "Frederikshavn",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "C",
+            "roles": [
+              "port_maritime",
+              "ferry",
+              "militaire",
+              "rail"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.1) : Port stratégique du nord du Jutland, utile pour les liaisons avec la Norvège et la Suède."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              10.5361,
+              57.4339
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q27452",
+              "usage": "position (coordonnées)"
+            },
+            {
+              "source_id": "src-dk-railway-museum-history",
+              "locator": "",
+              "usage": "rôle de la ville au 01/01/1945"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-dk-helsingor",
+      "type_entite": "ville",
+      "nom": "Elseneur",
+      "nom_court": "Elseneur",
+      "aliases": [
+        "Helsingør",
+        "Helsingor",
+        "Elsinore"
+      ],
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "nom_local": "Helsingør",
+            "importance_atlas": "C",
+            "roles": [
+              "port_maritime",
+              "ferry",
+              "detroit",
+              "rail"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.1) : Ville du détroit de l'Øresund face à Helsingborg ; passage maritime et ferroviaire important."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              12.6106,
+              56.036
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q26881",
+              "usage": "position (coordonnées)"
+            },
+            {
+              "source_id": "src-dk-railway-ferries",
+              "locator": "",
+              "usage": "rôle de la ville au 01/01/1945"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-dk-padborg",
+      "type_entite": "ville",
+      "nom": "Padborg",
+      "nom_court": "Padborg",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "C",
+            "roles": [
+              "frontalier",
+              "rail"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.1) : Nœud ferroviaire directement à la frontière germano-danoise, pertinent pour les flux terrestres."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              9.359,
+              54.824
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q707345",
+              "usage": "position (coordonnées)"
+            },
+            {
+              "source_id": "src-padborg-station",
+              "locator": "",
+              "usage": "rôle de la ville au 01/01/1945"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-dk-korsor",
+      "type_entite": "ville",
+      "nom": "Korsør",
+      "nom_court": "Korsør",
+      "aliases": [
+        "Korsoer"
+      ],
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "C",
+            "roles": [
+              "port_maritime",
+              "rail",
+              "ferry"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.1) : Tête orientale de la traversée ferroviaire du Grand Belt avant la liaison fixe."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              11.1435,
+              55.335
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q30239661",
+              "usage": "position (coordonnées)"
+            },
+            {
+              "source_id": "src-dk-railway-ferries",
+              "locator": "",
+              "usage": "rôle de la ville au 01/01/1945"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-dk-nyborg",
+      "type_entite": "ville",
+      "nom": "Nyborg",
+      "nom_court": "Nyborg",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "C",
+            "roles": [
+              "port_maritime",
+              "rail",
+              "ferry"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.1) : Tête occidentale de la traversée ferroviaire du Grand Belt ; maillon essentiel de l'axe national Est-Ouest."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              10.7917,
+              55.3097
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q3530435",
+              "usage": "position (coordonnées)"
+            },
+            {
+              "source_id": "src-dk-railway-ferries",
+              "locator": "",
+              "usage": "rôle de la ville au 01/01/1945"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-dk-fredericia",
+      "type_entite": "ville",
+      "nom": "Fredericia",
+      "nom_court": "Fredericia",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "B",
+            "roles": [
+              "rail",
+              "port_maritime"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.1) : Grand carrefour ferroviaire du Jutland oriental, renforcé par la liaison du Petit Belt ouverte avant-guerre. Audit : Le Lillebæltsbroen de 1935 transforme l'axe ferroviaire national Jutland–Fionie–Copenhague."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              9.7597,
+              55.5644
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q21181",
+              "usage": "position (coordonnées)"
+            },
+            {
+              "source_id": "src-dk-railway-museum-history",
+              "locator": "",
+              "usage": "rôle de la ville au 01/01/1945"
+            },
+            {
+              "source_id": "src-jernbanemuseet-lillebaelt-1935",
+              "locator": "Historien om Det røde Lyntog",
+              "usage": "pont du Petit Belt (1935) : priorité B"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-fo-torshavn",
+      "type_entite": "ville",
+      "nom": "Tórshavn",
+      "nom_court": "Tórshavn",
+      "aliases": [
+        "Thorshavn"
+      ],
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "B",
+            "capitale": "territoire",
+            "roles": [
+              "capitale",
+              "port_maritime",
+              "administration"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.1) : Capitale et port principal des Féroé ; centre administratif d'un archipel coupé du Danemark occupé et défendu par les Britanniques."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              -6.7713,
+              62.0098
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q10704",
+              "usage": "position (coordonnées)"
+            },
+            {
+              "source_id": "src-govfo-faroe-status-wwii",
+              "locator": "",
+              "usage": "rôle de la ville au 01/01/1945"
+            },
+            {
+              "source_id": "src-govfo-torshavn-harbour",
+              "locator": "",
+              "usage": "rôle de la ville au 01/01/1945"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-no-oslo",
+      "type_entite": "ville",
+      "nom": "Oslo",
+      "nom_court": "Oslo",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "A",
+            "capitale": "nationale",
+            "roles": [
+              "capitale",
+              "port_maritime",
+              "rail",
+              "industrie",
+              "administration"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.1) : Capitale, grand port et cœur du réseau ferroviaire du sud de la Norvège."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              10.7389,
+              59.9133
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q585",
+              "usage": "position (coordonnées)"
+            },
+            {
+              "source_id": "src-norway-rail-context",
+              "locator": "",
+              "usage": "rôle de la ville au 01/01/1945"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-no-bergen",
+      "type_entite": "ville",
+      "nom": "Bergen",
+      "nom_court": "Bergen",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "B",
+            "roles": [
+              "port_maritime",
+              "rail",
+              "navigation_cotiere"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.1) : Grand port de la côte ouest, relié à Oslo par le Bergensbanen et intégré au réseau côtier."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              5.3233,
+              60.3925
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q26793",
+              "usage": "position (coordonnées)"
+            },
+            {
+              "source_id": "src-snl-bergensbanen",
+              "locator": "",
+              "usage": "rôle de la ville au 01/01/1945"
+            },
+            {
+              "source_id": "src-snl-hurtigruta",
+              "locator": "",
+              "usage": "rôle de la ville au 01/01/1945"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-no-trondheim",
+      "type_entite": "ville",
+      "nom": "Trondheim",
+      "nom_court": "Trondheim",
+      "aliases": [
+        "Trondhjem"
+      ],
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "B",
+            "roles": [
+              "port_maritime",
+              "rail",
+              "navigation_cotiere",
+              "industrie"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.1) : Nœud portuaire et ferroviaire majeur reliant le sud, la Suède et la navigation côtière vers le nord."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              10.4,
+              63.44
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q25804",
+              "usage": "position (coordonnées)"
+            },
+            {
+              "source_id": "src-snl-trondheim-history",
+              "locator": "",
+              "usage": "rôle de la ville au 01/01/1945"
+            },
+            {
+              "source_id": "src-snl-hurtigruta",
+              "locator": "",
+              "usage": "rôle de la ville au 01/01/1945"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-no-stavanger",
+      "type_entite": "ville",
+      "nom": "Stavanger",
+      "nom_court": "Stavanger",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "B",
+            "roles": [
+              "port_maritime",
+              "rail",
+              "industrie",
+              "aviation"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.1) : Port industriel majeur ; relié depuis 1944 au réseau ferroviaire continu vers Oslo et doté de l'aéroport de Sola."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              5.7314,
+              58.97
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q25416",
+              "usage": "position (coordonnées)"
+            },
+            {
+              "source_id": "src-snl-stavanger-history",
+              "locator": "",
+              "usage": "rôle de la ville au 01/01/1945"
+            },
+            {
+              "source_id": "src-snl-sorlandsbanen",
+              "locator": "",
+              "usage": "rôle de la ville au 01/01/1945"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-no-kristiansand",
+      "type_entite": "ville",
+      "nom": "Kristiansand",
+      "nom_court": "Kristiansand",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "B",
+            "roles": [
+              "port_maritime",
+              "rail",
+              "ferry"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.1) : Port du Skagerrak et nœud ferroviaire du sud, historiquement relié aux traversées vers le Danemark."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              7.9956,
+              58.1467
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q26772254",
+              "usage": "position (coordonnées)"
+            },
+            {
+              "source_id": "src-snl-sorlandsbanen",
+              "locator": "",
+              "usage": "rôle de la ville au 01/01/1945"
+            },
+            {
+              "source_id": "src-snl-danskebat",
+              "locator": "",
+              "usage": "rôle de la ville au 01/01/1945"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-no-narvik",
+      "type_entite": "ville",
+      "nom": "Narvik",
+      "nom_court": "Narvik",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "B",
+            "roles": [
+              "port_maritime",
+              "rail",
+              "minerai",
+              "militaire"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.1) : Port stratégique d'exportation du minerai de fer suédois via l'Ofotbanen ; nœud majeur de la guerre en Norvège."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              17.4278,
+              68.4383
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q59101",
+              "usage": "position (coordonnées)"
+            },
+            {
+              "source_id": "src-banenor-narvik",
+              "locator": "",
+              "usage": "rôle de la ville au 01/01/1945"
+            },
+            {
+              "source_id": "src-snl-narvik-1940",
+              "locator": "",
+              "usage": "rôle de la ville au 01/01/1945"
+            },
+            {
+              "source_id": "src-lkab-history",
+              "locator": "",
+              "usage": "rôle de la ville au 01/01/1945"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-no-tromso",
+      "type_entite": "ville",
+      "nom": "Tromsø",
+      "nom_court": "Tromsø",
+      "aliases": [
+        "Tromso"
+      ],
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "B",
+            "roles": [
+              "port_maritime",
+              "navigation_cotiere",
+              "administration"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.1) : Grand port du Nord et escale du trafic côtier ; centre politique provisoire de la Norvège non occupée en 1940."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              18.9556,
+              69.6517
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q42328401",
+              "usage": "position (coordonnées)"
+            },
+            {
+              "source_id": "src-snl-hurtigruta",
+              "locator": "",
+              "usage": "rôle de la ville au 01/01/1945"
+            },
+            {
+              "source_id": "src-visit-tromso-war",
+              "locator": "",
+              "usage": "rôle de la ville au 01/01/1945"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-no-kirkenes",
+      "type_entite": "ville",
+      "nom": "Kirkenes",
+      "nom_court": "Kirkenes",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "C",
+            "roles": [
+              "port_maritime",
+              "frontalier",
+              "militaire"
+            ],
+            "situation": "detruite",
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.1) : Ville-frontière et port arctique libéré par l'Armée rouge à l'automne 1944 ; fortement détruite."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              30.0451,
+              69.7271
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q209423",
+              "usage": "position (coordonnées)"
+            },
+            {
+              "source_id": "src-snl-east-finnmark-1944",
+              "locator": "",
+              "usage": "rôle de la ville au 01/01/1945"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-no-bodo",
+      "type_entite": "ville",
+      "nom": "Bodø",
+      "nom_court": "Bodø",
+      "aliases": [
+        "Bodo"
+      ],
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "C",
+            "roles": [
+              "port_maritime",
+              "navigation_cotiere",
+              "aviation"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.1) : Nœud côtier du Nord, important pour la navigation et les liaisons aériennes ; pas encore relié par rail au reste du réseau en 1945."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              14.3751,
+              67.2827
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q39383",
+              "usage": "position (coordonnées)"
+            },
+            {
+              "source_id": "src-snl-hurtigruta",
+              "locator": "",
+              "usage": "rôle de la ville au 01/01/1945"
+            },
+            {
+              "source_id": "src-snl-nordlandsbanen",
+              "locator": "",
+              "usage": "rôle de la ville au 01/01/1945"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-no-alesund",
+      "type_entite": "ville",
+      "nom": "Ålesund",
+      "nom_court": "Ålesund",
+      "aliases": [
+        "Alesund"
+      ],
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "C",
+            "roles": [
+              "port_maritime",
+              "peche",
+              "navigation_cotiere"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.1) : Port majeur de pêche et de navigation de la côte occidentale."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              6.1549,
+              62.4723
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q42900680",
+              "usage": "position (coordonnées)"
+            },
+            {
+              "source_id": "src-snl-hurtigruta",
+              "locator": "",
+              "usage": "rôle de la ville au 01/01/1945"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-no-halden",
+      "type_entite": "ville",
+      "nom": "Halden",
+      "nom_court": "Halden",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "C",
+            "roles": [
+              "frontalier",
+              "rail",
+              "industrie"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.1) : Ville ferroviaire de l'axe Oslo–Suède, proche de la frontière et pertinente pour les flux terrestres transfrontaliers."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              11.4828,
+              59.1264
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q109042",
+              "usage": "position (coordonnées)"
+            },
+            {
+              "source_id": "src-norway-rail-context",
+              "locator": "",
+              "usage": "rôle de la ville au 01/01/1945"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-no-hammerfest",
+      "type_entite": "ville",
+      "nom": "Hammerfest",
+      "nom_court": "Hammerfest",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "C",
+            "roles": [
+              "port_maritime",
+              "navigation_cotiere"
+            ],
+            "situation": "evacuee et detruite",
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.1) : Ancien nœud du trafic côtier arctique, évacué et largement détruit pendant le repli allemand de 1944 ; la rupture du réseau est elle-même historiquement pertinente."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              23.6778,
+              70.6633
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q107351",
+              "usage": "position (coordonnées)"
+            },
+            {
+              "source_id": "src-snl-hurtigruta",
+              "locator": "",
+              "usage": "rôle de la ville au 01/01/1945"
+            },
+            {
+              "source_id": "src-snl-east-finnmark-1944",
+              "locator": "",
+              "usage": "rôle de la ville au 01/01/1945"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-no-drammen",
+      "type_entite": "ville",
+      "nom": "Drammen",
+      "nom_court": "Drammen",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "C",
+            "roles": [
+              "port_fluvial",
+              "port_maritime",
+              "rail",
+              "industrie"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.1) : Port et nœud ferroviaire industriel à l'ouest d'Oslo, sur les grands axes du sud du pays."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              10.206,
+              59.7454
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q26525",
+              "usage": "position (coordonnées)"
+            },
+            {
+              "source_id": "src-norway-rail-context",
+              "locator": "",
+              "usage": "rôle de la ville au 01/01/1945"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-se-stockholm",
+      "type_entite": "ville",
+      "nom": "Stockholm",
+      "nom_court": "Stockholm",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "A",
+            "capitale": "nationale",
+            "roles": [
+              "capitale",
+              "port_maritime",
+              "rail",
+              "industrie",
+              "administration"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.1) : Capitale et grand port baltique ; centre d'importation, de redistribution et de transports nationaux."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              18.0686,
+              59.3294
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q1754",
+              "usage": "position (coordonnées)"
+            },
+            {
+              "source_id": "src-ports-stockholm-1900-1949",
+              "locator": "",
+              "usage": "rôle de la ville au 01/01/1945"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-se-goteborg",
+      "type_entite": "ville",
+      "nom": "Göteborg",
+      "nom_court": "Göteborg",
+      "aliases": [
+        "Gothenburg"
+      ],
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "B",
+            "roles": [
+              "port_maritime",
+              "rail",
+              "industrie"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.1) : Principal grand port suédois de la façade occidentale, tourné vers la mer du Nord et le commerce mondial."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              11.9675,
+              57.7075
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q25287",
+              "usage": "position (coordonnées)"
+            },
+            {
+              "source_id": "src-port-gothenburg-history",
+              "locator": "",
+              "usage": "rôle de la ville au 01/01/1945"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-se-malmo",
+      "type_entite": "ville",
+      "nom": "Malmö",
+      "nom_court": "Malmö",
+      "aliases": [
+        "Malmo"
+      ],
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "B",
+            "roles": [
+              "port_maritime",
+              "rail",
+              "industrie",
+              "detroit"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.1) : Grande ville industrielle et portuaire du sud, face à Copenhague et intégrée aux flux de l'Øresund."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              13.0,
+              55.5833
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q2211",
+              "usage": "position (coordonnées)"
+            },
+            {
+              "source_id": "src-cmp-history-copenhagen-malmo",
+              "locator": "",
+              "usage": "rôle de la ville au 01/01/1945"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-se-helsingborg",
+      "type_entite": "ville",
+      "nom": "Helsingborg",
+      "nom_court": "Helsingborg",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "B",
+            "roles": [
+              "port_maritime",
+              "ferry",
+              "detroit",
+              "rail"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.1) : Passage du point le plus étroit de l'Øresund, en relation directe avec Helsingør."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              12.721,
+              56.0424
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q25411",
+              "usage": "position (coordonnées)"
+            },
+            {
+              "source_id": "src-port-helsingborg-history",
+              "locator": "",
+              "usage": "rôle de la ville au 01/01/1945"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-se-trelleborg",
+      "type_entite": "ville",
+      "nom": "Trelleborg",
+      "nom_court": "Trelleborg",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "B",
+            "roles": [
+              "port_maritime",
+              "rail",
+              "ferry"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.1) : Grand port ferroviaire vers le continent, notamment par les ferries vers l'Allemagne."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              13.1812,
+              55.3723
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q26943",
+              "usage": "position (coordonnées)"
+            },
+            {
+              "source_id": "src-port-trelleborg-history",
+              "locator": "",
+              "usage": "rôle de la ville au 01/01/1945"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-se-norrkoping",
+      "type_entite": "ville",
+      "nom": "Norrköping",
+      "nom_court": "Norrköping",
+      "aliases": [
+        "Norrkoping"
+      ],
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "B",
+            "roles": [
+              "industrie",
+              "port_maritime",
+              "rail"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.1) : Important centre industriel et portuaire de la côte baltique."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              16.1493,
+              58.5793
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q25724",
+              "usage": "position (coordonnées)"
+            },
+            {
+              "source_id": "src-sweden-rail-context",
+              "locator": "",
+              "usage": "rôle de la ville au 01/01/1945"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-se-lulea",
+      "type_entite": "ville",
+      "nom": "Luleå",
+      "nom_court": "Luleå",
+      "aliases": [
+        "Lulea"
+      ],
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "B",
+            "roles": [
+              "port_maritime",
+              "rail",
+              "minerai",
+              "industrie"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.1) : Port du golfe de Botnie relié aux mines du nord ; débouché ferroviaire du minerai de fer."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              22.1915,
+              65.5838
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q26268",
+              "usage": "position (coordonnées)"
+            },
+            {
+              "source_id": "src-lulea-history",
+              "locator": "",
+              "usage": "rôle de la ville au 01/01/1945"
+            },
+            {
+              "source_id": "src-lkab-history",
+              "locator": "",
+              "usage": "rôle de la ville au 01/01/1945"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-se-kiruna",
+      "type_entite": "ville",
+      "nom": "Kiruna",
+      "nom_court": "Kiruna",
+      "aliases": [
+        "Kiruna Town"
+      ],
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "B",
+            "roles": [
+              "minerai",
+              "rail",
+              "industrie"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.1) : Ville minière structurée autour du minerai de fer et de la ligne reliant Luleå à Narvik."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              20.2544,
+              67.8494
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q10545810",
+              "usage": "position (coordonnées)"
+            },
+            {
+              "source_id": "src-lkab-history",
+              "locator": "",
+              "usage": "rôle de la ville au 01/01/1945"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-se-gavle",
+      "type_entite": "ville",
+      "nom": "Gävle",
+      "nom_court": "Gävle",
+      "aliases": [
+        "Gavle"
+      ],
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "C",
+            "roles": [
+              "port_maritime",
+              "rail",
+              "industrie"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.1) : Vieille ville portuaire et industrielle de la côte baltique, reliée au réseau ferré national."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              17.1444,
+              60.6748
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q25748",
+              "usage": "position (coordonnées)"
+            },
+            {
+              "source_id": "src-port-gavle-history",
+              "locator": "",
+              "usage": "rôle de la ville au 01/01/1945"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-se-sundsvall",
+      "type_entite": "ville",
+      "nom": "Sundsvall",
+      "nom_court": "Sundsvall",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "C",
+            "roles": [
+              "port_maritime",
+              "industrie",
+              "rail"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.1) : Centre industriel et portuaire du Norrland, important pour les exportations forestières."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              17.286,
+              62.3955
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q26476",
+              "usage": "position (coordonnées)"
+            },
+            {
+              "source_id": "src-sweden-rail-context",
+              "locator": "",
+              "usage": "rôle de la ville au 01/01/1945"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-se-haparanda",
+      "type_entite": "ville",
+      "nom": "Haparanda",
+      "nom_court": "Haparanda",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "C",
+            "roles": [
+              "frontalier",
+              "rail"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.1) : Ville-frontière face à Tornio, importante pour les échanges ferroviaires et terrestres avec la Finlande."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              24.117,
+              65.8342
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q588976",
+              "usage": "position (coordonnées)"
+            },
+            {
+              "source_id": "src-sweden-rail-context",
+              "locator": "",
+              "usage": "rôle de la ville au 01/01/1945"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-se-karlskrona",
+      "type_entite": "ville",
+      "nom": "Karlskrona",
+      "nom_court": "Karlskrona",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "C",
+            "roles": [
+              "base_navale",
+              "construction_navale"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.1) : Grande base navale suédoise de la Baltique, restée en activité pendant la guerre."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              15.6308,
+              56.1922
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q25789",
+              "usage": "position (coordonnées)"
+            },
+            {
+              "source_id": "src-karlskrona-naval-base",
+              "locator": "",
+              "usage": "rôle de la ville au 01/01/1945"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-se-vasteras",
+      "type_entite": "ville",
+      "nom": "Västerås",
+      "nom_court": "Västerås",
+      "aliases": [
+        "Vasteras"
+      ],
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "C",
+            "roles": [
+              "industrie",
+              "rail",
+              "port_fluvial"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.1) : Grand centre industriel du lac Mälaren, connecté aux réseaux ferroviaires et lacustres."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              16.5422,
+              59.6173
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q25412",
+              "usage": "position (coordonnées)"
+            },
+            {
+              "source_id": "src-sweden-rail-context",
+              "locator": "",
+              "usage": "rôle de la ville au 01/01/1945"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-fi-helsinki",
+      "type_entite": "ville",
+      "nom": "Helsinki",
+      "nom_court": "Helsinki",
+      "aliases": [
+        "Helsingfors"
+      ],
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "A",
+            "capitale": "nationale",
+            "roles": [
+              "capitale",
+              "port_maritime",
+              "rail",
+              "industrie",
+              "administration"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.1) : Capitale, grand port et cœur ferroviaire ; malgré les interruptions de guerre, le port reste structurant pour les échanges finlandais."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              24.9375,
+              60.1708
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q1757",
+              "usage": "position (coordonnées)"
+            },
+            {
+              "source_id": "src-port-helsinki-history",
+              "locator": "",
+              "usage": "rôle de la ville au 01/01/1945"
+            },
+            {
+              "source_id": "src-finland-railway-museum-network",
+              "locator": "",
+              "usage": "rôle de la ville au 01/01/1945"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-fi-turku",
+      "type_entite": "ville",
+      "nom": "Turku",
+      "nom_court": "Turku",
+      "aliases": [
+        "Åbo",
+        "Abo"
+      ],
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "B",
+            "roles": [
+              "port_maritime",
+              "rail",
+              "ferry"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.1) : Grand port du sud-ouest et ancienne capitale, avec trafic vers la Suède et connexion ferroviaire au réseau intérieur."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              22.2669,
+              60.4517
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q38511",
+              "usage": "position (coordonnées)"
+            },
+            {
+              "source_id": "src-port-turku-history",
+              "locator": "",
+              "usage": "rôle de la ville au 01/01/1945"
+            },
+            {
+              "source_id": "src-finland-railway-museum-tampere-turku",
+              "locator": "",
+              "usage": "rôle de la ville au 01/01/1945"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-fi-tampere",
+      "type_entite": "ville",
+      "nom": "Tampere",
+      "nom_court": "Tampere",
+      "aliases": [
+        "Tammerfors"
+      ],
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "B",
+            "roles": [
+              "rail",
+              "industrie"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.1) : Grand centre industriel et carrefour ferroviaire de l'intérieur finlandais."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              23.76,
+              61.4981
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q40840",
+              "usage": "position (coordonnées)"
+            },
+            {
+              "source_id": "src-finland-railway-museum-tampere-turku",
+              "locator": "",
+              "usage": "rôle de la ville au 01/01/1945"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-fi-oulu",
+      "type_entite": "ville",
+      "nom": "Oulu",
+      "nom_court": "Oulu",
+      "aliases": [
+        "Uleåborg",
+        "Uleaborg"
+      ],
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "B",
+            "roles": [
+              "port_maritime",
+              "rail",
+              "industrie"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.1) : Grand nœud du nord de la Finlande, combinant port, industrie et chemin de fer."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              25.4719,
+              65.0142
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q47048",
+              "usage": "position (coordonnées)"
+            },
+            {
+              "source_id": "src-port-oulu-history",
+              "locator": "",
+              "usage": "rôle de la ville au 01/01/1945"
+            },
+            {
+              "source_id": "src-finland-railway-museum-network",
+              "locator": "",
+              "usage": "rôle de la ville au 01/01/1945"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-fi-kotka",
+      "type_entite": "ville",
+      "nom": "Kotka",
+      "nom_court": "Kotka",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "B",
+            "roles": [
+              "port_maritime",
+              "industrie",
+              "rail"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.1) : Port d'exportation majeur lié à l'industrie du bois et du papier à l'embouchure de la Kymijoki."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              26.9458,
+              60.4667
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q192155",
+              "usage": "position (coordonnées)"
+            },
+            {
+              "source_id": "src-port-kotka-history",
+              "locator": "",
+              "usage": "rôle de la ville au 01/01/1945"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-fi-vaasa",
+      "type_entite": "ville",
+      "nom": "Vaasa",
+      "nom_court": "Vaasa",
+      "aliases": [
+        "Vasa"
+      ],
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "C",
+            "roles": [
+              "port_maritime",
+              "rail",
+              "industrie"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.1) : Port et centre ferroviaire de la côte occidentale, tourné vers le golfe de Botnie et la Suède."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              21.6153,
+              63.0958
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q125080",
+              "usage": "position (coordonnées)"
+            },
+            {
+              "source_id": "src-finland-railway-museum-network",
+              "locator": "",
+              "usage": "rôle de la ville au 01/01/1945"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-fi-hamina",
+      "type_entite": "ville",
+      "nom": "Hamina",
+      "nom_court": "Hamina",
+      "aliases": [
+        "Fredrikshamn"
+      ],
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "C",
+            "roles": [
+              "port_maritime",
+              "industrie",
+              "frontalier"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.1) : Port du golfe de Finlande et nœud de la façade orientale."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              27.1981,
+              60.5697
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q367780",
+              "usage": "position (coordonnées)"
+            },
+            {
+              "source_id": "src-port-kotka-history",
+              "locator": "",
+              "usage": "rôle de la ville au 01/01/1945"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-fi-hanko",
+      "type_entite": "ville",
+      "nom": "Hanko",
+      "nom_court": "Hanko",
+      "aliases": [
+        "Hangö",
+        "Hango"
+      ],
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "C",
+            "roles": [
+              "port_maritime",
+              "rail"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.1) : Port le plus méridional de Finlande, historiquement conçu comme port d'hiver et relié au rail."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              22.9681,
+              59.8236
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q216790",
+              "usage": "position (coordonnées)"
+            },
+            {
+              "source_id": "src-port-hanko-history",
+              "locator": "",
+              "usage": "rôle de la ville au 01/01/1945"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-fi-rovaniemi",
+      "type_entite": "ville",
+      "nom": "Rovaniemi",
+      "nom_court": "Rovaniemi",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "C",
+            "roles": [
+              "rail"
+            ],
+            "situation": "detruite",
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.1) : Nœud ferroviaire de Laponie largement détruit pendant le retrait allemand de 1944 ; important pour comprendre la rupture des flux du nord."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              25.7285,
+              66.5028
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q103717",
+              "usage": "position (coordonnées)"
+            },
+            {
+              "source_id": "src-finland-railway-museum-network",
+              "locator": "",
+              "usage": "rôle de la ville au 01/01/1945"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-fi-kemi",
+      "type_entite": "ville",
+      "nom": "Kemi",
+      "nom_court": "Kemi",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "C",
+            "roles": [
+              "port_maritime",
+              "rail",
+              "industrie"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.1) : Port industriel et ferroviaire du nord du golfe de Botnie, sur l'axe menant vers la Laponie."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              24.5634,
+              65.7336
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q203619",
+              "usage": "position (coordonnées)"
+            },
+            {
+              "source_id": "src-finland-railway-museum-network",
+              "locator": "",
+              "usage": "rôle de la ville au 01/01/1945"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-fi-tornio",
+      "type_entite": "ville",
+      "nom": "Tornio",
+      "nom_court": "Tornio",
+      "aliases": [
+        "Torneå",
+        "Tornea"
+      ],
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "C",
+            "roles": [
+              "frontalier",
+              "rail"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.1) : Ville-frontière jumelée fonctionnellement avec Haparanda, passage terrestre et ferroviaire vers la Suède."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              24.1441,
+              65.8497
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q214021",
+              "usage": "position (coordonnées)"
+            },
+            {
+              "source_id": "src-finland-railway-museum-network",
+              "locator": "",
+              "usage": "rôle de la ville au 01/01/1945"
+            },
+            {
+              "source_id": "src-sweden-rail-context",
+              "locator": "",
+              "usage": "rôle de la ville au 01/01/1945"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-fi-mariehamn",
+      "type_entite": "ville",
+      "nom": "Mariehamn",
+      "nom_court": "Mariehamn",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "C",
+            "capitale": "territoire",
+            "roles": [
+              "capitale",
+              "port_maritime",
+              "navigation_cotiere"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.1) : Capitale des Åland et port important sur les routes maritimes entre Finlande et Suède."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              19.9444,
+              60.0986
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q48329",
+              "usage": "position (coordonnées)"
+            },
+            {
+              "source_id": "src-port-turku-history",
+              "locator": "",
+              "usage": "rôle de la ville au 01/01/1945"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-fi-kouvola",
+      "type_entite": "ville",
+      "nom": "Kouvola",
+      "nom_court": "Kouvola",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "C",
+            "roles": [
+              "rail"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.1) : Carrefour ferroviaire majeur entre Helsinki, l'est de la Finlande et les ports du golfe de Finlande."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              26.7042,
+              60.8681
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q204382",
+              "usage": "position (coordonnées)"
+            },
+            {
+              "source_id": "src-finland-railway-museum-network",
+              "locator": "",
+              "usage": "rôle de la ville au 01/01/1945"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-fi-pori",
+      "type_entite": "ville",
+      "nom": "Pori",
+      "nom_court": "Pori",
+      "aliases": [
+        "Björneborg",
+        "Bjorneborg"
+      ],
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "C",
+            "roles": [
+              "port_maritime",
+              "industrie",
+              "rail"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.1) : Centre industriel et portuaire de la côte occidentale, lié aux exportations finlandaises."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              21.7975,
+              61.4867
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q180233",
+              "usage": "position (coordonnées)"
+            },
+            {
+              "source_id": "src-finland-railway-museum-network",
+              "locator": "",
+              "usage": "rôle de la ville au 01/01/1945"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-is-reykjavik",
+      "type_entite": "ville",
+      "nom": "Reykjavík",
+      "nom_court": "Reykjavík",
+      "aliases": [
+        "Reykjavik"
+      ],
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "A",
+            "capitale": "nationale",
+            "roles": [
+              "capitale",
+              "port_maritime",
+              "aviation",
+              "militaire"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.1) : Capitale et principal port islandais, transformé pendant la guerre en grand nœud logistique allié de l'Atlantique Nord."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              -21.935,
+              64.1475
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q1764",
+              "usage": "position (coordonnées)"
+            },
+            {
+              "source_id": "src-reykjavik-port-history",
+              "locator": "",
+              "usage": "rôle de la ville au 01/01/1945"
+            },
+            {
+              "source_id": "src-us-army-iceland-transport",
+              "locator": "",
+              "usage": "rôle de la ville au 01/01/1945"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-is-akureyri",
+      "type_entite": "ville",
+      "nom": "Akureyri",
+      "nom_court": "Akureyri",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "B",
+            "roles": [
+              "port_maritime",
+              "militaire"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.1) : Principal port du nord de l'île et important port secondaire pour la logistique alliée."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              -18.0878,
+              65.6835
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q29042",
+              "usage": "position (coordonnées)"
+            },
+            {
+              "source_id": "src-akureyri-history",
+              "locator": "",
+              "usage": "rôle de la ville au 01/01/1945"
+            },
+            {
+              "source_id": "src-us-army-iceland-transport",
+              "locator": "",
+              "usage": "rôle de la ville au 01/01/1945"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-is-keflavik",
+      "type_entite": "ville",
+      "nom": "Keflavík",
+      "nom_court": "Keflavík",
+      "aliases": [
+        "Keflavik"
+      ],
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "C",
+            "roles": [
+              "aviation",
+              "militaire"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.1) : Ville associée au grand terrain aérien construit par les États-Unis et ouvert en 1943 pour la route aérienne transatlantique."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              -22.5533,
+              64.0011
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q170693",
+              "usage": "position (coordonnées)"
+            },
+            {
+              "source_id": "src-us-engineers-iceland-1943",
+              "locator": "",
+              "usage": "rôle de la ville au 01/01/1945"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-is-seydisfjordur",
+      "type_entite": "ville",
+      "nom": "Seyðisfjörður",
+      "nom_court": "Seyðisfjörður",
+      "aliases": [
+        "Seydisfjordur",
+        "Seidisfjord"
+      ],
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "C",
+            "roles": [
+              "port_maritime",
+              "militaire"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.1) : Petit port de l'est utilisé par les forces alliées comme port de transbordement et point de ravitaillement pendant la guerre."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              -14.0058,
+              65.2601
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q623557",
+              "usage": "position (coordonnées)"
+            },
+            {
+              "source_id": "src-us-army-iceland-transport",
+              "locator": "",
+              "usage": "rôle de la ville au 01/01/1945"
+            },
+            {
+              "source_id": "src-us-navy-iceland-bases",
+              "locator": "",
+              "usage": "rôle de la ville au 01/01/1945"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-se-boden",
+      "type_entite": "ville",
+      "nom": "Boden",
+      "nom_court": "Boden",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "B",
+            "roles": [
+              "rail",
+              "militaire"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.1) : Jonction de la Malmbanan et de la ligne principale du Norrland ; ville-forteresse stratégique. (ajout après l'audit, 30/09)"
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              21.7046,
+              65.8182
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q586179",
+              "usage": "position (coordonnées)"
+            },
+            {
+              "source_id": "src-boden-jarnvagsknut-fortress",
+              "locator": "",
+              "usage": "rôle de la ville au 01/01/1945"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-se-hallsberg",
+      "type_entite": "ville",
+      "nom": "Hallsberg",
+      "nom_court": "Hallsberg",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "B",
+            "roles": [
+              "rail"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.1) : Grand nœud ferroviaire suédois, structuré par plusieurs lignes et le triage de marchandises. (ajout après l'audit, 30/09)"
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              15.1675,
+              59.0736
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q21608340",
+              "usage": "position (coordonnées)"
+            },
+            {
+              "source_id": "src-trafikverket-hallsberg-history",
+              "locator": "",
+              "usage": "rôle de la ville au 01/01/1945"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-se-oxelosund",
+      "type_entite": "ville",
+      "nom": "Oxelösund",
+      "nom_court": "Oxelösund",
+      "aliases": [
+        "Oxelosund"
+      ],
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "C",
+            "roles": [
+              "port_maritime",
+              "rail",
+              "minerai",
+              "industrie"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.1) : Port relié au Bergslagen pour l'exportation du minerai et du bois ; sidérurgie implantée avant 1945. (ajout après l'audit, 30/09)"
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              17.1024,
+              58.672
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q21608303",
+              "usage": "position (coordonnées)"
+            },
+            {
+              "source_id": "src-oxelosund-port-rail-history",
+              "locator": "",
+              "usage": "rôle de la ville au 01/01/1945"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-se-gallivare",
+      "type_entite": "ville",
+      "nom": "Gällivare",
+      "nom_court": "Gällivare",
+      "aliases": [
+        "Gallivare"
+      ],
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "C",
+            "roles": [
+              "rail",
+              "minerai"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.1) : Nœud urbain du bassin Gällivare–Malmberget structuré par la Malmbanan et les flux de minerai. (ajout après l'audit, 30/09)"
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              20.6594,
+              67.1323
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q21721289",
+              "usage": "position (coordonnées)"
+            },
+            {
+              "source_id": "src-gallivare-malmberget-rail-history",
+              "locator": "",
+              "usage": "rôle de la ville au 01/01/1945"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-no-harstad",
+      "type_entite": "ville",
+      "nom": "Harstad",
+      "nom_court": "Harstad",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "C",
+            "roles": [
+              "port_maritime",
+              "militaire",
+              "navigation_cotiere"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.1) : Port du nord et centre militaire important sous occupation, également station de ravitaillement. (ajout après l'audit, 30/09)"
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              16.5314,
+              68.7989
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q1034159",
+              "usage": "position (coordonnées)"
+            },
+            {
+              "source_id": "src-harstad-garrison-wwii",
+              "locator": "",
+              "usage": "rôle de la ville au 01/01/1945"
+            },
+            {
+              "source_id": "src-harstad-port-history",
+              "locator": "",
+              "usage": "rôle de la ville au 01/01/1945"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-no-mo-i-rana",
+      "type_entite": "ville",
+      "nom": "Mo i Rana",
+      "nom_court": "Mo i Rana",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "C",
+            "roles": [
+              "rail",
+              "militaire"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.1) : La Nordlandsbanen atteint Mo i Rana en 1942 ; sa construction vers le nord est accélérée pour des raisons stratégiques pendant l'occupation. (ajout après l'audit, 30/09)"
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              14.1667,
+              66.3167
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q59169",
+              "usage": "position (coordonnées)"
+            },
+            {
+              "source_id": "src-snl-nordlandsbanen",
+              "locator": "",
+              "usage": "rôle de la ville au 01/01/1945"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-fi-lahti",
+      "type_entite": "ville",
+      "nom": "Lahti",
+      "nom_court": "Lahti",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "C",
+            "roles": [
+              "rail"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.1) : Ville ferroviaire sur l'ancienne ligne d'Helsinki à Saint-Pétersbourg ; gare active depuis 1869. (ajout après l'audit, 30/09)"
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              25.655,
+              60.9804
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q28911",
+              "usage": "position (coordonnées)"
+            },
+            {
+              "source_id": "src-finland-lahti-railway-museum",
+              "locator": "",
+              "usage": "rôle de la ville au 01/01/1945"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-fi-kuopio",
+      "type_entite": "ville",
+      "nom": "Kuopio",
+      "nom_court": "Kuopio",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "C",
+            "roles": [
+              "rail"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.1) : Grand point du réseau intérieur de Savonie ; le rail atteint Kuopio en 1889. (ajout après l'audit, 30/09)"
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              27.6783,
+              62.8925
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q162279",
+              "usage": "position (coordonnées)"
+            },
+            {
+              "source_id": "src-finland-kuopio-railway-history",
+              "locator": "",
+              "usage": "rôle de la ville au 01/01/1945"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-fi-joensuu",
+      "type_entite": "ville",
+      "nom": "Joensuu",
+      "nom_court": "Joensuu",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "C",
+            "roles": [
+              "rail"
+            ],
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.1) : Nœud ferroviaire de l'Est finlandais déjà établi avant 1945. (ajout après l'audit, 30/09)"
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              29.7639,
+              62.6
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q186237",
+              "usage": "position (coordonnées)"
+            },
+            {
+              "source_id": "src-finland-joensuu-railway-museum",
+              "locator": "",
+              "usage": "rôle de la ville au 01/01/1945"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    }
+  ]
+}

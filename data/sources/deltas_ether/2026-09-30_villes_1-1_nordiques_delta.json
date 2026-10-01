@@ -1,0 +1,769 @@
+{
+  "metadata": {
+    "nom": "registre_sources_villes_1-1_nordiques_delta",
+    "date_creation": "2026-09-30",
+    "instruction": "Fusionner dans le registre officiel. Réutiliser un source_id canonique si la source existe déjà ; ne jamais dupliquer une URL connue."
+  },
+  "sources_a_ajouter_si_absentes": [
+    {
+      "source_id": "src-cmp-history-copenhagen-malmo",
+      "niveau": "B",
+      "type_source": "site_institutionnel_portuaire",
+      "titre": "History of CMP",
+      "institution": "Copenhagen Malmö Port",
+      "url": "https://www.cmport.com/about-cmp/history-of-cmp/",
+      "date_consultation": "2026-09-30",
+      "cibles": [
+        "ville-dk-copenhague",
+        "ville-se-malmo"
+      ],
+      "usage": [
+        "histoire portuaire de Copenhague et Malmö",
+        "trafic de l'Øresund",
+        "infrastructures portuaires anciennes"
+      ],
+      "locator": "sections historiques sur les ports de Copenhagen et Malmö",
+      "note": ""
+    },
+    {
+      "source_id": "src-dk-railway-museum-history",
+      "niveau": "B",
+      "type_source": "musee_national_ferroviaire",
+      "titre": "Railway history from A to Z / Historien om DSB",
+      "institution": "Danmarks Jernbanemuseum",
+      "url": "https://www.jernbanemuseet.dk/en/exhibitions/railway-history-from-a-to-z/",
+      "date_consultation": "2026-09-30",
+      "cibles": [
+        "ville-dk-copenhague",
+        "ville-dk-odense",
+        "ville-dk-aalborg",
+        "ville-dk-fredericia",
+        "ville-dk-frederikshavn"
+      ],
+      "usage": [
+        "contexte du réseau ferroviaire danois",
+        "importance des axes interurbains"
+      ],
+      "locator": "historique général du réseau ; première ligne Copenhague–Roskilde, extension nationale",
+      "note": "Source famille/pays."
+    },
+    {
+      "source_id": "src-port-aarhus-history",
+      "niveau": "B",
+      "type_source": "site_institutionnel_portuaire",
+      "titre": "History of the Port of Aarhus",
+      "institution": "Port of Aarhus",
+      "url": "https://www.portofaarhus.dk/en/om-aarhus-havn/aarhus-havns-historie",
+      "date_consultation": "2026-09-30",
+      "cibles": [
+        "ville-dk-aarhus"
+      ],
+      "usage": [
+        "port",
+        "rail",
+        "commerce du Jutland",
+        "industrie"
+      ],
+      "locator": "1845–1938",
+      "note": ""
+    },
+    {
+      "source_id": "src-port-esbjerg-history",
+      "niveau": "B",
+      "type_source": "site_institutionnel_portuaire",
+      "titre": "History",
+      "institution": "Port Esbjerg",
+      "url": "https://portesbjerg.dk/en/about-us/history",
+      "date_consultation": "2026-09-30",
+      "cibles": [
+        "ville-dk-esbjerg"
+      ],
+      "usage": [
+        "port de la mer du Nord",
+        "commerce avec le Royaume-Uni",
+        "pêche"
+      ],
+      "locator": "histoire du port depuis 1868/1874",
+      "note": ""
+    },
+    {
+      "source_id": "src-dk-railway-ferries",
+      "niveau": "B",
+      "type_source": "musee_national_ferroviaire",
+      "titre": "Danske jernbanefærger / De vigtigste milepæle i DSB's historie",
+      "institution": "Danmarks Jernbanemuseum",
+      "url": "https://www.jernbanemuseet.dk/udstillinger/danske-jernbanefaerger/",
+      "date_consultation": "2026-09-30",
+      "cibles": [
+        "ville-dk-korsor",
+        "ville-dk-nyborg",
+        "ville-dk-helsingor"
+      ],
+      "usage": [
+        "ferries ferroviaires",
+        "Grand Belt",
+        "liaisons nationales avant les ponts fixes"
+      ],
+      "locator": "première liaison ferroviaire du Grand Belt en 1883",
+      "note": ""
+    },
+    {
+      "source_id": "src-padborg-station",
+      "niveau": "C",
+      "type_source": "site_touristique_institutionnel",
+      "titre": "Padborg train station",
+      "institution": "VisitDenmark / VisitAabenraa",
+      "url": "https://www.visitdenmark.com/denmark/plan-your-trip/padborg-train-station-gdk1117501",
+      "date_consultation": "2026-09-30",
+      "cibles": [
+        "ville-dk-padborg"
+      ],
+      "usage": [
+        "gare frontalière Danemark–Allemagne"
+      ],
+      "locator": "description de la gare à la frontière",
+      "note": "Source C suffisante provisoirement."
+    },
+    {
+      "source_id": "src-govfo-political-status",
+      "niveau": "A",
+      "type_source": "site_gouvernemental",
+      "titre": "The Political and Legal Status of The Faroe Islands",
+      "institution": "Government of the Faroe Islands",
+      "url": "https://www.government.fo/en/foreign-relations/the-political-and-legal-status-of-the-faroe-islands/",
+      "date_consultation": "2026-09-30",
+      "cibles": [
+        "ville-fo-torshavn"
+      ],
+      "usage": [
+        "centre administratif des Féroé pendant la guerre",
+        "séparation de fait du Danemark occupé"
+      ],
+      "locator": "passage sur la Seconde Guerre mondiale",
+      "note": ""
+    },
+    {
+      "source_id": "src-govfo-torshavn-harbour",
+      "niveau": "B",
+      "type_source": "site_gouvernemental",
+      "titre": "Political Leaders ... visit the Faroes",
+      "institution": "Government of the Faroe Islands",
+      "url": "https://www.government.fo/en/news/news/political-leaders-from-shetland-western-isles-and-orkney-visit-the-faroes",
+      "date_consultation": "2026-09-30",
+      "cibles": [
+        "ville-fo-torshavn"
+      ],
+      "usage": [
+        "Tinganes au cœur du port de Tórshavn",
+        "centralité politique et portuaire"
+      ],
+      "locator": "passage sur Tinganes et le port de la capitale",
+      "note": ""
+    },
+    {
+      "source_id": "src-snl-hurtigruta",
+      "niveau": "B",
+      "type_source": "encyclopedie_institutionnelle",
+      "titre": "Hurtigruta",
+      "institution": "Store norske leksikon",
+      "url": "https://snl.no/Hurtigruta",
+      "date_consultation": "2026-09-30",
+      "cibles": [
+        "ville-no-bergen",
+        "ville-no-trondheim",
+        "ville-no-tromso",
+        "ville-no-kirkenes",
+        "ville-no-bodo",
+        "ville-no-alesund",
+        "ville-no-hammerfest"
+      ],
+      "usage": [
+        "réseau côtier",
+        "passagers",
+        "poste",
+        "marchandises",
+        "escales du Nord"
+      ],
+      "locator": "développement avant-guerre et service quotidien à partir de 1936",
+      "note": ""
+    },
+    {
+      "source_id": "src-banenor-narvik",
+      "niveau": "B",
+      "type_source": "gestionnaire_infrastructure_ferroviaire",
+      "titre": "Narvik station",
+      "institution": "Bane NOR",
+      "url": "https://www.banenor.no/en/traffic-and-travel/railway-stations/-n-/narvik/",
+      "date_consultation": "2026-09-30",
+      "cibles": [
+        "ville-no-narvik"
+      ],
+      "usage": [
+        "Ofotbanen",
+        "connexion à Kiruna/Luleå",
+        "port"
+      ],
+      "locator": "faits historiques : station ouverte en 1902",
+      "note": ""
+    },
+    {
+      "source_id": "src-snl-narvik-1940",
+      "niveau": "B",
+      "type_source": "encyclopedie_historique",
+      "titre": "kampene i Midt- og Nord-Norge i 1940",
+      "institution": "Store norske leksikon",
+      "url": "https://snl.no/kampene_i_Midt-_og_Nord-Norge_i_1940",
+      "date_consultation": "2026-09-30",
+      "cibles": [
+        "ville-no-narvik"
+      ],
+      "usage": [
+        "importance stratégique du minerai de fer",
+        "guerre et transport"
+      ],
+      "locator": "section sur Narvik",
+      "note": ""
+    },
+    {
+      "source_id": "src-snl-trondheim-history",
+      "niveau": "B",
+      "type_source": "encyclopedie_historique",
+      "titre": "Trondheim – historie",
+      "institution": "Store norske leksikon",
+      "url": "https://snl.no/Trondheim_-_historie",
+      "date_consultation": "2026-09-30",
+      "cibles": [
+        "ville-no-trondheim"
+      ],
+      "usage": [
+        "port",
+        "rail",
+        "liaison avec la Suède",
+        "terminal intermodal historique"
+      ],
+      "locator": "modernisation des transports au XIXe–XXe siècle",
+      "note": ""
+    },
+    {
+      "source_id": "src-snl-stavanger-history",
+      "niveau": "B",
+      "type_source": "encyclopedie_historique",
+      "titre": "Stavanger – historie",
+      "institution": "Store norske leksikon",
+      "url": "https://snl.no/Stavanger_-_historie",
+      "date_consultation": "2026-09-30",
+      "cibles": [
+        "ville-no-stavanger"
+      ],
+      "usage": [
+        "industrie",
+        "aéroport Sola",
+        "liaison ferroviaire achevée en 1944"
+      ],
+      "locator": "chronologie 1937–1944",
+      "note": ""
+    },
+    {
+      "source_id": "src-snl-sorlandsbanen",
+      "niveau": "B",
+      "type_source": "encyclopedie_ferroviaire",
+      "titre": "Sørlandsbanen",
+      "institution": "Store norske leksikon",
+      "url": "https://snl.no/S%C3%B8rlandsbanen",
+      "date_consultation": "2026-09-30",
+      "cibles": [
+        "ville-no-stavanger",
+        "ville-no-kristiansand",
+        "ville-no-drammen"
+      ],
+      "usage": [
+        "axe ferroviaire Oslo–Kristiansand–Stavanger",
+        "achèvement en 1944"
+      ],
+      "locator": "historique et ouverture continue en 1944",
+      "note": ""
+    },
+    {
+      "source_id": "src-snl-danskebat",
+      "niveau": "B",
+      "type_source": "encyclopedie_transport",
+      "titre": "danskebåt",
+      "institution": "Store norske leksikon",
+      "url": "https://snl.no/danskeb%C3%A5t",
+      "date_consultation": "2026-09-30",
+      "cibles": [
+        "ville-no-kristiansand"
+      ],
+      "usage": [
+        "liaisons maritimes régulières avec le Danemark"
+      ],
+      "locator": "routes historiques Kristiansand–Danemark",
+      "note": ""
+    },
+    {
+      "source_id": "src-snl-east-finnmark",
+      "niveau": "B",
+      "type_source": "encyclopedie_historique",
+      "titre": "frigjøringen av Øst-Finnmark under andre verdenskrig",
+      "institution": "Store norske leksikon",
+      "url": "https://snl.no/frigj%C3%B8ringen_av_%C3%98st-Finnmark_under_andre_verdenskrig",
+      "date_consultation": "2026-09-30",
+      "cibles": [
+        "ville-no-kirkenes",
+        "ville-no-hammerfest"
+      ],
+      "usage": [
+        "libération de Kirkenes",
+        "retrait allemand",
+        "évacuations et destructions"
+      ],
+      "locator": "automne 1944",
+      "note": ""
+    },
+    {
+      "source_id": "src-visit-tromso-war",
+      "niveau": "C",
+      "type_source": "site_touristique_institutionnel",
+      "titre": "War history",
+      "institution": "Visit Tromsø",
+      "url": "https://www.visittromso.no/war-history",
+      "date_consultation": "2026-09-30",
+      "cibles": [
+        "ville-no-tromso"
+      ],
+      "usage": [
+        "rôle de Tromsø comme siège provisoire du gouvernement en 1940",
+        "importance militaire"
+      ],
+      "locator": "section Tromsø 1940",
+      "note": ""
+    },
+    {
+      "source_id": "src-norway-rail-context",
+      "niveau": "B",
+      "type_source": "gestionnaire_infrastructure_ferroviaire",
+      "titre": "Railway lines",
+      "institution": "Bane NOR",
+      "url": "https://www.banenor.no/en/traffic-and-travel/train-lines/",
+      "date_consultation": "2026-09-30",
+      "cibles": [
+        "ville-no-oslo",
+        "ville-no-halden",
+        "ville-no-drammen"
+      ],
+      "usage": [
+        "contexte des grands axes ferroviaires norvégiens"
+      ],
+      "locator": "liste des lignes nationales",
+      "note": "Source famille/pays ; renforcer par sources historiques lors de l'audit."
+    },
+    {
+      "source_id": "src-port-gothenburg-history",
+      "niveau": "B",
+      "type_source": "site_institutionnel_portuaire",
+      "titre": "History of the port",
+      "institution": "Port of Gothenburg",
+      "url": "https://www.portofgothenburg.com/about/history/",
+      "date_consultation": "2026-09-30",
+      "cibles": [
+        "ville-se-goteborg"
+      ],
+      "usage": [
+        "grand port suédois",
+        "commerce international"
+      ],
+      "locator": "histoire du port",
+      "note": ""
+    },
+    {
+      "source_id": "src-ports-stockholm-1900-1949",
+      "niveau": "B",
+      "type_source": "site_institutionnel_portuaire",
+      "titre": "1900–1949",
+      "institution": "Ports of Stockholm",
+      "url": "https://www.stockholmshamnar.se/historia/epoker/1900-1949/",
+      "date_consultation": "2026-09-30",
+      "cibles": [
+        "ville-se-stockholm"
+      ],
+      "usage": [
+        "import/export",
+        "port de transbordement vers Finlande, Russie et Baltique",
+        "importance avant 1945"
+      ],
+      "locator": "période 1900–1949",
+      "note": ""
+    },
+    {
+      "source_id": "src-port-helsingborg-history",
+      "niveau": "B",
+      "type_source": "site_institutionnel_portuaire",
+      "titre": "The heart of the City – Our History",
+      "institution": "Port of Helsingborg",
+      "url": "https://www.port.helsingborg.se/en/about-port-helsingborg/the-heart-of-the-city/",
+      "date_consultation": "2026-09-30",
+      "cibles": [
+        "ville-se-helsingborg"
+      ],
+      "usage": [
+        "position stratégique dans l'Øresund",
+        "port et traversées"
+      ],
+      "locator": "historique du port",
+      "note": ""
+    },
+    {
+      "source_id": "src-port-trelleborg-history",
+      "niveau": "B",
+      "type_source": "site_institutionnel_portuaire",
+      "titre": "History",
+      "institution": "Port of Trelleborg",
+      "url": "https://www.trelleborgshamn.se/en/english/about-the-port/history/",
+      "date_consultation": "2026-09-30",
+      "cibles": [
+        "ville-se-trelleborg"
+      ],
+      "usage": [
+        "ferry ferroviaire vers l'Allemagne depuis 1909",
+        "gateway continentale"
+      ],
+      "locator": "1897–1945",
+      "note": ""
+    },
+    {
+      "source_id": "src-lkab-history",
+      "niveau": "B",
+      "type_source": "site_entreprise_historique",
+      "titre": "A history of LKAB",
+      "institution": "LKAB",
+      "url": "https://lkab.com/en/who-we-are/a-history-of-lkab/",
+      "date_consultation": "2026-09-30",
+      "cibles": [
+        "ville-se-kiruna",
+        "ville-se-lulea",
+        "ville-no-narvik"
+      ],
+      "usage": [
+        "mine de Kiruna",
+        "ligne de minerai Luleå–Kiruna–Narvik",
+        "flux de minerai"
+      ],
+      "locator": "1890–1902 et développement du système minerai-rail-ports",
+      "note": ""
+    },
+    {
+      "source_id": "src-lulea-history",
+      "niveau": "B",
+      "type_source": "site_municipal",
+      "titre": "History",
+      "institution": "Luleå kommun",
+      "url": "https://www.lulea.se/language/english-engelska/facts/history.html",
+      "date_consultation": "2026-09-30",
+      "cibles": [
+        "ville-se-lulea"
+      ],
+      "usage": [
+        "commerce maritime",
+        "développement urbain portuaire"
+      ],
+      "locator": "histoire de la ville",
+      "note": ""
+    },
+    {
+      "source_id": "src-port-gavle-history",
+      "niveau": "B",
+      "type_source": "site_institutionnel_portuaire",
+      "titre": "History",
+      "institution": "Port of Gävle",
+      "url": "https://gavlehamn.se/en/about-port-of-gavle/history/",
+      "date_consultation": "2026-09-30",
+      "cibles": [
+        "ville-se-gavle"
+      ],
+      "usage": [
+        "port historique",
+        "ville maritime"
+      ],
+      "locator": "histoire du port",
+      "note": ""
+    },
+    {
+      "source_id": "src-karlskrona-naval-base",
+      "niveau": "B",
+      "type_source": "site_institutionnel_militaire",
+      "titre": "Naval Base / The Naval Port of Karlskrona",
+      "institution": "Swedish Armed Forces / Karlskrona Municipality",
+      "url": "https://www.forsvarsmakten.se/en/about-the-swedish-armed-forces/organisation/defence-branches-and-units/navy/where-we-are/naval-base/",
+      "date_consultation": "2026-09-30",
+      "cibles": [
+        "ville-se-karlskrona"
+      ],
+      "usage": [
+        "base navale",
+        "fonction militaire continue"
+      ],
+      "locator": "localisation et fonction de la base navale",
+      "note": ""
+    },
+    {
+      "source_id": "src-sweden-rail-context",
+      "niveau": "B",
+      "type_source": "gestionnaire_infrastructure_ferroviaire",
+      "titre": "Swedish railway network overview",
+      "institution": "Trafikverket",
+      "url": "https://fudinfo.trafikverket.se/fudinfoexternwebb/Publikationer/Publikationer_002301_002400/Publikation_002365/LTU-LIC-0448-SE.pdf",
+      "date_consultation": "2026-09-30",
+      "cibles": [
+        "ville-se-stockholm",
+        "ville-se-goteborg",
+        "ville-se-malmo",
+        "ville-se-norrkoping",
+        "ville-se-gavle",
+        "ville-se-sundsvall",
+        "ville-se-lulea",
+        "ville-se-haparanda",
+        "ville-se-vasteras"
+      ],
+      "usage": [
+        "structure des grands axes ferroviaires suédois"
+      ],
+      "locator": "figure 1.2 réseau ferré",
+      "note": "Contexte réseau ; ne prouve pas à lui seul chaque rôle exact au 01/01/1945."
+    },
+    {
+      "source_id": "src-port-helsinki-history",
+      "niveau": "B",
+      "type_source": "site_institutionnel_portuaire",
+      "titre": "Port history",
+      "institution": "Port of Helsinki",
+      "url": "https://www.portofhelsinki.fi/en/about-us/port-of-helsinki/port-history/",
+      "date_consultation": "2026-09-30",
+      "cibles": [
+        "ville-fi-helsinki"
+      ],
+      "usage": [
+        "port",
+        "rail portuaire",
+        "guerre 1939–1944",
+        "commerce"
+      ],
+      "locator": "sections 1863–1939",
+      "note": ""
+    },
+    {
+      "source_id": "src-port-turku-history",
+      "niveau": "B",
+      "type_source": "site_institutionnel_portuaire",
+      "titre": "History – The Port of Turku",
+      "institution": "Port of Turku",
+      "url": "https://www.portofturku.fi/en/port-as-company/history/",
+      "date_consultation": "2026-09-30",
+      "cibles": [
+        "ville-fi-turku",
+        "ville-fi-mariehamn"
+      ],
+      "usage": [
+        "port de Turku",
+        "liaisons maritimes vers la Suède",
+        "rail portuaire"
+      ],
+      "locator": "1900–1950",
+      "note": "Mariehamn devra recevoir une source propre lors de l'audit si son rôle est détaillé."
+    },
+    {
+      "source_id": "src-finland-railway-museum-network",
+      "niveau": "B",
+      "type_source": "musee_national_ferroviaire",
+      "titre": "1 524 millimetriä / Saman kellon alle",
+      "institution": "Suomen Rautatiemuseo",
+      "url": "https://rautatiemuseo.fi/rtm-story/1-524-millimetria/",
+      "date_consultation": "2026-09-30",
+      "cibles": [
+        "ville-fi-helsinki",
+        "ville-fi-oulu",
+        "ville-fi-vaasa",
+        "ville-fi-rovaniemi",
+        "ville-fi-kemi",
+        "ville-fi-tornio",
+        "ville-fi-kouvola",
+        "ville-fi-pori"
+      ],
+      "usage": [
+        "développement historique du réseau ferroviaire finlandais"
+      ],
+      "locator": "construction du réseau depuis 1862",
+      "note": "Source famille/pays ; compléter certains nœuds au besoin."
+    },
+    {
+      "source_id": "src-finland-railway-museum-tampere-turku",
+      "niveau": "B",
+      "type_source": "musee_national_ferroviaire",
+      "titre": "Toijalan takana",
+      "institution": "Suomen Rautatiemuseo",
+      "url": "https://rautatiemuseo.fi/rtm-story/toijalan-takana/",
+      "date_consultation": "2026-09-30",
+      "cibles": [
+        "ville-fi-tampere",
+        "ville-fi-turku"
+      ],
+      "usage": [
+        "arrivée du rail en 1876",
+        "rôle de Tampere et Turku dans l'ossature ferroviaire"
+      ],
+      "locator": "1876 et développement ultérieur du réseau",
+      "note": ""
+    },
+    {
+      "source_id": "src-port-oulu-history",
+      "niveau": "B",
+      "type_source": "site_institutionnel_portuaire",
+      "titre": "History – Port of Oulu",
+      "institution": "Port of Oulu",
+      "url": "https://ouluport.com/en/harbours/history/",
+      "date_consultation": "2026-09-30",
+      "cibles": [
+        "ville-fi-oulu"
+      ],
+      "usage": [
+        "port",
+        "commerce",
+        "rail portuaire"
+      ],
+      "locator": "histoire du port, notamment travaux et voies ferrées avant 1945",
+      "note": ""
+    },
+    {
+      "source_id": "src-port-kotka-history",
+      "niveau": "B",
+      "type_source": "site_institutionnel_portuaire",
+      "titre": "The Port of Kotka was created for the needs of the Finnish wood-processing industry",
+      "institution": "Port of HaminaKotka",
+      "url": "https://www.haminakotka.com/current-issues/port-kotka-was-created-needs-finnish-wood-processing-industry",
+      "date_consultation": "2026-09-30",
+      "cibles": [
+        "ville-fi-kotka",
+        "ville-fi-hamina"
+      ],
+      "usage": [
+        "industrie du bois",
+        "port d'exportation",
+        "Kymenlaakso"
+      ],
+      "locator": "histoire du port depuis les années 1870",
+      "note": ""
+    },
+    {
+      "source_id": "src-port-hanko-history",
+      "niveau": "B",
+      "type_source": "site_institutionnel_portuaire",
+      "titre": "History",
+      "institution": "Port of Hanko",
+      "url": "https://portofhanko.fi/en/company/historia/",
+      "date_consultation": "2026-09-30",
+      "cibles": [
+        "ville-fi-hanko"
+      ],
+      "usage": [
+        "premier port d'hiver de Finlande",
+        "rail",
+        "liaisons vers l'Europe centrale"
+      ],
+      "locator": "fondation 1873 et rôle du port d'hiver",
+      "note": ""
+    },
+    {
+      "source_id": "src-reykjavik-port-history",
+      "niveau": "B",
+      "type_source": "site_institutionnel_portuaire",
+      "titre": "100 years of port history",
+      "institution": "Faxaflóahafnir / Associated Icelandic Ports",
+      "url": "https://www.faxafloahafnir.is/en/saga-hafnar",
+      "date_consultation": "2026-09-30",
+      "cibles": [
+        "ville-is-reykjavik"
+      ],
+      "usage": [
+        "principal port islandais",
+        "commerce et pêche"
+      ],
+      "locator": "1912–1945",
+      "note": ""
+    },
+    {
+      "source_id": "src-akureyri-history",
+      "niveau": "B",
+      "type_source": "site_municipal",
+      "titre": "Brief history",
+      "institution": "Town of Akureyri",
+      "url": "https://gamli.akureyri.is/en/administration/about-akureyri/brief-history",
+      "date_consultation": "2026-09-30",
+      "cibles": [
+        "ville-is-akureyri"
+      ],
+      "usage": [
+        "centre commercial historique du nord de l'Islande"
+      ],
+      "locator": "histoire générale de la ville",
+      "note": ""
+    },
+    {
+      "source_id": "src-us-army-iceland-transport",
+      "niveau": "A",
+      "type_source": "histoire_militaire_officielle",
+      "titre": "The Transportation Corps: Operations Overseas",
+      "institution": "U.S. Army Center of Military History",
+      "url": "https://history.army.mil/portals/143/Images/Publications/catalog/10-21.pdf",
+      "date_consultation": "2026-09-30",
+      "cibles": [
+        "ville-is-reykjavik",
+        "ville-is-akureyri",
+        "ville-is-seydisfjordur"
+      ],
+      "usage": [
+        "ports alliés",
+        "transbordement de fret",
+        "logistique militaire islandaise"
+      ],
+      "locator": "section Iceland ; Reykjavik, Akureyri, Seydisfjordur",
+      "note": "Source A majeure pour le Snapshot 0."
+    },
+    {
+      "source_id": "src-us-navy-iceland-bases",
+      "niveau": "A",
+      "type_source": "histoire_navale_officielle",
+      "titre": "Building the Navy's Bases in World War II, vol. II",
+      "institution": "Naval History and Heritage Command",
+      "url": "https://www.history.navy.mil/research/library/online-reading-room/title-list-alphabetically/b/building-the-navys-bases/building-the-navys-bases-vol-2.html",
+      "date_consultation": "2026-09-30",
+      "cibles": [
+        "ville-is-reykjavik",
+        "ville-is-seydisfjordur"
+      ],
+      "usage": [
+        "bases navales alliées",
+        "stockage carburant",
+        "protection des routes maritimes"
+      ],
+      "locator": "section Iceland",
+      "note": ""
+    },
+    {
+      "source_id": "src-us-engineers-iceland-1943",
+      "niveau": "A",
+      "type_source": "histoire_militaire_officielle",
+      "titre": "The Corps of Engineers: The War Against Germany",
+      "institution": "U.S. Army Center of Military History",
+      "url": "https://d34w7g4gy10iej.cloudfront.net/pubs/pdf_71776.pdf",
+      "date_consultation": "2026-09-30",
+      "cibles": [
+        "ville-is-keflavik"
+      ],
+      "usage": [
+        "construction de Keflavik Field",
+        "route aérienne de l'Atlantique Nord"
+      ],
+      "locator": "Map 1 Iceland 1943 et section sur Keflavik",
+      "note": ""
+    }
+  ]
+}

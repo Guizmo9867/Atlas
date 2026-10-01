@@ -156,6 +156,8 @@ dd { margin: 0; overflow-wrap: anywhere; }
   max-height: calc(100% - 190px); overflow-y: auto; border-radius: 15px; padding: 12px 14px; font-size: 13.5px; }
 .cmd-pop h4, .fond-liste h4, .entete-info h4 { margin: 0 0 8px; font-size: 11px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: #a3aab6; }
 .cmd-pop h4.espace { margin-top: 12px; }
+.cmd-question { margin: -4px 0 10px; font: italic 13.5px Georgia, 'Times New Roman', serif; color: #f2cf8a; }
+.fond-liste { max-height: calc(100vh - 140px); overflow-y: auto; }
 .cmd-option { display: flex; gap: 10px; align-items: flex-start; width: 100%; text-align: left; padding: 7px 8px; border: 0; border-radius: 10px; background: transparent; color: inherit; }
 .cmd-option:hover:not(:disabled) { background: rgba(255,255,255,.05); }
 .cmd-option.choisi { background: rgba(224,169,74,.16); }
@@ -220,3 +222,13 @@ dd { margin: 0; overflow-wrap: anywhere; }
 /* Crédits de la carte : repliés dans le coin, sans passer sous la barre du bas */
 .maplibregl-ctrl-attrib.maplibregl-compact-show { max-width: min(380px, calc(50% - 230px)); }
 @media (max-width: 760px) { .maplibregl-ctrl-bottom-right { bottom: 70px; } }
+
+/* Noms des villes : à droite du point. Affichage automatique selon le zoom (A capitales → D micro-histoire). */
+.ville-nom { pointer-events: none; white-space: nowrap; font: 12px Georgia, 'Times New Roman', serif; color: var(--encre);
+  text-shadow: 0 0 2px #fff, 0 0 4px #fff, 0 0 6px #fff; }
+.ville-nom[data-importance="A"] { font-weight: 700; font-size: 13px; }
+.ville-nom[data-importance="C"], .ville-nom[data-importance="D"] { font-size: 11px; color: #3d372f; }
+.zoom-continent .ville-nom,
+.zoom-moyen .ville-nom:not([data-importance="A"]),
+.zoom-regional .ville-nom[data-importance="C"], .zoom-regional .ville-nom[data-importance="D"],
+.zoom-local .ville-nom[data-importance="D"] { display: none; }

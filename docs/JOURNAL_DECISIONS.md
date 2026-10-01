@@ -2,6 +2,49 @@
 
 Une ligne par décision, datée. Plus récente en haut. Ce journal remplace les versions éparpillées dans les conversations : si ce n'est pas ici, ce n'est pas décidé.
 
+## 2026-10-01 (suite : retour d'audit d'Ether sur les villes 1.2)
+
+- **Type de capitale et priorité d'affichage sont indépendants** : une capitale nationale peut être C, une ville non capitale peut être A ou B. Inscrit au lexique. *(Ether)*
+- **Vaduz : A → C**, capitale nationale gardée ; source officielle ajoutée (commune de Vaduz). **Vienne : A et capitale régionale confirmées** ; le retour comme capitale nationale (repère du 27/04/1945) sera un état daté avec sa propre source. *(Ether, fait par Claude)*
+- **Aix-la-Chapelle « évacuée et détruite » au 01/01/1945** : évacuation ordonnée, 5 000 à 20 000 habitants restés sur 165 000, plus de 80 % des bâtiments détruits (Modern War Institute, West Point). Ne prouve pas l'arrêt du réseau. **Magdebourg** : rien d'anticipé, la destruction du 16/01/1945 ira au ratissage de janvier. *(Ether, source trouvée par Claude)*
+- **Ce qu'une source prouve** : source générale = contexte seulement ; page actuelle ≠ preuve historique ; « non vérifiée » reste visible. Chaque source de ville dit son `usage` réel ; 53 villes sur 64 portent « Rôle à sourcer localement ». La page de Graz sur les pompiers est retirée des preuves. Règles ajoutées au protocole des sources. Registre v1.7. *(Ether, fait par Claude)*
+- **Lot 1.2 ouvert, pas verrouillé** : 9 candidats à examiner par Ether (Hamm, Ludwigshafen, Mayence, Schweinfurt, Augsbourg, Leuna/Merseburg, Salzgitter, Leoben/Donawitz, Osnabrück) et sources de remplacement attendues. *(Ether)*
+
+## 2026-10-01 (villes, ratissage 1.2 Allemagne + arc alpin)
+
+- **Villes 1.2 intégrées : 64 villes** (Allemagne actuelle, Autriche, Suisse, Liechtenstein), même modèle que les lots 1.0 et 1.1. Aucun rôle nouveau : fleuves → `port_fluvial`, corridors → `rail`, automobile/mécanique/chimie → `industrie`. *(Ether, fait par Claude)*
+- **Vienne = capitale régionale au 01/01/1945** (Autriche annexée : on montre qui tient le terrain, le détail juridique va dans la fiche). Priorité A gardée en attendant l'avis d'Ether. *(Claude, à confirmer par Ether)*
+- **Vaduz** : pas de source fournie → Wikidata en attendant une source officielle. Priorité A (proposition d'Ether) à rediscuter : micro-État, peu de flux. *(Claude, à confirmer)*
+- **Sources 1.2 : 34 liens lus** → 15 confirmés, 11 limités (pages modernes ou hors sujet : Brême, Kiel, Vienne, Graz-rail, ÖBB Tauern et Arlberg, Steyr, Zurich-rail, ports rhénans, Winterthour, DB Museum général), 8 non vérifiables par Claude (Hambourg, Dortmund-industrie, Francfort Hbf, les deux pages de Lausanne, Olten, Winterthour-SLM, Gothard). Registre v1.6. Signalés à Guizmo (règle « source manquante »). *(Claude)*
+
+## 2026-09-30 (suite : villes, ratissage 1.1 Nordiques)
+
+- **Audit 1.1 appliqué (65 villes)** : Fredericia C → B (pont du Petit Belt, 1935, source vérifiée) ; ajouts Boden B, Hallsberg B, Oxelösund C, Gällivare C, Harstad C, Mo i Rana C, Lahti C, Kuopio C, Joensuu C ; différés Gedser, Malmberget (future entité mine), Örebro. Registre v1.5. *(Ether, fait par Claude)*
+- **Sources non vérifiables par Claude** (serveur muet, PDF illisible, lien cassé ou lecture refusée) : Boden, Hallsberg, Gällivare, garnison de Harstad (404), les deux sources américaines sur l'Islande. Gardées et marquées dans le registre ; signalées à Guizmo (règle « source manquante »). *(Claude)*
+
+- **Villes 1.1 intégrées : 56 villes** (Danemark, Féroé, Norvège, Suède, Finlande, Islande), même modèle que le lot 1.0. *(Ether, fait par Claude)*
+- **Rôles ramenés au vocabulaire de l'Atlas** (les mots-clés d'Ether sont convertis au montage) ; nouveaux rôles : `minerai`, `peche`, `navigation_cotiere`, `militaire`. Les indications géographiques restent dans la note. *(Claude)*
+- **Nouvelle propriété `situation`** d'une ville au jour affiché (`detruite`, `evacuee`) : point gris sur la carte, flux coupés. Kirkenes, Rovaniemi, Hammerfest au 01/01/1945. *(Ether + Claude)*
+- **Sources : Claude lit chaque lien du delta avant fusion** et note le résultat dans le registre (`verification_claude` : ok / limite / faible / non_verifiee). Lot 1.1 : 29 confirmées, 4 limitées, 1 rétrogradée en C, 2 non vérifiées, 2 ajoutées par Claude (Bergensbanen, Nordlandsbanen). Registre v1.4. *(Claude)*
+
+## 2026-09-30 (suite : villes, ratissage 1.0)
+
+- **Méthode du ratissage villes** : lots géographiques avec la même grille, puis un audit global des trous. Ordre : 1.0 France, Benelux, îles Britanniques → 1.1 Nordiques → 1.2 Europe centrale et Allemagne → 1.3 Baltique et Pologne → 1.4 URSS jusqu'au Pacifique et Mongolie → 1.5 Caucase et Turquie → 1.6 Balkans, Grèce, Italie → 1.7 Ibérie → audit. *(Ether, validé par Guizmo)*
+- **Nouveau type d'entité `ville`** (ID `ville-<pays>-<nom>`), un point. `importance_atlas` A/B/C/D = priorité d'affichage automatique par le zoom (A capitales dès le zoom 3,8 ; B zoom 5 ; C zoom 6,5 ; D zoom 7,5), jamais un réglage. `roles` en mots-clés (port_maritime, rail, industrie, frontalier…). *(Ether + Claude)*
+- **Une ville ne porte ni souveraineté ni contrôle** : elle prend ceux du territoire où elle est, à la date affichée. *(Claude)*
+- **Villes dans le temps** : `valid_from` inconnu = déjà en place avant l'Atlas ; un changement d'importance, de nom ou de rôle = un nouvel état daté. *(Ether)*
+- **Positions des villes : Wikidata (CC0)**, QID gardé ; secours Natural Earth. Rôles à sourcer. *(Claude)*
+- **Noms validés** : nom français traditionnel quand il existe réellement ; `nom_local` et `aliases` derrière, pour qu'on trouve Douvres en cherchant Dover. Un vrai changement de nom = un nouvel état de la ville. *(Ether)*
+- **Sources des rôles** : par famille et par pays quand une source couvre plusieurs villes (histoire des ports, réseau ferroviaire national) ; une source propre pour un rôle particulier ou contestable (QG du SHAEF, principale base navale). Renforcées au fil des ratissages. *(Ether)*
+- **Villes 1.0 complétées (73)** : Bruges (séparée de Zeebruges), Lorient, La Rochelle, Royan, Toulon, Versailles (QG du SHAEF), Den Helder, Groningue, Londonderry (alias Derry), Leeds, Sheffield, Aberdeen. Quand Ether hésite (« C/B »), la première lettre est retenue. *(Ether, fait par Claude)*
+- **Une ville n'entre dans l'Atlas qu'à partir du moment où elle compte pour les flux** ; elle peut en sortir ou redescendre de priorité par un nouvel état daté. **Reims** est donc retirée du Snapshot 0 et entrera au ratissage de février 1945 (QG avancé du SHAEF). *(Guizmo)*
+- **Source manquante** : quand Claude n'a pas de source pour un élément et ne la trouve pas lui-même, il le signale à Guizmo, qui la demande à Ether. Règle permanente. *(Guizmo)*
+- **Canal officiel des sources Ether → Claude** : un fichier `*_sources_*_delta.json` par lot ; Claude vérifie chaque lien, fusionne au registre et garde le delta dans `data/sources/deltas_ether/`. Protocole : `docs/protocole_sources_ether_claude.md`. *(Ether + Guizmo)*
+- **Delta villes 1.0 fusionné** (registre v1.3) : NARA RG 331 (SHAEF à Versailles), SHD (poches de l'Atlantique), ministère des Armées (Reims, février 1945), port de Den Helder vérifiés ; port d'Anvers-Bruges (Zeebruges) non vérifiable (page en JavaScript). *(Claude)*
+- **Scapa Flow** n'est pas une ville (future entité base ou port). **Zeebruges** et **La Pallice** deviendront des entités port avec la couche infrastructures. *(Ether)*
+- **Audit transversal à la fin de tous les lots villes** (ports, rail, frontières, industrie, capitales) avant de déclarer le ratissage villes terminé. *(Ether)*
+- **« Repères actuels »** : le renommage du bouton « Aujourd'hui » est gardé pour plus tard. *(Guizmo)*
+
 ## 2026-09-30 (interface : la règle du temps)
 
 - **Règle du temps en haut de la carte** : remplace le lecteur du bas (plus de bouton Lecture). Effet loupe (« œil de poisson ») au centre ; traits orange = mois, blancs = semaines (lundi), gris = jours ; verre fumé transparent, environ 70 px de haut. *(Guizmo, fait par Claude)*
@@ -11,6 +54,11 @@ Une ligne par décision, datée. Plus récente en haut. Ce journal remplace les 
 - **Volet de gauche supprimé** : les commandes sont posées autour de la carte, en verre fumé. En bas, une barre **Mode · Couches · Calques · Filtres · Aujourd'hui**, un seul petit panneau ouvert à la fois ; la légende (palette) est dans « Mode ». En bas à gauche, le carré **Fond de carte**. En haut à gauche, le nom et le bouton « i » (tracés provisoires, petit lexique, et pour l'équipe : choix du corpus, zoom). Ce qui n'existe pas encore est affiché en gris « bientôt », prêt à brancher. *(Guizmo, fait par Claude)*
 - **Vocabulaire : ajout de « fond de carte »** (plan, relief, vue naturelle, satellite, vue reconstituée), ni calque ni mode de lecture. Ajouté au récap technique, à faire valider par Ether. *(Guizmo + Claude)*
 - **Idées premium gardées pour plus tard** (satellite, photos aériennes d'époque, vue reconstituée, flux en « veines ») : `docs/IDEES_POUR_PLUS_TARD.md`. *(Guizmo)*
+- **Architecture de l'interface validée** : carte en plein écran, barre haute légère, commandes en bas, informations seulement à la demande. Le « i » global explique comment l'Atlas est fabriqué ; chaque objet cliquable (ville, frontière, flux) a ses propres sources. *(Ether)*
+- **Une question en tête de chaque petit panneau**, pour que Couches et Calques ne se confondent pas : « Quels types d'histoire veux-tu explorer ? » (Couches), « Quels éléments veux-tu voir sur la carte ? » (Calques), et de même pour Mode, Filtres et Fond de carte. *(Ether, fait par Claude)*
+- **Villes : pas de réglage « capitales seulement »**. L'affichage suit le zoom tout seul : Eurasie → noms des pays ; continent → capitales ; pays → grandes villes structurantes ; région → nœuds ferroviaires, ports, villes frontalières et industrielles ; local → petites villes pertinentes et micro-histoire. On peut seulement couper tout le calque Villes. *(Ether)*
+- **Fond de carte, règle « pas de mensonge visuel »** : aérien et satellite historiques ne s'affichent que là où une image existe pour la date et la zone ; ailleurs l'Atlas garde Plan ou Relief. Liste : Plan, Relief, Vue naturelle, Aérien historique, Satellite historique, Carte d'époque (scan superposé), Vue reconstituée (annoncée comme telle). *(Ether + Guizmo)*
+- **À trancher** : le nom du bouton « Aujourd'hui », qui peut faire croire qu'il ramène la date à aujourd'hui (pistes : « Repères actuels », « Comparer à aujourd'hui ») ; à tester sur quelqu'un qui ne connaît pas le projet. *(Ether)*
 - **En pause** : la simplification des couleurs (« qui tient le terrain » en carte principale, le légal dans la fiche), à trancher ensemble. *(Guizmo)*
 
 ## 2026-09-29 (retour d'Ether sur le lot 04)

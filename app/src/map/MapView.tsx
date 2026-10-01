@@ -14,12 +14,17 @@ export interface Calques {
   ponts: boolean
   evenements: boolean
   parcours: boolean
+  villes: boolean
   reperesModernes: boolean
 }
 
 // Seuils de zoom des pastilles selon profondeur_affichage (gabarit événement)
 export const ZOOM_MIN = { atlas: 0, regional: 5, archive: 6.5 } as const
 const PROFONDEURS = ['atlas', 'regional', 'archive'] as const
+
+// Villes : priorité d'affichage automatique selon le zoom (Ether, 30/09/2026) — A capitales, B grandes villes, C nœuds régionaux, D micro-histoire
+export const ZOOM_VILLES = { A: 3.8, B: 5, C: 6.5, D: 7.5 } as const
+const IMPORTANCES = ['A', 'B', 'C', 'D'] as const
 
 const ETAGES = [0, 1, 2]
 const couche = (base: string, d: number) => (d === 0 ? base : `${base}-${d}`)
@@ -31,9 +36,10 @@ const GROUPES: Record<keyof Calques, string[]> = {
   ponts: ['ponts'],
   evenements: PROFONDEURS.map((p) => `pastilles-${p}`),
   parcours: PROFONDEURS.map((p) => `parcours-${p}`),
+  villes: IMPORTANCES.map((i) => `villes-${i}`),
   reperesModernes: ['osm'],
 }
-const CLIQUABLES = [...PROFONDEURS.map((p) => `pastilles-${p}`), ...PROFONDEURS.map((p) => `parcours-${p}`), 'ponts', 'frontieres', ...[...ETAGES].reverse().map((d) => couche('territoires-fond', d))]
+const CLIQUABLES = [...IMPORTANCES.map((i) => `villes-${i}`), ...PROFONDEURS.map((p) => `pastilles-${p}`), ...PROFONDEURS.map((p) => `parcours-${p}`), 'ponts', 'frontieres', ...[...ETAGES].reverse().map((d) => couche('territoires-fond', d))]
 
 interface Props {
   emprise: [number, number, number, number]
@@ -77,6 +83,7 @@ export default function MapView({ emprise, couches, calques, selection, onSelect
           ponts: { type: 'geojson', data: VIDE },
           pastilles: { type: 'geojson', data: VIDE },
           parcours: { type: 'geojson', data: VIDE },
+          villes: { type: 'geojson', data: VIDE },
         },
         layers: [
           { id: 'mer', type: 'background', paint: { 'background-color': '#c6d6dd' } },
@@ -120,6 +127,17 @@ export default function MapView({ emprise, couches, calques, selection, onSelect
             layout: { 'line-cap': 'round' as const, 'line-join': 'round' as const },
             paint: { 'line-color': ['get', 'couleur'] as unknown as string, 'line-width': 3.5, 'line-dasharray': [1.5, 1.2],
               'line-opacity': ['case', ['==', ['get', 'phase'], 'en_cours'], 0.95, 0.45] as unknown as number },
+          })),
+          ...IMPORTANCES.map((i) => ({
+            id: `villes-${i}`, type: 'circle' as const, source: 'villes', minzoom: ZOOM_VILLES[i],
+            filter: ['==', ['get', 'importance'], i] as maplibregl.FilterSpecification,
+            paint: {
+              'circle-radius': (i === 'A' ? 4.5 : i === 'B' ? 3.6 : 2.8) as number,
+              // ville détruite ou évacuée au jour affiché : point gris (flux coupés)
+              'circle-color': ['case', ['!=', ['get', 'situation'], ''], '#a59d90', ['!=', ['get', 'capitale'], ''], '#2a2622', '#fffdf8'] as unknown as string,
+              'circle-stroke-color': ['case', ['!=', ['get', 'capitale'], ''], '#fffdf8', '#2a2622'] as unknown as string,
+              'circle-stroke-width': (i === 'A' ? 2 : 1.4) as number,
+            },
           })),
           { id: 'selection-ligne', type: 'line', source: 'territoires', filter: ['==', ['get', 'entite_id'], ''],
             paint: { 'line-color': '#111', 'line-width': 3 } },
@@ -168,6 +186,7 @@ export default function MapView({ emprise, couches, calques, selection, onSelect
     })
     const majZoom = () => {
       derniers.current.onZoom(map.getZoom())
+      map.getContainer().classList.toggle('zoom-continent', map.getZoom() < ZOOM_VILLES.A)
       // à petite échelle, on n'étiquette que les territoires « parents » (sinon tout se chevauche)
       map.getContainer().classList.toggle('zoom-faible', map.getZoom() < 3.8)
       map.getContainer().classList.toggle('zoom-moyen', map.getZoom() < 5)
@@ -208,6 +227,7 @@ function appliquer(map: maplibregl.Map, c: CouchesDuJour, etiquettes: React.Muta
   src('ponts').setData(c.ponts)
   src('pastilles').setData(c.pastilles)
   src('parcours').setData(c.parcours)
+  src('villes').setData(c.villes)
   // Étiquettes des territoires (éléments HTML : pas besoin de serveur de polices)
   etiquettes.current.forEach((m) => m.remove())
   etiquettes.current = c.territoires.features.map((f) => {
@@ -225,6 +245,15 @@ function appliquer(map: maplibregl.Map, c: CouchesDuJour, etiquettes: React.Muta
     el.innerHTML = `<strong>${nom}</strong>${v && libelle !== nom ? `<span>${libelle}</span>` : ''}`
     return new maplibregl.Marker({ element: el }).setLngLat(pointRepresentatif(f.geometry as Polygon) as [number, number]).addTo(map)
   })
+  // Noms des villes : à droite du point, montrés selon le zoom par les classes zoom-* (voir styles.css)
+  etiquettes.current.push(...c.villes.features.map((f) => {
+    const el = document.createElement('div')
+    el.className = 'ville-nom'
+    el.dataset.importance = String(f.properties?.importance ?? 'C')
+    el.dataset.capitale = f.properties?.capitale ? '1' : '0'
+    el.textContent = String(f.properties?.nom ?? '')
+    return new maplibregl.Marker({ element: el, anchor: 'left', offset: [7, 0] }).setLngLat((f.geometry as GeoJSON.Point).coordinates as [number, number]).addTo(map)
+  }))
 }
 
 function visibilite(map: maplibregl.Map, calques: Calques) {
@@ -232,6 +261,7 @@ function visibilite(map: maplibregl.Map, calques: Calques) {
     for (const id of ids) map.setLayoutProperty(id, 'visibility', calques[cle as keyof Calques] ? 'visible' : 'none')
   }
   document.querySelectorAll<HTMLElement>('.etiquette').forEach((el) => { el.style.display = calques.territoires ? '' : 'none' })
+  document.querySelectorAll<HTMLElement>('.ville-nom').forEach((el) => { el.style.display = calques.villes ? '' : 'none' })
 }
 
 function surligner(map: maplibregl.Map, s: Selection) {
@@ -253,10 +283,15 @@ function dessinerHachure(couleur: string, croise = false): ImageData {
   return ctx.getImageData(0, 0, t, t)
 }
 
-/** Surface approximative du rectangle englobant, en degrés² (pour masquer les petites étiquettes à petite échelle). */
+/** Surface approximative du rectangle englobant du PLUS GRAND morceau, en degrés² (pour masquer les petites étiquettes
+ *  à petite échelle). Par morceau : des poches éparpillées (Dunkerque… Royan) restent « minuscules ». */
 function etendue(g: GeoJSON.Geometry): number {
-  let [x0, y0, x1, y1] = [Infinity, Infinity, -Infinity, -Infinity]
   const anneaux = g.type === 'Polygon' ? [g.coordinates[0]] : g.type === 'MultiPolygon' ? g.coordinates.map((p) => p[0]) : []
-  for (const a of anneaux) for (const [x, y] of a) { if (x < x0) x0 = x; if (x > x1) x1 = x; if (y < y0) y0 = y; if (y > y1) y1 = y }
-  return anneaux.length ? (x1 - x0) * (y1 - y0) : 0
+  let max = 0
+  for (const a of anneaux) {
+    let [x0, y0, x1, y1] = [Infinity, Infinity, -Infinity, -Infinity]
+    for (const [x, y] of a) { if (x < x0) x0 = x; if (x > x1) x1 = x; if (y < y0) y0 = y; if (y > y1) y1 = y }
+    max = Math.max(max, (x1 - x0) * (y1 - y0))
+  }
+  return max
 }

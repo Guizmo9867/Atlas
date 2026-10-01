@@ -1,0 +1,216 @@
+{
+  "metadata": {
+    "nom": "villes_1-1_nordiques_audit_patch",
+    "date_reference": "1945-01-01",
+    "heure_reference": "00:00",
+    "date_creation": "2026-09-30",
+    "statut": "proposition_a_integrer_par_claude"
+  },
+  "decisions": [
+    {
+      "entite_id": "ville-dk-fredericia",
+      "action": "modifier",
+      "importance_atlas": "B",
+      "raison": "Le Lillebæltsbroen de 1935 transforme l'axe ferroviaire national Jutland–Fionie–Copenhague."
+    },
+    {
+      "entite_id": "ville-no-hammerfest",
+      "action": "conserver",
+      "importance_atlas": "C",
+      "raison": "L'évacuation/destruction est une rupture de flux historiquement pertinente."
+    },
+    {
+      "entite_id": "ville-fi-mariehamn",
+      "action": "conserver",
+      "importance_atlas": "C",
+      "raison": "Pas de source suffisante pour la monter en B au Snapshot 0."
+    },
+    {
+      "entite_id": "ville-se-vasteras",
+      "action": "conserver",
+      "importance_atlas": "C",
+      "raison": "Importance industrielle réelle, mais rôle de flux moins structurant que Hallsberg/Boden/Oxelösund."
+    }
+  ],
+  "ajouts": [
+    {
+      "entite_id": "ville-se-boden",
+      "type_entite": "ville",
+      "nom": "Boden",
+      "nom_local": "Boden",
+      "aliases": [],
+      "importance_atlas": "B",
+      "roles": [
+        "rail",
+        "militaire"
+      ],
+      "note": "Jonction de la Malmbanan et de la ligne principale du Norrland ; ville-forteresse stratégique.",
+      "sources": [
+        "src-boden-jarnvagsknut-fortress"
+      ]
+    },
+    {
+      "entite_id": "ville-se-hallsberg",
+      "type_entite": "ville",
+      "nom": "Hallsberg",
+      "nom_local": "Hallsberg",
+      "aliases": [],
+      "importance_atlas": "B",
+      "roles": [
+        "rail",
+        "fret"
+      ],
+      "note": "Grand nœud ferroviaire suédois, structuré par plusieurs lignes et le triage de marchandises.",
+      "sources": [
+        "src-trafikverket-hallsberg-history"
+      ]
+    },
+    {
+      "entite_id": "ville-se-oxelosund",
+      "type_entite": "ville",
+      "nom": "Oxelösund",
+      "nom_local": "Oxelösund",
+      "aliases": [
+        "Oxelosund"
+      ],
+      "importance_atlas": "C",
+      "roles": [
+        "port_maritime",
+        "rail",
+        "minerai",
+        "industrie"
+      ],
+      "note": "Port relié au Bergslagen pour l'exportation du minerai et du bois ; sidérurgie implantée avant 1945.",
+      "sources": [
+        "src-oxelosund-port-rail-history"
+      ]
+    },
+    {
+      "entite_id": "ville-se-gallivare",
+      "type_entite": "ville",
+      "nom": "Gällivare",
+      "nom_local": "Gällivare",
+      "aliases": [
+        "Gallivare"
+      ],
+      "importance_atlas": "C",
+      "roles": [
+        "rail",
+        "minerai"
+      ],
+      "note": "Nœud urbain du bassin Gällivare–Malmberget structuré par la Malmbanan et les flux de minerai.",
+      "sources": [
+        "src-gallivare-malmberget-rail-history"
+      ]
+    },
+    {
+      "entite_id": "ville-no-harstad",
+      "type_entite": "ville",
+      "nom": "Harstad",
+      "nom_local": "Harstad",
+      "aliases": [],
+      "importance_atlas": "C",
+      "roles": [
+        "port_maritime",
+        "militaire",
+        "navigation_cotiere"
+      ],
+      "note": "Port du nord et centre militaire important sous occupation, également station de ravitaillement.",
+      "sources": [
+        "src-harstad-garrison-wwii",
+        "src-harstad-port-history"
+      ]
+    },
+    {
+      "entite_id": "ville-no-mo-i-rana",
+      "type_entite": "ville",
+      "nom": "Mo i Rana",
+      "nom_local": "Mo i Rana",
+      "aliases": [],
+      "importance_atlas": "C",
+      "roles": [
+        "rail",
+        "militaire"
+      ],
+      "note": "La Nordlandsbanen atteint Mo i Rana en 1942 ; sa construction vers le nord est accélérée pour des raisons stratégiques pendant l'occupation.",
+      "sources": [
+        "src-snl-nordlandsbanen-historical"
+      ]
+    },
+    {
+      "entite_id": "ville-fi-lahti",
+      "type_entite": "ville",
+      "nom": "Lahti",
+      "nom_local": "Lahti",
+      "aliases": [],
+      "importance_atlas": "C",
+      "roles": [
+        "rail"
+      ],
+      "note": "Ville ferroviaire sur l'ancienne ligne d'Helsinki à Saint-Pétersbourg ; gare active depuis 1869.",
+      "sources": [
+        "src-finland-lahti-railway-museum"
+      ]
+    },
+    {
+      "entite_id": "ville-fi-kuopio",
+      "type_entite": "ville",
+      "nom": "Kuopio",
+      "nom_local": "Kuopio",
+      "aliases": [],
+      "importance_atlas": "C",
+      "roles": [
+        "rail",
+        "noeud_interieur"
+      ],
+      "note": "Grand point du réseau intérieur de Savonie ; le rail atteint Kuopio en 1889.",
+      "sources": [
+        "src-finland-kuopio-railway-history"
+      ]
+    },
+    {
+      "entite_id": "ville-fi-joensuu",
+      "type_entite": "ville",
+      "nom": "Joensuu",
+      "nom_local": "Joensuu",
+      "aliases": [],
+      "importance_atlas": "C",
+      "roles": [
+        "rail",
+        "noeud_interieur"
+      ],
+      "note": "Nœud ferroviaire de l'Est finlandais déjà établi avant 1945.",
+      "sources": [
+        "src-finland-joensuu-railway-museum"
+      ]
+    }
+  ],
+  "differe": [
+    {
+      "nom": "Gedser",
+      "raison": "Attendre une source confirmant un rôle ferry utile exactement au 01/01/1945."
+    },
+    {
+      "nom": "Malmberget comme ville séparée",
+      "raison": "À traiter plus tard comme entité mine/industrie ; le bassin est provisoirement capté via Gällivare."
+    },
+    {
+      "nom": "Örebro",
+      "raison": "Hallsberg est plus directement justifié comme nœud de flux ferroviaire."
+    }
+  ],
+  "source_fixes": [
+    {
+      "source_id": "src-us-army-iceland-transport",
+      "action": "remplacer_url_si_403",
+      "nouvelle_url": "https://history.army.mil/Portals/143/Images/Publications/Publication%20By%20Title%20Images/T%20PDF/transportation-corps-3.pdf",
+      "locator": "The Atlantic and Caribbean Bases / Iceland ; Reykjavik, Akureyri, Seydisfjordur"
+    },
+    {
+      "source_id": "src-us-navy-iceland-bases",
+      "action": "preciser_locator",
+      "url": "https://www.history.navy.mil/content/history/nhhc/research/library/online-reading-room/title-list-alphabetically/b/building-the-navys-bases/building-the-navys-bases-vol-2.html",
+      "locator": "Iceland ; Fleet Air Base Reykjavik ; Seydisfjord fuel tanks"
+    }
+  ]
+}

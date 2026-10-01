@@ -40,6 +40,12 @@ export const PALETTES: Record<ModeLecture | 'categorie', Palette> = {
 }
 
 export const LIBELLES: Record<string, string> = {
+  // rôles des villes
+  capitale: 'capitale', rail: 'nœud ferroviaire', port_maritime: 'port maritime', port_fluvial: 'port fluvial', industrie: 'industrie', frontalier: 'ville frontalière',
+  administration: 'administration', aviation: 'aviation', base_navale: 'base navale', ferry: 'ferries', detroit: 'détroit', charbon: 'charbon',
+  construction_navale: 'construction navale', siderurgie: 'sidérurgie', transatlantique: 'lignes transatlantiques',
+  base_sous_marine: 'base sous-marine', quartier_general: 'quartier général',
+  minerai: 'minerai', peche: 'pêche', navigation_cotiere: 'navigation côtière', militaire: 'importance militaire',
   urss: 'URSS', finlande: 'Finlande', republique_de_chine: 'République de Chine', republique_populaire_mongole: 'Rép. populaire mongole',
   allies_ww2: 'Alliés', axis_ww2: 'Allemagne nazie', axis_associe_ww2: 'États associés à l’Axe', neutral_ww2: 'Neutres / hors conflit', soviet_bloc: 'Bloc soviétique', anti_axis_non_allied: 'Hors coalitions, en guerre contre l’Axe', pro_sovietique_non_belligerant: 'Liée à l’URSS, non belligérante', occupe_hors_coalitions: 'Occupé, hors coalitions', pro_allied_armed_neutral: 'Neutre armé, orienté vers les Alliés',
   allemagne: 'Allemagne', autriche: 'Autriche', pologne: 'Pologne',

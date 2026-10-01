@@ -1,0 +1,2216 @@
+{
+  "metadata_lot": {
+    "nom": "villes_1-1_nordiques",
+    "date_reference": "1945-01-01",
+    "heure_reference": "00:00",
+    "version": "0.1-proposition",
+    "statut": "a_integrer_par_claude",
+    "zone": [
+      "Danemark",
+      "Îles Féroé",
+      "Norvège",
+      "Suède",
+      "Finlande",
+      "Islande"
+    ],
+    "nombre_villes": 56,
+    "regles": [
+      "Uniquement villes/nœuds ayant un rôle Atlas réel au 01/01/1945.",
+      "A = capitale/métropole continentale ; B = hub majeur ; C = nœud régional structurant ; D = micro-histoire/local.",
+      "L'affichage A/B/C/D est automatique selon le zoom, jamais un réglage utilisateur.",
+      "Une ville n'embarque ni souveraineté ni contrôle : elle hérite du territoire où tombe son point à la date affichée.",
+      "Nom français traditionnel si réellement établi ; nom_local et aliases conservés pour recherche.",
+      "Un rôle futur n'est pas anticipé : il apparaîtra lors du ratissage de la date correspondante.",
+      "Ports, bases, gares et aéroports pourront devenir des entités propres dans les couches suivantes ; ici leur rôle justifie seulement la présence de la ville.",
+      "Positions à récupérer comme pour le lot 1.0 via Wikidata/CC0, QID enregistré par Claude."
+    ]
+  },
+  "villes": [
+    {
+      "entite_id": "ville-dk-copenhague",
+      "type_entite": "ville",
+      "nom": "Copenhague",
+      "nom_local": "København",
+      "aliases": [
+        "Copenhagen"
+      ],
+      "pays_cible": "Danemark",
+      "etats": [
+        {
+          "etat_id": "etat-1945-01-01",
+          "valid_from": {
+            "date": "1945-01-01",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "en_cours"
+          },
+          "importance_atlas": "A",
+          "roles": [
+            "capitale",
+            "port_maritime",
+            "rail",
+            "industrie",
+            "administration"
+          ],
+          "note": "Capitale et principal nœud politique, ferroviaire et maritime du Danemark ; grand port de l'Øresund.",
+          "sources": [
+            {
+              "source_id": "src-cmp-history-copenhagen-malmo",
+              "usage": "rôle de la ville au Snapshot 0",
+              "locator": ""
+            },
+            {
+              "source_id": "src-dk-railway-museum-history",
+              "usage": "rôle de la ville au Snapshot 0",
+              "locator": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-dk-aarhus",
+      "type_entite": "ville",
+      "nom": "Aarhus",
+      "nom_local": "Aarhus",
+      "aliases": [
+        "Århus"
+      ],
+      "pays_cible": "Danemark",
+      "etats": [
+        {
+          "etat_id": "etat-1945-01-01",
+          "valid_from": {
+            "date": "1945-01-01",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "en_cours"
+          },
+          "importance_atlas": "B",
+          "roles": [
+            "port_maritime",
+            "rail",
+            "industrie",
+            "commerce"
+          ],
+          "note": "Deuxième grande ville du pays ; port relié au rail et grand centre des échanges du Jutland.",
+          "sources": [
+            {
+              "source_id": "src-port-aarhus-history",
+              "usage": "rôle de la ville au Snapshot 0",
+              "locator": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-dk-odense",
+      "type_entite": "ville",
+      "nom": "Odense",
+      "nom_local": "Odense",
+      "aliases": [],
+      "pays_cible": "Danemark",
+      "etats": [
+        {
+          "etat_id": "etat-1945-01-01",
+          "valid_from": {
+            "date": "1945-01-01",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "en_cours"
+          },
+          "importance_atlas": "B",
+          "roles": [
+            "rail",
+            "industrie",
+            "corridor_interieur"
+          ],
+          "note": "Grand nœud urbain de Fionie sur l'axe ferroviaire Est-Ouest entre Copenhague et le Jutland.",
+          "sources": [
+            {
+              "source_id": "src-dk-railway-museum-history",
+              "usage": "rôle de la ville au Snapshot 0",
+              "locator": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-dk-aalborg",
+      "type_entite": "ville",
+      "nom": "Aalborg",
+      "nom_local": "Aalborg",
+      "aliases": [
+        "Ålborg"
+      ],
+      "pays_cible": "Danemark",
+      "etats": [
+        {
+          "etat_id": "etat-1945-01-01",
+          "valid_from": {
+            "date": "1945-01-01",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "en_cours"
+          },
+          "importance_atlas": "B",
+          "roles": [
+            "port_maritime",
+            "rail",
+            "industrie",
+            "detroit"
+          ],
+          "note": "Centre industriel et portuaire du Limfjord, structurant les flux du nord du Jutland.",
+          "sources": [
+            {
+              "source_id": "src-dk-railway-museum-history",
+              "usage": "rôle de la ville au Snapshot 0",
+              "locator": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-dk-esbjerg",
+      "type_entite": "ville",
+      "nom": "Esbjerg",
+      "nom_local": "Esbjerg",
+      "aliases": [],
+      "pays_cible": "Danemark",
+      "etats": [
+        {
+          "etat_id": "etat-1945-01-01",
+          "valid_from": {
+            "date": "1945-01-01",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "en_cours"
+          },
+          "importance_atlas": "B",
+          "roles": [
+            "port_maritime",
+            "rail",
+            "peche",
+            "commerce_international"
+          ],
+          "note": "Grand port de la mer du Nord, tourné historiquement vers le Royaume-Uni et la pêche.",
+          "sources": [
+            {
+              "source_id": "src-port-esbjerg-history",
+              "usage": "rôle de la ville au Snapshot 0",
+              "locator": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-dk-frederikshavn",
+      "type_entite": "ville",
+      "nom": "Frederikshavn",
+      "nom_local": "Frederikshavn",
+      "aliases": [],
+      "pays_cible": "Danemark",
+      "etats": [
+        {
+          "etat_id": "etat-1945-01-01",
+          "valid_from": {
+            "date": "1945-01-01",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "en_cours"
+          },
+          "importance_atlas": "C",
+          "roles": [
+            "port_maritime",
+            "ferry",
+            "militaire",
+            "rail"
+          ],
+          "note": "Port stratégique du nord du Jutland, utile pour les liaisons avec la Norvège et la Suède.",
+          "sources": [
+            {
+              "source_id": "src-dk-railway-museum-history",
+              "usage": "rôle de la ville au Snapshot 0",
+              "locator": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-dk-helsingor",
+      "type_entite": "ville",
+      "nom": "Elseneur",
+      "nom_local": "Helsingør",
+      "aliases": [
+        "Helsingor",
+        "Elsinore"
+      ],
+      "pays_cible": "Danemark",
+      "etats": [
+        {
+          "etat_id": "etat-1945-01-01",
+          "valid_from": {
+            "date": "1945-01-01",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "en_cours"
+          },
+          "importance_atlas": "C",
+          "roles": [
+            "port_maritime",
+            "ferry",
+            "detroit",
+            "rail"
+          ],
+          "note": "Ville du détroit de l'Øresund face à Helsingborg ; passage maritime et ferroviaire important.",
+          "sources": [
+            {
+              "source_id": "src-dk-railway-ferries",
+              "usage": "rôle de la ville au Snapshot 0",
+              "locator": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-dk-padborg",
+      "type_entite": "ville",
+      "nom": "Padborg",
+      "nom_local": "Padborg",
+      "aliases": [],
+      "pays_cible": "Danemark",
+      "etats": [
+        {
+          "etat_id": "etat-1945-01-01",
+          "valid_from": {
+            "date": "1945-01-01",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "en_cours"
+          },
+          "importance_atlas": "C",
+          "roles": [
+            "frontiere",
+            "rail",
+            "corridor_international"
+          ],
+          "note": "Nœud ferroviaire directement à la frontière germano-danoise, pertinent pour les flux terrestres.",
+          "sources": [
+            {
+              "source_id": "src-padborg-station",
+              "usage": "rôle de la ville au Snapshot 0",
+              "locator": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-dk-korsor",
+      "type_entite": "ville",
+      "nom": "Korsør",
+      "nom_local": "Korsør",
+      "aliases": [
+        "Korsoer"
+      ],
+      "pays_cible": "Danemark",
+      "etats": [
+        {
+          "etat_id": "etat-1945-01-01",
+          "valid_from": {
+            "date": "1945-01-01",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "en_cours"
+          },
+          "importance_atlas": "C",
+          "roles": [
+            "port_maritime",
+            "rail",
+            "ferry"
+          ],
+          "note": "Tête orientale de la traversée ferroviaire du Grand Belt avant la liaison fixe.",
+          "sources": [
+            {
+              "source_id": "src-dk-railway-ferries",
+              "usage": "rôle de la ville au Snapshot 0",
+              "locator": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-dk-nyborg",
+      "type_entite": "ville",
+      "nom": "Nyborg",
+      "nom_local": "Nyborg",
+      "aliases": [],
+      "pays_cible": "Danemark",
+      "etats": [
+        {
+          "etat_id": "etat-1945-01-01",
+          "valid_from": {
+            "date": "1945-01-01",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "en_cours"
+          },
+          "importance_atlas": "C",
+          "roles": [
+            "port_maritime",
+            "rail",
+            "ferry"
+          ],
+          "note": "Tête occidentale de la traversée ferroviaire du Grand Belt ; maillon essentiel de l'axe national Est-Ouest.",
+          "sources": [
+            {
+              "source_id": "src-dk-railway-ferries",
+              "usage": "rôle de la ville au Snapshot 0",
+              "locator": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-dk-fredericia",
+      "type_entite": "ville",
+      "nom": "Fredericia",
+      "nom_local": "Fredericia",
+      "aliases": [],
+      "pays_cible": "Danemark",
+      "etats": [
+        {
+          "etat_id": "etat-1945-01-01",
+          "valid_from": {
+            "date": "1945-01-01",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "en_cours"
+          },
+          "importance_atlas": "C",
+          "roles": [
+            "rail",
+            "port_maritime",
+            "corridor_interieur"
+          ],
+          "note": "Grand carrefour ferroviaire du Jutland oriental, renforcé par la liaison du Petit Belt ouverte avant-guerre.",
+          "sources": [
+            {
+              "source_id": "src-dk-railway-museum-history",
+              "usage": "rôle de la ville au Snapshot 0",
+              "locator": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-fo-torshavn",
+      "type_entite": "ville",
+      "nom": "Tórshavn",
+      "nom_local": "Tórshavn",
+      "aliases": [
+        "Thorshavn"
+      ],
+      "pays_cible": "Îles Féroé",
+      "etats": [
+        {
+          "etat_id": "etat-1945-01-01",
+          "valid_from": {
+            "date": "1945-01-01",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "en_cours"
+          },
+          "importance_atlas": "B",
+          "roles": [
+            "capitale_territoriale",
+            "port_maritime",
+            "administration",
+            "atlantique_nord"
+          ],
+          "note": "Capitale et port principal des Féroé ; centre administratif d'un archipel coupé du Danemark occupé et défendu par les Britanniques.",
+          "sources": [
+            {
+              "source_id": "src-govfo-political-status",
+              "usage": "rôle de la ville au Snapshot 0",
+              "locator": ""
+            },
+            {
+              "source_id": "src-govfo-torshavn-harbour",
+              "usage": "rôle de la ville au Snapshot 0",
+              "locator": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-no-oslo",
+      "type_entite": "ville",
+      "nom": "Oslo",
+      "nom_local": "Oslo",
+      "aliases": [],
+      "pays_cible": "Norvège",
+      "etats": [
+        {
+          "etat_id": "etat-1945-01-01",
+          "valid_from": {
+            "date": "1945-01-01",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "en_cours"
+          },
+          "importance_atlas": "A",
+          "roles": [
+            "capitale",
+            "port_maritime",
+            "rail",
+            "industrie",
+            "administration"
+          ],
+          "note": "Capitale, grand port et cœur du réseau ferroviaire du sud de la Norvège.",
+          "sources": [
+            {
+              "source_id": "src-norway-rail-context",
+              "usage": "rôle de la ville au Snapshot 0",
+              "locator": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-no-bergen",
+      "type_entite": "ville",
+      "nom": "Bergen",
+      "nom_local": "Bergen",
+      "aliases": [],
+      "pays_cible": "Norvège",
+      "etats": [
+        {
+          "etat_id": "etat-1945-01-01",
+          "valid_from": {
+            "date": "1945-01-01",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "en_cours"
+          },
+          "importance_atlas": "B",
+          "roles": [
+            "port_maritime",
+            "rail",
+            "hurtigruten",
+            "commerce"
+          ],
+          "note": "Grand port de la côte ouest, relié à Oslo par le Bergensbanen et intégré au réseau côtier.",
+          "sources": [
+            {
+              "source_id": "src-snl-bergensbanen",
+              "usage": "rôle de la ville au Snapshot 0",
+              "locator": ""
+            },
+            {
+              "source_id": "src-snl-hurtigruta",
+              "usage": "rôle de la ville au Snapshot 0",
+              "locator": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-no-trondheim",
+      "type_entite": "ville",
+      "nom": "Trondheim",
+      "nom_local": "Trondheim",
+      "aliases": [
+        "Trondhjem"
+      ],
+      "pays_cible": "Norvège",
+      "etats": [
+        {
+          "etat_id": "etat-1945-01-01",
+          "valid_from": {
+            "date": "1945-01-01",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "en_cours"
+          },
+          "importance_atlas": "B",
+          "roles": [
+            "port_maritime",
+            "rail",
+            "hurtigruten",
+            "industrie"
+          ],
+          "note": "Nœud portuaire et ferroviaire majeur reliant le sud, la Suède et la navigation côtière vers le nord.",
+          "sources": [
+            {
+              "source_id": "src-snl-trondheim-history",
+              "usage": "rôle de la ville au Snapshot 0",
+              "locator": ""
+            },
+            {
+              "source_id": "src-snl-hurtigruta",
+              "usage": "rôle de la ville au Snapshot 0",
+              "locator": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-no-stavanger",
+      "type_entite": "ville",
+      "nom": "Stavanger",
+      "nom_local": "Stavanger",
+      "aliases": [],
+      "pays_cible": "Norvège",
+      "etats": [
+        {
+          "etat_id": "etat-1945-01-01",
+          "valid_from": {
+            "date": "1945-01-01",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "en_cours"
+          },
+          "importance_atlas": "B",
+          "roles": [
+            "port_maritime",
+            "rail",
+            "industrie",
+            "aviation"
+          ],
+          "note": "Port industriel majeur ; relié depuis 1944 au réseau ferroviaire continu vers Oslo et doté de l'aéroport de Sola.",
+          "sources": [
+            {
+              "source_id": "src-snl-stavanger-history",
+              "usage": "rôle de la ville au Snapshot 0",
+              "locator": ""
+            },
+            {
+              "source_id": "src-snl-sorlandsbanen",
+              "usage": "rôle de la ville au Snapshot 0",
+              "locator": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-no-kristiansand",
+      "type_entite": "ville",
+      "nom": "Kristiansand",
+      "nom_local": "Kristiansand",
+      "aliases": [],
+      "pays_cible": "Norvège",
+      "etats": [
+        {
+          "etat_id": "etat-1945-01-01",
+          "valid_from": {
+            "date": "1945-01-01",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "en_cours"
+          },
+          "importance_atlas": "B",
+          "roles": [
+            "port_maritime",
+            "rail",
+            "ferry",
+            "corridor_danemark"
+          ],
+          "note": "Port du Skagerrak et nœud ferroviaire du sud, historiquement relié aux traversées vers le Danemark.",
+          "sources": [
+            {
+              "source_id": "src-snl-sorlandsbanen",
+              "usage": "rôle de la ville au Snapshot 0",
+              "locator": ""
+            },
+            {
+              "source_id": "src-snl-danskebat",
+              "usage": "rôle de la ville au Snapshot 0",
+              "locator": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-no-narvik",
+      "type_entite": "ville",
+      "nom": "Narvik",
+      "nom_local": "Narvik",
+      "aliases": [],
+      "pays_cible": "Norvège",
+      "etats": [
+        {
+          "etat_id": "etat-1945-01-01",
+          "valid_from": {
+            "date": "1945-01-01",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "en_cours"
+          },
+          "importance_atlas": "B",
+          "roles": [
+            "port_maritime",
+            "rail",
+            "minerai",
+            "militaire"
+          ],
+          "note": "Port stratégique d'exportation du minerai de fer suédois via l'Ofotbanen ; nœud majeur de la guerre en Norvège.",
+          "sources": [
+            {
+              "source_id": "src-banenor-narvik",
+              "usage": "rôle de la ville au Snapshot 0",
+              "locator": ""
+            },
+            {
+              "source_id": "src-snl-narvik-1940",
+              "usage": "rôle de la ville au Snapshot 0",
+              "locator": ""
+            },
+            {
+              "source_id": "src-lkab-history",
+              "usage": "rôle de la ville au Snapshot 0",
+              "locator": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-no-tromso",
+      "type_entite": "ville",
+      "nom": "Tromsø",
+      "nom_local": "Tromsø",
+      "aliases": [
+        "Tromso"
+      ],
+      "pays_cible": "Norvège",
+      "etats": [
+        {
+          "etat_id": "etat-1945-01-01",
+          "valid_from": {
+            "date": "1945-01-01",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "en_cours"
+          },
+          "importance_atlas": "B",
+          "roles": [
+            "port_maritime",
+            "hurtigruten",
+            "arctique",
+            "administration_guerre"
+          ],
+          "note": "Grand port du Nord et escale du trafic côtier ; centre politique provisoire de la Norvège non occupée en 1940.",
+          "sources": [
+            {
+              "source_id": "src-snl-hurtigruta",
+              "usage": "rôle de la ville au Snapshot 0",
+              "locator": ""
+            },
+            {
+              "source_id": "src-visit-tromso-war",
+              "usage": "rôle de la ville au Snapshot 0",
+              "locator": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-no-kirkenes",
+      "type_entite": "ville",
+      "nom": "Kirkenes",
+      "nom_local": "Kirkenes",
+      "aliases": [],
+      "pays_cible": "Norvège",
+      "etats": [
+        {
+          "etat_id": "etat-1945-01-01",
+          "valid_from": {
+            "date": "1945-01-01",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "en_cours"
+          },
+          "importance_atlas": "C",
+          "roles": [
+            "port_maritime",
+            "frontiere",
+            "arctique",
+            "militaire",
+            "liberation"
+          ],
+          "note": "Ville-frontière et port arctique libéré par l'Armée rouge à l'automne 1944 ; fortement détruite.",
+          "sources": [
+            {
+              "source_id": "src-snl-east-finnmark",
+              "usage": "rôle de la ville au Snapshot 0",
+              "locator": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-no-bodo",
+      "type_entite": "ville",
+      "nom": "Bodø",
+      "nom_local": "Bodø",
+      "aliases": [
+        "Bodo"
+      ],
+      "pays_cible": "Norvège",
+      "etats": [
+        {
+          "etat_id": "etat-1945-01-01",
+          "valid_from": {
+            "date": "1945-01-01",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "en_cours"
+          },
+          "importance_atlas": "C",
+          "roles": [
+            "port_maritime",
+            "hurtigruten",
+            "aviation",
+            "arctique"
+          ],
+          "note": "Nœud côtier du Nord, important pour la navigation et les liaisons aériennes ; pas encore relié par rail au reste du réseau en 1945.",
+          "sources": [
+            {
+              "source_id": "src-snl-hurtigruta",
+              "usage": "rôle de la ville au Snapshot 0",
+              "locator": ""
+            },
+            {
+              "source_id": "src-snl-nordlandsbanen",
+              "usage": "rôle de la ville au Snapshot 0",
+              "locator": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-no-alesund",
+      "type_entite": "ville",
+      "nom": "Ålesund",
+      "nom_local": "Ålesund",
+      "aliases": [
+        "Alesund"
+      ],
+      "pays_cible": "Norvège",
+      "etats": [
+        {
+          "etat_id": "etat-1945-01-01",
+          "valid_from": {
+            "date": "1945-01-01",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "en_cours"
+          },
+          "importance_atlas": "C",
+          "roles": [
+            "port_maritime",
+            "peche",
+            "navigation_cotiere"
+          ],
+          "note": "Port majeur de pêche et de navigation de la côte occidentale.",
+          "sources": [
+            {
+              "source_id": "src-snl-hurtigruta",
+              "usage": "rôle de la ville au Snapshot 0",
+              "locator": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-no-halden",
+      "type_entite": "ville",
+      "nom": "Halden",
+      "nom_local": "Halden",
+      "aliases": [],
+      "pays_cible": "Norvège",
+      "etats": [
+        {
+          "etat_id": "etat-1945-01-01",
+          "valid_from": {
+            "date": "1945-01-01",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "en_cours"
+          },
+          "importance_atlas": "C",
+          "roles": [
+            "frontiere",
+            "rail",
+            "industrie"
+          ],
+          "note": "Ville ferroviaire de l'axe Oslo–Suède, proche de la frontière et pertinente pour les flux terrestres transfrontaliers.",
+          "sources": [
+            {
+              "source_id": "src-norway-rail-context",
+              "usage": "rôle de la ville au Snapshot 0",
+              "locator": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-no-hammerfest",
+      "type_entite": "ville",
+      "nom": "Hammerfest",
+      "nom_local": "Hammerfest",
+      "aliases": [],
+      "pays_cible": "Norvège",
+      "etats": [
+        {
+          "etat_id": "etat-1945-01-01",
+          "valid_from": {
+            "date": "1945-01-01",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "en_cours"
+          },
+          "importance_atlas": "C",
+          "roles": [
+            "port_maritime",
+            "hurtigruten",
+            "evacuation",
+            "destruction_guerre",
+            "arctique"
+          ],
+          "note": "Ancien nœud du trafic côtier arctique, évacué et largement détruit pendant le repli allemand de 1944 ; la rupture du réseau est elle-même historiquement pertinente.",
+          "sources": [
+            {
+              "source_id": "src-snl-hurtigruta",
+              "usage": "rôle de la ville au Snapshot 0",
+              "locator": ""
+            },
+            {
+              "source_id": "src-snl-east-finnmark",
+              "usage": "rôle de la ville au Snapshot 0",
+              "locator": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-no-drammen",
+      "type_entite": "ville",
+      "nom": "Drammen",
+      "nom_local": "Drammen",
+      "aliases": [],
+      "pays_cible": "Norvège",
+      "etats": [
+        {
+          "etat_id": "etat-1945-01-01",
+          "valid_from": {
+            "date": "1945-01-01",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "en_cours"
+          },
+          "importance_atlas": "C",
+          "roles": [
+            "port_fluvial_maritime",
+            "rail",
+            "industrie"
+          ],
+          "note": "Port et nœud ferroviaire industriel à l'ouest d'Oslo, sur les grands axes du sud du pays.",
+          "sources": [
+            {
+              "source_id": "src-norway-rail-context",
+              "usage": "rôle de la ville au Snapshot 0",
+              "locator": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-se-stockholm",
+      "type_entite": "ville",
+      "nom": "Stockholm",
+      "nom_local": "Stockholm",
+      "aliases": [],
+      "pays_cible": "Suède",
+      "etats": [
+        {
+          "etat_id": "etat-1945-01-01",
+          "valid_from": {
+            "date": "1945-01-01",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "en_cours"
+          },
+          "importance_atlas": "A",
+          "roles": [
+            "capitale",
+            "port_maritime",
+            "rail",
+            "industrie",
+            "administration"
+          ],
+          "note": "Capitale et grand port baltique ; centre d'importation, de redistribution et de transports nationaux.",
+          "sources": [
+            {
+              "source_id": "src-ports-stockholm-1900-1949",
+              "usage": "rôle de la ville au Snapshot 0",
+              "locator": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-se-goteborg",
+      "type_entite": "ville",
+      "nom": "Göteborg",
+      "nom_local": "Göteborg",
+      "aliases": [
+        "Gothenburg"
+      ],
+      "pays_cible": "Suède",
+      "etats": [
+        {
+          "etat_id": "etat-1945-01-01",
+          "valid_from": {
+            "date": "1945-01-01",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "en_cours"
+          },
+          "importance_atlas": "B",
+          "roles": [
+            "port_maritime",
+            "rail",
+            "industrie",
+            "commerce_international"
+          ],
+          "note": "Principal grand port suédois de la façade occidentale, tourné vers la mer du Nord et le commerce mondial.",
+          "sources": [
+            {
+              "source_id": "src-port-gothenburg-history",
+              "usage": "rôle de la ville au Snapshot 0",
+              "locator": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-se-malmo",
+      "type_entite": "ville",
+      "nom": "Malmö",
+      "nom_local": "Malmö",
+      "aliases": [
+        "Malmo"
+      ],
+      "pays_cible": "Suède",
+      "etats": [
+        {
+          "etat_id": "etat-1945-01-01",
+          "valid_from": {
+            "date": "1945-01-01",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "en_cours"
+          },
+          "importance_atlas": "B",
+          "roles": [
+            "port_maritime",
+            "rail",
+            "industrie",
+            "detroit"
+          ],
+          "note": "Grande ville industrielle et portuaire du sud, face à Copenhague et intégrée aux flux de l'Øresund.",
+          "sources": [
+            {
+              "source_id": "src-cmp-history-copenhagen-malmo",
+              "usage": "rôle de la ville au Snapshot 0",
+              "locator": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-se-helsingborg",
+      "type_entite": "ville",
+      "nom": "Helsingborg",
+      "nom_local": "Helsingborg",
+      "aliases": [],
+      "pays_cible": "Suède",
+      "etats": [
+        {
+          "etat_id": "etat-1945-01-01",
+          "valid_from": {
+            "date": "1945-01-01",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "en_cours"
+          },
+          "importance_atlas": "B",
+          "roles": [
+            "port_maritime",
+            "ferry",
+            "detroit",
+            "rail"
+          ],
+          "note": "Passage du point le plus étroit de l'Øresund, en relation directe avec Helsingør.",
+          "sources": [
+            {
+              "source_id": "src-port-helsingborg-history",
+              "usage": "rôle de la ville au Snapshot 0",
+              "locator": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-se-trelleborg",
+      "type_entite": "ville",
+      "nom": "Trelleborg",
+      "nom_local": "Trelleborg",
+      "aliases": [],
+      "pays_cible": "Suède",
+      "etats": [
+        {
+          "etat_id": "etat-1945-01-01",
+          "valid_from": {
+            "date": "1945-01-01",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "en_cours"
+          },
+          "importance_atlas": "B",
+          "roles": [
+            "port_maritime",
+            "rail",
+            "ferry",
+            "corridor_continent"
+          ],
+          "note": "Grand port ferroviaire vers le continent, notamment par les ferries vers l'Allemagne.",
+          "sources": [
+            {
+              "source_id": "src-port-trelleborg-history",
+              "usage": "rôle de la ville au Snapshot 0",
+              "locator": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-se-norrkoping",
+      "type_entite": "ville",
+      "nom": "Norrköping",
+      "nom_local": "Norrköping",
+      "aliases": [
+        "Norrkoping"
+      ],
+      "pays_cible": "Suède",
+      "etats": [
+        {
+          "etat_id": "etat-1945-01-01",
+          "valid_from": {
+            "date": "1945-01-01",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "en_cours"
+          },
+          "importance_atlas": "B",
+          "roles": [
+            "industrie",
+            "port_maritime",
+            "rail"
+          ],
+          "note": "Important centre industriel et portuaire de la côte baltique.",
+          "sources": [
+            {
+              "source_id": "src-sweden-rail-context",
+              "usage": "rôle de la ville au Snapshot 0",
+              "locator": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-se-lulea",
+      "type_entite": "ville",
+      "nom": "Luleå",
+      "nom_local": "Luleå",
+      "aliases": [
+        "Lulea"
+      ],
+      "pays_cible": "Suède",
+      "etats": [
+        {
+          "etat_id": "etat-1945-01-01",
+          "valid_from": {
+            "date": "1945-01-01",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "en_cours"
+          },
+          "importance_atlas": "B",
+          "roles": [
+            "port_maritime",
+            "rail",
+            "minerai",
+            "industrie"
+          ],
+          "note": "Port du golfe de Botnie relié aux mines du nord ; débouché ferroviaire du minerai de fer.",
+          "sources": [
+            {
+              "source_id": "src-lulea-history",
+              "usage": "rôle de la ville au Snapshot 0",
+              "locator": ""
+            },
+            {
+              "source_id": "src-lkab-history",
+              "usage": "rôle de la ville au Snapshot 0",
+              "locator": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-se-kiruna",
+      "type_entite": "ville",
+      "nom": "Kiruna",
+      "nom_local": "Kiruna",
+      "aliases": [],
+      "pays_cible": "Suède",
+      "etats": [
+        {
+          "etat_id": "etat-1945-01-01",
+          "valid_from": {
+            "date": "1945-01-01",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "en_cours"
+          },
+          "importance_atlas": "B",
+          "roles": [
+            "mine",
+            "rail",
+            "industrie",
+            "minerai"
+          ],
+          "note": "Ville minière structurée autour du minerai de fer et de la ligne reliant Luleå à Narvik.",
+          "sources": [
+            {
+              "source_id": "src-lkab-history",
+              "usage": "rôle de la ville au Snapshot 0",
+              "locator": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-se-gavle",
+      "type_entite": "ville",
+      "nom": "Gävle",
+      "nom_local": "Gävle",
+      "aliases": [
+        "Gavle"
+      ],
+      "pays_cible": "Suède",
+      "etats": [
+        {
+          "etat_id": "etat-1945-01-01",
+          "valid_from": {
+            "date": "1945-01-01",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "en_cours"
+          },
+          "importance_atlas": "C",
+          "roles": [
+            "port_maritime",
+            "rail",
+            "industrie"
+          ],
+          "note": "Vieille ville portuaire et industrielle de la côte baltique, reliée au réseau ferré national.",
+          "sources": [
+            {
+              "source_id": "src-port-gavle-history",
+              "usage": "rôle de la ville au Snapshot 0",
+              "locator": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-se-sundsvall",
+      "type_entite": "ville",
+      "nom": "Sundsvall",
+      "nom_local": "Sundsvall",
+      "aliases": [],
+      "pays_cible": "Suède",
+      "etats": [
+        {
+          "etat_id": "etat-1945-01-01",
+          "valid_from": {
+            "date": "1945-01-01",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "en_cours"
+          },
+          "importance_atlas": "C",
+          "roles": [
+            "port_maritime",
+            "industrie",
+            "bois_papier",
+            "rail"
+          ],
+          "note": "Centre industriel et portuaire du Norrland, important pour les exportations forestières.",
+          "sources": [
+            {
+              "source_id": "src-sweden-rail-context",
+              "usage": "rôle de la ville au Snapshot 0",
+              "locator": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-se-haparanda",
+      "type_entite": "ville",
+      "nom": "Haparanda",
+      "nom_local": "Haparanda",
+      "aliases": [],
+      "pays_cible": "Suède",
+      "etats": [
+        {
+          "etat_id": "etat-1945-01-01",
+          "valid_from": {
+            "date": "1945-01-01",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "en_cours"
+          },
+          "importance_atlas": "C",
+          "roles": [
+            "frontiere",
+            "rail",
+            "corridor_finlande"
+          ],
+          "note": "Ville-frontière face à Tornio, importante pour les échanges ferroviaires et terrestres avec la Finlande.",
+          "sources": [
+            {
+              "source_id": "src-sweden-rail-context",
+              "usage": "rôle de la ville au Snapshot 0",
+              "locator": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-se-karlskrona",
+      "type_entite": "ville",
+      "nom": "Karlskrona",
+      "nom_local": "Karlskrona",
+      "aliases": [],
+      "pays_cible": "Suède",
+      "etats": [
+        {
+          "etat_id": "etat-1945-01-01",
+          "valid_from": {
+            "date": "1945-01-01",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "en_cours"
+          },
+          "importance_atlas": "C",
+          "roles": [
+            "base_navale",
+            "port_militaire",
+            "industrie_navale"
+          ],
+          "note": "Grande base navale suédoise de la Baltique, restée en activité pendant la guerre.",
+          "sources": [
+            {
+              "source_id": "src-karlskrona-naval-base",
+              "usage": "rôle de la ville au Snapshot 0",
+              "locator": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-se-vasteras",
+      "type_entite": "ville",
+      "nom": "Västerås",
+      "nom_local": "Västerås",
+      "aliases": [
+        "Vasteras"
+      ],
+      "pays_cible": "Suède",
+      "etats": [
+        {
+          "etat_id": "etat-1945-01-01",
+          "valid_from": {
+            "date": "1945-01-01",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "en_cours"
+          },
+          "importance_atlas": "C",
+          "roles": [
+            "industrie",
+            "rail",
+            "port_lacustre"
+          ],
+          "note": "Grand centre industriel du lac Mälaren, connecté aux réseaux ferroviaires et lacustres.",
+          "sources": [
+            {
+              "source_id": "src-sweden-rail-context",
+              "usage": "rôle de la ville au Snapshot 0",
+              "locator": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-fi-helsinki",
+      "type_entite": "ville",
+      "nom": "Helsinki",
+      "nom_local": "Helsinki",
+      "aliases": [
+        "Helsingfors"
+      ],
+      "pays_cible": "Finlande",
+      "etats": [
+        {
+          "etat_id": "etat-1945-01-01",
+          "valid_from": {
+            "date": "1945-01-01",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "en_cours"
+          },
+          "importance_atlas": "A",
+          "roles": [
+            "capitale",
+            "port_maritime",
+            "rail",
+            "industrie",
+            "administration"
+          ],
+          "note": "Capitale, grand port et cœur ferroviaire ; malgré les interruptions de guerre, le port reste structurant pour les échanges finlandais.",
+          "sources": [
+            {
+              "source_id": "src-port-helsinki-history",
+              "usage": "rôle de la ville au Snapshot 0",
+              "locator": ""
+            },
+            {
+              "source_id": "src-finland-railway-museum-network",
+              "usage": "rôle de la ville au Snapshot 0",
+              "locator": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-fi-turku",
+      "type_entite": "ville",
+      "nom": "Turku",
+      "nom_local": "Turku",
+      "aliases": [
+        "Åbo",
+        "Abo"
+      ],
+      "pays_cible": "Finlande",
+      "etats": [
+        {
+          "etat_id": "etat-1945-01-01",
+          "valid_from": {
+            "date": "1945-01-01",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "en_cours"
+          },
+          "importance_atlas": "B",
+          "roles": [
+            "port_maritime",
+            "rail",
+            "commerce",
+            "liaison_suede"
+          ],
+          "note": "Grand port du sud-ouest et ancienne capitale, avec trafic vers la Suède et connexion ferroviaire au réseau intérieur.",
+          "sources": [
+            {
+              "source_id": "src-port-turku-history",
+              "usage": "rôle de la ville au Snapshot 0",
+              "locator": ""
+            },
+            {
+              "source_id": "src-finland-railway-museum-tampere-turku",
+              "usage": "rôle de la ville au Snapshot 0",
+              "locator": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-fi-tampere",
+      "type_entite": "ville",
+      "nom": "Tampere",
+      "nom_local": "Tampere",
+      "aliases": [
+        "Tammerfors"
+      ],
+      "pays_cible": "Finlande",
+      "etats": [
+        {
+          "etat_id": "etat-1945-01-01",
+          "valid_from": {
+            "date": "1945-01-01",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "en_cours"
+          },
+          "importance_atlas": "B",
+          "roles": [
+            "rail",
+            "industrie",
+            "noeud_interieur"
+          ],
+          "note": "Grand centre industriel et carrefour ferroviaire de l'intérieur finlandais.",
+          "sources": [
+            {
+              "source_id": "src-finland-railway-museum-tampere-turku",
+              "usage": "rôle de la ville au Snapshot 0",
+              "locator": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-fi-oulu",
+      "type_entite": "ville",
+      "nom": "Oulu",
+      "nom_local": "Oulu",
+      "aliases": [
+        "Uleåborg",
+        "Uleaborg"
+      ],
+      "pays_cible": "Finlande",
+      "etats": [
+        {
+          "etat_id": "etat-1945-01-01",
+          "valid_from": {
+            "date": "1945-01-01",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "en_cours"
+          },
+          "importance_atlas": "B",
+          "roles": [
+            "port_maritime",
+            "rail",
+            "industrie",
+            "nord"
+          ],
+          "note": "Grand nœud du nord de la Finlande, combinant port, industrie et chemin de fer.",
+          "sources": [
+            {
+              "source_id": "src-port-oulu-history",
+              "usage": "rôle de la ville au Snapshot 0",
+              "locator": ""
+            },
+            {
+              "source_id": "src-finland-railway-museum-network",
+              "usage": "rôle de la ville au Snapshot 0",
+              "locator": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-fi-kotka",
+      "type_entite": "ville",
+      "nom": "Kotka",
+      "nom_local": "Kotka",
+      "aliases": [],
+      "pays_cible": "Finlande",
+      "etats": [
+        {
+          "etat_id": "etat-1945-01-01",
+          "valid_from": {
+            "date": "1945-01-01",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "en_cours"
+          },
+          "importance_atlas": "B",
+          "roles": [
+            "port_maritime",
+            "industrie",
+            "bois_papier",
+            "rail"
+          ],
+          "note": "Port d'exportation majeur lié à l'industrie du bois et du papier à l'embouchure de la Kymijoki.",
+          "sources": [
+            {
+              "source_id": "src-port-kotka-history",
+              "usage": "rôle de la ville au Snapshot 0",
+              "locator": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-fi-vaasa",
+      "type_entite": "ville",
+      "nom": "Vaasa",
+      "nom_local": "Vaasa",
+      "aliases": [
+        "Vasa"
+      ],
+      "pays_cible": "Finlande",
+      "etats": [
+        {
+          "etat_id": "etat-1945-01-01",
+          "valid_from": {
+            "date": "1945-01-01",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "en_cours"
+          },
+          "importance_atlas": "C",
+          "roles": [
+            "port_maritime",
+            "rail",
+            "industrie"
+          ],
+          "note": "Port et centre ferroviaire de la côte occidentale, tourné vers le golfe de Botnie et la Suède.",
+          "sources": [
+            {
+              "source_id": "src-finland-railway-museum-network",
+              "usage": "rôle de la ville au Snapshot 0",
+              "locator": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-fi-hamina",
+      "type_entite": "ville",
+      "nom": "Hamina",
+      "nom_local": "Hamina",
+      "aliases": [
+        "Fredrikshamn"
+      ],
+      "pays_cible": "Finlande",
+      "etats": [
+        {
+          "etat_id": "etat-1945-01-01",
+          "valid_from": {
+            "date": "1945-01-01",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "en_cours"
+          },
+          "importance_atlas": "C",
+          "roles": [
+            "port_maritime",
+            "industrie",
+            "frontiere_est"
+          ],
+          "note": "Port du golfe de Finlande et nœud de la façade orientale.",
+          "sources": [
+            {
+              "source_id": "src-port-kotka-history",
+              "usage": "rôle de la ville au Snapshot 0",
+              "locator": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-fi-hanko",
+      "type_entite": "ville",
+      "nom": "Hanko",
+      "nom_local": "Hanko",
+      "aliases": [
+        "Hangö",
+        "Hango"
+      ],
+      "pays_cible": "Finlande",
+      "etats": [
+        {
+          "etat_id": "etat-1945-01-01",
+          "valid_from": {
+            "date": "1945-01-01",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "en_cours"
+          },
+          "importance_atlas": "C",
+          "roles": [
+            "port_maritime",
+            "rail",
+            "port_hiver",
+            "strategique"
+          ],
+          "note": "Port le plus méridional de Finlande, historiquement conçu comme port d'hiver et relié au rail.",
+          "sources": [
+            {
+              "source_id": "src-port-hanko-history",
+              "usage": "rôle de la ville au Snapshot 0",
+              "locator": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-fi-rovaniemi",
+      "type_entite": "ville",
+      "nom": "Rovaniemi",
+      "nom_local": "Rovaniemi",
+      "aliases": [],
+      "pays_cible": "Finlande",
+      "etats": [
+        {
+          "etat_id": "etat-1945-01-01",
+          "valid_from": {
+            "date": "1945-01-01",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "en_cours"
+          },
+          "importance_atlas": "C",
+          "roles": [
+            "rail",
+            "lapland_war",
+            "destruction_guerre",
+            "nord"
+          ],
+          "note": "Nœud ferroviaire de Laponie largement détruit pendant le retrait allemand de 1944 ; important pour comprendre la rupture des flux du nord.",
+          "sources": [
+            {
+              "source_id": "src-finland-railway-museum-network",
+              "usage": "rôle de la ville au Snapshot 0",
+              "locator": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-fi-kemi",
+      "type_entite": "ville",
+      "nom": "Kemi",
+      "nom_local": "Kemi",
+      "aliases": [],
+      "pays_cible": "Finlande",
+      "etats": [
+        {
+          "etat_id": "etat-1945-01-01",
+          "valid_from": {
+            "date": "1945-01-01",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "en_cours"
+          },
+          "importance_atlas": "C",
+          "roles": [
+            "port_maritime",
+            "rail",
+            "industrie",
+            "nord"
+          ],
+          "note": "Port industriel et ferroviaire du nord du golfe de Botnie, sur l'axe menant vers la Laponie.",
+          "sources": [
+            {
+              "source_id": "src-finland-railway-museum-network",
+              "usage": "rôle de la ville au Snapshot 0",
+              "locator": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-fi-tornio",
+      "type_entite": "ville",
+      "nom": "Tornio",
+      "nom_local": "Tornio",
+      "aliases": [
+        "Torneå",
+        "Tornea"
+      ],
+      "pays_cible": "Finlande",
+      "etats": [
+        {
+          "etat_id": "etat-1945-01-01",
+          "valid_from": {
+            "date": "1945-01-01",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "en_cours"
+          },
+          "importance_atlas": "C",
+          "roles": [
+            "frontiere",
+            "rail",
+            "corridor_suede",
+            "lapland_war"
+          ],
+          "note": "Ville-frontière jumelée fonctionnellement avec Haparanda, passage terrestre et ferroviaire vers la Suède.",
+          "sources": [
+            {
+              "source_id": "src-finland-railway-museum-network",
+              "usage": "rôle de la ville au Snapshot 0",
+              "locator": ""
+            },
+            {
+              "source_id": "src-sweden-rail-context",
+              "usage": "rôle de la ville au Snapshot 0",
+              "locator": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-fi-mariehamn",
+      "type_entite": "ville",
+      "nom": "Mariehamn",
+      "nom_local": "Mariehamn",
+      "aliases": [],
+      "pays_cible": "Finlande",
+      "etats": [
+        {
+          "etat_id": "etat-1945-01-01",
+          "valid_from": {
+            "date": "1945-01-01",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "en_cours"
+          },
+          "importance_atlas": "C",
+          "roles": [
+            "capitale_territoriale",
+            "port_maritime",
+            "archipel",
+            "navigation"
+          ],
+          "note": "Capitale des Åland et port important sur les routes maritimes entre Finlande et Suède.",
+          "sources": [
+            {
+              "source_id": "src-port-turku-history",
+              "usage": "rôle de la ville au Snapshot 0",
+              "locator": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-fi-kouvola",
+      "type_entite": "ville",
+      "nom": "Kouvola",
+      "nom_local": "Kouvola",
+      "aliases": [],
+      "pays_cible": "Finlande",
+      "etats": [
+        {
+          "etat_id": "etat-1945-01-01",
+          "valid_from": {
+            "date": "1945-01-01",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "en_cours"
+          },
+          "importance_atlas": "C",
+          "roles": [
+            "rail",
+            "noeud_interieur",
+            "corridor_est"
+          ],
+          "note": "Carrefour ferroviaire majeur entre Helsinki, l'est de la Finlande et les ports du golfe de Finlande.",
+          "sources": [
+            {
+              "source_id": "src-finland-railway-museum-network",
+              "usage": "rôle de la ville au Snapshot 0",
+              "locator": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-fi-pori",
+      "type_entite": "ville",
+      "nom": "Pori",
+      "nom_local": "Pori",
+      "aliases": [
+        "Björneborg",
+        "Bjorneborg"
+      ],
+      "pays_cible": "Finlande",
+      "etats": [
+        {
+          "etat_id": "etat-1945-01-01",
+          "valid_from": {
+            "date": "1945-01-01",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "en_cours"
+          },
+          "importance_atlas": "C",
+          "roles": [
+            "port_maritime",
+            "industrie",
+            "rail"
+          ],
+          "note": "Centre industriel et portuaire de la côte occidentale, lié aux exportations finlandaises.",
+          "sources": [
+            {
+              "source_id": "src-finland-railway-museum-network",
+              "usage": "rôle de la ville au Snapshot 0",
+              "locator": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-is-reykjavik",
+      "type_entite": "ville",
+      "nom": "Reykjavík",
+      "nom_local": "Reykjavík",
+      "aliases": [
+        "Reykjavik"
+      ],
+      "pays_cible": "Islande",
+      "etats": [
+        {
+          "etat_id": "etat-1945-01-01",
+          "valid_from": {
+            "date": "1945-01-01",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "en_cours"
+          },
+          "importance_atlas": "A",
+          "roles": [
+            "capitale",
+            "port_maritime",
+            "aviation",
+            "logistique_militaire",
+            "atlantique_nord"
+          ],
+          "note": "Capitale et principal port islandais, transformé pendant la guerre en grand nœud logistique allié de l'Atlantique Nord.",
+          "sources": [
+            {
+              "source_id": "src-reykjavik-port-history",
+              "usage": "rôle de la ville au Snapshot 0",
+              "locator": ""
+            },
+            {
+              "source_id": "src-us-army-iceland-transport",
+              "usage": "rôle de la ville au Snapshot 0",
+              "locator": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-is-akureyri",
+      "type_entite": "ville",
+      "nom": "Akureyri",
+      "nom_local": "Akureyri",
+      "aliases": [],
+      "pays_cible": "Islande",
+      "etats": [
+        {
+          "etat_id": "etat-1945-01-01",
+          "valid_from": {
+            "date": "1945-01-01",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "en_cours"
+          },
+          "importance_atlas": "B",
+          "roles": [
+            "port_maritime",
+            "commerce",
+            "logistique_militaire",
+            "nord"
+          ],
+          "note": "Principal port du nord de l'île et important port secondaire pour la logistique alliée.",
+          "sources": [
+            {
+              "source_id": "src-akureyri-history",
+              "usage": "rôle de la ville au Snapshot 0",
+              "locator": ""
+            },
+            {
+              "source_id": "src-us-army-iceland-transport",
+              "usage": "rôle de la ville au Snapshot 0",
+              "locator": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-is-keflavik",
+      "type_entite": "ville",
+      "nom": "Keflavík",
+      "nom_local": "Keflavík",
+      "aliases": [
+        "Keflavik"
+      ],
+      "pays_cible": "Islande",
+      "etats": [
+        {
+          "etat_id": "etat-1945-01-01",
+          "valid_from": {
+            "date": "1945-01-01",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "en_cours"
+          },
+          "importance_atlas": "C",
+          "roles": [
+            "aviation",
+            "logistique_militaire",
+            "atlantique_nord"
+          ],
+          "note": "Ville associée au grand terrain aérien construit par les États-Unis et ouvert en 1943 pour la route aérienne transatlantique.",
+          "sources": [
+            {
+              "source_id": "src-us-engineers-iceland-1943",
+              "usage": "rôle de la ville au Snapshot 0",
+              "locator": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-is-seydisfjordur",
+      "type_entite": "ville",
+      "nom": "Seyðisfjörður",
+      "nom_local": "Seyðisfjörður",
+      "aliases": [
+        "Seydisfjordur",
+        "Seidisfjord"
+      ],
+      "pays_cible": "Islande",
+      "etats": [
+        {
+          "etat_id": "etat-1945-01-01",
+          "valid_from": {
+            "date": "1945-01-01",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "en_cours"
+          },
+          "importance_atlas": "C",
+          "roles": [
+            "port_maritime",
+            "logistique_militaire",
+            "atlantique_nord"
+          ],
+          "note": "Petit port de l'est utilisé par les forces alliées comme port de transbordement et point de ravitaillement pendant la guerre.",
+          "sources": [
+            {
+              "source_id": "src-us-army-iceland-transport",
+              "usage": "rôle de la ville au Snapshot 0",
+              "locator": ""
+            },
+            {
+              "source_id": "src-us-navy-iceland-bases",
+              "usage": "rôle de la ville au Snapshot 0",
+              "locator": ""
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "audit_apres_integration": [
+    "Vérifier si Fredericia doit monter B en raison de son rôle ferroviaire national.",
+    "Vérifier le statut exact de Hammerfest au 01/01/1945 : ville évacuée/détruite, mais conserver si la rupture de flux justifie la visibilité.",
+    "Vérifier si Mariehamn mérite B plutôt que C pour le réseau maritime Finlande–Suède en 1945.",
+    "Vérifier si Västerås mérite B plutôt que C pour son poids industriel.",
+    "Audit final de la zone : grands ports, ferries, nœuds ferroviaires, villes-frontières, industrie, bases navales."
+  ],
+  "non_inclus_volontairement": [
+    {
+      "nom": "Hvalfjörður",
+      "raison": "base/rade militaire, pas une ville : future couche ports/bases"
+    },
+    {
+      "nom": "Scapa-like bases nordiques",
+      "raison": "les bases isolées seront traitées comme infrastructures, pas forcées dans le type ville"
+    },
+    {
+      "nom": "Gedser",
+      "raison": "infrastructure ferry très pertinente mais exploitation exacte au 01/01/1945 à confirmer avant ajout comme ville C"
+    },
+    {
+      "nom": "Vyborg / Viipuri",
+      "raison": "au 01/01/1945 sous contrôle soviétique ; à traiter dans le lot Est/URSS pour éviter doublon"
+    }
+  ]
+}
