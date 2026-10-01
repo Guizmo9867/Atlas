@@ -1,5 +1,5 @@
 {
- "version_registre": "1.12",
+ "version_registre": "1.13",
  "sources": [
   {
    "id": "src-12a-augsburg-armement",
@@ -309,6 +309,24 @@
    "remplacee_par": []
   },
   {
+   "id": "src-13-hu-miskolc-fusion",
+   "groupe": "a_lire",
+   "statut_claude": "non_verifiee",
+   "niveau": "B",
+   "titre": "Miskolc Megyei Jogú Város Kulturális Stratégiája 2022–2032 — résumé historique",
+   "institution": "Ville de Miskolc",
+   "url": "https://www.miskolc.hu/sites/default/files/onkormanyzat/csatolmanyok/2024-11/169_1_mell._kult.strategia_2022-2032.pdf#page=102",
+   "ou_regarder": "Page imprimée 102, 102e page du PDF, index technique 101. Section sur les décennies d’après-guerre : date d’effet de Grand Miskolc puis liste des centres rattachés.",
+   "extrait": "",
+   "notes": "Proposée par Ether (villes 1.3, 01/10/2026, réf. S44). Limite annoncée par Ether : La fusion est datée du 1er janvier 1945. Selon la convention verrouillée du projet, l'état initial est le dernier état connu AVANT 00:00 : conserver Diósgyőr distincte puis appliquer la fusion dans le ratissage temporel. Complétée par Ether le 01/10/2026 (réponse aux questions du lot 1.3) : Passage relu et page inspectée. Date d’effet du 1er janvier 1945 explicitement donnée ; ni date exacte du vote ni heure d’effet originale vérifiées. Document rétrospectif B ; acte administratif original non consulté. Relecture Claude 01/10/2026 : Le PDF est accessible mais WebFetch n'en restitue que les ~31 premières pages (le texte s'arrête sur la section du Miskolci Szimfonikus Zenekar) ; la page 102 (annexe historique, dès p. 94) n'a pas pu être lue. Aucune occurrence de « 1945. január », « Hejőcsaba » ni de fusion explicite avec Diósgyőr dans la partie lue (seulement une allusion p. 10 à la création de Nagy-Miskolc « 60-70 évvel ezelőtt »).",
+   "domaine": "villes",
+   "villes": [
+    "Miskolc",
+    "Diósgyőr"
+   ],
+   "remplacee_par": []
+  },
+  {
    "id": "src-13-hu-ozd-industrie",
    "groupe": "a_lire",
    "statut_claude": "non_verifiee",
@@ -339,6 +357,23 @@
    "domaine": "villes",
    "villes": [
     "Bratislava"
+   ],
+   "remplacee_par": []
+  },
+  {
+   "id": "src-13-sk-cassovie-fr",
+   "groupe": "a_lire",
+   "statut_claude": "non_verifiee",
+   "niveau": "B",
+   "titre": "Jean Louis Vaxelaire, Pistes pour une nouvelle approche de la traduction automatique des noms propres, Meta, 51(4), 2006, p. 719–738",
+   "institution": "Les Presses de l’Université de Montréal — revue Meta ; diffusion Érudit",
+   "url": "https://www.erudit.org/fr/revues/meta/2006-v51-n4-meta1442/014337ar.pdf",
+   "ou_regarder": "Extrait indexé comparant Košice, Kassa, Kaschau et Cassovie dans le contexte de 1937.",
+   "extrait": "",
+   "notes": "Proposée par Ether (réponse aux questions du lot villes 1.3, 01/10/2026). Limite annoncée par Ether : Métadonnées et extrait de recherche lus. Ouverture directe bloquée par une protection anti-robot ; l’article intégral n’est pas déclaré lu. Atteste l’exonyme français, pas un acte de nomination de 1944. Relecture Claude 01/10/2026 : Le PDF et la page HTML Érudit renvoient seulement une page de protection anti-robot (Anubis) ; seules les métadonnées (Meta 2006, v. 51, n° 4, « Pistes pour une nouvelle approche de la traduction automatique des noms propres ») sont visibles, pas le texte, donc les noms Košice/Kassa/Kaschau/Cassovie ne sont pas vérifiables.",
+   "domaine": "villes",
+   "villes": [
+    "Košice"
    ],
    "remplacee_par": []
   },
@@ -857,24 +892,6 @@
    "domaine": "villes",
    "villes": [
     "Csepel"
-   ],
-   "remplacee_par": []
-  },
-  {
-   "id": "src-13-hu-miskolc-fusion",
-   "groupe": "partielle",
-   "statut_claude": "faible",
-   "niveau": "B",
-   "titre": "Miskolc kulturális stratégiája 2022–2032 — Történeti összefoglalás",
-   "institution": "Ville de Miskolc",
-   "url": "https://www.miskolc.hu/sites/default/files/onkormanyzat/csatolmanyok/2024-11/169_1_mell._kult.strategia_2022-2032.pdf",
-   "ou_regarder": "Page PDF 102 : décision donnant effet à Grand Miskolc le 1er janvier 1945 ; Diósgyőr et Hejőcsaba absorbées.",
-   "extrait": "",
-   "notes": "Proposée par Ether (villes 1.3, 01/10/2026, réf. S44). Limite annoncée par Ether : La fusion est datée du 1er janvier 1945. Selon la convention verrouillée du projet, l'état initial est le dernier état connu AVANT 00:00 : conserver Diósgyőr distincte puis appliquer la fusion dans le ratissage temporel. Relecture Claude 01/10/2026 : Le PDF ne contient pas de décision de Grand Miskolc au 1er janvier 1945 (il évoque Nagy-Miskolc « 60-70 évvel ezelőtt ») ; page 102 non confirmée.",
-   "domaine": "villes",
-   "villes": [
-    "Miskolc",
-    "Diósgyőr"
    ],
    "remplacee_par": []
   },

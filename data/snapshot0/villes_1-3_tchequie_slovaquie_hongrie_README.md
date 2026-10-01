@@ -11,3 +11,9 @@ Fichier : `villes_1-3_tchequie_slovaquie_hongrie.json` (v0.2, 53 villes : 19 Tch
 - Différés par Ether : Dunapentele, Esztergom (pont à part), Tatabánya, Kazincbarcika, Otrokovice, Karlovy Vary.
 
 Script rejouable : `outils/villes/construire_villes_1_3.py`. Questions : `docs/pour_ether/2026-10-01_villes_1-3.md`.
+
+## v0.3 (01/10/2026) — réponse d'Ether
+
+- **Noms à la date dans l'état** (`proprietes.nom`, lu en premier par la carte) : Košice → **Cassovie** (sur place : Kassa) ; Ústí nad Labem → **Aussig**. Mêmes IDs ; les noms actuels sont rappelés dans la fiche.
+- **Miskolc–Diósgyőr** : fusion datée du 01/01/1945 (S44, p. 102) ; deux points au Snapshot 0.
+- 6 sources (S44 complétée + 5 ajouts), registre v1.13. Réponse d'Ether : `villes_1-3_reponses_ether_2026-10-01.md` ; corrections et sources : `data/sources/deltas_ether/2026-10-01_villes_1-3_reponses_*.json` ; compte rendu : `docs/pour_ether/2026-10-01_villes_1-3_reponses.md`.

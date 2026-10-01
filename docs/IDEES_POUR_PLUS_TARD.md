@@ -44,3 +44,14 @@ Guizmo a choisi la piste complète : Claude enregistre (commit) et envoie (push)
 
 - **Recherche par mot-clé dans les sources** (une fois l'Atlas financé), pour ceux qui veulent approfondir. Pas le but premier : l'Atlas reste visuel. *(Guizmo)*
 - **Validation par la communauté** : la page « Sources à valider » est privée pour l'instant ; plus tard, l'ouvrir à des contributeurs, avec des limites (droits « contributeur », trace de qui valide quoi, relecture avant report au registre). *(Guizmo)*
+
+## 6. Feature « régime routier » (01/10/2026) — à étudier vers la fin du Snapshot 0
+
+Note complète d'Ether : `docs/idees/2026-10-01_feature_regime_routier_ether.md`. Idée : le filtre Route montre aussi *comment* on circule à une date (plaques, permis, règles, signalisation, contrôles), avec une pastille « régime routier » par territoire dont le détail suit le zoom (pays → région → local). *(Guizmo + Ether)*
+
+Avis de Claude (01/10/2026) :
+- Compatible avec l'architecture : état (ce qui s'applique) / événement (le changement), comme pour les frontières et les villes ; le détail selon le zoom réutilise le placement des étiquettes.
+- Commencer petit : au Snapshot 0, le **côté de conduite** (gauche/droite) par territoire — visuel, lié aux flux, bien documenté (Tchécoslovaquie 1939, Hongrie 1941, Suède 1967…). Plaques et permis ensuite, au niveau national.
+- Ancrer la pastille au « cœur » du territoire (point déjà calculé pour son nom), pas à la capitale, pour ne pas suggérer une règle propre à la capitale.
+- Zones de plaques (ex. Allemagne) = de vrais contours à construire : bien plus tard.
+- Photos de plaques : Wikimedia Commons (licences libres), chargées seulement à l'ouverture de la fiche.

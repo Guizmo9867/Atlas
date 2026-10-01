@@ -1,0 +1,150 @@
+{
+  "metadata_delta": {
+    "projet": "Route Atlas",
+    "lot": "villes_1.3_reponses_claude",
+    "date_preparation": "2026-10-01",
+    "nombre_sources": 6,
+    "operations": "Une fiche existante à compléter, cinq nouvelles fiches à rapprocher du registre canonique.",
+    "classification": "Sources rétrospectives et notices classées B ; aucun document original d’époque déclaré directement lu.",
+    "limite_lecture": "La source linguistique est un extrait indexé ; les annuaires originaux ne sont pas déclarés feuilletés."
+  },
+  "sources": [
+    {
+      "source_id": "src-13-hu-miskolc-fusion",
+      "operation_registre": "completer_fiche_existante",
+      "niveau": "B",
+      "type_source": "synthese_historique_municipale",
+      "titre": "Miskolc Megyei Jogú Város Kulturális Stratégiája 2022–2032 — résumé historique",
+      "institution": "Ville de Miskolc",
+      "url": "https://www.miskolc.hu/sites/default/files/onkormanyzat/csatolmanyok/2024-11/169_1_mell._kult.strategia_2022-2032.pdf",
+      "date_consultation": "2026-10-01",
+      "cibles": [
+        "ville-hu-miskolc",
+        "ville-hu-diosgyor"
+      ],
+      "usages_atlas": [
+        "perimetre_historique",
+        "date_effet_fusion"
+      ],
+      "locator": "Page imprimée 102, 102e page du PDF, index technique 101. Section sur les décennies d’après-guerre : date d’effet de Grand Miskolc puis liste des centres rattachés.",
+      "note": "Passage relu et page inspectée. Date d’effet du 1er janvier 1945 explicitement donnée ; ni date exacte du vote ni heure d’effet originale vérifiées. Document rétrospectif B ; acte administratif original non consulté.",
+      "verification": {
+        "statut": "passage_lu_et_page_verifiee",
+        "passages": "Page 102 ; formule datée et paragraphe mentionnant Diósgyőr et Hejőcsaba."
+      }
+    },
+    {
+      "source_id": "src-13-sk-kassa-nom-1938",
+      "operation_registre": "ajouter",
+      "niveau": "B",
+      "type_source": "notice_biographique_museale",
+      "titre": "Zuzana Gruenberger — récit biographique dans Deportations: ID Card/Oral History",
+      "institution": "United States Holocaust Memorial Museum — Musée mémorial de l’Holocauste des États-Unis",
+      "url": "https://encyclopedia.ushmm.org/content/en/gallery/deportations-stories",
+      "date_consultation": "2026-10-01",
+      "cibles": [
+        "ville-sk-kosice"
+      ],
+      "usages_atlas": [
+        "nomenclature_historique",
+        "chronologie"
+      ],
+      "locator": "Section Zuzana Gruenberger, paragraphe 1933–1939 : incorporation à la Hongrie et nom Kassa en novembre 1938.",
+      "note": "Notice textuelle lue ; ne fixe pas à elle seule un jour de changement de nom ni le retour du nom slovaque en 1945.",
+      "verification": {
+        "statut": "passage_cible_lu",
+        "passages": "Section Zuzana Gruenberger, paragraphes 1933–1939 et 1940–1944."
+      }
+    },
+    {
+      "source_id": "src-13-sk-kosice-admin-1938-1945",
+      "operation_registre": "ajouter",
+      "niveau": "B",
+      "type_source": "article_recherche_historique",
+      "titre": "Veronika Szeghy-Gayer, Personálna kontinuita politickej elity v Košiciach po Viedenskej arbitráži [Continuité du personnel de l’élite politique de Košice après l’arbitrage de Vienne], Forum Historiae, 2018, 12(1)",
+      "institution": "Forum Historiae — revue de l’Institut d’histoire de l’Académie slovaque des sciences",
+      "url": "https://www.forumhistoriae.sk/sites/default/files/09-szeghy-gayer-veronika-personalna-kontinuita-politickej-elity-v-kosiciach.pdf",
+      "date_consultation": "2026-10-01",
+      "cibles": [
+        "ville-sk-kosice"
+      ],
+      "usages_atlas": [
+        "contexte_administratif",
+        "chronologie"
+      ],
+      "locator": "Première page du PDF, note 1 et résumé : institutions municipales hongroises ; arrivée soviétique le 19 janvier 1945.",
+      "note": "Début de l’article et passages ciblés lus. La capture du 19 janvier ne donne pas automatiquement la date administrative exacte du retour de Košice comme nom officiel.",
+      "verification": {
+        "statut": "passages_cibles_lus",
+        "passages": "Première page, note 1 et résumé ; références du début de l’article."
+      }
+    },
+    {
+      "source_id": "src-13-sk-cassovie-fr",
+      "operation_registre": "ajouter",
+      "niveau": "B",
+      "type_source": "article_recherche_linguistique",
+      "titre": "Jean Louis Vaxelaire, Pistes pour une nouvelle approche de la traduction automatique des noms propres, Meta, 51(4), 2006, p. 719–738",
+      "institution": "Les Presses de l’Université de Montréal — revue Meta ; diffusion Érudit",
+      "url": "https://www.erudit.org/fr/revues/meta/2006-v51-n4-meta1442/014337ar.pdf",
+      "date_consultation": "2026-10-01",
+      "cibles": [
+        "ville-sk-kosice"
+      ],
+      "usages_atlas": [
+        "exonyme_francais"
+      ],
+      "locator": "Extrait indexé comparant Košice, Kassa, Kaschau et Cassovie dans le contexte de 1937.",
+      "note": "Métadonnées et extrait de recherche lus. Ouverture directe bloquée par une protection anti-robot ; l’article intégral n’est pas déclaré lu. Atteste l’exonyme français, pas un acte de nomination de 1944.",
+      "verification": {
+        "statut": "extrait_recherche_lu_article_non_ouvert",
+        "passages": "Exemple des exonymes de Košice dans le passage sur les variations historiques des noms."
+      }
+    },
+    {
+      "source_id": "src-13-cz-aussig-annuaire",
+      "operation_registre": "ajouter",
+      "niveau": "B",
+      "type_source": "catalogue_archivistique",
+      "titre": "Adresáře, telefonní seznamy a uličnice [Annuaires, répertoires téléphoniques et répertoires de rues]",
+      "institution": "Archiv města Ústí nad Labem — Archives municipales d’Ústí nad Labem",
+      "url": "https://archiv.usti.cz/digitalni-archiv/adresare-telefonni-seznamy-ulicnice.html",
+      "date_consultation": "2026-10-01",
+      "cibles": [
+        "ville-cz-usti-nad-labem"
+      ],
+      "usages_atlas": [
+        "nomenclature_historique"
+      ],
+      "locator": "Annuaires de la ville portant Aussig avant 1938 ; répertoires officiels de la Reichspostdirektion Aussig de 1939–1940 et 1942.",
+      "note": "Catalogue lu ; les ouvrages originaux n’ont pas été feuilletés. Les volumes de 1945 ne sont pas utilisés pour anticiper leur contenu au snapshot. Aussig est une forme allemande plus ancienne, pas un nom inventé en 1938.",
+      "verification": {
+        "statut": "notice_catalogue_lue_originaux_non_lus",
+        "passages": "Rubriques Adresáře et Telefonní seznamy."
+      }
+    },
+    {
+      "source_id": "src-13-cz-usti-occupation-1938",
+      "operation_registre": "ajouter",
+      "niveau": "B",
+      "type_source": "histoire_municipale",
+      "titre": "Dějiny města Ústí nad Labem — Začátek nacistické okupace [Histoire de la ville : début de l’occupation nazie]",
+      "institution": "Ville d’Ústí nad Labem / histoire municipale",
+      "url": "https://www.usti.cz/dejiny/1938-45/ul-7-1.htm",
+      "date_consultation": "2026-10-01",
+      "cibles": [
+        "ville-cz-usti-nad-labem"
+      ],
+      "usages_atlas": [
+        "chronologie",
+        "contexte_territorial"
+      ],
+      "locator": "Chapitre 1938–1945 : entrée des forces allemandes dans la ville le 9 octobre 1938.",
+      "note": "Le 9 octobre est une date d’occupation militaire dans ce texte ; elle n’est pas assimilée à la date d’un acte légal de changement de nom. Contexte territorial à porter dans les territoires, pas dupliqué dans la ville.",
+      "verification": {
+        "statut": "passage_cible_lu",
+        "passages": "Début du chapitre et premier paragraphe."
+      }
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
  "metadata": {
   "nom": "registre_sources_atlas",
-  "version": "1.12",
+  "version": "1.13",
   "date_creation": "2026-09-26",
   "principe": "Une source = un source_id stable. Les fiches événements/entités peuvent référencer ce source_id et préciser l'usage/locator.",
   "statut": "registre_initial_a_completer"
@@ -8025,27 +8025,28 @@
    "source_id": "src-13-hu-miskolc-fusion",
    "niveau": "B",
    "type_source": "notice_historique_institutionnelle",
-   "titre": "Miskolc kulturális stratégiája 2022–2032 — Történeti összefoglalás",
+   "titre": "Miskolc Megyei Jogú Város Kulturális Stratégiája 2022–2032 — résumé historique",
    "institution": "Ville de Miskolc",
-   "url": "https://www.miskolc.hu/sites/default/files/onkormanyzat/csatolmanyok/2024-11/169_1_mell._kult.strategia_2022-2032.pdf",
+   "url": "https://www.miskolc.hu/sites/default/files/onkormanyzat/csatolmanyok/2024-11/169_1_mell._kult.strategia_2022-2032.pdf#page=102",
    "date_consultation": "2026-10-01",
    "periode_couverte": [],
    "zones": [],
    "usages_atlas": [
-    "perimetre_historique"
+    "perimetre_historique",
+    "date_effet_fusion"
    ],
    "cibles": [
     "ville-hu-miskolc",
     "ville-hu-diosgyor"
    ],
-   "locator": "Page PDF 102 : décision donnant effet à Grand Miskolc le 1er janvier 1945 ; Diósgyőr et Hejőcsaba absorbées.",
+   "locator": "Page imprimée 102, 102e page du PDF, index technique 101. Section sur les décennies d’après-guerre : date d’effet de Grand Miskolc puis liste des centres rattachés.",
    "resume_passage": "",
    "archive_locale": null,
-   "verification_claude": "faible",
-   "notes": "Proposée par Ether (villes 1.3, 01/10/2026, réf. S44). Limite annoncée par Ether : La fusion est datée du 1er janvier 1945. Selon la convention verrouillée du projet, l'état initial est le dernier état connu AVANT 00:00 : conserver Diósgyőr distincte puis appliquer la fusion dans le ratissage temporel. Relecture Claude 01/10/2026 : Le PDF ne contient pas de décision de Grand Miskolc au 1er janvier 1945 (il évoque Nagy-Miskolc « 60-70 évvel ezelőtt ») ; page 102 non confirmée.",
+   "verification_claude": "non_verifiee",
+   "notes": "Proposée par Ether (villes 1.3, 01/10/2026, réf. S44). Limite annoncée par Ether : La fusion est datée du 1er janvier 1945. Selon la convention verrouillée du projet, l'état initial est le dernier état connu AVANT 00:00 : conserver Diósgyőr distincte puis appliquer la fusion dans le ratissage temporel. Complétée par Ether le 01/10/2026 (réponse aux questions du lot 1.3) : Passage relu et page inspectée. Date d’effet du 1er janvier 1945 explicitement donnée ; ni date exacte du vote ni heure d’effet originale vérifiées. Document rétrospectif B ; acte administratif original non consulté. Relecture Claude 01/10/2026 : Le PDF est accessible mais WebFetch n'en restitue que les ~31 premières pages (le texte s'arrête sur la section du Miskolci Szimfonikus Zenekar) ; la page 102 (annexe historique, dès p. 94) n'a pas pu être lue. Aucune occurrence de « 1945. január », « Hejőcsaba » ni de fusion explicite avec Diósgyőr dans la partie lue (seulement une allusion p. 10 à la création de Nagy-Miskolc « 60-70 évvel ezelőtt »).",
    "verification_ether": {
-    "statut": "contenu_lu",
-    "passages": "Page PDF 102 : décision donnant effet à Grand Miskolc le 1er janvier 1945 ; Diósgyőr et Hejőcsaba absorbées."
+    "statut": "passage_lu_et_page_verifiee",
+    "passages": "Page 102 ; formule datée et paragraphe mentionnant Diósgyőr et Hejőcsaba."
    }
   },
   {
@@ -9886,6 +9887,139 @@
     "passages": "Ferry ferroviaire construit en 1926 pour le port ; repris en 1939 sous le nom Danzig ; même trajet avant son naufrage de 1945."
    },
    "notes": "Proposée par Ether (villes 1.4, 01/10/2026). Note d'Ether : Extrait indexé effectivement lu ; la destruction de 1945 n’appartient pas à l’état initial. Relecture Claude 01/10/2026 : WebFetch refusé : URL interdite par robots.txt (ROBOTS_DISALLOWED), pas de contournement tenté."
+  },
+  {
+   "source_id": "src-13-sk-kassa-nom-1938",
+   "niveau": "B",
+   "type_source": "notice_biographique_museale",
+   "titre": "Zuzana Gruenberger — récit biographique dans Deportations: ID Card/Oral History",
+   "institution": "United States Holocaust Memorial Museum — Musée mémorial de l’Holocauste des États-Unis",
+   "url": "https://encyclopedia.ushmm.org/content/en/gallery/deportations-stories",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "nomenclature_historique",
+    "chronologie"
+   ],
+   "cibles": [
+    "ville-sk-kosice"
+   ],
+   "locator": "Section Zuzana Gruenberger, paragraphe 1933–1939 : incorporation à la Hongrie et nom Kassa en novembre 1938.",
+   "resume_passage": "In November 1938, when Zuzana was 5, Hungarian troops marched into Kosice and made it a part of Hungary. The Hungarians changed the name of the city to Kassa.",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "passage_cible_lu",
+    "passages": "Section Zuzana Gruenberger, paragraphes 1933–1939 et 1940–1944."
+   },
+   "notes": "Proposée par Ether (réponse aux questions du lot villes 1.3, 01/10/2026). Limite annoncée par Ether : Notice textuelle lue ; ne fixe pas à elle seule un jour de changement de nom ni le retour du nom slovaque en 1945. Relecture Claude 01/10/2026 : WebFetch renvoie explicitement ces deux phrases pour le récit de Zuzana (1938). Le titre exact de la sous-section « 1933–1939 » n'a pas été renvoyé par l'outil, mais le contenu correspond à l'affirmation."
+  },
+  {
+   "source_id": "src-13-sk-kosice-admin-1938-1945",
+   "niveau": "B",
+   "type_source": "article_recherche_historique",
+   "titre": "Veronika Szeghy-Gayer, Personálna kontinuita politickej elity v Košiciach po Viedenskej arbitráži [Continuité du personnel de l’élite politique de Košice après l’arbitrage de Vienne], Forum Historiae, 2018, 12(1)",
+   "institution": "Forum Historiae — revue de l’Institut d’histoire de l’Académie slovaque des sciences",
+   "url": "https://www.forumhistoriae.sk/sites/default/files/09-szeghy-gayer-veronika-personalna-kontinuita-politickej-elity-v-kosiciach.pdf",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "contexte_administratif",
+    "chronologie"
+   ],
+   "cibles": [
+    "ville-sk-kosice"
+   ],
+   "locator": "Première page du PDF, note 1 et résumé : institutions municipales hongroises ; arrivée soviétique le 19 janvier 1945.",
+   "resume_passage": "Po Viedenskej arbitráži, keď mesto pričlenili k Maďarsku, Košice boli znovu povýšené na municipálne mesto. [...] zostali na svojich miestach až do príchodu sovietskej armády do Košíc 19. januára 1945.",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "passages_cibles_lus",
+    "passages": "Première page, note 1 et résumé ; références du début de l’article."
+   },
+   "notes": "Proposée par Ether (réponse aux questions du lot villes 1.3, 01/10/2026). Limite annoncée par Ether : Début de l’article et passages ciblés lus. La capture du 19 janvier ne donne pas automatiquement la date administrative exacte du retour de Košice comme nom officiel. Relecture Claude 01/10/2026 : Article de Veronika Szeghy-Gayer, Forum Historiae 2018 (vol. 12, n° 1) ; la note 1 confirme le statut de ville municipale hongroise après l'arbitrage de Vienne et l'arrivée de l'armée soviétique à Košice le 19 janvier 1945."
+  },
+  {
+   "source_id": "src-13-sk-cassovie-fr",
+   "niveau": "B",
+   "type_source": "article_recherche_linguistique",
+   "titre": "Jean Louis Vaxelaire, Pistes pour une nouvelle approche de la traduction automatique des noms propres, Meta, 51(4), 2006, p. 719–738",
+   "institution": "Les Presses de l’Université de Montréal — revue Meta ; diffusion Érudit",
+   "url": "https://www.erudit.org/fr/revues/meta/2006-v51-n4-meta1442/014337ar.pdf",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "exonyme_francais"
+   ],
+   "cibles": [
+    "ville-sk-kosice"
+   ],
+   "locator": "Extrait indexé comparant Košice, Kassa, Kaschau et Cassovie dans le contexte de 1937.",
+   "resume_passage": "",
+   "archive_locale": null,
+   "verification_claude": "non_verifiee",
+   "verification_ether": {
+    "statut": "extrait_recherche_lu_article_non_ouvert",
+    "passages": "Exemple des exonymes de Košice dans le passage sur les variations historiques des noms."
+   },
+   "notes": "Proposée par Ether (réponse aux questions du lot villes 1.3, 01/10/2026). Limite annoncée par Ether : Métadonnées et extrait de recherche lus. Ouverture directe bloquée par une protection anti-robot ; l’article intégral n’est pas déclaré lu. Atteste l’exonyme français, pas un acte de nomination de 1944. Relecture Claude 01/10/2026 : Le PDF et la page HTML Érudit renvoient seulement une page de protection anti-robot (Anubis) ; seules les métadonnées (Meta 2006, v. 51, n° 4, « Pistes pour une nouvelle approche de la traduction automatique des noms propres ») sont visibles, pas le texte, donc les noms Košice/Kassa/Kaschau/Cassovie ne sont pas vérifiables."
+  },
+  {
+   "source_id": "src-13-cz-aussig-annuaire",
+   "niveau": "B",
+   "type_source": "catalogue_archivistique",
+   "titre": "Adresáře, telefonní seznamy a uličnice [Annuaires, répertoires téléphoniques et répertoires de rues]",
+   "institution": "Archiv města Ústí nad Labem — Archives municipales d’Ústí nad Labem",
+   "url": "https://archiv.usti.cz/digitalni-archiv/adresare-telefonni-seznamy-ulicnice.html",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "nomenclature_historique"
+   ],
+   "cibles": [
+    "ville-cz-usti-nad-labem"
+   ],
+   "locator": "Annuaires de la ville portant Aussig avant 1938 ; répertoires officiels de la Reichspostdirektion Aussig de 1939–1940 et 1942.",
+   "resume_passage": "Adressbuch der Stadt Aussig und des politischen Bezirkes Aussig - 1926 ; Amtliches Fernsprechbuch für den Bezirk der Reichspostdirektion Aussig - 1939–1940 ; ... - 1942",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "notice_catalogue_lue_originaux_non_lus",
+    "passages": "Rubriques Adresáře et Telefonní seznamy."
+   },
+   "notes": "Proposée par Ether (réponse aux questions du lot villes 1.3, 01/10/2026). Limite annoncée par Ether : Catalogue lu ; les ouvrages originaux n’ont pas été feuilletés. Les volumes de 1945 ne sont pas utilisés pour anticiper leur contenu au snapshot. Aussig est une forme allemande plus ancienne, pas un nom inventé en 1938. Relecture Claude 01/10/2026 : La page liste bien des annuaires intitulés « Aussig » de 1872 à 1934 (avant 1938) et deux répertoires officiels de la Reichspostdirektion Aussig pour 1939–1940 et 1942."
+  },
+  {
+   "source_id": "src-13-cz-usti-occupation-1938",
+   "niveau": "B",
+   "type_source": "histoire_municipale",
+   "titre": "Dějiny města Ústí nad Labem — Začátek nacistické okupace [Histoire de la ville : début de l’occupation nazie]",
+   "institution": "Ville d’Ústí nad Labem / histoire municipale",
+   "url": "https://www.usti.cz/dejiny/1938-45/ul-7-1.htm",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "chronologie",
+    "contexte_territorial"
+   ],
+   "cibles": [
+    "ville-cz-usti-nad-labem"
+   ],
+   "locator": "Chapitre 1938–1945 : entrée des forces allemandes dans la ville le 9 octobre 1938.",
+   "resume_passage": "V neděli 9. října 1938 okolo druhé hodiny odpoledne obsadily město bez boje jednotky wehrmachtu",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "passage_cible_lu",
+    "passages": "Début du chapitre et premier paragraphe."
+   },
+   "notes": "Proposée par Ether (réponse aux questions du lot villes 1.3, 01/10/2026). Limite annoncée par Ether : Le 9 octobre est une date d’occupation militaire dans ce texte ; elle n’est pas assimilée à la date d’un acte légal de changement de nom. Contexte territorial à porter dans les territoires, pas dupliqué dans la ville. Relecture Claude 01/10/2026 : La page de l'histoire municipale indique explicitement l'entrée des troupes de la Wehrmacht dans la ville le dimanche 9 octobre 1938, vers 14 h, sans combat."
   }
  ]
 }

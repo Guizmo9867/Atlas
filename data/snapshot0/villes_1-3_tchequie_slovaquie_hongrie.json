@@ -3,7 +3,7 @@
     "nom": "snapshot0_villes_1-3_tchequie_slovaquie_hongrie",
     "date_reference": "1945-01-01",
     "heure_reference": "00:00",
-    "version": "0.2",
+    "version": "0.3",
     "statut": "integre_par_claude",
     "gabarit_source": "gabarits/gabarit_entite_temporelle_atlas.json",
     "zone": [
@@ -29,7 +29,8 @@
         "Miskolc et Diósgyőr : deux points (fusion du 01/01/1945 à appliquer au ratissage du temps).",
         "Positions : Wikidata ; Nový Bohumín = gare ; Most à déplacer sur le vieux Most ; Komárom = rive nord (Komárno).",
         "« À renforcer » : Csepel (source C) et les villes dont aucune source n'a été confirmée par la relecture de Claude.",
-        "v0.2 (01/10) : JSON d'Ether reçu et rapproché (aucune différence de villes, rangs, rôles ou sources) ; notes d'Ether et preuves rôle par rôle reprises ; « à renforcer » calculé rôle par rôle ; Prague régionale validée par Guizmo."
+        "v0.2 (01/10) : JSON d'Ether reçu et rapproché (aucune différence de villes, rangs, rôles ou sources) ; notes d'Ether et preuves rôle par rôle reprises ; « à renforcer » calculé rôle par rôle ; Prague régionale validée par Guizmo.",
+        "v0.3 (01/10) : réponse d'Ether — Cassovie (Kassa sur place) et Aussig portés comme nom à la date dans l'état (lu en premier par la carte ; la fiche garde Košice et Ústí nad Labem comme repères actuels, mêmes IDs) ; fusion Miskolc–Diósgyőr datée du 01/01/1945 (S44 complétée) ; 5 sources ajoutées. Les autres villes ne sont renommées que sur preuve individuelle."
       ]
     }
   },
@@ -288,13 +289,14 @@
           },
           "statut": "ville_au_snapshot0",
           "proprietes": {
+            "nom": "Aussig",
             "importance_atlas": "B",
             "roles": [
               "rail",
               "port_fluvial",
               "industrie"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.3) : Articulation rail–port–industrie sur l’Elbe. Le port est historiquement attesté ; aucun volume contemporain n’est transposé en 1945."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.3) : Articulation rail–port–industrie sur l’Elbe. Le port est historiquement attesté ; aucun volume contemporain n’est transposé en 1945. Nom à la date : Aussig (forme allemande ancienne, en usage officiel 1939–1942 d'après les archives municipales ; ville occupée le 9/10/1938). Date du retour au nom Ústí nad Labem encore à prouver."
           },
           "geometrie": {
             "type": "Point",
@@ -313,6 +315,16 @@
               "source_id": "src-13-cz-usti-histoire",
               "locator": "1851 : axe Prague–Dresde ; port développé avant 1901 ; usine chimique depuis 1856.",
               "usage": "preuve locale : rail, port_fluvial, industrie"
+            },
+            {
+              "source_id": "src-13-cz-aussig-annuaire",
+              "locator": "Annuaires de la ville portant Aussig avant 1938 ; répertoires officiels de la Reichspostdirektion Aussig de 1939–1940 et 1942.",
+              "usage": "nom à la date"
+            },
+            {
+              "source_id": "src-13-cz-usti-occupation-1938",
+              "locator": "Chapitre 1938–1945 : entrée des forces allemandes dans la ville le 9 octobre 1938.",
+              "usage": "nom à la date"
             }
           ]
         }
@@ -1132,6 +1144,7 @@
       "nom_court": "Košice",
       "aliases": [
         "Kassa",
+        "Cassovie",
         "Kaschau"
       ],
       "etats": [
@@ -1147,11 +1160,13 @@
           },
           "statut": "ville_au_snapshot0",
           "proprietes": {
+            "nom": "Cassovie",
+            "nom_local": "Kassa",
             "importance_atlas": "B",
             "roles": [
               "rail"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.3) : Articulation des corridors méridional et septentrional. Ne pas ajouter le complexe sidérurgique d’après-guerre. Le nom d’affichage slovaque ne prétend pas être la forme administrative officielle de 1944."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.3) : Articulation des corridors méridional et septentrional. Ne pas ajouter le complexe sidérurgique d’après-guerre. Nom à la date : Cassovie (nom français traditionnel ; Kassa sur place, ville hongroise depuis novembre 1938). Date du retour au nom Košice en 1945 encore à prouver (pas automatiquement la prise du 19/01/1945). Source de « Cassovie » (Érudit) bloquée pour Claude : dans « Sources à valider »."
           },
           "geometrie": {
             "type": "Point",
@@ -1175,6 +1190,21 @@
               "source_id": "src-13-sk-zsr-kosice-bohumin",
               "locator": "Liste des ouvertures 1869–1872 ; Žilina–Poprad ouverte le 8 décembre 1871 ; gares de Žilina et Vrútky agrandies pendant la construction.",
               "usage": "preuve locale : rail"
+            },
+            {
+              "source_id": "src-13-sk-kassa-nom-1938",
+              "locator": "Section Zuzana Gruenberger, paragraphe 1933–1939 : incorporation à la Hongrie et nom Kassa en novembre 1938.",
+              "usage": "nom à la date"
+            },
+            {
+              "source_id": "src-13-sk-kosice-admin-1938-1945",
+              "locator": "Première page du PDF, note 1 et résumé : institutions municipales hongroises ; arrivée soviétique le 19 janvier 1945.",
+              "usage": "nom à la date"
+            },
+            {
+              "source_id": "src-13-sk-cassovie-fr",
+              "locator": "Extrait indexé comparant Košice, Kassa, Kaschau et Cassovie dans le contexte de 1937.",
+              "usage": "nom à la date (non vérifiée par Claude)"
             }
           ]
         }
@@ -2048,7 +2078,7 @@
             "roles": [
               "rail"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.3) : Nœud ferroviaire du nord-est. Au dernier état avant minuit, ne pas absorber Diósgyőr ; la fusion datée du 1er janvier 1945 relève du ratissage temporel suivant. Date de la fusion avec Diósgyőr (01/01/1945) non confirmée par la relecture de Claude. À renforcer : rail."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.3) : Nœud ferroviaire du nord-est. Au dernier état avant minuit, ne pas absorber Diósgyőr ; la fusion datée du 1er janvier 1945 relève du ratissage temporel suivant. Date confirmée par Ether (S44, p. 102). Page 102 pas encore relue par Claude (document trop long pour l'outil) : dans « Sources à valider ». À renforcer : rail."
           },
           "geometrie": {
             "type": "Point",
@@ -2070,8 +2100,8 @@
             },
             {
               "source_id": "src-13-hu-miskolc-fusion",
-              "locator": "Page PDF 102 : décision donnant effet à Grand Miskolc le 1er janvier 1945 ; Diósgyőr et Hejőcsaba absorbées.",
-              "usage": "contexte (situation, nom ou périmètre) (lecture partielle)"
+              "locator": "Page imprimée 102, 102e page du PDF, index technique 101. Section sur les décennies d’après-guerre : date d’effet de Grand Miskolc puis liste des centres rattachés.",
+              "usage": "date de la fusion (01/01/1945) (non vérifiée par Claude)"
             }
           ]
         }
@@ -2100,7 +2130,7 @@
             "roles": [
               "industrie"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.3) : Pôle industriel majeur à représenter avant la fusion. Distincte de Miskolc dans le Snapshot défini AVANT 00:00. Fusion datée du 1er janvier 1945 à traiter ensuite. Résumé de l’article lu ; intégral non lu."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.3) : Pôle industriel majeur à représenter avant la fusion. Distincte de Miskolc dans le Snapshot défini AVANT 00:00. Fusion datée du 1er janvier 1945 à traiter ensuite. Résumé de l’article lu ; intégral non lu. Date confirmée par Ether (S44, p. 102) ; son rôle industriel restera décrit après la fusion."
           },
           "geometrie": {
             "type": "Point",
@@ -2127,8 +2157,8 @@
             },
             {
               "source_id": "src-13-hu-miskolc-fusion",
-              "locator": "Page PDF 102 : décision donnant effet à Grand Miskolc le 1er janvier 1945 ; Diósgyőr et Hejőcsaba absorbées.",
-              "usage": "contexte (situation, nom ou périmètre) (lecture partielle)"
+              "locator": "Page imprimée 102, 102e page du PDF, index technique 101. Section sur les décennies d’après-guerre : date d’effet de Grand Miskolc puis liste des centres rattachés.",
+              "usage": "date de la fusion (01/01/1945) (non vérifiée par Claude)"
             }
           ]
         }

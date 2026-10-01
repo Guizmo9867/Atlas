@@ -6,7 +6,7 @@ import { LIBELLES } from '../theme/palettes'
 const NOMS_PROPRIETES: Record<string, string> = {
   souverainete_id: 'Souveraineté', souverainete_revendiquee_par: 'Souveraineté revendiquée par', controle_id: 'Contrôle effectif', administration_id: 'Administration civile', alignement_id: 'Alignement',
   regime_id: 'Régime', statut_administratif: 'Statut administratif', parent_id: 'Fait partie de', note: 'Note',
-  nom_local: 'Nom sur place', importance_atlas: 'Importance dans l’Atlas', capitale: 'Capitale', roles: 'Rôles', situation: 'Situation',
+  nom: 'Nom à cette date', nom_local: 'Nom sur place', importance_atlas: 'Importance dans l’Atlas', capitale: 'Capitale', roles: 'Rôles', situation: 'Situation',
 }
 const VALEURS_VILLE: Record<string, string> = {
   A: 'A · capitale (visible dès le zoom continental)', B: 'B · grande ville structurante (zoom national)', C: 'C · nœud régional (zoom régional)', D: 'D · micro-histoire (zoom local)',
@@ -110,7 +110,8 @@ export default function Fiche({ selection, date, corpus, onClose, onSelect }: {
     <aside className="fiche">
       <button className="fermer" onClick={onClose} aria-label="Fermer">✕</button>
       <div className="surtitre">Entité · {ent.type_entite}</div>
-      <h2>{ent.nom}</h2>
+      <h2>{actif?.proprietes?.nom ?? ent.nom}</h2>
+      {actif?.proprietes?.nom && actif.proprietes.nom !== ent.nom ? <div className="meta">aujourd’hui : {ent.nom}</div> : null}
       {ent.aliases?.length ? <div className="meta">aussi : {ent.aliases.join(' · ')}</div> : null}
       <div className="meta"><code>{ent.entite_id}</code></div>
       <h3>Historique des états</h3>

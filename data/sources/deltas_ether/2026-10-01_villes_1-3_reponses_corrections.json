@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "projet": "Route Atlas",
+    "lot": "villes_1.3",
+    "date_preparation": "2026-10-01",
+    "statut": "complement_de_proposition_non_applique_au_depot",
+    "format": "consignes_de_corrections_partielles_a_adapter_au_schema_canonique",
+    "reference": "Dernier état connu strictement avant le 1er janvier 1945 à 00:00",
+    "ids": "Rapprocher ces IDs de travail des IDs canoniques ; aucun ID ne doit changer à cause d’un nom ou d’une annexion."
+  },
+  "corrections_nomenclature": [
+    {
+      "entite_id": "ville-sk-kosice",
+      "nom_propose": "Cassovie",
+      "nom_local_snapshot_propose": "Kassa",
+      "aliases_a_ajouter": [
+        "Košice",
+        "Kassa",
+        "Cassovie"
+      ],
+      "operation": "porter_la_nomenclature_dans_l_etat_temporel_utilise_par_le_rendu",
+      "justification": "Exonyme français traditionnel documenté ; forme hongroise au dernier état de 1944.",
+      "sources": [
+        "src-13-sk-kassa-nom-1938",
+        "src-13-sk-kosice-admin-1938-1945",
+        "src-13-sk-cassovie-fr"
+      ],
+      "limite": "La date exacte du retour au nom local Košice en 1945 reste à établir ; ne pas l’assimiler automatiquement à la capture du 19 janvier."
+    },
+    {
+      "entite_id": "ville-cz-usti-nad-labem",
+      "nom_propose": "Aussig",
+      "nom_local_snapshot_propose": "Aussig",
+      "aliases_a_ajouter": [
+        "Ústí nad Labem",
+        "Aussig"
+      ],
+      "operation": "porter_la_nomenclature_dans_l_etat_temporel_utilise_par_le_rendu",
+      "justification": "Forme allemande attestée par le catalogue des archives municipales pour la période de guerre.",
+      "sources": [
+        "src-13-cz-aussig-annuaire",
+        "src-13-cz-usti-occupation-1938"
+      ],
+      "limite": "Le catalogue n’a pas permis de dater au jour le retour du nom local tchèque après-guerre ; pas de changement de nom créé automatiquement à une capture."
+    }
+  ],
+  "confirmation_fusion": {
+    "cibles": [
+      "ville-hu-miskolc",
+      "ville-hu-diosgyor"
+    ],
+    "date_effet": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+    },
+    "decision_snapshot": "Conserver les deux points dans l’échantillon du dernier état avant minuit.",
+    "suite_temporelle": "Appliquer la fusion à partir du 1er janvier 1945 ; éviter deux villes municipales indépendantes ensuite. Conserver l’histoire et la fonction de l’ancien pôle industriel.",
+    "source": "src-13-hu-miskolc-fusion",
+    "limite": "Date d’effet confirmée ; vote et heure originale non vérifiés. Le repère doit être normalisé au gabarit événement avant import.",
+    "normalisation": "Ne pas créer un intervalle pré-fusion vide commençant et finissant au 1er janvier 1945 ; distinguer la date de l’échantillon Snapshot 0 des bornes historiques des états."
+  },
+  "consignes_communes": [
+    "Nom français traditionnel réellement attesté en priorité ; nom_local daté séparément.",
+    "À défaut d’exonyme français retenu, afficher le nom historique documenté pour la date.",
+    "Les alias servent au repérage ; le rendu doit aussi lire les valeurs du bon état temporel.",
+    "Pas d’attribution politique copiée dans les villes ; héritage territorial conservé.",
+    "Ne pas renommer toutes les villes selon la langue du pays de rattachement : documenter chacune.",
+    "Ces deux dossiers illustrent les noms au début de 1945 ; les annexions concernées remontent à 1938."
+  ]
+}

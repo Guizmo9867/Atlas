@@ -61,7 +61,8 @@ export function construireCouches(
     // Villes : un point, une priorité d'affichage (A→D) ; souveraineté et contrôle viennent du territoire où elles sont.
     if (ent.type_entite === 'ville') {
       c.villes.features.push({ type: 'Feature', geometry: geom, properties: {
-        entite_id: ent.entite_id, nom: ent.nom_court ?? ent.nom, importance: p.importance_atlas ?? 'C', capitale: p.capitale ?? '', situation: p.situation ?? '' } })
+        // nom à la date (dans l'état) d'abord, sinon le nom de la fiche
+        entite_id: ent.entite_id, nom: p.nom ?? ent.nom_court ?? ent.nom, importance: p.importance_atlas ?? 'C', capitale: p.capitale ?? '', situation: p.situation ?? '' } })
       continue
     }
     const parent = p.parent_id ? actifs.get(p.parent_id)?.proprietes : undefined

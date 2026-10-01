@@ -1,0 +1,44 @@
+{
+ "metadata": {
+  "objet": "Relecture par Claude (WebFetch, via sous-agents) des 6 sources de la réponse d'Ether au lot villes 1.3",
+  "date": "2026-10-01"
+ },
+ "resultats": [
+  {
+   "id": "src-13-hu-miskolc-fusion",
+   "statut": "non_verifiee",
+   "citation": "",
+   "commentaire": "Le PDF est accessible mais WebFetch n'en restitue que les ~31 premières pages (le texte s'arrête sur la section du Miskolci Szimfonikus Zenekar) ; la page 102 (annexe historique, dès p. 94) n'a pas pu être lue. Aucune occurrence de « 1945. január », « Hejőcsaba » ni de fusion explicite avec Diósgyőr dans la partie lue (seulement une allusion p. 10 à la création de Nagy-Miskolc « 60-70 évvel ezelőtt »)."
+  },
+  {
+   "id": "src-13-sk-kassa-nom-1938",
+   "statut": "ok",
+   "citation": "In November 1938, when Zuzana was 5, Hungarian troops marched into Kosice and made it a part of Hungary. The Hungarians changed the name of the city to Kassa.",
+   "commentaire": "WebFetch renvoie explicitement ces deux phrases pour le récit de Zuzana (1938). Le titre exact de la sous-section « 1933–1939 » n'a pas été renvoyé par l'outil, mais le contenu correspond à l'affirmation."
+  },
+  {
+   "id": "src-13-sk-kosice-admin-1938-1945",
+   "statut": "ok",
+   "citation": "Po Viedenskej arbitráži, keď mesto pričlenili k Maďarsku, Košice boli znovu povýšené na municipálne mesto. [...] zostali na svojich miestach až do príchodu sovietskej armády do Košíc 19. januára 1945.",
+   "commentaire": "Article de Veronika Szeghy-Gayer, Forum Historiae 2018 (vol. 12, n° 1) ; la note 1 confirme le statut de ville municipale hongroise après l'arbitrage de Vienne et l'arrivée de l'armée soviétique à Košice le 19 janvier 1945."
+  },
+  {
+   "id": "src-13-sk-cassovie-fr",
+   "statut": "non_verifiee",
+   "citation": "",
+   "commentaire": "Le PDF et la page HTML Érudit renvoient seulement une page de protection anti-robot (Anubis) ; seules les métadonnées (Meta 2006, v. 51, n° 4, « Pistes pour une nouvelle approche de la traduction automatique des noms propres ») sont visibles, pas le texte, donc les noms Košice/Kassa/Kaschau/Cassovie ne sont pas vérifiables."
+  },
+  {
+   "id": "src-13-cz-aussig-annuaire",
+   "statut": "ok",
+   "citation": "Adressbuch der Stadt Aussig und des politischen Bezirkes Aussig - 1926 ; Amtliches Fernsprechbuch für den Bezirk der Reichspostdirektion Aussig - 1939–1940 ; ... - 1942",
+   "commentaire": "La page liste bien des annuaires intitulés « Aussig » de 1872 à 1934 (avant 1938) et deux répertoires officiels de la Reichspostdirektion Aussig pour 1939–1940 et 1942."
+  },
+  {
+   "id": "src-13-cz-usti-occupation-1938",
+   "statut": "ok",
+   "citation": "V neděli 9. října 1938 okolo druhé hodiny odpoledne obsadily město bez boje jednotky wehrmachtu",
+   "commentaire": "La page de l'histoire municipale indique explicitement l'entrée des troupes de la Wehrmacht dans la ville le dimanche 9 octobre 1938, vers 14 h, sans combat."
+  }
+ ]
+}

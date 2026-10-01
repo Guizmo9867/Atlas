@@ -2,11 +2,21 @@
 
 Une ligne par décision, datée. Plus récente en haut. Ce journal remplace les versions éparpillées dans les conversations : si ce n'est pas ici, ce n'est pas décidé.
 
+## 2026-10-01 (suite : réponse d'Ether au lot villes 1.3, feature « régime routier »)
+
+- **Règle des noms à la date (Ether)** : nom français traditionnel réellement attesté en priorité, sinon le nom historique documenté pour la date ; `nom_local` daté à part ; les autres formes en alias. **Chaque ville est renommée sur preuve individuelle**, jamais d'après la seule couleur de son territoire. Le changement de nom ne change pas l'ID. *(Ether)*
+- **Le nom à la date est porté dans l'état** (`proprietes.nom`) : la carte le lit en premier ; la fiche affiche ce nom et rappelle le nom actuel (« aujourd'hui : Košice »). *(Ether, fait par Claude)*
+- **Košice → Cassovie** (sur place : Kassa, ville hongroise depuis novembre 1938) et **Ústí nad Labem → Aussig** au Snapshot 0. Les dates du retour aux noms d'après-guerre restent à prouver : une prise militaire ne date pas à elle seule un changement de nom. *(Ether)*
+- **Fusion Miskolc–Diósgyőr datée du 01/01/1945** (Ether, PDF municipal p. 102) : deux points au Snapshot 0, fusion au ratissage de janvier, sans intervalle vide au 1er janvier. Page 102 hors de portée de l'outil de Claude : dans « Sources à valider ». *(Ether)*
+- **Deux façons de nommer coexistent pour l'instant** : au lot 1.4 le nom à la date est le nom de la fiche (Breslau, Stettin…) ; au lot 1.3 il est dans l'état. À harmoniser à l'audit transversal (de préférence : nom actuel sur la fiche, nom à la date dans l'état). *(Claude)*
+- Sources : 6 relues (4 confirmées ; S44 p. 102 et l'article sur « Cassovie » illisibles pour Claude). Registre v1.13 ; « Sources à valider » : 114. *(Claude)*
+- **Feature « régime routier »** (plaques, permis, signalisation, contrôles) : notée, à étudier vers la fin du Snapshot 0. Avis de Claude : commencer par le côté de conduite, pastille au cœur du territoire plutôt qu'à la capitale, zones de plaques bien plus tard. Note d'Ether conservée dans `docs/idees/`. *(Guizmo + Ether)*
+
 ## 2026-10-01 (suite : villes, ratissage 1.4 Pologne et pays baltes)
 
 - **Villes 1.4 intégrées : 61 villes** (32 Pologne, 9 Estonie, 10 Lettonie, 10 Lituanie), depuis le JSON d'Ether. *(Ether, fait par Claude)*
 - **Convention des capitales appliquée** : capitale régionale = siège administratif de fait sous occupation ou en RSS (Cracovie, Tallinn, Riga, Vilnius, comme Vienne et Prague) ; Varsovie nationale par continuité ; pas de capitale à Kaunas (entre-deux-guerres) ni à Lublin (administration provisoire, comme Debrecen). *(Ether + Claude, suit la règle validée par Guizmo pour Prague)*
-- **Noms à la date** : Ether nomme au Snapshot 0 Litzmannstadt, Breslau, Stettin, Dantzig, Gotenhafen, Gleiwitz, Memel ; les autres formes sont des alias. La règle d'ensemble (noms officiels sous annexion ou occupation) attend la réponse d'Ether à la question posée au lot 1.3. *(Ether)*
+- **Noms à la date** : Ether nomme au Snapshot 0 Litzmannstadt, Breslau, Stettin, Dantzig, Gotenhafen, Gleiwitz, Memel ; les autres formes sont des alias. La règle d'ensemble a été donnée par Ether le même jour (voir plus haut : preuve ville par ville). *(Ether)*
 - Sources 1.4 : 58 relues (44 confirmées, 14 dans « Sources à valider »). Registre v1.12. *(Claude)*
 - **Dossier d'échange** : Guizmo dépose les fichiers d'Ether dans le dossier Atlas du Bureau, auquel Claude a accès (plus besoin de les joindre à la conversation). *(Guizmo)*
 
