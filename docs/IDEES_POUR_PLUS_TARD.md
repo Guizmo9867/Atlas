@@ -39,3 +39,8 @@ Guizmo a choisi la piste complète : Claude enregistre (commit) et envoie (push)
 - La clé est rangée dans le dossier caché `.git` du dépôt, que Git n'envoie jamais. La configuration partagée avec GitHub Desktop n'est pas modifiée.
 - Les commits de Claude apparaissent sous le nom « Claude (pour Guizmo) ». Revenir en arrière reste possible à tout moment (historique Git).
 - Avant chaque commit, Claude lance le validateur ; il ne commite jamais un fichier de clé ou un fichier hors du dépôt.
+
+## 5. Sources : recherche et validation (01/10/2026)
+
+- **Recherche par mot-clé dans les sources** (une fois l'Atlas financé), pour ceux qui veulent approfondir. Pas le but premier : l'Atlas reste visuel. *(Guizmo)*
+- **Validation par la communauté** : la page « Sources à valider » est privée pour l'instant ; plus tard, l'ouvrir à des contributeurs, avec des limites (droits « contributeur », trace de qui valide quoi, relecture avant report au registre). *(Guizmo)*

@@ -2,6 +2,12 @@
 
 Une ligne par décision, datée. Plus récente en haut. Ce journal remplace les versions éparpillées dans les conversations : si ce n'est pas ici, ce n'est pas décidé.
 
+## 2026-10-01 (suite : clôture du 1.2, validation humaine des sources)
+
+- **Lot villes 1.2 clôturé** avec ses réserves visibles (45 villes « à renforcer » dans leur fiche). Le but reste le visuel ; la recherche, ce sont les sources, consultables par qui veut approfondir. *(Guizmo)*
+- **Les points se consolident avec le temps** : chaque nouvelle trouvaille (autoroute, poste douanier, train, ville, port…) vient renforcer ou confirmer les points déjà posés ; une réserve n'est pas une impasse. *(Guizmo)*
+- **Validation humaine des sources** : page « Sources à valider » (artifact claude.ai, privée) qui liste les sources que Claude n'a pas pu confirmer (46 au registre v1.8) ; Guizmo ouvre la page, vérifie le passage et clique « Ça prouve », « Ne prouve pas » ou « Lien mort ». Claude relit ces choix et les reporte au registre (`verification_humaine`, avec la date, sans extrait). Plus tard, la communauté pourra aider, avec des limites. Liste générée par `outils/sources/liste_sources_a_valider.py` → `data/sources/sources_a_valider.json`. *(Guizmo, fait par Claude)*
+
 ## 2026-10-01 (suite : second audit d'Ether sur les villes 1.2)
 
 - **Villes 1.2 v0.3 : 73 villes** (+ Hamm, Ludwigshafen, Mayence, Schweinfurt, Augsbourg, Leuna, Watenstedt-Salzgitter, Leoben avec Donawitz, Osnabrück). Un site industriel n'est pas un second point urbain : Donawitz est dans Leoben, Mersebourg différée. *(Ether, fait par Claude)*
