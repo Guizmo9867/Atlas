@@ -11,7 +11,7 @@ Version machine : `data/chiffres_projet.json`.*
 | Lignes de front | 4 |
 | Géométries tracées | 77 |
 | Villes | 325 (rang A : 19, B : 186, C : 120, D : 0) |
-| Capitales | 17 nationale, 7 regionale, 4 territoire |
+| Capitales | 17 nationales, 7 régionales, 4 de territoire |
 | Villes affichées sous leur nom de 1945 | 20 |
 | Villes avec une réserve « à renforcer » visible | 82 |
 
@@ -30,5 +30,5 @@ Lots de frontières : 4. Lots de villes : 5 (villes_1-0_france_benelux_iles_brit
 
 ## Historique
 
-- Envois sur GitHub : 18 (du 2026-09-28 au 2026-10-01).
+- Envois sur GitHub : 19 (du 2026-09-28 au 2026-10-01).
 - Dépôt public : https://github.com/Guizmo9867/Atlas

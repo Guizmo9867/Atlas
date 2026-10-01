@@ -89,7 +89,7 @@ Version machine : `data/chiffres_projet.json`.*
 | Lignes de front | {S['lignes_de_front']} |
 | Géométries tracées | {S['geometries']} |
 | Villes | {S['villes']} (rang A : {S['villes_par_rang'].get('A', 0)}, B : {S['villes_par_rang'].get('B', 0)}, C : {S['villes_par_rang'].get('C', 0)}, D : {S['villes_par_rang'].get('D', 0)}) |
-| Capitales | {', '.join(f'{v} {k}' for k, v in S['capitales'].items())} |
+| Capitales | {', '.join(f"{v} {({'nationale': 'nationales', 'regionale': 'régionales', 'territoire': 'de territoire'}).get(k, k)}" for k, v in S['capitales'].items())} |
 | Villes affichées sous leur nom de 1945 | {S['villes_avec_nom_de_1945_different']} |
 | Villes avec une réserve « à renforcer » visible | {S['villes_avec_reserve_a_renforcer']} |
 
