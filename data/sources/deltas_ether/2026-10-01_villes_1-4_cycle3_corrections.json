@@ -1,0 +1,60 @@
+{
+  "metadata": {
+    "lot": "villes_1-4",
+    "cycle": 3,
+    "date": "2026-10-01",
+    "statut": "propositions_livrees_a_claude",
+    "mode": "Corrections ciblées, préservation des autres données et des vérifications existantes."
+  },
+  "corrections": [
+    {
+      "question_id": "Q14-02",
+      "entite_id": "ville-pl-torun",
+      "operation": "corriger_precision_documentaire",
+      "instruction": "Si la note ou l'usage de source date le slogan de Thorn de 1943, retirer uniquement cette attribution. La date du 20 mars 1943 concerne l'ouverture de la galerie. Conserver le nom Thorn déjà intégré.",
+      "source_ids": [
+        "src-14-pl-thorn-museum"
+      ]
+    },
+    {
+      "question_id": "Q14-03",
+      "entite_id": "ville-ee-tapa",
+      "operation": "completer_preuve_et_repere",
+      "instruction": "Annonce retrouvée au bas de la page du musée, entrée du journal du 22 décembre 1876, signée le 19. Conserver 1876/1877 sans explication causale inventée ni conversion calendaire ; relire ce passage. Ne pas lever globalement À renforcer sur cette seule preuve.",
+      "source_ids": [
+        "src-14-ee-tapa-local"
+      ]
+    },
+    {
+      "question_id": "Q14-04",
+      "entite_id": "ville-pl-bydgoszcz",
+      "operation": "corriger_url_source",
+      "instruction": "Fusionner l'URL corrigée et la relecture du delta. Aucun nouveau renommage.",
+      "source_ids": [
+        "src-14-pl-bromberg-museum"
+      ]
+    },
+    {
+      "question_id": "Q14-05",
+      "operation": "completer_acces_aux_archives",
+      "instruction": "Fonds stable 44925 pour Cosel et Heydebreck ; conserver anciennes URL en historique. Actes de 1944 non relus. Tarnowitz : provenance non revérifiée, pas de remplacement de fonds conjectural et pas de validation de la preuve ancienne.",
+      "source_ids": [
+        "src-14-pl-cosel-archive",
+        "src-14-pl-heydebreck-archive",
+        "src-14-pl-tarnowitz-archive"
+      ]
+    }
+  ],
+  "reserves": [
+    {
+      "question_id": "Q14-01",
+      "decision": "Conserver le champ en réserve",
+      "instruction": "Préserver les valeurs existantes de nom_local ; ne pas appliquer la définition proposée."
+    },
+    {
+      "question_id": "Q14-05",
+      "instruction": "Maintenir la réserve Tarnowitz et les réserves sur les actes non lus. Signaler toute contradiction de provenance au lieu de la résoudre par supposition."
+    }
+  ],
+  "format": "Q14-06 : six seules fiches modifiées, operation_registre, rédaction française, citations originales courtes."
+}

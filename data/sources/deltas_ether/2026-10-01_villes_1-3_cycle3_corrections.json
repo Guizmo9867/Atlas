@@ -1,0 +1,114 @@
+{
+  "metadata": {
+    "lot": "villes_1-3",
+    "cycle": 3,
+    "date": "2026-10-01",
+    "snapshot": "1945-01-01T00:00:00",
+    "statut": "propositions_livrees_a_claude",
+    "mode": "Instructions ciblées à adapter au schéma canonique, pas remplacement du lot. Préserver IDs, nom actuel de fiche, nom_local, rôles, coordonnées et autres propriétés. Les réserves ne sont pas des modifications à appliquer.",
+    "limite": "Attestations antérieures au Snapshot, sans anticipation de nom d'après-guerre ni invention de dates de décret. Relecture de Claude attendue."
+  },
+  "corrections": [
+    {
+      "question_id": "Q13-01",
+      "entite_id": "ville-cz-liberec",
+      "operation": "nom_dans_etat_snapshot0",
+      "champ_canonique": "proprietes.nom",
+      "valeur": "Reichenberg",
+      "source_ids": [
+        "src-13-cz-reichenberg-reichsanzeiger-1944"
+      ],
+      "preuve": "Usage administratif local daté en 1944, transcription OCR.",
+      "condition": "Rapprocher les IDs du dépôt et relire la preuve individuelle avant intégration ; conserver les réserves techniques de lecture.",
+      "note_a_ajouter": "Nom historique attesté avant le Snapshot 0 ; date exacte du retour au nom d'après-guerre non établie par cette source.",
+      "aliases": "Conserver les alias existants et l'accès au nom actuel ; aucune règle nouvelle de nom_local."
+    },
+    {
+      "question_id": "Q13-01",
+      "entite_id": "ville-cz-cheb",
+      "operation": "nom_dans_etat_snapshot0",
+      "champ_canonique": "proprietes.nom",
+      "valeur": "Eger",
+      "source_ids": [
+        "src-13-cz-eger-reichsanzeiger-1944"
+      ],
+      "preuve": "Tribunal nommé Eger en 1944 ; ne pas attribuer à Eger l'entreprise située à Asch.",
+      "condition": "Rapprocher les IDs du dépôt et relire la preuve individuelle avant intégration ; conserver les réserves techniques de lecture.",
+      "note_a_ajouter": "Nom historique attesté avant le Snapshot 0 ; date exacte du retour au nom d'après-guerre non établie par cette source.",
+      "aliases": "Conserver les alias existants et l'accès au nom actuel ; aucune règle nouvelle de nom_local."
+    },
+    {
+      "question_id": "Q13-01",
+      "entite_id": "ville-cz-most",
+      "operation": "nom_dans_etat_snapshot0",
+      "champ_canonique": "proprietes.nom",
+      "valeur": "Brüx",
+      "source_ids": [
+        "src-13-cz-brux-reichsanzeiger-1942"
+      ],
+      "preuve": "Usage judiciaire local en 1942 ; coordonnées indépendantes et réservées.",
+      "condition": "Rapprocher les IDs du dépôt et relire la preuve individuelle avant intégration ; conserver les réserves techniques de lecture.",
+      "note_a_ajouter": "Nom historique attesté avant le Snapshot 0 ; date exacte du retour au nom d'après-guerre non établie par cette source.",
+      "aliases": "Conserver les alias existants et l'accès au nom actuel ; aucune règle nouvelle de nom_local."
+    },
+    {
+      "question_id": "Q13-01",
+      "entite_id": "ville-cz-decin",
+      "operation": "nom_dans_etat_snapshot0",
+      "champ_canonique": "proprietes.nom",
+      "valeur": "Tetschen-Bodenbach",
+      "source_ids": [
+        "src-13-cz-tetschen-telephone-1942"
+      ],
+      "preuve": "Titre d'un annuaire de 1942, notice institutionnelle lue ; pas de preuve de date de fusion par cet annuaire.",
+      "condition": "Rapprocher les IDs du dépôt et relire la preuve individuelle avant intégration ; conserver les réserves techniques de lecture.",
+      "note_a_ajouter": "Nom historique attesté avant le Snapshot 0 ; date exacte du retour au nom d'après-guerre non établie par cette source.",
+      "aliases": "Conserver les alias existants et l'accès au nom actuel ; aucune règle nouvelle de nom_local."
+    },
+    {
+      "question_id": "Q13-01",
+      "entite_id": "ville-sk-nove-zamky",
+      "operation": "nom_dans_etat_snapshot0",
+      "champ_canonique": "proprietes.nom",
+      "valeur": "Érsekújvár",
+      "source_ids": [
+        "src-13-sk-ersekujvar-presse-1944"
+      ],
+      "preuve": "Presse locale et avis municipal de juillet 1944, texte du PDF lu.",
+      "condition": "Rapprocher les IDs du dépôt et relire la preuve individuelle avant intégration ; conserver les réserves techniques de lecture.",
+      "note_a_ajouter": "Nom historique attesté avant le Snapshot 0 ; date exacte du retour au nom d'après-guerre non établie par cette source.",
+      "aliases": "Conserver les alias existants et l'accès au nom actuel ; aucune règle nouvelle de nom_local."
+    }
+  ],
+  "reserves": [
+    {
+      "question_id": "Q13-02",
+      "decision": "Laisser cette décision en réserve",
+      "operation_autorisee": "aucune nouvelle règle Protectorat"
+    },
+    {
+      "question_id": "Q13-03",
+      "decision": "Laisser la note en réserve",
+      "operation_autorisee": "aucune note Budapest, aucun nouveau siège, aucun changement de capitale"
+    },
+    {
+      "question_id": "Q13-04",
+      "decision": "Garder le déplacement en réserve",
+      "operation_autorisee": "aucun déplacement",
+      "point_recherche_non_applicable": {
+        "latitude": 50.52497,
+        "longitude": 13.64203,
+        "repere": "Première place historique près de l'ancien hôtel de ville, carte municipale de 1938",
+        "precision": "précision de géoréférencement non documentée"
+      },
+      "source_ids": [
+        "src-13-most-carte-municipale-1938"
+      ]
+    }
+  ],
+  "deja_integre_selon_claude": [
+    "R-01 harmonisation fiche/état",
+    "R-02 note Varsovie"
+  ],
+  "aucune_validation_humaine_deduite": true
+}

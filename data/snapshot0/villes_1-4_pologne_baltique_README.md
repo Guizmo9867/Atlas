@@ -15,3 +15,10 @@ Script rejouable : `outils/villes/construire_villes_1_4.py`. Questions : `docs/p
 - **Noms à la date dans l'état** (`proprietes.nom`, lu en premier par la carte) et nom actuel sur la fiche, comme au lot 1.3 : Litzmannstadt, Breslau, Stettin, Dantzig, Gotenhafen, Gleiwitz, Memel, et sur preuve individuelle Posen, Bromberg, Thorn, Kattowitz, Hindenburg, Königshütte, Swinemünde, Tarnowitz, Heydebreck, Cosel, Elbing. Tczew et Wałbrzych ne sont pas renommées.
 - Note de Varsovie (aucun gouvernement sur place) ; preuves locales de rail pour Tapa, Valga, Krustpils, Radviliškis ; Koźle placé sur la gare du port (bassins).
 - Registre v1.14. Réponse d'Ether : `villes_1-4_reponses_ether_2026-10-01.md` ; corrections et sources : `data/sources/deltas_ether/2026-10-01_villes_1-4_reponses_*.json` ; compte rendu : `docs/pour_ether/2026-10-01_villes_1-4_reponses.md`.
+
+## v0.3 (01/10/2026) — cycle 3 d'Ether
+
+- Corrections de sources seulement (aucun nom, rôle ni position modifié) : **Thorn** (le slogan n'est plus daté de 1943), **Bromberg** (lien réparé, confirmé), **Cosel** et **Heydebreck** (fonds d'archives stable, série non vue par l'outil), **Tapa** (entrée de décembre 1876 signalée par Ether, non retrouvée par l'outil : page tronquée), **Tarnowitz** (provenance toujours non vérifiée, réserve maintenue).
+- `nom_local` en réserve par décision de Guizmo (Q14-01) : valeurs existantes conservées.
+- 6 sources complétées, registre v1.16. Réponse d'Ether : `villes_1-4_reponses_ether_cycle3_2026-10-01.md` ; corrections et sources : `data/sources/deltas_ether/2026-10-01_villes_1-4_cycle3_*.json` ; compte rendu : `docs/pour_ether/2026-10-01_villes_1-4_cycle3.md`.
+- **Trois cycles atteints** : la suite (clôture avec réserves ou 4e cycle) et le nom de Tarnowitz attendent Guizmo.

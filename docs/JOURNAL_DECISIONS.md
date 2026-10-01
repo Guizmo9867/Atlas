@@ -2,6 +2,15 @@
 
 Une ligne par décision, datée. Plus récente en haut. Ce journal remplace les versions éparpillées dans les conversations : si ce n'est pas ici, ce n'est pas décidé.
 
+## 2026-10-01 (soir : cycle 3 d'Ether sur les lots villes 1.3 et 1.4, réveil automatique de Claude)
+
+- **Cinq villes du lot 1.3 prennent leur nom de 1945**, chacune sur une preuve individuelle relue : Reichenberg (Liberec), Eger (Cheb), Brüx (Most), Tetschen-Bodenbach (Děčín), Érsekújvár (Nové Zámky). Fiche et ID inchangés ; date du retour au nom d'après-guerre non établie. *(Ether, relu et fait par Claude)*
+- **Réserves de Guizmo respectées** (aucune donnée modifiée) : noms bilingues du Protectorat (Q13-02), note Budapest/Szálasi (Q13-03), déplacement du vieux Most (Q13-04), définition de `nom_local` (Q14-01). Les sources de recherche correspondantes entrent au registre, marquées « en réserve ». *(Guizmo)*
+- **Lot 1.4, corrections de sources** : Thorn (slogan non daté de 1943), Bromberg (lien réparé), Cosel et Heydebreck (fonds stable), Tapa et Tarnowitz (réserves maintenues). Aucun nom, rôle ni position modifié. *(Ether + Claude)*
+- Sources : 9 nouvelles + 6 complétées ; 10 confirmées. Registre v1.16, 402 sources ; « Sources à valider » : 120. *(Claude)*
+- **Les deux lots ont atteint 3 cycles** : ils passent en attente de Guizmo (clôture avec réserves ou 4e cycle ciblé ; nom de Tarnowitz affiché sans preuve relue). Aucune suite autorisée. *(Claude, selon les limites automatiques)*
+- Git sur l'ordinateur : lancer `git status` avec `GIT_OPTIONAL_LOCKS=0`, sinon un verrou `.git/index.lock` impossible à effacer reste en place (verrou orphelin déplacé dans `.git/claude_verrous_orphelins/`). *(Claude)*
+
 ## 2026-10-01 (suite : réponse d'Ether au lot villes 1.4)
 
 - **Règle des noms confirmée par Ether et appliquée à tout le lot 1.4** : la fiche porte le nom actuel (Łódź, Wrocław, Gdańsk…), l'état du Snapshot 0 porte le nom de 1945 (Litzmannstadt, Breslau, Dantzig…). Même forme qu'au lot 1.3 : les deux lots sont harmonisés. *(Ether, fait par Claude)*

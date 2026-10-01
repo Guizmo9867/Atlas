@@ -3,7 +3,7 @@
     "nom": "snapshot0_villes_1-4_pologne_baltique",
     "date_reference": "1945-01-01",
     "heure_reference": "00:00",
-    "version": "0.2",
+    "version": "0.3",
     "statut": "integre_par_claude",
     "gabarit_source": "gabarits/gabarit_entite_temporelle_atlas.json",
     "zone": [
@@ -40,7 +40,8 @@
         "Capitales : convention de Vienne et Prague — Cracovie (Gouvernement général), Tallinn, Riga, Vilnius (RSS) régionales ; Varsovie nationale par continuité ; Kaunas et Lublin sans capitale (Lublin : administration).",
         "Positions : Wikidata ; Kędzierzyn et Koźle distincts ; Krustpils distinct de Jēkabpils.",
         "« À renforcer » : réserves d'Ether et rôles dont aucune preuve n'a été confirmée par la relecture de Claude.",
-        "v0.2 (01/10) : réponse d'Ether — nom de 1945 porté dans l'état et nom actuel sur la fiche, pour toutes les villes renommées (Litzmannstadt, Breslau, Stettin, Dantzig, Gotenhafen, Gleiwitz, Memel, puis Posen, Bromberg, Thorn, Kattowitz, Hindenburg, Königshütte, Swinemünde, Tarnowitz, Heydebreck, Cosel, Elbing) ; Tczew et Wałbrzych gardés (nom urbain non prouvé) ; note de Varsovie ; preuves locales de rail pour Tapa, Valga, Krustpils, Radviliškis ; Koźle placé sur les bassins du port."
+        "v0.2 (01/10) : réponse d'Ether — nom de 1945 porté dans l'état et nom actuel sur la fiche, pour toutes les villes renommées (Litzmannstadt, Breslau, Stettin, Dantzig, Gotenhafen, Gleiwitz, Memel, puis Posen, Bromberg, Thorn, Kattowitz, Hindenburg, Königshütte, Swinemünde, Tarnowitz, Heydebreck, Cosel, Elbing) ; Tczew et Wałbrzych gardés (nom urbain non prouvé) ; note de Varsovie ; preuves locales de rail pour Tapa, Valga, Krustpils, Radviliškis ; Koźle placé sur les bassins du port.",
+        "v0.3 (01/10) : cycle 3 d'Ether — repères de sources corrigés (Thorn : le slogan n'est plus daté de 1943, date qui concerne la galerie du musée ; Bromberg : lien réparé et relu ; Tapa : annonce postale de décembre 1876 signalée par Ether, non retrouvée par l'outil de Claude ; Cosel et Heydebreck : fonds d'archives stable, anciennes adresses gardées dans le registre ; Tarnowitz : provenance toujours non vérifiée, réserve maintenue). Aucun nom, rôle ni position modifié ; nom_local en réserve (décision de Guizmo)."
       ]
     }
   },
@@ -620,8 +621,8 @@
             },
             {
               "source_id": "src-14-pl-bromberg-museum",
-              "locator": "Le musée rapporte le projet du maire allemand de créer une « neue deutsche Bromberg » en 1939.",
-              "usage": "nom à la date (non vérifiée par Claude)"
+              "locator": "Section sur les projets de transformation du centre : paragraphe commençant At the end of 1939.",
+              "usage": "nom à la date"
             }
           ]
         }
@@ -673,8 +674,8 @@
             },
             {
               "source_id": "src-14-pl-thorn-museum",
-              "locator": "Le musée cite en 1943 le slogan allemand de propagande nommant la ville Thorn.",
-              "usage": "nom à la date (lecture partielle)"
+              "locator": "Paragraphe sur Städtisches Museum : slogan utilisant Thorn. Paragraphe suivant : ouverture de la galerie le 20 mars 1943.",
+              "usage": "nom à la date"
             }
           ]
         }
@@ -994,7 +995,7 @@
             },
             {
               "source_id": "src-14-pl-tarnowitz-archive",
-              "locator": "Inventaire d’archives, adresses Tarnowitz datées 1944–45.",
+              "locator": "Ancienne série 726171 : rattachement non établi dans cette relecture. Piste indépendante : unité 15/20/0/8/633, 1941–1944, hôpital de Tarnowitz, Archives de Katowice, antenne Gliwice.",
               "usage": "nom à la date (non vérifiée par Claude)"
             }
           ]
@@ -1677,8 +1678,8 @@
             },
             {
               "source_id": "src-14-pl-heydebreck-archive",
-              "locator": "Catalogue foncier distingue Heydebreck et Kandrzin; plusieurs pièces sont datées 1944.",
-              "usage": "nom à la date (non vérifiée par Claude)"
+              "locator": "Fonds 45/1210/0, Sąd Obwodowy w Koźlu, onglet séries, 6.34 Kandrzin, Heydebreck [Kędzierzyn].",
+              "usage": "nom à la date (lecture partielle)"
             }
           ]
         }
@@ -1733,8 +1734,8 @@
             },
             {
               "source_id": "src-14-pl-cosel-archive",
-              "locator": "Inventaire emploie Cosel [Koźle], y compris des entrées datées 1944.",
-              "usage": "nom à la date (non vérifiée par Claude)"
+              "locator": "Fonds 45/1210/0, Sąd Obwodowy w Koźlu, onglet séries, 6.12 Cosel [Koźle] ; série 453742, cote 45/1210/0/6.12.",
+              "usage": "nom à la date (lecture partielle)"
             }
           ]
         }
@@ -1945,7 +1946,7 @@
             },
             {
               "source_id": "src-14-ee-tapa-local",
-              "locator": "Le musée cite 1876 pour la branche de Tartu et la fonction de nœud; une annonce postale est datée de décembre 1876.",
+              "locator": "Bas de page, entrée Eesti Postimees ehk Näddalaleht, 22. detsember 1876 ; annonce signée postmeister Winter le 19 décembre 1876.",
               "usage": "preuve locale : rail (lecture partielle)"
             }
           ]

@@ -1,0 +1,44 @@
+{
+ "metadata": {
+  "objet": "Relecture par Claude (WebFetch, via sous-agents) des 6 sources reprises au cycle 3 d'Ether (lot villes 1.4)",
+  "date": "2026-10-01"
+ },
+ "resultats": [
+  {
+   "id": "src-14-pl-bromberg-museum",
+   "statut": "ok",
+   "citation": "At the end of 1939, the Germans planned to rebuild the city and create it as „neue deutsche Bromberg”.",
+   "commentaire": "Nouvelle adresse (segment final « bydgoszcz ») ouverte : le paragraphe est bien présent. Ancien lien mort réparé."
+  },
+  {
+   "id": "src-14-pl-thorn-museum",
+   "statut": "ok",
+   "citation": "Thorn war deutsch, Thorn ist deutsch und Thorn bleibt deutsch",
+   "commentaire": "Le slogan figure sans date dans le paragraphe sur le Städtisches Museum sous l'occupation ; « od 20 marca 1943 r. » date seulement l'ouverture de la galerie. Correction d'Ether confirmée."
+  },
+  {
+   "id": "src-14-ee-tapa-local",
+   "statut": "limite",
+   "citation": "1876. aastal Tapalt raudteeharu Tartusse pikendati, misläbi Tapa nagu sõlmeks sai",
+   "commentaire": "Trois lectures (deux par sous-agent, une par Claude) : l'outil ne rend la page que de 1924 à 1940, et coupe au milieu d'une phrase. L'entrée du 22/12/1876 (annonce du maître de poste Winter) signalée par Ether au bas de la page reste donc introuvable pour Claude : ni confirmée ni infirmée. Le passage 1876 déjà confirmé reste valable."
+  },
+  {
+   "id": "src-14-pl-cosel-archive",
+   "statut": "limite",
+   "citation": "Sąd Obwodowy w Koźlu",
+   "commentaire": "Fonds 45/1210/0 confirmé (tribunal de district de Cosel/Koźle, Archives d'État d'Opole). La liste des séries n'est pas rendue par l'outil : la série « 6.12 Cosel [Koźle] » n'est pas vue. Actes de 1944 non lus."
+  },
+  {
+   "id": "src-14-pl-heydebreck-archive",
+   "statut": "limite",
+   "citation": "",
+   "commentaire": "Même fonds 44925 confirmé, mais la série « 6.34 Kandrzin, Heydebreck [Kędzierzyn] » n'apparaît pas (onglet des séries non rendu). Ni confirmée ni infirmée."
+  },
+  {
+   "id": "src-14-pl-tarnowitz-archive",
+   "statut": "non_verifiee",
+   "citation": "",
+   "commentaire": "Piste 20604516 (hôpital de Tarnowitz) : « Portlet is temporarily unavailable », rien de lisible. Ancienne série 726171 toujours non vérifiée. Réserve de provenance maintenue."
+  }
+ ]
+}

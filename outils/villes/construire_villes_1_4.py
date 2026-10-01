@@ -5,6 +5,9 @@ Villes, rangs, rôles, preuves rôle par rôle et notes : proposition JSON d'Eth
 Positions : Wikidata (CC0), outils/villes/wikidata_ratissage_1_4.json.
 v0.2 : réponse d'Ether du 01/10/2026 (data/sources/deltas_ether/2026-10-01_villes_1-4_reponses_corrections.json) :
 noms à la date portés dans l'état (fiche = nom actuel), Varsovie, renforts ferroviaires locaux, Koźle sur les bassins du port.
+v0.3 : cycle 3 d'Ether du 01/10/2026 (data/sources/deltas_ether/2026-10-01_villes_1-4_cycle3_corrections.json) : corrections
+documentaires seulement, portées par le registre des sources (repères et adresses : Thorn, Bromberg, Tapa, Cosel, Heydebreck,
+Tarnowitz) ; aucun nom, rôle ni position ne change. nom_local laissé en réserve par Guizmo (valeurs existantes conservées).
 Relancer : python outils/villes/construire_villes_1_4.py (depuis la racine du dépôt).
 """
 import json, pathlib
@@ -110,7 +113,7 @@ for v in PROPOSITION['villes']:
 lot = {
   'metadata_lot': {
     'nom': 'snapshot0_villes_1-4_pologne_baltique', 'date_reference': '1945-01-01', 'heure_reference': '00:00',
-    'version': '0.2', 'statut': 'integre_par_claude', 'gabarit_source': 'gabarits/gabarit_entite_temporelle_atlas.json',
+    'version': '0.3', 'statut': 'integre_par_claude', 'gabarit_source': 'gabarits/gabarit_entite_temporelle_atlas.json',
     'zone': ['Pologne actuelle', 'Estonie', 'Lettonie', 'Lituanie'],
     'hors_perimetre': PROPOSITION['metadata_lot'].get('hors_perimetre', []),
     'differes_par_ether': [c.get('nom') for c in PROPOSITION['candidats_differes']],
@@ -120,6 +123,7 @@ lot = {
       "Positions : Wikidata ; Kędzierzyn et Koźle distincts ; Krustpils distinct de Jēkabpils.",
       "« À renforcer » : réserves d'Ether et rôles dont aucune preuve n'a été confirmée par la relecture de Claude.",
       "v0.2 (01/10) : réponse d'Ether — nom de 1945 porté dans l'état et nom actuel sur la fiche, pour toutes les villes renommées (Litzmannstadt, Breslau, Stettin, Dantzig, Gotenhafen, Gleiwitz, Memel, puis Posen, Bromberg, Thorn, Kattowitz, Hindenburg, Königshütte, Swinemünde, Tarnowitz, Heydebreck, Cosel, Elbing) ; Tczew et Wałbrzych gardés (nom urbain non prouvé) ; note de Varsovie ; preuves locales de rail pour Tapa, Valga, Krustpils, Radviliškis ; Koźle placé sur les bassins du port.",
+      "v0.3 (01/10) : cycle 3 d'Ether — repères de sources corrigés (Thorn : le slogan n'est plus daté de 1943, date qui concerne la galerie du musée ; Bromberg : lien réparé et relu ; Tapa : annonce postale de décembre 1876 signalée par Ether, non retrouvée par l'outil de Claude ; Cosel et Heydebreck : fonds d'archives stable, anciennes adresses gardées dans le registre ; Tarnowitz : provenance toujours non vérifiée, réserve maintenue). Aucun nom, rôle ni position modifié ; nom_local en réserve (décision de Guizmo).",
     ]},
   },
   'entites': entites,

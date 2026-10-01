@@ -100,6 +100,7 @@ Claude écrit seulement :
       - les corrections que Claude a dû faire.
       Ajouter une ligne au tableau `docs/QUALITE_LIVRAISONS.md` (le créer s'il n'existe pas) : date, lot, moteur, et ces chiffres.
    8. **Envoyer sur GitHub** (depuis le dépôt sur l'ordinateur) :
+      - pour regarder l'état : `GIT_OPTIONAL_LOCKS=0 bash .git/claude_git.sh status --short` (sans cette variable, un verrou `.git/index.lock` impossible à effacer peut rester) ;
       - `bash .git/claude_git.sh add -A` ;
       - `bash .git/claude_git.sh commit -F -`, avec un message en français qui se termine par les lignes d'attribution fournies par la session ;
       - `bash .git/claude_git.sh push origin main` ;

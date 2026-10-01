@@ -1,5 +1,5 @@
 {
- "version_registre": "1.14",
+ "version_registre": "1.16",
  "sources": [
   {
    "id": "src-12a-augsburg-armement",
@@ -344,6 +344,23 @@
    "remplacee_par": []
   },
   {
+   "id": "src-13-most-carte-municipale-1938",
+   "groupe": "a_lire",
+   "statut_claude": "non_verifiee",
+   "niveau": "B",
+   "titre": "Most do minulosti — Lageplan der Stadt Brüx 1938",
+   "institution": "Statutární město Most, service GIS",
+   "url": "https://mapy.mesto-most.cz/app/most-do-minulosti/",
+   "ou_regarder": "Signet Staré město Most ; galerie de fonds, lien Lageplan der Stadt Brüx 1938 ; échelle 1:2500 ; outil Mesures > Localisation, point dans la première place au sud de Radnice.",
+   "extrait": "",
+   "notes": "Proposée par Ether (cycle 3 du lot villes 1.3, 01/10/2026). Ce que la source prouve selon Ether : recherche du centre historique ; déplacement réservé par Guizmo. Limite annoncée par Ether : Carte affichée et inspectée dans le navigateur. Lecture en degrés : latitude 50,524968, longitude 13,642034. Arrondi proposé 50,52497 / 13,64203, point représentatif et non position exacte d'un monument. Précision de géoréférencement non documentée. Guizmo : « Garder le déplacement en réserve ». Ne modifier aucune géométrie. Les nombres métriques d'un autre widget n'ont pas été transformés ni utilisés. Aucun fond cartographique redistribué. SOURCE DE CONTEXTE EN RÉSERVE — Q13-04 : « Garder le déplacement en réserve » (Guizmo, 01/10/2026) — relevé d'Ether 50,524968 N / 13,642034 E conservé ici seulement, aucun déplacement du point. Relecture Claude 01/10/2026 : Application cartographique dynamique : erreur serveur à deux essais avec l'outil de lecture. Ni le fond de 1938 ni le relevé d'Ether (50,524968 N / 13,642034 E) ne sont vérifiables par Claude ; déplacement de toute façon en réserve.",
+   "domaine": "villes",
+   "villes": [
+    "Most"
+   ],
+   "remplacee_par": []
+  },
+  {
    "id": "src-13-sk-bratislava-chronologie",
    "groupe": "a_lire",
    "statut_claude": "non_verifiee",
@@ -395,23 +412,6 @@
    "remplacee_par": []
   },
   {
-   "id": "src-14-pl-cosel-archive",
-   "groupe": "a_lire",
-   "statut_claude": "non_verifiee",
-   "niveau": "B",
-   "titre": "Grundakten de Cosel (Koźle), pièces 1944",
-   "institution": "Archiwum Państwowe w Opolu",
-   "url": "https://www.szukajwarchiwach.gov.pl/seria?_Seria_cur=6&_Seria_delta=200&_Seria_id_serii=453742&_Seria_nameofjsp=jednostki&_Seria_resetCur=false&p_p_id=Seria&p_p_lifecycle=0&p_p_mode=view&p_p_state=normal",
-   "ou_regarder": "Inventaire emploie Cosel [Koźle], y compris des entrées datées 1944.",
-   "extrait": "",
-   "notes": "Proposée par Ether (réponse au lot villes 1.4, 01/10/2026). Limite annoncée par Ether : Le nom vient du catalogue; l’histoire municipale distincte prouve le port. Ancrer le point sur ses bassins. Relecture Claude 01/10/2026 : La page renvoie « Seria jest tymczasowo niedostępna » : aucun contenu d'inventaire lisible, ni Cosel/Koźle ni dates de 1944 vérifiables.",
-   "domaine": "villes",
-   "villes": [
-    "Koźle"
-   ],
-   "remplacee_par": []
-  },
-  {
    "id": "src-14-pl-elbing-map-1944",
    "groupe": "a_lire",
    "statut_claude": "non_verifiee",
@@ -446,23 +446,6 @@
    "remplacee_par": []
   },
   {
-   "id": "src-14-pl-heydebreck-archive",
-   "groupe": "a_lire",
-   "statut_claude": "non_verifiee",
-   "niveau": "B",
-   "titre": "Grundakten de Heydebreck (Kędzierzyn), pièces 1944",
-   "institution": "Archiwum Państwowe w Opolu",
-   "url": "https://www.szukajwarchiwach.gov.pl/seria?_Seria_cur=43&_Seria_delta=200&_Seria_id_serii=453036&_Seria_nameofjsp=jednostki&_Seria_resetCur=false&p_p_id=Seria&p_p_lifecycle=0&p_p_mode=view&p_p_state=normal",
-   "ou_regarder": "Catalogue foncier distingue Heydebreck et Kandrzin; plusieurs pièces sont datées 1944.",
-   "extrait": "",
-   "notes": "Proposée par Ether (réponse au lot villes 1.4, 01/10/2026). Limite annoncée par Ether : Catalogue consulté, tous actes non feuilletés; conserver séparé du port de Koźle. Relecture Claude 01/10/2026 : La page renvoie « Seria jest tymczasowo niedostępna » ; aucune unité Heydebreck/Kandrzin lisible, le catalogue n'a pas pu être vérifié.",
-   "domaine": "villes",
-   "villes": [
-    "Kędzierzyn"
-   ],
-   "remplacee_par": []
-  },
-  {
    "id": "src-14-pl-rail-premieres",
    "groupe": "a_lire",
    "statut_claude": "non_verifiee",
@@ -489,9 +472,9 @@
    "titre": "Fonds cadastraux de Tarnowitz, pièces datées de 1944",
    "institution": "Archiwum Państwowe w Opolu",
    "url": "https://www.szukajwarchiwach.gov.pl/seria?_Seria_cur=14&_Seria_delta=60&_Seria_id_serii=726171&_Seria_nameofjsp=jednostki&_Seria_resetCur=false&p_p_id=Seria&p_p_lifecycle=0&p_p_mode=view&p_p_state=normal",
-   "ou_regarder": "Inventaire d’archives, adresses Tarnowitz datées 1944–45.",
+   "ou_regarder": "Ancienne série 726171 : rattachement non établi dans cette relecture. Piste indépendante : unité 15/20/0/8/633, 1941–1944, hôpital de Tarnowitz, Archives de Katowice, antenne Gliwice.",
    "extrait": "",
-   "notes": "Proposée par Ether (réponse au lot villes 1.4, 01/10/2026). Limite annoncée par Ether : Preuve du nom, pas une preuve ferroviaire de rang. Relecture Claude 01/10/2026 : La page renvoie « Seria jest tymczasowo niedostępna » ; aucune unité « Tarnowitz » lisible, l'inventaire n'a pas pu être vérifié.",
+   "notes": "Proposée par Ether (réponse au lot villes 1.4, 01/10/2026). Limite annoncée par Ether : Preuve du nom, pas une preuve ferroviaire de rang. Relecture Claude 01/10/2026 : La page renvoie « Seria jest tymczasowo niedostępna » ; aucune unité « Tarnowitz » lisible, l'inventaire n'a pas pu être vérifié. Cycle 3 d'Ether (01/10/2026) : Ne pas inventer une URL de fonds pour la série 726171. Piste indépendante visible en résultat de recherche : https://www.szukajwarchiwach.gov.pl/en/jednostka/-/jednostka/20604516 ; ouverture directe Cache miss, actes non lus. Attention aux homonymes Tarnowitz et à l'attribution initiale aux archives d'Opole. Ne pas modifier automatiquement le nom déjà intégré ; réserve explicite à conserver. Nouvel essai dans le navigateur : la page répond Portlet is temporarily unavailable ; aucune confirmation supplémentaire obtenue. Repère précédent : Inventaire d’archives, adresses Tarnowitz datées 1944–45. Relecture Claude 01/10/2026 (3e passe) : Piste 20604516 (hôpital de Tarnowitz) : « Portlet is temporarily unavailable », rien de lisible. Ancienne série 726171 toujours non vérifiée. Réserve de provenance maintenue.",
    "domaine": "villes",
    "villes": [
     "Tarnowskie Góry"
@@ -1064,9 +1047,9 @@
    "titre": "Tapa dans la presse locale",
    "institution": "Tapa Museum",
    "url": "https://tapamuuseum.ee/ajalugu/tapa-ajakirjanduses/tapa-ajakirjanduses-i/",
-   "ou_regarder": "Le musée cite 1876 pour la branche de Tartu et la fonction de nœud; une annonce postale est datée de décembre 1876.",
+   "ou_regarder": "Bas de page, entrée Eesti Postimees ehk Näddalaleht, 22. detsember 1876 ; annonce signée postmeister Winter le 19 décembre 1876.",
    "extrait": "1876. aastal Tapalt raudteeharu Tartusse pikendati, misläbi Tapa nagu sõlmeks sai",
-   "notes": "Proposée par Ether (réponse au lot villes 1.4, 01/10/2026). Limite annoncée par Ether : EVR donne 1877 pour le trafic régulier; conserver la divergence, sans inventer sa cause. Relecture Claude 01/10/2026 : La page (Postimees 1926) confirme 1876, l'embranchement vers Tartu et le statut de nœud (« sõlmeks »). Aucune annonce postale de décembre 1876 n'a été trouvée dans le texte lu.",
+   "notes": "Proposée par Ether (réponse au lot villes 1.4, 01/10/2026). Limite annoncée par Ether : EVR donne 1877 pour le trafic régulier; conserver la divergence, sans inventer sa cause. Relecture Claude 01/10/2026 : La page (Postimees 1926) confirme 1876, l'embranchement vers Tartu et le statut de nœud (« sõlmeks »). Aucune annonce postale de décembre 1876 n'a été trouvée dans le texte lu. Cycle 3 d'Ether (01/10/2026) : Le musée reproduit bien l'annonce de décembre 1876 relative au courrier sur Tapa–Tartu. Source rétrospective citant une annonce d'époque, original non ouvert. Dates reproduites telles qu'affichées, calendrier non converti. Ne prouve pas à elle seule tous les services du nœud au Snapshot ; ne résout pas le rapport avec 1877 indiqué par EVR. Repère précédent : Le musée cite 1876 pour la branche de Tartu et la fonction de nœud; une annonce postale est datée de décembre 1876. Relecture Claude 01/10/2026 (3e passe) : Trois lectures (deux par sous-agent, une par Claude) : l'outil ne rend la page que de 1924 à 1940, et coupe au milieu d'une phrase. L'entrée du 22/12/1876 (annonce du maître de poste Winter) signalée par Ether au bas de la page reste donc introuvable pour Claude : ni confirmée ni infirmée. Le passage 1876 déjà confirmé reste valable.",
    "domaine": "villes",
    "villes": [
     "Tapa"
@@ -1141,6 +1124,23 @@
    "remplacee_par": []
   },
   {
+   "id": "src-14-pl-cosel-archive",
+   "groupe": "partielle",
+   "statut_claude": "limite",
+   "niveau": "B",
+   "titre": "Grundakten de Cosel (Koźle), pièces 1944",
+   "institution": "Archiwum Państwowe w Opolu",
+   "url": "https://www.szukajwarchiwach.gov.pl/en/zespol/-/zespol/44925",
+   "ou_regarder": "Fonds 45/1210/0, Sąd Obwodowy w Koźlu, onglet séries, 6.12 Cosel [Koźle] ; série 453742, cote 45/1210/0/6.12.",
+   "extrait": "Sąd Obwodowy w Koźlu",
+   "notes": "Proposée par Ether (réponse au lot villes 1.4, 01/10/2026). Limite annoncée par Ether : Le nom vient du catalogue; l’histoire municipale distincte prouve le port. Ancrer le point sur ses bassins. Relecture Claude 01/10/2026 : La page renvoie « Seria jest tymczasowo niedostępna » : aucun contenu d'inventaire lisible, ni Cosel/Koźle ni dates de 1944 vérifiables. Cycle 3 d'Ether (01/10/2026) : Fonds parent et série relus. URL stable du fonds fournie. Les actes individuels datés de 1944 n'ont pas été revérifiés ; garder la réserve de Claude. Ce catalogue ne prouve pas le rôle portuaire. Adresse précédente (conservée pour l'historique) : https://www.szukajwarchiwach.gov.pl/seria?_Seria_cur=6&_Seria_delta=200&_Seria_id_serii=453742&_Seria_nameofjsp=jednostki&_Seria_resetCur=false&p_p_id=Seria&p_p_lifecycle=0&p_p_mode=view&p_p_state=normal Repère précédent : Inventaire emploie Cosel [Koźle], y compris des entrées datées 1944. Relecture Claude 01/10/2026 (3e passe) : Fonds 45/1210/0 confirmé (tribunal de district de Cosel/Koźle, Archives d'État d'Opole). La liste des séries n'est pas rendue par l'outil : la série « 6.12 Cosel [Koźle] » n'est pas vue. Actes de 1944 non lus.",
+   "domaine": "villes",
+   "villes": [
+    "Koźle"
+   ],
+   "remplacee_par": []
+  },
+  {
    "id": "src-14-pl-czestochowa-industrialisation",
    "groupe": "partielle",
    "statut_claude": "limite",
@@ -1176,6 +1176,23 @@
    "remplacee_par": []
   },
   {
+   "id": "src-14-pl-heydebreck-archive",
+   "groupe": "partielle",
+   "statut_claude": "limite",
+   "niveau": "B",
+   "titre": "Grundakten de Heydebreck (Kędzierzyn), pièces 1944",
+   "institution": "Archiwum Państwowe w Opolu",
+   "url": "https://www.szukajwarchiwach.gov.pl/en/zespol/-/zespol/44925",
+   "ou_regarder": "Fonds 45/1210/0, Sąd Obwodowy w Koźlu, onglet séries, 6.34 Kandrzin, Heydebreck [Kędzierzyn].",
+   "extrait": "",
+   "notes": "Proposée par Ether (réponse au lot villes 1.4, 01/10/2026). Limite annoncée par Ether : Catalogue consulté, tous actes non feuilletés; conserver séparé du port de Koźle. Relecture Claude 01/10/2026 : La page renvoie « Seria jest tymczasowo niedostępna » ; aucune unité Heydebreck/Kandrzin lisible, le catalogue n'a pas pu être vérifié. Cycle 3 d'Ether (01/10/2026) : Fonds et intitulé de série lus. L'ouverture de la série a échoué ; correspondance de l'ancien identifiant 453036 et pièces 1944 non revérifiées. URL du fonds proposée comme accès complémentaire stable, ne pas effacer l'ancien lien ni lever la réserve. Aucun rôle industriel prouvé ici. Adresse précédente (conservée pour l'historique) : https://www.szukajwarchiwach.gov.pl/seria?_Seria_cur=43&_Seria_delta=200&_Seria_id_serii=453036&_Seria_nameofjsp=jednostki&_Seria_resetCur=false&p_p_id=Seria&p_p_lifecycle=0&p_p_mode=view&p_p_state=normal Repère précédent : Catalogue foncier distingue Heydebreck et Kandrzin; plusieurs pièces sont datées 1944. Relecture Claude 01/10/2026 (3e passe) : Même fonds 44925 confirmé, mais la série « 6.34 Kandrzin, Heydebreck [Kędzierzyn] » n'apparaît pas (onglet des séries non rendu). Ni confirmée ni infirmée.",
+   "domaine": "villes",
+   "villes": [
+    "Kędzierzyn"
+   ],
+   "remplacee_par": []
+  },
+  {
    "id": "src-14-pl-katowice-gare",
    "groupe": "partielle",
    "statut_claude": "limite",
@@ -1206,23 +1223,6 @@
    "domaine": "villes",
    "villes": [
     "Poznań"
-   ],
-   "remplacee_par": []
-  },
-  {
-   "id": "src-14-pl-thorn-museum",
-   "groupe": "partielle",
-   "statut_claude": "limite",
-   "niveau": "B",
-   "titre": "Puste Ramy — musée municipal sous occupation",
-   "institution": "Muzeum Okręgowe w Toruniu",
-   "url": "https://muzeum.torun.pl/aktualnosci/puste-ramy-w-muzeum-okregowym-w-toruniu/",
-   "ou_regarder": "Le musée cite en 1943 le slogan allemand de propagande nommant la ville Thorn.",
-   "extrait": "Thorn war deutsch, Thorn ist deutsch und Thorn bleibt deutsch",
-   "notes": "Proposée par Ether (réponse au lot villes 1.4, 01/10/2026). Limite annoncée par Ether : Atteste l’usage historique; ne date pas le début ou la fin du nom. Relecture Claude 01/10/2026 : Le slogan allemand nommant la ville « Thorn » figure bien sur la page, dans le contexte du musée sous l'occupation. L'année 1943 n'a pas été retrouvée dans le texte lu par l'outil (aucune date rattachée au slogan).",
-   "domaine": "villes",
-   "villes": [
-    "Toruń"
    ],
    "remplacee_par": []
   },
@@ -1892,23 +1892,6 @@
    "villes": [
     "Nové Zámky",
     "Komárom"
-   ],
-   "remplacee_par": []
-  },
-  {
-   "id": "src-14-pl-bromberg-museum",
-   "groupe": "lien_mort",
-   "statut_claude": "lien_casse",
-   "niveau": "B",
-   "titre": "Another city… War destruction in Bydgoszcz (1939–1945)",
-   "institution": "Muzeum Okręgowe in Bydgoszcz",
-   "url": "https://muzeum.bydgoszcz.pl/inne-miasto-zniszczenia-wojenne-bydgoszczy-1939-1945/another-city-war-destruction-in-bydgoszczy-1939-1945/",
-   "ou_regarder": "Le musée rapporte le projet du maire allemand de créer une « neue deutsche Bromberg » en 1939.",
-   "extrait": "",
-   "notes": "Proposée par Ether (réponse au lot villes 1.4, 01/10/2026). Limite annoncée par Ether : Atteste l’usage dans le projet d’occupation, pas un décret de renommage. Relecture Claude 01/10/2026 : WebFetch renvoie une erreur 404 pour cette URL ; la page est introuvable.",
-   "domaine": "villes",
-   "villes": [
-    "Bydgoszcz"
    ],
    "remplacee_par": []
   },

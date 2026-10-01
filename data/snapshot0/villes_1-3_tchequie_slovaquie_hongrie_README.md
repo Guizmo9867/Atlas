@@ -17,3 +17,10 @@ Script rejouable : `outils/villes/construire_villes_1_3.py`. Questions : `docs/p
 - **Noms à la date dans l'état** (`proprietes.nom`, lu en premier par la carte) : Košice → **Cassovie** (sur place : Kassa) ; Ústí nad Labem → **Aussig**. Mêmes IDs ; les noms actuels sont rappelés dans la fiche.
 - **Miskolc–Diósgyőr** : fusion datée du 01/01/1945 (S44, p. 102) ; deux points au Snapshot 0.
 - 6 sources (S44 complétée + 5 ajouts), registre v1.13. Réponse d'Ether : `villes_1-3_reponses_ether_2026-10-01.md` ; corrections et sources : `data/sources/deltas_ether/2026-10-01_villes_1-3_reponses_*.json` ; compte rendu : `docs/pour_ether/2026-10-01_villes_1-3_reponses.md`.
+
+## v0.4 (01/10/2026) — cycle 3 d'Ether
+
+- **Cinq noms à la date** dans l'état, chacun sur une preuve individuelle relue par Claude : **Reichenberg** (Liberec), **Eger** (Cheb), **Brüx** (Most), **Tetschen-Bodenbach** (Děčín), **Érsekújvár** (Nové Zámky). Fiches, IDs, `nom_local`, rôles et positions inchangés. Dates de retour aux noms d'après-guerre non établies.
+- **En réserve par décision de Guizmo** (aucune donnée modifiée) : noms bilingues du Protectorat (Q13-02), note Budapest/Szálasi (Q13-03), déplacement du vieux Most (Q13-04 ; relevé d'Ether gardé au registre).
+- 9 sources ajoutées (8 confirmées ; la carte municipale de Most illisible pour l'outil), registre v1.15. Réponse d'Ether : `villes_1-3_reponses_ether_cycle3_2026-10-01.md` ; corrections et sources : `data/sources/deltas_ether/2026-10-01_villes_1-3_cycle3_*.json` ; compte rendu : `docs/pour_ether/2026-10-01_villes_1-3_cycle3.md`.
+- **Trois cycles atteints** : la suite (clôture avec réserves ou 4e cycle) attend Guizmo.

@@ -1,0 +1,150 @@
+{
+  "metadata_delta": {
+    "lot": "villes_1-4",
+    "date": "2026-10-01",
+    "statut": "livraison_cycle_3_a_relire_par_claude",
+    "fusion": "Six compléments seulement ; conserver les vérifications de Claude et de Guizmo et les URL antérieures dans l'historique."
+  },
+  "sources": [
+    {
+      "source_id": "src-14-pl-bromberg-museum",
+      "niveau": "B",
+      "type_source": "notice_historique_institutionnelle",
+      "titre": "Another city… War destruction in Bydgoszcz (1939–1945)",
+      "institution": "Muzeum Okręgowe in Bydgoszcz",
+      "url": "https://muzeum.bydgoszcz.pl/inne-miasto-zniszczenia-wojenne-bydgoszczy-1939-1945/another-city-war-destruction-in-bydgoszcz-1939-1945/",
+      "date_consultation": "2026-10-01",
+      "cibles": [
+        "ville-pl-bydgoszcz"
+      ],
+      "locator": "Section sur les projets de transformation du centre : paragraphe commençant At the end of 1939.",
+      "note": "URL corrigée : segment final bydgoszcz au lieu de bydgoszczy. Page ouverte et passage lu ; usage historique du nom confirmé, pas un décret de renommage.",
+      "verification": {
+        "statut": "passage_lu",
+        "passages": "neue deutsche Bromberg"
+      },
+      "operation_registre": "completer_fiche_existante",
+      "url_precedente": "https://muzeum.bydgoszcz.pl/inne-miasto-zniszczenia-wojenne-bydgoszczy-1939-1945/another-city-war-destruction-in-bydgoszczy-1939-1945/",
+      "usage": [
+        "nom historique dans un projet municipal d'occupation, fin 1939"
+      ]
+    },
+    {
+      "source_id": "src-14-pl-thorn-museum",
+      "niveau": "B",
+      "type_source": "notice_historique_institutionnelle",
+      "titre": "Puste Ramy — musée municipal sous occupation",
+      "institution": "Muzeum Okręgowe w Toruniu",
+      "url": "https://muzeum.torun.pl/aktualnosci/puste-ramy-w-muzeum-okregowym-w-toruniu/",
+      "date_consultation": "2026-10-01",
+      "cibles": [
+        "ville-pl-torun"
+      ],
+      "locator": "Paragraphe sur Städtisches Museum : slogan utilisant Thorn. Paragraphe suivant : ouverture de la galerie le 20 mars 1943.",
+      "note": "Correction : ne plus dater le slogan de 1943. La page le place sous occupation allemande ; 1943 date l'ouverture de la galerie. Le nom déjà intégré ne change pas.",
+      "verification": {
+        "statut": "passage_lu_avec_limite",
+        "passages": "Thorn war deutsch, Thorn ist deutsch und Thorn bleibt deutsch"
+      },
+      "operation_registre": "completer_fiche_existante",
+      "url_precedente": "https://muzeum.torun.pl/aktualnosci/puste-ramy-w-muzeum-okregowym-w-toruniu/",
+      "usage": [
+        "nom historique sous occupation ; date précise du slogan non établie"
+      ]
+    },
+    {
+      "source_id": "src-14-pl-tarnowitz-archive",
+      "niveau": "B",
+      "type_source": "notice_historique_institutionnelle",
+      "titre": "Fonds cadastraux de Tarnowitz, pièces datées de 1944",
+      "institution": "Archiwum Państwowe w Opolu",
+      "url": "https://www.szukajwarchiwach.gov.pl/seria?_Seria_cur=14&_Seria_delta=60&_Seria_id_serii=726171&_Seria_nameofjsp=jednostki&_Seria_resetCur=false&p_p_id=Seria&p_p_lifecycle=0&p_p_mode=view&p_p_state=normal",
+      "date_consultation": "2026-10-01",
+      "cibles": [
+        "ville-pl-tarnowskie-gory"
+      ],
+      "locator": "Ancienne série 726171 : rattachement non établi dans cette relecture. Piste indépendante : unité 15/20/0/8/633, 1941–1944, hôpital de Tarnowitz, Archives de Katowice, antenne Gliwice.",
+      "note": "Ne pas inventer une URL de fonds pour la série 726171. Piste indépendante visible en résultat de recherche : https://www.szukajwarchiwach.gov.pl/en/jednostka/-/jednostka/20604516 ; ouverture directe Cache miss, actes non lus. Attention aux homonymes Tarnowitz et à l'attribution initiale aux archives d'Opole. Ne pas modifier automatiquement le nom déjà intégré ; réserve explicite à conserver. Nouvel essai dans le navigateur : la page répond Portlet is temporarily unavailable ; aucune confirmation supplémentaire obtenue.",
+      "verification": {
+        "statut": "non_reverifie",
+        "passages": null
+      },
+      "operation_registre": "completer_fiche_existante",
+      "url_precedente": "https://www.szukajwarchiwach.gov.pl/seria?_Seria_cur=14&_Seria_delta=60&_Seria_id_serii=726171&_Seria_nameofjsp=jednostki&_Seria_resetCur=false&p_p_id=Seria&p_p_lifecycle=0&p_p_mode=view&p_p_state=normal",
+      "usage": [
+        "réserve sur la provenance de l'ancienne preuve du nom"
+      ]
+    },
+    {
+      "source_id": "src-14-pl-heydebreck-archive",
+      "niveau": "B",
+      "type_source": "notice_historique_institutionnelle",
+      "titre": "Grundakten de Heydebreck (Kędzierzyn), pièces 1944",
+      "institution": "Archiwum Państwowe w Opolu",
+      "url": "https://www.szukajwarchiwach.gov.pl/en/zespol/-/zespol/44925",
+      "date_consultation": "2026-10-01",
+      "cibles": [
+        "ville-pl-kedzierzyn"
+      ],
+      "locator": "Fonds 45/1210/0, Sąd Obwodowy w Koźlu, onglet séries, 6.34 Kandrzin, Heydebreck [Kędzierzyn].",
+      "note": "Fonds et intitulé de série lus. L'ouverture de la série a échoué ; correspondance de l'ancien identifiant 453036 et pièces 1944 non revérifiées. URL du fonds proposée comme accès complémentaire stable, ne pas effacer l'ancien lien ni lever la réserve. Aucun rôle industriel prouvé ici.",
+      "verification": {
+        "statut": "catalogue_lu_serie_non_ouverte",
+        "passages": "Kandrzin, Heydebreck [Kędzierzyn]"
+      },
+      "operation_registre": "completer_fiche_existante",
+      "url_precedente": "https://www.szukajwarchiwach.gov.pl/seria?_Seria_cur=43&_Seria_delta=200&_Seria_id_serii=453036&_Seria_nameofjsp=jednostki&_Seria_resetCur=false&p_p_id=Seria&p_p_lifecycle=0&p_p_mode=view&p_p_state=normal",
+      "usage": [
+        "accès au fonds ; intitulé historique de la série"
+      ]
+    },
+    {
+      "source_id": "src-14-pl-cosel-archive",
+      "niveau": "B",
+      "type_source": "notice_historique_institutionnelle",
+      "titre": "Grundakten de Cosel (Koźle), pièces 1944",
+      "institution": "Archiwum Państwowe w Opolu",
+      "url": "https://www.szukajwarchiwach.gov.pl/en/zespol/-/zespol/44925",
+      "date_consultation": "2026-10-01",
+      "cibles": [
+        "ville-pl-kozle"
+      ],
+      "locator": "Fonds 45/1210/0, Sąd Obwodowy w Koźlu, onglet séries, 6.12 Cosel [Koźle] ; série 453742, cote 45/1210/0/6.12.",
+      "note": "Fonds parent et série relus. URL stable du fonds fournie. Les actes individuels datés de 1944 n'ont pas été revérifiés ; garder la réserve de Claude. Ce catalogue ne prouve pas le rôle portuaire.",
+      "verification": {
+        "statut": "catalogue_lu_actes_non_lus",
+        "passages": "Cosel [Koźle]"
+      },
+      "operation_registre": "completer_fiche_existante",
+      "url_precedente": "https://www.szukajwarchiwach.gov.pl/seria?_Seria_cur=6&_Seria_delta=200&_Seria_id_serii=453742&_Seria_nameofjsp=jednostki&_Seria_resetCur=false&p_p_id=Seria&p_p_lifecycle=0&p_p_mode=view&p_p_state=normal",
+      "usage": [
+        "repérage du fonds et de la série Cosel ; correspondance toponymique"
+      ]
+    },
+    {
+      "source_id": "src-14-ee-tapa-local",
+      "niveau": "B",
+      "type_source": "notice_historique_locale",
+      "titre": "Tapa dans la presse locale",
+      "institution": "Tapa Museum",
+      "url": "https://tapamuuseum.ee/ajalugu/tapa-ajakirjanduses/tapa-ajakirjanduses-i/",
+      "date_consultation": "2026-10-01",
+      "cibles": [
+        "ville-ee-tapa"
+      ],
+      "locator": "Bas de page, entrée Eesti Postimees ehk Näddalaleht, 22. detsember 1876 ; annonce signée postmeister Winter le 19 décembre 1876.",
+      "note": "Le musée reproduit bien l'annonce de décembre 1876 relative au courrier sur Tapa–Tartu. Source rétrospective citant une annonce d'époque, original non ouvert. Dates reproduites telles qu'affichées, calendrier non converti. Ne prouve pas à elle seule tous les services du nœud au Snapshot ; ne résout pas le rapport avec 1877 indiqué par EVR.",
+      "verification": {
+        "statut": "passage_lu",
+        "passages": "postikirjad Tapa – Tartu raudtee pääl toimetatud saavad",
+        "date_annonce_reproduite": "22. detsember 1876",
+        "date_signature_reproduite": "19. detsembril 1876"
+      },
+      "operation_registre": "completer_fiche_existante",
+      "url_precedente": "https://tapamuuseum.ee/ajalugu/tapa-ajakirjanduses/tapa-ajakirjanduses-i/",
+      "usage": [
+        "attestation reproduite d'un service postal ferroviaire Tapa–Tartu en décembre 1876"
+      ]
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 {
- "genere_le": "2026-10-01 15:58",
+ "genere_le": "2026-10-01 20:21",
  "snapshot0": {
   "date_representee": "1945-01-01 00:00 (dernier état connu avant)",
   "territoires": 74,
@@ -17,7 +17,7 @@
    "regionale": 7,
    "territoire": 4
   },
-  "villes_avec_nom_de_1945_different": 20,
+  "villes_avec_nom_de_1945_different": 25,
   "villes_avec_reserve_a_renforcer": 82,
   "roles_de_villes": {
    "rail": 233,
@@ -120,7 +120,7 @@
    },
    {
     "fichier": "villes_1-3_tchequie_slovaquie_hongrie.json",
-    "version": "0.3",
+    "version": "0.4",
     "zone": [
      "Tchéquie actuelle",
      "Slovaquie actuelle",
@@ -132,7 +132,7 @@
    },
    {
     "fichier": "villes_1-4_pologne_baltique.json",
-    "version": "0.2",
+    "version": "0.3",
     "zone": [
      "Pologne actuelle",
      "Estonie",
@@ -146,25 +146,25 @@
   ]
  },
  "sources": {
-  "registre_version": "1.14",
-  "total": 393,
+  "registre_version": "1.16",
+  "total": 402,
   "relecture_claude": {
-   "ok": 272,
-   "limite": 51,
-   "non_verifiee": 59,
+   "ok": 282,
+   "limite": 52,
+   "non_verifiee": 58,
    "faible": 5,
-   "lien_casse": 6
+   "lien_casse": 5
   },
   "niveaux": {
-   "A": 66,
-   "B": 312,
+   "A": 70,
+   "B": 317,
    "C": 15
   },
-  "en_attente_de_validation_humaine": 121,
+  "en_attente_de_validation_humaine": 120,
   "validees_par_guizmo": 0
  },
  "historique": {
-  "envois_github": 19,
+  "envois_github": 23,
   "premier_envoi": "2026-09-28",
   "dernier_envoi": "2026-10-01",
   "depot_public": "https://github.com/Guizmo9867/Atlas"

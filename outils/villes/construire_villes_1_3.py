@@ -6,6 +6,9 @@ v0.1 avait été faite depuis le document seul (extrait gardé dans ..._extrait_
 Positions : Wikidata (CC0), outils/villes/wikidata_ratissage_1_3.json.
 v0.3 : réponse d'Ether du 01/10/2026 (data/sources/deltas_ether/2026-10-01_villes_1-3_reponses_corrections.json) :
 noms à la date Cassovie/Kassa et Aussig portés dans l'état ; fusion Miskolc–Diósgyőr datée (01/01/1945, après le Snapshot 0).
+v0.4 : cycle 3 d'Ether du 01/10/2026 (data/sources/deltas_ether/2026-10-01_villes_1-3_cycle3_corrections.json) :
+cinq noms à la date sur preuve individuelle (Reichenberg, Eger, Brüx, Tetschen-Bodenbach, Érsekújvár) ;
+Protectorat, note Budapest et déplacement de Most laissés en réserve par Guizmo (aucune donnée modifiée pour ces points).
 Relancer : python outils/villes/construire_villes_1_3.py (depuis la racine du dépôt).
 """
 import json, pathlib
@@ -25,12 +28,23 @@ NOM_LOCAL = {'ville-cz-prague': 'Praha', 'ville-cz-plzen': 'Plzeň'}
 NOM_A_LA_DATE = {c['entite_id']: c for c in CORRECTIONS['corrections_nomenclature']}
 # Sources de la réponse d'Ether ajoutées à l'état (nom à la date)
 SOURCES_EN_PLUS = {c['entite_id']: c['sources'] for c in CORRECTIONS['corrections_nomenclature']}
+# Cycle 3 (Q13-01) : nom à la date dans l'état seulement ; fiche, ID, nom_local, rôles et coordonnées inchangés
+CYCLE3 = json.load(open(RACINE / 'data/sources/deltas_ether/2026-10-01_villes_1-3_cycle3_corrections.json', encoding='utf-8'))
+NOM_CYCLE3 = {c['entite_id']: c for c in CYCLE3['corrections'] if c['operation'] == 'nom_dans_etat_snapshot0'}
+for eid_, c_ in NOM_CYCLE3.items(): SOURCES_EN_PLUS[eid_] = SOURCES_EN_PLUS.get(eid_, []) + c_['source_ids']
+PREUVE_NOM = {
+    'ville-cz-liberec': "avis local daté « Reichenberg, den 11. Mai 1944 » (Reichsanzeiger, OCR)",
+    'ville-cz-cheb': "tribunal d'Eger, inscription du 13/05/1944 (Reichsanzeiger, OCR)",
+    'ville-cz-most': "registre du tribunal de Brüx, avis du 12/05/1942 (Reichsanzeiger, OCR)",
+    'ville-cz-decin': "titre d'un annuaire téléphonique de 1942 (notice d'archives ; forme d'usage, ni décret ni date de fusion)",
+    'ville-sk-nove-zamky': "journal local et avis municipal de juillet 1944",
+}
 NOMS = {'ville-cz-bohumin': 'Nový Bohumín', 'ville-sk-komarno-komarom': 'Komárom', 'ville-sk-sturovo': 'Párkány'}  # libellés d'Ether raccourcis pour la carte
 # Autres noms (allemand, hongrois, slovaque, nom plus récent) : pour la recherche seulement, jamais un nom actif en 1945
 ALIASES = {
     'ville-cz-prague': ['Praha', 'Prag'], 'ville-cz-brno': ['Brünn'], 'ville-cz-plzen': ['Plzeň'], 'ville-cz-ostrava': ['Ostrava', 'Mährisch Ostrau'],
     'ville-cz-usti-nad-labem': ['Aussig'], 'ville-cz-pardubice': ['Pardubitz'], 'ville-cz-olomouc': ['Olmütz'], 'ville-cz-prerov': ['Prerau'],
-    'ville-cz-breclav': ['Lundenburg'], 'ville-cz-decin': ['Děčín', 'Podmokly', 'Bodenbach-Tetschen', 'Tetschen'], 'ville-cz-cheb': ['Eger'],
+    'ville-cz-breclav': ['Lundenburg'], 'ville-cz-decin': ['Děčín', 'Podmokly', 'Bodenbach-Tetschen', 'Tetschen', 'Tetschen-Bodenbach'], 'ville-cz-cheb': ['Eger'],
     'ville-cz-liberec': ['Reichenberg'], 'ville-cz-zlin': ['Gottwaldov'], 'ville-cz-mlada-boleslav': ['Jungbunzlau'],
     'ville-cz-ceske-budejovice': ['Budweis'], 'ville-cz-ceska-trebova': ['Böhmisch Trübau'], 'ville-cz-most': ['Brüx'],
     'ville-cz-bohumin': ['Bohumín', 'Neu Oderberg'],
@@ -44,7 +58,7 @@ ALIASES = {
 # Compléments de Claude à la note d'Ether (positions, arbitrage de Prague)
 NOTES = {
     'ville-cz-prague': "Capitale « régionale » au Snapshot 0 (siège du Protectorat de Bohême-Moravie), par cohérence avec Vienne : validé par Guizmo le 01/10/2026.",
-    'ville-cz-most': "Position provisoire : Wikidata donne la ville reconstruite ; à déplacer sur le vieux Most.",
+    'ville-cz-most': "Position provisoire : Wikidata donne la ville reconstruite ; à déplacer sur le vieux Most. Un relevé d'Ether sur le plan municipal de 1938 existe (registre des sources) mais le déplacement est laissé en réserve par Guizmo (01/10/2026) : point non déplacé.",
     'ville-cz-bohumin': "Position : gare de Bohumín (Nový Bohumín).",
     'ville-sk-komarno-komarom': "Position : rive nord (Komárno) ; l'entité couvre les deux rives.",
     'ville-hu-miskolc': "Date confirmée par Ether (S44, p. 102). Page 102 pas encore relue par Claude (document trop long pour l'outil) : dans « Sources à valider ».",
@@ -63,6 +77,7 @@ for v in PROPOSITION['villes']:
     roles = list(dict.fromkeys(ROLES.get(r, r) for r in e0['roles']))
     prop = {}
     if eid in NOM_A_LA_DATE: prop['nom'] = NOM_A_LA_DATE[eid]['nom_propose']
+    if eid in NOM_CYCLE3: prop['nom'] = NOM_CYCLE3[eid]['valeur']
     if eid in NOM_A_LA_DATE:
         if NOM_A_LA_DATE[eid]['nom_local_snapshot_propose'] != prop['nom']: prop['nom_local'] = NOM_A_LA_DATE[eid]['nom_local_snapshot_propose']
     elif v.get('nom_local') and v['nom_local'] != nom: prop['nom_local'] = v['nom_local']
@@ -78,6 +93,9 @@ for v in PROPOSITION['villes']:
     note = f"Rôle dans l'Atlas (Ether, ratissage villes 1.3) : {audit.get('justification_importance', '')} {e0['note']}".strip()
     note = note.replace(' Le statut de capitale dans l’Atlas reste à arbitrer ; aucun statut national ou régional n’est imposé dans l’état proposé.', '')  # tranché depuis
     note = note.replace(' Le nom d’affichage slovaque ne prétend pas être la forme administrative officielle de 1944.', '')  # remplacé par le nom à la date
+    note = note.replace(' ; graphie administrative de guerre à normaliser séparément', '')  # réglé au cycle 3 (Reichenberg)
+    note = note.replace(' Libellé descriptif historique ; la forme officielle allemande reste à normaliser.', '')  # réglé au cycle 3 (Tetschen-Bodenbach)
+    if eid in NOM_CYCLE3: note += f" Nom à la date : {prop['nom']} (aujourd'hui {'Děčín' if eid == 'ville-cz-decin' else nom}) — preuve : {PREUVE_NOM[eid]}. Date du retour au nom d'après-guerre non établie."
     if eid in NOTES: note += ' ' + NOTES[eid]
     if a_renforcer: note += f" À renforcer : {', '.join(a_renforcer)}."
     prop['note'] = note
@@ -108,7 +126,7 @@ for v in PROPOSITION['villes']:
 lot = {
   'metadata_lot': {
     'nom': 'snapshot0_villes_1-3_tchequie_slovaquie_hongrie', 'date_reference': '1945-01-01', 'heure_reference': '00:00',
-    'version': '0.3', 'statut': 'integre_par_claude', 'gabarit_source': 'gabarits/gabarit_entite_temporelle_atlas.json',
+    'version': '0.4', 'statut': 'integre_par_claude', 'gabarit_source': 'gabarits/gabarit_entite_temporelle_atlas.json',
     'zone': ['Tchéquie actuelle', 'Slovaquie actuelle', 'Hongrie actuelle'],
     'differes_par_ether': ['Dunapentele (argument industriel de 1950 exclu)', 'Esztergom (pont à traiter à part)', 'Tatabánya', 'Kazincbarcika', 'Otrokovice / Baťov', 'Karlovy Vary'],
     'integration': {'date': '2026-10-01', 'par': 'Claude', 'corrections': [
@@ -120,6 +138,7 @@ lot = {
       "« À renforcer » : Csepel (source C) et les villes dont aucune source n'a été confirmée par la relecture de Claude.",
       "v0.2 (01/10) : JSON d'Ether reçu et rapproché (aucune différence de villes, rangs, rôles ou sources) ; notes d'Ether et preuves rôle par rôle reprises ; « à renforcer » calculé rôle par rôle ; Prague régionale validée par Guizmo.",
       "v0.3 (01/10) : réponse d'Ether — Cassovie (Kassa sur place) et Aussig portés comme nom à la date dans l'état (lu en premier par la carte ; la fiche garde Košice et Ústí nad Labem comme repères actuels, mêmes IDs) ; fusion Miskolc–Diósgyőr datée du 01/01/1945 (S44 complétée) ; 5 sources ajoutées. Les autres villes ne sont renommées que sur preuve individuelle.",
+      "v0.4 (01/10) : cycle 3 d'Ether — Reichenberg (Liberec), Eger (Cheb), Brüx (Most), Tetschen-Bodenbach (Děčín) et Érsekújvár (Nové Zámky) portés comme nom à la date dans l'état, chacun sur une preuve individuelle relue par Claude ; fiches, IDs, nom_local, rôles et positions inchangés. Protectorat (noms bilingues), note Budapest/Szálasi et déplacement du vieux Most laissés en réserve par Guizmo : sources au registre, aucune donnée modifiée.",
     ]},
   },
   'entites': entites,

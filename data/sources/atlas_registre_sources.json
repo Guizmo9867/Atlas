@@ -1,7 +1,7 @@
 {
  "metadata": {
   "nom": "registre_sources_atlas",
-  "version": "1.14",
+  "version": "1.16",
   "date_creation": "2026-09-26",
   "principe": "Une source = un source_id stable. Les fiches événements/entités peuvent référencer ce source_id et préciser l'usage/locator.",
   "statut": "registre_initial_a_completer"
@@ -10054,7 +10054,7 @@
    "type_source": "notice_historique_institutionnelle",
    "titre": "Another city… War destruction in Bydgoszcz (1939–1945)",
    "institution": "Muzeum Okręgowe in Bydgoszcz",
-   "url": "https://muzeum.bydgoszcz.pl/inne-miasto-zniszczenia-wojenne-bydgoszczy-1939-1945/another-city-war-destruction-in-bydgoszczy-1939-1945/",
+   "url": "https://muzeum.bydgoszcz.pl/inne-miasto-zniszczenia-wojenne-bydgoszczy-1939-1945/another-city-war-destruction-in-bydgoszcz-1939-1945/",
    "date_consultation": "2026-10-01",
    "periode_couverte": [],
    "zones": [],
@@ -10065,15 +10065,15 @@
    "cibles": [
     "ville-pl-bydgoszcz"
    ],
-   "locator": "Le musée rapporte le projet du maire allemand de créer une « neue deutsche Bromberg » en 1939.",
-   "resume_passage": "",
+   "locator": "Section sur les projets de transformation du centre : paragraphe commençant At the end of 1939.",
+   "resume_passage": "At the end of 1939, the Germans planned to rebuild the city and create it as „neue deutsche Bromberg”.",
    "archive_locale": null,
-   "verification_claude": "lien_casse",
+   "verification_claude": "ok",
    "verification_ether": {
-    "statut": "passages_cibles_lus",
-    "passages": "Le musée rapporte le projet du maire allemand de créer une « neue deutsche Bromberg » en 1939."
+    "statut": "passage_lu",
+    "passages": "neue deutsche Bromberg"
    },
-   "notes": "Proposée par Ether (réponse au lot villes 1.4, 01/10/2026). Limite annoncée par Ether : Atteste l’usage dans le projet d’occupation, pas un décret de renommage. Relecture Claude 01/10/2026 : WebFetch renvoie une erreur 404 pour cette URL ; la page est introuvable."
+   "notes": "Proposée par Ether (réponse au lot villes 1.4, 01/10/2026). Limite annoncée par Ether : Atteste l’usage dans le projet d’occupation, pas un décret de renommage. Relecture Claude 01/10/2026 : WebFetch renvoie une erreur 404 pour cette URL ; la page est introuvable. Cycle 3 d'Ether (01/10/2026) : URL corrigée : segment final bydgoszcz au lieu de bydgoszczy. Page ouverte et passage lu ; usage historique du nom confirmé, pas un décret de renommage. Adresse précédente (conservée pour l'historique) : https://muzeum.bydgoszcz.pl/inne-miasto-zniszczenia-wojenne-bydgoszczy-1939-1945/another-city-war-destruction-in-bydgoszczy-1939-1945/ Repère précédent : Le musée rapporte le projet du maire allemand de créer une « neue deutsche Bromberg » en 1939. Relecture Claude 01/10/2026 (3e passe) : Nouvelle adresse (segment final « bydgoszcz ») ouverte : le paragraphe est bien présent. Ancien lien mort réparé."
   },
   {
    "source_id": "src-14-pl-thorn-museum",
@@ -10092,15 +10092,15 @@
    "cibles": [
     "ville-pl-torun"
    ],
-   "locator": "Le musée cite en 1943 le slogan allemand de propagande nommant la ville Thorn.",
+   "locator": "Paragraphe sur Städtisches Museum : slogan utilisant Thorn. Paragraphe suivant : ouverture de la galerie le 20 mars 1943.",
    "resume_passage": "Thorn war deutsch, Thorn ist deutsch und Thorn bleibt deutsch",
    "archive_locale": null,
-   "verification_claude": "limite",
+   "verification_claude": "ok",
    "verification_ether": {
-    "statut": "passages_cibles_lus",
-    "passages": "Le musée cite en 1943 le slogan allemand de propagande nommant la ville Thorn."
+    "statut": "passage_lu_avec_limite",
+    "passages": "Thorn war deutsch, Thorn ist deutsch und Thorn bleibt deutsch"
    },
-   "notes": "Proposée par Ether (réponse au lot villes 1.4, 01/10/2026). Limite annoncée par Ether : Atteste l’usage historique; ne date pas le début ou la fin du nom. Relecture Claude 01/10/2026 : Le slogan allemand nommant la ville « Thorn » figure bien sur la page, dans le contexte du musée sous l'occupation. L'année 1943 n'a pas été retrouvée dans le texte lu par l'outil (aucune date rattachée au slogan)."
+   "notes": "Proposée par Ether (réponse au lot villes 1.4, 01/10/2026). Limite annoncée par Ether : Atteste l’usage historique; ne date pas le début ou la fin du nom. Relecture Claude 01/10/2026 : Le slogan allemand nommant la ville « Thorn » figure bien sur la page, dans le contexte du musée sous l'occupation. L'année 1943 n'a pas été retrouvée dans le texte lu par l'outil (aucune date rattachée au slogan). Cycle 3 d'Ether (01/10/2026) : Correction : ne plus dater le slogan de 1943. La page le place sous occupation allemande ; 1943 date l'ouverture de la galerie. Le nom déjà intégré ne change pas. Repère précédent : Le musée cite en 1943 le slogan allemand de propagande nommant la ville Thorn. Relecture Claude 01/10/2026 (3e passe) : Le slogan figure sans date dans le paragraphe sur le Städtisches Museum sous l'occupation ; « od 20 marca 1943 r. » date seulement l'ouverture de la galerie. Correction d'Ether confirmée."
   },
   {
    "source_id": "src-14-pl-kattowitz-archive",
@@ -10255,15 +10255,15 @@
    "cibles": [
     "ville-pl-tarnowskie-gory"
    ],
-   "locator": "Inventaire d’archives, adresses Tarnowitz datées 1944–45.",
+   "locator": "Ancienne série 726171 : rattachement non établi dans cette relecture. Piste indépendante : unité 15/20/0/8/633, 1941–1944, hôpital de Tarnowitz, Archives de Katowice, antenne Gliwice.",
    "resume_passage": "",
    "archive_locale": null,
    "verification_claude": "non_verifiee",
    "verification_ether": {
-    "statut": "passages_cibles_lus",
-    "passages": "Inventaire d’archives, adresses Tarnowitz datées 1944–45."
+    "statut": "non_reverifie",
+    "passages": null
    },
-   "notes": "Proposée par Ether (réponse au lot villes 1.4, 01/10/2026). Limite annoncée par Ether : Preuve du nom, pas une preuve ferroviaire de rang. Relecture Claude 01/10/2026 : La page renvoie « Seria jest tymczasowo niedostępna » ; aucune unité « Tarnowitz » lisible, l'inventaire n'a pas pu être vérifié."
+   "notes": "Proposée par Ether (réponse au lot villes 1.4, 01/10/2026). Limite annoncée par Ether : Preuve du nom, pas une preuve ferroviaire de rang. Relecture Claude 01/10/2026 : La page renvoie « Seria jest tymczasowo niedostępna » ; aucune unité « Tarnowitz » lisible, l'inventaire n'a pas pu être vérifié. Cycle 3 d'Ether (01/10/2026) : Ne pas inventer une URL de fonds pour la série 726171. Piste indépendante visible en résultat de recherche : https://www.szukajwarchiwach.gov.pl/en/jednostka/-/jednostka/20604516 ; ouverture directe Cache miss, actes non lus. Attention aux homonymes Tarnowitz et à l'attribution initiale aux archives d'Opole. Ne pas modifier automatiquement le nom déjà intégré ; réserve explicite à conserver. Nouvel essai dans le navigateur : la page répond Portlet is temporarily unavailable ; aucune confirmation supplémentaire obtenue. Repère précédent : Inventaire d’archives, adresses Tarnowitz datées 1944–45. Relecture Claude 01/10/2026 (3e passe) : Piste 20604516 (hôpital de Tarnowitz) : « Portlet is temporarily unavailable », rien de lisible. Ancienne série 726171 toujours non vérifiée. Réserve de provenance maintenue."
   },
   {
    "source_id": "src-14-pl-waldenburg-grossrosen",
@@ -10325,7 +10325,7 @@
    "type_source": "notice_historique_institutionnelle",
    "titre": "Grundakten de Heydebreck (Kędzierzyn), pièces 1944",
    "institution": "Archiwum Państwowe w Opolu",
-   "url": "https://www.szukajwarchiwach.gov.pl/seria?_Seria_cur=43&_Seria_delta=200&_Seria_id_serii=453036&_Seria_nameofjsp=jednostki&_Seria_resetCur=false&p_p_id=Seria&p_p_lifecycle=0&p_p_mode=view&p_p_state=normal",
+   "url": "https://www.szukajwarchiwach.gov.pl/en/zespol/-/zespol/44925",
    "date_consultation": "2026-10-01",
    "periode_couverte": [],
    "zones": [],
@@ -10336,15 +10336,15 @@
    "cibles": [
     "ville-pl-kedzierzyn"
    ],
-   "locator": "Catalogue foncier distingue Heydebreck et Kandrzin; plusieurs pièces sont datées 1944.",
+   "locator": "Fonds 45/1210/0, Sąd Obwodowy w Koźlu, onglet séries, 6.34 Kandrzin, Heydebreck [Kędzierzyn].",
    "resume_passage": "",
    "archive_locale": null,
-   "verification_claude": "non_verifiee",
+   "verification_claude": "limite",
    "verification_ether": {
-    "statut": "passages_cibles_lus",
-    "passages": "Catalogue foncier distingue Heydebreck et Kandrzin; plusieurs pièces sont datées 1944."
+    "statut": "catalogue_lu_serie_non_ouverte",
+    "passages": "Kandrzin, Heydebreck [Kędzierzyn]"
    },
-   "notes": "Proposée par Ether (réponse au lot villes 1.4, 01/10/2026). Limite annoncée par Ether : Catalogue consulté, tous actes non feuilletés; conserver séparé du port de Koźle. Relecture Claude 01/10/2026 : La page renvoie « Seria jest tymczasowo niedostępna » ; aucune unité Heydebreck/Kandrzin lisible, le catalogue n'a pas pu être vérifié."
+   "notes": "Proposée par Ether (réponse au lot villes 1.4, 01/10/2026). Limite annoncée par Ether : Catalogue consulté, tous actes non feuilletés; conserver séparé du port de Koźle. Relecture Claude 01/10/2026 : La page renvoie « Seria jest tymczasowo niedostępna » ; aucune unité Heydebreck/Kandrzin lisible, le catalogue n'a pas pu être vérifié. Cycle 3 d'Ether (01/10/2026) : Fonds et intitulé de série lus. L'ouverture de la série a échoué ; correspondance de l'ancien identifiant 453036 et pièces 1944 non revérifiées. URL du fonds proposée comme accès complémentaire stable, ne pas effacer l'ancien lien ni lever la réserve. Aucun rôle industriel prouvé ici. Adresse précédente (conservée pour l'historique) : https://www.szukajwarchiwach.gov.pl/seria?_Seria_cur=43&_Seria_delta=200&_Seria_id_serii=453036&_Seria_nameofjsp=jednostki&_Seria_resetCur=false&p_p_id=Seria&p_p_lifecycle=0&p_p_mode=view&p_p_state=normal Repère précédent : Catalogue foncier distingue Heydebreck et Kandrzin; plusieurs pièces sont datées 1944. Relecture Claude 01/10/2026 (3e passe) : Même fonds 44925 confirmé, mais la série « 6.34 Kandrzin, Heydebreck [Kędzierzyn] » n'apparaît pas (onglet des séries non rendu). Ni confirmée ni infirmée."
   },
   {
    "source_id": "src-14-pl-cosel-archive",
@@ -10352,7 +10352,7 @@
    "type_source": "notice_historique_institutionnelle",
    "titre": "Grundakten de Cosel (Koźle), pièces 1944",
    "institution": "Archiwum Państwowe w Opolu",
-   "url": "https://www.szukajwarchiwach.gov.pl/seria?_Seria_cur=6&_Seria_delta=200&_Seria_id_serii=453742&_Seria_nameofjsp=jednostki&_Seria_resetCur=false&p_p_id=Seria&p_p_lifecycle=0&p_p_mode=view&p_p_state=normal",
+   "url": "https://www.szukajwarchiwach.gov.pl/en/zespol/-/zespol/44925",
    "date_consultation": "2026-10-01",
    "periode_couverte": [],
    "zones": [],
@@ -10363,15 +10363,15 @@
    "cibles": [
     "ville-pl-kozle"
    ],
-   "locator": "Inventaire emploie Cosel [Koźle], y compris des entrées datées 1944.",
-   "resume_passage": "",
+   "locator": "Fonds 45/1210/0, Sąd Obwodowy w Koźlu, onglet séries, 6.12 Cosel [Koźle] ; série 453742, cote 45/1210/0/6.12.",
+   "resume_passage": "Sąd Obwodowy w Koźlu",
    "archive_locale": null,
-   "verification_claude": "non_verifiee",
+   "verification_claude": "limite",
    "verification_ether": {
-    "statut": "passages_cibles_lus",
-    "passages": "Inventaire emploie Cosel [Koźle], y compris des entrées datées 1944."
+    "statut": "catalogue_lu_actes_non_lus",
+    "passages": "Cosel [Koźle]"
    },
-   "notes": "Proposée par Ether (réponse au lot villes 1.4, 01/10/2026). Limite annoncée par Ether : Le nom vient du catalogue; l’histoire municipale distincte prouve le port. Ancrer le point sur ses bassins. Relecture Claude 01/10/2026 : La page renvoie « Seria jest tymczasowo niedostępna » : aucun contenu d'inventaire lisible, ni Cosel/Koźle ni dates de 1944 vérifiables."
+   "notes": "Proposée par Ether (réponse au lot villes 1.4, 01/10/2026). Limite annoncée par Ether : Le nom vient du catalogue; l’histoire municipale distincte prouve le port. Ancrer le point sur ses bassins. Relecture Claude 01/10/2026 : La page renvoie « Seria jest tymczasowo niedostępna » : aucun contenu d'inventaire lisible, ni Cosel/Koźle ni dates de 1944 vérifiables. Cycle 3 d'Ether (01/10/2026) : Fonds parent et série relus. URL stable du fonds fournie. Les actes individuels datés de 1944 n'ont pas été revérifiés ; garder la réserve de Claude. Ce catalogue ne prouve pas le rôle portuaire. Adresse précédente (conservée pour l'historique) : https://www.szukajwarchiwach.gov.pl/seria?_Seria_cur=6&_Seria_delta=200&_Seria_id_serii=453742&_Seria_nameofjsp=jednostki&_Seria_resetCur=false&p_p_id=Seria&p_p_lifecycle=0&p_p_mode=view&p_p_state=normal Repère précédent : Inventaire emploie Cosel [Koźle], y compris des entrées datées 1944. Relecture Claude 01/10/2026 (3e passe) : Fonds 45/1210/0 confirmé (tribunal de district de Cosel/Koźle, Archives d'État d'Opole). La liste des séries n'est pas rendue par l'outil : la série « 6.12 Cosel [Koźle] » n'est pas vue. Actes de 1944 non lus."
   },
   {
    "source_id": "src-14-pl-london-government",
@@ -10419,15 +10419,17 @@
    "cibles": [
     "ville-ee-tapa"
    ],
-   "locator": "Le musée cite 1876 pour la branche de Tartu et la fonction de nœud; une annonce postale est datée de décembre 1876.",
+   "locator": "Bas de page, entrée Eesti Postimees ehk Näddalaleht, 22. detsember 1876 ; annonce signée postmeister Winter le 19 décembre 1876.",
    "resume_passage": "1876. aastal Tapalt raudteeharu Tartusse pikendati, misläbi Tapa nagu sõlmeks sai",
    "archive_locale": null,
    "verification_claude": "limite",
    "verification_ether": {
-    "statut": "passages_cibles_lus",
-    "passages": "Le musée cite 1876 pour la branche de Tartu et la fonction de nœud; une annonce postale est datée de décembre 1876."
+    "statut": "passage_lu",
+    "passages": "postikirjad Tapa – Tartu raudtee pääl toimetatud saavad",
+    "date_annonce_reproduite": "22. detsember 1876",
+    "date_signature_reproduite": "19. detsembril 1876"
    },
-   "notes": "Proposée par Ether (réponse au lot villes 1.4, 01/10/2026). Limite annoncée par Ether : EVR donne 1877 pour le trafic régulier; conserver la divergence, sans inventer sa cause. Relecture Claude 01/10/2026 : La page (Postimees 1926) confirme 1876, l'embranchement vers Tartu et le statut de nœud (« sõlmeks »). Aucune annonce postale de décembre 1876 n'a été trouvée dans le texte lu."
+   "notes": "Proposée par Ether (réponse au lot villes 1.4, 01/10/2026). Limite annoncée par Ether : EVR donne 1877 pour le trafic régulier; conserver la divergence, sans inventer sa cause. Relecture Claude 01/10/2026 : La page (Postimees 1926) confirme 1876, l'embranchement vers Tartu et le statut de nœud (« sõlmeks »). Aucune annonce postale de décembre 1876 n'a été trouvée dans le texte lu. Cycle 3 d'Ether (01/10/2026) : Le musée reproduit bien l'annonce de décembre 1876 relative au courrier sur Tapa–Tartu. Source rétrospective citant une annonce d'époque, original non ouvert. Dates reproduites telles qu'affichées, calendrier non converti. Ne prouve pas à elle seule tous les services du nœud au Snapshot ; ne résout pas le rapport avec 1877 indiqué par EVR. Repère précédent : Le musée cite 1876 pour la branche de Tartu et la fonction de nœud; une annonce postale est datée de décembre 1876. Relecture Claude 01/10/2026 (3e passe) : Trois lectures (deux par sous-agent, une par Claude) : l'outil ne rend la page que de 1924 à 1940, et coupe au milieu d'une phrase. L'entrée du 22/12/1876 (annonce du maître de poste Winter) signalée par Ether au bas de la page reste donc introuvable pour Claude : ni confirmée ni infirmée. Le passage 1876 déjà confirmé reste valable."
   },
   {
    "source_id": "src-14-ee-valga-local",
@@ -10509,6 +10511,246 @@
     "passages": "La municipalité date la gare du 4 septembre 1871 et décrit son rôle dans la croissance de la ville."
    },
    "notes": "Proposée par Ether (réponse au lot villes 1.4, 01/10/2026). Limite annoncée par Ether : Historique local ne quantifie pas le trafic de 1944. Relecture Claude 01/10/2026 : La page donne la date du 4 septembre 1871 et son rôle dans la croissance de la ville (« Būtent geležinkelio dėka šis miestas išaugo ir sustiprėjo »)."
+  },
+  {
+   "source_id": "src-13-cz-reichenberg-reichsanzeiger-1944",
+   "niveau": "A",
+   "type_source": "document_epoque",
+   "titre": "Deutscher Reichsanzeiger, 18 mai 1944, n°111, page 1",
+   "institution": "Bibliothèque universitaire de Mannheim",
+   "url": "https://digi.bib.uni-mannheim.de/reichsanzeiger/ocr/film/tesseract-5.5.1-20250818/1943-07-01--1945-04-14---045-046/046-8487/0241.hocr",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "nom_historique"
+   ],
+   "cibles": [
+    "ville-cz-liberec"
+   ],
+   "locator": "Avis daté à Reichenberg du 11 mai 1944, signature Staatspolizeileitstelle Reichenberg.",
+   "resume_passage": "Reichenberg, den 11. Mai 1944. Geheime Staatspolizei. Staatspolizeileitstelle Reichenberg.",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "passages_cibles_lus",
+    "passages": "Reichenberg, den 11. Mai 1944."
+   },
+   "notes": "Proposée par Ether (cycle 3 du lot villes 1.3, 01/10/2026). Ce que la source prouve selon Ether : nom historique, usage administratif en 1944. Limite annoncée par Ether : Transcription OCR lue ; document de l'administration nazie utilisé uniquement pour son libellé daté. Ne prouve ni décret de renommage, ni date de retour au nom tchèque. Relecture Claude 01/10/2026 : En-tête confirmé : Deutscher Reichsanzeiger n°111 du 18 mai 1944, p. 1. L'avis (saisie de biens d'une brasserie de Rumburg/Warnsdorf) porte bien la date et la signature attendues."
+  },
+  {
+   "source_id": "src-13-cz-eger-reichsanzeiger-1944",
+   "niveau": "A",
+   "type_source": "document_epoque",
+   "titre": "Deutscher Reichsanzeiger, 31 mai 1944, n°121, page 1",
+   "institution": "Bibliothèque universitaire de Mannheim",
+   "url": "https://digi.bib.uni-mannheim.de/reichsanzeiger/ocr/film/tesseract-5.5.1-20250818/1943-07-01--1945-04-14---045-046/046-8487/0265.hocr",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "nom_historique"
+   ],
+   "cibles": [
+    "ville-cz-cheb"
+   ],
+   "locator": "Avis 2536, tribunal d'Eger, inscription datée du 13 mai 1944.",
+   "resume_passage": "Eger. [2536] Amtsgericht Eger. H.-R. A 258 Asch, 13. Mai 1944. Singer & Co., Asch.",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "passages_cibles_lus",
+    "passages": "Eger. [2536] Amtsgericht Eger."
+   },
+   "notes": "Proposée par Ether (cycle 3 du lot villes 1.3, 01/10/2026). Ce que la source prouve selon Ether : nom historique, usage judiciaire en 1944. Limite annoncée par Ether : OCR lu. Le commerce concerné est à Asch : la preuve pour Eger est le nom du tribunal, pas la localisation de cette entreprise. Ni acte de renommage ni borne de fin démontrés. Relecture Claude 01/10/2026 : Reichsanzeiger n°121 du 31 mai 1944, p. 1, confirmé. Entrée [2536] du tribunal d'Eger datée du 13 mai 1944 ; l'entreprise est bien à Asch (la preuve pour Eger est le nom du tribunal)."
+  },
+  {
+   "source_id": "src-13-cz-brux-reichsanzeiger-1942",
+   "niveau": "A",
+   "type_source": "document_epoque",
+   "titre": "Deutscher Reichsanzeiger, 30 mai 1942, n°124, page 10",
+   "institution": "Bibliothèque universitaire de Mannheim",
+   "url": "https://digi.bib.uni-mannheim.de/reichsanzeiger/ocr/film/tesseract-4.0.0-20181201/040-8481/0539.hocr",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "nom_historique"
+   ],
+   "cibles": [
+    "ville-cz-most"
+   ],
+   "locator": "Avis 9005 et 9006, Genossenschaftsregister Amtsgericht Brüx, datés du 12 mai 1942.",
+   "resume_passage": "Brüx, den 12. Mai 1942",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "passages_cibles_lus",
+    "passages": "Brüx, den 12. Mai 1942."
+   },
+   "notes": "Proposée par Ether (cycle 3 du lot villes 1.3, 01/10/2026). Ce que la source prouve selon Ether : nom historique, usage judiciaire en 1942. Limite annoncée par Ether : OCR lu. Preuve du nom dans un acte publié avant le Snapshot, aucune coordonnée historique déduite. Relecture Claude 01/10/2026 : Reichsanzeiger n°124 du 30 mai 1942, p. 10, confirmé. Avis 9005 (Volksbank Brüx) et 9006 du registre des coopératives datés « Brüx, den 12. Mai 1942 ». OCR avec coquilles (« Brürx »)."
+  },
+  {
+   "source_id": "src-13-sk-ersekujvar-presse-1944",
+   "niveau": "A",
+   "type_source": "document_epoque",
+   "titre": "Érsekújvár és Magyar Vidék, 22 juillet 1944, n°30",
+   "institution": "Országos Széchényi Könyvtár — EPA",
+   "url": "https://epa.oszk.hu/05700/05712/00452/pdf/EPA05712_ersek_ujvar_es_magyar_videk_1944_030.pdf",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "nom_historique"
+   ],
+   "cibles": [
+    "ville-sk-nove-zamky"
+   ],
+   "locator": "PDF p.1 : titre et annonces locales ; p.4 : avis signé par le maire, daté du 19 juillet ; p.5 : nomination d'un maire.",
+   "resume_passage": "ÉRSEKÚJVÁR ÉS MAGYAR VIDÉK",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "passages_cibles_lus",
+    "passages": "ÉRSEKÚJVÁR ÉS MAGYAR VIDÉK"
+   },
+   "notes": "Proposée par Ether (cycle 3 du lot villes 1.3, 01/10/2026). Ce que la source prouve selon Ether : nom historique, usage local et municipal en juillet 1944. Limite annoncée par Ether : Texte extrait du PDF lu. Une notice municipale confirme l'usage local du nom ; ne constitue pas un décret de renommage. Le contenu idéologique du journal n'est pas repris comme récit factuel. Relecture Claude 01/10/2026 : Titre, date du 22 juillet 1944 et n°30 confirmés. Avis municipal signé par le maire, daté du 19 juillet 1944 ; le nom Érsekújvár est bien employé. Le contenu de l'avis (persécution antijuive) n'est pas repris comme récit."
+  },
+  {
+   "source_id": "src-13-cz-tetschen-telephone-1942",
+   "niveau": "B",
+   "type_source": "etude_ou_notice_institutionnelle",
+   "titre": "Annuaire téléphonique de Tetschen-Bodenbach, 1942 — notice SOA.141757",
+   "institution": "Archives régionales de Litoměřice, SOkA Děčín",
+   "url": "https://katalog.soalitomerice.cz/Record/SOA.141757",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "nom_historique"
+   ],
+   "cibles": [
+    "ville-cz-decin"
+   ],
+   "locator": "Notice SOA.141757 ouverte dans le navigateur ; tableau Vydáno et exemplaire SOkA Děčín : Dresden, Deutsche Reichs-Postreklame, 1942 ; cote R 800 /42.",
+   "resume_passage": "Örtliches Fernsprech-Teilnehmer-Verzeichnis für Tetschen-Bodenbach",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "notice_catalogue_lue_original_non_feuillete",
+    "passages": "Tetschen-Bodenbach"
+   },
+   "notes": "Proposée par Ether (cycle 3 du lot villes 1.3, 01/10/2026). Ce que la source prouve selon Ether : attestation bibliographique du nom composé dans un annuaire de 1942. Limite annoncée par Ether : Notice institutionnelle lue directement après échec de l'outil textuel ; exemplaire non feuilleté. Atteste le titre postal composé en 1942, pas un décret ni la date de fusion. La réunion en une entité est déjà consignée par Claude au journal ; aucune nouvelle fusion proposée. Des annuaires antérieurs portent aussi la forme composée : ne pas en déduire une chronologie administrative. Relecture Claude 01/10/2026 : Notice confirmée : Dresden, Deutsche Reichs-Postreklame, 1942, exemplaire SOkA Děčín, cote R 800 /42. Notice de catalogue seulement : l'annuaire lui-même n'est pas lu."
+  },
+  {
+   "source_id": "src-13-hu-szalasi-koszeg-neb-1944",
+   "niveau": "B",
+   "type_source": "etude_ou_notice_institutionnelle",
+   "titre": "Chronologie du 21 décembre 1944",
+   "institution": "Nemzeti Emlékezet Bizottsága — Nullaév",
+   "url": "https://nullaev.hu/hu/1944-december-21-csuetoertoek",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "administration"
+   ],
+   "cibles": [
+    "ville-hu-budapest"
+   ],
+   "locator": "Dernier paragraphe de la journée du 21 décembre 1944.",
+   "resume_passage": "Szálasi Ferenc „nemzetvezető” és közvetlen környezete Farkasgyepűről Kőszegre települ.",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "passages_cibles_lus",
+    "passages": "Farkasgyepűről Kőszegre települ."
+   },
+   "notes": "Proposée par Ether (cycle 3 du lot villes 1.3, 01/10/2026). Ce que la source prouve selon Ether : localisation de Szálasi et de son entourage avant le Snapshot. Limite annoncée par Ether : Page lue : déplacement de Szálasi et de son entourage de Farkasgyepű vers Kőszeg. Ne localise pas tous les ministères. NOTE LAISSÉE EN RÉSERVE PAR GUIZMO : ne pas intégrer aux données à ce stade. SOURCE DE CONTEXTE EN RÉSERVE — Q13-03 : « Laisser la note en réserve » (Guizmo, 01/10/2026) — aucune note ni nouveau siège dans les données. Relecture Claude 01/10/2026 : Phrase trouvée dans la chronologie du 21 décembre 1944. Source de contexte : note Budapest laissée en réserve par Guizmo, rien n'est ajouté aux données."
+  },
+  {
+   "source_id": "src-13-protectorat-velcovsky-langues",
+   "niveau": "B",
+   "type_source": "etude_ou_notice_institutionnelle",
+   "titre": "Václav Velčovský — étude sur la régulation linguistique dans le Protectorat",
+   "institution": "Bohemia — revue scientifique",
+   "url": "https://www.bohemia-online.de/index.php/bohemia/article/download/8119/13183",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "nomenclature"
+   ],
+   "cibles": [
+    "ville-cz-brno",
+    "ville-cz-olomouc"
+   ],
+   "locator": "PDF p.4 (p.41 imprimée) : priorité allemande ; p.8 (p.45) : Ortsbuch de 1940 ; p.17 : pratiques de presse.",
+   "resume_passage": "in jedem deutschen Text, egal welcher Art, zwingend und ausschließlich deutsche Ortsbezeichnungen zu verwenden",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "passages_cibles_lus",
+    "passages": "in jedem deutschen Text"
+   },
+   "notes": "Proposée par Ether (cycle 3 du lot villes 1.3, 01/10/2026). Ce que la source prouve selon Ether : contexte des usages linguistiques ; préparation de Q13-02. Limite annoncée par Ether : Étude lue par passages, pas lecture directe des actes cités. N'établit pas chaque nom ville par ville. DÉCISION ÉDITORIALE LAISSÉE EN RÉSERVE PAR GUIZMO ; aucun changement global. SOURCE DE CONTEXTE EN RÉSERVE — Q13-02 : « Laisser cette décision en réserve » (Guizmo, 01/10/2026) — aucune règle de noms nouvelle pour le Protectorat. Relecture Claude 01/10/2026 : Article de Václav Velčovský, Bohemia 58 (2018). L'Ortsbuch officiel de 1940 et les pratiques de presse sont aussi mentionnés. Contexte seulement : décision Protectorat en réserve."
+  },
+  {
+   "source_id": "src-13-most-toponymes-2025",
+   "niveau": "B",
+   "type_source": "etude_ou_notice_institutionnelle",
+   "titre": "Toponyma zaniklého města Mostu",
+   "institution": "Myšička, Semotanová, Chludil — Geodetický a kartografický obzor 71/113, 2025/12",
+   "url": "https://egako.eu/wp-content/uploads/2025/12/mysicka_semotanova_chludil_2025_12.pdf",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "implantation_historique"
+   ],
+   "cibles": [
+    "ville-cz-most"
+   ],
+   "locator": "P.237 : ancien Most détruit ; p.252 : liens Most do minulosti et Starý Most v nás.",
+   "resume_passage": "Most do minulosti : online, dostupné z https://mapy.mesto-most.cz/app/most-do-minulosti/",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "passages_cibles_lus",
+    "passages": "Toponyma zaniklého města Mostu"
+   },
+   "notes": "Proposée par Ether (cycle 3 du lot villes 1.3, 01/10/2026). Ce que la source prouve selon Ether : contexte cartographique de l'ancien Most ; pistes pour Q13-04. Limite annoncée par Ether : Passages textuels lus. Renvoie à des cartes historiques municipales ; un relevé distinct est documenté dans src-13-most-carte-municipale-1938. Cette étude seule ne fournit pas le point. Déplacement laissé en réserve par Guizmo. SOURCE DE CONTEXTE EN RÉSERVE — Q13-04 : « Garder le déplacement en réserve » (Guizmo, 01/10/2026) — aucun déplacement du point. Relecture Claude 01/10/2026 : Article Myšička, Semotanová, Chludil (Geodetický a kartografický obzor 2025/12) sur les toponymes de l'ancien Most ; les applications « Most do minulosti » et « Starý Most v nás » sont citées."
+  },
+  {
+   "source_id": "src-13-most-carte-municipale-1938",
+   "niveau": "B",
+   "type_source": "carte_historique_georeferencee_par_institution",
+   "titre": "Most do minulosti — Lageplan der Stadt Brüx 1938",
+   "institution": "Statutární město Most, service GIS",
+   "url": "https://mapy.mesto-most.cz/app/most-do-minulosti/",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "implantation_historique"
+   ],
+   "cibles": [
+    "ville-cz-most"
+   ],
+   "locator": "Signet Staré město Most ; galerie de fonds, lien Lageplan der Stadt Brüx 1938 ; échelle 1:2500 ; outil Mesures > Localisation, point dans la première place au sud de Radnice.",
+   "resume_passage": "",
+   "archive_locale": null,
+   "verification_claude": "non_verifiee",
+   "verification_ether": {
+    "statut": "carte_affichee_point_releve_decision_reservee",
+    "passages": "Lageplan der Stadt Brüx 1938",
+    "releve": {
+     "latitude": 50.524968,
+     "longitude": 13.642034,
+     "unite_interface": "Degrés"
+    }
+   },
+   "notes": "Proposée par Ether (cycle 3 du lot villes 1.3, 01/10/2026). Ce que la source prouve selon Ether : recherche du centre historique ; déplacement réservé par Guizmo. Limite annoncée par Ether : Carte affichée et inspectée dans le navigateur. Lecture en degrés : latitude 50,524968, longitude 13,642034. Arrondi proposé 50,52497 / 13,64203, point représentatif et non position exacte d'un monument. Précision de géoréférencement non documentée. Guizmo : « Garder le déplacement en réserve ». Ne modifier aucune géométrie. Les nombres métriques d'un autre widget n'ont pas été transformés ni utilisés. Aucun fond cartographique redistribué. SOURCE DE CONTEXTE EN RÉSERVE — Q13-04 : « Garder le déplacement en réserve » (Guizmo, 01/10/2026) — relevé d'Ether 50,524968 N / 13,642034 E conservé ici seulement, aucun déplacement du point. Relecture Claude 01/10/2026 : Application cartographique dynamique : erreur serveur à deux essais avec l'outil de lecture. Ni le fond de 1938 ni le relevé d'Ether (50,524968 N / 13,642034 E) ne sont vérifiables par Claude ; déplacement de toute façon en réserve."
   }
  ]
 }
