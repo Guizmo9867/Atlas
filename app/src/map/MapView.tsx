@@ -261,19 +261,23 @@ function appliquer(map: maplibregl.Map, c: CouchesDuJour, etiquettes: React.Muta
     return new maplibregl.Marker({ element: el }).setLngLat(point as [number, number]).addTo(map)
   })
   ;(window as unknown as { __atlasPlaces?: Place[] }).__atlasPlaces = places.current // pour les tests automatiques
-  // Noms des villes : à droite du point, montrés selon le zoom par les classes zoom-* (voir styles.css)
+  // Noms des villes : à droite du point (à gauche si la place est prise, cachés si aucune place : voir etiquettes.ts)
+  obstacles.current = []
   etiquettes.current.push(...c.villes.features.map((f) => {
+    const imp = String(f.properties?.importance ?? 'C') as keyof typeof ZOOM_VILLES
+    const nom = String(f.properties?.nom ?? '')
     const el = document.createElement('div')
     el.className = 'ville-nom'
-    el.dataset.importance = String(f.properties?.importance ?? 'C')
+    el.dataset.importance = imp
     el.dataset.capitale = f.properties?.capitale ? '1' : '0'
-    el.textContent = String(f.properties?.nom ?? '')
-    return new maplibregl.Marker({ element: el, anchor: 'left', offset: [7, 0] }).setLngLat((f.geometry as GeoJSON.Point).coordinates as [number, number]).addTo(map)
+    const span = document.createElement('span')
+    span.textContent = nom
+    el.append(span)
+    const point = (f.geometry as GeoJSON.Point).coordinates
+    obstacles.current.push({ point, largeur: largeurVille(nom, imp), seuil: ZOOM_VILLES[imp] ?? 6.5, el,
+      rang: f.properties?.capitale ? 0 : 1 + 'ABCD'.indexOf(imp) })
+    return new maplibregl.Marker({ element: el, anchor: 'left', offset: [7, 0] }).setLngLat(point as [number, number]).addTo(map)
   }))
-  obstacles.current = c.villes.features.map((f) => {
-    const imp = String(f.properties?.importance ?? 'C') as keyof typeof ZOOM_VILLES
-    return { point: (f.geometry as GeoJSON.Point).coordinates, largeur: largeurVille(String(f.properties?.nom ?? ''), imp), seuil: ZOOM_VILLES[imp] ?? 6.5 }
-  })
   placerEtiquettes(map, places.current, villesVisibles ? obstacles.current : [])
 }
 

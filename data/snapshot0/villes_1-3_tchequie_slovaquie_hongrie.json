@@ -3,7 +3,7 @@
     "nom": "snapshot0_villes_1-3_tchequie_slovaquie_hongrie",
     "date_reference": "1945-01-01",
     "heure_reference": "00:00",
-    "version": "0.1",
+    "version": "0.2",
     "statut": "integre_par_claude",
     "gabarit_source": "gabarits/gabarit_entite_temporelle_atlas.json",
     "zone": [
@@ -28,7 +28,8 @@
         "Capitales : Bratislava et Budapest nationales ; Prague régionale par cohérence avec Vienne (à confirmer).",
         "Miskolc et Diósgyőr : deux points (fusion du 01/01/1945 à appliquer au ratissage du temps).",
         "Positions : Wikidata ; Nový Bohumín = gare ; Most à déplacer sur le vieux Most ; Komárom = rive nord (Komárno).",
-        "« À renforcer » : Csepel (source C) et les villes dont aucune source n'a été confirmée par la relecture de Claude."
+        "« À renforcer » : Csepel (source C) et les villes dont aucune source n'a été confirmée par la relecture de Claude.",
+        "v0.2 (01/10) : JSON d'Ether reçu et rapproché (aucune différence de villes, rangs, rôles ou sources) ; notes d'Ether et preuves rôle par rôle reprises ; « à renforcer » calculé rôle par rôle ; Prague régionale validée par Guizmo."
       ]
     }
   },
@@ -62,7 +63,7 @@
               "rail",
               "administration"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.3) : Métropole et centre administratif à conserver à l’échelle continentale ; rang A indépendant de la convention de capitale. Siège du Protectorat de Bohême-Moravie ; gouvernement tchécoslovaque en exil en Angleterre. Capitale « régionale » au Snapshot 0, par cohérence avec Vienne (à confirmer)."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.3) : Métropole et centre administratif à conserver à l’échelle continentale ; rang A indépendant de la convention de capitale. Le gouvernement tchécoslovaque en exil est en Angleterre. Capitale « régionale » au Snapshot 0 (siège du Protectorat de Bohême-Moravie), par cohérence avec Vienne : validé par Guizmo le 01/10/2026."
           },
           "geometrie": {
             "type": "Point",
@@ -80,17 +81,17 @@
             {
               "source_id": "src-13-cz-perner-rail",
               "locator": "Ligne Olomouc–Prague de 1845 ; projets Česká Třebová–Kolín et Pardubice–Prague ; arrivée du premier train à Prague le 20 août.",
-              "usage": "preuve locale : rail, administration"
+              "usage": "preuve locale : rail"
             },
             {
               "source_id": "src-13-cz-prague-protectorat",
               "locator": "15–16 mars 1939 : occupation de Prague, proclamation du Protectorat et institutions d'Emil Hácha et du protecteur.",
-              "usage": "preuve locale : rail, administration"
+              "usage": "preuve locale : administration"
             },
             {
               "source_id": "src-13-cz-exil-contexte",
               "locator": "Cabinet de Beneš en exil en Angleterre entre 1940 et 1945.",
-              "usage": "preuve locale : rail, administration"
+              "usage": "contexte (situation, nom ou périmètre)"
             }
           ]
         }
@@ -122,7 +123,7 @@
             "roles": [
               "rail"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.3) : Grand nœud ferroviaire morave."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.3) : Grand nœud ferroviaire morave. Le rôle industriel n’est pas ajouté sans preuve locale distincte."
           },
           "geometrie": {
             "type": "Point",
@@ -174,7 +175,7 @@
               "rail",
               "industrie"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.3) : Pôle industriel et ferroviaire majeur."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.3) : Pôle industriel et ferroviaire majeur. Ne pas anticiper le bombardement majeur d’avril 1945 ; fabrication d’armement ne crée pas un rôle de base militaire. À renforcer : rail."
           },
           "geometrie": {
             "type": "Point",
@@ -192,12 +193,12 @@
             {
               "source_id": "src-13-cz-budejovice-rail",
               "locator": "1868 : České Budějovice–Pilsen ; liaisons vers Vienne en 1869–1870 et Veselí en 1874.",
-              "usage": "preuve locale : rail, industrie (non vérifiée par Claude)"
+              "usage": "preuve locale : rail (non vérifiée par Claude)"
             },
             {
               "source_id": "src-13-cz-skoda-plzen",
               "locator": "1859 : usine à Pilsen ; 1925 : acquisition de Laurin & Klement à Mladá Boleslav ; 1939 : conversion vers l'armement ; bombardement majeur de Pilsen en avril 1945.",
-              "usage": "preuve locale : rail, industrie"
+              "usage": "preuve locale : industrie"
             }
           ]
         }
@@ -231,7 +232,7 @@
               "rail",
               "industrie"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.3) : Grand pôle sidérurgique et ferroviaire. Nom au Snapshot 0 : Moravská Ostrava ; Ostrava à partir du 28/06/1946 (futur état). Raid du 29/08/1944 sur usines, mine et transports."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.3) : Grand pôle sidérurgique et ferroviaire. Nom Moravská Ostrava jusqu’au 28 juin 1946. Dommages du 29 août 1944 déjà acquis ; ni débit industriel ni trafic normal supposés. Svinov reste hors du périmètre municipal de 1945."
           },
           "geometrie": {
             "type": "Point",
@@ -254,12 +255,12 @@
             {
               "source_id": "src-13-cz-ostrava-nom",
               "locator": "1941 : extension à Slezská Ostrava et onze communes ; 28 juin 1946 : nom Moravská Ostrava remplacé par Ostrava.",
-              "usage": "preuve locale : rail, industrie (lecture partielle)"
+              "usage": "contexte (situation, nom ou périmètre) (lecture partielle)"
             },
             {
               "source_id": "src-13-cz-ostrava-degats",
               "locator": "29 août 1944 : usines, mine et transports touchés.",
-              "usage": "preuve locale : rail, industrie"
+              "usage": "contexte (situation, nom ou périmètre)"
             }
           ]
         }
@@ -293,7 +294,7 @@
               "port_fluvial",
               "industrie"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.3) : Articulation rail–port–industrie sur l’Elbe."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.3) : Articulation rail–port–industrie sur l’Elbe. Le port est historiquement attesté ; aucun volume contemporain n’est transposé en 1945."
           },
           "geometrie": {
             "type": "Point",
@@ -343,7 +344,7 @@
             "roles": [
               "rail"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.3) : Intersection de corridors historiques structurants."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.3) : Intersection de corridors historiques structurants. Le rôle industriel de Semtín n’est pas automatiquement transféré à une commune de 1945 sans vérification des limites."
           },
           "geometrie": {
             "type": "Point",
@@ -398,7 +399,7 @@
             "roles": [
               "rail"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.3) : Articulation des réseaux de Moravie et de Bohême."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.3) : Articulation des réseaux de Moravie et de Bohême. Présence ferroviaire documentée ; capacité au 31 décembre 1944 non chiffrée."
           },
           "geometrie": {
             "type": "Point",
@@ -453,7 +454,7 @@
             "roles": [
               "rail"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.3) : Nœud ferroviaire structurant malgré une taille urbaine plus faible."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.3) : Nœud ferroviaire structurant malgré une taille urbaine plus faible. La source distingue train d’essai et inauguration ; seule l’existence antérieure à 1945 est utilisée."
           },
           "geometrie": {
             "type": "Point",
@@ -503,7 +504,7 @@
             "roles": [
               "rail"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.3) : Convergence de corridors transfrontaliers historiques."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.3) : Convergence de corridors transfrontaliers historiques. La douane dans la source ne suffit pas à qualifier un poste-frontière actif au Snapshot."
           },
           "geometrie": {
             "type": "Point",
@@ -535,8 +536,9 @@
       "nom_court": "Děčín–Podmokly",
       "aliases": [
         "Děčín",
-        "Podmokly",
+        "Děčín-Podmokly",
         "Bodenbach-Tetschen",
+        "Podmokly",
         "Tetschen"
       ],
       "etats": [
@@ -558,7 +560,7 @@
               "port_fluvial",
               "industrie"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.3) : Nœud de l’Elbe associant rail, port et industrie. Ville réunie le 01/10/1942 (Děčín, Podmokly, Staré Město) ; forme administrative allemande de 1944 à confirmer (Bodenbach-Tetschen selon un article des ČD). Le port de Loubí est d'après-guerre."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.3) : Nœud de l’Elbe associant rail, port et industrie. Fusion Děčín–Podmokly–Staré Město le 1er octobre 1942. Libellé descriptif historique ; la forme officielle allemande reste à normaliser. Le port de Loubí d’après-guerre est exclu. À renforcer : port_fluvial."
           },
           "geometrie": {
             "type": "Point",
@@ -576,7 +578,7 @@
             {
               "source_id": "src-13-cz-decin-histoire",
               "locator": "1851 : chemin de fer Prague–Dresde, développement industriel à Podmokly ; fusion Děčín–Podmokly–Staré Město en 1942.",
-              "usage": "preuve locale : rail, port_fluvial, industrie"
+              "usage": "preuve locale : rail, industrie"
             },
             {
               "source_id": "src-13-cz-decin-cd",
@@ -613,7 +615,7 @@
             "roles": [
               "rail"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.3) : Carrefour de plusieurs réseaux internationaux."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.3) : Carrefour de plusieurs réseaux internationaux. Les dégâts de gare du printemps 1945 ne sont pas anticipés."
           },
           "geometrie": {
             "type": "Point",
@@ -663,7 +665,7 @@
             "roles": [
               "rail"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.3) : Nœud ferroviaire à plusieurs branches."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.3) : Nœud ferroviaire à plusieurs branches. Industrie différée jusqu’à une preuve historique d’établissement local ; graphie administrative de guerre à normaliser séparément."
           },
           "geometrie": {
             "type": "Point",
@@ -710,7 +712,7 @@
             "roles": [
               "industrie"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.3) : Pôle sidérurgique majeur."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.3) : Pôle sidérurgique majeur. Le rail n’est pas ajouté par déduction de la seule présence d’une usine."
           },
           "geometrie": {
             "type": "Point",
@@ -760,7 +762,7 @@
             "roles": [
               "industrie"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.3) : Pôle industriel structurant malgré les dégâts de guerre. Dégâts de novembre 1944 ; Gottwaldov à partir du 01/01/1949 (futur état)."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.3) : Pôle industriel structurant malgré les dégâts de guerre. Dommages de novembre 1944 inclus. Gottwaldov date du 1er janvier 1949 ; ni changement de nom ni nationalisation de 1945 anticipés."
           },
           "geometrie": {
             "type": "Point",
@@ -783,7 +785,7 @@
             {
               "source_id": "src-13-cz-zlin-nom",
               "locator": "1er janvier 1949 : changement de Zlín en Gottwaldov ; rattachements, dont Otrokovice, à cette date.",
-              "usage": "preuve locale : industrie"
+              "usage": "contexte (situation, nom ou périmètre)"
             }
           ]
         }
@@ -815,7 +817,7 @@
             "roles": [
               "industrie"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.3) : Pôle de construction mécanique."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.3) : Pôle de construction mécanique. La fabrication de matériel militaire ne justifie pas un rôle militaire opérationnel."
           },
           "geometrie": {
             "type": "Point",
@@ -865,7 +867,7 @@
             "roles": [
               "rail"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.3) : Nœud régional de Bohême du Sud. À renforcer : rail."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.3) : Nœud régional de Bohême du Sud. La traction hippomobile des débuts n’est pas présentée comme mode actif en 1945. À renforcer : rail."
           },
           "geometrie": {
             "type": "Point",
@@ -915,7 +917,7 @@
             "roles": [
               "rail"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.3) : Intersection ferroviaire majeure ; classement fondé sur les flux et non la population."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.3) : Intersection ferroviaire majeure ; classement fondé sur les flux et non la population. Aucun chiffre de vitesse ou d’emploi contemporain repris."
           },
           "geometrie": {
             "type": "Point",
@@ -971,7 +973,7 @@
               "rail",
               "industrie"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.3) : Nœud régional charbonnier relié au rail. Point à placer sur le vieux Most de 1945 : la position actuelle (Wikidata) est celle de la ville reconstruite, à corriger. À renforcer : rail, industrie."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.3) : Nœud régional charbonnier relié au rail. Utiliser l’implantation du vieux Most ; le centre déplacé de la ville nouvelle ne convient pas au Snapshot. Position provisoire : Wikidata donne la ville reconstruite ; à déplacer sur le vieux Most. À renforcer : rail, industrie."
           },
           "geometrie": {
             "type": "Point",
@@ -1023,7 +1025,7 @@
             "roles": [
               "rail"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.3) : Grand nœud à l’extrémité du corridor Košice–Bohumín. Point = gare de Nový Bohumín ; nom administratif et périmètre de guerre à vérifier (regroupement de 1943 ?, fusion de 1949)."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.3) : Grand nœud à l’extrémité du corridor Košice–Bohumín. Le point représente la gare et son noyau urbain. Le nom Nový Bohumín est attesté depuis 1924 ; le périmètre municipal de guerre n’est pas verrouillé. Position : gare de Bohumín (Nový Bohumín)."
           },
           "geometrie": {
             "type": "Point",
@@ -1046,7 +1048,7 @@
             {
               "source_id": "src-13-cz-bohumin-perimetre",
               "locator": "Historique : Šunychl devient Nový Bohumín en 1924 ; regroupement municipal décrit en 1949.",
-              "usage": "preuve locale : rail (non vérifiée par Claude)"
+              "usage": "contexte (situation, nom ou périmètre) (non vérifiée par Claude)"
             }
           ]
         }
@@ -1083,7 +1085,7 @@
               "capitale",
               "administration"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.3) : Capitale et métropole combinant rail et navigation danubienne. Capitale de l'État slovaque depuis le 14/03/1939 ; extension « Grande Bratislava » de 1946 non anticipée."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.3) : Capitale et métropole combinant rail et navigation danubienne. Ne pas anticiper la Grande Bratislava de 1946 ni absorber les communes de cette extension. À renforcer : port_fluvial, capitale, administration."
           },
           "geometrie": {
             "type": "Point",
@@ -1101,22 +1103,22 @@
             {
               "source_id": "src-13-sk-zsr-premieres-lignes",
               "locator": "20 août 1848 : arrivée à Bratislava depuis Marchegg ; ligne Bratislava–Štúrovo–Vác achevée en 1850 ; Košice–Čaňa–Hidasnémeti au début des années 1860.",
-              "usage": "preuve locale : rail, port_fluvial, capitale, administration"
+              "usage": "preuve locale : rail"
             },
             {
               "source_id": "src-13-sk-zsr-steg",
               "locator": "1883 : Trenčín–Žilina et triage de Bratislava ; 20 juillet 1885 : Leopoldov–Galanta ; accès vers Zwardoň par Čadca.",
-              "usage": "preuve locale : rail, port_fluvial, capitale, administration"
+              "usage": "preuve locale : rail"
             },
             {
               "source_id": "src-13-sk-ports-histoire",
               "locator": "1919 : activité portuaire à Bratislava ; 1920–1923 : développement conjoint des ports de Bratislava et Komárno ; équipements de Bratislava en 1928.",
-              "usage": "preuve locale : rail, port_fluvial, capitale, administration (lecture partielle)"
+              "usage": "preuve locale : port_fluvial (lecture partielle)"
             },
             {
               "source_id": "src-13-sk-bratislava-chronologie",
               "locator": "Page PDF 4 : capitale à partir du 14 mars 1939 ; usage de Bratislava depuis 1919 ; Grande Bratislava en 1946.",
-              "usage": "preuve locale : rail, port_fluvial, capitale, administration (non vérifiée par Claude)"
+              "usage": "preuve locale : capitale, administration (non vérifiée par Claude)"
             }
           ]
         }
@@ -1149,7 +1151,7 @@
             "roles": [
               "rail"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.3) : Articulation des corridors méridional et septentrional."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.3) : Articulation des corridors méridional et septentrional. Ne pas ajouter le complexe sidérurgique d’après-guerre. Le nom d’affichage slovaque ne prétend pas être la forme administrative officielle de 1944."
           },
           "geometrie": {
             "type": "Point",
@@ -1205,7 +1207,7 @@
             "roles": [
               "rail"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.3) : Intersection ferroviaire majeure du nord-ouest."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.3) : Intersection ferroviaire majeure du nord-ouest. Présence historique du nœud établie ; service exact à minuit inconnu."
           },
           "geometrie": {
             "type": "Point",
@@ -1257,7 +1259,7 @@
             "roles": [
               "rail"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.3) : Nœud de correspondance de deux corridors."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.3) : Nœud de correspondance de deux corridors. Pas de rôle industriel ajouté aux ateliers sans justification distincte."
           },
           "geometrie": {
             "type": "Point",
@@ -1313,7 +1315,7 @@
             "roles": [
               "rail"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.3) : Nœud et ateliers ferroviaires du centre slovaque."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.3) : Nœud et ateliers ferroviaires du centre slovaque. Les ateliers restent compris dans rail."
           },
           "geometrie": {
             "type": "Point",
@@ -1364,7 +1366,7 @@
             "roles": [
               "rail"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.3) : Nœud régional."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.3) : Nœud régional. Le rôle de centre de l’insurrection de 1944 ne doit pas être prolongé automatiquement au 31 décembre."
           },
           "geometrie": {
             "type": "Point",
@@ -1414,7 +1416,7 @@
             "roles": [
               "rail"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.3) : Nœud régional du nord-est."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.3) : Nœud régional du nord-est. Ne pas dater tout le corridor international de la seule ouverture de sa première section."
           },
           "geometrie": {
             "type": "Point",
@@ -1466,7 +1468,7 @@
             "roles": [
               "rail"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.3) : Nœud régional sur le corridor est–ouest. Veľká et Spišská Sobota ne sont rattachées qu'au 01/01/1946 ; Svit n'en fait pas partie."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.3) : Nœud régional sur le corridor est–ouest. Poprad, Veľká et Spišská Sobota ne sont pas encore la commune agrandie : effet juridique de la fusion au 1er janvier 1946."
           },
           "geometrie": {
             "type": "Point",
@@ -1489,7 +1491,7 @@
             {
               "source_id": "src-13-sk-poprad-fusion",
               "locator": "Page PDF 24 : fusion approuvée en septembre 1945, effets juridiques au 1er janvier 1946.",
-              "usage": "preuve locale : rail"
+              "usage": "contexte (situation, nom ou périmètre)"
             }
           ]
         }
@@ -1518,7 +1520,7 @@
             "roles": [
               "rail"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.3) : Nœud régional d’accès transfrontalier."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.3) : Nœud régional d’accès transfrontalier. Présence de la liaison, sans inventer un poste-frontière ou un régime douanier de 1945."
           },
           "geometrie": {
             "type": "Point",
@@ -1569,7 +1571,7 @@
             "roles": [
               "rail"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.3) : Point ferroviaire régional."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.3) : Point ferroviaire régional. Ne pas présenter la traction hippomobile comme encore active en 1945."
           },
           "geometrie": {
             "type": "Point",
@@ -1616,7 +1618,7 @@
             "roles": [
               "rail"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.3) : Connexion régionale au réseau reliant la vallée du Váh au sud."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.3) : Connexion régionale au réseau reliant la vallée du Váh au sud. Classement C prudent avec cette preuve ; B demanderait un dossier plus précis sur la fonction du triage et les branches."
           },
           "geometrie": {
             "type": "Point",
@@ -1666,7 +1668,7 @@
             "roles": [
               "rail"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.3) : Nœud ferroviaire structurant du sud. Attaque du 14/10/1944 incluse ; celle du 14/03/1945 est postérieure. À renforcer : rail."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.3) : Nœud ferroviaire structurant du sud. Bombardement du 14 octobre 1944 inclus ; attaque du 14 mars 1945 exclue. Pas de cumul anticipé des dégâts. À renforcer : rail."
           },
           "geometrie": {
             "type": "Point",
@@ -1717,7 +1719,7 @@
               "rail",
               "port_fluvial"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.3) : Ensemble urbain danubien réunissant port et rail. Les deux rives forment une seule ville en 1939–1945 : une seule entité (date de séparation à préciser). À renforcer : rail, port_fluvial."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.3) : Ensemble urbain danubien réunissant port et rail. Les deux rives sont réunies sous Komárom en 1939–1945 : une seule proposition d’entité, sans doublon hongrois. Szőny, rattachée en 1977, reste hors périmètre. Position : rive nord (Komárno) ; l'entité couvre les deux rives. À renforcer : rail, port_fluvial."
           },
           "geometrie": {
             "type": "Point",
@@ -1735,17 +1737,17 @@
             {
               "source_id": "src-13-sk-nove-zamky-rail",
               "locator": "Pages PDF 21–22 : ligne historique Komárno–Nové Zámky et nœud ; attaque du 14 octobre 1944 ; attaque supplémentaire du 14 mars 1945.",
-              "usage": "preuve locale : rail, port_fluvial (non vérifiée par Claude)"
+              "usage": "preuve locale : rail (non vérifiée par Claude)"
             },
             {
               "source_id": "src-13-sk-ports-histoire",
               "locator": "1919 : activité portuaire à Bratislava ; 1920–1923 : développement conjoint des ports de Bratislava et Komárno ; équipements de Bratislava en 1928.",
-              "usage": "preuve locale : rail, port_fluvial (lecture partielle)"
+              "usage": "preuve locale : port_fluvial (lecture partielle)"
             },
             {
               "source_id": "src-13-hu-komarom-unification",
               "locator": "Deux rives réunies sous Komárom en 1939–1945 ; Szőny rattachée en 1977.",
-              "usage": "preuve locale : rail, port_fluvial (non vérifiée par Claude)"
+              "usage": "contexte (situation, nom ou périmètre) (non vérifiée par Claude)"
             }
           ]
         }
@@ -1778,7 +1780,7 @@
             "roles": [
               "rail"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.3) : Point régional sur un corridor danubien transfrontalier. Nom en 1945 : Párkány / Parkan ; Štúrovo à partir du 26/06/1948."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.3) : Point régional sur un corridor danubien transfrontalier. Štúrovo date du 26 juin 1948. Párkány est déjà prise le 26 décembre 1944. Le rail est attesté, mais la parcelle de la gare Párkány–Nána doit être contrôlée."
           },
           "geometrie": {
             "type": "Point",
@@ -1801,12 +1803,12 @@
             {
               "source_id": "src-13-hu-htk-encerclement",
               "locator": "Offensive du 20 décembre ; prise d'Esztergom et de Párkány et fermeture de l'encerclement le 26 décembre 1944.",
-              "usage": "preuve locale : rail"
+              "usage": "contexte (situation, nom ou périmètre)"
             },
             {
               "source_id": "src-13-sk-sturovo-nom",
               "locator": "Historique : changement de nom le 26 juin 1948, de Parkan à Štúrovo ; formes historiques Párkány/Parkan.",
-              "usage": "preuve locale : rail (lecture partielle)"
+              "usage": "contexte (situation, nom ou périmètre) (lecture partielle)"
             }
           ]
         }
@@ -1839,7 +1841,7 @@
             "roles": [
               "rail"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.3) : Point ferroviaire régional sur la vallée du Váh."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.3) : Point ferroviaire régional sur la vallée du Váh. La première gare et l’ancrage de Zlatovce demandent contrôle géographique local."
           },
           "geometrie": {
             "type": "Point",
@@ -1886,7 +1888,7 @@
             "roles": [
               "industrie"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.3) : Pôle industriel de guerre. À renforcer : industrie."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.3) : Pôle industriel de guerre. L’armement justifie industrie ; base militaire et rail ne sont pas ajoutés. Notice de conférence lue, ouvrage annoncé non lu. À renforcer : industrie."
           },
           "geometrie": {
             "type": "Point",
@@ -1936,7 +1938,7 @@
               "port_fluvial",
               "capitale"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.3) : Capitale et grande métropole danubienne. Encerclée depuis le 26/12/1944 ; reste capitale nationale (le siège provisoire de Debrecen ne la remplace pas automatiquement)."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.3) : Capitale et grande métropole danubienne. Encerclement fermé le 26 décembre 1944. Ne pas présenter toutes les infrastructures comme encore disponibles ni anticiper toutes les destructions de ponts de janvier. Le port est celui du système budapestois ; sa limite cadastrale doit être contrôlée."
           },
           "geometrie": {
             "type": "Point",
@@ -1954,17 +1956,17 @@
             {
               "source_id": "src-13-hu-szeged-rail",
               "locator": "1847 : Pest–Cegléd–Szolnok ; 1854 : arrivée à Szeged ; pont détruit en 1944, franchissement ferroviaire provisoire rétabli le 12 novembre 1944.",
-              "usage": "preuve locale : rail, port_fluvial, capitale"
+              "usage": "preuve locale : rail"
             },
             {
               "source_id": "src-13-hu-budapest-port",
               "locator": "20 octobre 1928 : ouverture du port douanier de Budapest sur l'île de Csepel ; développement jusqu'en 1941.",
-              "usage": "preuve locale : rail, port_fluvial, capitale"
+              "usage": "preuve locale : port_fluvial, capitale"
             },
             {
               "source_id": "src-13-hu-htk-encerclement",
               "locator": "Offensive du 20 décembre ; prise d'Esztergom et de Párkány et fermeture de l'encerclement le 26 décembre 1944.",
-              "usage": "preuve locale : rail, port_fluvial, capitale"
+              "usage": "contexte (situation, nom ou périmètre)"
             }
           ]
         }
@@ -1994,7 +1996,7 @@
               "rail",
               "administration"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.3) : Nœud ferroviaire et siège administratif provisoire déjà pertinent fin 1944. Assemblée nationale provisoire réunie le 21/12/1944, gouvernement provisoire le 22/12 : siège administratif provisoire. Gare bombardée en 1944."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.3) : Nœud ferroviaire et siège administratif provisoire déjà pertinent fin 1944. Rester B : un siège provisoire ne remplace pas automatiquement Budapest en capitale nationale. Gare historique endommagée ; gare reconstruite exclue."
           },
           "geometrie": {
             "type": "Point",
@@ -2012,12 +2014,12 @@
             {
               "source_id": "src-13-hu-debrecen-rail",
               "locator": "Gare ouverte en 1857 ; bâtiment de 1900–1902 bombardé en 1944.",
-              "usage": "preuve locale : rail, administration"
+              "usage": "preuve locale : rail"
             },
             {
               "source_id": "src-13-hu-debrecen-administration",
               "locator": "21 décembre 1944 : Assemblée nationale provisoire à Debrecen ; gouvernement nommé le lendemain.",
-              "usage": "preuve locale : rail, administration"
+              "usage": "preuve locale : administration"
             }
           ]
         }
@@ -2046,7 +2048,7 @@
             "roles": [
               "rail"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.3) : Nœud ferroviaire du nord-est. Fusion avec Diósgyőr datée du 01/01/1945 : au Snapshot 0 (dernier état avant 0 h), deux points distincts ; fusion à appliquer au ratissage du temps. À renforcer : rail."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.3) : Nœud ferroviaire du nord-est. Au dernier état avant minuit, ne pas absorber Diósgyőr ; la fusion datée du 1er janvier 1945 relève du ratissage temporel suivant. Date de la fusion avec Diósgyőr (01/01/1945) non confirmée par la relecture de Claude. À renforcer : rail."
           },
           "geometrie": {
             "type": "Point",
@@ -2069,7 +2071,7 @@
             {
               "source_id": "src-13-hu-miskolc-fusion",
               "locator": "Page PDF 102 : décision donnant effet à Grand Miskolc le 1er janvier 1945 ; Diósgyőr et Hejőcsaba absorbées.",
-              "usage": "preuve locale : rail (lecture partielle)"
+              "usage": "contexte (situation, nom ou périmètre) (lecture partielle)"
             }
           ]
         }
@@ -2098,7 +2100,7 @@
             "roles": [
               "industrie"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.3) : Pôle industriel majeur à représenter avant la fusion. Distincte de Miskolc au Snapshot 0 ; fusion datée du 01/01/1945, à appliquer au ratissage du temps."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.3) : Pôle industriel majeur à représenter avant la fusion. Distincte de Miskolc dans le Snapshot défini AVANT 00:00. Fusion datée du 1er janvier 1945 à traiter ensuite. Résumé de l’article lu ; intégral non lu."
           },
           "geometrie": {
             "type": "Point",
@@ -2121,12 +2123,12 @@
             {
               "source_id": "src-13-hu-miskolc-histoire",
               "locator": "9 janvier 1870 : Hatvan–Miskolc ; Diósgyőr et Hejőcsaba rattachées en 1945.",
-              "usage": "preuve locale : industrie (non vérifiée par Claude)"
+              "usage": "contexte (situation, nom ou périmètre) (non vérifiée par Claude)"
             },
             {
               "source_id": "src-13-hu-miskolc-fusion",
               "locator": "Page PDF 102 : décision donnant effet à Grand Miskolc le 1er janvier 1945 ; Diósgyőr et Hejőcsaba absorbées.",
-              "usage": "preuve locale : industrie (lecture partielle)"
+              "usage": "contexte (situation, nom ou périmètre) (lecture partielle)"
             }
           ]
         }
@@ -2159,7 +2161,7 @@
               "rail",
               "industrie"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.3) : Pôle industriel mécanique et carrefour de circulation."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.3) : Pôle industriel mécanique et carrefour de circulation. Aucune usine Audi récente ni capacité contemporaine projetée en 1945."
           },
           "geometrie": {
             "type": "Point",
@@ -2177,12 +2179,12 @@
             {
               "source_id": "src-13-hu-gysev-histoire",
               "locator": "1876 : Győr–Sopron ; 1879 : réseau prolongé à Ebenfurth ; finalité historique d'exportation céréalière.",
-              "usage": "preuve locale : rail, industrie"
+              "usage": "preuve locale : rail"
             },
             {
               "source_id": "src-13-hu-gyor-raba",
               "locator": "Section History : entreprise fondée à Győr le 28 décembre 1896.",
-              "usage": "preuve locale : rail, industrie"
+              "usage": "preuve locale : industrie"
             }
           ]
         }
@@ -2211,7 +2213,7 @@
             "roles": [
               "rail"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.3) : Nœud ferroviaire de la plaine hongroise."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.3) : Nœud ferroviaire de la plaine hongroise. Ne pas déduire un port actif de la seule présence de la Tisza."
           },
           "geometrie": {
             "type": "Point",
@@ -2263,7 +2265,7 @@
             "roles": [
               "rail"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.3) : Nœud ferroviaire méridional et franchissement structurant. Pont détruit en 1944 ; franchissement ferroviaire provisoire rétabli le 12/11/1944 (capacité inconnue)."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.3) : Nœud ferroviaire méridional et franchissement structurant. Rupture puis rétablissement provisoire avant le Snapshot ; capacité et trafic exacts du franchissement inconnus. Aucun pont permanent d’après-guerre anticipé."
           },
           "geometrie": {
             "type": "Point",
@@ -2313,7 +2315,7 @@
             "roles": [
               "rail"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.3) : Terminus régional structurant du sud-ouest."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.3) : Terminus régional structurant du sud-ouest. Le rôle charbonnier n’est pas ajouté sans preuve locale supplémentaire."
           },
           "geometrie": {
             "type": "Point",
@@ -2363,7 +2365,7 @@
             "roles": [
               "rail"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.3) : Grand carrefour ferroviaire de Transdanubie."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.3) : Grand carrefour ferroviaire de Transdanubie. Pas de rôle aviation ou de base intacte déduit d’une industrie aéronautique."
           },
           "geometrie": {
             "type": "Point",
@@ -2413,7 +2415,7 @@
             "roles": [
               "rail"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.3) : Carrefour ferroviaire entre plusieurs réseaux occidentaux."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.3) : Carrefour ferroviaire entre plusieurs réseaux occidentaux. La localisation frontalière ne suffit pas à créer un poste-frontière actif."
           },
           "geometrie": {
             "type": "Point",
@@ -2465,7 +2467,7 @@
             "roles": [
               "rail"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.3) : Nœud régional sur le corridor occidental."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.3) : Nœud régional sur le corridor occidental. C avec les preuves recueillies ; une promotion B doit documenter les autres branches et la fonction de triage."
           },
           "geometrie": {
             "type": "Point",
@@ -2512,7 +2514,7 @@
             "roles": [
               "rail"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.3) : Nœud ferroviaire oriental."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.3) : Nœud ferroviaire oriental. Aucune destruction non datée fin 1944 n’est inventée."
           },
           "geometrie": {
             "type": "Point",
@@ -2559,7 +2561,7 @@
             "roles": [
               "rail"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.3) : Point régional du corridor sud-ouest."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.3) : Point régional du corridor sud-ouest. Ne pas ajouter un rôle industriel faute d’établissement historiquement documenté ici."
           },
           "geometrie": {
             "type": "Point",
@@ -2609,7 +2611,7 @@
             "roles": [
               "rail"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.3) : Nœud ferroviaire majeur indépendant de la taille de la commune. Gare et cité ferroviaire d'Újdombóvár, distinctes de Dombóvár jusqu'à la fusion de 1946."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.3) : Nœud ferroviaire majeur indépendant de la taille de la commune. Újdombóvár et Dombóvár sont réunies en 1946 seulement. Le nom actuel Dombóvár sert à la recherche, sans assimiler les deux communes en 1945."
           },
           "geometrie": {
             "type": "Point",
@@ -2659,7 +2661,7 @@
             "roles": [
               "rail"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.3) : Point régional sur le corridor nord de Budapest."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.3) : Point régional sur le corridor nord de Budapest. Le Danube n’est pas une preuve de port exploité au Snapshot."
           },
           "geometrie": {
             "type": "Point",
@@ -2706,7 +2708,7 @@
             "roles": [
               "industrie"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.3) : Grand pôle sidérurgique. À renforcer : industrie."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.3) : Grand pôle sidérurgique. La catégorie ville de l’Atlas représente un point urbain fonctionnel : le rang municipal formel acquis en 1949 ne fait pas disparaître le centre industriel de 1944. À renforcer : industrie."
           },
           "geometrie": {
             "type": "Point",
@@ -2753,7 +2755,7 @@
             "roles": [
               "industrie"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.3) : Pôle industriel majeur proposé sous réserve d’une preuve d’archives plus forte. Commune distincte de Budapest jusqu'en 1950 ; le port franc de Budapest (1928, sur l'île) relève du système budapestois, pas automatiquement de Csepel. Point retenu provisoirement (source C). À renforcer : industrie."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.3) : Pôle industriel majeur proposé sous réserve d’une preuve d’archives plus forte. Commune distincte jusqu’en 1950 selon la notice locale. Industrie retenue provisoirement au niveau C ; état exact des dégâts et évacuations de 1944 à renforcer. Aucun rôle de port attribué automatiquement à la commune. À renforcer : industrie."
           },
           "geometrie": {
             "type": "Point",
@@ -2776,7 +2778,7 @@
             {
               "source_id": "src-13-hu-csepel-commune",
               "locator": "Csepel rattachée à Budapest en 1950.",
-              "usage": "preuve locale : industrie"
+              "usage": "contexte (situation, nom ou périmètre)"
             }
           ]
         }
@@ -2808,7 +2810,7 @@
             "roles": [
               "rail"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.3) : Point ferroviaire régional sur le corridor Sopron–Nagykanizsa."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.3) : Point ferroviaire régional sur le corridor Sopron–Nagykanizsa. Desserte du corridor occidental attestée depuis 1865. C avec les preuves recueillies ; l’importance d’un triage ou de branches supplémentaires reste à documenter."
           },
           "geometrie": {
             "type": "Point",

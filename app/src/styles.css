@@ -229,3 +229,7 @@ dd { margin: 0; overflow-wrap: anywhere; }
 .zoom-moyen .ville-nom:not([data-importance="A"]),
 .zoom-regional .ville-nom[data-importance="C"], .zoom-regional .ville-nom[data-importance="D"],
 .zoom-local .ville-nom[data-importance="D"] { display: none; }
+/* Noms de villes qui se gêneraient : passés à gauche du point, ou cachés (le point reste) — voir map/etiquettes.ts */
+.ville-nom[data-cache="1"] { display: none; }
+.ville-nom span { display: inline-block; }
+.ville-nom[data-cote="gauche"] span { transform: translateX(calc(-100% - 14px)); }

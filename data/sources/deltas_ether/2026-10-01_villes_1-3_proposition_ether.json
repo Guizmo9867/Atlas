@@ -1,0 +1,2614 @@
+{
+  "metadata_lot": {
+    "nom": "villes_1-3_tchequie_slovaquie_hongrie",
+    "date_reference": "1945-01-01",
+    "heure_reference": "00:00",
+    "convention_snapshot": "Dernière situation connue AVANT 1945-01-01 00:00.",
+    "date_creation": "2026-10-01",
+    "statut": "proposition_a_valider_et_normaliser_par_claude",
+    "perimetre": [
+      "Tchéquie actuelle",
+      "Slovaquie actuelle",
+      "Hongrie actuelle"
+    ],
+    "nombre_villes": 53,
+    "nombre_sources": 53,
+    "importance": {
+      "A": 3,
+      "B": 35,
+      "C": 15
+    },
+    "note_perimetre": "Lot géographique et fonctionnel, sans quota national. L’ensemble des deux rives de Komárom est compté une seule fois.",
+    "limites": [
+      "Dépôt GitHub non consulté : identifiants proposés à rapprocher des identifiants existants avant import.",
+      "Aucune coordonnée fournie ; géométries historiques à contrôler avant affichage, particulièrement Most, Bohumín, Párkány–Nána, Komárom et Csepel.",
+      "Présence d’un nœud avant 1945 ne démontre pas un service normal au Snapshot ; trafic, capacité et état opérationnel complet non établis.",
+      "Rang A/B/C = décision éditoriale Atlas, indépendante du niveau A/B/C d’une source.",
+      "Prague : statut capitale non arbitré, champ omis. Csepel : rôle industriel provisoire au niveau C.",
+      "Sélection non exhaustive : les candidats différés signalent les preuves encore manquantes."
+    ],
+    "instructions_schema": "Compatible avec la structure des propositions villes 1.2, pas un import brut du gabarit générique d’entité physique. La section audit est documentaire ; les propositions de changements futurs ne sont pas des événements prêts à importer."
+  },
+  "villes": [
+    {
+      "entite_id": "ville-cz-prague",
+      "type_entite": "ville",
+      "nom": "Prague",
+      "nom_local": "Praha",
+      "aliases": [
+        "Praha"
+      ],
+      "zone_geographique": "Tchéquie",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "A",
+        "roles": [
+          "rail",
+          "administration"
+        ],
+        "note": "Le gouvernement tchécoslovaque en exil est en Angleterre. Le statut de capitale dans l’Atlas reste à arbitrer ; aucun statut national ou régional n’est imposé dans l’état proposé.",
+        "sources": [
+          "src-13-cz-perner-rail",
+          "src-13-cz-prague-protectorat",
+          "src-13-cz-exil-contexte"
+        ],
+        "source_role_a_renforcer": false
+      },
+      "audit": {
+        "decision": "retenir",
+        "justification_importance": "Métropole et centre administratif à conserver à l’échelle continentale ; rang A indépendant de la convention de capitale.",
+        "preuves_roles": {
+          "rail": {
+            "sources": [
+              "src-13-cz-perner-rail"
+            ],
+            "justification": "Arrivée du chemin de fer Olomouc–Prague en 1845.",
+            "nature": "attestation_historique"
+          },
+          "administration": {
+            "sources": [
+              "src-13-cz-prague-protectorat"
+            ],
+            "justification": "Institutions du Protectorat installées à Prague à partir de 1939.",
+            "nature": "attestation_historique"
+          }
+        },
+        "geometrie": {
+          "statut": "a_normaliser_dans_le_depot",
+          "ancrage": "Point urbain historique à fixer par Claude ; aucune coordonnée inventée."
+        },
+        "capitale_a_arbitrer": {
+          "proposition": "regionale",
+          "statut": "non_arbitre",
+          "alternative": "nationale si l’Atlas privilégie la continuité juridique tchécoslovaque",
+          "sources": [
+            "src-13-cz-prague-protectorat",
+            "src-13-cz-exil-contexte"
+          ],
+          "effet": "Conserver A dans les deux cas ; ajouter le champ capitale après arbitrage."
+        }
+      }
+    },
+    {
+      "entite_id": "ville-cz-brno",
+      "type_entite": "ville",
+      "nom": "Brno",
+      "nom_local": "Brno",
+      "aliases": [],
+      "zone_geographique": "Tchéquie",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "rail"
+        ],
+        "note": "Le rôle industriel n’est pas ajouté sans preuve locale distincte.",
+        "sources": [
+          "src-13-cz-brno-rail"
+        ],
+        "source_role_a_renforcer": false
+      },
+      "audit": {
+        "decision": "retenir",
+        "justification_importance": "Grand nœud ferroviaire morave.",
+        "preuves_roles": {
+          "rail": {
+            "sources": [
+              "src-13-cz-brno-rail"
+            ],
+            "justification": "Gare de 1839 et réorganisation étudiée en 1934–1935.",
+            "nature": "attestation_historique"
+          }
+        },
+        "geometrie": {
+          "statut": "a_normaliser_dans_le_depot",
+          "ancrage": "Point urbain historique à fixer par Claude ; aucune coordonnée inventée."
+        }
+      }
+    },
+    {
+      "entite_id": "ville-cz-plzen",
+      "type_entite": "ville",
+      "nom": "Pilsen",
+      "nom_local": "Plzeň",
+      "aliases": [
+        "Plzeň"
+      ],
+      "zone_geographique": "Tchéquie",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "rail",
+          "industrie"
+        ],
+        "note": "Ne pas anticiper le bombardement majeur d’avril 1945 ; fabrication d’armement ne crée pas un rôle de base militaire.",
+        "sources": [
+          "src-13-cz-budejovice-rail",
+          "src-13-cz-skoda-plzen"
+        ],
+        "source_role_a_renforcer": false
+      },
+      "audit": {
+        "decision": "retenir",
+        "justification_importance": "Pôle industriel et ferroviaire majeur.",
+        "preuves_roles": {
+          "rail": {
+            "sources": [
+              "src-13-cz-budejovice-rail"
+            ],
+            "justification": "Liaison avec České Budějovice ouverte en 1868.",
+            "nature": "attestation_historique"
+          },
+          "industrie": {
+            "sources": [
+              "src-13-cz-skoda-plzen"
+            ],
+            "justification": "Implantation Škoda à Pilsen depuis 1859.",
+            "nature": "attestation_historique"
+          }
+        },
+        "geometrie": {
+          "statut": "a_normaliser_dans_le_depot",
+          "ancrage": "Point urbain historique à fixer par Claude ; aucune coordonnée inventée."
+        }
+      }
+    },
+    {
+      "entite_id": "ville-cz-ostrava",
+      "type_entite": "ville",
+      "nom": "Moravská Ostrava",
+      "nom_local": "Moravská Ostrava",
+      "aliases": [
+        "Ostrava"
+      ],
+      "zone_geographique": "Tchéquie",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "rail",
+          "industrie"
+        ],
+        "note": "Nom Moravská Ostrava jusqu’au 28 juin 1946. Dommages du 29 août 1944 déjà acquis ; ni débit industriel ni trafic normal supposés. Svinov reste hors du périmètre municipal de 1945.",
+        "sources": [
+          "src-13-cz-ostrava-histoire",
+          "src-13-cz-ostrava-nom",
+          "src-13-cz-ostrava-degats"
+        ],
+        "source_role_a_renforcer": false
+      },
+      "audit": {
+        "decision": "retenir",
+        "justification_importance": "Grand pôle sidérurgique et ferroviaire.",
+        "preuves_roles": {
+          "rail": {
+            "sources": [
+              "src-13-cz-ostrava-histoire"
+            ],
+            "justification": "Desserte ferroviaire historique par Přívoz dès 1847.",
+            "nature": "attestation_historique"
+          },
+          "industrie": {
+            "sources": [
+              "src-13-cz-ostrava-histoire"
+            ],
+            "justification": "Sidérurgie de Vítkovice depuis 1828.",
+            "nature": "attestation_historique"
+          }
+        },
+        "geometrie": {
+          "statut": "a_normaliser_dans_le_depot",
+          "ancrage": "Ancrer l’ensemble municipal historique comprenant Přívoz et Vítkovice ; ne pas le centrer sur la gare de Svinov annexée seulement en 1957."
+        }
+      },
+      "nom_actuel_pour_recherche": "Ostrava"
+    },
+    {
+      "entite_id": "ville-cz-usti-nad-labem",
+      "type_entite": "ville",
+      "nom": "Ústí nad Labem",
+      "nom_local": "Ústí nad Labem",
+      "aliases": [],
+      "zone_geographique": "Tchéquie",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "rail",
+          "port_fluvial",
+          "industrie"
+        ],
+        "note": "Le port est historiquement attesté ; aucun volume contemporain n’est transposé en 1945.",
+        "sources": [
+          "src-13-cz-usti-histoire"
+        ],
+        "source_role_a_renforcer": false
+      },
+      "audit": {
+        "decision": "retenir",
+        "justification_importance": "Articulation rail–port–industrie sur l’Elbe.",
+        "preuves_roles": {
+          "rail": {
+            "sources": [
+              "src-13-cz-usti-histoire"
+            ],
+            "justification": "Axe Prague–Dresde depuis 1851.",
+            "nature": "attestation_historique"
+          },
+          "port_fluvial": {
+            "sources": [
+              "src-13-cz-usti-histoire"
+            ],
+            "justification": "Port développé avant 1901.",
+            "nature": "attestation_historique"
+          },
+          "industrie": {
+            "sources": [
+              "src-13-cz-usti-histoire"
+            ],
+            "justification": "Industrie chimique depuis 1856.",
+            "nature": "attestation_historique"
+          }
+        },
+        "geometrie": {
+          "statut": "a_normaliser_dans_le_depot",
+          "ancrage": "Point urbain historique à fixer par Claude ; aucune coordonnée inventée."
+        }
+      }
+    },
+    {
+      "entite_id": "ville-cz-pardubice",
+      "type_entite": "ville",
+      "nom": "Pardubice",
+      "nom_local": "Pardubice",
+      "aliases": [],
+      "zone_geographique": "Tchéquie",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "rail"
+        ],
+        "note": "Le rôle industriel de Semtín n’est pas automatiquement transféré à une commune de 1945 sans vérification des limites.",
+        "sources": [
+          "src-13-cz-perner-rail",
+          "src-13-cz-liberec-gare"
+        ],
+        "source_role_a_renforcer": false
+      },
+      "audit": {
+        "decision": "retenir",
+        "justification_importance": "Intersection de corridors historiques structurants.",
+        "preuves_roles": {
+          "rail": {
+            "sources": [
+              "src-13-cz-perner-rail",
+              "src-13-cz-liberec-gare"
+            ],
+            "justification": "Axe de 1845 et liaison vers Liberec ouverte en 1859.",
+            "nature": "attestation_historique"
+          }
+        },
+        "geometrie": {
+          "statut": "a_normaliser_dans_le_depot",
+          "ancrage": "Point urbain historique à fixer par Claude ; aucune coordonnée inventée."
+        }
+      }
+    },
+    {
+      "entite_id": "ville-cz-olomouc",
+      "type_entite": "ville",
+      "nom": "Olomouc",
+      "nom_local": "Olomouc",
+      "aliases": [],
+      "zone_geographique": "Tchéquie",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "rail"
+        ],
+        "note": "Présence ferroviaire documentée ; capacité au 31 décembre 1944 non chiffrée.",
+        "sources": [
+          "src-13-cz-perner-rail",
+          "src-13-cz-prerov-rail"
+        ],
+        "source_role_a_renforcer": false
+      },
+      "audit": {
+        "decision": "retenir",
+        "justification_importance": "Articulation des réseaux de Moravie et de Bohême.",
+        "preuves_roles": {
+          "rail": {
+            "sources": [
+              "src-13-cz-perner-rail",
+              "src-13-cz-prerov-rail"
+            ],
+            "justification": "Branche de Přerov en 1841 et axe vers Prague en 1845.",
+            "nature": "attestation_historique"
+          }
+        },
+        "geometrie": {
+          "statut": "a_normaliser_dans_le_depot",
+          "ancrage": "Point urbain historique à fixer par Claude ; aucune coordonnée inventée."
+        }
+      }
+    },
+    {
+      "entite_id": "ville-cz-prerov",
+      "type_entite": "ville",
+      "nom": "Přerov",
+      "nom_local": "Přerov",
+      "aliases": [],
+      "zone_geographique": "Tchéquie",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "rail"
+        ],
+        "note": "La source distingue train d’essai et inauguration ; seule l’existence antérieure à 1945 est utilisée.",
+        "sources": [
+          "src-13-cz-prerov-rail"
+        ],
+        "source_role_a_renforcer": false
+      },
+      "audit": {
+        "decision": "retenir",
+        "justification_importance": "Nœud ferroviaire structurant malgré une taille urbaine plus faible.",
+        "preuves_roles": {
+          "rail": {
+            "sources": [
+              "src-13-cz-prerov-rail"
+            ],
+            "justification": "Nœud ferroviaire constitué à partir de 1841.",
+            "nature": "attestation_historique"
+          }
+        },
+        "geometrie": {
+          "statut": "a_normaliser_dans_le_depot",
+          "ancrage": "Point urbain historique à fixer par Claude ; aucune coordonnée inventée."
+        }
+      }
+    },
+    {
+      "entite_id": "ville-cz-breclav",
+      "type_entite": "ville",
+      "nom": "Břeclav",
+      "nom_local": "Břeclav",
+      "aliases": [],
+      "zone_geographique": "Tchéquie",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "rail"
+        ],
+        "note": "La douane dans la source ne suffit pas à qualifier un poste-frontière actif au Snapshot.",
+        "sources": [
+          "src-13-cz-breclav-rail"
+        ],
+        "source_role_a_renforcer": false
+      },
+      "audit": {
+        "decision": "retenir",
+        "justification_importance": "Convergence de corridors transfrontaliers historiques.",
+        "preuves_roles": {
+          "rail": {
+            "sources": [
+              "src-13-cz-breclav-rail"
+            ],
+            "justification": "Vienne en 1839, Přerov en 1841 et Bratislava en 1909 ; nœud d’entre-deux-guerres.",
+            "nature": "attestation_historique"
+          }
+        },
+        "geometrie": {
+          "statut": "a_normaliser_dans_le_depot",
+          "ancrage": "Point urbain historique à fixer par Claude ; aucune coordonnée inventée."
+        }
+      }
+    },
+    {
+      "entite_id": "ville-cz-decin",
+      "type_entite": "ville",
+      "nom": "Děčín–Podmokly",
+      "nom_local": "Děčín–Podmokly",
+      "aliases": [
+        "Děčín",
+        "Děčín-Podmokly",
+        "Bodenbach-Tetschen"
+      ],
+      "zone_geographique": "Tchéquie",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "rail",
+          "port_fluvial",
+          "industrie"
+        ],
+        "note": "Fusion Děčín–Podmokly–Staré Město le 1er octobre 1942. Libellé descriptif historique ; la forme officielle allemande reste à normaliser. Le port de Loubí d’après-guerre est exclu.",
+        "sources": [
+          "src-13-cz-decin-histoire",
+          "src-13-cz-decin-cd"
+        ],
+        "source_role_a_renforcer": false
+      },
+      "audit": {
+        "decision": "retenir",
+        "justification_importance": "Nœud de l’Elbe associant rail, port et industrie.",
+        "preuves_roles": {
+          "rail": {
+            "sources": [
+              "src-13-cz-decin-histoire",
+              "src-13-cz-decin-cd"
+            ],
+            "justification": "Axe Prague–Dresde dès 1851.",
+            "nature": "attestation_historique"
+          },
+          "port_fluvial": {
+            "sources": [
+              "src-13-cz-decin-cd"
+            ],
+            "justification": "Navigation et port Podmokly–Děčín décrits avant la guerre.",
+            "nature": "attestation_historique"
+          },
+          "industrie": {
+            "sources": [
+              "src-13-cz-decin-histoire",
+              "src-13-cz-decin-cd"
+            ],
+            "justification": "Industries mécanique, chimique et métallurgique développées avant 1945.",
+            "nature": "attestation_historique"
+          }
+        },
+        "geometrie": {
+          "statut": "a_normaliser_dans_le_depot",
+          "ancrage": "Point urbain historique à fixer par Claude ; aucune coordonnée inventée."
+        },
+        "nom_administratif_a_verifier": "L’article ČD donne Bodenbach-Tetschen ; vérifier la graphie et l’ordre dans un acte ou annuaire de 1944 avant d’en faire le nom_local officiel."
+      },
+      "nom_actuel_pour_recherche": "Děčín"
+    },
+    {
+      "entite_id": "ville-cz-cheb",
+      "type_entite": "ville",
+      "nom": "Cheb",
+      "nom_local": "Cheb",
+      "aliases": [],
+      "zone_geographique": "Tchéquie",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "rail"
+        ],
+        "note": "Les dégâts de gare du printemps 1945 ne sont pas anticipés.",
+        "sources": [
+          "src-13-cz-cheb-rail"
+        ],
+        "source_role_a_renforcer": false
+      },
+      "audit": {
+        "decision": "retenir",
+        "justification_importance": "Carrefour de plusieurs réseaux internationaux.",
+        "preuves_roles": {
+          "rail": {
+            "sources": [
+              "src-13-cz-cheb-rail"
+            ],
+            "justification": "Accès bavarois et saxon en 1865, Prague en 1870, Pilsen en 1872 ; cinq réseaux convergents.",
+            "nature": "attestation_historique"
+          }
+        },
+        "geometrie": {
+          "statut": "a_normaliser_dans_le_depot",
+          "ancrage": "Point urbain historique à fixer par Claude ; aucune coordonnée inventée."
+        }
+      }
+    },
+    {
+      "entite_id": "ville-cz-liberec",
+      "type_entite": "ville",
+      "nom": "Liberec",
+      "nom_local": "Liberec",
+      "aliases": [],
+      "zone_geographique": "Tchéquie",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "rail"
+        ],
+        "note": "Industrie différée jusqu’à une preuve historique d’établissement local ; graphie administrative de guerre à normaliser séparément.",
+        "sources": [
+          "src-13-cz-liberec-gare"
+        ],
+        "source_role_a_renforcer": false
+      },
+      "audit": {
+        "decision": "retenir",
+        "justification_importance": "Nœud ferroviaire à plusieurs branches.",
+        "preuves_roles": {
+          "rail": {
+            "sources": [
+              "src-13-cz-liberec-gare"
+            ],
+            "justification": "Branches vers Pardubice et Zittau en 1859 ; autres liaisons en 1875, 1888 et 1903.",
+            "nature": "attestation_historique"
+          }
+        },
+        "geometrie": {
+          "statut": "a_normaliser_dans_le_depot",
+          "ancrage": "Point urbain historique à fixer par Claude ; aucune coordonnée inventée."
+        }
+      }
+    },
+    {
+      "entite_id": "ville-cz-kladno",
+      "type_entite": "ville",
+      "nom": "Kladno",
+      "nom_local": "Kladno",
+      "aliases": [],
+      "zone_geographique": "Tchéquie",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "industrie"
+        ],
+        "note": "Le rail n’est pas ajouté par déduction de la seule présence d’une usine.",
+        "sources": [
+          "src-13-cz-kladno-poldi"
+        ],
+        "source_role_a_renforcer": false
+      },
+      "audit": {
+        "decision": "retenir",
+        "justification_importance": "Pôle sidérurgique majeur.",
+        "preuves_roles": {
+          "industrie": {
+            "sources": [
+              "src-13-cz-kladno-poldi"
+            ],
+            "justification": "Poldi fondée en 1889, production depuis 1890.",
+            "nature": "attestation_historique"
+          }
+        },
+        "geometrie": {
+          "statut": "a_normaliser_dans_le_depot",
+          "ancrage": "Point urbain historique à fixer par Claude ; aucune coordonnée inventée."
+        }
+      }
+    },
+    {
+      "entite_id": "ville-cz-zlin",
+      "type_entite": "ville",
+      "nom": "Zlín",
+      "nom_local": "Zlín",
+      "aliases": [
+        "Gottwaldov"
+      ],
+      "zone_geographique": "Tchéquie",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "industrie"
+        ],
+        "note": "Dommages de novembre 1944 inclus. Gottwaldov date du 1er janvier 1949 ; ni changement de nom ni nationalisation de 1945 anticipés.",
+        "sources": [
+          "src-13-cz-zlin-industrie",
+          "src-13-cz-zlin-nom"
+        ],
+        "source_role_a_renforcer": false
+      },
+      "audit": {
+        "decision": "retenir",
+        "justification_importance": "Pôle industriel structurant malgré les dégâts de guerre.",
+        "preuves_roles": {
+          "industrie": {
+            "sources": [
+              "src-13-cz-zlin-industrie"
+            ],
+            "justification": "Complexe Baťa de l’entre-deux-guerres et activité industrielle de guerre.",
+            "nature": "attestation_historique"
+          }
+        },
+        "geometrie": {
+          "statut": "a_normaliser_dans_le_depot",
+          "ancrage": "Point urbain historique à fixer par Claude ; aucune coordonnée inventée."
+        },
+        "aliases_dates": {
+          "Gottwaldov": "à partir du 1949-01-01 ; alias de recherche, jamais libellé du Snapshot"
+        }
+      }
+    },
+    {
+      "entite_id": "ville-cz-mlada-boleslav",
+      "type_entite": "ville",
+      "nom": "Mladá Boleslav",
+      "nom_local": "Mladá Boleslav",
+      "aliases": [],
+      "zone_geographique": "Tchéquie",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "industrie"
+        ],
+        "note": "La fabrication de matériel militaire ne justifie pas un rôle militaire opérationnel.",
+        "sources": [
+          "src-13-cz-skoda-plzen"
+        ],
+        "source_role_a_renforcer": false
+      },
+      "audit": {
+        "decision": "retenir",
+        "justification_importance": "Pôle de construction mécanique.",
+        "preuves_roles": {
+          "industrie": {
+            "sources": [
+              "src-13-cz-skoda-plzen"
+            ],
+            "justification": "Laurin & Klement intégrée à Škoda en 1925.",
+            "nature": "attestation_historique"
+          }
+        },
+        "geometrie": {
+          "statut": "a_normaliser_dans_le_depot",
+          "ancrage": "Point urbain historique à fixer par Claude ; aucune coordonnée inventée."
+        }
+      }
+    },
+    {
+      "entite_id": "ville-cz-ceske-budejovice",
+      "type_entite": "ville",
+      "nom": "České Budějovice",
+      "nom_local": "České Budějovice",
+      "aliases": [],
+      "zone_geographique": "Tchéquie",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "C",
+        "roles": [
+          "rail"
+        ],
+        "note": "La traction hippomobile des débuts n’est pas présentée comme mode actif en 1945.",
+        "sources": [
+          "src-13-cz-budejovice-rail"
+        ],
+        "source_role_a_renforcer": false
+      },
+      "audit": {
+        "decision": "retenir",
+        "justification_importance": "Nœud régional de Bohême du Sud.",
+        "preuves_roles": {
+          "rail": {
+            "sources": [
+              "src-13-cz-budejovice-rail"
+            ],
+            "justification": "Pilsen en 1868, Vienne en 1869–1870 et Veselí en 1874.",
+            "nature": "attestation_historique"
+          }
+        },
+        "geometrie": {
+          "statut": "a_normaliser_dans_le_depot",
+          "ancrage": "Point urbain historique à fixer par Claude ; aucune coordonnée inventée."
+        }
+      }
+    },
+    {
+      "entite_id": "ville-cz-ceska-trebova",
+      "type_entite": "ville",
+      "nom": "Česká Třebová",
+      "nom_local": "Česká Třebová",
+      "aliases": [],
+      "zone_geographique": "Tchéquie",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "rail"
+        ],
+        "note": "Aucun chiffre de vitesse ou d’emploi contemporain repris.",
+        "sources": [
+          "src-13-cz-perner-rail",
+          "src-13-cz-trebova-rail"
+        ],
+        "source_role_a_renforcer": false
+      },
+      "audit": {
+        "decision": "retenir",
+        "justification_importance": "Intersection ferroviaire majeure ; classement fondé sur les flux et non la population.",
+        "preuves_roles": {
+          "rail": {
+            "sources": [
+              "src-13-cz-perner-rail",
+              "src-13-cz-trebova-rail"
+            ],
+            "justification": "Axe Olomouc–Prague de 1845 et branche de Brno de 1849.",
+            "nature": "attestation_historique"
+          }
+        },
+        "geometrie": {
+          "statut": "a_normaliser_dans_le_depot",
+          "ancrage": "Point urbain historique à fixer par Claude ; aucune coordonnée inventée."
+        }
+      }
+    },
+    {
+      "entite_id": "ville-cz-most",
+      "type_entite": "ville",
+      "nom": "Most",
+      "nom_local": "Most",
+      "aliases": [],
+      "zone_geographique": "Tchéquie",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "C",
+        "roles": [
+          "rail",
+          "industrie"
+        ],
+        "note": "Utiliser l’implantation du vieux Most ; le centre déplacé de la ville nouvelle ne convient pas au Snapshot.",
+        "sources": [
+          "src-13-cz-most-histoire"
+        ],
+        "source_role_a_renforcer": false
+      },
+      "audit": {
+        "decision": "retenir",
+        "justification_importance": "Nœud régional charbonnier relié au rail.",
+        "preuves_roles": {
+          "rail": {
+            "sources": [
+              "src-13-cz-most-histoire"
+            ],
+            "justification": "Ligne Ústí–Chomutov via Most depuis 1870.",
+            "nature": "attestation_historique"
+          },
+          "industrie": {
+            "sources": [
+              "src-13-cz-most-histoire"
+            ],
+            "justification": "Fonction charbonnière et liaison des mines à leurs débouchés.",
+            "nature": "attestation_historique"
+          }
+        },
+        "geometrie": {
+          "statut": "a_normaliser_dans_le_depot",
+          "ancrage": "Vieux Most, avant la reconstruction et le déplacement du centre : géométrie historique à fournir, pas le point du centre-ville actuel."
+        }
+      }
+    },
+    {
+      "entite_id": "ville-cz-bohumin",
+      "type_entite": "ville",
+      "nom": "Nový Bohumín — nœud ferroviaire",
+      "nom_local": "Nový Bohumín",
+      "aliases": [
+        "Bohumín"
+      ],
+      "zone_geographique": "Tchéquie",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "rail"
+        ],
+        "note": "Le point représente la gare et son noyau urbain. Le nom Nový Bohumín est attesté depuis 1924 ; le périmètre municipal de guerre n’est pas verrouillé.",
+        "sources": [
+          "src-13-sk-zsr-kosice-bohumin",
+          "src-13-cz-bohumin-perimetre"
+        ],
+        "source_role_a_renforcer": false
+      },
+      "audit": {
+        "decision": "retenir",
+        "justification_importance": "Grand nœud à l’extrémité du corridor Košice–Bohumín.",
+        "preuves_roles": {
+          "rail": {
+            "sources": [
+              "src-13-sk-zsr-kosice-bohumin"
+            ],
+            "justification": "Première section de la Košice–Bohumín ouverte en 1869.",
+            "nature": "attestation_historique"
+          }
+        },
+        "geometrie": {
+          "statut": "a_normaliser_dans_le_depot",
+          "ancrage": "Gare historique de Nový Bohumín ; éviter une géométrie municipale actuelle non justifiée pour 1945."
+        },
+        "perimetre_a_verifier": "La notice municipale décrit la fusion de 1949 ; elle ne tranche pas un éventuel regroupement de guerre de 1943."
+      }
+    },
+    {
+      "entite_id": "ville-sk-bratislava",
+      "type_entite": "ville",
+      "nom": "Bratislava",
+      "nom_local": "Bratislava",
+      "aliases": [],
+      "zone_geographique": "Slovaquie",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "A",
+        "roles": [
+          "rail",
+          "port_fluvial",
+          "capitale",
+          "administration"
+        ],
+        "note": "Ne pas anticiper la Grande Bratislava de 1946 ni absorber les communes de cette extension.",
+        "sources": [
+          "src-13-sk-zsr-premieres-lignes",
+          "src-13-sk-zsr-steg",
+          "src-13-sk-ports-histoire",
+          "src-13-sk-bratislava-chronologie"
+        ],
+        "source_role_a_renforcer": false,
+        "capitale": "nationale"
+      },
+      "audit": {
+        "decision": "retenir",
+        "justification_importance": "Capitale et métropole combinant rail et navigation danubienne.",
+        "preuves_roles": {
+          "rail": {
+            "sources": [
+              "src-13-sk-zsr-premieres-lignes",
+              "src-13-sk-zsr-steg"
+            ],
+            "justification": "Arrivée depuis Marchegg en 1848 ; réseau et triage antérieurs à 1945.",
+            "nature": "attestation_historique"
+          },
+          "port_fluvial": {
+            "sources": [
+              "src-13-sk-ports-histoire"
+            ],
+            "justification": "Activité portuaire dès 1919, développement en 1920–1923.",
+            "nature": "attestation_historique"
+          },
+          "capitale": {
+            "sources": [
+              "src-13-sk-bratislava-chronologie"
+            ],
+            "justification": "Capitale depuis le 14 mars 1939.",
+            "nature": "attestation_historique"
+          },
+          "administration": {
+            "sources": [
+              "src-13-sk-bratislava-chronologie"
+            ],
+            "justification": "Siège de l’État slovaque, inféré du statut de capitale attesté.",
+            "nature": "inference_du_statut_de_capitale"
+          }
+        },
+        "geometrie": {
+          "statut": "a_normaliser_dans_le_depot",
+          "ancrage": "Point urbain historique à fixer par Claude ; aucune coordonnée inventée."
+        }
+      }
+    },
+    {
+      "entite_id": "ville-sk-kosice",
+      "type_entite": "ville",
+      "nom": "Košice",
+      "nom_local": "Košice",
+      "aliases": [],
+      "zone_geographique": "Slovaquie",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "rail"
+        ],
+        "note": "Ne pas ajouter le complexe sidérurgique d’après-guerre. Le nom d’affichage slovaque ne prétend pas être la forme administrative officielle de 1944.",
+        "sources": [
+          "src-13-sk-zsr-premieres-lignes",
+          "src-13-sk-zsr-kosice-bohumin"
+        ],
+        "source_role_a_renforcer": false
+      },
+      "audit": {
+        "decision": "retenir",
+        "justification_importance": "Articulation des corridors méridional et septentrional.",
+        "preuves_roles": {
+          "rail": {
+            "sources": [
+              "src-13-sk-zsr-premieres-lignes",
+              "src-13-sk-zsr-kosice-bohumin"
+            ],
+            "justification": "Desserte méridionale au début des années 1860 et corridor Košice–Bohumín ouvert en 1869–1872.",
+            "nature": "attestation_historique"
+          }
+        },
+        "geometrie": {
+          "statut": "a_normaliser_dans_le_depot",
+          "ancrage": "Point urbain historique à fixer par Claude ; aucune coordonnée inventée."
+        }
+      }
+    },
+    {
+      "entite_id": "ville-sk-zilina",
+      "type_entite": "ville",
+      "nom": "Žilina",
+      "nom_local": "Žilina",
+      "aliases": [],
+      "zone_geographique": "Slovaquie",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "rail"
+        ],
+        "note": "Présence historique du nœud établie ; service exact à minuit inconnu.",
+        "sources": [
+          "src-13-sk-zsr-steg",
+          "src-13-sk-zsr-kosice-bohumin"
+        ],
+        "source_role_a_renforcer": false
+      },
+      "audit": {
+        "decision": "retenir",
+        "justification_importance": "Intersection ferroviaire majeure du nord-ouest.",
+        "preuves_roles": {
+          "rail": {
+            "sources": [
+              "src-13-sk-zsr-steg",
+              "src-13-sk-zsr-kosice-bohumin"
+            ],
+            "justification": "Corridor vers Poprad ouvert en 1871 ; liaison vers Trenčín en 1883.",
+            "nature": "attestation_historique"
+          }
+        },
+        "geometrie": {
+          "statut": "a_normaliser_dans_le_depot",
+          "ancrage": "Point urbain historique à fixer par Claude ; aucune coordonnée inventée."
+        }
+      }
+    },
+    {
+      "entite_id": "ville-sk-vrutky",
+      "type_entite": "ville",
+      "nom": "Vrútky",
+      "nom_local": "Vrútky",
+      "aliases": [],
+      "zone_geographique": "Slovaquie",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "rail"
+        ],
+        "note": "Pas de rôle industriel ajouté aux ateliers sans justification distincte.",
+        "sources": [
+          "src-13-sk-zsr-kosice-bohumin",
+          "src-13-sk-zsr-nord"
+        ],
+        "source_role_a_renforcer": false
+      },
+      "audit": {
+        "decision": "retenir",
+        "justification_importance": "Nœud de correspondance de deux corridors.",
+        "preuves_roles": {
+          "rail": {
+            "sources": [
+              "src-13-sk-zsr-kosice-bohumin",
+              "src-13-sk-zsr-nord"
+            ],
+            "justification": "Jonction du corridor Košice–Bohumín avec Zvolen–Vrútky en 1872.",
+            "nature": "attestation_historique"
+          }
+        },
+        "geometrie": {
+          "statut": "a_normaliser_dans_le_depot",
+          "ancrage": "Point urbain historique à fixer par Claude ; aucune coordonnée inventée."
+        }
+      }
+    },
+    {
+      "entite_id": "ville-sk-zvolen",
+      "type_entite": "ville",
+      "nom": "Zvolen",
+      "nom_local": "Zvolen",
+      "aliases": [],
+      "zone_geographique": "Slovaquie",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "rail"
+        ],
+        "note": "Les ateliers restent compris dans rail.",
+        "sources": [
+          "src-13-sk-zsr-nord"
+        ],
+        "source_role_a_renforcer": false
+      },
+      "audit": {
+        "decision": "retenir",
+        "justification_importance": "Nœud et ateliers ferroviaires du centre slovaque.",
+        "preuves_roles": {
+          "rail": {
+            "sources": [
+              "src-13-sk-zsr-nord"
+            ],
+            "justification": "Arrivée en 1871 ; liaison vers Vrútky et ateliers en 1872 ; Banská Bystrica en 1873.",
+            "nature": "attestation_historique"
+          }
+        },
+        "geometrie": {
+          "statut": "a_normaliser_dans_le_depot",
+          "ancrage": "Point urbain historique à fixer par Claude ; aucune coordonnée inventée."
+        }
+      }
+    },
+    {
+      "entite_id": "ville-sk-banska-bystrica",
+      "type_entite": "ville",
+      "nom": "Banská Bystrica",
+      "nom_local": "Banská Bystrica",
+      "aliases": [],
+      "zone_geographique": "Slovaquie",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "C",
+        "roles": [
+          "rail"
+        ],
+        "note": "Le rôle de centre de l’insurrection de 1944 ne doit pas être prolongé automatiquement au 31 décembre.",
+        "sources": [
+          "src-13-sk-zsr-nord"
+        ],
+        "source_role_a_renforcer": false
+      },
+      "audit": {
+        "decision": "retenir",
+        "justification_importance": "Nœud régional.",
+        "preuves_roles": {
+          "rail": {
+            "sources": [
+              "src-13-sk-zsr-nord"
+            ],
+            "justification": "Liaison avec Zvolen ouverte le 3 septembre 1873.",
+            "nature": "attestation_historique"
+          }
+        },
+        "geometrie": {
+          "statut": "a_normaliser_dans_le_depot",
+          "ancrage": "Point urbain historique à fixer par Claude ; aucune coordonnée inventée."
+        }
+      }
+    },
+    {
+      "entite_id": "ville-sk-presov",
+      "type_entite": "ville",
+      "nom": "Prešov",
+      "nom_local": "Prešov",
+      "aliases": [],
+      "zone_geographique": "Slovaquie",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "C",
+        "roles": [
+          "rail"
+        ],
+        "note": "Ne pas dater tout le corridor international de la seule ouverture de sa première section.",
+        "sources": [
+          "src-13-sk-zsr-kosice-bohumin",
+          "src-13-sk-zsr-presov"
+        ],
+        "source_role_a_renforcer": false
+      },
+      "audit": {
+        "decision": "retenir",
+        "justification_importance": "Nœud régional du nord-est.",
+        "preuves_roles": {
+          "rail": {
+            "sources": [
+              "src-13-sk-zsr-kosice-bohumin",
+              "src-13-sk-zsr-presov"
+            ],
+            "justification": "Desserte depuis le réseau de Košice et branche Prešov–Orlov ouverte en 1873.",
+            "nature": "attestation_historique"
+          }
+        },
+        "geometrie": {
+          "statut": "a_normaliser_dans_le_depot",
+          "ancrage": "Point urbain historique à fixer par Claude ; aucune coordonnée inventée."
+        }
+      }
+    },
+    {
+      "entite_id": "ville-sk-poprad",
+      "type_entite": "ville",
+      "nom": "Poprad",
+      "nom_local": "Poprad",
+      "aliases": [],
+      "zone_geographique": "Slovaquie",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "C",
+        "roles": [
+          "rail"
+        ],
+        "note": "Poprad, Veľká et Spišská Sobota ne sont pas encore la commune agrandie : effet juridique de la fusion au 1er janvier 1946.",
+        "sources": [
+          "src-13-sk-zsr-kosice-bohumin",
+          "src-13-sk-poprad-fusion"
+        ],
+        "source_role_a_renforcer": false
+      },
+      "audit": {
+        "decision": "retenir",
+        "justification_importance": "Nœud régional sur le corridor est–ouest.",
+        "preuves_roles": {
+          "rail": {
+            "sources": [
+              "src-13-sk-zsr-kosice-bohumin"
+            ],
+            "justification": "Desserte sur Žilina–Poprad ouverte en décembre 1871.",
+            "nature": "attestation_historique"
+          }
+        },
+        "geometrie": {
+          "statut": "a_normaliser_dans_le_depot",
+          "ancrage": "Point urbain historique à fixer par Claude ; aucune coordonnée inventée."
+        }
+      }
+    },
+    {
+      "entite_id": "ville-sk-cadca",
+      "type_entite": "ville",
+      "nom": "Čadca",
+      "nom_local": "Čadca",
+      "aliases": [],
+      "zone_geographique": "Slovaquie",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "C",
+        "roles": [
+          "rail"
+        ],
+        "note": "Présence de la liaison, sans inventer un poste-frontière ou un régime douanier de 1945.",
+        "sources": [
+          "src-13-sk-zsr-steg"
+        ],
+        "source_role_a_renforcer": false
+      },
+      "audit": {
+        "decision": "retenir",
+        "justification_importance": "Nœud régional d’accès transfrontalier.",
+        "preuves_roles": {
+          "rail": {
+            "sources": [
+              "src-13-sk-zsr-steg"
+            ],
+            "justification": "Accès historique vers Zwardoň documenté dans l’histoire StEG.",
+            "nature": "attestation_historique"
+          }
+        },
+        "geometrie": {
+          "statut": "a_normaliser_dans_le_depot",
+          "ancrage": "Point urbain historique à fixer par Claude ; aucune coordonnée inventée."
+        }
+      }
+    },
+    {
+      "entite_id": "ville-sk-trnava",
+      "type_entite": "ville",
+      "nom": "Trnava",
+      "nom_local": "Trnava",
+      "aliases": [],
+      "zone_geographique": "Slovaquie",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "C",
+        "roles": [
+          "rail"
+        ],
+        "note": "Ne pas présenter la traction hippomobile comme encore active en 1945.",
+        "sources": [
+          "src-13-sk-trnava-rail"
+        ],
+        "source_role_a_renforcer": false
+      },
+      "audit": {
+        "decision": "retenir",
+        "justification_importance": "Point ferroviaire régional.",
+        "preuves_roles": {
+          "rail": {
+            "sources": [
+              "src-13-sk-trnava-rail"
+            ],
+            "justification": "Ligne ancienne convertie vers la vapeur à partir de 1872.",
+            "nature": "attestation_historique"
+          }
+        },
+        "geometrie": {
+          "statut": "a_normaliser_dans_le_depot",
+          "ancrage": "Point urbain historique à fixer par Claude ; aucune coordonnée inventée."
+        }
+      }
+    },
+    {
+      "entite_id": "ville-sk-leopoldov",
+      "type_entite": "ville",
+      "nom": "Leopoldov",
+      "nom_local": "Leopoldov",
+      "aliases": [],
+      "zone_geographique": "Slovaquie",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "C",
+        "roles": [
+          "rail"
+        ],
+        "note": "Classement C prudent avec cette preuve ; B demanderait un dossier plus précis sur la fonction du triage et les branches.",
+        "sources": [
+          "src-13-sk-zsr-steg"
+        ],
+        "source_role_a_renforcer": false
+      },
+      "audit": {
+        "decision": "retenir",
+        "justification_importance": "Connexion régionale au réseau reliant la vallée du Váh au sud.",
+        "preuves_roles": {
+          "rail": {
+            "sources": [
+              "src-13-sk-zsr-steg"
+            ],
+            "justification": "Liaison Leopoldov–Galanta ouverte le 20 juillet 1885.",
+            "nature": "attestation_historique"
+          }
+        },
+        "geometrie": {
+          "statut": "a_normaliser_dans_le_depot",
+          "ancrage": "Point urbain historique à fixer par Claude ; aucune coordonnée inventée."
+        }
+      }
+    },
+    {
+      "entite_id": "ville-sk-nove-zamky",
+      "type_entite": "ville",
+      "nom": "Nové Zámky",
+      "nom_local": "Nové Zámky",
+      "aliases": [],
+      "zone_geographique": "Slovaquie",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "rail"
+        ],
+        "note": "Bombardement du 14 octobre 1944 inclus ; attaque du 14 mars 1945 exclue. Pas de cumul anticipé des dégâts.",
+        "sources": [
+          "src-13-sk-nove-zamky-rail"
+        ],
+        "source_role_a_renforcer": false
+      },
+      "audit": {
+        "decision": "retenir",
+        "justification_importance": "Nœud ferroviaire structurant du sud.",
+        "preuves_roles": {
+          "rail": {
+            "sources": [
+              "src-13-sk-nove-zamky-rail"
+            ],
+            "justification": "Nœud et ligne vers Komárno documentés dans la rétrospective ferroviaire.",
+            "nature": "attestation_historique"
+          }
+        },
+        "geometrie": {
+          "statut": "a_normaliser_dans_le_depot",
+          "ancrage": "Point urbain historique à fixer par Claude ; aucune coordonnée inventée."
+        }
+      }
+    },
+    {
+      "entite_id": "ville-sk-komarno-komarom",
+      "type_entite": "ville",
+      "nom": "Komárom — ensemble des deux rives",
+      "nom_local": "Komárom",
+      "aliases": [
+        "Komárno",
+        "Komárom"
+      ],
+      "zone_geographique": "Slovaquie / Hongrie",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "rail",
+          "port_fluvial"
+        ],
+        "note": "Les deux rives sont réunies sous Komárom en 1939–1945 : une seule proposition d’entité, sans doublon hongrois. Szőny, rattachée en 1977, reste hors périmètre.",
+        "sources": [
+          "src-13-sk-nove-zamky-rail",
+          "src-13-sk-ports-histoire",
+          "src-13-hu-komarom-unification"
+        ],
+        "source_role_a_renforcer": false
+      },
+      "audit": {
+        "decision": "retenir",
+        "justification_importance": "Ensemble urbain danubien réunissant port et rail.",
+        "preuves_roles": {
+          "rail": {
+            "sources": [
+              "src-13-sk-nove-zamky-rail"
+            ],
+            "justification": "Desserte historique de la rive nord vers Nové Zámky.",
+            "nature": "attestation_historique"
+          },
+          "port_fluvial": {
+            "sources": [
+              "src-13-sk-ports-histoire"
+            ],
+            "justification": "Développement portuaire de Komárno dans les années 1920.",
+            "nature": "attestation_historique"
+          }
+        },
+        "geometrie": {
+          "statut": "a_normaliser_dans_le_depot",
+          "ancrage": "Ensemble historique des deux rives ; choisir un ancrage cartographique qui ne duplique pas la même commune en 1945."
+        },
+        "territoire_a_heriter": "Le regroupement géographique Slovaquie / Hongrie ne détermine ni souveraineté ni contrôle.",
+        "decomposition_future": "Prévoir le retour à deux entités après la séparation de 1945, avec liens de continuité ; date précise non établie ici."
+      }
+    },
+    {
+      "entite_id": "ville-sk-sturovo",
+      "type_entite": "ville",
+      "nom": "Párkány / Parkan",
+      "nom_local": "Párkány",
+      "aliases": [
+        "Parkan",
+        "Štúrovo"
+      ],
+      "zone_geographique": "Slovaquie",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "C",
+        "roles": [
+          "rail"
+        ],
+        "note": "Štúrovo date du 26 juin 1948. Párkány est déjà prise le 26 décembre 1944. Le rail est attesté, mais la parcelle de la gare Párkány–Nána doit être contrôlée.",
+        "sources": [
+          "src-13-sk-zsr-premieres-lignes",
+          "src-13-hu-htk-encerclement",
+          "src-13-sk-sturovo-nom"
+        ],
+        "source_role_a_renforcer": false
+      },
+      "audit": {
+        "decision": "retenir",
+        "justification_importance": "Point régional sur un corridor danubien transfrontalier.",
+        "preuves_roles": {
+          "rail": {
+            "sources": [
+              "src-13-sk-zsr-premieres-lignes"
+            ],
+            "justification": "Axe Bratislava–Párkány–Vác achevé en 1850.",
+            "nature": "attestation_historique"
+          }
+        },
+        "geometrie": {
+          "statut": "a_normaliser_dans_le_depot",
+          "ancrage": "Contrôler le rattachement de la gare Párkány–Nána au périmètre urbain historique ; pas de port déduit de la seule présence du Danube."
+        }
+      },
+      "nom_actuel_pour_recherche": "Štúrovo"
+    },
+    {
+      "entite_id": "ville-sk-trencin",
+      "type_entite": "ville",
+      "nom": "Trenčín",
+      "nom_local": "Trenčín",
+      "aliases": [],
+      "zone_geographique": "Slovaquie",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "C",
+        "roles": [
+          "rail"
+        ],
+        "note": "La première gare et l’ancrage de Zlatovce demandent contrôle géographique local.",
+        "sources": [
+          "src-13-sk-zsr-steg"
+        ],
+        "source_role_a_renforcer": false
+      },
+      "audit": {
+        "decision": "retenir",
+        "justification_importance": "Point ferroviaire régional sur la vallée du Váh.",
+        "preuves_roles": {
+          "rail": {
+            "sources": [
+              "src-13-sk-zsr-steg"
+            ],
+            "justification": "Liaison vers Žilina achevée en 1883.",
+            "nature": "attestation_historique"
+          }
+        },
+        "geometrie": {
+          "statut": "a_normaliser_dans_le_depot",
+          "ancrage": "Point urbain historique à fixer par Claude ; aucune coordonnée inventée."
+        }
+      }
+    },
+    {
+      "entite_id": "ville-sk-dubnica-nad-vahom",
+      "type_entite": "ville",
+      "nom": "Dubnica nad Váhom",
+      "nom_local": "Dubnica nad Váhom",
+      "aliases": [],
+      "zone_geographique": "Slovaquie",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "industrie"
+        ],
+        "note": "L’armement justifie industrie ; base militaire et rail ne sont pas ajoutés. Notice de conférence lue, ouvrage annoncé non lu.",
+        "sources": [
+          "src-13-sk-dubnica-industrie"
+        ],
+        "source_role_a_renforcer": false
+      },
+      "audit": {
+        "decision": "retenir",
+        "justification_importance": "Pôle industriel de guerre.",
+        "preuves_roles": {
+          "industrie": {
+            "sources": [
+              "src-13-sk-dubnica-industrie"
+            ],
+            "justification": "Production Škoda documentée pour 1937–1945.",
+            "nature": "attestation_historique"
+          }
+        },
+        "geometrie": {
+          "statut": "a_normaliser_dans_le_depot",
+          "ancrage": "Point urbain historique à fixer par Claude ; aucune coordonnée inventée."
+        }
+      }
+    },
+    {
+      "entite_id": "ville-hu-budapest",
+      "type_entite": "ville",
+      "nom": "Budapest",
+      "nom_local": "Budapest",
+      "aliases": [],
+      "zone_geographique": "Hongrie",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "A",
+        "roles": [
+          "rail",
+          "port_fluvial",
+          "capitale"
+        ],
+        "note": "Encerclement fermé le 26 décembre 1944. Ne pas présenter toutes les infrastructures comme encore disponibles ni anticiper toutes les destructions de ponts de janvier. Le port est celui du système budapestois ; sa limite cadastrale doit être contrôlée.",
+        "sources": [
+          "src-13-hu-szeged-rail",
+          "src-13-hu-budapest-port",
+          "src-13-hu-htk-encerclement"
+        ],
+        "source_role_a_renforcer": false,
+        "capitale": "nationale"
+      },
+      "audit": {
+        "decision": "retenir",
+        "justification_importance": "Capitale et grande métropole danubienne.",
+        "preuves_roles": {
+          "rail": {
+            "sources": [
+              "src-13-hu-szeged-rail"
+            ],
+            "justification": "Axe Pest–Cegléd–Szolnok ouvert en 1847, antérieur à la ville unifiée.",
+            "nature": "attestation_historique"
+          },
+          "port_fluvial": {
+            "sources": [
+              "src-13-hu-budapest-port"
+            ],
+            "justification": "Port douanier du système budapestois ouvert en 1928 sur l’île de Csepel.",
+            "nature": "attestation_historique"
+          },
+          "capitale": {
+            "sources": [
+              "src-13-hu-budapest-port"
+            ],
+            "justification": "La source d’archives décrit Budapest comme la capitale ; rang national retenu, malgré les autorités provisoires à Debrecen.",
+            "nature": "contexte_historique_et_interpretation_atlas"
+          }
+        },
+        "geometrie": {
+          "statut": "a_normaliser_dans_le_depot",
+          "ancrage": "Point urbain historique à fixer par Claude ; aucune coordonnée inventée."
+        },
+        "controle_port_csepel": "Csepel reste une commune distincte ; île, commune et parcelles du port ne sont pas synonymes.",
+        "precision_capitale": "La source portuaire emploie le contexte de capitale, mais ne tranche pas la concurrence des sièges gouvernementaux fin 1944. Administration n’est pas ajouté comme rôle séparé sans preuve dédiée."
+      }
+    },
+    {
+      "entite_id": "ville-hu-debrecen",
+      "type_entite": "ville",
+      "nom": "Debrecen",
+      "nom_local": "Debrecen",
+      "aliases": [],
+      "zone_geographique": "Hongrie",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "rail",
+          "administration"
+        ],
+        "note": "Rester B : un siège provisoire ne remplace pas automatiquement Budapest en capitale nationale. Gare historique endommagée ; gare reconstruite exclue.",
+        "sources": [
+          "src-13-hu-debrecen-rail",
+          "src-13-hu-debrecen-administration"
+        ],
+        "source_role_a_renforcer": false
+      },
+      "audit": {
+        "decision": "retenir",
+        "justification_importance": "Nœud ferroviaire et siège administratif provisoire déjà pertinent fin 1944.",
+        "preuves_roles": {
+          "rail": {
+            "sources": [
+              "src-13-hu-debrecen-rail"
+            ],
+            "justification": "Gare ouverte en 1857, bombardée en 1944.",
+            "nature": "attestation_historique"
+          },
+          "administration": {
+            "sources": [
+              "src-13-hu-debrecen-administration"
+            ],
+            "justification": "Assemblée nationale provisoire le 21 décembre 1944 et nomination du gouvernement le 22.",
+            "nature": "attestation_historique"
+          }
+        },
+        "geometrie": {
+          "statut": "a_normaliser_dans_le_depot",
+          "ancrage": "Point urbain historique à fixer par Claude ; aucune coordonnée inventée."
+        }
+      }
+    },
+    {
+      "entite_id": "ville-hu-miskolc",
+      "type_entite": "ville",
+      "nom": "Miskolc",
+      "nom_local": "Miskolc",
+      "aliases": [],
+      "zone_geographique": "Hongrie",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "rail"
+        ],
+        "note": "Au dernier état avant minuit, ne pas absorber Diósgyőr ; la fusion datée du 1er janvier 1945 relève du ratissage temporel suivant.",
+        "sources": [
+          "src-13-hu-miskolc-histoire",
+          "src-13-hu-miskolc-fusion"
+        ],
+        "source_role_a_renforcer": false
+      },
+      "audit": {
+        "decision": "retenir",
+        "justification_importance": "Nœud ferroviaire du nord-est.",
+        "preuves_roles": {
+          "rail": {
+            "sources": [
+              "src-13-hu-miskolc-histoire"
+            ],
+            "justification": "Ligne Hatvan–Miskolc ouverte le 9 janvier 1870.",
+            "nature": "attestation_historique"
+          }
+        },
+        "geometrie": {
+          "statut": "a_normaliser_dans_le_depot",
+          "ancrage": "Point urbain historique à fixer par Claude ; aucune coordonnée inventée."
+        }
+      }
+    },
+    {
+      "entite_id": "ville-hu-diosgyor",
+      "type_entite": "ville",
+      "nom": "Diósgyőr",
+      "nom_local": "Diósgyőr",
+      "aliases": [],
+      "zone_geographique": "Hongrie",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "industrie"
+        ],
+        "note": "Distincte de Miskolc dans le Snapshot défini AVANT 00:00. Fusion datée du 1er janvier 1945 à traiter ensuite. Résumé de l’article lu ; intégral non lu.",
+        "sources": [
+          "src-13-hu-diosgyor-industrie",
+          "src-13-hu-miskolc-histoire",
+          "src-13-hu-miskolc-fusion"
+        ],
+        "source_role_a_renforcer": false
+      },
+      "audit": {
+        "decision": "retenir",
+        "justification_importance": "Pôle industriel majeur à représenter avant la fusion.",
+        "preuves_roles": {
+          "industrie": {
+            "sources": [
+              "src-13-hu-diosgyor-industrie"
+            ],
+            "justification": "Usine et cité ouvrière historiques sur l’implantation après 1868 ; période étudiée jusqu’en 1945.",
+            "nature": "attestation_historique"
+          }
+        },
+        "geometrie": {
+          "statut": "a_normaliser_dans_le_depot",
+          "ancrage": "Point urbain historique à fixer par Claude ; aucune coordonnée inventée."
+        },
+        "precision_preuve": "Attestation dans le résumé scientifique ; aucune production fin 1944 chiffrée."
+      }
+    },
+    {
+      "entite_id": "ville-hu-gyor",
+      "type_entite": "ville",
+      "nom": "Győr",
+      "nom_local": "Győr",
+      "aliases": [],
+      "zone_geographique": "Hongrie",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "rail",
+          "industrie"
+        ],
+        "note": "Aucune usine Audi récente ni capacité contemporaine projetée en 1945.",
+        "sources": [
+          "src-13-hu-gysev-histoire",
+          "src-13-hu-gyor-raba"
+        ],
+        "source_role_a_renforcer": false
+      },
+      "audit": {
+        "decision": "retenir",
+        "justification_importance": "Pôle industriel mécanique et carrefour de circulation.",
+        "preuves_roles": {
+          "rail": {
+            "sources": [
+              "src-13-hu-gysev-histoire"
+            ],
+            "justification": "Ligne Győr–Sopron ouverte en 1876.",
+            "nature": "attestation_historique"
+          },
+          "industrie": {
+            "sources": [
+              "src-13-hu-gyor-raba"
+            ],
+            "justification": "Rába fondée à Győr le 28 décembre 1896.",
+            "nature": "attestation_historique"
+          }
+        },
+        "geometrie": {
+          "statut": "a_normaliser_dans_le_depot",
+          "ancrage": "Point urbain historique à fixer par Claude ; aucune coordonnée inventée."
+        }
+      }
+    },
+    {
+      "entite_id": "ville-hu-szolnok",
+      "type_entite": "ville",
+      "nom": "Szolnok",
+      "nom_local": "Szolnok",
+      "aliases": [],
+      "zone_geographique": "Hongrie",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "rail"
+        ],
+        "note": "Ne pas déduire un port actif de la seule présence de la Tisza.",
+        "sources": [
+          "src-13-hu-szeged-rail",
+          "src-13-hu-bekescsaba-rail"
+        ],
+        "source_role_a_renforcer": false
+      },
+      "audit": {
+        "decision": "retenir",
+        "justification_importance": "Nœud ferroviaire de la plaine hongroise.",
+        "preuves_roles": {
+          "rail": {
+            "sources": [
+              "src-13-hu-szeged-rail",
+              "src-13-hu-bekescsaba-rail"
+            ],
+            "justification": "Ligne depuis Pest en 1847 et prolongement vers Békéscsaba et Arad en 1858.",
+            "nature": "attestation_historique"
+          }
+        },
+        "geometrie": {
+          "statut": "a_normaliser_dans_le_depot",
+          "ancrage": "Point urbain historique à fixer par Claude ; aucune coordonnée inventée."
+        }
+      }
+    },
+    {
+      "entite_id": "ville-hu-szeged",
+      "type_entite": "ville",
+      "nom": "Szeged",
+      "nom_local": "Szeged",
+      "aliases": [],
+      "zone_geographique": "Hongrie",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "rail"
+        ],
+        "note": "Rupture puis rétablissement provisoire avant le Snapshot ; capacité et trafic exacts du franchissement inconnus. Aucun pont permanent d’après-guerre anticipé.",
+        "sources": [
+          "src-13-hu-szeged-rail"
+        ],
+        "source_role_a_renforcer": false
+      },
+      "audit": {
+        "decision": "retenir",
+        "justification_importance": "Nœud ferroviaire méridional et franchissement structurant.",
+        "preuves_roles": {
+          "rail": {
+            "sources": [
+              "src-13-hu-szeged-rail"
+            ],
+            "justification": "Desserte depuis 1854 ; franchissement ferroviaire provisoire rétabli le 12 novembre 1944 après destruction du pont.",
+            "nature": "attestation_historique"
+          }
+        },
+        "geometrie": {
+          "statut": "a_normaliser_dans_le_depot",
+          "ancrage": "Point urbain historique à fixer par Claude ; aucune coordonnée inventée."
+        }
+      }
+    },
+    {
+      "entite_id": "ville-hu-pecs",
+      "type_entite": "ville",
+      "nom": "Pécs",
+      "nom_local": "Pécs",
+      "aliases": [],
+      "zone_geographique": "Hongrie",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "C",
+        "roles": [
+          "rail"
+        ],
+        "note": "Le rôle charbonnier n’est pas ajouté sans preuve locale supplémentaire.",
+        "sources": [
+          "src-13-hu-dombovar-rail"
+        ],
+        "source_role_a_renforcer": false
+      },
+      "audit": {
+        "decision": "retenir",
+        "justification_importance": "Terminus régional structurant du sud-ouest.",
+        "preuves_roles": {
+          "rail": {
+            "sources": [
+              "src-13-hu-dombovar-rail"
+            ],
+            "justification": "Liaison Budapest–Pécs via Újdombóvár achevée en 1882.",
+            "nature": "attestation_historique"
+          }
+        },
+        "geometrie": {
+          "statut": "a_normaliser_dans_le_depot",
+          "ancrage": "Point urbain historique à fixer par Claude ; aucune coordonnée inventée."
+        }
+      }
+    },
+    {
+      "entite_id": "ville-hu-szekesfehervar",
+      "type_entite": "ville",
+      "nom": "Székesfehérvár",
+      "nom_local": "Székesfehérvár",
+      "aliases": [],
+      "zone_geographique": "Hongrie",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "rail"
+        ],
+        "note": "Pas de rôle aviation ou de base intacte déduit d’une industrie aéronautique.",
+        "sources": [
+          "src-13-hu-szekesfehervar-rail"
+        ],
+        "source_role_a_renforcer": false
+      },
+      "audit": {
+        "decision": "retenir",
+        "justification_importance": "Grand carrefour ferroviaire de Transdanubie.",
+        "preuves_roles": {
+          "rail": {
+            "sources": [
+              "src-13-hu-szekesfehervar-rail"
+            ],
+            "justification": "Plusieurs branches ouvertes entre 1860 et 1898, dont Buda–Nagykanizsa en 1861.",
+            "nature": "attestation_historique"
+          }
+        },
+        "geometrie": {
+          "statut": "a_normaliser_dans_le_depot",
+          "ancrage": "Point urbain historique à fixer par Claude ; aucune coordonnée inventée."
+        }
+      }
+    },
+    {
+      "entite_id": "ville-hu-sopron",
+      "type_entite": "ville",
+      "nom": "Sopron",
+      "nom_local": "Sopron",
+      "aliases": [],
+      "zone_geographique": "Hongrie",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "rail"
+        ],
+        "note": "La localisation frontalière ne suffit pas à créer un poste-frontière actif.",
+        "sources": [
+          "src-13-hu-gysev-histoire",
+          "src-13-hu-ouest-rail"
+        ],
+        "source_role_a_renforcer": false
+      },
+      "audit": {
+        "decision": "retenir",
+        "justification_importance": "Carrefour ferroviaire entre plusieurs réseaux occidentaux.",
+        "preuves_roles": {
+          "rail": {
+            "sources": [
+              "src-13-hu-gysev-histoire",
+              "src-13-hu-ouest-rail"
+            ],
+            "justification": "Axe vers Szombathely–Nagykanizsa en 1865, Győr en 1876 et Ebenfurth en 1879.",
+            "nature": "attestation_historique"
+          }
+        },
+        "geometrie": {
+          "statut": "a_normaliser_dans_le_depot",
+          "ancrage": "Point urbain historique à fixer par Claude ; aucune coordonnée inventée."
+        }
+      }
+    },
+    {
+      "entite_id": "ville-hu-nagykanizsa",
+      "type_entite": "ville",
+      "nom": "Nagykanizsa",
+      "nom_local": "Nagykanizsa",
+      "aliases": [],
+      "zone_geographique": "Hongrie",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "C",
+        "roles": [
+          "rail"
+        ],
+        "note": "C avec les preuves recueillies ; une promotion B doit documenter les autres branches et la fonction de triage.",
+        "sources": [
+          "src-13-hu-ouest-rail"
+        ],
+        "source_role_a_renforcer": false
+      },
+      "audit": {
+        "decision": "retenir",
+        "justification_importance": "Nœud régional sur le corridor occidental.",
+        "preuves_roles": {
+          "rail": {
+            "sources": [
+              "src-13-hu-ouest-rail"
+            ],
+            "justification": "Axe Sopron–Szombathely–Nagykanizsa ouvert en 1865.",
+            "nature": "attestation_historique"
+          }
+        },
+        "geometrie": {
+          "statut": "a_normaliser_dans_le_depot",
+          "ancrage": "Point urbain historique à fixer par Claude ; aucune coordonnée inventée."
+        }
+      }
+    },
+    {
+      "entite_id": "ville-hu-bekescsaba",
+      "type_entite": "ville",
+      "nom": "Békéscsaba",
+      "nom_local": "Békéscsaba",
+      "aliases": [],
+      "zone_geographique": "Hongrie",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "rail"
+        ],
+        "note": "Aucune destruction non datée fin 1944 n’est inventée.",
+        "sources": [
+          "src-13-hu-bekescsaba-rail"
+        ],
+        "source_role_a_renforcer": false
+      },
+      "audit": {
+        "decision": "retenir",
+        "justification_importance": "Nœud ferroviaire oriental.",
+        "preuves_roles": {
+          "rail": {
+            "sources": [
+              "src-13-hu-bekescsaba-rail"
+            ],
+            "justification": "Axe Szolnok–Arad ouvert en 1858 et gare devenue structurante.",
+            "nature": "attestation_historique"
+          }
+        },
+        "geometrie": {
+          "statut": "a_normaliser_dans_le_depot",
+          "ancrage": "Point urbain historique à fixer par Claude ; aucune coordonnée inventée."
+        }
+      }
+    },
+    {
+      "entite_id": "ville-hu-kaposvar",
+      "type_entite": "ville",
+      "nom": "Kaposvár",
+      "nom_local": "Kaposvár",
+      "aliases": [],
+      "zone_geographique": "Hongrie",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "C",
+        "roles": [
+          "rail"
+        ],
+        "note": "Ne pas ajouter un rôle industriel faute d’établissement historiquement documenté ici.",
+        "sources": [
+          "src-13-hu-dombovar-rail"
+        ],
+        "source_role_a_renforcer": false
+      },
+      "audit": {
+        "decision": "retenir",
+        "justification_importance": "Point régional du corridor sud-ouest.",
+        "preuves_roles": {
+          "rail": {
+            "sources": [
+              "src-13-hu-dombovar-rail"
+            ],
+            "justification": "Ligne passant par Kaposvár ouverte en 1872.",
+            "nature": "attestation_historique"
+          }
+        },
+        "geometrie": {
+          "statut": "a_normaliser_dans_le_depot",
+          "ancrage": "Point urbain historique à fixer par Claude ; aucune coordonnée inventée."
+        }
+      }
+    },
+    {
+      "entite_id": "ville-hu-ujdombovar",
+      "type_entite": "ville",
+      "nom": "Újdombóvár",
+      "nom_local": "Újdombóvár",
+      "aliases": [],
+      "zone_geographique": "Hongrie",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "rail"
+        ],
+        "note": "Újdombóvár et Dombóvár sont réunies en 1946 seulement. Le nom actuel Dombóvár sert à la recherche, sans assimiler les deux communes en 1945.",
+        "sources": [
+          "src-13-hu-dombovar-rail"
+        ],
+        "source_role_a_renforcer": false
+      },
+      "audit": {
+        "decision": "retenir",
+        "justification_importance": "Nœud ferroviaire majeur indépendant de la taille de la commune.",
+        "preuves_roles": {
+          "rail": {
+            "sources": [
+              "src-13-hu-dombovar-rail"
+            ],
+            "justification": "Jonction de la ligne de 1872 et de l’axe Budapest–Pécs en 1882 ; cité ferroviaire.",
+            "nature": "attestation_historique"
+          }
+        },
+        "geometrie": {
+          "statut": "a_normaliser_dans_le_depot",
+          "ancrage": "Gare et cité ferroviaire d’Újdombóvár avant la fusion ; ne pas remplacer par un centre municipal actuel sans contrôle."
+        }
+      },
+      "nom_actuel_pour_recherche": "Dombóvár"
+    },
+    {
+      "entite_id": "ville-hu-vac",
+      "type_entite": "ville",
+      "nom": "Vác",
+      "nom_local": "Vác",
+      "aliases": [],
+      "zone_geographique": "Hongrie",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "C",
+        "roles": [
+          "rail"
+        ],
+        "note": "Le Danube n’est pas une preuve de port exploité au Snapshot.",
+        "sources": [
+          "src-13-sk-zsr-premieres-lignes"
+        ],
+        "source_role_a_renforcer": false
+      },
+      "audit": {
+        "decision": "retenir",
+        "justification_importance": "Point régional sur le corridor nord de Budapest.",
+        "preuves_roles": {
+          "rail": {
+            "sources": [
+              "src-13-sk-zsr-premieres-lignes"
+            ],
+            "justification": "Axe vers Párkány et Bratislava achevé en 1850.",
+            "nature": "attestation_historique"
+          }
+        },
+        "geometrie": {
+          "statut": "a_normaliser_dans_le_depot",
+          "ancrage": "Point urbain historique à fixer par Claude ; aucune coordonnée inventée."
+        }
+      }
+    },
+    {
+      "entite_id": "ville-hu-ozd",
+      "type_entite": "ville",
+      "nom": "Ózd",
+      "nom_local": "Ózd",
+      "aliases": [],
+      "zone_geographique": "Hongrie",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "industrie"
+        ],
+        "note": "La catégorie ville de l’Atlas représente un point urbain fonctionnel : le rang municipal formel acquis en 1949 ne fait pas disparaître le centre industriel de 1944.",
+        "sources": [
+          "src-13-hu-ozd-industrie"
+        ],
+        "source_role_a_renforcer": false
+      },
+      "audit": {
+        "decision": "retenir",
+        "justification_importance": "Grand pôle sidérurgique.",
+        "preuves_roles": {
+          "industrie": {
+            "sources": [
+              "src-13-hu-ozd-industrie"
+            ],
+            "justification": "Développement sidérurgique avant 1915 ; grand centre industriel décrit en 1944.",
+            "nature": "attestation_historique"
+          }
+        },
+        "geometrie": {
+          "statut": "a_normaliser_dans_le_depot",
+          "ancrage": "Point urbain historique à fixer par Claude ; aucune coordonnée inventée."
+        }
+      }
+    },
+    {
+      "entite_id": "ville-hu-csepel",
+      "type_entite": "ville",
+      "nom": "Csepel",
+      "nom_local": "Csepel",
+      "aliases": [],
+      "zone_geographique": "Hongrie",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "B",
+        "roles": [
+          "industrie"
+        ],
+        "note": "Commune distincte jusqu’en 1950 selon la notice locale. Industrie retenue provisoirement au niveau C ; état exact des dégâts et évacuations de 1944 à renforcer. Aucun rôle de port attribué automatiquement à la commune.",
+        "sources": [
+          "src-13-hu-csepel-industrie",
+          "src-13-hu-csepel-commune"
+        ],
+        "source_role_a_renforcer": true
+      },
+      "audit": {
+        "decision": "retenir_provisoirement",
+        "justification_importance": "Pôle industriel majeur proposé sous réserve d’une preuve d’archives plus forte.",
+        "preuves_roles": {
+          "industrie": {
+            "sources": [
+              "src-13-hu-csepel-industrie"
+            ],
+            "justification": "Complexe Weiss Manfréd antérieur à 1945, production mécanique et de guerre.",
+            "nature": "attestation_locale_provisoire"
+          }
+        },
+        "geometrie": {
+          "statut": "a_normaliser_dans_le_depot",
+          "ancrage": "Complexe industriel et noyau de la commune Csepel ; exclure l’assimilation de toute l’île et des parcelles du port au même périmètre."
+        }
+      }
+    },
+    {
+      "entite_id": "ville-hu-szombathely",
+      "type_entite": "ville",
+      "nom": "Szombathely",
+      "nom_local": "Szombathely",
+      "aliases": [],
+      "zone_geographique": "Hongrie",
+      "etat_snapshot0": {
+        "valid_from": "1945-01-01",
+        "importance_atlas": "C",
+        "roles": [
+          "rail"
+        ],
+        "note": "Desserte du corridor occidental attestée depuis 1865. C avec les preuves recueillies ; l’importance d’un triage ou de branches supplémentaires reste à documenter.",
+        "sources": [
+          "src-13-hu-ouest-rail"
+        ],
+        "source_role_a_renforcer": false
+      },
+      "audit": {
+        "decision": "retenir",
+        "justification_importance": "Point ferroviaire régional sur le corridor Sopron–Nagykanizsa.",
+        "preuves_roles": {
+          "rail": {
+            "sources": [
+              "src-13-hu-ouest-rail"
+            ],
+            "justification": "Axe Sopron–Szombathely–Nagykanizsa ouvert en 1865.",
+            "nature": "attestation_historique"
+          }
+        },
+        "geometrie": {
+          "statut": "a_normaliser_dans_le_depot",
+          "ancrage": "Point ferroviaire historique à fixer par Claude ; aucune coordonnée inventée."
+        }
+      }
+    }
+  ],
+  "candidats_differes": [
+    {
+      "candidat_id": "candidat-hu-dunapentele-dunaujvaros",
+      "nom": "Dunapentele / future Dunaújváros",
+      "decision": "exclure_argument_industriel_1950",
+      "justification": "Les chantiers de la ville et de l’usine datent de 1950. Cela ne démontre pas l’absence de tout rôle à Dunapentele fin 1944.",
+      "sources": [
+        "src-13-hu-dunaujvaros-exclusion"
+      ],
+      "a_rechercher": "Un éventuel rôle antérieur à 1945, indépendant du complexe sidérurgique d’après-guerre."
+    },
+    {
+      "candidat_id": "candidat-hu-esztergom",
+      "nom": "Esztergom",
+      "decision": "differer_role_ville",
+      "justification": "La capture du 26 décembre 1944 est documentée, mais elle ne suffit pas à établir un rôle urbain de transport. Le pont doit avoir son propre dossier physique.",
+      "sources": [
+        "src-13-hu-htk-encerclement"
+      ],
+      "a_rechercher": "État daté du pont et des accès, preuve locale de rail ou port actif avant le Snapshot."
+    },
+    {
+      "candidat_id": "candidat-hu-tatabanya",
+      "nom": "Tatabánya et noyaux industriels voisins",
+      "decision": "differer_pour_perimetre_et_preuve",
+      "justification": "Aucune preuve locale exploitable n’a été enregistrée ici pour fixer les entités industrielles et leurs limites avant 1945.",
+      "sources": [],
+      "a_rechercher": "Archives des communes et établissements ; ne pas assimiler une commune actuelle à l’ensemble de 1944."
+    },
+    {
+      "candidat_id": "candidat-hu-kazincbarcika",
+      "nom": "Kazincbarcika et communes antérieures",
+      "decision": "differer_pour_preuve",
+      "justification": "Pas de dossier historique local suffisant dans ce lot. Aucune date de fusion ou de fondation non vérifiée n’est avancée.",
+      "sources": [],
+      "a_rechercher": "Noyaux et fonctions antérieurs à 1945 ; chronologie de la commune actuelle."
+    },
+    {
+      "candidat_id": "candidat-cz-otrokovice",
+      "nom": "Otrokovice / Baťov",
+      "decision": "differer_pour_preuve_role",
+      "justification": "La source sur Zlín établit un rattachement ultérieur, mais ne suffit pas à sourcer un rôle de flux propre à Otrokovice au Snapshot.",
+      "sources": [
+        "src-13-cz-zlin-nom"
+      ],
+      "a_rechercher": "Usines, gare, emprise municipale et état fin 1944."
+    },
+    {
+      "candidat_id": "candidat-cz-karlovy-vary",
+      "nom": "Karlovy Vary",
+      "decision": "reserve",
+      "justification": "La notoriété touristique ne suffit pas au critère de flux ; pas de preuve historique de rôle structurant collectée dans ce lot.",
+      "sources": [],
+      "a_rechercher": "Nœud ferroviaire ou fonction logistique spécifique, avant 1945."
+    }
+  ],
+  "corrections_historiques": [
+    {
+      "cas_id": "nom-ostrava",
+      "cibles": [
+        "ville-cz-ostrava"
+      ],
+      "decision": "Moravská Ostrava au Snapshot ; Ostrava à partir du 28 juin 1946.",
+      "sources": [
+        "src-13-cz-ostrava-nom"
+      ],
+      "statut": "documente"
+    },
+    {
+      "cas_id": "fusion-decin",
+      "cibles": [
+        "ville-cz-decin"
+      ],
+      "decision": "Une entité réunie depuis le 1er octobre 1942, libellée Děčín–Podmokly ; ne pas utiliser le port de Loubí d’après-guerre.",
+      "sources": [
+        "src-13-cz-decin-histoire",
+        "src-13-cz-decin-cd"
+      ],
+      "statut": "fusion_documentee_nom_officiel_a_normaliser"
+    },
+    {
+      "cas_id": "nom-zlin",
+      "cibles": [
+        "ville-cz-zlin"
+      ],
+      "decision": "Zlín en 1945 ; Gottwaldov à partir du 1er janvier 1949.",
+      "sources": [
+        "src-13-cz-zlin-nom"
+      ],
+      "statut": "documente"
+    },
+    {
+      "cas_id": "nom-sturovo",
+      "cibles": [
+        "ville-sk-sturovo"
+      ],
+      "decision": "Párkány / Parkan en 1945 ; Štúrovo seulement à partir du 26 juin 1948.",
+      "sources": [
+        "src-13-sk-sturovo-nom"
+      ],
+      "statut": "documente"
+    },
+    {
+      "cas_id": "fusion-komarom",
+      "cibles": [
+        "ville-sk-komarno-komarom"
+      ],
+      "decision": "Un ensemble des deux rives au Snapshot ; la notice distingue réunion de 1939–1945 et retour territorial de 1938. Ne pas créer deux communes simultanées.",
+      "sources": [
+        "src-13-hu-komarom-unification"
+      ],
+      "statut": "union_fin_1944_documentee_date_separation_a_preciser"
+    },
+    {
+      "cas_id": "fusion-miskolc",
+      "cibles": [
+        "ville-hu-miskolc",
+        "ville-hu-diosgyor"
+      ],
+      "decision": "Deux points dans le dernier état avant 00:00 ; appliquer ensuite la fusion datée du 1er janvier 1945. La chronologie du projet décide de la représentation.",
+      "sources": [
+        "src-13-hu-miskolc-histoire",
+        "src-13-hu-miskolc-fusion",
+        "src-13-hu-diosgyor-industrie"
+      ],
+      "statut": "documente_convention_snapshot_appliquee"
+    },
+    {
+      "cas_id": "fusion-poprad",
+      "cibles": [
+        "ville-sk-poprad"
+      ],
+      "decision": "Ne pas absorber Veľká et Spišská Sobota avant l’effet juridique du 1er janvier 1946 ; ne pas absorber Svit.",
+      "sources": [
+        "src-13-sk-poprad-fusion"
+      ],
+      "statut": "documente"
+    },
+    {
+      "cas_id": "extension-bratislava",
+      "cibles": [
+        "ville-sk-bratislava"
+      ],
+      "decision": "Ne pas anticiper les extensions de Grande Bratislava de 1946.",
+      "sources": [
+        "src-13-sk-bratislava-chronologie"
+      ],
+      "statut": "documente_annee"
+    },
+    {
+      "cas_id": "fusion-dombovar",
+      "cibles": [
+        "ville-hu-ujdombovar"
+      ],
+      "decision": "Gare et cité ferroviaire d’Újdombóvár distinctes de l’ancienne Dombóvár avant la fusion de 1946.",
+      "sources": [
+        "src-13-hu-dombovar-rail"
+      ],
+      "statut": "documente_annee"
+    },
+    {
+      "cas_id": "implantation-most",
+      "cibles": [
+        "ville-cz-most"
+      ],
+      "decision": "Ancrer le point au vieux Most ; le centre-ville actuel n’est pas une position historique de 1945.",
+      "sources": [
+        "src-13-cz-most-histoire"
+      ],
+      "statut": "principe_documente_coordonnees_a_fournir"
+    },
+    {
+      "cas_id": "perimetre-bohumin",
+      "cibles": [
+        "ville-cz-bohumin"
+      ],
+      "decision": "Retenir le nœud et la gare de Nový Bohumín ; limites de guerre à contrôler sans projeter la fusion de 1949.",
+      "sources": [
+        "src-13-sk-zsr-kosice-bohumin",
+        "src-13-cz-bohumin-perimetre"
+      ],
+      "statut": "ancrage_fonctionnel_documente_perimetre_non_tranche"
+    },
+    {
+      "cas_id": "csepel-budapest",
+      "cibles": [
+        "ville-hu-csepel",
+        "ville-hu-budapest"
+      ],
+      "decision": "Distinguer île, commune industrielle et parcelles du port budapestois. La fusion communale de 1950 ne prouve pas la propriété de toutes les parcelles avant cette date.",
+      "sources": [
+        "src-13-hu-csepel-commune",
+        "src-13-hu-csepel-industrie",
+        "src-13-hu-budapest-port"
+      ],
+      "statut": "industrie_C_et_cadastre_a_renforcer"
+    },
+    {
+      "cas_id": "siege-debrecen",
+      "cibles": [
+        "ville-hu-debrecen",
+        "ville-hu-budapest"
+      ],
+      "decision": "Administration provisoire à Debrecen dès les 21–22 décembre 1944 ; B conservé et Budapest A capitale nationale.",
+      "sources": [
+        "src-13-hu-debrecen-administration",
+        "src-13-hu-budapest-port"
+      ],
+      "statut": "dates_documentees_classement_editorial"
+    },
+    {
+      "cas_id": "prague-capitale",
+      "cibles": [
+        "ville-cz-prague"
+      ],
+      "decision": "A et administration retenus. Capitale régionale proposée pour le siège du Protectorat, mais convention nationale/régionale non arbitrée : champ capitale laissé absent.",
+      "sources": [
+        "src-13-cz-prague-protectorat",
+        "src-13-cz-exil-contexte"
+      ],
+      "statut": "arbitrage_ouvert"
+    },
+    {
+      "cas_id": "degats-fin-1944",
+      "cibles": [
+        "ville-cz-ostrava",
+        "ville-cz-zlin",
+        "ville-hu-debrecen",
+        "ville-sk-nove-zamky",
+        "ville-hu-szeged",
+        "ville-hu-budapest"
+      ],
+      "decision": "Dégâts de 1944 inclus ; franchissement provisoire de Szeged déjà rétabli le 12 novembre. Bombardements et destructions de 1945 non anticipés.",
+      "sources": [
+        "src-13-cz-ostrava-degats",
+        "src-13-cz-zlin-industrie",
+        "src-13-hu-debrecen-rail",
+        "src-13-sk-nove-zamky-rail",
+        "src-13-hu-szeged-rail",
+        "src-13-hu-htk-encerclement"
+      ],
+      "statut": "attestations_datees_sans_etat_operationnel_exhaustif"
+    }
+  ],
+  "arbitrages_ouverts": [
+    {
+      "arbitrage_id": "capitale-prague",
+      "question": "La convention Atlas classe-t-elle Prague en capitale régionale du Protectorat, ou nationale au titre de la continuité tchécoslovaque ?",
+      "proposition": "regionale",
+      "statut": "non_arbitre",
+      "cibles": [
+        "ville-cz-prague"
+      ],
+      "sources": [
+        "src-13-cz-prague-protectorat",
+        "src-13-cz-exil-contexte"
+      ],
+      "information_disponible": "Institutions du Protectorat à Prague ; gouvernement tchécoslovaque en exil en Angleterre.",
+      "information_manquante": "La convention éditoriale retenue pour ce cas ; les sources ne décident pas seules du classement.",
+      "effet": "A inchangé ; le champ capitale sera ajouté après décision."
+    },
+    {
+      "arbitrage_id": "perimetre-bohumin",
+      "question": "Quel nom officiel et quel périmètre de guerre correspondent au point ferroviaire de Nový Bohumín ?",
+      "proposition": "Point fonctionnel de la gare, avec périmètre réservé.",
+      "statut": "a_verifier",
+      "cibles": [
+        "ville-cz-bohumin"
+      ],
+      "sources": [
+        "src-13-sk-zsr-kosice-bohumin",
+        "src-13-cz-bohumin-perimetre"
+      ],
+      "information_disponible": "Rail ouvert en 1869 ; nom Nový Bohumín depuis 1924 ; regroupement postérieur décrit en 1949.",
+      "information_manquante": "Acte ou annuaire donnant les limites et le nom administratif en 1944.",
+      "effet": "Rail et B retenus ; aucune géométrie communale importée."
+    },
+    {
+      "arbitrage_id": "preuve-csepel",
+      "question": "Quelle source d’archives confirme le rôle industriel et quelles parcelles portuaires relèvent de Budapest fin 1944 ?",
+      "proposition": "Industrie Csepel B provisoire ; port du système Budapest, avec contrôle cadastral.",
+      "statut": "a_renforcer",
+      "cibles": [
+        "ville-hu-csepel",
+        "ville-hu-budapest"
+      ],
+      "sources": [
+        "src-13-hu-csepel-commune",
+        "src-13-hu-csepel-industrie",
+        "src-13-hu-budapest-port"
+      ],
+      "information_disponible": "Compilation locale sur l’usine ; étude d’archives sur le port ouvert en 1928.",
+      "information_manquante": "Notice d’archives industrielle consultable et découpage cadastral antérieur à 1950.",
+      "effet": "Csepel est marqué source_role_a_renforcer ; aucun port automatiquement attribué à sa commune."
+    },
+    {
+      "arbitrage_id": "nom-decin",
+      "question": "Quelle forme administrative allemande doit être enregistrée pour l’ensemble réuni en 1944 ?",
+      "proposition": "Děčín–Podmokly comme libellé descriptif ; Bodenbach-Tetschen comme alias attesté dans l’article.",
+      "statut": "a_normaliser",
+      "cibles": [
+        "ville-cz-decin"
+      ],
+      "sources": [
+        "src-13-cz-decin-histoire",
+        "src-13-cz-decin-cd"
+      ],
+      "information_disponible": "Fusion exacte du 1er octobre 1942 ; article de ČD donnant Bodenbach-Tetschen.",
+      "information_manquante": "Acte ou annuaire administratif de 1944 confirmant la forme officielle.",
+      "effet": "Une seule entité ; pas de faux changement de nom déduit de traductions."
+    }
+  ],
+  "changements_a_preparer_apres_snapshot": [
+    {
+      "proposition_id": "suite-13-fusion-miskolc",
+      "date": "1945-01-01",
+      "precision": "exacte",
+      "cibles": [
+        "ville-hu-miskolc",
+        "ville-hu-diosgyor"
+      ],
+      "changement": "Rattacher Diósgyőr à Miskolc ; conserver les fonctions et la continuité de l’ancien pôle industriel, sans deux points urbains équivalents après fusion.",
+      "sources": [
+        "src-13-hu-miskolc-fusion"
+      ]
+    },
+    {
+      "proposition_id": "suite-13-fusion-poprad",
+      "date": "1946-01-01",
+      "precision": "exacte",
+      "cibles": [
+        "ville-sk-poprad"
+      ],
+      "changement": "Appliquer l’agrandissement municipal documenté.",
+      "sources": [
+        "src-13-sk-poprad-fusion"
+      ]
+    },
+    {
+      "proposition_id": "suite-13-nom-ostrava",
+      "date": "1946-06-28",
+      "precision": "exacte",
+      "cibles": [
+        "ville-cz-ostrava"
+      ],
+      "changement": "Moravská Ostrava devient Ostrava.",
+      "sources": [
+        "src-13-cz-ostrava-nom"
+      ]
+    },
+    {
+      "proposition_id": "suite-13-fusion-dombovar",
+      "date": "1946",
+      "precision": "annee",
+      "cibles": [
+        "ville-hu-ujdombovar"
+      ],
+      "changement": "Fusion avec Dombóvár ; jour exact et continuité d’identifiant à préciser.",
+      "sources": [
+        "src-13-hu-dombovar-rail"
+      ]
+    },
+    {
+      "proposition_id": "suite-13-extension-bratislava",
+      "date": "1946",
+      "precision": "annee",
+      "cibles": [
+        "ville-sk-bratislava"
+      ],
+      "changement": "Grande Bratislava ; dates et communes de chaque rattachement à vérifier avant import d’un événement détaillé.",
+      "sources": [
+        "src-13-sk-bratislava-chronologie"
+      ]
+    },
+    {
+      "proposition_id": "suite-13-nom-sturovo",
+      "date": "1948-06-26",
+      "precision": "exacte",
+      "cibles": [
+        "ville-sk-sturovo"
+      ],
+      "changement": "Parkan devient Štúrovo.",
+      "sources": [
+        "src-13-sk-sturovo-nom"
+      ]
+    },
+    {
+      "proposition_id": "suite-13-nom-zlin",
+      "date": "1949-01-01",
+      "precision": "exacte",
+      "cibles": [
+        "ville-cz-zlin"
+      ],
+      "changement": "Zlín devient Gottwaldov ; traiter séparément les rattachements municipaux.",
+      "sources": [
+        "src-13-cz-zlin-nom"
+      ]
+    }
+  ]
+}
+

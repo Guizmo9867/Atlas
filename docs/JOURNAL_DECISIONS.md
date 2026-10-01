@@ -6,7 +6,9 @@ Une ligne par décision, datée. Plus récente en haut. Ce journal remplace les 
 
 - **Villes 1.3 intégrées : 53 villes** (19 Tchéquie, 16 Slovaquie, 18 Hongrie). Données tirées du document d'Ether (son JSON n'était pas joint). *(Ether, fait par Claude)*
 - **Une ville réunie au Snapshot 0 = une seule entité** : Komárom (les deux rives, 1939–1945), Děčín–Podmokly (1942). **Une fusion datée du 01/01/1945 s'applique après 0 h** : Miskolc et Diósgyőr restent deux points au Snapshot 0. *(Ether)*
-- **Prague = capitale régionale au Snapshot 0** (siège du Protectorat), par cohérence avec Vienne ; Bratislava et Budapest nationales ; Debrecen garde B avec « administration » (siège provisoire depuis le 21/12/1944). *(proposé par Ether et Claude, à confirmer par Guizmo)*
+- **Prague = capitale régionale au Snapshot 0** (siège du Protectorat), par cohérence avec Vienne ; Bratislava et Budapest nationales ; Debrecen garde B avec « administration » (siège provisoire depuis le 21/12/1944). *(proposé par Ether et Claude, **validé par Guizmo** le 01/10/2026)*
+- **JSON d'Ether reçu et rapproché (villes 1.3 v0.2)** : aucune différence avec l'extrait du document ; ses notes et ses preuves rôle par rôle sont reprises, « à renforcer » est calculé rôle par rôle (11 villes). Registre v1.11. *(Claude)*
+- **Noms de villes sans chevauchement** : les points de toutes les villes visibles restent ; leurs noms se posent par ordre d'importance (capitales, puis A, B, C, D), à droite du point, sinon à gauche, sinon cachés jusqu'au zoom suivant. Les noms de pays évitent ensuite points et noms de villes. *(Guizmo, fait par Claude)*
 - **Les noms allemands, hongrois et futurs sont des alias de recherche**, jamais des noms actifs en 1945 sans source sur le nom officiel. *(Ether)*
 - Sources 1.3 : 53 relues par sous-agents (37 confirmées, 16 dans la file « Sources à valider »). Registre v1.10. *(Claude)*
 

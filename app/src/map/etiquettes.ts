@@ -25,7 +25,8 @@ export interface Place {
 }
 
 /** Nom de ville déjà posé sur la carte (prioritaire : les noms de pays l'évitent). */
-export interface Obstacle { point: Position; largeur: number; seuil: number }
+/** Nom de ville (prioritaire sur les noms de pays). `el` : l'étiquette HTML ; `rang` : 0 = capitale, puis A, B, C, D. */
+export interface Obstacle { point: Position; largeur: number; seuil: number; el?: HTMLElement; rang?: number }
 
 let ctx: CanvasRenderingContext2D | null = null
 function mesurer(texte: string, police: string, espacementEm = 0, taille = 16): number {
@@ -111,11 +112,22 @@ export function placerEtiquettes(map: maplibregl.Map, places: Place[], villes: O
   // chevauchements : les plus grands noms d'abord
   candidats.sort((a, b) => b.taille - a.taille)
   const poses: [number, number, number, number][] = []
-  for (const v of villes) { // les villes visibles à ce zoom : point + nom à droite
-    if (z < v.seuil) continue
-    const { x, y } = map.project(v.point as [number, number])
-    poses.push([x - 5, y - 8, x + 9 + v.largeur, y + 8])
+  const touche = (r: number[], liste: number[][]) => liste.some((o) => r[0] < o[2] && r[2] > o[0] && r[1] < o[3] && r[3] > o[1])
+  // 1. Villes visibles à ce zoom : tous les points d'abord (un nom ne cache jamais le point d'une autre ville)
+  const visibles = villes.filter((v) => z >= v.seuil).map((v) => ({ v, ...map.project(v.point as [number, number]) }))
+  const points = visibles.map(({ x, y }) => [x - 5, y - 5, x + 5, y + 5])
+  poses.push(...(points as [number, number, number, number][]))
+  // 2. Puis leurs noms, les plus importants d'abord : à droite du point, sinon à gauche, sinon caché (le point reste)
+  const nomsVilles: number[][] = []
+  for (const { v, x, y } of [...visibles].sort((a, b) => (a.v.rang ?? 9) - (b.v.rang ?? 9))) {
+    const autres = points.filter((pt) => !(pt[0] === x - 5 && pt[1] === y - 5))
+    const droite = [x + 6, y - 8, x + 9 + v.largeur, y + 8]
+    const gauche = [x - 9 - v.largeur, y - 8, x - 6, y + 8]
+    const cote = !touche(droite, nomsVilles) && !touche(droite, autres) ? 'droite' : !touche(gauche, nomsVilles) && !touche(gauche, autres) ? 'gauche' : null
+    if (v.el) { v.el.dataset.cache = cote ? '0' : '1'; v.el.dataset.cote = cote ?? 'droite' }
+    if (cote) nomsVilles.push(cote === 'droite' ? droite : gauche)
   }
+  poses.push(...(nomsVilles as [number, number, number, number][]))
   for (const c of candidats) {
     const { x, y } = map.project(c.p.point as [number, number])
     // si la place est prise (une ville, un autre nom), on essaie de décaler un peu le nom, sans sortir du territoire
