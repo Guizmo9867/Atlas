@@ -26,6 +26,7 @@ for s in reg['sources']:
         'titre': s.get('titre'), 'institution': s.get('institution'), 'url': s.get('url'),
         'ou_regarder': s.get('locator') or '', 'extrait': s.get('resume_passage') or '',
         'notes': s.get('notes') or '',
+        'domaine': 'villes' if any(c.startswith('ville-') for c in s.get('cibles', [])) else 'frontieres',
         'villes': [noms.get(c, c) for c in s.get('cibles', [])],
         'remplacee_par': s.get('sources_remplacement', []),
     })

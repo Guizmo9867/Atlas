@@ -33,6 +33,10 @@ Claude fusionne ensuite le delta au registre officiel et remplace les IDs provis
 - Une source qu'on n'a pas pu lire reste « non vérifiée » : son contenu n'est pas présenté comme confirmé. On n'enregistre jamais une consultation qui n'a pas eu lieu, et on n'efface pas une réserve pour qu'un lot paraisse complet.
 - Dans les fichiers de villes, l'`usage` de chaque source le dit (« contexte seulement », « non vérifiée lors de l'audit »), et la note porte « Rôle à sourcer localement » tant qu'aucune source lue ne prouve le rôle.
 
+## File « Sources à valider » (01/10/2026)
+
+Ce qui ne peut pas être vérifié tout de suite ne bloque pas l'avancée : Claude marque la source (`verification_claude` : non_verifiee, limite, faible, lien_casse) et elle apparaît dans la page « Sources à valider », où Guizmo (puis la communauté) tranche plus tard. La liste est régénérée à chaque lot par `outils/sources/liste_sources_a_valider.py`.
+
 ## Important
 
 Les citations enrichies de ChatGPT sont pratiques pour lire une réponse, mais elles ne sont pas notre archivage de provenance : lors d'un copier-coller vers Claude, leurs URL peuvent disparaître.

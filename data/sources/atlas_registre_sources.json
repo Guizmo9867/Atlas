@@ -1,7 +1,7 @@
 {
  "metadata": {
   "nom": "registre_sources_atlas",
-  "version": "1.8",
+  "version": "1.9",
   "date_creation": "2026-09-26",
   "principe": "Une source = un source_id stable. Les fiches événements/entités peuvent référencer ce source_id et préciser l'usage/locator.",
   "statut": "registre_initial_a_completer"
@@ -31,7 +31,8 @@
    "locator": "document 662",
    "resume_passage": "Source utilisée pour distinguer souveraineté chinoise de jure, absence de contrôle chinois de facto et forte influence soviétique en Mongolie extérieure.",
    "archive_locale": null,
-   "notes": ""
+   "notes": "Relecture Claude 01/10/2026 (ok) : Mémorandum du 13 juillet 1945 : soutient bien la souveraineté de jure chinoise, l'absence de contrôle de facto et l'orbite soviétique (passage sur l'influence soviétique formulé au conditionnel/prospectif).",
+   "verification_claude": "ok"
   },
   {
    "source_id": "src-frus-1946-v10-d958",
@@ -55,7 +56,8 @@
    "locator": "document 958",
    "resume_passage": "Source utilisée pour la reconnaissance chinoise de l'indépendance de la Mongolie extérieure au début de 1946.",
    "archive_locale": null,
-   "notes": ""
+   "notes": "Relecture Claude 01/10/2026 (ok) : Télégramme (893.00 Mongolia/1-946) citant le communiqué chinois du 5 janvier 1946 reconnaissant l'indépendance de la Mongolie extérieure, après le plébiscite du 20/10/1945.",
+   "verification_claude": "ok"
   },
   {
    "source_id": "src-frus-1946-v04-d5",
@@ -84,7 +86,8 @@
    "locator": "document 5",
    "resume_passage": "Source utilisée pour les clauses territoriales finlandaises liées à l'armistice de 1944, dont Petsamo et Porkkala.",
    "archive_locale": null,
-   "notes": ""
+   "notes": "Relecture Claude 01/10/2026 (limite) : Le document est un projet de traité de paix avec la Finlande (1946), pas le texte de l'armistice de 1944 ; il confirme bien Petsamo et le bail de Porkkala-Udd (50 ans).",
+   "verification_claude": "limite"
   },
   {
    "source_id": "src-archives-touva-integration-1944",
@@ -109,7 +112,8 @@
    "locator": "page web",
    "resume_passage": "Source utilisée pour dater l'admission de Touva dans l'URSS et son intégration à la RSFSR comme oblast autonome.",
    "archive_locale": null,
-   "notes": ""
+   "notes": "Relecture Claude 01/10/2026 (ok) : Page states admission to the USSR on 11 Oct 1944 and to the RSFSR as autonomous oblast on 13 Oct 1944 ; soutient pleinement l'usage.",
+   "verification_claude": "ok"
   },
   {
    "source_id": "src-constitution-urss-1936",
@@ -134,7 +138,8 @@
    "locator": "articles relatifs aux républiques fédérées",
    "resume_passage": "Source utilisée pour la structure fédérale de l'URSS et l'existence de la RSS kazakhe comme république fédérée.",
    "archive_locale": null,
-   "notes": "À compléter plus tard par une édition officielle/numérisation primaire si disponible."
+   "notes": "À compléter plus tard par une édition officielle/numérisation primaire si disponible. Relecture Claude 01/10/2026 (ok) : Art. 13 présente l'URSS comme État fédéral et liste la RSS kazakhe ; Art. 28 donne sa composition.",
+   "verification_claude": "ok"
   },
   {
    "source_id": "src-loc-12th-army-group-1945-01-01",
@@ -162,7 +167,8 @@
    "locator": "carte datée du 1 janvier 1945",
    "resume_passage": "Source cartographique utilisée pour reconstruire le front occidental au jour du Snapshot 0.",
    "archive_locale": null,
-   "notes": "À télécharger/archiver localement si les conditions d'utilisation le permettent ; conserver la référence d'origine et les métadonnées de géoréférencement."
+   "notes": "À télécharger/archiver localement si les conditions d'utilisation le permettent ; conserver la référence d'origine et les métadonnées de géoréférencement. Relecture Claude 01/10/2026 (non_verifiee) : WebFetch a renvoyé une erreur 403 sur loc.gov ; contenu non vu.",
+   "verification_claude": "non_verifiee"
   },
   {
    "source_id": "src-westpoint-russian-balkan-baltic-1944",
@@ -191,7 +197,8 @@
    "locator": "carte n° 31, JPG 5100×3300 px ; trait rouge plein « 31 Dec. » = front au 31/12/1944",
    "resume_passage": "Position du front germano-soviétique au 31/12/1944, de la Courlande à la Yougoslavie (dont tête de pont de Memel et anneau de Budapest) ; positions antérieures en pointillés.",
    "archive_locale": "téléchargée par outils/geo/deriver_snapshot0_fronts.py dans le cache (non versionnée)",
-   "notes": "Lien exact fourni par Ether le 28/09/2026. Géoréférencée par Claude (23 points d'appui, Lambert + plaque mince) : erreur de validation croisée ≈ 9 km en moyenne ; carte stylisée → incertitude retenue 15 km."
+   "notes": "Lien exact fourni par Ether le 28/09/2026. Géoréférencée par Claude (23 points d'appui, Lambert + plaque mince) : erreur de validation croisée ≈ 9 km en moyenne ; carte stylisée → incertitude retenue 15 km. Relecture Claude 01/10/2026 (non_verifiee) : WebFetch ne gère pas le contenu image (JPG) : \"Image content is not supported\" ; carte non consultable par cet outil.",
+   "verification_claude": "non_verifiee"
   },
   {
    "source_id": "src-ushmm-german-administration-europe-1944",
@@ -215,7 +222,8 @@
    "locator": "carte",
    "resume_passage": "Source utilisée pour distinguer administrations allemandes, territoires occupés et États juridiquement distincts.",
    "archive_locale": null,
-   "notes": ""
+   "notes": "Relecture Claude 01/10/2026 (non_verifiee) : Page = simple image GIF de carte avec titre ; aucun texte ni légende lisible, impossible de confirmer la distinction administrations/territoires occupés/États distincts.",
+   "verification_claude": "non_verifiee"
   },
   {
    "source_id": "src-frus-1943-v01-d684",
@@ -241,7 +249,8 @@
    "locator": "document 684",
    "resume_passage": "Source utilisée pour le statut allié de l'Autriche distinct de son incorporation effective au Reich.",
    "archive_locale": null,
-   "notes": ""
+   "notes": "Relecture Claude 01/10/2026 (limite) : Bon document (Déclaration de Moscou) : annexion de 1938 « null and void » et responsabilité de l'Autriche dans la guerre ; ne confère pas à l'Autriche un « statut allié » au sens strict.",
+   "verification_claude": "limite"
   },
   {
    "source_id": "src-frus-1944-v04-d843",
@@ -269,7 +278,8 @@
    "locator": "document 843",
    "resume_passage": "Source utilisée pour la non-reconnaissance américaine de l'incorporation des États baltes dans l'URSS.",
    "archive_locale": null,
-   "notes": ""
+   "notes": "Relecture Claude 01/10/2026 (ok) : Mémorandum du Département d'État de 1944 sur la politique de non-reconnaissance de l'absorption des États baltes.",
+   "verification_claude": "ok"
   },
   {
    "source_id": "src-frus-1944-v03-d1164",
@@ -296,7 +306,8 @@
    "locator": "document 1164",
    "resume_passage": "Source utilisée pour éviter d'appliquer rétroactivement les frontières polonaises de l'après-guerre au Snapshot 0.",
    "archive_locale": null,
-   "notes": ""
+   "notes": "Relecture Claude 01/10/2026 (ok) : Lettre de Staline à Roosevelt (jan. 1945) sur la ligne Curzon vs frontière de Riga : soutient le caractère contesté de la frontière polonaise ; ne donne pas de tracé.",
+   "verification_claude": "ok"
   },
   {
    "source_id": "src-frus-1945-v04-d432",
@@ -322,7 +333,8 @@
    "locator": "document 432",
    "resume_passage": "Source utilisée pour la référence aux frontières tchécoslovaques d'avant-guerre et le statut encore non cédé de la Ruthénie au début de 1945.",
    "archive_locale": null,
-   "notes": ""
+   "notes": "Relecture Claude 01/10/2026 (limite) : Le doc 432 (mémorandum PWC-201a, révisé 8 juin 1944) traite de la restauration des frontières d'avant Munich et de la Ruthénie, mais il s'agit d'une position américaine de 1944 ; le statut de la Ruthénie début 1945 relève plutôt des docs 506-517 (cession à l'URSS).",
+   "verification_claude": "limite"
   },
   {
    "source_id": "src-avalon-romania-armistice-1944",
@@ -349,7 +361,8 @@
    "locator": "texte de l'armistice",
    "resume_passage": "Source utilisée pour la frontière soviéto-roumaine et le statut du second arbitrage de Vienne.",
    "archive_locale": null,
-   "notes": ""
+   "notes": "Relecture Claude 01/10/2026 (ok) : Armistice du 12/09/1944 : art. 4 (frontière URSS-Roumanie) et art. 19 (arbitrage de Vienne déclaré nul, Transylvanie à rendre sous réserve du traité de paix) présents.",
+   "verification_claude": "ok"
   },
   {
    "source_id": "src-avalon-hungary-armistice-1945",
@@ -376,7 +389,8 @@
    "locator": "texte de l'armistice",
    "resume_passage": "Source utilisée pour rappeler que les obligations territoriales hongroises entrent en vigueur le 20 janvier, pas au Snapshot 0.",
    "archive_locale": null,
-   "notes": ""
+   "notes": "Relecture Claude 01/10/2026 (ok) : Texte de l'armistice : art. 2 (évacuation vers les frontières du 31/12/1937) et art. 20 (entrée en vigueur à la signature, 20 janvier 1945) ; soutient la datation.",
+   "verification_claude": "ok"
   },
   {
    "source_id": "src-avalon-bulgaria-armistice-1944",
@@ -403,7 +417,8 @@
    "locator": "texte de l'armistice",
    "resume_passage": "Source utilisée pour le retrait bulgare des territoires grecs et yougoslaves occupés pendant la guerre.",
    "archive_locale": null,
-   "notes": ""
+   "notes": "Relecture Claude 01/10/2026 (ok) : L'article 2 de l'armistice impose le retrait bulgare de Grèce et de Yougoslavie.",
+   "verification_claude": "ok"
   },
   {
    "source_id": "src-britannica-russia",
@@ -425,7 +440,8 @@
    "locator": "section histoire — formation de l'URSS",
    "resume_passage": "Source utilisée pour la date de formation de l'URSS (30/12/1922).",
    "archive_locale": null,
-   "notes": "Ajoutée par Claude le 2026-09-26 : citée dans le lot 01 mais absente du registre."
+   "notes": "Ajoutée par Claude le 2026-09-26 : citée dans le lot 01 mais absente du registre. Relecture Claude 01/10/2026 (faible) : La page rendue ne contient que l'intro (dissolution de l'URSS en 1991) ; le texte sur la formation de l'URSS le 30/12/1922 n'est pas visible, seulement un titre de section « Soviet Russia ».",
+   "verification_claude": "faible"
   },
   {
    "source_id": "src-encyclopedia-com-mongolia",
@@ -447,7 +463,8 @@
    "locator": "section histoire",
    "resume_passage": "Source utilisée pour la date de proclamation de la République populaire mongole (26/11/1924).",
    "archive_locale": null,
-   "notes": "Ajoutée par Claude le 2026-09-26 : citée dans le lot 01 mais absente du registre."
+   "notes": "Ajoutée par Claude le 2026-09-26 : citée dans le lot 01 mais absente du registre. Relecture Claude 01/10/2026 (ok) : La page donne bien la date du 26/11/1924 pour la proclamation de la RPM.",
+   "verification_claude": "ok"
   },
   {
    "source_id": "src-uk-ts-1948-53-traite-paix-finlande",
@@ -476,7 +493,8 @@
    "locator": "art. 2 (Petsamo), art. 4 (Porkkala), art. 36 + protocole de dépôt des ratifications (entrée en vigueur)",
    "resume_passage": "Art. 2 : la Finlande confirme le retour de Petsamo (Pechenga) à l'URSS. Art. 4 : la Finlande confirme le bail de 50 ans de Porkkala-Udd à l'URSS (base navale). Signé le 10/02/1947, en vigueur le 15/09/1947.",
    "archive_locale": null,
-   "notes": "Vérifié par Claude le 2026-09-26 sur le PDF officiel."
+   "notes": "Vérifié par Claude le 2026-09-26 sur le PDF officiel. Relecture Claude 01/10/2026 (ok) : Traité de paix du 10/02/1947 : art. 2 (Petsamo), art. 4 (bail de 50 ans de Porkkala-Udd) et protocole de dépôt (entrée en vigueur le 15/09/1947) confirmés.",
+   "verification_claude": "ok"
   },
   {
    "source_id": "src-openhistoricalmap",
@@ -503,7 +521,8 @@
    "locator": "préciser le numéro de relation dans chaque fiche (ex. relation 2957472)",
    "resume_passage": "Tracés de frontières datés, extraits via l’API Overpass OHM le 2026-09-26. Beaucoup de segments reprennent des tracés officiels modernes (LSIB du Département d’État américain, cadastres nationaux) là où la frontière n’a pas bougé.",
    "archive_locale": "outils/geo/deriver_snapshot0_lot01.py (refait l’extraction)",
-   "notes": "Niveau C : compilation collaborative. Selon le récap technique, OHM est une référence de COMPARAISON, jamais la base de vérité → toute géométrie qui en vient reste « provisoire » tant qu’une source A/B ne l’a pas confirmée."
+   "notes": "Niveau C : compilation collaborative. Selon le récap technique, OHM est une référence de COMPARAISON, jamais la base de vérité → toute géométrie qui en vient reste « provisoire » tant qu’une source A/B ne l’a pas confirmée. Relecture Claude 01/10/2026 (limite) : Page d'accueil seulement : confirme le projet et le domaine public, mais ni start_date/end_date ni la relation 2957472 ne sont vérifiables ici.",
+   "verification_claude": "limite"
   },
   {
    "source_id": "src-natural-earth-10m",
@@ -525,7 +544,8 @@
    "locator": "ne_10m_land, ne_10m_minor_islands",
    "resume_passage": "Trait de côte utilisé pour retirer les eaux territoriales des tracés OHM (précision ~1 km).",
    "archive_locale": null,
-   "notes": "Géographie physique actuelle : les côtes ont peu changé depuis 1945, sauf lacs de barrage et mer d’Aral."
+   "notes": "Géographie physique actuelle : les côtes ont peu changé depuis 1945, sauf lacs de barrage et mer d’Aral. Relecture Claude 01/10/2026 (limite) : Page d'accueil : confirme le domaine public et l'échelle 1:10m, mais ne mentionne pas explicitement les jeux ne_10m_land / ne_10m_minor_islands.",
+   "verification_claude": "limite"
   },
   {
    "source_id": "src-cshapes-2-0",
@@ -548,7 +568,8 @@
    "locator": "CShapes-2.0.geojson, entités valides au 1945-01-01",
    "resume_passage": "Frontières d’États datées, fondées surtout sur la reconnaissance internationale. Utilisé UNIQUEMENT pour comparer avec OHM.",
    "archive_locale": null,
-   "notes": "Licence NON COMMERCIALE et « partage à l’identique » : ne pas copier ses tracés dans l’Atlas. Limites constatées : pas de subdivisions (RSS), Petsamo toujours finlandais au 01/01/1945, frontière polonaise d’avant-guerre jusqu’au 07/05/1945."
+   "notes": "Licence NON COMMERCIALE et « partage à l’identique » : ne pas copier ses tracés dans l’Atlas. Limites constatées : pas de subdivisions (RSS), Petsamo toujours finlandais au 01/01/1945, frontière polonaise d’avant-guerre jusqu’au 07/05/1945. Relecture Claude 01/10/2026 (ok) : Bonne page du jeu de données, licence CC BY-NC-SA 4.0 et lien vers CShapes-2.0.geojson confirmés ; les limites notées (Petsamo, Pologne) ne sont pas vérifiables sur la page.",
+   "verification_claude": "ok"
   },
   {
    "source_id": "src-yle-elava-arkisto-porkkala-1944",
@@ -573,7 +594,8 @@
    "locator": "article du 08/09/2006",
    "resume_passage": "« Porkkalan vuokra-alue piti tyhjentää kymmenessä päivässä » ; « Raja-alueen puomi laskeutui 29. syyskuuta 1944 tasan klo 8 » : la zone devait être évacuée en dix jours, la barrière de la nouvelle frontière est abaissée le 29/09/1944 à 8 h.",
    "archive_locale": null,
-   "notes": "Apportée par Ether le 28/09/2026, citations vérifiées par Claude. Évacuation et fermeture de la frontière ≠ forcément prise de contrôle complète : chercher une source A."
+   "notes": "Apportée par Ether le 28/09/2026, citations vérifiées par Claude. Évacuation et fermeture de la frontière ≠ forcément prise de contrôle complète : chercher une source A. Relecture Claude 01/10/2026 (ok) : Les deux phrases citées sont présentes mot pour mot dans l'article ; la réserve (évacuation ≠ prise de contrôle complète) reste valable.",
+   "verification_claude": "ok"
   },
   {
    "source_id": "src-rautatiemuseo-kirkkonummi-asema",
@@ -599,7 +621,8 @@
    "locator": "notice de la photo VR1:2307 (photo datée du 26/01/1956)",
    "resume_passage": "« Kirkkonummi asema jäi Neuvostoliitolle luovutetulle Porkkalan vuokra-alueelle 3.10.1944 - 1.5.1956 väliseksi ajaksi » : la gare de Kirkkonummi est dans la zone remise à l’URSS du 03/10/1944 au 01/05/1956.",
    "archive_locale": null,
-   "notes": "Apportée par Ether le 28/09/2026, citation vérifiée par Claude. Deux écarts à noter : début le 03/10/1944 (et non le 29/09) et fin le 01/05/1956 (et non le 26/01/1956, date du retour de la zone). Utile plus tard pour l’entité « gare » de la couche infrastructures."
+   "notes": "Apportée par Ether le 28/09/2026, citation vérifiée par Claude. Deux écarts à noter : début le 03/10/1944 (et non le 29/09) et fin le 01/05/1956 (et non le 26/01/1956, date du retour de la zone). Utile plus tard pour l’entité « gare » de la couche infrastructures. Relecture Claude 01/10/2026 (ok) : Citation exacte présente dans la notice ; la photo est datée du 26.01.1956, conformément aux notes.",
+   "verification_claude": "ok"
   },
   {
    "source_id": "src-historyrussia-urss-pkwn-frontiere-1944-07-27",
@@ -626,8 +649,9 @@
    ],
    "locator": "document du 27 juillet 1944",
    "resume_passage": "Accord bilatéral PKWN–URSS fixant une frontière fondée sur la ligne Curzon. À utiliser comme base opérationnelle pour le tracé oriental au Snapshot 0, sans le présenter comme un règlement international définitif.",
-   "notes": "Source primaire/archivistique. Le statut international de la frontière reste contesté à cette date. [Apportée par Ether (lot 02), URL vérifiée par Claude le 28/09/2026.]",
-   "archive_locale": null
+   "notes": "Source primaire/archivistique. Le statut international de la frontière reste contesté à cette date. [Apportée par Ether (lot 02), URL vérifiée par Claude le 28/09/2026.] Relecture Claude 01/10/2026 (limite) : La page est une notice avec le bon titre (accord URSS–PKWN du 27 juillet 1944) mais ne reproduit pas le texte ni la mention de la ligne Curzon.",
+   "archive_locale": null,
+   "verification_claude": "limite"
   },
   {
    "source_id": "src-uwb-bialystok-delimitation",
@@ -653,8 +677,9 @@
    ],
    "locator": "résumé et étude du secteur de Białystok",
    "resume_passage": "Confirme l’existence de l’accord secret du 27 juillet 1944 fondé sur la ligne Curzon, mais montre que le statut pratique du secteur de Białystok demeure encore disputé/ambigu jusqu’en 1945.",
-   "notes": "À utiliser pour documenter l’incertitude, pas pour remplacer le texte de l’accord. [Apportée par Ether (lot 02), URL vérifiée par Claude le 28/09/2026.]",
-   "archive_locale": null
+   "notes": "À utiliser pour documenter l’incertitude, pas pour remplacer le texte de l’accord. [Apportée par Ether (lot 02), URL vérifiée par Claude le 28/09/2026.] Relecture Claude 01/10/2026 (ok) : Résumé confirmant l'accord confidentiel du 27/07/1944, la ligne Curzon et le statut non réglé du secteur de Białystok jusqu'en mars 1945.",
+   "archive_locale": null,
+   "verification_claude": "ok"
   },
   {
    "source_id": "src-frus-1945-v05-d106",
@@ -679,8 +704,9 @@
    ],
    "locator": "note 2",
    "resume_passage": "Le 1er janvier 1945, les États-Unis maintiennent encore leurs relations diplomatiques formelles avec le gouvernement polonais en exil à Londres.",
-   "notes": "[Apportée par Ether (lot 02), URL vérifiée par Claude le 28/09/2026.]",
-   "archive_locale": null
+   "notes": "[Apportée par Ether (lot 02), URL vérifiée par Claude le 28/09/2026.] Relecture Claude 01/10/2026 (ok) : La note 2 cite bien la déclaration du Secrétaire d'État du 1er janvier 1945 (document : mémorandum de conversation du 10 janvier 1945).",
+   "archive_locale": null,
+   "verification_claude": "ok"
   },
   {
    "source_id": "src-frus-1945-v05-d104",
@@ -705,8 +731,9 @@
    ],
    "locator": "note 6",
    "resume_passage": "Le PKWN est transformé en Gouvernement provisoire le 31 décembre 1944. La note éditoriale FRUS date l’annonce de la reconnaissance soviétique du 5 janvier 1945.",
-   "notes": "Un autre document FRUS rétrospectif formule la reconnaissance comme accordée le 1er janvier. Pour la timeline journalière, conserver l’incertitude et privilégier l’annonce documentée du 5 janvier tant qu’une source primaire plus précise n’a pas été archivée. [Apportée par Ether (lot 02), URL vérifiée par Claude le 28/09/2026.]",
-   "archive_locale": null
+   "notes": "Un autre document FRUS rétrospectif formule la reconnaissance comme accordée le 1er janvier. Pour la timeline journalière, conserver l’incertitude et privilégier l’annonce documentée du 5 janvier tant qu’une source primaire plus précise n’a pas été archivée. [Apportée par Ether (lot 02), URL vérifiée par Claude le 28/09/2026.] Relecture Claude 01/10/2026 (ok) : La note éditoriale 6 donne la transformation du 31/12/1944 et l'annonce soviétique de reconnaissance du 5 janvier 1945.",
+   "archive_locale": null,
+   "verification_claude": "ok"
   },
   {
    "source_id": "src-frus-1945-v03-d380",
@@ -731,8 +758,9 @@
    ],
    "locator": "résumé du protocole signé le 12 septembre 1944",
    "resume_passage": "Rapport sur les travaux de la Commission consultative européenne : le protocole du 12/09/1944 définit trois zones d'occupation « within her frontiers as they were on 31st December, 1937 » et trois secteurs à Berlin.",
-   "notes": "Cette ligne est une référence alliée de travail, pas une description de toutes les zones effectivement administrées par le Reich au 1er janvier 1945. [Claude, 28/09/2026 : identifiant corrigé de « src-frus-1944-v01-d380 » en « src-frus-1945-v03-d380 » pour suivre l'URL (FRUS 1945, vol. III, doc. 380).] [Apportée par Ether (lot 02), URL vérifiée par Claude le 28/09/2026.]",
-   "archive_locale": null
+   "notes": "Cette ligne est une référence alliée de travail, pas une description de toutes les zones effectivement administrées par le Reich au 1er janvier 1945. [Claude, 28/09/2026 : identifiant corrigé de « src-frus-1944-v01-d380 » en « src-frus-1945-v03-d380 » pour suivre l'URL (FRUS 1945, vol. III, doc. 380).] [Apportée par Ether (lot 02), URL vérifiée par Claude le 28/09/2026.] Relecture Claude 01/10/2026 (ok) : Rapport de la CCE : protocole du 12/09/1944, trois zones et trois secteurs de Berlin, passage cité mot pour mot.",
+   "archive_locale": null,
+   "verification_claude": "ok"
   },
   {
    "source_id": "src-frus-1943-d366",
@@ -757,8 +785,9 @@
    ],
    "locator": "section i — The Problem",
    "resume_passage": "Documente la frontière austro-allemande de 1937 et le petit transfert administratif de 316 km² vers la Bavière après l’Anschluss.",
-   "notes": "[Apportée par Ether (lot 02), URL vérifiée par Claude le 28/09/2026.]",
-   "archive_locale": null
+   "notes": "[Apportée par Ether (lot 02), URL vérifiée par Claude le 28/09/2026.] Relecture Claude 01/10/2026 (ok) : Section I soutient le transfert de 316 km² vers la Bavière après l'Anschluss ; la partie sur la frontière de 1937 est implicite dans le document.",
+   "archive_locale": null,
+   "verification_claude": "ok"
   },
   {
    "source_id": "src-frus-1944-v04-d773",
@@ -786,8 +815,9 @@
    ],
    "locator": "section (1) The Baltic States",
    "resume_passage": "Expose simultanément la position soviétique (intégration des trois États baltes à l’URSS) et la position américaine de non-reconnaissance de cette incorporation.",
-   "notes": "Très utile pour éviter de transformer l’appartenance administrative soviétique en souveraineté internationale incontestée. [Apportée par Ether (lot 02), URL vérifiée par Claude le 28/09/2026.]",
-   "archive_locale": null
+   "notes": "Très utile pour éviter de transformer l’appartenance administrative soviétique en souveraineté internationale incontestée. [Apportée par Ether (lot 02), URL vérifiée par Claude le 28/09/2026.] Relecture Claude 01/10/2026 (ok) : Expose la position soviétique (incorporation par volonté librement exprimée) et la non-reconnaissance américaine, de façon plus détaillée côté américain.",
+   "archive_locale": null,
+   "verification_claude": "ok"
   },
   {
    "source_id": "src-ushmm-lithuania",
@@ -813,8 +843,9 @@
    ],
    "locator": "paragraphes sur 1939–1944",
    "resume_passage": "Rappelle la cession du territoire de Memel/Klaipėda à l’Allemagne en mars 1939, l’annexion soviétique de la Lituanie en 1940 et la réoccupation soviétique de la majeure partie du pays en 1944.",
-   "notes": "[Apportée par Ether (lot 02), URL vérifiée par Claude le 28/09/2026.]",
-   "archive_locale": null
+   "notes": "[Apportée par Ether (lot 02), URL vérifiée par Claude le 28/09/2026.] Relecture Claude 01/10/2026 (ok) : Memel 1939 (ultimatum, traité du 22 mars) et réoccupation soviétique à l'été-automne 1944 sont présents aussi.",
+   "archive_locale": null,
+   "verification_claude": "ok"
   },
   {
    "source_id": "src-lituanistika-samogitie-courlande-2021",
@@ -841,8 +872,9 @@
    ],
    "locator": "résumé anglais/lituanien et article, pp. 94–142",
    "resume_passage": "Situe la formation de la poche de Courlande à partir du 10 octobre 1944 et indique que Klaipėda reste défendue par les forces allemandes jusqu’au 28 janvier 1945.",
-   "notes": "Source B académique ; utile pour le Snapshot 0 et pour préparer l’événement du 28 janvier. [Apportée par Ether (lot 02), URL vérifiée par Claude le 28/09/2026.]",
-   "archive_locale": null
+   "notes": "Source B académique ; utile pour le Snapshot 0 et pour préparer l’événement du 28 janvier. [Apportée par Ether (lot 02), URL vérifiée par Claude le 28/09/2026.] Relecture Claude 01/10/2026 (ok) : Le résumé confirme la poche de Courlande du 10 octobre 1944 au 9 mai 1945 et la défense allemande de Klaipėda jusqu'au 28/01/1945 (pp. 94-142).",
+   "archive_locale": null,
+   "verification_claude": "ok"
   },
   {
    "source_id": "src-ushmm-danzig",
@@ -867,8 +899,9 @@
    ],
    "locator": "section sur septembre 1939",
    "resume_passage": "Décrit l’annexion unilatérale de la Ville libre de Dantzig par l’Allemagne après l’invasion de la Pologne.",
-   "notes": "Le règlement international définitif n’est pas encore fixé au 1er janvier 1945. [Apportée par Ether (lot 02), URL vérifiée par Claude le 28/09/2026.]",
-   "archive_locale": null
+   "notes": "Le règlement international définitif n’est pas encore fixé au 1er janvier 1945. [Apportée par Ether (lot 02), URL vérifiée par Claude le 28/09/2026.] Relecture Claude 01/10/2026 (ok) : La page soutient l'annexion de Dantzig par l'Allemagne en 1939 ; le statut non fixé en 1945 relève des notes de l'atlas, pas de la page.",
+   "archive_locale": null,
+   "verification_claude": "ok"
   },
   {
    "source_id": "src-ushmm-administration-pologne",
@@ -894,8 +927,9 @@
    ],
    "locator": "paragraphes sur l’administration allemande après octobre 1939",
    "resume_passage": "Distingue les territoires polonais annexés directement au Reich (dont Warthegau, Dantzig-Prusse-Occidentale, etc.) du Gouvernement général.",
-   "notes": "Au 1er janvier 1945, ces cadres administratifs doivent être croisés avec la ligne de front, car une partie du territoire est déjà passée sous contrôle soviétique/polonais. [Apportée par Ether (lot 02), URL vérifiée par Claude le 28/09/2026.]",
-   "archive_locale": null
+   "notes": "Au 1er janvier 1945, ces cadres administratifs doivent être croisés avec la ligne de front, car une partie du territoire est déjà passée sous contrôle soviétique/polonais. [Apportée par Ether (lot 02), URL vérifiée par Claude le 28/09/2026.] Relecture Claude 01/10/2026 (ok) : Distingue bien les territoires annexés (Danzig-Prusse-Occidentale, Warthegau, etc.) du Gouvernement général créé le 26 octobre 1939.",
+   "archive_locale": null,
+   "verification_claude": "ok"
   },
   {
    "source_id": "src-frus-1939-v01-d88",
@@ -920,7 +954,8 @@
    "locator": "document 88",
    "resume_passage": "« The occupation of Memel territory effected today. German troops entered at 5 this morning and Hitler arrived at 2 p.m. »",
    "archive_locale": null,
-   "notes": "Citée par Ether dans le lot 02 sous l'ID « src-frus-1939-v01-d88-memel » mais absente du delta : retrouvée et vérifiée par Claude le 28/09/2026."
+   "notes": "Citée par Ether dans le lot 02 sous l'ID « src-frus-1939-v01-d88-memel » mais absente du delta : retrouvée et vérifiée par Claude le 28/09/2026. Relecture Claude 01/10/2026 (ok) : Télégramme de Norem (23 mars 1939) contenant exactement le passage attendu.",
+   "verification_claude": "ok"
   },
   {
    "source_id": "src-trames-2025-baltic-border-policy-1944",
@@ -947,7 +982,8 @@
    "locator": "passages Petserimaa / Narva / Abrene",
    "resume_passage": "D'après la lecture d'Ether (28/09/2026) : Petserimaa transféré vers la RSFSR dès août 1944, Abrene également ; rive orientale de la Narva incorporée au district de Leningrad le 24/11/1944 ; formalisation de ce dernier transfert côté RSS d'Estonie le 18/01/1945.",
    "archive_locale": null,
-   "notes": "Citée par Ether dans le lot 02 mais absente du delta : référence retrouvée par Claude (résumé seulement). Wikipédia (niveau C, non enregistré) donne : rive est de la Narva transférée par décret du Présidium du Soviet suprême de l'URSS en novembre 1944 ; acceptation par le Présidium de la RSS d'Estonie le 18/01/1945 ; Abrene rattachée en 1944, formalisée en 1946. OHM date le changement au 16/01/1945 : écart à trancher."
+   "notes": "Citée par Ether dans le lot 02 mais absente du delta : référence retrouvée par Claude (résumé seulement). Wikipédia (niveau C, non enregistré) donne : rive est de la Narva transférée par décret du Présidium du Soviet suprême de l'URSS en novembre 1944 ; acceptation par le Présidium de la RSS d'Estonie le 18/01/1945 ; Abrene rattachée en 1944, formalisée en 1946. OHM date le changement au 16/01/1945 : écart à trancher. Relecture Claude 01/10/2026 (limite) : Le DOI mène bien à l'article d'Alatalu (TRAMES 29(2), pp. 107-131) mais seul le résumé est accessible ; Petserimaa, Narva et Abrene n'y sont pas nommés et les dates ne sont pas confirmées.",
+   "verification_claude": "limite"
   },
   {
    "source_id": "src-metsahallitus-schutzwall-2002",
@@ -972,7 +1008,8 @@
    "locator": "passage sur les positions allemandes de la Lätäseno (« Sturmbock ») et de Tankavaara (« Schutzwall »)",
    "resume_passage": "Donne le nom de code « Sturmbock » à la position de la Lätäseno et « Schutzwall-Stellung » à celle de Tankavaara ; largeur prévue de la position : environ 20 km.",
    "archive_locale": null,
-   "notes": "Trouvée par Claude le 28/09/2026 en cherchant le rapport Doria cité par Ether (≈ 26 km de fortifications, ligne Lätäseno–Tankavaara–Petsamo) : ce n'est PAS forcément le même document. Lien Doria d'Ether à ajouter."
+   "notes": "Trouvée par Claude le 28/09/2026 en cherchant le rapport Doria cité par Ether (≈ 26 km de fortifications, ligne Lätäseno–Tankavaara–Petsamo) : ce n'est PAS forcément le même document. Lien Doria d'Ether à ajouter. Relecture Claude 01/10/2026 (ok) : Les noms de code et la largeur prévue d'environ 20 km (\"noin 20 kilometriä\") figurent dans le PDF.",
+   "verification_claude": "ok"
   },
   {
    "source_id": "src-piirainen-lapland-war",
@@ -997,7 +1034,8 @@
    "locator": "section Western Lapland",
    "resume_passage": "« The Germans withdrew to the Lätäseno Sturmbock defence positions, where the Finnish advance halted on 29 November. » ; « The Germans withdrew from Lätäseno to Kilpisjärvi on 27 April. »",
    "archive_locale": null,
-   "notes": "Apportée par Ether, citations vérifiées par Claude le 28/09/2026. Niveau C : synthèse d'auteur, à doubler par une source A/B pour les dates."
+   "notes": "Apportée par Ether, citations vérifiées par Claude le 28/09/2026. Niveau C : synthèse d'auteur, à doubler par une source A/B pour les dates. Relecture Claude 01/10/2026 (ok) : Les deux citations attendues (Lätäseno le 29 novembre, Kilpisjärvi le 27 avril) sont présentes ; source de niveau C comme noté.",
+   "verification_claude": "ok"
   },
   {
    "source_id": "src-loc-12ag-1945-01-01",
@@ -1018,7 +1056,8 @@
    "locator": "« Situation 1200 hrs 1 January 1945 », 1:1 000 000 ; image IIIF de la LOC (6575 × 5976 px)",
    "resume_passage": "",
    "archive_locale": "téléchargée dans le cache (non versionnée)",
-   "notes": "Apportée par Ether (lot 03), intégrée par Claude le 28/09/2026. Géoréférencée par Claude (ajustement automatique sur les fleuves Natural Earth, écart ≈ 1-2 km). La LOC conserve la même carte pour CHAQUE jour de janvier 1945 (items 2004630304 à 2004630334) : base idéale pour le ratissage mensuel. RÈGLE DU SNAPSHOT 0 : situation du 01/01 à 12:00, donc APRÈS le Snapshot (00:00) : réservée au ratissage de janvier (état suivant)."
+   "notes": "Apportée par Ether (lot 03), intégrée par Claude le 28/09/2026. Géoréférencée par Claude (ajustement automatique sur les fleuves Natural Earth, écart ≈ 1-2 km). La LOC conserve la même carte pour CHAQUE jour de janvier 1945 (items 2004630304 à 2004630334) : base idéale pour le ratissage mensuel. RÈGLE DU SNAPSHOT 0 : situation du 01/01 à 12:00, donc APRÈS le Snapshot (00:00) : réservée au ratissage de janvier (état suivant). Relecture Claude 01/10/2026 (non_verifiee) : WebFetch a renvoyé une erreur 403 sur la page LOC ; contenu non consulté.",
+   "verification_claude": "non_verifiee"
   },
   {
    "source_id": "src-ushmm-denmark",
@@ -1037,9 +1076,10 @@
     "Occupation allemande ; contrôle direct après août 1943."
    ],
    "locator": "",
-   "resume_passage": "",
+   "resume_passage": "Under the state of emergency German authorities took direct control over the Danish military and police forces.",
    "archive_locale": null,
-   "notes": "Apportée par Ether (lot 03), intégrée par Claude le 28/09/2026."
+   "notes": "Apportée par Ether (lot 03), intégrée par Claude le 28/09/2026. Relecture Claude 01/10/2026 (ok) : La page décrit la démission du gouvernement danois le 29/08/1943, la loi martiale et le contrôle allemand direct.",
+   "verification_claude": "ok"
   },
   {
    "source_id": "src-govfo-faroe-status-wwii",
@@ -1058,9 +1098,10 @@
     "Statut féroïen et défense britannique."
    ],
    "locator": "",
-   "resume_passage": "",
+   "resume_passage": "the Faroes, which were defended by British forces, were responsible for all their internal and external matters",
    "archive_locale": null,
-   "notes": "Apportée par Ether (lot 03), intégrée par Claude le 28/09/2026."
+   "notes": "Apportée par Ether (lot 03), intégrée par Claude le 28/09/2026. Relecture Claude 01/10/2026 (limite) : Soutient la défense britannique et l'autonomie de fait pendant la guerre, mais sans détail sur 1944-1945 ni sur l'occupation de 1940.",
+   "verification_claude": "limite"
   },
   {
    "source_id": "src-snl-east-finnmark-1944",
@@ -1079,9 +1120,10 @@
     "Avancée soviétique jusqu’à la Tana ; présence norvégienne."
    ],
    "locator": "",
-   "resume_passage": "",
+   "resume_passage": "Ved Tanaelva stoppet den sovjetiske offensiven.",
    "archive_locale": null,
-   "notes": "Apportée par Ether (lot 03), intégrée par Claude le 28/09/2026."
+   "notes": "Apportée par Ether (lot 03), intégrée par Claude le 28/09/2026. Relecture Claude 01/10/2026 (ok) : L'article confirme l'arrêt de l'offensive soviétique à la Tana (novembre 1944) et une présence militaire norvégienne croissante (env. 3 000 hommes l'hiver 1944-45).",
+   "verification_claude": "ok"
   },
   {
    "source_id": "src-snl-nordlicht-1944",
@@ -1100,9 +1142,10 @@
     "Retrait allemand vers Lyngen–Kilpisjärvi."
    ],
    "locator": "",
-   "resume_passage": "",
+   "resume_passage": "Operasjon Nordlicht var dekknavnet på tilbaketrekningen av tyske styrker fra Nord-Finland og Finnmark høsten 1944",
    "archive_locale": null,
-   "notes": "Apportée par Ether (lot 03), intégrée par Claude le 28/09/2026."
+   "notes": "Apportée par Ether (lot 03), intégrée par Claude le 28/09/2026. Relecture Claude 01/10/2026 (ok) : L'article décrit le retrait allemand vers la ligne de Lyngen et des positions à Kilpisjärvi pendant l'hiver 1944-1945.",
+   "verification_claude": "ok"
   },
   {
    "source_id": "src-govse-neutrality-wwii",
@@ -1121,9 +1164,10 @@
     "Neutralité suédoise et nuances de fin de guerre."
    ],
    "locator": "",
-   "resume_passage": "",
+   "resume_passage": "In the initial stages of the Second World War, the coalition government made concessions to Germany. In its final stages, Danish and Norwegian units were trained in Sweden.",
    "archive_locale": null,
-   "notes": "Apportée par Ether (lot 03), intégrée par Claude le 28/09/2026."
+   "notes": "Apportée par Ether (lot 03), intégrée par Claude le 28/09/2026. Relecture Claude 01/10/2026 (limite) : Discours de 2024 sur l'adhésion à l'OTAN : ne mentionne qu'en passant les concessions à l'Allemagne et l'entraînement d'unités danoises et norvégiennes ; source faible pour la neutralité de 1944-45.",
+   "verification_claude": "limite"
   },
   {
    "source_id": "src-frus-1944-v03-d915-iceland",
@@ -1142,9 +1186,10 @@
     "République islandaise proclamée le 17/06/1944."
    ],
    "locator": "",
-   "resume_passage": "",
+   "resume_passage": "the Republic of Iceland has been re-established",
    "archive_locale": null,
-   "notes": "Apportée par Ether (lot 03), intégrée par Claude le 28/09/2026."
+   "notes": "Apportée par Ether (lot 03), intégrée par Claude le 28/09/2026. Relecture Claude 01/10/2026 (ok) : Note du ministre d'Islande aux États-Unis datée du 17/06/1944 rapportant la proclamation de la République.",
+   "verification_claude": "ok"
   },
   {
    "source_id": "src-frus-1941-v02-d769-iceland-defense",
@@ -1163,9 +1208,10 @@
     "Défense de l’Islande par les États-Unis."
    ],
    "locator": "",
-   "resume_passage": "",
+   "resume_passage": "the United States Government have decided, in concert with His Majesty's Government, to assume direct responsibility for the defence of Iceland",
    "archive_locale": null,
-   "notes": "Apportée par Ether (lot 03), intégrée par Claude le 28/09/2026."
+   "notes": "Apportée par Ether (lot 03), intégrée par Claude le 28/09/2026. Relecture Claude 01/10/2026 (ok) : Document de l'ambassade britannique (1941) contenant le projet de communiqué sur la défense américaine de l'Islande.",
+   "verification_claude": "ok"
   },
   {
    "source_id": "src-govie-neutrality-policy",
@@ -1186,7 +1232,8 @@
    "locator": "",
    "resume_passage": "",
    "archive_locale": null,
-   "notes": "Apportée par Ether (lot 03), intégrée par Claude le 28/09/2026."
+   "notes": "Apportée par Ether (lot 03), intégrée par Claude le 28/09/2026. Relecture Claude 01/10/2026 (non_verifiee) : WebFetch a renvoyé une erreur 403 ; page non lue.",
+   "verification_claude": "non_verifiee"
   },
   {
    "source_id": "src-govje-occupation-liberation",
@@ -1205,9 +1252,10 @@
     "Occupation allemande de Jersey jusqu’en mai 1945."
    ],
    "locator": "",
-   "resume_passage": "",
+   "resume_passage": "Jersey was not to be liberated until a day later on 9 May 1945, when British troops arrived in HMS Beagle.",
    "archive_locale": null,
-   "notes": "Apportée par Ether (lot 03), intégrée par Claude le 28/09/2026."
+   "notes": "Apportée par Ether (lot 03), intégrée par Claude le 28/09/2026. Relecture Claude 01/10/2026 (ok) : La page confirme l'occupation allemande de Jersey jusqu'à la libération du 9 mai 1945.",
+   "verification_claude": "ok"
   },
   {
    "source_id": "src-hol-channel-islands-occupation",
@@ -1226,9 +1274,10 @@
     "Occupation allemande des Îles Anglo-Normandes."
    ],
    "locator": "",
-   "resume_passage": "",
+   "resume_passage": "The D-Day landings in 1944 signalled the beginning of the end of the German occupation. However, it was not until nearly a year later that the islands were finally liberated.",
    "archive_locale": null,
-   "notes": "Apportée par Ether (lot 03), intégrée par Claude le 28/09/2026."
+   "notes": "Apportée par Ether (lot 03), intégrée par Claude le 28/09/2026. Relecture Claude 01/10/2026 (ok) : Confirme l'occupation allemande jusqu'à la libération du 9 mai 1945, donc toujours occupées au 01/01/1945.",
+   "verification_claude": "ok"
   },
   {
    "source_id": "src-frus-1944-v04-d836-france-recognition",
@@ -1247,9 +1296,10 @@
     "Reconnaissance du Gouvernement provisoire français."
    ],
    "locator": "",
-   "resume_passage": "",
+   "resume_passage": "the Soviet Government announces its decision to recognize the Provisional Government and its wish to appoint Bogomolov Ambassador",
    "archive_locale": null,
-   "notes": "Apportée par Ether (lot 03), intégrée par Claude le 28/09/2026."
+   "notes": "Apportée par Ether (lot 03), intégrée par Claude le 28/09/2026. Relecture Claude 01/10/2026 (limite) : Le document est un télégramme sur la reconnaissance soviétique (23/10/1944) du GPRF, pas la reconnaissance américaine ou générale.",
+   "verification_claude": "limite"
   },
   {
    "source_id": "src-frus-1944-v01-d154-west-borders",
@@ -1268,9 +1318,10 @@
     "Frontière belge de 1920 et Alsace-Lorraine."
    ],
    "locator": "",
-   "resume_passage": "",
+   "resume_passage": "The Belgian-German frontier should be returned to the 1920–1940 line.",
    "archive_locale": null,
-   "notes": "Apportée par Ether (lot 03), intégrée par Claude le 28/09/2026."
+   "notes": "Apportée par Ether (lot 03), intégrée par Claude le 28/09/2026. Relecture Claude 01/10/2026 (ok) : Mémorandum de juillet 1944 : contient aussi « Alsace-Lorraine should be returned to France » ; ce sont des positions américaines de planification, pas des faits de contrôle.",
+   "verification_claude": "ok"
   },
   {
    "source_id": "src-chemins-alsace-moselle-annexion",
@@ -1291,7 +1342,8 @@
    "locator": "",
    "resume_passage": "",
    "archive_locale": null,
-   "notes": "Apportée par Ether (lot 03), intégrée par Claude le 28/09/2026."
+   "notes": "Apportée par Ether (lot 03), intégrée par Claude le 28/09/2026. Relecture Claude 01/10/2026 (non_verifiee) : WebFetch renvoie une redirection 302 vers une page d'authentification (auth.defense.gouv.fr) ; contenu non accessible.",
+   "verification_claude": "non_verifiee"
   },
   {
    "source_id": "src-chemins-poches-atlantique-1945",
@@ -1312,7 +1364,8 @@
    "locator": "",
    "resume_passage": "",
    "archive_locale": null,
-   "notes": "Apportée par Ether (lot 03), intégrée par Claude le 28/09/2026."
+   "notes": "Apportée par Ether (lot 03), intégrée par Claude le 28/09/2026. Relecture Claude 01/10/2026 (non_verifiee) : Redirection 302 vers une page d'authentification (auth.defense.gouv.fr), contenu inaccessible sans connexion.",
+   "verification_claude": "non_verifiee"
   },
   {
    "source_id": "src-chemins-colmar-1945",
@@ -1331,9 +1384,10 @@
     "Poche de Colmar au 01/01/1945."
    ],
    "locator": "",
-   "resume_passage": "",
+   "resume_passage": "Le 1er janvier 1945, le général américain Eisenhower envisage même de se replier au-delà des Vosges, abandonnant la poche de Colmar",
    "archive_locale": null,
-   "notes": "Apportée par Ether (lot 03), intégrée par Claude le 28/09/2026."
+   "notes": "Apportée par Ether (lot 03), intégrée par Claude le 28/09/2026. Relecture Claude 01/10/2026 (limite) : Page sur la nécropole de Sigolsheim : n'évoque la poche de Colmar qu'en passant, sans en donner l'étendue ni la tenue allemande de façon explicite.",
+   "verification_claude": "limite"
   },
   {
    "source_id": "src-belgium-chancellery-bulge",
@@ -1354,7 +1408,8 @@
    "locator": "",
    "resume_passage": "",
    "archive_locale": null,
-   "notes": "Apportée par Ether (lot 03), intégrée par Claude le 28/09/2026."
+   "notes": "Apportée par Ether (lot 03), intégrée par Claude le 28/09/2026. Relecture Claude 01/10/2026 (lien_casse) : Le serveur renvoie une erreur 404 : le PDF n'existe plus à cette adresse.",
+   "verification_claude": "lien_casse"
   },
   {
    "source_id": "src-luxembourg-wwii",
@@ -1373,9 +1428,10 @@
     "Libération de septembre 1944 puis retour des combats."
    ],
    "locator": "",
-   "resume_passage": "",
+   "resume_passage": "On 10 September 1944, Luxembourg was liberated by the American army.",
    "archive_locale": null,
-   "notes": "Apportée par Ether (lot 03), intégrée par Claude le 28/09/2026."
+   "notes": "Apportée par Ether (lot 03), intégrée par Claude le 28/09/2026. Relecture Claude 01/10/2026 (ok) : Libération de sept. 1944, offensive allemande de décembre 1944 et combats jusqu'en février 1945 (Vianden le 22) confirmés.",
+   "verification_claude": "ok"
   },
   {
    "source_id": "src-luxembourg-bulge",
@@ -1394,9 +1450,10 @@
     "Nord/est du Luxembourg touché par l’offensive."
    ],
    "locator": "",
-   "resume_passage": "",
+   "resume_passage": "laying wast to Luxembourg's northern regions",
    "archive_locale": null,
-   "notes": "Apportée par Ether (lot 03), intégrée par Claude le 28/09/2026."
+   "notes": "Apportée par Ether (lot 03), intégrée par Claude le 28/09/2026. Relecture Claude 01/10/2026 (ok) : La page décrit le nord du Luxembourg ravagé (Wiltz, Clervaux, Diekirch, Ettelbruck, Beaufort, Echternach) ; l'« est » n'est pas explicitement nommé mais Echternach/Diekirch en relèvent.",
+   "verification_claude": "ok"
   },
   {
    "source_id": "src-nationaalarchief-south-netherlands-liberation",
@@ -1415,9 +1472,10 @@
     "Libération du sud des Pays-Bas à l’automne 1944."
    ],
    "locator": "",
-   "resume_passage": "",
+   "resume_passage": "Tachtig jaar geleden, op 12 september 1944, kwamen de eerste bevrijders Zuid-Limburg binnen.",
    "archive_locale": null,
-   "notes": "Apportée par Ether (lot 03), intégrée par Claude le 28/09/2026."
+   "notes": "Apportée par Ether (lot 03), intégrée par Claude le 28/09/2026. Relecture Claude 01/10/2026 (ok) : La page traite de la libération du sud des Pays-Bas dès septembre 1944 et de l'arrêt aux grands fleuves après Market Garden.",
+   "verification_claude": "ok"
   },
   {
    "source_id": "src-annefrank-netherlands-liberation",
@@ -1436,9 +1494,10 @@
     "Front d’hiver 1944-45 et occupation du nord/ouest."
    ],
    "locator": "",
-   "resume_passage": "",
+   "resume_passage": "In the winter of 1944-1945, the front line stretched from the Zeeland islands, along the Meuse and Waal rivers, all the way to Germany.",
    "archive_locale": null,
-   "notes": "Apportée par Ether (lot 03), intégrée par Claude le 28/09/2026."
+   "notes": "Apportée par Ether (lot 03), intégrée par Claude le 28/09/2026. Relecture Claude 01/10/2026 (ok) : Confirme le sud libéré à l'automne 1944 et le front d'hiver ; nord/ouest occupés implicite (pas de mention explicite de l'hiver de la faim).",
+   "verification_claude": "ok"
   },
   {
    "source_id": "src-westpoint-general-situation-1944-12-15",
@@ -1463,7 +1522,8 @@
    "locator": "arcs rouges : Dunkerque, Lorient, Saint-Nazaire, La Rochelle, Royan, pointe de Grave",
    "resume_passage": "Situation générale sur le front de l’Ouest au 15/12/1944, dont les poches allemandes du littoral.",
    "archive_locale": null,
-   "notes": "Trouvée par Claude. Carte à petite échelle (≈ 1:5 000 000) : incertitude ≈ 5 km. Géoréférencée sur les côtes et fleuves Natural Earth."
+   "notes": "Trouvée par Claude. Carte à petite échelle (≈ 1:5 000 000) : incertitude ≈ 5 km. Géoréférencée sur les côtes et fleuves Natural Earth. Relecture Claude 01/10/2026 (non_verifiee) : WebFetch ne gère pas les images (JPG) : contenu de la carte non vérifiable par cet outil.",
+   "verification_claude": "non_verifiee"
   },
   {
    "source_id": "src-westpoint-alsace-colmar-1945",
@@ -1486,7 +1546,8 @@
    "locator": "tireté rouge « 20 Jan. »",
    "resume_passage": "Offensive allemande en Alsace (janvier 1945) et réduction de la poche de Colmar (20/01-09/02/1945).",
    "archive_locale": null,
-   "notes": "Trouvée par Claude. Sert pour le sud de la poche, hors de la carte LOC. Utile aussi pour le ratissage de janvier (Nordwind, Sonnenwende). Réservée au ratissage de janvier (situation postérieure au Snapshot 0)."
+   "notes": "Trouvée par Claude. Sert pour le sud de la poche, hors de la carte LOC. Utile aussi pour le ratissage de janvier (Nordwind, Sonnenwende). Réservée au ratissage de janvier (situation postérieure au Snapshot 0). Relecture Claude 01/10/2026 (non_verifiee) : WebFetch ne prend pas en charge les images (JPG) : carte et tireté « 20 Jan. » non vus.",
+   "verification_claude": "non_verifiee"
   },
   {
    "source_id": "src-loc-12ag-1944-12-31",
@@ -1513,7 +1574,8 @@
    "locator": "« Situation 1200 hrs 31 December 1944 »",
    "resume_passage": "Même série que la carte du 01/01/1945, douze heures avant le Snapshot 0.",
    "archive_locale": "téléchargée dans le cache (non versionnée)",
-   "notes": "Trouvée par Claude : dernière situation connue AVANT le Snapshot 0 (31/12/1944 à 12:00) ; sert de base au front de l'Ouest du Snapshot 0."
+   "notes": "Trouvée par Claude : dernière situation connue AVANT le Snapshot 0 (31/12/1944 à 12:00) ; sert de base au front de l'Ouest du Snapshot 0. Relecture Claude 01/10/2026 (non_verifiee) : WebFetch a renvoyé une erreur 403 sur loc.gov ; notice non lue.",
+   "verification_claude": "non_verifiee"
   },
   {
    "source_id": "src-westpoint-6-12ag-1944-11-12",
@@ -1537,7 +1599,8 @@
    "locator": "trait rouge plein « 8 Nov.-15 Dec. » (front au 15/12/1944)",
    "resume_passage": "Front du 6e et du 12e groupe d’armées au 15/12/1944, dont la poche de Colmar.",
    "archive_locale": null,
-   "notes": "Trouvée par Claude : dernière situation connue AVANT le Snapshot pour le sud de la poche de Colmar (hors de la carte LOC). Carte stylisée, calée sur 11 villes (écart moyen 1,7 km)."
+   "notes": "Trouvée par Claude : dernière situation connue AVANT le Snapshot pour le sud de la poche de Colmar (hors de la carte LOC). Carte stylisée, calée sur 11 villes (écart moyen 1,7 km). Relecture Claude 01/10/2026 (non_verifiee) : WebFetch ne sait pas lire les images (JPG) : « Image content is not supported », carte non contrôlée.",
+   "verification_claude": "non_verifiee"
   },
   {
    "source_id": "src-frus-1943-v02-d554-spain",
@@ -1554,9 +1617,10 @@
    "zones": [],
    "usages_atlas": [],
    "locator": "",
-   "resume_passage": "",
+   "resume_passage": "Spain's policy was in fact neutral. He was determined Spain would not be involved in the war.",
    "archive_locale": null,
-   "notes": "Apportée par Ether (lot 04), intégrée par Claude le 28/09/2026."
+   "notes": "Apportée par Ether (lot 04), intégrée par Claude le 28/09/2026. Relecture Claude 01/10/2026 (limite) : Bon sujet (neutralité/non-belligérance espagnole) mais télégramme du 30 juillet 1943 ; ne couvre pas la situation de 1944-1945.",
+   "verification_claude": "limite"
   },
   {
    "source_id": "src-frus-1945-v05-d313-portugal",
@@ -1573,9 +1637,10 @@
    "zones": [],
    "usages_atlas": [],
    "locator": "",
-   "resume_passage": "",
+   "resume_passage": "Portugal, of course, was officially neutral, but inquired whether it was not true that an initial departure from neutrality had been made when the Azores agreement was signed",
    "archive_locale": null,
-   "notes": "Apportée par Ether (lot 04), intégrée par Claude le 28/09/2026."
+   "notes": "Apportée par Ether (lot 04), intégrée par Claude le 28/09/2026. Relecture Claude 01/10/2026 (ok) : Télégramme du 1er janvier 1945 évoquant la neutralité officielle du Portugal et l'accord des Açores (sujet principal : transport aérien via Lisbonne).",
+   "verification_claude": "ok"
   },
   {
    "source_id": "src-frus-1944-v04-d69-azores",
@@ -1592,9 +1657,10 @@
    "zones": [],
    "usages_atlas": [],
    "locator": "",
-   "resume_passage": "",
+   "resume_passage": "desires of our Air Corps for the immediate construction and future wartime operation of an airfield on Santa Maria in the Azores",
    "archive_locale": null,
-   "notes": "Apportée par Ether (lot 04), intégrée par Claude le 28/09/2026."
+   "notes": "Apportée par Ether (lot 04), intégrée par Claude le 28/09/2026. Relecture Claude 01/10/2026 (ok) : Mémorandum du 22 juillet 1944 sur l'aérodrome de Santa Maria aux Açores ; bon document.",
+   "verification_claude": "ok"
   },
   {
    "source_id": "src-gibraltar-political-development",
@@ -1611,9 +1677,10 @@
    "zones": [],
    "usages_atlas": [],
    "locator": "",
-   "resume_passage": "",
+   "resume_passage": "marking the tercentenary of British sovereignty",
    "archive_locale": null,
-   "notes": "Apportée par Ether (lot 04), intégrée par Claude le 28/09/2026."
+   "notes": "Apportée par Ether (lot 04), intégrée par Claude le 28/09/2026. Relecture Claude 01/10/2026 (limite) : La page est un discours/dossier politique sur l'autodétermination (mention de la souveraineté britannique et du traité d'Utrecht), pas une page d'histoire factuelle précise ; utile seulement pour le statut colonial britannique de Gibraltar.",
+   "verification_claude": "limite"
   },
   {
    "source_id": "src-andorra-neutrality-wwii",
@@ -1632,7 +1699,8 @@
    "locator": "",
    "resume_passage": "",
    "archive_locale": null,
-   "notes": "Apportée par Ether (lot 04), intégrée par Claude le 28/09/2026."
+   "notes": "Apportée par Ether (lot 04), intégrée par Claude le 28/09/2026. Relecture Claude 01/10/2026 (faible) : Le contenu rendu n'est qu'un menu de navigation du gouvernement andorran, aucun texte sur la neutralité d'Andorre pendant la guerre ; à rechercher manuellement.",
+   "verification_claude": "faible"
   },
   {
    "source_id": "src-frus-1945-v05-d582-switzerland",
@@ -1649,9 +1717,10 @@
    "zones": [],
    "usages_atlas": [],
    "locator": "",
-   "resume_passage": "",
+   "resume_passage": "benefits to us of Switzerland's neutral position and future potential usefulness in the economy of Europe",
    "archive_locale": null,
-   "notes": "Apportée par Ether (lot 04), intégrée par Claude le 28/09/2026."
+   "notes": "Apportée par Ether (lot 04), intégrée par Claude le 28/09/2026. Relecture Claude 01/10/2026 (ok) : Télégramme de fin décembre 1944 évoquant la position neutre de la Suisse ; soutient la neutralité à la période visée.",
+   "verification_claude": "ok"
   },
   {
    "source_id": "src-monaco-liberation-1944",
@@ -1670,7 +1739,8 @@
    "locator": "",
    "resume_passage": "",
    "archive_locale": null,
-   "notes": "Apportée par Ether (lot 04), intégrée par Claude le 28/09/2026."
+   "notes": "Apportée par Ether (lot 04), intégrée par Claude le 28/09/2026. Relecture Claude 01/10/2026 (non_verifiee) : WebFetch refusé : ROBOTS_DISALLOWED (échec de récupération de robots.txt) sur en.gouv.mc.",
+   "verification_claude": "non_verifiee"
   },
   {
    "source_id": "src-monaco-occupation-report",
@@ -1689,7 +1759,8 @@
    "locator": "",
    "resume_passage": "",
    "archive_locale": null,
-   "notes": "Apportée par Ether (lot 04), intégrée par Claude le 28/09/2026."
+   "notes": "Apportée par Ether (lot 04), intégrée par Claude le 28/09/2026. Relecture Claude 01/10/2026 (non_verifiee) : WebFetch bloqué (robots.txt illisible / timeout) sur en.gouv.mc, deux essais ; contenu non vu.",
+   "verification_claude": "non_verifiee"
   },
   {
    "source_id": "src-vatican-history-1929",
@@ -1706,9 +1777,10 @@
    "zones": [],
    "usages_atlas": [],
    "locator": "",
-   "resume_passage": "",
+   "resume_passage": "Vatican City State arose from the Lateran treaty signed on 11 February 1929 between the Holy See and Italy, which recognized it as a sovereign state",
    "archive_locale": null,
-   "notes": "Apportée par Ether (lot 04), intégrée par Claude le 28/09/2026."
+   "notes": "Apportée par Ether (lot 04), intégrée par Claude le 28/09/2026. Relecture Claude 01/10/2026 (ok) : La page officielle confirme la création de l'État de la Cité du Vatican par les accords du Latran du 11/02/1929.",
+   "verification_claude": "ok"
   },
   {
    "source_id": "src-westpoint-italy-jun-dec1944",
@@ -1727,7 +1799,8 @@
    "locator": "tireté rouge « 31 Dec. »",
    "resume_passage": "",
    "archive_locale": null,
-   "notes": "Apportée par Ether (lot 04), intégrée par Claude le 28/09/2026. Lien exact ajouté par Claude. Carte stylisée, calée sur 26 villes (≈ 7 km en moyenne)."
+   "notes": "Apportée par Ether (lot 04), intégrée par Claude le 28/09/2026. Lien exact ajouté par Claude. Carte stylisée, calée sur 26 villes (≈ 7 km en moyenne). Relecture Claude 01/10/2026 (non_verifiee) : WebFetch ne sait pas lire les images (JPG) : « Image content is not supported », carte non contrôlée.",
+   "verification_claude": "non_verifiee"
   },
   {
    "source_id": "src-frus-1945-v04-d973-italy",
@@ -1744,9 +1817,10 @@
    "zones": [],
    "usages_atlas": [],
    "locator": "",
-   "resume_passage": "",
+   "resume_passage": "On October 13, 1943, Italy declared war against Germany and was granted the status of cobelligerent by the Allies.",
    "archive_locale": null,
-   "notes": "Apportée par Ether (lot 04), intégrée par Claude le 28/09/2026."
+   "notes": "Apportée par Ether (lot 04), intégrée par Claude le 28/09/2026. Relecture Claude 01/10/2026 (ok) : Rapport du 6 septembre 1945 qui confirme le statut de cobelligérant de l'Italie depuis le 13 octobre 1943.",
+   "verification_claude": "ok"
   },
   {
    "source_id": "src-frus-1945-v01-d194-italy",
@@ -1763,9 +1837,10 @@
    "zones": [],
    "usages_atlas": [],
    "locator": "",
-   "resume_passage": "",
+   "resume_passage": "We have been unable to end the anomaly of Italy's dual status as active cobelligerent and as defeated enemy.",
    "archive_locale": null,
-   "notes": "Apportée par Ether (lot 04), intégrée par Claude le 28/09/2026."
+   "notes": "Apportée par Ether (lot 04), intégrée par Claude le 28/09/2026. Relecture Claude 01/10/2026 (ok) : Télégramme (Grew à Stettinius, conférence de San Francisco) confirmant le double statut de l'Italie.",
+   "verification_claude": "ok"
   },
   {
    "source_id": "src-frus-1945-v02-d582-czechoslovakia",
@@ -1782,9 +1857,10 @@
    "zones": [],
    "usages_atlas": [],
    "locator": "",
-   "resume_passage": "",
+   "resume_passage": "the Czechoslovak Government formally notifies us of its intention to expel to Germany perhaps two million Sudetens",
    "archive_locale": null,
-   "notes": "Apportée par Ether (lot 04), intégrée par Claude le 28/09/2026."
+   "notes": "Apportée par Ether (lot 04), intégrée par Claude le 28/09/2026. Relecture Claude 01/10/2026 (limite) : Document de nov. 1944 sur la Tchécoslovaquie (expulsion des Sudètes, frontières) ; le sujet exact de l'usage dans l'atlas (statut/contrôle) n'est pas précisé dans la fiche.",
+   "verification_claude": "limite"
   },
   {
    "source_id": "src-frus-1945-v04-czechoslovakia",
@@ -1801,9 +1877,10 @@
    "zones": [],
    "usages_atlas": [],
    "locator": "",
-   "resume_passage": "",
+   "resume_passage": "Czechoslovakia: (Documents 432–552)",
    "archive_locale": null,
-   "notes": "Apportée par Ether (lot 04), intégrée par Claude le 28/09/2026."
+   "notes": "Apportée par Ether (lot 04), intégrée par Claude le 28/09/2026. Relecture Claude 01/10/2026 (ok) : Page d'index du volume FRUS 1945 IV qui liste bien la section Tchécoslovaquie, dont la cession de la Ruthénie subcarpatique (docs 506-517).",
+   "verification_claude": "ok"
   },
   {
    "source_id": "src-frus-1944-v03-d899-hungary",
@@ -1820,9 +1897,10 @@
    "zones": [],
    "usages_atlas": [],
    "locator": "",
-   "resume_passage": "",
+   "resume_passage": "From January 18 to January 20 negotiations took place in Moscow between representatives of the Soviet Union, Great Britain and the United States",
    "archive_locale": null,
-   "notes": "Apportée par Ether (lot 04), intégrée par Claude le 28/09/2026."
+   "notes": "Apportée par Ether (lot 04), intégrée par Claude le 28/09/2026. Relecture Claude 01/10/2026 (limite) : Bon sujet (armistice hongrois) mais le document concerne l'armistice signé le 20/01/1945, donc postérieur au 01/01/1945, et non des négociations de 1944.",
+   "verification_claude": "limite"
   },
   {
    "source_id": "src-avalon-rumania-armistice-1944",
@@ -1839,9 +1917,10 @@
    "zones": [],
    "usages_atlas": [],
    "locator": "",
-   "resume_passage": "",
+   "resume_passage": "The Government and High Command of Rumania, recognizing the fact of the defeat of Rumania in the war against the Union of Soviet Socialist Republics",
    "archive_locale": null,
-   "notes": "Apportée par Ether (lot 04), intégrée par Claude le 28/09/2026."
+   "notes": "Apportée par Ether (lot 04), intégrée par Claude le 28/09/2026. Relecture Claude 01/10/2026 (ok) : Bon document : armistice du 12 septembre 1944, avec art. 4 (frontière soviéto-roumaine de 1940) et art. 19 (Transylvanie, Vienne null and void).",
+   "verification_claude": "ok"
   },
   {
    "source_id": "src-frus-1945-malta-d180-yugoslavia",
@@ -1858,9 +1937,10 @@
    "zones": [],
    "usages_atlas": [],
    "locator": "",
-   "resume_passage": "",
+   "resume_passage": "The Partisan organization appears in fact to be in effective control of the liberated parts of Yugoslavia",
    "archive_locale": null,
-   "notes": "Apportée par Ether (lot 04), intégrée par Claude le 28/09/2026."
+   "notes": "Apportée par Ether (lot 04), intégrée par Claude le 28/09/2026. Relecture Claude 01/10/2026 (ok) : Document de briefing sur les principaux problèmes yougoslaves (accord Tito-Subasic, régence, contrôle partisan).",
+   "verification_claude": "ok"
   },
   {
    "source_id": "src-frus-1944-v03-d210-albania",
@@ -1877,9 +1957,10 @@
    "zones": [],
    "usages_atlas": [],
    "locator": "",
-   "resume_passage": "",
+   "resume_passage": "following liberation of Tirana by Partisans, FNC controls about four-fifths of the country",
    "archive_locale": null,
-   "notes": "Apportée par Ether (lot 04), intégrée par Claude le 28/09/2026."
+   "notes": "Apportée par Ether (lot 04), intégrée par Claude le 28/09/2026. Relecture Claude 01/10/2026 (ok) : Télégramme de nov. 1944 sur l'Albanie après la libération de Tirana ; bon document.",
+   "verification_claude": "ok"
   },
   {
    "source_id": "src-frus-1944-v03-d203-albania",
@@ -1896,9 +1977,10 @@
    "zones": [],
    "usages_atlas": [],
    "locator": "",
-   "resume_passage": "",
+   "resume_passage": "Enver Hoxha made a declaration on October 20th in Berat that the first 'Albanian Democratic Government' had now been formed",
    "archive_locale": null,
-   "notes": "Apportée par Ether (lot 04), intégrée par Claude le 28/09/2026."
+   "notes": "Apportée par Ether (lot 04), intégrée par Claude le 28/09/2026. Relecture Claude 01/10/2026 (ok) : Mémorandum de l'ambassade britannique (875.01/11-344) qui traite bien du gouvernement démocratique albanais de 1944.",
+   "verification_claude": "ok"
   },
   {
    "source_id": "src-frus-1944-v05-d157-greece",
@@ -1915,9 +1997,10 @@
    "zones": [],
    "usages_atlas": [],
    "locator": "",
-   "resume_passage": "",
+   "resume_passage": "Serious armed conflict is raging in Athens today between some 16,000 British and Greek Government troops and an unknown proportion of the 50,000 EAM–ELAS guerillas.",
    "archive_locale": null,
-   "notes": "Apportée par Ether (lot 04), intégrée par Claude le 28/09/2026."
+   "notes": "Apportée par Ether (lot 04), intégrée par Claude le 28/09/2026. Relecture Claude 01/10/2026 (ok) : Mémorandum de Stettinius à Roosevelt du 13/12/1944 sur la crise grecque de décembre 1944.",
+   "verification_claude": "ok"
   },
   {
    "source_id": "src-frus-1945-v08-d51-greece",
@@ -1934,9 +2017,10 @@
    "zones": [],
    "usages_atlas": [],
    "locator": "",
-   "resume_passage": "",
+   "resume_passage": "Civil strife was precipitated after the resignation of six Leftist ministers and the British decision to support Papandreou",
    "archive_locale": null,
-   "notes": "Apportée par Ether (lot 04), intégrée par Claude le 28/09/2026."
+   "notes": "Apportée par Ether (lot 04), intégrée par Claude le 28/09/2026. Relecture Claude 01/10/2026 (ok) : Mémorandum du 6 janvier 1945 sur la Grèce (combats d'Athènes de décembre 1944, ELAS, régence) ; correspond au sujet.",
+   "verification_claude": "ok"
   },
   {
    "source_id": "src-frus-1945-berlin-v01-d682-turkey",
@@ -1953,9 +2037,10 @@
    "zones": [],
    "usages_atlas": [],
    "locator": "",
-   "resume_passage": "",
+   "resume_passage": "Turkey maintained her pro-Allied armed neutrality",
    "archive_locale": null,
-   "notes": "Apportée par Ether (lot 04), intégrée par Claude le 28/09/2026."
+   "notes": "Apportée par Ether (lot 04), intégrée par Claude le 28/09/2026. Relecture Claude 01/10/2026 (ok) : Briefing paper n° 682 sur la politique américaine envers la Turquie mentionnant sa neutralité armée pro-alliée.",
+   "verification_claude": "ok"
   },
   {
    "source_id": "src-frus-1944-v05-d968-turkey",
@@ -1972,9 +2057,10 @@
    "zones": [],
    "usages_atlas": [],
    "locator": "",
-   "resume_passage": "",
+   "resume_passage": "the action taken by the Government would become effective on January 6",
    "archive_locale": null,
-   "notes": "Apportée par Ether (lot 04), intégrée par Claude le 28/09/2026."
+   "notes": "Apportée par Ether (lot 04), intégrée par Claude le 28/09/2026. Relecture Claude 01/10/2026 (ok) : Télégramme du début janvier 1945 : la Turquie rompt relations diplomatiques et économiques avec le Japon, effectif le 6 janvier.",
+   "verification_claude": "ok"
   },
   {
    "source_id": "src-govcy-cyprus-history",
@@ -1993,7 +2079,8 @@
    "locator": "",
    "resume_passage": "",
    "archive_locale": null,
-   "notes": "Apportée par Ether (lot 04), intégrée par Claude le 28/09/2026."
+   "notes": "Apportée par Ether (lot 04), intégrée par Claude le 28/09/2026. Relecture Claude 01/10/2026 (non_verifiee) : WebFetch a renvoyé une erreur 403 ; page non lue.",
+   "verification_claude": "non_verifiee"
   },
   {
    "source_id": "src-cyprus-education-1878-1955",
@@ -2010,9 +2097,10 @@
    "zones": [],
    "usages_atlas": [],
    "locator": "",
-   "resume_passage": "",
+   "resume_passage": "Η έκρηξη του Β' Παγκοσμίου Πολέμου άλλαξε τα δεδομένα.",
    "archive_locale": null,
-   "notes": "Apportée par Ether (lot 04), intégrée par Claude le 28/09/2026."
+   "notes": "Apportée par Ether (lot 04), intégrée par Claude le 28/09/2026. Relecture Claude 01/10/2026 (limite) : Page centrée sur la lutte de 1955-1959 ; ne mentionne la période 1878-1955 et la guerre que de façon générale, sans détail sur le statut colonial britannique en 1944-1945.",
+   "verification_claude": "limite"
   },
   {
    "source_id": "src-malta-qala-history",
@@ -2029,9 +2117,10 @@
    "zones": [],
    "usages_atlas": [],
    "locator": "",
-   "resume_passage": "",
+   "resume_passage": "The British slowly transformed the islands into a fortress colony.",
    "archive_locale": null,
-   "notes": "Apportée par Ether (lot 04), intégrée par Claude le 28/09/2026."
+   "notes": "Apportée par Ether (lot 04), intégrée par Claude le 28/09/2026. Relecture Claude 01/10/2026 (ok) : Soutient Malte comme colonie-forteresse britannique ; pas de précision spécifique sur 1944-45.",
+   "verification_claude": "ok"
   },
   {
    "source_id": "src-milos-war-museum",
@@ -2055,7 +2144,8 @@
    "locator": "page « World War II »",
    "resume_passage": "« Milos was occupied by the German Wehrmacht for four years and three hours, the occupation lasted from May 9, 1941 to May 9, 1945. »",
    "archive_locale": null,
-   "notes": "Trouvée par Claude le 29/09/2026."
+   "notes": "Trouvée par Claude le 29/09/2026. Relecture Claude 01/10/2026 (ok) : Citation présente mot pour mot sur la page sous le titre World War II.",
+   "verification_claude": "ok"
   },
   {
    "source_id": "src-wikipedia-fortress-crete",
@@ -2079,7 +2169,8 @@
    "locator": "1944-1945",
    "resume_passage": "« After the general retreat from Greece in October 1944, the Germans, along with some Italian battalions, remained in Crete. » ; « The eastern part of Crete was evacuated during the winter » ; reddition le 12/05/1945.",
    "archive_locale": null,
-   "notes": "Trouvée par Claude le 29/09/2026. Niveau C : à remplacer par une source A/B donnant les limites de l’enclave."
+   "notes": "Trouvée par Claude le 29/09/2026. Niveau C : à remplacer par une source A/B donnant les limites de l’enclave. Relecture Claude 01/10/2026 (ok) : Contenu confirmé (résumé de WebFetch) : maintien allemand, évacuation de l'est l'hiver, reddition le 12 mai 1945 ; source de niveau C comme noté.",
+   "verification_claude": "ok"
   },
   {
    "source_id": "src-wikidata",
@@ -2102,7 +2193,8 @@
    "locator": "QID de l'élément (ex. Q90 = Paris), propriété P625 (coordonnées)",
    "resume_passage": "Coordonnées du centre de la ville.",
    "archive_locale": null,
-   "notes": "Licence CC0 (domaine public) : réutilisation libre, y compris commerciale. Sert uniquement à placer les villes ; les rôles historiques doivent être sourcés ailleurs. Le QID servira aussi à retrouver les noms dans d'autres langues."
+   "notes": "Licence CC0 (domaine public) : réutilisation libre, y compris commerciale. Sert uniquement à placer les villes ; les rôles historiques doivent être sourcés ailleurs. Le QID servira aussi à retrouver les noms dans d'autres langues. Relecture Claude 01/10/2026 (non_verifiee) : WebFetch a répondu que le domaine est « cache-only » et ne peut pas être récupéré ; ni CC0 ni structure QID/P625 vus.",
+   "verification_claude": "non_verifiee"
   },
   {
    "source_id": "src-natural-earth-populated-places",
@@ -2124,7 +2216,8 @@
    "locator": "nom de la ville",
    "resume_passage": "Point de la ville.",
    "archive_locale": null,
-   "notes": "Domaine public. Utilisé quand Wikidata ne suffit pas (Charleroi, ratissage villes 1.0)."
+   "notes": "Domaine public. Utilisé quand Wikidata ne suffit pas (Charleroi, ratissage villes 1.0). Relecture Claude 01/10/2026 (limite) : Bonne page du jeu de données (points nommés), mais la mention « domaine public » n'apparaît pas sur cette page (pied de page « All rights reserved »), à vérifier sur la page des conditions d'utilisation.",
+   "verification_claude": "limite"
   },
   {
    "source_id": "src-nara-rg331-shaef",
@@ -2151,7 +2244,8 @@
    "locator": "présentation du Record Group 331",
    "resume_passage": "« SHAEF was located at London until August 1944; at Versailles, France, August 1944-May 1945; and at Frankfurt, Germany, May-July 1945. »",
    "archive_locale": null,
-   "notes": "Proposée par Ether (delta villes 1.0), vérifiée par Claude le 30/09/2026. La page ne parle pas de Reims : pour Reims, voir src-defense-reims-shaef-1945."
+   "notes": "Proposée par Ether (delta villes 1.0), vérifiée par Claude le 30/09/2026. La page ne parle pas de Reims : pour Reims, voir src-defense-reims-shaef-1945. Relecture Claude 01/10/2026 (ok) : Phrase exacte présente ; la page ne parle pas de Reims, comme annoncé.",
+   "verification_claude": "ok"
   },
   {
    "source_id": "src-defense-reims-shaef-1945",
@@ -2177,7 +2271,8 @@
    "locator": "passage sur Reims",
    "resume_passage": "« En février 1945, le général Eisenhower […] avait installé son quartier général avancé à Reims » ; reddition signée à Reims le 7 mai 1945 à 2 h 41.",
    "archive_locale": null,
-   "notes": "Proposée par Ether, vérifiée par Claude le 30/09/2026. Ne sert pas au Snapshot 0 : Reims entre dans l'Atlas au ratissage de février 1945."
+   "notes": "Proposée par Ether, vérifiée par Claude le 30/09/2026. Ne sert pas au Snapshot 0 : Reims entre dans l'Atlas au ratissage de février 1945. Relecture Claude 01/10/2026 (ok) : Les deux passages (QG avancé en février 1945, reddition signée le 7 mai 1945 à 2 h 41) sont présents.",
+   "verification_claude": "ok"
   },
   {
    "source_id": "src-shd-poches-atlantique-1945",
@@ -2206,7 +2301,8 @@
    "locator": "dossiers 1 à 4 de la notice",
    "resume_passage": "Dossier 1 : poches de La Rochelle et La Pallice ; d. 2 : poche de Royan ; d. 3 : poches de Saint-Nazaire et Lorient ; d. 4 : bombardement allié du 5 janvier 1945 de Royan (plan de la ville, officiers allemands de la pointe de Grave).",
    "archive_locale": null,
-   "notes": "Proposée par Ether, vérifiée par Claude le 30/09/2026 (notice d'archives). Le bombardement de Royan du 5 janvier 1945 servira au ratissage de janvier."
+   "notes": "Proposée par Ether, vérifiée par Claude le 30/09/2026 (notice d'archives). Le bombardement de Royan du 5 janvier 1945 servira au ratissage de janvier. Relecture Claude 01/10/2026 (ok) : Notice SHD cote GR 4 Q 54 (1945) avec dossiers 1 à 4 conformes ; il s'agit d'une notice d'archives, pas du contenu des documents.",
+   "verification_claude": "ok"
   },
   {
    "source_id": "src-port-den-helder-history",
@@ -2232,7 +2328,8 @@
    "locator": "page d'histoire du port",
    "resume_passage": "Den Helder devient « the most important naval port in the Netherlands » ; chantiers regroupés à Willemsoord.",
    "archive_locale": null,
-   "notes": "Proposée par Ether, vérifiée par Claude le 30/09/2026."
+   "notes": "Proposée par Ether, vérifiée par Claude le 30/09/2026. Relecture Claude 01/10/2026 (ok) : La page confirme la formule et le regroupement des chantiers navals en un grand chantier d'État, Willemsoord (transféré à la marine en 1822).",
+   "verification_claude": "ok"
   },
   {
    "source_id": "src-port-antwerp-bruges-zeebrugge-history",
@@ -2260,7 +2357,8 @@
    "locator": "page d'histoire du port",
    "resume_passage": null,
    "archive_locale": null,
-   "notes": "Proposée par Ether. NON VÉRIFIÉE par Claude le 30/09/2026 : le texte de la page se charge par JavaScript et n'a pas pu être lu. À contrôler à la main (ouvrir le lien)."
+   "notes": "Proposée par Ether. NON VÉRIFIÉE par Claude le 30/09/2026 : le texte de la page se charge par JavaScript et n'a pas pu être lu. À contrôler à la main (ouvrir le lien). Relecture Claude 01/10/2026 (non_verifiee) : Seules les métadonnées sont rendues, le texte de l'article (chargé par JavaScript) n'est pas lisible, comme déjà signalé.",
+   "verification_claude": "non_verifiee"
   },
   {
    "source_id": "src-cmp-history-copenhagen-malmo",
