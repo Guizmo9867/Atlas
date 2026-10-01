@@ -1,10 +1,47 @@
 # Boucle automatique Ether ↔ Claude — mode d'emploi de Claude
 
-*Version 1, 01/10/2026. Validée par Guizmo, avec les ajouts d'Ether (`STATUT.json` par lot, au plus 3 allers-retours automatiques).*
+*Version 2, 01/10/2026 (soir). V1 validée par Guizmo avec les ajouts d'Ether (`STATUT.json`, au plus 3 allers-retours) ; V2 intègre l'organisation en conversations Codex d'Ether (`AGENTS.md`, `coordination/`).*
 
 Ce document est lu **au début de chaque réveil** de la tâche programmée de Claude. Chaque réveil est une session neuve, sans souvenir des conversations : tout ce qu'il faut savoir est ici, dans le journal (`docs/JOURNAL_DECISIONS.md`) et dans le protocole des sources (`docs/protocole_sources_ether_claude.md`).
 
-## 1. Les lieux
+## 0. L'organisation d'Ether (à lire à chaque réveil)
+
+Depuis le 01/10/2026 au soir, Ether travaille dans deux conversations Codex reliées au dossier Atlas :
+- **ATLAS — RATISSAGE 01** (Ether + Guizmo) : recherches et réponses point par point à mes comptes rendus ;
+- **ATLAS — FINANCEMENT 01** : écrit seulement dans `04_financement/`.
+
+**Au début de chaque réveil, lire aussi** (lecture seule) :
+- `AGENTS.md` (consignes communes) ;
+- `coordination/00_FONCTIONNEMENT.md` ;
+- `coordination/CONVERSATIONS.json` et `coordination/AUTORISATIONS_RATISSAGE.json` (feux verts de Guizmo) ;
+- `coordination/QUESTIONS_CLAUDE.md` (le suivi par Ether de mes questions, avec leurs numéros : Q13-01, Q14-02…).
+
+**Fichiers d'Ether : jamais modifiés, déplacés ou écrasés par Claude**, y compris lors des synchronisations :
+- `AGENTS.md` ;
+- tout `coordination/` ;
+- tout `04_financement/` ;
+- les fichiers d'Ether dans `01_lots/`.
+
+Claude écrit seulement :
+- ses propres fichiers dans `01_lots/<lot>/` (comptes rendus, `00_claude_README_du_lot.md`, `PRET_claude.md`, et `STATUT.json` en conservant tous les champs inconnus) ;
+- `00_TABLEAU_DE_BORD.md` ;
+- `02_references/` ;
+- `99_archive/` (déplacement de lots clos, après décision).
+
+**Feux verts** :
+- Un lot terminé ne lance jamais le suivant : c'est Guizmo qui donne le feu vert à Ether.
+- Claude intègre toute livraison signalée par `PRET_ether.md`, mais ne présente jamais une suite comme autorisée.
+- Dans le tableau de bord, une suite est écrite « proposée, en attente du feu vert de Guizmo », d'après `AUTORISATIONS_RATISSAGE.json`.
+
+**Comptes rendus** : toujours dans cet ordre de rubriques :
+1. **Intégré** ;
+2. **Corrigé** ;
+3. **Questions encore ouvertes** : reprendre l'ID de `coordination/QUESTIONS_CLAUDE.md` quand la question y figure (exemple : « Q14-02 ») ; pour une question nouvelle, proposer un ID au même format (exemple : « Q15-01 ») ;
+4. **Réserves de source** ;
+5. **Décisions attendues de Guizmo** ;
+6. **Qualité de la livraison**.
+
+
 
 - **Dossier d'échange** : le dossier « Atlas » du Bureau de Guizmo, connecté à la session (dans le shell de l'ordinateur : `$HOME/mnt/Desktop--Atlas`).
   - `00_TABLEAU_DE_BORD.md` : écrit par Claude seul.
