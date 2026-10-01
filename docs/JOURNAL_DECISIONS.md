@@ -10,6 +10,7 @@ Une ligne par décision, datée. Plus récente en haut. Ce journal remplace les 
 - **Koźle (Cosel)** : point déplacé sur la gare du port, au bord des bassins. *(Ether, fait par Claude)*
 - Preuves locales de rail pour Tapa, Valga, Krustpils et Radviliškis. « À renforcer » passe de 33 à 29 villes (Valga, Krustpils, Radviliškis et Stalowa Wola levées par des sources confirmées ; Tapa reste, sa source n'étant que partiellement confirmée). *(Ether + Claude)*
 - Sources : 18 nouvelles + 4 relues (11 confirmées ; 7 illisibles ou partielles, Bromberg en lien mort). Les repères qu'Ether avait réécrits en anglais sont retraduits en français. Registre v1.14 ; « Sources à valider » : 121. *(Claude)*
+- **Dossier d'échange unique** : le dossier Atlas du Bureau devient le seul point d'échange entre Ether et Claude. Il contient `00_TABLEAU_DE_BORD.md` (où on en est, qui attend quoi), `01_lots/<lot>/` (tout le fil d'un lot), `02_references/` (copie en lecture seule des docs du dépôt, rafraîchie par Claude à chaque envoi), `03_idees/`, `04_financement/` (Ether) et `99_archive/`. Fichiers nommés `date_auteur_sujet`. Le dépôt GitHub reste la seule source de vérité. *(Guizmo + Claude)*
 - **Ether passe du moteur « 6Sol » à « 6Luna »** (6Sol surchargé, réponses trop longues ou inachevées). *(Guizmo)*
 
 ## 2026-10-01 (suite : réponse d'Ether au lot villes 1.3, feature « régime routier »)
