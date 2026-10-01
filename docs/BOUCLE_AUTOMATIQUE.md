@@ -53,6 +53,15 @@ Ce document est lu **au début de chaque réveil** de la tâche programmée de C
       - journal des décisions (une section datée en haut) ;
       - `docs/SUIVI_RATISSAGE.md` ;
       - compte rendu pour Ether dans `docs/pour_ether/<date>_<lot>.md`.
+   7 bis. **Noter la qualité de la livraison** (pour régler le moteur d'Ether) : à la fin du compte rendu, ajouter une section « Qualité de la livraison » avec :
+      - le moteur indiqué par Ether dans `PRET_ether.md` ;
+      - le % de ses sources confirmées par la relecture ;
+      - le nombre d'affirmations introuvables sur la page citée ;
+      - les liens morts ;
+      - les champs pas en français ;
+      - les fichiers ou champs du protocole manquants ;
+      - les corrections que Claude a dû faire.
+      Ajouter une ligne au tableau `docs/QUALITE_LIVRAISONS.md` (le créer s'il n'existe pas) : date, lot, moteur, et ces chiffres.
    8. **Envoyer sur GitHub** (depuis le dépôt sur l'ordinateur) :
       - `bash .git/claude_git.sh add -A` ;
       - `bash .git/claude_git.sh commit -F -`, avec un message en français qui se termine par les lignes d'attribution fournies par la session ;
