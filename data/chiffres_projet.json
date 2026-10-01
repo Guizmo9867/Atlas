@@ -1,0 +1,172 @@
+{
+ "genere_le": "2026-10-01 15:58",
+ "snapshot0": {
+  "date_representee": "1945-01-01 00:00 (dernier état connu avant)",
+  "territoires": 74,
+  "lignes_de_front": 4,
+  "frontieres_tracees": 1,
+  "geometries": 77,
+  "villes": 325,
+  "villes_par_rang": {
+   "A": 19,
+   "B": 186,
+   "C": 120
+  },
+  "capitales": {
+   "nationale": 17,
+   "regionale": 7,
+   "territoire": 4
+  },
+  "villes_avec_nom_de_1945_different": 20,
+  "villes_avec_reserve_a_renforcer": 82,
+  "roles_de_villes": {
+   "rail": 233,
+   "industrie": 117,
+   "port_maritime": 109,
+   "port_fluvial": 38,
+   "frontalier": 31,
+   "administration": 22,
+   "militaire": 20,
+   "capitale": 19,
+   "ferry": 14,
+   "aviation": 11,
+   "base_navale": 9,
+   "charbon": 8,
+   "construction_navale": 8,
+   "navigation_cotiere": 8,
+   "detroit": 6,
+   "minerai": 5,
+   "transatlantique": 4,
+   "siderurgie": 4,
+   "base_sous_marine": 2,
+   "peche": 2,
+   "quartier_general": 1
+  },
+  "lots_frontieres": [
+   {
+    "fichier": "lot01_nord_est.json",
+    "version": "0.7",
+    "zone": null,
+    "entites": {
+     "territoire": 8,
+     "ligne_front": 1
+    }
+   },
+   {
+    "fichier": "lot02_pologne_allemagne_autriche_baltique.json",
+    "version": "0.4",
+    "zone": null,
+    "entites": {
+     "territoire": 9,
+     "frontiere": 1,
+     "ligne_front": 1
+    }
+   },
+   {
+    "fichier": "lot03_nord_ouest_europe.json",
+    "version": "0.4",
+    "zone": null,
+    "entites": {
+     "territoire": 21,
+     "ligne_front": 1
+    }
+   },
+   {
+    "fichier": "lot04_sud_centre_balkans_turquie.json",
+    "version": "0.3",
+    "zone": null,
+    "entites": {
+     "territoire": 36,
+     "ligne_front": 1
+    }
+   }
+  ],
+  "lots_villes": [
+   {
+    "fichier": "villes_1-0_france_benelux_iles_britanniques.json",
+    "version": "0.3",
+    "zone": null,
+    "entites": {
+     "ville": 73
+    }
+   },
+   {
+    "fichier": "villes_1-1_nordiques.json",
+    "version": "0.2",
+    "zone": [
+     "Danemark",
+     "Îles Féroé",
+     "Norvège",
+     "Suède",
+     "Finlande",
+     "Islande"
+    ],
+    "entites": {
+     "ville": 65
+    }
+   },
+   {
+    "fichier": "villes_1-2_allemagne_alpes.json",
+    "version": "0.3",
+    "zone": [
+     "Allemagne actuelle",
+     "Autriche actuelle",
+     "Suisse",
+     "Liechtenstein"
+    ],
+    "entites": {
+     "ville": 73
+    }
+   },
+   {
+    "fichier": "villes_1-3_tchequie_slovaquie_hongrie.json",
+    "version": "0.3",
+    "zone": [
+     "Tchéquie actuelle",
+     "Slovaquie actuelle",
+     "Hongrie actuelle"
+    ],
+    "entites": {
+     "ville": 53
+    }
+   },
+   {
+    "fichier": "villes_1-4_pologne_baltique.json",
+    "version": "0.2",
+    "zone": [
+     "Pologne actuelle",
+     "Estonie",
+     "Lettonie",
+     "Lituanie"
+    ],
+    "entites": {
+     "ville": 61
+    }
+   }
+  ]
+ },
+ "sources": {
+  "registre_version": "1.14",
+  "total": 393,
+  "relecture_claude": {
+   "ok": 272,
+   "limite": 51,
+   "non_verifiee": 59,
+   "faible": 5,
+   "lien_casse": 6
+  },
+  "niveaux": {
+   "A": 66,
+   "B": 312,
+   "C": 15
+  },
+  "en_attente_de_validation_humaine": 121,
+  "validees_par_guizmo": 0
+ },
+ "historique": {
+  "envois_github": 18,
+  "premier_envoi": "2026-09-28",
+  "dernier_envoi": "2026-10-01",
+  "depot_public": "https://github.com/Guizmo9867/Atlas"
+ }
+}

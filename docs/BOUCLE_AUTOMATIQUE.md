@@ -11,7 +11,7 @@ Ce document est lu **au début de chaque réveil** de la tâche programmée de C
   - `01_lots/<lot>/` : un dossier par lot, avec les fichiers d'Ether et de Claude, `STATUT.json`, `PRET_ether.md` et `PRET_claude.md`.
   - `02_references/` : copie des docs du dépôt, rafraîchie par Claude à chaque envoi.
   - `03_idees/` : idées pour plus tard.
-  - `04_financement/` : domaine d'Ether. **Claude n'y écrit jamais.**
+  - `04_financement/` : domaine d'Ether. **Claude n'y écrit jamais.** Claude l'aide seulement avec la fiche de chiffres (`02_references/CHIFFRES_PROJET.md`), et par une relecture de vérité si Guizmo la demande.
   - `99_archive/` : lots clôturés.
 - **Dépôt** : `C:\Users\guill\Documents\GitHub\Atlas` (dans le shell de l'ordinateur : `$HOME/mnt/GitHub--Atlas`). Public sur GitHub : https://github.com/Guizmo9867/Atlas. **Seule source de vérité.**
 - **Travailler sur l'ordinateur de Guizmo** (`device_bash`), directement dans ces deux dossiers. On n'utilise la machine cloud que pour ce que l'ordinateur ne peut pas faire : requêtes Wikidata si le réseau local les refuse, sous-agents de vérification, publication de la page « Sources à valider ».
@@ -46,7 +46,7 @@ Ce document est lu **au début de chaque réveil** de la tâche programmée de C
       Recompter soi-même à partir des fichiers. Garder le résultat dans `data/sources/verifications_claude/<date>_<lot>.json`.
    3. **Fusionner les sources au registre** avec un script `outils/villes/fusion_sources_<lot>.py` (modèle : `fusion_sources_1_4_reponses.py`) : fusion par `source_id`, version du registre +0.01, tous les champs en **français**.
    4. **Construire ou mettre à jour le lot** avec `outils/villes/construire_villes_<lot>.py` (modèle : `construire_villes_1_4.py`). Il produit `data/snapshot0/<lot>.json`.
-   5. **Régénérer** `python outils/sources/liste_sources_a_valider.py`.
+   5. **Régénérer** `python outils/sources/liste_sources_a_valider.py`, puis la fiche de chiffres `python outils/projet/chiffres_projet.py` (sert au dossier de financement d'Ether).
    6. **Valider** avec `node app/scripts/validate-data.mjs` (depuis `app/`) : **zéro erreur obligatoire**. Vérifier aussi qu'aucun secret n'est dans les fichiers (`grep -rIl "github_pat_\|ghp_"` hors `.git` et `node_modules`).
    7. **Documenter** :
       - README du lot dans `data/snapshot0/` ;
@@ -62,7 +62,7 @@ Ce document est lu **au début de chaque réveil** de la tâche programmée de C
       - copier le compte rendu dans `01_lots/<lot>/<date>_claude_compte_rendu_<n>.md` ;
       - mettre à jour `STATUT.json` ;
       - écrire `PRET_claude.md` **en dernier** (une ligne : date, ce qui a été fait, s'il y a des questions).
-4. **Rafraîchir** `02_references/` : copier `JOURNAL_DECISIONS`, `SUIVI_RATISSAGE`, `protocole_sources_ether_claude`, `LEXIQUE_ID`, `IDEES_POUR_PLUS_TARD` et ce document.
+4. **Rafraîchir** `02_references/` : copier `JOURNAL_DECISIONS`, `SUIVI_RATISSAGE`, `protocole_sources_ether_claude`, `LEXIQUE_ID`, `IDEES_POUR_PLUS_TARD`, `CHIFFRES_PROJET` et ce document.
 5. **Mettre à jour `00_TABLEAU_DE_BORD.md`** : où on en est, qui attend quoi, rubrique « À trancher par Guizmo ».
 6. **Republier la page « Sources à valider »** (artifact https://claude.ai/artifact/YBCUsTgEb1XwNmRwVnd9Lr) :
    - lire d'abord l'artifact (Artifact, action `read`) ;
