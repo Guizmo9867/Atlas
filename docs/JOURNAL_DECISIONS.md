@@ -2,6 +2,14 @@
 
 Une ligne par décision, datée. Plus récente en haut. Ce journal remplace les versions éparpillées dans les conversations : si ce n'est pas ici, ce n'est pas décidé.
 
+## 2026-10-01 (suite : villes, ratissage 1.3 Tchéquie, Slovaquie, Hongrie)
+
+- **Villes 1.3 intégrées : 53 villes** (19 Tchéquie, 16 Slovaquie, 18 Hongrie). Données tirées du document d'Ether (son JSON n'était pas joint). *(Ether, fait par Claude)*
+- **Une ville réunie au Snapshot 0 = une seule entité** : Komárom (les deux rives, 1939–1945), Děčín–Podmokly (1942). **Une fusion datée du 01/01/1945 s'applique après 0 h** : Miskolc et Diósgyőr restent deux points au Snapshot 0. *(Ether)*
+- **Prague = capitale régionale au Snapshot 0** (siège du Protectorat), par cohérence avec Vienne ; Bratislava et Budapest nationales ; Debrecen garde B avec « administration » (siège provisoire depuis le 21/12/1944). *(proposé par Ether et Claude, à confirmer par Guizmo)*
+- **Les noms allemands, hongrois et futurs sont des alias de recherche**, jamais des noms actifs en 1945 sans source sur le nom officiel. *(Ether)*
+- Sources 1.3 : 53 relues par sous-agents (37 confirmées, 16 dans la file « Sources à valider »). Registre v1.10. *(Claude)*
+
 ## 2026-10-01 (suite : clôture du 1.2, validation humaine des sources)
 
 - **RÈGLE PERMANENTE — la file « Sources à valider »** : tout point dont la vérification prendrait trop de temps sur le moment (source illisible pour Claude, lecture partielle, lien mort, preuve faible) va dans la page « Sources à valider » au lieu de bloquer l'avancée. C'est la file d'attente de la vérification de fond, à faire plus tard (temps libre, communauté, ou travail rémunéré si l'Atlas est financé). À chaque lot, Claude relit les sources, met à jour la liste et republie la page. *(Guizmo)*

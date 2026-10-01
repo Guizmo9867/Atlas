@@ -1,5 +1,5 @@
 {
- "version_registre": "1.9",
+ "version_registre": "1.10",
  "sources": [
   {
    "id": "src-12a-augsburg-armement",
@@ -219,6 +219,126 @@
    "domaine": "villes",
    "villes": [
     "Wels"
+   ],
+   "remplacee_par": []
+  },
+  {
+   "id": "src-13-cz-bohumin-perimetre",
+   "groupe": "a_lire",
+   "statut_claude": "non_verifiee",
+   "niveau": "B",
+   "titre": "Historie — histoire administrative de Bohumín",
+   "institution": "Ville de Bohumín",
+   "url": "https://www.bohumin.cz/cz/o-meste/samosprava/historie/",
+   "ou_regarder": "Historique : Šunychl devient Nový Bohumín en 1924 ; regroupement municipal décrit en 1949.",
+   "extrait": "",
+   "notes": "Proposée par Ether (villes 1.3, 01/10/2026, réf. S53). Limite annoncée par Ether : Le texte ne tranche pas le regroupement de guerre de 1943. Retenir le nœud ferroviaire de Nový Bohumín, avec un périmètre municipal à vérifier. Relecture Claude 01/10/2026 : WebFetch bloqué (échec de lecture de robots.txt), deux tentatives.",
+   "domaine": "villes",
+   "villes": [
+    "Nový Bohumín"
+   ],
+   "remplacee_par": []
+  },
+  {
+   "id": "src-13-cz-budejovice-rail",
+   "groupe": "a_lire",
+   "statut_claude": "non_verifiee",
+   "niveau": "B",
+   "titre": "železnice",
+   "institution": "Encyklopedie Českých Budějovic, portail municipal",
+   "url": "https://www.encyklopedie.c-budejovice.cz/clanek/zeleznice",
+   "ou_regarder": "1868 : České Budějovice–Pilsen ; liaisons vers Vienne en 1869–1870 et Veselí en 1874.",
+   "extrait": "",
+   "notes": "Proposée par Ether (villes 1.3, 01/10/2026, réf. S28). Limite annoncée par Ether : En 1945, ne pas présenter la traction hippomobile de 1832 comme encore en service. Relecture Claude 01/10/2026 : WebFetch n'a rendu que le menu/index de l'encyclopédie, sans le texte de l'article sur les chemins de fer.",
+   "domaine": "villes",
+   "villes": [
+    "České Budějovice",
+    "Pilsen"
+   ],
+   "remplacee_par": []
+  },
+  {
+   "id": "src-13-cz-most-histoire",
+   "groupe": "a_lire",
+   "statut_claude": "non_verifiee",
+   "niveau": "B",
+   "titre": "CMSP : Caractéristique et histoire de Most, annexe municipale 2018",
+   "institution": "Ville de Most",
+   "url": "https://www.mesto-most.cz/assets/File.ashx?id_dokumenty=30832&id_org=9959",
+   "ou_regarder": "Page PDF 6 : ligne Ústí–Chomutov par Most en 1870 reliant les mines à leurs débouchés.",
+   "extrait": "",
+   "notes": "Proposée par Ether (villes 1.3, 01/10/2026, réf. S29). Limite annoncée par Ether : Le point de 1945 doit rester au vieux Most ; le centre de la ville nouvelle ne convient pas comme ancrage historique. Relecture Claude 01/10/2026 : WebFetch bloqué (échec de lecture de robots.txt) sur le PDF, deux tentatives.",
+   "domaine": "villes",
+   "villes": [
+    "Most"
+   ],
+   "remplacee_par": []
+  },
+  {
+   "id": "src-13-cz-trebova-rail",
+   "groupe": "a_lire",
+   "statut_claude": "non_verifiee",
+   "niveau": "B",
+   "titre": "Profil města České Třebové",
+   "institution": "Ville de Česká Třebová",
+   "url": "https://www.ceska-trebova.cz/assets/File.ashx?id_dokumenty=3538&id_org=2175",
+   "ou_regarder": "Page PDF 17 : ligne Olomouc–Prague en 1845 ; branche vers Brno en 1849.",
+   "extrait": "",
+   "notes": "Proposée par Ether (villes 1.3, 01/10/2026, réf. S32). Limite annoncée par Ether : Rôle de nœud antérieur à 1945 ; chiffres contemporains d'emploi et de vitesse non utilisés. Relecture Claude 01/10/2026 : WebFetch bloqué (échec de lecture de robots.txt) sur le PDF, deux tentatives.",
+   "domaine": "villes",
+   "villes": [
+    "Česká Třebová"
+   ],
+   "remplacee_par": []
+  },
+  {
+   "id": "src-13-hu-komarom-unification",
+   "groupe": "a_lire",
+   "statut_claude": "non_verifiee",
+   "niveau": "B",
+   "titre": "Komárom — histoire de la ville",
+   "institution": "Ville de Komárom",
+   "url": "https://www.komarom.hu/kisterseg/komarom_teltort.php",
+   "ou_regarder": "Deux rives réunies sous Komárom en 1939–1945 ; Szőny rattachée en 1977.",
+   "extrait": "",
+   "notes": "Proposée par Ether (villes 1.3, 01/10/2026, réf. S4). Limite annoncée par Ether : Une autre page municipale donne 1938 pour le retour à la Hongrie : ne pas confondre transfert territorial et fusion administrative. L'unité au 31 décembre 1944 est commune aux notices. Relecture Claude 01/10/2026 : WebFetch n'a rendu que l'en-tête de navigation du portail (aucun contenu historique), donc le passage n'a pas pu être vu.",
+   "domaine": "villes",
+   "villes": [
+    "Komárom"
+   ],
+   "remplacee_par": []
+  },
+  {
+   "id": "src-13-hu-ozd-industrie",
+   "groupe": "a_lire",
+   "statut_claude": "non_verifiee",
+   "niveau": "B",
+   "titre": "Digitális Erőmű Ózd",
+   "institution": "Ózdi Városi Könyvtár, bibliothèque municipale",
+   "url": "https://vkozd.hu/encyclopedia/digitalis-eromu-ozd/",
+   "ou_regarder": "Développements sidérurgiques 1895–1915 ; grand centre industriel décrit en 1944.",
+   "extrait": "",
+   "notes": "Proposée par Ether (villes 1.3, 01/10/2026, réf. S37). Limite annoncée par Ether : Point urbain industriel admissible malgré le rang municipal de ville acquis seulement en 1949 ; pas de population de 1945 inventée. Relecture Claude 01/10/2026 : WebFetch bloqué : ROBOTS_DISALLOWED (échec du fetch robots.txt, ConnectTimeout).",
+   "domaine": "villes",
+   "villes": [
+    "Ózd"
+   ],
+   "remplacee_par": []
+  },
+  {
+   "id": "src-13-sk-bratislava-chronologie",
+   "groupe": "a_lire",
+   "statut_claude": "non_verifiee",
+   "niveau": "B",
+   "titre": "Výročná správa Bratislavy 2018 — Historická chronológia",
+   "institution": "Ville de Bratislava",
+   "url": "https://bratislavask.s3.bratislava.sk/upload/Vyrocna_sprava_konsolidovaneho_celku_HMBA_2018_4e1d2bca2e.pdf",
+   "ou_regarder": "Page PDF 4 : capitale à partir du 14 mars 1939 ; usage de Bratislava depuis 1919 ; Grande Bratislava en 1946.",
+   "extrait": "",
+   "notes": "Proposée par Ether (villes 1.3, 01/10/2026, réf. S23). Limite annoncée par Ether : Devín, Petržalka et les autres communes de l'extension de 1946 restent séparées au Snapshot. Relecture Claude 01/10/2026 : WebFetch refusé (robots.txt) sur le PDF, deux tentatives.",
+   "domaine": "villes",
+   "villes": [
+    "Bratislava"
    ],
    "remplacee_par": []
   },
@@ -633,6 +753,110 @@
    "domaine": "villes",
    "villes": [
     "Karlsruhe"
+   ],
+   "remplacee_par": []
+  },
+  {
+   "id": "src-13-cz-ostrava-nom",
+   "groupe": "partielle",
+   "statut_claude": "faible",
+   "niveau": "B",
+   "titre": "Říjen 2007 — chronologie des extensions d'Ostrava",
+   "institution": "Ville d'Ostrava",
+   "url": "https://ostrava.cz/cs/o-meste/prezentace/tiskoviny/rok-2007/rijen-2007",
+   "ou_regarder": "1941 : extension à Slezská Ostrava et onze communes ; 28 juin 1946 : nom Moravská Ostrava remplacé par Ostrava.",
+   "extrait": "",
+   "notes": "Proposée par Ether (villes 1.3, 01/10/2026, réf. S38). Limite annoncée par Ether : Svinov est rattachée seulement en 1957 : ne pas absorber sa gare dans une limite municipale de 1945. Přívoz suffit à établir rail. Relecture Claude 01/10/2026 : La page (bulletin municipal d'octobre 2007) ne contient ni l'extension de 1941 ni le changement de nom du 28 juin 1946 ; mauvaise URL probable.",
+   "domaine": "villes",
+   "villes": [
+    "Moravská Ostrava"
+   ],
+   "remplacee_par": []
+  },
+  {
+   "id": "src-13-hu-csepel-industrie",
+   "groupe": "partielle",
+   "statut_claude": "limite",
+   "niveau": "C",
+   "titre": "Weiss Manfréd és Csepel története röviden",
+   "institution": "BKSZC Weiss Manfréd Technikum, école publique professionnelle",
+   "url": "https://wm-iskola.hu/iskola/weisstortenet",
+   "ou_regarder": "1892 : implantation manufacturière ; production mécanique et militaire pendant la guerre ; destructions et transfert de l'usine en 1944.",
+   "extrait": "1892-ben Csepel faluja mellett fekvő és a hajózható Duna melletti János-legelőre esik a választásuk.",
+   "notes": "Proposée par Ether (villes 1.3, 01/10/2026, réf. S47). Limite annoncée par Ether : La compilation cite la collection d'histoire locale et Wikipédia et contient une alternative de date d'après-guerre. Niveau C, rôle à renforcer par notice d'archives accessible ; ne pas prendre ses dates incertaines de nationalisation. Relecture Claude 01/10/2026 : 1892 et production militaire de guerre confirmés, mais 1944 n'apparaît que comme reprise par les Allemands et bombardements, pas un transfert de l'usine.",
+   "domaine": "villes",
+   "villes": [
+    "Csepel"
+   ],
+   "remplacee_par": []
+  },
+  {
+   "id": "src-13-hu-miskolc-fusion",
+   "groupe": "partielle",
+   "statut_claude": "faible",
+   "niveau": "B",
+   "titre": "Miskolc kulturális stratégiája 2022–2032 — Történeti összefoglalás",
+   "institution": "Ville de Miskolc",
+   "url": "https://www.miskolc.hu/sites/default/files/onkormanyzat/csatolmanyok/2024-11/169_1_mell._kult.strategia_2022-2032.pdf",
+   "ou_regarder": "Page PDF 102 : décision donnant effet à Grand Miskolc le 1er janvier 1945 ; Diósgyőr et Hejőcsaba absorbées.",
+   "extrait": "",
+   "notes": "Proposée par Ether (villes 1.3, 01/10/2026, réf. S44). Limite annoncée par Ether : La fusion est datée du 1er janvier 1945. Selon la convention verrouillée du projet, l'état initial est le dernier état connu AVANT 00:00 : conserver Diósgyőr distincte puis appliquer la fusion dans le ratissage temporel. Relecture Claude 01/10/2026 : Le PDF ne contient pas de décision de Grand Miskolc au 1er janvier 1945 (il évoque Nagy-Miskolc « 60-70 évvel ezelőtt ») ; page 102 non confirmée.",
+   "domaine": "villes",
+   "villes": [
+    "Miskolc",
+    "Diósgyőr"
+   ],
+   "remplacee_par": []
+  },
+  {
+   "id": "src-13-sk-dubnica-industrie",
+   "groupe": "partielle",
+   "statut_claude": "limite",
+   "niveau": "B",
+   "titre": "Škoda Dubnica kedysi a dnes",
+   "institution": "Ville de Dubnica nad Váhom",
+   "url": "https://www.dubnica.eu/udalosti-v-meste/aktuality/skoda-dubnica-kedysi-a-dnes-276sk.html",
+   "ou_regarder": "Conférence historique : début de production et période 1937–1945.",
+   "extrait": "Budovanie závodu, začiatok výroby, obdobie rokov 1937 – 1945",
+   "notes": "Proposée par Ether (villes 1.3, 01/10/2026, réf. S36). Limite annoncée par Ether : Notice municipale sur l'histoire de l'usine ; livre annoncé non lu. Industrie mécanique/armement, sans ajouter base militaire ni rail non vérifié. Relecture Claude 01/10/2026 : Seul l'intitulé d'un thème de conférence est présent : aucun contenu factuel sur la période 1937–1945.",
+   "domaine": "villes",
+   "villes": [
+    "Dubnica nad Váhom"
+   ],
+   "remplacee_par": []
+  },
+  {
+   "id": "src-13-sk-ports-histoire",
+   "groupe": "partielle",
+   "statut_claude": "limite",
+   "niveau": "B",
+   "titre": "O nás — História",
+   "institution": "Verejné prístavy, a.s.",
+   "url": "https://www.portslovakia.com/o-nas",
+   "ou_regarder": "1919 : activité portuaire à Bratislava ; 1920–1923 : développement conjoint des ports de Bratislava et Komárno ; équipements de Bratislava en 1928.",
+   "extrait": "Už v roku 1928 zaznamenal bratislavský prístav výstavbu nábrežnej hrany s príslušným technickým vybavením",
+   "notes": "Proposée par Ether (villes 1.3, 01/10/2026, réf. S22). Limite annoncée par Ether : Le récit historique est distinct de la description actuelle du port. Il ne suffit pas à dater le chantier naval moderne de Komárno. Relecture Claude 01/10/2026 : 1919 et 1928 à Bratislava soutenus, mais le développement conjoint Bratislava–Komárno en 1920–1923 n'est pas confirmé (Komárno non vu).",
+   "domaine": "villes",
+   "villes": [
+    "Bratislava",
+    "Komárom"
+   ],
+   "remplacee_par": []
+  },
+  {
+   "id": "src-13-sk-sturovo-nom",
+   "groupe": "partielle",
+   "statut_claude": "limite",
+   "niveau": "B",
+   "titre": "Základné informácie o meste — histoire de Štúrovo",
+   "institution": "Ville de Štúrovo",
+   "url": "https://www.sturovo.sk/zakladne-informacie-o-meste.html",
+   "ou_regarder": "Historique : changement de nom le 26 juin 1948, de Parkan à Štúrovo ; formes historiques Párkány/Parkan.",
+   "extrait": "Konečná zmena názvu Parkan na Štúrovo sa udiala v roku 1948.",
+   "notes": "Proposée par Ether (villes 1.3, 01/10/2026, réf. S52). Limite annoncée par Ether : Le nom Štúrovo n’est pas projeté au 1er janvier 1945. Les destructions évoquées après la libération ne sont pas datées assez précisément pour ce snapshot. Relecture Claude 01/10/2026 : Année 1948 et formes Párkány/Parkan confirmées, mais la date précise du 26 juin 1948 n'apparaît pas.",
+   "domaine": "villes",
+   "villes": [
+    "Párkány"
    ],
    "remplacee_par": []
   },
@@ -1231,6 +1455,59 @@
    "domaine": "villes",
    "villes": [
     "Zurich"
+   ],
+   "remplacee_par": []
+  },
+  {
+   "id": "src-13-cz-decin-cd",
+   "groupe": "lien_mort",
+   "statut_claude": "lien_casse",
+   "niveau": "B",
+   "titre": "Děčín a Podmokly: vzestup a pád jednoho dvojměstí",
+   "institution": "České dráhy, Železničář",
+   "url": "https://zeleznicar.cd.cz/zeleznicar/historie/decin-a-podmokly--vzestup-a-pad-jednoho-dvojmesti/-12456/",
+   "ou_regarder": "Article historique : pont de 1933 et port Podmokly–Děčín relié à Prague ; industries mécanique, chimique et métallurgique au début du XXe siècle ; fusion le 1er octobre 1942, nom allemand Bodenbach-Tetschen, puis Děčín-Podmokly et Děčín en 1948.",
+   "extrait": "",
+   "notes": "Proposée par Ether (villes 1.3, 01/10/2026, réf. S7). Limite annoncée par Ether : Le port et l’industrie sont attestés avant 1945. Utiliser Děčín–Podmokly comme libellé descriptif ; l’ordre d’un nom administratif allemand doit rester explicitement réservé. Relecture Claude 01/10/2026 : L'URL renvoie une erreur 404.",
+   "domaine": "villes",
+   "villes": [
+    "Děčín–Podmokly"
+   ],
+   "remplacee_par": []
+  },
+  {
+   "id": "src-13-hu-miskolc-histoire",
+   "groupe": "lien_mort",
+   "statut_claude": "lien_casse",
+   "niveau": "B",
+   "titre": "Miskolc története",
+   "institution": "Ville de Miskolc",
+   "url": "https://miskolc.hu/elet-a-varosban/varosinformacio/miskolc-tortenete",
+   "ou_regarder": "9 janvier 1870 : Hatvan–Miskolc ; Diósgyőr et Hejőcsaba rattachées en 1945.",
+   "extrait": "",
+   "notes": "Proposée par Ether (villes 1.3, 01/10/2026, réf. S5). Limite annoncée par Ether : La notice annuelle ne précise pas le jour de la fusion ; ne pas étendre les limites de Miskolc à Diósgyőr dans le Snapshot. Relecture Claude 01/10/2026 : La page renvoie une erreur 404.",
+   "domaine": "villes",
+   "villes": [
+    "Miskolc",
+    "Diósgyőr"
+   ],
+   "remplacee_par": []
+  },
+  {
+   "id": "src-13-sk-nove-zamky-rail",
+   "groupe": "lien_mort",
+   "statut_claude": "lien_casse",
+   "niveau": "B",
+   "titre": "Železničný semafor, mai 2020 — Komárno–Nové Zámky",
+   "institution": "Železnice Slovenskej republiky",
+   "url": "https://www.zsr.sk/files/pre-cestujucich/zsemafor-casopis/2020/zsemafor05_2020.pdf",
+   "ou_regarder": "Pages PDF 21–22 : ligne historique Komárno–Nové Zámky et nœud ; attaque du 14 octobre 1944 ; attaque supplémentaire du 14 mars 1945.",
+   "extrait": "",
+   "notes": "Proposée par Ether (villes 1.3, 01/10/2026, réf. S25). Limite annoncée par Ether : Deux temporalités : dégâts d'octobre inclus ; dégâts de mars exclus. Ne pas consolider leurs pertes chiffrées au Snapshot. Relecture Claude 01/10/2026 : Le PDF renvoie une erreur 404.",
+   "domaine": "villes",
+   "villes": [
+    "Nové Zámky",
+    "Komárom"
    ],
    "remplacee_par": []
   },

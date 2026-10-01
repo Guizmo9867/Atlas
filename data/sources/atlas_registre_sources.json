@@ -1,7 +1,7 @@
 {
  "metadata": {
   "nom": "registre_sources_atlas",
-  "version": "1.9",
+  "version": "1.10",
   "date_creation": "2026-09-26",
   "principe": "Une source = un source_id stable. Les fiches événements/entités peuvent référencer ce source_id et préciser l'usage/locator.",
   "statut": "registre_initial_a_completer"
@@ -6842,6 +6842,1208 @@
     "perimetre": "Passages indiqués au locator ; aucune affirmation de lecture intégrale du document."
    },
    "notes": "Proposée par Ether (audit villes 1.2, 01/10/2026). Note d'Ether : Bassins commerciaux, industriel et pétrolier réalisés jusqu'en 1942. Le port de 1945 ne doit pas recevoir son raccordement ferroviaire de 1948, ni le port privé VÖEST de 1966. La présence du rail dans la ville doit être prouvée indépendamment du port. Relecture Claude 01/10/2026 : Transbordement 1894, bassins jusqu'en 1942, raccordement ferroviaire 1948 et port VÖEST 1966 confirmés."
+  },
+  {
+   "source_id": "src-13-sk-zsr-premieres-lignes",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Prvé železnice",
+   "institution": "Železnice Slovenskej republiky",
+   "url": "https://www.zsr.sk/o-nas/historia-zeleznic/prve-zeleznice/",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rôle de ville au 01/01/1945 (ratissage villes 1.3)"
+   ],
+   "cibles": [
+    "ville-sk-bratislava",
+    "ville-sk-sturovo",
+    "ville-hu-vac",
+    "ville-sk-kosice"
+   ],
+   "locator": "20 août 1848 : arrivée à Bratislava depuis Marchegg ; ligne Bratislava–Štúrovo–Vác achevée en 1850 ; Košice–Čaňa–Hidasnémeti au début des années 1860.",
+   "resume_passage": "20. 8. 1848 po nej dorazil do Bratislavy prvý parný vlak.",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "notes": "Proposée par Ether (villes 1.3, 01/10/2026, réf. S1). Limite annoncée par Ether : Histoire de l'infrastructure ; circulation effective au 1er janvier 1945 non établie. Relecture Claude 01/10/2026 : Les trois faits (1848 Bratislava, ligne Bratislava–Štúrovo–Vác achevée en 1850, Košice–Čaňa–Hidasnémeti dans les années 1860) sont vus ; Marchegg non cité explicitement dans l'extrait."
+  },
+  {
+   "source_id": "src-13-sk-zsr-steg",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Rakúska, neskôr Rakúsko-uhorská spoločnosť štátnej železnice (StEG)",
+   "institution": "Železnice Slovenskej republiky",
+   "url": "https://www.zsr.sk/o-nas/historia-zeleznic/1873-1918/zeleznicne-podniky/rakuska-neskor-rakusko-uhorska-spolocnost-statnej-zeleznice-steg",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rôle de ville au 01/01/1945 (ratissage villes 1.3)"
+   ],
+   "cibles": [
+    "ville-sk-zilina",
+    "ville-sk-trencin",
+    "ville-sk-leopoldov",
+    "ville-sk-cadca",
+    "ville-sk-bratislava"
+   ],
+   "locator": "1883 : Trenčín–Žilina et triage de Bratislava ; 20 juillet 1885 : Leopoldov–Galanta ; accès vers Zwardoň par Čadca.",
+   "resume_passage": "už 1.11.1883 mohla byť novopostavená jednokoľajná trať odovzdaná do prevádzky. | (prevádzka otvorená 20.7.1885) | Čadca – Skalité – Zwardoň",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "notes": "Proposée par Ether (villes 1.3, 01/10/2026, réf. S2). Limite annoncée par Ether : Nœuds et liaisons historiques ; ne fournit pas un état du trafic à minuit en 1945. Relecture Claude 01/10/2026 : Les trois faits (Trenčín–Žilina 1883 + triage de Bratislava la même année, Leopoldov–Galanta 20.7.1885, Čadca–Zwardoň) sont présents."
+  },
+  {
+   "source_id": "src-13-hu-htk-encerclement",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "1944. Budapest bekerítése",
+   "institution": "ELTE Humán Tudományok Kutatóközpontja, Történettudományi Intézet",
+   "url": "https://tti.abtk.hu/cikkek/terkepek/1944-budapest-bekeritese",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rôle de ville au 01/01/1945 (ratissage villes 1.3)"
+   ],
+   "cibles": [
+    "ville-hu-budapest",
+    "ville-sk-sturovo",
+    "candidat-hu-esztergom"
+   ],
+   "locator": "Offensive du 20 décembre ; prise d'Esztergom et de Párkány et fermeture de l'encerclement le 26 décembre 1944.",
+   "resume_passage": "December 26-án a 3. Ukrán Front 18. harckocsihadtestének erői elfoglalták Esztergomot, a 2. Ukrán Front 7. gárdahadserege pedig birtokba vette Párkányt.",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "notes": "Proposée par Ether (villes 1.3, 01/10/2026, réf. S3). Limite annoncée par Ether : Budapest est déjà encerclée au Snapshot ; les événements de janvier et février 1945 restent hors de l'état initial. Relecture Claude 01/10/2026 : Offensive du 20 décembre, prise d'Esztergom/Párkány et encerclement achevé le 26 décembre sont tous cités."
+  },
+  {
+   "source_id": "src-13-hu-komarom-unification",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Komárom — histoire de la ville",
+   "institution": "Ville de Komárom",
+   "url": "https://www.komarom.hu/kisterseg/komarom_teltort.php",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rôle de ville au 01/01/1945 (ratissage villes 1.3)"
+   ],
+   "cibles": [
+    "ville-sk-komarno-komarom"
+   ],
+   "locator": "Deux rives réunies sous Komárom en 1939–1945 ; Szőny rattachée en 1977.",
+   "resume_passage": "",
+   "archive_locale": null,
+   "verification_claude": "non_verifiee",
+   "notes": "Proposée par Ether (villes 1.3, 01/10/2026, réf. S4). Limite annoncée par Ether : Une autre page municipale donne 1938 pour le retour à la Hongrie : ne pas confondre transfert territorial et fusion administrative. L'unité au 31 décembre 1944 est commune aux notices. Relecture Claude 01/10/2026 : WebFetch n'a rendu que l'en-tête de navigation du portail (aucun contenu historique), donc le passage n'a pas pu être vu."
+  },
+  {
+   "source_id": "src-13-hu-miskolc-histoire",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Miskolc története",
+   "institution": "Ville de Miskolc",
+   "url": "https://miskolc.hu/elet-a-varosban/varosinformacio/miskolc-tortenete",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rôle de ville au 01/01/1945 (ratissage villes 1.3)"
+   ],
+   "cibles": [
+    "ville-hu-miskolc",
+    "ville-hu-diosgyor"
+   ],
+   "locator": "9 janvier 1870 : Hatvan–Miskolc ; Diósgyőr et Hejőcsaba rattachées en 1945.",
+   "resume_passage": "",
+   "archive_locale": null,
+   "verification_claude": "lien_casse",
+   "notes": "Proposée par Ether (villes 1.3, 01/10/2026, réf. S5). Limite annoncée par Ether : La notice annuelle ne précise pas le jour de la fusion ; ne pas étendre les limites de Miskolc à Diósgyőr dans le Snapshot. Relecture Claude 01/10/2026 : La page renvoie une erreur 404."
+  },
+  {
+   "source_id": "src-13-cz-decin-histoire",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Historie",
+   "institution": "Ville de Děčín",
+   "url": "https://www.mmdecin.cz/historie",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rôle de ville au 01/01/1945 (ratissage villes 1.3)"
+   ],
+   "cibles": [
+    "ville-cz-decin"
+   ],
+   "locator": "1851 : chemin de fer Prague–Dresde, développement industriel à Podmokly ; fusion Děčín–Podmokly–Staré Město en 1942.",
+   "resume_passage": "do roku 1942, kdy bylo dvojměstí Děčín – Podmokly, spolu se Starým Městem, sloučeny do jednoho města",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "notes": "Proposée par Ether (villes 1.3, 01/10/2026, réf. S6). Limite annoncée par Ether : La notice abrège rétrospectivement le nom en Děčín ; le nouveau port de Loubí mentionné ensuite est d'après-guerre, donc non projeté sur 1945. Relecture Claude 01/10/2026 : Chemin de fer Prague–Dresde 1851 et fusion de 1942 vus ; l'essor de Podmokly est décrit comme croissance urbaine 1890–1914 (pas explicitement industrielle dans la citation)."
+  },
+  {
+   "source_id": "src-13-cz-decin-cd",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Děčín a Podmokly: vzestup a pád jednoho dvojměstí",
+   "institution": "České dráhy, Železničář",
+   "url": "https://zeleznicar.cd.cz/zeleznicar/historie/decin-a-podmokly--vzestup-a-pad-jednoho-dvojmesti/-12456/",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rôle de ville au 01/01/1945 (ratissage villes 1.3)"
+   ],
+   "cibles": [
+    "ville-cz-decin"
+   ],
+   "locator": "Article historique : pont de 1933 et port Podmokly–Děčín relié à Prague ; industries mécanique, chimique et métallurgique au début du XXe siècle ; fusion le 1er octobre 1942, nom allemand Bodenbach-Tetschen, puis Děčín-Podmokly et Děčín en 1948.",
+   "resume_passage": "",
+   "archive_locale": null,
+   "verification_claude": "lien_casse",
+   "notes": "Proposée par Ether (villes 1.3, 01/10/2026, réf. S7). Limite annoncée par Ether : Le port et l’industrie sont attestés avant 1945. Utiliser Děčín–Podmokly comme libellé descriptif ; l’ordre d’un nom administratif allemand doit rester explicitement réservé. Relecture Claude 01/10/2026 : L'URL renvoie une erreur 404."
+  },
+  {
+   "source_id": "src-13-sk-zsr-kosice-bohumin",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Košicko-bohumínska železnica",
+   "institution": "Železnice Slovenskej republiky",
+   "url": "https://www.zsr.sk/o-nas/historia-zeleznic/1867-1873/zeleznicne-podniky/skor-vzniknute-zel.podniky/kosicko-bohuminska-zeleznica",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rôle de ville au 01/01/1945 (ratissage villes 1.3)"
+   ],
+   "cibles": [
+    "ville-sk-kosice",
+    "ville-sk-zilina",
+    "ville-sk-vrutky",
+    "ville-sk-poprad",
+    "ville-sk-presov",
+    "ville-cz-bohumin"
+   ],
+   "locator": "Liste des ouvertures 1869–1872 ; Žilina–Poprad ouverte le 8 décembre 1871 ; gares de Žilina et Vrútky agrandies pendant la construction.",
+   "resume_passage": "Žilina – Poprad 8.12.1871",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "notes": "Proposée par Ether (villes 1.3, 01/10/2026, réf. S8). Limite annoncée par Ether : Utiliser le tableau des ouvertures effectives, pas les échéances de concession figurant en tête de page. Ne prouve pas les limites municipales de Bohumín. Relecture Claude 01/10/2026 : Tableau des ouvertures 1869-1872 vu, Žilina–Poprad le 8.12.1871 et agrandissement des gares de Žilina et Vrútky confirmés."
+  },
+  {
+   "source_id": "src-13-sk-zsr-nord",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Uhorská severná železnica, neskôr MÁV",
+   "institution": "Železnice Slovenskej republiky",
+   "url": "https://www.zsr.sk/o-nas/historia-zeleznic/1867-1873/zeleznicne-podniky/skor-vzniknute-zel.podniky/uhorska-severna-zeleznica-neskor-mav",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rôle de ville au 01/01/1945 (ratissage villes 1.3)"
+   ],
+   "cibles": [
+    "ville-sk-zvolen",
+    "ville-sk-vrutky",
+    "ville-sk-banska-bystrica"
+   ],
+   "locator": "18 juin 1871 : arrivée à Zvolen ; 12 août 1872 : Zvolen–Vrútky ; ateliers de Zvolen en 1872 ; 3 septembre 1873 : Zvolen–Banská Bystrica.",
+   "resume_passage": "3.9.1873, bola dokončená i stavba železnice II. triedy Zvolen – Banská Bystrica",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "notes": "Proposée par Ether (villes 1.3, 01/10/2026, réf. S9). Limite annoncée par Ether : Ateliers classés sous rail, pas industrie supplémentaire automatiquement. Relecture Claude 01/10/2026 : Les quatre dates (18.6.1871, 12.8.1872, ateliers 1872, 3.9.1873) sont citées."
+  },
+  {
+   "source_id": "src-13-sk-zsr-presov",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Prešovsko-tarnowská železnica",
+   "institution": "Železnice Slovenskej republiky",
+   "url": "https://www.zsr.sk/o-nas/historia-zeleznic/1867-1873/zeleznicne-podniky/novovzniknute-zel.podniky/presovsko-tarnowska-zeleznica-",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rôle de ville au 01/01/1945 (ratissage villes 1.3)"
+   ],
+   "cibles": [
+    "ville-sk-presov"
+   ],
+   "locator": "1er mai 1873 : ouverture Prešov–Orlov.",
+   "resume_passage": "prevádzka na úseku Prešov – Orlov začala 1.5.1873",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "notes": "Proposée par Ether (villes 1.3, 01/10/2026, réf. S10). Limite annoncée par Ether : Concession et ouverture distinguées ; la liaison complète vers Tarnów ne doit pas être datée de la seule ouverture de ce tronçon. Relecture Claude 01/10/2026 : Date d'ouverture confirmée, avec construction achevée le 3 avril 1873 puis inspection."
+  },
+  {
+   "source_id": "src-13-cz-ostrava-histoire",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Historie města",
+   "institution": "Ville d'Ostrava",
+   "url": "https://ostrava.cz/cs/o-meste/historie-mesta",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rôle de ville au 01/01/1945 (ratissage villes 1.3)"
+   ],
+   "cibles": [
+    "ville-cz-ostrava"
+   ],
+   "locator": "1828 : sidérurgie de Vítkovice ; 1847 : rail par Přívoz/Svinov ; fusion de sept communes en 1924.",
+   "resume_passage": "K 1. 1. 1924 byla vytvořena tzv. Velká Ostrava, která přinesla sloučení sedmi moravských obcí v jeden celek",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "notes": "Proposée par Ether (villes 1.3, 01/10/2026, réf. S11). Limite annoncée par Ether : Vítkovice et Přívoz sont dans l'ensemble urbain dès 1924 ; limites étendues ultérieurement non anticipées. Nom municipal à préciser séparément. Relecture Claude 01/10/2026 : 1828 Vítkovice, 1847 rail via Svinov et Přívoz, et fusion de sept communes en 1924 sont tous confirmés."
+  },
+  {
+   "source_id": "src-13-cz-skoda-plzen",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "History of the Škoda brand",
+   "institution": "Škoda Group",
+   "url": "https://www.skodagroup.com/page/history-of-the-skoda-brand",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rôle de ville au 01/01/1945 (ratissage villes 1.3)"
+   ],
+   "cibles": [
+    "ville-cz-plzen",
+    "ville-cz-mlada-boleslav"
+   ],
+   "locator": "1859 : usine à Pilsen ; 1925 : acquisition de Laurin & Klement à Mladá Boleslav ; 1939 : conversion vers l'armement ; bombardement majeur de Pilsen en avril 1945.",
+   "resume_passage": "In April of this year, ŠKODA Pilsen was severely hit by Allied bombing and largely destroyed.",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "notes": "Proposée par Ether (villes 1.3, 01/10/2026, réf. S12). Limite annoncée par Ether : La destruction d'avril 1945 appartient à un événement ultérieur. Fourniture militaire ≠ base opérationnelle ; production navale de pièces ≠ chantier naval local. Relecture Claude 01/10/2026 : 1859, 1925, orientation armement après l'occupation (pas de date 1939 explicite dans la citation) et bombardement d'avril 1945 vus."
+  },
+  {
+   "source_id": "src-13-cz-brno-rail",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Železnice v Brně: projekt ze šuplíku 1934",
+   "institution": "Ville de Brno, Tiskový servis",
+   "url": "https://cosedeje.brno.cz/w/zeleznice-v-brne-projekt-ze-supliku-1934",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rôle de ville au 01/01/1945 (ratissage villes 1.3)"
+   ],
+   "cibles": [
+    "ville-cz-brno"
+   ],
+   "locator": "Première gare de 1839 ; projet de réorganisation 1934–1935.",
+   "resume_passage": "Tam, kde v roce 1839 stála skromná nádražní budova, u níž končila jediná kolej, je dnes rozlehlý železniční uzel.",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "notes": "Proposée par Ether (villes 1.3, 01/10/2026, réf. S13). Limite annoncée par Ether : Établit l'ancienneté et la complexité historique du nœud ; pas les installations du nouveau projet contemporain. Relecture Claude 01/10/2026 : Gare de 1839 et document de 1934 sur la nouvelle position de la gare vus ; la mention 1935 n'apparaît pas explicitement dans l'extrait."
+  },
+  {
+   "source_id": "src-13-cz-usti-histoire",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Historie",
+   "institution": "Ville d'Ústí nad Labem",
+   "url": "https://www.usti.cz/cz/uredni-portal/o-meste/historie-mesta/",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rôle de ville au 01/01/1945 (ratissage villes 1.3)"
+   ],
+   "cibles": [
+    "ville-cz-usti-nad-labem"
+   ],
+   "locator": "1851 : axe Prague–Dresde ; port développé avant 1901 ; usine chimique depuis 1856.",
+   "resume_passage": "v roce 1851 byla zprovozněna železnice z Prahy přes Ústí nad Labem do Drážďan",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "notes": "Proposée par Ether (villes 1.3, 01/10/2026, réf. S14). Limite annoncée par Ether : Rôle portuaire daté avant 1945, et non déduit de la seule présence de l'Elbe. Aucun volume de 1945 extrapolé. Relecture Claude 01/10/2026 : 1851 Prague–Dresde, usine chimique depuis 1856 et statut de grand port vers 1900 confirmés."
+  },
+  {
+   "source_id": "src-13-cz-perner-rail",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Dvě výročí připomenou život otce našich železnic",
+   "institution": "České dráhy, Železničář",
+   "url": "https://zeleznicar.cd.cz/zeleznicar/historie/dve-vyroci-pripomenou-zivot-otce-nasich-zeleznic/-8909/24,0,,/",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rôle de ville au 01/01/1945 (ratissage villes 1.3)"
+   ],
+   "cibles": [
+    "ville-cz-prague",
+    "ville-cz-pardubice",
+    "ville-cz-ceska-trebova",
+    "ville-cz-olomouc"
+   ],
+   "locator": "Ligne Olomouc–Prague de 1845 ; projets Česká Třebová–Kolín et Pardubice–Prague ; arrivée du premier train à Prague le 20 août.",
+   "resume_passage": "Na Olomoucko-pražské dráze dohlížel na projekty Česká Třebová – Kolín, řešil návrhy v úseku Pardubice – Praha",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "notes": "Proposée par Ether (villes 1.3, 01/10/2026, réf. S15). Limite annoncée par Ether : Bon appui d'ancienneté ; les intersections supplémentaires et les dégâts de guerre demandent leurs preuves locales. Relecture Claude 01/10/2026 : Projets et premier train à Prague le 20 (août) vus ; l'année 1845 n'apparaît pas dans les citations obtenues."
+  },
+  {
+   "source_id": "src-13-hu-debrecen-rail",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Indóház Debrecenben",
+   "institution": "MÁV-csoport, Megálló",
+   "url": "https://megallo.mavcsoport.hu/anno/indohaz-debrecenben",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rôle de ville au 01/01/1945 (ratissage villes 1.3)"
+   ],
+   "cibles": [
+    "ville-hu-debrecen"
+   ],
+   "locator": "Gare ouverte en 1857 ; bâtiment de 1900–1902 bombardé en 1944.",
+   "resume_passage": "az 1900–1902-ben épült, nagy ívű vasúti létesítményt [...] az 1944-ben szétbombázott állomást.",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "notes": "Proposée par Ether (villes 1.3, 01/10/2026, réf. S16). Limite annoncée par Ether : Ne pas utiliser la gare reconstruite après-guerre pour représenter 1945. Relecture Claude 01/10/2026 : Gare livrée fin 1857 et bâtiment de 1900–1902 bombardé en 1944 confirmés."
+  },
+  {
+   "source_id": "src-13-hu-szeged-rail",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Roppant próbának tétetett ki",
+   "institution": "MÁV-csoport, Megálló",
+   "url": "https://megallo.mavcsoport.hu/anno/roppant-probanak-tetetett-ki",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rôle de ville au 01/01/1945 (ratissage villes 1.3)"
+   ],
+   "cibles": [
+    "ville-hu-szeged",
+    "ville-hu-szolnok",
+    "ville-hu-budapest"
+   ],
+   "locator": "1847 : Pest–Cegléd–Szolnok ; 1854 : arrivée à Szeged ; pont détruit en 1944, franchissement ferroviaire provisoire rétabli le 12 novembre 1944.",
+   "resume_passage": "ezzel már 1944. november 12-én megteremtették a vasúti összeköttetést a Tisza fölött",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "notes": "Proposée par Ether (villes 1.3, 01/10/2026, réf. S17). Limite annoncée par Ether : Évite un faux état de rupture totale persistant en janvier 1945 ; capacité et circulation précise du pont provisoire inconnues. Relecture Claude 01/10/2026 : 1847, 1854, destruction du pont (9 oct. 1944) et rétablissement ferroviaire provisoire le 12 nov. 1944 confirmés."
+  },
+  {
+   "source_id": "src-13-hu-dombovar-rail",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Dombóvár, a vasutasváros",
+   "institution": "MÁV-csoport, Megálló",
+   "url": "https://megallo.mavcsoport.hu/anno/dombovar-vasutasvaros",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rôle de ville au 01/01/1945 (ratissage villes 1.3)"
+   ],
+   "cibles": [
+    "ville-hu-ujdombovar",
+    "ville-hu-kaposvar",
+    "ville-hu-pecs"
+   ],
+   "locator": "1872 : ligne via Kaposvár ; 1882 : Budapest–Pécs via Újdombóvár ; fusion avec Dombóvár en 1946.",
+   "resume_passage": "A csak «telepként» emlegetett városka 1946-ban egyesült Dombóvárral",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "notes": "Proposée par Ether (villes 1.3, 01/10/2026, réf. S18). Limite annoncée par Ether : Le nœud et sa cité ferroviaire relèvent d'Újdombóvár avant la fusion. Garder l'ancienne commune Dombóvár dans la note, pas comme alias de la même commune. Relecture Claude 01/10/2026 : Ligne 1872 via Kaposvár, ligne MÁV 1882 via Újdombóvár et fusion de 1946 confirmées."
+  },
+  {
+   "source_id": "src-13-cz-zlin-industrie",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "O architektuře našeho města",
+   "institution": "Ville de Zlín",
+   "url": "https://www.zlin.eu/o-architekture-naseho-mesta",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rôle de ville au 01/01/1945 (ratissage villes 1.3)"
+   ],
+   "cibles": [
+    "ville-cz-zlin"
+   ],
+   "locator": "Industrie Baťa durant l'entre-deux-guerres ; reconversion partielle vers les besoins militaires ; dégâts de novembre 1944.",
+   "resume_passage": "Americké bombardování v listopadu 1944 těžce poškodilo západní část Zlína, zejména tovární areál Baťových závodů.",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "notes": "Proposée par Ether (villes 1.3, 01/10/2026, réf. S19). Limite annoncée par Ether : Ni usine intacte au Snapshot, ni nationalisation d'octobre 1945 anticipée. Relecture Claude 01/10/2026 : Croissance de Baťa 1922–1938, reconversion partielle pour l'armée allemande et dégâts de novembre 1944 tous vus."
+  },
+  {
+   "source_id": "src-13-cz-zlin-nom",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "1945–1990 — Starostové a primátoři města Zlína",
+   "institution": "Ville de Zlín",
+   "url": "https://www.zlin.eu/1945-1990",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rôle de ville au 01/01/1945 (ratissage villes 1.3)"
+   ],
+   "cibles": [
+    "ville-cz-zlin",
+    "candidat-cz-otrokovice"
+   ],
+   "locator": "1er janvier 1949 : changement de Zlín en Gottwaldov ; rattachements, dont Otrokovice, à cette date.",
+   "resume_passage": "Ke dni 1. 1. 1949 byl změněn název města Zlín na Gottwaldov a k městu byly připojeny obce Jaroslavice, Malenovice, Tečovice, Kvítkovice a Otrokovice.",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "notes": "Proposée par Ether (villes 1.3, 01/10/2026, réf. S20). Limite annoncée par Ether : Le nom Gottwaldov ne s'applique pas en 1945. Relecture Claude 01/10/2026 : Changement de nom et rattachement d'Otrokovice au 1er janvier 1949 confirmés."
+  },
+  {
+   "source_id": "src-13-cz-kladno-poldi",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Fotoarchiv Poldi Kladno : documents photographiques de l'industrie",
+   "institution": "Národní památkový ústav, Zprávy památkové péče 76/2016, no 1",
+   "url": "https://zpp.npu.cz/pdfs/zpp/2016/01/14.pdf",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rôle de ville au 01/01/1945 (ratissage villes 1.3)"
+   ],
+   "cibles": [
+    "ville-cz-kladno"
+   ],
+   "locator": "Page PDF 2 : fondation Poldi en 1889, production dès 1890 ; photographies conservées au Národní technické muzeum.",
+   "resume_passage": "Huť založil roku 1889 Karl Wittgenstein a na počest své ženy ji nazval Poldi Hütte. Podnik začal vyrábět v následujícím roce",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "notes": "Proposée par Ether (villes 1.3, 01/10/2026, réf. S21). Limite annoncée par Ether : Article patrimonial historique ; distinguer clichés datés et récit rétrospectif. Rail local non ajouté sur la seule base d'une sidérurgie. Relecture Claude 01/10/2026 : Fondation 1889, production 1890 et fonds photographique au Národní technické muzeum vus (texte PDF avec encodage corrompu, diacritiques rétablies)."
+  },
+  {
+   "source_id": "src-13-sk-ports-histoire",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "O nás — História",
+   "institution": "Verejné prístavy, a.s.",
+   "url": "https://www.portslovakia.com/o-nas",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rôle de ville au 01/01/1945 (ratissage villes 1.3)"
+   ],
+   "cibles": [
+    "ville-sk-bratislava",
+    "ville-sk-komarno-komarom"
+   ],
+   "locator": "1919 : activité portuaire à Bratislava ; 1920–1923 : développement conjoint des ports de Bratislava et Komárno ; équipements de Bratislava en 1928.",
+   "resume_passage": "Už v roku 1928 zaznamenal bratislavský prístav výstavbu nábrežnej hrany s príslušným technickým vybavením",
+   "archive_locale": null,
+   "verification_claude": "limite",
+   "notes": "Proposée par Ether (villes 1.3, 01/10/2026, réf. S22). Limite annoncée par Ether : Le récit historique est distinct de la description actuelle du port. Il ne suffit pas à dater le chantier naval moderne de Komárno. Relecture Claude 01/10/2026 : 1919 et 1928 à Bratislava soutenus, mais le développement conjoint Bratislava–Komárno en 1920–1923 n'est pas confirmé (Komárno non vu)."
+  },
+  {
+   "source_id": "src-13-sk-bratislava-chronologie",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Výročná správa Bratislavy 2018 — Historická chronológia",
+   "institution": "Ville de Bratislava",
+   "url": "https://bratislavask.s3.bratislava.sk/upload/Vyrocna_sprava_konsolidovaneho_celku_HMBA_2018_4e1d2bca2e.pdf",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rôle de ville au 01/01/1945 (ratissage villes 1.3)"
+   ],
+   "cibles": [
+    "ville-sk-bratislava"
+   ],
+   "locator": "Page PDF 4 : capitale à partir du 14 mars 1939 ; usage de Bratislava depuis 1919 ; Grande Bratislava en 1946.",
+   "resume_passage": "",
+   "archive_locale": null,
+   "verification_claude": "non_verifiee",
+   "notes": "Proposée par Ether (villes 1.3, 01/10/2026, réf. S23). Limite annoncée par Ether : Devín, Petržalka et les autres communes de l'extension de 1946 restent séparées au Snapshot. Relecture Claude 01/10/2026 : WebFetch refusé (robots.txt) sur le PDF, deux tentatives."
+  },
+  {
+   "source_id": "src-13-hu-gysev-histoire",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "150 éve indult meg a vonatközlekedés a Győr-Sopron vasúvonalon",
+   "institution": "Győr-Sopron-Ebenfurti Vasút (GYSEV)",
+   "url": "https://www2.gysev.hu/hirek/150-eve-indult-meg-a-vonatkozlekedes-a-gyor-sopron-vasuvonalon",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rôle de ville au 01/01/1945 (ratissage villes 1.3)"
+   ],
+   "cibles": [
+    "ville-hu-gyor",
+    "ville-hu-sopron"
+   ],
+   "locator": "1876 : Győr–Sopron ; 1879 : réseau prolongé à Ebenfurth ; finalité historique d'exportation céréalière.",
+   "resume_passage": "1879-re készült el a teljes, Ebenfurth-ig tartó GYSEV vasútvonal",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "notes": "Proposée par Ether (villes 1.3, 01/10/2026, réf. S24). Limite annoncée par Ether : Ne pas copier les interruptions de circulation 2026 présentes dans le menu de cette page. Relecture Claude 01/10/2026 : 1876, 1879 (Ebenfurth) et finalité d'exportation du grain hongrois confirmés."
+  },
+  {
+   "source_id": "src-13-sk-nove-zamky-rail",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Železničný semafor, mai 2020 — Komárno–Nové Zámky",
+   "institution": "Železnice Slovenskej republiky",
+   "url": "https://www.zsr.sk/files/pre-cestujucich/zsemafor-casopis/2020/zsemafor05_2020.pdf",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rôle de ville au 01/01/1945 (ratissage villes 1.3)"
+   ],
+   "cibles": [
+    "ville-sk-nove-zamky",
+    "ville-sk-komarno-komarom"
+   ],
+   "locator": "Pages PDF 21–22 : ligne historique Komárno–Nové Zámky et nœud ; attaque du 14 octobre 1944 ; attaque supplémentaire du 14 mars 1945.",
+   "resume_passage": "",
+   "archive_locale": null,
+   "verification_claude": "lien_casse",
+   "notes": "Proposée par Ether (villes 1.3, 01/10/2026, réf. S25). Limite annoncée par Ether : Deux temporalités : dégâts d'octobre inclus ; dégâts de mars exclus. Ne pas consolider leurs pertes chiffrées au Snapshot. Relecture Claude 01/10/2026 : Le PDF renvoie une erreur 404."
+  },
+  {
+   "source_id": "src-13-hu-debrecen-administration",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "1944. december 21-én ült össze Debrecenben az Ideiglenes Nemzetgyűlés",
+   "institution": "Magyarságkutató Intézet, Zsuzsanna Borvendég",
+   "url": "https://mki.gov.hu/hu/hirek-hu/evfordulok-hu/1944-december-21-en-ult-ossze-debrecenben-az-ideiglenes-nemzetgyules",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rôle de ville au 01/01/1945 (ratissage villes 1.3)"
+   ],
+   "cibles": [
+    "ville-hu-debrecen"
+   ],
+   "locator": "21 décembre 1944 : Assemblée nationale provisoire à Debrecen ; gouvernement nommé le lendemain.",
+   "resume_passage": "Az Ideiglenes Nemzetgyűlés végül december 21-én ült össze a Debreceni Református Kollégium oratóriumában",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "notes": "Proposée par Ether (villes 1.3, 01/10/2026, réf. S26). Limite annoncée par Ether : Utilisation limitée aux dates et au lieu ; ne pas reprendre les appréciations politiques du récit. Siège provisoire ne remplace pas automatiquement Budapest comme capitale. Relecture Claude 01/10/2026 : Assemblée provisoire le 21 décembre à Debrecen et nomination du gouvernement le lendemain confirmées."
+  },
+  {
+   "source_id": "src-13-cz-liberec-gare",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Budova nádraží ČD",
+   "institution": "Visit Liberec, guide touristique officiel de la ville",
+   "url": "https://www.visitliberec.eu/liberecke-domy-hovori/budova-nadrazi-cd/",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rôle de ville au 01/01/1945 (ratissage villes 1.3)"
+   ],
+   "cibles": [
+    "ville-cz-liberec",
+    "ville-cz-pardubice"
+   ],
+   "locator": "1859 : ouvertures vers Pardubice et Zittau ; lignes supplémentaires 1875, 1888, 1903.",
+   "resume_passage": "29. ledna 1859 ve 12 hodin 10 minut",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "notes": "Proposée par Ether (villes 1.3, 01/10/2026, réf. S27). Limite annoncée par Ether : Le rôle industriel général motive l'arrière-plan mais un site manufacturier historique distinct sera nécessaire pour ajouter industrie. Relecture Claude 01/10/2026 : Ouvertures de 1859 (Pardubice 29.1, Žitava/Zittau 25.2) et lignes de 1875, 1888, 1903 confirmées."
+  },
+  {
+   "source_id": "src-13-cz-budejovice-rail",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "železnice",
+   "institution": "Encyklopedie Českých Budějovic, portail municipal",
+   "url": "https://www.encyklopedie.c-budejovice.cz/clanek/zeleznice",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rôle de ville au 01/01/1945 (ratissage villes 1.3)"
+   ],
+   "cibles": [
+    "ville-cz-ceske-budejovice",
+    "ville-cz-plzen"
+   ],
+   "locator": "1868 : České Budějovice–Pilsen ; liaisons vers Vienne en 1869–1870 et Veselí en 1874.",
+   "resume_passage": "",
+   "archive_locale": null,
+   "verification_claude": "non_verifiee",
+   "notes": "Proposée par Ether (villes 1.3, 01/10/2026, réf. S28). Limite annoncée par Ether : En 1945, ne pas présenter la traction hippomobile de 1832 comme encore en service. Relecture Claude 01/10/2026 : WebFetch n'a rendu que le menu/index de l'encyclopédie, sans le texte de l'article sur les chemins de fer."
+  },
+  {
+   "source_id": "src-13-cz-most-histoire",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "CMSP : Caractéristique et histoire de Most, annexe municipale 2018",
+   "institution": "Ville de Most",
+   "url": "https://www.mesto-most.cz/assets/File.ashx?id_dokumenty=30832&id_org=9959",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rôle de ville au 01/01/1945 (ratissage villes 1.3)"
+   ],
+   "cibles": [
+    "ville-cz-most"
+   ],
+   "locator": "Page PDF 6 : ligne Ústí–Chomutov par Most en 1870 reliant les mines à leurs débouchés.",
+   "resume_passage": "",
+   "archive_locale": null,
+   "verification_claude": "non_verifiee",
+   "notes": "Proposée par Ether (villes 1.3, 01/10/2026, réf. S29). Limite annoncée par Ether : Le point de 1945 doit rester au vieux Most ; le centre de la ville nouvelle ne convient pas comme ancrage historique. Relecture Claude 01/10/2026 : WebFetch bloqué (échec de lecture de robots.txt) sur le PDF, deux tentatives."
+  },
+  {
+   "source_id": "src-13-cz-breclav-rail",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Železnice",
+   "institution": "Ville de Břeclav",
+   "url": "https://breclav.eu/kultura-cestovni-ruch-zeleznice",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rôle de ville au 01/01/1945 (ratissage villes 1.3)"
+   ],
+   "cibles": [
+    "ville-cz-breclav"
+   ],
+   "locator": "1839 : rail depuis Vienne ; Přerov en 1841 ; Bratislava en 1909 ; nœud et douane dans l'entre-deux-guerres.",
+   "resume_passage": "od roku 1909 je Břeclav kolejemi spojena i s Bratislavou",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "notes": "Proposée par Ether (villes 1.3, 01/10/2026, réf. S30). Limite annoncée par Ether : Les branches multiples motivent B malgré la taille urbaine ; contrôle territorial hérité, pas inscrit dans la ville. Relecture Claude 01/10/2026 : 1839, Přerov (deux ans plus tard, soit 1841), Bratislava 1909 et rôle de croisement ferroviaire frontalier et station douanière confirmés."
+  },
+  {
+   "source_id": "src-13-cz-prerov-rail",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Přerov – město vybudované železnicí I.",
+   "institution": "Vědecká knihovna v Olomouci, revue KROK 2/2023",
+   "url": "https://www.vkol.cz/uploads/revue/81/doc/krok-02-16-05-2023-1.pdf",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rôle de ville au 01/01/1945 (ratissage villes 1.3)"
+   ],
+   "cibles": [
+    "ville-cz-prerov",
+    "ville-cz-olomouc"
+   ],
+   "locator": "Pages PDF 6–8 : ouverture en 1841 de la desserte et de la branche vers Olomouc ; développement en nœud ferroviaire dès les origines.",
+   "resume_passage": "Přerov tak byl už do počátku existence uzlovou stanicí.",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "notes": "Proposée par Ether (villes 1.3, 01/10/2026, réf. S31). Limite annoncée par Ether : Ne pas confondre train d'essai de septembre et inauguration d'octobre ; la présence ferroviaire avant 1945 est sûre. Relecture Claude 01/10/2026 : Train d'essai du 1er septembre 1841 et inauguration du 17 octobre vers Olomouc vus, ainsi que le statut de nœud dès l'origine."
+  },
+  {
+   "source_id": "src-13-cz-trebova-rail",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Profil města České Třebové",
+   "institution": "Ville de Česká Třebová",
+   "url": "https://www.ceska-trebova.cz/assets/File.ashx?id_dokumenty=3538&id_org=2175",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rôle de ville au 01/01/1945 (ratissage villes 1.3)"
+   ],
+   "cibles": [
+    "ville-cz-ceska-trebova"
+   ],
+   "locator": "Page PDF 17 : ligne Olomouc–Prague en 1845 ; branche vers Brno en 1849.",
+   "resume_passage": "",
+   "archive_locale": null,
+   "verification_claude": "non_verifiee",
+   "notes": "Proposée par Ether (villes 1.3, 01/10/2026, réf. S32). Limite annoncée par Ether : Rôle de nœud antérieur à 1945 ; chiffres contemporains d'emploi et de vitesse non utilisés. Relecture Claude 01/10/2026 : WebFetch bloqué (échec de lecture de robots.txt) sur le PDF, deux tentatives."
+  },
+  {
+   "source_id": "src-13-hu-szekesfehervar-rail",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Örökségvédelmi Hatástanulmány Székesfehérvár, 2021",
+   "institution": "Ville de Székesfehérvár, étude patrimoniale",
+   "url": "https://www.szekesfehervar.hu/_upload/editor/2021/Onkormanyzat/f__epiteszi_2021/OTHT2021REV/00_oSSZESiTeS_oH2021__I-II_kotet.pdf",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rôle de ville au 01/01/1945 (ratissage villes 1.3)"
+   ],
+   "cibles": [
+    "ville-hu-szekesfehervar"
+   ],
+   "locator": "Page imprimée 20, PDF 20 : branches ferroviaires 1860–1898, dont Buda–Nagykanizsa en 1861.",
+   "resume_passage": "1861-ben indult meg a forgalom a Budapest–Székesfehérvár–Nagykanizsa-vonalon.",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "notes": "Proposée par Ether (villes 1.3, 01/10/2026, réf. S33). Limite annoncée par Ether : Rail retenu ; aviation/industrie aéronautique décrites ensuite mais non nécessaires au premier jeu de rôles. Ne pas supposer une base intacte fin 1944. Relecture Claude 01/10/2026 : Budapest–Nagykanizsa 1861 vu, avec autres branches (1860, 1872, 1896, 1898) listées dans la même section."
+  },
+  {
+   "source_id": "src-13-hu-ouest-rail",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "150 éves a Sopron–Szombathely–Nagykanizsa vasútvonal",
+   "institution": "MÁV-csoport",
+   "url": "https://www.mavcsoport.hu/mav-csoport/150-eves-sopron-szombathely-nagykanizsa-vasutvonal",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rôle de ville au 01/01/1945 (ratissage villes 1.3)"
+   ],
+   "cibles": [
+    "ville-hu-sopron",
+    "ville-hu-szombathely",
+    "ville-hu-nagykanizsa"
+   ],
+   "locator": "21 septembre 1865 : circulation sur Sopron–Szombathely–Nagykanizsa, corridor vers l'Adriatique.",
+   "resume_passage": "a vonatforgalom szeptember 21-én indult meg",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "notes": "Proposée par Ether (villes 1.3, 01/10/2026, réf. S34). Limite annoncée par Ether : Le projet, la remise officielle et le début de circulation sont distingués ; pas de débit extrapolé. Relecture Claude 01/10/2026 : Circulation le 21 septembre 1865 (ligne ouverte le 20) et corridor Vienne/Bratislava–Adriatique confirmés."
+  },
+  {
+   "source_id": "src-13-hu-bekescsaba-rail",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "A békéscsabai vasútállomás története",
+   "institution": "MÁV-csoport, Megálló",
+   "url": "https://megallo.mavcsoport.hu/anno/bekescsabai-vasutallomas-tortenete",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rôle de ville au 01/01/1945 (ratissage villes 1.3)"
+   ],
+   "cibles": [
+    "ville-hu-bekescsaba",
+    "ville-hu-szolnok"
+   ],
+   "locator": "1858 : ligne Szolnok–Arad via Békéscsaba ; importance accrue après Trianon.",
+   "resume_passage": "megindult a vasút 1858-ban a Szolnok és Arad között, a pálya nem a Békés–Gyula, hanem a Békéscsaba–Lökösháza szakaszon épült meg",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "notes": "Proposée par Ether (villes 1.3, 01/10/2026, réf. S35). Limite annoncée par Ether : Les évolutions après 1945 figurant plus loin ne sont pas projetées sur l'état initial. Relecture Claude 01/10/2026 : Ligne de 1858 via Békéscsaba et hausse de son rôle après Trianon confirmées."
+  },
+  {
+   "source_id": "src-13-sk-dubnica-industrie",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Škoda Dubnica kedysi a dnes",
+   "institution": "Ville de Dubnica nad Váhom",
+   "url": "https://www.dubnica.eu/udalosti-v-meste/aktuality/skoda-dubnica-kedysi-a-dnes-276sk.html",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rôle de ville au 01/01/1945 (ratissage villes 1.3)"
+   ],
+   "cibles": [
+    "ville-sk-dubnica-nad-vahom"
+   ],
+   "locator": "Conférence historique : début de production et période 1937–1945.",
+   "resume_passage": "Budovanie závodu, začiatok výroby, obdobie rokov 1937 – 1945",
+   "archive_locale": null,
+   "verification_claude": "limite",
+   "notes": "Proposée par Ether (villes 1.3, 01/10/2026, réf. S36). Limite annoncée par Ether : Notice municipale sur l'histoire de l'usine ; livre annoncé non lu. Industrie mécanique/armement, sans ajouter base militaire ni rail non vérifié. Relecture Claude 01/10/2026 : Seul l'intitulé d'un thème de conférence est présent : aucun contenu factuel sur la période 1937–1945."
+  },
+  {
+   "source_id": "src-13-hu-ozd-industrie",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Digitális Erőmű Ózd",
+   "institution": "Ózdi Városi Könyvtár, bibliothèque municipale",
+   "url": "https://vkozd.hu/encyclopedia/digitalis-eromu-ozd/",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rôle de ville au 01/01/1945 (ratissage villes 1.3)"
+   ],
+   "cibles": [
+    "ville-hu-ozd"
+   ],
+   "locator": "Développements sidérurgiques 1895–1915 ; grand centre industriel décrit en 1944.",
+   "resume_passage": "",
+   "archive_locale": null,
+   "verification_claude": "non_verifiee",
+   "notes": "Proposée par Ether (villes 1.3, 01/10/2026, réf. S37). Limite annoncée par Ether : Point urbain industriel admissible malgré le rang municipal de ville acquis seulement en 1949 ; pas de population de 1945 inventée. Relecture Claude 01/10/2026 : WebFetch bloqué : ROBOTS_DISALLOWED (échec du fetch robots.txt, ConnectTimeout)."
+  },
+  {
+   "source_id": "src-13-cz-ostrava-nom",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Říjen 2007 — chronologie des extensions d'Ostrava",
+   "institution": "Ville d'Ostrava",
+   "url": "https://ostrava.cz/cs/o-meste/prezentace/tiskoviny/rok-2007/rijen-2007",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rôle de ville au 01/01/1945 (ratissage villes 1.3)"
+   ],
+   "cibles": [
+    "ville-cz-ostrava"
+   ],
+   "locator": "1941 : extension à Slezská Ostrava et onze communes ; 28 juin 1946 : nom Moravská Ostrava remplacé par Ostrava.",
+   "resume_passage": "",
+   "archive_locale": null,
+   "verification_claude": "faible",
+   "notes": "Proposée par Ether (villes 1.3, 01/10/2026, réf. S38). Limite annoncée par Ether : Svinov est rattachée seulement en 1957 : ne pas absorber sa gare dans une limite municipale de 1945. Přívoz suffit à établir rail. Relecture Claude 01/10/2026 : La page (bulletin municipal d'octobre 2007) ne contient ni l'extension de 1941 ni le changement de nom du 28 juin 1946 ; mauvaise URL probable."
+  },
+  {
+   "source_id": "src-13-cz-prague-protectorat",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Připomínka okupace zbytku Československa 15. března 1939",
+   "institution": "Vojenský historický ústav Praha",
+   "url": "https://www.vhu.cz/exhibit/pripominka-okupace-zbytku-ceskoslovenska-15-brezna-1939-4/",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rôle de ville au 01/01/1945 (ratissage villes 1.3)"
+   ],
+   "cibles": [
+    "ville-cz-prague"
+   ],
+   "locator": "15–16 mars 1939 : occupation de Prague, proclamation du Protectorat et institutions d'Emil Hácha et du protecteur.",
+   "resume_passage": "Dne 16. března 1939 byl vyhlášen Protektorát Čechy a Morava v čele s Emilem Háchou",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "notes": "Proposée par Ether (villes 1.3, 01/10/2026, réf. S39). Limite annoncée par Ether : Rôle administratif sous occupation ; ne résout pas, à elle seule, la convention Atlas de capitale nationale ou régionale. Relecture Claude 01/10/2026 : Occupation du 15 mars, proclamation du 16 mars, Hácha et protecteur von Neurath confirmés."
+  },
+  {
+   "source_id": "src-13-cz-exil-contexte",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Ambassador Chatardová unveiled information panels in Wingrave",
+   "institution": "Ministère tchèque des Affaires étrangères, ambassade à Londres",
+   "url": "https://mzv.gov.cz/london/en/what_s_new/ambassador_chatardova_unveiled.html",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rôle de ville au 01/01/1945 (ratissage villes 1.3)"
+   ],
+   "cibles": [
+    "ville-cz-prague"
+   ],
+   "locator": "Cabinet de Beneš en exil en Angleterre entre 1940 et 1945.",
+   "resume_passage": "The village of Wingrave, north of London, was home to members of President Edvard Beneš's cabinet from 1940 to 1945.",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "notes": "Proposée par Ether (villes 1.3, 01/10/2026, réf. S40). Limite annoncée par Ether : Contexte empêchant de présenter Prague comme siège du gouvernement tchécoslovaque effectif fin 1944. Wingrave/Aston Abbots ne sont pas assimilées à Londres. Relecture Claude 01/10/2026 : Soutient le cabinet de Beneš en exil en Angleterre 1940–1945 ; la page précise aussi Aston Abbots pour Beneš lui-même."
+  },
+  {
+   "source_id": "src-13-sk-trnava-rail",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Bratislavsko-trnavská železničná spoločnosť",
+   "institution": "Železnice Slovenskej republiky",
+   "url": "https://www.zsr.sk/o-nas/historia-zeleznic/1867-1873/zeleznicne-podniky/skor-vzniknute-zel.podniky/bratislavsko-trnavska-zeleznicna-spolocnost",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rôle de ville au 01/01/1945 (ratissage villes 1.3)"
+   ],
+   "cibles": [
+    "ville-sk-trnava"
+   ],
+   "locator": "Voie Bratislava–Trnava déjà exploitée au XIXe siècle ; reconstruction à vapeur commencée en 1872, Trnava–Sereď hippomobile jusqu'en 1876.",
+   "resume_passage": "Úsek Trnava – Sereď bol pritom prevádzkovaný v animálnej trakcii až do roku 1876",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "notes": "Proposée par Ether (villes 1.3, 01/10/2026, réf. S41). Limite annoncée par Ether : La présence du rail est établie sans transporter la traction hippomobile dans le Snapshot. Relecture Claude 01/10/2026 : Exploitation hippomobile ancienne, reconstruction à vapeur dès le 10.10.1872 et Trnava–Sereď hippomobile jusqu'en 1876 confirmées."
+  },
+  {
+   "source_id": "src-13-cz-cheb-rail",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Nádraží",
+   "institution": "Visit Cheb, encyclopédie municipale",
+   "url": "https://visitcheb.cz/cz/nadrazi",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rôle de ville au 01/01/1945 (ratissage villes 1.3)"
+   ],
+   "cibles": [
+    "ville-cz-cheb"
+   ],
+   "locator": "1865 : accès bavarois et saxon ; 1870 : Prague ; 1872 : Pilsen ; cinq chemins de fer convergent au nœud.",
+   "resume_passage": "Cheb se stal tranzitním uzlem, kde se spojilo pět různých drah.",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "notes": "Proposée par Ether (villes 1.3, 01/10/2026, réf. S42). Limite annoncée par Ether : Dégâts de la gare au printemps 1945 exclus de l'état initial. Relecture Claude 01/10/2026 : 1865 (bavarois/saxon), 1870 Prague, 1872 Plzeň et cinq voies convergentes confirmés."
+  },
+  {
+   "source_id": "src-13-sk-poprad-fusion",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "80. výročie vzniku Veľkého Popradu",
+   "institution": "Ville de Poprad, Mesačník Poprad, novembre 2025 ; Božena Malovcová",
+   "url": "https://www.poprad.sk/download.dat?id=9C69FA1E9B694248901B6102F1B061C9-C7B733EFE4CA001007E8BE6F7CE1B688",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rôle de ville au 01/01/1945 (ratissage villes 1.3)"
+   ],
+   "cibles": [
+    "ville-sk-poprad"
+   ],
+   "locator": "Page PDF 24 : fusion approuvée en septembre 1945, effets juridiques au 1er janvier 1946.",
+   "resume_passage": "schválil 6. septembra 1945 zlúčenie Veľkej a Spišskej Soboty s Popradom [...] s právnym účinkom od 1. januára 1946.",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "notes": "Proposée par Ether (villes 1.3, 01/10/2026, réf. S43). Limite annoncée par Ether : En janvier 1945, Poprad, Veľká et Spišská Sobota ne forment pas encore la commune agrandie. Ne pas traiter Svit comme partie de Poprad en 1945. Relecture Claude 01/10/2026 : Approbation du 6 septembre 1945 et effet juridique au 1er janvier 1946 confirmés (page 24)."
+  },
+  {
+   "source_id": "src-13-hu-miskolc-fusion",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Miskolc kulturális stratégiája 2022–2032 — Történeti összefoglalás",
+   "institution": "Ville de Miskolc",
+   "url": "https://www.miskolc.hu/sites/default/files/onkormanyzat/csatolmanyok/2024-11/169_1_mell._kult.strategia_2022-2032.pdf",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rôle de ville au 01/01/1945 (ratissage villes 1.3)"
+   ],
+   "cibles": [
+    "ville-hu-miskolc",
+    "ville-hu-diosgyor"
+   ],
+   "locator": "Page PDF 102 : décision donnant effet à Grand Miskolc le 1er janvier 1945 ; Diósgyőr et Hejőcsaba absorbées.",
+   "resume_passage": "",
+   "archive_locale": null,
+   "verification_claude": "faible",
+   "notes": "Proposée par Ether (villes 1.3, 01/10/2026, réf. S44). Limite annoncée par Ether : La fusion est datée du 1er janvier 1945. Selon la convention verrouillée du projet, l'état initial est le dernier état connu AVANT 00:00 : conserver Diósgyőr distincte puis appliquer la fusion dans le ratissage temporel. Relecture Claude 01/10/2026 : Le PDF ne contient pas de décision de Grand Miskolc au 1er janvier 1945 (il évoque Nagy-Miskolc « 60-70 évvel ezelőtt ») ; page 102 non confirmée."
+  },
+  {
+   "source_id": "src-13-hu-dunaujvaros-exclusion",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Dunaújváros 60 éves",
+   "institution": "Ville de Dunaújváros, publication anniversaire 2011",
+   "url": "https://dunaujvaros.hu/sites/all/files/dokumentumok/kiadvany/2011_07_web.pdf",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rôle de ville au 01/01/1945 (ratissage villes 1.3)"
+   ],
+   "cibles": [
+    "candidat-hu-dunapentele-dunaujvaros"
+   ],
+   "locator": "Page PDF 9 : chantier de la ville en mai 1950 et de l'usine en octobre 1950.",
+   "resume_passage": "május 2-án a város, majd október 10-én a gyár építése",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "notes": "Proposée par Ether (villes 1.3, 01/10/2026, réf. S45). Limite annoncée par Ether : Exclut l'argument sidérurgique de l'après-guerre au Snapshot ; ne prouve pas l'absence totale d'activité à Dunapentele en 1944. Relecture Claude 01/10/2026 : Chantier de la ville (2 mai 1950) et de l'usine (10 octobre 1950) confirmés."
+  },
+  {
+   "source_id": "src-13-hu-csepel-commune",
+   "niveau": "C",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "A XXI. kerületről",
+   "institution": "Csepeli.info, présentation locale du district",
+   "url": "https://www.csepeli.info/A-keruletrol/a-xxi-keruletrol.html",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rôle de ville au 01/01/1945 (ratissage villes 1.3)"
+   ],
+   "cibles": [
+    "ville-hu-csepel"
+   ],
+   "locator": "Csepel rattachée à Budapest en 1950.",
+   "resume_passage": "1950 után vette kezdetét, amikor Budapesthez csatolták Csepel szigetét.",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "notes": "Proposée par Ether (villes 1.3, 01/10/2026, réf. S46). Limite annoncée par Ether : Notice locale simplifiée : ne résout pas les retraits de parcelles de l'île au profit de Budapest avant 1950, particulièrement le port. Relecture Claude 01/10/2026 : Rattachement à Budapest en 1950 confirmé (formulation un peu allusive mais explicite)."
+  },
+  {
+   "source_id": "src-13-hu-csepel-industrie",
+   "niveau": "C",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Weiss Manfréd és Csepel története röviden",
+   "institution": "BKSZC Weiss Manfréd Technikum, école publique professionnelle",
+   "url": "https://wm-iskola.hu/iskola/weisstortenet",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rôle de ville au 01/01/1945 (ratissage villes 1.3)"
+   ],
+   "cibles": [
+    "ville-hu-csepel"
+   ],
+   "locator": "1892 : implantation manufacturière ; production mécanique et militaire pendant la guerre ; destructions et transfert de l'usine en 1944.",
+   "resume_passage": "1892-ben Csepel faluja mellett fekvő és a hajózható Duna melletti János-legelőre esik a választásuk.",
+   "archive_locale": null,
+   "verification_claude": "limite",
+   "notes": "Proposée par Ether (villes 1.3, 01/10/2026, réf. S47). Limite annoncée par Ether : La compilation cite la collection d'histoire locale et Wikipédia et contient une alternative de date d'après-guerre. Niveau C, rôle à renforcer par notice d'archives accessible ; ne pas prendre ses dates incertaines de nationalisation. Relecture Claude 01/10/2026 : 1892 et production militaire de guerre confirmés, mais 1944 n'apparaît que comme reprise par les Allemands et bombardements, pas un transfert de l'usine."
+  },
+  {
+   "source_id": "src-13-hu-gyor-raba",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Company — History",
+   "institution": "Rába Nyrt.",
+   "url": "https://raba.hu/company/",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rôle de ville au 01/01/1945 (ratissage villes 1.3)"
+   ],
+   "cibles": [
+    "ville-hu-gyor"
+   ],
+   "locator": "Section History : entreprise fondée à Győr le 28 décembre 1896.",
+   "resume_passage": "Rába was founded in Győr on 28. December, 1896.",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "notes": "Proposée par Ether (villes 1.3, 01/10/2026, réf. S48). Limite annoncée par Ether : Soutient l'industrie mécanique historique locale ; ni implantation Audi récente, ni maintien d'un débit productif précis au 1er janvier 1945. Relecture Claude 01/10/2026 : Fondation à Győr le 28 décembre 1896 confirmée (page en anglais)."
+  },
+  {
+   "source_id": "src-13-hu-budapest-port",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Vámmentes kikötőből tengeri-, majd Szabadkikötő — 1928–1941",
+   "institution": "Magyar Nemzeti Levéltár, revue ArchívNet, 2019/6",
+   "url": "https://www.archivnet.hu/vammentes-kikotobol-tengeri-majd-szabadkikoto-a-csepeli-kikotokomplexum-mukodesenek-elso-idoszaka",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rôle de ville au 01/01/1945 (ratissage villes 1.3)"
+   ],
+   "cibles": [
+    "ville-hu-budapest"
+   ],
+   "locator": "20 octobre 1928 : ouverture du port douanier de Budapest sur l'île de Csepel ; développement jusqu'en 1941.",
+   "resume_passage": "1928. október 20-án avatta fel a budapesti vámmentes kikötőt Horthy Miklós kormányzó.",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "notes": "Proposée par Ether (villes 1.3, 01/10/2026, réf. S49). Limite annoncée par Ether : Étude accompagnée de documents d'archives. Port du système budapestois retenu ; ne pas attribuer automatiquement toutes les parcelles de l'île à la commune Csepel. Localisation cadastrale antérieure à 1950 à contrôler. Relecture Claude 01/10/2026 : Inauguration du 20 octobre 1928 et trafic jusqu'en 1941 vus ; la source parle de port « vámmentes » (franc) et non « douanier »."
+  },
+  {
+   "source_id": "src-13-hu-diosgyor-industrie",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "A diósgyőrvasgyári lakótelep kialakulása, 1868–1945",
+   "institution": "Bányászati és Kohászati Lapok ; B. Harcsik, 2024, 156(4), p. 32–42 ; hébergement MTA",
+   "url": "https://ojs.mtak.hu/index.php/bkl/article/view/17154",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rôle de ville au 01/01/1945 (ratissage villes 1.3)"
+   ],
+   "cibles": [
+    "ville-hu-diosgyor"
+   ],
+   "locator": "Résumé : usine déplacée sur son implantation après 1868, avec cité ouvrière ; période étudiée 1868–1945.",
+   "resume_passage": "majd 1868-at követően Péch Antal javaslatára, a mai helyére költözött az állami tulajdonban álló gyár",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "notes": "Proposée par Ether (villes 1.3, 01/10/2026, réf. S50). Limite annoncée par Ether : Résumé consulté ; article intégral et références de 1928/1997 non lus. Confirme l'industrie historique, pas la production journalière fin 1944. Relecture Claude 01/10/2026 : Résumé confirmant le déplacement après 1868 et la cité ouvrière ; période 1868–1945 dans le titre."
+  },
+  {
+   "source_id": "src-13-cz-ostrava-degats",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Ostrava si připomenula 80 let od ničivého náletu",
+   "institution": "Ville d'Ostrava, district Moravská Ostrava a Přívoz",
+   "url": "https://moap.ostrava.cz/cs/o-moapu/aktualne/ostrava-si-pripomenula-80-let-od-niciveho-naletu",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rôle de ville au 01/01/1945 (ratissage villes 1.3)"
+   ],
+   "cibles": [
+    "ville-cz-ostrava"
+   ],
+   "locator": "29 août 1944 : usines, mine et transports touchés.",
+   "resume_passage": "Nejvíce jich dopadlo na Vítkovické železárny a další průmyslové cíle jako Rüttgersovy chemické závody",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "notes": "Proposée par Ether (villes 1.3, 01/10/2026, réf. S51). Limite annoncée par Ether : La campagne entière de trente attaques comprend aussi des dates ultérieures ; seul le raid daté d'août appartient ici à l'état initial. Relecture Claude 01/10/2026 : Usines, mine Trojice et transports touchés confirmés ; la date exacte du 29 août n'apparaît pas dans les citations obtenues (déduite du titre « 80 let »)."
+  },
+  {
+   "source_id": "src-13-sk-sturovo-nom",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Základné informácie o meste — histoire de Štúrovo",
+   "institution": "Ville de Štúrovo",
+   "url": "https://www.sturovo.sk/zakladne-informacie-o-meste.html",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rôle de ville au 01/01/1945 (ratissage villes 1.3)"
+   ],
+   "cibles": [
+    "ville-sk-sturovo"
+   ],
+   "locator": "Historique : changement de nom le 26 juin 1948, de Parkan à Štúrovo ; formes historiques Párkány/Parkan.",
+   "resume_passage": "Konečná zmena názvu Parkan na Štúrovo sa udiala v roku 1948.",
+   "archive_locale": null,
+   "verification_claude": "limite",
+   "notes": "Proposée par Ether (villes 1.3, 01/10/2026, réf. S52). Limite annoncée par Ether : Le nom Štúrovo n’est pas projeté au 1er janvier 1945. Les destructions évoquées après la libération ne sont pas datées assez précisément pour ce snapshot. Relecture Claude 01/10/2026 : Année 1948 et formes Párkány/Parkan confirmées, mais la date précise du 26 juin 1948 n'apparaît pas."
+  },
+  {
+   "source_id": "src-13-cz-bohumin-perimetre",
+   "niveau": "B",
+   "type_source": "notice_historique_institutionnelle",
+   "titre": "Historie — histoire administrative de Bohumín",
+   "institution": "Ville de Bohumín",
+   "url": "https://www.bohumin.cz/cz/o-meste/samosprava/historie/",
+   "date_consultation": "2026-10-01",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rôle de ville au 01/01/1945 (ratissage villes 1.3)"
+   ],
+   "cibles": [
+    "ville-cz-bohumin"
+   ],
+   "locator": "Historique : Šunychl devient Nový Bohumín en 1924 ; regroupement municipal décrit en 1949.",
+   "resume_passage": "",
+   "archive_locale": null,
+   "verification_claude": "non_verifiee",
+   "notes": "Proposée par Ether (villes 1.3, 01/10/2026, réf. S53). Limite annoncée par Ether : Le texte ne tranche pas le regroupement de guerre de 1943. Retenir le nœud ferroviaire de Nový Bohumín, avec un périmètre municipal à vérifier. Relecture Claude 01/10/2026 : WebFetch bloqué (échec de lecture de robots.txt), deux tentatives."
   }
  ]
 }
