@@ -2,6 +2,14 @@
 
 Une ligne par décision, datée. Plus récente en haut. Ce journal remplace les versions éparpillées dans les conversations : si ce n'est pas ici, ce n'est pas décidé.
 
+## 2026-10-02 (soir : villes 1.5, Europe orientale soviétique)
+
+- **Villes 1.5 intégrées : 200 villes** (Russie d'Europe et Oural 105, Ukraine/Crimée 66, Biélorussie 24, Moldavie 5), dont 67 sous leur nom de 1945 (Sverdlovsk, Gorki, Kouïbychev, Leningrad, Stalingrad, Stalino, Königsberg, Tilsit…). IDs au code du pays actuel. *(Ether, fait par Claude)*
+- **IDs des villes : exception écrite au lexique** (préfixe = pays actuel, sans valeur de souveraineté ; IDs intégrés jamais renommés), à la demande d'Ether (Q15-01). *(Claude)*
+- **Capitales de RSS** : Minsk, Kiev, Kichinev et Petrozavodsk sont « régionales », par la convention déjà appliquée à Tallinn, Riga et Vilnius. Ether avait laissé l'attribut vide (R15-36) ; la typologie d'ensemble des RSS reste dans la revue finale. *(Claude, selon la convention du 01/10)*
+- **Chefs-lieux d'oblast et de RSS autonomes** : attribut « régionale » **non appliqué** aux 15 villes proposées (Kazan, Oufa, Kostroma…). Aucune règle ne couvre ce cas, et le lot ne traite pas tous les chefs-lieux de la même façon. Rôles conservés ; réserve pour la revue finale (Q15-02). *(Claude)*
+- Positions : Wikidata pour 195 villes (recoupées par SPARQL), GeoNames (CC BY 4.0, crédit ajouté aux licences) pour 5 repères. Sources : 192 nouvelles, 124 confirmées (65 %), 11 à remplacer ou préciser (Q15-03). Registre v1.17, 594 sources ; « Sources à valider » : 188. Réserves R15-01 à R15-36 gardées pour la revue finale 1.x. *(Claude)*
+
 ## 2026-10-02 (après-midi : alternance des livraisons)
 
 - **Ether produit jusqu'à une livraison complète, puis attend Claude** : son réveil horaire coupait la recherche en morceaux, il est en pause pendant la production. À partir de la 2e remise, une remise = réponses au lot précédent + nouveau lot complet, chacun dans son dossier avec son `PRET_ether.md`. *(Guizmo, Ether)*

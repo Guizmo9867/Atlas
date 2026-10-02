@@ -6,3 +6,4 @@ Une ligne par livraison intégrée, ajoutée par Claude (mode d'emploi, étape 7
 |---|---|---|---|---|---|---|---|---|---|
 | 2026-10-01 | villes_1-3 cycle 3 | Codex, GPT-6 (effort non exposé) | 9 | 8 (89 %) | 0 | 0 | 0 | `usages_atlas` absent (texte `usage` seulement) | `usages_atlas` déduits ; 2 mentions « à normaliser » retirées |
 | 2026-10-01 | villes_1-4 cycle 3 | Codex, GPT-6 (effort non exposé) | 6 | 2 (33 %) ; 3 partielles, 1 illisible | 1 (Tapa, page tronquée par l'outil) | 0 | 0 | aucun | aucune |
+| 2026-10-02 | villes_1-5 cycle 1 | Codex, GPT-6 (variante et effort non exposés) | 192 | 124 (65 %) ; 25 partielles, 32 illisibles | 6 | 5 | 0 | aucun | capitales de 4 RSS appliquées (convention) ; attribut non appliqué à 15 chefs-lieux ; copie JSON rangée sous une clé pour le validateur |

@@ -1,43 +1,43 @@
 {
- "genere_le": "2026-10-01 20:21",
+ "genere_le": "2026-10-02 17:23",
  "snapshot0": {
   "date_representee": "1945-01-01 00:00 (dernier état connu avant)",
   "territoires": 74,
   "lignes_de_front": 4,
   "frontieres_tracees": 1,
   "geometries": 77,
-  "villes": 325,
+  "villes": 525,
   "villes_par_rang": {
-   "A": 19,
-   "B": 186,
-   "C": 120
+   "A": 36,
+   "B": 316,
+   "C": 173
   },
   "capitales": {
-   "nationale": 17,
-   "regionale": 7,
+   "nationale": 18,
+   "regionale": 11,
    "territoire": 4
   },
-  "villes_avec_nom_de_1945_different": 25,
-  "villes_avec_reserve_a_renforcer": 82,
+  "villes_avec_nom_de_1945_different": 92,
+  "villes_avec_reserve_a_renforcer": 161,
   "roles_de_villes": {
-   "rail": 233,
-   "industrie": 117,
-   "port_maritime": 109,
-   "port_fluvial": 38,
+   "rail": 357,
+   "industrie": 196,
+   "port_maritime": 120,
+   "port_fluvial": 57,
+   "administration": 46,
+   "capitale": 39,
    "frontalier": 31,
-   "administration": 22,
-   "militaire": 20,
-   "capitale": 19,
-   "ferry": 14,
-   "aviation": 11,
-   "base_navale": 9,
-   "charbon": 8,
-   "construction_navale": 8,
+   "militaire": 25,
+   "ferry": 15,
+   "aviation": 12,
+   "base_navale": 11,
+   "siderurgie": 11,
+   "charbon": 10,
+   "construction_navale": 10,
    "navigation_cotiere": 8,
+   "minerai": 7,
    "detroit": 6,
-   "minerai": 5,
    "transatlantique": 4,
-   "siderurgie": 4,
    "base_sous_marine": 2,
    "peche": 2,
    "quartier_general": 1
@@ -142,31 +142,45 @@
     "entites": {
      "ville": 61
     }
+   },
+   {
+    "fichier": "villes_1-5_europe_orientale.json",
+    "version": "0.1",
+    "zone": [
+     "Russie européenne et Oural",
+     "Biélorussie",
+     "Ukraine",
+     "Moldavie",
+     "Prusse-Orientale, géographie actuelle russe"
+    ],
+    "entites": {
+     "ville": 200
+    }
    }
   ]
  },
  "sources": {
-  "registre_version": "1.16",
-  "total": 402,
+  "registre_version": "1.17",
+  "total": 594,
   "relecture_claude": {
-   "ok": 282,
-   "limite": 52,
-   "non_verifiee": 58,
-   "faible": 5,
-   "lien_casse": 5
+   "ok": 406,
+   "limite": 77,
+   "non_verifiee": 90,
+   "faible": 11,
+   "lien_casse": 10
   },
   "niveaux": {
-   "A": 70,
-   "B": 317,
-   "C": 15
+   "A": 99,
+   "B": 475,
+   "C": 20
   },
-  "en_attente_de_validation_humaine": 120,
+  "en_attente_de_validation_humaine": 188,
   "validees_par_guizmo": 0
  },
  "historique": {
-  "envois_github": 23,
+  "envois_github": 27,
   "premier_envoi": "2026-09-28",
-  "dernier_envoi": "2026-10-01",
+  "dernier_envoi": "2026-10-02",
   "depot_public": "https://github.com/Guizmo9867/Atlas"
  }
 }

@@ -1,0 +1,1167 @@
+{
+ "lot": "villes_1-5",
+ "date": "2026-10-02",
+ "par": "Claude (sous-agents de relecture, WebFetch seul)",
+ "methode": "Une lecture par URL (au plus 2 essais), sans contournement ; statuts ok / limite / faible / non_verifiee / lien_casse ; décompte refait par Claude à partir de ce fichier.",
+ "decompte": {
+  "lien_casse": 5,
+  "limite": 25,
+  "ok": 124,
+  "non_verifiee": 32,
+  "faible": 6
+ },
+ "resultats": [
+  {
+   "id": "src-rosmorport-arctique-histoire",
+   "statut": "lien_casse",
+   "citation": "",
+   "commentaire": "L'URL renvoie une erreur 404 ; aucune section Arkhangelsk ou Kandalakcha n'a pu être lue."
+  },
+  {
+   "id": "src-rosmorport-baltique-histoire",
+   "statut": "limite",
+   "citation": "1713: \"Навигация в море Балтийском открыта\" ; Ленинградский морской порт был открыт для захода иностранных судов (постановление от 06.11.1951)",
+   "commentaire": "La page décrit Saint-Pétersbourg et Vyborg (rôle portuaire, liaison mixte rail-eau selon Rosjeldor 2012) mais rien sur Vysotsk, Kaliningrad, Baltiïsk ; la desserte ferroviaire est donnée pour 2012, pas pour 1945."
+  },
+  {
+   "id": "src-mmtp-histoire-port-mourmansk",
+   "statut": "ok",
+   "citation": "Под охраной боевых кораблей в Кольский залив вошел первый союзный караван с военными грузами из Англии",
+   "commentaire": "La chronologie confirme le port fondé en 1915, la ligne régulière avec la côte Est des États-Unis en 1938 et le premier convoi allié le 21 décembre 1941, tous antérieurs à 1945."
+  },
+  {
+   "id": "src-mourmansk-station-centenaire-2015",
+   "statut": "ok",
+   "citation": "станция смогла организовать бесперебойную работу по перегрузке с кораблей и отправке эшелонов с грузами военного значения, получаемых от союзников",
+   "commentaire": "La page confirme la fonction ferroviaire et le transbordement des cargaisons alliées pendant la guerre (97 bombardements) ; la décoration de 1945 est postérieure au 1er janvier 1945 et ne sert pas de repère."
+  },
+  {
+   "id": "src-sevmash-molotovsk-histoire-2024",
+   "statut": "non_verifiee",
+   "citation": "",
+   "commentaire": "WebFetch a refusé l'accès (robots.txt illisible) lors de deux essais ; contenu non consulté."
+  },
+  {
+   "id": "src-srgvs-polyarny-histoire",
+   "statut": "ok",
+   "citation": "Основной операционной базой СВФ утверждался посёлок Полярный, тыловой базой – губа Ваенга, судоремонтной – город Мурманск",
+   "commentaire": "La page confirme la résolution de 1934 et le transfert du 6 novembre 1935 vers Poliarny, base principale, avec Vaïenga (futur Severomorsk) en base arrière : fonction navale et distinction des implantations établies avant 1945."
+  },
+  {
+   "id": "src-belomorsk-bibliotheque-capitale-front",
+   "statut": "ok",
+   "citation": "До июля 1944 года город был столицей Республики Карелия и центром командования войсками Севера.",
+   "commentaire": "La page confirme le rôle de capitale jusqu'en juillet 1944 (donc limite du statut avant le Snapshot) et l'évacuation transitant par la ville (centaines d'échelons)."
+  },
+  {
+   "id": "src-spb-chenal-mines-2016",
+   "statut": "non_verifiee",
+   "citation": "",
+   "commentaire": "WebFetch refuse l'accès (ROBOTS_DISALLOWED, deux essais). Aucun contenu lu."
+  },
+  {
+   "id": "src-kronstadt-musee-morskoj-zavod",
+   "statut": "ok",
+   "citation": "Главное внимание на заводе было направлено на выполнение оперативных заданий командования по переоборудованию и вооружению вспомогательных судов и по ремонту кораблей, поврежденных в боевых операциях.",
+   "commentaire": "Confirme la réparation et l'armement de navires pendant la guerre, le 22 juin 1941 et l'ordre de Lénine de 1944 pour le chantier."
+  },
+  {
+   "id": "src-kirovsk-bibliotheque-chronologie",
+   "statut": "ok",
+   "citation": "постановлением ЦИК СССР город Хибиногорск переименован в город Кировск",
+   "commentaire": "Entrées trouvées : ligne ferroviaire 1930, usine d'enrichissement apatite-néphéline 1931, renommage Khibinogorsk en Kirovsk le 15/12/1934, production pour le front en 1941. Étaye activité industrielle, desserte et nom historique."
+  },
+  {
+   "id": "src-karelia-patrimoine-guerre-1941-1945",
+   "statut": "faible",
+   "citation": "охватывает период от начала наступления советских армейских частей в июне 1944 г. до полного освобождения Карелии от финских войск в сентябре 1944 г.",
+   "commentaire": "Le défilé du 08/10/1944 et les dates 28-30/06/1944 (chemin de fer) n'ont pas été retrouvés dans le texte lu ; seule la libération de la Carélie en 1944 est mentionnée. La lecture par résumé automatique peut avoir manqué des passages."
+  },
+  {
+   "id": "src-vologda-almanach-documents-1941",
+   "statut": "ok",
+   "citation": "ускорения разгрузки военного имущества, прибывающего на Вологодский железнодорожный узел Северной железной дороги",
+   "commentaire": "Documents de juillet et octobre 1941 confirmant le nœud ferroviaire, la production de munitions (ateliers ferroviaires) et la logistique ; Tcherepovets semble seulement évoqué (fournitures de grain), à vérifier."
+  },
+  {
+   "id": "src-monchegorsk-bibliotheque-annees1940",
+   "statut": "ok",
+   "citation": "Введена в эксплуатацию вторая электропечь плавильного цеха.",
+   "commentaire": "L'entrée de juillet 1944 confirme une production métallurgique rétablie avant le 1er janvier 1945 (et février 1941 pour la production). Octobre 1945 est postérieur au Snapshot."
+  },
+  {
+   "id": "src-belomorsk-bibliotheque-gare-2024",
+   "statut": "faible",
+   "citation": "земляное полотно для будущей железной дороги от ст. Сорокская до ст. Обозерская",
+   "commentaire": "La notice du 29 décembre 1915 n'a pas été retrouvée ; seul un passage incident sur la gare Sorokskaïa a été lu. Jonction, trafic de guerre, Kandalakcha et Petrozavodsk non étayés."
+  },
+  {
+   "id": "src-kursbuch-reichsbahn-1944-prusse",
+   "statut": "limite",
+   "citation": "Jahresfahrplan 1944/45",
+   "commentaire": "La page est bien consacrée à la Prusse-Orientale (KBS 135-144) avec Königsberg, Tilsit, Insterburg, Pillau, Gumbinnen ; la date du 3 juillet 1944 n'a pas été lue (seulement « 1944/45 »). Plusieurs villes de la liste (Neman, Baltiisk sous noms allemands) non vérifiées."
+  },
+  {
+   "id": "src-gako-tilsit-2011",
+   "statut": "ok",
+   "citation": "целлюлозная фабрика, лесопилки, газовый завод, пивзаводы, кожевенный, спиртовой, кирпично-черепичные и другие заводы",
+   "commentaire": "Industrie de l'entre-deux-guerres confirmée, ainsi que les bombardements d'avril 1943, été et octobre 1944. Le port fluvial n'est évoqué que vaguement (voies d'eau « actuellement inutilisées »), sans activité précise fin 1944."
+  },
+  {
+   "id": "src-gako-insterburg-2011",
+   "statut": "ok",
+   "citation": "Инстербург был городом солдат. Самый большой гарнизон после Кёнигсберга находился именно здесь.",
+   "commentaire": "Confirme garnison, aérodrome militarisé en 1935, nœud ferroviaire et évacuation civile à l'automne 1944 avec bombardements de l'été 1944."
+  },
+  {
+   "id": "src-gako-gumbinnen-2011",
+   "statut": "ok",
+   "citation": "Город был окончательно взят вечером 21 января 1945 г. частями 130-й стрелковой дивизии",
+   "commentaire": "Confirme le siège de district gouvernemental, l'industrie des années 1930 et la distinction entre l'échec de l'offensive d'octobre 1944 et la prise du 21 janvier 1945. Continuité des services fin 1944 non traitée."
+  },
+  {
+   "id": "src-gako-ragnit-2011",
+   "statut": "ok",
+   "citation": "В 1930-е гг. в Рагните находились целлюлозный завод, фанерная фабрика, газовый и кирпичный заводы, машиностроительная фабрика, пивзавод.",
+   "commentaire": "Port fluvial (\"У города был свой речной порт\") et industrie du bois (cellulose, contreplaqué) des années 1930 confirmés ; l'évacuation du matériel vers l'Allemagne est mentionnée sans date précise, comme le dit la note."
+  },
+  {
+   "id": "src-gako-eydtkau-2011",
+   "statut": "limite",
+   "citation": "В 1938 г. Эйдткунен, как и некоторые другие населенные пункты Восточной Пруссии, был переименован — теперь он назывался Эйдткау.",
+   "commentaire": "Renommage de 1938 et prise du 18 octobre 1944 confirmés, ainsi que le rôle ferroviaire (chemin de fer de 1860). Le passage sur la gare inactive en 1946 n'a pas été restitué par la lecture."
+  },
+  {
+   "id": "src-gako-schirwindt-2011",
+   "statut": "ok",
+   "citation": "По данным на сентябрь 1946 г., Ширвиндт не был заселен, в нем насчитывалось всего 13 одноэтажных и двухэтажных домов",
+   "commentaire": "Prise le 17 octobre 1944, destructions importantes et absence de population en septembre 1946 confirmées ; cohérent avec la note (pas d'état ponctuel au Snapshot)."
+  },
+  {
+   "id": "src-gako-pillau-2011",
+   "statut": "ok",
+   "citation": "Морской канал [...] был открыт 1 ноября 1901 г.",
+   "commentaire": "Canal du 1er novembre 1901, base navale de 1921, fermeture des entreprises Schichau en 1929 et pêche/conserveries confirmés. Le statut de port maritime est impliqué ; le nom soviétique n'est pas en cause."
+  },
+  {
+   "id": "src-kem-bibliotheque-guerre-2014",
+   "statut": "ok",
+   "citation": "Кемский лесозавод получил задание по производству лыж для фронта.",
+   "commentaire": "Production de l'usine de bois pour le front et cheminots de la gare de Kem sous bombardements confirmés ; la page ne parle pas de port maritime commercial, conformément à la réserve."
+  },
+  {
+   "id": "src-karelia-medvejiegorsk-gare-2022",
+   "statut": "ok",
+   "citation": "В период финской оккупации Карелии с 1941 по 1944 годы здание вокзала не пострадало",
+   "commentaire": "Gare construite en 1916, statut de ville et renommage en Medvejiegorsk en 1938, bâtiment non endommagé en 1941-1944 confirmés. La page n'établit pas l'exploitation continue du réseau."
+  },
+  {
+   "id": "src-karelia-medvejiegorsk-defense-1944",
+   "statut": "non_verifiee",
+   "citation": "",
+   "commentaire": "WebFetch a rejeté l'URL (403 proxy : URL trop longue) ; aucun contournement tenté. Page non lue."
+  },
+  {
+   "id": "src-kotlas-musee-port-histoire",
+   "statut": "ok",
+   "citation": "По приказу Наркомата Речного флота 18 марта 1942 года Котласская пристань с угольными причалами и Городским участком получает статус Котласского речного порта.",
+   "commentaire": "Statut du 18 mars 1942 confirmé ; la navigation 1944 mentionne le transbordement de charbon des wagons aux barges (360 t en 4 h). Cela atteste le transbordement ferroviaire-fluvial local en 1944."
+  },
+  {
+   "id": "src-vorkouta-musee-premier-train-1941",
+   "statut": "ok",
+   "citation": "Первый поезд по новой железной дороге прибыл в Воркуту 28 декабря 1941 года",
+   "commentaire": "Arrivée du premier train le 28 décembre 1941 confirmée, avec la liaison Vorkouta–Kojva ; la page indique une exploitation provisoire en conditions de guerre, ce qui confirme la liaison locale."
+  },
+  {
+   "id": "src-cmzt-vorkouta-charbon-guerre",
+   "statut": "non_verifiee",
+   "citation": "",
+   "commentaire": "WebFetch refuse l'accès (ROBOTS_DISALLOWED, échec de lecture de robots.txt) aux deux essais ; page non lue."
+  },
+  {
+   "id": "src-oukhta-raffinerie-histoire",
+   "statut": "ok",
+   "citation": "Свою историю современный Ухтинский нефтеперерабатывающий завод отсчитывает с 1934 года, когда в эксплуатацию была сдана перегонная установка",
+   "commentaire": "Démarrage de 1934, distinction de 1944 (Drapeau rouge du Comité de défense) et approvisionnement des fronts de Volkhov et Leningrad en temps de guerre confirmés. Rétrospective de l'opérateur actuel."
+  },
+  {
+   "id": "src-karelia-petrozavodsk-reprise-1944",
+   "statut": "non_verifiee",
+   "citation": "",
+   "commentaire": "WebFetch a rejeté l'URL (403 proxy : URL trop longue) ; aucun contournement tenté. Page non lue."
+  },
+  {
+   "id": "src-pechora-municipalite-chronologie",
+   "statut": "limite",
+   "citation": "Прибыл первый пассажирский поезд из г. Котлас на ст. Кожва.",
+   "commentaire": "Le rail à Kojva (29/12/1940) et la fusion de 1949 (Petchora + Kanin Nos) sont confirmés. Les dates de décembre 1941 et de 1942 (port) et le cas d'Inta n'ont pas été retrouvés dans la lecture résumée."
+  },
+  {
+   "id": "src-pechora-musee-kanin-nos-2019",
+   "statut": "ok",
+   "citation": "В посёлке все административные учреждения района. Кроме того, управление Печорречстроя, электрическая станция, телефонная станция на 100 абонентов, радиоузел",
+   "commentaire": "Document de 1940 sur le bourg des bateliers, siège administratif du district en 1941 et décret du 18 janvier 1949 présents. La page confirme la distinction des implantations et la limite de fusion."
+  },
+  {
+   "id": "src-sosnogorsk-municipalite-histoire",
+   "statut": "ok",
+   "citation": "1 декабря 1955 года утвержден Указ об образовании на базе станции Ижма и поселка Сосновка города, переименованного через два года в Сосногорск.",
+   "commentaire": "Fusion de 1955 confirmée, Kroutaïa avec première production le 6 novembre 1941 et division ferroviaire liée à la construction de 1938–1941 : tous les repères sont présents."
+  },
+  {
+   "id": "src-narian-mar-port-histoire",
+   "statut": "ok",
+   "citation": "17 октября 1951 года Печорский порт был переименован в Нарьян-Марский морской торговый порт.",
+   "commentaire": "Création en 1931 (port de Petchora), quais de 1931–1933, baisse du fret pendant la guerre (35 000 t, non daté précisément) et renommage de 1951 confirmés, avec l'ancien nom du port."
+  },
+  {
+   "id": "src-narian-mar-municipalite-histoire",
+   "statut": "ok",
+   "citation": "Depuis 1939, une ligne aérienne permanente Arkhangelsk – Narian-Mar a été ouverte",
+   "commentaire": "Statut de ville du 10 mars 1935, liaison aérienne de 1939, entreprises de 1939–1941 et rôle du port maritime pendant la guerre sont présents. Citation relevée via un résumé traduit en français, pas en russe d'origine ; à recouper dans le texte russe."
+  },
+  {
+   "id": "src-rzd-konocha-gare-histoire",
+   "statut": "ok",
+   "citation": "Москва, Воркута и Архангельск",
+   "commentaire": "La page date de 1941 le nœud ferroviaire de Konocha (après la construction du chemin de fer de Petchora) vers Moscou, Vorkouta et Arkhangelsk ; le bâtiment de pierre de 1964 est aussi confirmé."
+  },
+  {
+   "id": "src-lengiprotrans-konocha-kotlas-histoire",
+   "statut": "ok",
+   "citation": "28 декабря 1941 года было открыто временное движение поездов ... В 1947 году линия была сдана в постоянную эксплуатацию",
+   "commentaire": "La page confirme les études de 1936–1937, le tracé Vorkouta–Inta–Kotlas–Konocha, la circulation provisoire du 28/12/1941 et l'exploitation permanente en 1947. Distinction provisoire/définitif bien étayée."
+  },
+  {
+   "id": "src-urss-constitution-1937-art145",
+   "statut": "non_verifiee",
+   "citation": "",
+   "commentaire": "La notice ne montre que des métadonnées et des vignettes ; le texte de l'article 145 n'est pas lisible via WebFetch. Impossible de confirmer que Moscou est nommée capitale."
+  },
+  {
+   "id": "src-moscou-navigation-fluviale-guerre",
+   "statut": "non_verifiee",
+   "citation": "",
+   "commentaire": "Accès refusé par WebFetch (robots.txt non récupérable), deux essais ; aucune lecture de la page."
+  },
+  {
+   "id": "src-iaroslavl-musee-industrie-guerre",
+   "statut": "ok",
+   "citation": "С сентября 1943 года выпущенные заводом ярославские тягачи «Я-12» стали поступать на фронт.",
+   "commentaire": "La page confirme le retour du chantier naval à Iaroslavl après décembre 1941 et l'envoi de tracteurs Ya-12 au front dès septembre 1943, soit des faits antérieurs à 1945."
+  },
+  {
+   "id": "src-tver-bibliotheque-wagons-1942",
+   "statut": "ok",
+   "citation": "В марте 1942 произ-во возобновлено: выпускались арт. снаряды, мины, авиабомбы, сан. вагоны и др.",
+   "commentaire": "Destruction complète en 1941, reprise en mars 1942 et reconstruction complète en 1950 (postérieure au Snapshot) sont confirmées."
+  },
+  {
+   "id": "src-rybinsk-municipalite-centrale-guerre",
+   "statut": "ok",
+   "citation": "18 ноября 1941 года Рыбинская гидростанция дала первый ток ... В январе 1942 года начала работать вторая турбина",
+   "commentaire": "Première production le 18/11/1941 et seconde turbine en janvier 1942 confirmées, avant le Snapshot ; la page indique une mise en service progressive jusqu'en 1950."
+  },
+  {
+   "id": "src-rushydro-ouglitch-histoire-2015",
+   "statut": "faible",
+   "citation": "",
+   "commentaire": "La page récupérée ne contient aucun passage sur Ouglitch ni sur les mises en route de décembre 1940 et mars 1941 (contenu apparemment sans rapport, article sur un vaccin). L'affirmation n'est pas étayée par cette page."
+  },
+  {
+   "id": "src-yaroslavl-archives-volgostroi-exposition",
+   "statut": "ok",
+   "citation": "В конце 1941 года Угличская гидроэлектростанция была передана в неполную эксплуатацию",
+   "commentaire": "Confirme l'exploitation partielle d'Ouglitch fin 1941 (premier groupe déc. 1940, deuxième mars 1941) et la mise en service de groupes à Rybinsk en nov. 1941 et 1942 dans un chantier inachevé."
+  },
+  {
+   "id": "src-toula-ipk-industrie-rail-guerre",
+   "statut": "ok",
+   "citation": "К июлю 1942 г. действовали все железнодорожные станции, телеграфно-телефонная связь, большинство депо.",
+   "commentaire": "Confirme la remise en service du nœud ferroviaire en juillet 1942 et la production d'armement et de remise en état dans les usines restées à Toula."
+  },
+  {
+   "id": "src-tver-bibliotheque-histoire-administrative",
+   "statut": "ok",
+   "citation": "20 ноября 1931 Тверь переименована в Калинин.",
+   "commentaire": "La date du 20 novembre 1931 et le renommage de Tver en Kalinine sont confirmés."
+  },
+  {
+   "id": "src-istmat-1931-69-460-kalinine",
+   "statut": "ok",
+   "citation": "переименовать г. Тверь Московской области в г. Калинин",
+   "commentaire": "Acte du Présidium du CIK du 20/11/1931 confirmé, avec publication n° 322 du 23/11/1931 et référence à l'article 460 du recueil de 1931."
+  },
+  {
+   "id": "src-bologoie-municipalite-histoire-guerre",
+   "statut": "ok",
+   "citation": "К 1947 году объем работ на Бологовском железнодорожном узле достиг довоенного уровня.",
+   "commentaire": "Confirme un nœud ferroviaire stratégique bombardé (527 raids) mais resté actif, et un retour au volume d'avant-guerre en 1947, donc reconstruction non achevée en 1945."
+  },
+  {
+   "id": "src-smolensk-musee-reconstruction-1943-1944",
+   "statut": "ok",
+   "citation": "Первый паровоз на станцию Смоленск-Центральный пришел 7 октября 1943 года",
+   "commentaire": "Confirme la locomotive du 07/10/1943, le premier train de voyageurs de Moscou le 10/10/1943 et la première tranche du combinat du lin le 25/09/1944. Tous ces faits sont antérieurs au 1er janvier 1945."
+  },
+  {
+   "id": "src-briansk-archives-arsenal-reprise-1944",
+   "statut": "ok",
+   "citation": "17 сентября 1944 года на заводе была дана первая плавка чугуна.",
+   "commentaire": "Confirme évacuation en 1941, destructions pendant l'occupation, reconstruction de sept ateliers et première coulée de fonte le 17/09/1944, donc avant le Snapshot."
+  },
+  {
+   "id": "src-briansk-archives-reconstruction-administration",
+   "statut": "ok",
+   "citation": "Указом Президиума Верховного Совета СССР от 5 июля 1944г. ... было принято решение об образовании Брянской области с центром в городе Брянске",
+   "commentaire": "Confirme le décret du 05/07/1944 créant l'oblast avec Briansk pour centre. Le texte du décret n'est pas reproduit ; les bilans ultérieurs n'ont pas été vérifiés ici."
+  },
+  {
+   "id": "src-omsk-veterans-rjev-reconstruction-1943",
+   "statut": "ok",
+   "citation": "В мае – июне 1943 года в составе 43-й отдельной железнодорожной бригады личный состав батальона участвует в востановлении гражданских объектов в городе Ржеве",
+   "commentaire": "Confirme les travaux de rétablissement des voies Rjev–Viazma en février-mars 1943 et les travaux civils à Rjev en mai-juin 1943. Pas de calendrier de service commercial."
+  },
+  {
+   "id": "src-briansk-archives-r2539-bejitsa-froid",
+   "statut": "ok",
+   "citation": "Бежицкий холодильник начал функционировать с апреля 1944 года",
+   "commentaire": "Confirme le fonctionnement dès avril 1944 et l'ordre Glavkhladoprom n° 40 du 14/02/1944. Le fonds couvre 1944-1948 selon la page."
+  },
+  {
+   "id": "src-briansk-archives-r2882-bejitsa-acier",
+   "statut": "ok",
+   "citation": "В годы Великой Отечественной войны завод был разрушен и заработал после восстановительных работ в 1946 г.",
+   "commentaire": "Confirme ouverture le 25/09/1935, destruction pendant la guerre et reprise en 1946, ce qui justifie l'exclusion d'une reprise sidérurgique avant le Snapshot."
+  },
+  {
+   "id": "src-orel-pravda-industrie-1944-11-05",
+   "statut": "non_verifiee",
+   "citation": "",
+   "commentaire": "La page ne donne que les métadonnées de la notice et une image de l'article ; le texte (distillerie, boulangerie, bonneterie) n'est pas transcrit et n'a pu être lu via WebFetch."
+  },
+  {
+   "id": "src-gaoo-orel-rail-1944-11-17",
+   "statut": "non_verifiee",
+   "citation": "",
+   "commentaire": "Seules les métadonnées (titre, date du 17 novembre 1944, cote GAOO) sont lisibles ; le contenu du rapport (dépôt d'Orel, équipes d'Elets) n'est pas transcrit dans le HTML."
+  },
+  {
+   "id": "src-koursk-archives-rail-1943",
+   "statut": "ok",
+   "citation": "Усилиями курян 17 марта 1943 г. через станцию Курск пошли первые эшелоны",
+   "commentaire": "Confirme les premiers convois le 17/03/1943 ; la page indique aussi « в апреле железнодорожный узел был полностью восстановлен » et l'usine de caoutchouc mise en service le 29/09/1948 (postérieure, à exclure)."
+  },
+  {
+   "id": "src-rzd-viazma-premier-train-1943",
+   "statut": "ok",
+   "citation": "И уже утром 13 марта на станцию Вязьма прибыл первый поезд, который привел машинист местного депо М.М. Кондратьев.",
+   "commentaire": "Libération le 12 mars 1943 (« Город освободили 12 марта 1943 года ») et premier train le 13 mars confirmés ; récit rétrospectif de l'opérateur."
+  },
+  {
+   "id": "src-voronej-zdrm-reprise-1944",
+   "statut": "ok",
+   "citation": "Первый отремонтированный паровоз выехал из ворот завода 15 августа 1944 года.",
+   "commentaire": "Confirme la sortie du premier engin réparé le 15/08/1944 à l'usine de Voronej ; la date de reconstruction totale (1953) n'a pas été vérifiée ici."
+  },
+  {
+   "id": "src-kalouga-archives-reconstruction-1942-1944",
+   "statut": "non_verifiee",
+   "citation": "",
+   "commentaire": "Accès refusé (erreur 403) aux deux essais ; le passage sur l'usine mécanique et les pontons n'a pu être lu."
+  },
+  {
+   "id": "src-pgups-riazan-rail-guerre",
+   "statut": "ok",
+   "citation": "Машинист В. М. Никитин проводил поезда от Рязани до Шилова, не набирая воды, и таким образом сокращал оборот паровоза до восьми часов.",
+   "commentaire": "La page confirme l'activité locale du dépôt Riazan-I, les convois militaires de 1941 et le travail des équipes de locomotive. La liaison est donnée vers Chilovo (Шилово) ; le passage de décembre 1941 (échelon de chars arrivé à Riazan) est aussi présent."
+  },
+  {
+   "id": "src-nijni-novgorod-gouvernement-chronologie",
+   "statut": "limite",
+   "citation": "В 1932 году Нижний Новгород был переименован в Горький в честь уроженца Нижнего Новгорода — Максима Горького.",
+   "commentaire": "Le renommage de 1932 et les usines (Krasnoïe Sormovo, Krasnaïa Etna, Dvigatel revolioutsii) sont confirmés, ainsi que le projet de bateaux à hydroptères de 1943. Les sections 1941 sont plus générales (rappel de conscrits, part d'armement) et sans détail daté sur les établissements."
+  },
+  {
+   "id": "src-archives-nijni-industrie-1944",
+   "statut": "ok",
+   "citation": "Завод «Красное Сормово». В цехе сборки танков. г. Горький, 1944 г.",
+   "commentaire": "Légendes de 1944 lues : atelier de chars de Krasnoïe Sormovo à Gorki, sous-marin n° 274 en dock, munitions à Tchkalovsk, photographe Kapeliouch, cote ArchADNO R-341 ; conforme au repère."
+  },
+  {
+   "id": "src-urss-1932-73-444-gorki",
+   "statut": "ok",
+   "citation": "О переименовании города Нижнего Новгорода в город Горький и Нижегородского края в Горьковский край. 7 октября 1932 г.",
+   "commentaire": "Acte du 7/10/1932 confirmé, publié dans Izvestia n° 281 du 10/10/1932. Le n° 73 / art. 444 du recueil n'apparaît pas dans le texte lu (seulement le recueil 1932, nos 50-84)."
+  },
+  {
+   "id": "src-dzerjinsk-municipalite-industrie-guerre",
+   "statut": "non_verifiee",
+   "citation": "",
+   "commentaire": "WebFetch refuse la page (erreur robots.txt, domaine en punycode) ; deux essais, aucun contenu lu."
+  },
+  {
+   "id": "src-ivanovo-archives-textile-guerre",
+   "statut": "ok",
+   "citation": "С 1 июля 1941 г. все предприятия 2-го и 3-го Главных управлений хлопчатобумажной промышленности Ивановской области были переведены на выпуск спецпродукции для фронта.",
+   "commentaire": "Confirmé : reconversion depuis le 1/7/1941, combinat Bolchevik de Rodniki (Ordre de Lénine le 24/01/1944), directeur M. A. Sorokine, Teïkovo et Kokhma nommés. Le détail propre aux ouvrières d'Ivanovo n'a pas été isolé dans la synthèse lue."
+  },
+  {
+   "id": "src-gomanenko-haute-volga-2025",
+   "statut": "non_verifiee",
+   "citation": "",
+   "commentaire": "Le PDF a été chargé (un seul essai) mais l'extraction n'a pas retrouvé l'article de Gomanenko ni la liste des ports de 1943 et des escales de 1944 ; rien n'est confirmé."
+  },
+  {
+   "id": "src-rzd-voronej-voyageurs-histoire",
+   "statut": "ok",
+   "citation": "В 1943 году при отступлении немецкие войска взорвали здание вокзала. ... с 1954 по 1956 было возведено новое здание по проекту архитектора Каро Алабяна.",
+   "commentaire": "Destruction du bâtiment en 1943 et bâtiment neuf de 1954-1956 confirmés. La page ne dit rien de la reprise du trafic, conformément à la note."
+  },
+  {
+   "id": "src-vostok-tchistopol-histoire",
+   "statut": "ok",
+   "citation": "Январь 1942: Начинается выпуск специальной продукции для нужд фронта",
+   "commentaire": "Janvier 1942, 1943 (montres K-43), 3 août 1944 et 1944 (échappements, montres de service) confirmés. Le 1er juillet 1942 est présenté comme date de fondation par ordre de mise en capacité, comme indiqué."
+  },
+  {
+   "id": "src-vostok-evacuation-kazan-tchistopol",
+   "statut": "ok",
+   "citation": "Эвакуированный завод прибывал по Казанской железной дороге, водным и воздушным транспортом. ... Первая баржа прибыла в город 10 ноября 1941 года",
+   "commentaire": "Transfert par rail jusqu'à Kazan puis par barges, première barge le 10 novembre 1941, convoyage sur la glace de la Kama jusqu'en février 1942 : tout confirmé."
+  },
+  {
+   "id": "src-uaz-oulianovsk-1941-1944",
+   "statut": "ok",
+   "citation": "22 июня 1943 года ГКО принимает решение о строительстве в Ульяновске автомобильного завода. ... В конце 1944 года машину марки ЗИС-5 передали на Урал, в город Миасс",
+   "commentaire": "Assemblage ZIS-5 en 1942, décision de chantier de juin 1943, transfert à Miass fin 1944 confirmés. Premier GAZ-AA sorti du convoyeur le 26 octobre 1947, donc postérieur au Snapshot."
+  },
+  {
+   "id": "src-komz-kazan-1941-1944",
+   "statut": "non_verifiee",
+   "citation": "",
+   "commentaire": "Deux essais, erreur « Too many redirects » : page illisible, aucune vérification possible."
+  },
+  {
+   "id": "src-saratov-bibliotheque-gpz3",
+   "statut": "ok",
+   "citation": "70 лет назад (1941) был пущен в эксплуатацию Третий государственный подшипниковый завод (ГПЗ-3)",
+   "commentaire": "La page confirme la mise en exploitation du GPZ-3 en 1941 et la distinction de 1944 (ordre du Drapeau rouge du Travail) pour la fourniture de roulements aux industries aéronautique, des chars et automobile."
+  },
+  {
+   "id": "src-cheaz-tcheboksary-histoire",
+   "statut": "ok",
+   "citation": "8 декабря 1941 года завод выпустил и отправил на фронт первую партию продукции",
+   "commentaire": "Le jalon du 8 décembre 1941 est confirmé, ainsi que l'entrée 1943 (début de maîtrise des relais de protection et automatisme) et l'entrée 1944."
+  },
+  {
+   "id": "src-cheaz-production-1943",
+   "statut": "ok",
+   "citation": "С 1943 года завод перешел на восстановление производства реле и аппаратов защиты и автоматики",
+   "commentaire": "L'article confirme la première production de décembre 1941 et le passage aux relais et appareils de protection dès 1943. La date de publication du 20 mai 2020 n'a pas été vérifiée dans la réponse."
+  },
+  {
+   "id": "src-tatarie-constitution-1937-art113",
+   "statut": "ok",
+   "citation": "Статья 113. Столицею Татарской АССР является город Казань.",
+   "commentaire": "L'article 113 désigne bien Kazan capitale de la RSSA tatare, texte du 25 juin 1937. Les modifications de 1938-1940 ne sont pas visibles sur cette page enfant."
+  },
+  {
+   "id": "src-garf-kouibychev-evacuation-1941",
+   "statut": "ok",
+   "citation": "Осенью 1941 г. в Куйбышев были эвакуированы 123 промышленных предприятия, наркоматы и другие союзные организации и учреждения, иностранные посольства, редакции центральных изданий.",
+   "commentaire": "Evacuation d'automne 1941 (commissariats, institutions, ambassades) et défilé du 7 novembre confirmés ; le total de 123 entreprises est présent mais non repris par Ether, ce qui est cohérent."
+  },
+  {
+   "id": "src-penzmash-histoire-contradiction-date",
+   "statut": "ok",
+   "citation": "по приказу наркома общего машиностроения за № 529 от 04.10.1944 года был создан машиностроительный завод",
+   "commentaire": "La page indique à la fois octobre 1941 (fondation) et un ordre n° 529 du 04.10.1944, d'où la divergence interne de date ; prototype textile fin 1945 confirmé, exclu du Snapshot."
+  },
+  {
+   "id": "src-archives-penza-penzmash-1941-1943",
+   "statut": "ok",
+   "citation": "Приказ по Пензенскому машиностроительному заводу № 2 от 11.10. 1941 года «Об организации временного руководства цехами»",
+   "commentaire": "L'ordre n° 2 du 11/10/1941 est bien présent ; l'introduction confirme aussi la production militaire dès décembre 1941 (mortiers, mines, bombes FAB-50) et l'activité en 1943."
+  },
+  {
+   "id": "src-tatarica-zelenodolsk-construction-navale",
+   "statut": "ok",
+   "citation": "с 1934 г. — и военных кораблей (бронекатеров)",
+   "commentaire": "La page confirme la construction militaire navale dès 1934, la production de guerre (cutters, obus, bombes) et la distinction de 1943 (drapeau rouge du GKO). Les limites chronologiques sont étayées."
+  },
+  {
+   "id": "src-ebid-kouibychev-usine18-bilan1943",
+   "statut": "limite",
+   "citation": "Из приказа по 10-му Главному Управлению НКАП СССР о деятельности завода № 18 за 1943 год. 17 марта 1944 г.",
+   "commentaire": "La notice ÉBID confirme l'existence, la date et la cote d'archive du document, mais la page ne montre que des métadonnées et une vignette : le texte sur la production d'avions n'est pas lisible ici."
+  },
+  {
+   "id": "src-musee-engels-industries-1941-1944",
+   "statut": "ok",
+   "citation": "Первый эшелон Брянского вагоностроительного завода им. Урицкого прибыл в г. Энгельс 23 августа 1941 г.",
+   "commentaire": "La page confirme les usines n° 138, n° 213, la conserverie de viande et l'usine Ouritski (arrivée le 23/08/1941, réparation de matériel ferroviaire fin 1944). Les mentions postérieures à 1945 (pénicilline 1946) sont à exclure, comme prévu."
+  },
+  {
+   "id": "src-ebid-samara-kouibychev-acte1935",
+   "statut": "limite",
+   "citation": "Постановление Центрального Исполнительного Комитета. О переименовании города Самары в город Куйбышев и Средне-Волжского края в Куйбышевский край. 27 января 1935 г.",
+   "commentaire": "Le titre et la date du 27/01/1935 (Izvestia n° 23 du 28/01/1935) sont confirmés et distinguent ville et kraï, mais la page ne reproduit pas le texte de l'art. 56 ni sa pagination."
+  },
+  {
+   "id": "src-tfgipfo-syzran-raffinerie1942",
+   "statut": "non_verifiee",
+   "citation": "",
+   "commentaire": "Deux essais WebFetch, deux délais de lecture dépassés (timeout) ; la page n'a pas pu être lue."
+  },
+  {
+   "id": "src-zmz-zlatoust-siderurgie-1942-1943",
+   "statut": "ok",
+   "citation": "в 1942 году вводятся в эксплуатацию термокалибровочный цех, цех по производству стали-серебрянки, молотовый цех, стан «280», четыре электропечи в ЭСПЦ-1.",
+   "commentaire": "Confirme les mises en service de 1942 et la première tranche du deuxième atelier Martin en août 1943 (« в августе 1943 года первая очередь мартеновского цеха № 2 вступила в строй »). Production d'aciers spéciaux attestée avant 1945."
+  },
+  {
+   "id": "src-permgaspi-molotov-fonctions-1941-1944",
+   "statut": "limite",
+   "citation": "Вся тяжесть обеспечения армии...дымным порохом",
+   "commentaire": "La page confirme les usines 19 et 172, le dépôt Perm II et l'atelier Chpaguine (décembre 1944), mais le résumé lu ne montre ni l'usine 344 ni le débarcadère de juillet 1942, ni les dates de 1941-1943. Contient aussi des totaux et distinctions de 1945 à exclure."
+  },
+  {
+   "id": "src-ntgia-taguil-industrie-1941-1944",
+   "statut": "ok",
+   "citation": "10 сентября 1941 года введен в эксплуатацию толстолистовой стан",
+   "commentaire": "Confirme l'usine 183 (mars-mai 1942), le rapport 563 du 30/12/1943, la mine de Vyssokogorsk (mai 1942), le laminoir du 10/09/1941 et le haut-fourneau 3 en 1944. Tous les faits sont antérieurs à 1945."
+  },
+  {
+   "id": "src-magnitogorsk-archives-evacuation-1941-1942",
+   "statut": "non_verifiee",
+   "citation": "",
+   "commentaire": "Deux essais : WebFetch ne renvoie que la liste d'actualités du site (pages de 2026), pas le texte de l'article. Aucun passage sur les wagons, Krivoï Rog ou l'usine de calibrage n'a pu être lu."
+  },
+  {
+   "id": "src-ural-miass-usine-1942-1944",
+   "statut": "ok",
+   "citation": "Первая трехтонка ЗИС-5В сошла с конвейера уже 8 июля 1944 года",
+   "commentaire": "Confirme l'embranchement posé avant guerre, le premier atelier en mars 1942, le premier ZIS-5V le 8 juillet 1944 et l'envoi d'un lot au front le 20 juillet (« 20 июля на фронт отправили партию машин »). Moyen d'expédition non précisé."
+  },
+  {
+   "id": "src-musee-pobedy-sverdlovsk-production-1944",
+   "statut": "lien_casse",
+   "citation": "",
+   "commentaire": "WebFetch renvoie une erreur 404 pour l'URL de la notice SU-100 du Musée de la Victoire. Contenu non vérifiable."
+  },
+  {
+   "id": "src-iola-histoire-capitale-1936",
+   "statut": "ok",
+   "citation": "столицей МАССР ( с 1936 г. ) ; Город дважды ( в 1919 и 1928 г.г.) менял свое название - первоначально на Краснококшайск, затем это уже Йошкар-Ола",
+   "commentaire": "Confirme la capitale de la RSSA mari à partir de 1936 et le changement de nom en 1928 (après un premier en 1919)."
+  },
+  {
+   "id": "src-lappo-saransk-capitale-industrie",
+   "statut": "ok",
+   "citation": "20 декабря 1934 г. стала Мордовской АССР ; Первенцем явился пеньковый комбинат, пущенный в 1936 г. ; положение не в узле железных дорог, а на линии",
+   "commentaire": "Date de 1934, chanvre 1936, usine électrotechnique évacuée de Léningrad produisant en 1942 et position sur une ligne et non à un nœud ferroviaire : tout est confirmé."
+  },
+  {
+   "id": "src-bashenc-oufa-capitale-perimetre",
+   "statut": "non_verifiee",
+   "citation": "",
+   "commentaire": "L'URL renvoie une erreur 404 aux deux essais ; aucun contenu lu. Lien probablement cassé ou déplacé, à revoir."
+  },
+  {
+   "id": "src-izhevsk-mairie-centre-1921",
+   "statut": "ok",
+   "citation": "10 июня 1921 года Ижевск был провозглашен центром Вотской автономной области, позднее – Удмуртской Республики.",
+   "commentaire": "Confirme le centre de l'autonomie en 1921 ; entrée 1918/1925 aussi présente (ville en 1918, statut officiel en 1925)."
+  },
+  {
+   "id": "src-wikisource-constitution-oudmourtie-1937",
+   "statut": "non_verifiee",
+   "citation": "",
+   "commentaire": "Le domaine Wikisource est refusé par l'outil (« cache-only ») aux deux essais, dont une version encodée de l'URL ; article 111 non lu."
+  },
+  {
+   "id": "src-musee-kalachnikov-ijevsk-fusil-1942",
+   "statut": "ok",
+   "citation": "Машиностроительный завод № 74, город Ижевск, УАСР",
+   "commentaire": "La fiche indique création en 1942 à l'usine 74 d'Ijevsk, RSSA oudmourte, comme annoncé."
+  },
+  {
+   "id": "src-archive74-tcheliabinsk-tankograd-1942-1944",
+   "statut": "limite",
+   "citation": "23 февраля 1942 года молодые патриоты Танкограда рапортовали стране, фронту: «Принимай, фронт! Заказ №3001-ЧК выполнен!»",
+   "commentaire": "Commande 3001-ChK du 23/02/1942 et brigades de janvier 1944 (1175 brigades, 8356 personnes) confirmées. La remise du 4 octobre 1943 existe (machines hors plan) mais semble liée à une autre colonne, pas à cette commande."
+  },
+  {
+   "id": "src-ufaved-tchernikovsk-creation-1944",
+   "statut": "non_verifiee",
+   "citation": "",
+   "commentaire": "Deux essais WebFetch (avec et sans www) : erreur « Too many redirects ». Page illisible, aucun contournement tenté."
+  },
+  {
+   "id": "src-miass-archives-fonds-perimetre",
+   "statut": "ok",
+   "citation": "Октябрьский поссовет (автозавод) | 1946-1959 | 21 ; Исполком Миасского поссовета | 1946-1959 | 4",
+   "commentaire": "Les fonds 90 et 91 figurent au tableau avec les dates 1946-1959 indiquées. Ces dates sont postérieures à 1945 : elles ne datent pas la situation au 1er janvier 1945, comme la note le précise."
+  },
+  {
+   "id": "src-ebid-recueil-1938-1944-page79",
+   "statut": "limite",
+   "citation": "О переименовании города Оренбурга в город Чкалов и Оренбургской области в Чкаловскую область (Указ от 26 декабря 1938 г.)",
+   "commentaire": "Seul l'acte Orenbourg→Tchkalov du 26/12/1938 est confirmé par le texte lu. Perm→Molotov n'apparaît que par renvoi de navigation et Akkerman→Izmaïl est absent ; l'OCR de la page 79 n'est pas visible via WebFetch."
+  },
+  {
+   "id": "src-orenbourg-conseil-histoire-production-1941-1944",
+   "statut": "limite",
+   "citation": "Первый из трех цехов - механический - начал действовать 25 октября 1941 года",
+   "commentaire": "Atelier mécanique de l'usine 47 au 25/10/1941 confirmé. Le plan d'Avtozapchast au 21/03/1944 et l'hôpital 1656 avec trains sanitaires n'ont pas été retrouvés ; seules des mentions plus vagues d'hôpitaux et de 1943 apparaissent."
+  },
+  {
+   "id": "src-smk-orsk-constructions-1942",
+   "statut": "ok",
+   "citation": "Наряду с выпуском строительных металлоконструкций осваивается новый вид продукции – пролетные строения железнодорожных мостов.",
+   "commentaire": "L'entrée 1942 mentionne l'expédition d'environ 10 000 t de structures et les travées de ponts ferroviaires ; 1935 mentionne l'atelier de charpente métallique. La page ne prouve pas de rôle ferroviaire pour la ville, comme la note le dit."
+  },
+  {
+   "id": "src-bashenc-tchernikovsk-1944",
+   "statut": "lien_casse",
+   "citation": "",
+   "commentaire": "L'URL renvoie une erreur 404 lors de deux essais ; le contenu (ville créée en 1944, incorporée à Oufa en 1956) n'a pas pu être vérifié."
+  },
+  {
+   "id": "src-geonames-tchernikovsk-568834",
+   "statut": "ok",
+   "citation": "Geoname ID 568834 ; coordonnées 54.80000, 56.13333 ; section of populated place (Bashkortostan)",
+   "commentaire": "La page confirme l'identifiant et les coordonnées ; le code de fonction est bien de type PPLX (section de lieu habité), cohérent avec la note sur un repère de quartier actuel."
+  },
+  {
+   "id": "src-bch-minsk-maladetchna-1944",
+   "statut": "ok",
+   "citation": "11 июля. В 1944 году открылось движение поездов на участке Минск-Молодечно, обеспечивавших перевозки для нужд фронта и наступающих советских войск.",
+   "commentaire": "Le message confirme la reprise des trains Minsk–Molodetchno le 11 juillet 1944 et l'ouverture des gares de Minsk la veille ; citation issue d'un résumé de la page, à vérifier mot pour mot."
+  },
+  {
+   "id": "src-vitebsk-archives-orcha-polotsk-1944",
+   "statut": "non_verifiee",
+   "citation": "",
+   "commentaire": "Le PDF volumineux a été lu en un essai mais les articles de Kokhanko (Polotsk) et d'Agueïeva (Orcha) n'ont pas été retrouvés ; aucune confirmation des dates (20 septembre 1944, juillet et décembre 1944)."
+  },
+  {
+   "id": "src-prlib-constitution-bssr-1940-minsk",
+   "statut": "non_verifiee",
+   "citation": "",
+   "commentaire": "La page de la Bibliothèque présidentielle n'expose que des métadonnées et des vignettes ; le texte de l'article 121 n'est pas lisible via WebFetch."
+  },
+  {
+   "id": "src-gontcharov-bagration-rail-1944",
+   "statut": "ok",
+   "citation": "Участок Осиповичи — Минск был открыт 16 июля",
+   "commentaire": "Confirme aussi Moguilev (poste de commande transféré le 12 juillet) et Ossipovitchi–Baranovitchi rétabli le 26 juillet 1944 ; les autres sections (Kritchev, Slonim, Stolbtsy) n'ont pas été vérifiées."
+  },
+  {
+   "id": "src-jdv-tome3-bielorussie-1944",
+   "statut": "faible",
+   "citation": "",
+   "commentaire": "La page chargée s'arrête en pleine description des opérations de 1944 dans la région de Leningrad ; aucun passage sur le pont du Niémen à Grodno, Jlobine–Bobrouïsk, Brest ou le Boug n'a été lu. Le chapitre VII est peut-être sur une autre page."
+  },
+  {
+   "id": "src-gomel-encyclopedie-1991-1944",
+   "statut": "limite",
+   "citation": "После освобождения (на 27.11.1943) в Гомеле оставалось менее 15 тыс. жителей",
+   "commentaire": "La page confirme la libération du 27.11.1943 et la position de Gomel comme nœud ferroviaire. Le passage sur la remise au travail pour le front et sur les premières productions de fin 1944 n'a pas été trouvé ; seule une reconstruction « après la guerre » est mentionnée."
+  },
+  {
+   "id": "src-korabel-parohodstvo-ports-2018",
+   "statut": "ok",
+   "citation": "Речной порт Речица основан в 1944 году и расположен на 1156 км реки Днепр.",
+   "commentaire": "Retchitsa 1944, Gomel 1933 et Pinsk 1939 sont confirmés tels quels ; Brest (1950), Bobrouïsk (1970) et Moguilev (1976) sont bien postérieurs à 1945, ce qui est cohérent avec la note."
+  },
+  {
+   "id": "src-pinsk-ville-histoire-1944",
+   "statut": "limite",
+   "citation": "В 1940 году Пинск становится областным центром Белорусской ССР",
+   "commentaire": "Le statut de centre régional dès 1940 et l'occupation jusqu'au 14 juillet 1944 sont confirmés. La destruction des deux ports et la reprise du pont en 1947 ne figurent pas dans la page lue, ni la date de fin du statut (1954)."
+  },
+  {
+   "id": "src-pinsk-chantier-reconstruction-hiver1944",
+   "statut": "ok",
+   "citation": "К зиме 1944-45 г. Военным восстановительным отрядом был осуществлен подъем затонувших судов и полностью восстановлены кирпичные здания дизельного и механического цехов.",
+   "commentaire": "Le renflouement et la restauration des bâtiments diesel et mécanique avant l'hiver 1944-1945, ainsi que l'achèvement en 1947, sont confirmés. La prudence de la note (activité navale non datée avant le 1er janvier) reste justifiée."
+  },
+  {
+   "id": "src-izvestia-pinsk-19440829",
+   "statut": "ok",
+   "citation": "Полностью разрушили спичечную фабрику, фанерный завод",
+   "commentaire": "La lettre des habitants de Pinsk du 23 juillet 1944 énumère bien port fluvial, gare, centrale électrique, central téléphonique et usines détruits. Témoignage de juillet 1944, antérieur au 1er janvier 1945 ; la persistance des destructions n'est pas établie."
+  },
+  {
+   "id": "src-antipenko-kalinkovitchi-1944",
+   "statut": "limite",
+   "citation": "Первый поезд подошел к Бобруйску лишь 15 июля 1944 года, т. е. на 21-й день наступательной операции",
+   "commentaire": "La page confirme la remise en service ferroviaire sur Shatsilki–Jlobine–Bobrouïsk à l'été 1944 (premier train à Bobrouïsk le 15 juillet). Kalinkovitchi n'apparaît pas explicitement dans les passages extraits."
+  },
+  {
+   "id": "src-mozyr-monographie-1973",
+   "statut": "limite",
+   "citation": "с 1938 года — областным центром Полесской области. Таким оставался Мозырь до ликвидации Полесской области и объединения ее в 1954 году с Гомельской областью",
+   "commentaire": "Le statut de chef-lieu de Polésie 1938–1954 est confirmé. La section «В мирные дни» et la scierie après la libération de janvier 1944 n'ont pas été trouvées dans le contenu retourné (texte arrêté avant), donc industrie non étayée."
+  },
+  {
+   "id": "src-grodno-encyclopedie-1989-1944",
+   "statut": "faible",
+   "citation": "После воссоединения Зап. Белоруссии с БССР Гродно с 15.1.1940 центр района",
+   "commentaire": "Page lue (texte OCR) mais le passage sur le chef-lieu d'oblast depuis le 20/09/1944 et les entreprises fin 1944 n'a pas été retrouvé ; seule la mention de 1940 (centre de district) apparaît."
+  },
+  {
+   "id": "src-nkvd-bielorussie-rapport-19440727",
+   "statut": "non_verifiee",
+   "citation": "",
+   "commentaire": "La page n'est qu'une notice de catalogue ÉBID (titre, cote GARF R-9401с/ч op.2 d.66 l.54-58, vignette) ; le texte du rapport n'est pas lisible, donc rail, destructions et usines non vérifiables."
+  },
+  {
+   "id": "src-bssr-carte1944-transcription",
+   "statut": "ok",
+   "citation": "БАРАНОВИЧСКАЯ ОБЛАСТЬ ... центр — г. Барановичи ; МОЛОДЕЧНЕНСКАЯ ОБЛАСТЬ ... центр — г. Молодечно ; БЕЛОСТОКСКАЯ ОБЛАСТЬ ... центр — г. Белосток",
+   "commentaire": "La liste des oblasts et centres (Brest, Vitebsk, Gomel, Moguilev, Baranovitchi, Molodechno, Bialystok, capitale Minsk) est bien présente. Elle mêle des créations de septembre 1944 : attention pour toute date de changement."
+  },
+  {
+   "id": "src-kabanov-rail-ukraine-droite-1944",
+   "statut": "ok",
+   "citation": "мы восстановили и произвели путевое развитие таких крупных узлов, как Фастов, Шепетовка, Гречаны, Жмеринка, Казатин, Тернополь, Здолбунов, Львов, Ровно",
+   "commentaire": "L'énumération des nœuds remis en état couvre Chepetivka, Jmerynka, Koziatyn, Ternopil, Zdolbouniv et Rivne ; Rivne/Zdolbouniv sont cités comme nœuds fraîchement libérés. Fait antérieur à 1945 cohérent avec la note."
+  },
+  {
+   "id": "src-kovalev-rail-kiev-1943",
+   "statut": "ok",
+   "citation": "Почти полностью разрушенными оказались деповские устройства на станциях Лихая, Глубокая, Чертково, Россошь, Лиски.",
+   "commentaire": "La page confirme le trafic via Kiev-Fastov et le pont de Kiev (nov.-déc. 1943) et cite Glubokaïa, Tchertkovo, Rossoch, Liski, Likhaïa. Grjazi n'apparaît que dans le tronçon Likhaïa-Grjazi ; le chiffre de pp. précis n'est pas vérifié."
+  },
+  {
+   "id": "src-odessa-musee-reconstruction-1944",
+   "statut": "ok",
+   "citation": "29 апреля 1944 г. в Одессу уже прибыл первый пассажирский поезд.",
+   "commentaire": "Confirmés : train du 29/04/1944, arrivée de transports maritimes le 07/10/1944, première fonte au chantier le 24/10/1944, reprise de l'industrie locale mai-novembre 1944."
+  },
+  {
+   "id": "src-ukrss-constitution1937-art145-transcription",
+   "statut": "ok",
+   "citation": "Столицей Украинской Советской Социалистической Республики является город Киев.",
+   "commentaire": "Il s'agit bien de la Constitution de la RSS d'Ukraine de 1937 ; l'article 145 désigne Kiev comme capitale."
+  },
+  {
+   "id": "src-ukase-bssr-chefs-lieux-19440920",
+   "statut": "non_verifiee",
+   "citation": "",
+   "commentaire": "WebFetch refuse la page Wikisource (« domain cache-only and cannot be fetched »), deux essais ; aucun contournement tenté."
+  },
+  {
+   "id": "src-kovalev-rail-ukraine-moldavie-1944",
+   "statut": "limite",
+   "citation": "Для подвоза войск и воинских грузов 1-му Украинскому фронту использовались четыре железнодорожных линии: Киев — Житомир — Новгород-Волынский — Шепетовка — Тернополь; Киев — Фастов — Бердичев — Шепетовка — Старо-Константинов — Гречаны",
+   "commentaire": "Quatre lignes confirmées avec Jytomyr, Berdytchiv, Starokostiantyniv, Kivertsi et Novohrad-Volynsky (Zviahel). Vapniarka n'apparaît que plus loin, à propos de l'opération de Iassy-Kichinev, hors de ce passage."
+  },
+  {
+   "id": "src-kharkiv-musee-htz-1944",
+   "statut": "ok",
+   "citation": "29 жовтня були зібрані перші чотири трактори, а з 1 лютого 1945 р. розпочалося їх серійне виробництво",
+   "commentaire": "Les quatre premiers tracteurs du 29/10/1944 sont confirmés ; la production en série de février 1945 est postérieure au 1er janvier 1945 et bien exclue."
+  },
+  {
+   "id": "src-dnipro-musee-siderurgie-1944",
+   "statut": "ok",
+   "citation": "До кінця 1944 року на цьому заводі відновили одну доменну і три мартенівські печі, два прокатних стани та багато допоміжних цехів.",
+   "commentaire": "La page confirme la reprise à l'usine Petrovski avant fin 1944 (haut-fourneau, fours Martin, laminoirs) et, mi-1944, la remise en service des fours Martin et des laminoirs à tubes."
+  },
+  {
+   "id": "src-kamianske-metinvest-acier-1943",
+   "statut": "ok",
+   "citation": "Та вже 21 листопада 1943 року (на 26 день після визволення міста) металургами була видана перша сталь.",
+   "commentaire": "Confirme la première coulée d'acier le 21 novembre 1943, 26 jours après la libération de la ville."
+  },
+  {
+   "id": "src-marioupol-cdnta-azovstal-1944",
+   "statut": "non_verifiee",
+   "citation": "",
+   "commentaire": "Accès refusé (erreur 403) lors des deux essais ; contenu non lu."
+  },
+  {
+   "id": "src-zaporijjia-pmgu-carbure-1944",
+   "statut": "ok",
+   "citation": "в августе 1944 года на заводе организована выплавка карбида кальция для строительно-восстановительных работ на предприятиях Юга Украины.",
+   "commentaire": "Confirme le carbure d'août 1944 ; la page mentionne aussi le ferro-silicium du 22 octobre 1948, postérieur et à exclure, conformément à la note."
+  },
+  {
+   "id": "src-krivbass-rapport-19441215",
+   "statut": "limite",
+   "citation": "Из справки отдела металлургической промышленности ЦК КП(б)У Центральному Комитету КП(б)У о ходе восстановления Криворожского железорудного бассейна. 15 декабря 1944 г.",
+   "commentaire": "La page confirme le document, sa date et sa cote d'archives (f.1, op.14, d.1071, l.281-282), mais le texte du rapport (capacités mises en service) n'est pas affiché ; contenu non vérifiable."
+  },
+  {
+   "id": "src-stalino-enakievo-krasnaia-zvezda-19440404",
+   "statut": "non_verifiee",
+   "citation": "",
+   "commentaire": "Fetch impossible : erreur de certificat SSL et robots.txt inaccessible lors des deux essais ; PDF non lu."
+  },
+  {
+   "id": "src-vorochilovgrad-lettre-194402",
+   "statut": "non_verifiee",
+   "citation": "",
+   "commentaire": "La page n'affiche que les métadonnées (titre, février 1944, archives f.5 op.1 d.982 ff.40-41), sans le texte de la lettre. Rail et industrie non vérifiables."
+  },
+  {
+   "id": "src-sebastopol-musee-reconstruction-1944",
+   "statut": "lien_casse",
+   "citation": "",
+   "commentaire": "La page renvoie une erreur 404 ; aucun contenu lu."
+  },
+  {
+   "id": "src-izmail-esu-port-1944",
+   "statut": "limite",
+   "citation": "після звільнення Ізмаїла від нім.-фашист. окупантів, розпочато сучасну історію підприємства.",
+   "commentaire": "La page confirme le port d'Izmaïl, sa situation sur le Danube (bras de Kilia), la reprise après la libération (août 1944) et seulement 298 000 t en 1945. Le statut fluvial/maritime est confirmé de façon générale, sans détail de reprise précis."
+  },
+  {
+   "id": "src-nikolaev-port-rapport-19440601",
+   "statut": "non_verifiee",
+   "citation": "",
+   "commentaire": "La page ne donne que les métadonnées du rapport du 1er juin 1944 (titre, cotes d'archives), sans le texte. Ateliers et quais non vérifiables."
+  },
+  {
+   "id": "src-reni-plan-orlivka-port-1944",
+   "statut": "ok",
+   "citation": "5 листопада 1944 був запущений перший кран.",
+   "commentaire": "Le PDF mentionne bien le lancement de la première grue du port de Reni le 5 novembre 1944, antérieur au 1er janvier 1945."
+  },
+  {
+   "id": "src-kherson-cour-chef-lieu-1944",
+   "statut": "ok",
+   "citation": "Херсонський обласний суд був створений рішенням Херсонської обласної Ради депутатів трудящих від 15 травня 1944 року за № 38.",
+   "commentaire": "Confirme la création de la région le 30 mars 1944 (décret du Présidium du Soviet suprême d'Ukraine) et le tribunal régional par décision n°38 du 15 mai 1944."
+  },
+  {
+   "id": "src-kichinev-ordre-173-19440824",
+   "statut": "limite",
+   "citation": "столицей Молдавской ССР городом Кишинев – важным узлом коммуникаций",
+   "commentaire": "L'ordre du 24 août 1944 désigne Kichinev comme capitale de la RSS moldave, mais comme un fait déjà acquis (formule d'identification), non comme un acte de désignation. Confirme le statut de capitale à cette date."
+  },
+  {
+   "id": "src-henitchesk-lopouchinska-port-1944",
+   "statut": "ok",
+   "citation": "С весны 1944 налаживаются баркасные перевозки пассажиров через пролив Тонкий",
+   "commentaire": "La page confirme la remise en activité en 1944 de la centrale portuaire et des ateliers (mécanique, menuiserie, forge) et la traversée par barcasses dès le printemps 1944."
+  },
+  {
+   "id": "src-kertch-musee-reconstruction-1944",
+   "statut": "ok",
+   "citation": "Регулярно ходили поезда Керчь - Джанкой — Симферополь",
+   "commentaire": "Passage placé dans la section « К зиме 1944 года » ; production alimentaire et artisanale (laiteries, savonnerie, tannerie, boulangeries en mai 1944) également confirmée."
+  },
+  {
+   "id": "src-simferopol-sovinform-19440413",
+   "statut": "non_verifiee",
+   "citation": "",
+   "commentaire": "La page renvoie une erreur 404 aux deux essais ; impossible de vérifier les communiqués du 13-14 avril 1944."
+  },
+  {
+   "id": "src-dniestr-atlas-reconstruction-1944",
+   "statut": "ok",
+   "citation": "Восстановление железнодорожного транспорта началось в 1944г. Были сданы в эксплуатацию участки Раздельная–Тирасполь, Слободка–Рыбница, восстановлены рыбницкий и бендерский железнодорожные мосты через р. Днестр.",
+   "commentaire": "Reconstruction ferroviaire en 1944 confirmée (Razdelnaïa, Tiraspol, Rybnitsa, Bender) ; la compagnie fluviale n'apparaît qu'en octobre 1945, conformément à la note."
+  },
+  {
+   "id": "src-dniestr-reconstruction-tiraspol-bender-1944",
+   "statut": "ok",
+   "citation": "В июле 1944 г. кировцы уже принимали в ремонт орудия, танки, автомобили, средства понтонно-мостового хозяйства",
+   "commentaire": "Confirmés : premier train à Tiraspol trois jours après la libération, circulation des trains sur le pont de Bender le 12 septembre 1944, réparations d'armes et véhicules aux ateliers Kirov en juillet 1944."
+  },
+  {
+   "id": "src-evpatoria-esu-port-reprise-1945",
+   "statut": "ok",
+   "citation": "Під час 2-ї світової війни порт був повністю зруйнований ... 1945 розпочато його відродження",
+   "commentaire": "La page confirme l'existence du port d'Eupatoria, sa destruction totale pendant la guerre et le début de sa renaissance en 1945 (postérieur au 1er janvier 1945, donc à ne pas anticiper)."
+  },
+  {
+   "id": "src-jdv-tome3-carpates-kertch-1944",
+   "statut": "faible",
+   "citation": "",
+   "commentaire": "La page chargée ne traite que des ponts de 1941-1943 (Moscou, Don, Rostov, Neva, Dniepr) et ne contient rien sur Moukatchevo, Tchop, Oujgorod, Stryï, Lavotchne ni Kertch en décembre 1944 ; la section citée n'est pas à cette URL."
+  },
+  {
+   "id": "src-konarev-carpates-1944",
+   "statut": "ok",
+   "citation": "Первый поезд из Стрыя прибыл в Мукачево 24 декабря 1944 года",
+   "commentaire": "Confirme la ligne Stryï–Lavotchne–Moukatchevo–Tchop–Oujgorod (248 km restaurés en 45 jours) et le premier train à Moukatchevo le 24 décembre 1944."
+  },
+  {
+   "id": "src-boryslav-syndicat-petrole-1944",
+   "statut": "ok",
+   "citation": "коли в Бориславі відновило роботу об'єднання «Укрнафта»",
+   "commentaire": "Confirme la reprise d'Ukrnafta à Boryslav en 1944, ainsi qu'un bureau de forage depuis 1944 et la reprise du trust Ukrozokerit."
+  },
+  {
+   "id": "src-drohobytch-raffineries-1944",
+   "statut": "ok",
+   "citation": "У серпні 1944, після нової окупації Дрогобича радянськими військами, були введені у експлуатацію лише два великі заводи",
+   "commentaire": "Confirme la remise en service de deux grandes raffineries à Drohobytch en août 1944 ; les désignations officielles datent de janvier 1945."
+  },
+  {
+   "id": "src-stanislav-centrale-reprise-1944",
+   "statut": "ok",
+   "citation": "Через три дні після того, як совіти витіснили німців з міста, електростанція відновила роботу",
+   "commentaire": "Confirme la remise en marche de la centrale trois jours après le retour soviétique, sur équipements incomplets (jusqu'à 600 kW) ; train électrique installé en février 1946."
+  },
+  {
+   "id": "src-soumy-frunze-avril-1944",
+   "statut": "limite",
+   "citation": "ущербе, нанесенном немецко-фашистскими захватчиками заводу и ходе его восстановления",
+   "commentaire": "La notice du 16 avril 1944 porte sur les dégâts et la remise en état de l'usine Frounzé de Soumy ; seules les métadonnées sont affichées, pas le texte de l'article. L'auteur indiqué est l'ingénieur en chef de l'usine (non nommé Borodine), et ateliers/énergie/fonderie ne sont pas vérifiables."
+  },
+  {
+   "id": "src-kovalev-ports-bilan-1945",
+   "statut": "ok",
+   "citation": "в Днепро-Двинском пароходстве, чтобы восстановить Гомельский речной порт, требовалось выполнить работы общей стоимостью 5880 тыс. руб., а на 1 января 1945 г. их было выполнено на 200 тыс. руб.",
+   "commentaire": "Confirme des reprises portuaires très partielles au 1er janvier 1945 pour Gomel, Babrouisk, Moguilev (et Borissov) ; le 9 janvier 1945 la conception des ports de Zaporijjia et Dnipro est suspendue. Cohérent avec la note d'Ether."
+  },
+  {
+   "id": "src-gomanenko-basse-volga-1944",
+   "statut": "ok",
+   "citation": "В Москву, Калинин, Рыбинск прямыми рейсами пошли буксирные составы с низовьев Волги",
+   "commentaire": "L'article décrit la navigation de 1944 de la compagnie de basse Volga, avec Stalingrad et Astrakhan et des liaisons directes vers Kalinine et Rybinsk. Confirme l'activité fluviale en 1944."
+  },
+  {
+   "id": "src-rosmorport-taganrog-reparation-1943",
+   "statut": "lien_casse",
+   "citation": "",
+   "commentaire": "La page renvoie une erreur 404 ; contenu non vérifiable."
+  },
+  {
+   "id": "src-rostov-srgvs-reprise-1943",
+   "statut": "ok",
+   "citation": "в начале апреля по восстановленному железнодорожному мосту через Дон в Ростов прибыл первый поезд с юга ... 10 апреля Ростовский порт открыл навигацию 1943 г.",
+   "commentaire": "Confirme train du sud début avril, usine de réparation de locomotives et ouverture de la navigation le 10 avril 1943 à Rostov. Réparation navale limitée à deux navires relevés ; Bataïsk non mentionnée dans l'extrait."
+  },
+  {
+   "id": "src-rouzaievka-bibliotheque-rail-guerre",
+   "statut": "ok",
+   "citation": "пять паровозных бригад",
+   "commentaire": "Confirme brigades de réparation de locomotives en 1941-1942, réparation de rails usagés et dépôt de wagons actif à Rouzaïevka. Étaye le rôle ferroviaire et les ateliers locaux pendant la guerre."
+  },
+  {
+   "id": "src-herzen-kirov-industrie-rail-guerre",
+   "statut": "non_verifiee",
+   "citation": "",
+   "commentaire": "PDF trop lourd (erreur 413, dépassement de 30 Mo) ; un seul essai, passages pp.133-140 non vérifiés."
+  },
+  {
+   "id": "src-rjd-pskov-reprise-1944",
+   "statut": "ok",
+   "citation": "25 июля 1944 г. в Псков прибыли восстановители стальных магистралей ... Через 10 дней было обеспечено движение поездов через станцию",
+   "commentaire": "Arrivée de l'équipe le 25 juillet 1944 et reprise du trafic dix jours plus tard confirmées ; la mention explicite d'un « premier train militaire » n'a pas été citée textuellement, mais le fait est antérieur à 1945."
+  },
+  {
+   "id": "src-komi-inta-charbon-1943",
+   "statut": "ok",
+   "citation": "В 1940 году были заложены первые две шахты. ... в 1943 был отправлен первый эшелон угля в осажденный немцами Ленинград.",
+   "commentaire": "Deux mines en 1940 et premier convoi de charbon vers Leningrad en 1943 confirmés (après redirection http de même hôte)."
+  },
+  {
+   "id": "src-pskovlib-velikie-louki-chef-lieu1944",
+   "statut": "ok",
+   "citation": "С 22 августа 1944 по 2 октября 1957 Великие Луки были административным центром Великолукской области РСФСР.",
+   "commentaire": "Statut de chef-lieu à partir du 22 août 1944 confirmé, antérieur au 1er janvier 1945."
+  },
+  {
+   "id": "src-komi-syktyvkar-capitale1937",
+   "statut": "ok",
+   "citation": "После принятия в декабре 1936 года Конституции СССР была образована Коми АССР, и Сыктывкар стал столицей автономной республики.",
+   "commentaire": "Capitale de la RSSA des Komis dès décembre 1936, confirmée par la Constitution du 23 juin 1937 (page lue après redirection http de même hôte)."
+  },
+  {
+   "id": "src-ebid-novgorod-kostroma-actes1944",
+   "statut": "limite",
+   "citation": "",
+   "commentaire": "La page est une notice bibliographique : titre de l'ukase du 5 juillet 1944 sur Novgorod, Vedomosti n°36, recueil 1938-1944 (Moscou, 1945). Le texte de l'acte, le centre régional nommé et l'ukase de Kostroma ne sont pas lisibles via le texte de la page."
+  },
+  {
+   "id": "src-flot-poliarny-base1941-1944",
+   "statut": "ok",
+   "citation": "1941-1944 - Полярный - главная база Северного флота. / 1947 - Главной базой СФ становится поселок Ваенга (с 1951 - Североморск).",
+   "commentaire": "Le calendrier confirme Poliarny base principale de la flotte du Nord en 1941-1944 et le transfert à Vaenga seulement en 1947."
+  },
+  {
+   "id": "src-kola-vaenga-aviation1944",
+   "statut": "ok",
+   "citation": "Место базирования – аэродром «Ваенга-1». / Сформирована в окт. 1942 как 5-я бомбардировочная авиац. бригада",
+   "commentaire": "La notice confirme la base Vaenga-1, la formation en octobre 1942 et la participation à l'opération Petsamo-Kirkenes d'octobre 1944. Rien sur la base principale de flotte (hors sujet de la page)."
+  },
+  {
+   "id": "src-krigsseiler-liinakhamari-novembre1944",
+   "statut": "ok",
+   "citation": "Den 6. november 1944 ankom de første norske styrker, som skulle settes inn i frigjøringen av Finnmark, til Murmansk. Derfra fortsatte de med et russisk transportskip til Liinahamari, og bilte videre til Kirkenes.",
+   "commentaire": "Le repère (arrivée à Mourmansk le 6 novembre 1944, transport soviétique vers Liinahamari, puis camions vers Kirkenes) est confirmé. Les transports de janvier 1945 n'ont pas été vérifiés."
+  },
+  {
+   "id": "src-gusakov-dno-trains1944",
+   "statut": "limite",
+   "citation": "И вновь в числе первых рабочих и инженерно-технических работников сразу же после освобождения города от фашистов возвратился начальник станции Николаев В.В., который организовал работу по пропуску поездов",
+   "commentaire": "Libération du 24 février 1944 et retour de Nikolaïev organisant le passage des trains confirmés. Le retour du dépôt à sa capacité d'avant-guerre en 1946 n'a pas été vu dans l'extrait lu."
+  },
+  {
+   "id": "src-leningradpobeda-rail-tikhvin-volkhov",
+   "statut": "limite",
+   "citation": "Поезд, открывший прямое сообщение между Ленинградом и Большой землей, отправился со станции Волховстрой в 17 ч 43 мин 5 февраля 1943 года.",
+   "commentaire": "Premier train du 5 février 1943, ligne Boudogochtch-Tikhvin et rétablissement de l'axe Moscou le 23 février 1944 confirmés. Pour décembre 1941, seule la prise de Voïbokalo fin décembre est citée, pas explicitement la réouverture Tikhvin-Volkhov-Voïbokalo."
+  },
+  {
+   "id": "src-karelmedia-loukhi-journal1944",
+   "statut": "ok",
+   "citation": "Дивизия перебрасывается по железной дороге от ст. Лоухи до ст. Нямозеро.",
+   "commentaire": "Le journal de la 83e division confirme le transport ferroviaire Loukhi-Niamozero, daté du 21 septembre 1944."
+  },
+  {
+   "id": "src-hse-johannes-usine1944",
+   "statut": "ok",
+   "citation": "После устранения этих проблем и монтажа оборудования производство удалось запустить в течение 1944 г.",
+   "commentaire": "Reprise de production à l'usine de Johannes (Sovetski) en 1944 après montage du matériel confirmée, avec dégâts mineurs. La comparaison avec Priozersk n'a pas été vérifiée spécifiquement."
+  },
+  {
+   "id": "src-hma-m204-reparations1944",
+   "statut": "ok",
+   "citation": "01.-11.10.1944 - Instandsetzung Schichau, Königsberg ; 01.-31.12.1944 - Reparatur der Trefferschäden in der Schichau-Werft, Königsberg",
+   "commentaire": "Chantier Schichau de Königsberg en octobre et décembre 1944, Pillau comme base d'escorte (convois Pillau–Libau) confirmés. Le trajet Pillau–Memel de novembre n'est pas vu explicitement dans le résumé obtenu."
+  },
+  {
+   "id": "src-hma-pillau-ravitaillement-dec1944",
+   "statut": "ok",
+   "citation": "2 PiLF mit zus. 29 Besatzungsmitgliedern zur Versorgung Pillaus eingesetzt.",
+   "commentaire": "Entrée du 15 décembre 1944 confirmée : deux PiLF assurent le ravitaillement de Pillau."
+  },
+  {
+   "id": "src-lazarettzug662-prusse1944",
+   "statut": "ok",
+   "citation": "Fahrt vom 16. Oktober bis zum 20. Oktober 1944 von Königsberg-Rothenstein nach Lötzen und Allenstein",
+   "commentaire": "Trajets datés de 1944 confirmés (Metgethen, Pillau–Tapiau, Insterburg, Königsberg-Rothenstein). Les trajets 52-54 mènent surtout vers les pays baltes ; Pillau, Tapiau, Insterburg cités, Tilsit/Gumbinnen mentionnés sans détail."
+  },
+  {
+   "id": "src-poltava-depot-reprise1944",
+   "statut": "ok",
+   "citation": "Уже 5 июля 1944 года после восстановления депо был выпущен из ремонта первый паровоз.",
+   "commentaire": "Reprise du dépôt le 27 septembre 1943 (« начинается восстановление паровозного депо ») et première locomotive réparée le 5 juillet 1944 confirmées."
+  },
+  {
+   "id": "src-chernigov-doc264-novembre1943",
+   "statut": "non_verifiee",
+   "citation": "",
+   "commentaire": "PDF volumineux : le document 264 (Деснянська правда du 23 novembre 1943) n'a pas pu être localisé via WebFetch. Un seul essai, pas de contournement."
+  },
+  {
+   "id": "src-konotop-doc234-fevrier1944",
+   "statut": "non_verifiee",
+   "citation": "",
+   "commentaire": "Le PDF est volumineux : seule la préface et les premiers documents (1941) ont été lus, les documents 230 et 234 de 1944 n'étaient pas accessibles via WebFetch. Rien n'a pu être confirmé."
+  },
+  {
+   "id": "src-melitopol-docs-reprise1943",
+   "statut": "ok",
+   "citation": "к 7 ноября 1943 г. железнодорожный путь уже был восстановлен и в 7 школах начались занятия.",
+   "commentaire": "La résolution du 24 février 1945 (3e conférence du Komsomol de Melitopol) mentionne rétrospectivement la voie ferrée déjà rétablie au 7 novembre 1943 : fait antérieur au 1er janvier 1945 confirmé."
+  },
+  {
+   "id": "src-buriak-donbass-rail1943",
+   "statut": "non_verifiee",
+   "citation": "",
+   "commentaire": "Accès refusé (403) aux deux essais ; aucun contenu lu."
+  },
+  {
+   "id": "src-geonames-ivanovo-textile-reperes",
+   "statut": "ok",
+   "citation": "Ivanovo : N 56° 59′ 59″, E 40° 58′ 21″ ; Rodniki N 57° 6′ 18″, E 41° 44′ 8″ ; Teykovo N 56° 51′ 30″, E 40° 32′ 25″ ; Kokhma N 56° 55′ 55″, E 41° 5′ 40″",
+   "commentaire": "La page de résultats GeoNames donne les quatre localités de l'oblast d'Ivanovo avec leurs coordonnées actuelles, ce qui suffit comme repères de localisation. Notice directe d'Ivanovo non ouverte."
+  },
+  {
+   "id": "src-voronej-encyclopedie-liski-nom1943",
+   "statut": "ok",
+   "citation": "Указом Президиума Верховного Совета РСФСР от 02.02.1943 года город Свобода переименован в Лиски.",
+   "commentaire": "Confirme exactement le retour au nom Liski par l'ukase du 2 février 1943, antérieur au 1er janvier 1945."
+  },
+  {
+   "id": "src-udunt-ungheni-reprise1946",
+   "statut": "ok",
+   "citation": "Під час Другої світової війни первісний міст було зруйновано, а у 1946 році на його місці відновили залізничне сполучення через Прут.",
+   "commentaire": "Confirme la destruction du pont pendant la guerre et le rétablissement de la liaison en 1946, donc postérieur au Snapshot ; la réserve d'Ether (pas de preuve de passage au 1er janvier 1945) reste justifiée."
+  },
+  {
+   "id": "src-gako-raccords-wehlau-2011",
+   "statut": "ok",
+   "citation": "Велау оставался центром одноименного района (правительственный округ Кёнигсберг).",
+   "commentaire": "Confirme le chef-lieu de district en 1939 et les liaisons ferroviaires (ligne de l'Est 1860, embranchement Wehlau-Friedland 1911). Rien sur l'activité fin 1944 (cohérent avec la note), prise de la ville le 23 janvier 1945."
+  },
+  {
+   "id": "src-gako-raccords-labiau-2011",
+   "statut": "ok",
+   "citation": "В 1930-е гг. в Лабиау работали газовый и цементный заводы, пивзавод, мясокомбинат, молокозавод",
+   "commentaire": "Confirme rail (ligne Königsberg-Labiau 1889), industrie des années 1930 et combats de janvier 1945. Aucune prolongation vers janvier 1945 n'est affirmée, ce qui cadre avec la limite chronologique."
+  },
+  {
+   "id": "src-gako-raccords-tapiau-2011",
+   "statut": "limite",
+   "citation": "Войска 1-го танкового корпуса вышли в район города Тапиау 22 января 1945 г.",
+   "commentaire": "Page lue : combats de janvier 1945, ponts détruits, destruction limitée (~15 %) et rôle de centre de district en 1946. Aucune mention des trains sanitaires de 1944 ; l'entre-deux-guerres est peu détaillé."
+  },
+  {
+   "id": "src-gako-raccords-fischhausen-2011",
+   "statut": "limite",
+   "citation": "В этот период город был военно-морским портом, поэтому в июне 1946 г. часть городских построек...были переданы в ведение Юго-Балтийского флота",
+   "commentaire": "Confirme le rattachement au Samland en 1939 et la fonction de port naval après-guerre (exclue). Ligne ferroviaire de 1865 mentionnée, mais rien sur le service effectif fin 1944."
+  },
+  {
+   "id": "src-gako-raccords-heiligenbeil-2011",
+   "statut": "ok",
+   "citation": "В 1930-е гг. в Хайлигенбайле производили продукцию завод по обработке легких материалов, авиаремонтный и газовый заводы, машиностроительная фабрика Р. Вермке",
+   "commentaire": "Confirme industrie, ateliers et garnison des années 1930. Le port de Rosenberg est mentionné seulement pour son rattachement en 1935 ; pas de lien avec mars 1945 sur la page."
+  },
+  {
+   "id": "src-gako-raccords-ebenrode-2011",
+   "statut": "ok",
+   "citation": "На 1939 г. население Эбенроде составило 6608 человек (в 1933 г. ... 6294 чел.); город был районным центром.",
+   "commentaire": "Confirme le renommage de 1938, la situation de 1939 (chef-lieu de district) et la prise de la ville par les Soviétiques dans la nuit du 25 octobre 1944 (96e division de la Garde)."
+  },
+  {
+   "id": "src-priozersk-reconstruction-1944-1947",
+   "statut": "ok",
+   "citation": "в конце декабря 1944 года райисполком принимает решение об открытии рыбозавода",
+   "commentaire": "L'ordre de fin décembre 1944 pour la usine de poisson et la reprise du combinat cellulose-papier en 1947 sont confirmés. L'arrivée des colons à l'automne 1944 n'est vue que indirectement (population de 1578 personnes au 11 avril 1945)."
+  },
+  {
+   "id": "src-karelmedia-bilan-rail1944",
+   "statut": "ok",
+   "citation": "С 15 июля на Кировской магистрали, после восстановления первой очереди, открыто движение поездов по всей главной линии от Ленинграда до Мурманска",
+   "commentaire": "Remise en service le 15 juillet, rapport daté du 1er janvier 1945, sections Petrozavodsk-Sortavala citées, cote d'archive ЦГА КАСР ф. 528 оп. 12 д. 344 л. 64-65 confirmée. Pas de preuve de circulation effective locale, comme l'indique la note."
+  },
+  {
+   "id": "src-vladimir-bibliotheque-guerre",
+   "statut": "ok",
+   "citation": "в июне 1944 года с конвейера сошли первые пять тракторов «Универсал»",
+   "commentaire": "Tracteurs de Vladimir en 1944, arme antichar de Kovrov adoptée le 29 août 1941 et légende « train sanitaire de Mourom, 1942 » trouvés. L'atelier de Vladimir 1944 n'a pas été isolé séparément mais le contexte industriel est confirmé."
+  },
+  {
+   "id": "src-gaspito-tambov-industrie-guerre",
+   "statut": "ok",
+   "citation": "В качестве подарка фронтовикам к новому 1942 г. на Тамбовском вагоноремонтном и Мичуринском паровозоремонтном заводах были изготовлены первые бронепоезда.",
+   "commentaire": "Premiers trains blindés pour le Nouvel An 1942, premier convoi sanitaire à Tambov (dixième jour de guerre, 1941), bombardements d'octobre 1941, Mitchourinsk et usine n°204 de Kotovsk confirmés."
+  },
+  {
+   "id": "src-cls-tambov-mitchourinsk-guerre",
+   "statut": "ok",
+   "citation": "в Мичуринске - родине тамбовских фронтовых бригад в 1942 году насчитывалось всего 7, а к концу 1943 г. их число выросло до 15",
+   "commentaire": "Brigades de Mitchourinsk fin 1943 et de Tambov début 1944 (118), industrie et réparation de locomotives, nœuds ferroviaires visés par les bombardements confirmés."
+  },
+  {
+   "id": "src-heritage-mezen-convoi-bb25",
+   "statut": "non_verifiee",
+   "citation": "",
+   "commentaire": "WebFetch refusé : ROBOTS_DISALLOWED (erreur de certificat SSL lors de la lecture de robots.txt). Aucun contournement tenté ; notice du Deïatelny non vérifiée."
+  }
+ ]
+}

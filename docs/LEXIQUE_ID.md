@@ -14,6 +14,7 @@ On le construit au fil de l'eau, jamais à l'avance. **Avant de créer un ID : c
 - Un ID d'entité **commence par son `type_entite` exact** : `territoire-`, `frontiere-`, `ligne_front-`, `poste_frontiere-`… (vérifié par le validateur).
 - L'ID désigne le **lieu ou la chose stable**, jamais son statut à une date.
 - Le préfixe pays = le pays du **premier état** de l'entité dans le corpus. Il ne change jamais ensuite.
+- **Exception des villes** (règle appliquée depuis le lot 1.0, écrite ici le 02/10/2026 à la demande d'Ether, Q15-01) : le préfixe d'une `ville-` est le code du **pays actuel** où se trouve la ville (`ville-fr-paris`, `ville-lt-klaipeda`, `ville-pl-wroclaw`, `ville-ru-kaliningrad`, `ville-ua-lviv`, `ville-md-chisinau`), pas celui de sa souveraineté en 1945. Ce code sert seulement au classement et ne dit rien de la souveraineté à une date. Les IDs déjà intégrés ne sont pas renommés. Des IDs de travail (`ville-su-…`) sont rapprochés de cette convention à l'intégration.
 
 ## 2. Codes pays (2 lettres, minuscules)
 
