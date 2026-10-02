@@ -10,6 +10,12 @@ Une ligne par décision, datée. Plus récente en haut. Ce journal remplace les 
 - **Chefs-lieux d'oblast et de RSS autonomes** : attribut « régionale » **non appliqué** aux 15 villes proposées (Kazan, Oufa, Kostroma…). Aucune règle ne couvre ce cas, et le lot ne traite pas tous les chefs-lieux de la même façon. Rôles conservés ; réserve pour la revue finale (Q15-02). *(Claude)*
 - Positions : Wikidata pour 195 villes (recoupées par SPARQL), GeoNames (CC BY 4.0, crédit ajouté aux licences) pour 5 repères. Sources : 192 nouvelles, 124 confirmées (65 %), 11 à remplacer ou préciser (Q15-03). Registre v1.17, 594 sources ; « Sources à valider » : 188. Réserves R15-01 à R15-36 gardées pour la revue finale 1.x. *(Claude)*
 
+## 2026-10-02 (soir : lot 1.5 intégré, fichier des réserves)
+
+- **Lot villes 1.5 intégré** (200 villes : Russie d'Europe et Oural, Biélorussie, Ukraine, Moldavie, Prusse-Orientale) par le réveil automatique de 19 h 12 : premier tour complet de la boucle sans Guizmo. L'Atlas compte 525 villes ; registre v1.17 (594 sources). Le réveil s'est arrêté après le push ; Claude a terminé les dernières étapes à la main. *(Ether, Claude)*
+- **Fichier unique des réserves** `docs/RESERVES_A_TRANCHER.md` (copie `00_RESERVES_A_TRANCHER.md` dans le dossier d'échange) : tous les points à trancher de la série 1.x (52 au 02/10), avec ce qu'on sait, ce que ça change sur la carte et les choix possibles. Guizmo les passera en revue avec Ether pour apprendre et trancher. Régénéré à chaque lot (`outils/projet/reserves_a_trancher.py`). *(Guizmo, Claude)*
+- **Couches suivantes** : la zone URSS d'Europe sera découpée en deux pour les prochaines couches (routes, rail…), le lot villes 1.5 ayant été le plus lourd. *(Guizmo)*
+
 ## 2026-10-02 (après-midi : alternance des livraisons)
 
 - **Ether produit jusqu'à une livraison complète, puis attend Claude** : son réveil horaire coupait la recherche en morceaux, il est en pause pendant la production. À partir de la 2e remise, une remise = réponses au lot précédent + nouveau lot complet, chacun dans son dossier avec son `PRET_ether.md`. *(Guizmo, Ether)*

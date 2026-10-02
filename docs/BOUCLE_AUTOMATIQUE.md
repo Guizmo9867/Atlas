@@ -99,7 +99,7 @@ Un gros lot peut prendre plus d'une heure, et un autre réveil démarre toutes l
       Recompter soi-même à partir des fichiers. Garder le résultat dans `data/sources/verifications_claude/<date>_<lot>.json`.
    3. **Fusionner les sources au registre** avec un script `outils/villes/fusion_sources_<lot>.py` (modèle : `fusion_sources_1_4_reponses.py`) : fusion par `source_id`, version du registre +0.01, tous les champs en **français**.
    4. **Construire ou mettre à jour le lot** avec `outils/villes/construire_villes_<lot>.py` (modèle : `construire_villes_1_4.py`). Il produit `data/snapshot0/<lot>.json`.
-   5. **Régénérer** `python outils/sources/liste_sources_a_valider.py`, puis la fiche de chiffres `python outils/projet/chiffres_projet.py` (sert au dossier de financement d'Ether).
+   5. **Régénérer** `python outils/sources/liste_sources_a_valider.py`, puis la fiche de chiffres `python outils/projet/chiffres_projet.py` (sert au dossier de financement d'Ether). Puis le fichier de toutes les réserves : mettre à jour la liste `QUESTIONS_CLAUDE` en tête de `outils/projet/reserves_a_trancher.py` (questions nouvelles ou closes du compte rendu), puis `python outils/projet/reserves_a_trancher.py $HOME/mnt/Desktop--Atlas` (écrit `docs/RESERVES_A_TRANCHER.md` et `00_RESERVES_A_TRANCHER.md` dans le dossier d'échange).
    6. **Valider** avec `node app/scripts/validate-data.mjs` (depuis `app/`) : **zéro erreur obligatoire**. Vérifier aussi qu'aucun secret n'est dans les fichiers (`grep -rIl "github_pat_\|ghp_"` hors `.git` et `node_modules`).
    7. **Documenter** :
       - README du lot dans `data/snapshot0/` ;
@@ -115,6 +115,7 @@ Un gros lot peut prendre plus d'une heure, et un autre réveil démarre toutes l
       - les fichiers ou champs du protocole manquants ;
       - les corrections que Claude a dû faire.
       Ajouter une ligne au tableau `docs/QUALITE_LIVRAISONS.md` (le créer s'il n'existe pas) : date, lot, moteur, et ces chiffres.
+   *Important : un gros lot use beaucoup de contexte. Faire les étapes 9 (dossier d'échange) et 4 à 6 rapidement après le push ; si le réveil a été interrompu après le push, le réveil suivant (verrou de plus de 3 h) termine ces étapes sans refaire l'intégration.*
    *Git a besoin d'effacer ses fichiers de verrou (`.git/index.lock`). Si git répond « unable to unlink » ou « index.lock: File exists », demander d'abord l'autorisation de suppression pour le dossier du dépôt (outil `device_request_delete_permission`, raison : verrous temporaires de git), puis effacer uniquement les fichiers `.git/*.lock` laissés par l'essai raté et recommencer. Jamais d'autre suppression.*
    8. **Envoyer sur GitHub** (depuis le dépôt sur l'ordinateur) :
       - pour regarder l'état : `GIT_OPTIONAL_LOCKS=0 bash .git/claude_git.sh status --short` (sans cette variable, un verrou `.git/index.lock` impossible à effacer peut rester) ;
