@@ -99,6 +99,7 @@ Claude écrit seulement :
       - les fichiers ou champs du protocole manquants ;
       - les corrections que Claude a dû faire.
       Ajouter une ligne au tableau `docs/QUALITE_LIVRAISONS.md` (le créer s'il n'existe pas) : date, lot, moteur, et ces chiffres.
+   *Git a besoin d'effacer ses fichiers de verrou (`.git/index.lock`). Si git répond « unable to unlink » ou « index.lock: File exists », demander d'abord l'autorisation de suppression pour le dossier du dépôt (outil `device_request_delete_permission`, raison : verrous temporaires de git), puis effacer uniquement les fichiers `.git/*.lock` laissés par l'essai raté et recommencer. Jamais d'autre suppression.*
    8. **Envoyer sur GitHub** (depuis le dépôt sur l'ordinateur) :
       - pour regarder l'état : `GIT_OPTIONAL_LOCKS=0 bash .git/claude_git.sh status --short` (sans cette variable, un verrou `.git/index.lock` impossible à effacer peut rester) ;
       - `bash .git/claude_git.sh add -A` ;
