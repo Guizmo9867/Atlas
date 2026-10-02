@@ -1,6 +1,6 @@
 # Boucle automatique Ether ↔ Claude — mode d'emploi de Claude
 
-*Version 2, 01/10/2026 (soir). V1 validée par Guizmo avec les ajouts d'Ether (`STATUT.json`, au plus 3 allers-retours) ; V2 intègre l'organisation en conversations Codex d'Ether (`AGENTS.md`, `coordination/`).*
+*Version 3, 02/10/2026 : feu vert global de Guizmo pour toute la série 1.x et réserves différées à la revue finale. Version 2, 01/10/2026 (soir). V1 validée par Guizmo avec les ajouts d'Ether (`STATUT.json`, au plus 3 allers-retours) ; V2 intègre l'organisation en conversations Codex d'Ether (`AGENTS.md`, `coordination/`).*
 
 Ce document est lu **au début de chaque réveil** de la tâche programmée de Claude. Chaque réveil est une session neuve, sans souvenir des conversations : tout ce qu'il faut savoir est ici, dans le journal (`docs/JOURNAL_DECISIONS.md`) et dans le protocole des sources (`docs/protocole_sources_ether_claude.md`).
 
@@ -29,9 +29,9 @@ Claude écrit seulement :
 - `99_archive/` (déplacement de lots clos, après décision).
 
 **Feux verts** :
-- Un lot terminé ne lance jamais le suivant : c'est Guizmo qui donne le feu vert à Ether.
-- Claude intègre toute livraison signalée par `PRET_ether.md`, mais ne présente jamais une suite comme autorisée.
-- Dans le tableau de bord, une suite est écrite « proposée, en attente du feu vert de Guizmo », d'après `AUTORISATIONS_RATISSAGE.json`.
+- **Depuis le 02/10/2026, toute la série 1.x (couche villes du Snapshot 0, toutes zones, audit final compris) est autorisée par Guizmo**, sans feu vert par lot (voir `coordination/AUTORISATIONS_RATISSAGE.json`, `autorisation_globale`, et `coordination/POUR_CLAUDE_2026-10-02.md`).
+- **Il faut un nouveau feu vert de Guizmo** pour toute autre couche ou famille (routes, réseaux ferroviaires, ports autonomes, douanes…) et pour le passage aux mois. Le rôle portuaire ou ferroviaire d'une ville reste dans le 1.x.
+- Claude intègre toute livraison signalée par `PRET_ether.md`. Dans le tableau de bord, l'état d'une suite est recopié fidèlement d'après `AUTORISATIONS_RATISSAGE.json` (autorisée / proposée), jamais deviné.
 
 **Comptes rendus** : toujours dans cet ordre de rubriques :
 1. **Intégré** ;
@@ -111,13 +111,13 @@ Claude écrit seulement :
       - mettre à jour `STATUT.json` ;
       - écrire `PRET_claude.md` **en dernier** (une ligne : date, ce qui a été fait, s'il y a des questions).
 4. **Rafraîchir** `02_references/` : copier `JOURNAL_DECISIONS`, `SUIVI_RATISSAGE`, `protocole_sources_ether_claude`, `LEXIQUE_ID`, `IDEES_POUR_PLUS_TARD`, `CHIFFRES_PROJET` et ce document.
-5. **Mettre à jour `00_TABLEAU_DE_BORD.md`** : où on en est, qui attend quoi, rubrique « À trancher par Guizmo ».
+5. **Mettre à jour `00_TABLEAU_DE_BORD.md`** : où on en est, qui attend quoi, « Réserves pour la revue finale 1.x », rubrique « À trancher par Guizmo » (vide en temps normal).
 6. **Republier la page « Sources à valider »** (artifact https://claude.ai/artifact/YBCUsTgEb1XwNmRwVnd9Lr) :
    - lire d'abord l'artifact (Artifact, action `read`) ;
    - remplacer `__DONNEES__` dans `outils/sources/page_sources_a_valider_modele.html` par le contenu de `data/sources/sources_a_valider.json` (en échappant `</`) ;
    - publier avec `url` = cette adresse.
    Si ça échoue, le noter au tableau de bord : ça ne bloque pas la boucle.
-7. **Notifier Guizmo** (notification push) seulement s'il y a un point « à trancher » ou une erreur. Sinon, une ligne au tableau de bord suffit.
+7. **Notifier Guizmo** (notification push) seulement s'il y a un point « à trancher » de la liste de la section 5 (hors réserves 1.x) ou une erreur. Sinon, une ligne au tableau de bord suffit.
 
 ## 4. Les règles de fond (rappel ; le détail est dans le journal)
 
@@ -145,17 +145,20 @@ Claude écrit seulement :
   - commiter un secret ;
   - envoyer sur GitHub si le validateur signale une erreur.
 
-## 5. Limites automatiques : quand s'arrêter et passer la main à Guizmo
+## 5. Réserves et limites automatiques
 
-Mettre `etat` à `attente_guizmo` et `validation_guizmo_requise` à `true`, ajouter le point à `a_trancher` et à la rubrique « À trancher par Guizmo » du tableau de bord, puis notifier. **Intégrer quand même tout ce qui est sûr.** Les cas :
+**Règle de Guizmo du 02/10/2026 (série 1.x)** : toutes les réserves sont gardées **par lot** pour une revue avec Guizmo **à la fin de toute la série 1.x**. On ne lui pose **aucune question au cas par cas** et on ne le notifie pas pour elles.
+- Conflit de sources impossible à départager, décision historique contestable (frontière, capitale, nom sans preuve, rang), point non conclu après **3 cycles** : **intégrer ce qui est sûr, ne pas appliquer le point incertain**, l'écrire dans la rubrique « Réserves » du compte rendu et dans la section « Réserves pour la revue finale 1.x » du tableau de bord (une ligne par lot, renvoi au fichier de réserves d'Ether `01_lots/<lot>/<date>_ether_reserves_revue_finale.md` s'il existe).
+- Après 3 cycles, le lot reste ouvert avec ses réserves (`etat` : `reserves_revue_finale` dans `STATUT.json`, sans effacer les champs existants) ; cela ne gèle ni les autres lots 1.x ni la suite.
+- Le report ne vaut jamais validation : une valeur incertaine n'est pas appliquée parce qu'elle est reportée.
 
-- **plus de 3 cycles** sur un lot sans clôture ;
-- conflit de sources qu'on ne peut pas départager ;
-- décision historique contestable : frontière, capitale, nom sans preuve, rang ;
+**Restent « À trancher par Guizmo » avec notification** (hors série 1.x ou à risque pour le dépôt) :
 - changement du modèle de données ou de la structure du dépôt ;
 - modification de l'interface (code dans `app/src`) ;
 - suppression de données ;
-- livraison d'Ether incomplète, illisible ou contraire au protocole (champs en anglais, sources sans URL…) : intégrer le reste et poser la question dans le compte rendu.
+- livraison d'Ether **hors du périmètre autorisé** (autre couche, passage aux mois) : ne pas l'intégrer, la signaler.
+
+**Pour Ether, pas pour Guizmo** : livraison incomplète, illisible ou contraire au protocole (champs en anglais, sources sans URL…) → intégrer le reste et poser la question dans le compte rendu.
 
 ## 6. Clore un lot
 

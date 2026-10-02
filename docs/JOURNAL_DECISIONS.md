@@ -2,6 +2,12 @@
 
 Une ligne par décision, datée. Plus récente en haut. Ce journal remplace les versions éparpillées dans les conversations : si ce n'est pas ici, ce n'est pas décidé.
 
+## 2026-10-02 (feu vert global pour la série 1.x)
+
+- **Toute la série 1.x de la couche villes du Snapshot 0 est autorisée** (toutes zones, audit final compris), sans feu vert par lot. Nouveau feu vert requis pour toute autre couche (routes, trains, ports autonomes, douanes…) ou le passage aux mois. *(Guizmo)*
+- **Toutes les réserves sont gardées par lot et triées avec Guizmo à la fin de la série 1.x** : plus de question au cas par cas. Les points « à trancher » des lots 1.3 et 1.4 (3 cycles atteints) deviennent des réserves de revue finale ; ces lots ne bloquent plus la suite. Une réserve n'est jamais appliquée par défaut. *(Guizmo)*
+- Ether a commencé la recherche du lot 1.5 (Russie d'Europe, Oural, Biélorussie, Ukraine, Moldavie, Prusse-Orientale aujourd'hui russe), non encore livrée. Mode d'emploi de la boucle v3. *(Ether, Claude)*
+
 ## 2026-10-01 (soir : cycle 3 d'Ether sur les lots villes 1.3 et 1.4, réveil automatique de Claude)
 
 - **Cinq villes du lot 1.3 prennent leur nom de 1945**, chacune sur une preuve individuelle relue : Reichenberg (Liberec), Eger (Cheb), Brüx (Most), Tetschen-Bodenbach (Děčín), Érsekújvár (Nové Zámky). Fiche et ID inchangés ; date du retour au nom d'après-guerre non établie. *(Ether, relu et fait par Claude)*
