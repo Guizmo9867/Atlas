@@ -1,6 +1,6 @@
 # Boucle automatique Ether ↔ Claude — mode d'emploi de Claude
 
-*Version 3, 02/10/2026 : feu vert global de Guizmo pour toute la série 1.x et réserves différées à la revue finale. Version 2, 01/10/2026 (soir). V1 validée par Guizmo avec les ajouts d'Ether (`STATUT.json`, au plus 3 allers-retours) ; V2 intègre l'organisation en conversations Codex d'Ether (`AGENTS.md`, `coordination/`).*
+*Version 4, 02/10/2026 (après-midi) : alternance des livraisons d'Ether (`coordination/BOUCLE_LIVRAISON_RATISSAGE.md`) et verrou anti-chevauchement des réveils. Version 3, 02/10/2026 : feu vert global de Guizmo pour toute la série 1.x et réserves différées à la revue finale. Version 2, 01/10/2026 (soir). V1 validée par Guizmo avec les ajouts d'Ether (`STATUT.json`, au plus 3 allers-retours) ; V2 intègre l'organisation en conversations Codex d'Ether (`AGENTS.md`, `coordination/`).*
 
 Ce document est lu **au début de chaque réveil** de la tâche programmée de Claude. Chaque réveil est une session neuve, sans souvenir des conversations : tout ce qu'il faut savoir est ici, dans le journal (`docs/JOURNAL_DECISIONS.md`) et dans le protocole des sources (`docs/protocole_sources_ether_claude.md`).
 
@@ -32,6 +32,15 @@ Claude écrit seulement :
 - **Depuis le 02/10/2026, toute la série 1.x (couche villes du Snapshot 0, toutes zones, audit final compris) est autorisée par Guizmo**, sans feu vert par lot (voir `coordination/AUTORISATIONS_RATISSAGE.json`, `autorisation_globale`, et `coordination/POUR_CLAUDE_2026-10-02.md`).
 - **Il faut un nouveau feu vert de Guizmo** pour toute autre couche ou famille (routes, réseaux ferroviaires, ports autonomes, douanes…) et pour le passage aux mois. Le rôle portuaire ou ferroviaire d'une ville reste dans le 1.x.
 - Claude intègre toute livraison signalée par `PRET_ether.md`. Dans le tableau de bord, l'état d'une suite est recopié fidèlement d'après `AUTORISATIONS_RATISSAGE.json` (autorisée / proposée), jamais deviné.
+
+**Alternance des livraisons d'Ether (depuis le 02/10/2026 après-midi ; détail : `coordination/BOUCLE_LIVRAISON_RATISSAGE.md`, état : `coordination/ETAT_BOUCLE_RATISSAGE.json`)** :
+- Ether **produit sans s'arrêter jusqu'à une livraison complète** (son propre réveil est en pause pendant ce temps), puis attend le retour de Claude.
+- À partir de la 2e remise, **une remise = les réponses au lot précédent + un nouveau lot complet**, chacun dans **son propre dossier** avec son `STATUT.json` et son `PRET_ether.md`. Il peut donc y avoir **plusieurs lots prêts au même réveil** : les traiter tous, dans l'ordre (d'abord les réponses aux lots déjà intégrés, puis le nouveau lot), avec **un compte rendu par lot**.
+- Si les réponses confirment tout sans correction, le dire en une ligne dans le compte rendu (pas de cycle inutile).
+- Un lot neuf peut être gros (70 villes et plus). Prendre le temps qu'il faut ; la section 2 bis évite qu'un autre réveil démarre en parallèle.
+- Accuser réception de `coordination/POUR_CLAUDE_2026-10-02_BOUCLE_LIVRAISON.md` dans le premier compte rendu qui suit (une ligne).
+
+**IDs des villes** : code du **pays actuel** (`ville-ru-…`, `ville-by-…`, `ville-ua-…`, `ville-md-…`, comme `ville-lt-klaipeda`, `ville-fr-paris`). Si Ether livre des IDs de travail (`ville-su-…`), les rapprocher vers cette convention à l'intégration et le dire dans le compte rendu.
 
 **Comptes rendus** : toujours dans cet ordre de rubriques :
 1. **Intégré** ;
@@ -66,6 +75,13 @@ Claude écrit seulement :
 - `cycles` : nombre de livraisons d'Ether sur ce lot (le ratissage = 1, chaque réponse d'Ether = +1).
 - Un lot est **à traiter par Claude** si `PRET_ether.md` est **plus récent** que `PRET_claude.md` (ou si `PRET_claude.md` n'existe pas). Sinon, Claude n'y touche pas : une livraison sans `PRET_ether.md` est peut-être encore en cours d'écriture.
 - Si `STATUT.json` manque mais que `PRET_ether.md` est là, Claude le crée.
+
+## 2 bis. Verrou : un seul réveil de Claude à la fois
+
+Un gros lot peut prendre plus d'une heure, et un autre réveil démarre toutes les heures. Pour éviter deux intégrations en même temps, on utilise le fichier `00_claude_en_cours.json` à la racine du dossier d'échange. Il est **toujours réécrit, jamais supprimé** :
+- **Au début**, juste après avoir trouvé un lot à traiter (et seulement dans ce cas), lire ce fichier. S'il dit `"en_cours": true` et que `depuis` date de **moins de 3 heures**, un autre réveil travaille : **s'arrêter aussitôt** sans rien écrire (résumé : « Intégration déjà en cours »). Sinon, l'écrire : `{"en_cours": true, "depuis": "<date-heure ISO>", "lots": [...]}`.
+- **À la fin** (réussite ou erreur), le réécrire avec `"en_cours": false`, `"fin"` et le résultat.
+- Un verrou de plus de 3 heures est celui d'un réveil interrompu (PC éteint, limite atteinte) : on le reprend, et on vérifie d'abord avec `git status` et `git log` ce qui avait déjà été fait, pour ne rien faire deux fois.
 
 ## 3. Ce que fait un réveil
 

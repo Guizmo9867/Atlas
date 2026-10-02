@@ -2,6 +2,11 @@
 
 Une ligne par décision, datée. Plus récente en haut. Ce journal remplace les versions éparpillées dans les conversations : si ce n'est pas ici, ce n'est pas décidé.
 
+## 2026-10-02 (après-midi : alternance des livraisons)
+
+- **Ether produit jusqu'à une livraison complète, puis attend Claude** : son réveil horaire coupait la recherche en morceaux, il est en pause pendant la production. À partir de la 2e remise, une remise = réponses au lot précédent + nouveau lot complet, chacun dans son dossier avec son `PRET_ether.md`. *(Guizmo, Ether)*
+- Claude garde son réveil horaire et traite tous les lots prêts au même réveil, un compte rendu par lot ; **verrou** `00_claude_en_cours.json` (réécrit, jamais supprimé) pour qu'un réveil ne démarre pas pendant qu'un autre intègre un gros lot. IDs des villes : code du pays actuel (`ville-ru-…`, `ville-ua-…`…). Mode d'emploi v4. *(Claude)*
+
 ## 2026-10-02 (feu vert global pour la série 1.x)
 
 - **Toute la série 1.x de la couche villes du Snapshot 0 est autorisée** (toutes zones, audit final compris), sans feu vert par lot. Nouveau feu vert requis pour toute autre couche (routes, trains, ports autonomes, douanes…) ou le passage aux mois. *(Guizmo)*
