@@ -13,6 +13,12 @@ ECHANGE = pathlib.Path(sys.argv[1]) if len(sys.argv) > 1 else RACINE.parent / 'D
 
 # Questions de Claude encore ouvertes (reprises de ses comptes rendus ; les autres sont déjà dans les fichiers d'Ether)
 QUESTIONS_CLAUDE = {
+    'villes_1-3': [
+        ('Q13-05 — Děčín : ordre du nom allemand de 1945',
+         "Deux sources donnent deux ordres : l'annuaire téléphonique de 1942 dit « Tetschen-Bodenbach » (c'est le nom affiché) ; l'article historique des chemins de fer tchèques, validé par Guizmo le 03/10/2026, dit « Bodenbach-Tetschen ». Aucune des deux n'est un décret.",
+         "La carte affiche « Tetschen-Bodenbach » ; « Bodenbach-Tetschen » est en alias. Le reste de la source (rail, port, industrie, fusion de 1942) est appliqué ; les noms d'après-guerre (1948) sont gardés pour la chronologie.",
+         "Garder « Tetschen-Bodenbach » ; passer à « Bodenbach-Tetschen » ; Ether cherche l'acte de fusion du 01/10/1942 pour trancher."),
+    ],
     'villes_1-5': [
         ('Q15-02 — Chefs-lieux de région : faut-il les marquer « capitale » ?',
          "Ether proposait « capitale régionale » pour 15 chefs-lieux d'oblast ou capitales de républiques autonomes (Kazan, Oufa, Simferopol, Grodno…). Claude ne l'a pas appliqué : aucune règle ne couvre ce cas, et d'autres chefs-lieux du même lot (Briansk, Kharkiv, Odessa, Lviv) ne l'avaient pas.",
@@ -73,6 +79,7 @@ def lire_reserves(fichier):
 REGISTRE = {x['source_id']: x for x in json.load(open(RACINE / 'data/sources/atlas_registre_sources.json', encoding='utf-8'))['sources']}
 # Sources citées par leur nom dans les réserves des lots 1.3/1.4 (sans identifiant écrit) : renvoi manuel
 CITEES = {
+    'Q13-05': ['src-13-cz-decin-cd', 'src-13-cz-tetschen-telephone-1942'],
     'Q15-02': ['src-neb-admin1944-supplement'],
     'Q15-03': ['src-rosmorport-arctique-histoire', 'src-musee-pobedy-sverdlovsk-production-1944', 'src-bashenc-tchernikovsk-1944', 'src-sebastopol-musee-reconstruction-1944', 'src-rosmorport-taganrog-reparation-1943', 'src-karelia-patrimoine-guerre-1941-1945', 'src-belomorsk-bibliotheque-gare-2024', 'src-rushydro-ouglitch-histoire-2015', 'src-jdv-tome3-bielorussie-1944', 'src-jdv-tome3-carpates-kertch-1944', 'src-grodno-encyclopedie-1989-1944', 'src-soumy-frunze-avril-1944'],
     'Q16-01': ['src-rosmorport-primorie-histoire', 'src-rosmorport-petropavlovsk-histoire', 'src-novossibirsk-histoire1920-1940', 'src-oniip-omsk-1942', 'src-bvrz-histoire', 'src-maxam-chirchiq-histoire', 'src-vayner-transport-guerre-ch4', 'src-loc-mongolie-1991', 'src-archives-primorie-spassk-ciment', 'src-vishnevski-sakhaline2000', 'src-ks-providenia-dyga2022', 'src-ualtaeva-petites-villes2011'],
