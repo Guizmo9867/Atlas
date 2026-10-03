@@ -1,10 +1,12 @@
 # Boucle automatique Ether ↔ Claude — mode d'emploi de Claude
 
-*Version 4, 02/10/2026 (après-midi) : alternance des livraisons d'Ether (`coordination/BOUCLE_LIVRAISON_RATISSAGE.md`) et verrou anti-chevauchement des réveils. Version 3, 02/10/2026 : feu vert global de Guizmo pour toute la série 1.x et réserves différées à la revue finale. Version 2, 01/10/2026 (soir). V1 validée par Guizmo avec les ajouts d'Ether (`STATUT.json`, au plus 3 allers-retours) ; V2 intègre l'organisation en conversations Codex d'Ether (`AGENTS.md`, `coordination/`).*
+*Version 5, 03/10/2026 : on n'attend jamais Guizmo ; un réveil interrompu est repris dès le réveil suivant (verrou rafraîchi à chaque étape) ; un réveil traite aussi les décisions de Guizmo sur les sources, même sans lot. Version 4, 02/10/2026 (après-midi) : alternance des livraisons d'Ether (`coordination/BOUCLE_LIVRAISON_RATISSAGE.md`) et verrou anti-chevauchement des réveils. Version 3, 02/10/2026 : feu vert global de Guizmo pour toute la série 1.x et réserves différées à la revue finale. Version 2, 01/10/2026 (soir). V1 validée par Guizmo avec les ajouts d'Ether (`STATUT.json`, au plus 3 allers-retours) ; V2 intègre l'organisation en conversations Codex d'Ether (`AGENTS.md`, `coordination/`).*
 
 Ce document est lu **au début de chaque réveil** de la tâche programmée de Claude. Chaque réveil est une session neuve, sans souvenir des conversations : tout ce qu'il faut savoir est ici, dans le journal (`docs/JOURNAL_DECISIONS.md`) et dans le protocole des sources (`docs/protocole_sources_ether_claude.md`).
 
 ## 0. L'organisation d'Ether (à lire à chaque réveil)
+
+> **Règle de Guizmo du 03/10/2026 : la boucle n'attend jamais Guizmo.** Elle avance toujours aussi loin que possible sur ce qu'elle peut faire seule. Tout ce qui demande Guizmo (décision, autorisation, clic) est noté dans la rubrique « À trancher par Guizmo » du tableau de bord, et le réveil continue ou termine tout le reste. Jamais de question posée en attendant une réponse. Si une autorisation est refusée ou reste sans réponse, la noter et passer à la suite. Un réveil qui n'a pas fini n'est pas grave : le suivant reprend là où il en était (section 2 bis).
 
 Depuis le 01/10/2026 au soir, Ether travaille dans deux conversations Codex reliées au dossier Atlas :
 - **ATLAS — RATISSAGE 01** (Ether + Guizmo) : recherches et réponses point par point à mes comptes rendus ;
@@ -79,9 +81,10 @@ Claude écrit seulement :
 ## 2 bis. Verrou : un seul réveil de Claude à la fois
 
 Un gros lot peut prendre plus d'une heure, et un autre réveil démarre toutes les heures. Pour éviter deux intégrations en même temps, on utilise le fichier `00_claude_en_cours.json` à la racine du dossier d'échange. Il est **toujours réécrit, jamais supprimé** :
-- **Au début**, juste après avoir trouvé un lot à traiter (et seulement dans ce cas), lire ce fichier. S'il dit `"en_cours": true` et que `depuis` date de **moins de 3 heures**, un autre réveil travaille : **s'arrêter aussitôt** sans rien écrire (résumé : « Intégration déjà en cours »). Sinon, l'écrire : `{"en_cours": true, "depuis": "<date-heure ISO>", "lots": [...]}`.
+- **Au début**, juste après avoir trouvé du travail (section 3, étape 2), lire ce fichier. S'il dit `"en_cours": true` et que `derniere_activite` (à défaut `depuis`) date de **moins de 50 minutes**, un autre réveil travaille : **s'arrêter aussitôt** sans rien écrire (résumé : « Intégration déjà en cours »). Sinon, l'écrire : `{"en_cours": true, "depuis": "<date-heure ISO>", "derniere_activite": "<idem>", "etape": "<où on en est>", "lots": [...]}`.
+- **Pendant le travail**, réécrire `derniere_activite` et `etape` à chaque étape (début de chaque lot, vérification des sources, fusion, construction, validateur, envoi sur GitHub, dossier d'échange). Un réveil vivant garde ainsi son verrou frais.
 - **À la fin** (réussite ou erreur), le réécrire avec `"en_cours": false`, `"fin"` et le résultat.
-- Un verrou de plus de 3 heures est celui d'un réveil interrompu (PC éteint, limite atteinte) : on le reprend, et on vérifie d'abord avec `git status` et `git log` ce qui avait déjà été fait, pour ne rien faire deux fois.
+- Un verrou dont `derniere_activite` a **plus de 50 minutes** est celui d'un réveil interrompu (PC éteint, limite atteinte) : le réveil suivant **le reprend** (le dire dans le résumé). Il lit `etape`, puis vérifie avec `git status`, `git log`, les `STATUT.json` et les `PRET_claude.md` ce qui avait déjà été fait, pour reprendre là où ça s'était arrêté sans rien faire deux fois.
 
 ## 3. Ce que fait un réveil
 
@@ -89,7 +92,11 @@ Un gros lot peut prendre plus d'une heure, et un autre réveil démarre toutes l
 > faire **avant** l'envoi sur GitHub (étape 8) tout ce qui concerne le dossier d'échange : copie du compte rendu et du README dans `01_lots/<lot>/`, `STATUT.json`, `02_references/`, fiche de chiffres, `00_RESERVES_A_TRANCHER.md`, `00_SOURCES_A_VALIDER.md`/`.html`, tableau de bord. **Aussitôt le push vérifié, écrire `PRET_claude.md` puis remettre le verrou à `"en_cours": false`.** La republication de la page « Sources à valider » sur claude.ai vient en tout dernier : si elle échoue ou si le réveil s'arrête là, rien d'important n'est perdu.
 
 1. Lire ce document, le tableau de bord et le haut du journal des décisions.
-2. Repérer les lots à traiter (section 2). **S'il n'y en a aucun, s'arrêter tout de suite**, sans rien écrire.
+2. Repérer le travail à faire :
+   - les lots à traiter (section 2) ;
+   - un réveil interrompu à reprendre (verrou `"en_cours": true` sans activité depuis plus de 50 minutes, section 2 bis) ;
+   - des **décisions de Guizmo sur les sources** pas encore reportées : `python outils/sources/reporter_validations_guizmo.py --verifier $HOME/mnt/Desktop--Atlas` (fichier `decisions_sources_guizmo.json` du dossier d'échange) ; et, si l'outil ArtifactData est disponible, la collection `validations` de la page claude.ai comparée à `data/sources/validations_guizmo_claudeai.json`.
+   **S'il n'y a rien de tout cela, s'arrêter tout de suite**, sans rien écrire. S'il n'y a que des décisions de Guizmo : faire seulement l'étape 3.5 (report et régénérations), le validateur, l'envoi sur GitHub, `02_references/`, le tableau de bord et la republication de la page, avec le verrou comme pour un lot.
 3. Pour chaque lot à traiter, dans l'ordre :
    1. **Lire toute la livraison d'Ether** : le `.md` pour Claude, les JSON de données et le delta de sources. Copier les fichiers d'Ether dans le dépôt, comme pour les lots précédents :
       - données ou corrections → `data/sources/deltas_ether/<date>_<lot>_*.json` ;
@@ -102,7 +109,7 @@ Un gros lot peut prendre plus d'une heure, et un autre réveil démarre toutes l
       Recompter soi-même à partir des fichiers. Garder le résultat dans `data/sources/verifications_claude/<date>_<lot>.json`.
    3. **Fusionner les sources au registre** avec un script `outils/villes/fusion_sources_<lot>.py` (modèle : `fusion_sources_1_4_reponses.py`) : fusion par `source_id`, version du registre +0.01, tous les champs en **français**.
    4. **Construire ou mettre à jour le lot** avec `outils/villes/construire_villes_<lot>.py` (modèle : `construire_villes_1_4.py`). Il produit `data/snapshot0/<lot>.json`.
-   5. **Décisions de Guizmo sur les sources** : lire la collection `validations` de la page « Sources à valider » (outil ArtifactData, action list) et l'écrire dans `data/sources/validations_guizmo_claudeai.json` ; puis `python outils/sources/reporter_validations_guizmo.py $HOME/mnt/Desktop--Atlas` (lit aussi `decisions_sources_guizmo.json` déposé par Guizmo dans le dossier d'échange). Ensuite **régénérer** `python outils/sources/liste_sources_a_valider.py`, puis la fiche de chiffres `python outils/projet/chiffres_projet.py` (sert au dossier de financement d'Ether). Puis le fichier de toutes les réserves : mettre à jour la liste `QUESTIONS_CLAUDE` en tête de `outils/projet/reserves_a_trancher.py` (questions nouvelles ou closes du compte rendu), puis `python outils/projet/reserves_a_trancher.py $HOME/mnt/Desktop--Atlas` (écrit `docs/RESERVES_A_TRANCHER.md` et `00_RESERVES_A_TRANCHER.md` dans le dossier d'échange). Puis `python outils/sources/exporter_sources_a_valider.py $HOME/mnt/Desktop--Atlas` (écrit `00_SOURCES_A_VALIDER.md` et `.html` dans le dossier d'échange : la liste lisible par Ether, avec les liens). Si un point de réserve n'a pas de « Sources liées », compléter le dictionnaire `CITEES` du script.
+   5. **Décisions de Guizmo sur les sources** : lire la collection `validations` de la page « Sources à valider » (outil ArtifactData, action list) et l'écrire dans `data/sources/validations_guizmo_claudeai.json` ; puis `python outils/sources/reporter_validations_guizmo.py $HOME/mnt/Desktop--Atlas` (lit aussi `decisions_sources_guizmo.json` déposé par Guizmo dans le dossier d'échange ; écrit aussi `docs/NOTES_GUIZMO_SOURCES.md`). La décision « Prouve pour 1945 (la suite plus tard) » (`verifiee_s0`) vaut validation pour le Snapshot 0 : la source reste au registre, et sa note dit quel changement reprendre plus tard dans la chronologie ; ne jamais retirer une telle source. Ensuite **régénérer** `python outils/sources/liste_sources_a_valider.py`, puis la fiche de chiffres `python outils/projet/chiffres_projet.py` (sert au dossier de financement d'Ether). Puis le fichier de toutes les réserves : mettre à jour la liste `QUESTIONS_CLAUDE` en tête de `outils/projet/reserves_a_trancher.py` (questions nouvelles ou closes du compte rendu), puis `python outils/projet/reserves_a_trancher.py $HOME/mnt/Desktop--Atlas` (écrit `docs/RESERVES_A_TRANCHER.md` et `00_RESERVES_A_TRANCHER.md` dans le dossier d'échange). Puis `python outils/sources/exporter_sources_a_valider.py $HOME/mnt/Desktop--Atlas` (écrit `00_SOURCES_A_VALIDER.md` et `.html` dans le dossier d'échange : la liste lisible par Ether, avec les liens). Si un point de réserve n'a pas de « Sources liées », compléter le dictionnaire `CITEES` du script.
    6. **Valider** avec `node app/scripts/validate-data.mjs` (depuis `app/`) : **zéro erreur obligatoire**. Vérifier aussi qu'aucun secret n'est dans les fichiers : `grep -rIE "github_pat_[A-Za-z0-9_]{20,}|ghp_[A-Za-z0-9]{20,}" --exclude-dir=.git --exclude-dir=node_modules .` doit ne rien renvoyer.
    7. **Documenter** :
       - README du lot dans `data/snapshot0/` ;
@@ -118,7 +125,7 @@ Un gros lot peut prendre plus d'une heure, et un autre réveil démarre toutes l
       - les fichiers ou champs du protocole manquants ;
       - les corrections que Claude a dû faire.
       Ajouter une ligne au tableau `docs/QUALITE_LIVRAISONS.md` (le créer s'il n'existe pas) : date, lot, moteur, et ces chiffres.
-   *Important : un gros lot use beaucoup de contexte. Faire les étapes 9 (dossier d'échange) et 4 à 6 rapidement après le push ; si le réveil a été interrompu après le push, le réveil suivant (verrou de plus de 3 h) termine ces étapes sans refaire l'intégration.*
+   *Important : un gros lot use beaucoup de contexte. Faire les étapes 9 (dossier d'échange) et 4 à 6 avant le push (encadré ci-dessus) ; si le réveil a été interrompu, le réveil suivant (verrou sans activité depuis plus de 50 minutes) termine ce qui manque sans refaire l'intégration.*
    *Git a besoin d'effacer ses fichiers de verrou (`.git/index.lock`). Si git répond « unable to unlink » ou « index.lock: File exists », demander d'abord l'autorisation de suppression pour le dossier du dépôt (outil `device_request_delete_permission`, raison : verrous temporaires de git), puis effacer uniquement les fichiers `.git/*.lock` laissés par l'essai raté et recommencer. Jamais d'autre suppression.*
    8. **Envoyer sur GitHub** (depuis le dépôt sur l'ordinateur) :
       - pour regarder l'état : `GIT_OPTIONAL_LOCKS=0 bash .git/claude_git.sh status --short` (sans cette variable, un verrou `.git/index.lock` impossible à effacer peut rester) ;
@@ -131,7 +138,7 @@ Un gros lot peut prendre plus d'une heure, et un autre réveil démarre toutes l
       - copier (ou mettre à jour) le README du lot dans `01_lots/<lot>/00_claude_README_du_lot.md` ;
       - mettre à jour `STATUT.json` ;
       - écrire `PRET_claude.md` **en dernier** (une ligne : date, ce qui a été fait, s'il y a des questions).
-4. **Rafraîchir** `02_references/` : copier `JOURNAL_DECISIONS`, `SUIVI_RATISSAGE`, `protocole_sources_ether_claude`, `LEXIQUE_ID`, `IDEES_POUR_PLUS_TARD`, `CHIFFRES_PROJET` et ce document.
+4. **Rafraîchir** `02_references/` : copier `JOURNAL_DECISIONS`, `SUIVI_RATISSAGE`, `protocole_sources_ether_claude`, `LEXIQUE_ID`, `IDEES_POUR_PLUS_TARD`, `CHIFFRES_PROJET`, `NOTES_GUIZMO_SOURCES` et ce document.
 5. **Mettre à jour `00_TABLEAU_DE_BORD.md`** : où on en est, qui attend quoi, « Réserves pour la revue finale 1.x », rubrique « À trancher par Guizmo » (vide en temps normal).
 6. **Republier la page « Sources à valider »** (artifact https://claude.ai/artifact/YBCUsTgEb1XwNmRwVnd9Lr) :
    - lire d'abord l'artifact (Artifact, action `read`) ;

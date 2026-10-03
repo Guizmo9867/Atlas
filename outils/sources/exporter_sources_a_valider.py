@@ -15,7 +15,8 @@ modele = (RACINE / 'outils/sources/page_sources_a_valider_modele.html').read_tex
 out = ['# Atlas — sources à valider', '',
        f"*Généré le {datetime.datetime.now().strftime('%d/%m/%Y à %H h %M')} depuis le registre v{d.get('version_registre')} : {len(S)} sources que Claude n'a pas pu confirmer.*", '',
        "Pour chaque source : ouvrir le lien, chercher le passage indiqué, et dire si elle prouve ce qu'on lui fait dire.",
-       "Guizmo enregistre sa décision avec les boutons de la page « Sources à valider » sur claude.ai ; ce fichier sert à la lire et à en discuter (avec Ether, par exemple).", '']
+       "Guizmo enregistre sa décision avec les boutons de la page « Sources à valider » (sur claude.ai, ou 00_SOURCES_A_VALIDER.html puis « Enregistrer mes décisions dans le dossier Atlas ») ; ce fichier sert à la lire et à en discuter (avec Ether, par exemple).",
+       "Quatre choix : « Ça prouve » ; « Prouve pour 1945 (la suite plus tard) » quand la source dit aussi un changement d'après le 01/01/1945 (la source est gardée, la note dit quel changement reprendre dans la chronologie) ; « Ne prouve pas » ; « Lien mort ».", '']
 for g, titre in GROUPES.items():
     grp = [s for s in S if s['groupe'] == g]
     if not grp: continue

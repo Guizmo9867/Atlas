@@ -2,6 +2,13 @@
 
 Une ligne par décision, datée. Plus récente en haut. Ce journal remplace les versions éparpillées dans les conversations : si ce n'est pas ici, ce n'est pas décidé.
 
+## 2026-10-03 (la boucle n'attend jamais Guizmo ; validation « pour 1945, la suite plus tard »)
+
+- **La boucle n'attend jamais Guizmo** (décision de Guizmo, après 10 h d'attente d'Ether sur une autorisation pendant la nuit) : Claude et Ether avancent toujours aussi loin que possible sur ce qu'ils peuvent faire seuls ; ce qui demande Guizmo est noté (tableau de bord, « À trancher par Guizmo ») et le travail continue sur le reste.
+- **Un réveil interrompu est repris au réveil suivant** : le verrou `00_claude_en_cours.json` est rafraîchi à chaque étape (`derniere_activite`, `etape`) ; sans activité depuis 50 minutes, le réveil suivant reprend là où ça s'était arrêté (avant : 3 heures). Guizmo : « si t'as pas fini, aucun problème, tu reprends au réveil d'après ».
+- **Décisions de Guizmo sur les sources traitées même sans lot** : chaque réveil regarde si `decisions_sources_guizmo.json` (enregistré depuis `00_SOURCES_A_VALIDER.html`) ou la page claude.ai contient des décisions nouvelles, et les reporte au registre.
+- **Nouveau choix « Prouve pour 1945 (la suite plus tard) »** (`verifiee_s0`) : la source prouve ce qu'on lui demande au Snapshot 0 mais dit aussi un changement plus tard (nom, statut…). Elle vaut validation pour le Snapshot 0, sort de la liste à valider, **reste au registre** ; la note de Guizmo dit quel changement reprendre. Liste tenue à jour dans `docs/NOTES_GUIZMO_SOURCES.md`, à relire quand le ratissage avancera dans le temps.
+
 ## 2026-10-03 (villes 1.6, URSS d'Asie et Mongolie ; réponses au 1.5)
 
 - **Villes 1.6 intégrées : 254 villes** (Russie d'Asie 135, Kazakhstan 41, Ouzbékistan 23, Mongolie 19, Kirghizistan 16, Turkménistan 12, Tadjikistan 8), dont 89 sous leur nom de 1945 (Frounzé, Stalinabad, Alma-Ata, Achkhabad, Stalinsk, Akmolinsk…). Capitales de RSS « régionales », Oulan-Bator « nationale », RSSA et oblasts sans type (Q15-02). L'Atlas compte 779 villes. *(Ether, fait par Claude)*
