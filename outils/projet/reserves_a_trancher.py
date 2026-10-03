@@ -56,6 +56,41 @@ def lire_reserves(fichier):
         i += 1
     return items, complements
 
+REGISTRE = {x['source_id']: x for x in json.load(open(RACINE / 'data/sources/atlas_registre_sources.json', encoding='utf-8'))['sources']}
+# Sources citées par leur nom dans les réserves des lots 1.3/1.4 (sans identifiant écrit) : renvoi manuel
+CITEES = {
+    'Q13-02': ['src-13-protectorat-velcovsky-langues'], 'Q13-03': ['src-13-hu-szalasi-koszeg-neb-1944'],
+    'R15-01': ['src-rosmorport-baltique-histoire', 'src-spb-chenal-mines-2016'], 'R15-02': ['src-rosmorport-baltique-histoire'],
+    'R15-20': ['src-nkvd-bielorussie-rapport-19440727'], 'R15-21': ['src-kovalev-rail-ukraine-moldavie-1944'], 'Q13-04': ['src-13-most-carte-municipale-1938', 'src-13-cz-most-histoire'],
+    'R-05': ['src-13-hu-miskolc-fusion', 'src-13-sk-cassovie-fr'],
+    'Q14-03': ['src-14-ee-tapa-local', 'src-14-ee-rail-histoire'],
+    'Q14-05': ['src-14-pl-tarnowitz-archive', 'src-14-pl-cosel-archive', 'src-14-pl-heydebreck-archive'],
+    'S14-02': ['src-14-pl-posen-plan-1944', 'src-14-pl-elbing-map-1944', 'src-14-pl-rail-premieres', 'src-14-ee-kohtla-jarve-perimetre', 'src-14-pl-gdansk-port-ferroviaire'],
+}
+
+def index_s(lot):
+    """Repères S1, S2… des carnets d'Ether -> source_id (fichier *_ether_index_sources.md du lot, ou « réf. Sxx » du registre)."""
+    m = {}
+    for f in ECHANGE.glob(f'01_lots/{lot}/*_ether_index_sources.md'):
+        for l in f.read_text(encoding='utf-8').splitlines():
+            r = re.match(r'^\| (S\d+) \| (src-[\w-]+)', l)
+            if r: m[r.group(1)] = r.group(2)
+    num = lot.replace('villes_', 'villes ').replace('-', '.')
+    for sid, x in REGISTRE.items():
+        r = re.search(r'\(' + re.escape(num) + r'[^)]*réf\. (S\d+)\)', x.get('notes', ''))
+        if r and r.group(1) not in m: m[r.group(1)] = sid
+    return m
+
+STATUTS = {'ok': 'confirmée par Claude', 'limite': 'lecture partielle', 'faible': 'ne prouve pas bien', 'non_verifiee': 'illisible pour Claude', 'lien_casse': 'lien mort'}
+def sources_liees(texte, ident, idx):
+    ids = list(dict.fromkeys(CITEES.get(ident, []) + re.findall(r'src-[a-z0-9][\w-]*[a-z0-9]', texte) + [idx[x] for x in re.findall(r'\bS(\d+)\b', texte) and ['S' + n for n in re.findall(r'\bS(\d+)\b', texte)] if x in idx]))
+    lignes = []
+    for i in ids:
+        x = REGISTRE.get(i)
+        if not x: continue
+        lignes.append(f"  - [{x.get('titre') or i}]({x.get('url', '')}) — `{i}` ({STATUTS.get(x.get('verification_claude'), x.get('verification_claude', '?'))})")
+    return lignes
+
 def a_renforcer():
     res = {}
     for f in sorted(glob.glob(str(RACINE / 'data/snapshot0/villes_1-*.json'))):
@@ -75,7 +110,8 @@ out = [f"# Atlas — réserves et points à trancher (série villes 1.x)",
        "- Chaque point a un **numéro** (ex. `R15-07`), **ce qu'on sait**, **ce que ça change sur la carte** et **les choix possibles**.",
        "- Prends-les un par un avec Ether : demande-lui de t'expliquer le contexte historique, puis tranche. Écris ta décision sur la ligne « Décision de Guizmo ».",
        "- Rien ici n'est appliqué tant que tu n'as pas décidé : l'Atlas affiche aujourd'hui la version prudente décrite dans « ce que ça change ».",
-       "- Les **sources** à vérifier (liens, passages) sont à part, dans la page « Sources à valider ».",
+       "- Sous chaque point, **Sources liées** donne les liens des sources citées, avec leur état (confirmée, lecture partielle, illisible…).",
+       "- Toutes les sources à vérifier (liens, passages) sont aussi dans `00_SOURCES_A_VALIDER.md` (même dossier).",
        ""]
 total = 0
 lots = sorted({p.parent.name for p in ECHANGE.glob('01_lots/*/*_ether_reserves_revue_finale.md')} | set(QUESTIONS_CLAUDE))
@@ -87,6 +123,7 @@ for lot in lots:
     qc = QUESTIONS_CLAUDE.get(lot, [])
     out += [f"## Lot {lot.replace('villes_', 'villes ').replace('-', '.')} — {len(items) + len(qc)} points", ""]
     if fs: out += [f"*Fichier détaillé d'Ether : `01_lots/{lot}/{fs[-1].name}`*", ""]
+    idx = index_s(lot)
     for titre, sait, change, choix, libre in items:
         total += 1
         ident = titre.split(' ')[0]
@@ -96,6 +133,8 @@ for lot in lots:
         if change: out += [f"- **Ce que ça change sur la carte** : {change}"]
         if choix: out += [f"- **Choix possibles** : {choix}"]
         if ident in comp: out += [f"- **Complément d'Ether** : {comp[ident]}"]
+        sl = sources_liees(' '.join([titre, sait, change, choix, libre, comp.get(ident, '')]), ident, idx)
+        out += (["- **Sources liées** (cliquer pour ouvrir) :"] + sl) if sl else ["- **Sources liées** : aucune citée par identifiant ; voir le fichier détaillé d'Ether ou les sources des villes concernées dans `00_SOURCES_A_VALIDER.md`."]
         out += ["- **Décision de Guizmo** : …", ""]
     for titre, sait, change, choix in qc:
         total += 1

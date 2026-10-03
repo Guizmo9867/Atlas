@@ -2,6 +2,11 @@
 
 Une ligne par décision, datée. Plus récente en haut. Ce journal remplace les versions éparpillées dans les conversations : si ce n'est pas ici, ce n'est pas décidé.
 
+## 2026-10-03 (fichiers lisibles hors de claude.ai)
+
+- **Sources à valider en fichier** : `00_SOURCES_A_VALIDER.md` (lisible par Ether, avec le lien de chaque source) et `00_SOURCES_A_VALIDER.html` (même page qu'en ligne, lecture seule) dans le dossier d'échange, régénérés à chaque lot (`outils/sources/exporter_sources_a_valider.py`). Le fichier `outils/sources/page_sources_a_valider_modele.html` n'est qu'un modèle vide. *(Guizmo, Claude)*
+- **Réserves à trancher** : chaque point a désormais ses « Sources liées » avec leur lien et leur état. *(Guizmo, Claude)*
+
 ## 2026-10-02 (soir : villes 1.5, Europe orientale soviétique)
 
 - **Villes 1.5 intégrées : 200 villes** (Russie d'Europe et Oural 105, Ukraine/Crimée 66, Biélorussie 24, Moldavie 5), dont 67 sous leur nom de 1945 (Sverdlovsk, Gorki, Kouïbychev, Leningrad, Stalingrad, Stalino, Königsberg, Tilsit…). IDs au code du pays actuel. *(Ether, fait par Claude)*
