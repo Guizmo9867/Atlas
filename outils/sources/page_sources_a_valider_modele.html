@@ -71,6 +71,10 @@ textarea { width: 100%; box-sizing: border-box; min-height: 2.6em; resize: verti
 .p-lien_mort { background: var(--mort-doux); color: var(--mort); }
 .vide { text-align: center; color: var(--encre-2); padding: 24px 0; }
 .erreur { color: var(--non); font-size: .85rem; }
+.local { display: none; gap: 8px; background: var(--ambre-doux); border: 1px solid var(--ambre); border-radius: 10px; padding: 12px 14px; }
+.local[data-actif="1"] { display: grid; }
+.local p { margin: 0; font-size: .9rem; }
+.b-sauver { background: var(--ambre); color: #1b1712; border-color: var(--ambre); justify-self: start; }
 @media (prefers-reduced-motion: reduce) { .jauge span { transition: none; } }
 </style>
 
@@ -83,6 +87,12 @@ textarea { width: 100%; box-sizing: border-box; min-height: 2.6em; resize: verti
   <section class="bilan" aria-label="Avancement">
     <div class="bilan-ligne"><span><strong id="nb-faites">0</strong> traitées sur <span id="nb-total">0</span></span><span class="etat-connexion" id="etat">Connexion…</span></div>
     <div class="jauge"><span id="jauge"></span></div>
+  </section>
+
+  <section class="local" id="local" aria-label="Enregistrement sur l'ordinateur">
+    <p><b>Mode fichier (sur ton PC).</b> Tes choix sont gardés dans ce navigateur. Quand tu as fini (ou de temps en temps), clique sur le bouton et enregistre le fichier <b>dans le dossier Atlas du Bureau</b> : Claude le reportera dans le registre.</p>
+    <button class="b b-sauver" type="button" id="sauver">💾 Enregistrer mes décisions dans le dossier Atlas</button>
+    <p id="sauve-etat"></p>
   </section>
 
   <nav class="filtres" id="filtres" aria-label="Filtrer"></nav>
@@ -158,9 +168,9 @@ function fiche(s) {
   }
   const ta = el('textarea'); ta.id = 'com-' + s.id; ta.placeholder = 'Un mot si besoin (facultatif) : ce que tu as trouvé, ce qui manque…'; ta.value = v?.commentaire || ''
   const bs = el('div', 'boutons')
-  const btn = (cls, txt, decision) => { const b = el('button', 'b ' + cls, txt); b.type = 'button'; b.disabled = !db || !peutEcrire; b.onclick = () => decider(s.id, decision, ta.value.trim(), b); return b }
+  const btn = (cls, txt, decision) => { const b = el('button', 'b ' + cls, txt); b.type = 'button'; b.disabled = !peutEcrire; b.onclick = () => decider(s.id, decision, ta.value.trim(), b); return b }
   bs.append(btn('b-ok', '✓ Ça prouve', 'verifiee'), btn('b-non', '✗ Ne prouve pas', 'ne_prouve_pas'), btn('b-mort', 'Lien mort', 'lien_mort'))
-  if (v) { const b = el('button', 'b b-annuler', 'Annuler'); b.type = 'button'; b.disabled = !db || !peutEcrire; b.onclick = () => annuler(s.id, b); bs.append(b) }
+  if (v) { const b = el('button', 'b b-annuler', 'Annuler'); b.type = 'button'; b.disabled = !peutEcrire; b.onclick = () => annuler(s.id, b); bs.append(b) }
   const err = el('p', 'erreur'); err.id = 'err-' + s.id; err.hidden = true
   act.append(ta, bs, err)
   f.append(act)
@@ -178,7 +188,29 @@ function rendre() {
   vues.forEach((s) => liste.append(fiche(s)))
 }
 
+// Mode fichier : sans claude.ai, les choix sont gardés dans le navigateur puis enregistrés dans un fichier JSON
+const CLE_LOCALE = 'atlas_validations_sources'
+let local = false
+function lireLocal() { try { return JSON.parse(localStorage.getItem(CLE_LOCALE) || '{}') } catch { return {} } }
+function ecrireLocal() { try { localStorage.setItem(CLE_LOCALE, JSON.stringify(validations)) } catch {} }
+async function sauverFichier() {
+  const contenu = JSON.stringify({ par: 'Guizmo', enregistre_le: new Date().toISOString(), version_registre: JSON.parse(document.getElementById('donnees').textContent).version_registre, decisions: validations }, null, 1)
+  const nom = 'decisions_sources_guizmo.json'
+  try {
+    if (window.showSaveFilePicker) {
+      const h = await window.showSaveFilePicker({ suggestedName: nom, types: [{ description: 'Décisions', accept: { 'application/json': ['.json'] } }] })
+      const w = await h.createWritable(); await w.write(contenu); await w.close()
+      $('sauve-etat').textContent = 'Enregistré (' + Object.keys(validations).length + ' décisions). Vérifie qu’il est bien dans le dossier Atlas du Bureau.'
+      return
+    }
+  } catch (e) { if (e?.name === 'AbortError') return }
+  const a = document.createElement('a'); a.href = URL.createObjectURL(new Blob([contenu], { type: 'application/json' })); a.download = nom; a.click()
+  $('sauve-etat').textContent = 'Fichier téléchargé dans « Téléchargements » : déplace-le dans le dossier Atlas du Bureau.'
+}
+$('sauver').onclick = sauverFichier
+
 async function decider(id, decision, commentaire, bouton) {
+  if (local) { validations[id] = { decision, commentaire, par: 'Guizmo', le: new Date().toISOString() }; ecrireLocal(); rendre(); return }
   const err = $('err-' + id); err.hidden = true; bouton.disabled = true
   try {
     await db.collection('validations').doc(id).set({ decision, commentaire, par: moi || '', le: new Date().toISOString() })
@@ -188,6 +220,7 @@ async function decider(id, decision, commentaire, bouton) {
   }
 }
 async function annuler(id, bouton) {
+  if (local) { delete validations[id]; ecrireLocal(); rendre(); return }
   bouton.disabled = true
   try { await db.collection('validations').doc(id).delete() } catch { bouton.disabled = false }
 }
@@ -198,7 +231,7 @@ rendre()
 ;(async () => {
   db = await window.claude?.use?.('db') ?? null
   user = await window.claude?.use?.('user') ?? null
-  if (!db) { $('etat').textContent = 'Lecture seule : connecte-toi à claude.ai pour enregistrer.'; rendre(); return }
+  if (!db) { local = true; peutEcrire = true; validations = lireLocal(); $('local').dataset.actif = '1'; $('etat').textContent = 'Mode fichier : choix gardés sur ce PC'; rendre(); return }
   try { moi = user ? (await user.me()).id : null } catch { moi = null }
   try { peutEcrire = user ? (await user.can('data.write')) !== false : true } catch { peutEcrire = true }
   $('etat').textContent = peutEcrire ? 'Enregistrement actif' : 'Lecture seule'
