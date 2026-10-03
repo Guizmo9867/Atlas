@@ -20,6 +20,7 @@ liste = []
 for s in reg['sources']:
     v = s.get('verification_claude')
     if v not in GROUPE: continue
+    if s.get('verification_humaine'): continue  # déjà tranchée par Guizmo
     groupe = 'remplacee' if s.get('statut_usage') == 'non_verifiee_remplacee' else GROUPE[v]
     liste.append({
         'id': s['source_id'], 'groupe': groupe, 'statut_claude': v, 'niveau': s.get('niveau'),
