@@ -2,6 +2,14 @@
 
 Une ligne par décision, datée. Plus récente en haut. Ce journal remplace les versions éparpillées dans les conversations : si ce n'est pas ici, ce n'est pas décidé.
 
+## 2026-10-03 (villes 1.6, URSS d'Asie et Mongolie ; réponses au 1.5)
+
+- **Villes 1.6 intégrées : 254 villes** (Russie d'Asie 135, Kazakhstan 41, Ouzbékistan 23, Mongolie 19, Kirghizistan 16, Turkménistan 12, Tadjikistan 8), dont 89 sous leur nom de 1945 (Frounzé, Stalinabad, Alma-Ata, Achkhabad, Stalinsk, Akmolinsk…). Capitales de RSS « régionales », Oulan-Bator « nationale », RSSA et oblasts sans type (Q15-02). L'Atlas compte 779 villes. *(Ether, fait par Claude)*
+- **Nom de 1945 = un autre nom, pas une autre orthographe** : un nom qui ne diffère de la fiche que par l'apostrophe n'est pas affiché comme renommage (Nikolaïevsk et Komsomolsk-sur-l'Amour, gardés en alias). Les simples écarts de transcription (Tokmok/Tokmak…) restent tels que proposés, en réserve (Q16-03, avec Q15-04). *(Claude)*
+- **Lecture d'images de pages** : quand une source est illisible pour WebFetch, Claude peut lire lui-même les images de pages qu'Ether a sauvegardées depuis la bibliothèque d'origine (supplément administratif de 1944, recueil de Soumy) ; la source passe au plus en « lecture partielle » si seules quelques pages sont lues. *(Claude)*
+- **Réponses d'Ether au 1.5 (cycle 2)** : 13 sources complétées, aucune ville modifiée ; Soumy confirmée (signature D. Borodine, 15 avril 1944) ; 6 sources de Q15-03 passent de « faible » à « non vérifiée » (pages tronquées par l'outil). Lot 1.5 v0.2. *(Ether + Claude)*
+- Sources : 113 nouvelles (47 confirmées, 42 %), registre v1.19, 707 sources ; « Sources à valider » : 253 ; fichier des réserves : 124 points. Nouvelles questions Q16-01 (sources à remplacer), Q16-02 (répertoires illisibles : 225 villes « à renforcer »), Q16-03 (transcriptions). Réserves R16-01 à R16-69 gardées pour la revue finale 1.x. *(Claude)*
+
 ## 2026-10-03 (fichiers lisibles hors de claude.ai)
 
 - **Sources à valider en fichier** : `00_SOURCES_A_VALIDER.md` (lisible par Ether, avec le lien de chaque source) et `00_SOURCES_A_VALIDER.html` (même page qu'en ligne, lecture seule) dans le dossier d'échange, régénérés à chaque lot (`outils/sources/exporter_sources_a_valider.py`). Le fichier `outils/sources/page_sources_a_valider_modele.html` n'est qu'un modèle vide. *(Guizmo, Claude)*

@@ -3,7 +3,7 @@
     "nom": "snapshot0_villes_1-5_europe_orientale",
     "date_reference": "1945-01-01",
     "heure_reference": "00:00",
-    "version": "0.1",
+    "version": "0.2",
     "statut": "integre_par_claude",
     "gabarit_source": "gabarits/gabarit_entite_temporelle_atlas.json",
     "zone": [
@@ -28,7 +28,8 @@
         "Positions : Wikidata pour 195 villes (QID et coordonnées recoupés par Claude, écart nul, pays actuel concordant) ; GeoNames pour 5 repères actuels (R15-17, R15-28).",
         "Capitales : Moscou nationale ; Minsk, Kiev, Kichinev, Petrozavodsk régionales (capitales de RSS, convention du journal du 01/10) ; attribut « regionale » non appliqué aux 15 chefs-lieux d'oblast ou de RSSA proposés par Ether (convention non établie, Q15-02).",
         "Preuves : mention « (non vérifiée par Claude) » ou « (lecture partielle) » selon la relecture de Claude ; « À renforcer » = rôles sans aucune preuve confirmée.",
-        "Tilsit, Insterburg, Gumbinnen, Ragnit et Béjitsa : roles vide, tel que proposé (R15-07)."
+        "Tilsit, Insterburg, Gumbinnen, Ragnit et Béjitsa : roles vide, tel que proposé (R15-07).",
+        "v0.2 (03/10/2026, réponses d'Ether cycle 2) : aucune donnée de ville modifiée ; mentions de preuve recalculées d'après le registre v1.18 (Soumy confirmée sur la page 353 du recueil ; six sources Q15-03 passent de « faible » à « non vérifiée », l'outil de Claude n'ayant lu que le début des pages)."
       ]
     }
   },
@@ -656,7 +657,7 @@
             {
               "source_id": "src-karelia-patrimoine-guerre-1941-1945",
               "locator": "Fin du récit des partisans : défilé du 08/10/1944 ; section sur la libération, paragraphes 28–30/06/1944.",
-              "usage": "administration, contexte (lecture partielle)"
+              "usage": "administration, contexte (non vérifiée par Claude)"
             },
             {
               "source_id": "src-karelia-petrozavodsk-reprise-1944",
@@ -2732,7 +2733,7 @@
             {
               "source_id": "src-jdv-tome3-bielorussie-1944",
               "locator": "Chapitre VII, pp. 218–220 : pont du Niémen à Grodno ; section Jlobine–Bobrouïsk ; ligne jusqu’à Brest et franchissement du Boug. Références 1332–1334 ; bibliographie éditoriale sur index.html.",
-              "usage": "rail (lecture partielle)"
+              "usage": "rail (non vérifiée par Claude)"
             }
           ]
         }
@@ -2786,12 +2787,12 @@
             {
               "source_id": "src-jdv-tome3-bielorussie-1944",
               "locator": "Chapitre VII, pp. 218–220 : pont du Niémen à Grodno ; section Jlobine–Bobrouïsk ; ligne jusqu’à Brest et franchissement du Boug. Références 1332–1334 ; bibliographie éditoriale sur index.html.",
-              "usage": "rail (lecture partielle)"
+              "usage": "rail (non vérifiée par Claude)"
             },
             {
               "source_id": "src-grodno-encyclopedie-1989-1944",
               "locator": "Pages 23–24, paragraphe reconstruction : chef-lieu depuis le 20/09/1944 et entreprises actives à la fin de 1944.",
-              "usage": "chef-lieu et industrie à la fin de 1944 (lecture partielle)"
+              "usage": "chef-lieu et industrie à la fin de 1944 (non vérifiée par Claude)"
             }
           ]
         }
@@ -2844,7 +2845,7 @@
             {
               "source_id": "src-jdv-tome3-bielorussie-1944",
               "locator": "Chapitre VII, pp. 218–220 : pont du Niémen à Grodno ; section Jlobine–Bobrouïsk ; ligne jusqu’à Brest et franchissement du Boug. Références 1332–1334 ; bibliographie éditoriale sur index.html.",
-              "usage": "rail (lecture partielle)"
+              "usage": "rail (non vérifiée par Claude)"
             },
             {
               "source_id": "src-ukase-bssr-chefs-lieux-19440920",
@@ -2897,7 +2898,7 @@
             {
               "source_id": "src-jdv-tome3-bielorussie-1944",
               "locator": "Chapitre VII, pp. 218–220 : pont du Niémen à Grodno ; section Jlobine–Bobrouïsk ; ligne jusqu’à Brest et franchissement du Boug. Références 1332–1334 ; bibliographie éditoriale sur index.html.",
-              "usage": "rail (lecture partielle)"
+              "usage": "rail (non vérifiée par Claude)"
             }
           ]
         }
@@ -5770,7 +5771,7 @@
             {
               "source_id": "src-jdv-tome3-carpates-kertch-1944",
               "locator": "Stryï–Moukatchevo, décembre 1944",
-              "usage": "rail (lecture partielle)"
+              "usage": "rail (non vérifiée par Claude)"
             },
             {
               "source_id": "src-konarev-carpates-1944",
@@ -5823,7 +5824,7 @@
             {
               "source_id": "src-jdv-tome3-carpates-kertch-1944",
               "locator": "Arrivée du 24 décembre 1944",
-              "usage": "rail (lecture partielle)"
+              "usage": "rail (non vérifiée par Claude)"
             },
             {
               "source_id": "src-konarev-carpates-1944",
@@ -5876,7 +5877,7 @@
             {
               "source_id": "src-jdv-tome3-carpates-kertch-1944",
               "locator": "Restauration Svalyava–Moukatchevo–Batevo–Tchop–Oujgorod",
-              "usage": "rail (lecture partielle)"
+              "usage": "rail (non vérifiée par Claude)"
             },
             {
               "source_id": "src-konarev-carpates-1944",
@@ -5932,7 +5933,7 @@
             {
               "source_id": "src-jdv-tome3-carpates-kertch-1944",
               "locator": "Restauration jusqu’à Oujgorod",
-              "usage": "rail (lecture partielle)"
+              "usage": "rail (non vérifiée par Claude)"
             },
             {
               "source_id": "src-konarev-carpates-1944",
@@ -6114,7 +6115,7 @@
             "roles": [
               "industrie"
             ],
-            "note": "Ateliers et fonderie de l’usine Frounzé en activité en avril 1944. À renforcer : industrie."
+            "note": "Ateliers et fonderie de l’usine Frounzé en activité en avril 1944."
           },
           "geometrie": {
             "type": "Point",
@@ -6132,7 +6133,7 @@
             {
               "source_id": "src-soumy-frunze-avril-1944",
               "locator": "Document 238, pp.352–353",
-              "usage": "industrie (lecture partielle)"
+              "usage": "industrie"
             }
           ]
         }
@@ -6436,7 +6437,7 @@
             {
               "source_id": "src-belomorsk-bibliotheque-gare-2024",
               "locator": "Liaison Petrozavodsk–Mourmansk passant par Kandalakcha",
-              "usage": "port_maritime, rail (lecture partielle)"
+              "usage": "port_maritime, rail (non vérifiée par Claude)"
             }
           ]
         }
@@ -6707,7 +6708,7 @@
             {
               "source_id": "src-belomorsk-bibliotheque-gare-2024",
               "locator": "p.37, ligne Sorokskaïa–Obozerskaïa depuis janvier 1941",
-              "usage": "rail (lecture partielle)"
+              "usage": "rail (non vérifiée par Claude)"
             },
             {
               "source_id": "src-belomorsk-bibliotheque-capitale-front",
@@ -7085,7 +7086,7 @@
             {
               "source_id": "src-rushydro-ouglitch-histoire-2015",
               "locator": "Mises en route de décembre 1940 et mars 1941",
-              "usage": "industrie (lecture partielle)"
+              "usage": "industrie (non vérifiée par Claude)"
             }
           ]
         }

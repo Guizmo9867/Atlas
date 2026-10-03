@@ -1,0 +1,763 @@
+{
+ "lot": "villes_1-6 + réponses villes_1-5 cycle 2",
+ "date": "2026-10-03",
+ "methode": "Sous-agents Claude (sonnet), WebFetch seul, sans contournement ; 113 sources nouvelles du 1.6 et 13 sources relues du 1.5 (Q15-03, Kichinev, Soumy). Lecture visuelle directe par Claude de 3 images sauvegardées par Ether (supplément administratif 1944 : images 7 et 19 ; Soumy : page 353).",
+ "resultats": [
+  {
+   "id": "src-sssr-admin1941-kirghizistan",
+   "statut": "limite",
+   "citation": "СТОЛИЦА - г. ФРУНЗЕ ; ЦЕНТР — г. ДЖАЛАЛ-АБАД ; ЦЕНTР — г. ОШ ; ЦЕНТР — г. НАРЫН",
+   "commentaire": "Capitale (Frounze) et centres d'oblast (Djalal-Abad, Przhevalsk, Och, Naryn) confirmés avec gares pour Frounze, Djalal-Abad et Och ; Kok-Yangak, Tach-Koumyr et Kyzyl-Kiya seulement évoqués de façon vague, sans détail de gare."
+  },
+  {
+   "id": "src-neb-admin1944-supplement",
+   "statut": "limite",
+   "citation": "Астраханская область… ЦЕНТР — г. АСТРАХАНЬ… Дата образования области — 27 декабря 1943 г. / Кемеровская область… ЦЕНТР — г. КЕМЕРОВО… 26 января 1943 г.",
+   "commentaire": "WebFetch refusé (URL trop longue, 403). Claude a lu lui-même deux images NÉB sauvegardées par Ether (images 7 et 19, pages imprimées 5 et 17) : Astrakhan chef-lieu (oblast créée le 27/12/1943), Kemerovo chef-lieu (26/01/1943), et les centres de district du Kouzbass avec leur gare (Anjero-Soudjensk, Belovo, Gourievsk, Kisselevsk, Stalinsk, Leninsk-Kouznetski, Mariinsk, Prokopievsk, Topki, Iourga) confirmés ; autres pages non relues par Claude (lecture partielle)."
+  },
+  {
+   "id": "src-sssr-admin1941-tadjikistan",
+   "statut": "non_verifiee",
+   "citation": "",
+   "commentaire": "WebFetch a échoué deux fois (erreur serveur) sur le PDF, contenu non lu."
+  },
+  {
+   "id": "src-sssr-admin1941-turkmenistan",
+   "statut": "non_verifiee",
+   "citation": "",
+   "commentaire": "WebFetch a échoué deux fois (erreur serveur) sur le PDF, contenu non lu."
+  },
+  {
+   "id": "src-traceca-kirghizistan-2005",
+   "statut": "ok",
+   "citation": "Фрунзе - Кант 1932 для соединения рафинадным сахарным заводом. Кант - Токмак 1941, Токмак - Быстровка 1942, Быстровка - Рыбачье (Балыкчи) 1950.",
+   "commentaire": "Les dates Kant 1932 (sucrerie), Kant–Tokmak 1941, Tokmak–Bystrovka 1942 et Bystrovka–Rybatchie 1950 sont confirmées."
+  },
+  {
+   "id": "src-uzrail-histoire-reseau",
+   "statut": "limite",
+   "citation": "Канибадам – Шураб (1933) ; в 1935 году построены вагоноремонтные пункты на ст. Ашхабад, Чарджоу, Карши, Термез ; вагонные депо на ст. Каган, Коканд",
+   "commentaire": "Ligne Kanibadam–Chourab 1933 et ateliers/dépôts de 1935 confirmés pour les six villes citées, mais sans localisation précise par rapport au centre urbain."
+  },
+  {
+   "id": "src-govkz-karsakpai-1928",
+   "statut": "non_verifiee",
+   "citation": "",
+   "commentaire": "WebFetch n'a renvoyé que les métadonnées du portail gov.kz (JavaScript requis), le contenu de l'article est illisible."
+  },
+  {
+   "id": "src-govkz-satpaev-histoire",
+   "statut": "non_verifiee",
+   "citation": "",
+   "commentaire": "WebFetch n'a renvoyé que les métadonnées du portail gov.kz, sans le texte historique sur Djezkazgan."
+  },
+  {
+   "id": "src-kazakhmys-balkhach-histoire",
+   "statut": "ok",
+   "citation": "24 novembre 1938 : выдана первая балхашская черновая медь",
+   "commentaire": "La chronologie confirme la première production de cuivre brut à Balkhach en novembre 1938 (premier four à réverbère en juillet 1938)."
+  },
+  {
+   "id": "src-nurseitov-akmolinsk-kartaly",
+   "statut": "ok",
+   "citation": "В сентябре месяце было закончено строительство Кушмурунского депо. Тогда же было создано Кушмурунское отделение",
+   "commentaire": "Confirmés : réception de la ligne en 1943, dépôt de Kouchmouroun en septembre 1943, surcroît de charbon transporté en 1942 et entreprises de Kostanaï participant aux réparations de locomotives ; Akmolinsk comme extrémité de la ligne."
+  },
+  {
+   "id": "src-vayner-transport-guerre-ch4",
+   "statut": "faible",
+   "citation": "",
+   "commentaire": "Page lisible mais l'outil n'y trouve ni Krasnovodsk/Turkmenbachi 1944, ni Atyraou 1942, ni voyages Arkhangelsk-Doudinka 1944 ; seules des mentions générales de Doudinka en 1941-1943."
+  },
+  {
+   "id": "src-rosmorport-primorie-histoire",
+   "statut": "lien_casse",
+   "citation": "",
+   "commentaire": "WebFetch a renvoyé une erreur 404 pour cette URL de Rosmorport."
+  },
+  {
+   "id": "src-rosmorport-petropavlovsk-histoire",
+   "statut": "lien_casse",
+   "citation": "",
+   "commentaire": "WebFetch renvoie une erreur 404 pour l'URL, la page n'est pas accessible."
+  },
+  {
+   "id": "src-rosmorport-nordest-histoire",
+   "statut": "limite",
+   "citation": "В апреле 1944 года введен в эксплуатацию построенный пирс № 1 в морском порту Ванино, предназначенный для обработки военных грузов.",
+   "commentaire": "Confirmés : Vanino (pirs n°1, avril 1944), De-Kastri (base navale 1940) et Nagaevo/Magadan (quai 1933, statut portuaire 1936) ; Nikolaïevsk, Pevek, Sovietskaïa Gavan et Okhotsk ne figurent pas dans le texte lu."
+  },
+  {
+   "id": "src-nalaikh-histoire-municipale",
+   "statut": "ok",
+   "citation": "1938 онд Налайх Улаанбаатарын хооронд нарийн төмөр зам тавьж, нүүрсийг 1-р станцад зөөвөрлөх болжээ",
+   "commentaire": "Mine d'État dès le 25 décembre 1922, liaison ferroviaire charbonnière Nalaïkh–Oulan-Bator en 1938 et centrale électrique mise en service le 26 février 1939, tout cela confirmé."
+  },
+  {
+   "id": "src-loc-mongolie-1991",
+   "statut": "faible",
+   "citation": "",
+   "commentaire": "Le texte lu par WebFetch ne contient que le renommage en Oulan-Bator vers 1924 ; charbon de Nalaïkh, combinat de 1934 et liaison ferroviaire de 1939 non retrouvés (la version lue semble être l'édition de 1989, lecture partielle du scan)."
+  },
+  {
+   "id": "src-police-mongolie-khatgal-1934",
+   "statut": "ok",
+   "citation": "1934 онд Хатгал хотод ... хил гаалийг байцаан өнгөрүүлэх алба нэртэйгээр нэг офицер, гурван цагдаагийн бүрэлдэхүүнтэйгээр байгуулагдаж байжээ.",
+   "commentaire": "Un service de contrôle frontalier et douanier est attesté à Khatgal en 1934 (un officier, trois policiers) ; la continuité jusqu'en 1945 n'est pas établie."
+  },
+  {
+   "id": "src-archives-mourmansk-lena1933",
+   "statut": "non_verifiee",
+   "citation": "",
+   "commentaire": "WebFetch refuse l'accès au PDF (interdit par robots.txt), aucune affirmation vérifiable."
+  },
+  {
+   "id": "src-mofa-laine-mongolie",
+   "statut": "ok",
+   "citation": "Улаанбаатарын ноосны фабрикийг ашиглалтанд оруулав.",
+   "commentaire": "La chronologie mentionne la mise en service de la fabrique lainière d'Oulan-Bator (1942) et celle de l'usine de lavage de Khatgal (1933), sans date lue explicitement dans l'extrait."
+  },
+  {
+   "id": "src-montsame-bayantumen-nom",
+   "statut": "ok",
+   "citation": "1941 онд хүртэл Чойбалсан хотыг 'Баянтүмэн' гэж нэрлэдэг байв.",
+   "commentaire": "La page confirme que la ville de Tchoïbalsan s'appelait Bayan-Toumen jusqu'en 1941."
+  },
+  {
+   "id": "src-simukov-centres1933",
+   "statut": "non_verifiee",
+   "citation": "",
+   "commentaire": "WebFetch n'a livré que les pages 7-19 du PDF et non les pp. 61-64 visées ; aucun chef-lieu de 1933 n'a pu être vérifié."
+  },
+  {
+   "id": "src-zavkhan-histoire-institutionnelle",
+   "statut": "limite",
+   "citation": "1937 оны эцсээр аймгийн төв Жавхлант, Алдархаан зэрэг газар гар үйлдвэрийн артель хэд хэд байгуулагдаж 150 гаруй гишүүд",
+   "commentaire": "Création de l'aïmag en 1931, centre Djavkhlant et artels artisanaux de 1937 attestés, mais l'équivalence avec Ouliastaï et la portée industrielle ne sont pas établies par la page."
+  },
+  {
+   "id": "src-ganzam-dornod-1939",
+   "statut": "ok",
+   "citation": "Борзя өртөөнөөс Баянтүмэнд анхны галт тэрэг 1939 оны арваннэгдүгээр сарын 7-нд ... ирсэн байдаг.",
+   "commentaire": "Premier train Borzia-Bayan-Toumen le 7 nov. 1939 et ligne militaire vers Tamsagbulag construite en 1942 confirmés ; Solovievsk et Ereentsav non nommés dans l'extrait lu."
+  },
+  {
+   "id": "src-mas-mongolie-economie-guerre",
+   "statut": "limite",
+   "citation": "line between Ulaanbaatar-Sukhbaatar cities with 12 base stations (nov. 1942)",
+   "commentaire": "Transport hippomobile Oulan-Bator-Soukhbaatar (1942) et routes soviétiques vers Altanbulag, Naouchki et Tsagaan Nuur confirmés, mais les nuances de frontalier et de terminus ne sont qu'indirectement soutenues."
+  },
+  {
+   "id": "src-pacificwrecks-baintumen",
+   "statut": "limite",
+   "citation": "Built by Soviet Union during the early 1930s. Operational by at least 1936.",
+   "commentaire": "L'aérodrome militaire soviétique est attesté (années 1930, rôle en 1939 à Khalkhin Gol), mais la page ne montre pas la continuité en 1944-1945 ni le lien avec la ville de Tchoibalsan."
+  },
+  {
+   "id": "src-cambridge-choijamts-temoignage",
+   "statut": "ok",
+   "citation": "On 23 August, 1942 I went to the School of Officers.",
+   "commentaire": "Le témoin décrit l'école d'officiers à Oulan-Bator, avec l'ambiguïté 1942 (entrée) / 1943 (décret d'ouverture en septembre 1943) confirmée."
+  },
+  {
+   "id": "src-kherlen-ondorkhaan-histoire",
+   "statut": "ok",
+   "citation": "1931-1952 онд Хэнтий аймгийн төв",
+   "commentaire": "La page indique qu'Öndörkhaan était le centre (chef-lieu) de l'aimag de Khentii en 1931-1952."
+  },
+  {
+   "id": "src-altlib-chronologie-guerre",
+   "statut": "limite",
+   "citation": "24 ноября 1941 — на фронт отправлена первая партия патронов завода № 17",
+   "commentaire": "Confirmés : munitions et chaudières à Barnaoul, électrotechnique 1944 à Roubtsovsk, chaudronnerie Biisk 1942, presses Slavgorod ; mais l'entrée ferroviaire de mars 1941 ne concerne qu'un festival de cinéma, les tracteurs datent d'octobre 1941 et fours/chaussures/allumettes ne sont pas vus."
+  },
+  {
+   "id": "src-oldriver-navigation1929",
+   "statut": "ok",
+   "citation": "г. Барнаул ; г. Бийск ; г. Омск ; г. Тюмень ; г. Тобольск ; Колпашева",
+   "commentaire": "Les escales de Tomsk, Kolpachevo, Tioumen, Tobolsk, Barnaoul, Biisk et Omsk figurent aux tableaux 1929 ; Salekhard apparaît sous son ancien nom Obdorsk, donc l'escale est attestée sous ce nom."
+  },
+  {
+   "id": "src-novossibirsk-histoire1920-1940",
+   "statut": "lien_casse",
+   "citation": "",
+   "commentaire": "La page renvoie une erreur 404, donc le nœud ferroviaire de 1934 et le chef-lieu de 1937 n'ont pas pu être vérifiés."
+  },
+  {
+   "id": "src-novossibirsk-histoire1941-1945",
+   "statut": "ok",
+   "citation": "Авиационный завод им. В.П. Чкалова уже до войны стал серийным самолетостроительным предприятием, выпустил около 900 самолетов.",
+   "commentaire": "La page confirme la construction aéronautique avant-guerre (usine Tchkalov) et les premières livraisons au front dès fin 1941, sans mention explicite d'armement dans la citation."
+  },
+  {
+   "id": "src-oniip-omsk-1942",
+   "statut": "lien_casse",
+   "citation": "",
+   "commentaire": "La page renvoie une erreur 404, aucune vérification possible."
+  },
+  {
+   "id": "src-rechnoy-transport-guerre-ch9",
+   "statut": "limite",
+   "citation": "Хабаровский порт (начальник Л. М. Жуков). Хорошо справился с навигационным планом",
+   "commentaire": "Tobolsk et Khabarovsk sont confirmés pour le plan de navigation, mais pour Katangli seul un transport de 21,5 kt de pétrole est cité, sans que l'année 1942 ni l'extraction locale soient clairement établies."
+  },
+  {
+   "id": "src-rechnoy-transport-guerre-ch11",
+   "statut": "ok",
+   "citation": "В 1944 г. эти пристани были введены в эксплуатацию",
+   "commentaire": "La décision de décembre 1942 de bâtir des appontements pour le bois à Bely Yar, Narym, Mogotchino et Kojevnikovo est confirmée, avec mise en service en 1944."
+  },
+  {
+   "id": "src-omsk-bibliotheques-guerre",
+   "statut": "ok",
+   "citation": "15 марта 1942 года на Карельский фронт отправились ... бронепоезд «Сибиряк-барабинец», строительство которого велось в депо Барабинска.",
+   "commentaire": "Le train blindé de Barabinsk (mars 1942) et la distinction du conducteur du dépôt d'Omsk, N. F. Poliakov, par décret du 5 novembre 1943 sont confirmés."
+  },
+  {
+   "id": "src-bvrz-histoire",
+   "statut": "lien_casse",
+   "citation": "",
+   "commentaire": "La page renvoie une erreur 404, aucune vérification possible."
+  },
+  {
+   "id": "src-novoaltaisk-musee-histoire",
+   "statut": "ok",
+   "citation": "В 30-е годы прошлого века около станции Алтайская был построен Алтайский Деревообрабатывающий комбинат.",
+   "commentaire": "Station Altaïskaïa, combinat du bois des années 1930, usine évacuée de Dnipropetrovsk en 1941 et statut de ville en 1942 sont confirmés."
+  },
+  {
+   "id": "src-kemrsl-kouzbass-guerre",
+   "statut": "limite",
+   "citation": "7 января 1943 года в Новокузнецке был выдан первый сибирский алюминий",
+   "commentaire": "Radios de l'usine 842 en 1944 et aluminium de janvier 1943 confirmés, sidérurgie en général ; le passage Kisselevsk ne confirme pas la date du 6 juillet 1943 ni la mine 3 dans l'extrait lu."
+  },
+  {
+   "id": "src-kemrsl-anjero-mine1943",
+   "statut": "non_verifiee",
+   "citation": "",
+   "commentaire": "WebFetch a refusé la page (robots.txt, timeout), aucun contenu lu."
+  },
+  {
+   "id": "src-kouzbass-archives-catalogue2021",
+   "statut": "non_verifiee",
+   "citation": "",
+   "commentaire": "Le PDF a été lu seulement partiellement par WebFetch : aucun des passages visés (Kemerovo, Leninsk, Prokopievsk, Polysaïevo) n'a été retrouvé, donc non vérifié."
+  },
+  {
+   "id": "src-krasnoyarsk-port-histoire",
+   "statut": "limite",
+   "citation": "объединения нескольких баз и пристаней Красноярска",
+   "commentaire": "Port organisé le 1er avril 1934 confirmé ; en 1942 la page parle de la construction d'un nouveau port par le combinat de Norilsk, pas d'un agrandissement du port existant."
+  },
+  {
+   "id": "src-nornickel-rapport2020-histoire",
+   "statut": "ok",
+   "citation": "В 1942 году получен первый файнштейн ; в 1943 году ... открыт Цех электролиза никеля",
+   "commentaire": "Matte en 1942 et atelier d'électrolyse du nickel en 1943 à Norilsk confirmés."
+  },
+  {
+   "id": "src-nornickel-voie-etroite",
+   "statut": "ok",
+   "citation": "Первую узкоколейку длиной 113 км в рекордные сроки проложили от порта Дудинка до Норильска к 7 мая 1936 года.",
+   "commentaire": "La page confirme une voie étroite de 113 km Dudinka–Norilsk achevée en 1936 (utilisée jusqu'en 1952), soit une extrémité à chaque bout avant 1945."
+  },
+  {
+   "id": "src-abakan-developpement-local",
+   "statut": "ok",
+   "citation": "30 апреля 1931 г. с.Усть-Абаканское было переименовано в г.Абакан - центр Хакасской автономной области.",
+   "commentaire": "Confirmés : ouverture de la gare d'Abakan le 23 novembre 1925 (ligne Atchinsk–Abakan, 459 km), centre autonome en 1931 et premiers établissements industriels en 1932-1933."
+  },
+  {
+   "id": "src-musee-ienissei-igarka",
+   "statut": "non_verifiee",
+   "citation": "",
+   "commentaire": "WebFetch a refusé la page (ROBOTS_DISALLOWED), contenu non lu."
+  },
+  {
+   "id": "src-musee-ienissei-chronologie",
+   "statut": "non_verifiee",
+   "citation": "",
+   "commentaire": "WebFetch a refusé la page (ROBOTS_DISALLOWED), contenu non lu."
+  },
+  {
+   "id": "src-musee-ienissei-geographie",
+   "statut": "non_verifiee",
+   "citation": "",
+   "commentaire": "WebFetch a refusé la page (ROBOTS_DISALLOWED), contenu non lu."
+  },
+  {
+   "id": "src-musee-ienissei-kyzyl",
+   "statut": "non_verifiee",
+   "citation": "",
+   "commentaire": "WebFetch a refusé la page (ROBOTS_DISALLOWED), contenu non lu."
+  },
+  {
+   "id": "src-archives-touva-decret1944",
+   "statut": "limite",
+   "citation": "О преобразовании Малого Хурала трудящихся Тувинской Народной Республики в областной Совет депутатов трудящихся Тувинской автономной области",
+   "commentaire": "La notice confirme le décret du 13 octobre 1944 et la transformation des khourals locaux dont Kyzyl en conseils, mais sans passage détaillé sur le conseil municipal de Kyzyl."
+  },
+  {
+   "id": "src-rgo-alsib-saison1",
+   "statut": "limite",
+   "citation": "Аэропорт в Киренске выполнял функции запасного аэродрома и начал свою работу в 1942 году.",
+   "commentaire": "Confirmés : Krasnoïarsk (convoyage 1942), Ouelkal, Kirensk (1942), Markovo (bâtiment de 1942), Omolon (1943) ; Seimtchan et Zyrianka sans date 1942-43 précise, Iakoutsk sans détail ; Kirensk est qualifié de secours."
+  },
+  {
+   "id": "src-sever-aero-alsib-memoire",
+   "statut": "limite",
+   "citation": "By the beginning of the ferry in 1942, 10 airports were put into operation ... Aldan, Olekminsk, Oymyakon, Berelekh and Markowo",
+   "commentaire": "Aldan et Berelekh confirmés en 1942 ; Bodaibo, Oust-Maia et Anadyr cités parmi les aéroports, 16 au 1er novembre 1943 ; Tomtor et Teply Klioutch non retrouvés explicitement."
+  },
+  {
+   "id": "src-garb-bouriatie-guerre",
+   "statut": "ok",
+   "citation": "Задания ГКО заводом в ноябре 1941 года было выполнено на 114, а в декабре – на 109%",
+   "commentaire": "L'atelier ferroviaire d'Oulan-Oude produit pour la défense en nov.-déc. 1941 et l'usine aéronautique n° 99 fabrique des La-5 et La-7 en 1943-1944."
+  },
+  {
+   "id": "src-afonina-rail-1995",
+   "statut": "non_verifiee",
+   "citation": "",
+   "commentaire": "WebFetch n'a retourné que le début de l'ouvrage (jusqu'à 1884-1885), sans les tableaux ni les sections sibériennes demandées."
+  },
+  {
+   "id": "src-petrouchine-baikal-rail2015",
+   "statut": "limite",
+   "citation": "Он обслуживался строительным поездом № 34, который находился в Слюдянке.",
+   "commentaire": "Un train de chantier basé à Slioudianka est confirmé (numéroté 34 et non 12) ; Koultouk n'apparaît qu'avec des cantines provisoires en 1940, sans mention explicite de gare."
+  },
+  {
+   "id": "src-krasnoiarsk-mairie-histoire",
+   "statut": "ok",
+   "citation": "В 1934 году Красноярск стал административным центром края",
+   "commentaire": "Le chef-lieu de 1934 et l'effectif industriel de début 1941 (38 824 personnes) sont confirmés."
+  },
+  {
+   "id": "src-encyclopedie-transbaikalie-tchita",
+   "statut": "ok",
+   "citation": "С 15.9.1941 года в Чите находился штаб Забайкальского фронта",
+   "commentaire": "Chef-lieu depuis 1937, premier train en 1899, ligne aérienne 1933, état-major du front en 1941 et intégration de Tchernovskie Kopi en 1941 sont confirmés ; l'industrie citée date surtout de 1902-1905."
+  },
+  {
+   "id": "src-cheremkhovo-musee-maly-artem",
+   "statut": "ok",
+   "citation": "К промплощадке шахты «Малый Артем» были подведены железнодорожные пути от ветки Черемхово-Макарьево",
+   "commentaire": "Extraction de la mine en juin 1941 et décembre 1944 et embranchement ferroviaire confirmés ; le rattachement exact à la ville reste à vérifier."
+  },
+  {
+   "id": "src-irk-industrie2020",
+   "statut": "ok",
+   "citation": "в 1944 году на заводе смонтировали новую кислородную установку.",
+   "commentaire": "Dépôts en 1941, usines de munitions et équipement (Kouïbychev, n°394) de 1942 à 1944 sont attestés par l'article."
+  },
+  {
+   "id": "src-encyclopedie-transbaikalie-petrovsk",
+   "statut": "ok",
+   "citation": "В апр. 1940 выдана 1-я плавка заб. стали ... в июне 1941 – 1-й прокат",
+   "commentaire": "Train en 1900, centre de district en 1926, première coulée d'acier en avril 1940 et premier laminage en juin 1941 sont confirmés."
+  },
+  {
+   "id": "src-encyclopedie-transbaikalie-petrovsk-usine",
+   "statut": "ok",
+   "citation": "В 1940 выплавка стали 27,6 тыс. т, к 1945 возросла до 66,2 тыс. т.",
+   "commentaire": "La production d'acier de 1940 (27,6 kt) est attestée ; le chiffre de 1945 est à exclure."
+  },
+  {
+   "id": "src-chilka-mairie-histoire",
+   "statut": "non_verifiee",
+   "citation": "",
+   "commentaire": "WebFetch a refusé la page (erreur robots.txt), le contenu n'a pas pu être lu."
+  },
+  {
+   "id": "src-frus1944-grodekovo",
+   "statut": "ok",
+   "citation": "as Vladivostok was a military zone, as the harbor was mined",
+   "commentaire": "Vladivostok zone militaire fermée et note 84 sur Grodekovo à 97 km du nœud de Voroshilov Ussurysky confirmés ; l'ouverture de la voie en mai 1944 n'a pas été isolée explicitement dans la lecture."
+  },
+  {
+   "id": "src-archives-khabarovsk-administration2009",
+   "statut": "limite",
+   "citation": "Указ Президиума Верховного Совета СССР от 20 октября 1938 г",
+   "commentaire": "Seul Khabarovsk chef-lieu du kraï en 1938 est soutenu ; Kamtchatka, Bas-Amour, Birobidjan, Palana et le renommage de Vorochilov n'ont pas été trouvés dans le contenu lu (la préface exclut plusieurs oblasts sortis du kraï)."
+  },
+  {
+   "id": "src-aviationunion-knaaz90",
+   "statut": "non_verifiee",
+   "citation": "",
+   "commentaire": "WebFetch n'a renvoyé que menus et titres du site, sans le texte historique sur KnAAZ, R-6 ou DB-3/Il-4."
+  },
+  {
+   "id": "src-vedomosti-1942-34-rail",
+   "statut": "limite",
+   "citation": "машиниста паровозного депо Могоча Амурской ж. д.",
+   "commentaire": "Dépôts de Roubtsovka, Mogotcha, Skovorodino, Chimanovsk, station d'Erofei Pavlovitch et de Blagovechtchensk attestés par des affectations ; Belogorsk et Semeï non retrouvés dans la lecture."
+  },
+  {
+   "id": "src-rvio-ohka-guerre",
+   "statut": "limite",
+   "citation": "1 ноября 1942 года Правительственная комиссия приняла в промышленную эксплуатацию нефтепровод Оха – село Софийское",
+   "commentaire": "Okha (chef-lieu de district, pétrole), Ekhabi, Sofiisk et barges vers Komsomolsk confirmés ; le rôle pétrolier préexistant de Khabarovsk n'a pas été trouvé."
+  },
+  {
+   "id": "src-archives-primorie-spassk-ciment",
+   "statut": "faible",
+   "citation": "",
+   "commentaire": "La page lue est une liste d'expositions des archives du Primorié et ne mentionne ni la cimenterie de Spassk, ni l'ouverture de 1935, ni les bombes d'exercice de 1942."
+  },
+  {
+   "id": "src-dalpolimetall-histoire",
+   "statut": "ok",
+   "citation": "промышленная разработка месторождения началась с 1907 года ; Первый свинцовый концентрат фабрика выпустила в июне 1914 года",
+   "commentaire": "La page confirme l'extraction plomb-zinc et la concentration à Tetioukhe depuis 1907 et 1914, ainsi que la production pendant les quatre années de guerre."
+  },
+  {
+   "id": "src-dalguiprotrans-musee1936",
+   "statut": "ok",
+   "citation": "объекты локомотивного и вагонного хозяйства на станциях Уссурийск, Бикин, Ружино, Сковородино",
+   "commentaire": "Les installations de locomotives et wagons à Bikine et Roujino sont citées pour la période 1936-1940 ; rien sur Olga ni sur le périmètre urbain."
+  },
+  {
+   "id": "src-bse50-1944",
+   "statut": "non_verifiee",
+   "citation": "",
+   "commentaire": "WebFetch a échoué (413, PDF trop lourd), aucune notice n'a pu être lue."
+  },
+  {
+   "id": "src-dvgups-rail-ne2019",
+   "statut": "non_verifiee",
+   "citation": "",
+   "commentaire": "La page ne renvoie que « site en maintenance », aucun passage sur les lignes n'est lisible."
+  },
+  {
+   "id": "src-vishnevski-sakhaline2000",
+   "statut": "faible",
+   "citation": "",
+   "commentaire": "Le texte accessible est un répertoire biographique et militaire où WebFetch ne trouve ni terrains d'aviation de 1944 ni la voie Arkovo-Derbinskoïe ni Moskalvo."
+  },
+  {
+   "id": "src-bse36-lena1938",
+   "statut": "non_verifiee",
+   "citation": "",
+   "commentaire": "WebFetch refuse le domaine (cache-only), la notice Léna n'a pas pu être lue."
+  },
+  {
+   "id": "src-lena-bassin-histoire",
+   "statut": "non_verifiee",
+   "citation": "",
+   "commentaire": "WebFetch échoue (trop de redirections), le transfert de 1944 n'a pas pu être vérifié."
+  },
+  {
+   "id": "src-lensk-raion-histoire",
+   "statut": "limite",
+   "citation": "In the late 1930s, industrial enterprises appeared - forestry enterprises, wharves, the Peleduy shipyard, a salt works, and a steam mill.",
+   "commentaire": "Entreprises forestières et moulin à vapeur confirmés pour la fin des années 1930, mais ni le chef-lieu de 1934, ni l'année 1936, ni le rapport 1938–1939 ne sont retrouvés."
+  },
+  {
+   "id": "src-ks-providenia-dyga2022",
+   "statut": "faible",
+   "citation": "",
+   "commentaire": "L'URL renvoie une page d'accueil d'actualités récentes sans l'article sur la baie de la Providence, donc aucun soutien trouvé."
+  },
+  {
+   "id": "src-kazchrome-histoire",
+   "statut": "ok",
+   "citation": "Первый металл выдала печь «Комсомолка» (18 janvier 1943) ; 1938 : основан Донской ГОК ; 1940 : Начато строительство поселка горняков Хром-тау",
+   "commentaire": "Production de ferrochrome à Aktobe en janvier 1943, combinat de 1938 et construction du poste minier de Khromtau en 1940 confirmés (la page donne le 18 janvier)."
+  },
+  {
+   "id": "src-zik-petropavlovsk-histoire",
+   "statut": "ok",
+   "citation": "1941 жылы қарашада Иваново облысының Александров қаласынан зауыт ... Петропавл қаласына көшірілді ; 1942 жылдың ақпанында зауыт майданға алғашқы өнімін берді",
+   "commentaire": "Transfert d'Alexandrov en novembre 1941 et première production en février 1942 confirmés, avec fourniture de matériel radio pendant la guerre."
+  },
+  {
+   "id": "src-uzmetkombinat-histoire",
+   "statut": "ok",
+   "citation": "5 марта 1944 года из мартеновской печи №1 была получена первая плавка стали.",
+   "commentaire": "Le passage confirme la première coulée d'acier le 5 mars 1944 au combinat, ce qui soutient la production sidérurgique dès mars 1944 (le lien explicite avec Bekabad n'est pas cité dans l'extrait)."
+  },
+  {
+   "id": "src-shpl-admin1940",
+   "statut": "non_verifiee",
+   "citation": "",
+   "commentaire": "La page ne donne que des métadonnées bibliographiques (411 p.) sans texte des scans, donc aucune des affirmations administratives n'est vérifiable."
+  },
+  {
+   "id": "src-emba-histoire",
+   "statut": "ok",
+   "citation": "В 1922 году для освоения месторождений Доссор и Макат создается трест «Эмбанефть».",
+   "commentaire": "La chronologie confirme le trust EmbaNeft sur Dossor et Makat et son maintien pendant la guerre (800 000 t/an), la mécanisation des années 1930 étant évoquée via le pompage profond."
+  },
+  {
+   "id": "src-maxam-chirchiq-histoire",
+   "statut": "lien_casse",
+   "citation": "",
+   "commentaire": "WebFetch renvoie une erreur 404 pour cette URL, aucune vérification possible."
+  },
+  {
+   "id": "src-ualtaeva-petites-villes2011",
+   "statut": "faible",
+   "citation": "Образование в XVIII в. Риддера и Зыряновска связано с добычей полезных ископаемых",
+   "commentaire": "Le PDF est lisible mais l'outil n'y trouve ni plomb depuis 1927, ni renommage Leninogorsk 1941, ni statut de ville d'Altaï en 1941, seulement une mention générale de Ridder."
+  },
+  {
+   "id": "src-kaznu-plomb-chimkent2022",
+   "statut": "ok",
+   "citation": "в январе 1934 года Чимкентский Свинцовый завод был запущен",
+   "commentaire": "Le lancement de l'usine de plomb en janvier 1934 est confirmé, ainsi que des documents de 1937, 1941, 1942 et la baisse des accidents en 1943."
+  },
+  {
+   "id": "src-aztm-histoire",
+   "statut": "ok",
+   "citation": "Алматинский завод тяжёлого машиностроения был основан на базе эвакуированного Луганского паровозостроительного завода 17 ноября 1941 года.",
+   "commentaire": "Création le 17 novembre 1941 sur la base du matériel évacué de Lougansk et premier ordre militaire (bombes, mines, obus) confirmés."
+  },
+  {
+   "id": "src-uzelectroapparat-histoire",
+   "statut": "ok",
+   "citation": "осенью 1941 года из Харькова в Ташкент был эвакуирован завод «Электростанок»",
+   "commentaire": "Évacuation d'Elektrostanok de Kharkov à Tachkent à l'automne 1941 et envois au front dès début 1942 confirmés."
+  },
+  {
+   "id": "src-tm-musee-raffinerie2015",
+   "statut": "ok",
+   "citation": "История завода началась в 1942 году, когда ... было эвакуировано оборудование Туапсинского нефтеперерабатывающего завода.",
+   "commentaire": "Évacuation du matériel de Touapsé en 1942 et journal daté de 1943 mentionnant la première production confirmés (journal non consulté directement)."
+  },
+  {
+   "id": "src-bse40-mouinak1938",
+   "statut": "non_verifiee",
+   "citation": "",
+   "commentaire": "WebFetch refuse le domaine (« cache-only ») après deux tentatives ; page illisible par l'outil."
+  },
+  {
+   "id": "src-annaklychev-nebitdag1959",
+   "statut": "ok",
+   "citation": "В августе 1939 г. был организован Небитдагский нефтяной техникум ... в конце 1942 г. из Баку в Небит-Даг прибыло более 300 нефтяников",
+   "commentaire": "École technique pétrolière en août 1939 et arrivée de plus de 300 pétroliers de Bakou fin 1942 confirmées."
+  },
+  {
+   "id": "src-bse31-karabogaz1937",
+   "statut": "non_verifiee",
+   "citation": "",
+   "commentaire": "WebFetch n'a renvoyé que la coquille du lecteur pubhtml5 (liste de pages) sans le texte de l'entrée ; affirmations non vérifiables."
+  },
+  {
+   "id": "src-openkg-charbon1941-42",
+   "statut": "ok",
+   "citation": "в штольне «Капитальная» (Кок-Янгак) — на 26, 8%",
+   "commentaire": "Les quatre mines/bassins (Kapitalnaïa, Djal, mine n°3 Soulioukta, Tach-Koumyr février 1942) et le trust Kirgizugol 1942 sont confirmés."
+  },
+  {
+   "id": "src-vedomosti1941-6-kokyangak",
+   "statut": "limite",
+   "citation": "Зиновьева Игнатия Леонтьевича — машиниста врубовой машины рудника «Кок-Янгак», Джалал-Абадской области.",
+   "commentaire": "Un mineur (bmolodtchik) et un conducteur de machine d'abattage de Kok-Yangak sont confirmés, mais la notice d'un directeur de mine n'est pas clairement retrouvée (extraction du PDF confuse sur les noms)."
+  },
+  {
+   "id": "src-statkg-guerre2023",
+   "statut": "ok",
+   "citation": "В 1942 году вступил в строй Хайдарканский ртутный комбинат.",
+   "commentaire": "La mise en service du combinat de mercure de Haïdarkan en 1942 est confirmée."
+  },
+  {
+   "id": "src-aidarken-histoire",
+   "statut": "ok",
+   "citation": "1942-жылы Хайдаркан сымап комбинаты түзүлгөн. Анда иштеген эмгекчилердин Хайдаркан поселогу түзүлгөн.",
+   "commentaire": "Début de construction en juillet 1941 et constitution du combinat et du bourg ouvrier en 1942 sont confirmés."
+  },
+  {
+   "id": "src-bichkek-leninski-histoire",
+   "statut": "ok",
+   "citation": "к началу Великой Отечественной Войны на территории Ленинского района уже возникли крупнейшие заводы - сельскохозяйственного машиностроения им. Фрунзе",
+   "commentaire": "L'usine de machines agricoles Frounzé est citée parmi les grandes entreprises du district avant la guerre."
+  },
+  {
+   "id": "src-uzbekcoal-histoire",
+   "statut": "ok",
+   "citation": "Сдана в эксплуатацию шахта № 1 – первое в Узбекистане действующее предприятие по добыче угля",
+   "commentaire": "Mine n°1 en 1942 avec premier convoi vers Tachkent, deux mines supplémentaires en 1943 et production d'environ 100 000 t en 1944 sont confirmées."
+  },
+  {
+   "id": "src-kolesnikov-issykkul",
+   "statut": "limite",
+   "citation": "в 1926 году Спустили на воду ... Оба теплохода стоят у Пржевальской пристани ... от Рыбачьего до Пржевальска за 12-13 часов",
+   "commentaire": "La page confirme les premiers navires lancés en 1926, la jetée de Prjevalsk et la liaison Rybatchie–Prjevalsk, mais la formule « dès 1926 » pour la liaison et les quais de Balykchy ne sont qu'indirects."
+  },
+  {
+   "id": "src-shermatov-soie-stalinabad2021",
+   "statut": "limite",
+   "citation": "К концу 1942 года были построены первые ткацкие цеха, установлено более 200 единиц оборудования прибывшего из Москвы",
+   "commentaire": "Après redirection vers asiaplus.news, l'évacuation de 1941, les ateliers de tissage fin 1942 et l'activité de 1940 sont confirmés, mais l'inauguration de novembre 1932 n'est pas retrouvée dans l'extrait lu."
+  },
+  {
+   "id": "src-makhmadov-ressources-tadjikistan2020",
+   "statut": "non_verifiee",
+   "citation": "",
+   "commentaire": "WebFetch n'a lu que les pages d'ouverture du PDF (jusqu'à la p.37 environ), sans accès aux p.135-136 visées par le locator."
+  },
+  {
+   "id": "src-ttu-soie-leninabad2023",
+   "statut": "non_verifiee",
+   "citation": "",
+   "commentaire": "WebFetch n'a lu que le début du numéro (jusqu'à la p.21), sans accès aux p.27-28 sur l'atelier de dévidage de Khodjent."
+  },
+  {
+   "id": "src-archives-xinjiang-transports2025",
+   "statut": "limite",
+   "citation": "中国和苏联签订阿拉木图至哈密的《定期飞航合约》",
+   "commentaire": "Le contrat de vols réguliers Alma-Ata–Hami et l'axe nord depuis Alma-Ata sont confirmés, ainsi que l'aide soviétique de 1937-1941, mais la date de septembre 1939 n'apparaît pas dans l'extrait obtenu."
+  },
+  {
+   "id": "src-mn-bulgan1938",
+   "statut": "non_verifiee",
+   "citation": "",
+   "commentaire": "WebFetch a refusé la page (ROBOTS_DISALLOWED, échec de récupération de robots.txt), contenu non lu."
+  },
+  {
+   "id": "src-mn-arvaikheer1934",
+   "statut": "ok",
+   "citation": "1934 онд Өвөрхангай аймгийн төв бууриа сэлгэж одоогийн Арвайхээр хотод шилжин төвлөрч",
+   "commentaire": "Le passage confirme le déplacement du centre provincial vers l'actuelle Arvaïkheer en 1934."
+  },
+  {
+   "id": "src-mn-baruunurt1943",
+   "statut": "ok",
+   "citation": "1943 оны 2 дугаар сарын 20-ны өдрийн 8 дугаар тогтоолоор ... аймгийн төвийг Баруун-Урт голын зүүн дэнжид суурьшуулж",
+   "commentaire": "Résolution n°8 du 20 février 1943 et installation du chef-lieu sur la terrasse orientale confirmées ; le fonctionnement des organes provinciaux n'a pas été cité explicitement."
+  },
+  {
+   "id": "src-mn-mandalgovi1942",
+   "statut": "ok",
+   "citation": "Мөн онд тус аймгийн төвийг нүүлгэж, одоогийн байгаa газарт буюу Зоогийн хар овооны энгэрт суурьшсан",
+   "commentaire": "Création à Embüü Dersen Us en mars 1942 puis déplacement la même année au pied de Zoogiin Khar Ovoo confirmés ; WebFetch donne toutefois l'ancien site au nord du soum d'Ölziit (et 46 km au nord), pas au sud, à vérifier avant import."
+  },
+  {
+   "id": "src-mn-zuunmod1942",
+   "statut": "ok",
+   "citation": "Төв аймгийн төвийг 1942 онд Улаанбаатараас нүүлгэн одоогийн байгаа газарт байгуулжээ.",
+   "commentaire": "Déplacement du centre provincial depuis Oulan-Bator en 1942 confirmé ; la page situe la ville à environ 7 km au sud des ruines de Manzushir."
+  },
+  {
+   "id": "src-mn-altai1942",
+   "statut": "non_verifiee",
+   "citation": "",
+   "commentaire": "WebFetch refusé (erreur de certificat SSL, nom d'hôte non valide), page non lue."
+  },
+  {
+   "id": "src-mn-olgii1940",
+   "statut": "non_verifiee",
+   "citation": "",
+   "commentaire": "WebFetch refusé (erreur de certificat SSL, nom d'hôte non valide), page non lue."
+  },
+  {
+   "id": "src-mn-bayankhongor-deplacements",
+   "statut": "non_verifiee",
+   "citation": "",
+   "commentaire": "WebFetch refuse l'ouverture (certificat SSL invalide pour le domaine, robots.txt illisible) : affirmation non vérifiée."
+  },
+  {
+   "id": "src-tomsk-bibliotheque-industrie",
+   "statut": "non_verifiee",
+   "citation": "",
+   "commentaire": "WebFetch échoue avec 'Too many redirects' : page illisible, usine de 1942 non vérifiée."
+  },
+  {
+   "id": "src-khakassie-bibliotheque-industrie",
+   "statut": "limite",
+   "citation": "Шахта № 3; Шахта № 7; Шахта № 8; Шахта № 13",
+   "commentaire": "Les mines 3, 7, 8 et 13 du trust Khakassougol figurent dans l'inventaire de novembre 1943, mais aucune production de la mine 15 en 1943 n'a été trouvée."
+  },
+  {
+   "id": "src-bse3-turtkul-deplacement",
+   "statut": "ok",
+   "citation": "В связи с подмывом правого берега Амударьи Т. в 1949 перенесён на новое место.",
+   "commentaire": "Le transfert de Tourtkoul en 1949 à cause de l'érosion de la rive de l'Amou-Daria est confirmé."
+  },
+  {
+   "id": "src-bre-babouchkine1941",
+   "statut": "non_verifiee",
+   "citation": "",
+   "commentaire": "WebFetch reçoit une erreur 401 : notice inaccessible, renommage de 1941 non vérifié."
+  },
+  {
+   "id": "src-rosmorport-arctique-histoire",
+   "statut": "lien_casse",
+   "citation": "",
+   "commentaire": "WebFetch reçoit une erreur 404 sur cette URL : contenu historique non vérifiable."
+  },
+  {
+   "id": "src-karelia-patrimoine-guerre-1941-1945",
+   "statut": "non_verifiee",
+   "citation": "",
+   "commentaire": "WebFetch n'a restitué que la partie du texte jusqu'à 1942-1943 ; les passages de juin et d'octobre 1944 n'ont pas été atteints."
+  },
+  {
+   "id": "src-belomorsk-bibliotheque-gare-2024",
+   "statut": "non_verifiee",
+   "citation": "",
+   "commentaire": "Le PDF a été lu de façon partielle et incohérente (décembre 1940, 1955, 1995) ; la rubrique du 29 décembre 1915 et la notice de la gare Soroka n'ont pas été retrouvées."
+  },
+  {
+   "id": "src-rushydro-ouglitch-histoire-2015",
+   "statut": "non_verifiee",
+   "citation": "",
+   "commentaire": "WebFetch a renvoyé un autre contenu (article sans rapport daté de 2026), l'article sur Ouglitch n'a donc pas pu être lu."
+  },
+  {
+   "id": "src-musee-pobedy-sverdlovsk-production-1944",
+   "statut": "lien_casse",
+   "citation": "",
+   "commentaire": "WebFetch a renvoyé une erreur 404 pour cette URL."
+  },
+  {
+   "id": "src-bashenc-tchernikovsk-1944",
+   "statut": "lien_casse",
+   "citation": "",
+   "commentaire": "WebFetch a renvoyé une erreur 404 pour cette URL."
+  },
+  {
+   "id": "src-jdv-tome3-bielorussie-1944",
+   "statut": "non_verifiee",
+   "citation": "",
+   "commentaire": "WebFetch n'a lu que le début du chapitre VII (jusqu'aux opérations baltes) et n'a pas atteint les passages sur Grodno, Jlobine–Bobrouïsk et Brest."
+  },
+  {
+   "id": "src-grodno-encyclopedie-1989-1944",
+   "statut": "non_verifiee",
+   "citation": "",
+   "commentaire": "WebFetch n'a livré que le début de l'ouvrage (jusqu'en 1883) : le passage « С 20.9.1944 » et les 17 entreprises n'ont pas pu être lus."
+  },
+  {
+   "id": "src-sebastopol-musee-reconstruction-1944",
+   "statut": "lien_casse",
+   "citation": "",
+   "commentaire": "WebFetch renvoie une erreur 404 pour cette URL, aucune vérification possible."
+  },
+  {
+   "id": "src-kichinev-ordre-173-19440824",
+   "statut": "limite",
+   "citation": "столицей Молдавской ССР городом Кишинев – важным узлом коммуникаций",
+   "commentaire": "Le texte désigne bien Kichinev comme capitale de la RSS moldave (et nœud de communications), mais rien n'a été vu sur l'administration."
+  },
+  {
+   "id": "src-jdv-tome3-carpates-kertch-1944",
+   "statut": "non_verifiee",
+   "citation": "",
+   "commentaire": "WebFetch n'a restitué que la partie jusqu'à fin 1943 ; le télégramme de Kertch et la section « В Карпатах » n'ont pas pu être lus."
+  },
+  {
+   "id": "src-rosmorport-taganrog-reparation-1943",
+   "statut": "lien_casse",
+   "citation": "",
+   "commentaire": "WebFetch renvoie une erreur 404 pour cette URL, aucune vérification possible."
+  },
+  {
+   "id": "src-soumy-frunze-avril-1944",
+   "statut": "ok",
+   "citation": "Д. Бородин, главный инженер завода. «Більшовицька зброя», 1944, 15 апреля, № 61.",
+   "commentaire": "Page web toujours illisible (métadonnées seules) ; Claude a lu l'image de la page imprimée 353 du recueil sauvegardée par Ether : remise en route de l'usine (énergie, fonderie) et signature D. Borodine, ingénieur en chef, confirmées. Jour (15 ou 16 avril) toujours en réserve (R15-26)."
+  }
+ ]
+}

@@ -6,6 +6,7 @@ Données : proposition JSON d'Ether du 02/10/2026, déjà au format du gabarit
 réserves R15-01 à R15-36 : villes_1-5_europe_orientale_reserves_ether.md).
 Positions : Wikidata (CC0) pour 195 villes, recoupées par requête SPARQL (outils/villes/wikidata_ratissage_1_5.json) ;
 GeoNames (CC BY 4.0) pour 5 villes (Ivanovo, Rodniki, Teïkovo, Kokhma, Tchernikovsk), repères actuels proposés par Ether (R15-17, R15-28).
+v0.2 (03/10/2026) : mêmes données, mentions de preuve recalculées après les réponses d'Ether (cycle 2).
 Relancer : python outils/villes/construire_villes_1_5.py (depuis la racine du dépôt).
 """
 import json, pathlib, copy
@@ -64,7 +65,7 @@ for v in PROPOSITION['entites']:
 lot = {
   'metadata_lot': {
     'nom': 'snapshot0_villes_1-5_europe_orientale', 'date_reference': '1945-01-01', 'heure_reference': '00:00',
-    'version': '0.1', 'statut': 'integre_par_claude', 'gabarit_source': 'gabarits/gabarit_entite_temporelle_atlas.json',
+    'version': '0.2', 'statut': 'integre_par_claude', 'gabarit_source': 'gabarits/gabarit_entite_temporelle_atlas.json',
     'zone': PROPOSITION['metadata_lot']['zone'],
     'limites_ether': PROPOSITION['metadata_lot']['limites'],
     'reserves_ether': 'R15-01 à R15-36 (data/snapshot0/villes_1-5_europe_orientale_reserves_ether.md), revue finale 1.x',
@@ -73,7 +74,8 @@ lot = {
       "Positions : Wikidata pour 195 villes (QID et coordonnées recoupés par Claude, écart nul, pays actuel concordant) ; GeoNames pour 5 repères actuels (R15-17, R15-28).",
       "Capitales : Moscou nationale ; Minsk, Kiev, Kichinev, Petrozavodsk régionales (capitales de RSS, convention du journal du 01/10) ; attribut « regionale » non appliqué aux 15 chefs-lieux d'oblast ou de RSSA proposés par Ether (convention non établie, Q15-02).",
       "Preuves : mention « (non vérifiée par Claude) » ou « (lecture partielle) » selon la relecture de Claude ; « À renforcer » = rôles sans aucune preuve confirmée.",
-      "Tilsit, Insterburg, Gumbinnen, Ragnit et Béjitsa : roles vide, tel que proposé (R15-07)."]},
+      "Tilsit, Insterburg, Gumbinnen, Ragnit et Béjitsa : roles vide, tel que proposé (R15-07).",
+      "v0.2 (03/10/2026, réponses d'Ether cycle 2) : aucune donnée de ville modifiée ; mentions de preuve recalculées d'après le registre v1.18 (Soumy confirmée sur la page 353 du recueil ; six sources Q15-03 passent de « faible » à « non vérifiée », l'outil de Claude n'ayant lu que le début des pages)."]},
   },
   'entites': entites,
 }

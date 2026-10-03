@@ -19,13 +19,27 @@ QUESTIONS_CLAUDE = {
          "Rien n'est affiché comme capitale pour ces 15 villes ; leurs rôles administratifs et leurs preuves sont gardés dans la fiche.",
          "Aucune capitale pour les chefs-lieux ; « régionale » pour tous les chefs-lieux (à appliquer aussi aux lots déjà faits : Gaue allemands, voïvodies…) ; un nouveau type « chef-lieu » plus discret."),
         ('Q15-03 — Sources à remplacer (liens morts ou passage introuvable)',
-         "5 liens morts (Arkhangelsk/Kandalakcha/Severodvinsk, Sverdlovsk, Tchernikovsk, Sébastopol, Taganrog) et 6 passages introuvables sur la page citée (Carélie, Belomorsk, Ouglitch, deux tomes militaires sur 1944, Grodno).",
+         "5 liens morts (Arkhangelsk/Kandalakcha/Severodvinsk, Sverdlovsk, Tchernikovsk, Sébastopol, Taganrog) et 6 pages que l'outil de Claude ne lit qu'en partie (Carélie, Belomorsk, Ouglitch, deux tomes militaires sur 1944, Grodno). Le 03/10, Ether a retrouvé les passages dans son navigateur ; la relecture de Claude bute toujours sur les mêmes pages. Soumy est désormais confirmée (page 353 du recueil).",
          "Les rôles concernés restent marqués « À renforcer » dans les fiches.",
-         "Ether cherche d'autres sources ; ou on garde la réserve visible."),
+         "Accepter la lecture d'Ether pour ces 11 sources ; Ether fournit des copies lisibles (images de pages) ; ou on garde la réserve visible."),
         ('Q15-04 — Noms des villes de Biélorussie',
          "Certaines fiches ont le nom français (Gomel, Moguilev), d'autres la forme biélorusse (Baryssaw, Stawbtsy).",
          "Rien n'a été changé.",
          "Règle « nom français attesté d'abord, sinon forme locale » comme ailleurs ; ou garder tel quel."),
+    ],
+    'villes_1-6': [
+        ('Q16-01 — Sources du lot 1.6 à remplacer ou préciser',
+         "6 liens morts (Rosmorport Primorié et Petropavlovsk, histoire de Novossibirsk 1920-1940, ONIIP Omsk 1942, usine BVRZ, Maxam Tchirtchik) et 6 pages lisibles où le passage cité n'a pas été trouvé (Vayner ch. 4, Mongolie LoC 1991, archives du Primorié sur Spassk, Vichnevski Sakhaline 2000, Providenia 2022, petites villes du Kazakhstan 2011).",
+         "Les rôles concernés restent marqués « À renforcer ».",
+         "Ether donne une autre source ou l'adresse exacte du passage ; ou on garde la réserve visible."),
+        ('Q16-02 — Répertoires administratifs illisibles pour Claude',
+         "Les répertoires officiels de 1940, 1941 (Tadjikistan, Turkménistan) et le supplément de 1944 sont de gros PDF ou des pages de bibliothèque que l'outil de Claude ne lit pas. Claude a lu lui-même deux pages du supplément de 1944 (Astrakhan, Kemerovo et le Kouzbass) : elles concordent avec Ether.",
+         "225 des 254 villes du lot gardent au moins un rôle « À renforcer » (surtout rail et administration), sans que la fonction soit mise en doute.",
+         "Ether indique pour chaque ville l'adresse de l'image de la page (comme pour le supplément de 1944) ; ou on accepte ces répertoires comme preuve sur la lecture d'Ether."),
+        ("Q16-03 — Noms « de 1945 » qui ne sont qu'une autre transcription",
+         "Sur les 89 villes du lot affichées sous un nom de 1945, une cinquantaine ne changent que l'orthographe (Tokmok/Tokmak, Farap/Farab, Kara-Suu/Kara-Sou, Balkhash/Balkhach…) ; plusieurs fiches portent une forme locale ou anglaise plutôt que française (Sulukta, Baýramaly, Yangiyo‘l, Mandalgovĭ, Nalayh). Les vrais changements de nom (Frounzé, Stalinabad, Alma-Ata, Stalinsk, Akmolinsk, Djibkhalantou…) sont bien prouvés à part.",
+         "Gardé tel que proposé par Ether ; seules Nikolaïevsk et Komsomolsk-sur-l'Amour (différence d'apostrophe) ne sont plus affichées comme renommées.",
+         "Une règle unique de transcription française pour toute la série (comme Q15-04) : la fiche prend la forme française, et le nom de 1945 n'est affiché que s'il s'agit d'un autre nom ; ou garder tel quel."),
     ],
 }
 
@@ -59,6 +73,10 @@ def lire_reserves(fichier):
 REGISTRE = {x['source_id']: x for x in json.load(open(RACINE / 'data/sources/atlas_registre_sources.json', encoding='utf-8'))['sources']}
 # Sources citées par leur nom dans les réserves des lots 1.3/1.4 (sans identifiant écrit) : renvoi manuel
 CITEES = {
+    'Q15-02': ['src-neb-admin1944-supplement'],
+    'Q15-03': ['src-rosmorport-arctique-histoire', 'src-musee-pobedy-sverdlovsk-production-1944', 'src-bashenc-tchernikovsk-1944', 'src-sebastopol-musee-reconstruction-1944', 'src-rosmorport-taganrog-reparation-1943', 'src-karelia-patrimoine-guerre-1941-1945', 'src-belomorsk-bibliotheque-gare-2024', 'src-rushydro-ouglitch-histoire-2015', 'src-jdv-tome3-bielorussie-1944', 'src-jdv-tome3-carpates-kertch-1944', 'src-grodno-encyclopedie-1989-1944', 'src-soumy-frunze-avril-1944'],
+    'Q16-01': ['src-rosmorport-primorie-histoire', 'src-rosmorport-petropavlovsk-histoire', 'src-novossibirsk-histoire1920-1940', 'src-oniip-omsk-1942', 'src-bvrz-histoire', 'src-maxam-chirchiq-histoire', 'src-vayner-transport-guerre-ch4', 'src-loc-mongolie-1991', 'src-archives-primorie-spassk-ciment', 'src-vishnevski-sakhaline2000', 'src-ks-providenia-dyga2022', 'src-ualtaeva-petites-villes2011'],
+    'Q16-02': ['src-shpl-admin1940', 'src-sssr-admin1941-kirghizistan', 'src-sssr-admin1941-tadjikistan', 'src-sssr-admin1941-turkmenistan', 'src-neb-admin1944-supplement'],
     'Q13-02': ['src-13-protectorat-velcovsky-langues'], 'Q13-03': ['src-13-hu-szalasi-koszeg-neb-1944'],
     'R15-01': ['src-rosmorport-baltique-histoire', 'src-spb-chenal-mines-2016'], 'R15-02': ['src-rosmorport-baltique-histoire'],
     'R15-20': ['src-nkvd-bielorussie-rapport-19440727'], 'R15-21': ['src-kovalev-rail-ukraine-moldavie-1944'], 'Q13-04': ['src-13-most-carte-municipale-1938', 'src-13-cz-most-histoire'],
@@ -139,8 +157,10 @@ for lot in lots:
     for titre, sait, change, choix in qc:
         total += 1
         out += [f"### {titre} *(question de Claude)*", "", f"- **Ce qu'on sait** : {sait}",
-                f"- **Ce que ça change sur la carte** : {change}", f"- **Choix possibles** : {choix}",
-                "- **Décision de Guizmo** : …", ""]
+                f"- **Ce que ça change sur la carte** : {change}", f"- **Choix possibles** : {choix}"]
+        sl = sources_liees(' '.join([titre, sait, change, choix]), titre.split(' ')[0], idx)
+        if sl: out += ["- **Sources liées** (cliquer pour ouvrir) :"] + sl
+        out += ["- **Décision de Guizmo** : …", ""]
 ar = a_renforcer()
 out += ["## Villes marquées « À renforcer » (rappel)", "",
         "Ce ne sont pas des décisions à prendre : ce sont des rôles (port, rail, industrie…) dont aucune preuve n'a encore été confirmée par la relecture de Claude. Ils se consolident au fil des lots et de la page « Sources à valider ».", "",

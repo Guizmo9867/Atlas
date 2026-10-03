@@ -1,46 +1,46 @@
 {
- "genere_le": "2026-10-02 18:25",
+ "genere_le": "2026-10-03 10:22",
  "snapshot0": {
   "date_representee": "1945-01-01 00:00 (dernier état connu avant)",
   "territoires": 74,
   "lignes_de_front": 4,
   "frontieres_tracees": 1,
   "geometries": 77,
-  "villes": 525,
+  "villes": 779,
   "villes_par_rang": {
-   "A": 36,
-   "B": 316,
-   "C": 173
+   "A": 49,
+   "B": 370,
+   "C": 360
   },
   "capitales": {
-   "nationale": 18,
-   "regionale": 11,
+   "nationale": 19,
+   "regionale": 16,
    "territoire": 4
   },
-  "villes_avec_nom_de_1945_different": 92,
-  "villes_avec_reserve_a_renforcer": 161,
+  "villes_avec_nom_de_1945_different": 181,
+  "villes_avec_reserve_a_renforcer": 385,
   "roles_de_villes": {
-   "rail": 357,
-   "industrie": 196,
-   "port_maritime": 120,
-   "port_fluvial": 57,
-   "administration": 46,
-   "capitale": 39,
-   "frontalier": 31,
-   "militaire": 25,
+   "rail": 514,
+   "industrie": 254,
+   "administration": 158,
+   "port_maritime": 138,
+   "port_fluvial": 85,
+   "capitale": 48,
+   "frontalier": 33,
+   "aviation": 29,
+   "militaire": 28,
+   "charbon": 21,
    "ferry": 15,
-   "aviation": 12,
-   "base_navale": 11,
-   "siderurgie": 11,
-   "charbon": 10,
-   "construction_navale": 10,
+   "siderurgie": 15,
+   "base_navale": 13,
+   "construction_navale": 12,
+   "minerai": 11,
    "navigation_cotiere": 8,
-   "minerai": 7,
    "detroit": 6,
    "transatlantique": 4,
-   "base_sous_marine": 2,
-   "peche": 2,
-   "quartier_general": 1
+   "peche": 4,
+   "base_sous_marine": 3,
+   "quartier_general": 2
   },
   "lots_frontieres": [
    {
@@ -145,7 +145,7 @@
    },
    {
     "fichier": "villes_1-5_europe_orientale.json",
-    "version": "0.1",
+    "version": "0.2",
     "zone": [
      "Russie européenne et Oural",
      "Biélorussie",
@@ -156,31 +156,42 @@
     "entites": {
      "ville": 200
     }
+   },
+   {
+    "fichier": "villes_1-6_asie_sovietique_mongolie.json",
+    "version": "0.1",
+    "zone": [
+     "URSS asiatique hors Caucase",
+     "Mongolie"
+    ],
+    "entites": {
+     "ville": 254
+    }
    }
   ]
  },
  "sources": {
-  "registre_version": "1.17",
-  "total": 594,
+  "registre_version": "1.19",
+  "total": 707,
   "relecture_claude": {
-   "ok": 406,
-   "limite": 77,
-   "non_verifiee": 90,
+   "ok": 454,
+   "limite": 100,
+   "non_verifiee": 126,
    "faible": 11,
-   "lien_casse": 10
+   "lien_casse": 16
   },
   "niveaux": {
-   "A": 99,
-   "B": 475,
-   "C": 20
+   "A": 111,
+   "B": 565,
+   "C": 31
   },
-  "en_attente_de_validation_humaine": 188,
+  "en_attente_de_validation_humaine": 253,
   "validees_par_guizmo": 0
  },
  "historique": {
-  "envois_github": 28,
+  "envois_github": 32,
   "premier_envoi": "2026-09-28",
-  "dernier_envoi": "2026-10-02",
+  "dernier_envoi": "2026-10-03",
   "depot_public": "https://github.com/Guizmo9867/Atlas"
  }
 }

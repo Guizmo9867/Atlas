@@ -1,6 +1,6 @@
 # Atlas — réserves et points à trancher (série villes 1.x)
 
-*Généré automatiquement le 03/10/2026 à 07 h 50 par Claude, à partir des fichiers de réserves d'Ether et des comptes rendus de Claude. Régénéré à chaque lot.*
+*Généré automatiquement le 03/10/2026 à 10 h 20 par Claude, à partir des fichiers de réserves d'Ether et des comptes rendus de Claude. Régénéré à chaque lot.*
 
 ## Comment s'en servir
 
@@ -381,7 +381,7 @@ Statut : réserve — revue finale 1.x. S144–S145 distinguent voies et ponts r
 Statut : réserve — revue finale 1.x. S147, pp.293–294, rapporte un télégramme du 26 décembre 1944 : tempête, dégâts et travaux encore nécessaires. L’ouverture antérieure du pont ne démontre donc pas sa disponibilité au Snapshot. Impact : Kertch garde le rail local documenté par S142 ; aucune traversée continue du détroit n’est validée. Choix : journal d’exploitation ou de réparations, ou maintien de la réserve. Les passages temporaires du liman du Dniestr et de Trikhaty en 1944 ne sont pas prolongés au 1er janvier non plus.
 
 - **Sources liées** (cliquer pour ouvrir) :
-  - [Troupes ferroviaires de Russie, tome 3 : Carpates et pont de Kertch](https://militera.lib.ru/h/zheleznodorozhnye_voyska_rossii/26.html) — `src-jdv-tome3-carpates-kertch-1944` (ne prouve pas bien)
+  - [Troupes ferroviaires de Russie, tome 3 : Carpates et pont de Kertch](https://militera.lib.ru/h/zheleznodorozhnye_voyska_rossii/26.html) — `src-jdv-tome3-carpates-kertch-1944` (illisible pour Claude)
   - [Kertch : reconstruction 1944–1950, premiers services rétablis](https://kerchmuseum.ru/ru/publish/kerch-19441950-gody-vosstanovlenie-nachalo.html) — `src-kertch-musee-reconstruction-1944` (confirmée par Claude)
 - **Décision de Guizmo** : …
 
@@ -390,7 +390,7 @@ Statut : réserve — revue finale 1.x. S147, pp.293–294, rapporte un télégr
 Statut : réserve — revue finale 1.x. S147–S148 attestent les tronçons restaurés et l’arrivée du 24 décembre à Moukatchevo ; le pont de la Tisza est traité sans date de mise en service exploitable. Les noms slaves des récits sont attestés, mais ne tranchent pas les usages administratifs hongrois, tchécoslovaques et locaux de fin 1944. Impact : rôle rail borné, aucun frontalier ni changement territorial ; noms transcrits des sources proposés avec cette limite, nom_local absent. Choix : maintenir ces formes documentaires ou établir une règle d’affichage sur actes contemporains lors de la revue.
 
 - **Sources liées** (cliquer pour ouvrir) :
-  - [Troupes ferroviaires de Russie, tome 3 : Carpates et pont de Kertch](https://militera.lib.ru/h/zheleznodorozhnye_voyska_rossii/26.html) — `src-jdv-tome3-carpates-kertch-1944` (ne prouve pas bien)
+  - [Troupes ferroviaires de Russie, tome 3 : Carpates et pont de Kertch](https://militera.lib.ru/h/zheleznodorozhnye_voyska_rossii/26.html) — `src-jdv-tome3-carpates-kertch-1944` (illisible pour Claude)
   - [Cheminots pendant la Grande Guerre patriotique : restauration dans les Carpates](https://modernlib.net/books/konarev_n/zheleznodorozhniki_v_velikoy_otechestvennoy_voyne_19411945/read_22/) — `src-konarev-carpates-1944` (confirmée par Claude)
 - **Décision de Guizmo** : …
 
@@ -399,7 +399,7 @@ Statut : réserve — revue finale 1.x. S147–S148 attestent les tronçons rest
 Statut : réserve — revue finale 1.x. S152, document 238 pp.352–353, titre daté du 16 avril 1944 mais référence au journal du 15 avril n°61. Impact : seul le mois d’avril est retenu ; aucun jour exact introduit. Choix : conserver la précision mensuelle ou consulter le numéro original. La divergence n’invalide pas l’activité industrielle antérieure au Snapshot.
 
 - **Sources liées** (cliquer pour ouvrir) :
-  - [Usine Frounzé de Soumy : article de D. Borodine, avril 1944](https://docs.historyrussia.org/ru/nodes/310136) — `src-soumy-frunze-avril-1944` (lecture partielle)
+  - [Usine Frounzé de Soumy : article de D. Borodine, avril 1944](https://docs.historyrussia.org/ru/nodes/310136) — `src-soumy-frunze-avril-1944` (confirmée par Claude)
 - **Décision de Guizmo** : …
 
 ### R15-27 — Inta et Poliarny : dates administratives et fondatrices
@@ -467,7 +467,7 @@ Preuves : src-omsk-veterans-rjev-reconstruction-1943 établit des travaux, pas u
 Preuves : src-jdv-tome3-carpates-kertch-1944 distingue Lavotchne et Volovets des terminus et grands centres de transit. Leur localisation comme stations est documentée ; une sélection de peuplement distinct et un repère urbain ne sont pas encore garantis. Impact : ces deux fiches sont différées, liaison représentée par Stryï, Moukatchevo, Tchop et Oujgorod ; R15-21 conserve aussi Grechany, Slobodka et Kolosovka. Choix : marqueurs séparés si leur peuplement/centralité est établi, ou maintien comme contexte de corridor, sans créer des gares autonomes dans ce lot.
 
 - **Sources liées** (cliquer pour ouvrir) :
-  - [Troupes ferroviaires de Russie, tome 3 : Carpates et pont de Kertch](https://militera.lib.ru/h/zheleznodorozhnye_voyska_rossii/26.html) — `src-jdv-tome3-carpates-kertch-1944` (ne prouve pas bien)
+  - [Troupes ferroviaires de Russie, tome 3 : Carpates et pont de Kertch](https://militera.lib.ru/h/zheleznodorozhnye_voyska_rossii/26.html) — `src-jdv-tome3-carpates-kertch-1944` (illisible pour Claude)
 - **Décision de Guizmo** : …
 
 ### R15-35 — Vladimir, mois de première production de tracteurs
@@ -494,13 +494,28 @@ Les preuves locales et textes constitutionnels établissent les fonctions de cap
 - **Ce qu'on sait** : Ether proposait « capitale régionale » pour 15 chefs-lieux d'oblast ou capitales de républiques autonomes (Kazan, Oufa, Simferopol, Grodno…). Claude ne l'a pas appliqué : aucune règle ne couvre ce cas, et d'autres chefs-lieux du même lot (Briansk, Kharkiv, Odessa, Lviv) ne l'avaient pas.
 - **Ce que ça change sur la carte** : Rien n'est affiché comme capitale pour ces 15 villes ; leurs rôles administratifs et leurs preuves sont gardés dans la fiche.
 - **Choix possibles** : Aucune capitale pour les chefs-lieux ; « régionale » pour tous les chefs-lieux (à appliquer aussi aux lots déjà faits : Gaue allemands, voïvodies…) ; un nouveau type « chef-lieu » plus discret.
+- **Sources liées** (cliquer pour ouvrir) :
+  - [Supplément au répertoire administratif de l’URSS — changements du 01/01/1941 au 01/10/1944](https://kp.rusneb.ru/item/material/dopolnenie-k-spravochniku-administrativno-territorialnoe-delenie-soyuznyh-respublik-vypuska-1941-g-izmeneniya-proizoshedshie-za-period-s-1-yanvarya-1941-g-po-1-oktyabrya-1944-g-informacionno-statisticheskij-otdel-pri-sekretariate-prezidiuma-verhovnogo-soveta-sssr) — `src-neb-admin1944-supplement` (lecture partielle)
 - **Décision de Guizmo** : …
 
 ### Q15-03 — Sources à remplacer (liens morts ou passage introuvable) *(question de Claude)*
 
-- **Ce qu'on sait** : 5 liens morts (Arkhangelsk/Kandalakcha/Severodvinsk, Sverdlovsk, Tchernikovsk, Sébastopol, Taganrog) et 6 passages introuvables sur la page citée (Carélie, Belomorsk, Ouglitch, deux tomes militaires sur 1944, Grodno).
+- **Ce qu'on sait** : 5 liens morts (Arkhangelsk/Kandalakcha/Severodvinsk, Sverdlovsk, Tchernikovsk, Sébastopol, Taganrog) et 6 pages que l'outil de Claude ne lit qu'en partie (Carélie, Belomorsk, Ouglitch, deux tomes militaires sur 1944, Grodno). Le 03/10, Ether a retrouvé les passages dans son navigateur ; la relecture de Claude bute toujours sur les mêmes pages. Soumy est désormais confirmée (page 353 du recueil).
 - **Ce que ça change sur la carte** : Les rôles concernés restent marqués « À renforcer » dans les fiches.
-- **Choix possibles** : Ether cherche d'autres sources ; ou on garde la réserve visible.
+- **Choix possibles** : Accepter la lecture d'Ether pour ces 11 sources ; Ether fournit des copies lisibles (images de pages) ; ou on garde la réserve visible.
+- **Sources liées** (cliquer pour ouvrir) :
+  - [Ports de l’Arctique occidental — notices historiques](https://www.rosmorport.ru/filials/mur_seaports/) — `src-rosmorport-arctique-histoire` (lien mort)
+  - [Notice du SU-100 : fabrication à Sverdlovsk](https://victorymuseum.ru/encyclopedia/technic/bronetankovaya-tekhnika/samokhodnaya-artilleriyskaya-ustanovka-su-100-obraztsa-1944-goda-sssr/) — `src-musee-pobedy-sverdlovsk-production-1944` (lien mort)
+  - [Tchernikovsk, ville](https://bashenc.online/ru/articles/75162/) — `src-bashenc-tchernikovsk-1944` (lien mort)
+  - [Retour de la flotte et remise en état de Sébastopol en 1944](https://www.sevmuseum.ru/scientific-activity/article/den-v-istorii/80-let-s-nachala-rabot-po-vosstanovleniyu-sevastopolya/) — `src-sebastopol-musee-reconstruction-1944` (lien mort)
+  - [Taganrog : reprise du port par la réparation navale après août 1943](https://www.rosmorport.ru/filials/nvr_seaports/) — `src-rosmorport-taganrog-reparation-1943` (lien mort)
+  - [La Carélie pendant la guerre de 1941–1945 — essai historique](https://monuments.karelia.ru/ob-ekty-kul-turnogo-nasledija/kniga-velikaja-otechestvennaja-vojna-v-karelii-pamjatniki-i-pamjatnye-mesta/karelija-v-velikoj-otechestvennoj-vojne-1941-1945-gg-istoricheskij-ocherk/) — `src-karelia-patrimoine-guerre-1941-1945` (illisible pour Claude)
+  - [Repères commémoratifs de Belomorsk — notice sur la gare Soroka/Sorokskaïa](https://belomorsklib.karelia.ru/files/1587.pdf) — `src-belomorsk-bibliotheque-gare-2024` (illisible pour Claude)
+  - [Aux origines de la Grande Volga — Ouglitch](https://www.vestnik-rushydro.ru/articles/12-dekabr-2015/data/u-istokov-bolshoy-volgi/) — `src-rushydro-ouglitch-histoire-2015` (illisible pour Claude)
+  - [Troupes ferroviaires de Russie, tome 3 — restaurations en Biélorussie](https://militera.lib.ru/h/zheleznodorozhnye_voyska_rossii/25.html) — `src-jdv-tome3-bielorussie-1944` (illisible pour Claude)
+  - [Troupes ferroviaires de Russie, tome 3 : Carpates et pont de Kertch](https://militera.lib.ru/h/zheleznodorozhnye_voyska_rossii/26.html) — `src-jdv-tome3-carpates-kertch-1944` (illisible pour Claude)
+  - [Grodno, encyclopédie locale, 1989](https://djvu.online/file/tDWdqCrJU5CBM) — `src-grodno-encyclopedie-1989-1944` (illisible pour Claude)
+  - [Usine Frounzé de Soumy : article de D. Borodine, avril 1944](https://docs.historyrussia.org/ru/nodes/310136) — `src-soumy-frunze-avril-1944` (confirmée par Claude)
 - **Décision de Guizmo** : …
 
 ### Q15-04 — Noms des villes de Biélorussie *(question de Claude)*
@@ -508,6 +523,593 @@ Les preuves locales et textes constitutionnels établissent les fonctions de cap
 - **Ce qu'on sait** : Certaines fiches ont le nom français (Gomel, Moguilev), d'autres la forme biélorusse (Baryssaw, Stawbtsy).
 - **Ce que ça change sur la carte** : Rien n'a été changé.
 - **Choix possibles** : Règle « nom français attesté d'abord, sinon forme locale » comme ailleurs ; ou garder tel quel.
+- **Décision de Guizmo** : …
+
+## Lot villes 1.6 — 72 points
+
+*Fichier détaillé d'Ether : `01_lots/villes_1-6/2026-10-03_ether_reserves_revue_finale.md`*
+
+### R16-01 — Repères actuels et centres historiques
+
+Preuves et limites : Lectures API P625 conservées ; coordonnées de peuplement, souvent au centre de l’agglomération actuelle, sans précision topographique de 1945. Nalaïkh, Bulgan et Altanbulag partagent une notice avec un district. Impact et choix : Points de repérage proposés seulement ; aucune emprise, piste ou installation n’est localisée. Vérifier les centres historiques lors de la revue cartographique.
+
+- **Sources liées** : aucune citée par identifiant ; voir le fichier détaillé d'Ether ou les sources des villes concernées dans `00_SOURCES_A_VALIDER.md`.
+- **Décision de Guizmo** : …
+
+### R16-02 — Capitales et chefs-lieux
+
+Preuves et limites : Répertoires officiels 1940/1941 et supplément au 1er octobre 1944 ; changements datés enregistrés. Q15-02 réserve le type des oblasts et RSSA. Impact et choix : RSS : regionale suivant le canon relu ; Mongolie : nationale ; RSSA : rôle capitale sans attribut de type. Administration ne signifie pas souveraineté.
+
+- **Sources liées** : aucune citée par identifiant ; voir le fichier détaillé d'Ether ou les sources des villes concernées dans `00_SOURCES_A_VALIDER.md`.
+- **Décision de Guizmo** : …
+
+### R16-03 — Noms et nom_local
+
+Preuves et limites : Formes françaises de repérage ; noms d’état adaptés des attestations et transcriptions originales. Rapports Simoukov : Djibkhalantou et Djargalantou. Impact et choix : Aucun nom_local. Règle générale de translittération et aliases à harmoniser en revue finale ; aucune règle linguistique imposée.
+
+- **Sources liées** : aucune citée par identifiant ; voir le fichier détaillé d'Ether ou les sources des villes concernées dans `00_SOURCES_A_VALIDER.md`.
+- **Décision de Guizmo** : …
+
+### R16-04 — Ob–Irtych : continuité des escales de 1929
+
+Preuves et limites : src-oldriver-navigation1929 est une transcription, sans scan collationné ; Tobolsk, Narym et Semipalatinsk ont des preuves ultérieures, pas toutes les autres escales. Impact et choix : Rôle fluvial retiré lorsqu’il repose uniquement sur 1929 ; candidats sans autre rôle différés. Corroborer la continuité avant ajout.
+
+- **Sources liées** (cliquer pour ouvrir) :
+  - [Navigation de Sibérie occidentale, saison 1929](https://www.oldriver.ru/Page.php?MID=78&PID=24) — `src-oldriver-navigation1929` (confirmée par Claude)
+- **Décision de Guizmo** : …
+
+### R16-05 — Gares éloignées et bourgs séparés
+
+Preuves et limites : Répertoires : Karchi 7 km, Termez 5 km, Kokchetav 3 km, Kanibadam/Melnikovo 6 km ; Kazalinsk distinct de Novo-Kazalinsk. Impact et choix : Rail non appliqué aux quatre premières villes sur ces seules preuves. Ports de Prjevalsk et Patta-Gissar également distingués de la ville principale.
+
+- **Sources liées** : aucune citée par identifiant ; voir le fichier détaillé d'Ether ou les sources des villes concernées dans `00_SOURCES_A_VALIDER.md`.
+- **Décision de Guizmo** : …
+
+### R16-06 — Chronologies ferroviaires
+
+Preuves et limites : Afonina, transcription 1995, distingue imparfaitement premier train/admission permanente ; dates Borzia–Solovievsk et Norilsk divergentes, toutes antérieures au Snapshot. Impact et choix : Rôle seulement, pas date d’ouverture journalière, gabarit technique ni réseau connecté inventé. Taldy-Kourgan demeure administration seulement.
+
+- **Sources liées** : aucune citée par identifiant ; voir le fichier détaillé d'Ether ou les sources des villes concernées dans `00_SOURCES_A_VALIDER.md`.
+- **Décision de Guizmo** : …
+
+### R16-07 — Navigation lacustre et mers intérieures
+
+Preuves et limites : Khatgal et Rybatchie : navigation lacustre ; Mouïnak : vapeur sur Aral et Amou-Daria (BSE1938) ; Caspienne : sources locales. Impact et choix : port_fluvial employé pour les lacs avec cette réserve de vocabulaire ; port_maritime sur Aral/Caspienne ne signifie pas accès océanique. Aucun ferry déduit du seul vapeur.
+
+- **Sources liées** : aucune citée par identifiant ; voir le fichier détaillé d'Ether ou les sources des villes concernées dans `00_SOURCES_A_VALIDER.md`.
+- **Décision de Guizmo** : …
+
+### R16-08 — ALSIB : hiérarchie et villes desservies
+
+Preuves et limites : RGO et Aéroports du Nord décrivent les relais de 1942–1944 ; Kirensk qualifiée différemment. Impact et choix : Aviation seulement pour les associations retenues ; aucun rang base/secours. Relais dont le bourg n’est pas identifié différés séparément.
+
+- **Sources liées** : aucune citée par identifiant ; voir le fichier détaillé d'Ether ou les sources des villes concernées dans `00_SOURCES_A_VALIDER.md`.
+- **Décision de Guizmo** : …
+
+### R16-09 — Ports du Pacifique
+
+Preuves et limites : Rosmorport : premiers quais actifs avant 1945, installations parfois inachevées ; Magadan/Nagaevo, Nakhodka/cap Astafiev et Vanino à distinguer. Impact et choix : Rôle de ville desservie, pas port moderne achevé ni trafic normal garanti ; pas de rail de Vanino déduit du quai de 1944. Okhotsk sans port_maritime sur preuve de 1954.
+
+- **Sources liées** : aucune citée par identifiant ; voir le fichier détaillé d'Ether ou les sources des villes concernées dans `00_SOURCES_A_VALIDER.md`.
+- **Décision de Guizmo** : …
+
+### R16-10 — Industrie : site et taille
+
+Preuves et limites : Sources locales datées ; artels de Djavkhlant, ateliers de réparation, bassins de Tcheremkhovo, Kouzbass et installations déplacées pendant guerre. Impact et choix : Rôle sans volume de production ni emprise municipale exacte ; importance de zoom proposée, pas classement industriel. Mines/terrains non transformés en entités autonomes.
+
+- **Sources liées** : aucune citée par identifiant ; voir le fichier détaillé d'Ether ou les sources des villes concernées dans `00_SOURCES_A_VALIDER.md`.
+- **Décision de Guizmo** : …
+
+### R16-11 — Preuves rétrospectives de niveau C
+
+Preuves et limites : IRK.ru pour industrie d’Irkoutsk ; Abakan pour industrie/administration ; Zuunmod pour transfert1942 ; presse locale et témoignages selon notices. Impact et choix : Niveau et limites maintenus ; pas de validation humaine ou de contrôle Claude déduit. Charbon Tach-Koumyr/Soulioukta retiré faute de corroboration de la seule page OpenKG.
+
+- **Sources liées** : aucune citée par identifiant ; voir le fichier détaillé d'Ether ou les sources des villes concernées dans `00_SOURCES_A_VALIDER.md`.
+- **Décision de Guizmo** : …
+
+### R16-12 — Frontières orientales
+
+Preuves et limites : FRUS15mai1944 : Grodekovo déclaré ouvert ; expédition proposée. Recherche Otpor/Kiakhta : douanes générales, pages locales et article sur Higuchi non concluants. Impact et choix : Grodekovo frontalier, sans expédition réalisée ; Kiakhta administration seulement ; Otpor différé sans créer d’ID ni prétendre que le passage était fermé.
+
+- **Sources liées** : aucune citée par identifiant ; voir le fichier détaillé d'Ether ou les sources des villes concernées dans `00_SOURCES_A_VALIDER.md`.
+- **Décision de Guizmo** : …
+
+### R16-13 — Frontières du Kazakhstan et de l’Asie centrale
+
+Preuves et limites : Archives du Xinjiang : Alma-Ata–Hami1939 et axe Horgos1937–1941 ; recherches Serakhs/Kouchka, directive23août1941 et histoire des détachements seulement en pistes. Pamir : routes décrites, preuves locales1944 insuffisantes. Impact et choix : Alma-Ata aviation avec portée datée ; pas de frontalier ajouté automatiquement à Horgos, Serakhs, Kouchka, Termez ou Khorog. Consulter les actes locaux avant extension.
+
+- **Sources liées** : aucune citée par identifiant ; voir le fichier détaillé d'Ether ou les sources des villes concernées dans `00_SOURCES_A_VALIDER.md`.
+- **Décision de Guizmo** : …
+
+### R16-14 — Amou-Daria et Aral
+
+Preuves et limites : Patta-Gissar et Mouïnak explicitement localisés par sources d’époque ; recherches Tchardjou/Kerki et Aralsk renvoient aussi à récits anciens ou blogs non corroborés. Impact et choix : Aralsk administration/rail seulement ; Tchardjou administration/rail ; Kerki administration. Les ports supplémentaires restent en réserve, sans nier leur existence.
+
+- **Sources liées** : aucune citée par identifiant ; voir le fichier détaillé d'Ether ou les sources des villes concernées dans `00_SOURCES_A_VALIDER.md`.
+- **Décision de Guizmo** : …
+
+### R16-15 — Mongolie : réorganisations et déplacements
+
+Preuves et limites : Simoukov1933 complété par histoires de Bulgan, Arvaïkheer, Baruun-Urt et Mandalgovi ; 1942/1944 pour Mandalgovi divergent mais précèdent1945. Impact et choix : Dates exactes et rangs à revoir ; les centres non géolocalisés ou seulement indexés restent différés. Transmongolien1949–1956 exclu.
+
+- **Sources liées** : aucune citée par identifiant ; voir le fichier détaillé d'Ether ou les sources des villes concernées dans `00_SOURCES_A_VALIDER.md`.
+- **Décision de Guizmo** : …
+
+### R16-16 — Ferries, détroits, embouchures et canaux
+
+Preuves et limites : Rapports de navigation Ob–Irtych/Ienisseï/Léna/Amour, lac Baïkal/Khövsgöl, Caspienne/Aral et histoires locales examinés ; aucune preuve locale de ferry actif ajoutée sur cette seule documentation. Impact et choix : Catégorie examinée mais non close ; rôle ferry absent, pas conclusion d’absence générale. Réserver les traversées urbaines insuffisamment documentées.
+
+- **Sources liées** : aucune citée par identifiant ; voir le fichier détaillé d'Ether ou les sources des villes concernées dans `00_SOURCES_A_VALIDER.md`.
+- **Décision de Guizmo** : …
+
+### R16-17 — Militaire et transit
+
+Preuves et limites : Ports militaires de Nakhodka/De-Kastri, ville fermée Vladivostok, Tchita quartier général et ALSIB documentés ; ailleurs industrie de guerre ne prouve pas base militaire. Impact et choix : Pas de militarisation automatique des villes industrielles ou frontalières. Forces précises, effectifs, dates quotidiennes et transit réel restent hors des faits proposés.
+
+- **Sources liées** : aucune citée par identifiant ; voir le fichier détaillé d'Ether ou les sources des villes concernées dans `00_SOURCES_A_VALIDER.md`.
+- **Décision de Guizmo** : …
+
+### R16-18 — Sakhaline sud et Kouriles
+
+Preuves et limites : Le périmètre de recherche de1.6 est URSS asiatique au Snapshot ; pas extension à la zone alors japonaise par anticipation d’août1945. Impact et choix : Zones exclues de cette remise, sans les déclarer couvertes ; périmètre géographique général à rapprocher lors de l’audit transversal.
+
+- **Sources liées** : aucune citée par identifiant ; voir le fichier détaillé d'Ether ou les sources des villes concernées dans `00_SOURCES_A_VALIDER.md`.
+- **Décision de Guizmo** : …
+
+### R16-19 — Arbitrage de zoom et sélection
+
+Preuves et limites : Capitale/ensemble de fonctions et rôle de corridor motivent A/B/C ; ni recensement intégral ni quota national. Impact et choix : Rangs éditoriaux proposés pour harmonisation transversale, pas décisions de fond historiques validées par défaut.
+
+- **Sources liées** : aucune citée par identifiant ; voir le fichier détaillé d'Ether ou les sources des villes concernées dans `00_SOURCES_A_VALIDER.md`.
+- **Décision de Guizmo** : …
+
+### R16-20 — Points P625 multiples proches
+
+Preuves et limites : Déclarations multiples conservées dans reperes_a_controler : sélection de la première déclaration non dépréciée sans fin ancienne ; écarts proches signalés dans positions. Impact et choix : Pas moyenne. Ouliastaï : ancien point terminé1870 écarté ; Moundybach : écart proche1,5km conservé comme incertitude de centre. Kagan/Kyzyl-Kiya différées.
+
+- **Sources liées** : aucune citée par identifiant ; voir le fichier détaillé d'Ether ou les sources des villes concernées dans `00_SOURCES_A_VALIDER.md`.
+- **Décision de Guizmo** : …
+
+### R16-21 — Kyzyl-Kiya — ville-kg-kyzyl-kiya
+
+Preuves et limites : src-sssr-admin1941-kirghizistan : Pages imprimées 299 ; src-openkg-charbon1941-42 : Passages 1941–1942 Impact et choix : Plusieurs déclarations P625 contradictoires à plusieurs kilomètres ; position différée, aucune moyenne ni choix arbitraire. Choix final : corroborer identité/point/fonction puis intégrer, ou conserver différé.
+
+- **Sources liées** (cliquer pour ouvrir) :
+  - [URSS — répertoire administratif au 1er janvier 1941, RSS kirghize](https://istmat.org/files/uploads/17632/sssr_ad-ter_delenie_1941_kirgizskaya_ssr.pdf) — `src-sssr-admin1941-kirghizistan` (lecture partielle)
+  - [Extraction du charbon en Kirghizie dans la première moitié de la guerre](https://open.kg/about-kyrgyzstan/history/historical-records/kyrgyzstan-during-the-great-patriotic-war/36368-dobycha-uglya-v-kirgizii-v-pervoy-polovine-velikoy-otechestvennoy-voyny.html) — `src-openkg-charbon1941-42` (confirmée par Claude)
+- **Décision de Guizmo** : …
+
+### R16-22 — Kolpachevo — ville-ru-kolpachevo
+
+Preuves et limites : src-neb-admin1944-supplement : Page imprimée 27 / image 29 ; src-oldriver-navigation1929 : Tomsk–Tobolsk Impact et choix : Aucun rôle suffisamment assuré au Snapshot ; preuves anciennes ou gare distante conservées dans le dossier. Choix final : corroborer identité/point/fonction puis intégrer, ou conserver différé.
+
+- **Sources liées** (cliquer pour ouvrir) :
+  - [Supplément au répertoire administratif de l’URSS — changements du 01/01/1941 au 01/10/1944](https://kp.rusneb.ru/item/material/dopolnenie-k-spravochniku-administrativno-territorialnoe-delenie-soyuznyh-respublik-vypuska-1941-g-izmeneniya-proizoshedshie-za-period-s-1-yanvarya-1941-g-po-1-oktyabrya-1944-g-informacionno-statisticheskij-otdel-pri-sekretariate-prezidiuma-verhovnogo-soveta-sssr) — `src-neb-admin1944-supplement` (lecture partielle)
+  - [Navigation de Sibérie occidentale, saison 1929](https://www.oldriver.ru/Page.php?MID=78&PID=24) — `src-oldriver-navigation1929` (confirmée par Claude)
+- **Décision de Guizmo** : …
+
+### R16-23 — Kanibadam — ville-tj-kanibadam
+
+Preuves et limites : src-sssr-admin1941-tadjikistan : Pages imprimées 270 ; src-uzrail-histoire-reseau : Chronologie 1899 ou 1925–1935 Impact et choix : Aucun rôle suffisamment assuré au Snapshot ; preuves anciennes ou gare distante conservées dans le dossier. Choix final : corroborer identité/point/fonction puis intégrer, ou conserver différé.
+
+- **Sources liées** (cliquer pour ouvrir) :
+  - [URSS — répertoire administratif au 1er janvier 1941, RSS tadjike](https://istmat.org/files/uploads/17632/sssr_ad-ter_delenie_1941_tadzhikskaya_ssr.pdf) — `src-sssr-admin1941-tadjikistan` (illisible pour Claude)
+  - [Histoire du développement ferroviaire en Ouzbékistan](https://railway.uz/ru/gazhk/istoriya_zheleznykh_dorog/) — `src-uzrail-histoire-reseau` (lecture partielle)
+- **Décision de Guizmo** : …
+
+### R16-24 — Isfara — ville-tj-isfara
+
+Preuves et limites : src-sssr-admin1941-tadjikistan : Pages imprimées 271 Impact et choix : Présence dans le répertoire attestée ; fonction structurante au Snapshot non suffisamment établie par les recherches conduites. Choix final : corroborer identité/point/fonction puis intégrer, ou conserver différé.
+
+- **Sources liées** (cliquer pour ouvrir) :
+  - [URSS — répertoire administratif au 1er janvier 1941, RSS tadjike](https://istmat.org/files/uploads/17632/sssr_ad-ter_delenie_1941_tadzhikskaya_ssr.pdf) — `src-sssr-admin1941-tadjikistan` (illisible pour Claude)
+- **Décision de Guizmo** : …
+
+### R16-25 — Kourgan-Tioubé — ville-tj-bokhtar
+
+Preuves et limites : src-sssr-admin1941-tadjikistan : Pages imprimées 273 Impact et choix : Présence dans le répertoire attestée ; fonction structurante au Snapshot non suffisamment établie par les recherches conduites. Choix final : corroborer identité/point/fonction puis intégrer, ou conserver différé.
+
+- **Sources liées** (cliquer pour ouvrir) :
+  - [URSS — répertoire administratif au 1er janvier 1941, RSS tadjike](https://istmat.org/files/uploads/17632/sssr_ad-ter_delenie_1941_tadzhikskaya_ssr.pdf) — `src-sssr-admin1941-tadjikistan` (illisible pour Claude)
+- **Décision de Guizmo** : …
+
+### R16-26 — Serakhs — ville-tm-serakhs
+
+Preuves et limites : src-sssr-admin1941-turkmenistan : Pages imprimées 250 Impact et choix : Présence dans le répertoire attestée ; fonction structurante au Snapshot non suffisamment établie par les recherches conduites. Choix final : corroborer identité/point/fonction puis intégrer, ou conserver différé.
+
+- **Sources liées** (cliquer pour ouvrir) :
+  - [URSS — répertoire administratif au 1er janvier 1941, RSS turkmène](https://istmat.org/files/uploads/17632/sssr_ad-ter_delenie_1941_turkmenskaya_ssr.pdf) — `src-sssr-admin1941-turkmenistan` (illisible pour Claude)
+- **Décision de Guizmo** : …
+
+### R16-27 — Kara-Bogaz-Gol — ville-tm-garabogaz
+
+Preuves et limites : src-sssr-admin1941-turkmenistan : Pages imprimées 251 ; src-bse31-karabogaz1937 : col.422 Impact et choix : Localité déplacée, site ancien ou rapprochement avec un centre actuel non assuré ; aucun point actuel appliqué par défaut. Choix final : corroborer identité/point/fonction puis intégrer, ou conserver différé.
+
+- **Sources liées** (cliquer pour ouvrir) :
+  - [URSS — répertoire administratif au 1er janvier 1941, RSS turkmène](https://istmat.org/files/uploads/17632/sssr_ad-ter_delenie_1941_turkmenskaya_ssr.pdf) — `src-sssr-admin1941-turkmenistan` (illisible pour Claude)
+  - [Kara-Bogaz-Gol, Grande Encyclopédie soviétique, première édition, tome 31 (1937)](https://pubhtml5.com/etie/crgw/basic/201-250) — `src-bse31-karabogaz1937` (illisible pour Claude)
+- **Décision de Guizmo** : …
+
+### R16-28 — Nebit-Dag — ville-tm-balkanabat
+
+Preuves et limites : src-sssr-admin1941-turkmenistan : Pages imprimées 252 ; src-annaklychev-nebitdag1959 : p.56 / PDF4 Impact et choix : Localité déplacée, site ancien ou rapprochement avec un centre actuel non assuré ; aucun point actuel appliqué par défaut. Choix final : corroborer identité/point/fonction puis intégrer, ou conserver différé.
+
+- **Sources liées** (cliquer pour ouvrir) :
+  - [URSS — répertoire administratif au 1er janvier 1941, RSS turkmène](https://istmat.org/files/uploads/17632/sssr_ad-ter_delenie_1941_turkmenskaya_ssr.pdf) — `src-sssr-admin1941-turkmenistan` (illisible pour Claude)
+  - [Quelques aspects de la vie des pétroliers de Nebit-Dag](https://eo.iea.ras.ru/wp-content/uploads/1959/01/eoarchive_1959_1_053_annaklychev.pdf) — `src-annaklychev-nebitdag1959` (confirmée par Claude)
+- **Décision de Guizmo** : …
+
+### R16-29 — Tcheleken — ville-tm-hazar
+
+Preuves et limites : src-sssr-admin1941-turkmenistan : Pages imprimées 252 ; src-bse31-karabogaz1937 : col.422 Impact et choix : Localité déplacée, site ancien ou rapprochement avec un centre actuel non assuré ; aucun point actuel appliqué par défaut. Choix final : corroborer identité/point/fonction puis intégrer, ou conserver différé.
+
+- **Sources liées** (cliquer pour ouvrir) :
+  - [URSS — répertoire administratif au 1er janvier 1941, RSS turkmène](https://istmat.org/files/uploads/17632/sssr_ad-ter_delenie_1941_turkmenskaya_ssr.pdf) — `src-sssr-admin1941-turkmenistan` (illisible pour Claude)
+  - [Kara-Bogaz-Gol, Grande Encyclopédie soviétique, première édition, tome 31 (1937)](https://pubhtml5.com/etie/crgw/basic/201-250) — `src-bse31-karabogaz1937` (illisible pour Claude)
+- **Décision de Guizmo** : …
+
+### R16-30 — Kagan — ville-uz-kagan
+
+Preuves et limites : src-uzrail-histoire-reseau : Paragraphe ateliers et dépôts de 1935 Impact et choix : Plusieurs déclarations P625 contradictoires à plusieurs kilomètres ; position différée, aucune moyenne ni choix arbitraire. Choix final : corroborer identité/point/fonction puis intégrer, ou conserver différé.
+
+- **Sources liées** (cliquer pour ouvrir) :
+  - [Histoire du développement ferroviaire en Ouzbékistan](https://railway.uz/ru/gazhk/istoriya_zheleznykh_dorog/) — `src-uzrail-histoire-reseau` (lecture partielle)
+- **Décision de Guizmo** : …
+
+### R16-31 — Khavast — ville-uz-khavast
+
+Preuves et limites : src-uzrail-histoire-reseau : Paragraphe ateliers et dépôts de 1935 ; src-shpl-admin1940 : p.264–265 Impact et choix : Rapprochement Oursatievskaïa/Khavast, Leninsk/Asaka ou Novo-Kazalinsk/Aïteke Bi encore insuffisamment attesté ; ne pas confondre ville et gare. Choix final : corroborer identité/point/fonction puis intégrer, ou conserver différé.
+
+- **Sources liées** (cliquer pour ouvrir) :
+  - [Histoire du développement ferroviaire en Ouzbékistan](https://railway.uz/ru/gazhk/istoriya_zheleznykh_dorog/) — `src-uzrail-histoire-reseau` (lecture partielle)
+  - [URSS. Division administrative et territoriale des républiques fédérées au 1er mai 1940](http://elib.shpl.ru/ru/nodes/8481) — `src-shpl-admin1940` (illisible pour Claude)
+- **Décision de Guizmo** : …
+
+### R16-32 — Djezkazgan — ville-kz-djezkazgan
+
+Preuves et limites : src-govkz-satpaev-histoire : 1937 puis extraction 1941–1943 Impact et choix : Localité déplacée, site ancien ou rapprochement avec un centre actuel non assuré ; aucun point actuel appliqué par défaut. Choix final : corroborer identité/point/fonction puis intégrer, ou conserver différé.
+
+- **Sources liées** (cliquer pour ouvrir) :
+  - [Histoire de la ville de Satpaïev et du bassin de Djezkazgan](https://www.gov.kz/memleket/entities/ulytau-satpaev/press/article/details/9301?lang=ru) — `src-govkz-satpaev-histoire` (illisible pour Claude)
+- **Décision de Guizmo** : …
+
+### R16-33 — Dikson — ville-ru-dikson
+
+Preuves et limites : src-archives-mourmansk-lena1933 : p.23–24 Impact et choix : Répartition du peuplement entre île et continent non résolue pour le Snapshot ; point actuel non retenu. Choix final : corroborer identité/point/fonction puis intégrer, ou conserver différé.
+
+- **Sources liées** (cliquer pour ouvrir) :
+  - [La voie maritime vers la Iakoutie — première expédition de la Lena, dans Освоение Арктики. История и современность, 2013](https://www.murmanarchiv.ru/images/stories/arctika2013.pdf) — `src-archives-mourmansk-lena1933` (illisible pour Claude)
+- **Décision de Guizmo** : …
+
+### R16-34 — Tourtou — ville-mn-khankh
+
+Preuves et limites : src-simukov-centres1933 : p.63 Impact et choix : Identité du peuplement et position historique non résolues ; fonction documentée ne suffit pas à créer le point. Choix final : corroborer identité/point/fonction puis intégrer, ou conserver différé.
+
+- **Sources liées** (cliquer pour ouvrir) :
+  - [Bases commerciales et centres administratifs de Mongolie, mai 1933 ; Travaux, t.3/2 (2008)](https://legendtour.ru/mongolia/history/simukov-trudy-o-mongolii-4.pdf) — `src-simukov-centres1933` (illisible pour Claude)
+- **Décision de Guizmo** : …
+
+### R16-35 — Ereentsav — ville-mn-ereentsav
+
+Preuves et limites : src-simukov-centres1933 : p.63 ; src-ganzam-dornod-1939 : Section Une,1939 Impact et choix : Q1771883 désigne le district Chuluunkhoroot ; absence de point distinct vérifié du peuplement Ereentsav. Choix final : corroborer identité/point/fonction puis intégrer, ou conserver différé.
+
+- **Sources liées** (cliquer pour ouvrir) :
+  - [Bases commerciales et centres administratifs de Mongolie, mai 1933 ; Travaux, t.3/2 (2008)](https://legendtour.ru/mongolia/history/simukov-trudy-o-mongolii-4.pdf) — `src-simukov-centres1933` (illisible pour Claude)
+  - [Histoire des chemins de fer du Dornod](https://ganzam.mn/news/dornodyn-tomor-zamyn-tuuxiin-sonirxoltoi-barimtuudaas) — `src-ganzam-dornod-1939` (confirmée par Claude)
+- **Décision de Guizmo** : …
+
+### R16-36 — Tsagaannuur — ville-mn-tsagaannuur
+
+Preuves et limites : src-simukov-centres1933 : p.63 ; src-mas-mongolie-economie-guerre : Paragraphe transport pendant la guerre,note13 Impact et choix : Identité du peuplement et position historique non résolues ; fonction documentée ne suffit pas à créer le point. Choix final : corroborer identité/point/fonction puis intégrer, ou conserver différé.
+
+- **Sources liées** (cliquer pour ouvrir) :
+  - [Bases commerciales et centres administratifs de Mongolie, mai 1933 ; Travaux, t.3/2 (2008)](https://legendtour.ru/mongolia/history/simukov-trudy-o-mongolii-4.pdf) — `src-simukov-centres1933` (illisible pour Claude)
+  - [Économie mongole pendant la Seconde Guerre mondiale](https://mas.ac.mn/post/16129) — `src-mas-mongolie-economie-guerre` (lecture partielle)
+- **Décision de Guizmo** : …
+
+### R16-37 — Tamsagbulag — ville-mn-tamsagbulag
+
+Preuves et limites : src-ganzam-dornod-1939 : Section Deux,1942 Impact et choix : Identité du peuplement et position historique non résolues ; fonction documentée ne suffit pas à créer le point. Choix final : corroborer identité/point/fonction puis intégrer, ou conserver différé.
+
+- **Sources liées** (cliquer pour ouvrir) :
+  - [Histoire des chemins de fer du Dornod](https://ganzam.mn/news/dornodyn-tomor-zamyn-tuuxiin-sonirxoltoi-barimtuudaas) — `src-ganzam-dornod-1939` (confirmée par Claude)
+- **Décision de Guizmo** : …
+
+### R16-38 — Berezovo — ville-ru-berezovo
+
+Preuves et limites : src-oldriver-navigation1929 : Tobolsk–Obdorsk Impact et choix : Aucun rôle suffisamment assuré au Snapshot ; preuves anciennes ou gare distante conservées dans le dossier. Choix final : corroborer identité/point/fonction puis intégrer, ou conserver différé.
+
+- **Sources liées** (cliquer pour ouvrir) :
+  - [Navigation de Sibérie occidentale, saison 1929](https://www.oldriver.ru/Page.php?MID=78&PID=24) — `src-oldriver-navigation1929` (confirmée par Claude)
+- **Décision de Guizmo** : …
+
+### R16-39 — Samarovo — ville-ru-samarovo
+
+Preuves et limites : src-oldriver-navigation1929 : Tobolsk–Obdorsk Impact et choix : Point de peuplement non établi après les recherches d’identité et lectures API ; pas de coordonnée proposée. Choix final : corroborer identité/point/fonction puis intégrer, ou conserver différé.
+
+- **Sources liées** (cliquer pour ouvrir) :
+  - [Navigation de Sibérie occidentale, saison 1929](https://www.oldriver.ru/Page.php?MID=78&PID=24) — `src-oldriver-navigation1929` (confirmée par Claude)
+- **Décision de Guizmo** : …
+
+### R16-40 — Kamen-na-Obi — ville-ru-kamen-na-obi
+
+Preuves et limites : src-oldriver-navigation1929 : Biïsk–Tomsk Impact et choix : Aucun rôle suffisamment assuré au Snapshot ; preuves anciennes ou gare distante conservées dans le dossier. Choix final : corroborer identité/point/fonction puis intégrer, ou conserver différé.
+
+- **Sources liées** (cliquer pour ouvrir) :
+  - [Navigation de Sibérie occidentale, saison 1929](https://www.oldriver.ru/Page.php?MID=78&PID=24) — `src-oldriver-navigation1929` (confirmée par Claude)
+- **Décision de Guizmo** : …
+
+### R16-41 — Sourgout — ville-ru-sourgout
+
+Preuves et limites : src-oldriver-navigation1929 : Tomsk–Tobolsk Impact et choix : Aucun rôle suffisamment assuré au Snapshot ; preuves anciennes ou gare distante conservées dans le dossier. Choix final : corroborer identité/point/fonction puis intégrer, ou conserver différé.
+
+- **Sources liées** (cliquer pour ouvrir) :
+  - [Navigation de Sibérie occidentale, saison 1929](https://www.oldriver.ru/Page.php?MID=78&PID=24) — `src-oldriver-navigation1929` (confirmée par Claude)
+- **Décision de Guizmo** : …
+
+### R16-42 — Katangli — ville-ru-katangli
+
+Preuves et limites : src-rechnoy-transport-guerre-ch9 : p. 231, navigation 1942 Impact et choix : Exploitation minière/pétrolière datée ; association au peuplement et périmètre historique non suffisamment assurés pour proposer un point de ville. Choix final : corroborer identité/point/fonction puis intégrer, ou conserver différé.
+
+- **Sources liées** (cliquer pour ouvrir) :
+  - [Transport fluvial soviétique pendant la guerre, chapitre 9](https://militera.lib.ru/h/rechnoy_transport_v_vov/09.html) — `src-rechnoy-transport-guerre-ch9` (lecture partielle)
+- **Décision de Guizmo** : …
+
+### R16-43 — Polyssaïevo — ville-ru-polysaevo
+
+Preuves et limites : src-kouzbass-archives-catalogue2021 : p. 214, production 1941 Impact et choix : Exploitation minière/pétrolière datée ; association au peuplement et périmètre historique non suffisamment assurés pour proposer un point de ville. Choix final : corroborer identité/point/fonction puis intégrer, ou conserver différé.
+
+- **Sources liées** (cliquer pour ouvrir) :
+  - [Kouzbass, réserve de la Russie : catalogue d’exposition, 2021](https://arhiv42.ru/pictures/20210630054224Catalog.pdf) — `src-kouzbass-archives-catalogue2021` (illisible pour Claude)
+- **Décision de Guizmo** : …
+
+### R16-44 — Piskounovo — ville-ru-piskounovo
+
+Preuves et limites : src-musee-ienissei-geographie : 1930–1942 Impact et choix : Point de peuplement non établi après les recherches d’identité et lectures API ; pas de coordonnée proposée. Choix final : corroborer identité/point/fonction puis intégrer, ou conserver différé.
+
+- **Sources liées** (cliquer pour ouvrir) :
+  - [Géographie historique des établissements de la compagnie](https://xn--b1adcbqclsccfv6g.xn--p1ai/geo) — `src-musee-ienissei-geographie` (illisible pour Claude)
+- **Décision de Guizmo** : …
+
+### R16-45 — Tchaplino — ville-ru-tchaplino-ancien
+
+Preuves et limites : src-rgo-alsib-saison1 : Notice, 1942 et 1944 Impact et choix : Localité déplacée, site ancien ou rapprochement avec un centre actuel non assuré ; aucun point actuel appliqué par défaut. Choix final : corroborer identité/point/fonction puis intégrer, ou conserver différé.
+
+- **Sources liées** (cliquer pour ouvrir) :
+  - [ALSIB, premier terrain de recherche en 2021](https://rgo.ru/activity/expedition-list/alsib-1-y-sezon/) — `src-rgo-alsib-saison1` (lecture partielle)
+- **Décision de Guizmo** : …
+
+### R16-46 — Taniourer — ville-ru-taniourer
+
+Preuves et limites : src-rgo-alsib-saison1 : Notice, 1944 Impact et choix : Localité déplacée, site ancien ou rapprochement avec un centre actuel non assuré ; aucun point actuel appliqué par défaut. Choix final : corroborer identité/point/fonction puis intégrer, ou conserver différé.
+
+- **Sources liées** (cliquer pour ouvrir) :
+  - [ALSIB, premier terrain de recherche en 2021](https://rgo.ru/activity/expedition-list/alsib-1-y-sezon/) — `src-rgo-alsib-saison1` (lecture partielle)
+- **Décision de Guizmo** : …
+
+### R16-47 — Aldan — ville-ru-aldan
+
+Preuves et limites : src-sever-aero-alsib-memoire : Liste des aéroports actifs en 1942 Impact et choix : Relais aérien nommé mais rattachement à la localité et à son point insuffisamment contrôlé ; aucune entité aéroport créée. Choix final : corroborer identité/point/fonction puis intégrer, ou conserver différé.
+
+- **Sources liées** (cliquer pour ouvrir) :
+  - [ALSIB, mémoire des générations](https://sever.aero/%D0%BF%D0%B0%D0%BC%D1%8F%D1%82%D1%8C-%D0%BF%D0%BE%D0%BA%D0%BE%D0%BB%D0%B5%D0%BD%D0%B8%D0%B9/) — `src-sever-aero-alsib-memoire` (lecture partielle)
+- **Décision de Guizmo** : …
+
+### R16-48 — Tomtor — ville-ru-tomtor
+
+Preuves et limites : src-sever-aero-alsib-memoire : Liste des aéroports actifs en 1942 Impact et choix : Relais aérien nommé mais rattachement à la localité et à son point insuffisamment contrôlé ; aucune entité aéroport créée. Choix final : corroborer identité/point/fonction puis intégrer, ou conserver différé.
+
+- **Sources liées** (cliquer pour ouvrir) :
+  - [ALSIB, mémoire des générations](https://sever.aero/%D0%BF%D0%B0%D0%BC%D1%8F%D1%82%D1%8C-%D0%BF%D0%BE%D0%BA%D0%BE%D0%BB%D0%B5%D0%BD%D0%B8%D0%B9/) — `src-sever-aero-alsib-memoire` (lecture partielle)
+- **Décision de Guizmo** : …
+
+### R16-49 — Bereliokh — ville-ru-bereliokh
+
+Preuves et limites : src-sever-aero-alsib-memoire : Liste des aéroports actifs en 1942 Impact et choix : Localité déplacée, site ancien ou rapprochement avec un centre actuel non assuré ; aucun point actuel appliqué par défaut. Choix final : corroborer identité/point/fonction puis intégrer, ou conserver différé.
+
+- **Sources liées** (cliquer pour ouvrir) :
+  - [ALSIB, mémoire des générations](https://sever.aero/%D0%BF%D0%B0%D0%BC%D1%8F%D1%82%D1%8C-%D0%BF%D0%BE%D0%BA%D0%BE%D0%BB%D0%B5%D0%BD%D0%B8%D0%B9/) — `src-sever-aero-alsib-memoire` (lecture partielle)
+- **Décision de Guizmo** : …
+
+### R16-50 — Bodaïbo — ville-ru-bodaibo
+
+Preuves et limites : src-sever-aero-alsib-memoire : Six ajouts, situation au 1 novembre 1943 Impact et choix : Relais aérien nommé mais rattachement à la localité et à son point insuffisamment contrôlé ; aucune entité aéroport créée. Choix final : corroborer identité/point/fonction puis intégrer, ou conserver différé.
+
+- **Sources liées** (cliquer pour ouvrir) :
+  - [ALSIB, mémoire des générations](https://sever.aero/%D0%BF%D0%B0%D0%BC%D1%8F%D1%82%D1%8C-%D0%BF%D0%BE%D0%BA%D0%BE%D0%BB%D0%B5%D0%BD%D0%B8%D0%B9/) — `src-sever-aero-alsib-memoire` (lecture partielle)
+- **Décision de Guizmo** : …
+
+### R16-51 — Oust-Maïa — ville-ru-oust-maia
+
+Preuves et limites : src-sever-aero-alsib-memoire : Six ajouts, situation au 1 novembre 1943 Impact et choix : Relais aérien nommé mais rattachement à la localité et à son point insuffisamment contrôlé ; aucune entité aéroport créée. Choix final : corroborer identité/point/fonction puis intégrer, ou conserver différé.
+
+- **Sources liées** (cliquer pour ouvrir) :
+  - [ALSIB, mémoire des générations](https://sever.aero/%D0%BF%D0%B0%D0%BC%D1%8F%D1%82%D1%8C-%D0%BF%D0%BE%D0%BA%D0%BE%D0%BB%D0%B5%D0%BD%D0%B8%D0%B9/) — `src-sever-aero-alsib-memoire` (lecture partielle)
+- **Décision de Guizmo** : …
+
+### R16-52 — Teply Klioutch — ville-ru-teply-klioutch
+
+Preuves et limites : src-sever-aero-alsib-memoire : Six ajouts, situation au 1 novembre 1943 Impact et choix : Relais aérien nommé mais rattachement à la localité et à son point insuffisamment contrôlé ; aucune entité aéroport créée. Choix final : corroborer identité/point/fonction puis intégrer, ou conserver différé.
+
+- **Sources liées** (cliquer pour ouvrir) :
+  - [ALSIB, mémoire des générations](https://sever.aero/%D0%BF%D0%B0%D0%BC%D1%8F%D1%82%D1%8C-%D0%BF%D0%BE%D0%BA%D0%BE%D0%BB%D0%B5%D0%BD%D0%B8%D0%B9/) — `src-sever-aero-alsib-memoire` (lecture partielle)
+- **Décision de Guizmo** : …
+
+### R16-53 — Anadyr — ville-ru-anadyr
+
+Preuves et limites : src-sever-aero-alsib-memoire : Six ajouts, situation au 1 novembre 1943 Impact et choix : Relais aérien nommé mais rattachement à la localité et à son point insuffisamment contrôlé ; aucune entité aéroport créée. Choix final : corroborer identité/point/fonction puis intégrer, ou conserver différé.
+
+- **Sources liées** (cliquer pour ouvrir) :
+  - [ALSIB, mémoire des générations](https://sever.aero/%D0%BF%D0%B0%D0%BC%D1%8F%D1%82%D1%8C-%D0%BF%D0%BE%D0%BA%D0%BE%D0%BB%D0%B5%D0%BD%D0%B8%D0%B9/) — `src-sever-aero-alsib-memoire` (lecture partielle)
+- **Décision de Guizmo** : …
+
+### R16-54 — Baïkal — ville-ru-port-baikal
+
+Preuves et limites : src-afonina-rail-1995 : Tableau 1900 Impact et choix : Point de peuplement non établi après les recherches d’identité et lectures API ; pas de coordonnée proposée. Choix final : corroborer identité/point/fonction puis intégrer, ou conserver différé.
+
+- **Sources liées** (cliquer pour ouvrir) :
+  - [G. M. Afonina, Bref historique des chemins de fer, 1838–1990, 1995](https://djvu.online/file/2zs4QsO57XRgz) — `src-afonina-rail-1995` (illisible pour Claude)
+- **Décision de Guizmo** : …
+
+### R16-55 — Ekhabi — ville-ru-ekhabi
+
+Preuves et limites : src-rvio-ohka-guerre : Gisement et conduite Ekhabi–Okha de 1942 ; résultats août–octobre 1944 Impact et choix : Exploitation minière/pétrolière datée ; association au peuplement et périmètre historique non suffisamment assurés pour proposer un point de ville. Choix final : corroborer identité/point/fonction puis intégrer, ou conserver différé.
+
+- **Sources liées** (cliquer pour ouvrir) :
+  - [L’effort de guerre d’Okha, capitale pétrolière de Sakhaline](https://history.ru/read/articles/trudovoy-podvig-goroda-ohi-neftyanaya-stolica-sahalina-v-gody-velikoy-otechestvennoy-voyny) — `src-rvio-ohka-guerre` (lecture partielle)
+- **Décision de Guizmo** : …
+
+### R16-56 — Roujino — ville-ru-roujino
+
+Preuves et limites : src-dalguiprotrans-musee1936 : Équipements des stations dans la période 1936–1940 Impact et choix : Point de peuplement non établi après les recherches d’identité et lectures API ; pas de coordonnée proposée. Choix final : corroborer identité/point/fonction puis intégrer, ou conserver différé.
+
+- **Sources liées** (cliquer pour ouvrir) :
+  - [Musée électronique : chronologie 1936–1940](https://dgt.ru/elektronnyy-muzey/khronologiya-test) — `src-dalguiprotrans-musee1936` (confirmée par Claude)
+- **Décision de Guizmo** : …
+
+### R16-57 — Raïtchikha — ville-ru-raitchikhinsk
+
+Preuves et limites : src-dvgups-rail-ne2019 : p.40–41 Impact et choix : Raïtchikha dans la source ferroviaire ; statut urbain de 1944 retrouvé (guide Amurvisit), mais acte de changement du nom non relu. Forme d’état réservée avant import. Choix final : corroborer identité/point/fonction puis intégrer, ou conserver différé.
+
+- **Sources liées** (cliquer pour ouvrir) :
+  - [Chemins de fer de l’Extrême-Orient soviétique pendant la guerre, 1941–1945, troisième édition](https://dokumen.pub/19411945-3.html) — `src-dvgups-rail-ne2019` (illisible pour Claude)
+- **Décision de Guizmo** : …
+
+### R16-58 — Bouréïa — ville-ru-boureia
+
+Preuves et limites : src-dvgups-rail-ne2019 : p.40–41 Impact et choix : Point de peuplement non établi après les recherches d’identité et lectures API ; pas de coordonnée proposée. Choix final : corroborer identité/point/fonction puis intégrer, ou conserver différé.
+
+- **Sources liées** (cliquer pour ouvrir) :
+  - [Chemins de fer de l’Extrême-Orient soviétique pendant la guerre, 1941–1945, troisième édition](https://dokumen.pub/19411945-3.html) — `src-dvgups-rail-ne2019` (illisible pour Claude)
+- **Décision de Guizmo** : …
+
+### R16-59 — Leninskoïe — ville-ru-leninskoie-eao
+
+Preuves et limites : src-dvgups-rail-ne2019 : p.41, tableau 1 Impact et choix : Doublon de recherche fusionné vers ville-ru-leninskoie-amour ; aucune seconde entité. Choix final : corroborer identité/point/fonction puis intégrer, ou conserver différé.
+
+- **Sources liées** (cliquer pour ouvrir) :
+  - [Chemins de fer de l’Extrême-Orient soviétique pendant la guerre, 1941–1945, troisième édition](https://dokumen.pub/19411945-3.html) — `src-dvgups-rail-ne2019` (illisible pour Claude)
+- **Décision de Guizmo** : …
+
+### R16-60 — Poïarkovo — ville-ru-poyarkovo
+
+Preuves et limites : src-dvgups-rail-ne2019 : p.41, tableau 1 Impact et choix : Doublon de recherche fusionné vers ville-ru-poiarkovo ; aucune seconde entité. Choix final : corroborer identité/point/fonction puis intégrer, ou conserver différé.
+
+- **Sources liées** (cliquer pour ouvrir) :
+  - [Chemins de fer de l’Extrême-Orient soviétique pendant la guerre, 1941–1945, troisième édition](https://dokumen.pub/19411945-3.html) — `src-dvgups-rail-ne2019` (illisible pour Claude)
+- **Décision de Guizmo** : …
+
+### R16-61 — Reïnovo — ville-ru-reinovo
+
+Preuves et limites : src-dvgups-rail-ne2019 : p.41, tableau 1 Impact et choix : Point de peuplement non établi après les recherches d’identité et lectures API ; pas de coordonnée proposée. Choix final : corroborer identité/point/fonction puis intégrer, ou conserver différé.
+
+- **Sources liées** (cliquer pour ouvrir) :
+  - [Chemins de fer de l’Extrême-Orient soviétique pendant la guerre, 1941–1945, troisième édition](https://dokumen.pub/19411945-3.html) — `src-dvgups-rail-ne2019` (illisible pour Claude)
+- **Décision de Guizmo** : …
+
+### R16-62 — Khrom-Taou — ville-kz-khromtau
+
+Preuves et limites : src-kazchrome-histoire : Entrées 1938 et 1940 Impact et choix : Exploitation minière/pétrolière datée ; association au peuplement et périmètre historique non suffisamment assurés pour proposer un point de ville. Choix final : corroborer identité/point/fonction puis intégrer, ou conserver différé.
+
+- **Sources liées** (cliquer pour ouvrir) :
+  - [Histoire des entreprises de Kazchrome](https://www.kazchrome.com/ru/about-us/history/) — `src-kazchrome-histoire` (confirmée par Claude)
+- **Décision de Guizmo** : …
+
+### R16-63 — Leninsk — ville-uz-asaka
+
+Preuves et limites : src-shpl-admin1940 : p.266–267 Impact et choix : Rapprochement Oursatievskaïa/Khavast, Leninsk/Asaka ou Novo-Kazalinsk/Aïteke Bi encore insuffisamment attesté ; ne pas confondre ville et gare. Choix final : corroborer identité/point/fonction puis intégrer, ou conserver différé.
+
+- **Sources liées** (cliquer pour ouvrir) :
+  - [URSS. Division administrative et territoriale des républiques fédérées au 1er mai 1940](http://elib.shpl.ru/ru/nodes/8481) — `src-shpl-admin1940` (illisible pour Claude)
+- **Décision de Guizmo** : …
+
+### R16-64 — Tourt-Koul — ville-uz-turtkul
+
+Preuves et limites : src-shpl-admin1940 : p.269 ; src-bse3-turtkul-deplacement : Article Турткуль Impact et choix : Localité déplacée, site ancien ou rapprochement avec un centre actuel non assuré ; aucun point actuel appliqué par défaut. Choix final : corroborer identité/point/fonction puis intégrer, ou conserver différé.
+
+- **Sources liées** (cliquer pour ouvrir) :
+  - [URSS. Division administrative et territoriale des républiques fédérées au 1er mai 1940](http://elib.shpl.ru/ru/nodes/8481) — `src-shpl-admin1940` (illisible pour Claude)
+  - [Grande Encyclopédie soviétique, article Tourtkoul](https://modernlib.net/books/bse/bolshaya_sovetskaya_enciklopediya_tu/read_29/) — `src-bse3-turtkul-deplacement` (confirmée par Claude)
+- **Décision de Guizmo** : …
+
+### R16-65 — Patta-Gissar — ville-uz-patta-gissar
+
+Preuves et limites : src-shpl-admin1940 : p.261, bourgs urbains Impact et choix : Identité du peuplement et position historique non résolues ; fonction documentée ne suffit pas à créer le point. Choix final : corroborer identité/point/fonction puis intégrer, ou conserver différé.
+
+- **Sources liées** (cliquer pour ouvrir) :
+  - [URSS. Division administrative et territoriale des républiques fédérées au 1er mai 1940](http://elib.shpl.ru/ru/nodes/8481) — `src-shpl-admin1940` (illisible pour Claude)
+- **Décision de Guizmo** : …
+
+### R16-66 — Novo-Kazalinsk — ville-kz-aiteke-bi
+
+Preuves et limites : src-shpl-admin1940 : p.289 Impact et choix : Rapprochement Oursatievskaïa/Khavast, Leninsk/Asaka ou Novo-Kazalinsk/Aïteke Bi encore insuffisamment attesté ; ne pas confondre ville et gare. Choix final : corroborer identité/point/fonction puis intégrer, ou conserver différé.
+
+- **Sources liées** (cliquer pour ouvrir) :
+  - [URSS. Division administrative et territoriale des républiques fédérées au 1er mai 1940](http://elib.shpl.ru/ru/nodes/8481) — `src-shpl-admin1940` (illisible pour Claude)
+- **Décision de Guizmo** : …
+
+### R16-67 — Esönbulag — ville-mn-altai
+
+Preuves et limites : src-mn-altai1942 : Passages 1940, 1942 et 1961 Impact et choix : Passage historique accessible seulement dans un extrait indexé ; preuve et identité à consolider avant import. Choix final : corroborer identité/point/fonction puis intégrer, ou conserver différé.
+
+- **Sources liées** (cliquer pour ouvrir) :
+  - [Chronologie d’Esönbulag](https://esunbulag.govi-altai.khural.mn/n/226915) — `src-mn-altai1942` (illisible pour Claude)
+- **Décision de Guizmo** : …
+
+### R16-68 — Ölgii — ville-mn-olgii
+
+Preuves et limites : src-mn-olgii1940 : Paragraphe sur le soum Ölgii et la création de 1940 Impact et choix : Passage historique accessible seulement dans un extrait indexé ; preuve et identité à consolider avant import. Choix final : corroborer identité/point/fonction puis intégrer, ou conserver différé.
+
+- **Sources liées** (cliquer pour ouvrir) :
+  - [Présentation de la province de Bayan-Ölgii](https://www.ldi.regional.gov.mn/index.php?province_id=469&sel=profile) — `src-mn-olgii1940` (illisible pour Claude)
+- **Décision de Guizmo** : …
+
+### R16-69 — Bayankhongor — ville-mn-bayankhongor
+
+Preuves et limites : src-mn-bayankhongor-deplacements : Premier paragraphe, 1941–1942 et déplacements Impact et choix : Localité déplacée, site ancien ou rapprochement avec un centre actuel non assuré ; aucun point actuel appliqué par défaut. Choix final : corroborer identité/point/fonction puis intégrer, ou conserver différé.
+
+- **Sources liées** (cliquer pour ouvrir) :
+  - [Présentation du soum Bayankhongor](https://bayankhongor.bayankhongor.khural.mn/n/15019) — `src-mn-bayankhongor-deplacements` (illisible pour Claude)
+- **Décision de Guizmo** : …
+
+### Q16-01 — Sources du lot 1.6 à remplacer ou préciser *(question de Claude)*
+
+- **Ce qu'on sait** : 6 liens morts (Rosmorport Primorié et Petropavlovsk, histoire de Novossibirsk 1920-1940, ONIIP Omsk 1942, usine BVRZ, Maxam Tchirtchik) et 6 pages lisibles où le passage cité n'a pas été trouvé (Vayner ch. 4, Mongolie LoC 1991, archives du Primorié sur Spassk, Vichnevski Sakhaline 2000, Providenia 2022, petites villes du Kazakhstan 2011).
+- **Ce que ça change sur la carte** : Les rôles concernés restent marqués « À renforcer ».
+- **Choix possibles** : Ether donne une autre source ou l'adresse exacte du passage ; ou on garde la réserve visible.
+- **Sources liées** (cliquer pour ouvrir) :
+  - [Ports du Primorié — histoires de Vladivostok et Nakhodka](https://www.rosmorport.ru/filials/vlf_seaports/) — `src-rosmorport-primorie-histoire` (lien mort)
+  - [Petropavlovsk-Kamtchatski — histoire du port](https://rosmorport.ru/filials/ppv_seaports/) — `src-rosmorport-petropavlovsk-histoire` (lien mort)
+  - [Histoire de Novossibirsk, 1920–1940](https://novo-sibirsk.ru/about/history/1920-1940/) — `src-novossibirsk-histoire1920-1940` (lien mort)
+  - [Anniversaire de l’usine d’Omsk, 2 février 2021](https://www.oniip.ru/predpriyatie/novosti/2618/) — `src-oniip-omsk-1942` (lien mort)
+  - [Histoire des ateliers de wagons de Barnaoul](https://www.b-vrz.ru/about/history/) — `src-bvrz-histoire` (lien mort)
+  - [Histoire du développement de Maxam-Chirchiq](https://maxam-chirchiq.uz/ru/shareholders/facts_activity/test/) — `src-maxam-chirchiq-histoire` (lien mort)
+  - [Le transport maritime soviétique pendant la Grande Guerre patriotique — chapitre 4](https://militera.lib.ru/h/vayner_ba/04.html) — `src-vayner-transport-guerre-ch4` (ne prouve pas bien)
+  - [Mongolia: A Country Study, 2e édition, 1991](https://tile.loc.gov/storage-services/master/frd/frdcstdy/mo/mongoliacountrys00word_0/mongoliacountrys00word_0.pdf) — `src-loc-mongolie-1991` (ne prouve pas bien)
+  - [85 ans de la cimenterie de Spassk, exposition du 14 mai 2021](https://arhiv-25.ru/archival-documents/photodocumental-expositions/szc_85_anniversary/) — `src-archives-primorie-spassk-ciment` (ne prouve pas bien)
+  - [Sakhaline et les Kouriles pendant la Seconde Guerre mondiale : bref répertoire encyclopédique](https://djvu.online/file/M9Gjw9hXiYwkH) — `src-vishnevski-sakhaline2000` (ne prouve pas bien)
+  - [Dans la baie de la Sainte-Providence](https://ks87.ru/articles/arktika/news_13870/) — `src-ks-providenia-dyga2022` (ne prouve pas bien)
+  - [Population des petites villes du Kazakhstan, exemple de la région orientale](https://e-history.kz/media/upload/57/2013/08/27/b728f91e0a2360cee2b10a9a1e93948c.pdf) — `src-ualtaeva-petites-villes2011` (ne prouve pas bien)
+- **Décision de Guizmo** : …
+
+### Q16-02 — Répertoires administratifs illisibles pour Claude *(question de Claude)*
+
+- **Ce qu'on sait** : Les répertoires officiels de 1940, 1941 (Tadjikistan, Turkménistan) et le supplément de 1944 sont de gros PDF ou des pages de bibliothèque que l'outil de Claude ne lit pas. Claude a lu lui-même deux pages du supplément de 1944 (Astrakhan, Kemerovo et le Kouzbass) : elles concordent avec Ether.
+- **Ce que ça change sur la carte** : 225 des 254 villes du lot gardent au moins un rôle « À renforcer » (surtout rail et administration), sans que la fonction soit mise en doute.
+- **Choix possibles** : Ether indique pour chaque ville l'adresse de l'image de la page (comme pour le supplément de 1944) ; ou on accepte ces répertoires comme preuve sur la lecture d'Ether.
+- **Sources liées** (cliquer pour ouvrir) :
+  - [URSS. Division administrative et territoriale des républiques fédérées au 1er mai 1940](http://elib.shpl.ru/ru/nodes/8481) — `src-shpl-admin1940` (illisible pour Claude)
+  - [URSS — répertoire administratif au 1er janvier 1941, RSS kirghize](https://istmat.org/files/uploads/17632/sssr_ad-ter_delenie_1941_kirgizskaya_ssr.pdf) — `src-sssr-admin1941-kirghizistan` (lecture partielle)
+  - [URSS — répertoire administratif au 1er janvier 1941, RSS tadjike](https://istmat.org/files/uploads/17632/sssr_ad-ter_delenie_1941_tadzhikskaya_ssr.pdf) — `src-sssr-admin1941-tadjikistan` (illisible pour Claude)
+  - [URSS — répertoire administratif au 1er janvier 1941, RSS turkmène](https://istmat.org/files/uploads/17632/sssr_ad-ter_delenie_1941_turkmenskaya_ssr.pdf) — `src-sssr-admin1941-turkmenistan` (illisible pour Claude)
+  - [Supplément au répertoire administratif de l’URSS — changements du 01/01/1941 au 01/10/1944](https://kp.rusneb.ru/item/material/dopolnenie-k-spravochniku-administrativno-territorialnoe-delenie-soyuznyh-respublik-vypuska-1941-g-izmeneniya-proizoshedshie-za-period-s-1-yanvarya-1941-g-po-1-oktyabrya-1944-g-informacionno-statisticheskij-otdel-pri-sekretariate-prezidiuma-verhovnogo-soveta-sssr) — `src-neb-admin1944-supplement` (lecture partielle)
+- **Décision de Guizmo** : …
+
+### Q16-03 — Noms « de 1945 » qui ne sont qu'une autre transcription *(question de Claude)*
+
+- **Ce qu'on sait** : Sur les 89 villes du lot affichées sous un nom de 1945, une cinquantaine ne changent que l'orthographe (Tokmok/Tokmak, Farap/Farab, Kara-Suu/Kara-Sou, Balkhash/Balkhach…) ; plusieurs fiches portent une forme locale ou anglaise plutôt que française (Sulukta, Baýramaly, Yangiyo‘l, Mandalgovĭ, Nalayh). Les vrais changements de nom (Frounzé, Stalinabad, Alma-Ata, Stalinsk, Akmolinsk, Djibkhalantou…) sont bien prouvés à part.
+- **Ce que ça change sur la carte** : Gardé tel que proposé par Ether ; seules Nikolaïevsk et Komsomolsk-sur-l'Amour (différence d'apostrophe) ne sont plus affichées comme renommées.
+- **Choix possibles** : Une règle unique de transcription française pour toute la série (comme Q15-04) : la fiche prend la forme française, et le nom de 1945 n'est affiché que s'il s'agit d'un autre nom ; ou garder tel quel.
 - **Décision de Guizmo** : …
 
 ## Villes marquées « À renforcer » (rappel)
@@ -521,6 +1123,7 @@ Ce ne sont pas des décisions à prendre : ce sont des rôles (port, rail, indus
 | 1.2 | 42 | 73 |
 | 1.3 | 11 | 53 |
 | 1.4 | 29 | 61 |
-| 1.5 | 79 | 200 |
+| 1.5 | 78 | 200 |
+| 1.6 | 225 | 254 |
 
-**Total : 52 points à trancher.**
+**Total : 124 points à trancher.**
