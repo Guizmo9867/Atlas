@@ -10,7 +10,7 @@ ECHANGE = pathlib.Path(sys.argv[1])
 d = json.load(open(RACINE / 'data/sources/sources_a_valider.json', encoding='utf-8'))
 S = d['sources']
 GROUPES = {'a_lire': "Claude n'a pas pu lire la page", 'partielle': 'Lecture partielle ou faible', 'lien_mort': 'Lien mort', 'remplacee': 'Déjà remplacée (facultatif)'}
-modele = (RACINE / 'outils/sources/page_sources_a_valider_modele.html').read_text(encoding='utf-8')
+modele = (RACINE / 'outils/sources/page_sources_a_valider_modele.html').read_text(encoding='utf-8').split('-->\n', 1)[-1]
 (ECHANGE / '00_SOURCES_A_VALIDER.html').write_text(modele.replace('__DONNEES__', json.dumps(d, ensure_ascii=False).replace('</', '<\\/')), encoding='utf-8')
 out = ['# Atlas — sources à valider', '',
        f"*Généré le {datetime.datetime.now().strftime('%d/%m/%Y à %H h %M')} depuis le registre v{d.get('version_registre')} : {len(S)} sources que Claude n'a pas pu confirmer.*", '',
