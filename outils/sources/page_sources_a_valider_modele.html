@@ -75,6 +75,17 @@ textarea { width: 100%; box-sizing: border-box; min-height: 2.6em; resize: verti
 .local[data-actif="1"] { display: grid; }
 .local p { margin: 0; font-size: .9rem; }
 .b-sauver { background: var(--ambre); color: #1b1712; border-color: var(--ambre); justify-self: start; }
+.complements { display: grid; gap: 6px; }
+.complements label { font: 600 .74rem var(--texte); letter-spacing: .06em; text-transform: uppercase; color: var(--encre-2); }
+.pj-liste { display: flex; flex-wrap: wrap; gap: 8px; }
+.pj { display: flex; align-items: center; gap: 6px; border: 1px solid var(--trait); border-radius: 6px; padding: 4px 6px; font-size: .8rem; max-width: 100%; min-width: 0; }
+.pj img { width: 48px; height: 48px; object-fit: cover; border-radius: 4px; }
+.pj span { overflow-wrap: anywhere; }
+.pj button { border: 0; background: transparent; color: var(--encre-2); cursor: pointer; font-size: 1rem; padding: 2px 4px; }
+.b-pj { background: transparent; color: var(--encre); border-color: var(--trait); justify-self: start; }
+.petit { font-size: .8rem; color: var(--encre-2); margin: 0; }
+.liens-guizmo { display: flex; flex-direction: column; gap: 2px; font-size: .85rem; }
+.liens-guizmo a { color: var(--encre); overflow-wrap: anywhere; }
 @media (prefers-reduced-motion: reduce) { .jauge span { transition: none; } }
 </style>
 
@@ -90,7 +101,7 @@ textarea { width: 100%; box-sizing: border-box; min-height: 2.6em; resize: verti
   </section>
 
   <section class="local" id="local" aria-label="Enregistrement sur l'ordinateur">
-    <p><b>Mode fichier (sur ton PC).</b> Tes choix sont gardés dans ce navigateur. Quand tu as fini (ou de temps en temps), clique sur le bouton et enregistre le fichier <b>dans le dossier Atlas du Bureau</b> : Claude le reportera dans le registre.</p>
+    <p><b>Mode fichier (sur ton PC).</b> Tes choix, tes nouveaux liens et tes pièces jointes (captures, PDF) sont gardés dans ce navigateur. Quand tu as fini (ou de temps en temps), clique sur le bouton et enregistre le fichier <b>dans le dossier Atlas du Bureau</b> : Claude le reportera dans le registre et vérifiera les nouveaux liens et pièces jointes.</p>
     <button class="b b-sauver" type="button" id="sauver">💾 Enregistrer mes décisions dans le dossier Atlas</button>
     <p id="sauve-etat"></p>
   </section>
@@ -137,7 +148,7 @@ function filtres() {
 
 function fiche(s) {
   const v = validations[s.id]
-  const f = el('article', 'fiche'); f.dataset.decision = v?.decision || ''
+  const f = el('article', 'fiche'); f.id = 'fiche-' + s.id; f.dataset.decision = v?.decision || ''
   const t = el('div', 'entete')
   t.append(el('span', 'groupe', (s.domaine === 'villes' ? 'Villes \u00b7 ' : 'Fronti\u00e8res \u00b7 ') + GROUPES[s.groupe]), el('h2', 'titre', s.titre || s.id), el('span', 'institution', `${s.institution || ''}${s.niveau ? ' · niveau ' + s.niveau : ''}`))
   f.append(t)
@@ -166,13 +177,39 @@ function fiche(s) {
     if (v.commentaire) d.append(el('span', null, '« ' + v.commentaire + ' »'))
     act.append(d)
   }
+  const c = complements[s.id] || { liens: [], pieces: [] }
   const ta = el('textarea'); ta.id = 'com-' + s.id; ta.placeholder = 'Un mot si besoin (facultatif) : ce que tu as trouvé, ce qui manque… Pour « la suite plus tard » : quel changement, et vers quelle date'; ta.value = v?.commentaire || ''
+  // Compléments : autres liens qui prouvent la même chose, captures d'écran, passages de PDF
+  const comp = el('div', 'complements')
+  const lab = el('label', null, 'Autres liens qui prouvent la même chose (un par ligne)'); lab.htmlFor = 'liens-' + s.id
+  const tl = el('textarea'); tl.id = 'liens-' + s.id; tl.placeholder = 'https://…'; tl.disabled = !peutEcrire
+  tl.value = (local ? c.liens : (v?.liens || [])).join('\n')
+  tl.onchange = () => { if (local) { const x = complements[s.id] || (complements[s.id] = { liens: [], pieces: [] }); x.liens = lireLiens(tl.value); ecrireCompl() } }
+  comp.append(lab, tl)
+  if (!local && v?.liens?.length) { const lg = el('div', 'liens-guizmo'); v.liens.forEach((u) => { const a = el('a', null, u + ' ↗'); a.href = u; a.target = '_blank'; a.rel = 'noopener'; lg.append(a) }); comp.append(lg) }
+  if (local) {
+    comp.append(el('label', null, 'Pièces jointes (captures, PDF)'))
+    const pl = el('div', 'pj-liste')
+    for (const p of c.pieces) {
+      const d = el('div', 'pj')
+      if (p.type.startsWith('image/')) { const im = el('img'); im.alt = ''; idbLire(p.cle).then((b) => { if (b) { im.src = URL.createObjectURL(b); im.onclick = () => window.open(im.src, '_blank') } }).catch(() => {}); d.append(im) }
+      else d.append(el('span', null, '📄'))
+      d.append(el('span', null, `${p.nom} (${Math.max(1, Math.round(p.taille / 1024))} Ko)`))
+      const x = el('button', null, '✕'); x.type = 'button'; x.title = 'Retirer'; x.setAttribute('aria-label', 'Retirer ' + p.nom); x.onclick = () => retirerPiece(s.id, p.cle)
+      d.append(x); pl.append(d)
+    }
+    const inp = el('input'); inp.type = 'file'; inp.accept = 'image/*,application/pdf'; inp.multiple = true; inp.hidden = true
+    inp.onchange = () => { joindre(s.id, [...inp.files]); inp.value = '' }
+    const bj = el('button', 'b b-pj', '📎 Joindre une capture ou un PDF'); bj.type = 'button'; bj.onclick = () => inp.click()
+    comp.append(pl, inp, bj, el('p', 'petit', 'Astuce : fais une capture (touches Windows + Maj + S), puis colle-la (Ctrl + V) dans une des cases de cette fiche.'))
+    f.addEventListener('paste', (e) => { const fs = [...(e.clipboardData?.files || [])]; if (fs.length) { e.preventDefault(); joindre(s.id, fs) } })
+  } else comp.append(el('p', 'petit', 'Pour joindre une capture ou un PDF : utilise la page 00_SOURCES_A_VALIDER.html du dossier Atlas, sur le PC.'))
   const bs = el('div', 'boutons')
-  const btn = (cls, txt, decision) => { const b = el('button', 'b ' + cls, txt); b.type = 'button'; b.disabled = !peutEcrire; b.onclick = () => decider(s.id, decision, ta.value.trim(), b); return b }
+  const btn = (cls, txt, decision) => { const b = el('button', 'b ' + cls, txt); b.type = 'button'; b.disabled = !peutEcrire; b.onclick = () => decider(s.id, decision, ta.value.trim(), b, lireLiens(tl.value)); return b }
   bs.append(btn('b-ok', '✓ Ça prouve', 'verifiee'), btn('b-ok', '✓ Prouve pour 1945 (la suite plus tard)', 'verifiee_s0'), btn('b-non', '✗ Ne prouve pas', 'ne_prouve_pas'), btn('b-mort', 'Lien mort', 'lien_mort'))
   if (v) { const b = el('button', 'b b-annuler', 'Annuler'); b.type = 'button'; b.disabled = !peutEcrire; b.onclick = () => annuler(s.id, b); bs.append(b) }
   const err = el('p', 'erreur'); err.id = 'err-' + s.id; err.hidden = true
-  act.append(ta, bs, err)
+  act.append(ta, comp, bs, err)
   f.append(act)
   return f
 }
@@ -188,19 +225,81 @@ function rendre() {
   vues.forEach((s) => liste.append(fiche(s)))
 }
 
+// Compléments (mode fichier) : liens gardés dans localStorage, fichiers dans IndexedDB
+const CLE_COMPL = 'atlas_complements_sources'
+let complements = {}   // id source -> {liens: [...], pieces: [{cle, nom, type, taille}]}
+const lireLiens = (txt) => txt.split(/\s+/).map((x) => x.trim()).filter((x) => /^https?:\/\//i.test(x))
+function lireCompl() { try { return JSON.parse(localStorage.getItem(CLE_COMPL) || '{}') } catch { return {} } }
+function ecrireCompl() { try { localStorage.setItem(CLE_COMPL, JSON.stringify(complements)) } catch {} }
+let idb = null
+function ouvrirIdb() { return new Promise((ok) => { try { const r = indexedDB.open('atlas_pieces', 1); r.onupgradeneeded = () => r.result.createObjectStore('pieces'); r.onsuccess = () => ok(r.result); r.onerror = () => ok(null) } catch { ok(null) } }) }
+function idbOp(mode, f) { return new Promise((ok, ko) => { if (!idb) return ko(new Error('stockage indisponible')); const tx = idb.transaction('pieces', mode); const r = f(tx.objectStore('pieces')); tx.oncomplete = () => ok(r?.result); tx.onerror = () => ko(tx.error) }) }
+const idbMettre = (cle, blob) => idbOp('readwrite', (st) => st.put(blob, cle))
+const idbLire = (cle) => idbOp('readonly', (st) => st.get(cle))
+const idbOter = (cle) => idbOp('readwrite', (st) => st.delete(cle))
+function rafraichirFiche(id) {
+  const s = DONNEES.find((x) => x.id === id), ancien = $('fiche-' + id); if (!s || !ancien) return rendre()
+  const com = $('com-' + id)?.value, li = $('liens-' + id)?.value
+  const nouveau = fiche(s); ancien.replaceWith(nouveau)
+  if (com != null) $('com-' + id).value = com
+  if (li != null) $('liens-' + id).value = li
+}
+function signaler(id, txt) { const e = $('err-' + id); if (e) { e.textContent = txt; e.hidden = false } }
+async function preparer(fichier) {
+  if (fichier.type.startsWith('image/') && fichier.size > 700000) {
+    try {
+      const bmp = await createImageBitmap(fichier); const k = Math.min(1, 2000 / Math.max(bmp.width, bmp.height))
+      const cv = document.createElement('canvas'); cv.width = Math.round(bmp.width * k); cv.height = Math.round(bmp.height * k)
+      cv.getContext('2d').drawImage(bmp, 0, 0, cv.width, cv.height)
+      const b = await new Promise((ok) => cv.toBlob(ok, 'image/jpeg', 0.85))
+      if (b && b.size < fichier.size) return new File([b], (fichier.name || 'capture').replace(/\.\w+$/, '') + '.jpg', { type: 'image/jpeg' })
+    } catch {}
+  }
+  return fichier
+}
+async function joindre(id, fichiers) {
+  if (!idb) idb = await ouvrirIdb()
+  const c = complements[id] || (complements[id] = { liens: [], pieces: [] })
+  const tl = $('liens-' + id); if (tl) c.liens = lireLiens(tl.value)
+  for (let f of fichiers) {
+    if (!(f.type.startsWith('image/') || f.type === 'application/pdf')) { signaler(id, 'Seulement des images (captures) ou des PDF.'); continue }
+    f = await preparer(f)
+    if (f.size > 25e6) { signaler(id, f.name + ' est trop gros (plus de 25 Mo) : garde seulement les pages utiles.'); continue }
+    const ext = f.type === 'application/pdf' ? 'pdf' : (f.type.split('/')[1] || 'png').replace('jpeg', 'jpg')
+    const base = ((f.name && f.name !== 'image.png') ? f.name.replace(/\.\w+$/, '') : 'capture').replace(/[^\w.-]+/g, '_').slice(0, 40) || 'piece'
+    let nom = base + '.' + ext, i = 2
+    while (c.pieces.some((p) => p.nom === nom)) nom = base + '_' + (i++) + '.' + ext
+    const cle = id + '/' + nom
+    try { await idbMettre(cle, f) } catch { signaler(id, 'Impossible de garder ce fichier dans le navigateur.'); continue }
+    c.pieces.push({ cle, nom, type: f.type, taille: f.size })
+  }
+  ecrireCompl(); rafraichirFiche(id)
+}
+async function retirerPiece(id, cle) {
+  const c = complements[id]; if (!c) return
+  c.pieces = c.pieces.filter((p) => p.cle !== cle); ecrireCompl()
+  try { await idbOter(cle) } catch {}
+  rafraichirFiche(id)
+}
+const versBase64 = (blob) => new Promise((ok, ko) => { const r = new FileReader(); r.onload = () => ok(String(r.result).split(',')[1]); r.onerror = ko; r.readAsDataURL(blob) })
+
 // Mode fichier : sans claude.ai, les choix sont gardés dans le navigateur puis enregistrés dans un fichier JSON
 const CLE_LOCALE = 'atlas_validations_sources'
 let local = false
 function lireLocal() { try { return JSON.parse(localStorage.getItem(CLE_LOCALE) || '{}') } catch { return {} } }
 function ecrireLocal() { try { localStorage.setItem(CLE_LOCALE, JSON.stringify(validations)) } catch {} }
 async function sauverFichier() {
-  const contenu = JSON.stringify({ par: 'Guizmo', enregistre_le: new Date().toISOString(), version_registre: JSON.parse(document.getElementById('donnees').textContent).version_registre, decisions: validations }, null, 1)
+  $('sauve-etat').textContent = 'Préparation du fichier…'
+  for (const id of Object.keys(complements)) { const tl = $('liens-' + id); if (tl) complements[id].liens = lireLiens(tl.value) }
+  const pieces_donnees = {}
+  for (const c of Object.values(complements)) for (const p of c.pieces || []) { try { const b = await idbLire(p.cle); if (b) pieces_donnees[p.cle] = await versBase64(b) } catch {} }
+  const contenu = JSON.stringify({ par: 'Guizmo', enregistre_le: new Date().toISOString(), version_registre: JSON.parse(document.getElementById('donnees').textContent).version_registre, decisions: validations, complements, pieces_donnees }, null, 1)
   const nom = 'decisions_sources_guizmo.json'
   try {
     if (window.showSaveFilePicker) {
       const h = await window.showSaveFilePicker({ suggestedName: nom, types: [{ description: 'Décisions', accept: { 'application/json': ['.json'] } }] })
       const w = await h.createWritable(); await w.write(contenu); await w.close()
-      $('sauve-etat').textContent = 'Enregistré (' + Object.keys(validations).length + ' décisions). Vérifie qu’il est bien dans le dossier Atlas du Bureau.'
+      $('sauve-etat').textContent = 'Enregistré (' + Object.keys(validations).length + ' décisions, ' + Object.keys(pieces_donnees).length + ' pièces jointes). Vérifie qu’il est bien dans le dossier Atlas du Bureau.'
       return
     }
   } catch (e) { if (e?.name === 'AbortError') return }
@@ -209,11 +308,14 @@ async function sauverFichier() {
 }
 $('sauver').onclick = sauverFichier
 
-async function decider(id, decision, commentaire, bouton) {
-  if (local) { validations[id] = { decision, commentaire, par: 'Guizmo', le: new Date().toISOString() }; ecrireLocal(); rendre(); return }
+async function decider(id, decision, commentaire, bouton, liens = []) {
+  if (local) {
+    const c = complements[id] || (complements[id] = { liens: [], pieces: [] }); c.liens = liens; ecrireCompl()
+    validations[id] = { decision, commentaire, liens, par: 'Guizmo', le: new Date().toISOString() }; ecrireLocal(); rendre(); return
+  }
   const err = $('err-' + id); err.hidden = true; bouton.disabled = true
   try {
-    await db.collection('validations').doc(id).set({ decision, commentaire, par: moi || '', le: new Date().toISOString() })
+    await db.collection('validations').doc(id).set({ decision, commentaire, liens, par: moi || '', le: new Date().toISOString() })
   } catch (e) {
     err.textContent = e?.code === 'permission_denied' ? 'Tu n’as pas le droit d’enregistrer ici (demande un accès « contributeur »).' : 'Pas enregistré : réessaie dans un instant.'
     err.hidden = false; bouton.disabled = false
@@ -231,7 +333,7 @@ rendre()
 ;(async () => {
   db = await window.claude?.use?.('db') ?? null
   user = await window.claude?.use?.('user') ?? null
-  if (!db) { local = true; peutEcrire = true; validations = lireLocal(); $('local').dataset.actif = '1'; $('etat').textContent = 'Mode fichier : choix gardés sur ce PC'; rendre(); return }
+  if (!db) { local = true; peutEcrire = true; validations = lireLocal(); complements = lireCompl(); idb = await ouvrirIdb(); $('local').dataset.actif = '1'; $('etat').textContent = 'Mode fichier : choix gardés sur ce PC'; rendre(); return }
   try { moi = user ? (await user.me()).id : null } catch { moi = null }
   try { peutEcrire = user ? (await user.can('data.write')) !== false : true } catch { peutEcrire = true }
   $('etat').textContent = peutEcrire ? 'Enregistrement actif' : 'Lecture seule'

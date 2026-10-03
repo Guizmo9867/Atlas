@@ -1,6 +1,6 @@
 # Atlas Eurasie — chiffres du projet
 
-*Généré automatiquement depuis le dépôt le 2026-10-03 12:35. Aucun chiffre estimé : tout est compté dans les fichiers.
+*Généré automatiquement depuis le dépôt le 2026-10-03 13:05. Aucun chiffre estimé : tout est compté dans les fichiers.
 Version machine : `data/chiffres_projet.json`.*
 
 ## Snapshot 0 (Europe au 1er janvier 1945, 0 h)
@@ -24,11 +24,11 @@ Lots de frontières : 4. Lots de villes : 7 (villes_1-0_france_benelux_iles_brit
 | Sources au registre (v1.19) | 707 |
 | Confirmées par la relecture de Claude | 454 (64 %) |
 | Lecture partielle / faible / illisible / lien mort | 100 / 11 / 126 / 16 |
-| En attente de validation humaine | 253 |
-| Validées par Guizmo | 0 |
+| En attente de validation humaine | 252 |
+| Validées par Guizmo | 1 |
 | Niveaux (A primaire / B secondaire / C exploratoire) | 111 / 565 / 31 |
 
 ## Historique
 
-- Envois sur GitHub : 35 (du 2026-09-28 au 2026-10-03).
+- Envois sur GitHub : 36 (du 2026-09-28 au 2026-10-03).
 - Dépôt public : https://github.com/Guizmo9867/Atlas
