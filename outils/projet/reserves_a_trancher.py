@@ -51,6 +51,16 @@ QUESTIONS_CLAUDE = {
          "Ces 4 villes gardent leurs rôles « À renforcer ».",
          "Ether dépose ces pages ; ou garder la réserve."),
     ],
+    'villes_1-8': [
+        ("Q18-01 — Sources du lot 1.8 que l'outil de Claude ne lit pas",
+         "13 sources sur 66 : 7 pages du rapport « Railway reconstruction Italy 1943-1946 » (Treni di Carta : page vide pour l'outil ; 2.2.1, 2.2.2, 2.2.4, 2.2.5, 2.3.4, 2.3.7, 2.3.10), Albpetrol (Kuçovë, Vlorë), Țara Bârsei 2003 (13 villes de Transylvanie, refus 403), Sibiu, Constanța (musée), Marine de Tarente, Olbia.",
+         "Les rôles qui n'ont que ces sources restent « À renforcer » (65 villes sur 361, surtout le rail en Italie centrale et en Transylvanie).",
+         "Ether dépose des captures des passages ; ou une autre source ; Guizmo peut valider sur la page « Sources à valider » ; ou garder la réserve."),
+        ("Q18-02 — Sources du lot 1.8 lues en partie",
+         "La page est lue mais ne nomme pas toutes les villes : chemins de fer roumains (Buzău, Brăila, Tecuci), BDŽ (Plovdiv), ZFBH (Derventa, Tuzla), Sarajevo (rail), Treccani Roumanie (Craiova, Ploiești), Treccani Grèce (industrie d'Athènes, du Pirée, de Salonique, de Kavala), rapport de secours grec ELIA (texte scanné peu lisible : seules Kalamata, Preveza et Athènes relues), Ligne 89 (seule Aversa). Les 5 cartes OSS ont été lues par Claude sur les images d'Ether : 271 villes confirmées une à une.",
+         "Seules les villes nommées comptent comme prouvées ; les autres gardent « À renforcer ».",
+         "Ether dépose une capture ou une autre source pour ces villes ; ou garder la réserve."),
+    ],
 }
 
 def nettoyer(t):

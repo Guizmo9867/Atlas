@@ -1,0 +1,3254 @@
+{
+  "metadata_delta": {
+    "lot": "villes_1-8",
+    "cycle": 1,
+    "date": "2026-10-04T18:39:21.488422+02:00",
+    "statut": "propose_pour_integration",
+    "portee": "Uniquement nouvelles fiches et complément ciblé ; fusion par union, champs inconnus et vérifications antérieures préservés."
+  },
+  "sources": [
+    {
+      "source_id": "src-18-it-re-1946-est43",
+      "operation_registre": "ajouter",
+      "niveau": "A",
+      "type_source": "rapport_epoque",
+      "titre": "Railway reconstruction Italy 1943–1946, II.II.1",
+      "institution": "Royal Engineers (1946), transcription Treni di Carta",
+      "url": "https://www.trenidicarta.it/reconstruction/2_2_1.html",
+      "date_consultation": "2026-10-04",
+      "cibles": [
+        "ville-it-barletta",
+        "ville-it-foggia",
+        "ville-it-reggio-calabre",
+        "ville-it-san-severo",
+        "ville-it-tarente"
+      ],
+      "usage": [
+        "ville-it-reggio-calabre — rail : La liaison Reggio–Tarente est rétablie fin septembre 1943.",
+        "ville-it-tarente — rail : Terminus de la liaison rétablie en septembre 1943 ; arrivée des unités ferroviaires en octobre.",
+        "ville-it-barletta — rail : Base du chantier ferroviaire qui rétablit la liaison vers San Severo en octobre 1943.",
+        "ville-it-san-severo — rail : La ligne côtière remise en service atteint San Severo à la mi-octobre 1943.",
+        "ville-it-foggia — rail : Le rapport situe les viaducs reconstruits sur la liaison Barletta–Foggia en 1943."
+      ],
+      "locator": "II.II.1, paragraphes 1,2 et 6",
+      "note": "Rapport des services constructeurs, publié 1946 : seuls faits datés 1943 retenus ; transcription non collationnée sur édition papier. Ne prouve pas chaque niveau de service fin 1944. Les cibles hors du fichier de données restent différées ; aucune validation humaine présumée.",
+      "resume_passage": "",
+      "verification_ether": {
+        "date": "2026-10-04",
+        "statut": "passage_lu",
+        "limite": "Rapport des services constructeurs, publié1946 : seuls faits datés1943 retenus ; transcription non collationnée sur édition papier. Ne prouve pas chaque niveau de service fin1944."
+      },
+      "usages_atlas": [
+        "rail"
+      ],
+      "verification_claude": "non_verifiee",
+      "resume_francais": "rail : La liaison Reggio–Tarente est rétablie fin septembre 1943."
+    },
+    {
+      "source_id": "src-18-it-re-1946-ouest43",
+      "operation_registre": "ajouter",
+      "niveau": "A",
+      "type_source": "rapport_epoque",
+      "titre": "Railway reconstruction Italy 1943–1946, II.II.2",
+      "institution": "Royal Engineers (1946), transcription Treni di Carta",
+      "url": "https://www.trenidicarta.it/reconstruction/2_2_2.html",
+      "date_consultation": "2026-10-04",
+      "cibles": [
+        "ville-it-naples",
+        "ville-it-salerne"
+      ],
+      "usage": [
+        "ville-it-salerne — rail : La liaison logistique Salerne–Naples fait l’objet de réparations ferroviaires en octobre 1943.",
+        "ville-it-naples — rail, port_maritime : En octobre 1943, le réseau du port est raccordé aux triages des lignes de Rome et Foggia."
+      ],
+      "locator": "II.II.2, octobre 1943",
+      "note": "Rapport de reconstruction, publié 1946 ; dates de 1943 explicitement retenues. Pas de capacité inventée au Snapshot. Les cibles hors du fichier de données restent différées ; aucune validation humaine présumée.",
+      "resume_passage": "",
+      "verification_ether": {
+        "date": "2026-10-04",
+        "statut": "passage_lu",
+        "limite": "Rapport de reconstruction, publié1946 ; dates de1943 explicitement retenues. Pas de capacité inventée auSnapshot."
+      },
+      "usages_atlas": [
+        "port_maritime",
+        "rail"
+      ],
+      "verification_claude": "non_verifiee",
+      "resume_francais": "rail : La liaison logistique Salerne–Naples fait l’objet de réparations ferroviaires en octobre 1943."
+    },
+    {
+      "source_id": "src-18-it-re-1946-ligne86",
+      "operation_registre": "ajouter",
+      "niveau": "A",
+      "type_source": "rapport_epoque",
+      "titre": "Railway reconstruction Italy 1943–1946, II.III.2, ligne 86",
+      "institution": "Royal Engineers (1946), transcription Treni di Carta",
+      "url": "https://www.trenidicarta.it/reconstruction/2_3_2.html",
+      "date_consultation": "2026-10-04",
+      "cibles": [
+        "ville-it-ancone",
+        "ville-it-bari",
+        "ville-it-bologne",
+        "ville-it-brindisi",
+        "ville-it-lecce",
+        "ville-it-ortona",
+        "ville-it-pesaro",
+        "ville-it-pescara",
+        "ville-it-rimini",
+        "ville-it-termoli"
+      ],
+      "usage": [
+        "ville-it-lecce — rail : Ville explicitement située sur la ligne 86 antérieure à 1945 ; fonctionnement fin 1944 à distinguer des reconstructions de 1945.",
+        "ville-it-brindisi — rail, port_maritime : Ville explicitement située sur la ligne 86 antérieure à 1945 ; fonctionnement fin 1944 à distinguer des reconstructions de 1945.",
+        "ville-it-bari — rail, port_maritime : Ville explicitement située sur la ligne 86 antérieure à 1945 ; fonctionnement fin 1944 à distinguer des reconstructions de 1945.",
+        "ville-it-termoli — rail : Ville explicitement située sur la ligne 86 antérieure à 1945 ; fonctionnement fin 1944 à distinguer des reconstructions de 1945.",
+        "ville-it-ortona — rail : Le premier train franchit le tunnel du Moro le 10 avril 1944, au sud de la ville.",
+        "ville-it-pescara — rail : La ligne et la gare précèdent 1945 ; pont détruit en 1944, réouverture du pont seulement en mai 1945.",
+        "ville-it-ancone — rail, port_maritime : Ville explicitement située sur la ligne 86 antérieure à 1945 ; fonctionnement fin 1944 à distinguer des reconstructions de 1945.",
+        "ville-it-pesaro — rail : La réparation provisoire du pont au nord de la gare est renforcée entre septembre et octobre 1944.",
+        "ville-it-rimini — rail : La première réparation du franchissement au nord de la gare est exécutée de septembre à novembre 1944.",
+        "ville-it-bologne — rail : Le rapport décrit Bologne comme le principal point d’échange ferroviaire de la plaine du Pô ; aucune réouverture alliée 1945 anticipée."
+      ],
+      "locator": "Description de la ligne 86 et légendes des travaux 1943–1944",
+      "note": "Attention : §g donne 1945 pour Cesano/Metauro alors que légendes 14–15 donnent 1944. Dates divergentes réservées. Pescara et tunnel sud d’Ancône ne rouvrent qu’en 1945 ; aucun fonctionnement continu national présumé. Les cibles hors du fichier de données restent différées ; aucune validation humaine présumée.",
+      "resume_passage": "",
+      "verification_ether": {
+        "date": "2026-10-04",
+        "statut": "passage_lu",
+        "limite": "Attention : §g donne1945 pour Cesano/Metauro alors que légendes14–15 donnent1944. Dates divergentes réservées. Pescara et tunnel sudAncône ne rouvrent qu’en1945 ; aucun fonctionnement continu national présumé."
+      },
+      "usages_atlas": [
+        "port_maritime",
+        "rail"
+      ],
+      "verification_claude": "non_verifiee",
+      "resume_francais": "rail : Ville explicitement située sur la ligne 86 antérieure à 1945 ; fonctionnement fin 1944 à distinguer des reconstructions de 1945."
+    },
+    {
+      "source_id": "src-18-ro-cfr-histoire",
+      "operation_registre": "ajouter",
+      "niveau": "B",
+      "type_source": "etude_ou_histoire_institutionnelle",
+      "titre": "File de istorie feroviară",
+      "institution": "CFR SA",
+      "url": "https://cfr.ro/file-de-istorie-feroviara/",
+      "date_consultation": "2026-10-04",
+      "cibles": [
+        "ville-ro-arad",
+        "ville-ro-bazias",
+        "ville-ro-braila",
+        "ville-ro-bucarest",
+        "ville-ro-buzau",
+        "ville-ro-galati",
+        "ville-ro-giurgiu",
+        "ville-ro-iasi",
+        "ville-ro-oravita",
+        "ville-ro-pitesti",
+        "ville-ro-roman",
+        "ville-ro-tecuci"
+      ],
+      "usage": [
+        "ville-ro-oravita — rail : La ligne charbonnière vers Baziaș ouvre en 1854.",
+        "ville-ro-bazias — rail, port_fluvial : Le terminus danubien est relié à Oravița en 1854.",
+        "ville-ro-bucarest — rail : Le rail rejoint Giurgiu en 1869 et Pitești en 1872.",
+        "ville-ro-giurgiu — rail : La liaison avec Bucarest ouvre en 1869.",
+        "ville-ro-pitesti — rail : La ligne vers Bucarest ouvre en 1872.",
+        "ville-ro-roman — rail : La ville est le terminus de la liaison ouverte en 1872.",
+        "ville-ro-galati — rail : La ville figure sur le tronçon inauguré en 1872.",
+        "ville-ro-buzau — rail : La ville figure sur la liaison Vârciorova–Roman.",
+        "ville-ro-braila — rail : La ville figure sur la liaison Vârciorova–Roman.",
+        "ville-ro-tecuci — rail : La ville figure sur la liaison Vârciorova–Roman.",
+        "ville-ro-arad — industrie : Les ateliers fabriquent du matériel pour les CFR après 1918.",
+        "ville-ro-iasi — rail : La liaison avec Lețcani est doublée en 1895."
+      ],
+      "locator": "Chronologie 1854,1869,1872–1878 et 1918",
+      "note": "Historique officiel ; preuve de liaisons locales antérieures à 1945, sans attester le trafic exact de chaque gare fin 1944. Date 1868 de Gara de Nord à ne pas retenir sans confrontation. Les cibles hors du fichier de données restent différées ; aucune validation humaine présumée.",
+      "resume_passage": "",
+      "verification_ether": {
+        "date": "2026-10-04",
+        "statut": "passage_lu",
+        "limite": "Historique officiel ; preuve de liaisons locales antérieures à1945, sans attester le trafic exact de chaque gare fin1944. Date1868 de Gara de Nord à ne pas retenir sans confrontation."
+      },
+      "usages_atlas": [
+        "industrie",
+        "port_fluvial",
+        "rail"
+      ],
+      "verification_claude": "non_verifiee",
+      "resume_francais": "rail : La ligne charbonnière vers Baziaș ouvre en 1854."
+    },
+    {
+      "source_id": "src-18-bg-bdz-histoire",
+      "operation_registre": "ajouter",
+      "niveau": "B",
+      "type_source": "etude_ou_histoire_institutionnelle",
+      "titre": "The history of BDZ",
+      "institution": "Chemins de fer bulgares BDZ",
+      "url": "https://www.bdz.bg/en/a/the-history-of-bdz",
+      "date_consultation": "2026-10-04",
+      "cibles": [
+        "ville-bg-belovo",
+        "ville-bg-rousse",
+        "ville-bg-sofia",
+        "ville-bg-varna",
+        "ville-rs-dimitrovgrad"
+      ],
+      "usage": [
+        "ville-bg-rousse — rail : La liaison Roussé–Varna ouvre en 1866.",
+        "ville-bg-varna — rail : La liaison avec Roussé ouvre en 1866.",
+        "ville-bg-sofia — rail : La liaison Caribrod–Sofia–Belovo ouvre au trafic international en 1888.",
+        "ville-bg-belovo — rail : La ville est terminus ferroviaire en 1873, puis sur la ligne internationale de 1888.",
+        "ville-rs-dimitrovgrad — rail : La ville est un terminus de la ligne internationale ouverte en 1888."
+      ],
+      "locator": "Entrées 1866,1873,1888",
+      "note": "Liaisons et gares nommément datées avant 1945 ; pas de fréquence ni de continuité fin 1944 présumée. Le ferry Varna–Ilitchivsk 1978 est exclu. Les cibles hors du fichier de données restent différées ; aucune validation humaine présumée.",
+      "resume_passage": "",
+      "verification_ether": {
+        "date": "2026-10-04",
+        "statut": "passage_lu",
+        "limite": "Liaisons et gares nommément datées avant1945 ; pas de fréquence ni de continuité fin1944 présumée. Le ferry Varna–Ilitchivsk1978 est exclu."
+      },
+      "usages_atlas": [
+        "rail"
+      ],
+      "verification_claude": "non_verifiee",
+      "resume_francais": "rail : La liaison Roussé–Varna ouvre en 1866."
+    },
+    {
+      "source_id": "src-18-bg-ports-chronique",
+      "operation_registre": "ajouter",
+      "niveau": "B",
+      "type_source": "etude_ou_histoire_institutionnelle",
+      "titre": "Bulgarian Ports 1879–2014",
+      "institution": "Bulgarian Ports Infrastructure Company / Atanas Panayotov",
+      "url": "https://www.bgports.bg/en/about-us/bulgarian-ports-1879-2014/",
+      "date_consultation": "2026-10-04",
+      "cibles": [
+        "ville-bg-bourgas",
+        "ville-bg-lom",
+        "ville-bg-rousse",
+        "ville-bg-svichtov",
+        "ville-bg-varna",
+        "ville-bg-vidin"
+      ],
+      "usage": [
+        "ville-bg-bourgas — port_maritime : Le port moderne ouvre en 1903.",
+        "ville-bg-varna — port_maritime : Le port moderne ouvre en 1906.",
+        "ville-bg-rousse — port_fluvial : Le nouveau port entre en service en 1912.",
+        "ville-bg-svichtov — port_fluvial : Le quai de chargement est construit avant la guerre balkanique.",
+        "ville-bg-vidin — port_fluvial : Le port entre en service en 1908.",
+        "ville-bg-lom — port_fluvial : La première tranche du nouveau port est achevée en 1923."
+      ],
+      "locator": "Présentation de la chronique : entrées 1903–1923",
+      "note": "Dates locales de mise en service ; les capacités inaugurales ne sont pas des capacités au Snapshot 0. Aucune installation autonome créée. Les cibles hors du fichier de données restent différées ; aucune validation humaine présumée.",
+      "resume_passage": "",
+      "verification_ether": {
+        "date": "2026-10-04",
+        "statut": "passage_lu",
+        "limite": "Dates locales de mise en service ; les capacités inaugurales ne sont pas des capacités auSnapshot0. Aucune installation autonome créée."
+      },
+      "usages_atlas": [
+        "port_fluvial",
+        "port_maritime"
+      ],
+      "verification_claude": "non_verifiee",
+      "resume_francais": "port_maritime : Le port moderne ouvre en 1903."
+    },
+    {
+      "source_id": "src-18-hr-zagreb-he",
+      "operation_registre": "ajouter",
+      "niveau": "B",
+      "type_source": "etude_ou_histoire_institutionnelle",
+      "titre": "Zagreb",
+      "institution": "Leksikografski zavod Miroslav Krleža",
+      "url": "https://www.enciklopedija.hr/clanak/zagreb",
+      "date_consultation": "2026-10-04",
+      "cibles": [
+        "ville-hr-split",
+        "ville-hr-zagreb"
+      ],
+      "usage": [
+        "ville-hr-zagreb — rail, administration : La liaison vers Split est achevée en 1925. La ville accueille le gouvernement de la NDH pendant la guerre.",
+        "ville-hr-split — rail : La liaison ferroviaire avec Zagreb est achevée en 1925."
+      ],
+      "locator": "Histoire :1925,1928 et 1941–1945",
+      "note": "Encyclopédie de recherche institutionnelle. Seuls passages historiques employés ; aucun équipement contemporain transposé. Nature juridique de capitale à rapprocher du schéma territorial. Les cibles hors du fichier de données restent différées ; aucune validation humaine présumée.",
+      "resume_passage": "",
+      "verification_ether": {
+        "date": "2026-10-04",
+        "statut": "passage_lu",
+        "limite": "Encyclopédie de recherche institutionnelle. Seuls passages historiques employés ; aucun équipement contemporain transposé. Nature juridique de capitale à rapprocher du schéma territorial."
+      },
+      "usages_atlas": [
+        "administration",
+        "rail"
+      ],
+      "verification_claude": "non_verifiee",
+      "resume_francais": "rail, administration : La liaison vers Split est achevée en 1925. La ville accueille le gouvernement de la NDH pendant la guerre."
+    },
+    {
+      "source_id": "src-18-rs-belgrade-he",
+      "operation_registre": "ajouter",
+      "niveau": "B",
+      "type_source": "etude_ou_histoire_institutionnelle",
+      "titre": "Beograd",
+      "institution": "Leksikografski zavod Miroslav Krleža",
+      "url": "https://www.enciklopedija.hr/clanak/beograd",
+      "date_consultation": "2026-10-04",
+      "cibles": [
+        "ville-rs-belgrade"
+      ],
+      "usage": [
+        "ville-rs-belgrade — administration : Belgrade devient capitale du royaume en 1918 et reste un grand centre urbain avant-guerre."
+      ],
+      "locator": "Histoire :1918 et entre-deux-guerres",
+      "note": "Preuve du statut de capitale du royaume avant-guerre. Situation gouvernementale de fin 1944 à documenter séparément ; les fonctions actuelles ne sont pas transposées. Les cibles hors du fichier de données restent différées ; aucune validation humaine présumée.",
+      "resume_passage": "",
+      "verification_ether": {
+        "date": "2026-10-04",
+        "statut": "passage_lu",
+        "limite": "Preuve du statut de capitale du royaume avant-guerre. Situation gouvernementale de fin1944 à documenter séparément ; les fonctions actuelles ne sont pas transposées."
+      },
+      "usages_atlas": [
+        "administration"
+      ],
+      "verification_claude": "non_verifiee",
+      "resume_francais": "administration : Belgrade devient capitale du royaume en 1918 et reste un grand centre urbain avant-guerre."
+    },
+    {
+      "source_id": "src-18-it-re-1946-ete44",
+      "operation_registre": "ajouter",
+      "niveau": "A",
+      "type_source": "rapport_epoque",
+      "titre": "Reconstruction ferroviaire en Italie : offensive de mai 1944",
+      "institution": "Royal Engineers, 1946 ; transcription Treni di Carta",
+      "url": "https://www.trenidicarta.it/reconstruction/2_2_4.html",
+      "date_consultation": "2026-10-04",
+      "cibles": [
+        "ville-it-arezzo",
+        "ville-it-civita-castellana",
+        "ville-it-civitavecchia",
+        "ville-it-grosseto",
+        "ville-it-livourne",
+        "ville-it-roccasecca",
+        "ville-it-rome"
+      ],
+      "usage": [
+        "ville-it-rome — rail : Rome est reliée à Naples le 2 juillet 1944.",
+        "ville-it-roccasecca — rail : La tête de ligne ouvre le 17 juin 1944.",
+        "ville-it-civita-castellana — rail : La tête de ligne ouvre le 7 juillet 1944 ; localisation urbaine de la gare à préciser.",
+        "ville-it-civitavecchia — rail, port_maritime : Le rapport décrit la remise en liaison du port avec Rome en 1944.",
+        "ville-it-grosseto — rail : La tête de ligne ouvre le 1 er août 1944.",
+        "ville-it-arezzo — rail : La tête de ligne ouvre le 10 août 1944.",
+        "ville-it-livourne — rail : Livourne est atteinte par les réparations ferroviaires le 17 septembre 1944."
+      ],
+      "locator": "II.II.4, § après figure 5 et paragraphes suivants",
+      "note": "Dates de remise en service de juin à septembre 1944. Le rapport est publié en 1946 ; pas de continuité du réseau entier présumée. Les cibles hors du fichier de données restent différées ; aucune validation humaine présumée.",
+      "resume_passage": "",
+      "verification_ether": {
+        "date": "2026-10-04",
+        "statut": "passage_lu",
+        "limite": "Dates de remise en service de juin à septembre 1944. Le rapport est publié en 1946 ; pas de continuité du réseau entier présumée."
+      },
+      "usages_atlas": [
+        "port_maritime",
+        "rail"
+      ],
+      "verification_claude": "non_verifiee",
+      "resume_francais": "rail : Rome est reliée à Naples le 2 juillet 1944."
+    },
+    {
+      "source_id": "src-18-it-re-1946-hiver44",
+      "operation_registre": "ajouter",
+      "niveau": "A",
+      "type_source": "rapport_epoque",
+      "titre": "Reconstruction ferroviaire en Italie : campagne hivernale 1944–1945",
+      "institution": "Royal Engineers, 1946 ; transcription Treni di Carta",
+      "url": "https://www.trenidicarta.it/reconstruction/2_2_5.html",
+      "date_consultation": "2026-10-04",
+      "cibles": [
+        "ville-it-ancone",
+        "ville-it-florence",
+        "ville-it-livourne",
+        "ville-it-pise",
+        "ville-it-pistoia",
+        "ville-it-prato",
+        "ville-it-rimini"
+      ],
+      "usage": [
+        "ville-it-livourne — port_maritime, rail : Le port sert de base à la Ve armée à l’automne 1944.",
+        "ville-it-ancone — port_maritime, rail : Le port sert de base à la VIIIe armée à l’automne 1944.",
+        "ville-it-rimini — rail : La tête de ligne ouvre le 14 octobre 1944.",
+        "ville-it-pise — rail : Pise ouvre au trafic le 8 novembre 1944.",
+        "ville-it-florence — rail : La remise en desserte est un objectif de l’hiver ; la liaison depuis Pise demeure coupée fin 1944.",
+        "ville-it-prato — rail : Nœud visé par la reconstruction engagée en octobre 1944 ; reprise du trafic non anticipée.",
+        "ville-it-pistoia — rail : Tête de ligne projetée à l’automne 1944 ; ouverture non prouvée avant janvier 1945."
+      ],
+      "locator": "II.II.5, paragraphes 1, 5–6 et dernier",
+      "note": "Texte lu dans le navigateur, extraction web en échec d’encodage. Séparer les dates d’octobre/novembre 1944 et celles de janvier 1945. Les cibles hors du fichier de données restent différées ; aucune validation humaine présumée.",
+      "resume_passage": "",
+      "verification_ether": {
+        "date": "2026-10-04",
+        "statut": "passage_lu",
+        "limite": "Texte lu dans le navigateur, extraction web en échec d’encodage. Séparer les dates d’octobre/novembre 1944 et celles de janvier 1945."
+      },
+      "usages_atlas": [
+        "port_maritime",
+        "rail"
+      ],
+      "verification_claude": "non_verifiee",
+      "resume_francais": "port_maritime, rail : Le port sert de base à la Ve armée à l’automne 1944."
+    },
+    {
+      "source_id": "src-18-it-re-1946-ligne89",
+      "operation_registre": "ajouter",
+      "niveau": "A",
+      "type_source": "rapport_epoque",
+      "titre": "Reconstruction ferroviaire en Italie : ligne 89",
+      "institution": "Royal Engineers, 1946 ; transcription Treni di Carta",
+      "url": "https://www.trenidicarta.it/reconstruction/2_3_3.html",
+      "date_consultation": "2026-10-04",
+      "cibles": [
+        "ville-it-aversa",
+        "ville-it-cancello-arnone",
+        "ville-it-formia",
+        "ville-it-minturno",
+        "ville-it-villa-literno"
+      ],
+      "usage": [
+        "ville-it-aversa — rail : La section Naples–Aversa est réparée en octobre 1943.",
+        "ville-it-villa-literno — rail : Gare de bifurcation de la ligne côtière réparée en 1944.",
+        "ville-it-formia — rail : La ligne côtière traverse Formia, dans le secteur réparé de mai à juillet 1944.",
+        "ville-it-minturno — rail : Le franchissement ferroviaire au sud de Minturno rouvre le 5 juin 1944.",
+        "ville-it-cancello-arnone — rail : La gare jouxte le pont du Volturno remis au trafic le 20 mai 1944."
+      ],
+      "locator": "II.III.3, description, phases et sections a/c",
+      "note": "Ligne antérieure à la guerre ; travaux datés de 1943–1944. Les objets proposés restent les villes, non les ponts ou gares. Les cibles hors du fichier de données restent différées ; aucune validation humaine présumée.",
+      "resume_passage": "",
+      "verification_ether": {
+        "date": "2026-10-04",
+        "statut": "passage_lu",
+        "limite": "Ligne antérieure à la guerre ; travaux datés de 1943–1944. Les objets proposés restent les villes, non les ponts ou gares."
+      },
+      "usages_atlas": [
+        "rail"
+      ],
+      "verification_claude": "non_verifiee",
+      "resume_francais": "rail : La section Naples–Aversa est réparée en octobre 1943."
+    },
+    {
+      "source_id": "src-18-it-re-1946-ligne90",
+      "operation_registre": "ajouter",
+      "niveau": "A",
+      "type_source": "rapport_epoque",
+      "titre": "Reconstruction ferroviaire en Italie : ligne 90",
+      "institution": "Royal Engineers, 1946 ; transcription Treni di Carta",
+      "url": "https://www.trenidicarta.it/reconstruction/2_3_4.html",
+      "date_consultation": "2026-10-04",
+      "cibles": [
+        "ville-it-capoue",
+        "ville-it-cassino",
+        "ville-it-mignano-monte-lungo"
+      ],
+      "usage": [
+        "ville-it-cassino — rail : La traversée ferroviaire très détruite est rétablie entre avril et juillet 1944.",
+        "ville-it-capoue — rail : Le pont ferroviaire du Volturno est réparé en novembre 1943.",
+        "ville-it-mignano-monte-lungo — rail : Le viaduc au nord de Mignano rouvre le 2 juin 1944."
+      ],
+      "locator": "II.III.4, description et phases ; §a/b",
+      "note": "Réparations de 1943–1944, et destructions très fortes autour de Cassino. Aucun fonctionnement sans interruption présumé. Les cibles hors du fichier de données restent différées ; aucune validation humaine présumée.",
+      "resume_passage": "",
+      "verification_ether": {
+        "date": "2026-10-04",
+        "statut": "passage_lu",
+        "limite": "Réparations de 1943–1944, et destructions très fortes autour de Cassino. Aucun fonctionnement sans interruption présumé."
+      },
+      "usages_atlas": [
+        "rail"
+      ],
+      "verification_claude": "non_verifiee",
+      "resume_francais": "rail : La traversée ferroviaire très détruite est rétablie entre avril et juillet 1944."
+    },
+    {
+      "source_id": "src-18-it-re-1946-ligne87",
+      "operation_registre": "ajouter",
+      "niveau": "A",
+      "type_source": "rapport_epoque",
+      "titre": "Reconstruction ferroviaire en Italie : ligne 87",
+      "institution": "Royal Engineers, 1946 ; transcription Treni di Carta",
+      "url": "https://www.trenidicarta.it/reconstruction/2_3_7.html",
+      "date_consultation": "2026-10-04",
+      "cibles": [
+        "ville-it-fabriano",
+        "ville-it-falconara",
+        "ville-it-foligno",
+        "ville-it-orte",
+        "ville-it-spolete",
+        "ville-it-terni"
+      ],
+      "usage": [
+        "ville-it-orte — rail : Bifurcation des lignes vers Rome et Ancône, liaison annoncée rétablie le 3 septembre 1944.",
+        "ville-it-terni — rail, industrie : Ville industrielle traversée par la ligne réparée en 1944 ; viaduc nord réparé en juillet.",
+        "ville-it-foligno — rail, industrie : Ville d’ateliers ferroviaires ; liaison rétablie en juillet 1944.",
+        "ville-it-fabriano — rail : Ville de la ligne Orte–Falconara rétablie en septembre 1944.",
+        "ville-it-falconara — rail : Bifurcation vers Ancône ; ligne rouverte le 3 septembre 1944.",
+        "ville-it-spolete — rail : Le tunnel au sud de la ville est réparé sous trafic en juillet–août 1944."
+      ],
+      "locator": "II.III.7, description et calendrier général ; §b/c",
+      "note": "Liaison rétablie en septembre 1944. Le §a attribue 1945 au pont d’Orte, discordance avec le calendrier général 1944 : date du pont réservée. Les cibles hors du fichier de données restent différées ; aucune validation humaine présumée.",
+      "resume_passage": "",
+      "verification_ether": {
+        "date": "2026-10-04",
+        "statut": "passage_lu",
+        "limite": "Liaison rétablie en septembre 1944. Le §a attribue 1945 au pont d’Orte, discordance avec le calendrier général 1944 : date du pont réservée."
+      },
+      "usages_atlas": [
+        "industrie",
+        "rail"
+      ],
+      "verification_claude": "non_verifiee",
+      "resume_francais": "rail : Bifurcation des lignes vers Rome et Ancône, liaison annoncée rétablie le 3 septembre 1944."
+    },
+    {
+      "source_id": "src-18-it-re-1946-ligne219",
+      "operation_registre": "ajouter",
+      "niveau": "A",
+      "type_source": "rapport_epoque",
+      "titre": "Reconstruction ferroviaire en Italie : ligne 219",
+      "institution": "Royal Engineers, 1946 ; transcription Treni di Carta",
+      "url": "https://www.trenidicarta.it/reconstruction/2_3_10.html",
+      "date_consultation": "2026-10-04",
+      "cibles": [
+        "ville-it-empoli"
+      ],
+      "usage": [
+        "ville-it-empoli — rail : La ligne desservant Empoli est coupée au Snapshot ; sa réouverture est datée d’avril 1945."
+      ],
+      "locator": "II.III.10, description et date d’ouverture",
+      "note": "Ligne Pise–Empoli–Florence antérieure à 1945, mais remise au trafic seulement le 1 er avril 1945. Rôle urbain historique distingué de l’état opérationnel. Les cibles hors du fichier de données restent différées ; aucune validation humaine présumée.",
+      "resume_passage": "",
+      "verification_ether": {
+        "date": "2026-10-04",
+        "statut": "passage_lu",
+        "limite": "Ligne Pise–Empoli–Florence antérieure à 1945, mais remise au trafic seulement le 1er avril 1945. Rôle urbain historique distingué de l’état opérationnel."
+      },
+      "usages_atlas": [
+        "rail"
+      ],
+      "verification_claude": "non_verifiee",
+      "resume_francais": "rail : La ligne desservant Empoli est coupée au Snapshot ; sa réouverture est datée d’avril 1945."
+    },
+    {
+      "source_id": "src-18-it-re-1946-ligne85",
+      "operation_registre": "ajouter",
+      "niveau": "A",
+      "type_source": "rapport_epoque",
+      "titre": "Reconstruction ferroviaire en Italie : ligne 85",
+      "institution": "Royal Engineers, 1946 ; transcription Treni di Carta",
+      "url": "https://www.trenidicarta.it/reconstruction/2_3_12.html",
+      "date_consultation": "2026-10-04",
+      "cibles": [
+        "ville-it-ferrare",
+        "ville-it-monselice",
+        "ville-it-padoue",
+        "ville-it-rovigo"
+      ],
+      "usage": [
+        "ville-it-ferrare — rail : La ville est explicitement située sur la ligne historique Bologne–Padoue ; état précis fin 1944 réservé.",
+        "ville-it-rovigo — rail : La ville est explicitement située sur la ligne historique Bologne–Padoue ; état précis fin 1944 réservé.",
+        "ville-it-padoue — rail : La ville est explicitement située sur la ligne historique Bologne–Padoue ; état précis fin 1944 réservé.",
+        "ville-it-monselice — rail : La ville est explicitement située sur la ligne historique Bologne–Padoue ; état précis fin 1944 réservé."
+      ],
+      "locator": "II.III.12, Description of the Line",
+      "note": "Description locale de la ligne historique Bologne–Padoue. Les destructions et réparations de fin de guerre ne sont pas toutes datées avant le Snapshot ; aucune ouverture de 1945–1946 anticipée. Les cibles hors du fichier de données restent différées ; aucune validation humaine présumée.",
+      "resume_passage": "",
+      "verification_ether": {
+        "date": "2026-10-04",
+        "statut": "passage_lu",
+        "limite": "Description locale de la ligne historique Bologne–Padoue. Les destructions et réparations de fin de guerre ne sont pas toutes datées avant le Snapshot ; aucune ouverture de 1945–1946 anticipée."
+      },
+      "usages_atlas": [
+        "rail"
+      ],
+      "verification_claude": "non_verifiee",
+      "resume_francais": "rail : La ville est explicitement située sur la ligne historique Bologne–Padoue ; état précis fin 1944 réservé."
+    },
+    {
+      "source_id": "src-18-gr-oss5505-1944",
+      "operation_registre": "ajouter",
+      "niveau": "A",
+      "type_source": "carte_epoque",
+      "titre": "Greece: railroads and railroad facilities, carte OSS n°5505 (1944)",
+      "institution": "United States, Office of Strategic Services, Research and Analysis Branch ; Stanford University Libraries",
+      "url": "https://purl.stanford.edu/jm057qw0671",
+      "date_consultation": "2026-10-04",
+      "cibles": [
+        "ville-bg-blagoevgrad",
+        "ville-bg-svilengrad",
+        "ville-gr-agrinio",
+        "ville-gr-alexandroupoli",
+        "ville-gr-amfikleia",
+        "ville-gr-amyntaio",
+        "ville-gr-athenes",
+        "ville-gr-chalcis",
+        "ville-gr-corinthe",
+        "ville-gr-diakopto",
+        "ville-gr-domokos",
+        "ville-gr-drama",
+        "ville-gr-edessa",
+        "ville-gr-florina",
+        "ville-gr-kalamata",
+        "ville-gr-kalambaka",
+        "ville-gr-karditsa",
+        "ville-gr-katerini",
+        "ville-gr-komotini",
+        "ville-gr-kryoneri",
+        "ville-gr-lamia",
+        "ville-gr-larissa",
+        "ville-gr-lavrio",
+        "ville-gr-le-piree",
+        "ville-gr-lianokladi",
+        "ville-gr-livadia",
+        "ville-gr-oinoi",
+        "ville-gr-patras",
+        "ville-gr-platy",
+        "ville-gr-polykastro",
+        "ville-gr-pyrgos",
+        "ville-gr-pythio",
+        "ville-gr-serres",
+        "ville-gr-sidirokastro",
+        "ville-gr-skydra",
+        "ville-gr-stylida",
+        "ville-gr-thebes",
+        "ville-gr-thessalonique",
+        "ville-gr-trikala",
+        "ville-gr-tripoli",
+        "ville-gr-velestino",
+        "ville-gr-veria",
+        "ville-gr-volos",
+        "ville-gr-xanthi",
+        "ville-mk-bitola",
+        "ville-mk-gevgelija"
+      ],
+      "usage": [
+        "ville-gr-athenes — rail : Triages, ateliers et rotondes sont figurés dans l’agglomération Athènes–Le Pirée.",
+        "ville-gr-le-piree — rail : Le terminus portuaire est raccordé aux réseaux et accompagné de symboles d’installations ferroviaires.",
+        "ville-gr-patras — rail : La carte signale une rotonde sur la ligne métrique.",
+        "ville-gr-corinthe — rail : La bifurcation ferroviaire vers Patras et Tripolis comporte une rotonde.",
+        "ville-gr-pyrgos — rail : Une rotonde accompagne le nœud ferroviaire vers Katakolon et Olympia.",
+        "ville-gr-tripoli — rail : La carte signale une rotonde sur le réseau métrique.",
+        "ville-gr-kalamata — rail : Le terminus ferroviaire possède un symbole de rotonde.",
+        "ville-gr-diakopto — rail : La carte montre la bifurcation vers Kalavrita et une rotonde.",
+        "ville-gr-lavrio — rail : Le terminus du réseau privé est accompagné d’une rotonde.",
+        "ville-gr-thebes — rail : La carte situe une rotonde et un triage sur la ligne principale.",
+        "ville-gr-oinoi — rail : Bifurcation de la branche de Chalcis sur l’axe d’Athènes.",
+        "ville-gr-chalcis — rail : Le terminus de la branche ferroviaire comporte une rotonde.",
+        "ville-gr-livadia — rail : La carte signale une rotonde sur la ligne principale.",
+        "ville-gr-agrinio — rail : La carte montre le terminus du réseau privé et une rotonde.",
+        "ville-gr-kryoneri — rail : Le terminus côtier comporte rotonde et atelier ; l’identité du point urbain reste à contrôler.",
+        "ville-gr-lamia — rail : La ville figure sur la branche ferroviaire rejoignant Stylis.",
+        "ville-gr-lianokladi — rail : Le nœud comporte rotonde, triage et atelier.",
+        "ville-gr-stylida — rail : Le terminus de la branche de Lamia possède une rotonde.",
+        "ville-gr-amfikleia — rail : La carte montre une rotonde et un atelier sur l’axe principal.",
+        "ville-gr-domokos — rail : La gare comporte une rotonde ; l’éloignement du centre de la ville doit être contrôlé.",
+        "ville-gr-larissa — rail : La carte signale triage, atelier et rotondes au nœud ferroviaire.",
+        "ville-gr-volos — rail : Le nœud des voies étroites comporte rotondes et atelier.",
+        "ville-gr-velestino — rail : Le nœud ferroviaire comporte une rotonde.",
+        "ville-gr-karditsa — rail : La carte signale une rotonde sur la ligne métrique.",
+        "ville-gr-trikala — rail : La ville est desservie par la ligne métrique vers Kalambaka.",
+        "ville-gr-kalambaka — rail : Le terminus possède une rotonde ; le prolongement au nord est seulement projeté.",
+        "ville-gr-thessalonique — rail : La carte montre plusieurs triages, ateliers et rotondes au principal nœud du Nord.",
+        "ville-gr-katerini — rail : Un atelier est indiqué sur l’axe vers Larissa.",
+        "ville-gr-platy — rail : Bifurcation des lignes vers Véria et Larissa, avec rotonde et atelier.",
+        "ville-gr-veria — rail : La carte signale une rotonde.",
+        "ville-gr-skydra — rail : La carte figure une bifurcation et des installations ferroviaires ; portée exacte de l’encart à recouper.",
+        "ville-gr-edessa — rail : La carte signale une rotonde sur l’axe de Florina.",
+        "ville-gr-amyntaio — rail : Bifurcation des lignes vers Florina et Bitola ; la ligne vers Kozani est projetée.",
+        "ville-gr-florina — rail : La carte montre une rotonde au terminus de la branche.",
+        "ville-gr-polykastro — rail : La carte montre la ligne vers Gevgelija et un encart d’installations ferroviaires.",
+        "ville-gr-serres — rail : La carte signale une rotonde sur l’axe de Drama.",
+        "ville-gr-sidirokastro — rail : La ligne vers la frontière bulgare rejoint ici l’axe de Serrès.",
+        "ville-gr-drama — rail : La carte signale rotonde et atelier.",
+        "ville-gr-xanthi — rail : La carte signale une rotonde sur la ligne de Komotini.",
+        "ville-gr-komotini — rail : La carte signale une rotonde sur la ligne d’Alexandroupoli.",
+        "ville-gr-alexandroupoli — rail : Le nœud comporte rotonde et atelier.",
+        "ville-gr-pythio — rail : La carte montre la bifurcation internationale vers Edirne et la Turquie, avec rotonde.",
+        "ville-mk-bitola — rail : La carte montre le terminus ferroviaire relié à la Grèce et une rotonde.",
+        "ville-mk-gevgelija — rail : Ville de l’axe international du Vardar, avec rotonde.",
+        "ville-bg-blagoevgrad — rail : La carte distingue la voie étroite existante et le projet à voie normale vers la frontière grecque.",
+        "ville-bg-svilengrad — rail : La carte montre la liaison ferroviaire internationale vers Edirne."
+      ],
+      "locator": "OSS n°5505, 4 décembre 1944, carte et légende",
+      "note": "Date du 4 décembre 1944 lue sur le cartouche du fichier original ; lignes projetées ou en construction exclues. Aucun trafic continu ni capacité déduit. Les cibles hors du fichier de données restent différées ; aucune validation humaine présumée.",
+      "resume_passage": "",
+      "verification_ether": {
+        "date": "2026-10-04",
+        "statut": "passage_lu",
+        "limite": "Carte provisoire de 1944, domaine public selon Stanford. Les symboles distinguent rotondes, ateliers et triages ; les lignes projetées/en construction sont séparées. Atteste les installations cartographiées, sans certifier le trafic à 0h le 1er janvier 1945 ni les frontières de souveraineté. Date exacte du cartouche à relire avant transcription finale."
+      },
+      "images_locales": [
+        {
+          "fichier": "2026-10-04_ether_OSS_jm057qw0671_1.jpg",
+          "sha256": "6a5bc9c2fdf6e1b85fa8ebea449b2fc5f73ca1a04b17f55e69b944129532ba92",
+          "lecture": "Carte complète lue visuellement ; cartouche daté."
+        },
+        {
+          "fichier": "2026-10-04_ether_OSS_jm057qw0671_vue.jpg",
+          "sha256": "ae6a01ea1c3aa2ff09ba48023969094df081e924cf1bd6b2d14d47afe7afa288",
+          "lecture": "Carte complète lue visuellement ; cartouche daté."
+        }
+      ],
+      "usages_atlas": [
+        "rail"
+      ],
+      "verification_claude": "non_verifiee",
+      "resume_francais": "rail : Triages, ateliers et rotondes sont figurés dans l’agglomération Athènes–Le Pirée."
+    },
+    {
+      "source_id": "src-18-bg-bdz-histoire-detail",
+      "operation_registre": "ajouter",
+      "niveau": "B",
+      "type_source": "etude_ou_histoire_institutionnelle",
+      "titre": "Histoire des chemins de fer bulgares",
+      "institution": "BDZ",
+      "url": "https://www.bdz.bg/bg/a/istoria-bdz",
+      "date_consultation": "2026-10-04",
+      "cibles": [
+        "ville-bg-belovo",
+        "ville-bg-kaspichan",
+        "ville-bg-nova-zagora",
+        "ville-bg-plovdiv",
+        "ville-bg-simeonovgrad",
+        "ville-bg-vakarel",
+        "ville-bg-yambol",
+        "ville-ro-cernavoda",
+        "ville-ro-constanta"
+      ],
+      "usage": [
+        "ville-ro-cernavoda — rail : La liaison Cernavodă–Constanța ouvre le 4 octobre 1860.",
+        "ville-ro-constanta — rail : La liaison ferroviaire vers Cernavodă ouvre en 1860.",
+        "ville-bg-kaspichan — rail : La liaison Roussé–Varna de 1866 passe par Kaspitchan ; elle évite Choumen.",
+        "ville-bg-plovdiv — rail : Le récit localise l’administration de la ligne dans la ville durant les années 1870.",
+        "ville-bg-belovo — rail : La ligne depuis Constantinople atteint Belovo en juillet 1873.",
+        "ville-bg-nova-zagora — rail : La liaison vers Yambol est ouverte en janvier 1875.",
+        "ville-bg-yambol — rail : Terminus de la liaison ouverte en janvier 1875.",
+        "ville-bg-simeonovgrad — rail : La gare de Tarnovo Seymen appartient au premier réseau bulgare.",
+        "ville-bg-vakarel — rail : Le réseau rejoint Sofia par Vakarel en 1888."
+      ],
+      "locator": "Chronologie 1860–1888",
+      "note": "Preuves locales de construction et de rattachement ; ne démontrent pas le trafic effectif de décembre 1944. Les cibles hors du fichier de données restent différées ; aucune validation humaine présumée.",
+      "resume_passage": "",
+      "verification_ether": {
+        "date": "2026-10-04",
+        "statut": "passage_lu",
+        "limite": "Preuves locales de construction et de rattachement ; ne démontrent pas le trafic effectif de décembre 1944."
+      },
+      "usages_atlas": [
+        "rail"
+      ],
+      "verification_claude": "non_verifiee",
+      "resume_francais": "rail : La liaison Cernavodă–Constanța ouvre le 4 octobre 1860."
+    },
+    {
+      "source_id": "src-18-bg-sofia-capitale",
+      "operation_registre": "ajouter",
+      "niveau": "B",
+      "type_source": "etude_ou_histoire_institutionnelle",
+      "titre": "History of Sofia",
+      "institution": "Municipalité de Sofia",
+      "url": "https://www.sofia.bg/en/web/sofia-municipality/history",
+      "date_consultation": "2026-10-04",
+      "cibles": [
+        "ville-bg-sofia"
+      ],
+      "usage": [
+        "ville-bg-sofia — capitale : Sofia est choisie comme capitale le 3 avril 1879."
+      ],
+      "locator": "3 avril 1879",
+      "note": "Date historique du choix comme capitale ; périmètre de souveraineté à rapprocher des territoires canoniques. Les cibles hors du fichier de données restent différées ; aucune validation humaine présumée.",
+      "resume_passage": "",
+      "verification_ether": {
+        "date": "2026-10-04",
+        "statut": "passage_lu",
+        "limite": "Date historique du choix comme capitale ; périmètre de souveraineté à rapprocher des territoires canoniques."
+      },
+      "usages_atlas": [
+        "capitale"
+      ],
+      "verification_claude": "non_verifiee",
+      "resume_francais": "capitale : Sofia est choisie comme capitale le 3 avril 1879."
+    },
+    {
+      "source_id": "src-18-gr-thpa-histoire",
+      "operation_registre": "ajouter",
+      "niveau": "B",
+      "type_source": "etude_ou_histoire_institutionnelle",
+      "titre": "The port history",
+      "institution": "Thessaloniki Port Authority",
+      "url": "https://www.thpa.gr/the-port-history/",
+      "date_consultation": "2026-10-04",
+      "cibles": [
+        "ville-gr-thessalonique"
+      ],
+      "usage": [
+        "ville-gr-thessalonique — port_maritime, rail : Le port est relié au rail avant 1912 ; zones franches en 1925 et 1929. Ses installations subissent bombardements et démolitions en 1944."
+      ],
+      "locator": "1871–1944, réseau, zones franches et guerre",
+      "note": "Les destructions de 1944 empêchent toute affirmation de capacité intacte au Snapshot. La nouvelle jetée de 1946 est exclue. Les cibles hors du fichier de données restent différées ; aucune validation humaine présumée.",
+      "resume_passage": "",
+      "verification_ether": {
+        "date": "2026-10-04",
+        "statut": "passage_lu",
+        "limite": "Les destructions de 1944 empêchent toute affirmation de capacité intacte au Snapshot. La nouvelle jetée de 1946 est exclue."
+      },
+      "usages_atlas": [
+        "port_maritime",
+        "rail"
+      ],
+      "verification_claude": "non_verifiee",
+      "resume_francais": "port_maritime, rail : Le port est relié au rail avant 1912 ; zones franches en 1925 et 1929. Ses installations subissent bombardements et démolitions en 1944."
+    },
+    {
+      "source_id": "src-18-he-zenica",
+      "operation_registre": "ajouter",
+      "niveau": "B",
+      "type_source": "etude_ou_histoire_institutionnelle",
+      "titre": "Zenica — Hrvatska enciklopedija",
+      "institution": "Leksikografski zavod Miroslav Krleža",
+      "url": "https://enciklopedija.hr/clanak/zenica",
+      "date_consultation": "2026-10-04",
+      "cibles": [
+        "ville-ba-zenica"
+      ],
+      "usage": [
+        "ville-ba-zenica — rail, industrie : Chemin de fer Brod–Sarajevo en 1879–1882, charbon en 1880 et sidérurgie avant 1900 ; chef-lieu de district en 1941–1944."
+      ],
+      "locator": "§ histoire économique et 1941–1944",
+      "note": "Le texte donne 1890 et 1892 pour la sidérurgie : conserver seulement l’antériorité à 1900. Les cibles hors du fichier de données restent différées ; aucune validation humaine présumée.",
+      "resume_passage": "",
+      "verification_ether": {
+        "date": "2026-10-04",
+        "statut": "passage_lu",
+        "limite": "Le texte donne 1890 et 1892 pour la sidérurgie : conserver seulement l’antériorité à 1900."
+      },
+      "usages_atlas": [
+        "industrie",
+        "rail"
+      ],
+      "verification_claude": "non_verifiee",
+      "resume_francais": "rail, industrie : Chemin de fer Brod–Sarajevo en 1879–1882, charbon en 1880 et sidérurgie avant 1900 ; chef-lieu de district en 1941–1944."
+    },
+    {
+      "source_id": "src-18-he-pula",
+      "operation_registre": "ajouter",
+      "niveau": "B",
+      "type_source": "etude_ou_histoire_institutionnelle",
+      "titre": "Pula — Hrvatska enciklopedija",
+      "institution": "Leksikografski zavod Miroslav Krleža",
+      "url": "https://enciklopedija.hr/clanak/pula",
+      "date_consultation": "2026-10-04",
+      "cibles": [
+        "ville-hr-pula"
+      ],
+      "usage": [
+        "ville-hr-pula — admin, militaire : Chef-lieu provincial italien entre les guerres, sous le nom Pola ; occupation allemande de 1943 à 1945 et bombardements dès janvier 1944."
+      ],
+      "locator": "Povijest, entre-deux-guerres et 1943–1945",
+      "note": "L’ancien arsenal naval ne prouve pas à lui seul ses capacités fin 1944 ; date ferroviaire 1867 à recouper. Les cibles hors du fichier de données restent différées ; aucune validation humaine présumée.",
+      "resume_passage": "",
+      "verification_ether": {
+        "date": "2026-10-04",
+        "statut": "passage_lu",
+        "limite": "L’ancien arsenal naval ne prouve pas à lui seul ses capacités fin 1944 ; date ferroviaire 1867 à recouper."
+      },
+      "usages_atlas": [
+        "administration",
+        "militaire"
+      ],
+      "verification_claude": "non_verifiee",
+      "resume_francais": "admin, militaire : Chef-lieu provincial italien entre les guerres, sous le nom Pola ; occupation allemande de 1943 à 1945 et bombardements dès janvier 1944."
+    },
+    {
+      "source_id": "src-18-he-dubrovnik",
+      "operation_registre": "ajouter",
+      "niveau": "B",
+      "type_source": "etude_ou_histoire_institutionnelle",
+      "titre": "Dubrovnik — Hrvatska enciklopedija",
+      "institution": "Leksikografski zavod Miroslav Krleža",
+      "url": "https://enciklopedija.hr/clanak/dubrovnik",
+      "date_consultation": "2026-10-04",
+      "cibles": [
+        "ville-hr-dubrovnik"
+      ],
+      "usage": [
+        "ville-hr-dubrovnik — rail, port_maritime : Le port de Gruž est raccordé au rail en 1901 ; les activités maritimes se poursuivent entre les guerres."
+      ],
+      "locator": "Histoire, 1901 et entre-deux-guerres",
+      "note": "Installations et service précis après les combats d’octobre 1944 non quantifiés. Les cibles hors du fichier de données restent différées ; aucune validation humaine présumée.",
+      "resume_passage": "",
+      "verification_ether": {
+        "date": "2026-10-04",
+        "statut": "passage_lu",
+        "limite": "Installations et service précis après les combats d’octobre 1944 non quantifiés."
+      },
+      "usages_atlas": [
+        "port_maritime",
+        "rail"
+      ],
+      "verification_claude": "non_verifiee",
+      "resume_francais": "rail, port_maritime : Le port de Gruž est raccordé au rail en 1901 ; les activités maritimes se poursuivent entre les guerres."
+    },
+    {
+      "source_id": "src-18-he-split",
+      "operation_registre": "ajouter",
+      "niveau": "B",
+      "type_source": "etude_ou_histoire_institutionnelle",
+      "titre": "Split — Hrvatska enciklopedija",
+      "institution": "Leksikografski zavod Miroslav Krleža",
+      "url": "https://enciklopedija.hr/clanak/split",
+      "date_consultation": "2026-10-04",
+      "cibles": [
+        "ville-hr-split"
+      ],
+      "usage": [
+        "ville-hr-split — rail, port_maritime, industrie : Rail vers Siverić en 1874–1877, Knin en 1888 et Zagreb en 1925 ; port et construction navale majeurs entre les guerres. Bombardement en juin 1944."
+      ],
+      "locator": "Histoire, 1874–1944",
+      "note": "Le gouvernement croate installé en avril 1945 est exclu du Snapshot. Les cibles hors du fichier de données restent différées ; aucune validation humaine présumée.",
+      "resume_passage": "",
+      "verification_ether": {
+        "date": "2026-10-04",
+        "statut": "passage_lu",
+        "limite": "Le gouvernement croate installé en avril 1945 est exclu du Snapshot."
+      },
+      "usages_atlas": [
+        "industrie",
+        "port_maritime",
+        "rail"
+      ],
+      "verification_claude": "non_verifiee",
+      "resume_francais": "rail, port_maritime, industrie : Rail vers Siverić en 1874–1877, Knin en 1888 et Zagreb en 1925 ; port et construction navale majeurs entre les guerres. Bombardement en juin 1944."
+    },
+    {
+      "source_id": "src-18-he-sarajevo",
+      "operation_registre": "ajouter",
+      "niveau": "B",
+      "type_source": "etude_ou_histoire_institutionnelle",
+      "titre": "Sarajevo — Hrvatska enciklopedija",
+      "institution": "Leksikografski zavod Miroslav Krleža",
+      "url": "https://enciklopedija.hr/clanak/sarajevo",
+      "date_consultation": "2026-10-04",
+      "cibles": [
+        "ville-ba-sarajevo"
+      ],
+      "usage": [
+        "ville-ba-sarajevo — rail, industrie, admin : Industries du tabac dès 1880, tapis en 1888 et bière en 1898 ; centre administratif et ferroviaire avant la guerre."
+      ],
+      "locator": "§ industries anciennes ; histoire 1878–1945",
+      "note": "Ne pas attribuer la capitale de la République socialiste, postérieure au Snapshot ; continuité précise des services fin 1944 non établie. Les cibles hors du fichier de données restent différées ; aucune validation humaine présumée.",
+      "resume_passage": "",
+      "verification_ether": {
+        "date": "2026-10-04",
+        "statut": "passage_lu",
+        "limite": "Ne pas attribuer la capitale de la République socialiste, postérieure au Snapshot ; continuité précise des services fin 1944 non établie."
+      },
+      "usages_atlas": [
+        "administration",
+        "industrie",
+        "rail"
+      ],
+      "verification_claude": "non_verifiee",
+      "resume_francais": "rail, industrie, admin : Industries du tabac dès 1880, tapis en 1888 et bière en 1898 ; centre administratif et ferroviaire avant la guerre."
+    },
+    {
+      "source_id": "src-18-he-skoplje",
+      "operation_registre": "ajouter",
+      "niveau": "B",
+      "type_source": "etude_ou_histoire_institutionnelle",
+      "titre": "Skopje — Hrvatska enciklopedija",
+      "institution": "Leksikografski zavod Miroslav Krleža",
+      "url": "https://enciklopedija.hr/clanak/skoplje",
+      "date_consultation": "2026-10-04",
+      "cibles": [
+        "ville-mk-skopje"
+      ],
+      "usage": [
+        "ville-mk-skopje — rail : Le développement du nœud de transport est lié à la voie Belgrade–Salonique construite en 1873–1886."
+      ],
+      "locator": "§ liaison Belgrade–Salonique",
+      "note": "Les industries lourdes et équipements décrits sans date, souvent postérieurs à 1945, ne sont pas retenus. Les cibles hors du fichier de données restent différées ; aucune validation humaine présumée.",
+      "resume_passage": "",
+      "verification_ether": {
+        "date": "2026-10-04",
+        "statut": "passage_lu",
+        "limite": "Les industries lourdes et équipements décrits sans date, souvent postérieurs à 1945, ne sont pas retenus."
+      },
+      "usages_atlas": [
+        "rail"
+      ],
+      "verification_claude": "non_verifiee",
+      "resume_francais": "rail : Le développement du nœud de transport est lié à la voie Belgrade–Salonique construite en 1873–1886."
+    },
+    {
+      "source_id": "src-18-ba-zfbh-histoire",
+      "operation_registre": "ajouter",
+      "niveau": "B",
+      "type_source": "etude_ou_histoire_institutionnelle",
+      "titre": "History of the railways of Bosnia and Herzegovina",
+      "institution": "ŽFBH",
+      "url": "https://www.zfbh.ba/en/o-nama/historija/",
+      "date_consultation": "2026-10-04",
+      "cibles": [
+        "ville-ba-banja-luka",
+        "ville-ba-bihac",
+        "ville-ba-bijeljina",
+        "ville-ba-bileca",
+        "ville-ba-bosanska-krupa",
+        "ville-ba-breza",
+        "ville-ba-brod",
+        "ville-ba-bugojno",
+        "ville-ba-derventa",
+        "ville-ba-doboj",
+        "ville-ba-dobrljin",
+        "ville-ba-donji-vakuf",
+        "ville-ba-jajce",
+        "ville-ba-konjic",
+        "ville-ba-mostar",
+        "ville-ba-novi-grad",
+        "ville-ba-prijedor",
+        "ville-ba-sarajevo",
+        "ville-ba-travnik",
+        "ville-ba-trebinje",
+        "ville-ba-tuzla",
+        "ville-ba-ugljevik",
+        "ville-ba-vares",
+        "ville-ba-zavidovici",
+        "ville-ba-zenica",
+        "ville-ba-zepce",
+        "ville-hr-knin",
+        "ville-hr-metkovic",
+        "ville-hr-ploce",
+        "ville-me-zelenika"
+      ],
+      "usage": [
+        "ville-ba-banja-luka — rail : Liaison de Dobrljin ouverte en 1872.",
+        "ville-ba-dobrljin — rail : Terminus de 1872.",
+        "ville-ba-brod — rail : Liaison de Doboj en 1879.",
+        "ville-ba-doboj — rail : Nœud vers Sarajevo et Simin Han avant 1887.",
+        "ville-ba-derventa — rail : Desservie dès les premiers travaux ; direction ferroviaire jusqu’en 1886.",
+        "ville-ba-zepce — rail : Jonction vers Zenica en 1879.",
+        "ville-ba-zenica — rail : Rail en 1879.",
+        "ville-ba-sarajevo — rail : Liaison de Brod achevée en 1882.",
+        "ville-ba-mostar — rail : Liaison de Metković ouverte en 1885.",
+        "ville-hr-metkovic — rail : Terminus adriatique de la ligne de Mostar.",
+        "ville-ba-tuzla — rail, industrie : Desserte du bassin charbonnier et salin par la ligne Doboj–Simin Han.",
+        "ville-ba-konjic — rail : Rail en 1889 ; axe de Sarajevo amélioré en 1931.",
+        "ville-ba-travnik — rail : Rail en 1893.",
+        "ville-ba-bugojno — rail : Rail en 1894.",
+        "ville-ba-donji-vakuf — rail : Nœud vers Travnik et Jajce avant 1914.",
+        "ville-ba-jajce — rail : Liaison militaire vers Srnetica en 1914.",
+        "ville-ba-vares — rail, industrie : Ligne minière ouverte en 1895.",
+        "ville-ba-breza — rail, industrie : Exploitation charbonnière desservie dès 1895.",
+        "ville-ba-trebinje — rail : Ligne stratégique de Hum ouverte en 1901.",
+        "ville-me-zelenika — rail : Terminus de la ligne stratégique de Gabela en 1901.",
+        "ville-ba-prijedor — rail, industrie : Réseau forestier et minier de Steinbeis avant 1918.",
+        "ville-hr-knin — rail : Raccord au réseau forestier de Bosnie avant 1918.",
+        "ville-ba-zavidovici — rail, industrie : Départ d’une voie industrielle avant 1918.",
+        "ville-ba-novi-grad — rail : Liaison Bosanski Novi–Bosanska Krupa en 1920.",
+        "ville-ba-bosanska-krupa — rail : Étape ferroviaire en 1920 puis vers Bihać en 1924.",
+        "ville-ba-bihac — rail : Rail en 1924 ; extension vers Knin seulement en 1948.",
+        "ville-ba-bijeljina — rail : Voie étroite construite dans la période 1918–1942.",
+        "ville-ba-ugljevik — rail : Voie étroite vers Bijeljina avant 1943.",
+        "ville-ba-bileca — rail : Liaison étroite de Trebinje avant 1943.",
+        "ville-hr-ploce — rail : Extension de Metković avant 1943 ; ne pas anticiper la voie normale."
+      ],
+      "locator": "Chronologie locale 1872–1942",
+      "note": "Dates locales lues. Ne prouvent pas le trafic continu fin 1944. Jajce donné 1885 malgré contexte 1894 : année précise réservée. Les lignes de 1945–1968 sont exclues. Les cibles hors du fichier de données restent différées ; aucune validation humaine présumée.",
+      "resume_passage": "",
+      "verification_ether": {
+        "date": "2026-10-04",
+        "statut": "passage_lu",
+        "limite": "Dates locales lues. Ne prouvent pas le trafic continu fin 1944. Jajce donné 1885 malgré contexte 1894 : année précise réservée. Les lignes de 1945–1968 sont exclues."
+      },
+      "usages_atlas": [
+        "industrie",
+        "rail"
+      ],
+      "verification_claude": "non_verifiee",
+      "resume_francais": "rail : Liaison de Dobrljin ouverte en 1872."
+    },
+    {
+      "source_id": "src-18-rs-zs-histoire",
+      "operation_registre": "ajouter",
+      "niveau": "B",
+      "type_source": "etude_ou_histoire_institutionnelle",
+      "titre": "Историја српских железница",
+      "institution": "Železnice Srbije",
+      "url": "https://www.zeleznicesrbije.com/istorijat/",
+      "date_consultation": "2026-10-04",
+      "cibles": [
+        "ville-mk-skopje",
+        "ville-rs-bela-crkva",
+        "ville-rs-belgrade",
+        "ville-rs-nis"
+      ],
+      "usage": [
+        "ville-rs-belgrade — rail : Liaison Belgrade–Niš ouverte en 1884.",
+        "ville-rs-nis — rail : Terminus méridional de 1884.",
+        "ville-rs-bela-crkva — rail : La notice précise la portion passant par Bela Crkva conservée après 1918.",
+        "ville-mk-skopje — rail : Liaison vers Mitrovica en 1874."
+      ],
+      "locator": "§ XIXe siècle, 1854–1884",
+      "note": "Dates juliennes et grégoriennes distinguées par la source ; aucun horaire ou capacité de 1944 déduit. Les cibles hors du fichier de données restent différées ; aucune validation humaine présumée.",
+      "resume_passage": "",
+      "verification_ether": {
+        "date": "2026-10-04",
+        "statut": "passage_lu",
+        "limite": "Dates juliennes et grégoriennes distinguées par la source ; aucun horaire ou capacité de 1944 déduit."
+      },
+      "usages_atlas": [
+        "rail"
+      ],
+      "verification_claude": "non_verifiee",
+      "resume_francais": "rail : Liaison Belgrade–Niš ouverte en 1884."
+    },
+    {
+      "source_id": "src-18-me-gov-rail-histoire",
+      "operation_registre": "ajouter",
+      "niveau": "B",
+      "type_source": "etude_ou_histoire_institutionnelle",
+      "titre": "Историјат жељезнице у Црној Гори",
+      "institution": "Gouvernement du Monténégro, reprise de Vijesti",
+      "url": "https://www.gov.me/cyr/clanak/istorijat-zeljeznice-u-crnoj-gori",
+      "date_consultation": "2026-10-04",
+      "cibles": [
+        "ville-me-bar",
+        "ville-me-niksic",
+        "ville-me-plavnica",
+        "ville-me-podgorica",
+        "ville-me-virpazar"
+      ],
+      "usage": [
+        "ville-me-bar — rail, port_maritime : Le chemin de fer relie le port adriatique à Virpazar en 1908.",
+        "ville-me-virpazar — rail, port_fluvial : Port lacustre et terminus ferroviaire en 1908.",
+        "ville-me-podgorica — rail : Liaison de Donja Plavnica en 1927.",
+        "ville-me-plavnica — rail, port_fluvial : Interface entre rail et navigation sur le lac en 1927.",
+        "ville-me-niksic — rail : Première arrivée ferroviaire en juillet 1938."
+      ],
+      "locator": "§ 1908, 1927, 1938",
+      "note": "Récit secondaire reproduit sur un site public ; travaux postérieurs à 1945 exclus. Les cibles hors du fichier de données restent différées ; aucune validation humaine présumée.",
+      "resume_passage": "",
+      "verification_ether": {
+        "date": "2026-10-04",
+        "statut": "passage_lu",
+        "limite": "Récit secondaire reproduit sur un site public ; travaux postérieurs à 1945 exclus."
+      },
+      "usages_atlas": [
+        "port_fluvial",
+        "port_maritime",
+        "rail"
+      ],
+      "verification_claude": "non_verifiee",
+      "resume_francais": "rail, port_maritime : Le chemin de fer relie le port adriatique à Virpazar en 1908."
+    },
+    {
+      "source_id": "src-18-me-canu-italie",
+      "operation_registre": "ajouter",
+      "niveau": "B",
+      "type_source": "etude_ou_histoire_institutionnelle",
+      "titre": "Relations entre le Monténégro et l’Italie",
+      "institution": "Académie monténégrine des sciences et des arts",
+      "url": "https://leks.canu.ac.me/web/ldcg.php?OID=2645",
+      "date_consultation": "2026-10-04",
+      "cibles": [
+        "ville-al-shkoder",
+        "ville-me-bar",
+        "ville-me-podgorica",
+        "ville-me-rijeka-crnojevica"
+      ],
+      "usage": [
+        "ville-me-podgorica — industrie : Fabrique de tabac construite avant 1906.",
+        "ville-me-bar — port_maritime : Port moderne et zone franche aménagés avant 1910.",
+        "ville-al-shkoder — port_fluvial : Liaisons lacustres avec Virpazar ; ravitaillement par le lac et la Bojana mentionné en 1915.",
+        "ville-me-rijeka-crnojevica — port_fluvial : Embarcadère et navigation lacustre au début du XXe siècle."
+      ],
+      "locator": "Développement économique, 1903–1915",
+      "note": "Navigation et industrie avant la guerre ; continuité précise fin 1944 non démontrée. Les cibles hors du fichier de données restent différées ; aucune validation humaine présumée.",
+      "resume_passage": "",
+      "verification_ether": {
+        "date": "2026-10-04",
+        "statut": "passage_lu",
+        "limite": "Navigation et industrie avant la guerre ; continuité précise fin 1944 non démontrée."
+      },
+      "usages_atlas": [
+        "industrie",
+        "port_fluvial",
+        "port_maritime"
+      ],
+      "verification_claude": "non_verifiee",
+      "resume_francais": "industrie : Fabrique de tabac construite avant 1906."
+    },
+    {
+      "source_id": "src-18-hr-he-rijeka",
+      "operation_registre": "ajouter",
+      "niveau": "B",
+      "type_source": "etude_ou_histoire_institutionnelle",
+      "titre": "Rijeka — Hrvatska enciklopedija",
+      "institution": "Leksikografski zavod Miroslav Krleža",
+      "url": "https://enciklopedija.hr/clanak/rijeka-grad",
+      "date_consultation": "2026-10-04",
+      "cibles": [
+        "ville-hr-rijeka"
+      ],
+      "usage": [
+        "ville-hr-rijeka — rail, port_maritime, industrie, administration : Raffinage dès 1883, gare de 1890 et centre provincial italien dès 1924 ; activité portuaire maintenue mais en difficulté entre les guerres."
+      ],
+      "locator": "Gospodarstvo ; gare 1890 ; Povijest 1924–1945",
+      "note": "Sušak et Rijeka sont distincts avant 1947 ; ne pas leur appliquer le périmètre urbain actuel. Fonction actuelle des ferries exclue. Les cibles hors du fichier de données restent différées ; aucune validation humaine présumée.",
+      "resume_passage": "",
+      "verification_ether": {
+        "date": "2026-10-04",
+        "statut": "passage_lu",
+        "limite": "Sušak et Rijeka sont distincts avant 1947 ; ne pas leur appliquer le périmètre urbain actuel. Fonction actuelle des ferries exclue."
+      },
+      "usages_atlas": [
+        "administration",
+        "industrie",
+        "port_maritime",
+        "rail"
+      ],
+      "verification_claude": "non_verifiee",
+      "resume_francais": "rail, port_maritime, industrie, administration : Raffinage dès 1883, gare de 1890 et centre provincial italien dès 1924 ; activité portuaire maintenue mais en difficulté entre les guerres."
+    },
+    {
+      "source_id": "src-18-al-tirana-capitale",
+      "operation_registre": "ajouter",
+      "niveau": "B",
+      "type_source": "etude_ou_histoire_institutionnelle",
+      "titre": "Tangible Culture Heritage — Tirana as Capital",
+      "institution": "Municipalité de Tirana",
+      "url": "https://tirana.al/en/page/tangible-culture-heritage",
+      "date_consultation": "2026-10-04",
+      "cibles": [
+        "ville-al-tirana"
+      ],
+      "usage": [
+        "ville-al-tirana — capitale, administration : Capitale provisoire en 1920, choix définitif en 1925."
+      ],
+      "locator": "Tirana as Capital, 1920–1925",
+      "note": "Passage complet de la section lu dans l’index web ; page directe HTTP 500, y compris navigateur. Confirmation sur page vivante en réserve. Les cibles hors du fichier de données restent différées ; aucune validation humaine présumée.",
+      "resume_passage": "",
+      "verification_ether": {
+        "date": "2026-10-04",
+        "statut": "passage_indexe_lu_page_directe_indisponible",
+        "limite": "Passage complet de la section lu dans l’index web ; page directe HTTP 500, y compris navigateur. Confirmation sur page vivante en réserve."
+      },
+      "usages_atlas": [
+        "administration",
+        "capitale"
+      ],
+      "verification_claude": "non_verifiee",
+      "resume_francais": "capitale, administration : Capitale provisoire en 1920, choix définitif en 1925."
+    },
+    {
+      "source_id": "src-18-al-albpetrol-histoire",
+      "operation_registre": "ajouter",
+      "niveau": "B",
+      "type_source": "etude_ou_histoire_institutionnelle",
+      "titre": "Nafta shqiptare : développement de l’industrie pétrolière",
+      "institution": "Albpetrol",
+      "url": "https://www.albpetrol.al/wp-content/uploads/2020/04/ZHVILLIMI-I-INDUSTRIS%C3%8B-S%C3%8B-NAFT%C3%8BS-DHE-GAZIT-N%C3%8B-SHQIP%C3%8BRI.pdf",
+      "date_consultation": "2026-10-04",
+      "cibles": [
+        "ville-al-kucove",
+        "ville-al-vlore"
+      ],
+      "usage": [
+        "ville-al-kucove — industrie : Extraction pétrolière attestée en 1934 ; oléoduc vers Uji i Ftohtë, Vlorë, construit en 1935.",
+        "ville-al-vlore — industrie : Destination de l’oléoduc de Kuçovë en 1935, à Uji i Ftohtë ; ne prouve pas à elle seule la capacité portuaire fin 1944."
+      ],
+      "locator": "p. 13",
+      "note": "Paragraphe indexé lu ; fac-similé PDF inaccessible à l’outil. Ne pas confondre découverte et exploitation industrielle. Les cibles hors du fichier de données restent différées ; aucune validation humaine présumée.",
+      "resume_passage": "",
+      "verification_ether": {
+        "date": "2026-10-04",
+        "statut": "passage_indexe_lu_image_non_verifiee",
+        "limite": "Paragraphe indexé lu ; fac-similé PDF inaccessible à l’outil. Ne pas confondre découverte et exploitation industrielle."
+      },
+      "usages_atlas": [
+        "industrie"
+      ],
+      "verification_claude": "non_verifiee",
+      "resume_francais": "industrie : Extraction pétrolière attestée en 1934 ; oléoduc vers Uji i Ftohtë, Vlorë, construit en 1935."
+    },
+    {
+      "source_id": "src-18-al-durres-histoire1944",
+      "operation_registre": "ajouter",
+      "niveau": "B",
+      "type_source": "etude_ou_histoire_institutionnelle",
+      "titre": "76 ans de la libération de Durrës",
+      "institution": "Autorité portuaire de Durrës",
+      "url": "https://durresport.al/76-vite-nga-clirimi-i-durresit-pak-histori-nga-operacioni-shetitje-ne-port-deri-ne-clirimin-e-qytetit-14-nentor-2020/",
+      "date_consultation": "2026-10-04",
+      "cibles": [
+        "ville-al-durres"
+      ],
+      "usage": [
+        "ville-al-durres — port_maritime, militaire : Port miné pendant l’occupation ; entrée des partisans le 14 novembre 1944 dans une ville évacuée."
+      ],
+      "locator": "Premiers paragraphes, novembre 1943–novembre 1944",
+      "note": "Passage indexé lu ; page directe inaccessible. Mines et évacuation de 1943–1944 : aucune pleine capacité de fin 1944 affirmée. Les cibles hors du fichier de données restent différées ; aucune validation humaine présumée.",
+      "resume_passage": "",
+      "verification_ether": {
+        "date": "2026-10-04",
+        "statut": "passage_indexe_lu_page_directe_indisponible",
+        "limite": "Passage indexé lu ; page directe inaccessible. Mines et évacuation de 1943–1944 : aucune pleine capacité de fin 1944 affirmée."
+      },
+      "usages_atlas": [
+        "militaire",
+        "port_maritime"
+      ],
+      "verification_claude": "non_verifiee",
+      "resume_francais": "port_maritime, militaire : Port miné pendant l’occupation ; entrée des partisans le 14 novembre 1944 dans une ville évacuée."
+    },
+    {
+      "source_id": "src-18-oss2443-yugoslavie1943",
+      "operation_registre": "ajouter",
+      "niveau": "A",
+      "type_source": "carte_epoque",
+      "titre": "Yugoslavia, OSS n°2443, 26 août 1943",
+      "institution": "Office of Strategic Services ; Stanford University Libraries",
+      "url": "https://purl.stanford.edu/cg501zv0179",
+      "date_consultation": "2026-10-04",
+      "cibles": [
+        "ville-al-elbasan",
+        "ville-al-gjirokaster",
+        "ville-al-korce",
+        "ville-al-kukes",
+        "ville-ba-foca",
+        "ville-ba-ustipraca",
+        "ville-hr-cakovec",
+        "ville-hr-gospic",
+        "ville-hr-karlovac",
+        "ville-hr-koprivnica",
+        "ville-hr-osijek",
+        "ville-hr-pula",
+        "ville-hr-rijeka",
+        "ville-hr-sibenik",
+        "ville-hr-sinj",
+        "ville-hr-sisak",
+        "ville-hr-slavonski-brod",
+        "ville-hr-split",
+        "ville-hr-susak",
+        "ville-hr-vinkovci",
+        "ville-hr-zagreb",
+        "ville-it-gorizia",
+        "ville-it-padoue",
+        "ville-it-trieste",
+        "ville-it-udine",
+        "ville-it-venise",
+        "ville-it-verone",
+        "ville-me-cetinje",
+        "ville-me-herceg-novi",
+        "ville-me-kotor",
+        "ville-mk-debar",
+        "ville-mk-ohrid",
+        "ville-mk-prilep",
+        "ville-mk-tetovo",
+        "ville-rs-belgrade",
+        "ville-rs-bor",
+        "ville-rs-cacak",
+        "ville-rs-kragujevac",
+        "ville-rs-kraljevo",
+        "ville-rs-krusevac",
+        "ville-rs-negotin",
+        "ville-rs-nis",
+        "ville-rs-novi-sad",
+        "ville-rs-pancevo",
+        "ville-rs-pirot",
+        "ville-rs-pozarevac",
+        "ville-rs-smederevska-palanka",
+        "ville-rs-sombor",
+        "ville-rs-sremska-mitrovica",
+        "ville-rs-stalac",
+        "ville-rs-subotica",
+        "ville-rs-valjevo",
+        "ville-rs-vrsac",
+        "ville-rs-zajecar",
+        "ville-rs-zrenjanin",
+        "ville-si-celje",
+        "ville-si-jesenice",
+        "ville-si-ljubljana",
+        "ville-si-maribor"
+      ],
+      "usage": [
+        "ville-it-venise — rail : Desserte ferroviaire figurée sur la carte du 26 août 1943.",
+        "ville-it-udine — rail : Desserte ferroviaire figurée sur la carte du 26 août 1943.",
+        "ville-it-gorizia — rail : Desserte ferroviaire figurée sur la carte du 26 août 1943.",
+        "ville-it-trieste — rail : Desserte ferroviaire figurée sur la carte du 26 août 1943.",
+        "ville-it-verone — rail : Desserte ferroviaire figurée sur la carte du 26 août 1943.",
+        "ville-it-padoue — rail : Desserte ferroviaire figurée sur la carte du 26 août 1943.",
+        "ville-si-jesenice — rail : Desserte ferroviaire figurée sur la carte du 26 août 1943.",
+        "ville-si-ljubljana — rail : Desserte ferroviaire figurée sur la carte du 26 août 1943.",
+        "ville-si-celje — rail : Desserte ferroviaire figurée sur la carte du 26 août 1943.",
+        "ville-si-maribor — rail : Desserte ferroviaire figurée sur la carte du 26 août 1943.",
+        "ville-hr-pula — rail : Desserte ferroviaire figurée sur la carte du 26 août 1943.",
+        "ville-hr-rijeka — rail : Desserte ferroviaire figurée sur la carte du 26 août 1943.",
+        "ville-hr-susak — rail : Desserte ferroviaire figurée sur la carte du 26 août 1943.",
+        "ville-hr-zagreb — rail : Desserte ferroviaire figurée sur la carte du 26 août 1943.",
+        "ville-hr-karlovac — rail : Desserte ferroviaire figurée sur la carte du 26 août 1943.",
+        "ville-hr-cakovec — rail : Desserte ferroviaire figurée sur la carte du 26 août 1943.",
+        "ville-hr-koprivnica — rail : Desserte ferroviaire figurée sur la carte du 26 août 1943.",
+        "ville-hr-sisak — rail : Desserte ferroviaire figurée sur la carte du 26 août 1943.",
+        "ville-hr-gospic — rail : Desserte ferroviaire figurée sur la carte du 26 août 1943.",
+        "ville-hr-sibenik — rail : Desserte ferroviaire figurée sur la carte du 26 août 1943.",
+        "ville-hr-sinj — rail : Desserte ferroviaire figurée sur la carte du 26 août 1943.",
+        "ville-hr-split — rail : Desserte ferroviaire figurée sur la carte du 26 août 1943.",
+        "ville-hr-slavonski-brod — rail : Desserte ferroviaire figurée sur la carte du 26 août 1943.",
+        "ville-hr-osijek — rail : Desserte ferroviaire figurée sur la carte du 26 août 1943.",
+        "ville-hr-vinkovci — rail : Desserte ferroviaire figurée sur la carte du 26 août 1943.",
+        "ville-rs-sombor — rail : Desserte ferroviaire figurée sur la carte du 26 août 1943.",
+        "ville-rs-subotica — rail : Desserte ferroviaire figurée sur la carte du 26 août 1943.",
+        "ville-rs-sremska-mitrovica — rail : Desserte ferroviaire figurée sur la carte du 26 août 1943.",
+        "ville-rs-novi-sad — rail : Desserte ferroviaire figurée sur la carte du 26 août 1943.",
+        "ville-rs-zrenjanin — rail : Desserte ferroviaire figurée sur la carte du 26 août 1943.",
+        "ville-rs-vrsac — rail : Desserte ferroviaire figurée sur la carte du 26 août 1943.",
+        "ville-rs-pancevo — rail : Desserte ferroviaire figurée sur la carte du 26 août 1943.",
+        "ville-rs-belgrade — rail : Desserte ferroviaire figurée sur la carte du 26 août 1943.",
+        "ville-rs-valjevo — rail : Desserte ferroviaire figurée sur la carte du 26 août 1943.",
+        "ville-rs-cacak — rail : Desserte ferroviaire figurée sur la carte du 26 août 1943.",
+        "ville-rs-kraljevo — rail : Desserte ferroviaire figurée sur la carte du 26 août 1943.",
+        "ville-rs-kragujevac — rail : Desserte ferroviaire figurée sur la carte du 26 août 1943.",
+        "ville-rs-smederevska-palanka — rail : Desserte ferroviaire figurée sur la carte du 26 août 1943.",
+        "ville-rs-pozarevac — rail : Desserte ferroviaire figurée sur la carte du 26 août 1943.",
+        "ville-rs-krusevac — rail : Desserte ferroviaire figurée sur la carte du 26 août 1943.",
+        "ville-rs-stalac — rail : Desserte ferroviaire figurée sur la carte du 26 août 1943.",
+        "ville-rs-bor — rail : Desserte ferroviaire figurée sur la carte du 26 août 1943.",
+        "ville-rs-zajecar — rail : Desserte ferroviaire figurée sur la carte du 26 août 1943.",
+        "ville-rs-negotin — rail : Desserte ferroviaire figurée sur la carte du 26 août 1943.",
+        "ville-rs-nis — rail : Desserte ferroviaire figurée sur la carte du 26 août 1943.",
+        "ville-rs-pirot — rail : Desserte ferroviaire figurée sur la carte du 26 août 1943.",
+        "ville-ba-foca — rail : Desserte ferroviaire figurée sur la carte du 26 août 1943.",
+        "ville-ba-ustipraca — rail : Desserte ferroviaire figurée sur la carte du 26 août 1943.",
+        "ville-me-herceg-novi — rail : Desserte ferroviaire figurée sur la carte du 26 août 1943.",
+        "ville-mk-prilep — rail : Desserte ferroviaire figurée sur la carte du 26 août 1943.",
+        "ville-mk-ohrid — rail : Desserte ferroviaire figurée sur la carte du 26 août 1943.",
+        "ville-al-elbasan —  : Ville ou bourg de transit figurant sur les routes principales en 1943 ; aucune fonction ferroviaire ajoutée sur ce seul document.",
+        "ville-al-korce —  : Ville ou bourg de transit figurant sur les routes principales en 1943 ; aucune fonction ferroviaire ajoutée sur ce seul document.",
+        "ville-al-gjirokaster —  : Ville ou bourg de transit figurant sur les routes principales en 1943 ; aucune fonction ferroviaire ajoutée sur ce seul document.",
+        "ville-al-kukes —  : Ville ou bourg de transit figurant sur les routes principales en 1943 ; aucune fonction ferroviaire ajoutée sur ce seul document.",
+        "ville-me-cetinje —  : Ville ou bourg de transit figurant sur les routes principales en 1943 ; aucune fonction ferroviaire ajoutée sur ce seul document.",
+        "ville-me-kotor —  : Ville ou bourg de transit figurant sur les routes principales en 1943 ; aucune fonction ferroviaire ajoutée sur ce seul document.",
+        "ville-mk-tetovo —  : Ville ou bourg de transit figurant sur les routes principales en 1943 ; aucune fonction ferroviaire ajoutée sur ce seul document.",
+        "ville-mk-debar —  : Ville ou bourg de transit figurant sur les routes principales en 1943 ; aucune fonction ferroviaire ajoutée sur ce seul document."
+      ],
+      "locator": "Carte unique ; légende Railroad / Main road et lieux nommés",
+      "note": "Carte directement lue en image, échelle schématique ; prouve une desserte représentée en 1943, pas le trafic fin 1944. Frontières, occupation et souveraineté ne sont pas importées. Les cibles hors du fichier de données restent différées ; aucune validation humaine présumée.",
+      "resume_passage": "",
+      "verification_ether": {
+        "date": "2026-10-04",
+        "statut": "passage_lu",
+        "limite": "Carte directement lue en image, échelle schématique ; prouve une desserte représentée en 1943, pas le trafic fin 1944. Frontières, occupation et souveraineté ne sont pas importées."
+      },
+      "images_locales": [
+        {
+          "fichier": "2026-10-04_ether_OSS_cg501zv0179_1.jpg",
+          "sha256": "3f3a407303dd275120f0f2e4ebcd7d1a50a788e5af2baa1fc50943f90b0e04ca",
+          "lecture": "Carte lue visuellement ; dérivés recadrés sans modification des signes."
+        },
+        {
+          "fichier": "2026-10-04_ether_OSS2443_centre.jpg",
+          "sha256": "875ce9305bb9a6415acf5d2c054b09b0300bd878c1ff3f45ed1168ca0e11d05b",
+          "lecture": "Carte lue visuellement ; dérivés recadrés sans modification des signes."
+        },
+        {
+          "fichier": "2026-10-04_ether_OSS2443_nord.jpg",
+          "sha256": "01923a1929159be7520637aad4e3c8e4bf561adf895faf4d6eb7f00f47ca9bb7",
+          "lecture": "Carte lue visuellement ; dérivés recadrés sans modification des signes."
+        },
+        {
+          "fichier": "2026-10-04_ether_OSS2443_sud.jpg",
+          "sha256": "4e6cf02a10ccfdf07b41edd1a1843cb3a31bdda885319020131e42eab71ad0ff",
+          "lecture": "Carte lue visuellement ; dérivés recadrés sans modification des signes."
+        },
+        {
+          "fichier": "2026-10-04_ether_OSS2443_vue.jpg",
+          "sha256": "a1df4baa5966ce122bddcd3252cc952cd8988c29b6f283abd51be94f0fc976af",
+          "lecture": "Carte lue visuellement ; dérivés recadrés sans modification des signes."
+        }
+      ],
+      "usages_atlas": [
+        "rail"
+      ],
+      "verification_claude": "non_verifiee",
+      "resume_francais": "rail : Desserte ferroviaire figurée sur la carte du 26 août 1943."
+    },
+    {
+      "source_id": "src-18-oss1068-industrie-yugoslavie1942",
+      "operation_registre": "ajouter",
+      "niveau": "A",
+      "type_source": "carte_epoque",
+      "titre": "Yugoslavia mining and manufacturing, OSS n°1068, 12 octobre 1942",
+      "institution": "Office of Strategic Services ; Stanford University Libraries",
+      "url": "https://purl.stanford.edu/sh018fq0460",
+      "date_consultation": "2026-10-04",
+      "cibles": [
+        "ville-ba-drvar",
+        "ville-ba-jajce",
+        "ville-ba-tuzla",
+        "ville-ba-zenica",
+        "ville-hr-osijek",
+        "ville-hr-sibenik",
+        "ville-hr-split",
+        "ville-hr-susak",
+        "ville-hr-zagreb",
+        "ville-rs-belgrade",
+        "ville-rs-bor",
+        "ville-rs-leskovac",
+        "ville-rs-novi-sad",
+        "ville-rs-smederevska-palanka",
+        "ville-rs-subotica",
+        "ville-rs-vrsac",
+        "ville-rs-zrenjanin",
+        "ville-si-celje",
+        "ville-si-jesenice",
+        "ville-si-kranj",
+        "ville-si-litija",
+        "ville-si-ljubljana",
+        "ville-si-maribor"
+      ],
+      "usage": [
+        "ville-si-jesenice — industrie : Métallurgie, symbole 2.",
+        "ville-si-kranj — industrie : Métallurgie, symbole 2.",
+        "ville-si-ljubljana — industrie : Métallurgie et chimie, symboles 2 et 1.",
+        "ville-si-litija — industrie : Métallurgie et textile, symboles 2 et 6.",
+        "ville-si-celje — industrie : Métallurgie et chimie, symboles 2 et 1.",
+        "ville-si-maribor — industrie : Chimie, électrochimie et textile, symboles 1, 3, 6.",
+        "ville-hr-zagreb — industrie : Métallurgie, symbole 2.",
+        "ville-hr-susak — industrie : Chimie, symbole 1.",
+        "ville-hr-osijek — industrie : Métallurgie, chimie, sucre et raffinage, symboles 2, 1, 5, 7.",
+        "ville-hr-sibenik — industrie : Chimie et électrochimie, symboles 1 et 3.",
+        "ville-hr-split — industrie : Chimie incluant ciment, symbole 1.",
+        "ville-ba-drvar — industrie : Chimie, symbole 1.",
+        "ville-ba-jajce — industrie : Chimie, électrochimie et métallurgie, symboles 1, 3, 2.",
+        "ville-ba-zenica — industrie : Métallurgie, symbole 2.",
+        "ville-ba-tuzla — industrie : Chimie et sel localisés.",
+        "ville-rs-subotica — industrie : Industrie alimentaire, textile et sucre, symboles 4, 6, 5.",
+        "ville-rs-zrenjanin — industrie : Textile et sucre à Petrovgrad, symboles 6 et 5.",
+        "ville-rs-novi-sad — industrie : Chimie, symbole 1.",
+        "ville-rs-vrsac — industrie : Industrie alimentaire, symbole 4.",
+        "ville-rs-belgrade — industrie : Industrie alimentaire, raffinage, sucre et textile, symboles 4, 7, 5, 6.",
+        "ville-rs-smederevska-palanka — industrie : Métallurgie, symbole 2.",
+        "ville-rs-bor — industrie : Métallurgie, symbole 2, et cuivre localisé.",
+        "ville-rs-leskovac — industrie : Textile, symbole 6."
+      ],
+      "locator": "Carte unique et légende Manufacturing 1–7",
+      "note": "Symboles industriels localisés et lus en image. Les cercles miniers proches d’une ville ne lui sont pas attribués automatiquement. Aucun niveau de production fin 1944 déduit. Les cibles hors du fichier de données restent différées ; aucune validation humaine présumée.",
+      "resume_passage": "",
+      "verification_ether": {
+        "date": "2026-10-04",
+        "statut": "passage_lu",
+        "limite": "Symboles industriels localisés et lus en image. Les cercles miniers proches d’une ville ne lui sont pas attribués automatiquement. Aucun niveau de production fin 1944 déduit."
+      },
+      "images_locales": [
+        {
+          "fichier": "2026-10-04_ether_OSS_sh018fq0460_1.jpg",
+          "sha256": "23d423f1f6bed084a6629766475dc8248018b8799bdcdba6dacd395129c2cdab",
+          "lecture": "Carte lue visuellement ; dérivés recadrés sans modification des signes."
+        },
+        {
+          "fichier": "2026-10-04_ether_OSS1068_vue.jpg",
+          "sha256": "ff84b5d0519bee758aa6ee864a13495fc1086b754fe57f87a82e83877c59bd22",
+          "lecture": "Carte lue visuellement ; dérivés recadrés sans modification des signes."
+        }
+      ],
+      "usages_atlas": [
+        "industrie"
+      ],
+      "verification_claude": "non_verifiee",
+      "resume_francais": "industrie : Métallurgie, symbole 2."
+    },
+    {
+      "source_id": "src-18-oss2475-italie-alimentation1937",
+      "operation_registre": "ajouter",
+      "niveau": "A",
+      "type_source": "carte_epoque",
+      "titre": "Southern Italy: food processing plants, OSS n°2475, 30 juillet 1943",
+      "institution": "Office of Strategic Services ; Stanford University Libraries",
+      "url": "https://purl.stanford.edu/ck156mr7841",
+      "date_consultation": "2026-10-04",
+      "cibles": [
+        "ville-it-avellino",
+        "ville-it-aversa",
+        "ville-it-bari",
+        "ville-it-barletta",
+        "ville-it-benevent",
+        "ville-it-brindisi",
+        "ville-it-caserte",
+        "ville-it-castellammare-di-stabia",
+        "ville-it-catanzaro",
+        "ville-it-cosenza",
+        "ville-it-crotone",
+        "ville-it-foggia",
+        "ville-it-gallipoli",
+        "ville-it-lecce",
+        "ville-it-matera",
+        "ville-it-molfetta",
+        "ville-it-naples",
+        "ville-it-potenza",
+        "ville-it-pozzuoli",
+        "ville-it-reggio-calabre",
+        "ville-it-salerne",
+        "ville-it-san-severo",
+        "ville-it-tarente",
+        "ville-it-trani"
+      ],
+      "usage": [
+        "ville-it-naples — industrie : Établissements de transformation alimentaire figurés localement pour 1937 ; situation productive fin 1944 réservée.",
+        "ville-it-salerne — industrie : Établissements de transformation alimentaire figurés localement pour 1937 ; situation productive fin 1944 réservée.",
+        "ville-it-aversa — industrie : Établissements de transformation alimentaire figurés localement pour 1937 ; situation productive fin 1944 réservée.",
+        "ville-it-caserte — industrie : Établissements de transformation alimentaire figurés localement pour 1937 ; situation productive fin 1944 réservée.",
+        "ville-it-benevent — industrie : Établissements de transformation alimentaire figurés localement pour 1937 ; situation productive fin 1944 réservée.",
+        "ville-it-foggia — industrie : Établissements de transformation alimentaire figurés localement pour 1937 ; situation productive fin 1944 réservée.",
+        "ville-it-san-severo — industrie : Établissements de transformation alimentaire figurés localement pour 1937 ; situation productive fin 1944 réservée.",
+        "ville-it-barletta — industrie : Établissements de transformation alimentaire figurés localement pour 1937 ; situation productive fin 1944 réservée.",
+        "ville-it-bari — industrie : Établissements de transformation alimentaire figurés localement pour 1937 ; situation productive fin 1944 réservée.",
+        "ville-it-brindisi — industrie : Établissements de transformation alimentaire figurés localement pour 1937 ; situation productive fin 1944 réservée.",
+        "ville-it-tarente — industrie : Établissements de transformation alimentaire figurés localement pour 1937 ; situation productive fin 1944 réservée.",
+        "ville-it-lecce — industrie : Établissements de transformation alimentaire figurés localement pour 1937 ; situation productive fin 1944 réservée.",
+        "ville-it-potenza — industrie : Établissements de transformation alimentaire figurés localement pour 1937 ; situation productive fin 1944 réservée.",
+        "ville-it-matera — industrie : Établissements de transformation alimentaire figurés localement pour 1937 ; situation productive fin 1944 réservée.",
+        "ville-it-cosenza — industrie : Établissements de transformation alimentaire figurés localement pour 1937 ; situation productive fin 1944 réservée.",
+        "ville-it-catanzaro — industrie : Établissements de transformation alimentaire figurés localement pour 1937 ; situation productive fin 1944 réservée.",
+        "ville-it-crotone — industrie : Établissements de transformation alimentaire figurés localement pour 1937 ; situation productive fin 1944 réservée.",
+        "ville-it-reggio-calabre — industrie : Établissements de transformation alimentaire figurés localement pour 1937 ; situation productive fin 1944 réservée.",
+        "ville-it-gallipoli — industrie : Établissements de transformation alimentaire figurés localement pour 1937 ; situation productive fin 1944 réservée.",
+        "ville-it-avellino — industrie : Établissements de transformation alimentaire figurés localement pour 1937 ; situation productive fin 1944 réservée.",
+        "ville-it-trani — industrie : Établissements de transformation alimentaire figurés localement pour 1937 ; situation productive fin 1944 réservée.",
+        "ville-it-molfetta — industrie : Établissements de transformation alimentaire figurés localement pour 1937 ; situation productive fin 1944 réservée.",
+        "ville-it-castellammare-di-stabia — industrie : Établissements de transformation alimentaire figurés localement pour 1937 ; situation productive fin 1944 réservée.",
+        "ville-it-pozzuoli — industrie : Établissements de transformation alimentaire figurés localement pour 1937 ; situation productive fin 1944 réservée."
+      ],
+      "locator": "Carte et légende ; mention Data as of 1937",
+      "note": "Carte de 1943 reposant explicitement sur des données de 1937. Industrie alimentaire attestée à cette dernière date ; aucune capacité ni continuité de production 1944 présumée. Les cibles hors du fichier de données restent différées ; aucune validation humaine présumée.",
+      "resume_passage": "",
+      "verification_ether": {
+        "date": "2026-10-04",
+        "statut": "passage_lu",
+        "limite": "Carte de 1943 reposant explicitement sur des données de 1937. Industrie alimentaire attestée à cette dernière date ; aucune capacité ni continuité de production 1944 présumée."
+      },
+      "images_locales": [
+        {
+          "fichier": "2026-10-04_ether_OSS_ck156mr7841_1.jpg",
+          "sha256": "97827162e3055596e60af6e40e545cd1432abddbeae5f5eb713e3e3ea6b02f29",
+          "lecture": "Image lue ; vue réduite jointe."
+        },
+        {
+          "fichier": "2026-10-04_ether_OSS_ck156mr7841_vue.jpg",
+          "sha256": "362bf284c75fcda8562cc4e897be16159f709a39a7b935271cbc0190a5dfcdaa",
+          "lecture": "Image lue ; vue réduite jointe."
+        }
+      ],
+      "usages_atlas": [
+        "industrie"
+      ],
+      "verification_claude": "non_verifiee",
+      "resume_francais": "industrie : Établissements de transformation alimentaire figurés localement pour 1937 ; situation productive fin 1944 réservée."
+    },
+    {
+      "source_id": "src-18-bellu-balog-tara-barsei2003",
+      "operation_registre": "ajouter",
+      "niveau": "B",
+      "type_source": "etude_ou_histoire_institutionnelle",
+      "titre": "Țara Bârsei 2003 : Balog pp.47–54 et Bellu pp.55–60",
+      "institution": "Muzeul Casa Mureșenilor ; bibliothèque numérique du patrimoine roumain",
+      "url": "https://biblioteca-digitala.ro/reviste/tara-barsei/02-revista-Tara-Barsei-2003.pdf",
+      "date_consultation": "2026-10-04",
+      "cibles": [
+        "ville-ro-alba-iulia",
+        "ville-ro-brasov",
+        "ville-ro-cluj-napoca",
+        "ville-ro-fagaras",
+        "ville-ro-medias",
+        "ville-ro-oradea",
+        "ville-ro-petrosani",
+        "ville-ro-predeal",
+        "ville-ro-sfantu-gheorghe",
+        "ville-ro-sighisoara",
+        "ville-ro-simeria",
+        "ville-ro-teius",
+        "ville-ro-zarnesti"
+      ],
+      "usage": [
+        "ville-ro-alba-iulia — rail : Ligne Arad–Alba Iulia achevée en 1868.",
+        "ville-ro-simeria — rail : Ligne Simeria–Petroșani achevée en 1870.",
+        "ville-ro-petrosani — rail : Ligne de Simeria ouverte en 1870 pour le bassin houiller.",
+        "ville-ro-oradea — rail : Liaisons inaugurées en 1858 et 1870.",
+        "ville-ro-cluj-napoca — rail : Liaisons d’Oradea en 1870 et Teiuș en 1873.",
+        "ville-ro-teius — rail : Jonction des sections ouvertes en 1872–1873.",
+        "ville-ro-medias — rail : Sections ouvertes en 1872.",
+        "ville-ro-sighisoara — rail : Liaison de Mediaș en 1872 et de Brașov en 1873.",
+        "ville-ro-brasov — rail : Réseau avant-guerre ; gare détruite en avril 1944, activité maintenue sur ancien site avec bâtiment provisoire.",
+        "ville-ro-predeal — rail : Liaison de Brașov inaugurée en 1879.",
+        "ville-ro-zarnesti — rail : Liaison de Brașov inaugurée en 1891.",
+        "ville-ro-sfantu-gheorghe — rail : Liaison de Brașov inaugurée en 1891.",
+        "ville-ro-fagaras — rail : Liaison de Brașov inaugurée en 1908."
+      ],
+      "locator": "Balog p.54 ; Bellu pp.56–60",
+      "note": "Texte extrait du PDF lu. Téléchargement direct bloqué par protection du site, fac-similé non collationné. P.58 comporte Sighișoara–Bacău, différent du texte répété Sighișoara–Brașov ; ne pas reprendre ce libellé. Bombardement daté du 17 puis du 16 avril 1944 : jour réservé. Les cibles hors du fichier de données restent différées ; aucune validation humaine présumée.",
+      "resume_passage": "",
+      "verification_ether": {
+        "date": "2026-10-04",
+        "statut": "passage_lu",
+        "limite": "Texte extrait du PDF lu. Téléchargement direct bloqué par protection du site, fac-similé non collationné. P.58 comporte Sighișoara–Bacău, différent du texte répété Sighișoara–Brașov ; ne pas reprendre ce libellé. Bombardement daté du 17 puis du 16 avril 1944 : jour réservé."
+      },
+      "usages_atlas": [
+        "rail"
+      ],
+      "verification_claude": "non_verifiee",
+      "resume_francais": "rail : Ligne Arad–Alba Iulia achevée en 1868."
+    },
+    {
+      "source_id": "src-18-ro-timisoara-conseil-histoire",
+      "operation_registre": "ajouter",
+      "niveau": "B",
+      "type_source": "etude_ou_histoire_institutionnelle",
+      "titre": "Municipiul Timișoara — repères historiques",
+      "institution": "Conseil du județ de Timiș",
+      "url": "https://www.cjtimis.ro/judetul-timis/primariile-din-judetul-timis/municipiul-timisoara/",
+      "date_consultation": "2026-10-04",
+      "cibles": [
+        "ville-ro-timisoara"
+      ],
+      "usage": [
+        "ville-ro-timisoara — rail, industrie : Rail de Szeged en 1857, fonderie en 1880 ; bombardements autour de la gare en 1944."
+      ],
+      "locator": "Entrées 1857, 1880, juin–juillet 1944",
+      "note": "Chronologie officielle rétrospective ; la destruction de 1944 ne prouve pas la fermeture de tout le nœud. Les cibles hors du fichier de données restent différées ; aucune validation humaine présumée.",
+      "resume_passage": "",
+      "verification_ether": {
+        "date": "2026-10-04",
+        "statut": "passage_lu",
+        "limite": "Chronologie officielle rétrospective ; la destruction de 1944 ne prouve pas la fermeture de tout le nœud."
+      },
+      "usages_atlas": [
+        "industrie",
+        "rail"
+      ],
+      "verification_claude": "non_verifiee",
+      "resume_francais": "rail, industrie : Rail de Szeged en 1857, fonderie en 1880 ; bombardements autour de la gare en 1944."
+    },
+    {
+      "source_id": "src-18-ro-sibiu-ville-histoire",
+      "operation_registre": "ajouter",
+      "niveau": "B",
+      "type_source": "etude_ou_histoire_institutionnelle",
+      "titre": "Istoria orașului",
+      "institution": "Municipalité de Sibiu",
+      "url": "https://sibiu.ro/sibiu/istoria",
+      "date_consultation": "2026-10-04",
+      "cibles": [
+        "ville-ro-sibiu"
+      ],
+      "usage": [
+        "ville-ro-sibiu — industrie : Machines-outils, ressorts et balances : implantations industrielles du dernier quart du XIXe siècle."
+      ],
+      "locator": "Chronologie 1875–1897 et changement de nom 1919",
+      "note": "Les anciennes fonctions de capitale jusqu’en 1919 ne sont pas reconduites au Snapshot. Les cibles hors du fichier de données restent différées ; aucune validation humaine présumée.",
+      "resume_passage": "",
+      "verification_ether": {
+        "date": "2026-10-04",
+        "statut": "passage_lu",
+        "limite": "Les anciennes fonctions de capitale jusqu’en 1919 ne sont pas reconduites au Snapshot."
+      },
+      "usages_atlas": [
+        "industrie"
+      ],
+      "verification_claude": "non_verifiee",
+      "resume_francais": "industrie : Machines-outils, ressorts et balances : implantations industrielles du dernier quart du XIXe siècle."
+    },
+    {
+      "source_id": "src-18-ro-resita-ucmh-histoire",
+      "operation_registre": "ajouter",
+      "niveau": "B",
+      "type_source": "etude_ou_histoire_institutionnelle",
+      "titre": "Istorie și evoluție",
+      "institution": "UCMH Reșița",
+      "url": "https://www.ucmh.ro/istorie-si-evolutie/",
+      "date_consultation": "2026-10-04",
+      "cibles": [
+        "ville-ro-resita"
+      ],
+      "usage": [
+        "ville-ro-resita — industrie : Complexe sidérurgique et mécanique comprenant notamment des fabrications de locomotives et d’armement."
+      ],
+      "locator": "Section III, période UDR 1920–1948",
+      "note": "Histoire de l’exploitant ; structure de la période, sans année précise pour chaque équipement ni capacité au Snapshot. Les cibles hors du fichier de données restent différées ; aucune validation humaine présumée.",
+      "resume_passage": "",
+      "verification_ether": {
+        "date": "2026-10-04",
+        "statut": "passage_lu",
+        "limite": "Histoire de l’exploitant ; structure de la période, sans année précise pour chaque équipement ni capacité au Snapshot."
+      },
+      "usages_atlas": [
+        "industrie"
+      ],
+      "verification_claude": "non_verifiee",
+      "resume_francais": "industrie : Complexe sidérurgique et mécanique comprenant notamment des fabrications de locomotives et d’armement."
+    },
+    {
+      "source_id": "src-18-ro-constanta-mnhr1906",
+      "operation_registre": "ajouter",
+      "niveau": "B",
+      "type_source": "etude_ou_histoire_institutionnelle",
+      "titre": "The Port of Constanţa, objet RO 004",
+      "institution": "National Museum of Romanian History ; Museum With No Frontiers",
+      "url": "https://sharinghistory.museumwnf.org/database_item.php?id=object;AWE;rm;4;en",
+      "date_consultation": "2026-10-04",
+      "cibles": [
+        "ville-ro-constanta"
+      ],
+      "usage": [
+        "ville-ro-constanta — port_maritime : Port avec docks, entrepôts, silos et bassin pétrolier inauguré en 1909."
+      ],
+      "locator": "Description de la carte postale 1906 et du port inauguré en 1909",
+      "note": "Notice du musée détenteur ; les installations décrites sont historiques, sans capacité de 1944. Les cibles hors du fichier de données restent différées ; aucune validation humaine présumée.",
+      "resume_passage": "",
+      "verification_ether": {
+        "date": "2026-10-04",
+        "statut": "passage_lu",
+        "limite": "Notice du musée détenteur ; les installations décrites sont historiques, sans capacité de 1944."
+      },
+      "usages_atlas": [
+        "port_maritime"
+      ],
+      "verification_claude": "non_verifiee",
+      "resume_francais": "port_maritime : Port avec docks, entrepôts, silos et bassin pétrolier inauguré en 1909."
+    },
+    {
+      "source_id": "src-18-bg-gorna-ville-histoire",
+      "operation_registre": "ajouter",
+      "niveau": "B",
+      "type_source": "etude_ou_histoire_institutionnelle",
+      "titre": "Историческа справка",
+      "institution": "Municipalité de Gorna Oryahovitsa",
+      "url": "https://www.g-oryahovica.bg/istoricheska-spravka",
+      "date_consultation": "2026-10-04",
+      "cibles": [
+        "ville-bg-gorna-oryahovitsa"
+      ],
+      "usage": [
+        "ville-bg-gorna-oryahovitsa — rail, industrie : Nœud ferroviaire et sucrerie attestés avant le Snapshot."
+      ],
+      "locator": "Sections gare, sucrerie et aéroport",
+      "note": "Gare ouverte en 1899, sucre produit dès 1913 ; pas de fonction militaire actuelle déduite de l’aérodrome de la Première Guerre mondiale. Les cibles hors du fichier de données restent différées ; aucune validation humaine présumée.",
+      "resume_passage": "",
+      "verification_ether": {
+        "date": "2026-10-04",
+        "statut": "passage_lu",
+        "limite": "Gare ouverte en 1899, sucre produit dès 1913 ; pas de fonction militaire actuelle déduite de l’aérodrome de la Première Guerre mondiale."
+      },
+      "usages_atlas": [
+        "industrie",
+        "rail"
+      ],
+      "verification_claude": "non_verifiee",
+      "resume_francais": "rail, industrie : Nœud ferroviaire et sucrerie attestés avant le Snapshot."
+    },
+    {
+      "source_id": "src-18-bg-pleven-archives-rail",
+      "operation_registre": "ajouter",
+      "niveau": "B",
+      "type_source": "etude_ou_histoire_institutionnelle",
+      "titre": "Развитие на железопътния транспорт в Плевенския регион",
+      "institution": "Iliyan Tsvetanov, Archives d’État de Pleven ; média municipal",
+      "url": "https://radio.pleven.bg/?p=9733",
+      "date_consultation": "2026-10-04",
+      "cibles": [
+        "ville-bg-cherven-bryag",
+        "ville-bg-levski",
+        "ville-bg-lovech",
+        "ville-bg-pleven",
+        "ville-bg-roman",
+        "ville-bg-shumen",
+        "ville-bg-somovit",
+        "ville-bg-svichtov",
+        "ville-bg-yasen"
+      ],
+      "usage": [
+        "ville-bg-pleven — rail : Desserte locale datée : Roman–Pleven juillet 1899 ; Pleven–Shumen novembre 1899.",
+        "ville-bg-roman — rail : Desserte locale datée : Roman–Pleven 1899.",
+        "ville-bg-shumen — rail : Desserte locale datée : Pleven–Shumen 1899.",
+        "ville-bg-somovit — rail : Desserte locale datée : Somovit–Yasen 1899.",
+        "ville-bg-yasen — rail : Desserte locale datée : Somovit–Yasen 1899.",
+        "ville-bg-levski — rail : Desserte locale datée : Levski–Svishtov figuré en 1915 ; Levski–Lovech 1927.",
+        "ville-bg-svishtov — rail : Desserte locale datée : Levski–Svishtov figuré en 1915.",
+        "ville-bg-lovech — rail : Desserte locale datée : Levski–Lovech ouvert en 1927.",
+        "ville-bg-cherven-bryag — rail : Desserte locale datée : Voie étroite figurée sur la carte de 1926."
+      ],
+      "locator": "Ouvertures 1899, carte de 1915 et ouverture 1927 ; références de fonds en fin d’article",
+      "note": "Article archivistique local ; seuls les tronçons explicitement ouverts avant 1945 sont retenus. Électrification après-guerre exclue. Les cibles hors du fichier de données restent différées ; aucune validation humaine présumée.",
+      "resume_passage": "",
+      "verification_ether": {
+        "date": "2026-10-04",
+        "statut": "passage_lu",
+        "limite": "Article archivistique local ; seuls les tronçons explicitement ouverts avant 1945 sont retenus. Électrification après-guerre exclue."
+      },
+      "usages_atlas": [
+        "rail"
+      ],
+      "verification_claude": "non_verifiee",
+      "resume_francais": "rail : Desserte locale datée : Roman–Pleven juillet 1899 ; Pleven–Shumen novembre 1899."
+    },
+    {
+      "source_id": "src-18-bg-gabrovo-musee-machines",
+      "operation_registre": "ajouter",
+      "niveau": "B",
+      "type_source": "etude_ou_histoire_institutionnelle",
+      "titre": "115 години от създаването на Габровското машиностроене, partie 4",
+      "institution": "Ivan Postompirov, Musée historique régional de Gabrovo",
+      "url": "https://h-museum-gabrovo.bg/?p=9647",
+      "date_consultation": "2026-10-04",
+      "cibles": [
+        "ville-bg-gabrovo"
+      ],
+      "usage": [
+        "ville-bg-gabrovo — industrie : Construction de machines textiles dans les années de guerre ; aucun total de production 1944 proposé."
+      ],
+      "locator": "Paragraphes sur 1942 et la production 1942–1947",
+      "note": "L’effectif après 1942 et la fabrication de machines attestent l’activité ; le total 1942–1947 ne peut pas être arrêté à 1944. Les cibles hors du fichier de données restent différées ; aucune validation humaine présumée.",
+      "resume_passage": "",
+      "verification_ether": {
+        "date": "2026-10-04",
+        "statut": "passage_lu",
+        "limite": "L’effectif après 1942 et la fabrication de machines attestent l’activité ; le total 1942–1947 ne peut pas être arrêté à 1944."
+      },
+      "usages_atlas": [
+        "industrie"
+      ],
+      "verification_claude": "non_verifiee",
+      "resume_francais": "industrie : Construction de machines textiles dans les années de guerre ; aucun total de production 1944 proposé."
+    },
+    {
+      "source_id": "src-18-us-elia-relief1944",
+      "operation_registre": "ajouter",
+      "niveau": "A",
+      "type_source": "rapport_epoque",
+      "titre": "Relief activities in Greece, mid-October through December 31, 1944",
+      "institution": "Ambassade américaine à Athènes, B. D. MacDonald ; archives ELIA",
+      "url": "https://www.elia.org.gr/userfiles/pdf_archieve/1945%202-745%20Economy%2C%20Civilian%20Relief%2C%20Agriculture%2C%20Industry%2C%20%5B13%20pgs%5D%20226-CID-113659.pdf",
+      "date_consultation": "2026-10-04",
+      "cibles": [
+        "ville-gr-athenes",
+        "ville-gr-chios",
+        "ville-gr-heraklion",
+        "ville-gr-kalamata",
+        "ville-gr-kavala",
+        "ville-gr-le-piree",
+        "ville-gr-mytilene",
+        "ville-gr-patras",
+        "ville-gr-preveza",
+        "ville-gr-thessalonique",
+        "ville-gr-volos"
+      ],
+      "usage": [
+        "ville-gr-le-piree — port_maritime : Dépôt portuaire de secours ouvert en 1944 (16 octobre).",
+        "ville-gr-kalamata — port_maritime : Dépôt portuaire de secours ouvert en 1944 (19 octobre). Opérations suspendues le 15 décembre selon le rapport.",
+        "ville-gr-patras — port_maritime : Dépôt portuaire de secours ouvert en 1944 (18 octobre). Distribution ensuite largement limitée au port selon le rapport.",
+        "ville-gr-preveza — port_maritime : Dépôt portuaire de secours ouvert en 1944 (18 octobre). Opérations suspendues le 15 décembre selon le rapport.",
+        "ville-gr-thessalonique — port_maritime : Dépôt portuaire de secours ouvert en 1944 (15 novembre). Distribution ensuite largement limitée au port selon le rapport.",
+        "ville-gr-volos — port_maritime : Dépôt portuaire de secours ouvert en 1944 (novembre, jour peu lisible). Opérations suspendues le 15 décembre selon le rapport.",
+        "ville-gr-kavala — port_maritime : Dépôt portuaire de secours ouvert en 1944 (19 novembre). Opérations suspendues le 15 décembre selon le rapport.",
+        "ville-gr-mytilene — port_maritime : Dépôt portuaire de secours ouvert en 1944 (début octobre).",
+        "ville-gr-chios — port_maritime : Dépôt portuaire de secours ouvert en 1944 (début octobre).",
+        "ville-gr-heraklion — port_maritime : Dépôt portuaire de secours ouvert en 1944 (4 décembre).",
+        "ville-gr-athenes — capitale, administration : Le rapport situe à Athènes la capitale et le siège de la liaison militaire des secours."
+      ],
+      "locator": "Rapport achevé le 2 janvier 1945, tampon du 7 février ; images PDF 1–3",
+      "note": "Original lu en image : rapport rétrospectif de l’automne–décembre 1944. Les dépôts ouverts avant le 15 décembre ne signifient pas des opérations maintenues ensuite. OCR très altéré, ne pas le citer comme texte exact. Les cibles hors du fichier de données restent différées ; aucune validation humaine présumée.",
+      "resume_passage": "",
+      "verification_ether": {
+        "date": "2026-10-04",
+        "statut": "passage_lu",
+        "limite": "Original lu en image : rapport rétrospectif de l’automne–décembre 1944. Les dépôts ouverts avant le 15 décembre ne signifient pas des opérations maintenues ensuite. OCR très altéré, ne pas le citer comme texte exact."
+      },
+      "images_locales": [
+        {
+          "fichier": "2026-10-04_ether_ELIA_113659.pdf",
+          "sha256": "69c387dc56ab9336a2edd7898a01b4fed7284a76e98f1248a9561e0e283bfbc8",
+          "lecture": "Images 1 et 2 lues directement ; original conservé."
+        },
+        {
+          "fichier": "2026-10-04_ether_ELIA_113659-01.png",
+          "sha256": "69ccc020d043b639f2d492f23836dd1e31141cc697e607e588be47bb4719cd39",
+          "lecture": "Images 1 et 2 lues directement ; original conservé."
+        },
+        {
+          "fichier": "2026-10-04_ether_ELIA_113659-02.png",
+          "sha256": "f81b04430963de12a5a2e712df351eff1e28774fcbc917a8e54302211b1bba02",
+          "lecture": "Images 1 et 2 lues directement ; original conservé."
+        }
+      ],
+      "usages_atlas": [
+        "administration",
+        "capitale",
+        "port_maritime"
+      ],
+      "verification_claude": "non_verifiee",
+      "resume_francais": "port_maritime : Dépôt portuaire de secours ouvert en 1944 (16 octobre)."
+    },
+    {
+      "source_id": "src-18-oss2067-italie-rail1943",
+      "operation_registre": "ajouter",
+      "niveau": "A",
+      "type_source": "carte_epoque",
+      "titre": "Italy: Railways, OSS n°2067, 16 juillet 1943",
+      "institution": "Board of Economic Warfare ; OSS ; Stanford University Libraries",
+      "url": "https://purl.stanford.edu/cq765sj1121",
+      "date_consultation": "2026-10-04",
+      "cibles": [
+        "ville-it-agrigente",
+        "ville-it-alessandria",
+        "ville-it-alghero",
+        "ville-it-aoste",
+        "ville-it-arbatax",
+        "ville-it-arona",
+        "ville-it-ascoli-piceno",
+        "ville-it-asti",
+        "ville-it-avezzano",
+        "ville-it-belluno",
+        "ville-it-benevent",
+        "ville-it-bergame",
+        "ville-it-bolzano",
+        "ville-it-brennero",
+        "ville-it-brescia",
+        "ville-it-bressanone",
+        "ville-it-cagliari",
+        "ville-it-caltagirone",
+        "ville-it-campobasso",
+        "ville-it-carrare",
+        "ville-it-caserte",
+        "ville-it-catane",
+        "ville-it-catanzaro",
+        "ville-it-chilivani",
+        "ville-it-chioggia",
+        "ville-it-civitavecchia",
+        "ville-it-come",
+        "ville-it-cosenza",
+        "ville-it-cremone",
+        "ville-it-crotone",
+        "ville-it-cuneo",
+        "ville-it-domodossola",
+        "ville-it-faenza",
+        "ville-it-forli",
+        "ville-it-fortezza",
+        "ville-it-gallipoli",
+        "ville-it-genes",
+        "ville-it-gioia-tauro",
+        "ville-it-iglesias",
+        "ville-it-la-spezia",
+        "ville-it-laquila",
+        "ville-it-lecco",
+        "ville-it-licata",
+        "ville-it-lucques",
+        "ville-it-macomer",
+        "ville-it-mantoue",
+        "ville-it-massa",
+        "ville-it-matera",
+        "ville-it-merano",
+        "ville-it-messine",
+        "ville-it-metaponto",
+        "ville-it-milan",
+        "ville-it-modene",
+        "ville-it-mortara",
+        "ville-it-novare",
+        "ville-it-nuoro",
+        "ville-it-olbia",
+        "ville-it-otranto",
+        "ville-it-palerme",
+        "ville-it-parme",
+        "ville-it-pavie",
+        "ville-it-perouse",
+        "ville-it-plaisance",
+        "ville-it-porto-empedocle",
+        "ville-it-porto-torres",
+        "ville-it-potenza",
+        "ville-it-raguse",
+        "ville-it-ravenne",
+        "ville-it-reggio-emilie",
+        "ville-it-roccapalumba",
+        "ville-it-san-candido",
+        "ville-it-sassari",
+        "ville-it-savone",
+        "ville-it-sienne",
+        "ville-it-sondrio",
+        "ville-it-sulmona",
+        "ville-it-syracuse",
+        "ville-it-tarvisio",
+        "ville-it-teramo",
+        "ville-it-tirano",
+        "ville-it-tortone",
+        "ville-it-trapani",
+        "ville-it-trente",
+        "ville-it-trevise",
+        "ville-it-turin",
+        "ville-it-varese",
+        "ville-it-verceil",
+        "ville-it-viareggio",
+        "ville-it-vicence",
+        "ville-it-villa-san-giovanni",
+        "ville-it-vintimille",
+        "ville-it-viterbe"
+      ],
+      "usage": [
+        "ville-it-turin — rail : Desserte représentée sur la carte du 16 juillet 1943 ; trafic au Snapshot non établi par cette carte.",
+        "ville-it-genes — rail : Desserte représentée sur la carte du 16 juillet 1943 ; trafic au Snapshot non établi par cette carte.",
+        "ville-it-milan — rail : Desserte représentée sur la carte du 16 juillet 1943 ; trafic au Snapshot non établi par cette carte.",
+        "ville-it-alessandria — rail : Desserte représentée sur la carte du 16 juillet 1943 ; trafic au Snapshot non établi par cette carte.",
+        "ville-it-asti — rail : Desserte représentée sur la carte du 16 juillet 1943 ; trafic au Snapshot non établi par cette carte.",
+        "ville-it-cuneo — rail : Desserte représentée sur la carte du 16 juillet 1943 ; trafic au Snapshot non établi par cette carte.",
+        "ville-it-savone — rail : Desserte représentée sur la carte du 16 juillet 1943 ; trafic au Snapshot non établi par cette carte.",
+        "ville-it-vintimille — rail : Desserte représentée sur la carte du 16 juillet 1943 ; trafic au Snapshot non établi par cette carte.",
+        "ville-it-novare — rail : Desserte représentée sur la carte du 16 juillet 1943 ; trafic au Snapshot non établi par cette carte.",
+        "ville-it-verceil — rail : Desserte représentée sur la carte du 16 juillet 1943 ; trafic au Snapshot non établi par cette carte.",
+        "ville-it-domodossola — rail : Desserte représentée sur la carte du 16 juillet 1943 ; trafic au Snapshot non établi par cette carte.",
+        "ville-it-arona — rail : Desserte représentée sur la carte du 16 juillet 1943 ; trafic au Snapshot non établi par cette carte.",
+        "ville-it-come — rail : Desserte représentée sur la carte du 16 juillet 1943 ; trafic au Snapshot non établi par cette carte.",
+        "ville-it-varese — rail : Desserte représentée sur la carte du 16 juillet 1943 ; trafic au Snapshot non établi par cette carte.",
+        "ville-it-lecco — rail : Desserte représentée sur la carte du 16 juillet 1943 ; trafic au Snapshot non établi par cette carte.",
+        "ville-it-sondrio — rail : Desserte représentée sur la carte du 16 juillet 1943 ; trafic au Snapshot non établi par cette carte.",
+        "ville-it-tirano — rail : Desserte représentée sur la carte du 16 juillet 1943 ; trafic au Snapshot non établi par cette carte.",
+        "ville-it-bergame — rail : Desserte représentée sur la carte du 16 juillet 1943 ; trafic au Snapshot non établi par cette carte.",
+        "ville-it-brescia — rail : Desserte représentée sur la carte du 16 juillet 1943 ; trafic au Snapshot non établi par cette carte.",
+        "ville-it-pavie — rail : Desserte représentée sur la carte du 16 juillet 1943 ; trafic au Snapshot non établi par cette carte.",
+        "ville-it-mortara — rail : Desserte représentée sur la carte du 16 juillet 1943 ; trafic au Snapshot non établi par cette carte.",
+        "ville-it-tortone — rail : Desserte représentée sur la carte du 16 juillet 1943 ; trafic au Snapshot non établi par cette carte.",
+        "ville-it-aoste — rail : Desserte représentée sur la carte du 16 juillet 1943 ; trafic au Snapshot non établi par cette carte.",
+        "ville-it-plaisance — rail : Desserte représentée sur la carte du 16 juillet 1943 ; trafic au Snapshot non établi par cette carte.",
+        "ville-it-parme — rail : Desserte représentée sur la carte du 16 juillet 1943 ; trafic au Snapshot non établi par cette carte.",
+        "ville-it-modene — rail : Desserte représentée sur la carte du 16 juillet 1943 ; trafic au Snapshot non établi par cette carte.",
+        "ville-it-reggio-emilie — rail : Desserte représentée sur la carte du 16 juillet 1943 ; trafic au Snapshot non établi par cette carte.",
+        "ville-it-cremone — rail : Desserte représentée sur la carte du 16 juillet 1943 ; trafic au Snapshot non établi par cette carte.",
+        "ville-it-mantoue — rail : Desserte représentée sur la carte du 16 juillet 1943 ; trafic au Snapshot non établi par cette carte.",
+        "ville-it-vicence — rail : Desserte représentée sur la carte du 16 juillet 1943 ; trafic au Snapshot non établi par cette carte.",
+        "ville-it-trevise — rail : Desserte représentée sur la carte du 16 juillet 1943 ; trafic au Snapshot non établi par cette carte.",
+        "ville-it-belluno — rail : Desserte représentée sur la carte du 16 juillet 1943 ; trafic au Snapshot non établi par cette carte.",
+        "ville-it-trente — rail : Desserte représentée sur la carte du 16 juillet 1943 ; trafic au Snapshot non établi par cette carte.",
+        "ville-it-bolzano — rail : Desserte représentée sur la carte du 16 juillet 1943 ; trafic au Snapshot non établi par cette carte.",
+        "ville-it-merano — rail : Desserte représentée sur la carte du 16 juillet 1943 ; trafic au Snapshot non établi par cette carte.",
+        "ville-it-bressanone — rail : Desserte représentée sur la carte du 16 juillet 1943 ; trafic au Snapshot non établi par cette carte.",
+        "ville-it-fortezza — rail : Desserte représentée sur la carte du 16 juillet 1943 ; trafic au Snapshot non établi par cette carte.",
+        "ville-it-brennero — rail : Desserte représentée sur la carte du 16 juillet 1943 ; trafic au Snapshot non établi par cette carte.",
+        "ville-it-san-candido — rail : Desserte représentée sur la carte du 16 juillet 1943 ; trafic au Snapshot non établi par cette carte.",
+        "ville-it-tarvisio — rail : Desserte représentée sur la carte du 16 juillet 1943 ; trafic au Snapshot non établi par cette carte.",
+        "ville-it-ravenne — rail : Desserte représentée sur la carte du 16 juillet 1943 ; trafic au Snapshot non établi par cette carte.",
+        "ville-it-faenza — rail : Desserte représentée sur la carte du 16 juillet 1943 ; trafic au Snapshot non établi par cette carte.",
+        "ville-it-forli — rail : Desserte représentée sur la carte du 16 juillet 1943 ; trafic au Snapshot non établi par cette carte.",
+        "ville-it-chioggia — rail : Desserte représentée sur la carte du 16 juillet 1943 ; trafic au Snapshot non établi par cette carte.",
+        "ville-it-la-spezia — rail : Desserte représentée sur la carte du 16 juillet 1943 ; trafic au Snapshot non établi par cette carte.",
+        "ville-it-massa — rail : Desserte représentée sur la carte du 16 juillet 1943 ; trafic au Snapshot non établi par cette carte.",
+        "ville-it-carrare — rail : Desserte représentée sur la carte du 16 juillet 1943 ; trafic au Snapshot non établi par cette carte.",
+        "ville-it-lucques — rail : Desserte représentée sur la carte du 16 juillet 1943 ; trafic au Snapshot non établi par cette carte.",
+        "ville-it-viareggio — rail : Desserte représentée sur la carte du 16 juillet 1943 ; trafic au Snapshot non établi par cette carte.",
+        "ville-it-sienne — rail : Desserte représentée sur la carte du 16 juillet 1943 ; trafic au Snapshot non établi par cette carte.",
+        "ville-it-perouse — rail : Desserte représentée sur la carte du 16 juillet 1943 ; trafic au Snapshot non établi par cette carte.",
+        "ville-it-viterbe — rail : Desserte représentée sur la carte du 16 juillet 1943 ; trafic au Snapshot non établi par cette carte.",
+        "ville-it-civitavecchia — rail : Desserte représentée sur la carte du 16 juillet 1943 ; trafic au Snapshot non établi par cette carte.",
+        "ville-it-avezzano — rail : Desserte représentée sur la carte du 16 juillet 1943 ; trafic au Snapshot non établi par cette carte.",
+        "ville-it-sulmona — rail : Desserte représentée sur la carte du 16 juillet 1943 ; trafic au Snapshot non établi par cette carte.",
+        "ville-it-laquila — rail : Desserte représentée sur la carte du 16 juillet 1943 ; trafic au Snapshot non établi par cette carte.",
+        "ville-it-ascoli-piceno — rail : Desserte représentée sur la carte du 16 juillet 1943 ; trafic au Snapshot non établi par cette carte.",
+        "ville-it-teramo — rail : Desserte représentée sur la carte du 16 juillet 1943 ; trafic au Snapshot non établi par cette carte.",
+        "ville-it-benevent — rail : Desserte représentée sur la carte du 16 juillet 1943 ; trafic au Snapshot non établi par cette carte.",
+        "ville-it-caserte — rail : Desserte représentée sur la carte du 16 juillet 1943 ; trafic au Snapshot non établi par cette carte.",
+        "ville-it-potenza — rail : Desserte représentée sur la carte du 16 juillet 1943 ; trafic au Snapshot non établi par cette carte.",
+        "ville-it-matera — rail : Desserte représentée sur la carte du 16 juillet 1943 ; trafic au Snapshot non établi par cette carte.",
+        "ville-it-metaponto — rail : Desserte représentée sur la carte du 16 juillet 1943 ; trafic au Snapshot non établi par cette carte.",
+        "ville-it-campobasso — rail : Desserte représentée sur la carte du 16 juillet 1943 ; trafic au Snapshot non établi par cette carte.",
+        "ville-it-cosenza — rail : Desserte représentée sur la carte du 16 juillet 1943 ; trafic au Snapshot non établi par cette carte.",
+        "ville-it-crotone — rail : Desserte représentée sur la carte du 16 juillet 1943 ; trafic au Snapshot non établi par cette carte.",
+        "ville-it-catanzaro — rail : Desserte représentée sur la carte du 16 juillet 1943 ; trafic au Snapshot non établi par cette carte.",
+        "ville-it-gioia-tauro — rail : Desserte représentée sur la carte du 16 juillet 1943 ; trafic au Snapshot non établi par cette carte.",
+        "ville-it-villa-san-giovanni — rail : Desserte représentée sur la carte du 16 juillet 1943 ; trafic au Snapshot non établi par cette carte.",
+        "ville-it-gallipoli — rail : Desserte représentée sur la carte du 16 juillet 1943 ; trafic au Snapshot non établi par cette carte.",
+        "ville-it-otranto — rail : Desserte représentée sur la carte du 16 juillet 1943 ; trafic au Snapshot non établi par cette carte.",
+        "ville-it-palerme — rail : Desserte représentée sur la carte du 16 juillet 1943 ; trafic au Snapshot non établi par cette carte.",
+        "ville-it-messine — rail : Desserte représentée sur la carte du 16 juillet 1943 ; trafic au Snapshot non établi par cette carte.",
+        "ville-it-catane — rail : Desserte représentée sur la carte du 16 juillet 1943 ; trafic au Snapshot non établi par cette carte.",
+        "ville-it-syracuse — rail : Desserte représentée sur la carte du 16 juillet 1943 ; trafic au Snapshot non établi par cette carte.",
+        "ville-it-trapani — rail : Desserte représentée sur la carte du 16 juillet 1943 ; trafic au Snapshot non établi par cette carte.",
+        "ville-it-agrigente — rail : Desserte représentée sur la carte du 16 juillet 1943 ; trafic au Snapshot non établi par cette carte.",
+        "ville-it-porto-empedocle — rail : Desserte représentée sur la carte du 16 juillet 1943 ; trafic au Snapshot non établi par cette carte.",
+        "ville-it-licata — rail : Desserte représentée sur la carte du 16 juillet 1943 ; trafic au Snapshot non établi par cette carte.",
+        "ville-it-raguse — rail : Desserte représentée sur la carte du 16 juillet 1943 ; trafic au Snapshot non établi par cette carte.",
+        "ville-it-caltagirone — rail : Desserte représentée sur la carte du 16 juillet 1943 ; trafic au Snapshot non établi par cette carte.",
+        "ville-it-roccapalumba — rail : Desserte représentée sur la carte du 16 juillet 1943 ; trafic au Snapshot non établi par cette carte.",
+        "ville-it-cagliari — rail : Desserte représentée sur la carte du 16 juillet 1943 ; trafic au Snapshot non établi par cette carte.",
+        "ville-it-sassari — rail : Desserte représentée sur la carte du 16 juillet 1943 ; trafic au Snapshot non établi par cette carte.",
+        "ville-it-porto-torres — rail : Desserte représentée sur la carte du 16 juillet 1943 ; trafic au Snapshot non établi par cette carte.",
+        "ville-it-olbia — rail : Desserte représentée sur la carte du 16 juillet 1943 ; trafic au Snapshot non établi par cette carte.",
+        "ville-it-alghero — rail : Desserte représentée sur la carte du 16 juillet 1943 ; trafic au Snapshot non établi par cette carte.",
+        "ville-it-macomer — rail : Desserte représentée sur la carte du 16 juillet 1943 ; trafic au Snapshot non établi par cette carte.",
+        "ville-it-chilivani — rail : Desserte représentée sur la carte du 16 juillet 1943 ; trafic au Snapshot non établi par cette carte.",
+        "ville-it-iglesias — rail : Desserte représentée sur la carte du 16 juillet 1943 ; trafic au Snapshot non établi par cette carte.",
+        "ville-it-nuoro — rail : Desserte représentée sur la carte du 16 juillet 1943 ; trafic au Snapshot non établi par cette carte.",
+        "ville-it-arbatax — rail : Desserte représentée sur la carte du 16 juillet 1943 ; trafic au Snapshot non établi par cette carte."
+      ],
+      "locator": "Carte unique, légende Railways et villes nommées",
+      "note": "Carte lue directement en image ; lignes existantes en 1943, sans continuité de service fin 1944. Aucune frontière ni souveraineté importée. Les cibles hors du fichier de données restent différées ; aucune validation humaine présumée.",
+      "resume_passage": "",
+      "verification_ether": {
+        "date": "2026-10-04",
+        "statut": "passage_lu",
+        "limite": "Carte lue directement en image ; lignes existantes en 1943, sans continuité de service fin 1944. Aucune frontière ni souveraineté importée."
+      },
+      "images_locales": [
+        {
+          "fichier": "2026-10-04_ether_OSS_cq765sj1121_1.jpg",
+          "sha256": "45914c9f34198dadc5d927ae2f6598911d2516db10282c77b4ce2db33d52cb81",
+          "lecture": "Image lue ; vue réduite jointe."
+        },
+        {
+          "fichier": "2026-10-04_ether_OSS_cq765sj1121_vue.jpg",
+          "sha256": "262cd39cce265c454d9c0d36e08030d7725ae15a92086f6f1128f907c3dfbfc6",
+          "lecture": "Image lue ; vue réduite jointe."
+        }
+      ],
+      "usages_atlas": [
+        "rail"
+      ],
+      "verification_claude": "non_verifiee",
+      "resume_francais": "rail : Desserte représentée sur la carte du 16 juillet 1943 ; trafic au Snapshot non établi par cette carte."
+    },
+    {
+      "source_id": "src-18-ro-prefecture-bucarest",
+      "operation_registre": "ajouter",
+      "niveau": "B",
+      "type_source": "etude_ou_histoire_institutionnelle",
+      "titre": "Rapport de la préfecture, présentation de Bucarest",
+      "institution": "Préfecture de Bucarest",
+      "url": "https://b.prefectura.mai.gov.ro/wp-content/uploads/sites/2/2018/01/Raport.pdf",
+      "date_consultation": "2026-10-04",
+      "cibles": [
+        "ville-ro-bucarest"
+      ],
+      "usage": [
+        "ville-ro-bucarest — capitale : Capitale de la Roumanie depuis 1862 selon la notice préfectorale."
+      ],
+      "locator": "Page 1, paragraphes 1862 et permanence de la capitale",
+      "note": "Texte PDF lu ; seule chronologie historique utilisée, aucun statut municipal de 1968 anticipé. Les cibles hors du fichier de données restent différées ; aucune validation humaine présumée.",
+      "resume_passage": "",
+      "verification_ether": {
+        "date": "2026-10-04",
+        "statut": "passage_lu",
+        "limite": "Texte PDF lu ; seule chronologie historique utilisée, aucun statut municipal de1968 anticipé."
+      },
+      "usages_atlas": [
+        "capitale"
+      ],
+      "verification_claude": "non_verifiee",
+      "resume_francais": "capitale : Capitale de la Roumanie depuis 1862 selon la notice préfectorale."
+    },
+    {
+      "source_id": "src-18-rs-belgrade-ville-histoire",
+      "operation_registre": "ajouter",
+      "niveau": "B",
+      "type_source": "etude_ou_histoire_institutionnelle",
+      "titre": "History — chronologie de Belgrade",
+      "institution": "Ville de Belgrade",
+      "url": "https://www.beograd.rs/en/discover-belgrade/a2014/History.html",
+      "date_consultation": "2026-10-04",
+      "cibles": [
+        "ville-rs-belgrade"
+      ],
+      "usage": [
+        "ville-rs-belgrade — capitale, port_fluvial : Capitale depuis 1918 et port sur la Save attesté au début du XXe siècle. Gouvernement fédéral de 1945 non anticipé."
+      ],
+      "locator": "Entrée 1918 et développement urbain au début du XXe siècle",
+      "note": "Chronologie municipale rétrospective ; les jugements politiques ne sont pas repris. Statut de capitale distinct du siège effectif des gouvernements en exil ou concurrents. Les cibles hors du fichier de données restent différées ; aucune validation humaine présumée.",
+      "resume_passage": "",
+      "verification_ether": {
+        "date": "2026-10-04",
+        "statut": "passage_lu",
+        "limite": "Chronologie municipale rétrospective ; les jugements politiques ne sont pas repris. Statut de capitale distinct du siège effectif des gouvernements en exil ou concurrents."
+      },
+      "usages_atlas": [
+        "capitale",
+        "port_fluvial"
+      ],
+      "verification_claude": "non_verifiee",
+      "resume_francais": "capitale, port_fluvial : Capitale depuis 1918 et port sur la Save attesté au début du XXe siècle. Gouvernement fédéral de 1945 non anticipé."
+    },
+    {
+      "source_id": "src-18-it-rome-quirinale-capitale",
+      "operation_registre": "ajouter",
+      "niveau": "B",
+      "type_source": "etude_ou_histoire_institutionnelle",
+      "titre": "Lettre présidentielle sur les sièges des ministères",
+      "institution": "Archives de la Présidence de la République italienne",
+      "url": "https://archivio.quirinale.it/aspr/comunicati/PRESSRELEASE-001-007797/presidente/giorgio-napolitano/lettera-del-presidente-della-repubblica-al-presidente-del-consiglio-sul-tema-del-decentramento-sedi-ministeri-sul-territorio",
+      "date_consultation": "2026-10-04",
+      "cibles": [
+        "ville-it-rome"
+      ],
+      "usage": [
+        "ville-it-rome — capitale : Rome est désignée capitale par le texte de 1871 cité par la présidence."
+      ],
+      "locator": "Paragraphe décret 33 de 1871, article 1",
+      "note": "Passage indexé lu, page directe indisponible. Atteste le statut juridique historique ; ne tranche pas la localisation de chaque ministère en 1944. Les cibles hors du fichier de données restent différées ; aucune validation humaine présumée.",
+      "resume_passage": "",
+      "verification_ether": {
+        "date": "2026-10-04",
+        "statut": "passage_indexe_lu_acces_direct_non_confirme",
+        "limite": "Passage indexé lu, page directe indisponible. Atteste le statut juridique historique ; ne tranche pas la localisation de chaque ministère en1944."
+      },
+      "usages_atlas": [
+        "capitale"
+      ],
+      "verification_claude": "non_verifiee",
+      "resume_francais": "capitale : Rome est désignée capitale par le texte de 1871 cité par la présidence."
+    },
+    {
+      "source_id": "src-18-it-genova-treccani1932",
+      "operation_registre": "ajouter",
+      "niveau": "A",
+      "type_source": "encyclopedie_epoque",
+      "titre": "Genova, Enciclopedia Italiana 1932",
+      "institution": "Istituto della Enciclopedia Italiana",
+      "url": "https://www.treccani.it/enciclopedia/genova_(Enciclopedia-Italiana)/",
+      "date_consultation": "2026-10-04",
+      "cibles": [
+        "ville-it-genes"
+      ],
+      "usage": [
+        "ville-it-genes — port_maritime, industrie : Port marchand, réparation navale et raccordements ferroviaires décrits en 1932."
+      ],
+      "locator": "Section Il porto, pp.552–555 ; paragraphes bassins, réparations et gares",
+      "note": "Notice contemporaine de 1932 lue en transcription ; aucune capacité de 1932 reconduite au 1 janvier 1945. Les cibles hors du fichier de données restent différées ; aucune validation humaine présumée.",
+      "resume_passage": "",
+      "verification_ether": {
+        "date": "2026-10-04",
+        "statut": "passage_lu",
+        "limite": "Notice contemporaine de1932 lue en transcription ; aucune capacité de1932 reconduite au1janvier1945."
+      },
+      "usages_atlas": [
+        "industrie",
+        "port_maritime"
+      ],
+      "verification_claude": "non_verifiee",
+      "resume_francais": "port_maritime, industrie : Port marchand, réparation navale et raccordements ferroviaires décrits en 1932."
+    },
+    {
+      "source_id": "src-18-it-trieste-port300",
+      "operation_registre": "ajouter",
+      "niveau": "B",
+      "type_source": "etude_ou_histoire_institutionnelle",
+      "titre": "Three centuries of Free Port — History",
+      "institution": "Port of Trieste 300, chronologie institutionnelle",
+      "url": "https://portoftrieste300.com/en/history/",
+      "date_consultation": "2026-10-04",
+      "cibles": [
+        "ville-it-trieste"
+      ],
+      "usage": [
+        "ville-it-trieste — port_maritime : Gare maritime inaugurée en 1930 et silo portuaire en 1937 ; niveau d’activité fin 1944 non établi."
+      ],
+      "locator": "Entrées 1924,1930,1937 et 1943–1945",
+      "note": "Histoire du port ; les dommages sur 1943–1945 ne sont pas tous datables avant leSnapshot. Raffinerie de Muggia non attribuée au centre deTrieste. Les cibles hors du fichier de données restent différées ; aucune validation humaine présumée.",
+      "resume_passage": "",
+      "verification_ether": {
+        "date": "2026-10-04",
+        "statut": "passage_lu",
+        "limite": "Histoire du port ; les dommages sur1943–1945 ne sont pas tous datables avant leSnapshot. Raffinerie de Muggia non attribuée au centre deTrieste."
+      },
+      "usages_atlas": [
+        "port_maritime"
+      ],
+      "verification_claude": "non_verifiee",
+      "resume_francais": "port_maritime : Gare maritime inaugurée en 1930 et silo portuaire en 1937 ; niveau d’activité fin 1944 non établi."
+    },
+    {
+      "source_id": "src-18-it-venise-port-histoire",
+      "operation_registre": "ajouter",
+      "niveau": "B",
+      "type_source": "etude_ou_histoire_institutionnelle",
+      "titre": "Porto di Venezia — La nascita di Porto Marghera",
+      "institution": "Autorité du système portuaire de la mer Adriatique septentrionale",
+      "url": "https://www.port.venice.it/offerta-portuale/i-porti/porto-di-venezia/",
+      "date_consultation": "2026-10-04",
+      "cibles": [
+        "ville-it-venise"
+      ],
+      "usage": [
+        "ville-it-venise — port_maritime, industrie : La notice décrit l’ancien port urbain et son extension industrielle de Marghera, créée en 1917."
+      ],
+      "locator": "Section La nascita di Porto Marghera",
+      "note": "Développement portuaire et industriel engagé en 1917 ; canaux et terminaux des années 1960 exclus. Les cibles hors du fichier de données restent différées ; aucune validation humaine présumée.",
+      "resume_passage": "",
+      "verification_ether": {
+        "date": "2026-10-04",
+        "statut": "passage_lu",
+        "limite": "Développement portuaire et industriel engagé en1917 ; canaux et terminaux des années1960 exclus."
+      },
+      "usages_atlas": [
+        "industrie",
+        "port_maritime"
+      ],
+      "verification_claude": "non_verifiee",
+      "resume_francais": "port_maritime, industrie : La notice décrit l’ancien port urbain et son extension industrielle de Marghera, créée en 1917."
+    },
+    {
+      "source_id": "src-18-it-marine-tarente",
+      "operation_registre": "ajouter",
+      "niveau": "B",
+      "type_source": "etude_ou_histoire_institutionnelle",
+      "titre": "Cenni storici — arsenal de Tarente",
+      "institution": "Marine militaire italienne",
+      "url": "https://www.marina.difesa.it/noi-siamo-la-marina/organizzazione/comandi-basi-enti/arsenali/marinarsen_taranto/Pagine/cenni_storici.aspx",
+      "date_consultation": "2026-10-04",
+      "cibles": [
+        "ville-it-tarente"
+      ],
+      "usage": [
+        "ville-it-tarente — militaire, industrie, port_maritime : Arsenal maritime et construction navale implantés avant 1945 ; aucune capacité actuelle reprise."
+      ],
+      "locator": "Paragraphes construction et inauguration 1889",
+      "note": "Passage indexé institutionnel lu ; page directe en délai dépassé. Fonction historique prouvée, capacité et état opérationnel fin 1944 non établis. Jour exact deLaSpezia divergent 28/29 dans les publications, non retenu. Les cibles hors du fichier de données restent différées ; aucune validation humaine présumée.",
+      "resume_passage": "",
+      "verification_ether": {
+        "date": "2026-10-04",
+        "statut": "passage_indexe_lu_acces_direct_non_confirme",
+        "limite": "Passage indexé institutionnel lu ; page directe en délai dépassé. Fonction historique prouvée, capacité et état opérationnel fin1944 non établis. Jour exact deLaSpezia divergent28/29 dans les publications, non retenu."
+      },
+      "usages_atlas": [
+        "industrie",
+        "militaire",
+        "port_maritime"
+      ],
+      "verification_claude": "non_verifiee",
+      "resume_francais": "militaire, industrie, port_maritime : Arsenal maritime et construction navale implantés avant 1945 ; aucune capacité actuelle reprise."
+    },
+    {
+      "source_id": "src-18-it-marine-la-spezia",
+      "operation_registre": "ajouter",
+      "niveau": "B",
+      "type_source": "etude_ou_histoire_institutionnelle",
+      "titre": "Cenni storici — arsenal de La Spezia",
+      "institution": "Marine militaire italienne",
+      "url": "https://www.marina.difesa.it/noi-siamo-la-marina/organizzazione/comandi-basi-enti/arsenali/marinarsenspezia/Pagine/storia.aspx",
+      "date_consultation": "2026-10-04",
+      "cibles": [
+        "ville-it-la-spezia"
+      ],
+      "usage": [
+        "ville-it-la-spezia — militaire, industrie, port_maritime : Arsenal maritime et construction navale implantés avant 1945 ; aucune capacité actuelle reprise."
+      ],
+      "locator": "Paragraphes construction et inauguration 1869",
+      "note": "Passage indexé institutionnel lu ; page directe en délai dépassé. Fonction historique prouvée, capacité et état opérationnel fin 1944 non établis. Jour exact deLaSpezia divergent 28/29 dans les publications, non retenu. Les cibles hors du fichier de données restent différées ; aucune validation humaine présumée.",
+      "resume_passage": "",
+      "verification_ether": {
+        "date": "2026-10-04",
+        "statut": "passage_indexe_lu_acces_direct_non_confirme",
+        "limite": "Passage indexé institutionnel lu ; page directe en délai dépassé. Fonction historique prouvée, capacité et état opérationnel fin1944 non établis. Jour exact deLaSpezia divergent28/29 dans les publications, non retenu."
+      },
+      "usages_atlas": [
+        "industrie",
+        "militaire",
+        "port_maritime"
+      ],
+      "verification_claude": "non_verifiee",
+      "resume_francais": "militaire, industrie, port_maritime : Arsenal maritime et construction navale implantés avant 1945 ; aucune capacité actuelle reprise."
+    },
+    {
+      "source_id": "src-18-it-olbia-archeologie2023",
+      "operation_registre": "ajouter",
+      "niveau": "B",
+      "type_source": "etude_ou_histoire_institutionnelle",
+      "titre": "Olbia e le sue acque — relation archéologique, octobre 2023",
+      "institution": "Ville d’Olbia ; Ivan G.M. Lucherini",
+      "url": "https://servizionline.comune.olbia.ot.it/002-PubCED/2025.04.10-OlbiaAcque/ElabDescr/A-ElabGenSpecialistici/A6-ARC/A.6.1%20-%20A.6.2/A.6.1%20-%20Relazione_archeologica.pdf",
+      "date_consultation": "2026-10-04",
+      "cibles": [
+        "ville-it-olbia"
+      ],
+      "usage": [
+        "ville-it-olbia — port_maritime : Gare maritime inaugurée en 1930 ; nomOlbia rétabli en 1939."
+      ],
+      "locator": "Page 55/98, histoire moderne",
+      "note": "Texte PDF lu ; capture du service Web indisponible. Les deux documents municipaux divergent sur le jour du changement de 1939 ; seule année retenue. Les cibles hors du fichier de données restent différées ; aucune validation humaine présumée.",
+      "resume_passage": "",
+      "verification_ether": {
+        "date": "2026-10-04",
+        "statut": "passage_lu",
+        "limite": "Texte PDF lu ; capture du service Web indisponible. Les deux documents municipaux divergent sur le jour du changement de1939 ; seule année retenue."
+      },
+      "usages_atlas": [
+        "port_maritime"
+      ],
+      "verification_claude": "non_verifiee",
+      "resume_francais": "port_maritime : Gare maritime inaugurée en 1930 ; nomOlbia rétabli en 1939."
+    },
+    {
+      "source_id": "src-18-bg-treccani1930",
+      "operation_registre": "ajouter",
+      "niveau": "A",
+      "type_source": "encyclopedie_epoque",
+      "titre": "Bulgaria — Enciclopedia Italiana 1930",
+      "institution": "Istituto della Enciclopedia Italiana",
+      "url": "https://www.treccani.it/enciclopedia/bulgaria_(Enciclopedia-Italiana)/",
+      "date_consultation": "2026-10-04",
+      "cibles": [
+        "ville-bg-gyueshevo",
+        "ville-bg-kazanlak",
+        "ville-bg-kyustendil",
+        "ville-bg-oryahovo",
+        "ville-bg-pernik",
+        "ville-bg-petrich",
+        "ville-bg-radomir",
+        "ville-bg-sliven",
+        "ville-bg-somovit",
+        "ville-bg-stara-zagora",
+        "ville-bg-veliko-tarnovo"
+      ],
+      "usage": [
+        "ville-bg-pernik — industrie : Extraction de lignite.",
+        "ville-bg-sliven — industrie : Fabrication lainière.",
+        "ville-bg-stara-zagora — rail : Ligne depuis Tărnovo.",
+        "ville-bg-kazanlak — rail : Branche ferroviaire nommée.",
+        "ville-bg-veliko-tarnovo — rail : Ligne vers Stara Zagora.",
+        "ville-bg-kyustendil — rail : Ligne vers Giueševo.",
+        "ville-bg-gyueshevo — rail : Terminus frontalier ; pas de liaison transfrontalière continue déduite.",
+        "ville-bg-radomir — rail : Transition d’écartement sur la ligne de la Strouma.",
+        "ville-bg-petrich — rail : Terminus de la ligne de la Strouma.",
+        "ville-bg-somovit — port_fluvial : Port danubien.",
+        "ville-bg-oryahovo — port_fluvial : Port danubien."
+      ],
+      "locator": "Ricchezze minerarie ; Comunicazioni ; centri abitati",
+      "note": "Notice 1930 lue en transcription. Fonctions locales antérieures, sans volumes ni desserte continue présumés en 1944 ; les projets sont exclus. Les cibles hors du fichier de données restent différées ; aucune validation humaine présumée.",
+      "resume_passage": "",
+      "verification_ether": {
+        "date": "2026-10-04",
+        "statut": "passage_lu",
+        "limite": "Notice1930 lue en transcription. Fonctions locales antérieures, sans volumes ni desserte continue présumés en1944 ; les projets sont exclus."
+      },
+      "usages_atlas": [
+        "industrie",
+        "port_fluvial",
+        "rail"
+      ],
+      "verification_claude": "non_verifiee",
+      "resume_francais": "industrie : Extraction de lignite."
+    },
+    {
+      "source_id": "src-18-ro-treccani1936",
+      "operation_registre": "ajouter",
+      "niveau": "A",
+      "type_source": "encyclopedie_epoque",
+      "titre": "Romania — Enciclopedia Italiana 1936",
+      "institution": "Istituto della Enciclopedia Italiana",
+      "url": "https://www.treccani.it/enciclopedia/romania_(Enciclopedia-Italiana)/",
+      "date_consultation": "2026-10-04",
+      "cibles": [
+        "ville-bg-silistra",
+        "ville-ro-braila",
+        "ville-ro-craiova",
+        "ville-ro-galati",
+        "ville-ro-giurgiu",
+        "ville-ro-hunedoara",
+        "ville-ro-medias",
+        "ville-ro-ploiesti",
+        "ville-ro-sulina"
+      ],
+      "usage": [
+        "ville-ro-craiova —  : Centre actif de la plaine d’Olténie.",
+        "ville-ro-giurgiu — port_fluvial : Port danubien.",
+        "ville-ro-galati — port_fluvial : Port aménagé duDanube.",
+        "ville-ro-braila — port_fluvial : Port aménagé duDanube.",
+        "ville-ro-sulina — port_fluvial, port_maritime : Port d’embouchure pour la navigation internationale.",
+        "ville-bg-silistra — port_fluvial : Port danubien ; rattachement de 1936 non reconduit.",
+        "ville-ro-ploiesti — industrie, rail : Matériel de forage et passage ferroviaire de laPrahova.",
+        "ville-ro-hunedoara — industrie : Hauts-fourneaux.",
+        "ville-ro-medias — industrie : Fabrication de cyanamide."
+      ],
+      "locator": "Centri urbani ; Industrie metallurgiche ; Vie di comunicazione",
+      "note": "Notice 1936 lue ; frontières, capacités et jugements politiques non transposés à 1945. Voies inachevéesPetroșani–TârguJiu etBrașov–Buzău exclues sur cette preuve. Les cibles hors du fichier de données restent différées ; aucune validation humaine présumée.",
+      "resume_passage": "",
+      "verification_ether": {
+        "date": "2026-10-04",
+        "statut": "passage_lu",
+        "limite": "Notice1936 lue ; frontières, capacités et jugements politiques non transposés à1945. Voies inachevéesPetroșani–TârguJiu etBrașov–Buzău exclues sur cette preuve."
+      },
+      "usages_atlas": [
+        "industrie",
+        "port_fluvial",
+        "port_maritime",
+        "rail"
+      ],
+      "verification_claude": "non_verifiee",
+      "resume_francais": " : Centre actif de la plaine d’Olténie."
+    },
+    {
+      "source_id": "src-18-it-palermo-treccani1935",
+      "operation_registre": "ajouter",
+      "niveau": "A",
+      "type_source": "encyclopedie_epoque",
+      "titre": "Palerme — Enciclopedia Italiana 1935",
+      "institution": "Istituto della Enciclopedia Italiana",
+      "url": "https://www.treccani.it/enciclopedia/palermo_(Enciclopedia-Italiana)/",
+      "date_consultation": "2026-10-04",
+      "cibles": [
+        "ville-it-palerme"
+      ],
+      "usage": [
+        "ville-it-palerme — port_maritime : Port marchand et terminus des exportations insulaires décrit en 1935."
+      ],
+      "locator": "Il porto, trafics 1926–1934",
+      "note": "Texte contemporain de 1935 lu en transcription ; aucun trafic chiffré reconduit à 1944. Les cibles hors du fichier de données restent différées ; aucune validation humaine présumée.",
+      "resume_passage": "",
+      "verification_ether": {
+        "date": "2026-10-04",
+        "statut": "passage_lu",
+        "limite": "Texte contemporain de1935 lu en transcription ; aucun trafic chiffré reconduit à1944."
+      },
+      "usages_atlas": [
+        "port_maritime"
+      ],
+      "verification_claude": "non_verifiee",
+      "resume_francais": "port_maritime : Port marchand et terminus des exportations insulaires décrit en 1935."
+    },
+    {
+      "source_id": "src-18-it-cagliari-treccani1930",
+      "operation_registre": "ajouter",
+      "niveau": "A",
+      "type_source": "encyclopedie_epoque",
+      "titre": "Cagliari — Enciclopedia Italiana 1930",
+      "institution": "Istituto della Enciclopedia Italiana",
+      "url": "https://www.treccani.it/enciclopedia/cagliari_(Enciclopedia-Italiana)/",
+      "date_consultation": "2026-10-04",
+      "cibles": [
+        "ville-it-cagliari"
+      ],
+      "usage": [
+        "ville-it-cagliari — port_maritime : Quais raccordés au rail et navigation vers la péninsule, la Sicile et Tunis."
+      ],
+      "locator": "Il porto",
+      "note": "Texte contemporain de 1930 lu en transcription ; aucun trafic chiffré reconduit à 1944. Les cibles hors du fichier de données restent différées ; aucune validation humaine présumée.",
+      "resume_passage": "",
+      "verification_ether": {
+        "date": "2026-10-04",
+        "statut": "passage_lu",
+        "limite": "Texte contemporain de1930 lu en transcription ; aucun trafic chiffré reconduit à1944."
+      },
+      "usages_atlas": [
+        "port_maritime"
+      ],
+      "verification_claude": "non_verifiee",
+      "resume_francais": "port_maritime : Quais raccordés au rail et navigation vers la péninsule, la Sicile et Tunis."
+    },
+    {
+      "source_id": "src-18-it-messina-treccani1934",
+      "operation_registre": "ajouter",
+      "niveau": "A",
+      "type_source": "encyclopedie_epoque",
+      "titre": "Messine — Enciclopedia Italiana 1934",
+      "institution": "Istituto della Enciclopedia Italiana",
+      "url": "https://www.treccani.it/enciclopedia/messina_(Enciclopedia-Italiana)/",
+      "date_consultation": "2026-10-04",
+      "cibles": [
+        "ville-it-messine"
+      ],
+      "usage": [
+        "ville-it-messine — port_maritime, ferry, detroit : Port du détroit et traversées par ferry attestés avant 1945."
+      ],
+      "locator": "Description de la ville et trafic des ferry-boats 1931",
+      "note": "Texte contemporain de 1934 lu en transcription ; aucun trafic chiffré reconduit à 1944. Les cibles hors du fichier de données restent différées ; aucune validation humaine présumée.",
+      "resume_passage": "",
+      "verification_ether": {
+        "date": "2026-10-04",
+        "statut": "passage_lu",
+        "limite": "Texte contemporain de1934 lu en transcription ; aucun trafic chiffré reconduit à1944."
+      },
+      "usages_atlas": [
+        "detroit",
+        "ferry",
+        "port_maritime"
+      ],
+      "verification_claude": "non_verifiee",
+      "resume_francais": "port_maritime, ferry, detroit : Port du détroit et traversées par ferry attestés avant 1945."
+    },
+    {
+      "source_id": "src-18-gr-treccani1933",
+      "operation_registre": "ajouter",
+      "niveau": "A",
+      "type_source": "encyclopedie_epoque",
+      "titre": "Grecia — Enciclopedia Italiana 1933",
+      "institution": "Istituto della Enciclopedia Italiana",
+      "url": "https://www.treccani.it/enciclopedia/grecia_(Enciclopedia-Italiana)/",
+      "date_consultation": "2026-10-04",
+      "cibles": [
+        "ville-gr-athenes",
+        "ville-gr-corfou",
+        "ville-gr-ermoupoli",
+        "ville-gr-kavala",
+        "ville-gr-la-canee",
+        "ville-gr-lavrio",
+        "ville-gr-le-piree",
+        "ville-gr-rethymnon",
+        "ville-gr-thessalonique"
+      ],
+      "usage": [
+        "ville-gr-la-canee —  : Centre majeur de Crète, identifié sous La Canea.",
+        "ville-gr-rethymnon —  : Centre côtier de Crète ; rôle portuaire non déduit automatiquement.",
+        "ville-gr-corfou —  : Ville principale de l’île ; repère urbain à distinguer du point de l’île.",
+        "ville-gr-ermoupoli —  : Agglomération nouvelle de Syros distinguée de l’ancien habitat.",
+        "ville-gr-lavrio — industrie : Extraction et installations industrielles à Laurio.",
+        "ville-gr-athenes — industrie : Centre industriel cité.",
+        "ville-gr-le-piree — industrie : Centre industriel cité.",
+        "ville-gr-thessalonique — industrie : Centre industriel cité.",
+        "ville-gr-kavala — industrie : Centre industriel cité."
+      ],
+      "locator": "Centri, Miniere, Industria",
+      "note": "Texte 1933 lu en transcription ; choix urbains et fonctions locales, sans géographie politique actuelle ni chiffres de 1945. Les considérations ethniques et politiques de l’ouvrage ne sont pas reprises. Les cibles hors du fichier de données restent différées ; aucune validation humaine présumée.",
+      "resume_passage": "",
+      "verification_ether": {
+        "date": "2026-10-04",
+        "statut": "passage_lu",
+        "limite": "Texte1933 lu en transcription ; choix urbains et fonctions locales, sans géographie politique actuelle ni chiffres de1945. Les considérations ethniques et politiques de l’ouvrage ne sont pas reprises."
+      },
+      "usages_atlas": [
+        "industrie"
+      ],
+      "verification_claude": "non_verifiee",
+      "resume_francais": " : Centre majeur de Crète, identifié sous La Canea."
+    },
+    {
+      "source_id": "src-18-gr-rhodes-ville-histoire",
+      "operation_registre": "ajouter",
+      "niveau": "B",
+      "type_source": "etude_ou_histoire_institutionnelle",
+      "titre": "Rhodes — histoire de la ville",
+      "institution": "Municipalité de Rhodes",
+      "url": "https://www.rhodes.gr/i-poli-mas/istorika-stichia/",
+      "date_consultation": "2026-10-04",
+      "cibles": [
+        "ville-gr-rhodes"
+      ],
+      "usage": [
+        "ville-gr-rhodes — port_maritime : Le port figure parmi les travaux de la période italienne, avant les bombardements de 1944."
+      ],
+      "locator": "Section Ιταλική Περίοδος, infrastructures ; section Σύγχρονη Περίοδος, bombardements de 1944",
+      "note": "Histoire municipale rétrospective lue ; travaux portuaires durant la période italienne. Ni trafic ni souveraineté grecque en 1945 déduits. Les cibles hors du fichier de données restent différées ; aucune validation humaine présumée.",
+      "resume_passage": "",
+      "verification_ether": {
+        "date": "2026-10-04",
+        "statut": "passage_lu",
+        "limite": "Histoire municipale rétrospective lue ; travaux portuaires durant la période italienne. Ni trafic ni souveraineté grecque en 1945 déduits."
+      },
+      "usages_atlas": [
+        "port_maritime"
+      ],
+      "verification_claude": "non_verifiee",
+      "resume_francais": "port_maritime : Le port figure parmi les travaux de la période italienne, avant les bombardements de 1944."
+    },
+    {
+      "source_id": "src-18-gr-leros-musee-guerre",
+      "operation_registre": "ajouter",
+      "niveau": "B",
+      "type_source": "etude_ou_histoire_institutionnelle",
+      "titre": "Léros — musée de la guerre",
+      "institution": "Municipalité de Léros",
+      "url": "https://leros.gr/ova_por/leros-war-museum/",
+      "date_consultation": "2026-10-04",
+      "cibles": [
+        "ville-gr-lakki"
+      ],
+      "usage": [
+        "ville-gr-lakki — port_maritime : Le port de Lakki est associé à la base italienne avant la bataille de 1943 ; activité militaire au Snapshot en réserve."
+      ],
+      "locator": "Ιστορικό Πλαίσιο: Η Μάχη της Λέρου, paragraphes 1–4",
+      "note": "Notice du musée lue : port de Lakki et base italienne avant la bataille de 1943. Activité navale de fin 1944 non établie. Les cibles hors du fichier de données restent différées ; aucune validation humaine présumée.",
+      "resume_passage": "",
+      "verification_ether": {
+        "date": "2026-10-04",
+        "statut": "passage_lu",
+        "limite": "Notice du musée lue : port de Lakki et base italienne avant la bataille de 1943. Activité navale de fin 1944 non établie."
+      },
+      "usages_atlas": [
+        "port_maritime"
+      ],
+      "verification_claude": "non_verifiee",
+      "resume_francais": "port_maritime : Le port de Lakki est associé à la base italienne avant la bataille de 1943 ; activité militaire au Snapshot en réserve."
+    },
+    {
+      "source_id": "src-18-it-torino-treccani1937",
+      "operation_registre": "ajouter",
+      "niveau": "A",
+      "type_source": "encyclopedie_epoque",
+      "titre": "Torino — Enciclopedia Italiana 1937",
+      "institution": "Istituto della Enciclopedia Italiana",
+      "url": "https://www.treccani.it/enciclopedia/torino_(Enciclopedia-Italiana)/",
+      "date_consultation": "2026-10-04",
+      "cibles": [
+        "ville-it-turin"
+      ],
+      "usage": [
+        "ville-it-turin — industrie : Industrie automobile et mécanique localisée dans la ville, notamment au Lingotto."
+      ],
+      "locator": "Grande industrie ; Fiat et Lingotto",
+      "note": "Texte contemporain lu en transcription ; aucune quantité ni continuité de production fin 1944 déduite. Les cibles hors du fichier de données restent différées ; aucune validation humaine présumée.",
+      "resume_passage": "",
+      "verification_ether": {
+        "date": "2026-10-04",
+        "statut": "passage_lu",
+        "limite": "Texte contemporain lu en transcription ; aucune quantité ni continuité de production fin 1944 déduite."
+      },
+      "usages_atlas": [
+        "industrie"
+      ],
+      "verification_claude": "non_verifiee",
+      "resume_francais": "industrie : Industrie automobile et mécanique localisée dans la ville, notamment au Lingotto."
+    },
+    {
+      "source_id": "src-18-it-milano-treccani1934",
+      "operation_registre": "ajouter",
+      "niveau": "A",
+      "type_source": "encyclopedie_epoque",
+      "titre": "Milano — Enciclopedia Italiana 1934",
+      "institution": "Istituto della Enciclopedia Italiana",
+      "url": "https://www.treccani.it/enciclopedia/milano_(Enciclopedia-Italiana)/",
+      "date_consultation": "2026-10-04",
+      "cibles": [
+        "ville-it-milan"
+      ],
+      "usage": [
+        "ville-it-milan — industrie : La notice distingue les industries du territoire communal, notamment mécanique, sidérurgie et textile."
+      ],
+      "locator": "Industria e commercio, trois premiers paragraphes",
+      "note": "Texte contemporain lu en transcription ; aucune quantité ni continuité de production fin 1944 déduite. Les cibles hors du fichier de données restent différées ; aucune validation humaine présumée.",
+      "resume_passage": "",
+      "verification_ether": {
+        "date": "2026-10-04",
+        "statut": "passage_lu",
+        "limite": "Texte contemporain lu en transcription ; aucune quantité ni continuité de production fin 1944 déduite."
+      },
+      "usages_atlas": [
+        "industrie"
+      ],
+      "verification_claude": "non_verifiee",
+      "resume_francais": "industrie : La notice distingue les industries du territoire communal, notamment mécanique, sidérurgie et textile."
+    },
+    {
+      "source_id": "src-18-ba-ugljevik-strategie2014",
+      "operation_registre": "ajouter",
+      "niveau": "B",
+      "type_source": "etude_ou_histoire_institutionnelle",
+      "titre": "Ugljevik — stratégie 2015–2019, bulletin 11/14 II",
+      "institution": "Municipalité d’Ugljevik",
+      "url": "https://opstinaugljevik.net/wp-content/uploads/2023/01/bilten11-14-II_dio-1.pdf",
+      "date_consultation": "2026-10-04",
+      "cibles": [
+        "ville-ba-ugljevik"
+      ],
+      "usage": [
+        "ville-ba-ugljevik —  : Le document distingue le centre minier de 1941 et la nouvelle agglomération de 1980."
+      ],
+      "locator": "Page imprimée 6, section 1.1 Istorijat opštine",
+      "note": "Texte PDF lu : centre transféré au site minier en 1941 puis à une nouvelle agglomération en 1980. Image non collationnée ; ne pas placer la ville historique sur le point actuel. Les cibles hors du fichier de données restent différées ; aucune validation humaine présumée.",
+      "resume_passage": "",
+      "verification_ether": {
+        "date": "2026-10-04",
+        "statut": "passage_lu",
+        "limite": "Texte PDF lu : centre transféré au site minier en 1941 puis à une nouvelle agglomération en 1980. Image non collationnée ; ne pas placer la ville historique sur le point actuel."
+      },
+      "usages_atlas": [],
+      "verification_claude": "non_verifiee",
+      "resume_francais": " : Le document distingue le centre minier de 1941 et la nouvelle agglomération de 1980."
+    },
+    {
+      "source_id": "src-wikidata",
+      "operation_registre": "completer",
+      "niveau": "C",
+      "type_source": "base_collaborative",
+      "titre": "Wikidata — repères urbains CC0, complément villes 1.8",
+      "institution": "Wikimedia",
+      "url": "https://www.wikidata.org/",
+      "date_consultation": "2026-10-04",
+      "cibles": [
+        "ville-it-reggio-calabre",
+        "ville-it-tarente",
+        "ville-it-barletta",
+        "ville-it-san-severo",
+        "ville-it-foggia",
+        "ville-it-salerne",
+        "ville-it-naples",
+        "ville-it-lecce",
+        "ville-it-brindisi",
+        "ville-it-bari",
+        "ville-it-termoli",
+        "ville-it-ortona",
+        "ville-it-pescara",
+        "ville-it-ancone",
+        "ville-it-pesaro",
+        "ville-it-rimini",
+        "ville-it-bologne",
+        "ville-ro-oravita",
+        "ville-ro-bazias",
+        "ville-ro-bucarest",
+        "ville-ro-giurgiu",
+        "ville-ro-pitesti",
+        "ville-ro-roman",
+        "ville-ro-galati",
+        "ville-ro-buzau",
+        "ville-ro-braila",
+        "ville-ro-tecuci",
+        "ville-ro-arad",
+        "ville-ro-iasi",
+        "ville-bg-rousse",
+        "ville-bg-varna",
+        "ville-bg-sofia",
+        "ville-bg-belovo",
+        "ville-rs-dimitrovgrad",
+        "ville-bg-bourgas",
+        "ville-bg-svichtov",
+        "ville-bg-vidin",
+        "ville-bg-lom",
+        "ville-hr-zagreb",
+        "ville-hr-split",
+        "ville-rs-belgrade",
+        "ville-it-rome",
+        "ville-it-roccasecca",
+        "ville-it-civitavecchia",
+        "ville-it-grosseto",
+        "ville-it-arezzo",
+        "ville-it-livourne",
+        "ville-it-pise",
+        "ville-it-florence",
+        "ville-it-prato",
+        "ville-it-pistoia",
+        "ville-it-aversa",
+        "ville-it-villa-literno",
+        "ville-it-formia",
+        "ville-it-minturno",
+        "ville-it-cancello-arnone",
+        "ville-it-cassino",
+        "ville-it-capoue",
+        "ville-it-mignano-monte-lungo",
+        "ville-it-orte",
+        "ville-it-terni",
+        "ville-it-foligno",
+        "ville-it-fabriano",
+        "ville-it-falconara",
+        "ville-it-spolete",
+        "ville-it-empoli",
+        "ville-it-ferrare",
+        "ville-it-rovigo",
+        "ville-it-padoue",
+        "ville-it-monselice",
+        "ville-gr-athenes",
+        "ville-gr-le-piree",
+        "ville-gr-patras",
+        "ville-gr-corinthe",
+        "ville-gr-pyrgos",
+        "ville-gr-tripoli",
+        "ville-gr-kalamata",
+        "ville-gr-diakopto",
+        "ville-gr-lavrio",
+        "ville-gr-thebes",
+        "ville-gr-chalcis",
+        "ville-gr-livadia",
+        "ville-gr-agrinio",
+        "ville-gr-lamia",
+        "ville-gr-stylida",
+        "ville-gr-amfikleia",
+        "ville-gr-larissa",
+        "ville-gr-volos",
+        "ville-gr-velestino",
+        "ville-gr-karditsa",
+        "ville-gr-trikala",
+        "ville-gr-kalambaka",
+        "ville-gr-thessalonique",
+        "ville-gr-katerini",
+        "ville-gr-platy",
+        "ville-gr-veria",
+        "ville-gr-skydra",
+        "ville-gr-edessa",
+        "ville-gr-amyntaio",
+        "ville-gr-florina",
+        "ville-gr-polykastro",
+        "ville-gr-serres",
+        "ville-gr-sidirokastro",
+        "ville-gr-drama",
+        "ville-gr-xanthi",
+        "ville-gr-komotini",
+        "ville-gr-alexandroupoli",
+        "ville-gr-pythio",
+        "ville-mk-bitola",
+        "ville-mk-gevgelija",
+        "ville-bg-blagoevgrad",
+        "ville-bg-svilengrad",
+        "ville-ro-cernavoda",
+        "ville-ro-constanta",
+        "ville-bg-kaspichan",
+        "ville-bg-plovdiv",
+        "ville-bg-nova-zagora",
+        "ville-bg-yambol",
+        "ville-bg-simeonovgrad",
+        "ville-bg-vakarel",
+        "ville-ba-zenica",
+        "ville-hr-pula",
+        "ville-hr-dubrovnik",
+        "ville-ba-sarajevo",
+        "ville-mk-skopje",
+        "ville-ba-banja-luka",
+        "ville-ba-dobrljin",
+        "ville-ba-brod",
+        "ville-ba-doboj",
+        "ville-ba-derventa",
+        "ville-ba-zepce",
+        "ville-ba-mostar",
+        "ville-hr-metkovic",
+        "ville-ba-tuzla",
+        "ville-ba-konjic",
+        "ville-ba-travnik",
+        "ville-ba-bugojno",
+        "ville-ba-donji-vakuf",
+        "ville-ba-jajce",
+        "ville-ba-vares",
+        "ville-ba-breza",
+        "ville-ba-trebinje",
+        "ville-me-zelenika",
+        "ville-ba-prijedor",
+        "ville-hr-knin",
+        "ville-ba-zavidovici",
+        "ville-ba-novi-grad",
+        "ville-ba-bosanska-krupa",
+        "ville-ba-bihac",
+        "ville-ba-bijeljina",
+        "ville-ba-bileca",
+        "ville-hr-ploce",
+        "ville-rs-nis",
+        "ville-rs-bela-crkva",
+        "ville-me-bar",
+        "ville-me-virpazar",
+        "ville-me-podgorica",
+        "ville-me-niksic",
+        "ville-al-shkoder",
+        "ville-me-rijeka-crnojevica",
+        "ville-hr-rijeka",
+        "ville-al-tirana",
+        "ville-al-kucove",
+        "ville-al-vlore",
+        "ville-al-durres",
+        "ville-it-venise",
+        "ville-it-udine",
+        "ville-it-gorizia",
+        "ville-it-trieste",
+        "ville-it-verone",
+        "ville-si-jesenice",
+        "ville-si-ljubljana",
+        "ville-si-celje",
+        "ville-si-maribor",
+        "ville-hr-susak",
+        "ville-hr-karlovac",
+        "ville-hr-cakovec",
+        "ville-hr-koprivnica",
+        "ville-hr-sisak",
+        "ville-hr-gospic",
+        "ville-hr-sibenik",
+        "ville-hr-sinj",
+        "ville-hr-slavonski-brod",
+        "ville-hr-osijek",
+        "ville-hr-vinkovci",
+        "ville-rs-sombor",
+        "ville-rs-subotica",
+        "ville-rs-sremska-mitrovica",
+        "ville-rs-novi-sad",
+        "ville-rs-zrenjanin",
+        "ville-rs-vrsac",
+        "ville-rs-pancevo",
+        "ville-rs-valjevo",
+        "ville-rs-cacak",
+        "ville-rs-kraljevo",
+        "ville-rs-kragujevac",
+        "ville-rs-smederevska-palanka",
+        "ville-rs-pozarevac",
+        "ville-rs-krusevac",
+        "ville-rs-stalac",
+        "ville-rs-bor",
+        "ville-rs-zajecar",
+        "ville-rs-negotin",
+        "ville-rs-pirot",
+        "ville-ba-foca",
+        "ville-ba-ustipraca",
+        "ville-me-herceg-novi",
+        "ville-mk-prilep",
+        "ville-mk-ohrid",
+        "ville-al-elbasan",
+        "ville-al-korce",
+        "ville-al-gjirokaster",
+        "ville-me-cetinje",
+        "ville-me-kotor",
+        "ville-mk-tetovo",
+        "ville-mk-debar",
+        "ville-si-kranj",
+        "ville-si-litija",
+        "ville-ba-drvar",
+        "ville-rs-leskovac",
+        "ville-it-turin",
+        "ville-it-genes",
+        "ville-it-milan",
+        "ville-it-alessandria",
+        "ville-it-asti",
+        "ville-it-cuneo",
+        "ville-it-savone",
+        "ville-it-vintimille",
+        "ville-it-novare",
+        "ville-it-verceil",
+        "ville-it-domodossola",
+        "ville-it-come",
+        "ville-it-sondrio",
+        "ville-it-tirano",
+        "ville-it-bergame",
+        "ville-it-brescia",
+        "ville-it-pavie",
+        "ville-it-mortara",
+        "ville-it-tortone",
+        "ville-it-aoste",
+        "ville-it-plaisance",
+        "ville-it-parme",
+        "ville-it-modene",
+        "ville-it-cremone",
+        "ville-it-mantoue",
+        "ville-it-vicence",
+        "ville-it-trevise",
+        "ville-it-belluno",
+        "ville-it-trente",
+        "ville-it-bolzano",
+        "ville-it-merano",
+        "ville-it-fortezza",
+        "ville-it-brennero",
+        "ville-it-san-candido",
+        "ville-it-tarvisio",
+        "ville-it-ravenne",
+        "ville-it-faenza",
+        "ville-it-forli",
+        "ville-it-chioggia",
+        "ville-it-la-spezia",
+        "ville-it-lucques",
+        "ville-it-viareggio",
+        "ville-it-sienne",
+        "ville-it-perouse",
+        "ville-it-viterbe",
+        "ville-it-avezzano",
+        "ville-it-sulmona",
+        "ville-it-laquila",
+        "ville-it-ascoli-piceno",
+        "ville-it-teramo",
+        "ville-it-benevent",
+        "ville-it-caserte",
+        "ville-it-potenza",
+        "ville-it-matera",
+        "ville-it-metaponto",
+        "ville-it-campobasso",
+        "ville-it-cosenza",
+        "ville-it-crotone",
+        "ville-it-catanzaro",
+        "ville-it-gioia-tauro",
+        "ville-it-villa-san-giovanni",
+        "ville-it-gallipoli",
+        "ville-it-otranto",
+        "ville-it-palerme",
+        "ville-it-messine",
+        "ville-it-catane",
+        "ville-it-syracuse",
+        "ville-it-trapani",
+        "ville-it-agrigente",
+        "ville-it-porto-empedocle",
+        "ville-it-licata",
+        "ville-it-raguse",
+        "ville-it-caltagirone",
+        "ville-it-roccapalumba",
+        "ville-it-cagliari",
+        "ville-it-sassari",
+        "ville-it-porto-torres",
+        "ville-it-olbia",
+        "ville-it-alghero",
+        "ville-it-macomer",
+        "ville-it-chilivani",
+        "ville-it-iglesias",
+        "ville-it-nuoro",
+        "ville-it-arbatax",
+        "ville-it-avellino",
+        "ville-it-trani",
+        "ville-it-molfetta",
+        "ville-it-castellammare-di-stabia",
+        "ville-it-pozzuoli",
+        "ville-ro-alba-iulia",
+        "ville-ro-simeria",
+        "ville-ro-petrosani",
+        "ville-ro-oradea",
+        "ville-ro-cluj-napoca",
+        "ville-ro-teius",
+        "ville-ro-medias",
+        "ville-ro-sighisoara",
+        "ville-ro-brasov",
+        "ville-ro-predeal",
+        "ville-ro-zarnesti",
+        "ville-ro-sfantu-gheorghe",
+        "ville-ro-fagaras",
+        "ville-ro-timisoara",
+        "ville-ro-sibiu",
+        "ville-ro-resita",
+        "ville-bg-gorna-oryahovitsa",
+        "ville-bg-pleven",
+        "ville-bg-roman",
+        "ville-bg-shumen",
+        "ville-bg-somovit",
+        "ville-bg-yasen",
+        "ville-bg-levski",
+        "ville-bg-lovech",
+        "ville-bg-cherven-bryag",
+        "ville-bg-gabrovo",
+        "ville-gr-preveza",
+        "ville-gr-kavala",
+        "ville-gr-mytilene",
+        "ville-gr-chios",
+        "ville-gr-heraklion",
+        "ville-bg-pernik",
+        "ville-bg-sliven",
+        "ville-bg-stara-zagora",
+        "ville-bg-kazanlak",
+        "ville-bg-veliko-tarnovo",
+        "ville-bg-kyustendil",
+        "ville-bg-gyueshevo",
+        "ville-bg-radomir",
+        "ville-bg-petrich",
+        "ville-bg-oryahovo",
+        "ville-ro-craiova",
+        "ville-ro-sulina",
+        "ville-bg-silistra",
+        "ville-ro-ploiesti",
+        "ville-ro-hunedoara",
+        "ville-gr-la-canee",
+        "ville-gr-rethymnon",
+        "ville-gr-corfou",
+        "ville-gr-ermoupoli",
+        "ville-gr-rhodes",
+        "ville-gr-lakki"
+      ],
+      "usage": [
+        "Identité des localités et coordonnées P625 actuelles ; aucune preuve de rôle en 1945."
+      ],
+      "usages_atlas": [
+        "geolocalisation"
+      ],
+      "locator": "2026-10-04_ether_positions_wikidata.json et réponses brutes WD ; QID par objet et date de requête dans les fichiers bruts. Numéro de révision non retourné par ces requêtes.",
+      "note": "Fusion par union des cibles et usages ; préserver tous les champs et confirmations existants. Éléments homonymes et communes distinctes rejetés ; alternatives proches documentées.",
+      "verification_ether": {
+        "date": "2026-10-04",
+        "statut": "P625_lus_et_identites_controlees",
+        "limite": "Points actuels ; pas de précision historique certifiée."
+      }
+    }
+  ]
+}

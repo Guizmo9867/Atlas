@@ -2,6 +2,14 @@
 
 Une ligne par décision, datée. Plus récente en haut. Ce journal remplace les versions éparpillées dans les conversations : si ce n'est pas ici, ce n'est pas décidé.
 
+## 2026-10-04 (nuit : villes 1.8, Balkans, Grèce et Italie)
+
+- **Villes 1.8 intégrées : 361 villes** (Italie 140, Grèce 49, Bulgarie 37, Roumanie 34, Bosnie-Herzégovine 28, Serbie 24, Croatie 19, Monténégro 9, Albanie 8, Macédoine du Nord 7, Slovénie 6), dont 8 sous leur nom de 1945 (Fiume, Pola, Petrovgrad, Caribrod, Gorna Djoumaïa, Bosanski Brod, Bosanski Novi, Cluj). Capitales nationales : Rome, Athènes, Belgrade, Sofia, Bucarest, Tirana. L'Atlas compte 1 306 villes. *(Ether, fait par Claude)*
+- **Cartes OSS lues par Claude** sur les images déposées par Ether (Grèce 1944, Yougoslavie 1942 et 1943, Italie 1943) : 225 villes prouvées une à une (rail ou industrie selon la légende). *(Claude)*
+- **Liste des sources à valider : correction du tri « importante »** : le calcul ne reconnaissait que l'ancien format des preuves (« preuve locale : … ») et ignorait les lots 1.5 à 1.8. Corrigé (`outils/sources/liste_sources_a_valider.py`) : **164 sources importantes** (changent la carte) au lieu de 40, sur 288 à valider. *(Claude)*
+- Sources : 66 nouvelles (40 confirmées, 61 %), registre v1.25, 825 sources. Nouvelles questions Q18-01 (13 sources illisibles pour l'outil) et Q18-02 (lectures partielles). Réserves R18-01 à R18-70 gardées pour la revue finale 1.x. *(Claude)*
+- Réveil interrompu de 19 h 14 repris : réponses 1.6 (cycle 3) et 1.7 (cycle 2) envoyées (commit `bfbacac`) avant le 1.8 ; verrou git laissé par l'arrêt effacé après autorisation. *(Claude)*
+
 ## 2026-10-04 (soir : réponses au 1.6, cycle 3, et au 1.7, cycle 2)
 
 - **Captures et pages d'Ether lues par Claude** : 16 captures et 47 images de pages de répertoires. 1.6 : 57 villes de plus confirmées page par page, Maxam, ONIIP, Novossibirsk et Providenia confirmées ; « À renforcer » 176 → 127. 1.7 : rail relu pour 30 villes turques (encyclopédie Atatürk), Gelibolu confirmée, 34 villes de Géorgie, d'Arménie et Stavropol confirmées ; « À renforcer » 124 → 78. Registre v1.24. *(Ether + Claude)*

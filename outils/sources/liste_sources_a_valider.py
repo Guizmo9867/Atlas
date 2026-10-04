@@ -34,6 +34,11 @@ for f in glob.glob(str(RACINE / 'data/snapshot0/*.json')):
                     if roles: IMPACT[s.get('source_id')].append(f"{nom_v} ({', '.join(roles)})")
                 elif u.startswith('nom à la date'):
                     IMPACT[s.get('source_id')].append(f"{nom_v} (nom de 1945)")
+                else:
+                    # Format des lots 1.5 et suivants : l'usage est la liste des rôles (« rail, industrie (lecture partielle) »).
+                    # Correction du 04/10/2026 : ces lots n'étaient pas comptés.
+                    roles = sorted({r.strip() for r in re.split(r'[,;]', re.sub(r' \(.*$', '', u))} & renf)
+                    if roles: IMPACT[s.get('source_id')].append(f"{nom_v} ({', '.join(roles)})")
 
 GROUPE = {'non_verifiee': 'a_lire', 'limite': 'partielle', 'faible': 'partielle', 'lien_casse': 'lien_mort'}
 liste = []

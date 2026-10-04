@@ -1,0 +1,962 @@
+{
+  "date": "2026-10-04T18:39:21.930140+02:00",
+  "statut": "controle_sans_erreur",
+  "portee": "Structure, provenance, identités, références, pièces, sauvegarde des champs canoniques et comparaison de la baseline. Pas de validation historique exhaustive ni d’intégration.",
+  "erreurs": [],
+  "baseline_modifiee": [],
+  "canon_villes": 945,
+  "canon_sources": 759,
+  "propositions": 361,
+  "sources_ajouter": 66,
+  "sources_completer": 1,
+  "differes": 15,
+  "fusion": 1,
+  "zones": 26,
+  "reserves": 70,
+  "rangs": {
+    "B": 121,
+    "C": 222,
+    "A": 18
+  },
+  "proximites_moins_3km": [],
+  "preservation_complements": [
+    {
+      "source_id": "src-maxam-chirchiq-histoire",
+      "lot": 6,
+      "champs_canoniques_preserves": true
+    },
+    {
+      "source_id": "src-oniip-omsk-1942",
+      "lot": 6,
+      "champs_canoniques_preserves": true
+    },
+    {
+      "source_id": "src-bvrz-histoire",
+      "lot": 6,
+      "champs_canoniques_preserves": true
+    },
+    {
+      "source_id": "src-novossibirsk-histoire1920-1940",
+      "lot": 6,
+      "champs_canoniques_preserves": true
+    },
+    {
+      "source_id": "src-archives-primorie-spassk-ciment",
+      "lot": 6,
+      "champs_canoniques_preserves": true
+    },
+    {
+      "source_id": "src-ks-providenia-dyga2022",
+      "lot": 6,
+      "champs_canoniques_preserves": true
+    },
+    {
+      "source_id": "src-vayner-transport-guerre-ch4",
+      "lot": 6,
+      "champs_canoniques_preserves": true
+    },
+    {
+      "source_id": "src-shpl-admin1940",
+      "lot": 6,
+      "champs_canoniques_preserves": true
+    },
+    {
+      "source_id": "src-17-tr-atam-rail-as2021",
+      "lot": 7,
+      "champs_canoniques_preserves": true
+    },
+    {
+      "source_id": "src-17-tr-gelibolu-administration",
+      "lot": 7,
+      "champs_canoniques_preserves": true
+    },
+    {
+      "source_id": "src-17-tr-mersin-tarsus-histoire",
+      "lot": 7,
+      "champs_canoniques_preserves": true
+    },
+    {
+      "source_id": "src-shpl-admin1940",
+      "lot": 7,
+      "champs_canoniques_preserves": true
+    },
+    {
+      "source_id": "src-neb-admin1944-supplement",
+      "lot": 7,
+      "champs_canoniques_preserves": true
+    },
+    {
+      "source_id": "src-17-tr-sumerbank-polatoglu2021",
+      "lot": 7,
+      "champs_canoniques_preserves": true
+    }
+  ],
+  "pieces_indexees_verifiees": 90,
+  "fichiers": [
+    {
+      "chemin": "01_lots/villes_1-6/2026-10-04_ether_corrections_cycle3.json",
+      "sha256": "a305568a035eb98b882a1e6d003e086782da3ae0672610017d628b91a6f75055",
+      "octets": 1819
+    },
+    {
+      "chemin": "01_lots/villes_1-6/2026-10-04_ether_index_pages_administratives_cycle3.json",
+      "sha256": "a9e59628e85e7b4d34428f24d100be0dbce3eacc50b5faa6e10dc9b666b0b78e",
+      "octets": 59786
+    },
+    {
+      "chemin": "01_lots/villes_1-6/2026-10-04_ether_Q16-01_bvrz_1942-1944.png",
+      "sha256": "c222ff93db7ccfe72bf13d468af1b702b412685aaece43cffdbc60a825aa5c9d",
+      "octets": 108186
+    },
+    {
+      "chemin": "01_lots/villes_1-6/2026-10-04_ether_Q16-01_index_captures.json",
+      "sha256": "f277e84a1d1fc7be330defa683c48f7bea66900f47cd28eba1a3185d70f174ae",
+      "octets": 3447
+    },
+    {
+      "chemin": "01_lots/villes_1-6/2026-10-04_ether_Q16-01_maxam_1940-1944.png",
+      "sha256": "882c36f5de62ef69ecac733564cc41aa5ecc21d1664f805d57d48b09bee52656",
+      "octets": 130066
+    },
+    {
+      "chemin": "01_lots/villes_1-6/2026-10-04_ether_Q16-01_novossibirsk_1934-1937.png",
+      "sha256": "7b6fbe6644613ed299c2b1afa8a87dfaf7598ac8ace1fa714f39adebdccaff86",
+      "octets": 124595
+    },
+    {
+      "chemin": "01_lots/villes_1-6/2026-10-04_ether_Q16-01_oniip_1942.png",
+      "sha256": "b79e349106386c2f6955790118905f0334bb1f0de468c7d9317c54bed949adf3",
+      "octets": 132896
+    },
+    {
+      "chemin": "01_lots/villes_1-6/2026-10-04_ether_Q16-01_providenia_1940.png",
+      "sha256": "4cc4123c73b2d236841b42d850b733f7d40ee981fdcbc7d000562c7a77af1303",
+      "octets": 150844
+    },
+    {
+      "chemin": "01_lots/villes_1-6/2026-10-04_ether_Q16-01_sakhaline_p109_transcription.png",
+      "sha256": "785a0ffe2361e8fd26986fc8246fcd2db808d89a8ddaa26477596064927efe14",
+      "octets": 47852
+    },
+    {
+      "chemin": "01_lots/villes_1-6/2026-10-04_ether_Q16-01_spassk_1942.png",
+      "sha256": "b42475c937308ec158fb7ea26c958b2c04409e0690f12bdf0ce97116ca2fa9c6",
+      "octets": 186278
+    },
+    {
+      "chemin": "01_lots/villes_1-6/2026-10-04_ether_Q16-01_vayner_doudinka_1944.png",
+      "sha256": "24dba3a5d9e2c103c29e600145cc6c2ade45915e6d532e9f3da8699ee83ea8d0",
+      "octets": 258403
+    },
+    {
+      "chemin": "01_lots/villes_1-6/2026-10-04_ether_Q16-01_vayner_gouriev_1942.png",
+      "sha256": "d58939950af233ae0937b929280c9fe7007fa4356f2323438bdebe2e9bf1787e",
+      "octets": 275205
+    },
+    {
+      "chemin": "01_lots/villes_1-6/2026-10-04_ether_Q16-01_vayner_krasnovodsk_1944.png",
+      "sha256": "bacc7f586235296bf22461825c8787973159f91c39b1e802d0690afc67ce68e5",
+      "octets": 279288
+    },
+    {
+      "chemin": "01_lots/villes_1-6/2026-10-04_ether_Q16-02_admin1940_p144_capture.png",
+      "sha256": "d13347e457b1ff692b816213a9cf52952dc16170dc9809218d7f79c571962fda",
+      "octets": 204485
+    },
+    {
+      "chemin": "01_lots/villes_1-6/2026-10-04_ether_Q16-02_admin1940_p145_capture.png",
+      "sha256": "1dcecafd5035ac9cd32e315836018ab88f67de17bdb2914f0ce8201f0834d4f8",
+      "octets": 172027
+    },
+    {
+      "chemin": "01_lots/villes_1-6/2026-10-04_ether_Q16-02_admin1940_p170_capture.png",
+      "sha256": "aca5ed9d3f48456076847e0ff93f8208cbdbb60f3dac1b7dac023bdb7ad31722",
+      "octets": 208141
+    },
+    {
+      "chemin": "01_lots/villes_1-6/2026-10-04_ether_Q16-02_admin1940_p21_capture.png",
+      "sha256": "53303dbd54b1a528ba641dad1d4640f08c8ac91c238e135e1ef6fb7fe57ae733",
+      "octets": 202870
+    },
+    {
+      "chemin": "01_lots/villes_1-6/2026-10-04_ether_Q16-02_admin1940_p262_capture.png",
+      "sha256": "8071bb07e8a173adc335e19a69793dfb79880e1f727ba23d7f0a147f44d816cc",
+      "octets": 211662
+    },
+    {
+      "chemin": "01_lots/villes_1-6/2026-10-04_ether_Q16-02_admin1940_p263_capture.png",
+      "sha256": "f74beb18df8b98c3e581254218ef32ca56554e0b88ebfde6384059746b6bdc40",
+      "octets": 180161
+    },
+    {
+      "chemin": "01_lots/villes_1-6/2026-10-04_ether_Q16-02_admin1940_p264_capture.png",
+      "sha256": "c8330e3221b419cc6c2ab48c693a359a5455027dd3efe9f1f15c6706b1605806",
+      "octets": 199830
+    },
+    {
+      "chemin": "01_lots/villes_1-6/2026-10-04_ether_Q16-02_admin1940_p265_capture.png",
+      "sha256": "7c3a9d74c01aefe533949f5065ee300cfffeff3573ea5a67c1b674231f5add91",
+      "octets": 174126
+    },
+    {
+      "chemin": "01_lots/villes_1-6/2026-10-04_ether_Q16-02_admin1940_p266_capture.png",
+      "sha256": "4c8f0186f4c6b794dd4b45ef4c81dd936e653db497c633a00dff7b8c3e64b561",
+      "octets": 212158
+    },
+    {
+      "chemin": "01_lots/villes_1-6/2026-10-04_ether_Q16-02_admin1940_p267_capture.png",
+      "sha256": "a68f03b91e029e11c30ff4f8c61c0abdadece52dca5ba5d8c8d0e52d344ce06b",
+      "octets": 197986
+    },
+    {
+      "chemin": "01_lots/villes_1-6/2026-10-04_ether_Q16-02_admin1940_p268_capture.png",
+      "sha256": "95f486ea3df25648196ce0b5f7fe0abea0690113e023ad317f9dd7acb4818a95",
+      "octets": 193990
+    },
+    {
+      "chemin": "01_lots/villes_1-6/2026-10-04_ether_Q16-02_admin1940_p269_capture.png",
+      "sha256": "ba0c0fd413edd5ff4e28e02796ce5bf08617c98d494852f5317f0ea003ed3413",
+      "octets": 209532
+    },
+    {
+      "chemin": "01_lots/villes_1-6/2026-10-04_ether_Q16-02_admin1940_p26_capture.png",
+      "sha256": "978d0a1c5ac41c084178dbd271e8230c4cca33cd4f230dab5bb3daff37979e31",
+      "octets": 220069
+    },
+    {
+      "chemin": "01_lots/villes_1-6/2026-10-04_ether_Q16-02_admin1940_p277_capture.png",
+      "sha256": "d88ea934fc66f0cf7b6e8d6d15a8cd4d70140f9b586c09d04fb323059f3f7eb0",
+      "octets": 213982
+    },
+    {
+      "chemin": "01_lots/villes_1-6/2026-10-04_ether_Q16-02_admin1940_p278_capture.png",
+      "sha256": "38a73adb1970b84cdd109e4b5ed7e9d58bb64bc216a367ad7323b049c97e8c35",
+      "octets": 183590
+    },
+    {
+      "chemin": "01_lots/villes_1-6/2026-10-04_ether_Q16-02_admin1940_p279_capture.png",
+      "sha256": "b70b31ab7ed77a67c3b8b14e205f0eaf820484268de98ea91d4b80e2d81afc27",
+      "octets": 213452
+    },
+    {
+      "chemin": "01_lots/villes_1-6/2026-10-04_ether_Q16-02_admin1940_p27_capture.png",
+      "sha256": "d538e6a35e7e1eb69508ff8ff381646111c0f9763d938345f97a019326101435",
+      "octets": 214008
+    },
+    {
+      "chemin": "01_lots/villes_1-6/2026-10-04_ether_Q16-02_admin1940_p280_capture.png",
+      "sha256": "274ff7cfc07632abeec3cda796661798cc2fe854f1f44002771f09790542e511",
+      "octets": 209807
+    },
+    {
+      "chemin": "01_lots/villes_1-6/2026-10-04_ether_Q16-02_admin1940_p282_capture.png",
+      "sha256": "f6578ab272433b82aa8c152820564c364559c622de621ec44e5ef1e9141d622e",
+      "octets": 200974
+    },
+    {
+      "chemin": "01_lots/villes_1-6/2026-10-04_ether_Q16-02_admin1940_p283_capture.png",
+      "sha256": "0f76a465e7c69768f27a5878fd660eee6ece8a049fb60e37101ffc72ff8c30b3",
+      "octets": 177342
+    },
+    {
+      "chemin": "01_lots/villes_1-6/2026-10-04_ether_Q16-02_admin1940_p284_capture.png",
+      "sha256": "7dc8f12535536e33d54d46f00d07b440c7344b4ae2cb616ab922ac7a75386520",
+      "octets": 207466
+    },
+    {
+      "chemin": "01_lots/villes_1-6/2026-10-04_ether_Q16-02_admin1940_p285_capture.png",
+      "sha256": "e39991b2cc43144b5972a73dbdbef42f7d5e0ae0e8b094a79f879438f19751b0",
+      "octets": 199897
+    },
+    {
+      "chemin": "01_lots/villes_1-6/2026-10-04_ether_Q16-02_admin1940_p286_capture.png",
+      "sha256": "415249759e11441afdfb05d701e73ec2632aec39f71d34fc26d45dc7c323a680",
+      "octets": 201672
+    },
+    {
+      "chemin": "01_lots/villes_1-6/2026-10-04_ether_Q16-02_admin1940_p287_capture.png",
+      "sha256": "03bb3870f030215b738036d785156bc86734dbf021ccd3ae781d8f741dc7ad12",
+      "octets": 194536
+    },
+    {
+      "chemin": "01_lots/villes_1-6/2026-10-04_ether_Q16-02_admin1940_p288_capture.png",
+      "sha256": "cbd56054e12298a93430725eb85f379b9256b858990bc5a5fc4ec2ef31e64dd0",
+      "octets": 160837
+    },
+    {
+      "chemin": "01_lots/villes_1-6/2026-10-04_ether_Q16-02_admin1940_p289_capture.png",
+      "sha256": "fec8c05e6f3f43095cbe23884b6a100f58f448c42dd72c6e88db2f19b886bb3d",
+      "octets": 198748
+    },
+    {
+      "chemin": "01_lots/villes_1-6/2026-10-04_ether_Q16-02_admin1940_p290_capture.png",
+      "sha256": "b1ebc80c0bf05b326f36a5c6c0d45c545d5b57a2c1d5e92277d8056c587f8899",
+      "octets": 211582
+    },
+    {
+      "chemin": "01_lots/villes_1-6/2026-10-04_ether_Q16-02_admin1940_p291_capture.png",
+      "sha256": "92b713dbaf15524505a0e6db65a0937d2a67fc47c5ed90a0833a97a598a1b57d",
+      "octets": 202254
+    },
+    {
+      "chemin": "01_lots/villes_1-6/2026-10-04_ether_Q16-02_admin1940_p292_capture.png",
+      "sha256": "c104bf23e548ac593a4d47220320185d23b48ce9a8dcb18a03c14f8118d7400b",
+      "octets": 204571
+    },
+    {
+      "chemin": "01_lots/villes_1-6/2026-10-04_ether_Q16-02_admin1940_p293_capture.png",
+      "sha256": "1b55627239911f671e01dcb8cf2189237138606271b2ef64dae4236b054a4149",
+      "octets": 191776
+    },
+    {
+      "chemin": "01_lots/villes_1-6/2026-10-04_ether_Q16-02_admin1940_p294_capture.png",
+      "sha256": "83c102e8858a1aec291a41019205b56694b7a20cd7bc0d4d141d93f7508433e9",
+      "octets": 175643
+    },
+    {
+      "chemin": "01_lots/villes_1-6/2026-10-04_ether_Q16-02_admin1940_p295_capture.png",
+      "sha256": "ff4e938b7e7912f79ff1eb101a4c035c0f427c82426eddffc1b311c77a5ad1b1",
+      "octets": 201626
+    },
+    {
+      "chemin": "01_lots/villes_1-6/2026-10-04_ether_Q16-02_admin1940_p296_capture.png",
+      "sha256": "118fe4911d1b323f3cff11c555220083e4e7694bc534d94c77ffda240c803cdf",
+      "octets": 179715
+    },
+    {
+      "chemin": "01_lots/villes_1-6/2026-10-04_ether_Q16-02_admin1940_p62_capture.png",
+      "sha256": "257c4367e988fd1f574573dbeada662a2188dce1ad551875d79def53b5aac831",
+      "octets": 209578
+    },
+    {
+      "chemin": "01_lots/villes_1-6/2026-10-04_ether_Q16-02_admin1940_p63_capture.png",
+      "sha256": "c90c71ed1d538301ae720dfb396de7cc750692eb2dd3e4308627f08c8eba2edb",
+      "octets": 205244
+    },
+    {
+      "chemin": "01_lots/villes_1-6/2026-10-04_ether_Q16-02_admin1940_p97_capture.png",
+      "sha256": "cdf4bba8626eed803484ae52681748e4946b14e615f99434d48c407ad15031e3",
+      "octets": 212271
+    },
+    {
+      "chemin": "01_lots/villes_1-6/2026-10-04_ether_reponses_cycle3.md",
+      "sha256": "a14edb469e6f062176cd84a43c929a9e25a4be38759a27d00aed16e1f7e616f2",
+      "octets": 2172
+    },
+    {
+      "chemin": "01_lots/villes_1-6/2026-10-04_ether_reserves_complement_cycle3.json",
+      "sha256": "acd9748a4daa840ae3ab5600e52d8ece84fbe0676759ad1d46f42666dc70a67e",
+      "octets": 1687
+    },
+    {
+      "chemin": "01_lots/villes_1-6/2026-10-04_ether_sources_reponses_cycle3_delta.json",
+      "sha256": "ddb8104e9ae4b3b11c173a4be0329a66d3d19a0e61e268944db5b50cb9ca0e96",
+      "octets": 95354
+    },
+    {
+      "chemin": "01_lots/villes_1-7/2026-10-04_ether_corrections_cycle2.json",
+      "sha256": "333a424a6d1fbbe23c5f55f2db434d6efd9fa854cd3bca0c3cb6ce4329444d7c",
+      "octets": 1923
+    },
+    {
+      "chemin": "01_lots/villes_1-7/2026-10-04_ether_Q17-01_atam_rail_ankara_sivas.png",
+      "sha256": "cb678be6abdcc52a23e3840920f82ab92bf32a83cc7fa5403cb640ffee82805c",
+      "octets": 210773
+    },
+    {
+      "chemin": "01_lots/villes_1-7/2026-10-04_ether_Q17-01_atam_rail_mudanya_izmir.png",
+      "sha256": "a0b2b6b6b6a613593ed975d24de4845365a242080296cc7b5539a649d046319b",
+      "octets": 218439
+    },
+    {
+      "chemin": "01_lots/villes_1-7/2026-10-04_ether_Q17-01_atam_rail_page_complete.png",
+      "sha256": "97a21ce0c6f885119e1ec4b126a602299693cdd2f4cc023b7449ea7c1d8e024d",
+      "octets": 2803562
+    },
+    {
+      "chemin": "01_lots/villes_1-7/2026-10-04_ether_Q17-01_gelibolu_1926.png",
+      "sha256": "daaa0597573bb6f111b97a668798e736df010f7323cec337bc934c31b9acada1",
+      "octets": 164064
+    },
+    {
+      "chemin": "01_lots/villes_1-7/2026-10-04_ether_Q17-01_index_captures.json",
+      "sha256": "7a3b4fa8ec524ffa46cf6c53f82725684f8d522634b12570ab1cd4fadab28250",
+      "octets": 2575
+    },
+    {
+      "chemin": "01_lots/villes_1-7/2026-10-04_ether_Q17-01_izmir_liste1944.png",
+      "sha256": "dcd02f5e9e6c83c94093a896b262e50d6831d3ede1b5ba74cca3a94b2b33e829",
+      "octets": 207874
+    },
+    {
+      "chemin": "01_lots/villes_1-7/2026-10-04_ether_Q17-01_izmir_ouverture1947.png",
+      "sha256": "af85b73b8e6aafc9d142246c381dc09489581eafc75431446ba10f9f0a4da921",
+      "octets": 194106
+    },
+    {
+      "chemin": "01_lots/villes_1-7/2026-10-04_ether_Q17-01_mersin_1888.png",
+      "sha256": "ce3086a5508c25e3414037e7db48bd58ccd544361cb8ac77ba833712c93c1e0a",
+      "octets": 130573
+    },
+    {
+      "chemin": "01_lots/villes_1-7/2026-10-04_ether_Q17-02_admin1940_p242.jpg",
+      "sha256": "51ea360039bd859e4d0a572ecb9344e95046dfcced05b4b0b24ae4df3ced56f8",
+      "octets": 127993
+    },
+    {
+      "chemin": "01_lots/villes_1-7/2026-10-04_ether_Q17-02_admin1940_p243.jpg",
+      "sha256": "5c88129099a14f9a53a75176cddf447c8c2a7792406702e5ce25d81c71a3e586",
+      "octets": 119294
+    },
+    {
+      "chemin": "01_lots/villes_1-7/2026-10-04_ether_Q17-02_admin1940_p244.jpg",
+      "sha256": "323500ea8c20a1981ebb0dd092df3c4aff39228bc87991b2e375705ab5ad0752",
+      "octets": 119422
+    },
+    {
+      "chemin": "01_lots/villes_1-7/2026-10-04_ether_Q17-02_admin1940_p245.jpg",
+      "sha256": "91e1a13a95b9677a516873d2b73c63d53f47697fcb6ce0adaf3af7d26100a73c",
+      "octets": 112584
+    },
+    {
+      "chemin": "01_lots/villes_1-7/2026-10-04_ether_Q17-02_admin1940_p246.jpg",
+      "sha256": "d382f583003b3e8338bff45581cc778b45dc8df651acb3ef2eecafead55b1df6",
+      "octets": 101798
+    },
+    {
+      "chemin": "01_lots/villes_1-7/2026-10-04_ether_Q17-02_admin1940_p247.jpg",
+      "sha256": "f29085c82408f2afd371b982dfe8373f8d6930aef24810538a96929dad1703cc",
+      "octets": 92409
+    },
+    {
+      "chemin": "01_lots/villes_1-7/2026-10-04_ether_Q17-02_admin1940_p248.jpg",
+      "sha256": "94797ee9001db376821bdeebf8b6cd86df4987255143d297a23170a1db054166",
+      "octets": 118186
+    },
+    {
+      "chemin": "01_lots/villes_1-7/2026-10-04_ether_Q17-02_admin1940_p249_capture.png",
+      "sha256": "1c80dea83770b238f57f3ce6008eee4f2fe8783bb9a876e1000636e80c42eb1a",
+      "octets": 211404
+    },
+    {
+      "chemin": "01_lots/villes_1-7/2026-10-04_ether_Q17-02_admin1940_p250_capture.png",
+      "sha256": "4d6855a8e5b495c43efa30efd7a723c9b5d49bd990054d772edf400e332e3622",
+      "octets": 182463
+    },
+    {
+      "chemin": "01_lots/villes_1-7/2026-10-04_ether_Q17-02_admin1944_p55.jpg",
+      "sha256": "4035de74b5b82d09268b028dc16be70beaf9121154424d58b94ab9f2c030bd69",
+      "octets": 526996
+    },
+    {
+      "chemin": "01_lots/villes_1-7/2026-10-04_ether_Q17-02_index_images.json",
+      "sha256": "9c4b4b133e3234c529987db23a77d8cb5d94e5a90156bd1b4169f64f2609fdbd",
+      "octets": 3679
+    },
+    {
+      "chemin": "01_lots/villes_1-7/2026-10-04_ether_reponses_cycle2.md",
+      "sha256": "2e4cd5378ce31593cf9380a5ecba05e11b9f930f5215ee1c6293c8e3df57e3af",
+      "octets": 2511
+    },
+    {
+      "chemin": "01_lots/villes_1-7/2026-10-04_ether_reserves_complement_cycle2.json",
+      "sha256": "574c8f7d17a95ef24215fa00e5c27360459a9aef19791854eaf92d890e8058c2",
+      "octets": 1657
+    },
+    {
+      "chemin": "01_lots/villes_1-7/2026-10-04_ether_sources_reponses_cycle2_delta.json",
+      "sha256": "6faf2ebd733c5fa1da709914fe4d71c07c249476bfc826e8172e217bc2140e76",
+      "octets": 94162
+    },
+    {
+      "chemin": "01_lots/villes_1-8/2026-10-04_ether_atlas_registre_sources_villes_1-8_delta.json",
+      "sha256": "8b30082618122b425dde9c7e38d89b14590b6826d0f63af4d7b7bf6307e0323a",
+      "octets": 175811
+    },
+    {
+      "chemin": "01_lots/villes_1-8/2026-10-04_ether_atlas_villes_1-8.json",
+      "sha256": "ca5be88b4986e5cd46d0092df1d314300040d74d9b094968e2decf0cb02ac95a",
+      "octets": 624037
+    },
+    {
+      "chemin": "01_lots/villes_1-8/2026-10-04_ether_carnet_recherche.json",
+      "sha256": "04371c3d577ee611c42e05244f71aa800a3693897ebfaf57fa35060d5cae4293",
+      "octets": 432682
+    },
+    {
+      "chemin": "01_lots/villes_1-8/2026-10-04_ether_ELIA_113659-01.png",
+      "sha256": "69ccc020d043b639f2d492f23836dd1e31141cc697e607e588be47bb4719cd39",
+      "octets": 890294
+    },
+    {
+      "chemin": "01_lots/villes_1-8/2026-10-04_ether_ELIA_113659-02.png",
+      "sha256": "f81b04430963de12a5a2e712df351eff1e28774fcbc917a8e54302211b1bba02",
+      "octets": 1150982
+    },
+    {
+      "chemin": "01_lots/villes_1-8/2026-10-04_ether_ELIA_113659-03.png",
+      "sha256": "aa6cb41ec23cb5cc247ab2bc4cf1afd703cf996df36a9b5b0dc3050a4bb247e6",
+      "octets": 1026727
+    },
+    {
+      "chemin": "01_lots/villes_1-8/2026-10-04_ether_ELIA_113659.pdf",
+      "sha256": "69c387dc56ab9336a2edd7898a01b4fed7284a76e98f1248a9561e0e283bfbc8",
+      "octets": 1360432
+    },
+    {
+      "chemin": "01_lots/villes_1-8/2026-10-04_ether_grille_couverture.json",
+      "sha256": "27836799330ce469f2a4dec42c607eeb70befb95760f49b0f7cf16bfa02d93dd",
+      "octets": 104184
+    },
+    {
+      "chemin": "01_lots/villes_1-8/2026-10-04_ether_grille_couverture.md",
+      "sha256": "da6e632ae6a3ce7feba287dc9cacdc3ef2b26c31d9417db4c1bcda149b3ac996",
+      "octets": 7296
+    },
+    {
+      "chemin": "01_lots/villes_1-8/2026-10-04_ether_guide_sources.md",
+      "sha256": "57428344ab8fff3bf3b02f05126f9ba5479d6a0e5faf42740917b3b4955931ac",
+      "octets": 43705
+    },
+    {
+      "chemin": "01_lots/villes_1-8/2026-10-04_ether_index_pieces.json",
+      "sha256": "ffd8c599a7ece2af16fd1cf97ae9a5b1b8f3c12b3dd50cbc732197b3df7696c5",
+      "octets": 9097
+    },
+    {
+      "chemin": "01_lots/villes_1-8/2026-10-04_ether_OSS1068_vue.jpg",
+      "sha256": "ff84b5d0519bee758aa6ee864a13495fc1086b754fe57f87a82e83877c59bd22",
+      "octets": 296056
+    },
+    {
+      "chemin": "01_lots/villes_1-8/2026-10-04_ether_OSS2061_cartouche.jpg",
+      "sha256": "82ad9fb93f20bc8b9774d68a91d454f7761c6e3bef494c237e15cce127837b4b",
+      "octets": 47979
+    },
+    {
+      "chemin": "01_lots/villes_1-8/2026-10-04_ether_OSS2061_centre.jpg",
+      "sha256": "c467617f91b1d9c885cce1d936d70f59a815a47222decd3711f3abdc33b73547",
+      "octets": 233508
+    },
+    {
+      "chemin": "01_lots/villes_1-8/2026-10-04_ether_OSS2061_nord.jpg",
+      "sha256": "c2824158595fa7848727b902fc86e87fda32c450480ddd422ef84fe6b831dd2d",
+      "octets": 370517
+    },
+    {
+      "chemin": "01_lots/villes_1-8/2026-10-04_ether_OSS2443_centre.jpg",
+      "sha256": "875ce9305bb9a6415acf5d2c054b09b0300bd878c1ff3f45ed1168ca0e11d05b",
+      "octets": 324869
+    },
+    {
+      "chemin": "01_lots/villes_1-8/2026-10-04_ether_OSS2443_nord.jpg",
+      "sha256": "01923a1929159be7520637aad4e3c8e4bf561adf895faf4d6eb7f00f47ca9bb7",
+      "octets": 304298
+    },
+    {
+      "chemin": "01_lots/villes_1-8/2026-10-04_ether_OSS2443_sud.jpg",
+      "sha256": "4e6cf02a10ccfdf07b41edd1a1843cb3a31bdda885319020131e42eab71ad0ff",
+      "octets": 388861
+    },
+    {
+      "chemin": "01_lots/villes_1-8/2026-10-04_ether_OSS2443_vue.jpg",
+      "sha256": "a1df4baa5966ce122bddcd3252cc952cd8988c29b6f283abd51be94f0fc976af",
+      "octets": 381296
+    },
+    {
+      "chemin": "01_lots/villes_1-8/2026-10-04_ether_OSS3840_vue.jpg",
+      "sha256": "6a2bb6ceed93a2eec90888c7fdee5d3cf20f8e0664859081623ec44105dceecf",
+      "octets": 391776
+    },
+    {
+      "chemin": "01_lots/villes_1-8/2026-10-04_ether_OSS5505_legende.png",
+      "sha256": "c849adfe5f019de684ecaf7c62cf574a726875c7bc19885984389007984b0821",
+      "octets": 106210
+    },
+    {
+      "chemin": "01_lots/villes_1-8/2026-10-04_ether_OSS5505_macedoine.png",
+      "sha256": "cc87fa1a6e1b7aa2c8aafc5e5511803f641395588845530127c66109fd3f2798",
+      "octets": 163885
+    },
+    {
+      "chemin": "01_lots/villes_1-8/2026-10-04_ether_OSS5505_peloponnese_attique.png",
+      "sha256": "2c3e8a7bc4ad6fa5d35ad854efc7fc670bcc6b2a0ec1b62b42907d8a28d32a75",
+      "octets": 141455
+    },
+    {
+      "chemin": "01_lots/villes_1-8/2026-10-04_ether_OSS5505_thessalie.png",
+      "sha256": "8f13e1507b1aeb1b21a6e96c8d04a63d960e9b284c10898d8529434da38ee0a4",
+      "octets": 139841
+    },
+    {
+      "chemin": "01_lots/villes_1-8/2026-10-04_ether_OSS5505_thrace.png",
+      "sha256": "36d6fe0e30dbaf3988c2b3e2c5e491ae94c00cf7ae18d0fb590b4d7ad72bd624",
+      "octets": 156966
+    },
+    {
+      "chemin": "01_lots/villes_1-8/2026-10-04_ether_OSS_cg501zv0179_1.jpg",
+      "sha256": "3f3a407303dd275120f0f2e4ebcd7d1a50a788e5af2baa1fc50943f90b0e04ca",
+      "octets": 3508289
+    },
+    {
+      "chemin": "01_lots/villes_1-8/2026-10-04_ether_OSS_cg501zv0179_manifest.json",
+      "sha256": "0aa3c459e2b87ce37864eeb3dd84cdc2ca448a7f754a87a7da8a8d133afa7a2c",
+      "octets": 5276
+    },
+    {
+      "chemin": "01_lots/villes_1-8/2026-10-04_ether_OSS_ck156mr7841_1.jpg",
+      "sha256": "97827162e3055596e60af6e40e545cd1432abddbeae5f5eb713e3e3ea6b02f29",
+      "octets": 4129692
+    },
+    {
+      "chemin": "01_lots/villes_1-8/2026-10-04_ether_OSS_ck156mr7841_manifest.json",
+      "sha256": "b248d5c6effc1f0b3e4461db067d315e67673fef2ba69a927535d7a226b33c3a",
+      "octets": 4523
+    },
+    {
+      "chemin": "01_lots/villes_1-8/2026-10-04_ether_OSS_ck156mr7841_vue.jpg",
+      "sha256": "362bf284c75fcda8562cc4e897be16159f709a39a7b935271cbc0190a5dfcdaa",
+      "octets": 278074
+    },
+    {
+      "chemin": "01_lots/villes_1-8/2026-10-04_ether_OSS_cq765sj1121_1.jpg",
+      "sha256": "45914c9f34198dadc5d927ae2f6598911d2516db10282c77b4ce2db33d52cb81",
+      "octets": 7673178
+    },
+    {
+      "chemin": "01_lots/villes_1-8/2026-10-04_ether_OSS_cq765sj1121_manifest.json",
+      "sha256": "892b777cb674e2a89b6618b7e9158c28cd938f73a5000dc6dc055d1f7a06378f",
+      "octets": 4582
+    },
+    {
+      "chemin": "01_lots/villes_1-8/2026-10-04_ether_OSS_cq765sj1121_vue.jpg",
+      "sha256": "262cd39cce265c454d9c0d36e08030d7725ae15a92086f6f1128f907c3dfbfc6",
+      "octets": 380683
+    },
+    {
+      "chemin": "01_lots/villes_1-8/2026-10-04_ether_OSS_jm057qw0671_1.jpg",
+      "sha256": "6a5bc9c2fdf6e1b85fa8ebea449b2fc5f73ca1a04b17f55e69b944129532ba92",
+      "octets": 18886508
+    },
+    {
+      "chemin": "01_lots/villes_1-8/2026-10-04_ether_OSS_jm057qw0671_manifest.json",
+      "sha256": "33b0eb777c737616856bc59dec99c7417e421b2122c6c3c7ae1dc24e9a5e80f4",
+      "octets": 4533
+    },
+    {
+      "chemin": "01_lots/villes_1-8/2026-10-04_ether_OSS_jm057qw0671_vue.jpg",
+      "sha256": "ae6a01ea1c3aa2ff09ba48023969094df081e924cf1bd6b2d14d47afe7afa288",
+      "octets": 436032
+    },
+    {
+      "chemin": "01_lots/villes_1-8/2026-10-04_ether_OSS_sh018fq0460_1.jpg",
+      "sha256": "23d423f1f6bed084a6629766475dc8248018b8799bdcdba6dacd395129c2cdab",
+      "octets": 4725978
+    },
+    {
+      "chemin": "01_lots/villes_1-8/2026-10-04_ether_OSS_sh018fq0460_manifest.json",
+      "sha256": "5f5018830877a549a6e0b0ed1368619811ac8fc72ae248a8be15334c146b78e0",
+      "octets": 5185
+    },
+    {
+      "chemin": "01_lots/villes_1-8/2026-10-04_ether_OSS_sr683wd2997_1.jpg",
+      "sha256": "9e6535dd3bb8785469b437a682057d25f6cd6b1a365ae971ad8005a6abd1ed79",
+      "octets": 11147992
+    },
+    {
+      "chemin": "01_lots/villes_1-8/2026-10-04_ether_OSS_sr683wd2997_manifest.json",
+      "sha256": "abc5b5600c7af5c0d5cdcbf7cf3f269ed63b07ef0fd0eb1e90f12bc992e75234",
+      "octets": 4681
+    },
+    {
+      "chemin": "01_lots/villes_1-8/2026-10-04_ether_positions_wikidata.json",
+      "sha256": "a60ddc265c6960ecfcb9f16b38cbd80ffc0630997d51f3a0291970f8948f63db",
+      "octets": 394217
+    },
+    {
+      "chemin": "01_lots/villes_1-8/2026-10-04_ether_pour_claude_cycle1.md",
+      "sha256": "650f377612bffc3ef74f506ff0ecdd6dd2445b6f6b0ddf0305dc9647ab4f218d",
+      "octets": 4332
+    },
+    {
+      "chemin": "01_lots/villes_1-8/2026-10-04_ether_precontrole.json",
+      "sha256": "633ee43ff9105c2f049316b7f8fa0b382001281374d47f3bd7fcb2c50843a9b3",
+      "octets": 142
+    },
+    {
+      "chemin": "01_lots/villes_1-8/2026-10-04_ether_reserves_revue_finale.json",
+      "sha256": "8bc581cee18c44795264520168bf91982e55ae7bdf089a08d9d2ad1dc62a90dd",
+      "octets": 65071
+    },
+    {
+      "chemin": "01_lots/villes_1-8/2026-10-04_ether_reserves_revue_finale.md",
+      "sha256": "14379b4df016275ed2dd2556df5754b9789d0713da6f7b20a4913eb00aa88d3c",
+      "octets": 33924
+    },
+    {
+      "chemin": "01_lots/villes_1-8/2026-10-04_ether_selection.json",
+      "sha256": "050c98af87beb1e5ac92ab436e3c68cbc59afeb32f5ace06ad90597236388779",
+      "octets": 300008
+    },
+    {
+      "chemin": "01_lots/villes_1-8/2026-10-04_ether_WD_choix.json",
+      "sha256": "24f0620ddcec181986636fcd20ab35ded89752609818a0a5ae2da62a4468fa63",
+      "octets": 1543563
+    },
+    {
+      "chemin": "01_lots/villes_1-8/2026-10-04_ether_WD_entities_test.json",
+      "sha256": "2e03ececf6ee3e265dbafcc74a63c72955911f634b64a9ba45c44cb6c345baad",
+      "octets": 1278735
+    },
+    {
+      "chemin": "01_lots/villes_1-8/2026-10-04_ether_WD_groupe_0.json",
+      "sha256": "24d25e8ef5b6923a9db7d3df8610bca83ec13fed60d926129f7f53107cdff61a",
+      "octets": 4845161
+    },
+    {
+      "chemin": "01_lots/villes_1-8/2026-10-04_ether_WD_groupe_100.json",
+      "sha256": "5fcda2370ad934a34f411ca95e15a99fe92c8712c296c245a1ba985d9c3314b8",
+      "octets": 1171650
+    },
+    {
+      "chemin": "01_lots/villes_1-8/2026-10-04_ether_WD_groupe_120.json",
+      "sha256": "6bbab08a474781a0cf29fcdc72b6af1d7a06d66b38a409201138074960c07bee",
+      "octets": 2954735
+    },
+    {
+      "chemin": "01_lots/villes_1-8/2026-10-04_ether_WD_groupe_140.json",
+      "sha256": "37059644d1ac3f59edab92c1ac86c0fa6e2ee0db1fb15b95b88213bb260c3bfd",
+      "octets": 1214868
+    },
+    {
+      "chemin": "01_lots/villes_1-8/2026-10-04_ether_WD_groupe_160.json",
+      "sha256": "2886b43972456c12ef5282fdb4abb91b2bb5006bcf42ca8c63b14a930b1e7a2a",
+      "octets": 4264086
+    },
+    {
+      "chemin": "01_lots/villes_1-8/2026-10-04_ether_WD_groupe_180.json",
+      "sha256": "d8cc13f95f3aa5c397dc56569d32b40032ec3460a0b37647f805f1877174a482",
+      "octets": 2656216
+    },
+    {
+      "chemin": "01_lots/villes_1-8/2026-10-04_ether_WD_groupe_20.json",
+      "sha256": "dab8b8d450c04f41fd6729531fe3852d38ea78ddfd14e85253a67d8024291e04",
+      "octets": 3852812
+    },
+    {
+      "chemin": "01_lots/villes_1-8/2026-10-04_ether_WD_groupe_200.json",
+      "sha256": "d12228c22b2cded045a9d1c7e8aa1b99e0bae75d80dc91364bb3ab4a822eb06c",
+      "octets": 1940806
+    },
+    {
+      "chemin": "01_lots/villes_1-8/2026-10-04_ether_WD_groupe_220.json",
+      "sha256": "ab636a841c17d122ae73d1647d1d20fd944e280d74aa0854245e9bdb4dd38872",
+      "octets": 4151833
+    },
+    {
+      "chemin": "01_lots/villes_1-8/2026-10-04_ether_WD_groupe_240.json",
+      "sha256": "85c52c03a611270584dfa945ed188fbfb2f439fd000cd1df39bc668f0cafda66",
+      "octets": 4085612
+    },
+    {
+      "chemin": "01_lots/villes_1-8/2026-10-04_ether_WD_groupe_260.json",
+      "sha256": "2d13fe55fbd6eea5fa037feda80ae8447b7956db667b46d3faa9d36f9cc22b65",
+      "octets": 3132839
+    },
+    {
+      "chemin": "01_lots/villes_1-8/2026-10-04_ether_WD_groupe_280.json",
+      "sha256": "6209263efe515acd37eecc188df03d2cb0d22ad9795a79188df45656770fdc26",
+      "octets": 3178594
+    },
+    {
+      "chemin": "01_lots/villes_1-8/2026-10-04_ether_WD_groupe_300.json",
+      "sha256": "b531d86365233ac7ea4a5dbccb68b75a84916b1516afd5f46d18c24b47701b47",
+      "octets": 2776512
+    },
+    {
+      "chemin": "01_lots/villes_1-8/2026-10-04_ether_WD_groupe_320.json",
+      "sha256": "3647c7be82474caec61a0bc94f110a7beb6fbe2ea823cdce7abc4da23755b233",
+      "octets": 3640678
+    },
+    {
+      "chemin": "01_lots/villes_1-8/2026-10-04_ether_WD_groupe_340.json",
+      "sha256": "6dbeab8120dc3710e190995a754babe38a11696451223ce4aba6155d5408fff7",
+      "octets": 2425686
+    },
+    {
+      "chemin": "01_lots/villes_1-8/2026-10-04_ether_WD_groupe_360.json",
+      "sha256": "96f37836a1dd9004a3ba4108a66f40ef8f3cffb7fe30113bc23b987a14c0a7eb",
+      "octets": 2378579
+    },
+    {
+      "chemin": "01_lots/villes_1-8/2026-10-04_ether_WD_groupe_40.json",
+      "sha256": "b5f9d8c74ffe92d945ad02855f89aaad5c17d032b914dc8efb4501425c3bbd4e",
+      "octets": 4260158
+    },
+    {
+      "chemin": "01_lots/villes_1-8/2026-10-04_ether_WD_groupe_60.json",
+      "sha256": "04856ce595da5159ca0d0b7e67b50af1ad91ee886f3a616bd6a9d6d9b64794c4",
+      "octets": 3189144
+    },
+    {
+      "chemin": "01_lots/villes_1-8/2026-10-04_ether_WD_groupe_80.json",
+      "sha256": "cbe39972e547018c421830ded24c1403ab385fff67fa92615f68a0dd99cd3514",
+      "octets": 604075
+    },
+    {
+      "chemin": "01_lots/villes_1-8/2026-10-04_ether_WD_precis_0.json",
+      "sha256": "9f3f73599e1d5f32cf7d79202b939d4a1c0cece6eecb0475c794d37cea384ce5",
+      "octets": 2026311
+    },
+    {
+      "chemin": "01_lots/villes_1-8/2026-10-04_ether_WD_precis_20.json",
+      "sha256": "0a7b65094ceb5e661a55ddb76eb92bf46be04afe88d365b6636ae95da4172afb",
+      "octets": 1309304
+    },
+    {
+      "chemin": "01_lots/villes_1-8/2026-10-04_ether_WD_precis_40.json",
+      "sha256": "63b2fcc7c38a9c4058fdd49e2c56efe50d3805ae4e37a3e0d4d70855c62cccd7",
+      "octets": 1670557
+    },
+    {
+      "chemin": "01_lots/villes_1-8/2026-10-04_ether_WD_precis_60.json",
+      "sha256": "99b36ae7126b56d5bb914fc196d9d40d59877e62cfb93e6b5d660674ba54f96f",
+      "octets": 3075401
+    },
+    {
+      "chemin": "01_lots/villes_1-8/2026-10-04_ether_WD_precis_80.json",
+      "sha256": "fc67f3797ed3897cba2724ed1190315909b87be412e3241ac4b44b39b590ac12",
+      "octets": 1935060
+    },
+    {
+      "chemin": "01_lots/villes_1-8/2026-10-04_ether_WD_recherche_ville-it-bari.json",
+      "sha256": "4fb7fdd614f9cdd7773636e0dccf2f5cb347742a354a7a1897542f1234ea7f5a",
+      "octets": 3264
+    },
+    {
+      "chemin": "01_lots/villes_1-8/2026-10-04_ether_WD_recherche_ville-it-barletta.json",
+      "sha256": "fb173b4374f719f6052168b2c5cd0a64f993d06a8662c5b3788c2703d6683f5b",
+      "octets": 3387
+    },
+    {
+      "chemin": "01_lots/villes_1-8/2026-10-04_ether_WD_recherche_ville-it-brindisi.json",
+      "sha256": "d3504041b7089eef8c42c82ce5c774a2ea078eb85c818ac7b0476b2a141364e9",
+      "octets": 3534
+    },
+    {
+      "chemin": "01_lots/villes_1-8/2026-10-04_ether_WD_recherche_ville-it-foggia.json",
+      "sha256": "2825b10e57d59bd40e66d93ef89a14fd937d47a9e7dc7372ee1771030c9d8c49",
+      "octets": 3224
+    },
+    {
+      "chemin": "01_lots/villes_1-8/2026-10-04_ether_WD_recherche_ville-it-lecce.json",
+      "sha256": "8154d6e23f0b704d0df73efd2ec163c7e4e1e66d462e5b9ce5c9bdefcefd0618",
+      "octets": 3310
+    },
+    {
+      "chemin": "01_lots/villes_1-8/2026-10-04_ether_WD_recherche_ville-it-naples.json",
+      "sha256": "9e3d73ed3eb7190cd9ca94fc3d41ff0bb24162ce01fac597861c3224c2a3237b",
+      "octets": 3249
+    },
+    {
+      "chemin": "01_lots/villes_1-8/2026-10-04_ether_WD_recherche_ville-it-reggio-calabre.json",
+      "sha256": "0f50d76d1dd45dcb4e4f38c628a0ac9c3c81fa50516c4d371ff7cc6995547a5d",
+      "octets": 1908
+    },
+    {
+      "chemin": "01_lots/villes_1-8/2026-10-04_ether_WD_recherche_ville-it-salerne.json",
+      "sha256": "863aceebb3729e84922e6ecb81520a155b8293da8343bfcb025f33ac579145e1",
+      "octets": 3232
+    },
+    {
+      "chemin": "01_lots/villes_1-8/2026-10-04_ether_WD_recherche_ville-it-san-severo.json",
+      "sha256": "8868904f5a24717eb427a2e5c31a5b8dad8280b42bec108ca2260583ed149f6d",
+      "octets": 3338
+    },
+    {
+      "chemin": "01_lots/villes_1-8/2026-10-04_ether_WD_recherche_ville-it-tarente.json",
+      "sha256": "45b4a43e8182476ad4df1a4d210042fa19ef0e695902b959f95345dff3d4ec99",
+      "octets": 3300
+    },
+    {
+      "chemin": "01_lots/villes_1-8/2026-10-04_ether_WD_search_0.json",
+      "sha256": "269b68086fae8f6b017fc4e080748bc93e7c87ccc3d4ff92550435f6d10defe2",
+      "octets": 4657
+    },
+    {
+      "chemin": "01_lots/villes_1-8/2026-10-04_ether_WD_search_1.json",
+      "sha256": "fd2522f0b4b4b2beee0930a93c8d34e0ddc0e56adb0ac04c926daccd2389374a",
+      "octets": 4887
+    },
+    {
+      "chemin": "01_lots/villes_1-8/2026-10-04_ether_WD_search_10.json",
+      "sha256": "e4d638a06e2d01f9495e15a89d6ad9788ba9b222a455dd7fe4c77bd4fda74165",
+      "octets": 4697
+    },
+    {
+      "chemin": "01_lots/villes_1-8/2026-10-04_ether_WD_search_11.json",
+      "sha256": "af737b7ed8324c52801fc6533d7c3a269442136f6e1f7aa00a02b8438607634d",
+      "octets": 5002
+    },
+    {
+      "chemin": "01_lots/villes_1-8/2026-10-04_ether_WD_search_12.json",
+      "sha256": "f721fcb9ea623770a512d4f4ff3ad681bd1c53faada8ad8d8409edde69264558",
+      "octets": 5137
+    },
+    {
+      "chemin": "01_lots/villes_1-8/2026-10-04_ether_WD_search_13.json",
+      "sha256": "924ee310b1e6042512704795cc5fb5f7fe9ee2eb94f7fe1ec90150c427991685",
+      "octets": 4210
+    },
+    {
+      "chemin": "01_lots/villes_1-8/2026-10-04_ether_WD_search_2.json",
+      "sha256": "f7012c9609044f92b53eeefeac8f31e3a234926bf5dc5cc5238c93e7b044b35e",
+      "octets": 5021
+    },
+    {
+      "chemin": "01_lots/villes_1-8/2026-10-04_ether_WD_search_3.json",
+      "sha256": "ef13a0eba5e6d503cc8545dfede3c218fea707d8f9abdb3648dd0c3473c68d44",
+      "octets": 4960
+    },
+    {
+      "chemin": "01_lots/villes_1-8/2026-10-04_ether_WD_search_4.json",
+      "sha256": "aa24cfd3415a4eded6f55e1c771d35124a2c94a990c1611ea2626fa10d0ae09c",
+      "octets": 4774
+    },
+    {
+      "chemin": "01_lots/villes_1-8/2026-10-04_ether_WD_search_5.json",
+      "sha256": "fb4740cd7ba7326437b2013a219708c72563265bba2b5970cd00d7ba31d7a220",
+      "octets": 2188
+    },
+    {
+      "chemin": "01_lots/villes_1-8/2026-10-04_ether_WD_search_6.json",
+      "sha256": "eeae9fa1787b49d6c8c63a30c6139b59c6b26f21b95bade0180282bbe5f07440",
+      "octets": 5454
+    },
+    {
+      "chemin": "01_lots/villes_1-8/2026-10-04_ether_WD_search_7.json",
+      "sha256": "a54feba7a50ff8ec88f12a081172b86867c3f24878cfdda3d3e99af95ce1f24e",
+      "octets": 3285
+    },
+    {
+      "chemin": "01_lots/villes_1-8/2026-10-04_ether_WD_search_8.json",
+      "sha256": "5c1b38a2ec7782b9175f97d3012806edc17ac6173ea82391ae02b403317254a3",
+      "octets": 2559
+    },
+    {
+      "chemin": "01_lots/villes_1-8/2026-10-04_ether_WD_search_9.json",
+      "sha256": "473ddeeb4c7e08567f18286f1bf115d25d97892b10755be7f2d8753fdd8937d6",
+      "octets": 4974
+    },
+    {
+      "chemin": "01_lots/villes_1-8/2026-10-04_ether_WD_titres_precises.json",
+      "sha256": "27f1b5430dfaf124ac892d9403794d3354d57fe72a2248c10bcd256410a5c537",
+      "octets": 3594
+    },
+    {
+      "chemin": "01_lots/villes_1-8/2026-10-04_ether_wikidata_controle_preparatoire.json",
+      "sha256": "f474d84bc289cbba090d83f2ce7810a1d779aa9d3f43569afda6b3ebbd9cec83",
+      "octets": 283453
+    }
+  ]
+}

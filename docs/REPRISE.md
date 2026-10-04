@@ -42,11 +42,10 @@ Pas de contact direct entre Claude et Ether : tout passe par le dossier d'échan
 ## 5. État (mis à jour à chaque lot)
 
 - **Frontières** : lots 01 à 04 intégrés (74 territoires, 4 lignes de front).
-- **Villes** : 1.0 à 1.7 intégrés, **945 villes** (1.7 Caucase et Turquie : 166 villes, intégré le 04/10). Lots 1.3 et 1.4 : en attente de la revue finale des réserves.
-- **Dernière intégration (04/10)** : réponses 1.5 (cycle 3), réponses 1.6 (cycle 2) et lot 1.7 ; nouvelles questions Q17-01 (sites turcs illisibles) et Q17-02 (pages du répertoire de 1940).
-- **Ether** : ratissage relancé le 04/10 (crédit rechargé par Guizmo) : suite Balkans-Grèce-Italie, puis Ibérie. Financement : réveil quotidien.
-- **Sources** : registre v1.22, 758 sources ; 267 à valider par Guizmo. Page « Sources à valider » : sur claude.ai, ou `00_SOURCES_A_VALIDER.html` dans le dossier d'échange (choix, autres liens, captures ; bouton 💾 qui enregistre `decisions_sources_guizmo.json` dans le dossier Atlas).
-- **Sources à valider : 40 importantes** (changent la carte), les autres facultatives ; proposition : Ether dépose une capture du passage des importantes, Claude la lit.
+- **Villes** : 1.0 à 1.8 intégrés, **1 306 villes** (1.8 Balkans, Grèce et Italie : 361 villes, intégré le 04/10 au soir). Lots 1.3 à 1.6 : 3 cycles faits, en attente de la revue finale des réserves.
+- **Dernière intégration (04/10, nuit)** : réponses 1.6 (cycle 3) et 1.7 (cycle 2), puis lot 1.8 ; 5 cartes OSS de 1942-1944 lues par Claude sur les images d'Ether ; nouvelles questions Q18-01 (13 sources illisibles pour l'outil) et Q18-02 (lectures partielles).
+- **Ether** : prochaine remise = réponses au 1.7 (cycle 3) et au 1.8 (cycle 2) + un seul nouveau lot 1.9 (Ibérie et marges, selon sa couverture). Financement : réveil quotidien.
+- **Sources** : registre v1.25, 825 sources ; 288 à valider par Guizmo, dont **164 importantes** (changent la carte ; le tri oubliait les lots 1.5 à 1.8 jusqu'au 04/10). Page « Sources à valider » : sur claude.ai, ou `00_SOURCES_A_VALIDER.html` dans le dossier d'échange (choix, autres liens, captures ; bouton 💾 qui enregistre `decisions_sources_guizmo.json` dans le dossier Atlas).
 - **Couches suivantes prévues** (une par une, chacune avec feu vert) : routes, rail, maritime, douanes, plaques d'immatriculation, anecdotes sur les flux, migrations ; puis janvier 1945.
-- **Réserves pour la revue finale** : 153 points (avec le 1.7) dans `00_RESERVES_A_TRANCHER.md`.
-- **Reste de la série 1.x** : Balkans-Grèce-Italie, puis Ibérie et marges (Ether a repris le 04/10), puis **audit final** : cohérence de toute la série et **fiche de lecture en français de chaque source** (ce qu'elle dit, où le lire, facilitateur de traduction selon page web / PDF / image ; pas de traduction complète). Puis revue des réserves avec Guizmo, puis feu vert pour la couche suivante.
+- **Réserves pour la revue finale** : 225 points (avec le 1.8) dans `00_RESERVES_A_TRANCHER.md`.
+- **Reste de la série 1.x** : Ibérie et marges (1.9), puis **audit final** : cohérence de toute la série et **fiche de lecture en français de chaque source** (ce qu'elle dit, où le lire, facilitateur de traduction selon page web / PDF / image ; pas de traduction complète). Puis revue des réserves avec Guizmo, puis feu vert pour la couche suivante.

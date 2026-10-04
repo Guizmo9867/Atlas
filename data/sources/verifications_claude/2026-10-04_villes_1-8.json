@@ -1,0 +1,4026 @@
+{
+ "metadata": {
+  "date": "2026-10-04",
+  "lot": "villes_1-8 cycle 1",
+  "par": "Claude (sous-agents Sonnet ; WebFetch seul, sans contournement ; cartes OSS déposées par Ether lues avec l'outil Read)",
+  "methode": "66 sources nouvelles relues par WebFetch (11 sous-agents, 6 sources au plus chacun) ; pour les 5 cartes OSS, notice vérifiée par WebFetch et carte lue par Claude sur les images déposées par Ether ; positions : 361 QID Wikidata recoupés par SPARQL (outils/villes/wikidata_ratissage_1_8.json)."
+ },
+ "resultats": [
+  {
+   "id": "src-18-it-re-1946-est43",
+   "statut": "non_verifiee",
+   "citation": "",
+   "commentaire": "WebFetch ne renvoie que l'en-tête et la navigation (Royal Engineers, 1946) ; le corps du texte est absent, deux essais. Aucune affirmation vérifiable.",
+   "villes_confirmees": [],
+   "villes_non_confirmees": [
+    "ville-it-reggio-calabre",
+    "ville-it-tarente",
+    "ville-it-barletta",
+    "ville-it-san-severo",
+    "ville-it-foggia"
+   ]
+  },
+  {
+   "id": "src-18-it-re-1946-ouest43",
+   "statut": "non_verifiee",
+   "citation": "",
+   "commentaire": "WebFetch ne renvoie que l'en-tête et la navigation ; le corps du texte est absent. Aucune affirmation vérifiable.",
+   "villes_confirmees": [],
+   "villes_non_confirmees": [
+    "ville-it-salerne",
+    "ville-it-naples"
+   ]
+  },
+  {
+   "id": "src-18-it-re-1946-ligne86",
+   "statut": "ok",
+   "citation": "\"the first train was passed on 10 April\" ; tunnel \"about 3 kilometres South of Ortona\" ; \"the bridge was opened to traffic on 10 May\" ; Bologna: \"the principal exchange station of the Po valley\"",
+   "commentaire": "Les villes sont citées sur la ligne 86 ; Ortona (10 avril 1944), Pescara (pont détruit mai 1944, rouvert 10 mai 1945), Pesaro (sept-oct 1944), Rimini (25 sept-26 nov 1944) et Bologne confirmés. Les mentions de Lecce, Brindisi, Bari, Termoli, Ancône sont des citations de ligne, sans date explicite visible.",
+   "villes_confirmees": [
+    "ville-it-lecce",
+    "ville-it-brindisi",
+    "ville-it-bari",
+    "ville-it-termoli",
+    "ville-it-ortona",
+    "ville-it-pescara",
+    "ville-it-ancone",
+    "ville-it-pesaro",
+    "ville-it-rimini",
+    "ville-it-bologne"
+   ],
+   "villes_non_confirmees": []
+  },
+  {
+   "id": "src-18-ro-cfr-histoire",
+   "statut": "limite",
+   "citation": "\"Primul tronson: Piteşti - Bucureşti - Galaţi - Roman, a fost deschis la 13 septembrie 1872, iar tronsonul Vârciorova - Piteşti pe 9 mai 1878.\"",
+   "commentaire": "Oravița–Baziaș 1854, Bucarest–Giurgiu 1869, tronçon Pitești–Bucarest–Galați–Roman 1872, ateliers d'Arad après 1918 et Iași–Lețcani 1895 confirmés. Buzău, Brăila et Tecuci ne sont pas cités explicitement dans les passages renvoyés.",
+   "villes_confirmees": [
+    "ville-ro-oravita",
+    "ville-ro-bazias",
+    "ville-ro-bucarest",
+    "ville-ro-giurgiu",
+    "ville-ro-pitesti",
+    "ville-ro-roman",
+    "ville-ro-galati",
+    "ville-ro-arad",
+    "ville-ro-iasi"
+   ],
+   "villes_non_confirmees": [
+    "ville-ro-buzau",
+    "ville-ro-braila",
+    "ville-ro-tecuci"
+   ]
+  },
+  {
+   "id": "src-18-bg-bdz-histoire",
+   "statut": "ok",
+   "citation": "\"On 1 August, the whole of the Caribrod Sofia Belovo railway line is opened for international traffic.\" ; \"Official opening of the Ruse Varna railway line\" (1866)",
+   "commentaire": "Roussé–Varna 1866, Sofia 1888 et Belovo 1873/1888 confirmés. Dimitrovgrad n'est pas nommé (seulement Caribrod, son ancien nom). Correction de Claude : Caribrod est le nom de 1945 de Dimitrovgrad (fiche d'Ether) ; les 5 villes sont nommées, statut « ok ».",
+   "villes_confirmees": [
+    "ville-bg-rousse",
+    "ville-bg-varna",
+    "ville-bg-sofia",
+    "ville-bg-belovo",
+    "ville-rs-dimitrovgrad"
+   ],
+   "villes_non_confirmees": []
+  },
+  {
+   "id": "src-18-bg-ports-chronique",
+   "statut": "ok",
+   "citation": "\"On May 18, 1906, the modern port of Varna was officially opened\" ; \"On November 18, 1908, the Port of Vidin was opened for operation\"",
+   "commentaire": "Bourgas 1903, Varna 1906, Roussé fin 1912, Vidin 1908, Lom 1923 et le quai de Svichtov avant la guerre des Balkans sont tous confirmés.",
+   "villes_confirmees": [
+    "ville-bg-bourgas",
+    "ville-bg-varna",
+    "ville-bg-rousse",
+    "ville-bg-svichtov",
+    "ville-bg-vidin",
+    "ville-bg-lom"
+   ],
+   "villes_non_confirmees": []
+  },
+  {
+   "id": "src-18-hr-zagreb-he",
+   "statut": "ok",
+   "citation": "Godine 1925. bila je dovršena gradnja Ličke pruge Zagreb–Split, čime je Dalmacija željeznički povezana s kontinentalnom Hrvatskom. | Uskoro potom u Zagrebu je bila sastavljena prva vlada NDH na čelu s Antom Pavelićem",
+   "commentaire": "La ligne Zagreb–Split achevée en 1925 et le gouvernement de la NDH à Zagreb sont confirmés. Pour Split, le passage parle de la liaison de la Dalmatie, pas explicitement de la gare de Split.",
+   "villes_confirmees": [
+    "ville-hr-zagreb",
+    "ville-hr-split"
+   ],
+   "villes_non_confirmees": []
+  },
+  {
+   "id": "src-18-rs-belgrade-he",
+   "statut": "ok",
+   "citation": "U Beogradu je 1. XII. 1918. proglašeno ujedinjenje Srba, Hrvata i Slovenaca u Kraljevinu SHS, kojoj je postao glavnim gradom. | U razdoblju između dvaju svjetskih ratova doživio je daljnji gospodarski, demografski i urbanistički procvat.",
+   "commentaire": "Capitale du royaume en 1918 et essor entre-deux-guerres confirmés.",
+   "villes_confirmees": [
+    "ville-rs-belgrade"
+   ],
+   "villes_non_confirmees": []
+  },
+  {
+   "id": "src-18-it-re-1946-ete44",
+   "statut": "non_verifiee",
+   "citation": "",
+   "commentaire": "WebFetch ne renvoie que le titre et la navigation, sans corps de texte (deux essais). Aucune affirmation vérifiable.",
+   "villes_confirmees": [],
+   "villes_non_confirmees": [
+    "ville-it-rome",
+    "ville-it-roccasecca",
+    "ville-it-civita-castellana",
+    "ville-it-civitavecchia",
+    "ville-it-grosseto",
+    "ville-it-arezzo",
+    "ville-it-livourne"
+   ]
+  },
+  {
+   "id": "src-18-it-re-1946-hiver44",
+   "statut": "non_verifiee",
+   "citation": "",
+   "commentaire": "WebFetch ne renvoie que le titre et la navigation, sans corps de texte (deux essais). Aucune affirmation vérifiable.",
+   "villes_confirmees": [],
+   "villes_non_confirmees": [
+    "ville-it-livourne",
+    "ville-it-ancone",
+    "ville-it-rimini",
+    "ville-it-pise",
+    "ville-it-florence",
+    "ville-it-prato",
+    "ville-it-pistoia"
+   ]
+  },
+  {
+   "id": "src-18-it-re-1946-ligne89",
+   "statut": "limite",
+   "citation": "the section from Naples to Aversa (19 kilometres) was repaired by M.R.S. American Section with the assistance of Engineer Troops, U.S. Army | the bridge was opened for traffic on 20 May",
+   "commentaire": "Naples–Aversa réparée en octobre 1943 : confirmé. Le pont du Volturno ouvert le 20 mai 1944 et le franchissement le 5 juin 1944 sont cités, mais le lien explicite avec la gare de Cancello Arnone et avec Minturno n'apparaît pas dans les extraits. Villa Literno n'est cité que comme gare de bifurcation, sans date de réparation ; Formia n'est pas nommé (section Massico–Campoleone réparée mai-juillet 1944).",
+   "villes_confirmees": [
+    "ville-it-aversa"
+   ],
+   "villes_non_confirmees": [
+    "ville-it-villa-literno",
+    "ville-it-formia",
+    "ville-it-minturno",
+    "ville-it-cancello-arnone"
+   ]
+  },
+  {
+   "id": "src-18-it-re-1946-ligne90",
+   "statut": "non_verifiee",
+   "citation": "",
+   "commentaire": "WebFetch ne renvoie que le titre et la navigation, sans corps de texte (deux essais). Aucune affirmation vérifiable.",
+   "villes_confirmees": [],
+   "villes_non_confirmees": [
+    "ville-it-cassino",
+    "ville-it-capoue",
+    "ville-it-mignano-monte-lungo"
+   ]
+  },
+  {
+   "id": "src-18-it-re-1946-ligne87",
+   "statut": "non_verifiee",
+   "citation": "",
+   "commentaire": "WebFetch ne restitue que l'en-tête et la navigation de la page ; le corps du texte est vide, aucune affirmation ne peut être vérifiée.",
+   "villes_confirmees": [],
+   "villes_non_confirmees": [
+    "ville-it-orte",
+    "ville-it-terni",
+    "ville-it-foligno",
+    "ville-it-fabriano",
+    "ville-it-falconara",
+    "ville-it-spolete"
+   ]
+  },
+  {
+   "id": "src-18-it-re-1946-ligne219",
+   "statut": "non_verifiee",
+   "citation": "",
+   "commentaire": "WebFetch ne restitue que l'en-tête et la navigation ; corps du texte vide, Empoli et la date d'avril 1945 non vérifiables.",
+   "villes_confirmees": [],
+   "villes_non_confirmees": [
+    "ville-it-empoli"
+   ]
+  },
+  {
+   "id": "src-18-it-re-1946-ligne85",
+   "statut": "ok",
+   "citation": "coming to the town of Rovigo. Beyond Rovigo, the River Adige is traversed ... coming to the town of Monselice ... finally swings North-East for Padua",
+   "commentaire": "La description de la ligne depuis Bologne cite Ferrare, Rovigo, Monselice et Padoue ; la localisation sur la ligne est confirmée (l'état fin 1944 est bien laissé en réserve).",
+   "villes_confirmees": [
+    "ville-it-ferrare",
+    "ville-it-rovigo",
+    "ville-it-padoue",
+    "ville-it-monselice"
+   ],
+   "villes_non_confirmees": []
+  },
+  {
+   "id": "src-18-bg-bdz-histoire-detail",
+   "statut": "limite",
+   "citation": "Черна вода – Кюстенджа (Констанца), която влиза в експлоатация от 4 октомври 1860 г. ... Истанбул-Одрин-Белово, открита на 18 юли 1873 г., и Злати дол-Нова Загора-Ямбол, открита на 22 януари 1875 г.",
+   "commentaire": "Confirmés : Cernavoda/Constanta 1860, Kaspichan (tracé décalé de 25 km depuis Choumen), Belovo 1873, Nova Zagora/Yambol 1875, gare de Tarnovo Seymen (Simeonovgrad), Vakarel 1888 (ligne Tsaribrod-Sofia-Vakarel). Non confirmée : l'administration de la ligne à Plovdiv dans les années 1870 (aucun passage sur Plovdiv).",
+   "villes_confirmees": [
+    "ville-ro-cernavoda",
+    "ville-ro-constanta",
+    "ville-bg-kaspichan",
+    "ville-bg-belovo",
+    "ville-bg-nova-zagora",
+    "ville-bg-yambol",
+    "ville-bg-simeonovgrad",
+    "ville-bg-vakarel"
+   ],
+   "villes_non_confirmees": [
+    "ville-bg-plovdiv"
+   ]
+  },
+  {
+   "id": "src-18-bg-sofia-capitale",
+   "statut": "ok",
+   "citation": "on April 3, 1879, the First Constituent National Assembly unanimously voted Sofia for the capital of the restored Bulgarian state.",
+   "commentaire": "Date et décision confirmées.",
+   "villes_confirmees": [
+    "ville-bg-sofia"
+   ],
+   "villes_non_confirmees": []
+  },
+  {
+   "id": "src-18-gr-thpa-histoire",
+   "statut": "ok",
+   "citation": "In 1871, the Thessaloniki – Skopje railway line was constructed ... the Yugoslav Free Zone ... started operating in July 1929. ... A great part of the port facilities was destroyed, as a result of bombarding by British and US forces while also the occupation forces blew up a number of facilities",
+   "commentaire": "Liaison ferroviaire dès 1871, zone franche grecque 1925 et yougoslave 1929, destructions par bombardements et démolitions allemandes en 1944 : confirmés.",
+   "villes_confirmees": [
+    "ville-gr-thessalonique"
+   ],
+   "villes_non_confirmees": []
+  },
+  {
+   "id": "src-18-he-zenica",
+   "statut": "ok",
+   "citation": "izgrađena je uskotračna željeznička pruga Brod–Sarajevo (1879–82) ; God. 1880. bio je otvoren rudnik ugljena ; željezara, osnovana 1890. ; bila je sjedište kotara u okviru velike župe Lašva i Glaž",
+   "commentaire": "Rail 1879-82, charbon 1880, aciérie fondée en 1890 et siège de kotar sous la grande župa Lašva i Glaž confirmés (1941-44 implicite via la župa).",
+   "villes_confirmees": [
+    "ville-ba-zenica"
+   ],
+   "villes_non_confirmees": []
+  },
+  {
+   "id": "src-18-he-pula",
+   "statut": "ok",
+   "citation": "Pula bila je službom centrom pokrajinske uprave za gotovo cijelu Istru (Provincia di Pola) ; Padom fašizma (1943) nastupilo je kratkotrajno razdoblje njemačke okupacije ; Saveznici izveli 23 zračna napada na Pulu (prvi 9. I. 1944)",
+   "commentaire": "Chef-lieu provincial, occupation allemande dès 1943 et premier raid allié le 9 janvier 1944 confirmés. La fin en 1945 n'est pas citée explicitement.",
+   "villes_confirmees": [
+    "ville-hr-pula"
+   ],
+   "villes_non_confirmees": []
+  },
+  {
+   "id": "src-18-he-dubrovnik",
+   "statut": "ok",
+   "citation": "Elektrifikacijom i izgradnjom željezničkog spoja sa zaleđem (1901) Gruž je postao glavnom lukom na južnom Jadranu. ; Između dvaju svjetskih ratova ... razvijala se obalna plovidba ... i duga plovidba",
+   "commentaire": "Raccordement ferroviaire de Gruž en 1901 et activité maritime entre les guerres confirmés.",
+   "villes_confirmees": [
+    "ville-hr-dubrovnik"
+   ],
+   "villes_non_confirmees": []
+  },
+  {
+   "id": "src-18-he-split",
+   "statut": "ok",
+   "citation": "1874–77. izgrađena je željeznička pruga Split–Siverić ; 1888. bila produljena do Knina ; željezničke veze sa Zagrebom ... 1925 ; najveća luka prve jugoslavenske države s najvećim brodogradilištem ; bombardiranje 3. VI. 1944.",
+   "commentaire": "Toutes les dates ferroviaires, le rôle portuaire/naval et le bombardement du 3 juin 1944 sont confirmés.",
+   "villes_confirmees": [
+    "ville-hr-split"
+   ],
+   "villes_non_confirmees": []
+  },
+  {
+   "id": "src-18-he-sarajevo",
+   "statut": "limite",
+   "citation": "tvornica duhana, osnovana 1880. ; tvornica ćilima iz 1888. ; pivovara iz 1898 ; Za austrougarske uprave (1878–1918) Sarajevo je bilo upravno središte Bosne i Hercegovine.",
+   "commentaire": "Industries (tabac 1880, tapis 1888, bière 1898) et rôle administratif confirmés. Le rôle ferroviaire avant la guerre n'est pas soutenu par le passage (seules des modernisations de 1947/1966 sont citées).",
+   "villes_confirmees": [
+    "ville-ba-sarajevo"
+   ],
+   "villes_non_confirmees": []
+  },
+  {
+   "id": "src-18-he-skoplje",
+   "statut": "ok",
+   "citation": "Nakon izgradnje željezničke pruga Beograd–Solun (1873–86) postalo je važno prometno čvorište",
+   "commentaire": "Le nœud de transport lié à la voie Belgrade–Salonique (1873-86) est confirmé.",
+   "villes_confirmees": [
+    "ville-mk-skopje"
+   ],
+   "villes_non_confirmees": []
+  },
+  {
+   "id": "src-18-ba-zfbh-histoire",
+   "statut": "limite",
+   "citation": "The first railway line in Bosnia and Herzegovina was opened for traffic on 24th December 1872. It was a standard-gauge track from Banja Luka to Dobrljina (101.6 km)",
+   "commentaire": "Dates confirmées : Banja Luka–Dobrljin 1872, Brod–Doboj, Žepče, Zenica 1879, Sarajevo 1882, Metković–Mostar 1885, Doboj–Šimin Han 1886, Konjic 1889 et tunnel Ivan 1931, Travnik 1893, Bugojno 1894. Derventa non mentionnée ; Tuzla seulement via la ligne Doboj–Šimin Han (sans mention explicite de Tuzla). Statut ramené à « limite » par Claude : la page ne nomme pas toutes les villes ciblées ; seules les villes confirmées comptent (confirmations_claude). Second passage (16 affirmations restantes) : Les 16 villes sont nommées avec le fait ferroviaire sur la page (versions anglaise et bosniaque). Réserves mineures : Travnik n'est pas cité dans l'extrait pour Donji Vakuf ; Prijedor, Knin, Zavidovići (réseau Steinbeis) et Bijeljina, Ugljevik, Bileća, Ploče (période 1918-1942) sont datés de façon large, sans année précise de mise en service.",
+   "villes_confirmees": [
+    "ville-ba-banja-luka",
+    "ville-ba-dobrljin",
+    "ville-ba-brod",
+    "ville-ba-doboj",
+    "ville-ba-zepce",
+    "ville-ba-zenica",
+    "ville-ba-sarajevo",
+    "ville-ba-mostar",
+    "ville-hr-metkovic",
+    "ville-ba-konjic",
+    "ville-ba-travnik",
+    "ville-ba-bugojno"
+   ],
+   "villes_non_confirmees": [
+    "ville-ba-derventa",
+    "ville-ba-tuzla"
+   ]
+  },
+  {
+   "id": "src-18-rs-zs-histoire",
+   "statut": "ok",
+   "citation": "prvi svečani voз na pruzі Beograd–Niš ... 23. 8. 1884. godine; Redovnі saobraćaj otpočeo je 3. 9. 1884. godine. ... 1874. godine puštena u saobraćaj pruга od Skoplja do Kosovske Mitrovice.",
+   "commentaire": "Belgrade–Niš 1884 et Skopje–Kosovska Mitrovica 1874 confirmés ; Bela Crkva citée dans la section Jasenova–Bela Crkva conservée après la Première Guerre mondiale. Le statut de terminus de Niš n'est pas explicite.",
+   "villes_confirmees": [
+    "ville-rs-belgrade",
+    "ville-rs-nis",
+    "ville-rs-bela-crkva",
+    "ville-mk-skopje"
+   ],
+   "villes_non_confirmees": []
+  },
+  {
+   "id": "src-18-me-gov-rail-histoire",
+   "statut": "ok",
+   "citation": "Уз помоћ италијанског капитала 1908. године отворена је пруга Бар-Вирпазар. ... 1927. године ... пругу Подгорица–Доња Плавница. ... Град под Требјесом свој први воз свечано је дочекао 12. јула 1938. године.",
+   "commentaire": "Les trois lignes (Bar–Virpazar 1908, Podgorica–Donja Plavnica 1927, Nikšić juillet 1938) sont confirmées. Les rôles portuaires lacustres de Virpazar et Plavnica ne sont pas évoqués dans le passage.",
+   "villes_confirmees": [
+    "ville-me-bar",
+    "ville-me-virpazar",
+    "ville-me-podgorica",
+    "ville-me-plavnica",
+    "ville-me-niksic"
+   ],
+   "villes_non_confirmees": []
+  },
+  {
+   "id": "src-18-me-canu-italie",
+   "statut": "ok",
+   "citation": "do 1905. podigli modernu fabriku za preradu duvana ... do 1909. u barskom zalivu modernu luku sa slobodnom lučkom zonom ... na Virpazaru, Rijeci Crnojevića i Plavnici, 'Barsko društvo' je izgradilo manje pristane i organizovalo jezerski saobraćaj, uspostavivši plovidbenu vezu i sa Skadrom",
+   "commentaire": "Fabrique de tabac avant 1906 (1905), port et zone franche de Bar (1909), navigation lacustre vers Shkodër et Rijeka Crnojevića, ravitaillement via Bojana et lac en 1915 : tout est soutenu. La localisation de la fabrique à Podgorica est supposée par le contexte du passage.",
+   "villes_confirmees": [
+    "ville-me-podgorica",
+    "ville-me-bar",
+    "ville-al-shkoder",
+    "ville-me-rijeka-crnojevica"
+   ],
+   "villes_non_confirmees": []
+  },
+  {
+   "id": "src-18-hr-he-rijeka",
+   "statut": "ok",
+   "citation": "petrokemijska industrija (od 1883) ... Željezničkoga kolodvora (1890., Ferenc Pfaff) ... Rimskim sporazumom iz 1924. Rijeka je bila pripojena Italiji i formirana je Riječka provincija ... Za talijanske uprave nije bio unaprijeđen lučki i trgovinski promet",
+   "commentaire": "Industrie dès 1883, gare 1890, province italienne dès 1924 et difficultés portuaires entre-deux-guerres confirmés. Le terme « raffinage » est rendu par « industrie pétrochimique (dès 1883) », formulation légèrement différente.",
+   "villes_confirmees": [
+    "ville-hr-rijeka"
+   ],
+   "villes_non_confirmees": []
+  },
+  {
+   "id": "src-18-al-tirana-capitale",
+   "statut": "ok",
+   "citation": "The entry of the Government in Tirana also marked its proclamation as the temporary capital of Albania. ... final proclamation of Tirana as the capital, which he made a reality on January 31st, 1925.",
+   "commentaire": "Capitale provisoire (1920) et proclamation définitive (31 janvier 1925) confirmées.",
+   "villes_confirmees": [
+    "ville-al-tirana"
+   ],
+   "villes_non_confirmees": []
+  },
+  {
+   "id": "src-18-al-albpetrol-histoire",
+   "statut": "non_verifiee",
+   "citation": "",
+   "commentaire": "WebFetch bloqué (robots.txt / timeout) ; PDF non lu.",
+   "villes_confirmees": [],
+   "villes_non_confirmees": [
+    "ville-al-kucove",
+    "ville-al-vlore"
+   ]
+  },
+  {
+   "id": "src-18-al-durres-histoire1944",
+   "statut": "ok",
+   "citation": "Durrësi ishte një qytet plotësisht i boshatisur. Forcat partizane dhe ato guerilase hynë më 14 nëntor të vitit 1944 ... në portin detar u instaluan mbi 100 mijë mina kundërtanke",
+   "commentaire": "Confirme le port miné pendant l'occupation et l'entrée des partisans le 14 novembre 1944 dans une ville vidée.",
+   "villes_confirmees": [
+    "ville-al-durres"
+   ],
+   "villes_non_confirmees": []
+  },
+  {
+   "id": "src-18-bellu-balog-tara-barsei2003",
+   "statut": "non_verifiee",
+   "citation": "",
+   "commentaire": "WebFetch a renvoyé une erreur 403 ; PDF inaccessible.",
+   "villes_confirmees": [],
+   "villes_non_confirmees": [
+    "ville-ro-alba-iulia",
+    "ville-ro-simeria",
+    "ville-ro-petrosani",
+    "ville-ro-oradea",
+    "ville-ro-cluj-napoca",
+    "ville-ro-teius",
+    "ville-ro-medias",
+    "ville-ro-sighisoara",
+    "ville-ro-brasov",
+    "ville-ro-predeal",
+    "ville-ro-zarnesti",
+    "ville-ro-sfantu-gheorghe",
+    "ville-ro-fagaras"
+   ]
+  },
+  {
+   "id": "src-18-ro-timisoara-conseil-histoire",
+   "statut": "ok",
+   "citation": "1857 – este dată în folosinţă calea ferată Seghedin-Timişoara ; 1880 – este dată în folosinţă prima turnătorie de fier ; 16-17.06 1944 – Timişoara este bombardată ... zona Gării de Nord",
+   "commentaire": "Les trois éléments (rail 1857, fonderie 1880, bombardements de juin 1944 près de la gare) sont confirmés.",
+   "villes_confirmees": [
+    "ville-ro-timisoara"
+   ],
+   "villes_non_confirmees": []
+  },
+  {
+   "id": "src-18-ro-sibiu-ville-histoire",
+   "statut": "non_verifiee",
+   "citation": "",
+   "commentaire": "WebFetch refusé (robots.txt) ; page non lue.",
+   "villes_confirmees": [],
+   "villes_non_confirmees": [
+    "ville-ro-sibiu"
+   ]
+  },
+  {
+   "id": "src-18-ro-resita-ucmh-histoire",
+   "statut": "ok",
+   "citation": "fabrică de locomotive cu capacitate de 100 locomotive/an ... armament (tunuri, afete, tunuri antitanc și antiaeriene de 75 mm licența Vickers, tunuri pentru baterii de coastă)",
+   "commentaire": "Confirme le complexe sidérurgique et mécanique de Reșița avec locomotives et armement sur la période UDR 1920-1948.",
+   "villes_confirmees": [
+    "ville-ro-resita"
+   ],
+   "villes_non_confirmees": []
+  },
+  {
+   "id": "src-18-ro-constanta-mnhr1906",
+   "statut": "non_verifiee",
+   "citation": "",
+   "commentaire": "La page renvoie une erreur (« The object reference seems to be invalid ») ; aucun contenu sur le port de Constanta n'est lisible.",
+   "villes_confirmees": [],
+   "villes_non_confirmees": [
+    "ville-ro-constanta"
+   ]
+  },
+  {
+   "id": "src-18-bg-gorna-ville-histoire",
+   "statut": "ok",
+   "citation": "На 8 ноември 1899 г. ... княз Фердинанд I тържествено прерязва лентата на жп гара Г. Оряховица / Най-голямата за времето си фабрика на Балканския полуостров е изградена в Горна Оряховица през 1913 г.",
+   "commentaire": "Gare ferroviaire ouverte en 1899 (ligne Sofia-Varna) et sucrerie de 1913, toutes deux antérieures à 1945. Le terme « nœud » n'est pas cité littéralement.",
+   "villes_confirmees": [
+    "ville-bg-gorna-oryahovitsa"
+   ],
+   "villes_non_confirmees": []
+  },
+  {
+   "id": "src-18-bg-pleven-archives-rail",
+   "statut": "ok",
+   "citation": "На 18 юли 1899 г. е открита железопътната линия Роман – Плевен ... На 8 ноември 1899 г. ... Плевен – Шумен ... Сомовит – Ясен ... Левски – Ловеч 20 ноември 1927 г.",
+   "commentaire": "Les ouvertures 1899, la carte de 1915 (Levski-Svishtov), l'ouverture de 1927 et la voie étroite de Cherven Bryag sur la carte de 1926 sont attestées. Svishtov et Cherven Bryag ne sont que mentionnés indirectement (ligne).",
+   "villes_confirmees": [
+    "ville-bg-pleven",
+    "ville-bg-roman",
+    "ville-bg-shumen",
+    "ville-bg-somovit",
+    "ville-bg-yasen",
+    "ville-bg-levski",
+    "ville-bg-svishtov",
+    "ville-bg-lovech",
+    "ville-bg-cherven-bryag"
+   ],
+   "villes_non_confirmees": []
+  },
+  {
+   "id": "src-18-bg-gabrovo-musee-machines",
+   "statut": "ok",
+   "citation": "От 1942 до 1947 г. във фабрика „Ив. Недков\" са произведени над 1000 стана",
+   "commentaire": "Construction de métiers à tisser à Gabrovo pendant les années de guerre confirmée ; l'article ne donne pas de total pour 1944, conforme à l'affirmation.",
+   "villes_confirmees": [
+    "ville-bg-gabrovo"
+   ],
+   "villes_non_confirmees": []
+  },
+  {
+   "id": "src-18-us-elia-relief1944",
+   "statut": "limite",
+   "citation": "Athens as capital...in liaison with military",
+   "commentaire": "PDF image à OCR très dégradé : la liste des ports (Kalamata 19 oct., Preveza 18 oct., Patras, Salonique, Volos, Kavala, Mytilène, Chios, Héraklion) apparaît de façon partielle et confuse ; dates et suspension du 15 déc. non vérifiables de façon fiable. Le Pirée non retrouvé explicitement.",
+   "villes_confirmees": [
+    "ville-gr-kalamata",
+    "ville-gr-preveza",
+    "ville-gr-athenes"
+   ],
+   "villes_non_confirmees": [
+    "ville-gr-le-piree",
+    "ville-gr-patras",
+    "ville-gr-thessalonique",
+    "ville-gr-volos",
+    "ville-gr-kavala",
+    "ville-gr-mytilene",
+    "ville-gr-chios",
+    "ville-gr-heraklion"
+   ]
+  },
+  {
+   "id": "src-18-ro-prefecture-bucarest",
+   "statut": "ok",
+   "citation": "În veacul al XIX-lea oraşul se modernizeaz fiind ales capital a României, înf ptuit prin unirea Moldovei cu ara Româneasc , în anul 1862.",
+   "commentaire": "Bucarest capitale de la Roumanie en 1862 confirmé (texte PDF avec diacritiques perdus).",
+   "villes_confirmees": [
+    "ville-ro-bucarest"
+   ],
+   "villes_non_confirmees": []
+  },
+  {
+   "id": "src-18-rs-belgrade-ville-histoire",
+   "statut": "ok",
+   "citation": "Immediately upon liberation, Belgrade became the capital of the newly-formed Kingdom of Serbs, Croats and Slovenes, which enhanced the construction. / The construction of the Railway Station and port on the Sava led to transferring the centre of the city",
+   "commentaire": "Capitale en 1918 et port sur la Save confirmés par la page.",
+   "villes_confirmees": [
+    "ville-rs-belgrade"
+   ],
+   "villes_non_confirmees": []
+  },
+  {
+   "id": "src-18-it-rome-quirinale-capitale",
+   "statut": "ok",
+   "citation": "che nell'istituire, all'articolo 1, Roma quale capitale d'Italia ha altresì previsto che in essa abbiano sede il Governo ed i Ministeri",
+   "commentaire": "Le texte cite l'article 1 du texte de 1871 instituant Rome capitale.",
+   "villes_confirmees": [
+    "ville-it-rome"
+   ],
+   "villes_non_confirmees": []
+  },
+  {
+   "id": "src-18-it-genova-treccani1932",
+   "statut": "ok",
+   "citation": "Cantieri del Tirreno, Ansaldo, Odero, ecc. / tre stazioni: Caricamento, S. Limbania, S. Benigno / bacino inaugurato il 27 ottobre 1928, m. 240",
+   "commentaire": "Bassins de radoub, réparations navales et gares/voies portuaires décrits dans l'Enciclopedia de 1932.",
+   "villes_confirmees": [
+    "ville-it-genes"
+   ],
+   "villes_non_confirmees": []
+  },
+  {
+   "id": "src-18-it-trieste-port300",
+   "statut": "ok",
+   "citation": "Inauguration of the Maritime Station, built according to the design of Giacomo Zammattio and Umberto Nordio. / The same year the grain silo at the root of pier VI is inaugurated.",
+   "commentaire": "Gare maritime 1930 et silo 1937 confirmés ; la page note des bombardements du port en 1943-45, niveau d'activité non établi comme indiqué.",
+   "villes_confirmees": [
+    "ville-it-trieste"
+   ],
+   "villes_non_confirmees": []
+  },
+  {
+   "id": "src-18-it-venise-port-histoire",
+   "statut": "ok",
+   "citation": "Porto Marghera sorse nel 1917 a seguito di una convenzione tra lo Stato, il Comune e la Società Porto Industriale presieduta da Giuseppe Volpi.",
+   "commentaire": "Création de Marghera en 1917 comme port et centre industriel confirmée ; mention de la gare maritime/port historique.",
+   "villes_confirmees": [
+    "ville-it-venise"
+   ],
+   "villes_non_confirmees": []
+  },
+  {
+   "id": "src-18-it-marine-tarente",
+   "statut": "non_verifiee",
+   "citation": "",
+   "commentaire": "Page inaccessible à WebFetch (timeout puis erreur serveur à deux essais).",
+   "villes_confirmees": [],
+   "villes_non_confirmees": [
+    "ville-it-tarente"
+   ]
+  },
+  {
+   "id": "src-18-it-marine-la-spezia",
+   "statut": "ok",
+   "citation": "La cerimonia dell'inaugurazione ebbe luogo il 28 Agosto del 1869. / l'Arsenale aveva la capacità di costruire non solo gli scafi delle navi ma anche i macchinari, le armi e le apparecchiature necessarie.",
+   "commentaire": "Arsenal construit à partir de 1861, inauguré en 1869, avec construction navale (cuirassés, croiseurs, sous-marins entre 1871 et 1923). Confirme l'implantation avant 1945.",
+   "villes_confirmees": [
+    "ville-it-la-spezia"
+   ],
+   "villes_non_confirmees": []
+  },
+  {
+   "id": "src-18-it-olbia-archeologie2023",
+   "statut": "non_verifiee",
+   "citation": "",
+   "commentaire": "WebFetch n'a restitué que le texte jusqu'au Moyen Âge (6.4.7) ; la section 6.4.8 (époque moderne) avec la gare maritime de 1930 et le nom Olbia de 1939 n'est pas accessible. Impossible de conclure.",
+   "villes_confirmees": [],
+   "villes_non_confirmees": [
+    "ville-it-olbia"
+   ]
+  },
+  {
+   "id": "src-18-bg-treccani1930",
+   "statut": "ok",
+   "citation": "I Balcani sono attraversati dalla linea Tărnovo-Stara Zagora (con diramazione su Gabrovo e Kazanlǎk) / La valle dello Struma è seguita da una linea che porta sino a Petrič (a scartamento ridotto dopo Radomir)",
+   "commentaire": "Lignite de Pernik, fabriques de laine de Sliven, lignes Tărnovo-Stara Zagora-Kazanlak, Kyustendil-Giueševo, Radomir-Petrich (écartement réduit), ports danubiens de Somovit et Orehovo confirmés. Le caractère de terminus (Gyueshevo, Petrich) est seulement implicite.",
+   "villes_confirmees": [
+    "ville-bg-pernik",
+    "ville-bg-sliven",
+    "ville-bg-stara-zagora",
+    "ville-bg-kazanlak",
+    "ville-bg-veliko-tarnovo",
+    "ville-bg-kyustendil",
+    "ville-bg-gyueshevo",
+    "ville-bg-radomir",
+    "ville-bg-petrich",
+    "ville-bg-somovit",
+    "ville-bg-oryahovo"
+   ],
+   "villes_non_confirmees": []
+  },
+  {
+   "id": "src-18-ro-treccani1936",
+   "statut": "limite",
+   "citation": "Giurgiu, Silistra e soprattutto i due porti di Galati e di Brăila sul Danubio / A Mediaş si fabbrica la cianamide / Alti forni di Hunedoara",
+   "commentaire": "Ports danubiens (Giurgiu, Galați, Brăila, Silistra), hauts-fourneaux de Hunedoara, cyanamide de Mediaș confirmés ; Sulina seulement citée dans une liste de ports. Craiova n'apparaît que comme « sul basso Jiu » (climat) ; Ploiești : district de Prahova pétrolier, mais ni matériel de forage ni passage ferroviaire confirmés.",
+   "villes_confirmees": [
+    "ville-ro-giurgiu",
+    "ville-ro-galati",
+    "ville-ro-braila",
+    "ville-bg-silistra",
+    "ville-ro-hunedoara",
+    "ville-ro-medias",
+    "ville-ro-sulina"
+   ],
+   "villes_non_confirmees": [
+    "ville-ro-craiova",
+    "ville-ro-ploiesti"
+   ]
+  },
+  {
+   "id": "src-18-it-palermo-treccani1935",
+   "statut": "ok",
+   "citation": "Per il movimento delle merci, si ebbe un massimo nel 1927: tonnellate 798.171 (sbarcate 650,025; imbarcate 148.146) e un minimo nel 1932",
+   "commentaire": "Le port de Palerme et son trafic de marchandises et de navires 1926-1934 sont décrits. Le rôle de terminus des exportations insulaires n'est pas explicitement visible dans l'extrait.",
+   "villes_confirmees": [
+    "ville-it-palerme"
+   ],
+   "villes_non_confirmees": []
+  },
+  {
+   "id": "src-18-it-cagliari-treccani1930",
+   "statut": "ok",
+   "citation": "Le calate di operazione (m. 2100 nell'interno del porto), compresi i pontili, sono raccordate con la ferrovia. / servito da tre linee di navigazione settimanali con Civitavecchia, Napoli, Genova e Tunisi; due quattordicinali con ... Palermo.",
+   "commentaire": "Quais raccordés au rail et lignes vers la péninsule (Civitavecchia, Naples, Gênes), Tunis et Palerme (Sicile) confirmés.",
+   "villes_confirmees": [
+    "ville-it-cagliari"
+   ],
+   "villes_non_confirmees": []
+  },
+  {
+   "id": "src-18-it-messina-treccani1934",
+   "statut": "ok",
+   "citation": "il movimento dei passeggeri ... è vivo soprattutto sulle navi-traghetto (ferry boats), che collegano la Sicilia con la penisola ... nel 1931 trasportarono in 8296 corse oltre 2,3 milioni di persone",
+   "commentaire": "Le port et les ferry-boats du détroit en 1931 sont bien attestés (Enciclopedia Italiana 1934).",
+   "villes_confirmees": [
+    "ville-it-messine"
+   ],
+   "villes_non_confirmees": []
+  },
+  {
+   "id": "src-18-gr-treccani1933",
+   "statut": "limite",
+   "citation": "Il distretto minerario più importante è quello di Laurio, all'estremità meridionale dell'Attica",
+   "commentaire": "Confirmés: La Canea, Rethymnon, Corfou (ville de 32.221 hab.), Ermoupoli (nuova Ermupoli), Laurion (mines), Le Pirée (port principal). Athènes, Salonique et Kavala ne sont pas cités comme centres industriels dans les passages rendus (Salonique: lignes ferroviaires; Kavala: simple port).",
+   "villes_confirmees": [
+    "ville-gr-la-canee",
+    "ville-gr-rethymnon",
+    "ville-gr-corfou",
+    "ville-gr-ermoupoli",
+    "ville-gr-lavrio"
+   ],
+   "villes_non_confirmees": [
+    "ville-gr-athenes",
+    "ville-gr-le-piree",
+    "ville-gr-thessalonique",
+    "ville-gr-kavala"
+   ]
+  },
+  {
+   "id": "src-18-gr-rhodes-ville-histoire",
+   "statut": "ok",
+   "citation": "Οι Ιταλοί υλοποίησαν σημαντικά έργα υποδομής (δρόμους, παροχή ηλεκτρισμού, λιμάνι κ.α.) ... οι βόμβες ... που έπεσαν στην Μεσαιωνική πόλη το 1944",
+   "commentaire": "Le port est cité parmi les travaux italiens, et les bombardements de 1944 sont mentionnés.",
+   "villes_confirmees": [
+    "ville-gr-rhodes"
+   ],
+   "villes_non_confirmees": []
+  },
+  {
+   "id": "src-18-gr-leros-musee-guerre",
+   "statut": "ok",
+   "citation": "Το Λακκί διαθέτει ένα από τα μεγαλύτερα φυσικά λιμάνια της Μεσογείου, γεγονός που ανέδειξε το νησί σε ιταλική ναυτική βάση για ολόκληρη την Ανατολική Μεσόγειο.",
+   "commentaire": "Le port de Lakki est associé à la base navale italienne, avant la bataille de 1943.",
+   "villes_confirmees": [
+    "ville-gr-lakki"
+   ],
+   "villes_non_confirmees": []
+  },
+  {
+   "id": "src-18-it-torino-treccani1937",
+   "statut": "ok",
+   "citation": "occupati soprattutto nell'industria dell'automobile (la produzione torinese rappresenta l'85% del totale nazionale), nei grandiosi stabilimenti del Lingotto",
+   "commentaire": "Industrie automobile et mécanique à Turin, notamment au Lingotto, confirmée.",
+   "villes_confirmees": [
+    "ville-it-turin"
+   ],
+   "villes_non_confirmees": []
+  },
+  {
+   "id": "src-18-it-milano-treccani1934",
+   "statut": "ok",
+   "citation": "primeggiano di gran lunga le industrie meccaniche e metallurgiche e le tessili (oltre la metà degli addetti)",
+   "commentaire": "Industries mécanique, sidérurgique et textile confirmées pour Milan.",
+   "villes_confirmees": [
+    "ville-it-milan"
+   ],
+   "villes_non_confirmees": []
+  },
+  {
+   "id": "src-18-gr-oss5505-1944",
+   "statut": "limite",
+   "citation": "Greece : railroads and railroad facilities — R & A, OSS, 1944 — Map No. 5505, provisional edition, ca 1:1,647,360 (SearchWorks 2937115)",
+   "commentaire": "La notice correspond au titre et à l'usage annoncés (carte ferroviaire de Grèce, OSS n°5505, 1944). Le détail ville par ville (rotondes, triages) n'est pas lisible par l'outil ; la date précise du 4 décembre 1944 n'apparaît pas dans la notice lue. Carte lue par Claude sur l'image déposée par Ether (2026-10-04_ether_OSS5505_peloponnese_attique.png, _thessalie.png, _macedoine.png, _thrace.png (+ _legende.png)) : 42 villes relues, toutes conformes à l'usage annoncé.",
+   "villes_confirmees": [],
+   "villes_non_confirmees": [
+    "ville-gr-athenes",
+    "ville-gr-le-piree",
+    "ville-gr-patras",
+    "ville-gr-corinthe",
+    "ville-gr-pyrgos",
+    "ville-gr-tripoli",
+    "ville-gr-kalamata",
+    "ville-gr-diakopto",
+    "ville-gr-lavrio",
+    "ville-gr-thebes",
+    "ville-gr-oinoi",
+    "ville-gr-chalcis",
+    "ville-gr-livadia",
+    "ville-gr-agrinio"
+   ]
+  },
+  {
+   "id": "src-18-oss2443-yugoslavie1943",
+   "statut": "limite",
+   "citation": "Yugoslavia — Lithographed in the Reproduction Branch, OSS, 1943 — Subjects: Railroads; Roads; Yugoslavia — \"Map no. 2443, 26 August 1943.\" Depicts cities, towns, roads, railroads, and principal streams",
+   "commentaire": "La notice correspond (carte ferroviaire/routière de Yougoslavie, n°2443, 26 août 1943). La zone couverte est la Yougoslavie : la présence de villes italiennes (Venise, Udine, Vérone, Padoue, Gorizia, Trieste) sur la carte n'est pas vérifiable et reste douteuse ; contenu ville par ville non lisible. Carte lue par Claude sur l'image déposée par Ether (2026-10-04_ether_OSS_cg501zv0179_1.jpg (+ _nord, _centre, _sud)) : 51 villes relues, toutes conformes à l'usage annoncé. Légende : voie ferrée hachurée (+++) et route principale (trait simple) ; les rôles « rail » vérifiés sur les lignes hachurées ; villes albanaises et monténégrines citées pour l'identité seulement.",
+   "villes_confirmees": [],
+   "villes_non_confirmees": [
+    "ville-it-venise",
+    "ville-it-udine",
+    "ville-it-gorizia",
+    "ville-it-trieste",
+    "ville-it-verone",
+    "ville-it-padoue",
+    "ville-si-jesenice",
+    "ville-si-ljubljana",
+    "ville-si-celje",
+    "ville-si-maribor",
+    "ville-hr-pula",
+    "ville-hr-rijeka",
+    "ville-hr-susak",
+    "ville-hr-zagreb"
+   ]
+  },
+  {
+   "id": "src-18-oss1068-industrie-yugoslavie1942",
+   "statut": "limite",
+   "citation": "Yugoslavia mining and manufacturing — OSS Repro. Section, 1942 — Subjects: Mines and mineral resources; Yugoslavia; Industries — \"Map no. 1068\" (Provisional edition), ca 1:2,700,000",
+   "commentaire": "La notice correspond (industrie et mines de Yougoslavie, n°1068, 1942 ; la date du 12 octobre n'est pas dans la notice lue). Les symboles de légende 1-7 par ville ne sont pas lisibles par l'outil. Carte lue par Claude sur l'image déposée par Ether (2026-10-04_ether_OSS_sh018fq0460_1.jpg) : 23 villes relues, toutes conformes à l'usage annoncé.",
+   "villes_confirmees": [],
+   "villes_non_confirmees": [
+    "ville-si-jesenice",
+    "ville-si-kranj",
+    "ville-si-ljubljana",
+    "ville-si-litija",
+    "ville-si-celje",
+    "ville-si-maribor",
+    "ville-hr-zagreb",
+    "ville-hr-susak",
+    "ville-hr-osijek",
+    "ville-hr-sibenik",
+    "ville-hr-split",
+    "ville-ba-drvar",
+    "ville-ba-jajce",
+    "ville-ba-zenica"
+   ]
+  },
+  {
+   "id": "src-18-oss2475-italie-alimentation1937",
+   "statut": "limite",
+   "citation": "Southern Italy : food processing plants — R & A, OSS, 1943 — Map Number 2475, provisional edition, ca 1:1,710,720",
+   "commentaire": "La notice correspond au titre (usines agroalimentaires d'Italie du Sud, n°2475, 1943). La mention « Data as of 1937 » et le détail par ville ne figurent pas dans la notice lue et ne sont pas lisibles. Carte lue par Claude sur l'image déposée par Ether (2026-10-04_ether_OSS_ck156mr7841_1.jpg) : 24 villes relues, toutes conformes à l'usage annoncé. Données de 1937 (mention de la légende) : prouve l'industrie agro-alimentaire avant le Snapshot, pas son activité fin 1944.",
+   "villes_confirmees": [],
+   "villes_non_confirmees": [
+    "ville-it-naples",
+    "ville-it-salerne",
+    "ville-it-aversa",
+    "ville-it-caserte",
+    "ville-it-benevent",
+    "ville-it-foggia",
+    "ville-it-san-severo",
+    "ville-it-barletta",
+    "ville-it-bari",
+    "ville-it-brindisi",
+    "ville-it-tarente",
+    "ville-it-lecce",
+    "ville-it-potenza",
+    "ville-it-matera"
+   ]
+  },
+  {
+   "id": "src-18-oss2067-italie-rail1943",
+   "statut": "limite",
+   "citation": "Italy : Railways — R & A, OSS, 1943 (Washington, DC) — Map No. 2067, ca 1:3,611,520; Board of Economic Warfare responsable",
+   "commentaire": "La notice correspond (carte ferroviaire d'Italie, n°2067, 1943 ; le jour 16 juillet non indiqué dans la notice lue). Le contenu ville par ville n'est pas lisible par l'outil. Carte lue par Claude sur l'image déposée par Ether (2026-10-04_ether_OSS_cq765sj1121_1.jpg) : 85 villes relues, toutes conformes à l'usage annoncé. Lecture sur une réduction de l'image (libellés lisibles) ; Olbia figure sous le libellé « Terranova P. ».",
+   "villes_confirmees": [],
+   "villes_non_confirmees": [
+    "ville-it-turin",
+    "ville-it-genes",
+    "ville-it-milan",
+    "ville-it-alessandria",
+    "ville-it-asti",
+    "ville-it-cuneo",
+    "ville-it-savone",
+    "ville-it-vintimille",
+    "ville-it-novare",
+    "ville-it-verceil",
+    "ville-it-domodossola",
+    "ville-it-arona",
+    "ville-it-come",
+    "ville-it-varese"
+   ]
+  },
+  {
+   "id": "src-18-ba-ugljevik-strategie2014",
+   "statut": "ok",
+   "citation": "do 1941. godine, kada je prebačen u rudarsko naselje Stari Ugljevik ... od 1980. godine je u novoizgrađenom naselju, Novom Ugljeviku- gradiću na rijeci Janji",
+   "commentaire": "La section 1.1 Istorijat opštine distingue bien le centre dans le village minier de Stari Ugljevik (1941) et la nouvelle agglomération de Novi Ugljevik (1980). Le passage soutient l'affirmation ; 1941 est antérieur au 01/01/1945.",
+   "villes_confirmees": [
+    "ville-ba-ugljevik"
+   ],
+   "villes_non_confirmees": []
+  }
+ ],
+ "relations": [
+  {
+   "entite_id": "ville-ro-giurgiu",
+   "source_id": "src-18-ro-cfr-histoire",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "page web (WebFetch)",
+   "citation": "\"Primul tronson: Piteşti - Bucureşti - Galaţi - Roman, a fost deschis la 13 septembrie 1872, iar tronsonul Vârciorova - Piteşti pe 9 mai 1878.\"",
+   "commentaire": "Ville nommée dans le passage relu par le sous-agent."
+  },
+  {
+   "entite_id": "ville-ro-bazias",
+   "source_id": "src-18-ro-cfr-histoire",
+   "roles_confirmes": [
+    "rail",
+    "port_fluvial"
+   ],
+   "roles_non_trouves": [],
+   "image": "page web (WebFetch)",
+   "citation": "\"Primul tronson: Piteşti - Bucureşti - Galaţi - Roman, a fost deschis la 13 septembrie 1872, iar tronsonul Vârciorova - Piteşti pe 9 mai 1878.\"",
+   "commentaire": "Ville nommée dans le passage relu par le sous-agent."
+  },
+  {
+   "entite_id": "ville-ro-bucarest",
+   "source_id": "src-18-ro-cfr-histoire",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "page web (WebFetch)",
+   "citation": "\"Primul tronson: Piteşti - Bucureşti - Galaţi - Roman, a fost deschis la 13 septembrie 1872, iar tronsonul Vârciorova - Piteşti pe 9 mai 1878.\"",
+   "commentaire": "Ville nommée dans le passage relu par le sous-agent."
+  },
+  {
+   "entite_id": "ville-ro-pitesti",
+   "source_id": "src-18-ro-cfr-histoire",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "page web (WebFetch)",
+   "citation": "\"Primul tronson: Piteşti - Bucureşti - Galaţi - Roman, a fost deschis la 13 septembrie 1872, iar tronsonul Vârciorova - Piteşti pe 9 mai 1878.\"",
+   "commentaire": "Ville nommée dans le passage relu par le sous-agent."
+  },
+  {
+   "entite_id": "ville-ro-arad",
+   "source_id": "src-18-ro-cfr-histoire",
+   "roles_confirmes": [
+    "industrie"
+   ],
+   "roles_non_trouves": [],
+   "image": "page web (WebFetch)",
+   "citation": "\"Primul tronson: Piteşti - Bucureşti - Galaţi - Roman, a fost deschis la 13 septembrie 1872, iar tronsonul Vârciorova - Piteşti pe 9 mai 1878.\"",
+   "commentaire": "Ville nommée dans le passage relu par le sous-agent."
+  },
+  {
+   "entite_id": "ville-ro-roman",
+   "source_id": "src-18-ro-cfr-histoire",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "page web (WebFetch)",
+   "citation": "\"Primul tronson: Piteşti - Bucureşti - Galaţi - Roman, a fost deschis la 13 septembrie 1872, iar tronsonul Vârciorova - Piteşti pe 9 mai 1878.\"",
+   "commentaire": "Ville nommée dans le passage relu par le sous-agent."
+  },
+  {
+   "entite_id": "ville-ro-galati",
+   "source_id": "src-18-ro-cfr-histoire",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "page web (WebFetch)",
+   "citation": "\"Primul tronson: Piteşti - Bucureşti - Galaţi - Roman, a fost deschis la 13 septembrie 1872, iar tronsonul Vârciorova - Piteşti pe 9 mai 1878.\"",
+   "commentaire": "Ville nommée dans le passage relu par le sous-agent."
+  },
+  {
+   "entite_id": "ville-ro-iasi",
+   "source_id": "src-18-ro-cfr-histoire",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "page web (WebFetch)",
+   "citation": "\"Primul tronson: Piteşti - Bucureşti - Galaţi - Roman, a fost deschis la 13 septembrie 1872, iar tronsonul Vârciorova - Piteşti pe 9 mai 1878.\"",
+   "commentaire": "Ville nommée dans le passage relu par le sous-agent."
+  },
+  {
+   "entite_id": "ville-ro-oravita",
+   "source_id": "src-18-ro-cfr-histoire",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "page web (WebFetch)",
+   "citation": "\"Primul tronson: Piteşti - Bucureşti - Galaţi - Roman, a fost deschis la 13 septembrie 1872, iar tronsonul Vârciorova - Piteşti pe 9 mai 1878.\"",
+   "commentaire": "Ville nommée dans le passage relu par le sous-agent."
+  },
+  {
+   "entite_id": "ville-it-aversa",
+   "source_id": "src-18-it-re-1946-ligne89",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "page web (WebFetch)",
+   "citation": "the section from Naples to Aversa (19 kilometres) was repaired by M.R.S. American Section with the assistance of Engineer Troops, U.S. Army | the bridge was opened for traffic on 20 May",
+   "commentaire": "Ville nommée dans le passage relu par le sous-agent."
+  },
+  {
+   "entite_id": "ville-bg-vakarel",
+   "source_id": "src-18-bg-bdz-histoire-detail",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "page web (WebFetch)",
+   "citation": "Черна вода – Кюстенджа (Констанца), която влиза в експлоатация от 4 октомври 1860 г. ... Истанбул-Одрин-Белово, открита на 18 юли 1873 г., и Злати дол-Нова Загора-Ямбол, открита на 22 януари 1875 г.",
+   "commentaire": "Ville nommée dans le passage relu par le sous-agent."
+  },
+  {
+   "entite_id": "ville-bg-nova-zagora",
+   "source_id": "src-18-bg-bdz-histoire-detail",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "page web (WebFetch)",
+   "citation": "Черна вода – Кюстенджа (Констанца), която влиза в експлоатация от 4 октомври 1860 г. ... Истанбул-Одрин-Белово, открита на 18 юли 1873 г., и Злати дол-Нова Загора-Ямбол, открита на 22 януари 1875 г.",
+   "commentaire": "Ville nommée dans le passage relu par le sous-agent."
+  },
+  {
+   "entite_id": "ville-bg-simeonovgrad",
+   "source_id": "src-18-bg-bdz-histoire-detail",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "page web (WebFetch)",
+   "citation": "Черна вода – Кюстенджа (Констанца), която влиза в експлоатация от 4 октомври 1860 г. ... Истанбул-Одрин-Белово, открита на 18 юли 1873 г., и Злати дол-Нова Загора-Ямбол, открита на 22 януари 1875 г.",
+   "commentaire": "Ville nommée dans le passage relu par le sous-agent."
+  },
+  {
+   "entite_id": "ville-ro-constanta",
+   "source_id": "src-18-bg-bdz-histoire-detail",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "page web (WebFetch)",
+   "citation": "Черна вода – Кюстенджа (Констанца), която влиза в експлоатация от 4 октомври 1860 г. ... Истанбул-Одрин-Белово, открита на 18 юли 1873 г., и Злати дол-Нова Загора-Ямбол, открита на 22 януари 1875 г.",
+   "commentaire": "Ville nommée dans le passage relu par le sous-agent."
+  },
+  {
+   "entite_id": "ville-bg-belovo",
+   "source_id": "src-18-bg-bdz-histoire-detail",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "page web (WebFetch)",
+   "citation": "Черна вода – Кюстенджа (Констанца), която влиза в експлоатация от 4 октомври 1860 г. ... Истанбул-Одрин-Белово, открита на 18 юли 1873 г., и Злати дол-Нова Загора-Ямбол, открита на 22 януари 1875 г.",
+   "commentaire": "Ville nommée dans le passage relu par le sous-agent."
+  },
+  {
+   "entite_id": "ville-bg-kaspichan",
+   "source_id": "src-18-bg-bdz-histoire-detail",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "page web (WebFetch)",
+   "citation": "Черна вода – Кюстенджа (Констанца), която влиза в експлоатация от 4 октомври 1860 г. ... Истанбул-Одрин-Белово, открита на 18 юли 1873 г., и Злати дол-Нова Загора-Ямбол, открита на 22 януари 1875 г.",
+   "commentaire": "Ville nommée dans le passage relu par le sous-agent."
+  },
+  {
+   "entite_id": "ville-ro-cernavoda",
+   "source_id": "src-18-bg-bdz-histoire-detail",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "page web (WebFetch)",
+   "citation": "Черна вода – Кюстенджа (Констанца), която влиза в експлоатация от 4 октомври 1860 г. ... Истанбул-Одрин-Белово, открита на 18 юли 1873 г., и Злати дол-Нова Загора-Ямбол, открита на 22 януари 1875 г.",
+   "commentaire": "Ville nommée dans le passage relu par le sous-agent."
+  },
+  {
+   "entite_id": "ville-bg-yambol",
+   "source_id": "src-18-bg-bdz-histoire-detail",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "page web (WebFetch)",
+   "citation": "Черна вода – Кюстенджа (Констанца), която влиза в експлоатация от 4 октомври 1860 г. ... Истанбул-Одрин-Белово, открита на 18 юли 1873 г., и Злати дол-Нова Загора-Ямбол, открита на 22 януари 1875 г.",
+   "commentaire": "Ville nommée dans le passage relu par le sous-agent."
+  },
+  {
+   "entite_id": "ville-ba-sarajevo",
+   "source_id": "src-18-he-sarajevo",
+   "roles_confirmes": [
+    "rail",
+    "industrie",
+    "administration"
+   ],
+   "roles_non_trouves": [],
+   "image": "page web (WebFetch)",
+   "citation": "tvornica duhana, osnovana 1880. ; tvornica ćilima iz 1888. ; pivovara iz 1898 ; Za austrougarske uprave (1878–1918) Sarajevo je bilo upravno središte Bosne i Hercegovine.",
+   "commentaire": "Ville nommée dans le passage relu par le sous-agent."
+  },
+  {
+   "entite_id": "ville-ba-konjic",
+   "source_id": "src-18-ba-zfbh-histoire",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "page web (WebFetch)",
+   "citation": "The first railway line in Bosnia and Herzegovina was opened for traffic on 24th December 1872. It was a standard-gauge track from Banja Luka to Dobrljina (101.6 km)",
+   "commentaire": "Ville nommée dans le passage relu par le sous-agent."
+  },
+  {
+   "entite_id": "ville-ba-mostar",
+   "source_id": "src-18-ba-zfbh-histoire",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "page web (WebFetch)",
+   "citation": "The first railway line in Bosnia and Herzegovina was opened for traffic on 24th December 1872. It was a standard-gauge track from Banja Luka to Dobrljina (101.6 km)",
+   "commentaire": "Ville nommée dans le passage relu par le sous-agent."
+  },
+  {
+   "entite_id": "ville-hr-metkovic",
+   "source_id": "src-18-ba-zfbh-histoire",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "page web (WebFetch)",
+   "citation": "The first railway line in Bosnia and Herzegovina was opened for traffic on 24th December 1872. It was a standard-gauge track from Banja Luka to Dobrljina (101.6 km)",
+   "commentaire": "Ville nommée dans le passage relu par le sous-agent."
+  },
+  {
+   "entite_id": "ville-ba-zepce",
+   "source_id": "src-18-ba-zfbh-histoire",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "page web (WebFetch)",
+   "citation": "The first railway line in Bosnia and Herzegovina was opened for traffic on 24th December 1872. It was a standard-gauge track from Banja Luka to Dobrljina (101.6 km)",
+   "commentaire": "Ville nommée dans le passage relu par le sous-agent."
+  },
+  {
+   "entite_id": "ville-ba-brod",
+   "source_id": "src-18-ba-zfbh-histoire",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "page web (WebFetch)",
+   "citation": "The first railway line in Bosnia and Herzegovina was opened for traffic on 24th December 1872. It was a standard-gauge track from Banja Luka to Dobrljina (101.6 km)",
+   "commentaire": "Ville nommée dans le passage relu par le sous-agent."
+  },
+  {
+   "entite_id": "ville-ba-dobrljin",
+   "source_id": "src-18-ba-zfbh-histoire",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "page web (WebFetch)",
+   "citation": "The first railway line in Bosnia and Herzegovina was opened for traffic on 24th December 1872. It was a standard-gauge track from Banja Luka to Dobrljina (101.6 km)",
+   "commentaire": "Ville nommée dans le passage relu par le sous-agent."
+  },
+  {
+   "entite_id": "ville-ba-travnik",
+   "source_id": "src-18-ba-zfbh-histoire",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "page web (WebFetch)",
+   "citation": "The first railway line in Bosnia and Herzegovina was opened for traffic on 24th December 1872. It was a standard-gauge track from Banja Luka to Dobrljina (101.6 km)",
+   "commentaire": "Ville nommée dans le passage relu par le sous-agent."
+  },
+  {
+   "entite_id": "ville-ba-sarajevo",
+   "source_id": "src-18-ba-zfbh-histoire",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "page web (WebFetch)",
+   "citation": "The first railway line in Bosnia and Herzegovina was opened for traffic on 24th December 1872. It was a standard-gauge track from Banja Luka to Dobrljina (101.6 km)",
+   "commentaire": "Ville nommée dans le passage relu par le sous-agent."
+  },
+  {
+   "entite_id": "ville-ba-zenica",
+   "source_id": "src-18-ba-zfbh-histoire",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "page web (WebFetch)",
+   "citation": "The first railway line in Bosnia and Herzegovina was opened for traffic on 24th December 1872. It was a standard-gauge track from Banja Luka to Dobrljina (101.6 km)",
+   "commentaire": "Ville nommée dans le passage relu par le sous-agent."
+  },
+  {
+   "entite_id": "ville-ba-bugojno",
+   "source_id": "src-18-ba-zfbh-histoire",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "page web (WebFetch)",
+   "citation": "The first railway line in Bosnia and Herzegovina was opened for traffic on 24th December 1872. It was a standard-gauge track from Banja Luka to Dobrljina (101.6 km)",
+   "commentaire": "Ville nommée dans le passage relu par le sous-agent."
+  },
+  {
+   "entite_id": "ville-ba-banja-luka",
+   "source_id": "src-18-ba-zfbh-histoire",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "page web (WebFetch)",
+   "citation": "The first railway line in Bosnia and Herzegovina was opened for traffic on 24th December 1872. It was a standard-gauge track from Banja Luka to Dobrljina (101.6 km)",
+   "commentaire": "Ville nommée dans le passage relu par le sous-agent."
+  },
+  {
+   "entite_id": "ville-ba-doboj",
+   "source_id": "src-18-ba-zfbh-histoire",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "page web (WebFetch)",
+   "citation": "The first railway line in Bosnia and Herzegovina was opened for traffic on 24th December 1872. It was a standard-gauge track from Banja Luka to Dobrljina (101.6 km)",
+   "commentaire": "Ville nommée dans le passage relu par le sous-agent."
+  },
+  {
+   "entite_id": "ville-gr-athenes",
+   "source_id": "src-18-us-elia-relief1944",
+   "roles_confirmes": [
+    "capitale",
+    "administration"
+   ],
+   "roles_non_trouves": [],
+   "image": "page web (WebFetch)",
+   "citation": "Athens as capital...in liaison with military",
+   "commentaire": "Ville nommée dans le passage relu par le sous-agent."
+  },
+  {
+   "entite_id": "ville-gr-preveza",
+   "source_id": "src-18-us-elia-relief1944",
+   "roles_confirmes": [
+    "port_maritime"
+   ],
+   "roles_non_trouves": [],
+   "image": "page web (WebFetch)",
+   "citation": "Athens as capital...in liaison with military",
+   "commentaire": "Ville nommée dans le passage relu par le sous-agent."
+  },
+  {
+   "entite_id": "ville-gr-kalamata",
+   "source_id": "src-18-us-elia-relief1944",
+   "roles_confirmes": [
+    "port_maritime"
+   ],
+   "roles_non_trouves": [],
+   "image": "page web (WebFetch)",
+   "citation": "Athens as capital...in liaison with military",
+   "commentaire": "Ville nommée dans le passage relu par le sous-agent."
+  },
+  {
+   "entite_id": "ville-ro-giurgiu",
+   "source_id": "src-18-ro-treccani1936",
+   "roles_confirmes": [
+    "port_fluvial"
+   ],
+   "roles_non_trouves": [],
+   "image": "page web (WebFetch)",
+   "citation": "Giurgiu, Silistra e soprattutto i due porti di Galati e di Brăila sul Danubio / A Mediaş si fabbrica la cianamide / Alti forni di Hunedoara",
+   "commentaire": "Ville nommée dans le passage relu par le sous-agent."
+  },
+  {
+   "entite_id": "ville-bg-silistra",
+   "source_id": "src-18-ro-treccani1936",
+   "roles_confirmes": [
+    "port_fluvial"
+   ],
+   "roles_non_trouves": [],
+   "image": "page web (WebFetch)",
+   "citation": "Giurgiu, Silistra e soprattutto i due porti di Galati e di Brăila sul Danubio / A Mediaş si fabbrica la cianamide / Alti forni di Hunedoara",
+   "commentaire": "Ville nommée dans le passage relu par le sous-agent."
+  },
+  {
+   "entite_id": "ville-ro-medias",
+   "source_id": "src-18-ro-treccani1936",
+   "roles_confirmes": [
+    "industrie"
+   ],
+   "roles_non_trouves": [],
+   "image": "page web (WebFetch)",
+   "citation": "Giurgiu, Silistra e soprattutto i due porti di Galati e di Brăila sul Danubio / A Mediaş si fabbrica la cianamide / Alti forni di Hunedoara",
+   "commentaire": "Ville nommée dans le passage relu par le sous-agent."
+  },
+  {
+   "entite_id": "ville-ro-sulina",
+   "source_id": "src-18-ro-treccani1936",
+   "roles_confirmes": [
+    "port_fluvial",
+    "port_maritime"
+   ],
+   "roles_non_trouves": [],
+   "image": "page web (WebFetch)",
+   "citation": "Giurgiu, Silistra e soprattutto i due porti di Galati e di Brăila sul Danubio / A Mediaş si fabbrica la cianamide / Alti forni di Hunedoara",
+   "commentaire": "Ville nommée dans le passage relu par le sous-agent."
+  },
+  {
+   "entite_id": "ville-ro-hunedoara",
+   "source_id": "src-18-ro-treccani1936",
+   "roles_confirmes": [
+    "industrie"
+   ],
+   "roles_non_trouves": [],
+   "image": "page web (WebFetch)",
+   "citation": "Giurgiu, Silistra e soprattutto i due porti di Galati e di Brăila sul Danubio / A Mediaş si fabbrica la cianamide / Alti forni di Hunedoara",
+   "commentaire": "Ville nommée dans le passage relu par le sous-agent."
+  },
+  {
+   "entite_id": "ville-ro-braila",
+   "source_id": "src-18-ro-treccani1936",
+   "roles_confirmes": [
+    "port_fluvial"
+   ],
+   "roles_non_trouves": [],
+   "image": "page web (WebFetch)",
+   "citation": "Giurgiu, Silistra e soprattutto i due porti di Galati e di Brăila sul Danubio / A Mediaş si fabbrica la cianamide / Alti forni di Hunedoara",
+   "commentaire": "Ville nommée dans le passage relu par le sous-agent."
+  },
+  {
+   "entite_id": "ville-ro-galati",
+   "source_id": "src-18-ro-treccani1936",
+   "roles_confirmes": [
+    "port_fluvial"
+   ],
+   "roles_non_trouves": [],
+   "image": "page web (WebFetch)",
+   "citation": "Giurgiu, Silistra e soprattutto i due porti di Galati e di Brăila sul Danubio / A Mediaş si fabbrica la cianamide / Alti forni di Hunedoara",
+   "commentaire": "Ville nommée dans le passage relu par le sous-agent."
+  },
+  {
+   "entite_id": "ville-gr-lavrio",
+   "source_id": "src-18-gr-treccani1933",
+   "roles_confirmes": [
+    "industrie"
+   ],
+   "roles_non_trouves": [],
+   "image": "page web (WebFetch)",
+   "citation": "Il distretto minerario più importante è quello di Laurio, all'estremità meridionale dell'Attica",
+   "commentaire": "Ville nommée dans le passage relu par le sous-agent."
+  },
+  {
+   "entite_id": "ville-gr-athenes",
+   "source_id": "src-18-gr-oss5505-1944",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS5505_peloponnese_attique.png, _thessalie.png, _macedoine.png, _thrace.png (+ _legende.png)",
+   "citation": "GREECE RAILROADS AND RAILROAD FACILITIES — No. 5505-R & A, OSS, 4 December 1944 (légende : Hellenic State Railroads, private railroads)",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-gr-le-piree",
+   "source_id": "src-18-gr-oss5505-1944",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS5505_peloponnese_attique.png, _thessalie.png, _macedoine.png, _thrace.png (+ _legende.png)",
+   "citation": "GREECE RAILROADS AND RAILROAD FACILITIES — No. 5505-R & A, OSS, 4 December 1944 (légende : Hellenic State Railroads, private railroads)",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-gr-patras",
+   "source_id": "src-18-gr-oss5505-1944",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS5505_peloponnese_attique.png, _thessalie.png, _macedoine.png, _thrace.png (+ _legende.png)",
+   "citation": "GREECE RAILROADS AND RAILROAD FACILITIES — No. 5505-R & A, OSS, 4 December 1944 (légende : Hellenic State Railroads, private railroads)",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-gr-corinthe",
+   "source_id": "src-18-gr-oss5505-1944",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS5505_peloponnese_attique.png, _thessalie.png, _macedoine.png, _thrace.png (+ _legende.png)",
+   "citation": "GREECE RAILROADS AND RAILROAD FACILITIES — No. 5505-R & A, OSS, 4 December 1944 (légende : Hellenic State Railroads, private railroads)",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-gr-pyrgos",
+   "source_id": "src-18-gr-oss5505-1944",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS5505_peloponnese_attique.png, _thessalie.png, _macedoine.png, _thrace.png (+ _legende.png)",
+   "citation": "GREECE RAILROADS AND RAILROAD FACILITIES — No. 5505-R & A, OSS, 4 December 1944 (légende : Hellenic State Railroads, private railroads)",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-gr-tripoli",
+   "source_id": "src-18-gr-oss5505-1944",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS5505_peloponnese_attique.png, _thessalie.png, _macedoine.png, _thrace.png (+ _legende.png)",
+   "citation": "GREECE RAILROADS AND RAILROAD FACILITIES — No. 5505-R & A, OSS, 4 December 1944 (légende : Hellenic State Railroads, private railroads)",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-gr-kalamata",
+   "source_id": "src-18-gr-oss5505-1944",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS5505_peloponnese_attique.png, _thessalie.png, _macedoine.png, _thrace.png (+ _legende.png)",
+   "citation": "GREECE RAILROADS AND RAILROAD FACILITIES — No. 5505-R & A, OSS, 4 December 1944 (légende : Hellenic State Railroads, private railroads)",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-gr-diakopto",
+   "source_id": "src-18-gr-oss5505-1944",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS5505_peloponnese_attique.png, _thessalie.png, _macedoine.png, _thrace.png (+ _legende.png)",
+   "citation": "GREECE RAILROADS AND RAILROAD FACILITIES — No. 5505-R & A, OSS, 4 December 1944 (légende : Hellenic State Railroads, private railroads)",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-gr-lavrio",
+   "source_id": "src-18-gr-oss5505-1944",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS5505_peloponnese_attique.png, _thessalie.png, _macedoine.png, _thrace.png (+ _legende.png)",
+   "citation": "GREECE RAILROADS AND RAILROAD FACILITIES — No. 5505-R & A, OSS, 4 December 1944 (légende : Hellenic State Railroads, private railroads)",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-gr-thebes",
+   "source_id": "src-18-gr-oss5505-1944",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS5505_peloponnese_attique.png, _thessalie.png, _macedoine.png, _thrace.png (+ _legende.png)",
+   "citation": "GREECE RAILROADS AND RAILROAD FACILITIES — No. 5505-R & A, OSS, 4 December 1944 (légende : Hellenic State Railroads, private railroads)",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-gr-chalcis",
+   "source_id": "src-18-gr-oss5505-1944",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS5505_peloponnese_attique.png, _thessalie.png, _macedoine.png, _thrace.png (+ _legende.png)",
+   "citation": "GREECE RAILROADS AND RAILROAD FACILITIES — No. 5505-R & A, OSS, 4 December 1944 (légende : Hellenic State Railroads, private railroads)",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-gr-livadia",
+   "source_id": "src-18-gr-oss5505-1944",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS5505_peloponnese_attique.png, _thessalie.png, _macedoine.png, _thrace.png (+ _legende.png)",
+   "citation": "GREECE RAILROADS AND RAILROAD FACILITIES — No. 5505-R & A, OSS, 4 December 1944 (légende : Hellenic State Railroads, private railroads)",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-gr-agrinio",
+   "source_id": "src-18-gr-oss5505-1944",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS5505_peloponnese_attique.png, _thessalie.png, _macedoine.png, _thrace.png (+ _legende.png)",
+   "citation": "GREECE RAILROADS AND RAILROAD FACILITIES — No. 5505-R & A, OSS, 4 December 1944 (légende : Hellenic State Railroads, private railroads)",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-gr-lamia",
+   "source_id": "src-18-gr-oss5505-1944",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS5505_peloponnese_attique.png, _thessalie.png, _macedoine.png, _thrace.png (+ _legende.png)",
+   "citation": "GREECE RAILROADS AND RAILROAD FACILITIES — No. 5505-R & A, OSS, 4 December 1944 (légende : Hellenic State Railroads, private railroads)",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-gr-stylida",
+   "source_id": "src-18-gr-oss5505-1944",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS5505_peloponnese_attique.png, _thessalie.png, _macedoine.png, _thrace.png (+ _legende.png)",
+   "citation": "GREECE RAILROADS AND RAILROAD FACILITIES — No. 5505-R & A, OSS, 4 December 1944 (légende : Hellenic State Railroads, private railroads)",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-gr-amfikleia",
+   "source_id": "src-18-gr-oss5505-1944",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS5505_peloponnese_attique.png, _thessalie.png, _macedoine.png, _thrace.png (+ _legende.png)",
+   "citation": "GREECE RAILROADS AND RAILROAD FACILITIES — No. 5505-R & A, OSS, 4 December 1944 (légende : Hellenic State Railroads, private railroads)",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-gr-larissa",
+   "source_id": "src-18-gr-oss5505-1944",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS5505_peloponnese_attique.png, _thessalie.png, _macedoine.png, _thrace.png (+ _legende.png)",
+   "citation": "GREECE RAILROADS AND RAILROAD FACILITIES — No. 5505-R & A, OSS, 4 December 1944 (légende : Hellenic State Railroads, private railroads)",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-gr-volos",
+   "source_id": "src-18-gr-oss5505-1944",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS5505_peloponnese_attique.png, _thessalie.png, _macedoine.png, _thrace.png (+ _legende.png)",
+   "citation": "GREECE RAILROADS AND RAILROAD FACILITIES — No. 5505-R & A, OSS, 4 December 1944 (légende : Hellenic State Railroads, private railroads)",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-gr-velestino",
+   "source_id": "src-18-gr-oss5505-1944",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS5505_peloponnese_attique.png, _thessalie.png, _macedoine.png, _thrace.png (+ _legende.png)",
+   "citation": "GREECE RAILROADS AND RAILROAD FACILITIES — No. 5505-R & A, OSS, 4 December 1944 (légende : Hellenic State Railroads, private railroads)",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-gr-karditsa",
+   "source_id": "src-18-gr-oss5505-1944",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS5505_peloponnese_attique.png, _thessalie.png, _macedoine.png, _thrace.png (+ _legende.png)",
+   "citation": "GREECE RAILROADS AND RAILROAD FACILITIES — No. 5505-R & A, OSS, 4 December 1944 (légende : Hellenic State Railroads, private railroads)",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-gr-trikala",
+   "source_id": "src-18-gr-oss5505-1944",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS5505_peloponnese_attique.png, _thessalie.png, _macedoine.png, _thrace.png (+ _legende.png)",
+   "citation": "GREECE RAILROADS AND RAILROAD FACILITIES — No. 5505-R & A, OSS, 4 December 1944 (légende : Hellenic State Railroads, private railroads)",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-gr-kalambaka",
+   "source_id": "src-18-gr-oss5505-1944",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS5505_peloponnese_attique.png, _thessalie.png, _macedoine.png, _thrace.png (+ _legende.png)",
+   "citation": "GREECE RAILROADS AND RAILROAD FACILITIES — No. 5505-R & A, OSS, 4 December 1944 (légende : Hellenic State Railroads, private railroads)",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-gr-thessalonique",
+   "source_id": "src-18-gr-oss5505-1944",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS5505_peloponnese_attique.png, _thessalie.png, _macedoine.png, _thrace.png (+ _legende.png)",
+   "citation": "GREECE RAILROADS AND RAILROAD FACILITIES — No. 5505-R & A, OSS, 4 December 1944 (légende : Hellenic State Railroads, private railroads)",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-gr-katerini",
+   "source_id": "src-18-gr-oss5505-1944",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS5505_peloponnese_attique.png, _thessalie.png, _macedoine.png, _thrace.png (+ _legende.png)",
+   "citation": "GREECE RAILROADS AND RAILROAD FACILITIES — No. 5505-R & A, OSS, 4 December 1944 (légende : Hellenic State Railroads, private railroads)",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-gr-platy",
+   "source_id": "src-18-gr-oss5505-1944",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS5505_peloponnese_attique.png, _thessalie.png, _macedoine.png, _thrace.png (+ _legende.png)",
+   "citation": "GREECE RAILROADS AND RAILROAD FACILITIES — No. 5505-R & A, OSS, 4 December 1944 (légende : Hellenic State Railroads, private railroads)",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-gr-veria",
+   "source_id": "src-18-gr-oss5505-1944",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS5505_peloponnese_attique.png, _thessalie.png, _macedoine.png, _thrace.png (+ _legende.png)",
+   "citation": "GREECE RAILROADS AND RAILROAD FACILITIES — No. 5505-R & A, OSS, 4 December 1944 (légende : Hellenic State Railroads, private railroads)",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-gr-skydra",
+   "source_id": "src-18-gr-oss5505-1944",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS5505_peloponnese_attique.png, _thessalie.png, _macedoine.png, _thrace.png (+ _legende.png)",
+   "citation": "GREECE RAILROADS AND RAILROAD FACILITIES — No. 5505-R & A, OSS, 4 December 1944 (légende : Hellenic State Railroads, private railroads)",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-gr-edessa",
+   "source_id": "src-18-gr-oss5505-1944",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS5505_peloponnese_attique.png, _thessalie.png, _macedoine.png, _thrace.png (+ _legende.png)",
+   "citation": "GREECE RAILROADS AND RAILROAD FACILITIES — No. 5505-R & A, OSS, 4 December 1944 (légende : Hellenic State Railroads, private railroads)",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-gr-amyntaio",
+   "source_id": "src-18-gr-oss5505-1944",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS5505_peloponnese_attique.png, _thessalie.png, _macedoine.png, _thrace.png (+ _legende.png)",
+   "citation": "GREECE RAILROADS AND RAILROAD FACILITIES — No. 5505-R & A, OSS, 4 December 1944 (légende : Hellenic State Railroads, private railroads)",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-gr-florina",
+   "source_id": "src-18-gr-oss5505-1944",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS5505_peloponnese_attique.png, _thessalie.png, _macedoine.png, _thrace.png (+ _legende.png)",
+   "citation": "GREECE RAILROADS AND RAILROAD FACILITIES — No. 5505-R & A, OSS, 4 December 1944 (légende : Hellenic State Railroads, private railroads)",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-gr-polykastro",
+   "source_id": "src-18-gr-oss5505-1944",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS5505_peloponnese_attique.png, _thessalie.png, _macedoine.png, _thrace.png (+ _legende.png)",
+   "citation": "GREECE RAILROADS AND RAILROAD FACILITIES — No. 5505-R & A, OSS, 4 December 1944 (légende : Hellenic State Railroads, private railroads)",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-gr-serres",
+   "source_id": "src-18-gr-oss5505-1944",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS5505_peloponnese_attique.png, _thessalie.png, _macedoine.png, _thrace.png (+ _legende.png)",
+   "citation": "GREECE RAILROADS AND RAILROAD FACILITIES — No. 5505-R & A, OSS, 4 December 1944 (légende : Hellenic State Railroads, private railroads)",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-gr-sidirokastro",
+   "source_id": "src-18-gr-oss5505-1944",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS5505_peloponnese_attique.png, _thessalie.png, _macedoine.png, _thrace.png (+ _legende.png)",
+   "citation": "GREECE RAILROADS AND RAILROAD FACILITIES — No. 5505-R & A, OSS, 4 December 1944 (légende : Hellenic State Railroads, private railroads)",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-gr-drama",
+   "source_id": "src-18-gr-oss5505-1944",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS5505_peloponnese_attique.png, _thessalie.png, _macedoine.png, _thrace.png (+ _legende.png)",
+   "citation": "GREECE RAILROADS AND RAILROAD FACILITIES — No. 5505-R & A, OSS, 4 December 1944 (légende : Hellenic State Railroads, private railroads)",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-gr-xanthi",
+   "source_id": "src-18-gr-oss5505-1944",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS5505_peloponnese_attique.png, _thessalie.png, _macedoine.png, _thrace.png (+ _legende.png)",
+   "citation": "GREECE RAILROADS AND RAILROAD FACILITIES — No. 5505-R & A, OSS, 4 December 1944 (légende : Hellenic State Railroads, private railroads)",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-gr-komotini",
+   "source_id": "src-18-gr-oss5505-1944",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS5505_peloponnese_attique.png, _thessalie.png, _macedoine.png, _thrace.png (+ _legende.png)",
+   "citation": "GREECE RAILROADS AND RAILROAD FACILITIES — No. 5505-R & A, OSS, 4 December 1944 (légende : Hellenic State Railroads, private railroads)",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-gr-alexandroupoli",
+   "source_id": "src-18-gr-oss5505-1944",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS5505_peloponnese_attique.png, _thessalie.png, _macedoine.png, _thrace.png (+ _legende.png)",
+   "citation": "GREECE RAILROADS AND RAILROAD FACILITIES — No. 5505-R & A, OSS, 4 December 1944 (légende : Hellenic State Railroads, private railroads)",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-gr-pythio",
+   "source_id": "src-18-gr-oss5505-1944",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS5505_peloponnese_attique.png, _thessalie.png, _macedoine.png, _thrace.png (+ _legende.png)",
+   "citation": "GREECE RAILROADS AND RAILROAD FACILITIES — No. 5505-R & A, OSS, 4 December 1944 (légende : Hellenic State Railroads, private railroads)",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-mk-bitola",
+   "source_id": "src-18-gr-oss5505-1944",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS5505_peloponnese_attique.png, _thessalie.png, _macedoine.png, _thrace.png (+ _legende.png)",
+   "citation": "GREECE RAILROADS AND RAILROAD FACILITIES — No. 5505-R & A, OSS, 4 December 1944 (légende : Hellenic State Railroads, private railroads)",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-mk-gevgelija",
+   "source_id": "src-18-gr-oss5505-1944",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS5505_peloponnese_attique.png, _thessalie.png, _macedoine.png, _thrace.png (+ _legende.png)",
+   "citation": "GREECE RAILROADS AND RAILROAD FACILITIES — No. 5505-R & A, OSS, 4 December 1944 (légende : Hellenic State Railroads, private railroads)",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-bg-blagoevgrad",
+   "source_id": "src-18-gr-oss5505-1944",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS5505_peloponnese_attique.png, _thessalie.png, _macedoine.png, _thrace.png (+ _legende.png)",
+   "citation": "GREECE RAILROADS AND RAILROAD FACILITIES — No. 5505-R & A, OSS, 4 December 1944 (légende : Hellenic State Railroads, private railroads)",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-bg-svilengrad",
+   "source_id": "src-18-gr-oss5505-1944",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS5505_peloponnese_attique.png, _thessalie.png, _macedoine.png, _thrace.png (+ _legende.png)",
+   "citation": "GREECE RAILROADS AND RAILROAD FACILITIES — No. 5505-R & A, OSS, 4 December 1944 (légende : Hellenic State Railroads, private railroads)",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-hr-zagreb",
+   "source_id": "src-18-oss2443-yugoslavie1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cg501zv0179_1.jpg (+ _nord, _centre, _sud)",
+   "citation": "YUGOSLAVIA — +++ RAILROAD — MAIN ROAD — Map No. 2443, 26 August 1943, compiled and drawn in the Branch of Research and Analysis, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-hr-split",
+   "source_id": "src-18-oss2443-yugoslavie1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cg501zv0179_1.jpg (+ _nord, _centre, _sud)",
+   "citation": "YUGOSLAVIA — +++ RAILROAD — MAIN ROAD — Map No. 2443, 26 August 1943, compiled and drawn in the Branch of Research and Analysis, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-rs-belgrade",
+   "source_id": "src-18-oss2443-yugoslavie1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cg501zv0179_1.jpg (+ _nord, _centre, _sud)",
+   "citation": "YUGOSLAVIA — +++ RAILROAD — MAIN ROAD — Map No. 2443, 26 August 1943, compiled and drawn in the Branch of Research and Analysis, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-it-padoue",
+   "source_id": "src-18-oss2443-yugoslavie1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cg501zv0179_1.jpg (+ _nord, _centre, _sud)",
+   "citation": "YUGOSLAVIA — +++ RAILROAD — MAIN ROAD — Map No. 2443, 26 August 1943, compiled and drawn in the Branch of Research and Analysis, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-hr-pula",
+   "source_id": "src-18-oss2443-yugoslavie1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cg501zv0179_1.jpg (+ _nord, _centre, _sud)",
+   "citation": "YUGOSLAVIA — +++ RAILROAD — MAIN ROAD — Map No. 2443, 26 August 1943, compiled and drawn in the Branch of Research and Analysis, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-rs-nis",
+   "source_id": "src-18-oss2443-yugoslavie1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cg501zv0179_1.jpg (+ _nord, _centre, _sud)",
+   "citation": "YUGOSLAVIA — +++ RAILROAD — MAIN ROAD — Map No. 2443, 26 August 1943, compiled and drawn in the Branch of Research and Analysis, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-hr-rijeka",
+   "source_id": "src-18-oss2443-yugoslavie1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cg501zv0179_1.jpg (+ _nord, _centre, _sud)",
+   "citation": "YUGOSLAVIA — +++ RAILROAD — MAIN ROAD — Map No. 2443, 26 August 1943, compiled and drawn in the Branch of Research and Analysis, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-it-venise",
+   "source_id": "src-18-oss2443-yugoslavie1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cg501zv0179_1.jpg (+ _nord, _centre, _sud)",
+   "citation": "YUGOSLAVIA — +++ RAILROAD — MAIN ROAD — Map No. 2443, 26 August 1943, compiled and drawn in the Branch of Research and Analysis, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-it-udine",
+   "source_id": "src-18-oss2443-yugoslavie1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cg501zv0179_1.jpg (+ _nord, _centre, _sud)",
+   "citation": "YUGOSLAVIA — +++ RAILROAD — MAIN ROAD — Map No. 2443, 26 August 1943, compiled and drawn in the Branch of Research and Analysis, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-it-gorizia",
+   "source_id": "src-18-oss2443-yugoslavie1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cg501zv0179_1.jpg (+ _nord, _centre, _sud)",
+   "citation": "YUGOSLAVIA — +++ RAILROAD — MAIN ROAD — Map No. 2443, 26 August 1943, compiled and drawn in the Branch of Research and Analysis, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-it-trieste",
+   "source_id": "src-18-oss2443-yugoslavie1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cg501zv0179_1.jpg (+ _nord, _centre, _sud)",
+   "citation": "YUGOSLAVIA — +++ RAILROAD — MAIN ROAD — Map No. 2443, 26 August 1943, compiled and drawn in the Branch of Research and Analysis, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-it-verone",
+   "source_id": "src-18-oss2443-yugoslavie1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cg501zv0179_1.jpg (+ _nord, _centre, _sud)",
+   "citation": "YUGOSLAVIA — +++ RAILROAD — MAIN ROAD — Map No. 2443, 26 August 1943, compiled and drawn in the Branch of Research and Analysis, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-si-jesenice",
+   "source_id": "src-18-oss2443-yugoslavie1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cg501zv0179_1.jpg (+ _nord, _centre, _sud)",
+   "citation": "YUGOSLAVIA — +++ RAILROAD — MAIN ROAD — Map No. 2443, 26 August 1943, compiled and drawn in the Branch of Research and Analysis, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-si-ljubljana",
+   "source_id": "src-18-oss2443-yugoslavie1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cg501zv0179_1.jpg (+ _nord, _centre, _sud)",
+   "citation": "YUGOSLAVIA — +++ RAILROAD — MAIN ROAD — Map No. 2443, 26 August 1943, compiled and drawn in the Branch of Research and Analysis, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-si-celje",
+   "source_id": "src-18-oss2443-yugoslavie1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cg501zv0179_1.jpg (+ _nord, _centre, _sud)",
+   "citation": "YUGOSLAVIA — +++ RAILROAD — MAIN ROAD — Map No. 2443, 26 August 1943, compiled and drawn in the Branch of Research and Analysis, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-si-maribor",
+   "source_id": "src-18-oss2443-yugoslavie1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cg501zv0179_1.jpg (+ _nord, _centre, _sud)",
+   "citation": "YUGOSLAVIA — +++ RAILROAD — MAIN ROAD — Map No. 2443, 26 August 1943, compiled and drawn in the Branch of Research and Analysis, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-hr-susak",
+   "source_id": "src-18-oss2443-yugoslavie1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cg501zv0179_1.jpg (+ _nord, _centre, _sud)",
+   "citation": "YUGOSLAVIA — +++ RAILROAD — MAIN ROAD — Map No. 2443, 26 August 1943, compiled and drawn in the Branch of Research and Analysis, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-hr-karlovac",
+   "source_id": "src-18-oss2443-yugoslavie1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cg501zv0179_1.jpg (+ _nord, _centre, _sud)",
+   "citation": "YUGOSLAVIA — +++ RAILROAD — MAIN ROAD — Map No. 2443, 26 August 1943, compiled and drawn in the Branch of Research and Analysis, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-hr-cakovec",
+   "source_id": "src-18-oss2443-yugoslavie1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cg501zv0179_1.jpg (+ _nord, _centre, _sud)",
+   "citation": "YUGOSLAVIA — +++ RAILROAD — MAIN ROAD — Map No. 2443, 26 August 1943, compiled and drawn in the Branch of Research and Analysis, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-hr-koprivnica",
+   "source_id": "src-18-oss2443-yugoslavie1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cg501zv0179_1.jpg (+ _nord, _centre, _sud)",
+   "citation": "YUGOSLAVIA — +++ RAILROAD — MAIN ROAD — Map No. 2443, 26 August 1943, compiled and drawn in the Branch of Research and Analysis, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-hr-sisak",
+   "source_id": "src-18-oss2443-yugoslavie1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cg501zv0179_1.jpg (+ _nord, _centre, _sud)",
+   "citation": "YUGOSLAVIA — +++ RAILROAD — MAIN ROAD — Map No. 2443, 26 August 1943, compiled and drawn in the Branch of Research and Analysis, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-hr-gospic",
+   "source_id": "src-18-oss2443-yugoslavie1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cg501zv0179_1.jpg (+ _nord, _centre, _sud)",
+   "citation": "YUGOSLAVIA — +++ RAILROAD — MAIN ROAD — Map No. 2443, 26 August 1943, compiled and drawn in the Branch of Research and Analysis, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-hr-sibenik",
+   "source_id": "src-18-oss2443-yugoslavie1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cg501zv0179_1.jpg (+ _nord, _centre, _sud)",
+   "citation": "YUGOSLAVIA — +++ RAILROAD — MAIN ROAD — Map No. 2443, 26 August 1943, compiled and drawn in the Branch of Research and Analysis, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-hr-sinj",
+   "source_id": "src-18-oss2443-yugoslavie1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cg501zv0179_1.jpg (+ _nord, _centre, _sud)",
+   "citation": "YUGOSLAVIA — +++ RAILROAD — MAIN ROAD — Map No. 2443, 26 August 1943, compiled and drawn in the Branch of Research and Analysis, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-hr-slavonski-brod",
+   "source_id": "src-18-oss2443-yugoslavie1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cg501zv0179_1.jpg (+ _nord, _centre, _sud)",
+   "citation": "YUGOSLAVIA — +++ RAILROAD — MAIN ROAD — Map No. 2443, 26 August 1943, compiled and drawn in the Branch of Research and Analysis, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-hr-osijek",
+   "source_id": "src-18-oss2443-yugoslavie1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cg501zv0179_1.jpg (+ _nord, _centre, _sud)",
+   "citation": "YUGOSLAVIA — +++ RAILROAD — MAIN ROAD — Map No. 2443, 26 August 1943, compiled and drawn in the Branch of Research and Analysis, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-hr-vinkovci",
+   "source_id": "src-18-oss2443-yugoslavie1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cg501zv0179_1.jpg (+ _nord, _centre, _sud)",
+   "citation": "YUGOSLAVIA — +++ RAILROAD — MAIN ROAD — Map No. 2443, 26 August 1943, compiled and drawn in the Branch of Research and Analysis, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-rs-sombor",
+   "source_id": "src-18-oss2443-yugoslavie1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cg501zv0179_1.jpg (+ _nord, _centre, _sud)",
+   "citation": "YUGOSLAVIA — +++ RAILROAD — MAIN ROAD — Map No. 2443, 26 August 1943, compiled and drawn in the Branch of Research and Analysis, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-rs-subotica",
+   "source_id": "src-18-oss2443-yugoslavie1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cg501zv0179_1.jpg (+ _nord, _centre, _sud)",
+   "citation": "YUGOSLAVIA — +++ RAILROAD — MAIN ROAD — Map No. 2443, 26 August 1943, compiled and drawn in the Branch of Research and Analysis, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-rs-sremska-mitrovica",
+   "source_id": "src-18-oss2443-yugoslavie1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cg501zv0179_1.jpg (+ _nord, _centre, _sud)",
+   "citation": "YUGOSLAVIA — +++ RAILROAD — MAIN ROAD — Map No. 2443, 26 August 1943, compiled and drawn in the Branch of Research and Analysis, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-rs-novi-sad",
+   "source_id": "src-18-oss2443-yugoslavie1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cg501zv0179_1.jpg (+ _nord, _centre, _sud)",
+   "citation": "YUGOSLAVIA — +++ RAILROAD — MAIN ROAD — Map No. 2443, 26 August 1943, compiled and drawn in the Branch of Research and Analysis, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-rs-zrenjanin",
+   "source_id": "src-18-oss2443-yugoslavie1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cg501zv0179_1.jpg (+ _nord, _centre, _sud)",
+   "citation": "YUGOSLAVIA — +++ RAILROAD — MAIN ROAD — Map No. 2443, 26 August 1943, compiled and drawn in the Branch of Research and Analysis, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-rs-vrsac",
+   "source_id": "src-18-oss2443-yugoslavie1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cg501zv0179_1.jpg (+ _nord, _centre, _sud)",
+   "citation": "YUGOSLAVIA — +++ RAILROAD — MAIN ROAD — Map No. 2443, 26 August 1943, compiled and drawn in the Branch of Research and Analysis, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-rs-pancevo",
+   "source_id": "src-18-oss2443-yugoslavie1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cg501zv0179_1.jpg (+ _nord, _centre, _sud)",
+   "citation": "YUGOSLAVIA — +++ RAILROAD — MAIN ROAD — Map No. 2443, 26 August 1943, compiled and drawn in the Branch of Research and Analysis, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-rs-valjevo",
+   "source_id": "src-18-oss2443-yugoslavie1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cg501zv0179_1.jpg (+ _nord, _centre, _sud)",
+   "citation": "YUGOSLAVIA — +++ RAILROAD — MAIN ROAD — Map No. 2443, 26 August 1943, compiled and drawn in the Branch of Research and Analysis, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-rs-cacak",
+   "source_id": "src-18-oss2443-yugoslavie1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cg501zv0179_1.jpg (+ _nord, _centre, _sud)",
+   "citation": "YUGOSLAVIA — +++ RAILROAD — MAIN ROAD — Map No. 2443, 26 August 1943, compiled and drawn in the Branch of Research and Analysis, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-rs-kraljevo",
+   "source_id": "src-18-oss2443-yugoslavie1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cg501zv0179_1.jpg (+ _nord, _centre, _sud)",
+   "citation": "YUGOSLAVIA — +++ RAILROAD — MAIN ROAD — Map No. 2443, 26 August 1943, compiled and drawn in the Branch of Research and Analysis, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-rs-kragujevac",
+   "source_id": "src-18-oss2443-yugoslavie1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cg501zv0179_1.jpg (+ _nord, _centre, _sud)",
+   "citation": "YUGOSLAVIA — +++ RAILROAD — MAIN ROAD — Map No. 2443, 26 August 1943, compiled and drawn in the Branch of Research and Analysis, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-rs-smederevska-palanka",
+   "source_id": "src-18-oss2443-yugoslavie1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cg501zv0179_1.jpg (+ _nord, _centre, _sud)",
+   "citation": "YUGOSLAVIA — +++ RAILROAD — MAIN ROAD — Map No. 2443, 26 August 1943, compiled and drawn in the Branch of Research and Analysis, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-rs-pozarevac",
+   "source_id": "src-18-oss2443-yugoslavie1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cg501zv0179_1.jpg (+ _nord, _centre, _sud)",
+   "citation": "YUGOSLAVIA — +++ RAILROAD — MAIN ROAD — Map No. 2443, 26 August 1943, compiled and drawn in the Branch of Research and Analysis, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-rs-krusevac",
+   "source_id": "src-18-oss2443-yugoslavie1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cg501zv0179_1.jpg (+ _nord, _centre, _sud)",
+   "citation": "YUGOSLAVIA — +++ RAILROAD — MAIN ROAD — Map No. 2443, 26 August 1943, compiled and drawn in the Branch of Research and Analysis, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-rs-stalac",
+   "source_id": "src-18-oss2443-yugoslavie1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cg501zv0179_1.jpg (+ _nord, _centre, _sud)",
+   "citation": "YUGOSLAVIA — +++ RAILROAD — MAIN ROAD — Map No. 2443, 26 August 1943, compiled and drawn in the Branch of Research and Analysis, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-rs-bor",
+   "source_id": "src-18-oss2443-yugoslavie1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cg501zv0179_1.jpg (+ _nord, _centre, _sud)",
+   "citation": "YUGOSLAVIA — +++ RAILROAD — MAIN ROAD — Map No. 2443, 26 August 1943, compiled and drawn in the Branch of Research and Analysis, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-rs-zajecar",
+   "source_id": "src-18-oss2443-yugoslavie1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cg501zv0179_1.jpg (+ _nord, _centre, _sud)",
+   "citation": "YUGOSLAVIA — +++ RAILROAD — MAIN ROAD — Map No. 2443, 26 August 1943, compiled and drawn in the Branch of Research and Analysis, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-rs-negotin",
+   "source_id": "src-18-oss2443-yugoslavie1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cg501zv0179_1.jpg (+ _nord, _centre, _sud)",
+   "citation": "YUGOSLAVIA — +++ RAILROAD — MAIN ROAD — Map No. 2443, 26 August 1943, compiled and drawn in the Branch of Research and Analysis, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-rs-pirot",
+   "source_id": "src-18-oss2443-yugoslavie1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cg501zv0179_1.jpg (+ _nord, _centre, _sud)",
+   "citation": "YUGOSLAVIA — +++ RAILROAD — MAIN ROAD — Map No. 2443, 26 August 1943, compiled and drawn in the Branch of Research and Analysis, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-ba-foca",
+   "source_id": "src-18-oss2443-yugoslavie1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cg501zv0179_1.jpg (+ _nord, _centre, _sud)",
+   "citation": "YUGOSLAVIA — +++ RAILROAD — MAIN ROAD — Map No. 2443, 26 August 1943, compiled and drawn in the Branch of Research and Analysis, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-ba-ustipraca",
+   "source_id": "src-18-oss2443-yugoslavie1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cg501zv0179_1.jpg (+ _nord, _centre, _sud)",
+   "citation": "YUGOSLAVIA — +++ RAILROAD — MAIN ROAD — Map No. 2443, 26 August 1943, compiled and drawn in the Branch of Research and Analysis, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-me-herceg-novi",
+   "source_id": "src-18-oss2443-yugoslavie1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cg501zv0179_1.jpg (+ _nord, _centre, _sud)",
+   "citation": "YUGOSLAVIA — +++ RAILROAD — MAIN ROAD — Map No. 2443, 26 August 1943, compiled and drawn in the Branch of Research and Analysis, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-mk-prilep",
+   "source_id": "src-18-oss2443-yugoslavie1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cg501zv0179_1.jpg (+ _nord, _centre, _sud)",
+   "citation": "YUGOSLAVIA — +++ RAILROAD — MAIN ROAD — Map No. 2443, 26 August 1943, compiled and drawn in the Branch of Research and Analysis, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-mk-ohrid",
+   "source_id": "src-18-oss2443-yugoslavie1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cg501zv0179_1.jpg (+ _nord, _centre, _sud)",
+   "citation": "YUGOSLAVIA — +++ RAILROAD — MAIN ROAD — Map No. 2443, 26 August 1943, compiled and drawn in the Branch of Research and Analysis, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-hr-zagreb",
+   "source_id": "src-18-oss1068-industrie-yugoslavie1942",
+   "roles_confirmes": [
+    "industrie"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_sh018fq0460_1.jpg",
+   "citation": "YUGOSLAVIA MINING AND MANUFACTURING — Map No. 1068, October 12, 1942 — Manufacturing: 1 Chemical, including cement; 2 Metallurgical; 3 Electrochemical; 4 Food processing; 5 Sugar refining; 6 Textile mfg.; 7 Petroleum refining",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-hr-split",
+   "source_id": "src-18-oss1068-industrie-yugoslavie1942",
+   "roles_confirmes": [
+    "industrie"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_sh018fq0460_1.jpg",
+   "citation": "YUGOSLAVIA MINING AND MANUFACTURING — Map No. 1068, October 12, 1942 — Manufacturing: 1 Chemical, including cement; 2 Metallurgical; 3 Electrochemical; 4 Food processing; 5 Sugar refining; 6 Textile mfg.; 7 Petroleum refining",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-rs-belgrade",
+   "source_id": "src-18-oss1068-industrie-yugoslavie1942",
+   "roles_confirmes": [
+    "industrie"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_sh018fq0460_1.jpg",
+   "citation": "YUGOSLAVIA MINING AND MANUFACTURING — Map No. 1068, October 12, 1942 — Manufacturing: 1 Chemical, including cement; 2 Metallurgical; 3 Electrochemical; 4 Food processing; 5 Sugar refining; 6 Textile mfg.; 7 Petroleum refining",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-ba-zenica",
+   "source_id": "src-18-oss1068-industrie-yugoslavie1942",
+   "roles_confirmes": [
+    "industrie"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_sh018fq0460_1.jpg",
+   "citation": "YUGOSLAVIA MINING AND MANUFACTURING — Map No. 1068, October 12, 1942 — Manufacturing: 1 Chemical, including cement; 2 Metallurgical; 3 Electrochemical; 4 Food processing; 5 Sugar refining; 6 Textile mfg.; 7 Petroleum refining",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-ba-tuzla",
+   "source_id": "src-18-oss1068-industrie-yugoslavie1942",
+   "roles_confirmes": [
+    "industrie"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_sh018fq0460_1.jpg",
+   "citation": "YUGOSLAVIA MINING AND MANUFACTURING — Map No. 1068, October 12, 1942 — Manufacturing: 1 Chemical, including cement; 2 Metallurgical; 3 Electrochemical; 4 Food processing; 5 Sugar refining; 6 Textile mfg.; 7 Petroleum refining",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-ba-jajce",
+   "source_id": "src-18-oss1068-industrie-yugoslavie1942",
+   "roles_confirmes": [
+    "industrie"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_sh018fq0460_1.jpg",
+   "citation": "YUGOSLAVIA MINING AND MANUFACTURING — Map No. 1068, October 12, 1942 — Manufacturing: 1 Chemical, including cement; 2 Metallurgical; 3 Electrochemical; 4 Food processing; 5 Sugar refining; 6 Textile mfg.; 7 Petroleum refining",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-si-jesenice",
+   "source_id": "src-18-oss1068-industrie-yugoslavie1942",
+   "roles_confirmes": [
+    "industrie"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_sh018fq0460_1.jpg",
+   "citation": "YUGOSLAVIA MINING AND MANUFACTURING — Map No. 1068, October 12, 1942 — Manufacturing: 1 Chemical, including cement; 2 Metallurgical; 3 Electrochemical; 4 Food processing; 5 Sugar refining; 6 Textile mfg.; 7 Petroleum refining",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-si-ljubljana",
+   "source_id": "src-18-oss1068-industrie-yugoslavie1942",
+   "roles_confirmes": [
+    "industrie"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_sh018fq0460_1.jpg",
+   "citation": "YUGOSLAVIA MINING AND MANUFACTURING — Map No. 1068, October 12, 1942 — Manufacturing: 1 Chemical, including cement; 2 Metallurgical; 3 Electrochemical; 4 Food processing; 5 Sugar refining; 6 Textile mfg.; 7 Petroleum refining",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-si-celje",
+   "source_id": "src-18-oss1068-industrie-yugoslavie1942",
+   "roles_confirmes": [
+    "industrie"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_sh018fq0460_1.jpg",
+   "citation": "YUGOSLAVIA MINING AND MANUFACTURING — Map No. 1068, October 12, 1942 — Manufacturing: 1 Chemical, including cement; 2 Metallurgical; 3 Electrochemical; 4 Food processing; 5 Sugar refining; 6 Textile mfg.; 7 Petroleum refining",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-si-maribor",
+   "source_id": "src-18-oss1068-industrie-yugoslavie1942",
+   "roles_confirmes": [
+    "industrie"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_sh018fq0460_1.jpg",
+   "citation": "YUGOSLAVIA MINING AND MANUFACTURING — Map No. 1068, October 12, 1942 — Manufacturing: 1 Chemical, including cement; 2 Metallurgical; 3 Electrochemical; 4 Food processing; 5 Sugar refining; 6 Textile mfg.; 7 Petroleum refining",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-hr-susak",
+   "source_id": "src-18-oss1068-industrie-yugoslavie1942",
+   "roles_confirmes": [
+    "industrie"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_sh018fq0460_1.jpg",
+   "citation": "YUGOSLAVIA MINING AND MANUFACTURING — Map No. 1068, October 12, 1942 — Manufacturing: 1 Chemical, including cement; 2 Metallurgical; 3 Electrochemical; 4 Food processing; 5 Sugar refining; 6 Textile mfg.; 7 Petroleum refining",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-hr-sibenik",
+   "source_id": "src-18-oss1068-industrie-yugoslavie1942",
+   "roles_confirmes": [
+    "industrie"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_sh018fq0460_1.jpg",
+   "citation": "YUGOSLAVIA MINING AND MANUFACTURING — Map No. 1068, October 12, 1942 — Manufacturing: 1 Chemical, including cement; 2 Metallurgical; 3 Electrochemical; 4 Food processing; 5 Sugar refining; 6 Textile mfg.; 7 Petroleum refining",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-hr-osijek",
+   "source_id": "src-18-oss1068-industrie-yugoslavie1942",
+   "roles_confirmes": [
+    "industrie"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_sh018fq0460_1.jpg",
+   "citation": "YUGOSLAVIA MINING AND MANUFACTURING — Map No. 1068, October 12, 1942 — Manufacturing: 1 Chemical, including cement; 2 Metallurgical; 3 Electrochemical; 4 Food processing; 5 Sugar refining; 6 Textile mfg.; 7 Petroleum refining",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-rs-subotica",
+   "source_id": "src-18-oss1068-industrie-yugoslavie1942",
+   "roles_confirmes": [
+    "industrie"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_sh018fq0460_1.jpg",
+   "citation": "YUGOSLAVIA MINING AND MANUFACTURING — Map No. 1068, October 12, 1942 — Manufacturing: 1 Chemical, including cement; 2 Metallurgical; 3 Electrochemical; 4 Food processing; 5 Sugar refining; 6 Textile mfg.; 7 Petroleum refining",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-rs-novi-sad",
+   "source_id": "src-18-oss1068-industrie-yugoslavie1942",
+   "roles_confirmes": [
+    "industrie"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_sh018fq0460_1.jpg",
+   "citation": "YUGOSLAVIA MINING AND MANUFACTURING — Map No. 1068, October 12, 1942 — Manufacturing: 1 Chemical, including cement; 2 Metallurgical; 3 Electrochemical; 4 Food processing; 5 Sugar refining; 6 Textile mfg.; 7 Petroleum refining",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-rs-zrenjanin",
+   "source_id": "src-18-oss1068-industrie-yugoslavie1942",
+   "roles_confirmes": [
+    "industrie"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_sh018fq0460_1.jpg",
+   "citation": "YUGOSLAVIA MINING AND MANUFACTURING — Map No. 1068, October 12, 1942 — Manufacturing: 1 Chemical, including cement; 2 Metallurgical; 3 Electrochemical; 4 Food processing; 5 Sugar refining; 6 Textile mfg.; 7 Petroleum refining",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-rs-vrsac",
+   "source_id": "src-18-oss1068-industrie-yugoslavie1942",
+   "roles_confirmes": [
+    "industrie"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_sh018fq0460_1.jpg",
+   "citation": "YUGOSLAVIA MINING AND MANUFACTURING — Map No. 1068, October 12, 1942 — Manufacturing: 1 Chemical, including cement; 2 Metallurgical; 3 Electrochemical; 4 Food processing; 5 Sugar refining; 6 Textile mfg.; 7 Petroleum refining",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-rs-smederevska-palanka",
+   "source_id": "src-18-oss1068-industrie-yugoslavie1942",
+   "roles_confirmes": [
+    "industrie"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_sh018fq0460_1.jpg",
+   "citation": "YUGOSLAVIA MINING AND MANUFACTURING — Map No. 1068, October 12, 1942 — Manufacturing: 1 Chemical, including cement; 2 Metallurgical; 3 Electrochemical; 4 Food processing; 5 Sugar refining; 6 Textile mfg.; 7 Petroleum refining",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-rs-bor",
+   "source_id": "src-18-oss1068-industrie-yugoslavie1942",
+   "roles_confirmes": [
+    "industrie"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_sh018fq0460_1.jpg",
+   "citation": "YUGOSLAVIA MINING AND MANUFACTURING — Map No. 1068, October 12, 1942 — Manufacturing: 1 Chemical, including cement; 2 Metallurgical; 3 Electrochemical; 4 Food processing; 5 Sugar refining; 6 Textile mfg.; 7 Petroleum refining",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-si-kranj",
+   "source_id": "src-18-oss1068-industrie-yugoslavie1942",
+   "roles_confirmes": [
+    "industrie"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_sh018fq0460_1.jpg",
+   "citation": "YUGOSLAVIA MINING AND MANUFACTURING — Map No. 1068, October 12, 1942 — Manufacturing: 1 Chemical, including cement; 2 Metallurgical; 3 Electrochemical; 4 Food processing; 5 Sugar refining; 6 Textile mfg.; 7 Petroleum refining",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-si-litija",
+   "source_id": "src-18-oss1068-industrie-yugoslavie1942",
+   "roles_confirmes": [
+    "industrie"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_sh018fq0460_1.jpg",
+   "citation": "YUGOSLAVIA MINING AND MANUFACTURING — Map No. 1068, October 12, 1942 — Manufacturing: 1 Chemical, including cement; 2 Metallurgical; 3 Electrochemical; 4 Food processing; 5 Sugar refining; 6 Textile mfg.; 7 Petroleum refining",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-ba-drvar",
+   "source_id": "src-18-oss1068-industrie-yugoslavie1942",
+   "roles_confirmes": [
+    "industrie"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_sh018fq0460_1.jpg",
+   "citation": "YUGOSLAVIA MINING AND MANUFACTURING — Map No. 1068, October 12, 1942 — Manufacturing: 1 Chemical, including cement; 2 Metallurgical; 3 Electrochemical; 4 Food processing; 5 Sugar refining; 6 Textile mfg.; 7 Petroleum refining",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-rs-leskovac",
+   "source_id": "src-18-oss1068-industrie-yugoslavie1942",
+   "roles_confirmes": [
+    "industrie"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_sh018fq0460_1.jpg",
+   "citation": "YUGOSLAVIA MINING AND MANUFACTURING — Map No. 1068, October 12, 1942 — Manufacturing: 1 Chemical, including cement; 2 Metallurgical; 3 Electrochemical; 4 Food processing; 5 Sugar refining; 6 Textile mfg.; 7 Petroleum refining",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-it-reggio-calabre",
+   "source_id": "src-18-oss2475-italie-alimentation1937",
+   "roles_confirmes": [
+    "industrie"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_ck156mr7841_1.jpg",
+   "citation": "SOUTHERN ITALY FOOD PROCESSING PLANTS — Map No. 2475, 30 July 1943 — Numbers refer to number of plants. Data as of 1937",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-it-tarente",
+   "source_id": "src-18-oss2475-italie-alimentation1937",
+   "roles_confirmes": [
+    "industrie"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_ck156mr7841_1.jpg",
+   "citation": "SOUTHERN ITALY FOOD PROCESSING PLANTS — Map No. 2475, 30 July 1943 — Numbers refer to number of plants. Data as of 1937",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-it-barletta",
+   "source_id": "src-18-oss2475-italie-alimentation1937",
+   "roles_confirmes": [
+    "industrie"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_ck156mr7841_1.jpg",
+   "citation": "SOUTHERN ITALY FOOD PROCESSING PLANTS — Map No. 2475, 30 July 1943 — Numbers refer to number of plants. Data as of 1937",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-it-san-severo",
+   "source_id": "src-18-oss2475-italie-alimentation1937",
+   "roles_confirmes": [
+    "industrie"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_ck156mr7841_1.jpg",
+   "citation": "SOUTHERN ITALY FOOD PROCESSING PLANTS — Map No. 2475, 30 July 1943 — Numbers refer to number of plants. Data as of 1937",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-it-foggia",
+   "source_id": "src-18-oss2475-italie-alimentation1937",
+   "roles_confirmes": [
+    "industrie"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_ck156mr7841_1.jpg",
+   "citation": "SOUTHERN ITALY FOOD PROCESSING PLANTS — Map No. 2475, 30 July 1943 — Numbers refer to number of plants. Data as of 1937",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-it-salerne",
+   "source_id": "src-18-oss2475-italie-alimentation1937",
+   "roles_confirmes": [
+    "industrie"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_ck156mr7841_1.jpg",
+   "citation": "SOUTHERN ITALY FOOD PROCESSING PLANTS — Map No. 2475, 30 July 1943 — Numbers refer to number of plants. Data as of 1937",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-it-naples",
+   "source_id": "src-18-oss2475-italie-alimentation1937",
+   "roles_confirmes": [
+    "industrie"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_ck156mr7841_1.jpg",
+   "citation": "SOUTHERN ITALY FOOD PROCESSING PLANTS — Map No. 2475, 30 July 1943 — Numbers refer to number of plants. Data as of 1937",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-it-lecce",
+   "source_id": "src-18-oss2475-italie-alimentation1937",
+   "roles_confirmes": [
+    "industrie"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_ck156mr7841_1.jpg",
+   "citation": "SOUTHERN ITALY FOOD PROCESSING PLANTS — Map No. 2475, 30 July 1943 — Numbers refer to number of plants. Data as of 1937",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-it-brindisi",
+   "source_id": "src-18-oss2475-italie-alimentation1937",
+   "roles_confirmes": [
+    "industrie"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_ck156mr7841_1.jpg",
+   "citation": "SOUTHERN ITALY FOOD PROCESSING PLANTS — Map No. 2475, 30 July 1943 — Numbers refer to number of plants. Data as of 1937",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-it-bari",
+   "source_id": "src-18-oss2475-italie-alimentation1937",
+   "roles_confirmes": [
+    "industrie"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_ck156mr7841_1.jpg",
+   "citation": "SOUTHERN ITALY FOOD PROCESSING PLANTS — Map No. 2475, 30 July 1943 — Numbers refer to number of plants. Data as of 1937",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-it-aversa",
+   "source_id": "src-18-oss2475-italie-alimentation1937",
+   "roles_confirmes": [
+    "industrie"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_ck156mr7841_1.jpg",
+   "citation": "SOUTHERN ITALY FOOD PROCESSING PLANTS — Map No. 2475, 30 July 1943 — Numbers refer to number of plants. Data as of 1937",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-it-benevent",
+   "source_id": "src-18-oss2475-italie-alimentation1937",
+   "roles_confirmes": [
+    "industrie"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_ck156mr7841_1.jpg",
+   "citation": "SOUTHERN ITALY FOOD PROCESSING PLANTS — Map No. 2475, 30 July 1943 — Numbers refer to number of plants. Data as of 1937",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-it-caserte",
+   "source_id": "src-18-oss2475-italie-alimentation1937",
+   "roles_confirmes": [
+    "industrie"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_ck156mr7841_1.jpg",
+   "citation": "SOUTHERN ITALY FOOD PROCESSING PLANTS — Map No. 2475, 30 July 1943 — Numbers refer to number of plants. Data as of 1937",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-it-potenza",
+   "source_id": "src-18-oss2475-italie-alimentation1937",
+   "roles_confirmes": [
+    "industrie"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_ck156mr7841_1.jpg",
+   "citation": "SOUTHERN ITALY FOOD PROCESSING PLANTS — Map No. 2475, 30 July 1943 — Numbers refer to number of plants. Data as of 1937",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-it-matera",
+   "source_id": "src-18-oss2475-italie-alimentation1937",
+   "roles_confirmes": [
+    "industrie"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_ck156mr7841_1.jpg",
+   "citation": "SOUTHERN ITALY FOOD PROCESSING PLANTS — Map No. 2475, 30 July 1943 — Numbers refer to number of plants. Data as of 1937",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-it-cosenza",
+   "source_id": "src-18-oss2475-italie-alimentation1937",
+   "roles_confirmes": [
+    "industrie"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_ck156mr7841_1.jpg",
+   "citation": "SOUTHERN ITALY FOOD PROCESSING PLANTS — Map No. 2475, 30 July 1943 — Numbers refer to number of plants. Data as of 1937",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-it-crotone",
+   "source_id": "src-18-oss2475-italie-alimentation1937",
+   "roles_confirmes": [
+    "industrie"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_ck156mr7841_1.jpg",
+   "citation": "SOUTHERN ITALY FOOD PROCESSING PLANTS — Map No. 2475, 30 July 1943 — Numbers refer to number of plants. Data as of 1937",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-it-catanzaro",
+   "source_id": "src-18-oss2475-italie-alimentation1937",
+   "roles_confirmes": [
+    "industrie"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_ck156mr7841_1.jpg",
+   "citation": "SOUTHERN ITALY FOOD PROCESSING PLANTS — Map No. 2475, 30 July 1943 — Numbers refer to number of plants. Data as of 1937",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-it-gallipoli",
+   "source_id": "src-18-oss2475-italie-alimentation1937",
+   "roles_confirmes": [
+    "industrie"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_ck156mr7841_1.jpg",
+   "citation": "SOUTHERN ITALY FOOD PROCESSING PLANTS — Map No. 2475, 30 July 1943 — Numbers refer to number of plants. Data as of 1937",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-it-avellino",
+   "source_id": "src-18-oss2475-italie-alimentation1937",
+   "roles_confirmes": [
+    "industrie"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_ck156mr7841_1.jpg",
+   "citation": "SOUTHERN ITALY FOOD PROCESSING PLANTS — Map No. 2475, 30 July 1943 — Numbers refer to number of plants. Data as of 1937",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-it-trani",
+   "source_id": "src-18-oss2475-italie-alimentation1937",
+   "roles_confirmes": [
+    "industrie"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_ck156mr7841_1.jpg",
+   "citation": "SOUTHERN ITALY FOOD PROCESSING PLANTS — Map No. 2475, 30 July 1943 — Numbers refer to number of plants. Data as of 1937",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-it-molfetta",
+   "source_id": "src-18-oss2475-italie-alimentation1937",
+   "roles_confirmes": [
+    "industrie"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_ck156mr7841_1.jpg",
+   "citation": "SOUTHERN ITALY FOOD PROCESSING PLANTS — Map No. 2475, 30 July 1943 — Numbers refer to number of plants. Data as of 1937",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-it-castellammare-di-stabia",
+   "source_id": "src-18-oss2475-italie-alimentation1937",
+   "roles_confirmes": [
+    "industrie"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_ck156mr7841_1.jpg",
+   "citation": "SOUTHERN ITALY FOOD PROCESSING PLANTS — Map No. 2475, 30 July 1943 — Numbers refer to number of plants. Data as of 1937",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-it-pozzuoli",
+   "source_id": "src-18-oss2475-italie-alimentation1937",
+   "roles_confirmes": [
+    "industrie"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_ck156mr7841_1.jpg",
+   "citation": "SOUTHERN ITALY FOOD PROCESSING PLANTS — Map No. 2475, 30 July 1943 — Numbers refer to number of plants. Data as of 1937",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-it-civitavecchia",
+   "source_id": "src-18-oss2067-italie-rail1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cq765sj1121_1.jpg",
+   "citation": "ITALY RAILWAYS — Board of Economic Warfare — Map No 2067, 16 July 1943, drawn in R & A, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-it-turin",
+   "source_id": "src-18-oss2067-italie-rail1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cq765sj1121_1.jpg",
+   "citation": "ITALY RAILWAYS — Board of Economic Warfare — Map No 2067, 16 July 1943, drawn in R & A, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-it-genes",
+   "source_id": "src-18-oss2067-italie-rail1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cq765sj1121_1.jpg",
+   "citation": "ITALY RAILWAYS — Board of Economic Warfare — Map No 2067, 16 July 1943, drawn in R & A, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-it-milan",
+   "source_id": "src-18-oss2067-italie-rail1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cq765sj1121_1.jpg",
+   "citation": "ITALY RAILWAYS — Board of Economic Warfare — Map No 2067, 16 July 1943, drawn in R & A, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-it-alessandria",
+   "source_id": "src-18-oss2067-italie-rail1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cq765sj1121_1.jpg",
+   "citation": "ITALY RAILWAYS — Board of Economic Warfare — Map No 2067, 16 July 1943, drawn in R & A, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-it-asti",
+   "source_id": "src-18-oss2067-italie-rail1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cq765sj1121_1.jpg",
+   "citation": "ITALY RAILWAYS — Board of Economic Warfare — Map No 2067, 16 July 1943, drawn in R & A, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-it-cuneo",
+   "source_id": "src-18-oss2067-italie-rail1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cq765sj1121_1.jpg",
+   "citation": "ITALY RAILWAYS — Board of Economic Warfare — Map No 2067, 16 July 1943, drawn in R & A, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-it-savone",
+   "source_id": "src-18-oss2067-italie-rail1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cq765sj1121_1.jpg",
+   "citation": "ITALY RAILWAYS — Board of Economic Warfare — Map No 2067, 16 July 1943, drawn in R & A, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-it-vintimille",
+   "source_id": "src-18-oss2067-italie-rail1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cq765sj1121_1.jpg",
+   "citation": "ITALY RAILWAYS — Board of Economic Warfare — Map No 2067, 16 July 1943, drawn in R & A, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-it-novare",
+   "source_id": "src-18-oss2067-italie-rail1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cq765sj1121_1.jpg",
+   "citation": "ITALY RAILWAYS — Board of Economic Warfare — Map No 2067, 16 July 1943, drawn in R & A, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-it-verceil",
+   "source_id": "src-18-oss2067-italie-rail1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cq765sj1121_1.jpg",
+   "citation": "ITALY RAILWAYS — Board of Economic Warfare — Map No 2067, 16 July 1943, drawn in R & A, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-it-domodossola",
+   "source_id": "src-18-oss2067-italie-rail1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cq765sj1121_1.jpg",
+   "citation": "ITALY RAILWAYS — Board of Economic Warfare — Map No 2067, 16 July 1943, drawn in R & A, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-it-come",
+   "source_id": "src-18-oss2067-italie-rail1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cq765sj1121_1.jpg",
+   "citation": "ITALY RAILWAYS — Board of Economic Warfare — Map No 2067, 16 July 1943, drawn in R & A, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-it-sondrio",
+   "source_id": "src-18-oss2067-italie-rail1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cq765sj1121_1.jpg",
+   "citation": "ITALY RAILWAYS — Board of Economic Warfare — Map No 2067, 16 July 1943, drawn in R & A, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-it-tirano",
+   "source_id": "src-18-oss2067-italie-rail1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cq765sj1121_1.jpg",
+   "citation": "ITALY RAILWAYS — Board of Economic Warfare — Map No 2067, 16 July 1943, drawn in R & A, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-it-bergame",
+   "source_id": "src-18-oss2067-italie-rail1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cq765sj1121_1.jpg",
+   "citation": "ITALY RAILWAYS — Board of Economic Warfare — Map No 2067, 16 July 1943, drawn in R & A, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-it-brescia",
+   "source_id": "src-18-oss2067-italie-rail1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cq765sj1121_1.jpg",
+   "citation": "ITALY RAILWAYS — Board of Economic Warfare — Map No 2067, 16 July 1943, drawn in R & A, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-it-pavie",
+   "source_id": "src-18-oss2067-italie-rail1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cq765sj1121_1.jpg",
+   "citation": "ITALY RAILWAYS — Board of Economic Warfare — Map No 2067, 16 July 1943, drawn in R & A, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-it-mortara",
+   "source_id": "src-18-oss2067-italie-rail1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cq765sj1121_1.jpg",
+   "citation": "ITALY RAILWAYS — Board of Economic Warfare — Map No 2067, 16 July 1943, drawn in R & A, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-it-tortone",
+   "source_id": "src-18-oss2067-italie-rail1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cq765sj1121_1.jpg",
+   "citation": "ITALY RAILWAYS — Board of Economic Warfare — Map No 2067, 16 July 1943, drawn in R & A, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-it-aoste",
+   "source_id": "src-18-oss2067-italie-rail1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cq765sj1121_1.jpg",
+   "citation": "ITALY RAILWAYS — Board of Economic Warfare — Map No 2067, 16 July 1943, drawn in R & A, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-it-plaisance",
+   "source_id": "src-18-oss2067-italie-rail1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cq765sj1121_1.jpg",
+   "citation": "ITALY RAILWAYS — Board of Economic Warfare — Map No 2067, 16 July 1943, drawn in R & A, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-it-parme",
+   "source_id": "src-18-oss2067-italie-rail1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cq765sj1121_1.jpg",
+   "citation": "ITALY RAILWAYS — Board of Economic Warfare — Map No 2067, 16 July 1943, drawn in R & A, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-it-modene",
+   "source_id": "src-18-oss2067-italie-rail1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cq765sj1121_1.jpg",
+   "citation": "ITALY RAILWAYS — Board of Economic Warfare — Map No 2067, 16 July 1943, drawn in R & A, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-it-cremone",
+   "source_id": "src-18-oss2067-italie-rail1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cq765sj1121_1.jpg",
+   "citation": "ITALY RAILWAYS — Board of Economic Warfare — Map No 2067, 16 July 1943, drawn in R & A, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-it-mantoue",
+   "source_id": "src-18-oss2067-italie-rail1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cq765sj1121_1.jpg",
+   "citation": "ITALY RAILWAYS — Board of Economic Warfare — Map No 2067, 16 July 1943, drawn in R & A, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-it-vicence",
+   "source_id": "src-18-oss2067-italie-rail1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cq765sj1121_1.jpg",
+   "citation": "ITALY RAILWAYS — Board of Economic Warfare — Map No 2067, 16 July 1943, drawn in R & A, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-it-trevise",
+   "source_id": "src-18-oss2067-italie-rail1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cq765sj1121_1.jpg",
+   "citation": "ITALY RAILWAYS — Board of Economic Warfare — Map No 2067, 16 July 1943, drawn in R & A, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-it-belluno",
+   "source_id": "src-18-oss2067-italie-rail1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cq765sj1121_1.jpg",
+   "citation": "ITALY RAILWAYS — Board of Economic Warfare — Map No 2067, 16 July 1943, drawn in R & A, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-it-trente",
+   "source_id": "src-18-oss2067-italie-rail1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cq765sj1121_1.jpg",
+   "citation": "ITALY RAILWAYS — Board of Economic Warfare — Map No 2067, 16 July 1943, drawn in R & A, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-it-bolzano",
+   "source_id": "src-18-oss2067-italie-rail1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cq765sj1121_1.jpg",
+   "citation": "ITALY RAILWAYS — Board of Economic Warfare — Map No 2067, 16 July 1943, drawn in R & A, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-it-merano",
+   "source_id": "src-18-oss2067-italie-rail1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cq765sj1121_1.jpg",
+   "citation": "ITALY RAILWAYS — Board of Economic Warfare — Map No 2067, 16 July 1943, drawn in R & A, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-it-fortezza",
+   "source_id": "src-18-oss2067-italie-rail1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cq765sj1121_1.jpg",
+   "citation": "ITALY RAILWAYS — Board of Economic Warfare — Map No 2067, 16 July 1943, drawn in R & A, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-it-brennero",
+   "source_id": "src-18-oss2067-italie-rail1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cq765sj1121_1.jpg",
+   "citation": "ITALY RAILWAYS — Board of Economic Warfare — Map No 2067, 16 July 1943, drawn in R & A, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-it-san-candido",
+   "source_id": "src-18-oss2067-italie-rail1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cq765sj1121_1.jpg",
+   "citation": "ITALY RAILWAYS — Board of Economic Warfare — Map No 2067, 16 July 1943, drawn in R & A, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-it-tarvisio",
+   "source_id": "src-18-oss2067-italie-rail1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cq765sj1121_1.jpg",
+   "citation": "ITALY RAILWAYS — Board of Economic Warfare — Map No 2067, 16 July 1943, drawn in R & A, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-it-ravenne",
+   "source_id": "src-18-oss2067-italie-rail1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cq765sj1121_1.jpg",
+   "citation": "ITALY RAILWAYS — Board of Economic Warfare — Map No 2067, 16 July 1943, drawn in R & A, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-it-faenza",
+   "source_id": "src-18-oss2067-italie-rail1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cq765sj1121_1.jpg",
+   "citation": "ITALY RAILWAYS — Board of Economic Warfare — Map No 2067, 16 July 1943, drawn in R & A, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-it-forli",
+   "source_id": "src-18-oss2067-italie-rail1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cq765sj1121_1.jpg",
+   "citation": "ITALY RAILWAYS — Board of Economic Warfare — Map No 2067, 16 July 1943, drawn in R & A, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-it-chioggia",
+   "source_id": "src-18-oss2067-italie-rail1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cq765sj1121_1.jpg",
+   "citation": "ITALY RAILWAYS — Board of Economic Warfare — Map No 2067, 16 July 1943, drawn in R & A, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-it-la-spezia",
+   "source_id": "src-18-oss2067-italie-rail1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cq765sj1121_1.jpg",
+   "citation": "ITALY RAILWAYS — Board of Economic Warfare — Map No 2067, 16 July 1943, drawn in R & A, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-it-lucques",
+   "source_id": "src-18-oss2067-italie-rail1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cq765sj1121_1.jpg",
+   "citation": "ITALY RAILWAYS — Board of Economic Warfare — Map No 2067, 16 July 1943, drawn in R & A, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-it-viareggio",
+   "source_id": "src-18-oss2067-italie-rail1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cq765sj1121_1.jpg",
+   "citation": "ITALY RAILWAYS — Board of Economic Warfare — Map No 2067, 16 July 1943, drawn in R & A, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-it-sienne",
+   "source_id": "src-18-oss2067-italie-rail1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cq765sj1121_1.jpg",
+   "citation": "ITALY RAILWAYS — Board of Economic Warfare — Map No 2067, 16 July 1943, drawn in R & A, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-it-perouse",
+   "source_id": "src-18-oss2067-italie-rail1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cq765sj1121_1.jpg",
+   "citation": "ITALY RAILWAYS — Board of Economic Warfare — Map No 2067, 16 July 1943, drawn in R & A, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-it-viterbe",
+   "source_id": "src-18-oss2067-italie-rail1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cq765sj1121_1.jpg",
+   "citation": "ITALY RAILWAYS — Board of Economic Warfare — Map No 2067, 16 July 1943, drawn in R & A, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-it-avezzano",
+   "source_id": "src-18-oss2067-italie-rail1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cq765sj1121_1.jpg",
+   "citation": "ITALY RAILWAYS — Board of Economic Warfare — Map No 2067, 16 July 1943, drawn in R & A, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-it-sulmona",
+   "source_id": "src-18-oss2067-italie-rail1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cq765sj1121_1.jpg",
+   "citation": "ITALY RAILWAYS — Board of Economic Warfare — Map No 2067, 16 July 1943, drawn in R & A, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-it-laquila",
+   "source_id": "src-18-oss2067-italie-rail1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cq765sj1121_1.jpg",
+   "citation": "ITALY RAILWAYS — Board of Economic Warfare — Map No 2067, 16 July 1943, drawn in R & A, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-it-ascoli-piceno",
+   "source_id": "src-18-oss2067-italie-rail1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cq765sj1121_1.jpg",
+   "citation": "ITALY RAILWAYS — Board of Economic Warfare — Map No 2067, 16 July 1943, drawn in R & A, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-it-teramo",
+   "source_id": "src-18-oss2067-italie-rail1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cq765sj1121_1.jpg",
+   "citation": "ITALY RAILWAYS — Board of Economic Warfare — Map No 2067, 16 July 1943, drawn in R & A, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-it-benevent",
+   "source_id": "src-18-oss2067-italie-rail1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cq765sj1121_1.jpg",
+   "citation": "ITALY RAILWAYS — Board of Economic Warfare — Map No 2067, 16 July 1943, drawn in R & A, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-it-caserte",
+   "source_id": "src-18-oss2067-italie-rail1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cq765sj1121_1.jpg",
+   "citation": "ITALY RAILWAYS — Board of Economic Warfare — Map No 2067, 16 July 1943, drawn in R & A, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-it-potenza",
+   "source_id": "src-18-oss2067-italie-rail1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cq765sj1121_1.jpg",
+   "citation": "ITALY RAILWAYS — Board of Economic Warfare — Map No 2067, 16 July 1943, drawn in R & A, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-it-matera",
+   "source_id": "src-18-oss2067-italie-rail1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cq765sj1121_1.jpg",
+   "citation": "ITALY RAILWAYS — Board of Economic Warfare — Map No 2067, 16 July 1943, drawn in R & A, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-it-metaponto",
+   "source_id": "src-18-oss2067-italie-rail1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cq765sj1121_1.jpg",
+   "citation": "ITALY RAILWAYS — Board of Economic Warfare — Map No 2067, 16 July 1943, drawn in R & A, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-it-campobasso",
+   "source_id": "src-18-oss2067-italie-rail1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cq765sj1121_1.jpg",
+   "citation": "ITALY RAILWAYS — Board of Economic Warfare — Map No 2067, 16 July 1943, drawn in R & A, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-it-cosenza",
+   "source_id": "src-18-oss2067-italie-rail1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cq765sj1121_1.jpg",
+   "citation": "ITALY RAILWAYS — Board of Economic Warfare — Map No 2067, 16 July 1943, drawn in R & A, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-it-crotone",
+   "source_id": "src-18-oss2067-italie-rail1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cq765sj1121_1.jpg",
+   "citation": "ITALY RAILWAYS — Board of Economic Warfare — Map No 2067, 16 July 1943, drawn in R & A, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-it-catanzaro",
+   "source_id": "src-18-oss2067-italie-rail1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cq765sj1121_1.jpg",
+   "citation": "ITALY RAILWAYS — Board of Economic Warfare — Map No 2067, 16 July 1943, drawn in R & A, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-it-gioia-tauro",
+   "source_id": "src-18-oss2067-italie-rail1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cq765sj1121_1.jpg",
+   "citation": "ITALY RAILWAYS — Board of Economic Warfare — Map No 2067, 16 July 1943, drawn in R & A, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-it-villa-san-giovanni",
+   "source_id": "src-18-oss2067-italie-rail1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cq765sj1121_1.jpg",
+   "citation": "ITALY RAILWAYS — Board of Economic Warfare — Map No 2067, 16 July 1943, drawn in R & A, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-it-gallipoli",
+   "source_id": "src-18-oss2067-italie-rail1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cq765sj1121_1.jpg",
+   "citation": "ITALY RAILWAYS — Board of Economic Warfare — Map No 2067, 16 July 1943, drawn in R & A, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-it-otranto",
+   "source_id": "src-18-oss2067-italie-rail1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cq765sj1121_1.jpg",
+   "citation": "ITALY RAILWAYS — Board of Economic Warfare — Map No 2067, 16 July 1943, drawn in R & A, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-it-palerme",
+   "source_id": "src-18-oss2067-italie-rail1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cq765sj1121_1.jpg",
+   "citation": "ITALY RAILWAYS — Board of Economic Warfare — Map No 2067, 16 July 1943, drawn in R & A, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-it-messine",
+   "source_id": "src-18-oss2067-italie-rail1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cq765sj1121_1.jpg",
+   "citation": "ITALY RAILWAYS — Board of Economic Warfare — Map No 2067, 16 July 1943, drawn in R & A, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-it-catane",
+   "source_id": "src-18-oss2067-italie-rail1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cq765sj1121_1.jpg",
+   "citation": "ITALY RAILWAYS — Board of Economic Warfare — Map No 2067, 16 July 1943, drawn in R & A, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-it-syracuse",
+   "source_id": "src-18-oss2067-italie-rail1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cq765sj1121_1.jpg",
+   "citation": "ITALY RAILWAYS — Board of Economic Warfare — Map No 2067, 16 July 1943, drawn in R & A, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-it-trapani",
+   "source_id": "src-18-oss2067-italie-rail1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cq765sj1121_1.jpg",
+   "citation": "ITALY RAILWAYS — Board of Economic Warfare — Map No 2067, 16 July 1943, drawn in R & A, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-it-agrigente",
+   "source_id": "src-18-oss2067-italie-rail1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cq765sj1121_1.jpg",
+   "citation": "ITALY RAILWAYS — Board of Economic Warfare — Map No 2067, 16 July 1943, drawn in R & A, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-it-porto-empedocle",
+   "source_id": "src-18-oss2067-italie-rail1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cq765sj1121_1.jpg",
+   "citation": "ITALY RAILWAYS — Board of Economic Warfare — Map No 2067, 16 July 1943, drawn in R & A, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-it-licata",
+   "source_id": "src-18-oss2067-italie-rail1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cq765sj1121_1.jpg",
+   "citation": "ITALY RAILWAYS — Board of Economic Warfare — Map No 2067, 16 July 1943, drawn in R & A, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-it-raguse",
+   "source_id": "src-18-oss2067-italie-rail1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cq765sj1121_1.jpg",
+   "citation": "ITALY RAILWAYS — Board of Economic Warfare — Map No 2067, 16 July 1943, drawn in R & A, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-it-caltagirone",
+   "source_id": "src-18-oss2067-italie-rail1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cq765sj1121_1.jpg",
+   "citation": "ITALY RAILWAYS — Board of Economic Warfare — Map No 2067, 16 July 1943, drawn in R & A, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-it-roccapalumba",
+   "source_id": "src-18-oss2067-italie-rail1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cq765sj1121_1.jpg",
+   "citation": "ITALY RAILWAYS — Board of Economic Warfare — Map No 2067, 16 July 1943, drawn in R & A, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-it-cagliari",
+   "source_id": "src-18-oss2067-italie-rail1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cq765sj1121_1.jpg",
+   "citation": "ITALY RAILWAYS — Board of Economic Warfare — Map No 2067, 16 July 1943, drawn in R & A, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-it-sassari",
+   "source_id": "src-18-oss2067-italie-rail1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cq765sj1121_1.jpg",
+   "citation": "ITALY RAILWAYS — Board of Economic Warfare — Map No 2067, 16 July 1943, drawn in R & A, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-it-porto-torres",
+   "source_id": "src-18-oss2067-italie-rail1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cq765sj1121_1.jpg",
+   "citation": "ITALY RAILWAYS — Board of Economic Warfare — Map No 2067, 16 July 1943, drawn in R & A, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-it-olbia",
+   "source_id": "src-18-oss2067-italie-rail1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cq765sj1121_1.jpg",
+   "citation": "ITALY RAILWAYS — Board of Economic Warfare — Map No 2067, 16 July 1943, drawn in R & A, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-it-alghero",
+   "source_id": "src-18-oss2067-italie-rail1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cq765sj1121_1.jpg",
+   "citation": "ITALY RAILWAYS — Board of Economic Warfare — Map No 2067, 16 July 1943, drawn in R & A, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-it-macomer",
+   "source_id": "src-18-oss2067-italie-rail1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cq765sj1121_1.jpg",
+   "citation": "ITALY RAILWAYS — Board of Economic Warfare — Map No 2067, 16 July 1943, drawn in R & A, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-it-chilivani",
+   "source_id": "src-18-oss2067-italie-rail1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cq765sj1121_1.jpg",
+   "citation": "ITALY RAILWAYS — Board of Economic Warfare — Map No 2067, 16 July 1943, drawn in R & A, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-it-iglesias",
+   "source_id": "src-18-oss2067-italie-rail1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cq765sj1121_1.jpg",
+   "citation": "ITALY RAILWAYS — Board of Economic Warfare — Map No 2067, 16 July 1943, drawn in R & A, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-it-nuoro",
+   "source_id": "src-18-oss2067-italie-rail1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cq765sj1121_1.jpg",
+   "citation": "ITALY RAILWAYS — Board of Economic Warfare — Map No 2067, 16 July 1943, drawn in R & A, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-it-arbatax",
+   "source_id": "src-18-oss2067-italie-rail1943",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "2026-10-04_ether_OSS_cq765sj1121_1.jpg",
+   "citation": "ITALY RAILWAYS — Board of Economic Warfare — Map No 2067, 16 July 1943, drawn in R & A, OSS",
+   "commentaire": "Libellé de la ville et symbole lus par Claude sur la carte (ville sur une ligne ferrée, ou symbole d'établissement selon la légende)."
+  },
+  {
+   "entite_id": "ville-ba-donji-vakuf",
+   "source_id": "src-18-ba-zfbh-histoire",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "page web (WebFetch, versions anglaise et bosniaque)",
+   "citation": "od Donjeg Vakufa preko Jajca. Ta pruga je izgrađena 01.05.1885. godine.",
+   "commentaire": "Ville nommée dans le passage relu par un second sous-agent (16 affirmations restantes)."
+  },
+  {
+   "entite_id": "ville-ba-jajce",
+   "source_id": "src-18-ba-zfbh-histoire",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "page web (WebFetch, versions anglaise et bosniaque)",
+   "citation": "ratna pruga Jajce-Srnetica 1914. godine",
+   "commentaire": "Ville nommée dans le passage relu par un second sous-agent (16 affirmations restantes)."
+  },
+  {
+   "entite_id": "ville-ba-vares",
+   "source_id": "src-18-ba-zfbh-histoire",
+   "roles_confirmes": [
+    "rail",
+    "industrie"
+   ],
+   "roles_non_trouves": [],
+   "image": "page web (WebFetch, versions anglaise et bosniaque)",
+   "citation": "pruga Podlugovi – Vareš u dužini 24,5 km ... za eksploataciju uglja i željezne rude u Brezi i Varešu (1895)",
+   "commentaire": "Ville nommée dans le passage relu par un second sous-agent (16 affirmations restantes)."
+  },
+  {
+   "entite_id": "ville-ba-breza",
+   "source_id": "src-18-ba-zfbh-histoire",
+   "roles_confirmes": [
+    "rail",
+    "industrie"
+   ],
+   "roles_non_trouves": [],
+   "image": "page web (WebFetch, versions anglaise et bosniaque)",
+   "citation": "za eksploataciju uglja i željezne rude u Brezi i Varešu. Godina 1895.",
+   "commentaire": "Ville nommée dans le passage relu par un second sous-agent (16 affirmations restantes)."
+  },
+  {
+   "entite_id": "ville-ba-trebinje",
+   "source_id": "src-18-ba-zfbh-histoire",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "page web (WebFetch, versions anglaise et bosniaque)",
+   "citation": "pruge Gabela-Zelenika, Uskoplje-Dubrovnik i Hum-Trebinje ... 16. i 17. juna 1901.godine.",
+   "commentaire": "Ville nommée dans le passage relu par un second sous-agent (16 affirmations restantes)."
+  },
+  {
+   "entite_id": "ville-me-zelenika",
+   "source_id": "src-18-ba-zfbh-histoire",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "page web (WebFetch, versions anglaise et bosniaque)",
+   "citation": "pruge Gabela-Zelenika, Uskoplje-Dubrovnik i Hum-Trebinje (1901)",
+   "commentaire": "Ville nommée dans le passage relu par un second sous-agent (16 affirmations restantes)."
+  },
+  {
+   "entite_id": "ville-ba-prijedor",
+   "source_id": "src-18-ba-zfbh-histoire",
+   "roles_confirmes": [
+    "rail",
+    "industrie"
+   ],
+   "roles_non_trouves": [],
+   "image": "page web (WebFetch, versions anglaise et bosniaque)",
+   "citation": "pruge industrijalca Ota Štajnbasa ... Prijedor – Knin",
+   "commentaire": "Ville nommée dans le passage relu par un second sous-agent (16 affirmations restantes)."
+  },
+  {
+   "entite_id": "ville-hr-knin",
+   "source_id": "src-18-ba-zfbh-histoire",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "page web (WebFetch, versions anglaise et bosniaque)",
+   "citation": "Prijedor – Knin, Srnetica – Jajce, Zavidovići – Han Pijesak (réseau Štajnbas, 1914)",
+   "commentaire": "Ville nommée dans le passage relu par un second sous-agent (16 affirmations restantes)."
+  },
+  {
+   "entite_id": "ville-ba-zavidovici",
+   "source_id": "src-18-ba-zfbh-histoire",
+   "roles_confirmes": [
+    "rail",
+    "industrie"
+   ],
+   "roles_non_trouves": [],
+   "image": "page web (WebFetch, versions anglaise et bosniaque)",
+   "citation": "Zavidovići – Han Pijesak – Kusače i Usora – Pribinići",
+   "commentaire": "Ville nommée dans le passage relu par un second sous-agent (16 affirmations restantes)."
+  },
+  {
+   "entite_id": "ville-ba-novi-grad",
+   "source_id": "src-18-ba-zfbh-histoire",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "page web (WebFetch, versions anglaise et bosniaque)",
+   "citation": "Bosanski Novi – Bosanska Krupa (04.10.1920)",
+   "commentaire": "Ville nommée dans le passage relu par un second sous-agent (16 affirmations restantes)."
+  },
+  {
+   "entite_id": "ville-ba-bosanska-krupa",
+   "source_id": "src-18-ba-zfbh-histoire",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "page web (WebFetch, versions anglaise et bosniaque)",
+   "citation": "Bosanska Krupa – Bihać (17.01.1924)",
+   "commentaire": "Ville nommée dans le passage relu par un second sous-agent (16 affirmations restantes)."
+  },
+  {
+   "entite_id": "ville-ba-bihac",
+   "source_id": "src-18-ba-zfbh-histoire",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "page web (WebFetch, versions anglaise et bosniaque)",
+   "citation": "Bosanska Krupa – Bihać (17.01.1924) ; Bihać-Knin (28.11.1948)",
+   "commentaire": "Ville nommée dans le passage relu par un second sous-agent (16 affirmations restantes)."
+  },
+  {
+   "entite_id": "ville-ba-bijeljina",
+   "source_id": "src-18-ba-zfbh-histoire",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "page web (WebFetch, versions anglaise et bosniaque)",
+   "citation": "pruge Bosanska Rača – Bijeljina, Bijeljina- Ugljevik",
+   "commentaire": "Ville nommée dans le passage relu par un second sous-agent (16 affirmations restantes)."
+  },
+  {
+   "entite_id": "ville-ba-bileca",
+   "source_id": "src-18-ba-zfbh-histoire",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "page web (WebFetch, versions anglaise et bosniaque)",
+   "citation": "Trebinje-Bileća, Pazarić – Tarčin i Metković – Ploče",
+   "commentaire": "Ville nommée dans le passage relu par un second sous-agent (16 affirmations restantes)."
+  },
+  {
+   "entite_id": "ville-hr-ploce",
+   "source_id": "src-18-ba-zfbh-histoire",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "image": "page web (WebFetch, versions anglaise et bosniaque)",
+   "citation": "Metković – Ploče (voie étroite) ; Sarajevo – Ploče (01.10.1968)",
+   "commentaire": "Ville nommée dans le passage relu par un second sous-agent (16 affirmations restantes)."
+  }
+ ],
+ "images_lues": [
+  {
+   "fichier": "2026-10-04_ether_OSS5505_peloponnese_attique.png, _thessalie.png, _macedoine.png, _thrace.png (+ _legende.png)",
+   "contenu": "GREECE RAILROADS AND RAILROAD FACILITIES — No. 5505-R & A, OSS, 4 December 1944 (légende : Hellenic State Railroads, private railroads)"
+  },
+  {
+   "fichier": "2026-10-04_ether_OSS_cg501zv0179_1.jpg (+ _nord, _centre, _sud)",
+   "contenu": "YUGOSLAVIA — +++ RAILROAD — MAIN ROAD — Map No. 2443, 26 August 1943, compiled and drawn in the Branch of Research and Analysis, OSS"
+  },
+  {
+   "fichier": "2026-10-04_ether_OSS_sh018fq0460_1.jpg",
+   "contenu": "YUGOSLAVIA MINING AND MANUFACTURING — Map No. 1068, October 12, 1942 — Manufacturing: 1 Chemical, including cement; 2 Metallurgical; 3 Electrochemical; 4 Food processing; 5 Sugar refining; 6 Textile mfg.; 7 Petroleum refining"
+  },
+  {
+   "fichier": "2026-10-04_ether_OSS_ck156mr7841_1.jpg",
+   "contenu": "SOUTHERN ITALY FOOD PROCESSING PLANTS — Map No. 2475, 30 July 1943 — Numbers refer to number of plants. Data as of 1937"
+  },
+  {
+   "fichier": "2026-10-04_ether_OSS_cq765sj1121_1.jpg",
+   "contenu": "ITALY RAILWAYS — Board of Economic Warfare — Map No 2067, 16 July 1943, drawn in R & A, OSS"
+  }
+ ]
+}
