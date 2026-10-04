@@ -59,3 +59,5 @@ Avis de Claude (01/10/2026) :
 ## 7. Sources dans la langue du lecteur (04/10/2026) — plus tard, après le Snapshot 0
 
 Idée de Guizmo : le lecteur choisit sa langue, et les passages cités des sources s'affichent traduits dans cette langue (traduction automatique, avec l'original toujours visible à côté). Pour le Snapshot 0, on ne traduit rien : les citations restent dans la langue de la source (journal, 04/10/2026).
+
+Mise à jour du 04/10/2026 : en attendant, chaque source aura à l'audit final une fiche de lecture en français (ce qu'elle dit, où le lire, facilitateur de traduction selon le type : page web, PDF, image) — voir le journal du 04/10/2026.
