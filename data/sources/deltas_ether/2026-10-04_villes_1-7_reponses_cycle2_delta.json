@@ -1,0 +1,1382 @@
+{
+  "metadata_delta": {
+    "lot": "villes_1-7",
+    "cycle_prepare": 2,
+    "date": "2026-10-04T18:39:21.488422+02:00",
+    "statut": "propose_pour_integration",
+    "portee": "Fusion par union avec les compléments1.6 du même jour ; préserver vérifications et champs inconnus."
+  },
+  "sources": [
+    {
+      "source_id": "src-17-tr-atam-rail-as2021",
+      "niveau": "B",
+      "type_source": "etude_historique",
+      "titre": "Développement des chemins de fer turcs sous Atatürk — Efdal As,24/06/2021",
+      "institution": "Atatürk Araştırma Merkezi",
+      "url": "https://ataturkansiklopedisi.gov.tr/detay/921/Atat%C3%BCrk-D%C3%B6neminde-T.C.-Devlet-Demiryollar%C4%B1n%C4%B1n-Geli%C5%9Fimi",
+      "date_consultation": "2026-10-04",
+      "periode_couverte": [],
+      "zones": [],
+      "usages_atlas": [
+        "rail"
+      ],
+      "cibles": [
+        "ville-tr-adana",
+        "ville-tr-adapazari",
+        "ville-tr-afyon",
+        "ville-tr-ankara",
+        "ville-tr-arifiye",
+        "ville-tr-askale",
+        "ville-tr-aydin",
+        "ville-tr-balikesir",
+        "ville-tr-bursa",
+        "ville-tr-cetinkaya",
+        "ville-tr-divrigi",
+        "ville-tr-diyarbakir",
+        "ville-tr-elazig",
+        "ville-tr-erzincan",
+        "ville-tr-erzurum",
+        "ville-tr-eskisehir",
+        "ville-tr-filyos",
+        "ville-tr-havza",
+        "ville-tr-irmak",
+        "ville-tr-isparta",
+        "ville-tr-istanbul",
+        "ville-tr-izmir",
+        "ville-tr-kayseri",
+        "ville-tr-konya",
+        "ville-tr-kutahya",
+        "ville-tr-malatya",
+        "ville-tr-manisa",
+        "ville-tr-mudanya",
+        "ville-tr-samsun",
+        "ville-tr-sarikamis",
+        "ville-tr-sivas",
+        "ville-tr-tavsanli",
+        "ville-tr-ulukisla",
+        "ville-tr-yolcati"
+      ],
+      "locator": "Sections Dönemin Açılan Hatları et Demir Yollarında Millîleştirmeler",
+      "resume_passage": "",
+      "archive_locale": null,
+      "verification_claude": "non_verifiee",
+      "verification_ether": {
+        "date": "2026-10-03",
+        "statut": "passage_lu",
+        "limite": "Texte lu dans le navigateur après chargement JavaScript. Dates locales ci-dessous ; rail n’implique ni nœud ni débit1945. Ereğli1937 à recouper : formulation pouvant amalgamer projet et section achevée. Aucun rail à Van/Tatvan déduit du projet1937."
+      },
+      "notes": "Proposée par Ether (villes 1.7, 03/10/2026). Ce que la source prouve selon Ether : ville-tr-ankara — rail : Kayseri 1927 ; Sivas 1930; ville-tr-kayseri — rail : Kayseri 1927 ; Sivas 1930; ville-tr-sivas — rail : Kayseri 1927 ; Sivas 1930; ville-tr-malatya — rail : Malatya–mine Ergani–Diyarbakır, 1935; ville-tr-diyarbakir — rail : Malatya–mine Ergani–Diyarbakır, 1935; ville-tr-ulukisla — rail : Ouverture 1933; ville-tr-eskisehir — rail : Itinéraire antérieur par Eskişehir–Afyon–Konya vers Adana; ville-tr-konya — rail : Itinéraire antérieur par Eskişehir–Afyon–Konya vers Adana; ville-tr-adana — rail : Itinéraire antérieur à 1933; ville-tr-afyon — rail : Itinéraire antérieur à 1933; ville-tr-kutahya — rail : Kütahya–Tavşanlı1928 ; Balıkesir 1932; ville-tr-tavsanli — rail : Kütahya–Tavşanlı1928 ; Balıkesir 1932; ville-tr-balikesir — rail : Jonction 1931, exploitation 1932; ville-tr-manisa — rail : Ancien itinéraire Balıkesir–Manisa–Afyon–Eskişehir; ville-tr-erzincan — rail : Erzincan 1938 ; Aşkale et Erzurum 1939, via Divriği; ville-tr-askale — rail : Erzincan 1938 ; Aşkale et Erzurum 1939, via Divriği; ville-tr-erzurum — rail : Erzincan 1938 ; Aşkale et Erzurum 1939, via Divriği; ville-tr-divrigi — rail : Sur la ligne achevée 1939; ville-tr-sarikamis — rail : Erzurum–Sarıkamış, voie étroite; ville-tr-samsun — rail : Ligne achevée 1931, via Havza; ville-tr-havza — rail : Ligne achevée 1931, via Havza; ville-tr-cetinkaya — rail : Ouverture 1937; ville-tr-filyos — rail : Ouverture 1935; ville-tr-irmak — rail : Ouverture 1935; ville-tr-isparta — rail : Ouverture 1936; ville-tr-elazig — rail : Ouverture 1934; ville-tr-yolcati — rail : Ouverture 1934; ville-tr-istanbul — rail : Lignes rachetées 1924, dont Haydarpaşa–Ankara; ville-tr-arifiye — rail : Arifiye–Adapazarı, 1924; ville-tr-adapazari — rail : Arifiye–Adapazarı, 1924; ville-tr-mudanya — rail : Ouverture 1892, exploitation étatique 1930; ville-tr-bursa — rail : Ouverture 1892, exploitation étatique 1930; ville-tr-izmir — rail : Rachat 1935; ville-tr-aydin — rail : Rachat 1935; Les cibles différées restent des réserves ; seules les entités du JSON final sont proposées à l’import.. Limite annoncée par Ether : Texte lu dans le navigateur après chargement JavaScript. Dates locales ci-dessous ; rail n’implique ni nœud ni débit1945. Ereğli1937 à recouper : formulation pouvant amalgamer projet et section achevée. Aucun rail à Van/Tatvan déduit du projet1937. Relecture Claude 04/10/2026 : La page est une application JavaScript : WebFetch ne reçoit que le message « You need to enable JavaScript to run this app », sans le texte des sections Dönemin Açılan Hatları ni Demir Yollarında Millîleştirmeler. Aucune des dates de ligne (Kayseri 1927, Sivas 1930, etc.) n'a pu être vérifiée par cet outil.",
+      "operation_registre": "completer",
+      "complement_ether_cycle2_2026_10_04": {
+        "question": "Q17-01/02",
+        "locator": "Sections lignes construites et nationalisations 1924–1939",
+        "lecture_ether": "Captures de l’encyclopédie Atatürk : Ankara–Kayseri 1927, Sivas 1930, branches et acquisitions datées, dont Mudanya–Bursa et İzmir. Les dates ne démontrent pas la circulation sans interruption en 1944.",
+        "images_locales": [
+          {
+            "fichier": "2026-10-04_ether_Q17-01_atam_rail_page_complete.png",
+            "sha256": "97a21ce0c6f885119e1ec4b126a602299693cdd2f4cc023b7449ea7c1d8e024d"
+          },
+          {
+            "fichier": "2026-10-04_ether_Q17-01_atam_rail_ankara_sivas.png",
+            "sha256": "cb678be6abdcc52a23e3840920f82ab92bf32a83cc7fa5403cb640ffee82805c"
+          },
+          {
+            "fichier": "2026-10-04_ether_Q17-01_atam_rail_mudanya_izmir.png",
+            "sha256": "a0b2b6b6b6a613593ed975d24de4845365a242080296cc7b5539a649d046319b"
+          }
+        ],
+        "portee": "Lecture ciblée par Ether ; ne remplace aucune vérification Claude ou humaine."
+      },
+      "usage": [
+        "Captures de l’encyclopédie Atatürk : Ankara–Kayseri 1927, Sivas 1930, branches et acquisitions datées, dont Mudanya–Bursa et İzmir. Les dates ne démontrent pas la circulation sans interruption en 1944."
+      ]
+    },
+    {
+      "source_id": "src-17-tr-gelibolu-administration",
+      "niveau": "B",
+      "type_source": "histoire_institutionnelle",
+      "titre": "Gelibolu : histoire administrative",
+      "institution": "Direction de laCulture et duTourisme deÇanakkale",
+      "url": "https://canakkale.ktb.gov.tr/TR-70539/gelibolu.html",
+      "date_consultation": "2026-10-04",
+      "periode_couverte": [],
+      "zones": [],
+      "usages_atlas": [
+        "administration"
+      ],
+      "cibles": [
+        "ville-tr-gelibolu"
+      ],
+      "locator": "Dernier paragraphe :1923/1926",
+      "resume_passage": "",
+      "archive_locale": null,
+      "verification_claude": "non_verifiee",
+      "verification_ether": {
+        "date": "2026-10-03",
+        "statut": "passage_indexe_lu_lecture_directe_incomplete",
+        "limite": "Passage indexé lu ; ancienne base ottomane ne prouve pas fonction navale1944."
+      },
+      "notes": "Proposée par Ether (villes 1.7, 03/10/2026). Ce que la source prouve selon Ether : ville-tr-gelibolu — administration : Ancien chef-lieu provincial devenu chef-lieu de district de Çanakkale.; Les cibles différées restent des réserves ; seules les entités du JSON final sont proposées à l’import.. Limite annoncée par Ether : Passage indexé lu ; ancienne base ottomane ne prouve pas fonction navale1944. Relecture Claude 04/10/2026 : WebFetch refusé (ROBOTS_DISALLOWED, robots.txt en timeout) : page non lue, le passage 1923/1926 n'a pas pu être vérifié.",
+      "operation_registre": "completer",
+      "complement_ether_cycle2_2026_10_04": {
+        "question": "Q17-01/02",
+        "locator": "Province 1923 puis district 1926",
+        "lecture_ether": "La page prouve l’histoire administrative de Gelibolu ; elle ne prouve pas une base navale de 1944.",
+        "images_locales": [
+          {
+            "fichier": "2026-10-04_ether_Q17-01_gelibolu_1926.png",
+            "sha256": "daaa0597573bb6f111b97a668798e736df010f7323cec337bc934c31b9acada1"
+          }
+        ],
+        "portee": "Lecture ciblée par Ether ; ne remplace aucune vérification Claude ou humaine."
+      },
+      "usage": [
+        "La page prouve l’histoire administrative de Gelibolu ; elle ne prouve pas une base navale de 1944."
+      ]
+    },
+    {
+      "source_id": "src-17-tr-mersin-tarsus-histoire",
+      "niveau": "B",
+      "type_source": "histoire_institutionnelle",
+      "titre": "Historique deMersin etTarsus",
+      "institution": "Direction de laCulture et duTourisme deMersin",
+      "url": "https://mersin.ktb.gov.tr/TR-73152/tarihce.html",
+      "date_consultation": "2026-10-04",
+      "periode_couverte": [],
+      "zones": [],
+      "usages_atlas": [
+        "rail"
+      ],
+      "cibles": [
+        "ville-tr-mersin",
+        "ville-tr-tarsus"
+      ],
+      "locator": "Paragraphesliaisonferroviaire1888etvoyage10mai1926",
+      "resume_passage": "",
+      "archive_locale": null,
+      "verification_claude": "non_verifiee",
+      "verification_ether": {
+        "date": "2026-10-03",
+        "statut": "passage_lu",
+        "limite": "La notice date1888 là où des histoires du réseau donnent1886 : date précise réservée, seule desserte antérieure1945 retenue."
+      },
+      "notes": "Proposée par Ether (villes 1.7, 03/10/2026). Ce que la source prouve selon Ether : ville-tr-mersin — rail : Desserte ferroviaire urbaine attestée avant le Snapshot.; ville-tr-tarsus — rail : Desserte ferroviaire urbaine attestée avant le Snapshot.; Les cibles différées restent des réserves ; seules les entités du JSON final sont proposées à l’import.. Limite annoncée par Ether : La notice date1888 là où des histoires du réseau donnent1886 : date précise réservée, seule desserte antérieure1945 retenue. Relecture Claude 04/10/2026 : WebFetch refuse la page (ROBOTS_DISALLOWED, échec de récupération de robots.txt), deux tentatives. Ni la liaison ferroviaire de 1888 ni le voyage du 10 mai 1926 n'ont pu être contrôlés pour Mersin et Tarsus.",
+      "operation_registre": "completer",
+      "complement_ether_cycle2_2026_10_04": {
+        "question": "Q17-01/02",
+        "locator": "Développement commercial et rail de 1888",
+        "lecture_ether": "La page locale relie Mersin au commerce portuaire, à Tarsus et à Adana par le rail en 1888 ; aucun volume fin 1944 déduit.",
+        "images_locales": [
+          {
+            "fichier": "2026-10-04_ether_Q17-01_mersin_1888.png",
+            "sha256": "ce3086a5508c25e3414037e7db48bd58ccd544361cb8ac77ba833712c93c1e0a"
+          }
+        ],
+        "portee": "Lecture ciblée par Ether ; ne remplace aucune vérification Claude ou humaine."
+      },
+      "usage": [
+        "La page locale relie Mersin au commerce portuaire, à Tarsus et à Adana par le rail en 1888 ; aucun volume fin 1944 déduit."
+      ]
+    },
+    {
+      "source_id": "src-shpl-admin1940",
+      "niveau": "A",
+      "type_source": "repertoire_administratif",
+      "titre": "URSS. Division administrative et territoriale des républiques fédérées au 1er mai 1940",
+      "institution": "Service d’information statistique du Présidium du Soviet suprême ; Bibliothèque historique publique d’État",
+      "url": "http://elib.shpl.ru/ru/nodes/8481",
+      "date_consultation": "2026-10-04",
+      "periode_couverte": [],
+      "zones": [],
+      "usages_atlas": [
+        "administration",
+        "capitale",
+        "industrie",
+        "port_fluvial",
+        "port_maritime",
+        "rail"
+      ],
+      "cibles": [
+        "ville-kz-aiteke-bi",
+        "ville-kz-aktobe",
+        "ville-kz-almaty",
+        "ville-kz-aralsk",
+        "ville-kz-arys",
+        "ville-kz-astana",
+        "ville-kz-atyraou",
+        "ville-kz-ayagoz",
+        "ville-kz-char",
+        "ville-kz-chou",
+        "ville-kz-chymkent",
+        "ville-kz-dossor",
+        "ville-kz-fort-chevtchenko",
+        "ville-kz-karaganda",
+        "ville-kz-karsakpai",
+        "ville-kz-kazalinsk",
+        "ville-kz-kokchetau",
+        "ville-kz-kostanai",
+        "ville-kz-kyzylorda",
+        "ville-kz-makat",
+        "ville-kz-mointy",
+        "ville-kz-oral",
+        "ville-kz-oskemen",
+        "ville-kz-ouchtiobe",
+        "ville-kz-pavlodar",
+        "ville-kz-petropavlovsk",
+        "ville-kz-semei",
+        "ville-kz-taraz",
+        "ville-kz-tioulkoubas",
+        "ville-kz-turkestan",
+        "ville-ru-bogotol",
+        "ville-ru-gorno-altaisk",
+        "ville-ru-iakoutsk",
+        "ville-ru-irkoutsk",
+        "ville-ru-kansk",
+        "ville-ru-kiakhta",
+        "ville-ru-nijnieoudinsk",
+        "ville-ru-omsk",
+        "ville-ru-ouiar",
+        "ville-ru-oulan-oude",
+        "ville-ru-taichet",
+        "ville-ru-zima",
+        "ville-uz-andijan",
+        "ville-uz-asaka",
+        "ville-uz-bekabad",
+        "ville-uz-boukhara",
+        "ville-uz-djizak",
+        "ville-uz-ferghana",
+        "ville-uz-katta-kourgan",
+        "ville-uz-khavast",
+        "ville-uz-khiva",
+        "ville-uz-khodjeili",
+        "ville-uz-marguilan",
+        "ville-uz-mouinak",
+        "ville-uz-namangan",
+        "ville-uz-noukous",
+        "ville-uz-ourguentch",
+        "ville-uz-patta-gissar",
+        "ville-uz-samarcande",
+        "ville-uz-tachkent",
+        "ville-uz-tchimbai",
+        "ville-uz-tchirtchik",
+        "ville-uz-tchoust",
+        "ville-uz-termez",
+        "ville-uz-turtkul",
+        "ville-uz-yangioul",
+        "ville-am-akhtala",
+        "ville-am-alaverdi",
+        "ville-am-artik",
+        "ville-am-dilidjan",
+        "ville-am-erevan",
+        "ville-am-goris",
+        "ville-am-gyumri",
+        "ville-am-hrazdan",
+        "ville-am-kapan",
+        "ville-am-sevan",
+        "ville-am-vagharshapat",
+        "ville-am-vanadzor",
+        "ville-az-agstafa",
+        "ville-az-alat",
+        "ville-az-bakou",
+        "ville-az-chaki",
+        "ville-az-choucha",
+        "ville-az-gandja",
+        "ville-az-gazakh",
+        "ville-az-khachmaz",
+        "ville-az-khudat",
+        "ville-az-kurdamir",
+        "ville-az-lankaran",
+        "ville-az-nakhitchevan",
+        "ville-az-sabirabad",
+        "ville-az-stepanakert",
+        "ville-az-sumgait",
+        "ville-az-tovuz",
+        "ville-az-ujar",
+        "ville-az-yevlakh",
+        "ville-ge-akhalkalaki",
+        "ville-ge-akhaltsikhe",
+        "ville-ge-batoumi",
+        "ville-ge-gori",
+        "ville-ge-gourdjaani",
+        "ville-ge-kaspi",
+        "ville-ge-khachouri",
+        "ville-ge-koutaissi",
+        "ville-ge-lantchkhouti",
+        "ville-ge-mtskheta",
+        "ville-ge-ozourgueti",
+        "ville-ge-poti",
+        "ville-ge-samtredia",
+        "ville-ge-satchkhere",
+        "ville-ge-soukhoumi",
+        "ville-ge-tbilissi",
+        "ville-ge-tchiatoura",
+        "ville-ge-telavi",
+        "ville-ge-tkibouli",
+        "ville-ge-tskhinvali",
+        "ville-ge-zestafoni",
+        "ville-ge-zougdidi"
+      ],
+      "locator": "p.259–269 et277–296 ; images263–273 et281–300, décalage +4 ; pp. 21, 26–27, 62–63, 97, 144–145, 170 (Sibérie) Accès par ville : 2026-10-03_ether_index_pages_administratives_cycle2.json et .md, dans le dossier villes_1-6.",
+      "resume_passage": "",
+      "archive_locale": null,
+      "verification_claude": "limite",
+      "verification_ether": {
+        "statut": "passages_lus",
+        "par": "Ether",
+        "limite": "Scans 1940 consultés : Ouzbékistan259–269 ; Kazakhstan277–296 (p.281 non exploitée). À rapprocher des changements1941–1944 déjà documentés. Capitales RSSA et chefs-lieux d’oblast : fonction administration, type d’affichage réservé. Distinctions ville/gare conservées, notamment Kazalinsk/Novo-Kazalinsk.",
+        "date": "2026-10-03"
+      },
+      "notes": "Proposée par Ether (villes 1.6, 03/10/2026). Ce que la source prouve selon Ether : ville-uz-termez — administration : Chef-lieu de l’okrug Sourkhan-Daria ; devenu centre d’oblast selon complément1944.; ville-kz-kokchetau — rail : Ville avec gare homonyme. Chef-lieu d’oblast en 1944 établi par autre source.; ville-kz-ouchtiobe — administration, rail : Chef-lieu de district ; gare homonyme sur place.; ville-uz-samarcande — administration : Centre de l’oblast de Samarcande.; ville-uz-khavast — rail, administration : Oursatievskaïa est le chef-lieu du district de Khavast et une gare. Rapprochement avec l’ID moderne Khavast à vérifier ; ancien nom du candidat non validé par rétroprojection.; ville-uz-tachkent — capitale, administration : Capitale de la RSS et centre de l’oblast.; ville-uz-andijan — administration : Ville et chef-lieu de district ; futur chef-lieu d’oblast à vérifier par supplément.; ville-uz-ferghana — administration : Centre de l’oblast ; gare Skobelevo sur place.; ville-kz-karsakpai — administration, rail : Bourg urbain chef-lieu ; gare homonyme.; ville-kz-astana — administration : Chef-lieu de l’oblast créé le 14 octobre 1939.; ville-kz-karaganda — administration : Centre de l’oblast.; ville-kz-kostanai — administration, rail : Chef-lieu d’oblast avec gare homonyme.; ville-kz-atyraou — administration : Centre de l’oblast. Indication ferroviaire de 1940 dépassée par l’ouverture ultérieure documentée dans une autre source.; ville-ru-irkoutsk — administration, rail : Irkoutsk centre de l’oblast et gare locale dans le tableau urbain.; ville-ru-omsk — administration : Omsk explicitement centre de l’oblast.; ville-kz-semei — administration, rail : Centre d’oblast et gare du Turksib.; ville-kz-pavlodar — administration, rail : Chef-lieu d’oblast avec gare homonyme.; ville-ru-iakoutsk — capitale, administration : Iakoutsk explicitement capitale de la RSSA de Iakoutie.; ville-ru-oulan-oude — capitale, administration, rail : Oulan-Oudé capitale de la RSSA bouriate-mongole ; gare locale au tableau des villes.; ville-kz-aktobe — administration : Centre de l’oblast.; ville-kz-kazalinsk — administration : Ville chef-lieu ; gare Kazalinsk distante de douze kilomètres. Distincte de Novo-Kazalinsk.; ville-kz-taraz — administration : Chef-lieu de l’oblast créé le 14 octobre 1939.; ville-kz-chymkent — administration, rail, industrie : Centre du Kazakhstan méridional, gare locale ; quartier urbain Kalininski explicitement situé auprès de l’usine de plomb.; ville-kz-petropavlovsk — administration, rail : Centre du Kazakhstan septentrional et gare homonyme.; ville-uz-bekabad — administration : Bourg urbain chef-lieu, desservi par Khilkovo. Aucun statut de ville anticipé.; ville-uz-boukhara — administration : Centre de l’oblast de Boukhara.; ville-uz-djizak — administration : Ville chef-lieu de district, gare homonyme à deux kilomètres.; ville-uz-katta-kourgan — administration : Ville chef-lieu de district et gare homonyme.; ville-uz-tchirtchik — rail : Ville et gare Tchirtchik.; ville-uz-yangioul — administration, rail : Ville chef-lieu avec gare Kaufmanskaïa sur place.; ville-uz-namangan — administration, rail : Ville chef-lieu de district et gare homonyme ; statut d’oblast ultérieur à vérifier.; ville-uz-asaka — administration : Ville chef-lieu ; gare Assake à quatre kilomètres. Identité actuelle à contrôler.; ville-uz-marguilan — administration : Ville chef-lieu ; gare Gortchakovo à six kilomètres, sans fusion présumée des points.; ville-uz-tchoust — administration : Ville chef-lieu ; gare éloignée de treize kilomètres, rôle rail non appliqué automatiquement.; ville-uz-ourguentch — administration : Centre du Khorezm ; réseau ferroviaire local absent du répertoire.; ville-uz-khiva — administration : Ville chef-lieu de district.; ville-uz-noukous — capitale, administration : Siège de la RSSA karakalpake indiqué comme capitale. Type d’affichage des RSSA réservé.; ville-uz-turtkul — administration : Ville chef-lieu de district ; point de la ville ancienne à distinguer de son déplacement postérieur.; ville-uz-khodjeili — administration : Ville chef-lieu de district.; ville-uz-tchimbai — administration : Ville chef-lieu de district.; ville-uz-mouinak — administration : Bourg urbain chef-lieu de district, existence datée. Fonction portuaire à rechercher.; ville-uz-patta-gissar — port_fluvial : Bourg distinct explicitement désigné débarcadère de l’Amou-Daria ; gare Termez à huit kilomètres. Ne pas fusionner avec Termez sans contrôle du périmètre.; ville-kz-dossor — rail, administration : Bourg urbain chef-lieu ; gare Dossor sur place.; ville-kz-makat — rail : Bourg urbain et gare Makat.; ville-kz-almaty — capitale, administration : Capitale de la RSS kazakhe et centre de son oblast.; ville-kz-oskemen — administration : Centre du Kazakhstan oriental. Gare Zachtchita à sept kilomètres : rôle de la gare distinct à préciser.; ville-kz-fort-chevtchenko — administration, port_maritime : Ville chef-lieu ; embarcadère homonyme indiqué dans le tableau. Port de la Caspienne, mer intérieure.; ville-kz-chou — rail : Bourg urbain avec gare homonyme du Turksib.; ville-kz-oral — administration, rail : Centre du Kazakhstan occidental et gare locale.; ville-kz-mointy — rail : Bourg urbain avec gare homonyme, cité séparément de Balkhach.; ville-kz-kyzylorda — administration, rail : Centre de l’oblast et gare homonyme.; ville-kz-aralsk — administration, rail : Ville chef-lieu, desservie par la gare Aralskoïe More. Fonction portuaire à compléter séparément.; ville-kz-aiteke-bi — rail : Bourg urbain associé directement à la gare Kazalinsk, distinct de la ville de Kazalinsk. Rapprochement actuel Aïteke Bi à confirmer.; ville-kz-ayagoz — administration, rail : Ville chef-lieu et gare homonyme du Turksib.; ville-kz-char — administration, rail : Bourg chef-lieu ; gare Tcharskaïa sur place.; ville-kz-arys — administration, rail : Bourg urbain chef-lieu et gare homonyme.; ville-kz-turkestan — administration : Ville chef-lieu ; gare homonyme distante de 6,5 km, sans fusion des points.; ville-kz-tioulkoubas — rail : Bourg urbain avec gare homonyme du Turksib.; ville-ru-gorno-altaisk — administration : Oïrot-Toura explicitement centre de l’oblast autonome.; ville-ru-kiakhta — administration : Chef-lieu de district. Gare Oulan-Oudé donnée à 229 km, aucun rôle ferroviaire local déduit.; ville-ru-zima — rail, administration : Chef-lieu de district ; gare homonyme locale.; ville-ru-nijnieoudinsk — rail, administration : Chef-lieu de district ; gare homonyme locale.; ville-ru-taichet — rail, administration : Chef-lieu de district ; gare homonyme locale.; ville-ru-kansk — rail, administration : Chef-lieu de district et gare locale.; ville-ru-bogotol — rail, administration : Chef-lieu de district et gare locale.; ville-ru-ouiar — rail, administration : Bourg ouvrier chef-lieu, station Klioukvennaïa locale.; Rôle importable uniquement s’il figure dans le JSON final des villes ; autres usages = contexte ou réserve, voir sélection.. Limite annoncée par Ether : Scans 1940 consultés : Ouzbékistan259–269 ; Kazakhstan277–296 (p.281 non exploitée). À rapprocher des changements1941–1944 déjà documentés. Capitales RSSA et chefs-lieux d’oblast : fonction administration, type d’affichage réservé. Distinctions ville/gare conservées, notamment Kazalinsk/Novo-Kazalinsk. Contrôle complémentaire du 03/10 : en-têtes et tableaux sibériens ci-dessus lus en fac-similé dans la visionneuse, sans téléchargement. Capitales de RSSA : rôle documenté, type d’affichage réservé selon Q15-02. Relecture Claude 03/10/2026 : La page ne donne que des métadonnées bibliographiques (411 p.) sans texte des scans, donc aucune des affirmations administratives n'est vérifiable. Ancien localisateur : p.259–269 et277–296 ; images263–273 et281–300, décalage +4 ; pp. 21, 26–27, 62–63, 97, 144–145, 170 (Sibérie). Réponse d'Ether (cycle 2, 03/10/2026) : localisateur précisé (complement_ether_cycle2_documentaire). Relecture Claude 04/10/2026 (Q16-02) : 3 villes relues sur les images de pages déposées par Ether (rôles par ville dans confirmations_claude) ; les autres villes de la source restent en lecture partielle. (statut : non_verifiee -> limite). Complément d'Ether (villes 1.7, 03/10/2026, Caucase/Turquie) : nouvelles cibles et usages (complement_ether_1_7). 12 villes du Caucase relues par Claude sur les images de pages (confirmations_claude).",
+      "complement_ether_cycle2_documentaire": {
+        "source_id": "src-shpl-admin1940",
+        "operation_registre": "completer",
+        "niveau": "A",
+        "type_source": "repertoire_administratif",
+        "titre": "URSS. Division administrative et territoriale des républiques fédérées au 1er mai 1940",
+        "institution": "Service d’information statistique du Présidium du Soviet suprême ; Bibliothèque historique publique d’État",
+        "url": "http://elib.shpl.ru/ru/nodes/8481",
+        "date_consultation": "2026-10-03",
+        "cibles": [
+          "ville-uz-termez",
+          "ville-kz-ouchtiobe",
+          "ville-uz-samarcande",
+          "ville-uz-tachkent",
+          "ville-uz-andijan",
+          "ville-uz-ferghana",
+          "ville-kz-karsakpai",
+          "ville-kz-astana",
+          "ville-kz-karaganda",
+          "ville-kz-kostanai",
+          "ville-kz-atyraou",
+          "ville-ru-irkoutsk",
+          "ville-ru-omsk",
+          "ville-kz-semei",
+          "ville-kz-pavlodar",
+          "ville-ru-iakoutsk",
+          "ville-ru-oulan-oude",
+          "ville-kz-aktobe",
+          "ville-kz-kazalinsk",
+          "ville-kz-taraz",
+          "ville-kz-chymkent",
+          "ville-kz-petropavlovsk",
+          "ville-uz-bekabad",
+          "ville-uz-boukhara",
+          "ville-uz-djizak",
+          "ville-uz-katta-kourgan",
+          "ville-uz-tchirtchik",
+          "ville-uz-yangioul",
+          "ville-uz-namangan",
+          "ville-uz-marguilan",
+          "ville-uz-tchoust",
+          "ville-uz-ourguentch",
+          "ville-uz-khiva",
+          "ville-uz-noukous",
+          "ville-uz-khodjeili",
+          "ville-uz-tchimbai",
+          "ville-uz-mouinak",
+          "ville-kz-dossor",
+          "ville-kz-makat",
+          "ville-kz-almaty",
+          "ville-kz-oskemen",
+          "ville-kz-fort-chevtchenko",
+          "ville-kz-chou",
+          "ville-kz-oral",
+          "ville-kz-mointy",
+          "ville-kz-kyzylorda",
+          "ville-kz-aralsk",
+          "ville-kz-ayagoz",
+          "ville-kz-char",
+          "ville-kz-arys",
+          "ville-kz-turkestan",
+          "ville-kz-tioulkoubas",
+          "ville-ru-gorno-altaisk",
+          "ville-ru-kiakhta",
+          "ville-ru-zima",
+          "ville-ru-nijnieoudinsk",
+          "ville-ru-taichet",
+          "ville-ru-kansk",
+          "ville-ru-bogotol",
+          "ville-ru-ouiar"
+        ],
+        "usage": [
+          "ville-uz-termez — administration : Chef-lieu de l’okrug Sourkhan-Daria ; devenu centre d’oblast selon complément1944.",
+          "ville-kz-kokchetau — rail : Ville avec gare homonyme. Chef-lieu d’oblast en 1944 établi par autre source.",
+          "ville-kz-ouchtiobe — administration, rail : Chef-lieu de district ; gare homonyme sur place.",
+          "ville-uz-samarcande — administration : Centre de l’oblast de Samarcande.",
+          "ville-uz-khavast — rail, administration : Oursatievskaïa est le chef-lieu du district de Khavast et une gare. Rapprochement avec l’ID moderne Khavast à vérifier ; ancien nom du candidat non validé par rétroprojection.",
+          "ville-uz-tachkent — capitale, administration : Capitale de la RSS et centre de l’oblast.",
+          "ville-uz-andijan — administration : Ville et chef-lieu de district ; futur chef-lieu d’oblast à vérifier par supplément.",
+          "ville-uz-ferghana — administration : Centre de l’oblast ; gare Skobelevo sur place.",
+          "ville-kz-karsakpai — administration, rail : Bourg urbain chef-lieu ; gare homonyme.",
+          "ville-kz-astana — administration : Chef-lieu de l’oblast créé le 14 octobre 1939.",
+          "ville-kz-karaganda — administration : Centre de l’oblast.",
+          "ville-kz-kostanai — administration, rail : Chef-lieu d’oblast avec gare homonyme.",
+          "ville-kz-atyraou — administration : Centre de l’oblast. Indication ferroviaire de 1940 dépassée par l’ouverture ultérieure documentée dans une autre source.",
+          "ville-ru-irkoutsk — administration, rail : Irkoutsk centre de l’oblast et gare locale dans le tableau urbain.",
+          "ville-ru-omsk — administration : Omsk explicitement centre de l’oblast.",
+          "ville-kz-semei — administration, rail : Centre d’oblast et gare du Turksib.",
+          "ville-kz-pavlodar — administration, rail : Chef-lieu d’oblast avec gare homonyme.",
+          "ville-ru-iakoutsk — capitale, administration : Iakoutsk explicitement capitale de la RSSA de Iakoutie.",
+          "ville-ru-oulan-oude — capitale, administration, rail : Oulan-Oudé capitale de la RSSA bouriate-mongole ; gare locale au tableau des villes.",
+          "ville-kz-aktobe — administration : Centre de l’oblast.",
+          "ville-kz-kazalinsk — administration : Ville chef-lieu ; gare Kazalinsk distante de douze kilomètres. Distincte de Novo-Kazalinsk.",
+          "ville-kz-taraz — administration : Chef-lieu de l’oblast créé le 14 octobre 1939.",
+          "ville-kz-chymkent — administration, rail, industrie : Centre du Kazakhstan méridional, gare locale ; quartier urbain Kalininski explicitement situé auprès de l’usine de plomb.",
+          "ville-kz-petropavlovsk — administration, rail : Centre du Kazakhstan septentrional et gare homonyme.",
+          "ville-uz-bekabad — administration : Bourg urbain chef-lieu, desservi par Khilkovo. Aucun statut de ville anticipé.",
+          "ville-uz-boukhara — administration : Centre de l’oblast de Boukhara.",
+          "ville-uz-djizak — administration : Ville chef-lieu de district, gare homonyme à deux kilomètres.",
+          "ville-uz-katta-kourgan — administration : Ville chef-lieu de district et gare homonyme.",
+          "ville-uz-tchirtchik — rail : Ville et gare Tchirtchik.",
+          "ville-uz-yangioul — administration, rail : Ville chef-lieu avec gare Kaufmanskaïa sur place.",
+          "ville-uz-namangan — administration, rail : Ville chef-lieu de district et gare homonyme ; statut d’oblast ultérieur à vérifier.",
+          "ville-uz-asaka — administration : Ville chef-lieu ; gare Assake à quatre kilomètres. Identité actuelle à contrôler.",
+          "ville-uz-marguilan — administration : Ville chef-lieu ; gare Gortchakovo à six kilomètres, sans fusion présumée des points.",
+          "ville-uz-tchoust — administration : Ville chef-lieu ; gare éloignée de treize kilomètres, rôle rail non appliqué automatiquement.",
+          "ville-uz-ourguentch — administration : Centre du Khorezm ; réseau ferroviaire local absent du répertoire.",
+          "ville-uz-khiva — administration : Ville chef-lieu de district.",
+          "ville-uz-noukous — capitale, administration : Siège de la RSSA karakalpake indiqué comme capitale. Type d’affichage des RSSA réservé.",
+          "ville-uz-turtkul — administration : Ville chef-lieu de district ; point de la ville ancienne à distinguer de son déplacement postérieur.",
+          "ville-uz-khodjeili — administration : Ville chef-lieu de district.",
+          "ville-uz-tchimbai — administration : Ville chef-lieu de district.",
+          "ville-uz-mouinak — administration : Bourg urbain chef-lieu de district, existence datée. Fonction portuaire à rechercher.",
+          "ville-uz-patta-gissar — port_fluvial : Bourg distinct explicitement désigné débarcadère de l’Amou-Daria ; gare Termez à huit kilomètres. Ne pas fusionner avec Termez sans contrôle du périmètre.",
+          "ville-kz-dossor — rail, administration : Bourg urbain chef-lieu ; gare Dossor sur place.",
+          "ville-kz-makat — rail : Bourg urbain et gare Makat.",
+          "ville-kz-almaty — capitale, administration : Capitale de la RSS kazakhe et centre de son oblast.",
+          "ville-kz-oskemen — administration : Centre du Kazakhstan oriental. Gare Zachtchita à sept kilomètres : rôle de la gare distinct à préciser.",
+          "ville-kz-fort-chevtchenko — administration, port_maritime : Ville chef-lieu ; embarcadère homonyme indiqué dans le tableau. Port de la Caspienne, mer intérieure.",
+          "ville-kz-chou — rail : Bourg urbain avec gare homonyme du Turksib.",
+          "ville-kz-oral — administration, rail : Centre du Kazakhstan occidental et gare locale.",
+          "ville-kz-mointy — rail : Bourg urbain avec gare homonyme, cité séparément de Balkhach.",
+          "ville-kz-kyzylorda — administration, rail : Centre de l’oblast et gare homonyme.",
+          "ville-kz-aralsk — administration, rail : Ville chef-lieu, desservie par la gare Aralskoïe More. Fonction portuaire à compléter séparément.",
+          "ville-kz-aiteke-bi — rail : Bourg urbain associé directement à la gare Kazalinsk, distinct de la ville de Kazalinsk. Rapprochement actuel Aïteke Bi à confirmer.",
+          "ville-kz-ayagoz — administration, rail : Ville chef-lieu et gare homonyme du Turksib.",
+          "ville-kz-char — administration, rail : Bourg chef-lieu ; gare Tcharskaïa sur place.",
+          "ville-kz-arys — administration, rail : Bourg urbain chef-lieu et gare homonyme.",
+          "ville-kz-turkestan — administration : Ville chef-lieu ; gare homonyme distante de 6,5 km, sans fusion des points.",
+          "ville-kz-tioulkoubas — rail : Bourg urbain avec gare homonyme du Turksib.",
+          "ville-ru-gorno-altaisk — administration : Oïrot-Toura explicitement centre de l’oblast autonome.",
+          "ville-ru-kiakhta — administration : Chef-lieu de district. Gare Oulan-Oudé donnée à 229 km, aucun rôle ferroviaire local déduit.",
+          "ville-ru-zima — rail, administration : Chef-lieu de district ; gare homonyme locale.",
+          "ville-ru-nijnieoudinsk — rail, administration : Chef-lieu de district ; gare homonyme locale.",
+          "ville-ru-taichet — rail, administration : Chef-lieu de district ; gare homonyme locale.",
+          "ville-ru-kansk — rail, administration : Chef-lieu de district et gare locale.",
+          "ville-ru-bogotol — rail, administration : Chef-lieu de district et gare locale.",
+          "ville-ru-ouiar — rail, administration : Bourg ouvrier chef-lieu, station Klioukvennaïa locale.",
+          "Rôle importable uniquement s’il figure dans le JSON final des villes ; autres usages = contexte ou réserve, voir sélection."
+        ],
+        "usages_atlas": [
+          "administration",
+          "capitale",
+          "industrie",
+          "port_fluvial",
+          "port_maritime",
+          "rail"
+        ],
+        "locator": "p.259–269 et277–296 ; images263–273 et281–300, décalage +4 ; pp. 21, 26–27, 62–63, 97, 144–145, 170 (Sibérie) Accès par ville : 2026-10-03_ether_index_pages_administratives_cycle2.json et .md, dans le dossier villes_1-6.",
+        "note": "Scans 1940 consultés : Ouzbékistan259–269 ; Kazakhstan277–296 (p.281 non exploitée). À rapprocher des changements1941–1944 déjà documentés. Capitales RSSA et chefs-lieux d’oblast : fonction administration, type d’affichage réservé. Distinctions ville/gare conservées, notamment Kazalinsk/Novo-Kazalinsk. Contrôle complémentaire du 03/10 : en-têtes et tableaux sibériens ci-dessus lus en fac-similé dans la visionneuse, sans téléchargement. Capitales de RSSA : rôle documenté, type d’affichage réservé selon Q15-02. Réponse Q16-02 : images locales pointées par ville, empreintes dans l’index. Préserver les cibles antérieures par union ; cet index ne concerne que les villes retenues.",
+        "verification_ether": {
+          "statut": "passages_lus",
+          "par": "Ether",
+          "limite": "Scans 1940 consultés : Ouzbékistan259–269 ; Kazakhstan277–296 (p.281 non exploitée). À rapprocher des changements1941–1944 déjà documentés. Capitales RSSA et chefs-lieux d’oblast : fonction administration, type d’affichage réservé. Distinctions ville/gare conservées, notamment Kazalinsk/Novo-Kazalinsk.",
+          "date": "2026-10-03"
+        },
+        "verification_ether_cycle2": {
+          "date": "2026-10-03",
+          "statut": "index_images_et_localisateurs",
+          "limite": "Lectures cycle1 conservées. Index et présence des fichiers vérifiés ; ce complément ne relève ni verification_claude ni verification_humaine."
+        }
+      },
+      "confirmations_claude": {
+        "ville-uz-termez": {
+          "roles": [
+            "administration"
+          ],
+          "lecture": "page imprimée 261, image déposée par Ether, lue par Claude : СУРХАН-ДАРЬИНСКИЙ ОКРУГ ЦЕНТР—г. ТЕРМЕЗ",
+          "date": "2026-10-04",
+          "verification": "data/sources/verifications_claude/2026-10-04_villes_1-6_cycle2.json"
+        },
+        "ville-uz-tachkent": {
+          "roles": [
+            "capitale"
+          ],
+          "lecture": "page imprimée 259, image déposée par Ether, lue par Claude : УЗБЕКСКАЯ ССР ... СТОЛИЦА—г. ТАШКЕНТ",
+          "date": "2026-10-04",
+          "verification": "data/sources/verifications_claude/2026-10-04_villes_1-6_cycle2.json"
+        },
+        "ville-uz-boukhara": {
+          "roles": [
+            "administration"
+          ],
+          "lecture": "page imprimée 259, image déposée par Ether, lue par Claude : Бухарская область ЦЕНТР — г. БУХАРА ; Дата образования области — 15 января 1938 года",
+          "date": "2026-10-04",
+          "verification": "data/sources/verifications_claude/2026-10-04_villes_1-6_cycle2.json"
+        },
+        "ville-az-bakou": {
+          "roles": [
+            "capitale",
+            "administration",
+            "rail"
+          ],
+          "lecture": "image de page admin1940_page236.jpg déposée par Ether (lot 1.7), lue par Claude : АЗЕРБАЙДЖАНСКАЯ ССР СТОЛИЦА — г. БАКУ ; (page 237) 1 Баку | Баку им Берия | —",
+          "date": "2026-10-04",
+          "verification": "data/sources/verifications_claude/2026-10-04_villes_1-7.json"
+        },
+        "ville-az-gandja": {
+          "roles": [
+            "rail"
+          ],
+          "lecture": "image de page admin1940_page237.jpg déposée par Ether (lot 1.7), lue par Claude : 2 Кировабад | Кировабад им Берия | —",
+          "date": "2026-10-04",
+          "verification": "data/sources/verifications_claude/2026-10-04_villes_1-7.json"
+        },
+        "ville-az-agstafa": {
+          "roles": [
+            "rail"
+          ],
+          "lecture": "image de page admin1940_page236.jpg déposée par Ether (lot 1.7), lue par Claude : 4 Акстафинский | пгт Акстафа | „ — ; 22 Казахский | г Казах | Акстафа „ 9",
+          "date": "2026-10-04",
+          "verification": "data/sources/verifications_claude/2026-10-04_villes_1-7.json"
+        },
+        "ville-az-yevlakh": {
+          "roles": [
+            "rail"
+          ],
+          "lecture": "image de page admin1940_page236.jpg déposée par Ether (lot 1.7), lue par Claude : 15 Евлахский | г Евлах | „ —",
+          "date": "2026-10-04",
+          "verification": "data/sources/verifications_claude/2026-10-04_villes_1-7.json"
+        },
+        "ville-az-kurdamir": {
+          "roles": [
+            "rail"
+          ],
+          "lecture": "image de page admin1940_page237.jpg déposée par Ether (lot 1.7), lue par Claude : 34 Кюрдамирский | г Кюрдамир | „ —",
+          "date": "2026-10-04",
+          "verification": "data/sources/verifications_claude/2026-10-04_villes_1-7.json"
+        },
+        "ville-az-tovuz": {
+          "roles": [
+            "rail"
+          ],
+          "lecture": "image de page admin1940_page237.jpg déposée par Ether (lot 1.7), lue par Claude : 47 Таузский | пгт Тауз | „ —",
+          "date": "2026-10-04",
+          "verification": "data/sources/verifications_claude/2026-10-04_villes_1-7.json"
+        },
+        "ville-az-ujar": {
+          "roles": [
+            "rail"
+          ],
+          "lecture": "image de page admin1940_page237.jpg déposée par Ether (lot 1.7), lue par Claude : 49 Уджарский | пгт Уджары | „ —",
+          "date": "2026-10-04",
+          "verification": "data/sources/verifications_claude/2026-10-04_villes_1-7.json"
+        },
+        "ville-az-khachmaz": {
+          "roles": [
+            "rail"
+          ],
+          "lecture": "image de page admin1940_page237.jpg déposée par Ether (lot 1.7), lue par Claude : 51 Хачмасский | г Хачмас | „ —",
+          "date": "2026-10-04",
+          "verification": "data/sources/verifications_claude/2026-10-04_villes_1-7.json"
+        },
+        "ville-az-lankaran": {
+          "roles": [
+            "port_maritime",
+            "administration"
+          ],
+          "lecture": "image de page admin1940_page237.jpg déposée par Ether (lot 1.7), lue par Claude : 36 Ленкоранский | г Ленкорань | порт Ленкорань —",
+          "date": "2026-10-04",
+          "verification": "data/sources/verifications_claude/2026-10-04_villes_1-7.json"
+        },
+        "ville-az-chaki": {
+          "roles": [
+            "administration"
+          ],
+          "lecture": "image de page admin1940_page237.jpg déposée par Ether (lot 1.7), lue par Claude : 40 Нухинский | г Нуха | Евлах „ 80",
+          "date": "2026-10-04",
+          "verification": "data/sources/verifications_claude/2026-10-04_villes_1-7.json"
+        },
+        "ville-az-sabirabad": {
+          "roles": [
+            "administration"
+          ],
+          "lecture": "image de page admin1940_page237.jpg déposée par Ether (lot 1.7), lue par Claude : 42 Сабирабадский | г Сабирабад | Сараджаляр „ 12",
+          "date": "2026-10-04",
+          "verification": "data/sources/verifications_claude/2026-10-04_villes_1-7.json"
+        },
+        "ville-az-gazakh": {
+          "roles": [
+            "administration"
+          ],
+          "lecture": "image de page admin1940_page236.jpg déposée par Ether (lot 1.7), lue par Claude : 22 Казахский | г Казах | Акстафа „ 9",
+          "date": "2026-10-04",
+          "verification": "data/sources/verifications_claude/2026-10-04_villes_1-7.json"
+        }
+      },
+      "complement_ether_1_7": {
+        "source_id": "src-shpl-admin1940",
+        "operation_registre": "completer",
+        "niveau": "A",
+        "type_source": "repertoire_administratif",
+        "titre": "URSS : division administrative au1mai1940, pages duCaucase",
+        "institution": "Présidium du Soviet suprême ; bibliothèque historique publique russe",
+        "url": "http://elib.shpl.ru/ru/nodes/8481",
+        "date_consultation": "2026-10-03",
+        "cibles": [
+          "ville-am-akhtala",
+          "ville-am-alaverdi",
+          "ville-am-artik",
+          "ville-am-dilidjan",
+          "ville-am-erevan",
+          "ville-am-goris",
+          "ville-am-gyumri",
+          "ville-am-hrazdan",
+          "ville-am-kapan",
+          "ville-am-sevan",
+          "ville-am-vagharshapat",
+          "ville-am-vanadzor",
+          "ville-az-agstafa",
+          "ville-az-alat",
+          "ville-az-bakou",
+          "ville-az-chaki",
+          "ville-az-choucha",
+          "ville-az-gandja",
+          "ville-az-gazakh",
+          "ville-az-khachmaz",
+          "ville-az-khudat",
+          "ville-az-kurdamir",
+          "ville-az-lankaran",
+          "ville-az-nakhitchevan",
+          "ville-az-sabirabad",
+          "ville-az-stepanakert",
+          "ville-az-sumgait",
+          "ville-az-tovuz",
+          "ville-az-ujar",
+          "ville-az-yevlakh",
+          "ville-ge-akhalkalaki",
+          "ville-ge-akhaltsikhe",
+          "ville-ge-batoumi",
+          "ville-ge-gori",
+          "ville-ge-gourdjaani",
+          "ville-ge-kaspi",
+          "ville-ge-khachouri",
+          "ville-ge-koutaissi",
+          "ville-ge-lantchkhouti",
+          "ville-ge-mtskheta",
+          "ville-ge-ozourgueti",
+          "ville-ge-poti",
+          "ville-ge-samtredia",
+          "ville-ge-satchkhere",
+          "ville-ge-soukhoumi",
+          "ville-ge-tbilissi",
+          "ville-ge-tchiatoura",
+          "ville-ge-telavi",
+          "ville-ge-tkibouli",
+          "ville-ge-tskhinvali",
+          "ville-ge-zestafoni",
+          "ville-ge-zougdidi"
+        ],
+        "usage": [
+          "ville-ge-batoumi — administration, rail : Capitale de RSSA d’Adjarie et gare locale nommées.",
+          "ville-ge-samtredia — rail : Ville ou bourg et gare homonyme sans distance externe au tableau.",
+          "ville-ge-poti — rail : Ville et gare homonyme dans le tableau des villes républicaines.",
+          "ville-ge-tbilissi — rail : Ville et gare homonyme dans le tableau des villes républicaines.",
+          "ville-az-bakou — capitale, administration : Capitale de la RSS d’Azerbaïdjan dans le répertoire 1940.",
+          "ville-az-bakou — rail : Ville et gare homonyme attestées.",
+          "ville-am-gyumri — rail : Ville et gare homonyme attestées ; forme du nom datée.",
+          "ville-am-erevan — capitale, administration : Capitale de RSS arménienne explicitement nommée.",
+          "ville-am-erevan — rail : Ville et gare homonyme attestées ; forme du nom datée.",
+          "ville-az-nakhitchevan — administration, rail : Capitale de RSSA et gare homonyme dans le tableau 1940.",
+          "ville-ge-tchiatoura — rail : Ville ou bourg et gare homonyme sans distance externe au tableau.",
+          "ville-ge-zestafoni — rail : Ville ou bourg et gare homonyme sans distance externe au tableau.",
+          "ville-ge-tkibouli — rail : Ville ou bourg et gare homonyme sans distance externe au tableau.",
+          "ville-ge-khachouri — rail : Ville ou bourg et gare homonyme sans distance externe au tableau.",
+          "ville-ge-koutaissi — rail : Ville et gare homonyme dans le tableau des villes républicaines.",
+          "ville-ge-gori — rail : Ville ou bourg et gare homonyme sans distance externe au tableau.",
+          "ville-ge-gourdjaani — rail : Ville ou bourg et gare homonyme sans distance externe au tableau.",
+          "ville-ge-zougdidi — rail : Ville ou bourg et gare homonyme sans distance externe au tableau.",
+          "ville-ge-kaspi — rail : Ville ou bourg et gare homonyme sans distance externe au tableau.",
+          "ville-ge-lantchkhouti — rail : Ville ou bourg et gare homonyme sans distance externe au tableau.",
+          "ville-ge-ozourgueti — rail : Ville ou bourg et gare homonyme sans distance externe au tableau.",
+          "ville-ge-mtskheta — rail : Ville ou bourg et gare homonyme sans distance externe au tableau.",
+          "ville-ge-satchkhere — rail : Ville ou bourg et gare homonyme sans distance externe au tableau.",
+          "ville-ge-akhalkalaki — administration : Chef-lieu de district (рц) ; gare la plus proche à 122 km, aucun rôle ferroviaire attribué sur cette preuve.",
+          "ville-ge-akhaltsikhe — administration : Chef-lieu de district (рц) ; gare la plus proche à 52 km, aucun rôle ferroviaire attribué sur cette preuve.",
+          "ville-ge-telavi — administration : Chef-lieu de district (рц) ; gare la plus proche à 3 km, aucun rôle ferroviaire attribué sur cette preuve.",
+          "ville-ge-soukhoumi — administration, rail : Capitale de RSSA et gare locale nommées.",
+          "ville-ge-tskhinvali — administration : Centre de l’oblast autonome d’Ossétie du Sud nomméСталинир ; gare Gori à 32 km.",
+          "ville-am-alaverdi — rail : Ville ou bourg avec gare homonyme sans distance externe dans le tableau 1940.",
+          "ville-am-artik — rail : Ville ou bourg avec gare homonyme sans distance externe dans le tableau 1940.",
+          "ville-am-akhtala — rail : Ville ou bourg avec gare homonyme sans distance externe dans le tableau 1940.",
+          "ville-am-kapan — rail : Ville ou bourg avec gare homonyme sans distance externe dans le tableau 1940.",
+          "ville-am-vanadzor — rail : Ville ou bourg avec gare homonyme sans distance externe dans le tableau 1940.",
+          "ville-am-goris — administration : Chef-lieu de district ; gare éloignée de 65 km.",
+          "ville-am-dilidjan — administration : Chef-lieu de district ; gare éloignée de 41 km.",
+          "ville-am-sevan — administration : Chef-lieu de district ; gare éloignée de 66 km.",
+          "ville-am-vagharshapat — administration : Chef-lieu de district ; gare éloignée de 9 km.",
+          "ville-am-hrazdan — identité/réserve : Chef-lieu rural dans le tableau 1940, gare Erevan à 49 km.",
+          "ville-az-gandja — rail : Ville ou bourg avec gare homonyme dans le répertoire 1940.",
+          "ville-az-agstafa — rail : Ville ou bourg avec gare homonyme dans le répertoire 1940.",
+          "ville-az-alat — rail : Ville ou bourg avec gare homonyme dans le répertoire 1940.",
+          "ville-az-yevlakh — rail : Ville ou bourg avec gare homonyme dans le répertoire 1940.",
+          "ville-az-kurdamir — rail : Ville ou bourg avec gare homonyme dans le répertoire 1940.",
+          "ville-az-tovuz — rail : Ville ou bourg avec gare homonyme dans le répertoire 1940.",
+          "ville-az-ujar — rail : Ville ou bourg avec gare homonyme dans le répertoire 1940.",
+          "ville-az-khudat — rail : Ville ou bourg avec gare homonyme dans le répertoire 1940.",
+          "ville-az-khachmaz — rail : Ville ou bourg avec gare homonyme dans le répertoire 1940.",
+          "ville-az-lankaran — port_maritime, administration : Chef-lieu ; le tableau désigne le port de Lenkoran comme desserte.",
+          "ville-az-chaki — administration : Centre administratif ; gare extérieure à 80 km.",
+          "ville-az-sabirabad — administration : Centre administratif ; gare extérieure à 12 km.",
+          "ville-az-gazakh — administration : Centre administratif ; gare extérieure à 9 km.",
+          "ville-az-stepanakert — administration : Centre administratif ; gare extérieure à 96 km.",
+          "ville-az-choucha — administration : Centre administratif ; gare extérieure à 112 km.",
+          "ville-az-sumgait — identité/réserve : Bourg et gare existent au répertoire 1940.",
+          "Les cibles différées restent des réserves ; seules les entités du JSON final sont proposées à l’import."
+        ],
+        "locator": "p236–250 ; lecteurSHPL, numéro image = page imprimée+4 ; lectures ciblées enregistrées par ville",
+        "note": "p236 image locale lue ; p240 lue à l’écran. Répertoire1940 à confronter aux changements1941–1944. Attribution RSS/RSSA ne vaut pas décision sur le type capitale dansAtlas. Lectures visuelles du lecteurSHPL p243–250 effectuées ; téléchargement limité parHTTP429, ne pas annoncer des images locales absentes.",
+        "verification_ether": {
+          "date": "2026-10-03",
+          "statut": "passage_lu",
+          "limite": "p236 image locale lue ; p240 lue à l’écran. Répertoire1940 à confronter aux changements1941–1944. Attribution RSS/RSSA ne vaut pas décision sur le type capitale dansAtlas."
+        },
+        "usages_atlas": [
+          "administration",
+          "capitale",
+          "port_maritime",
+          "rail"
+        ]
+      },
+      "operation_registre": "completer",
+      "complement_ether_cycle2_2026_10_04": {
+        "question": "Q17-01/02",
+        "locator": "Géorgie pp.242–247 ; Arménie pp.248–250",
+        "lecture_ether": "Neuf pages lues en image. La référence pp.259–269/277–296 du CR1.7 appartient à l’Ouzbékistan/Kazakhstan du lot1.6. Gares distantes distinguées des gares locales.",
+        "images_locales": [
+          {
+            "fichier": "2026-10-04_ether_Q17-02_admin1940_p242.jpg",
+            "sha256": "51ea360039bd859e4d0a572ecb9344e95046dfcced05b4b0b24ae4df3ced56f8"
+          },
+          {
+            "fichier": "2026-10-04_ether_Q17-02_admin1940_p243.jpg",
+            "sha256": "5c88129099a14f9a53a75176cddf447c8c2a7792406702e5ce25d81c71a3e586"
+          },
+          {
+            "fichier": "2026-10-04_ether_Q17-02_admin1940_p244.jpg",
+            "sha256": "323500ea8c20a1981ebb0dd092df3c4aff39228bc87991b2e375705ab5ad0752"
+          },
+          {
+            "fichier": "2026-10-04_ether_Q17-02_admin1940_p245.jpg",
+            "sha256": "91e1a13a95b9677a516873d2b73c63d53f47697fcb6ce0adaf3af7d26100a73c"
+          },
+          {
+            "fichier": "2026-10-04_ether_Q17-02_admin1940_p246.jpg",
+            "sha256": "d382f583003b3e8338bff45581cc778b45dc8df651acb3ef2eecafead55b1df6"
+          },
+          {
+            "fichier": "2026-10-04_ether_Q17-02_admin1940_p247.jpg",
+            "sha256": "f29085c82408f2afd371b982dfe8373f8d6930aef24810538a96929dad1703cc"
+          },
+          {
+            "fichier": "2026-10-04_ether_Q17-02_admin1940_p248.jpg",
+            "sha256": "94797ee9001db376821bdeebf8b6cd86df4987255143d297a23170a1db054166"
+          },
+          {
+            "fichier": "2026-10-04_ether_Q17-02_admin1940_p249_capture.png",
+            "sha256": "1c80dea83770b238f57f3ce6008eee4f2fe8783bb9a876e1000636e80c42eb1a"
+          },
+          {
+            "fichier": "2026-10-04_ether_Q17-02_admin1940_p250_capture.png",
+            "sha256": "4d6855a8e5b495c43efa30efd7a723c9b5d49bd990054d772edf400e332e3622"
+          }
+        ],
+        "portee": "Lecture ciblée par Ether ; ne remplace aucune vérification Claude ou humaine."
+      },
+      "usage": [
+        "Neuf pages lues en image. La référence pp.259–269/277–296 du CR1.7 appartient à l’Ouzbékistan/Kazakhstan du lot1.6. Gares distantes distinguées des gares locales."
+      ]
+    },
+    {
+      "source_id": "src-neb-admin1944-supplement",
+      "niveau": "A",
+      "type_source": "repertoire_officiel_epoque_numerise",
+      "titre": "Supplément au répertoire administratif de l’URSS — changements du 01/01/1941 au 01/10/1944",
+      "institution": "Service d’information et de statistique auprès du secrétariat du Présidium du Soviet suprême de l’URSS",
+      "url": "https://kp.rusneb.ru/item/material/dopolnenie-k-spravochniku-administrativno-territorialnoe-delenie-soyuznyh-respublik-vypuska-1941-g-izmeneniya-proizoshedshie-za-period-s-1-yanvarya-1941-g-po-1-oktyabrya-1944-g-informacionno-statisticheskij-otdel-pri-sekretariate-prezidiuma-verhovnogo-soveta-sssr",
+      "date_consultation": "2026-10-04",
+      "periode_couverte": [],
+      "zones": [],
+      "usages_atlas": [
+        "Chef-lieu d’oblast créé le 29/12/1943",
+        "administration",
+        "rail"
+      ],
+      "cibles": [
+        "ville-ge-tkvarcheli",
+        "ville-kg-talas",
+        "ville-kz-kokchetau",
+        "ville-kz-ouchtiobe",
+        "ville-kz-taldykorgan",
+        "ville-ru-anjero-soudjensk",
+        "ville-ru-asino",
+        "ville-ru-astrakhan",
+        "ville-ru-belovo",
+        "ville-ru-beslan",
+        "ville-ru-chadrinsk",
+        "ville-ru-choumikha",
+        "ville-ru-goudermes",
+        "ville-ru-gourievsk",
+        "ville-ru-grozny",
+        "ville-ru-ialoutorovsk",
+        "ville-ru-ichim",
+        "ville-ru-iourga",
+        "ville-ru-kalouga",
+        "ville-ru-kemerovo",
+        "ville-ru-khanty-mansiisk",
+        "ville-ru-kisselevsk",
+        "ville-ru-kizliar",
+        "ville-ru-kolpachevo",
+        "ville-ru-kostroma",
+        "ville-ru-kourgan",
+        "ville-ru-leninsk-kouznetski",
+        "ville-ru-malgobek",
+        "ville-ru-mariinsk",
+        "ville-ru-mozdok",
+        "ville-ru-nazran",
+        "ville-ru-novgorod",
+        "ville-ru-novokouznetsk",
+        "ville-ru-oulianovsk",
+        "ville-ru-petoukhovo",
+        "ville-ru-prokopievsk",
+        "ville-ru-pskov",
+        "ville-ru-salekhard",
+        "ville-ru-stavropol",
+        "ville-ru-tayga",
+        "ville-ru-tioumen",
+        "ville-ru-tobolsk",
+        "ville-ru-tomsk",
+        "ville-ru-topki",
+        "ville-ru-vladikavkaz",
+        "ville-tm-kerki",
+        "ville-ua-kherson",
+        "ville-uz-karchi",
+        "ville-uz-termez"
+      ],
+      "locator": "Pages imprimées 17–18, 21–22, 27–32, 43, 45, 47, 49, 51, 53 ; scans vus. Changements du Primorié page 55 également lus. Accès par ville : 2026-10-03_ether_index_pages_administratives_cycle2.json et .md, dans le dossier villes_1-6.",
+      "resume_passage": "Астраханская область… ЦЕНТР — г. АСТРАХАНЬ… Дата образования области — 27 декабря 1943 г. / Кемеровская область… ЦЕНТР — г. КЕМЕРОВО… 26 января 1943 г.",
+      "archive_locale": null,
+      "verification_claude": "limite",
+      "verification_ether": {
+        "statut": "pages_ciblees_vues",
+        "par": "Ether",
+        "limite": "Édition de 1944 numérisée. Date-limite 01/10/1944 ; pas de changement d’octobre–décembre déduit. Présence de station locale, pas preuve de débit ou de nœud à plusieurs directions. Capitale d’oblast/RSSA non typée sans arbitrage final.",
+        "date": "2026-10-03"
+      },
+      "notes": "Proposée par Ether (villes 1.6, 03/10/2026). Ce que la source prouve selon Ether : ville-ru-kemerovo — administration, rail : Page imprimée 17 / image 19; ville-ru-anjero-soudjensk — rail : Page imprimée 17 / image 19; ville-ru-belovo — rail : Page imprimée 17 / image 19; ville-ru-gourievsk — rail : Page imprimée 17 / image 19; ville-ru-kisselevsk — rail : Page imprimée 17 / image 19; ville-ru-novokouznetsk — rail : Page imprimée 17 / image 19; ville-ru-leninsk-kouznetski — rail : Page imprimée 17 / image 19; ville-ru-mariinsk — rail : Page imprimée 17 / image 19; ville-ru-prokopievsk — rail : Page imprimée 17 / image 19; ville-ru-iourga — rail : Page imprimée 17 / image 19; ville-ru-topki — rail : Page imprimée 17 / image 19; ville-ru-kourgan — administration, rail : Page imprimée 21 / image 23; ville-ru-tomsk — administration, rail : Page imprimée 27 / image 29; ville-ru-asino — rail : Page imprimée 27 / image 29; ville-ru-kolpachevo — présence/identité/limite : Page imprimée 27 / image 29; ville-ru-tioumen — administration, rail : Page imprimée 29 / image 31; ville-ru-ichim — rail : Page imprimée 29 / image 31; ville-ru-ialoutorovsk — rail : Page imprimée 29 / image 31; ville-ru-tobolsk — présence/identité/limite : Page imprimée 29 / image 31; ville-ru-khanty-mansiisk — administration : Page imprimée 31 / image 33; ville-tm-kerki — Chef-lieu d’oblast créé le 29/12/1943 : Page imprimée 43 / image 45; ville-ru-tayga — rail : Page imprimée 18 / image 20; ville-ru-chadrinsk — rail : Page imprimée 22 / image 24; ville-ru-petoukhovo — rail : Page imprimée 22 / image 24; ville-ru-choumikha — rail : Page imprimée 22 / image 24; ville-ru-salekhard — administration : Page imprimée 32 / image 34; ville-uz-karchi — administration : Page imprimée 45 / image 47; ville-uz-termez — administration : Page imprimée 47 / image 49; ville-kz-kokchetau — administration : Page imprimée 49 / image 51; ville-kz-taldykorgan — administration : Page imprimée 51 / image 53; ville-kz-ouchtiobe — rail : Page imprimée 51 / image 53; ville-kg-talas — administration : Page imprimée 53 / image 55; Rôle importable uniquement s’il figure dans le JSON final des villes ; autres usages = contexte ou réserve, voir sélection.; Complément Q15-02 : sept chefs-lieux, pages5,15,19,23,25,33,35 ; liste limitée dans le dossier1.5.. Limite annoncée par Ether : Édition de 1944 numérisée. Date-limite 01/10/1944 ; pas de changement d’octobre–décembre déduit. Présence de station locale, pas preuve de débit ou de nœud à plusieurs directions. Capitale d’oblast/RSSA non typée sans arbitrage final. Relecture Claude 03/10/2026 : WebFetch refusé (URL trop longue, 403). Claude a lu lui-même deux images NÉB sauvegardées par Ether (images 7 et 19, pages imprimées 5 et 17) : Astrakhan chef-lieu (oblast créée le 27/12/1943), Kemerovo chef-lieu (26/01/1943), et les centres de district du Kouzbass avec leur gare (Anjero-Soudjensk, Belovo, Gourievsk, Kisselevsk, Stalinsk, Leninsk-Kouznetski, Mariinsk, Prokopievsk, Topki, Iourga) confirmés ; autres pages non relues par Claude (lecture partielle). Ancien localisateur : Pages imprimées 17–18, 21–22, 27–32, 43, 45, 47, 49, 51, 53 ; scans vus. Changements du Primorié page 55 également lus.. Réponse d'Ether (cycle 2, 03/10/2026) : localisateur précisé (complement_ether_cycle2_documentaire). Relecture Claude 04/10/2026 (Q16-02) : 30 villes relues sur les images de pages déposées par Ether (rôles par ville dans confirmations_claude) ; les autres villes de la source restent en lecture partielle. (statut : limite -> limite). Complément d'Ether (villes 1.7, 03/10/2026, Caucase/Turquie) : nouvelles cibles et usages (complement_ether_1_7). 4 villes du Caucase relues par Claude sur les images de pages (confirmations_claude).",
+      "complement_ether_cycle2_documentaire": {
+        "source_id": "src-neb-admin1944-supplement",
+        "operation_registre": "completer",
+        "niveau": "A",
+        "type_source": "repertoire_officiel_epoque_numerise",
+        "titre": "Supplément au répertoire administratif de l’URSS — changements du 01/01/1941 au 01/10/1944",
+        "institution": "Service d’information et de statistique auprès du secrétariat du Présidium du Soviet suprême de l’URSS",
+        "url": "https://kp.rusneb.ru/item/material/dopolnenie-k-spravochniku-administrativno-territorialnoe-delenie-soyuznyh-respublik-vypuska-1941-g-izmeneniya-proizoshedshie-za-period-s-1-yanvarya-1941-g-po-1-oktyabrya-1944-g-informacionno-statisticheskij-otdel-pri-sekretariate-prezidiuma-verhovnogo-soveta-sssr",
+        "date_consultation": "2026-10-03",
+        "cibles": [
+          "ville-ru-kemerovo",
+          "ville-ru-anjero-soudjensk",
+          "ville-ru-belovo",
+          "ville-ru-gourievsk",
+          "ville-ru-kisselevsk",
+          "ville-ru-novokouznetsk",
+          "ville-ru-leninsk-kouznetski",
+          "ville-ru-mariinsk",
+          "ville-ru-prokopievsk",
+          "ville-ru-iourga",
+          "ville-ru-topki",
+          "ville-ru-kourgan",
+          "ville-ru-tomsk",
+          "ville-ru-asino",
+          "ville-ru-tioumen",
+          "ville-ru-ichim",
+          "ville-ru-ialoutorovsk",
+          "ville-ru-tobolsk",
+          "ville-ru-khanty-mansiisk",
+          "ville-tm-kerki",
+          "ville-ru-tayga",
+          "ville-ru-chadrinsk",
+          "ville-ru-petoukhovo",
+          "ville-ru-choumikha",
+          "ville-ru-salekhard",
+          "ville-uz-karchi",
+          "ville-uz-termez",
+          "ville-kz-kokchetau",
+          "ville-kz-taldykorgan",
+          "ville-kz-ouchtiobe",
+          "ville-kg-talas"
+        ],
+        "usage": [
+          "ville-ru-kemerovo — administration, rail : Page imprimée 17 / image 19",
+          "ville-ru-anjero-soudjensk — rail : Page imprimée 17 / image 19",
+          "ville-ru-belovo — rail : Page imprimée 17 / image 19",
+          "ville-ru-gourievsk — rail : Page imprimée 17 / image 19",
+          "ville-ru-kisselevsk — rail : Page imprimée 17 / image 19",
+          "ville-ru-novokouznetsk — rail : Page imprimée 17 / image 19",
+          "ville-ru-leninsk-kouznetski — rail : Page imprimée 17 / image 19",
+          "ville-ru-mariinsk — rail : Page imprimée 17 / image 19",
+          "ville-ru-prokopievsk — rail : Page imprimée 17 / image 19",
+          "ville-ru-iourga — rail : Page imprimée 17 / image 19",
+          "ville-ru-topki — rail : Page imprimée 17 / image 19",
+          "ville-ru-kourgan — administration, rail : Page imprimée 21 / image 23",
+          "ville-ru-tomsk — administration, rail : Page imprimée 27 / image 29",
+          "ville-ru-asino — rail : Page imprimée 27 / image 29",
+          "ville-ru-kolpachevo — présence/identité/limite : Page imprimée 27 / image 29",
+          "ville-ru-tioumen — administration, rail : Page imprimée 29 / image 31",
+          "ville-ru-ichim — rail : Page imprimée 29 / image 31",
+          "ville-ru-ialoutorovsk — rail : Page imprimée 29 / image 31",
+          "ville-ru-tobolsk — présence/identité/limite : Page imprimée 29 / image 31",
+          "ville-ru-khanty-mansiisk — administration : Page imprimée 31 / image 33",
+          "ville-tm-kerki — Chef-lieu d’oblast créé le 29/12/1943 : Page imprimée 43 / image 45",
+          "ville-ru-tayga — rail : Page imprimée 18 / image 20",
+          "ville-ru-chadrinsk — rail : Page imprimée 22 / image 24",
+          "ville-ru-petoukhovo — rail : Page imprimée 22 / image 24",
+          "ville-ru-choumikha — rail : Page imprimée 22 / image 24",
+          "ville-ru-salekhard — administration : Page imprimée 32 / image 34",
+          "ville-uz-karchi — administration : Page imprimée 45 / image 47",
+          "ville-uz-termez — administration : Page imprimée 47 / image 49",
+          "ville-kz-kokchetau — administration : Page imprimée 49 / image 51",
+          "ville-kz-taldykorgan — administration : Page imprimée 51 / image 53",
+          "ville-kz-ouchtiobe — rail : Page imprimée 51 / image 53",
+          "ville-kg-talas — administration : Page imprimée 53 / image 55",
+          "Rôle importable uniquement s’il figure dans le JSON final des villes ; autres usages = contexte ou réserve, voir sélection.",
+          "Complément Q15-02 : sept chefs-lieux, pages5,15,19,23,25,33,35 ; liste limitée dans le dossier1.5."
+        ],
+        "usages_atlas": [
+          "Chef-lieu d’oblast créé le 29/12/1943",
+          "administration",
+          "rail"
+        ],
+        "locator": "Pages imprimées 17–18, 21–22, 27–32, 43, 45, 47, 49, 51, 53 ; scans vus. Changements du Primorié page 55 également lus. Accès par ville : 2026-10-03_ether_index_pages_administratives_cycle2.json et .md, dans le dossier villes_1-6.",
+        "note": "Édition de 1944 numérisée. Date-limite 01/10/1944 ; pas de changement d’octobre–décembre déduit. Présence de station locale, pas preuve de débit ou de nœud à plusieurs directions. Capitale d’oblast/RSSA non typée sans arbitrage final. Réponse Q16-02 : images locales pointées par ville, empreintes dans l’index. Préserver les cibles antérieures par union ; cet index ne concerne que les villes retenues.",
+        "verification_ether": {
+          "statut": "pages_ciblees_vues",
+          "par": "Ether",
+          "limite": "Édition de 1944 numérisée. Date-limite 01/10/1944 ; pas de changement d’octobre–décembre déduit. Présence de station locale, pas preuve de débit ou de nœud à plusieurs directions. Capitale d’oblast/RSSA non typée sans arbitrage final.",
+          "date": "2026-10-03"
+        },
+        "verification_ether_cycle2": {
+          "date": "2026-10-03",
+          "statut": "index_images_et_localisateurs",
+          "limite": "Lectures cycle1 conservées. Index et présence des fichiers vérifiés ; ce complément ne relève ni verification_claude ni verification_humaine."
+        }
+      },
+      "confirmations_claude": {
+        "ville-ru-kemerovo": {
+          "roles": [
+            "administration",
+            "rail"
+          ],
+          "lecture": "page imprimée 17, image déposée par Ether, lue par Claude : ЦЕНТР—г. КЕМЕРОВО ; 6 Кемеровский | г. Кемерово, Том. — ",
+          "date": "2026-10-04",
+          "verification": "data/sources/verifications_claude/2026-10-04_villes_1-6_cycle2.json"
+        },
+        "ville-ru-anjero-soudjensk": {
+          "roles": [
+            "rail"
+          ],
+          "lecture": "page imprimée 17, image déposée par Ether, lue par Claude : 1 Анжеро-Судженский | г. Анжеро-Судженск, Анжерская, Том. —",
+          "date": "2026-10-04",
+          "verification": "data/sources/verifications_claude/2026-10-04_villes_1-6_cycle2.json"
+        },
+        "ville-ru-belovo": {
+          "roles": [
+            "rail"
+          ],
+          "lecture": "page imprimée 17, image déposée par Ether, lue par Claude : 3 Беловский | г. Белово, Том. —",
+          "date": "2026-10-04",
+          "verification": "data/sources/verifications_claude/2026-10-04_villes_1-6_cycle2.json"
+        },
+        "ville-ru-gourievsk": {
+          "roles": [
+            "rail"
+          ],
+          "lecture": "page imprimée 17, image déposée par Ether, lue par Claude : 4 Гурьевский | г. Гурьевск, Том. —",
+          "date": "2026-10-04",
+          "verification": "data/sources/verifications_claude/2026-10-04_villes_1-6_cycle2.json"
+        },
+        "ville-ru-kisselevsk": {
+          "roles": [
+            "rail"
+          ],
+          "lecture": "page imprimée 17, image déposée par Ether, lue par Claude : 7 Киселевский | г. Киселевск, Акчурла, Том. —",
+          "date": "2026-10-04",
+          "verification": "data/sources/verifications_claude/2026-10-04_villes_1-6_cycle2.json"
+        },
+        "ville-ru-novokouznetsk": {
+          "roles": [
+            "rail"
+          ],
+          "lecture": "page imprimée 17, image déposée par Ether, lue par Claude : 10 Кузнецкий | г. Сталинск, Новокузнецк, Том. —",
+          "date": "2026-10-04",
+          "verification": "data/sources/verifications_claude/2026-10-04_villes_1-6_cycle2.json"
+        },
+        "ville-ru-leninsk-kouznetski": {
+          "roles": [
+            "rail"
+          ],
+          "lecture": "page imprimée 17, image déposée par Ether, lue par Claude : 11 Ленинск-Кузнецкий | г. Ленинск-Кузнецкий, Кольчугино, Том. —",
+          "date": "2026-10-04",
+          "verification": "data/sources/verifications_claude/2026-10-04_villes_1-6_cycle2.json"
+        },
+        "ville-ru-mariinsk": {
+          "roles": [
+            "rail"
+          ],
+          "lecture": "page imprimée 17, image déposée par Ether, lue par Claude : 12 Мариинский | г. Мариинск, Красн. —",
+          "date": "2026-10-04",
+          "verification": "data/sources/verifications_claude/2026-10-04_villes_1-6_cycle2.json"
+        },
+        "ville-ru-prokopievsk": {
+          "roles": [
+            "rail"
+          ],
+          "lecture": "page imprimée 17, image déposée par Ether, lue par Claude : 14 Прокопьевский | г. Прокопьевск, Усяты, Том. —",
+          "date": "2026-10-04",
+          "verification": "data/sources/verifications_claude/2026-10-04_villes_1-6_cycle2.json"
+        },
+        "ville-ru-iourga": {
+          "roles": [
+            "rail"
+          ],
+          "lecture": "page imprimée 17, image déposée par Ether, lue par Claude : 21 Юргинский | рп. Юрга, Юрга, Том. —",
+          "date": "2026-10-04",
+          "verification": "data/sources/verifications_claude/2026-10-04_villes_1-6_cycle2.json"
+        },
+        "ville-ru-topki": {
+          "roles": [
+            "rail"
+          ],
+          "lecture": "page imprimée 17, image déposée par Ether, lue par Claude : 18 Топкинский | г. Топки, Том. —",
+          "date": "2026-10-04",
+          "verification": "data/sources/verifications_claude/2026-10-04_villes_1-6_cycle2.json"
+        },
+        "ville-ru-kourgan": {
+          "roles": [
+            "administration",
+            "rail"
+          ],
+          "lecture": "page imprimée 21, image déposée par Ether, lue par Claude : ЦЕНТР — г. КУРГАН ; 14 Курганский | г. Курган, Курган, Ю.-Ур. —",
+          "date": "2026-10-04",
+          "verification": "data/sources/verifications_claude/2026-10-04_villes_1-6_cycle2.json"
+        },
+        "ville-ru-tomsk": {
+          "roles": [
+            "administration",
+            "rail"
+          ],
+          "lecture": "page imprimée 27, image déposée par Ether, lue par Claude : ЦЕНТР — г. ТОМСК ; 17 Томский | г. Томск, Том. —",
+          "date": "2026-10-04",
+          "verification": "data/sources/verifications_claude/2026-10-04_villes_1-6_cycle2.json"
+        },
+        "ville-ru-asino": {
+          "roles": [
+            "rail"
+          ],
+          "lecture": "page imprimée 27, image déposée par Ether, lue par Claude : 2 Асиновский | с. Асино Том. —",
+          "date": "2026-10-04",
+          "verification": "data/sources/verifications_claude/2026-10-04_villes_1-6_cycle2.json"
+        },
+        "ville-ru-tioumen": {
+          "roles": [
+            "administration",
+            "rail"
+          ],
+          "lecture": "page imprimée 29, image déposée par Ether, lue par Claude : ЦЕНТР — г. ТЮМЕНЬ ; 20 Тюменский | г. Тюмень, Свердл. —",
+          "date": "2026-10-04",
+          "verification": "data/sources/verifications_claude/2026-10-04_villes_1-6_cycle2.json"
+        },
+        "ville-ru-ichim": {
+          "roles": [
+            "rail"
+          ],
+          "lecture": "page imprimée 29, image déposée par Ether, lue par Claude : 12 Ишимский | г. Ишим, Ом. —",
+          "date": "2026-10-04",
+          "verification": "data/sources/verifications_claude/2026-10-04_villes_1-6_cycle2.json"
+        },
+        "ville-ru-ialoutorovsk": {
+          "roles": [
+            "rail"
+          ],
+          "lecture": "page imprimée 29, image déposée par Ether, lue par Claude : 24 Ялуторовский | г. Ялуторовск, Свердл. —",
+          "date": "2026-10-04",
+          "verification": "data/sources/verifications_claude/2026-10-04_villes_1-6_cycle2.json"
+        },
+        "ville-ru-khanty-mansiisk": {
+          "roles": [
+            "administration"
+          ],
+          "lecture": "page imprimée 31, image déposée par Ether, lue par Claude : ЦЕНТР — рп ХАНТЫ-МАНСИЙСК ; Ханты-Мансийск рп | Тюмень Свердл. 777",
+          "date": "2026-10-04",
+          "verification": "data/sources/verifications_claude/2026-10-04_villes_1-6_cycle2.json"
+        },
+        "ville-tm-kerki": {
+          "roles": [
+            "administration"
+          ],
+          "lecture": "page imprimée 43, image déposée par Ether, lue par Claude : Керкинская область*) ЦЕНТР — г. КЕРКИ ; Дата образования области — 29 декабря 1943 г.",
+          "date": "2026-10-04",
+          "verification": "data/sources/verifications_claude/2026-10-04_villes_1-6_cycle2.json"
+        },
+        "ville-ru-tayga": {
+          "roles": [
+            "rail"
+          ],
+          "lecture": "page imprimée 18, image déposée par Ether, lue par Claude : 9 Тайга | Тайга » —",
+          "date": "2026-10-04",
+          "verification": "data/sources/verifications_claude/2026-10-04_villes_1-6_cycle2.json"
+        },
+        "ville-ru-chadrinsk": {
+          "roles": [
+            "rail"
+          ],
+          "lecture": "page imprimée 22, image déposée par Ether, lue par Claude : 2 Шадринск | Шадринск Ю.-Ур. —",
+          "date": "2026-10-04",
+          "verification": "data/sources/verifications_claude/2026-10-04_villes_1-6_cycle2.json"
+        },
+        "ville-ru-petoukhovo": {
+          "roles": [
+            "rail"
+          ],
+          "lecture": "page imprimée 22, image déposée par Ether, lue par Claude : 2 Петухово рц | Петуховский | Петухово Ом. —",
+          "date": "2026-10-04",
+          "verification": "data/sources/verifications_claude/2026-10-04_villes_1-6_cycle2.json"
+        },
+        "ville-ru-choumikha": {
+          "roles": [
+            "rail"
+          ],
+          "lecture": "page imprimée 22, image déposée par Ether, lue par Claude : 3 Шумиха рц | Шумихинский | Шумиха Ю.-Ур. —",
+          "date": "2026-10-04",
+          "verification": "data/sources/verifications_claude/2026-10-04_villes_1-6_cycle2.json"
+        },
+        "ville-ru-salekhard": {
+          "roles": [
+            "administration"
+          ],
+          "lecture": "page imprimée 32, image déposée par Ether, lue par Claude : ЦЕНТР — г. САЛЕХАРД ; 1 Салехард | Тюмень Свердл. 1850",
+          "date": "2026-10-04",
+          "verification": "data/sources/verifications_claude/2026-10-04_villes_1-6_cycle2.json"
+        },
+        "ville-uz-karchi": {
+          "roles": [
+            "administration"
+          ],
+          "lecture": "page imprimée 45, image déposée par Ether, lue par Claude : Кашка-Дарьинская область*) ЦЕНТР — г. КАРШИ ; Дата образования области — 20 января 1943 г.",
+          "date": "2026-10-04",
+          "verification": "data/sources/verifications_claude/2026-10-04_villes_1-6_cycle2.json"
+        },
+        "ville-uz-termez": {
+          "roles": [
+            "administration"
+          ],
+          "lecture": "page imprimée 47, image déposée par Ether, lue par Claude : Сурхан-Дарьинская область*) ЦЕНТР — г. ТЕРМЕЗ ; Дата образования области — 6 марта 1941 г.",
+          "date": "2026-10-04",
+          "verification": "data/sources/verifications_claude/2026-10-04_villes_1-6_cycle2.json"
+        },
+        "ville-kz-kokchetau": {
+          "roles": [
+            "administration"
+          ],
+          "lecture": "page imprimée 49, image déposée par Ether, lue par Claude : Кокчетавская область*) ЦЕНТР — г. КОКЧЕТАВ ; Дата образования области — 16 марта 1944 г.",
+          "date": "2026-10-04",
+          "verification": "data/sources/verifications_claude/2026-10-04_villes_1-6_cycle2.json"
+        },
+        "ville-kz-taldykorgan": {
+          "roles": [
+            "administration"
+          ],
+          "lecture": "page imprimée 51, image déposée par Ether, lue par Claude : Талды-Курганская область*) ЦЕНТР — г. ТАЛДЫ-КУРГАН ; Дата образования области — 16 марта 1944 г.",
+          "date": "2026-10-04",
+          "verification": "data/sources/verifications_claude/2026-10-04_villes_1-6_cycle2.json"
+        },
+        "ville-kz-ouchtiobe": {
+          "roles": [
+            "rail"
+          ],
+          "lecture": "page imprimée 51, image déposée par Ether, lue par Claude : 7 Каратальский | рп. Уш-Тобе, Турк.-Сиб. —",
+          "date": "2026-10-04",
+          "verification": "data/sources/verifications_claude/2026-10-04_villes_1-6_cycle2.json"
+        },
+        "ville-kg-talas": {
+          "roles": [
+            "administration"
+          ],
+          "lecture": "page imprimée 53, image déposée par Ether, lue par Claude : Таласская область*) ЦЕНТР — г. ТАЛАСС ; Дата образования области — 22 июня 1944 г.",
+          "date": "2026-10-04",
+          "verification": "data/sources/verifications_claude/2026-10-04_villes_1-6_cycle2.json"
+        },
+        "ville-ru-vladikavkaz": {
+          "roles": [
+            "administration"
+          ],
+          "lecture": "image de page admin1944_image81.jpg déposée par Ether (lot 1.7), lue par Claude : Переименована столица республики г. Орджоникидзе в г. Дзауджикау ... Указ През. Верх. Совета СССР от 28/II 1944 г.",
+          "date": "2026-10-04",
+          "verification": "data/sources/verifications_claude/2026-10-04_villes_1-7.json"
+        },
+        "ville-ru-grozny": {
+          "roles": [
+            "administration",
+            "rail"
+          ],
+          "lecture": "image de page admin1944_image15.jpg déposée par Ether (lot 1.7), lue par Claude : Грозненская область*) ... ЦЕНТР — г. ГРОЗНЫЙ ... Дата образования области — 22 марта 1944 г. ; 4 Грозненский | г. Грозный | Ордж. —",
+          "date": "2026-10-04",
+          "verification": "data/sources/verifications_claude/2026-10-04_villes_1-7.json"
+        },
+        "ville-ru-goudermes": {
+          "roles": [
+            "rail"
+          ],
+          "lecture": "image de page admin1944_image15.jpg déposée par Ether (lot 1.7), lue par Claude : 5 Гудермесский | г. Гудермес | Ордж. — ; (image16) Гудермес рц | Гудермесский | Гудермес, Ордж.",
+          "date": "2026-10-04",
+          "verification": "data/sources/verifications_claude/2026-10-04_villes_1-7.json"
+        },
+        "ville-ru-kizliar": {
+          "roles": [
+            "rail"
+          ],
+          "lecture": "image de page admin1944_image15.jpg déposée par Ether (lot 1.7), lue par Claude : 8 Кизлярский | г. Кизляр, | Ордж. — ; (image16) а) города областного подчинения : 2 Кизляр | Кизляр Ордж.",
+          "date": "2026-10-04",
+          "verification": "data/sources/verifications_claude/2026-10-04_villes_1-7.json"
+        }
+      },
+      "complement_ether_1_7": {
+        "source_id": "src-neb-admin1944-supplement",
+        "operation_registre": "completer",
+        "niveau": "A",
+        "type_source": "repertoire_officiel_epoque_numerise",
+        "titre": "Supplément au répertoire administratif de l’URSS — changements du 01/01/1941 au 01/10/1944",
+        "institution": "Service d’information et de statistique auprès du secrétariat du Présidium du Soviet suprême de l’URSS",
+        "url": "https://kp.rusneb.ru/item/material/dopolnenie-k-spravochniku-administrativno-territorialnoe-delenie-soyuznyh-respublik-vypuska-1941-g-izmeneniya-proizoshedshie-za-period-s-1-yanvarya-1941-g-po-1-oktyabrya-1944-g-informacionno-statisticheskij-otdel-pri-sekretariate-prezidiuma-verhovnogo-soveta-sssr",
+        "date_consultation": "2026-10-03",
+        "cibles": [
+          "ville-ge-tkvarcheli",
+          "ville-ru-beslan",
+          "ville-ru-goudermes",
+          "ville-ru-grozny",
+          "ville-ru-kizliar",
+          "ville-ru-malgobek",
+          "ville-ru-mozdok",
+          "ville-ru-nazran",
+          "ville-ru-stavropol",
+          "ville-ru-vladikavkaz"
+        ],
+        "usage": [
+          "ville-ru-vladikavkaz — administration : Capitale renommée 28/02/1944.",
+          "ville-ru-grozny — administration, rail : Centre de l’oblast créée 22/03/1944, ville avec gare.",
+          "ville-ru-grozny — rail : Gare homonyme sans distance externe dans le tableau des villes 1944.",
+          "ville-ru-goudermes — rail : Ville avec gare ; rôle de jonction à compléter.",
+          "ville-ru-goudermes — rail : Gare homonyme sans distance externe dans le tableau des villes 1944.",
+          "ville-ru-kizliar — rail : Ville avec gare, oblast de Grozny.",
+          "ville-ru-kizliar — rail : Gare homonyme sans distance externe dans le tableau des villes 1944.",
+          "ville-ru-stavropol — administration : Centre du kraï ; Vorochilovsk renommée Stavropol 12/01/1943.",
+          "ville-ru-mozdok — identité/réserve : Ville transférée à la RSSA d’Ossétie du Nord 01/03/1944.",
+          "ville-ru-malgobek — identité/réserve : Ville transférée à la RSSA d’Ossétie du Nord 07/03/1944.",
+          "ville-ru-beslan — identité/réserve : Centre Toulátovo renommé Iriston 29/04/1941 ; identité avec Beslan à recouper.",
+          "ville-ru-nazran — identité/réserve : Nazran renommée Kosta Khetagourova 29/04/1944.",
+          "ville-ge-tkvarcheli — identité/réserve : Passage du bourg ouvrier au statut de ville le 9 avril 1942 ; Akarmara incorporée le même jour.",
+          "Les cibles différées restent des réserves ; seules les entités du JSON final sont proposées à l’import."
+        ],
+        "locator": "p.13/image15 ;p.55/image57 dans1.6 ;p.79/image81 dans1.7",
+        "note": "Scans vus ; répertoire au01/10/1944. Ne prouve ni trafic ni capacités de fin1944. Union des anciennes cibles/localisateurs à conserver à la fusion.",
+        "verification_ether": {
+          "date": "2026-10-03",
+          "statut": "passage_lu",
+          "limite": "Scans vus ; répertoire au01/10/1944. Ne prouve ni trafic ni capacités de fin1944. Union des anciennes cibles/localisateurs à conserver à la fusion."
+        },
+        "usages_atlas": [
+          "administration",
+          "rail"
+        ]
+      },
+      "operation_registre": "completer",
+      "complement_ether_cycle2_2026_10_04": {
+        "question": "Q17-01/02",
+        "locator": "p.55 / image57",
+        "lecture_ether": "Le supplément donne le renommage du kraï et de Vorochilovsk en Stavropol le 12 janvier 1943 ; copie locale jointe pour Q17-02.",
+        "images_locales": [
+          {
+            "fichier": "2026-10-04_ether_Q17-02_admin1944_p55.jpg",
+            "sha256": "4035de74b5b82d09268b028dc16be70beaf9121154424d58b94ab9f2c030bd69"
+          }
+        ],
+        "portee": "Lecture ciblée par Ether ; ne remplace aucune vérification Claude ou humaine."
+      },
+      "usage": [
+        "Le supplément donne le renommage du kraï et de Vorochilovsk en Stavropol le 12 janvier 1943 ; copie locale jointe pour Q17-02."
+      ]
+    },
+    {
+      "source_id": "src-17-tr-sumerbank-polatoglu2021",
+      "niveau": "B",
+      "type_source": "etude_historique",
+      "titre": "Türkiye’nin kalkınmasında Sümerbank ve etkinliği (1933–1987), M.G.Polatoğlu,2021",
+      "institution": "Atatürk Araştırma Merkezi Dergisi,104",
+      "url": "https://www.atamdergi.gov.tr/tam-metin/776/tur",
+      "date_consultation": "2026-10-04",
+      "periode_couverte": [],
+      "zones": [],
+      "usages_atlas": [
+        "industrie"
+      ],
+      "cibles": [
+        "ville-tr-ankara",
+        "ville-tr-bunyan",
+        "ville-tr-bursa",
+        "ville-tr-eregli-konya",
+        "ville-tr-gemlik",
+        "ville-tr-hereke",
+        "ville-tr-isparta",
+        "ville-tr-istanbul",
+        "ville-tr-izmir",
+        "ville-tr-izmit",
+        "ville-tr-karabuk",
+        "ville-tr-kayseri",
+        "ville-tr-kutahya",
+        "ville-tr-malatya",
+        "ville-tr-nazilli",
+        "ville-tr-sivas"
+      ],
+      "locator": "SectionIII, productions1944,notes57 et93 ; paragraphes1943–1944",
+      "resume_passage": "Sivas, Zeytinburnu ve Ankara çimento fabrikalarında 190.027 ton çimento ; Defterdar, Hereke, Bünyan, Isparta ve Merinos dokuma fabrikalarında 1944 yılı dikkate alındığında 28.044 iğ ve 433 tezgâh olup 9.658 ton iplik ile 4.288.336 m yünlü kumaş imal edildi.",
+      "archive_locale": null,
+      "verification_claude": "limite",
+      "verification_ether": {
+        "date": "2026-10-03",
+        "statut": "passage_lu",
+        "limite": "Étude de recherche avec renvois à archives et publications d’époque ; citations primaires non toutes relues. Retenir seulement fonctions localisées antérieures au Snapshot ; quantités agrégées non attribuées aux villes."
+      },
+      "notes": "Proposée par Ether (villes 1.7, 03/10/2026). Ce que la source prouve selon Ether : ville-tr-ankara — industrie : Ciment 1944.; ville-tr-kayseri — industrie : Textile 1935, activité 1944.; ville-tr-sivas — industrie : Cimenterie 1943, activité 1944.; ville-tr-malatya — industrie : Textile 1939.; ville-tr-kutahya — industrie : Céramique 1944.; ville-tr-isparta — industrie : Filature 1926, activité 1944.; ville-tr-istanbul — industrie : Textile, chaussures et ciment 1944 dans plusieurs quartiers.; ville-tr-bursa — industrie : Merinos 1938, activité 1944.; ville-tr-izmir — industrie : Textile à Halkapınar 1944.; ville-tr-eregli-konya — industrie : Textile 1937, activité 1944.; ville-tr-nazilli — industrie : Textile 1937, activité 1944.; ville-tr-gemlik — industrie : Soie artificielle 1938, activité 1944.; ville-tr-izmit — industrie : Papier 1936, cellulose et papier 1944.; ville-tr-karabuk — industrie : Sidérurgie 1939, activité 1944.; ville-tr-hereke — industrie : Textile 1944.; ville-tr-bunyan — industrie : Textile 1944.; Les cibles différées restent des réserves ; seules les entités du JSON final sont proposées à l’import.. Limite annoncée par Ether : Étude de recherche avec renvois à archives et publications d’époque ; citations primaires non toutes relues. Retenir seulement fonctions localisées antérieures au Snapshot ; quantités agrégées non attribuées aux villes. Relecture Claude 04/10/2026 : Confirmés pour 1944 : cimenteries Sivas/Ankara (et Zeytinburnu à Istanbul), usines de laine Hereke, Bünyan, Isparta, Merinos (Bursa) ; Bakırköy/Kayseri/Ereğli/Nazilli cités comme usines cotonnières, Gemlik (soie artificielle), İzmit (papeteries), Karabük (sidérurgie), Kütahya (Çini İşleri) et Malatya cités sans date précise dans les extraits obtenus. Contradiction : l'usine textile de Halkapınar (İzmir) n'est ouverte qu'en 1947 (« 1947'de işletmeye açtı »), donc İzmir 1944 n'est pas prouvé ; Istanbul textile/chaussures 1944 non retrouvé. Les dates de fondation (1935-1939) ne sont pas vérifiées ville par ville.",
+      "operation_registre": "completer",
+      "complement_ether_cycle2_2026_10_04": {
+        "question": "Q17-01/02",
+        "locator": "Liste de production 1944 et paragraphe ouvrant Halkapınar en 1947",
+        "lecture_ether": "Contradiction interne : Halkapınar apparaît dans la liste de 1944, puis l’ouverture est datée de 1947. Suspendre l’affirmation textile1944 ; ne pas présenter 1947 comme une résolution de la contradiction.",
+        "images_locales": [
+          {
+            "fichier": "2026-10-04_ether_Q17-01_izmir_liste1944.png",
+            "sha256": "dcd02f5e9e6c83c94093a896b262e50d6831d3ede1b5ba74cca3a94b2b33e829"
+          },
+          {
+            "fichier": "2026-10-04_ether_Q17-01_izmir_ouverture1947.png",
+            "sha256": "af85b73b8e6aafc9d142246c381dc09489581eafc75431446ba10f9f0a4da921"
+          }
+        ],
+        "portee": "Lecture ciblée par Ether ; ne remplace aucune vérification Claude ou humaine."
+      },
+      "usage": [
+        "Contradiction interne : Halkapınar apparaît dans la liste de 1944, puis l’ouverture est datée de 1947. Suspendre l’affirmation textile1944 ; ne pas présenter 1947 comme une résolution de la contradiction."
+      ]
+    }
+  ]
+}

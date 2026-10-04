@@ -2,6 +2,12 @@
 
 Une ligne par décision, datée. Plus récente en haut. Ce journal remplace les versions éparpillées dans les conversations : si ce n'est pas ici, ce n'est pas décidé.
 
+## 2026-10-04 (soir : réponses au 1.6, cycle 3, et au 1.7, cycle 2)
+
+- **Captures et pages d'Ether lues par Claude** : 16 captures et 47 images de pages de répertoires. 1.6 : 57 villes de plus confirmées page par page, Maxam, ONIIP, Novossibirsk et Providenia confirmées ; « À renforcer » 176 → 127. 1.7 : rail relu pour 30 villes turques (encyclopédie Atatürk), Gelibolu confirmée, 34 villes de Géorgie, d'Arménie et Stavropol confirmées ; « À renforcer » 124 → 78. Registre v1.24. *(Ether + Claude)*
+- **Deux corrections d'Ether appliquées** (rôles retirés faute de preuve, après lecture des pages) : Tchirtchik perd le rail (gare à 32 km en 1940) ; İzmir perd l'industrie (Halkapınar : liste de 1944 et ouverture en 1947 dans la même étude, réserve R17-C2-01). *(Ether, vérifié par Claude)*
+- Lot 1.6 : 3 cycles atteints, réserves gardées pour la revue finale 1.x. *(règle du 02/10)*
+
 ## 2026-10-04 (villes 1.7, Caucase et Turquie ; réponses au 1.5 et au 1.6 ; Miskolc)
 
 - **Villes 1.7 intégrées : 166 villes** (Turquie 77, Caucase du Nord 36, Géorgie 26, Azerbaïdjan 16, Arménie 11), dont 20 sous leur nom de 1945 (Dzaoudjikaou, Leninakan, Kirovabad, Stalinir, Urfa…). Ankara « nationale » ; Tbilissi, Erevan, Bakou « régionales » (capitales de RSS) ; RSSA et oblasts sans type (Q15-02). L'Atlas compte 945 villes. *(Ether, fait par Claude)*

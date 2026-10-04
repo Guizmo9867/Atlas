@@ -1,6 +1,6 @@
 # Atlas — réserves et points à trancher (série villes 1.x)
 
-*Généré automatiquement le 04/10/2026 à 14 h 40 par Claude, à partir des fichiers de réserves d'Ether et des comptes rendus de Claude. Régénéré à chaque lot.*
+*Généré automatiquement le 04/10/2026 à 17 h 23 par Claude, à partir des fichiers de réserves d'Ether et des comptes rendus de Claude. Régénéré à chaque lot.*
 
 ## Comment s'en servir
 
@@ -1074,29 +1074,29 @@ Preuves et limites : src-mn-bayankhongor-deplacements : Premier paragraphe, 1941
 
 ### Q16-01 — Sources du lot 1.6 à remplacer ou préciser *(question de Claude)*
 
-- **Ce qu'on sait** : Au cycle 2 (03/10), Ether a précisé l'adresse et le passage des 12 sources. Relecture de Claude le 04/10 (WebFetch seul) : les 6 liens (Rosmorport Primorié et Petropavlovsk, Novossibirsk 1920-1940, ONIIP Omsk, BVRZ Barnaoul, Maxam Tchirtchik) répondent toujours « 404 » à l'outil alors qu'Ether les lit dans son navigateur ; 5 pages restent tronquées avant le passage (Vayner ch. 4, archives de Spassk, Vichnevski Sakhaline, Providenia, petites villes du Kazakhstan). Le livre LOC sur la Mongolie est relu sur les 3 images d'Ether (Oulan-Bator industrie, Nalaïkh charbon et rail, Tchoïbalsan et Borzia rail).
-- **Ce que ça change sur la carte** : Les rôles des 11 sources non lues restent « À renforcer ».
-- **Choix possibles** : Guizmo ouvre ces liens lui-même sur la page « Sources à valider » (« Ça prouve ») ; Ether dépose des captures des passages, comme pour le 1.5 ; ou on garde la réserve visible.
+- **Ce qu'on sait** : Au cycle 3 (04/10), Ether a déposé 9 captures ; Claude les a lues : Maxam (Tchirtchik), ONIIP (Omsk), Novossibirsk 1920-1940 et Providenia confirmées ; Spassk-Dalni, Vayner (Doudinka, Gouriev, Krasnovodsk) et BVRZ (Barnaoul, industrie) relues pour leurs villes. Restent sans image : Rosmorport Primorié et Petropavlovsk, Vichnevski (Sakhaline), Ualtaev (petites villes du Kazakhstan).
+- **Ce que ça change sur la carte** : Les rôles qui n'ont que ces 4 sources restent « À renforcer ». Lot clos côté Ether (3 cycles).
+- **Choix possibles** : Accepter la lecture d'Ether pour les 4 sources restantes ; ou garder la réserve visible ; ou Guizmo valide sur la page « Sources à valider ».
 - **Sources liées** (cliquer pour ouvrir) :
   - [Ports du Primorié — histoires de Vladivostok et Nakhodka](https://www.rosmorport.ru/filials/vlf_seaports/) — `src-rosmorport-primorie-histoire` (lien mort)
   - [Petropavlovsk-Kamtchatski — histoire du port](https://rosmorport.ru/filials/ppv_seaports/) — `src-rosmorport-petropavlovsk-histoire` (lien mort)
-  - [Histoire de Novossibirsk, 1920–1940](https://novo-sibirsk.ru/about/history/1920-1940/) — `src-novossibirsk-histoire1920-1940` (lien mort)
-  - [Anniversaire de l’usine d’Omsk, 2 février 2021](https://www.oniip.ru/predpriyatie/novosti/2618/) — `src-oniip-omsk-1942` (lien mort)
-  - [Histoire des ateliers de wagons de Barnaoul](https://www.b-vrz.ru/about/history/) — `src-bvrz-histoire` (lien mort)
-  - [Histoire du développement de Maxam-Chirchiq](https://maxam-chirchiq.uz/ru/shareholders/facts_activity/test/) — `src-maxam-chirchiq-histoire` (lien mort)
-  - [Le transport maritime soviétique pendant la Grande Guerre patriotique — chapitre 4](https://militera.lib.ru/h/vayner_ba/04.html) — `src-vayner-transport-guerre-ch4` (illisible pour Claude)
+  - [Histoire de Novossibirsk, 1920–1940](https://novo-sibirsk.ru/about/history/1920-1940/) — `src-novossibirsk-histoire1920-1940` (confirmée par Claude)
+  - [Anniversaire de l’usine d’Omsk, 2 février 2021](https://www.oniip.ru/predpriyatie/novosti/2618/) — `src-oniip-omsk-1942` (confirmée par Claude)
+  - [Histoire des ateliers de wagons de Barnaoul](https://www.b-vrz.ru/about/history/) — `src-bvrz-histoire` (lecture partielle)
+  - [Histoire du développement de Maxam-Chirchiq](https://maxam-chirchiq.uz/ru/shareholders/facts_activity/test/) — `src-maxam-chirchiq-histoire` (confirmée par Claude)
+  - [Le transport maritime soviétique pendant la Grande Guerre patriotique — chapitre 4](https://militera.lib.ru/h/vayner_ba/04.html) — `src-vayner-transport-guerre-ch4` (lecture partielle)
   - [Mongolia: A Country Study, 2e édition, 1991](https://tile.loc.gov/storage-services/master/frd/frdcstdy/mo/mongoliacountrys00word_0/mongoliacountrys00word_0.pdf) — `src-loc-mongolie-1991` (lecture partielle)
-  - [85 ans de la cimenterie de Spassk, exposition du 14 mai 2021](https://arhiv-25.ru/archival-documents/photodocumental-expositions/szc_85_anniversary/) — `src-archives-primorie-spassk-ciment` (illisible pour Claude)
+  - [85 ans de la cimenterie de Spassk, exposition du 14 mai 2021](https://arhiv-25.ru/archival-documents/photodocumental-expositions/szc_85_anniversary/) — `src-archives-primorie-spassk-ciment` (lecture partielle)
   - [Sakhaline et les Kouriles pendant la Seconde Guerre mondiale : bref répertoire encyclopédique](https://djvu.online/file/M9Gjw9hXiYwkH) — `src-vishnevski-sakhaline2000` (illisible pour Claude)
-  - [Dans la baie de la Sainte-Providence](https://ks87.ru/articles/arktika/news_13870/) — `src-ks-providenia-dyga2022` (illisible pour Claude)
+  - [Dans la baie de la Sainte-Providence](https://ks87.ru/articles/arktika/news_13870/) — `src-ks-providenia-dyga2022` (confirmée par Claude)
   - [Population des petites villes du Kazakhstan, exemple de la région orientale](https://e-history.kz/media/upload/57/2013/08/27/b728f91e0a2360cee2b10a9a1e93948c.pdf) — `src-ualtaeva-petites-villes2011` (illisible pour Claude)
 - **Décision de Guizmo** : …
 
-### Q16-02 — Répertoires administratifs illisibles pour l'outil de Claude *(question de Claude)*
+### Q16-02 — Répertoires administratifs : rôles relus page par page *(question de Claude)*
 
-- **Ce qu'on sait** : Ether a déposé au cycle 2 un index de 124 relations ville/page avec 28 images de pages (1940, 1941, supplément 1944). Claude a fait lire les 28 images le 04/10 : 67 relations relues, dont 63 confirmées ville par ville (capitale, centre administratif, gare à 0 km). Les 57 autres relations n'ont qu'une adresse de lecteur en ligne, que l'outil ne lit pas.
-- **Ce que ça change sur la carte** : 176 villes du lot gardent au moins un rôle « À renforcer » (225 avant) ; les villes relues sont marquées « page relue par Claude pour cette ville ».
-- **Choix possibles** : Ether dépose les images des pages manquantes (comme pour les 28 premières) ; ou on accepte ces répertoires officiels comme preuve sur la lecture d'Ether.
+- **Ce qu'on sait** : Avec les 36 captures du cycle 3, Claude a lu toutes les pages de l'index d'Ether : 120 villes confirmées sur 125 relations. Non confirmés : Iakoutsk « administration » (liste des villes de la république absente), Fort-Chevtchenko « port » (la page dit seulement « пристань »), Chymkent « industrie » (le répertoire ne parle pas d'économie), Tchirtchik « rail » (gare à 32 km : rôle retiré, correction d'Ether).
+- **Ce que ça change sur la carte** : 127 villes du lot gardent au moins un rôle « À renforcer » (176 avant).
+- **Choix possibles** : Garder ces 3 rôles en réserve ; ou chercher une autre source (Ether).
 - **Sources liées** (cliquer pour ouvrir) :
   - [URSS. Division administrative et territoriale des républiques fédérées au 1er mai 1940](http://elib.shpl.ru/ru/nodes/8481) — `src-shpl-admin1940` (lecture partielle)
   - [URSS — répertoire administratif au 1er janvier 1941, RSS kirghize](https://istmat.org/files/uploads/17632/sssr_ad-ter_delenie_1941_kirgizskaya_ssr.pdf) — `src-sssr-admin1941-kirghizistan` (lecture partielle)
@@ -1247,7 +1247,7 @@ Preuves et limites : Voir grille_couverture : chaque zone a reçu une recherche 
 Preuves et limites : src-17-tr-atam-rail-as2021 / Sivas–Erzurum ; src-17-tr-erzincan-reconstruction / Derniers paragraphes : séisme de 1939, nouvelle construction au-delà de la voie ferrée Impact et choix : Ville reconstruite après le séisme de 1939 ; centre urbain au Snapshot non établi. La preuve ferroviaire ne résout pas ce déplacement. Choix final : corroborer puis proposer, ou conserver le report.
 
 - **Sources liées** (cliquer pour ouvrir) :
-  - [Développement des chemins de fer turcs sous Atatürk — Efdal As,24/06/2021](https://ataturkansiklopedisi.gov.tr/detay/921/Atat%C3%BCrk-D%C3%B6neminde-T.C.-Devlet-Demiryollar%C4%B1n%C4%B1n-Geli%C5%9Fimi) — `src-17-tr-atam-rail-as2021` (illisible pour Claude)
+  - [Développement des chemins de fer turcs sous Atatürk — Efdal As,24/06/2021](https://ataturkansiklopedisi.gov.tr/detay/921/Atat%C3%BCrk-D%C3%B6neminde-T.C.-Devlet-Demiryollar%C4%B1n%C4%B1n-Geli%C5%9Fimi) — `src-17-tr-atam-rail-as2021` (lecture partielle)
   - [Erzincan — histoire de la ville et reconstruction après 1939](https://www.erzincan.gov.tr/tarihce) — `src-17-tr-erzincan-reconstruction` (confirmée par Claude)
 - **Décision de Guizmo** : …
 
@@ -1318,18 +1318,18 @@ Preuves et limites : src-17-tr-guleman-localisation / 1936–1939,distinctionvil
 
 ### Q17-01 — Sources du lot 1.7 que l'outil de Claude ne lit pas *(question de Claude)*
 
-- **Ce qu'on sait** : Sur 52 sources relues le 04/10 (WebFetch seul) : 28 confirmées, 10 en lecture partielle, 12 illisibles pour l'outil (sites turcs du ministère de la Culture et kulturportali refusés aux robots, PDF de la MAPEG, encyclopédie Atatürk en JavaScript, musée du rail arménien en erreur, ville de Kropotkine, TRDizin, deux pages Militera tronquées), 1 lien en erreur (Rosmorport mer Noire) et 1 faible : le journal « Заря Востока » du 12/02/1941 ne contient pas, à la lecture de l'outil, l'article sur les mineurs de Tkvartcheli.
-- **Ce que ça change sur la carte** : Les rôles qui n'ont que ces sources restent « À renforcer » (124 villes sur 166).
-- **Choix possibles** : Ether dépose des captures des passages (comme au 1.5) ou donne une autre source ; Guizmo peut valider sur la page « Sources à valider ».
+- **Ce qu'on sait** : Au cycle 2 (04/10), Ether a déposé 7 captures : encyclopédie Atatürk lue en entier (rail prouvé pour 30 villes turques ; Adana, Afyon, Manisa, Divriği non trouvées), Gelibolu confirmée, Mersin/Tarsus relue, Sümerbank : contradiction 1944/1947 réelle (rôle industrie d'İzmir retiré). Restent sans capture : Ordu, MAPEG (Raman), musée du rail arménien, Kropotkine, TRDizin (Maden), Kırklareli, Rosmorport mer Noire, Militera, journal de Tkvartcheli.
+- **Ce que ça change sur la carte** : Les rôles qui n'ont que ces sources restent « À renforcer » (78 villes sur 166, 124 avant).
+- **Choix possibles** : Ether dépose des captures ou une autre source ; Guizmo peut valider sur la page « Sources à valider » ; ou garder la réserve.
 - **Sources liées** (cliquer pour ouvrir) :
   - [Заря Востока,12février1941,n35,industrie charbonnière](https://dspace.nplg.gov.ge/bitstream/1234/468753/1/Zaria_Vostoka_1941_N35.pdf) — `src-17-ge-zaria19410212` (ne prouve pas bien)
-  - [Historique deMersin etTarsus](https://mersin.ktb.gov.tr/TR-73152/tarihce.html) — `src-17-tr-mersin-tarsus-histoire` (illisible pour Claude)
+  - [Historique deMersin etTarsus](https://mersin.ktb.gov.tr/TR-73152/tarihce.html) — `src-17-tr-mersin-tarsus-histoire` (lecture partielle)
   - [Türkiye’deki rafineriler,rapport pétrolier1991](https://www.mapeg.gov.tr/Uploads/PetrolDergileri/1991tam.pdf) — `src-17-tr-raman-mapeg1991` (illisible pour Claude)
-  - [Le transport maritime soviétique pendant la Grande Guerre patriotique — chapitre 4](https://militera.lib.ru/h/vayner_ba/04.html) — `src-vayner-transport-guerre-ch4` (illisible pour Claude)
-  - [Développement des chemins de fer turcs sous Atatürk — Efdal As,24/06/2021](https://ataturkansiklopedisi.gov.tr/detay/921/Atat%C3%BCrk-D%C3%B6neminde-T.C.-Devlet-Demiryollar%C4%B1n%C4%B1n-Geli%C5%9Fimi) — `src-17-tr-atam-rail-as2021` (illisible pour Claude)
+  - [Le transport maritime soviétique pendant la Grande Guerre patriotique — chapitre 4](https://militera.lib.ru/h/vayner_ba/04.html) — `src-vayner-transport-guerre-ch4` (lecture partielle)
+  - [Développement des chemins de fer turcs sous Atatürk — Efdal As,24/06/2021](https://ataturkansiklopedisi.gov.tr/detay/921/Atat%C3%BCrk-D%C3%B6neminde-T.C.-Devlet-Demiryollar%C4%B1n%C4%B1n-Geli%C5%9Fimi) — `src-17-tr-atam-rail-as2021` (lecture partielle)
   - [Troupes ferroviaires de Russie, tome 3 — restaurations en Biélorussie](https://militera.lib.ru/h/zheleznodorozhnye_voyska_rossii/25.html) — `src-jdv-tome3-bielorussie-1944` (lecture partielle)
   - [Musée du chemin de fer arménien : chronologie des liaisons](https://www.railway.am/arm/musey) — `src-17-am-rail-musee` (illisible pour Claude)
-  - [Gelibolu : histoire administrative](https://canakkale.ktb.gov.tr/TR-70539/gelibolu.html) — `src-17-tr-gelibolu-administration` (illisible pour Claude)
+  - [Gelibolu : histoire administrative](https://canakkale.ktb.gov.tr/TR-70539/gelibolu.html) — `src-17-tr-gelibolu-administration` (confirmée par Claude)
   - [Taganrog : reprise du port par la réparation navale après août 1943](https://www.rosmorport.ru/filials/nvr_seaports/) — `src-rosmorport-taganrog-reparation-1943` (lecture partielle)
   - [EtibankErganiBakırİşletmesi’ninKuruluşuveElazığ’ınMadenİlçesineGetirdikleri,notice d’article](https://search.trdizin.gov.tr/en/yayin/detay/269303/) — `src-17-tr-maden-bakir-etude` (illisible pour Claude)
   - [Histoire de la ville deKropotkine](https://www.gorod-kropotkin.ru/o-gorode/o-gorode-kropotkine/) — `src-17-ru-kropotkine-ville` (illisible pour Claude)
@@ -1339,12 +1339,507 @@ Preuves et limites : src-17-tr-guleman-localisation / 1936–1939,distinctionvil
 
 ### Q17-02 — Pages du répertoire de 1940 pour la Géorgie et l'Arménie *(question de Claude)*
 
-- **Ce qu'on sait** : Les rôles « rail » et « administration » de 35 villes de Géorgie et d'Arménie reposent sur le répertoire de 1940 (pages 259-269 et 277-296), dont aucune image n'est déposée. Claude a relu les pages de l'Azerbaïdjan (236-237) et du supplément de 1944 pour le Caucase du Nord : 16 villes confirmées (Bakou, Gandja, Agstafa, Yevlakh, Kurdamir, Tovuz, Ujar, Khachmaz, Lankaran, Chaki, Sabirabad, Gazakh, Vladikavkaz, Grozny, Goudermes, Kizliar). La page du kraï de Stavropol manque aussi.
-- **Ce que ça change sur la carte** : Ces 35 villes gardent leurs rôles « À renforcer ».
-- **Choix possibles** : Ether dépose les images des pages 259-269 et 277-296 (et Stavropol) ; ou on accepte le répertoire sur la lecture d'Ether.
+- **Ce qu'on sait** : Ether a déposé les pages 242-250 (Géorgie, Arménie) et la p. 55 du supplément de 1944 : 34 villes confirmées, dont Stavropol (renommée le 12/01/1943, centre du kraï). Manquent encore les pages de Nakhitchevan (p. 240), Alat (p. 238), Stepanakert et Choucha (p. 241).
+- **Ce que ça change sur la carte** : Ces 4 villes gardent leurs rôles « À renforcer ».
+- **Choix possibles** : Ether dépose ces pages ; ou garder la réserve.
 - **Sources liées** (cliquer pour ouvrir) :
   - [URSS. Division administrative et territoriale des républiques fédérées au 1er mai 1940](http://elib.shpl.ru/ru/nodes/8481) — `src-shpl-admin1940` (lecture partielle)
   - [Supplément au répertoire administratif de l’URSS — changements du 01/01/1941 au 01/10/1944](https://kp.rusneb.ru/item/material/dopolnenie-k-spravochniku-administrativno-territorialnoe-delenie-soyuznyh-respublik-vypuska-1941-g-izmeneniya-proizoshedshie-za-period-s-1-yanvarya-1941-g-po-1-oktyabrya-1944-g-informacionno-statisticheskij-otdel-pri-sekretariate-prezidiuma-verhovnogo-soveta-sssr) — `src-neb-admin1944-supplement` (lecture partielle)
+- **Décision de Guizmo** : …
+
+## Lot villes 1.8 — 70 points
+
+*Fichier détaillé d'Ether : `01_lots/villes_1-8/2026-10-04_ether_reserves_revue_finale.md`*
+
+### R18-01 — Centres urbains et P625
+
+Preuves et limites : Wikidata fournit des repères actuels, parfois plusieurs points proches. Le nom, le type de lieu, le pays actuel et la position ont été contrôlés ; aucune localisation précise de 1945 certifiée. Impact : Repères actuels dans les données ; positions déplacées connues différées. Choix à examiner : Conserver le repère ou le remplacer sur une carte historique géoréférencée, ville par ville. Sources : src-wikidata
+
+- **Sources liées** (cliquer pour ouvrir) :
+  - [Wikidata](https://www.wikidata.org/) — `src-wikidata` (illisible pour Claude)
+- **Décision de Guizmo** : …
+
+### R18-02 — Rangs de zoom
+
+Preuves et limites : A/B/C/D sont des propositions éditoriales, sans classement démographique homogène de 1945. Impact : Rangs proposés, aucune validation de Guizmo présumée. Choix à examiner : Examiner les rangs lors de l’audit transversal et de la revue finale.
+
+- **Sources liées** : aucune citée par identifiant ; voir le fichier détaillé d'Ether ou les sources des villes concernées dans `00_SOURCES_A_VALIDER.md`.
+- **Décision de Guizmo** : …
+
+### R18-03 — Noms, variantes et dates de changement
+
+Preuves et limites : Huit formes historiques sont proposées sur des attestations individuelles antérieures ; transcriptions et usage officiel précis au 31 décembre restent à recouper. Les autres noms de fiche ne certifient pas leur forme officielle de guerre. Impact : Aucun nom_local ; pas de substitution uniforme suivant occupation ou langue actuelle. Choix à examiner : Vérifier actes/annuaires datés et décider l’affichage ou les alias.
+
+- **Sources liées** : aucune citée par identifiant ; voir le fichier détaillé d'Ether ou les sources des villes concernées dans `00_SOURCES_A_VALIDER.md`.
+- **Décision de Guizmo** : …
+
+### R18-04 — Capitales et sièges effectifs
+
+Preuves et limites : Six capitales nationales ont une preuve historique ; statut, gouvernement effectif, occupation et siège de repli ne sont pas interchangeables. Impact : Aucun statut de capitale nationale appliqué par défaut aux futures capitales fédérées ; ne pas déduire un siège gouvernemental effectif. Choix à examiner : Relire la continuité et les sièges à la date, sans importer la carte politique actuelle.
+
+- **Sources liées** : aucune citée par identifiant ; voir le fichier détaillé d'Ether ou les sources des villes concernées dans `00_SOURCES_A_VALIDER.md`.
+- **Décision de Guizmo** : …
+
+### R18-05 — Dates Cesano/Metauro
+
+Preuves et limites : Année1945 au§g,1944 dans les légendes14–15 ; contradiction interne non résolue. Impact : Aucune date de reprise du trafic attribuée à Fano/Senigallia sur ce seul texte. Choix à examiner : Collationner édition1946 et journaux de travaux. Sources : src-18-it-re-1946-ligne86
+
+- **Sources liées** : aucune citée par identifiant ; voir le fichier détaillé d'Ether ou les sources des villes concernées dans `00_SOURCES_A_VALIDER.md`.
+- **Décision de Guizmo** : …
+
+### R18-06 — Italie : réseau coupé au Snapshot
+
+Preuves et limites : Rapports de travaux 1944–1946 : rôle ferroviaire historique établi, service local et connexions variables. Impact : Les rôles rail ne signifient ni un réseau intégralement ouvert ni une capacité connue. Ne pas importer les réouvertures de 1945. Choix à examiner : Revoir la preuve et la portée du rôle au bilan final.
+
+- **Sources liées** : aucune citée par identifiant ; voir le fichier détaillé d'Ether ou les sources des villes concernées dans `00_SOURCES_A_VALIDER.md`.
+- **Décision de Guizmo** : …
+
+### R18-07 — Pont d’Orte : année divergente
+
+Preuves et limites : II.III.7 §a donne juillet 1945 alors que la section annonce la ligne ouverte en septembre 1944. Impact : Date précise du pont non attribuée ; croiser l’original et les journaux de travaux. Choix à examiner : Revoir la preuve et la portée du rôle au bilan final.
+
+- **Sources liées** : aucune citée par identifiant ; voir le fichier détaillé d'Ether ou les sources des villes concernées dans `00_SOURCES_A_VALIDER.md`.
+- **Décision de Guizmo** : …
+
+### R18-08 — Civita Castellana : point urbain et tête de ligne
+
+Preuves et limites : Le rapport nomme Civita Castellana sans distinguer la ville et la gare éloignée. Impact : Candidat à différer si le rôle n’est justifié que par la gare ; ne pas déplacer une ville sur une infrastructure. Choix à examiner : Revoir la preuve et la portée du rôle au bilan final.
+
+- **Sources liées** : aucune citée par identifiant ; voir le fichier détaillé d'Ether ou les sources des villes concernées dans `00_SOURCES_A_VALIDER.md`.
+- **Décision de Guizmo** : …
+
+### R18-09 — Carte OSS 5505 : portée au Snapshot
+
+Preuves et limites : Édition provisoire de 1944 ; date des renseignements sous-jacents et destructions non toutes renseignées. Impact : Rôles ferroviaires attestés par une carte de guerre, sans déduire le trafic du 31 décembre, les horaires ou la souveraineté. Choix à examiner : Préciser les identités et la lecture avant import ; revue des incertitudes restantes en fin de série.
+
+- **Sources liées** : aucune citée par identifiant ; voir le fichier détaillé d'Ether ou les sources des villes concernées dans `00_SOURCES_A_VALIDER.md`.
+- **Décision de Guizmo** : …
+
+### R18-10 — Grèce : lignes projetées
+
+Preuves et limites : Traits spécifiques vers Kozani, entre Kalambaka et Kozani, entre Agrinio et Ioannina et vers Kato Stavros. Impact : Aucun rôle ferroviaire attribué à Ioannina, Arta ou Kozani sur ces seuls tracés. Choix à examiner : Préciser les identités et la lecture avant import ; revue des incertitudes restantes en fin de série.
+
+- **Sources liées** : aucune citée par identifiant ; voir le fichier détaillé d'Ether ou les sources des villes concernées dans `00_SOURCES_A_VALIDER.md`.
+- **Décision de Guizmo** : …
+
+### R18-11 — Grèce : gares et villes
+
+Preuves et limites : Domokos, Lianokladi, Oinoi, Kryoneri et les petits nœuds doivent être rapprochés de leur point urbain ; encarts de Platy/Skydra à recouper. Impact : Pas de coordonnées de gare substituées à une ville. Différer les candidats dont l’identité ou le rôle urbain reste douteux. Choix à examiner : Préciser les identités et la lecture avant import ; revue des incertitudes restantes en fin de série.
+
+- **Sources liées** : aucune citée par identifiant ; voir le fichier détaillé d'Ether ou les sources des villes concernées dans `00_SOURCES_A_VALIDER.md`.
+- **Décision de Guizmo** : …
+
+### R18-12 — Zenica : date sidérurgique
+
+Preuves et limites : Notice donnant 1890 puis 1892. Impact : Conserver seulement une industrie antérieure à 1900 ; année précise non proposée. Choix à examiner : Recouper une source locale datée ; réserve pour la revue finale 1.x.
+
+- **Sources liées** : aucune citée par identifiant ; voir le fichier détaillé d'Ether ou les sources des villes concernées dans `00_SOURCES_A_VALIDER.md`.
+- **Décision de Guizmo** : …
+
+### R18-13 — Pola : arsenal et rail
+
+Preuves et limites : Fonction navale ancienne établie ; date ferroviaire 1867 non recoupée. Impact : Rail non retenu sur ce seul passage ; capacités militaires de fin 1944 non chiffrées. Choix à examiner : Recouper une source locale datée ; réserve pour la revue finale 1.x.
+
+- **Sources liées** : aucune citée par identifiant ; voir le fichier détaillé d'Ether ou les sources des villes concernées dans `00_SOURCES_A_VALIDER.md`.
+- **Décision de Guizmo** : …
+
+### R18-14 — Sarajevo : statut administratif
+
+Preuves et limites : Centre historique attesté ; capitale de la république socialiste seulement après le Snapshot. Impact : Pas de type de capitale nationale ou fédérée ajouté automatiquement. Choix à examiner : Recouper une source locale datée ; réserve pour la revue finale 1.x.
+
+- **Sources liées** : aucune citée par identifiant ; voir le fichier détaillé d'Ether ou les sources des villes concernées dans `00_SOURCES_A_VALIDER.md`.
+- **Décision de Guizmo** : …
+
+### R18-15 — Rail balkanique : état de fonctionnement
+
+Preuves et limites : Dates de construction précises, mais destructions de 1944 non exhaustivement documentées. Impact : Rôle urbain historique proposé ; aucun réseau entièrement ouvert ou capacité déclarée. Choix à examiner : Recouper ou préciser lors de la revue finale 1.x.
+
+- **Sources liées** : aucune citée par identifiant ; voir le fichier détaillé d'Ether ou les sources des villes concernées dans `00_SOURCES_A_VALIDER.md`.
+- **Décision de Guizmo** : …
+
+### R18-16 — Rijeka–Sušak
+
+Preuves et limites : Fusion municipale en 1947. Impact : Fiume seul représenté par son centre ; Sušak exige une identité et un repère séparés. Choix à examiner : Recouper ou préciser lors de la revue finale 1.x.
+
+- **Sources liées** : aucune citée par identifiant ; voir le fichier détaillé d'Ether ou les sources des villes concernées dans `00_SOURCES_A_VALIDER.md`.
+- **Décision de Guizmo** : …
+
+### R18-17 — Albanie : accès documentaire
+
+Preuves et limites : Tirana, Durrës et Albpetrol lus dans les passages indexés seulement. Impact : Preuves signalées comme limitées ; aucune validation humaine présumée. Choix à examiner : Recouper ou préciser lors de la revue finale 1.x.
+
+- **Sources liées** : aucune citée par identifiant ; voir le fichier détaillé d'Ether ou les sources des villes concernées dans `00_SOURCES_A_VALIDER.md`.
+- **Décision de Guizmo** : …
+
+### R18-18 — Ports lacustres du Monténégro
+
+Preuves et limites : La nomenclature canonique possède port_fluvial ; les sites cités sont lacustres. Impact : Usage lacustre expliqué dans les notes ; libellé spécialisé à examiner à la revue. Choix à examiner : Recouper ou préciser lors de la revue finale 1.x.
+
+- **Sources liées** : aucune citée par identifiant ; voir le fichier détaillé d'Ether ou les sources des villes concernées dans `00_SOURCES_A_VALIDER.md`.
+- **Décision de Guizmo** : …
+
+### R18-19 — Cartes yougoslaves : renseignements 1942–1943
+
+Preuves et limites : Cartes provisoires directement lues, antérieures à de nombreuses destructions. Impact : Aucune capacité ni circulation permanente déduite. Choix à examiner : Compléter les preuves ou conserver la réserve lors de la revue finale 1.x.
+
+- **Sources liées** : aucune citée par identifiant ; voir le fichier détaillé d'Ether ou les sources des villes concernées dans `00_SOURCES_A_VALIDER.md`.
+- **Décision de Guizmo** : …
+
+### R18-20 — Brod : industrie entre les deux rives
+
+Preuves et limites : Symboles 1 et 7 sur la carte 1068, mais attribution Bosanski/Slavonski insuffisamment sûre. Impact : Raffinage non attribué à Slavonski Brod ; recoupement local requis. Choix à examiner : Compléter les preuves ou conserver la réserve lors de la revue finale 1.x.
+
+- **Sources liées** : aucune citée par identifiant ; voir le fichier détaillé d'Ether ou les sources des villes concernées dans `00_SOURCES_A_VALIDER.md`.
+- **Décision de Guizmo** : …
+
+### R18-21 — Kosovo : identifiants et agglomérations
+
+Preuves et limites : Mitrovica et Priština figurent sur la carte 2443 ; code de classement non enregistré au lexique. Impact : Candidats suivis séparément jusqu’au rapprochement avec le schéma canonique ; souveraineté jamais inférée. Choix à examiner : Compléter les preuves ou conserver la réserve lors de la revue finale 1.x.
+
+- **Sources liées** : aucune citée par identifiant ; voir le fichier détaillé d'Ether ou les sources des villes concernées dans `00_SOURCES_A_VALIDER.md`.
+- **Décision de Guizmo** : …
+
+### R18-22 — Kukës : ancien site
+
+Preuves et limites : Ville cartographiée en 1943 ; le point actuel risque de correspondre à la reconstruction après mise en eau. Impact : Différer la géométrie tant que le centre ancien n’est pas établi. Choix à examiner : Compléter les preuves ou conserver la réserve lors de la revue finale 1.x.
+
+- **Sources liées** : aucune citée par identifiant ; voir le fichier détaillé d'Ether ou les sources des villes concernées dans `00_SOURCES_A_VALIDER.md`.
+- **Décision de Guizmo** : …
+
+### R18-23 — Routes principales : portée urbaine
+
+Preuves et limites : Des villes albanaises et monténégrines sont localisées par la carte 2443, sans fonction spécialisée prouvée. Impact : Rôles laissés vides ; sélection de transit et limite explicitée. Choix à examiner : Compléter les preuves ou conserver la réserve lors de la revue finale 1.x.
+
+- **Sources liées** : aucune citée par identifiant ; voir le fichier détaillé d'Ether ou les sources des villes concernées dans `00_SOURCES_A_VALIDER.md`.
+- **Décision de Guizmo** : …
+
+### R18-24 — Italie : cartes de réseau et usines
+
+Preuves et limites : Carte ferroviaire du 16 juillet 1943 ; carte industrielle publiée le 30 juillet 1943 avec données de 1937. Impact : Fonctions historiques proposées ; capacités et état opérationnel fin 1944 non établis. Le rapport RE permet seulement des reprises locales datées. Choix à examiner : Conserver la limite de portée ; recouper si une capacité ou une continuité doit être affichée.
+
+- **Sources liées** : aucune citée par identifiant ; voir le fichier détaillé d'Ether ou les sources des villes concernées dans `00_SOURCES_A_VALIDER.md`.
+- **Décision de Guizmo** : …
+
+### R18-25 — Carte OSS3840 Roumanie/Bulgarie
+
+Preuves et limites : Fond du 31 août 1944 téléchargé et lu : villes et réseaux sans libellés de villes. Impact : Non utilisé comme preuve d’attribution locale ; recherche par sources textuelles poursuivie. Choix à examiner : Conserver la limite de portée ; recouper si une capacité ou une continuité doit être affichée.
+
+- **Sources liées** : aucune citée par identifiant ; voir le fichier détaillé d'Ether ou les sources des villes concernées dans `00_SOURCES_A_VALIDER.md`.
+- **Décision de Guizmo** : …
+
+### R18-26 — Grèce : ports insulaires et dépôts
+
+Preuves et limites : Le rapport nomme Syros et Samos sans préciser l’agglomération ; autres ports localisés dans le tableau. Impact : Ne pas attribuer automatiquement ces lignes à Ermoupoli ou Vathy ; recoupement urbain requis. Choix à examiner : Recouper localement ; sinon conserver le point différé en revue finale.
+
+- **Sources liées** : aucune citée par identifiant ; voir le fichier détaillé d'Ether ou les sources des villes concernées dans `00_SOURCES_A_VALIDER.md`.
+- **Décision de Guizmo** : …
+
+### R18-27 — Roumanie : nomenclature Cluj
+
+Preuves et limites : Cluj est utilisé dans la source antérieure ; Cluj-Napoca est le nom actuel de fiche. Impact : Forme Cluj proposée pour l’état ; aucun nom hongrois dominant déduit de l’occupation. Choix à examiner : Recouper localement ; sinon conserver le point différé en revue finale.
+
+- **Sources liées** : aucune citée par identifiant ; voir le fichier détaillé d'Ether ou les sources des villes concernées dans `00_SOURCES_A_VALIDER.md`.
+- **Décision de Guizmo** : …
+
+### R18-28 — Italie : libellés absents
+
+Preuves et limites : Six candidats initialement proches des tracés ne sont pas nommés dans la carte agrandie. Impact : Arona, Varèse, Lecco, Bressanone, Reggio d’Émilie et Carrare différés sur cette preuve seule. Choix à examiner : Recouper localement ; sinon conserver le point différé en revue finale.
+
+- **Sources liées** : aucune citée par identifiant ; voir le fichier détaillé d'Ether ou les sources des villes concernées dans `00_SOURCES_A_VALIDER.md`.
+- **Décision de Guizmo** : …
+
+### R18-29 — Massa/Apuania et Olbia
+
+Preuves et limites : Apuania1938–1946 identifiée dans inventaire ministériel https://dgagaeta.cultura.gov.it/public/uploads/documents/Quaderni/5ab110828ac28.pdf (passage indexé seulement). Olbia1939 attesté, jour divergent selon documents municipaux. Impact : Massa différée ; Olbia conservée sans jour de renommage. Choix à examiner : Collationner les actes et décider de la représentation ville/commune.
+
+- **Sources liées** : aucune citée par identifiant ; voir le fichier détaillé d'Ether ou les sources des villes concernées dans `00_SOURCES_A_VALIDER.md`.
+- **Décision de Guizmo** : …
+
+### R18-30 — Dodécanèse : noms et activité militaire
+
+Preuves et limites : Rhodes et Léros documentés par les histoires municipales ; forme officielle à afficher et service militaire de fin 1944 non collationnés. Impact : Port historique retenu ; base_navale non attribué au Snapshot, Portolago conservé en alias sans choix officiel. Choix à examiner : Recouper un document de 1944 et le nom urbain ; aucun rattachement politique déduit du préfixe gr.
+
+- **Sources liées** : aucune citée par identifiant ; voir le fichier détaillé d'Ether ou les sources des villes concernées dans `00_SOURCES_A_VALIDER.md`.
+- **Décision de Guizmo** : …
+
+### R18-31 — Candidat différé : Civita Castellana
+
+Preuves et limites : La preuve nomme une tête de ligne sans établir son rapport avec le centre urbain. Impact : Aucune entité importable dans ce lot. Les preuves recueillies sont conservées dans la sélection. Choix à examiner : Établir l’identité, le rôle local et un repère approprié ; sinon maintenir le report. Sources : src-18-it-re-1946-ete44
+
+- **Sources liées** : aucune citée par identifiant ; voir le fichier détaillé d'Ether ou les sources des villes concernées dans `00_SOURCES_A_VALIDER.md`.
+- **Décision de Guizmo** : …
+
+### R18-32 — Candidat différé : Oinoi
+
+Preuves et limites : Bonne localité béotienne retrouvée, mais identité du nœud et de la ville non établie. Impact : Aucune entité importable dans ce lot. Les preuves recueillies sont conservées dans la sélection. Choix à examiner : Établir l’identité, le rôle local et un repère approprié ; sinon maintenir le report. Sources : src-18-gr-oss5505-1944
+
+- **Sources liées** : aucune citée par identifiant ; voir le fichier détaillé d'Ether ou les sources des villes concernées dans `00_SOURCES_A_VALIDER.md`.
+- **Décision de Guizmo** : …
+
+### R18-33 — Candidat différé : Kryoneri
+
+Preuves et limites : Village identifié ; terminus ferroviaire et périmètre urbain non rapprochés. Impact : Aucune entité importable dans ce lot. Les preuves recueillies sont conservées dans la sélection. Choix à examiner : Établir l’identité, le rôle local et un repère approprié ; sinon maintenir le report. Sources : src-18-gr-oss5505-1944
+
+- **Sources liées** : aucune citée par identifiant ; voir le fichier détaillé d'Ether ou les sources des villes concernées dans `00_SOURCES_A_VALIDER.md`.
+- **Décision de Guizmo** : …
+
+### R18-34 — Candidat différé : Lianokladi
+
+Preuves et limites : Localité et gare non rapprochées ; repère non résolu. Impact : Aucune entité importable dans ce lot. Les preuves recueillies sont conservées dans la sélection. Choix à examiner : Établir l’identité, le rôle local et un repère approprié ; sinon maintenir le report. Sources : src-18-gr-oss5505-1944
+
+- **Sources liées** : aucune citée par identifiant ; voir le fichier détaillé d'Ether ou les sources des villes concernées dans `00_SOURCES_A_VALIDER.md`.
+- **Décision de Guizmo** : …
+
+### R18-35 — Candidat différé : Domokos
+
+Preuves et limites : Localité et gare éloignée non rapprochées ; rôle ferroviaire urbain réservé. Impact : Aucune entité importable dans ce lot. Les preuves recueillies sont conservées dans la sélection. Choix à examiner : Établir l’identité, le rôle local et un repère approprié ; sinon maintenir le report. Sources : src-18-gr-oss5505-1944
+
+- **Sources liées** : aucune citée par identifiant ; voir le fichier détaillé d'Ether ou les sources des villes concernées dans `00_SOURCES_A_VALIDER.md`.
+- **Décision de Guizmo** : …
+
+### R18-36 — Candidat différé : Ugljevik
+
+Preuves et limites : Ancien centre minier distinct de la nouvelle agglomération depuis 1980 ; géométrie historique réservée. Impact : Aucune entité importable dans ce lot. Les preuves recueillies sont conservées dans la sélection. Choix à examiner : Établir l’identité, le rôle local et un repère approprié ; sinon maintenir le report. Sources : src-18-ba-zfbh-histoire, src-18-ba-ugljevik-strategie2014
+
+- **Sources liées** : aucune citée par identifiant ; voir le fichier détaillé d'Ether ou les sources des villes concernées dans `00_SOURCES_A_VALIDER.md`.
+- **Décision de Guizmo** : …
+
+### R18-37 — Candidat différé : Plavnica
+
+Preuves et limites : Le résultat désigne une commune slovaque ; la station touristique actuelle ne prouve pas le centre historique. Impact : Aucune entité importable dans ce lot. Les preuves recueillies sont conservées dans la sélection. Choix à examiner : Établir l’identité, le rôle local et un repère approprié ; sinon maintenir le report. Sources : src-18-me-gov-rail-histoire
+
+- **Sources liées** : aucune citée par identifiant ; voir le fichier détaillé d'Ether ou les sources des villes concernées dans `00_SOURCES_A_VALIDER.md`.
+- **Décision de Guizmo** : …
+
+### R18-38 — Candidat différé : Kukës
+
+Preuves et limites : Ancien site non géoréférencé ; point actuel non substituable. Impact : Aucune entité importable dans ce lot. Les preuves recueillies sont conservées dans la sélection. Choix à examiner : Établir l’identité, le rôle local et un repère approprié ; sinon maintenir le report. Sources : src-18-oss2443-yugoslavie1943
+
+- **Sources liées** : aucune citée par identifiant ; voir le fichier détaillé d'Ether ou les sources des villes concernées dans `00_SOURCES_A_VALIDER.md`.
+- **Décision de Guizmo** : …
+
+### R18-39 — Candidat différé : Arona
+
+Preuves et limites : differee_preuve_locale Impact : Aucune entité importable dans ce lot. Les preuves recueillies sont conservées dans la sélection. Choix à examiner : Établir l’identité, le rôle local et un repère approprié ; sinon maintenir le report. Sources : src-18-oss2067-italie-rail1943
+
+- **Sources liées** : aucune citée par identifiant ; voir le fichier détaillé d'Ether ou les sources des villes concernées dans `00_SOURCES_A_VALIDER.md`.
+- **Décision de Guizmo** : …
+
+### R18-40 — Candidat différé : Varèse
+
+Preuves et limites : differee_preuve_locale Impact : Aucune entité importable dans ce lot. Les preuves recueillies sont conservées dans la sélection. Choix à examiner : Établir l’identité, le rôle local et un repère approprié ; sinon maintenir le report. Sources : src-18-oss2067-italie-rail1943
+
+- **Sources liées** : aucune citée par identifiant ; voir le fichier détaillé d'Ether ou les sources des villes concernées dans `00_SOURCES_A_VALIDER.md`.
+- **Décision de Guizmo** : …
+
+### R18-41 — Candidat différé : Lecco
+
+Preuves et limites : differee_preuve_locale Impact : Aucune entité importable dans ce lot. Les preuves recueillies sont conservées dans la sélection. Choix à examiner : Établir l’identité, le rôle local et un repère approprié ; sinon maintenir le report. Sources : src-18-oss2067-italie-rail1943
+
+- **Sources liées** : aucune citée par identifiant ; voir le fichier détaillé d'Ether ou les sources des villes concernées dans `00_SOURCES_A_VALIDER.md`.
+- **Décision de Guizmo** : …
+
+### R18-42 — Candidat différé : Reggio d’Émilie
+
+Preuves et limites : differee_preuve_locale Impact : Aucune entité importable dans ce lot. Les preuves recueillies sont conservées dans la sélection. Choix à examiner : Établir l’identité, le rôle local et un repère approprié ; sinon maintenir le report. Sources : src-18-oss2067-italie-rail1943
+
+- **Sources liées** : aucune citée par identifiant ; voir le fichier détaillé d'Ether ou les sources des villes concernées dans `00_SOURCES_A_VALIDER.md`.
+- **Décision de Guizmo** : …
+
+### R18-43 — Candidat différé : Bressanone
+
+Preuves et limites : differee_preuve_locale Impact : Aucune entité importable dans ce lot. Les preuves recueillies sont conservées dans la sélection. Choix à examiner : Établir l’identité, le rôle local et un repère approprié ; sinon maintenir le report. Sources : src-18-oss2067-italie-rail1943
+
+- **Sources liées** : aucune citée par identifiant ; voir le fichier détaillé d'Ether ou les sources des villes concernées dans `00_SOURCES_A_VALIDER.md`.
+- **Décision de Guizmo** : …
+
+### R18-44 — Candidat différé : Massa
+
+Preuves et limites : differee_identite_historique Impact : Aucune entité importable dans ce lot. Les preuves recueillies sont conservées dans la sélection. Choix à examiner : Établir l’identité, le rôle local et un repère approprié ; sinon maintenir le report. Sources : src-18-oss2067-italie-rail1943
+
+- **Sources liées** : aucune citée par identifiant ; voir le fichier détaillé d'Ether ou les sources des villes concernées dans `00_SOURCES_A_VALIDER.md`.
+- **Décision de Guizmo** : …
+
+### R18-45 — Candidat différé : Carrare
+
+Preuves et limites : differee_preuve_locale Impact : Aucune entité importable dans ce lot. Les preuves recueillies sont conservées dans la sélection. Choix à examiner : Établir l’identité, le rôle local et un repère approprié ; sinon maintenir le report. Sources : src-18-oss2067-italie-rail1943
+
+- **Sources liées** : aucune citée par identifiant ; voir le fichier détaillé d'Ether ou les sources des villes concernées dans `00_SOURCES_A_VALIDER.md`.
+- **Décision de Guizmo** : …
+
+### R18-46 — Couverture : Albanie
+
+Preuves et limites : Tirana, Durrës, Vlorë et Kuçovë examinés avec limites d’accès, plus centres de transit de la carte de 1943. Kukës ancien différé. Aucun réseau ferroviaire national postérieur à 1945 anticipé. Impact : Catégories sans preuve locale laissées non couvertes ; aucun rôle supplémentaire déduit. Choix à examiner : Compléter les lacunes lors de l’audit transversal 1.x et présenter les points restants à Guizmo. Sources : src-18-al-albpetrol-histoire, src-18-al-durres-histoire1944, src-18-al-tirana-capitale, src-18-me-canu-italie, src-18-oss2443-yugoslavie1943
+
+- **Sources liées** : aucune citée par identifiant ; voir le fichier détaillé d'Ether ou les sources des villes concernées dans `00_SOURCES_A_VALIDER.md`.
+- **Décision de Guizmo** : …
+
+### R18-47 — Couverture : Bosnie-Herzégovine
+
+Preuves et limites : Axes étroits, mines et villes industrielles des cartes examinés. Ugljevik est différé pour déplacement urbain ; navigation Save/Drina, Brčko et capacités logistiques fin 1944 restent à compléter. Impact : Catégories sans preuve locale laissées non couvertes ; aucun rôle supplémentaire déduit. Choix à examiner : Compléter les lacunes lors de l’audit transversal 1.x et présenter les points restants à Guizmo. Sources : src-18-ba-ugljevik-strategie2014, src-18-ba-zfbh-histoire, src-18-he-sarajevo, src-18-he-zenica, src-18-oss1068-industrie-yugoslavie1942, src-18-oss2443-yugoslavie1943
+
+- **Sources liées** : aucune citée par identifiant ; voir le fichier détaillé d'Ether ou les sources des villes concernées dans `00_SOURCES_A_VALIDER.md`.
+- **Décision de Guizmo** : …
+
+### R18-48 — Couverture : Bulgarie : Danube et Nord
+
+Preuves et limites : Roussé, Vidin, Lom, Svichtov, Somovit et les nœuds locaux sont examinés. Aucun pont ou ferry international continu déduit du voisinage des rives. Impact : Catégories sans preuve locale laissées non couvertes ; aucun rôle supplémentaire déduit. Choix à examiner : Compléter les lacunes lors de l’audit transversal 1.x et présenter les points restants à Guizmo. Sources : src-18-bg-bdz-histoire, src-18-bg-gorna-ville-histoire, src-18-bg-pleven-archives-rail, src-18-bg-ports-chronique, src-18-bg-treccani1930, src-18-ro-treccani1936
+
+- **Sources liées** : aucune citée par identifiant ; voir le fichier détaillé d'Ether ou les sources des villes concernées dans `00_SOURCES_A_VALIDER.md`.
+- **Décision de Guizmo** : …
+
+### R18-49 — Couverture : Bulgarie : intérieur et Sud
+
+Preuves et limites : Sofia, carrefours ferroviaires, Pernik, Sliven et Gabrovo examinés. Mines et industries secondaires, postes frontaliers et activité militaire restent partiels. Impact : Catégories sans preuve locale laissées non couvertes ; aucun rôle supplémentaire déduit. Choix à examiner : Compléter les lacunes lors de l’audit transversal 1.x et présenter les points restants à Guizmo. Sources : src-18-bg-bdz-histoire, src-18-bg-bdz-histoire-detail, src-18-bg-gabrovo-musee-machines, src-18-bg-sofia-capitale, src-18-bg-treccani1930, src-18-gr-oss5505-1944
+
+- **Sources liées** : aucune citée par identifiant ; voir le fichier détaillé d'Ether ou les sources des villes concernées dans `00_SOURCES_A_VALIDER.md`.
+- **Décision de Guizmo** : …
+
+### R18-50 — Couverture : Bulgarie : mer Noire
+
+Preuves et limites : Varna et Bourgas documentées localement avant 1945. Ports secondaires, chantiers et fonctions militaires fin 1944 restent non établis. Impact : Catégories sans preuve locale laissées non couvertes ; aucun rôle supplémentaire déduit. Choix à examiner : Compléter les lacunes lors de l’audit transversal 1.x et présenter les points restants à Guizmo. Sources : src-18-bg-bdz-histoire, src-18-bg-ports-chronique
+
+- **Sources liées** : aucune citée par identifiant ; voir le fichier détaillé d'Ether ou les sources des villes concernées dans `00_SOURCES_A_VALIDER.md`.
+- **Décision de Guizmo** : …
+
+### R18-51 — Couverture : Croatie : Adriatique, Istrie et Kvarner
+
+Preuves et limites : Split, Dubrovnik, Pola, Fiume et Sušak ont été examinés. Les centres de Fiume et Sušak restent distincts. Îles dalmates, ferries et ports secondaires restent partiels. Impact : Catégories sans preuve locale laissées non couvertes ; aucun rôle supplémentaire déduit. Choix à examiner : Compléter les lacunes lors de l’audit transversal 1.x et présenter les points restants à Guizmo. Sources : src-18-ba-zfbh-histoire, src-18-he-dubrovnik, src-18-he-pula, src-18-he-split, src-18-hr-he-rijeka, src-18-hr-zagreb-he, src-18-oss1068-industrie-yugoslavie1942, src-18-oss2443-yugoslavie1943
+
+- **Sources liées** : aucune citée par identifiant ; voir le fichier détaillé d'Ether ou les sources des villes concernées dans `00_SOURCES_A_VALIDER.md`.
+- **Décision de Guizmo** : …
+
+### R18-52 — Couverture : Croatie : intérieur et Slavonie
+
+Preuves et limites : Corridors Zagreb–Brod–Vinkovci et branche vers Osijek examinés. Navigation Save/Drave, entrepôts et raffineries par rive restent incomplets ; pas d’industrie transférée de Bosanski Brod à Slavonski Brod. Impact : Catégories sans preuve locale laissées non couvertes ; aucun rôle supplémentaire déduit. Choix à examiner : Compléter les lacunes lors de l’audit transversal 1.x et présenter les points restants à Guizmo. Sources : src-18-hr-zagreb-he, src-18-oss1068-industrie-yugoslavie1942, src-18-oss2443-yugoslavie1943
+
+- **Sources liées** : aucune citée par identifiant ; voir le fichier détaillé d'Ether ou les sources des villes concernées dans `00_SOURCES_A_VALIDER.md`.
+- **Décision de Guizmo** : …
+
+### R18-53 — Couverture : Dodécanèse
+
+Preuves et limites : Rhodes et Lakki examinées par leurs histoires municipales. Formes officielles de guerre, autres îles et activité militaire fin 1944 restent réservées. La base italienne de 1943 ne devient pas automatiquement une base navale au Snapshot. Impact : Catégories sans preuve locale laissées non couvertes ; aucun rôle supplémentaire déduit. Choix à examiner : Compléter les lacunes lors de l’audit transversal 1.x et présenter les points restants à Guizmo. Sources : src-18-gr-leros-musee-guerre, src-18-gr-rhodes-ville-histoire
+
+- **Sources liées** : aucune citée par identifiant ; voir le fichier détaillé d'Ether ou les sources des villes concernées dans `00_SOURCES_A_VALIDER.md`.
+- **Décision de Guizmo** : …
+
+### R18-54 — Couverture : Grèce : Macédoine et Thrace
+
+Preuves et limites : Installations ferroviaires cartographiées et ports de Thessalonique/Kavala examinés. Franchissements internationaux sans service permanent présumé ; industrie et bases de fin 1944 non exhaustives. Impact : Catégories sans preuve locale laissées non couvertes ; aucun rôle supplémentaire déduit. Choix à examiner : Compléter les lacunes lors de l’audit transversal 1.x et présenter les points restants à Guizmo. Sources : src-18-gr-oss5505-1944, src-18-gr-thpa-histoire, src-18-gr-treccani1933, src-18-us-elia-relief1944
+
+- **Sources liées** : aucune citée par identifiant ; voir le fichier détaillé d'Ether ou les sources des villes concernées dans `00_SOURCES_A_VALIDER.md`.
+- **Décision de Guizmo** : …
+
+### R18-55 — Couverture : Grèce : centre, Thessalie et Épire
+
+Preuves et limites : Carte ferroviaire de décembre 1944 et dépôts de secours confrontés. Oinoi, Kryoneri, Lianokladi et Domokos différés ; projets vers Ioannina/Arta exclus. Épire intérieure et industrie secondaire restent partiels. Impact : Catégories sans preuve locale laissées non couvertes ; aucun rôle supplémentaire déduit. Choix à examiner : Compléter les lacunes lors de l’audit transversal 1.x et présenter les points restants à Guizmo. Sources : src-18-gr-oss5505-1944, src-18-gr-treccani1933, src-18-us-elia-relief1944
+
+- **Sources liées** : aucune citée par identifiant ; voir le fichier détaillé d'Ether ou les sources des villes concernées dans `00_SOURCES_A_VALIDER.md`.
+- **Décision de Guizmo** : …
+
+### R18-56 — Couverture : Grèce : îles hors Dodécanèse
+
+Preuves et limites : Crète, Lesbos, Chios, Corfou et Syros examinées dans le rapport de secours et l’encyclopédie de 1933. Samos/Syros désignent parfois une île, pas une ville ; aucune attribution automatique de port à Vathy/Ermoúpoli. Impact : Catégories sans preuve locale laissées non couvertes ; aucun rôle supplémentaire déduit. Choix à examiner : Compléter les lacunes lors de l’audit transversal 1.x et présenter les points restants à Guizmo. Sources : src-18-gr-treccani1933, src-18-us-elia-relief1944
+
+- **Sources liées** : aucune citée par identifiant ; voir le fichier détaillé d'Ether ou les sources des villes concernées dans `00_SOURCES_A_VALIDER.md`.
+- **Décision de Guizmo** : …
+
+### R18-57 — Couverture : Italie centrale
+
+Preuves et limites : Rapports de réparations lus ville par ville. Dates contradictoires Orte/Cesano/Metauro et reprise de 1945 exclues. Industrie, ports secondaires et sièges administratifs de guerre restent partiels. Impact : Catégories sans preuve locale laissées non couvertes ; aucun rôle supplémentaire déduit. Choix à examiner : Compléter les lacunes lors de l’audit transversal 1.x et présenter les points restants à Guizmo. Sources : src-18-it-marine-la-spezia, src-18-it-re-1946-ete44, src-18-it-re-1946-hiver44, src-18-it-re-1946-ligne219, src-18-it-re-1946-ligne86, src-18-it-re-1946-ligne87, src-18-it-re-1946-ligne89, src-18-it-re-1946-ligne90, src-18-it-rome-quirinale-capitale, src-18-oss2067-italie-rail1943
+
+- **Sources liées** : aucune citée par identifiant ; voir le fichier détaillé d'Ether ou les sources des villes concernées dans `00_SOURCES_A_VALIDER.md`.
+- **Décision de Guizmo** : …
+
+### R18-58 — Couverture : Italie du Nord-Est
+
+Preuves et limites : Le corridor Brenner–Vérone–Bologne et Trieste–Venise est localisé. Navigation fluviale, villes minières, opérations militaires et souverainetés de la zone adriatique ne sont pas épuisées. Impact : Catégories sans preuve locale laissées non couvertes ; aucun rôle supplémentaire déduit. Choix à examiner : Compléter les lacunes lors de l’audit transversal 1.x et présenter les points restants à Guizmo. Sources : src-18-it-re-1946-ligne85, src-18-it-re-1946-ligne86, src-18-it-trieste-port300, src-18-it-venise-port-histoire, src-18-oss2067-italie-rail1943, src-18-oss2443-yugoslavie1943
+
+- **Sources liées** : aucune citée par identifiant ; voir le fichier détaillé d'Ether ou les sources des villes concernées dans `00_SOURCES_A_VALIDER.md`.
+- **Décision de Guizmo** : …
+
+### R18-59 — Couverture : Italie du Nord-Ouest
+
+Preuves et limites : Gênes, Turin et Milan ont des preuves locales complémentaires. Ports secondaires ligures, navigation du Pô, industrie des villes moyennes et service des cols fin 1944 restent partiels. Impact : Catégories sans preuve locale laissées non couvertes ; aucun rôle supplémentaire déduit. Choix à examiner : Compléter les lacunes lors de l’audit transversal 1.x et présenter les points restants à Guizmo. Sources : src-18-it-genova-treccani1932, src-18-it-milano-treccani1934, src-18-it-torino-treccani1937, src-18-oss2067-italie-rail1943
+
+- **Sources liées** : aucune citée par identifiant ; voir le fichier détaillé d'Ether ou les sources des villes concernées dans `00_SOURCES_A_VALIDER.md`.
+- **Décision de Guizmo** : …
+
+### R18-60 — Couverture : Italie méridionale
+
+Preuves et limites : Rail et industrie alimentaire sont documentés par les cartes et rapports. L’industrie cartographiée reprend des données de 1937. Ports secondaires et fonctions militaires hors Tarente ne sont pas tous prouvés. Impact : Catégories sans preuve locale laissées non couvertes ; aucun rôle supplémentaire déduit. Choix à examiner : Compléter les lacunes lors de l’audit transversal 1.x et présenter les points restants à Guizmo. Sources : src-18-it-marine-tarente, src-18-it-re-1946-est43, src-18-it-re-1946-ligne86, src-18-it-re-1946-ligne89, src-18-it-re-1946-ligne90, src-18-it-re-1946-ouest43, src-18-oss2067-italie-rail1943, src-18-oss2475-italie-alimentation1937
+
+- **Sources liées** : aucune citée par identifiant ; voir le fichier détaillé d'Ether ou les sources des villes concernées dans `00_SOURCES_A_VALIDER.md`.
+- **Décision de Guizmo** : …
+
+### R18-61 — Couverture : Macédoine yougoslave
+
+Preuves et limites : Skopje, Vardar, Bitola et branches figurées en 1943 sont examinés. Tetovo/Debar sans rail déduit des routes ; fonctions frontalières, industrie et transports lacustres restent partiels. Impact : Catégories sans preuve locale laissées non couvertes ; aucun rôle supplémentaire déduit. Choix à examiner : Compléter les lacunes lors de l’audit transversal 1.x et présenter les points restants à Guizmo. Sources : src-18-gr-oss5505-1944, src-18-he-skoplje, src-18-oss2443-yugoslavie1943, src-18-rs-zs-histoire
+
+- **Sources liées** : aucune citée par identifiant ; voir le fichier détaillé d'Ether ou les sources des villes concernées dans `00_SOURCES_A_VALIDER.md`.
+- **Décision de Guizmo** : …
+
+### R18-62 — Couverture : Monténégro
+
+Preuves et limites : Bar–Virpazar, Podgorica–Plavnica et accès de Nikšić examinés. Plavnica différée, fonctions lacustres sans création de rôle nouveau, Kotor/Cetinje sélectionnés sans fonction spécialisée déduite. Impact : Catégories sans preuve locale laissées non couvertes ; aucun rôle supplémentaire déduit. Choix à examiner : Compléter les lacunes lors de l’audit transversal 1.x et présenter les points restants à Guizmo. Sources : src-18-ba-zfbh-histoire, src-18-me-canu-italie, src-18-me-gov-rail-histoire, src-18-oss2443-yugoslavie1943
+
+- **Sources liées** : aucune citée par identifiant ; voir le fichier détaillé d'Ether ou les sources des villes concernées dans `00_SOURCES_A_VALIDER.md`.
+- **Décision de Guizmo** : …
+
+### R18-63 — Couverture : Péloponnèse
+
+Preuves et limites : Patras, Corinthe, Pyrgos, Tripoli, Kalamata et Diakopto examinés. Le dépôt de Kalamata cesse ses opérations le 15 décembre 1944 ; rôle portuaire historique conservé. Canal, passages et bases non déduits. Impact : Catégories sans preuve locale laissées non couvertes ; aucun rôle supplémentaire déduit. Choix à examiner : Compléter les lacunes lors de l’audit transversal 1.x et présenter les points restants à Guizmo. Sources : src-18-gr-oss5505-1944, src-18-us-elia-relief1944
+
+- **Sources liées** : aucune citée par identifiant ; voir le fichier détaillé d'Ether ou les sources des villes concernées dans `00_SOURCES_A_VALIDER.md`.
+- **Décision de Guizmo** : …
+
+### R18-64 — Couverture : Roumanie : Banat et Transylvanie
+
+Preuves et limites : Corridors ferroviaires et industrie de Timișoara, Reșița, Hunedoara, Sibiu et Mediaș examinés. Brasseries/textile secondaires, ports fluviaux et frontières de guerre à compléter. Impact : Catégories sans preuve locale laissées non couvertes ; aucun rôle supplémentaire déduit. Choix à examiner : Compléter les lacunes lors de l’audit transversal 1.x et présenter les points restants à Guizmo. Sources : src-18-bellu-balog-tara-barsei2003, src-18-ro-cfr-histoire, src-18-ro-resita-ucmh-histoire, src-18-ro-sibiu-ville-histoire, src-18-ro-timisoara-conseil-histoire, src-18-ro-treccani1936
+
+- **Sources liées** : aucune citée par identifiant ; voir le fichier détaillé d'Ether ou les sources des villes concernées dans `00_SOURCES_A_VALIDER.md`.
+- **Décision de Guizmo** : …
+
+### R18-65 — Couverture : Roumanie : Dobroudja et delta
+
+Preuves et limites : Constanța, Cernavodă et Sulina documentées. Tulcea et les échanges du delta restent une lacune ; aucun canal Danube–mer Noire postérieur au Snapshot ajouté. Impact : Catégories sans preuve locale laissées non couvertes ; aucun rôle supplémentaire déduit. Choix à examiner : Compléter les lacunes lors de l’audit transversal 1.x et présenter les points restants à Guizmo. Sources : src-18-bg-bdz-histoire-detail, src-18-ro-constanta-mnhr1906, src-18-ro-treccani1936
+
+- **Sources liées** : aucune citée par identifiant ; voir le fichier détaillé d'Ether ou les sources des villes concernées dans `00_SOURCES_A_VALIDER.md`.
+- **Décision de Guizmo** : …
+
+### R18-66 — Couverture : Roumanie : Valachie et Moldavie
+
+Preuves et limites : Bucarest, Ploiești, Iași, Giurgiu, Galați et Brăila structurent la sélection. Passage du Danube, capacités portuaires de 1944 et villes industrielles secondaires restent partiels. Impact : Catégories sans preuve locale laissées non couvertes ; aucun rôle supplémentaire déduit. Choix à examiner : Compléter les lacunes lors de l’audit transversal 1.x et présenter les points restants à Guizmo. Sources : src-18-ro-cfr-histoire, src-18-ro-prefecture-bucarest, src-18-ro-treccani1936
+
+- **Sources liées** : aucune citée par identifiant ; voir le fichier détaillé d'Ether ou les sources des villes concernées dans `00_SOURCES_A_VALIDER.md`.
+- **Décision de Guizmo** : …
+
+### R18-67 — Couverture : Sardaigne
+
+Preuves et limites : Nœuds ferroviaires, Cagliari et Olbia examinés. Porto Torres et Arbatax ne reçoivent pas un rôle portuaire par le nom seul ; mines et desserte maritime secondaire restent partiellement documentées. Impact : Catégories sans preuve locale laissées non couvertes ; aucun rôle supplémentaire déduit. Choix à examiner : Compléter les lacunes lors de l’audit transversal 1.x et présenter les points restants à Guizmo. Sources : src-18-it-cagliari-treccani1930, src-18-it-olbia-archeologie2023, src-18-oss2067-italie-rail1943
+
+- **Sources liées** : aucune citée par identifiant ; voir le fichier détaillé d'Ether ou les sources des villes concernées dans `00_SOURCES_A_VALIDER.md`.
+- **Décision de Guizmo** : …
+
+### R18-68 — Couverture : Serbie et Voïvodine
+
+Preuves et limites : Axes de Belgrade, Danube, Morava et villes industrielles examinés. Le statut politique des sièges et les traversées fluviales opérationnelles restent distincts des rôles urbains historiques. Impact : Catégories sans preuve locale laissées non couvertes ; aucun rôle supplémentaire déduit. Choix à examiner : Compléter les lacunes lors de l’audit transversal 1.x et présenter les points restants à Guizmo. Sources : src-18-bg-bdz-histoire, src-18-oss1068-industrie-yugoslavie1942, src-18-oss2443-yugoslavie1943, src-18-rs-belgrade-he, src-18-rs-belgrade-ville-histoire, src-18-rs-zs-histoire
+
+- **Sources liées** : aucune citée par identifiant ; voir le fichier détaillé d'Ether ou les sources des villes concernées dans `00_SOURCES_A_VALIDER.md`.
+- **Décision de Guizmo** : …
+
+### R18-69 — Couverture : Sicile
+
+Preuves et limites : Carte ferroviaire, Palerme et Messine examinés. Ports de Catane, Syracuse, Trapani et Porto Empedocle présents comme villes mais rôle portuaire non prouvé par leurs seules références actuelles ; industrie et bases à compléter. Impact : Catégories sans preuve locale laissées non couvertes ; aucun rôle supplémentaire déduit. Choix à examiner : Compléter les lacunes lors de l’audit transversal 1.x et présenter les points restants à Guizmo. Sources : src-18-it-messina-treccani1934, src-18-it-palermo-treccani1935, src-18-oss2067-italie-rail1943
+
+- **Sources liées** : aucune citée par identifiant ; voir le fichier détaillé d'Ether ou les sources des villes concernées dans `00_SOURCES_A_VALIDER.md`.
+- **Décision de Guizmo** : …
+
+### R18-70 — Couverture : Slovénie
+
+Preuves et limites : Cartes 1942–1943 : Ljubljana, Maribor, Celje, Jesenice, Kranj et Litija. La côte slovène actuelle (Koper/Piran) et ses identités de guerre restent à documenter ; le découpage actuel ne prouve pas une souveraineté. Impact : Catégories sans preuve locale laissées non couvertes ; aucun rôle supplémentaire déduit. Choix à examiner : Compléter les lacunes lors de l’audit transversal 1.x et présenter les points restants à Guizmo. Sources : src-18-oss1068-industrie-yugoslavie1942, src-18-oss2443-yugoslavie1943
+
+- **Sources liées** : aucune citée par identifiant ; voir le fichier détaillé d'Ether ou les sources des villes concernées dans `00_SOURCES_A_VALIDER.md`.
 - **Décision de Guizmo** : …
 
 ## Villes marquées « À renforcer » (rappel)
@@ -1359,7 +1854,7 @@ Ce ne sont pas des décisions à prendre : ce sont des rôles (port, rail, indus
 | 1.3 | 9 | 53 |
 | 1.4 | 29 | 61 |
 | 1.5 | 70 | 200 |
-| 1.6 | 176 | 254 |
-| 1.7 | 124 | 166 |
+| 1.6 | 127 | 254 |
+| 1.7 | 78 | 166 |
 
-**Total : 153 points à trancher.**
+**Total : 223 points à trancher.**

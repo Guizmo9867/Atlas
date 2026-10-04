@@ -1,0 +1,39 @@
+{
+  "metadata": {
+    "lot": "villes_1-7",
+    "cycle": 2,
+    "date": "2026-10-04T18:39:21.488422+02:00",
+    "statut": "propose_pour_integration"
+  },
+  "corrections": [
+    {
+      "entite_id": "ville-tr-izmir",
+      "etat_id": "etat-01",
+      "champs_seuls": {
+        "proprietes.roles": [
+          "rail",
+          "port_maritime"
+        ],
+        "proprietes.note": "La ligne İzmir–Aydın est rachetée par l’État en 1935 ; le port est exploité et réorganisé la même année. La source sur Sümerbank cite Halkapınar dans une liste de production de 1944, puis date son ouverture de 1947 : l’attribution industrielle de 1944 reste réservée. La sélection urbaine est documentée en 1940, sans population de 1945 proposée. Position Wikidata Q35997, repère actuel ; centre exact de 1945 non certifié (R17-01)."
+      },
+      "sources_usage_a_remplacer": [
+        {
+          "source_id": "src-17-tr-sumerbank-polatoglu2021",
+          "locator": "Liste de production1944 et ouverture1947",
+          "usage": "contradiction interne réservée ; pas de preuve suffisante pour le rôle industrie au Snapshot"
+        }
+      ],
+      "condition": "Retrait du rôle industrie uniquement si aucune preuve indépendante n’a été ajoutée depuis la lecture du canon.",
+      "etat_canon_lu": {
+        "roles": [
+          "rail",
+          "industrie",
+          "port_maritime"
+        ],
+        "note": "Rachat 1935 Textile à Halkapınar 1944. Centre urbain documenté par une donnée de 1940 ; aucune population de 1945 proposée. Port exploité et réorganisé en 1935. Position : Wikidata (Q35997), repère urbain actuel ; centre exact de 1945 non certifié (R17-01). À renforcer : rail, industrie, port_maritime."
+      },
+      "geometrie": "Préserver strictement le point Wikidata corrigé par Claude.",
+      "reserve": "R17-C2-01"
+    }
+  ]
+}

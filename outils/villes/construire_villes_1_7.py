@@ -27,9 +27,21 @@ CAPITALES_ATTENDUES = {'ville-tr-ankara': 'nationale', 'ville-ge-tbilissi': 'reg
 PAS_UN_AUTRE_NOM = {'ville-tr-istanbul', 'ville-tr-eregli-konya', 'ville-tr-eregli-mer-noire'}
 NON_PREUVE = ('src-wikidata', 'src-17-geonames-reperes')
 
+# Corrections ciblées proposées par Ether et retenues par Claude après lecture de la page (İzmir : liste de 1944 et ouverture en 1947 de Halkapınar dans la même étude, contradiction relue sur les captures).
+CORR = json.load(open(RACINE / 'data/sources/deltas_ether/2026-10-04_villes_1-7_corrections_cycle2_ether.json', encoding='utf-8'))['corrections']
+def corriger(e):
+    for c in CORR:
+        if c['entite_id'] != e['entite_id']: continue
+        p = e['etats'][0]['proprietes']
+        p['roles'] = c['champs_seuls']['proprietes.roles']
+        p['note'] = c['champs_seuls']['proprietes.note'].replace(' Position Wikidata Q35997, repère actuel ; centre exact de 1945 non certifié (R17-01).', '')
+        for r in c['sources_usage_a_remplacer']:
+            for s in e['etats'][0]['sources']:
+                if s['source_id'] == r['source_id']: s['locator'], s['usage'] = r['locator'], r['usage']
+
 memes_noms, entites = [], []
 for v in PROPOSITION['entites']:
-    e = copy.deepcopy(v); eid = e['entite_id']; et = e['etats'][0]; p = et['proprietes']
+    e = copy.deepcopy(v); corriger(e); eid = e['entite_id']; et = e['etats'][0]; p = et['proprietes']
     assert p.get('capitale') == CAPITALES_ATTENDUES.get(eid), eid
     if eid in PAS_UN_AUTRE_NOM and p.get('nom'):
         e['aliases'] = list(dict.fromkeys([*e.get('aliases', []), p.pop('nom')])); memes_noms.append(eid)
@@ -66,7 +78,7 @@ for v in PROPOSITION['entites']:
 lot = {
   'metadata_lot': {
     'nom': 'snapshot0_villes_1-7_caucase_turquie', 'date_reference': '1945-01-01', 'heure_reference': '00:00',
-    'version': '0.1', 'statut': 'integre_par_claude', 'gabarit_source': 'gabarits/gabarit_entite_temporelle_atlas.json',
+    'version': '0.2', 'statut': 'integre_par_claude', 'gabarit_source': 'gabarits/gabarit_entite_temporelle_atlas.json',
     'zone': PROPOSITION['metadata_lot']['zone'],
     'limites_ether': PROPOSITION['metadata_lot']['limites'],
     'reserves_ether': 'R17-01 à R17-27 (data/snapshot0/villes_1-7_caucase_turquie_reserves_ether.md), revue finale 1.x',
@@ -76,7 +88,8 @@ lot = {
       "Capitales : Ankara « nationale » ; Tbilissi, Erevan, Bakou « régionales » (capitales de RSS) ; RSSA, oblasts et chefs-lieux de province sans type d'affichage (Q15-02).",
       "İstanbul et Ereğli : le « nom de 1945 » proposé n'était pas un autre nom (I pointé turc ; précisant de lieu de la fiche) : gardé en alias. Autres écarts de transcription conservés (Q16-03).",
       "Sources : doublons exacts retirés dans les fiches (même source et même usage cités deux fois, ex. Goudermes) ; référence Wikidata ajoutée.",
-      "Preuves : mention « (non vérifiée par Claude) », « (lecture partielle) » ou « (page relue par Claude pour cette ville) » ; « À renforcer » = rôles sans aucune preuve confirmée."]},
+      "Preuves : mention « (non vérifiée par Claude) », « (lecture partielle) » ou « (page relue par Claude pour cette ville) » ; « À renforcer » = rôles sans aucune preuve confirmée.",
+      "v0.2 (04/10/2026, réponses d'Ether cycle 2) : İzmir perd le rôle industrie (Halkapınar : liste de production 1944 et ouverture datée 1947 dans la même étude, contradiction relue par Claude sur les captures ; correction d'Ether, réserve R17-C2-01) ; 10 images de pages (Géorgie, Arménie, Stavropol) et 7 captures turques lues par Claude (registre v1.24) : rôles relus ville par ville, mentions de preuve et « À renforcer » recalculés."]},
   },
   'entites': entites,
 }

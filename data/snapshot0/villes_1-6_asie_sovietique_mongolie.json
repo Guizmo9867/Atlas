@@ -3,7 +3,7 @@
     "nom": "snapshot0_villes_1-6_asie_sovietique_mongolie",
     "date_reference": "1945-01-01",
     "heure_reference": "00:00",
-    "version": "0.2",
+    "version": "0.3",
     "statut": "integre_par_claude",
     "gabarit_source": "gabarits/gabarit_entite_temporelle_atlas.json",
     "zone": [
@@ -28,7 +28,8 @@
         "Preuves : mention « (non vérifiée par Claude) » ou « (lecture partielle) » selon la relecture de Claude ; « À renforcer » = rôles sans aucune preuve confirmée.",
         "Nikolaïevsk-sur-l'Amour et Komsomolsk-sur-l'Amour : le « nom de 1945 » proposé ne différait de la fiche que par l'apostrophe ; gardé en alias, pas affiché comme nom à la date. Autres écarts de transcription conservés (Q16-03).",
         "Sükhbaatar : roles vide, tel que proposé (transit routier en note).",
-        "v0.2 (04/10/2026, réponses d'Ether cycle 2, Q16-01 et Q16-02) : aucune donnée de ville modifiée ; Claude a lu les 28 images de pages des répertoires administratifs (1940, 1941, supplément 1944) et les 3 pages LOC : 67 relations ville/source relues, rôles comptés comme prouvés pour ces villes seulement (registre v1.21, champ confirmations_claude) ; mentions de preuve et « À renforcer » recalculés."
+        "v0.2 (04/10/2026, réponses d'Ether cycle 2, Q16-01 et Q16-02) : aucune donnée de ville modifiée ; Claude a lu les 28 images de pages des répertoires administratifs (1940, 1941, supplément 1944) et les 3 pages LOC : 67 relations ville/source relues, rôles comptés comme prouvés pour ces villes seulement (registre v1.21, champ confirmations_claude) ; mentions de preuve et « À renforcer » recalculés.",
+        "v0.3 (04/10/2026, réponses d'Ether cycle 3) : Tchirtchik perd le rôle rail (la page 265 du répertoire de 1940, relue par Claude, met la gare à 32 km ; correction d'Ether) ; 37 images de pages et 9 captures lues par Claude (registre v1.24) : rôles relus ville par ville, mentions de preuve et « À renforcer » recalculés."
       ]
     }
   },
@@ -2324,7 +2325,7 @@
               "port_maritime",
               "industrie"
             ],
-            "note": "Transbordement de coton, céréales et bois en 1944. Matériel de la raffinerie de Touapsé évacué en1942 ; premières productions datées1943 dans le journal décrit par le musée. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Nom à la date : Krasnovodsk (aujourd'hui Turkmenbachi). À renforcer : port_maritime.",
+            "note": "Transbordement de coton, céréales et bois en 1944. Matériel de la raffinerie de Touapsé évacué en1942 ; premières productions datées1943 dans le journal décrit par le musée. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Nom à la date : Krasnovodsk (aujourd'hui Turkmenbachi).",
             "nom": "Krasnovodsk"
           },
           "geometrie": {
@@ -2343,7 +2344,7 @@
             {
               "source_id": "src-vayner-transport-guerre-ch4",
               "locator": "p.193–194",
-              "usage": "port_maritime (non vérifiée par Claude)"
+              "usage": "port_maritime (page relue par Claude pour cette ville : port_maritime)"
             },
             {
               "source_id": "src-tm-musee-raffinerie2015",
@@ -3253,7 +3254,7 @@
               "rail",
               "administration"
             ],
-            "note": "Chef-lieu de district ; gare homonyme sur place. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Nom à la date : Ouch-Tioubé (aujourd'hui Ouchtobe). À renforcer : administration.",
+            "note": "Chef-lieu de district ; gare homonyme sur place. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Nom à la date : Ouch-Tioubé (aujourd'hui Ouchtobe).",
             "nom": "Ouch-Tioubé"
           },
           "geometrie": {
@@ -3272,7 +3273,7 @@
             {
               "source_id": "src-shpl-admin1940",
               "locator": "p.280",
-              "usage": "administration, rail (lecture partielle)"
+              "usage": "administration, rail (page relue par Claude pour cette ville : administration, rail)"
             },
             {
               "source_id": "src-wikidata",
@@ -3456,7 +3457,7 @@
               "administration",
               "industrie"
             ],
-            "note": "Atelier ou dépôt daté ; localisation exacte à distinguer du centre urbain. Chef-lieu et gare ; industries de soie, alimentation, réparation et matériaux. Ancienne capitale jusqu’en 1930 seulement. Centre de l’oblast de Samarcande. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). À renforcer : rail, administration, industrie."
+            "note": "Atelier ou dépôt daté ; localisation exacte à distinguer du centre urbain. Chef-lieu et gare ; industries de soie, alimentation, réparation et matériaux. Ancienne capitale jusqu’en 1930 seulement. Centre de l’oblast de Samarcande. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). À renforcer : rail, industrie."
           },
           "geometrie": {
             "type": "Point",
@@ -3479,7 +3480,7 @@
             {
               "source_id": "src-shpl-admin1940",
               "locator": "p.262",
-              "usage": "administration (lecture partielle)"
+              "usage": "administration (page relue par Claude pour cette ville : administration)"
             },
             {
               "source_id": "src-wikidata",
@@ -3517,7 +3518,7 @@
               "administration",
               "industrie"
             ],
-            "note": "Branche vers Tachkent, 1899. Capitale de la RSS et centre de l’oblast. Elektrostanok évacué de Kharkov à Tachkent à l’automne1941 ; livraisons au front dès début1942. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Capitale « régionale » au Snapshot 0 : capitale de RSS (même convention que Tallinn, Riga, Vilnius, Minsk et Kiev). À renforcer : rail, administration.",
+            "note": "Branche vers Tachkent, 1899. Capitale de la RSS et centre de l’oblast. Elektrostanok évacué de Kharkov à Tachkent à l’automne1941 ; livraisons au front dès début1942. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Capitale « régionale » au Snapshot 0 : capitale de RSS (même convention que Tallinn, Riga, Vilnius, Minsk et Kiev). À renforcer : rail.",
             "capitale": "regionale"
           },
           "geometrie": {
@@ -3536,7 +3537,7 @@
             {
               "source_id": "src-shpl-admin1940",
               "locator": "p.259 et264",
-              "usage": "capitale, administration (page relue par Claude pour cette ville : capitale)"
+              "usage": "capitale, administration (page relue par Claude pour cette ville : administration, capitale)"
             },
             {
               "source_id": "src-uzelectroapparat-histoire",
@@ -3577,7 +3578,7 @@
               "rail",
               "administration"
             ],
-            "note": "Terminus de la branche de Ferghana, 1899. Ville et chef-lieu de district ; futur chef-lieu d’oblast à vérifier par supplément. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). À renforcer : rail, administration."
+            "note": "Terminus de la branche de Ferghana, 1899. Ville et chef-lieu de district ; futur chef-lieu d’oblast à vérifier par supplément. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). À renforcer : rail."
           },
           "geometrie": {
             "type": "Point",
@@ -3595,7 +3596,7 @@
             {
               "source_id": "src-shpl-admin1940",
               "locator": "p.266–267",
-              "usage": "administration (lecture partielle)"
+              "usage": "administration (page relue par Claude pour cette ville : administration)"
             },
             {
               "source_id": "src-wikidata",
@@ -3631,7 +3632,7 @@
               "rail",
               "administration"
             ],
-            "note": "Ligne vers Kyzyl-Kiya, 1926. Centre de l’oblast ; gare Skobelevo sur place. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). À renforcer : rail, administration."
+            "note": "Ligne vers Kyzyl-Kiya, 1926. Centre de l’oblast ; gare Skobelevo sur place. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). À renforcer : rail."
           },
           "geometrie": {
             "type": "Point",
@@ -3649,7 +3650,7 @@
             {
               "source_id": "src-shpl-admin1940",
               "locator": "p.266–267",
-              "usage": "administration (lecture partielle)"
+              "usage": "administration (page relue par Claude pour cette ville : administration)"
             },
             {
               "source_id": "src-wikidata",
@@ -3688,7 +3689,7 @@
               "administration",
               "rail"
             ],
-            "note": "Fonderie de cuivre ouverte en 1928 ; atelier de matériel militaire pendant la guerre. Bourg urbain chef-lieu ; gare homonyme. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Nom à la date : Karsakpaï (aujourd'hui Karsakpay). À renforcer : industrie, administration, rail.",
+            "note": "Fonderie de cuivre ouverte en 1928 ; atelier de matériel militaire pendant la guerre. Bourg urbain chef-lieu ; gare homonyme. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Nom à la date : Karsakpaï (aujourd'hui Karsakpay). À renforcer : industrie.",
             "nom": "Karsakpaï"
           },
           "geometrie": {
@@ -3707,7 +3708,7 @@
             {
               "source_id": "src-shpl-admin1940",
               "locator": "p.288",
-              "usage": "administration, rail (lecture partielle)"
+              "usage": "administration, rail (page relue par Claude pour cette ville : administration, rail)"
             },
             {
               "source_id": "src-wikidata",
@@ -3796,7 +3797,7 @@
               "rail",
               "administration"
             ],
-            "note": "Extrémité de la ligne exploitée pendant la guerre. Chef-lieu de l’oblast créé le 14 octobre 1939. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Nom à la date : Akmolinsk (aujourd'hui Astana). À renforcer : administration.",
+            "note": "Extrémité de la ligne exploitée pendant la guerre. Chef-lieu de l’oblast créé le 14 octobre 1939. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Nom à la date : Akmolinsk (aujourd'hui Astana).",
             "nom": "Akmolinsk"
           },
           "geometrie": {
@@ -3815,7 +3816,7 @@
             {
               "source_id": "src-shpl-admin1940",
               "locator": "p.277–278",
-              "usage": "administration (lecture partielle)"
+              "usage": "administration (page relue par Claude pour cette ville : administration)"
             },
             {
               "source_id": "src-wikidata",
@@ -3900,7 +3901,7 @@
               "rail",
               "administration"
             ],
-            "note": "Charbon expédié en 1942 vers l’Oural. Centre de l’oblast. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). À renforcer : administration."
+            "note": "Charbon expédié en 1942 vers l’Oural. Centre de l’oblast. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01)."
           },
           "geometrie": {
             "type": "Point",
@@ -3918,7 +3919,7 @@
             {
               "source_id": "src-shpl-admin1940",
               "locator": "p.287",
-              "usage": "administration (lecture partielle)"
+              "usage": "administration (page relue par Claude pour cette ville : administration)"
             },
             {
               "source_id": "src-wikidata",
@@ -3957,7 +3958,7 @@
               "administration",
               "rail"
             ],
-            "note": "Entreprises locales participant aux réparations ferroviaires en 1943. Chef-lieu d’oblast avec gare homonyme. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Nom à la date : Koustanaï (aujourd'hui Kostanaï). À renforcer : administration, rail.",
+            "note": "Entreprises locales participant aux réparations ferroviaires en 1943. Chef-lieu d’oblast avec gare homonyme. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Nom à la date : Koustanaï (aujourd'hui Kostanaï).",
             "nom": "Koustanaï"
           },
           "geometrie": {
@@ -3976,7 +3977,7 @@
             {
               "source_id": "src-shpl-admin1940",
               "locator": "p.290",
-              "usage": "administration, rail (lecture partielle)"
+              "usage": "administration, rail (page relue par Claude pour cette ville : administration, rail)"
             },
             {
               "source_id": "src-wikidata",
@@ -4016,7 +4017,7 @@
               "rail",
               "administration"
             ],
-            "note": "Transbordements mer–barges–citernes en 1942 ; installations dispersées, point de ville à conserver distinct. Centre de l’oblast. Indication ferroviaire de 1940 dépassée par l’ouverture ultérieure documentée dans une autre source. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Nom à la date : Gouriev (aujourd'hui Atyraou). À renforcer : port_maritime, port_fluvial, rail, administration.",
+            "note": "Transbordements mer–barges–citernes en 1942 ; installations dispersées, point de ville à conserver distinct. Centre de l’oblast. Indication ferroviaire de 1940 dépassée par l’ouverture ultérieure documentée dans une autre source. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Nom à la date : Gouriev (aujourd'hui Atyraou). À renforcer : port_fluvial, rail.",
             "nom": "Gouriev"
           },
           "geometrie": {
@@ -4030,12 +4031,12 @@
             {
               "source_id": "src-vayner-transport-guerre-ch4",
               "locator": "p.190–191",
-              "usage": "port_maritime, port_fluvial, rail (non vérifiée par Claude)"
+              "usage": "port_maritime, port_fluvial, rail (page relue par Claude pour cette ville : port_maritime)"
             },
             {
               "source_id": "src-shpl-admin1940",
               "locator": "p.284",
-              "usage": "administration (lecture partielle)"
+              "usage": "administration (page relue par Claude pour cette ville : administration)"
             },
             {
               "source_id": "src-wikidata",
@@ -4072,7 +4073,7 @@
               "rail",
               "port_fluvial"
             ],
-            "note": "Voyages maritimes depuis Arkhangelsk durant la navigation 1944. Extrémité de la voie étroite locale avant 1945. Débarcadère fluvial en 1931. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). À renforcer : port_maritime, port_fluvial."
+            "note": "Voyages maritimes depuis Arkhangelsk durant la navigation 1944. Extrémité de la voie étroite locale avant 1945. Débarcadère fluvial en 1931. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). À renforcer : port_fluvial."
           },
           "geometrie": {
             "type": "Point",
@@ -4085,7 +4086,7 @@
             {
               "source_id": "src-vayner-transport-guerre-ch4",
               "locator": "p.187",
-              "usage": "port_maritime (non vérifiée par Claude)"
+              "usage": "port_maritime (page relue par Claude pour cette ville : port_maritime)"
             },
             {
               "source_id": "src-nornickel-voie-etroite",
@@ -4998,7 +4999,7 @@
               "industrie",
               "administration"
             ],
-            "note": "Arrivée ferroviaire des cargaisons pour la Iakoutie avant leur transport à Katchoug. Extrémité nommée d’une section ferroviaire admise avant 1945. Travail des dépôts en 1941 ; armement et équipement mécanique produits en 1942–1944. Irkoutsk centre de l’oblast et gare locale dans le tableau urbain. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). À renforcer : administration."
+            "note": "Arrivée ferroviaire des cargaisons pour la Iakoutie avant leur transport à Katchoug. Extrémité nommée d’une section ferroviaire admise avant 1945. Travail des dépôts en 1941 ; armement et équipement mécanique produits en 1942–1944. Irkoutsk centre de l’oblast et gare locale dans le tableau urbain. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01)."
           },
           "geometrie": {
             "type": "Point",
@@ -5026,7 +5027,7 @@
             {
               "source_id": "src-shpl-admin1940",
               "locator": "p. 62 / image 66",
-              "usage": "administration, rail (lecture partielle)"
+              "usage": "administration, rail (page relue par Claude pour cette ville : administration, rail)"
             },
             {
               "source_id": "src-wikidata",
@@ -5732,7 +5733,7 @@
               "industrie",
               "rail"
             ],
-            "note": "Munitions produites en novembre 1941 ; chaudières en 1942. La division ferroviaire locale est attestée en mars 1941 ; portée fonctionnelle modeste. Ateliers de wagons avant-guerre, fabrication de munitions attestée en 1942 et 1944. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). À renforcer : industrie, rail."
+            "note": "Munitions produites en novembre 1941 ; chaudières en 1942. La division ferroviaire locale est attestée en mars 1941 ; portée fonctionnelle modeste. Ateliers de wagons avant-guerre, fabrication de munitions attestée en 1942 et 1944. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). À renforcer : rail."
           },
           "geometrie": {
             "type": "Point",
@@ -5755,7 +5756,7 @@
             {
               "source_id": "src-bvrz-histoire",
               "locator": "1926–1935 ; 1942–1944",
-              "usage": "rail, industrie (non vérifiée par Claude)"
+              "usage": "rail, industrie (page relue par Claude pour cette ville : industrie)"
             },
             {
               "source_id": "src-wikidata",
@@ -5954,7 +5955,7 @@
               "rail",
               "administration"
             ],
-            "note": "Usine 513 productive dès février 1942, encore active en 1944. Conducteur du dépôt d’Omsk récompensé pour les transports en 1943. Omsk explicitement centre de l’oblast. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). À renforcer : industrie, administration."
+            "note": "Usine 513 productive dès février 1942, encore active en 1944. Conducteur du dépôt d’Omsk récompensé pour les transports en 1943. Omsk explicitement centre de l’oblast. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01)."
           },
           "geometrie": {
             "type": "Point",
@@ -5967,7 +5968,7 @@
             {
               "source_id": "src-oniip-omsk-1942",
               "locator": "2 février 1942 ; développements 1943–1944",
-              "usage": "industrie (non vérifiée par Claude)"
+              "usage": "industrie"
             },
             {
               "source_id": "src-omsk-bibliotheques-guerre",
@@ -5977,7 +5978,7 @@
             {
               "source_id": "src-shpl-admin1940",
               "locator": "p. 97 / image 101",
-              "usage": "administration (lecture partielle)"
+              "usage": "administration (page relue par Claude pour cette ville : administration)"
             },
             {
               "source_id": "src-wikidata",
@@ -6017,7 +6018,7 @@
               "administration",
               "industrie"
             ],
-            "note": "Extrémité nommée d’une section ferroviaire admise avant 1945. Station de chargement attesté par une affectation publiée en août 1942. Chef-lieu, gare du Turksib et débarcadère sur l’Irtych ; agroalimentaire, laine, cuir, métallurgie de transformation et bois. Centre d’oblast et gare du Turksib. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Nom à la date : Semipalatinsk (aujourd'hui Semeï). À renforcer : port_fluvial, rail, administration, industrie.",
+            "note": "Extrémité nommée d’une section ferroviaire admise avant 1945. Station de chargement attesté par une affectation publiée en août 1942. Chef-lieu, gare du Turksib et débarcadère sur l’Irtych ; agroalimentaire, laine, cuir, métallurgie de transformation et bois. Centre d’oblast et gare du Turksib. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Nom à la date : Semipalatinsk (aujourd'hui Semeï). À renforcer : port_fluvial, industrie.",
             "nom": "Semipalatinsk"
           },
           "geometrie": {
@@ -6046,7 +6047,7 @@
             {
               "source_id": "src-shpl-admin1940",
               "locator": "p.293–294",
-              "usage": "administration, rail (lecture partielle)"
+              "usage": "administration, rail (page relue par Claude pour cette ville : administration, rail)"
             },
             {
               "source_id": "src-wikidata",
@@ -6082,7 +6083,7 @@
               "administration",
               "rail"
             ],
-            "note": "Chef-lieu d’oblast avec gare homonyme. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). À renforcer : administration, rail."
+            "note": "Chef-lieu d’oblast avec gare homonyme. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01)."
           },
           "geometrie": {
             "type": "Point",
@@ -6095,7 +6096,7 @@
             {
               "source_id": "src-shpl-admin1940",
               "locator": "p.291",
-              "usage": "administration, rail (lecture partielle)"
+              "usage": "administration, rail (page relue par Claude pour cette ville : administration, rail)"
             },
             {
               "source_id": "src-wikidata",
@@ -6132,7 +6133,7 @@
               "administration",
               "industrie"
             ],
-            "note": "Nœud ferroviaire renforcé en 1934 ; chef-lieu d’oblast depuis 1937. Production industrielle d’armement attestée dès 1941 ; construction aéronautique déjà avant-guerre. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). À renforcer : rail, administration."
+            "note": "Nœud ferroviaire renforcé en 1934 ; chef-lieu d’oblast depuis 1937. Production industrielle d’armement attestée dès 1941 ; construction aéronautique déjà avant-guerre. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01)."
           },
           "geometrie": {
             "type": "Point",
@@ -6145,7 +6146,7 @@
             {
               "source_id": "src-novossibirsk-histoire1920-1940",
               "locator": "1934 ; 28 septembre 1937",
-              "usage": "rail, administration (non vérifiée par Claude)"
+              "usage": "rail, administration"
             },
             {
               "source_id": "src-novossibirsk-histoire1941-1945",
@@ -7228,7 +7229,7 @@
               "capitale",
               "administration"
             ],
-            "note": "Étape de l’ALSIB en 1942. Débarcadère explicitement cité avec trafic dans la description de 1938, données de 1935. Siège de l’administration de la navigation transféré de Kirensk à Iakoutsk en 1944 ; service technique local. Iakoutsk explicitement capitale de la RSSA de Iakoutie. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Type de capitale réservé (R16-02/Q15-02). À renforcer : aviation, port_fluvial, capitale, administration."
+            "note": "Étape de l’ALSIB en 1942. Débarcadère explicitement cité avec trafic dans la description de 1938, données de 1935. Siège de l’administration de la navigation transféré de Kirensk à Iakoutsk en 1944 ; service technique local. Iakoutsk explicitement capitale de la RSSA de Iakoutie. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Type de capitale réservé (R16-02/Q15-02). À renforcer : aviation, port_fluvial, administration."
           },
           "geometrie": {
             "type": "Point",
@@ -7256,7 +7257,7 @@
             {
               "source_id": "src-shpl-admin1940",
               "locator": "p. 170 / image 174",
-              "usage": "capitale, administration (lecture partielle)"
+              "usage": "capitale, administration (page relue par Claude pour cette ville : capitale)"
             },
             {
               "source_id": "src-wikidata",
@@ -7596,7 +7597,7 @@
               "capitale",
               "administration"
             ],
-            "note": "Ateliers ferroviaires productifs en 1941 ; fabrication aéronautique en 1943–1944. Oulan-Oudé capitale de la RSSA bouriate-mongole ; gare locale au tableau des villes. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Type de capitale réservé (R16-02/Q15-02). À renforcer : capitale, administration."
+            "note": "Ateliers ferroviaires productifs en 1941 ; fabrication aéronautique en 1943–1944. Oulan-Oudé capitale de la RSSA bouriate-mongole ; gare locale au tableau des villes. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Type de capitale réservé (R16-02/Q15-02)."
           },
           "geometrie": {
             "type": "Point",
@@ -7614,7 +7615,7 @@
             {
               "source_id": "src-shpl-admin1940",
               "locator": "pp. 144–145 / images 148–149",
-              "usage": "capitale, administration, rail (lecture partielle)"
+              "usage": "capitale, administration, rail (page relue par Claude pour cette ville : administration, capitale, rail)"
             },
             {
               "source_id": "src-wikidata",
@@ -9440,7 +9441,7 @@
               "siderurgie",
               "administration"
             ],
-            "note": "Dépôt de locomotives attesté par une affectation publiée en août 1942. Usine locale de ferrochrome en production en janvier 1943 ; jour exact réservé. Centre de l’oblast. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Nom à la date : Aktioubinsk (aujourd'hui Aktioubé). À renforcer : rail, administration.",
+            "note": "Dépôt de locomotives attesté par une affectation publiée en août 1942. Usine locale de ferrochrome en production en janvier 1943 ; jour exact réservé. Centre de l’oblast. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Nom à la date : Aktioubinsk (aujourd'hui Aktioubé). À renforcer : rail.",
             "nom": "Aktioubinsk"
           },
           "geometrie": {
@@ -9464,7 +9465,7 @@
             {
               "source_id": "src-shpl-admin1940",
               "locator": "p.279",
-              "usage": "administration (lecture partielle)"
+              "usage": "administration (page relue par Claude pour cette ville : administration)"
             },
             {
               "source_id": "src-wikidata",
@@ -9598,7 +9599,7 @@
             "roles": [
               "administration"
             ],
-            "note": "Ville chef-lieu ; gare Kazalinsk distante de douze kilomètres. Distincte de Novo-Kazalinsk. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). À renforcer : administration."
+            "note": "Ville chef-lieu ; gare Kazalinsk distante de douze kilomètres. Distincte de Novo-Kazalinsk. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01)."
           },
           "geometrie": {
             "type": "Point",
@@ -9611,7 +9612,7 @@
             {
               "source_id": "src-shpl-admin1940",
               "locator": "p.289",
-              "usage": "administration (lecture partielle)"
+              "usage": "administration (page relue par Claude pour cette ville : administration)"
             },
             {
               "source_id": "src-wikidata",
@@ -9697,7 +9698,7 @@
               "rail",
               "administration"
             ],
-            "note": "Gare de Djamboul attesté par une affectation publiée en août 1942. Chef-lieu de l’oblast créé le 14 octobre 1939. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Nom à la date : Djamboul (aujourd'hui Taraz). À renforcer : rail, administration.",
+            "note": "Gare de Djamboul attesté par une affectation publiée en août 1942. Chef-lieu de l’oblast créé le 14 octobre 1939. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Nom à la date : Djamboul (aujourd'hui Taraz). À renforcer : rail.",
             "nom": "Djamboul"
           },
           "geometrie": {
@@ -9716,7 +9717,7 @@
             {
               "source_id": "src-shpl-admin1940",
               "locator": "p.285",
-              "usage": "administration (lecture partielle)"
+              "usage": "administration (page relue par Claude pour cette ville : administration)"
             },
             {
               "source_id": "src-wikidata",
@@ -9755,7 +9756,7 @@
               "administration",
               "industrie"
             ],
-            "note": "Point de réparation des wagons attesté par une affectation publiée en août 1942. Centre du Kazakhstan méridional, gare locale ; quartier urbain Kalininski explicitement situé auprès de l’usine de plomb. Usine de plomb mise en marche en janvier1934 ; activité attestée par les documents de1937,1941,1942 et le bilan des accidents1943. Métallurgie non ferreuse, sans rôle sidérurgie. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Nom à la date : Tchimkent (aujourd'hui Chimkent). À renforcer : rail, administration.",
+            "note": "Point de réparation des wagons attesté par une affectation publiée en août 1942. Centre du Kazakhstan méridional, gare locale ; quartier urbain Kalininski explicitement situé auprès de l’usine de plomb. Usine de plomb mise en marche en janvier1934 ; activité attestée par les documents de1937,1941,1942 et le bilan des accidents1943. Métallurgie non ferreuse, sans rôle sidérurgie. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Nom à la date : Tchimkent (aujourd'hui Chimkent).",
             "nom": "Tchimkent"
           },
           "geometrie": {
@@ -9774,7 +9775,7 @@
             {
               "source_id": "src-shpl-admin1940",
               "locator": "p.295–296",
-              "usage": "administration, rail, industrie (lecture partielle)"
+              "usage": "administration, rail, industrie (page relue par Claude pour cette ville : administration, rail)"
             },
             {
               "source_id": "src-kaznu-plomb-chimkent2022",
@@ -9971,7 +9972,7 @@
             "roles": [
               "industrie"
             ],
-            "note": "Cimenterie active, également productrice de bombes d’exercice en ciment en 1942. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). À renforcer : industrie."
+            "note": "Cimenterie active, également productrice de bombes d’exercice en ciment en 1942. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01)."
           },
           "geometrie": {
             "type": "Point",
@@ -9984,7 +9985,7 @@
             {
               "source_id": "src-archives-primorie-spassk-ciment",
               "locator": "Passage 1942",
-              "usage": "industrie (non vérifiée par Claude)"
+              "usage": "industrie (page relue par Claude pour cette ville : industrie)"
             },
             {
               "source_id": "src-wikidata",
@@ -10920,7 +10921,7 @@
             "roles": [
               "port_maritime"
             ],
-            "note": "Déchargement au quai attesté à l’été 1940, en complément de la manutention en rade ; établissement habité et port antérieurs au Snapshot. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). À renforcer : port_maritime."
+            "note": "Déchargement au quai attesté à l’été 1940, en complément de la manutention en rade ; établissement habité et port antérieurs au Snapshot. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01)."
           },
           "geometrie": {
             "type": "Point",
@@ -10933,7 +10934,7 @@
             {
               "source_id": "src-ks-providenia-dyga2022",
               "locator": "Premier quai, été 1940 ; état avant-guerre",
-              "usage": "port_maritime (non vérifiée par Claude)"
+              "usage": "port_maritime"
             },
             {
               "source_id": "src-wikidata",
@@ -10972,7 +10973,7 @@
               "administration",
               "rail"
             ],
-            "note": "Usine transférée d’Alexandrov en novembre 1941 ; premières productions à Petropavlovsk en février 1942, matériel radio. Centre du Kazakhstan septentrional et gare homonyme. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Nom à la date : Petropavlovsk (aujourd'hui Petropavl). À renforcer : administration, rail.",
+            "note": "Usine transférée d’Alexandrov en novembre 1941 ; premières productions à Petropavlovsk en février 1942, matériel radio. Centre du Kazakhstan septentrional et gare homonyme. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Nom à la date : Petropavlovsk (aujourd'hui Petropavl).",
             "nom": "Petropavlovsk"
           },
           "geometrie": {
@@ -10991,7 +10992,7 @@
             {
               "source_id": "src-shpl-admin1940",
               "locator": "p.292",
-              "usage": "administration, rail (lecture partielle)"
+              "usage": "administration, rail (page relue par Claude pour cette ville : administration, rail)"
             },
             {
               "source_id": "src-wikidata",
@@ -11031,7 +11032,7 @@
               "siderurgie",
               "administration"
             ],
-            "note": "Production d’acier localisée au site de l’actuel Bekabad dès mars 1944. Aucune mise en service de la centrale Farhad déduite. Bourg urbain chef-lieu, desservi par Khilkovo. Aucun statut de ville anticipé. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Nom à la date : Begovat (aujourd'hui Bekabad). À renforcer : administration.",
+            "note": "Production d’acier localisée au site de l’actuel Bekabad dès mars 1944. Aucune mise en service de la centrale Farhad déduite. Bourg urbain chef-lieu, desservi par Khilkovo. Aucun statut de ville anticipé. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Nom à la date : Begovat (aujourd'hui Bekabad).",
             "nom": "Begovat"
           },
           "geometrie": {
@@ -11050,7 +11051,7 @@
             {
               "source_id": "src-shpl-admin1940",
               "locator": "p.264–265",
-              "usage": "administration (lecture partielle)"
+              "usage": "administration (page relue par Claude pour cette ville : administration)"
             },
             {
               "source_id": "src-wikidata",
@@ -11133,7 +11134,7 @@
             "roles": [
               "administration"
             ],
-            "note": "Ville chef-lieu de district, gare homonyme à deux kilomètres. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). À renforcer : administration."
+            "note": "Ville chef-lieu de district, gare homonyme à deux kilomètres. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01)."
           },
           "geometrie": {
             "type": "Point",
@@ -11146,7 +11147,7 @@
             {
               "source_id": "src-shpl-admin1940",
               "locator": "p.262–263",
-              "usage": "administration (lecture partielle)"
+              "usage": "administration (page relue par Claude pour cette ville : administration)"
             },
             {
               "source_id": "src-wikidata",
@@ -11183,7 +11184,7 @@
             "roles": [
               "administration"
             ],
-            "note": "Ville chef-lieu de district et gare homonyme. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Nom à la date : Katta-Kourgan (aujourd'hui Kattakourgan). À renforcer : administration.",
+            "note": "Ville chef-lieu de district et gare homonyme. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Nom à la date : Katta-Kourgan (aujourd'hui Kattakourgan).",
             "nom": "Katta-Kourgan"
           },
           "geometrie": {
@@ -11197,7 +11198,7 @@
             {
               "source_id": "src-shpl-admin1940",
               "locator": "p.262–263",
-              "usage": "administration (lecture partielle)"
+              "usage": "administration (page relue par Claude pour cette ville : administration)"
             },
             {
               "source_id": "src-wikidata",
@@ -11230,10 +11231,9 @@
           "proprietes": {
             "importance_atlas": "B",
             "roles": [
-              "rail",
               "industrie"
             ],
-            "note": "Ville et gare Tchirtchik. Nitrate d’ammonium produit en octobre1940, première tranche inaugurée en janvier1941 ; ateliers d’acide nitrique1942 et ammoniac1944. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). À renforcer : rail, industrie."
+            "note": "Le répertoire de 1940 mentionne Tchirtchik et une gare située à 32 km ; cette ligne ne prouve pas une gare dans la ville. La production de nitrate d’ammonium commence en octobre 1940 ; la première tranche est inaugurée en janvier 1941, puis viennent les ateliers d’acide nitrique en 1942 et d’ammoniac au début de 1944. Le rôle ferroviaire reste réservé, faute de preuve locale suffisante. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01)."
           },
           "geometrie": {
             "type": "Point",
@@ -11245,13 +11245,13 @@
           "sources": [
             {
               "source_id": "src-shpl-admin1940",
-              "locator": "p.265",
-              "usage": "rail (lecture partielle)"
+              "locator": "p.265, ligne Чирчик, distance 32 km",
+              "usage": "identité et distance à la gare ; rôle rail non démontré pour la ville (lecture partielle)"
             },
             {
               "source_id": "src-maxam-chirchiq-histoire",
               "locator": "Octobre1940 ;25janvier1941 ;1942 ;début1944",
-              "usage": "industrie (non vérifiée par Claude)"
+              "usage": "industrie"
             },
             {
               "source_id": "src-wikidata",
@@ -11289,7 +11289,7 @@
               "administration",
               "rail"
             ],
-            "note": "Ville chef-lieu avec gare Kaufmanskaïa sur place. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Nom à la date : Yangi-Youl (aujourd'hui Yangiyo‘l). À renforcer : administration, rail.",
+            "note": "Ville chef-lieu avec gare Kaufmanskaïa sur place. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Nom à la date : Yangi-Youl (aujourd'hui Yangiyo‘l).",
             "nom": "Yangi-Youl"
           },
           "geometrie": {
@@ -11303,7 +11303,7 @@
             {
               "source_id": "src-shpl-admin1940",
               "locator": "p.264–265",
-              "usage": "administration, rail (lecture partielle)"
+              "usage": "administration, rail (page relue par Claude pour cette ville : administration, rail)"
             },
             {
               "source_id": "src-wikidata",
@@ -11339,7 +11339,7 @@
               "administration",
               "rail"
             ],
-            "note": "Ville chef-lieu de district et gare homonyme ; statut d’oblast ultérieur à vérifier. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). À renforcer : administration, rail."
+            "note": "Ville chef-lieu de district et gare homonyme ; statut d’oblast ultérieur à vérifier. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01)."
           },
           "geometrie": {
             "type": "Point",
@@ -11352,7 +11352,7 @@
             {
               "source_id": "src-shpl-admin1940",
               "locator": "p.266–267",
-              "usage": "administration, rail (lecture partielle)"
+              "usage": "administration, rail (page relue par Claude pour cette ville : administration, rail)"
             },
             {
               "source_id": "src-wikidata",
@@ -11389,7 +11389,7 @@
             "roles": [
               "administration"
             ],
-            "note": "Ville chef-lieu ; gare Gortchakovo à six kilomètres, sans fusion présumée des points. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Nom à la date : Marguelan (aujourd'hui Marguilan). À renforcer : administration.",
+            "note": "Ville chef-lieu ; gare Gortchakovo à six kilomètres, sans fusion présumée des points. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Nom à la date : Marguelan (aujourd'hui Marguilan).",
             "nom": "Marguelan"
           },
           "geometrie": {
@@ -11403,7 +11403,7 @@
             {
               "source_id": "src-shpl-admin1940",
               "locator": "p.266–267",
-              "usage": "administration (lecture partielle)"
+              "usage": "administration (page relue par Claude pour cette ville : administration)"
             },
             {
               "source_id": "src-wikidata",
@@ -11440,7 +11440,7 @@
             "roles": [
               "administration"
             ],
-            "note": "Ville chef-lieu ; gare éloignée de treize kilomètres, rôle rail non appliqué automatiquement. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Nom à la date : Tchoust (aujourd'hui Chust). À renforcer : administration.",
+            "note": "Ville chef-lieu ; gare éloignée de treize kilomètres, rôle rail non appliqué automatiquement. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Nom à la date : Tchoust (aujourd'hui Chust).",
             "nom": "Tchoust"
           },
           "geometrie": {
@@ -11454,7 +11454,7 @@
             {
               "source_id": "src-shpl-admin1940",
               "locator": "p.267",
-              "usage": "administration (lecture partielle)"
+              "usage": "administration (page relue par Claude pour cette ville : administration)"
             },
             {
               "source_id": "src-wikidata",
@@ -11489,7 +11489,7 @@
             "roles": [
               "administration"
             ],
-            "note": "Centre du Khorezm ; réseau ferroviaire local absent du répertoire. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). À renforcer : administration."
+            "note": "Centre du Khorezm ; réseau ferroviaire local absent du répertoire. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01)."
           },
           "geometrie": {
             "type": "Point",
@@ -11502,7 +11502,7 @@
             {
               "source_id": "src-shpl-admin1940",
               "locator": "p.268",
-              "usage": "administration (lecture partielle)"
+              "usage": "administration (page relue par Claude pour cette ville : administration)"
             },
             {
               "source_id": "src-wikidata",
@@ -11537,7 +11537,7 @@
             "roles": [
               "administration"
             ],
-            "note": "Ville chef-lieu de district. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). À renforcer : administration."
+            "note": "Ville chef-lieu de district. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01)."
           },
           "geometrie": {
             "type": "Point",
@@ -11550,7 +11550,7 @@
             {
               "source_id": "src-shpl-admin1940",
               "locator": "p.268",
-              "usage": "administration (lecture partielle)"
+              "usage": "administration (page relue par Claude pour cette ville : administration)"
             },
             {
               "source_id": "src-wikidata",
@@ -11586,7 +11586,7 @@
               "administration",
               "capitale"
             ],
-            "note": "Siège de la RSSA karakalpake indiqué comme capitale. Type d’affichage des RSSA réservé. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Type de capitale réservé (R16-02/Q15-02). À renforcer : administration, capitale."
+            "note": "Siège de la RSSA karakalpake indiqué comme capitale. Type d’affichage des RSSA réservé. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Type de capitale réservé (R16-02/Q15-02)."
           },
           "geometrie": {
             "type": "Point",
@@ -11599,7 +11599,7 @@
             {
               "source_id": "src-shpl-admin1940",
               "locator": "p.269",
-              "usage": "capitale, administration (lecture partielle)"
+              "usage": "capitale, administration (page relue par Claude pour cette ville : administration, capitale)"
             },
             {
               "source_id": "src-wikidata",
@@ -11636,7 +11636,7 @@
             "roles": [
               "administration"
             ],
-            "note": "Ville chef-lieu de district. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Nom à la date : Khodjeïli (aujourd'hui Xojeli). À renforcer : administration.",
+            "note": "Ville chef-lieu de district. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Nom à la date : Khodjeïli (aujourd'hui Xojeli).",
             "nom": "Khodjeïli"
           },
           "geometrie": {
@@ -11650,7 +11650,7 @@
             {
               "source_id": "src-shpl-admin1940",
               "locator": "p.269",
-              "usage": "administration (lecture partielle)"
+              "usage": "administration (page relue par Claude pour cette ville : administration)"
             },
             {
               "source_id": "src-wikidata",
@@ -11687,7 +11687,7 @@
             "roles": [
               "administration"
             ],
-            "note": "Ville chef-lieu de district. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Nom à la date : Tchimbaï (aujourd'hui Chimbay). À renforcer : administration.",
+            "note": "Ville chef-lieu de district. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Nom à la date : Tchimbaï (aujourd'hui Chimbay).",
             "nom": "Tchimbaï"
           },
           "geometrie": {
@@ -11701,7 +11701,7 @@
             {
               "source_id": "src-shpl-admin1940",
               "locator": "p.269",
-              "usage": "administration (lecture partielle)"
+              "usage": "administration (page relue par Claude pour cette ville : administration)"
             },
             {
               "source_id": "src-wikidata",
@@ -11742,7 +11742,7 @@
               "peche",
               "industrie"
             ],
-            "note": "Bourg urbain chef-lieu de district, existence datée. Fonction portuaire à rechercher. Bourg à l’embouchure de l’Amou-Daria ; navigation à vapeur sur l’Aral et vers l’amont ; centre de pêche et de conserverie. Port maritime désigne ici la mer intérieure d’Aral, sans accès océanique. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Nom à la date : Mouïnak (aujourd'hui Moynaq). À renforcer : administration, port_maritime, port_fluvial, peche, industrie.",
+            "note": "Bourg urbain chef-lieu de district, existence datée. Fonction portuaire à rechercher. Bourg à l’embouchure de l’Amou-Daria ; navigation à vapeur sur l’Aral et vers l’amont ; centre de pêche et de conserverie. Port maritime désigne ici la mer intérieure d’Aral, sans accès océanique. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Nom à la date : Mouïnak (aujourd'hui Moynaq). À renforcer : port_maritime, port_fluvial, peche, industrie.",
             "nom": "Mouïnak"
           },
           "geometrie": {
@@ -11756,7 +11756,7 @@
             {
               "source_id": "src-shpl-admin1940",
               "locator": "p.269",
-              "usage": "administration (lecture partielle)"
+              "usage": "administration (page relue par Claude pour cette ville : administration)"
             },
             {
               "source_id": "src-bse40-mouinak1938",
@@ -11798,7 +11798,7 @@
               "rail",
               "administration"
             ],
-            "note": "Exploitation pétrolière du trust EmbaNeft, mécanisée dans les années1930 et maintenue pendant la guerre ; correspondance avec le centre habité à contrôler. Bourg urbain chef-lieu ; gare Dossor sur place. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). À renforcer : rail, administration."
+            "note": "Exploitation pétrolière du trust EmbaNeft, mécanisée dans les années1930 et maintenue pendant la guerre ; correspondance avec le centre habité à contrôler. Bourg urbain chef-lieu ; gare Dossor sur place. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01)."
           },
           "geometrie": {
             "type": "Point",
@@ -11816,7 +11816,7 @@
             {
               "source_id": "src-shpl-admin1940",
               "locator": "p.284",
-              "usage": "rail, administration (lecture partielle)"
+              "usage": "rail, administration (page relue par Claude pour cette ville : administration, rail)"
             },
             {
               "source_id": "src-wikidata",
@@ -11852,7 +11852,7 @@
               "industrie",
               "rail"
             ],
-            "note": "Exploitation pétrolière du trust EmbaNeft, mécanisée dans les années1930 et maintenue pendant la guerre ; correspondance avec le centre habité à contrôler. Bourg urbain et gare Makat. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). À renforcer : rail."
+            "note": "Exploitation pétrolière du trust EmbaNeft, mécanisée dans les années1930 et maintenue pendant la guerre ; correspondance avec le centre habité à contrôler. Bourg urbain et gare Makat. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01)."
           },
           "geometrie": {
             "type": "Point",
@@ -11870,7 +11870,7 @@
             {
               "source_id": "src-shpl-admin1940",
               "locator": "p.284",
-              "usage": "rail (lecture partielle)"
+              "usage": "rail (page relue par Claude pour cette ville : rail)"
             },
             {
               "source_id": "src-wikidata",
@@ -12014,7 +12014,7 @@
               "industrie",
               "aviation"
             ],
-            "note": "Capitale de la RSS kazakhe et centre de son oblast. Usine constituée le17 novembre1941 à partir du matériel évacué de Lougansk ; fabrication de bombes, mines et obus en1942. Liaison aérienne Alma-Ata–Hami et contrat de vols réguliers de septembre 1939 ; rôle de tête de la route d’aide à la Chine documenté pour 1937–1941. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Capitale « régionale » au Snapshot 0 : capitale de RSS (même convention que Tallinn, Riga, Vilnius, Minsk et Kiev). Nom à la date : Alma-Ata (aujourd'hui Almaty). À renforcer : capitale, administration, aviation.",
+            "note": "Capitale de la RSS kazakhe et centre de son oblast. Usine constituée le17 novembre1941 à partir du matériel évacué de Lougansk ; fabrication de bombes, mines et obus en1942. Liaison aérienne Alma-Ata–Hami et contrat de vols réguliers de septembre 1939 ; rôle de tête de la route d’aide à la Chine documenté pour 1937–1941. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Capitale « régionale » au Snapshot 0 : capitale de RSS (même convention que Tallinn, Riga, Vilnius, Minsk et Kiev). Nom à la date : Alma-Ata (aujourd'hui Almaty). À renforcer : aviation.",
             "nom": "Alma-Ata",
             "capitale": "regionale"
           },
@@ -12029,7 +12029,7 @@
             {
               "source_id": "src-shpl-admin1940",
               "locator": "p.277,280",
-              "usage": "capitale, administration (lecture partielle)"
+              "usage": "capitale, administration (page relue par Claude pour cette ville : administration, capitale)"
             },
             {
               "source_id": "src-aztm-histoire",
@@ -12076,7 +12076,7 @@
             "roles": [
               "administration"
             ],
-            "note": "Centre du Kazakhstan oriental. Gare Zachtchita à sept kilomètres : rôle de la gare distinct à préciser. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Nom à la date : Oust-Kamenogorsk (aujourd'hui Öskemen). À renforcer : administration.",
+            "note": "Centre du Kazakhstan oriental. Gare Zachtchita à sept kilomètres : rôle de la gare distinct à préciser. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Nom à la date : Oust-Kamenogorsk (aujourd'hui Öskemen).",
             "nom": "Oust-Kamenogorsk"
           },
           "geometrie": {
@@ -12090,7 +12090,7 @@
             {
               "source_id": "src-shpl-admin1940",
               "locator": "p.282–283",
-              "usage": "administration (lecture partielle)"
+              "usage": "administration (page relue par Claude pour cette ville : administration)"
             },
             {
               "source_id": "src-wikidata",
@@ -12128,7 +12128,7 @@
               "administration",
               "port_maritime"
             ],
-            "note": "Ville chef-lieu ; embarcadère homonyme indiqué dans le tableau. Port de la Caspienne, mer intérieure. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Nom à la date : Fort-Chevtchenko (aujourd'hui Fort Chevtchenko). À renforcer : administration, port_maritime.",
+            "note": "Ville chef-lieu ; embarcadère homonyme indiqué dans le tableau. Port de la Caspienne, mer intérieure. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Nom à la date : Fort-Chevtchenko (aujourd'hui Fort Chevtchenko). À renforcer : port_maritime.",
             "nom": "Fort-Chevtchenko"
           },
           "geometrie": {
@@ -12142,7 +12142,7 @@
             {
               "source_id": "src-shpl-admin1940",
               "locator": "p.284",
-              "usage": "administration, port_maritime (lecture partielle)"
+              "usage": "administration, port_maritime (page relue par Claude pour cette ville : administration)"
             },
             {
               "source_id": "src-wikidata",
@@ -12179,7 +12179,7 @@
             "roles": [
               "rail"
             ],
-            "note": "Bourg urbain avec gare homonyme du Turksib. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Nom à la date : Tchou (aujourd'hui Chou). À renforcer : rail.",
+            "note": "Bourg urbain avec gare homonyme du Turksib. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Nom à la date : Tchou (aujourd'hui Chou).",
             "nom": "Tchou"
           },
           "geometrie": {
@@ -12193,7 +12193,7 @@
             {
               "source_id": "src-shpl-admin1940",
               "locator": "p.285",
-              "usage": "rail (lecture partielle)"
+              "usage": "rail (page relue par Claude pour cette ville : rail)"
             },
             {
               "source_id": "src-wikidata",
@@ -12231,7 +12231,7 @@
               "administration",
               "rail"
             ],
-            "note": "Centre du Kazakhstan occidental et gare locale. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). À renforcer : administration, rail."
+            "note": "Centre du Kazakhstan occidental et gare locale. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01)."
           },
           "geometrie": {
             "type": "Point",
@@ -12244,7 +12244,7 @@
             {
               "source_id": "src-shpl-admin1940",
               "locator": "p.286",
-              "usage": "administration, rail (lecture partielle)"
+              "usage": "administration, rail (page relue par Claude pour cette ville : administration, rail)"
             },
             {
               "source_id": "src-wikidata",
@@ -12281,7 +12281,7 @@
             "roles": [
               "rail"
             ],
-            "note": "Bourg urbain avec gare homonyme, cité séparément de Balkhach. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Nom à la date : Moïnty (aujourd'hui Mojynty). À renforcer : rail.",
+            "note": "Bourg urbain avec gare homonyme, cité séparément de Balkhach. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Nom à la date : Moïnty (aujourd'hui Mojynty).",
             "nom": "Moïnty"
           },
           "geometrie": {
@@ -12295,7 +12295,7 @@
             {
               "source_id": "src-shpl-admin1940",
               "locator": "p.288",
-              "usage": "rail (lecture partielle)"
+              "usage": "rail (page relue par Claude pour cette ville : rail)"
             },
             {
               "source_id": "src-wikidata",
@@ -12333,7 +12333,7 @@
               "administration",
               "rail"
             ],
-            "note": "Centre de l’oblast et gare homonyme. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Nom à la date : Kzyl-Orda (aujourd'hui Kyzylorda). À renforcer : administration, rail.",
+            "note": "Centre de l’oblast et gare homonyme. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Nom à la date : Kzyl-Orda (aujourd'hui Kyzylorda).",
             "nom": "Kzyl-Orda"
           },
           "geometrie": {
@@ -12347,7 +12347,7 @@
             {
               "source_id": "src-shpl-admin1940",
               "locator": "p.289",
-              "usage": "administration, rail (lecture partielle)"
+              "usage": "administration, rail (page relue par Claude pour cette ville : administration, rail)"
             },
             {
               "source_id": "src-wikidata",
@@ -12383,7 +12383,7 @@
               "administration",
               "rail"
             ],
-            "note": "Ville chef-lieu, desservie par la gare Aralskoïe More. Fonction portuaire à compléter séparément. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). À renforcer : administration, rail."
+            "note": "Ville chef-lieu, desservie par la gare Aralskoïe More. Fonction portuaire à compléter séparément. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01)."
           },
           "geometrie": {
             "type": "Point",
@@ -12396,7 +12396,7 @@
             {
               "source_id": "src-shpl-admin1940",
               "locator": "p.289",
-              "usage": "administration, rail (lecture partielle)"
+              "usage": "administration, rail (page relue par Claude pour cette ville : administration, rail)"
             },
             {
               "source_id": "src-wikidata",
@@ -12432,7 +12432,7 @@
               "administration",
               "rail"
             ],
-            "note": "Ville chef-lieu et gare homonyme du Turksib. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). À renforcer : administration, rail."
+            "note": "Ville chef-lieu et gare homonyme du Turksib. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01)."
           },
           "geometrie": {
             "type": "Point",
@@ -12445,7 +12445,7 @@
             {
               "source_id": "src-shpl-admin1940",
               "locator": "p.293–294",
-              "usage": "administration, rail (lecture partielle)"
+              "usage": "administration, rail (page relue par Claude pour cette ville : administration, rail)"
             },
             {
               "source_id": "src-wikidata",
@@ -12481,7 +12481,7 @@
               "administration",
               "rail"
             ],
-            "note": "Bourg chef-lieu ; gare Tcharskaïa sur place. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). À renforcer : administration, rail."
+            "note": "Bourg chef-lieu ; gare Tcharskaïa sur place. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01)."
           },
           "geometrie": {
             "type": "Point",
@@ -12494,7 +12494,7 @@
             {
               "source_id": "src-shpl-admin1940",
               "locator": "p.293–294",
-              "usage": "administration, rail (lecture partielle)"
+              "usage": "administration, rail (page relue par Claude pour cette ville : administration, rail)"
             },
             {
               "source_id": "src-wikidata",
@@ -12530,7 +12530,7 @@
               "administration",
               "rail"
             ],
-            "note": "Bourg urbain chef-lieu et gare homonyme. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). À renforcer : administration, rail."
+            "note": "Bourg urbain chef-lieu et gare homonyme. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01)."
           },
           "geometrie": {
             "type": "Point",
@@ -12543,7 +12543,7 @@
             {
               "source_id": "src-shpl-admin1940",
               "locator": "p.295–296",
-              "usage": "administration, rail (lecture partielle)"
+              "usage": "administration, rail (page relue par Claude pour cette ville : administration, rail)"
             },
             {
               "source_id": "src-wikidata",
@@ -12578,7 +12578,7 @@
             "roles": [
               "administration"
             ],
-            "note": "Ville chef-lieu ; gare homonyme distante de 6,5 km, sans fusion des points. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). À renforcer : administration."
+            "note": "Ville chef-lieu ; gare homonyme distante de 6,5 km, sans fusion des points. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01)."
           },
           "geometrie": {
             "type": "Point",
@@ -12591,7 +12591,7 @@
             {
               "source_id": "src-shpl-admin1940",
               "locator": "p.295–296",
-              "usage": "administration (lecture partielle)"
+              "usage": "administration (page relue par Claude pour cette ville : administration)"
             },
             {
               "source_id": "src-wikidata",
@@ -12626,7 +12626,7 @@
             "roles": [
               "rail"
             ],
-            "note": "Bourg urbain avec gare homonyme du Turksib. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). À renforcer : rail."
+            "note": "Bourg urbain avec gare homonyme du Turksib. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01)."
           },
           "geometrie": {
             "type": "Point",
@@ -12639,7 +12639,7 @@
             {
               "source_id": "src-shpl-admin1940",
               "locator": "p.296",
-              "usage": "rail (lecture partielle)"
+              "usage": "rail (page relue par Claude pour cette ville : rail)"
             },
             {
               "source_id": "src-wikidata",
@@ -12929,7 +12929,7 @@
             "roles": [
               "administration"
             ],
-            "note": "Oïrot-Toura explicitement centre de l’oblast autonome. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Nom à la date : Oïrot-Toura (aujourd'hui Gorno-Altaïsk). À renforcer : administration.",
+            "note": "Oïrot-Toura explicitement centre de l’oblast autonome. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Nom à la date : Oïrot-Toura (aujourd'hui Gorno-Altaïsk).",
             "nom": "Oïrot-Toura"
           },
           "geometrie": {
@@ -12943,7 +12943,7 @@
             {
               "source_id": "src-shpl-admin1940",
               "locator": "p. 21 / image 25",
-              "usage": "administration (lecture partielle)"
+              "usage": "administration (page relue par Claude pour cette ville : administration)"
             },
             {
               "source_id": "src-wikidata",
@@ -12978,7 +12978,7 @@
             "roles": [
               "administration"
             ],
-            "note": "Chef-lieu de district. Gare Oulan-Oudé donnée à 229 km, aucun rôle ferroviaire local déduit. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). À renforcer : administration."
+            "note": "Chef-lieu de district. Gare Oulan-Oudé donnée à 229 km, aucun rôle ferroviaire local déduit. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01)."
           },
           "geometrie": {
             "type": "Point",
@@ -12991,7 +12991,7 @@
             {
               "source_id": "src-shpl-admin1940",
               "locator": "pp. 144–145 / images 148–149",
-              "usage": "administration (lecture partielle)"
+              "usage": "administration (page relue par Claude pour cette ville : administration)"
             },
             {
               "source_id": "src-wikidata",
@@ -13027,7 +13027,7 @@
               "rail",
               "administration"
             ],
-            "note": "Chef-lieu de district ; gare homonyme locale. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). À renforcer : rail, administration."
+            "note": "Chef-lieu de district ; gare homonyme locale. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01)."
           },
           "geometrie": {
             "type": "Point",
@@ -13040,7 +13040,7 @@
             {
               "source_id": "src-shpl-admin1940",
               "locator": "pp. 62–63 / images 66–67",
-              "usage": "rail, administration (lecture partielle)"
+              "usage": "rail, administration (page relue par Claude pour cette ville : administration, rail)"
             },
             {
               "source_id": "src-wikidata",
@@ -13076,7 +13076,7 @@
               "rail",
               "administration"
             ],
-            "note": "Chef-lieu de district ; gare homonyme locale. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). À renforcer : rail, administration."
+            "note": "Chef-lieu de district ; gare homonyme locale. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01)."
           },
           "geometrie": {
             "type": "Point",
@@ -13089,7 +13089,7 @@
             {
               "source_id": "src-shpl-admin1940",
               "locator": "pp. 62–63 / images 66–67",
-              "usage": "rail, administration (lecture partielle)"
+              "usage": "rail, administration (page relue par Claude pour cette ville : administration, rail)"
             },
             {
               "source_id": "src-wikidata",
@@ -13125,7 +13125,7 @@
               "rail",
               "administration"
             ],
-            "note": "Chef-lieu de district ; gare homonyme locale. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). À renforcer : rail, administration."
+            "note": "Chef-lieu de district ; gare homonyme locale. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01)."
           },
           "geometrie": {
             "type": "Point",
@@ -13138,7 +13138,7 @@
             {
               "source_id": "src-shpl-admin1940",
               "locator": "pp. 62–63 / images 66–67",
-              "usage": "rail, administration (lecture partielle)"
+              "usage": "rail, administration (page relue par Claude pour cette ville : administration, rail)"
             },
             {
               "source_id": "src-wikidata",
@@ -13174,7 +13174,7 @@
               "rail",
               "administration"
             ],
-            "note": "Chef-lieu de district et gare locale. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). À renforcer : rail, administration."
+            "note": "Chef-lieu de district et gare locale. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01)."
           },
           "geometrie": {
             "type": "Point",
@@ -13187,7 +13187,7 @@
             {
               "source_id": "src-shpl-admin1940",
               "locator": "pp. 26–27 / images 30–31",
-              "usage": "rail, administration (lecture partielle)"
+              "usage": "rail, administration (page relue par Claude pour cette ville : administration, rail)"
             },
             {
               "source_id": "src-wikidata",
@@ -13223,7 +13223,7 @@
               "rail",
               "administration"
             ],
-            "note": "Chef-lieu de district et gare locale. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). À renforcer : rail, administration."
+            "note": "Chef-lieu de district et gare locale. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01)."
           },
           "geometrie": {
             "type": "Point",
@@ -13236,7 +13236,7 @@
             {
               "source_id": "src-shpl-admin1940",
               "locator": "pp. 26–27 / images 30–31",
-              "usage": "rail, administration (lecture partielle)"
+              "usage": "rail, administration (page relue par Claude pour cette ville : administration, rail)"
             },
             {
               "source_id": "src-wikidata",
@@ -13274,7 +13274,7 @@
               "rail",
               "administration"
             ],
-            "note": "Bourg ouvrier chef-lieu, station Klioukvennaïa locale. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Nom à la date : Ouiar (aujourd'hui Ouïar). À renforcer : rail, administration.",
+            "note": "Bourg ouvrier chef-lieu, station Klioukvennaïa locale. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Nom à la date : Ouiar (aujourd'hui Ouïar).",
             "nom": "Ouiar"
           },
           "geometrie": {
@@ -13288,7 +13288,7 @@
             {
               "source_id": "src-shpl-admin1940",
               "locator": "p. 27 / image 31",
-              "usage": "rail, administration (lecture partielle)"
+              "usage": "rail, administration (page relue par Claude pour cette ville : administration, rail)"
             },
             {
               "source_id": "src-wikidata",

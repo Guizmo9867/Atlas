@@ -1,0 +1,804 @@
+{
+ "metadata": {
+  "date": "2026-10-04",
+  "lot": "villes_1-6 cycle 3",
+  "par": "Claude (sous-agents Sonnet ; captures et images de pages déposées par Ether lues avec l'outil Read ; pas de web)",
+  "methode": "Q16-01 : 9 captures (7 sources) ; Q16-02 : 37 images de pages du répertoire de 1940 pour les 58 relations de l'index du cycle 3. Captures gardées dans le dossier d'échange (01_lots/villes_1-6/), jamais dans le dépôt."
+ },
+ "resultats": [
+  {
+   "id": "src-maxam-chirchiq-histoire",
+   "statut": "ok",
+   "citation": "В октябре 1940 года была получена первая партия аммиачной селитры. | Официальный пуск первой очереди Чирчикского электрохимического комбината состоялся 25 января 1941 года. | В 1942 году вступил в строй цех 6/12 по производству крепкой азотной кислоты. | В начале 1944 года получена азотоводородная смесь второй очереди аммиачного производства. Таким образом, с этого года внедрена проектная схема получения аммиака конверсионным способом.",
+   "commentaire": "Les quatre jalons (oct. 1940, 25 janv. 1941, 1942, début 1944) sont lisibles sur la capture. Nuance : pour l'ammoniac 1944, le texte dit mélange azote-hydrogène de la 2e tranche et schéma de production par conversion en place « à partir de cette année » (pas une phrase « ammoniac produit »). Aucune adresse/URL visible ; le site est identifiable seulement par la mention « АО «МАХАМ-CHIRCHIQ» » dans la colonne Новости et par le menu (Акции, Доклады и отчеты, Факты в деятельности общества). La capture ne parle d'aucune gare : seulement le combinat électrochimique.",
+   "villes_prouvees": {
+    "ville-uz-tchirtchik": [
+     "industrie"
+    ]
+   }
+  },
+  {
+   "id": "src-oniip-omsk-1942",
+   "statut": "ok",
+   "citation": "2 февраля 1942 года стало днём основания Омского телевизионного завода (позднее – ПО «Иртыш», с 1 августа 2019 года вошедшего в состав АО «ОНИИП»): в этот день была выпущена первая партия продукции для фронта – гильз и звеньев для авиапушек.",
+   "commentaire": "En-tête du site visible (logo ОНИИП, « Омский научно-исследовательский институт приборостроения », adresse Омск, ул. Масленникова, 231, fil d'Ariane et titre de l'article, daté 2 février 2021). Prouve la fabrication à Omsk, dès le 2 février 1942, d'éléments de munitions pour le front (douilles et maillons de bande pour canons d'avion), pas d'obus complets : « munitions » est acceptable au sens large. Usine évacuée, fondée comme usine de télévision d'Omsk. Pas d'URL dans la barre d'adresse.",
+   "villes_prouvees": {
+    "ville-ru-omsk": [
+     "industrie"
+    ]
+   }
+  },
+  {
+   "id": "src-bvrz-histoire",
+   "statut": "limite",
+   "citation": "В ноябре 1942 года Указом Президиума Верховного Совета СССР «За образцовое выполнение задания правительства по производству боеприпасов» завод награжден орденом Трудового Красного Знамени, а в августе 1944 года — памятным Знаменем Государственного Комитета Обороны.",
+   "commentaire": "La capture concerne l'usine de Barnaoul (« АО \"Барнаульский ВРЗ\" »), ce qui correspond à la cible de la source dans le registre (Barnaoul) ; le constat d'Ether qui parle d'Oulan-Oudé est une erreur de rédaction. Distinctions de novembre 1942 et août 1944 pour la production de munitions : industrie prouvée pour Barnaoul. Rail (atelier de wagons) non démontré par ce passage. Ni adresse ni titre du site sur la capture : lecture partielle. (Relecture du sous-agent : Les dates (nov. 1942, août 1944) et la production de munitions sont visibles, MAIS la capture concerne manifestement Barnaoul, pas Oulan-Oudé : le texte dit « 14 мая 2026 года АО \"Барнаульский ВРЗ\" переименовано в АО \"Алтайвагон-Барнаульский вагоностроительный завод\" ». Aucune mention d'Oulan-Oudé ni de Бурятия sur la capture ; pas d'en-tête/URL du site. La distinction porte sur la production de munitions (pas sur la réparation ferroviaire en tant que telle). Ne prouve donc ni industrie ni rail à Oulan-Oudé ; confusion probable de sigle (BVRZ = Barnaulsky VRZ). À reprendre avec la bonne source (usine de réparation de locomotives/wagons d'Oulan-Oudé, ЛВРЗ). Pourrait éventuellement servir pour Barnaoul (non demandé).)",
+   "villes_prouvees": {
+    "ville-ru-barnaoul": [
+     "industrie"
+    ]
+   }
+  },
+  {
+   "id": "src-novossibirsk-histoire1920-1940",
+   "statut": "ok",
+   "citation": "С постройкой железнодорожной линии Новосибирск—Ленинск-Кузнецкий в 1934 году и паровозоремонтного завода город превратился в крупнейший транспортный узел азиатской России. | 28 сентября 1937 года Постановлением ВЦИК Западно-Сибирский край разделен на Новосибирскую область и Алтайский край. Новосибирск стал областным центром.",
+   "commentaire": "Prouve le renforcement ferroviaire (ligne Novossibirsk-Léninsk-Kouznetski 1934, usine de réparation de locomotives, mention aussi en haut du pont ferroviaire sur l'Ob et de la gare de triage d'Inskaïa en 1934) et la création de l'oblast le 28 sept. 1937 avec Novossibirsk centre régional. Site identifiable par la barre de menu (Новости, Мэрия, « О Новосибирске », Органы власти, Горожанам, Документы, Открытые данные, Электронное обращение) = portail municipal ; pas d'URL visible.",
+   "villes_prouvees": {
+    "ville-ru-novossibirsk": [
+     "rail",
+     "administration"
+    ]
+   }
+  },
+  {
+   "id": "src-archives-primorie-spassk-ciment",
+   "statut": "limite",
+   "citation": "1 марта 1935 года состоялось торжественное открытие Спасского цементного завода. | В 1942 году на заводе был начат выпуск учебных цементных бомб, в эти же трудные годы был разработан пуццолановый цемент и начат выпуск тампонажного.",
+   "commentaire": "Le contenu prouve bien l'ouverture de la cimenterie le 1er mars 1935 et le début de la production de bombes d'entraînement en ciment en 1942 (le texte précise aussi que l'usine n'a pas cessé de travailler pendant la guerre). Mais la capture est un simple extrait de texte : aucun titre, logo, adresse ni nom de site visible, donc la source (archives du Primorié) n'est pas identifiable sur l'image elle-même. Statut limite pour ce seul motif ; la réserve sur l'incertitude de l'anniversaire reste à traiter.",
+   "villes_prouvees": {
+    "ville-ru-spassk-dalni": [
+     "industrie"
+    ]
+   }
+  },
+  {
+   "id": "src-ks-providenia-dyga2022",
+   "statut": "ok",
+   "citation": "Как свидетельствует Анатолий Дыга, летом 1940 года у стенки первого причала уже разгружались суда, хотя в ходу была и рейдовая разгрузка. В новом порту, который был спроектирован под перевалку 100 тыс. тонн грузов, от навигации к навигации стремительно рос грузооборот. В 1938 году он составлял 24 тыс. тонн, в 1939-м – 45 тыс. тонн, в 1940-м – 57 тыс. тонн.",
+   "commentaire": "Le passage prouve le quai/port de Providenia en activité à l'été 1940 (navires déchargés au premier quai, port neuf, trafic 57 000 t en 1940). C'est bien un témoignage rapporté (« Как свидетельствует Анатолий Дыга ») dans un article de journal. Journal identifiable par le logo « Крайний Север » en en-tête. L'année 2022 de l'article n'est PAS visible sur cette capture (elle vient de l'index d'Ether) ; pas d'URL visible. Le passage suivant mentionne aussi « Провиденский морской порт ».",
+   "villes_prouvees": {
+    "ville-ru-providenia": [
+     "port_maritime"
+    ]
+   }
+  },
+  {
+   "id": "src-vayner-transport-guerre-ch4",
+   "statut": "limite",
+   "citation": "В сентябре — октябре благополучно совершили плавание из Архангельска в Дудинку пароходы «Архангельск» [187] и «Диксон». Это был их второй рейс во время навигации 1944 г. … Развернулось большое портовое строительство: углублялись фарватеры, сооружались эстакады и емкости, прокладывались нефтепроводы. | Разгрузка танкеров производилась в 20–25 километрах от устья реки Урал. Нефтепродукты сливались в баржи, которые затем буксировались по каналу в Гурьев. … Порт Красноводск, через который раньше шло большое количество жидких грузов, уже мог сконцентрировать свои усилия на перевалке хлопка из среднеазиатских республик и доставке туда зерна и леса.",
+   "commentaire": "[ville-ru-doudinka] Prouve des voyages de vapeurs Arkhangelsk-Doudinka en navigation 1944 (second voyage de la saison), donc activité portuaire/maritime de Doudinka, de façon indirecte (le texte ne dit pas « порт Дудинка »). Le marqueur de note [187] et la suite du texte sur 1945 situent la page dans le chapitre, mais aucun titre de livre, auteur ni numéro de page n'est visible : source non identifiable sur la capture elle-même, d'où limite. [ville-kz-atyraou] Prouve en 1942 l'activité du port de Gouriev : ordre du GKO de transporter 300 000 t de produits pétroliers à Gouriev, réunion du collège du Narkomat de la flotte maritime à Gouriev (8-10 oct. 1942), grands travaux portuaires, navigation sur le canal Oural-Caspien. Précision : le déchargement des tankers se fait en rade à 20-25 km de l'embouchure, le transbordement par barges vers Gouriev ; c'est bien un port/terminal pétrolier. Source (livre, titre, page) non identifiable sur la capture ; seul le marqueur [190]/[191] figure. Limite pour cette raison. [ville-tm-turkmenbachi] Prouve explicitement « Порт Красноводск » en activité en 1944 (deuxième moitié de l'année) : transbordement de coton d'Asie centrale, envoi de grain et de bois. Contexte : flotte caspienne de 1944, 9 Mt de fret dont 8,5 Mt de pétrole. Passage le plus net des trois. Source non identifiable sur la capture (pas de titre/auteur/page ; marqueurs [193]/[194] seulement), d'où limite.",
+   "villes_prouvees": {
+    "ville-ru-doudinka": [
+     "port_maritime"
+    ],
+    "ville-kz-atyraou": [
+     "port_maritime"
+    ],
+    "ville-tm-turkmenbasy": [
+     "port_maritime"
+    ]
+   }
+  }
+ ],
+ "relations": [
+  {
+   "entite_id": "ville-ru-irkoutsk",
+   "source_id": "src-shpl-admin1940",
+   "roles_confirmes": [
+    "administration",
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": "62",
+   "citation": "Иркутская область — ЦЕНТР—г. ИРКУТСК ; Городские поселения а) областного подчинения : 1 Иркутск — Иркутск В-Сиб — ; Городской район: 1. Ленинский",
+   "commentaire": "Page imprimée 62 lisible (image 66/420). Irkoutsk est centre de l'oblast et ville de subordination oblastnaïa ; gare Иркутск (В-Сиб), distance « — » (gare dans la ville). Aussi ligne du raïon 7 « Иркутский : г Иркутск, Иркутск В-Сиб, — »."
+  },
+  {
+   "entite_id": "ville-ru-omsk",
+   "source_id": "src-shpl-admin1940",
+   "roles_confirmes": [
+    "administration"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": "97",
+   "citation": "Омская область — ЦЕНТР—г. ОМСК ; 14 Кагановичский — г Омск „ — —",
+   "commentaire": "Page imprimée 97 lisible (image 101/420). Omsk est centre de l'oblast (en-tête). Le rôle rail n'est pas demandé dans usage ; la ligne 14 (raïon Kaganovitchski, г Омск) ne montre pas clairement la gare mais indique « — »."
+  },
+  {
+   "entite_id": "ville-ru-oulan-oude",
+   "source_id": "src-shpl-admin1940",
+   "roles_confirmes": [
+    "capitale",
+    "administration",
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": "144 et 145",
+   "citation": "Бурят-Монгольская АССР — СТОЛИЦА—г. УЛАН-УДЭ (p. 144) ; Городские поселения а) республиканского подчинения : 1 Улан-Удэ — Улан-Удэ В-Сиб — ; Городские районы: 1. Городской 2. Железнодорожный 3. Пригородный (p. 145)",
+   "commentaire": "Pages imprimées 144 et 145 lisibles (images 148 et 149/420). Capitale explicite de la RSSA bouriato-mongole ; ville de subordination républicaine ; gare Улан-Удэ (В-Сиб) à « — »."
+  },
+  {
+   "entite_id": "ville-ru-gorno-altaisk",
+   "source_id": "src-shpl-admin1940",
+   "roles_confirmes": [
+    "administration"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": "21",
+   "citation": "ОЙРОТСКАЯ АВТОНОМНАЯ ОБЛАСТЬ — ЦЕНТР—г. ОЙРОТ-ТУРА ; Городские поселения областного подчинения : 1 Ойрот-Тура — Бийск Том 96",
+   "commentaire": "Page imprimée 21 lisible (image 25/420). Nom 1940 Ойрот-Тура ; centre de l'oblast autonome et ville de subordination oblastnaïa. Information annexe : la gare la plus proche est Бийск (Том.) à 96 km, donc pas de gare dans la ville (rail non demandé dans usage)."
+  },
+  {
+   "entite_id": "ville-ru-kiakhta",
+   "source_id": "src-shpl-admin1940",
+   "roles_confirmes": [
+    "administration"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": "144 et 145",
+   "citation": "10 Кяхтинский — г Кяхта Улан-Удэ В-Сиб 229 (p. 144) ; 2 Кяхта г рц Кяхтинский Улан-Удэ „ 229 (p. 145)",
+   "commentaire": "Pages 144 et 145 lisibles. Kiakhta est centre de l'aïmak (raïon) Kiakhtinski (рц) et ville de subordination raïonnale. Information annexe : gare la plus proche Улан-Удэ à 229 km (pas de gare locale ; rail non demandé)."
+  },
+  {
+   "entite_id": "ville-ru-zima",
+   "source_id": "src-shpl-admin1940",
+   "roles_confirmes": [
+    "rail",
+    "administration"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": "62 et 63",
+   "citation": "7 Зиминский — г Зима Зима „ — 251 (p. 62) ; 7 Зима г рц Зиминский Зима „ — (p. 63)",
+   "commentaire": "Pages 62 et 63 lisibles (images 66 et 67/420). Zima est centre du raïon Zimински (рц) ; gare Зима (В-Сиб) à « — »."
+  },
+  {
+   "entite_id": "ville-ru-nijnieoudinsk",
+   "source_id": "src-shpl-admin1940",
+   "roles_confirmes": [
+    "rail",
+    "administration"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": "62 et 63",
+   "citation": "15 Нижнеудинский — г Нижнеудинск „ — 508 (p. 62) ; 16 Нижнеудинск г рц Нижнеудинский Нижнеудинск — (p. 63)",
+   "commentaire": "Pages 62 et 63 lisibles. Centre du raïon Nijneoudinski (рц) ; gare Нижнеудинск à « — »."
+  },
+  {
+   "entite_id": "ville-ru-taichet",
+   "source_id": "src-shpl-admin1940",
+   "roles_confirmes": [
+    "rail",
+    "administration"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": "62 et 63",
+   "citation": "18 Тайшетский — г Тайшет „ — 670 (p. 62) ; 22 Тайшет г рц Тайшетский Тайшет В-Сиб — (p. 63)",
+   "commentaire": "Pages 62 et 63 lisibles. Centre du raïon Taïchetski (рц) ; gare Тайшет (В-Сиб) à « — »."
+  },
+  {
+   "entite_id": "ville-ru-kansk",
+   "source_id": "src-shpl-admin1940",
+   "roles_confirmes": [
+    "rail",
+    "administration"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": "26 (p. 27 : numéro imprimé non visible sur l'image)",
+   "citation": "19 Канский — г Канск Канск „ — 247 (p. 26) ; 11 Канск г рц Канский Канск „ — (image 31)",
+   "commentaire": "Page 26 (image 30/420) avec numéro imprimé visible ; la page suivante (image 31/420) est la continuation sans numéro imprimé visible en bas (27 attendu, non lu). Centre du raïon Kanski (рц) ; gare Канск à « — »."
+  },
+  {
+   "entite_id": "ville-ru-bogotol",
+   "source_id": "src-shpl-admin1940",
+   "roles_confirmes": [
+    "rail",
+    "administration"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": "26 (p. 27 : numéro imprimé non visible sur l'image)",
+   "citation": "7 Боготольский — г Боготол „ — 252 (p. 26) ; 5 Боготол г рц Боготольский Боготол „ — (image 31)",
+   "commentaire": "Page 26 lisible ; image 31/420 sans numéro imprimé visible (27 attendu). Centre du raïon Bogotolski (рц) ; gare Боготол à « — »."
+  },
+  {
+   "entite_id": "ville-ru-ouiar",
+   "source_id": "src-shpl-admin1940",
+   "roles_confirmes": [
+    "administration",
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": "numéro imprimé non visible sur l'image (image 31/420 ; 27 attendue)",
+   "citation": "43 Уярский — рп Уяр Клюквенная „ — 132 ; 20 Уяр рп рц Уярский Клюквенная „ —",
+   "commentaire": "Ouïar est un рп (cité ouvrière), pas une ville, et centre du raïon Ouiarski (рц) : administration confirmée. Rail : la ligne donne la station « Клюквенная » (et non « Уяр ») avec distance « — » ; critère formel (distance « — ») rempli, mais le nom de la gare imprimé diffère de la localité (possible particularité de la source) : à prendre avec réserve. Numéro de page imprimé non visible sur cette capture."
+  },
+  {
+   "entite_id": "ville-uz-samarcande",
+   "source_id": "src-shpl-admin1940",
+   "roles_confirmes": [
+    "administration"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": "262 (et 263)",
+   "citation": "Самаркандская область ЦЕНТР—г. САМАРКАНД ; 16 Самаркандский | г Самарканд | Ташк | — | — | 0,8",
+   "commentaire": "p.262 seule fournie pour cette ville : en-tête « ЦЕНТР—г. САМАРКАНД » (centre d'oblast) et ligne 16 район Самаркандский, центр г Самарканд. Administration confirmée. (La p.263, fournie pour d'autres villes, liste aussi Самарканд en tête des villes de subordination oblastnaïa, gare Самарканд Ташк. « — ».)"
+  },
+  {
+   "entite_id": "ville-uz-tachkent",
+   "source_id": "src-shpl-admin1940",
+   "roles_confirmes": [
+    "capitale",
+    "administration"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": "259 et 264 (265 pour la liste des villes)",
+   "citation": "УЗБЕКСКАЯ ССР ... СТОЛИЦА—г. ТАШКЕНТ (p.259) ; Ташкентская область ... ЦЕНТР—г. ТАШКЕНТ (p.264)",
+   "commentaire": "p.259 : « СТОЛИЦА—г. ТАШКЕНТ » en en-tête de la RSS d'Ouzbékistan, donc capitale confirmée. p.264 : en-tête Ташкентская область « ЦЕНТР—г. ТАШКЕНТ », donc centre d'oblast ; Калининский район a aussi pour centre г Ташкент. p.265 : Ташкент, областного подчинения, gare Ташкент Ташк., distance « — »."
+  },
+  {
+   "entite_id": "ville-ru-iakoutsk",
+   "source_id": "src-shpl-admin1940",
+   "roles_confirmes": [
+    "capitale"
+   ],
+   "roles_non_trouves": [
+    "administration"
+   ],
+   "page_imprimee": "170",
+   "citation": "Якутская АССР ... СТОЛИЦА—г. ЯКУТСК",
+   "commentaire": "p.170 (image 174/420) : « СТОЛИЦА—г. ЯКУТСК » explicite, donc capitale confirmée. Role administration non confirmé sur cette page : Iakoutsk est capitale de l'ASSR mais n'apparaît pas comme centre de raïon dans les lignes 1-20 visibles ; la liste des городские поселения républicaines (qui l'inscrirait comme ville de subordination républicaine) est sur une page suivante non fournie. Le bloc d'en-tête indique 2 villes de subordination républicaine sans les nommer."
+  },
+  {
+   "entite_id": "ville-ru-oulan-oude",
+   "source_id": "src-shpl-admin1940",
+   "roles_confirmes": [
+    "capitale",
+    "administration",
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": "144 et 145",
+   "citation": "Бурят-Монгольская АССР ... СТОЛИЦА—г. УЛАН-УДЭ (p.144) ; а) республиканского подчинения : 1 Улан-Удэ | Улан-Удэ В-Сиб | — (p.145)",
+   "commentaire": "p.144 : « СТОЛИЦА—г. УЛАН-УДЭ ». p.145 : Улан-Удэ ville de subordination républicaine (городские районы : Городской, Железнодорожный, Пригородный), gare Улан-Удэ (В-Сиб), distance « — », donc rail confirmé (gare dans la ville). Administration confirmée par la liste de subordination républicaine."
+  },
+  {
+   "entite_id": "ville-uz-bekabad",
+   "source_id": "src-shpl-admin1940",
+   "roles_confirmes": [
+    "administration"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": "264 et 265",
+   "citation": "3 Беговатский | пгт Беговат Хилково Ташк — | 189 (p.264) ; 1 Беговат пгт | рц | Беговатский | Хилково Ташк | — (p.265)",
+   "commentaire": "Nom 1940 : Беговат (Begovat), alors un пгт (commune urbaine), non une ville. Centre (рц) du Беговатский район, oblast de Tachkent ; station Хилково à « — ». Administration au sens centre de raïon confirmée ; ce n'était pas une ville de subordination oblastnaïa."
+  },
+  {
+   "entite_id": "ville-uz-djizak",
+   "source_id": "src-shpl-admin1940",
+   "roles_confirmes": [
+    "administration"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": "262 et 263",
+   "citation": "5 Джизакский | г Джизак | Ташк | 2 | 121 (p.262) ; 2 Джизак | Джизак Ташк | 2 (p.263, городские поселения областного подчинения)",
+   "commentaire": "Centre du Джизакский район (oblast de Samarcande) et ville de subordination oblastnaïa. Gare Джизак à 2 km (rail non demandé, noté pour information)."
+  },
+  {
+   "entite_id": "ville-uz-katta-kourgan",
+   "source_id": "src-shpl-admin1940",
+   "roles_confirmes": [
+    "administration"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": "262 et 263",
+   "citation": "8 Катта-Курганский | г Катта-Курган | Ташк | — | 76 (p.262) ; 3 Катта-Курган | Катта-Курган Ташк | — (p.263)",
+   "commentaire": "Centre du Катта-Курганский район et ville de subordination oblastnaïa (oblast de Samarcande). Gare dans la ville (« — »)."
+  },
+  {
+   "entite_id": "ville-uz-tchirtchik",
+   "source_id": "src-shpl-admin1940",
+   "roles_confirmes": [],
+   "roles_non_trouves": [
+    "rail"
+   ],
+   "page_imprimee": "265",
+   "citation": "2 Чирчик | Чирчик Ташк | 32",
+   "commentaire": "p.265, городские поселения областного подчинения (oblast de Tachkent) : Чирчик, gare Чирчик (Ташк.), distance imprimée 32 km (et non « — »). Rail non confirmé : la gare indiquée est à 32 km."
+  },
+  {
+   "entite_id": "ville-uz-yangioul",
+   "source_id": "src-shpl-admin1940",
+   "roles_confirmes": [
+    "administration",
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": "264 et 265",
+   "citation": "15 Янги-Юльский | г Янги-Юль | Кауфманская | — | 28 (p.264) ; 3 Янги-Юль | Кауфманская | — (p.265)",
+   "commentaire": "Nom 1940 : Янги-Юль. Centre du Янги-Юльский район et ville de subordination oblastnaïa (oblast de Tachkent). Gare Кауфманская (nom différent de la ville) à « — », donc gare dans la ville : rail confirmé, en notant le nom de la station."
+  },
+  {
+   "entite_id": "ville-ru-kiakhta",
+   "source_id": "src-shpl-admin1940",
+   "roles_confirmes": [
+    "administration"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": "144 et 145",
+   "citation": "10 Кяхтинский | г Кяхта | Улан-Удэ В-Сиб | 229 | 229 (p.144) ; 2 Кяхта г | рц | Кяхтинский | Улан-Удэ В-Сиб | 229 (p.145)",
+   "commentaire": "Centre (рц) du Кяхтинский аймак, ville de subordination de raïon. Station la plus proche Улан-Удэ à 229 km (rail non demandé, donc pas de gare à Kiakhta selon la source)."
+  },
+  {
+   "entite_id": "ville-uz-andijan",
+   "source_id": "src-shpl-admin1940",
+   "roles_confirmes": [
+    "administration"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": "266–267",
+   "citation": "4 Андижанский | г Андижан Ташк — 79 ; (p.267, городские поселения областного подчинения) 2 Андижан | Андижан Ташк — —",
+   "commentaire": "Pages imprimées 266 et 267 lues (Ферганская область). Andijan est centre du raïon d'Andijan (p.266, n°4, « г Андижан ») et figure parmi les 7 villes de subordination oblastnaïa (p.267, n°2). Gare Андижан à « — » (dans la ville), non demandé par l'usage."
+  },
+  {
+   "entite_id": "ville-uz-ferghana",
+   "source_id": "src-shpl-admin1940",
+   "roles_confirmes": [
+    "administration"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": "266–267",
+   "citation": "ЦЕНТР—г. ФЕРГАНА ; 29 Ферганский | г Фергана Скобелево Ташк — — ; (p.267) 1 Фергана | Скобелево Ташк —",
+   "commentaire": "Fergana est centre de l'oblast (en-tête p.266) et ville de subordination oblastnaïa n°1 (p.267). Gare Скобелево à « — » (gare dans la ville), non demandé par l'usage."
+  },
+  {
+   "entite_id": "ville-kz-astana",
+   "source_id": "src-shpl-admin1940",
+   "roles_confirmes": [
+    "administration"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": "277–278",
+   "citation": "ЦЕНТР—г. АКМОЛИНСК ; (p.278) 1 Акмолинск | Акмолинск Ом —",
+   "commentaire": "Akmolinsk (Astana actuelle) est centre de l'Акмолинская область (p.277, créée le 14 octobre 1939) et ville de subordination oblastnaïa (p.278). Gare Акмолинск à « — », non demandé par l'usage."
+  },
+  {
+   "entite_id": "ville-kz-aktobe",
+   "source_id": "src-shpl-admin1940",
+   "roles_confirmes": [
+    "administration"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": "279",
+   "citation": "ЦЕНТР—г. АКТЮБИНСК ; 1 Актюбинск | Актюбинск Оренб — 2",
+   "commentaire": "Aktioubinsk est centre de l'Актюбинская область et seule ville de subordination oblastnaïa (liste а). Gare Актюбинск à « — », non demandé par l'usage."
+  },
+  {
+   "entite_id": "ville-uz-namangan",
+   "source_id": "src-shpl-admin1940",
+   "roles_confirmes": [
+    "administration",
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": "266–267",
+   "citation": "20 Наманганский | г Наманган Ташк — 161 ; (p.267) 6 Наманган | Наманган Ташк —",
+   "commentaire": "Namangan est centre du raïon de Namangan (p.266, n°20, « г Наманган ») et ville de subordination oblastnaïa n°6 (p.267). Gare Наманган à distance « — » dans les deux listes : rail confirmé (gare dans la ville)."
+  },
+  {
+   "entite_id": "ville-uz-marguilan",
+   "source_id": "src-shpl-admin1940",
+   "roles_confirmes": [
+    "administration"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": "266–267",
+   "citation": "17 Маргеланский | г Маргелан Горчаково Ташк 6 13 ; (p.267) 5 Маргелан | Горчаково Ташк 6",
+   "commentaire": "Marguilan (Маргелан) est centre du raïon de Marguilan (p.266 n°17) et ville de subordination oblastnaïa n°5 (p.267). Information hors usage : gare la plus proche Горчаково à 6 km (pas de gare dans la ville)."
+  },
+  {
+   "entite_id": "ville-uz-tchoust",
+   "source_id": "src-shpl-admin1940",
+   "roles_confirmes": [
+    "administration"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": "267",
+   "citation": "32 Чустский | г Чуст Чуст Ташк 13 150 ; 7 Чуст | Чуст Ташк 13",
+   "commentaire": "Chust (Чуст) est centre du raïon de Chust et ville de subordination oblastnaïa n°7 (p.267). Hors usage : gare Чуст à 13 km."
+  },
+  {
+   "entite_id": "ville-uz-ourguentch",
+   "source_id": "src-shpl-admin1940",
+   "roles_confirmes": [
+    "administration"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": "268",
+   "citation": "ЦЕНТР—г. УРГЕНЧ ; 4 Ургенчский | г Ургенч Чарджоу Ашх 561 — ; 1 Ургенч | Чарджоу Ашх 561",
+   "commentaire": "Urguentch (Ургенч) est centre de la Хорезмская область (créée 15 janvier 1938), centre du raïon d'Urguentch et ville de subordination oblastnaïa n°1. Hors usage : gare Чарджоу à 561 km."
+  },
+  {
+   "entite_id": "ville-uz-khiva",
+   "source_id": "src-shpl-admin1940",
+   "roles_confirmes": [
+    "administration"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": "268",
+   "citation": "7 Хивинский | г Хива Чарджоу Ашх 450 26 ; 2 Хива | Чарджоу Ашх 450",
+   "commentaire": "Khiva (Хива) est centre du raïon de Khiva (« г Хива ») et ville de subordination oblastnaïa n°2 (Хорезмская область). Hors usage : gare Чарджоу à 450 km."
+  },
+  {
+   "entite_id": "ville-uz-noukous",
+   "source_id": "src-shpl-admin1940",
+   "roles_confirmes": [
+    "capitale",
+    "administration"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": "269",
+   "citation": "Кара-Калпакская АССР СТОЛИЦА—г. НУКУС ; 4 Куйбышевский | г Нукус Чарджоу Ашх 700 210 ; 1 Нукус | Чарджоу Ашх 700",
+   "commentaire": "Capitale explicite de la Кара-Калпакская АССР (en-tête p.269). Nukus est aussi centre du raïon Kouïbychev et ville de subordination républicaine n°1. Hors usage : gare Чарджоу à 700 km."
+  },
+  {
+   "entite_id": "ville-uz-khodjeili",
+   "source_id": "src-shpl-admin1940",
+   "roles_confirmes": [
+    "administration"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": "269",
+   "citation": "10 Ходжейлинский | г Ходжейли Аральское Море Оренб 525 205 ; 3 Ходжейли | Аральское Море Оренб 525",
+   "commentaire": "Khodjeili est centre du raïon de Khodjeili et ville de subordination républicaine n°3 (Кара-Калпакская АССР). Hors usage : gare Аральское Море à 525 km."
+  },
+  {
+   "entite_id": "ville-uz-tchimbai",
+   "source_id": "src-shpl-admin1940",
+   "roles_confirmes": [
+    "administration"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": "269",
+   "citation": "11 Чимбайский | г Чимбай Аральское Море Оренб 480 223 ; 4 Чимбай | Аральское Море Оренб 480",
+   "commentaire": "Tchimbaï (Чимбай) est centre du raïon de Chimbay et ville de subordination républicaine n°4. Hors usage : gare Аральское Море à 480 km."
+  },
+  {
+   "entite_id": "ville-uz-mouinak",
+   "source_id": "src-shpl-admin1940",
+   "roles_confirmes": [
+    "administration"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": "269",
+   "citation": "6 Муйнакский | рп Муйнак Аральское Море Оренб 350 373 ; б) районного подчинения : 1 Муйнак рп | рц | Муйнакский | Аральское Море Оренб 350",
+   "commentaire": "Moïnak (Муйнак) est centre (рц) du raïon de Muynak, mais avec statut de рп (посёлок ouvrier), non de ville : administration au sens « centre de raïon » confirmé, pas de subordination républicaine. Les autres rôles de la fiche (port, pêche, industrie) ne sont pas traités par cette page. Gare Аральское Море à 350 km."
+  },
+  {
+   "entite_id": "ville-kz-almaty",
+   "source_id": "src-shpl-admin1940",
+   "roles_confirmes": [
+    "capitale",
+    "administration"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": "277, 280",
+   "citation": "КАЗАХСКАЯ ССР ... СТОЛИЦА—г. АЛМА-АТА ; Алма-Атинская область ЦЕНТР—г. АЛМА-АТА ; 3 Алма-Атинский | г Алма-Ата Турк-Сиб — —",
+   "commentaire": "p.277 : capitale de la Казахская ССР explicite. p.280 : Alma-Ata centre de l'Алма-Атинская область et du raïon d'Alma-Ata (« г Алма-Ата », gare à « — »). Le tableau des villes de subordination oblastnaïa de l'oblast n'est pas sur la page 280 fournie."
+  },
+  {
+   "entite_id": "ville-kz-ouchtiobe",
+   "source_id": "src-shpl-admin1940",
+   "roles_confirmes": [
+    "administration",
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": "280",
+   "citation": "12 Каратальский | рп Уш-Тобе | „ | — | 306 | 31,0 | 16 | — | 1",
+   "commentaire": "Page 280 (Алма-Атинская область). Ligne 12, district de Karatal : le centre de district est « рп Уш-Тобе » (administration confirmée : centre de raïon). Colonne gare : seul le guillemet-ditto « „ » (ligne Турк-Сиб de la ligne précédente) est imprimé, sans nom de gare explicite, et distance « — » (gare dans la localité). Rail confirmé par la distance « — », mais le nom de la gare n'est pas écrit en toutes lettres (léger doute documentaire)."
+  },
+  {
+   "entite_id": "ville-kz-karaganda",
+   "source_id": "src-shpl-admin1940",
+   "roles_confirmes": [
+    "administration"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": "287",
+   "citation": "Карагандинская область — ЦЕНТР—г. КАРАГАНДА ; Городские поселения а) областного подчинения : 1 Караганда | Караганда Ом | — | 3",
+   "commentaire": "Page 287 (Карагандинская область). Караганда est centre de l'oblast et ville de subordination oblastnaïa (rubrique « а) областного подчинения »), gare Караганда (Ом) à « — »."
+  },
+  {
+   "entite_id": "ville-kz-atyraou",
+   "source_id": "src-shpl-admin1940",
+   "roles_confirmes": [
+    "administration"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": "284",
+   "citation": "Гурьевская область — ЦЕНТР—г. ГУРЬЕВ ; а) областного подчинения : 1 Гурьев | Уральск Р-Ур | 551 | 5",
+   "commentaire": "Page 284 (Гурьевская область, formée le 15 janvier 1938). Gouriev est centre de l'oblast et ville de subordination oblastnaïa. Hors usage demandé : la gare indiquée est Уральск (Р-Ур) à 551 km, donc pas de gare à Gouriev même d'après cette page (rail non confirmé, non demandé)."
+  },
+  {
+   "entite_id": "ville-kz-taraz",
+   "source_id": "src-shpl-admin1940",
+   "roles_confirmes": [
+    "administration"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": "285",
+   "citation": "Джамбулская область — ЦЕНТР—г. ДЖАМБУЛ ; 1 Джамбулский | г Джамбул Турк-Сиб 5,5 ; а) областного подчинения : 1 Джамбул | Джамбул Турк-Сиб | 5,5",
+   "commentaire": "Page 285. Djamboul est centre de l'oblast et ville de subordination oblastnaïa. Hors usage demandé : la gare Джамбул (Турк-Сиб) est à 5,5 km (> 0), donc rail non confirmé comme gare dans la ville."
+  },
+  {
+   "entite_id": "ville-kz-dossor",
+   "source_id": "src-shpl-admin1940",
+   "roles_confirmes": [
+    "rail",
+    "administration"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": "284",
+   "citation": "5 Макатский | рп Доссор | „ | — | 80 | 20,2 | 4 | — | 4 ; б) 3 Доссор рп | рц | Макатский | Доссор „ | —",
+   "commentaire": "Page 284 (Гурьевская область). Dossor est centre du raïon de Makat (tableau des raïons, ligne 5) et figure en б) районного подчинения avec la mention « рц » (centre de raïon). Gare de Доссор à distance « — » dans la liste б) (nom de gare lu sur image moyennement nette, distance « — » nette) : rail confirmé."
+  },
+  {
+   "entite_id": "ville-kz-makat",
+   "source_id": "src-shpl-admin1940",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": "284",
+   "citation": "7 Макат рп | — | Макатский | Макат „ | —",
+   "commentaire": "Page 284 (б) районного подчинения). Gare Макат (ligne Гурьев-Оренб, ditto) à distance « — » : rail confirmé. Makat n'est pas centre de raïon (c'est Dossor), simple рп sans valeur administrative (« — »)."
+  },
+  {
+   "entite_id": "ville-kz-almaty",
+   "source_id": "src-shpl-admin1940",
+   "roles_confirmes": [
+    "capitale",
+    "administration"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": "277 ; 280",
+   "citation": "КАЗАХСКАЯ ССР — СТОЛИЦА—г. АЛМА-АТА (p.277) ; Алма-Атинская область — ЦЕНТР—г. АЛМА-АТА (p.280)",
+   "commentaire": "Page 277 : en-tête de la république « СТОЛИЦА—г. АЛМА-АТА » (capitale confirmée). Page 280 : « ЦЕНТР—г. АЛМА-АТА » de l'oblast, et ligne 3 « Алма-Атинский | г Алма-Ата | — » (administration confirmée)."
+  },
+  {
+   "entite_id": "ville-kz-oskemen",
+   "source_id": "src-shpl-admin1940",
+   "roles_confirmes": [
+    "administration"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": "282 ; 283",
+   "citation": "ЦЕНТР—г. УСТЬ-КАМЕНОГОРСК (p.282) ; а) областного подчинения : 1 Усть-Каменогорск | Защита Турк-Сиб | 7 (p.283)",
+   "commentaire": "Page 282 : centre de la Восточно-Казахстанская область. Page 283 : ville de subordination oblastnaïa. Hors usage : gare Защита à 7 km (> 0)."
+  },
+  {
+   "entite_id": "ville-kz-fort-chevtchenko",
+   "source_id": "src-shpl-admin1940",
+   "roles_confirmes": [
+    "administration"
+   ],
+   "roles_non_trouves": [
+    "port_maritime"
+   ],
+   "page_imprimee": "284",
+   "citation": "8 Шевченковский | г Форт Шевченко (пристань) | — | 422 | 20,0 ; б) 8 Форт Шевченко г | рц | Шевченковский | Пристань Форт Шевченко | —",
+   "commentaire": "Page 284. Ville (г) et centre (рц) du raïon de Chevtchenko : administration confirmée. Le rôle port_maritime n'est pas un rôle vérifiable par cette source : la page mentionne seulement « пристань » (embarcadère/port) comme point d'accès à distance « — », sans préciser maritime ; non confirmé par prudence."
+  },
+  {
+   "entite_id": "ville-kz-chou",
+   "source_id": "src-shpl-admin1940",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": "285",
+   "citation": "3 Чу рп | — | Чуйский | Чу „ | —",
+   "commentaire": "Page 285 (б) районного подчинения de l'oblast de Djamboul). Gare Чу (Турк-Сиб, ditto) ; distance lue « — » (la colonne est légèrement bruitée par le bord de page, mais le tiret est lisible) : rail confirmé. Le centre du raïon de Chu est Ново-Троицкое, à 7 km de la gare Чу."
+  },
+  {
+   "entite_id": "ville-kz-oral",
+   "source_id": "src-shpl-admin1940",
+   "roles_confirmes": [
+    "administration",
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": "286",
+   "citation": "Западно-Казахстанская область — ЦЕНТР—г. УРАЛЬСК ; областного подчинения : 1 Уральск | Уральск Р-Ур | —",
+   "commentaire": "Page 286. Ouralsk (Уральск) est centre de l'oblast et ville de subordination oblastnaïa ; gare Уральск (Р-Ур) à distance « — » : rail confirmé."
+  },
+  {
+   "entite_id": "ville-kz-karsakpai",
+   "source_id": "src-shpl-admin1940",
+   "roles_confirmes": [
+    "administration",
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": "288",
+   "citation": "3 | Карсакпай рп | рц | Карсакпайский | Карсакпай Ом — ",
+   "commentaire": "Tableau б) районного подчинения (en-tête de oblast non visible sur cette page, qui prolonge le tableau précédent). Ligne 3 : Карсакпай рп, adm. значение « рц » (centre de raïon), raïon Карсакпайский, station Карсакпай (ligne Ом), distance « — » : gare sur place. Lecture nette."
+  },
+  {
+   "entite_id": "ville-kz-kostanai",
+   "source_id": "src-shpl-admin1940",
+   "roles_confirmes": [
+    "administration",
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": "290",
+   "citation": "Кустанайская область — ЦЕНТР — г. КУСТАНАЙ ; а) областного подчинения : 1 | Кустанай | Кустанай Ю-Ур | —",
+   "commentaire": "Graphie russe Кустанай. Centre de l'oblast ; ville de subordination oblastnaïa ; station Кустанай (Ю-Ur) à distance « — » (aussi raïon Кустанайский, centre г Кустанай, station Кустанай). Lecture nette."
+  },
+  {
+   "entite_id": "ville-kz-semei",
+   "source_id": "src-shpl-admin1940",
+   "roles_confirmes": [
+    "administration",
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": "293 et 294",
+   "citation": "Семипалатинская область — ЦЕНТР — г. СЕМИПАЛАТИНСК ; (p.294) а) областного подчинения : 1 | Семипалатинск | Семипалатинск Турк-Сиб | —",
+   "commentaire": "p.293 : centre de l'oblast (образована 14 октября 1939). p.294 : ville de subordination oblastnaïa, station Семипалатинск (Турк-Сиб) à « — » ; 3 arrondissements urbains (Калининский, Ленинский, Октябрьский). Lecture nette. Rôles port_fluvial/industrie non concernés par la source."
+  },
+  {
+   "entite_id": "ville-kz-pavlodar",
+   "source_id": "src-shpl-admin1940",
+   "roles_confirmes": [
+    "administration",
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": "291",
+   "citation": "Павлодарская область — ЦЕНТР — г. ПАВЛОДАР ; а) областного подчинения : 1 | Павлодар | Павлодар Ом | —",
+   "commentaire": "Centre de l'oblast (образована 15 января 1938) ; ville de subordination oblastnaïa ; station Павлодар (Ом) à « — ». Lecture nette."
+  },
+  {
+   "entite_id": "ville-kz-kazalinsk",
+   "source_id": "src-shpl-admin1940",
+   "roles_confirmes": [
+    "administration"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": "289",
+   "citation": "3 | Казалинский | г Казалинск | Оренб 12 ; б) районного подчинения : 3 | Казалинск г | рц | Казалинский | Казалинск Оренб | 12",
+   "commentaire": "Kazalinsk, centre du raïon Казалинский (adm. значение « рц »), ville de subordination raïonnale, oblast de Kzyl-Orda. Station Казалинск (Оренб) à 12 km (distance > 0) : cela n'est pas demandé dans usage (administration seule) ; noté pour information. Lecture assez nette."
+  },
+  {
+   "entite_id": "ville-kz-petropavlovsk",
+   "source_id": "src-shpl-admin1940",
+   "roles_confirmes": [
+    "administration",
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": "292",
+   "citation": "Северо-Казахстанская область — ЦЕНТР — г. ПЕТРОПАВЛОВСК ; а) областного подчинения : 1 | Петропавловск | Петропавловск Ом | — | 7",
+   "commentaire": "Centre de l'oblast du Kazakhstan du Nord ; ville de subordination oblastnaïa ; station Петропавловск (Ом) à « — » (7 conseils ruraux rattachés). Lecture nette."
+  },
+  {
+   "entite_id": "ville-kz-mointy",
+   "source_id": "src-shpl-admin1940",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": "288",
+   "citation": "6 | Моинты рп | — | Балхашский горсовет | Моинты Ом | —",
+   "commentaire": "Graphie Моинты ; localité de type urbain (рп), rattachée au горсовет de Balkhach, station Моинты à distance « — » : gare sur place. Lecture nette, mais en-tête d'oblast non visible sur cette page."
+  },
+  {
+   "entite_id": "ville-kz-kyzylorda",
+   "source_id": "src-shpl-admin1940",
+   "roles_confirmes": [
+    "administration",
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": "289",
+   "citation": "Кзыл-Ординская область — ЦЕНТР — г. КЗЫЛ-ОРДА ; а) областного подчинения : 1 | Кзыл-Орда | Кзыл-Орда Ташк | —",
+   "commentaire": "Centre de l'oblast (образована 15 января 1938) ; ville de subordination oblastnaïa ; station Кзыл-Орда (Ташк) à « — » (aussi centre du raïon Сыр-Дарьинский, г Кзыл-Орда). Lecture nette."
+  },
+  {
+   "entite_id": "ville-kz-aralsk",
+   "source_id": "src-shpl-admin1940",
+   "roles_confirmes": [
+    "administration",
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": "289",
+   "citation": "1 | Аральск г | рц | Аральский | Аральское Море Оренб | —",
+   "commentaire": "Centre du raïon Аральский (рц), ville de subordination raïonnale. La station est nommée Аральское Море (et non Аральск), à distance « — » : gare dans la ville ; rail confirmé sous ce nom de gare. Lecture nette."
+  },
+  {
+   "entite_id": "ville-kz-ayagoz",
+   "source_id": "src-shpl-admin1940",
+   "roles_confirmes": [
+    "administration",
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": "293 et 294",
+   "citation": "3 | Аягузский | г Аягуз | Аягуз Турк-Сиб — ; (p.294) 2 | Аягуз г | рц | Аягузский | Аягуз | —",
+   "commentaire": "Graphie Аягуз ; centre du raïon Аягузский (рц), ville de subordination raïonnale, station Аягуз (Турк-Сиб) à « — ». Lecture nette sur les deux pages."
+  },
+  {
+   "entite_id": "ville-kz-char",
+   "source_id": "src-shpl-admin1940",
+   "roles_confirmes": [
+    "administration",
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": "293 et 294",
+   "citation": "11 | Чарский | рп Чарский | Чарская Турк-Сиб — ; (p.294) 7 | Чарский рп | рц | Чарский | Чарская | —",
+   "commentaire": "Graphie Чарский (рп) ; centre du raïon Чарский (рц), station Чарская (Турк-Сиб) à « — » : gare sur place. Lecture nette sur les deux pages."
+  },
+  {
+   "entite_id": "ville-kz-chymkent",
+   "source_id": "src-shpl-admin1940",
+   "roles_confirmes": [
+    "administration",
+    "rail"
+   ],
+   "roles_non_trouves": [
+    "industrie"
+   ],
+   "page_imprimee": "295 et 296",
+   "citation": "ЦЕНТР—г. ЧИМКЕНТ (p.295, Южно-Казахстанская область) ; « 1 Чимкент | Чимкент Турк-Сиб | — » avec « Городской район: 1. Калининский на Свинцовом заводе » (p.296, Городские поселения а) областного подчинения)",
+   "commentaire": "p.295 : en-tête de l'oblast du Kazakhstan méridional « ЦЕНTР—г. ЧИМКЕНТ » (centre d'oblast) ; la ligne 16 « Чимкентский район : г Чимкент » le montre aussi. p.296 : Čimkent est listée parmi les villes de subordination oblastnaïa, gare Чимкент (Турк-Сиб), distance « — » donc gare dans la ville : rail confirmé. Industrie non démontrée par le répertoire (aucune donnée économique) ; seule mention incidente d'un « Свинцовый завод » (usine de plomb) comme siège d'un raïon urbain Kalininski, insuffisante pour prouver le rôle industrie au sens strict. Numéros de page imprimés 295 et 296 (le visionneuse affiche 299/300)."
+  },
+  {
+   "entite_id": "ville-kz-arys",
+   "source_id": "src-shpl-admin1940",
+   "roles_confirmes": [
+    "administration",
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": "295 et 296",
+   "citation": "1 Арысский | рп Арысь Ташк — | 80 | 19,6 | 17 (p.295) ; « 1 Арысь рп | рц | Арысский | Арысь Ташк | — » (p.296, б) районного подчинения)",
+   "commentaire": "p.295 : Арысь (рп = посёлок городского типа) est centre du raïon Арысский, à 80 km du centre d'oblast. p.296 : listée comme agglomération urbaine de subordination raïonale, adm. signification « рц » (centre de raïon), gare Арысь (ligne Ташкентская, abrégé « Ташк ») à distance « — » : gare dans la localité. Arys est donc un « рп » en 1940, non une ville (г), mais le rôle administration (centre de raïon) et le rail sont lus explicitement."
+  },
+  {
+   "entite_id": "ville-kz-turkestan",
+   "source_id": "src-shpl-admin1940",
+   "roles_confirmes": [
+    "administration"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": "295 et 296",
+   "citation": "12 Туркестанский | г Туркестан | Ташк 6,5 | 225 | 10,2 | 9 | 1 | 3 (p.295) ; « 8 Туркестан г | рц | Туркестанский | Туркестан Ташк | 6,5 » (p.296)",
+   "commentaire": "Туркестан est une ville (г) et centre (рц) du raïon Туркестанский, à 225 km du centre d'oblast ; elle compte comme la seule ville du raïon (colonne 7 = 1). Administration confirmée. Pour information (rôle rail non demandé dans usage) : la gare est Туркестан (Ташк), à 6,5 km, donc hors de la ville."
+  },
+  {
+   "entite_id": "ville-kz-tioulkoubas",
+   "source_id": "src-shpl-admin1940",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": "296",
+   "citation": "9 Тюлькубас рп | — | Тюлькубасский | Тюлькубас Турк-Сиб | —",
+   "commentaire": "p.296, tableau б) районного подчинения : Тюлькубас (рп) relève du raïon Тюлькубасский, gare Тюлькубас (Турк-Сиб) à distance « — » : gare dans la localité, rail confirmé. Colonne « Адм. знач. » = « — » : Tioulkoubas n'est pas centre de raïon ici (p.295, le centre du raïon Тюлькубасский est « с Ванновка », gare Тюлькубас Турк-Сиб à 9 km) ; ce point n'est pas demandé par usage (rail seul)."
+  }
+ ]
+}

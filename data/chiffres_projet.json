@@ -1,5 +1,5 @@
 {
- "genere_le": "2026-10-04 14:40",
+ "genere_le": "2026-10-04 17:23",
  "snapshot0": {
   "date_representee": "1945-01-01 00:00 (dernier état connu avant)",
   "territoires": 74,
@@ -18,10 +18,10 @@
    "territoire": 4
   },
   "villes_avec_nom_de_1945_different": 201,
-  "villes_avec_reserve_a_renforcer": 450,
+  "villes_avec_reserve_a_renforcer": 355,
   "roles_de_villes": {
-   "rail": 623,
-   "industrie": 289,
+   "rail": 622,
+   "industrie": 288,
    "administration": 196,
    "port_maritime": 166,
    "port_fluvial": 85,
@@ -159,7 +159,7 @@
    },
    {
     "fichier": "villes_1-6_asie_sovietique_mongolie.json",
-    "version": "0.2",
+    "version": "0.3",
     "zone": [
      "URSS asiatique hors Caucase",
      "Mongolie"
@@ -170,7 +170,7 @@
    },
    {
     "fichier": "villes_1-7_caucase_turquie.json",
-    "version": "0.1",
+    "version": "0.2",
     "zone": [
      "Caucase septentrional",
      "Géorgie",
@@ -185,25 +185,25 @@
   ]
  },
  "sources": {
-  "registre_version": "1.23",
+  "registre_version": "1.24",
   "total": 759,
   "relecture_claude": {
-   "ok": 489,
-   "limite": 118,
-   "non_verifiee": 134,
+   "ok": 494,
+   "limite": 123,
+   "non_verifiee": 128,
    "faible": 6,
-   "lien_casse": 12
+   "lien_casse": 8
   },
   "niveaux": {
    "A": 120,
    "B": 606,
    "C": 33
   },
-  "en_attente_de_validation_humaine": 267,
+  "en_attente_de_validation_humaine": 262,
   "validees_par_guizmo": 3
  },
  "historique": {
-  "envois_github": 45,
+  "envois_github": 47,
   "premier_envoi": "2026-09-28",
   "dernier_envoi": "2026-10-04",
   "depot_public": "https://github.com/Guizmo9867/Atlas"

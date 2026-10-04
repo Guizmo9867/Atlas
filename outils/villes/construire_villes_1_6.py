@@ -26,10 +26,22 @@ CAPITALES_ATTENDUES = {'ville-kz-almaty': 'regionale', 'ville-uz-tachkent': 'reg
 # Nom « de 1945 » identique au nom de la fiche à l'apostrophe près (Nikolaïevsk-sur-l’Amour, Komsomolsk-sur-l’Amour) :
 # ce n'est pas un autre nom, il n'est pas affiché comme tel (règle : « nom » seulement s'il diffère du nom actuel).
 # Les autres écarts de pure transcription (Tokmok/Tokmak, Farap/Farab…) sont gardés tels que proposés : Q16-03, revue finale.
+# Corrections ciblées proposées par Ether et retenues par Claude après lecture de la page (Tchirtchik : gare à 32 km, p. 265 du répertoire de 1940).
+CORR = json.load(open(RACINE / 'data/sources/deltas_ether/2026-10-04_villes_1-6_corrections_cycle3_ether.json', encoding='utf-8'))['corrections']
+def corriger(e):
+    for c in CORR:
+        if c['entite_id'] != e['entite_id']: continue
+        p = e['etats'][0]['proprietes']
+        p['roles'] = c['champs_seuls']['proprietes.roles']
+        p['note'] = c['champs_seuls']['proprietes.note']
+        for r in c['sources_usage_a_remplacer']:
+            for s in e['etats'][0]['sources']:
+                if s['source_id'] == r['source_id']: s['locator'], s['usage'] = r['locator'], r['usage']
+
 memes_noms = []
 entites = []
 for v in PROPOSITION['entites']:
-    e = copy.deepcopy(v); eid = e['entite_id']; et = e['etats'][0]; p = et['proprietes']
+    e = copy.deepcopy(v); corriger(e); eid = e['entite_id']; et = e['etats'][0]; p = et['proprietes']
     assert p.get('capitale') == CAPITALES_ATTENDUES.get(eid), eid
     if p.get('nom') and p['nom'].replace('’', "'") == e['nom'].replace('’', "'"):
         e['aliases'] = list(dict.fromkeys([*e.get('aliases', []), p.pop('nom')])); memes_noms.append(eid)
@@ -55,7 +67,7 @@ for v in PROPOSITION['entites']:
 lot = {
   'metadata_lot': {
     'nom': 'snapshot0_villes_1-6_asie_sovietique_mongolie', 'date_reference': '1945-01-01', 'heure_reference': '00:00',
-    'version': '0.2', 'statut': 'integre_par_claude', 'gabarit_source': 'gabarits/gabarit_entite_temporelle_atlas.json',
+    'version': '0.3', 'statut': 'integre_par_claude', 'gabarit_source': 'gabarits/gabarit_entite_temporelle_atlas.json',
     'zone': PROPOSITION['metadata_lot']['zone'],
     'limites_ether': PROPOSITION['metadata_lot']['limites'],
     'reserves_ether': 'R16-01 à R16-69 (data/snapshot0/villes_1-6_asie_sovietique_mongolie_reserves_ether.md), revue finale 1.x',
@@ -66,7 +78,8 @@ lot = {
       "Preuves : mention « (non vérifiée par Claude) » ou « (lecture partielle) » selon la relecture de Claude ; « À renforcer » = rôles sans aucune preuve confirmée.",
       "Nikolaïevsk-sur-l'Amour et Komsomolsk-sur-l'Amour : le « nom de 1945 » proposé ne différait de la fiche que par l'apostrophe ; gardé en alias, pas affiché comme nom à la date. Autres écarts de transcription conservés (Q16-03).",
       "Sükhbaatar : roles vide, tel que proposé (transit routier en note).",
-      "v0.2 (04/10/2026, réponses d'Ether cycle 2, Q16-01 et Q16-02) : aucune donnée de ville modifiée ; Claude a lu les 28 images de pages des répertoires administratifs (1940, 1941, supplément 1944) et les 3 pages LOC : 67 relations ville/source relues, rôles comptés comme prouvés pour ces villes seulement (registre v1.21, champ confirmations_claude) ; mentions de preuve et « À renforcer » recalculés."]},
+      "v0.2 (04/10/2026, réponses d'Ether cycle 2, Q16-01 et Q16-02) : aucune donnée de ville modifiée ; Claude a lu les 28 images de pages des répertoires administratifs (1940, 1941, supplément 1944) et les 3 pages LOC : 67 relations ville/source relues, rôles comptés comme prouvés pour ces villes seulement (registre v1.21, champ confirmations_claude) ; mentions de preuve et « À renforcer » recalculés.",
+      "v0.3 (04/10/2026, réponses d'Ether cycle 3) : Tchirtchik perd le rôle rail (la page 265 du répertoire de 1940, relue par Claude, met la gare à 32 km ; correction d'Ether) ; 37 images de pages et 9 captures lues par Claude (registre v1.24) : rôles relus ville par ville, mentions de preuve et « À renforcer » recalculés."]},
   },
   'entites': entites,
 }

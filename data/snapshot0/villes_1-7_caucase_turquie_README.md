@@ -10,3 +10,5 @@ Fichier : `villes_1-7_caucase_turquie.json` (v0.1, 166 villes : Turquie 77, Russ
 - 9 candidats différés par Ether (Malgobek, Nazran, Iriston/Beslan, Nijniaïa Akhta, Soumgaït, Khoudat, Batman, Guleman, Erzincan) : non importés.
 
 Scripts rejouables : `outils/villes/construire_villes_1_7.py` (fusions des sources une seule fois : `fusion_sources_1_5_cycle3.py`, `fusion_sources_1_6_reponses.py`, puis `fusion_sources_1_7.py`). Compte rendu : `docs/pour_ether/2026-10-04_villes_1-7.md`.
+
+**v0.2 (04/10/2026 au soir, réponses d'Ether cycle 2, Q17-01 et Q17-02)** : İzmir perd le rôle industrie (Halkapınar : liste de 1944 et ouverture en 1947 dans la même étude ; correction d'Ether, réserve R17-C2-01). Claude a lu les 7 captures (encyclopédie Atatürk : rail relu pour 30 villes ; Gelibolu confirmée ; Mersin/Tarsus relue) et les 10 images de pages (Géorgie, Arménie, Stavropol : 34 villes confirmées). Registre v1.24. « À renforcer » : 78 villes (124 avant). Compte rendu : `docs/pour_ether/2026-10-04_villes_1-7_cycle2.md`.

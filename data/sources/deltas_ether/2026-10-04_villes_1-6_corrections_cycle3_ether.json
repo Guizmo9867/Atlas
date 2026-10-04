@@ -1,0 +1,37 @@
+{
+  "metadata": {
+    "lot": "villes_1-6",
+    "cycle": 3,
+    "date": "2026-10-04T18:39:21.488422+02:00",
+    "statut": "propose_pour_integration"
+  },
+  "corrections": [
+    {
+      "entite_id": "ville-uz-tchirtchik",
+      "etat_id": "etat-01",
+      "champs_seuls": {
+        "proprietes.roles": [
+          "industrie"
+        ],
+        "proprietes.note": "Le répertoire de 1940 mentionne Tchirtchik et une gare située à 32 km ; cette ligne ne prouve pas une gare dans la ville. La production de nitrate d’ammonium commence en octobre 1940 ; la première tranche est inaugurée en janvier 1941, puis viennent les ateliers d’acide nitrique en 1942 et d’ammoniac au début de 1944. Le rôle ferroviaire reste réservé, faute de preuve locale suffisante. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01)."
+      },
+      "sources_usage_a_remplacer": [
+        {
+          "source_id": "src-shpl-admin1940",
+          "locator": "p.265, ligne Чирчик, distance 32 km",
+          "usage": "identité et distance à la gare ; rôle rail non démontré pour la ville"
+        }
+      ],
+      "condition": "Comparer au canon ; si une autre preuve locale indépendante a été intégrée depuis, la conserver et réexaminer avant retrait du rôle.",
+      "etat_canon_lu": {
+        "roles": [
+          "rail",
+          "industrie"
+        ],
+        "note": "Ville et gare Tchirtchik. Nitrate d’ammonium produit en octobre1940, première tranche inaugurée en janvier1941 ; ateliers d’acide nitrique1942 et ammoniac1944. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). À renforcer : rail, industrie."
+      },
+      "geometrie": "inchangée ; ne pas remplacer le point Wikidata",
+      "reserve": "R16-C3-01"
+    }
+  ]
+}
