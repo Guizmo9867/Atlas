@@ -37,7 +37,7 @@ PREUVE_NOM = {
     'ville-cz-liberec': "avis local daté « Reichenberg, den 11. Mai 1944 » (Reichsanzeiger, OCR)",
     'ville-cz-cheb': "tribunal d'Eger, inscription du 13/05/1944 (Reichsanzeiger, OCR)",
     'ville-cz-most': "registre du tribunal de Brüx, avis du 12/05/1942 (Reichsanzeiger, OCR)",
-    'ville-cz-decin': "titre d'un annuaire téléphonique de 1942 (notice d'archives), confirmé par la page sudetengebiete.de (fusion du 01/10/1942 sous ce nom ; Landkreis Tetschen-Bodenbach en 1945 ; captures de Guizmo) ; acte officiel : Verordnungsblatt 1942, n° 40, p. 353 (référence trouvée par Ether)",
+    'ville-cz-decin': "titre d'un annuaire téléphonique de 1942 (notice d'archives), confirmé par la page sudetengebiete.de (fusion du 01/10/1942 sous ce nom ; Landkreis Tetschen-Bodenbach en 1945 ; captures de Guizmo) ; acte officiel cité : Verordnungsblatt für den Reichsgau Sudetenland 1942, n° 40, p. 353 (référence relevée par Ether dans une page d'histoire locale et un catalogue d'archives ; texte de l'acte non vu)",
     'ville-sk-nove-zamky': "journal local et avis municipal de juillet 1944",
 }
 NOMS = {'ville-cz-bohumin': 'Nový Bohumín', 'ville-sk-komarno-komarom': 'Komárom', 'ville-sk-sturovo': 'Párkány'}  # libellés d'Ether raccourcis pour la carte
