@@ -55,3 +55,7 @@ Avis de Claude (01/10/2026) :
 - Ancrer la pastille au « cœur » du territoire (point déjà calculé pour son nom), pas à la capitale, pour ne pas suggérer une règle propre à la capitale.
 - Zones de plaques (ex. Allemagne) = de vrais contours à construire : bien plus tard.
 - Photos de plaques : Wikimedia Commons (licences libres), chargées seulement à l'ouverture de la fiche.
+
+## 7. Sources dans la langue du lecteur (04/10/2026) — plus tard, après le Snapshot 0
+
+Idée de Guizmo : le lecteur choisit sa langue, et les passages cités des sources s'affichent traduits dans cette langue (traduction automatique, avec l'original toujours visible à côté). Pour le Snapshot 0, on ne traduit rien : les citations restent dans la langue de la source (journal, 04/10/2026).

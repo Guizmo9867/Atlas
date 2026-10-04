@@ -201,7 +201,7 @@ function fiche(s) {
     const inp = el('input'); inp.type = 'file'; inp.accept = 'image/*,application/pdf'; inp.multiple = true; inp.hidden = true
     inp.onchange = () => { joindre(s.id, [...inp.files]); inp.value = '' }
     const bj = el('button', 'b b-pj', '📎 Joindre une capture ou un PDF'); bj.type = 'button'; bj.onclick = () => inp.click()
-    comp.append(pl, inp, bj, el('p', 'petit', 'Astuce : fais une capture (touches Windows + Maj + S), puis colle-la (Ctrl + V) dans une des cases de cette fiche.'))
+    comp.append(pl, inp, bj, el('p', 'petit', 'Astuce : fais une capture (touches Windows + Maj + S), puis colle-la (Ctrl + V) dans une des cases de cette fiche. Pas besoin de traduire ni de rogner : la capture de la page d’origine suffit, Claude lit toutes les langues.'))
     f.addEventListener('paste', (e) => { const fs = [...(e.clipboardData?.files || [])]; if (fs.length) { e.preventDefault(); joindre(s.id, fs) } })
   } else comp.append(el('p', 'petit', 'Pour joindre une capture ou un PDF : utilise la page 00_SOURCES_A_VALIDER.html du dossier Atlas, sur le PC.'))
   const bs = el('div', 'boutons')

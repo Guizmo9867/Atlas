@@ -2,6 +2,12 @@
 
 Une ligne par décision, datée. Plus récente en haut. Ce journal remplace les versions éparpillées dans les conversations : si ce n'est pas ici, ce n'est pas décidé.
 
+## 2026-10-04 (pas de traduction des sources)
+
+- **Les sources restent dans leur langue d'origine** (décision de Guizmo) : on ne traduit ni les sources ni leurs passages pour le Snapshot 0. La citation (`resume_passage`, passages de vérification) est gardée telle quelle, dans la langue de la source ; seules la note et l'`usage` (ce que la source prouve) sont en français. Claude lit lui-même les langues des sources (allemand, tchèque, polonais, russe…).
+- **Pièces jointes de Guizmo** : la capture de la page d'origine suffit, sans traduction ni rognage ; Guizmo peut traduire (Google Lens…) pour sa propre lecture, mais n'a pas à joindre la traduction.
+- Plus tard (idée) : choix de la langue dans l'Atlas, avec traduction automatique des passages cités (`IDEES_POUR_PLUS_TARD.md` §7).
+
 ## 2026-10-03 (la boucle n'attend jamais Guizmo ; validation « pour 1945, la suite plus tard »)
 
 - **La boucle n'attend jamais Guizmo** (décision de Guizmo, après 10 h d'attente d'Ether sur une autorisation pendant la nuit) : Claude et Ether avancent toujours aussi loin que possible sur ce qu'ils peuvent faire seuls ; ce qui demande Guizmo est noté (tableau de bord, « À trancher par Guizmo ») et le travail continue sur le reste.
