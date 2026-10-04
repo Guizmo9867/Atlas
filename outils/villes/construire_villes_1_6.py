@@ -5,9 +5,11 @@ Données : proposition JSON d'Ether du 03/10/2026, au format du gabarit
 (data/sources/deltas_ether/2026-10-03_villes_1-6_proposition_ether.json ; note : villes_1-6_asie_sovietique_mongolie_brief_ether.md ;
 réserves R16-01 à R16-69 : villes_1-6_asie_sovietique_mongolie_reserves_ether.md).
 Positions : Wikidata (CC0) pour les 254 villes, recoupées par requête SPARQL (outils/villes/wikidata_ratissage_1_6.json).
+v0.2 (04/10/2026) : preuves relues ville par ville (outils/villes/confirmations_claude.py) après les réponses d'Ether (cycle 2).
 Relancer : python outils/villes/construire_villes_1_6.py (depuis la racine du dépôt), après les fusions de sources.
 """
 import json, pathlib, copy
+from confirmations_claude import confirmation
 
 RACINE = pathlib.Path(__file__).resolve().parents[2]
 ICI = pathlib.Path(__file__).parent
@@ -37,8 +39,10 @@ for v in PROPOSITION['entites']:
         if s['source_id'] == 'src-wikidata':
             continue
         st = REGISTRE[s['source_id']]['verification_claude']
-        if st == 'ok': prouve |= {t.strip() for t in s['usage'].split(',')} & set(p['roles'])
-        s['usage'] += '' if st == 'ok' else ' (non vérifiée par Claude)' if st in ('non_verifiee', 'lien_casse') else ' (lecture partielle)'
+        cr, cm = confirmation(REGISTRE[s['source_id']], eid) if st != 'ok' else (None, None)
+        if st == 'ok' or cr == 'usage': prouve |= {t.strip() for t in s['usage'].split(',')} & set(p['roles'])
+        elif cr: prouve |= cr & set(p['roles'])
+        s['usage'] += '' if st == 'ok' else cm if cm else ' (non vérifiée par Claude)' if st in ('non_verifiee', 'lien_casse') else ' (lecture partielle)'
     a_renforcer = [r for r in p['roles'] if r not in prouve]
     note = p['note']
     if p.get('capitale') == 'regionale':
@@ -51,7 +55,7 @@ for v in PROPOSITION['entites']:
 lot = {
   'metadata_lot': {
     'nom': 'snapshot0_villes_1-6_asie_sovietique_mongolie', 'date_reference': '1945-01-01', 'heure_reference': '00:00',
-    'version': '0.1', 'statut': 'integre_par_claude', 'gabarit_source': 'gabarits/gabarit_entite_temporelle_atlas.json',
+    'version': '0.2', 'statut': 'integre_par_claude', 'gabarit_source': 'gabarits/gabarit_entite_temporelle_atlas.json',
     'zone': PROPOSITION['metadata_lot']['zone'],
     'limites_ether': PROPOSITION['metadata_lot']['limites'],
     'reserves_ether': 'R16-01 à R16-69 (data/snapshot0/villes_1-6_asie_sovietique_mongolie_reserves_ether.md), revue finale 1.x',
@@ -61,7 +65,8 @@ lot = {
       "Capitales : 5 capitales de RSS « régionales », Oulan-Bator « nationale » (convention du journal) ; RSSA et oblasts sans type d'affichage (Q15-02, R16-02).",
       "Preuves : mention « (non vérifiée par Claude) » ou « (lecture partielle) » selon la relecture de Claude ; « À renforcer » = rôles sans aucune preuve confirmée.",
       "Nikolaïevsk-sur-l'Amour et Komsomolsk-sur-l'Amour : le « nom de 1945 » proposé ne différait de la fiche que par l'apostrophe ; gardé en alias, pas affiché comme nom à la date. Autres écarts de transcription conservés (Q16-03).",
-      "Sükhbaatar : roles vide, tel que proposé (transit routier en note)."]},
+      "Sükhbaatar : roles vide, tel que proposé (transit routier en note).",
+      "v0.2 (04/10/2026, réponses d'Ether cycle 2, Q16-01 et Q16-02) : aucune donnée de ville modifiée ; Claude a lu les 28 images de pages des répertoires administratifs (1940, 1941, supplément 1944) et les 3 pages LOC : 67 relations ville/source relues, rôles comptés comme prouvés pour ces villes seulement (registre v1.21, champ confirmations_claude) ; mentions de preuve et « À renforcer » recalculés."]},
   },
   'entites': entites,
 }

@@ -2,6 +2,15 @@
 
 Une ligne par décision, datée. Plus récente en haut. Ce journal remplace les versions éparpillées dans les conversations : si ce n'est pas ici, ce n'est pas décidé.
 
+## 2026-10-04 (villes 1.7, Caucase et Turquie ; réponses au 1.5 et au 1.6 ; Miskolc)
+
+- **Villes 1.7 intégrées : 166 villes** (Turquie 77, Caucase du Nord 36, Géorgie 26, Azerbaïdjan 16, Arménie 11), dont 20 sous leur nom de 1945 (Dzaoudjikaou, Leninakan, Kirovabad, Stalinir, Urfa…). Ankara « nationale » ; Tbilissi, Erevan, Bakou « régionales » (capitales de RSS) ; RSSA et oblasts sans type (Q15-02). L'Atlas compte 945 villes. *(Ether, fait par Claude)*
+- **Positions : Wikidata même quand Ether propose GeoNames** : Claude prend l'élément Wikidata relié à l'identifiant GeoNames (P1566) et vérifie qu'il s'agit bien de la ville (22 corrections à la main : districts, localités homonymes, site antique d'Ereğli ; Bakou, Erevan, Koutaïssi…). *(Claude)*
+- **Preuves relues ville par ville** (nouveau champ du registre `confirmations_claude`, `outils/villes/confirmations_claude.py`) : quand une source n'est lisible qu'en partie mais que Claude a lu lui-même la page d'une ville (image de répertoire, capture déposée par Ether), les rôles lus comptent comme prouvés pour cette ville seulement ; la fiche dit « (page relue par Claude pour cette ville) ». La source garde son statut « lecture partielle ». *(Claude)*
+- **Réponses d'Ether** : 1.5 cycle 3 (12 captures : 8 sources relues, « À renforcer » 78 → 70 ; **3 cycles atteints**, réserves pour la revue finale) ; 1.6 cycle 2 (28 images de répertoires : 63 relations ville/source confirmées, « À renforcer » 225 → 176 ; 5 sources « faible » → « non vérifiée », passage hors de portée de l'outil). *(Ether + Claude)*
+- **Miskolc** (décision de Guizmo « prouve pour 1945, la suite plus tard », avec un nouveau lien et une capture) : vérifiés ; deux sources ajoutées (`src-guizmo-miskolc-tortenete`, `src-guizmo-kis-miskolc-2022`) ; l'article de Kis József (2022) confirme qu'à l'arrivée soviétique Diósgyőr était une commune distincte et que le Grand Miskolc vaut à compter du 1er janvier 1945 : changement daté du 1er janvier, donc après le Snapshot 0 (Diósgyőr reste distincte). L'ancienne source, validée par Guizmo, est gardée. *(Guizmo, Claude)*
+- Sources : 49 nouvelles (28 confirmées, 57 %), registre v1.22, 758 sources ; « Sources à valider » : 267 ; fichier des réserves : 154 points. Nouvelles questions Q17-01 (sources illisibles pour l'outil) et Q17-02 (pages 1940 de Géorgie et d'Arménie). Réserves R17-01 à R17-27 gardées pour la revue finale 1.x. *(Claude)*
+
 ## 2026-10-04 (pas de traduction des sources)
 
 - **Les sources restent dans leur langue d'origine** (décision de Guizmo) : on ne traduit ni les sources ni leurs passages pour le Snapshot 0. La citation (`resume_passage`, passages de vérification) est gardée telle quelle, dans la langue de la source ; seules la note et l'`usage` (ce que la source prouve) sont en français. Claude lit lui-même les langues des sources (allemand, tchèque, polonais, russe…).

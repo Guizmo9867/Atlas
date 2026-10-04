@@ -1,0 +1,4505 @@
+{
+  "candidats": 175,
+  "proposes": 166,
+  "differes": 9,
+  "selection": [
+    {
+      "entite_id": "ville-tr-ankara",
+      "nom_date": "Ankara",
+      "zone": "tr-centre",
+      "decision": "propose",
+      "rang": "A",
+      "motif": "Priorité de zoom A ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "capitale",
+        "administration",
+        "rail",
+        "industrie"
+      ],
+      "roles_non_importes": [
+        "grande_ville"
+      ],
+      "preuves": [
+        {
+          "source_id": "src-17-tr-ankara-capitale1923",
+          "locator": "13 octobre1923",
+          "roles": [
+            "capitale",
+            "administration"
+          ],
+          "constat": "Décision faisant d’Ankara la capitale."
+        },
+        {
+          "source_id": "src-17-tr-atam-rail-as2021",
+          "locator": "Ankara–Kayseri–Sivas",
+          "roles": [
+            "rail"
+          ],
+          "constat": "Kayseri1927 ; Sivas1930"
+        },
+        {
+          "source_id": "src-17-tr-sumerbank-polatoglu2021",
+          "locator": "production1944",
+          "roles": [
+            "industrie"
+          ],
+          "constat": "Ciment1944."
+        },
+        {
+          "source_id": "src-17-tr-tbb-population1940",
+          "locator": "Tableau1940, ligneAnkara",
+          "roles": [
+            "grande_ville"
+          ],
+          "constat": "Population urbaine recensée en1940 : 157242 ; sélection de grande ville."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-ge-batoumi",
+      "nom_date": "Batoumi",
+      "zone": "georgie",
+      "decision": "propose",
+      "rang": "B",
+      "motif": "Priorité de zoom B ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "rail",
+        "port_maritime",
+        "administration",
+        "industrie"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-17-ge-batoumi-musee-port",
+          "locator": "Paragraphes1883 et exportations",
+          "roles": [
+            "rail",
+            "port_maritime"
+          ],
+          "constat": "Liaison ferroviaire à Samtredia en1883 ; port d’exportation pétrolière."
+        },
+        {
+          "source_id": "src-17-ge-jrtr24-histoire2000",
+          "locator": "p.42",
+          "roles": [
+            "rail"
+          ],
+          "constat": "Exportations pétrolières par rail et mer dès1883."
+        },
+        {
+          "source_id": "src-shpl-admin1940",
+          "locator": "p246/image250",
+          "roles": [
+            "administration",
+            "rail"
+          ],
+          "constat": "Capitale deRSSA d’Adjarie et gare locale nommées."
+        },
+        {
+          "source_id": "src-vayner-transport-guerre-ch4",
+          "locator": "pp194–196",
+          "roles": [
+            "port_maritime",
+            "industrie"
+          ],
+          "constat": "Transports pétroliers1943–1944 ; ateliers de réparation navale nommés dans l’ordre du25septembre1944."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-ge-samtredia",
+      "nom_date": "Samtredia",
+      "zone": "georgie",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "rail"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-17-ge-batoumi-musee-port",
+          "locator": "Phrase liaisonSamtredia–Batoumi1883",
+          "roles": [
+            "rail"
+          ],
+          "constat": "Extrémité nommée de la ligne ouverte en1883."
+        },
+        {
+          "source_id": "src-17-ge-zaria19401222",
+          "locator": "p2, articles énergie1940",
+          "roles": [
+            "rail"
+          ],
+          "constat": "SegmentZestafoni–Samtredia électrique attesté."
+        },
+        {
+          "source_id": "src-shpl-admin1940",
+          "locator": "p244/image248",
+          "roles": [
+            "rail"
+          ],
+          "constat": "Ville ou bourg et gare homonyme sans distance externe au tableau."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-tr-iskenderun",
+      "nom_date": "İskenderun",
+      "zone": "tr-mediterranee",
+      "decision": "propose",
+      "rang": "B",
+      "motif": "Priorité de zoom B ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "port_maritime"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-17-tr-iskenderun-port1944",
+          "locator": "Paragraphe14.08.1942 puis1944",
+          "roles": [
+            "port_maritime"
+          ],
+          "constat": "Port existant depuis1927 ; Limak date la construction du grand débarcadère1944, sans établir sa mise en service avantSnapshot."
+        },
+        {
+          "source_id": "src-17-tr-atam-ports2019",
+          "locator": "note55 :1939 ; note66 :8janvier1945",
+          "roles": [
+            "port_maritime"
+          ],
+          "constat": "Ancien port attesté avant1945 ; nouvel équipement ouvert le8janvier1945."
+        },
+        {
+          "source_id": "src-17-tr-frus19411128-chrome",
+          "locator": "§1 et6 : ports accessibles",
+          "roles": [
+            "port_maritime"
+          ],
+          "constat": "Port cité parmi les débouchés accessibles ennovembre1941."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-tr-kayseri",
+      "nom_date": "Kayseri",
+      "zone": "tr-centre",
+      "decision": "propose",
+      "rang": "B",
+      "motif": "Priorité de zoom B ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "rail",
+        "industrie"
+      ],
+      "roles_non_importes": [
+        "grande_ville"
+      ],
+      "preuves": [
+        {
+          "source_id": "src-17-tr-atam-rail-as2021",
+          "locator": "Ankara–Kayseri–Sivas",
+          "roles": [
+            "rail"
+          ],
+          "constat": "Kayseri1927 ; Sivas1930"
+        },
+        {
+          "source_id": "src-17-tr-sumerbank-polatoglu2021",
+          "locator": "note57 ; production1944",
+          "roles": [
+            "industrie"
+          ],
+          "constat": "Textile1935, activité1944."
+        },
+        {
+          "source_id": "src-17-tr-tbb-population1940",
+          "locator": "Tableau1940, ligneKayseri",
+          "roles": [
+            "grande_ville"
+          ],
+          "constat": "Population urbaine recensée en1940 : 52467 ; sélection de grande ville."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-tr-sivas",
+      "nom_date": "Sivas",
+      "zone": "tr-centre",
+      "decision": "propose",
+      "rang": "B",
+      "motif": "Priorité de zoom B ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "rail",
+        "industrie"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-17-tr-atam-rail-as2021",
+          "locator": "Ankara–Kayseri–Sivas",
+          "roles": [
+            "rail"
+          ],
+          "constat": "Kayseri1927 ; Sivas1930"
+        },
+        {
+          "source_id": "src-17-tr-sumerbank-polatoglu2021",
+          "locator": "§Sivas1943 ; production1944",
+          "roles": [
+            "industrie"
+          ],
+          "constat": "Cimenterie1943, activité1944."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-tr-malatya",
+      "nom_date": "Malatya",
+      "zone": "tr-est",
+      "decision": "propose",
+      "rang": "B",
+      "motif": "Priorité de zoom B ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "rail",
+        "industrie"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-17-tr-atam-rail-as2021",
+          "locator": "Fevzipaşa–Diyarbakır",
+          "roles": [
+            "rail"
+          ],
+          "constat": "Malatya–mine Ergani–Diyarbakır,1935"
+        },
+        {
+          "source_id": "src-17-tr-sumerbank-polatoglu2021",
+          "locator": "note57",
+          "roles": [
+            "industrie"
+          ],
+          "constat": "Textile1939."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-tr-diyarbakir",
+      "nom_date": "Diyarbakır",
+      "zone": "tr-est",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "rail"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-17-tr-atam-rail-as2021",
+          "locator": "Fevzipaşa–Diyarbakır",
+          "roles": [
+            "rail"
+          ],
+          "constat": "Malatya–mine Ergani–Diyarbakır,1935"
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-tr-ulukisla",
+      "nom_date": "Ulukışla",
+      "zone": "tr-centre",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "rail"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-17-tr-atam-rail-as2021",
+          "locator": "Kayseri–Ulukışla",
+          "roles": [
+            "rail"
+          ],
+          "constat": "Ouverture1933"
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-tr-eskisehir",
+      "nom_date": "Eskişehir",
+      "zone": "tr-centre",
+      "decision": "propose",
+      "rang": "B",
+      "motif": "Priorité de zoom B ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "rail"
+      ],
+      "roles_non_importes": [
+        "grande_ville"
+      ],
+      "preuves": [
+        {
+          "source_id": "src-17-tr-atam-rail-as2021",
+          "locator": "Kayseri–Ulukışla, comparaison des itinéraires",
+          "roles": [
+            "rail"
+          ],
+          "constat": "Itinéraire antérieur par Eskişehir–Afyon–Konya vers Adana"
+        },
+        {
+          "source_id": "src-17-tr-tbb-population1940",
+          "locator": "Tableau1940, ligneEskişehir",
+          "roles": [
+            "grande_ville"
+          ],
+          "constat": "Population urbaine recensée en1940 : 60742 ; sélection de grande ville."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-tr-konya",
+      "nom_date": "Konya",
+      "zone": "tr-centre",
+      "decision": "propose",
+      "rang": "B",
+      "motif": "Priorité de zoom B ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "rail"
+      ],
+      "roles_non_importes": [
+        "grande_ville"
+      ],
+      "preuves": [
+        {
+          "source_id": "src-17-tr-atam-rail-as2021",
+          "locator": "Kayseri–Ulukışla, comparaison des itinéraires",
+          "roles": [
+            "rail"
+          ],
+          "constat": "Itinéraire antérieur par Eskişehir–Afyon–Konya vers Adana"
+        },
+        {
+          "source_id": "src-17-tr-tbb-population1940",
+          "locator": "Tableau1940, ligneKonya",
+          "roles": [
+            "grande_ville"
+          ],
+          "constat": "Population urbaine recensée en1940 : 56465 ; sélection de grande ville."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-tr-adana",
+      "nom_date": "Adana",
+      "zone": "tr-mediterranee",
+      "decision": "propose",
+      "rang": "B",
+      "motif": "Priorité de zoom B ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "rail"
+      ],
+      "roles_non_importes": [
+        "grande_ville"
+      ],
+      "preuves": [
+        {
+          "source_id": "src-17-tr-atam-rail-as2021",
+          "locator": "Kayseri–Ulukışla, comparaison des itinéraires",
+          "roles": [
+            "rail"
+          ],
+          "constat": "Itinéraire antérieur à1933"
+        },
+        {
+          "source_id": "src-17-tr-tbb-population1940",
+          "locator": "Tableau1940, ligneAdana",
+          "roles": [
+            "grande_ville"
+          ],
+          "constat": "Population urbaine recensée en1940 : 88119 ; sélection de grande ville."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-tr-afyon",
+      "nom_date": "Afyon",
+      "zone": "tr-egee",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "rail"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-17-tr-atam-rail-as2021",
+          "locator": "Kayseri–Ulukışla, comparaison des itinéraires",
+          "roles": [
+            "rail"
+          ],
+          "constat": "Itinéraire antérieur à1933"
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-tr-kutahya",
+      "nom_date": "Kütahya",
+      "zone": "tr-egee",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "rail",
+        "industrie"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-17-tr-atam-rail-as2021",
+          "locator": "Kütahya–Tavşanlı–Balıkesir",
+          "roles": [
+            "rail"
+          ],
+          "constat": "Kütahya–Tavşanlı1928 ; Balıkesir1932"
+        },
+        {
+          "source_id": "src-17-tr-sumerbank-polatoglu2021",
+          "locator": "production1944",
+          "roles": [
+            "industrie"
+          ],
+          "constat": "Céramique1944."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-tr-tavsanli",
+      "nom_date": "Tavşanlı",
+      "zone": "tr-egee",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "rail",
+        "industrie"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-17-tr-atam-rail-as2021",
+          "locator": "Kütahya–Tavşanlı–Balıkesir",
+          "roles": [
+            "rail"
+          ],
+          "constat": "Kütahya–Tavşanlı1928 ; Balıkesir1932"
+        },
+        {
+          "source_id": "src-17-tr-mta-mines1944",
+          "locator": "p.162–163/PDF6–7",
+          "roles": [
+            "industrie"
+          ],
+          "constat": "Lignite de Tavşanlı1944."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-tr-balikesir",
+      "nom_date": "Balıkesir",
+      "zone": "tr-marmara",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "rail"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-17-tr-atam-rail-as2021",
+          "locator": "Kütahya–Tavşanlı–Balıkesir",
+          "roles": [
+            "rail"
+          ],
+          "constat": "Jonction1931, exploitation1932"
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-tr-manisa",
+      "nom_date": "Manisa",
+      "zone": "tr-egee",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "rail"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-17-tr-atam-rail-as2021",
+          "locator": "Kütahya–Tavşanlı–Balıkesir, comparaison",
+          "roles": [
+            "rail"
+          ],
+          "constat": "Ancien itinéraire Balıkesir–Manisa–Afyon–Eskişehir"
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-tr-erzincan",
+      "nom_date": "Erzincan",
+      "zone": "tr-est",
+      "decision": "differe",
+      "motif": "Ville reconstruite après le séisme de 1939 ; centre urbain au Snapshot non établi. La preuve ferroviaire ne résout pas ce déplacement.",
+      "reserve": "R17-19",
+      "preuves": [
+        {
+          "source_id": "src-17-tr-atam-rail-as2021",
+          "locator": "Sivas–Erzurum",
+          "roles": [
+            "rail"
+          ],
+          "constat": "Erzincan1938 ; Aşkale et Erzurum1939, via Divriği"
+        },
+        {
+          "source_id": "src-17-tr-erzincan-reconstruction",
+          "locator": "Derniers paragraphes : séisme de 1939, nouvelle construction au-delà de la voie ferrée",
+          "roles": [],
+          "constat": "Reconstruction sur un autre emplacement après le séisme de 1939 ; centre à retenir en 1945 non établi."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-tr-askale",
+      "nom_date": "Aşkale",
+      "zone": "tr-est",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "rail"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-17-tr-atam-rail-as2021",
+          "locator": "Sivas–Erzurum",
+          "roles": [
+            "rail"
+          ],
+          "constat": "Erzincan1938 ; Aşkale et Erzurum1939, via Divriği"
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-tr-erzurum",
+      "nom_date": "Erzurum",
+      "zone": "tr-est",
+      "decision": "propose",
+      "rang": "B",
+      "motif": "Priorité de zoom B ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "rail"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-17-tr-atam-rail-as2021",
+          "locator": "Sivas–Erzurum",
+          "roles": [
+            "rail"
+          ],
+          "constat": "Erzincan1938 ; Aşkale et Erzurum1939, via Divriği"
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-tr-divrigi",
+      "nom_date": "Divriği",
+      "zone": "tr-centre",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "rail"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-17-tr-atam-rail-as2021",
+          "locator": "Sivas–Erzurum",
+          "roles": [
+            "rail"
+          ],
+          "constat": "Sur la ligne achevée1939"
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-tr-sarikamis",
+      "nom_date": "Sarıkamış",
+      "zone": "tr-est",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "rail"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-17-tr-atam-rail-as2021",
+          "locator": "Introduction, réseau hérité",
+          "roles": [
+            "rail"
+          ],
+          "constat": "Erzurum–Sarıkamış, voie étroite"
+        },
+        {
+          "source_id": "src-17-tr-kars-rail",
+          "locator": "1899–1918",
+          "roles": [
+            "rail"
+          ],
+          "constat": "Desserte ferroviaire locale antérieure auSnapshot."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-tr-samsun",
+      "nom_date": "Samsun",
+      "zone": "tr-mer-noire",
+      "decision": "propose",
+      "rang": "B",
+      "motif": "Priorité de zoom B ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "rail",
+        "port_maritime"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-17-tr-atam-rail-as2021",
+          "locator": "Samsun–Sivas",
+          "roles": [
+            "rail"
+          ],
+          "constat": "Ligne achevée1931, via Havza"
+        },
+        {
+          "source_id": "src-17-tr-atam-ports2019",
+          "locator": "note64,29janvier1944",
+          "roles": [
+            "port_maritime"
+          ],
+          "constat": "Port transféré à l’administration publique en1944."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-tr-havza",
+      "nom_date": "Havza",
+      "zone": "tr-mer-noire",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "rail"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-17-tr-atam-rail-as2021",
+          "locator": "Samsun–Sivas",
+          "roles": [
+            "rail"
+          ],
+          "constat": "Ligne achevée1931, via Havza"
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-tr-cetinkaya",
+      "nom_date": "Çetinkaya",
+      "zone": "tr-centre",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "rail"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-17-tr-atam-rail-as2021",
+          "locator": "Malatya–Çetinkaya",
+          "roles": [
+            "rail"
+          ],
+          "constat": "Ouverture1937"
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-tr-filyos",
+      "nom_date": "Filyos",
+      "zone": "tr-mer-noire",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "rail"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-17-tr-atam-rail-as2021",
+          "locator": "Irmak–Filyos",
+          "roles": [
+            "rail"
+          ],
+          "constat": "Ouverture1935"
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-tr-irmak",
+      "nom_date": "Irmak",
+      "zone": "tr-centre",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "rail"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-17-tr-atam-rail-as2021",
+          "locator": "Irmak–Filyos",
+          "roles": [
+            "rail"
+          ],
+          "constat": "Ouverture1935"
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-tr-isparta",
+      "nom_date": "Isparta",
+      "zone": "tr-centre",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "rail",
+        "industrie"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-17-tr-atam-rail-as2021",
+          "locator": "Bozanönü–Isparta",
+          "roles": [
+            "rail"
+          ],
+          "constat": "Ouverture1936"
+        },
+        {
+          "source_id": "src-17-tr-sumerbank-polatoglu2021",
+          "locator": "§1926/1943 ; production1944",
+          "roles": [
+            "industrie"
+          ],
+          "constat": "Filature1926, activité1944."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-tr-elazig",
+      "nom_date": "Elazığ",
+      "zone": "tr-est",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "rail"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-17-tr-atam-rail-as2021",
+          "locator": "Yolçatı–Elazığ",
+          "roles": [
+            "rail"
+          ],
+          "constat": "Ouverture1934"
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-tr-yolcati",
+      "nom_date": "Yolçatı",
+      "zone": "tr-est",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "rail"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-17-tr-atam-rail-as2021",
+          "locator": "Yolçatı–Elazığ",
+          "roles": [
+            "rail"
+          ],
+          "constat": "Ouverture1934"
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-tr-istanbul",
+      "nom_date": "İstanbul",
+      "zone": "tr-thrace",
+      "decision": "propose",
+      "rang": "A",
+      "motif": "Priorité de zoom A ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "rail",
+        "industrie",
+        "port_maritime"
+      ],
+      "roles_non_importes": [
+        "grande_ville",
+        "passage"
+      ],
+      "preuves": [
+        {
+          "source_id": "src-17-tr-atam-rail-as2021",
+          "locator": "Nationalisation Anadolu–Bağdat",
+          "roles": [
+            "rail"
+          ],
+          "constat": "Lignes rachetées1924, dont Haydarpaşa–Ankara"
+        },
+        {
+          "source_id": "src-17-tr-sumerbank-polatoglu2021",
+          "locator": "production1944",
+          "roles": [
+            "industrie"
+          ],
+          "constat": "Textile, chaussures et ciment1944 dans plusieurs quartiers."
+        },
+        {
+          "source_id": "src-17-tr-sehirhatlari-histoire",
+          "locator": "Services du Bosphore depuis1851 ; Corne d’Or fusion1941",
+          "roles": [
+            "port_maritime",
+            "passage"
+          ],
+          "constat": "Transport maritime urbain et traversées du Bosphore avant1945 ; compagnies encore distinctes auSnapshot."
+        },
+        {
+          "source_id": "src-17-tr-tbb-population1940",
+          "locator": "Tableau1940, ligneİstanbul",
+          "roles": [
+            "grande_ville"
+          ],
+          "constat": "Population urbaine recensée en1940 : 793949 ; sélection de grande ville."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-tr-arifiye",
+      "nom_date": "Arifiye",
+      "zone": "tr-marmara",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "rail"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-17-tr-atam-rail-as2021",
+          "locator": "Nationalisation Anadolu–Bağdat",
+          "roles": [
+            "rail"
+          ],
+          "constat": "Arifiye–Adapazarı,1924"
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-tr-adapazari",
+      "nom_date": "Adapazarı",
+      "zone": "tr-marmara",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "rail"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-17-tr-atam-rail-as2021",
+          "locator": "Nationalisation Anadolu–Bağdat",
+          "roles": [
+            "rail"
+          ],
+          "constat": "Arifiye–Adapazarı,1924"
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-tr-mudanya",
+      "nom_date": "Mudanya",
+      "zone": "tr-marmara",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "rail",
+        "port_maritime"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-17-tr-atam-rail-as2021",
+          "locator": "Nationalisation Mudanya–Bursa",
+          "roles": [
+            "rail"
+          ],
+          "constat": "Ouverture1892, exploitation étatique1930"
+        },
+        {
+          "source_id": "src-17-tr-atam-ports2019",
+          "locator": "note68",
+          "roles": [
+            "port_maritime"
+          ],
+          "constat": "Débarcadère exploité par l’État depuis1943, transfert juridique ultérieur."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-tr-bursa",
+      "nom_date": "Bursa",
+      "zone": "tr-marmara",
+      "decision": "propose",
+      "rang": "B",
+      "motif": "Priorité de zoom B ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "rail",
+        "industrie"
+      ],
+      "roles_non_importes": [
+        "grande_ville"
+      ],
+      "preuves": [
+        {
+          "source_id": "src-17-tr-atam-rail-as2021",
+          "locator": "Nationalisation Mudanya–Bursa",
+          "roles": [
+            "rail"
+          ],
+          "constat": "Ouverture1892, exploitation étatique1930"
+        },
+        {
+          "source_id": "src-17-tr-sumerbank-polatoglu2021",
+          "locator": "note57 ; production1944",
+          "roles": [
+            "industrie"
+          ],
+          "constat": "Merinos1938, activité1944."
+        },
+        {
+          "source_id": "src-17-tr-tbb-population1940",
+          "locator": "Tableau1940, ligneBursa",
+          "roles": [
+            "grande_ville"
+          ],
+          "constat": "Population urbaine recensée en1940 : 77598 ; sélection de grande ville."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-tr-izmir",
+      "nom_date": "İzmir",
+      "zone": "tr-egee",
+      "decision": "propose",
+      "rang": "A",
+      "motif": "Priorité de zoom A ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "rail",
+        "industrie",
+        "port_maritime"
+      ],
+      "roles_non_importes": [
+        "grande_ville"
+      ],
+      "preuves": [
+        {
+          "source_id": "src-17-tr-atam-rail-as2021",
+          "locator": "Nationalisation İzmir–Aydın",
+          "roles": [
+            "rail"
+          ],
+          "constat": "Rachat1935"
+        },
+        {
+          "source_id": "src-17-tr-sumerbank-polatoglu2021",
+          "locator": "production1944",
+          "roles": [
+            "industrie"
+          ],
+          "constat": "Textile à Halkapınar1944."
+        },
+        {
+          "source_id": "src-17-tr-tbb-population1940",
+          "locator": "Tableau1940, ligneİzmir",
+          "roles": [
+            "grande_ville"
+          ],
+          "constat": "Population urbaine recensée en1940 : 183762 ; sélection de grande ville."
+        },
+        {
+          "source_id": "src-17-tr-atam-ports2019",
+          "locator": "§1935,note55",
+          "roles": [
+            "port_maritime"
+          ],
+          "constat": "Port exploité et réorganisé en1935."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-tr-aydin",
+      "nom_date": "Aydın",
+      "zone": "tr-egee",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "rail"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-17-tr-atam-rail-as2021",
+          "locator": "Nationalisation İzmir–Aydın",
+          "roles": [
+            "rail"
+          ],
+          "constat": "Rachat1935"
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-ge-poti",
+      "nom_date": "Poti",
+      "zone": "georgie",
+      "decision": "propose",
+      "rang": "B",
+      "motif": "Priorité de zoom B ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "rail",
+        "port_maritime"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-17-ge-jrtr24-histoire2000",
+          "locator": "p.42",
+          "roles": [
+            "rail"
+          ],
+          "constat": "Ligne Poti–Tbilissi ouverte1872."
+        },
+        {
+          "source_id": "src-shpl-admin1940",
+          "locator": "p243/image247",
+          "roles": [
+            "rail"
+          ],
+          "constat": "Ville et gare homonyme dans le tableau des villes républicaines."
+        },
+        {
+          "source_id": "src-vayner-transport-guerre-ch4",
+          "locator": "pp194–196",
+          "roles": [
+            "port_maritime"
+          ],
+          "constat": "Départ de cargos et pétroliers versTouapsé avant l’élargissement des opérations en1944."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-ge-tbilissi",
+      "nom_date": "Tbilissi",
+      "zone": "georgie",
+      "decision": "propose",
+      "rang": "A",
+      "motif": "Priorité de zoom A ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "rail",
+        "capitale",
+        "administration"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-17-ge-jrtr24-histoire2000",
+          "locator": "p.42",
+          "roles": [
+            "rail"
+          ],
+          "constat": "Poti1872 et Bakou1883."
+        },
+        {
+          "source_id": "src-17-ge-zaria19401222",
+          "locator": "p2, articles énergie1940",
+          "roles": [
+            "rail",
+            "capitale",
+            "administration"
+          ],
+          "constat": "Ligne versKhachouri ; réunion annoncée dans la capitale deGéorgie p2."
+        },
+        {
+          "source_id": "src-shpl-admin1940",
+          "locator": "p243/image247",
+          "roles": [
+            "rail"
+          ],
+          "constat": "Ville et gare homonyme dans le tableau des villes républicaines."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-ge-borjomi",
+      "nom_date": "Borjomi",
+      "zone": "georgie",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "rail"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-17-ge-jrtr24-histoire2000",
+          "locator": "p.42–43",
+          "roles": [
+            "rail"
+          ],
+          "constat": "Branche1894, prolongement Bakouriani1901."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-ge-bakouriani",
+      "nom_date": "Bakouriani",
+      "zone": "georgie",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "rail"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-17-ge-jrtr24-histoire2000",
+          "locator": "p.43",
+          "roles": [
+            "rail"
+          ],
+          "constat": "Prolongement depuis Borjomi1901."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-az-bakou",
+      "nom_date": "Bakou",
+      "zone": "azerbaidjan",
+      "decision": "propose",
+      "rang": "A",
+      "motif": "Priorité de zoom A ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "rail",
+        "capitale",
+        "administration",
+        "industrie",
+        "port_maritime"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-17-ge-jrtr24-histoire2000",
+          "locator": "p.42",
+          "roles": [
+            "rail"
+          ],
+          "constat": "Ligne vers Tbilissi ouverte1883 pour transporter le pétrole."
+        },
+        {
+          "source_id": "src-shpl-admin1940",
+          "locator": "p236",
+          "roles": [
+            "capitale",
+            "administration"
+          ],
+          "constat": "Capitale de laRSS d’Azerbaïdjan dans le répertoire1940."
+        },
+        {
+          "source_id": "src-shpl-admin1940",
+          "locator": "p237/image241",
+          "roles": [
+            "rail"
+          ],
+          "constat": "Ville et gare homonyme attestées."
+        },
+        {
+          "source_id": "src-17-az-socar-histoire",
+          "locator": "1931 : craquage ;1941 : puits àBakou",
+          "roles": [
+            "industrie"
+          ],
+          "constat": "Raffinage et extraction pétrolière localisés àBakou avant1945."
+        },
+        {
+          "source_id": "src-vayner-transport-guerre-ch4",
+          "locator": "Section Морской нефтяной конвейер, pp.187–193, port de Bakou et transports pétroliers de guerre",
+          "roles": [
+            "port_maritime"
+          ],
+          "constat": "Port pétrolier de départ vers la Caspienne pendant la guerre."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-tr-kirikkale",
+      "nom_date": "Kırıkkale",
+      "zone": "tr-centre",
+      "decision": "propose",
+      "rang": "B",
+      "motif": "Priorité de zoom B ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "industrie"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-17-tr-mke-kirikkale1925",
+          "locator": "§1925/1928",
+          "roles": [
+            "industrie"
+          ],
+          "constat": "Groupe d’usines militaires et production électrique avant1930."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-tr-eregli-konya",
+      "nom_date": "Ereğli",
+      "zone": "tr-centre",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "industrie"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-17-tr-sumerbank-polatoglu2021",
+          "locator": "note57 ; production1944",
+          "roles": [
+            "industrie"
+          ],
+          "constat": "Textile1937, activité1944."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-tr-nazilli",
+      "nom_date": "Nazilli",
+      "zone": "tr-egee",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "industrie"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-17-tr-sumerbank-polatoglu2021",
+          "locator": "note57 ; production1944",
+          "roles": [
+            "industrie"
+          ],
+          "constat": "Textile1937, activité1944."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-tr-gemlik",
+      "nom_date": "Gemlik",
+      "zone": "tr-marmara",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "industrie",
+        "port_maritime"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-17-tr-sumerbank-polatoglu2021",
+          "locator": "note57 ; production1944",
+          "roles": [
+            "industrie"
+          ],
+          "constat": "Soie artificielle1938, activité1944."
+        },
+        {
+          "source_id": "src-17-tr-sehirhatlari-histoire",
+          "locator": "Dessertes des débarcadères en1844",
+          "roles": [
+            "port_maritime"
+          ],
+          "constat": "Débarcadère explicitement desservi dans l’histoire du réseau."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-tr-izmit",
+      "nom_date": "İzmit",
+      "zone": "tr-marmara",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "industrie",
+        "port_maritime"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-17-tr-sumerbank-polatoglu2021",
+          "locator": "note57 ; production1944",
+          "roles": [
+            "industrie"
+          ],
+          "constat": "Papier1936, cellulose et papier1944."
+        },
+        {
+          "source_id": "src-17-tr-sehirhatlari-histoire",
+          "locator": "Dessertes des débarcadères en1844",
+          "roles": [
+            "port_maritime"
+          ],
+          "constat": "Débarcadère explicitement desservi dans l’histoire du réseau."
+        },
+        {
+          "source_id": "src-17-tr-atam-ports2019",
+          "locator": "note63,décision22mai1943",
+          "roles": [
+            "port_maritime"
+          ],
+          "constat": "Débarcadères exploités transférés en1943."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-tr-karabuk",
+      "nom_date": "Karabük",
+      "zone": "tr-mer-noire",
+      "decision": "propose",
+      "rang": "B",
+      "motif": "Priorité de zoom B ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "industrie"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-17-tr-sumerbank-polatoglu2021",
+          "locator": "note57 ; production1944",
+          "roles": [
+            "industrie"
+          ],
+          "constat": "Sidérurgie1939, activité1944."
+        },
+        {
+          "source_id": "src-17-tr-mta-mines1944",
+          "locator": "p.160/PDF4",
+          "roles": [
+            "industrie"
+          ],
+          "constat": "Cokerie1939 et production1944."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-tr-hereke",
+      "nom_date": "Hereke",
+      "zone": "tr-marmara",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "industrie"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-17-tr-sumerbank-polatoglu2021",
+          "locator": "production1944",
+          "roles": [
+            "industrie"
+          ],
+          "constat": "Textile1944."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-tr-bunyan",
+      "nom_date": "Bünyan",
+      "zone": "tr-centre",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "industrie"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-17-tr-sumerbank-polatoglu2021",
+          "locator": "production1944",
+          "roles": [
+            "industrie"
+          ],
+          "constat": "Textile1944."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-tr-zonguldak",
+      "nom_date": "Zonguldak",
+      "zone": "tr-mer-noire",
+      "decision": "propose",
+      "rang": "B",
+      "motif": "Priorité de zoom B ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "port_maritime"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-17-tr-mta-mines1944",
+          "locator": "p.159/PDF3",
+          "roles": [
+            "port_maritime"
+          ],
+          "constat": "Ports Ereğli–Zonguldak expédiant du charbon1944."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-tr-eregli-mer-noire",
+      "nom_date": "Ereğli",
+      "zone": "tr-mer-noire",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "port_maritime"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-17-tr-mta-mines1944",
+          "locator": "p.159/PDF3",
+          "roles": [
+            "port_maritime"
+          ],
+          "constat": "Port nommé pour les expéditions de charbon1944."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-tr-soma",
+      "nom_date": "Soma",
+      "zone": "tr-egee",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "industrie"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-17-tr-mta-mines1944",
+          "locator": "p.162–163/PDF6–7",
+          "roles": [
+            "industrie"
+          ],
+          "constat": "Lignite de Soma dans l’exploitation occidentale1944."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-tr-keciborlu",
+      "nom_date": "Keçiborlu",
+      "zone": "tr-centre",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "industrie"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-17-tr-mta-mines1944",
+          "locator": "p.170/PDF14",
+          "roles": [
+            "industrie"
+          ],
+          "constat": "Soufre produit au premier semestre1944."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-ru-novorossiisk",
+      "nom_date": "Novorossiisk",
+      "zone": "ru-kouban",
+      "decision": "propose",
+      "rang": "B",
+      "motif": "Priorité de zoom B ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "port_maritime"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-rosmorport-taganrog-reparation-1943",
+          "locator": "Historique Novorossiisk,octobre1944",
+          "roles": [
+            "port_maritime"
+          ],
+          "constat": "Reprise officielle du port en octobre1944, reconstruction complète seulement1950."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-ru-ieisk",
+      "nom_date": "Ieïsk",
+      "zone": "ru-kouban",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "port_maritime"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-rosmorport-taganrog-reparation-1943",
+          "locator": "Historique Ieïsk,1944",
+          "roles": [
+            "port_maritime"
+          ],
+          "constat": "Reconstruction achevée1944."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-ru-temriouk",
+      "nom_date": "Temriouk",
+      "zone": "ru-kouban",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "port_maritime"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-rosmorport-taganrog-reparation-1943",
+          "locator": "Historique Temriouk,septembre1943–mai1944",
+          "roles": [
+            "port_maritime"
+          ],
+          "constat": "Restauration et déblaiement du port1943–1944 ; débit inconnu."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-ru-touapse",
+      "nom_date": "Touapsé",
+      "zone": "ru-kouban",
+      "decision": "propose",
+      "rang": "B",
+      "motif": "Priorité de zoom B ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "port_maritime",
+        "rail",
+        "industrie"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-rosmorport-taganrog-reparation-1943",
+          "locator": "Historique Touapsé,1914 et1930–1945",
+          "roles": [
+            "port_maritime",
+            "rail"
+          ],
+          "constat": "Rail1914, quai pétrolier1930 ; exploitation maritime maintenue durant la guerre."
+        },
+        {
+          "source_id": "src-vayner-transport-guerre-ch4",
+          "locator": "pp194–196",
+          "roles": [
+            "port_maritime",
+            "industrie"
+          ],
+          "constat": "Transports de ravitaillement et ateliers de réparation navale en1944."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-ru-sotchi",
+      "nom_date": "Sotchi",
+      "zone": "ru-kouban",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "port_maritime",
+        "militaire",
+        "rail"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-rosmorport-taganrog-reparation-1943",
+          "locator": "Historique Sotchi,1934",
+          "roles": [
+            "port_maritime"
+          ],
+          "constat": "Port de troisième catégorie et organisation maritime1934."
+        },
+        {
+          "source_id": "src-17-ru-sotchi-hopitaux",
+          "locator": "PDF p7 et13",
+          "roles": [
+            "militaire",
+            "rail"
+          ],
+          "constat": "Trains sanitaires attestés dèsaoût1941 ; base hospitalière spécialisée active en1943–1944."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-ru-vladikavkaz",
+      "nom_date": "Dzaoudjikaou",
+      "zone": "ru-caucase-central",
+      "decision": "propose",
+      "rang": "B",
+      "motif": "Priorité de zoom B ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "administration"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-17-ru-dzaoudjikaou-decret1944",
+          "locator": "Intitulé et date",
+          "roles": [
+            "administration"
+          ],
+          "constat": "Capitale de la RSSA d’Ossétie du Nord renommée le28/02/1944."
+        },
+        {
+          "source_id": "src-neb-admin1944-supplement",
+          "locator": "p.79/image81",
+          "roles": [
+            "administration"
+          ],
+          "constat": "Capitale renommée28/02/1944."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-ru-grozny",
+      "nom_date": "Grozny",
+      "zone": "ru-caucase-central",
+      "decision": "propose",
+      "rang": "B",
+      "motif": "Priorité de zoom B ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "administration",
+        "rail",
+        "industrie"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-neb-admin1944-supplement",
+          "locator": "p.13/image15",
+          "roles": [
+            "administration",
+            "rail"
+          ],
+          "constat": "Centre de l’oblast créée22/03/1944, ville avec gare."
+        },
+        {
+          "source_id": "src-neb-admin1944-supplement",
+          "locator": "p14/image16, tableau villes",
+          "roles": [
+            "rail"
+          ],
+          "constat": "Gare homonyme sans distance externe dans le tableau des villes1944."
+        },
+        {
+          "source_id": "src-17-ru-grozny-petrole2019",
+          "locator": "Findings :1943 puis1944",
+          "roles": [
+            "industrie"
+          ],
+          "constat": "Raffineries et ateliers mécaniques remis en fonctionnement en1943 ; poursuite de la production1944."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-ru-goudermes",
+      "nom_date": "Goudermes",
+      "zone": "ru-caucase-central",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "rail"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-neb-admin1944-supplement",
+          "locator": "p.13/image15",
+          "roles": [
+            "rail"
+          ],
+          "constat": "Ville avec gare ; rôle de jonction à compléter."
+        },
+        {
+          "source_id": "src-neb-admin1944-supplement",
+          "locator": "p14/image16, tableau villes",
+          "roles": [
+            "rail"
+          ],
+          "constat": "Gare homonyme sans distance externe dans le tableau des villes1944."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-ru-kizliar",
+      "nom_date": "Kizliar",
+      "zone": "ru-caucase-central",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "rail"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-neb-admin1944-supplement",
+          "locator": "p.13/image15",
+          "roles": [
+            "rail"
+          ],
+          "constat": "Ville avec gare, oblast de Grozny."
+        },
+        {
+          "source_id": "src-neb-admin1944-supplement",
+          "locator": "p14/image16, tableau villes",
+          "roles": [
+            "rail"
+          ],
+          "constat": "Gare homonyme sans distance externe dans le tableau des villes1944."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-ru-stavropol",
+      "nom_date": "Stavropol",
+      "zone": "ru-stavropol",
+      "decision": "propose",
+      "rang": "B",
+      "motif": "Priorité de zoom B ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "administration"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-neb-admin1944-supplement",
+          "locator": "p.55/image57 du lot1.6",
+          "roles": [
+            "administration"
+          ],
+          "constat": "Centre du kraï ; Vorochilovsk renomméeStavropol12/01/1943."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-ru-mozdok",
+      "nom_date": "Mozdok",
+      "zone": "ru-caucase-central",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "rail"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-neb-admin1944-supplement",
+          "locator": "p.79/image81",
+          "roles": [],
+          "constat": "Ville transférée à la RSSA d’Ossétie du Nord01/03/1944."
+        },
+        {
+          "source_id": "src-jdv-tome3-bielorussie-1944",
+          "locator": "p181",
+          "roles": [
+            "rail"
+          ],
+          "constat": "Ville et gare, reprise des travaux3janvier1943."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-ru-malgobek",
+      "nom_date": "Malgobek",
+      "zone": "ru-caucase-central",
+      "decision": "differe",
+      "motif": "Le transfert administratif de 1944 est attesté ; rôle industriel local et centre de peuplement à étayer avant sélection.",
+      "reserve": "R17-20",
+      "preuves": [
+        {
+          "source_id": "src-neb-admin1944-supplement",
+          "locator": "p.79/image81",
+          "roles": [],
+          "constat": "Ville transférée à la RSSA d’Ossétie du Nord07/03/1944."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-ru-beslan",
+      "nom_date": "Iriston",
+      "zone": "ru-caucase-central",
+      "decision": "differe",
+      "motif": "L’identité entre le centre Toulátovo/Iriston du répertoire et le peuplement de la gare Beslan reste à corroborer.",
+      "reserve": "R17-21",
+      "preuves": [
+        {
+          "source_id": "src-neb-admin1944-supplement",
+          "locator": "p.79/image81",
+          "roles": [],
+          "constat": "Centre Toulátovo renomméIriston29/04/1941 ; identité avecBeslan à recouper."
+        },
+        {
+          "source_id": "src-jdv-tome3-bielorussie-1944",
+          "locator": "p182",
+          "roles": [
+            "rail"
+          ],
+          "constat": "BrancheBeslan–Prokhladnaïa dans les travaux1943."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-ru-nazran",
+      "nom_date": "Kosta Khetagourova",
+      "zone": "ru-caucase-central",
+      "decision": "differe",
+      "motif": "Renommage attesté en 1944 ; fonction structurante et centre représentatif non suffisamment établis.",
+      "reserve": "R17-22",
+      "preuves": [
+        {
+          "source_id": "src-neb-admin1944-supplement",
+          "locator": "p.79/image81",
+          "roles": [],
+          "constat": "Nazran renomméeKosta Khetagourova29/04/1944."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-ru-makhatchkala",
+      "nom_date": "Makhatchkala",
+      "zone": "ru-daghestan",
+      "decision": "propose",
+      "rang": "B",
+      "motif": "Priorité de zoom B ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "port_maritime",
+        "rail",
+        "administration"
+      ],
+      "roles_non_importes": [
+        "logistique"
+      ],
+      "preuves": [
+        {
+          "source_id": "src-17-ru-makhatchkala-port-guerre",
+          "locator": "24 juin1942 : coordination port/rail ; mars1944 : emploi portuaire",
+          "roles": [
+            "port_maritime",
+            "rail",
+            "logistique"
+          ],
+          "constat": "Transbordement ferroviaire et maritime de charges évacuées en1942 ; manutention encore attestée en1944."
+        },
+        {
+          "source_id": "src-17-rsfsr-admin1940-ocr",
+          "locator": "p372",
+          "roles": [
+            "administration"
+          ],
+          "constat": "Capitale deRSSA."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-am-gyumri",
+      "nom_date": "Leninakan",
+      "zone": "armenie",
+      "decision": "propose",
+      "rang": "B",
+      "motif": "Priorité de zoom B ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "rail",
+        "industrie"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-17-am-rail-musee",
+          "locator": "1899 : premier train à Alexandropol",
+          "roles": [
+            "rail"
+          ],
+          "constat": "Desserte ferroviaire locale attestée avant1945."
+        },
+        {
+          "source_id": "src-shpl-admin1940",
+          "locator": "p249/image253",
+          "roles": [
+            "rail"
+          ],
+          "constat": "Ville et gare homonyme attestées ; forme du nom datée."
+        },
+        {
+          "source_id": "src-17-am-zaria19381201",
+          "locator": "p2, article anniversaire1938",
+          "roles": [
+            "industrie"
+          ],
+          "constat": "Combinats textile et viande nommés."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-am-erevan",
+      "nom_date": "Erevan",
+      "zone": "armenie",
+      "decision": "propose",
+      "rang": "A",
+      "motif": "Priorité de zoom A ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "rail",
+        "capitale",
+        "administration"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-17-am-rail-musee",
+          "locator": "1902 : ouverture Alexandropol–Erevan",
+          "roles": [
+            "rail"
+          ],
+          "constat": "Desserte ferroviaire locale attestée avant1945."
+        },
+        {
+          "source_id": "src-shpl-admin1940",
+          "locator": "p248/image252",
+          "roles": [
+            "capitale",
+            "administration"
+          ],
+          "constat": "Capitale deRSS arménienne explicitement nommée."
+        },
+        {
+          "source_id": "src-shpl-admin1940",
+          "locator": "p249/image253",
+          "roles": [
+            "rail"
+          ],
+          "constat": "Ville et gare homonyme attestées ; forme du nom datée."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-tr-tekirdag",
+      "nom_date": "Tekirdağ",
+      "zone": "tr-thrace",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "port_maritime"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-17-tr-sehirhatlari-histoire",
+          "locator": "Dessertes des débarcadères en1844",
+          "roles": [
+            "port_maritime"
+          ],
+          "constat": "Débarcadère explicitement desservi dans l’histoire du réseau."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-tr-yalova",
+      "nom_date": "Yalova",
+      "zone": "tr-marmara",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "port_maritime"
+      ],
+      "roles_non_importes": [
+        "passage"
+      ],
+      "preuves": [
+        {
+          "source_id": "src-17-tr-sehirhatlari-histoire",
+          "locator": "LigneMarmara d’AKAY1933",
+          "roles": [
+            "port_maritime",
+            "passage"
+          ],
+          "constat": "Desserte maritime nommée en1933."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-tr-gaziantep",
+      "nom_date": "Gaziantep",
+      "zone": "tr-est",
+      "decision": "propose",
+      "rang": "B",
+      "motif": "Priorité de zoom B ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [],
+      "roles_non_importes": [
+        "grande_ville"
+      ],
+      "preuves": [
+        {
+          "source_id": "src-17-tr-tbb-population1940",
+          "locator": "Tableau1940, ligneGaziantep",
+          "roles": [
+            "grande_ville"
+          ],
+          "constat": "Population urbaine recensée en1940 : 57132 ; sélection de grande ville."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-az-nakhitchevan",
+      "nom_date": "Nakhitchevan",
+      "zone": "azerbaidjan",
+      "decision": "propose",
+      "rang": "B",
+      "motif": "Priorité de zoom B ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "administration",
+        "rail"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-shpl-admin1940",
+          "locator": "p240, image244 du lecteur",
+          "roles": [
+            "administration",
+            "rail"
+          ],
+          "constat": "Capitale deRSSA et gare homonyme dans le tableau1940."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-ge-tkvarcheli",
+      "nom_date": "Tkvarcheli",
+      "zone": "georgie",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "charbon",
+        "industrie"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-neb-admin1944-supplement",
+          "locator": "p84/image86",
+          "roles": [],
+          "constat": "Passage du bourg ouvrier au statut de ville le9avril1942 ; Akarmara incorporée le même jour."
+        },
+        {
+          "source_id": "src-17-ge-zaria19410212",
+          "locator": "p3,paragraphesjanvier1941",
+          "roles": [
+            "charbon",
+            "industrie"
+          ],
+          "constat": "Mineurs et extraction de charbon localisés àTkvarcheli enjanvier1941."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-tr-trabzon",
+      "nom_date": "Trabzon",
+      "zone": "tr-mer-noire",
+      "decision": "propose",
+      "rang": "B",
+      "motif": "Priorité de zoom B ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "port_maritime"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-17-tr-atam-ports2019",
+          "locator": "§1937,note55",
+          "roles": [
+            "port_maritime"
+          ],
+          "constat": "Port doté du nouveau statut juridique en1937 ; agrandissement projeté pour1945 exclu."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-tr-erdek",
+      "nom_date": "Erdek",
+      "zone": "tr-marmara",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "port_maritime"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-17-tr-atam-ports2019",
+          "locator": "note63,décision22mai1943",
+          "roles": [
+            "port_maritime"
+          ],
+          "constat": "Débarcadères exploités transférés en1943."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-tr-mersin",
+      "nom_date": "Mersin",
+      "zone": "tr-mediterranee",
+      "decision": "propose",
+      "rang": "B",
+      "motif": "Priorité de zoom B ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "port_maritime",
+        "rail"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-17-tr-atam-ports2019",
+          "locator": "note59,13avril1942",
+          "roles": [
+            "port_maritime"
+          ],
+          "constat": "Cinq débarcadères municipaux transférés en1942."
+        },
+        {
+          "source_id": "src-17-tr-frus19411128-chrome",
+          "locator": "§1 et6 : ports accessibles",
+          "roles": [
+            "port_maritime"
+          ],
+          "constat": "Port cité parmi les débouchés accessibles ennovembre1941."
+        },
+        {
+          "source_id": "src-17-tr-mersin-tarsus-histoire",
+          "locator": "LiaisonMersin–Tarsus–Adana,avant1926",
+          "roles": [
+            "rail"
+          ],
+          "constat": "Desserte ferroviaire urbaine attestée avant leSnapshot."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-tr-bandirma",
+      "nom_date": "Bandırma",
+      "zone": "tr-marmara",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "port_maritime"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-17-tr-atam-ports2019",
+          "locator": "note68",
+          "roles": [
+            "port_maritime"
+          ],
+          "constat": "Débarcadère exploité par l’État depuis1943, transfert juridique ultérieur."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-tr-derince",
+      "nom_date": "Derince",
+      "zone": "tr-marmara",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "port_maritime"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-17-tr-derince-histoire",
+          "locator": "1904 et1936",
+          "roles": [
+            "port_maritime"
+          ],
+          "constat": "Port ouvert en1904, peuplement de travailleurs puis installation de migrants en1936."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-ge-tchiatoura",
+      "nom_date": "Tchiatoura",
+      "zone": "georgie",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "industrie",
+        "minerai",
+        "rail"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-17-ge-gm-manganese",
+          "locator": "Exploitation1879 ; railversChorapani1895 ; concession1925–1928",
+          "roles": [
+            "industrie",
+            "minerai",
+            "rail"
+          ],
+          "constat": "Extraction de manganèse et liaison ferroviaire locale antérieures auSnapshot."
+        },
+        {
+          "source_id": "src-17-ge-zaria19401222",
+          "locator": "p2, articles énergie1940",
+          "roles": [
+            "industrie",
+            "minerai"
+          ],
+          "constat": "Mines mentionnées parmi les clients électriques en1940."
+        },
+        {
+          "source_id": "src-shpl-admin1940",
+          "locator": "p244/image248",
+          "roles": [
+            "rail"
+          ],
+          "constat": "Ville ou bourg et gare homonyme sans distance externe au tableau."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-ge-zestafoni",
+      "nom_date": "Zestafoni",
+      "zone": "georgie",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "industrie",
+        "rail"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-17-ge-gm-manganese",
+          "locator": "Première coulée30octobre1933 ; variétés1937",
+          "roles": [
+            "industrie"
+          ],
+          "constat": "Usine de ferroalliages en production avant1945."
+        },
+        {
+          "source_id": "src-17-ge-zaria19401222",
+          "locator": "p2, articles énergie1940",
+          "roles": [
+            "industrie",
+            "rail"
+          ],
+          "constat": "Usine de ferroalliages ; segments ferroviaires versKhachouri etSamtredia."
+        },
+        {
+          "source_id": "src-shpl-admin1940",
+          "locator": "p244/image248",
+          "roles": [
+            "rail"
+          ],
+          "constat": "Ville ou bourg et gare homonyme sans distance externe au tableau."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-ge-chorapani",
+      "nom_date": "Chorapani",
+      "zone": "georgie",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "rail"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-17-ge-gm-manganese",
+          "locator": "LiaisonChorapani–Tchiatoura1895",
+          "roles": [
+            "rail"
+          ],
+          "constat": "Gare nommée à l’origine de la branche minière."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-ge-tkibouli",
+      "nom_date": "Tkibouli",
+      "zone": "georgie",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "industrie",
+        "charbon",
+        "rail"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-17-ge-zaria19401222",
+          "locator": "p2, articles énergie1940",
+          "roles": [
+            "industrie",
+            "charbon"
+          ],
+          "constat": "Mines charbonnières mentionnées en1940."
+        },
+        {
+          "source_id": "src-shpl-admin1940",
+          "locator": "p244/image248",
+          "roles": [
+            "rail"
+          ],
+          "constat": "Ville ou bourg et gare homonyme sans distance externe au tableau."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-ge-khachouri",
+      "nom_date": "Khachouri",
+      "zone": "georgie",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "rail"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-17-ge-zaria19401222",
+          "locator": "p2, articles énergie1940",
+          "roles": [
+            "rail"
+          ],
+          "constat": "Segments électriques versTbilissi etZestafoni attestés en1940."
+        },
+        {
+          "source_id": "src-shpl-admin1940",
+          "locator": "p244/image248",
+          "roles": [
+            "rail"
+          ],
+          "constat": "Ville ou bourg et gare homonyme sans distance externe au tableau."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-ge-koutaissi",
+      "nom_date": "Koutaïssi",
+      "zone": "georgie",
+      "decision": "propose",
+      "rang": "B",
+      "motif": "Priorité de zoom B ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "rail"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-shpl-admin1940",
+          "locator": "p243/image247",
+          "roles": [
+            "rail"
+          ],
+          "constat": "Ville et gare homonyme dans le tableau des villes républicaines."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-ge-gori",
+      "nom_date": "Gori",
+      "zone": "georgie",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "rail"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-shpl-admin1940",
+          "locator": "p244/image248",
+          "roles": [
+            "rail"
+          ],
+          "constat": "Ville ou bourg et gare homonyme sans distance externe au tableau."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-ge-gourdjaani",
+      "nom_date": "Gourdjaani",
+      "zone": "georgie",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "rail"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-shpl-admin1940",
+          "locator": "p244/image248",
+          "roles": [
+            "rail"
+          ],
+          "constat": "Ville ou bourg et gare homonyme sans distance externe au tableau."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-ge-zougdidi",
+      "nom_date": "Zougdidi",
+      "zone": "georgie",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "rail"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-shpl-admin1940",
+          "locator": "p244/image248",
+          "roles": [
+            "rail"
+          ],
+          "constat": "Ville ou bourg et gare homonyme sans distance externe au tableau."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-ge-kaspi",
+      "nom_date": "Kaspi",
+      "zone": "georgie",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "rail"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-shpl-admin1940",
+          "locator": "p244/image248",
+          "roles": [
+            "rail"
+          ],
+          "constat": "Ville ou bourg et gare homonyme sans distance externe au tableau."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-ge-lantchkhouti",
+      "nom_date": "Lantchkhouti",
+      "zone": "georgie",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "rail"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-shpl-admin1940",
+          "locator": "p244/image248",
+          "roles": [
+            "rail"
+          ],
+          "constat": "Ville ou bourg et gare homonyme sans distance externe au tableau."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-ge-ozourgueti",
+      "nom_date": "Makharadze",
+      "zone": "georgie",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "rail"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-shpl-admin1940",
+          "locator": "p244/image248",
+          "roles": [
+            "rail"
+          ],
+          "constat": "Ville ou bourg et gare homonyme sans distance externe au tableau."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-ge-mtskheta",
+      "nom_date": "Mtskheta",
+      "zone": "georgie",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "rail"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-shpl-admin1940",
+          "locator": "p244/image248",
+          "roles": [
+            "rail"
+          ],
+          "constat": "Ville ou bourg et gare homonyme sans distance externe au tableau."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-ge-satchkhere",
+      "nom_date": "Satchkhere",
+      "zone": "georgie",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "rail"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-shpl-admin1940",
+          "locator": "p244/image248",
+          "roles": [
+            "rail"
+          ],
+          "constat": "Ville ou bourg et gare homonyme sans distance externe au tableau."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-ge-akhalkalaki",
+      "nom_date": "Akhalkalaki",
+      "zone": "georgie",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "administration"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-shpl-admin1940",
+          "locator": "p244/image248",
+          "roles": [
+            "administration"
+          ],
+          "constat": "Chef-lieu de district (рц) ; gare la plus proche à122km, aucun rôle ferroviaire attribué sur cette preuve."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-ge-akhaltsikhe",
+      "nom_date": "Akhaltsikhe",
+      "zone": "georgie",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "administration"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-shpl-admin1940",
+          "locator": "p244/image248",
+          "roles": [
+            "administration"
+          ],
+          "constat": "Chef-lieu de district (рц) ; gare la plus proche à52km, aucun rôle ferroviaire attribué sur cette preuve."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-ge-telavi",
+      "nom_date": "Telavi",
+      "zone": "georgie",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "administration"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-shpl-admin1940",
+          "locator": "p244/image248",
+          "roles": [
+            "administration"
+          ],
+          "constat": "Chef-lieu de district (рц) ; gare la plus proche à3km, aucun rôle ferroviaire attribué sur cette preuve."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-ge-soukhoumi",
+      "nom_date": "Soukhoumi",
+      "zone": "georgie",
+      "decision": "propose",
+      "rang": "B",
+      "motif": "Priorité de zoom B ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "administration",
+        "rail",
+        "port_maritime"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-shpl-admin1940",
+          "locator": "p245/image249",
+          "roles": [
+            "administration",
+            "rail"
+          ],
+          "constat": "Capitale deRSSA et gare locale nommées."
+        },
+        {
+          "source_id": "src-17-ge-ivanov-transports1943",
+          "locator": "Passageprécédantopération4–14février1943",
+          "roles": [
+            "port_maritime"
+          ],
+          "constat": "Départ de transports maritimes de troupes et ravitaillement en1943."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-ge-tskhinvali",
+      "nom_date": "Stalinir",
+      "zone": "georgie",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "administration"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-shpl-admin1940",
+          "locator": "p247/image251",
+          "roles": [
+            "administration"
+          ],
+          "constat": "Centre de l’oblast autonome d’Ossétie duSud nomméСталинир ; gareGori à32km."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-am-alaverdi",
+      "nom_date": "Alaverdi",
+      "zone": "armenie",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "rail",
+        "industrie",
+        "minerai"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-shpl-admin1940",
+          "locator": "p250/image254",
+          "roles": [
+            "rail"
+          ],
+          "constat": "Ville ou bourg avec gare homonyme sans distance externe dans le tableau1940."
+        },
+        {
+          "source_id": "src-17-am-zaria19381201",
+          "locator": "p2, article anniversaire1938",
+          "roles": [
+            "industrie",
+            "minerai"
+          ],
+          "constat": "Mines reconstruites nommées."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-am-artik",
+      "nom_date": "Artik",
+      "zone": "armenie",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "rail"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-shpl-admin1940",
+          "locator": "p250/image254",
+          "roles": [
+            "rail"
+          ],
+          "constat": "Ville ou bourg avec gare homonyme sans distance externe dans le tableau1940."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-am-akhtala",
+      "nom_date": "Akhtala",
+      "zone": "armenie",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "rail"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-shpl-admin1940",
+          "locator": "p250/image254",
+          "roles": [
+            "rail"
+          ],
+          "constat": "Ville ou bourg avec gare homonyme sans distance externe dans le tableau1940."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-am-kapan",
+      "nom_date": "Kafan",
+      "zone": "armenie",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "rail"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-shpl-admin1940",
+          "locator": "p250/image254",
+          "roles": [
+            "rail"
+          ],
+          "constat": "Ville ou bourg avec gare homonyme sans distance externe dans le tableau1940."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-am-vanadzor",
+      "nom_date": "Kirovakan",
+      "zone": "armenie",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "rail",
+        "industrie"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-shpl-admin1940",
+          "locator": "p250/image254",
+          "roles": [
+            "rail"
+          ],
+          "constat": "Ville ou bourg avec gare homonyme sans distance externe dans le tableau1940."
+        },
+        {
+          "source_id": "src-17-am-zaria19381201",
+          "locator": "p2, article anniversaire1938",
+          "roles": [
+            "industrie"
+          ],
+          "constat": "Combinat chimique nommé."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-am-goris",
+      "nom_date": "Goris",
+      "zone": "armenie",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "administration"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-shpl-admin1940",
+          "locator": "p250/image254",
+          "roles": [
+            "administration"
+          ],
+          "constat": "Chef-lieu de district ; gare éloignée de65km."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-am-dilidjan",
+      "nom_date": "Dilidjan",
+      "zone": "armenie",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "administration"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-shpl-admin1940",
+          "locator": "p250/image254",
+          "roles": [
+            "administration"
+          ],
+          "constat": "Chef-lieu de district ; gare éloignée de41km."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-am-sevan",
+      "nom_date": "Sevan",
+      "zone": "armenie",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "administration"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-shpl-admin1940",
+          "locator": "p250/image254",
+          "roles": [
+            "administration"
+          ],
+          "constat": "Chef-lieu de district ; gare éloignée de66km."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-am-vagharshapat",
+      "nom_date": "Vagharshapat",
+      "zone": "armenie",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "administration"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-shpl-admin1940",
+          "locator": "p250/image254",
+          "roles": [
+            "administration"
+          ],
+          "constat": "Chef-lieu de district ; gare éloignée de9km."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-am-hrazdan",
+      "nom_date": "Nijniaïa Akhta",
+      "zone": "armenie",
+      "decision": "differe",
+      "motif": "Nijniaïa Akhta, chef-lieu rural de 1940, ne suffit pas à identifier le point de la ville moderne de Hrazdan.",
+      "reserve": "R17-23",
+      "preuves": [
+        {
+          "source_id": "src-shpl-admin1940",
+          "locator": "p248/image252",
+          "roles": [],
+          "constat": "Chef-lieu rural dans le tableau1940, gareErevan à49km."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-az-gandja",
+      "nom_date": "Kirovabad",
+      "zone": "azerbaidjan",
+      "decision": "propose",
+      "rang": "B",
+      "motif": "Priorité de zoom B ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "rail"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-shpl-admin1940",
+          "locator": "p237/image241",
+          "roles": [
+            "rail"
+          ],
+          "constat": "Ville ou bourg avec gare homonyme dans le répertoire1940."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-az-agstafa",
+      "nom_date": "Akstafa",
+      "zone": "azerbaidjan",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "rail"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-shpl-admin1940",
+          "locator": "p238/image242",
+          "roles": [
+            "rail"
+          ],
+          "constat": "Ville ou bourg avec gare homonyme dans le répertoire1940."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-az-alat",
+      "nom_date": "Alat",
+      "zone": "azerbaidjan",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "rail"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-shpl-admin1940",
+          "locator": "p238/image242",
+          "roles": [
+            "rail"
+          ],
+          "constat": "Ville ou bourg avec gare homonyme dans le répertoire1940."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-az-yevlakh",
+      "nom_date": "Ievlakh",
+      "zone": "azerbaidjan",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "rail"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-shpl-admin1940",
+          "locator": "p238/image242",
+          "roles": [
+            "rail"
+          ],
+          "constat": "Ville ou bourg avec gare homonyme dans le répertoire1940."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-az-kurdamir",
+      "nom_date": "Kiourdamir",
+      "zone": "azerbaidjan",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "rail"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-shpl-admin1940",
+          "locator": "p239/image243",
+          "roles": [
+            "rail"
+          ],
+          "constat": "Ville ou bourg avec gare homonyme dans le répertoire1940."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-az-tovuz",
+      "nom_date": "Taouz",
+      "zone": "azerbaidjan",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "rail"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-shpl-admin1940",
+          "locator": "p239/image243",
+          "roles": [
+            "rail"
+          ],
+          "constat": "Ville ou bourg avec gare homonyme dans le répertoire1940."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-az-ujar",
+      "nom_date": "Oudjary",
+      "zone": "azerbaidjan",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "rail"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-shpl-admin1940",
+          "locator": "p239/image243",
+          "roles": [
+            "rail"
+          ],
+          "constat": "Ville ou bourg avec gare homonyme dans le répertoire1940."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-az-khudat",
+      "nom_date": "Khoudat",
+      "zone": "azerbaidjan",
+      "decision": "differe",
+      "motif": "Deux peuplements GeoNames proches portent Khudat ; rattachement de la gare et du noyau de 1940 non résolu. Aucun choix de point arbitraire.",
+      "reserve": "R17-24",
+      "preuves": [
+        {
+          "source_id": "src-shpl-admin1940",
+          "locator": "p239/image243",
+          "roles": [
+            "rail"
+          ],
+          "constat": "Ville ou bourg avec gare homonyme dans le répertoire1940."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-az-khachmaz",
+      "nom_date": "Khatchmas",
+      "zone": "azerbaidjan",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "rail"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-shpl-admin1940",
+          "locator": "p239/image243",
+          "roles": [
+            "rail"
+          ],
+          "constat": "Ville ou bourg avec gare homonyme dans le répertoire1940."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-az-lankaran",
+      "nom_date": "Lenkoran",
+      "zone": "azerbaidjan",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "port_maritime",
+        "administration"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-shpl-admin1940",
+          "locator": "p237 et239/images241 et243",
+          "roles": [
+            "port_maritime",
+            "administration"
+          ],
+          "constat": "Chef-lieu ; le tableau désigne le port deLenkoran comme desserte."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-az-chaki",
+      "nom_date": "Noukha",
+      "zone": "azerbaidjan",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "administration"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-shpl-admin1940",
+          "locator": "p239/image243",
+          "roles": [
+            "administration"
+          ],
+          "constat": "Centre administratif ; gare extérieure à80km."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-az-sabirabad",
+      "nom_date": "Sabirabad",
+      "zone": "azerbaidjan",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "administration"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-shpl-admin1940",
+          "locator": "p239/image243",
+          "roles": [
+            "administration"
+          ],
+          "constat": "Centre administratif ; gare extérieure à12km."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-az-gazakh",
+      "nom_date": "Kazakh",
+      "zone": "azerbaidjan",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "administration"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-shpl-admin1940",
+          "locator": "p238/image242",
+          "roles": [
+            "administration"
+          ],
+          "constat": "Centre administratif ; gare extérieure à9km."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-az-stepanakert",
+      "nom_date": "Stepanakert",
+      "zone": "azerbaidjan",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "administration"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-shpl-admin1940",
+          "locator": "p241/image245",
+          "roles": [
+            "administration"
+          ],
+          "constat": "Centre administratif ; gare extérieure à96km."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-az-choucha",
+      "nom_date": "Choucha",
+      "zone": "azerbaidjan",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "administration"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-shpl-admin1940",
+          "locator": "p241/image245",
+          "roles": [
+            "administration"
+          ],
+          "constat": "Centre administratif ; gare extérieure à112km."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-az-sumgait",
+      "nom_date": "Soumgaït",
+      "zone": "azerbaidjan",
+      "decision": "differe",
+      "motif": "Bourg et gare attestés en 1940 ; importance et point du peuplement ancien à préciser. Ne pas anticiper la ville industrielle de 1949.",
+      "reserve": "R17-25",
+      "preuves": [
+        {
+          "source_id": "src-shpl-admin1940",
+          "locator": "p239/image243",
+          "roles": [],
+          "constat": "Bourg et gare existent au répertoire1940."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-ru-prokhladny",
+      "nom_date": "Prokhladny",
+      "zone": "ru-caucase-central",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "rail"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-jdv-tome3-bielorussie-1944",
+          "locator": "p182–183",
+          "roles": [
+            "rail"
+          ],
+          "constat": "GareProkhladnaïa atteinte par la restauration enjanvier1943."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-ru-mineralnye-vody",
+      "nom_date": "Mineralnye Vody",
+      "zone": "ru-stavropol",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "rail"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-jdv-tome3-bielorussie-1944",
+          "locator": "p183–184",
+          "roles": [
+            "rail"
+          ],
+          "constat": "Restauration poursuivie depuis la gare en1943."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-ru-nevinnomyssk",
+      "nom_date": "Nevinnomyssk",
+      "zone": "ru-stavropol",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "rail"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-jdv-tome3-bielorussie-1944",
+          "locator": "p184–185",
+          "roles": [
+            "rail"
+          ],
+          "constat": "Charges ferroviaires accumulées aux approches en1943."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-ru-armavir",
+      "nom_date": "Armavir",
+      "zone": "ru-kouban",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "rail"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-jdv-tome3-bielorussie-1944",
+          "locator": "p184–185",
+          "roles": [
+            "rail"
+          ],
+          "constat": "Charges ferroviaires et voies en restauration1943."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-ru-kropotkine",
+      "nom_date": "Kropotkine",
+      "zone": "ru-kouban",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "rail"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-jdv-tome3-bielorussie-1944",
+          "locator": "p185",
+          "roles": [
+            "rail"
+          ],
+          "constat": "Circulation rétablieKavkazskaïa–Krasnodar enmars1943."
+        },
+        {
+          "source_id": "src-17-ru-kropotkine-ville",
+          "locator": "1874 et1921",
+          "roles": [
+            "rail"
+          ],
+          "constat": "GareKavkazskaïa identifiée à la ville devenueKropotkine en1921."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-ru-krasnodar",
+      "nom_date": "Krasnodar",
+      "zone": "ru-kouban",
+      "decision": "propose",
+      "rang": "B",
+      "motif": "Priorité de zoom B ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "rail",
+        "administration"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-jdv-tome3-bielorussie-1944",
+          "locator": "p185",
+          "roles": [
+            "rail"
+          ],
+          "constat": "Circulation rétablie enmars1943 ; capacité accrue enavril."
+        },
+        {
+          "source_id": "src-17-rsfsr-admin1940-ocr",
+          "locator": "rubriqueKrasnodar",
+          "roles": [
+            "administration"
+          ],
+          "constat": "Centre du kraï."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-ru-tikhoretsk",
+      "nom_date": "Tikhoretsk",
+      "zone": "ru-kouban",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "rail"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-jdv-tome3-bielorussie-1944",
+          "locator": "p180",
+          "roles": [
+            "rail"
+          ],
+          "constat": "LigneStalingrad–Tikhoretskaïa remise en service1943."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-ru-salsk",
+      "nom_date": "Salsk",
+      "zone": "ru-stavropol",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "rail"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-jdv-tome3-bielorussie-1944",
+          "locator": "p177–180",
+          "roles": [
+            "rail"
+          ],
+          "constat": "Reprise sur axeSarepta–Salsk–Bataïsk1942–1943."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-ru-derbent",
+      "nom_date": "Derbent",
+      "zone": "ru-daghestan",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "rail"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-17-rsfsr-admin1940-ocr",
+          "locator": "p372,ligne11",
+          "roles": [
+            "rail"
+          ],
+          "constat": "Gare locale dans le tableau1940."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-ru-bouinaksk",
+      "nom_date": "Bouïnaksk",
+      "zone": "ru-daghestan",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "rail"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-17-rsfsr-admin1940-ocr",
+          "locator": "p372,ligne7",
+          "roles": [
+            "rail"
+          ],
+          "constat": "Gare locale dans le tableau1940."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-ru-khassaviourt",
+      "nom_date": "Khassaviourt",
+      "zone": "ru-daghestan",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "rail"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-17-rsfsr-admin1940-ocr",
+          "locator": "p372,ligne29",
+          "roles": [
+            "rail"
+          ],
+          "constat": "Gare locale dans le tableau1940."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-ru-naltchik",
+      "nom_date": "Naltchik",
+      "zone": "ru-caucase-central",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "rail",
+        "administration"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-17-rsfsr-admin1940-ocr",
+          "locator": "rubriqueKabardino-Balkarie,table villes",
+          "roles": [
+            "rail"
+          ],
+          "constat": "Gare locale dans le tableau1940."
+        },
+        {
+          "source_id": "src-17-rsfsr-admin1940-ocr",
+          "locator": "rubriqueKabardino-Balkarie",
+          "roles": [
+            "administration"
+          ],
+          "constat": "Capitale deRSSA en1940."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-ru-piatigorsk",
+      "nom_date": "Piatigorsk",
+      "zone": "ru-stavropol",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "rail"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-17-rsfsr-admin1940-ocr",
+          "locator": "p47",
+          "roles": [
+            "rail"
+          ],
+          "constat": "Gare locale dans le tableau1940."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-ru-kislovodsk",
+      "nom_date": "Kislovodsk",
+      "zone": "ru-stavropol",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "rail"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-17-rsfsr-admin1940-ocr",
+          "locator": "p47",
+          "roles": [
+            "rail"
+          ],
+          "constat": "Gare locale dans le tableau1940."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-ru-iessentouki",
+      "nom_date": "Iessentouki",
+      "zone": "ru-stavropol",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "rail"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-17-rsfsr-admin1940-ocr",
+          "locator": "p47",
+          "roles": [
+            "rail"
+          ],
+          "constat": "Gare locale dans le tableau1940."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-ru-jeleznovodsk",
+      "nom_date": "Jeleznovodsk",
+      "zone": "ru-stavropol",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "rail"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-17-rsfsr-admin1940-ocr",
+          "locator": "p47",
+          "roles": [
+            "rail"
+          ],
+          "constat": "Gare locale dans le tableau1940."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-ru-boudionnovsk",
+      "nom_date": "Boudionnovsk",
+      "zone": "ru-stavropol",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "rail"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-17-rsfsr-admin1940-ocr",
+          "locator": "p48",
+          "roles": [
+            "rail"
+          ],
+          "constat": "Gare locale dans le tableau1940."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-ru-gueorguievsk",
+      "nom_date": "Gueorguievsk",
+      "zone": "ru-stavropol",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "rail"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-17-rsfsr-admin1940-ocr",
+          "locator": "p48",
+          "roles": [
+            "rail"
+          ],
+          "constat": "Gare locale dans le tableau1940."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-ru-maikop",
+      "nom_date": "Maïkop",
+      "zone": "ru-kouban",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "rail",
+        "administration"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-17-rsfsr-admin1940-ocr",
+          "locator": "rubriqueAdyguée,table villes",
+          "roles": [
+            "rail"
+          ],
+          "constat": "Gare locale dans le tableau1940."
+        },
+        {
+          "source_id": "src-17-rsfsr-admin1940-ocr",
+          "locator": "rubriqueAdyguée",
+          "roles": [
+            "administration"
+          ],
+          "constat": "Centre de l’oblast autonome."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-ru-adler",
+      "nom_date": "Adler",
+      "zone": "ru-kouban",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "rail"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-17-rsfsr-admin1940-ocr",
+          "locator": "p27,bours ouvriers",
+          "roles": [
+            "rail"
+          ],
+          "constat": "Gare locale dans le tableau1940."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-ru-anapa",
+      "nom_date": "Anapa",
+      "zone": "ru-kouban",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "administration"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-17-rsfsr-admin1940-ocr",
+          "locator": "p27,table villes",
+          "roles": [
+            "administration"
+          ],
+          "constat": "Chef-lieu de district ; gare extérieure."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-ru-guelendjik",
+      "nom_date": "Guelendjik",
+      "zone": "ru-kouban",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "administration"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-17-rsfsr-admin1940-ocr",
+          "locator": "p27,table villes",
+          "roles": [
+            "administration"
+          ],
+          "constat": "Chef-lieu de district ; gare extérieure."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-ru-kaspiisk",
+      "nom_date": "Dvigatelstroï",
+      "zone": "ru-daghestan",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "industrie",
+        "rail"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-17-ru-dvigatelstroi-histoire",
+          "locator": "1937–1940 etseptembre1943",
+          "roles": [
+            "industrie",
+            "rail"
+          ],
+          "constat": "Usine d’armement en production1937 ; liaison ferroviaire avant1940 ; restauration entreprise enseptembre1943."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-ru-izberbach",
+      "nom_date": "Izberbach",
+      "zone": "ru-daghestan",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "industrie"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-17-ru-izberbach-petrole",
+          "locator": "12avril1936",
+          "roles": [
+            "industrie"
+          ],
+          "constat": "Première extraction de pétrole au puits8 du bourg."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-tr-golcuk",
+      "nom_date": "Gölcük",
+      "zone": "tr-marmara",
+      "decision": "propose",
+      "rang": "B",
+      "motif": "Priorité de zoom B ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "base_navale",
+        "industrie",
+        "administration"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-17-tr-golcuk-histoire",
+          "locator": "1924 chantier ;1927 réparation ;1933 base ;1936 district",
+          "roles": [
+            "base_navale",
+            "industrie",
+            "administration"
+          ],
+          "constat": "Centre naval, ateliers de réparation et chef-lieu de district avant1945."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-tr-uzunkopru",
+      "nom_date": "Uzunköprü",
+      "zone": "tr-thrace",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "rail"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-17-tr-uzunkopru-histoire",
+          "locator": "1873 et1917",
+          "roles": [
+            "rail"
+          ],
+          "constat": "Gare attestée en1873 ; formeUzunköprü dans l’annuaire1917."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-tr-edirne",
+      "nom_date": "Edirne",
+      "zone": "tr-thrace",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "rail"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-17-tr-rail-tamcelik",
+          "locator": "p520",
+          "roles": [
+            "rail"
+          ],
+          "constat": "Liaison exploitée via territoire grec aprèsLausanne ; nationalisation1936–1937."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-tr-denizli",
+      "nom_date": "Denizli",
+      "zone": "tr-egee",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "rail"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-17-tr-rail-tamcelik",
+          "locator": "p502",
+          "roles": [
+            "rail"
+          ],
+          "constat": "Localité sur la liaison atteignantEğridir en1912."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-tr-egirdir",
+      "nom_date": "Eğridir",
+      "zone": "tr-centre",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "rail"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-17-tr-rail-tamcelik",
+          "locator": "p502",
+          "roles": [
+            "rail"
+          ],
+          "constat": "Terminus atteint en1912."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-tr-nusaybin",
+      "nom_date": "Nusaybin",
+      "zone": "tr-est",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "rail"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-17-tr-rail-tamcelik",
+          "locator": "p502",
+          "roles": [
+            "rail"
+          ],
+          "constat": "LiaisonKarkamış–Nusaybin ouverte en1917."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-tr-karkamis",
+      "nom_date": "Karkamış",
+      "zone": "tr-est",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "rail"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-17-tr-rail-tamcelik",
+          "locator": "p502",
+          "roles": [
+            "rail"
+          ],
+          "constat": "Liaisons ferroviaires attestées1912–1917."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-tr-kars",
+      "nom_date": "Kars",
+      "zone": "tr-est",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "rail"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-17-tr-kars-rail",
+          "locator": "1899–1918",
+          "roles": [
+            "rail"
+          ],
+          "constat": "Desserte ferroviaire locale antérieure auSnapshot."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-tr-tatvan",
+      "nom_date": "Tatvan",
+      "zone": "tr-est",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "ferry"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-17-tr-vangolu-cumhuriyet1936",
+          "locator": "p8 : voyagesVan–Tatvan et transfert du siège",
+          "roles": [
+            "ferry"
+          ],
+          "constat": "Service de voyageurs et marchandises déjà actif en1936 ; siège d’exploitation transféré àTatvan."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-tr-van",
+      "nom_date": "Van",
+      "zone": "tr-est",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "ferry"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-17-tr-vangolu-cumhuriyet1936",
+          "locator": "p8 : desserteVan–Tatvan et distance du débarcadère",
+          "roles": [
+            "ferry"
+          ],
+          "constat": "Desserte lacustre deVan en1936 par son débarcadère distant de9km."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-tr-gelibolu",
+      "nom_date": "Gelibolu",
+      "zone": "tr-thrace",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "administration"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-17-tr-gelibolu-administration",
+          "locator": "1926",
+          "roles": [
+            "administration"
+          ],
+          "constat": "Ancien chef-lieu provincial devenu chef-lieu de district deÇanakkale."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-tr-sanliurfa",
+      "nom_date": "Urfa",
+      "zone": "tr-est",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "administration"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-17-tr-tdv-sanliurfa",
+          "locator": "MetinTuncel,sectionBugünküŞanlıurfa",
+          "roles": [
+            "administration"
+          ],
+          "constat": "Chef-lieu provincial depuis20avril1924."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-tr-antalya",
+      "nom_date": "Antalya",
+      "zone": "tr-mediterranee",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "administration"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-17-tr-tdv-antalya",
+          "locator": "sectionBugünküAntalya",
+          "roles": [
+            "administration"
+          ],
+          "constat": "Chef-lieu provincial au début de laRépublique ; recensement1927."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-tr-canakkale",
+      "nom_date": "Çanakkale",
+      "zone": "tr-thrace",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "militaire"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-17-tr-tdv-canakkale",
+          "locator": "paragraphespopulation1927–1945",
+          "roles": [
+            "militaire"
+          ],
+          "constat": "Concentration de troupes pendant laSecondeGuerre mondiale."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-tr-rize",
+      "nom_date": "Rize",
+      "zone": "tr-mer-noire",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "administration"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-17-tr-tdv-rize",
+          "locator": "paragraphes1924,1933,1936/1947",
+          "roles": [
+            "administration"
+          ],
+          "constat": "Chef-lieu provincial de nouveau en1936."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-tr-giresun",
+      "nom_date": "Giresun",
+      "zone": "tr-mer-noire",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [],
+      "roles_non_importes": [
+        "grande_ville"
+      ],
+      "preuves": [
+        {
+          "source_id": "src-17-tr-tdv-giresun",
+          "locator": "paragraphes1940 et quartiers",
+          "roles": [
+            "grande_ville"
+          ],
+          "constat": "Centre urbain de plus de15000habitants en1940."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-tr-batman",
+      "nom_date": "İluh",
+      "zone": "tr-est",
+      "decision": "differe",
+      "motif": "İluh, gare de Batman, champ de Raman et raffinerie d’essai ne sont pas un même site urbain prouvé. Aucun point proposé.",
+      "reserve": "R17-26",
+      "preuves": [
+        {
+          "source_id": "src-17-tr-raman-mapeg1991",
+          "locator": "PassageMaymuneBoğazı1942",
+          "roles": [],
+          "constat": "Raffinerie d’essai située dans la régionRaman, avant les installations deBatman."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-tr-fethiye",
+      "nom_date": "Fethiye",
+      "zone": "tr-egee",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "port_maritime"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-17-tr-frus19411128-chrome",
+          "locator": "§3–5,stocks àFethiye et quatre bateaux affrétés",
+          "roles": [
+            "port_maritime"
+          ],
+          "constat": "Fethiye est un port de regroupement du chrome ennovembre1941."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-tr-mardin",
+      "nom_date": "Mardin",
+      "zone": "tr-est",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "administration"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-17-tr-admin-mardin",
+          "locator": "Sectionhistoire,paragrapheCumhuriyetbaşlarında",
+          "roles": [
+            "administration"
+          ],
+          "constat": "Chef-lieu provincial au début de laRépublique."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-tr-antakya",
+      "nom_date": "Antakya",
+      "zone": "tr-mediterranee",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "administration"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-17-tr-admin-antakya",
+          "locator": "Derniers paragraphes historiques,1939–1940",
+          "roles": [
+            "administration"
+          ],
+          "constat": "Chef-lieu duHatay en1939 ; ville recensée en1940."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-tr-ordu",
+      "nom_date": "Ordu",
+      "zone": "tr-mer-noire",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "administration"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-17-tr-admin-ordu",
+          "locator": "SectionOrduKazasınınİlOluşu,1920–1921",
+          "roles": [
+            "administration"
+          ],
+          "constat": "Centre administratif devenu chef-lieu provincial en1921."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-tr-maden",
+      "nom_date": "Maden",
+      "zone": "tr-est",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "industrie"
+      ],
+      "roles_non_importes": [
+        "minerai"
+      ],
+      "preuves": [
+        {
+          "source_id": "src-17-tr-maden-bakir-etude",
+          "locator": "Résumé,phraseproduction1939àMaden",
+          "roles": [
+            "industrie",
+            "minerai"
+          ],
+          "constat": "Usine de cuivreErgani entrée en production àMaden en1939."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-tr-tarsus",
+      "nom_date": "Tarsus",
+      "zone": "tr-mediterranee",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "rail"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-17-tr-mersin-tarsus-histoire",
+          "locator": "LiaisonMersin–Tarsus–Adana,avant1926",
+          "roles": [
+            "rail"
+          ],
+          "constat": "Desserte ferroviaire urbaine attestée avant leSnapshot."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-tr-kirklareli",
+      "nom_date": "Kırklareli",
+      "zone": "tr-thrace",
+      "decision": "propose",
+      "rang": "C",
+      "motif": "Priorité de zoom C ; fonctions locales sourcées ou centre urbain de 1940. Pas de quota.",
+      "roles_retenus": [
+        "rail"
+      ],
+      "roles_non_importes": [],
+      "preuves": [
+        {
+          "source_id": "src-17-tr-kirklareli-gare",
+          "locator": "GenelBilgiler1910–1912",
+          "roles": [
+            "rail"
+          ],
+          "constat": "Équipement de la gare locale construit pour les trains à vapeur en1910–1912."
+        }
+      ]
+    },
+    {
+      "entite_id": "ville-tr-alacakaya",
+      "nom_date": "Guleman",
+      "zone": "tr-est",
+      "decision": "differe",
+      "motif": "Village Guleman et cité industrielle distincts dans la notice ; fusion de 1987 exclue. Point habité de 1945 non résolu.",
+      "reserve": "R17-27",
+      "preuves": [
+        {
+          "source_id": "src-17-tr-guleman-localisation",
+          "locator": "1936–1939,distinctionvillage/centreminier",
+          "roles": [],
+          "constat": "Extraction de chrome dès1936 et établissement1939, village et cité industrielle distincts."
+        }
+      ]
+    }
+  ]
+}

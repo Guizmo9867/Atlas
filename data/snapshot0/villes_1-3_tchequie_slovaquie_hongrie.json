@@ -2110,7 +2110,7 @@
             "roles": [
               "rail"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.3) : Nœud ferroviaire du nord-est. Au dernier état avant minuit, ne pas absorber Diósgyőr ; la fusion datée du 1er janvier 1945 relève du ratissage temporel suivant. Date confirmée par Ether (S44, p. 102). Page 102 pas encore relue par Claude (document trop long pour l'outil) : dans « Sources à valider ». À renforcer : rail."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.3) : Nœud ferroviaire du nord-est. Au dernier état avant minuit, ne pas absorber Diósgyőr ; la fusion datée du 1er janvier 1945 relève du ratissage temporel suivant. Date confirmée par Ether (S44, p. 102). Page 102 pas encore relue par Claude (document trop long pour l'outil) : dans « Sources à valider »."
           },
           "geometrie": {
             "type": "Point",
@@ -2128,12 +2128,22 @@
             {
               "source_id": "src-13-hu-miskolc-histoire",
               "locator": "9 janvier 1870 : Hatvan–Miskolc ; Diósgyőr et Hejőcsaba rattachées en 1945.",
-              "usage": "preuve locale : rail (non vérifiée par Claude)"
+              "usage": "preuve locale : rail (validée par Guizmo pour 1945)"
             },
             {
               "source_id": "src-13-hu-miskolc-fusion",
               "locator": "Page imprimée 102, 102e page du PDF, index technique 101. Section sur les décennies d’après-guerre : date d’effet de Grand Miskolc puis liste des centres rattachés.",
               "usage": "date de la fusion (01/01/1945) (non vérifiée par Claude)"
+            },
+            {
+              "source_id": "src-guizmo-miskolc-tortenete",
+              "locator": "1870 : ligne Hatvan–Miskolc ; 1945 : Diósgyőr et Hejőcsaba rattachées",
+              "usage": "preuve locale : rail"
+            },
+            {
+              "source_id": "src-guizmo-kis-miskolc-2022",
+              "locator": "p. 193 : Grand Miskolc à compter du 1er janvier 1945 (après le Snapshot 0)",
+              "usage": "date de la fusion (01/01/1945)"
             }
           ]
         }
@@ -2185,12 +2195,22 @@
             {
               "source_id": "src-13-hu-miskolc-histoire",
               "locator": "9 janvier 1870 : Hatvan–Miskolc ; Diósgyőr et Hejőcsaba rattachées en 1945.",
-              "usage": "contexte (situation, nom ou périmètre) (non vérifiée par Claude)"
+              "usage": "contexte (situation, nom ou périmètre) (validée par Guizmo pour 1945)"
             },
             {
               "source_id": "src-13-hu-miskolc-fusion",
               "locator": "Page imprimée 102, 102e page du PDF, index technique 101. Section sur les décennies d’après-guerre : date d’effet de Grand Miskolc puis liste des centres rattachés.",
               "usage": "date de la fusion (01/01/1945) (non vérifiée par Claude)"
+            },
+            {
+              "source_id": "src-guizmo-miskolc-tortenete",
+              "locator": "1945 : Diósgyőr rattachée à Miskolc",
+              "usage": "contexte (situation, nom ou périmètre)"
+            },
+            {
+              "source_id": "src-guizmo-kis-miskolc-2022",
+              "locator": "p. 193 : commune distincte à l'arrivée des troupes soviétiques ; rattachée au 1er janvier 1945",
+              "usage": "date de la fusion (01/01/1945)"
             }
           ]
         }

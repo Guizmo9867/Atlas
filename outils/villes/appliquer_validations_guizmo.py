@@ -20,7 +20,13 @@ H = {s['source_id']: decision(s['verification_humaine']) for s in reg['sources']
 MENTION = {'verifiee': ' (validée par Guizmo)', 'verifiee_s0': ' (validée par Guizmo pour 1945)',
            'ne_prouve_pas': ' (ne prouve pas, selon Guizmo)', 'lien_mort': ' (lien mort, selon Guizmo)'}
 ANCIENNES = [' (non vérifiée par Claude)', ' (lecture partielle)', *MENTION.values()]
+RELUE = re.compile(r' \(page relue par Claude pour cette ville[^)]*\)$')
 RENF = re.compile(r' À renforcer : ([^.]*)\.')
+# Autres liens et pièces jointes de Guizmo confirmés par Claude (BOUCLE_AUTOMATIQUE §3.5 bis) : nouvelles sources à citer
+# dans les villes qui citent l'ancienne (complements_guizmo.sources_ajoutees = [{source_id, villes: {ville: {locator, usage}}}]).
+AJOUTS = {s['source_id']: s['complements_guizmo']['sources_ajoutees'] for s in reg['sources'] if s.get('complements_guizmo', {}).get('sources_ajoutees')}
+# seules ces nouvelles sources, si Claude les a confirmées, allègent « À renforcer » (les réserves d'Ether restent sinon)
+OK = {a['source_id'] for l in AJOUTS.values() for a in l} & {s['source_id'] for s in reg['sources'] if s.get('verification_claude') == 'ok'}
 total_usages, total_roles = 0, 0
 for f in sorted(glob.glob(str(RACINE / 'data/snapshot0/villes_1-*.json'))):
     brut = open(f, encoding='utf-8').read(); d = json.loads(brut); change = False
@@ -28,10 +34,21 @@ for f in sorted(glob.glob(str(RACINE / 'data/snapshot0/villes_1-*.json'))):
     for e in d.get('entites', []):
         for et in e.get('etats', []):
             prouves = set()
+            presentes = {s.get('source_id') for s in et.get('sources', [])}
+            for ancienne in [x for x in presentes if x in AJOUTS]:
+                for a in AJOUTS[ancienne]:
+                    ref = a['villes'].get(e.get('entite_id'))
+                    if ref and a['source_id'] not in presentes:
+                        et['sources'].append({'source_id': a['source_id'], 'locator': ref['locator'], 'usage': ref['usage']})
+                        presentes.add(a['source_id']); change = True; total_usages += 1
             for s in et.get('sources', []):
+                u0 = s.get('usage', '')
+                if s.get('source_id') in OK and u0.startswith('preuve locale : '):
+                    prouves.update(r.strip() for r in u0[len('preuve locale : '):].split(','))
                 dec = H.get(s.get('source_id'))
                 if not dec: continue
                 u = s.get('usage', ''); base = u
+                base = RELUE.sub('', base)  # mention « page relue par Claude pour cette ville » (confirmations_claude.py)
                 for m in ANCIENNES:
                     if base.endswith(m): base = base[:-len(m)]; break
                 nouveau = base + MENTION.get(dec, '')

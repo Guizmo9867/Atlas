@@ -1,0 +1,483 @@
+{
+  "metadata_delta": {
+    "lot": "villes_1-5",
+    "cycle": 3,
+    "date": "2026-10-03",
+    "fusion": "Compléments documentaires seulement ; préserver verification_claude, verification_humaine et tous les champs inconnus. Fusionner par union avec les compléments1.7 du même jour."
+  },
+  "sources": [
+    {
+      "source_id": "src-belomorsk-bibliotheque-gare-2024",
+      "niveau": "B",
+      "type_source": "notice_historique_locale",
+      "titre": "Repères commémoratifs de Belomorsk — notice sur la gare Soroka/Sorokskaïa",
+      "institution": "Bibliothèque centrale de Belomorsk",
+      "url": "https://belomorsklib.karelia.ru/files/1587.pdf",
+      "date_consultation": "2026-10-02",
+      "periode_couverte": [],
+      "zones": [],
+      "usages_atlas": [
+        "rail",
+        "logistique",
+        "nomenclature"
+      ],
+      "cibles": [
+        "ville-ru-belomorsk",
+        "ville-ru-kandalakcha",
+        "ville-ru-petrozavodsk"
+      ],
+      "locator": "Page imprimée 37, page PDF 37 (index 36 sur 44), rubrique « 29 декабря 1915 года (110 лет) », immédiatement suivie de la notice de la gare Soroka.",
+      "resume_passage": "",
+      "archive_locale": null,
+      "verification_claude": "non_verifiee",
+      "verification_ether": {
+        "statut": "passages_cibles_lus",
+        "par": "Ether",
+        "limite": "Synthèse rétrospective lue ; originaux non contrôlés."
+      },
+      "notes": "Proposée par Ether (villes 1.5, 02/10/2026). Ce que la source prouve selon Ether : desserte ferroviaire locale avant le Snapshot; jonction et trafic de guerre à Belomorsk; distinction nom de ville et nom de gare. Limite annoncée par Ether : Texte extrait du PDF lu, pas de relevé cartographique. Le nom de la gare ne doit pas remplacer celui de la ville ; ne pas anticiper reconstruction, renommage ou électrification d’après-guerre. Relecture Claude 02/10/2026 : La notice du 29 décembre 1915 n'a pas été retrouvée ; seul un passage incident sur la gare Sorokskaïa a été lu. Jonction, trafic de guerre, Kandalakcha et Petrozavodsk non étayés. Ancien localisateur : Page imprimée 37, page PDF index 36, notice du 29 décembre 1915 ; couverture : Belomorsk 2024. Bibliographie en fin de notice.. Réponse d'Ether (cycle 2, 03/10/2026, Q15-03) : Texte PDF relu. Ouverture de la gare le 29 décembre 1915 ; premier train le 21 décembre, ligne vers Kandalakcha en 1915–1916. Ce ne sont pas les seules mentions incidentes du remblai ; la rubrique dédiée occupe la page indiquée. Relecture Claude 03/10/2026 : Le PDF a été lu de façon partielle et incohérente (décembre 1940, 1955, 1995) ; la rubrique du 29 décembre 1915 et la notice de la gare Soroka n'ont pas été retrouvées. (statut : faible -> non_verifiee).",
+      "verification_ether_cycle2": {
+        "date": "2026-10-02",
+        "statut": "passages_retrouves",
+        "question": "Q15-03",
+        "constat": "Texte PDF relu. Ouverture de la gare le 29 décembre 1915 ; premier train le 21 décembre, ligne vers Kandalakcha en 1915–1916. Ce ne sont pas les seules mentions incidentes du remblai ; la rubrique dédiée occupe la page indiquée.",
+        "limite": "Relecture Ether uniquement ; conserver le résultat antérieur verification_claude et demander son nouveau contrôle. Aucun original inédit authentifié."
+      },
+      "operation_registre": "completer",
+      "usage": [
+        "desserte ferroviaire locale avant le Snapshot",
+        "jonction et trafic de guerre à Belomorsk",
+        "distinction nom de ville et nom de gare"
+      ],
+      "note": "Texte extrait du PDF lu, pas de relevé cartographique. Le nom de la gare ne doit pas remplacer celui de la ville ; ne pas anticiper reconstruction, renommage ou électrification d’après-guerre.",
+      "complement_ether_cycle3": {
+        "source_id": "src-belomorsk-bibliotheque-gare-2024",
+        "url": "https://belomorsklib.karelia.ru/files/1587.pdf",
+        "locator": "Page imprimée 37, page PDF 37 (index 36 sur 44), rubrique « 29 декабря 1915 года (110 лет) », immédiatement suivie de la notice de la gare Soroka.",
+        "etat_reponse": "images_fournies",
+        "images": [
+          {
+            "fichier": "2026-10-03_ether_Q15-03_belomorsk.png",
+            "sha256": "35762d5389890b0ea6256e25ab92c673659bc7f61833bfe187cb818a33ca4eb8",
+            "origine": "Page PDF 37 rendue et contrôlée visuellement."
+          }
+        ],
+        "limite": "Une capture du texte web n’est pas un fac-similé du document original. Aucun statut de vérification Claude ou humain n’est relevé.",
+        "date": "2026-10-03"
+      }
+    },
+    {
+      "source_id": "src-rushydro-ouglitch-histoire-2015",
+      "niveau": "B",
+      "type_source": "article_historique_operateur",
+      "titre": "Aux origines de la Grande Volga — Ouglitch",
+      "institution": "Vestnik RusHydro",
+      "url": "https://www.vestnik-rushydro.ru/articles/12-dekabr-2015/data/u-istokov-bolshoy-volgi/",
+      "date_consultation": "2026-10-02",
+      "periode_couverte": [],
+      "zones": [],
+      "usages_atlas": [
+        "industrie"
+      ],
+      "cibles": [
+        "ville-ru-ouglitch"
+      ],
+      "locator": "Article « У истоков большой Волги », décembre 2015 ; rubrique « В ТЯЖЕЛЫХ УСЛОВИЯХ », dernier paragraphe avant « ЭНЕРГИЯ ПОБЕДЫ ».",
+      "resume_passage": "",
+      "archive_locale": null,
+      "verification_claude": "non_verifiee",
+      "verification_ether": {
+        "statut": "passages_cibles_lus",
+        "par": "Ether",
+        "limite": "Rétrospective de l’opérateur ; pas de plan daté ni de procès-verbal original consulté."
+      },
+      "notes": "Proposée par Ether (villes 1.5, 02/10/2026). Ce que la source prouve selon Ether : production hydroélectrique locale avant 1945. Limite annoncée par Ether : Fonction industrielle envisagée ; ni rôle hors lexique « énergie » ni nouvelle entité de barrage. Distinguer production, travaux et mise en service complète. Relecture Claude 02/10/2026 : La page récupérée ne contient aucun passage sur Ouglitch ni sur les mises en route de décembre 1940 et mars 1941 (contenu apparemment sans rapport, article sur un vaccin). L'affirmation n'est pas étayée par cette page. Ancien localisateur : Numéro de décembre 2015 ; paragraphes sur les mises en route du 8 décembre 1940 et du 20 mars 1941, avant l’achèvement des bâtiments.. Réponse d'Ether (cycle 2, 03/10/2026, Q15-03) : Même URL directement relue dans le navigateur, titre et corps consacrés à Ouglitch. Premier groupe le 8 décembre 1940, deuxième le 20 mars 1941. Aucun remplacement de lien nécessaire à ce contrôle. Les agrégats de toute la guerre ne décrivent pas le seul 1er janvier 1945. Relecture Claude 03/10/2026 : WebFetch a renvoyé un autre contenu (article sans rapport daté de 2026), l'article sur Ouglitch n'a donc pas pu être lu. (statut : faible -> non_verifiee).",
+      "verification_ether_cycle2": {
+        "date": "2026-10-02",
+        "statut": "passages_retrouves",
+        "question": "Q15-03",
+        "constat": "Même URL directement relue dans le navigateur, titre et corps consacrés à Ouglitch. Premier groupe le 8 décembre 1940, deuxième le 20 mars 1941. Aucun remplacement de lien nécessaire à ce contrôle. Les agrégats de toute la guerre ne décrivent pas le seul 1er janvier 1945.",
+        "limite": "Relecture Ether uniquement ; conserver le résultat antérieur verification_claude et demander son nouveau contrôle. Aucun original inédit authentifié."
+      },
+      "operation_registre": "completer",
+      "usage": [
+        "production hydroélectrique locale avant 1945"
+      ],
+      "note": "Fonction industrielle envisagée ; ni rôle hors lexique « énergie » ni nouvelle entité de barrage. Distinguer production, travaux et mise en service complète.",
+      "complement_ether_cycle3": {
+        "source_id": "src-rushydro-ouglitch-histoire-2015",
+        "url": "https://www.vestnik-rushydro.ru/articles/12-dekabr-2015/data/u-istokov-bolshoy-volgi/",
+        "locator": "Article « У истоков большой Волги », décembre 2015 ; rubrique « В ТЯЖЕЛЫХ УСЛОВИЯХ », dernier paragraphe avant « ЭНЕРГИЯ ПОБЕДЫ ».",
+        "etat_reponse": "images_fournies",
+        "images": [
+          {
+            "fichier": "2026-10-03_ether_Q15-03_ouglitch.jpg",
+            "sha256": "b9feb5c35d19c373393064937967e5005018caf326966002da20c85756d8ba26",
+            "origine": "Capture du navigateur consulté le 03/10/2026 ; passage contrôlé visuellement."
+          }
+        ],
+        "limite": "Une capture du texte web n’est pas un fac-similé du document original. Aucun statut de vérification Claude ou humain n’est relevé.",
+        "date": "2026-10-03"
+      }
+    },
+    {
+      "source_id": "src-musee-pobedy-sverdlovsk-production-1944",
+      "niveau": "B",
+      "type_source": "synthese_historique_institutionnelle",
+      "titre": "Notice du SU-100 : fabrication à Sverdlovsk",
+      "institution": "Musée de la Victoire, Moscou",
+      "url": "https://victorymuseum.ru/encyclopedia/technic/bronetankovaya-tekhnika/samokhodnaya-artilleriyskaya-ustanovka-su-100-obraztsa-1944-goda-sssr/",
+      "date_consultation": "2026-10-02",
+      "periode_couverte": [],
+      "zones": [],
+      "usages_atlas": [
+        "industrie",
+        "nom_historique"
+      ],
+      "cibles": [
+        "ville-ru-iekaterinbourg"
+      ],
+      "locator": "Notice SU-100, paragraphes UZTM à Sverdlovsk, puis phrase commençant « Серийное производство осуществлялось ».",
+      "resume_passage": "",
+      "archive_locale": null,
+      "verification_claude": "lien_casse",
+      "verification_ether": {
+        "statut": "passages_cibles_lus",
+        "par": "Ether",
+        "mode": "texte_web_lu",
+        "limite": "Synthèse ou transcription rétrospective ; originaux non contrôlés, sauf indication expresse."
+      },
+      "notes": "Proposée par Ether (villes 1.5, 02/10/2026). Ce que la source prouve selon Ether : preuve locale antérieure au Snapshot. Limite annoncée par Ether : Établit une fabrication locale et emploie le nom daté Sverdlovsk. Le total septembre 1944–juin 1945 n’est pas un total du Snapshot. Les opérations militaires ultérieures et comparaisons techniques ne sont pas retenues. Relecture Claude 02/10/2026 : WebFetch renvoie une erreur 404 pour l'URL de la notice SU-100 du Musée de la Victoire. Contenu non vérifiable. Ancien localisateur : Paragraphes localisation UZTM à Sverdlovsk, prototype de février 1944, production en série à partir de septembre 1944.. Réponse d'Ether (cycle 2, 03/10/2026, Q15-03) : Même URL directement lisible dans le navigateur. UZTM localisé à Sverdlovsk ; production en série à compter de septembre 1944. Les événements de combat de 1945 et totaux ultérieurs ne servent pas au Snapshot. Relecture Claude 03/10/2026 : WebFetch a renvoyé une erreur 404 pour cette URL. (statut : lien_casse -> lien_casse).",
+      "verification_ether_cycle2": {
+        "date": "2026-10-02",
+        "statut": "passages_retrouves",
+        "question": "Q15-03",
+        "constat": "Même URL directement lisible dans le navigateur. UZTM localisé à Sverdlovsk ; production en série à compter de septembre 1944. Les événements de combat de 1945 et totaux ultérieurs ne servent pas au Snapshot.",
+        "limite": "Relecture Ether uniquement ; conserver le résultat antérieur verification_claude et demander son nouveau contrôle. Aucun original inédit authentifié."
+      },
+      "operation_registre": "completer",
+      "usage": [
+        "preuve locale antérieure au Snapshot"
+      ],
+      "note": "Établit une fabrication locale et emploie le nom daté Sverdlovsk. Le total septembre 1944–juin 1945 n’est pas un total du Snapshot. Les opérations militaires ultérieures et comparaisons techniques ne sont pas retenues.",
+      "complement_ether_cycle3": {
+        "source_id": "src-musee-pobedy-sverdlovsk-production-1944",
+        "url": "https://victorymuseum.ru/encyclopedia/technic/bronetankovaya-tekhnika/samokhodnaya-artilleriyskaya-ustanovka-su-100-obraztsa-1944-goda-sssr/",
+        "locator": "Notice SU-100, paragraphes UZTM à Sverdlovsk, puis phrase commençant « Серийное производство осуществлялось ».",
+        "etat_reponse": "images_fournies",
+        "images": [
+          {
+            "fichier": "2026-10-03_ether_Q15-03_sverdlovsk_passage.jpg",
+            "sha256": "3d6afd1e1bc72ee637da68caf52d68612945a1417f928e7082b810d5f2fa3165",
+            "origine": "Capture du navigateur consulté le 03/10/2026 ; passage contrôlé visuellement."
+          },
+          {
+            "fichier": "2026-10-03_ether_Q15-03_sverdlovsk.jpg",
+            "sha256": "717cf6e2055cfa7d48effc3f9c81d360281a0239ab1d9ac74ee45c9ab09c76b2",
+            "origine": "Capture du navigateur consulté le 03/10/2026 ; passage contrôlé visuellement."
+          }
+        ],
+        "limite": "Une capture du texte web n’est pas un fac-similé du document original. Aucun statut de vérification Claude ou humain n’est relevé.",
+        "date": "2026-10-03"
+      }
+    },
+    {
+      "source_id": "src-bashenc-tchernikovsk-1944",
+      "niveau": "B",
+      "type_source": "synthese_historique_institutionnelle",
+      "titre": "Tchernikovsk, ville",
+      "institution": "S. S. Taguirov ; Encyclopédie bachkire, Académie des sciences de Bachkortostan",
+      "url": "https://bashenc.online/ru/articles/75162/",
+      "date_consultation": "2026-10-02",
+      "periode_couverte": [],
+      "zones": [],
+      "usages_atlas": [
+        "nomenclature",
+        "administration",
+        "industrie"
+      ],
+      "cibles": [
+        "ville-ru-tchernikovsk"
+      ],
+      "locator": "Article ЧЕРНИКОВСК : premier paragraphe historique, après 1936 et 1938 ; « С 1944 город Черниковск ».",
+      "resume_passage": "",
+      "archive_locale": null,
+      "verification_claude": "lien_casse",
+      "verification_ether": {
+        "statut": "passages_cibles_lus",
+        "par": "Ether",
+        "limite": "Portée limitée au passage décrit ; voir note."
+      },
+      "notes": "Proposée par Ether (villes 1.5, 02/10/2026). Ce que la source prouve selon Ether : preuve ou contexte daté, portée définie dans locator et note. Limite annoncée par Ether : Texte lu dans le navigateur. Les activités décrites pour l’ensemble de l’existence de la ville doivent être datées individuellement avant attribution au Snapshot. Liste de localités absorbées durant les années 1930–1940 sans date individuelle. Relecture Claude 02/10/2026 : L'URL renvoie une erreur 404 lors de deux essais ; le contenu (ville créée en 1944, incorporée à Oufa en 1956) n'a pas pu être vérifié. Ancien localisateur : Publication 10/10/2019, modification 17/10/2019 ; séquence 1931, 1936, 1938, création de ville 1944 et incorporation à Oufa 1956.. Réponse d'Ether (cycle 2, 03/10/2026, Q15-03) : Même URL directement lisible dans le navigateur. Passage ville en 1944 retrouvé ; intégration à Oufa en 1956 postérieure au Snapshot. Auteur affiché S. S. Taguirov ; publication 10/10/2019. Ne date pas séparément chaque établissement industriel. Relecture Claude 03/10/2026 : WebFetch a renvoyé une erreur 404 pour cette URL. (statut : lien_casse -> lien_casse).",
+      "verification_ether_cycle2": {
+        "date": "2026-10-02",
+        "statut": "passages_retrouves",
+        "question": "Q15-03",
+        "constat": "Même URL directement lisible dans le navigateur. Passage ville en 1944 retrouvé ; intégration à Oufa en 1956 postérieure au Snapshot. Auteur affiché S. S. Taguirov ; publication 10/10/2019. Ne date pas séparément chaque établissement industriel.",
+        "limite": "Relecture Ether uniquement ; conserver le résultat antérieur verification_claude et demander son nouveau contrôle. Aucun original inédit authentifié."
+      },
+      "operation_registre": "completer",
+      "usage": [
+        "preuve ou contexte daté, portée définie dans locator et note"
+      ],
+      "note": "Texte lu dans le navigateur. Les activités décrites pour l’ensemble de l’existence de la ville doivent être datées individuellement avant attribution au Snapshot. Liste de localités absorbées durant les années 1930–1940 sans date individuelle.",
+      "complement_ether_cycle3": {
+        "source_id": "src-bashenc-tchernikovsk-1944",
+        "url": "https://bashenc.online/ru/articles/75162/",
+        "locator": "Article ЧЕРНИКОВСК : premier paragraphe historique, après 1936 et 1938 ; « С 1944 город Черниковск ».",
+        "etat_reponse": "images_fournies",
+        "images": [
+          {
+            "fichier": "2026-10-03_ether_Q15-03_tchernikovsk.jpg",
+            "sha256": "c23c992cc89b49be643d8a7b770a044f29beef8abfeb78cc628ccb48c5a2946f",
+            "origine": "Capture du navigateur consulté le 03/10/2026 ; passage contrôlé visuellement."
+          }
+        ],
+        "limite": "Une capture du texte web n’est pas un fac-similé du document original. Aucun statut de vérification Claude ou humain n’est relevé.",
+        "date": "2026-10-03"
+      }
+    },
+    {
+      "source_id": "src-jdv-tome3-bielorussie-1944",
+      "niveau": "B",
+      "type_source": "synthese_historique_militaire",
+      "titre": "Troupes ferroviaires de Russie, tome 3 — restaurations en Biélorussie",
+      "institution": "N. L. Volkonski et autres, dir. G. I. Kogatko ; Moscou, Stékha, 2002",
+      "url": "https://militera.lib.ru/h/zheleznodorozhnye_voyska_rossii/25.html",
+      "date_consultation": "2026-10-02",
+      "periode_couverte": [],
+      "zones": [],
+      "usages_atlas": [
+        "rail"
+      ],
+      "cibles": [
+        "ville-by-brest",
+        "ville-by-hrodna",
+        "ville-by-babrouisk",
+        "ville-by-jlobine"
+      ],
+      "locator": "Chapitre VII, seconde moitié de 25.html, pages imprimées [218] à [220]. Grodno juste après [218] ; Jlobine–Bobrouïsk, note {1332} ; Brest/Boug dans le paragraphe terminé par {1333}.",
+      "resume_passage": "",
+      "archive_locale": null,
+      "verification_claude": "non_verifiee",
+      "verification_ether": {
+        "statut": "passages_cibles_lus",
+        "par": "Ether",
+        "limite": "Publication consultée ; documents originaux d’archives non vus."
+      },
+      "notes": "Proposée par Ether (villes 1.5, 02/10/2026). Ce que la source prouve selon Ether : rail. Limite annoncée par Ether : Passages locaux de l’été 1944 lus dans la transcription. Le rôle ferroviaire est retenu sans date journalière ni débit. La mention de Brest ne prouve pas un poste douanier civil. Certains toponymes de la transcription sont fautifs ; aucun nom nouveau déduit. Relecture Claude 02/10/2026 : La page chargée s'arrête en pleine description des opérations de 1944 dans la région de Leningrad ; aucun passage sur le pont du Niémen à Grodno, Jlobine–Bobrouïsk, Brest ou le Boug n'a été lu. Le chapitre VII est peut-être sur une autre page. Ancien localisateur : Chapitre VII, pp. 218–220 : pont du Niémen à Grodno ; section Jlobine–Bobrouïsk ; ligne jusqu’à Brest et franchissement du Boug. Références 1332–1334 ; bibliographie éditoriale sur index.html.. Réponse d'Ether (cycle 2, 03/10/2026, Q15-03) : Transcription longue relue jusqu’au passage de 1944 : pont de Grodno, travaux Jlobine–Bobrouïsk, voie arrivée à Brest puis ouverte vers Siedlce après le pont du Boug. Le lien exact est déjà 25.html ; une lecture interrompue au début manque ces paragraphes. Brest est bien présente sous la forme fléchie Бреста ; aucune cible à retirer. Relecture Claude 03/10/2026 : WebFetch n'a lu que le début du chapitre VII (jusqu'aux opérations baltes) et n'a pas atteint les passages sur Grodno, Jlobine–Bobrouïsk et Brest. (statut : faible -> non_verifiee).",
+      "verification_ether_cycle2": {
+        "date": "2026-10-02",
+        "statut": "passages_retrouves",
+        "question": "Q15-03",
+        "constat": "Transcription longue relue jusqu’au passage de 1944 : pont de Grodno, travaux Jlobine–Bobrouïsk, voie arrivée à Brest puis ouverte vers Siedlce après le pont du Boug. Le lien exact est déjà 25.html ; une lecture interrompue au début manque ces paragraphes. Brest est bien présente sous la forme fléchie Бреста ; aucune cible à retirer.",
+        "limite": "Relecture Ether uniquement ; conserver le résultat antérieur verification_claude et demander son nouveau contrôle. Aucun original inédit authentifié."
+      },
+      "operation_registre": "completer",
+      "usage": [
+        "rail"
+      ],
+      "note": "Passages locaux de l’été 1944 lus dans la transcription. Le rôle ferroviaire est retenu sans date journalière ni débit. La mention de Brest ne prouve pas un poste douanier civil. Certains toponymes de la transcription sont fautifs ; aucun nom nouveau déduit.",
+      "complement_ether_cycle3": {
+        "source_id": "src-jdv-tome3-bielorussie-1944",
+        "url": "https://militera.lib.ru/h/zheleznodorozhnye_voyska_rossii/25.html",
+        "locator": "Chapitre VII, seconde moitié de 25.html, pages imprimées [218] à [220]. Grodno juste après [218] ; Jlobine–Bobrouïsk, note {1332} ; Brest/Boug dans le paragraphe terminé par {1333}.",
+        "etat_reponse": "images_fournies",
+        "images": [
+          {
+            "fichier": "2026-10-03_ether_Q15-03_grodno_rail.jpg",
+            "sha256": "93d067f61cf28c738a25862e9a770097d3826d2f4da2858a80c3de7d6842be85",
+            "origine": "Capture du navigateur consulté le 03/10/2026 ; passage contrôlé visuellement."
+          },
+          {
+            "fichier": "2026-10-03_ether_Q15-03_brest_rail.jpg",
+            "sha256": "ebf8a4203a8035925cf325e6b1dbbe4c43c71807b4091e18d71768a1b1e95b1a",
+            "origine": "Capture du navigateur consulté le 03/10/2026 ; passage contrôlé visuellement."
+          }
+        ],
+        "limite": "Une capture du texte web n’est pas un fac-similé du document original. Aucun statut de vérification Claude ou humain n’est relevé.",
+        "date": "2026-10-03"
+      }
+    },
+    {
+      "source_id": "src-sebastopol-musee-reconstruction-1944",
+      "niveau": "B",
+      "type_source": "histoire_locale_institutionnelle",
+      "titre": "Retour de la flotte et remise en état de Sébastopol en 1944",
+      "institution": "Musée de la défense de Sébastopol, I. V. Nikitina, 2024",
+      "url": "https://www.sevmuseum.ru/scientific-activity/article/den-v-istorii/80-let-s-nachala-rabot-po-vosstanovleniyu-sevastopolya/",
+      "date_consultation": "2026-10-02",
+      "periode_couverte": [],
+      "zones": [],
+      "usages_atlas": [
+        "base_navale",
+        "rail"
+      ],
+      "cibles": [
+        "ville-ua-sebastopol"
+      ],
+      "locator": "Article du 10/05/2024 ; paragraphe du 10 mai 1944, puis paragraphe commençant « Важное геополитическое значение » et suivant « Благодаря оперативным мероприятиям ».",
+      "resume_passage": "",
+      "archive_locale": null,
+      "verification_claude": "lien_casse",
+      "verification_ether": {
+        "statut": "passages_cibles_lus",
+        "par": "Ether",
+        "limite": "Récit rétrospectif ; totaux de reconstruction 1944–1946 exclus. Aucun statut actuel de souveraineté déduit."
+      },
+      "notes": "Proposée par Ether (villes 1.5, 02/10/2026). Ce que la source prouve selon Ether : base_navale; rail. Limite annoncée par Ether : Arrivée du train militaire en mai et retour de la flotte à sa base principale le 5 novembre 1944. Relecture Claude 02/10/2026 : La page renvoie une erreur 404 ; aucun contenu lu. Ancien localisateur : Passages du 10 mai et du 5 novembre 1944.. Réponse d'Ether (cycle 2, 03/10/2026, Q15-03) : Même URL directement lisible dans le navigateur. Arrivée par échelon ferroviaire le 10 mai 1944 ; travaux des quais en 1944 ; retour de l’escadre le 5 novembre 1944. Les bilans 1944–1946 et programmes de 1948 restent exclus. Relecture Claude 03/10/2026 : WebFetch renvoie une erreur 404 pour cette URL, aucune vérification possible. (statut : lien_casse -> lien_casse).",
+      "verification_ether_cycle2": {
+        "date": "2026-10-02",
+        "statut": "passages_retrouves",
+        "question": "Q15-03",
+        "constat": "Même URL directement lisible dans le navigateur. Arrivée par échelon ferroviaire le 10 mai 1944 ; travaux des quais en 1944 ; retour de l’escadre le 5 novembre 1944. Les bilans 1944–1946 et programmes de 1948 restent exclus.",
+        "limite": "Relecture Ether uniquement ; conserver le résultat antérieur verification_claude et demander son nouveau contrôle. Aucun original inédit authentifié."
+      },
+      "operation_registre": "completer",
+      "usage": [
+        "base_navale",
+        "rail"
+      ],
+      "note": "Arrivée du train militaire en mai et retour de la flotte à sa base principale le 5 novembre 1944.",
+      "complement_ether_cycle3": {
+        "source_id": "src-sebastopol-musee-reconstruction-1944",
+        "url": "https://www.sevmuseum.ru/scientific-activity/article/den-v-istorii/80-let-s-nachala-rabot-po-vosstanovleniyu-sevastopolya/",
+        "locator": "Article du 10/05/2024 ; paragraphe du 10 mai 1944, puis paragraphe commençant « Важное геополитическое значение » et suivant « Благодаря оперативным мероприятиям ».",
+        "etat_reponse": "images_fournies",
+        "images": [
+          {
+            "fichier": "2026-10-03_ether_Q15-03_sebastopol_passage.jpg",
+            "sha256": "f1f8bb0fdadf0dd0b27c6183fd59d96e93c5a0e9f812749da609271657449a82",
+            "origine": "Capture du navigateur consulté le 03/10/2026 ; passage contrôlé visuellement."
+          },
+          {
+            "fichier": "2026-10-03_ether_Q15-03_sebastopol.jpg",
+            "sha256": "8413cfc9df9c830784e245178d56e597ec97d83246f0f6d370d2503347323217",
+            "origine": "Capture du navigateur consulté le 03/10/2026 ; passage contrôlé visuellement."
+          }
+        ],
+        "limite": "Une capture du texte web n’est pas un fac-similé du document original. Aucun statut de vérification Claude ou humain n’est relevé.",
+        "date": "2026-10-03"
+      }
+    },
+    {
+      "source_id": "src-jdv-tome3-carpates-kertch-1944",
+      "niveau": "B",
+      "type_source": "etude_historique",
+      "titre": "Troupes ferroviaires de Russie, tome 3 : Carpates et pont de Kertch",
+      "institution": "Histoire des troupes ferroviaires russes, transcription Militera",
+      "url": "https://militera.lib.ru/h/zheleznodorozhnye_voyska_rossii/26.html",
+      "date_consultation": "2026-10-02",
+      "periode_couverte": [],
+      "zones": [],
+      "usages_atlas": [
+        "rail"
+      ],
+      "cibles": [
+        "ville-ua-stryi",
+        "ville-ua-mukachevo",
+        "ville-ua-chop",
+        "ville-ua-uzhhorod",
+        "ville-ua-kertch",
+        "ville-ua-lavochne",
+        "ville-ua-volovets"
+      ],
+      "locator": "Seconde moitié de 26.html : pages [293]–[294], télégramme du 26 décembre 1944 sur Kertch ; ensuite titre « В Карпатах », pages [296]–[301], train vers Moukatchevo du 24 décembre 1944.",
+      "resume_passage": "",
+      "archive_locale": null,
+      "verification_claude": "non_verifiee",
+      "verification_ether": {
+        "statut": "passages_cibles_lus",
+        "par": "Ether",
+        "limite": "Dates de tous les ouvrages non établies ; passage de la Tisza et disponibilité du pont de Kertch au Snapshot en réserve."
+      },
+      "notes": "Proposée par Ether (villes 1.5, 02/10/2026). Ce que la source prouve selon Ether : rail. Limite annoncée par Ether : Premier train à Moukatchevo le 24 décembre 1944 ; tronçons jusqu’à Tchop et Oujgorod restaurés. Kertch : dégâts encore signalés le 26 décembre. Relecture Claude 02/10/2026 : La page chargée ne traite que des ponts de 1941-1943 (Moscou, Don, Rostov, Neva, Dniepr) et ne contient rien sur Moukatchevo, Tchop, Oujgorod, Stryï, Lavotchne ni Kertch en décembre 1944 ; la section citée n'est pas à cette URL. Ancien localisateur : Tome 3, pp.293–294 et 296–301 ; télégramme du 26 décembre et section Dans les Carpates.. Réponse d'Ether (cycle 2, 03/10/2026, Q15-03) : Transcription lue jusqu’aux sections terminales. Kertch : tempête et réparations encore nécessaires fin décembre, R15-24 maintenue. Carpates : Stryï, Moukatchevo, Tchop et Oujgorod dans les travaux ; premier train Stryï–Moukatchevo le 24 décembre. La page n’est pas limitée aux événements de 1943. Relecture Claude 03/10/2026 : WebFetch n'a restitué que la partie jusqu'à fin 1943 ; le télégramme de Kertch et la section « В Карпатах » n'ont pas pu être lus. (statut : faible -> non_verifiee).",
+      "verification_ether_cycle2": {
+        "date": "2026-10-02",
+        "statut": "passages_retrouves",
+        "question": "Q15-03",
+        "constat": "Transcription lue jusqu’aux sections terminales. Kertch : tempête et réparations encore nécessaires fin décembre, R15-24 maintenue. Carpates : Stryï, Moukatchevo, Tchop et Oujgorod dans les travaux ; premier train Stryï–Moukatchevo le 24 décembre. La page n’est pas limitée aux événements de 1943.",
+        "limite": "Relecture Ether uniquement ; conserver le résultat antérieur verification_claude et demander son nouveau contrôle. Aucun original inédit authentifié."
+      },
+      "operation_registre": "completer",
+      "usage": [
+        "rail"
+      ],
+      "note": "Premier train à Moukatchevo le 24 décembre 1944 ; tronçons jusqu’à Tchop et Oujgorod restaurés. Kertch : dégâts encore signalés le 26 décembre.",
+      "complement_ether_cycle3": {
+        "source_id": "src-jdv-tome3-carpates-kertch-1944",
+        "url": "https://militera.lib.ru/h/zheleznodorozhnye_voyska_rossii/26.html",
+        "locator": "Seconde moitié de 26.html : pages [293]–[294], télégramme du 26 décembre 1944 sur Kertch ; ensuite titre « В Карпатах », pages [296]–[301], train vers Moukatchevo du 24 décembre 1944.",
+        "etat_reponse": "images_fournies",
+        "images": [
+          {
+            "fichier": "2026-10-03_ether_Q15-03_kertch.jpg",
+            "sha256": "36b37c1b5d23742181cf1b1decd990f5ff295878ebb4f03d7b7aa914778a6049",
+            "origine": "Capture du navigateur consulté le 03/10/2026 ; passage contrôlé visuellement."
+          },
+          {
+            "fichier": "2026-10-03_ether_Q15-03_mukachevo.jpg",
+            "sha256": "3574f5b6e4743082a663b64978a372af9d037f89e39ac5cb8c653c0f7fd193c6",
+            "origine": "Capture du navigateur consulté le 03/10/2026 ; passage contrôlé visuellement."
+          }
+        ],
+        "limite": "Une capture du texte web n’est pas un fac-similé du document original. Aucun statut de vérification Claude ou humain n’est relevé.",
+        "date": "2026-10-03"
+      }
+    },
+    {
+      "source_id": "src-rosmorport-taganrog-reparation-1943",
+      "niveau": "B",
+      "type_source": "etude_historique",
+      "titre": "Taganrog : reprise du port par la réparation navale après août 1943",
+      "institution": "Rosmorport, histoire des ports de la branche Azov–mer Noire",
+      "url": "https://www.rosmorport.ru/filials/nvr_seaports/",
+      "date_consultation": "2026-10-02",
+      "periode_couverte": [],
+      "zones": [],
+      "usages_atlas": [
+        "industrie"
+      ],
+      "cibles": [
+        "ville-ru-taganrog"
+      ],
+      "locator": "Морской порт Таганрог → Подробнее → История создания и развития морского порта ; paragraphes 1941–1943 et phrase suivante.",
+      "resume_passage": "",
+      "archive_locale": null,
+      "verification_claude": "lien_casse",
+      "verification_ether": {
+        "statut": "passages_cibles_lus",
+        "par": "Ether",
+        "limite": "Ne démontre pas la reprise du trafic commercial ni la reconstruction complète ; aucune activité actuelle anticipée."
+      },
+      "notes": "Proposée par Ether (villes 1.5, 02/10/2026). Ce que la source prouve selon Ether : industrie. Limite annoncée par Ether : Réparation de navires de guerre reprise après la libération d’août 1943. Relecture Claude 02/10/2026 : La page renvoie une erreur 404 ; contenu non vérifiable. Ancien localisateur : Historique de Taganrog, paragraphes 1941–1943.. Réponse d'Ether (cycle 2, 03/10/2026, Q15-03) : Même URL directement lisible ; les deux rubriques ont été dépliées dans le navigateur. Le texte dit reprise en 1943, après le 30 août, par la réparation de navires militaires. Aucune reprise générale du commerce déduite. Relecture Claude 03/10/2026 : WebFetch renvoie une erreur 404 pour cette URL, aucune vérification possible. (statut : lien_casse -> lien_casse).",
+      "verification_ether_cycle2": {
+        "date": "2026-10-02",
+        "statut": "passages_retrouves",
+        "question": "Q15-03",
+        "constat": "Même URL directement lisible ; les deux rubriques ont été dépliées dans le navigateur. Le texte dit reprise en 1943, après le 30 août, par la réparation de navires militaires. Aucune reprise générale du commerce déduite.",
+        "limite": "Relecture Ether uniquement ; conserver le résultat antérieur verification_claude et demander son nouveau contrôle. Aucun original inédit authentifié."
+      },
+      "operation_registre": "completer",
+      "usage": [
+        "industrie"
+      ],
+      "note": "Réparation de navires de guerre reprise après la libération d’août 1943.",
+      "complement_ether_cycle3": {
+        "source_id": "src-rosmorport-taganrog-reparation-1943",
+        "url": "https://www.rosmorport.ru/filials/nvr_seaports/",
+        "locator": "Морской порт Таганрог → Подробнее → История создания и развития морского порта ; paragraphes 1941–1943 et phrase suivante.",
+        "etat_reponse": "images_fournies",
+        "images": [
+          {
+            "fichier": "2026-10-03_ether_Q15-03_taganrog.jpg",
+            "sha256": "a088485614e24b785747522255188fbc0e36aecf5b775745e6f46c4cd4b7d4db",
+            "origine": "Capture du navigateur consulté le 03/10/2026 ; passage contrôlé visuellement."
+          }
+        ],
+        "limite": "Une capture du texte web n’est pas un fac-similé du document original. Aucun statut de vérification Claude ou humain n’est relevé.",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

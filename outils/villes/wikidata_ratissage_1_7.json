@@ -1,0 +1,3190 @@
+{
+ "metadata": {
+  "date": "2026-10-04",
+  "methode": "Requête SPARQL (query.wikidata.org, User-Agent AtlasEurasie/0.1) : éléments portant l'identifiant GeoNames (P1566) proposé par Ether ; coordonnées P625 et pays P17 ; QID choisi à la main quand deux éléments partagent l'identifiant (district et localité) ou quand l'identifiant n'est pas relié (Koutaïssi, Hereke, Irmak).",
+  "licence": "Wikidata CC0 ; repères GeoNames d'Ether CC BY 4.0 gardés pour comparaison"
+ },
+ "villes": {
+  "ville-tr-ankara": {
+   "qid": "Q3640",
+   "geonameid": "323786",
+   "coord_wikidata": [
+    32.83869,
+    39.93576
+   ],
+   "coord_geonames": [
+    32.85427,
+    39.91987
+   ],
+   "ecart_km": 2.21,
+   "pays_wikidata": [
+    "TR"
+   ],
+   "qids_candidats": [
+    "Q3640"
+   ]
+  },
+  "ville-ge-batoumi": {
+   "qid": "Q25475",
+   "geonameid": "615532",
+   "coord_wikidata": [
+    41.641666666,
+    41.645833333
+   ],
+   "coord_geonames": [
+    41.6306,
+    41.64077
+   ],
+   "ecart_km": 1.08,
+   "pays_wikidata": [
+    "GE"
+   ],
+   "qids_candidats": [
+    "Q25475"
+   ]
+  },
+  "ville-ge-samtredia": {
+   "qid": "Q513727",
+   "geonameid": "612126",
+   "coord_wikidata": [
+    42.341666666,
+    42.1625
+   ],
+   "coord_geonames": [
+    42.33517,
+    42.1537
+   ],
+   "ecart_km": 1.12,
+   "pays_wikidata": [
+    "GE"
+   ],
+   "qids_candidats": [
+    "Q513727"
+   ]
+  },
+  "ville-tr-iskenderun": {
+   "qid": "Q174341",
+   "geonameid": "311111",
+   "coord_wikidata": [
+    36.173333333,
+    36.587222222
+   ],
+   "coord_geonames": [
+    36.17347,
+    36.58718
+   ],
+   "ecart_km": 0.01,
+   "pays_wikidata": [
+    "TR"
+   ],
+   "qids_candidats": [
+    "Q174341"
+   ]
+  },
+  "ville-tr-kayseri": {
+   "qid": "Q48338",
+   "geonameid": "308464",
+   "coord_wikidata": [
+    35.4875,
+    38.7225
+   ],
+   "coord_geonames": [
+    35.48528,
+    38.73222
+   ],
+   "ecart_km": 1.1,
+   "pays_wikidata": [
+    "TR"
+   ],
+   "qids_candidats": [
+    "Q48338"
+   ]
+  },
+  "ville-tr-sivas": {
+   "qid": "Q107401",
+   "geonameid": "300619",
+   "coord_wikidata": [
+    37.016666666,
+    39.75
+   ],
+   "coord_geonames": [
+    37.01611,
+    39.74833
+   ],
+   "ecart_km": 0.19,
+   "pays_wikidata": [
+    "TR"
+   ],
+   "qids_candidats": [
+    "Q107401"
+   ]
+  },
+  "ville-tr-malatya": {
+   "qid": "Q165995",
+   "geonameid": "304922",
+   "coord_wikidata": [
+    38.3094,
+    38.35062
+   ],
+   "coord_geonames": [
+    38.31667,
+    38.35018
+   ],
+   "ecart_km": 0.64,
+   "pays_wikidata": [
+    "TR"
+   ],
+   "qids_candidats": [
+    "Q165995",
+    "Q49280669"
+   ],
+   "choix_claude": "QID de la ville retenu par Claude (l'identifiant GeoNames désigne aussi un autre élément, ou n'est pas relié dans Wikidata)"
+  },
+  "ville-tr-diyarbakir": {
+   "qid": "Q83387",
+   "geonameid": "316541",
+   "coord_wikidata": [
+    40.21889,
+    37.91583
+   ],
+   "coord_geonames": [
+    40.21721,
+    37.91363
+   ],
+   "ecart_km": 0.29,
+   "pays_wikidata": [
+    "TR"
+   ],
+   "qids_candidats": [
+    "Q83387"
+   ]
+  },
+  "ville-tr-ulukisla": {
+   "qid": "Q1018537",
+   "geonameid": "298414",
+   "coord_wikidata": [
+    34.484444444,
+    37.546666666
+   ],
+   "coord_geonames": [
+    34.48528,
+    37.54776
+   ],
+   "ecart_km": 0.14,
+   "pays_wikidata": [
+    "TR"
+   ],
+   "qids_candidats": [
+    "Q1018537"
+   ]
+  },
+  "ville-tr-eskisehir": {
+   "qid": "Q168866",
+   "geonameid": "315202",
+   "coord_wikidata": [
+    30.520555555,
+    39.776666666
+   ],
+   "coord_geonames": [
+    30.52056,
+    39.77667
+   ],
+   "ecart_km": 0.0,
+   "pays_wikidata": [
+    "TR"
+   ],
+   "qids_candidats": [
+    "Q168866",
+    "Q49280555"
+   ],
+   "choix_claude": "QID de la ville retenu par Claude (l'identifiant GeoNames désigne aussi un autre élément, ou n'est pas relié dans Wikidata)"
+  },
+  "ville-tr-konya": {
+   "qid": "Q79857",
+   "geonameid": "306571",
+   "coord_wikidata": [
+    32.492138888,
+    37.872769444
+   ],
+   "coord_geonames": [
+    32.48464,
+    37.87135
+   ],
+   "ecart_km": 0.68,
+   "pays_wikidata": [
+    "TR"
+   ],
+   "qids_candidats": [
+    "Q79857"
+   ]
+  },
+  "ville-tr-adana": {
+   "qid": "Q38545",
+   "geonameid": "325363",
+   "coord_wikidata": [
+    35.3252861,
+    36.9863599
+   ],
+   "coord_geonames": [
+    35.32531,
+    36.98615
+   ],
+   "ecart_km": 0.02,
+   "pays_wikidata": [
+    "TR"
+   ],
+   "qids_candidats": [
+    "Q38545"
+   ]
+  },
+  "ville-tr-afyon": {
+   "qid": "Q166824",
+   "geonameid": "325303",
+   "coord_wikidata": [
+    30.538611111,
+    38.758055555
+   ],
+   "coord_geonames": [
+    30.54333,
+    38.75667
+   ],
+   "ecart_km": 0.44,
+   "pays_wikidata": [
+    "TR"
+   ],
+   "qids_candidats": [
+    "Q166824"
+   ]
+  },
+  "ville-tr-kutahya": {
+   "qid": "Q188894",
+   "geonameid": "305268",
+   "coord_wikidata": [
+    29.983333333,
+    39.424166666
+   ],
+   "coord_geonames": [
+    29.98333,
+    39.42417
+   ],
+   "ecart_km": 0.0,
+   "pays_wikidata": [
+    "TR"
+   ],
+   "qids_candidats": [
+    "Q188894"
+   ]
+  },
+  "ville-tr-tavsanli": {
+   "qid": "Q1948357",
+   "geonameid": "299545",
+   "coord_wikidata": [
+    29.483333333,
+    39.533333333
+   ],
+   "coord_geonames": [
+    29.49866,
+    39.54237
+   ],
+   "ecart_km": 1.65,
+   "pays_wikidata": [
+    "TR"
+   ],
+   "qids_candidats": [
+    "Q1948357",
+    "Q49278299"
+   ],
+   "choix_claude": "QID de la ville retenu par Claude (l'identifiant GeoNames désigne aussi un autre élément, ou n'est pas relié dans Wikidata)"
+  },
+  "ville-tr-balikesir": {
+   "qid": "Q199723",
+   "geonameid": "322165",
+   "coord_wikidata": [
+    27.884166666,
+    39.651111111
+   ],
+   "coord_geonames": [
+    27.88611,
+    39.64917
+   ],
+   "ecart_km": 0.27,
+   "pays_wikidata": [
+    "TR"
+   ],
+   "qids_candidats": [
+    "Q199723"
+   ]
+  },
+  "ville-tr-manisa": {
+   "qid": "Q147089",
+   "geonameid": "304827",
+   "coord_wikidata": [
+    27.426388888,
+    38.611944444
+   ],
+   "coord_geonames": [
+    27.42647,
+    38.61202
+   ],
+   "ecart_km": 0.01,
+   "pays_wikidata": [
+    "TR"
+   ],
+   "qids_candidats": [
+    "Q147089",
+    "Q920866"
+   ],
+   "choix_claude": "QID de la ville retenu par Claude (l'identifiant GeoNames désigne aussi un autre élément, ou n'est pas relié dans Wikidata)"
+  },
+  "ville-tr-askale": {
+   "qid": "Q2119751",
+   "geonameid": "323094",
+   "coord_wikidata": [
+    40.694722222,
+    39.921111111
+   ],
+   "coord_geonames": [
+    40.695,
+    39.92083
+   ],
+   "ecart_km": 0.04,
+   "pays_wikidata": [
+    "TR"
+   ],
+   "qids_candidats": [
+    "Q2119751"
+   ]
+  },
+  "ville-tr-erzurum": {
+   "qid": "Q122803",
+   "geonameid": "315368",
+   "coord_wikidata": [
+    41.275555555,
+    39.909722222
+   ],
+   "coord_geonames": [
+    41.27694,
+    39.90861
+   ],
+   "ecart_km": 0.17,
+   "pays_wikidata": [
+    "TR"
+   ],
+   "qids_candidats": [
+    "Q122803"
+   ]
+  },
+  "ville-tr-divrigi": {
+   "qid": "Q743587",
+   "geonameid": "316544",
+   "coord_wikidata": [
+    38.113611111,
+    39.371111111
+   ],
+   "coord_geonames": [
+    38.1137,
+    39.371
+   ],
+   "ecart_km": 0.01,
+   "pays_wikidata": [
+    "TR"
+   ],
+   "qids_candidats": [
+    "Q743587"
+   ]
+  },
+  "ville-tr-sarikamis": {
+   "qid": "Q844542",
+   "geonameid": "740088",
+   "coord_wikidata": [
+    42.573,
+    40.3381
+   ],
+   "coord_geonames": [
+    42.58705,
+    40.32769
+   ],
+   "ecart_km": 1.66,
+   "pays_wikidata": [
+    "TR"
+   ],
+   "qids_candidats": [
+    "Q844542"
+   ]
+  },
+  "ville-tr-samsun": {
+   "qid": "Q160450",
+   "geonameid": "740264",
+   "coord_wikidata": [
+    36.33,
+    41.286666666
+   ],
+   "coord_geonames": [
+    36.3361,
+    41.27976
+   ],
+   "ecart_km": 0.92,
+   "pays_wikidata": [
+    "TR"
+   ],
+   "qids_candidats": [
+    "Q160450"
+   ]
+  },
+  "ville-tr-havza": {
+   "qid": "Q2671132",
+   "geonameid": "745714",
+   "coord_wikidata": [
+    35.666666666,
+    40.966666666
+   ],
+   "coord_geonames": [
+    35.66222,
+    40.97056
+   ],
+   "ecart_km": 0.57,
+   "pays_wikidata": [
+    "TR"
+   ],
+   "qids_candidats": [
+    "Q2671132"
+   ]
+  },
+  "ville-tr-cetinkaya": {
+   "qid": "Q10839303",
+   "geonameid": "318740",
+   "coord_wikidata": [
+    37.606944444,
+    39.252222222
+   ],
+   "coord_geonames": [
+    37.62603,
+    39.26178
+   ],
+   "ecart_km": 1.96,
+   "pays_wikidata": [
+    "TR"
+   ],
+   "qids_candidats": [
+    "Q10839303"
+   ]
+  },
+  "ville-tr-filyos": {
+   "qid": "Q5449284",
+   "geonameid": "745583",
+   "coord_wikidata": [
+    32.0246591,
+    41.5609511
+   ],
+   "coord_geonames": [
+    32.02389,
+    41.55383
+   ],
+   "ecart_km": 0.79,
+   "pays_wikidata": [
+    "TR"
+   ],
+   "qids_candidats": [
+    "Q5449284"
+   ]
+  },
+  "ville-tr-irmak": {
+   "qid": "Q6089317",
+   "geonameid": "311229",
+   "coord_wikidata": [
+    33.389,
+    39.9328
+   ],
+   "coord_geonames": [
+    33.38744,
+    39.93389
+   ],
+   "ecart_km": 0.18,
+   "pays_wikidata": [
+    "TR"
+   ],
+   "qids_candidats": [],
+   "choix_claude": "QID de la ville retenu par Claude (l'identifiant GeoNames désigne aussi un autre élément, ou n'est pas relié dans Wikidata)"
+  },
+  "ville-tr-isparta": {
+   "qid": "Q171031",
+   "geonameid": "311073",
+   "coord_wikidata": [
+    30.55,
+    37.766666666
+   ],
+   "coord_geonames": [
+    30.55222,
+    37.76444
+   ],
+   "ecart_km": 0.32,
+   "pays_wikidata": [
+    "TR"
+   ],
+   "qids_candidats": [
+    "Q171031"
+   ]
+  },
+  "ville-tr-elazig": {
+   "qid": "Q174060",
+   "geonameid": "315808",
+   "coord_wikidata": [
+    39.216666666,
+    38.666666666
+   ],
+   "coord_geonames": [
+    39.22321,
+    38.67431
+   ],
+   "ecart_km": 1.02,
+   "pays_wikidata": [
+    "TR"
+   ],
+   "qids_candidats": [
+    "Q174060"
+   ]
+  },
+  "ville-tr-yolcati": {
+   "qid": "Q6514203",
+   "geonameid": "296634",
+   "coord_wikidata": [
+    39.0313546,
+    38.539902
+   ],
+   "coord_geonames": [
+    39.03022,
+    38.54019
+   ],
+   "ecart_km": 0.1,
+   "pays_wikidata": [
+    "TR"
+   ],
+   "qids_candidats": [
+    "Q6514203"
+   ]
+  },
+  "ville-tr-istanbul": {
+   "qid": "Q406",
+   "geonameid": "745044",
+   "coord_wikidata": [
+    28.960277777,
+    41.01
+   ],
+   "coord_geonames": [
+    28.94966,
+    41.01384
+   ],
+   "ecart_km": 0.99,
+   "pays_wikidata": [
+    "TR"
+   ],
+   "qids_candidats": [
+    "Q406"
+   ]
+  },
+  "ville-tr-arifiye": {
+   "qid": "Q3696167",
+   "geonameid": "751922",
+   "coord_wikidata": [
+    30.36128,
+    40.71327
+   ],
+   "coord_geonames": [
+    30.35076,
+    40.70036
+   ],
+   "ecart_km": 1.69,
+   "pays_wikidata": [
+    "TR"
+   ],
+   "qids_candidats": [
+    "Q3696167"
+   ]
+  },
+  "ville-tr-adapazari": {
+   "qid": "Q175323",
+   "geonameid": "752850",
+   "coord_wikidata": [
+    30.40256,
+    40.77625
+   ],
+   "coord_geonames": [
+    30.40333,
+    40.78056
+   ],
+   "ecart_km": 0.48,
+   "pays_wikidata": [
+    "TR"
+   ],
+   "qids_candidats": [
+    "Q175323",
+    "Q3945164"
+   ],
+   "choix_claude": "QID de la ville retenu par Claude (l'identifiant GeoNames désigne aussi un autre élément, ou n'est pas relié dans Wikidata)"
+  },
+  "ville-tr-mudanya": {
+   "qid": "Q856171",
+   "geonameid": "741487",
+   "coord_wikidata": [
+    28.883888888,
+    40.375277777
+   ],
+   "coord_geonames": [
+    28.8838,
+    40.37524
+   ],
+   "ecart_km": 0.01,
+   "pays_wikidata": [
+    "TR"
+   ],
+   "qids_candidats": [
+    "Q856171"
+   ]
+  },
+  "ville-tr-bursa": {
+   "qid": "Q40738",
+   "geonameid": "750269",
+   "coord_wikidata": [
+    29.080538888,
+    40.191330555
+   ],
+   "coord_geonames": [
+    29.06013,
+    40.19559
+   ],
+   "ecart_km": 1.8,
+   "pays_wikidata": [
+    "TR"
+   ],
+   "qids_candidats": [
+    "Q40738"
+   ]
+  },
+  "ville-tr-izmir": {
+   "qid": "Q35997",
+   "geonameid": "311046",
+   "coord_wikidata": [
+    27.13838,
+    38.41273
+   ],
+   "coord_geonames": [
+    27.13838,
+    38.41273
+   ],
+   "ecart_km": 0.0,
+   "pays_wikidata": [
+    "TR"
+   ],
+   "qids_candidats": [
+    "Q35997"
+   ]
+  },
+  "ville-tr-aydin": {
+   "qid": "Q170457",
+   "geonameid": "322830",
+   "coord_wikidata": [
+    27.845277777,
+    37.848055555
+   ],
+   "coord_geonames": [
+    27.83963,
+    37.84501
+   ],
+   "ecart_km": 0.6,
+   "pays_wikidata": [
+    "TR"
+   ],
+   "qids_candidats": [
+    "Q170457"
+   ]
+  },
+  "ville-ge-poti": {
+   "qid": "Q185345",
+   "geonameid": "612366",
+   "coord_wikidata": [
+    41.67639,
+    42.14194
+   ],
+   "coord_geonames": [
+    41.67384,
+    42.14272
+   ],
+   "ecart_km": 0.23,
+   "pays_wikidata": [
+    "GE"
+   ],
+   "qids_candidats": [
+    "Q185345"
+   ]
+  },
+  "ville-ge-tbilissi": {
+   "qid": "Q994",
+   "geonameid": "611717",
+   "coord_wikidata": [
+    44.7925,
+    41.7225
+   ],
+   "coord_geonames": [
+    44.83412,
+    41.69143
+   ],
+   "ecart_km": 4.89,
+   "pays_wikidata": [
+    "GE"
+   ],
+   "qids_candidats": [
+    "Q994"
+   ]
+  },
+  "ville-ge-borjomi": {
+   "qid": "Q208352",
+   "geonameid": "615403",
+   "coord_wikidata": [
+    43.382777777,
+    41.841666666
+   ],
+   "coord_geonames": [
+    43.3971,
+    41.84692
+   ],
+   "ecart_km": 1.32,
+   "pays_wikidata": [
+    "GE"
+   ],
+   "qids_candidats": [
+    "Q208352"
+   ]
+  },
+  "ville-ge-bakouriani": {
+   "qid": "Q789104",
+   "geonameid": "615583",
+   "coord_wikidata": [
+    43.528333333,
+    41.750833333
+   ],
+   "coord_geonames": [
+    43.52907,
+    41.75303
+   ],
+   "ecart_km": 0.25,
+   "pays_wikidata": [
+    "GE"
+   ],
+   "qids_candidats": [
+    "Q789104"
+   ]
+  },
+  "ville-az-bakou": {
+   "qid": "Q9248",
+   "geonameid": "587084",
+   "coord_wikidata": [
+    49.835183333,
+    40.366655555
+   ],
+   "coord_geonames": [
+    49.89201,
+    40.37767
+   ],
+   "ecart_km": 4.97,
+   "pays_wikidata": [
+    "AZ"
+   ],
+   "qids_candidats": [
+    "Q31900267"
+   ],
+   "choix_claude": "QID principal de la ville retenu par Claude (l'identifiant GeoNames est relié à un élément secondaire de Wikidata)"
+  },
+  "ville-tr-kirikkale": {
+   "qid": "Q206891",
+   "geonameid": "307654",
+   "coord_wikidata": [
+    33.513888888,
+    39.841666666
+   ],
+   "coord_geonames": [
+    33.50639,
+    39.84528
+   ],
+   "ecart_km": 0.76,
+   "pays_wikidata": [
+    "TR"
+   ],
+   "qids_candidats": [
+    "Q206891"
+   ]
+  },
+  "ville-tr-eregli-konya": {
+   "qid": "Q996056",
+   "geonameid": "315498",
+   "coord_wikidata": [
+    34.0480033,
+    37.5142466
+   ],
+   "coord_geonames": [
+    34.04672,
+    37.51333
+   ],
+   "ecart_km": 0.15,
+   "pays_wikidata": [
+    "TR"
+   ],
+   "qids_candidats": [
+    "Q996056"
+   ]
+  },
+  "ville-tr-nazilli": {
+   "qid": "Q637120",
+   "geonameid": "303873",
+   "coord_wikidata": [
+    28.320555555,
+    37.9125
+   ],
+   "coord_geonames": [
+    28.32225,
+    37.91631
+   ],
+   "ecart_km": 0.45,
+   "pays_wikidata": [
+    "TR"
+   ],
+   "qids_candidats": [
+    "Q637120"
+   ]
+  },
+  "ville-tr-gemlik": {
+   "qid": "Q753752",
+   "geonameid": "746958",
+   "coord_wikidata": [
+    29.159722222,
+    40.430833333
+   ],
+   "coord_geonames": [
+    29.15969,
+    40.43094
+   ],
+   "ecart_km": 0.01,
+   "pays_wikidata": [
+    "TR"
+   ],
+   "qids_candidats": [
+    "Q753752"
+   ]
+  },
+  "ville-tr-izmit": {
+   "qid": "Q209349",
+   "geonameid": "745028",
+   "coord_wikidata": [
+    29.9175,
+    40.7625
+   ],
+   "coord_geonames": [
+    29.92928,
+    40.76499
+   ],
+   "ecart_km": 1.03,
+   "pays_wikidata": [
+    "TR"
+   ],
+   "qids_candidats": [
+    "Q209349"
+   ]
+  },
+  "ville-tr-karabuk": {
+   "qid": "Q189697",
+   "geonameid": "744562",
+   "coord_wikidata": [
+    32.633333333,
+    41.2
+   ],
+   "coord_geonames": [
+    32.62768,
+    41.20488
+   ],
+   "ecart_km": 0.72,
+   "pays_wikidata": [
+    "TR"
+   ],
+   "qids_candidats": [
+    "Q189697"
+   ]
+  },
+  "ville-tr-hereke": {
+   "qid": "Q5738119",
+   "geonameid": "745660",
+   "coord_wikidata": [
+    29.6306,
+    40.7908
+   ],
+   "coord_geonames": [
+    29.61472,
+    40.78611
+   ],
+   "ecart_km": 1.44,
+   "pays_wikidata": [
+    "TR"
+   ],
+   "qids_candidats": [],
+   "choix_claude": "QID de la ville retenu par Claude (l'identifiant GeoNames désigne aussi un autre élément, ou n'est pas relié dans Wikidata)"
+  },
+  "ville-tr-bunyan": {
+   "qid": "Q1921307",
+   "geonameid": "320406",
+   "coord_wikidata": [
+    35.859166666,
+    38.848611111
+   ],
+   "coord_geonames": [
+    35.86033,
+    38.8463
+   ],
+   "ecart_km": 0.28,
+   "pays_wikidata": [
+    "TR"
+   ],
+   "qids_candidats": [
+    "Q1921307"
+   ]
+  },
+  "ville-tr-zonguldak": {
+   "qid": "Q187895",
+   "geonameid": "737022",
+   "coord_wikidata": [
+    31.783333333,
+    41.45
+   ],
+   "coord_geonames": [
+    31.79305,
+    41.45139
+   ],
+   "ecart_km": 0.82,
+   "pays_wikidata": [
+    "TR"
+   ],
+   "qids_candidats": [
+    "Q187895"
+   ]
+  },
+  "ville-tr-eregli-mer-noire": {
+   "qid": "Q1012887",
+   "geonameid": "747471",
+   "coord_wikidata": [
+    31.4229672,
+    41.2795516
+   ],
+   "coord_geonames": [
+    31.41806,
+    41.28261
+   ],
+   "ecart_km": 0.53,
+   "pays_wikidata": [
+    "TR"
+   ],
+   "qids_candidats": [
+    "Q302511",
+    "Q49277454"
+   ],
+   "choix_claude": "QID principal de la ville retenu par Claude (l'identifiant GeoNames est relié à un élément secondaire de Wikidata)"
+  },
+  "ville-tr-soma": {
+   "qid": "Q16052713",
+   "geonameid": "300371",
+   "coord_wikidata": [
+    27.609444444,
+    39.185555555
+   ],
+   "coord_geonames": [
+    27.60945,
+    39.18554
+   ],
+   "ecart_km": 0.0,
+   "pays_wikidata": [
+    "TR"
+   ],
+   "qids_candidats": [
+    "Q16052713"
+   ]
+  },
+  "ville-tr-keciborlu": {
+   "qid": "Q1004516",
+   "geonameid": "308365",
+   "coord_wikidata": [
+    30.291666666,
+    37.952777777
+   ],
+   "coord_geonames": [
+    30.30222,
+    37.9425
+   ],
+   "ecart_km": 1.47,
+   "pays_wikidata": [
+    "TR"
+   ],
+   "qids_candidats": [
+    "Q1004516",
+    "Q49277708"
+   ],
+   "choix_claude": "QID de la ville retenu par Claude (l'identifiant GeoNames désigne aussi un autre élément, ou n'est pas relié dans Wikidata)"
+  },
+  "ville-ru-novorossiisk": {
+   "qid": "Q15760",
+   "geonameid": "518255",
+   "coord_wikidata": [
+    37.766666666,
+    44.716666666
+   ],
+   "coord_geonames": [
+    37.76176,
+    44.73188
+   ],
+   "ecart_km": 1.74,
+   "pays_wikidata": [
+    "RU"
+   ],
+   "qids_candidats": [
+    "Q15760"
+   ]
+  },
+  "ville-ru-ieisk": {
+   "qid": "Q135616",
+   "geonameid": "466885",
+   "coord_wikidata": [
+    38.273333333,
+    46.711111111
+   ],
+   "coord_geonames": [
+    38.27907,
+    46.69263
+   ],
+   "ecart_km": 2.1,
+   "pays_wikidata": [
+    "RU"
+   ],
+   "qids_candidats": [
+    "Q135616"
+   ]
+  },
+  "ville-ru-temriouk": {
+   "qid": "Q15759",
+   "geonameid": "483661",
+   "coord_wikidata": [
+    37.383333333,
+    45.266666666
+   ],
+   "coord_geonames": [
+    37.39752,
+    45.26885
+   ],
+   "ecart_km": 1.14,
+   "pays_wikidata": [
+    "RU"
+   ],
+   "qids_candidats": [
+    "Q15759"
+   ]
+  },
+  "ville-ru-touapse": {
+   "qid": "Q196702",
+   "geonameid": "480716",
+   "coord_wikidata": [
+    39.083333333,
+    44.1
+   ],
+   "coord_geonames": [
+    39.08326,
+    44.10083
+   ],
+   "ecart_km": 0.09,
+   "pays_wikidata": [
+    "RU"
+   ],
+   "qids_candidats": [
+    "Q196702"
+   ]
+  },
+  "ville-ru-sotchi": {
+   "qid": "Q39420",
+   "geonameid": "491422",
+   "coord_wikidata": [
+    39.720277777,
+    43.585277777
+   ],
+   "coord_geonames": [
+    39.72477,
+    43.59699
+   ],
+   "ecart_km": 1.35,
+   "pays_wikidata": [
+    "RU"
+   ],
+   "qids_candidats": [
+    "Q39420"
+   ]
+  },
+  "ville-ru-vladikavkaz": {
+   "qid": "Q5239",
+   "geonameid": "473249",
+   "coord_wikidata": [
+    44.6775,
+    43.04
+   ],
+   "coord_geonames": [
+    44.66986,
+    43.04101
+   ],
+   "ecart_km": 0.63,
+   "pays_wikidata": [
+    "RU"
+   ],
+   "qids_candidats": [
+    "Q107642877",
+    "Q5239"
+   ],
+   "choix_claude": "QID de la ville retenu par Claude (l'identifiant GeoNames désigne aussi un autre élément, ou n'est pas relié dans Wikidata)"
+  },
+  "ville-ru-grozny": {
+   "qid": "Q5196",
+   "geonameid": "558418",
+   "coord_wikidata": [
+    45.698611111,
+    43.3125
+   ],
+   "coord_geonames": [
+    45.68895,
+    43.31195
+   ],
+   "ecart_km": 0.78,
+   "pays_wikidata": [
+    "RU"
+   ],
+   "qids_candidats": [
+    "Q5196"
+   ]
+  },
+  "ville-ru-goudermes": {
+   "qid": "Q134693",
+   "geonameid": "558118",
+   "coord_wikidata": [
+    46.1,
+    43.35
+   ],
+   "coord_geonames": [
+    46.10095,
+    43.35082
+   ],
+   "ecart_km": 0.12,
+   "pays_wikidata": [
+    "RU"
+   ],
+   "qids_candidats": [
+    "Q134693"
+   ]
+  },
+  "ville-ru-kizliar": {
+   "qid": "Q145810",
+   "geonameid": "547840",
+   "coord_wikidata": [
+    46.713888888,
+    43.854722222
+   ],
+   "coord_geonames": [
+    46.70977,
+    43.84686
+   ],
+   "ecart_km": 0.93,
+   "pays_wikidata": [
+    "RU"
+   ],
+   "qids_candidats": [
+    "Q145810"
+   ]
+  },
+  "ville-ru-stavropol": {
+   "qid": "Q5206",
+   "geonameid": "487846",
+   "coord_wikidata": [
+    41.983333333,
+    45.05
+   ],
+   "coord_geonames": [
+    41.9642,
+    45.03442
+   ],
+   "ecart_km": 2.29,
+   "pays_wikidata": [
+    "RU"
+   ],
+   "qids_candidats": [
+    "Q5206"
+   ]
+  },
+  "ville-ru-mozdok": {
+   "qid": "Q46639",
+   "geonameid": "524736",
+   "coord_wikidata": [
+    44.65,
+    43.75
+   ],
+   "coord_geonames": [
+    44.65157,
+    43.73976
+   ],
+   "ecart_km": 1.15,
+   "pays_wikidata": [
+    "RU"
+   ],
+   "qids_candidats": [
+    "Q46639"
+   ]
+  },
+  "ville-ru-makhatchkala": {
+   "qid": "Q5168",
+   "geonameid": "532096",
+   "coord_wikidata": [
+    47.505,
+    42.9825
+   ],
+   "coord_geonames": [
+    47.50027,
+    42.97782
+   ],
+   "ecart_km": 0.65,
+   "pays_wikidata": [
+    "RU"
+   ],
+   "qids_candidats": [
+    "Q5168"
+   ]
+  },
+  "ville-am-gyumri": {
+   "qid": "Q199500",
+   "geonameid": "616635",
+   "coord_wikidata": [
+    43.833333333,
+    40.783333333
+   ],
+   "coord_geonames": [
+    43.84635,
+    40.79305
+   ],
+   "ecart_km": 1.54,
+   "pays_wikidata": [
+    "AM"
+   ],
+   "qids_candidats": [
+    "Q199500"
+   ]
+  },
+  "ville-am-erevan": {
+   "qid": "Q1953",
+   "geonameid": "616052",
+   "coord_wikidata": [
+    44.514444444,
+    40.181388888
+   ],
+   "coord_geonames": [
+    44.5126,
+    40.17765
+   ],
+   "ecart_km": 0.44,
+   "pays_wikidata": [
+    "AM"
+   ],
+   "qids_candidats": [
+    "Q49755180"
+   ],
+   "choix_claude": "QID principal de la ville retenu par Claude (l'identifiant GeoNames est relié à un élément secondaire de Wikidata)"
+  },
+  "ville-tr-tekirdag": {
+   "qid": "Q182009",
+   "geonameid": "738927",
+   "coord_wikidata": [
+    27.516666666,
+    40.983333333
+   ],
+   "coord_geonames": [
+    27.51101,
+    40.9781
+   ],
+   "ecart_km": 0.75,
+   "pays_wikidata": [
+    "TR"
+   ],
+   "qids_candidats": [
+    "Q182009"
+   ]
+  },
+  "ville-tr-yalova": {
+   "qid": "Q205942",
+   "geonameid": "738025",
+   "coord_wikidata": [
+    29.275,
+    40.655555555
+   ],
+   "coord_geonames": [
+    29.27693,
+    40.65501
+   ],
+   "ecart_km": 0.17,
+   "pays_wikidata": [
+    "TR"
+   ],
+   "qids_candidats": [
+    "Q205942"
+   ]
+  },
+  "ville-tr-gaziantep": {
+   "qid": "Q93338",
+   "geonameid": "314830",
+   "coord_wikidata": [
+    37.379166666,
+    37.062777777
+   ],
+   "coord_geonames": [
+    37.3825,
+    37.05944
+   ],
+   "ecart_km": 0.47,
+   "pays_wikidata": [
+    "TR"
+   ],
+   "qids_candidats": [
+    "Q93338"
+   ]
+  },
+  "ville-az-nakhitchevan": {
+   "qid": "Q230104",
+   "geonameid": "147429",
+   "coord_wikidata": [
+    45.412222222,
+    39.208888888
+   ],
+   "coord_geonames": [
+    45.41222,
+    39.20889
+   ],
+   "ecart_km": 0.0,
+   "pays_wikidata": [
+    "AZ"
+   ],
+   "qids_candidats": [
+    "Q230104"
+   ]
+  },
+  "ville-ge-tkvarcheli": {
+   "qid": "Q270535",
+   "geonameid": "611583",
+   "coord_wikidata": [
+    41.683333333,
+    42.85
+   ],
+   "coord_geonames": [
+    41.68007,
+    42.84035
+   ],
+   "ecart_km": 1.11,
+   "pays_wikidata": [
+    "GE"
+   ],
+   "qids_candidats": [
+    "Q270535"
+   ]
+  },
+  "ville-tr-trabzon": {
+   "qid": "Q45301",
+   "geonameid": "738648",
+   "coord_wikidata": [
+    39.7225,
+    41.005
+   ],
+   "coord_geonames": [
+    39.72694,
+    41.005
+   ],
+   "ecart_km": 0.37,
+   "pays_wikidata": [
+    "TR"
+   ],
+   "qids_candidats": [
+    "Q45301"
+   ]
+  },
+  "ville-tr-erdek": {
+   "qid": "Q177298",
+   "geonameid": "747482",
+   "coord_wikidata": [
+    27.793055555,
+    40.398611111
+   ],
+   "coord_geonames": [
+    27.79348,
+    40.3996
+   ],
+   "ecart_km": 0.12,
+   "pays_wikidata": [
+    "TR"
+   ],
+   "qids_candidats": [
+    "Q177298",
+    "Q49277452"
+   ],
+   "choix_claude": "QID de la ville retenu par Claude (l'identifiant GeoNames désigne aussi un autre élément, ou n'est pas relié dans Wikidata)"
+  },
+  "ville-tr-mersin": {
+   "qid": "Q134291",
+   "geonameid": "304531",
+   "coord_wikidata": [
+    34.616666666,
+    36.8
+   ],
+   "coord_geonames": [
+    34.63886,
+    36.81196
+   ],
+   "ecart_km": 2.38,
+   "pays_wikidata": [
+    "TR"
+   ],
+   "qids_candidats": [
+    "Q134291"
+   ]
+  },
+  "ville-tr-bandirma": {
+   "qid": "Q214651",
+   "geonameid": "751077",
+   "coord_wikidata": [
+    27.9725,
+    40.354166666
+   ],
+   "coord_geonames": [
+    27.97667,
+    40.35222
+   ],
+   "ecart_km": 0.41,
+   "pays_wikidata": [
+    "TR"
+   ],
+   "qids_candidats": [
+    "Q49277243"
+   ],
+   "choix_claude": "QID principal de la ville retenu par Claude (l'identifiant GeoNames est relié à un élément secondaire de Wikidata)"
+  },
+  "ville-tr-derince": {
+   "qid": "Q2000455",
+   "geonameid": "748208",
+   "coord_wikidata": [
+    29.823055555,
+    40.753888888
+   ],
+   "coord_geonames": [
+    29.81472,
+    40.75694
+   ],
+   "ecart_km": 0.78,
+   "pays_wikidata": [
+    "TR"
+   ],
+   "qids_candidats": [
+    "Q2000455"
+   ]
+  },
+  "ville-ge-tchiatoura": {
+   "qid": "Q217443",
+   "geonameid": "615211",
+   "coord_wikidata": [
+    43.283611111,
+    42.289444444
+   ],
+   "coord_geonames": [
+    43.29889,
+    42.29806
+   ],
+   "ecart_km": 1.58,
+   "pays_wikidata": [
+    "GE"
+   ],
+   "qids_candidats": [
+    "Q217443"
+   ]
+  },
+  "ville-ge-zestafoni": {
+   "qid": "Q734315",
+   "geonameid": "610864",
+   "coord_wikidata": [
+    43.041666666,
+    42.108333333
+   ],
+   "coord_geonames": [
+    43.03291,
+    42.10752
+   ],
+   "ecart_km": 0.73,
+   "pays_wikidata": [
+    "GE"
+   ],
+   "qids_candidats": [
+    "Q734315"
+   ]
+  },
+  "ville-ge-chorapani": {
+   "qid": "Q1944249",
+   "geonameid": "611964",
+   "coord_wikidata": [
+    43.081944444,
+    42.095555555
+   ],
+   "coord_geonames": [
+    43.08248,
+    42.09595
+   ],
+   "ecart_km": 0.06,
+   "pays_wikidata": [
+    "GE"
+   ],
+   "qids_candidats": [
+    "Q1944249"
+   ]
+  },
+  "ville-ge-tkibouli": {
+   "qid": "Q941980",
+   "geonameid": "611584",
+   "coord_wikidata": [
+    42.998333333,
+    42.350277777
+   ],
+   "coord_geonames": [
+    42.99774,
+    42.34781
+   ],
+   "ecart_km": 0.28,
+   "pays_wikidata": [
+    "GE"
+   ],
+   "qids_candidats": [
+    "Q2212773",
+    "Q24682321"
+   ],
+   "choix_claude": "QID principal de la ville retenu par Claude (l'identifiant GeoNames est relié à un élément secondaire de Wikidata)"
+  },
+  "ville-ge-khachouri": {
+   "qid": "Q932901",
+   "geonameid": "613988",
+   "coord_wikidata": [
+    43.598611111,
+    41.9975
+   ],
+   "coord_geonames": [
+    43.59905,
+    41.99733
+   ],
+   "ecart_km": 0.04,
+   "pays_wikidata": [
+    "GE"
+   ],
+   "qids_candidats": [
+    "Q932901"
+   ]
+  },
+  "ville-ge-koutaissi": {
+   "qid": "Q172415",
+   "geonameid": "613607",
+   "coord_wikidata": [
+    42.705555555,
+    42.271666666
+   ],
+   "coord_geonames": [
+    42.69459,
+    42.26791
+   ],
+   "ecart_km": 0.99,
+   "pays_wikidata": [
+    "GE"
+   ],
+   "qids_candidats": [],
+   "choix_claude": "QID de la ville retenu par Claude (l'identifiant GeoNames désigne aussi un autre élément, ou n'est pas relié dans Wikidata)"
+  },
+  "ville-ge-gori": {
+   "qid": "Q19583",
+   "geonameid": "614455",
+   "coord_wikidata": [
+    44.112416666,
+    41.981686111
+   ],
+   "coord_geonames": [
+    44.1129,
+    41.98532
+   ],
+   "ecart_km": 0.41,
+   "pays_wikidata": [
+    "GE"
+   ],
+   "qids_candidats": [
+    "Q19583"
+   ]
+  },
+  "ville-ge-gourdjaani": {
+   "qid": "Q1011047",
+   "geonameid": "614351",
+   "coord_wikidata": [
+    45.794166666,
+    41.744444444
+   ],
+   "coord_geonames": [
+    45.80246,
+    41.74384
+   ],
+   "ecart_km": 0.69,
+   "pays_wikidata": [
+    "GE"
+   ],
+   "qids_candidats": [
+    "Q1011047"
+   ]
+  },
+  "ville-ge-zougdidi": {
+   "qid": "Q185336",
+   "geonameid": "610824",
+   "coord_wikidata": [
+    41.8725,
+    42.508055555
+   ],
+   "coord_geonames": [
+    41.86796,
+    42.5084
+   ],
+   "ecart_km": 0.37,
+   "pays_wikidata": [
+    "GE"
+   ],
+   "qids_candidats": [
+    "Q185336"
+   ]
+  },
+  "ville-ge-kaspi": {
+   "qid": "Q956954",
+   "geonameid": "614104",
+   "coord_wikidata": [
+    44.418888888,
+    41.924444444
+   ],
+   "coord_geonames": [
+    44.42355,
+    41.92776
+   ],
+   "ecart_km": 0.53,
+   "pays_wikidata": [
+    "GE"
+   ],
+   "qids_candidats": [
+    "Q956954"
+   ]
+  },
+  "ville-ge-lantchkhouti": {
+   "qid": "Q956922",
+   "geonameid": "613311",
+   "coord_wikidata": [
+    42.036111111,
+    42.0875
+   ],
+   "coord_geonames": [
+    42.03611,
+    42.08744
+   ],
+   "ecart_km": 0.01,
+   "pays_wikidata": [
+    "GE"
+   ],
+   "qids_candidats": [
+    "Q956922"
+   ]
+  },
+  "ville-ge-ozourgueti": {
+   "qid": "Q317145",
+   "geonameid": "612536",
+   "coord_wikidata": [
+    42.005027777,
+    41.923027777
+   ],
+   "coord_geonames": [
+    42.00525,
+    41.92336
+   ],
+   "ecart_km": 0.04,
+   "pays_wikidata": [
+    "GE"
+   ],
+   "qids_candidats": [
+    "Q317145"
+   ]
+  },
+  "ville-ge-mtskheta": {
+   "qid": "Q180810",
+   "geonameid": "612890",
+   "coord_wikidata": [
+    44.719444444,
+    41.843055555
+   ],
+   "coord_geonames": [
+    44.71875,
+    41.84514
+   ],
+   "ecart_km": 0.24,
+   "pays_wikidata": [
+    "GE"
+   ],
+   "qids_candidats": [
+    "Q180810"
+   ]
+  },
+  "ville-ge-satchkhere": {
+   "qid": "Q474669",
+   "geonameid": "612256",
+   "coord_wikidata": [
+    43.404722222,
+    42.339722222
+   ],
+   "coord_geonames": [
+    43.40575,
+    42.33594
+   ],
+   "ecart_km": 0.43,
+   "pays_wikidata": [
+    "GE"
+   ],
+   "qids_candidats": [
+    "Q474669"
+   ]
+  },
+  "ville-ge-akhalkalaki": {
+   "qid": "Q500888",
+   "geonameid": "615893",
+   "coord_wikidata": [
+    43.486111111,
+    41.405555555
+   ],
+   "coord_geonames": [
+    43.48629,
+    41.40514
+   ],
+   "ecart_km": 0.05,
+   "pays_wikidata": [
+    "GE"
+   ],
+   "qids_candidats": [
+    "Q500888"
+   ]
+  },
+  "ville-ge-akhaltsikhe": {
+   "qid": "Q212546",
+   "geonameid": "615860",
+   "coord_wikidata": [
+    42.986111,
+    41.638889
+   ],
+   "coord_geonames": [
+    42.98604,
+    41.63952
+   ],
+   "ecart_km": 0.07,
+   "pays_wikidata": [
+    "GE"
+   ],
+   "qids_candidats": [
+    "Q212546"
+   ]
+  },
+  "ville-ge-telavi": {
+   "qid": "Q209009",
+   "geonameid": "611694",
+   "coord_wikidata": [
+    45.47315,
+    41.91978
+   ],
+   "coord_geonames": [
+    45.47002,
+    41.91957
+   ],
+   "ecart_km": 0.26,
+   "pays_wikidata": [
+    "GE"
+   ],
+   "qids_candidats": [
+    "Q209009"
+   ]
+  },
+  "ville-ge-soukhoumi": {
+   "qid": "Q40811",
+   "geonameid": "611847",
+   "coord_wikidata": [
+    41.019166666,
+    43.003611111
+   ],
+   "coord_geonames": [
+    40.9893,
+    43.00697
+   ],
+   "ecart_km": 2.46,
+   "pays_wikidata": [
+    "GE"
+   ],
+   "qids_candidats": [
+    "Q40811"
+   ]
+  },
+  "ville-ge-tskhinvali": {
+   "qid": "Q79863",
+   "geonameid": "611403",
+   "coord_wikidata": [
+    43.970072,
+    42.225661
+   ],
+   "coord_geonames": [
+    43.96861,
+    42.22764
+   ],
+   "ecart_km": 0.25,
+   "pays_wikidata": [
+    "GE"
+   ],
+   "qids_candidats": [
+    "Q79863"
+   ]
+  },
+  "ville-am-alaverdi": {
+   "qid": "Q39545",
+   "geonameid": "616974",
+   "coord_wikidata": [
+    44.655833333,
+    41.095
+   ],
+   "coord_geonames": [
+    44.67316,
+    41.09766
+   ],
+   "ecart_km": 1.48,
+   "pays_wikidata": [
+    "AM"
+   ],
+   "qids_candidats": [
+    "Q39545"
+   ]
+  },
+  "ville-am-artik": {
+   "qid": "Q1155098",
+   "geonameid": "616887",
+   "coord_wikidata": [
+    43.95,
+    40.616666666
+   ],
+   "coord_geonames": [
+    43.97207,
+    40.61918
+   ],
+   "ecart_km": 1.88,
+   "pays_wikidata": [
+    "AM"
+   ],
+   "qids_candidats": [
+    "Q1155098"
+   ]
+  },
+  "ville-am-akhtala": {
+   "qid": "Q614157",
+   "geonameid": "616995",
+   "coord_wikidata": [
+    44.777284,
+    41.150299
+   ],
+   "coord_geonames": [
+    44.78168,
+    41.14952
+   ],
+   "ecart_km": 0.38,
+   "pays_wikidata": [
+    "AM"
+   ],
+   "qids_candidats": [
+    "Q614157"
+   ]
+  },
+  "ville-am-kapan": {
+   "qid": "Q31583",
+   "geonameid": "174875",
+   "coord_wikidata": [
+    46.415,
+    39.201111111
+   ],
+   "coord_geonames": [
+    46.40678,
+    39.20762
+   ],
+   "ecart_km": 1.01,
+   "pays_wikidata": [
+    "AM"
+   ],
+   "qids_candidats": [
+    "Q31583"
+   ]
+  },
+  "ville-am-vanadzor": {
+   "qid": "Q62337",
+   "geonameid": "616530",
+   "coord_wikidata": [
+    44.488333333,
+    40.812777777
+   ],
+   "coord_geonames": [
+    44.49704,
+    40.8074
+   ],
+   "ecart_km": 0.95,
+   "pays_wikidata": [
+    "AM"
+   ],
+   "qids_candidats": [
+    "Q62337"
+   ]
+  },
+  "ville-am-goris": {
+   "qid": "Q319735",
+   "geonameid": "174895",
+   "coord_wikidata": [
+    46.341666666,
+    39.511111111
+   ],
+   "coord_geonames": [
+    46.34168,
+    39.51111
+   ],
+   "ecart_km": 0.0,
+   "pays_wikidata": [
+    "AM"
+   ],
+   "qids_candidats": [
+    "Q319735"
+   ]
+  },
+  "ville-am-dilidjan": {
+   "qid": "Q39569",
+   "geonameid": "616752",
+   "coord_wikidata": [
+    44.863055555,
+    40.740833333
+   ],
+   "coord_geonames": [
+    44.86344,
+    40.74037
+   ],
+   "ecart_km": 0.06,
+   "pays_wikidata": [
+    "AM"
+   ],
+   "qids_candidats": [
+    "Q39569"
+   ]
+  },
+  "ville-am-sevan": {
+   "qid": "Q39625",
+   "geonameid": "616250",
+   "coord_wikidata": [
+    44.953611111,
+    40.555
+   ],
+   "coord_geonames": [
+    44.95314,
+    40.548
+   ],
+   "ecart_km": 0.78,
+   "pays_wikidata": [
+    "AM"
+   ],
+   "qids_candidats": [
+    "Q39625",
+    "Q42895913"
+   ],
+   "choix_claude": "QID de la ville retenu par Claude (l'identifiant GeoNames désigne aussi un autre élément, ou n'est pas relié dans Wikidata)"
+  },
+  "ville-am-vagharshapat": {
+   "qid": "Q183394",
+   "geonameid": "616062",
+   "coord_wikidata": [
+    44.2925,
+    40.172777777
+   ],
+   "coord_geonames": [
+    44.29462,
+    40.16557
+   ],
+   "ecart_km": 0.82,
+   "pays_wikidata": [
+    "AM"
+   ],
+   "qids_candidats": [
+    "Q183394"
+   ]
+  },
+  "ville-az-gandja": {
+   "qid": "Q131290",
+   "geonameid": "586523",
+   "coord_wikidata": [
+    46.360555555,
+    40.682777777
+   ],
+   "coord_geonames": [
+    46.36134,
+    40.68157
+   ],
+   "ecart_km": 0.15,
+   "pays_wikidata": [
+    "AZ"
+   ],
+   "qids_candidats": [
+    "Q131290"
+   ]
+  },
+  "ville-az-agstafa": {
+   "qid": "Q1976493",
+   "geonameid": "587362",
+   "coord_wikidata": [
+    45.45,
+    41.116666666
+   ],
+   "coord_geonames": [
+    45.45389,
+    41.11889
+   ],
+   "ecart_km": 0.41,
+   "pays_wikidata": [
+    "AZ"
+   ],
+   "qids_candidats": [
+    "Q1976493"
+   ]
+  },
+  "ville-az-alat": {
+   "qid": "Q3951524",
+   "geonameid": "148577",
+   "coord_wikidata": [
+    49.400433222,
+    39.943931526
+   ],
+   "coord_geonames": [
+    49.40675,
+    39.95008
+   ],
+   "ecart_km": 0.87,
+   "pays_wikidata": [
+    "AZ"
+   ],
+   "qids_candidats": [
+    "Q3951524"
+   ]
+  },
+  "ville-az-yevlakh": {
+   "qid": "Q175459",
+   "geonameid": "584649",
+   "coord_wikidata": [
+    47.15,
+    40.617222222
+   ],
+   "coord_geonames": [
+    47.15014,
+    40.61832
+   ],
+   "ecart_km": 0.12,
+   "pays_wikidata": [
+    "AZ"
+   ],
+   "qids_candidats": [
+    "Q175459"
+   ]
+  },
+  "ville-az-kurdamir": {
+   "qid": "Q1851063",
+   "geonameid": "585763",
+   "coord_wikidata": [
+    48.160833333,
+    40.338333333
+   ],
+   "coord_geonames": [
+    48.15649,
+    40.34257
+   ],
+   "ecart_km": 0.6,
+   "pays_wikidata": [
+    "AZ"
+   ],
+   "qids_candidats": [
+    "Q1851063"
+   ]
+  },
+  "ville-az-tovuz": {
+   "qid": "Q1026084",
+   "geonameid": "584821",
+   "coord_wikidata": [
+    45.616666666,
+    40.992416666
+   ],
+   "coord_geonames": [
+    45.62838,
+    40.99249
+   ],
+   "ecart_km": 0.98,
+   "pays_wikidata": [
+    "AZ"
+   ],
+   "qids_candidats": [
+    "Q1026084"
+   ]
+  },
+  "ville-az-ujar": {
+   "qid": "Q646809",
+   "geonameid": "584791",
+   "coord_wikidata": [
+    47.654166666,
+    40.518333333
+   ],
+   "coord_geonames": [
+    47.65423,
+    40.51902
+   ],
+   "ecart_km": 0.08,
+   "pays_wikidata": [
+    "AZ"
+   ],
+   "qids_candidats": [
+    "Q646809"
+   ]
+  },
+  "ville-az-khachmaz": {
+   "qid": "Q1018160",
+   "geonameid": "584717",
+   "coord_wikidata": [
+    48.802777777,
+    41.468055555
+   ],
+   "coord_geonames": [
+    48.80565,
+    41.46426
+   ],
+   "ecart_km": 0.49,
+   "pays_wikidata": [
+    "AZ"
+   ],
+   "qids_candidats": [
+    "Q1018160"
+   ]
+  },
+  "ville-az-lankaran": {
+   "qid": "Q228811",
+   "geonameid": "147622",
+   "coord_wikidata": [
+    48.851111111,
+    38.753611111
+   ],
+   "coord_geonames": [
+    48.85062,
+    38.75428
+   ],
+   "ecart_km": 0.09,
+   "pays_wikidata": [
+    "AZ"
+   ],
+   "qids_candidats": [
+    "Q228811"
+   ]
+  },
+  "ville-az-chaki": {
+   "qid": "Q234783",
+   "geonameid": "585170",
+   "coord_wikidata": [
+    47.170555555,
+    41.191944444
+   ],
+   "coord_geonames": [
+    47.17056,
+    41.19194
+   ],
+   "ecart_km": 0.0,
+   "pays_wikidata": [
+    "AZ"
+   ],
+   "qids_candidats": [
+    "Q234783"
+   ]
+  },
+  "ville-az-sabirabad": {
+   "qid": "Q2148635",
+   "geonameid": "585187",
+   "coord_wikidata": [
+    48.471944444,
+    40.005277777
+   ],
+   "coord_geonames": [
+    48.47701,
+    40.00869
+   ],
+   "ecart_km": 0.57,
+   "pays_wikidata": [
+    "AZ"
+   ],
+   "qids_candidats": [
+    "Q2148635"
+   ]
+  },
+  "ville-az-gazakh": {
+   "qid": "Q586758",
+   "geonameid": "585226",
+   "coord_wikidata": [
+    45.366111111,
+    41.093333333
+   ],
+   "coord_geonames": [
+    45.36561,
+    41.09246
+   ],
+   "ecart_km": 0.11,
+   "pays_wikidata": [
+    "AZ"
+   ],
+   "qids_candidats": [
+    "Q586758"
+   ]
+  },
+  "ville-az-stepanakert": {
+   "qid": "Q129352",
+   "geonameid": "146970",
+   "coord_wikidata": [
+    46.751944444,
+    39.815277777
+   ],
+   "coord_geonames": [
+    46.7528,
+    39.8177
+   ],
+   "ecart_km": 0.28,
+   "pays_wikidata": [
+    "AZ"
+   ],
+   "qids_candidats": [
+    "Q129352"
+   ]
+  },
+  "ville-az-choucha": {
+   "qid": "Q158903",
+   "geonameid": "147105",
+   "coord_wikidata": [
+    46.750376945,
+    39.760213203
+   ],
+   "coord_geonames": [
+    46.74989,
+    39.76006
+   ],
+   "ecart_km": 0.04,
+   "pays_wikidata": [
+    "AZ"
+   ],
+   "qids_candidats": [
+    "Q158903"
+   ]
+  },
+  "ville-ru-prokhladny": {
+   "qid": "Q184200",
+   "geonameid": "504935",
+   "coord_wikidata": [
+    44.029722222,
+    43.7575
+   ],
+   "coord_geonames": [
+    44.0297,
+    43.75741
+   ],
+   "ecart_km": 0.01,
+   "pays_wikidata": [
+    "RU"
+   ],
+   "qids_candidats": [
+    "Q184200"
+   ]
+  },
+  "ville-ru-mineralnye-vody": {
+   "qid": "Q158936",
+   "geonameid": "526480",
+   "coord_wikidata": [
+    43.1125,
+    44.200833333
+   ],
+   "coord_geonames": [
+    43.13528,
+    44.21028
+   ],
+   "ecart_km": 2.1,
+   "pays_wikidata": [
+    "RU"
+   ],
+   "qids_candidats": [
+    "Q158936"
+   ]
+  },
+  "ville-ru-nevinnomyssk": {
+   "qid": "Q165806",
+   "geonameid": "522377",
+   "coord_wikidata": [
+    41.933333333,
+    44.633333333
+   ],
+   "coord_geonames": [
+    41.9444,
+    44.6333
+   ],
+   "ecart_km": 0.88,
+   "pays_wikidata": [
+    "RU"
+   ],
+   "qids_candidats": [
+    "Q165806"
+   ]
+  },
+  "ville-ru-armavir": {
+   "qid": "Q15767",
+   "geonameid": "580922",
+   "coord_wikidata": [
+    41.116666666,
+    45.0
+   ],
+   "coord_geonames": [
+    41.11472,
+    44.99849
+   ],
+   "ecart_km": 0.23,
+   "pays_wikidata": [
+    "RU"
+   ],
+   "qids_candidats": [
+    "Q15767"
+   ]
+  },
+  "ville-ru-kropotkine": {
+   "qid": "Q16973",
+   "geonameid": "540761",
+   "coord_wikidata": [
+    40.566666666,
+    45.433333333
+   ],
+   "coord_geonames": [
+    40.5704,
+    45.43722
+   ],
+   "ecart_km": 0.52,
+   "pays_wikidata": [
+    "RU"
+   ],
+   "qids_candidats": [
+    "Q16973"
+   ]
+  },
+  "ville-ru-krasnodar": {
+   "qid": "Q3646",
+   "geonameid": "542420",
+   "coord_wikidata": [
+    38.983333333,
+    45.033333333
+   ],
+   "coord_geonames": [
+    38.98178,
+    45.04534
+   ],
+   "ecart_km": 1.34,
+   "pays_wikidata": [
+    "RU"
+   ],
+   "qids_candidats": [
+    "Q3646"
+   ]
+  },
+  "ville-ru-tikhoretsk": {
+   "qid": "Q196658",
+   "geonameid": "483029",
+   "coord_wikidata": [
+    40.116666666,
+    45.85
+   ],
+   "coord_geonames": [
+    40.11874,
+    45.85307
+   ],
+   "ecart_km": 0.38,
+   "pays_wikidata": [
+    "RU"
+   ],
+   "qids_candidats": [
+    "Q196658"
+   ]
+  },
+  "ville-ru-salsk": {
+   "qid": "Q193473",
+   "geonameid": "499161",
+   "coord_wikidata": [
+    41.533333333,
+    46.483333333
+   ],
+   "coord_geonames": [
+    41.54159,
+    46.47494
+   ],
+   "ecart_km": 1.13,
+   "pays_wikidata": [
+    "RU"
+   ],
+   "qids_candidats": [
+    "Q193473"
+   ]
+  },
+  "ville-ru-derbent": {
+   "qid": "Q131416",
+   "geonameid": "566532",
+   "coord_wikidata": [
+    48.288888888,
+    42.057777777
+   ],
+   "coord_geonames": [
+    48.28759,
+    42.06622
+   ],
+   "ecart_km": 0.94,
+   "pays_wikidata": [
+    "RU"
+   ],
+   "qids_candidats": [
+    "Q131416"
+   ]
+  },
+  "ville-ru-bouinaksk": {
+   "qid": "Q132931",
+   "geonameid": "570479",
+   "coord_wikidata": [
+    47.116666666,
+    42.816666666
+   ],
+   "coord_geonames": [
+    47.12684,
+    42.81802
+   ],
+   "ecart_km": 0.84,
+   "pays_wikidata": [
+    "RU"
+   ],
+   "qids_candidats": [
+    "Q132931"
+   ]
+  },
+  "ville-ru-khassaviourt": {
+   "qid": "Q147756",
+   "geonameid": "550478",
+   "coord_wikidata": [
+    46.583333333,
+    43.25
+   ],
+   "coord_geonames": [
+    46.58571,
+    43.24872
+   ],
+   "ecart_km": 0.24,
+   "pays_wikidata": [
+    "RU"
+   ],
+   "qids_candidats": [
+    "Q147756"
+   ]
+  },
+  "ville-ru-naltchik": {
+   "qid": "Q5265",
+   "geonameid": "523523",
+   "coord_wikidata": [
+    43.616666666,
+    43.483333333
+   ],
+   "coord_geonames": [
+    43.61889,
+    43.49806
+   ],
+   "ecart_km": 1.65,
+   "pays_wikidata": [
+    "RU"
+   ],
+   "qids_candidats": [
+    "Q5265"
+   ]
+  },
+  "ville-ru-piatigorsk": {
+   "qid": "Q41970",
+   "geonameid": "503550",
+   "coord_wikidata": [
+    43.05,
+    44.033333
+   ],
+   "coord_geonames": [
+    43.05036,
+    44.05
+   ],
+   "ecart_km": 1.85,
+   "pays_wikidata": [
+    "RU"
+   ],
+   "qids_candidats": [
+    "Q41970"
+   ]
+  },
+  "ville-ru-kislovodsk": {
+   "qid": "Q153676",
+   "geonameid": "548114",
+   "coord_wikidata": [
+    42.72,
+    43.91
+   ],
+   "coord_geonames": [
+    42.72083,
+    43.91333
+   ],
+   "ecart_km": 0.38,
+   "pays_wikidata": [
+    "RU"
+   ],
+   "qids_candidats": [
+    "Q153676"
+   ]
+  },
+  "ville-ru-iessentouki": {
+   "qid": "Q135787",
+   "geonameid": "466990",
+   "coord_wikidata": [
+    42.864444444,
+    44.043055555
+   ],
+   "coord_geonames": [
+    42.85638,
+    44.04826
+   ],
+   "ecart_km": 0.87,
+   "pays_wikidata": [
+    "RU"
+   ],
+   "qids_candidats": [
+    "Q135787"
+   ]
+  },
+  "ville-ru-jeleznovodsk": {
+   "qid": "Q135829",
+   "geonameid": "463340",
+   "coord_wikidata": [
+    43.033333333,
+    44.133333333
+   ],
+   "coord_geonames": [
+    43.00475,
+    44.14318
+   ],
+   "ecart_km": 2.53,
+   "pays_wikidata": [
+    "RU"
+   ],
+   "qids_candidats": [
+    "Q135829"
+   ]
+  },
+  "ville-ru-boudionnovsk": {
+   "qid": "Q132832",
+   "geonameid": "571306",
+   "coord_wikidata": [
+    44.15,
+    44.783333333
+   ],
+   "coord_geonames": [
+    44.16583,
+    44.78389
+   ],
+   "ecart_km": 1.25,
+   "pays_wikidata": [
+    "RU"
+   ],
+   "qids_candidats": [
+    "Q132832"
+   ]
+  },
+  "ville-ru-gueorguievsk": {
+   "qid": "Q105413",
+   "geonameid": "561627",
+   "coord_wikidata": [
+    43.466666666,
+    44.15
+   ],
+   "coord_geonames": [
+    43.47019,
+    44.1494
+   ],
+   "ecart_km": 0.29,
+   "pays_wikidata": [
+    "RU"
+   ],
+   "qids_candidats": [
+    "Q105413"
+   ]
+  },
+  "ville-ru-maikop": {
+   "qid": "Q3752",
+   "geonameid": "528293",
+   "coord_wikidata": [
+    40.083333333,
+    44.6
+   ],
+   "coord_geonames": [
+    40.10242,
+    44.60789
+   ],
+   "ecart_km": 1.75,
+   "pays_wikidata": [
+    "RU"
+   ],
+   "qids_candidats": [
+    "Q3752"
+   ]
+  },
+  "ville-ru-adler": {
+   "qid": "Q176878",
+   "geonameid": "584243",
+   "coord_wikidata": [
+    39.923888888,
+    43.428888888
+   ],
+   "coord_geonames": [
+    39.92391,
+    43.42896
+   ],
+   "ecart_km": 0.01,
+   "pays_wikidata": [
+    "RU"
+   ],
+   "qids_candidats": [
+    "Q176878"
+   ]
+  },
+  "ville-ru-anapa": {
+   "qid": "Q15758",
+   "geonameid": "582182",
+   "coord_wikidata": [
+    37.316666666,
+    44.894444444
+   ],
+   "coord_geonames": [
+    37.31623,
+    44.89497
+   ],
+   "ecart_km": 0.07,
+   "pays_wikidata": [
+    "RU"
+   ],
+   "qids_candidats": [
+    "Q15758"
+   ]
+  },
+  "ville-ru-guelendjik": {
+   "qid": "Q15775",
+   "geonameid": "561667",
+   "coord_wikidata": [
+    38.076666666,
+    44.560833333
+   ],
+   "coord_geonames": [
+    38.06646,
+    44.58014
+   ],
+   "ecart_km": 2.29,
+   "pays_wikidata": [
+    "RU"
+   ],
+   "qids_candidats": [
+    "Q15775"
+   ]
+  },
+  "ville-ru-kaspiisk": {
+   "qid": "Q145507",
+   "geonameid": "551847",
+   "coord_wikidata": [
+    47.633333333,
+    42.883333333
+   ],
+   "coord_geonames": [
+    47.63919,
+    42.88165
+   ],
+   "ecart_km": 0.51,
+   "pays_wikidata": [
+    "RU"
+   ],
+   "qids_candidats": [
+    "Q145507"
+   ]
+  },
+  "ville-ru-izberbach": {
+   "qid": "Q141666",
+   "geonameid": "554894",
+   "coord_wikidata": [
+    47.866666666,
+    42.566666666
+   ],
+   "coord_geonames": [
+    47.87546,
+    42.56705
+   ],
+   "ecart_km": 0.72,
+   "pays_wikidata": [
+    "RU"
+   ],
+   "qids_candidats": [
+    "Q141666"
+   ]
+  },
+  "ville-tr-golcuk": {
+   "qid": "Q27162",
+   "geonameid": "746666",
+   "coord_wikidata": [
+    29.87216,
+    40.70323
+   ],
+   "coord_geonames": [
+    29.81824,
+    40.71501
+   ],
+   "ecart_km": 4.73,
+   "pays_wikidata": [
+    "TR"
+   ],
+   "qids_candidats": [
+    "Q27162"
+   ]
+  },
+  "ville-tr-uzunkopru": {
+   "qid": "Q775225",
+   "geonameid": "738251",
+   "coord_wikidata": [
+    26.6875,
+    41.266944444
+   ],
+   "coord_geonames": [
+    26.68598,
+    41.26914
+   ],
+   "ecart_km": 0.28,
+   "pays_wikidata": [
+    "TR"
+   ],
+   "qids_candidats": [
+    "Q49278378"
+   ],
+   "choix_claude": "QID principal de la ville retenu par Claude (l'identifiant GeoNames est relié à un élément secondaire de Wikidata)"
+  },
+  "ville-tr-edirne": {
+   "qid": "Q43387",
+   "geonameid": "747712",
+   "coord_wikidata": [
+    26.57361,
+    41.67304
+   ],
+   "coord_geonames": [
+    26.55597,
+    41.67719
+   ],
+   "ecart_km": 1.54,
+   "pays_wikidata": [
+    "TR"
+   ],
+   "qids_candidats": [
+    "Q43387"
+   ]
+  },
+  "ville-tr-denizli": {
+   "qid": "Q170967",
+   "geonameid": "317109",
+   "coord_wikidata": [
+    29.096388888,
+    37.783333333
+   ],
+   "coord_geonames": [
+    29.0875,
+    37.77417
+   ],
+   "ecart_km": 1.28,
+   "pays_wikidata": [
+    "TR"
+   ],
+   "qids_candidats": [
+    "Q170967"
+   ]
+  },
+  "ville-tr-egirdir": {
+   "qid": "Q586434",
+   "geonameid": "315905",
+   "coord_wikidata": [
+    30.850555555,
+    37.875
+   ],
+   "coord_geonames": [
+    30.85042,
+    37.87462
+   ],
+   "ecart_km": 0.04,
+   "pays_wikidata": [
+    "TR"
+   ],
+   "qids_candidats": [
+    "Q49349944",
+    "Q586434"
+   ],
+   "choix_claude": "QID de la ville retenu par Claude (l'identifiant GeoNames désigne aussi un autre élément, ou n'est pas relié dans Wikidata)"
+  },
+  "ville-tr-nusaybin": {
+   "qid": "Q1553052",
+   "geonameid": "303750",
+   "coord_wikidata": [
+    41.216666666,
+    37.083333333
+   ],
+   "coord_geonames": [
+    41.21465,
+    37.07028
+   ],
+   "ecart_km": 1.46,
+   "pays_wikidata": [
+    "TR"
+   ],
+   "qids_candidats": [
+    "Q1553052"
+   ]
+  },
+  "ville-tr-karkamis": {
+   "qid": "Q1018531",
+   "geonameid": "309134",
+   "coord_wikidata": [
+    37.9983,
+    36.83452
+   ],
+   "coord_geonames": [
+    37.9983,
+    36.83452
+   ],
+   "ecart_km": 0.0,
+   "pays_wikidata": [
+    "TR"
+   ],
+   "qids_candidats": [
+    "Q1018531"
+   ]
+  },
+  "ville-tr-kars": {
+   "qid": "Q127063",
+   "geonameid": "743952",
+   "coord_wikidata": [
+    43.095833333,
+    40.607777777
+   ],
+   "coord_geonames": [
+    43.08548,
+    40.59825
+   ],
+   "ecart_km": 1.37,
+   "pays_wikidata": [
+    "TR"
+   ],
+   "qids_candidats": [
+    "Q127063"
+   ]
+  },
+  "ville-tr-tatvan": {
+   "qid": "Q1012862",
+   "geonameid": "299582",
+   "coord_wikidata": [
+    42.281388888,
+    38.502222222
+   ],
+   "coord_geonames": [
+    42.28269,
+    38.49221
+   ],
+   "ecart_km": 1.12,
+   "pays_wikidata": [
+    "TR"
+   ],
+   "qids_candidats": [
+    "Q1012862"
+   ]
+  },
+  "ville-tr-van": {
+   "qid": "Q83061",
+   "geonameid": "298117",
+   "coord_wikidata": [
+    43.416666666,
+    38.501944444
+   ],
+   "coord_geonames": [
+    43.38323,
+    38.49457
+   ],
+   "ecart_km": 3.02,
+   "pays_wikidata": [
+    "TR"
+   ],
+   "qids_candidats": [
+    "Q83061"
+   ]
+  },
+  "ville-tr-gelibolu": {
+   "qid": "Q216907",
+   "geonameid": "746983",
+   "coord_wikidata": [
+    26.670277777,
+    40.413888888
+   ],
+   "coord_geonames": [
+    26.67174,
+    40.40836
+   ],
+   "ecart_km": 0.63,
+   "pays_wikidata": [
+    "TR"
+   ],
+   "qids_candidats": [
+    "Q216907"
+   ]
+  },
+  "ville-tr-sanliurfa": {
+   "qid": "Q133118",
+   "geonameid": "298333",
+   "coord_wikidata": [
+    38.791666666,
+    37.158333333
+   ],
+   "coord_geonames": [
+    38.79392,
+    37.16708
+   ],
+   "ecart_km": 0.99,
+   "pays_wikidata": [
+    "TR"
+   ],
+   "qids_candidats": [
+    "Q133118"
+   ]
+  },
+  "ville-tr-antalya": {
+   "qid": "Q6487",
+   "geonameid": "323777",
+   "coord_wikidata": [
+    30.69556,
+    36.90812
+   ],
+   "coord_geonames": [
+    30.69556,
+    36.90812
+   ],
+   "ecart_km": 0.0,
+   "pays_wikidata": [
+    "TR"
+   ],
+   "qids_candidats": [
+    "Q6487"
+   ]
+  },
+  "ville-tr-canakkale": {
+   "qid": "Q199712",
+   "geonameid": "749780",
+   "coord_wikidata": [
+    26.4,
+    40.15
+   ],
+   "coord_geonames": [
+    26.41271,
+    40.15552
+   ],
+   "ecart_km": 1.24,
+   "pays_wikidata": [
+    "TR"
+   ],
+   "qids_candidats": [
+    "Q199712"
+   ]
+  },
+  "ville-tr-rize": {
+   "qid": "Q201101",
+   "geonameid": "740483",
+   "coord_wikidata": [
+    40.5199142,
+    41.0248249
+   ],
+   "coord_geonames": [
+    40.52194,
+    41.02083
+   ],
+   "ecart_km": 0.48,
+   "pays_wikidata": [
+    "TR"
+   ],
+   "qids_candidats": [
+    "Q201101"
+   ]
+  },
+  "ville-tr-giresun": {
+   "qid": "Q201095",
+   "geonameid": "746881",
+   "coord_wikidata": [
+    38.416666666,
+    40.9
+   ],
+   "coord_geonames": [
+    38.38741,
+    40.91698
+   ],
+   "ecart_km": 3.1,
+   "pays_wikidata": [
+    "TR"
+   ],
+   "qids_candidats": [
+    "Q201095"
+   ]
+  },
+  "ville-tr-fethiye": {
+   "qid": "Q207998",
+   "geonameid": "314967",
+   "coord_wikidata": [
+    29.114166666,
+    36.620555555
+   ],
+   "coord_geonames": [
+    29.12758,
+    36.64038
+   ],
+   "ecart_km": 2.51,
+   "pays_wikidata": [
+    "TR"
+   ],
+   "qids_candidats": [
+    "Q207998"
+   ]
+  },
+  "ville-tr-mardin": {
+   "qid": "Q188022",
+   "geonameid": "304797",
+   "coord_wikidata": [
+    40.735,
+    37.313055555
+   ],
+   "coord_geonames": [
+    40.74357,
+    37.31309
+   ],
+   "ecart_km": 0.76,
+   "pays_wikidata": [
+    "TR"
+   ],
+   "qids_candidats": [
+    "Q188022"
+   ]
+  },
+  "ville-tr-antakya": {
+   "qid": "Q80561",
+   "geonameid": "323779",
+   "coord_wikidata": [
+    36.160555555,
+    36.2025
+   ],
+   "coord_geonames": [
+    36.15722,
+    36.20655
+   ],
+   "ecart_km": 0.54,
+   "pays_wikidata": [
+    "TR"
+   ],
+   "qids_candidats": [
+    "Q80561"
+   ]
+  },
+  "ville-tr-ordu": {
+   "qid": "Q184539",
+   "geonameid": "741100",
+   "coord_wikidata": [
+    37.883333333,
+    40.983333333
+   ],
+   "coord_geonames": [
+    37.89047,
+    40.97782
+   ],
+   "ecart_km": 0.86,
+   "pays_wikidata": [
+    "TR"
+   ],
+   "qids_candidats": [
+    "Q184539"
+   ]
+  },
+  "ville-tr-maden": {
+   "qid": "Q1023303",
+   "geonameid": "305041",
+   "coord_wikidata": [
+    39.668611111,
+    38.389722222
+   ],
+   "coord_geonames": [
+    39.66408,
+    38.38669
+   ],
+   "ecart_km": 0.52,
+   "pays_wikidata": [
+    "TR"
+   ],
+   "qids_candidats": [
+    "Q1023303"
+   ]
+  },
+  "ville-tr-tarsus": {
+   "qid": "Q134287",
+   "geonameid": "299817",
+   "coord_wikidata": [
+    34.9,
+    36.916667
+   ],
+   "coord_geonames": [
+    34.89277,
+    36.91766
+   ],
+   "ecart_km": 0.65,
+   "pays_wikidata": [
+    "TR"
+   ],
+   "qids_candidats": [
+    "Q134287",
+    "Q49278295"
+   ],
+   "choix_claude": "QID de la ville retenu par Claude (l'identifiant GeoNames désigne aussi un autre élément, ou n'est pas relié dans Wikidata)"
+  },
+  "ville-tr-kirklareli": {
+   "qid": "Q206903",
+   "geonameid": "743166",
+   "coord_wikidata": [
+    27.225277777,
+    41.734722222
+   ],
+   "coord_geonames": [
+    27.22521,
+    41.73508
+   ],
+   "ecart_km": 0.04,
+   "pays_wikidata": [
+    "TR"
+   ],
+   "qids_candidats": [
+    "Q206903"
+   ]
+  }
+ }
+}

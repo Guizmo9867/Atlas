@@ -3,7 +3,7 @@
     "nom": "snapshot0_villes_1-5_europe_orientale",
     "date_reference": "1945-01-01",
     "heure_reference": "00:00",
-    "version": "0.2",
+    "version": "0.3",
     "statut": "integre_par_claude",
     "gabarit_source": "gabarits/gabarit_entite_temporelle_atlas.json",
     "zone": [
@@ -29,7 +29,8 @@
         "Capitales : Moscou nationale ; Minsk, Kiev, Kichinev, Petrozavodsk régionales (capitales de RSS, convention du journal du 01/10) ; attribut « regionale » non appliqué aux 15 chefs-lieux d'oblast ou de RSSA proposés par Ether (convention non établie, Q15-02).",
         "Preuves : mention « (non vérifiée par Claude) » ou « (lecture partielle) » selon la relecture de Claude ; « À renforcer » = rôles sans aucune preuve confirmée.",
         "Tilsit, Insterburg, Gumbinnen, Ragnit et Béjitsa : roles vide, tel que proposé (R15-07).",
-        "v0.2 (03/10/2026, réponses d'Ether cycle 2) : aucune donnée de ville modifiée ; mentions de preuve recalculées d'après le registre v1.18 (Soumy confirmée sur la page 353 du recueil ; six sources Q15-03 passent de « faible » à « non vérifiée », l'outil de Claude n'ayant lu que le début des pages)."
+        "v0.2 (03/10/2026, réponses d'Ether cycle 2) : aucune donnée de ville modifiée ; mentions de preuve recalculées d'après le registre v1.18 (Soumy confirmée sur la page 353 du recueil ; six sources Q15-03 passent de « faible » à « non vérifiée », l'outil de Claude n'ayant lu que le début des pages).",
+        "v0.3 (04/10/2026, réponses d'Ether cycle 3, Q15-03) : aucune donnée de ville modifiée ; Claude a lu les 12 captures déposées par Ether : 8 sources relues, leurs villes passent en « page relue par Claude pour cette ville » (registre v1.20, champ confirmations_claude) ; mentions de preuve et « À renforcer » recalculés."
       ]
     }
   },
@@ -62,7 +63,7 @@
             "roles": [
               "industrie"
             ],
-            "note": "Production en série de SU-100 à UZTM attestée à partir de septembre 1944. Le nom Sverdlovsk figure dans la notice. Rang proposé pour ce pôle industriel de l’Oural ; les fonctions ferroviaires ne sont pas déduites de la fabrication de matériel. Nom à la date : Sverdlovsk (aujourd'hui Iekaterinbourg). À renforcer : industrie."
+            "note": "Production en série de SU-100 à UZTM attestée à partir de septembre 1944. Le nom Sverdlovsk figure dans la notice. Rang proposé pour ce pôle industriel de l’Oural ; les fonctions ferroviaires ne sont pas déduites de la fabrication de matériel. Nom à la date : Sverdlovsk (aujourd'hui Iekaterinbourg)."
           },
           "geometrie": {
             "type": "Point",
@@ -80,7 +81,7 @@
             {
               "source_id": "src-musee-pobedy-sverdlovsk-production-1944",
               "locator": "Paragraphes localisation UZTM à Sverdlovsk, prototype de février 1944, production en série à partir de septembre 1944.",
-              "usage": "industrie, nom_historique (non vérifiée par Claude)"
+              "usage": "industrie, nom_historique"
             }
           ]
         }
@@ -2153,7 +2154,7 @@
               "industrie",
               "administration"
             ],
-            "note": "Ville distincte d’Oufa à partir de décembre 1944, regroupant notamment les implantations industrielles du district Stalinski. Fabrication de moteurs décrite avant la création municipale. La réunion avec Oufa en 1956 n’est pas anticipée. Point GeoNames de quartier actuel proposé comme repère, sans centre historique garanti (R15-17). À renforcer : industrie, administration."
+            "note": "Ville distincte d’Oufa à partir de décembre 1944, regroupant notamment les implantations industrielles du district Stalinski. Fabrication de moteurs décrite avant la création municipale. La réunion avec Oufa en 1956 n’est pas anticipée. Point GeoNames de quartier actuel proposé comme repère, sans centre historique garanti (R15-17)."
           },
           "geometrie": {
             "type": "Point",
@@ -2176,7 +2177,7 @@
             {
               "source_id": "src-bashenc-tchernikovsk-1944",
               "locator": "Publication 10/10/2019, modification 17/10/2019 ; séquence 1931, 1936, 1938, création de ville 1944 et incorporation à Oufa 1956.",
-              "usage": "nomenclature, administration, industrie (non vérifiée par Claude)"
+              "usage": "nomenclature, administration, industrie"
             }
           ]
         }
@@ -2715,7 +2716,7 @@
             "roles": [
               "rail"
             ],
-            "note": "Liaison ferroviaire rétablie à l’été 1944 puis prolongée au-delà du Boug. Rang B proposé pour ce passage vers la Pologne ; fonction douanière non déduite. À renforcer : rail."
+            "note": "Liaison ferroviaire rétablie à l’été 1944 puis prolongée au-delà du Boug. Rang B proposé pour ce passage vers la Pologne ; fonction douanière non déduite."
           },
           "geometrie": {
             "type": "Point",
@@ -2733,7 +2734,7 @@
             {
               "source_id": "src-jdv-tome3-bielorussie-1944",
               "locator": "Chapitre VII, pp. 218–220 : pont du Niémen à Grodno ; section Jlobine–Bobrouïsk ; ligne jusqu’à Brest et franchissement du Boug. Références 1332–1334 ; bibliographie éditoriale sur index.html.",
-              "usage": "rail (non vérifiée par Claude)"
+              "usage": "rail (page relue par Claude pour cette ville)"
             }
           ]
         }
@@ -2768,7 +2769,7 @@
               "administration",
               "industrie"
             ],
-            "note": "Remise en service du pont ferroviaire du Niémen à l’été 1944. Rang B proposé pour le franchissement. Chef-lieu régional depuis septembre 1944 ; première activité industrielle rétablie fin 1944. Chef-lieu : type de capitale non affiché, convention des chefs-lieux d'oblast et de RSSA en réserve (revue finale 1.x). Nom à la date : Grodno (aujourd'hui Hrodna). À renforcer : rail, capitale, administration, industrie.",
+            "note": "Remise en service du pont ferroviaire du Niémen à l’été 1944. Rang B proposé pour le franchissement. Chef-lieu régional depuis septembre 1944 ; première activité industrielle rétablie fin 1944. Chef-lieu : type de capitale non affiché, convention des chefs-lieux d'oblast et de RSSA en réserve (revue finale 1.x). Nom à la date : Grodno (aujourd'hui Hrodna). À renforcer : capitale, administration, industrie.",
             "nom": "Grodno"
           },
           "geometrie": {
@@ -2787,7 +2788,7 @@
             {
               "source_id": "src-jdv-tome3-bielorussie-1944",
               "locator": "Chapitre VII, pp. 218–220 : pont du Niémen à Grodno ; section Jlobine–Bobrouïsk ; ligne jusqu’à Brest et franchissement du Boug. Références 1332–1334 ; bibliographie éditoriale sur index.html.",
-              "usage": "rail (non vérifiée par Claude)"
+              "usage": "rail (page relue par Claude pour cette ville)"
             },
             {
               "source_id": "src-grodno-encyclopedie-1989-1944",
@@ -2826,7 +2827,7 @@
               "capitale",
               "administration"
             ],
-            "note": "Section Jlobine–Bobrouïsk restaurée à l’été 1944. Rang B proposé pour le corridor de la Bérézina. Chef-lieu régional selon l’ukase du 20 septembre 1944. Chef-lieu : type de capitale non affiché, convention des chefs-lieux d'oblast et de RSSA en réserve (revue finale 1.x). Nom à la date : Bobrouïsk (aujourd'hui Babrouïsk). À renforcer : rail, capitale, administration.",
+            "note": "Section Jlobine–Bobrouïsk restaurée à l’été 1944. Rang B proposé pour le corridor de la Bérézina. Chef-lieu régional selon l’ukase du 20 septembre 1944. Chef-lieu : type de capitale non affiché, convention des chefs-lieux d'oblast et de RSSA en réserve (revue finale 1.x). Nom à la date : Bobrouïsk (aujourd'hui Babrouïsk). À renforcer : capitale, administration.",
             "nom": "Bobrouïsk"
           },
           "geometrie": {
@@ -2845,7 +2846,7 @@
             {
               "source_id": "src-jdv-tome3-bielorussie-1944",
               "locator": "Chapitre VII, pp. 218–220 : pont du Niémen à Grodno ; section Jlobine–Bobrouïsk ; ligne jusqu’à Brest et franchissement du Boug. Références 1332–1334 ; bibliographie éditoriale sur index.html.",
-              "usage": "rail (non vérifiée par Claude)"
+              "usage": "rail (page relue par Claude pour cette ville)"
             },
             {
               "source_id": "src-ukase-bssr-chefs-lieux-19440920",
@@ -2880,7 +2881,7 @@
             "roles": [
               "rail"
             ],
-            "note": "Reprise du rail vers Bobrouïsk à l’été 1944 ; débarquement des brigades ferroviaires en juillet. Rang B proposé pour la jonction. À renforcer : rail."
+            "note": "Reprise du rail vers Bobrouïsk à l’été 1944 ; débarquement des brigades ferroviaires en juillet. Rang B proposé pour la jonction."
           },
           "geometrie": {
             "type": "Point",
@@ -2898,7 +2899,7 @@
             {
               "source_id": "src-jdv-tome3-bielorussie-1944",
               "locator": "Chapitre VII, pp. 218–220 : pont du Niémen à Grodno ; section Jlobine–Bobrouïsk ; ligne jusqu’à Brest et franchissement du Boug. Références 1332–1334 ; bibliographie éditoriale sur index.html.",
-              "usage": "rail (non vérifiée par Claude)"
+              "usage": "rail (page relue par Claude pour cette ville)"
             }
           ]
         }
@@ -5150,7 +5151,7 @@
               "base_navale",
               "rail"
             ],
-            "note": "Retour de la flotte à sa base principale le 5 novembre 1944 ; liaison ferroviaire rétablie. À renforcer : base_navale, rail."
+            "note": "Retour de la flotte à sa base principale le 5 novembre 1944 ; liaison ferroviaire rétablie."
           },
           "geometrie": {
             "type": "Point",
@@ -5168,7 +5169,7 @@
             {
               "source_id": "src-sebastopol-musee-reconstruction-1944",
               "locator": "Passages du 10 mai et du 5 novembre 1944.",
-              "usage": "base_navale, rail (non vérifiée par Claude)"
+              "usage": "base_navale, rail"
             }
           ]
         }
@@ -5771,7 +5772,7 @@
             {
               "source_id": "src-jdv-tome3-carpates-kertch-1944",
               "locator": "Stryï–Moukatchevo, décembre 1944",
-              "usage": "rail (non vérifiée par Claude)"
+              "usage": "rail (page relue par Claude pour cette ville)"
             },
             {
               "source_id": "src-konarev-carpates-1944",
@@ -5824,7 +5825,7 @@
             {
               "source_id": "src-jdv-tome3-carpates-kertch-1944",
               "locator": "Arrivée du 24 décembre 1944",
-              "usage": "rail (non vérifiée par Claude)"
+              "usage": "rail (page relue par Claude pour cette ville)"
             },
             {
               "source_id": "src-konarev-carpates-1944",
@@ -5877,7 +5878,7 @@
             {
               "source_id": "src-jdv-tome3-carpates-kertch-1944",
               "locator": "Restauration Svalyava–Moukatchevo–Batevo–Tchop–Oujgorod",
-              "usage": "rail (non vérifiée par Claude)"
+              "usage": "rail (page relue par Claude pour cette ville)"
             },
             {
               "source_id": "src-konarev-carpates-1944",
@@ -5933,7 +5934,7 @@
             {
               "source_id": "src-jdv-tome3-carpates-kertch-1944",
               "locator": "Restauration jusqu’à Oujgorod",
-              "usage": "rail (non vérifiée par Claude)"
+              "usage": "rail (page relue par Claude pour cette ville)"
             },
             {
               "source_id": "src-konarev-carpates-1944",
@@ -6414,7 +6415,7 @@
               "port_maritime",
               "rail"
             ],
-            "note": "Port équipé avant-guerre et desserte ferroviaire documentée ; pas de fonctionnement maritime annuel anticipé. À renforcer : port_maritime, rail."
+            "note": "Port équipé avant-guerre et desserte ferroviaire documentée ; pas de fonctionnement maritime annuel anticipé."
           },
           "geometrie": {
             "type": "Point",
@@ -6437,7 +6438,7 @@
             {
               "source_id": "src-belomorsk-bibliotheque-gare-2024",
               "locator": "Liaison Petrozavodsk–Mourmansk passant par Kandalakcha",
-              "usage": "port_maritime, rail (non vérifiée par Claude)"
+              "usage": "port_maritime, rail"
             }
           ]
         }
@@ -6708,7 +6709,7 @@
             {
               "source_id": "src-belomorsk-bibliotheque-gare-2024",
               "locator": "p.37, ligne Sorokskaïa–Obozerskaïa depuis janvier 1941",
-              "usage": "rail (non vérifiée par Claude)"
+              "usage": "rail"
             },
             {
               "source_id": "src-belomorsk-bibliotheque-capitale-front",
@@ -7068,7 +7069,7 @@
             "roles": [
               "industrie"
             ],
-            "note": "Production hydroélectrique depuis 1940–1941, sans supposer tous les travaux achevés. À renforcer : industrie."
+            "note": "Production hydroélectrique depuis 1940–1941, sans supposer tous les travaux achevés."
           },
           "geometrie": {
             "type": "Point",
@@ -7086,7 +7087,7 @@
             {
               "source_id": "src-rushydro-ouglitch-histoire-2015",
               "locator": "Mises en route de décembre 1940 et mars 1941",
-              "usage": "industrie (non vérifiée par Claude)"
+              "usage": "industrie"
             }
           ]
         }
@@ -7608,7 +7609,7 @@
             "roles": [
               "industrie"
             ],
-            "note": "Réparation de navires de guerre reprise après août 1943 ; trafic commercial non déduit. À renforcer : industrie."
+            "note": "Réparation de navires de guerre reprise après août 1943 ; trafic commercial non déduit."
           },
           "geometrie": {
             "type": "Point",
@@ -7626,7 +7627,7 @@
             {
               "source_id": "src-rosmorport-taganrog-reparation-1943",
               "locator": "Historique, reprise de 1943",
-              "usage": "industrie (non vérifiée par Claude)"
+              "usage": "industrie (page relue par Claude pour cette ville)"
             }
           ]
         }

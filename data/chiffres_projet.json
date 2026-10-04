@@ -1,40 +1,40 @@
 {
- "genere_le": "2026-10-03 13:53",
+ "genere_le": "2026-10-04 13:05",
  "snapshot0": {
   "date_representee": "1945-01-01 00:00 (dernier état connu avant)",
   "territoires": 74,
   "lignes_de_front": 4,
   "frontieres_tracees": 1,
   "geometries": 77,
-  "villes": 779,
+  "villes": 945,
   "villes_par_rang": {
-   "A": 49,
-   "B": 370,
-   "C": 360
+   "A": 55,
+   "B": 401,
+   "C": 489
   },
   "capitales": {
-   "nationale": 19,
-   "regionale": 16,
+   "nationale": 20,
+   "regionale": 19,
    "territoire": 4
   },
-  "villes_avec_nom_de_1945_different": 181,
-  "villes_avec_reserve_a_renforcer": 384,
+  "villes_avec_nom_de_1945_different": 201,
+  "villes_avec_reserve_a_renforcer": 450,
   "roles_de_villes": {
-   "rail": 514,
-   "industrie": 254,
-   "administration": 158,
-   "port_maritime": 138,
+   "rail": 623,
+   "industrie": 289,
+   "administration": 196,
+   "port_maritime": 166,
    "port_fluvial": 85,
-   "capitale": 48,
+   "capitale": 52,
    "frontalier": 33,
+   "militaire": 30,
    "aviation": 29,
-   "militaire": 28,
-   "charbon": 21,
-   "ferry": 15,
+   "charbon": 23,
+   "ferry": 17,
    "siderurgie": 15,
-   "base_navale": 13,
+   "base_navale": 14,
+   "minerai": 13,
    "construction_navale": 12,
-   "minerai": 11,
    "navigation_cotiere": 8,
    "detroit": 6,
    "transatlantique": 4,
@@ -145,7 +145,7 @@
    },
    {
     "fichier": "villes_1-5_europe_orientale.json",
-    "version": "0.2",
+    "version": "0.3",
     "zone": [
      "Russie européenne et Oural",
      "Biélorussie",
@@ -159,7 +159,7 @@
    },
    {
     "fichier": "villes_1-6_asie_sovietique_mongolie.json",
-    "version": "0.1",
+    "version": "0.2",
     "zone": [
      "URSS asiatique hors Caucase",
      "Mongolie"
@@ -167,31 +167,45 @@
     "entites": {
      "ville": 254
     }
+   },
+   {
+    "fichier": "villes_1-7_caucase_turquie.json",
+    "version": "0.1",
+    "zone": [
+     "Caucase septentrional",
+     "Géorgie",
+     "Arménie",
+     "Azerbaïdjan et Nakhitchevan",
+     "Turquie"
+    ],
+    "entites": {
+     "ville": 166
+    }
    }
   ]
  },
  "sources": {
-  "registre_version": "1.19",
-  "total": 707,
+  "registre_version": "1.22",
+  "total": 758,
   "relecture_claude": {
-   "ok": 454,
-   "limite": 100,
-   "non_verifiee": 126,
-   "faible": 11,
-   "lien_casse": 16
+   "ok": 489,
+   "limite": 117,
+   "non_verifiee": 134,
+   "faible": 6,
+   "lien_casse": 12
   },
   "niveaux": {
-   "A": 111,
-   "B": 565,
-   "C": 31
+   "A": 120,
+   "B": 606,
+   "C": 32
   },
-  "en_attente_de_validation_humaine": 252,
-  "validees_par_guizmo": 1
+  "en_attente_de_validation_humaine": 267,
+  "validees_par_guizmo": 2
  },
  "historique": {
-  "envois_github": 37,
+  "envois_github": 39,
   "premier_envoi": "2026-09-28",
-  "dernier_envoi": "2026-10-03",
+  "dernier_envoi": "2026-10-04",
   "depot_public": "https://github.com/Guizmo9867/Atlas"
  }
 }

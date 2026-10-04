@@ -7,9 +7,11 @@ réserves R15-01 à R15-36 : villes_1-5_europe_orientale_reserves_ether.md).
 Positions : Wikidata (CC0) pour 195 villes, recoupées par requête SPARQL (outils/villes/wikidata_ratissage_1_5.json) ;
 GeoNames (CC BY 4.0) pour 5 villes (Ivanovo, Rodniki, Teïkovo, Kokhma, Tchernikovsk), repères actuels proposés par Ether (R15-17, R15-28).
 v0.2 (03/10/2026) : mêmes données, mentions de preuve recalculées après les réponses d'Ether (cycle 2).
+v0.3 (04/10/2026) : idem après le cycle 3 (captures Q15-03 lues par Claude ; preuves relues ville par ville, outils/villes/confirmations_claude.py).
 Relancer : python outils/villes/construire_villes_1_5.py (depuis la racine du dépôt).
 """
 import json, pathlib, copy
+from confirmations_claude import confirmation
 
 RACINE = pathlib.Path(__file__).resolve().parents[2]
 ICI = pathlib.Path(__file__).parent
@@ -49,8 +51,10 @@ for v in PROPOSITION['entites']:
         if s['source_id'].startswith(('src-wikidata', 'src-geonames')):
             continue
         st = statut(s['source_id'])
-        if st == 'ok': prouve |= roles_prouves(s['usage'], p['roles'])
-        s['usage'] += '' if st == 'ok' else ' (non vérifiée par Claude)' if st in ('non_verifiee', 'lien_casse') else ' (lecture partielle)'
+        cr, cm = confirmation(REGISTRE.get(s['source_id']), eid) if st != 'ok' else (None, None)
+        if st == 'ok' or cr == 'usage': prouve |= roles_prouves(s['usage'], p['roles'])
+        elif cr: prouve |= cr & set(p['roles'])
+        s['usage'] += '' if st == 'ok' else cm if cm else ' (non vérifiée par Claude)' if st in ('non_verifiee', 'lien_casse') else ' (lecture partielle)'
     a_renforcer = [r for r in p['roles'] if r not in prouve]
     note = p['note']
     if eid in CAPITALE_RSS:
@@ -65,7 +69,7 @@ for v in PROPOSITION['entites']:
 lot = {
   'metadata_lot': {
     'nom': 'snapshot0_villes_1-5_europe_orientale', 'date_reference': '1945-01-01', 'heure_reference': '00:00',
-    'version': '0.2', 'statut': 'integre_par_claude', 'gabarit_source': 'gabarits/gabarit_entite_temporelle_atlas.json',
+    'version': '0.3', 'statut': 'integre_par_claude', 'gabarit_source': 'gabarits/gabarit_entite_temporelle_atlas.json',
     'zone': PROPOSITION['metadata_lot']['zone'],
     'limites_ether': PROPOSITION['metadata_lot']['limites'],
     'reserves_ether': 'R15-01 à R15-36 (data/snapshot0/villes_1-5_europe_orientale_reserves_ether.md), revue finale 1.x',
@@ -75,7 +79,8 @@ lot = {
       "Capitales : Moscou nationale ; Minsk, Kiev, Kichinev, Petrozavodsk régionales (capitales de RSS, convention du journal du 01/10) ; attribut « regionale » non appliqué aux 15 chefs-lieux d'oblast ou de RSSA proposés par Ether (convention non établie, Q15-02).",
       "Preuves : mention « (non vérifiée par Claude) » ou « (lecture partielle) » selon la relecture de Claude ; « À renforcer » = rôles sans aucune preuve confirmée.",
       "Tilsit, Insterburg, Gumbinnen, Ragnit et Béjitsa : roles vide, tel que proposé (R15-07).",
-      "v0.2 (03/10/2026, réponses d'Ether cycle 2) : aucune donnée de ville modifiée ; mentions de preuve recalculées d'après le registre v1.18 (Soumy confirmée sur la page 353 du recueil ; six sources Q15-03 passent de « faible » à « non vérifiée », l'outil de Claude n'ayant lu que le début des pages)."]},
+      "v0.2 (03/10/2026, réponses d'Ether cycle 2) : aucune donnée de ville modifiée ; mentions de preuve recalculées d'après le registre v1.18 (Soumy confirmée sur la page 353 du recueil ; six sources Q15-03 passent de « faible » à « non vérifiée », l'outil de Claude n'ayant lu que le début des pages).",
+      "v0.3 (04/10/2026, réponses d'Ether cycle 3, Q15-03) : aucune donnée de ville modifiée ; Claude a lu les 12 captures déposées par Ether : 8 sources relues, leurs villes passent en « page relue par Claude pour cette ville » (registre v1.20, champ confirmations_claude) ; mentions de preuve et « À renforcer » recalculés."]},
   },
   'entites': entites,
 }

@@ -3,7 +3,7 @@
     "nom": "snapshot0_villes_1-6_asie_sovietique_mongolie",
     "date_reference": "1945-01-01",
     "heure_reference": "00:00",
-    "version": "0.1",
+    "version": "0.2",
     "statut": "integre_par_claude",
     "gabarit_source": "gabarits/gabarit_entite_temporelle_atlas.json",
     "zone": [
@@ -27,7 +27,8 @@
         "Capitales : 5 capitales de RSS « régionales », Oulan-Bator « nationale » (convention du journal) ; RSSA et oblasts sans type d'affichage (Q15-02, R16-02).",
         "Preuves : mention « (non vérifiée par Claude) » ou « (lecture partielle) » selon la relecture de Claude ; « À renforcer » = rôles sans aucune preuve confirmée.",
         "Nikolaïevsk-sur-l'Amour et Komsomolsk-sur-l'Amour : le « nom de 1945 » proposé ne différait de la fiche que par l'apostrophe ; gardé en alias, pas affiché comme nom à la date. Autres écarts de transcription conservés (Q16-03).",
-        "Sükhbaatar : roles vide, tel que proposé (transit routier en note)."
+        "Sükhbaatar : roles vide, tel que proposé (transit routier en note).",
+        "v0.2 (04/10/2026, réponses d'Ether cycle 2, Q16-01 et Q16-02) : aucune donnée de ville modifiée ; Claude a lu les 28 images de pages des répertoires administratifs (1940, 1941, supplément 1944) et les 3 pages LOC : 67 relations ville/source relues, rôles comptés comme prouvés pour ces villes seulement (registre v1.21, champ confirmations_claude) ; mentions de preuve et « À renforcer » recalculés."
       ]
     }
   },
@@ -60,7 +61,7 @@
               "rail",
               "industrie"
             ],
-            "note": "L’usine de machines agricoles Frounzé est citée parmi les entreprises du district avant la guerre. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Capitale « régionale » au Snapshot 0 : capitale de RSS (même convention que Tallinn, Riga, Vilnius, Minsk et Kiev). Nom à la date : Frounzé (aujourd'hui Bichkek). À renforcer : capitale, administration, rail.",
+            "note": "L’usine de machines agricoles Frounzé est citée parmi les entreprises du district avant la guerre. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Capitale « régionale » au Snapshot 0 : capitale de RSS (même convention que Tallinn, Riga, Vilnius, Minsk et Kiev). Nom à la date : Frounzé (aujourd'hui Bichkek).",
             "nom": "Frounzé",
             "capitale": "regionale"
           },
@@ -75,7 +76,7 @@
             {
               "source_id": "src-sssr-admin1941-kirghizistan",
               "locator": "Pages imprimées 296 et 301",
-              "usage": "capitale, administration, rail (lecture partielle)"
+              "usage": "capitale, administration, rail (page relue par Claude pour cette ville : capitale, administration, rail)"
             },
             {
               "source_id": "src-bichkek-leninski-histoire",
@@ -118,7 +119,7 @@
               "administration",
               "rail"
             ],
-            "note": "Présence et fonction locale attestées dans le répertoire daté cité ; activité quotidienne à la veille du Snapshot non mesurée. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Nom à la date : Djalal-Abad (aujourd'hui Manas). À renforcer : administration, rail.",
+            "note": "Présence et fonction locale attestées dans le répertoire daté cité ; activité quotidienne à la veille du Snapshot non mesurée. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Nom à la date : Djalal-Abad (aujourd'hui Manas).",
             "nom": "Djalal-Abad"
           },
           "geometrie": {
@@ -132,7 +133,7 @@
             {
               "source_id": "src-sssr-admin1941-kirghizistan",
               "locator": "Pages imprimées 296–297",
-              "usage": "administration, rail (lecture partielle)"
+              "usage": "administration, rail (page relue par Claude pour cette ville : administration, rail)"
             },
             {
               "source_id": "src-wikidata",
@@ -169,7 +170,7 @@
             "roles": [
               "administration"
             ],
-            "note": "Présence et fonction locale attestées dans le répertoire daté cité ; activité quotidienne à la veille du Snapshot non mesurée. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Rôles non retenus : port_fluvial, faute de preuve locale suffisante ou de rattachement à la ville. Nom à la date : Prjevalsk (aujourd'hui Karakol). À renforcer : administration.",
+            "note": "Présence et fonction locale attestées dans le répertoire daté cité ; activité quotidienne à la veille du Snapshot non mesurée. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Rôles non retenus : port_fluvial, faute de preuve locale suffisante ou de rattachement à la ville. Nom à la date : Prjevalsk (aujourd'hui Karakol).",
             "nom": "Prjevalsk"
           },
           "geometrie": {
@@ -183,7 +184,7 @@
             {
               "source_id": "src-sssr-admin1941-kirghizistan",
               "locator": "Pages imprimées 298",
-              "usage": "administration (lecture partielle)"
+              "usage": "administration (page relue par Claude pour cette ville : administration)"
             },
             {
               "source_id": "src-wikidata",
@@ -219,7 +220,7 @@
               "administration",
               "rail"
             ],
-            "note": "Présence et fonction locale attestées dans le répertoire daté cité ; activité quotidienne à la veille du Snapshot non mesurée. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). À renforcer : administration, rail."
+            "note": "Présence et fonction locale attestées dans le répertoire daté cité ; activité quotidienne à la veille du Snapshot non mesurée. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01)."
           },
           "geometrie": {
             "type": "Point",
@@ -232,7 +233,7 @@
             {
               "source_id": "src-sssr-admin1941-kirghizistan",
               "locator": "Pages imprimées 299",
-              "usage": "administration, rail (lecture partielle)"
+              "usage": "administration, rail (page relue par Claude pour cette ville : administration, rail)"
             },
             {
               "source_id": "src-wikidata",
@@ -267,7 +268,7 @@
             "roles": [
               "administration"
             ],
-            "note": "Présence et fonction locale attestées dans le répertoire daté cité ; activité quotidienne à la veille du Snapshot non mesurée. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). À renforcer : administration."
+            "note": "Présence et fonction locale attestées dans le répertoire daté cité ; activité quotidienne à la veille du Snapshot non mesurée. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01)."
           },
           "geometrie": {
             "type": "Point",
@@ -280,7 +281,7 @@
             {
               "source_id": "src-sssr-admin1941-kirghizistan",
               "locator": "Pages imprimées 300",
-              "usage": "administration (lecture partielle)"
+              "usage": "administration (page relue par Claude pour cette ville : administration)"
             },
             {
               "source_id": "src-wikidata",
@@ -318,7 +319,7 @@
               "rail",
               "charbon"
             ],
-            "note": "Mine Kapitalnaïa en 1941. Présence datée d’un directeur de mine, de mineurs et conducteurs de machines d’abattage du gisement de Kok-Yangak. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Nom à la date : Kok-Yangak (aujourd'hui Kökjanggak). À renforcer : rail.",
+            "note": "Mine Kapitalnaïa en 1941. Présence datée d’un directeur de mine, de mineurs et conducteurs de machines d’abattage du gisement de Kok-Yangak. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Nom à la date : Kok-Yangak (aujourd'hui Kökjanggak).",
             "nom": "Kok-Yangak"
           },
           "geometrie": {
@@ -332,7 +333,7 @@
             {
               "source_id": "src-sssr-admin1941-kirghizistan",
               "locator": "Pages imprimées 297",
-              "usage": "rail (lecture partielle)"
+              "usage": "rail (page relue par Claude pour cette ville : rail)"
             },
             {
               "source_id": "src-openkg-charbon1941-42",
@@ -377,7 +378,7 @@
             "roles": [
               "rail"
             ],
-            "note": "Présence et fonction locale attestées dans le répertoire daté cité ; activité quotidienne à la veille du Snapshot non mesurée. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Rôles non retenus : charbon, faute de preuve locale suffisante ou de rattachement à la ville. À renforcer : rail."
+            "note": "Présence et fonction locale attestées dans le répertoire daté cité ; activité quotidienne à la veille du Snapshot non mesurée. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Rôles non retenus : charbon, faute de preuve locale suffisante ou de rattachement à la ville."
           },
           "geometrie": {
             "type": "Point",
@@ -390,7 +391,7 @@
             {
               "source_id": "src-sssr-admin1941-kirghizistan",
               "locator": "Pages imprimées 297",
-              "usage": "rail (lecture partielle)"
+              "usage": "rail (page relue par Claude pour cette ville : rail)"
             },
             {
               "source_id": "src-wikidata",
@@ -427,7 +428,7 @@
             "roles": [
               "rail"
             ],
-            "note": "Présence et fonction locale attestées dans le répertoire daté cité ; activité quotidienne à la veille du Snapshot non mesurée. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Rôles non retenus : charbon, faute de preuve locale suffisante ou de rattachement à la ville. Nom à la date : Soulioukta (aujourd'hui Sulukta). À renforcer : rail.",
+            "note": "Présence et fonction locale attestées dans le répertoire daté cité ; activité quotidienne à la veille du Snapshot non mesurée. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Rôles non retenus : charbon, faute de preuve locale suffisante ou de rattachement à la ville. Nom à la date : Soulioukta (aujourd'hui Sulukta).",
             "nom": "Soulioukta"
           },
           "geometrie": {
@@ -441,7 +442,7 @@
             {
               "source_id": "src-sssr-admin1941-kirghizistan",
               "locator": "Pages imprimées 299",
-              "usage": "rail (lecture partielle)"
+              "usage": "rail (page relue par Claude pour cette ville : rail)"
             },
             {
               "source_id": "src-wikidata",
@@ -478,7 +479,7 @@
             "roles": [
               "rail"
             ],
-            "note": "Présence et fonction locale attestées dans le répertoire daté cité ; activité quotidienne à la veille du Snapshot non mesurée. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Nom à la date : Kara-Sou (aujourd'hui Kara-Suu). À renforcer : rail.",
+            "note": "Présence et fonction locale attestées dans le répertoire daté cité ; activité quotidienne à la veille du Snapshot non mesurée. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Nom à la date : Kara-Sou (aujourd'hui Kara-Suu).",
             "nom": "Kara-Sou"
           },
           "geometrie": {
@@ -492,7 +493,7 @@
             {
               "source_id": "src-sssr-admin1941-kirghizistan",
               "locator": "Pages imprimées 299",
-              "usage": "rail (lecture partielle)"
+              "usage": "rail (page relue par Claude pour cette ville : rail)"
             },
             {
               "source_id": "src-wikidata",
@@ -528,7 +529,7 @@
               "rail",
               "industrie"
             ],
-            "note": "Liaison de 1932 motivée par la raffinerie de sucre. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). À renforcer : rail."
+            "note": "Liaison de 1932 motivée par la raffinerie de sucre. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01)."
           },
           "geometrie": {
             "type": "Point",
@@ -541,7 +542,7 @@
             {
               "source_id": "src-sssr-admin1941-kirghizistan",
               "locator": "Pages imprimées 301",
-              "usage": "rail (lecture partielle)"
+              "usage": "rail (page relue par Claude pour cette ville : rail)"
             },
             {
               "source_id": "src-traceca-kirghizistan-2005",
@@ -583,7 +584,7 @@
             "roles": [
               "rail"
             ],
-            "note": "Présence et fonction locale attestées dans le répertoire daté cité ; activité quotidienne à la veille du Snapshot non mesurée. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Nom à la date : Kara-Balta (aujourd'hui Karabalta). À renforcer : rail.",
+            "note": "Présence et fonction locale attestées dans le répertoire daté cité ; activité quotidienne à la veille du Snapshot non mesurée. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Nom à la date : Kara-Balta (aujourd'hui Karabalta).",
             "nom": "Kara-Balta"
           },
           "geometrie": {
@@ -597,7 +598,7 @@
             {
               "source_id": "src-sssr-admin1941-kirghizistan",
               "locator": "Pages imprimées 301",
-              "usage": "rail (lecture partielle)"
+              "usage": "rail (page relue par Claude pour cette ville : rail)"
             },
             {
               "source_id": "src-wikidata",
@@ -752,7 +753,7 @@
               "rail",
               "industrie"
             ],
-            "note": "Cokerie locale et son personnel attestés en février 1943. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). À renforcer : administration, rail, industrie."
+            "note": "Cokerie locale et son personnel attestés en février 1943. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). À renforcer : industrie."
           },
           "geometrie": {
             "type": "Point",
@@ -765,7 +766,7 @@
             {
               "source_id": "src-neb-admin1944-supplement",
               "locator": "Page imprimée 17 / image 19",
-              "usage": "administration, rail (lecture partielle)"
+              "usage": "administration, rail (page relue par Claude pour cette ville : administration, rail)"
             },
             {
               "source_id": "src-kouzbass-archives-catalogue2021",
@@ -806,7 +807,7 @@
               "rail",
               "charbon"
             ],
-            "note": "Mine Fizkoultournik entrée en exploitation en 1943. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). À renforcer : rail, charbon."
+            "note": "Mine Fizkoultournik entrée en exploitation en 1943. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). À renforcer : charbon."
           },
           "geometrie": {
             "type": "Point",
@@ -819,7 +820,7 @@
             {
               "source_id": "src-neb-admin1944-supplement",
               "locator": "Page imprimée 17 / image 19",
-              "usage": "rail (lecture partielle)"
+              "usage": "rail (page relue par Claude pour cette ville : rail)"
             },
             {
               "source_id": "src-kemrsl-anjero-mine1943",
@@ -860,7 +861,7 @@
               "rail",
               "industrie"
             ],
-            "note": "Production de radios à l’usine 842 en 1944. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). À renforcer : rail, industrie."
+            "note": "Production de radios à l’usine 842 en 1944. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). À renforcer : industrie."
           },
           "geometrie": {
             "type": "Point",
@@ -873,7 +874,7 @@
             {
               "source_id": "src-neb-admin1944-supplement",
               "locator": "Page imprimée 17 / image 19",
-              "usage": "rail (lecture partielle)"
+              "usage": "rail (page relue par Claude pour cette ville : rail)"
             },
             {
               "source_id": "src-kemrsl-kouzbass-guerre",
@@ -913,7 +914,7 @@
             "roles": [
               "rail"
             ],
-            "note": "Présence et fonction locale attestées dans le répertoire daté cité ; activité quotidienne à la veille du Snapshot non mesurée. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). À renforcer : rail."
+            "note": "Présence et fonction locale attestées dans le répertoire daté cité ; activité quotidienne à la veille du Snapshot non mesurée. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01)."
           },
           "geometrie": {
             "type": "Point",
@@ -926,7 +927,7 @@
             {
               "source_id": "src-neb-admin1944-supplement",
               "locator": "Page imprimée 17 / image 19",
-              "usage": "rail (lecture partielle)"
+              "usage": "rail (page relue par Claude pour cette ville : rail)"
             },
             {
               "source_id": "src-wikidata",
@@ -964,7 +965,7 @@
               "rail",
               "charbon"
             ],
-            "note": "Extraction à la mine 3 attestée le 6 juillet 1943. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Nom à la date : Kisselevsk (aujourd'hui Kisseliovsk). À renforcer : rail, charbon.",
+            "note": "Extraction à la mine 3 attestée le 6 juillet 1943. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Nom à la date : Kisselevsk (aujourd'hui Kisseliovsk). À renforcer : charbon.",
             "nom": "Kisselevsk"
           },
           "geometrie": {
@@ -978,7 +979,7 @@
             {
               "source_id": "src-neb-admin1944-supplement",
               "locator": "Page imprimée 17 / image 19",
-              "usage": "rail (lecture partielle)"
+              "usage": "rail (page relue par Claude pour cette ville : rail)"
             },
             {
               "source_id": "src-kemrsl-kouzbass-guerre",
@@ -1022,7 +1023,7 @@
               "industrie",
               "siderurgie"
             ],
-            "note": "Sidérurgie en 1942–1943 ; premier aluminium en janvier 1943. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Nom à la date : Stalinsk (aujourd'hui Novokouznetsk). À renforcer : rail, industrie, siderurgie.",
+            "note": "Sidérurgie en 1942–1943 ; premier aluminium en janvier 1943. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Nom à la date : Stalinsk (aujourd'hui Novokouznetsk). À renforcer : industrie, siderurgie.",
             "nom": "Stalinsk"
           },
           "geometrie": {
@@ -1036,7 +1037,7 @@
             {
               "source_id": "src-neb-admin1944-supplement",
               "locator": "Page imprimée 17 / image 19",
-              "usage": "rail (lecture partielle)"
+              "usage": "rail (page relue par Claude pour cette ville : rail)"
             },
             {
               "source_id": "src-kemrsl-kouzbass-guerre",
@@ -1077,7 +1078,7 @@
               "rail",
               "charbon"
             ],
-            "note": "Mine Kirov exploitée en 1938 ; Polysaïevo distingué. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). À renforcer : rail, charbon."
+            "note": "Mine Kirov exploitée en 1938 ; Polysaïevo distingué. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). À renforcer : charbon."
           },
           "geometrie": {
             "type": "Point",
@@ -1090,7 +1091,7 @@
             {
               "source_id": "src-neb-admin1944-supplement",
               "locator": "Page imprimée 17 / image 19",
-              "usage": "rail (lecture partielle)"
+              "usage": "rail (page relue par Claude pour cette ville : rail)"
             },
             {
               "source_id": "src-kouzbass-archives-catalogue2021",
@@ -1130,7 +1131,7 @@
             "roles": [
               "rail"
             ],
-            "note": "Présence et fonction locale attestées dans le répertoire daté cité ; activité quotidienne à la veille du Snapshot non mesurée. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). À renforcer : rail."
+            "note": "Présence et fonction locale attestées dans le répertoire daté cité ; activité quotidienne à la veille du Snapshot non mesurée. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01)."
           },
           "geometrie": {
             "type": "Point",
@@ -1143,7 +1144,7 @@
             {
               "source_id": "src-neb-admin1944-supplement",
               "locator": "Page imprimée 17 / image 19",
-              "usage": "rail (lecture partielle)"
+              "usage": "rail (page relue par Claude pour cette ville : rail)"
             },
             {
               "source_id": "src-wikidata",
@@ -1179,7 +1180,7 @@
               "rail",
               "charbon"
             ],
-            "note": "Mine Ziminka productive en 1942. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). À renforcer : rail, charbon."
+            "note": "Mine Ziminka productive en 1942. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). À renforcer : charbon."
           },
           "geometrie": {
             "type": "Point",
@@ -1192,7 +1193,7 @@
             {
               "source_id": "src-neb-admin1944-supplement",
               "locator": "Page imprimée 17 / image 19",
-              "usage": "rail (lecture partielle)"
+              "usage": "rail (page relue par Claude pour cette ville : rail)"
             },
             {
               "source_id": "src-kouzbass-archives-catalogue2021",
@@ -1232,7 +1233,7 @@
             "roles": [
               "rail"
             ],
-            "note": "Présence et fonction locale attestées dans le répertoire daté cité ; activité quotidienne à la veille du Snapshot non mesurée. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). À renforcer : rail."
+            "note": "Présence et fonction locale attestées dans le répertoire daté cité ; activité quotidienne à la veille du Snapshot non mesurée. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01)."
           },
           "geometrie": {
             "type": "Point",
@@ -1245,7 +1246,7 @@
             {
               "source_id": "src-neb-admin1944-supplement",
               "locator": "Page imprimée 17 / image 19",
-              "usage": "rail (lecture partielle)"
+              "usage": "rail (page relue par Claude pour cette ville : rail)"
             },
             {
               "source_id": "src-wikidata",
@@ -1280,7 +1281,7 @@
             "roles": [
               "rail"
             ],
-            "note": "Présence et fonction locale attestées dans le répertoire daté cité ; activité quotidienne à la veille du Snapshot non mesurée. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). À renforcer : rail."
+            "note": "Présence et fonction locale attestées dans le répertoire daté cité ; activité quotidienne à la veille du Snapshot non mesurée. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01)."
           },
           "geometrie": {
             "type": "Point",
@@ -1293,7 +1294,7 @@
             {
               "source_id": "src-neb-admin1944-supplement",
               "locator": "Page imprimée 17 / image 19",
-              "usage": "rail (lecture partielle)"
+              "usage": "rail (page relue par Claude pour cette ville : rail)"
             },
             {
               "source_id": "src-wikidata",
@@ -1329,7 +1330,7 @@
               "administration",
               "rail"
             ],
-            "note": "Présence et fonction locale attestées dans le répertoire daté cité ; activité quotidienne à la veille du Snapshot non mesurée. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). À renforcer : administration, rail."
+            "note": "Présence et fonction locale attestées dans le répertoire daté cité ; activité quotidienne à la veille du Snapshot non mesurée. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01)."
           },
           "geometrie": {
             "type": "Point",
@@ -1342,7 +1343,7 @@
             {
               "source_id": "src-neb-admin1944-supplement",
               "locator": "Page imprimée 21 / image 23",
-              "usage": "administration, rail (lecture partielle)"
+              "usage": "administration, rail (page relue par Claude pour cette ville : administration, rail)"
             },
             {
               "source_id": "src-wikidata",
@@ -1379,7 +1380,7 @@
               "rail",
               "industrie"
             ],
-            "note": "Usine mise en activité le 2 mai 1942 sur la place Lénine ; diversification de production en 1943. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). À renforcer : administration, rail, industrie."
+            "note": "Usine mise en activité le 2 mai 1942 sur la place Lénine ; diversification de production en 1943. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). À renforcer : industrie."
           },
           "geometrie": {
             "type": "Point",
@@ -1392,7 +1393,7 @@
             {
               "source_id": "src-neb-admin1944-supplement",
               "locator": "Page imprimée 27 / image 29",
-              "usage": "administration, rail (lecture partielle)"
+              "usage": "administration, rail (page relue par Claude pour cette ville : administration, rail)"
             },
             {
               "source_id": "src-tomsk-bibliotheque-industrie",
@@ -1434,7 +1435,7 @@
             "roles": [
               "rail"
             ],
-            "note": "Présence et fonction locale attestées dans le répertoire daté cité ; activité quotidienne à la veille du Snapshot non mesurée. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Nom à la date : Asino (aujourd'hui Assino). À renforcer : rail.",
+            "note": "Présence et fonction locale attestées dans le répertoire daté cité ; activité quotidienne à la veille du Snapshot non mesurée. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Nom à la date : Asino (aujourd'hui Assino).",
             "nom": "Asino"
           },
           "geometrie": {
@@ -1448,7 +1449,7 @@
             {
               "source_id": "src-neb-admin1944-supplement",
               "locator": "Page imprimée 27 / image 29",
-              "usage": "rail (lecture partielle)"
+              "usage": "rail (page relue par Claude pour cette ville : rail)"
             },
             {
               "source_id": "src-wikidata",
@@ -1484,7 +1485,7 @@
               "administration",
               "rail"
             ],
-            "note": "Présence et fonction locale attestées dans le répertoire daté cité ; activité quotidienne à la veille du Snapshot non mesurée. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). À renforcer : administration, rail."
+            "note": "Présence et fonction locale attestées dans le répertoire daté cité ; activité quotidienne à la veille du Snapshot non mesurée. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01)."
           },
           "geometrie": {
             "type": "Point",
@@ -1497,7 +1498,7 @@
             {
               "source_id": "src-neb-admin1944-supplement",
               "locator": "Page imprimée 29 / image 31",
-              "usage": "administration, rail (lecture partielle)"
+              "usage": "administration, rail (page relue par Claude pour cette ville : administration, rail)"
             },
             {
               "source_id": "src-wikidata",
@@ -1532,7 +1533,7 @@
             "roles": [
               "rail"
             ],
-            "note": "Présence et fonction locale attestées dans le répertoire daté cité ; activité quotidienne à la veille du Snapshot non mesurée. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). À renforcer : rail."
+            "note": "Présence et fonction locale attestées dans le répertoire daté cité ; activité quotidienne à la veille du Snapshot non mesurée. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01)."
           },
           "geometrie": {
             "type": "Point",
@@ -1545,7 +1546,7 @@
             {
               "source_id": "src-neb-admin1944-supplement",
               "locator": "Page imprimée 29 / image 31",
-              "usage": "rail (lecture partielle)"
+              "usage": "rail (page relue par Claude pour cette ville : rail)"
             },
             {
               "source_id": "src-wikidata",
@@ -1580,7 +1581,7 @@
             "roles": [
               "rail"
             ],
-            "note": "Présence et fonction locale attestées dans le répertoire daté cité ; activité quotidienne à la veille du Snapshot non mesurée. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). À renforcer : rail."
+            "note": "Présence et fonction locale attestées dans le répertoire daté cité ; activité quotidienne à la veille du Snapshot non mesurée. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01)."
           },
           "geometrie": {
             "type": "Point",
@@ -1593,7 +1594,7 @@
             {
               "source_id": "src-neb-admin1944-supplement",
               "locator": "Page imprimée 29 / image 31",
-              "usage": "rail (lecture partielle)"
+              "usage": "rail (page relue par Claude pour cette ville : rail)"
             },
             {
               "source_id": "src-wikidata",
@@ -1686,7 +1687,7 @@
             "roles": [
               "administration"
             ],
-            "note": "Présence et fonction locale attestées dans le répertoire daté cité ; activité quotidienne à la veille du Snapshot non mesurée. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). À renforcer : administration."
+            "note": "Présence et fonction locale attestées dans le répertoire daté cité ; activité quotidienne à la veille du Snapshot non mesurée. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01)."
           },
           "geometrie": {
             "type": "Point",
@@ -1699,7 +1700,7 @@
             {
               "source_id": "src-neb-admin1944-supplement",
               "locator": "Page imprimée 31 / image 33",
-              "usage": "administration (lecture partielle)"
+              "usage": "administration (page relue par Claude pour cette ville : administration)"
             },
             {
               "source_id": "src-wikidata",
@@ -1739,7 +1740,7 @@
               "rail",
               "industrie"
             ],
-            "note": "Fabrique de dévidage inaugurée en novembre 1932 ; activité documentée en 1940, matériel évacué de Moscou en 1941 et ateliers de tissage construits fin 1942. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Capitale « régionale » au Snapshot 0 : capitale de RSS (même convention que Tallinn, Riga, Vilnius, Minsk et Kiev). Nom à la date : Stalinabad (aujourd'hui Douchanbé). À renforcer : capitale, administration, rail, industrie.",
+            "note": "Fabrique de dévidage inaugurée en novembre 1932 ; activité documentée en 1940, matériel évacué de Moscou en 1941 et ateliers de tissage construits fin 1942. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Capitale « régionale » au Snapshot 0 : capitale de RSS (même convention que Tallinn, Riga, Vilnius, Minsk et Kiev). Nom à la date : Stalinabad (aujourd'hui Douchanbé). À renforcer : industrie.",
             "nom": "Stalinabad",
             "capitale": "regionale"
           },
@@ -1754,7 +1755,7 @@
             {
               "source_id": "src-sssr-admin1941-tadjikistan",
               "locator": "Pages imprimées 268, 273",
-              "usage": "capitale, administration, rail (non vérifiée par Claude)"
+              "usage": "capitale, administration, rail (page relue par Claude pour cette ville : capitale, administration, rail)"
             },
             {
               "source_id": "src-shermatov-soie-stalinabad2021",
@@ -1794,7 +1795,7 @@
             "roles": [
               "administration"
             ],
-            "note": "Présence et fonction locale attestées dans le répertoire daté cité ; activité quotidienne à la veille du Snapshot non mesurée. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). À renforcer : administration."
+            "note": "Présence et fonction locale attestées dans le répertoire daté cité ; activité quotidienne à la veille du Snapshot non mesurée. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01)."
           },
           "geometrie": {
             "type": "Point",
@@ -1807,7 +1808,7 @@
             {
               "source_id": "src-sssr-admin1941-tadjikistan",
               "locator": "Pages imprimées 268",
-              "usage": "administration (non vérifiée par Claude)"
+              "usage": "administration (page relue par Claude pour cette ville : administration)"
             },
             {
               "source_id": "src-wikidata",
@@ -1844,7 +1845,7 @@
             "roles": [
               "administration"
             ],
-            "note": "Présence et fonction locale attestées dans le répertoire daté cité ; activité quotidienne à la veille du Snapshot non mesurée. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Nom à la date : Kouliab (aujourd'hui Kulob). À renforcer : administration.",
+            "note": "Présence et fonction locale attestées dans le répertoire daté cité ; activité quotidienne à la veille du Snapshot non mesurée. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Nom à la date : Kouliab (aujourd'hui Kulob).",
             "nom": "Kouliab"
           },
           "geometrie": {
@@ -1858,7 +1859,7 @@
             {
               "source_id": "src-sssr-admin1941-tadjikistan",
               "locator": "Pages imprimées 269",
-              "usage": "administration (non vérifiée par Claude)"
+              "usage": "administration (page relue par Claude pour cette ville : administration)"
             },
             {
               "source_id": "src-wikidata",
@@ -1896,7 +1897,7 @@
               "administration",
               "industrie"
             ],
-            "note": "Atelier de dévidage entré en exploitation le 7 novembre 1931 ; combinat industriel attesté en 1937 et durant 1941–1944. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Nom à la date : Leninabad (aujourd'hui Khodjent). À renforcer : administration, industrie.",
+            "note": "Atelier de dévidage entré en exploitation le 7 novembre 1931 ; combinat industriel attesté en 1937 et durant 1941–1944. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Nom à la date : Leninabad (aujourd'hui Khodjent). À renforcer : industrie.",
             "nom": "Leninabad"
           },
           "geometrie": {
@@ -1910,7 +1911,7 @@
             {
               "source_id": "src-sssr-admin1941-tadjikistan",
               "locator": "Pages imprimées 270",
-              "usage": "administration (non vérifiée par Claude)"
+              "usage": "administration (page relue par Claude pour cette ville : administration)"
             },
             {
               "source_id": "src-ttu-soie-leninabad2023",
@@ -1952,7 +1953,7 @@
             "roles": [
               "rail"
             ],
-            "note": "Ligne Kanibadam–Chourab, 1933. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Rôles non retenus : charbon, faute de preuve locale suffisante ou de rattachement à la ville. Nom à la date : Chourab (aujourd'hui Shurab). À renforcer : rail.",
+            "note": "Ligne Kanibadam–Chourab, 1933. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Rôles non retenus : charbon, faute de preuve locale suffisante ou de rattachement à la ville. Nom à la date : Chourab (aujourd'hui Shurab).",
             "nom": "Chourab"
           },
           "geometrie": {
@@ -1966,7 +1967,7 @@
             {
               "source_id": "src-sssr-admin1941-tadjikistan",
               "locator": "Pages imprimées 271",
-              "usage": "rail (non vérifiée par Claude)"
+              "usage": "rail (page relue par Claude pour cette ville : rail)"
             },
             {
               "source_id": "src-uzrail-histoire-reseau",
@@ -2008,7 +2009,7 @@
             "roles": [
               "rail"
             ],
-            "note": "Présence et fonction locale attestées dans le répertoire daté cité ; activité quotidienne à la veille du Snapshot non mesurée. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Nom à la date : Regar (aujourd'hui Tursunzoda). À renforcer : rail.",
+            "note": "Présence et fonction locale attestées dans le répertoire daté cité ; activité quotidienne à la veille du Snapshot non mesurée. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Nom à la date : Regar (aujourd'hui Tursunzoda).",
             "nom": "Regar"
           },
           "geometrie": {
@@ -2022,7 +2023,7 @@
             {
               "source_id": "src-sssr-admin1941-tadjikistan",
               "locator": "Pages imprimées 272",
-              "usage": "rail (non vérifiée par Claude)"
+              "usage": "rail (page relue par Claude pour cette ville : rail)"
             },
             {
               "source_id": "src-wikidata",
@@ -2059,7 +2060,7 @@
             "roles": [
               "rail"
             ],
-            "note": "Présence et fonction locale attestées dans le répertoire daté cité ; activité quotidienne à la veille du Snapshot non mesurée. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Nom à la date : Ordjonikidzeabad (aujourd'hui Vahdat). À renforcer : rail.",
+            "note": "Présence et fonction locale attestées dans le répertoire daté cité ; activité quotidienne à la veille du Snapshot non mesurée. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Nom à la date : Ordjonikidzeabad (aujourd'hui Vahdat).",
             "nom": "Ordjonikidzeabad"
           },
           "geometrie": {
@@ -2073,7 +2074,7 @@
             {
               "source_id": "src-sssr-admin1941-tadjikistan",
               "locator": "Pages imprimées 272",
-              "usage": "rail (non vérifiée par Claude)"
+              "usage": "rail (page relue par Claude pour cette ville : rail)"
             },
             {
               "source_id": "src-wikidata",
@@ -2108,7 +2109,7 @@
             "roles": [
               "administration"
             ],
-            "note": "Présence et fonction locale attestées dans le répertoire daté cité ; activité quotidienne à la veille du Snapshot non mesurée. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). À renforcer : administration."
+            "note": "Présence et fonction locale attestées dans le répertoire daté cité ; activité quotidienne à la veille du Snapshot non mesurée. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01)."
           },
           "geometrie": {
             "type": "Point",
@@ -2121,7 +2122,7 @@
             {
               "source_id": "src-sssr-admin1941-tadjikistan",
               "locator": "Pages imprimées 274",
-              "usage": "administration (non vérifiée par Claude)"
+              "usage": "administration (page relue par Claude pour cette ville : administration)"
             },
             {
               "source_id": "src-wikidata",
@@ -2160,7 +2161,7 @@
               "administration",
               "rail"
             ],
-            "note": "Atelier ou dépôt daté ; localisation exacte à distinguer du centre urbain. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Capitale « régionale » au Snapshot 0 : capitale de RSS (même convention que Tallinn, Riga, Vilnius, Minsk et Kiev). Nom à la date : Achkhabad (aujourd'hui Achgabat). À renforcer : capitale, administration, rail.",
+            "note": "Atelier ou dépôt daté ; localisation exacte à distinguer du centre urbain. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Capitale « régionale » au Snapshot 0 : capitale de RSS (même convention que Tallinn, Riga, Vilnius, Minsk et Kiev). Nom à la date : Achkhabad (aujourd'hui Achgabat).",
             "nom": "Achkhabad",
             "capitale": "regionale"
           },
@@ -2175,7 +2176,7 @@
             {
               "source_id": "src-sssr-admin1941-turkmenistan",
               "locator": "Pages imprimées 249–250",
-              "usage": "capitale, administration, rail (non vérifiée par Claude)"
+              "usage": "capitale, administration, rail (page relue par Claude pour cette ville : capitale, administration, rail)"
             },
             {
               "source_id": "src-uzrail-histoire-reseau",
@@ -2217,7 +2218,7 @@
             "roles": [
               "rail"
             ],
-            "note": "Présence et fonction locale attestées dans le répertoire daté cité ; activité quotidienne à la veille du Snapshot non mesurée. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Nom à la date : Kizyl-Arvat (aujourd'hui Gyzylarbat). À renforcer : rail.",
+            "note": "Présence et fonction locale attestées dans le répertoire daté cité ; activité quotidienne à la veille du Snapshot non mesurée. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Nom à la date : Kizyl-Arvat (aujourd'hui Gyzylarbat).",
             "nom": "Kizyl-Arvat"
           },
           "geometrie": {
@@ -2231,7 +2232,7 @@
             {
               "source_id": "src-sssr-admin1941-turkmenistan",
               "locator": "Pages imprimées 250",
-              "usage": "rail (non vérifiée par Claude)"
+              "usage": "rail (page relue par Claude pour cette ville : rail)"
             },
             {
               "source_id": "src-wikidata",
@@ -2268,7 +2269,7 @@
             "roles": [
               "rail"
             ],
-            "note": "Présence et fonction locale attestées dans le répertoire daté cité ; activité quotidienne à la veille du Snapshot non mesurée. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Nom à la date : Tedjen (aujourd'hui Tejen). À renforcer : rail.",
+            "note": "Présence et fonction locale attestées dans le répertoire daté cité ; activité quotidienne à la veille du Snapshot non mesurée. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Nom à la date : Tedjen (aujourd'hui Tejen).",
             "nom": "Tedjen"
           },
           "geometrie": {
@@ -2282,7 +2283,7 @@
             {
               "source_id": "src-sssr-admin1941-turkmenistan",
               "locator": "Pages imprimées 250",
-              "usage": "rail (non vérifiée par Claude)"
+              "usage": "rail (page relue par Claude pour cette ville : rail)"
             },
             {
               "source_id": "src-wikidata",
@@ -2323,7 +2324,7 @@
               "port_maritime",
               "industrie"
             ],
-            "note": "Transbordement de coton, céréales et bois en 1944. Matériel de la raffinerie de Touapsé évacué en1942 ; premières productions datées1943 dans le journal décrit par le musée. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Nom à la date : Krasnovodsk (aujourd'hui Turkmenbachi). À renforcer : administration, rail, port_maritime.",
+            "note": "Transbordement de coton, céréales et bois en 1944. Matériel de la raffinerie de Touapsé évacué en1942 ; premières productions datées1943 dans le journal décrit par le musée. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Nom à la date : Krasnovodsk (aujourd'hui Turkmenbachi). À renforcer : port_maritime.",
             "nom": "Krasnovodsk"
           },
           "geometrie": {
@@ -2337,12 +2338,12 @@
             {
               "source_id": "src-sssr-admin1941-turkmenistan",
               "locator": "Pages imprimées 251",
-              "usage": "administration, rail (non vérifiée par Claude)"
+              "usage": "administration, rail (page relue par Claude pour cette ville : administration, rail)"
             },
             {
               "source_id": "src-vayner-transport-guerre-ch4",
               "locator": "p.193–194",
-              "usage": "port_maritime (lecture partielle)"
+              "usage": "port_maritime (non vérifiée par Claude)"
             },
             {
               "source_id": "src-tm-musee-raffinerie2015",
@@ -2384,7 +2385,7 @@
             "roles": [
               "rail"
             ],
-            "note": "Présence et fonction locale attestées dans le répertoire daté cité ; activité quotidienne à la veille du Snapshot non mesurée. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Nom à la date : Kazandjik (aujourd'hui Bereket). À renforcer : rail.",
+            "note": "Présence et fonction locale attestées dans le répertoire daté cité ; activité quotidienne à la veille du Snapshot non mesurée. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Nom à la date : Kazandjik (aujourd'hui Bereket).",
             "nom": "Kazandjik"
           },
           "geometrie": {
@@ -2398,7 +2399,7 @@
             {
               "source_id": "src-sssr-admin1941-turkmenistan",
               "locator": "Pages imprimées 252",
-              "usage": "rail (non vérifiée par Claude)"
+              "usage": "rail (page relue par Claude pour cette ville : rail)"
             },
             {
               "source_id": "src-wikidata",
@@ -2434,7 +2435,7 @@
               "administration",
               "rail"
             ],
-            "note": "Présence et fonction locale attestées dans le répertoire daté cité ; activité quotidienne à la veille du Snapshot non mesurée. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). À renforcer : administration, rail."
+            "note": "Présence et fonction locale attestées dans le répertoire daté cité ; activité quotidienne à la veille du Snapshot non mesurée. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01)."
           },
           "geometrie": {
             "type": "Point",
@@ -2447,7 +2448,7 @@
             {
               "source_id": "src-sssr-admin1941-turkmenistan",
               "locator": "Pages imprimées 253–254",
-              "usage": "administration, rail (non vérifiée par Claude)"
+              "usage": "administration, rail (page relue par Claude pour cette ville : administration, rail)"
             },
             {
               "source_id": "src-wikidata",
@@ -2484,7 +2485,7 @@
             "roles": [
               "rail"
             ],
-            "note": "Présence et fonction locale attestées dans le répertoire daté cité ; activité quotidienne à la veille du Snapshot non mesurée. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Nom à la date : Baïram-Ali (aujourd'hui Baýramaly). À renforcer : rail.",
+            "note": "Présence et fonction locale attestées dans le répertoire daté cité ; activité quotidienne à la veille du Snapshot non mesurée. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Nom à la date : Baïram-Ali (aujourd'hui Baýramaly).",
             "nom": "Baïram-Ali"
           },
           "geometrie": {
@@ -2498,7 +2499,7 @@
             {
               "source_id": "src-sssr-admin1941-turkmenistan",
               "locator": "Pages imprimées 254",
-              "usage": "rail (non vérifiée par Claude)"
+              "usage": "rail (page relue par Claude pour cette ville : rail)"
             },
             {
               "source_id": "src-wikidata",
@@ -2535,7 +2536,7 @@
             "roles": [
               "rail"
             ],
-            "note": "Présence et fonction locale attestées dans le répertoire daté cité ; activité quotidienne à la veille du Snapshot non mesurée. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Nom à la date : Kouchka (aujourd'hui Serhetabat). À renforcer : rail.",
+            "note": "Présence et fonction locale attestées dans le répertoire daté cité ; activité quotidienne à la veille du Snapshot non mesurée. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Nom à la date : Kouchka (aujourd'hui Serhetabat).",
             "nom": "Kouchka"
           },
           "geometrie": {
@@ -2549,7 +2550,7 @@
             {
               "source_id": "src-sssr-admin1941-turkmenistan",
               "locator": "Pages imprimées 254",
-              "usage": "rail (non vérifiée par Claude)"
+              "usage": "rail (page relue par Claude pour cette ville : rail)"
             },
             {
               "source_id": "src-wikidata",
@@ -2587,7 +2588,7 @@
             "roles": [
               "administration"
             ],
-            "note": "Présence et fonction locale attestées dans le répertoire daté cité ; activité quotidienne à la veille du Snapshot non mesurée. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Nom à la date : Tachaouz (aujourd'hui Dachogouz). À renforcer : administration.",
+            "note": "Présence et fonction locale attestées dans le répertoire daté cité ; activité quotidienne à la veille du Snapshot non mesurée. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Nom à la date : Tachaouz (aujourd'hui Dachogouz).",
             "nom": "Tachaouz"
           },
           "geometrie": {
@@ -2601,7 +2602,7 @@
             {
               "source_id": "src-sssr-admin1941-turkmenistan",
               "locator": "Pages imprimées 255",
-              "usage": "administration (non vérifiée par Claude)"
+              "usage": "administration (page relue par Claude pour cette ville : administration)"
             },
             {
               "source_id": "src-wikidata",
@@ -2640,7 +2641,7 @@
               "administration",
               "rail"
             ],
-            "note": "Atelier ou dépôt daté ; localisation exacte à distinguer du centre urbain. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Nom à la date : Tchardjou (aujourd'hui Turkmenabat). À renforcer : administration, rail.",
+            "note": "Atelier ou dépôt daté ; localisation exacte à distinguer du centre urbain. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Nom à la date : Tchardjou (aujourd'hui Turkmenabat).",
             "nom": "Tchardjou"
           },
           "geometrie": {
@@ -2654,7 +2655,7 @@
             {
               "source_id": "src-sssr-admin1941-turkmenistan",
               "locator": "Pages imprimées 256",
-              "usage": "administration, rail (non vérifiée par Claude)"
+              "usage": "administration, rail (page relue par Claude pour cette ville : administration, rail)"
             },
             {
               "source_id": "src-uzrail-histoire-reseau",
@@ -2694,7 +2695,7 @@
             "roles": [
               "administration"
             ],
-            "note": "Chef-lieu d’oblast créé le 29/12/1943. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). À renforcer : administration."
+            "note": "Chef-lieu d’oblast créé le 29/12/1943. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01)."
           },
           "geometrie": {
             "type": "Point",
@@ -2707,12 +2708,12 @@
             {
               "source_id": "src-sssr-admin1941-turkmenistan",
               "locator": "Pages imprimées 256",
-              "usage": "présence, identité et limites documentaires (non vérifiée par Claude)"
+              "usage": "présence, identité et limites documentaires (lecture partielle)"
             },
             {
               "source_id": "src-neb-admin1944-supplement",
               "locator": "Page imprimée 43 / image 45",
-              "usage": "administration (lecture partielle)"
+              "usage": "administration (page relue par Claude pour cette ville : administration)"
             },
             {
               "source_id": "src-wikidata",
@@ -2749,7 +2750,7 @@
             "roles": [
               "rail"
             ],
-            "note": "Présence et fonction locale attestées dans le répertoire daté cité ; activité quotidienne à la veille du Snapshot non mesurée. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Nom à la date : Farab (aujourd'hui Farap). À renforcer : rail.",
+            "note": "Présence et fonction locale attestées dans le répertoire daté cité ; activité quotidienne à la veille du Snapshot non mesurée. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Nom à la date : Farab (aujourd'hui Farap).",
             "nom": "Farab"
           },
           "geometrie": {
@@ -2763,7 +2764,7 @@
             {
               "source_id": "src-sssr-admin1941-turkmenistan",
               "locator": "Pages imprimées 256",
-              "usage": "rail (non vérifiée par Claude)"
+              "usage": "rail (page relue par Claude pour cette ville : rail)"
             },
             {
               "source_id": "src-wikidata",
@@ -2798,7 +2799,7 @@
             "roles": [
               "rail"
             ],
-            "note": "Présence et fonction locale attestées dans le répertoire daté cité ; activité quotidienne à la veille du Snapshot non mesurée. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). À renforcer : rail."
+            "note": "Présence et fonction locale attestées dans le répertoire daté cité ; activité quotidienne à la veille du Snapshot non mesurée. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01)."
           },
           "geometrie": {
             "type": "Point",
@@ -2811,7 +2812,7 @@
             {
               "source_id": "src-neb-admin1944-supplement",
               "locator": "Page imprimée 18 / image 20",
-              "usage": "rail (lecture partielle)"
+              "usage": "rail (page relue par Claude pour cette ville : rail)"
             },
             {
               "source_id": "src-wikidata",
@@ -2846,7 +2847,7 @@
             "roles": [
               "rail"
             ],
-            "note": "Présence et fonction locale attestées dans le répertoire daté cité ; activité quotidienne à la veille du Snapshot non mesurée. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). À renforcer : rail."
+            "note": "Présence et fonction locale attestées dans le répertoire daté cité ; activité quotidienne à la veille du Snapshot non mesurée. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01)."
           },
           "geometrie": {
             "type": "Point",
@@ -2859,7 +2860,7 @@
             {
               "source_id": "src-neb-admin1944-supplement",
               "locator": "Page imprimée 22 / image 24",
-              "usage": "rail (lecture partielle)"
+              "usage": "rail (page relue par Claude pour cette ville : rail)"
             },
             {
               "source_id": "src-wikidata",
@@ -2894,7 +2895,7 @@
             "roles": [
               "rail"
             ],
-            "note": "Présence et fonction locale attestées dans le répertoire daté cité ; activité quotidienne à la veille du Snapshot non mesurée. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). À renforcer : rail."
+            "note": "Présence et fonction locale attestées dans le répertoire daté cité ; activité quotidienne à la veille du Snapshot non mesurée. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01)."
           },
           "geometrie": {
             "type": "Point",
@@ -2907,7 +2908,7 @@
             {
               "source_id": "src-neb-admin1944-supplement",
               "locator": "Page imprimée 22 / image 24",
-              "usage": "rail (lecture partielle)"
+              "usage": "rail (page relue par Claude pour cette ville : rail)"
             },
             {
               "source_id": "src-wikidata",
@@ -2942,7 +2943,7 @@
             "roles": [
               "rail"
             ],
-            "note": "Présence et fonction locale attestées dans le répertoire daté cité ; activité quotidienne à la veille du Snapshot non mesurée. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). À renforcer : rail."
+            "note": "Présence et fonction locale attestées dans le répertoire daté cité ; activité quotidienne à la veille du Snapshot non mesurée. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01)."
           },
           "geometrie": {
             "type": "Point",
@@ -2955,7 +2956,7 @@
             {
               "source_id": "src-neb-admin1944-supplement",
               "locator": "Page imprimée 22 / image 24",
-              "usage": "rail (lecture partielle)"
+              "usage": "rail (page relue par Claude pour cette ville : rail)"
             },
             {
               "source_id": "src-wikidata",
@@ -2992,7 +2993,7 @@
               "port_fluvial",
               "industrie"
             ],
-            "note": "Chef-lieu de l’okrug iamalo-nénètse ; liaison à vapeur avec Tobolsk ; conserverie de poisson, scierie et ateliers. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). À renforcer : administration, port_fluvial, industrie."
+            "note": "Chef-lieu de l’okrug iamalo-nénètse ; liaison à vapeur avec Tobolsk ; conserverie de poisson, scierie et ateliers. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). À renforcer : port_fluvial, industrie."
           },
           "geometrie": {
             "type": "Point",
@@ -3005,7 +3006,7 @@
             {
               "source_id": "src-neb-admin1944-supplement",
               "locator": "Page imprimée 32 / image 34",
-              "usage": "administration (lecture partielle)"
+              "usage": "administration (page relue par Claude pour cette ville : administration)"
             },
             {
               "source_id": "src-bse50-1944",
@@ -3045,7 +3046,7 @@
             "roles": [
               "administration"
             ],
-            "note": "Présence et fonction locale attestées dans le répertoire daté cité ; activité quotidienne à la veille du Snapshot non mesurée. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Rôles non retenus : rail, faute de preuve locale suffisante ou de rattachement à la ville. À renforcer : administration."
+            "note": "Présence et fonction locale attestées dans le répertoire daté cité ; activité quotidienne à la veille du Snapshot non mesurée. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Rôles non retenus : rail, faute de preuve locale suffisante ou de rattachement à la ville."
           },
           "geometrie": {
             "type": "Point",
@@ -3058,7 +3059,7 @@
             {
               "source_id": "src-neb-admin1944-supplement",
               "locator": "Page imprimée 45 / image 47",
-              "usage": "administration (lecture partielle)"
+              "usage": "administration (page relue par Claude pour cette ville : administration)"
             },
             {
               "source_id": "src-wikidata",
@@ -3093,7 +3094,7 @@
             "roles": [
               "administration"
             ],
-            "note": "Chef-lieu de l’okrug Sourkhan-Daria ; devenu centre d’oblast selon complément1944. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Rôles non retenus : rail, faute de preuve locale suffisante ou de rattachement à la ville. À renforcer : administration."
+            "note": "Chef-lieu de l’okrug Sourkhan-Daria ; devenu centre d’oblast selon complément1944. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Rôles non retenus : rail, faute de preuve locale suffisante ou de rattachement à la ville."
           },
           "geometrie": {
             "type": "Point",
@@ -3106,12 +3107,12 @@
             {
               "source_id": "src-neb-admin1944-supplement",
               "locator": "Page imprimée 47 / image 49",
-              "usage": "administration (lecture partielle)"
+              "usage": "administration (page relue par Claude pour cette ville : administration)"
             },
             {
               "source_id": "src-shpl-admin1940",
               "locator": "p.261",
-              "usage": "administration (non vérifiée par Claude)"
+              "usage": "administration (page relue par Claude pour cette ville : administration)"
             },
             {
               "source_id": "src-wikidata",
@@ -3149,7 +3150,7 @@
             "roles": [
               "administration"
             ],
-            "note": "Présence et fonction locale attestées dans le répertoire daté cité ; activité quotidienne à la veille du Snapshot non mesurée. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Rôles non retenus : rail, faute de preuve locale suffisante ou de rattachement à la ville. Nom à la date : Kokchetav (aujourd'hui Kokchetaou). À renforcer : administration.",
+            "note": "Présence et fonction locale attestées dans le répertoire daté cité ; activité quotidienne à la veille du Snapshot non mesurée. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Rôles non retenus : rail, faute de preuve locale suffisante ou de rattachement à la ville. Nom à la date : Kokchetav (aujourd'hui Kokchetaou).",
             "nom": "Kokchetav"
           },
           "geometrie": {
@@ -3163,7 +3164,7 @@
             {
               "source_id": "src-neb-admin1944-supplement",
               "locator": "Page imprimée 49 / image 51",
-              "usage": "administration (lecture partielle)"
+              "usage": "administration (page relue par Claude pour cette ville : administration)"
             },
             {
               "source_id": "src-wikidata",
@@ -3200,7 +3201,7 @@
             "roles": [
               "administration"
             ],
-            "note": "Présence et fonction locale attestées dans le répertoire daté cité ; activité quotidienne à la veille du Snapshot non mesurée. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Nom à la date : Taldy-Kourgan (aujourd'hui Taldykourgan). À renforcer : administration.",
+            "note": "Présence et fonction locale attestées dans le répertoire daté cité ; activité quotidienne à la veille du Snapshot non mesurée. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Nom à la date : Taldy-Kourgan (aujourd'hui Taldykourgan).",
             "nom": "Taldy-Kourgan"
           },
           "geometrie": {
@@ -3214,7 +3215,7 @@
             {
               "source_id": "src-neb-admin1944-supplement",
               "locator": "Page imprimée 51 / image 53",
-              "usage": "administration (lecture partielle)"
+              "usage": "administration (page relue par Claude pour cette ville : administration)"
             },
             {
               "source_id": "src-wikidata",
@@ -3252,7 +3253,7 @@
               "rail",
               "administration"
             ],
-            "note": "Chef-lieu de district ; gare homonyme sur place. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Nom à la date : Ouch-Tioubé (aujourd'hui Ouchtobe). À renforcer : rail, administration.",
+            "note": "Chef-lieu de district ; gare homonyme sur place. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Nom à la date : Ouch-Tioubé (aujourd'hui Ouchtobe). À renforcer : administration.",
             "nom": "Ouch-Tioubé"
           },
           "geometrie": {
@@ -3266,12 +3267,12 @@
             {
               "source_id": "src-neb-admin1944-supplement",
               "locator": "Page imprimée 51 / image 53",
-              "usage": "rail (lecture partielle)"
+              "usage": "rail (page relue par Claude pour cette ville : rail)"
             },
             {
               "source_id": "src-shpl-admin1940",
               "locator": "p.280",
-              "usage": "administration, rail (non vérifiée par Claude)"
+              "usage": "administration, rail (lecture partielle)"
             },
             {
               "source_id": "src-wikidata",
@@ -3306,7 +3307,7 @@
             "roles": [
               "administration"
             ],
-            "note": "Présence et fonction locale attestées dans le répertoire daté cité ; activité quotidienne à la veille du Snapshot non mesurée. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). À renforcer : administration."
+            "note": "Présence et fonction locale attestées dans le répertoire daté cité ; activité quotidienne à la veille du Snapshot non mesurée. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01)."
           },
           "geometrie": {
             "type": "Point",
@@ -3319,7 +3320,7 @@
             {
               "source_id": "src-neb-admin1944-supplement",
               "locator": "Page imprimée 53 / image 55",
-              "usage": "administration (lecture partielle)"
+              "usage": "administration (page relue par Claude pour cette ville : administration)"
             },
             {
               "source_id": "src-wikidata",
@@ -3478,7 +3479,7 @@
             {
               "source_id": "src-shpl-admin1940",
               "locator": "p.262",
-              "usage": "administration (non vérifiée par Claude)"
+              "usage": "administration (lecture partielle)"
             },
             {
               "source_id": "src-wikidata",
@@ -3516,7 +3517,7 @@
               "administration",
               "industrie"
             ],
-            "note": "Branche vers Tachkent, 1899. Capitale de la RSS et centre de l’oblast. Elektrostanok évacué de Kharkov à Tachkent à l’automne1941 ; livraisons au front dès début1942. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Capitale « régionale » au Snapshot 0 : capitale de RSS (même convention que Tallinn, Riga, Vilnius, Minsk et Kiev). À renforcer : rail, capitale, administration.",
+            "note": "Branche vers Tachkent, 1899. Capitale de la RSS et centre de l’oblast. Elektrostanok évacué de Kharkov à Tachkent à l’automne1941 ; livraisons au front dès début1942. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). Capitale « régionale » au Snapshot 0 : capitale de RSS (même convention que Tallinn, Riga, Vilnius, Minsk et Kiev). À renforcer : rail, administration.",
             "capitale": "regionale"
           },
           "geometrie": {
@@ -3535,7 +3536,7 @@
             {
               "source_id": "src-shpl-admin1940",
               "locator": "p.259 et264",
-              "usage": "capitale, administration (non vérifiée par Claude)"
+              "usage": "capitale, administration (page relue par Claude pour cette ville : capitale)"
             },
             {
               "source_id": "src-uzelectroapparat-histoire",
@@ -3594,7 +3595,7 @@
             {
               "source_id": "src-shpl-admin1940",
               "locator": "p.266–267",
-              "usage": "administration (non vérifiée par Claude)"
+              "usage": "administration (lecture partielle)"
             },
             {
               "source_id": "src-wikidata",
@@ -3648,7 +3649,7 @@
             {
               "source_id": "src-shpl-admin1940",
               "locator": "p.266–267",
-              "usage": "administration (non vérifiée par Claude)"
+              "usage": "administration (lecture partielle)"
             },
             {
               "source_id": "src-wikidata",
@@ -3706,7 +3707,7 @@
             {
               "source_id": "src-shpl-admin1940",
               "locator": "p.288",
-              "usage": "administration, rail (non vérifiée par Claude)"
+              "usage": "administration, rail (lecture partielle)"
             },
             {
               "source_id": "src-wikidata",
@@ -3814,7 +3815,7 @@
             {
               "source_id": "src-shpl-admin1940",
               "locator": "p.277–278",
-              "usage": "administration (non vérifiée par Claude)"
+              "usage": "administration (lecture partielle)"
             },
             {
               "source_id": "src-wikidata",
@@ -3917,7 +3918,7 @@
             {
               "source_id": "src-shpl-admin1940",
               "locator": "p.287",
-              "usage": "administration (non vérifiée par Claude)"
+              "usage": "administration (lecture partielle)"
             },
             {
               "source_id": "src-wikidata",
@@ -3975,7 +3976,7 @@
             {
               "source_id": "src-shpl-admin1940",
               "locator": "p.290",
-              "usage": "administration, rail (non vérifiée par Claude)"
+              "usage": "administration, rail (lecture partielle)"
             },
             {
               "source_id": "src-wikidata",
@@ -4029,12 +4030,12 @@
             {
               "source_id": "src-vayner-transport-guerre-ch4",
               "locator": "p.190–191",
-              "usage": "port_maritime, port_fluvial, rail (lecture partielle)"
+              "usage": "port_maritime, port_fluvial, rail (non vérifiée par Claude)"
             },
             {
               "source_id": "src-shpl-admin1940",
               "locator": "p.284",
-              "usage": "administration (non vérifiée par Claude)"
+              "usage": "administration (lecture partielle)"
             },
             {
               "source_id": "src-wikidata",
@@ -4084,7 +4085,7 @@
             {
               "source_id": "src-vayner-transport-guerre-ch4",
               "locator": "p.187",
-              "usage": "port_maritime (lecture partielle)"
+              "usage": "port_maritime (non vérifiée par Claude)"
             },
             {
               "source_id": "src-nornickel-voie-etroite",
@@ -4615,7 +4616,7 @@
             {
               "source_id": "src-loc-mongolie-1991",
               "locator": "p.137,164",
-              "usage": "charbon, rail (lecture partielle)"
+              "usage": "charbon, rail (page relue par Claude pour cette ville : charbon, rail)"
             },
             {
               "source_id": "src-wikidata",
@@ -4672,7 +4673,7 @@
             {
               "source_id": "src-loc-mongolie-1991",
               "locator": "p. xvii, 40, 137",
-              "usage": "capitale, administration, industrie (lecture partielle)"
+              "usage": "capitale, administration, industrie (page relue par Claude pour cette ville : industrie)"
             },
             {
               "source_id": "src-mofa-laine-mongolie",
@@ -4731,7 +4732,7 @@
             {
               "source_id": "src-loc-mongolie-1991",
               "locator": "p.164",
-              "usage": "rail (lecture partielle)"
+              "usage": "rail (page relue par Claude pour cette ville : rail)"
             },
             {
               "source_id": "src-montsame-bayantumen-nom",
@@ -4786,7 +4787,7 @@
             "roles": [
               "rail"
             ],
-            "note": "Connexion avec l’est de la Mongolie en 1939. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). À renforcer : rail."
+            "note": "Connexion avec l’est de la Mongolie en 1939. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01)."
           },
           "geometrie": {
             "type": "Point",
@@ -4799,7 +4800,7 @@
             {
               "source_id": "src-loc-mongolie-1991",
               "locator": "p.164",
-              "usage": "rail (lecture partielle)"
+              "usage": "rail (page relue par Claude pour cette ville : rail)"
             },
             {
               "source_id": "src-wikidata",
@@ -5025,7 +5026,7 @@
             {
               "source_id": "src-shpl-admin1940",
               "locator": "p. 62 / image 66",
-              "usage": "administration, rail (non vérifiée par Claude)"
+              "usage": "administration, rail (lecture partielle)"
             },
             {
               "source_id": "src-wikidata",
@@ -5976,7 +5977,7 @@
             {
               "source_id": "src-shpl-admin1940",
               "locator": "p. 97 / image 101",
-              "usage": "administration (non vérifiée par Claude)"
+              "usage": "administration (lecture partielle)"
             },
             {
               "source_id": "src-wikidata",
@@ -6045,7 +6046,7 @@
             {
               "source_id": "src-shpl-admin1940",
               "locator": "p.293–294",
-              "usage": "administration, rail (non vérifiée par Claude)"
+              "usage": "administration, rail (lecture partielle)"
             },
             {
               "source_id": "src-wikidata",
@@ -6094,7 +6095,7 @@
             {
               "source_id": "src-shpl-admin1940",
               "locator": "p.291",
-              "usage": "administration, rail (non vérifiée par Claude)"
+              "usage": "administration, rail (lecture partielle)"
             },
             {
               "source_id": "src-wikidata",
@@ -7255,7 +7256,7 @@
             {
               "source_id": "src-shpl-admin1940",
               "locator": "p. 170 / image 174",
-              "usage": "capitale, administration (non vérifiée par Claude)"
+              "usage": "capitale, administration (lecture partielle)"
             },
             {
               "source_id": "src-wikidata",
@@ -7613,7 +7614,7 @@
             {
               "source_id": "src-shpl-admin1940",
               "locator": "pp. 144–145 / images 148–149",
-              "usage": "capitale, administration, rail (non vérifiée par Claude)"
+              "usage": "capitale, administration, rail (lecture partielle)"
             },
             {
               "source_id": "src-wikidata",
@@ -9463,7 +9464,7 @@
             {
               "source_id": "src-shpl-admin1940",
               "locator": "p.279",
-              "usage": "administration (non vérifiée par Claude)"
+              "usage": "administration (lecture partielle)"
             },
             {
               "source_id": "src-wikidata",
@@ -9610,7 +9611,7 @@
             {
               "source_id": "src-shpl-admin1940",
               "locator": "p.289",
-              "usage": "administration (non vérifiée par Claude)"
+              "usage": "administration (lecture partielle)"
             },
             {
               "source_id": "src-wikidata",
@@ -9715,7 +9716,7 @@
             {
               "source_id": "src-shpl-admin1940",
               "locator": "p.285",
-              "usage": "administration (non vérifiée par Claude)"
+              "usage": "administration (lecture partielle)"
             },
             {
               "source_id": "src-wikidata",
@@ -9773,7 +9774,7 @@
             {
               "source_id": "src-shpl-admin1940",
               "locator": "p.295–296",
-              "usage": "administration, rail, industrie (non vérifiée par Claude)"
+              "usage": "administration, rail, industrie (lecture partielle)"
             },
             {
               "source_id": "src-kaznu-plomb-chimkent2022",
@@ -9887,7 +9888,7 @@
             {
               "source_id": "src-vishnevski-sakhaline2000",
               "locator": "p.110, tableau 1944",
-              "usage": "aviation (lecture partielle)"
+              "usage": "aviation (non vérifiée par Claude)"
             },
             {
               "source_id": "src-wikidata",
@@ -9983,7 +9984,7 @@
             {
               "source_id": "src-archives-primorie-spassk-ciment",
               "locator": "Passage 1942",
-              "usage": "industrie (lecture partielle)"
+              "usage": "industrie (non vérifiée par Claude)"
             },
             {
               "source_id": "src-wikidata",
@@ -10189,7 +10190,7 @@
             {
               "source_id": "src-vishnevski-sakhaline2000",
               "locator": "p.110, tableau 1944",
-              "usage": "aviation (lecture partielle)"
+              "usage": "aviation (non vérifiée par Claude)"
             },
             {
               "source_id": "src-wikidata",
@@ -10243,7 +10244,7 @@
             {
               "source_id": "src-vishnevski-sakhaline2000",
               "locator": "p.109–110",
-              "usage": "rail, port_maritime (lecture partielle)"
+              "usage": "rail, port_maritime (non vérifiée par Claude)"
             },
             {
               "source_id": "src-wikidata",
@@ -10534,7 +10535,7 @@
             {
               "source_id": "src-vishnevski-sakhaline2000",
               "locator": "p.110, tableau 1944",
-              "usage": "aviation (lecture partielle)"
+              "usage": "aviation (non vérifiée par Claude)"
             },
             {
               "source_id": "src-wikidata",
@@ -10582,7 +10583,7 @@
             {
               "source_id": "src-vishnevski-sakhaline2000",
               "locator": "p.110, tableau 1944",
-              "usage": "aviation (lecture partielle)"
+              "usage": "aviation (non vérifiée par Claude)"
             },
             {
               "source_id": "src-wikidata",
@@ -10633,7 +10634,7 @@
             {
               "source_id": "src-vishnevski-sakhaline2000",
               "locator": "p.109",
-              "usage": "rail (lecture partielle)"
+              "usage": "rail (non vérifiée par Claude)"
             },
             {
               "source_id": "src-wikidata",
@@ -10681,7 +10682,7 @@
             {
               "source_id": "src-vishnevski-sakhaline2000",
               "locator": "p.109",
-              "usage": "rail (lecture partielle)"
+              "usage": "rail (non vérifiée par Claude)"
             },
             {
               "source_id": "src-wikidata",
@@ -10932,7 +10933,7 @@
             {
               "source_id": "src-ks-providenia-dyga2022",
               "locator": "Premier quai, été 1940 ; état avant-guerre",
-              "usage": "port_maritime (lecture partielle)"
+              "usage": "port_maritime (non vérifiée par Claude)"
             },
             {
               "source_id": "src-wikidata",
@@ -10990,7 +10991,7 @@
             {
               "source_id": "src-shpl-admin1940",
               "locator": "p.292",
-              "usage": "administration, rail (non vérifiée par Claude)"
+              "usage": "administration, rail (lecture partielle)"
             },
             {
               "source_id": "src-wikidata",
@@ -11049,7 +11050,7 @@
             {
               "source_id": "src-shpl-admin1940",
               "locator": "p.264–265",
-              "usage": "administration (non vérifiée par Claude)"
+              "usage": "administration (lecture partielle)"
             },
             {
               "source_id": "src-wikidata",
@@ -11084,7 +11085,7 @@
             "roles": [
               "administration"
             ],
-            "note": "Centre de l’oblast de Boukhara. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01). À renforcer : administration."
+            "note": "Centre de l’oblast de Boukhara. Repère urbain actuel ; centre exact de 1945 non certifié (R16-01)."
           },
           "geometrie": {
             "type": "Point",
@@ -11097,7 +11098,7 @@
             {
               "source_id": "src-shpl-admin1940",
               "locator": "p.259",
-              "usage": "administration (non vérifiée par Claude)"
+              "usage": "administration (page relue par Claude pour cette ville : administration)"
             },
             {
               "source_id": "src-wikidata",
@@ -11145,7 +11146,7 @@
             {
               "source_id": "src-shpl-admin1940",
               "locator": "p.262–263",
-              "usage": "administration (non vérifiée par Claude)"
+              "usage": "administration (lecture partielle)"
             },
             {
               "source_id": "src-wikidata",
@@ -11196,7 +11197,7 @@
             {
               "source_id": "src-shpl-admin1940",
               "locator": "p.262–263",
-              "usage": "administration (non vérifiée par Claude)"
+              "usage": "administration (lecture partielle)"
             },
             {
               "source_id": "src-wikidata",
@@ -11245,7 +11246,7 @@
             {
               "source_id": "src-shpl-admin1940",
               "locator": "p.265",
-              "usage": "rail (non vérifiée par Claude)"
+              "usage": "rail (lecture partielle)"
             },
             {
               "source_id": "src-maxam-chirchiq-histoire",
@@ -11302,7 +11303,7 @@
             {
               "source_id": "src-shpl-admin1940",
               "locator": "p.264–265",
-              "usage": "administration, rail (non vérifiée par Claude)"
+              "usage": "administration, rail (lecture partielle)"
             },
             {
               "source_id": "src-wikidata",
@@ -11351,7 +11352,7 @@
             {
               "source_id": "src-shpl-admin1940",
               "locator": "p.266–267",
-              "usage": "administration, rail (non vérifiée par Claude)"
+              "usage": "administration, rail (lecture partielle)"
             },
             {
               "source_id": "src-wikidata",
@@ -11402,7 +11403,7 @@
             {
               "source_id": "src-shpl-admin1940",
               "locator": "p.266–267",
-              "usage": "administration (non vérifiée par Claude)"
+              "usage": "administration (lecture partielle)"
             },
             {
               "source_id": "src-wikidata",
@@ -11453,7 +11454,7 @@
             {
               "source_id": "src-shpl-admin1940",
               "locator": "p.267",
-              "usage": "administration (non vérifiée par Claude)"
+              "usage": "administration (lecture partielle)"
             },
             {
               "source_id": "src-wikidata",
@@ -11501,7 +11502,7 @@
             {
               "source_id": "src-shpl-admin1940",
               "locator": "p.268",
-              "usage": "administration (non vérifiée par Claude)"
+              "usage": "administration (lecture partielle)"
             },
             {
               "source_id": "src-wikidata",
@@ -11549,7 +11550,7 @@
             {
               "source_id": "src-shpl-admin1940",
               "locator": "p.268",
-              "usage": "administration (non vérifiée par Claude)"
+              "usage": "administration (lecture partielle)"
             },
             {
               "source_id": "src-wikidata",
@@ -11598,7 +11599,7 @@
             {
               "source_id": "src-shpl-admin1940",
               "locator": "p.269",
-              "usage": "capitale, administration (non vérifiée par Claude)"
+              "usage": "capitale, administration (lecture partielle)"
             },
             {
               "source_id": "src-wikidata",
@@ -11649,7 +11650,7 @@
             {
               "source_id": "src-shpl-admin1940",
               "locator": "p.269",
-              "usage": "administration (non vérifiée par Claude)"
+              "usage": "administration (lecture partielle)"
             },
             {
               "source_id": "src-wikidata",
@@ -11700,7 +11701,7 @@
             {
               "source_id": "src-shpl-admin1940",
               "locator": "p.269",
-              "usage": "administration (non vérifiée par Claude)"
+              "usage": "administration (lecture partielle)"
             },
             {
               "source_id": "src-wikidata",
@@ -11755,7 +11756,7 @@
             {
               "source_id": "src-shpl-admin1940",
               "locator": "p.269",
-              "usage": "administration (non vérifiée par Claude)"
+              "usage": "administration (lecture partielle)"
             },
             {
               "source_id": "src-bse40-mouinak1938",
@@ -11815,7 +11816,7 @@
             {
               "source_id": "src-shpl-admin1940",
               "locator": "p.284",
-              "usage": "rail, administration (non vérifiée par Claude)"
+              "usage": "rail, administration (lecture partielle)"
             },
             {
               "source_id": "src-wikidata",
@@ -11869,7 +11870,7 @@
             {
               "source_id": "src-shpl-admin1940",
               "locator": "p.284",
-              "usage": "rail (non vérifiée par Claude)"
+              "usage": "rail (lecture partielle)"
             },
             {
               "source_id": "src-wikidata",
@@ -11922,7 +11923,7 @@
             {
               "source_id": "src-ualtaeva-petites-villes2011",
               "locator": "p.44–46",
-              "usage": "industrie, minerai, rail (lecture partielle)"
+              "usage": "industrie, minerai, rail (non vérifiée par Claude)"
             },
             {
               "source_id": "src-wikidata",
@@ -11973,7 +11974,7 @@
             {
               "source_id": "src-ualtaeva-petites-villes2011",
               "locator": "p.50",
-              "usage": "minerai (lecture partielle)"
+              "usage": "minerai (non vérifiée par Claude)"
             },
             {
               "source_id": "src-wikidata",
@@ -12028,7 +12029,7 @@
             {
               "source_id": "src-shpl-admin1940",
               "locator": "p.277,280",
-              "usage": "capitale, administration (non vérifiée par Claude)"
+              "usage": "capitale, administration (lecture partielle)"
             },
             {
               "source_id": "src-aztm-histoire",
@@ -12089,7 +12090,7 @@
             {
               "source_id": "src-shpl-admin1940",
               "locator": "p.282–283",
-              "usage": "administration (non vérifiée par Claude)"
+              "usage": "administration (lecture partielle)"
             },
             {
               "source_id": "src-wikidata",
@@ -12141,7 +12142,7 @@
             {
               "source_id": "src-shpl-admin1940",
               "locator": "p.284",
-              "usage": "administration, port_maritime (non vérifiée par Claude)"
+              "usage": "administration, port_maritime (lecture partielle)"
             },
             {
               "source_id": "src-wikidata",
@@ -12192,7 +12193,7 @@
             {
               "source_id": "src-shpl-admin1940",
               "locator": "p.285",
-              "usage": "rail (non vérifiée par Claude)"
+              "usage": "rail (lecture partielle)"
             },
             {
               "source_id": "src-wikidata",
@@ -12243,7 +12244,7 @@
             {
               "source_id": "src-shpl-admin1940",
               "locator": "p.286",
-              "usage": "administration, rail (non vérifiée par Claude)"
+              "usage": "administration, rail (lecture partielle)"
             },
             {
               "source_id": "src-wikidata",
@@ -12294,7 +12295,7 @@
             {
               "source_id": "src-shpl-admin1940",
               "locator": "p.288",
-              "usage": "rail (non vérifiée par Claude)"
+              "usage": "rail (lecture partielle)"
             },
             {
               "source_id": "src-wikidata",
@@ -12346,7 +12347,7 @@
             {
               "source_id": "src-shpl-admin1940",
               "locator": "p.289",
-              "usage": "administration, rail (non vérifiée par Claude)"
+              "usage": "administration, rail (lecture partielle)"
             },
             {
               "source_id": "src-wikidata",
@@ -12395,7 +12396,7 @@
             {
               "source_id": "src-shpl-admin1940",
               "locator": "p.289",
-              "usage": "administration, rail (non vérifiée par Claude)"
+              "usage": "administration, rail (lecture partielle)"
             },
             {
               "source_id": "src-wikidata",
@@ -12444,7 +12445,7 @@
             {
               "source_id": "src-shpl-admin1940",
               "locator": "p.293–294",
-              "usage": "administration, rail (non vérifiée par Claude)"
+              "usage": "administration, rail (lecture partielle)"
             },
             {
               "source_id": "src-wikidata",
@@ -12493,7 +12494,7 @@
             {
               "source_id": "src-shpl-admin1940",
               "locator": "p.293–294",
-              "usage": "administration, rail (non vérifiée par Claude)"
+              "usage": "administration, rail (lecture partielle)"
             },
             {
               "source_id": "src-wikidata",
@@ -12542,7 +12543,7 @@
             {
               "source_id": "src-shpl-admin1940",
               "locator": "p.295–296",
-              "usage": "administration, rail (non vérifiée par Claude)"
+              "usage": "administration, rail (lecture partielle)"
             },
             {
               "source_id": "src-wikidata",
@@ -12590,7 +12591,7 @@
             {
               "source_id": "src-shpl-admin1940",
               "locator": "p.295–296",
-              "usage": "administration (non vérifiée par Claude)"
+              "usage": "administration (lecture partielle)"
             },
             {
               "source_id": "src-wikidata",
@@ -12638,7 +12639,7 @@
             {
               "source_id": "src-shpl-admin1940",
               "locator": "p.296",
-              "usage": "rail (non vérifiée par Claude)"
+              "usage": "rail (lecture partielle)"
             },
             {
               "source_id": "src-wikidata",
@@ -12942,7 +12943,7 @@
             {
               "source_id": "src-shpl-admin1940",
               "locator": "p. 21 / image 25",
-              "usage": "administration (non vérifiée par Claude)"
+              "usage": "administration (lecture partielle)"
             },
             {
               "source_id": "src-wikidata",
@@ -12990,7 +12991,7 @@
             {
               "source_id": "src-shpl-admin1940",
               "locator": "pp. 144–145 / images 148–149",
-              "usage": "administration (non vérifiée par Claude)"
+              "usage": "administration (lecture partielle)"
             },
             {
               "source_id": "src-wikidata",
@@ -13039,7 +13040,7 @@
             {
               "source_id": "src-shpl-admin1940",
               "locator": "pp. 62–63 / images 66–67",
-              "usage": "rail, administration (non vérifiée par Claude)"
+              "usage": "rail, administration (lecture partielle)"
             },
             {
               "source_id": "src-wikidata",
@@ -13088,7 +13089,7 @@
             {
               "source_id": "src-shpl-admin1940",
               "locator": "pp. 62–63 / images 66–67",
-              "usage": "rail, administration (non vérifiée par Claude)"
+              "usage": "rail, administration (lecture partielle)"
             },
             {
               "source_id": "src-wikidata",
@@ -13137,7 +13138,7 @@
             {
               "source_id": "src-shpl-admin1940",
               "locator": "pp. 62–63 / images 66–67",
-              "usage": "rail, administration (non vérifiée par Claude)"
+              "usage": "rail, administration (lecture partielle)"
             },
             {
               "source_id": "src-wikidata",
@@ -13186,7 +13187,7 @@
             {
               "source_id": "src-shpl-admin1940",
               "locator": "pp. 26–27 / images 30–31",
-              "usage": "rail, administration (non vérifiée par Claude)"
+              "usage": "rail, administration (lecture partielle)"
             },
             {
               "source_id": "src-wikidata",
@@ -13235,7 +13236,7 @@
             {
               "source_id": "src-shpl-admin1940",
               "locator": "pp. 26–27 / images 30–31",
-              "usage": "rail, administration (non vérifiée par Claude)"
+              "usage": "rail, administration (lecture partielle)"
             },
             {
               "source_id": "src-wikidata",
@@ -13287,7 +13288,7 @@
             {
               "source_id": "src-shpl-admin1940",
               "locator": "p. 27 / image 31",
-              "usage": "rail, administration (non vérifiée par Claude)"
+              "usage": "rail, administration (lecture partielle)"
             },
             {
               "source_id": "src-wikidata",

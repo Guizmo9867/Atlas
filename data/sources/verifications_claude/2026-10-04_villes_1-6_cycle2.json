@@ -1,0 +1,846 @@
+{
+ "metadata": {
+  "date": "2026-10-04",
+  "lot": "villes_1-6 cycle 2",
+  "par": "Claude (sous-agents Sonnet ; WebFetch seul, sans contournement ; captures et images de pages déposées par Ether lues avec l'outil Read)",
+  "methode": "Q16-01 : WebFetch des 12 adresses précisées par Ether (+3 images LOC) ; Q16-02 : lecture des 28 images de pages administratives référencées par l'index d'Ether (67 relations ville/source sur 124 ; les 57 autres n'ont pas d'image locale)."
+ },
+ "resultats": [
+  {
+   "id": "src-vayner-transport-guerre-ch4",
+   "statut": "non_verifiee",
+   "citation": "Это предприятие переводилось в Норильск (через порт Дудинка)",
+   "commentaire": "WebFetch renvoie un texte tronque en juin 1943 (« В конце июня 1943 г. неожиданно для противника первый отряд л[...] »), donc avant les p.186-194. Seule une mention de Doudinka (evacuation de Severonikel vers Norilsk, sans rapport avec la navigation de 1944) apparait ; Gouriev et Krasnovodsk sont absents du texte lu. Aucune des trois affirmations (Doudinka 1944, Atyraou 1942, Turkmenbachi 1944) n'est verifiable avec l'outil."
+  },
+  {
+   "id": "src-loc-mongolie-1991",
+   "statut": "limite",
+   "citation": "In 1934 the Choybalsan industrial combine, the flagship of Mongolian industry, began operating in Ulaanbaatar.",
+   "commentaire": "Les captures p.6/183/210 (lecture directe) confirment : Second Edition 1991 et « Research completed June 1989 » ; p.137 combinat industriel en activite a Oulan-Bator en 1934, houille de Nalaikh (« Nalayh ») et voie etroite vers la centrale de la capitale achevee en 1938 ; p.164 « the next year the Soviets built a 236-kilometer broad-gauge line connecting Choybalsan with Borzya » donc 1939. Non prouve par ces pages : siege du gouvernement et nom Oulan-Bator depuis 1924 (le texte emploie « Ulaanbaatar » de facon retrospective, ce qui ne date pas le nom) ; le nom Choybalsan est lui aussi employe retrospectivement. L'ecartement p.164 (broad-gauge 1,524 m / narrow 1,435 m) est effectivement douteux et le passage Transmongolien 1950/1955 est present, comme annonce."
+  },
+  {
+   "id": "src-archives-primorie-spassk-ciment",
+   "statut": "non_verifiee",
+   "citation": "",
+   "commentaire": "WebFetch ne renvoie que l'en-tete, le menu et la liste des expositions photodocumentaires de l'archive ; les paragraphes « Во время Великой » et « В 1942 году » (cimenterie, bombes d'exercice) n'apparaissent pas dans le texte livre a l'outil. Impossible de confirmer ou de contredire ; echec de lecture du passage, pas contradiction."
+  },
+  {
+   "id": "src-vishnevski-sakhaline2000",
+   "statut": "non_verifiee",
+   "citation": "",
+   "commentaire": "Le texte livre par WebFetch ne contient que des entrees biographiques (lettres A et B) et des notices sur la 88e division japonaise et le 87e corps de fusiliers, et s'arrete avant la notice САХАЛИНСКАЯ ОБЛАСТЬ (p.109-110). Ni le tableau des terrains de 1944 ni la voie Arkovo-Derbinskoie ne sont accessibles ; aucune des villes cibles n'est verifiee par l'outil."
+  },
+  {
+   "id": "src-ks-providenia-dyga2022",
+   "statut": "non_verifiee",
+   "citation": "",
+   "commentaire": "WebFetch retourne la page d'accueil/portail du journal (articles d'octobre 2026) et non l'article du 25/02/2022 ; le paragraphe « Как свидетельствует Анатолий Дыга » est introuvable dans le texte obtenu. Le quai de 1940 a Providenia n'est ni confirme ni infirme."
+  },
+  {
+   "id": "src-ualtaeva-petites-villes2011",
+   "statut": "non_verifiee",
+   "citation": "",
+   "commentaire": "Le texte du PDF livre a l'outil s'arrete a la page 33 (debut du chapitre 1) ; les pages 44-46 (Ridder, Roubtsovka-Ridder, fevrier 1941, Altai) ne sont pas atteintes. Aucune des affirmations sur Ridder/Leninogorsk ou Altai n'est verifiable avec l'outil."
+  },
+  {
+   "id": "src-rosmorport-primorie-histoire",
+   "statut": "non_verifiee",
+   "citation": "",
+   "commentaire": "WebFetch renvoie de nouveau une erreur 404 sur l'URL donnée ; aucun texte lu, donc ni Vladivostok (1915, 1929, 1935) ni Nakhodka (1934-1939) ne sont confirmés. Un 404 de l'outil ne prouve pas que la page a disparu (la chercheuse signale une extraction lisible), d'où non_verifiee plutôt que lien_casse. Aucune capture fournie."
+  },
+  {
+   "id": "src-rosmorport-petropavlovsk-histoire",
+   "statut": "non_verifiee",
+   "citation": "",
+   "commentaire": "WebFetch renvoie de nouveau une erreur 404 ; le paragraphe « Морской порт был построен » (avril 1944) n'a pas pu être lu. Le premier quai en avril 1944 pour Petropavlovsk-Kamtchatski reste non confirmé par l'outil. Aucune capture fournie."
+  },
+  {
+   "id": "src-novossibirsk-histoire1920-1940",
+   "statut": "non_verifiee",
+   "citation": "",
+   "commentaire": "WebFetch renvoie de nouveau une erreur 404 ; les entrées 1934 et 1937 et le paragraphe du 28 septembre 1937 n'ont pas pu être lus. Nœud ferroviaire et chef-lieu d'oblast de Novossibirsk non confirmés par l'outil (404 non concluant sur la disparition de la page)."
+  },
+  {
+   "id": "src-oniip-omsk-1942",
+   "statut": "non_verifiee",
+   "citation": "",
+   "commentaire": "WebFetch renvoie de nouveau une erreur 404 ; l'article sur l'usine 513 (2 février 1942, paragraphe 1944) n'a pas pu être lu. La production industrielle à Omsk n'est donc pas confirmée par l'outil. Aucune capture fournie."
+  },
+  {
+   "id": "src-bvrz-histoire",
+   "statut": "non_verifiee",
+   "citation": "",
+   "commentaire": "WebFetch renvoie de nouveau une erreur 404 ; le paragraphe de récompenses (novembre 1942, août 1944) et l'adresse de Barnaoul n'ont pas pu être lus. Rail et industrie pour Barnaoul non confirmés par l'outil. Aucune capture fournie."
+  },
+  {
+   "id": "src-maxam-chirchiq-histoire",
+   "statut": "non_verifiee",
+   "citation": "",
+   "commentaire": "WebFetch renvoie de nouveau une erreur 404 ; la chronologie « История развития » (octobre 1940, 25 janvier 1941, 1942, 1944) n'a pas pu être lue. L'industrie chimique à Tchirtchik n'est donc pas confirmée par l'outil. Aucune capture fournie."
+  }
+ ],
+ "relations": [
+  {
+   "entite_id": "ville-kg-bichkek",
+   "source_id": "src-sssr-admin1941-kirghizistan",
+   "roles_confirmes": [
+    "capitale",
+    "administration",
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": "296; 301",
+   "citation": "р. 296 : «СТОЛИЦА — г. ФРУНЗЕ» ; р. 301 : «Фрунзенская область — ЦЕНТР — г. ФРУНЗЕ» ; «1 Фрунзе | Фрунзе Турк-Сиб — | Городские районы: 1. Первомайский 2. Пролетарский 3. Свердловский»",
+   "commentaire": "Frounzé est donnée comme capitale de la RSS (p. 296), centre de la Frounzenskaïa oblast (p. 301) et ville de subordination oblastnaïa avec gare Фрунзе (Турк-Сиб) à distance « — » (0 km)."
+  },
+  {
+   "entite_id": "ville-kg-djalal-abad",
+   "source_id": "src-sssr-admin1941-kirghizistan",
+   "roles_confirmes": [
+    "administration",
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": "296; 297",
+   "citation": "р. 296 : «Джалал-Абадская область — ЦЕНТР — г. ДЖАЛАЛ-АБАД» ; р. 297 : «1 Джалал-Абад г | Джалал-Абад Ташк —»",
+   "commentaire": "Centre d'oblast (p. 296) et gare homonyme Джалал-Абад (Ташк.) à distance « — » (p. 297)."
+  },
+  {
+   "entite_id": "ville-kg-karakol",
+   "source_id": "src-sssr-admin1941-kirghizistan",
+   "roles_confirmes": [
+    "administration"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": 298,
+   "citation": "«Иссык-Кульская область — ЦЕНТР — г. ПРЖЕВАЛЬСК» ; «1 Пржевальск | Кант Турк-Сиб 381»",
+   "commentaire": "Prjevalsk est centre de l'Issyk-Koulskaïa oblast ; la gare la plus proche est Кант à 381 km (aucun rail local, mais ce rôle n'était pas demandé)."
+  },
+  {
+   "entite_id": "ville-kg-och",
+   "source_id": "src-sssr-admin1941-kirghizistan",
+   "roles_confirmes": [
+    "administration",
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": 299,
+   "citation": "«Ошская область — ЦЕНТР — г. ОШ» ; «1 Ош | Ош Ташк —»",
+   "commentaire": "Och est centre d'oblast et ville oblastnaïa avec gare homonyme Ош (Ташк.) à distance « — »."
+  },
+  {
+   "entite_id": "ville-kg-naryn",
+   "source_id": "src-sssr-admin1941-kirghizistan",
+   "roles_confirmes": [
+    "administration"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": 300,
+   "citation": "«Тянь-Шаньская область — ЦЕНТР — г. НАРЫН» ; «1 Нарын | Кант Турк-Сиб 345» ; район : «Нарынский | г Нарын Кант „ 345 — 9,5 13»",
+   "commentaire": "Naryn est centre de la Tian-Chanskaïa oblast et du raïon de Naryn (gare Кант à 345 km, non demandée)."
+  },
+  {
+   "entite_id": "ville-kg-kok-yangak",
+   "source_id": "src-sssr-admin1941-kirghizistan",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": 297,
+   "citation": "«2 Кок-Янгак рп | Кок-Янгак „ —» (Ташк.)",
+   "commentaire": "Kok-Yangak, посёлок областного подчинения, a une gare homonyme Кок-Янгак (Ташк.) à distance « — »."
+  },
+  {
+   "entite_id": "ville-kg-tach-koumyr",
+   "source_id": "src-sssr-admin1941-kirghizistan",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": 297,
+   "citation": "«1 Ташкумыр рп | рц | Ташкумырский | Ташкумыр Ташк —» ; район : «7 Ташкумырский | рп Ташкумыр Ташк — 170»",
+   "commentaire": "Tach-Koumyr (рп, centre de raïon) a une gare homonyme Ташкумыр (Ташк.) à distance « — »."
+  },
+  {
+   "entite_id": "ville-kg-soulioukta",
+   "source_id": "src-sssr-admin1941-kirghizistan",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": 299,
+   "citation": "«3 Сулюкта „ | Сулюкта „ —» (ville d'oblast, gare Сулюкта, Ташк., distance —)",
+   "commentaire": "Soulioukta (orthographe Сулюкта) figure parmi les villes de subordination oblastnaïa avec gare homonyme à distance « — »."
+  },
+  {
+   "entite_id": "ville-kg-kara-sou",
+   "source_id": "src-sssr-admin1941-kirghizistan",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": 299,
+   "citation": "«1 Карасу рп | рц | Карасуйский | Карасу Ташк —» ; район : «5 Карасуйский | рп Карасу Ташк — 24»",
+   "commentaire": "Kara-Sou (Карасу, рп, centre de raïon) a une gare homonyme à distance « — »."
+  },
+  {
+   "entite_id": "ville-kg-kant",
+   "source_id": "src-sssr-admin1941-kirghizistan",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": 301,
+   "citation": "«2 Кант рп | рц | Кантский | Кант „ —» ; район : «4 Кантский | рп Кант „ — 20»",
+   "commentaire": "Kant (рп, centre du Kantski raïon) a une gare homonyme Кант (Турк-Сиб) à distance « — »."
+  },
+  {
+   "entite_id": "ville-kg-kara-balta",
+   "source_id": "src-sssr-admin1941-kirghizistan",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": 301,
+   "citation": "«3 Карабалты рп | — | Калининский | Карабалты „ —»",
+   "commentaire": "Kara-Balta est écrit Карабалты dans le répertoire, посёлок du raïon Kalininski avec gare homonyme à distance « — »."
+  },
+  {
+   "entite_id": "ville-kg-balykchy",
+   "source_id": "src-sssr-admin1941-kirghizistan",
+   "roles_confirmes": [
+    "présence",
+    "identité",
+    "limites documentaires"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": 298,
+   "citation": "«1 Рыбачье рп | рц | Балыкчинский | Кант Турк-Сиб 165» ; район : «1 Балыкчинский | рп Рыбачье Кант Турк-Сиб 165 — 3,5 4 — 1»",
+   "commentaire": "Rybatchie (Рыбачье) figure comme рп et centre du Balykchinski raïon, avec pour gare la plus proche Кант à 165 km (pas de gare locale, aucune donnée de population dans cette page)."
+  },
+  {
+   "entite_id": "ville-kg-tokmak",
+   "source_id": "src-sssr-admin1941-kirghizistan",
+   "roles_confirmes": [
+    "présence",
+    "identité",
+    "limites documentaires"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": 301,
+   "citation": "«2 Токмак | Кант „ 40» (villes d'oblast) ; район : «11 Чуйский | г Токмак Кант Турк-Сиб 40 — 60 2,5 20»",
+   "commentaire": "Tokmak est ville de subordination oblastnaïa de la Frounzenskaïa oblast et centre du Tchouïski raïon, gare la plus proche Кант à 40 km (pas de gare locale)."
+  },
+  {
+   "entite_id": "ville-tj-douchanbe",
+   "source_id": "src-sssr-admin1941-tadjikistan",
+   "roles_confirmes": [
+    "capitale",
+    "administration",
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": "268; 272; 273",
+   "citation": "р. 268 : «СТОЛИЦА — г. СТАЛИНАБАД» ; р. 272 : «Сталинабадская область — ЦЕНТР — г. СТАЛИНАБАД» ; р. 273 : «1 Сталинабад | Сталинабад Ашх — / Городские районы: 1. Дюшамбинский 2. Железнодорожный 3. Центральный»",
+   "commentaire": "Stalinabad est capitale de la RSS (p. 268), centre de l'oblast (p. 272) et a une gare homonyme Сталинабад (Ашх.) à distance « — » (p. 273)."
+  },
+  {
+   "entite_id": "ville-tj-gharm",
+   "source_id": "src-sssr-admin1941-tadjikistan",
+   "roles_confirmes": [
+    "administration"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": 268,
+   "citation": "«Гармская область — ЦЕНТР — пгт ГАРМ» ; «1 Гарм пгт | обл ц рц | Гармский | Янги-Базар Ашх 172»",
+   "commentaire": "Garm (пгт) est centre d'oblast et de raïon (mention « обл ц рц »), gare la plus proche Янги-Базар à 172 km."
+  },
+  {
+   "entite_id": "ville-tj-kouliab",
+   "source_id": "src-sssr-admin1941-tadjikistan",
+   "roles_confirmes": [
+    "administration"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": 269,
+   "citation": "«Кулябская область — ЦЕНТР — г. КУЛЯБ» ; «1 Куляб | Янги-Базар Ашх 184» ; район : «6 Кулябский | г Куляб Янги-Базар „ 184 205 0,3 6»",
+   "commentaire": "Kouliab est centre de la Koulabskaïa oblast et du raïon de Kouliab (gare Янги-Базар à 184 km)."
+  },
+  {
+   "entite_id": "ville-tj-khodjent",
+   "source_id": "src-sssr-admin1941-tadjikistan",
+   "roles_confirmes": [
+    "administration"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": 270,
+   "citation": "«Ленинабадская область — ЦЕНТР — г. ЛЕНИНАБАД» ; «1 Ленинабад | Ленинабад Ташк 12» ; район : «6 Ленинабадский | г Ленинабад „ 12 1248»",
+   "commentaire": "Leninabad est centre de la Leninabadskaïa oblast et du raïon homonyme (gare Ленинабад à 12 km)."
+  },
+  {
+   "entite_id": "ville-tj-chourab",
+   "source_id": "src-sssr-admin1941-tadjikistan",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": 271,
+   "citation": "«10 Шураб рп | — | Исфаринский | Шураб „ —»",
+   "commentaire": "Chourab (рп du raïon d'Isfara) a une gare homonyme Шураб à distance « — »."
+  },
+  {
+   "entite_id": "ville-tj-tursunzoda",
+   "source_id": "src-sssr-admin1941-tadjikistan",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": "272; 273",
+   "citation": "р. 273 : «10 Регар рп | рц | Регарский | Регар „ —» ; р. 272 : «18 Регарский | рп Регар „ — 52»",
+   "commentaire": "Regar (рп, centre du Regarski raïon) a une gare homonyme Регар à distance « — »."
+  },
+  {
+   "entite_id": "ville-tj-vahdat",
+   "source_id": "src-sssr-admin1941-tadjikistan",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": "272; 273",
+   "citation": "р. 273 : «9 Орджоникидзеабад рп | рц | Орджоникидзеабадский | Янги-Базар „ —» ; р. 272 : «15 Орджоникидзеабадский | рп Орджоникидзеабад Янги-Базар „ — 21»",
+   "commentaire": "La gare desservant Ordjonikidzeabad est Янги-Базар (nom non homonyme) à distance « — », soit 0 km, ce qui satisfait le critère."
+  },
+  {
+   "entite_id": "ville-tj-khorog",
+   "source_id": "src-sssr-admin1941-tadjikistan",
+   "roles_confirmes": [
+    "administration"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": 274,
+   "citation": "«ГОРНО-БАДАХШАНСКАЯ АВТОНОМНАЯ ОБЛАСТЬ — ЦЕНТР — г. ХОРОГ» ; «1 Хорог | Ош Ташк 735 или Янги-Базар Ашх 528»",
+   "commentaire": "Khorog est centre de l'oblast autonome du Gorno-Badakhchan, gares les plus proches Ош (735 km) ou Янги-Базар (528 km)."
+  },
+  {
+   "entite_id": "ville-tm-achgabat",
+   "source_id": "src-sssr-admin1941-turkmenistan",
+   "roles_confirmes": [
+    "capitale",
+    "administration",
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": "249; 250",
+   "citation": "р. 249 : «СТОЛИЦА — г. АШХАБАД» ; «Ашхабадская область — ЦЕНТР — г. АШХАБАД» ; р. 250 : «1 Ашхабад г | Ашхабад Ашх — / Городские районы: 1. Андреевский 2. Ленинский 3. Сталинский»",
+   "commentaire": "Achkhabad est capitale de la RSS, centre de l'oblast et ville oblastnaïa avec gare homonyme Ашхабад (Ашх.) à distance « — »."
+  },
+  {
+   "entite_id": "ville-tm-serdar",
+   "source_id": "src-sssr-admin1941-turkmenistan",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": 250,
+   "citation": "«3 Кизыл-Арват г | Кизыл-Арват „ —»",
+   "commentaire": "Kizyl-Arvat, ville d'oblast, a une gare homonyme Кизыл-Арват à distance « — »."
+  },
+  {
+   "entite_id": "ville-tm-tedjen",
+   "source_id": "src-sssr-admin1941-turkmenistan",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": 250,
+   "citation": "«9 Теджен г | рц | Теджененский | Теджен „ —»",
+   "commentaire": "Tedjen (г, centre de raïon) a une gare homonyme Теджен à distance « — »."
+  },
+  {
+   "entite_id": "ville-tm-turkmenbasy",
+   "source_id": "src-sssr-admin1941-turkmenistan",
+   "roles_confirmes": [
+    "administration",
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": 251,
+   "citation": "«Красноводская область — ЦЕНТР — г. КРАСНОВОДСК» ; «1 Красноводск | Красноводск Ашх —»",
+   "commentaire": "Krasnovodsk est centre d'oblast et du raïon homonyme, avec gare homonyme à distance « — »."
+  },
+  {
+   "entite_id": "ville-tm-bereket",
+   "source_id": "src-sssr-admin1941-turkmenistan",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": 252,
+   "citation": "«5 Казанджик г | рц | Казанджикский | Казанджик „ —» ; район : «2 Казанджикский | г Казанджик „ — 262»",
+   "commentaire": "Kazandjik (г, centre de raïon) a une gare homonyme Казанджик à distance « — »."
+  },
+  {
+   "entite_id": "ville-tm-mary",
+   "source_id": "src-sssr-admin1941-turkmenistan",
+   "roles_confirmes": [
+    "administration",
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": "253; 254",
+   "citation": "р. 253 : «Марыйская область — ЦЕНТР — г. МАРЫ» ; р. 254 : «1 Мары | Мары Ашх —»",
+   "commentaire": "Mary est centre d'oblast et du raïon de Mary, avec gare homonyme Мары à distance « — »."
+  },
+  {
+   "entite_id": "ville-tm-bayramaly",
+   "source_id": "src-sssr-admin1941-turkmenistan",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": 254,
+   "citation": "«2 Байрам-Али | Байрам-Али „ —» ; р. 253 : «1 Байрам-Алийский | г Байрам-Али Ашх — 28»",
+   "commentaire": "Baïram-Ali, ville d'oblast et centre de raïon, a une gare homonyme à distance « — »."
+  },
+  {
+   "entite_id": "ville-tm-serhetabat",
+   "source_id": "src-sssr-admin1941-turkmenistan",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": 254,
+   "citation": "«2 Кушка пгт | — | Тахта-Базарский | Кушка „ —»",
+   "commentaire": "Kouchka (пгт du raïon de Takhta-Bazar) a une gare homonyme Кушка à distance « — »."
+  },
+  {
+   "entite_id": "ville-tm-dashoguz",
+   "source_id": "src-sssr-admin1941-turkmenistan",
+   "roles_confirmes": [
+    "administration"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": 255,
+   "citation": "«Ташаузская область — ЦЕНТР — г. ТАШАУЗ» ; «1 Ташауз | Чарджоу Ашх 520» ; район : «8 Ташаузский | г Ташауз Чарджоу „ — 0,6»",
+   "commentaire": "Tachaouz est centre de l'oblast et du raïon homonyme (gare Чарджоу à 520 km, non demandée)."
+  },
+  {
+   "entite_id": "ville-tm-turkmenabat",
+   "source_id": "src-sssr-admin1941-turkmenistan",
+   "roles_confirmes": [
+    "administration",
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": 256,
+   "citation": "«Чарджоуская область — ЦЕНТР — г. ЧАРДЖОУ» ; «1 Чарджоу | Чарджоу Ашх —»",
+   "commentaire": "Tchardjou est centre d'oblast et du raïon homonyme, avec gare homonyme à distance « — »."
+  },
+  {
+   "entite_id": "ville-tm-kerki",
+   "source_id": "src-sssr-admin1941-turkmenistan",
+   "roles_confirmes": [
+    "présence",
+    "identité",
+    "limites documentaires"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": 256,
+   "citation": "«2 Керки | Керкичи 2» (villes d'oblast) ; район : «6 Керкинский | г Керки Керкичи „ 2 225 3,5 6 — 1»",
+   "commentaire": "Kerki est ville de subordination oblastnaïa et centre du Kerkinski raïon, avec pour gare Керкичи à 2 km (pas de gare homonyme, aucune donnée de population ici)."
+  },
+  {
+   "entite_id": "ville-tm-farap",
+   "source_id": "src-sssr-admin1941-turkmenistan",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": 256,
+   "citation": "«8 Фараб пгт | рц | Фарабский | Фараб „ —» ; район : «11 Фарабский | пгт Фараб „ — 8»",
+   "commentaire": "Farab (пгт, centre de raïon) a une gare homonyme Фараб à distance « — »."
+  },
+  {
+   "entite_id": "ville-ru-kemerovo",
+   "source_id": "src-neb-admin1944-supplement",
+   "roles_confirmes": [
+    "administration",
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": 17,
+   "citation": "ЦЕНТР—г. КЕМЕРОВО ; 6 Кемеровский | г. Кемерово, Том. — ",
+   "commentaire": "Kemerovo est le centre de l'oblast (créé le 26 janvier 1943) et sa gare homonyme est à 0 km (voir aussi p.18 : « Кемерово Том. — »)."
+  },
+  {
+   "entite_id": "ville-ru-anjero-soudjensk",
+   "source_id": "src-neb-admin1944-supplement",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": 17,
+   "citation": "1 Анжеро-Судженский | г. Анжеро-Судженск, Анжерская, Том. —",
+   "commentaire": "La gare la plus proche, Anjerskaïa, est à 0 km (confirmé p.18 : « Анжерская » — ) ; gare non homonyme mais à 0 km."
+  },
+  {
+   "entite_id": "ville-ru-belovo",
+   "source_id": "src-neb-admin1944-supplement",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": 17,
+   "citation": "3 Беловский | г. Белово, Том. —",
+   "commentaire": "Gare homonyme à 0 km (Том. —), confirmée aussi p.18 (« Белово » — )."
+  },
+  {
+   "entite_id": "ville-ru-gourievsk",
+   "source_id": "src-neb-admin1944-supplement",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": 17,
+   "citation": "4 Гурьевский | г. Гурьевск, Том. —",
+   "commentaire": "Gare homonyme à 0 km (aussi p.18 : « Гурьевск Том. — »)."
+  },
+  {
+   "entite_id": "ville-ru-kisselevsk",
+   "source_id": "src-neb-admin1944-supplement",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": 17,
+   "citation": "7 Киселевский | г. Киселевск, Акчурла, Том. —",
+   "commentaire": "La gare la plus proche, Aktchourla, est à 0 km (p.18 : « Акчурла » — ) ; gare non homonyme mais à 0 km."
+  },
+  {
+   "entite_id": "ville-ru-novokouznetsk",
+   "source_id": "src-neb-admin1944-supplement",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": 17,
+   "citation": "10 Кузнецкий | г. Сталинск, Новокузнецк, Том. —",
+   "commentaire": "Stalinsk (futur Novokouznetsk) a la gare Novokouznetsk à 0 km, l'ancien nom de la ville étant celui de la gare."
+  },
+  {
+   "entite_id": "ville-ru-leninsk-kouznetski",
+   "source_id": "src-neb-admin1944-supplement",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": 17,
+   "citation": "11 Ленинск-Кузнецкий | г. Ленинск-Кузнецкий, Кольчугино, Том. —",
+   "commentaire": "La gare Koltchougino est à 0 km (p.18 : « Кольчугино » — ) ; gare non homonyme mais à 0 km."
+  },
+  {
+   "entite_id": "ville-ru-mariinsk",
+   "source_id": "src-neb-admin1944-supplement",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": 17,
+   "citation": "12 Мариинский | г. Мариинск, Красн. —",
+   "commentaire": "Gare homonyme sur le réseau Krasnoïarsk à 0 km (p.18 : « Мариинск Красн. — »)."
+  },
+  {
+   "entite_id": "ville-ru-prokopievsk",
+   "source_id": "src-neb-admin1944-supplement",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": 17,
+   "citation": "14 Прокопьевский | г. Прокопьевск, Усяты, Том. —",
+   "commentaire": "La gare Ousiaty est à 0 km (p.18 : « Усяты » — ) ; gare non homonyme mais à 0 km."
+  },
+  {
+   "entite_id": "ville-ru-iourga",
+   "source_id": "src-neb-admin1944-supplement",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": 17,
+   "citation": "21 Юргинский | рп. Юрга, Юрга, Том. —",
+   "commentaire": "Gare homonyme Iourga à 0 km (p.18 : « Юрга » — )."
+  },
+  {
+   "entite_id": "ville-ru-topki",
+   "source_id": "src-neb-admin1944-supplement",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": 17,
+   "citation": "18 Топкинский | г. Топки, Том. —",
+   "commentaire": "Gare homonyme à 0 km (p.18 : « Топки » — )."
+  },
+  {
+   "entite_id": "ville-ru-kourgan",
+   "source_id": "src-neb-admin1944-supplement",
+   "roles_confirmes": [
+    "administration",
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": 21,
+   "citation": "ЦЕНТР — г. КУРГАН ; 14 Курганский | г. Курган, Курган, Ю.-Ур. —",
+   "commentaire": "Kourgan est le centre de l'oblast créé le 6 février 1943 et sa gare homonyme est à 0 km (réseau Ioujno-Ouralskaïa)."
+  },
+  {
+   "entite_id": "ville-ru-tomsk",
+   "source_id": "src-neb-admin1944-supplement",
+   "roles_confirmes": [
+    "administration",
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": 27,
+   "citation": "ЦЕНТР — г. ТОМСК ; 17 Томский | г. Томск, Том. —",
+   "commentaire": "Tomsk est le centre de l'oblast formé le 13 août 1944, avec gare homonyme à 0 km."
+  },
+  {
+   "entite_id": "ville-ru-asino",
+   "source_id": "src-neb-admin1944-supplement",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": 27,
+   "citation": "2 Асиновский | с. Асино Том. —",
+   "commentaire": "Le centre du raïon Asino (alors qualifié de « с. ») a une gare homonyme à 0 km (Том. —), mais le statut de ville n'apparaît pas sur cette page."
+  },
+  {
+   "entite_id": "ville-ru-tioumen",
+   "source_id": "src-neb-admin1944-supplement",
+   "roles_confirmes": [
+    "administration",
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": 29,
+   "citation": "ЦЕНТР — г. ТЮМЕНЬ ; 20 Тюменский | г. Тюмень, Свердл. —",
+   "commentaire": "Tioumen est le centre de l'oblast formée le 14 août 1944, avec gare homonyme à 0 km (réseau Sverdlovsk)."
+  },
+  {
+   "entite_id": "ville-ru-ichim",
+   "source_id": "src-neb-admin1944-supplement",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": 29,
+   "citation": "12 Ишимский | г. Ишим, Ом. —",
+   "commentaire": "Gare homonyme d'Ichim à 0 km (réseau Omsk)."
+  },
+  {
+   "entite_id": "ville-ru-ialoutorovsk",
+   "source_id": "src-neb-admin1944-supplement",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": 29,
+   "citation": "24 Ялуторовский | г. Ялуторовск, Свердл. —",
+   "commentaire": "Gare homonyme à 0 km (réseau Sverdlovsk)."
+  },
+  {
+   "entite_id": "ville-ru-tobolsk",
+   "source_id": "src-neb-admin1944-supplement",
+   "roles_confirmes": [
+    "présence",
+    "identité",
+    "limites documentaires"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": 29,
+   "citation": "19 Тобольский | г. Тобольск, Тюмень, Свердл. 275",
+   "commentaire": "Tobolsk figure comme « г. » centre du raïon Tobolski dans l'oblast de Tioumen, gare la plus proche Tioumen à 275 km (donc pas de gare propre) ; l'okrug de Tobolsk est signalé liquidé, et la page ne dit pas si c'est une ville de subordination oblastnaïa (liste des villes sur la page suivante, non fournie)."
+  },
+  {
+   "entite_id": "ville-ru-khanty-mansiisk",
+   "source_id": "src-neb-admin1944-supplement",
+   "roles_confirmes": [
+    "administration"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": 31,
+   "citation": "ЦЕНТР — рп ХАНТЫ-МАНСИЙСК ; Ханты-Мансийск рп | Тюмень Свердл. 777",
+   "commentaire": "Khanty-Mansiïsk est le centre de l'okroug national (créé le 10 décembre 1930), qualifié de « рп » (agglomération ouvrière) et non de ville."
+  },
+  {
+   "entite_id": "ville-tm-kerki",
+   "source_id": "src-neb-admin1944-supplement",
+   "roles_confirmes": [
+    "administration"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": 43,
+   "citation": "Керкинская область*) ЦЕНТР — г. КЕРКИ ; Дата образования области — 29 декабря 1943 г.",
+   "commentaire": "Kerki est le centre de l'oblast de Kerki créée le 29 décembre 1943, aussi centre du raïon de Kerki (gare Kerkitchi à 2 km)."
+  },
+  {
+   "entite_id": "ville-ru-tayga",
+   "source_id": "src-neb-admin1944-supplement",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": 18,
+   "citation": "9 Тайга | Тайга » —",
+   "commentaire": "Taïga, ville de subordination oblastnaïa, a une gare homonyme à 0 km (« » » = réseau Том.)."
+  },
+  {
+   "entite_id": "ville-ru-chadrinsk",
+   "source_id": "src-neb-admin1944-supplement",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": 22,
+   "citation": "2 Шадринск | Шадринск Ю.-Ур. —",
+   "commentaire": "Gare homonyme à 0 km (réseau Ioujno-Ouralskaïa) ; ville de subordination oblastnaïa."
+  },
+  {
+   "entite_id": "ville-ru-petoukhovo",
+   "source_id": "src-neb-admin1944-supplement",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": 22,
+   "citation": "2 Петухово рц | Петуховский | Петухово Ом. —",
+   "commentaire": "Gare homonyme à 0 km (réseau Omsk), ville de subordination de raïon et rc."
+  },
+  {
+   "entite_id": "ville-ru-choumikha",
+   "source_id": "src-neb-admin1944-supplement",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": 22,
+   "citation": "3 Шумиха рц | Шумихинский | Шумиха Ю.-Ур. —",
+   "commentaire": "Gare homonyme à 0 km (réseau Ioujno-Ouralskaïa), ville de subordination de raïon et rc."
+  },
+  {
+   "entite_id": "ville-ru-salekhard",
+   "source_id": "src-neb-admin1944-supplement",
+   "roles_confirmes": [
+    "administration"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": 32,
+   "citation": "ЦЕНТР — г. САЛЕХАРД ; 1 Салехард | Тюмень Свердл. 1850",
+   "commentaire": "Salekhard est le centre de l'okroug national de Iamalo-Nenets (créé le 10 décembre 1930), ville de subordination d'okroug."
+  },
+  {
+   "entite_id": "ville-uz-karchi",
+   "source_id": "src-neb-admin1944-supplement",
+   "roles_confirmes": [
+    "administration"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": 45,
+   "citation": "Кашка-Дарьинская область*) ЦЕНТР — г. КАРШИ ; Дата образования области — 20 января 1943 г.",
+   "commentaire": "Karchi est le centre de l'oblast de Kachka-Daria créée le 20 janvier 1943 (gare Karchi à 7 km)."
+  },
+  {
+   "entite_id": "ville-uz-termez",
+   "source_id": "src-neb-admin1944-supplement",
+   "roles_confirmes": [
+    "administration"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": 47,
+   "citation": "Сурхан-Дарьинская область*) ЦЕНТР — г. ТЕРМЕЗ ; Дата образования области — 6 марта 1941 г.",
+   "commentaire": "Termez est le centre de l'oblast de Sourkhan-Daria créée le 6 mars 1941 (gare Termez à 5 km)."
+  },
+  {
+   "entite_id": "ville-uz-termez",
+   "source_id": "src-shpl-admin1940",
+   "roles_confirmes": [
+    "administration"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": 261,
+   "citation": "СУРХАН-ДАРЬИНСКИЙ ОКРУГ ЦЕНТР—г. ТЕРМЕЗ",
+   "commentaire": "En 1940 Termez est le centre de l'okroug de Sourkhan-Daria (créé le 28 février 1935), ville de subordination d'okroug."
+  },
+  {
+   "entite_id": "ville-kz-kokchetau",
+   "source_id": "src-neb-admin1944-supplement",
+   "roles_confirmes": [
+    "administration"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": 49,
+   "citation": "Кокчетавская область*) ЦЕНТР — г. КОКЧЕТАВ ; Дата образования области — 16 марта 1944 г.",
+   "commentaire": "Kokchetav est le centre de l'oblast créée le 16 mars 1944 (gare Kokchetav à 3 km)."
+  },
+  {
+   "entite_id": "ville-kz-taldykorgan",
+   "source_id": "src-neb-admin1944-supplement",
+   "roles_confirmes": [
+    "administration"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": 51,
+   "citation": "Талды-Курганская область*) ЦЕНТР — г. ТАЛДЫ-КУРГАН ; Дата образования области — 16 марта 1944 г.",
+   "commentaire": "Taldy-Kourgan est le centre de l'oblast créée le 16 mars 1944 (gare Ouch-Tobe à 54 km)."
+  },
+  {
+   "entite_id": "ville-kz-ouchtiobe",
+   "source_id": "src-neb-admin1944-supplement",
+   "roles_confirmes": [
+    "rail"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": 51,
+   "citation": "7 Каратальский | рп. Уш-Тобе, Турк.-Сиб. —",
+   "commentaire": "Le centre du raïon de Karatal, Ouch-Tobe (« рп. »), est donné avec sa propre gare Ouch-Tobe à 0 km sur le Turksib (utilisée comme gare de référence pour Taldy-Kourgan)."
+  },
+  {
+   "entite_id": "ville-kg-talas",
+   "source_id": "src-neb-admin1944-supplement",
+   "roles_confirmes": [
+    "administration"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": 53,
+   "citation": "Таласская область*) ЦЕНТР — г. ТАЛАСС ; Дата образования области — 22 июня 1944 г.",
+   "commentaire": "Talas est le centre de l'oblast de Talas créée le 22 juin 1944 (gare Djambol à 103 km)."
+  },
+  {
+   "entite_id": "ville-uz-tachkent",
+   "source_id": "src-shpl-admin1940",
+   "roles_confirmes": [
+    "capitale"
+   ],
+   "roles_non_trouves": [
+    "administration"
+   ],
+   "page_imprimee": 259,
+   "citation": "УЗБЕКСКАЯ ССР ... СТОЛИЦА—г. ТАШКЕНТ",
+   "commentaire": "La capitale de la RSS d'Ouzbékistan est confirmée p.259, mais le rôle de centre d'oblast (p.264) n'est pas visible sur l'image fournie (seule la p.259 l'est)."
+  },
+  {
+   "entite_id": "ville-uz-boukhara",
+   "source_id": "src-shpl-admin1940",
+   "roles_confirmes": [
+    "administration"
+   ],
+   "roles_non_trouves": [],
+   "page_imprimee": 259,
+   "citation": "Бухарская область ЦЕНТР — г. БУХАРА ; Дата образования области — 15 января 1938 года",
+   "commentaire": "Boukhara est le centre de l'oblast de Boukhara (créée le 15 janvier 1938), centre aussi du raïon de Boukhara (gare homonyme à 0 km)."
+  }
+ ]
+}

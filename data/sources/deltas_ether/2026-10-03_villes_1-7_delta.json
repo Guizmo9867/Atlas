@@ -1,0 +1,2577 @@
+{
+  "metadata_delta": {
+    "lot": "villes_1-7",
+    "cycle": 1,
+    "date": "2026-10-03",
+    "statut": "proposition_ether_cycle1",
+    "fusion": "Union des cibles/usages et des compléments ; conserver tous les champs inconnus et verification_claude/verification_humaine. Ne pas traiter les compléments du même jour comme des remplacements concurrents.",
+    "correspondances_ids": {
+      "src-17-tr-ankara-capitale1923": "src-17-tr-ankara-capitale1923",
+      "src-17-ge-batoumi-musee-port": "src-17-ge-batoumi-musee-port",
+      "src-17-tr-iskenderun-port1944": "src-17-tr-iskenderun-port1944",
+      "src-17-tr-atam-rail-as2021": "src-17-tr-atam-rail-as2021",
+      "src-17-ge-jrtr24-histoire2000": "src-17-ge-jrtr24-histoire2000",
+      "src-17-tr-mke-kirikkale1925": "src-17-tr-mke-kirikkale1925",
+      "src-17-tr-sumerbank-polatoglu2021": "src-17-tr-sumerbank-polatoglu2021",
+      "src-17-tr-mta-mines1944": "src-17-tr-mta-mines1944",
+      "src-rosmorport-taganrog-reparation-1943": "src-rosmorport-taganrog-reparation-1943",
+      "src-17-ru-dzaoudjikaou-decret1944": "src-17-ru-dzaoudjikaou-decret1944",
+      "src-neb-admin1944-supplement": "src-neb-admin1944-supplement",
+      "src-17-ru-makhatchkala-port-guerre": "src-17-ru-makhatchkala-port-guerre",
+      "src-17-am-rail-musee": "src-17-am-rail-musee",
+      "src-17-tr-sehirhatlari-histoire": "src-17-tr-sehirhatlari-histoire",
+      "src-17-tr-tbb-population1940": "src-17-tr-tbb-population1940",
+      "src-shpl-admin1940": "src-shpl-admin1940",
+      "src-17-tr-atam-ports2019": "src-17-tr-atam-ports2019",
+      "src-17-tr-derince-histoire": "src-17-tr-derince-histoire",
+      "src-17-ge-gm-manganese": "src-17-ge-gm-manganese",
+      "src-17-ge-zaria19401222": "src-17-ge-zaria19401222",
+      "src-17-ru-rail-reprise1943": "src-jdv-tome3-bielorussie-1944",
+      "src-17-ru-kropotkine-ville": "src-17-ru-kropotkine-ville",
+      "src-17-ru-grozny-petrole2019": "src-17-ru-grozny-petrole2019",
+      "src-17-ru-sotchi-hopitaux": "src-17-ru-sotchi-hopitaux",
+      "src-17-az-socar-histoire": "src-17-az-socar-histoire",
+      "src-17-am-zaria19381201": "src-17-am-zaria19381201",
+      "src-17-rsfsr-admin1940-ocr": "src-17-rsfsr-admin1940-ocr",
+      "src-17-ru-dvigatelstroi-histoire": "src-17-ru-dvigatelstroi-histoire",
+      "src-17-ru-izberbach-petrole": "src-17-ru-izberbach-petrole",
+      "src-17-tr-golcuk-histoire": "src-17-tr-golcuk-histoire",
+      "src-17-tr-uzunkopru-histoire": "src-17-tr-uzunkopru-histoire",
+      "src-17-tr-rail-tamcelik": "src-17-tr-rail-tamcelik",
+      "src-17-tr-kars-rail": "src-17-tr-kars-rail",
+      "src-17-tr-vangolu-cumhuriyet1936": "src-17-tr-vangolu-cumhuriyet1936",
+      "src-17-tr-gelibolu-administration": "src-17-tr-gelibolu-administration",
+      "src-17-tr-tdv-sanliurfa": "src-17-tr-tdv-sanliurfa",
+      "src-17-tr-tdv-antalya": "src-17-tr-tdv-antalya",
+      "src-17-tr-tdv-canakkale": "src-17-tr-tdv-canakkale",
+      "src-17-tr-tdv-rize": "src-17-tr-tdv-rize",
+      "src-17-tr-tdv-giresun": "src-17-tr-tdv-giresun",
+      "src-17-tr-raman-mapeg1991": "src-17-tr-raman-mapeg1991",
+      "src-17-tr-frus19411128-chrome": "src-17-tr-frus19411128-chrome",
+      "src-17-tr-admin-mardin": "src-17-tr-admin-mardin",
+      "src-17-tr-admin-antakya": "src-17-tr-admin-antakya",
+      "src-17-tr-admin-ordu": "src-17-tr-admin-ordu",
+      "src-17-ge-zaria19410212": "src-17-ge-zaria19410212",
+      "src-vayner-transport-guerre-ch4": "src-vayner-transport-guerre-ch4",
+      "src-17-ge-ivanov-transports1943": "src-17-ge-ivanov-transports1943",
+      "src-17-tr-maden-bakir-etude": "src-17-tr-maden-bakir-etude",
+      "src-17-tr-mersin-tarsus-histoire": "src-17-tr-mersin-tarsus-histoire",
+      "src-17-tr-kirklareli-gare": "src-17-tr-kirklareli-gare",
+      "src-17-tr-guleman-localisation": "src-17-tr-guleman-localisation",
+      "src-17-tr-erzincan-reconstruction": "src-17-tr-erzincan-reconstruction"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "src-17-tr-ankara-capitale1923",
+      "operation_registre": "ajouter",
+      "niveau": "B",
+      "type_source": "histoire_institutionnelle",
+      "titre": "Chronologie1923 : Ankara capitale",
+      "institution": "Ministère turc de la Culture et du Tourisme",
+      "url": "https://www.ktb.gov.tr/EN-103934/1923.html",
+      "date_consultation": "2026-10-03",
+      "cibles": [
+        "ville-tr-ankara"
+      ],
+      "usage": [
+        "ville-tr-ankara — capitale, administration : Décision faisant d’Ankara la capitale.",
+        "Les cibles différées restent des réserves ; seules les entités du JSON final sont proposées à l’import."
+      ],
+      "locator": "Entrée13 octobre1923",
+      "note": "Chronologie officielle rétrospective ; ne date pas chaque fonction administrative locale.",
+      "verification_ether": {
+        "date": "2026-10-03",
+        "statut": "passage_lu",
+        "limite": "Chronologie officielle rétrospective ; ne date pas chaque fonction administrative locale."
+      },
+      "usages_atlas": [
+        "administration",
+        "capitale"
+      ]
+    },
+    {
+      "source_id": "src-17-ge-batoumi-musee-port",
+      "operation_registre": "ajouter",
+      "niveau": "B",
+      "type_source": "histoire_institutionnelle",
+      "titre": "Port de Batoumi, histoire oubliée",
+      "institution": "Musées d’Adjarie",
+      "url": "https://ajaramuseums.ge/en/online/forgotten-storiesPort-of-Batumi",
+      "date_consultation": "2026-10-03",
+      "cibles": [
+        "ville-ge-batoumi",
+        "ville-ge-samtredia"
+      ],
+      "usage": [
+        "ville-ge-batoumi — rail, port_maritime : Liaison ferroviaire à Samtredia en 1883 ; port d’exportation pétrolière.",
+        "ville-ge-samtredia — rail : Extrémité nommée de la ligne ouverte en 1883.",
+        "Les cibles différées restent des réserves ; seules les entités du JSON final sont proposées à l’import."
+      ],
+      "locator": "Paragraphes ligneSamtredia–Batoumi1883 et transit pétrolier",
+      "note": "Rétrospective surtout1883–1907 ; données de trafic anciennes non projetées sur1945. Compléter la continuité durant la guerre.",
+      "verification_ether": {
+        "date": "2026-10-03",
+        "statut": "passage_lu",
+        "limite": "Rétrospective surtout1883–1907 ; données de trafic anciennes non projetées sur1945. Compléter la continuité durant la guerre."
+      },
+      "usages_atlas": [
+        "port_maritime",
+        "rail"
+      ]
+    },
+    {
+      "source_id": "src-17-tr-iskenderun-port1944",
+      "operation_registre": "ajouter",
+      "niveau": "B",
+      "type_source": "histoire_institutionnelle",
+      "titre": "Historique du port d’İskenderun",
+      "institution": "LimakPort İskenderun",
+      "url": "https://www.limakports.com.tr/tr/limakports/tarihce",
+      "date_consultation": "2026-10-03",
+      "cibles": [
+        "ville-tr-iskenderun"
+      ],
+      "usage": [
+        "ville-tr-iskenderun — port_maritime : Port existant depuis 1927 ; Limak date la construction du grand débarcadère 1944, sans établir sa mise en service avant Snapshot.",
+        "Les cibles différées restent des réserves ; seules les entités du JSON final sont proposées à l’import."
+      ],
+      "locator": "Paragraphes1927 puis transfert1942 et grand débarcadère1944",
+      "note": "Ne pas reprendre les capacités, mécanisations1953–1956 ou terminaux1972. Transfert à l’administration ferroviaire ne prouve pas une voie locale à lui seul.",
+      "verification_ether": {
+        "date": "2026-10-03",
+        "statut": "passage_lu",
+        "limite": "Ne pas reprendre les capacités, mécanisations1953–1956 ou terminaux1972. Transfert à l’administration ferroviaire ne prouve pas une voie locale à lui seul."
+      },
+      "usages_atlas": [
+        "port_maritime"
+      ]
+    },
+    {
+      "source_id": "src-17-tr-atam-rail-as2021",
+      "operation_registre": "ajouter",
+      "niveau": "B",
+      "type_source": "etude_historique",
+      "titre": "Développement des chemins de fer turcs sous Atatürk — Efdal As,24/06/2021",
+      "institution": "Atatürk Araştırma Merkezi",
+      "url": "https://ataturkansiklopedisi.gov.tr/detay/921/Atat%C3%BCrk-D%C3%B6neminde-T.C.-Devlet-Demiryollar%C4%B1n%C4%B1n-Geli%C5%9Fimi",
+      "date_consultation": "2026-10-03",
+      "cibles": [
+        "ville-tr-adana",
+        "ville-tr-adapazari",
+        "ville-tr-afyon",
+        "ville-tr-ankara",
+        "ville-tr-arifiye",
+        "ville-tr-askale",
+        "ville-tr-aydin",
+        "ville-tr-balikesir",
+        "ville-tr-bursa",
+        "ville-tr-cetinkaya",
+        "ville-tr-divrigi",
+        "ville-tr-diyarbakir",
+        "ville-tr-elazig",
+        "ville-tr-erzincan",
+        "ville-tr-erzurum",
+        "ville-tr-eskisehir",
+        "ville-tr-filyos",
+        "ville-tr-havza",
+        "ville-tr-irmak",
+        "ville-tr-isparta",
+        "ville-tr-istanbul",
+        "ville-tr-izmir",
+        "ville-tr-kayseri",
+        "ville-tr-konya",
+        "ville-tr-kutahya",
+        "ville-tr-malatya",
+        "ville-tr-manisa",
+        "ville-tr-mudanya",
+        "ville-tr-samsun",
+        "ville-tr-sarikamis",
+        "ville-tr-sivas",
+        "ville-tr-tavsanli",
+        "ville-tr-ulukisla",
+        "ville-tr-yolcati"
+      ],
+      "usage": [
+        "ville-tr-ankara — rail : Kayseri 1927 ; Sivas 1930",
+        "ville-tr-kayseri — rail : Kayseri 1927 ; Sivas 1930",
+        "ville-tr-sivas — rail : Kayseri 1927 ; Sivas 1930",
+        "ville-tr-malatya — rail : Malatya–mine Ergani–Diyarbakır, 1935",
+        "ville-tr-diyarbakir — rail : Malatya–mine Ergani–Diyarbakır, 1935",
+        "ville-tr-ulukisla — rail : Ouverture 1933",
+        "ville-tr-eskisehir — rail : Itinéraire antérieur par Eskişehir–Afyon–Konya vers Adana",
+        "ville-tr-konya — rail : Itinéraire antérieur par Eskişehir–Afyon–Konya vers Adana",
+        "ville-tr-adana — rail : Itinéraire antérieur à 1933",
+        "ville-tr-afyon — rail : Itinéraire antérieur à 1933",
+        "ville-tr-kutahya — rail : Kütahya–Tavşanlı1928 ; Balıkesir 1932",
+        "ville-tr-tavsanli — rail : Kütahya–Tavşanlı1928 ; Balıkesir 1932",
+        "ville-tr-balikesir — rail : Jonction 1931, exploitation 1932",
+        "ville-tr-manisa — rail : Ancien itinéraire Balıkesir–Manisa–Afyon–Eskişehir",
+        "ville-tr-erzincan — rail : Erzincan 1938 ; Aşkale et Erzurum 1939, via Divriği",
+        "ville-tr-askale — rail : Erzincan 1938 ; Aşkale et Erzurum 1939, via Divriği",
+        "ville-tr-erzurum — rail : Erzincan 1938 ; Aşkale et Erzurum 1939, via Divriği",
+        "ville-tr-divrigi — rail : Sur la ligne achevée 1939",
+        "ville-tr-sarikamis — rail : Erzurum–Sarıkamış, voie étroite",
+        "ville-tr-samsun — rail : Ligne achevée 1931, via Havza",
+        "ville-tr-havza — rail : Ligne achevée 1931, via Havza",
+        "ville-tr-cetinkaya — rail : Ouverture 1937",
+        "ville-tr-filyos — rail : Ouverture 1935",
+        "ville-tr-irmak — rail : Ouverture 1935",
+        "ville-tr-isparta — rail : Ouverture 1936",
+        "ville-tr-elazig — rail : Ouverture 1934",
+        "ville-tr-yolcati — rail : Ouverture 1934",
+        "ville-tr-istanbul — rail : Lignes rachetées 1924, dont Haydarpaşa–Ankara",
+        "ville-tr-arifiye — rail : Arifiye–Adapazarı, 1924",
+        "ville-tr-adapazari — rail : Arifiye–Adapazarı, 1924",
+        "ville-tr-mudanya — rail : Ouverture 1892, exploitation étatique 1930",
+        "ville-tr-bursa — rail : Ouverture 1892, exploitation étatique 1930",
+        "ville-tr-izmir — rail : Rachat 1935",
+        "ville-tr-aydin — rail : Rachat 1935",
+        "Les cibles différées restent des réserves ; seules les entités du JSON final sont proposées à l’import."
+      ],
+      "locator": "Sections Dönemin Açılan Hatları et Demir Yollarında Millîleştirmeler",
+      "note": "Texte lu dans le navigateur après chargement JavaScript. Dates locales ci-dessous ; rail n’implique ni nœud ni débit1945. Ereğli1937 à recouper : formulation pouvant amalgamer projet et section achevée. Aucun rail à Van/Tatvan déduit du projet1937.",
+      "verification_ether": {
+        "date": "2026-10-03",
+        "statut": "passage_lu",
+        "limite": "Texte lu dans le navigateur après chargement JavaScript. Dates locales ci-dessous ; rail n’implique ni nœud ni débit1945. Ereğli1937 à recouper : formulation pouvant amalgamer projet et section achevée. Aucun rail à Van/Tatvan déduit du projet1937."
+      },
+      "usages_atlas": [
+        "rail"
+      ]
+    },
+    {
+      "source_id": "src-17-ge-jrtr24-histoire2000",
+      "operation_registre": "ajouter",
+      "niveau": "B",
+      "type_source": "etude_institutionnelle",
+      "titre": "Developments at Georgian Railway — Gorshkov et Bagaturia, juillet2000",
+      "institution": "Japan Railway & Transport Review / responsables Georgian Railway",
+      "url": "https://www.ejrcf.or.jp/jrtr/jrtr24/pdf/f42_gor.pdf",
+      "date_consultation": "2026-10-03",
+      "cibles": [
+        "ville-az-bakou",
+        "ville-ge-bakouriani",
+        "ville-ge-batoumi",
+        "ville-ge-borjomi",
+        "ville-ge-poti",
+        "ville-ge-tbilissi"
+      ],
+      "usage": [
+        "ville-ge-batoumi — rail : Exportations pétrolières par rail et mer dès 1883.",
+        "ville-ge-poti — rail : Ligne Poti–Tbilissi ouverte 1872.",
+        "ville-ge-tbilissi — rail : Poti 1872 et Bakou 1883.",
+        "ville-ge-borjomi — rail : Branche 1894, prolongement Bakouriani 1901.",
+        "ville-ge-bakouriani — rail : Prolongement depuis Borjomi 1901.",
+        "ville-az-bakou — rail : Ligne vers Tbilissi ouverte 1883 pour transporter le pétrole.",
+        "Les cibles différées restent des réserves ; seules les entités du JSON final sont proposées à l’import."
+      ],
+      "locator": "p.42–43, History of Georgian Railway",
+      "note": "Historique institutionnel rétrospectif. Carte p.43 et chiffres contemporains exclus du Snapshot. Connexion russe datée1946 dans ce texte : à confronter aux ouvertures provisoires de guerre, sans conclure au transit complet1945.",
+      "verification_ether": {
+        "date": "2026-10-03",
+        "statut": "passage_lu",
+        "limite": "Historique institutionnel rétrospectif. Carte p.43 et chiffres contemporains exclus du Snapshot. Connexion russe datée1946 dans ce texte : à confronter aux ouvertures provisoires de guerre, sans conclure au transit complet1945."
+      },
+      "usages_atlas": [
+        "rail"
+      ]
+    },
+    {
+      "source_id": "src-17-tr-mke-kirikkale1925",
+      "operation_registre": "ajouter",
+      "niveau": "B",
+      "type_source": "histoire_institutionnelle",
+      "titre": "Historique des installations de soutien de Kırıkkale",
+      "institution": "MKE",
+      "url": "https://www.mke.gov.tr/Fabrikalar/DESTEK-TESISLERI-ISLETMELERI/11",
+      "date_consultation": "2026-10-03",
+      "cibles": [
+        "ville-tr-kirikkale"
+      ],
+      "usage": [
+        "ville-tr-kirikkale — industrie : Groupe d’usines militaires et production électrique avant 1930.",
+        "Les cibles différées restent des réserves ; seules les entités du JSON final sont proposées à l’import."
+      ],
+      "locator": "Deux premiers paragraphes :1925 et1928",
+      "note": "Rétrospective de l’entreprise : groupe d’usines militaires1925 et centrale1928. OrganisationMKE1950 non anticipée.",
+      "verification_ether": {
+        "date": "2026-10-03",
+        "statut": "passage_lu",
+        "limite": "Rétrospective de l’entreprise : groupe d’usines militaires1925 et centrale1928. OrganisationMKE1950 non anticipée."
+      },
+      "usages_atlas": [
+        "industrie"
+      ]
+    },
+    {
+      "source_id": "src-17-tr-sumerbank-polatoglu2021",
+      "operation_registre": "ajouter",
+      "niveau": "B",
+      "type_source": "etude_historique",
+      "titre": "Türkiye’nin kalkınmasında Sümerbank ve etkinliği (1933–1987), M.G.Polatoğlu,2021",
+      "institution": "Atatürk Araştırma Merkezi Dergisi,104",
+      "url": "https://www.atamdergi.gov.tr/tam-metin/776/tur",
+      "date_consultation": "2026-10-03",
+      "cibles": [
+        "ville-tr-ankara",
+        "ville-tr-bunyan",
+        "ville-tr-bursa",
+        "ville-tr-eregli-konya",
+        "ville-tr-gemlik",
+        "ville-tr-hereke",
+        "ville-tr-isparta",
+        "ville-tr-istanbul",
+        "ville-tr-izmir",
+        "ville-tr-izmit",
+        "ville-tr-karabuk",
+        "ville-tr-kayseri",
+        "ville-tr-kutahya",
+        "ville-tr-malatya",
+        "ville-tr-nazilli",
+        "ville-tr-sivas"
+      ],
+      "usage": [
+        "ville-tr-ankara — industrie : Ciment 1944.",
+        "ville-tr-kayseri — industrie : Textile 1935, activité 1944.",
+        "ville-tr-sivas — industrie : Cimenterie 1943, activité 1944.",
+        "ville-tr-malatya — industrie : Textile 1939.",
+        "ville-tr-kutahya — industrie : Céramique 1944.",
+        "ville-tr-isparta — industrie : Filature 1926, activité 1944.",
+        "ville-tr-istanbul — industrie : Textile, chaussures et ciment 1944 dans plusieurs quartiers.",
+        "ville-tr-bursa — industrie : Merinos 1938, activité 1944.",
+        "ville-tr-izmir — industrie : Textile à Halkapınar 1944.",
+        "ville-tr-eregli-konya — industrie : Textile 1937, activité 1944.",
+        "ville-tr-nazilli — industrie : Textile 1937, activité 1944.",
+        "ville-tr-gemlik — industrie : Soie artificielle 1938, activité 1944.",
+        "ville-tr-izmit — industrie : Papier 1936, cellulose et papier 1944.",
+        "ville-tr-karabuk — industrie : Sidérurgie 1939, activité 1944.",
+        "ville-tr-hereke — industrie : Textile 1944.",
+        "ville-tr-bunyan — industrie : Textile 1944.",
+        "Les cibles différées restent des réserves ; seules les entités du JSON final sont proposées à l’import."
+      ],
+      "locator": "SectionIII, productions1944,notes57 et93 ; paragraphes1943–1944",
+      "note": "Étude de recherche avec renvois à archives et publications d’époque ; citations primaires non toutes relues. Retenir seulement fonctions localisées antérieures au Snapshot ; quantités agrégées non attribuées aux villes.",
+      "verification_ether": {
+        "date": "2026-10-03",
+        "statut": "passage_lu",
+        "limite": "Étude de recherche avec renvois à archives et publications d’époque ; citations primaires non toutes relues. Retenir seulement fonctions localisées antérieures au Snapshot ; quantités agrégées non attribuées aux villes."
+      },
+      "usages_atlas": [
+        "industrie"
+      ]
+    },
+    {
+      "source_id": "src-17-tr-mta-mines1944",
+      "operation_registre": "ajouter",
+      "niveau": "A",
+      "type_source": "publication_officielle_contemporaine",
+      "titre": "Madenciliğimizin21 yıllık bilançosu ve1944 yılının ilk6 ayındaki durumu",
+      "institution": "Maden Tetkik ve Arama,1944",
+      "url": "https://dergi.mta.gov.tr/files/articles/1456/tr/20160226142544_1456_22704cdf.pdf",
+      "date_consultation": "2026-10-03",
+      "cibles": [
+        "ville-tr-eregli-mer-noire",
+        "ville-tr-karabuk",
+        "ville-tr-keciborlu",
+        "ville-tr-soma",
+        "ville-tr-tavsanli",
+        "ville-tr-zonguldak"
+      ],
+      "usage": [
+        "ville-tr-tavsanli — industrie : Lignite de Tavşanlı1944.",
+        "ville-tr-karabuk — industrie : Cokerie 1939 et production 1944.",
+        "ville-tr-zonguldak — port_maritime : Ports Ereğli–Zonguldak expédiant du charbon 1944.",
+        "ville-tr-eregli-mer-noire — port_maritime : Port nommé pour les expéditions de charbon 1944.",
+        "ville-tr-soma — industrie : Lignite de Soma dans l’exploitation occidentale 1944.",
+        "ville-tr-keciborlu — industrie : Soufre produit au premier semestre 1944.",
+        "Les cibles différées restent des réserves ; seules les entités du JSON final sont proposées à l’import."
+      ],
+      "locator": "p.157–170 : ports159,coke160,lignite162–163,cuivre167,soufre170",
+      "note": "Source d’époque, texte OCR consulté ; screenshots en échec cachemiss et téléchargement SSL échoué. Aucun chiffre de tableau retenu sans image. Bassin houiller ne suffit pas à attribuer chaque mine à la ville.",
+      "verification_ether": {
+        "date": "2026-10-03",
+        "statut": "ocr_lu_non_collationne_sur_image",
+        "limite": "Source d’époque, texte OCR consulté ; screenshots en échec cachemiss et téléchargement SSL échoué. Aucun chiffre de tableau retenu sans image. Bassin houiller ne suffit pas à attribuer chaque mine à la ville."
+      },
+      "usages_atlas": [
+        "industrie",
+        "port_maritime"
+      ]
+    },
+    {
+      "source_id": "src-rosmorport-taganrog-reparation-1943",
+      "niveau": "B",
+      "type_source": "etude_historique",
+      "titre": "Taganrog : reprise du port par la réparation navale après août 1943",
+      "institution": "Rosmorport, histoire des ports de la branche Azov–mer Noire",
+      "url": "https://www.rosmorport.ru/filials/nvr_seaports/",
+      "date_consultation": "2026-10-02",
+      "periode_couverte": [],
+      "zones": [],
+      "usages_atlas": [
+        "industrie",
+        "port_maritime",
+        "rail"
+      ],
+      "cibles": [
+        "ville-ru-taganrog",
+        "ville-ru-ieisk",
+        "ville-ru-novorossiisk",
+        "ville-ru-sotchi",
+        "ville-ru-temriouk",
+        "ville-ru-touapse"
+      ],
+      "locator": "Морской порт Таганрог → Подробнее → История создания и развития морского порта ; paragraphes 1941–1943 et phrase suivante.",
+      "resume_passage": "",
+      "archive_locale": null,
+      "verification_claude": "lien_casse",
+      "verification_ether": {
+        "statut": "passages_cibles_lus",
+        "par": "Ether",
+        "limite": "Ne démontre pas la reprise du trafic commercial ni la reconstruction complète ; aucune activité actuelle anticipée."
+      },
+      "notes": "Proposée par Ether (villes 1.5, 02/10/2026). Ce que la source prouve selon Ether : industrie. Limite annoncée par Ether : Réparation de navires de guerre reprise après la libération d’août 1943. Relecture Claude 02/10/2026 : La page renvoie une erreur 404 ; contenu non vérifiable. Ancien localisateur : Historique de Taganrog, paragraphes 1941–1943.. Réponse d'Ether (cycle 2, 03/10/2026, Q15-03) : Même URL directement lisible ; les deux rubriques ont été dépliées dans le navigateur. Le texte dit reprise en 1943, après le 30 août, par la réparation de navires militaires. Aucune reprise générale du commerce déduite. Relecture Claude 03/10/2026 : WebFetch renvoie une erreur 404 pour cette URL, aucune vérification possible. (statut : lien_casse -> lien_casse).",
+      "verification_ether_cycle2": {
+        "date": "2026-10-02",
+        "statut": "passages_retrouves",
+        "question": "Q15-03",
+        "constat": "Même URL directement lisible ; les deux rubriques ont été dépliées dans le navigateur. Le texte dit reprise en 1943, après le 30 août, par la réparation de navires militaires. Aucune reprise générale du commerce déduite.",
+        "limite": "Relecture Ether uniquement ; conserver le résultat antérieur verification_claude et demander son nouveau contrôle. Aucun original inédit authentifié."
+      },
+      "operation_registre": "completer",
+      "usage": [
+        "ville-ru-novorossiisk — port_maritime : Reprise officielle du port en octobre 1944, reconstruction complète seulement 1950.",
+        "ville-ru-ieisk — port_maritime : Reconstruction achevée 1944.",
+        "ville-ru-temriouk — port_maritime : Restauration et déblaiement du port 1943–1944 ; débit inconnu.",
+        "ville-ru-touapse — port_maritime, rail : Rail 1914, quai pétrolier 1930 ; exploitation maritime maintenue durant la guerre.",
+        "ville-ru-sotchi — port_maritime : Port de troisième catégorie et organisation maritime 1934.",
+        "Les cibles différées restent des réserves ; seules les entités du JSON final sont proposées à l’import."
+      ],
+      "complement_ether_1_7": {
+        "source_id": "src-rosmorport-taganrog-reparation-1943",
+        "operation_registre": "completer",
+        "niveau": "B",
+        "type_source": "histoire_institutionnelle",
+        "titre": "Ports du bassin Azov–mer Noire : compléments Caucase",
+        "institution": "Rosmorport",
+        "url": "https://www.rosmorport.ru/filials/nvr_seaports/",
+        "date_consultation": "2026-10-03",
+        "cibles": [
+          "ville-ru-ieisk",
+          "ville-ru-novorossiisk",
+          "ville-ru-sotchi",
+          "ville-ru-temriouk",
+          "ville-ru-touapse"
+        ],
+        "usage": [
+          "ville-ru-novorossiisk — port_maritime : Reprise officielle du port en octobre 1944, reconstruction complète seulement 1950.",
+          "ville-ru-ieisk — port_maritime : Reconstruction achevée 1944.",
+          "ville-ru-temriouk — port_maritime : Restauration et déblaiement du port 1943–1944 ; débit inconnu.",
+          "ville-ru-touapse — port_maritime, rail : Rail 1914, quai pétrolier 1930 ; exploitation maritime maintenue durant la guerre.",
+          "ville-ru-sotchi — port_maritime : Port de troisième catégorie et organisation maritime 1934.",
+          "Les cibles différées restent des réserves ; seules les entités du JSON final sont proposées à l’import."
+        ],
+        "locator": "Rubriques historiques propres à chaque port, après les caractéristiques actuelles",
+        "note": "Réutilisation de la source1.5, cibles antérieures à conserver à la fusion. Ne pas reprendre capacités actuelles ; phrase1860 attribuée à CatherineII incohérente, non retenue. Sochi1934 ne certifie pas la pleine capacité1945.",
+        "verification_ether": {
+          "date": "2026-10-03",
+          "statut": "passage_lu",
+          "limite": "Réutilisation de la source1.5, cibles antérieures à conserver à la fusion. Ne pas reprendre capacités actuelles ; phrase1860 attribuée à CatherineII incohérente, non retenue. Sochi1934 ne certifie pas la pleine capacité1945."
+        },
+        "usages_atlas": [
+          "port_maritime",
+          "rail"
+        ]
+      },
+      "note": " Complément 1.7 : voir complement_ether_1_7, nouveaux localisateurs et limites ; préserver les vérifications antérieures."
+    },
+    {
+      "source_id": "src-17-ru-dzaoudjikaou-decret1944",
+      "operation_registre": "ajouter",
+      "niveau": "A",
+      "type_source": "notice_archive",
+      "titre": "Décret renommant Ordjonikidzé en Dzaoudjikaou,28/02/1944",
+      "institution": "Présidium du Soviet suprême ; notice Bibliothèque présidentielle",
+      "url": "https://www.prlib.ru/item/1954986",
+      "date_consultation": "2026-10-03",
+      "cibles": [
+        "ville-ru-vladikavkaz"
+      ],
+      "usage": [
+        "ville-ru-vladikavkaz — administration : Capitale de la RSSA d’Ossétie du Nord renommée le 28/02/1944.",
+        "Les cibles différées restent des réserves ; seules les entités du JSON final sont proposées à l’import."
+      ],
+      "locator": "Notice : intitulé,date,coteGA RF R-7523 op.4 d.209 f.114",
+      "note": "Notice archivistique lue, original non affiché. Intitulé nomme explicitement la capitale de la RSSA d’Ossétie du Nord ; recoupé par supplément1944p79.",
+      "verification_ether": {
+        "date": "2026-10-03",
+        "statut": "passage_lu",
+        "limite": "Notice archivistique lue, original non affiché. Intitulé nomme explicitement la capitale de la RSSA d’Ossétie du Nord ; recoupé par supplément1944p79."
+      },
+      "usages_atlas": [
+        "administration"
+      ]
+    },
+    {
+      "source_id": "src-neb-admin1944-supplement",
+      "niveau": "A",
+      "type_source": "repertoire_officiel_epoque_numerise",
+      "titre": "Supplément au répertoire administratif de l’URSS — changements du 01/01/1941 au 01/10/1944",
+      "institution": "Service d’information et de statistique auprès du secrétariat du Présidium du Soviet suprême de l’URSS",
+      "url": "https://kp.rusneb.ru/item/material/dopolnenie-k-spravochniku-administrativno-territorialnoe-delenie-soyuznyh-respublik-vypuska-1941-g-izmeneniya-proizoshedshie-za-period-s-1-yanvarya-1941-g-po-1-oktyabrya-1944-g-informacionno-statisticheskij-otdel-pri-sekretariate-prezidiuma-verhovnogo-soveta-sssr",
+      "date_consultation": "2026-10-02",
+      "periode_couverte": [],
+      "zones": [],
+      "usages_atlas": [
+        "Chef-lieu d’oblast créé le 29/12/1943",
+        "administration",
+        "rail"
+      ],
+      "cibles": [
+        "ville-kg-talas",
+        "ville-kz-kokchetau",
+        "ville-kz-ouchtiobe",
+        "ville-kz-taldykorgan",
+        "ville-ru-anjero-soudjensk",
+        "ville-ru-asino",
+        "ville-ru-astrakhan",
+        "ville-ru-belovo",
+        "ville-ru-chadrinsk",
+        "ville-ru-choumikha",
+        "ville-ru-gourievsk",
+        "ville-ru-ialoutorovsk",
+        "ville-ru-ichim",
+        "ville-ru-iourga",
+        "ville-ru-kalouga",
+        "ville-ru-kemerovo",
+        "ville-ru-khanty-mansiisk",
+        "ville-ru-kisselevsk",
+        "ville-ru-kolpachevo",
+        "ville-ru-kostroma",
+        "ville-ru-kourgan",
+        "ville-ru-leninsk-kouznetski",
+        "ville-ru-mariinsk",
+        "ville-ru-novgorod",
+        "ville-ru-novokouznetsk",
+        "ville-ru-oulianovsk",
+        "ville-ru-petoukhovo",
+        "ville-ru-prokopievsk",
+        "ville-ru-pskov",
+        "ville-ru-salekhard",
+        "ville-ru-tayga",
+        "ville-ru-tioumen",
+        "ville-ru-tobolsk",
+        "ville-ru-tomsk",
+        "ville-ru-topki",
+        "ville-tm-kerki",
+        "ville-ua-kherson",
+        "ville-uz-karchi",
+        "ville-uz-termez",
+        "ville-ge-tkvarcheli",
+        "ville-ru-beslan",
+        "ville-ru-goudermes",
+        "ville-ru-grozny",
+        "ville-ru-kizliar",
+        "ville-ru-malgobek",
+        "ville-ru-mozdok",
+        "ville-ru-nazran",
+        "ville-ru-stavropol",
+        "ville-ru-vladikavkaz"
+      ],
+      "locator": "Pages imprimées 17–18, 21–22, 27–32, 43, 45, 47, 49, 51, 53 ; scans vus. Changements du Primorié page 55 également lus.",
+      "resume_passage": "Астраханская область… ЦЕНТР — г. АСТРАХАНЬ… Дата образования области — 27 декабря 1943 г. / Кемеровская область… ЦЕНТР — г. КЕМЕРОВО… 26 января 1943 г.",
+      "archive_locale": null,
+      "verification_claude": "limite",
+      "verification_ether": {
+        "statut": "pages_ciblees_vues",
+        "par": "Ether",
+        "limite": "Édition de 1944 numérisée. Date-limite 01/10/1944 ; pas de changement d’octobre–décembre déduit. Présence de station locale, pas preuve de débit ou de nœud à plusieurs directions. Capitale d’oblast/RSSA non typée sans arbitrage final.",
+        "date": "2026-10-03"
+      },
+      "notes": "Proposée par Ether (villes 1.6, 03/10/2026). Ce que la source prouve selon Ether : ville-ru-kemerovo — administration, rail : Page imprimée 17 / image 19; ville-ru-anjero-soudjensk — rail : Page imprimée 17 / image 19; ville-ru-belovo — rail : Page imprimée 17 / image 19; ville-ru-gourievsk — rail : Page imprimée 17 / image 19; ville-ru-kisselevsk — rail : Page imprimée 17 / image 19; ville-ru-novokouznetsk — rail : Page imprimée 17 / image 19; ville-ru-leninsk-kouznetski — rail : Page imprimée 17 / image 19; ville-ru-mariinsk — rail : Page imprimée 17 / image 19; ville-ru-prokopievsk — rail : Page imprimée 17 / image 19; ville-ru-iourga — rail : Page imprimée 17 / image 19; ville-ru-topki — rail : Page imprimée 17 / image 19; ville-ru-kourgan — administration, rail : Page imprimée 21 / image 23; ville-ru-tomsk — administration, rail : Page imprimée 27 / image 29; ville-ru-asino — rail : Page imprimée 27 / image 29; ville-ru-kolpachevo — présence/identité/limite : Page imprimée 27 / image 29; ville-ru-tioumen — administration, rail : Page imprimée 29 / image 31; ville-ru-ichim — rail : Page imprimée 29 / image 31; ville-ru-ialoutorovsk — rail : Page imprimée 29 / image 31; ville-ru-tobolsk — présence/identité/limite : Page imprimée 29 / image 31; ville-ru-khanty-mansiisk — administration : Page imprimée 31 / image 33; ville-tm-kerki — Chef-lieu d’oblast créé le 29/12/1943 : Page imprimée 43 / image 45; ville-ru-tayga — rail : Page imprimée 18 / image 20; ville-ru-chadrinsk — rail : Page imprimée 22 / image 24; ville-ru-petoukhovo — rail : Page imprimée 22 / image 24; ville-ru-choumikha — rail : Page imprimée 22 / image 24; ville-ru-salekhard — administration : Page imprimée 32 / image 34; ville-uz-karchi — administration : Page imprimée 45 / image 47; ville-uz-termez — administration : Page imprimée 47 / image 49; ville-kz-kokchetau — administration : Page imprimée 49 / image 51; ville-kz-taldykorgan — administration : Page imprimée 51 / image 53; ville-kz-ouchtiobe — rail : Page imprimée 51 / image 53; ville-kg-talas — administration : Page imprimée 53 / image 55; Rôle importable uniquement s’il figure dans le JSON final des villes ; autres usages = contexte ou réserve, voir sélection.; Complément Q15-02 : sept chefs-lieux, pages5,15,19,23,25,33,35 ; liste limitée dans le dossier1.5.. Limite annoncée par Ether : Édition de 1944 numérisée. Date-limite 01/10/1944 ; pas de changement d’octobre–décembre déduit. Présence de station locale, pas preuve de débit ou de nœud à plusieurs directions. Capitale d’oblast/RSSA non typée sans arbitrage final. Relecture Claude 03/10/2026 : WebFetch refusé (URL trop longue, 403). Claude a lu lui-même deux images NÉB sauvegardées par Ether (images 7 et 19, pages imprimées 5 et 17) : Astrakhan chef-lieu (oblast créée le 27/12/1943), Kemerovo chef-lieu (26/01/1943), et les centres de district du Kouzbass avec leur gare (Anjero-Soudjensk, Belovo, Gourievsk, Kisselevsk, Stalinsk, Leninsk-Kouznetski, Mariinsk, Prokopievsk, Topki, Iourga) confirmés ; autres pages non relues par Claude (lecture partielle).",
+      "operation_registre": "completer",
+      "usage": [
+        "ville-ru-vladikavkaz — administration : Capitale renommée 28/02/1944.",
+        "ville-ru-grozny — administration, rail : Centre de l’oblast créée 22/03/1944, ville avec gare.",
+        "ville-ru-grozny — rail : Gare homonyme sans distance externe dans le tableau des villes 1944.",
+        "ville-ru-goudermes — rail : Ville avec gare ; rôle de jonction à compléter.",
+        "ville-ru-goudermes — rail : Gare homonyme sans distance externe dans le tableau des villes 1944.",
+        "ville-ru-kizliar — rail : Ville avec gare, oblast de Grozny.",
+        "ville-ru-kizliar — rail : Gare homonyme sans distance externe dans le tableau des villes 1944.",
+        "ville-ru-stavropol — administration : Centre du kraï ; Vorochilovsk renommée Stavropol 12/01/1943.",
+        "ville-ru-mozdok — identité/réserve : Ville transférée à la RSSA d’Ossétie du Nord 01/03/1944.",
+        "ville-ru-malgobek — identité/réserve : Ville transférée à la RSSA d’Ossétie du Nord 07/03/1944.",
+        "ville-ru-beslan — identité/réserve : Centre Toulátovo renommé Iriston 29/04/1941 ; identité avec Beslan à recouper.",
+        "ville-ru-nazran — identité/réserve : Nazran renommée Kosta Khetagourova 29/04/1944.",
+        "ville-ge-tkvarcheli — identité/réserve : Passage du bourg ouvrier au statut de ville le 9 avril 1942 ; Akarmara incorporée le même jour.",
+        "Les cibles différées restent des réserves ; seules les entités du JSON final sont proposées à l’import."
+      ],
+      "complement_ether_1_7": {
+        "source_id": "src-neb-admin1944-supplement",
+        "operation_registre": "completer",
+        "niveau": "A",
+        "type_source": "repertoire_officiel_epoque_numerise",
+        "titre": "Supplément au répertoire administratif de l’URSS — changements du 01/01/1941 au 01/10/1944",
+        "institution": "Service d’information et de statistique auprès du secrétariat du Présidium du Soviet suprême de l’URSS",
+        "url": "https://kp.rusneb.ru/item/material/dopolnenie-k-spravochniku-administrativno-territorialnoe-delenie-soyuznyh-respublik-vypuska-1941-g-izmeneniya-proizoshedshie-za-period-s-1-yanvarya-1941-g-po-1-oktyabrya-1944-g-informacionno-statisticheskij-otdel-pri-sekretariate-prezidiuma-verhovnogo-soveta-sssr",
+        "date_consultation": "2026-10-03",
+        "cibles": [
+          "ville-ge-tkvarcheli",
+          "ville-ru-beslan",
+          "ville-ru-goudermes",
+          "ville-ru-grozny",
+          "ville-ru-kizliar",
+          "ville-ru-malgobek",
+          "ville-ru-mozdok",
+          "ville-ru-nazran",
+          "ville-ru-stavropol",
+          "ville-ru-vladikavkaz"
+        ],
+        "usage": [
+          "ville-ru-vladikavkaz — administration : Capitale renommée 28/02/1944.",
+          "ville-ru-grozny — administration, rail : Centre de l’oblast créée 22/03/1944, ville avec gare.",
+          "ville-ru-grozny — rail : Gare homonyme sans distance externe dans le tableau des villes 1944.",
+          "ville-ru-goudermes — rail : Ville avec gare ; rôle de jonction à compléter.",
+          "ville-ru-goudermes — rail : Gare homonyme sans distance externe dans le tableau des villes 1944.",
+          "ville-ru-kizliar — rail : Ville avec gare, oblast de Grozny.",
+          "ville-ru-kizliar — rail : Gare homonyme sans distance externe dans le tableau des villes 1944.",
+          "ville-ru-stavropol — administration : Centre du kraï ; Vorochilovsk renommée Stavropol 12/01/1943.",
+          "ville-ru-mozdok — identité/réserve : Ville transférée à la RSSA d’Ossétie du Nord 01/03/1944.",
+          "ville-ru-malgobek — identité/réserve : Ville transférée à la RSSA d’Ossétie du Nord 07/03/1944.",
+          "ville-ru-beslan — identité/réserve : Centre Toulátovo renommé Iriston 29/04/1941 ; identité avec Beslan à recouper.",
+          "ville-ru-nazran — identité/réserve : Nazran renommée Kosta Khetagourova 29/04/1944.",
+          "ville-ge-tkvarcheli — identité/réserve : Passage du bourg ouvrier au statut de ville le 9 avril 1942 ; Akarmara incorporée le même jour.",
+          "Les cibles différées restent des réserves ; seules les entités du JSON final sont proposées à l’import."
+        ],
+        "locator": "p.13/image15 ;p.55/image57 dans1.6 ;p.79/image81 dans1.7",
+        "note": "Scans vus ; répertoire au01/10/1944. Ne prouve ni trafic ni capacités de fin1944. Union des anciennes cibles/localisateurs à conserver à la fusion.",
+        "verification_ether": {
+          "date": "2026-10-03",
+          "statut": "passage_lu",
+          "limite": "Scans vus ; répertoire au01/10/1944. Ne prouve ni trafic ni capacités de fin1944. Union des anciennes cibles/localisateurs à conserver à la fusion."
+        },
+        "usages_atlas": [
+          "administration",
+          "rail"
+        ]
+      },
+      "note": " Complément 1.7 : voir complement_ether_1_7, nouveaux localisateurs et limites ; préserver les vérifications antérieures."
+    },
+    {
+      "source_id": "src-17-ru-makhatchkala-port-guerre",
+      "operation_registre": "ajouter",
+      "niveau": "B",
+      "type_source": "histoire_institutionnelle",
+      "titre": "Histoire du port de Makhatchkala : activité durant la guerre",
+      "institution": "Port maritime commercial de Makhatchkala",
+      "url": "https://mmport.ru/история/",
+      "date_consultation": "2026-10-03",
+      "cibles": [
+        "ville-ru-makhatchkala"
+      ],
+      "usage": [
+        "ville-ru-makhatchkala — port_maritime, rail, logistique : Transbordement ferroviaire et maritime de charges évacuées en 1942 ; manutention encore attestée en 1944.",
+        "Les cibles différées restent des réserves ; seules les entités du JSON final sont proposées à l’import."
+      ],
+      "locator": "Section МАХАЧКАЛИНСКИЙ МОРСКОЙТОРГОВЫЙ ПОРТ В ГОДЫ… ; juin1942 ; portrait de V.Chaguinova, mars1944",
+      "note": "Rétrospective de l’opérateur et témoignage reproduit. Prendre les passages locaux port/rail et travail en1944 seulement ; récit politique et chiffres globaux non repris.",
+      "verification_ether": {
+        "date": "2026-10-03",
+        "statut": "passage_lu",
+        "limite": "Rétrospective de l’opérateur et témoignage reproduit. Prendre les passages locaux port/rail et travail en1944 seulement ; récit politique et chiffres globaux non repris."
+      },
+      "usages_atlas": [
+        "port_maritime",
+        "rail"
+      ]
+    },
+    {
+      "source_id": "src-17-am-rail-musee",
+      "operation_registre": "ajouter",
+      "niveau": "B",
+      "type_source": "histoire_institutionnelle",
+      "titre": "Musée du chemin de fer arménien : chronologie des liaisons",
+      "institution": "Chemins de fer du Caucase du Sud",
+      "url": "https://www.railway.am/arm/musey",
+      "date_consultation": "2026-10-03",
+      "cibles": [
+        "ville-am-erevan",
+        "ville-am-gyumri"
+      ],
+      "usage": [
+        "ville-am-gyumri — rail : Desserte ferroviaire locale attestée avant 1945.",
+        "ville-am-erevan — rail : Desserte ferroviaire locale attestée avant 1945.",
+        "Les cibles différées restent des réserves ; seules les entités du JSON final sont proposées à l’import."
+      ],
+      "locator": "Paragraphes1895–1902 et1942",
+      "note": "Version arménienne lue ; dates d’arrivée initiale, pas un horaire de1944. Les statistiques de guerre sont soviétiques, non arméniennes à elles seules ; elles ne sont pas utilisées.",
+      "verification_ether": {
+        "date": "2026-10-03",
+        "statut": "passage_lu",
+        "limite": "Version arménienne lue ; dates d’arrivée initiale, pas un horaire de1944. Les statistiques de guerre sont soviétiques, non arméniennes à elles seules ; elles ne sont pas utilisées."
+      },
+      "usages_atlas": [
+        "rail"
+      ]
+    },
+    {
+      "source_id": "src-17-tr-sehirhatlari-histoire",
+      "operation_registre": "ajouter",
+      "niveau": "B",
+      "type_source": "histoire_institutionnelle",
+      "titre": "Histoire des transports maritimes d’Istanbul",
+      "institution": "Şehir Hatları, opérateur municipal",
+      "url": "https://sehirhatlari.istanbul/en/corporate/history-58",
+      "date_consultation": "2026-10-03",
+      "cibles": [
+        "ville-tr-gemlik",
+        "ville-tr-istanbul",
+        "ville-tr-izmit",
+        "ville-tr-tekirdag",
+        "ville-tr-yalova"
+      ],
+      "usage": [
+        "ville-tr-istanbul — port_maritime, passage : Transport maritime urbain et traversées du Bosphore avant 1945 ; compagnies encore distinctes au Snapshot.",
+        "ville-tr-gemlik — port_maritime : Débarcadère explicitement desservi dans l’histoire du réseau.",
+        "ville-tr-izmit — port_maritime : Débarcadère explicitement desservi dans l’histoire du réseau.",
+        "ville-tr-tekirdag — port_maritime : Débarcadère explicitement desservi dans l’histoire du réseau.",
+        "ville-tr-yalova — port_maritime, passage : Desserte maritime nommée en 1933.",
+        "Les cibles différées restent des réserves ; seules les entités du JSON final sont proposées à l’import."
+      ],
+      "locator": "Strong Legacy :1844/1933/1937 ; Gathering :1941/1945",
+      "note": "La fusion de1945 est postérieure auSnapshot et exclue. Les dessertes anciennes n’établissent pas chaque fréquence ou quai de1944.",
+      "verification_ether": {
+        "date": "2026-10-03",
+        "statut": "passage_lu",
+        "limite": "La fusion de1945 est postérieure auSnapshot et exclue. Les dessertes anciennes n’établissent pas chaque fréquence ou quai de1944."
+      },
+      "usages_atlas": [
+        "port_maritime"
+      ]
+    },
+    {
+      "source_id": "src-17-tr-tbb-population1940",
+      "operation_registre": "ajouter",
+      "niveau": "B",
+      "type_source": "histoire_institutionnelle",
+      "titre": "Communes de plus de50000 habitants dans les recensements anciens",
+      "institution": "Union des municipalités de Turquie, İller ve Belediyeler, juin1984",
+      "url": "https://www.tbb.gov.tr/sites/default/files/online/dergiler/1984/1984_haziran/files/basic-html/page14.html",
+      "date_consultation": "2026-10-03",
+      "cibles": [
+        "ville-tr-adana",
+        "ville-tr-ankara",
+        "ville-tr-bursa",
+        "ville-tr-eskisehir",
+        "ville-tr-gaziantep",
+        "ville-tr-istanbul",
+        "ville-tr-izmir",
+        "ville-tr-kayseri",
+        "ville-tr-konya"
+      ],
+      "usage": [
+        "ville-tr-ankara — grande_ville : Population urbaine recensée en 1940 : 157242 ; sélection de grande ville.",
+        "ville-tr-kayseri — grande_ville : Population urbaine recensée en 1940 : 52467 ; sélection de grande ville.",
+        "ville-tr-eskisehir — grande_ville : Population urbaine recensée en 1940 : 60742 ; sélection de grande ville.",
+        "ville-tr-konya — grande_ville : Population urbaine recensée en 1940 : 56465 ; sélection de grande ville.",
+        "ville-tr-adana — grande_ville : Population urbaine recensée en 1940 : 88119 ; sélection de grande ville.",
+        "ville-tr-istanbul — grande_ville : Population urbaine recensée en 1940 : 793949 ; sélection de grande ville.",
+        "ville-tr-bursa — grande_ville : Population urbaine recensée en 1940 : 77598 ; sélection de grande ville.",
+        "ville-tr-izmir — grande_ville : Population urbaine recensée en 1940 : 183762 ; sélection de grande ville.",
+        "ville-tr-gaziantep — grande_ville : Population urbaine recensée en 1940 : 57132 ; sélection de grande ville.",
+        "Les cibles différées restent des réserves ; seules les entités du JSON final sont proposées à l’import."
+      ],
+      "locator": "Page14 du lecteur : tableau1940",
+      "note": "Tableau rétrospectif d’une institution municipale. OCR lu ; image et recensement original non contrôlés. Sert à sélectionner les grandes villes, pas à créer une population1945.",
+      "verification_ether": {
+        "date": "2026-10-03",
+        "statut": "passage_lu",
+        "limite": "Tableau rétrospectif d’une institution municipale. OCR lu ; image et recensement original non contrôlés. Sert à sélectionner les grandes villes, pas à créer une population1945."
+      },
+      "usages_atlas": [
+        "identite"
+      ]
+    },
+    {
+      "source_id": "src-shpl-admin1940",
+      "niveau": "A",
+      "type_source": "repertoire_administratif",
+      "titre": "URSS. Division administrative et territoriale des républiques fédérées au 1er mai 1940",
+      "institution": "Service d’information statistique du Présidium du Soviet suprême ; Bibliothèque historique publique d’État",
+      "url": "http://elib.shpl.ru/ru/nodes/8481",
+      "date_consultation": "2026-10-03",
+      "periode_couverte": [],
+      "zones": [],
+      "usages_atlas": [
+        "administration",
+        "capitale",
+        "industrie",
+        "port_fluvial",
+        "port_maritime",
+        "rail"
+      ],
+      "cibles": [
+        "ville-kz-aiteke-bi",
+        "ville-kz-aktobe",
+        "ville-kz-almaty",
+        "ville-kz-aralsk",
+        "ville-kz-arys",
+        "ville-kz-astana",
+        "ville-kz-atyraou",
+        "ville-kz-ayagoz",
+        "ville-kz-char",
+        "ville-kz-chou",
+        "ville-kz-chymkent",
+        "ville-kz-dossor",
+        "ville-kz-fort-chevtchenko",
+        "ville-kz-karaganda",
+        "ville-kz-karsakpai",
+        "ville-kz-kazalinsk",
+        "ville-kz-kokchetau",
+        "ville-kz-kostanai",
+        "ville-kz-kyzylorda",
+        "ville-kz-makat",
+        "ville-kz-mointy",
+        "ville-kz-oral",
+        "ville-kz-oskemen",
+        "ville-kz-ouchtiobe",
+        "ville-kz-pavlodar",
+        "ville-kz-petropavlovsk",
+        "ville-kz-semei",
+        "ville-kz-taraz",
+        "ville-kz-tioulkoubas",
+        "ville-kz-turkestan",
+        "ville-ru-bogotol",
+        "ville-ru-gorno-altaisk",
+        "ville-ru-iakoutsk",
+        "ville-ru-irkoutsk",
+        "ville-ru-kansk",
+        "ville-ru-kiakhta",
+        "ville-ru-nijnieoudinsk",
+        "ville-ru-omsk",
+        "ville-ru-ouiar",
+        "ville-ru-oulan-oude",
+        "ville-ru-taichet",
+        "ville-ru-zima",
+        "ville-uz-andijan",
+        "ville-uz-asaka",
+        "ville-uz-bekabad",
+        "ville-uz-boukhara",
+        "ville-uz-djizak",
+        "ville-uz-ferghana",
+        "ville-uz-katta-kourgan",
+        "ville-uz-khavast",
+        "ville-uz-khiva",
+        "ville-uz-khodjeili",
+        "ville-uz-marguilan",
+        "ville-uz-mouinak",
+        "ville-uz-namangan",
+        "ville-uz-noukous",
+        "ville-uz-ourguentch",
+        "ville-uz-patta-gissar",
+        "ville-uz-samarcande",
+        "ville-uz-tachkent",
+        "ville-uz-tchimbai",
+        "ville-uz-tchirtchik",
+        "ville-uz-tchoust",
+        "ville-uz-termez",
+        "ville-uz-turtkul",
+        "ville-uz-yangioul",
+        "ville-am-akhtala",
+        "ville-am-alaverdi",
+        "ville-am-artik",
+        "ville-am-dilidjan",
+        "ville-am-erevan",
+        "ville-am-goris",
+        "ville-am-gyumri",
+        "ville-am-hrazdan",
+        "ville-am-kapan",
+        "ville-am-sevan",
+        "ville-am-vagharshapat",
+        "ville-am-vanadzor",
+        "ville-az-agstafa",
+        "ville-az-alat",
+        "ville-az-bakou",
+        "ville-az-chaki",
+        "ville-az-choucha",
+        "ville-az-gandja",
+        "ville-az-gazakh",
+        "ville-az-khachmaz",
+        "ville-az-khudat",
+        "ville-az-kurdamir",
+        "ville-az-lankaran",
+        "ville-az-nakhitchevan",
+        "ville-az-sabirabad",
+        "ville-az-stepanakert",
+        "ville-az-sumgait",
+        "ville-az-tovuz",
+        "ville-az-ujar",
+        "ville-az-yevlakh",
+        "ville-ge-akhalkalaki",
+        "ville-ge-akhaltsikhe",
+        "ville-ge-batoumi",
+        "ville-ge-gori",
+        "ville-ge-gourdjaani",
+        "ville-ge-kaspi",
+        "ville-ge-khachouri",
+        "ville-ge-koutaissi",
+        "ville-ge-lantchkhouti",
+        "ville-ge-mtskheta",
+        "ville-ge-ozourgueti",
+        "ville-ge-poti",
+        "ville-ge-samtredia",
+        "ville-ge-satchkhere",
+        "ville-ge-soukhoumi",
+        "ville-ge-tbilissi",
+        "ville-ge-tchiatoura",
+        "ville-ge-telavi",
+        "ville-ge-tkibouli",
+        "ville-ge-tskhinvali",
+        "ville-ge-zestafoni",
+        "ville-ge-zougdidi"
+      ],
+      "locator": "p.259–269 et277–296 ; images263–273 et281–300, décalage +4 ; pp. 21, 26–27, 62–63, 97, 144–145, 170 (Sibérie)",
+      "resume_passage": "",
+      "archive_locale": null,
+      "verification_claude": "non_verifiee",
+      "verification_ether": {
+        "statut": "passages_lus",
+        "par": "Ether",
+        "limite": "Scans 1940 consultés : Ouzbékistan259–269 ; Kazakhstan277–296 (p.281 non exploitée). À rapprocher des changements1941–1944 déjà documentés. Capitales RSSA et chefs-lieux d’oblast : fonction administration, type d’affichage réservé. Distinctions ville/gare conservées, notamment Kazalinsk/Novo-Kazalinsk.",
+        "date": "2026-10-03"
+      },
+      "notes": "Proposée par Ether (villes 1.6, 03/10/2026). Ce que la source prouve selon Ether : ville-uz-termez — administration : Chef-lieu de l’okrug Sourkhan-Daria ; devenu centre d’oblast selon complément1944.; ville-kz-kokchetau — rail : Ville avec gare homonyme. Chef-lieu d’oblast en 1944 établi par autre source.; ville-kz-ouchtiobe — administration, rail : Chef-lieu de district ; gare homonyme sur place.; ville-uz-samarcande — administration : Centre de l’oblast de Samarcande.; ville-uz-khavast — rail, administration : Oursatievskaïa est le chef-lieu du district de Khavast et une gare. Rapprochement avec l’ID moderne Khavast à vérifier ; ancien nom du candidat non validé par rétroprojection.; ville-uz-tachkent — capitale, administration : Capitale de la RSS et centre de l’oblast.; ville-uz-andijan — administration : Ville et chef-lieu de district ; futur chef-lieu d’oblast à vérifier par supplément.; ville-uz-ferghana — administration : Centre de l’oblast ; gare Skobelevo sur place.; ville-kz-karsakpai — administration, rail : Bourg urbain chef-lieu ; gare homonyme.; ville-kz-astana — administration : Chef-lieu de l’oblast créé le 14 octobre 1939.; ville-kz-karaganda — administration : Centre de l’oblast.; ville-kz-kostanai — administration, rail : Chef-lieu d’oblast avec gare homonyme.; ville-kz-atyraou — administration : Centre de l’oblast. Indication ferroviaire de 1940 dépassée par l’ouverture ultérieure documentée dans une autre source.; ville-ru-irkoutsk — administration, rail : Irkoutsk centre de l’oblast et gare locale dans le tableau urbain.; ville-ru-omsk — administration : Omsk explicitement centre de l’oblast.; ville-kz-semei — administration, rail : Centre d’oblast et gare du Turksib.; ville-kz-pavlodar — administration, rail : Chef-lieu d’oblast avec gare homonyme.; ville-ru-iakoutsk — capitale, administration : Iakoutsk explicitement capitale de la RSSA de Iakoutie.; ville-ru-oulan-oude — capitale, administration, rail : Oulan-Oudé capitale de la RSSA bouriate-mongole ; gare locale au tableau des villes.; ville-kz-aktobe — administration : Centre de l’oblast.; ville-kz-kazalinsk — administration : Ville chef-lieu ; gare Kazalinsk distante de douze kilomètres. Distincte de Novo-Kazalinsk.; ville-kz-taraz — administration : Chef-lieu de l’oblast créé le 14 octobre 1939.; ville-kz-chymkent — administration, rail, industrie : Centre du Kazakhstan méridional, gare locale ; quartier urbain Kalininski explicitement situé auprès de l’usine de plomb.; ville-kz-petropavlovsk — administration, rail : Centre du Kazakhstan septentrional et gare homonyme.; ville-uz-bekabad — administration : Bourg urbain chef-lieu, desservi par Khilkovo. Aucun statut de ville anticipé.; ville-uz-boukhara — administration : Centre de l’oblast de Boukhara.; ville-uz-djizak — administration : Ville chef-lieu de district, gare homonyme à deux kilomètres.; ville-uz-katta-kourgan — administration : Ville chef-lieu de district et gare homonyme.; ville-uz-tchirtchik — rail : Ville et gare Tchirtchik.; ville-uz-yangioul — administration, rail : Ville chef-lieu avec gare Kaufmanskaïa sur place.; ville-uz-namangan — administration, rail : Ville chef-lieu de district et gare homonyme ; statut d’oblast ultérieur à vérifier.; ville-uz-asaka — administration : Ville chef-lieu ; gare Assake à quatre kilomètres. Identité actuelle à contrôler.; ville-uz-marguilan — administration : Ville chef-lieu ; gare Gortchakovo à six kilomètres, sans fusion présumée des points.; ville-uz-tchoust — administration : Ville chef-lieu ; gare éloignée de treize kilomètres, rôle rail non appliqué automatiquement.; ville-uz-ourguentch — administration : Centre du Khorezm ; réseau ferroviaire local absent du répertoire.; ville-uz-khiva — administration : Ville chef-lieu de district.; ville-uz-noukous — capitale, administration : Siège de la RSSA karakalpake indiqué comme capitale. Type d’affichage des RSSA réservé.; ville-uz-turtkul — administration : Ville chef-lieu de district ; point de la ville ancienne à distinguer de son déplacement postérieur.; ville-uz-khodjeili — administration : Ville chef-lieu de district.; ville-uz-tchimbai — administration : Ville chef-lieu de district.; ville-uz-mouinak — administration : Bourg urbain chef-lieu de district, existence datée. Fonction portuaire à rechercher.; ville-uz-patta-gissar — port_fluvial : Bourg distinct explicitement désigné débarcadère de l’Amou-Daria ; gare Termez à huit kilomètres. Ne pas fusionner avec Termez sans contrôle du périmètre.; ville-kz-dossor — rail, administration : Bourg urbain chef-lieu ; gare Dossor sur place.; ville-kz-makat — rail : Bourg urbain et gare Makat.; ville-kz-almaty — capitale, administration : Capitale de la RSS kazakhe et centre de son oblast.; ville-kz-oskemen — administration : Centre du Kazakhstan oriental. Gare Zachtchita à sept kilomètres : rôle de la gare distinct à préciser.; ville-kz-fort-chevtchenko — administration, port_maritime : Ville chef-lieu ; embarcadère homonyme indiqué dans le tableau. Port de la Caspienne, mer intérieure.; ville-kz-chou — rail : Bourg urbain avec gare homonyme du Turksib.; ville-kz-oral — administration, rail : Centre du Kazakhstan occidental et gare locale.; ville-kz-mointy — rail : Bourg urbain avec gare homonyme, cité séparément de Balkhach.; ville-kz-kyzylorda — administration, rail : Centre de l’oblast et gare homonyme.; ville-kz-aralsk — administration, rail : Ville chef-lieu, desservie par la gare Aralskoïe More. Fonction portuaire à compléter séparément.; ville-kz-aiteke-bi — rail : Bourg urbain associé directement à la gare Kazalinsk, distinct de la ville de Kazalinsk. Rapprochement actuel Aïteke Bi à confirmer.; ville-kz-ayagoz — administration, rail : Ville chef-lieu et gare homonyme du Turksib.; ville-kz-char — administration, rail : Bourg chef-lieu ; gare Tcharskaïa sur place.; ville-kz-arys — administration, rail : Bourg urbain chef-lieu et gare homonyme.; ville-kz-turkestan — administration : Ville chef-lieu ; gare homonyme distante de 6,5 km, sans fusion des points.; ville-kz-tioulkoubas — rail : Bourg urbain avec gare homonyme du Turksib.; ville-ru-gorno-altaisk — administration : Oïrot-Toura explicitement centre de l’oblast autonome.; ville-ru-kiakhta — administration : Chef-lieu de district. Gare Oulan-Oudé donnée à 229 km, aucun rôle ferroviaire local déduit.; ville-ru-zima — rail, administration : Chef-lieu de district ; gare homonyme locale.; ville-ru-nijnieoudinsk — rail, administration : Chef-lieu de district ; gare homonyme locale.; ville-ru-taichet — rail, administration : Chef-lieu de district ; gare homonyme locale.; ville-ru-kansk — rail, administration : Chef-lieu de district et gare locale.; ville-ru-bogotol — rail, administration : Chef-lieu de district et gare locale.; ville-ru-ouiar — rail, administration : Bourg ouvrier chef-lieu, station Klioukvennaïa locale.; Rôle importable uniquement s’il figure dans le JSON final des villes ; autres usages = contexte ou réserve, voir sélection.. Limite annoncée par Ether : Scans 1940 consultés : Ouzbékistan259–269 ; Kazakhstan277–296 (p.281 non exploitée). À rapprocher des changements1941–1944 déjà documentés. Capitales RSSA et chefs-lieux d’oblast : fonction administration, type d’affichage réservé. Distinctions ville/gare conservées, notamment Kazalinsk/Novo-Kazalinsk. Contrôle complémentaire du 03/10 : en-têtes et tableaux sibériens ci-dessus lus en fac-similé dans la visionneuse, sans téléchargement. Capitales de RSSA : rôle documenté, type d’affichage réservé selon Q15-02. Relecture Claude 03/10/2026 : La page ne donne que des métadonnées bibliographiques (411 p.) sans texte des scans, donc aucune des affirmations administratives n'est vérifiable.",
+      "operation_registre": "completer",
+      "usage": [
+        "ville-ge-batoumi — administration, rail : Capitale de RSSA d’Adjarie et gare locale nommées.",
+        "ville-ge-samtredia — rail : Ville ou bourg et gare homonyme sans distance externe au tableau.",
+        "ville-ge-poti — rail : Ville et gare homonyme dans le tableau des villes républicaines.",
+        "ville-ge-tbilissi — rail : Ville et gare homonyme dans le tableau des villes républicaines.",
+        "ville-az-bakou — capitale, administration : Capitale de la RSS d’Azerbaïdjan dans le répertoire 1940.",
+        "ville-az-bakou — rail : Ville et gare homonyme attestées.",
+        "ville-am-gyumri — rail : Ville et gare homonyme attestées ; forme du nom datée.",
+        "ville-am-erevan — capitale, administration : Capitale de RSS arménienne explicitement nommée.",
+        "ville-am-erevan — rail : Ville et gare homonyme attestées ; forme du nom datée.",
+        "ville-az-nakhitchevan — administration, rail : Capitale de RSSA et gare homonyme dans le tableau 1940.",
+        "ville-ge-tchiatoura — rail : Ville ou bourg et gare homonyme sans distance externe au tableau.",
+        "ville-ge-zestafoni — rail : Ville ou bourg et gare homonyme sans distance externe au tableau.",
+        "ville-ge-tkibouli — rail : Ville ou bourg et gare homonyme sans distance externe au tableau.",
+        "ville-ge-khachouri — rail : Ville ou bourg et gare homonyme sans distance externe au tableau.",
+        "ville-ge-koutaissi — rail : Ville et gare homonyme dans le tableau des villes républicaines.",
+        "ville-ge-gori — rail : Ville ou bourg et gare homonyme sans distance externe au tableau.",
+        "ville-ge-gourdjaani — rail : Ville ou bourg et gare homonyme sans distance externe au tableau.",
+        "ville-ge-zougdidi — rail : Ville ou bourg et gare homonyme sans distance externe au tableau.",
+        "ville-ge-kaspi — rail : Ville ou bourg et gare homonyme sans distance externe au tableau.",
+        "ville-ge-lantchkhouti — rail : Ville ou bourg et gare homonyme sans distance externe au tableau.",
+        "ville-ge-ozourgueti — rail : Ville ou bourg et gare homonyme sans distance externe au tableau.",
+        "ville-ge-mtskheta — rail : Ville ou bourg et gare homonyme sans distance externe au tableau.",
+        "ville-ge-satchkhere — rail : Ville ou bourg et gare homonyme sans distance externe au tableau.",
+        "ville-ge-akhalkalaki — administration : Chef-lieu de district (рц) ; gare la plus proche à 122 km, aucun rôle ferroviaire attribué sur cette preuve.",
+        "ville-ge-akhaltsikhe — administration : Chef-lieu de district (рц) ; gare la plus proche à 52 km, aucun rôle ferroviaire attribué sur cette preuve.",
+        "ville-ge-telavi — administration : Chef-lieu de district (рц) ; gare la plus proche à 3 km, aucun rôle ferroviaire attribué sur cette preuve.",
+        "ville-ge-soukhoumi — administration, rail : Capitale de RSSA et gare locale nommées.",
+        "ville-ge-tskhinvali — administration : Centre de l’oblast autonome d’Ossétie du Sud nomméСталинир ; gare Gori à 32 km.",
+        "ville-am-alaverdi — rail : Ville ou bourg avec gare homonyme sans distance externe dans le tableau 1940.",
+        "ville-am-artik — rail : Ville ou bourg avec gare homonyme sans distance externe dans le tableau 1940.",
+        "ville-am-akhtala — rail : Ville ou bourg avec gare homonyme sans distance externe dans le tableau 1940.",
+        "ville-am-kapan — rail : Ville ou bourg avec gare homonyme sans distance externe dans le tableau 1940.",
+        "ville-am-vanadzor — rail : Ville ou bourg avec gare homonyme sans distance externe dans le tableau 1940.",
+        "ville-am-goris — administration : Chef-lieu de district ; gare éloignée de 65 km.",
+        "ville-am-dilidjan — administration : Chef-lieu de district ; gare éloignée de 41 km.",
+        "ville-am-sevan — administration : Chef-lieu de district ; gare éloignée de 66 km.",
+        "ville-am-vagharshapat — administration : Chef-lieu de district ; gare éloignée de 9 km.",
+        "ville-am-hrazdan — identité/réserve : Chef-lieu rural dans le tableau 1940, gare Erevan à 49 km.",
+        "ville-az-gandja — rail : Ville ou bourg avec gare homonyme dans le répertoire 1940.",
+        "ville-az-agstafa — rail : Ville ou bourg avec gare homonyme dans le répertoire 1940.",
+        "ville-az-alat — rail : Ville ou bourg avec gare homonyme dans le répertoire 1940.",
+        "ville-az-yevlakh — rail : Ville ou bourg avec gare homonyme dans le répertoire 1940.",
+        "ville-az-kurdamir — rail : Ville ou bourg avec gare homonyme dans le répertoire 1940.",
+        "ville-az-tovuz — rail : Ville ou bourg avec gare homonyme dans le répertoire 1940.",
+        "ville-az-ujar — rail : Ville ou bourg avec gare homonyme dans le répertoire 1940.",
+        "ville-az-khudat — rail : Ville ou bourg avec gare homonyme dans le répertoire 1940.",
+        "ville-az-khachmaz — rail : Ville ou bourg avec gare homonyme dans le répertoire 1940.",
+        "ville-az-lankaran — port_maritime, administration : Chef-lieu ; le tableau désigne le port de Lenkoran comme desserte.",
+        "ville-az-chaki — administration : Centre administratif ; gare extérieure à 80 km.",
+        "ville-az-sabirabad — administration : Centre administratif ; gare extérieure à 12 km.",
+        "ville-az-gazakh — administration : Centre administratif ; gare extérieure à 9 km.",
+        "ville-az-stepanakert — administration : Centre administratif ; gare extérieure à 96 km.",
+        "ville-az-choucha — administration : Centre administratif ; gare extérieure à 112 km.",
+        "ville-az-sumgait — identité/réserve : Bourg et gare existent au répertoire 1940.",
+        "Les cibles différées restent des réserves ; seules les entités du JSON final sont proposées à l’import."
+      ],
+      "complement_ether_1_7": {
+        "source_id": "src-shpl-admin1940",
+        "operation_registre": "completer",
+        "niveau": "A",
+        "type_source": "repertoire_administratif",
+        "titre": "URSS : division administrative au1mai1940, pages duCaucase",
+        "institution": "Présidium du Soviet suprême ; bibliothèque historique publique russe",
+        "url": "http://elib.shpl.ru/ru/nodes/8481",
+        "date_consultation": "2026-10-03",
+        "cibles": [
+          "ville-am-akhtala",
+          "ville-am-alaverdi",
+          "ville-am-artik",
+          "ville-am-dilidjan",
+          "ville-am-erevan",
+          "ville-am-goris",
+          "ville-am-gyumri",
+          "ville-am-hrazdan",
+          "ville-am-kapan",
+          "ville-am-sevan",
+          "ville-am-vagharshapat",
+          "ville-am-vanadzor",
+          "ville-az-agstafa",
+          "ville-az-alat",
+          "ville-az-bakou",
+          "ville-az-chaki",
+          "ville-az-choucha",
+          "ville-az-gandja",
+          "ville-az-gazakh",
+          "ville-az-khachmaz",
+          "ville-az-khudat",
+          "ville-az-kurdamir",
+          "ville-az-lankaran",
+          "ville-az-nakhitchevan",
+          "ville-az-sabirabad",
+          "ville-az-stepanakert",
+          "ville-az-sumgait",
+          "ville-az-tovuz",
+          "ville-az-ujar",
+          "ville-az-yevlakh",
+          "ville-ge-akhalkalaki",
+          "ville-ge-akhaltsikhe",
+          "ville-ge-batoumi",
+          "ville-ge-gori",
+          "ville-ge-gourdjaani",
+          "ville-ge-kaspi",
+          "ville-ge-khachouri",
+          "ville-ge-koutaissi",
+          "ville-ge-lantchkhouti",
+          "ville-ge-mtskheta",
+          "ville-ge-ozourgueti",
+          "ville-ge-poti",
+          "ville-ge-samtredia",
+          "ville-ge-satchkhere",
+          "ville-ge-soukhoumi",
+          "ville-ge-tbilissi",
+          "ville-ge-tchiatoura",
+          "ville-ge-telavi",
+          "ville-ge-tkibouli",
+          "ville-ge-tskhinvali",
+          "ville-ge-zestafoni",
+          "ville-ge-zougdidi"
+        ],
+        "usage": [
+          "ville-ge-batoumi — administration, rail : Capitale de RSSA d’Adjarie et gare locale nommées.",
+          "ville-ge-samtredia — rail : Ville ou bourg et gare homonyme sans distance externe au tableau.",
+          "ville-ge-poti — rail : Ville et gare homonyme dans le tableau des villes républicaines.",
+          "ville-ge-tbilissi — rail : Ville et gare homonyme dans le tableau des villes républicaines.",
+          "ville-az-bakou — capitale, administration : Capitale de la RSS d’Azerbaïdjan dans le répertoire 1940.",
+          "ville-az-bakou — rail : Ville et gare homonyme attestées.",
+          "ville-am-gyumri — rail : Ville et gare homonyme attestées ; forme du nom datée.",
+          "ville-am-erevan — capitale, administration : Capitale de RSS arménienne explicitement nommée.",
+          "ville-am-erevan — rail : Ville et gare homonyme attestées ; forme du nom datée.",
+          "ville-az-nakhitchevan — administration, rail : Capitale de RSSA et gare homonyme dans le tableau 1940.",
+          "ville-ge-tchiatoura — rail : Ville ou bourg et gare homonyme sans distance externe au tableau.",
+          "ville-ge-zestafoni — rail : Ville ou bourg et gare homonyme sans distance externe au tableau.",
+          "ville-ge-tkibouli — rail : Ville ou bourg et gare homonyme sans distance externe au tableau.",
+          "ville-ge-khachouri — rail : Ville ou bourg et gare homonyme sans distance externe au tableau.",
+          "ville-ge-koutaissi — rail : Ville et gare homonyme dans le tableau des villes républicaines.",
+          "ville-ge-gori — rail : Ville ou bourg et gare homonyme sans distance externe au tableau.",
+          "ville-ge-gourdjaani — rail : Ville ou bourg et gare homonyme sans distance externe au tableau.",
+          "ville-ge-zougdidi — rail : Ville ou bourg et gare homonyme sans distance externe au tableau.",
+          "ville-ge-kaspi — rail : Ville ou bourg et gare homonyme sans distance externe au tableau.",
+          "ville-ge-lantchkhouti — rail : Ville ou bourg et gare homonyme sans distance externe au tableau.",
+          "ville-ge-ozourgueti — rail : Ville ou bourg et gare homonyme sans distance externe au tableau.",
+          "ville-ge-mtskheta — rail : Ville ou bourg et gare homonyme sans distance externe au tableau.",
+          "ville-ge-satchkhere — rail : Ville ou bourg et gare homonyme sans distance externe au tableau.",
+          "ville-ge-akhalkalaki — administration : Chef-lieu de district (рц) ; gare la plus proche à 122 km, aucun rôle ferroviaire attribué sur cette preuve.",
+          "ville-ge-akhaltsikhe — administration : Chef-lieu de district (рц) ; gare la plus proche à 52 km, aucun rôle ferroviaire attribué sur cette preuve.",
+          "ville-ge-telavi — administration : Chef-lieu de district (рц) ; gare la plus proche à 3 km, aucun rôle ferroviaire attribué sur cette preuve.",
+          "ville-ge-soukhoumi — administration, rail : Capitale de RSSA et gare locale nommées.",
+          "ville-ge-tskhinvali — administration : Centre de l’oblast autonome d’Ossétie du Sud nomméСталинир ; gare Gori à 32 km.",
+          "ville-am-alaverdi — rail : Ville ou bourg avec gare homonyme sans distance externe dans le tableau 1940.",
+          "ville-am-artik — rail : Ville ou bourg avec gare homonyme sans distance externe dans le tableau 1940.",
+          "ville-am-akhtala — rail : Ville ou bourg avec gare homonyme sans distance externe dans le tableau 1940.",
+          "ville-am-kapan — rail : Ville ou bourg avec gare homonyme sans distance externe dans le tableau 1940.",
+          "ville-am-vanadzor — rail : Ville ou bourg avec gare homonyme sans distance externe dans le tableau 1940.",
+          "ville-am-goris — administration : Chef-lieu de district ; gare éloignée de 65 km.",
+          "ville-am-dilidjan — administration : Chef-lieu de district ; gare éloignée de 41 km.",
+          "ville-am-sevan — administration : Chef-lieu de district ; gare éloignée de 66 km.",
+          "ville-am-vagharshapat — administration : Chef-lieu de district ; gare éloignée de 9 km.",
+          "ville-am-hrazdan — identité/réserve : Chef-lieu rural dans le tableau 1940, gare Erevan à 49 km.",
+          "ville-az-gandja — rail : Ville ou bourg avec gare homonyme dans le répertoire 1940.",
+          "ville-az-agstafa — rail : Ville ou bourg avec gare homonyme dans le répertoire 1940.",
+          "ville-az-alat — rail : Ville ou bourg avec gare homonyme dans le répertoire 1940.",
+          "ville-az-yevlakh — rail : Ville ou bourg avec gare homonyme dans le répertoire 1940.",
+          "ville-az-kurdamir — rail : Ville ou bourg avec gare homonyme dans le répertoire 1940.",
+          "ville-az-tovuz — rail : Ville ou bourg avec gare homonyme dans le répertoire 1940.",
+          "ville-az-ujar — rail : Ville ou bourg avec gare homonyme dans le répertoire 1940.",
+          "ville-az-khudat — rail : Ville ou bourg avec gare homonyme dans le répertoire 1940.",
+          "ville-az-khachmaz — rail : Ville ou bourg avec gare homonyme dans le répertoire 1940.",
+          "ville-az-lankaran — port_maritime, administration : Chef-lieu ; le tableau désigne le port de Lenkoran comme desserte.",
+          "ville-az-chaki — administration : Centre administratif ; gare extérieure à 80 km.",
+          "ville-az-sabirabad — administration : Centre administratif ; gare extérieure à 12 km.",
+          "ville-az-gazakh — administration : Centre administratif ; gare extérieure à 9 km.",
+          "ville-az-stepanakert — administration : Centre administratif ; gare extérieure à 96 km.",
+          "ville-az-choucha — administration : Centre administratif ; gare extérieure à 112 km.",
+          "ville-az-sumgait — identité/réserve : Bourg et gare existent au répertoire 1940.",
+          "Les cibles différées restent des réserves ; seules les entités du JSON final sont proposées à l’import."
+        ],
+        "locator": "p236–250 ; lecteurSHPL, numéro image = page imprimée+4 ; lectures ciblées enregistrées par ville",
+        "note": "p236 image locale lue ; p240 lue à l’écran. Répertoire1940 à confronter aux changements1941–1944. Attribution RSS/RSSA ne vaut pas décision sur le type capitale dansAtlas. Lectures visuelles du lecteurSHPL p243–250 effectuées ; téléchargement limité parHTTP429, ne pas annoncer des images locales absentes.",
+        "verification_ether": {
+          "date": "2026-10-03",
+          "statut": "passage_lu",
+          "limite": "p236 image locale lue ; p240 lue à l’écran. Répertoire1940 à confronter aux changements1941–1944. Attribution RSS/RSSA ne vaut pas décision sur le type capitale dansAtlas."
+        },
+        "usages_atlas": [
+          "administration",
+          "capitale",
+          "port_maritime",
+          "rail"
+        ]
+      },
+      "note": " Complément 1.7 : voir complement_ether_1_7, nouveaux localisateurs et limites ; préserver les vérifications antérieures."
+    },
+    {
+      "source_id": "src-17-tr-atam-ports2019",
+      "operation_registre": "ajouter",
+      "niveau": "B",
+      "type_source": "article_recherche",
+      "titre": "Politiques des ports et débarcadères turcs1923–1960",
+      "institution": "Atatürk Araştırma Merkezi Dergisi, volXXXV nº100, novembre2019",
+      "url": "https://atamdergi.gov.tr/tam-metin/189/tur",
+      "date_consultation": "2026-10-03",
+      "cibles": [
+        "ville-tr-bandirma",
+        "ville-tr-erdek",
+        "ville-tr-iskenderun",
+        "ville-tr-izmir",
+        "ville-tr-izmit",
+        "ville-tr-mersin",
+        "ville-tr-mudanya",
+        "ville-tr-samsun",
+        "ville-tr-trabzon"
+      ],
+      "usage": [
+        "ville-tr-iskenderun — port_maritime : Ancien port attesté avant 1945 ; nouvel équipement ouvert le 8 janvier 1945.",
+        "ville-tr-samsun — port_maritime : Port transféré à l’administration publique en 1944.",
+        "ville-tr-mudanya — port_maritime : Débarcadère exploité par l’État depuis 1943, transfert juridique ultérieur.",
+        "ville-tr-izmir — port_maritime : Port exploité et réorganisé en 1935.",
+        "ville-tr-izmit — port_maritime : Débarcadères exploités transférés en 1943.",
+        "ville-tr-trabzon — port_maritime : Port doté du nouveau statut juridique en 1937 ; agrandissement projeté pour 1945 exclu.",
+        "ville-tr-erdek — port_maritime : Débarcadères exploités transférés en 1943.",
+        "ville-tr-mersin — port_maritime : Cinq débarcadères municipaux transférés en 1942.",
+        "ville-tr-bandirma — port_maritime : Débarcadère exploité par l’État depuis 1943, transfert juridique ultérieur.",
+        "Les cibles différées restent des réserves ; seules les entités du JSON final sont proposées à l’import."
+      ],
+      "locator": "SectionI.2 ; notes55,59,63,64,66–68",
+      "note": "Étude avec références aux archivesBCA, budgets et presse. Originaux cités non collationnés. Exclure travaux projetés et réalisations1945–1960 ; İskenderun nouveau quai ouvert8janvier1945, aprèsSnapshot.",
+      "verification_ether": {
+        "date": "2026-10-03",
+        "statut": "passage_lu",
+        "limite": "Étude avec références aux archivesBCA, budgets et presse. Originaux cités non collationnés. Exclure travaux projetés et réalisations1945–1960 ; İskenderun nouveau quai ouvert8janvier1945, aprèsSnapshot."
+      },
+      "usages_atlas": [
+        "port_maritime"
+      ]
+    },
+    {
+      "source_id": "src-17-tr-derince-histoire",
+      "operation_registre": "ajouter",
+      "niveau": "B",
+      "type_source": "histoire_institutionnelle",
+      "titre": "Histoire de Derince",
+      "institution": "Préfecture de district de Derince",
+      "url": "https://www.derince.gov.tr/tarihce",
+      "date_consultation": "2026-10-03",
+      "cibles": [
+        "ville-tr-derince"
+      ],
+      "usage": [
+        "ville-tr-derince — port_maritime : Port ouvert en 1904, peuplement de travailleurs puis installation de migrants en 1936.",
+        "Les cibles différées restent des réserves ; seules les entités du JSON final sont proposées à l’import."
+      ],
+      "locator": "Paragraphe ouverture1904 et peuplement1936",
+      "note": "Récit rétrospectif officiel ; commune distincte seulement1952, district1999. Ville portuaire de repérage proposée, limites municipales1945 réservées.",
+      "verification_ether": {
+        "date": "2026-10-03",
+        "statut": "passage_lu",
+        "limite": "Récit rétrospectif officiel ; commune distincte seulement1952, district1999. Ville portuaire de repérage proposée, limites municipales1945 réservées."
+      },
+      "usages_atlas": [
+        "port_maritime"
+      ]
+    },
+    {
+      "source_id": "src-17-ge-gm-manganese",
+      "operation_registre": "ajouter",
+      "niveau": "B",
+      "type_source": "histoire_institutionnelle",
+      "titre": "Histoires de Tchiatoura et de l’usine de ferroalliages de Zestafoni",
+      "institution": "Georgian Manganese",
+      "url": "https://www.gm.ge/en/ისტორია/",
+      "date_consultation": "2026-10-03",
+      "cibles": [
+        "ville-ge-chorapani",
+        "ville-ge-tchiatoura",
+        "ville-ge-zestafoni"
+      ],
+      "usage": [
+        "ville-ge-tchiatoura — industrie, minerai, rail : Extraction de manganèse et liaison ferroviaire locale antérieures au Snapshot.",
+        "ville-ge-zestafoni — industrie : Usine de ferroalliages en production avant 1945.",
+        "ville-ge-chorapani — rail : Gare nommée à l’origine de la branche minière.",
+        "Les cibles différées restent des réserves ; seules les entités du JSON final sont proposées à l’import."
+      ],
+      "locator": "History of Chiatura ; History of Zestafoni Ferroalloy Plant",
+      "note": "Historique de l’opérateur. Capacités actuelles et centraleVartsikhe1975–1988 exclues ; production1937 ne mesure pas1944.",
+      "verification_ether": {
+        "date": "2026-10-03",
+        "statut": "passage_lu",
+        "limite": "Historique de l’opérateur. Capacités actuelles et centraleVartsikhe1975–1988 exclues ; production1937 ne mesure pas1944."
+      },
+      "usages_atlas": [
+        "industrie",
+        "minerai",
+        "rail"
+      ]
+    },
+    {
+      "source_id": "src-17-ge-zaria19401222",
+      "operation_registre": "ajouter",
+      "niveau": "A",
+      "type_source": "presse_contemporaine",
+      "titre": "Zaria Vostoka,22décembre1940,nº296 : énergie et industrie enGéorgie",
+      "institution": "Organe duPC(b) deGéorgie ; Bibliothèque nationale parlementaire géorgienne",
+      "url": "https://dspace.nplg.gov.ge/bitstream/1234/468764/1/Zaria_Vostoka_1940_N296.pdf",
+      "date_consultation": "2026-10-03",
+      "cibles": [
+        "ville-ge-khachouri",
+        "ville-ge-samtredia",
+        "ville-ge-tbilissi",
+        "ville-ge-tchiatoura",
+        "ville-ge-tkibouli",
+        "ville-ge-zestafoni"
+      ],
+      "usage": [
+        "ville-ge-samtredia — rail : Segment Zestafoni–Samtredia électrique attesté.",
+        "ville-ge-tbilissi — rail, capitale, administration : Ligne vers Khachouri ; réunion annoncée dans la capitale de Géorgie p 2.",
+        "ville-ge-tchiatoura — industrie, minerai : Mines mentionnées parmi les clients électriques en 1940.",
+        "ville-ge-zestafoni — industrie, rail : Usine de ferroalliages ; segments ferroviaires vers Khachouri et Samtredia.",
+        "ville-ge-tkibouli — industrie, charbon : Mines charbonnières mentionnées en 1940.",
+        "ville-ge-khachouri — rail : Segments électriques vers Tbilissi et Zestafoni attestés en 1940.",
+        "Les cibles différées restent des réserves ; seules les entités du JSON final sont proposées à l’import."
+      ],
+      "locator": "p2 : В борьбе за первенство et ЭНЕРГЕТИКА ГРУЗИИ",
+      "note": "OCR de la publication datée lu ; image non obtenue(cachemiss,URL410 au téléchargement). Source politique contemporaine : seuls existence des sites et segments locaux retenus, ni propagande ni performances chiffrées.",
+      "verification_ether": {
+        "date": "2026-10-03",
+        "statut": "ocr_lu_non_collationne_sur_image",
+        "limite": "OCR de la publication datée lu ; image non obtenue(cachemiss,URL410 au téléchargement). Source politique contemporaine : seuls existence des sites et segments locaux retenus, ni propagande ni performances chiffrées."
+      },
+      "usages_atlas": [
+        "administration",
+        "capitale",
+        "charbon",
+        "industrie",
+        "minerai",
+        "rail"
+      ]
+    },
+    {
+      "source_id": "src-jdv-tome3-bielorussie-1944",
+      "niveau": "B",
+      "type_source": "synthese_historique_militaire",
+      "titre": "Troupes ferroviaires de Russie, tome 3 — restaurations en Biélorussie",
+      "institution": "N. L. Volkonski et autres, dir. G. I. Kogatko ; Moscou, Stékha, 2002",
+      "url": "https://militera.lib.ru/h/zheleznodorozhnye_voyska_rossii/25.html",
+      "date_consultation": "2026-10-02",
+      "periode_couverte": [],
+      "zones": [],
+      "usages_atlas": [
+        "rail"
+      ],
+      "cibles": [
+        "ville-by-brest",
+        "ville-by-hrodna",
+        "ville-by-babrouisk",
+        "ville-by-jlobine",
+        "ville-ru-armavir",
+        "ville-ru-beslan",
+        "ville-ru-krasnodar",
+        "ville-ru-kropotkine",
+        "ville-ru-mineralnye-vody",
+        "ville-ru-mozdok",
+        "ville-ru-nevinnomyssk",
+        "ville-ru-prokhladny",
+        "ville-ru-salsk",
+        "ville-ru-tikhoretsk"
+      ],
+      "locator": "Chapitre VII, seconde moitié de 25.html, pages imprimées [218] à [220]. Grodno juste après [218] ; Jlobine–Bobrouïsk, note {1332} ; Brest/Boug dans le paragraphe terminé par {1333}.",
+      "resume_passage": "",
+      "archive_locale": null,
+      "verification_claude": "non_verifiee",
+      "verification_ether": {
+        "statut": "passages_cibles_lus",
+        "par": "Ether",
+        "limite": "Publication consultée ; documents originaux d’archives non vus."
+      },
+      "notes": "Proposée par Ether (villes 1.5, 02/10/2026). Ce que la source prouve selon Ether : rail. Limite annoncée par Ether : Passages locaux de l’été 1944 lus dans la transcription. Le rôle ferroviaire est retenu sans date journalière ni débit. La mention de Brest ne prouve pas un poste douanier civil. Certains toponymes de la transcription sont fautifs ; aucun nom nouveau déduit. Relecture Claude 02/10/2026 : La page chargée s'arrête en pleine description des opérations de 1944 dans la région de Leningrad ; aucun passage sur le pont du Niémen à Grodno, Jlobine–Bobrouïsk, Brest ou le Boug n'a été lu. Le chapitre VII est peut-être sur une autre page. Ancien localisateur : Chapitre VII, pp. 218–220 : pont du Niémen à Grodno ; section Jlobine–Bobrouïsk ; ligne jusqu’à Brest et franchissement du Boug. Références 1332–1334 ; bibliographie éditoriale sur index.html.. Réponse d'Ether (cycle 2, 03/10/2026, Q15-03) : Transcription longue relue jusqu’au passage de 1944 : pont de Grodno, travaux Jlobine–Bobrouïsk, voie arrivée à Brest puis ouverte vers Siedlce après le pont du Boug. Le lien exact est déjà 25.html ; une lecture interrompue au début manque ces paragraphes. Brest est bien présente sous la forme fléchie Бреста ; aucune cible à retirer. Relecture Claude 03/10/2026 : WebFetch n'a lu que le début du chapitre VII (jusqu'aux opérations baltes) et n'a pas atteint les passages sur Grodno, Jlobine–Bobrouïsk et Brest. (statut : faible -> non_verifiee).",
+      "verification_ether_cycle2": {
+        "date": "2026-10-02",
+        "statut": "passages_retrouves",
+        "question": "Q15-03",
+        "constat": "Transcription longue relue jusqu’au passage de 1944 : pont de Grodno, travaux Jlobine–Bobrouïsk, voie arrivée à Brest puis ouverte vers Siedlce après le pont du Boug. Le lien exact est déjà 25.html ; une lecture interrompue au début manque ces paragraphes. Brest est bien présente sous la forme fléchie Бреста ; aucune cible à retirer.",
+        "limite": "Relecture Ether uniquement ; conserver le résultat antérieur verification_claude et demander son nouveau contrôle. Aucun original inédit authentifié."
+      },
+      "operation_registre": "completer",
+      "usage": [
+        "ville-ru-mozdok — rail : Ville et gare, reprise des travaux 3 janvier 1943.",
+        "ville-ru-beslan — rail : Branche Beslan–Prokhladnaïa dans les travaux 1943.",
+        "ville-ru-prokhladny — rail : Gare Prokhladnaïa atteinte par la restauration enjanvier 1943.",
+        "ville-ru-mineralnye-vody — rail : Restauration poursuivie depuis la gare en 1943.",
+        "ville-ru-nevinnomyssk — rail : Charges ferroviaires accumulées aux approches en 1943.",
+        "ville-ru-armavir — rail : Charges ferroviaires et voies en restauration 1943.",
+        "ville-ru-kropotkine — rail : Circulation rétablie Kavkazskaïa–Krasnodar enmars 1943.",
+        "ville-ru-krasnodar — rail : Circulation rétablie enmars 1943 ; capacité accrue enavril.",
+        "ville-ru-tikhoretsk — rail : Ligne Stalingrad–Tikhoretskaïa remise en service 1943.",
+        "ville-ru-salsk — rail : Reprise sur axe Sarepta–Salsk–Bataïsk 1942–1943.",
+        "Les cibles différées restent des réserves ; seules les entités du JSON final sont proposées à l’import."
+      ],
+      "complement_ether_1_7": {
+        "source_id": "src-jdv-tome3-bielorussie-1944",
+        "operation_registre": "completer",
+        "niveau": "B",
+        "type_source": "ouvrage_historique",
+        "titre": "Железнодорожные войска России, chapitre7 : restauration des voies1943",
+        "institution": "Édition historique reproduite parMilitera",
+        "url": "https://militera.lib.ru/h/zheleznodorozhnye_voyska_rossii/25.html",
+        "date_consultation": "2026-10-03",
+        "cibles": [
+          "ville-ru-armavir",
+          "ville-ru-beslan",
+          "ville-ru-krasnodar",
+          "ville-ru-kropotkine",
+          "ville-ru-mineralnye-vody",
+          "ville-ru-mozdok",
+          "ville-ru-nevinnomyssk",
+          "ville-ru-prokhladny",
+          "ville-ru-salsk",
+          "ville-ru-tikhoretsk"
+        ],
+        "usage": [
+          "ville-ru-mozdok — rail : Ville et gare, reprise des travaux 3 janvier 1943.",
+          "ville-ru-beslan — rail : Branche Beslan–Prokhladnaïa dans les travaux 1943.",
+          "ville-ru-prokhladny — rail : Gare Prokhladnaïa atteinte par la restauration enjanvier 1943.",
+          "ville-ru-mineralnye-vody — rail : Restauration poursuivie depuis la gare en 1943.",
+          "ville-ru-nevinnomyssk — rail : Charges ferroviaires accumulées aux approches en 1943.",
+          "ville-ru-armavir — rail : Charges ferroviaires et voies en restauration 1943.",
+          "ville-ru-kropotkine — rail : Circulation rétablie Kavkazskaïa–Krasnodar enmars 1943.",
+          "ville-ru-krasnodar — rail : Circulation rétablie enmars 1943 ; capacité accrue enavril.",
+          "ville-ru-tikhoretsk — rail : Ligne Stalingrad–Tikhoretskaïa remise en service 1943.",
+          "ville-ru-salsk — rail : Reprise sur axe Sarepta–Salsk–Bataïsk 1942–1943.",
+          "Les cibles différées restent des réserves ; seules les entités du JSON final sont proposées à l’import."
+        ],
+        "locator": "p177–185, section В период коренного перелома",
+        "note": "Transcription HTML lue. Restauration partielle ; aucune capacité1945 ni remise complète des bâtiments déduite. Juin1943 surArmavir–Touapsé est un objectif, pas une preuve d’achèvement.",
+        "verification_ether": {
+          "date": "2026-10-03",
+          "statut": "passage_lu",
+          "limite": "Transcription HTML lue. Restauration partielle ; aucune capacité1945 ni remise complète des bâtiments déduite. Juin1943 surArmavir–Touapsé est un objectif, pas une preuve d’achèvement."
+        },
+        "usages_atlas": [
+          "rail"
+        ]
+      },
+      "note": " Complément 1.7 : voir complement_ether_1_7, nouveaux localisateurs et limites ; préserver les vérifications antérieures."
+    },
+    {
+      "source_id": "src-17-ru-kropotkine-ville",
+      "operation_registre": "ajouter",
+      "niveau": "B",
+      "type_source": "histoire_institutionnelle",
+      "titre": "Histoire de la ville deKropotkine",
+      "institution": "Administration municipale",
+      "url": "https://www.gorod-kropotkin.ru/o-gorode/o-gorode-kropotkine/",
+      "date_consultation": "2026-10-03",
+      "cibles": [
+        "ville-ru-kropotkine"
+      ],
+      "usage": [
+        "ville-ru-kropotkine — rail : Gare Kavkazskaïa identifiée à la ville devenue Kropotkine en 1921.",
+        "Les cibles différées restent des réserves ; seules les entités du JSON final sont proposées à l’import."
+      ],
+      "locator": "Histoire : gareKavkazskaïa1874 et nom1921",
+      "note": "Historique local rétrospectif ; fonctions modernes non reprises.",
+      "verification_ether": {
+        "date": "2026-10-03",
+        "statut": "passage_lu",
+        "limite": "Historique local rétrospectif ; fonctions modernes non reprises."
+      },
+      "usages_atlas": [
+        "rail"
+      ]
+    },
+    {
+      "source_id": "src-17-ru-grozny-petrole2019",
+      "operation_registre": "ajouter",
+      "niveau": "B",
+      "type_source": "article_recherche",
+      "titre": "Z.Alkhastova, Petroleum Industry In Grozny In Days Of Great Patriotic War",
+      "institution": "European Proceedings58,2019,pp2392–2399",
+      "url": "https://www.europeanproceedings.com/article/10.15405/epsbs.2019.03.02.276",
+      "date_consultation": "2026-10-03",
+      "cibles": [
+        "ville-ru-grozny"
+      ],
+      "usage": [
+        "ville-ru-grozny — industrie : Raffineries et ateliers mécaniques remis en fonctionnement en 1943 ; poursuite de la production 1944.",
+        "Les cibles différées restent des réserves ; seules les entités du JSON final sont proposées à l’import."
+      ],
+      "locator": "Findings, paragraphes1943–1944",
+      "note": "Étude citant archives et travaux ; documents originaux non collationnés. Chiffres du combinat régional non attribués à la seule ville. Avril1945 exclu.",
+      "verification_ether": {
+        "date": "2026-10-03",
+        "statut": "passage_lu",
+        "limite": "Étude citant archives et travaux ; documents originaux non collationnés. Chiffres du combinat régional non attribués à la seule ville. Avril1945 exclu."
+      },
+      "usages_atlas": [
+        "industrie"
+      ]
+    },
+    {
+      "source_id": "src-17-ru-sotchi-hopitaux",
+      "operation_registre": "ajouter",
+      "niveau": "B",
+      "type_source": "histoire_institutionnelle",
+      "titre": "Sotchi, ville-hôpital : présentation bibliographique et historique",
+      "institution": "Bibliothèques municipales deSotchi",
+      "url": "https://library-sochi.ru/pic/f-209.pdf",
+      "date_consultation": "2026-10-03",
+      "cibles": [
+        "ville-ru-sotchi"
+      ],
+      "usage": [
+        "ville-ru-sotchi — militaire, rail : Trains sanitaires attestés dèsaoût 1941 ; base hospitalière spécialisée active en 1943–1944.",
+        "Les cibles différées restent des réserves ; seules les entités du JSON final sont proposées à l’import."
+      ],
+      "locator": "PDF p7,8 et13 (indices6,7,12)",
+      "note": "OCR consulté. Synthèse bibliographique avec références muséales ; capacité totale de toute la guerre non donnée comme simultanée auSnapshot. Fin1945/1946 des hôpitaux horsSnapshot.",
+      "verification_ether": {
+        "date": "2026-10-03",
+        "statut": "passage_lu",
+        "limite": "OCR consulté. Synthèse bibliographique avec références muséales ; capacité totale de toute la guerre non donnée comme simultanée auSnapshot. Fin1945/1946 des hôpitaux horsSnapshot."
+      },
+      "usages_atlas": [
+        "militaire",
+        "rail"
+      ]
+    },
+    {
+      "source_id": "src-17-az-socar-histoire",
+      "operation_registre": "ajouter",
+      "niveau": "B",
+      "type_source": "histoire_institutionnelle",
+      "titre": "Histoire du pétrole azerbaïdjanais : chronologie1900–1999",
+      "institution": "SOCAR Türkiye",
+      "url": "https://www.socar.com.tr/history-1900",
+      "date_consultation": "2026-10-03",
+      "cibles": [
+        "ville-az-bakou"
+      ],
+      "usage": [
+        "ville-az-bakou — industrie : Raffinage et extraction pétrolière localisés à Bakou avant 1945.",
+        "Les cibles différées restent des réserves ; seules les entités du JSON final sont proposées à l’import."
+      ],
+      "locator": "Entrées1931 et1941",
+      "note": "Historique de l’opérateur. Retenir activité localeBakou ; ni revendications de premières mondiales ni totaux nationaux réaffectés à la ville.",
+      "verification_ether": {
+        "date": "2026-10-03",
+        "statut": "passage_lu",
+        "limite": "Historique de l’opérateur. Retenir activité localeBakou ; ni revendications de premières mondiales ni totaux nationaux réaffectés à la ville."
+      },
+      "usages_atlas": [
+        "industrie"
+      ]
+    },
+    {
+      "source_id": "src-17-am-zaria19381201",
+      "operation_registre": "ajouter",
+      "niveau": "A",
+      "type_source": "presse_contemporaine",
+      "titre": "Zaria Vostoka,1décembre1938,nº274 : Arménie soviétique",
+      "institution": "Bibliothèque nationale parlementaire géorgienne",
+      "url": "https://dspace.nplg.gov.ge/bitstream/1234/467794/1/Zaria_Vostoka_1938_N274.pdf",
+      "date_consultation": "2026-10-03",
+      "cibles": [
+        "ville-am-alaverdi",
+        "ville-am-gyumri",
+        "ville-am-vanadzor"
+      ],
+      "usage": [
+        "ville-am-gyumri — industrie : Combinats textile et viande nommés.",
+        "ville-am-alaverdi — industrie, minerai : Mines reconstruites nommées.",
+        "ville-am-vanadzor — industrie : Combinat chimique nommé.",
+        "Les cibles différées restent des réserves ; seules les entités du JSON final sont proposées à l’import."
+      ],
+      "locator": "p2, article anniversaire18ans de l’Arménie soviétique",
+      "note": "OCR lu, non collationné sur image. Presse politique contemporaine ; seuls établissements locaux cités utilisés, aucun résultat économique propagandiste.",
+      "verification_ether": {
+        "date": "2026-10-03",
+        "statut": "ocr_lu_non_collationne_sur_image",
+        "limite": "OCR lu, non collationné sur image. Presse politique contemporaine ; seuls établissements locaux cités utilisés, aucun résultat économique propagandiste."
+      },
+      "usages_atlas": [
+        "industrie",
+        "minerai"
+      ]
+    },
+    {
+      "source_id": "src-17-rsfsr-admin1940-ocr",
+      "operation_registre": "ajouter",
+      "niveau": "A",
+      "type_source": "repertoire_administratif",
+      "titre": "Административно-территориальное деление РСФСР,1940",
+      "institution": "Répertoire administratif1940 ; reproductionDJVU.online",
+      "url": "https://djvu.online/file/mgeyBMTDRmxUm",
+      "date_consultation": "2026-10-03",
+      "cibles": [
+        "ville-ru-adler",
+        "ville-ru-anapa",
+        "ville-ru-boudionnovsk",
+        "ville-ru-bouinaksk",
+        "ville-ru-derbent",
+        "ville-ru-guelendjik",
+        "ville-ru-gueorguievsk",
+        "ville-ru-iessentouki",
+        "ville-ru-jeleznovodsk",
+        "ville-ru-khassaviourt",
+        "ville-ru-kislovodsk",
+        "ville-ru-krasnodar",
+        "ville-ru-maikop",
+        "ville-ru-makhatchkala",
+        "ville-ru-naltchik",
+        "ville-ru-piatigorsk"
+      ],
+      "usage": [
+        "ville-ru-makhatchkala — administration : Capitale de RSSA.",
+        "ville-ru-krasnodar — administration : Centre du kraï.",
+        "ville-ru-derbent — rail : Gare locale dans le tableau 1940.",
+        "ville-ru-bouinaksk — rail : Gare locale dans le tableau 1940.",
+        "ville-ru-khassaviourt — rail : Gare locale dans le tableau 1940.",
+        "ville-ru-naltchik — rail : Gare locale dans le tableau 1940.",
+        "ville-ru-naltchik — administration : Capitale de RSSA en 1940.",
+        "ville-ru-piatigorsk — rail : Gare locale dans le tableau 1940.",
+        "ville-ru-kislovodsk — rail : Gare locale dans le tableau 1940.",
+        "ville-ru-iessentouki — rail : Gare locale dans le tableau 1940.",
+        "ville-ru-jeleznovodsk — rail : Gare locale dans le tableau 1940.",
+        "ville-ru-boudionnovsk — rail : Gare locale dans le tableau 1940.",
+        "ville-ru-gueorguievsk — rail : Gare locale dans le tableau 1940.",
+        "ville-ru-maikop — rail : Gare locale dans le tableau 1940.",
+        "ville-ru-maikop — administration : Centre de l’oblast autonome.",
+        "ville-ru-adler — rail : Gare locale dans le tableau 1940.",
+        "ville-ru-anapa — administration : Chef-lieu de district ; gare extérieure.",
+        "ville-ru-guelendjik — administration : Chef-lieu de district ; gare extérieure.",
+        "Les cibles différées restent des réserves ; seules les entités du JSON final sont proposées à l’import."
+      ],
+      "locator": "RubriquesKrasnodar,Adyguée,Ordjonikidze,Daghestan,Kabardino-Balkarie ; tables villes et gares",
+      "note": "OCR seul, parfois très dégradé. Ne pas confondre avec le répertoireURSS/SHPL. Seules lignes lisibles retenues ; pagination incertaineMaïkop/Naltchik à collationner. Statuts1940 confrontés au supplément1944 ; aucune attribution capitaleRSSA/oblast.",
+      "verification_ether": {
+        "date": "2026-10-03",
+        "statut": "ocr_lu_non_collationne_sur_image",
+        "limite": "OCR seul, parfois très dégradé. Ne pas confondre avec le répertoireURSS/SHPL. Seules lignes lisibles retenues ; pagination incertaineMaïkop/Naltchik à collationner. Statuts1940 confrontés au supplément1944 ; aucune attribution capitaleRSSA/oblast."
+      },
+      "usages_atlas": [
+        "administration",
+        "rail"
+      ]
+    },
+    {
+      "source_id": "src-17-ru-dvigatelstroi-histoire",
+      "operation_registre": "ajouter",
+      "niveau": "B",
+      "type_source": "histoire_institutionnelle",
+      "titre": "Histoire deKaspiisk :1932–1947,Dvigatelstroï",
+      "institution": "Administration deKaspiisk,extrait du livreВ полосе прибоя,1994",
+      "url": "https://kaspiysk.org/kaspiysk/istoriya",
+      "date_consultation": "2026-10-03",
+      "cibles": [
+        "ville-ru-kaspiisk"
+      ],
+      "usage": [
+        "ville-ru-kaspiisk — industrie, rail : Usine d’armement en production 1937 ; liaison ferroviaire avant 1940 ; restauration entreprise enseptembre 1943.",
+        "Les cibles différées restent des réserves ; seules les entités du JSON final sont proposées à l’import."
+      ],
+      "locator": "Section1932–1947",
+      "note": "Texte intégral indexé lu ; pas de diesel1948 ni nomKaspiisk1947 à l’état1945. Port moderne non repris.",
+      "verification_ether": {
+        "date": "2026-10-03",
+        "statut": "passage_indexe_lu_lecture_directe_incomplete",
+        "limite": "Texte intégral indexé lu ; pas de diesel1948 ni nomKaspiisk1947 à l’état1945. Port moderne non repris."
+      },
+      "usages_atlas": [
+        "industrie",
+        "rail"
+      ]
+    },
+    {
+      "source_id": "src-17-ru-izberbach-petrole",
+      "operation_registre": "ajouter",
+      "niveau": "B",
+      "type_source": "histoire_institutionnelle",
+      "titre": "Notice historique d’Izberbach",
+      "institution": "Portail du gouvernement duDaghestan",
+      "url": "https://e-dag.ru/news_main/3242",
+      "date_consultation": "2026-10-03",
+      "cibles": [
+        "ville-ru-izberbach"
+      ],
+      "usage": [
+        "ville-ru-izberbach — industrie : Première extraction de pétrole au puits 8 du bourg.",
+        "Les cibles différées restent des réserves ; seules les entités du JSON final sont proposées à l’import."
+      ],
+      "locator": "Historique, premier paragraphe",
+      "note": "Métadonnée01/01/1970 manifestement technique, ne pas l’utiliser comme publication. Statut de ville1950 exclu ; nom du bourg corroboré par répertoire1940.",
+      "verification_ether": {
+        "date": "2026-10-03",
+        "statut": "passage_lu",
+        "limite": "Métadonnée01/01/1970 manifestement technique, ne pas l’utiliser comme publication. Statut de ville1950 exclu ; nom du bourg corroboré par répertoire1940."
+      },
+      "usages_atlas": [
+        "industrie"
+      ]
+    },
+    {
+      "source_id": "src-17-tr-golcuk-histoire",
+      "operation_registre": "ajouter",
+      "niveau": "B",
+      "type_source": "histoire_institutionnelle",
+      "titre": "Historique deGölcük",
+      "institution": "Préfecture deGölcük",
+      "url": "https://golcuk.gov.tr/tarihcee",
+      "date_consultation": "2026-10-03",
+      "cibles": [
+        "ville-tr-golcuk"
+      ],
+      "usage": [
+        "ville-tr-golcuk — base_navale, industrie, administration : Centre naval, ateliers de réparation et chef-lieu de district avant 1945.",
+        "Les cibles différées restent des réserves ; seules les entités du JSON final sont proposées à l’import."
+      ],
+      "locator": "1924–1936",
+      "note": "Texte officiel rétrospectif. Usines/ateliers et base ; capacité et composition de flotte1944 non établies.",
+      "verification_ether": {
+        "date": "2026-10-03",
+        "statut": "passage_lu",
+        "limite": "Texte officiel rétrospectif. Usines/ateliers et base ; capacité et composition de flotte1944 non établies."
+      },
+      "usages_atlas": [
+        "administration",
+        "base_navale",
+        "industrie"
+      ]
+    },
+    {
+      "source_id": "src-17-tr-uzunkopru-histoire",
+      "operation_registre": "ajouter",
+      "niveau": "B",
+      "type_source": "histoire_institutionnelle",
+      "titre": "Histoire d’Uzunköprü",
+      "institution": "Préfecture d’Uzunköprü",
+      "url": "https://uzunkopru.gov.tr/ilce-tarihi",
+      "date_consultation": "2026-10-03",
+      "cibles": [
+        "ville-tr-uzunkopru"
+      ],
+      "usage": [
+        "ville-tr-uzunkopru — rail : Gare attestée en 1873 ; forme Uzunköprü dans l’annuaire 1917.",
+        "Les cibles différées restent des réserves ; seules les entités du JSON final sont proposées à l’import."
+      ],
+      "locator": "1873 gare ;1917 annuaire",
+      "note": "Lecture du passage daté. Pas de fréquence ou ouverture du passage international1944 déduite.",
+      "verification_ether": {
+        "date": "2026-10-03",
+        "statut": "passage_lu",
+        "limite": "Lecture du passage daté. Pas de fréquence ou ouverture du passage international1944 déduite."
+      },
+      "usages_atlas": [
+        "rail"
+      ]
+    },
+    {
+      "source_id": "src-17-tr-rail-tamcelik",
+      "operation_registre": "ajouter",
+      "niveau": "B",
+      "type_source": "article_recherche",
+      "titre": "SoyalpTamçelik, Osmanlı Dönemi Demiryollarının Tarihî Gelişimi",
+      "institution": "Erdem,Atatürk Kültür Merkezi",
+      "url": "https://erdem.gov.tr/eng/full-text-pdf/425/tur",
+      "date_consultation": "2026-10-03",
+      "cibles": [
+        "ville-tr-denizli",
+        "ville-tr-edirne",
+        "ville-tr-egirdir",
+        "ville-tr-karkamis",
+        "ville-tr-nusaybin"
+      ],
+      "usage": [
+        "ville-tr-edirne — rail : Liaison exploitée via territoire grec après Lausanne ; nationalisation 1936–1937.",
+        "ville-tr-denizli — rail : Localité sur la liaison atteignant Eğridir en 1912.",
+        "ville-tr-egirdir — rail : Terminus atteint en 1912.",
+        "ville-tr-nusaybin — rail : Liaison Karkamış–Nusaybin ouverte en 1917.",
+        "ville-tr-karkamis — rail : Liaisons ferroviaires attestées 1912–1917.",
+        "Les cibles différées restent des réserves ; seules les entités du JSON final sont proposées à l’import."
+      ],
+      "locator": "p502 et520–521 ;PDF20 et38–39",
+      "note": "OCR de l’article lu. Certaines dates générales sont contradictoires(1856/1866) : ne pas reprendre comme dates exactes d’ouverture. Conserver localisations et antériorité attestées ; travaux1971 exclus.",
+      "verification_ether": {
+        "date": "2026-10-03",
+        "statut": "passage_lu",
+        "limite": "OCR de l’article lu. Certaines dates générales sont contradictoires(1856/1866) : ne pas reprendre comme dates exactes d’ouverture. Conserver localisations et antériorité attestées ; travaux1971 exclus."
+      },
+      "usages_atlas": [
+        "rail"
+      ]
+    },
+    {
+      "source_id": "src-17-tr-kars-rail",
+      "operation_registre": "ajouter",
+      "niveau": "B",
+      "type_source": "histoire_institutionnelle",
+      "titre": "Doğu Ekspresi : histoire des liaisonsKars–Sarıkamış",
+      "institution": "Municipalité deKars",
+      "url": "https://www.kars.bel.tr/dogu-ekspresi",
+      "date_consultation": "2026-10-03",
+      "cibles": [
+        "ville-tr-kars",
+        "ville-tr-sarikamis"
+      ],
+      "usage": [
+        "ville-tr-sarikamis — rail : Desserte ferroviaire locale antérieure au Snapshot.",
+        "ville-tr-kars — rail : Desserte ferroviaire locale antérieure au Snapshot.",
+        "Les cibles différées restent des réserves ; seules les entités du JSON final sont proposées à l’import."
+      ],
+      "locator": "Paragraphe historique1899,1913,1916–1918",
+      "note": "Passage indexé lu ; page directe ne restitue pas intégralement le texte. Phrase initiale1899 étend abusivement la destinationSarıkamış puis précise1913 : réserver la date exacte, seule antériorité1945 utilisée.",
+      "verification_ether": {
+        "date": "2026-10-03",
+        "statut": "passage_indexe_lu_lecture_directe_incomplete",
+        "limite": "Passage indexé lu ; page directe ne restitue pas intégralement le texte. Phrase initiale1899 étend abusivement la destinationSarıkamış puis précise1913 : réserver la date exacte, seule antériorité1945 utilisée."
+      },
+      "usages_atlas": [
+        "rail"
+      ]
+    },
+    {
+      "source_id": "src-17-tr-vangolu-cumhuriyet1936",
+      "operation_registre": "ajouter",
+      "niveau": "A",
+      "type_source": "presse_contemporaine",
+      "titre": "MekkiSaidEsen, Vangölü çevresinde yeni hayat uyanıyor,Cumhuriyet29octobre1936",
+      "institution": "Archives du journalCumhuriyet",
+      "url": "https://egazete.cumhuriyet.com.tr/en/catalog/192/1936/10/29/8",
+      "date_consultation": "2026-10-03",
+      "cibles": [
+        "ville-tr-tatvan",
+        "ville-tr-van"
+      ],
+      "usage": [
+        "ville-tr-tatvan — ferry : Service de voyageurs et marchandises déjà actif en 1936 ; siège d’exploitation transféré à Tatvan.",
+        "ville-tr-van — ferry : Desserte lacustre de Van en 1936 par son débarcadère distant de 9 km.",
+        "Les cibles différées restent des réserves ; seules les entités du JSON final sont proposées à l’import."
+      ],
+      "locator": "p8, articleVan–Tatvan",
+      "note": "OCR mêlant colonnes mais passages locaux lisibles ; constructions annoncées distinguées des dessertes déjà actives. Aucun ferry ferroviaire déduit.",
+      "verification_ether": {
+        "date": "2026-10-03",
+        "statut": "ocr_lu_non_collationne_sur_image",
+        "limite": "OCR mêlant colonnes mais passages locaux lisibles ; constructions annoncées distinguées des dessertes déjà actives. Aucun ferry ferroviaire déduit."
+      },
+      "usages_atlas": [
+        "ferry"
+      ]
+    },
+    {
+      "source_id": "src-17-tr-gelibolu-administration",
+      "operation_registre": "ajouter",
+      "niveau": "B",
+      "type_source": "histoire_institutionnelle",
+      "titre": "Gelibolu : histoire administrative",
+      "institution": "Direction de laCulture et duTourisme deÇanakkale",
+      "url": "https://canakkale.ktb.gov.tr/TR-70539/gelibolu.html",
+      "date_consultation": "2026-10-03",
+      "cibles": [
+        "ville-tr-gelibolu"
+      ],
+      "usage": [
+        "ville-tr-gelibolu — administration : Ancien chef-lieu provincial devenu chef-lieu de district de Çanakkale.",
+        "Les cibles différées restent des réserves ; seules les entités du JSON final sont proposées à l’import."
+      ],
+      "locator": "Dernier paragraphe :1923/1926",
+      "note": "Passage indexé lu ; ancienne base ottomane ne prouve pas fonction navale1944.",
+      "verification_ether": {
+        "date": "2026-10-03",
+        "statut": "passage_indexe_lu_lecture_directe_incomplete",
+        "limite": "Passage indexé lu ; ancienne base ottomane ne prouve pas fonction navale1944."
+      },
+      "usages_atlas": [
+        "administration"
+      ]
+    },
+    {
+      "source_id": "src-17-tr-tdv-sanliurfa",
+      "operation_registre": "ajouter",
+      "niveau": "B",
+      "type_source": "encyclopedie_scientifique",
+      "titre": "NoticeUrfa",
+      "institution": "TDV İslâm Ansiklopedisi",
+      "url": "https://islamansiklopedisi.org.tr/sanliurfa",
+      "date_consultation": "2026-10-03",
+      "cibles": [
+        "ville-tr-sanliurfa"
+      ],
+      "usage": [
+        "ville-tr-sanliurfa — administration : Chef-lieu provincial depuis 20 avril 1924.",
+        "Les cibles différées restent des réserves ; seules les entités du JSON final sont proposées à l’import."
+      ],
+      "locator": "MetinTuncel,sectionBugünküŞanlıurfa",
+      "note": "Notice savante rétrospective lue ; Ne pas anticiper le préfixeŞanlı ; activité de transit1944 non prouvée.",
+      "verification_ether": {
+        "date": "2026-10-03",
+        "statut": "passage_lu",
+        "limite": "Notice savante rétrospective lue ; Ne pas anticiper le préfixeŞanlı ; activité de transit1944 non prouvée."
+      },
+      "usages_atlas": [
+        "administration"
+      ]
+    },
+    {
+      "source_id": "src-17-tr-tdv-antalya",
+      "operation_registre": "ajouter",
+      "niveau": "B",
+      "type_source": "encyclopedie_scientifique",
+      "titre": "NoticeAntalya",
+      "institution": "TDV İslâm Ansiklopedisi",
+      "url": "https://islamansiklopedisi.org.tr/antalya",
+      "date_consultation": "2026-10-03",
+      "cibles": [
+        "ville-tr-antalya"
+      ],
+      "usage": [
+        "ville-tr-antalya — administration : Chef-lieu provincial au début de la République ; recensement 1927.",
+        "Les cibles différées restent des réserves ; seules les entités du JSON final sont proposées à l’import."
+      ],
+      "locator": "sectionBugünküAntalya",
+      "note": "Notice savante rétrospective lue ; Port ancien à documenter séparément ; port moderne exclu.",
+      "verification_ether": {
+        "date": "2026-10-03",
+        "statut": "passage_lu",
+        "limite": "Notice savante rétrospective lue ; Port ancien à documenter séparément ; port moderne exclu."
+      },
+      "usages_atlas": [
+        "administration"
+      ]
+    },
+    {
+      "source_id": "src-17-tr-tdv-canakkale",
+      "operation_registre": "ajouter",
+      "niveau": "B",
+      "type_source": "encyclopedie_scientifique",
+      "titre": "NoticeÇanakkale",
+      "institution": "TDV İslâm Ansiklopedisi",
+      "url": "https://islamansiklopedisi.org.tr/canakkale",
+      "date_consultation": "2026-10-03",
+      "cibles": [
+        "ville-tr-canakkale"
+      ],
+      "usage": [
+        "ville-tr-canakkale — militaire : Concentration de troupes pendant la Seconde Guerre mondiale.",
+        "Les cibles différées restent des réserves ; seules les entités du JSON final sont proposées à l’import."
+      ],
+      "locator": "paragraphespopulation1927–1945",
+      "note": "Notice savante rétrospective lue ; Ne pas projeter le retrait de1945 ; unités et fonction portuaire précise à renforcer.",
+      "verification_ether": {
+        "date": "2026-10-03",
+        "statut": "passage_lu",
+        "limite": "Notice savante rétrospective lue ; Ne pas projeter le retrait de1945 ; unités et fonction portuaire précise à renforcer."
+      },
+      "usages_atlas": [
+        "militaire"
+      ]
+    },
+    {
+      "source_id": "src-17-tr-tdv-rize",
+      "operation_registre": "ajouter",
+      "niveau": "B",
+      "type_source": "encyclopedie_scientifique",
+      "titre": "NoticeRize",
+      "institution": "TDV İslâm Ansiklopedisi",
+      "url": "https://islamansiklopedisi.org.tr/rize",
+      "date_consultation": "2026-10-03",
+      "cibles": [
+        "ville-tr-rize"
+      ],
+      "usage": [
+        "ville-tr-rize — administration : Chef-lieu provincial de nouveau en 1936.",
+        "Les cibles différées restent des réserves ; seules les entités du JSON final sont proposées à l’import."
+      ],
+      "locator": "paragraphes1924,1933,1936/1947",
+      "note": "Notice savante rétrospective lue ; Première usine de thé1947 exclue.",
+      "verification_ether": {
+        "date": "2026-10-03",
+        "statut": "passage_lu",
+        "limite": "Notice savante rétrospective lue ; Première usine de thé1947 exclue."
+      },
+      "usages_atlas": [
+        "administration"
+      ]
+    },
+    {
+      "source_id": "src-17-tr-tdv-giresun",
+      "operation_registre": "ajouter",
+      "niveau": "B",
+      "type_source": "encyclopedie_scientifique",
+      "titre": "NoticeGiresun",
+      "institution": "TDV İslâm Ansiklopedisi",
+      "url": "https://islamansiklopedisi.org.tr/giresun",
+      "date_consultation": "2026-10-03",
+      "cibles": [
+        "ville-tr-giresun"
+      ],
+      "usage": [
+        "ville-tr-giresun — grande_ville : Centre urbain de plus de 15000 habitants en 1940.",
+        "Les cibles différées restent des réserves ; seules les entités du JSON final sont proposées à l’import."
+      ],
+      "locator": "paragraphes1940 et quartiers",
+      "note": "Notice savante rétrospective lue ; Sélection régionale, pas grande ville nationale ; port moderne1959 exclu. Fonction exportatrice1944 à établir.",
+      "verification_ether": {
+        "date": "2026-10-03",
+        "statut": "passage_lu",
+        "limite": "Notice savante rétrospective lue ; Sélection régionale, pas grande ville nationale ; port moderne1959 exclu. Fonction exportatrice1944 à établir."
+      },
+      "usages_atlas": [
+        "identite"
+      ]
+    },
+    {
+      "source_id": "src-17-tr-raman-mapeg1991",
+      "operation_registre": "ajouter",
+      "niveau": "B",
+      "type_source": "rapport_institutionnel",
+      "titre": "Türkiye’deki rafineriler,rapport pétrolier1991",
+      "institution": "MAPEG,administration des mines et du pétrole",
+      "url": "https://www.mapeg.gov.tr/Uploads/PetrolDergileri/1991tam.pdf",
+      "date_consultation": "2026-10-03",
+      "cibles": [
+        "ville-tr-batman"
+      ],
+      "usage": [
+        "ville-tr-batman — identité/réserve : Raffinerie d’essai située dans la région Raman, avant les installations de Batman.",
+        "Les cibles différées restent des réserves ; seules les entités du JSON final sont proposées à l’import."
+      ],
+      "locator": "PassageRaman,MaymuneBoğazı1942,Batmanİstasyonu",
+      "note": "Passage indexé seulement ; pagination/image non contrôlées. Sert à isoler une réserve de localisation, pas à attribuer une industrie à la villeBatman1945.",
+      "verification_ether": {
+        "date": "2026-10-03",
+        "statut": "passage_indexe_lu_lecture_directe_incomplete",
+        "limite": "Passage indexé seulement ; pagination/image non contrôlées. Sert à isoler une réserve de localisation, pas à attribuer une industrie à la villeBatman1945."
+      },
+      "usages_atlas": [
+        "identite"
+      ]
+    },
+    {
+      "source_id": "src-17-tr-frus19411128-chrome",
+      "operation_registre": "ajouter",
+      "niveau": "A",
+      "type_source": "document_diplomatique",
+      "titre": "Télégramme Kelley au secrétaire d’État,28 novembre1941,FRUS1941III,document1042",
+      "institution": "US Department of State,Office of the Historian",
+      "url": "https://history.state.gov/historicaldocuments/frus1941v03/d1042",
+      "date_consultation": "2026-10-03",
+      "cibles": [
+        "ville-tr-fethiye",
+        "ville-tr-iskenderun",
+        "ville-tr-mersin"
+      ],
+      "usage": [
+        "ville-tr-iskenderun — port_maritime : Port cité parmi les débouchés accessibles ennovembre 1941.",
+        "ville-tr-mersin — port_maritime : Port cité parmi les débouchés accessibles ennovembre 1941.",
+        "ville-tr-fethiye — port_maritime : Fethiye est un port de regroupement du chrome ennovembre 1941.",
+        "Les cibles différées restent des réserves ; seules les entités du JSON final sont proposées à l’import."
+      ],
+      "locator": "Paragraphes transport,Fethiye et ports accessibles,pp973–974",
+      "note": "Stocks et moyens affrétés attestés ; chargements futurs et projections1942 ne sont pas des mouvements accomplis. Aucun tonnage livré proposé.",
+      "verification_ether": {
+        "date": "2026-10-03",
+        "statut": "passage_lu",
+        "limite": "Stocks et moyens affrétés attestés ; chargements futurs et projections1942 ne sont pas des mouvements accomplis. Aucun tonnage livré proposé."
+      },
+      "usages_atlas": [
+        "port_maritime"
+      ]
+    },
+    {
+      "source_id": "src-17-tr-admin-mardin",
+      "operation_registre": "ajouter",
+      "niveau": "B",
+      "type_source": "notice_historique",
+      "titre": "Notice historique deMardin",
+      "institution": "TDV İslâm Ansiklopedisi",
+      "url": "https://islamansiklopedisi.org.tr/mardin",
+      "date_consultation": "2026-10-03",
+      "cibles": [
+        "ville-tr-mardin"
+      ],
+      "usage": [
+        "ville-tr-mardin — administration : Chef-lieu provincial au début de la République.",
+        "Les cibles différées restent des réserves ; seules les entités du JSON final sont proposées à l’import."
+      ],
+      "locator": "Sectionhistoire,paragrapheCumhuriyetbaşlarında",
+      "note": "Ne pas projeter les industries modernes ni le recensement de1945 après leSnapshot.",
+      "verification_ether": {
+        "date": "2026-10-03",
+        "statut": "passage_lu",
+        "limite": "Ne pas projeter les industries modernes ni le recensement de1945 après leSnapshot."
+      },
+      "usages_atlas": [
+        "administration"
+      ]
+    },
+    {
+      "source_id": "src-17-tr-admin-antakya",
+      "operation_registre": "ajouter",
+      "niveau": "B",
+      "type_source": "notice_historique",
+      "titre": "Notice historique deAntakya",
+      "institution": "TDV İslâm Ansiklopedisi",
+      "url": "https://islamansiklopedisi.org.tr/antakya",
+      "date_consultation": "2026-10-03",
+      "cibles": [
+        "ville-tr-antakya"
+      ],
+      "usage": [
+        "ville-tr-antakya — administration : Chef-lieu du Hatay en 1939 ; ville recensée en 1940.",
+        "Les cibles différées restent des réserves ; seules les entités du JSON final sont proposées à l’import."
+      ],
+      "locator": "Derniers paragraphes historiques,1939–1940",
+      "note": "Jour précis de rattachement non repris ; pas de rail déduit du projet ottoman refusé.",
+      "verification_ether": {
+        "date": "2026-10-03",
+        "statut": "passage_lu",
+        "limite": "Jour précis de rattachement non repris ; pas de rail déduit du projet ottoman refusé."
+      },
+      "usages_atlas": [
+        "administration"
+      ]
+    },
+    {
+      "source_id": "src-17-tr-admin-ordu",
+      "operation_registre": "ajouter",
+      "niveau": "B",
+      "type_source": "notice_historique",
+      "titre": "Notice historique deOrdu",
+      "institution": "Ministère turc de laCulture,TürkiyeKültürPortalı",
+      "url": "https://kulturportali.gov.tr/turkiye/ordu",
+      "date_consultation": "2026-10-03",
+      "cibles": [
+        "ville-tr-ordu"
+      ],
+      "usage": [
+        "ville-tr-ordu — administration : Centre administratif devenu chef-lieu provincial en 1921.",
+        "Les cibles différées restent des réserves ; seules les entités du JSON final sont proposées à l’import."
+      ],
+      "locator": "SectionOrduKazasınınİlOluşu,1920–1921",
+      "note": "Statut rétrospectif ; date exacte de promulgation à collationner ; pas de port moderne ni trafic1944 déduits.",
+      "verification_ether": {
+        "date": "2026-10-03",
+        "statut": "passage_lu",
+        "limite": "Statut rétrospectif ; date exacte de promulgation à collationner ; pas de port moderne ni trafic1944 déduits."
+      },
+      "usages_atlas": [
+        "administration"
+      ]
+    },
+    {
+      "source_id": "src-17-ge-zaria19410212",
+      "operation_registre": "ajouter",
+      "niveau": "A",
+      "type_source": "presse_contemporaine",
+      "titre": "Заря Востока,12février1941,n35,industrie charbonnière",
+      "institution": "Bibliothèque nationale parlementaire deGéorgie",
+      "url": "https://dspace.nplg.gov.ge/bitstream/1234/468753/1/Zaria_Vostoka_1941_N35.pdf",
+      "date_consultation": "2026-10-03",
+      "cibles": [
+        "ville-ge-tkvarcheli"
+      ],
+      "usage": [
+        "ville-ge-tkvarcheli — charbon, industrie : Mineurs et extraction de charbon localisés à Tkvarcheli enjanvier 1941.",
+        "Les cibles différées restent des réserves ; seules les entités du JSON final sont proposées à l’import."
+      ],
+      "locator": "p3/PDF3,article sur les mineurs deTkvarcheli",
+      "note": "OCR lu ; chiffres de rendement et langage de propagande non repris. Exploitation antérieure auSnapshot, pas mesure de production1944.",
+      "verification_ether": {
+        "date": "2026-10-03",
+        "statut": "ocr_lu_non_collationne_sur_image",
+        "limite": "OCR lu ; chiffres de rendement et langage de propagande non repris. Exploitation antérieure auSnapshot, pas mesure de production1944."
+      },
+      "usages_atlas": [
+        "charbon",
+        "industrie"
+      ]
+    },
+    {
+      "source_id": "src-vayner-transport-guerre-ch4",
+      "niveau": "B",
+      "type_source": "etude_historique",
+      "titre": "Le transport maritime soviétique pendant la Grande Guerre patriotique — chapitre 4",
+      "institution": "B. A. Vaïner / édition numérisée Militera",
+      "url": "https://militera.lib.ru/h/vayner_ba/04.html",
+      "date_consultation": "2026-10-02",
+      "periode_couverte": [],
+      "zones": [],
+      "usages_atlas": [
+        "port_fluvial",
+        "port_maritime",
+        "rail",
+        "industrie"
+      ],
+      "cibles": [
+        "ville-kz-atyraou",
+        "ville-ru-doudinka",
+        "ville-tm-turkmenbasy",
+        "ville-az-bakou",
+        "ville-ge-batoumi",
+        "ville-ge-poti",
+        "ville-ru-touapse"
+      ],
+      "locator": "Pages 187–194 ; sections navigation arctique 1944 et transport pétrolier caspien.",
+      "resume_passage": "",
+      "archive_locale": null,
+      "verification_claude": "faible",
+      "verification_ether": {
+        "statut": "passages_lus",
+        "par": "Ether",
+        "limite": "Synthèse historique citant des archives ; chiffres globaux non attribués à une ville. Région portuaire distinguée du centre urbain.",
+        "date": "2026-10-03"
+      },
+      "notes": "Proposée par Ether (villes 1.6, 03/10/2026). Ce que la source prouve selon Ether : ville-tm-turkmenbasy — port_maritime : Transbordement de coton, céréales et bois en 1944.; ville-kz-atyraou — port_maritime, port_fluvial, rail : Transbordements mer–barges–citernes en 1942 ; installations dispersées, point de ville à conserver distinct.; ville-ru-doudinka — port_maritime : Voyages maritimes depuis Arkhangelsk durant la navigation 1944.; Rôle importable uniquement s’il figure dans le JSON final des villes ; autres usages = contexte ou réserve, voir sélection.. Limite annoncée par Ether : Synthèse historique citant des archives ; chiffres globaux non attribués à une ville. Région portuaire distinguée du centre urbain. Relecture Claude 03/10/2026 : Page lisible mais l'outil n'y trouve ni Krasnovodsk/Turkmenbachi 1944, ni Atyraou 1942, ni voyages Arkhangelsk-Doudinka 1944 ; seules des mentions générales de Doudinka en 1941-1943.",
+      "operation_registre": "completer",
+      "usage": [
+        "ville-ge-batoumi — port_maritime, industrie : Transports pétroliers 1943–1944 ; ateliers de réparation navale nommés dans l’ordre du 25 septembre 1944.",
+        "ville-ge-poti — port_maritime : Départ de cargos et pétroliers vers Touapsé avant l’élargissement des opérations en 1944.",
+        "ville-az-bakou — port_maritime : Port pétrolier de départ vers la Caspienne pendant la guerre.",
+        "ville-ru-touapse — port_maritime, industrie : Transports de ravitaillement et ateliers de réparation navale en 1944.",
+        "Les cibles différées restent des réserves ; seules les entités du JSON final sont proposées à l’import."
+      ],
+      "complement_ether_1_7": {
+        "source_id": "src-vayner-transport-guerre-ch4",
+        "operation_registre": "completer",
+        "niveau": "B",
+        "type_source": "histoire_militaire",
+        "titre": "Le transport maritime soviétique pendant laGrandeGuerre patriotique,chapitre4",
+        "institution": "B.A.Vayner,édition1964,transcriptionMilitera",
+        "url": "https://militera.lib.ru/h/vayner_ba/04.html",
+        "date_consultation": "2026-10-03",
+        "cibles": [
+          "ville-az-bakou",
+          "ville-ge-batoumi",
+          "ville-ge-poti",
+          "ville-ru-touapse"
+        ],
+        "usage": [
+          "ville-ge-batoumi — port_maritime, industrie : Transports pétroliers 1943–1944 ; ateliers de réparation navale nommés dans l’ordre du 25 septembre 1944.",
+          "ville-ge-poti — port_maritime : Départ de cargos et pétroliers vers Touapsé avant l’élargissement des opérations en 1944.",
+          "ville-az-bakou — port_maritime : Port pétrolier de départ vers la Caspienne pendant la guerre.",
+          "ville-ru-touapse — port_maritime, industrie : Transports de ravitaillement et ateliers de réparation navale en 1944.",
+          "Les cibles différées restent des réserves ; seules les entités du JSON final sont proposées à l’import."
+        ],
+        "locator": "pp194–196,transports merNoire et ordre25septembre1944",
+        "note": "Transcription sans fac-similé ; ports et ateliers attestés, pas de tonnages ni installations modernes. Complément à fusionner avec la notice canonique et la réponse1.6 du même jour.",
+        "verification_ether": {
+          "date": "2026-10-03",
+          "statut": "passage_lu",
+          "limite": "Transcription sans fac-similé ; ports et ateliers attestés, pas de tonnages ni installations modernes. Complément à fusionner avec la notice canonique et la réponse1.6 du même jour."
+        },
+        "usages_atlas": [
+          "industrie",
+          "port_maritime"
+        ]
+      },
+      "note": " Complément 1.7 : voir complement_ether_1_7, nouveaux localisateurs et limites ; préserver les vérifications antérieures."
+    },
+    {
+      "source_id": "src-17-ge-ivanov-transports1943",
+      "operation_registre": "ajouter",
+      "niveau": "B",
+      "type_source": "histoire_militaire",
+      "titre": "P.N.Ivanov,Крылья над морем,chapitre5",
+      "institution": "TranscriptionMilitera",
+      "url": "https://militera.lib.ru/h/ivanov_pn/05.html",
+      "date_consultation": "2026-10-03",
+      "cibles": [
+        "ville-ge-soukhoumi"
+      ],
+      "usage": [
+        "ville-ge-soukhoumi — port_maritime : Départ de transports maritimes de troupes et ravitaillement en 1943.",
+        "Les cibles différées restent des réserves ; seules les entités du JSON final sont proposées à l’import."
+      ],
+      "locator": "Sectionoffensive1943,paragrapheТуапсе,Сухуми,Поти иБатуми",
+      "note": "Transport de troupes et charges militaires attesté ; ne prouve pas une garnison permanente ni une base actuelle.",
+      "verification_ether": {
+        "date": "2026-10-03",
+        "statut": "passage_lu",
+        "limite": "Transport de troupes et charges militaires attesté ; ne prouve pas une garnison permanente ni une base actuelle."
+      },
+      "usages_atlas": [
+        "port_maritime"
+      ]
+    },
+    {
+      "source_id": "src-17-tr-maden-bakir-etude",
+      "operation_registre": "ajouter",
+      "niveau": "B",
+      "type_source": "article_scientifique",
+      "titre": "EtibankErganiBakırİşletmesi’ninKuruluşuveElazığ’ınMadenİlçesineGetirdikleri,notice d’article",
+      "institution": "TRDizin,TÜBİTAKULAKBİM",
+      "url": "https://search.trdizin.gov.tr/en/yayin/detay/269303/",
+      "date_consultation": "2026-10-03",
+      "cibles": [
+        "ville-tr-maden"
+      ],
+      "usage": [
+        "ville-tr-maden — industrie, minerai : Usine de cuivre Ergani entrée en production à Maden en 1939.",
+        "Les cibles différées restent des réserves ; seules les entités du JSON final sont proposées à l’import."
+      ],
+      "locator": "Résumé :Maden’de1939’daüretimegeçen",
+      "note": "Résumé indexé lu ; texte intégral non collationné. Distingue explicitementMaden de la villeErgani ; aucune gare ou quantité déduite.",
+      "verification_ether": {
+        "date": "2026-10-03",
+        "statut": "passage_indexe_lu_lecture_directe_incomplete",
+        "limite": "Résumé indexé lu ; texte intégral non collationné. Distingue explicitementMaden de la villeErgani ; aucune gare ou quantité déduite."
+      },
+      "usages_atlas": [
+        "industrie",
+        "minerai"
+      ]
+    },
+    {
+      "source_id": "src-17-tr-mersin-tarsus-histoire",
+      "operation_registre": "ajouter",
+      "niveau": "B",
+      "type_source": "histoire_institutionnelle",
+      "titre": "Historique deMersin etTarsus",
+      "institution": "Direction de laCulture et duTourisme deMersin",
+      "url": "https://mersin.ktb.gov.tr/TR-73152/tarihce.html",
+      "date_consultation": "2026-10-03",
+      "cibles": [
+        "ville-tr-mersin",
+        "ville-tr-tarsus"
+      ],
+      "usage": [
+        "ville-tr-mersin — rail : Desserte ferroviaire urbaine attestée avant le Snapshot.",
+        "ville-tr-tarsus — rail : Desserte ferroviaire urbaine attestée avant le Snapshot.",
+        "Les cibles différées restent des réserves ; seules les entités du JSON final sont proposées à l’import."
+      ],
+      "locator": "Paragraphesliaisonferroviaire1888etvoyage10mai1926",
+      "note": "La notice date1888 là où des histoires du réseau donnent1886 : date précise réservée, seule desserte antérieure1945 retenue.",
+      "verification_ether": {
+        "date": "2026-10-03",
+        "statut": "passage_lu",
+        "limite": "La notice date1888 là où des histoires du réseau donnent1886 : date précise réservée, seule desserte antérieure1945 retenue."
+      },
+      "usages_atlas": [
+        "rail"
+      ]
+    },
+    {
+      "source_id": "src-17-tr-kirklareli-gare",
+      "operation_registre": "ajouter",
+      "niveau": "B",
+      "type_source": "histoire_institutionnelle",
+      "titre": "Inventaire39-01-803,réservoir de la gare deKırklareli",
+      "institution": "Inventaire culturel deKırklareli",
+      "url": "https://kirklarelienvanteri.gov.tr/684-ada-1-parsel-su-deposu-277",
+      "date_consultation": "2026-10-03",
+      "cibles": [
+        "ville-tr-kirklareli"
+      ],
+      "usage": [
+        "ville-tr-kirklareli — rail : Équipement de la gare locale construit pour les trains à vapeur en 1910–1912.",
+        "Les cibles différées restent des réserves ; seules les entités du JSON final sont proposées à l’import."
+      ],
+      "locator": "GenelBilgiler :1910–1912,ŞarkDemiryolları,gares et trains à vapeur",
+      "note": "Bâtiment ferroviaire local daté ; ne mesure ni service1944 ni passage frontalier. Fiche de construction à compléter pour continuité.",
+      "verification_ether": {
+        "date": "2026-10-03",
+        "statut": "passage_lu",
+        "limite": "Bâtiment ferroviaire local daté ; ne mesure ni service1944 ni passage frontalier. Fiche de construction à compléter pour continuité."
+      },
+      "usages_atlas": [
+        "rail"
+      ]
+    },
+    {
+      "source_id": "src-17-tr-guleman-localisation",
+      "operation_registre": "ajouter",
+      "niveau": "B",
+      "type_source": "histoire_institutionnelle",
+      "titre": "Historique d’Alacakaya etGuleman",
+      "institution": "Direction de l’Éducation nationale d’Alacakaya",
+      "url": "https://alacakaya.meb.gov.tr/www/tarihce/icerik/95",
+      "date_consultation": "2026-10-03",
+      "cibles": [
+        "ville-tr-alacakaya"
+      ],
+      "usage": [
+        "ville-tr-alacakaya — identité/réserve : Extraction de chrome dès 1936 et établissement 1939, village et cité industrielle distincts.",
+        "Les cibles différées restent des réserves ; seules les entités du JSON final sont proposées à l’import."
+      ],
+      "locator": "Paragraphes1935–1939etfusion1987",
+      "note": "Notice lue : villageGuleman distinct à2km du centre minier actuel ; fusion1987 exclue. Preuve de réserve, ne fusionne pas les points.",
+      "verification_ether": {
+        "date": "2026-10-03",
+        "statut": "passage_lu",
+        "limite": "Notice lue : villageGuleman distinct à2km du centre minier actuel ; fusion1987 exclue. Preuve de réserve, ne fusionne pas les points."
+      },
+      "usages_atlas": [
+        "identite"
+      ]
+    },
+    {
+      "source_id": "src-17-tr-erzincan-reconstruction",
+      "niveau": "B",
+      "type_source": "histoire_institutionnelle",
+      "titre": "Erzincan — histoire de la ville et reconstruction après 1939",
+      "institution": "Gouvernorat d’Erzincan",
+      "url": "https://www.erzincan.gov.tr/tarihce",
+      "date_consultation": "2026-10-03",
+      "cibles": [
+        "ville-tr-erzincan"
+      ],
+      "usage": [
+        "ville-tr-erzincan — identité/réserve : Reconstruction sur un autre emplacement après le séisme de 1939 ; centre à retenir en 1945 non établi.",
+        "Les cibles différées restent des réserves ; seules les entités du JSON final sont proposées à l’import."
+      ],
+      "locator": "Derniers paragraphes : séisme de 1939, nouvelle construction au-delà de la voie ferrée",
+      "note": "Notice lue ; chronologie précise du transfert des habitants et centre au 1er janvier 1945 non établis. Pas de point actuel importé.",
+      "verification_ether": {
+        "date": "2026-10-03",
+        "statut": "passage_lu",
+        "limite": "Localisation au Snapshot non résolue."
+      },
+      "usages_atlas": [
+        "identite"
+      ],
+      "operation_registre": "ajouter"
+    },
+    {
+      "source_id": "src-17-geonames-reperes",
+      "operation_registre": "ajouter",
+      "niveau": "C",
+      "type_source": "base_geographique",
+      "titre": "GeoNames — repères actuels des peuplements du lot 1.7",
+      "institution": "GeoNames",
+      "url": "https://download.geonames.org/export/dump/",
+      "date_consultation": "2026-10-03",
+      "cibles": [
+        "ville-tr-ankara",
+        "ville-ge-batoumi",
+        "ville-ge-samtredia",
+        "ville-tr-iskenderun",
+        "ville-tr-kayseri",
+        "ville-tr-sivas",
+        "ville-tr-malatya",
+        "ville-tr-diyarbakir",
+        "ville-tr-ulukisla",
+        "ville-tr-eskisehir",
+        "ville-tr-konya",
+        "ville-tr-adana",
+        "ville-tr-afyon",
+        "ville-tr-kutahya",
+        "ville-tr-tavsanli",
+        "ville-tr-balikesir",
+        "ville-tr-manisa",
+        "ville-tr-askale",
+        "ville-tr-erzurum",
+        "ville-tr-divrigi",
+        "ville-tr-sarikamis",
+        "ville-tr-samsun",
+        "ville-tr-havza",
+        "ville-tr-cetinkaya",
+        "ville-tr-filyos",
+        "ville-tr-irmak",
+        "ville-tr-isparta",
+        "ville-tr-elazig",
+        "ville-tr-yolcati",
+        "ville-tr-istanbul",
+        "ville-tr-arifiye",
+        "ville-tr-adapazari",
+        "ville-tr-mudanya",
+        "ville-tr-bursa",
+        "ville-tr-izmir",
+        "ville-tr-aydin",
+        "ville-ge-poti",
+        "ville-ge-tbilissi",
+        "ville-ge-borjomi",
+        "ville-ge-bakouriani",
+        "ville-az-bakou",
+        "ville-tr-kirikkale",
+        "ville-tr-eregli-konya",
+        "ville-tr-nazilli",
+        "ville-tr-gemlik",
+        "ville-tr-izmit",
+        "ville-tr-karabuk",
+        "ville-tr-hereke",
+        "ville-tr-bunyan",
+        "ville-tr-zonguldak",
+        "ville-tr-eregli-mer-noire",
+        "ville-tr-soma",
+        "ville-tr-keciborlu",
+        "ville-ru-novorossiisk",
+        "ville-ru-ieisk",
+        "ville-ru-temriouk",
+        "ville-ru-touapse",
+        "ville-ru-sotchi",
+        "ville-ru-vladikavkaz",
+        "ville-ru-grozny",
+        "ville-ru-goudermes",
+        "ville-ru-kizliar",
+        "ville-ru-stavropol",
+        "ville-ru-mozdok",
+        "ville-ru-makhatchkala",
+        "ville-am-gyumri",
+        "ville-am-erevan",
+        "ville-tr-tekirdag",
+        "ville-tr-yalova",
+        "ville-tr-gaziantep",
+        "ville-az-nakhitchevan",
+        "ville-ge-tkvarcheli",
+        "ville-tr-trabzon",
+        "ville-tr-erdek",
+        "ville-tr-mersin",
+        "ville-tr-bandirma",
+        "ville-tr-derince",
+        "ville-ge-tchiatoura",
+        "ville-ge-zestafoni",
+        "ville-ge-chorapani",
+        "ville-ge-tkibouli",
+        "ville-ge-khachouri",
+        "ville-ge-koutaissi",
+        "ville-ge-gori",
+        "ville-ge-gourdjaani",
+        "ville-ge-zougdidi",
+        "ville-ge-kaspi",
+        "ville-ge-lantchkhouti",
+        "ville-ge-ozourgueti",
+        "ville-ge-mtskheta",
+        "ville-ge-satchkhere",
+        "ville-ge-akhalkalaki",
+        "ville-ge-akhaltsikhe",
+        "ville-ge-telavi",
+        "ville-ge-soukhoumi",
+        "ville-ge-tskhinvali",
+        "ville-am-alaverdi",
+        "ville-am-artik",
+        "ville-am-akhtala",
+        "ville-am-kapan",
+        "ville-am-vanadzor",
+        "ville-am-goris",
+        "ville-am-dilidjan",
+        "ville-am-sevan",
+        "ville-am-vagharshapat",
+        "ville-az-gandja",
+        "ville-az-agstafa",
+        "ville-az-alat",
+        "ville-az-yevlakh",
+        "ville-az-kurdamir",
+        "ville-az-tovuz",
+        "ville-az-ujar",
+        "ville-az-khachmaz",
+        "ville-az-lankaran",
+        "ville-az-chaki",
+        "ville-az-sabirabad",
+        "ville-az-gazakh",
+        "ville-az-stepanakert",
+        "ville-az-choucha",
+        "ville-ru-prokhladny",
+        "ville-ru-mineralnye-vody",
+        "ville-ru-nevinnomyssk",
+        "ville-ru-armavir",
+        "ville-ru-kropotkine",
+        "ville-ru-krasnodar",
+        "ville-ru-tikhoretsk",
+        "ville-ru-salsk",
+        "ville-ru-derbent",
+        "ville-ru-bouinaksk",
+        "ville-ru-khassaviourt",
+        "ville-ru-naltchik",
+        "ville-ru-piatigorsk",
+        "ville-ru-kislovodsk",
+        "ville-ru-iessentouki",
+        "ville-ru-jeleznovodsk",
+        "ville-ru-boudionnovsk",
+        "ville-ru-gueorguievsk",
+        "ville-ru-maikop",
+        "ville-ru-adler",
+        "ville-ru-anapa",
+        "ville-ru-guelendjik",
+        "ville-ru-kaspiisk",
+        "ville-ru-izberbach",
+        "ville-tr-golcuk",
+        "ville-tr-uzunkopru",
+        "ville-tr-edirne",
+        "ville-tr-denizli",
+        "ville-tr-egirdir",
+        "ville-tr-nusaybin",
+        "ville-tr-karkamis",
+        "ville-tr-kars",
+        "ville-tr-tatvan",
+        "ville-tr-van",
+        "ville-tr-gelibolu",
+        "ville-tr-sanliurfa",
+        "ville-tr-antalya",
+        "ville-tr-canakkale",
+        "ville-tr-rize",
+        "ville-tr-giresun",
+        "ville-tr-fethiye",
+        "ville-tr-mardin",
+        "ville-tr-antakya",
+        "ville-tr-ordu",
+        "ville-tr-maden",
+        "ville-tr-tarsus",
+        "ville-tr-kirklareli"
+      ],
+      "usage": [
+        "Identité et coordonnées actuelles de peuplement ; jamais preuve du rôle au Snapshot."
+      ],
+      "usages_atlas": [
+        "position",
+        "identite_actuelle"
+      ],
+      "locator": "Fichiers cities500.zip, TR.zip et AZ.zip ; sélection exacte dans positions_recherche.json ; schéma dans https://download.geonames.org/export/dump/readme.txt",
+      "note": "Attribution : GeoNames, CC BY 4.0, https://creativecommons.org/licenses/by/4.0/. Coordonnées WGS84 lues sans garantie de précision historique. Les fichiers bruts et leurs empreintes sont conservés dans ce dossier.",
+      "verification_ether": {
+        "date": "2026-10-03",
+        "statut": "extraction_et_identites_controlees",
+        "limite": "Repères actuels ; neuf candidats différés dont les centres non établis."
+      },
+      "fichiers": [
+        {
+          "nom": "2026-10-03_ether_geonames_AZ.zip",
+          "sha256": "fea8406923074121c501ac092ef60e915e4fc5173f6468e58b99111e89b9830c"
+        },
+        {
+          "nom": "2026-10-03_ether_geonames_cities500.zip",
+          "sha256": "7c32ce0a1553dba6b5d3ee2a6e14b27bbbda756ecb5c0e812537681a15fc7f3a"
+        },
+        {
+          "nom": "2026-10-03_ether_geonames_TR.zip",
+          "sha256": "7ba0ef3e5e4c2f145770cd6e2b7d467d94a8e172f630aa749741474cb014cc8f"
+        }
+      ]
+    }
+  ]
+}
