@@ -107,6 +107,7 @@ textarea { width: 100%; box-sizing: border-box; min-height: 2.6em; resize: verti
   </section>
 
   <nav class="filtres" id="filtres" aria-label="Filtrer"></nav>
+  <label class="cacher"><input type="checkbox" id="seul-imp" checked> Seulement les importantes (celles qui changent la carte)</label>
   <label class="cacher"><input type="checkbox" id="masquer"> Masquer celles déjà traitées</label>
 
   <section class="liste" id="liste" aria-live="polite"></section>
@@ -119,7 +120,7 @@ const GROUPES = { a_lire: 'Claude n’a pas pu lire', partielle: 'Lecture partie
 const DECISIONS = { verifiee: 'Ça prouve', verifiee_s0: 'Prouve pour 1945 (la suite plus tard)', ne_prouve_pas: 'Ne prouve pas', lien_mort: 'Lien mort' }
 let validations = {}   // id source -> {decision, commentaire, par, le}
 let noms = {}          // id personne -> nom affiché
-let domaine = 'tout', filtre = 'tout', masquer = false, db = null, user = null, moi = null, peutEcrire = false
+let domaine = 'tout', filtre = 'tout', masquer = false, seulImp = true, db = null, user = null, moi = null, peutEcrire = false
 
 const $ = (id) => document.getElementById(id)
 const el = (tag, cls, txt) => { const e = document.createElement(tag); if (cls) e.className = cls; if (txt != null) e.textContent = txt; return e }
@@ -152,6 +153,8 @@ function fiche(s) {
   const t = el('div', 'entete')
   t.append(el('span', 'groupe', (s.domaine === 'villes' ? 'Villes \u00b7 ' : 'Fronti\u00e8res \u00b7 ') + GROUPES[s.groupe]), el('h2', 'titre', s.titre || s.id), el('span', 'institution', `${s.institution || ''}${s.niveau ? ' · niveau ' + s.niveau : ''}`))
   f.append(t)
+  if (s.priorite === 'importante') { const b = el('div', 'bloc'); b.append(el('b', null, 'Importante : la valider changerait la carte'), el('p', null, s.impact.join(' · '))); f.append(b) }
+  else f.append(el('p', 'petit', 'Facultative : la carte ne change pas (rôle déjà prouvé par une autre source, ou simple contexte).'))
   if (s.villes.length) { const vs = el('div', 'villes'); s.villes.forEach((n) => vs.append(el('span', 'ville', n))); f.append(vs) }
   if (s.url) {
     const liens = el('div', 'liens')
@@ -220,7 +223,7 @@ function rendre() {
   $('nb-faites').textContent = faites; $('nb-total').textContent = DONNEES.length
   $('jauge').style.width = (100 * faites / DONNEES.length) + '%'
   const liste = $('liste'); liste.textContent = ''
-  const vues = DONNEES.filter((s) => (domaine === 'tout' || s.domaine === domaine) && (filtre === 'tout' || s.groupe === filtre) && !(masquer && validations[s.id]))
+  const vues = DONNEES.filter((s) => (domaine === 'tout' || s.domaine === domaine) && (filtre === 'tout' || s.groupe === filtre) && !(masquer && validations[s.id]) && !(seulImp && s.priorite !== 'importante'))
   if (!vues.length) liste.append(el('p', 'vide', masquer ? 'Tout est traité dans cette catégorie.' : 'Aucune source ici.'))
   vues.forEach((s) => liste.append(fiche(s)))
 }
@@ -328,6 +331,7 @@ async function annuler(id, bouton) {
 }
 
 $('masquer').onchange = (e) => { masquer = e.target.checked; rendre() }
+$('seul-imp').onchange = (e) => { seulImp = e.target.checked; rendre() }
 rendre()
 
 ;(async () => {

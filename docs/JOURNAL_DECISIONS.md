@@ -11,7 +11,12 @@ Une ligne par décision, datée. Plus récente en haut. Ce journal remplace les 
 - **Miskolc** (décision de Guizmo « prouve pour 1945, la suite plus tard », avec un nouveau lien et une capture) : vérifiés ; deux sources ajoutées (`src-guizmo-miskolc-tortenete`, `src-guizmo-kis-miskolc-2022`) ; l'article de Kis József (2022) confirme qu'à l'arrivée soviétique Diósgyőr était une commune distincte et que le Grand Miskolc vaut à compter du 1er janvier 1945 : changement daté du 1er janvier, donc après le Snapshot 0 (Diósgyőr reste distincte). L'ancienne source, validée par Guizmo, est gardée. *(Guizmo, Claude)*
 - Sources : 49 nouvelles (28 confirmées, 57 %), registre v1.22, 758 sources ; « Sources à valider » : 267 ; fichier des réserves : 154 points. Nouvelles questions Q17-01 (sources illisibles pour l'outil) et Q17-02 (pages 1940 de Géorgie et d'Arménie). Réserves R17-01 à R17-27 gardées pour la revue finale 1.x. *(Claude)*
 
-## 2026-10-04 (pas de traduction des sources)
+## 2026-10-04 (priorité des sources à valider ; ordre des couches)
+
+- **Sources à valider : priorité.** Valider une source prend à Guizmo 30 à 60 minutes (téléphone, bureau à distance, liens de ChatGPT) : impossible pour 267 sources. Sur ces 267, **40 seulement changent la carte** (preuve d'un rôle encore « À renforcer » ou d'un nom de 1945) ; les 227 autres sont **facultatives** (rôle déjà prouvé par une autre source confirmée, ou contexte) et peuvent rester « non vérifiées ». La page et `00_SOURCES_A_VALIDER.md` montrent d'abord les importantes, avec ce que leur validation changerait (`liste_sources_a_valider.py`, champs `priorite` et `impact`).
+- **Proposition de Claude pour les importantes** : Ether dépose une capture du passage (comme pour les répertoires administratifs) ; Claude la lit et confirme ; Guizmo ne garde que les cas restants.
+- **Ordre prévu des couches du Snapshot 0 après les villes** (plan de Guizmo, chaque couche avec son propre feu vert) : axes routiers, voies ferrées, maritime, postes douaniers, plaques d'immatriculation, anecdotes de 1945 sur les flux, migrations (énormes en 1945). Ensuite seulement : janvier 1945.
+
 
 - **Les sources restent dans leur langue d'origine** (décision de Guizmo) : on ne traduit ni les sources ni leurs passages pour le Snapshot 0. La citation (`resume_passage`, passages de vérification) est gardée telle quelle, dans la langue de la source ; seules la note et l'`usage` (ce que la source prouve) sont en français. Claude lit lui-même les langues des sources (allemand, tchèque, polonais, russe…).
 - **Pièces jointes de Guizmo** : la capture de la page d'origine suffit, sans traduction ni rognage ; Guizmo peut traduire (Google Lens…) pour sa propre lecture, mais n'a pas à joindre la traduction.

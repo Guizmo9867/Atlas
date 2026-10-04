@@ -17,8 +17,13 @@ out = ['# Atlas — sources à valider', '',
        "Pour chaque source : ouvrir le lien, chercher le passage indiqué, et dire si elle prouve ce qu'on lui fait dire.",
        "Guizmo enregistre sa décision avec les boutons de la page « Sources à valider » (sur claude.ai, ou 00_SOURCES_A_VALIDER.html puis « Enregistrer mes décisions dans le dossier Atlas ») ; ce fichier sert à la lire et à en discuter (avec Ether, par exemple).",
        "Quatre choix : « Ça prouve » ; « Prouve pour 1945 (la suite plus tard) » quand la source dit aussi un changement d'après le 01/01/1945 (la source est gardée, la note dit quel changement reprendre dans la chronologie) ; « Ne prouve pas » ; « Lien mort ».", '']
-for g, titre in GROUPES.items():
-    grp = [s for s in S if s['groupe'] == g]
+imp = sum(s.get('priorite') == 'importante' for s in S)
+out += [f"**Priorité : {imp} sources « importantes »** (en premier) : les valider changerait la carte (elles prouvent un rôle encore « À renforcer » ou un nom de 1945). "
+        f"Les {len(S) - imp} autres sont **facultatives** : rôle déjà prouvé par une autre source confirmée, ou simple contexte ; elles peuvent rester « non vérifiées » sans rien changer.", '']
+for prio, titre_p in (('importante', 'IMPORTANTES'), ('facultative', 'FACULTATIVES')):
+  out += [f'# {titre_p}', '']
+  for g, titre in GROUPES.items():
+    grp = [s for s in S if s['groupe'] == g and s.get('priorite', 'facultative') == prio]
     if not grp: continue
     out += [f'## {titre} ({len(grp)})', '']
     for s in grp:
@@ -26,6 +31,7 @@ for g, titre in GROUPES.items():
                 f"- **Identifiant** : `{s['id']}` · {'villes' if s['domaine'] == 'villes' else 'frontières'} · niveau {s.get('niveau') or '?'}"
                 + (f" · {s['institution']}" if s.get('institution') else ''),
                 f"- **Lien** : {s['url']}" if s.get('url') else '- **Lien** : (aucun)']
+        if s.get('impact'): out.append(f"- **Ce que la validation changerait** : {' · '.join(s['impact'])}")
         if s.get('villes'): out.append(f"- **Villes** : {', '.join(s['villes'])}")
         if s.get('ou_regarder'): out.append(f"- **Où regarder** : {s['ou_regarder']}")
         if s.get('extrait'): out.append(f"- **Ce que Claude a pu lire** : « {s['extrait']} »")

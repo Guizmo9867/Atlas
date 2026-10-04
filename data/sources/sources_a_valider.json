@@ -2,40 +2,6 @@
  "version_registre": "1.22",
  "sources": [
   {
-   "id": "src-12a-augsburg-armement",
-   "groupe": "a_lire",
-   "statut_claude": "non_verifiee",
-   "niveau": "B",
-   "titre": "Tobias Brenner, Ein unbequemes Denkmal als Symbol der Befreiung — Halle 116",
-   "institution": "Augsburger Volkskundliche Nachrichten, Universitätsbibliothek Augsburg",
-   "url": "https://opus.bibliothek.uni-augsburg.de/opus4/files/2731/AVN_2014_H1_NR38.pdf",
-   "ou_regarder": "PDF p. 45 (index 44), texte sur MAN, moteurs de sous-marins et Messerschmitt ; article à partir de p. 37",
-   "extrait": "",
-   "notes": "Proposée par Ether (audit villes 1.2, 01/10/2026). Note d'Ether : Étude signée et référencée : moteurs de sous-marins MAN et industrie aéronautique, attaques d'avril 1942 et février 1944. Prouve la fonction d'approvisionnement industriel de guerre ; ne suffit pas à créer un aéroport ni à absorber Haunstetten dans la commune d'Augsburg. Relecture Claude 01/10/2026 : WebFetch refusé (ROBOTS_DISALLOWED, échec robots.txt) pour le PDF, deux essais ; contournement non tenté.",
-   "domaine": "villes",
-   "villes": [
-    "Augsbourg"
-   ],
-   "remplacee_par": []
-  },
-  {
-   "id": "src-12a-augsburg-messerschmitt",
-   "groupe": "a_lire",
-   "statut_claude": "non_verifiee",
-   "niveau": "C",
-   "titre": "Informationstafel Messerschmitt — texte de travail municipal",
-   "institution": "Stadt Augsburg, Erinnerungskultur",
-   "url": "https://machmit.augsburg.de/informationstafel-messerschmitt",
-   "ou_regarder": "Texte « Messerschmitt Informationstafel », paragraphes 1938 et novembre 1944",
-   "extrait": "",
-   "notes": "Proposée par Ether (audit villes 1.2, 01/10/2026). Note d'Ether : Documente un complexe de production et de sous-traitance aéronautique ainsi que près de 20 000 employés fin novembre 1944. Le texte affiché est un projet municipal ; compléter avec la notice municipale définitive. Ne prouve pas le rôle ferroviaire. Relecture Claude 01/10/2026 : WebFetch bloqué par robots.txt (ROBOTS_DISALLOWED) ; contenu non vu.",
-   "domaine": "villes",
-   "villes": [
-    "Augsbourg"
-   ],
-   "remplacee_par": []
-  },
-  {
    "id": "src-12a-chemnitz-industrie",
    "groupe": "a_lire",
    "statut_claude": "non_verifiee",
@@ -50,7 +16,11 @@
    "villes": [
     "Chemnitz"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "importante",
+   "impact": [
+    "Chemnitz (industrie)"
+   ]
   },
   {
    "id": "src-12a-dhs-basel",
@@ -67,7 +37,11 @@
    "villes": [
     "Bâle"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "importante",
+   "impact": [
+    "Bâle (frontalier, industrie, port_fluvial, rail)"
+   ]
   },
   {
    "id": "src-12a-dortmund-industrie",
@@ -84,7 +58,11 @@
    "villes": [
     "Dortmund"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "importante",
+   "impact": [
+    "Dortmund (industrie)"
+   ]
   },
   {
    "id": "src-12a-kiel-chantiers",
@@ -101,7 +79,11 @@
    "villes": [
     "Kiel"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "importante",
+   "impact": [
+    "Kiel (construction_navale, militaire)"
+   ]
   },
   {
    "id": "src-12a-koeln-gare",
@@ -118,24 +100,11 @@
    "villes": [
     "Cologne"
    ],
-   "remplacee_par": []
-  },
-  {
-   "id": "src-12a-leuna-essence",
-   "groupe": "a_lire",
-   "statut_claude": "non_verifiee",
-   "niveau": "B",
-   "titre": "Die Leuna-Tankstelle — carburant synthétique",
-   "institution": "Stadt Leuna",
-   "url": "https://www.leuna.de/de/die-leunatankstelle/die-leuna-tankstelle.html",
-   "ou_regarder": "Section Die Leuna-Tankstelle, paragraphes 1926–1927 et 1944",
-   "extrait": "",
-   "notes": "Proposée par Ether (audit villes 1.2, 01/10/2026). Note d'Ether : Vente locale d'essence synthétique issue de l'hydrogénation du charbon en 1926–1927 ; station gravement endommagée en 1944. Ne prouve pas à elle seule le volume ou la continuité de production de l'usine en janvier 1945. Relecture Claude 01/10/2026 : WebFetch refusé (ROBOTS_DISALLOWED, échec de lecture de robots.txt), deux essais ; contournement non tenté.",
-   "domaine": "villes",
-   "villes": [
-    "Leuna"
-   ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "importante",
+   "impact": [
+    "Cologne (rail)"
+   ]
   },
   {
    "id": "src-12a-luebeck-gare",
@@ -152,24 +121,11 @@
    "villes": [
     "Lübeck"
    ],
-   "remplacee_par": []
-  },
-  {
-   "id": "src-12a-salzgitter-nom",
-   "groupe": "a_lire",
-   "statut_claude": "non_verifiee",
-   "niveau": "B",
-   "titre": "Chronik 1942–2011 — Watenstedt-Salzgitter",
-   "institution": "Stadt Salzgitter / Stadtbibliothek",
-   "url": "https://stadtbibliothek.salzgitter.de/kultur/stadtgeschichte/teil4.php",
-   "ou_regarder": "Entrée 1942, 1er avril",
-   "extrait": "",
-   "notes": "Proposée par Ether (audit villes 1.2, 01/10/2026). Note d'Ether : La commune créée le 01/04/1942 reçoit le nom Watenstedt-Salzgitter. La source ne date pas le changement ultérieur vers Salzgitter. Relecture Claude 01/10/2026 : WebFetch refuse la page (ROBOTS_DISALLOWED, robots.txt injoignable), deux essais ; aucun contournement tenté.",
-   "domaine": "villes",
-   "villes": [
-    "Watenstedt-Salzgitter"
-   ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "importante",
+   "impact": [
+    "Lübeck (rail)"
+   ]
   },
   {
    "id": "src-12a-stuttgart-daimler",
@@ -186,7 +142,11 @@
    "villes": [
     "Stuttgart"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "importante",
+   "impact": [
+    "Stuttgart (industrie)"
+   ]
   },
   {
    "id": "src-12a-vaduz-gouvernement",
@@ -203,7 +163,11 @@
    "villes": [
     "Vaduz"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "importante",
+   "impact": [
+    "Vaduz (administration)"
+   ]
   },
   {
    "id": "src-12a-wels-rail",
@@ -220,24 +184,11 @@
    "villes": [
     "Wels"
    ],
-   "remplacee_par": []
-  },
-  {
-   "id": "src-13-cz-bohumin-perimetre",
-   "groupe": "a_lire",
-   "statut_claude": "non_verifiee",
-   "niveau": "B",
-   "titre": "Historie — histoire administrative de Bohumín",
-   "institution": "Ville de Bohumín",
-   "url": "https://www.bohumin.cz/cz/o-meste/samosprava/historie/",
-   "ou_regarder": "Historique : Šunychl devient Nový Bohumín en 1924 ; regroupement municipal décrit en 1949.",
-   "extrait": "",
-   "notes": "Proposée par Ether (villes 1.3, 01/10/2026, réf. S53). Limite annoncée par Ether : Le texte ne tranche pas le regroupement de guerre de 1943. Retenir le nœud ferroviaire de Nový Bohumín, avec un périmètre municipal à vérifier. Relecture Claude 01/10/2026 : WebFetch bloqué (échec de lecture de robots.txt), deux tentatives.",
-   "domaine": "villes",
-   "villes": [
-    "Nový Bohumín"
-   ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "importante",
+   "impact": [
+    "Wels (rail)"
+   ]
   },
   {
    "id": "src-13-cz-budejovice-rail",
@@ -255,7 +206,12 @@
     "České Budějovice",
     "Pilsen"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "importante",
+   "impact": [
+    "Pilsen (rail)",
+    "České Budějovice (rail)"
+   ]
   },
   {
    "id": "src-13-cz-most-histoire",
@@ -272,59 +228,11 @@
    "villes": [
     "Most"
    ],
-   "remplacee_par": []
-  },
-  {
-   "id": "src-13-cz-trebova-rail",
-   "groupe": "a_lire",
-   "statut_claude": "non_verifiee",
-   "niveau": "B",
-   "titre": "Profil města České Třebové",
-   "institution": "Ville de Česká Třebová",
-   "url": "https://www.ceska-trebova.cz/assets/File.ashx?id_dokumenty=3538&id_org=2175",
-   "ou_regarder": "Page PDF 17 : ligne Olomouc–Prague en 1845 ; branche vers Brno en 1849.",
-   "extrait": "",
-   "notes": "Proposée par Ether (villes 1.3, 01/10/2026, réf. S32). Limite annoncée par Ether : Rôle de nœud antérieur à 1945 ; chiffres contemporains d'emploi et de vitesse non utilisés. Relecture Claude 01/10/2026 : WebFetch bloqué (échec de lecture de robots.txt) sur le PDF, deux tentatives.",
-   "domaine": "villes",
-   "villes": [
-    "Česká Třebová"
-   ],
-   "remplacee_par": []
-  },
-  {
-   "id": "src-13-hu-komarom-unification",
-   "groupe": "a_lire",
-   "statut_claude": "non_verifiee",
-   "niveau": "B",
-   "titre": "Komárom — histoire de la ville",
-   "institution": "Ville de Komárom",
-   "url": "https://www.komarom.hu/kisterseg/komarom_teltort.php",
-   "ou_regarder": "Deux rives réunies sous Komárom en 1939–1945 ; Szőny rattachée en 1977.",
-   "extrait": "",
-   "notes": "Proposée par Ether (villes 1.3, 01/10/2026, réf. S4). Limite annoncée par Ether : Une autre page municipale donne 1938 pour le retour à la Hongrie : ne pas confondre transfert territorial et fusion administrative. L'unité au 31 décembre 1944 est commune aux notices. Relecture Claude 01/10/2026 : WebFetch n'a rendu que l'en-tête de navigation du portail (aucun contenu historique), donc le passage n'a pas pu être vu.",
-   "domaine": "villes",
-   "villes": [
-    "Komárom"
-   ],
-   "remplacee_par": []
-  },
-  {
-   "id": "src-13-hu-miskolc-fusion",
-   "groupe": "a_lire",
-   "statut_claude": "non_verifiee",
-   "niveau": "B",
-   "titre": "Miskolc Megyei Jogú Város Kulturális Stratégiája 2022–2032 — résumé historique",
-   "institution": "Ville de Miskolc",
-   "url": "https://www.miskolc.hu/sites/default/files/onkormanyzat/csatolmanyok/2024-11/169_1_mell._kult.strategia_2022-2032.pdf#page=102",
-   "ou_regarder": "Page imprimée 102, 102e page du PDF, index technique 101. Section sur les décennies d’après-guerre : date d’effet de Grand Miskolc puis liste des centres rattachés.",
-   "extrait": "",
-   "notes": "Proposée par Ether (villes 1.3, 01/10/2026, réf. S44). Limite annoncée par Ether : La fusion est datée du 1er janvier 1945. Selon la convention verrouillée du projet, l'état initial est le dernier état connu AVANT 00:00 : conserver Diósgyőr distincte puis appliquer la fusion dans le ratissage temporel. Complétée par Ether le 01/10/2026 (réponse aux questions du lot 1.3) : Passage relu et page inspectée. Date d’effet du 1er janvier 1945 explicitement donnée ; ni date exacte du vote ni heure d’effet originale vérifiées. Document rétrospectif B ; acte administratif original non consulté. Relecture Claude 01/10/2026 : Le PDF est accessible mais WebFetch n'en restitue que les ~31 premières pages (le texte s'arrête sur la section du Miskolci Szimfonikus Zenekar) ; la page 102 (annexe historique, dès p. 94) n'a pas pu être lue. Aucune occurrence de « 1945. január », « Hejőcsaba » ni de fusion explicite avec Diósgyőr dans la partie lue (seulement une allusion p. 10 à la création de Nagy-Miskolc « 60-70 évvel ezelőtt »).",
-   "domaine": "villes",
-   "villes": [
-    "Miskolc",
-    "Diósgyőr"
-   ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "importante",
+   "impact": [
+    "Most (industrie, rail)"
+   ]
   },
   {
    "id": "src-13-hu-ozd-industrie",
@@ -341,24 +249,11 @@
    "villes": [
     "Ózd"
    ],
-   "remplacee_par": []
-  },
-  {
-   "id": "src-13-most-carte-municipale-1938",
-   "groupe": "a_lire",
-   "statut_claude": "non_verifiee",
-   "niveau": "B",
-   "titre": "Most do minulosti — Lageplan der Stadt Brüx 1938",
-   "institution": "Statutární město Most, service GIS",
-   "url": "https://mapy.mesto-most.cz/app/most-do-minulosti/",
-   "ou_regarder": "Signet Staré město Most ; galerie de fonds, lien Lageplan der Stadt Brüx 1938 ; échelle 1:2500 ; outil Mesures > Localisation, point dans la première place au sud de Radnice.",
-   "extrait": "",
-   "notes": "Proposée par Ether (cycle 3 du lot villes 1.3, 01/10/2026). Ce que la source prouve selon Ether : recherche du centre historique ; déplacement réservé par Guizmo. Limite annoncée par Ether : Carte affichée et inspectée dans le navigateur. Lecture en degrés : latitude 50,524968, longitude 13,642034. Arrondi proposé 50,52497 / 13,64203, point représentatif et non position exacte d'un monument. Précision de géoréférencement non documentée. Guizmo : « Garder le déplacement en réserve ». Ne modifier aucune géométrie. Les nombres métriques d'un autre widget n'ont pas été transformés ni utilisés. Aucun fond cartographique redistribué. SOURCE DE CONTEXTE EN RÉSERVE — Q13-04 : « Garder le déplacement en réserve » (Guizmo, 01/10/2026) — relevé d'Ether 50,524968 N / 13,642034 E conservé ici seulement, aucun déplacement du point. Relecture Claude 01/10/2026 : Application cartographique dynamique : erreur serveur à deux essais avec l'outil de lecture. Ni le fond de 1938 ni le relevé d'Ether (50,524968 N / 13,642034 E) ne sont vérifiables par Claude ; déplacement de toute façon en réserve.",
-   "domaine": "villes",
-   "villes": [
-    "Most"
-   ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "importante",
+   "impact": [
+    "Ózd (industrie)"
+   ]
   },
   {
    "id": "src-13-sk-bratislava-chronologie",
@@ -375,7 +270,11 @@
    "villes": [
     "Bratislava"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "importante",
+   "impact": [
+    "Bratislava (administration, capitale)"
+   ]
   },
   {
    "id": "src-13-sk-cassovie-fr",
@@ -392,24 +291,11 @@
    "villes": [
     "Košice"
    ],
-   "remplacee_par": []
-  },
-  {
-   "id": "src-14-ee-kohtla-jarve-perimetre",
-   "groupe": "a_lire",
-   "statut_claude": "non_verifiee",
-   "niveau": "B",
-   "titre": "Kohtla-Järve : histoire administrative",
-   "institution": "Eesti Entsüklopeedia — Encyclopédie estonienne",
-   "url": "https://entsyklopeedia.ee/artikkel/kohtla-j%C3%A4rve3",
-   "ou_regarder": "Encyclopédie : statut de ville en 1946 ; bourg de Järve d'avant-guerre et ajouts d'après-guerre décrits.",
-   "extrait": "",
-   "notes": "Proposée par Ether (villes 1.4, 01/10/2026). Note d'Ether : Extrait seul ; les limites exactes de 1944 ne sont pas dessinées. Le point ne représente pas l’ensemble des quartiers de la commune moderne. Relecture Claude 01/10/2026 : WebFetch refusé : ROBOTS_DISALLOWED (robots.txt, échec de connexion). Repère corrigé par Ether le 01/10/2026 (réponse au lot 1.4). Relecture Claude 01/10/2026 (2e passe) : WebFetch a échoué (ROBOTS_DISALLOWED, robots.txt injoignable : All connection attempts failed) ; page non lue, aucun contournement tenté.",
-   "domaine": "villes",
-   "villes": [
-    "Kohtla-Järve"
-   ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "importante",
+   "impact": [
+    "Košice (nom de 1945)"
+   ]
   },
   {
    "id": "src-14-pl-elbing-map-1944",
@@ -426,7 +312,11 @@
    "villes": [
     "Elbląg"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "importante",
+   "impact": [
+    "Elbląg (nom de 1945)"
+   ]
   },
   {
    "id": "src-14-pl-gdansk-port-ferroviaire",
@@ -443,7 +333,11 @@
    "villes": [
     "Gdańsk"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "importante",
+   "impact": [
+    "Gdańsk (port_maritime, rail)"
+   ]
   },
   {
    "id": "src-14-pl-rail-premieres",
@@ -462,7 +356,13 @@
     "Varsovie",
     "Cracovie"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "importante",
+   "impact": [
+    "Varsovie (rail)",
+    "Cracovie (rail)",
+    "Wrocław (rail)"
+   ]
   },
   {
    "id": "src-14-pl-tarnowitz-archive",
@@ -479,7 +379,709 @@
    "villes": [
     "Tarnowskie Góry"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "importante",
+   "impact": [
+    "Tarnowskie Góry (nom de 1945)"
+   ]
+  },
+  {
+   "id": "src-hamburg-port-history",
+   "groupe": "a_lire",
+   "statut_claude": "non_verifiee",
+   "niveau": "B",
+   "titre": "Historie des Hafens",
+   "institution": "Freie und Hansestadt Hamburg",
+   "url": "https://www.hamburg.de/freizeit/hafengeburtstag-hamburg/hafenhistorie-1099522",
+   "ou_regarder": "Sections port au XIXe siècle, Freihafen et loi de 1937",
+   "extrait": "",
+   "notes": "Proposée par Ether (villes 1.2). Page inaccessible pour Claude (délai dépassé) le 01/10/2026. Statut : non vérifiée lors de l’audit ; contenu non présenté comme confirmé tant qu’il n’a pas été lu (audit Ether 01/10/2026). Audit Ether 01/10/2026 : Atteste le grand port maritime, ses entrepôts et l'intégration d'Altona/Harburg en 1937. Alternative accessible au lien muet initial ; ne mesure pas le trafic ni l'état des installations en janvier 1945.",
+   "domaine": "villes",
+   "villes": [
+    "Hambourg"
+   ],
+   "remplacee_par": [],
+   "priorite": "importante",
+   "impact": [
+    "Hambourg (port_maritime)"
+   ]
+  },
+  {
+   "id": "src-12a-dhs-bellinzona",
+   "groupe": "partielle",
+   "statut_claude": "limite",
+   "niveau": "B",
+   "titre": "Bellinzone (commune)",
+   "institution": "Dictionnaire historique de la Suisse / HLS",
+   "url": "https://hls-dhs-dss.ch/fr/articles/002031/2022-12-16/",
+   "ou_regarder": "Section époque contemporaine, paragraphes ouverture du Gothard et ateliers",
+   "extrait": "la construction de l'atelier de réparations de la Compagnie ferroviaire du Gothard (1884)",
+   "notes": "Proposée par Ether (audit villes 1.2, 01/10/2026). Note d'Ether : Ligne du Gothard ouverte en 1882 ; nœud ferroviaire et ateliers de réparation ouverts en 1884. Justifie le rôle avant 1945, sans chiffrer le trafic au Snapshot 0. Relecture Claude 01/10/2026 : Ateliers de 1884 et statut de nœud ferroviaire de premier ordre vus ; la date d'ouverture de la ligne (1882) n'a pas été citée explicitement par la page extraite.",
+   "domaine": "villes",
+   "villes": [
+    "Bellinzone"
+   ],
+   "remplacee_par": [],
+   "priorite": "importante",
+   "impact": [
+    "Bellinzone (rail)"
+   ]
+  },
+  {
+   "id": "src-12a-graz-rail",
+   "groupe": "partielle",
+   "statut_claude": "limite",
+   "niveau": "B",
+   "titre": "Graz historisch — Eisenbahngeschichte, BIG janvier 2010",
+   "institution": "Stadt Graz, bulletin municipal BIG",
+   "url": "https://www.graz.at/cms/dokumente/10135466_7747759/dabdc6cb/BIG_01_2010.pdf",
+   "ou_regarder": "PDF p. 5 (index 4), chronique ferroviaire : trajet Vienne–Graz–Trieste de 1857, gares",
+   "extrait": "Am 27. Juli 1857 verkehrte der erste Personenzug von Wien über den Semmering und Graz nach Triest.",
+   "notes": "Proposée par Ether (audit villes 1.2, 01/10/2026). Note d'Ether : Établit l'histoire des gares locales et les liaisons du XIXe siècle. Le bilan de ruines 1944–1945 n'est pas un état daté au Snapshot 0. La ligne du tableau indiquant Klagenfurt en 1861 n'est pas reprise : elle demande un recoupement. Relecture Claude 01/10/2026 : Trajet Vienne–Graz–Trieste (1857) et ligne du tableau « 1861 Klagenfurt » vus ; l'histoire des gares locales n'a pas été confirmée par un passage cité.",
+   "domaine": "villes",
+   "villes": [
+    "Graz"
+   ],
+   "remplacee_par": [],
+   "priorite": "importante",
+   "impact": [
+    "Graz (rail)"
+   ]
+  },
+  {
+   "id": "src-12a-karlsruhe-port",
+   "groupe": "partielle",
+   "statut_claude": "limite",
+   "niveau": "B",
+   "titre": "Rheinhafen Karlsruhe — port et rail",
+   "institution": "Stadtarchiv Karlsruhe / Stadtlexikon",
+   "url": "https://stadtlexikon.karlsruhe.de/index.php/De:Lexikon:ins-1511",
+   "ou_regarder": "Paragraphes construction 1896–1901, charbon et expansions",
+   "extrait": "wurde der Hafen am 1. Mai 1901 eröffnet. ... Hauptumschlag war die Kohle mit 53 %",
+   "notes": "Proposée par Ether (audit villes 1.2, 01/10/2026). Note d'Ether : Port relié au rail ouvert le 01/05/1901 ; infrastructures charbonnières et extensions avant guerre. Preuve locale permettant d'expliciter port_fluvial. Importance C conservée par prudence ; débit réel de janvier non établi. Relecture Claude 01/10/2026 : Ouverture le 01/05/1901, dominance du charbon et extensions (1903, 1913, 1916) confirmées ; le raccordement ferroviaire n'a pas été vu explicitement dans les passages cités.",
+   "domaine": "villes",
+   "villes": [
+    "Karlsruhe"
+   ],
+   "remplacee_par": [],
+   "priorite": "importante",
+   "impact": [
+    "Karlsruhe (port_fluvial, rail)"
+   ]
+  },
+  {
+   "id": "src-13-hu-csepel-industrie",
+   "groupe": "partielle",
+   "statut_claude": "limite",
+   "niveau": "C",
+   "titre": "Weiss Manfréd és Csepel története röviden",
+   "institution": "BKSZC Weiss Manfréd Technikum, école publique professionnelle",
+   "url": "https://wm-iskola.hu/iskola/weisstortenet",
+   "ou_regarder": "1892 : implantation manufacturière ; production mécanique et militaire pendant la guerre ; destructions et transfert de l'usine en 1944.",
+   "extrait": "1892-ben Csepel faluja mellett fekvő és a hajózható Duna melletti János-legelőre esik a választásuk.",
+   "notes": "Proposée par Ether (villes 1.3, 01/10/2026, réf. S47). Limite annoncée par Ether : La compilation cite la collection d'histoire locale et Wikipédia et contient une alternative de date d'après-guerre. Niveau C, rôle à renforcer par notice d'archives accessible ; ne pas prendre ses dates incertaines de nationalisation. Relecture Claude 01/10/2026 : 1892 et production militaire de guerre confirmés, mais 1944 n'apparaît que comme reprise par les Allemands et bombardements, pas un transfert de l'usine.",
+   "domaine": "villes",
+   "villes": [
+    "Csepel"
+   ],
+   "remplacee_par": [],
+   "priorite": "importante",
+   "impact": [
+    "Csepel (industrie)"
+   ]
+  },
+  {
+   "id": "src-13-sk-dubnica-industrie",
+   "groupe": "partielle",
+   "statut_claude": "limite",
+   "niveau": "B",
+   "titre": "Škoda Dubnica kedysi a dnes",
+   "institution": "Ville de Dubnica nad Váhom",
+   "url": "https://www.dubnica.eu/udalosti-v-meste/aktuality/skoda-dubnica-kedysi-a-dnes-276sk.html",
+   "ou_regarder": "Conférence historique : début de production et période 1937–1945.",
+   "extrait": "Budovanie závodu, začiatok výroby, obdobie rokov 1937 – 1945",
+   "notes": "Proposée par Ether (villes 1.3, 01/10/2026, réf. S36). Limite annoncée par Ether : Notice municipale sur l'histoire de l'usine ; livre annoncé non lu. Industrie mécanique/armement, sans ajouter base militaire ni rail non vérifié. Relecture Claude 01/10/2026 : Seul l'intitulé d'un thème de conférence est présent : aucun contenu factuel sur la période 1937–1945.",
+   "domaine": "villes",
+   "villes": [
+    "Dubnica nad Váhom"
+   ],
+   "remplacee_par": [],
+   "priorite": "importante",
+   "impact": [
+    "Dubnica nad Váhom (industrie)"
+   ]
+  },
+  {
+   "id": "src-13-sk-ports-histoire",
+   "groupe": "partielle",
+   "statut_claude": "limite",
+   "niveau": "B",
+   "titre": "O nás — História",
+   "institution": "Verejné prístavy, a.s.",
+   "url": "https://www.portslovakia.com/o-nas",
+   "ou_regarder": "1919 : activité portuaire à Bratislava ; 1920–1923 : développement conjoint des ports de Bratislava et Komárno ; équipements de Bratislava en 1928.",
+   "extrait": "Už v roku 1928 zaznamenal bratislavský prístav výstavbu nábrežnej hrany s príslušným technickým vybavením",
+   "notes": "Proposée par Ether (villes 1.3, 01/10/2026, réf. S22). Limite annoncée par Ether : Le récit historique est distinct de la description actuelle du port. Il ne suffit pas à dater le chantier naval moderne de Komárno. Relecture Claude 01/10/2026 : 1919 et 1928 à Bratislava soutenus, mais le développement conjoint Bratislava–Komárno en 1920–1923 n'est pas confirmé (Komárno non vu).",
+   "domaine": "villes",
+   "villes": [
+    "Bratislava",
+    "Komárom"
+   ],
+   "remplacee_par": [],
+   "priorite": "importante",
+   "impact": [
+    "Bratislava (port_fluvial)",
+    "Komárom (port_fluvial)"
+   ]
+  },
+  {
+   "id": "src-14-ee-kohtla-jarve-industrie",
+   "groupe": "partielle",
+   "statut_claude": "limite",
+   "niveau": "B",
+   "titre": "Histoire de l’industrie des schistes bitumineux",
+   "institution": "Viru Keemia Grupp — Groupe chimique Viru",
+   "url": "https://www.vkg.ee/ajalugu/",
+   "ou_regarder": "VKG : industrie du schiste bitumineux dès 1916 ; usine d'essai 1921 ; quatre usines Kiviter 1924–1943 ; nouveau complexe daté de 1945.",
+   "extrait": "ehitatakse neli Kiviter õlivabrikut",
+   "notes": "Proposée par Ether (villes 1.4, 01/10/2026). Note d'Ether : Le complexe de 1945 reste futur ; le point retenu correspond au site industriel ancien. Relecture Claude 01/10/2026 : Contenu thématique concordant mais les extraits retournés ne montrent pas explicitement les dates 1916, 1924–1943 et 1945 : à reconfirmer. Repère corrigé par Ether le 01/10/2026 (réponse au lot 1.4).",
+   "domaine": "villes",
+   "villes": [
+    "Kohtla-Järve"
+   ],
+   "remplacee_par": [],
+   "priorite": "importante",
+   "impact": [
+    "Kohtla-Järve (industrie)"
+   ]
+  },
+  {
+   "id": "src-14-ee-rail-histoire",
+   "groupe": "partielle",
+   "statut_claude": "limite",
+   "niveau": "B",
+   "titre": "Histoire du réseau ferroviaire estonien",
+   "institution": "Eesti Raudtee — chemins de fer estoniens",
+   "url": "https://www.evr.ee/et/ettevottest",
+   "ou_regarder": "EVR : trafic régulier Tapa–Tartu en 1877 ; Valga 1887 ; liaison régulière vers Riga 1889. Le musée de Tapa donne 1876.",
+   "extrait": "Esimene raudtee Eestis avati liikluseks 5. novembril 1870. aastal Paldiski - Tallinn - Narva - Gatshina lõigul.",
+   "notes": "Proposée par Ether (villes 1.4, 01/10/2026). Note d'Ether : Les longueurs actuelles et l’écartement de chaque ligne au 31 décembre 1944 ne sont pas extrapolés. Relecture Claude 01/10/2026 : Seul l'axe de 1870 est soutenu ; Tapa–Tartu 1877, Valga 1887, réseau étroit 1896–1901 et conversions de voie en guerre sont absents de la page. Repère corrigé par Ether le 01/10/2026 (réponse au lot 1.4).",
+   "domaine": "villes",
+   "villes": [
+    "Tallinn",
+    "Paldiski",
+    "Narva",
+    "Tapa",
+    "Tartu",
+    "Valga",
+    "Pärnu",
+    "Viljandi"
+   ],
+   "remplacee_par": [],
+   "priorite": "importante",
+   "impact": [
+    "Tallinn (rail)",
+    "Tartu (rail)",
+    "Narva (rail)",
+    "Tapa (rail)",
+    "Paldiski (rail)",
+    "Pärnu (rail)",
+    "Viljandi (rail)"
+   ]
+  },
+  {
+   "id": "src-14-ee-tallinn-histoire",
+   "groupe": "partielle",
+   "statut_claude": "limite",
+   "niveau": "B",
+   "titre": "Tallinn : histoire",
+   "institution": "Eesti Entsüklopeedia — Encyclopédie estonienne",
+   "url": "https://www.entsyklopeedia.ee/artikkel/tallinn3",
+   "ou_regarder": "Notice : chemin de fer 1870 ; capitale de la RSS d'Estonie dès 1940 ; bombardement des 9–10 mars 1944 ; entrée de l'Armée rouge le 22 septembre 1944.",
+   "extrait": "Tallinna pindala kasvas 1940, pärast Nõmme Tallinnaga liitmist 1,5 korda",
+   "notes": "Proposée par Ether (villes 1.4, 01/10/2026). Note d'Ether : Ne pas transformer automatiquement le port militaire de 1912 en un rôle militaire opérationnel documenté pour fin 1944. Relecture Claude 01/10/2026 : Seul l'intégration de Nõmme en 1940 est vue ; chemin de fer 1870, port militaire avant 1914 et statut de capitale de la RSS d'Estonie non retrouvés dans la page. Repère corrigé par Ether le 01/10/2026 (réponse au lot 1.4).",
+   "domaine": "villes",
+   "villes": [
+    "Tallinn"
+   ],
+   "remplacee_par": [],
+   "priorite": "importante",
+   "impact": [
+    "Tallinn (administration, port_maritime)"
+   ]
+  },
+  {
+   "id": "src-14-ee-tapa-local",
+   "groupe": "partielle",
+   "statut_claude": "limite",
+   "niveau": "B",
+   "titre": "Tapa dans la presse locale",
+   "institution": "Tapa Museum",
+   "url": "https://tapamuuseum.ee/ajalugu/tapa-ajakirjanduses/tapa-ajakirjanduses-i/",
+   "ou_regarder": "Bas de page, entrée Eesti Postimees ehk Näddalaleht, 22. detsember 1876 ; annonce signée postmeister Winter le 19 décembre 1876.",
+   "extrait": "1876. aastal Tapalt raudteeharu Tartusse pikendati, misläbi Tapa nagu sõlmeks sai",
+   "notes": "Proposée par Ether (réponse au lot villes 1.4, 01/10/2026). Limite annoncée par Ether : EVR donne 1877 pour le trafic régulier; conserver la divergence, sans inventer sa cause. Relecture Claude 01/10/2026 : La page (Postimees 1926) confirme 1876, l'embranchement vers Tartu et le statut de nœud (« sõlmeks »). Aucune annonce postale de décembre 1876 n'a été trouvée dans le texte lu. Cycle 3 d'Ether (01/10/2026) : Le musée reproduit bien l'annonce de décembre 1876 relative au courrier sur Tapa–Tartu. Source rétrospective citant une annonce d'époque, original non ouvert. Dates reproduites telles qu'affichées, calendrier non converti. Ne prouve pas à elle seule tous les services du nœud au Snapshot ; ne résout pas le rapport avec 1877 indiqué par EVR. Repère précédent : Le musée cite 1876 pour la branche de Tartu et la fonction de nœud; une annonce postale est datée de décembre 1876. Relecture Claude 01/10/2026 (3e passe) : Trois lectures (deux par sous-agent, une par Claude) : l'outil ne rend la page que de 1924 à 1940, et coupe au milieu d'une phrase. L'entrée du 22/12/1876 (annonce du maître de poste Winter) signalée par Ether au bas de la page reste donc introuvable pour Claude : ni confirmée ni infirmée. Le passage 1876 déjà confirmé reste valable.",
+   "domaine": "villes",
+   "villes": [
+    "Tapa"
+   ],
+   "remplacee_par": [],
+   "priorite": "importante",
+   "impact": [
+    "Tapa (rail)"
+   ]
+  },
+  {
+   "id": "src-14-lt-rail-ministere",
+   "groupe": "partielle",
+   "statut_claude": "limite",
+   "niveau": "B",
+   "titre": "Histoire des chemins de fer lituaniens",
+   "institution": "Ministère des Transports et Communications de Lituanie",
+   "url": "https://sumin.lrv.lt/lt/veiklos-sritys/transporto-istorija/gelezinkeliai/",
+   "ou_regarder": "Le ministère date de 1861 la première ligne de Lituanie ; Liepāja–Romny par Radviliškis 1871–1874 ; embranchements de 1873.",
+   "extrait": "1871-1874 m. pro Mažeikius, Radviliškį, Kaišiadoris, Naują Vilnią paklota Liepojos-Romnų linija",
+   "notes": "Proposée par Ether (villes 1.4, 01/10/2026). Note d'Ether : Nouvelles conversions de guerre à vérifier ligne par ligne, sans état uniforme inventé. Relecture Claude 01/10/2026 : Lignes 1871-1874, branches de 1873, Kaunas-Šiauliai (1921/1937) et écartement 1940 sont vus, mais la page date la première ligne de 1861 et non de 1862. Repère corrigé par Ether le 01/10/2026 (réponse au lot 1.4).",
+   "domaine": "villes",
+   "villes": [
+    "Vilnius",
+    "Kaunas",
+    "Šiauliai",
+    "Mažeikiai",
+    "Radviliškis",
+    "Kaišiadorys",
+    "Panevėžys"
+   ],
+   "remplacee_par": [],
+   "priorite": "importante",
+   "impact": [
+    "Šiauliai (rail)",
+    "Mažeikiai (rail)"
+   ]
+  },
+  {
+   "id": "src-14-lv-liepaja-port",
+   "groupe": "partielle",
+   "statut_claude": "limite",
+   "niveau": "B",
+   "titre": "Histoire de Liepāja : port et transit avant 1945",
+   "institution": "Liepājas valstspilsētas pašvaldība — Ville de Liepāja",
+   "url": "https://www.liepaja.lv/en/history-of-liepaja/",
+   "ou_regarder": "Histoire municipale (extrait indexé) : port bombardé le 2 août 1914 ; rôle maritime au début du XXe siècle.",
+   "extrait": "Latvian Provisional Government took refuge aboard the steamship 'Saratow' in the Port of Liepāja.",
+   "notes": "Proposée par Ether (villes 1.4, 01/10/2026). Note d'Ether : Extrait de recherche lu ; ouverture de la page échouée. Le rôle de capitale de 1919 n’est pas reporté à 1945. Relecture Claude 01/10/2026 : Page ouverte : ligne directe vers New York, tirs sur le port le 2 août 1914 et refuge du gouvernement sur le Saratow vus ; l'année 1919 n'apparaît pas dans l'extrait cité. Repère corrigé par Ether le 01/10/2026 (réponse au lot 1.4).",
+   "domaine": "villes",
+   "villes": [
+    "Liepāja"
+   ],
+   "remplacee_par": [],
+   "priorite": "importante",
+   "impact": [
+    "Liepāja (port_maritime)"
+   ]
+  },
+  {
+   "id": "src-14-lv-rail-chronologie",
+   "groupe": "partielle",
+   "statut_claude": "limite",
+   "niveau": "B",
+   "titre": "Chronologie des lignes ferroviaires de Lettonie",
+   "institution": "Latvijas Dzelzceļa vēstures muzejs — musée d’histoire ferroviaire de Lettonie",
+   "url": "https://www.railwaymuseum.lv/en/content/railway-lines-latvia",
+   "ou_regarder": "Tableau : Riga–Daugavpils 1861 ; Riga–Jelgava 1868 ; Liepāja–Vaiņode 1871 ; Sita–Rēzekne 1934 ; ligne Krustpils–Jēkabpils fermée en 1944.",
+   "extrait": "Krustpils – Jēkabpils, closed in 1944.",
+   "notes": "Proposée par Ether (villes 1.4, 01/10/2026). Note d'Ether : Ne pas confondre une ligne ancienne avec un trafic garanti ni changer automatiquement 1524 mm en 1520 mm. Relecture Claude 01/10/2026 : La fermeture Krustpils–Jēkabpils en 1944 est vue, mais les années 1861, 1868, 1871 et 1934 (Rēzekne) n'apparaissent pas dans les extraits restitués (Gulbene : seul 1916 vu, 1903 associé à Valka–Pļaviņas). Repère corrigé par Ether le 01/10/2026 (réponse au lot 1.4).",
+   "domaine": "villes",
+   "villes": [
+    "Riga",
+    "Daugavpils",
+    "Jelgava",
+    "Liepāja",
+    "Ventspils",
+    "Rēzekne",
+    "Krustpils",
+    "Gulbene",
+    "Tukums",
+    "Valmiera",
+    "candidat-lv-jekabpils"
+   ],
+   "remplacee_par": [],
+   "priorite": "importante",
+   "impact": [
+    "Riga (rail)",
+    "Liepāja (rail)",
+    "Ventspils (rail)",
+    "Daugavpils (rail)",
+    "Jelgava (rail)",
+    "Rēzekne (rail)",
+    "Gulbene (rail)",
+    "Tukums (rail)",
+    "Valmiera (rail)"
+   ]
+  },
+  {
+   "id": "src-14-pl-cosel-archive",
+   "groupe": "partielle",
+   "statut_claude": "limite",
+   "niveau": "B",
+   "titre": "Grundakten de Cosel (Koźle), pièces 1944",
+   "institution": "Archiwum Państwowe w Opolu",
+   "url": "https://www.szukajwarchiwach.gov.pl/en/zespol/-/zespol/44925",
+   "ou_regarder": "Fonds 45/1210/0, Sąd Obwodowy w Koźlu, onglet séries, 6.12 Cosel [Koźle] ; série 453742, cote 45/1210/0/6.12.",
+   "extrait": "Sąd Obwodowy w Koźlu",
+   "notes": "Proposée par Ether (réponse au lot villes 1.4, 01/10/2026). Limite annoncée par Ether : Le nom vient du catalogue; l’histoire municipale distincte prouve le port. Ancrer le point sur ses bassins. Relecture Claude 01/10/2026 : La page renvoie « Seria jest tymczasowo niedostępna » : aucun contenu d'inventaire lisible, ni Cosel/Koźle ni dates de 1944 vérifiables. Cycle 3 d'Ether (01/10/2026) : Fonds parent et série relus. URL stable du fonds fournie. Les actes individuels datés de 1944 n'ont pas été revérifiés ; garder la réserve de Claude. Ce catalogue ne prouve pas le rôle portuaire. Adresse précédente (conservée pour l'historique) : https://www.szukajwarchiwach.gov.pl/seria?_Seria_cur=6&_Seria_delta=200&_Seria_id_serii=453742&_Seria_nameofjsp=jednostki&_Seria_resetCur=false&p_p_id=Seria&p_p_lifecycle=0&p_p_mode=view&p_p_state=normal Repère précédent : Inventaire emploie Cosel [Koźle], y compris des entrées datées 1944. Relecture Claude 01/10/2026 (3e passe) : Fonds 45/1210/0 confirmé (tribunal de district de Cosel/Koźle, Archives d'État d'Opole). La liste des séries n'est pas rendue par l'outil : la série « 6.12 Cosel [Koźle] » n'est pas vue. Actes de 1944 non lus.",
+   "domaine": "villes",
+   "villes": [
+    "Koźle"
+   ],
+   "remplacee_par": [],
+   "priorite": "importante",
+   "impact": [
+    "Koźle (nom de 1945)"
+   ]
+  },
+  {
+   "id": "src-14-pl-czestochowa-industrialisation",
+   "groupe": "partielle",
+   "statut_claude": "limite",
+   "niveau": "B",
+   "titre": "Naissance de la Częstochowa moderne",
+   "institution": "Częstochowska Gazeta Kulturalna — Portail culturel de la ville de Częstochowa",
+   "url": "https://www.cgk.czestochowa.pl/blog/artykul/narodziny-nowoczesnej-czestochowy",
+   "ou_regarder": "Histoire culturelle municipale : chemin de fer Varsovie–Vienne en 1846 ; usines historiques citées ; aciérie Hantke à Raków, alors en périphérie.",
+   "extrait": "budowa Kolei Warszawsko-Wiedeńskiej w 1846 r.",
+   "notes": "Proposée par Ether (villes 1.4, 01/10/2026). Note d'Ether : Le rang proposé repose sur le nœud et le bassin industriel historiques, sans chiffre de trafic pour 1944. Relecture Claude 01/10/2026 : Le chemin de fer de 1846 est confirmé, mais la page ne qualifie pas explicitement les usines de textiles/métallurgiques (elle cite Wełnopol, Warta, Elanex, Częstochowianka) ni ne date « avant 1914 ». Repère corrigé par Ether le 01/10/2026 (réponse au lot 1.4).",
+   "domaine": "villes",
+   "villes": [
+    "Częstochowa"
+   ],
+   "remplacee_par": [],
+   "priorite": "importante",
+   "impact": [
+    "Częstochowa (industrie, rail)"
+   ]
+  },
+  {
+   "id": "src-14-pl-gdansk-schichau",
+   "groupe": "partielle",
+   "statut_claude": "limite",
+   "niveau": "B",
+   "titre": "Stocznia Schichaua : histoire du chantier naval",
+   "institution": "Fundacja Gdańska — Gedanopedia, Encyclopédie de Gdańsk",
+   "url": "https://gdansk.gedanopedia.pl/gdansk/?title=STOCZNIA_SCHICHAUA",
+   "ou_regarder": "Gedanopedia : terrain acheté en 1889 le long d'une voie ferrée existante ; chantier construit 1890–1892 ; premiers travaux navals 1891 ; ouverture officielle en janvier 1892.",
+   "extrait": "Oficjalne otwarcie gdańskiej filii stoczni Schichaua z Elbląga nastąpiło w stycznia 1892.",
+   "notes": "Proposée par Ether (villes 1.4, 01/10/2026). Note d'Ether : Ne pas confondre ces entreprises avec les sociétés constituées après 1945. Relecture Claude 01/10/2026 : Ouverture 1892, activité 1891, licence 1907 et moteurs 1911 vus ; la date 1889 du raccordement ferroviaire n'est pas citée (seulement « Gdańsk mający połączenie kolejowe »). Repère corrigé par Ether le 01/10/2026 (réponse au lot 1.4).",
+   "domaine": "villes",
+   "villes": [
+    "Gdańsk",
+    "Elbląg"
+   ],
+   "remplacee_par": [],
+   "priorite": "importante",
+   "impact": [
+    "Gdańsk (construction_navale, rail)",
+    "Elbląg (industrie)"
+   ]
+  },
+  {
+   "id": "src-14-pl-heydebreck-archive",
+   "groupe": "partielle",
+   "statut_claude": "limite",
+   "niveau": "B",
+   "titre": "Grundakten de Heydebreck (Kędzierzyn), pièces 1944",
+   "institution": "Archiwum Państwowe w Opolu",
+   "url": "https://www.szukajwarchiwach.gov.pl/en/zespol/-/zespol/44925",
+   "ou_regarder": "Fonds 45/1210/0, Sąd Obwodowy w Koźlu, onglet séries, 6.34 Kandrzin, Heydebreck [Kędzierzyn].",
+   "extrait": "",
+   "notes": "Proposée par Ether (réponse au lot villes 1.4, 01/10/2026). Limite annoncée par Ether : Catalogue consulté, tous actes non feuilletés; conserver séparé du port de Koźle. Relecture Claude 01/10/2026 : La page renvoie « Seria jest tymczasowo niedostępna » ; aucune unité Heydebreck/Kandrzin lisible, le catalogue n'a pas pu être vérifié. Cycle 3 d'Ether (01/10/2026) : Fonds et intitulé de série lus. L'ouverture de la série a échoué ; correspondance de l'ancien identifiant 453036 et pièces 1944 non revérifiées. URL du fonds proposée comme accès complémentaire stable, ne pas effacer l'ancien lien ni lever la réserve. Aucun rôle industriel prouvé ici. Adresse précédente (conservée pour l'historique) : https://www.szukajwarchiwach.gov.pl/seria?_Seria_cur=43&_Seria_delta=200&_Seria_id_serii=453036&_Seria_nameofjsp=jednostki&_Seria_resetCur=false&p_p_id=Seria&p_p_lifecycle=0&p_p_mode=view&p_p_state=normal Repère précédent : Catalogue foncier distingue Heydebreck et Kandrzin; plusieurs pièces sont datées 1944. Relecture Claude 01/10/2026 (3e passe) : Même fonds 44925 confirmé, mais la série « 6.34 Kandrzin, Heydebreck [Kędzierzyn] » n'apparaît pas (onglet des séries non rendu). Ni confirmée ni infirmée.",
+   "domaine": "villes",
+   "villes": [
+    "Kędzierzyn"
+   ],
+   "remplacee_par": [],
+   "priorite": "importante",
+   "impact": [
+    "Kędzierzyn (nom de 1945)"
+   ]
+  },
+  {
+   "id": "src-14-pl-katowice-gare",
+   "groupe": "partielle",
+   "statut_claude": "limite",
+   "niveau": "B",
+   "titre": "Ancienne gare ferroviaire de Katowice",
+   "institution": "Narodowy Instytut Dziedzictwa — Institut national du patrimoine polonais",
+   "url": "https://zabytek.pl/pl/obiekty/katowice-zespol-starego-dworca-kolejowego",
+   "ou_regarder": "Fiche d'inventaire de l'Institut national du patrimoine : ensemble de l'ancienne gare ; bâtiment voyageurs daté de 1906.",
+   "extrait": "budynek użyteczności publicznej 1906 r. Katowice",
+   "notes": "Proposée par Ether (villes 1.4, 01/10/2026). Note d'Ether : Preuve de présence ancienne ; n’établit pas seule l’importance du trafic au Snapshot. Relecture Claude 01/10/2026 : La fiche ne donne que la date 1906 et indique n'avoir pas encore de description, donc rien qui détaille un ensemble ferroviaire. Repère corrigé par Ether le 01/10/2026 (réponse au lot 1.4).",
+   "domaine": "villes",
+   "villes": [
+    "Katowice"
+   ],
+   "remplacee_par": [],
+   "priorite": "importante",
+   "impact": [
+    "Katowice (rail)"
+   ]
+  },
+  {
+   "id": "src-14-pl-posen-plan-1944",
+   "groupe": "partielle",
+   "statut_claude": "limite",
+   "niveau": "B",
+   "titre": "Plans d’occupation de Poznań, 1939–1944",
+   "institution": "CYRYL; documents de l’Archives d’État de Poznań",
+   "url": "https://cyryl.poznan.pl/kolekcja/okupacyjne-plany-poznania-1939-1944-archiwum-panstwowe-w-poznaniu/",
+   "ou_regarder": "Catalogue de plans occupés; intitulés Plan der Gauhauptstadt Posen et plans de transport, dont 1944.",
+   "extrait": "Verkehrsplan der Gauhauptstadt Posen, komunikacja w Poznaniu - stolicy prowincji 03.1944–03.1944",
+   "notes": "Proposée par Ether (réponse au lot villes 1.4, 01/10/2026). Limite annoncée par Ether : Titres de catalogue lus; tous les scans ne sont pas feuilletés. Relecture Claude 01/10/2026 : Le catalogue (47 objets, Archiwum Państwowe w Poznaniu) contient bien des plans « Gauhauptstadt Posen » et un plan de transport daté de mars 1944 ; l'intitulé exact « Plan der Gauhauptstadt Posen » n'a pas été cité tel quel, seulement des variantes (« Gauhauptstadt Posen, stolica prowincji… 10.1943 », « Verkehrsplan der Gauhauptstadt Posen »).",
+   "domaine": "villes",
+   "villes": [
+    "Poznań"
+   ],
+   "remplacee_par": [],
+   "priorite": "importante",
+   "impact": [
+    "Poznań (nom de 1945)"
+   ]
+  },
+  {
+   "id": "src-14-pl-torun-rail",
+   "groupe": "partielle",
+   "statut_claude": "limite",
+   "niveau": "B",
+   "titre": "Une gare accueillante pour les voyageurs : histoire de Toruń Główny",
+   "institution": "Urząd Miasta Torunia — Ville de Toruń",
+   "url": "https://torun.pl/pl/aktualnosc/dworzec-przyjazny-dla-podroznych",
+   "ou_regarder": "Ligne Bydgoszcz–Toruń de 1861 ; gare de 1873 ; extension ferroviaire de 1883.",
+   "extrait": "już w roku 1861 oddano do użytku połączenie Bydgoszcz – Toruń",
+   "notes": "Proposée par Ether (villes 1.4, 01/10/2026). Note d'Ether : Les reconstructions après 1945 ne sont pas importées. Relecture Claude 01/10/2026 : Ligne de 1861 et gare de 1873 confirmées ; pour 1883 seule l'information « la gare avait 12 voies principales » est vue, pas une extension ferroviaire explicite.",
+   "domaine": "villes",
+   "villes": [
+    "Toruń",
+    "Bydgoszcz"
+   ],
+   "remplacee_par": [],
+   "priorite": "importante",
+   "impact": [
+    "Toruń (rail)"
+   ]
+  },
+  {
+   "id": "src-13-sk-nove-zamky-rail",
+   "groupe": "lien_mort",
+   "statut_claude": "lien_casse",
+   "niveau": "B",
+   "titre": "Železničný semafor, mai 2020 — Komárno–Nové Zámky",
+   "institution": "Železnice Slovenskej republiky",
+   "url": "https://www.zsr.sk/files/pre-cestujucich/zsemafor-casopis/2020/zsemafor05_2020.pdf",
+   "ou_regarder": "Pages PDF 21–22 : ligne historique Komárno–Nové Zámky et nœud ; attaque du 14 octobre 1944 ; attaque supplémentaire du 14 mars 1945.",
+   "extrait": "",
+   "notes": "Proposée par Ether (villes 1.3, 01/10/2026, réf. S25). Limite annoncée par Ether : Deux temporalités : dégâts d'octobre inclus ; dégâts de mars exclus. Ne pas consolider leurs pertes chiffrées au Snapshot. Relecture Claude 01/10/2026 : Le PDF renvoie une erreur 404.",
+   "domaine": "villes",
+   "villes": [
+    "Nové Zámky",
+    "Komárom"
+   ],
+   "remplacee_par": [],
+   "priorite": "importante",
+   "impact": [
+    "Nové Zámky (rail)",
+    "Komárom (rail)"
+   ]
+  },
+  {
+   "id": "src-12a-augsburg-armement",
+   "groupe": "a_lire",
+   "statut_claude": "non_verifiee",
+   "niveau": "B",
+   "titre": "Tobias Brenner, Ein unbequemes Denkmal als Symbol der Befreiung — Halle 116",
+   "institution": "Augsburger Volkskundliche Nachrichten, Universitätsbibliothek Augsburg",
+   "url": "https://opus.bibliothek.uni-augsburg.de/opus4/files/2731/AVN_2014_H1_NR38.pdf",
+   "ou_regarder": "PDF p. 45 (index 44), texte sur MAN, moteurs de sous-marins et Messerschmitt ; article à partir de p. 37",
+   "extrait": "",
+   "notes": "Proposée par Ether (audit villes 1.2, 01/10/2026). Note d'Ether : Étude signée et référencée : moteurs de sous-marins MAN et industrie aéronautique, attaques d'avril 1942 et février 1944. Prouve la fonction d'approvisionnement industriel de guerre ; ne suffit pas à créer un aéroport ni à absorber Haunstetten dans la commune d'Augsburg. Relecture Claude 01/10/2026 : WebFetch refusé (ROBOTS_DISALLOWED, échec robots.txt) pour le PDF, deux essais ; contournement non tenté.",
+   "domaine": "villes",
+   "villes": [
+    "Augsbourg"
+   ],
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
+  },
+  {
+   "id": "src-12a-augsburg-messerschmitt",
+   "groupe": "a_lire",
+   "statut_claude": "non_verifiee",
+   "niveau": "C",
+   "titre": "Informationstafel Messerschmitt — texte de travail municipal",
+   "institution": "Stadt Augsburg, Erinnerungskultur",
+   "url": "https://machmit.augsburg.de/informationstafel-messerschmitt",
+   "ou_regarder": "Texte « Messerschmitt Informationstafel », paragraphes 1938 et novembre 1944",
+   "extrait": "",
+   "notes": "Proposée par Ether (audit villes 1.2, 01/10/2026). Note d'Ether : Documente un complexe de production et de sous-traitance aéronautique ainsi que près de 20 000 employés fin novembre 1944. Le texte affiché est un projet municipal ; compléter avec la notice municipale définitive. Ne prouve pas le rôle ferroviaire. Relecture Claude 01/10/2026 : WebFetch bloqué par robots.txt (ROBOTS_DISALLOWED) ; contenu non vu.",
+   "domaine": "villes",
+   "villes": [
+    "Augsbourg"
+   ],
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
+  },
+  {
+   "id": "src-12a-leuna-essence",
+   "groupe": "a_lire",
+   "statut_claude": "non_verifiee",
+   "niveau": "B",
+   "titre": "Die Leuna-Tankstelle — carburant synthétique",
+   "institution": "Stadt Leuna",
+   "url": "https://www.leuna.de/de/die-leunatankstelle/die-leuna-tankstelle.html",
+   "ou_regarder": "Section Die Leuna-Tankstelle, paragraphes 1926–1927 et 1944",
+   "extrait": "",
+   "notes": "Proposée par Ether (audit villes 1.2, 01/10/2026). Note d'Ether : Vente locale d'essence synthétique issue de l'hydrogénation du charbon en 1926–1927 ; station gravement endommagée en 1944. Ne prouve pas à elle seule le volume ou la continuité de production de l'usine en janvier 1945. Relecture Claude 01/10/2026 : WebFetch refusé (ROBOTS_DISALLOWED, échec de lecture de robots.txt), deux essais ; contournement non tenté.",
+   "domaine": "villes",
+   "villes": [
+    "Leuna"
+   ],
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
+  },
+  {
+   "id": "src-12a-salzgitter-nom",
+   "groupe": "a_lire",
+   "statut_claude": "non_verifiee",
+   "niveau": "B",
+   "titre": "Chronik 1942–2011 — Watenstedt-Salzgitter",
+   "institution": "Stadt Salzgitter / Stadtbibliothek",
+   "url": "https://stadtbibliothek.salzgitter.de/kultur/stadtgeschichte/teil4.php",
+   "ou_regarder": "Entrée 1942, 1er avril",
+   "extrait": "",
+   "notes": "Proposée par Ether (audit villes 1.2, 01/10/2026). Note d'Ether : La commune créée le 01/04/1942 reçoit le nom Watenstedt-Salzgitter. La source ne date pas le changement ultérieur vers Salzgitter. Relecture Claude 01/10/2026 : WebFetch refuse la page (ROBOTS_DISALLOWED, robots.txt injoignable), deux essais ; aucun contournement tenté.",
+   "domaine": "villes",
+   "villes": [
+    "Watenstedt-Salzgitter"
+   ],
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
+  },
+  {
+   "id": "src-13-cz-bohumin-perimetre",
+   "groupe": "a_lire",
+   "statut_claude": "non_verifiee",
+   "niveau": "B",
+   "titre": "Historie — histoire administrative de Bohumín",
+   "institution": "Ville de Bohumín",
+   "url": "https://www.bohumin.cz/cz/o-meste/samosprava/historie/",
+   "ou_regarder": "Historique : Šunychl devient Nový Bohumín en 1924 ; regroupement municipal décrit en 1949.",
+   "extrait": "",
+   "notes": "Proposée par Ether (villes 1.3, 01/10/2026, réf. S53). Limite annoncée par Ether : Le texte ne tranche pas le regroupement de guerre de 1943. Retenir le nœud ferroviaire de Nový Bohumín, avec un périmètre municipal à vérifier. Relecture Claude 01/10/2026 : WebFetch bloqué (échec de lecture de robots.txt), deux tentatives.",
+   "domaine": "villes",
+   "villes": [
+    "Nový Bohumín"
+   ],
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
+  },
+  {
+   "id": "src-13-cz-trebova-rail",
+   "groupe": "a_lire",
+   "statut_claude": "non_verifiee",
+   "niveau": "B",
+   "titre": "Profil města České Třebové",
+   "institution": "Ville de Česká Třebová",
+   "url": "https://www.ceska-trebova.cz/assets/File.ashx?id_dokumenty=3538&id_org=2175",
+   "ou_regarder": "Page PDF 17 : ligne Olomouc–Prague en 1845 ; branche vers Brno en 1849.",
+   "extrait": "",
+   "notes": "Proposée par Ether (villes 1.3, 01/10/2026, réf. S32). Limite annoncée par Ether : Rôle de nœud antérieur à 1945 ; chiffres contemporains d'emploi et de vitesse non utilisés. Relecture Claude 01/10/2026 : WebFetch bloqué (échec de lecture de robots.txt) sur le PDF, deux tentatives.",
+   "domaine": "villes",
+   "villes": [
+    "Česká Třebová"
+   ],
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
+  },
+  {
+   "id": "src-13-hu-komarom-unification",
+   "groupe": "a_lire",
+   "statut_claude": "non_verifiee",
+   "niveau": "B",
+   "titre": "Komárom — histoire de la ville",
+   "institution": "Ville de Komárom",
+   "url": "https://www.komarom.hu/kisterseg/komarom_teltort.php",
+   "ou_regarder": "Deux rives réunies sous Komárom en 1939–1945 ; Szőny rattachée en 1977.",
+   "extrait": "",
+   "notes": "Proposée par Ether (villes 1.3, 01/10/2026, réf. S4). Limite annoncée par Ether : Une autre page municipale donne 1938 pour le retour à la Hongrie : ne pas confondre transfert territorial et fusion administrative. L'unité au 31 décembre 1944 est commune aux notices. Relecture Claude 01/10/2026 : WebFetch n'a rendu que l'en-tête de navigation du portail (aucun contenu historique), donc le passage n'a pas pu être vu.",
+   "domaine": "villes",
+   "villes": [
+    "Komárom"
+   ],
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
+  },
+  {
+   "id": "src-13-hu-miskolc-fusion",
+   "groupe": "a_lire",
+   "statut_claude": "non_verifiee",
+   "niveau": "B",
+   "titre": "Miskolc Megyei Jogú Város Kulturális Stratégiája 2022–2032 — résumé historique",
+   "institution": "Ville de Miskolc",
+   "url": "https://www.miskolc.hu/sites/default/files/onkormanyzat/csatolmanyok/2024-11/169_1_mell._kult.strategia_2022-2032.pdf#page=102",
+   "ou_regarder": "Page imprimée 102, 102e page du PDF, index technique 101. Section sur les décennies d’après-guerre : date d’effet de Grand Miskolc puis liste des centres rattachés.",
+   "extrait": "",
+   "notes": "Proposée par Ether (villes 1.3, 01/10/2026, réf. S44). Limite annoncée par Ether : La fusion est datée du 1er janvier 1945. Selon la convention verrouillée du projet, l'état initial est le dernier état connu AVANT 00:00 : conserver Diósgyőr distincte puis appliquer la fusion dans le ratissage temporel. Complétée par Ether le 01/10/2026 (réponse aux questions du lot 1.3) : Passage relu et page inspectée. Date d’effet du 1er janvier 1945 explicitement donnée ; ni date exacte du vote ni heure d’effet originale vérifiées. Document rétrospectif B ; acte administratif original non consulté. Relecture Claude 01/10/2026 : Le PDF est accessible mais WebFetch n'en restitue que les ~31 premières pages (le texte s'arrête sur la section du Miskolci Szimfonikus Zenekar) ; la page 102 (annexe historique, dès p. 94) n'a pas pu être lue. Aucune occurrence de « 1945. január », « Hejőcsaba » ni de fusion explicite avec Diósgyőr dans la partie lue (seulement une allusion p. 10 à la création de Nagy-Miskolc « 60-70 évvel ezelőtt »).",
+   "domaine": "villes",
+   "villes": [
+    "Miskolc",
+    "Diósgyőr"
+   ],
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
+  },
+  {
+   "id": "src-13-most-carte-municipale-1938",
+   "groupe": "a_lire",
+   "statut_claude": "non_verifiee",
+   "niveau": "B",
+   "titre": "Most do minulosti — Lageplan der Stadt Brüx 1938",
+   "institution": "Statutární město Most, service GIS",
+   "url": "https://mapy.mesto-most.cz/app/most-do-minulosti/",
+   "ou_regarder": "Signet Staré město Most ; galerie de fonds, lien Lageplan der Stadt Brüx 1938 ; échelle 1:2500 ; outil Mesures > Localisation, point dans la première place au sud de Radnice.",
+   "extrait": "",
+   "notes": "Proposée par Ether (cycle 3 du lot villes 1.3, 01/10/2026). Ce que la source prouve selon Ether : recherche du centre historique ; déplacement réservé par Guizmo. Limite annoncée par Ether : Carte affichée et inspectée dans le navigateur. Lecture en degrés : latitude 50,524968, longitude 13,642034. Arrondi proposé 50,52497 / 13,64203, point représentatif et non position exacte d'un monument. Précision de géoréférencement non documentée. Guizmo : « Garder le déplacement en réserve ». Ne modifier aucune géométrie. Les nombres métriques d'un autre widget n'ont pas été transformés ni utilisés. Aucun fond cartographique redistribué. SOURCE DE CONTEXTE EN RÉSERVE — Q13-04 : « Garder le déplacement en réserve » (Guizmo, 01/10/2026) — relevé d'Ether 50,524968 N / 13,642034 E conservé ici seulement, aucun déplacement du point. Relecture Claude 01/10/2026 : Application cartographique dynamique : erreur serveur à deux essais avec l'outil de lecture. Ni le fond de 1938 ni le relevé d'Ether (50,524968 N / 13,642034 E) ne sont vérifiables par Claude ; déplacement de toute façon en réserve.",
+   "domaine": "villes",
+   "villes": [
+    "Most"
+   ],
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
+  },
+  {
+   "id": "src-14-ee-kohtla-jarve-perimetre",
+   "groupe": "a_lire",
+   "statut_claude": "non_verifiee",
+   "niveau": "B",
+   "titre": "Kohtla-Järve : histoire administrative",
+   "institution": "Eesti Entsüklopeedia — Encyclopédie estonienne",
+   "url": "https://entsyklopeedia.ee/artikkel/kohtla-j%C3%A4rve3",
+   "ou_regarder": "Encyclopédie : statut de ville en 1946 ; bourg de Järve d'avant-guerre et ajouts d'après-guerre décrits.",
+   "extrait": "",
+   "notes": "Proposée par Ether (villes 1.4, 01/10/2026). Note d'Ether : Extrait seul ; les limites exactes de 1944 ne sont pas dessinées. Le point ne représente pas l’ensemble des quartiers de la commune moderne. Relecture Claude 01/10/2026 : WebFetch refusé : ROBOTS_DISALLOWED (robots.txt, échec de connexion). Repère corrigé par Ether le 01/10/2026 (réponse au lot 1.4). Relecture Claude 01/10/2026 (2e passe) : WebFetch a échoué (ROBOTS_DISALLOWED, robots.txt injoignable : All connection attempts failed) ; page non lue, aucun contournement tenté.",
+   "domaine": "villes",
+   "villes": [
+    "Kohtla-Järve"
+   ],
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-17-am-rail-musee",
@@ -497,7 +1099,9 @@
     "Erevan",
     "Gyumri"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-17-geonames-reperes",
@@ -679,7 +1283,9 @@
     "Tarsus",
     "Kırklareli"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-17-ru-kropotkine-ville",
@@ -696,7 +1302,9 @@
    "villes": [
     "Kropotkine"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-17-tr-admin-ordu",
@@ -713,7 +1321,9 @@
    "villes": [
     "Ordu"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-17-tr-atam-rail-as2021",
@@ -763,7 +1373,9 @@
     "Ulukışla",
     "Yolçatı"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-17-tr-gelibolu-administration",
@@ -780,7 +1392,9 @@
    "villes": [
     "Gelibolu"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-17-tr-kirklareli-gare",
@@ -797,7 +1411,9 @@
    "villes": [
     "Kırklareli"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-17-tr-maden-bakir-etude",
@@ -814,7 +1430,9 @@
    "villes": [
     "Maden"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-17-tr-mersin-tarsus-histoire",
@@ -832,7 +1450,9 @@
     "Mersin",
     "Tarsus"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-17-tr-raman-mapeg1991",
@@ -849,7 +1469,9 @@
    "villes": [
     "ville-tr-batman"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-afonina-rail-1995",
@@ -895,7 +1517,9 @@
     "Zavitinsk",
     "Angren"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-archives-mourmansk-lena1933",
@@ -915,7 +1539,9 @@
     "Katchoug",
     "Tiksi"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-archives-primorie-spassk-ciment",
@@ -932,7 +1558,9 @@
    "villes": [
     "Spassk-Dalni"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-aviationunion-knaaz90",
@@ -949,7 +1577,9 @@
    "villes": [
     "Komsomolsk-sur-l'Amour"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-bashenc-oufa-capitale-perimetre",
@@ -966,7 +1596,9 @@
    "villes": [
     "Oufa"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-boden-jarnvagsknut-fortress",
@@ -983,7 +1615,9 @@
    "villes": [
     "Boden"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-bre-babouchkine1941",
@@ -1000,7 +1634,9 @@
    "villes": [
     "Babouchkine"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-bse31-karabogaz1937",
@@ -1018,7 +1654,9 @@
     "ville-tm-garabogaz",
     "ville-tm-hazar"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-bse36-lena1938",
@@ -1039,7 +1677,9 @@
     "Kirensk",
     "Oust-Kout"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-bse40-mouinak1938",
@@ -1056,7 +1696,9 @@
    "villes": [
     "Moynaq"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-bse50-1944",
@@ -1077,7 +1719,9 @@
     "Tobolsk",
     "Samarcande"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-buriak-donbass-rail1943",
@@ -1106,7 +1750,9 @@
     "Marioupol",
     "Louhansk"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-chemins-alsace-moselle-annexion",
@@ -1121,7 +1767,9 @@
    "notes": "Apportée par Ether (lot 03), intégrée par Claude le 28/09/2026. Relecture Claude 01/10/2026 (non_verifiee) : WebFetch renvoie une redirection 302 vers une page d'authentification (auth.defense.gouv.fr) ; contenu non accessible.",
    "domaine": "frontieres",
    "villes": [],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-chemins-poches-atlantique-1945",
@@ -1136,7 +1784,9 @@
    "notes": "Apportée par Ether (lot 03), intégrée par Claude le 28/09/2026. Relecture Claude 01/10/2026 (non_verifiee) : Redirection 302 vers une page d'authentification (auth.defense.gouv.fr), contenu inaccessible sans connexion.",
    "domaine": "frontieres",
    "villes": [],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-chernigov-doc264-novembre1943",
@@ -1153,7 +1803,9 @@
    "villes": [
     "Tchernihiv"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-chilka-mairie-histoire",
@@ -1170,7 +1822,9 @@
    "villes": [
     "Chilka"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-cmzt-vorkouta-charbon-guerre",
@@ -1187,7 +1841,9 @@
    "villes": [
     "Vorkouta"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-dvgups-rail-ne2019",
@@ -1219,7 +1875,9 @@
     "Tavritchanka",
     "Zavitinsk"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-dzerjinsk-municipalite-industrie-guerre",
@@ -1236,7 +1894,9 @@
    "villes": [
     "Dzerjinsk"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-gallivare-malmberget-rail-history",
@@ -1253,7 +1913,9 @@
    "villes": [
     "Gällivare"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-gaoo-orel-rail-1944-11-17",
@@ -1271,7 +1933,9 @@
     "Orel",
     "Elets"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-gomanenko-haute-volga-2025",
@@ -1296,7 +1960,9 @@
     "Kazan",
     "Tchistopol"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-govcy-cyprus-history",
@@ -1311,7 +1977,9 @@
    "notes": "Apportée par Ether (lot 04), intégrée par Claude le 28/09/2026. Relecture Claude 01/10/2026 (non_verifiee) : WebFetch a renvoyé une erreur 403 ; page non lue.",
    "domaine": "frontieres",
    "villes": [],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-govie-neutrality-policy",
@@ -1326,7 +1994,9 @@
    "notes": "Apportée par Ether (lot 03), intégrée par Claude le 28/09/2026. Relecture Claude 01/10/2026 (non_verifiee) : WebFetch a renvoyé une erreur 403 ; page non lue.",
    "domaine": "frontieres",
    "villes": [],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-govkz-karsakpai-1928",
@@ -1343,7 +2013,9 @@
    "villes": [
     "Karsakpay"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-govkz-satpaev-histoire",
@@ -1360,7 +2032,9 @@
    "villes": [
     "ville-kz-djezkazgan"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-grodno-encyclopedie-1989-1944",
@@ -1377,24 +2051,9 @@
    "villes": [
     "Hrodna"
    ],
-   "remplacee_par": []
-  },
-  {
-   "id": "src-hamburg-port-history",
-   "groupe": "a_lire",
-   "statut_claude": "non_verifiee",
-   "niveau": "B",
-   "titre": "Historie des Hafens",
-   "institution": "Freie und Hansestadt Hamburg",
-   "url": "https://www.hamburg.de/freizeit/hafengeburtstag-hamburg/hafenhistorie-1099522",
-   "ou_regarder": "Sections port au XIXe siècle, Freihafen et loi de 1937",
-   "extrait": "",
-   "notes": "Proposée par Ether (villes 1.2). Page inaccessible pour Claude (délai dépassé) le 01/10/2026. Statut : non vérifiée lors de l’audit ; contenu non présenté comme confirmé tant qu’il n’a pas été lu (audit Ether 01/10/2026). Audit Ether 01/10/2026 : Atteste le grand port maritime, ses entrepôts et l'intégration d'Altona/Harburg en 1937. Alternative accessible au lien muet initial ; ne mesure pas le trafic ni l'état des installations en janvier 1945.",
-   "domaine": "villes",
-   "villes": [
-    "Hambourg"
-   ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-heritage-mezen-convoi-bb25",
@@ -1411,7 +2070,9 @@
    "villes": [
     "ville-ru-mezen"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-herzen-kirov-industrie-rail-guerre",
@@ -1428,7 +2089,9 @@
    "villes": [
     "Kirov"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-kalouga-archives-reconstruction-1942-1944",
@@ -1445,7 +2108,9 @@
    "villes": [
     "Kalouga"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-karelia-medvejiegorsk-defense-1944",
@@ -1462,7 +2127,9 @@
    "villes": [
     "ville-ru-medvejiegorsk"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-karelia-patrimoine-guerre-1941-1945",
@@ -1479,7 +2146,9 @@
    "villes": [
     "Petrozavodsk"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-karelia-petrozavodsk-reprise-1944",
@@ -1497,7 +2166,9 @@
     "Petrozavodsk",
     "Belomorsk"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-kemrsl-anjero-mine1943",
@@ -1514,7 +2185,9 @@
    "villes": [
     "Anjero-Soudjensk"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-komz-kazan-1941-1944",
@@ -1531,7 +2204,9 @@
    "villes": [
     "Kazan"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-konotop-doc234-fevrier1944",
@@ -1548,7 +2223,9 @@
    "villes": [
     "Konotop"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-kouzbass-archives-catalogue2021",
@@ -1568,7 +2245,9 @@
     "ville-ru-polysaevo",
     "Prokopievsk"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-ks-providenia-dyga2022",
@@ -1585,7 +2264,9 @@
    "villes": [
     "Providenia"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-lena-bassin-histoire",
@@ -1604,7 +2285,9 @@
     "Jigalovo",
     "Kirensk"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-loc-12ag-1944-12-31",
@@ -1619,7 +2302,9 @@
    "notes": "Trouvée par Claude : dernière situation connue AVANT le Snapshot 0 (31/12/1944 à 12:00) ; sert de base au front de l'Ouest du Snapshot 0. Relecture Claude 01/10/2026 (non_verifiee) : WebFetch a renvoyé une erreur 403 sur loc.gov ; notice non lue.",
    "domaine": "frontieres",
    "villes": [],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-loc-12ag-1945-01-01",
@@ -1634,7 +2319,9 @@
    "notes": "Apportée par Ether (lot 03), intégrée par Claude le 28/09/2026. Géoréférencée par Claude (ajustement automatique sur les fleuves Natural Earth, écart ≈ 1-2 km). La LOC conserve la même carte pour CHAQUE jour de janvier 1945 (items 2004630304 à 2004630334) : base idéale pour le ratissage mensuel. RÈGLE DU SNAPSHOT 0 : situation du 01/01 à 12:00, donc APRÈS le Snapshot (00:00) : réservée au ratissage de janvier (état suivant). Relecture Claude 01/10/2026 (non_verifiee) : WebFetch a renvoyé une erreur 403 sur la page LOC ; contenu non consulté.",
    "domaine": "frontieres",
    "villes": [],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-loc-12th-army-group-1945-01-01",
@@ -1649,7 +2336,9 @@
    "notes": "À télécharger/archiver localement si les conditions d'utilisation le permettent ; conserver la référence d'origine et les métadonnées de géoréférencement. Relecture Claude 01/10/2026 (non_verifiee) : WebFetch a renvoyé une erreur 403 sur loc.gov ; contenu non vu.",
    "domaine": "frontieres",
    "villes": [],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-magnitogorsk-archives-evacuation-1941-1942",
@@ -1666,7 +2355,9 @@
    "villes": [
     "Magnitogorsk"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-makhmadov-ressources-tadjikistan2020",
@@ -1683,7 +2374,9 @@
    "villes": [
     "Shurab"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-marioupol-cdnta-azovstal-1944",
@@ -1700,7 +2393,9 @@
    "villes": [
     "Marioupol"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-mn-altai1942",
@@ -1717,7 +2412,9 @@
    "villes": [
     "ville-mn-altai"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-mn-bayankhongor-deplacements",
@@ -1734,7 +2431,9 @@
    "villes": [
     "ville-mn-bayankhongor"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-mn-bulgan1938",
@@ -1751,7 +2450,9 @@
    "villes": [
     "Bulgan"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-mn-olgii1940",
@@ -1768,7 +2469,9 @@
    "villes": [
     "ville-mn-olgii"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-monaco-liberation-1944",
@@ -1783,7 +2486,9 @@
    "notes": "Apportée par Ether (lot 04), intégrée par Claude le 28/09/2026. Relecture Claude 01/10/2026 (non_verifiee) : WebFetch refusé : ROBOTS_DISALLOWED (échec de récupération de robots.txt) sur en.gouv.mc.",
    "domaine": "frontieres",
    "villes": [],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-monaco-occupation-report",
@@ -1798,7 +2503,9 @@
    "notes": "Apportée par Ether (lot 04), intégrée par Claude le 28/09/2026. Relecture Claude 01/10/2026 (non_verifiee) : WebFetch bloqué (robots.txt illisible / timeout) sur en.gouv.mc, deux essais ; contenu non vu.",
    "domaine": "frontieres",
    "villes": [],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-moscou-navigation-fluviale-guerre",
@@ -1815,7 +2522,9 @@
    "villes": [
     "Moscou"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-musee-ienissei-chronologie",
@@ -1832,7 +2541,9 @@
    "villes": [
     "Krasnoïarsk"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-musee-ienissei-geographie",
@@ -1855,7 +2566,9 @@
     "Toura",
     "Touroukhansk"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-musee-ienissei-igarka",
@@ -1872,7 +2585,9 @@
    "villes": [
     "Igarka"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-musee-ienissei-kyzyl",
@@ -1889,7 +2604,9 @@
    "villes": [
     "Kyzyl"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-nikolaev-port-rapport-19440601",
@@ -1906,7 +2623,9 @@
    "villes": [
     "Mykolaïv"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-nkvd-bielorussie-rapport-19440727",
@@ -1926,7 +2645,9 @@
     "Baranavitchy",
     "Minsk"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-orel-pravda-industrie-1944-11-05",
@@ -1943,7 +2664,9 @@
    "villes": [
     "Orel"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-port-antwerp-bruges-zeebrugge-history",
@@ -1961,7 +2684,9 @@
     "Zeebruges",
     "Bruges"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-prlib-constitution-bssr-1940-minsk",
@@ -1978,7 +2703,9 @@
    "villes": [
     "Minsk"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-sevmash-molotovsk-histoire-2024",
@@ -1995,7 +2722,9 @@
    "villes": [
     "Severodvinsk"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-simferopol-sovinform-19440413",
@@ -2014,7 +2743,9 @@
     "ville-ua-yevpatoria",
     "ville-ua-feodossia"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-simukov-centres1933",
@@ -2046,7 +2777,9 @@
     "ville-mn-tsagaannuur",
     "Tsetserleg"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-spb-chenal-mines-2016",
@@ -2064,7 +2797,9 @@
     "Saint-Pétersbourg",
     "Kronstadt"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-stalino-enakievo-krasnaia-zvezda-19440404",
@@ -2082,7 +2817,9 @@
     "Donetsk",
     "Ienakiieve"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-tfgipfo-syzran-raffinerie1942",
@@ -2099,7 +2836,9 @@
    "villes": [
     "Syzran"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-tomsk-bibliotheque-industrie",
@@ -2116,7 +2855,9 @@
    "villes": [
     "Tomsk"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-trafikverket-hallsberg-history",
@@ -2133,7 +2874,9 @@
    "villes": [
     "Hallsberg"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-ttu-soie-leninabad2023",
@@ -2150,7 +2893,9 @@
    "villes": [
     "Khodjent"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-ualtaeva-petites-villes2011",
@@ -2168,7 +2913,9 @@
     "Altaï",
     "Ridder"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-ufaved-tchernikovsk-creation-1944",
@@ -2186,7 +2933,9 @@
     "Tchernikovsk",
     "Oufa"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-ukase-bssr-chefs-lieux-19440920",
@@ -2205,7 +2954,9 @@
     "Hrodna",
     "Polotsk"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-urss-constitution-1937-art145",
@@ -2222,7 +2973,9 @@
    "villes": [
     "Moscou"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-us-army-iceland-transport",
@@ -2241,7 +2994,9 @@
     "Akureyri",
     "Seyðisfjörður"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-us-navy-iceland-bases",
@@ -2259,7 +3014,9 @@
     "Reykjavík",
     "Seyðisfjörður"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-ushmm-german-administration-europe-1944",
@@ -2274,7 +3031,9 @@
    "notes": "Relecture Claude 01/10/2026 (non_verifiee) : Page = simple image GIF de carte avec titre ; aucun texte ni légende lisible, impossible de confirmer la distinction administrations/territoires occupés/États distincts.",
    "domaine": "frontieres",
    "villes": [],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-vayner-transport-guerre-ch4",
@@ -2297,7 +3056,9 @@
     "Poti",
     "Touapsé"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-vishnevski-sakhaline2000",
@@ -2320,7 +3081,9 @@
     "Onor",
     "Tymovskoïe"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-vitebsk-archives-orcha-polotsk-1944",
@@ -2338,7 +3101,9 @@
     "Polotsk",
     "Orcha"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-vorochilovgrad-lettre-194402",
@@ -2355,7 +3120,9 @@
    "villes": [
     "Louhansk"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-westpoint-6-12ag-1944-11-12",
@@ -2370,7 +3137,9 @@
    "notes": "Trouvée par Claude : dernière situation connue AVANT le Snapshot pour le sud de la poche de Colmar (hors de la carte LOC). Carte stylisée, calée sur 11 villes (écart moyen 1,7 km). Relecture Claude 01/10/2026 (non_verifiee) : WebFetch ne sait pas lire les images (JPG) : « Image content is not supported », carte non contrôlée.",
    "domaine": "frontieres",
    "villes": [],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-westpoint-alsace-colmar-1945",
@@ -2385,7 +3154,9 @@
    "notes": "Trouvée par Claude. Sert pour le sud de la poche, hors de la carte LOC. Utile aussi pour le ratissage de janvier (Nordwind, Sonnenwende). Réservée au ratissage de janvier (situation postérieure au Snapshot 0). Relecture Claude 01/10/2026 (non_verifiee) : WebFetch ne prend pas en charge les images (JPG) : carte et tireté « 20 Jan. » non vus.",
    "domaine": "frontieres",
    "villes": [],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-westpoint-general-situation-1944-12-15",
@@ -2400,7 +3171,9 @@
    "notes": "Trouvée par Claude. Carte à petite échelle (≈ 1:5 000 000) : incertitude ≈ 5 km. Géoréférencée sur les côtes et fleuves Natural Earth. Relecture Claude 01/10/2026 (non_verifiee) : WebFetch ne gère pas les images (JPG) : contenu de la carte non vérifiable par cet outil.",
    "domaine": "frontieres",
    "villes": [],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-westpoint-italy-jun-dec1944",
@@ -2415,7 +3188,9 @@
    "notes": "Apportée par Ether (lot 04), intégrée par Claude le 28/09/2026. Lien exact ajouté par Claude. Carte stylisée, calée sur 26 villes (≈ 7 km en moyenne). Relecture Claude 01/10/2026 (non_verifiee) : WebFetch ne sait pas lire les images (JPG) : « Image content is not supported », carte non contrôlée.",
    "domaine": "frontieres",
    "villes": [],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-westpoint-russian-balkan-baltic-1944",
@@ -2430,7 +3205,9 @@
    "notes": "Lien exact fourni par Ether le 28/09/2026. Géoréférencée par Claude (23 points d'appui, Lambert + plaque mince) : erreur de validation croisée ≈ 9 km en moyenne ; carte stylisée → incertitude retenue 15 km. Relecture Claude 01/10/2026 (non_verifiee) : WebFetch ne gère pas le contenu image (JPG) : \"Image content is not supported\" ; carte non consultable par cet outil.",
    "domaine": "frontieres",
    "villes": [],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-wikidata",
@@ -3063,7 +3840,9 @@
     "Yolçatı",
     "Zonguldak"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-wikisource-constitution-oudmourtie-1937",
@@ -3080,58 +3859,9 @@
    "villes": [
     "Ijevsk"
    ],
-   "remplacee_par": []
-  },
-  {
-   "id": "src-12a-dhs-bellinzona",
-   "groupe": "partielle",
-   "statut_claude": "limite",
-   "niveau": "B",
-   "titre": "Bellinzone (commune)",
-   "institution": "Dictionnaire historique de la Suisse / HLS",
-   "url": "https://hls-dhs-dss.ch/fr/articles/002031/2022-12-16/",
-   "ou_regarder": "Section époque contemporaine, paragraphes ouverture du Gothard et ateliers",
-   "extrait": "la construction de l'atelier de réparations de la Compagnie ferroviaire du Gothard (1884)",
-   "notes": "Proposée par Ether (audit villes 1.2, 01/10/2026). Note d'Ether : Ligne du Gothard ouverte en 1882 ; nœud ferroviaire et ateliers de réparation ouverts en 1884. Justifie le rôle avant 1945, sans chiffrer le trafic au Snapshot 0. Relecture Claude 01/10/2026 : Ateliers de 1884 et statut de nœud ferroviaire de premier ordre vus ; la date d'ouverture de la ligne (1882) n'a pas été citée explicitement par la page extraite.",
-   "domaine": "villes",
-   "villes": [
-    "Bellinzone"
-   ],
-   "remplacee_par": []
-  },
-  {
-   "id": "src-12a-graz-rail",
-   "groupe": "partielle",
-   "statut_claude": "limite",
-   "niveau": "B",
-   "titre": "Graz historisch — Eisenbahngeschichte, BIG janvier 2010",
-   "institution": "Stadt Graz, bulletin municipal BIG",
-   "url": "https://www.graz.at/cms/dokumente/10135466_7747759/dabdc6cb/BIG_01_2010.pdf",
-   "ou_regarder": "PDF p. 5 (index 4), chronique ferroviaire : trajet Vienne–Graz–Trieste de 1857, gares",
-   "extrait": "Am 27. Juli 1857 verkehrte der erste Personenzug von Wien über den Semmering und Graz nach Triest.",
-   "notes": "Proposée par Ether (audit villes 1.2, 01/10/2026). Note d'Ether : Établit l'histoire des gares locales et les liaisons du XIXe siècle. Le bilan de ruines 1944–1945 n'est pas un état daté au Snapshot 0. La ligne du tableau indiquant Klagenfurt en 1861 n'est pas reprise : elle demande un recoupement. Relecture Claude 01/10/2026 : Trajet Vienne–Graz–Trieste (1857) et ligne du tableau « 1861 Klagenfurt » vus ; l'histoire des gares locales n'a pas été confirmée par un passage cité.",
-   "domaine": "villes",
-   "villes": [
-    "Graz"
-   ],
-   "remplacee_par": []
-  },
-  {
-   "id": "src-12a-karlsruhe-port",
-   "groupe": "partielle",
-   "statut_claude": "limite",
-   "niveau": "B",
-   "titre": "Rheinhafen Karlsruhe — port et rail",
-   "institution": "Stadtarchiv Karlsruhe / Stadtlexikon",
-   "url": "https://stadtlexikon.karlsruhe.de/index.php/De:Lexikon:ins-1511",
-   "ou_regarder": "Paragraphes construction 1896–1901, charbon et expansions",
-   "extrait": "wurde der Hafen am 1. Mai 1901 eröffnet. ... Hauptumschlag war die Kohle mit 53 %",
-   "notes": "Proposée par Ether (audit villes 1.2, 01/10/2026). Note d'Ether : Port relié au rail ouvert le 01/05/1901 ; infrastructures charbonnières et extensions avant guerre. Preuve locale permettant d'expliciter port_fluvial. Importance C conservée par prudence ; débit réel de janvier non établi. Relecture Claude 01/10/2026 : Ouverture le 01/05/1901, dominance du charbon et extensions (1903, 1913, 1916) confirmées ; le raccordement ferroviaire n'a pas été vu explicitement dans les passages cités.",
-   "domaine": "villes",
-   "villes": [
-    "Karlsruhe"
-   ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-13-cz-ostrava-nom",
@@ -3148,59 +3878,9 @@
    "villes": [
     "Moravská Ostrava"
    ],
-   "remplacee_par": []
-  },
-  {
-   "id": "src-13-hu-csepel-industrie",
-   "groupe": "partielle",
-   "statut_claude": "limite",
-   "niveau": "C",
-   "titre": "Weiss Manfréd és Csepel története röviden",
-   "institution": "BKSZC Weiss Manfréd Technikum, école publique professionnelle",
-   "url": "https://wm-iskola.hu/iskola/weisstortenet",
-   "ou_regarder": "1892 : implantation manufacturière ; production mécanique et militaire pendant la guerre ; destructions et transfert de l'usine en 1944.",
-   "extrait": "1892-ben Csepel faluja mellett fekvő és a hajózható Duna melletti János-legelőre esik a választásuk.",
-   "notes": "Proposée par Ether (villes 1.3, 01/10/2026, réf. S47). Limite annoncée par Ether : La compilation cite la collection d'histoire locale et Wikipédia et contient une alternative de date d'après-guerre. Niveau C, rôle à renforcer par notice d'archives accessible ; ne pas prendre ses dates incertaines de nationalisation. Relecture Claude 01/10/2026 : 1892 et production militaire de guerre confirmés, mais 1944 n'apparaît que comme reprise par les Allemands et bombardements, pas un transfert de l'usine.",
-   "domaine": "villes",
-   "villes": [
-    "Csepel"
-   ],
-   "remplacee_par": []
-  },
-  {
-   "id": "src-13-sk-dubnica-industrie",
-   "groupe": "partielle",
-   "statut_claude": "limite",
-   "niveau": "B",
-   "titre": "Škoda Dubnica kedysi a dnes",
-   "institution": "Ville de Dubnica nad Váhom",
-   "url": "https://www.dubnica.eu/udalosti-v-meste/aktuality/skoda-dubnica-kedysi-a-dnes-276sk.html",
-   "ou_regarder": "Conférence historique : début de production et période 1937–1945.",
-   "extrait": "Budovanie závodu, začiatok výroby, obdobie rokov 1937 – 1945",
-   "notes": "Proposée par Ether (villes 1.3, 01/10/2026, réf. S36). Limite annoncée par Ether : Notice municipale sur l'histoire de l'usine ; livre annoncé non lu. Industrie mécanique/armement, sans ajouter base militaire ni rail non vérifié. Relecture Claude 01/10/2026 : Seul l'intitulé d'un thème de conférence est présent : aucun contenu factuel sur la période 1937–1945.",
-   "domaine": "villes",
-   "villes": [
-    "Dubnica nad Váhom"
-   ],
-   "remplacee_par": []
-  },
-  {
-   "id": "src-13-sk-ports-histoire",
-   "groupe": "partielle",
-   "statut_claude": "limite",
-   "niveau": "B",
-   "titre": "O nás — História",
-   "institution": "Verejné prístavy, a.s.",
-   "url": "https://www.portslovakia.com/o-nas",
-   "ou_regarder": "1919 : activité portuaire à Bratislava ; 1920–1923 : développement conjoint des ports de Bratislava et Komárno ; équipements de Bratislava en 1928.",
-   "extrait": "Už v roku 1928 zaznamenal bratislavský prístav výstavbu nábrežnej hrany s príslušným technickým vybavením",
-   "notes": "Proposée par Ether (villes 1.3, 01/10/2026, réf. S22). Limite annoncée par Ether : Le récit historique est distinct de la description actuelle du port. Il ne suffit pas à dater le chantier naval moderne de Komárno. Relecture Claude 01/10/2026 : 1919 et 1928 à Bratislava soutenus, mais le développement conjoint Bratislava–Komárno en 1920–1923 n'est pas confirmé (Komárno non vu).",
-   "domaine": "villes",
-   "villes": [
-    "Bratislava",
-    "Komárom"
-   ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-13-sk-sturovo-nom",
@@ -3217,270 +3897,9 @@
    "villes": [
     "Párkány"
    ],
-   "remplacee_par": []
-  },
-  {
-   "id": "src-14-ee-kohtla-jarve-industrie",
-   "groupe": "partielle",
-   "statut_claude": "limite",
-   "niveau": "B",
-   "titre": "Histoire de l’industrie des schistes bitumineux",
-   "institution": "Viru Keemia Grupp — Groupe chimique Viru",
-   "url": "https://www.vkg.ee/ajalugu/",
-   "ou_regarder": "VKG : industrie du schiste bitumineux dès 1916 ; usine d'essai 1921 ; quatre usines Kiviter 1924–1943 ; nouveau complexe daté de 1945.",
-   "extrait": "ehitatakse neli Kiviter õlivabrikut",
-   "notes": "Proposée par Ether (villes 1.4, 01/10/2026). Note d'Ether : Le complexe de 1945 reste futur ; le point retenu correspond au site industriel ancien. Relecture Claude 01/10/2026 : Contenu thématique concordant mais les extraits retournés ne montrent pas explicitement les dates 1916, 1924–1943 et 1945 : à reconfirmer. Repère corrigé par Ether le 01/10/2026 (réponse au lot 1.4).",
-   "domaine": "villes",
-   "villes": [
-    "Kohtla-Järve"
-   ],
-   "remplacee_par": []
-  },
-  {
-   "id": "src-14-ee-rail-histoire",
-   "groupe": "partielle",
-   "statut_claude": "limite",
-   "niveau": "B",
-   "titre": "Histoire du réseau ferroviaire estonien",
-   "institution": "Eesti Raudtee — chemins de fer estoniens",
-   "url": "https://www.evr.ee/et/ettevottest",
-   "ou_regarder": "EVR : trafic régulier Tapa–Tartu en 1877 ; Valga 1887 ; liaison régulière vers Riga 1889. Le musée de Tapa donne 1876.",
-   "extrait": "Esimene raudtee Eestis avati liikluseks 5. novembril 1870. aastal Paldiski - Tallinn - Narva - Gatshina lõigul.",
-   "notes": "Proposée par Ether (villes 1.4, 01/10/2026). Note d'Ether : Les longueurs actuelles et l’écartement de chaque ligne au 31 décembre 1944 ne sont pas extrapolés. Relecture Claude 01/10/2026 : Seul l'axe de 1870 est soutenu ; Tapa–Tartu 1877, Valga 1887, réseau étroit 1896–1901 et conversions de voie en guerre sont absents de la page. Repère corrigé par Ether le 01/10/2026 (réponse au lot 1.4).",
-   "domaine": "villes",
-   "villes": [
-    "Tallinn",
-    "Paldiski",
-    "Narva",
-    "Tapa",
-    "Tartu",
-    "Valga",
-    "Pärnu",
-    "Viljandi"
-   ],
-   "remplacee_par": []
-  },
-  {
-   "id": "src-14-ee-tallinn-histoire",
-   "groupe": "partielle",
-   "statut_claude": "limite",
-   "niveau": "B",
-   "titre": "Tallinn : histoire",
-   "institution": "Eesti Entsüklopeedia — Encyclopédie estonienne",
-   "url": "https://www.entsyklopeedia.ee/artikkel/tallinn3",
-   "ou_regarder": "Notice : chemin de fer 1870 ; capitale de la RSS d'Estonie dès 1940 ; bombardement des 9–10 mars 1944 ; entrée de l'Armée rouge le 22 septembre 1944.",
-   "extrait": "Tallinna pindala kasvas 1940, pärast Nõmme Tallinnaga liitmist 1,5 korda",
-   "notes": "Proposée par Ether (villes 1.4, 01/10/2026). Note d'Ether : Ne pas transformer automatiquement le port militaire de 1912 en un rôle militaire opérationnel documenté pour fin 1944. Relecture Claude 01/10/2026 : Seul l'intégration de Nõmme en 1940 est vue ; chemin de fer 1870, port militaire avant 1914 et statut de capitale de la RSS d'Estonie non retrouvés dans la page. Repère corrigé par Ether le 01/10/2026 (réponse au lot 1.4).",
-   "domaine": "villes",
-   "villes": [
-    "Tallinn"
-   ],
-   "remplacee_par": []
-  },
-  {
-   "id": "src-14-ee-tapa-local",
-   "groupe": "partielle",
-   "statut_claude": "limite",
-   "niveau": "B",
-   "titre": "Tapa dans la presse locale",
-   "institution": "Tapa Museum",
-   "url": "https://tapamuuseum.ee/ajalugu/tapa-ajakirjanduses/tapa-ajakirjanduses-i/",
-   "ou_regarder": "Bas de page, entrée Eesti Postimees ehk Näddalaleht, 22. detsember 1876 ; annonce signée postmeister Winter le 19 décembre 1876.",
-   "extrait": "1876. aastal Tapalt raudteeharu Tartusse pikendati, misläbi Tapa nagu sõlmeks sai",
-   "notes": "Proposée par Ether (réponse au lot villes 1.4, 01/10/2026). Limite annoncée par Ether : EVR donne 1877 pour le trafic régulier; conserver la divergence, sans inventer sa cause. Relecture Claude 01/10/2026 : La page (Postimees 1926) confirme 1876, l'embranchement vers Tartu et le statut de nœud (« sõlmeks »). Aucune annonce postale de décembre 1876 n'a été trouvée dans le texte lu. Cycle 3 d'Ether (01/10/2026) : Le musée reproduit bien l'annonce de décembre 1876 relative au courrier sur Tapa–Tartu. Source rétrospective citant une annonce d'époque, original non ouvert. Dates reproduites telles qu'affichées, calendrier non converti. Ne prouve pas à elle seule tous les services du nœud au Snapshot ; ne résout pas le rapport avec 1877 indiqué par EVR. Repère précédent : Le musée cite 1876 pour la branche de Tartu et la fonction de nœud; une annonce postale est datée de décembre 1876. Relecture Claude 01/10/2026 (3e passe) : Trois lectures (deux par sous-agent, une par Claude) : l'outil ne rend la page que de 1924 à 1940, et coupe au milieu d'une phrase. L'entrée du 22/12/1876 (annonce du maître de poste Winter) signalée par Ether au bas de la page reste donc introuvable pour Claude : ni confirmée ni infirmée. Le passage 1876 déjà confirmé reste valable.",
-   "domaine": "villes",
-   "villes": [
-    "Tapa"
-   ],
-   "remplacee_par": []
-  },
-  {
-   "id": "src-14-lt-rail-ministere",
-   "groupe": "partielle",
-   "statut_claude": "limite",
-   "niveau": "B",
-   "titre": "Histoire des chemins de fer lituaniens",
-   "institution": "Ministère des Transports et Communications de Lituanie",
-   "url": "https://sumin.lrv.lt/lt/veiklos-sritys/transporto-istorija/gelezinkeliai/",
-   "ou_regarder": "Le ministère date de 1861 la première ligne de Lituanie ; Liepāja–Romny par Radviliškis 1871–1874 ; embranchements de 1873.",
-   "extrait": "1871-1874 m. pro Mažeikius, Radviliškį, Kaišiadoris, Naują Vilnią paklota Liepojos-Romnų linija",
-   "notes": "Proposée par Ether (villes 1.4, 01/10/2026). Note d'Ether : Nouvelles conversions de guerre à vérifier ligne par ligne, sans état uniforme inventé. Relecture Claude 01/10/2026 : Lignes 1871-1874, branches de 1873, Kaunas-Šiauliai (1921/1937) et écartement 1940 sont vus, mais la page date la première ligne de 1861 et non de 1862. Repère corrigé par Ether le 01/10/2026 (réponse au lot 1.4).",
-   "domaine": "villes",
-   "villes": [
-    "Vilnius",
-    "Kaunas",
-    "Šiauliai",
-    "Mažeikiai",
-    "Radviliškis",
-    "Kaišiadorys",
-    "Panevėžys"
-   ],
-   "remplacee_par": []
-  },
-  {
-   "id": "src-14-lv-liepaja-port",
-   "groupe": "partielle",
-   "statut_claude": "limite",
-   "niveau": "B",
-   "titre": "Histoire de Liepāja : port et transit avant 1945",
-   "institution": "Liepājas valstspilsētas pašvaldība — Ville de Liepāja",
-   "url": "https://www.liepaja.lv/en/history-of-liepaja/",
-   "ou_regarder": "Histoire municipale (extrait indexé) : port bombardé le 2 août 1914 ; rôle maritime au début du XXe siècle.",
-   "extrait": "Latvian Provisional Government took refuge aboard the steamship 'Saratow' in the Port of Liepāja.",
-   "notes": "Proposée par Ether (villes 1.4, 01/10/2026). Note d'Ether : Extrait de recherche lu ; ouverture de la page échouée. Le rôle de capitale de 1919 n’est pas reporté à 1945. Relecture Claude 01/10/2026 : Page ouverte : ligne directe vers New York, tirs sur le port le 2 août 1914 et refuge du gouvernement sur le Saratow vus ; l'année 1919 n'apparaît pas dans l'extrait cité. Repère corrigé par Ether le 01/10/2026 (réponse au lot 1.4).",
-   "domaine": "villes",
-   "villes": [
-    "Liepāja"
-   ],
-   "remplacee_par": []
-  },
-  {
-   "id": "src-14-lv-rail-chronologie",
-   "groupe": "partielle",
-   "statut_claude": "limite",
-   "niveau": "B",
-   "titre": "Chronologie des lignes ferroviaires de Lettonie",
-   "institution": "Latvijas Dzelzceļa vēstures muzejs — musée d’histoire ferroviaire de Lettonie",
-   "url": "https://www.railwaymuseum.lv/en/content/railway-lines-latvia",
-   "ou_regarder": "Tableau : Riga–Daugavpils 1861 ; Riga–Jelgava 1868 ; Liepāja–Vaiņode 1871 ; Sita–Rēzekne 1934 ; ligne Krustpils–Jēkabpils fermée en 1944.",
-   "extrait": "Krustpils – Jēkabpils, closed in 1944.",
-   "notes": "Proposée par Ether (villes 1.4, 01/10/2026). Note d'Ether : Ne pas confondre une ligne ancienne avec un trafic garanti ni changer automatiquement 1524 mm en 1520 mm. Relecture Claude 01/10/2026 : La fermeture Krustpils–Jēkabpils en 1944 est vue, mais les années 1861, 1868, 1871 et 1934 (Rēzekne) n'apparaissent pas dans les extraits restitués (Gulbene : seul 1916 vu, 1903 associé à Valka–Pļaviņas). Repère corrigé par Ether le 01/10/2026 (réponse au lot 1.4).",
-   "domaine": "villes",
-   "villes": [
-    "Riga",
-    "Daugavpils",
-    "Jelgava",
-    "Liepāja",
-    "Ventspils",
-    "Rēzekne",
-    "Krustpils",
-    "Gulbene",
-    "Tukums",
-    "Valmiera",
-    "candidat-lv-jekabpils"
-   ],
-   "remplacee_par": []
-  },
-  {
-   "id": "src-14-pl-cosel-archive",
-   "groupe": "partielle",
-   "statut_claude": "limite",
-   "niveau": "B",
-   "titre": "Grundakten de Cosel (Koźle), pièces 1944",
-   "institution": "Archiwum Państwowe w Opolu",
-   "url": "https://www.szukajwarchiwach.gov.pl/en/zespol/-/zespol/44925",
-   "ou_regarder": "Fonds 45/1210/0, Sąd Obwodowy w Koźlu, onglet séries, 6.12 Cosel [Koźle] ; série 453742, cote 45/1210/0/6.12.",
-   "extrait": "Sąd Obwodowy w Koźlu",
-   "notes": "Proposée par Ether (réponse au lot villes 1.4, 01/10/2026). Limite annoncée par Ether : Le nom vient du catalogue; l’histoire municipale distincte prouve le port. Ancrer le point sur ses bassins. Relecture Claude 01/10/2026 : La page renvoie « Seria jest tymczasowo niedostępna » : aucun contenu d'inventaire lisible, ni Cosel/Koźle ni dates de 1944 vérifiables. Cycle 3 d'Ether (01/10/2026) : Fonds parent et série relus. URL stable du fonds fournie. Les actes individuels datés de 1944 n'ont pas été revérifiés ; garder la réserve de Claude. Ce catalogue ne prouve pas le rôle portuaire. Adresse précédente (conservée pour l'historique) : https://www.szukajwarchiwach.gov.pl/seria?_Seria_cur=6&_Seria_delta=200&_Seria_id_serii=453742&_Seria_nameofjsp=jednostki&_Seria_resetCur=false&p_p_id=Seria&p_p_lifecycle=0&p_p_mode=view&p_p_state=normal Repère précédent : Inventaire emploie Cosel [Koźle], y compris des entrées datées 1944. Relecture Claude 01/10/2026 (3e passe) : Fonds 45/1210/0 confirmé (tribunal de district de Cosel/Koźle, Archives d'État d'Opole). La liste des séries n'est pas rendue par l'outil : la série « 6.12 Cosel [Koźle] » n'est pas vue. Actes de 1944 non lus.",
-   "domaine": "villes",
-   "villes": [
-    "Koźle"
-   ],
-   "remplacee_par": []
-  },
-  {
-   "id": "src-14-pl-czestochowa-industrialisation",
-   "groupe": "partielle",
-   "statut_claude": "limite",
-   "niveau": "B",
-   "titre": "Naissance de la Częstochowa moderne",
-   "institution": "Częstochowska Gazeta Kulturalna — Portail culturel de la ville de Częstochowa",
-   "url": "https://www.cgk.czestochowa.pl/blog/artykul/narodziny-nowoczesnej-czestochowy",
-   "ou_regarder": "Histoire culturelle municipale : chemin de fer Varsovie–Vienne en 1846 ; usines historiques citées ; aciérie Hantke à Raków, alors en périphérie.",
-   "extrait": "budowa Kolei Warszawsko-Wiedeńskiej w 1846 r.",
-   "notes": "Proposée par Ether (villes 1.4, 01/10/2026). Note d'Ether : Le rang proposé repose sur le nœud et le bassin industriel historiques, sans chiffre de trafic pour 1944. Relecture Claude 01/10/2026 : Le chemin de fer de 1846 est confirmé, mais la page ne qualifie pas explicitement les usines de textiles/métallurgiques (elle cite Wełnopol, Warta, Elanex, Częstochowianka) ni ne date « avant 1914 ». Repère corrigé par Ether le 01/10/2026 (réponse au lot 1.4).",
-   "domaine": "villes",
-   "villes": [
-    "Częstochowa"
-   ],
-   "remplacee_par": []
-  },
-  {
-   "id": "src-14-pl-gdansk-schichau",
-   "groupe": "partielle",
-   "statut_claude": "limite",
-   "niveau": "B",
-   "titre": "Stocznia Schichaua : histoire du chantier naval",
-   "institution": "Fundacja Gdańska — Gedanopedia, Encyclopédie de Gdańsk",
-   "url": "https://gdansk.gedanopedia.pl/gdansk/?title=STOCZNIA_SCHICHAUA",
-   "ou_regarder": "Gedanopedia : terrain acheté en 1889 le long d'une voie ferrée existante ; chantier construit 1890–1892 ; premiers travaux navals 1891 ; ouverture officielle en janvier 1892.",
-   "extrait": "Oficjalne otwarcie gdańskiej filii stoczni Schichaua z Elbląga nastąpiło w stycznia 1892.",
-   "notes": "Proposée par Ether (villes 1.4, 01/10/2026). Note d'Ether : Ne pas confondre ces entreprises avec les sociétés constituées après 1945. Relecture Claude 01/10/2026 : Ouverture 1892, activité 1891, licence 1907 et moteurs 1911 vus ; la date 1889 du raccordement ferroviaire n'est pas citée (seulement « Gdańsk mający połączenie kolejowe »). Repère corrigé par Ether le 01/10/2026 (réponse au lot 1.4).",
-   "domaine": "villes",
-   "villes": [
-    "Gdańsk",
-    "Elbląg"
-   ],
-   "remplacee_par": []
-  },
-  {
-   "id": "src-14-pl-heydebreck-archive",
-   "groupe": "partielle",
-   "statut_claude": "limite",
-   "niveau": "B",
-   "titre": "Grundakten de Heydebreck (Kędzierzyn), pièces 1944",
-   "institution": "Archiwum Państwowe w Opolu",
-   "url": "https://www.szukajwarchiwach.gov.pl/en/zespol/-/zespol/44925",
-   "ou_regarder": "Fonds 45/1210/0, Sąd Obwodowy w Koźlu, onglet séries, 6.34 Kandrzin, Heydebreck [Kędzierzyn].",
-   "extrait": "",
-   "notes": "Proposée par Ether (réponse au lot villes 1.4, 01/10/2026). Limite annoncée par Ether : Catalogue consulté, tous actes non feuilletés; conserver séparé du port de Koźle. Relecture Claude 01/10/2026 : La page renvoie « Seria jest tymczasowo niedostępna » ; aucune unité Heydebreck/Kandrzin lisible, le catalogue n'a pas pu être vérifié. Cycle 3 d'Ether (01/10/2026) : Fonds et intitulé de série lus. L'ouverture de la série a échoué ; correspondance de l'ancien identifiant 453036 et pièces 1944 non revérifiées. URL du fonds proposée comme accès complémentaire stable, ne pas effacer l'ancien lien ni lever la réserve. Aucun rôle industriel prouvé ici. Adresse précédente (conservée pour l'historique) : https://www.szukajwarchiwach.gov.pl/seria?_Seria_cur=43&_Seria_delta=200&_Seria_id_serii=453036&_Seria_nameofjsp=jednostki&_Seria_resetCur=false&p_p_id=Seria&p_p_lifecycle=0&p_p_mode=view&p_p_state=normal Repère précédent : Catalogue foncier distingue Heydebreck et Kandrzin; plusieurs pièces sont datées 1944. Relecture Claude 01/10/2026 (3e passe) : Même fonds 44925 confirmé, mais la série « 6.34 Kandrzin, Heydebreck [Kędzierzyn] » n'apparaît pas (onglet des séries non rendu). Ni confirmée ni infirmée.",
-   "domaine": "villes",
-   "villes": [
-    "Kędzierzyn"
-   ],
-   "remplacee_par": []
-  },
-  {
-   "id": "src-14-pl-katowice-gare",
-   "groupe": "partielle",
-   "statut_claude": "limite",
-   "niveau": "B",
-   "titre": "Ancienne gare ferroviaire de Katowice",
-   "institution": "Narodowy Instytut Dziedzictwa — Institut national du patrimoine polonais",
-   "url": "https://zabytek.pl/pl/obiekty/katowice-zespol-starego-dworca-kolejowego",
-   "ou_regarder": "Fiche d'inventaire de l'Institut national du patrimoine : ensemble de l'ancienne gare ; bâtiment voyageurs daté de 1906.",
-   "extrait": "budynek użyteczności publicznej 1906 r. Katowice",
-   "notes": "Proposée par Ether (villes 1.4, 01/10/2026). Note d'Ether : Preuve de présence ancienne ; n’établit pas seule l’importance du trafic au Snapshot. Relecture Claude 01/10/2026 : La fiche ne donne que la date 1906 et indique n'avoir pas encore de description, donc rien qui détaille un ensemble ferroviaire. Repère corrigé par Ether le 01/10/2026 (réponse au lot 1.4).",
-   "domaine": "villes",
-   "villes": [
-    "Katowice"
-   ],
-   "remplacee_par": []
-  },
-  {
-   "id": "src-14-pl-posen-plan-1944",
-   "groupe": "partielle",
-   "statut_claude": "limite",
-   "niveau": "B",
-   "titre": "Plans d’occupation de Poznań, 1939–1944",
-   "institution": "CYRYL; documents de l’Archives d’État de Poznań",
-   "url": "https://cyryl.poznan.pl/kolekcja/okupacyjne-plany-poznania-1939-1944-archiwum-panstwowe-w-poznaniu/",
-   "ou_regarder": "Catalogue de plans occupés; intitulés Plan der Gauhauptstadt Posen et plans de transport, dont 1944.",
-   "extrait": "Verkehrsplan der Gauhauptstadt Posen, komunikacja w Poznaniu - stolicy prowincji 03.1944–03.1944",
-   "notes": "Proposée par Ether (réponse au lot villes 1.4, 01/10/2026). Limite annoncée par Ether : Titres de catalogue lus; tous les scans ne sont pas feuilletés. Relecture Claude 01/10/2026 : Le catalogue (47 objets, Archiwum Państwowe w Poznaniu) contient bien des plans « Gauhauptstadt Posen » et un plan de transport daté de mars 1944 ; l'intitulé exact « Plan der Gauhauptstadt Posen » n'a pas été cité tel quel, seulement des variantes (« Gauhauptstadt Posen, stolica prowincji… 10.1943 », « Verkehrsplan der Gauhauptstadt Posen »).",
-   "domaine": "villes",
-   "villes": [
-    "Poznań"
-   ],
-   "remplacee_par": []
-  },
-  {
-   "id": "src-14-pl-torun-rail",
-   "groupe": "partielle",
-   "statut_claude": "limite",
-   "niveau": "B",
-   "titre": "Une gare accueillante pour les voyageurs : histoire de Toruń Główny",
-   "institution": "Urząd Miasta Torunia — Ville de Toruń",
-   "url": "https://torun.pl/pl/aktualnosc/dworzec-przyjazny-dla-podroznych",
-   "ou_regarder": "Ligne Bydgoszcz–Toruń de 1861 ; gare de 1873 ; extension ferroviaire de 1883.",
-   "extrait": "już w roku 1861 oddano do użytku połączenie Bydgoszcz – Toruń",
-   "notes": "Proposée par Ether (villes 1.4, 01/10/2026). Note d'Ether : Les reconstructions après 1945 ne sont pas importées. Relecture Claude 01/10/2026 : Ligne de 1861 et gare de 1873 confirmées ; pour 1883 seule l'information « la gare avait 12 voies principales » est vue, pas une extension ferroviaire explicite.",
-   "domaine": "villes",
-   "villes": [
-    "Toruń",
-    "Bydgoszcz"
-   ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-17-az-socar-histoire",
@@ -3497,7 +3916,9 @@
    "villes": [
     "Bakou"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-17-ge-batoumi-musee-port",
@@ -3515,7 +3936,9 @@
     "Batoumi",
     "Samtredia"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-17-ge-zaria19410212",
@@ -3532,7 +3955,9 @@
    "villes": [
     "Tkvarcheli"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-17-rsfsr-admin1940-ocr",
@@ -3564,7 +3989,9 @@
     "Naltchik",
     "Piatigorsk"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-17-ru-dvigatelstroi-histoire",
@@ -3581,7 +4008,9 @@
    "villes": [
     "Kaspiisk"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-17-tr-atam-ports2019",
@@ -3606,7 +4035,9 @@
     "Samsun",
     "Trabzon"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-17-tr-derince-histoire",
@@ -3623,7 +4054,9 @@
    "villes": [
     "Derince"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-17-tr-mta-mines1944",
@@ -3645,7 +4078,9 @@
     "Tavşanlı",
     "Zonguldak"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-17-tr-rail-tamcelik",
@@ -3666,7 +4101,9 @@
     "Karkamış",
     "Nusaybin"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-17-tr-sumerbank-polatoglu2021",
@@ -3698,7 +4135,9 @@
     "Nazilli",
     "Sivas"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-17-tr-tdv-canakkale",
@@ -3715,7 +4154,9 @@
    "villes": [
     "Çanakkale"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-altlib-chronologie-guerre",
@@ -3735,7 +4176,9 @@
     "Roubtsovsk",
     "Slavgorod"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-andorra-neutrality-wwii",
@@ -3750,7 +4193,9 @@
    "notes": "Apportée par Ether (lot 04), intégrée par Claude le 28/09/2026. Relecture Claude 01/10/2026 (faible) : Le contenu rendu n'est qu'un menu de navigation du gouvernement andorran, aucun texte sur la neutralité d'Andorre pendant la guerre ; à rechercher manuellement.",
    "domaine": "frontieres",
    "villes": [],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-antipenko-kalinkovitchi-1944",
@@ -3767,7 +4212,9 @@
    "villes": [
     "Kalinkavitchy"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-archive74-tcheliabinsk-tankograd-1942-1944",
@@ -3784,7 +4231,9 @@
    "villes": [
     "Tcheliabinsk"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-archives-khabarovsk-administration2009",
@@ -3806,7 +4255,9 @@
     "Palana",
     "Petropavlovsk-Kamtchatski"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-archives-touva-decret1944",
@@ -3823,7 +4274,9 @@
    "villes": [
     "Kyzyl"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-archives-xinjiang-transports2025",
@@ -3840,7 +4293,9 @@
    "villes": [
     "Almaty"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-bremenports",
@@ -3858,7 +4313,9 @@
     "Brême",
     "Wesermünde"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-britannica-russia",
@@ -3873,7 +4330,9 @@
    "notes": "Ajoutée par Claude le 2026-09-26 : citée dans le lot 01 mais absente du registre. Relecture Claude 01/10/2026 (faible) : La page rendue ne contient que l'intro (dissolution de l'URSS en 1991) ; le texte sur la formation de l'URSS le 30/12/1922 n'est pas visible, seulement un titre de section « Soviet Russia ».",
    "domaine": "frontieres",
    "villes": [],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-chemins-colmar-1945",
@@ -3888,7 +4347,9 @@
    "notes": "Apportée par Ether (lot 03), intégrée par Claude le 28/09/2026. Relecture Claude 01/10/2026 (limite) : Page sur la nécropole de Sigolsheim : n'évoque la poche de Colmar qu'en passant, sans en donner l'étendue ni la tenue allemande de façon explicite.",
    "domaine": "frontieres",
    "villes": [],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-cyprus-education-1878-1955",
@@ -3903,7 +4364,9 @@
    "notes": "Apportée par Ether (lot 04), intégrée par Claude le 28/09/2026. Relecture Claude 01/10/2026 (limite) : Page centrée sur la lutte de 1955-1959 ; ne mentionne la période 1878-1955 et la guerre que de façon générale, sans détail sur le statut colonial britannique en 1944-1945.",
    "domaine": "frontieres",
    "villes": [],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-db-museum-history",
@@ -3943,7 +4406,9 @@
     "Wels",
     "Sankt Pölten"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-ebid-kouibychev-usine18-bilan1943",
@@ -3960,7 +4425,9 @@
    "villes": [
     "Samara"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-ebid-novgorod-kostroma-actes1944",
@@ -3978,7 +4445,9 @@
     "Veliki Novgorod",
     "Kostroma"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-ebid-recueil-1938-1944-page79",
@@ -3997,7 +4466,9 @@
     "Perm",
     "Izmaïl"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-ebid-samara-kouibychev-acte1935",
@@ -4014,7 +4485,9 @@
    "villes": [
     "Samara"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-frus-1943-v01-d684",
@@ -4029,7 +4502,9 @@
    "notes": "Relecture Claude 01/10/2026 (limite) : Bon document (Déclaration de Moscou) : annexion de 1938 « null and void » et responsabilité de l'Autriche dans la guerre ; ne confère pas à l'Autriche un « statut allié » au sens strict.",
    "domaine": "frontieres",
    "villes": [],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-frus-1943-v02-d554-spain",
@@ -4044,7 +4519,9 @@
    "notes": "Apportée par Ether (lot 04), intégrée par Claude le 28/09/2026. Relecture Claude 01/10/2026 (limite) : Bon sujet (neutralité/non-belligérance espagnole) mais télégramme du 30 juillet 1943 ; ne couvre pas la situation de 1944-1945.",
    "domaine": "frontieres",
    "villes": [],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-frus-1944-v03-d899-hungary",
@@ -4059,7 +4536,9 @@
    "notes": "Apportée par Ether (lot 04), intégrée par Claude le 28/09/2026. Relecture Claude 01/10/2026 (limite) : Bon sujet (armistice hongrois) mais le document concerne l'armistice signé le 20/01/1945, donc postérieur au 01/01/1945, et non des négociations de 1944.",
    "domaine": "frontieres",
    "villes": [],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-frus-1944-v04-d836-france-recognition",
@@ -4074,7 +4553,9 @@
    "notes": "Apportée par Ether (lot 03), intégrée par Claude le 28/09/2026. Relecture Claude 01/10/2026 (limite) : Le document est un télégramme sur la reconnaissance soviétique (23/10/1944) du GPRF, pas la reconnaissance américaine ou générale.",
    "domaine": "frontieres",
    "villes": [],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-frus-1945-v02-d582-czechoslovakia",
@@ -4089,7 +4570,9 @@
    "notes": "Apportée par Ether (lot 04), intégrée par Claude le 28/09/2026. Relecture Claude 01/10/2026 (limite) : Document de nov. 1944 sur la Tchécoslovaquie (expulsion des Sudètes, frontières) ; le sujet exact de l'usage dans l'atlas (statut/contrôle) n'est pas précisé dans la fiche.",
    "domaine": "frontieres",
    "villes": [],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-frus-1945-v04-d432",
@@ -4104,7 +4587,9 @@
    "notes": "Relecture Claude 01/10/2026 (limite) : Le doc 432 (mémorandum PWC-201a, révisé 8 juin 1944) traite de la restauration des frontières d'avant Munich et de la Ruthénie, mais il s'agit d'une position américaine de 1944 ; le statut de la Ruthénie début 1945 relève plutôt des docs 506-517 (cession à l'URSS).",
    "domaine": "frontieres",
    "villes": [],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-frus-1946-v04-d5",
@@ -4119,7 +4604,9 @@
    "notes": "Relecture Claude 01/10/2026 (limite) : Le document est un projet de traité de paix avec la Finlande (1946), pas le texte de l'armistice de 1944 ; il confirme bien Petsamo et le bail de Porkkala-Udd (50 ans).",
    "domaine": "frontieres",
    "villes": [],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-gako-eydtkau-2011",
@@ -4136,7 +4623,9 @@
    "villes": [
     "ville-ru-tchernychevskoie"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-gako-raccords-fischhausen-2011",
@@ -4153,7 +4642,9 @@
    "villes": [
     "ville-ru-primorsk-kaliningrad"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-gako-raccords-tapiau-2011",
@@ -4170,7 +4661,9 @@
    "villes": [
     "ville-ru-gvardeisk"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-gibraltar-political-development",
@@ -4185,7 +4678,9 @@
    "notes": "Apportée par Ether (lot 04), intégrée par Claude le 28/09/2026. Relecture Claude 01/10/2026 (limite) : La page est un discours/dossier politique sur l'autodétermination (mention de la souveraineté britannique et du traité d'Utrecht), pas une page d'histoire factuelle précise ; utile seulement pour le statut colonial britannique de Gibraltar.",
    "domaine": "frontieres",
    "villes": [],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-gomel-encyclopedie-1991-1944",
@@ -4202,7 +4697,9 @@
    "villes": [
     "Gomel"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-govfo-faroe-status-wwii",
@@ -4217,7 +4714,9 @@
    "notes": "Apportée par Ether (lot 03), intégrée par Claude le 28/09/2026. Relecture Claude 01/10/2026 (limite) : Soutient la défense britannique et l'autonomie de fait pendant la guerre, mais sans détail sur 1944-1945 ni sur l'occupation de 1940.",
    "domaine": "frontieres",
    "villes": [],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-govse-neutrality-wwii",
@@ -4232,7 +4731,9 @@
    "notes": "Apportée par Ether (lot 03), intégrée par Claude le 28/09/2026. Relecture Claude 01/10/2026 (limite) : Discours de 2024 sur l'adhésion à l'OTAN : ne mentionne qu'en passant les concessions à l'Allemagne et l'entraînement d'unités danoises et norvégiennes ; source faible pour la neutralité de 1944-45.",
    "domaine": "frontieres",
    "villes": [],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-graz-rail-industry",
@@ -4249,7 +4750,9 @@
    "villes": [
     "Graz"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-gusakov-dno-trains1944",
@@ -4266,7 +4769,9 @@
    "villes": [
     "Dno"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-historyrussia-urss-pkwn-frontiere-1944-07-27",
@@ -4281,7 +4786,9 @@
    "notes": "Source primaire/archivistique. Le statut international de la frontière reste contesté à cette date. [Apportée par Ether (lot 02), URL vérifiée par Claude le 28/09/2026.] Relecture Claude 01/10/2026 (limite) : La page est une notice avec le bon titre (accord URSS–PKWN du 27 juillet 1944) mais ne reproduit pas le texte ni la mention de la ligne Curzon.",
    "domaine": "frontieres",
    "villes": [],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-izmail-esu-port-1944",
@@ -4298,7 +4805,9 @@
    "villes": [
     "Izmaïl"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-jdv-tome3-bielorussie-1944",
@@ -4328,7 +4837,9 @@
     "Salsk",
     "Tikhoretsk"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-jdv-tome3-carpates-kertch-1944",
@@ -4351,7 +4862,9 @@
     "ville-ua-lavochne",
     "ville-ua-volovets"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-karlskrona-naval-base",
@@ -4368,7 +4881,9 @@
    "villes": [
     "Karlskrona"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-kemrsl-kouzbass-guerre",
@@ -4387,7 +4902,9 @@
     "Kisseliovsk",
     "Novokouznetsk"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-khakassie-bibliotheque-industrie",
@@ -4404,7 +4921,9 @@
    "villes": [
     "Tchernogorsk"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-kichinev-ordre-173-19440824",
@@ -4421,7 +4940,9 @@
    "villes": [
     "Chișinău"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-kiel-1945",
@@ -4438,7 +4959,9 @@
    "villes": [
     "Kiel"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-kolesnikov-issykkul",
@@ -4456,7 +4979,9 @@
     "Balykchy",
     "Karakol"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-kovalev-rail-ukraine-moldavie-1944",
@@ -4487,7 +5012,9 @@
     "Rîbnița",
     "Bălți"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-krasnoyarsk-port-histoire",
@@ -4504,7 +5031,9 @@
    "villes": [
     "Krasnoïarsk"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-krivbass-rapport-19441215",
@@ -4521,7 +5050,9 @@
    "villes": [
     "Kryvyï Rih"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-kursbuch-reichsbahn-1944-prusse",
@@ -4544,7 +5075,9 @@
     "Neman",
     "ville-ru-tchernychevskoie"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-leningradpobeda-rail-tikhvin-volkhov",
@@ -4563,7 +5096,9 @@
     "Volkhov",
     "Saint-Pétersbourg"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-lensk-raion-histoire",
@@ -4580,7 +5115,9 @@
    "villes": [
     "Lensk"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-loc-mongolie-1991",
@@ -4600,7 +5137,9 @@
     "Choybalsan",
     "Borzia"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-mas-mongolie-economie-guerre",
@@ -4619,7 +5158,9 @@
     "Sükhbaatar",
     "ville-mn-tsagaannuur"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-mozyr-monographie-1973",
@@ -4636,7 +5177,9 @@
    "villes": [
     "Mazyr"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-natural-earth-10m",
@@ -4651,7 +5194,9 @@
    "notes": "Géographie physique actuelle : les côtes ont peu changé depuis 1945, sauf lacs de barrage et mer d’Aral. Relecture Claude 01/10/2026 (limite) : Page d'accueil : confirme le domaine public et l'échelle 1:10m, mais ne mentionne pas explicitement les jeux ne_10m_land / ne_10m_minor_islands.",
    "domaine": "frontieres",
    "villes": [],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-natural-earth-populated-places",
@@ -4666,7 +5211,9 @@
    "notes": "Domaine public. Utilisé quand Wikidata ne suffit pas (Charleroi, ratissage villes 1.0). Relecture Claude 01/10/2026 (limite) : Bonne page du jeu de données (points nommés), mais la mention « domaine public » n'apparaît pas sur cette page (pied de page « All rights reserved »), à vérifier sur la page des conditions d'utilisation.",
    "domaine": "frontieres",
    "villes": [],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-neb-admin1944-supplement",
@@ -4731,7 +5278,9 @@
     "Stavropol",
     "Vladikavkaz"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-nijni-novgorod-gouvernement-chronologie",
@@ -4748,7 +5297,9 @@
    "villes": [
     "Nijni Novgorod"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-norway-rail-context",
@@ -4767,7 +5318,9 @@
     "Halden",
     "Drammen"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-oebb-arlberg",
@@ -4788,7 +5341,9 @@
     "Buchs SG",
     "Schaan"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-oebb-tauern",
@@ -4807,7 +5362,9 @@
     "Villach",
     "Klagenfurt"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-openhistoricalmap",
@@ -4822,7 +5379,9 @@
    "notes": "Niveau C : compilation collaborative. Selon le récap technique, OHM est une référence de COMPARAISON, jamais la base de vérité → toute géométrie qui en vient reste « provisoire » tant qu’une source A/B ne l’a pas confirmée. Relecture Claude 01/10/2026 (limite) : Page d'accueil seulement : confirme le projet et le domaine public, mais ni start_date/end_date ni la relation 2957472 ne sont vérifiables ici.",
    "domaine": "frontieres",
    "villes": [],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-orenbourg-conseil-histoire-production-1941-1944",
@@ -4839,7 +5398,9 @@
    "villes": [
     "Orenbourg"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-pacificwrecks-baintumen",
@@ -4856,7 +5417,9 @@
    "villes": [
     "Choybalsan"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-pechora-municipalite-chronologie",
@@ -4876,7 +5439,9 @@
     "ville-ru-kojva",
     "Inta"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-permgaspi-molotov-fonctions-1941-1944",
@@ -4893,7 +5458,9 @@
    "villes": [
     "Perm"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-petrouchine-baikal-rail2015",
@@ -4911,7 +5478,9 @@
     "Koultouk",
     "Slioudianka"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-pinsk-ville-histoire-1944",
@@ -4928,7 +5497,9 @@
    "villes": [
     "Pinsk"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-port-helsingborg-history",
@@ -4945,7 +5516,9 @@
    "villes": [
     "Helsingborg"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-rechnoy-transport-guerre-ch9",
@@ -4964,7 +5537,9 @@
     "Khabarovsk",
     "Tobolsk"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-rgo-alsib-saison1",
@@ -4992,7 +5567,9 @@
     "Vitim",
     "Zyrianka"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-rosmorport-baltique-histoire",
@@ -5013,7 +5590,9 @@
     "Baltiïsk",
     "ville-ru-vysotsk"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-rosmorport-nordest-histoire",
@@ -5036,7 +5615,9 @@
     "Sovetskaïa Gavan",
     "Vanino"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-rosmorport-taganrog-reparation-1943",
@@ -5058,7 +5639,9 @@
     "Temriouk",
     "Touapsé"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-rvio-ohka-guerre",
@@ -5079,7 +5662,9 @@
     "Okha",
     "Sofiïsk"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-sever-aero-alsib-memoire",
@@ -5102,7 +5687,9 @@
     "ville-ru-teply-klioutch",
     "ville-ru-tomtor"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-shermatov-soie-stalinabad2021",
@@ -5119,7 +5706,9 @@
    "villes": [
     "Douchanbé"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-shpl-admin1940",
@@ -5253,7 +5842,9 @@
     "Zestafoni",
     "Zougdidi"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-snl-danskebat",
@@ -5270,7 +5861,9 @@
    "villes": [
     "Kristiansand"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-sssr-admin1941-kirghizistan",
@@ -5300,7 +5893,9 @@
     "Tach-Koumyr",
     "Tokmok"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-sssr-admin1941-tadjikistan",
@@ -5327,7 +5922,9 @@
     "Tursunzoda",
     "Vahdat"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-sssr-admin1941-turkmenistan",
@@ -5359,7 +5956,9 @@
     "Turkmenabat",
     "Turkmenbachi"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-steyr-history",
@@ -5376,7 +5975,9 @@
    "villes": [
     "Steyr"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-sweden-rail-context",
@@ -5401,7 +6002,9 @@
     "Haparanda",
     "Västerås"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-swiss-rhine-port",
@@ -5418,7 +6021,9 @@
    "villes": [
     "Bâle"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-trames-2025-baltic-border-policy-1944",
@@ -5433,7 +6038,9 @@
    "notes": "Citée par Ether dans le lot 02 mais absente du delta : référence retrouvée par Claude (résumé seulement). Wikipédia (niveau C, non enregistré) donne : rive est de la Narva transférée par décret du Présidium du Soviet suprême de l'URSS en novembre 1944 ; acceptation par le Présidium de la RSS d'Estonie le 18/01/1945 ; Abrene rattachée en 1944, formalisée en 1946. OHM date le changement au 16/01/1945 : écart à trancher. Relecture Claude 01/10/2026 (limite) : Le DOI mène bien à l'article d'Alatalu (TRAMES 29(2), pp. 107-131) mais seul le résumé est accessible ; Petserimaa, Narva et Abrene n'y sont pas nommés et les dates ne sont pas confirmées.",
    "domaine": "frontieres",
    "villes": [],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-uzrail-histoire-reseau",
@@ -5462,7 +6069,9 @@
     "Tachkent",
     "Termez"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-vedomosti-1942-34-rail",
@@ -5496,7 +6105,9 @@
     "Roubtsovsk",
     "Skovorodino"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-vedomosti1941-6-kokyangak",
@@ -5513,7 +6124,9 @@
    "villes": [
     "Kökjanggak"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-vienna-nazi-history",
@@ -5531,7 +6144,9 @@
     "Vienne",
     "Wiener Neustadt"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-winterthur-history",
@@ -5548,7 +6163,9 @@
    "villes": [
     "Winterthour"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-zavkhan-histoire-institutionnelle",
@@ -5565,7 +6182,9 @@
    "villes": [
     "Ouliastaï"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-zurich-rail",
@@ -5582,25 +6201,9 @@
    "villes": [
     "Zurich"
    ],
-   "remplacee_par": []
-  },
-  {
-   "id": "src-13-sk-nove-zamky-rail",
-   "groupe": "lien_mort",
-   "statut_claude": "lien_casse",
-   "niveau": "B",
-   "titre": "Železničný semafor, mai 2020 — Komárno–Nové Zámky",
-   "institution": "Železnice Slovenskej republiky",
-   "url": "https://www.zsr.sk/files/pre-cestujucich/zsemafor-casopis/2020/zsemafor05_2020.pdf",
-   "ou_regarder": "Pages PDF 21–22 : ligne historique Komárno–Nové Zámky et nœud ; attaque du 14 octobre 1944 ; attaque supplémentaire du 14 mars 1945.",
-   "extrait": "",
-   "notes": "Proposée par Ether (villes 1.3, 01/10/2026, réf. S25). Limite annoncée par Ether : Deux temporalités : dégâts d'octobre inclus ; dégâts de mars exclus. Ne pas consolider leurs pertes chiffrées au Snapshot. Relecture Claude 01/10/2026 : Le PDF renvoie une erreur 404.",
-   "domaine": "villes",
-   "villes": [
-    "Nové Zámky",
-    "Komárom"
-   ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-belgium-chancellery-bulge",
@@ -5615,7 +6218,9 @@
    "notes": "Apportée par Ether (lot 03), intégrée par Claude le 28/09/2026. Relecture Claude 01/10/2026 (lien_casse) : Le serveur renvoie une erreur 404 : le PDF n'existe plus à cette adresse.",
    "domaine": "frontieres",
    "villes": [],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-bvrz-histoire",
@@ -5632,7 +6237,9 @@
    "villes": [
     "Barnaoul"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-harstad-garrison-wwii",
@@ -5649,7 +6256,9 @@
    "villes": [
     "Harstad"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-maxam-chirchiq-histoire",
@@ -5666,7 +6275,9 @@
    "villes": [
     "Tchirtchik"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-novossibirsk-histoire1920-1940",
@@ -5683,7 +6294,9 @@
    "villes": [
     "Novossibirsk"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-oniip-omsk-1942",
@@ -5700,7 +6313,9 @@
    "villes": [
     "Omsk"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-rosmorport-arctique-histoire",
@@ -5719,7 +6334,9 @@
     "Kandalakcha",
     "Severodvinsk"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-rosmorport-petropavlovsk-histoire",
@@ -5736,7 +6353,9 @@
    "villes": [
     "Petropavlovsk-Kamtchatski"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-rosmorport-primorie-histoire",
@@ -5754,7 +6373,9 @@
     "Nakhodka",
     "Vladivostok"
    ],
-   "remplacee_par": []
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-dortmund-industry",
@@ -5773,7 +6394,9 @@
    ],
    "remplacee_par": [
     "src-12a-dortmund-industrie"
-   ]
+   ],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-frankfurt-hbf",
@@ -5792,7 +6415,9 @@
    ],
    "remplacee_par": [
     "src-12a-dresden-gare"
-   ]
+   ],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-gotthard-history",
@@ -5813,7 +6438,9 @@
    "remplacee_par": [
     "src-12a-dhs-bellinzona",
     "src-12a-dhs-luzern"
-   ]
+   ],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-lausanne-simplon",
@@ -5834,7 +6461,9 @@
    "remplacee_par": [
     "src-12a-dhs-lausanne",
     "src-12a-dhs-brig"
-   ]
+   ],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-lausanne-station",
@@ -5853,7 +6482,9 @@
    ],
    "remplacee_par": [
     "src-12a-dhs-lausanne"
-   ]
+   ],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-olten-rail",
@@ -5872,7 +6503,9 @@
    ],
    "remplacee_par": [
     "src-12a-dhs-olten"
-   ]
+   ],
+   "priorite": "facultative",
+   "impact": []
   },
   {
    "id": "src-winterthur-locomotive",
@@ -5891,7 +6524,9 @@
    ],
    "remplacee_par": [
     "src-12a-dhs-winterthur"
-   ]
+   ],
+   "priorite": "facultative",
+   "impact": []
   }
  ]
 }

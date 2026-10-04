@@ -6,7 +6,7 @@ faible, lien cassé) et écrit data/sources/sources_a_valider.json. La page web 
 relues par Claude et reportées au registre (champ verification_humaine).
 Relancer : python outils/sources/liste_sources_a_valider.py (depuis la racine du dépôt).
 """
-import json, glob, pathlib
+import json, glob, pathlib, re, collections
 
 RACINE = pathlib.Path(__file__).resolve().parents[2]
 reg = json.load(open(RACINE / 'data/sources/atlas_registre_sources.json', encoding='utf-8'))
@@ -14,6 +14,26 @@ noms = {}
 for f in glob.glob(str(RACINE / 'data/snapshot0/*.json')):
     for e in json.load(open(f, encoding='utf-8')).get('entites', []):
         noms[e['entite_id']] = e.get('nom_court') or e['nom']
+
+# Priorité : une source est « importante » si sa validation changerait la carte, c'est-à-dire si elle est
+# la preuve d'un rôle encore « À renforcer » dans une ville, ou la preuve d'un nom de 1945.
+# Les autres (rôle déjà prouvé par une autre source confirmée, simple contexte) sont « facultatives » :
+# elles restent marquées « non vérifiée » sans rien changer à la carte.
+RENF = re.compile(r'À renforcer : ([^.]*)\.')
+IMPACT = collections.defaultdict(list)
+for f in glob.glob(str(RACINE / 'data/snapshot0/*.json')):
+    for e in json.load(open(f, encoding='utf-8')).get('entites', []):
+        nom_v = e.get('nom_court') or e['nom']
+        for et in e.get('etats', []):
+            m = RENF.search(et.get('proprietes', {}).get('note', ''))
+            renf = {r.strip() for r in m.group(1).split(',')} if m else set()
+            for s in et.get('sources', []):
+                u = s.get('usage', '')
+                if u.startswith('preuve locale : '):
+                    roles = sorted({r.strip() for r in re.sub(r' \(.*\)$', '', u[16:]).split(',')} & renf)
+                    if roles: IMPACT[s.get('source_id')].append(f"{nom_v} ({', '.join(roles)})")
+                elif u.startswith('nom à la date'):
+                    IMPACT[s.get('source_id')].append(f"{nom_v} (nom de 1945)")
 
 GROUPE = {'non_verifiee': 'a_lire', 'limite': 'partielle', 'faible': 'partielle', 'lien_casse': 'lien_mort'}
 liste = []
@@ -30,9 +50,11 @@ for s in reg['sources']:
         'domaine': 'villes' if any(c.startswith('ville-') for c in s.get('cibles', [])) else 'frontieres',
         'villes': [noms.get(c, c) for c in s.get('cibles', [])],
         'remplacee_par': s.get('sources_remplacement', []),
+        'priorite': 'importante' if IMPACT.get(s['source_id']) and groupe != 'remplacee' else 'facultative',
+        'impact': IMPACT.get(s['source_id'], []),
     })
 ordre = {'a_lire': 0, 'partielle': 1, 'lien_mort': 2, 'remplacee': 3}
-liste.sort(key=lambda x: (ordre[x['groupe']], x['id']))
+liste.sort(key=lambda x: (x['priorite'] != 'importante', ordre[x['groupe']], x['id']))
 sortie = RACINE / 'data/sources/sources_a_valider.json'
 sortie.write_text(json.dumps({'version_registre': reg['metadata']['version'], 'sources': liste}, ensure_ascii=False, indent=1) + '\n', encoding='utf-8')
-print(len(liste), 'sources à valider ->', sortie.relative_to(RACINE))
+print(len(liste), 'sources à valider ->', sortie.relative_to(RACINE), '; importantes :', sum(x['priorite'] == 'importante' for x in liste))
