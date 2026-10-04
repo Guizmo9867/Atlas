@@ -1,6 +1,6 @@
 # Atlas — réserves et points à trancher (série villes 1.x)
 
-*Généré automatiquement le 04/10/2026 à 13 h 05 par Claude, à partir des fichiers de réserves d'Ether et des comptes rendus de Claude. Régénéré à chaque lot.*
+*Généré automatiquement le 04/10/2026 à 14 h 14 par Claude, à partir des fichiers de réserves d'Ether et des comptes rendus de Claude. Régénéré à chaque lot.*
 
 ## Comment s'en servir
 
@@ -10,7 +10,7 @@
 - Sous chaque point, **Sources liées** donne les liens des sources citées, avec leur état (confirmée, lecture partielle, illisible…).
 - Toutes les sources à vérifier (liens, passages) sont aussi dans `00_SOURCES_A_VALIDER.md` (même dossier).
 
-## Lot villes 1.3 — 8 points
+## Lot villes 1.3 — 7 points
 
 *Fichier détaillé d'Ether : `01_lots/villes_1-3/2026-10-02_ether_reserves_revue_finale.md`*
 
@@ -78,16 +78,6 @@
 - **Choix possibles** : Preuves à chercher lors du ratissage temporel autorisé ultérieurement.
 - **Sources liées** (cliquer pour ouvrir) :
   - [Železnice v Brně: projekt ze šuplíku 1934](https://cosedeje.brno.cz/w/zeleznice-v-brne-projekt-ze-supliku-1934) — `src-13-cz-brno-rail` (confirmée par Claude)
-- **Décision de Guizmo** : …
-
-### Q13-05 — Děčín : ordre du nom allemand de 1945 *(question de Claude)*
-
-- **Ce qu'on sait** : Deux sources donnent deux ordres : l'annuaire téléphonique de 1942 dit « Tetschen-Bodenbach » (c'est le nom affiché) ; l'article historique des chemins de fer tchèques, validé par Guizmo le 03/10/2026, dit « Bodenbach-Tetschen ». Aucune des deux n'est un décret.
-- **Ce que ça change sur la carte** : La carte affiche « Tetschen-Bodenbach » ; « Bodenbach-Tetschen » est en alias. Le reste de la source (rail, port, industrie, fusion de 1942) est appliqué ; les noms d'après-guerre (1948) sont gardés pour la chronologie.
-- **Choix possibles** : Garder « Tetschen-Bodenbach » ; passer à « Bodenbach-Tetschen » ; Ether cherche l'acte de fusion du 01/10/1942 pour trancher.
-- **Sources liées** (cliquer pour ouvrir) :
-  - [Děčín a Podmokly: vzestup a pád jednoho dvojměstí](https://zeleznicar.cd.cz/zeleznicar/historie/decin-a-podmokly--vzestup-a-pad-jednoho-dvojmesti/-12456/) — `src-13-cz-decin-cd` (lien mort)
-  - [Annuaire téléphonique de Tetschen-Bodenbach, 1942 — notice SOA.141757](https://katalog.soalitomerice.cz/Record/SOA.141757) — `src-13-cz-tetschen-telephone-1942` (confirmée par Claude)
 - **Décision de Guizmo** : …
 
 ## Lot villes 1.4 — 6 points
@@ -1372,4 +1362,4 @@ Ce ne sont pas des décisions à prendre : ce sont des rôles (port, rail, indus
 | 1.6 | 176 | 254 |
 | 1.7 | 124 | 166 |
 
-**Total : 154 points à trancher.**
+**Total : 153 points à trancher.**
