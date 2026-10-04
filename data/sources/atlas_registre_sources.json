@@ -1,7 +1,7 @@
 {
  "metadata": {
   "nom": "registre_sources_atlas",
-  "version": "1.22",
+  "version": "1.23",
   "date_creation": "2026-09-26",
   "principe": "Une source = un source_id stable. Les fiches événements/entités peuvent référencer ce source_id et préciser l'usage/locator.",
   "statut": "registre_initial_a_completer"
@@ -29888,6 +29888,42 @@
    "archive_locale": "05_pieces_jointes_guizmo/src-13-hu-miskolc-histoire/Image_ChatGPT_3_oct._2026_18_29_28.jpg",
    "verification_claude": "ok",
    "notes": "Pièce jointe de Guizmo (capture de la p. 193-194, 03/10/2026) pour src-13-hu-miskolc-histoire, lue par Claude le 04/10/2026. Prouve qu'à l'arrivée des troupes soviétiques (décembre 1944) Diósgyőr, Hámor, Hejőcsaba, Görömböly et Szirma étaient des communes distinctes, et que l'agrandissement de Miskolc (Diósgyőr, Hejőcsaba, Tapolca) vaut à compter du 1er janvier 1945 : changement daté du 1er janvier, appliqué APRÈS le Snapshot 0 (Diósgyőr reste une ville distincte au Snapshot 0 ; la fusion est pour le ratissage de janvier 1945). Capture dans le dossier d'échange seulement (droits d'auteur) ; DOI non ouvert par l'outil."
+  },
+  {
+   "source_id": "src-guizmo-sudetengebiete-tetschen",
+   "niveau": "C",
+   "type_source": "site_patrimoine_prive",
+   "titre": "Tetschen — Städte und Gemeinden bis heute (Deutsche in Böhmen & Mähren)",
+   "institution": "sudetengebiete.de (auteur indiqué : Thomas)",
+   "url": "https://sudetengebiete.de/tetschen/#Zugehoerigkeit_zum_Deutschen_Reich_bis_1945",
+   "date_consultation": "2026-10-04",
+   "periode_couverte": "1838-1945",
+   "zones": [
+    "cz"
+   ],
+   "usages_atlas": [
+    "nom_historique",
+    "perimetre_historique",
+    "rail",
+    "port_fluvial"
+   ],
+   "cibles": [
+    "ville-cz-decin"
+   ],
+   "locator": "Section « Zugehörigkeit zum Deutschen Reich bis 1945 » (fusion du 01/10/1942 avec Altstadt sous le nom Tetschen-Bodenbach ; en 1945, Landkreis Tetschen-Bodenbach, Regierungsbezirk Aussig, Reichsgau Sudetenland) ; passages sur le recensement du 17/05/1939, le chemin de fer (1869) et la navigation sur l'Elbe.",
+   "resume_passage": "Die Stadt Tetschen erhielt ihren Anschluss an das Eisenbahnnetz im Jahre 1869, als die Böhmische Nordbahn den Betrieb von Bodenbach über Tetschen, Bensen und Böhmisch-Kamnitz nach Warnsdorf aufnahm",
+   "archive_locale": [
+    "05_pieces_jointes_guizmo/src-guizmo-sudetengebiete-tetschen/capture_1_fusion_1942.jpg",
+    "05_pieces_jointes_guizmo/src-guizmo-sudetengebiete-tetschen/capture_2_rail_elbe_1939.jpg"
+   ],
+   "verification_claude": "limite",
+   "verification_humaine": {
+    "decision": "verifiee",
+    "commentaire": "Le 1er octobre 1942, Tetschen et Bodenbach fusionnent avec Altstadt pour former la ville de Tetschen-Bodenbach ; en 1945, elle appartient au district de Tetschen-Bodenbach (Regierungsbezirk Aussig, Reichsgau Sudetenland). Chemin de fer en 1869, navigation sur l'Elbe importante.",
+    "par": "Guizmo",
+    "date": "2026-10-04"
+   },
+   "notes": "Trouvée par Guizmo le 04/10/2026 (captures de la page traduite en français, section 22). Relecture Claude 04/10/2026 (WebFetch) : passages 1939 (12 647 habitants), 1869 (Böhmische Nordbahn) et Elbe (1er vapeur en 1838) lus ; la section sur 1942-1945 n'est pas restituée par l'outil (fenêtre d'abonnement), lue sur les captures de Guizmo. Site privé (niveau C) : confirme l'annuaire de 1942 (src-13-cz-tetschen-telephone-1942) ; l'acte officiel est le Verordnungsblatt 1942, n° 40, p. 353 (référence trouvée par Ether, à ajouter avec sa capture)."
   }
  ]
 }

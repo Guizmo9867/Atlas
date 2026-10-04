@@ -28,6 +28,7 @@ NOM_LOCAL = {'ville-cz-prague': 'Praha', 'ville-cz-plzen': 'Plzeň'}
 NOM_A_LA_DATE = {c['entite_id']: c for c in CORRECTIONS['corrections_nomenclature']}
 # Sources de la réponse d'Ether ajoutées à l'état (nom à la date)
 SOURCES_EN_PLUS = {c['entite_id']: c['sources'] for c in CORRECTIONS['corrections_nomenclature']}
+SOURCES_EN_PLUS['ville-cz-decin'] = SOURCES_EN_PLUS.get('ville-cz-decin', []) + ['src-guizmo-sudetengebiete-tetschen']  # trouvée par Guizmo, 04/10/2026
 # Cycle 3 (Q13-01) : nom à la date dans l'état seulement ; fiche, ID, nom_local, rôles et coordonnées inchangés
 CYCLE3 = json.load(open(RACINE / 'data/sources/deltas_ether/2026-10-01_villes_1-3_cycle3_corrections.json', encoding='utf-8'))
 NOM_CYCLE3 = {c['entite_id']: c for c in CYCLE3['corrections'] if c['operation'] == 'nom_dans_etat_snapshot0'}
@@ -36,7 +37,7 @@ PREUVE_NOM = {
     'ville-cz-liberec': "avis local daté « Reichenberg, den 11. Mai 1944 » (Reichsanzeiger, OCR)",
     'ville-cz-cheb': "tribunal d'Eger, inscription du 13/05/1944 (Reichsanzeiger, OCR)",
     'ville-cz-most': "registre du tribunal de Brüx, avis du 12/05/1942 (Reichsanzeiger, OCR)",
-    'ville-cz-decin': "titre d'un annuaire téléphonique de 1942 (notice d'archives ; forme d'usage, ni décret ni date de fusion)",
+    'ville-cz-decin': "titre d'un annuaire téléphonique de 1942 (notice d'archives), confirmé par la page sudetengebiete.de (fusion du 01/10/1942 sous ce nom ; Landkreis Tetschen-Bodenbach en 1945 ; captures de Guizmo) ; acte officiel : Verordnungsblatt 1942, n° 40, p. 353 (référence trouvée par Ether)",
     'ville-sk-nove-zamky': "journal local et avis municipal de juillet 1944",
 }
 NOMS = {'ville-cz-bohumin': 'Nový Bohumín', 'ville-sk-komarno-komarom': 'Komárom', 'ville-sk-sturovo': 'Párkány'}  # libellés d'Ether raccourcis pour la carte

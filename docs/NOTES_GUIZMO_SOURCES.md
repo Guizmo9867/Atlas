@@ -2,7 +2,7 @@
 
 *Généré par `outils/sources/reporter_validations_guizmo.py`. Ne pas modifier à la main.*
 
-2 sources tranchées par Guizmo au total.
+3 sources tranchées par Guizmo au total.
 
 ## Autres liens et pièces jointes donnés par Guizmo
 
@@ -34,4 +34,7 @@ Ces sources sont **valides pour le Snapshot 0** (1945). Elles disent aussi un ch
 
 ## Autres sources tranchées avec une note
 
-(aucune pour le moment)
+- **src-guizmo-sudetengebiete-tetschen** — Tetschen — Städte und Gemeinden bis heute (Deutsche in Böhmen & Mähren)
+  - Lien : https://sudetengebiete.de/tetschen/#Zugehoerigkeit_zum_Deutschen_Reich_bis_1945
+  - Décision : Ça prouve (Guizmo, 2026-10-04)
+  - Note de Guizmo : Le 1er octobre 1942, Tetschen et Bodenbach fusionnent avec Altstadt pour former la ville de Tetschen-Bodenbach ; en 1945, elle appartient au district de Tetschen-Bodenbach (Regierungsbezirk Aussig, Reichsgau Sudetenland). Chemin de fer en 1869, navigation sur l'Elbe importante.
