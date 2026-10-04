@@ -92,7 +92,7 @@ Un gros lot peut prendre plus d'une heure, et un autre réveil démarre toutes l
 > **ORDRE OBLIGATOIRE (incident des 02 et 03/10 : deux réveils se sont arrêtés juste après l'envoi sur GitHub, sans rien déposer pour Ether)** :
 > faire **avant** l'envoi sur GitHub (étape 8) tout ce qui concerne le dossier d'échange : copie du compte rendu et du README dans `01_lots/<lot>/`, `STATUT.json`, `02_references/`, fiche de chiffres, `00_RESERVES_A_TRANCHER.md`, `00_SOURCES_A_VALIDER.md`/`.html`, tableau de bord. **Aussitôt le push vérifié, écrire `PRET_claude.md` puis remettre le verrou à `"en_cours": false`.** La republication de la page « Sources à valider » sur claude.ai vient en tout dernier : si elle échoue ou si le réveil s'arrête là, rien d'important n'est perdu.
 
-1. Lire ce document, le tableau de bord et le haut du journal des décisions.
+1. Lire `docs/REPRISE.md` (fiche de reprise), ce document, le tableau de bord et le haut du journal des décisions.
 2. Repérer le travail à faire :
    - les lots à traiter (section 2) ;
    - un réveil interrompu à reprendre (verrou `"en_cours": true` sans activité depuis plus de 50 minutes, section 2 bis) ;
@@ -148,6 +148,7 @@ Un gros lot peut prendre plus d'une heure, et un autre réveil démarre toutes l
       - mettre à jour `STATUT.json` ;
       - écrire `PRET_claude.md` **en dernier** (une ligne : date, ce qui a été fait, s'il y a des questions).
 4. **Rafraîchir** `02_references/` : copier `JOURNAL_DECISIONS`, `SUIVI_RATISSAGE`, `protocole_sources_ether_claude`, `LEXIQUE_ID`, `IDEES_POUR_PLUS_TARD`, `CHIFFRES_PROJET`, `NOTES_GUIZMO_SOURCES` et ce document.
+4 bis. **Mettre à jour la section 5 « État » de `docs/REPRISE.md`** (chiffres, dernière intégration, ce qui attend qui ; le reste seulement si une règle change ; la fiche doit rester courte), puis la copier en `00_REPRISE.md` du dossier d'échange et dans `02_references/`. Si l'outil Projects est disponible, l'écrire aussi en `claude/REPRISE.md` du projet.
 5. **Mettre à jour `00_TABLEAU_DE_BORD.md`** : où on en est, qui attend quoi, « Réserves pour la revue finale 1.x », rubrique « À trancher par Guizmo » (vide en temps normal).
 6. **Republier la page « Sources à valider »** (artifact https://claude.ai/artifact/YBCUsTgEb1XwNmRwVnd9Lr) :
    - lire d'abord l'artifact (Artifact, action `read`) ;
