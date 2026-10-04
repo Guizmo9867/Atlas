@@ -10,6 +10,9 @@ Lit, s'ils existent :
 - complements_guizmo = {liens, pieces_jointes, date, a_verifier} si Guizmo a donné d'autres liens ou des pièces jointes.
   Les pièces jointes sont écrites dans <dossier d'échange>/05_pieces_jointes_guizmo/<source_id>/ et JAMAIS dans le dépôt
   (dépôt public : droits d'auteur des documents). a_verifier = true tant que Claude ne les a pas vérifiés (BOUCLE_AUTOMATIQUE §3.5).
+- <dossier d'échange>/05_fiches_sources/*.md ou *.txt : fiches écrites avec Ether dans un chat simple, après discussion
+  d'une source (modèle : docs/MODELE_FICHE_SOURCE.md) ; lignes « Clé : valeur », une ou plusieurs fiches par fichier,
+  chaque fiche commence par « source_id : … ». La plus récente l'emporte (date du fichier).
 Décisions possibles : verifiee, verifiee_s0 (prouve pour 1945 ; la source dit aussi un changement plus tard, à reprendre
 dans la chronologie : elle est gardée), ne_prouve_pas, lien_mort.
 Écrit aussi docs/NOTES_GUIZMO_SOURCES.md : compléments à vérifier, sources « la suite plus tard », autres notes.
@@ -38,6 +41,46 @@ for f in [ECHANGE / 'decisions_sources_guizmo.json', RACINE / 'data/sources/vali
     if isinstance(d.get('pieces_donnees'), dict):
         donnees.update(d['pieces_donnees'])
 
+# --- Fiches de sources (chat Ether + Guizmo) ---
+import datetime, unicodedata
+def sans_accents(x):
+    return ''.join(c for c in unicodedata.normalize('NFD', x) if unicodedata.category(c) != 'Mn').lower()
+CLES = {'source_id': 'source_id', 'source id': 'source_id', 'identifiant': 'source_id', 'source': 'source_id', 'decision': 'decision', 'ce qui est prouve': 'prouve',
+        'ce qu on a prouve': 'prouve', 'prouve': 'prouve', 'resume': 'prouve', 'citation': 'citation', 'citation exacte': 'citation',
+        'ou': 'ou', 'ou le lire': 'ou', 'lien': 'liens', 'liens': 'liens', 'autres liens': 'liens', 'nouveaux liens': 'liens',
+        'vu par guizmo': 'vu', 'vu de mes yeux': 'vu', 'verifie par guizmo': 'vu', 'appris': 'appris', 'ce que j ai appris': 'appris',
+        'la suite plus tard': 'plus_tard', 'suite plus tard': 'plus_tard'}
+def decision_texte(x):
+    x = sans_accents(x)
+    if 'mort' in x: return 'lien_mort'
+    if 'ne prouve pas' in x or x.strip() in ('non', 'invalide', 'faux'): return 'ne_prouve_pas'
+    if '1945' in x or 'plus tard' in x: return 'verifiee_s0'
+    if 'prouve' in x or x.strip() in ('oui', 'valide', 'ok', 'verifiee'): return 'verifiee'
+    return None
+FICHES = {}
+for f in sorted(list((ECHANGE / '05_fiches_sources').glob('*.md')) + list((ECHANGE / '05_fiches_sources').glob('*.txt'))):
+    le = datetime.datetime.utcfromtimestamp(f.stat().st_mtime).strftime('%Y-%m-%dT%H:%M:%SZ')
+    fiche, cle = None, None
+    for ligne in f.read_text(encoding='utf-8', errors='replace').splitlines():
+        brut = ligne.strip().lstrip('-*# ').replace('**', '')
+        m = re.match(r"^([^:]{2,30}?)\s*:\s*(.*)$", brut)
+        k = CLES.get(re.sub(r'[^a-z0-9 ]', ' ', sans_accents(m.group(1))).strip().replace('  ', ' ')) if m else None
+        if k == 'source_id':
+            fiche = {'source_id': m.group(2).strip().strip('`'), 'fichier': f.name, 'le': le}; FICHES.setdefault(fiche['source_id'], []).append(fiche); cle = None
+        elif fiche is not None and k:
+            fiche[k] = (fiche.get(k, '') + ' ' + m.group(2).strip()).strip(); cle = k
+        elif fiche is not None and cle and brut:
+            fiche[cle] = (fiche[cle] + ' ' + brut).strip()  # suite d'un champ sur plusieurs lignes
+for sid, fs in FICHES.items():
+    fi = max(fs, key=lambda x: x['le'])
+    dec = decision_texte(fi.get('decision', ''))
+    if dec == 'verifiee' and fi.get('plus_tard'): dec = 'verifiee_s0'
+    if not dec: continue
+    if sid in decisions and (decisions[sid].get('le') or '') > fi['le']: continue
+    com = fi.get('prouve', '') + (f" — Suite plus tard : {fi['plus_tard']}" if fi.get('plus_tard') else '')
+    decisions[sid] = {'decision': dec, 'commentaire': com, 'le': fi['le'], 'liens': re.findall(r'https?://\S+', fi.get('liens', '')),
+                      'fiche': {k: fi[k] for k in ('citation', 'ou', 'vu', 'appris', 'fichier') if fi.get(k)}}
+
 def propre(nom):
     return re.sub(r'[^\w.-]+', '_', nom)[:80] or 'piece'
 
@@ -48,10 +91,12 @@ for sid in sorted(set(decisions) | set(complements)):
     v = decisions.get(sid)
     if v:
         nouveau = {'decision': v['decision'], 'commentaire': v.get('commentaire', ''), 'par': 'Guizmo', 'date': (v.get('le') or '')[:10]}
+        if v.get('fiche'): nouveau['fiche_avec_ether'] = v['fiche']
         if s.get('verification_humaine') != nouveau:
             s['verification_humaine'] = nouveau; n += 1
     c = complements.get(sid) or {}
     liens = list(dict.fromkeys((v or {}).get('liens') or c.get('liens') or []))
+    liens = [u.rstrip('.,;)»') for u in liens if u.rstrip('/.,;)»') != (s.get('url') or '').rstrip('/')]  # le lien d'origine n'est pas un « autre lien »
     pieces = []
     for p in c.get('pieces') or []:
         chemin = f"{PJ}/{propre(sid)}/{propre(p.get('nom', 'piece'))}"
@@ -88,6 +133,11 @@ def ligne(s):
     if v:
         l += [f"  - Décision : {NOMS.get(v['decision'], v['decision'])} (Guizmo, {v.get('date', '')})",
               f"  - Note de Guizmo : {v.get('commentaire') or '(aucune)'}"]
+        fi = v.get('fiche_avec_ether') or {}
+        cit = fi.get('citation', '').strip(' «»"')
+        if cit: l.append(f"  - Citation : « {cit} »" + (f" ({fi['ou']})" if fi.get('ou') else ''))
+        if fi.get('vu'): l.append(f"  - Vu par Guizmo sur la page : {fi['vu']}")
+        if fi.get('appris'): l.append(f"  - Ce que Guizmo a appris : {fi['appris']}")
     c = s.get('complements_guizmo')
     if c:
         l += [f"  - Autre lien proposé par Guizmo : {u}" for u in c.get('liens', [])]
