@@ -1,6 +1,6 @@
 # Atlas — réserves et points à trancher (série villes 1.x)
 
-*Généré automatiquement le 05/10/2026 à 12 h 22 par Claude, à partir des fichiers de réserves d'Ether et des comptes rendus de Claude. Régénéré à chaque lot.*
+*Généré automatiquement le 05/10/2026 à 14 h 17 par Claude, à partir des fichiers de réserves d'Ether et des comptes rendus de Claude. Régénéré à chaque lot.*
 
 ## Comment s'en servir
 
@@ -1984,7 +1984,7 @@ Preuves et limites : Cartes 1942–1943 : Ljubljana, Maribor, Celje, Jesenice, K
 - **Choix possibles** : Ether peut répondre au cycle 3 (une autre source datée pour ces villes) ; sinon garder la réserve.
 - **Décision de Guizmo** : …
 
-## Lot villes 1.9 — 24 points
+## Lot villes 1.9 — 26 points
 
 *Fichier détaillé d'Ether : `01_lots/villes_1-9/2026-10-05_ether_reserves_revue_finale.md`*
 
@@ -2156,6 +2156,20 @@ Preuves et limites : Gare, localité et centre ancien à rapprocher avant sélec
 - **Sources liées** : aucune citée par identifiant ; voir le fichier détaillé d'Ether ou les sources des villes concernées dans `00_SOURCES_A_VALIDER.md`.
 - **Décision de Guizmo** : …
 
+### Q19-01 — Sources du lot 1.9 que l'outil de Claude ne lit pas *(question de Claude)*
+
+- **Ce qu'on sait** : 5 pages refusées à l'outil (sans contournement) : port d'Avilés (trop de redirections), capitale d'Andorre (403), fermeture du rail de Saint-Marin en 1944 (robots), musée du rail de Chypre (robots), histoire d'Arrecife (robots).
+- **Ce que ça change sur la carte** : Les rôles qui n'ont que ces sources restent « À renforcer » (Avilés port, Andorre-la-Vieille capitale, rail chypriote, Arrecife).
+- **Choix possibles** : Ether peut déposer des captures des passages (cycle 2) ; ou Guizmo valide sur la page « Sources à valider ».
+- **Décision de Guizmo** : …
+
+### Q19-02 — Points du lot 1.9 non prouvés à la relecture *(question de Claude)*
+
+- **Ce qu'on sait** : Carte Forcano 1942 : 24 villes non lisibles ou hors ligne exploitée (Séville nom coupé, Riotinto, Tharsis, Setúbal, Portalegre, Vila Real, Bragance, Chaves, Guimarães, Leiria, Medina del Campo, Eibar, Soria, Barbastro, Figueras, Igualada, Palamós, Sant Feliu de Guíxols, Sóller, Artà, Sa Pobla, Santanyí, Fregenal, Jerez de los Caballeros). Lectures partielles : Treccani Espagne et Portugal, chronologie CP (ferry Barreiro, port de Viana), Leixões (Matosinhos seulement lieu des chantiers), Horta (escales Pan Am depuis 1939, pas d'hydravion ni de fin), Gibraltar (port de commerce non dit), Vatican (administration), Chypre, Malte (La Valette capitale non citée), rapport de l'arsenal de Malte 1943, Puerto Cabras. Le PDF « armada » cité pour les arsenaux (Ferrol, Carthagène, San Fernando, Sestao, Puerto Real, Reinosa) parle d'un navire de 1747 : rien sur la SECN.
+- **Ce que ça change sur la carte** : 70 villes sur 238 gardent au moins un rôle « À renforcer » ; rien n'est retiré.
+- **Choix possibles** : Ether peut répondre au cycle 2 (captures, autre source datée) ; sinon garder la réserve.
+- **Décision de Guizmo** : …
+
 ## Villes marquées « À renforcer » (rappel)
 
 Ce ne sont pas des décisions à prendre : ce sont des rôles (port, rail, industrie…) dont aucune preuve n'a encore été confirmée par la relecture de Claude. Ils se consolident au fil des lots et de la page « Sources à valider ».
@@ -2171,5 +2185,6 @@ Ce ne sont pas des décisions à prendre : ce sont des rôles (port, rail, indus
 | 1.6 | 127 | 254 |
 | 1.7 | 71 | 166 |
 | 1.8 | 26 | 361 |
+| 1.9 | 70 | 238 |
 
-**Total : 249 points à trancher.**
+**Total : 251 points à trancher.**

@@ -42,10 +42,10 @@ Pas de contact direct entre Claude et Ether : tout passe par le dossier d'échan
 ## 5. État (mis à jour à chaque lot)
 
 - **Frontières** : lots 01 à 04 intégrés (74 territoires, 4 lignes de front).
-- **Villes** : 1.0 à 1.8 intégrés, **1 306 villes** (1.8 Balkans, Grèce et Italie : 361 villes, intégré le 04/10 au soir). Lots 1.3 à 1.6 : 3 cycles faits, en attente de la revue finale des réserves.
-- **Dernière intégration (04/10, nuit)** : réponses 1.6 (cycle 3) et 1.7 (cycle 2), puis lot 1.8 ; 5 cartes OSS de 1942-1944 lues par Claude sur les images d'Ether ; nouvelles questions Q18-01 (13 sources illisibles pour l'outil) et Q18-02 (lectures partielles).
-- **Ether** : prochaine remise = réponses au 1.7 (cycle 3) et au 1.8 (cycle 2) + un seul nouveau lot 1.9 (Ibérie et marges, selon sa couverture). Financement : réveil quotidien.
-- **Sources** : registre v1.25, 825 sources ; 288 à valider par Guizmo, dont **164 importantes** (changent la carte ; le tri oubliait les lots 1.5 à 1.8 jusqu'au 04/10). Page « Sources à valider » : sur claude.ai, ou `00_SOURCES_A_VALIDER.html` dans le dossier d'échange (choix, autres liens, captures ; bouton 💾 qui enregistre `decisions_sources_guizmo.json` dans le dossier Atlas).
+- **Villes** : 1.0 à 1.9 intégrés, **1 544 villes** (1.9 Ibérie et marges : 238 villes, intégré le 05/10 après-midi). Lots 1.3 à 1.7 : 3 cycles faits, en attente de la revue finale des réserves.
+- **Dernière intégration (05/10, après-midi)** : lot 1.9 (Espagne, Portugal, micro-États, Malte, Chypre) ; carte Forcano 1942 lue par Claude (167 villes prouvées pour le rail) ; nouvelles questions Q19-01 (5 sources illisibles pour l'outil) et Q19-02 (24 villes non lues sur Forcano, PDF « armada » hors sujet, lectures partielles). Avant, le même jour : réponses 1.7 cycle 3 et 1.8 cycle 2 (commit ad7b2ce).
+- **Ether** : prochaine remise = réponses au 1.8 (cycle 3) et au 1.9 (cycle 2), puis **audit transversal des villes** (pas de nouveau lot géographique). Financement : réveil quotidien.
+- **Sources** : registre v1.27, 860 sources ; 296 à valider par Guizmo, dont **166 importantes**. Page « Sources à valider » : sur claude.ai, ou `00_SOURCES_A_VALIDER.html` dans le dossier d'échange.
 - **Couches suivantes prévues** (une par une, chacune avec feu vert) : routes, rail, maritime, douanes, plaques d'immatriculation, anecdotes sur les flux, migrations ; puis janvier 1945.
-- **Réserves pour la revue finale** : 225 points (avec le 1.8) dans `00_RESERVES_A_TRANCHER.md`.
-- **Reste de la série 1.x** : Ibérie et marges (1.9), puis **audit final** : cohérence de toute la série et **fiche de lecture en français de chaque source** (ce qu'elle dit, où le lire, facilitateur de traduction selon page web / PDF / image ; pas de traduction complète). Puis revue des réserves avec Guizmo, puis feu vert pour la couche suivante.
+- **Réserves pour la revue finale** : 251 points (avec le 1.9) dans `00_RESERVES_A_TRANCHER.md`.
+- **Reste de la série 1.x** : **audit final** : cohérence de toute la série et **fiche de lecture en français de chaque source**. Puis revue des réserves avec Guizmo, puis feu vert pour la couche suivante.

@@ -1,40 +1,40 @@
 {
- "genere_le": "2026-10-05 12:22",
+ "genere_le": "2026-10-05 14:17",
  "snapshot0": {
   "date_representee": "1945-01-01 00:00 (dernier état connu avant)",
   "territoires": 74,
   "lignes_de_front": 4,
   "frontieres_tracees": 1,
   "geometries": 77,
-  "villes": 1306,
+  "villes": 1544,
   "villes_par_rang": {
-   "A": 73,
-   "B": 522,
-   "C": 711
+   "A": 85,
+   "B": 611,
+   "C": 848
   },
   "capitales": {
-   "nationale": 26,
+   "nationale": 30,
    "regionale": 19,
-   "territoire": 4
+   "territoire": 6
   },
-  "villes_avec_nom_de_1945_different": 209,
-  "villes_avec_reserve_a_renforcer": 374,
+  "villes_avec_nom_de_1945_different": 212,
+  "villes_avec_reserve_a_renforcer": 444,
   "roles_de_villes": {
-   "rail": 936,
-   "industrie": 367,
-   "administration": 203,
-   "port_maritime": 202,
-   "port_fluvial": 99,
-   "capitale": 58,
-   "militaire": 34,
-   "frontalier": 33,
-   "aviation": 29,
+   "rail": 1131,
+   "industrie": 413,
+   "port_maritime": 245,
+   "administration": 243,
+   "port_fluvial": 100,
+   "capitale": 64,
+   "frontalier": 39,
+   "militaire": 37,
+   "aviation": 32,
    "charbon": 23,
-   "ferry": 18,
-   "siderurgie": 15,
-   "base_navale": 14,
+   "ferry": 20,
+   "base_navale": 20,
+   "siderurgie": 19,
+   "construction_navale": 14,
    "minerai": 13,
-   "construction_navale": 12,
    "navigation_cotiere": 8,
    "detroit": 7,
    "transatlantique": 4,
@@ -233,31 +233,80 @@
     "entites": {
      "ville": 361
     }
+   },
+   {
+    "fichier": "villes_1-9_iberie_marges.json",
+    "version": "0.1",
+    "zone": [
+     "Alentejo",
+     "Algarve",
+     "Andalousie occidentale",
+     "Andorre",
+     "Aragon et Pyrénées",
+     "Asturies",
+     "Asturies et Castille du Nord",
+     "Açores",
+     "Baléares",
+     "Beira et Douro",
+     "Canaries",
+     "Castille du Nord",
+     "Castille occidentale",
+     "Catalogne et Aragon",
+     "Chypre",
+     "Espagne",
+     "Espagne — arsenaux",
+     "Espagne — chantiers navals",
+     "Espagne — industrie",
+     "Estrémadure",
+     "Galice",
+     "Gibraltar",
+     "Gozo",
+     "La Manche et Levant méridional",
+     "Levant",
+     "Lisbonne et Alentejo",
+     "Madrid et Castille centrale",
+     "Madère",
+     "Madère et Porto Santo",
+     "Malte",
+     "Malte — Grand Harbour",
+     "Monaco",
+     "Murcie et Andalousie orientale",
+     "Nord du Portugal",
+     "Pays basque",
+     "Pays basque et Navarre",
+     "Portugal continental",
+     "Portugal intérieur",
+     "Saint-Marin",
+     "Vatican"
+    ],
+    "entites": {
+     "ville": 238
+    }
    }
   ]
  },
  "sources": {
-  "registre_version": "1.26",
-  "total": 825,
+  "registre_version": "1.27",
+  "total": 860,
   "relecture_claude": {
-   "ok": 546,
-   "limite": 137,
-   "non_verifiee": 128,
-   "faible": 6,
+   "ok": 561,
+   "limite": 151,
+   "non_verifiee": 133,
+   "faible": 7,
    "lien_casse": 8
   },
   "niveaux": {
-   "A": 145,
-   "B": 647,
+   "A": 157,
+   "B": 670,
    "C": 33
   },
-  "en_attente_de_validation_humaine": 276,
+  "en_attente_de_validation_humaine": 296,
   "validees_par_guizmo": 3
  },
  "historique": {
-  "envois_github": 49,
+  "envois_github": 50,
   "premier_envoi": "2026-09-28",
-  "dernier_envoi": "2026-10-04",
+  "dernier_envoi": "2026-10-05",
   "depot_public": "https://github.com/Guizmo9867/Atlas"
  }
 }

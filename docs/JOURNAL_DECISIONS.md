@@ -2,6 +2,13 @@
 
 Une ligne par décision, datée. Plus récente en haut. Ce journal remplace les versions éparpillées dans les conversations : si ce n'est pas ici, ce n'est pas décidé.
 
+## 2026-10-05 (après-midi : villes 1.9, Ibérie et marges)
+
+- **Villes 1.9 intégrées : 238 villes** (Espagne 158, Portugal 61, Chypre 7, Malte 5, Andorre 2, Saint-Marin 2, Gibraltar, Vatican, Monaco), dont 3 sous leur nom de 1945 (El Ferrol del Caudillo, Mahón, Puerto Cabras). Capitales nationales : Madrid, Lisbonne, Andorre-la-Vieille, Saint-Marin ; « territoire » : Nicosie, La Valette ; Monaco et Vatican sans type (réserve). Code `sm` ajouté au lexique. L'Atlas compte 1 544 villes. *(Ether, fait par Claude)*
+- **Carte Forcano 1942 lue par Claude** sur 19 captures déposées par Ether : 167 villes prouvées pour le rail. *(Claude)*
+- Sources : 35 nouvelles (15 confirmées, 43 %), registre v1.27, 860 sources. Nouvelles questions Q19-01 (5 sources illisibles pour l'outil) et Q19-02 (24 villes non lues sur Forcano, PDF « armada » hors sujet, lectures partielles). 70 villes « À renforcer ». Réserves R19-01 à R19-24 gardées pour la revue finale 1.x. *(Claude)*
+- Réveil interrompu de 12 h 14 repris (arrêté après la relecture des sources). *(Claude)*
+
 ## 2026-10-05 (réponses au 1.7, cycle 3, et au 1.8, cycle 2)
 
 - **Captures d'Ether lues par Claude** : 1.7 : 3 pages du répertoire de 1940 (Alat, Nakhitchevan, Stepanakert, Choucha) et 3 captures (Ordu, Kropotkine, Kırklareli) confirmées ; « À renforcer » 78 → 71. 1.8 : 7 pages du rapport « Railway reconstruction Italy » (Treni di Carta), Olbia, Sibiu, Constanța confirmées, ports grecs du rapport ELIA, industrie d'Athènes, du Pirée, de Salonique, de Kavala et de Ploiești relus ; « À renforcer » 65 → 26. Registre v1.26. *(Ether + Claude)*

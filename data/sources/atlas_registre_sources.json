@@ -1,7 +1,7 @@
 {
  "metadata": {
   "nom": "registre_sources_atlas",
-  "version": "1.26",
+  "version": "1.27",
   "date_creation": "2026-09-26",
   "principe": "Une source = un source_id stable. Les fiches événements/entités peuvent référencer ce source_id et préciser l'usage/locator.",
   "statut": "registre_initial_a_completer"
@@ -2196,7 +2196,7 @@
    "locator": "QID de l'élément (ex. Q90 = Paris), propriété P625 (coordonnées)",
    "resume_passage": "Coordonnées du centre de la ville.",
    "archive_locale": null,
-   "notes": "Licence CC0 (domaine public) : réutilisation libre, y compris commerciale. Sert uniquement à placer les villes ; les rôles historiques doivent être sourcés ailleurs. Le QID servira aussi à retrouver les noms dans d'autres langues. Relecture Claude 01/10/2026 (non_verifiee) : WebFetch a répondu que le domaine est « cache-only » et ne peut pas être récupéré ; ni CC0 ni structure QID/P625 vus. Complément d'Ether (villes 1.5, 02/10/2026) : Complément ciblé à la fiche existante : préserver verification_claude, les autres dates, usages et cibles. Données structurées CC0. Ces points ne prouvent ni centre historique, ni nom, rôle ou statut de 1945. Lectures P625 du 02/10/2026 pour 195 villes, recoupées par Claude le même jour par requête SPARQL (QID et coordonnées identiques, pays actuel concordant). Complément d'Ether (villes 1.6, 03/10/2026) : Fusionner seulement ce complément par union ; préserver les consultations et vérifications antérieures. Coordonnées arrondies à six décimales, pas précision historique garantie. Lectures P625 du 03/10/2026 pour 254 villes, recoupées par Claude le même jour par requête SPARQL (QID et coordonnées identiques, pays actuel concordant). Villes 1.7 (04/10/2026) : 166 positions prises dans Wikidata par Claude (élément relié à l'identifiant GeoNames proposé par Ether, QID principal choisi à la main pour 22 villes ; outils/villes/wikidata_ratissage_1_7.json). Villes 1.8 (04/10/2026) : 361 positions proposées par Ether (QID et P625) et recoupées par Claude par SPARQL (aucun écart > 1 km, aucun doublon avec les villes déjà intégrées ; outils/villes/wikidata_ratissage_1_8.json).",
+   "notes": "Licence CC0 (domaine public) : réutilisation libre, y compris commerciale. Sert uniquement à placer les villes ; les rôles historiques doivent être sourcés ailleurs. Le QID servira aussi à retrouver les noms dans d'autres langues. Relecture Claude 01/10/2026 (non_verifiee) : WebFetch a répondu que le domaine est « cache-only » et ne peut pas être récupéré ; ni CC0 ni structure QID/P625 vus. Complément d'Ether (villes 1.5, 02/10/2026) : Complément ciblé à la fiche existante : préserver verification_claude, les autres dates, usages et cibles. Données structurées CC0. Ces points ne prouvent ni centre historique, ni nom, rôle ou statut de 1945. Lectures P625 du 02/10/2026 pour 195 villes, recoupées par Claude le même jour par requête SPARQL (QID et coordonnées identiques, pays actuel concordant). Complément d'Ether (villes 1.6, 03/10/2026) : Fusionner seulement ce complément par union ; préserver les consultations et vérifications antérieures. Coordonnées arrondies à six décimales, pas précision historique garantie. Lectures P625 du 03/10/2026 pour 254 villes, recoupées par Claude le même jour par requête SPARQL (QID et coordonnées identiques, pays actuel concordant). Villes 1.7 (04/10/2026) : 166 positions prises dans Wikidata par Claude (élément relié à l'identifiant GeoNames proposé par Ether, QID principal choisi à la main pour 22 villes ; outils/villes/wikidata_ratissage_1_7.json). Villes 1.8 (04/10/2026) : 361 positions proposées par Ether (QID et P625) et recoupées par Claude par SPARQL (aucun écart > 1 km, aucun doublon avec les villes déjà intégrées ; outils/villes/wikidata_ratissage_1_8.json). Villes 1.9 (05/10/2026) : 238 positions proposées par Ether (QID et P625) et recoupées par Claude par SPARQL (aucun écart > 1 km, pays cohérents, aucun doublon avec les villes déjà intégrées ; outils/villes/wikidata_ratissage_1_9.json).",
    "verification_claude": "non_verifiee",
    "cibles": [
     "ville-ru-vologda",
@@ -3176,7 +3176,245 @@
     "ville-gr-corfou",
     "ville-gr-ermoupoli",
     "ville-gr-rhodes",
-    "ville-gr-lakki"
+    "ville-gr-lakki",
+    "ville-es-madrid",
+    "ville-es-avila",
+    "ville-es-guadalajara",
+    "ville-es-cuenca",
+    "ville-es-teruel",
+    "ville-es-tolede",
+    "ville-es-aranjuez",
+    "ville-es-alcazar-de-san-juan",
+    "ville-es-manzanares",
+    "ville-es-ciudad-real",
+    "ville-es-puertollano",
+    "ville-es-albacete",
+    "ville-es-castellon-de-la-plana",
+    "ville-es-sagonte",
+    "ville-es-valence",
+    "ville-es-xativa",
+    "ville-es-gandia",
+    "ville-es-denia",
+    "ville-es-alcoy",
+    "ville-es-villena",
+    "ville-es-alicante",
+    "ville-es-utiel",
+    "ville-es-jaen",
+    "ville-es-grenade",
+    "ville-es-guadix",
+    "ville-es-baza",
+    "ville-es-almendricos",
+    "ville-es-aguilas",
+    "ville-es-lorca",
+    "ville-es-murcie",
+    "ville-es-carthagene",
+    "ville-es-almeria",
+    "ville-es-cordoue",
+    "ville-es-seville",
+    "ville-es-huelva",
+    "ville-es-gibraleon",
+    "ville-es-minas-de-riotinto",
+    "ville-es-tharsis",
+    "ville-es-utrera",
+    "ville-es-ronda",
+    "ville-es-malaga",
+    "ville-es-jerez-de-la-frontera",
+    "ville-es-el-puerto-de-santa-maria",
+    "ville-es-cadix",
+    "ville-es-algesiras",
+    "ville-pt-lagos",
+    "ville-pt-portimao",
+    "ville-pt-tunes",
+    "ville-pt-faro",
+    "ville-pt-vila-real-de-santo-antonio",
+    "ville-pt-lisbonne",
+    "ville-pt-setubal",
+    "ville-pt-barreiro",
+    "ville-pt-pinhal-novo",
+    "ville-pt-vendas-novas",
+    "ville-pt-evora",
+    "ville-pt-portalegre",
+    "ville-pt-entroncamento",
+    "ville-pt-abrantes",
+    "ville-pt-santarem",
+    "ville-pt-leiria",
+    "ville-pt-figueira-da-foz",
+    "ville-pt-castelo-branco",
+    "ville-es-valencia-de-alcantara",
+    "ville-es-badajoz",
+    "ville-es-merida",
+    "ville-es-caceres",
+    "ville-es-plasencia",
+    "ville-es-zafra",
+    "ville-es-fregenal-de-la-sierra",
+    "ville-es-jerez-de-los-caballeros",
+    "ville-pt-porto",
+    "ville-pt-braga",
+    "ville-pt-viana-do-castelo",
+    "ville-pt-vila-real",
+    "ville-pt-peso-da-regua",
+    "ville-pt-bragance",
+    "ville-pt-chaves",
+    "ville-pt-valenca",
+    "ville-pt-barca-dalva",
+    "ville-es-la-corogne",
+    "ville-es-ferrol",
+    "ville-es-betanzos",
+    "ville-es-saint-jacques-de-compostelle",
+    "ville-es-vilagarcia-de-arousa",
+    "ville-es-pontevedra",
+    "ville-es-vigo",
+    "ville-es-redondela",
+    "ville-es-tui",
+    "ville-es-ourense",
+    "ville-es-lugo",
+    "ville-es-monforte-de-lemos",
+    "ville-es-oviedo",
+    "ville-es-aviles",
+    "ville-es-gijon",
+    "ville-es-leon",
+    "ville-es-la-robla",
+    "ville-es-ponferrada",
+    "ville-es-astorga",
+    "ville-es-burgos",
+    "ville-es-santander",
+    "ville-es-torrelavega",
+    "ville-es-bilbao",
+    "ville-es-vitoria-gasteiz",
+    "ville-es-saint-sebastien",
+    "ville-es-irun",
+    "ville-es-pampelune",
+    "ville-es-miranda-de-ebro",
+    "ville-es-logrono",
+    "ville-es-haro",
+    "ville-es-calahorra",
+    "ville-es-castejon",
+    "ville-es-altsasu",
+    "ville-es-balmaseda",
+    "ville-es-durango",
+    "ville-es-eibar",
+    "ville-es-soria",
+    "ville-es-huesca",
+    "ville-es-jaca",
+    "ville-es-puigcerda",
+    "ville-es-barbastro",
+    "ville-es-tardienta",
+    "ville-es-balaguer",
+    "ville-es-saragosse",
+    "ville-es-lerida",
+    "ville-es-gerone",
+    "ville-es-figueras",
+    "ville-es-portbou",
+    "ville-es-ripoll",
+    "ville-es-barcelone",
+    "ville-es-tarragone",
+    "ville-es-reus",
+    "ville-es-tortosa",
+    "ville-es-manresa",
+    "ville-es-sabadell",
+    "ville-es-terrassa",
+    "ville-es-granollers",
+    "ville-es-martorell",
+    "ville-es-igualada",
+    "ville-es-vilanova-i-la-geltru",
+    "ville-es-mollerussa",
+    "ville-es-palamos",
+    "ville-es-sant-feliu-de-guixols",
+    "ville-es-palma",
+    "ville-es-soller",
+    "ville-es-manacor",
+    "ville-es-felanitx",
+    "ville-es-arta",
+    "ville-es-sa-pobla",
+    "ville-es-santanyi",
+    "ville-es-valdepenas",
+    "ville-es-tomelloso",
+    "ville-es-linares",
+    "ville-es-la-carolina",
+    "ville-es-cieza",
+    "ville-es-elche",
+    "ville-es-palencia",
+    "ville-es-valladolid",
+    "ville-es-segovie",
+    "ville-es-medina-del-campo",
+    "ville-es-venta-de-banos",
+    "ville-es-calatayud",
+    "ville-es-tudela",
+    "ville-es-zamora",
+    "ville-es-salamanque",
+    "ville-es-ciudad-rodrigo",
+    "ville-es-bejar",
+    "ville-es-fuentes-de-onoro",
+    "ville-es-la-fregeneda",
+    "ville-pt-aveiro",
+    "ville-pt-viseu",
+    "ville-pt-guarda",
+    "ville-pt-coimbra",
+    "ville-pt-covilha",
+    "ville-pt-guimaraes",
+    "ville-pt-vila-nova-de-famalicao",
+    "ville-pt-trofa",
+    "ville-pt-espinho",
+    "ville-pt-oliveira-de-azemeis",
+    "ville-pt-santa-comba-dao",
+    "ville-pt-pampilhosa",
+    "ville-pt-vilar-formoso",
+    "ville-pt-tomar",
+    "ville-pt-caldas-da-rainha",
+    "ville-pt-marinha-grande",
+    "ville-pt-beja",
+    "ville-pt-elvas",
+    "ville-pt-estremoz",
+    "ville-pt-moura",
+    "ville-pt-aljustrel",
+    "ville-pt-sines",
+    "ville-pt-alcacer-do-sal",
+    "ville-es-almaden",
+    "ville-es-badalona",
+    "ville-es-flix",
+    "ville-pt-angra-do-heroismo",
+    "ville-pt-horta",
+    "ville-pt-ponta-delgada",
+    "ville-pt-funchal",
+    "ville-pt-gouveia",
+    "ville-pt-alenquer",
+    "ville-pt-castanheira-de-pera",
+    "ville-pt-sacavem",
+    "ville-pt-lousal",
+    "ville-pt-vila-baleira",
+    "ville-es-las-palmas-de-gran-canaria",
+    "ville-es-santa-cruz-de-tenerife",
+    "ville-es-santa-cruz-de-la-palma",
+    "ville-es-mao",
+    "ville-es-ibiza",
+    "ville-pt-matosinhos",
+    "ville-es-barakaldo",
+    "ville-es-sestao",
+    "ville-es-la-felguera",
+    "ville-ad-andorre-la-vieille",
+    "ville-ad-sant-julia-de-loria",
+    "ville-gi-gibraltar",
+    "ville-va-cite-du-vatican",
+    "ville-mc-monaco",
+    "ville-sm-saint-marin",
+    "ville-sm-borgo-maggiore",
+    "ville-cy-nicosie",
+    "ville-cy-larnaca",
+    "ville-cy-limassol",
+    "ville-cy-famagouste",
+    "ville-cy-paphos",
+    "ville-cy-kyrenia",
+    "ville-cy-morphou",
+    "ville-mt-la-valette",
+    "ville-mt-mgarr",
+    "ville-mt-cospicua",
+    "ville-mt-senglea",
+    "ville-mt-luqa",
+    "ville-es-san-fernando",
+    "ville-es-puerto-real",
+    "ville-es-reinosa",
+    "ville-es-puerto-del-rosario",
+    "ville-es-arrecife"
    ],
    "consultations_ether": [
     {
@@ -36987,6 +37225,3247 @@
    },
    "notes": "Proposée par Ether (villes 1.8, 04/10/2026). Ce que la source prouve selon Ether : ville-ba-ugljevik —  : Le document distingue le centre minier de 1941 et la nouvelle agglomération de 1980.. Limite annoncée par Ether : Texte PDF lu : centre transféré au site minier en 1941 puis à une nouvelle agglomération en 1980. Image non collationnée ; ne pas placer la ville historique sur le point actuel. Les cibles hors du fichier de données restent différées ; aucune validation humaine présumée. Relecture Claude 04/10/2026 : La section 1.1 Istorijat opštine distingue bien le centre dans le village minier de Stari Ugljevik (1941) et la nouvelle agglomération de Novi Ugljevik (1980). Le passage soutient l'affirmation ; 1941 est antérieur au 01/01/1945. Cibles : candidats différés par Ether (contexte de recherche, aucune ville créée).",
    "resume_francais_ether": " : Le document distingue le centre minier de 1941 et la nouvelle agglomération de 1980."
+  },
+  {
+   "source_id": "src-19-iberie-forcano1942",
+   "niveau": "A",
+   "type_source": "carte_epoque",
+   "titre": "Mapa de los ferrocarriles en explotación, construcción y proyecto en España — édition 1942",
+   "institution": "Alfredo Forcano Catalán ; Fundación de los Ferrocarriles Españoles / Biblioteca du Museo del Ferrocarril de Madrid",
+   "url": "https://artsandculture.google.com/asset/mapa-de-los-ferrocarriles-en-explotaci%C3%B3n-construcci%C3%B3n-y-proyecto-en-espa%C3%B1a-edici%C3%B3n-de-1942-alfredo-forcano-catal%C3%A1n/kAFm5u3_uW6UIQ?hl=es",
+   "date_consultation": "2026-10-05",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rail",
+    "capitale",
+    "administration"
+   ],
+   "cibles": [
+    "ville-es-madrid",
+    "ville-es-avila",
+    "ville-es-guadalajara",
+    "ville-es-cuenca",
+    "ville-es-teruel",
+    "ville-es-tolede",
+    "ville-es-aranjuez",
+    "ville-es-alcazar-de-san-juan",
+    "ville-es-manzanares",
+    "ville-es-ciudad-real",
+    "ville-es-puertollano",
+    "ville-es-albacete",
+    "ville-es-chinchilla-de-monte-aragon",
+    "ville-es-la-encina",
+    "ville-es-castellon-de-la-plana",
+    "ville-es-sagonte",
+    "ville-es-valence",
+    "ville-es-xativa",
+    "ville-es-gandia",
+    "ville-es-denia",
+    "ville-es-alcoy",
+    "ville-es-villena",
+    "ville-es-alicante",
+    "ville-es-utiel",
+    "ville-es-jaen",
+    "ville-es-grenade",
+    "ville-es-guadix",
+    "ville-es-moreda",
+    "ville-es-baza",
+    "ville-es-almendricos",
+    "ville-es-aguilas",
+    "ville-es-lorca",
+    "ville-es-murcie",
+    "ville-es-carthagene",
+    "ville-es-almeria",
+    "ville-es-cordoue",
+    "ville-es-seville",
+    "ville-es-huelva",
+    "ville-es-gibraleon",
+    "ville-es-minas-de-riotinto",
+    "ville-es-tharsis",
+    "ville-es-utrera",
+    "ville-es-bobadilla",
+    "ville-es-ronda",
+    "ville-es-malaga",
+    "ville-es-jerez-de-la-frontera",
+    "ville-es-el-puerto-de-santa-maria",
+    "ville-es-cadix",
+    "ville-es-algesiras",
+    "ville-pt-lagos",
+    "ville-pt-portimao",
+    "ville-pt-tunes",
+    "ville-pt-faro",
+    "ville-pt-vila-real-de-santo-antonio",
+    "ville-pt-lisbonne",
+    "ville-pt-setubal",
+    "ville-pt-barreiro",
+    "ville-pt-pinhal-novo",
+    "ville-pt-vendas-novas",
+    "ville-pt-casa-branca",
+    "ville-pt-evora",
+    "ville-pt-portalegre",
+    "ville-pt-cabeco-de-vide",
+    "ville-pt-entroncamento",
+    "ville-pt-abrantes",
+    "ville-pt-santarem",
+    "ville-pt-leiria",
+    "ville-pt-figueira-da-foz",
+    "ville-pt-castelo-branco",
+    "ville-es-valencia-de-alcantara",
+    "ville-es-badajoz",
+    "ville-es-merida",
+    "ville-es-caceres",
+    "ville-es-plasencia",
+    "ville-es-zafra",
+    "ville-es-fregenal-de-la-sierra",
+    "ville-es-jerez-de-los-caballeros",
+    "ville-pt-porto",
+    "ville-pt-braga",
+    "ville-pt-viana-do-castelo",
+    "ville-pt-vila-real",
+    "ville-pt-peso-da-regua",
+    "ville-pt-pocinho",
+    "ville-pt-tua",
+    "ville-pt-bragance",
+    "ville-pt-chaves",
+    "ville-pt-valenca",
+    "ville-pt-barca-dalva",
+    "ville-es-la-corogne",
+    "ville-es-ferrol",
+    "ville-es-betanzos",
+    "ville-es-saint-jacques-de-compostelle",
+    "ville-es-vilagarcia-de-arousa",
+    "ville-es-pontevedra",
+    "ville-es-vigo",
+    "ville-es-redondela",
+    "ville-es-tui",
+    "ville-es-ourense",
+    "ville-es-lugo",
+    "ville-es-monforte-de-lemos",
+    "ville-es-oviedo",
+    "ville-es-aviles",
+    "ville-es-gijon",
+    "ville-es-leon",
+    "ville-es-la-robla",
+    "ville-es-ponferrada",
+    "ville-es-astorga",
+    "ville-es-burgos",
+    "ville-es-santander",
+    "ville-es-torrelavega",
+    "ville-es-bilbao",
+    "ville-es-vitoria-gasteiz",
+    "ville-es-saint-sebastien",
+    "ville-es-irun",
+    "ville-es-pampelune",
+    "ville-es-miranda-de-ebro",
+    "ville-es-logrono",
+    "ville-es-haro",
+    "ville-es-calahorra",
+    "ville-es-castejon",
+    "ville-es-altsasu",
+    "ville-es-estella-lizarra",
+    "ville-es-balmaseda",
+    "ville-es-durango",
+    "ville-es-eibar",
+    "ville-es-soria",
+    "ville-es-huesca",
+    "ville-es-jaca",
+    "ville-es-canfranc",
+    "ville-es-puigcerda",
+    "ville-es-barbastro",
+    "ville-es-tardienta",
+    "ville-es-balaguer",
+    "ville-es-saragosse",
+    "ville-es-lerida",
+    "ville-es-gerone",
+    "ville-es-figueras",
+    "ville-es-portbou",
+    "ville-es-ripoll",
+    "ville-es-barcelone",
+    "ville-es-tarragone",
+    "ville-es-reus",
+    "ville-es-tortosa",
+    "ville-es-manresa",
+    "ville-es-sabadell",
+    "ville-es-terrassa",
+    "ville-es-granollers",
+    "ville-es-martorell",
+    "ville-es-igualada",
+    "ville-es-vilanova-i-la-geltru",
+    "ville-es-mollerussa",
+    "ville-es-palamos",
+    "ville-es-sant-feliu-de-guixols",
+    "ville-es-palma",
+    "ville-es-soller",
+    "ville-es-manacor",
+    "ville-es-felanitx",
+    "ville-es-arta",
+    "ville-es-sa-pobla",
+    "ville-es-santanyi",
+    "ville-es-valdepenas",
+    "ville-es-tomelloso",
+    "ville-es-linares",
+    "ville-es-la-carolina",
+    "ville-es-cieza",
+    "ville-es-elche",
+    "ville-es-palencia",
+    "ville-es-valladolid",
+    "ville-es-segovie",
+    "ville-es-medina-del-campo",
+    "ville-es-venta-de-banos",
+    "ville-es-calatayud",
+    "ville-es-tudela",
+    "ville-es-zamora",
+    "ville-es-salamanque",
+    "ville-es-ciudad-rodrigo",
+    "ville-es-bejar",
+    "ville-es-fuentes-de-onoro",
+    "ville-es-la-fregeneda",
+    "ville-pt-aveiro",
+    "ville-pt-viseu",
+    "ville-pt-guarda",
+    "ville-pt-coimbra",
+    "ville-pt-covilha",
+    "ville-pt-guimaraes",
+    "ville-pt-vila-nova-de-famalicao",
+    "ville-pt-trofa",
+    "ville-pt-espinho",
+    "ville-pt-oliveira-de-azemeis",
+    "ville-pt-santa-comba-dao",
+    "ville-pt-pampilhosa",
+    "ville-pt-vilar-formoso",
+    "ville-pt-tomar",
+    "ville-pt-caldas-da-rainha",
+    "ville-pt-marinha-grande",
+    "ville-pt-beja",
+    "ville-pt-elvas",
+    "ville-pt-estremoz",
+    "ville-pt-moura",
+    "ville-pt-aljustrel",
+    "ville-pt-sines",
+    "ville-pt-alcacer-do-sal"
+   ],
+   "locator": "Carte datée 1942 ; légende et captures régionales jointes",
+   "resume_passage": "Légende « SIGNOS CONVENCIONALES » : « CAPITAL DE NACION » = grand symbole à anneaux concentriques ; « ID. DE PROVINCIA » = double anneau ; « EMPALME (de enlace ó confinación) Y PUNTOS DE BIFURCACION O AFLUENCIA DE LINEAS » = point plein ; « ESTACION FINAL O TERMINO DE LINEA » = cercle blanc ; « ESTACION INTERMEDIA » ; « FERROCARRILES EN EXPLOTACION » = doble vía (ancha) / vía única (ancha) / vía estrecha / cremallera, « En colores: Véase LEYENDA » (rouge = Red Nacional de los Ferrocarriles Españoles, violet = « Explotados directamente por el Estado », vert et autres couleurs = autres compagnie",
+   "archive_locale": null,
+   "verification_claude": "limite",
+   "verification_ether": {
+    "date": "2026-10-05",
+    "statut": "images_lues",
+    "limite": "Rôles localisés avant le Snapshot ; aucune capacité ni continuité du service fin 1944 déduite."
+   },
+   "notes": "Proposée par Ether (villes 1.9, 05/10/2026). Ce que la source prouve selon Ether : ville-es-madrid : administration, capitale, rail ; ville-es-avila : rail ; ville-es-guadalajara : rail ; ville-es-cuenca : rail ; ville-es-teruel : rail ; ville-es-tolede : rail ; ville-es-aranjuez : rail ; ville-es-alcazar-de-san-juan : rail ; ville-es-manzanares : rail ; ville-es-ciudad-real : rail ; ville-es-puertollano : rail ; ville-es-albacete : rail ; ville-es-chinchilla-de-monte-aragon : rail ; ville-es-la-encina : rail ; ville-es-castellon-de-la-plana : rail ; ville-es-sagonte : rail ; ville-es-valence : rail ; ville-es-xativa : rail ; ville-es-gandia : rail ; ville-es-denia : rail ; ville-es-alcoy : rail ; ville-es-villena : rail ; ville-es-alicante : rail ; ville-es-utiel : rail ; ville-es-jaen : rail ; ville-es-grenade : rail ; ville-es-guadix : rail ; ville-es-moreda : rail ; ville-es-baza : rail ; ville-es-almendricos : rail ; ville-es-aguilas : rail ; ville-es-lorca : rail ; ville-es-murcie : rail ; ville-es-carthagene : rail ; ville-es-almeria : rail ; ville-es-cordoue : rail ; ville-es-seville : rail ; ville-es-huelva : rail ; ville-es-gibraleon : rail ; ville-es-minas-de-riotinto : rail ; ville-es-tharsis : rail ; ville-es-utrera : rail ; ville-es-bobadilla : rail ; ville-es-ronda : rail ; ville-es-malaga : rail ; ville-es-jerez-de-la-frontera : rail ; ville-es-el-puerto-de-santa-maria : rail ; ville-es-cadix : rail ; ville-es-algesiras : rail ; ville-pt-lagos : rail ; ville-pt-portimao : rail ; ville-pt-tunes : rail ; ville-pt-faro : rail ; ville-pt-vila-real-de-santo-antonio : rail ; ville-pt-lisbonne : administration, capitale, rail ; ville-pt-setubal : rail ; ville-pt-barreiro : rail ; ville-pt-pinhal-novo : rail ; ville-pt-vendas-novas : rail ; ville-pt-casa-branca : rail ; ville-pt-evora : rail ; ville-pt-portalegre :  ; ville-pt-cabeco-de-vide : rail ; ville-pt-entroncamento : rail ; ville-pt-abrantes : rail ; ville-pt-santarem : rail ; ville-pt-leiria : rail ; ville-pt-figueira-da-foz : rail ; ville-pt-castelo-branco : rail ; ville-es-valencia-de-alcantara : rail ; ville-es-badajoz : rail ; ville-es-merida : rail ; ville-es-caceres : rail ; ville-es-plasencia : rail ; ville-es-zafra : rail ; ville-es-fregenal-de-la-sierra : rail ; ville-es-jerez-de-los-caballeros : rail ; ville-pt-porto : rail ; ville-pt-braga : rail ; ville-pt-viana-do-castelo : rail ; ville-pt-vila-real : rail ; ville-pt-peso-da-regua : rail ; ville-pt-pocinho : rail ; ville-pt-tua : rail ; ville-pt-bragance : rail ; ville-pt-chaves : rail ; ville-pt-valenca : rail ; ville-pt-barca-dalva : rail ; ville-es-la-corogne : rail ; ville-es-ferrol : rail ; ville-es-betanzos : rail ; ville-es-saint-jacques-de-compostelle : rail ; ville-es-vilagarcia-de-arousa : rail ; ville-es-pontevedra : rail ; ville-es-vigo : rail ; ville-es-redondela : rail ; ville-es-tui : rail ; ville-es-ourense : rail ; ville-es-lugo : rail ; ville-es-monforte-de-lemos : rail ; ville-es-oviedo : rail ; ville-es-aviles : rail ; ville-es-gijon : rail ; ville-es-leon : rail ; ville-es-la-robla : rail ; ville-es-ponferrada : rail ; ville-es-astorga : rail ; ville-es-burgos : rail ; ville-es-santander : rail ; ville-es-torrelavega : rail ; ville-es-bilbao : rail ; ville-es-vitoria-gasteiz : rail ; ville-es-saint-sebastien : rail ; ville-es-irun : rail ; ville-es-pampelune : rail ; ville-es-miranda-de-ebro : rail ; ville-es-logrono : rail ; ville-es-haro : rail ; ville-es-calahorra : rail ; ville-es-castejon : rail ; ville-es-altsasu : rail ; ville-es-estella-lizarra : rail ; ville-es-balmaseda : rail ; ville-es-durango : rail ; ville-es-eibar : rail ; ville-es-soria : rail ; ville-es-huesca : rail ; ville-es-jaca : rail ; ville-es-canfranc : rail ; ville-es-puigcerda : rail ; ville-es-barbastro : rail ; ville-es-tardienta : rail ; ville-es-balaguer : rail ; ville-es-saragosse : rail ; ville-es-lerida : rail ; ville-es-gerone : rail ; ville-es-figueras : rail ; ville-es-portbou : rail ; ville-es-ripoll : rail ; ville-es-barcelone : rail ; ville-es-tarragone : rail ; ville-es-reus : rail ; ville-es-tortosa : rail ; ville-es-manresa : rail ; ville-es-sabadell : rail ; ville-es-terrassa : rail ; ville-es-granollers : rail ; ville-es-martorell : rail ; ville-es-igualada : rail ; ville-es-vilanova-i-la-geltru : rail ; ville-es-mollerussa : rail ; ville-es-palamos : rail ; ville-es-sant-feliu-de-guixols : rail ; ville-es-palma : rail ; ville-es-soller : rail ; ville-es-manacor : rail ; ville-es-felanitx : rail ; ville-es-arta : rail ; ville-es-sa-pobla : rail ; ville-es-santanyi : rail ; ville-es-valdepenas : rail ; ville-es-tomelloso : rail ; ville-es-linares : rail ; ville-es-la-carolina : rail ; ville-es-cieza : rail ; ville-es-elche : rail ; ville-es-palencia : rail ; ville-es-valladolid : rail ; ville-es-segovie : rail ; ville-es-medina-del-campo : rail ; ville-es-venta-de-banos : rail ; ville-es-calatayud : rail ; ville-es-tudela : rail ; ville-es-zamora : rail ; ville-es-salamanque : rail ; ville-es-ciudad-rodrigo : rail ; ville-es-bejar : rail ; ville-es-fuentes-de-onoro : rail ; ville-es-la-fregeneda : rail ; ville-pt-aveiro : rail ; ville-pt-viseu : rail ; ville-pt-guarda : rail ; ville-pt-coimbra : rail ; ville-pt-covilha : rail ; ville-pt-guimaraes : rail ; ville-pt-vila-nova-de-famalicao : rail ; ville-pt-trofa : rail ; ville-pt-espinho : rail ; ville-pt-oliveira-de-azemeis : rail ; ville-pt-santa-comba-dao : rail ; ville-pt-pampilhosa : rail ; ville-pt-vilar-formoso : rail ; ville-pt-tomar : rail ; ville-pt-caldas-da-rainha : rail ; ville-pt-marinha-grande : rail ; ville-pt-beja : rail ; ville-pt-elvas : rail ; ville-pt-estremoz : rail ; ville-pt-moura : rail ; ville-pt-aljustrel : rail ; ville-pt-sines : rail ; ville-pt-alcacer-do-sal : rail. Limite annoncée par Ether : Lecture visuelle de la carte ; traits exploités distingués des doubles traits vides en construction et des projets. Un point de gare ne certifie pas à lui seul la proximité du centre urbain. Exemplaire 1948 aperçu puis exclu. Cibles différées : recherche conservée, hors import. Aucune validation humaine présumée. Relecture Claude 05/10/2026 : Carte de 1942 lue par Claude sur 18 captures régionales et la légende (« FERROCARRILES EN EXPLOTACION » en traits de couleur ; « EN CONSTRUCCION » double trait ; « EN PROYECTO » trait simple). 167 villes lues sur une ligne exploitée ; 24 non prouvées (nom coupé ou absent, ligne non colorée ou indistincte). Couleurs des voies étroites (bleu, vert, violet) lues comme lignes exploitées faute de tableau des couleurs dans les captures. Madrid : symbole « CAPITAL DE NACION ». Lisbonne absente des captures.",
+   "resume_francais_ether": "La carte de 1942 distingue les voies exploitées, en construction et projetées en Espagne et au Portugal. Les localités retenues sont lues sur les tracés exploités ; cela ne certifie pas les circulations de fin 1944.",
+   "verification_claude_ether": "non_verifiee",
+   "facilitateur_traduction": "Google Lens sur les captures locales, en conservant le cartouche 1942 et la légende des lignes ; les toponymes doivent être rapprochés du tracé original.",
+   "confirmations_claude": {
+    "ville-es-madrid": {
+     "roles": [
+      "administration",
+      "capitale",
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : 2026-10-05_ether_Forcano1942_centre.jpg ; « MADRID » ; symbole triple anneau, le plus grand, = « Capital de Nación » ; lignes rouges multiples",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-avila": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : 2026-10-05_ether_Forcano1942_centre.jpg ; « AVILA » ; ligne rouge (Red Nacional, EXPLOITÉE)",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-guadalajara": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : 2026-10-05_ether_Forcano1942_centre.jpg ; « GUADALAJARA » ; ligne rouge (Red Nacional, EXPLOITÉE)",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-cuenca": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : 2026-10-05_ether_Forcano1942_centre.jpg ; « CUENCA » ; ligne rouge (Red Nacional, EXPLOITÉE)",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-teruel": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : 2026-10-05_ether_Forcano1942_levant.jpg ; « TERUEL » ; ligne rouge (Red Nacional, EXPLOITÉE)",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-tolede": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : 2026-10-05_ether_Forcano1942_centre.jpg ; « TOLEDO » ; double anneau (capitale de province), terminus de la ligne rouge",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-aranjuez": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : 2026-10-05_ether_Forcano1942_centre.jpg ; « ARANJUEZ » ; ligne rouge (Red Nacional, EXPLOITÉE)",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-alcazar-de-san-juan": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : 2026-10-05_ether_Forcano1942_centre.jpg ; « ALCAZAR DE SAN JUAN » ; ligne rouge (Red Nacional, EXPLOITÉE)",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-manzanares": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : 2026-10-05_ether_Forcano1942_centre.jpg ; « MANZANARES » ; ligne rouge (Red Nacional, EXPLOITÉE)",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-ciudad-real": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : 2026-10-05_ether_Forcano1942_centre.jpg ; « CIUDAD-REAL » ; ligne rouge (Red Nacional, EXPLOITÉE)",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-puertollano": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : 2026-10-05_ether_Forcano1942_centre.jpg ; « PUERTOLLANO » ; ligne rouge (Red Nacional, EXPLOITÉE)",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-albacete": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : 2026-10-05_ether_Forcano1942_centre.jpg ; « ALBACETE » ; ligne rouge (Red Nacional, EXPLOITÉE)",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-valdepenas": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : 2026-10-05_ether_Forcano1942_centre.jpg ; « VALDEPEÑAS » ; ligne rouge (Red Nacional, EXPLOITÉE)",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-tomelloso": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : 2026-10-05_ether_Forcano1942_centre.jpg ; « TOMELLOSO » ; cercle blanc terminus au bout de l'embranchement rouge Cinco Casas-Tomelloso",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-linares": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : 2026-10-05_ether_Forcano1942_manche.jpg ; « LINARES » ; nœud sur lignes rouges (Linares-Baeza)",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-la-carolina": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : 2026-10-05_ether_Forcano1942_manche.jpg ; « LA CAROLINA » ; cercle blanc terminus au bout d'une ligne VERTE colorée (non rouge ; ligne colorée = exploitée, pas la double ligne noire de construction)",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-cieza": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : 2026-10-05_ether_Forcano1942_manche.jpg ; « CIEZA » ; ligne rouge (Red Nacional, EXPLOITÉE)",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-elche": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : 2026-10-05_ether_Forcano1942_manche.jpg ; « Elche » ; petit libellé italique le long de la ligne rouge Albatera-Catral/Alicante, sans cercle propre",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-castellon-de-la-plana": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : 2026-10-05_ether_Forcano1942_levant.jpg ; « CASTELLÓN » ; ligne rouge (Red Nacional, EXPLOITÉE) ; double anneau",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-sagonte": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : 2026-10-05_ether_Forcano1942_levant.jpg ; « SAGUNTO » ; ligne rouge (Red Nacional, EXPLOITÉE)",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-valence": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : 2026-10-05_ether_Forcano1942_levant.jpg ; « VALENCIA » ; ligne rouge (Red Nacional, EXPLOITÉE) ; double anneau",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-xativa": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : 2026-10-05_ether_Forcano1942_levant.jpg ; « JATIBA (graphie Játiva) » ; ligne rouge (Red Nacional, EXPLOITÉE)",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-gandia": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : 2026-10-05_ether_Forcano1942_levant.jpg ; « GANDIA » ; ligne violette (Gandía-Dénia, exploitée par l'État) et ligne verte",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-denia": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : 2026-10-05_ether_Forcano1942_levant.jpg ; « DENIA » ; ligne colorée orange/violette depuis Alicante et Gandía (exploitée)",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-alcoy": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : 2026-10-05_ether_Forcano1942_levant.jpg ; « ALCOY » ; lignes rouge (Agres) et verte (Muro) ; la ligne blanche vers Alicante est en construction/projet",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-villena": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : 2026-10-05_ether_Forcano1942_levant.jpg ; « VILLENA » ; ligne rouge (Red Nacional, EXPLOITÉE)",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-alicante": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : 2026-10-05_ether_Forcano1942_levant.jpg ; « ALICANTE » ; ligne rouge (Red Nacional, EXPLOITÉE) ; double anneau",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-utiel": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : 2026-10-05_ether_Forcano1942_centre.jpg ; « UTIEL » ; cercle blanc sur la ligne rouge Cuenca-Valencia ; la ligne blanche vers le sud n'est pas retenue",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-jaen": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : 2026-10-05_ether_Forcano1942_sudest.jpg ; « JAEN » ; ligne rouge (Red Nacional, EXPLOITÉE)",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-grenade": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : 2026-10-05_ether_Forcano1942_sudest.jpg ; « GRANADA » ; ligne rouge (Red Nacional, EXPLOITÉE) ; double anneau",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-guadix": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : 2026-10-05_ether_Forcano1942_sudest.jpg ; « GUADIX » ; ligne rouge (Red Nacional, EXPLOITÉE)",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-baza": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : 2026-10-05_ether_Forcano1942_sudest.jpg ; « BAZA » ; cercle blanc sur la ligne rouge Guadix-Almendricos",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-almendricos": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : 2026-10-05_ether_Forcano1942_sudest.jpg ; « ALMENDRICOS » ; ligne rouge (Red Nacional, EXPLOITÉE)",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-aguilas": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : 2026-10-05_ether_Forcano1942_sudest.jpg ; « AGUILAS (et AGUILAS-PUERTO) » ; cercle blanc terminus de la ligne rouge depuis Almendricos",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-lorca": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : 2026-10-05_ether_Forcano1942_sudest.jpg ; « LORCA (SAN DIEGO) » ; cercle blanc terminus de la ligne rouge depuis Murcie",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-murcie": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : 2026-10-05_ether_Forcano1942_sudest.jpg ; « MURCIA » ; ligne rouge (Red Nacional, EXPLOITÉE)",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-carthagene": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : 2026-10-05_ether_Forcano1942_sudest.jpg ; « CARTAGENA » ; ligne rouge (Red Nacional, EXPLOITÉE)",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-almeria": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : 2026-10-05_ether_Forcano1942_sudest.jpg ; « ALMERIA » ; ligne rouge (Red Nacional, EXPLOITÉE)",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-cordoue": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : andalousie.jpg + beja.jpg ; CORDOBA ; grande gare cerclée, ligne rouge pleine (ancha) exploitée",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-huelva": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : andalousie.jpg + portugal_sud.jpg ; HUELVA ; gare cerclée, ligne rouge pleine exploitée",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-gibraleon": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : andalousie.jpg + beja.jpg ; GIBRALEON ; gare cerclée sur ligne rouge pleine Huelva-Ayamonte, exploitée",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-utrera": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : andalousie.jpg ; UTRERA ; gare cerclée sur ligne rouge pleine exploitée",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-ronda": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : andalousie.jpg ; Ronda ; point de gare accolé à la ligne rouge pleine Bobadilla-Algeciras ; nom en petites capitales italiques, lisible au zoom",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-malaga": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : andalousie.jpg ; MALAGA ; gare cerclée, ligne rouge pleine exploitée",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-jerez-de-la-frontera": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : andalousie.jpg ; JEREZ DE LA FRONTERA ; gare cerclée, ligne rouge pleine exploitée",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-el-puerto-de-santa-maria": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : andalousie.jpg ; PUERTO de STA MARIA ; gare cerclée, ligne rouge pleine Jerez-Cádiz, exploitée",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-cadix": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : andalousie.jpg ; CADIZ ; gare cerclée, ligne rouge pleine exploitée",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-algesiras": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : andalousie.jpg ; ALGECIRAS ; terminus cerclé, ligne rouge pleine exploitée",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-valencia-de-alcantara": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : alentejo.jpg ; VALENCIA de ALCANTARA ; gare cerclée, ligne rouge pleine exploitée (jonction avec ligne violette portugaise)",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-badajoz": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : alentejo.jpg + beja.jpg ; BADAJOZ ; grande gare cerclée, ligne rouge pleine exploitée",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-merida": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : beja.jpg + alentejo.jpg ; MERIDA ; gare cerclée, ligne rouge pleine exploitée",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-caceres": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : alentejo.jpg ; CACERES ; grande gare cerclée, ligne rouge pleine exploitée",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-plasencia": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : alentejo.jpg ; PLASENCIA (Em...) ; gare cerclée, ligne rouge pleine exploitée",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-zafra": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : beja.jpg + alentejo.jpg ; ZAFRA ; gare cerclée, ligne rouge pleine exploitée",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-pt-lagos": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : portugal_sud.jpg + beja.jpg ; LAGOS ; terminus de la ligne violette pleine exploitée",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-pt-portimao": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : portugal_sud.jpg + beja.jpg ; PORTIMÃO (écrit PORTIMAO/Portimão) ; point blanc sur ligne violette pleine exploitée",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-pt-tunes": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : portugal_sud.jpg + beja.jpg ; TUNES ; gare cerclée (bifurcation), ligne violette pleine exploitée",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-pt-faro": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : portugal_sud.jpg + andalousie.jpg ; FARO ; gare cerclée, ligne violette pleine exploitée",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-pt-vila-real-de-santo-antonio": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : portugal_sud.jpg ; VILLAREAL / SAN ANTONIO (forme espagnole, sur deux lignes) ; terminus (point blanc) de la ligne violette pleine exploitée ; identification par la forme espagnole du nom",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-pt-lisbonne": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : alentejo.jpg ; LISBOA ; grande gare cerclée, lignes violettes pleines exploitées",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-pt-barreiro": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : alentejo.jpg ; BARREIRO ; point blanc sur ligne violette pleine exploitée",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-pt-pinhal-novo": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : alentejo.jpg + beja.jpg ; PINHALNOVO ; gare cerclée, ligne violette pleine exploitée",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-pt-vendas-novas": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : alentejo.jpg + beja.jpg ; VENDAS NOVAS ; gare cerclée, ligne violette pleine exploitée",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-pt-evora": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : alentejo.jpg + beja.jpg ; EVORA ; gare cerclée, ligne violette pleine exploitée",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-pt-entroncamento": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : alentejo.jpg ; ENTRONCAMENTO ; gare cerclée, lignes violettes pleines exploitées",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-pt-abrantes": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : alentejo.jpg ; ABRANTES ; gare cerclée, ligne violette pleine exploitée",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-pt-santarem": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : alentejo.jpg ; SANTAREM ; gare cerclée, ligne violette pleine exploitée",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-pt-castelo-branco": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : alentejo.jpg ; CASTELO BRANCO ; gare cerclée, ligne violette pleine exploitée",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-pt-beja": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : beja.jpg ; BEJA ; gare cerclée, ligne violette pleine exploitée",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-pt-elvas": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : beja.jpg + alentejo.jpg ; Elvas ; petit point de gare sur la ligne violette pleine Portalegre-Fronteira-Badajoz, exploitée ; la carte ne permet pas de mesurer la distance gare-ville",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-pt-estremoz": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : beja.jpg + alentejo.jpg ; Extremoz (graphie ancienne) ; petit point de gare sur la ligne violette pleine Évora-Elvas, exploitée",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-pt-moura": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : beja.jpg + alentejo.jpg ; MOURA ; terminus (point blanc) de ligne violette pleine exploitée",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-pt-aljustrel": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : beja.jpg ; ALJUSTREL (le J est masqué en partie par un pli de la capture, lisible AL-JUSTREL) ; terminus (point blanc) d'un embranchement violet plein exploitée vers Castro Verde-Almodóvar",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-pt-sines": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : beja.jpg ; SINES ; terminus (point blanc) de la ligne violette pleine exploitée Ermidas-Sines",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-pt-alcacer-do-sal": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : beja.jpg ; Alcacer do Sal ; petit point de gare sur la ligne violette pleine Pinhal Novo-Faro (exploitée)",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-pt-tomar": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : alentejo.jpg ; TOMAR ; terminus (point blanc) d'un embranchement violet plein exploitée",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-pt-porto": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : portugal_centre/beira; 'OPORTO' (anneau de capitale de province) ; ligne pleine violette (Minho/Douro), exploitée",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-pt-braga": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : portugal_centre/beira; 'BRAGA' ; embranchement violet plein depuis Nine, exploité",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-pt-viana-do-castelo": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : portugal_centre/beira; 'VIANA DO CASTELO' (début du nom coupé par le bord sur certaines captures, complet sur portugal_centre) ; ligne violette Porto-Valença, exploitée",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-pt-peso-da-regua": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : portugal_centre/beira; écrit 'REGOA' (graphie ancienne de Régua, nom oblique) au nœud Douro/Corgo ; ligne violette Douro, exploitée. Réserve : graphie 'Regoa', pas 'Peso da Régua'",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-pt-barca-dalva": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : beira/portugal_centre; 'BARCA D'ALVA' ; ligne violette du Douro prolongée en rouge vers Fregeneda, exploitée",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-pt-aveiro": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : portugal_interieur/beira; 'AVEIRO' ; ligne violette principale (et ligne bleue pleine vers Sernada), exploitée",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-pt-viseu": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : portugal_interieur/beira; 'VIZEU' (graphie Vizeu) ; ligne bleue pleine Aveiro-Sernada-Viseu (couleur = exploitation d'après la légende 'en colores'), exploitée. Réserve : la ligne grise Santa Comba Dão-Viseu est creuse (construction), non retenue",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-pt-guarda": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : portugal_interieur/beira; 'GUARDA' ; ligne verte pleine (Beira Alta) et ligne violette Beira Baixa, exploitées",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-pt-coimbra": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : portugal_interieur; 'COIMBRA' ; ligne violette principale, exploitée",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-pt-covilha": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : portugal_interieur/beira; 'Covilha' (petit nom de station avec tick) ; ligne violette pleine Guarda-Castelo Branco, exploitée",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-pt-vila-nova-de-famalicao": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : portugal_centre/beira; 'F…AMALICÃO' (début 'F' visible, 'MALICÃO' visible, une lettre masquée par un pli) ; station sur la ligne violette Porto-Nine. Réserve : lecture partielle, un pli couvre une lettre",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-pt-trofa": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : portugal_centre/beira; 'TROFA' ; station sur la ligne violette pleine (jonction avec ligne jaune pleine Fafe), exploitée",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-pt-espinho": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : beira/portugal_centre; 'ESPINHO' ; ligne violette, exploitée",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-pt-oliveira-de-azemeis": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : beira; 'Oliveira de Azemeis' (petit nom de station) ; ligne bleue pleine Espinho-Sernada (couleur = exploitation). Réserve : légende des couleurs non capturée",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-pt-santa-comba-dao": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : portugal_interieur/beira; 'SANTA COMBA-DÃO' ; ligne verte pleine, exploitée",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-pt-pampilhosa": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : portugal_interieur/beira; 'PAMPILHOSA' ; nœud violet/vert plein, exploité",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-pt-vilar-formoso": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : portugal_interieur/beira; 'VILLAR FORMOSO' ; ligne verte pleine jusqu'à la frontière, exploitée",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-pt-caldas-da-rainha": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : portugal_interieur; 'Caldas da Rainha' (petit nom de station) ; ligne violette pleine, exploitée",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-pt-marinha-grande": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : portugal_interieur; 'Marinha Grande' (petit nom de station) ; ligne violette pleine, exploitée",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-pt-figueira-da-foz": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : portugal_interieur/beira; 'FIGUEIRA da FOZ' ; terminus des lignes verte et violette pleines, exploité",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-fuentes-de-onoro": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : portugal_interieur/beira; 'FUENTES de OÑORO' ; ligne rouge pleine, exploitée",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-la-fregeneda": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : portugal_interieur/beira; 'FREGENEDA' (sans 'La') ; ligne rouge pleine, exploitée",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-ciudad-rodrigo": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : beira; 'Ciudad Rodrigo' (petit nom de station, 'Rodrigo' partiellement sous le pli) ; ligne rouge pleine Salamanque-Fuentes de Oñoro, exploitée",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-salamanque": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : beira/portugal_interieur; 'SALAMANCA' ; nœud de lignes rouges pleines, exploité",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-bejar": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : portugal_interieur; 'Bejar' (petit nom au nœud) ; ligne rouge pleine Salamanque-Plasencia, exploitée",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-zamora": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : beira; 'ZAMORA' ; ligne rouge pleine, exploitée",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-la-corogne": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : galice; 'LA CORUÑA' (partiellement sous le pli, lisible) ; ligne rouge pleine vers Betanzos-Lugo, exploitée",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-ferrol": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : galice; 'EL FERROL del CAUDILLO' ; ligne rouge pleine Betanzos-Ferrol (terminus cercle blanc), exploitée",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-betanzos": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : galice; 'BETANZOS' ; ligne rouge pleine, exploitée",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-saint-jacques-de-compostelle": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : galice/portugal_centre; 'SANTIAGO' (terminus) ; ligne rouge pleine Santiago-Pontevedra, exploitée (les lignes blanches creuses vers La Coruña/Orense sont en construction)",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-vilagarcia-de-arousa": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : galice/portugal_centre; 'VILLAGARCIA de AROSA' ; ligne rouge pleine, exploitée",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-pontevedra": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : galice/portugal_centre; 'PONTEVEDRA' ; ligne rouge pleine, exploitée",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-vigo": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : galice/portugal_centre; 'VIGO' ; ligne rouge pleine, exploitée",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-redondela": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : galice/portugal_centre; 'REDONDELA' ; nœud rouge plein, exploité",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-tui": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : galice/portugal_centre; 'TUY' ; ligne rouge pleine vers la frontière, exploitée",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-ourense": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : galice/portugal_centre; 'ORENSE' ; ligne rouge pleine Redondela-Monforte, exploitée",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-lugo": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : galice/portugal_centre; 'LUGO' ; ligne rouge pleine, exploitée",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-monforte-de-lemos": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : galice/portugal_centre; 'MONFORTE' ; nœud de lignes rouges pleines, exploité",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-oviedo": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : asturies; OVIEDO; ligne rouge/bleue pleine (explotation)",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-aviles": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : asturies; AVILES; ligne rouge pleine (explotation)",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-gijon": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : asturies; GIJON (lisible au zoom); ligne rouge pleine (explotation)",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-leon": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : asturies; LEON; rouge pleine (explotation)",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-la-robla": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : asturies; LA ROBLA; ligne pleine (explotation)",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-ponferrada": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : asturies; PONFERRADA; rouge pleine (explotation)",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-astorga": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : asturies; ASTORGA; rouge pleine (explotation)",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-burgos": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : asturies/castille_nord; BURGOS; rouge pleine, double voie (explotation)",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-santander": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : asturies/basque_navarre; SANTANDER; rouge pleine (explotation)",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-torrelavega": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : asturies/basque_navarre; TORRELAVEGA; rouge pleine (explotation)",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-palencia": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : castille_nord; PALENCIA; rouge pleine (explotation)",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-valladolid": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : castille_nord; VALLADOLID; rouge pleine (explotation)",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-segovie": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : castille_nord; SEGOVIA; rouge pleine (explotation)",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-venta-de-banos": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : castille_nord; VENTA DE BAÑOS; rouge pleine (explotation)",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-bilbao": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : basque_navarre; BILBAO; rouge pleine (explotation)",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-vitoria-gasteiz": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : basque_navarre/castille_nord; VITORIA; rouge pleine (explotation)",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-saint-sebastien": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : basque_navarre; SAN SEBASTIÁN; rouge pleine, double voie (explotation)",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-irun": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : basque_navarre; IRUN (lisible au zoom); rouge pleine double voie (explotation)",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-pampelune": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : basque_navarre/castille_nord; PAMPLONA; rouge pleine (explotation)",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-miranda-de-ebro": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : basque_navarre/castille_nord; MIRANDA de EBRO; rouge pleine (explotation)",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-logrono": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : basque_navarre/castille_nord; LOGROÑO; rouge pleine (explotation)",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-haro": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : basque_navarre/castille_nord; HARO; rouge pleine (explotation)",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-calahorra": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : basque_navarre/castille_nord; CALAHORRA; rouge pleine (explotation)",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-castejon": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : basque_navarre/castille_nord; CASTEJON; rouge pleine (explotation)",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-altsasu": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : basque_navarre; ALSASUA; rouge pleine (explotation)",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-balmaseda": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : asturies/basque_navarre; VALMASEDA; ligne bleue pleine voie étroite (explotation, couleur ; pas un trait noir construction/projet)",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-durango": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : basque_navarre; DURANGO (lisible au zoom); ligne violette/brune pleine voie étroite (explotation)",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-tudela": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : castille_nord; TUDELA; rouge pleine (explotation)",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-calatayud": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : castille_nord; CALATAYUD; rouge pleine (explotation)",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-huesca": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : pyrenees ; HUESCA ; rouge (explotación)",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-jaca": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : pyrenees ; JACA ; trait rouge Canfranc-Huesca (explotación)",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-puigcerda": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : pyrenees et catalogne ; PUIGCERDA ; ligne rouge/foncée (explotación)",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-tardienta": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : pyrenees ; TARDIENTA ; rouge (explotación)",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-balaguer": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : catalogne ; BALAGUER (partiellement coupé par le pli, lisible) ; ligne rouge depuis Lérida",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-saragosse": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : pyrenees et catalogne ; ZARAGOZA ; rouge (explotación)",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-lerida": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : catalogne ; LÉRIDA ; rouge (explotación)",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-gerone": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : catalogne ; GERONA ; rouge (explotación)",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-portbou": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : catalogne ; PORT-BOU ; rouge (explotación)",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-ripoll": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : catalogne ; RIPOLL ; rouge (explotación)",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-barcelone": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : catalogne ; BARCELONA ; faisceau rouge (explotación)",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-tarragone": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : catalogne ; TARRAGONA ; rouge (explotación)",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-reus": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : catalogne ; REUS ; rouge (explotación)",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-tortosa": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : catalogne ; TORTOSA ; rouge (explotación)",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-manresa": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : catalogne ; MANRESA ; rouge (explotación)",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-sabadell": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : catalogne ; SABADELL ; rouge (explotación)",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-terrassa": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : catalogne ; TARRASA ; rouge (explotación)",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-granollers": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : catalogne ; GRANOLLERS ; rouge (explotación)",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-martorell": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : catalogne ; MARTORELL ; rouge (explotación)",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-vilanova-i-la-geltru": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : catalogne ; Vilanova y Geltrú (petit texte) ; rouge littoral (explotación)",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-mollerussa": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : catalogne ; MOLLERUSA ; rouge (explotación)",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-palma": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : baleares_lu ; PALMA ; rouge (explotación)",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-manacor": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : baleares_lu ; MANACOR ; rouge depuis Empalme (explotación)",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-felanitx": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : baleares_lu ; FELANITX ; rouge (explotación)",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    }
+   }
+  },
+  {
+   "source_id": "src-19-es-treccani1936",
+   "niveau": "A",
+   "type_source": "encyclopedie_epoque",
+   "titre": "Spagna — Enciclopedia Italiana 1936",
+   "institution": "Istituto della Enciclopedia Italiana",
+   "url": "https://www.treccani.it/enciclopedia/spagna_(Enciclopedia-Italiana)/",
+   "date_consultation": "2026-10-05",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "port_maritime",
+    "industrie"
+   ],
+   "cibles": [
+    "ville-es-barcelone",
+    "ville-es-bilbao",
+    "ville-es-vigo",
+    "ville-es-santander",
+    "ville-es-valence",
+    "ville-es-malaga",
+    "ville-es-cadix",
+    "ville-es-huelva",
+    "ville-es-carthagene",
+    "ville-es-seville",
+    "ville-es-almeria",
+    "ville-es-la-corogne",
+    "ville-es-almaden",
+    "ville-es-minas-de-riotinto",
+    "ville-es-tharsis",
+    "ville-es-sabadell",
+    "ville-es-badalona",
+    "ville-es-flix",
+    "ville-es-puertollano",
+    "ville-es-manresa",
+    "ville-es-vilanova-i-la-geltru",
+    "ville-es-tolede",
+    "ville-es-grenade",
+    "ville-es-logrono",
+    "ville-es-lerida",
+    "ville-es-saragosse",
+    "ville-es-segovie"
+   ],
+   "locator": "Minerali ; Industrie ; Comunicazioni ; ports et industrie nommés localement",
+   "resume_passage": "armi minute a Toledo e a Siviglia",
+   "archive_locale": null,
+   "verification_claude": "limite",
+   "verification_ether": {
+    "date": "2026-10-05",
+    "statut": "texte_lu",
+    "limite": "Rôles localisés avant le Snapshot ; aucune capacité ni continuité du service fin 1944 déduite."
+   },
+   "notes": "Proposée par Ether (villes 1.9, 05/10/2026). Ce que la source prouve selon Ether : ville-es-tolede : industrie ; ville-es-puertollano : industrie ; ville-es-valence : industrie, port_maritime ; ville-es-grenade : industrie ; ville-es-carthagene : port_maritime ; ville-es-almeria : port_maritime ; ville-es-seville : industrie, port_maritime ; ville-es-huelva : port_maritime ; ville-es-minas-de-riotinto : industrie ; ville-es-tharsis : industrie ; ville-es-malaga : port_maritime ; ville-es-cadix : port_maritime ; ville-es-la-corogne : port_maritime ; ville-es-vigo : port_maritime ; ville-es-santander : port_maritime ; ville-es-bilbao : industrie, port_maritime ; ville-es-logrono : industrie ; ville-es-saragosse : industrie ; ville-es-lerida : industrie ; ville-es-barcelone : industrie, port_maritime ; ville-es-manresa : industrie ; ville-es-sabadell : industrie ; ville-es-vilanova-i-la-geltru : industrie ; ville-es-segovie : industrie ; ville-es-almaden : industrie ; ville-es-badalona : industrie ; ville-es-flix : industrie. Limite annoncée par Ether : Transcription de la notice contemporaine lue ; chiffres non reportés comme valeurs de 1945. Cibles différées : recherche conservée, hors import. Aucune validation humaine présumée. Relecture Claude 05/10/2026 : Page accessible via WebFetch (extraction par résumeur, citations à reconfirmer en partie). Industrie prouvée pour Tolède, Puertollano, Grenade, Séville, Minas de Riotinto/Tharsis (cuivre de la province de Huelva, lieux nommés), Bilbao, Logroño/Lérida/Saragosse (industrie des légumes, formulation vague), Manresa, Sabadell, Vilanova, Ségovie (céramique), Almadén (mines), Badalona, Flix. Ports prouvés : Séville, Málaga, Cadix, Vigo, La Corogne, Santander, Bilbao, Valence (export fruits/vins). NON prouvés : industrie de Valence (seulement 'provincia di Valenza'), industrie de Barcelone (seulement 'metropoli industriale', port non cité en extraction), port de Carthagène, Almería (cité seulement comme province minière) et Huelva (port annoncé sans citation exacte). Le port de Carthagène et de Huelva apparaît dans une liste de ports selon le résumeur, sans citation exacte : non retenu.",
+   "resume_francais_ether": "La notice de 1936 localise les centres industriels, ports et communications espagnols utilisés dans ce lot. Les chiffres et activités nationaux ne sont pas transférés à chaque ville.",
+   "verification_claude_ether": "non_verifiee",
+   "facilitateur_traduction": "Traduction automatique de la page : https://translate.google.com/?sl=auto&tl=fr&op=websites&text=https%3A%2F%2Fwww.treccani.it%2Fenciclopedia%2Fspagna_%28Enciclopedia-Italiana%29%2F",
+   "confirmations_claude": {
+    "ville-es-tolede": {
+     "roles": [
+      "industrie"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : armi minute a Toledo e a Siviglia",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-puertollano": {
+     "roles": [
+      "industrie"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : petrolio sintetico, ottenuto mediante idrogenazione dei carboni e distillazione delle ligniti e degli scisti bituminosi di Puertollano (Ciudad Real)",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-valence": {
+     "roles": [
+      "port_maritime"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : Valenza e Málaga (esportazione di frutta e vini)",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-grenade": {
+     "roles": [
+      "industrie"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : zuccherificio, le cui fabbriche si concentrano in Andalusia (Granada) e nella valle dell'Ebro",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-seville": {
+     "roles": [
+      "industrie",
+      "port_maritime"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : armi minute a Toledo e a Siviglia ; Siviglia e Cadice per l'America Meridionale",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-minas-de-riotinto": {
+     "roles": [
+      "industrie"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : Quasi tutto il rame spagnolo si raccoglie nella provincia di Huelva (Tharsis, Río Tinto)",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-tharsis": {
+     "roles": [
+      "industrie"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : Quasi tutto il rame spagnolo si raccoglie nella provincia di Huelva (Tharsis, Río Tinto)",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-malaga": {
+     "roles": [
+      "port_maritime"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : Valenza e Málaga (esportazione di frutta e vini)",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-cadix": {
+     "roles": [
+      "port_maritime"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : Siviglia e Cadice per l'America Meridionale",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-la-corogne": {
+     "roles": [
+      "port_maritime"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : Vigo e La Coruña sono toccate soprattutto da navi estere",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-vigo": {
+     "roles": [
+      "port_maritime"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : Vigo e La Coruña sono toccate soprattutto da navi estere ; Vigo e Santander (scali di linee di navigazione)",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-santander": {
+     "roles": [
+      "port_maritime"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : Vigo e Santander (scali di linee di navigazione)",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-bilbao": {
+     "roles": [
+      "industrie",
+      "port_maritime"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : Bilbao (3, 1 milioni di tonn. nel 1930) esporta (minerali di ferro, lane) ; Bilbao, dove si localizzano anche i centri più importanti delle industrie",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-logrono": {
+     "roles": [
+      "industrie"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : A Logroño, Lérida e Saragozza quello degli ortaggi",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-saragosse": {
+     "roles": [
+      "industrie"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : A Logroño, Lérida e Saragozza quello degli ortaggi",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-lerida": {
+     "roles": [
+      "industrie"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : A Logroño, Lérida e Saragozza quello degli ortaggi",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-barcelone": {
+     "roles": [
+      "industrie"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : Barcellona, metropoli industriale e commerciale della Spagna",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-manresa": {
+     "roles": [
+      "industrie"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : varî stabilimenti in Catalogna (Manresa, Villanueva y Geltrú)",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-sabadell": {
+     "roles": [
+      "industrie"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : Sabadell e Tarragona (industria laniera)",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-vilanova-i-la-geltru": {
+     "roles": [
+      "industrie"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : varî stabilimenti in Catalogna (Manresa, Villanueva y Geltrú)",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-segovie": {
+     "roles": [
+      "industrie"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : industrie della ceramica (Segovia)",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-almaden": {
+     "roles": [
+      "industrie"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : famose miniere di Almadén (Ciudad Real)",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-badalona": {
+     "roles": [
+      "industrie"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : Llobregat, Badalona, Tiana",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-flix": {
+     "roles": [
+      "industrie"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : impianti destinati alla fabbricazione dell'azoto sintetico (Flix, in Catalogna)",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    }
+   }
+  },
+  {
+   "source_id": "src-19-pt-treccani1935",
+   "niveau": "A",
+   "type_source": "encyclopedie_epoque",
+   "titre": "Portogallo — Enciclopedia Italiana 1935",
+   "institution": "Istituto della Enciclopedia Italiana",
+   "url": "https://www.treccani.it/enciclopedia/portogallo_(Enciclopedia-Italiana)/",
+   "date_consultation": "2026-10-05",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "administration",
+    "port_maritime",
+    "industrie"
+   ],
+   "cibles": [
+    "ville-pt-viana-do-castelo",
+    "ville-pt-braga",
+    "ville-pt-porto",
+    "ville-pt-bragance",
+    "ville-pt-vila-real",
+    "ville-pt-aveiro",
+    "ville-pt-viseu",
+    "ville-pt-coimbra",
+    "ville-pt-guarda",
+    "ville-pt-castelo-branco",
+    "ville-pt-leiria",
+    "ville-pt-santarem",
+    "ville-pt-lisbonne",
+    "ville-pt-setubal",
+    "ville-pt-portalegre",
+    "ville-pt-evora",
+    "ville-pt-beja",
+    "ville-pt-faro",
+    "ville-pt-angra-do-heroismo",
+    "ville-pt-horta",
+    "ville-pt-ponta-delgada",
+    "ville-pt-funchal",
+    "ville-pt-vila-real-de-santo-antonio",
+    "ville-pt-covilha",
+    "ville-pt-gouveia",
+    "ville-pt-alenquer",
+    "ville-pt-castanheira-de-pera",
+    "ville-pt-caldas-da-rainha",
+    "ville-pt-sacavem",
+    "ville-pt-marinha-grande",
+    "ville-pt-aljustrel",
+    "ville-pt-lousal"
+   ],
+   "locator": "Circoscrizioni amministrative ; Industria ; Comunicazioni",
+   "resume_passage": "Estremadura: Leiria, Santarem, Lisbona e Setúbal ; Alemtejo: Portalegre, Évora e Beja ; Algarve: Faro",
+   "archive_locale": null,
+   "verification_claude": "limite",
+   "verification_ether": {
+    "date": "2026-10-05",
+    "statut": "texte_lu",
+    "limite": "Rôles localisés avant le Snapshot ; aucune capacité ni continuité du service fin 1944 déduite."
+   },
+   "notes": "Proposée par Ether (villes 1.9, 05/10/2026). Ce que la source prouve selon Ether : ville-pt-faro : administration, port_maritime ; ville-pt-vila-real-de-santo-antonio : port_maritime ; ville-pt-lisbonne : administration, industrie, port_maritime ; ville-pt-setubal : administration, port_maritime ; ville-pt-evora : administration ; ville-pt-portalegre : administration, industrie ; ville-pt-santarem : administration ; ville-pt-leiria : administration ; ville-pt-castelo-branco : administration ; ville-pt-porto : administration, industrie, port_maritime ; ville-pt-braga : administration, industrie ; ville-pt-viana-do-castelo : administration ; ville-pt-vila-real : administration ; ville-pt-bragance : administration ; ville-pt-aveiro : administration ; ville-pt-viseu : administration ; ville-pt-guarda : administration ; ville-pt-coimbra : administration ; ville-pt-covilha : industrie ; ville-pt-caldas-da-rainha : industrie ; ville-pt-marinha-grande : industrie ; ville-pt-beja : administration ; ville-pt-aljustrel : industrie ; ville-pt-angra-do-heroismo : administration ; ville-pt-horta : administration ; ville-pt-ponta-delgada : administration ; ville-pt-funchal : administration ; ville-pt-gouveia : industrie ; ville-pt-alenquer : industrie ; ville-pt-castanheira-de-pera : industrie ; ville-pt-sacavem : industrie ; ville-pt-lousal : industrie. Limite annoncée par Ether : Transcription de la notice contemporaine lue ; chiffres non reportés comme valeurs de 1945. Cibles différées : recherche conservée, hors import. Aucune validation humaine présumée. Relecture Claude 05/10/2026 : Page accessible. Chefs-lieux de district nommés (Circoscrizioni amministrative), ports Lisbonne/Porto/Setúbal/Vila Real de Santo António/Faro nommés, industries Lisbonne, Porto, Braga, Portalegre nommées. Non prouvés : Lousal (industrie) et Aljustrel (non retrouvés dans l'extraction) ; Funchal nommé comme chef-lieu insulaire (Madère) ; les villes sans rôle attendu sont simplement listées ou citées. Extraction faite par WebFetch (résumé), citations à reconfirmer si besoin.",
+   "resume_francais_ether": "La notice de 1935 nomme les chefs-lieux, ports, centres industriels et lignes du Portugal. Seules les fonctions explicitement localisées sont retenues.",
+   "verification_claude_ether": "non_verifiee",
+   "facilitateur_traduction": "Traduction automatique de la page : https://translate.google.com/?sl=auto&tl=fr&op=websites&text=https%3A%2F%2Fwww.treccani.it%2Fenciclopedia%2Fportogallo_%28Enciclopedia-Italiana%29%2F",
+   "confirmations_claude": {
+    "ville-pt-faro": {
+     "roles": [
+      "administration",
+      "port_maritime"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : Algarve: Faro ; porto di Setúbal, Vila Rial de Santo António e Faro",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-pt-vila-real-de-santo-antonio": {
+     "roles": [
+      "port_maritime"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : porto di Setúbal, Vila Rial de Santo António e Faro",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-pt-lisbonne": {
+     "roles": [
+      "administration",
+      "industrie",
+      "port_maritime"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : il porto di Lisbona, che rappresenta da solo più della metà dell'attività marittima ; Lisbona e Oporto ... principali centri industriali portoghesi",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-pt-setubal": {
+     "roles": [
+      "administration",
+      "port_maritime"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : Estremadura: Leiria, Santarem, Lisbona e Setúbal ; porto di Setúbal",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-pt-evora": {
+     "roles": [
+      "administration"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : Alemtejo: Portalegre, Évora e Beja",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-pt-portalegre": {
+     "roles": [
+      "administration",
+      "industrie"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : altre fabbriche sono a Gouveia, Portalegre, Alemquer, Castanheira de Pera",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-pt-castelo-branco": {
+     "roles": [
+      "administration"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : Beira: Aveiro, Viseu, Coimbra, Guarda e Castelo Branco",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-pt-porto": {
+     "roles": [
+      "administration",
+      "industrie",
+      "port_maritime"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : quello di Oporto ; Entre Douro e Minho: Viana do Castelo, Braga e Oporto",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-pt-braga": {
+     "roles": [
+      "administration",
+      "industrie"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : Braga (fabrication de chapeaux, industrie) ; Entre Douro e Minho: Viana do Castelo, Braga e Oporto",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-pt-beja": {
+     "roles": [
+      "administration"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : Alemtejo: Portalegre, Évora e Beja",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-pt-funchal": {
+     "roles": [
+      "administration"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : Funchal per Madera",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    }
+   }
+  },
+  {
+   "source_id": "src-19-az-treccani1930",
+   "niveau": "A",
+   "type_source": "encyclopedie_epoque",
+   "titre": "Azzorre — Enciclopedia Italiana 1930",
+   "institution": "Istituto della Enciclopedia Italiana",
+   "url": "https://www.treccani.it/enciclopedia/azzorre_(Enciclopedia-Italiana)/",
+   "date_consultation": "2026-10-05",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "port_maritime"
+   ],
+   "cibles": [
+    "ville-pt-ponta-delgada",
+    "ville-pt-angra-do-heroismo",
+    "ville-pt-horta"
+   ],
+   "locator": "Condizioni economiche ; ports ; districts",
+   "resume_passage": "Il porto di maggior movimento è Ponta Delgada sulla costa meridionale dell'isola di S. Michele",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "date": "2026-10-05",
+    "statut": "texte_lu",
+    "limite": "Rôles localisés avant le Snapshot ; aucune capacité ni continuité du service fin 1944 déduite."
+   },
+   "notes": "Proposée par Ether (villes 1.9, 05/10/2026). Ce que la source prouve selon Ether : ville-pt-angra-do-heroismo : port_maritime ; ville-pt-horta : port_maritime ; ville-pt-ponta-delgada : port_maritime. Limite annoncée par Ether : Transcription de la notice contemporaine lue ; chiffres non reportés comme valeurs de 1945. Cibles différées : recherche conservée, hors import. Aucune validation humaine présumée. Relecture Claude 05/10/2026 : Les trois ports sont nommés.",
+   "resume_francais_ether": "La notice décrit les districts et les fonctions portuaires de Ponta Delgada, Angra et Horta avant 1945. Elle ne suffit pas à attribuer aux bourgs les bases aériennes construites pendant la guerre.",
+   "verification_claude_ether": "non_verifiee",
+   "facilitateur_traduction": "Traduction automatique de la page : https://translate.google.com/?sl=auto&tl=fr&op=websites&text=https%3A%2F%2Fwww.treccani.it%2Fenciclopedia%2Fazzorre_%28Enciclopedia-Italiana%29%2F"
+  },
+  {
+   "source_id": "src-19-md-treccani1934",
+   "niveau": "A",
+   "type_source": "encyclopedie_epoque",
+   "titre": "Madera — Enciclopedia Italiana 1934",
+   "institution": "Istituto della Enciclopedia Italiana",
+   "url": "https://www.treccani.it/enciclopedia/madera_(Enciclopedia-Italiana)/",
+   "date_consultation": "2026-10-05",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "port_maritime",
+    "industrie"
+   ],
+   "cibles": [
+    "ville-pt-funchal",
+    "ville-pt-vila-baleira"
+   ],
+   "locator": "Popolazione e centri ; Industria ; Comunicazioni",
+   "resume_passage": "Il centro di lavorazione della canna è Funchal, dove esistono 2 fabbriche di zucchero",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "date": "2026-10-05",
+    "statut": "texte_lu",
+    "limite": "Rôles localisés avant le Snapshot ; aucune capacité ni continuité du service fin 1944 déduite."
+   },
+   "notes": "Proposée par Ether (villes 1.9, 05/10/2026). Ce que la source prouve selon Ether : ville-pt-funchal : industrie, port_maritime ; ville-pt-vila-baleira : port_maritime. Limite annoncée par Ether : Transcription de la notice contemporaine lue ; chiffres non reportés comme valeurs de 1945. Cibles différées : recherche conservée, hors import. Aucune validation humaine présumée. Relecture Claude 05/10/2026 : Funchal industrie (sucreries) et port ; Porto Santo (Vila Baleira) port nommé.",
+   "resume_francais_ether": "La notice décrit Funchal, son industrie, ses communications et les centres de Madère et Porto Santo. Les fonctions du port sont distinguées des activités générales de l’archipel.",
+   "verification_claude_ether": "non_verifiee",
+   "facilitateur_traduction": "Traduction automatique de la page : https://translate.google.com/?sl=auto&tl=fr&op=websites&text=https%3A%2F%2Fwww.treccani.it%2Fenciclopedia%2Fmadera_%28Enciclopedia-Italiana%29%2F"
+  },
+  {
+   "source_id": "src-19-ca-treccani1930",
+   "niveau": "A",
+   "type_source": "encyclopedie_epoque",
+   "titre": "Canarie — Enciclopedia Italiana 1930",
+   "institution": "Istituto della Enciclopedia Italiana",
+   "url": "https://www.treccani.it/enciclopedia/canarie_(Enciclopedia-Italiana)/",
+   "date_consultation": "2026-10-05",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "administration",
+    "port_maritime"
+   ],
+   "cibles": [
+    "ville-es-las-palmas-de-gran-canaria",
+    "ville-es-santa-cruz-de-tenerife",
+    "ville-es-santa-cruz-de-la-palma"
+   ],
+   "locator": "Popolazione ; Condizioni economiche",
+   "resume_passage": "Fino al 1852, quando vennero dichiarati franchi i due porti principali di Las Palmas e di S. Cruz de Tenerife",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "date": "2026-10-05",
+    "statut": "texte_lu",
+    "limite": "Rôles localisés avant le Snapshot ; aucune capacité ni continuité du service fin 1944 déduite."
+   },
+   "notes": "Proposée par Ether (villes 1.9, 05/10/2026). Ce que la source prouve selon Ether : ville-es-las-palmas-de-gran-canaria : administration, port_maritime ; ville-es-santa-cruz-de-tenerife : administration, port_maritime ; ville-es-santa-cruz-de-la-palma : port_maritime. Limite annoncée par Ether : Transcription de la notice contemporaine lue ; chiffres non reportés comme valeurs de 1945. Cibles différées : recherche conservée, hors import. Aucune validation humaine présumée. Relecture Claude 05/10/2026 : Les deux capitales de province et ports sont nommés ; Santa Cruz de la Palma nommée comme port. Citation de l'administration : 'forma le due provincie spagnole di Las Palmas e S. Cruz de Tenerife' (nom de province = chef-lieu, formulation indirecte).",
+   "resume_francais_ether": "La notice nomme les villes et ports des Canaries dans la situation de 1930. Elle ne prouve pas les installations actuelles des îles secondaires.",
+   "verification_claude_ether": "non_verifiee",
+   "facilitateur_traduction": "Traduction automatique de la page : https://translate.google.com/?sl=auto&tl=fr&op=websites&text=https%3A%2F%2Fwww.treccani.it%2Fenciclopedia%2Fcanarie_%28Enciclopedia-Italiana%29%2F"
+  },
+  {
+   "source_id": "src-19-ba-treccani1930",
+   "niveau": "A",
+   "type_source": "encyclopedie_epoque",
+   "titre": "Isole Baleari — Enciclopedia Italiana 1930",
+   "institution": "Istituto della Enciclopedia Italiana",
+   "url": "https://www.treccani.it/enciclopedia/isole-baleari_(Enciclopedia-Italiana)/",
+   "date_consultation": "2026-10-05",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "administration",
+    "port_maritime",
+    "rail",
+    "base_navale"
+   ],
+   "cibles": [
+    "ville-es-palma",
+    "ville-es-mao",
+    "ville-es-ibiza",
+    "ville-es-manacor",
+    "ville-es-arta",
+    "ville-es-felanitx",
+    "ville-es-sa-pobla",
+    "ville-es-soller",
+    "ville-es-santanyi"
+   ],
+   "locator": "Centres habités ; Comunicazioni",
+   "resume_passage": "Capoluogo di Maiorca e di tutto il gruppo (che forma una provincia spagnola) è Palma, con 80.000 ab. coi sobborghi",
+   "archive_locale": null,
+   "verification_claude": "limite",
+   "verification_ether": {
+    "date": "2026-10-05",
+    "statut": "texte_lu",
+    "limite": "Rôles localisés avant le Snapshot ; aucune capacité ni continuité du service fin 1944 déduite."
+   },
+   "notes": "Proposée par Ether (villes 1.9, 05/10/2026). Ce que la source prouve selon Ether : ville-es-palma : administration, port_maritime, rail ; ville-es-soller : rail ; ville-es-manacor : rail ; ville-es-felanitx : rail ; ville-es-arta : rail ; ville-es-sa-pobla : rail ; ville-es-santanyi : rail ; ville-es-mao : base_navale, port_maritime ; ville-es-ibiza : port_maritime. Limite annoncée par Ether : Transcription de la notice contemporaine lue ; chiffres non reportés comme valeurs de 1945. Cibles différées : recherche conservée, hors import. Aucune validation humaine présumée. Relecture Claude 05/10/2026 : Prouvés : Palma administration et rail (ligne Palma-Manacor), Manacor, Felanitx, Artà, Sa Pobla ('Puebla'), Santanyí (lignes citées), Mahón port et marine de guerre, Ibiza port, Sóller port (rail non prouvé pour Sóller : citation de port seulement). Non prouvé : Palma port_maritime (non cité dans l'extraction) ; Mahón base_navale : 'porto ... utilizzato anche per la marina da guerra' = usage militaire du port, pas 'base navale' explicite ; Sóller rail non confirmé. Les citations de lignes (Felanitx, Puebla) sont fragmentaires.",
+   "resume_francais_ether": "La notice nomme les centres et communications des Baléares avant le Snapshot. Les dessertes lues sur la carte de 1942 sont précisées séparément.",
+   "verification_claude_ether": "non_verifiee",
+   "facilitateur_traduction": "Traduction automatique de la page : https://translate.google.com/?sl=auto&tl=fr&op=websites&text=https%3A%2F%2Fwww.treccani.it%2Fenciclopedia%2Fisole-baleari_%28Enciclopedia-Italiana%29%2F",
+   "confirmations_claude": {
+    "ville-es-palma": {
+     "roles": [
+      "administration",
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : Capoluogo di Maiorca e di tutto il gruppo (che forma una provincia spagnola) è Palma, con 80.000 ab. coi sobborghi ; la linea principale è la Palma-Manacor",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-manacor": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : la linea principale è la Palma-Manacor, che prosegue poi verso N. per Artá",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-felanitx": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : il tronco per Felanitx",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-arta": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : prosegue poi verso N. per Artá",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-sa-pobla": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : quello per Puebla",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-santanyi": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : la Palma-Santañy",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-mao": {
+     "roles": [
+      "port_maritime"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : Il centro più notevole di Minorca è Mahón (18.000 abit. circa), sulla costa orientale, che ha un porto eccellente, utilizzato anche per la marina da guerra",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-ibiza": {
+     "roles": [
+      "port_maritime"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : Nelle Pitiuse l'unico centro notevole è Iviza, con porto abbastanza attivo",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    }
+   }
+  },
+  {
+   "source_id": "src-19-pt-cp-chronologie",
+   "niveau": "B",
+   "type_source": "histoire_institutionnelle",
+   "titre": "Chronologie ferroviaire",
+   "institution": "Comboios de Portugal",
+   "url": "https://cp.pt/info/en/cronologia",
+   "date_consultation": "2026-10-05",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "frontalier",
+    "rail",
+    "port_maritime",
+    "ferry"
+   ],
+   "cibles": [
+    "ville-pt-barca-dalva",
+    "ville-pt-vilar-formoso",
+    "ville-es-fuentes-de-onoro",
+    "ville-es-valencia-de-alcantara",
+    "ville-es-irun",
+    "ville-es-canfranc",
+    "ville-es-portbou",
+    "ville-pt-elvas",
+    "ville-pt-beja",
+    "ville-pt-evora",
+    "ville-pt-barreiro",
+    "ville-pt-viana-do-castelo",
+    "ville-pt-lisbonne"
+   ],
+   "locator": "Entrées datées, notamment 19 août 1942",
+   "resume_passage": "01.02.1861 - Abertura oficial do troço entre o Barreiro e Vendas Novas na Linha do Sul",
+   "archive_locale": null,
+   "verification_claude": "limite",
+   "verification_ether": {
+    "date": "2026-10-05",
+    "statut": "texte_lu",
+    "limite": "Rôles localisés avant le Snapshot ; aucune capacité ni continuité du service fin 1944 déduite."
+   },
+   "notes": "Proposée par Ether (villes 1.9, 05/10/2026). Ce que la source prouve selon Ether : ville-pt-lisbonne : ferry ; ville-pt-barreiro : ferry, rail ; ville-pt-evora : rail ; ville-es-valencia-de-alcantara : frontalier ; ville-pt-viana-do-castelo : port_maritime ; ville-pt-barca-dalva : frontalier ; ville-es-irun : frontalier ; ville-es-canfranc : frontalier ; ville-es-portbou : frontalier ; ville-es-fuentes-de-onoro : frontalier ; ville-pt-vilar-formoso : frontalier ; ville-pt-beja : rail ; ville-pt-elvas : rail. Limite annoncée par Ether : Passages nommés individuellement ; ne prouve pas une ouverture ininterrompue au passage du Snapshot. Cibles différées : recherche conservée, hors import. Aucune validation humaine présumée. Relecture Claude 05/10/2026 : Rail prouvé pour Barreiro (1861), Évora (14.09.1863), Beja (15.02.1864), Elvas (29.07.1863). Non retrouvés dans la page : ferry Barreiro, entrée 1973/ferry Lisbonne 1927, embranchement du port de Viana 20.03.1924, entrée 19.08.1942 et points frontière. Aucun rôle ferry, port_maritime ou frontalier prouvé.",
+   "resume_francais_ether": "La chronologie CP localise des ouvertures, jonctions et liaisons frontalières antérieures à 1945, notamment l’entrée du 19 août 1942. Chaque fait est relié à sa ville dans la sélection.",
+   "verification_claude_ether": "non_verifiee",
+   "facilitateur_traduction": "Traduction automatique de la page : https://translate.google.com/?sl=auto&tl=fr&op=websites&text=https%3A%2F%2Fcp.pt%2Finfo%2Fen%2Fcronologia",
+   "confirmations_claude": {
+    "ville-pt-barreiro": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : Abertura oficial do troço entre o Barreiro e Vendas Novas na Linha do Sul, na bitola de 1,44 m.",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-pt-evora": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : Abertura à exploração pública do troço entre Vendas Novas a Casa Branca e Évora.",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-pt-beja": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : Abertura à exploração pública do troço entre Casa Branca e Beja.",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-pt-elvas": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : Abertura à exploração pública do troço entre Crato e Elvas.",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    }
+   }
+  },
+  {
+   "source_id": "src-19-pt-barreiro-cuf",
+   "niveau": "B",
+   "type_source": "histoire_institutionnelle",
+   "titre": "Complexo industrial da CUF — inventaire",
+   "institution": "Património Cultural, Portugal",
+   "url": "https://imovel2.patrimoniocultural.gov.pt/detalhes.php?code=23478371",
+   "date_consultation": "2026-10-05",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "industrie"
+   ],
+   "cibles": [
+    "ville-pt-barreiro"
+   ],
+   "locator": "Éléments datés 1907–1917 et 1928–1937",
+   "resume_passage": "edifícios da primeira geração do Eng. Stinville (1907-1917); edifícios da antiga central a vapor ; Museu Industrial e Centro de Documentação (antiga Central Diesel, 1928-1937)",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "date": "2026-10-05",
+    "statut": "passage_indexe_lu_lecture_directe_a_confirmer",
+    "limite": "Rôles localisés avant le Snapshot ; aucune capacité ni continuité du service fin 1944 déduite."
+   },
+   "notes": "Proposée par Ether (villes 1.9, 05/10/2026). Ce que la source prouve selon Ether : ville-pt-barreiro : industrie. Limite annoncée par Ether : Les constructions de 1952 et 1960 sont exclues de la preuve du Snapshot. Cibles différées : recherche conservée, hors import. Aucune validation humaine présumée. Relecture Claude 05/10/2026 : Fiche patrimoniale du complexe CUF du Barreiro : industrie chimique, éléments datés 1907-1917 et 1928-1937, antérieurs à 1945. Le nom Barreiro est celui de la fiche (localisation), rôle industrie prouvé.",
+   "resume_francais_ether": "Les passages indexés décrivent l’implantation CUF à Barreiro et des installations de 1907–1917 et 1928–1937. La lecture directe de la page reste à confirmer.",
+   "verification_claude_ether": "non_verifiee",
+   "facilitateur_traduction": "Traduction automatique de la page : https://translate.google.com/?sl=auto&tl=fr&op=websites&text=https%3A%2F%2Fimovel2.patrimoniocultural.gov.pt%2Fdetalhes.php%3Fcode%3D23478371"
+  },
+  {
+   "source_id": "src-19-pt-leixoes-histoire",
+   "niveau": "B",
+   "type_source": "histoire_institutionnelle",
+   "titre": "History of Leixões",
+   "institution": "APDL",
+   "url": "https://leixoes.apdl.pt/en/the-port/history/",
+   "date_consultation": "2026-10-05",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "port_maritime"
+   ],
+   "cibles": [
+    "ville-pt-matosinhos"
+   ],
+   "locator": "Construction 1884–1892 ; doca 1 inaugurée le 4 juillet 1940",
+   "resume_passage": "The construction works of the Port of Leixões began on July 13, 1884 ; Dock No. 1 ... was solemnly inaugurated on July 4, 1940",
+   "archive_locale": null,
+   "verification_claude": "limite",
+   "verification_ether": {
+    "date": "2026-10-05",
+    "statut": "texte_lu",
+    "limite": "Rôles localisés avant le Snapshot ; aucune capacité ni continuité du service fin 1944 déduite."
+   },
+   "notes": "Proposée par Ether (villes 1.9, 05/10/2026). Ce que la source prouve selon Ether : ville-pt-matosinhos : port_maritime. Limite annoncée par Ether : Port rattaché à Matosinhos ; aucune entité port autonome créée. Cibles différées : recherche conservée, hors import. Aucune validation humaine présumée. Relecture Claude 05/10/2026 : Construction 1884 et doca 1 le 4.07.1940 confirmées pour le port de Leixões. Matosinhos n'est nommé que comme lieu des chantiers (« set up in Matosinhos and Leça da Palmeira ») ; la page ne dit pas explicitement que Leixões est le port de Matosinhos : lien port-ville non prouvé strictement.",
+   "resume_francais_ether": "Leixões est construit de 1884 à 1892 ; la première darse est inaugurée le 4 juillet 1940. Cette histoire étaye le port de l’agglomération de Matosinhos avant 1945.",
+   "verification_claude_ether": "non_verifiee",
+   "facilitateur_traduction": "Traduction automatique de la page : https://translate.google.com/?sl=auto&tl=fr&op=websites&text=https%3A%2F%2Fleixoes.apdl.pt%2Fen%2Fthe-port%2Fhistory%2F"
+  },
+  {
+   "source_id": "src-19-es-gijon-port",
+   "niveau": "B",
+   "type_source": "histoire_institutionnelle",
+   "titre": "Historia del Puerto",
+   "institution": "Autoridad Portuaria de Gijón",
+   "url": "https://www.puertogijon.es/puerto/historia/",
+   "date_consultation": "2026-10-05",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "port_maritime"
+   ],
+   "cibles": [
+    "ville-es-gijon"
+   ],
+   "locator": "Ouverture commerciale du Musel en 1907",
+   "resume_passage": "El puerto local acogió en exclusividad la actividad portuaria hasta 1907, año en el que se inician la explotación comercial de El Musel, principalmente, con las exportaciones de mineral y de hierro y carbón.",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "date": "2026-10-05",
+    "statut": "texte_lu",
+    "limite": "Rôles localisés avant le Snapshot ; aucune capacité ni continuité du service fin 1944 déduite."
+   },
+   "notes": "Proposée par Ether (villes 1.9, 05/10/2026). Ce que la source prouve selon Ether : ville-es-gijon : port_maritime. Limite annoncée par Ether : Trafic de minerais et charbon ; classement des années 1940 non repris comme rang annuel de 1944. Cibles différées : recherche conservée, hors import. Aucune validation humaine présumée. Relecture Claude 05/10/2026 : La page prouve l'ouverture à l'exploitation commerciale du Musel en 1907, antérieure à 1945.",
+   "resume_francais_ether": "Le Musel, à Gijón, ouvre au trafic commercial en 1907. Les équipements et trafics actuels ne sont pas projetés sur 1945.",
+   "verification_claude_ether": "non_verifiee",
+   "facilitateur_traduction": "Traduction automatique de la page : https://translate.google.com/?sl=auto&tl=fr&op=websites&text=https%3A%2F%2Fwww.puertogijon.es%2Fpuerto%2Fhistoria%2F"
+  },
+  {
+   "source_id": "src-19-es-aviles-port",
+   "niveau": "B",
+   "type_source": "histoire_institutionnelle",
+   "titre": "Breve historia del Puerto de Avilés",
+   "institution": "Autoridad Portuaria de Avilés",
+   "url": "https://www.puertoaviles.es/es-ES/autoridad_portuaria/presentacion/historia/",
+   "date_consultation": "2026-10-05",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "port_maritime"
+   ],
+   "cibles": [
+    "ville-es-aviles"
+   ],
+   "locator": "XIXe siècle et Junta de Obras de 1915",
+   "resume_passage": "",
+   "archive_locale": null,
+   "verification_claude": "non_verifiee",
+   "verification_ether": {
+    "date": "2026-10-05",
+    "statut": "texte_lu",
+    "limite": "Rôles localisés avant le Snapshot ; aucune capacité ni continuité du service fin 1944 déduite."
+   },
+   "notes": "Proposée par Ether (villes 1.9, 05/10/2026). Ce que la source prouve selon Ether : ville-es-aviles : port_maritime. Limite annoncée par Ether : ENSIDESA apparaît dans les années 1950 : exclue du Snapshot. Cibles différées : recherche conservée, hors import. Aucune validation humaine présumée. Relecture Claude 05/10/2026 : WebFetch a échoué deux fois (Too many redirects) ; aucun contournement tenté. Charbon XIXe et Junta de Obras 1915 non vérifiés.",
+   "resume_francais_ether": "L’histoire du port situe ses développements au XIXe siècle et la Junta de Obras en 1915. ENSIDESA, créée après 1945, ne sert pas de preuve industrielle au Snapshot.",
+   "verification_claude_ether": "non_verifiee",
+   "facilitateur_traduction": "Traduction automatique de la page : https://translate.google.com/?sl=auto&tl=fr&op=websites&text=https%3A%2F%2Fwww.puertoaviles.es%2Fes-ES%2Fautoridad_portuaria%2Fpresentacion%2Fhistoria%2F"
+  },
+  {
+   "source_id": "src-19-es-ahv-barakaldo-sestao",
+   "niveau": "B",
+   "type_source": "histoire_institutionnelle",
+   "titre": "Zamalanda — histoire des hauts fourneaux",
+   "institution": "Office de tourisme de Barakaldo",
+   "url": "https://visitbarakaldo.eus/parque-zamalanda-historia/",
+   "date_consultation": "2026-10-05",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "industrie",
+    "siderurgie"
+   ],
+   "cibles": [
+    "ville-es-barakaldo",
+    "ville-es-sestao"
+   ],
+   "locator": "ALTOS HORNOS — 1902, installations à Barakaldo et Sestao",
+   "resume_passage": "Surgida en 1902 con el nombre de Altos Hornos de Vizcaya, esta enorme factoría fue el resultado de la fusión de varias empresas siderometalúrgicas del territorio. Con tecnología innovadora en la época, como el convertidor Bessemer, disponía de instalaciones en Barakaldo y Sestao",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "date": "2026-10-05",
+    "statut": "texte_lu",
+    "limite": "Rôles localisés avant le Snapshot ; aucune capacité ni continuité du service fin 1944 déduite."
+   },
+   "notes": "Proposée par Ether (villes 1.9, 05/10/2026). Ce que la source prouve selon Ether : ville-es-barakaldo : industrie, siderurgie ; ville-es-sestao : industrie, siderurgie. Limite annoncée par Ether : Les deux implantations sont explicites ; aucun volume de 1945. Cibles différées : recherche conservée, hors import. Aucune validation humaine présumée. Relecture Claude 05/10/2026 : AHV créée en 1902 avec installations à Barakaldo et Sestao (sidérurgie/siderometalurgia, convertisseur Bessemer). Prouve industrie/sidérurgie pour les deux villes avant 1945.",
+   "resume_francais_ether": "La notice situe les installations des Altos Hornos à Barakaldo et Sestao en 1902. Les deux communes industrielles voisines restent distinctes.",
+   "verification_claude_ether": "non_verifiee",
+   "facilitateur_traduction": "Traduction automatique de la page : https://translate.google.com/?sl=auto&tl=fr&op=websites&text=https%3A%2F%2Fvisitbarakaldo.eus%2Fparque-zamalanda-historia%2F"
+  },
+  {
+   "source_id": "src-19-es-la-felguera",
+   "niveau": "B",
+   "type_source": "histoire_institutionnelle",
+   "titre": "Historia de Langreo",
+   "institution": "Tourisme de Langreo",
+   "url": "https://turismolangreo.com/langreo/historia/",
+   "date_consultation": "2026-10-05",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "industrie",
+    "siderurgie"
+   ],
+   "cibles": [
+    "ville-es-la-felguera"
+   ],
+   "locator": "Langreo minero e industrial — La Felguera, 1857/1859/1894",
+   "resume_passage": "Gil y Cía (1857) ; Duro y Cía (1859) ; Compañía de Asturias (1894) — las primeras empresas siderúrgicas de Asturias",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "date": "2026-10-05",
+    "statut": "texte_lu",
+    "limite": "Rôles localisés avant le Snapshot ; aucune capacité ni continuité du service fin 1944 déduite."
+   },
+   "notes": "Proposée par Ether (villes 1.9, 05/10/2026). Ce que la source prouve selon Ether : ville-es-la-felguera : industrie, siderurgie. Limite annoncée par Ether : La Felguera explicitement localisée ; pas de transfert du rôle à toute l’actuelle commune de Langreo. Cibles différées : recherche conservée, hors import. Aucune validation humaine présumée. Relecture Claude 05/10/2026 : La page présente les premières entreprises sidérurgiques des Asturies établies à La Felguera avec les années 1857, 1859, 1894 (Duro y Cía devenue Duro Felguera). Les dates figurent en parenthèses ; la citation est reconstituée à partir de la réponse de WebFetch (résumé), pas un extrait continu.",
+   "resume_francais_ether": "L’histoire municipale localise le développement industriel de La Felguera avec des repères de 1857, 1859 et 1894. Aucune capacité de production de fin 1944 n’est déduite.",
+   "verification_claude_ether": "non_verifiee",
+   "facilitateur_traduction": "Traduction automatique de la page : https://translate.google.com/?sl=auto&tl=fr&op=websites&text=https%3A%2F%2Fturismolangreo.com%2Flangreo%2Fhistoria%2F"
+  },
+  {
+   "source_id": "src-19-es-tenerife-refinerie",
+   "niveau": "B",
+   "type_source": "histoire_institutionnelle",
+   "titre": "Refino — histoire de la première raffinerie",
+   "institution": "Moeve, anciennement Cepsa",
+   "url": "https://www.moeveglobal.com/de/actividades/refino",
+   "date_consultation": "2026-10-05",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "industrie"
+   ],
+   "cibles": [
+    "ville-es-santa-cruz-de-tenerife"
+   ],
+   "locator": "Premier paragraphe historique, Santa Cruz de Tenerife, 1930",
+   "resume_passage": "construimos en Tenerife la primera refinería de España, en 1930",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "date": "2026-10-05",
+    "statut": "texte_lu",
+    "limite": "Rôles localisés avant le Snapshot ; aucune capacité ni continuité du service fin 1944 déduite."
+   },
+   "notes": "Proposée par Ether (villes 1.9, 05/10/2026). Ce que la source prouve selon Ether : ville-es-santa-cruz-de-tenerife : industrie. Limite annoncée par Ether : Version espagnole présentée à cette URL ; équipements et capacités actuels exclus. Cibles différées : recherche conservée, hors import. Aucune validation humaine présumée. Relecture Claude 05/10/2026 : La page (en allemand pour l'interface, texte espagnol) affirme la première raffinerie espagnole construite à Santa Cruz de Tenerife en 1930.",
+   "resume_francais_ether": "La page de l’exploitant date de 1930 la raffinerie de Santa Cruz de Tenerife. Seule cette implantation historique est retenue.",
+   "verification_claude_ether": "non_verifiee",
+   "facilitateur_traduction": "Traduction automatique de la page : https://translate.google.com/?sl=auto&tl=fr&op=websites&text=https%3A%2F%2Fwww.moeveglobal.com%2Fde%2Factividades%2Frefino"
+  },
+  {
+   "source_id": "src-19-pt-horta-sata",
+   "niveau": "B",
+   "type_source": "histoire_institutionnelle",
+   "titre": "Azorean Spirit, numéro 3 — Viagem no tempo",
+   "institution": "SATA / Azores Airlines",
+   "url": "https://cdn.azoresairlines.pt/sites/default/files/2020-07/Azorean-Spirit-n_3.pdf",
+   "date_consultation": "2026-10-05",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "aviation"
+   ],
+   "cibles": [
+    "ville-pt-horta"
+   ],
+   "locator": "Viagem no tempo — escales de la Pan American à Horta, 1939–1945",
+   "resume_passage": "The stopovers made by Pan American World Airways at Horta, in the island of Faial, since 1939, on its routes from New York - Marseille and New York - London, both with stopover in Lisbon, made a great contribution towards achieving the Company objectives.",
+   "archive_locale": null,
+   "verification_claude": "limite",
+   "verification_ether": {
+    "date": "2026-10-05",
+    "statut": "passage_pdf_indexe_lu_image_non_collationnee",
+    "limite": "Rôles localisés avant le Snapshot ; aucune capacité ni continuité du service fin 1944 déduite."
+   },
+   "notes": "Proposée par Ether (villes 1.9, 05/10/2026). Ce que la source prouve selon Ether : ville-pt-horta : aviation. Limite annoncée par Ether : Texte PDF indexé lu ; page et image à collationner. Vols SATA commerciaux de 1947 exclus. Cibles différées : recherche conservée, hors import. Aucune validation humaine présumée. Relecture Claude 05/10/2026 : Prouve des escales Pan Am à Horta depuis 1939 (donc avant 1945). Mais le mot hydravion/seaplane n'apparaît pas dans le passage et aucune date de fin (1945) n'est précisée ; seul « depuis 1939 » est établi.",
+   "resume_francais_ether": "Le passage indexé situe à Horta des escales Pan American entre 1939 et 1945. Les vols commerciaux SATA à partir de 1947 sont exclus du Snapshot.",
+   "verification_claude_ether": "non_verifiee",
+   "facilitateur_traduction": "Google Traduction, onglet Documents : ouvrir le PDF original et traduire une copie pour lecture personnelle ; conserver la pagination de l’original.",
+   "confirmations_claude": {
+    "ville-pt-horta": {
+     "roles": [
+      "aviation"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : The stopovers made by Pan American World Airways at Horta, in the island of Faial, since 1939",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    }
+   }
+  },
+  {
+   "source_id": "src-19-ad-consell-histoire",
+   "niveau": "B",
+   "type_source": "histoire_institutionnelle",
+   "titre": "Els inicis del Consell General",
+   "institution": "Consell General d’Andorra",
+   "url": "https://www.consellgeneral.ad/ca/el-consell-dandorra/el-consell-general-en-la-historia/els-inicis-del-consell-general",
+   "date_consultation": "2026-10-05",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "administration"
+   ],
+   "cibles": [
+    "ville-ad-andorre-la-vieille"
+   ],
+   "locator": "Achat de la maison Busquets en 1702 ; sessions jusqu’en 2011",
+   "resume_passage": "L'any 1702 el Consell compraria una casa més espaiosa i de majors pretensions a la família Busquets d'Andorra la Vella, que esdevindria la nova Casa de la Vall",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "date": "2026-10-05",
+    "statut": "texte_lu",
+    "limite": "Rôles localisés avant le Snapshot ; aucune capacité ni continuité du service fin 1944 déduite."
+   },
+   "notes": "Proposée par Ether (villes 1.9, 05/10/2026). Ce que la source prouve selon Ether : ville-ad-andorre-la-vieille : administration. Limite annoncée par Ether : Siège politique localisé, antérieur au Snapshot. Cibles différées : recherche conservée, hors import. Aucune validation humaine présumée. Relecture Claude 05/10/2026 : La page prouve l'achat en 1702 de la maison Busquets devenue Casa de la Vall, et que le Conseil y a siégé régulièrement jusqu'en 2011. Fait antérieur à 1945 : administration prouvée.",
+   "resume_francais_ether": "Le Consell acquiert la Casa de la Vall en 1702 et y siège jusqu’en 2011. Le siège institutionnel est donc localisé à Andorre-la-Vieille avant 1945.",
+   "verification_claude_ether": "non_verifiee",
+   "facilitateur_traduction": "Traduction automatique de la page : https://translate.google.com/?sl=auto&tl=fr&op=websites&text=https%3A%2F%2Fwww.consellgeneral.ad%2Fca%2Fel-consell-dandorra%2Fel-consell-general-en-la-historia%2Fels-inicis-del-consell-general"
+  },
+  {
+   "source_id": "src-19-ad-capitale",
+   "niveau": "B",
+   "type_source": "histoire_institutionnelle",
+   "titre": "Història del Comú",
+   "institution": "Comú d’Andorra la Vella",
+   "url": "https://www.andorralavella.ad/comu/historia-del-comu",
+   "date_consultation": "2026-10-05",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "capitale",
+    "administration"
+   ],
+   "cibles": [
+    "ville-ad-andorre-la-vieille"
+   ],
+   "locator": "Capitalité depuis le XVe siècle ; Casa de la Vall, 1702",
+   "resume_passage": "",
+   "archive_locale": null,
+   "verification_claude": "non_verifiee",
+   "verification_ether": {
+    "date": "2026-10-05",
+    "statut": "texte_lu",
+    "limite": "Rôles localisés avant le Snapshot ; aucune capacité ni continuité du service fin 1944 déduite."
+   },
+   "notes": "Proposée par Ether (villes 1.9, 05/10/2026). Ce que la source prouve selon Ether : ville-ad-andorre-la-vieille : administration, capitale. Limite annoncée par Ether :  Cibles différées : recherche conservée, hors import. Aucune validation humaine présumée. Relecture Claude 05/10/2026 : WebFetch a renvoyé une erreur 403 ; aucun contournement tenté. Capitalité non vérifiée.",
+   "resume_francais_ether": "La page municipale situe la fonction de capitale d’Andorre-la-Vieille depuis le XVe siècle. Le rôle n’est pas déduit de sa population actuelle.",
+   "verification_claude_ether": "non_verifiee",
+   "facilitateur_traduction": "Traduction automatique de la page : https://translate.google.com/?sl=auto&tl=fr&op=websites&text=https%3A%2F%2Fwww.andorralavella.ad%2Fcomu%2Fhistoria-del-comu"
+  },
+  {
+   "source_id": "src-19-ad-reig",
+   "niveau": "B",
+   "type_source": "histoire_institutionnelle",
+   "titre": "Museu Fàbrica Reig",
+   "institution": "Museus d’Andorra",
+   "url": "https://museus.ad/ca/museus/museu-fabrica-reig",
+   "date_consultation": "2026-10-05",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "industrie"
+   ],
+   "cibles": [
+    "ville-ad-sant-julia-de-loria"
+   ],
+   "locator": "Usine de Sant Julià de Lòria, 1909–1957",
+   "resume_passage": "l'antiga fàbrica de tabacs Reig de Sant Julià de Lòria, que va funcionar des del 1909 fins al 1957",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "date": "2026-10-05",
+    "statut": "texte_lu",
+    "limite": "Rôles localisés avant le Snapshot ; aucune capacité ni continuité du service fin 1944 déduite."
+   },
+   "notes": "Proposée par Ether (villes 1.9, 05/10/2026). Ce que la source prouve selon Ether : ville-ad-sant-julia-de-loria : industrie. Limite annoncée par Ether :  Cibles différées : recherche conservée, hors import. Aucune validation humaine présumée. Relecture Claude 05/10/2026 : La page prouve l'existence et la période de fonctionnement de la fabrique de tabac Reig à Sant Julià de Lòria (1909-1957), en grande partie avant 1945.",
+   "resume_francais_ether": "Le musée occupe l’ancienne fabrique de tabac de Sant Julià de Lòria, active de 1909 à 1957. Ce passage prouve une implantation industrielle locale antérieure au Snapshot.",
+   "verification_claude_ether": "non_verifiee",
+   "facilitateur_traduction": "Traduction automatique de la page : https://translate.google.com/?sl=auto&tl=fr&op=websites&text=https%3A%2F%2Fmuseus.ad%2Fca%2Fmuseus%2Fmuseu-fabrica-reig"
+  },
+  {
+   "source_id": "src-19-gi-histoire",
+   "niveau": "B",
+   "type_source": "histoire_institutionnelle",
+   "titre": "History of Gibraltar",
+   "institution": "Gibraltar Tourist Board",
+   "url": "https://www.visitgibraltar.gi/index.php/history",
+   "date_consultation": "2026-10-05",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "port_maritime",
+    "base_navale",
+    "militaire",
+    "aviation"
+   ],
+   "cibles": [
+    "ville-gi-gibraltar"
+   ],
+   "locator": "Seconde Guerre mondiale ; Force H ; piste 1941–1944",
+   "resume_passage": "Gibraltar became home to the Royal Navy's 'Force H' and the focal point from where Eisenhower controlled the North Africa landings in 1942.",
+   "archive_locale": null,
+   "verification_claude": "limite",
+   "verification_ether": {
+    "date": "2026-10-05",
+    "statut": "texte_lu",
+    "limite": "Rôles localisés avant le Snapshot ; aucune capacité ni continuité du service fin 1944 déduite."
+   },
+   "notes": "Proposée par Ether (villes 1.9, 05/10/2026). Ce que la source prouve selon Ether : ville-gi-gibraltar : aviation, base_navale, militaire, port_maritime. Limite annoncée par Ether : Le quartier général d’Eisenhower en 1942 n’est pas prolongé automatiquement en 1945. Cibles différées : recherche conservée, hors import. Aucune validation humaine présumée. Relecture Claude 05/10/2026 : Prouvés : base_navale, militaire (Force H, Torch 1942), aviation (piste de North Front 1941-1944). port_maritime non prouvé strictement : seulement 'convoy collection' et base anti-sous-marine, sans mention explicite de port. Limite.",
+   "resume_francais_ether": "La page décrit Gibraltar comme base navale et point de transit pendant la Seconde Guerre mondiale, avec une piste construite de 1941 à 1944. Le quartier général de 1942 n’est pas prolongé automatiquement en 1945.",
+   "verification_claude_ether": "non_verifiee",
+   "facilitateur_traduction": "Traduction automatique de la page : https://translate.google.com/?sl=auto&tl=fr&op=websites&text=https%3A%2F%2Fwww.visitgibraltar.gi%2Findex.php%2Fhistory",
+   "confirmations_claude": {
+    "ville-gi-gibraltar": {
+     "roles": [
+      "aviation",
+      "base_navale",
+      "militaire"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : Gibraltar became home to the Royal Navy's 'Force H' ... ; 1941 - 1944: Runway at North Front built using the rock excavated from the tunnelling work. ; World War II. Gibraltar again used for convoy collection and as base for anti-submarine operations.",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    }
+   }
+  },
+  {
+   "source_id": "src-19-va-ferrovia",
+   "niveau": "B",
+   "type_source": "histoire_institutionnelle",
+   "titre": "Ferrovia dello Stato della Città del Vaticano",
+   "institution": "Secrétairerie d’État du Saint-Siège",
+   "url": "https://www.vatican.va/roman_curia/secretariat_state/documents/ferrovia/ferrovia_it.html",
+   "date_consultation": "2026-10-05",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rail",
+    "administration"
+   ],
+   "cibles": [
+    "ville-va-cite-du-vatican"
+   ],
+   "locator": "Traité 1929, article 6 ; remise du 2 octobre 1934 ; Ufficio Merci, décembre 1939",
+   "resume_passage": "il 2 ottobre 1934 i Rappresentanti del Ministero dei Lavori Pubblici procedettero alla consegna della parte della ferrovia svolgentesi entro le mura della Città del Vaticano",
+   "archive_locale": null,
+   "verification_claude": "limite",
+   "verification_ether": {
+    "date": "2026-10-05",
+    "statut": "texte_lu",
+    "limite": "Rôles localisés avant le Snapshot ; aucune capacité ni continuité du service fin 1944 déduite."
+   },
+   "notes": "Proposée par Ether (villes 1.9, 05/10/2026). Ce que la source prouve selon Ether : ville-va-cite-du-vatican : administration, rail. Limite annoncée par Ether : Usage presque exclusivement de fret ; ne pas projeter le voyage pontifical de 1962 sur 1945. Cibles différées : recherche conservée, hors import. Aucune validation humaine présumée. Relecture Claude 05/10/2026 : Rail prouvé (art. 6 du traité de 1929, remise du 2 octobre 1934). Administration non prouvée de façon solide : la loi du 27 décembre 1939 délègue au Gouverneur le pouvoir législatif pour créer l'ufficio merci, indice d'une fonction administrative du Governatorato mais la page ne traite pas de l'administration de la Cité comme rôle urbain. Réponse : non, administration seulement indirecte/faible.",
+   "resume_francais_ether": "Le rail du Vatican est prévu en 1929, remis le 2 octobre 1934 et complété par un bureau des marchandises en décembre 1939. Le premier voyage pontifical de 1962 ne sert pas de preuve de service voyageurs en 1945.",
+   "verification_claude_ether": "non_verifiee",
+   "facilitateur_traduction": "Traduction automatique de la page : https://translate.google.com/?sl=auto&tl=fr&op=websites&text=https%3A%2F%2Fwww.vatican.va%2Froman_curia%2Fsecretariat_state%2Fdocuments%2Fferrovia%2Fferrovia_it.html",
+   "confirmations_claude": {
+    "ville-va-cite-du-vatican": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : Il Trattato del Laterano, firmato in Roma l'11 febbraio 1929 ... stabiliva all'art. 6 che l'Italia avrebbe dovuto costruire una stazione ferroviaria nell'interno della Città del Vaticano ; il 2 ottobre 1934 ... consegna della parte della ferrovia svolgentesi entro le mura della Città del Vaticano",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    }
+   }
+  },
+  {
+   "source_id": "src-19-mc-treccani1934",
+   "niveau": "A",
+   "type_source": "encyclopedie_epoque",
+   "titre": "Principato di Monaco — Enciclopedia Italiana 1934",
+   "institution": "Istituto della Enciclopedia Italiana",
+   "url": "https://www.treccani.it/enciclopedia/principato-di-monaco_(Enciclopedia-Italiana)/",
+   "date_consultation": "2026-10-05",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "administration"
+   ],
+   "cibles": [
+    "ville-mc-monaco"
+   ],
+   "locator": "Centres de Monaco, La Condamine et Monte-Carlo, données 1933",
+   "resume_passage": "Monaco, la capitale, con 2056 ab., possiede edifici notevoli tra i quali il palazzo del principe",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "date": "2026-10-05",
+    "statut": "texte_lu",
+    "limite": "Rôles localisés avant le Snapshot ; aucune capacité ni continuité du service fin 1944 déduite."
+   },
+   "notes": "Proposée par Ether (villes 1.9, 05/10/2026). Ce que la source prouve selon Ether : ville-mc-monaco : administration. Limite annoncée par Ether : La source décrit trois noyaux contigus. Proposition d’un seul point urbain Monaco, distinct du polygone territorial. Cibles différées : recherche conservée, hors import. Aucune validation humaine présumée. Relecture Claude 05/10/2026 : Entrée Enciclopedia Italiana (antérieure à 1945, chiffres de 1933) : Monaco capitale, palais du prince, trois centres Monaco, La Condamine, Montecarlo.",
+   "resume_francais_ether": "La notice distingue Monaco, La Condamine et Monte-Carlo dans une agglomération contiguë. Le lot propose un point urbain commun, dont le périmètre reste à examiner.",
+   "verification_claude_ether": "non_verifiee",
+   "facilitateur_traduction": "Traduction automatique de la page : https://translate.google.com/?sl=auto&tl=fr&op=websites&text=https%3A%2F%2Fwww.treccani.it%2Fenciclopedia%2Fprincipato-di-monaco_%28Enciclopedia-Italiana%29%2F"
+  },
+  {
+   "source_id": "src-19-mc-port-hercule",
+   "niveau": "B",
+   "type_source": "histoire_institutionnelle",
+   "titre": "Le port Hercule",
+   "institution": "Société d’exploitation des ports de Monaco",
+   "url": "https://www.ports-monaco.com/les-ports-de-monaco/le-port-hercule/",
+   "date_consultation": "2026-10-05",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "port_maritime"
+   ],
+   "cibles": [
+    "ville-mc-monaco"
+   ],
+   "locator": "Deux jetées au début du XXe siècle",
+   "resume_passage": "C'est pourquoi dès le début du XXème siècle furent érigées deux jetées qui contribuèrent à assurer une protection meilleure mais pas totalement efficace",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "date": "2026-10-05",
+    "statut": "texte_lu",
+    "limite": "Rôles localisés avant le Snapshot ; aucune capacité ni continuité du service fin 1944 déduite."
+   },
+   "notes": "Proposée par Ether (villes 1.9, 05/10/2026). Ce que la source prouve selon Ether : ville-mc-monaco : port_maritime. Limite annoncée par Ether : Travaux modernes et nouvelles capacités exclus. Cibles différées : recherche conservée, hors import. Aucune validation humaine présumée. Relecture Claude 05/10/2026 : La page prouve la construction de deux jetées au début du XXe siècle au port Hercule, donc un port maritime antérieur à 1945.",
+   "resume_francais_ether": "La page date du début du XXe siècle les deux jetées du port Hercule. Les aménagements modernes ne sont pas repris pour 1945.",
+   "verification_claude_ether": "non_verifiee",
+   "facilitateur_traduction": "Traduction automatique de la page : https://translate.google.com/?sl=auto&tl=fr&op=websites&text=https%3A%2F%2Fwww.ports-monaco.com%2Fles-ports-de-monaco%2Fle-port-hercule%2F"
+  },
+  {
+   "source_id": "src-19-sm-treccani1936",
+   "niveau": "A",
+   "type_source": "encyclopedie_epoque",
+   "titre": "San Marino — Enciclopedia Italiana 1936",
+   "institution": "Istituto della Enciclopedia Italiana",
+   "url": "https://www.treccani.it/enciclopedia/san-marino_(Enciclopedia-Italiana)/",
+   "date_consultation": "2026-10-05",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "capitale",
+    "administration"
+   ],
+   "cibles": [
+    "ville-sm-saint-marin",
+    "ville-sm-borgo-maggiore"
+   ],
+   "locator": "Centres : capitale ; Borgo Maggiore et consulat italien",
+   "resume_passage": "San Marino, la capitale della repubblica, a m. 700 s. m. con circa 2000 ab., è una cittadina circondata da mura",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "date": "2026-10-05",
+    "statut": "texte_lu",
+    "limite": "Rôles localisés avant le Snapshot ; aucune capacité ni continuité du service fin 1944 déduite."
+   },
+   "notes": "Proposée par Ether (villes 1.9, 05/10/2026). Ce que la source prouve selon Ether : ville-sm-saint-marin : administration, capitale ; ville-sm-borgo-maggiore : administration. Limite annoncée par Ether : Réseau de 1932 mentionné mais interrompu en 1944 : aucun rôle rail au Snapshot. Cibles différées : recherche conservée, hors import. Aucune validation humaine présumée. Relecture Claude 05/10/2026 : Capitale prouvée pour Saint-Marin. Borgo Maggiore : marché (Mercatale) et siège du consulat d'Italie prouvés. Le « rôle administration » de Saint-Marin découle du statut de capitale de la république (inférence modérée).",
+   "resume_francais_ether": "La notice distingue la ville-capitale Saint-Marin de Borgo Maggiore, centre commercial avec fonction consulaire. Le rail de 1932 cité dans cette notice doit être rapproché de son interruption en 1944.",
+   "verification_claude_ether": "non_verifiee",
+   "facilitateur_traduction": "Traduction automatique de la page : https://translate.google.com/?sl=auto&tl=fr&op=websites&text=https%3A%2F%2Fwww.treccani.it%2Fenciclopedia%2Fsan-marino_%28Enciclopedia-Italiana%29%2F"
+  },
+  {
+   "source_id": "src-19-sm-fermeture-rail1944",
+   "niveau": "B",
+   "type_source": "histoire_institutionnelle",
+   "titre": "Galleria Montale e Treno storico",
+   "institution": "Visit San Marino",
+   "url": "https://www.visitsanmarino.com/pub1/VisitSM/luogo/Arte-e-cultura/Galleria-Montale-e-Treno-storico.html",
+   "date_consultation": "2026-10-05",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [],
+   "cibles": [],
+   "locator": "Bombardement du 26 juin 1944",
+   "resume_passage": "",
+   "archive_locale": null,
+   "verification_claude": "non_verifiee",
+   "verification_ether": {
+    "date": "2026-10-05",
+    "statut": "texte_lu",
+    "limite": "Rôles localisés avant le Snapshot ; aucune capacité ni continuité du service fin 1944 déduite."
+   },
+   "notes": "Proposée par Ether (villes 1.9, 05/10/2026). Ce que la source prouve selon Ether : . Limite annoncée par Ether : Preuve négative : ne pas traiter le chemin de fer ouvert en 1932 comme actif au Snapshot. Cibles différées : recherche conservée, hors import. Aucune validation humaine présumée. Relecture Claude 05/10/2026 : WebFetch refusé (ROBOTS_DISALLOWED). Aucun contournement tenté ; point sur la cessation du rail après le bombardement du 26 juin 1944 non vérifié. À noter : Treccani (src-19-sm-treccani1936) atteste seulement l'ouverture en 1932 de la ligne électrique Rimini–San Marino (32 km). Cibles : candidats différés par Ether (contexte de recherche, aucune ville créée).",
+   "resume_francais_ether": "L’histoire du train de Saint-Marin décrit le bombardement du 26 juin 1944. Elle sert à ne pas prolonger automatiquement la desserte ancienne au Snapshot.",
+   "verification_claude_ether": "non_verifiee",
+   "facilitateur_traduction": "Traduction automatique de la page : https://translate.google.com/?sl=auto&tl=fr&op=websites&text=https%3A%2F%2Fwww.visitsanmarino.com%2Fpub1%2FVisitSM%2Fluogo%2FArte-e-cultura%2FGalleria-Montale-e-Treno-storico.html"
+  },
+  {
+   "source_id": "src-19-cy-treccani1931",
+   "niveau": "A",
+   "type_source": "encyclopedie_epoque",
+   "titre": "Cipro — Enciclopedia Italiana 1931",
+   "institution": "Istituto della Enciclopedia Italiana",
+   "url": "https://www.treccani.it/enciclopedia/cipro_(Enciclopedia-Italiana)/",
+   "date_consultation": "2026-10-05",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "capitale",
+    "administration",
+    "rail",
+    "port_maritime",
+    "industrie"
+   ],
+   "cibles": [
+    "ville-cy-nicosie",
+    "ville-cy-larnaca",
+    "ville-cy-limassol",
+    "ville-cy-famagouste",
+    "ville-cy-paphos",
+    "ville-cy-kyrenia",
+    "ville-cy-morphou"
+   ],
+   "locator": "Governo e centri principali ; Morfologia ; Produzione",
+   "resume_passage": "Famagosta (v.), che l'unica ferrovia dell'isola collega (km. 122) a Nicosia e Morphou, non è oggi che l'ombra di quello che fu in passato",
+   "archive_locale": null,
+   "verification_claude": "limite",
+   "verification_ether": {
+    "date": "2026-10-05",
+    "statut": "texte_lu",
+    "limite": "Rôles localisés avant le Snapshot ; aucune capacité ni continuité du service fin 1944 déduite."
+   },
+   "notes": "Proposée par Ether (villes 1.9, 05/10/2026). Ce que la source prouve selon Ether : ville-cy-nicosie : administration, capitale, rail ; ville-cy-larnaca : administration, port_maritime ; ville-cy-limassol : administration, industrie, port_maritime ; ville-cy-famagouste : administration, port_maritime, rail ; ville-cy-paphos : administration ; ville-cy-kyrenia : administration, port_maritime ; ville-cy-morphou : rail. Limite annoncée par Ether : Six chefs-lieux ; ports et voie ferrée nommés localement. Cibles différées : recherche conservée, hors import. Aucune validation humaine présumée. Relecture Claude 05/10/2026 : Prouvé : Nicosie capitale/siège du gouvernement et chef-lieu de district ; 6 districts (administration pour Nicosie, Larnaca, Limassol, Famagouste, Paphos, Kyrenia) ; Larnaca second port ; Limassol port principal et eau-de-vie/vinaigre (industrie, faible) ; Kyrenia petit port ; chemin de fer unique reliant Famagouste, Nicosie et Morphou. Non prouvé par la page : port_maritime de Famagouste (aucune citation sur son port obtenue). Morphou : seule la baie de Morphou est citée (trafic), la gare/ligne l'est via la phrase sur Famagosta. Paphos : seulement district (Ktima).",
+   "resume_francais_ether": "La notice nomme les six chefs-lieux de Chypre et localise ports, rail et industrie. La baie de Morphou ne prouve pas un port dans la ville intérieure.",
+   "verification_claude_ether": "non_verifiee",
+   "facilitateur_traduction": "Traduction automatique de la page : https://translate.google.com/?sl=auto&tl=fr&op=websites&text=https%3A%2F%2Fwww.treccani.it%2Fenciclopedia%2Fcipro_%28Enciclopedia-Italiana%29%2F",
+   "confirmations_claude": {
+    "ville-cy-nicosie": {
+     "roles": [
+      "administration",
+      "capitale",
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : Nicosia (v.), capitale e sede del Governo (18.570 ab.), è situata quasi nel centro della Messaria.",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-cy-larnaca": {
+     "roles": [
+      "administration",
+      "port_maritime"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : Larnaka (v.; 9750 ab.), il secondo porto, ha pure una baia aperta, ma la città, si estende nell'interno.",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-cy-limassol": {
+     "roles": [
+      "administration",
+      "industrie",
+      "port_maritime"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : Limassol (Lémesos, 13.300 ab.), sulla costa meridionale, è il porto principale dell'isola. / A Limassol viene prodotta acquavite di buona qualità ed è in aumento la produzione dell'aceto",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-cy-famagouste": {
+     "roles": [
+      "administration",
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : Famagosta (v.), che l'unica ferrovia dell'isola collega (km. 122) a Nicosia e Morphou, non è oggi che l'ombra di quello che fu in passato",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-cy-paphos": {
+     "roles": [
+      "administration"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : L'isola è governata da un alto commissario, assistito da un Consiglio di consulenza, e divisa in 6 distretti, Nicosia (Leucosia), Larnaka, Limassol, Famagosta, Paphos e Kerynia",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-cy-kyrenia": {
+     "roles": [
+      "administration",
+      "port_maritime"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : Kerynia (2000 ab.) è il solo centro notevole della costa settentrionale, con una vecchia torre veneziana e un piccolo porto poco frequentato.",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-cy-morphou": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : Famagosta (v.), che l'unica ferrovia dell'isola collega (km. 122) a Nicosia e Morphou, non è oggi che l'ombra di quello che fu in passato",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    }
+   }
+  },
+  {
+   "source_id": "src-19-cy-rail-musee",
+   "niveau": "B",
+   "type_source": "histoire_institutionnelle",
+   "titre": "Cyprus Railways Museum",
+   "institution": "Department of Antiquities, Cyprus",
+   "url": "https://www.culture.gov.cy/dmculture/DA/DA.nsf/All/3F2CF6E8B9E9BF3DC2257DE7002DFE14?OpenDocument=&print=",
+   "date_consultation": "2026-10-05",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rail"
+   ],
+   "cibles": [
+    "ville-cy-nicosie",
+    "ville-cy-famagouste",
+    "ville-cy-morphou"
+   ],
+   "locator": "Réseau de 1905 à 1951",
+   "resume_passage": "",
+   "archive_locale": null,
+   "verification_claude": "non_verifiee",
+   "verification_ether": {
+    "date": "2026-10-05",
+    "statut": "texte_lu",
+    "limite": "Rôles localisés avant le Snapshot ; aucune capacité ni continuité du service fin 1944 déduite."
+   },
+   "notes": "Proposée par Ether (villes 1.9, 05/10/2026). Ce que la source prouve selon Ether : ville-cy-nicosie : rail ; ville-cy-famagouste : rail ; ville-cy-morphou : rail. Limite annoncée par Ether : Ne permet pas de prolonger automatiquement le service à Evrychou, extrémité fermée avant 1945. Cibles différées : recherche conservée, hors import. Aucune validation humaine présumée. Relecture Claude 05/10/2026 : WebFetch refusé (ROBOTS_DISALLOWED). Réseau 1905–1951 non vérifié ; aucun contournement tenté.",
+   "resume_francais_ether": "Le musée situe le réseau ferroviaire chypriote entre 1905 et 1951. Cette durée générale ne prouve pas la desserte d’Evrychou, dont l’extrémité avait fermé avant 1945.",
+   "verification_claude_ether": "non_verifiee",
+   "facilitateur_traduction": "Traduction automatique de la page : https://translate.google.com/?sl=auto&tl=fr&op=websites&text=https%3A%2F%2Fwww.culture.gov.cy%2Fdmculture%2FDA%2FDA.nsf%2FAll%2F3F2CF6E8B9E9BF3DC2257DE7002DFE14%3FOpenDocument%3D%26print%3D"
+  },
+  {
+   "source_id": "src-19-mt-treccani1934",
+   "niveau": "A",
+   "type_source": "encyclopedie_epoque",
+   "titre": "Malta — Enciclopedia Italiana 1934",
+   "institution": "Istituto della Enciclopedia Italiana",
+   "url": "https://www.treccani.it/enciclopedia/malta_(Enciclopedia-Italiana)/",
+   "date_consultation": "2026-10-05",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "capitale",
+    "administration",
+    "port_maritime"
+   ],
+   "cibles": [
+    "ville-mt-la-valette",
+    "ville-mt-mgarr"
+   ],
+   "locator": "Demografia ; Morfologia ; Mġarr à Gozo",
+   "resume_passage": "il miglior approdo è la Cala del Migiarro a sud.",
+   "archive_locale": null,
+   "verification_claude": "limite",
+   "verification_ether": {
+    "date": "2026-10-05",
+    "statut": "texte_lu",
+    "limite": "Rôles localisés avant le Snapshot ; aucune capacité ni continuité du service fin 1944 déduite."
+   },
+   "notes": "Proposée par Ether (villes 1.9, 05/10/2026). Ce que la source prouve selon Ether : ville-mt-la-valette : administration, capitale, port_maritime ; ville-mt-mgarr : port_maritime. Limite annoncée par Ether : Ne pas transférer une industrie générale de l’île à chaque ville. Cibles différées : recherche conservée, hors import. Aucune validation humaine présumée. Relecture Claude 05/10/2026 : Mġarr (Gozo) : « miglior approdo » = Cala del Migiarro, cohérent avec le rôle attendu (port_maritime), nom italianisé. La Valette : la page ne donne pas de citation explicite prouvant capitale, administration ou port ; seulement « I centri più notevoli, oltre al capoluogo, La Valletta (22.900 abitanti nel 1931) » et « il commodoro Alessandro Ball entrò in Valletta come governatore » (ambigu), et le Grand Port cité comme zone peuplée. Stricto sensu non prouvé par les passages extraits.",
+   "resume_francais_ether": "La notice décrit La Valette comme capitale et port, et Mġarr comme point d’abordage de Gozo. Mġarr est distingué de la commune homonyme de l’île de Malte.",
+   "verification_claude_ether": "non_verifiee",
+   "facilitateur_traduction": "Traduction automatique de la page : https://translate.google.com/?sl=auto&tl=fr&op=websites&text=https%3A%2F%2Fwww.treccani.it%2Fenciclopedia%2Fmalta_%28Enciclopedia-Italiana%29%2F",
+   "confirmations_claude": {
+    "ville-mt-mgarr": {
+     "roles": [
+      "port_maritime"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : Gozo ha coste meno frastagliate; ... il miglior approdo è la Cala del Migiarro a sud.",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    }
+   }
+  },
+  {
+   "source_id": "src-19-mt-ibcc-dockyard1943",
+   "niveau": "A",
+   "type_source": "rapport_epoque",
+   "titre": "Appendix I. Malta dockyard — period of siege 1940–1943",
+   "institution": "E. W. Colvill ; IBCC Digital Archive, University of Lincoln",
+   "url": "https://ibccdigitalarchive.omeka.net/collections/document/43577",
+   "date_consultation": "2026-10-05",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "industrie",
+    "base_navale",
+    "port_maritime",
+    "militaire"
+   ],
+   "cibles": [
+    "ville-mt-cospicua",
+    "ville-mt-senglea"
+   ],
+   "locator": "SLambertBrownP19330417v10003 ; §20,25,39,45,48–49",
+   "resume_passage": "The town of Senglea was completely isolated except b passing through the Dockyard, and was completely deprived of water supply.",
+   "archive_locale": null,
+   "verification_claude": "limite",
+   "verification_ether": {
+    "date": "2026-10-05",
+    "statut": "texte_lu",
+    "limite": "Rôles localisés avant le Snapshot ; aucune capacité ni continuité du service fin 1944 déduite."
+   },
+   "notes": "Proposée par Ether (villes 1.9, 05/10/2026). Ce que la source prouve selon Ether : ville-mt-cospicua : base_navale, industrie ; ville-mt-senglea : militaire, port_maritime. Limite annoncée par Ether : Transcription des neuf pages lue ; images non collationnées. Réparations et transit de guerre localisés. Cibles différées : recherche conservée, hors import. Aucune validation humaine présumée. Relecture Claude 05/10/2026 : Transcription lue (via résumé WebFetch, pas texte intégral brut ; la page annonce un manuscrit dactylographié de 9 pages avec transcription). Le §25 renvoyé parle de l'isolement de Senglea, pas de la marina. Le §39 (décembre 1942) ne cite que l'état des cales (« No.1 – In full working ») sans mention explicite de Cospicua ; le §45 mentionne les cales 3 et 4 remises en service en avril 1943. Aucun passage nommant Cospicua ni la marina de Senglea n'a été restitué. Le Dockyard (Cospicua/Senglea, base navale) est impliqué mais non prouvé textuellement par les extraits obtenus. À revérifier.",
+   "resume_francais_ether": "Le rapport sur le siège de Malte localise à Cospicua des installations de l’arsenal et à Senglea un approvisionnement pendant les attaques. La transcription est lue ; les neuf images originales ne sont pas toutes collationnées.",
+   "verification_claude_ether": "non_verifiee",
+   "facilitateur_traduction": "Traduction automatique de la page : https://translate.google.com/?sl=auto&tl=fr&op=websites&text=https%3A%2F%2Fibccdigitalarchive.omeka.net%2Fcollections%2Fdocument%2F43577"
+  },
+  {
+   "source_id": "src-19-mt-luqa",
+   "niveau": "B",
+   "type_source": "histoire_institutionnelle",
+   "titre": "History — Civil Aviation Directorate",
+   "institution": "Transport Malta",
+   "url": "https://www.transport.gov.mt/aviation/civil-aviation-directorate/history-654",
+   "date_consultation": "2026-10-05",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "aviation",
+    "militaire"
+   ],
+   "cibles": [
+    "ville-mt-luqa"
+   ],
+   "locator": "Luqa, mise en service le 1er avril 1940",
+   "resume_passage": "Luqa aerodrome was thus designed and brought into operation on 1st April 1940 as an all weather airfield equipped with tarmac runways.",
+   "archive_locale": null,
+   "verification_claude": "limite",
+   "verification_ether": {
+    "date": "2026-10-05",
+    "statut": "texte_lu",
+    "limite": "Rôles localisés avant le Snapshot ; aucune capacité ni continuité du service fin 1944 déduite."
+   },
+   "notes": "Proposée par Ether (villes 1.9, 05/10/2026). Ce que la source prouve selon Ether : ville-mt-luqa : aviation, militaire. Limite annoncée par Ether : Rôle de transit aérien de la localité, pas création d’une entité aéroport. Cibles différées : recherche conservée, hors import. Aucune validation humaine présumée. Relecture Claude 05/10/2026 : Page lue ; l'aérodrome de Luqa est en service le 1er avril 1940, avant 1945. Rôles aviation et militaire : aviation prouvée ; militaire non explicite dans l'extrait (la page évoque la perturbation par la guerre), à considérer comme indirect. (relecture : ok ; ramenée à « limite » : toutes les villes citées ne sont pas prouvées pour tous leurs rôles)",
+   "resume_francais_ether": "L’histoire de l’aviation date du 1er avril 1940 la mise en service de Luqa. Le rattachement précis de l’aérodrome au bourg reste à relire.",
+   "verification_claude_ether": "non_verifiee",
+   "facilitateur_traduction": "Traduction automatique de la page : https://translate.google.com/?sl=auto&tl=fr&op=websites&text=https%3A%2F%2Fwww.transport.gov.mt%2Faviation%2Fcivil-aviation-directorate%2Fhistory-654",
+   "confirmations_claude": {
+    "ville-mt-luqa": {
+     "roles": [
+      "aviation"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : Luqa aerodrome was thus designed and brought into operation on 1st April 1940 as an all weather airfield equipped with tarmac runways.",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    }
+   }
+  },
+  {
+   "source_id": "src-19-mt-fin-rail1931",
+   "niveau": "B",
+   "type_source": "histoire_institutionnelle",
+   "titre": "Malta Railway — émission numismatique 2025",
+   "institution": "Central Bank of Malta",
+   "url": "https://www.centralbankmalta.org/2025-malta-railway",
+   "date_consultation": "2026-10-05",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [],
+   "cibles": [],
+   "locator": "Service 1883–1931",
+   "resume_passage": "The railway was formally inaugurated on 28 February 1883. / The railway service was terminated on 2 April 1931.",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "date": "2026-10-05",
+    "statut": "texte_lu",
+    "limite": "Rôles localisés avant le Snapshot ; aucune capacité ni continuité du service fin 1944 déduite."
+   },
+   "notes": "Proposée par Ether (villes 1.9, 05/10/2026). Ce que la source prouve selon Ether : . Limite annoncée par Ether : Preuve négative : pas de rôle rail issu de cette ancienne ligne au Snapshot. Cibles différées : recherche conservée, hors import. Aucune validation humaine présumée. Relecture Claude 05/10/2026 : Page lue : ouverture 28/02/1883, fin de service 02/04/1931, donc fermé avant 1945. Aucune ville cible. Cibles : candidats différés par Ether (contexte de recherche, aucune ville créée).",
+   "resume_francais_ether": "La Banque centrale date le service ferroviaire maltais de 1883 à 1931. Cette source sert à exclure un rôle ferroviaire tiré de l’ancienne ligne au Snapshot.",
+   "verification_claude_ether": "non_verifiee",
+   "facilitateur_traduction": "Traduction automatique de la page : https://translate.google.com/?sl=auto&tl=fr&op=websites&text=https%3A%2F%2Fwww.centralbankmalta.org%2F2025-malta-railway"
+  },
+  {
+   "source_id": "src-19-es-seville-fleuve",
+   "niveau": "B",
+   "type_source": "histoire_institutionnelle",
+   "titre": "Junta de Obras — histoire du port",
+   "institution": "Autoridad Portuaria de Sevilla",
+   "url": "https://www.puertodesevilla.com/el-puerto/historia/junta-de-obras",
+   "date_consultation": "2026-10-05",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "port_fluvial"
+   ],
+   "cibles": [
+    "ville-es-seville"
+   ],
+   "locator": "Plan Moliní 1903–1926 ; quais Nueva York, Tablada et Delicias",
+   "resume_passage": "intervenciones hidráulicas para facilitar la navegación en la ría y optimizar las condiciones de acceso a Sevilla",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "date": "2026-10-05",
+    "statut": "texte_lu",
+    "limite": "Rôles localisés avant le Snapshot ; aucune capacité ni continuité du service fin 1944 déduite."
+   },
+   "notes": "Proposée par Ether (villes 1.9, 05/10/2026). Ce que la source prouve selon Ether : ville-es-seville : port_fluvial. Limite annoncée par Ether : Plan Brackenbury 1927–1950 non assimilé à des ouvrages tous achevés en 1945. Cibles différées : recherche conservée, hors import. Aucune validation humaine présumée. Relecture Claude 05/10/2026 : Page lue : Junta de Obras (1870) chargée des travaux du Guadalquivir et du port de Séville ; plan Moliní 1903-1926 d'améliorations pour la navigation (coupure de Tablada, canal Alfonso XIII). Port fluvial prouvé avant 1945. Citations rendues par le résumeur ; formulation exacte à confirmer.",
+   "resume_francais_ether": "Le plan Moliní et les quais de Séville sont datés de 1903–1926. Le plan Brackenbury, poursuivi jusqu’en 1950, n’est pas assimilé à des ouvrages déjà achevés en 1945.",
+   "verification_claude_ether": "non_verifiee",
+   "facilitateur_traduction": "Traduction automatique de la page : https://translate.google.com/?sl=auto&tl=fr&op=websites&text=https%3A%2F%2Fwww.puertodesevilla.com%2Fel-puerto%2Fhistoria%2Fjunta-de-obras"
+  },
+  {
+   "source_id": "src-19-es-armada-secn",
+   "niveau": "B",
+   "type_source": "histoire_institutionnelle",
+   "titre": "Revista de Historia Naval 133 (2016)",
+   "institution": "Instituto de Historia y Cultura Naval",
+   "url": "https://armada.defensa.gob.es/archivo/mardigitalrevistas/rhn/2016/2016n133.pdf",
+   "date_consultation": "2026-10-05",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "base_navale",
+    "industrie",
+    "construction_navale",
+    "siderurgie"
+   ],
+   "cibles": [
+    "ville-es-ferrol",
+    "ville-es-carthagene",
+    "ville-es-san-fernando",
+    "ville-es-puerto-real",
+    "ville-es-sestao",
+    "ville-es-reinosa"
+   ],
+   "locator": "Page imprimée 100, note 17",
+   "resume_passage": "",
+   "archive_locale": null,
+   "verification_claude": "faible",
+   "verification_ether": {
+    "date": "2026-10-05",
+    "statut": "passage_pdf_indexe_lu_image_non_collationnee",
+    "limite": "Rôles localisés avant le Snapshot ; aucune capacité ni continuité du service fin 1944 déduite."
+   },
+   "notes": "Proposée par Ether (villes 1.9, 05/10/2026). Ce que la source prouve selon Ether : ville-es-carthagene : base_navale, industrie ; ville-es-ferrol : base_navale, industrie ; ville-es-sestao : construction_navale, industrie ; ville-es-san-fernando : base_navale, industrie ; ville-es-puerto-real : construction_navale, industrie ; ville-es-reinosa : industrie, siderurgie. Limite annoncée par Ether : Passage PDF indexé lu : centres SECN et transition de 1940–1941 ; image non collationnée. Cibles différées : recherche conservée, hors import. Aucune validation humaine présumée. Relecture Claude 05/10/2026 : PDF récupéré mais il s'agit d'un article sur le San Ignacio de Loyola (le Glorioso, 1747) ; la note 17 (p. 31) cite George Walker, rien sur la Sociedad Española de Construcción Naval, ni sur Carthagène, Ferrol, San Fernando, Sestao, Puerto Real, Reinosa. Aucun rôle prouvé ; la source semble mal référencée (autre article du numéro ou autre numéro). Le PDF est long et le résumeur peut avoir tronqué : non exhaustif, mais rien trouvé.",
+   "resume_francais_ether": "La note historique localise les arsenaux de Ferrol, Carthagène et San Fernando, ainsi que les chantiers de Puerto Real/Sestao et la sidérurgie de Reinosa avant 1945. Seul le passage indexé de la page 100 a été lu, pas son image.",
+   "verification_claude_ether": "non_verifiee",
+   "facilitateur_traduction": "Google Traduction, onglet Documents : ouvrir le PDF original et traduire une copie pour lecture personnelle ; conserver la pagination de l’original."
+  },
+  {
+   "source_id": "src-19-es-puerto-cabras",
+   "niveau": "B",
+   "type_source": "histoire_institutionnelle",
+   "titre": "Historia del Municipio",
+   "institution": "Ayuntamiento de Puerto del Rosario",
+   "url": "https://www.puertodelrosario.org/ayuntamiento/servicios-al-ciudadano/historia-del-municipio/",
+   "date_consultation": "2026-10-05",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "administration",
+    "port_maritime"
+   ],
+   "cibles": [
+    "ville-es-puerto-del-rosario"
+   ],
+   "locator": "XVIIIe siècle ; Siglos XIX–XX",
+   "resume_passage": "Puerto Cabras, which then belonged to the hamlet of Tetir, became a municipality from 1834, and toward the middle of the century, capital of the island. In the second half of the century the municipality's name was changed, substituting Puerto de Cabras for Puerto del Rosario.",
+   "archive_locale": null,
+   "verification_claude": "limite",
+   "verification_ether": {
+    "date": "2026-10-05",
+    "statut": "texte_lu",
+    "limite": "Rôles localisés avant le Snapshot ; aucune capacité ni continuité du service fin 1944 déduite."
+   },
+   "notes": "Proposée par Ether (villes 1.9, 05/10/2026). Ce que la source prouve selon Ether : ville-es-puerto-del-rosario : administration, port_maritime. Limite annoncée par Ether : Ancien nom Puerto Cabras ; administration insulaire au XIXe siècle. Date exacte du renommage réservée. Cibles différées : recherche conservée, hors import. Aucune validation humaine présumée. Relecture Claude 05/10/2026 : Page lue (restituée en anglais par le résumeur, donc citation non en langue d'origine garantie ; le nom est inversé dans le texte, à ne pas reprendre tel quel : l'ancien nom est Puerto de Cabras). Prouve administration (municipalité 1834, capitale de l'île vers le milieu du XIXe siècle) et port (baie choisie pour exporter céréales, barrille, bétail ; entrepôts construits). Rôle port_maritime : fait antérieur à 1945 mais décrit comme lieu d'exportation, acceptable.",
+   "resume_francais_ether": "La page municipale décrit le port et la fonction administrative de Puerto Cabras avant son nom actuel Puerto del Rosario. L’ancien nom est retenu à l’affichage, mais l’année exacte du renommage reste réservée.",
+   "verification_claude_ether": "non_verifiee",
+   "facilitateur_traduction": "Traduction automatique de la page : https://translate.google.com/?sl=auto&tl=fr&op=websites&text=https%3A%2F%2Fwww.puertodelrosario.org%2Fayuntamiento%2Fservicios-al-ciudadano%2Fhistoria-del-municipio%2F",
+   "confirmations_claude": {
+    "ville-es-puerto-del-rosario": {
+     "roles": [
+      "administration",
+      "port_maritime"
+     ],
+     "lecture": "relu par Claude (villes 1.9) : The place chosen was the Bay of Puerto Cabras, where storehouses began to be constructed to deposit the cereals and barrilla.",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    }
+   }
+  },
+  {
+   "source_id": "src-19-es-arrecife-histoire",
+   "niveau": "B",
+   "type_source": "histoire_institutionnelle",
+   "titre": "Historia del municipio",
+   "institution": "Ayuntamiento de Arrecife",
+   "url": "https://www.arrecife.es/sites/default/files/2021-08/Historia.pdf",
+   "date_consultation": "2026-10-05",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "port_maritime",
+    "administration"
+   ],
+   "cibles": [
+    "ville-es-arrecife"
+   ],
+   "locator": "p.4, quai de 1792 ; autonomie municipale de 1798",
+   "resume_passage": "",
+   "archive_locale": null,
+   "verification_claude": "non_verifiee",
+   "verification_ether": {
+    "date": "2026-10-05",
+    "statut": "passage_pdf_indexe_lu_image_non_collationnee",
+    "limite": "Rôles localisés avant le Snapshot ; aucune capacité ni continuité du service fin 1944 déduite."
+   },
+   "notes": "Proposée par Ether (villes 1.9, 05/10/2026). Ce que la source prouve selon Ether : ville-es-arrecife : administration, port_maritime. Limite annoncée par Ether : Passage PDF indexé lu ; accès direct en erreur, image non collationnée. Cibles différées : recherche conservée, hors import. Aucune validation humaine présumée. Relecture Claude 05/10/2026 : WebFetch refusé (ROBOTS_DISALLOWED, échec de vérification du certificat SSL du robots.txt). Aucun contournement tenté. Rien lu.",
+   "resume_francais_ether": "Le texte indexé situe un quai à Arrecife en 1792 et son autonomie municipale en 1798. L’image de la page 4 reste à collationner.",
+   "verification_claude_ether": "non_verifiee",
+   "facilitateur_traduction": "Google Traduction, onglet Documents : ouvrir le PDF original et traduire une copie pour lecture personnelle ; conserver la pagination de l’original."
   }
  ]
 }

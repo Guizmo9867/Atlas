@@ -53,6 +53,7 @@ On le construit au fil de l'eau, jamais à l'avance. **Avant de créer un ID : c
 | `gi` | Gibraltar (colonie : code propre, comme Jersey) | lot 04 |
 | `mc` | Monaco | lot 04 |
 | `va` | Vatican | lot 04 |
+| `sm` | Saint-Marin | villes 1.9 |
 | `it` | Italie | lot 04 |
 | `hu` | Hongrie | lot 04 |
 | `ro` | Roumanie | lot 04 |
