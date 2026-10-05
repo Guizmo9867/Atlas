@@ -1,0 +1,79 @@
+{
+ "metadata": {
+  "date": "2026-10-05",
+  "lot": "villes_1-7 cycle 3",
+  "par": "Claude (sous-agents Sonnet ; captures et images de pages déposées par Ether lues avec l'outil Read ; WebFetch seulement pour les pages en ligne, aucun contournement)",
+  "methode": "Q17-01/Q17-02 : 6 images (3 pages SHPL 1940, captures Ordu, Kropotkine, Kırklareli)."
+ },
+ "resultats": [
+  {
+   "id": "src-shpl-admin1940",
+   "statut": "ok",
+   "citation": "Аляты пгт | Кергезский райсовет | Аляты | — ; СТОЛИЦА— г. НАХИЧЕВАНЬ ; ЦЕНТР — г. СТЕПАНАКЕРТ ; Шуша г | рц | Шушинский | Евлах им Берия | 112",
+   "commentaire": "Lecture d'Ether confirmée. Alat (p.238) : station la plus proche 'Аляты', distance '—' (sur place) : rail prouvé. Nakhitchevan (p.240) : 'СТОЛИЦА— г. НАХИЧЕВАНЬ' (administration) et station 'Нахичевань', distance '—' : rail prouvé. Stepanakert (p.241) : centre de l'oblast autonome du Haut-Karabakh (administration) ; sa gare est Евлах à 96 km, donc rail NON prouvé (et non attendu). Choucha (p.241) : 'Шуша г рц' = centre de raïon (administration) ; gare Евлах à 112 km, rail non prouvé (non attendu). Les gares à Yevlakh (96 et 112 km) sont bien confirmées. Dates : répertoire au 1er mai 1940, antérieur à 1945.",
+   "villes_prouvees": {
+    "ville-az-alat": [
+     "rail"
+    ],
+    "ville-az-nakhitchevan": [
+     "administration",
+     "rail"
+    ],
+    "ville-az-stepanakert": [
+     "administration"
+    ],
+    "ville-az-choucha": [
+     "administration"
+    ]
+   },
+   "preuves_par_ville": {
+    "ville-az-alat": "Аляты пгт | — | Кергезский райсовет | Аляты | —",
+    "ville-az-nakhitchevan": "СТОЛИЦА— г. НАХИЧЕВАНЬ ; Нахичевань | Нахичевань | —",
+    "ville-az-stepanakert": "ЦЕНТР — г. СТЕПАНАКЕРТ ; Степанакерт | Евлах им Берия | 96",
+    "ville-az-choucha": "Шуша г | рц | Шушинский | Евлах им Берия | 112"
+   }
+  },
+  {
+   "id": "src-17-tr-admin-ordu",
+   "statut": "ok",
+   "citation": "4 Aralık 1920 tarihinde \"Müstakil Sancak\" yapıldı. Bu karar 69 Sayılı yasayla 4 Nisan 1921 tarihinde yürürlüğe girerek il statüsüne kavuşmuştur.",
+   "commentaire": "Capture lisible de la page kulturportali. Le texte nomme Ordu, décision du 4 décembre 1920 (Müstakil Sancak) puis loi n°69 entrée en vigueur le 4 avril 1921 : statut de province (il). Nuance : la décision du 4 déc. 1920 donne d'abord le statut de sancak indépendant, et c'est la loi 69 qui confère le statut d'il. Faits antérieurs à 1945 : admis. URL non rouverte (image suffisante).",
+   "villes_prouvees": {
+    "ville-tr-ordu": [
+     "administration"
+    ]
+   },
+   "preuves_par_ville": {
+    "ville-tr-ordu": "Ordu'nun il olması için, T.B.M.M. nde büyük bir mücadele verilmiştir. ... 4 Aralık 1920 tarihinde \"Müstakil Sancak\" yapıldı. Bu karar 69 Sayılı yasayla 4 Nisan 1921 tarihinde yürürlüğe girerek il statüsüne kavuşmuştur."
+   }
+  },
+  {
+   "id": "src-17-ru-kropotkine-ville",
+   "statut": "ok",
+   "citation": "18 июня 1874 года – от станции Кавказская отправился первый поезд",
+   "commentaire": "Capture de la page officielle de la ville de Kropotkine, rubrique 'Знаменательные даты г. Кропоткина' : '18 июня 1874 года – от станции Кавказская отправился первый поезд'. La page ne précise pas explicitement que Kavkazskaïa est l'ancien nom de Kropotkine, mais la date figure dans la liste des dates de la ville ; en outre 'здание железнодорожного вокзала 1903 года постройки' est cité. Rail prouvé (identification Kavkazskaïa = Kropotkine par le contexte de la page).",
+   "villes_prouvees": {
+    "ville-ru-kropotkine": [
+     "rail"
+    ]
+   },
+   "preuves_par_ville": {
+    "ville-ru-kropotkine": "18 июня 1874 года – от станции Кавказская отправился первый поезд ; Одной из главных архитектурных достопримечательностей Кропоткина является здание железнодорожного вокзала 1903 года постройки."
+   }
+  },
+  {
+   "id": "src-17-tr-kirklareli-gare",
+   "statut": "ok",
+   "citation": "Kırklareli Merkez, İstasyon Mahallesinde Tren Garı'na ait su deposu, silindir biçimli ve tek hacimlidir. Bu depo buharlı tren için gerekli olan bir yapı türüdür.",
+   "commentaire": "Fiche d'inventaire : '684 Ada, 1 Parsel Su Deposu', date de construction 1910-1912, commanditaire 'Şark Demiryolları', époque ottomane ; réservoir d'eau du train à vapeur de la gare, quartier de la gare (İstasyon Mahallesi), Kırklareli Merkez. Prouve une infrastructure ferroviaire à Kırklareli avant 1945.",
+   "villes_prouvees": {
+    "ville-tr-kirklareli": [
+     "rail"
+    ]
+   },
+   "preuves_par_ville": {
+    "ville-tr-kirklareli": "Kırklareli Merkez, İstasyon Mahallesinde Tren Garı'na ait su deposu ... Yapım Tarihi: 1910-1912 ; Yaptıran: Şark Demiryolları"
+   }
+  }
+ ]
+}

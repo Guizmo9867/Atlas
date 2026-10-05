@@ -2,6 +2,12 @@
 
 Une ligne par décision, datée. Plus récente en haut. Ce journal remplace les versions éparpillées dans les conversations : si ce n'est pas ici, ce n'est pas décidé.
 
+## 2026-10-05 (réponses au 1.7, cycle 3, et au 1.8, cycle 2)
+
+- **Captures d'Ether lues par Claude** : 1.7 : 3 pages du répertoire de 1940 (Alat, Nakhitchevan, Stepanakert, Choucha) et 3 captures (Ordu, Kropotkine, Kırklareli) confirmées ; « À renforcer » 78 → 71. 1.8 : 7 pages du rapport « Railway reconstruction Italy » (Treni di Carta), Olbia, Sibiu, Constanța confirmées, ports grecs du rapport ELIA, industrie d'Athènes, du Pirée, de Salonique, de Kavala et de Ploiești relus ; « À renforcer » 65 → 26. Registre v1.26. *(Ether + Claude)*
+- **Correction d'Orte proposée par Ether non appliquée** : la capture date un pont de juillet 1945 « at Ode Station », sans nommer Orte ; contradiction non établie (réserve R18-C2-02). *(Claude)*
+- Lot 1.7 : **3 cycles atteints**, Q17-01 et Q17-02 closes, réserves gardées pour la revue finale 1.x. Lot 1.8 : Q18-01 close ; Q18-02 reste ouverte (Buzău, Brăila, Tecuci, Cancello Arnone, Fabriano, Spolète, rail de Ploiești). *(Claude)*
+
 ## 2026-10-04 (nuit : villes 1.8, Balkans, Grèce et Italie)
 
 - **Villes 1.8 intégrées : 361 villes** (Italie 140, Grèce 49, Bulgarie 37, Roumanie 34, Bosnie-Herzégovine 28, Serbie 24, Croatie 19, Monténégro 9, Albanie 8, Macédoine du Nord 7, Slovénie 6), dont 8 sous leur nom de 1945 (Fiume, Pola, Petrovgrad, Caribrod, Gorna Djoumaïa, Bosanski Brod, Bosanski Novi, Cluj). Capitales nationales : Rome, Athènes, Belgrade, Sofia, Bucarest, Tirana. L'Atlas compte 1 306 villes. *(Ether, fait par Claude)*

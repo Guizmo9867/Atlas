@@ -3,7 +3,7 @@
     "nom": "snapshot0_villes_1-7_caucase_turquie",
     "date_reference": "1945-01-01",
     "heure_reference": "00:00",
-    "version": "0.2",
+    "version": "0.3",
     "statut": "integre_par_claude",
     "gabarit_source": "gabarits/gabarit_entite_temporelle_atlas.json",
     "zone": [
@@ -22,7 +22,7 @@
     ],
     "reserves_ether": "R17-01 à R17-27 (data/snapshot0/villes_1-7_caucase_turquie_reserves_ether.md), revue finale 1.x",
     "integration": {
-      "date": "2026-10-04",
+      "date": "2026-10-05",
       "par": "Claude",
       "corrections": [
         "Données : JSON d'Ether (166 villes : TR 77, RU 36, GE 26, AZ 16, AM 11), IDs déjà au code du pays actuel ; noms de 1945 dans l'état, nom actuel sur la fiche ; aucun nom_local ; 9 candidats différés non importés.",
@@ -31,7 +31,8 @@
         "İstanbul et Ereğli : le « nom de 1945 » proposé n'était pas un autre nom (I pointé turc ; précisant de lieu de la fiche) : gardé en alias. Autres écarts de transcription conservés (Q16-03).",
         "Sources : doublons exacts retirés dans les fiches (même source et même usage cités deux fois, ex. Goudermes) ; référence Wikidata ajoutée.",
         "Preuves : mention « (non vérifiée par Claude) », « (lecture partielle) » ou « (page relue par Claude pour cette ville) » ; « À renforcer » = rôles sans aucune preuve confirmée.",
-        "v0.2 (04/10/2026, réponses d'Ether cycle 2) : İzmir perd le rôle industrie (Halkapınar : liste de production 1944 et ouverture datée 1947 dans la même étude, contradiction relue par Claude sur les captures ; correction d'Ether, réserve R17-C2-01) ; 10 images de pages (Géorgie, Arménie, Stavropol) et 7 captures turques lues par Claude (registre v1.24) : rôles relus ville par ville, mentions de preuve et « À renforcer » recalculés."
+        "v0.2 (04/10/2026, réponses d'Ether cycle 2) : İzmir perd le rôle industrie (Halkapınar : liste de production 1944 et ouverture datée 1947 dans la même étude, contradiction relue par Claude sur les captures ; correction d'Ether, réserve R17-C2-01) ; 10 images de pages (Géorgie, Arménie, Stavropol) et 7 captures turques lues par Claude (registre v1.24) : rôles relus ville par ville, mentions de preuve et « À renforcer » recalculés.",
+        "v0.3 (05/10/2026, réponses d'Ether cycle 3) : aucune correction de ville ; 3 pages du répertoire de 1940 (Alat, Nakhitchevan, Stepanakert, Choucha) et 3 captures (Ordu, Kropotkine, Kırklareli) lues par Claude (registre v1.26) ; Stepanakert et Choucha : gare à Yevlakh (96 et 112 km), pas de rail ajouté ; date du statut urbain de Kropotkine réservée (R17-C3-03)."
       ]
     }
   },
@@ -4133,7 +4134,7 @@
               "administration",
               "rail"
             ],
-            "note": "Capitale de RSSA et gare homonyme dans le tableau 1940. Position : Wikidata (Q230104), repère urbain actuel ; centre exact de 1945 non certifié (R17-01). À renforcer : administration, rail."
+            "note": "Capitale de RSSA et gare homonyme dans le tableau 1940. Position : Wikidata (Q230104), repère urbain actuel ; centre exact de 1945 non certifié (R17-01)."
           },
           "geometrie": {
             "type": "Point",
@@ -4146,7 +4147,7 @@
             {
               "source_id": "src-shpl-admin1940",
               "locator": "p 240, image 244 du lecteur",
-              "usage": "administration, rail (lecture partielle)"
+              "usage": "administration, rail (page relue par Claude pour cette ville : administration, rail)"
             },
             {
               "source_id": "src-17-geonames-reperes",
@@ -6214,7 +6215,7 @@
             "roles": [
               "rail"
             ],
-            "note": "Ville ou bourg avec gare homonyme dans le répertoire 1940. Position : Wikidata (Q3951524), repère urbain actuel ; centre exact de 1945 non certifié (R17-01). À renforcer : rail."
+            "note": "Ville ou bourg avec gare homonyme dans le répertoire 1940. Position : Wikidata (Q3951524), repère urbain actuel ; centre exact de 1945 non certifié (R17-01)."
           },
           "geometrie": {
             "type": "Point",
@@ -6227,7 +6228,7 @@
             {
               "source_id": "src-shpl-admin1940",
               "locator": "p 238/image 242",
-              "usage": "rail (lecture partielle)"
+              "usage": "rail (page relue par Claude pour cette ville : rail)"
             },
             {
               "source_id": "src-17-geonames-reperes",
@@ -6773,7 +6774,7 @@
             "roles": [
               "administration"
             ],
-            "note": "Centre administratif ; gare extérieure à 96 km. Position : Wikidata (Q129352), repère urbain actuel ; centre exact de 1945 non certifié (R17-01). Nom à la date : Stepanakert (aujourd'hui Khankendi). À renforcer : administration.",
+            "note": "Centre administratif ; gare extérieure à 96 km. Position : Wikidata (Q129352), repère urbain actuel ; centre exact de 1945 non certifié (R17-01). Nom à la date : Stepanakert (aujourd'hui Khankendi).",
             "nom": "Stepanakert"
           },
           "geometrie": {
@@ -6787,7 +6788,7 @@
             {
               "source_id": "src-shpl-admin1940",
               "locator": "p 241/image 245",
-              "usage": "administration (lecture partielle)"
+              "usage": "administration (page relue par Claude pour cette ville : administration)"
             },
             {
               "source_id": "src-17-geonames-reperes",
@@ -6829,7 +6830,7 @@
             "roles": [
               "administration"
             ],
-            "note": "Centre administratif ; gare extérieure à 112 km. Position : Wikidata (Q158903), repère urbain actuel ; centre exact de 1945 non certifié (R17-01). À renforcer : administration."
+            "note": "Centre administratif ; gare extérieure à 112 km. Position : Wikidata (Q158903), repère urbain actuel ; centre exact de 1945 non certifié (R17-01)."
           },
           "geometrie": {
             "type": "Point",
@@ -6842,7 +6843,7 @@
             {
               "source_id": "src-shpl-admin1940",
               "locator": "p 241/image 245",
-              "usage": "administration (lecture partielle)"
+              "usage": "administration (page relue par Claude pour cette ville : administration)"
             },
             {
               "source_id": "src-17-geonames-reperes",
@@ -7098,7 +7099,7 @@
             "roles": [
               "rail"
             ],
-            "note": "Circulation rétablie Kavkazskaïa–Krasnodar enmars 1943. Gare Kavkazskaïa identifiée à la ville devenue Kropotkine en 1921. Position : Wikidata (Q16973), repère urbain actuel ; centre exact de 1945 non certifié (R17-01). À renforcer : rail."
+            "note": "Circulation rétablie Kavkazskaïa–Krasnodar enmars 1943. Gare Kavkazskaïa identifiée à la ville devenue Kropotkine en 1921. Position : Wikidata (Q16973), repère urbain actuel ; centre exact de 1945 non certifié (R17-01)."
           },
           "geometrie": {
             "type": "Point",
@@ -7116,7 +7117,7 @@
             {
               "source_id": "src-17-ru-kropotkine-ville",
               "locator": "1874 et 1921",
-              "usage": "rail (non vérifiée par Claude)"
+              "usage": "rail"
             },
             {
               "source_id": "src-17-geonames-reperes",
@@ -9223,7 +9224,7 @@
             "roles": [
               "administration"
             ],
-            "note": "Centre administratif devenu chef-lieu provincial en 1921. Position : Wikidata (Q184539), repère urbain actuel ; centre exact de 1945 non certifié (R17-01). À renforcer : administration."
+            "note": "Centre administratif devenu chef-lieu provincial en 1921. Position : Wikidata (Q184539), repère urbain actuel ; centre exact de 1945 non certifié (R17-01)."
           },
           "geometrie": {
             "type": "Point",
@@ -9236,7 +9237,7 @@
             {
               "source_id": "src-17-tr-admin-ordu",
               "locator": "Section Ordu Kazasınınİl Oluşu, 1920–1921",
-              "usage": "administration (non vérifiée par Claude)"
+              "usage": "administration"
             },
             {
               "source_id": "src-17-geonames-reperes",
@@ -9382,7 +9383,7 @@
             "roles": [
               "rail"
             ],
-            "note": "Équipement de la gare locale construit pour les trains à vapeur en 1910–1912. Position : Wikidata (Q206903), repère urbain actuel ; centre exact de 1945 non certifié (R17-01). À renforcer : rail."
+            "note": "Équipement de la gare locale construit pour les trains à vapeur en 1910–1912. Position : Wikidata (Q206903), repère urbain actuel ; centre exact de 1945 non certifié (R17-01)."
           },
           "geometrie": {
             "type": "Point",
@@ -9395,7 +9396,7 @@
             {
               "source_id": "src-17-tr-kirklareli-gare",
               "locator": "Genel Bilgiler 1910–1912",
-              "usage": "rail (non vérifiée par Claude)"
+              "usage": "rail"
             },
             {
               "source_id": "src-17-geonames-reperes",

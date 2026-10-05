@@ -3,7 +3,7 @@
     "nom": "snapshot0_villes_1-8_balkans_grece_italie",
     "date_reference": "1945-01-01",
     "heure_reference": "00:00",
-    "version": "0.1",
+    "version": "0.2",
     "statut": "integre_par_claude",
     "gabarit_source": "gabarits/gabarit_entite_temporelle_atlas.json",
     "zone": [
@@ -61,13 +61,14 @@
     ],
     "reserves_ether": "R18-01 à R18-70 (data/snapshot0/villes_1-8_balkans_grece_italie_reserves_ether.md), revue finale 1.x",
     "integration": {
-      "date": "2026-10-04",
+      "date": "2026-10-05",
       "par": "Claude",
       "corrections": [
         "Données : JSON d'Ether (361 villes : IT 140, GR 49, BG 37, RO 34, BA 28, RS 24, HR 19, ME 9, AL 8, MK 7, SI 6), IDs déjà au code du pays actuel ; 8 noms de 1945 dans l'état (Fiume, Pola, Petrovgrad, Caribrod, Gorna Djoumaïa, Bosanski Brod, Bosanski Novi, Cluj), nom actuel sur la fiche ; aucun nom_local ; 15 candidats différés non importés ; Kosovo non couvert (Priština et Mitrovica réservés par Ether).",
         "Positions : QID Wikidata (CC0) d'Ether recoupés par SPARQL : libellé et pays cohérents, aucun écart > 1 km ; aucun QID ni ID commun avec les 945 villes déjà intégrées ; Côme à 5 km de Chiasso (villes distinctes) ; Rijeka/Sušak, Brod/Slavonski Brod, Herceg Novi/Zelenika, Agrigente/Porto Empedocle : paires voisines distinctes en 1945.",
         "Capitales « nationales » : Rome, Athènes, Belgrade, Sofia, Bucarest, Tirana ; aucune autre (Zagreb, futures capitales de républiques yougoslaves : réserves d'Ether).",
-        "Preuves : 5 cartes OSS (1942-1944) lues par Claude sur les images déposées par Ether ; 271 villes relues une à une (confirmations_claude). Mentions « (non vérifiée par Claude) », « (lecture partielle) » ou « (page relue par Claude pour cette ville) » ; « À renforcer » = rôles sans aucune preuve confirmée."
+        "Preuves : 5 cartes OSS (1942-1944) lues par Claude sur les images déposées par Ether ; 271 villes relues une à une (confirmations_claude). Mentions « (non vérifiée par Claude) », « (lecture partielle) » ou « (page relue par Claude pour cette ville) » ; « À renforcer » = rôles sans aucune preuve confirmée.",
+        "v0.2 (05/10/2026, réponses d'Ether cycle 2) : 15 captures et 4 pages en ligne relues par Claude (registre v1.26) : Treni di Carta (2.2.1 à 2.3.10), ELIA, Olbia, Sibiu, Constanța ; mentions de preuve et « À renforcer » recalculés. Correction d'Orte proposée par Ether NON appliquée : sur la capture, le pont du Tibre de juillet 1945 est dit « at Ode Station », sans nommer Orte (contradiction non établie ; réserve R18-C2-02)."
       ]
     }
   },
@@ -96,7 +97,7 @@
               "industrie",
               "rail"
             ],
-            "note": "La liaison Reggio–Tarente est rétablie fin septembre 1943. La source documente pour la ville les éléments suivants : établissements de transformation alimentaire figurés localement pour 1937 ; situation productive fin 1944 réservée. Fonctions historiques documentées avant le Snapshot ; service et capacités de fin 1944 non déduits. Repère Wikidata Q8471 actuel ; centre exact de 1945 non certifié (R18-01). À renforcer : rail."
+            "note": "La liaison Reggio–Tarente est rétablie fin septembre 1943. La source documente pour la ville les éléments suivants : établissements de transformation alimentaire figurés localement pour 1937 ; situation productive fin 1944 réservée. Fonctions historiques documentées avant le Snapshot ; service et capacités de fin 1944 non déduits. Repère Wikidata Q8471 actuel ; centre exact de 1945 non certifié (R18-01)."
           },
           "geometrie": {
             "type": "Point",
@@ -109,7 +110,7 @@
             {
               "source_id": "src-18-it-re-1946-est43",
               "locator": "§1",
-              "usage": "rail (non vérifiée par Claude)"
+              "usage": "rail"
             },
             {
               "source_id": "src-18-oss2475-italie-alimentation1937",
@@ -152,7 +153,7 @@
               "port_maritime",
               "rail"
             ],
-            "note": "La source documente pour la ville les éléments suivants : terminus de la liaison rétablie en septembre 1943 ; arrivée des unités ferroviaires en octobre. La source documente pour la ville les éléments suivants : établissements de transformation alimentaire figurés localement pour 1937 ; situation productive fin 1944 réservée. La source documente pour la ville les éléments suivants : arsenal maritime et construction navale implantés avant 1945 ; aucune capacité actuelle reprise. Fonctions historiques documentées avant le Snapshot ; service et capacités de fin 1944 non déduits. Repère Wikidata Q13498 actuel ; centre exact de 1945 non certifié (R18-01). À renforcer : militaire, port_maritime, rail."
+            "note": "La source documente pour la ville les éléments suivants : terminus de la liaison rétablie en septembre 1943 ; arrivée des unités ferroviaires en octobre. La source documente pour la ville les éléments suivants : établissements de transformation alimentaire figurés localement pour 1937 ; situation productive fin 1944 réservée. La source documente pour la ville les éléments suivants : arsenal maritime et construction navale implantés avant 1945 ; aucune capacité actuelle reprise. Fonctions historiques documentées avant le Snapshot ; service et capacités de fin 1944 non déduits. Repère Wikidata Q13498 actuel ; centre exact de 1945 non certifié (R18-01). À renforcer : militaire, port_maritime."
           },
           "geometrie": {
             "type": "Point",
@@ -165,7 +166,7 @@
             {
               "source_id": "src-18-it-re-1946-est43",
               "locator": "§1 et 6",
-              "usage": "rail (non vérifiée par Claude)"
+              "usage": "rail"
             },
             {
               "source_id": "src-18-oss2475-italie-alimentation1937",
@@ -211,7 +212,7 @@
               "industrie",
               "rail"
             ],
-            "note": "La source documente pour la ville les éléments suivants : base du chantier ferroviaire qui rétablit la liaison vers San Severo en octobre 1943. La source documente pour la ville les éléments suivants : établissements de transformation alimentaire figurés localement pour 1937 ; situation productive fin 1944 réservée. Fonctions historiques documentées avant le Snapshot ; service et capacités de fin 1944 non déduits. Repère Wikidata Q13470 actuel ; centre exact de 1945 non certifié (R18-01). À renforcer : rail."
+            "note": "La source documente pour la ville les éléments suivants : base du chantier ferroviaire qui rétablit la liaison vers San Severo en octobre 1943. La source documente pour la ville les éléments suivants : établissements de transformation alimentaire figurés localement pour 1937 ; situation productive fin 1944 réservée. Fonctions historiques documentées avant le Snapshot ; service et capacités de fin 1944 non déduits. Repère Wikidata Q13470 actuel ; centre exact de 1945 non certifié (R18-01)."
           },
           "geometrie": {
             "type": "Point",
@@ -224,7 +225,7 @@
             {
               "source_id": "src-18-it-re-1946-est43",
               "locator": "§1–2",
-              "usage": "rail (non vérifiée par Claude)"
+              "usage": "rail"
             },
             {
               "source_id": "src-18-oss2475-italie-alimentation1937",
@@ -265,7 +266,7 @@
               "industrie",
               "rail"
             ],
-            "note": "La ligne côtière remise en service atteint San Severo à la mi-octobre 1943. La source documente pour la ville les éléments suivants : établissements de transformation alimentaire figurés localement pour 1937 ; situation productive fin 1944 réservée. Fonctions historiques documentées avant le Snapshot ; service et capacités de fin 1944 non déduits. Repère Wikidata Q19275 actuel ; centre exact de 1945 non certifié (R18-01). À renforcer : rail."
+            "note": "La ligne côtière remise en service atteint San Severo à la mi-octobre 1943. La source documente pour la ville les éléments suivants : établissements de transformation alimentaire figurés localement pour 1937 ; situation productive fin 1944 réservée. Fonctions historiques documentées avant le Snapshot ; service et capacités de fin 1944 non déduits. Repère Wikidata Q19275 actuel ; centre exact de 1945 non certifié (R18-01)."
           },
           "geometrie": {
             "type": "Point",
@@ -278,7 +279,7 @@
             {
               "source_id": "src-18-it-re-1946-est43",
               "locator": "§1 et 6",
-              "usage": "rail (non vérifiée par Claude)"
+              "usage": "rail"
             },
             {
               "source_id": "src-18-oss2475-italie-alimentation1937",
@@ -319,7 +320,7 @@
               "industrie",
               "rail"
             ],
-            "note": "Le rapport situe les viaducs reconstruits sur la liaison Barletta–Foggia en 1943. La source documente pour la ville les éléments suivants : établissements de transformation alimentaire figurés localement pour 1937 ; situation productive fin 1944 réservée. Fonctions historiques documentées avant le Snapshot ; service et capacités de fin 1944 non déduits. Repère Wikidata Q13464 actuel ; centre exact de 1945 non certifié (R18-01). À renforcer : rail."
+            "note": "Le rapport situe les viaducs reconstruits sur la liaison Barletta–Foggia en 1943. La source documente pour la ville les éléments suivants : établissements de transformation alimentaire figurés localement pour 1937 ; situation productive fin 1944 réservée. Fonctions historiques documentées avant le Snapshot ; service et capacités de fin 1944 non déduits. Repère Wikidata Q13464 actuel ; centre exact de 1945 non certifié (R18-01)."
           },
           "geometrie": {
             "type": "Point",
@@ -332,7 +333,7 @@
             {
               "source_id": "src-18-it-re-1946-est43",
               "locator": "§2",
-              "usage": "rail (non vérifiée par Claude)"
+              "usage": "rail"
             },
             {
               "source_id": "src-18-oss2475-italie-alimentation1937",
@@ -373,7 +374,7 @@
               "industrie",
               "rail"
             ],
-            "note": "La liaison logistique Salerne–Naples fait l’objet de réparations ferroviaires en octobre 1943. La source documente pour la ville les éléments suivants : établissements de transformation alimentaire figurés localement pour 1937 ; situation productive fin 1944 réservée. Fonctions historiques documentées avant le Snapshot ; service et capacités de fin 1944 non déduits. Repère Wikidata Q1083 actuel ; centre exact de 1945 non certifié (R18-01). À renforcer : rail."
+            "note": "La liaison logistique Salerne–Naples fait l’objet de réparations ferroviaires en octobre 1943. La source documente pour la ville les éléments suivants : établissements de transformation alimentaire figurés localement pour 1937 ; situation productive fin 1944 réservée. Fonctions historiques documentées avant le Snapshot ; service et capacités de fin 1944 non déduits. Repère Wikidata Q1083 actuel ; centre exact de 1945 non certifié (R18-01)."
           },
           "geometrie": {
             "type": "Point",
@@ -386,7 +387,7 @@
             {
               "source_id": "src-18-it-re-1946-ouest43",
               "locator": "§1–4",
-              "usage": "rail (non vérifiée par Claude)"
+              "usage": "rail"
             },
             {
               "source_id": "src-18-oss2475-italie-alimentation1937",
@@ -428,7 +429,7 @@
               "port_maritime",
               "rail"
             ],
-            "note": "En octobre 1943, le réseau du port est raccordé aux triages des lignes de Rome et Foggia. La source documente pour la ville les éléments suivants : établissements de transformation alimentaire figurés localement pour 1937 ; situation productive fin 1944 réservée. Fonctions historiques documentées avant le Snapshot ; service et capacités de fin 1944 non déduits. Repère Wikidata Q2634 actuel ; centre exact de 1945 non certifié (R18-01). À renforcer : port_maritime, rail."
+            "note": "En octobre 1943, le réseau du port est raccordé aux triages des lignes de Rome et Foggia. La source documente pour la ville les éléments suivants : établissements de transformation alimentaire figurés localement pour 1937 ; situation productive fin 1944 réservée. Fonctions historiques documentées avant le Snapshot ; service et capacités de fin 1944 non déduits. Repère Wikidata Q2634 actuel ; centre exact de 1945 non certifié (R18-01)."
           },
           "geometrie": {
             "type": "Point",
@@ -441,7 +442,7 @@
             {
               "source_id": "src-18-it-re-1946-ouest43",
               "locator": "§1 et 4",
-              "usage": "rail, port_maritime (non vérifiée par Claude)"
+              "usage": "rail, port_maritime"
             },
             {
               "source_id": "src-18-oss2475-italie-alimentation1937",
@@ -808,7 +809,7 @@
             {
               "source_id": "src-18-it-re-1946-hiver44",
               "locator": "II.II.5",
-              "usage": "port_maritime, rail (non vérifiée par Claude)"
+              "usage": "port_maritime, rail"
             },
             {
               "source_id": "src-wikidata",
@@ -909,7 +910,7 @@
             {
               "source_id": "src-18-it-re-1946-hiver44",
               "locator": "II.II.5",
-              "usage": "rail (non vérifiée par Claude)"
+              "usage": "rail"
             },
             {
               "source_id": "src-wikidata",
@@ -2261,7 +2262,7 @@
               "capitale",
               "rail"
             ],
-            "note": "Rome est reliée à Naples le 2 juillet 1944. Rome est désignée capitale par le texte de 1871 cité par la présidence. Fonctions historiques documentées avant le Snapshot ; service et capacités de fin 1944 non déduits. Repère Wikidata Q220 actuel ; centre exact de 1945 non certifié (R18-01). À renforcer : rail.",
+            "note": "Rome est reliée à Naples le 2 juillet 1944. Rome est désignée capitale par le texte de 1871 cité par la présidence. Fonctions historiques documentées avant le Snapshot ; service et capacités de fin 1944 non déduits. Repère Wikidata Q220 actuel ; centre exact de 1945 non certifié (R18-01).",
             "capitale": "nationale"
           },
           "geometrie": {
@@ -2275,7 +2276,7 @@
             {
               "source_id": "src-18-it-re-1946-ete44",
               "locator": "§ premier train",
-              "usage": "rail (non vérifiée par Claude)"
+              "usage": "rail"
             },
             {
               "source_id": "src-18-it-rome-quirinale-capitale",
@@ -2315,7 +2316,7 @@
             "roles": [
               "rail"
             ],
-            "note": "La tête de ligne ouvre le 17 juin 1944. Fonctions historiques documentées avant le Snapshot ; service et capacités de fin 1944 non déduits. Repère Wikidata Q117211 actuel ; centre exact de 1945 non certifié (R18-01). À renforcer : rail."
+            "note": "La tête de ligne ouvre le 17 juin 1944. Fonctions historiques documentées avant le Snapshot ; service et capacités de fin 1944 non déduits. Repère Wikidata Q117211 actuel ; centre exact de 1945 non certifié (R18-01)."
           },
           "geometrie": {
             "type": "Point",
@@ -2328,7 +2329,7 @@
             {
               "source_id": "src-18-it-re-1946-ete44",
               "locator": "§ après figure 5",
-              "usage": "rail (non vérifiée par Claude)"
+              "usage": "rail"
             },
             {
               "source_id": "src-wikidata",
@@ -2364,7 +2365,7 @@
               "port_maritime",
               "rail"
             ],
-            "note": "Le rapport décrit la remise en liaison du port avec Rome en 1944. La source documente pour la ville les éléments suivants : desserte représentée sur la carte du 16 juillet 1943 ; trafic au Snapshot non établi par cette carte. Fonctions historiques documentées avant le Snapshot ; service et capacités de fin 1944 non déduits. Repère Wikidata Q242533 actuel ; centre exact de 1945 non certifié (R18-01). À renforcer : port_maritime."
+            "note": "Le rapport décrit la remise en liaison du port avec Rome en 1944. La source documente pour la ville les éléments suivants : desserte représentée sur la carte du 16 juillet 1943 ; trafic au Snapshot non établi par cette carte. Fonctions historiques documentées avant le Snapshot ; service et capacités de fin 1944 non déduits. Repère Wikidata Q242533 actuel ; centre exact de 1945 non certifié (R18-01)."
           },
           "geometrie": {
             "type": "Point",
@@ -2377,7 +2378,7 @@
             {
               "source_id": "src-18-it-re-1946-ete44",
               "locator": "§ avant figure 5 et suivant",
-              "usage": "rail, port_maritime (non vérifiée par Claude)"
+              "usage": "rail, port_maritime"
             },
             {
               "source_id": "src-18-oss2067-italie-rail1943",
@@ -2417,7 +2418,7 @@
             "roles": [
               "rail"
             ],
-            "note": "La tête de ligne ouvre le 1 er août 1944. Fonctions historiques documentées avant le Snapshot ; service et capacités de fin 1944 non déduits. Repère Wikidata Q6716 actuel ; centre exact de 1945 non certifié (R18-01). À renforcer : rail."
+            "note": "La tête de ligne ouvre le 1 er août 1944. Fonctions historiques documentées avant le Snapshot ; service et capacités de fin 1944 non déduits. Repère Wikidata Q6716 actuel ; centre exact de 1945 non certifié (R18-01)."
           },
           "geometrie": {
             "type": "Point",
@@ -2430,7 +2431,7 @@
             {
               "source_id": "src-18-it-re-1946-ete44",
               "locator": "§ après figure 5",
-              "usage": "rail (non vérifiée par Claude)"
+              "usage": "rail"
             },
             {
               "source_id": "src-wikidata",
@@ -2465,7 +2466,7 @@
             "roles": [
               "rail"
             ],
-            "note": "La tête de ligne ouvre le 10 août 1944. Fonctions historiques documentées avant le Snapshot ; service et capacités de fin 1944 non déduits. Repère Wikidata Q13378 actuel ; centre exact de 1945 non certifié (R18-01). À renforcer : rail."
+            "note": "La tête de ligne ouvre le 10 août 1944. Fonctions historiques documentées avant le Snapshot ; service et capacités de fin 1944 non déduits. Repère Wikidata Q13378 actuel ; centre exact de 1945 non certifié (R18-01)."
           },
           "geometrie": {
             "type": "Point",
@@ -2478,7 +2479,7 @@
             {
               "source_id": "src-18-it-re-1946-ete44",
               "locator": "§ Arezzo",
-              "usage": "rail (non vérifiée par Claude)"
+              "usage": "rail"
             },
             {
               "source_id": "src-wikidata",
@@ -2514,7 +2515,7 @@
               "port_maritime",
               "rail"
             ],
-            "note": "Livourne est atteinte par les réparations ferroviaires le 17 septembre 1944. Le port sert de base à la Ve armée à l’automne 1944. Fonctions historiques documentées avant le Snapshot ; service et capacités de fin 1944 non déduits. Repère Wikidata Q6761 actuel ; centre exact de 1945 non certifié (R18-01). À renforcer : port_maritime, rail."
+            "note": "Livourne est atteinte par les réparations ferroviaires le 17 septembre 1944. Le port sert de base à la Ve armée à l’automne 1944. Fonctions historiques documentées avant le Snapshot ; service et capacités de fin 1944 non déduits. Repère Wikidata Q6761 actuel ; centre exact de 1945 non certifié (R18-01)."
           },
           "geometrie": {
             "type": "Point",
@@ -2527,12 +2528,12 @@
             {
               "source_id": "src-18-it-re-1946-ete44",
               "locator": "dernier paragraphe de progression",
-              "usage": "rail (non vérifiée par Claude)"
+              "usage": "rail"
             },
             {
               "source_id": "src-18-it-re-1946-hiver44",
               "locator": "II.II.5",
-              "usage": "port_maritime, rail (non vérifiée par Claude)"
+              "usage": "port_maritime, rail"
             },
             {
               "source_id": "src-wikidata",
@@ -2567,7 +2568,7 @@
             "roles": [
               "rail"
             ],
-            "note": "Pise ouvre au trafic le 8 novembre 1944. Fonctions historiques documentées avant le Snapshot ; service et capacités de fin 1944 non déduits. Repère Wikidata Q13375 actuel ; centre exact de 1945 non certifié (R18-01). À renforcer : rail."
+            "note": "Pise ouvre au trafic le 8 novembre 1944. Fonctions historiques documentées avant le Snapshot ; service et capacités de fin 1944 non déduits. Repère Wikidata Q13375 actuel ; centre exact de 1945 non certifié (R18-01)."
           },
           "geometrie": {
             "type": "Point",
@@ -2580,7 +2581,7 @@
             {
               "source_id": "src-18-it-re-1946-hiver44",
               "locator": "II.II.5",
-              "usage": "rail (non vérifiée par Claude)"
+              "usage": "rail"
             },
             {
               "source_id": "src-wikidata",
@@ -2615,7 +2616,7 @@
             "roles": [
               "rail"
             ],
-            "note": "La remise en desserte est un objectif de l’hiver ; la liaison depuis Pise demeure coupée fin 1944. Fonctions historiques documentées avant le Snapshot ; service et capacités de fin 1944 non déduits. Repère Wikidata Q2044 actuel ; centre exact de 1945 non certifié (R18-01). À renforcer : rail."
+            "note": "La remise en desserte est un objectif de l’hiver ; la liaison depuis Pise demeure coupée fin 1944. Fonctions historiques documentées avant le Snapshot ; service et capacités de fin 1944 non déduits. Repère Wikidata Q2044 actuel ; centre exact de 1945 non certifié (R18-01)."
           },
           "geometrie": {
             "type": "Point",
@@ -2628,7 +2629,7 @@
             {
               "source_id": "src-18-it-re-1946-hiver44",
               "locator": "II.II.5",
-              "usage": "rail (non vérifiée par Claude)"
+              "usage": "rail"
             },
             {
               "source_id": "src-wikidata",
@@ -2663,7 +2664,7 @@
             "roles": [
               "rail"
             ],
-            "note": "La source documente pour la ville les éléments suivants : nœud visé par la reconstruction engagée en octobre 1944 ; reprise du trafic non anticipée. Fonctions historiques documentées avant le Snapshot ; service et capacités de fin 1944 non déduits. Repère Wikidata Q13377 actuel ; centre exact de 1945 non certifié (R18-01). À renforcer : rail."
+            "note": "La source documente pour la ville les éléments suivants : nœud visé par la reconstruction engagée en octobre 1944 ; reprise du trafic non anticipée. Fonctions historiques documentées avant le Snapshot ; service et capacités de fin 1944 non déduits. Repère Wikidata Q13377 actuel ; centre exact de 1945 non certifié (R18-01)."
           },
           "geometrie": {
             "type": "Point",
@@ -2676,7 +2677,7 @@
             {
               "source_id": "src-18-it-re-1946-hiver44",
               "locator": "II.II.5",
-              "usage": "rail (non vérifiée par Claude)"
+              "usage": "rail"
             },
             {
               "source_id": "src-wikidata",
@@ -2711,7 +2712,7 @@
             "roles": [
               "rail"
             ],
-            "note": "La source documente pour la ville les éléments suivants : tête de ligne projetée à l’automne 1944 ; ouverture non prouvée avant janvier 1945. Fonctions historiques documentées avant le Snapshot ; service et capacités de fin 1944 non déduits. Repère Wikidata Q13376 actuel ; centre exact de 1945 non certifié (R18-01). À renforcer : rail."
+            "note": "La source documente pour la ville les éléments suivants : tête de ligne projetée à l’automne 1944 ; ouverture non prouvée avant janvier 1945. Fonctions historiques documentées avant le Snapshot ; service et capacités de fin 1944 non déduits. Repère Wikidata Q13376 actuel ; centre exact de 1945 non certifié (R18-01)."
           },
           "geometrie": {
             "type": "Point",
@@ -2724,7 +2725,7 @@
             {
               "source_id": "src-18-it-re-1946-hiver44",
               "locator": "II.II.5",
-              "usage": "rail (non vérifiée par Claude)"
+              "usage": "rail"
             },
             {
               "source_id": "src-wikidata",
@@ -2813,7 +2814,7 @@
             "roles": [
               "rail"
             ],
-            "note": "La source documente pour la ville les éléments suivants : gare de bifurcation de la ligne côtière réparée en 1944. Fonctions historiques documentées avant le Snapshot ; service et capacités de fin 1944 non déduits. Repère Wikidata Q499139 actuel ; centre exact de 1945 non certifié (R18-01). À renforcer : rail."
+            "note": "La source documente pour la ville les éléments suivants : gare de bifurcation de la ligne côtière réparée en 1944. Fonctions historiques documentées avant le Snapshot ; service et capacités de fin 1944 non déduits. Repère Wikidata Q499139 actuel ; centre exact de 1945 non certifié (R18-01)."
           },
           "geometrie": {
             "type": "Point",
@@ -2826,7 +2827,7 @@
             {
               "source_id": "src-18-it-re-1946-ligne89",
               "locator": "description et phases",
-              "usage": "rail (lecture partielle)"
+              "usage": "rail (page relue par Claude pour cette ville : rail)"
             },
             {
               "source_id": "src-wikidata",
@@ -2861,7 +2862,7 @@
             "roles": [
               "rail"
             ],
-            "note": "La ligne côtière traverse Formia, dans le secteur réparé de mai à juillet 1944. Fonctions historiques documentées avant le Snapshot ; service et capacités de fin 1944 non déduits. Repère Wikidata Q128086 actuel ; centre exact de 1945 non certifié (R18-01). À renforcer : rail."
+            "note": "La ligne côtière traverse Formia, dans le secteur réparé de mai à juillet 1944. Fonctions historiques documentées avant le Snapshot ; service et capacités de fin 1944 non déduits. Repère Wikidata Q128086 actuel ; centre exact de 1945 non certifié (R18-01)."
           },
           "geometrie": {
             "type": "Point",
@@ -2874,7 +2875,7 @@
             {
               "source_id": "src-18-it-re-1946-ligne89",
               "locator": "description et phases",
-              "usage": "rail (lecture partielle)"
+              "usage": "rail (page relue par Claude pour cette ville : rail)"
             },
             {
               "source_id": "src-wikidata",
@@ -2909,7 +2910,7 @@
             "roles": [
               "rail"
             ],
-            "note": "Le franchissement ferroviaire au sud de Minturno rouvre le 5 juin 1944. Fonctions historiques documentées avant le Snapshot ; service et capacités de fin 1944 non déduits. Repère Wikidata Q128105 actuel ; centre exact de 1945 non certifié (R18-01). À renforcer : rail."
+            "note": "Le franchissement ferroviaire au sud de Minturno rouvre le 5 juin 1944. Fonctions historiques documentées avant le Snapshot ; service et capacités de fin 1944 non déduits. Repère Wikidata Q128105 actuel ; centre exact de 1945 non certifié (R18-01)."
           },
           "geometrie": {
             "type": "Point",
@@ -2922,7 +2923,7 @@
             {
               "source_id": "src-18-it-re-1946-ligne89",
               "locator": "§c",
-              "usage": "rail (lecture partielle)"
+              "usage": "rail (page relue par Claude pour cette ville : rail)"
             },
             {
               "source_id": "src-wikidata",
@@ -3005,7 +3006,7 @@
             "roles": [
               "rail"
             ],
-            "note": "La traversée ferroviaire très détruite est rétablie entre avril et juillet 1944. Fonctions historiques documentées avant le Snapshot ; service et capacités de fin 1944 non déduits. Repère Wikidata Q116592 actuel ; centre exact de 1945 non certifié (R18-01). À renforcer : rail."
+            "note": "La traversée ferroviaire très détruite est rétablie entre avril et juillet 1944. Fonctions historiques documentées avant le Snapshot ; service et capacités de fin 1944 non déduits. Repère Wikidata Q116592 actuel ; centre exact de 1945 non certifié (R18-01)."
           },
           "geometrie": {
             "type": "Point",
@@ -3018,7 +3019,7 @@
             {
               "source_id": "src-18-it-re-1946-ligne90",
               "locator": "phases",
-              "usage": "rail (non vérifiée par Claude)"
+              "usage": "rail"
             },
             {
               "source_id": "src-wikidata",
@@ -3053,7 +3054,7 @@
             "roles": [
               "rail"
             ],
-            "note": "Le pont ferroviaire du Volturno est réparé en novembre 1943. Fonctions historiques documentées avant le Snapshot ; service et capacités de fin 1944 non déduits. Repère Wikidata Q58477 actuel ; centre exact de 1945 non certifié (R18-01). À renforcer : rail."
+            "note": "Le pont ferroviaire du Volturno est réparé en novembre 1943. Fonctions historiques documentées avant le Snapshot ; service et capacités de fin 1944 non déduits. Repère Wikidata Q58477 actuel ; centre exact de 1945 non certifié (R18-01)."
           },
           "geometrie": {
             "type": "Point",
@@ -3066,7 +3067,7 @@
             {
               "source_id": "src-18-it-re-1946-ligne90",
               "locator": "§a",
-              "usage": "rail (non vérifiée par Claude)"
+              "usage": "rail"
             },
             {
               "source_id": "src-wikidata",
@@ -3101,7 +3102,7 @@
             "roles": [
               "rail"
             ],
-            "note": "Le viaduc au nord de Mignano rouvre le 2 juin 1944. Fonctions historiques documentées avant le Snapshot ; service et capacités de fin 1944 non déduits. Repère Wikidata Q58714 actuel ; centre exact de 1945 non certifié (R18-01). À renforcer : rail."
+            "note": "Le viaduc au nord de Mignano rouvre le 2 juin 1944. Fonctions historiques documentées avant le Snapshot ; service et capacités de fin 1944 non déduits. Repère Wikidata Q58714 actuel ; centre exact de 1945 non certifié (R18-01)."
           },
           "geometrie": {
             "type": "Point",
@@ -3114,7 +3115,7 @@
             {
               "source_id": "src-18-it-re-1946-ligne90",
               "locator": "§b",
-              "usage": "rail (non vérifiée par Claude)"
+              "usage": "rail"
             },
             {
               "source_id": "src-wikidata",
@@ -3149,7 +3150,7 @@
             "roles": [
               "rail"
             ],
-            "note": "La source documente pour la ville les éléments suivants : bifurcation des lignes vers Rome et Ancône, liaison annoncée rétablie le 3 septembre 1944. Fonctions historiques documentées avant le Snapshot ; service et capacités de fin 1944 non déduits. Repère Wikidata Q176180 actuel ; centre exact de 1945 non certifié (R18-01). À renforcer : rail."
+            "note": "La source documente pour la ville les éléments suivants : bifurcation des lignes vers Rome et Ancône, liaison annoncée rétablie le 3 septembre 1944. Fonctions historiques documentées avant le Snapshot ; service et capacités de fin 1944 non déduits. Repère Wikidata Q176180 actuel ; centre exact de 1945 non certifié (R18-01)."
           },
           "geometrie": {
             "type": "Point",
@@ -3162,7 +3163,7 @@
             {
               "source_id": "src-18-it-re-1946-ligne87",
               "locator": "description, calendrier et §b",
-              "usage": "rail (non vérifiée par Claude)"
+              "usage": "rail (page relue par Claude pour cette ville : rail)"
             },
             {
               "source_id": "src-wikidata",
@@ -3198,7 +3199,7 @@
               "industrie",
               "rail"
             ],
-            "note": "La source documente pour la ville les éléments suivants : ville industrielle traversée par la ligne réparée en 1944 ; viaduc nord réparé en juillet. Fonctions historiques documentées avant le Snapshot ; service et capacités de fin 1944 non déduits. Repère Wikidata Q8621 actuel ; centre exact de 1945 non certifié (R18-01). À renforcer : industrie, rail."
+            "note": "La source documente pour la ville les éléments suivants : ville industrielle traversée par la ligne réparée en 1944 ; viaduc nord réparé en juillet. Fonctions historiques documentées avant le Snapshot ; service et capacités de fin 1944 non déduits. Repère Wikidata Q8621 actuel ; centre exact de 1945 non certifié (R18-01)."
           },
           "geometrie": {
             "type": "Point",
@@ -3211,7 +3212,7 @@
             {
               "source_id": "src-18-it-re-1946-ligne87",
               "locator": "description, calendrier et §b",
-              "usage": "rail, industrie (non vérifiée par Claude)"
+              "usage": "rail, industrie (page relue par Claude pour cette ville : industrie, rail)"
             },
             {
               "source_id": "src-wikidata",
@@ -3247,7 +3248,7 @@
               "industrie",
               "rail"
             ],
-            "note": "La source documente pour la ville les éléments suivants : ville d’ateliers ferroviaires ; liaison rétablie en juillet 1944. Fonctions historiques documentées avant le Snapshot ; service et capacités de fin 1944 non déduits. Repère Wikidata Q20436 actuel ; centre exact de 1945 non certifié (R18-01). À renforcer : industrie, rail."
+            "note": "La source documente pour la ville les éléments suivants : ville d’ateliers ferroviaires ; liaison rétablie en juillet 1944. Fonctions historiques documentées avant le Snapshot ; service et capacités de fin 1944 non déduits. Repère Wikidata Q20436 actuel ; centre exact de 1945 non certifié (R18-01). À renforcer : industrie."
           },
           "geometrie": {
             "type": "Point",
@@ -3260,7 +3261,7 @@
             {
               "source_id": "src-18-it-re-1946-ligne87",
               "locator": "description, calendrier et §b",
-              "usage": "rail, industrie (non vérifiée par Claude)"
+              "usage": "rail, industrie (page relue par Claude pour cette ville : rail)"
             },
             {
               "source_id": "src-wikidata",
@@ -3308,7 +3309,7 @@
             {
               "source_id": "src-18-it-re-1946-ligne87",
               "locator": "description, calendrier et §b",
-              "usage": "rail (non vérifiée par Claude)"
+              "usage": "rail (lecture partielle)"
             },
             {
               "source_id": "src-wikidata",
@@ -3343,7 +3344,7 @@
             "roles": [
               "rail"
             ],
-            "note": "La source documente pour la ville les éléments suivants : bifurcation vers Ancône ; ligne rouverte le 3 septembre 1944. Fonctions historiques documentées avant le Snapshot ; service et capacités de fin 1944 non déduits. Repère Wikidata Q124005 actuel ; centre exact de 1945 non certifié (R18-01). À renforcer : rail."
+            "note": "La source documente pour la ville les éléments suivants : bifurcation vers Ancône ; ligne rouverte le 3 septembre 1944. Fonctions historiques documentées avant le Snapshot ; service et capacités de fin 1944 non déduits. Repère Wikidata Q124005 actuel ; centre exact de 1945 non certifié (R18-01)."
           },
           "geometrie": {
             "type": "Point",
@@ -3356,7 +3357,7 @@
             {
               "source_id": "src-18-it-re-1946-ligne87",
               "locator": "description, calendrier et §b",
-              "usage": "rail (non vérifiée par Claude)"
+              "usage": "rail (page relue par Claude pour cette ville : rail)"
             },
             {
               "source_id": "src-wikidata",
@@ -3404,7 +3405,7 @@
             {
               "source_id": "src-18-it-re-1946-ligne87",
               "locator": "description, calendrier et §b",
-              "usage": "rail (non vérifiée par Claude)"
+              "usage": "rail (lecture partielle)"
             },
             {
               "source_id": "src-wikidata",
@@ -3439,7 +3440,7 @@
             "roles": [
               "rail"
             ],
-            "note": "La ligne desservant Empoli est coupée au Snapshot ; sa réouverture est datée d’avril 1945. Fonctions historiques documentées avant le Snapshot ; service et capacités de fin 1944 non déduits. Repère Wikidata Q6697 actuel ; centre exact de 1945 non certifié (R18-01). À renforcer : rail."
+            "note": "La ligne desservant Empoli est coupée au Snapshot ; sa réouverture est datée d’avril 1945. Fonctions historiques documentées avant le Snapshot ; service et capacités de fin 1944 non déduits. Repère Wikidata Q6697 actuel ; centre exact de 1945 non certifié (R18-01)."
           },
           "geometrie": {
             "type": "Point",
@@ -3452,7 +3453,7 @@
             {
               "source_id": "src-18-it-re-1946-ligne219",
               "locator": "intitulé et description",
-              "usage": "rail (non vérifiée par Claude)"
+              "usage": "rail"
             },
             {
               "source_id": "src-wikidata",
@@ -3689,7 +3690,7 @@
               "industrie",
               "rail"
             ],
-            "note": "Triages, ateliers et rotondes sont figurés dans l’agglomération Athènes–Le Pirée. Le rapport situe à Athènes la capitale et le siège de la liaison militaire des secours. La source documente pour la ville les éléments suivants : centre industriel cité. Fonctions historiques documentées avant le Snapshot ; service et capacités de fin 1944 non déduits. Repère Wikidata Q1524 actuel ; centre exact de 1945 non certifié (R18-01). À renforcer : industrie.",
+            "note": "Triages, ateliers et rotondes sont figurés dans l’agglomération Athènes–Le Pirée. Le rapport situe à Athènes la capitale et le siège de la liaison militaire des secours. La source documente pour la ville les éléments suivants : centre industriel cité. Fonctions historiques documentées avant le Snapshot ; service et capacités de fin 1944 non déduits. Repère Wikidata Q1524 actuel ; centre exact de 1945 non certifié (R18-01).",
             "capitale": "nationale"
           },
           "geometrie": {
@@ -3713,7 +3714,7 @@
             {
               "source_id": "src-18-gr-treccani1933",
               "locator": "Industria",
-              "usage": "industrie (lecture partielle)"
+              "usage": "industrie (page relue par Claude pour cette ville : industrie)"
             },
             {
               "source_id": "src-wikidata",
@@ -3752,7 +3753,7 @@
               "port_maritime",
               "rail"
             ],
-            "note": "Le terminus portuaire est raccordé aux réseaux et accompagné de symboles d’installations ferroviaires. La source documente pour la ville les éléments suivants : dépôt portuaire de secours ouvert en 1944 (16 octobre). La source documente pour la ville les éléments suivants : centre industriel cité. Fonctions historiques documentées avant le Snapshot ; service et capacités de fin 1944 non déduits. Repère Wikidata Q58976 actuel ; centre exact de 1945 non certifié (R18-01). À renforcer : industrie, port_maritime."
+            "note": "Le terminus portuaire est raccordé aux réseaux et accompagné de symboles d’installations ferroviaires. La source documente pour la ville les éléments suivants : dépôt portuaire de secours ouvert en 1944 (16 octobre). La source documente pour la ville les éléments suivants : centre industriel cité. Fonctions historiques documentées avant le Snapshot ; service et capacités de fin 1944 non déduits. Repère Wikidata Q58976 actuel ; centre exact de 1945 non certifié (R18-01)."
           },
           "geometrie": {
             "type": "Point",
@@ -3770,12 +3771,12 @@
             {
               "source_id": "src-18-us-elia-relief1944",
               "locator": "Image PDF 2, tableau des Port Depots et dernier paragraphe",
-              "usage": "port_maritime (lecture partielle)"
+              "usage": "port_maritime (page relue par Claude pour cette ville : port_maritime)"
             },
             {
               "source_id": "src-18-gr-treccani1933",
               "locator": "Industria",
-              "usage": "industrie (lecture partielle)"
+              "usage": "industrie (page relue par Claude pour cette ville : industrie)"
             },
             {
               "source_id": "src-wikidata",
@@ -3813,7 +3814,7 @@
               "port_maritime",
               "rail"
             ],
-            "note": "La carte signale une rotonde sur la ligne métrique. La source documente pour la ville les éléments suivants : dépôt portuaire de secours ouvert en 1944 (18 octobre). Distribution ensuite largement limitée au port selon le rapport. Fonctions historiques documentées avant le Snapshot ; service et capacités de fin 1944 non déduits. Repère Wikidata Q133123 actuel ; centre exact de 1945 non certifié (R18-01). À renforcer : port_maritime."
+            "note": "La carte signale une rotonde sur la ligne métrique. La source documente pour la ville les éléments suivants : dépôt portuaire de secours ouvert en 1944 (18 octobre). Distribution ensuite largement limitée au port selon le rapport. Fonctions historiques documentées avant le Snapshot ; service et capacités de fin 1944 non déduits. Repère Wikidata Q133123 actuel ; centre exact de 1945 non certifié (R18-01)."
           },
           "geometrie": {
             "type": "Point",
@@ -3831,7 +3832,7 @@
             {
               "source_id": "src-18-us-elia-relief1944",
               "locator": "Image PDF 2, tableau des Port Depots et dernier paragraphe",
-              "usage": "port_maritime (lecture partielle)"
+              "usage": "port_maritime (page relue par Claude pour cette ville : port_maritime)"
             },
             {
               "source_id": "src-wikidata",
@@ -4581,7 +4582,7 @@
               "port_maritime",
               "rail"
             ],
-            "note": "Le nœud des voies étroites comporte rotondes et atelier. La source documente pour la ville les éléments suivants : dépôt portuaire de secours ouvert en 1944 (novembre, jour peu lisible). Opérations suspendues le 15 décembre selon le rapport. Fonctions historiques documentées avant le Snapshot ; service et capacités de fin 1944 non déduits. Repère Wikidata Q200036 actuel ; centre exact de 1945 non certifié (R18-01). À renforcer : port_maritime."
+            "note": "Le nœud des voies étroites comporte rotondes et atelier. La source documente pour la ville les éléments suivants : dépôt portuaire de secours ouvert en 1944 (novembre, jour peu lisible). Opérations suspendues le 15 décembre selon le rapport. Fonctions historiques documentées avant le Snapshot ; service et capacités de fin 1944 non déduits. Repère Wikidata Q200036 actuel ; centre exact de 1945 non certifié (R18-01)."
           },
           "geometrie": {
             "type": "Point",
@@ -4599,7 +4600,7 @@
             {
               "source_id": "src-18-us-elia-relief1944",
               "locator": "Image PDF 2, tableau des Port Depots et dernier paragraphe",
-              "usage": "port_maritime (lecture partielle)"
+              "usage": "port_maritime (page relue par Claude pour cette ville : port_maritime)"
             },
             {
               "source_id": "src-wikidata",
@@ -4838,7 +4839,7 @@
               "port_maritime",
               "rail"
             ],
-            "note": "La carte montre plusieurs triages, ateliers et rotondes au principal nœud du Nord. Le port est relié au rail avant 1912 ; zones franches en 1925 et 1929. Ses installations subissent bombardements et démolitions en 1944. La source documente pour la ville les éléments suivants : dépôt portuaire de secours ouvert en 1944 (15 novembre). Distribution ensuite largement limitée au port selon le rapport. La source documente pour la ville les éléments suivants : centre industriel cité. Fonctions historiques documentées avant le Snapshot ; service et capacités de fin 1944 non déduits. Repère Wikidata Q17151 actuel ; centre exact de 1945 non certifié (R18-01). À renforcer : industrie."
+            "note": "La carte montre plusieurs triages, ateliers et rotondes au principal nœud du Nord. Le port est relié au rail avant 1912 ; zones franches en 1925 et 1929. Ses installations subissent bombardements et démolitions en 1944. La source documente pour la ville les éléments suivants : dépôt portuaire de secours ouvert en 1944 (15 novembre). Distribution ensuite largement limitée au port selon le rapport. La source documente pour la ville les éléments suivants : centre industriel cité. Fonctions historiques documentées avant le Snapshot ; service et capacités de fin 1944 non déduits. Repère Wikidata Q17151 actuel ; centre exact de 1945 non certifié (R18-01)."
           },
           "geometrie": {
             "type": "Point",
@@ -4861,12 +4862,12 @@
             {
               "source_id": "src-18-us-elia-relief1944",
               "locator": "Image PDF 2, tableau des Port Depots et dernier paragraphe",
-              "usage": "port_maritime (lecture partielle)"
+              "usage": "port_maritime (page relue par Claude pour cette ville : port_maritime)"
             },
             {
               "source_id": "src-18-gr-treccani1933",
               "locator": "Industria",
-              "usage": "industrie (lecture partielle)"
+              "usage": "industrie (page relue par Claude pour cette ville : industrie)"
             },
             {
               "source_id": "src-wikidata",
@@ -5902,7 +5903,7 @@
               "port_maritime",
               "rail"
             ],
-            "note": "La liaison ferroviaire vers Cernavodă ouvre en 1860. La source documente pour la ville les éléments suivants : port avec docks, entrepôts, silos et bassin pétrolier inauguré en 1909. Fonctions historiques documentées avant le Snapshot ; service et capacités de fin 1944 non déduits. Repère Wikidata Q79808 actuel ; centre exact de 1945 non certifié (R18-01). À renforcer : port_maritime."
+            "note": "La liaison ferroviaire vers Cernavodă ouvre en 1860. La source documente pour la ville les éléments suivants : port avec docks, entrepôts, silos et bassin pétrolier inauguré en 1909. Fonctions historiques documentées avant le Snapshot ; service et capacités de fin 1944 non déduits. Repère Wikidata Q79808 actuel ; centre exact de 1945 non certifié (R18-01)."
           },
           "geometrie": {
             "type": "Point",
@@ -5920,7 +5921,7 @@
             {
               "source_id": "src-18-ro-constanta-mnhr1906",
               "locator": "Description, modernisation 1909",
-              "usage": "port_maritime (non vérifiée par Claude)"
+              "usage": "port_maritime"
             },
             {
               "source_id": "src-wikidata",
@@ -6712,7 +6713,7 @@
             "roles": [
               "rail"
             ],
-            "note": "La source documente pour la ville les éléments suivants : desservie dès les premiers travaux ; direction ferroviaire jusqu’en 1886. Fonctions historiques documentées avant le Snapshot ; service et capacités de fin 1944 non déduits. Repère Wikidata Q768439 actuel ; centre exact de 1945 non certifié (R18-01). À renforcer : rail."
+            "note": "La source documente pour la ville les éléments suivants : desservie dès les premiers travaux ; direction ferroviaire jusqu’en 1886. Fonctions historiques documentées avant le Snapshot ; service et capacités de fin 1944 non déduits. Repère Wikidata Q768439 actuel ; centre exact de 1945 non certifié (R18-01)."
           },
           "geometrie": {
             "type": "Point",
@@ -6725,7 +6726,7 @@
             {
               "source_id": "src-18-ba-zfbh-histoire",
               "locator": "1878–1886",
-              "usage": "rail (lecture partielle)"
+              "usage": "rail (page relue par Claude pour cette ville : rail)"
             },
             {
               "source_id": "src-wikidata",
@@ -15017,7 +15018,7 @@
               "port_maritime",
               "rail"
             ],
-            "note": "La source documente pour la ville les éléments suivants : desserte représentée sur la carte du 16 juillet 1943 ; trafic au Snapshot non établi par cette carte. La source documente pour la ville les éléments suivants : gare maritime inaugurée en 1930 ; nomOlbia rétabli en 1939. Fonctions historiques documentées avant le Snapshot ; service et capacités de fin 1944 non déduits. Repère Wikidata Q13630 actuel ; centre exact de 1945 non certifié (R18-01). À renforcer : port_maritime."
+            "note": "La source documente pour la ville les éléments suivants : desserte représentée sur la carte du 16 juillet 1943 ; trafic au Snapshot non établi par cette carte. La source documente pour la ville les éléments suivants : gare maritime inaugurée en 1930 ; nomOlbia rétabli en 1939. Fonctions historiques documentées avant le Snapshot ; service et capacités de fin 1944 non déduits. Repère Wikidata Q13630 actuel ; centre exact de 1945 non certifié (R18-01)."
           },
           "geometrie": {
             "type": "Point",
@@ -15035,7 +15036,7 @@
             {
               "source_id": "src-18-it-olbia-archeologie2023",
               "locator": "Page 55, port 1930 et nom 1939",
-              "usage": "port_maritime (non vérifiée par Claude)"
+              "usage": "port_maritime"
             },
             {
               "source_id": "src-wikidata",
@@ -16282,7 +16283,7 @@
             "roles": [
               "industrie"
             ],
-            "note": "La source documente pour la ville les éléments suivants : machines-outils, ressorts et balances : implantations industrielles du dernier quart du XIXe siècle. Fonctions historiques documentées avant le Snapshot ; service et capacités de fin 1944 non déduits. Repère Wikidata Q83324 actuel ; centre exact de 1945 non certifié (R18-01). À renforcer : industrie."
+            "note": "La source documente pour la ville les éléments suivants : machines-outils, ressorts et balances : implantations industrielles du dernier quart du XIXe siècle. Fonctions historiques documentées avant le Snapshot ; service et capacités de fin 1944 non déduits. Repère Wikidata Q83324 actuel ; centre exact de 1945 non certifié (R18-01)."
           },
           "geometrie": {
             "type": "Point",
@@ -16295,7 +16296,7 @@
             {
               "source_id": "src-18-ro-sibiu-ville-histoire",
               "locator": "1875, 1886, 1897",
-              "usage": "industrie (non vérifiée par Claude)"
+              "usage": "industrie"
             },
             {
               "source_id": "src-wikidata",
@@ -16914,7 +16915,7 @@
               "industrie",
               "port_maritime"
             ],
-            "note": "La source documente pour la ville les éléments suivants : dépôt portuaire de secours ouvert en 1944 (19 novembre). Opérations suspendues le 15 décembre selon le rapport. La source documente pour la ville les éléments suivants : centre industriel cité. Fonctions historiques documentées avant le Snapshot ; service et capacités de fin 1944 non déduits. Repère Wikidata Q187352 actuel ; centre exact de 1945 non certifié (R18-01). À renforcer : industrie, port_maritime."
+            "note": "La source documente pour la ville les éléments suivants : dépôt portuaire de secours ouvert en 1944 (19 novembre). Opérations suspendues le 15 décembre selon le rapport. La source documente pour la ville les éléments suivants : centre industriel cité. Fonctions historiques documentées avant le Snapshot ; service et capacités de fin 1944 non déduits. Repère Wikidata Q187352 actuel ; centre exact de 1945 non certifié (R18-01)."
           },
           "geometrie": {
             "type": "Point",
@@ -16927,12 +16928,12 @@
             {
               "source_id": "src-18-us-elia-relief1944",
               "locator": "Image PDF 2, tableau des Port Depots et dernier paragraphe",
-              "usage": "port_maritime (lecture partielle)"
+              "usage": "port_maritime (page relue par Claude pour cette ville : port_maritime)"
             },
             {
               "source_id": "src-18-gr-treccani1933",
               "locator": "Industria",
-              "usage": "industrie (lecture partielle)"
+              "usage": "industrie (page relue par Claude pour cette ville : industrie)"
             },
             {
               "source_id": "src-wikidata",
@@ -16967,7 +16968,7 @@
             "roles": [
               "port_maritime"
             ],
-            "note": "La source documente pour la ville les éléments suivants : dépôt portuaire de secours ouvert en 1944 (début octobre). Fonctions historiques documentées avant le Snapshot ; service et capacités de fin 1944 non déduits. Repère Wikidata Q189059 actuel ; centre exact de 1945 non certifié (R18-01). À renforcer : port_maritime."
+            "note": "La source documente pour la ville les éléments suivants : dépôt portuaire de secours ouvert en 1944 (début octobre). Fonctions historiques documentées avant le Snapshot ; service et capacités de fin 1944 non déduits. Repère Wikidata Q189059 actuel ; centre exact de 1945 non certifié (R18-01)."
           },
           "geometrie": {
             "type": "Point",
@@ -16980,7 +16981,7 @@
             {
               "source_id": "src-18-us-elia-relief1944",
               "locator": "Image PDF 2, tableau des Port Depots et dernier paragraphe",
-              "usage": "port_maritime (lecture partielle)"
+              "usage": "port_maritime (page relue par Claude pour cette ville : port_maritime)"
             },
             {
               "source_id": "src-wikidata",
@@ -17015,7 +17016,7 @@
             "roles": [
               "port_maritime"
             ],
-            "note": "La source documente pour la ville les éléments suivants : dépôt portuaire de secours ouvert en 1944 (début octobre). Fonctions historiques documentées avant le Snapshot ; service et capacités de fin 1944 non déduits. Repère Wikidata Q748832 actuel ; centre exact de 1945 non certifié (R18-01). À renforcer : port_maritime."
+            "note": "La source documente pour la ville les éléments suivants : dépôt portuaire de secours ouvert en 1944 (début octobre). Fonctions historiques documentées avant le Snapshot ; service et capacités de fin 1944 non déduits. Repère Wikidata Q748832 actuel ; centre exact de 1945 non certifié (R18-01)."
           },
           "geometrie": {
             "type": "Point",
@@ -17028,7 +17029,7 @@
             {
               "source_id": "src-18-us-elia-relief1944",
               "locator": "Image PDF 2, tableau des Port Depots et dernier paragraphe",
-              "usage": "port_maritime (lecture partielle)"
+              "usage": "port_maritime (page relue par Claude pour cette ville : port_maritime)"
             },
             {
               "source_id": "src-wikidata",
@@ -17063,7 +17064,7 @@
             "roles": [
               "port_maritime"
             ],
-            "note": "La source documente pour la ville les éléments suivants : dépôt portuaire de secours ouvert en 1944 (4 décembre). Fonctions historiques documentées avant le Snapshot ; service et capacités de fin 1944 non déduits. Repère Wikidata Q160544 actuel ; centre exact de 1945 non certifié (R18-01). À renforcer : port_maritime."
+            "note": "La source documente pour la ville les éléments suivants : dépôt portuaire de secours ouvert en 1944 (4 décembre). Fonctions historiques documentées avant le Snapshot ; service et capacités de fin 1944 non déduits. Repère Wikidata Q160544 actuel ; centre exact de 1945 non certifié (R18-01)."
           },
           "geometrie": {
             "type": "Point",
@@ -17076,7 +17077,7 @@
             {
               "source_id": "src-18-us-elia-relief1944",
               "locator": "Image PDF 2, tableau des Port Depots et dernier paragraphe",
-              "usage": "port_maritime (lecture partielle)"
+              "usage": "port_maritime (page relue par Claude pour cette ville : port_maritime)"
             },
             {
               "source_id": "src-wikidata",
@@ -17735,7 +17736,7 @@
               "industrie",
               "rail"
             ],
-            "note": "La source documente pour la ville les éléments suivants : matériel de forage et passage ferroviaire de laPrahova. Fonctions historiques documentées avant le Snapshot ; service et capacités de fin 1944 non déduits. Repère Wikidata Q179585 actuel ; centre exact de 1945 non certifié (R18-01). À renforcer : industrie, rail."
+            "note": "La source documente pour la ville les éléments suivants : matériel de forage et passage ferroviaire de laPrahova. Fonctions historiques documentées avant le Snapshot ; service et capacités de fin 1944 non déduits. Repère Wikidata Q179585 actuel ; centre exact de 1945 non certifié (R18-01). À renforcer : rail."
           },
           "geometrie": {
             "type": "Point",
@@ -17748,7 +17749,7 @@
             {
               "source_id": "src-18-ro-treccani1936",
               "locator": "Centri urbani ; industrie metallurgiche",
-              "usage": "industrie, rail (lecture partielle)"
+              "usage": "industrie, rail (page relue par Claude pour cette ville : industrie)"
             },
             {
               "source_id": "src-wikidata",

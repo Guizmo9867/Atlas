@@ -1,5 +1,5 @@
 {
- "version_registre": "1.25",
+ "version_registre": "1.26",
  "sources": [
   {
    "id": "src-12a-chemnitz-industrie",
@@ -386,69 +386,6 @@
    ]
   },
   {
-   "id": "src-17-ru-kropotkine-ville",
-   "groupe": "a_lire",
-   "statut_claude": "non_verifiee",
-   "niveau": "B",
-   "titre": "Histoire de la ville deKropotkine",
-   "institution": "Administration municipale",
-   "url": "https://www.gorod-kropotkin.ru/o-gorode/o-gorode-kropotkine/",
-   "ou_regarder": "Histoire : gareKavkazskaïa1874 et nom1921",
-   "extrait": "",
-   "notes": "Proposée par Ether (villes 1.7, 03/10/2026). Ce que la source prouve selon Ether : ville-ru-kropotkine — rail : Gare Kavkazskaïa identifiée à la ville devenue Kropotkine en 1921.; Les cibles différées restent des réserves ; seules les entités du JSON final sont proposées à l’import.. Limite annoncée par Ether : Historique local rétrospectif ; fonctions modernes non reprises. Relecture Claude 04/10/2026 : WebFetch a échoué à deux reprises (erreur « Too many redirects ») ; la page n'a pas pu être lue, donc ni gare Kavkazskaïa 1874 ni renommage de 1921 ne sont vérifiés.",
-   "domaine": "villes",
-   "villes": [
-    "Kropotkine"
-   ],
-   "remplacee_par": [],
-   "priorite": "importante",
-   "impact": [
-    "Kropotkine (rail)"
-   ]
-  },
-  {
-   "id": "src-17-tr-admin-ordu",
-   "groupe": "a_lire",
-   "statut_claude": "non_verifiee",
-   "niveau": "B",
-   "titre": "Notice historique deOrdu",
-   "institution": "Ministère turc de laCulture,TürkiyeKültürPortalı",
-   "url": "https://kulturportali.gov.tr/turkiye/ordu",
-   "ou_regarder": "SectionOrduKazasınınİlOluşu,1920–1921",
-   "extrait": "",
-   "notes": "Proposée par Ether (villes 1.7, 03/10/2026). Ce que la source prouve selon Ether : ville-tr-ordu — administration : Centre administratif devenu chef-lieu provincial en 1921.; Les cibles différées restent des réserves ; seules les entités du JSON final sont proposées à l’import.. Limite annoncée par Ether : Statut rétrospectif ; date exacte de promulgation à collationner ; pas de port moderne ni trafic1944 déduits. Relecture Claude 04/10/2026 : WebFetch refusé par robots.txt de kulturportali.gov.tr (ROBOTS_DISALLOWED, deux essais) ; la section sur l'accession d'Ordu au statut d'il en 1921 n'a pas pu être lue.",
-   "domaine": "villes",
-   "villes": [
-    "Ordu"
-   ],
-   "remplacee_par": [],
-   "priorite": "importante",
-   "impact": [
-    "Ordu (administration)"
-   ]
-  },
-  {
-   "id": "src-17-tr-kirklareli-gare",
-   "groupe": "a_lire",
-   "statut_claude": "non_verifiee",
-   "niveau": "B",
-   "titre": "Inventaire39-01-803,réservoir de la gare deKırklareli",
-   "institution": "Inventaire culturel deKırklareli",
-   "url": "https://kirklarelienvanteri.gov.tr/684-ada-1-parsel-su-deposu-277",
-   "ou_regarder": "GenelBilgiler :1910–1912,ŞarkDemiryolları,gares et trains à vapeur",
-   "extrait": "",
-   "notes": "Proposée par Ether (villes 1.7, 03/10/2026). Ce que la source prouve selon Ether : ville-tr-kirklareli — rail : Équipement de la gare locale construit pour les trains à vapeur en 1910–1912.; Les cibles différées restent des réserves ; seules les entités du JSON final sont proposées à l’import.. Limite annoncée par Ether : Bâtiment ferroviaire local daté ; ne mesure ni service1944 ni passage frontalier. Fiche de construction à compléter pour continuité. Relecture Claude 04/10/2026 : WebFetch a refusé la page (erreur robots.txt, ROBOTS_DISALLOWED après timeout). La mention 1910-1912 et Şark Demiryolları n'a pas pu être contrôlée.",
-   "domaine": "villes",
-   "villes": [
-    "Kırklareli"
-   ],
-   "remplacee_par": [],
-   "priorite": "importante",
-   "impact": [
-    "Kırklareli (rail)"
-   ]
-  },
-  {
    "id": "src-17-tr-maden-bakir-etude",
    "groupe": "a_lire",
    "statut_claude": "non_verifiee",
@@ -556,261 +493,6 @@
    "priorite": "importante",
    "impact": [
     "Tarente (militaire, port_maritime)"
-   ]
-  },
-  {
-   "id": "src-18-it-olbia-archeologie2023",
-   "groupe": "a_lire",
-   "statut_claude": "non_verifiee",
-   "niveau": "B",
-   "titre": "Olbia e le sue acque — relation archéologique, octobre 2023",
-   "institution": "Ville d’Olbia ; Ivan G.M. Lucherini",
-   "url": "https://servizionline.comune.olbia.ot.it/002-PubCED/2025.04.10-OlbiaAcque/ElabDescr/A-ElabGenSpecialistici/A6-ARC/A.6.1%20-%20A.6.2/A.6.1%20-%20Relazione_archeologica.pdf",
-   "ou_regarder": "Page 55/98, histoire moderne",
-   "extrait": "",
-   "notes": "Proposée par Ether (villes 1.8, 04/10/2026). Ce que la source prouve selon Ether : ville-it-olbia — port_maritime : Gare maritime inaugurée en 1930 ; nomOlbia rétabli en 1939.. Limite annoncée par Ether : Texte PDF lu ; capture du service Web indisponible. Les deux documents municipaux divergent sur le jour du changement de 1939 ; seule année retenue. Les cibles hors du fichier de données restent différées ; aucune validation humaine présumée. Relecture Claude 04/10/2026 : WebFetch n'a restitué que le texte jusqu'au Moyen Âge (6.4.7) ; la section 6.4.8 (époque moderne) avec la gare maritime de 1930 et le nom Olbia de 1939 n'est pas accessible. Impossible de conclure.",
-   "domaine": "villes",
-   "villes": [
-    "Olbia"
-   ],
-   "remplacee_par": [],
-   "priorite": "importante",
-   "impact": [
-    "Olbia (port_maritime)"
-   ]
-  },
-  {
-   "id": "src-18-it-re-1946-est43",
-   "groupe": "a_lire",
-   "statut_claude": "non_verifiee",
-   "niveau": "A",
-   "titre": "Railway reconstruction Italy 1943–1946, II.II.1",
-   "institution": "Royal Engineers (1946), transcription Treni di Carta",
-   "url": "https://www.trenidicarta.it/reconstruction/2_2_1.html",
-   "ou_regarder": "II.II.1, paragraphes 1,2 et 6",
-   "extrait": "",
-   "notes": "Proposée par Ether (villes 1.8, 04/10/2026). Ce que la source prouve selon Ether : ville-it-reggio-calabre — rail : La liaison Reggio–Tarente est rétablie fin septembre 1943. ; ville-it-tarente — rail : Terminus de la liaison rétablie en septembre 1943 ; arrivée des unités ferroviaires en octobre. ; ville-it-barletta — rail : Base du chantier ferroviaire qui rétablit la liaison vers San Severo en octobre 1943. ; ville-it-san-severo — rail : La ligne côtière remise en service atteint San Severo à la mi-octobre 1943. ; ville-it-foggia — rail : Le rapport situe les viaducs reconstruits sur la liaison Barletta–Foggia en 1943.. Limite annoncée par Ether : Rapport des services constructeurs, publié 1946 : seuls faits datés 1943 retenus ; transcription non collationnée sur édition papier. Ne prouve pas chaque niveau de service fin 1944. Les cibles hors du fichier de données restent différées ; aucune validation humaine présumée. Relecture Claude 04/10/2026 : WebFetch ne renvoie que l'en-tête et la navigation (Royal Engineers, 1946) ; le corps du texte est absent, deux essais. Aucune affirmation vérifiable.",
-   "domaine": "villes",
-   "villes": [
-    "Barletta",
-    "Foggia",
-    "Reggio de Calabre",
-    "San Severo",
-    "Tarente"
-   ],
-   "remplacee_par": [],
-   "priorite": "importante",
-   "impact": [
-    "Reggio de Calabre (rail)",
-    "Tarente (rail)",
-    "Barletta (rail)",
-    "San Severo (rail)",
-    "Foggia (rail)"
-   ]
-  },
-  {
-   "id": "src-18-it-re-1946-ete44",
-   "groupe": "a_lire",
-   "statut_claude": "non_verifiee",
-   "niveau": "A",
-   "titre": "Reconstruction ferroviaire en Italie : offensive de mai 1944",
-   "institution": "Royal Engineers, 1946 ; transcription Treni di Carta",
-   "url": "https://www.trenidicarta.it/reconstruction/2_2_4.html",
-   "ou_regarder": "II.II.4, § après figure 5 et paragraphes suivants",
-   "extrait": "",
-   "notes": "Proposée par Ether (villes 1.8, 04/10/2026). Ce que la source prouve selon Ether : ville-it-rome — rail : Rome est reliée à Naples le 2 juillet 1944. ; ville-it-roccasecca — rail : La tête de ligne ouvre le 17 juin 1944. ; ville-it-civita-castellana — rail : La tête de ligne ouvre le 7 juillet 1944 ; localisation urbaine de la gare à préciser. ; ville-it-civitavecchia — rail, port_maritime : Le rapport décrit la remise en liaison du port avec Rome en 1944. ; ville-it-grosseto — rail : La tête de ligne ouvre le 1 er août 1944. ; ville-it-arezzo — rail : La tête de ligne ouvre le 10 août 1944. ; ville-it-livourne — rail : Livourne est atteinte par les réparations ferroviaires le 17 septembre 1944.. Limite annoncée par Ether : Dates de remise en service de juin à septembre 1944. Le rapport est publié en 1946 ; pas de continuité du réseau entier présumée. Les cibles hors du fichier de données restent différées ; aucune validation humaine présumée. Relecture Claude 04/10/2026 : WebFetch ne renvoie que le titre et la navigation, sans corps de texte (deux essais). Aucune affirmation vérifiable.",
-   "domaine": "villes",
-   "villes": [
-    "Arezzo",
-    "ville-it-civita-castellana",
-    "Civitavecchia",
-    "Grosseto",
-    "Livourne",
-    "Roccasecca",
-    "Rome"
-   ],
-   "remplacee_par": [],
-   "priorite": "importante",
-   "impact": [
-    "Rome (rail)",
-    "Roccasecca (rail)",
-    "Civitavecchia (port_maritime)",
-    "Grosseto (rail)",
-    "Arezzo (rail)",
-    "Livourne (rail)"
-   ]
-  },
-  {
-   "id": "src-18-it-re-1946-hiver44",
-   "groupe": "a_lire",
-   "statut_claude": "non_verifiee",
-   "niveau": "A",
-   "titre": "Reconstruction ferroviaire en Italie : campagne hivernale 1944–1945",
-   "institution": "Royal Engineers, 1946 ; transcription Treni di Carta",
-   "url": "https://www.trenidicarta.it/reconstruction/2_2_5.html",
-   "ou_regarder": "II.II.5, paragraphes 1, 5–6 et dernier",
-   "extrait": "",
-   "notes": "Proposée par Ether (villes 1.8, 04/10/2026). Ce que la source prouve selon Ether : ville-it-livourne — port_maritime, rail : Le port sert de base à la Ve armée à l’automne 1944. ; ville-it-ancone — port_maritime, rail : Le port sert de base à la VIIIe armée à l’automne 1944. ; ville-it-rimini — rail : La tête de ligne ouvre le 14 octobre 1944. ; ville-it-pise — rail : Pise ouvre au trafic le 8 novembre 1944. ; ville-it-florence — rail : La remise en desserte est un objectif de l’hiver ; la liaison depuis Pise demeure coupée fin 1944. ; ville-it-prato — rail : Nœud visé par la reconstruction engagée en octobre 1944 ; reprise du trafic non anticipée. ; ville-it-pistoia — rail : Tête de ligne projetée à l’automne 1944 ; ouverture non prouvée avant janvier 1945.. Limite annoncée par Ether : Texte lu dans le navigateur, extraction web en échec d’encodage. Séparer les dates d’octobre/novembre 1944 et celles de janvier 1945. Les cibles hors du fichier de données restent différées ; aucune validation humaine présumée. Relecture Claude 04/10/2026 : WebFetch ne renvoie que le titre et la navigation, sans corps de texte (deux essais). Aucune affirmation vérifiable.",
-   "domaine": "villes",
-   "villes": [
-    "Ancône",
-    "Florence",
-    "Livourne",
-    "Pise",
-    "Pistoia",
-    "Prato",
-    "Rimini"
-   ],
-   "remplacee_par": [],
-   "priorite": "importante",
-   "impact": [
-    "Livourne (port_maritime, rail)",
-    "Pise (rail)",
-    "Florence (rail)",
-    "Prato (rail)",
-    "Pistoia (rail)"
-   ]
-  },
-  {
-   "id": "src-18-it-re-1946-ligne219",
-   "groupe": "a_lire",
-   "statut_claude": "non_verifiee",
-   "niveau": "A",
-   "titre": "Reconstruction ferroviaire en Italie : ligne 219",
-   "institution": "Royal Engineers, 1946 ; transcription Treni di Carta",
-   "url": "https://www.trenidicarta.it/reconstruction/2_3_10.html",
-   "ou_regarder": "II.III.10, description et date d’ouverture",
-   "extrait": "",
-   "notes": "Proposée par Ether (villes 1.8, 04/10/2026). Ce que la source prouve selon Ether : ville-it-empoli — rail : La ligne desservant Empoli est coupée au Snapshot ; sa réouverture est datée d’avril 1945.. Limite annoncée par Ether : Ligne Pise–Empoli–Florence antérieure à 1945, mais remise au trafic seulement le 1 er avril 1945. Rôle urbain historique distingué de l’état opérationnel. Les cibles hors du fichier de données restent différées ; aucune validation humaine présumée. Relecture Claude 04/10/2026 : WebFetch ne restitue que l'en-tête et la navigation ; corps du texte vide, Empoli et la date d'avril 1945 non vérifiables.",
-   "domaine": "villes",
-   "villes": [
-    "Empoli"
-   ],
-   "remplacee_par": [],
-   "priorite": "importante",
-   "impact": [
-    "Empoli (rail)"
-   ]
-  },
-  {
-   "id": "src-18-it-re-1946-ligne87",
-   "groupe": "a_lire",
-   "statut_claude": "non_verifiee",
-   "niveau": "A",
-   "titre": "Reconstruction ferroviaire en Italie : ligne 87",
-   "institution": "Royal Engineers, 1946 ; transcription Treni di Carta",
-   "url": "https://www.trenidicarta.it/reconstruction/2_3_7.html",
-   "ou_regarder": "II.III.7, description et calendrier général ; §b/c",
-   "extrait": "",
-   "notes": "Proposée par Ether (villes 1.8, 04/10/2026). Ce que la source prouve selon Ether : ville-it-orte — rail : Bifurcation des lignes vers Rome et Ancône, liaison annoncée rétablie le 3 septembre 1944. ; ville-it-terni — rail, industrie : Ville industrielle traversée par la ligne réparée en 1944 ; viaduc nord réparé en juillet. ; ville-it-foligno — rail, industrie : Ville d’ateliers ferroviaires ; liaison rétablie en juillet 1944. ; ville-it-fabriano — rail : Ville de la ligne Orte–Falconara rétablie en septembre 1944. ; ville-it-falconara — rail : Bifurcation vers Ancône ; ligne rouverte le 3 septembre 1944. ; ville-it-spolete — rail : Le tunnel au sud de la ville est réparé sous trafic en juillet–août 1944.. Limite annoncée par Ether : Liaison rétablie en septembre 1944. Le §a attribue 1945 au pont d’Orte, discordance avec le calendrier général 1944 : date du pont réservée. Les cibles hors du fichier de données restent différées ; aucune validation humaine présumée. Relecture Claude 04/10/2026 : WebFetch ne restitue que l'en-tête et la navigation de la page ; le corps du texte est vide, aucune affirmation ne peut être vérifiée.",
-   "domaine": "villes",
-   "villes": [
-    "Fabriano",
-    "Falconara Marittima",
-    "Foligno",
-    "Orte",
-    "Spolète",
-    "Terni"
-   ],
-   "remplacee_par": [],
-   "priorite": "importante",
-   "impact": [
-    "Orte (rail)",
-    "Terni (industrie, rail)",
-    "Foligno (industrie, rail)",
-    "Fabriano (rail)",
-    "Falconara Marittima (rail)",
-    "Spolète (rail)"
-   ]
-  },
-  {
-   "id": "src-18-it-re-1946-ligne90",
-   "groupe": "a_lire",
-   "statut_claude": "non_verifiee",
-   "niveau": "A",
-   "titre": "Reconstruction ferroviaire en Italie : ligne 90",
-   "institution": "Royal Engineers, 1946 ; transcription Treni di Carta",
-   "url": "https://www.trenidicarta.it/reconstruction/2_3_4.html",
-   "ou_regarder": "II.III.4, description et phases ; §a/b",
-   "extrait": "",
-   "notes": "Proposée par Ether (villes 1.8, 04/10/2026). Ce que la source prouve selon Ether : ville-it-cassino — rail : La traversée ferroviaire très détruite est rétablie entre avril et juillet 1944. ; ville-it-capoue — rail : Le pont ferroviaire du Volturno est réparé en novembre 1943. ; ville-it-mignano-monte-lungo — rail : Le viaduc au nord de Mignano rouvre le 2 juin 1944.. Limite annoncée par Ether : Réparations de 1943–1944, et destructions très fortes autour de Cassino. Aucun fonctionnement sans interruption présumé. Les cibles hors du fichier de données restent différées ; aucune validation humaine présumée. Relecture Claude 04/10/2026 : WebFetch ne renvoie que le titre et la navigation, sans corps de texte (deux essais). Aucune affirmation vérifiable.",
-   "domaine": "villes",
-   "villes": [
-    "Capoue",
-    "Cassino",
-    "Mignano Monte Lungo"
-   ],
-   "remplacee_par": [],
-   "priorite": "importante",
-   "impact": [
-    "Cassino (rail)",
-    "Capoue (rail)",
-    "Mignano Monte Lungo (rail)"
-   ]
-  },
-  {
-   "id": "src-18-it-re-1946-ouest43",
-   "groupe": "a_lire",
-   "statut_claude": "non_verifiee",
-   "niveau": "A",
-   "titre": "Railway reconstruction Italy 1943–1946, II.II.2",
-   "institution": "Royal Engineers (1946), transcription Treni di Carta",
-   "url": "https://www.trenidicarta.it/reconstruction/2_2_2.html",
-   "ou_regarder": "II.II.2, octobre 1943",
-   "extrait": "",
-   "notes": "Proposée par Ether (villes 1.8, 04/10/2026). Ce que la source prouve selon Ether : ville-it-salerne — rail : La liaison logistique Salerne–Naples fait l’objet de réparations ferroviaires en octobre 1943. ; ville-it-naples — rail, port_maritime : En octobre 1943, le réseau du port est raccordé aux triages des lignes de Rome et Foggia.. Limite annoncée par Ether : Rapport de reconstruction, publié 1946 ; dates de 1943 explicitement retenues. Pas de capacité inventée au Snapshot. Les cibles hors du fichier de données restent différées ; aucune validation humaine présumée. Relecture Claude 04/10/2026 : WebFetch ne renvoie que l'en-tête et la navigation ; le corps du texte est absent. Aucune affirmation vérifiable.",
-   "domaine": "villes",
-   "villes": [
-    "Naples",
-    "Salerne"
-   ],
-   "remplacee_par": [],
-   "priorite": "importante",
-   "impact": [
-    "Salerne (rail)",
-    "Naples (port_maritime, rail)"
-   ]
-  },
-  {
-   "id": "src-18-ro-constanta-mnhr1906",
-   "groupe": "a_lire",
-   "statut_claude": "non_verifiee",
-   "niveau": "B",
-   "titre": "The Port of Constanţa, objet RO 004",
-   "institution": "National Museum of Romanian History ; Museum With No Frontiers",
-   "url": "https://sharinghistory.museumwnf.org/database_item.php?id=object;AWE;rm;4;en",
-   "ou_regarder": "Description de la carte postale 1906 et du port inauguré en 1909",
-   "extrait": "",
-   "notes": "Proposée par Ether (villes 1.8, 04/10/2026). Ce que la source prouve selon Ether : ville-ro-constanta — port_maritime : Port avec docks, entrepôts, silos et bassin pétrolier inauguré en 1909.. Limite annoncée par Ether : Notice du musée détenteur ; les installations décrites sont historiques, sans capacité de 1944. Les cibles hors du fichier de données restent différées ; aucune validation humaine présumée. Relecture Claude 04/10/2026 : La page renvoie une erreur (« The object reference seems to be invalid ») ; aucun contenu sur le port de Constanta n'est lisible.",
-   "domaine": "villes",
-   "villes": [
-    "Constanța"
-   ],
-   "remplacee_par": [],
-   "priorite": "importante",
-   "impact": [
-    "Constanța (port_maritime)"
-   ]
-  },
-  {
-   "id": "src-18-ro-sibiu-ville-histoire",
-   "groupe": "a_lire",
-   "statut_claude": "non_verifiee",
-   "niveau": "B",
-   "titre": "Istoria orașului",
-   "institution": "Municipalité de Sibiu",
-   "url": "https://sibiu.ro/sibiu/istoria",
-   "ou_regarder": "Chronologie 1875–1897 et changement de nom 1919",
-   "extrait": "",
-   "notes": "Proposée par Ether (villes 1.8, 04/10/2026). Ce que la source prouve selon Ether : ville-ro-sibiu — industrie : Machines-outils, ressorts et balances : implantations industrielles du dernier quart du XIXe siècle.. Limite annoncée par Ether : Les anciennes fonctions de capitale jusqu’en 1919 ne sont pas reconduites au Snapshot. Les cibles hors du fichier de données restent différées ; aucune validation humaine présumée. Relecture Claude 04/10/2026 : WebFetch refusé (robots.txt) ; page non lue.",
-   "domaine": "villes",
-   "villes": [
-    "Sibiu"
-   ],
-   "remplacee_par": [],
-   "priorite": "importante",
-   "impact": [
-    "Sibiu (industrie)"
    ]
   },
   {
@@ -2808,9 +2490,9 @@
    "titre": "History of the railways of Bosnia and Herzegovina",
    "institution": "ŽFBH",
    "url": "https://www.zfbh.ba/en/o-nama/historija/",
-   "ou_regarder": "Chronologie locale 1872–1942",
+   "ou_regarder": "Paragraphes sur Derventa en 1878, transfert de direction en 1886, puis premier train à Sarajevo",
    "extrait": "The first railway line in Bosnia and Herzegovina was opened for traffic on 24th December 1872. It was a standard-gauge track from Banja Luka to Dobrljina (101.6 km)",
-   "notes": "Proposée par Ether (villes 1.8, 04/10/2026). Ce que la source prouve selon Ether : ville-ba-banja-luka — rail : Liaison de Dobrljin ouverte en 1872. ; ville-ba-dobrljin — rail : Terminus de 1872. ; ville-ba-brod — rail : Liaison de Doboj en 1879. ; ville-ba-doboj — rail : Nœud vers Sarajevo et Simin Han avant 1887. ; ville-ba-derventa — rail : Desservie dès les premiers travaux ; direction ferroviaire jusqu’en 1886. ; ville-ba-zepce — rail : Jonction vers Zenica en 1879. ; ville-ba-zenica — rail : Rail en 1879. ; ville-ba-sarajevo — rail : Liaison de Brod achevée en 1882. ; ville-ba-mostar — rail : Liaison de Metković ouverte en 1885. ; ville-hr-metkovic — rail : Terminus adriatique de la ligne de Mostar. ; ville-ba-tuzla — rail, industrie : Desserte du bassin charbonnier et salin par la ligne Doboj–Simin Han. ; ville-ba-konjic — rail : Rail en 1889 ; axe de Sarajevo amélioré en 1931. ; ville-ba-travnik — rail : Rail en 1893. ; ville-ba-bugojno — rail : Rail en 1894. ; ville-ba-donji-vakuf — rail : Nœud vers Travnik et Jajce avant 1914. ; ville-ba-jajce — rail : Liaison militaire vers Srnetica en 1914. ; ville-ba-vares — rail, industrie : Ligne minière ouverte en 1895. ; ville-ba-breza — rail, industrie : Exploitation charbonnière desservie dès 1895. ; ville-ba-trebinje — rail : Ligne stratégique de Hum ouverte en 1901. ; ville-me-zelenika — rail : Terminus de la ligne stratégique de Gabela en 1901. ; ville-ba-prijedor — rail, industrie : Réseau forestier et minier de Steinbeis avant 1918. ; ville-hr-knin — rail : Raccord au réseau forestier de Bosnie avant 1918. ; ville-ba-zavidovici — rail, industrie : Départ d’une voie industrielle avant 1918. ; ville-ba-novi-grad — rail : Liaison Bosanski Novi–Bosanska Krupa en 1920. ; ville-ba-bosanska-krupa — rail : Étape ferroviaire en 1920 puis vers Bihać en 1924. ; ville-ba-bihac — rail : Rail en 1924 ; extension vers Knin seulement en 1948. ; ville-ba-bijeljina — rail : Voie étroite construite dans la période 1918–1942. ; ville-ba-ugljevik — rail : Voie étroite vers Bijeljina avant 1943. ; ville-ba-bileca — rail : Liaison étroite de Trebinje avant 1943. ; ville-hr-ploce — rail : Extension de Metković avant 1943 ; ne pas anticiper la voie normale.. Limite annoncée par Ether : Dates locales lues. Ne prouvent pas le trafic continu fin 1944. Jajce donné 1885 malgré contexte 1894 : année précise réservée. Les lignes de 1945–1968 sont exclues. Les cibles hors du fichier de données restent différées ; aucune validation humaine présumée. Relecture Claude 04/10/2026 : Dates confirmées : Banja Luka–Dobrljin 1872, Brod–Doboj, Žepče, Zenica 1879, Sarajevo 1882, Metković–Mostar 1885, Doboj–Šimin Han 1886, Konjic 1889 et tunnel Ivan 1931, Travnik 1893, Bugojno 1894. Derventa non mentionnée ; Tuzla seulement via la ligne Doboj–Šimin Han (sans mention explicite de Tuzla). Statut ramené à « limite » par Claude : la page ne nomme pas toutes les villes ciblées ; seules les villes confirmées comptent (confirmations_claude). Second passage de relecture (16 affirmations restantes, 04/10/2026) : 15 villes importées confirmées (confirmations_claude).",
+   "notes": "Proposée par Ether (villes 1.8, 04/10/2026). Ce que la source prouve selon Ether : ville-ba-banja-luka — rail : Liaison de Dobrljin ouverte en 1872. ; ville-ba-dobrljin — rail : Terminus de 1872. ; ville-ba-brod — rail : Liaison de Doboj en 1879. ; ville-ba-doboj — rail : Nœud vers Sarajevo et Simin Han avant 1887. ; ville-ba-derventa — rail : Desservie dès les premiers travaux ; direction ferroviaire jusqu’en 1886. ; ville-ba-zepce — rail : Jonction vers Zenica en 1879. ; ville-ba-zenica — rail : Rail en 1879. ; ville-ba-sarajevo — rail : Liaison de Brod achevée en 1882. ; ville-ba-mostar — rail : Liaison de Metković ouverte en 1885. ; ville-hr-metkovic — rail : Terminus adriatique de la ligne de Mostar. ; ville-ba-tuzla — rail, industrie : Desserte du bassin charbonnier et salin par la ligne Doboj–Simin Han. ; ville-ba-konjic — rail : Rail en 1889 ; axe de Sarajevo amélioré en 1931. ; ville-ba-travnik — rail : Rail en 1893. ; ville-ba-bugojno — rail : Rail en 1894. ; ville-ba-donji-vakuf — rail : Nœud vers Travnik et Jajce avant 1914. ; ville-ba-jajce — rail : Liaison militaire vers Srnetica en 1914. ; ville-ba-vares — rail, industrie : Ligne minière ouverte en 1895. ; ville-ba-breza — rail, industrie : Exploitation charbonnière desservie dès 1895. ; ville-ba-trebinje — rail : Ligne stratégique de Hum ouverte en 1901. ; ville-me-zelenika — rail : Terminus de la ligne stratégique de Gabela en 1901. ; ville-ba-prijedor — rail, industrie : Réseau forestier et minier de Steinbeis avant 1918. ; ville-hr-knin — rail : Raccord au réseau forestier de Bosnie avant 1918. ; ville-ba-zavidovici — rail, industrie : Départ d’une voie industrielle avant 1918. ; ville-ba-novi-grad — rail : Liaison Bosanski Novi–Bosanska Krupa en 1920. ; ville-ba-bosanska-krupa — rail : Étape ferroviaire en 1920 puis vers Bihać en 1924. ; ville-ba-bihac — rail : Rail en 1924 ; extension vers Knin seulement en 1948. ; ville-ba-bijeljina — rail : Voie étroite construite dans la période 1918–1942. ; ville-ba-ugljevik — rail : Voie étroite vers Bijeljina avant 1943. ; ville-ba-bileca — rail : Liaison étroite de Trebinje avant 1943. ; ville-hr-ploce — rail : Extension de Metković avant 1943 ; ne pas anticiper la voie normale.. Limite annoncée par Ether : Dates locales lues. Ne prouvent pas le trafic continu fin 1944. Jajce donné 1885 malgré contexte 1894 : année précise réservée. Les lignes de 1945–1968 sont exclues. Les cibles hors du fichier de données restent différées ; aucune validation humaine présumée. Relecture Claude 04/10/2026 : Dates confirmées : Banja Luka–Dobrljin 1872, Brod–Doboj, Žepče, Zenica 1879, Sarajevo 1882, Metković–Mostar 1885, Doboj–Šimin Han 1886, Konjic 1889 et tunnel Ivan 1931, Travnik 1893, Bugojno 1894. Derventa non mentionnée ; Tuzla seulement via la ligne Doboj–Šimin Han (sans mention explicite de Tuzla). Statut ramené à « limite » par Claude : la page ne nomme pas toutes les villes ciblées ; seules les villes confirmées comptent (confirmations_claude). Second passage de relecture (16 affirmations restantes, 04/10/2026) : 15 villes importées confirmées (confirmations_claude). Ancien localisateur : Chronologie locale 1872–1942. Réponse d'Ether (lot 1.8, cycle 2, 05/10/2026, Q18-01/Q18-02) : captures aucune (lecture en ligne) (dossier d'échange, 01_lots/villes_1-8/, hors dépôt). Relecture Claude 05/10/2026 : Sarajevo prouvé (premier train 1882 ; version bosnienne donne par erreur '05.10.1882' selon WebFetch, la version anglaise dit 5 novembre). Derventa : la page anglaise dit que le tronçon vers Derventa devait être achevé en deux mois, et que la direction fut déplacée de Derventa à Sarajevo en 1886 ; la version bosnienne ajoute la création en 1878 à Derventa de la première direction des chemins de fer bosniaques : rôle ferroviaire prouvé, mais pas explicitement l'ouverture du tronçon en 1878. Tuzla : seulement le bassin charbon/sel desservi par une ligne ; aucune gare urbaine à Tuzla, l'avis d'Ether est confirmé. (statut : limite -> limite).",
    "domaine": "villes",
    "villes": [
     "Banja Luka",
@@ -2847,7 +2529,6 @@
    "remplacee_par": [],
    "priorite": "importante",
    "impact": [
-    "Derventa (rail)",
     "Tuzla (rail)"
    ]
   },
@@ -2881,35 +2562,31 @@
    ]
   },
   {
-   "id": "src-18-gr-treccani1933",
+   "id": "src-18-it-re-1946-ligne87",
    "groupe": "partielle",
    "statut_claude": "limite",
    "niveau": "A",
-   "titre": "Grecia — Enciclopedia Italiana 1933",
-   "institution": "Istituto della Enciclopedia Italiana",
-   "url": "https://www.treccani.it/enciclopedia/grecia_(Enciclopedia-Italiana)/",
-   "ou_regarder": "Centri, Miniere, Industria",
-   "extrait": "Il distretto minerario più importante è quello di Laurio, all'estremità meridionale dell'Attica",
-   "notes": "Proposée par Ether (villes 1.8, 04/10/2026). Ce que la source prouve selon Ether : ville-gr-la-canee —  : Centre majeur de Crète, identifié sous La Canea. ; ville-gr-rethymnon —  : Centre côtier de Crète ; rôle portuaire non déduit automatiquement. ; ville-gr-corfou —  : Ville principale de l’île ; repère urbain à distinguer du point de l’île. ; ville-gr-ermoupoli —  : Agglomération nouvelle de Syros distinguée de l’ancien habitat. ; ville-gr-lavrio — industrie : Extraction et installations industrielles à Laurio. ; ville-gr-athenes — industrie : Centre industriel cité. ; ville-gr-le-piree — industrie : Centre industriel cité. ; ville-gr-thessalonique — industrie : Centre industriel cité. ; ville-gr-kavala — industrie : Centre industriel cité.. Limite annoncée par Ether : Texte 1933 lu en transcription ; choix urbains et fonctions locales, sans géographie politique actuelle ni chiffres de 1945. Les considérations ethniques et politiques de l’ouvrage ne sont pas reprises. Les cibles hors du fichier de données restent différées ; aucune validation humaine présumée. Relecture Claude 04/10/2026 : Confirmés: La Canea, Rethymnon, Corfou (ville de 32.221 hab.), Ermoupoli (nuova Ermupoli), Laurion (mines), Le Pirée (port principal). Athènes, Salonique et Kavala ne sont pas cités comme centres industriels dans les passages rendus (Salonique: lignes ferroviaires; Kavala: simple port).",
+   "titre": "Reconstruction ferroviaire en Italie : ligne 87",
+   "institution": "Royal Engineers, 1946 ; transcription Treni di Carta",
+   "url": "https://www.trenidicarta.it/reconstruction/2_3_7.html",
+   "ou_regarder": "II.III.7, Description, Phases, pont du Tibre et Esino",
+   "extrait": "",
+   "notes": "Proposée par Ether (villes 1.8, 04/10/2026). Ce que la source prouve selon Ether : ville-it-orte — rail : Bifurcation des lignes vers Rome et Ancône, liaison annoncée rétablie le 3 septembre 1944. ; ville-it-terni — rail, industrie : Ville industrielle traversée par la ligne réparée en 1944 ; viaduc nord réparé en juillet. ; ville-it-foligno — rail, industrie : Ville d’ateliers ferroviaires ; liaison rétablie en juillet 1944. ; ville-it-fabriano — rail : Ville de la ligne Orte–Falconara rétablie en septembre 1944. ; ville-it-falconara — rail : Bifurcation vers Ancône ; ligne rouverte le 3 septembre 1944. ; ville-it-spolete — rail : Le tunnel au sud de la ville est réparé sous trafic en juillet–août 1944.. Limite annoncée par Ether : Liaison rétablie en septembre 1944. Le §a attribue 1945 au pont d’Orte, discordance avec le calendrier général 1944 : date du pont réservée. Les cibles hors du fichier de données restent différées ; aucune validation humaine présumée. Relecture Claude 04/10/2026 : WebFetch ne restitue que l'en-tête et la navigation de la page ; le corps du texte est vide, aucune affirmation ne peut être vérifiée. Ancien localisateur : II.III.7, description et calendrier général ; §b/c. Réponse d'Ether (lot 1.8, cycle 2, 05/10/2026, Q18-01/Q18-02) : captures 2026-10-04_ether_C2_RE_2_3_7_vue1.jpg, 2026-10-04_ether_C2_RE_2_3_7_vue2.jpg (dossier d'échange, 01_lots/villes_1-8/, hors dépôt). Relecture Claude 05/10/2026 : WebFetch a renvoyé une page sans corps de texte : pas de vérification par cette voie, pas de contournement ; lecture faite sur les captures vue1 et vue2 (page complète). Rail : titre « Line 87. Cross Country Route. - Orte-Foligno-Falconara » ; Orte (« The line branches off Line 65 at Orte »), Terni, Foligno (« passing through the railway workshop town of Foligno »), Falconara (« which it joins at Falconara », ouverture jusqu'à Falconara le 3 sept. 1944) prouvés. Fabriano : nommée seulement dans les intitulés de planches (« Foligno to Fabriano », « Fabriano to Falconara ») = ville sur l'itinéraire, pas de gare décrite. Spoleto : nommée seulement comme repère (« Balduini Tunnel - South of Spoleto ») ; le texte d'itinéraire ne la cite pas : preuve faible mais explicite. INDUSTRIE : Terni = OUI, la page dit « industrial town of Terni » (qualificatif général, sans détail de secteur). Foligno = NON au sens industrie générale : seulement « railway workshop town » (atelier ferroviaire), à ne pas compter comme industrie sans nuance. DATES : le pont du Tibre est intitulé « Repairs to Bridge over River Tiber at Ode Station » (« Ode », non « Orte » : la page ne nomme pas Orte pour ce pont ; la (statut : non_verifiee -> limite).",
    "domaine": "villes",
    "villes": [
-    "Athènes",
-    "Corfou",
-    "Ermoúpoli",
-    "Kavala",
-    "La Canée",
-    "Lavrio",
-    "Le Pirée",
-    "Réthymnon",
-    "Thessalonique"
+    "Fabriano",
+    "Falconara Marittima",
+    "Foligno",
+    "Orte",
+    "Spolète",
+    "Terni"
    ],
    "remplacee_par": [],
    "priorite": "importante",
    "impact": [
-    "Athènes (industrie)",
-    "Le Pirée (industrie)",
-    "Thessalonique (industrie)",
-    "Kavala (industrie)"
+    "Foligno (industrie)",
+    "Fabriano (rail)",
+    "Spolète (rail)"
    ]
   },
   {
@@ -2920,9 +2597,9 @@
    "titre": "Reconstruction ferroviaire en Italie : ligne 89",
    "institution": "Royal Engineers, 1946 ; transcription Treni di Carta",
    "url": "https://www.trenidicarta.it/reconstruction/2_3_3.html",
-   "ou_regarder": "II.III.3, description, phases et sections a/c",
+   "ou_regarder": "II.III.3, Description, Phases, sections a/c",
    "extrait": "the section from Naples to Aversa (19 kilometres) was repaired by M.R.S. American Section with the assistance of Engineer Troops, U.S. Army | the bridge was opened for traffic on 20 May",
-   "notes": "Proposée par Ether (villes 1.8, 04/10/2026). Ce que la source prouve selon Ether : ville-it-aversa — rail : La section Naples–Aversa est réparée en octobre 1943. ; ville-it-villa-literno — rail : Gare de bifurcation de la ligne côtière réparée en 1944. ; ville-it-formia — rail : La ligne côtière traverse Formia, dans le secteur réparé de mai à juillet 1944. ; ville-it-minturno — rail : Le franchissement ferroviaire au sud de Minturno rouvre le 5 juin 1944. ; ville-it-cancello-arnone — rail : La gare jouxte le pont du Volturno remis au trafic le 20 mai 1944.. Limite annoncée par Ether : Ligne antérieure à la guerre ; travaux datés de 1943–1944. Les objets proposés restent les villes, non les ponts ou gares. Les cibles hors du fichier de données restent différées ; aucune validation humaine présumée. Relecture Claude 04/10/2026 : Naples–Aversa réparée en octobre 1943 : confirmé. Le pont du Volturno ouvert le 20 mai 1944 et le franchissement le 5 juin 1944 sont cités, mais le lien explicite avec la gare de Cancello Arnone et avec Minturno n'apparaît pas dans les extraits. Villa Literno n'est cité que comme gare de bifurcation, sans date de réparation ; Formia n'est pas nommé (section Massico–Campoleone réparée mai-juillet 1944).",
+   "notes": "Proposée par Ether (villes 1.8, 04/10/2026). Ce que la source prouve selon Ether : ville-it-aversa — rail : La section Naples–Aversa est réparée en octobre 1943. ; ville-it-villa-literno — rail : Gare de bifurcation de la ligne côtière réparée en 1944. ; ville-it-formia — rail : La ligne côtière traverse Formia, dans le secteur réparé de mai à juillet 1944. ; ville-it-minturno — rail : Le franchissement ferroviaire au sud de Minturno rouvre le 5 juin 1944. ; ville-it-cancello-arnone — rail : La gare jouxte le pont du Volturno remis au trafic le 20 mai 1944.. Limite annoncée par Ether : Ligne antérieure à la guerre ; travaux datés de 1943–1944. Les objets proposés restent les villes, non les ponts ou gares. Les cibles hors du fichier de données restent différées ; aucune validation humaine présumée. Relecture Claude 04/10/2026 : Naples–Aversa réparée en octobre 1943 : confirmé. Le pont du Volturno ouvert le 20 mai 1944 et le franchissement le 5 juin 1944 sont cités, mais le lien explicite avec la gare de Cancello Arnone et avec Minturno n'apparaît pas dans les extraits. Villa Literno n'est cité que comme gare de bifurcation, sans date de réparation ; Formia n'est pas nommé (section Massico–Campoleone réparée mai-juillet 1944). Ancien localisateur : II.III.3, description, phases et sections a/c. Réponse d'Ether (lot 1.8, cycle 2, 05/10/2026, Q18-01/Q18-02) : captures 2026-10-04_ether_C2_RE_2_3_3_vue1.jpg, 2026-10-04_ether_C2_RE_2_3_3_vue7.jpg (dossier d'échange, 01_lots/villes_1-8/, hors dépôt). Relecture Claude 05/10/2026 : WebFetch a répondu pour cette page (résumé conforme aux captures). Capture vue1 : titre « Line 89. Rome - Naples Direttissima. Rome-Formia-Villa Literno-Aversa-Naples » ; Formia et Minturno sont nommées comme villes côtières traversées ; Villa Literno est nommée comme « junction station ». Cancello Arnone : NON retrouvée dans les captures vue1 et vue7 ; seul le résumé WebFetch (modèle de résumé, non littéral) l'associe au pont du Volturno, sans citation exacte vérifiable : rôle rail non prouvé de façon fiable pour cette ville (à relire dans la section du pont du Volturno, hors captures). Dates visibles : toutes 1943-1944 (ex. travaux 15 mars-11 avril 1944 ; tunnel du Massico 24 mars-6 juin 1944) ; aucune date postérieure au 01/01/1945 pour ces villes. (statut : limite -> limite).",
    "domaine": "villes",
    "villes": [
     "Aversa",
@@ -2934,9 +2611,6 @@
    "remplacee_par": [],
    "priorite": "importante",
    "impact": [
-    "Villa Literno (rail)",
-    "Formia (rail)",
-    "Minturno (rail)",
     "Cancello e Arnone (rail)"
    ]
   },
@@ -2948,9 +2622,9 @@
    "titre": "File de istorie feroviară",
    "institution": "CFR SA",
    "url": "https://cfr.ro/file-de-istorie-feroviara/",
-   "ou_regarder": "Chronologie 1854,1869,1872–1878 et 1918",
+   "ou_regarder": "Section « 13 septembrie 1872 – 9 mai 1878 Vârciorova–Roman », proposition de 1866 puis ouvertures",
    "extrait": "\"Primul tronson: Piteşti - Bucureşti - Galaţi - Roman, a fost deschis la 13 septembrie 1872, iar tronsonul Vârciorova - Piteşti pe 9 mai 1878.\"",
-   "notes": "Proposée par Ether (villes 1.8, 04/10/2026). Ce que la source prouve selon Ether : ville-ro-oravita — rail : La ligne charbonnière vers Baziaș ouvre en 1854. ; ville-ro-bazias — rail, port_fluvial : Le terminus danubien est relié à Oravița en 1854. ; ville-ro-bucarest — rail : Le rail rejoint Giurgiu en 1869 et Pitești en 1872. ; ville-ro-giurgiu — rail : La liaison avec Bucarest ouvre en 1869. ; ville-ro-pitesti — rail : La ligne vers Bucarest ouvre en 1872. ; ville-ro-roman — rail : La ville est le terminus de la liaison ouverte en 1872. ; ville-ro-galati — rail : La ville figure sur le tronçon inauguré en 1872. ; ville-ro-buzau — rail : La ville figure sur la liaison Vârciorova–Roman. ; ville-ro-braila — rail : La ville figure sur la liaison Vârciorova–Roman. ; ville-ro-tecuci — rail : La ville figure sur la liaison Vârciorova–Roman. ; ville-ro-arad — industrie : Les ateliers fabriquent du matériel pour les CFR après 1918. ; ville-ro-iasi — rail : La liaison avec Lețcani est doublée en 1895.. Limite annoncée par Ether : Historique officiel ; preuve de liaisons locales antérieures à 1945, sans attester le trafic exact de chaque gare fin 1944. Date 1868 de Gara de Nord à ne pas retenir sans confrontation. Les cibles hors du fichier de données restent différées ; aucune validation humaine présumée. Relecture Claude 04/10/2026 : Oravița–Baziaș 1854, Bucarest–Giurgiu 1869, tronçon Pitești–Bucarest–Galați–Roman 1872, ateliers d'Arad après 1918 et Iași–Lețcani 1895 confirmés. Buzău, Brăila et Tecuci ne sont pas cités explicitement dans les passages renvoyés.",
+   "notes": "Proposée par Ether (villes 1.8, 04/10/2026). Ce que la source prouve selon Ether : ville-ro-oravita — rail : La ligne charbonnière vers Baziaș ouvre en 1854. ; ville-ro-bazias — rail, port_fluvial : Le terminus danubien est relié à Oravița en 1854. ; ville-ro-bucarest — rail : Le rail rejoint Giurgiu en 1869 et Pitești en 1872. ; ville-ro-giurgiu — rail : La liaison avec Bucarest ouvre en 1869. ; ville-ro-pitesti — rail : La ligne vers Bucarest ouvre en 1872. ; ville-ro-roman — rail : La ville est le terminus de la liaison ouverte en 1872. ; ville-ro-galati — rail : La ville figure sur le tronçon inauguré en 1872. ; ville-ro-buzau — rail : La ville figure sur la liaison Vârciorova–Roman. ; ville-ro-braila — rail : La ville figure sur la liaison Vârciorova–Roman. ; ville-ro-tecuci — rail : La ville figure sur la liaison Vârciorova–Roman. ; ville-ro-arad — industrie : Les ateliers fabriquent du matériel pour les CFR après 1918. ; ville-ro-iasi — rail : La liaison avec Lețcani est doublée en 1895.. Limite annoncée par Ether : Historique officiel ; preuve de liaisons locales antérieures à 1945, sans attester le trafic exact de chaque gare fin 1944. Date 1868 de Gara de Nord à ne pas retenir sans confrontation. Les cibles hors du fichier de données restent différées ; aucune validation humaine présumée. Relecture Claude 04/10/2026 : Oravița–Baziaș 1854, Bucarest–Giurgiu 1869, tronçon Pitești–Bucarest–Galați–Roman 1872, ateliers d'Arad après 1918 et Iași–Lețcani 1895 confirmés. Buzău, Brăila et Tecuci ne sont pas cités explicitement dans les passages renvoyés. Ancien localisateur : Chronologie 1854,1869,1872–1878 et 1918. Réponse d'Ether (lot 1.8, cycle 2, 05/10/2026, Q18-01/Q18-02) : captures aucune (lecture en ligne) (dossier d'échange, 01_lots/villes_1-8/, hors dépôt). Relecture Claude 05/10/2026 : Buzău, Brăila et Tecuci ne sont nommées que dans l'itinéraire proposé en 1866 (projet approuvé). Les ouvertures 1872 et 1878 sont citées sans mention de ces trois villes (le tronçon 1872 nomme Galaţi, pas Buzău, Brăila ni Tecuci). La page ne prouve donc pas que la ligne y ait été ouverte, d'après la réponse de WebFetch. (statut : limite -> limite).",
    "domaine": "villes",
    "villes": [
     "Arad",
@@ -2982,9 +2656,9 @@
    "titre": "Romania — Enciclopedia Italiana 1936",
    "institution": "Istituto della Enciclopedia Italiana",
    "url": "https://www.treccani.it/enciclopedia/romania_(Enciclopedia-Italiana)/",
-   "ou_regarder": "Centri urbani ; Industrie metallurgiche ; Vie di comunicazione",
+   "ou_regarder": "« Industrie metallurgiche », deuxième paragraphe, graphie Ploeşti",
    "extrait": "Giurgiu, Silistra e soprattutto i due porti di Galati e di Brăila sul Danubio / A Mediaş si fabbrica la cianamide / Alti forni di Hunedoara",
-   "notes": "Proposée par Ether (villes 1.8, 04/10/2026). Ce que la source prouve selon Ether : ville-ro-craiova —  : Centre actif de la plaine d’Olténie. ; ville-ro-giurgiu — port_fluvial : Port danubien. ; ville-ro-galati — port_fluvial : Port aménagé duDanube. ; ville-ro-braila — port_fluvial : Port aménagé duDanube. ; ville-ro-sulina — port_fluvial, port_maritime : Port d’embouchure pour la navigation internationale. ; ville-bg-silistra — port_fluvial : Port danubien ; rattachement de 1936 non reconduit. ; ville-ro-ploiesti — industrie, rail : Matériel de forage et passage ferroviaire de laPrahova. ; ville-ro-hunedoara — industrie : Hauts-fourneaux. ; ville-ro-medias — industrie : Fabrication de cyanamide.. Limite annoncée par Ether : Notice 1936 lue ; frontières, capacités et jugements politiques non transposés à 1945. Voies inachevéesPetroșani–TârguJiu etBrașov–Buzău exclues sur cette preuve. Les cibles hors du fichier de données restent différées ; aucune validation humaine présumée. Relecture Claude 04/10/2026 : Ports danubiens (Giurgiu, Galați, Brăila, Silistra), hauts-fourneaux de Hunedoara, cyanamide de Mediaș confirmés ; Sulina seulement citée dans une liste de ports. Craiova n'apparaît que comme « sul basso Jiu » (climat) ; Ploiești : district de Prahova pétrolier, mais ni matériel de forage ni passage ferroviaire confirmés.",
+   "notes": "Proposée par Ether (villes 1.8, 04/10/2026). Ce que la source prouve selon Ether : ville-ro-craiova —  : Centre actif de la plaine d’Olténie. ; ville-ro-giurgiu — port_fluvial : Port danubien. ; ville-ro-galati — port_fluvial : Port aménagé duDanube. ; ville-ro-braila — port_fluvial : Port aménagé duDanube. ; ville-ro-sulina — port_fluvial, port_maritime : Port d’embouchure pour la navigation internationale. ; ville-bg-silistra — port_fluvial : Port danubien ; rattachement de 1936 non reconduit. ; ville-ro-ploiesti — industrie, rail : Matériel de forage et passage ferroviaire de laPrahova. ; ville-ro-hunedoara — industrie : Hauts-fourneaux. ; ville-ro-medias — industrie : Fabrication de cyanamide.. Limite annoncée par Ether : Notice 1936 lue ; frontières, capacités et jugements politiques non transposés à 1945. Voies inachevéesPetroșani–TârguJiu etBrașov–Buzău exclues sur cette preuve. Les cibles hors du fichier de données restent différées ; aucune validation humaine présumée. Relecture Claude 04/10/2026 : Ports danubiens (Giurgiu, Galați, Brăila, Silistra), hauts-fourneaux de Hunedoara, cyanamide de Mediaș confirmés ; Sulina seulement citée dans une liste de ports. Craiova n'apparaît que comme « sul basso Jiu » (climat) ; Ploiești : district de Prahova pétrolier, mais ni matériel de forage ni passage ferroviaire confirmés. Ancien localisateur : Centri urbani ; Industrie metallurgiche ; Vie di comunicazione. Réponse d'Ether (lot 1.8, cycle 2, 05/10/2026, Q18-01/Q18-02) : captures aucune (lecture en ligne) (dossier d'échange, 01_lots/villes_1-8/, hors dépôt). Relecture Claude 05/10/2026 : Industrie métallurgique (outils de sondage) à Ploeşti prouvée. Rail non prouvé : la page ne cite pour Ploeşti aucune ligne ; seule la phrase sur Braşov-Buzău non terminée apparaît, sans nommer Ploeşti. (statut : limite -> limite).",
    "domaine": "villes",
    "villes": [
     "Silistra",
@@ -3000,44 +2674,7 @@
    "remplacee_par": [],
    "priorite": "importante",
    "impact": [
-    "Ploiești (industrie, rail)"
-   ]
-  },
-  {
-   "id": "src-18-us-elia-relief1944",
-   "groupe": "partielle",
-   "statut_claude": "limite",
-   "niveau": "A",
-   "titre": "Relief activities in Greece, mid-October through December 31, 1944",
-   "institution": "Ambassade américaine à Athènes, B. D. MacDonald ; archives ELIA",
-   "url": "https://www.elia.org.gr/userfiles/pdf_archieve/1945%202-745%20Economy%2C%20Civilian%20Relief%2C%20Agriculture%2C%20Industry%2C%20%5B13%20pgs%5D%20226-CID-113659.pdf",
-   "ou_regarder": "Rapport achevé le 2 janvier 1945, tampon du 7 février ; images PDF 1–3",
-   "extrait": "Athens as capital...in liaison with military",
-   "notes": "Proposée par Ether (villes 1.8, 04/10/2026). Ce que la source prouve selon Ether : ville-gr-le-piree — port_maritime : Dépôt portuaire de secours ouvert en 1944 (16 octobre). ; ville-gr-kalamata — port_maritime : Dépôt portuaire de secours ouvert en 1944 (19 octobre). Opérations suspendues le 15 décembre selon le rapport. ; ville-gr-patras — port_maritime : Dépôt portuaire de secours ouvert en 1944 (18 octobre). Distribution ensuite largement limitée au port selon le rapport. ; ville-gr-preveza — port_maritime : Dépôt portuaire de secours ouvert en 1944 (18 octobre). Opérations suspendues le 15 décembre selon le rapport. ; ville-gr-thessalonique — port_maritime : Dépôt portuaire de secours ouvert en 1944 (15 novembre). Distribution ensuite largement limitée au port selon le rapport. ; ville-gr-volos — port_maritime : Dépôt portuaire de secours ouvert en 1944 (novembre, jour peu lisible). Opérations suspendues le 15 décembre selon le rapport. ; ville-gr-kavala — port_maritime : Dépôt portuaire de secours ouvert en 1944 (19 novembre). Opérations suspendues le 15 décembre selon le rapport. ; ville-gr-mytilene — port_maritime : Dépôt portuaire de secours ouvert en 1944 (début octobre). ; ville-gr-chios — port_maritime : Dépôt portuaire de secours ouvert en 1944 (début octobre). ; ville-gr-heraklion — port_maritime : Dépôt portuaire de secours ouvert en 1944 (4 décembre). ; ville-gr-athenes — capitale, administration : Le rapport situe à Athènes la capitale et le siège de la liaison militaire des secours.. Limite annoncée par Ether : Original lu en image : rapport rétrospectif de l’automne–décembre 1944. Les dépôts ouverts avant le 15 décembre ne signifient pas des opérations maintenues ensuite. OCR très altéré, ne pas le citer comme texte exact. Les cibles hors du fichier de données restent différées ; aucune validation humaine présumée. Relecture Claude 04/10/2026 : PDF image à OCR très dégradé : la liste des ports (Kalamata 19 oct., Preveza 18 oct., Patras, Salonique, Volos, Kavala, Mytilène, Chios, Héraklion) apparaît de façon partielle et confuse ; dates et suspension du 15 déc. non vérifiables de façon fiable. Le Pirée non retrouvé explicitement.",
-   "domaine": "villes",
-   "villes": [
-    "Athènes",
-    "Chios",
-    "Héraklion",
-    "Kalamata",
-    "Kavala",
-    "Le Pirée",
-    "Mytilène",
-    "Patras",
-    "Préveza",
-    "Thessalonique",
-    "Volos"
-   ],
-   "remplacee_par": [],
-   "priorite": "importante",
-   "impact": [
-    "Le Pirée (port_maritime)",
-    "Patras (port_maritime)",
-    "Volos (port_maritime)",
-    "Kavala (port_maritime)",
-    "Mytilène (port_maritime)",
-    "Chios (port_maritime)",
-    "Héraklion (port_maritime)"
+    "Ploiești (rail)"
    ]
   },
   {
@@ -3345,7 +2982,6 @@
     "Mineralnye Vody (rail)",
     "Nevinnomyssk (rail)",
     "Armavir (rail)",
-    "Kropotkine (rail)",
     "Krasnodar (rail)",
     "Tikhoretsk (rail)",
     "Salsk (rail)"
@@ -3943,7 +3579,7 @@
    "url": "http://elib.shpl.ru/ru/nodes/8481",
    "ou_regarder": "p.259–269 et277–296 ; images263–273 et281–300, décalage +4 ; pp. 21, 26–27, 62–63, 97, 144–145, 170 (Sibérie) Accès par ville : 2026-10-03_ether_index_pages_administratives_cycle2.json et .md, dans le dossier villes_1-6.",
    "extrait": "",
-   "notes": "Proposée par Ether (villes 1.6, 03/10/2026). Ce que la source prouve selon Ether : ville-uz-termez — administration : Chef-lieu de l’okrug Sourkhan-Daria ; devenu centre d’oblast selon complément1944.; ville-kz-kokchetau — rail : Ville avec gare homonyme. Chef-lieu d’oblast en 1944 établi par autre source.; ville-kz-ouchtiobe — administration, rail : Chef-lieu de district ; gare homonyme sur place.; ville-uz-samarcande — administration : Centre de l’oblast de Samarcande.; ville-uz-khavast — rail, administration : Oursatievskaïa est le chef-lieu du district de Khavast et une gare. Rapprochement avec l’ID moderne Khavast à vérifier ; ancien nom du candidat non validé par rétroprojection.; ville-uz-tachkent — capitale, administration : Capitale de la RSS et centre de l’oblast.; ville-uz-andijan — administration : Ville et chef-lieu de district ; futur chef-lieu d’oblast à vérifier par supplément.; ville-uz-ferghana — administration : Centre de l’oblast ; gare Skobelevo sur place.; ville-kz-karsakpai — administration, rail : Bourg urbain chef-lieu ; gare homonyme.; ville-kz-astana — administration : Chef-lieu de l’oblast créé le 14 octobre 1939.; ville-kz-karaganda — administration : Centre de l’oblast.; ville-kz-kostanai — administration, rail : Chef-lieu d’oblast avec gare homonyme.; ville-kz-atyraou — administration : Centre de l’oblast. Indication ferroviaire de 1940 dépassée par l’ouverture ultérieure documentée dans une autre source.; ville-ru-irkoutsk — administration, rail : Irkoutsk centre de l’oblast et gare locale dans le tableau urbain.; ville-ru-omsk — administration : Omsk explicitement centre de l’oblast.; ville-kz-semei — administration, rail : Centre d’oblast et gare du Turksib.; ville-kz-pavlodar — administration, rail : Chef-lieu d’oblast avec gare homonyme.; ville-ru-iakoutsk — capitale, administration : Iakoutsk explicitement capitale de la RSSA de Iakoutie.; ville-ru-oulan-oude — capitale, administration, rail : Oulan-Oudé capitale de la RSSA bouriate-mongole ; gare locale au tableau des villes.; ville-kz-aktobe — administration : Centre de l’oblast.; ville-kz-kazalinsk — administration : Ville chef-lieu ; gare Kazalinsk distante de douze kilomètres. Distincte de Novo-Kazalinsk.; ville-kz-taraz — administration : Chef-lieu de l’oblast créé le 14 octobre 1939.; ville-kz-chymkent — administration, rail, industrie : Centre du Kazakhstan méridional, gare locale ; quartier urbain Kalininski explicitement situé auprès de l’usine de plomb.; ville-kz-petropavlovsk — administration, rail : Centre du Kazakhstan septentrional et gare homonyme.; ville-uz-bekabad — administration : Bourg urbain chef-lieu, desservi par Khilkovo. Aucun statut de ville anticipé.; ville-uz-boukhara — administration : Centre de l’oblast de Boukhara.; ville-uz-djizak — administration : Ville chef-lieu de district, gare homonyme à deux kilomètres.; ville-uz-katta-kourgan — administration : Ville chef-lieu de district et gare homonyme.; ville-uz-tchirtchik — rail : Ville et gare Tchirtchik.; ville-uz-yangioul — administration, rail : Ville chef-lieu avec gare Kaufmanskaïa sur place.; ville-uz-namangan — administration, rail : Ville chef-lieu de district et gare homonyme ; statut d’oblast ultérieur à vérifier.; ville-uz-asaka — administration : Ville chef-lieu ; gare Assake à quatre kilomètres. Identité actuelle à contrôler.; ville-uz-marguilan — administration : Ville chef-lieu ; gare Gortchakovo à six kilomètres, sans fusion présumée des points.; ville-uz-tchoust — administration : Ville chef-lieu ; gare éloignée de treize kilomètres, rôle rail non appliqué automatiquement.; ville-uz-ourguentch — administration : Centre du Khorezm ; réseau ferroviaire local absent du répertoire.; ville-uz-khiva — administration : Ville chef-lieu de district.; ville-uz-noukous — capitale, administration : Siège de la RSSA karakalpake indiqué comme capitale. Type d’affichage des RSSA réservé.; ville-uz-turtkul — administration : Ville chef-lieu de district ; point de la ville ancienne à distinguer de son déplacement postérieur.; ville-uz-khodjeili — administration : Ville chef-lieu de district.; ville-uz-tchimbai — administration : Ville chef-lieu de district.; ville-uz-mouinak — administration : Bourg urbain chef-lieu de district, existence datée. Fonction portuaire à rechercher.; ville-uz-patta-gissar — port_fluvial : Bourg distinct explicitement désigné débarcadère de l’Amou-Daria ; gare Termez à huit kilomètres. Ne pas fusionner avec Termez sans contrôle du périmètre.; ville-kz-dossor — rail, administration : Bourg urbain chef-lieu ; gare Dossor sur place.; ville-kz-makat — rail : Bourg urbain et gare Makat.; ville-kz-almaty — capitale, administration : Capitale de la RSS kazakhe et centre de son oblast.; ville-kz-oskemen — administration : Centre du Kazakhstan oriental. Gare Zachtchita à sept kilomètres : rôle de la gare distinct à préciser.; ville-kz-fort-chevtchenko — administration, port_maritime : Ville chef-lieu ; embarcadère homonyme indiqué dans le tableau. Port de la Caspienne, mer intérieure.; ville-kz-chou — rail : Bourg urbain avec gare homonyme du Turksib.; ville-kz-oral — administration, rail : Centre du Kazakhstan occidental et gare locale.; ville-kz-mointy — rail : Bourg urbain avec gare homonyme, cité séparément de Balkhach.; ville-kz-kyzylorda — administration, rail : Centre de l’oblast et gare homonyme.; ville-kz-aralsk — administration, rail : Ville chef-lieu, desservie par la gare Aralskoïe More. Fonction portuaire à compléter séparément.; ville-kz-aiteke-bi — rail : Bourg urbain associé directement à la gare Kazalinsk, distinct de la ville de Kazalinsk. Rapprochement actuel Aïteke Bi à confirmer.; ville-kz-ayagoz — administration, rail : Ville chef-lieu et gare homonyme du Turksib.; ville-kz-char — administration, rail : Bourg chef-lieu ; gare Tcharskaïa sur place.; ville-kz-arys — administration, rail : Bourg urbain chef-lieu et gare homonyme.; ville-kz-turkestan — administration : Ville chef-lieu ; gare homonyme distante de 6,5 km, sans fusion des points.; ville-kz-tioulkoubas — rail : Bourg urbain avec gare homonyme du Turksib.; ville-ru-gorno-altaisk — administration : Oïrot-Toura explicitement centre de l’oblast autonome.; ville-ru-kiakhta — administration : Chef-lieu de district. Gare Oulan-Oudé donnée à 229 km, aucun rôle ferroviaire local déduit.; ville-ru-zima — rail, administration : Chef-lieu de district ; gare homonyme locale.; ville-ru-nijnieoudinsk — rail, administration : Chef-lieu de district ; gare homonyme locale.; ville-ru-taichet — rail, administration : Chef-lieu de district ; gare homonyme locale.; ville-ru-kansk — rail, administration : Chef-lieu de district et gare locale.; ville-ru-bogotol — rail, administration : Chef-lieu de district et gare locale.; ville-ru-ouiar — rail, administration : Bourg ouvrier chef-lieu, station Klioukvennaïa locale.; Rôle importable uniquement s’il figure dans le JSON final des villes ; autres usages = contexte ou réserve, voir sélection.. Limite annoncée par Ether : Scans 1940 consultés : Ouzbékistan259–269 ; Kazakhstan277–296 (p.281 non exploitée). À rapprocher des changements1941–1944 déjà documentés. Capitales RSSA et chefs-lieux d’oblast : fonction administration, type d’affichage réservé. Distinctions ville/gare conservées, notamment Kazalinsk/Novo-Kazalinsk. Contrôle complémentaire du 03/10 : en-têtes et tableaux sibériens ci-dessus lus en fac-similé dans la visionneuse, sans téléchargement. Capitales de RSSA : rôle documenté, type d’affichage réservé selon Q15-02. Relecture Claude 03/10/2026 : La page ne donne que des métadonnées bibliographiques (411 p.) sans texte des scans, donc aucune des affirmations administratives n'est vérifiable. Ancien localisateur : p.259–269 et277–296 ; images263–273 et281–300, décalage +4 ; pp. 21, 26–27, 62–63, 97, 144–145, 170 (Sibérie). Réponse d'Ether (cycle 2, 03/10/2026) : localisateur précisé (complement_ether_cycle2_documentaire). Relecture Claude 04/10/2026 (Q16-02) : 3 villes relues sur les images de pages déposées par Ether (rôles par ville dans confirmations_claude) ; les autres villes de la source restent en lecture partielle. (statut : non_verifiee -> limite). Complément d'Ether (villes 1.7, 03/10/2026, Caucase/Turquie) : nouvelles cibles et usages (complement_ether_1_7). 12 villes du Caucase relues par Claude sur les images de pages (confirmations_claude). Réponse d'Ether (lot 1.6, cycle 3, 04/10/2026, Q16-01/Q16-02) : captures 2026-10-04_ether_Q16-02_admin1940_p144_capture.png, 2026-10-04_ether_Q16-02_admin1940_p145_capture.png, 2026-10-04_ether_Q16-02_admin1940_p170_capture.png, 2026-10-04_ether_Q16-02_admin1940_p21_capture.png, 2026-10-04_ether_Q16-02_admin1940_p262_capture.png, 2026-10-04_ether_Q16-02_admin1940_p263_capture.png, 2026-10-04_ether_Q16-02_admin1940_p264_capture.png, 2026-10-04_ether_Q16-02_admin1940_p265_capture.png, 2026-10-04_ether_Q16-02_admin1940_p266_capture.png, 2026-10-04_ether_Q16-02_admin1940_p267_capture.png, 2026-10-04_ether_Q16-02_admin1940_p268_capture.png, 2026-10-04_ether_Q16-02_admin1940_p269_capture.png, 2026-10-04_ether_Q16-02_admin1940_p26_capture.png, 2026-10-04_ether_Q16-02_admin1940_p277_capture.png, 2026-10-04_ether_Q16-02_admin1940_p278_capture.png, 2026-10-04_ether_Q16-02_admin1940_p279_capture.png, 2026-10-04_ether_Q16-02_admin1940_p27_capture.png, 2026-10-04_ether_Q16-02_admin1940_p280_capture.png, 2026-10-04_ether_Q16-02_admin1940_p282_capture.png, 2026-10-04_ether_Q16-02_admin1940_p283_capture.png, 2026-10-04_ether_Q16-02_admin1940_p284_capture.png, 2026-10-04_ether_Q16-02_admin1940_p285_capture.png, 2026-10-04_ether_Q16-02_admin1940_p286_capture.png, 2026-10-04_ether_Q16-02_admin1940_p287_capture.png, 2026-10-04_ether_Q16-02_admin1940_p288_capture.png, 2026-10-04_ether_Q16-02_admin1940_p289_capture.png, 2026-10-04_ether_Q16-02_admin1940_p290_capture.png, 2026-10-04_ether_Q16-02_admin1940_p291_capture.png, 2026-10-04_ether_Q16-02_admin1940_p292_capture.png, 2026-10-04_ether_Q16-02_admin1940_p293_capture.png, 2026-10-04_ether_Q16-02_admin1940_p294_capture.png, 2026-10-04_ether_Q16-02_admin1940_p295_capture.png, 2026-10-04_ether_Q16-02_admin1940_p296_capture.png, 2026-10-04_ether_Q16-02_admin1940_p62_capture.png, 2026-10-04_ether_Q16-02_admin1940_p63_capture.png, 2026-10-04_ether_Q16-02_admin1940_p97_capture.png (dossier d'échange, 01_lots/villes_1-6/, hors dépôt). Réponse d'Ether (lot 1.7, cycle 2, 04/10/2026, Q17-01/Q17-02) : captures 2026-10-04_ether_Q17-02_admin1940_p242.jpg, 2026-10-04_ether_Q17-02_admin1940_p243.jpg, 2026-10-04_ether_Q17-02_admin1940_p244.jpg, 2026-10-04_ether_Q17-02_admin1940_p245.jpg, 2026-10-04_ether_Q17-02_admin1940_p246.jpg, 2026-10-04_ether_Q17-02_admin1940_p247.jpg, 2026-10-04_ether_Q17-02_admin1940_p248.jpg, 2026-10-04_ether_Q17-02_admin1940_p249_capture.png, 2026-10-04_ether_Q17-02_admin1940_p250_capture.png (dossier d'échange, 01_lots/villes_1-7/, hors dépôt).",
+   "notes": "Proposée par Ether (villes 1.6, 03/10/2026). Ce que la source prouve selon Ether : ville-uz-termez — administration : Chef-lieu de l’okrug Sourkhan-Daria ; devenu centre d’oblast selon complément1944.; ville-kz-kokchetau — rail : Ville avec gare homonyme. Chef-lieu d’oblast en 1944 établi par autre source.; ville-kz-ouchtiobe — administration, rail : Chef-lieu de district ; gare homonyme sur place.; ville-uz-samarcande — administration : Centre de l’oblast de Samarcande.; ville-uz-khavast — rail, administration : Oursatievskaïa est le chef-lieu du district de Khavast et une gare. Rapprochement avec l’ID moderne Khavast à vérifier ; ancien nom du candidat non validé par rétroprojection.; ville-uz-tachkent — capitale, administration : Capitale de la RSS et centre de l’oblast.; ville-uz-andijan — administration : Ville et chef-lieu de district ; futur chef-lieu d’oblast à vérifier par supplément.; ville-uz-ferghana — administration : Centre de l’oblast ; gare Skobelevo sur place.; ville-kz-karsakpai — administration, rail : Bourg urbain chef-lieu ; gare homonyme.; ville-kz-astana — administration : Chef-lieu de l’oblast créé le 14 octobre 1939.; ville-kz-karaganda — administration : Centre de l’oblast.; ville-kz-kostanai — administration, rail : Chef-lieu d’oblast avec gare homonyme.; ville-kz-atyraou — administration : Centre de l’oblast. Indication ferroviaire de 1940 dépassée par l’ouverture ultérieure documentée dans une autre source.; ville-ru-irkoutsk — administration, rail : Irkoutsk centre de l’oblast et gare locale dans le tableau urbain.; ville-ru-omsk — administration : Omsk explicitement centre de l’oblast.; ville-kz-semei — administration, rail : Centre d’oblast et gare du Turksib.; ville-kz-pavlodar — administration, rail : Chef-lieu d’oblast avec gare homonyme.; ville-ru-iakoutsk — capitale, administration : Iakoutsk explicitement capitale de la RSSA de Iakoutie.; ville-ru-oulan-oude — capitale, administration, rail : Oulan-Oudé capitale de la RSSA bouriate-mongole ; gare locale au tableau des villes.; ville-kz-aktobe — administration : Centre de l’oblast.; ville-kz-kazalinsk — administration : Ville chef-lieu ; gare Kazalinsk distante de douze kilomètres. Distincte de Novo-Kazalinsk.; ville-kz-taraz — administration : Chef-lieu de l’oblast créé le 14 octobre 1939.; ville-kz-chymkent — administration, rail, industrie : Centre du Kazakhstan méridional, gare locale ; quartier urbain Kalininski explicitement situé auprès de l’usine de plomb.; ville-kz-petropavlovsk — administration, rail : Centre du Kazakhstan septentrional et gare homonyme.; ville-uz-bekabad — administration : Bourg urbain chef-lieu, desservi par Khilkovo. Aucun statut de ville anticipé.; ville-uz-boukhara — administration : Centre de l’oblast de Boukhara.; ville-uz-djizak — administration : Ville chef-lieu de district, gare homonyme à deux kilomètres.; ville-uz-katta-kourgan — administration : Ville chef-lieu de district et gare homonyme.; ville-uz-tchirtchik — rail : Ville et gare Tchirtchik.; ville-uz-yangioul — administration, rail : Ville chef-lieu avec gare Kaufmanskaïa sur place.; ville-uz-namangan — administration, rail : Ville chef-lieu de district et gare homonyme ; statut d’oblast ultérieur à vérifier.; ville-uz-asaka — administration : Ville chef-lieu ; gare Assake à quatre kilomètres. Identité actuelle à contrôler.; ville-uz-marguilan — administration : Ville chef-lieu ; gare Gortchakovo à six kilomètres, sans fusion présumée des points.; ville-uz-tchoust — administration : Ville chef-lieu ; gare éloignée de treize kilomètres, rôle rail non appliqué automatiquement.; ville-uz-ourguentch — administration : Centre du Khorezm ; réseau ferroviaire local absent du répertoire.; ville-uz-khiva — administration : Ville chef-lieu de district.; ville-uz-noukous — capitale, administration : Siège de la RSSA karakalpake indiqué comme capitale. Type d’affichage des RSSA réservé.; ville-uz-turtkul — administration : Ville chef-lieu de district ; point de la ville ancienne à distinguer de son déplacement postérieur.; ville-uz-khodjeili — administration : Ville chef-lieu de district.; ville-uz-tchimbai — administration : Ville chef-lieu de district.; ville-uz-mouinak — administration : Bourg urbain chef-lieu de district, existence datée. Fonction portuaire à rechercher.; ville-uz-patta-gissar — port_fluvial : Bourg distinct explicitement désigné débarcadère de l’Amou-Daria ; gare Termez à huit kilomètres. Ne pas fusionner avec Termez sans contrôle du périmètre.; ville-kz-dossor — rail, administration : Bourg urbain chef-lieu ; gare Dossor sur place.; ville-kz-makat — rail : Bourg urbain et gare Makat.; ville-kz-almaty — capitale, administration : Capitale de la RSS kazakhe et centre de son oblast.; ville-kz-oskemen — administration : Centre du Kazakhstan oriental. Gare Zachtchita à sept kilomètres : rôle de la gare distinct à préciser.; ville-kz-fort-chevtchenko — administration, port_maritime : Ville chef-lieu ; embarcadère homonyme indiqué dans le tableau. Port de la Caspienne, mer intérieure.; ville-kz-chou — rail : Bourg urbain avec gare homonyme du Turksib.; ville-kz-oral — administration, rail : Centre du Kazakhstan occidental et gare locale.; ville-kz-mointy — rail : Bourg urbain avec gare homonyme, cité séparément de Balkhach.; ville-kz-kyzylorda — administration, rail : Centre de l’oblast et gare homonyme.; ville-kz-aralsk — administration, rail : Ville chef-lieu, desservie par la gare Aralskoïe More. Fonction portuaire à compléter séparément.; ville-kz-aiteke-bi — rail : Bourg urbain associé directement à la gare Kazalinsk, distinct de la ville de Kazalinsk. Rapprochement actuel Aïteke Bi à confirmer.; ville-kz-ayagoz — administration, rail : Ville chef-lieu et gare homonyme du Turksib.; ville-kz-char — administration, rail : Bourg chef-lieu ; gare Tcharskaïa sur place.; ville-kz-arys — administration, rail : Bourg urbain chef-lieu et gare homonyme.; ville-kz-turkestan — administration : Ville chef-lieu ; gare homonyme distante de 6,5 km, sans fusion des points.; ville-kz-tioulkoubas — rail : Bourg urbain avec gare homonyme du Turksib.; ville-ru-gorno-altaisk — administration : Oïrot-Toura explicitement centre de l’oblast autonome.; ville-ru-kiakhta — administration : Chef-lieu de district. Gare Oulan-Oudé donnée à 229 km, aucun rôle ferroviaire local déduit.; ville-ru-zima — rail, administration : Chef-lieu de district ; gare homonyme locale.; ville-ru-nijnieoudinsk — rail, administration : Chef-lieu de district ; gare homonyme locale.; ville-ru-taichet — rail, administration : Chef-lieu de district ; gare homonyme locale.; ville-ru-kansk — rail, administration : Chef-lieu de district et gare locale.; ville-ru-bogotol — rail, administration : Chef-lieu de district et gare locale.; ville-ru-ouiar — rail, administration : Bourg ouvrier chef-lieu, station Klioukvennaïa locale.; Rôle importable uniquement s’il figure dans le JSON final des villes ; autres usages = contexte ou réserve, voir sélection.. Limite annoncée par Ether : Scans 1940 consultés : Ouzbékistan259–269 ; Kazakhstan277–296 (p.281 non exploitée). À rapprocher des changements1941–1944 déjà documentés. Capitales RSSA et chefs-lieux d’oblast : fonction administration, type d’affichage réservé. Distinctions ville/gare conservées, notamment Kazalinsk/Novo-Kazalinsk. Contrôle complémentaire du 03/10 : en-têtes et tableaux sibériens ci-dessus lus en fac-similé dans la visionneuse, sans téléchargement. Capitales de RSSA : rôle documenté, type d’affichage réservé selon Q15-02. Relecture Claude 03/10/2026 : La page ne donne que des métadonnées bibliographiques (411 p.) sans texte des scans, donc aucune des affirmations administratives n'est vérifiable. Ancien localisateur : p.259–269 et277–296 ; images263–273 et281–300, décalage +4 ; pp. 21, 26–27, 62–63, 97, 144–145, 170 (Sibérie). Réponse d'Ether (cycle 2, 03/10/2026) : localisateur précisé (complement_ether_cycle2_documentaire). Relecture Claude 04/10/2026 (Q16-02) : 3 villes relues sur les images de pages déposées par Ether (rôles par ville dans confirmations_claude) ; les autres villes de la source restent en lecture partielle. (statut : non_verifiee -> limite). Complément d'Ether (villes 1.7, 03/10/2026, Caucase/Turquie) : nouvelles cibles et usages (complement_ether_1_7). 12 villes du Caucase relues par Claude sur les images de pages (confirmations_claude). Réponse d'Ether (lot 1.6, cycle 3, 04/10/2026, Q16-01/Q16-02) : captures 2026-10-04_ether_Q16-02_admin1940_p144_capture.png, 2026-10-04_ether_Q16-02_admin1940_p145_capture.png, 2026-10-04_ether_Q16-02_admin1940_p170_capture.png, 2026-10-04_ether_Q16-02_admin1940_p21_capture.png, 2026-10-04_ether_Q16-02_admin1940_p262_capture.png, 2026-10-04_ether_Q16-02_admin1940_p263_capture.png, 2026-10-04_ether_Q16-02_admin1940_p264_capture.png, 2026-10-04_ether_Q16-02_admin1940_p265_capture.png, 2026-10-04_ether_Q16-02_admin1940_p266_capture.png, 2026-10-04_ether_Q16-02_admin1940_p267_capture.png, 2026-10-04_ether_Q16-02_admin1940_p268_capture.png, 2026-10-04_ether_Q16-02_admin1940_p269_capture.png, 2026-10-04_ether_Q16-02_admin1940_p26_capture.png, 2026-10-04_ether_Q16-02_admin1940_p277_capture.png, 2026-10-04_ether_Q16-02_admin1940_p278_capture.png, 2026-10-04_ether_Q16-02_admin1940_p279_capture.png, 2026-10-04_ether_Q16-02_admin1940_p27_capture.png, 2026-10-04_ether_Q16-02_admin1940_p280_capture.png, 2026-10-04_ether_Q16-02_admin1940_p282_capture.png, 2026-10-04_ether_Q16-02_admin1940_p283_capture.png, 2026-10-04_ether_Q16-02_admin1940_p284_capture.png, 2026-10-04_ether_Q16-02_admin1940_p285_capture.png, 2026-10-04_ether_Q16-02_admin1940_p286_capture.png, 2026-10-04_ether_Q16-02_admin1940_p287_capture.png, 2026-10-04_ether_Q16-02_admin1940_p288_capture.png, 2026-10-04_ether_Q16-02_admin1940_p289_capture.png, 2026-10-04_ether_Q16-02_admin1940_p290_capture.png, 2026-10-04_ether_Q16-02_admin1940_p291_capture.png, 2026-10-04_ether_Q16-02_admin1940_p292_capture.png, 2026-10-04_ether_Q16-02_admin1940_p293_capture.png, 2026-10-04_ether_Q16-02_admin1940_p294_capture.png, 2026-10-04_ether_Q16-02_admin1940_p295_capture.png, 2026-10-04_ether_Q16-02_admin1940_p296_capture.png, 2026-10-04_ether_Q16-02_admin1940_p62_capture.png, 2026-10-04_ether_Q16-02_admin1940_p63_capture.png, 2026-10-04_ether_Q16-02_admin1940_p97_capture.png (dossier d'échange, 01_lots/villes_1-6/, hors dépôt). Réponse d'Ether (lot 1.7, cycle 2, 04/10/2026, Q17-01/Q17-02) : captures 2026-10-04_ether_Q17-02_admin1940_p242.jpg, 2026-10-04_ether_Q17-02_admin1940_p243.jpg, 2026-10-04_ether_Q17-02_admin1940_p244.jpg, 2026-10-04_ether_Q17-02_admin1940_p245.jpg, 2026-10-04_ether_Q17-02_admin1940_p246.jpg, 2026-10-04_ether_Q17-02_admin1940_p247.jpg, 2026-10-04_ether_Q17-02_admin1940_p248.jpg, 2026-10-04_ether_Q17-02_admin1940_p249_capture.png, 2026-10-04_ether_Q17-02_admin1940_p250_capture.png (dossier d'échange, 01_lots/villes_1-7/, hors dépôt). Réponse d'Ether (lot 1.7, cycle 3, 05/10/2026, Q17-01/Q17-02) : captures 2026-10-04_ether_C3_SHPL_p238.jpg, 2026-10-04_ether_C3_SHPL_p240.jpg, 2026-10-04_ether_C3_SHPL_p241.jpg (dossier d'échange, 01_lots/villes_1-7/, hors dépôt). Relecture Claude 05/10/2026 : Lecture d'Ether confirmée. Alat (p.238) : station la plus proche 'Аляты', distance '—' (sur place) : rail prouvé. Nakhitchevan (p.240) : 'СТОЛИЦА— г. НАХИЧЕВАНЬ' (administration) et station 'Нахичевань', distance '—' : rail prouvé. Stepanakert (p.241) : centre de l'oblast autonome du Haut-Karabakh (administration) ; sa gare est Евлах à 96 km, donc rail NON prouvé (et non attendu). Choucha (p.241) : 'Шуша г рц' = centre de raïon (administration) ; gare Евлах à 112 km, rail non prouvé (non attendu). Les gares à Yevlakh (96 et 112 km) sont bien confirmées. Dates : répertoire au 1er mai 1940, antérieur à 1945. (statut : limite -> limite).",
    "domaine": "villes",
    "villes": [
     "ville-kz-aiteke-bi",
@@ -4069,11 +3705,7 @@
    "priorite": "importante",
    "impact": [
     "Iakoutsk (administration)",
-    "Fort Chevtchenko (port_maritime)",
-    "Nakhitchevan (administration, rail)",
-    "Alat (rail)",
-    "Khankendi (administration)",
-    "Choucha (administration)"
+    "Fort Chevtchenko (port_maritime)"
    ]
   },
   {
@@ -6582,6 +6214,33 @@
    "impact": []
   },
   {
+   "id": "src-18-gr-treccani1933",
+   "groupe": "partielle",
+   "statut_claude": "limite",
+   "niveau": "A",
+   "titre": "Grecia — Enciclopedia Italiana 1933",
+   "institution": "Istituto della Enciclopedia Italiana",
+   "url": "https://www.treccani.it/enciclopedia/grecia_(Enciclopedia-Italiana)/",
+   "ou_regarder": "Partie géographique contemporaine, « Industria », troisième phrase du premier paragraphe",
+   "extrait": "Il distretto minerario più importante è quello di Laurio, all'estremità meridionale dell'Attica",
+   "notes": "Proposée par Ether (villes 1.8, 04/10/2026). Ce que la source prouve selon Ether : ville-gr-la-canee —  : Centre majeur de Crète, identifié sous La Canea. ; ville-gr-rethymnon —  : Centre côtier de Crète ; rôle portuaire non déduit automatiquement. ; ville-gr-corfou —  : Ville principale de l’île ; repère urbain à distinguer du point de l’île. ; ville-gr-ermoupoli —  : Agglomération nouvelle de Syros distinguée de l’ancien habitat. ; ville-gr-lavrio — industrie : Extraction et installations industrielles à Laurio. ; ville-gr-athenes — industrie : Centre industriel cité. ; ville-gr-le-piree — industrie : Centre industriel cité. ; ville-gr-thessalonique — industrie : Centre industriel cité. ; ville-gr-kavala — industrie : Centre industriel cité.. Limite annoncée par Ether : Texte 1933 lu en transcription ; choix urbains et fonctions locales, sans géographie politique actuelle ni chiffres de 1945. Les considérations ethniques et politiques de l’ouvrage ne sont pas reprises. Les cibles hors du fichier de données restent différées ; aucune validation humaine présumée. Relecture Claude 04/10/2026 : Confirmés: La Canea, Rethymnon, Corfou (ville de 32.221 hab.), Ermoupoli (nuova Ermupoli), Laurion (mines), Le Pirée (port principal). Athènes, Salonique et Kavala ne sont pas cités comme centres industriels dans les passages rendus (Salonique: lignes ferroviaires; Kavala: simple port). Ancien localisateur : Centri, Miniere, Industria. Réponse d'Ether (lot 1.8, cycle 2, 05/10/2026, Q18-01/Q18-02) : captures aucune (lecture en ligne) (dossier d'échange, 01_lots/villes_1-8/, hors dépôt). Relecture Claude 05/10/2026 : Les quatre villes sont nommées explicitement comme centres de localisation de la grande industrie grecque (1933, avant 1945), mais sans détail par branche. Prouve le rôle industrie général pour chaque ville ; pas de précision sectorielle. (statut : limite -> limite).",
+   "domaine": "villes",
+   "villes": [
+    "Athènes",
+    "Corfou",
+    "Ermoúpoli",
+    "Kavala",
+    "La Canée",
+    "Lavrio",
+    "Le Pirée",
+    "Réthymnon",
+    "Thessalonique"
+   ],
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
+  },
+  {
    "id": "src-18-he-sarajevo",
    "groupe": "partielle",
    "statut_claude": "limite",
@@ -6865,6 +6524,35 @@
     "San Severo",
     "Tarente",
     "Trani"
+   ],
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
+  },
+  {
+   "id": "src-18-us-elia-relief1944",
+   "groupe": "partielle",
+   "statut_claude": "limite",
+   "niveau": "A",
+   "titre": "Relief activities in Greece, mid-October through December 31, 1944",
+   "institution": "Ambassade américaine à Athènes, B. D. MacDonald ; archives ELIA",
+   "url": "https://www.elia.org.gr/userfiles/pdf_archieve/1945%202-745%20Economy%2C%20Civilian%20Relief%2C%20Agriculture%2C%20Industry%2C%20%5B13%20pgs%5D%20226-CID-113659.pdf",
+   "ou_regarder": "PDF image 2 : tableau des dépôts portuaires, puis paragraphe du 15 décembre",
+   "extrait": "Athens as capital...in liaison with military",
+   "notes": "Proposée par Ether (villes 1.8, 04/10/2026). Ce que la source prouve selon Ether : ville-gr-le-piree — port_maritime : Dépôt portuaire de secours ouvert en 1944 (16 octobre). ; ville-gr-kalamata — port_maritime : Dépôt portuaire de secours ouvert en 1944 (19 octobre). Opérations suspendues le 15 décembre selon le rapport. ; ville-gr-patras — port_maritime : Dépôt portuaire de secours ouvert en 1944 (18 octobre). Distribution ensuite largement limitée au port selon le rapport. ; ville-gr-preveza — port_maritime : Dépôt portuaire de secours ouvert en 1944 (18 octobre). Opérations suspendues le 15 décembre selon le rapport. ; ville-gr-thessalonique — port_maritime : Dépôt portuaire de secours ouvert en 1944 (15 novembre). Distribution ensuite largement limitée au port selon le rapport. ; ville-gr-volos — port_maritime : Dépôt portuaire de secours ouvert en 1944 (novembre, jour peu lisible). Opérations suspendues le 15 décembre selon le rapport. ; ville-gr-kavala — port_maritime : Dépôt portuaire de secours ouvert en 1944 (19 novembre). Opérations suspendues le 15 décembre selon le rapport. ; ville-gr-mytilene — port_maritime : Dépôt portuaire de secours ouvert en 1944 (début octobre). ; ville-gr-chios — port_maritime : Dépôt portuaire de secours ouvert en 1944 (début octobre). ; ville-gr-heraklion — port_maritime : Dépôt portuaire de secours ouvert en 1944 (4 décembre). ; ville-gr-athenes — capitale, administration : Le rapport situe à Athènes la capitale et le siège de la liaison militaire des secours.. Limite annoncée par Ether : Original lu en image : rapport rétrospectif de l’automne–décembre 1944. Les dépôts ouverts avant le 15 décembre ne signifient pas des opérations maintenues ensuite. OCR très altéré, ne pas le citer comme texte exact. Les cibles hors du fichier de données restent différées ; aucune validation humaine présumée. Relecture Claude 04/10/2026 : PDF image à OCR très dégradé : la liste des ports (Kalamata 19 oct., Preveza 18 oct., Patras, Salonique, Volos, Kavala, Mytilène, Chios, Héraklion) apparaît de façon partielle et confuse ; dates et suspension du 15 déc. non vérifiables de façon fiable. Le Pirée non retrouvé explicitement. Ancien localisateur : Rapport achevé le 2 janvier 1945, tampon du 7 février ; images PDF 1–3. Réponse d'Ether (lot 1.8, cycle 2, 05/10/2026, Q18-01/Q18-02) : captures 2026-10-04_ether_ELIA_113659-02.png (dossier d'échange, 01_lots/villes_1-8/, hors dépôt). Relecture Claude 05/10/2026 : Scan dactylographié dégradé mais le tableau 'District / Region / Port Depot / Opening date / Area served' est lisible pour les 8 villes (zoom). Dates confirmées : Le Pirée 16 oct., Patras 18 oct. (le '8' est un peu flou, lecture 18 cohérente avec Preveza 18), Salonique 15 nov., Kavala 19 nov., Mytilène et Chios 'Early October', Héraklion 4 déc. ; Volos : mois 'November' lisible, jour illisible (21/22 ?), sans incidence. Syros aussi cité (hors périmètre). Texte du paragraphe : 'For administrative purposes Greece was divided into six districts subdivided into regions with supply depots at centrally located ports' ; 'On December 15 operations out of the ports of Kalamata, Preveza, Volo and Kavalla ceased' (Volos et Kavala confirmés). L'année 1944 est déduite du contexte (ML headquarters Athens October 15, 1944 ; combats Athènes 4 décembre). Dépôts portuaires de secours = rôle de port prouvé pour 1944. (statut : limite -> limite).",
+   "domaine": "villes",
+   "villes": [
+    "Athènes",
+    "Chios",
+    "Héraklion",
+    "Kalamata",
+    "Kavala",
+    "Le Pirée",
+    "Mytilène",
+    "Patras",
+    "Préveza",
+    "Thessalonique",
+    "Volos"
    ],
    "remplacee_par": [],
    "priorite": "facultative",

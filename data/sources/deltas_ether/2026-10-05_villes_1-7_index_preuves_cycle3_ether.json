@@ -1,0 +1,88 @@
+{
+  "lot": "villes_1-7",
+  "cycle": 3,
+  "lectures": [
+    {
+      "source_id": "src-shpl-admin1940",
+      "url": "http://elib.shpl.ru/ru/nodes/8481",
+      "locator": "p.238, 240, 241 ; images du lecteur 242, 244, 245",
+      "lecture_ether": "Alat : gare locale p.238. Nakhitchevan : capitale de RSSA et gare locale p.240. Stepanakert : centre de l’oblast autonome du Haut-Karabakh ; Choucha : centre de raïon, p.241. Les gares indiquées pour ces deux dernières villes sont à Yevlakh, à 96 et 112 km : aucune preuve de rail local.",
+      "images_locales": [
+        {
+          "fichier": "2026-10-04_ether_C3_SHPL_p238.jpg",
+          "sha256": "b825aa6601cb063560822dd3ef6795f3eab434f7e113e3516574151e12c626de",
+          "octets": 62512
+        },
+        {
+          "fichier": "2026-10-04_ether_C3_SHPL_p240.jpg",
+          "sha256": "fb009bfdee7841a8dd81b369df4924726e3b94d7ad8fd27cef658dc2a7707adc",
+          "octets": 62531
+        },
+        {
+          "fichier": "2026-10-04_ether_C3_SHPL_p241.jpg",
+          "sha256": "63a22597aada30ca738fe2d1fef90bb61afa78c9e8fa373e74b54de23b78ac2a",
+          "octets": 61635
+        }
+      ],
+      "cibles": [
+        "ville-az-alat",
+        "ville-az-nakhitchevan",
+        "ville-az-stepanakert",
+        "ville-az-choucha"
+      ],
+      "limite": "Lecture ciblée par Ether ; relecture de Claude attendue. Aucune validation humaine présumée."
+    },
+    {
+      "source_id": "src-17-tr-admin-ordu",
+      "url": "https://kulturportali.gov.tr/turkiye/ordu",
+      "locator": "Paragraphe historique : décision du 4 décembre 1920, loi 69 applicable le 4 avril 1921",
+      "lecture_ether": "Ordu devient une province ; le texte distingue la décision de 1920 et son entrée en vigueur en 1921. Fonction administrative antérieure au Snapshot.",
+      "images_locales": [
+        {
+          "fichier": "2026-10-05_ether_C3_Ordu_1920.jpg",
+          "sha256": "785b5162a6528a2294410ec9c370c570c30d2cd9b2975ecc7f8ee3530385796f",
+          "octets": 229484
+        }
+      ],
+      "cibles": [
+        "ville-tr-ordu"
+      ],
+      "limite": "Lecture ciblée par Ether ; relecture de Claude attendue. Aucune validation humaine présumée."
+    },
+    {
+      "source_id": "src-17-ru-kropotkine-ville",
+      "url": "https://www.gorod-kropotkin.ru/o-gorode/o-gorode-kropotkine/",
+      "locator": "Histoire de la ville : premier train le 18 juin 1874 ; station de 1903",
+      "lecture_ether": "Le texte municipal situe le premier train à la station Kavkazskaïa le 18 juin 1874. Le passage sur le statut urbain de 1921 comporte des dates concurrentes en mars et avril : seul le rôle ferroviaire est ici renforcé.",
+      "images_locales": [
+        {
+          "fichier": "2026-10-05_ether_C3_Kropotkine_1874_lu.jpg",
+          "sha256": "fbd04b16a73668e8118cb6d152450a4596aca9d6b9fbdc6705d5710d9879a9db",
+          "octets": 144021
+        }
+      ],
+      "cibles": [
+        "ville-ru-kropotkine"
+      ],
+      "limite": "Lecture ciblée par Ether ; relecture de Claude attendue. Aucune validation humaine présumée."
+    },
+    {
+      "source_id": "src-17-tr-kirklareli-gare",
+      "url": "https://kirklarelienvanteri.gov.tr/684-ada-1-parsel-su-deposu-277",
+      "locator": "Inventaire 39-01-803, réservoir ferroviaire, 684 ada 1 parsel",
+      "lecture_ether": "L’inventaire localise le réservoir dans le quartier de la gare de Kırklareli et le date de 1910–1912. Preuve d’un équipement ferroviaire local, sans horaire ni capacité de 1945.",
+      "images_locales": [
+        {
+          "fichier": "2026-10-05_ether_C3_Kirklareli_1910.jpg",
+          "sha256": "3248daf1f83c975d5291f9eba93df9137a6833988a5f39efe0df0c9edd40789d",
+          "octets": 66506
+        }
+      ],
+      "cibles": [
+        "ville-tr-kirklareli"
+      ],
+      "limite": "Lecture ciblée par Ether ; relecture de Claude attendue. Aucune validation humaine présumée."
+    }
+  ],
+  "limite": "Index de pièces lues et de passages proposés à la relecture ; pas de nouvelle validation Claude."
+}

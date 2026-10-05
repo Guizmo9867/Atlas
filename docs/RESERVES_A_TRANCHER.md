@@ -1,6 +1,6 @@
 # Atlas — réserves et points à trancher (série villes 1.x)
 
-*Généré automatiquement le 04/10/2026 à 19 h 57 par Claude, à partir des fichiers de réserves d'Ether et des comptes rendus de Claude. Régénéré à chaque lot.*
+*Généré automatiquement le 05/10/2026 à 12 h 22 par Claude, à partir des fichiers de réserves d'Ether et des comptes rendus de Claude. Régénéré à chaque lot.*
 
 ## Comment s'en servir
 
@@ -1316,11 +1316,11 @@ Preuves et limites : src-17-tr-guleman-localisation / 1936–1939,distinctionvil
   - [Historique d’Alacakaya etGuleman](https://alacakaya.meb.gov.tr/www/tarihce/icerik/95) — `src-17-tr-guleman-localisation` (confirmée par Claude)
 - **Décision de Guizmo** : …
 
-### Q17-01 — Sources du lot 1.7 que l'outil de Claude ne lit pas *(question de Claude)*
+### Q17-01 — Sources du lot 1.7 que l'outil de Claude ne lit pas (close au cycle 3, restes en réserve) *(question de Claude)*
 
-- **Ce qu'on sait** : Au cycle 2 (04/10), Ether a déposé 7 captures : encyclopédie Atatürk lue en entier (rail prouvé pour 30 villes turques ; Adana, Afyon, Manisa, Divriği non trouvées), Gelibolu confirmée, Mersin/Tarsus relue, Sümerbank : contradiction 1944/1947 réelle (rôle industrie d'İzmir retiré). Restent sans capture : Ordu, MAPEG (Raman), musée du rail arménien, Kropotkine, TRDizin (Maden), Kırklareli, Rosmorport mer Noire, Militera, journal de Tkvartcheli.
-- **Ce que ça change sur la carte** : Les rôles qui n'ont que ces sources restent « À renforcer » (78 villes sur 166, 124 avant).
-- **Choix possibles** : Ether dépose des captures ou une autre source ; Guizmo peut valider sur la page « Sources à valider » ; ou garder la réserve.
+- **Ce qu'on sait** : Cycle 2 : encyclopédie Atatürk (rail de 30 villes), Gelibolu, Mersin/Tarsus, Sümerbank (industrie d'İzmir retirée). Cycle 3 (05/10) : captures d'Ordu (province par la loi 69 du 4 avril 1921), Kropotkine (premier train à Kavkazskaïa le 18 juin 1874) et Kırklareli (réservoir de la gare, 1910-1912) lues et confirmées par Claude. Restent sans pièce lisible : MAPEG (Raman), musée du rail arménien, TRDizin (Maden), Rosmorport mer Noire, Militera, journal de Tkvartcheli ; Afyon, Manisa, Divriği sans preuve du rail (R17-C3-01, R17-C3-02).
+- **Ce que ça change sur la carte** : Les rôles qui n'ont que ces sources restent « À renforcer » (71 villes sur 166). Trois cycles faits : plus de cycle automatique.
+- **Choix possibles** : Garder la réserve ; Guizmo peut valider sur la page « Sources à valider » ; ou une autre source au moment de l'audit final.
 - **Sources liées** (cliquer pour ouvrir) :
   - [Заря Востока,12février1941,n35,industrie charbonnière](https://dspace.nplg.gov.ge/bitstream/1234/468753/1/Zaria_Vostoka_1941_N35.pdf) — `src-17-ge-zaria19410212` (ne prouve pas bien)
   - [Historique deMersin etTarsus](https://mersin.ktb.gov.tr/TR-73152/tarihce.html) — `src-17-tr-mersin-tarsus-histoire` (lecture partielle)
@@ -1332,16 +1332,16 @@ Preuves et limites : src-17-tr-guleman-localisation / 1936–1939,distinctionvil
   - [Gelibolu : histoire administrative](https://canakkale.ktb.gov.tr/TR-70539/gelibolu.html) — `src-17-tr-gelibolu-administration` (confirmée par Claude)
   - [Taganrog : reprise du port par la réparation navale après août 1943](https://www.rosmorport.ru/filials/nvr_seaports/) — `src-rosmorport-taganrog-reparation-1943` (lecture partielle)
   - [EtibankErganiBakırİşletmesi’ninKuruluşuveElazığ’ınMadenİlçesineGetirdikleri,notice d’article](https://search.trdizin.gov.tr/en/yayin/detay/269303/) — `src-17-tr-maden-bakir-etude` (illisible pour Claude)
-  - [Histoire de la ville deKropotkine](https://www.gorod-kropotkin.ru/o-gorode/o-gorode-kropotkine/) — `src-17-ru-kropotkine-ville` (illisible pour Claude)
-  - [Inventaire39-01-803,réservoir de la gare deKırklareli](https://kirklarelienvanteri.gov.tr/684-ada-1-parsel-su-deposu-277) — `src-17-tr-kirklareli-gare` (illisible pour Claude)
-  - [Notice historique deOrdu](https://kulturportali.gov.tr/turkiye/ordu) — `src-17-tr-admin-ordu` (illisible pour Claude)
+  - [Histoire de la ville deKropotkine](https://www.gorod-kropotkin.ru/o-gorode/o-gorode-kropotkine/) — `src-17-ru-kropotkine-ville` (confirmée par Claude)
+  - [Inventaire39-01-803,réservoir de la gare deKırklareli](https://kirklarelienvanteri.gov.tr/684-ada-1-parsel-su-deposu-277) — `src-17-tr-kirklareli-gare` (confirmée par Claude)
+  - [Notice historique deOrdu](https://kulturportali.gov.tr/turkiye/ordu) — `src-17-tr-admin-ordu` (confirmée par Claude)
 - **Décision de Guizmo** : …
 
-### Q17-02 — Pages du répertoire de 1940 pour la Géorgie et l'Arménie *(question de Claude)*
+### Q17-02 — Pages du répertoire de 1940 (close au cycle 3) *(question de Claude)*
 
-- **Ce qu'on sait** : Ether a déposé les pages 242-250 (Géorgie, Arménie) et la p. 55 du supplément de 1944 : 34 villes confirmées, dont Stavropol (renommée le 12/01/1943, centre du kraï). Manquent encore les pages de Nakhitchevan (p. 240), Alat (p. 238), Stepanakert et Choucha (p. 241).
-- **Ce que ça change sur la carte** : Ces 4 villes gardent leurs rôles « À renforcer ».
-- **Choix possibles** : Ether dépose ces pages ; ou garder la réserve.
+- **Ce qu'on sait** : Cycle 3 : pages 238, 240 et 241 lues par Claude : Alat (gare), Nakhitchevan (capitale de la RSSA, gare), Stepanakert (centre de l'oblast autonome), Choucha (centre de raïon) confirmés. Stepanakert et Choucha ont leur gare à Yevlakh (96 et 112 km) : pas de rail.
+- **Ce que ça change sur la carte** : Ces 4 villes n'ont plus de rôle « À renforcer » pour cette source ; la question du type de capitale des RSSA reste Q15-02.
+- **Choix possibles** : Rien à décider de plus (question close).
 - **Sources liées** (cliquer pour ouvrir) :
   - [URSS. Division administrative et territoriale des républiques fédérées au 1er mai 1940](http://elib.shpl.ru/ru/nodes/8481) — `src-shpl-admin1940` (lecture partielle)
   - [Supplément au répertoire administratif de l’URSS — changements du 01/01/1941 au 01/10/1944](https://kp.rusneb.ru/item/material/dopolnenie-k-spravochniku-administrativno-territorialnoe-delenie-soyuznyh-respublik-vypuska-1941-g-izmeneniya-proizoshedshie-za-period-s-1-yanvarya-1941-g-po-1-oktyabrya-1944-g-informacionno-statisticheskij-otdel-pri-sekretariate-prezidiuma-verhovnogo-soveta-sssr) — `src-neb-admin1944-supplement` (lecture partielle)
@@ -1568,7 +1568,7 @@ Preuves et limites : Rhodes et Léros documentés par les histoires municipales 
 Preuves et limites : La preuve nomme une tête de ligne sans établir son rapport avec le centre urbain. Impact : Aucune entité importable dans ce lot. Les preuves recueillies sont conservées dans la sélection. Choix à examiner : Établir l’identité, le rôle local et un repère approprié ; sinon maintenir le report. Sources : src-18-it-re-1946-ete44
 
 - **Sources liées** (cliquer pour ouvrir) :
-  - [Reconstruction ferroviaire en Italie : offensive de mai 1944](https://www.trenidicarta.it/reconstruction/2_2_4.html) — `src-18-it-re-1946-ete44` (illisible pour Claude)
+  - [Reconstruction ferroviaire en Italie : offensive de mai 1944](https://www.trenidicarta.it/reconstruction/2_2_4.html) — `src-18-it-re-1946-ete44` (confirmée par Claude)
 - **Décision de Guizmo** : …
 
 ### R18-32 — Candidat différé : Oinoi
@@ -1814,13 +1814,13 @@ Preuves et limites : Rapports de réparations lus ville par ville. Dates contrad
 
 - **Sources liées** (cliquer pour ouvrir) :
   - [Cenni storici — arsenal de La Spezia](https://www.marina.difesa.it/noi-siamo-la-marina/organizzazione/comandi-basi-enti/arsenali/marinarsenspezia/Pagine/storia.aspx) — `src-18-it-marine-la-spezia` (confirmée par Claude)
-  - [Reconstruction ferroviaire en Italie : offensive de mai 1944](https://www.trenidicarta.it/reconstruction/2_2_4.html) — `src-18-it-re-1946-ete44` (illisible pour Claude)
-  - [Reconstruction ferroviaire en Italie : campagne hivernale 1944–1945](https://www.trenidicarta.it/reconstruction/2_2_5.html) — `src-18-it-re-1946-hiver44` (illisible pour Claude)
-  - [Reconstruction ferroviaire en Italie : ligne 219](https://www.trenidicarta.it/reconstruction/2_3_10.html) — `src-18-it-re-1946-ligne219` (illisible pour Claude)
+  - [Reconstruction ferroviaire en Italie : offensive de mai 1944](https://www.trenidicarta.it/reconstruction/2_2_4.html) — `src-18-it-re-1946-ete44` (confirmée par Claude)
+  - [Reconstruction ferroviaire en Italie : campagne hivernale 1944–1945](https://www.trenidicarta.it/reconstruction/2_2_5.html) — `src-18-it-re-1946-hiver44` (confirmée par Claude)
+  - [Reconstruction ferroviaire en Italie : ligne 219](https://www.trenidicarta.it/reconstruction/2_3_10.html) — `src-18-it-re-1946-ligne219` (confirmée par Claude)
   - [Railway reconstruction Italy 1943–1946, II.III.2, ligne 86](https://www.trenidicarta.it/reconstruction/2_3_2.html) — `src-18-it-re-1946-ligne86` (confirmée par Claude)
-  - [Reconstruction ferroviaire en Italie : ligne 87](https://www.trenidicarta.it/reconstruction/2_3_7.html) — `src-18-it-re-1946-ligne87` (illisible pour Claude)
+  - [Reconstruction ferroviaire en Italie : ligne 87](https://www.trenidicarta.it/reconstruction/2_3_7.html) — `src-18-it-re-1946-ligne87` (lecture partielle)
   - [Reconstruction ferroviaire en Italie : ligne 89](https://www.trenidicarta.it/reconstruction/2_3_3.html) — `src-18-it-re-1946-ligne89` (lecture partielle)
-  - [Reconstruction ferroviaire en Italie : ligne 90](https://www.trenidicarta.it/reconstruction/2_3_4.html) — `src-18-it-re-1946-ligne90` (illisible pour Claude)
+  - [Reconstruction ferroviaire en Italie : ligne 90](https://www.trenidicarta.it/reconstruction/2_3_4.html) — `src-18-it-re-1946-ligne90` (confirmée par Claude)
   - [Lettre présidentielle sur les sièges des ministères](https://archivio.quirinale.it/aspr/comunicati/PRESSRELEASE-001-007797/presidente/giorgio-napolitano/lettera-del-presidente-della-repubblica-al-presidente-del-consiglio-sul-tema-del-decentramento-sedi-ministeri-sul-territorio) — `src-18-it-rome-quirinale-capitale` (confirmée par Claude)
   - [Italy: Railways, OSS n°2067, 16 juillet 1943](https://purl.stanford.edu/cq765sj1121) — `src-18-oss2067-italie-rail1943` (lecture partielle)
 - **Décision de Guizmo** : …
@@ -1855,11 +1855,11 @@ Preuves et limites : Rail et industrie alimentaire sont documentés par les cart
 
 - **Sources liées** (cliquer pour ouvrir) :
   - [Cenni storici — arsenal de Tarente](https://www.marina.difesa.it/noi-siamo-la-marina/organizzazione/comandi-basi-enti/arsenali/marinarsen_taranto/Pagine/cenni_storici.aspx) — `src-18-it-marine-tarente` (illisible pour Claude)
-  - [Railway reconstruction Italy 1943–1946, II.II.1](https://www.trenidicarta.it/reconstruction/2_2_1.html) — `src-18-it-re-1946-est43` (illisible pour Claude)
+  - [Railway reconstruction Italy 1943–1946, II.II.1](https://www.trenidicarta.it/reconstruction/2_2_1.html) — `src-18-it-re-1946-est43` (confirmée par Claude)
   - [Railway reconstruction Italy 1943–1946, II.III.2, ligne 86](https://www.trenidicarta.it/reconstruction/2_3_2.html) — `src-18-it-re-1946-ligne86` (confirmée par Claude)
   - [Reconstruction ferroviaire en Italie : ligne 89](https://www.trenidicarta.it/reconstruction/2_3_3.html) — `src-18-it-re-1946-ligne89` (lecture partielle)
-  - [Reconstruction ferroviaire en Italie : ligne 90](https://www.trenidicarta.it/reconstruction/2_3_4.html) — `src-18-it-re-1946-ligne90` (illisible pour Claude)
-  - [Railway reconstruction Italy 1943–1946, II.II.2](https://www.trenidicarta.it/reconstruction/2_2_2.html) — `src-18-it-re-1946-ouest43` (illisible pour Claude)
+  - [Reconstruction ferroviaire en Italie : ligne 90](https://www.trenidicarta.it/reconstruction/2_3_4.html) — `src-18-it-re-1946-ligne90` (confirmée par Claude)
+  - [Railway reconstruction Italy 1943–1946, II.II.2](https://www.trenidicarta.it/reconstruction/2_2_2.html) — `src-18-it-re-1946-ouest43` (confirmée par Claude)
   - [Italy: Railways, OSS n°2067, 16 juillet 1943](https://purl.stanford.edu/cq765sj1121) — `src-18-oss2067-italie-rail1943` (lecture partielle)
   - [Southern Italy: food processing plants, OSS n°2475, 30 juillet 1943](https://purl.stanford.edu/ck156mr7841) — `src-18-oss2475-italie-alimentation1937` (lecture partielle)
 - **Décision de Guizmo** : …
@@ -1903,7 +1903,7 @@ Preuves et limites : Corridors ferroviaires et industrie de Timișoara, Reșița
   - [Țara Bârsei 2003 : Balog pp.47–54 et Bellu pp.55–60](https://biblioteca-digitala.ro/reviste/tara-barsei/02-revista-Tara-Barsei-2003.pdf) — `src-18-bellu-balog-tara-barsei2003` (illisible pour Claude)
   - [File de istorie feroviară](https://cfr.ro/file-de-istorie-feroviara/) — `src-18-ro-cfr-histoire` (lecture partielle)
   - [Istorie și evoluție](https://www.ucmh.ro/istorie-si-evolutie/) — `src-18-ro-resita-ucmh-histoire` (confirmée par Claude)
-  - [Istoria orașului](https://sibiu.ro/sibiu/istoria) — `src-18-ro-sibiu-ville-histoire` (illisible pour Claude)
+  - [Istoria orașului](https://sibiu.ro/sibiu/istoria) — `src-18-ro-sibiu-ville-histoire` (confirmée par Claude)
   - [Municipiul Timișoara — repères historiques](https://www.cjtimis.ro/judetul-timis/primariile-din-judetul-timis/municipiul-timisoara/) — `src-18-ro-timisoara-conseil-histoire` (confirmée par Claude)
   - [Romania — Enciclopedia Italiana 1936](https://www.treccani.it/enciclopedia/romania_(Enciclopedia-Italiana)/) — `src-18-ro-treccani1936` (lecture partielle)
 - **Décision de Guizmo** : …
@@ -1914,7 +1914,7 @@ Preuves et limites : Constanța, Cernavodă et Sulina documentées. Tulcea et le
 
 - **Sources liées** (cliquer pour ouvrir) :
   - [Histoire des chemins de fer bulgares](https://www.bdz.bg/bg/a/istoria-bdz) — `src-18-bg-bdz-histoire-detail` (lecture partielle)
-  - [The Port of Constanţa, objet RO 004](https://sharinghistory.museumwnf.org/database_item.php?id=object;AWE;rm;4;en) — `src-18-ro-constanta-mnhr1906` (illisible pour Claude)
+  - [The Port of Constanţa, objet RO 004](https://sharinghistory.museumwnf.org/database_item.php?id=object;AWE;rm;4;en) — `src-18-ro-constanta-mnhr1906` (confirmée par Claude)
   - [Romania — Enciclopedia Italiana 1936](https://www.treccani.it/enciclopedia/romania_(Enciclopedia-Italiana)/) — `src-18-ro-treccani1936` (lecture partielle)
 - **Décision de Guizmo** : …
 
@@ -1934,7 +1934,7 @@ Preuves et limites : Nœuds ferroviaires, Cagliari et Olbia examinés. Porto Tor
 
 - **Sources liées** (cliquer pour ouvrir) :
   - [Cagliari — Enciclopedia Italiana 1930](https://www.treccani.it/enciclopedia/cagliari_(Enciclopedia-Italiana)/) — `src-18-it-cagliari-treccani1930` (confirmée par Claude)
-  - [Olbia e le sue acque — relation archéologique, octobre 2023](https://servizionline.comune.olbia.ot.it/002-PubCED/2025.04.10-OlbiaAcque/ElabDescr/A-ElabGenSpecialistici/A6-ARC/A.6.1%20-%20A.6.2/A.6.1%20-%20Relazione_archeologica.pdf) — `src-18-it-olbia-archeologie2023` (illisible pour Claude)
+  - [Olbia e le sue acque — relation archéologique, octobre 2023](https://servizionline.comune.olbia.ot.it/002-PubCED/2025.04.10-OlbiaAcque/ElabDescr/A-ElabGenSpecialistici/A6-ARC/A.6.1%20-%20A.6.2/A.6.1%20-%20Relazione_archeologica.pdf) — `src-18-it-olbia-archeologie2023` (confirmée par Claude)
   - [Italy: Railways, OSS n°2067, 16 juillet 1943](https://purl.stanford.edu/cq765sj1121) — `src-18-oss2067-italie-rail1943` (lecture partielle)
 - **Décision de Guizmo** : …
 
@@ -1970,18 +1970,190 @@ Preuves et limites : Cartes 1942–1943 : Ljubljana, Maribor, Celje, Jesenice, K
   - [Yugoslavia, OSS n°2443, 26 août 1943](https://purl.stanford.edu/cg501zv0179) — `src-18-oss2443-yugoslavie1943` (lecture partielle)
 - **Décision de Guizmo** : …
 
-### Q18-01 — Sources du lot 1.8 que l'outil de Claude ne lit pas *(question de Claude)*
+### Q18-01 — Sources du lot 1.8 que l'outil de Claude ne lit pas (close au cycle 2, restes en réserve) *(question de Claude)*
 
-- **Ce qu'on sait** : 13 sources sur 66 : 7 pages du rapport « Railway reconstruction Italy 1943-1946 » (Treni di Carta : page vide pour l'outil ; 2.2.1, 2.2.2, 2.2.4, 2.2.5, 2.3.4, 2.3.7, 2.3.10), Albpetrol (Kuçovë, Vlorë), Țara Bârsei 2003 (13 villes de Transylvanie, refus 403), Sibiu, Constanța (musée), Marine de Tarente, Olbia.
-- **Ce que ça change sur la carte** : Les rôles qui n'ont que ces sources restent « À renforcer » (65 villes sur 361, surtout le rail en Italie centrale et en Transylvanie).
-- **Choix possibles** : Ether dépose des captures des passages ; ou une autre source ; Guizmo peut valider sur la page « Sources à valider » ; ou garder la réserve.
+- **Ce qu'on sait** : Cycle 2 (05/10) : Ether a déposé 15 captures. Claude a lu et confirmé les 7 pages du rapport « Railway reconstruction Italy » (Treni di Carta), Olbia (port 1870, rail 1881), Sibiu (fabriques 1875-1897) et Constanța (port inauguré en 1909). Restent sans pièce lisible : Țara Bârsei 2003 (refus 403), Albpetrol (403), Marine de Tarente (délai dépassé) (R18-C2-01).
+- **Ce que ça change sur la carte** : Le lot passe de 65 à 26 villes « À renforcer » sur 361.
+- **Choix possibles** : Garder la réserve ; Guizmo peut valider sur la page « Sources à valider » ; ou une autre source au moment de l'audit final.
 - **Décision de Guizmo** : …
 
-### Q18-02 — Sources du lot 1.8 lues en partie *(question de Claude)*
+### Q18-02 — Points du lot 1.8 encore non prouvés après le cycle 2 *(question de Claude)*
 
-- **Ce qu'on sait** : La page est lue mais ne nomme pas toutes les villes : chemins de fer roumains (Buzău, Brăila, Tecuci), BDŽ (Plovdiv), ZFBH (Derventa, Tuzla), Sarajevo (rail), Treccani Roumanie (Craiova, Ploiești), Treccani Grèce (industrie d'Athènes, du Pirée, de Salonique, de Kavala), rapport de secours grec ELIA (texte scanné peu lisible : seules Kalamata, Preveza et Athènes relues), Ligne 89 (seule Aversa). Les 5 cartes OSS ont été lues par Claude sur les images d'Ether : 271 villes confirmées une à une.
+- **Ce qu'on sait** : Relu le 05/10 : ELIA (8 ports grecs lisibles), Treccani Grèce (industrie d'Athènes, Le Pirée, Salonique, Kavala), Treccani Roumanie (industrie de Ploiești), ZFBH (Derventa et Sarajevo) confirmés. Toujours non prouvés : Buzău, Brăila, Tecuci (la page des chemins de fer roumains ne les nomme que dans l'itinéraire PROPOSÉ en 1866) ; Cancello Arnone (introuvable sur les captures de la ligne 89) ; Fabriano et Spolète (seulement des titres de planches ou un repère) ; rail de Ploiești ; Plovdiv, Tuzla, Craiova (R18-C2-03). Orte : Ether proposait d'écrire que le pont du Tibre « à Orte » n'a rouvert qu'en juillet 1945 ; la capture dit « at Ode Station » sans nommer Orte : correction non appliquée (R18-C2-02).
 - **Ce que ça change sur la carte** : Seules les villes nommées comptent comme prouvées ; les autres gardent « À renforcer ».
-- **Choix possibles** : Ether dépose une capture ou une autre source pour ces villes ; ou garder la réserve.
+- **Choix possibles** : Ether peut répondre au cycle 3 (une autre source datée pour ces villes) ; sinon garder la réserve.
+- **Décision de Guizmo** : …
+
+## Lot villes 1.9 — 24 points
+
+*Fichier détaillé d'Ether : `01_lots/villes_1-9/2026-10-05_ether_reserves_revue_finale.md`*
+
+### R19-01 — Positions des centres historiques
+
+Preuves et limites : Wikidata actuel et carte Forcano 1942 non géoréférencée. Impact : Points représentatifs proposés ; aucune précision de centre1945 certifiée. À examiner : Contrôler déplacements urbains et centres sur cartes datées ; Ferrol point municipal et point de localité diffèrent d’environ2 km.
+
+- **Sources liées** : aucune citée par identifiant ; voir le fichier détaillé d'Ether ou les sources des villes concernées dans `00_SOURCES_A_VALIDER.md`.
+- **Décision de Guizmo** : …
+
+### R19-02 — Noms à la date et nom_local
+
+Preuves et limites : Formes locales de1942, conventions françaises et noms actuels de fiche ; aucune règle nom_local validée. Impact : El Ferrol del Caudillo, Mahón et Puerto Cabras dans les états ; autres variantes en alias, aucune substitution automatique. À examiner : Revoir formes concurrentes en fin de série, notamment catalan/basque et micro-États.
+
+- **Sources liées** : aucune citée par identifiant ; voir le fichier détaillé d'Ether ou les sources des villes concernées dans `00_SOURCES_A_VALIDER.md`.
+- **Décision de Guizmo** : …
+
+### R19-03 — Continuité des services au1janvier1945
+
+Preuves et limites : Carte1942 et attestations historiques ; témoignages locaux souvent antérieurs. Impact : Les rôles ne certifient pas fréquence, accès frontalier ou fonctionnement ininterrompu. À examiner : Renforcer l’état de service fin1944 ; conserver coupures et fermetures explicites.
+
+- **Sources liées** : aucune citée par identifiant ; voir le fichier détaillé d'Ether ou les sources des villes concernées dans `00_SOURCES_A_VALIDER.md`.
+- **Décision de Guizmo** : …
+
+### R19-04 — Importance A/B/C et fonctions administratives
+
+Preuves et limites : Priorités de zoom éditoriales et chefs-lieux datés. Impact : Aucun rang fondé sur une population1945 inventée ; pas de capitale régionale déduite d’un district. À examiner : Relire hiérarchie de flux et capitalité coloniale pendant la revue finale.
+
+- **Sources liées** : aucune citée par identifiant ; voir le fichier détaillé d'Ether ou les sources des villes concernées dans `00_SOURCES_A_VALIDER.md`.
+- **Décision de Guizmo** : …
+
+### R19-05 — Passages indexés et images non collationnées
+
+Preuves et limites : CUF, Horta/SATA, arsenaux espagnols, Arrecife : lecture indexée signalée dans chaque fiche. Impact : Preuves à relire, sans confirmationClaude ni humaine. À examiner : Obtenir les pages originales si nécessaire ; aucune citation inventée.
+
+- **Sources liées** : aucune citée par identifiant ; voir le fichier détaillé d'Ether ou les sources des villes concernées dans `00_SOURCES_A_VALIDER.md`.
+- **Décision de Guizmo** : …
+
+### R19-06 — Monaco et Vatican — capitalité et périmètre urbain
+
+Preuves et limites : Monaco1934 distingue trois noyaux ; Vatican est une cité-État. Un point urbain ne doit pas dupliquer le territoire. Impact : Pas de champ capitale pour ces deux points tant que la convention ville-État reste à trier ; rôles administration/port ou rail proposés. À examiner : Valider le point d’agglomération et la convention de capitale ; ne pas créer trois quartiers comme villes par défaut.
+
+- **Sources liées** : aucune citée par identifiant ; voir le fichier détaillé d'Ether ou les sources des villes concernées dans `00_SOURCES_A_VALIDER.md`.
+- **Décision de Guizmo** : …
+
+### R19-07 — Andorre — Encamp/FHASA, Pas de la Case
+
+Preuves et limites : Gouvernement : centrale au Grau del Corb, construction1930–1934 ; archives des Pyrénées-Orientales : route du Pas de la Case1933. Rattachement précis aux centres urbains insuffisant. Impact : Encamp industriel et Pas de la Case frontalier différés. À examiner : Localiser centrale, bourg et passage sur une carte datée ; aucune infrastructure autonome.
+
+- **Sources liées** : aucune citée par identifiant ; voir le fichier détaillé d'Ether ou les sources des villes concernées dans `00_SOURCES_A_VALIDER.md`.
+- **Décision de Guizmo** : …
+
+### R19-08 — Chypre — extrémités ferroviaires et centres miniers
+
+Preuves et limites : Musée du rail : réseau1905–1951 ; cela ne prouve pas Evrychou après la fermeture occidentale1931–1932. Treccani1931 nomme mines et baie de Morphou. Impact : Pas de rail Evrychou, ni de port Morphou, ni de villes minières déduites des mines. À examiner : Vérifier carte1944 et agglomérations de Skouriotissa, Mavrovouno, Amiantos ; ports Lefka/Latchi à localiser.
+
+- **Sources liées** : aucune citée par identifiant ; voir le fichier détaillé d'Ether ou les sources des villes concernées dans `00_SOURCES_A_VALIDER.md`.
+- **Décision de Guizmo** : …
+
+### R19-09 — Paphos — Ktima et bas port
+
+Preuves et limites : Treccani1931 distingue les noyaux ; point actuel de municipalité ne certifie pas le centre administratif historique. Impact : Administration proposée ; port non ajouté ; géométrie précise réservée. À examiner : Comparer les deux centres sur carte datée.
+
+- **Sources liées** : aucune citée par identifiant ; voir le fichier détaillé d'Ether ou les sources des villes concernées dans `00_SOURCES_A_VALIDER.md`.
+- **Décision de Guizmo** : …
+
+### R19-10 — Malte — desserte ferroviaire interrompue
+
+Preuves et limites : Central Bank :1883–1931 ; SanMarino VisitSM : bombardement26juin1944. Le rail ancien ne doit pas être prolongé au Snapshot. Impact : Aucun rôle rail à Malte ni à Saint-Marin. À examiner : Maintenir exclusion ; précision du dernier train de Saint-Marin en juillet1944 à documenter seulement si utile.
+
+- **Sources liées** : aucune citée par identifiant ; voir le fichier détaillé d'Ether ou les sources des villes concernées dans `00_SOURCES_A_VALIDER.md`.
+- **Décision de Guizmo** : …
+
+### R19-11 — Îles atlantiques — Lajes et Santa Maria
+
+Preuves et limites : Força Aérea : arrivée britannique Lajes8octobre1943 ; AHM inventorie travaux SantaMaria1944. Les sources parlent surtout de bases et d’îles, pas de centres urbains. Impact : Aucune aviation transférée automatiquement à Praia da Vitória ou Vila do Porto ; candidats différés. À examiner : Rapprocher bases et bourgs datés ; ne pas anticiper ouverture officielle SantaMaria juillet1945.
+
+- **Sources liées** : aucune citée par identifiant ; voir le fichier détaillé d'Ether ou les sources des villes concernées dans `00_SOURCES_A_VALIDER.md`.
+- **Décision de Guizmo** : …
+
+### R19-12 — Canaries — petites îles et ports secondaires
+
+Preuves et limites : Recherche des pages portuaires : installations actuelles seulement pour LaGomera/ElHierro. Pas de preuve locale datée suffisante. Impact : San Sebastián de La Gomera, Valverde/La Estaca, Los Cristianos différés ; couverture partielle explicitée. À examiner : Reprendre annuaire maritime/cartes antérieurs1945.
+
+- **Sources liées** : aucune citée par identifiant ; voir le fichier détaillé d'Ether ou les sources des villes concernées dans `00_SOURCES_A_VALIDER.md`.
+- **Décision de Guizmo** : …
+
+### R19-13 — Baléares — Inca et Ciutadella ; port de Pasaia
+
+Preuves et limites : Inca attestation1875 repérée dans études locales ; pli de carte1942 gênant. Pasaia notice patrimoniale renvoie au mémoire1942 ; passages complets non collationnés. Impact : Candidats complémentaires différés, pas de prétention à couverture exhaustive. À examiner : Lire carte ou pages individuelles puis décider ajout.
+
+- **Sources liées** : aucune citée par identifiant ; voir le fichier détaillé d'Ether ou les sources des villes concernées dans `00_SOURCES_A_VALIDER.md`.
+- **Décision de Guizmo** : …
+
+### R19-14 — Portalegre et gare distante
+
+Preuves et limites : Forcano1942 représente une desserte mais ne suffit pas à relier le centre à la gare. Impact : Rail retiré de la proposition ; administration et industrie conservées. À examiner : Comparer centre, gare et accès datés.
+
+- **Sources liées** : aucune citée par identifiant ; voir le fichier détaillé d'Ether ou les sources des villes concernées dans `00_SOURCES_A_VALIDER.md`.
+- **Décision de Guizmo** : …
+
+### R19-15 — Chinchilla de Monte-Aragón — candidat différé
+
+Preuves et limites : Gare, localité et centre ancien à rapprocher avant sélection finale ; aucun transfert automatique du rôle à une commune éloignée. Impact : Aucune entité importable livrée pour ce candidat. À examiner : Résoudre l’identité et la position, puis réévaluer le rôle urbain.
+
+- **Sources liées** : aucune citée par identifiant ; voir le fichier détaillé d'Ether ou les sources des villes concernées dans `00_SOURCES_A_VALIDER.md`.
+- **Décision de Guizmo** : …
+
+### R19-16 — La Encina — candidat différé
+
+Preuves et limites : Le résultat initial près de Salamanque est un homonyme ; nœud proche de Villena non géoréférencé de façon suffisante. Impact : Aucune entité importable livrée pour ce candidat. À examiner : Résoudre l’identité et la position, puis réévaluer le rôle urbain.
+
+- **Sources liées** : aucune citée par identifiant ; voir le fichier détaillé d'Ether ou les sources des villes concernées dans `00_SOURCES_A_VALIDER.md`.
+- **Décision de Guizmo** : …
+
+### R19-17 — Moreda — candidat différé
+
+Preuves et limites : Gare, localité et centre ancien à rapprocher avant sélection finale ; aucun transfert automatique du rôle à une commune éloignée. Impact : Aucune entité importable livrée pour ce candidat. À examiner : Résoudre l’identité et la position, puis réévaluer le rôle urbain.
+
+- **Sources liées** : aucune citée par identifiant ; voir le fichier détaillé d'Ether ou les sources des villes concernées dans `00_SOURCES_A_VALIDER.md`.
+- **Décision de Guizmo** : …
+
+### R19-18 — Bobadilla — candidat différé
+
+Preuves et limites : Gare, localité et centre ancien à rapprocher avant sélection finale ; aucun transfert automatique du rôle à une commune éloignée. Impact : Aucune entité importable livrée pour ce candidat. À examiner : Résoudre l’identité et la position, puis réévaluer le rôle urbain.
+
+- **Sources liées** : aucune citée par identifiant ; voir le fichier détaillé d'Ether ou les sources des villes concernées dans `00_SOURCES_A_VALIDER.md`.
+- **Décision de Guizmo** : …
+
+### R19-19 — Casa Branca — candidat différé
+
+Preuves et limites : Le résultat Q2258808 désigne Sousel ; le nœud au sud de Montemor-o-Novo n’est pas identifié. Aucun point de l’homonyme retenu. Impact : Aucune entité importable livrée pour ce candidat. À examiner : Résoudre l’identité et la position, puis réévaluer le rôle urbain.
+
+- **Sources liées** : aucune citée par identifiant ; voir le fichier détaillé d'Ether ou les sources des villes concernées dans `00_SOURCES_A_VALIDER.md`.
+- **Décision de Guizmo** : …
+
+### R19-20 — Cabeço de Vide — candidat différé
+
+Preuves et limites : Gare, localité et centre ancien à rapprocher avant sélection finale ; aucun transfert automatique du rôle à une commune éloignée. Impact : Aucune entité importable livrée pour ce candidat. À examiner : Résoudre l’identité et la position, puis réévaluer le rôle urbain.
+
+- **Sources liées** : aucune citée par identifiant ; voir le fichier détaillé d'Ether ou les sources des villes concernées dans `00_SOURCES_A_VALIDER.md`.
+- **Décision de Guizmo** : …
+
+### R19-21 — Pocinho — candidat différé
+
+Preuves et limites : Gare, localité et centre ancien à rapprocher avant sélection finale ; aucun transfert automatique du rôle à une commune éloignée. Impact : Aucune entité importable livrée pour ce candidat. À examiner : Résoudre l’identité et la position, puis réévaluer le rôle urbain.
+
+- **Sources liées** : aucune citée par identifiant ; voir le fichier détaillé d'Ether ou les sources des villes concernées dans `00_SOURCES_A_VALIDER.md`.
+- **Décision de Guizmo** : …
+
+### R19-22 — Tua — candidat différé
+
+Preuves et limites : Gare, localité et centre ancien à rapprocher avant sélection finale ; aucun transfert automatique du rôle à une commune éloignée. Impact : Aucune entité importable livrée pour ce candidat. À examiner : Résoudre l’identité et la position, puis réévaluer le rôle urbain.
+
+- **Sources liées** : aucune citée par identifiant ; voir le fichier détaillé d'Ether ou les sources des villes concernées dans `00_SOURCES_A_VALIDER.md`.
+- **Décision de Guizmo** : …
+
+### R19-23 — Estella-Lizarra — candidat différé
+
+Preuves et limites : La municipalité Q646620 ne fournit pas P625 ; point Q108136582 sans libellé, rattaché à la municipalité mais identité précise non suffisante. Différer la géométrie. Impact : Aucune entité importable livrée pour ce candidat. À examiner : Résoudre l’identité et la position, puis réévaluer le rôle urbain.
+
+- **Sources liées** : aucune citée par identifiant ; voir le fichier détaillé d'Ether ou les sources des villes concernées dans `00_SOURCES_A_VALIDER.md`.
+- **Décision de Guizmo** : …
+
+### R19-24 — Canfranc — candidat différé
+
+Preuves et limites : Gare, localité et centre ancien à rapprocher avant sélection finale ; aucun transfert automatique du rôle à une commune éloignée. Impact : Aucune entité importable livrée pour ce candidat. À examiner : Résoudre l’identité et la position, puis réévaluer le rôle urbain.
+
+- **Sources liées** : aucune citée par identifiant ; voir le fichier détaillé d'Ether ou les sources des villes concernées dans `00_SOURCES_A_VALIDER.md`.
 - **Décision de Guizmo** : …
 
 ## Villes marquées « À renforcer » (rappel)
@@ -1997,7 +2169,7 @@ Ce ne sont pas des décisions à prendre : ce sont des rôles (port, rail, indus
 | 1.4 | 29 | 61 |
 | 1.5 | 70 | 200 |
 | 1.6 | 127 | 254 |
-| 1.7 | 78 | 166 |
-| 1.8 | 65 | 361 |
+| 1.7 | 71 | 166 |
+| 1.8 | 26 | 361 |
 
-**Total : 225 points à trancher.**
+**Total : 249 points à trancher.**

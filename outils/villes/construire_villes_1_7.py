@@ -78,18 +78,19 @@ for v in PROPOSITION['entites']:
 lot = {
   'metadata_lot': {
     'nom': 'snapshot0_villes_1-7_caucase_turquie', 'date_reference': '1945-01-01', 'heure_reference': '00:00',
-    'version': '0.2', 'statut': 'integre_par_claude', 'gabarit_source': 'gabarits/gabarit_entite_temporelle_atlas.json',
+    'version': '0.3', 'statut': 'integre_par_claude', 'gabarit_source': 'gabarits/gabarit_entite_temporelle_atlas.json',
     'zone': PROPOSITION['metadata_lot']['zone'],
     'limites_ether': PROPOSITION['metadata_lot']['limites'],
     'reserves_ether': 'R17-01 à R17-27 (data/snapshot0/villes_1-7_caucase_turquie_reserves_ether.md), revue finale 1.x',
-    'integration': {'date': '2026-10-04', 'par': 'Claude', 'corrections': [
+    'integration': {'date': '2026-10-05', 'par': 'Claude', 'corrections': [
       "Données : JSON d'Ether (166 villes : TR 77, RU 36, GE 26, AZ 16, AM 11), IDs déjà au code du pays actuel ; noms de 1945 dans l'état, nom actuel sur la fiche ; aucun nom_local ; 9 candidats différés non importés.",
       "Positions : coordonnées Wikidata (CC0) de l'élément relié à l'identifiant GeoNames proposé par Ether (repère CC BY 4.0) ; 22 QID choisis à la main quand l'identifiant désignait un élément secondaire (district, localité homonyme) ou n'était pas relié (Koutaïssi, Hereke, Irmak) ; aucun QID ni ID commun avec les 779 villes déjà intégrées, aucune ville à moins de 10 km d'une ville existante.",
       "Capitales : Ankara « nationale » ; Tbilissi, Erevan, Bakou « régionales » (capitales de RSS) ; RSSA, oblasts et chefs-lieux de province sans type d'affichage (Q15-02).",
       "İstanbul et Ereğli : le « nom de 1945 » proposé n'était pas un autre nom (I pointé turc ; précisant de lieu de la fiche) : gardé en alias. Autres écarts de transcription conservés (Q16-03).",
       "Sources : doublons exacts retirés dans les fiches (même source et même usage cités deux fois, ex. Goudermes) ; référence Wikidata ajoutée.",
       "Preuves : mention « (non vérifiée par Claude) », « (lecture partielle) » ou « (page relue par Claude pour cette ville) » ; « À renforcer » = rôles sans aucune preuve confirmée.",
-      "v0.2 (04/10/2026, réponses d'Ether cycle 2) : İzmir perd le rôle industrie (Halkapınar : liste de production 1944 et ouverture datée 1947 dans la même étude, contradiction relue par Claude sur les captures ; correction d'Ether, réserve R17-C2-01) ; 10 images de pages (Géorgie, Arménie, Stavropol) et 7 captures turques lues par Claude (registre v1.24) : rôles relus ville par ville, mentions de preuve et « À renforcer » recalculés."]},
+      "v0.2 (04/10/2026, réponses d'Ether cycle 2) : İzmir perd le rôle industrie (Halkapınar : liste de production 1944 et ouverture datée 1947 dans la même étude, contradiction relue par Claude sur les captures ; correction d'Ether, réserve R17-C2-01) ; 10 images de pages (Géorgie, Arménie, Stavropol) et 7 captures turques lues par Claude (registre v1.24) : rôles relus ville par ville, mentions de preuve et « À renforcer » recalculés.",
+      "v0.3 (05/10/2026, réponses d'Ether cycle 3) : aucune correction de ville ; 3 pages du répertoire de 1940 (Alat, Nakhitchevan, Stepanakert, Choucha) et 3 captures (Ordu, Kropotkine, Kırklareli) lues par Claude (registre v1.26) ; Stepanakert et Choucha : gare à Yevlakh (96 et 112 km), pas de rail ajouté ; date du statut urbain de Kropotkine réservée (R17-C3-03)."]},
   },
   'entites': entites,
 }

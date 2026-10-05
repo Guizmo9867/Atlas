@@ -1,0 +1,377 @@
+{
+ "metadata": {
+  "date": "2026-10-05",
+  "lot": "villes_1-8 cycle 2",
+  "par": "Claude (sous-agents Sonnet ; captures et images de pages déposées par Ether lues avec l'outil Read ; WebFetch seulement pour les pages en ligne, aucun contournement)",
+  "methode": "Q18-01/Q18-02 : 15 captures (Treni di Carta 2.2.x et 2.3.x, ELIA, Olbia, Sibiu, Constanța) ; CFR, ZFBH, Treccani Grèce/Roumanie relus en ligne. WebFetch n'a rendu que l'en-tête de la plupart des pages Treni di Carta : preuves lues sur les captures."
+ },
+ "resultats": [
+  {
+   "id": "src-18-us-elia-relief1944",
+   "statut": "ok",
+   "citation": "Following is a list of the regions and ports with the date of commencement of operations: ... Piraeus October 16 ... Patras October 18 ... Salonika November 15 ... Volo November 2? ... Kavalla November 19 ... Mitylene Early October ... Chios Early October ... Herakleion December 4",
+   "commentaire": "Scan dactylographié dégradé mais le tableau 'District / Region / Port Depot / Opening date / Area served' est lisible pour les 8 villes (zoom). Dates confirmées : Le Pirée 16 oct., Patras 18 oct. (le '8' est un peu flou, lecture 18 cohérente avec Preveza 18), Salonique 15 nov., Kavala 19 nov., Mytilène et Chios 'Early October', Héraklion 4 déc. ; Volos : mois 'November' lisible, jour illisible (21/22 ?), sans incidence. Syros aussi cité (hors périmètre). Texte du paragraphe : 'For administrative purposes Greece was divided into six districts subdivided into regions with supply depots at centrally located ports' ; 'On December 15 operations out of the ports of Kalamata, Preveza, Volo and Kavalla ceased' (Volos et Kavala confirmés). L'année 1944 est déduite du contexte (ML headquarters Athens October 15, 1944 ; combats Athènes 4 décembre). Dépôts portuaires de secours = rôle de port prouvé pour 1944.",
+   "villes_prouvees": {
+    "ville-gr-le-piree": [
+     "port_maritime"
+    ],
+    "ville-gr-patras": [
+     "port_maritime"
+    ],
+    "ville-gr-thessalonique": [
+     "port_maritime"
+    ],
+    "ville-gr-volos": [
+     "port_maritime"
+    ],
+    "ville-gr-kavala": [
+     "port_maritime"
+    ],
+    "ville-gr-mytilene": [
+     "port_maritime"
+    ],
+    "ville-gr-chios": [
+     "port_maritime"
+    ],
+    "ville-gr-heraklion": [
+     "port_maritime"
+    ]
+   },
+   "preuves_par_ville": {
+    "ville-gr-le-piree": "Piraeus | October 16 | Capital area, Euboea, & West Central Greece",
+    "ville-gr-patras": "Patras | October 18 | North Western Peloponnesus",
+    "ville-gr-thessalonique": "Salonika | November 15 | North Central Greece",
+    "ville-gr-volos": "Volo | November 2? (jour illisible) | Area west to the Pineus ; 'On December 15 operations out of the ports of Kalamata, Preveza, Volo and Kavalla ceased'",
+    "ville-gr-kavala": "Kavalla | November 19 | Thrace",
+    "ville-gr-mytilene": "Mitylene | Early October | Mitylene and Lemnos",
+    "ville-gr-chios": "Chios | Early October | Chios, Samos, Icaria",
+    "ville-gr-heraklion": "Herakleion (Herak.lion) | December 4 | Crete"
+   }
+  },
+  {
+   "id": "src-18-it-olbia-archeologie2023",
+   "statut": "ok",
+   "citation": "La riqualificazione del porto di Terranova nel 1870, e l'arrivo della ferrovia (la linea Cagliari-Chilivani-Terranova che venne inaugurata nel 1881 ... nel 1930 venne inaugurata la stazione marittima. ... con regio decreto del 4 agosto 1939 venne ripristinato l'antico nome romano di Olbia.",
+   "commentaire": "Page 55/98 lisible. Prouve : requalification du port de Terranova en 1870 ; ligne ferroviaire Cagliari-Chilivani-Terranova inaugurée en 1881 (rail) ; 1880 service de ligne par vapeurs déplacé vers Figari/Golfo Aranci, Terranova ne gardant que le trafic marchandises et militaire ; réactivé en 1920 ; gare maritime inaugurée en 1930 après travaux d'agrandissement et de quai du port ; nom Olbia rétabli par décret du 4 août 1939. Port maritime et rail prouvés avant 1945.",
+   "villes_prouvees": {
+    "ville-it-olbia": [
+     "port_maritime",
+     "rail"
+    ]
+   },
+   "preuves_par_ville": {
+    "ville-it-olbia": "La riqualificazione del porto di Terranova nel 1870, e l'arrivo della ferrovia (la linea Cagliari-Chilivani-Terranova che venne inaugurata nel 1881 ... nel 1930 venne inaugurata la stazione marittima."
+   }
+  },
+  {
+   "id": "src-18-ro-sibiu-ville-histoire",
+   "statut": "ok",
+   "citation": "1875 Prima fabrică de mașini unelte din Transilvania ; 1886 la ființa fabrica Iosif Datky, prima fabrică de arcuri din România ; 1897 Se deschide prima fabrică de cântare din România",
+   "commentaire": "Capture de la chronologie sur la page d'histoire de sibiu.ro. Les trois entrées (1875, 1886, 1897) sont lisibles. Réserve : les lignes de la frise ne répètent pas le mot 'Sibiu' (c'est la frise de l'histoire de Sibiu sur le site de la ville, et la fabrique Datky est connue à Sibiu) ; le texte principal nomme bien Sibiu (renommé Sibiu en 1919, résidence de județ en 1968). Industrie historique prouvée par contexte de page.",
+   "villes_prouvees": {
+    "ville-ro-sibiu": [
+     "industrie"
+    ]
+   },
+   "preuves_par_ville": {
+    "ville-ro-sibiu": "1875 Prima fabrică de mașini unelte din Transilvania; 1886 la ființa fabrica Iosif Datky, prima fabrică de arcuri din România; 1897 Se deschide prima fabrică de cântare din România"
+   }
+  },
+  {
+   "id": "src-18-ro-constanta-mnhr1906",
+   "statut": "ok",
+   "citation": "Inaugurated in 1909, the new port had 3 dams, several docks, depots, silos, an oil basin, an electric plant.",
+   "commentaire": "Fiche du musée MNHR (carte postale 1906, 'The Port of Constanța'). Texte : modernisation du port de Constanța ; 1857 contrat britannique incluant la reconstruction du port, achevé en 1864 (petit port) ; loi de 1885 ; 'Inaugurated in 1909, the new port...'. Port maritime historique prouvé (inauguration 1909 ; sources antérieures à 1945).",
+   "villes_prouvees": {
+    "ville-ro-constanta": [
+     "port_maritime"
+    ]
+   },
+   "preuves_par_ville": {
+    "ville-ro-constanta": "Inaugurated in 1909, the new port had 3 dams, several docks, depots, silos, an oil basin, an electric plant."
+   }
+  },
+  {
+   "id": "src-18-it-re-1946-est43",
+   "statut": "ok",
+   "citation": "opened the whole route from Reggio to Taranto by the end of September, moved forward to Barletta, and with R.E. assistance, opened the East coast route right through to San Severo by the middle of October.",
+   "commentaire": "WebFetch n'a renvoyé que l'en-tête et la navigation (corps de page non extrait) ; la lecture repose sur la capture JPG, qui montre le texte complet. Les cinq villes sont nommées dans un récit de réparation de ligne daté sept.-oct. 1943 (antérieur au 01/01/1945). Aucune date de réparation postérieure au 01/01/1945 pour ces villes. Foggia : nommée avec Barletta pour le pontage Bailey du trafic ferroviaire.",
+   "villes_prouvees": {
+    "ville-it-barletta": [
+     "rail"
+    ],
+    "ville-it-foggia": [
+     "rail"
+    ],
+    "ville-it-reggio-calabre": [
+     "rail"
+    ],
+    "ville-it-san-severo": [
+     "rail"
+    ],
+    "ville-it-tarente": [
+     "rail"
+    ]
+   },
+   "preuves_par_ville": {
+    "ville-it-barletta": "moved forward to Barletta, and with R.E. assistance, opened the East coast route right through to San Severo by the middle of October",
+    "ville-it-foggia": "Bailey Bridging was used in the new bridging between Barletta and Foggia. It is believed that this is the first and only time Bailey Bridging was put into use by British units to carry rail traffic.",
+    "ville-it-reggio-calabre": "the Company opened the whole route from Reggio to Taranto by the end of September",
+    "ville-it-san-severo": "opened the East coast route right through to San Severo by the middle of October",
+    "ville-it-tarente": "the Company opened the whole route from Reggio to Taranto by the end of September"
+   }
+  },
+  {
+   "id": "src-18-it-re-1946-ouest43",
+   "statut": "ok",
+   "citation": "161 Company went to work on the Salerno-Naples line immediately they arrived, whilst 713 Railway Operating Bn., (U.S.A.) who arrived simultaneously, commenced work on the rail system of the Port of Naples",
+   "commentaire": "WebFetch n'a renvoyé que l'en-tête/navigation ; lecture sur la capture JPG (texte complet visible). Naples : rail (ligne Salerno-Naples, réseau ferré du port) et port_maritime (Port of Naples nommé, 1943). Salerne : rail via la ligne Salerno-Naples (débarquement 5 octobre 1943). Aucune date postérieure au 01/01/1945.",
+   "villes_prouvees": {
+    "ville-it-naples": [
+     "rail",
+     "port_maritime"
+    ],
+    "ville-it-salerne": [
+     "rail"
+    ]
+   },
+   "preuves_par_ville": {
+    "ville-it-naples": "commenced work on the rail system of the Port of Naples, providing connections to the marshalling yards for the Rome and Foggia lines",
+    "ville-it-salerne": "161 Company went to work on the Salerno-Naples line immediately they arrived"
+   }
+  },
+  {
+   "id": "src-18-it-re-1946-ete44",
+   "statut": "ok",
+   "citation": "to repair the rail link between Rome and the port of Civitavecchia (Line 50).",
+   "commentaire": "WebFetch n'a renvoyé que l'en-tête/navigation ; lecture sur les deux captures JPG (vue1 texte complet, vue2 fin de page). Toutes les villes sont nommées dans des travaux de mai-sept. 1944 (antérieurs au 01/01/1945). Civitavecchia : port nommé explicitement (« the port of Civitavecchia ») et relié par la Line 50, donc rail et port_maritime. Aucune date postérieure au 01/01/1945.",
+   "villes_prouvees": {
+    "ville-it-arezzo": [
+     "rail"
+    ],
+    "ville-it-civitavecchia": [
+     "rail",
+     "port_maritime"
+    ],
+    "ville-it-grosseto": [
+     "rail"
+    ],
+    "ville-it-livourne": [
+     "rail"
+    ],
+    "ville-it-roccasecca": [
+     "rail"
+    ],
+    "ville-it-rome": [
+     "rail"
+    ]
+   },
+   "preuves_par_ville": {
+    "ville-it-arezzo": "Railhead at Arezzo was opened on 10 August, providing another jump forward of 100 miles from the previous railhead at Civita Castellana.",
+    "ville-it-civitavecchia": "to repair the rail link between Rome and the port of Civitavecchia (Line 50).",
+    "ville-it-grosseto": "Grosseto was opened as a railhead on August 1st.",
+    "ville-it-livourne": "repairing Line 50 towards Grosseto and Leghorn from Civitavecchia. ... Leghorn was opened on 17 September by the American units.",
+    "ville-it-roccasecca": "Railhead was opened at Roccasecca on Line 90, on 17 June",
+    "ville-it-rome": "The first train entered Rome from Naples via Line 90 on 2 July"
+   }
+  },
+  {
+   "id": "src-18-it-re-1946-hiver44",
+   "statut": "ok",
+   "citation": "The Ports of Leghorn and Ancona were in full use as bases for the 5th and 8th Armies.",
+   "commentaire": "WebFetch n'a renvoyé que l'en-tête/navigation ; lecture sur la capture JPG (texte complet). Tous les rôles attendus sont lus. Livourne : port (Ports of Leghorn and Ancona) et rail (Line 50 Leghorn-Pisa ; Line 218). Ancône : port et rail (Ancona-Ortona, Line 86). Florence, Pistoia, Prato : Line 218 (Leghorn-Pisa-Pistoia-Prato-Florence) et Line 65. Pise ouverte le 8 nov. 1944 ; Rimini railhead le 14 oct. 1944. Dates postérieures au 01/01/1945 : Montecatini ouverte le 7 janvier (1945), hors liste de villes ; l'ouverture de la ligne directe Pise-Florence reste non acquise fin janvier 1945 et les travaux Prato-Bologna et Ancona-Ortona se poursuivent pendant l'hiver (sans date précise). Ces faits ne concernent pas l'existence de la ligne avant 1945 pour les villes listées.",
+   "villes_prouvees": {
+    "ville-it-ancone": [
+     "port_maritime",
+     "rail"
+    ],
+    "ville-it-florence": [
+     "rail"
+    ],
+    "ville-it-livourne": [
+     "port_maritime",
+     "rail"
+    ],
+    "ville-it-pise": [
+     "rail"
+    ],
+    "ville-it-pistoia": [
+     "rail"
+    ],
+    "ville-it-prato": [
+     "rail"
+    ],
+    "ville-it-rimini": [
+     "rail"
+    ]
+   },
+   "preuves_par_ville": {
+    "ville-it-ancone": "The Ports of Leghorn and Ancona were in full use as bases for the 5th and 8th Armies. ... military priority was given to the reconstruction of the Ancona-Ortona section of Line 86.",
+    "ville-it-florence": "To repair Line 218 (Leghorn-Pisa-Pistoia-Prato-Florence). ... Florence required rail service, to support the civilian population and garrison troops.",
+    "ville-it-livourne": "The Ports of Leghorn and Ancona were in full use as bases for the 5th and 8th Armies. ... repairing Line 50, from Leghorn to Pisa.",
+    "ville-it-pise": "Pisa was opened to traffic by the American Units on 8 November",
+    "ville-it-pistoia": "To repair Line 218 (Leghorn-Pisa-Pistoia-Prato-Florence). ... useful railheads serving important roads at Pistoia and Prato.",
+    "ville-it-prato": "To repair Line 65, Prato to Bologna.",
+    "ville-it-rimini": "By 14 October, they had opened Rimini as a railhead."
+   }
+  },
+  {
+   "id": "src-18-it-re-1946-ligne89",
+   "statut": "limite",
+   "citation": "the line turns to the coast, skirting the shoulder of Mount Aurunci and runs West through the coastal towns of Minturno and Formia.",
+   "commentaire": "WebFetch a répondu pour cette page (résumé conforme aux captures). Capture vue1 : titre « Line 89. Rome - Naples Direttissima. Rome-Formia-Villa Literno-Aversa-Naples » ; Formia et Minturno sont nommées comme villes côtières traversées ; Villa Literno est nommée comme « junction station ». Cancello Arnone : NON retrouvée dans les captures vue1 et vue7 ; seul le résumé WebFetch (modèle de résumé, non littéral) l'associe au pont du Volturno, sans citation exacte vérifiable : rôle rail non prouvé de façon fiable pour cette ville (à relire dans la section du pont du Volturno, hors captures). Dates visibles : toutes 1943-1944 (ex. travaux 15 mars-11 avril 1944 ; tunnel du Massico 24 mars-6 juin 1944) ; aucune date postérieure au 01/01/1945 pour ces villes.",
+   "villes_prouvees": {
+    "ville-it-formia": [
+     "rail"
+    ],
+    "ville-it-villa-literno": [
+     "rail"
+    ],
+    "ville-it-minturno": [
+     "rail"
+    ]
+   },
+   "preuves_par_ville": {
+    "ville-it-formia": "At Formia, the line turns North West and tunnels through a spur in Mount Aurunci",
+    "ville-it-villa-literno": "On reaching the junction station of Villa Literno it turns North West again in the direction of Rome.",
+    "ville-it-minturno": "runs West through the coastal towns of Minturno and Formia."
+   }
+  },
+  {
+   "id": "src-18-it-re-1946-ligne90",
+   "statut": "ok",
+   "citation": "a) Volturno Bridge at Capua.",
+   "commentaire": "WebFetch a renvoyé une page sans corps de texte (seulement titre et navigation) : aucune vérification par cette voie, pas de contournement. Vérification faite sur les captures vue1 et vue4 (vue4 ne contient que des légendes de photos, sans nom de ville de la liste). Capua : sous-titre « Volturno Bridge at Capua » (pont de la ligne 90, reconstruit 28 oct.-23 nov. 1943). Cassino : « near the fortress town of Cassino. Passing through Cassino, the line follows the Liri ». Mignano : « Mignano to Rome », « between Mignano and Cassino ». Mignano est nommée comme limite de section et point de la ligne, pas décrite comme gare isolée : suffisant pour l'itinéraire. Dates toutes 1943-1944 (premier train à Rome le 2 juillet 1944) ; rien après le 01/01/1945.",
+   "villes_prouvees": {
+    "ville-it-capoue": [
+     "rail"
+    ],
+    "ville-it-cassino": [
+     "rail"
+    ],
+    "ville-it-mignano-monte-lungo": [
+     "rail"
+    ]
+   },
+   "preuves_par_ville": {
+    "ville-it-capoue": "a) Volturno Bridge at Capua.",
+    "ville-it-cassino": "Passing through Cassino, the line follows the Liri, and then its tributary the Sacco",
+    "ville-it-mignano-monte-lungo": "The railway track between Mignano and Cassino was removed and the formation used as a highway known as \"Speedy Highway\"."
+   }
+  },
+  {
+   "id": "src-18-it-re-1946-ligne87",
+   "statut": "limite",
+   "citation": "through the industrial town of Terni, up to their source.",
+   "commentaire": "WebFetch a renvoyé une page sans corps de texte : pas de vérification par cette voie, pas de contournement ; lecture faite sur les captures vue1 et vue2 (page complète). Rail : titre « Line 87. Cross Country Route. - Orte-Foligno-Falconara » ; Orte (« The line branches off Line 65 at Orte »), Terni, Foligno (« passing through the railway workshop town of Foligno »), Falconara (« which it joins at Falconara », ouverture jusqu'à Falconara le 3 sept. 1944) prouvés. Fabriano : nommée seulement dans les intitulés de planches (« Foligno to Fabriano », « Fabriano to Falconara ») = ville sur l'itinéraire, pas de gare décrite. Spoleto : nommée seulement comme repère (« Balduini Tunnel - South of Spoleto ») ; le texte d'itinéraire ne la cite pas : preuve faible mais explicite. INDUSTRIE : Terni = OUI, la page dit « industrial town of Terni » (qualificatif général, sans détail de secteur). Foligno = NON au sens industrie générale : seulement « railway workshop town » (atelier ferroviaire), à ne pas compter comme industrie sans nuance. DATES : le pont du Tibre est intitulé « Repairs to Bridge over River Tiber at Ode Station » (« Ode », non « Orte » : la page ne nomme pas Orte pour ce pont ; la ligne 'immediately crosses the River Tiber' après Orte, ce qui suggère mais ne prouve pas l'identité). Texte exact : « Work was commenced on 1 July 1945 and the bridge opened to traffic on 21 July 1945. » Cette date (1945) est en contradiction apparente avec la ligne ouverte le 3 septembre 1944 et avec le tunnel Balduini « in time for opening date on 21 July » (1944) : probable coquille du rapport (1945 pour 1944), mais la page dit bien 1945 ; ne pas dater l'arrivée du rail à Orte par ce pont. Autres dates : réparation commencée le 27 juin 1944 ; Bastia (embranchement de Foligno) 24 juillet 1944 ; pont de l'Esino (Serra San Quirico) travaux jusqu'au 4 avril 1945 (hors villes de la liste) ; aucune date postérieure à 1944 attachée explicitement à Terni, Foligno, Spoleto, Fabriano ou Falconara. Retenu par Claude : Fabriano (nommée seulement dans des titres de planches) et Spolète (repère « South of Spoleto » d'un tunnel) ne sont pas comptées comme prouvées.",
+   "villes_prouvees": {
+    "ville-it-falconara": [
+     "rail"
+    ],
+    "ville-it-foligno": [
+     "rail"
+    ],
+    "ville-it-orte": [
+     "rail"
+    ],
+    "ville-it-terni": [
+     "rail",
+     "industrie"
+    ]
+   },
+   "preuves_par_ville": {
+    "ville-it-fabriano": "Foligno to Fabriano Plate Nº. 27. / Fabriano to Falconara Plate Nº. 28.",
+    "ville-it-falconara": "The repair of the line was commenced on 27 June and the line was opened right through to Falconara on 3 September 1944 - a distance of 202 kilometres.",
+    "ville-it-foligno": "passing through the railway workshop town of Foligno",
+    "ville-it-orte": "The line branches off Line 65 at Orte and immediately crosses the River Tiber.",
+    "ville-it-spolete": "b) Balduini Tunnel - South of Spoleto.",
+    "ville-it-terni": "through the industrial town of Terni"
+   }
+  },
+  {
+   "id": "src-18-it-re-1946-ligne219",
+   "statut": "ok",
+   "citation": "10. - Line 219 - Pisa-Empoli-Florence.",
+   "commentaire": "WebFetch a renvoyé une page sans corps de texte : pas de vérification par cette voie, pas de contournement ; lecture faite sur la capture vue1. Empoli n'est nommée qu'UNE fois, dans le titre de la ligne (Pisa-Empoli-Florence) ; le corps visible ne la cite pas. Cela prouve son rôle rail (ville sur l'itinéraire de la ligne 219). DATES : « Reconstruction of the line commenced 1 February and the line was opened for traffic on 1 April 1945. » C'est une date de ligne entière, postérieure au 01/01/1945 ; elle n'est pas attachée à Empoli (le pont de l'Arno décrit est au Km 19.64, travaux 19 fév.-20 mars 1945, sans lien nommé avec Empoli). Ether ne peut donc pas lire « travaux à Empoli du 1er février au 1er avril 1945 » : ce sont les travaux de la ligne. Le rôle ferroviaire historique reste prouvé par le titre ; la ligne était double voie, à vapeur.",
+   "villes_prouvees": {
+    "ville-it-empoli": [
+     "rail"
+    ]
+   },
+   "preuves_par_ville": {
+    "ville-it-empoli": "10. - Line 219 - Pisa-Empoli-Florence."
+   }
+  },
+  {
+   "id": "src-18-ro-cfr-histoire",
+   "statut": "faible",
+   "citation": "Linia a fost deschisă în mai multe etape. Primul tronson: Piteşti - Bucureşti - Galaţi - Roman, a fost deschis la 13 septembrie 1872, iar tronsonul Vârciorova - Piteşti pe 9 mai 1878.",
+   "commentaire": "Buzău, Brăila et Tecuci ne sont nommées que dans l'itinéraire proposé en 1866 (projet approuvé). Les ouvertures 1872 et 1878 sont citées sans mention de ces trois villes (le tronçon 1872 nomme Galaţi, pas Buzău, Brăila ni Tecuci). La page ne prouve donc pas que la ligne y ait été ouverte, d'après la réponse de WebFetch.",
+   "villes_prouvees": {},
+   "preuves_par_ville": {
+    "ville-ro-buzau": "",
+    "ville-ro-braila": "",
+    "ville-ro-tecuci": ""
+   }
+  },
+  {
+   "id": "src-18-ba-zfbh-histoire",
+   "statut": "limite",
+   "citation": "The entire line was finished on 5th November 1882, when train engine 'RAMA' brought the first train into Sarajevo.",
+   "commentaire": "Sarajevo prouvé (premier train 1882 ; version bosnienne donne par erreur '05.10.1882' selon WebFetch, la version anglaise dit 5 novembre). Derventa : la page anglaise dit que le tronçon vers Derventa devait être achevé en deux mois, et que la direction fut déplacée de Derventa à Sarajevo en 1886 ; la version bosnienne ajoute la création en 1878 à Derventa de la première direction des chemins de fer bosniaques : rôle ferroviaire prouvé, mais pas explicitement l'ouverture du tronçon en 1878. Tuzla : seulement le bassin charbon/sel desservi par une ligne ; aucune gare urbaine à Tuzla, l'avis d'Ether est confirmé.",
+   "villes_prouvees": {
+    "ville-ba-sarajevo": [
+     "rail"
+    ],
+    "ville-ba-derventa": [
+     "rail"
+    ]
+   },
+   "preuves_par_ville": {
+    "ville-ba-sarajevo": "The entire line was finished on 5th November 1882, when train engine 'RAMA' brought the first train into Sarajevo.",
+    "ville-ba-derventa": "Desetog dana septembra 1878. godine, u Derventi je osnovana prva direkcija bosanskohercegovačkih željeznica ; In that same year, the Railway Directorate was moved from Derventa to Sarajevo.",
+    "ville-ba-tuzla": "This line ensured export of high-quality coal and salt from the rich Tuzla basin. (ne prouve ni gare ni industrie urbaine)"
+   }
+  },
+  {
+   "id": "src-18-gr-treccani1933",
+   "statut": "limite",
+   "citation": "essa tende a localizzarsi in alcuni centri principali, come Atene, il Pireo, Salonicco, Cavala",
+   "commentaire": "Les quatre villes sont nommées explicitement comme centres de localisation de la grande industrie grecque (1933, avant 1945), mais sans détail par branche. Prouve le rôle industrie général pour chaque ville ; pas de précision sectorielle.",
+   "villes_prouvees": {
+    "ville-gr-athenes": [
+     "industrie"
+    ],
+    "ville-gr-le-piree": [
+     "industrie"
+    ],
+    "ville-gr-thessalonique": [
+     "industrie"
+    ],
+    "ville-gr-kavala": [
+     "industrie"
+    ]
+   },
+   "preuves_par_ville": {
+    "ville-gr-athenes": "essa tende a localizzarsi in alcuni centri principali, come Atene, il Pireo, Salonicco, Cavala",
+    "ville-gr-le-piree": "essa tende a localizzarsi in alcuni centri principali, come Atene, il Pireo, Salonicco, Cavala",
+    "ville-gr-thessalonique": "essa tende a localizzarsi in alcuni centri principali, come Atene, il Pireo, Salonicco, Cavala",
+    "ville-gr-kavala": "essa tende a localizzarsi in alcuni centri principali, come Atene, il Pireo, Salonicco, Cavala"
+   }
+  },
+  {
+   "id": "src-18-ro-treccani1936",
+   "statut": "limite",
+   "citation": "attrezzi da sondaggio a Ploeşti, macchine agricole a Sibiu, BraŞov, Timişoara",
+   "commentaire": "Industrie métallurgique (outils de sondage) à Ploeşti prouvée. Rail non prouvé : la page ne cite pour Ploeşti aucune ligne ; seule la phrase sur Braşov-Buzău non terminée apparaît, sans nommer Ploeşti.",
+   "villes_prouvees": {
+    "ville-ro-ploiesti": [
+     "industrie"
+    ]
+   },
+   "preuves_par_ville": {
+    "ville-ro-ploiesti": "attrezzi da sondaggio a Ploeşti, macchine agricole a Sibiu, BraŞov, Timişoara"
+   }
+  }
+ ]
+}

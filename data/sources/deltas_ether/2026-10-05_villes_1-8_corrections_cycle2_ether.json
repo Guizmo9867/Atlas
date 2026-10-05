@@ -1,0 +1,32 @@
+{
+  "metadata": {
+    "lot": "villes_1-8",
+    "cycle": 2,
+    "date": "2026-10-05",
+    "statut": "propose_pour_integration"
+  },
+  "corrections": [
+    {
+      "entite_id": "ville-it-orte",
+      "etat_id": "etat-01",
+      "etat_canon_lu": {
+        "roles": [
+          "rail"
+        ],
+        "note": "La source documente pour la ville les éléments suivants : bifurcation des lignes vers Rome et Ancône, liaison annoncée rétablie le 3 septembre 1944. Fonctions historiques documentées avant le Snapshot ; service et capacités de fin 1944 non déduits. Repère Wikidata Q176180 actuel ; centre exact de 1945 non certifié (R18-01). À renforcer : rail."
+      },
+      "champs_seuls": {
+        "proprietes.note": "Bifurcation des lignes vers Rome et Ancône. Le rapport de reconstruction annonce la liaison rétablie le 3 septembre 1944, mais date le chantier du pont du Tibre à Orte du 1er au 21 juillet 1945 : contradiction non résolue, aucune réouverture complète au Snapshot certifiée. Rôle ferroviaire historique conservé ; trafic et capacités de fin 1944 non déduits. Repère actuel Wikidata Q176180 ; centre exact de 1945 non certifié (R18-01)."
+      },
+      "sources_usage_a_remplacer": [
+        {
+          "source_id": "src-18-it-re-1946-ligne87",
+          "locator": "Description, Phases et fiche du pont du Tibre ; captures 2_3_7 vue1/vue2",
+          "usage": "bifurcation historique ; calendrier général 1944 et chantier du Tibre 1945 contradictoires, continuité réservée"
+        }
+      ],
+      "condition": "Appliquer si la note canonique lue est toujours celle-ci ; sinon fusionner la précision sans supprimer une correction ultérieure. Préserver rôle, géométrie, nom, sources et validations.",
+      "reserve": "R18-C2-02"
+    }
+  ]
+}

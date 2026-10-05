@@ -1,5 +1,5 @@
 {
- "genere_le": "2026-10-04 19:58",
+ "genere_le": "2026-10-05 12:22",
  "snapshot0": {
   "date_representee": "1945-01-01 00:00 (dernier état connu avant)",
   "territoires": 74,
@@ -18,7 +18,7 @@
    "territoire": 4
   },
   "villes_avec_nom_de_1945_different": 209,
-  "villes_avec_reserve_a_renforcer": 420,
+  "villes_avec_reserve_a_renforcer": 374,
   "roles_de_villes": {
    "rail": 936,
    "industrie": 367,
@@ -170,7 +170,7 @@
    },
    {
     "fichier": "villes_1-7_caucase_turquie.json",
-    "version": "0.2",
+    "version": "0.3",
     "zone": [
      "Caucase septentrional",
      "Géorgie",
@@ -184,7 +184,7 @@
    },
    {
     "fichier": "villes_1-8_balkans_grece_italie.json",
-    "version": "0.1",
+    "version": "0.2",
     "zone": [
      "Albanie",
      "Bosnie-Herzégovine",
@@ -237,12 +237,12 @@
   ]
  },
  "sources": {
-  "registre_version": "1.25",
+  "registre_version": "1.26",
   "total": 825,
   "relecture_claude": {
-   "ok": 534,
-   "limite": 136,
-   "non_verifiee": 141,
+   "ok": 546,
+   "limite": 137,
+   "non_verifiee": 128,
    "faible": 6,
    "lien_casse": 8
   },
@@ -251,11 +251,11 @@
    "B": 647,
    "C": 33
   },
-  "en_attente_de_validation_humaine": 288,
+  "en_attente_de_validation_humaine": 276,
   "validees_par_guizmo": 3
  },
  "historique": {
-  "envois_github": 48,
+  "envois_github": 49,
   "premier_envoi": "2026-09-28",
   "dernier_envoi": "2026-10-04",
   "depot_public": "https://github.com/Guizmo9867/Atlas"
