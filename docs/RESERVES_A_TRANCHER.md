@@ -1,6 +1,6 @@
 # Atlas — réserves et points à trancher (série villes 1.x)
 
-*Généré automatiquement le 05/10/2026 à 14 h 17 par Claude, à partir des fichiers de réserves d'Ether et des comptes rendus de Claude. Régénéré à chaque lot.*
+*Généré automatiquement le 05/10/2026 à 15 h 22 par Claude, à partir des fichiers de réserves d'Ether et des comptes rendus de Claude. Régénéré à chaque lot.*
 
 ## Comment s'en servir
 
@@ -1977,11 +1977,11 @@ Preuves et limites : Cartes 1942–1943 : Ljubljana, Maribor, Celje, Jesenice, K
 - **Choix possibles** : Garder la réserve ; Guizmo peut valider sur la page « Sources à valider » ; ou une autre source au moment de l'audit final.
 - **Décision de Guizmo** : …
 
-### Q18-02 — Points du lot 1.8 encore non prouvés après le cycle 2 *(question de Claude)*
+### Q18-02 — Points du lot 1.8 encore non prouvés (close au cycle 3, restes en réserve) *(question de Claude)*
 
-- **Ce qu'on sait** : Relu le 05/10 : ELIA (8 ports grecs lisibles), Treccani Grèce (industrie d'Athènes, Le Pirée, Salonique, Kavala), Treccani Roumanie (industrie de Ploiești), ZFBH (Derventa et Sarajevo) confirmés. Toujours non prouvés : Buzău, Brăila, Tecuci (la page des chemins de fer roumains ne les nomme que dans l'itinéraire PROPOSÉ en 1866) ; Cancello Arnone (introuvable sur les captures de la ligne 89) ; Fabriano et Spolète (seulement des titres de planches ou un repère) ; rail de Ploiești ; Plovdiv, Tuzla, Craiova (R18-C2-03). Orte : Ether proposait d'écrire que le pont du Tibre « à Orte » n'a rouvert qu'en juillet 1945 ; la capture dit « at Ode Station » sans nommer Orte : correction non appliquée (R18-C2-02).
-- **Ce que ça change sur la carte** : Seules les villes nommées comptent comme prouvées ; les autres gardent « À renforcer ».
-- **Choix possibles** : Ether peut répondre au cycle 3 (une autre source datée pour ces villes) ; sinon garder la réserve.
+- **Ce qu'on sait** : Cycle 3 (05/10) : Ploiești, Buzău, Tecuci, Fabriano (pages en ligne), Brăila (page 36 d'EX LIBRIS déposée par Ether) et Cancello Arnone (captures du rapport RE) sont maintenant prouvés pour le rail. Reste Spolète (page municipale refusée à l'outil, sans capture). Plovdiv, Tuzla, Craiova en réserve (R18-C2-03). Orte : Ether a retiré sa correction (R18-C2-02).
+- **Ce que ça change sur la carte** : 20 villes sur 361 gardent un rôle « À renforcer ». Lot à 3 cycles : plus de cycle automatique.
+- **Choix possibles** : Garder la réserve ; Guizmo peut valider la page de Spolète sur la page « Sources à valider ».
 - **Décision de Guizmo** : …
 
 ## Lot villes 1.9 — 26 points
@@ -2184,7 +2184,7 @@ Ce ne sont pas des décisions à prendre : ce sont des rôles (port, rail, indus
 | 1.5 | 70 | 200 |
 | 1.6 | 127 | 254 |
 | 1.7 | 71 | 166 |
-| 1.8 | 26 | 361 |
+| 1.8 | 20 | 361 |
 | 1.9 | 70 | 238 |
 
 **Total : 251 points à trancher.**

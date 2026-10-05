@@ -13,3 +13,7 @@ Scripts rejouables : `outils/villes/construire_villes_1_8.py` (fusion des source
 ## v0.2 (05/10/2026, réponses d'Ether, cycle 2)
 
 15 captures (Treni di Carta, ELIA, Olbia, Sibiu, Constanța) et 4 pages en ligne relues par Claude (registre v1.26) : 26 villes « À renforcer » (65 avant). Correction d'Orte non appliquée (pont daté de 1945 « at Ode Station », Orte non nommée ; R18-C2-02). Réserves R18-01 à 70 et R18-C2-01 à 04. Compte rendu : `docs/pour_ether/2026-10-05_villes_1-8_cycle2.md`.
+
+## v0.3 (05/10/2026, réponses d'Ether, cycle 3)
+
+5 sources nouvelles (Ploiești/Buzău, Brăila, Tecuci, Spolète, Fabriano) ajoutées sans rien remplacer, nouveau localisateur du rapport RE pour Cancello Arnone ; relues par Claude (registre v1.28) : rail prouvé pour Ploiești, Buzău, Brăila, Tecuci, Fabriano, Cancello Arnone ; Spolète illisible pour l'outil. 20 villes « À renforcer ». Orte inchangée (proposition retirée par Ether). **3 cycles atteints** : réserves R18-01 à 70, R18-C2-01 à 04, R18-C3-01 à 03 gardées pour la revue finale 1.x. Compte rendu : `docs/pour_ether/2026-10-05_villes_1-8_cycle3.md`.

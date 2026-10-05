@@ -1,5 +1,5 @@
 {
- "version_registre": "1.27",
+ "version_registre": "1.28",
  "sources": [
   {
    "id": "src-12a-chemnitz-industrie",
@@ -472,6 +472,27 @@
     "Zărnești (rail)",
     "Sfântu Gheorghe (rail)",
     "Făgăraș (rail)"
+   ]
+  },
+  {
+   "id": "src-18-c3-it-spoleto-stazione",
+   "groupe": "a_lire",
+   "statut_claude": "non_verifiee",
+   "niveau": "B",
+   "titre": "Accadde a Spoleto: la stazione ferroviaria, 5 novembre 2021",
+   "institution": "Comune di Spoleto",
+   "url": "https://oldsite.comune.spoleto.pg.it/turismoecultura/2021/11/05/accadde-a-spoleto-la-stazione-ferroviaria/",
+   "ou_regarder": "Premier paragraphe (gare et axe Rome–Ancône1866) ; paragraphes sur le coton1907–1908 et l’entre-deux-guerres",
+   "extrait": "",
+   "notes": "Proposée par Ether (villes 1.8, cycle 3, 05/10/2026). La municipalité rattache la gare de Spolète à la ligne Rome–Ancône inaugurée en1866 et décrit des établissements voisins de1907–1908 et de l’entre-deux-guerres. Limites : Attestation du rôle ferroviaire historique ; ni horaire ni capacité ni continuité du service au 1er janvier 1945 certifiés. Cette preuve porte sur la gare de la ville ; ne pas déduire le service de la branche Spoleto–Norcia au Snapshot. Relecture Claude 05/10/2026 : Page refusée à l'outil (robots.txt), non contournée ; aucune capture déposée.",
+   "domaine": "villes",
+   "villes": [
+    "Spolète"
+   ],
+   "remplacee_par": [],
+   "priorite": "importante",
+   "impact": [
+    "Spolète (rail)"
    ]
   },
   {
@@ -2648,96 +2669,7 @@
    "priorite": "importante",
    "impact": [
     "Foligno (industrie)",
-    "Fabriano (rail)",
     "Spolète (rail)"
-   ]
-  },
-  {
-   "id": "src-18-it-re-1946-ligne89",
-   "groupe": "partielle",
-   "statut_claude": "limite",
-   "niveau": "A",
-   "titre": "Reconstruction ferroviaire en Italie : ligne 89",
-   "institution": "Royal Engineers, 1946 ; transcription Treni di Carta",
-   "url": "https://www.trenidicarta.it/reconstruction/2_3_3.html",
-   "ou_regarder": "II.III.3, Description, Phases, sections a/c",
-   "extrait": "the section from Naples to Aversa (19 kilometres) was repaired by M.R.S. American Section with the assistance of Engineer Troops, U.S. Army | the bridge was opened for traffic on 20 May",
-   "notes": "Proposée par Ether (villes 1.8, 04/10/2026). Ce que la source prouve selon Ether : ville-it-aversa — rail : La section Naples–Aversa est réparée en octobre 1943. ; ville-it-villa-literno — rail : Gare de bifurcation de la ligne côtière réparée en 1944. ; ville-it-formia — rail : La ligne côtière traverse Formia, dans le secteur réparé de mai à juillet 1944. ; ville-it-minturno — rail : Le franchissement ferroviaire au sud de Minturno rouvre le 5 juin 1944. ; ville-it-cancello-arnone — rail : La gare jouxte le pont du Volturno remis au trafic le 20 mai 1944.. Limite annoncée par Ether : Ligne antérieure à la guerre ; travaux datés de 1943–1944. Les objets proposés restent les villes, non les ponts ou gares. Les cibles hors du fichier de données restent différées ; aucune validation humaine présumée. Relecture Claude 04/10/2026 : Naples–Aversa réparée en octobre 1943 : confirmé. Le pont du Volturno ouvert le 20 mai 1944 et le franchissement le 5 juin 1944 sont cités, mais le lien explicite avec la gare de Cancello Arnone et avec Minturno n'apparaît pas dans les extraits. Villa Literno n'est cité que comme gare de bifurcation, sans date de réparation ; Formia n'est pas nommé (section Massico–Campoleone réparée mai-juillet 1944). Ancien localisateur : II.III.3, description, phases et sections a/c. Réponse d'Ether (lot 1.8, cycle 2, 05/10/2026, Q18-01/Q18-02) : captures 2026-10-04_ether_C2_RE_2_3_3_vue1.jpg, 2026-10-04_ether_C2_RE_2_3_3_vue7.jpg (dossier d'échange, 01_lots/villes_1-8/, hors dépôt). Relecture Claude 05/10/2026 : WebFetch a répondu pour cette page (résumé conforme aux captures). Capture vue1 : titre « Line 89. Rome - Naples Direttissima. Rome-Formia-Villa Literno-Aversa-Naples » ; Formia et Minturno sont nommées comme villes côtières traversées ; Villa Literno est nommée comme « junction station ». Cancello Arnone : NON retrouvée dans les captures vue1 et vue7 ; seul le résumé WebFetch (modèle de résumé, non littéral) l'associe au pont du Volturno, sans citation exacte vérifiable : rôle rail non prouvé de façon fiable pour cette ville (à relire dans la section du pont du Volturno, hors captures). Dates visibles : toutes 1943-1944 (ex. travaux 15 mars-11 avril 1944 ; tunnel du Massico 24 mars-6 juin 1944) ; aucune date postérieure au 01/01/1945 pour ces villes. (statut : limite -> limite).",
-   "domaine": "villes",
-   "villes": [
-    "Aversa",
-    "Cancello e Arnone",
-    "Formia",
-    "Minturno",
-    "Villa Literno"
-   ],
-   "remplacee_par": [],
-   "priorite": "importante",
-   "impact": [
-    "Cancello e Arnone (rail)"
-   ]
-  },
-  {
-   "id": "src-18-ro-cfr-histoire",
-   "groupe": "partielle",
-   "statut_claude": "limite",
-   "niveau": "B",
-   "titre": "File de istorie feroviară",
-   "institution": "CFR SA",
-   "url": "https://cfr.ro/file-de-istorie-feroviara/",
-   "ou_regarder": "Section « 13 septembrie 1872 – 9 mai 1878 Vârciorova–Roman », proposition de 1866 puis ouvertures",
-   "extrait": "\"Primul tronson: Piteşti - Bucureşti - Galaţi - Roman, a fost deschis la 13 septembrie 1872, iar tronsonul Vârciorova - Piteşti pe 9 mai 1878.\"",
-   "notes": "Proposée par Ether (villes 1.8, 04/10/2026). Ce que la source prouve selon Ether : ville-ro-oravita — rail : La ligne charbonnière vers Baziaș ouvre en 1854. ; ville-ro-bazias — rail, port_fluvial : Le terminus danubien est relié à Oravița en 1854. ; ville-ro-bucarest — rail : Le rail rejoint Giurgiu en 1869 et Pitești en 1872. ; ville-ro-giurgiu — rail : La liaison avec Bucarest ouvre en 1869. ; ville-ro-pitesti — rail : La ligne vers Bucarest ouvre en 1872. ; ville-ro-roman — rail : La ville est le terminus de la liaison ouverte en 1872. ; ville-ro-galati — rail : La ville figure sur le tronçon inauguré en 1872. ; ville-ro-buzau — rail : La ville figure sur la liaison Vârciorova–Roman. ; ville-ro-braila — rail : La ville figure sur la liaison Vârciorova–Roman. ; ville-ro-tecuci — rail : La ville figure sur la liaison Vârciorova–Roman. ; ville-ro-arad — industrie : Les ateliers fabriquent du matériel pour les CFR après 1918. ; ville-ro-iasi — rail : La liaison avec Lețcani est doublée en 1895.. Limite annoncée par Ether : Historique officiel ; preuve de liaisons locales antérieures à 1945, sans attester le trafic exact de chaque gare fin 1944. Date 1868 de Gara de Nord à ne pas retenir sans confrontation. Les cibles hors du fichier de données restent différées ; aucune validation humaine présumée. Relecture Claude 04/10/2026 : Oravița–Baziaș 1854, Bucarest–Giurgiu 1869, tronçon Pitești–Bucarest–Galați–Roman 1872, ateliers d'Arad après 1918 et Iași–Lețcani 1895 confirmés. Buzău, Brăila et Tecuci ne sont pas cités explicitement dans les passages renvoyés. Ancien localisateur : Chronologie 1854,1869,1872–1878 et 1918. Réponse d'Ether (lot 1.8, cycle 2, 05/10/2026, Q18-01/Q18-02) : captures aucune (lecture en ligne) (dossier d'échange, 01_lots/villes_1-8/, hors dépôt). Relecture Claude 05/10/2026 : Buzău, Brăila et Tecuci ne sont nommées que dans l'itinéraire proposé en 1866 (projet approuvé). Les ouvertures 1872 et 1878 sont citées sans mention de ces trois villes (le tronçon 1872 nomme Galaţi, pas Buzău, Brăila ni Tecuci). La page ne prouve donc pas que la ligne y ait été ouverte, d'après la réponse de WebFetch. (statut : limite -> limite).",
-   "domaine": "villes",
-   "villes": [
-    "Arad",
-    "Baziaș",
-    "Brăila",
-    "Bucarest",
-    "Buzău",
-    "Galați",
-    "Giurgiu",
-    "Iași",
-    "Oravița",
-    "Pitești",
-    "Roman",
-    "Tecuci"
-   ],
-   "remplacee_par": [],
-   "priorite": "importante",
-   "impact": [
-    "Buzău (rail)",
-    "Brăila (rail)",
-    "Tecuci (rail)"
-   ]
-  },
-  {
-   "id": "src-18-ro-treccani1936",
-   "groupe": "partielle",
-   "statut_claude": "limite",
-   "niveau": "A",
-   "titre": "Romania — Enciclopedia Italiana 1936",
-   "institution": "Istituto della Enciclopedia Italiana",
-   "url": "https://www.treccani.it/enciclopedia/romania_(Enciclopedia-Italiana)/",
-   "ou_regarder": "« Industrie metallurgiche », deuxième paragraphe, graphie Ploeşti",
-   "extrait": "Giurgiu, Silistra e soprattutto i due porti di Galati e di Brăila sul Danubio / A Mediaş si fabbrica la cianamide / Alti forni di Hunedoara",
-   "notes": "Proposée par Ether (villes 1.8, 04/10/2026). Ce que la source prouve selon Ether : ville-ro-craiova —  : Centre actif de la plaine d’Olténie. ; ville-ro-giurgiu — port_fluvial : Port danubien. ; ville-ro-galati — port_fluvial : Port aménagé duDanube. ; ville-ro-braila — port_fluvial : Port aménagé duDanube. ; ville-ro-sulina — port_fluvial, port_maritime : Port d’embouchure pour la navigation internationale. ; ville-bg-silistra — port_fluvial : Port danubien ; rattachement de 1936 non reconduit. ; ville-ro-ploiesti — industrie, rail : Matériel de forage et passage ferroviaire de laPrahova. ; ville-ro-hunedoara — industrie : Hauts-fourneaux. ; ville-ro-medias — industrie : Fabrication de cyanamide.. Limite annoncée par Ether : Notice 1936 lue ; frontières, capacités et jugements politiques non transposés à 1945. Voies inachevéesPetroșani–TârguJiu etBrașov–Buzău exclues sur cette preuve. Les cibles hors du fichier de données restent différées ; aucune validation humaine présumée. Relecture Claude 04/10/2026 : Ports danubiens (Giurgiu, Galați, Brăila, Silistra), hauts-fourneaux de Hunedoara, cyanamide de Mediaș confirmés ; Sulina seulement citée dans une liste de ports. Craiova n'apparaît que comme « sul basso Jiu » (climat) ; Ploiești : district de Prahova pétrolier, mais ni matériel de forage ni passage ferroviaire confirmés. Ancien localisateur : Centri urbani ; Industrie metallurgiche ; Vie di comunicazione. Réponse d'Ether (lot 1.8, cycle 2, 05/10/2026, Q18-01/Q18-02) : captures aucune (lecture en ligne) (dossier d'échange, 01_lots/villes_1-8/, hors dépôt). Relecture Claude 05/10/2026 : Industrie métallurgique (outils de sondage) à Ploeşti prouvée. Rail non prouvé : la page ne cite pour Ploeşti aucune ligne ; seule la phrase sur Braşov-Buzău non terminée apparaît, sans nommer Ploeşti. (statut : limite -> limite).",
-   "domaine": "villes",
-   "villes": [
-    "Silistra",
-    "Brăila",
-    "Craiova",
-    "Galați",
-    "Giurgiu",
-    "Hunedoara",
-    "Mediaș",
-    "Ploiești",
-    "Sulina"
-   ],
-   "remplacee_par": [],
-   "priorite": "importante",
-   "impact": [
-    "Ploiești (rail)"
    ]
   },
   {
@@ -7224,6 +7156,29 @@
    "impact": []
   },
   {
+   "id": "src-18-it-re-1946-ligne89",
+   "groupe": "partielle",
+   "statut_claude": "limite",
+   "niveau": "A",
+   "titre": "Reconstruction ferroviaire en Italie : ligne 89",
+   "institution": "Royal Engineers, 1946 ; transcription Treni di Carta",
+   "url": "https://www.trenidicarta.it/reconstruction/2_3_3.html",
+   "ou_regarder": "II.III.3, Description, Phases, sections a/c",
+   "extrait": "the section from Naples to Aversa (19 kilometres) was repaired by M.R.S. American Section with the assistance of Engineer Troops, U.S. Army | the bridge was opened for traffic on 20 May",
+   "notes": "Proposée par Ether (villes 1.8, 04/10/2026). Ce que la source prouve selon Ether : ville-it-aversa — rail : La section Naples–Aversa est réparée en octobre 1943. ; ville-it-villa-literno — rail : Gare de bifurcation de la ligne côtière réparée en 1944. ; ville-it-formia — rail : La ligne côtière traverse Formia, dans le secteur réparé de mai à juillet 1944. ; ville-it-minturno — rail : Le franchissement ferroviaire au sud de Minturno rouvre le 5 juin 1944. ; ville-it-cancello-arnone — rail : La gare jouxte le pont du Volturno remis au trafic le 20 mai 1944.. Limite annoncée par Ether : Ligne antérieure à la guerre ; travaux datés de 1943–1944. Les objets proposés restent les villes, non les ponts ou gares. Les cibles hors du fichier de données restent différées ; aucune validation humaine présumée. Relecture Claude 04/10/2026 : Naples–Aversa réparée en octobre 1943 : confirmé. Le pont du Volturno ouvert le 20 mai 1944 et le franchissement le 5 juin 1944 sont cités, mais le lien explicite avec la gare de Cancello Arnone et avec Minturno n'apparaît pas dans les extraits. Villa Literno n'est cité que comme gare de bifurcation, sans date de réparation ; Formia n'est pas nommé (section Massico–Campoleone réparée mai-juillet 1944). Ancien localisateur : II.III.3, description, phases et sections a/c. Réponse d'Ether (lot 1.8, cycle 2, 05/10/2026, Q18-01/Q18-02) : captures 2026-10-04_ether_C2_RE_2_3_3_vue1.jpg, 2026-10-04_ether_C2_RE_2_3_3_vue7.jpg (dossier d'échange, 01_lots/villes_1-8/, hors dépôt). Relecture Claude 05/10/2026 : WebFetch a répondu pour cette page (résumé conforme aux captures). Capture vue1 : titre « Line 89. Rome - Naples Direttissima. Rome-Formia-Villa Literno-Aversa-Naples » ; Formia et Minturno sont nommées comme villes côtières traversées ; Villa Literno est nommée comme « junction station ». Cancello Arnone : NON retrouvée dans les captures vue1 et vue7 ; seul le résumé WebFetch (modèle de résumé, non littéral) l'associe au pont du Volturno, sans citation exacte vérifiable : rôle rail non prouvé de façon fiable pour cette ville (à relire dans la section du pont du Volturno, hors captures). Dates visibles : toutes 1943-1944 (ex. travaux 15 mars-11 avril 1944 ; tunnel du Massico 24 mars-6 juin 1944) ; aucune date postérieure au 01/01/1945 pour ces villes. (statut : limite -> limite). Complément d'Ether (villes 1.8, cycle 3, 05/10/2026) : localisateur proposé « II.III.3 §a, Volturno Bridge - Cancello Arnone ; figures23–24 ; captures vue2 et vue3 ». Relecture Claude 05/10/2026 : Captures vue2 et vue3 (déjà déposées au cycle 2, nouveau localisateur d'Ether) lues par Claude : gare et faisceau de Cancello Arnone, pont du Volturno rouvert le 20 mai 1944. (statut : limite -> limite).",
+   "domaine": "villes",
+   "villes": [
+    "Aversa",
+    "Cancello e Arnone",
+    "Formia",
+    "Minturno",
+    "Villa Literno"
+   ],
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
+  },
+  {
    "id": "src-18-oss1068-industrie-yugoslavie1942",
    "groupe": "partielle",
    "statut_claude": "limite",
@@ -7488,6 +7443,63 @@
     "San Severo",
     "Tarente",
     "Trani"
+   ],
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
+  },
+  {
+   "id": "src-18-ro-cfr-histoire",
+   "groupe": "partielle",
+   "statut_claude": "limite",
+   "niveau": "B",
+   "titre": "File de istorie feroviară",
+   "institution": "CFR SA",
+   "url": "https://cfr.ro/file-de-istorie-feroviara/",
+   "ou_regarder": "Section « 13 septembrie 1872 – 9 mai 1878 Vârciorova–Roman », proposition de 1866 puis ouvertures",
+   "extrait": "\"Primul tronson: Piteşti - Bucureşti - Galaţi - Roman, a fost deschis la 13 septembrie 1872, iar tronsonul Vârciorova - Piteşti pe 9 mai 1878.\"",
+   "notes": "Proposée par Ether (villes 1.8, 04/10/2026). Ce que la source prouve selon Ether : ville-ro-oravita — rail : La ligne charbonnière vers Baziaș ouvre en 1854. ; ville-ro-bazias — rail, port_fluvial : Le terminus danubien est relié à Oravița en 1854. ; ville-ro-bucarest — rail : Le rail rejoint Giurgiu en 1869 et Pitești en 1872. ; ville-ro-giurgiu — rail : La liaison avec Bucarest ouvre en 1869. ; ville-ro-pitesti — rail : La ligne vers Bucarest ouvre en 1872. ; ville-ro-roman — rail : La ville est le terminus de la liaison ouverte en 1872. ; ville-ro-galati — rail : La ville figure sur le tronçon inauguré en 1872. ; ville-ro-buzau — rail : La ville figure sur la liaison Vârciorova–Roman. ; ville-ro-braila — rail : La ville figure sur la liaison Vârciorova–Roman. ; ville-ro-tecuci — rail : La ville figure sur la liaison Vârciorova–Roman. ; ville-ro-arad — industrie : Les ateliers fabriquent du matériel pour les CFR après 1918. ; ville-ro-iasi — rail : La liaison avec Lețcani est doublée en 1895.. Limite annoncée par Ether : Historique officiel ; preuve de liaisons locales antérieures à 1945, sans attester le trafic exact de chaque gare fin 1944. Date 1868 de Gara de Nord à ne pas retenir sans confrontation. Les cibles hors du fichier de données restent différées ; aucune validation humaine présumée. Relecture Claude 04/10/2026 : Oravița–Baziaș 1854, Bucarest–Giurgiu 1869, tronçon Pitești–Bucarest–Galați–Roman 1872, ateliers d'Arad après 1918 et Iași–Lețcani 1895 confirmés. Buzău, Brăila et Tecuci ne sont pas cités explicitement dans les passages renvoyés. Ancien localisateur : Chronologie 1854,1869,1872–1878 et 1918. Réponse d'Ether (lot 1.8, cycle 2, 05/10/2026, Q18-01/Q18-02) : captures aucune (lecture en ligne) (dossier d'échange, 01_lots/villes_1-8/, hors dépôt). Relecture Claude 05/10/2026 : Buzău, Brăila et Tecuci ne sont nommées que dans l'itinéraire proposé en 1866 (projet approuvé). Les ouvertures 1872 et 1878 sont citées sans mention de ces trois villes (le tronçon 1872 nomme Galaţi, pas Buzău, Brăila ni Tecuci). La page ne prouve donc pas que la ligne y ait été ouverte, d'après la réponse de WebFetch. (statut : limite -> limite).",
+   "domaine": "villes",
+   "villes": [
+    "Arad",
+    "Baziaș",
+    "Brăila",
+    "Bucarest",
+    "Buzău",
+    "Galați",
+    "Giurgiu",
+    "Iași",
+    "Oravița",
+    "Pitești",
+    "Roman",
+    "Tecuci"
+   ],
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
+  },
+  {
+   "id": "src-18-ro-treccani1936",
+   "groupe": "partielle",
+   "statut_claude": "limite",
+   "niveau": "A",
+   "titre": "Romania — Enciclopedia Italiana 1936",
+   "institution": "Istituto della Enciclopedia Italiana",
+   "url": "https://www.treccani.it/enciclopedia/romania_(Enciclopedia-Italiana)/",
+   "ou_regarder": "« Industrie metallurgiche », deuxième paragraphe, graphie Ploeşti",
+   "extrait": "Giurgiu, Silistra e soprattutto i due porti di Galati e di Brăila sul Danubio / A Mediaş si fabbrica la cianamide / Alti forni di Hunedoara",
+   "notes": "Proposée par Ether (villes 1.8, 04/10/2026). Ce que la source prouve selon Ether : ville-ro-craiova —  : Centre actif de la plaine d’Olténie. ; ville-ro-giurgiu — port_fluvial : Port danubien. ; ville-ro-galati — port_fluvial : Port aménagé duDanube. ; ville-ro-braila — port_fluvial : Port aménagé duDanube. ; ville-ro-sulina — port_fluvial, port_maritime : Port d’embouchure pour la navigation internationale. ; ville-bg-silistra — port_fluvial : Port danubien ; rattachement de 1936 non reconduit. ; ville-ro-ploiesti — industrie, rail : Matériel de forage et passage ferroviaire de laPrahova. ; ville-ro-hunedoara — industrie : Hauts-fourneaux. ; ville-ro-medias — industrie : Fabrication de cyanamide.. Limite annoncée par Ether : Notice 1936 lue ; frontières, capacités et jugements politiques non transposés à 1945. Voies inachevéesPetroșani–TârguJiu etBrașov–Buzău exclues sur cette preuve. Les cibles hors du fichier de données restent différées ; aucune validation humaine présumée. Relecture Claude 04/10/2026 : Ports danubiens (Giurgiu, Galați, Brăila, Silistra), hauts-fourneaux de Hunedoara, cyanamide de Mediaș confirmés ; Sulina seulement citée dans une liste de ports. Craiova n'apparaît que comme « sul basso Jiu » (climat) ; Ploiești : district de Prahova pétrolier, mais ni matériel de forage ni passage ferroviaire confirmés. Ancien localisateur : Centri urbani ; Industrie metallurgiche ; Vie di comunicazione. Réponse d'Ether (lot 1.8, cycle 2, 05/10/2026, Q18-01/Q18-02) : captures aucune (lecture en ligne) (dossier d'échange, 01_lots/villes_1-8/, hors dépôt). Relecture Claude 05/10/2026 : Industrie métallurgique (outils de sondage) à Ploeşti prouvée. Rail non prouvé : la page ne cite pour Ploeşti aucune ligne ; seule la phrase sur Braşov-Buzău non terminée apparaît, sans nommer Ploeşti. (statut : limite -> limite).",
+   "domaine": "villes",
+   "villes": [
+    "Silistra",
+    "Brăila",
+    "Craiova",
+    "Galați",
+    "Giurgiu",
+    "Hunedoara",
+    "Mediaș",
+    "Ploiești",
+    "Sulina"
    ],
    "remplacee_par": [],
    "priorite": "facultative",

@@ -1,0 +1,172 @@
+{
+  "metadata": {
+    "lot": "villes_1-8",
+    "cycle": 3,
+    "statut": "proposition_pour_relecture_claude"
+  },
+  "corrections": [
+    {
+      "entite_id": "ville-ro-ploiesti",
+      "etat_id": "etat-01",
+      "operation": "completer_sources_sans_remplacer",
+      "sources_a_ajouter": [
+        {
+          "source_id": "src-18-c3-ro-ploiesti-musee",
+          "locator": "Construcţia liniilor principale > Linia Bucureşti-Ploieşti-Buzău ; paragraphe du 13 septembre 1872 ; Linia ferată de centură Ploieşti Nord-Ploieşti Triaj",
+          "usage": "rail historique ; Attestation du rôle ferroviaire historique ; ni horaire ni capacité ni continuité du service au 1er janvier 1945 certifiés."
+        }
+      ],
+      "champs_a_preserver": [
+        "nom",
+        "aliases",
+        "roles",
+        "importance_atlas",
+        "geometrie",
+        "valid_from",
+        "valid_to",
+        "sources existantes",
+        "confirmations et réserves"
+      ],
+      "note_a_ajouter": "L’axe București–Ploiești–Buzău–Galați est inauguré en septembre 1872. La ceinture de Ploiești est construite entre 1923 et 1925.",
+      "condition": "Relire la preuve avant de recalculer À renforcer. Ne pas attribuer une confirmation Claude ou Guizmo depuis ce delta."
+    },
+    {
+      "entite_id": "ville-ro-buzau",
+      "etat_id": "etat-01",
+      "operation": "completer_sources_sans_remplacer",
+      "sources_a_ajouter": [
+        {
+          "source_id": "src-18-c3-ro-ploiesti-musee",
+          "locator": "Construcţia liniilor principale > Linia Bucureşti-Ploieşti-Buzău ; paragraphe du 13 septembre 1872",
+          "usage": "rail historique ; Attestation du rôle ferroviaire historique ; ni horaire ni capacité ni continuité du service au 1er janvier 1945 certifiés."
+        }
+      ],
+      "champs_a_preserver": [
+        "nom",
+        "aliases",
+        "roles",
+        "importance_atlas",
+        "geometrie",
+        "valid_from",
+        "valid_to",
+        "sources existantes",
+        "confirmations et réserves"
+      ],
+      "note_a_ajouter": "La source nomme Buzău dans l’axe București–Ploiești–Buzău inauguré en septembre 1872. Aucune infrastructure propre à Ploiești n’est attribuée à Buzău.",
+      "condition": "Relire la preuve avant de recalculer À renforcer. Ne pas attribuer une confirmation Claude ou Guizmo depuis ce delta."
+    },
+    {
+      "entite_id": "ville-ro-braila",
+      "etat_id": "etat-01",
+      "operation": "completer_sources_sans_remplacer",
+      "sources_a_ajouter": [
+        {
+          "source_id": "src-18-c3-ro-braila-exlibris2022",
+          "locator": "p.36 imprimée (page38 du PDF, index37) ; signature et bibliographie p.39",
+          "usage": "rail historique ; Retenir l’existence ferroviaire locale avant1945. Ne pas retenir1850 ni un jour d’ouverture initiale : 23/27décembre1870 divergent entre les sources. La reproduction manuscrite n’a pas été intégralement déchiffrée."
+        }
+      ],
+      "champs_a_preserver": [
+        "nom",
+        "aliases",
+        "roles",
+        "importance_atlas",
+        "geometrie",
+        "valid_from",
+        "valid_to",
+        "sources existantes",
+        "confirmations et réserves"
+      ],
+      "note_a_ajouter": "L’article reproduit une lettre du chef de gare du 15 novembre 1929 et décrit la construction de 1869, l’ouverture officielle de 1872 et le raccordement portuaire. Il corrige lui-même la datation1850 donnée dans cette lettre.",
+      "condition": "Relire la preuve avant de recalculer À renforcer. Ne pas attribuer une confirmation Claude ou Guizmo depuis ce delta."
+    },
+    {
+      "entite_id": "ville-ro-tecuci",
+      "etat_id": "etat-01",
+      "operation": "completer_sources_sans_remplacer",
+      "sources_a_ajouter": [
+        {
+          "source_id": "src-18-c3-ro-tecuci-radio-museecfr",
+          "locator": "Paragraphe après la photographie de la gare de Câmpina1910, ouverture provisoire27décembre1870",
+          "usage": "rail historique ; Attestation du rôle ferroviaire historique ; ni horaire ni capacité ni continuité du service au 1er janvier 1945 certifiés. La page distingue projets1866 et exploitation ; elle reste rétrospective."
+        }
+      ],
+      "champs_a_preserver": [
+        "nom",
+        "aliases",
+        "roles",
+        "importance_atlas",
+        "geometrie",
+        "valid_from",
+        "valid_to",
+        "sources existantes",
+        "confirmations et réserves"
+      ],
+      "note_a_ajouter": "La page nomme Tecuci dans l’axe ouvert provisoirement en décembre1870 ; elle signale ensuite une interruption1871 et une ouverture1872.",
+      "condition": "Relire la preuve avant de recalculer À renforcer. Ne pas attribuer une confirmation Claude ou Guizmo depuis ce delta."
+    },
+    {
+      "entite_id": "ville-it-spolete",
+      "etat_id": "etat-01",
+      "operation": "completer_sources_sans_remplacer",
+      "sources_a_ajouter": [
+        {
+          "source_id": "src-18-c3-it-spoleto-stazione",
+          "locator": "Premier paragraphe (gare et axe Rome–Ancône1866) ; paragraphes sur le coton1907–1908 et l’entre-deux-guerres",
+          "usage": "rail historique ; Attestation du rôle ferroviaire historique ; ni horaire ni capacité ni continuité du service au 1er janvier 1945 certifiés. Cette preuve porte sur la gare de la ville ; ne pas déduire le service de la branche Spoleto–Norcia au Snapshot."
+        }
+      ],
+      "champs_a_preserver": [
+        "nom",
+        "aliases",
+        "roles",
+        "importance_atlas",
+        "geometrie",
+        "valid_from",
+        "valid_to",
+        "sources existantes",
+        "confirmations et réserves"
+      ],
+      "note_a_ajouter": "La municipalité rattache la gare de Spolète à la ligne Rome–Ancône inaugurée en1866 et décrit des établissements voisins de1907–1908 et de l’entre-deux-guerres.",
+      "condition": "Relire la preuve avant de recalculer À renforcer. Ne pas attribuer une confirmation Claude ou Guizmo depuis ce delta."
+    },
+    {
+      "entite_id": "ville-it-fabriano",
+      "etat_id": "etat-01",
+      "operation": "completer_sources_sans_remplacer",
+      "sources_a_ajouter": [
+        {
+          "source_id": "src-18-c3-it-fabriano-pergola-fs",
+          "locator": "Un Viaggio Riscoperto tra Appennini e Valli, paragraphes sur1895 et mai1947",
+          "usage": "rail historique ; Preuve locale du rôle ancien de Fabriano. La branche vers Pergola ne doit pas être décrite comme exploitée au Snapshot ; cette coupure ne date pas celle de l’autre axe Rome–Ancône. La desserte précise de fin1944 reste à renforcer."
+        }
+      ],
+      "champs_a_preserver": [
+        "nom",
+        "aliases",
+        "roles",
+        "importance_atlas",
+        "geometrie",
+        "valid_from",
+        "valid_to",
+        "sources existantes",
+        "confirmations et réserves"
+      ],
+      "note_a_ajouter": "La branche Pergola–Fabriano est inaugurée en1895 ; les dommages de guerre interrompent son exploitation, reprise en mai1947.",
+      "condition": "Relire la preuve avant de recalculer À renforcer. Ne pas attribuer une confirmation Claude ou Guizmo depuis ce delta."
+    },
+    {
+      "entite_id": "ville-it-cancello-arnone",
+      "etat_id": "etat-01",
+      "operation": "completer_localisateur",
+      "source_id": "src-18-it-re-1946-ligne89",
+      "locator_a_ajouter": "II.III.3 §a, Volturno Bridge - Cancello Arnone ; figures23–24 ; captures vue2 et vue3",
+      "note": "Aucune modification du rôle, de la position ni de la note historique nécessaire ; corriger la sélection de vues pour la relecture."
+    }
+  ],
+  "retrait_proposition_cycle2": {
+    "entite_id": "ville-it-orte",
+    "reserve": "R18-C2-02",
+    "instruction": "Ne pas appliquer la proposition précédente : Ode Station n’est pas assimilé automatiquement à Orte. Conserver le canon et la réserve."
+  }
+}

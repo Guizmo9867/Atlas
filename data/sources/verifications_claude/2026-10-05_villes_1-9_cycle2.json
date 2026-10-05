@@ -1,0 +1,270 @@
+{
+ "metadata": {
+  "lot": "villes_1-9",
+  "cycle": 2,
+  "date": "2026-10-05",
+  "methode": "pages en ligne relues par sous-agents (WebFetch seul, sans contournement) ; captures et pages de PDF déposées par Ether lues par Claude (outil Read), hors dépôt"
+ },
+ "resultats": [
+  {
+   "id": "src-19-c2-seville-gare",
+   "statut": "ok",
+   "citation": "inaugurándose el 18 de Marzo de 1901 ... el edificio mantuvo sus funciones como estación ferroviaria ... En 1990 fue clausurado el edificio ferroviario",
+   "commentaire": "PDF relu par l'outil : gare Plaza de Armas inaugurée en 1901, fonction ferroviaire jusqu'en 1990.",
+   "villes_prouvees": {
+    "ville-es-seville": [
+     "rail"
+    ]
+   }
+  },
+  {
+   "id": "src-19-c2-eibar-gare",
+   "statut": "ok",
+   "citation": "el ferrocarril que pasa por la villa armera se inauguró ... el 17 de septiembre de 1887 ... Desde el primer momento, Eibar contó con una terminal ferroviaria",
+   "commentaire": "Page en ligne relue (réforme de 1941) et page 1 du PDF déposée par Ether lue par Claude : gare propre dès 1887.",
+   "villes_prouvees": {
+    "ville-es-eibar": [
+     "rail"
+    ]
+   }
+  },
+  {
+   "id": "src-19-c2-figueras-gare",
+   "statut": "ok",
+   "citation": "Quan el primer tren arriba a Figueres, el 28 d'octubre de 1877",
+   "commentaire": "PDF relu par l'outil.",
+   "villes_prouvees": {
+    "ville-es-figueras": [
+     "rail"
+    ]
+   }
+  },
+  {
+   "id": "src-19-c2-jerez-ffe",
+   "statut": "ok",
+   "citation": "ZH | Zafra-Portugal | Zafra-Jerez de los Caballeros | 46,73 | Apert. Servicio 15/11/1936 (1) 23/11/1936 (2) ... la circulación comenzó el 15/11/1936, de forma provisional y condicional",
+   "commentaire": "L'outil n'a pas atteint la p. 52 ; la page 52 déposée par Ether a été lue par Claude : ligne ouverte (provisoirement) en novembre 1936. Le régime de service en 1945 n'est pas établi (réserve d'Ether).",
+   "villes_prouvees": {
+    "ville-es-jerez-de-los-caballeros": [
+     "rail"
+    ]
+   }
+  },
+  {
+   "id": "src-19-es-aviles-port",
+   "statut": "ok",
+   "citation": "Entrado el siglo XX, el Puerto ve la creación en 1.915 de la Junta de Obras del Puerto de Avilés",
+   "commentaire": "Page refusée à l'outil (redirections) ; captures XIX et XX déposées par Ether lues par Claude : trafic de passagers et de charbon au XIXe siècle, Junta de Obras en 1915 ; ENSIDESA (années 1950) hors Snapshot.",
+   "villes_prouvees": {
+    "ville-es-aviles": [
+     "port_maritime"
+    ]
+   }
+  },
+  {
+   "id": "src-19-ad-capitale",
+   "statut": "ok",
+   "citation": "La consideració d'Andorra la Vella —de fet, fins al segle XVIII se'n deia la vila d'Andorra— com a capital de les Valls és un fet tangible des del segle XV, quan s'hi estableix la primera seu del Consell de la Terra ... El 1702 el Consell va adquirir ... Casa de la Vall.",
+   "commentaire": "Page refusée à l'outil (403) ; capture déposée par Ether lue par Claude : capitale et siège du Consell de la Terra depuis le XVe siècle, Casa de la Vall en 1702.",
+   "villes_prouvees": {
+    "ville-ad-andorre-la-vieille": [
+     "capitale",
+     "administration"
+    ]
+   }
+  },
+  {
+   "id": "src-19-sm-fermeture-rail1944",
+   "statut": "ok",
+   "citation": "Nel 1932 venne inaugurata la linea ferroviaria Rimini-San Marino ... La ferrovia, poi, cessò di funzionare quando venne distrutta dai bombardamenti aerei del 26 giugno 1944.",
+   "commentaire": "Page refusée à l'outil (robots) ; capture déposée par Ether lue par Claude : la ligne ne fonctionne plus après le 26 juin 1944. Confirme l'absence du rôle rail au Snapshot (déjà exclu) ; aucun rôle à prouver.",
+   "villes_prouvees": {}
+  },
+  {
+   "id": "src-19-es-armada-secn",
+   "statut": "limite",
+   "citation": "(17) La Sociedad Española de Construcción Naval (SECN) ... los astilleros y zonas industriales de los arsenales de Ferrol y Cartagena (1909-1940) y los talleres de artillería del arsenal de La Carraca (1915-1941) ... astillero y factoría de Matagorda, en Puerto Real, Cádiz (1914); los astilleros y talleres de Sestao (1915) ... la factoría siderúrgica de Reinosa (1917) ... el de San Fernando hasta octubre de 1941",
+   "commentaire": "Bonne page cette fois : p. 100 imprimée déposée par Ether, note 17, lue par Claude. Elle localise les chantiers et arsenaux avant 1945 ; elle ne dit rien de leur activité au 01/01/1945 (fin de gestion SECN 1940/1941 pour Ferrol, Carthagène, San Fernando).",
+   "villes_prouvees": {
+    "ville-es-ferrol": [
+     "industrie",
+     "construction_navale",
+     "base_navale"
+    ],
+    "ville-es-carthagene": [
+     "industrie",
+     "construction_navale",
+     "base_navale"
+    ],
+    "ville-es-san-fernando": [
+     "industrie",
+     "base_navale"
+    ],
+    "ville-es-puerto-real": [
+     "industrie",
+     "construction_navale"
+    ],
+    "ville-es-sestao": [
+     "industrie",
+     "construction_navale"
+    ],
+    "ville-es-reinosa": [
+     "industrie",
+     "siderurgie"
+    ]
+   }
+  },
+  {
+   "id": "src-19-pt-cp-chronologie",
+   "statut": "limite",
+   "citation": "Abertura à exploração pública do troço entre Pinhal Novo e Setúbal na Linha do Sado.",
+   "commentaire": "Page anglaise relue : Setúbal, Guimarães, Vila Real et Bragance trouvées ; la page s'arrête en 1908 pour l'outil : Viana (1924) et le ferry Lisbonne–Barreiro (rappel de 1973) non retrouvés.",
+   "villes_prouvees": {
+    "ville-pt-setubal": [
+     "rail"
+    ],
+    "ville-pt-guimaraes": [
+     "rail"
+    ],
+    "ville-pt-vila-real": [
+     "rail"
+    ],
+    "ville-pt-bragance": [
+     "rail"
+    ]
+   },
+   "preuves_par_ville": {
+    "ville-pt-setubal": "troço entre Pinhal Novo e Setúbal",
+    "ville-pt-guimaraes": "troço entre Vizela e Guimarães",
+    "ville-pt-vila-real": "troço entre a Régua e Vila Real",
+    "ville-pt-bragance": "Inauguração da Estação de Bragança"
+   }
+  },
+  {
+   "id": "src-19-es-treccani1936",
+   "statut": "limite",
+   "citation": "Massimo fra i porti spagnoli è quello di Barcellona, metropoli industriale e commerciale della Spagna",
+   "commentaire": "Nouveaux localisateurs relus : Barcelone, Huelva, Carthagène, Almería (ports) ; Unión Naval de Levante à Valence (industrie).",
+   "villes_prouvees": {
+    "ville-es-barcelone": [
+     "port_maritime"
+    ],
+    "ville-es-huelva": [
+     "port_maritime"
+    ],
+    "ville-es-carthagene": [
+     "port_maritime"
+    ],
+    "ville-es-almeria": [
+     "port_maritime"
+    ],
+    "ville-es-valence": [
+     "industrie"
+    ]
+   },
+   "preuves_par_ville": {
+    "ville-es-barcelone": "Massimo fra i porti spagnoli è quello di Barcellona",
+    "ville-es-huelva": "Cadice e Huelva (esportazione di minerali)",
+    "ville-es-carthagene": "Cartagena, Siviglia, Almería, ecc.",
+    "ville-es-almeria": "Cartagena, Siviglia, Almería, ecc.",
+    "ville-es-valence": "la 'Unión Naval de Levante' di Valenza"
+   }
+  },
+  {
+   "id": "src-19-pt-treccani1935",
+   "statut": "limite",
+   "citation": "I principali distretti di produzione del rame sono a S. Domingos, Aljustrel ... a Louzal",
+   "commentaire": "Aljustrel et Louzal relus (mines). La formule « Lisbona capitale » n'a pas été restituée mot pour mot par l'outil : capitale de Lisbonne non confirmée par ce passage.",
+   "villes_prouvees": {
+    "ville-pt-aljustrel": [
+     "mines"
+    ],
+    "ville-pt-lousal": [
+     "mines"
+    ]
+   },
+   "preuves_par_ville": {
+    "ville-pt-aljustrel": "distretti di produzione del rame ... Aljustrel",
+    "ville-pt-lousal": "... a Louzal"
+   }
+  },
+  {
+   "id": "src-19-cy-treccani1931",
+   "statut": "limite",
+   "citation": "Nicosia (v.), capitale e sede del Governo (18.570 ab.)",
+   "commentaire": "Nicosie capitale et siège du gouvernement ; ligne unique Famagouste–Nicosie–Morphou (122 km). Rien sur le port de Famagouste dans ce passage.",
+   "villes_prouvees": {
+    "ville-cy-nicosie": [
+     "capitale",
+     "administration",
+     "rail"
+    ],
+    "ville-cy-famagouste": [
+     "rail"
+    ],
+    "ville-cy-morphou": [
+     "rail"
+    ]
+   },
+   "preuves_par_ville": {
+    "ville-cy-nicosie": "Nicosia (v.), capitale e sede del Governo",
+    "ville-cy-famagouste": "Famagosta (v.), che l'unica ferrovia dell'isola collega (km. 122) a Nicosia e Morphou",
+    "ville-cy-morphou": "collega (km. 122) a Nicosia e Morphou"
+   }
+  },
+  {
+   "id": "src-19-mt-treccani1934",
+   "statut": "limite",
+   "citation": "cingono quasi senza soluzione di continuità i due porti intorno a La Valletta, con la quale formano un agglomerato urbano di circa 100.000 ab.",
+   "commentaire": "Ports autour de La Valette relus ; le mot « capoluogo » n'a pas été restitué par l'outil : capitale et administration non confirmées par ce passage.",
+   "villes_prouvees": {
+    "ville-mt-la-valette": [
+     "port_maritime"
+    ]
+   },
+   "preuves_par_ville": {
+    "ville-mt-la-valette": "i due porti intorno a La Valletta"
+   }
+  },
+  {
+   "id": "src-19-mt-ibcc-dockyard1943",
+   "statut": "limite",
+   "citation": "A tank vessel from Victuall Yard was placed alongside Senglea Marin to keep the remaining inhabitants supplie with water. | Leads extended to No. 1 Dock via Cospicua, Store Wharf, Church Tunnel",
+   "commentaire": "§25 : navire-citerne d'eau à Senglea Marina (aucun rôle prouvé) ; §39 : conduite d'air comprimé de l'arsenal passant par Cospicua (industrie). Militaire et base navale non prouvés par ces passages.",
+   "villes_prouvees": {
+    "ville-mt-cospicua": [
+     "industrie"
+    ]
+   },
+   "preuves_par_ville": {
+    "ville-mt-cospicua": "Leads extended to No. 1 Dock via Cospicua"
+   }
+  },
+  {
+   "id": "src-19-iberie-forcano1942",
+   "statut": "limite",
+   "citation": "Légende des couleurs : bleu « Ríotinto a Huelva » ; saumon « Tharsis al Río Odiel » ; violet « Compañía Portuguesa ».",
+   "commentaire": "Nouvelles captures lues par Claude : RIO TINTO sur la voie bleue, THARSIS au bout de la voie saumon, Fregenal sur la ligne rouge Zafra–Huelva, Setúbal au bout de l'antenne violette depuis Pinhal Novo. Carte de 1942 : fonction avant le Snapshot.",
+   "villes_prouvees": {
+    "ville-es-minas-de-riotinto": [
+     "rail"
+    ],
+    "ville-es-tharsis": [
+     "rail"
+    ],
+    "ville-es-fregenal-de-la-sierra": [
+     "rail"
+    ],
+    "ville-pt-setubal": [
+     "rail"
+    ]
+   },
+   "preuves_par_ville": {
+    "ville-es-minas-de-riotinto": "RIO TINTO, voie bleue",
+    "ville-es-tharsis": "THARSIS, terminus voie saumon",
+    "ville-es-fregenal-de-la-sierra": "Fregenal, ligne rouge",
+    "ville-pt-setubal": "Setubal, antenne violette"
+   }
+  }
+ ]
+}

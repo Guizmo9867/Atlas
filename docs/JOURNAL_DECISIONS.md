@@ -2,6 +2,11 @@
 
 Une ligne par décision, datée. Plus récente en haut. Ce journal remplace les versions éparpillées dans les conversations : si ce n'est pas ici, ce n'est pas décidé.
 
+## 2026-10-05 (fin d'après-midi : réponses au 1.8, cycle 3)
+
+- **Lot 1.8 v0.3** : 5 sources nouvelles d'Ether ajoutées sans rien remplacer ; rail prouvé pour Ploiești, Buzău, Brăila, Tecuci, Fabriano et Cancello Arnone (page 36 d'EX LIBRIS et captures du rapport RE lues par Claude) ; Spolète reste « À renforcer » (page refusée à l'outil). « À renforcer » 26 → 20. Registre v1.28. *(Ether + Claude)*
+- Orte : Ether retire sa correction du cycle 2 ; rien n'est changé (R18-C2-02). Q18-02 close, restes en réserve. **Lot 1.8 à 3 cycles** : réserves gardées pour la revue finale 1.x. *(Claude)*
+
 ## 2026-10-05 (après-midi : villes 1.9, Ibérie et marges)
 
 - **Villes 1.9 intégrées : 238 villes** (Espagne 158, Portugal 61, Chypre 7, Malte 5, Andorre 2, Saint-Marin 2, Gibraltar, Vatican, Monaco), dont 3 sous leur nom de 1945 (El Ferrol del Caudillo, Mahón, Puerto Cabras). Capitales nationales : Madrid, Lisbonne, Andorre-la-Vieille, Saint-Marin ; « territoire » : Nicosie, La Valette ; Monaco et Vatican sans type (réserve). Code `sm` ajouté au lexique. L'Atlas compte 1 544 villes. *(Ether, fait par Claude)*

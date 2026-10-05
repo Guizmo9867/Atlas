@@ -10,12 +10,16 @@ Relancer : python outils/villes/construire_villes_1_8.py (depuis la racine du d�
 """
 import json, pathlib, copy, re
 from confirmations_claude import confirmation
+from remise_ether_2026_10_05 import appliquer_corrections
 
 RACINE = pathlib.Path(__file__).resolve().parents[2]
 ICI = pathlib.Path(__file__).parent
 PROPOSITION = json.load(open(RACINE / 'data/sources/deltas_ether/2026-10-04_villes_1-8_proposition_ether.json', encoding='utf-8'))['proposition_ether']
 WD = json.load(open(ICI / 'wikidata_ratissage_1_8.json', encoding='utf-8'))['villes']
 REGISTRE = {x['source_id']: x for x in json.load(open(RACINE / 'data/sources/atlas_registre_sources.json', encoding='utf-8'))['sources']}
+# Cycle 3 (05/10/2026) : compléments de preuves d'Ether, additifs (Q18-02) ; retrait de la proposition Orte respecté (rien à faire).
+OPS_C3 = json.load(open(RACINE / 'data/sources/deltas_ether/2026-10-05_villes_1-8_corrections_cycle3_ether.json', encoding='utf-8'))['corrections']
+JOURNAL_C3 = {}
 
 # Capitales d'États au 01/01/1945 (proposées par Ether). Zagreb (État indépendant de Croatie), Salò (RSI) et les futures
 # capitales de républiques yougoslaves ne reçoivent pas de type d'affichage (réserves d'Ether, revue finale 1.x).
@@ -39,6 +43,8 @@ for v in PROPOSITION['entites']:
         if cle in vues: continue
         vues.add(cle); srcs.append(s)
     et['sources'] = srcs
+    f = appliquer_corrections(e, OPS_C3, REGISTRE, "Réponse d'Ether (cycle 3)")
+    if f: JOURNAL_C3[eid] = f
     prouve = set()
     for s in srcs:
         if s['source_id'] in NON_PREUVE:
@@ -61,7 +67,7 @@ for v in PROPOSITION['entites']:
 lot = {
   'metadata_lot': {
     'nom': 'snapshot0_villes_1-8_balkans_grece_italie', 'date_reference': '1945-01-01', 'heure_reference': '00:00',
-    'version': '0.2', 'statut': 'integre_par_claude', 'gabarit_source': 'gabarits/gabarit_entite_temporelle_atlas.json',
+    'version': '0.3', 'statut': 'integre_par_claude', 'gabarit_source': 'gabarits/gabarit_entite_temporelle_atlas.json',
     'zone': PROPOSITION['metadata_lot']['zone'],
     'limites_ether': PROPOSITION['metadata_lot']['limites_ether'],
     'reserves_ether': 'R18-01 à R18-70 (data/snapshot0/villes_1-8_balkans_grece_italie_reserves_ether.md), revue finale 1.x',
@@ -70,11 +76,13 @@ lot = {
       "Positions : QID Wikidata (CC0) d'Ether recoupés par SPARQL : libellé et pays cohérents, aucun écart > 1 km ; aucun QID ni ID commun avec les 945 villes déjà intégrées ; Côme à 5 km de Chiasso (villes distinctes) ; Rijeka/Sušak, Brod/Slavonski Brod, Herceg Novi/Zelenika, Agrigente/Porto Empedocle : paires voisines distinctes en 1945.",
       "Capitales « nationales » : Rome, Athènes, Belgrade, Sofia, Bucarest, Tirana ; aucune autre (Zagreb, futures capitales de républiques yougoslaves : réserves d'Ether).",
       "Preuves : 5 cartes OSS (1942-1944) lues par Claude sur les images déposées par Ether ; 271 villes relues une à une (confirmations_claude). Mentions « (non vérifiée par Claude) », « (lecture partielle) » ou « (page relue par Claude pour cette ville) » ; « À renforcer » = rôles sans aucune preuve confirmée.",
-      "v0.2 (05/10/2026, réponses d'Ether cycle 2) : 15 captures et 4 pages en ligne relues par Claude (registre v1.26) : Treni di Carta (2.2.1 à 2.3.10), ELIA, Olbia, Sibiu, Constanța ; mentions de preuve et « À renforcer » recalculés. Correction d'Orte proposée par Ether NON appliquée : sur la capture, le pont du Tibre de juillet 1945 est dit « at Ode Station », sans nommer Orte (contradiction non établie ; réserve R18-C2-02)."]},
+      "v0.2 (05/10/2026, réponses d'Ether cycle 2) : 15 captures et 4 pages en ligne relues par Claude (registre v1.26) : Treni di Carta (2.2.1 à 2.3.10), ELIA, Olbia, Sibiu, Constanța ; mentions de preuve et « À renforcer » recalculés. Correction d'Orte proposée par Ether NON appliquée : sur la capture, le pont du Tibre de juillet 1945 est dit « at Ode Station », sans nommer Orte (contradiction non établie ; réserve R18-C2-02).",
+      "v0.3 (05/10/2026, réponses d'Ether cycle 3, Q18-02) : 5 sources nouvelles ajoutées à 6 villes (Ploiești, Buzău, Brăila, Tecuci, Spolète, Fabriano) et nouveau localisateur du rapport RE pour Cancello Arnone ; relues par Claude (registre v1.28) : Ploiești, Buzău, Tecuci, Fabriano (pages en ligne), Brăila (page 36 d'EX LIBRIS déposée par Ether) et Cancello Arnone (captures vue2 et vue3) prouvés pour le rail ; Spolète non lisible par l'outil (robots), reste « À renforcer : rail ». Phrases d'Ether ajoutées aux notes seulement pour les sources confirmées. Orte : proposition retirée par Ether, rien n'est changé (R18-C2-02)."]},
   },
   'entites': entites,
 }
 out = RACINE / 'data/snapshot0/villes_1-8_balkans_grece_italie.json'
 out.write_text(json.dumps(lot, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+print('cycle 3 :', JOURNAL_C3)
 print(len(entites), 'villes ->', out.relative_to(RACINE), '; à renforcer :', sum('À renforcer' in e['etats'][0]['proprietes']['note'] for e in entites),
       '; noms de 1945 :', sum(1 for e in entites if e['etats'][0]['proprietes'].get('nom')))

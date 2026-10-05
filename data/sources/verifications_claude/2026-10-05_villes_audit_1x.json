@@ -1,0 +1,210 @@
+{
+ "metadata": {
+  "lot": "villes_1-9 (audit transversal 1.x)",
+  "date": "2026-10-05",
+  "methode": "pages en ligne relues par sous-agents (WebFetch seul, sans contournement)"
+ },
+ "resultats": [
+  {
+   "id": "src-audit1x-fr-hendaye",
+   "statut": "limite",
+   "citation": "157 ans après l'arrivée en gare d'Hendaye du 1er train en provenance de Madrid et à destination de Paris (le 15/8/1864)",
+   "commentaire": "Rail prouvé ; le rôle frontalier n'est pas dit en toutes lettres.",
+   "villes_prouvees": {
+    "ville-fr-hendaye": [
+     "rail"
+    ]
+   }
+  },
+  {
+   "id": "src-audit1x-fr-cerbere",
+   "statut": "ok",
+   "citation": "En 1878, la jonction France Espagne est inaugurée. / Les opérations de contrôle douanier, de transbordement et de changement de train mobilisent une importante main-d'œuvre.",
+   "commentaire": "Rail et frontière (douane, transbordement) prouvés.",
+   "villes_prouvees": {
+    "ville-fr-cerbere": [
+     "rail",
+     "frontalier"
+    ]
+   }
+  },
+  {
+   "id": "src-audit1x-fr-modane",
+   "statut": "ok",
+   "citation": "le petit bourg de Modane devient un pôle frontalier important doté d'une gare internationale. / La gare est détruite par un bombardement des alliés en 1943, puis elle est saccagée en août 1944",
+   "commentaire": "Tout est sur la page (1871, 1943, août 1944).",
+   "villes_prouvees": {
+    "ville-fr-modane": [
+     "rail",
+     "frontalier"
+    ]
+   }
+  },
+  {
+   "id": "src-audit1x-fr-jeumont",
+   "statut": "non_verifiee",
+   "citation": "",
+   "commentaire": "PDF derrière une page anti-robots (JavaScript requis) ; non contourné.",
+   "villes_prouvees": {}
+  },
+  {
+   "id": "src-audit1x-fr-bastia",
+   "statut": "limite",
+   "citation": "Les bombardements détruisent la quasi totalité des installations portuaires / Le port est toujours encombré par des épaves, le \"Tibériade\" le \"Sidi Mabrouk\" et le \"Mont Agel\"",
+   "commentaire": "Faits présents ; les années (1920, 1943, décembre 1944) non restituées par l'outil.",
+   "villes_prouvees": {
+    "ville-fr-bastia": [
+     "port_maritime"
+    ]
+   }
+  },
+  {
+   "id": "src-audit1x-fr-ajaccio",
+   "statut": "ok",
+   "citation": "Les premiers à accoster à Ajaccio sont 109 hommes du 1er Bataillon parachutiste de Choc, le 13 septembre.",
+   "commentaire": "Débarquement de septembre 1943 confirmé.",
+   "villes_prouvees": {
+    "ville-fr-ajaccio": [
+     "port_maritime"
+    ]
+   }
+  },
+  {
+   "id": "src-audit1x-gb-crewe",
+   "statut": "limite",
+   "citation": "The railway opened in 1837. / the first junction between more than two mainline railways.",
+   "commentaire": "Carrefour ferroviaire prouvé ; la date de 1837 vaut pour la ligne.",
+   "villes_prouvees": {
+    "ville-gb-crewe": [
+     "rail"
+    ]
+   }
+  },
+  {
+   "id": "src-audit1x-gb-york",
+   "statut": "ok",
+   "citation": "York has been an important centre not only of railway routes but of railway administration from almost the very start of the Railway era. / In 1877 the current railway station was constructed.",
+   "commentaire": "§5.51 relu.",
+   "villes_prouvees": {
+    "ville-gb-york": [
+     "rail"
+    ]
+   }
+  },
+  {
+   "id": "src-audit1x-fr-dijon",
+   "statut": "non_verifiee",
+   "citation": "",
+   "commentaire": "Page refusée à l'outil (robots) ; non contournée.",
+   "villes_prouvees": {}
+  },
+  {
+   "id": "src-audit1x-fr-le-mans",
+   "statut": "ok",
+   "citation": "le 28 mai 1854, à 15h, le premier convoi entre en gare du Mans.",
+   "commentaire": "Arrivée du train en 1854 confirmée.",
+   "villes_prouvees": {
+    "ville-fr-le-mans": [
+     "rail"
+    ]
+   }
+  },
+  {
+   "id": "src-audit1x-fr-saint-pierre-des-corps",
+   "statut": "ok",
+   "citation": "Le train est un élément fort de l'histoire de la ville / une des plus importantes gares de triage de France",
+   "commentaire": "Rôle ferroviaire prouvé (1882 et 1901 : passage à niveau et passerelle, pas des ponts).",
+   "villes_prouvees": {
+    "ville-fr-saint-pierre-des-corps": [
+     "rail"
+    ]
+   }
+  },
+  {
+   "id": "src-audit1x-gb-swindon",
+   "statut": "ok",
+   "citation": "The Great Western Railway works in Swindon were established in 1841 ... At its peak in 1925, the workforce numbered over 14,000.",
+   "commentaire": "Tout est confirmé.",
+   "villes_prouvees": {
+    "ville-gb-swindon": [
+     "rail",
+     "industrie"
+    ]
+   }
+  },
+  {
+   "id": "src-audit1x-fr-tours",
+   "statut": "limite",
+   "citation": "la construction, de 1896 à 1898, de la gare monumentale / Le poste central de Rennes date de 1941",
+   "commentaire": "Tours et Rennes prouvés ; Limoges (sujet de la phrase non nommé dans l'extrait) et Lyon-Perrache (non nommé) non confirmés.",
+   "villes_prouvees": {
+    "ville-fr-tours": [
+     "rail"
+    ],
+    "ville-fr-rennes": [
+     "rail"
+    ]
+   }
+  },
+  {
+   "id": "src-audit1x-ruppenthal-ii3",
+   "statut": "limite",
+   "citation": "the only port in Allied hands which possessed facilities even partially adapted to handling such cargo was Cherbourg",
+   "commentaire": "Cherbourg : port en service en 1944 (base navale non dite). Brest : port rendu inutilisable (destruction, pas de rôle à prouver).",
+   "villes_prouvees": {
+    "ville-fr-cherbourg": [
+     "port_maritime"
+    ]
+   }
+  },
+  {
+   "id": "src-audit1x-ruppenthal-ii4",
+   "statut": "limite",
+   "citation": "The long-awaited opening of the port finally took place on 28 November, when the James B. Weaver, a Liberty ship...was berthed.",
+   "commentaire": "Le Havre, Rouen, Anvers prouvés ; Marseille et Toulon absents de cette page.",
+   "villes_prouvees": {
+    "ville-fr-lehavre": [
+     "port_maritime"
+    ],
+    "ville-fr-rouen": [
+     "port_maritime"
+    ],
+    "ville-be-anvers": [
+     "port_maritime"
+    ]
+   }
+  },
+  {
+   "id": "src-audit1x-ruppenthal-ii5",
+   "statut": "limite",
+   "citation": "one via Soissons, Laon, and Hirson to Charleroi, where it tied in with the northern line; and a third extending directly east of Paris via Sezanne and Sommesous to the Nancy-Metz-Verdun triangle.",
+   "commentaire": "Seuls Charleroi et Metz nommés ; Paris (barges du 18/11/1944), Liège, Namur, Lyon, Dijon non retrouvés par l'outil.",
+   "villes_prouvees": {
+    "ville-be-charleroi": [
+     "rail"
+    ],
+    "ville-fr-metz": [
+     "rail"
+    ]
+   }
+  },
+  {
+   "id": "src-audit1x-ruppenthal-i3",
+   "statut": "faible",
+   "citation": "British port capacity was to be a despotic factor governing the build-up rate.",
+   "commentaire": "Aucun des huit ports n'est nommé dans la page relue par l'outil.",
+   "villes_prouvees": {}
+  },
+  {
+   "id": "src-audit1x-portsmouth-hansard1946",
+   "statut": "limite",
+   "citation": "Portsmouth Dockyard ... 25th March 1944 ... 17,172",
+   "commentaire": "Effectifs de l'arsenal au 25 mars 1944 : arsenal en activité ; « base navale » non dite en toutes lettres.",
+   "villes_prouvees": {
+    "ville-gb-portsmouth": [
+     "base_navale"
+    ]
+   }
+  }
+ ]
+}

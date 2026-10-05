@@ -1,0 +1,75 @@
+{
+ "metadata": {
+  "lot": "villes_1-8",
+  "cycle": 3,
+  "date": "2026-10-05",
+  "methode": "pages en ligne relues par sous-agents (WebFetch seul, sans contournement) ; captures et page de PDF déposées par Ether lues par Claude (outil Read), hors dépôt"
+ },
+ "resultats": [
+  {
+   "id": "src-18-c3-ro-ploiesti-musee",
+   "statut": "ok",
+   "citation": "La 13 septembrie 1872, linia Bucureşti-Ploieşti-Buzău-Galaţi era inaugurată ... Lucrările liniei, în lungime de 5,5 km, au fost executate între 1923-1925",
+   "commentaire": "Page relue : Buzău est nommée dans la ligne inaugurée le 13/09/1872 ; la ceinture de 1923-1925 concerne Ploiești.",
+   "villes_prouvees": {
+    "ville-ro-ploiesti": [
+     "rail"
+    ],
+    "ville-ro-buzau": [
+     "rail"
+    ]
+   }
+  },
+  {
+   "id": "src-18-c3-ro-braila-exlibris2022",
+   "statut": "ok",
+   "citation": "Stația CFR Brăila a fost construită între lunile iulie și decembrie ale anului 1869 ... a definitivat construcția, care a fost deschisă oficial în septembrie 1872.",
+   "commentaire": "Le PDF en ligne n'a pas été lu par l'outil (trop gros) ; la page 36 imprimée déposée par Ether (2026-10-05_ether_C3_Braila_p36.png) a été lue par Claude : construction 1869, ouverture officielle septembre 1872, raccordement du port ; l'auteur ne retient pas la date 1850 de la lettre de 1929.",
+   "villes_prouvees": {
+    "ville-ro-braila": [
+     "rail"
+    ]
+   }
+  },
+  {
+   "id": "src-18-c3-ro-tecuci-radio-museecfr",
+   "statut": "ok",
+   "citation": "La 27 decembrie 1870 s-a deschis provizoriu linia Bucureşti-Buzău-Brăila-Galaţi-Tecuci-Roman",
+   "commentaire": "Page relue : Tecuci nommée dans l'ouverture provisoire de 1870 ; interruption au printemps 1871 confirmée.",
+   "villes_prouvees": {
+    "ville-ro-tecuci": [
+     "rail"
+    ]
+   }
+  },
+  {
+   "id": "src-18-c3-it-spoleto-stazione",
+   "statut": "non_verifiee",
+   "citation": "",
+   "commentaire": "Page refusée à l'outil (robots.txt), non contournée ; aucune capture déposée.",
+   "villes_prouvees": {}
+  },
+  {
+   "id": "src-18-c3-it-fabriano-pergola-fs",
+   "statut": "ok",
+   "citation": "Gli unici due tratti ad essere inaugurati furono tra Pergola e Fabriano, nel 1895 ... fu necessario attendere il maggio del 1947 per assistere alla ripresa dell'esercizio tra le stazioni di Fabriano e Pergola",
+   "commentaire": "Page relue : 1895, dommages de guerre, reprise en mai 1947 sur la seule branche Fabriano–Pergola.",
+   "villes_prouvees": {
+    "ville-it-fabriano": [
+     "rail"
+    ]
+   }
+  },
+  {
+   "id": "src-18-it-re-1946-ligne89",
+   "statut": "limite",
+   "citation": "The bridge site is at the North end of Cancello Arnone Station yards, which allowed ample rail facilities for crane working ... the bridge was opened for traffic on 20 May and work finally completed on 25 June 1944.",
+   "commentaire": "Captures vue2 et vue3 (déjà déposées au cycle 2, nouveau localisateur d'Ether) lues par Claude : gare et faisceau de Cancello Arnone, pont du Volturno rouvert le 20 mai 1944.",
+   "villes_prouvees": {
+    "ville-it-cancello-arnone": [
+     "rail"
+    ]
+   }
+  }
+ ]
+}

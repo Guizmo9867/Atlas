@@ -3,7 +3,7 @@
     "nom": "snapshot0_villes_1-8_balkans_grece_italie",
     "date_reference": "1945-01-01",
     "heure_reference": "00:00",
-    "version": "0.2",
+    "version": "0.3",
     "statut": "integre_par_claude",
     "gabarit_source": "gabarits/gabarit_entite_temporelle_atlas.json",
     "zone": [
@@ -68,7 +68,8 @@
         "Positions : QID Wikidata (CC0) d'Ether recoupés par SPARQL : libellé et pays cohérents, aucun écart > 1 km ; aucun QID ni ID commun avec les 945 villes déjà intégrées ; Côme à 5 km de Chiasso (villes distinctes) ; Rijeka/Sušak, Brod/Slavonski Brod, Herceg Novi/Zelenika, Agrigente/Porto Empedocle : paires voisines distinctes en 1945.",
         "Capitales « nationales » : Rome, Athènes, Belgrade, Sofia, Bucarest, Tirana ; aucune autre (Zagreb, futures capitales de républiques yougoslaves : réserves d'Ether).",
         "Preuves : 5 cartes OSS (1942-1944) lues par Claude sur les images déposées par Ether ; 271 villes relues une à une (confirmations_claude). Mentions « (non vérifiée par Claude) », « (lecture partielle) » ou « (page relue par Claude pour cette ville) » ; « À renforcer » = rôles sans aucune preuve confirmée.",
-        "v0.2 (05/10/2026, réponses d'Ether cycle 2) : 15 captures et 4 pages en ligne relues par Claude (registre v1.26) : Treni di Carta (2.2.1 à 2.3.10), ELIA, Olbia, Sibiu, Constanța ; mentions de preuve et « À renforcer » recalculés. Correction d'Orte proposée par Ether NON appliquée : sur la capture, le pont du Tibre de juillet 1945 est dit « at Ode Station », sans nommer Orte (contradiction non établie ; réserve R18-C2-02)."
+        "v0.2 (05/10/2026, réponses d'Ether cycle 2) : 15 captures et 4 pages en ligne relues par Claude (registre v1.26) : Treni di Carta (2.2.1 à 2.3.10), ELIA, Olbia, Sibiu, Constanța ; mentions de preuve et « À renforcer » recalculés. Correction d'Orte proposée par Ether NON appliquée : sur la capture, le pont du Tibre de juillet 1945 est dit « at Ode Station », sans nommer Orte (contradiction non établie ; réserve R18-C2-02).",
+        "v0.3 (05/10/2026, réponses d'Ether cycle 3, Q18-02) : 5 sources nouvelles ajoutées à 6 villes (Ploiești, Buzău, Brăila, Tecuci, Spolète, Fabriano) et nouveau localisateur du rapport RE pour Cancello Arnone ; relues par Claude (registre v1.28) : Ploiești, Buzău, Tecuci, Fabriano (pages en ligne), Brăila (page 36 d'EX LIBRIS déposée par Ether) et Cancello Arnone (captures vue2 et vue3) prouvés pour le rail ; Spolète non lisible par l'outil (robots), reste « À renforcer : rail ». Phrases d'Ether ajoutées aux notes seulement pour les sources confirmées. Orte : proposition retirée par Ether, rien n'est changé (R18-C2-02)."
       ]
     }
   },
@@ -1349,7 +1350,7 @@
             "roles": [
               "rail"
             ],
-            "note": "La ville figure sur la liaison Vârciorova–Roman. Fonctions historiques documentées avant le Snapshot ; service et capacités de fin 1944 non déduits. Repère Wikidata Q201404 actuel ; centre exact de 1945 non certifié (R18-01). À renforcer : rail."
+            "note": "La ville figure sur la liaison Vârciorova–Roman. Fonctions historiques documentées avant le Snapshot ; service et capacités de fin 1944 non déduits. Repère Wikidata Q201404 actuel ; centre exact de 1945 non certifié (R18-01). Réponse d'Ether (cycle 3) : La source nomme Buzău dans l’axe București–Ploiești–Buzău inauguré en septembre 1872. Aucune infrastructure propre à Ploiești n’est attribuée à Buzău."
           },
           "geometrie": {
             "type": "Point",
@@ -1368,6 +1369,11 @@
               "source_id": "src-wikidata",
               "locator": "Q201404 — P625 ; 2026-10-04_ether_WD_groupe_20.json",
               "usage": "position actuelle (repère), recoupée par Claude ; aucune preuve de rôle historique"
+            },
+            {
+              "source_id": "src-18-c3-ro-ploiesti-musee",
+              "locator": "Construcţia liniilor principale > Linia Bucureşti-Ploieşti-Buzău ; paragraphe du 13 septembre 1872",
+              "usage": "rail ; rail historique ; Attestation du rôle ferroviaire historique ; ni horaire ni capacité ni continuité du service au 1er janvier 1945 certifiés."
             }
           ]
         }
@@ -1398,7 +1404,7 @@
               "port_fluvial",
               "rail"
             ],
-            "note": "La ville figure sur la liaison Vârciorova–Roman. La source documente pour la ville les éléments suivants : port aménagé duDanube. Fonctions historiques documentées avant le Snapshot ; service et capacités de fin 1944 non déduits. Repère Wikidata Q188478 actuel ; centre exact de 1945 non certifié (R18-01). À renforcer : rail."
+            "note": "La ville figure sur la liaison Vârciorova–Roman. La source documente pour la ville les éléments suivants : port aménagé duDanube. Fonctions historiques documentées avant le Snapshot ; service et capacités de fin 1944 non déduits. Repère Wikidata Q188478 actuel ; centre exact de 1945 non certifié (R18-01). Réponse d'Ether (cycle 3) : L’article reproduit une lettre du chef de gare du 15 novembre 1929 et décrit la construction de 1869, l’ouverture officielle de 1872 et le raccordement portuaire. Il corrige lui-même la datation1850 donnée dans cette lettre."
           },
           "geometrie": {
             "type": "Point",
@@ -1422,6 +1428,11 @@
               "source_id": "src-wikidata",
               "locator": "Q188478 — P625 ; 2026-10-04_ether_WD_groupe_20.json",
               "usage": "position actuelle (repère), recoupée par Claude ; aucune preuve de rôle historique"
+            },
+            {
+              "source_id": "src-18-c3-ro-braila-exlibris2022",
+              "locator": "p.36 imprimée (page38 du PDF, index37) ; signature et bibliographie p.39",
+              "usage": "rail ; rail historique ; Retenir l’existence ferroviaire locale avant1945. Ne pas retenir1850 ni un jour d’ouverture initiale : 23/27décembre1870 divergent entre les sources. La reproduction manuscrite n’a pas été intégralement déchiffrée."
             }
           ]
         }
@@ -1451,7 +1462,7 @@
             "roles": [
               "rail"
             ],
-            "note": "La ville figure sur la liaison Vârciorova–Roman. Fonctions historiques documentées avant le Snapshot ; service et capacités de fin 1944 non déduits. Repère Wikidata Q546686 actuel ; centre exact de 1945 non certifié (R18-01). À renforcer : rail."
+            "note": "La ville figure sur la liaison Vârciorova–Roman. Fonctions historiques documentées avant le Snapshot ; service et capacités de fin 1944 non déduits. Repère Wikidata Q546686 actuel ; centre exact de 1945 non certifié (R18-01). Réponse d'Ether (cycle 3) : La page nomme Tecuci dans l’axe ouvert provisoirement en décembre1870 ; elle signale ensuite une interruption1871 et une ouverture1872."
           },
           "geometrie": {
             "type": "Point",
@@ -1470,6 +1481,11 @@
               "source_id": "src-wikidata",
               "locator": "Q546686 — P625 ; 2026-10-04_ether_WD_groupe_20.json",
               "usage": "position actuelle (repère), recoupée par Claude ; aucune preuve de rôle historique"
+            },
+            {
+              "source_id": "src-18-c3-ro-tecuci-radio-museecfr",
+              "locator": "Paragraphe après la photographie de la gare de Câmpina1910, ouverture provisoire27décembre1870",
+              "usage": "rail ; rail historique ; Attestation du rôle ferroviaire historique ; ni horaire ni capacité ni continuité du service au 1er janvier 1945 certifiés. La page distingue projets1866 et exploitation ; elle reste rétrospective."
             }
           ]
         }
@@ -2958,7 +2974,7 @@
             "roles": [
               "rail"
             ],
-            "note": "La gare jouxte le pont du Volturno remis au trafic le 20 mai 1944. Fonctions historiques documentées avant le Snapshot ; service et capacités de fin 1944 non déduits. Repère Wikidata Q58463 actuel ; centre exact de 1945 non certifié (R18-01). À renforcer : rail."
+            "note": "La gare jouxte le pont du Volturno remis au trafic le 20 mai 1944. Fonctions historiques documentées avant le Snapshot ; service et capacités de fin 1944 non déduits. Repère Wikidata Q58463 actuel ; centre exact de 1945 non certifié (R18-01)."
           },
           "geometrie": {
             "type": "Point",
@@ -2970,8 +2986,8 @@
           "sources": [
             {
               "source_id": "src-18-it-re-1946-ligne89",
-              "locator": "§a",
-              "usage": "rail (lecture partielle)"
+              "locator": "II.III.3 §a, Volturno Bridge - Cancello Arnone ; figures23–24 ; captures vue2 et vue3",
+              "usage": "rail (page relue par Claude pour cette ville : rail)"
             },
             {
               "source_id": "src-wikidata",
@@ -3296,7 +3312,7 @@
             "roles": [
               "rail"
             ],
-            "note": "La source documente pour la ville les éléments suivants : ville de la ligne Orte–Falconara rétablie en septembre 1944. Fonctions historiques documentées avant le Snapshot ; service et capacités de fin 1944 non déduits. Repère Wikidata Q13145 actuel ; centre exact de 1945 non certifié (R18-01). À renforcer : rail."
+            "note": "La source documente pour la ville les éléments suivants : ville de la ligne Orte–Falconara rétablie en septembre 1944. Fonctions historiques documentées avant le Snapshot ; service et capacités de fin 1944 non déduits. Repère Wikidata Q13145 actuel ; centre exact de 1945 non certifié (R18-01). Réponse d'Ether (cycle 3) : La branche Pergola–Fabriano est inaugurée en1895 ; les dommages de guerre interrompent son exploitation, reprise en mai1947."
           },
           "geometrie": {
             "type": "Point",
@@ -3315,6 +3331,11 @@
               "source_id": "src-wikidata",
               "locator": "Q13145 — P625 ; 2026-10-04_ether_WD_groupe_60.json",
               "usage": "position actuelle (repère), recoupée par Claude ; aucune preuve de rôle historique"
+            },
+            {
+              "source_id": "src-18-c3-it-fabriano-pergola-fs",
+              "locator": "Un Viaggio Riscoperto tra Appennini e Valli, paragraphes sur1895 et mai1947",
+              "usage": "rail ; rail historique ; Preuve locale du rôle ancien de Fabriano. La branche vers Pergola ne doit pas être décrite comme exploitée au Snapshot ; cette coupure ne date pas celle de l’autre axe Rome–Ancône. La desserte précise de fin1944 reste à renforcer."
             }
           ]
         }
@@ -3411,6 +3432,11 @@
               "source_id": "src-wikidata",
               "locator": "Q20571 — P625 ; 2026-10-04_ether_WD_groupe_60.json",
               "usage": "position actuelle (repère), recoupée par Claude ; aucune preuve de rôle historique"
+            },
+            {
+              "source_id": "src-18-c3-it-spoleto-stazione",
+              "locator": "Premier paragraphe (gare et axe Rome–Ancône1866) ; paragraphes sur le coton1907–1908 et l’entre-deux-guerres",
+              "usage": "rail ; rail historique ; Attestation du rôle ferroviaire historique ; ni horaire ni capacité ni continuité du service au 1er janvier 1945 certifiés. Cette preuve porte sur la gare de la ville ; ne pas déduire le service de la branche Spoleto–Norcia au Snapshot. (non vérifiée par Claude)"
             }
           ]
         }
@@ -17736,7 +17762,7 @@
               "industrie",
               "rail"
             ],
-            "note": "La source documente pour la ville les éléments suivants : matériel de forage et passage ferroviaire de laPrahova. Fonctions historiques documentées avant le Snapshot ; service et capacités de fin 1944 non déduits. Repère Wikidata Q179585 actuel ; centre exact de 1945 non certifié (R18-01). À renforcer : rail."
+            "note": "La source documente pour la ville les éléments suivants : matériel de forage et passage ferroviaire de laPrahova. Fonctions historiques documentées avant le Snapshot ; service et capacités de fin 1944 non déduits. Repère Wikidata Q179585 actuel ; centre exact de 1945 non certifié (R18-01). Réponse d'Ether (cycle 3) : L’axe București–Ploiești–Buzău–Galați est inauguré en septembre 1872. La ceinture de Ploiești est construite entre 1923 et 1925."
           },
           "geometrie": {
             "type": "Point",
@@ -17755,6 +17781,11 @@
               "source_id": "src-wikidata",
               "locator": "Q179585 — P625 ; 2026-10-04_ether_WD_groupe_360.json",
               "usage": "position actuelle (repère), recoupée par Claude ; aucune preuve de rôle historique"
+            },
+            {
+              "source_id": "src-18-c3-ro-ploiesti-musee",
+              "locator": "Construcţia liniilor principale > Linia Bucureşti-Ploieşti-Buzău ; paragraphe du 13 septembre 1872 ; Linia ferată de centură Ploieşti Nord-Ploieşti Triaj",
+              "usage": "rail ; rail historique ; Attestation du rôle ferroviaire historique ; ni horaire ni capacité ni continuité du service au 1er janvier 1945 certifiés."
             }
           ]
         }
