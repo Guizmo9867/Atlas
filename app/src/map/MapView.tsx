@@ -77,9 +77,9 @@ export default function MapView({ emprise, couches, calques, selection, onSelect
         version: 8,
         sources: {
           // Fond Natural Earth 1:10m : le MÊME trait de côte que celui qui découpe les territoires (sinon décalages au zoom)
-          terres: { type: 'geojson', data: '/fond/terres_10m.geojson', attribution: 'Natural Earth' },
-          lacs: { type: 'geojson', data: '/fond/lacs_10m.geojson' },
-          fleuves: { type: 'geojson', data: '/fond/fleuves_10m.geojson' },
+          terres: { type: 'geojson', data: import.meta.env.BASE_URL + 'fond/terres_10m.geojson', attribution: 'Natural Earth' },
+          lacs: { type: 'geojson', data: import.meta.env.BASE_URL + 'fond/lacs_10m.geojson' },
+          fleuves: { type: 'geojson', data: import.meta.env.BASE_URL + 'fond/fleuves_10m.geojson' },
           osm: { type: 'raster', tiles: ['https://tile.openstreetmap.org/{z}/{x}/{y}.png'], tileSize: 256, maxzoom: 19, attribution: '© OpenStreetMap contributors' },
           territoires: { type: 'geojson', data: VIDE },
           frontieres: { type: 'geojson', data: VIDE },
