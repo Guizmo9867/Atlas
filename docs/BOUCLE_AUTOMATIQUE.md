@@ -140,6 +140,7 @@ Un gros lot peut prendre plus d'une heure, et un autre réveil démarre toutes l
       - pour regarder l'état : `GIT_OPTIONAL_LOCKS=0 bash .git/claude_git.sh status --short` (sans cette variable, un verrou `.git/index.lock` impossible à effacer peut rester) ;
       - `bash .git/claude_git.sh add -A` ;
       - `bash .git/claude_git.sh commit -F -`, avec un message en français qui se termine par les lignes d'attribution fournies par la session ;
+      - `bash .git/claude_git.sh pull --rebase origin main` (récupère d'abord ce qui a pu être ajouté directement sur github.com, par exemple la recette de publication du site) ;
       - `bash .git/claude_git.sh push origin main` ;
       - puis vérifier avec `bash .git/claude_git.sh ls-remote origin main`.
    9. **Dossier d'échange** :
