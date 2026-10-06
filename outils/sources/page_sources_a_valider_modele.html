@@ -31,6 +31,7 @@ h1 { font: 650 1.7rem/1.15 var(--titre); margin: 0; text-wrap: balance; }
 .filtre[aria-pressed="true"] { background: var(--encre); color: var(--fond); border-color: var(--encre); }
 .filtre:focus-visible, button:focus-visible, a:focus-visible, textarea:focus-visible { outline: 2px solid var(--ambre); outline-offset: 2px; }
 .separateur { flex-basis: 100%; height: 0; }
+.filtre-prio[aria-pressed="true"] { background: var(--ok); border-color: var(--ok); color: #fff; }
 .filtre-domaine[aria-pressed="true"] { background: var(--ambre); border-color: var(--ambre); color: #1b1712; }
 .cacher { display: flex; align-items: center; gap: 8px; font-size: .9rem; color: var(--encre-2); }
 .liste { display: grid; gap: 12px; }
@@ -107,7 +108,6 @@ textarea { width: 100%; box-sizing: border-box; min-height: 2.6em; resize: verti
   </section>
 
   <nav class="filtres" id="filtres" aria-label="Filtrer"></nav>
-  <label class="cacher"><input type="checkbox" id="seul-imp" checked> Seulement les importantes (celles qui changent la carte)</label>
   <label class="cacher"><input type="checkbox" id="masquer"> Masquer celles déjà traitées</label>
 
   <section class="liste" id="liste" aria-live="polite"></section>
@@ -120,7 +120,7 @@ const GROUPES = { a_lire: 'Claude n’a pas pu lire', partielle: 'Lecture partie
 const DECISIONS = { verifiee: 'Ça prouve', verifiee_s0: 'Prouve pour 1945 (la suite plus tard)', ne_prouve_pas: 'Ne prouve pas', lien_mort: 'Lien mort' }
 let validations = {}   // id source -> {decision, commentaire, par, le}
 let noms = {}          // id personne -> nom affiché
-let domaine = 'tout', filtre = 'tout', masquer = false, seulImp = true, db = null, user = null, moi = null, peutEcrire = false
+let domaine = 'tout', filtre = 'tout', masquer = false, prio = 'importante', db = null, user = null, moi = null, peutEcrire = false
 
 const $ = (id) => document.getElementById(id)
 const el = (tag, cls, txt) => { const e = document.createElement(tag); if (cls) e.className = cls; if (txt != null) e.textContent = txt; return e }
@@ -128,6 +128,16 @@ const dateCourte = (iso) => { try { return new Date(iso).toLocaleDateString('fr-
 
 function filtres() {
   const box = $('filtres'); box.textContent = ''
+  // Priorité d'abord : « Importantes » = celles dont la validation change la carte
+  const PRIO = { importante: '★ Importantes', facultative: 'Facultatives', tout: 'Toutes priorités' }
+  for (const p of ['importante', 'facultative', 'tout']) {
+    const n = DONNEES.filter((s) => p === 'tout' || (s.priorite || 'facultative') === p).length
+    const b = el('button', 'filtre filtre-prio', `${PRIO[p]} (${n})`)
+    b.type = 'button'; b.setAttribute('aria-pressed', String(prio === p))
+    b.onclick = () => { prio = p; rendre() }
+    box.append(b)
+  }
+  box.append(el('span', 'separateur'))
   const DOM = { tout: 'Tout', frontieres: 'Fronti\u00e8res', villes: 'Villes' }
   for (const d of ['tout', 'frontieres', 'villes']) {
     const n = DONNEES.filter((s) => d === 'tout' || s.domaine === d).length
@@ -137,7 +147,7 @@ function filtres() {
     box.append(b)
   }
   box.append(el('span', 'separateur'))
-  const cpt = (g) => DONNEES.filter((s) => (domaine === 'tout' || s.domaine === domaine) && (g === 'tout' || s.groupe === g)).length
+  const cpt = (g) => DONNEES.filter((s) => (domaine === 'tout' || s.domaine === domaine) && (g === 'tout' || s.groupe === g) && (prio === 'tout' || (s.priorite || 'facultative') === prio)).length
   for (const g of ['tout', 'a_lire', 'partielle', 'lien_mort', 'remplacee']) {
     const n = cpt(g); if (!n) continue
     const b = el('button', 'filtre', `${g === 'tout' ? 'Toutes' : GROUPES[g]} (${n})`)
@@ -236,7 +246,7 @@ function rendre() {
   $('nb-faites').textContent = faites; $('nb-total').textContent = DONNEES.length
   $('jauge').style.width = (100 * faites / DONNEES.length) + '%'
   const liste = $('liste'); liste.textContent = ''
-  const vues = DONNEES.filter((s) => (domaine === 'tout' || s.domaine === domaine) && (filtre === 'tout' || s.groupe === filtre) && !(masquer && validations[s.id]) && !(seulImp && s.priorite !== 'importante'))
+  const vues = DONNEES.filter((s) => (domaine === 'tout' || s.domaine === domaine) && (filtre === 'tout' || s.groupe === filtre) && !(masquer && validations[s.id]) && (prio === 'tout' || (s.priorite || 'facultative') === prio))
   if (!vues.length) liste.append(el('p', 'vide', masquer ? 'Tout est traité dans cette catégorie.' : 'Aucune source ici.'))
   vues.forEach((s) => liste.append(fiche(s)))
 }
@@ -361,7 +371,7 @@ async function annuler(id, bouton) {
 }
 
 $('masquer').onchange = (e) => { masquer = e.target.checked; rendre() }
-$('seul-imp').onchange = (e) => { seulImp = e.target.checked; rendre() }
+
 rendre()
 
 ;(async () => {
