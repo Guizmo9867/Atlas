@@ -57,20 +57,38 @@ def decision_texte(x):
     if '1945' in x or 'plus tard' in x: return 'verifiee_s0'
     if 'prouve' in x or x.strip() in ('oui', 'valide', 'ok', 'verifiee'): return 'verifiee'
     return None
-FICHES = {}
-for f in sorted(list((ECHANGE / '05_fiches_sources').glob('*.md')) + list((ECHANGE / '05_fiches_sources').glob('*.txt'))):
-    le = datetime.datetime.utcfromtimestamp(f.stat().st_mtime).strftime('%Y-%m-%dT%H:%M:%SZ')
-    fiche, cle = None, None
-    for ligne in f.read_text(encoding='utf-8', errors='replace').splitlines():
+def lire_fiches(texte, nom, le, sid_impose=None):
+    """Découpe un texte en fiches (lignes « Clé : valeur »). Avec sid_impose (fiche collée dans la page), l'identifiant est connu :
+    la ligne « source_id » de la fiche est ignorée (Ether ne le voit pas toujours)."""
+    out, fiche, cle = [], ({'source_id': sid_impose, 'fichier': nom, 'le': le} if sid_impose else None), None
+    if fiche: out.append(fiche)
+    for ligne in texte.splitlines():
         brut = ligne.strip().lstrip('-*# ').replace('**', '')
         m = re.match(r"^([^:]{2,30}?)\s*:\s*(.*)$", brut)
         k = CLES.get(re.sub(r'[^a-z0-9 ]', ' ', sans_accents(m.group(1))).strip().replace('  ', ' ')) if m else None
         if k == 'source_id':
-            fiche = {'source_id': m.group(2).strip().strip('`'), 'fichier': f.name, 'le': le}; FICHES.setdefault(fiche['source_id'], []).append(fiche); cle = None
+            if sid_impose: continue
+            fiche = {'source_id': m.group(2).strip().strip('`'), 'fichier': nom, 'le': le}; out.append(fiche); cle = None
         elif fiche is not None and k:
             fiche[k] = (fiche.get(k, '') + ' ' + m.group(2).strip()).strip(); cle = k
         elif fiche is not None and cle and brut:
             fiche[cle] = (fiche[cle] + ' ' + brut).strip()  # suite d'un champ sur plusieurs lignes
+    return out
+FICHES = {}
+for f in sorted(list((ECHANGE / '05_fiches_sources').glob('*.md')) + list((ECHANGE / '05_fiches_sources').glob('*.txt'))):
+    le = datetime.datetime.utcfromtimestamp(f.stat().st_mtime).strftime('%Y-%m-%dT%H:%M:%SZ')
+    for fiche in lire_fiches(f.read_text(encoding='utf-8', errors='replace'), f.name, le):
+        FICHES.setdefault(fiche['source_id'], []).append(fiche)
+# Fiches collées dans la page « Sources à valider » (champ fiche_texte d'une décision)
+for sid, v in decisions.items():
+    if v.get('fiche_texte') and not v.get('fiche'):
+        fi = lire_fiches(v['fiche_texte'], 'collée dans la page', v.get('le') or '', sid_impose=sid)[0]
+        if not v.get('commentaire'):
+            v['commentaire'] = fi.get('prouve', '') + (f" — Suite plus tard : {fi['plus_tard']}" if fi.get('plus_tard') else '')
+        if fi.get('plus_tard') and 'Suite plus tard' not in v['commentaire']:
+            v['commentaire'] = (v['commentaire'] + f" — Suite plus tard : {fi['plus_tard']}").strip(' —')
+        v['liens'] = list(dict.fromkeys((v.get('liens') or []) + re.findall(r'https?://[^\s;,]+', fi.get('liens', ''))))
+        v['fiche'] = {k: fi[k] for k in ('citation', 'ou', 'vu', 'appris', 'fichier') if fi.get(k)}
 for sid, fs in FICHES.items():
     fi = max(fs, key=lambda x: x['le'])
     dec = decision_texte(fi.get('decision', ''))

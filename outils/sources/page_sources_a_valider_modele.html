@@ -207,6 +207,19 @@ function fiche(s) {
     comp.append(pl, inp, bj, el('p', 'petit', 'Astuce : fais une capture (touches Windows + Maj + S), puis colle-la (Ctrl + V) dans une des cases de cette fiche. Pas besoin de traduire ni de rogner : la capture de la page d’origine suffit, Claude lit toutes les langues.'))
     f.addEventListener('paste', (e) => { const fs = [...(e.clipboardData?.files || [])]; if (fs.length) { e.preventDefault(); joindre(s.id, fs) } })
   } else comp.append(el('p', 'petit', 'Pour joindre une capture ou un PDF : utilise la page 00_SOURCES_A_VALIDER.html du dossier Atlas, sur le PC.'))
+  // Fiche d'Ether collée telle quelle : la décision est lue dans la ligne « Décision : »
+  const tf = el('textarea', 'fiche-ether'); tf.id = 'fe-' + s.id; tf.disabled = !peutEcrire
+  tf.placeholder = 'Colle ici la fiche d’Ether en entier (Décision, Ce qui est prouvé, Citation exacte…), puis clique sur « Valider avec la fiche d’Ether ».'
+  const bf = el('button', 'b b-ok', '✓ Valider avec la fiche d’Ether'); bf.type = 'button'; bf.disabled = !peutEcrire
+  bf.onclick = () => {
+    const txt = tf.value.trim(), err = $('err-' + s.id)
+    const dec = decisionFiche(txt)
+    if (!dec) { err.textContent = 'Je ne trouve pas la ligne « Décision : » dans la fiche collée.'; err.hidden = false; return }
+    const liens = [...new Set([...lireLiens(tl.value), ...lireLiens(txt).filter((u) => u.replace(/\/$/, '') !== (s.url || '').replace(/\/$/, ''))])]
+    decider(s.id, dec, ta.value.trim() || champFiche(txt, 'Ce qui est prouvé'), bf, liens, txt)
+  }
+  comp.append(el('label', null, 'Fiche d’Ether (copier-coller)'), tf, bf)
+  if (v?.fiche_texte) { const d = el('details'); d.append(el('summary', null, 'Fiche d’Ether enregistrée'), el('p', null, v.fiche_texte)); comp.append(d) }
   const bs = el('div', 'boutons')
   const btn = (cls, txt, decision) => { const b = el('button', 'b ' + cls, txt); b.type = 'button'; b.disabled = !peutEcrire; b.onclick = () => decider(s.id, decision, ta.value.trim(), b, lireLiens(tl.value)); return b }
   bs.append(btn('b-ok', '✓ Ça prouve', 'verifiee'), btn('b-ok', '✓ Prouve pour 1945 (la suite plus tard)', 'verifiee_s0'), btn('b-non', '✗ Ne prouve pas', 'ne_prouve_pas'), btn('b-mort', 'Lien mort', 'lien_mort'))
@@ -311,14 +324,31 @@ async function sauverFichier() {
 }
 $('sauver').onclick = sauverFichier
 
-async function decider(id, decision, commentaire, bouton, liens = []) {
+// Lecture de la fiche d'Ether collée (mêmes règles que outils/sources/reporter_validations_guizmo.py)
+const sansAccents = (x) => x.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase()
+function champFiche(txt, nom) {
+  const re = new RegExp('^[\\s*#-]*' + sansAccents(nom).replace(/[^a-z ]/g, '.') + '\\s*:\\s*(.*)$')
+  for (const l of txt.split('\n')) { const m = sansAccents(l.replace(/\*\*/g, '')).match(re); if (m) return l.replace(/\*\*/g, '').slice(l.replace(/\*\*/g, '').indexOf(':') + 1).trim() }
+  return ''
+}
+function decisionFiche(txt) {
+  const d = sansAccents(champFiche(txt, 'Décision')); if (!d) return null
+  const plusTard = champFiche(txt, 'Suite plus tard')
+  if (d.includes('mort')) return 'lien_mort'
+  if (d.includes('ne prouve pas') || ['non', 'invalide', 'faux'].includes(d)) return 'ne_prouve_pas'
+  if (d.includes('1945') || d.includes('plus tard')) return 'verifiee_s0'
+  if (d.includes('prouve') || ['oui', 'valide', 'ok'].includes(d)) return (plusTard && !/^(\(|aucun|non|rien|-)/i.test(plusTard)) ? 'verifiee_s0' : 'verifiee'
+  return null
+}
+
+async function decider(id, decision, commentaire, bouton, liens = [], fiche_texte = '') {
   if (local) {
     const c = complements[id] || (complements[id] = { liens: [], pieces: [] }); c.liens = liens; ecrireCompl()
-    validations[id] = { decision, commentaire, liens, par: 'Guizmo', le: new Date().toISOString() }; ecrireLocal(); rendre(); return
+    validations[id] = { decision, commentaire, liens, ...(fiche_texte ? { fiche_texte } : {}), par: 'Guizmo', le: new Date().toISOString() }; ecrireLocal(); rendre(); return
   }
   const err = $('err-' + id); err.hidden = true; bouton.disabled = true
   try {
-    await db.collection('validations').doc(id).set({ decision, commentaire, liens, par: moi || '', le: new Date().toISOString() })
+    await db.collection('validations').doc(id).set({ decision, commentaire, liens, ...(fiche_texte ? { fiche_texte } : {}), par: moi || '', le: new Date().toISOString() })
   } catch (e) {
     err.textContent = e?.code === 'permission_denied' ? 'Tu n’as pas le droit d’enregistrer ici (demande un accès « contributeur »).' : 'Pas enregistré : réessaie dans un instant.'
     err.hidden = false; bouton.disabled = false

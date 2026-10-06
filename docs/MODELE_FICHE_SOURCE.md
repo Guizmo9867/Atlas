@@ -1,6 +1,8 @@
 # Fiche de source (à faire écrire par Ether dans le chat, après avoir discuté d'une source)
 
-Une fiche par source. On peut en mettre plusieurs dans le même fichier. Enregistrer le fichier (.md ou .txt) dans le dossier
+**Le plus simple (depuis le 06/10/2026)** : dans `00_SOURCES_A_VALIDER.html`, sur la fiche de la source, coller la fiche d'Ether en entier dans la case « Fiche d'Ether » puis cliquer « ✓ Valider avec la fiche d'Ether ». La page sait déjà de quelle source il s'agit (pas besoin du source_id) et lit la décision dans la ligne « Décision : ». Ne pas oublier ensuite le bouton 💾 « Enregistrer mes décisions dans le dossier Atlas ».
+
+Autre possibilité : une fiche par source dans un fichier. On peut en mettre plusieurs dans le même fichier. Enregistrer le fichier (.md ou .txt) dans le dossier
 **Atlas du Bureau → `05_fiches_sources/`**. Claude le lit au réveil suivant et reporte la décision au registre.
 Garder les mots avant les deux-points exactement comme ci-dessous.
 
