@@ -18,3 +18,5 @@ Scripts rejouables : `outils/villes/construire_villes_1_9.py` (fusion des source
 - 32 opérations d'Ether sur 29 villes, toutes additives (aucune source remplacée) ; phrases d'Ether ajoutées aux notes seulement pour les sources confirmées ; notes de Horta et Senglea corrigées (texte ciblé), localisateur de Horta corrigé.
 - « À renforcer » : **70 → 49 villes**. Registre v1.29 (puis v1.30 avec l'audit 1.x).
 - Scripts : `fusion_sources_1_9_cycle2.py` (une seule fois), puis `construire_villes_1_9.py`. Compte rendu : `docs/pour_ether/2026-10-06_villes_1-9_cycle2_et_audit_1x.md`.
+
+- **Cycle 3 (06/10/2026)** : consacré par Ether aux sources de l'audit transversal 1.x (Q19-03, close) ; rien ne change dans ce fichier (les relations précisées sont dans le lot 1.0 et `villes_1-x_audit_complements.json`). Lot à 3 cycles : réserves R19-01 à 24, R19-C2-01 à 18, R19-C3-01 et 02 gardées pour la revue finale 1.x. Compte rendu : `docs/pour_ether/2026-10-06_villes_1-9_cycle3.md`.

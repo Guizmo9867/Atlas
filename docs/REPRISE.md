@@ -42,10 +42,10 @@ Pas de contact direct entre Claude et Ether : tout passe par le dossier d'échan
 ## 5. État (mis à jour à chaque lot)
 
 - **Frontières** : lots 01 à 04 intégrés (74 territoires, 4 lignes de front).
-- **Villes** : 1.0 à 1.9 intégrés + 15 villes de l'audit transversal, **1 559 villes**. Lots 1.3 à 1.8 : 3 cycles faits, en attente de la revue finale des réserves. 1.9 : 2 cycles (49 villes « à renforcer »).
-- **Dernière intégration (06/10, nuit)** : réponses 1.9 cycle 2 (Q19-01 et Q19-02 closes, restes en réserve) et **audit transversal 1.x d'Ether** : 15 villes ajoutées (France, Grande-Bretagne : `data/snapshot0/villes_1-x_audit_complements.json`), 23 sources ajoutées à 22 villes du lot 1.0, index de 299 dossiers de réserve. Nouvelle question Q19-03 (sources de l'audit illisibles ou partielles).
-- **Ether** : prochaine étape = réponse à Q19-03 si utile, puis **bilan groupé des réserves avec Guizmo** (pas de nouveau lot géographique). Financement : réveil quotidien.
-- **Sources** : registre v1.30, 887 sources ; 305 à valider par Guizmo, dont **161 importantes**. Page « Sources à valider » : sur claude.ai, ou `00_SOURCES_A_VALIDER.html` dans le dossier d'échange.
+- **Villes** : 1.0 à 1.9 intégrés + 15 villes de l'audit transversal, **1 559 villes**. Lots 1.3 à 1.9 : 3 cycles faits, en attente de la revue finale des réserves (1.9 : 49 villes « à renforcer » ; audit : 2).
+- **Dernière intégration (06/10, fin de matinée)** : réponses 1.9 cycle 3 = sources de l'audit (Q19-03 close) : 15 captures lues par Claude ; 8 ports britanniques, Marseille, Toulon, Paris, Liège, Namur, Lyon, Dijon, Limoges, Bastia prouvés ; Namur : pont sur la Meuse hors service au Snapshot. Restent Hendaye (frontalier) et Jeumont (R19-C3-01 et 02).
+- **Ether** : plus de cycle automatique sur les villes ; prochaine étape = **bilan final et index**, phase « villes terminées, attente de Guizmo ». Puis revue des réserves avec Guizmo. Financement : réveil quotidien.
+- **Sources** : registre v1.31, 887 sources ; 300 à valider par Guizmo, dont **161 importantes**. Page « Sources à valider » : sur claude.ai, ou `00_SOURCES_A_VALIDER.html` dans le dossier d'échange.
 - **Couches suivantes prévues** (une par une, chacune avec feu vert) : routes, rail, maritime, douanes, plaques d'immatriculation, anecdotes sur les flux, migrations ; puis janvier 1945.
-- **Réserves pour la revue finale** : 252 points dans `00_RESERVES_A_TRANCHER.md` (+ l'index de 299 dossiers de l'audit d'Ether).
-- **Reste de la série 1.x** : fiche de lecture en français de chaque source (guides d'Ether livrés avec l'audit : 860 notices), revue des réserves avec Guizmo, puis feu vert pour la couche suivante.
+- **Réserves pour la revue finale** : 252 points dans `00_RESERVES_A_TRANCHER.md` (+ l'index de 301 dossiers d'Ether).
+- **Reste de la série 1.x** : bilan final d'Ether, fiche de lecture en français de chaque source (guides d'Ether livrés avec l'audit : 860 notices), revue des réserves avec Guizmo, puis feu vert pour la couche suivante.

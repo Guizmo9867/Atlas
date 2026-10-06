@@ -1,0 +1,158 @@
+{
+ "metadata": {
+  "date": "2026-10-06",
+  "lot": "villes_1-9 cycle 3 (réponse d'Ether à Q19-03, sources de l'audit 1.x)",
+  "methode": "Lecture directe par Claude des 15 captures d'Ether (outil Read), sans sous-agent : sources déjà au registre, relues le 05/10 par WebFetch ; aucune source nouvelle. Jeumont : aucune pièce (rien relu).",
+  "non_relues": [
+   "src-audit1x-fr-jeumont"
+  ]
+ },
+ "resultats": [
+  {
+   "id": "src-audit1x-ruppenthal-i3",
+   "statut": "ok",
+   "fichiers": [
+    "2026-10-06_ether_C3_ruppenthal_i3_p144.jpg",
+    "…_p146.jpg",
+    "…_p147.jpg"
+   ],
+   "citation": "p.144 : « Zone I, designated by the code word SOXO, included […] the Clyde and Mersey River ports (chiefly Glasgow, Liverpool, and Manchester) and also the Humber River ports of Hull and Immingham […]. Zone II, known as GLUE, included […] the ports of the Bristol Channel and Plymouth, Southampton, and London. » p.146 : « The Humber River ports (Hull and Immingham), London, and the southern ports of Southampton and Plymouth, while important in peacetime, […] were not extensively used on American account until the avalanche of supplies began late in 1943. » ; « The Bristol Channel ports--Swansea, Cardiff, Newport, and Avonmouth » ; p.147 : « the Mersey ports--Liverpool, Garston, Manchester, and Birkenhead ».",
+   "villes_prouvees": {
+    "ville-gb-londres": [
+     "port_maritime"
+    ],
+    "ville-gb-liverpool": [
+     "port_maritime"
+    ],
+    "ville-gb-glasgow": [
+     "port_maritime"
+    ],
+    "ville-gb-hull": [
+     "port_maritime"
+    ],
+    "ville-gb-southampton": [
+     "port_maritime"
+    ],
+    "ville-gb-plymouth": [
+     "port_maritime"
+    ],
+    "ville-gb-cardiff": [
+     "port_maritime"
+    ],
+    "ville-gb-manchester": [
+     "port_maritime"
+    ]
+   },
+   "commentaire": "Lecture par Claude des captures d'Ether (pièces locales du dossier d'échange, hors dépôt public), 06/10/2026 ; pages en anglais/français lues telles quelles. Les huit ports sont nommés (zonage de 1943 et réception américaine jusqu'en mai 1944). Tonnages par groupes de ports, pas par ville ; rien sur la capacité au 01/01/1945. Manchester n'a pas le rôle port_maritime dans l'Atlas : aucun rôle ajouté."
+  },
+  {
+   "id": "src-audit1x-ruppenthal-ii4",
+   "statut": "ok",
+   "fichiers": [
+    "…_ii4_p122.jpg",
+    "…_ii4_p123.jpg"
+   ],
+   "citation": "p.122 : « on 15 September Marseille received its first Liberty ship for direct ship-to-shore discharge. […] Toulon had been brought into use on 20 September » ; p.123 : « At the end of October it was decided to turn the port of Toulon back to the French. It had been used almost exclusively for the import of civil affairs supplies. »",
+   "villes_prouvees": {
+    "ville-fr-marseille": [
+     "port_maritime"
+    ],
+    "ville-fr-toulon": [
+     "port_maritime"
+    ]
+   },
+   "commentaire": "Lecture par Claude des captures d'Ether (pièces locales du dossier d'échange, hors dépôt public), 06/10/2026 ; pages en anglais/français lues telles quelles. Marseille et Toulon prouvés (port en service en septembre–octobre 1944). Les totaux de novembre–janvier englobent janvier 1945 : non utilisés pour le Snapshot. Le Havre, Rouen, Anvers déjà confirmés (05/10)."
+  },
+  {
+   "id": "src-audit1x-ruppenthal-ii5",
+   "statut": "ok",
+   "fichiers": [
+    "…_ii5_p148.jpg",
+    "…_p149.jpg",
+    "…_p155.jpg",
+    "…_p156.jpg",
+    "…_p166.jpg"
+   ],
+   "citation": "p.148–149 : « East of Paris three main lines of communications had been opened: one in the north to Liège via Compiègne, Cambrai, Valenciennes, Mons, Charleroi, and Namur » ; « At Liège itself only one bridge was left standing, creating a bottleneck which was not relieved until late in January. » p.155–156 : « one major rail bridge over the Meuse had been destroyed at Namur. During an enemy air raid on 24 December a lucky hit had set off charges […]. The bridge was immediately rebuilt, and was opened to traffic on 5 January. » ; « as far north as Lyon, where the headquarters of the 1st Military Railway Service […] was established on 14 September » ; « By 25 September the line was open as far north as Lyon […]. By the end of the month the line was in operation north to Dijon ». p.166 : « the first coal barges arrived in Paris on the 18th » (novembre 1944).",
+   "villes_prouvees": {
+    "ville-fr-paris": [
+     "rail",
+     "port_fluvial"
+    ],
+    "ville-be-liege": [
+     "rail"
+    ],
+    "ville-be-namur": [
+     "rail"
+    ],
+    "ville-fr-lyon": [
+     "rail"
+    ],
+    "ville-fr-dijon": [
+     "rail"
+    ]
+   },
+   "commentaire": "Lecture par Claude des captures d'Ether (pièces locales du dossier d'échange, hors dépôt public), 06/10/2026 ; pages en anglais/français lues telles quelles. Paris (rail, port fluvial), Liège, Namur, Lyon, Dijon prouvés ; Charleroi et Metz déjà confirmés (05/10). Pont ferroviaire de Namur sur la Meuse détruit le 24/12/1944, rouvert le 05/01/1945 : hors service au Snapshot (un pont, pas toute la ville). Goulet de Liège (un seul pont) jusqu'à fin janvier 1945. Photo du canal Albert (février 1945) non utilisée."
+  },
+  {
+   "id": "src-audit1x-fr-tours",
+   "statut": "ok",
+   "fichiers": [
+    "…_sncf_limoges.jpg",
+    "…_sncf_lyon_perrache.jpg"
+   ],
+   "citation": "« Gare de Limoges […] Envisagée dès 1908, pensée avant la Grande Guerre, elle est édifiée dans les années 1920 et inaugurée en 1929. » ; « Le poste d'aiguillage de Lyon Perrache (ligne PLM) […] achevé en 1934 et modernisé en 1952, le poste 1 a organisé la circulation des trains jusqu'en 2017. »",
+   "villes_prouvees": {
+    "ville-fr-limoges": [
+     "rail"
+    ],
+    "ville-fr-lyon": [
+     "rail"
+    ]
+   },
+   "commentaire": "Lecture par Claude des captures d'Ether (pièces locales du dossier d'échange, hors dépôt public), 06/10/2026 ; pages en anglais/français lues telles quelles. Limoges et Lyon prouvés pour le rôle ferroviaire (gare et poste antérieurs à 1945) ; Tours et Rennes déjà confirmés. Rien sur le service exact au 01/01/1945 ; modernisation de 1952 future."
+  },
+  {
+   "id": "src-audit1x-fr-bastia",
+   "statut": "ok",
+   "fichiers": [
+    "…_bastia_1920_1944.jpg"
+   ],
+   "citation": "Frise « Entre-deux-guerres » : « 1920 — la Chambre de Commerce et d'Industrie obtient la concession officielle du Port » ; « 1943 — Les bombardements détruisent la quasi totalité des installations portuaires » ; « Décembre 1944 — Le port est toujours encombré par des épaves, le “Tibériade” le “Sidi Mabrouk” et le “Mont Agel” ».",
+   "villes_prouvees": {
+    "ville-fr-bastia": [
+     "port_maritime"
+    ]
+   },
+   "commentaire": "Lecture par Claude des captures d'Ether (pièces locales du dossier d'échange, hors dépôt public), 06/10/2026 ; pages en anglais/français lues telles quelles. Les années manquantes à la lecture du 05/10 sont maintenant lues. Port endommagé et encombré au Snapshot, pas fermé selon la source."
+  },
+  {
+   "id": "src-audit1x-fr-dijon",
+   "statut": "limite",
+   "fichiers": [
+    "…_dijon_caue.jpg"
+   ],
+   "citation": "« La gare construite suite à l'inauguration de la ligne Paris-Dijon en 1851 est détruite par les bombardements alliés en 1944. » (Extrait du Guide d'architecture en Bourgogne 1893-2007, éditions 2008)",
+   "villes_prouvees": {
+    "ville-fr-dijon": [
+     "rail"
+    ]
+   },
+   "commentaire": "Lecture par Claude des captures d'Ether (pièces locales du dossier d'échange, hors dépôt public), 06/10/2026 ; pages en anglais/français lues telles quelles. Page toujours illisible pour mon outil (robots) ; preuve lue sur la capture seule : statut « limite » avec confirmation pour Dijon. Gare détruite en 1944 (pas la ville) ; la ligne fonctionne jusqu'à Dijon fin septembre 1944 (Ruppenthal II-5)."
+  },
+  {
+   "id": "src-audit1x-fr-hendaye",
+   "statut": "limite",
+   "fichiers": [
+    "…_hendaye_1864.jpg"
+   ],
+   "citation": "« 157 ans après l'arrivée en gare d'Hendaye du 1er train en provenance de Madrid et à destination de Paris (le 15/8/1864) » ; « Hendaye est certainement une des villes de France qui vit le plus intensément au quotidien, ce qu'une relation entre deux pays signifie. » (discours de 2021)",
+   "villes_prouvees": {
+    "ville-fr-hendaye": [
+     "rail"
+    ]
+   },
+   "commentaire": "Lecture par Claude des captures d'Ether (pièces locales du dossier d'échange, hors dépôt public), 06/10/2026 ; pages en anglais/français lues telles quelles. Rail déjà confirmé ; rôle frontalier non daté pour 1945 (discours de 2021) : reste « À renforcer » (R19-C3-01)."
+  }
+ ]
+}

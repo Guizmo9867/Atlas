@@ -25,7 +25,8 @@
         "« Zeebruges / Bruges » : les deux, séparés (Ether, 30/09). Zeebruges deviendra une entité port quand la couche infrastructures arrivera.",
         "v0.3 (30/09) : sources des rôles ajoutées (delta d'Ether vérifié) pour Versailles, Den Helder, Bruges, Zeebruges, Lorient, La Rochelle, Royan, Saint-Nazaire.",
         "v0.2 (30/09) : 12 villes ajoutées après l'audit d'Ether (Bruges, Lorient, La Rochelle, Royan, Toulon, Versailles, Den Helder, Groningue, Londonderry, Leeds, Sheffield, Aberdeen) ; Reims retirée : elle entre au ratissage de février 1945 (Guizmo). Quand Ether hésite (« C/B »), la première lettre est retenue.",
-        "Audit transversal 1.x d'Ether (05/10/2026) : 23 relations documentaires ajoutées à 22 villes (Ruppenthal, Logistical Support of the Armies I et II ; SNCF/patrimoine ferroviaire ; Hansard 1946 pour Portsmouth), relues par Claude (registre v1.30) ; rien n'est remplacé ni retiré ; phrases d'Ether ajoutées aux notes seulement pour les sources confirmées (outils/villes/appliquer_audit_1x.py)."
+        "Audit transversal 1.x d'Ether (05/10/2026) : 23 relations documentaires ajoutées à 22 villes (Ruppenthal, Logistical Support of the Armies I et II ; SNCF/patrimoine ferroviaire ; Hansard 1946 pour Portsmouth), relues par Claude (registre v1.30) ; rien n'est remplacé ni retiré ; phrases d'Ether ajoutées aux notes seulement pour les sources confirmées (outils/villes/appliquer_audit_1x.py).",
+        "Villes 1.9 cycle 3 d'Ether (06/10/2026) : 19 relations de l'audit 1.x précisées (localisateur et usage d'Ether) après lecture par Claude de 15 captures (Ruppenthal I-3, II-4, II-5 ; SNCF Patrimoine ; port de Bastia ; CAUE Dijon ; Hendaye) ; rôles prouvés retirés de « À renforcer » ; rien d'autre retiré, aucun rôle ajouté (outils/villes/integrer_1_9_cycle3.py)."
       ]
     }
   },
@@ -74,8 +75,8 @@
             },
             {
               "source_id": "src-audit1x-ruppenthal-ii5",
-              "locator": "V §2 p.148–149 ; §4 p.165–166",
-              "usage": "rail, port_fluvial — Paris : voies de ravitaillement ferroviaires et arrivée de barges de charbon le18novembre1944. (lecture partielle)"
+              "locator": "II, V, p.148–149 et p.166",
+              "usage": "rail, port_fluvial — réseau à l’est de Paris fin septembre 1944 ; premières barges de charbon à Paris le 18 novembre 1944."
             }
           ]
         }
@@ -122,8 +123,8 @@
             },
             {
               "source_id": "src-audit1x-ruppenthal-ii4",
-              "locator": "IV §3 p.121–123, remise en service et15septembre1944",
-              "usage": "port_maritime — Marseille reçoit un Liberty à quai le15septembre1944 après réhabilitation du port. (lecture partielle)"
+              "locator": "II, IV, §3, p.122–123",
+              "usage": "port_maritime — Marseille : déchargement direct à quai le 15 septembre 1944."
             }
           ]
         }
@@ -171,13 +172,13 @@
             },
             {
               "source_id": "src-audit1x-fr-tours",
-              "locator": "Le poste d’aiguillage de Lyon Perrache, achevé1934",
-              "usage": "preuve locale du rôle rail historique (lecture partielle)"
+              "locator": "Le poste d’aiguillage de Lyon Perrache (ligne PLM)",
+              "usage": "rail — poste d’aiguillage achevé en 1934 ; modernisation de 1952 exclue du Snapshot."
             },
             {
               "source_id": "src-audit1x-ruppenthal-ii5",
-              "locator": "V §2 p.156",
-              "usage": "rail — L’axe ferroviaire depuis Marseille atteint Lyon en septembre1944. (lecture partielle)"
+              "locator": "II, V, p.156",
+              "usage": "rail — quartier général à Lyon le 14 septembre 1944 ; ligne ouverte jusqu’à Lyon le 25 septembre."
             }
           ]
         }
@@ -977,8 +978,8 @@
             },
             {
               "source_id": "src-audit1x-ruppenthal-ii5",
-              "locator": "V §2 p.148–149",
-              "usage": "rail — Liège est une tête de ligne de ravitaillement en1944. (lecture partielle)"
+              "locator": "II, V, p.148–149",
+              "usage": "rail — ligne vers Liège fin septembre 1944 ; passage ferroviaire limité à un pont, goulet non résolu au Snapshot."
             }
           ]
         }
@@ -1204,7 +1205,7 @@
               "rail",
               "port_fluvial"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.0) : confluence Sambre-Meuse, rail. Rôles à sourcer."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.0) : confluence Sambre-Meuse, rail. Rôles à sourcer. Pont ferroviaire sur la Meuse à Namur détruit le 24/12/1944, rouvert le 05/01/1945 : hors service au Snapshot (un pont, pas tout le trafic de la ville ; Ruppenthal II-5, p.155–156)."
           },
           "geometrie": {
             "type": "Point",
@@ -1221,8 +1222,8 @@
             },
             {
               "source_id": "src-audit1x-ruppenthal-ii5",
-              "locator": "V §2 p.148–149",
-              "usage": "rail — Namur est nommée sur la liaison ferroviaire vers Liège en1944. (lecture partielle)"
+              "locator": "II, V, p.148–149 et p.155",
+              "usage": "rail — ligne via Namur fin septembre 1944 ; pont ferroviaire sur la Meuse détruit le 24 décembre 1944, non rétabli au Snapshot."
             }
           ]
         }
@@ -1814,8 +1815,8 @@
             },
             {
               "source_id": "src-audit1x-ruppenthal-i3",
-              "locator": "III p.145–147, paragraphes des ports britanniques",
-              "usage": "port_maritime — Port nommé dans les réceptions de troupes ou de fret américaines avantjuin1944. (lecture partielle)"
+              "locator": "I, chapitre III, §3 organisation des zones p.144–145 ; §4 Troop and Cargo Reception p.146–147 (pagination imprimée reproduite dans le HTML).",
+              "usage": "port_maritime — Londres nommée dans l’organisation et/ou les réceptions des ports britanniques en 1943–mai 1944 ; ne pas attribuer les totaux du groupe à la ville."
             }
           ]
         }
@@ -1863,8 +1864,8 @@
             },
             {
               "source_id": "src-audit1x-ruppenthal-i3",
-              "locator": "III p.145–147, paragraphes des ports britanniques",
-              "usage": "port_maritime — Port nommé dans les réceptions de troupes ou de fret américaines avantjuin1944. (lecture partielle)"
+              "locator": "I, chapitre III, §3 organisation des zones p.144–145 ; §4 Troop and Cargo Reception p.146–147 (pagination imprimée reproduite dans le HTML).",
+              "usage": "port_maritime — Liverpool nommée dans l’organisation et/ou les réceptions des ports britanniques en 1943–mai 1944 ; ne pas attribuer les totaux du groupe à la ville."
             }
           ]
         }
@@ -1911,8 +1912,8 @@
             },
             {
               "source_id": "src-audit1x-ruppenthal-i3",
-              "locator": "III p.145–147, paragraphes des ports britanniques",
-              "usage": "port_maritime — Port nommé dans les réceptions de troupes ou de fret américaines avantjuin1944. (lecture partielle)"
+              "locator": "I, chapitre III, §3 organisation des zones p.144–145 ; §4 Troop and Cargo Reception p.146–147 (pagination imprimée reproduite dans le HTML).",
+              "usage": "port_maritime — Manchester nommée dans l’organisation et/ou les réceptions des ports britanniques en 1943–mai 1944 ; ne pas attribuer les totaux du groupe à la ville."
             }
           ]
         }
@@ -2003,8 +2004,8 @@
             },
             {
               "source_id": "src-audit1x-ruppenthal-i3",
-              "locator": "III p.145–147, paragraphes des ports britanniques",
-              "usage": "port_maritime — Port nommé dans les réceptions de troupes ou de fret américaines avantjuin1944. (lecture partielle)"
+              "locator": "I, chapitre III, §3 organisation des zones p.144–145 ; §4 Troop and Cargo Reception p.146–147 (pagination imprimée reproduite dans le HTML).",
+              "usage": "port_maritime — Glasgow nommée dans l’organisation et/ou les réceptions des ports britanniques en 1943–mai 1944 ; ne pas attribuer les totaux du groupe à la ville."
             }
           ]
         }
@@ -2150,8 +2151,8 @@
             },
             {
               "source_id": "src-audit1x-ruppenthal-i3",
-              "locator": "III p.145–147, paragraphes des ports britanniques",
-              "usage": "port_maritime — Port nommé dans les réceptions de troupes ou de fret américaines avantjuin1944. (lecture partielle)"
+              "locator": "I, chapitre III, §3 organisation des zones p.144–145 ; §4 Troop and Cargo Reception p.146–147 (pagination imprimée reproduite dans le HTML).",
+              "usage": "port_maritime — Hull nommée dans l’organisation et/ou les réceptions des ports britanniques en 1943–mai 1944 ; ne pas attribuer les totaux du groupe à la ville."
             }
           ]
         }
@@ -2198,8 +2199,8 @@
             },
             {
               "source_id": "src-audit1x-ruppenthal-i3",
-              "locator": "III p.145–147, paragraphes des ports britanniques",
-              "usage": "port_maritime — Port nommé dans les réceptions de troupes ou de fret américaines avantjuin1944. (lecture partielle)"
+              "locator": "I, chapitre III, §3 organisation des zones p.144–145 ; §4 Troop and Cargo Reception p.146–147 (pagination imprimée reproduite dans le HTML).",
+              "usage": "port_maritime — Southampton nommée dans l’organisation et/ou les réceptions des ports britanniques en 1943–mai 1944 ; ne pas attribuer les totaux du groupe à la ville."
             }
           ]
         }
@@ -2385,8 +2386,8 @@
             },
             {
               "source_id": "src-audit1x-ruppenthal-i3",
-              "locator": "III p.145–147, paragraphes des ports britanniques",
-              "usage": "port_maritime — Port nommé dans les réceptions de troupes ou de fret américaines avantjuin1944. (lecture partielle)"
+              "locator": "I, chapitre III, §3 organisation des zones p.144–145 ; §4 Troop and Cargo Reception p.146–147 (pagination imprimée reproduite dans le HTML).",
+              "usage": "port_maritime — Cardiff nommée dans l’organisation et/ou les réceptions des ports britanniques en 1943–mai 1944 ; ne pas attribuer les totaux du groupe à la ville."
             }
           ]
         }
@@ -2477,8 +2478,8 @@
             },
             {
               "source_id": "src-audit1x-ruppenthal-i3",
-              "locator": "III p.145–147, paragraphes des ports britanniques",
-              "usage": "port_maritime — Port nommé dans les réceptions de troupes ou de fret américaines avantjuin1944. (lecture partielle)"
+              "locator": "I, chapitre III, §3 organisation des zones p.144–145 ; §4 Troop and Cargo Reception p.146–147 (pagination imprimée reproduite dans le HTML).",
+              "usage": "port_maritime — Plymouth nommée dans l’organisation et/ou les réceptions des ports britanniques en 1943–mai 1944 ; ne pas attribuer les totaux du groupe à la ville."
             }
           ]
         }
@@ -3129,8 +3130,8 @@
             },
             {
               "source_id": "src-audit1x-ruppenthal-ii4",
-              "locator": "IV §3 p.119–122",
-              "usage": "port_maritime — Toulon est un objectif portuaire en août1944 ; ses dommages conduisent à privilégier la restauration de Marseille. (lecture partielle)"
+              "locator": "II, IV, §3, p.122–123",
+              "usage": "port_maritime — Toulon : utilisé à partir du 20 septembre 1944 ; restitution décidée fin octobre, puis emploi surtout civil."
             }
           ]
         }

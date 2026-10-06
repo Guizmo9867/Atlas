@@ -1,6 +1,6 @@
 # Atlas — réserves et points à trancher (série villes 1.x)
 
-*Généré automatiquement le 06/10/2026 à 04 h 16 par Claude, à partir des fichiers de réserves d'Ether et des comptes rendus de Claude. Régénéré à chaque lot.*
+*Généré automatiquement le 06/10/2026 à 11 h 17 par Claude, à partir des fichiers de réserves d'Ether et des comptes rendus de Claude. Régénéré à chaque lot.*
 
 ## Comment s'en servir
 
@@ -2170,11 +2170,11 @@ Preuves et limites : Gare, localité et centre ancien à rapprocher avant sélec
 - **Choix possibles** : Garder la réserve ; Guizmo peut valider sur la page « Sources à valider » ; ou une autre source à la revue finale.
 - **Décision de Guizmo** : …
 
-### Q19-03 — Audit transversal 1.x : sources illisibles ou partielles *(question de Claude)*
+### Q19-03 — Audit transversal 1.x : sources illisibles ou partielles (close au cycle 3, restes en réserve) *(question de Claude)*
 
-- **Ce qu'on sait** : 18 sources de l'audit relues : 7 confirmées. Illisibles pour l'outil : Jeumont (PDF derrière une page anti-robots), Dijon (robots). Partielles : Hendaye (rôle frontalier non dit), Tours/Limoges (Limoges non nommée), Ruppenthal II-4 (Marseille, Toulon absents de la page), II-5 (Paris, Liège, Namur, Lyon, Dijon non retrouvés), I-3 (aucun des 8 ports britanniques nommé), Cherbourg (base navale non dite), Bastia (années non restituées).
-- **Ce que ça change sur la carte** : Jeumont (rail, industrie), Dijon (rail), Limoges (rail) et Hendaye (frontalier) restent « À renforcer » ; les relations ajoutées aux villes du lot 1.0 portent la mention « (lecture partielle) ».
-- **Choix possibles** : Ether peut déposer des captures des passages (cycle suivant) ; ou Guizmo valide sur la page « Sources à valider » ; ou garder la réserve.
+- **Ce qu'on sait** : Cycle 3 (06/10) : 15 captures d'Ether lues par Claude : les 8 ports britanniques (Ruppenthal I-3), Marseille et Toulon (II-4), Paris (rail, port fluvial), Liège, Namur, Lyon, Dijon (II-5), Limoges et Lyon-Perrache (SNCF), Bastia (1920, 1943, décembre 1944) et la gare de Dijon (CAUE) sont prouvés. Pont ferroviaire de Namur hors service au Snapshot (détruit le 24/12/1944). Restent : Hendaye frontalier (R19-C3-01) et Jeumont, pièce non obtenue (R19-C3-02). Avant (05/10) : 18 sources de l'audit relues : 7 confirmées. Illisibles pour l'outil : Jeumont (PDF derrière une page anti-robots), Dijon (robots). Partielles : Hendaye (rôle frontalier non dit), Tours/Limoges (Limoges non nommée), Ruppenthal II-4 (Marseille, Toulon absents de la page), II-5 (Paris, Liège, Namur, Lyon, Dijon non retrouvés), I-3 (aucun des 8 ports britanniques nommé), Cherbourg (base navale non dite), Bastia (années non restituées).
+- **Ce que ça change sur la carte** : Jeumont (rail, industrie) et Hendaye (frontalier) restent « À renforcer ». Lot à 3 cycles : plus de cycle automatique.
+- **Choix possibles** : Garder la réserve ; Guizmo peut valider sur la page « Sources à valider » ; ou une autre source à la revue finale.
 - **Décision de Guizmo** : …
 
 ## Villes marquées « À renforcer » (rappel)
@@ -2193,6 +2193,6 @@ Ce ne sont pas des décisions à prendre : ce sont des rôles (port, rail, indus
 | 1.7 | 71 | 166 |
 | 1.8 | 20 | 361 |
 | 1.9 | 49 | 238 |
-| 1.x (audit) | 4 | 15 |
+| 1.x (audit) | 2 | 15 |
 
 **Total : 252 points à trancher.**

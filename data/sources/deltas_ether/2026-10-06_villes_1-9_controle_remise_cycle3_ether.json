@@ -1,0 +1,154 @@
+{
+  "date": "2026-10-06T12:16:27.925259+02:00",
+  "statut": "controle_prepublication_reussi",
+  "question": "Q19-03",
+  "compteurs": {
+    "sources_completer": 8,
+    "sources_nouvelles": 0,
+    "relations": 19,
+    "villes_concernees": 17,
+    "captures": 15,
+    "textes": 3,
+    "reserves_nouvelles": 2,
+    "dossiers_index": 301
+  },
+  "controles": [
+    "JSON relus, champs minimaux présents, IDs source/cible existants",
+    "19 relations distinctes déjà présentes dans le canon ; pas de duplication à l’import",
+    "15 JPEG décodés, dimensions et SHA256 enregistrés ; lecture visuelle effectuée pendant la collecte",
+    "Dates futures exclues ; pont de Namur limité au bon objet",
+    "Aucune propriété historique générale modifiée, aucune validation de Claude/Guizmo écrasée"
+  ],
+  "limites": [
+    "Le validateur canonique n’a pas été exécuté par Ether",
+    "Remise non encore publiée : STATUT/PRET seront écrits après ce contrôle",
+    "Les copies de sources et captures ne prouvent aucune intégration distante"
+  ],
+  "fichiers": [
+    {
+      "fichier": "2026-10-06_ether_sources_reponses_cycle3_delta.json",
+      "sha256": "4452cfebdbaf8746b05da16826b8fc508308df95d117ae8c7ee2471731394cf6",
+      "octets": 16269
+    },
+    {
+      "fichier": "2026-10-06_ether_corrections_cycle3.json",
+      "sha256": "62139f4c3042b7345bc5a38f38cdc62348925cfb090eb735f17d7fb72590100a",
+      "octets": 22126
+    },
+    {
+      "fichier": "2026-10-06_ether_index_preuves_cycle3.json",
+      "sha256": "9cf75ea6523e1df608bd17ca1922352f44dac92b102711760a541c0aa6e357b6",
+      "octets": 10866
+    },
+    {
+      "fichier": "2026-10-06_ether_reserves_complement_cycle3.json",
+      "sha256": "42e5a53d9e3502a4451df9f6e1350c7a916c76e0c8670e72a690f3e7427adcba",
+      "octets": 2514
+    },
+    {
+      "fichier": "2026-10-06_ether_index_reserves_avant_dernier_retour.json",
+      "sha256": "19e7a606ece90dbace92234e16a9278250fef4cf80bf457e86ad307c11d5b4e4",
+      "octets": 400727
+    },
+    {
+      "fichier": "2026-10-06_ether_reponses_cycle3.md",
+      "sha256": "b2f2ce93c3ccdc539ad565611d57f60a70fa46f45af0fa880f6d2983bedd0764",
+      "octets": 11252
+    },
+    {
+      "fichier": "2026-10-06_ether_C3_ruppenthal_i3_p144.jpg",
+      "sha256": "1e8d8046a5afb850687ff08058c4f0b5d9fa54cce2f535742bdea6265048a77c",
+      "octets": 340013
+    },
+    {
+      "fichier": "2026-10-06_ether_C3_ruppenthal_i3_p146.jpg",
+      "sha256": "cc38c393646db0c374961a8b77ba0d8e49adf7c649e9b6fb9f50cc7bfd3da1b9",
+      "octets": 304807
+    },
+    {
+      "fichier": "2026-10-06_ether_C3_ruppenthal_i3_p147.jpg",
+      "sha256": "40188babe49054e6bb2895f562b1d5cd82226dc1f83a2ca70655e6f159dfd844",
+      "octets": 319359
+    },
+    {
+      "fichier": "2026-10-06_ether_C3_ruppenthal_i3_texte.txt",
+      "sha256": "5ce7afcc6f6ef0eb195c540dca6347885b646134d37c67978578192a9f363891",
+      "octets": 179112
+    },
+    {
+      "fichier": "2026-10-06_ether_C3_ruppenthal_ii4_p122.jpg",
+      "sha256": "aa25ba4949c887e99c39ba344657d001dd09ad22004c63d4a37127653423e417",
+      "octets": 330545
+    },
+    {
+      "fichier": "2026-10-06_ether_C3_ruppenthal_ii4_p123.jpg",
+      "sha256": "4843527cf42df9727276583a342de4049a6141702c026362dff3ff286d4c095d",
+      "octets": 290322
+    },
+    {
+      "fichier": "2026-10-06_ether_C3_ruppenthal_ii4_texte.txt",
+      "sha256": "44df25f9f12053b8160c6a02b56f86b348a0b00d1b045fe7330aec098c1bbc28",
+      "octets": 109746
+    },
+    {
+      "fichier": "2026-10-06_ether_C3_ruppenthal_ii5_p148.jpg",
+      "sha256": "07b330f8e6f5cdbfe5a2448e1a7419e9cc01b08cdda755dc48d2e69b409a8612",
+      "octets": 320957
+    },
+    {
+      "fichier": "2026-10-06_ether_C3_ruppenthal_ii5_p149.jpg",
+      "sha256": "c9efa56f660621d9678a2da1677216a521e1b933f692979ae0079feccf5d1b54",
+      "octets": 335468
+    },
+    {
+      "fichier": "2026-10-06_ether_C3_ruppenthal_ii5_p155.jpg",
+      "sha256": "f85c4811e951706cc85f1f66aae1dea028717a7e67008e99310272675d8bafd7",
+      "octets": 324899
+    },
+    {
+      "fichier": "2026-10-06_ether_C3_ruppenthal_ii5_p156.jpg",
+      "sha256": "ccb80ae74f3dbded6129a0fb58deab098d56449230b4a078126b1c279f127cf1",
+      "octets": 298703
+    },
+    {
+      "fichier": "2026-10-06_ether_C3_ruppenthal_ii5_p166.jpg",
+      "sha256": "a4cb275c9db05aff567e24364b316f0f674e34ffa06ee528c936e9664df6b1c3",
+      "octets": 312689
+    },
+    {
+      "fichier": "2026-10-06_ether_C3_ruppenthal_ii5_texte.txt",
+      "sha256": "2bcd13e24ceeaf05e5f4b0ac73ae3c07709aa974f458deb49344f08bc3cdcdd6",
+      "octets": 92210
+    },
+    {
+      "fichier": "2026-10-06_ether_C3_sncf_limoges.jpg",
+      "sha256": "725e7a019e1bc2825fe6eadf01c7bb438c7a3434cc756f5139fee475bd28b2ca",
+      "octets": 103297
+    },
+    {
+      "fichier": "2026-10-06_ether_C3_sncf_lyon_perrache.jpg",
+      "sha256": "3dada42ff28fafbc879e46b305d89245aa23ae20dd79fe199e1fe4d5dcb84bfa",
+      "octets": 107541
+    },
+    {
+      "fichier": "2026-10-06_ether_C3_bastia_1920_1944.jpg",
+      "sha256": "96316798e2b0ea10a3782a26e703cfab56c5e03d7a3230db1054fa7d412db7e8",
+      "octets": 61822
+    },
+    {
+      "fichier": "2026-10-06_ether_C3_dijon_caue.jpg",
+      "sha256": "0e308b2f21c8272d7c97d16d0b3ce6502917780525745448297a6bc01c6feb2d",
+      "octets": 139361
+    },
+    {
+      "fichier": "2026-10-06_ether_C3_hendaye_1864.jpg",
+      "sha256": "796c30cdab208ef0dbd22b455e1db2859fc18c650d55d7e523396449ffadabcf",
+      "octets": 168486
+    }
+  ],
+  "canon": {
+    "villes": 1559,
+    "sources": 887
+  },
+  "retour_attendu": "Cycle3, puis clôture sans quatrième cycle"
+}

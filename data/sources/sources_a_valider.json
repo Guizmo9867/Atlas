@@ -1,5 +1,5 @@
 {
- "version_registre": "1.30",
+ "version_registre": "1.31",
  "sources": [
   {
    "id": "src-12a-chemnitz-industrie",
@@ -644,7 +644,7 @@
    "url": "https://inventaire.hautsdefrance.fr/dossier/pdf/b944ab33-b2bb-4e71-8025-c755a10609ca/presentation-de-la-commune-de-jeumont.pdf",
    "ou_regarder": "p.1, Historique",
    "extrait": "",
-   "notes": "Proposée par Ether (audit transversal 1.x, 05/10/2026). Rôle urbain historique ; service, accès et capacités au Snapshot non déduits. Repère actuel à contrôler séparément. Le HTML affichait un contrôle de connexion ; le PDF public a été lu. Ne pas transférer des activités d’autres communes. La reconstruction de la gare après la Première Guerre mondiale et les logements des ingénieurs FACEJ en1932 sont nommés ; les logements de cheminots de1919–1925 sont à Marpent, pas à Jeumont. La verrerie déplacée à Boussois ne prouve pas une activité jeumontoise en1945. Relecture Claude 05/10/2026 : PDF derrière une page anti-robots (JavaScript requis) ; non contourné.",
+   "notes": "Proposée par Ether (audit transversal 1.x, 05/10/2026). Rôle urbain historique ; service, accès et capacités au Snapshot non déduits. Repère actuel à contrôler séparément. Le HTML affichait un contrôle de connexion ; le PDF public a été lu. Ne pas transférer des activités d’autres communes. La reconstruction de la gare après la Première Guerre mondiale et les logements des ingénieurs FACEJ en1932 sont nommés ; les logements de cheminots de1919–1925 sont à Marpent, pas à Jeumont. La verrerie déplacée à Boussois ne prouve pas une activité jeumontoise en1945. Relecture Claude 05/10/2026 : PDF derrière une page anti-robots (JavaScript requis) ; non contourné. Complément d'Ether (Villes 1.9 cycle 3 d'Ether (06/10/2026)) : localisateur « PDF annoncé de 17 pages, p.1, Historique ; dossier IA59001366. Texte du cache Web lu, original PDF local non obtenu. ». Aucune pièce lisible remise : statut inchangé.",
    "domaine": "villes",
    "villes": [
     "Jeumont"
@@ -4886,25 +4886,6 @@
    "impact": []
   },
   {
-   "id": "src-audit1x-fr-dijon",
-   "groupe": "a_lire",
-   "statut_claude": "non_verifiee",
-   "niveau": "B",
-   "titre": "La gare — Dijon",
-   "institution": "Observatoire des CAUE, extrait du Guide d’architecture en Bourgogne1893–2007",
-   "url": "https://www.caue-observatoire.fr/ouvrage/gare-dijon-observatoire-des-caue/",
-   "ou_regarder": "Description architecturale, premier paragraphe1851/1944",
-   "extrait": "",
-   "notes": "Proposée par Ether (audit transversal 1.x, 05/10/2026). Rôle urbain historique documenté ; aucune capacité, desserte exacte ni continuité du trafic au 1er janvier1945 déduite. Les bâtiments de1947–1962 restent futurs. Destruction de la gare, pas de toute la ville. Relecture Claude 05/10/2026 : Page refusée à l'outil (robots) ; non contournée.",
-   "domaine": "villes",
-   "villes": [
-    "Dijon"
-   ],
-   "remplacee_par": [],
-   "priorite": "facultative",
-   "impact": []
-  },
-  {
    "id": "src-boden-jarnvagsknut-fortress",
    "groupe": "a_lire",
    "statut_claude": "non_verifiee",
@@ -7585,19 +7566,19 @@
    "impact": []
   },
   {
-   "id": "src-audit1x-fr-bastia",
+   "id": "src-audit1x-fr-dijon",
    "groupe": "partielle",
    "statut_claude": "limite",
    "niveau": "B",
-   "titre": "Histoire du port de Bastia",
-   "institution": "CCI de Corse, Port de Bastia",
-   "url": "https://bastia-port.cci.corsica/histoire/",
-   "ou_regarder": "Entre-deux-guerres,1943 et Décembre1944",
-   "extrait": "Les bombardements détruisent la quasi totalité des installations portuaires / Le port est toujours encombré par des épaves, le \"Tibériade\" le \"Sidi Mabrouk\" et le \"Mont Agel\"",
-   "notes": "Proposée par Ether (audit transversal 1.x, 05/10/2026). Port urbain historique endommagé et encombré au Snapshot ; aucune fermeture totale déduite du seul encombrement. Le terminal de car-ferries de1975 reste futur. Relecture Claude 05/10/2026 : Faits présents ; les années (1920, 1943, décembre 1944) non restituées par l'outil.",
+   "titre": "La gare — Dijon",
+   "institution": "Observatoire des CAUE, extrait du Guide d’architecture en Bourgogne1893–2007",
+   "url": "https://www.caue-observatoire.fr/ouvrage/gare-dijon-observatoire-des-caue/",
+   "ou_regarder": "Description architecturale : premier paragraphe, inauguration Paris–Dijon en 1851 et destruction de la gare en 1944.",
+   "extrait": "",
+   "notes": "Proposée par Ether (audit transversal 1.x, 05/10/2026). Rôle urbain historique documenté ; aucune capacité, desserte exacte ni continuité du trafic au 1er janvier1945 déduite. Les bâtiments de1947–1962 restent futurs. Destruction de la gare, pas de toute la ville. Relecture Claude 05/10/2026 : Page refusée à l'outil (robots) ; non contournée. Complément d'Ether (Villes 1.9 cycle 3 d'Ether (06/10/2026)) : localisateur « Description architecturale : premier paragraphe, inauguration Paris–Dijon en 1851 et destruction de la gare en 1944. ». Relecture Claude 06/10/2026 (captures d'Ether, hors dépôt) : Lecture par Claude des captures d'Ether (pièces locales du dossier d'échange, hors dépôt public), 06/10/2026 ; pages en anglais/français lues telles quelles. Page toujours illisible pour mon outil (robots) ; preuve lue sur la capture seule : statut « limite » avec confirmation pour Dijon. Gare détruite en 1944 (pas la ville) ; la ligne fonctionne jusqu'à Dijon fin septembre 1944 (Ruppenthal II-5). (statut : non_verifiee -> limite).",
    "domaine": "villes",
    "villes": [
-    "Bastia"
+    "Dijon"
    ],
    "remplacee_par": [],
    "priorite": "facultative",
@@ -7611,34 +7592,12 @@
    "titre": "Le Connecting Europe Express fait escale à Hendaye, 4 septembre2021",
    "institution": "Ville de Hendaye",
    "url": "https://www.hendaye.fr/fr/le-connecting-europe-express-fait-escale-a-hendaye/",
-   "ou_regarder": "Discours du maire, premier paragraphe daté15août1864",
+   "ou_regarder": "Discours du maire de septembre 2021 : premier paragraphe historique, arrivée du train Madrid–Paris le 15 août 1864.",
    "extrait": "157 ans après l'arrivée en gare d'Hendaye du 1er train en provenance de Madrid et à destination de Paris (le 15/8/1864)",
-   "notes": "Proposée par Ether (audit transversal 1.x, 05/10/2026). Rôle urbain historique ; service, accès et capacités au Snapshot non déduits. Repère actuel à contrôler séparément. Relecture Claude 05/10/2026 : Rail prouvé ; le rôle frontalier n'est pas dit en toutes lettres.",
+   "notes": "Proposée par Ether (audit transversal 1.x, 05/10/2026). Rôle urbain historique ; service, accès et capacités au Snapshot non déduits. Repère actuel à contrôler séparément. Relecture Claude 05/10/2026 : Rail prouvé ; le rôle frontalier n'est pas dit en toutes lettres. Complément d'Ether (Villes 1.9 cycle 3 d'Ether (06/10/2026)) : localisateur « Discours du maire de septembre 2021 : premier paragraphe historique, arrivée du train Madrid–Paris le 15 août 1864. ». Relecture Claude 06/10/2026 (captures d'Ether, hors dépôt) : Lecture par Claude des captures d'Ether (pièces locales du dossier d'échange, hors dépôt public), 06/10/2026 ; pages en anglais/français lues telles quelles. Rail déjà confirmé ; rôle frontalier non daté pour 1945 (discours de 2021) : reste « À renforcer » (R19-C3-01). (statut : limite -> limite).",
    "domaine": "villes",
    "villes": [
     "Hendaye"
-   ],
-   "remplacee_par": [],
-   "priorite": "facultative",
-   "impact": []
-  },
-  {
-   "id": "src-audit1x-fr-tours",
-   "groupe": "partielle",
-   "statut_claude": "limite",
-   "niveau": "B",
-   "titre": "Gares et réseau ferré — Tours, Rennes, Limoges et Lyon Perrache",
-   "institution": "SNCF Patrimoine",
-   "url": "https://patrimoine.sncf.com/gares-et-reseau-ferre/",
-   "ou_regarder": "Sections Gare de Tours ; Poste d’aiguillage de Rennes ; Gare de Limoges ; Le poste d’aiguillage de Lyon Perrache",
-   "extrait": "la construction, de 1896 à 1898, de la gare monumentale / Le poste central de Rennes date de 1941",
-   "notes": "Proposée par Ether (audit transversal 1.x, 05/10/2026). Rôle urbain historique documenté ; aucune capacité, desserte exacte ni continuité du trafic au 1er janvier1945 déduite. Ne pas déplacer le triage de Saint-Pierre-des-Corps à Tours. PDF SNCF sans texte et capture en erreur : preuve retenue sur la page HTML lue. Relecture Claude 05/10/2026 : Tours et Rennes prouvés ; Limoges (sujet de la phrase non nommé dans l'extrait) et Lyon-Perrache (non nommé) non confirmés.",
-   "domaine": "villes",
-   "villes": [
-    "Tours",
-    "Rennes",
-    "Limoges",
-    "Lyon"
    ],
    "remplacee_par": [],
    "priorite": "facultative",
@@ -7683,32 +7642,6 @@
    "impact": []
   },
   {
-   "id": "src-audit1x-ruppenthal-i3",
-   "groupe": "partielle",
-   "statut_claude": "faible",
-   "niveau": "B",
-   "titre": "Ruppenthal, Logistical Support of the Armies, I, chapitre III",
-   "institution": "U.S. Army, Office/Center of Military History ; transcription HyperWar, ibiblio",
-   "url": "https://www.ibiblio.org/hyperwar/USA/USA-E-Logistics1/USA-E-Logistics1-3.html",
-   "ou_regarder": "III, organisation des zones, p.145–147, ports britanniques avantmai1944",
-   "extrait": "",
-   "notes": "Proposée par Ether (audit transversal 1.x, 05/10/2026). Histoire institutionnelle rétrospective lue dans la transcription HTML ; les archives originales citées ne sont pas toutes collationnées. Ne pas anticiper les passages de janvier–mai1945 ni étendre une preuve de rôle aux capacités du Snapshot. Relecture Claude 05/10/2026 : Aucun des huit ports n'est nommé dans la page relue par l'outil.",
-   "domaine": "villes",
-   "villes": [
-    "Londres",
-    "Liverpool",
-    "Glasgow",
-    "Hull",
-    "Southampton",
-    "Plymouth",
-    "Cardiff",
-    "Manchester"
-   ],
-   "remplacee_par": [],
-   "priorite": "facultative",
-   "impact": []
-  },
-  {
    "id": "src-audit1x-ruppenthal-ii3",
    "groupe": "partielle",
    "statut_claude": "limite",
@@ -7723,54 +7656,6 @@
    "villes": [
     "Cherbourg",
     "Brest"
-   ],
-   "remplacee_par": [],
-   "priorite": "facultative",
-   "impact": []
-  },
-  {
-   "id": "src-audit1x-ruppenthal-ii4",
-   "groupe": "partielle",
-   "statut_claude": "limite",
-   "niveau": "B",
-   "titre": "Ruppenthal, Logistical Support of the Armies, II, chapitre IV",
-   "institution": "U.S. Army, Office/Center of Military History ; transcription HyperWar, ibiblio",
-   "url": "https://www.ibiblio.org/hyperwar/USA/USA-E-Logistics2/USA-E-Logistics2-4.html",
-   "ou_regarder": "IV §1 p.96–103 ; §2 ouverture28novembre ; §3 p.119–123",
-   "extrait": "The long-awaited opening of the port finally took place on 28 November, when the James B. Weaver, a Liberty ship...was berthed.",
-   "notes": "Proposée par Ether (audit transversal 1.x, 05/10/2026). Histoire institutionnelle rétrospective lue dans la transcription HTML ; les archives originales citées ne sont pas toutes collationnées. Ne pas anticiper les passages de janvier–mai1945 ni étendre une preuve de rôle aux capacités du Snapshot. Relecture Claude 05/10/2026 : Le Havre, Rouen, Anvers prouvés ; Marseille et Toulon absents de cette page.",
-   "domaine": "villes",
-   "villes": [
-    "Le Havre",
-    "Rouen",
-    "Anvers",
-    "Marseille",
-    "Toulon"
-   ],
-   "remplacee_par": [],
-   "priorite": "facultative",
-   "impact": []
-  },
-  {
-   "id": "src-audit1x-ruppenthal-ii5",
-   "groupe": "partielle",
-   "statut_claude": "limite",
-   "niveau": "B",
-   "titre": "Ruppenthal, Logistical Support of the Armies, II, chapitre V",
-   "institution": "U.S. Army, Office/Center of Military History ; transcription HyperWar, ibiblio",
-   "url": "https://www.ibiblio.org/hyperwar/USA/USA-E-Logistics2/USA-E-Logistics2-5.html",
-   "ou_regarder": "V §2 p.148–149 et156 ; §4 p.165–166",
-   "extrait": "one via Soissons, Laon, and Hirson to Charleroi, where it tied in with the northern line; and a third extending directly east of Paris via Sezanne and Sommesous to the Nancy-Metz-Verdun triangle.",
-   "notes": "Proposée par Ether (audit transversal 1.x, 05/10/2026). Histoire institutionnelle rétrospective lue dans la transcription HTML ; les archives originales citées ne sont pas toutes collationnées. Ne pas anticiper les passages de janvier–mai1945 ni étendre une preuve de rôle aux capacités du Snapshot. Relecture Claude 05/10/2026 : Seuls Charleroi et Metz nommés ; Paris (barges du 18/11/1944), Liège, Namur, Lyon, Dijon non retrouvés par l'outil.",
-   "domaine": "villes",
-   "villes": [
-    "Paris",
-    "Metz",
-    "Liège",
-    "Charleroi",
-    "Namur",
-    "Lyon",
-    "Dijon"
    ],
    "remplacee_par": [],
    "priorite": "facultative",

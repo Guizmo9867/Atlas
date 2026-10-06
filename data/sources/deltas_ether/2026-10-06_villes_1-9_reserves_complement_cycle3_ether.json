@@ -1,0 +1,34 @@
+{
+  "date": "2026-10-06T12:16:27.925259+02:00",
+  "lot": "villes_1-9",
+  "cycle": 3,
+  "principe": "Deux dossiers documentaires supplémentaires, sans validation historique implicite. Les limites de service/capacité des autres passages demeurent dans les sources et les relations, sans multiplier les réserves générales déjà indexées.",
+  "reserves": [
+    {
+      "lot": "villes_1-9",
+      "reserve_id": "R19-C3-01",
+      "point": "Hendaye : rôle frontalier au Snapshot non établi par le passage disponible.",
+      "preuves_et_limites": "Discours municipal de 2021 et capture hendaye_1864 : preuve ferroviaire datée de 1864, déjà admise. Les mentions des deux pays ne datent pas une fonction frontalière en 1944 ; deux pistes municipales supplémentaires en 403 restent non lues.",
+      "impact_donnees": "Conserver rail confirmé et rôle frontalier à renforcer ; aucun rôle douanier, infrastructure autonome ou nouveau fait proposé.",
+      "choix_a_examiner": "Lors de la revue finale, garder la réserve ou autoriser une preuve historique frontalière distincte. Aucune quatrième livraison automatique.",
+      "statut_index": "reserve_documentaire_maintenue",
+      "dossiers": [
+        "2026-10-06_ether_reponses_cycle3.md",
+        "2026-10-06_ether_sources_reponses_cycle3_delta.json"
+      ]
+    },
+    {
+      "lot": "villes_1-9",
+      "reserve_id": "R19-C3-02",
+      "point": "Jeumont : original PDF/capture non obtenu pour permettre la relecture de Claude.",
+      "preuves_et_limites": "Texte de p.1 du dossier IA59001366 lu dans le cache Web : ligne 1855, gare agrandie vers 1881, industrie électrique/métallurgique. Téléchargement direct : page de contrôle d’accès, capture Web indisponible. Aucun contournement ; pas de fac-similé reconstitué. Les passages relatifs à Boussois et Marpent restent hors preuve locale pour Jeumont.",
+      "impact_donnees": "Conserver source non vérifiée par Claude et rail/industrie à renforcer. Ne pas convertir la lecture du cache par Ether en vérification indépendante ou preuve du fonctionnement au 01/01/1945.",
+      "choix_a_examiner": "Revue finale : accepter une lecture indépendante ultérieure ou conserver les rôles en réserve. Aucune quatrième livraison automatique.",
+      "statut_index": "reserve_documentaire_maintenue",
+      "dossiers": [
+        "2026-10-06_ether_reponses_cycle3.md",
+        "2026-10-06_ether_sources_reponses_cycle3_delta.json"
+      ]
+    }
+  ]
+}

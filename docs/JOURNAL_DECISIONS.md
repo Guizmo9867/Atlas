@@ -2,6 +2,12 @@
 
 Une ligne par décision, datée. Plus récente en haut. Ce journal remplace les versions éparpillées dans les conversations : si ce n'est pas ici, ce n'est pas décidé.
 
+## 2026-10-06 (fin de matinée : réponses au 1.9, cycle 3, sources de l'audit)
+
+- **Q19-03 close** : 15 captures d'Ether lues par Claude ; 8 ports britanniques, Marseille, Toulon, Paris (rail, port fluvial), Liège, Namur, Lyon, Dijon, Limoges, Bastia prouvés ; 19 relations précisées sans doublon. « À renforcer » levé pour Dijon et Limoges (rail). Registre v1.31. *(Ether + Claude)*
+- **Namur** : pont ferroviaire sur la Meuse détruit le 24/12/1944, rouvert le 05/01/1945 : hors service au Snapshot (un pont seulement), noté dans la fiche. *(Ether + Claude)*
+- **Lot 1.9 à 3 cycles** : réserves gardées pour la revue finale 1.x (R19-C3-01 Hendaye frontalier, R19-C3-02 Jeumont). Fin des cycles automatiques d'Ether sur les villes ; prochaine étape : son bilan final, puis revue avec Guizmo. *(Ether + Claude)*
+
 ## 2026-10-06 (nuit : réponses au 1.9, cycle 2, et audit transversal des villes 1.x)
 
 - **Lot 1.9 v0.2** : 4 sources nouvelles et 12 compléments d'Ether, ajoutés sans rien remplacer ; captures d'Avilés, Andorre-la-Vieille et Saint-Marin, pages de PDF (Eibar, Figueras, Jerez, Armada note 17) et 4 nouvelles captures Forcano lues par Claude. « À renforcer » 70 → 49. Q19-01 et Q19-02 closes, restes en réserve (R19-C2-01 à R19-C2-18). *(Ether + Claude)*

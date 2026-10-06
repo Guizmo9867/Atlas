@@ -15,7 +15,8 @@
       "corrections": [
         "Données : JSON d'Ether (15 villes : FR 12, GB 3), IDs au code du pays actuel ; aucun nom de 1945 différent, aucune capitale ; gares et ports non séparés des villes. Lens différée par Ether (non importée).",
         "Positions : QID Wikidata (CC0) d'Ether recoupés par SPARQL : libellé et pays cohérents, écart < 100 m ; aucun QID ni ID déjà dans le corpus ; Hendaye/Irun, Cerbère/Portbou et Tours/Saint-Pierre-des-Corps sont des paires de villes voisines distinctes.",
-        "Preuves : 18 sources de l'audit relues par sous-agents (WebFetch seul) : 7 confirmées, 8 en lecture partielle, 2 illisibles pour l'outil (Jeumont, Dijon), 1 faible (Ruppenthal I-3) ; mentions « (non vérifiée par Claude) », « (lecture partielle) » ou « (page relue par Claude pour cette ville) » ; « À renforcer » = rôles sans aucune preuve confirmée."
+        "Preuves : 18 sources de l'audit relues par sous-agents (WebFetch seul) : 7 confirmées, 8 en lecture partielle, 2 illisibles pour l'outil (Jeumont, Dijon), 1 faible (Ruppenthal I-3) ; mentions « (non vérifiée par Claude) », « (lecture partielle) » ou « (page relue par Claude pour cette ville) » ; « À renforcer » = rôles sans aucune preuve confirmée.",
+        "Villes 1.9 cycle 3 d'Ether (06/10/2026) : 19 relations de l'audit 1.x précisées (localisateur et usage d'Ether) après lecture par Claude de 15 captures (Ruppenthal I-3, II-4, II-5 ; SNCF Patrimoine ; port de Bastia ; CAUE Dijon ; Hendaye) ; rôles prouvés retirés de « À renforcer » ; rien d'autre retiré, aucun rôle ajouté (outils/villes/integrer_1_9_cycle3.py)."
       ]
     }
   },
@@ -246,8 +247,8 @@
           "sources": [
             {
               "source_id": "src-audit1x-fr-bastia",
-              "locator": "Entre-deux-guerres,1943 et Décembre1944",
-              "usage": "port_maritime — Le port, concédé en1920, subit la destruction de presque toutes ses installations en1943. En décembre1944 il reste encombré par trois épaves nommées. (page relue par Claude pour cette ville : port_maritime)"
+              "locator": "Frise Entre-deux-guerres : trois cartes 1920, 1943 et Décembre 1944, visibles ensemble dans la capture.",
+              "usage": "port_maritime — La concession du port à la Chambre de commerce est datée de 1920 ; les bombardements de 1943 détruisent presque toutes les installations ; en décembre 1944 trois épaves encombrent encore le port (Tibériade, Sidi Mabrouk, Mont Agel)."
             },
             {
               "source_id": "src-wikidata",
@@ -422,7 +423,7 @@
             "roles": [
               "rail"
             ],
-            "note": "Complément proposé dans l’audit final 1.x. La gare dijonnaise suit l’ouverture de Paris–Dijon en1851 ; elle est détruite en1944. Dijon est atteinte par la ligne de ravitaillement à la fin de septembre1944. Rôle urbain historique documenté ; aucune capacité, desserte exacte ni continuité du trafic au 1er janvier1945 déduite. Les bâtiments de1947–1962 restent futurs. Destruction de la gare, pas de toute la ville. Repère actuel ; centre historique exact et position de gare non certifiés. Importance B : sélection éditoriale proposée, pas une catégorie administrative. À renforcer : rail."
+            "note": "Complément proposé dans l’audit final 1.x. La gare dijonnaise suit l’ouverture de Paris–Dijon en1851 ; elle est détruite en1944. Dijon est atteinte par la ligne de ravitaillement à la fin de septembre1944. Rôle urbain historique documenté ; aucune capacité, desserte exacte ni continuité du trafic au 1er janvier1945 déduite. Les bâtiments de1947–1962 restent futurs. Destruction de la gare, pas de toute la ville. Repère actuel ; centre historique exact et position de gare non certifiés. Importance B : sélection éditoriale proposée, pas une catégorie administrative."
           },
           "geometrie": {
             "type": "Point",
@@ -434,13 +435,13 @@
           "sources": [
             {
               "source_id": "src-audit1x-fr-dijon",
-              "locator": "Description architecturale, premier paragraphe1851/1944",
-              "usage": "rail — La gare dijonnaise suit l’ouverture de Paris–Dijon en1851 ; elle est détruite en1944. (non vérifiée par Claude)"
+              "locator": "Description architecturale : premier paragraphe, inauguration Paris–Dijon en 1851 et destruction de la gare en 1944.",
+              "usage": "rail — La gare est construite après l’inauguration de la ligne Paris–Dijon en 1851 et détruite par les bombardements alliés en 1944. (page relue par Claude pour cette ville : rail)"
             },
             {
               "source_id": "src-audit1x-ruppenthal-ii5",
-              "locator": "V §2 p.156",
-              "usage": "rail — Dijon est atteinte par la ligne de ravitaillement à la fin de septembre1944. (lecture partielle)"
+              "locator": "II, V, p.156",
+              "usage": "rail — ligne en exploitation jusqu’à Dijon à la fin de septembre 1944."
             },
             {
               "source_id": "src-wikidata",
@@ -710,7 +711,7 @@
             "roles": [
               "rail"
             ],
-            "note": "Complément proposé dans l’audit final 1.x. Gare inaugurée en1929. Rôle ferroviaire urbain historique ; service et capacité1945 non certifiés. Aucun équipement autonome créé. Repère actuel ; centre historique exact et position de gare non certifiés. Importance B : sélection éditoriale proposée, pas une catégorie administrative. À renforcer : rail."
+            "note": "Complément proposé dans l’audit final 1.x. Gare inaugurée en1929. Rôle ferroviaire urbain historique ; service et capacité1945 non certifiés. Aucun équipement autonome créé. Repère actuel ; centre historique exact et position de gare non certifiés. Importance B : sélection éditoriale proposée, pas une catégorie administrative."
           },
           "geometrie": {
             "type": "Point",
@@ -723,7 +724,7 @@
             {
               "source_id": "src-audit1x-fr-tours",
               "locator": "Gare de Limoges",
-              "usage": "rail — Gare inaugurée en1929. (lecture partielle)"
+              "usage": "rail — gare inaugurée en 1929."
             },
             {
               "source_id": "src-wikidata",

@@ -1,7 +1,7 @@
 {
  "metadata": {
   "nom": "registre_sources_atlas",
-  "version": "1.30",
+  "version": "1.31",
   "date_creation": "2026-09-26",
   "principe": "Une source = un source_id stable. Les fiches événements/entités peuvent référencer ce source_id et préciser l'usage/locator.",
   "statut": "registre_initial_a_completer"
@@ -41234,11 +41234,11 @@
    "cibles": [
     "ville-fr-hendaye"
    ],
-   "locator": "Discours du maire, premier paragraphe daté15août1864",
+   "locator": "Discours du maire de septembre 2021 : premier paragraphe historique, arrivée du train Madrid–Paris le 15 août 1864.",
    "resume_passage": "157 ans après l'arrivée en gare d'Hendaye du 1er train en provenance de Madrid et à destination de Paris (le 15/8/1864)",
    "archive_locale": null,
    "verification_claude": "limite",
-   "notes": "Proposée par Ether (audit transversal 1.x, 05/10/2026). Rôle urbain historique ; service, accès et capacités au Snapshot non déduits. Repère actuel à contrôler séparément. Relecture Claude 05/10/2026 : Rail prouvé ; le rôle frontalier n'est pas dit en toutes lettres.",
+   "notes": "Proposée par Ether (audit transversal 1.x, 05/10/2026). Rôle urbain historique ; service, accès et capacités au Snapshot non déduits. Repère actuel à contrôler séparément. Relecture Claude 05/10/2026 : Rail prouvé ; le rôle frontalier n'est pas dit en toutes lettres. Complément d'Ether (Villes 1.9 cycle 3 d'Ether (06/10/2026)) : localisateur « Discours du maire de septembre 2021 : premier paragraphe historique, arrivée du train Madrid–Paris le 15 août 1864. ». Relecture Claude 06/10/2026 (captures d'Ether, hors dépôt) : Lecture par Claude des captures d'Ether (pièces locales du dossier d'échange, hors dépôt public), 06/10/2026 ; pages en anglais/français lues telles quelles. Rail déjà confirmé ; rôle frontalier non daté pour 1945 (discours de 2021) : reste « À renforcer » (R19-C3-01). (statut : limite -> limite).",
    "usage": [
     "La municipalité rappelle l’arrivée à Hendaye du premier train Madrid–Paris le15août1864. Cela documente un rôle de passage ferroviaire international avant1945."
    ],
@@ -41259,10 +41259,22 @@
      "roles": [
       "rail"
      ],
-     "lecture": "relu par Claude (audit transversal 1.x) : 157 ans après l'arrivée en gare d'Hendaye du 1er train en provenance de Madrid et à destination de Paris (le 15/8/1864)",
-     "date": "2026-10-05",
-     "verification": "data/sources/verifications_claude/2026-10-05_villes_audit_1x.json"
+     "lecture": "relu par Claude sur capture d'Ether (Villes 1.9 cycle 3 d'Ether (06/10/2026)) : « 157 ans après l'arrivée en gare d'Hendaye du 1er train en provenance de Madrid et à destination de Paris (le 15/8/1864) » ; « Hendaye est certainement une des villes de France qui vit le plus intensément au quotidien, ce qu'une relation entre deux pays signifie. » (discours de 2021)",
+     "date": "2026-10-06",
+     "verification": "data/sources/verifications_claude/2026-10-06_villes_1-9_cycle3.json"
     }
+   },
+   "complement_ether_cycle3_2026_10_06": {
+    "locator": "Discours du maire de septembre 2021 : premier paragraphe historique, arrivée du train Madrid–Paris le 15 août 1864.",
+    "note": "Les phrases sur les deux pays et les ponts de la Bidassoa appartiennent au discours de 2021 ; elles ne datent pas un rôle frontalier ou douanier au Snapshot. Aucun renforcement du rôle frontalier proposé. Deux pistes municipales supplémentaires ont répondu 403 : non utilisées comme preuves.",
+    "lecture_ether": "La page date explicitement une arrivée ferroviaire Madrid–Paris à Hendaye du 15 août 1864 ; elle fournit déjà la preuve ferroviaire admise par Claude.",
+    "limite": "Les phrases sur les deux pays et les ponts de la Bidassoa appartiennent au discours de 2021 ; elles ne datent pas un rôle frontalier ou douanier au Snapshot. Aucun renforcement du rôle frontalier proposé. Deux pistes municipales supplémentaires ont répondu 403 : non utilisées comme preuves.",
+    "pieces": [
+     "2026-10-06_ether_C3_hendaye_1864.jpg"
+    ],
+    "statut": "capture_lue_par_ether_relecture_claude_attendue",
+    "reserve": "R19-C3-01",
+    "verification_claude": "ne_pas_modifier_avant_relecture"
    }
   },
   {
@@ -41362,7 +41374,7 @@
    "resume_passage": "",
    "archive_locale": null,
    "verification_claude": "non_verifiee",
-   "notes": "Proposée par Ether (audit transversal 1.x, 05/10/2026). Rôle urbain historique ; service, accès et capacités au Snapshot non déduits. Repère actuel à contrôler séparément. Le HTML affichait un contrôle de connexion ; le PDF public a été lu. Ne pas transférer des activités d’autres communes. La reconstruction de la gare après la Première Guerre mondiale et les logements des ingénieurs FACEJ en1932 sont nommés ; les logements de cheminots de1919–1925 sont à Marpent, pas à Jeumont. La verrerie déplacée à Boussois ne prouve pas une activité jeumontoise en1945. Relecture Claude 05/10/2026 : PDF derrière une page anti-robots (JavaScript requis) ; non contourné.",
+   "notes": "Proposée par Ether (audit transversal 1.x, 05/10/2026). Rôle urbain historique ; service, accès et capacités au Snapshot non déduits. Repère actuel à contrôler séparément. Le HTML affichait un contrôle de connexion ; le PDF public a été lu. Ne pas transférer des activités d’autres communes. La reconstruction de la gare après la Première Guerre mondiale et les logements des ingénieurs FACEJ en1932 sont nommés ; les logements de cheminots de1919–1925 sont à Marpent, pas à Jeumont. La verrerie déplacée à Boussois ne prouve pas une activité jeumontoise en1945. Relecture Claude 05/10/2026 : PDF derrière une page anti-robots (JavaScript requis) ; non contourné. Complément d'Ether (Villes 1.9 cycle 3 d'Ether (06/10/2026)) : localisateur « PDF annoncé de 17 pages, p.1, Historique ; dossier IA59001366. Texte du cache Web lu, original PDF local non obtenu. ». Aucune pièce lisible remise : statut inchangé.",
    "usage": [
     "La notice associe le développement industriel de Jeumont à la ligne Paris–Erquelinnes installée en1855 ; elle décrit l’agrandissement de la gare vers1881 et les établissements industriels."
    ],
@@ -41377,6 +41389,16 @@
     "statut": "passages_cibles_lus",
     "date": "2026-10-05",
     "limite": "Rôle urbain historique ; service, accès et capacités au Snapshot non déduits. Repère actuel à contrôler séparément. Le HTML affichait un contrôle de connexion ; le PDF public a été lu. Ne pas transférer des activités d’autres communes. La reconstruction de la gare après la Première Guerre mondiale et les logements des ingénieurs FACEJ en1932 sont nommés ; les logements de cheminots de1919–1925 sont à Marpent, pas à Jeumont. La verrerie déplacée à Boussois ne prouve pas une activité jeumontoise en1945."
+   },
+   "complement_ether_cycle3_2026_10_06": {
+    "locator": "PDF annoncé de 17 pages, p.1, Historique ; dossier IA59001366. Texte du cache Web lu, original PDF local non obtenu.",
+    "note": "Aucune capture authentique ni PDF local utilisable obtenu : la requête directe renvoie une page de contrôle d’accès, et la capture Web échoue. Ne pas présenter ce cache textuel comme une nouvelle vérification par Claude. La verrerie déplacée à Boussois et les logements ferroviaires de Marpent ne prouvent pas ces fonctions dans Jeumont en 1945.",
+    "lecture_ether": "Le texte de p.1 fourni par le cache Web évoque la ligne Paris–Erquelinnes en 1855, l’agrandissement de la gare vers 1881, l’industrie électrique, la métallurgie et des logements FACEJ de 1932.",
+    "limite": "Aucune capture authentique ni PDF local utilisable obtenu : la requête directe renvoie une page de contrôle d’accès, et la capture Web échoue. Ne pas présenter ce cache textuel comme une nouvelle vérification par Claude. La verrerie déplacée à Boussois et les logements ferroviaires de Marpent ne prouvent pas ces fonctions dans Jeumont en 1945.",
+    "pieces": [],
+    "statut": "texte_cache_sans_piece_locale",
+    "reserve": "R19-C3-02",
+    "verification_claude": "ne_pas_modifier_avant_relecture"
    }
   },
   {
@@ -41395,11 +41417,11 @@
    "cibles": [
     "ville-fr-bastia"
    ],
-   "locator": "Entre-deux-guerres,1943 et Décembre1944",
-   "resume_passage": "Les bombardements détruisent la quasi totalité des installations portuaires / Le port est toujours encombré par des épaves, le \"Tibériade\" le \"Sidi Mabrouk\" et le \"Mont Agel\"",
+   "locator": "Frise Entre-deux-guerres : trois cartes 1920, 1943 et Décembre 1944, visibles ensemble dans la capture.",
+   "resume_passage": "Frise « Entre-deux-guerres » : « 1920 — la Chambre de Commerce et d'Industrie obtient la concession officielle du Port » ; « 1943 — Les bombardements détruisent la quasi totalité des installations portuaires » ; « Décembre 1944 — Le port est toujours encombré par des épaves, le “Tibériade” le “Sidi Mabrouk” et le “Mont Agel” ».",
    "archive_locale": null,
-   "verification_claude": "limite",
-   "notes": "Proposée par Ether (audit transversal 1.x, 05/10/2026). Port urbain historique endommagé et encombré au Snapshot ; aucune fermeture totale déduite du seul encombrement. Le terminal de car-ferries de1975 reste futur. Relecture Claude 05/10/2026 : Faits présents ; les années (1920, 1943, décembre 1944) non restituées par l'outil.",
+   "verification_claude": "ok",
+   "notes": "Proposée par Ether (audit transversal 1.x, 05/10/2026). Port urbain historique endommagé et encombré au Snapshot ; aucune fermeture totale déduite du seul encombrement. Le terminal de car-ferries de1975 reste futur. Relecture Claude 05/10/2026 : Faits présents ; les années (1920, 1943, décembre 1944) non restituées par l'outil. Complément d'Ether (Villes 1.9 cycle 3 d'Ether (06/10/2026)) : localisateur « Frise Entre-deux-guerres : trois cartes 1920, 1943 et Décembre 1944, visibles ensemble dans la capture. ». Relecture Claude 06/10/2026 (captures d'Ether, hors dépôt) : Lecture par Claude des captures d'Ether (pièces locales du dossier d'échange, hors dépôt public), 06/10/2026 ; pages en anglais/français lues telles quelles. Les années manquantes à la lecture du 05/10 sont maintenant lues. Port endommagé et encombré au Snapshot, pas fermé selon la source. (statut : limite -> ok).",
    "usage": [
     "Le port, concédé en1920, subit la destruction de presque toutes ses installations en1943. En décembre1944 il reste encombré par trois épaves nommées."
    ],
@@ -41420,10 +41442,22 @@
      "roles": [
       "port_maritime"
      ],
-     "lecture": "relu par Claude (audit transversal 1.x) : Les bombardements détruisent la quasi totalité des installations portuaires / Le port est toujours encombré par des épaves, le \"Tibériade\" le \"Sidi Mabrouk\" et le \"Mont Agel\"",
-     "date": "2026-10-05",
-     "verification": "data/sources/verifications_claude/2026-10-05_villes_audit_1x.json"
+     "lecture": "relu par Claude sur capture d'Ether (Villes 1.9 cycle 3 d'Ether (06/10/2026)) : Frise « Entre-deux-guerres » : « 1920 — la Chambre de Commerce et d'Industrie obtient la concession officielle du Port » ; « 1943 — Les bombardements détruisent la quasi totalité des installations portuaires » ; « Décembre 1944 — Le port est toujours encombré par des épaves, le “Tibériade” le “Sidi ",
+     "date": "2026-10-06",
+     "verification": "data/sources/verifications_claude/2026-10-06_villes_1-9_cycle3.json"
     }
+   },
+   "complement_ether_cycle3_2026_10_06": {
+    "locator": "Frise Entre-deux-guerres : trois cartes 1920, 1943 et Décembre 1944, visibles ensemble dans la capture.",
+    "note": "L’état endommagé n’équivaut pas à une preuve de fermeture totale. Ne pas anticiper les installations de 1975.",
+    "lecture_ether": "La concession du port à la Chambre de commerce est datée de 1920 ; les bombardements de 1943 détruisent presque toutes les installations ; en décembre 1944 trois épaves encombrent encore le port (Tibériade, Sidi Mabrouk, Mont Agel).",
+    "limite": "L’état endommagé n’équivaut pas à une preuve de fermeture totale. Ne pas anticiper les installations de 1975.",
+    "pieces": [
+     "2026-10-06_ether_C3_bastia_1920_1944.jpg"
+    ],
+    "statut": "capture_lue_par_ether_relecture_claude_attendue",
+    "reserve": null,
+    "verification_claude": "ne_pas_modifier_avant_relecture"
    }
   },
   {
@@ -41563,11 +41597,11 @@
    "cibles": [
     "ville-fr-dijon"
    ],
-   "locator": "Description architecturale, premier paragraphe1851/1944",
+   "locator": "Description architecturale : premier paragraphe, inauguration Paris–Dijon en 1851 et destruction de la gare en 1944.",
    "resume_passage": "",
    "archive_locale": null,
-   "verification_claude": "non_verifiee",
-   "notes": "Proposée par Ether (audit transversal 1.x, 05/10/2026). Rôle urbain historique documenté ; aucune capacité, desserte exacte ni continuité du trafic au 1er janvier1945 déduite. Les bâtiments de1947–1962 restent futurs. Destruction de la gare, pas de toute la ville. Relecture Claude 05/10/2026 : Page refusée à l'outil (robots) ; non contournée.",
+   "verification_claude": "limite",
+   "notes": "Proposée par Ether (audit transversal 1.x, 05/10/2026). Rôle urbain historique documenté ; aucune capacité, desserte exacte ni continuité du trafic au 1er janvier1945 déduite. Les bâtiments de1947–1962 restent futurs. Destruction de la gare, pas de toute la ville. Relecture Claude 05/10/2026 : Page refusée à l'outil (robots) ; non contournée. Complément d'Ether (Villes 1.9 cycle 3 d'Ether (06/10/2026)) : localisateur « Description architecturale : premier paragraphe, inauguration Paris–Dijon en 1851 et destruction de la gare en 1944. ». Relecture Claude 06/10/2026 (captures d'Ether, hors dépôt) : Lecture par Claude des captures d'Ether (pièces locales du dossier d'échange, hors dépôt public), 06/10/2026 ; pages en anglais/français lues telles quelles. Page toujours illisible pour mon outil (robots) ; preuve lue sur la capture seule : statut « limite » avec confirmation pour Dijon. Gare détruite en 1944 (pas la ville) ; la ligne fonctionne jusqu'à Dijon fin septembre 1944 (Ruppenthal II-5). (statut : non_verifiee -> limite).",
    "usage": [
     "La gare dijonnaise suit l’ouverture de Paris–Dijon en1851 ; elle est détruite en1944."
    ],
@@ -41582,6 +41616,28 @@
     "statut": "passages_cibles_lus",
     "date": "2026-10-05",
     "limite": "Rôle urbain historique documenté ; aucune capacité, desserte exacte ni continuité du trafic au 1er janvier1945 déduite. Les bâtiments de1947–1962 restent futurs. Destruction de la gare, pas de toute la ville."
+   },
+   "complement_ether_cycle3_2026_10_06": {
+    "locator": "Description architecturale : premier paragraphe, inauguration Paris–Dijon en 1851 et destruction de la gare en 1944.",
+    "note": "Destruction de la gare, pas de toute la ville. Les bâtiments de 1947–1962 sont futurs. Le fonctionnement de la ligne jusqu’à Dijon en septembre 1944 est documenté séparément par Ruppenthal II-5.",
+    "lecture_ether": "La gare est construite après l’inauguration de la ligne Paris–Dijon en 1851 et détruite par les bombardements alliés en 1944.",
+    "limite": "Destruction de la gare, pas de toute la ville. Les bâtiments de 1947–1962 sont futurs. Le fonctionnement de la ligne jusqu’à Dijon en septembre 1944 est documenté séparément par Ruppenthal II-5.",
+    "pieces": [
+     "2026-10-06_ether_C3_dijon_caue.jpg"
+    ],
+    "statut": "capture_lue_par_ether_relecture_claude_attendue",
+    "reserve": null,
+    "verification_claude": "ne_pas_modifier_avant_relecture"
+   },
+   "confirmations_claude": {
+    "ville-fr-dijon": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude sur capture d'Ether (Villes 1.9 cycle 3 d'Ether (06/10/2026)) : « La gare construite suite à l'inauguration de la ligne Paris-Dijon en 1851 est détruite par les bombardements alliés en 1944. » (Extrait du Guide d'architecture en Bourgogne 1893-2007, éditions 2008)",
+     "date": "2026-10-06",
+     "verification": "data/sources/verifications_claude/2026-10-06_villes_1-9_cycle3.json"
+    }
    }
   },
   {
@@ -41715,11 +41771,11 @@
     "ville-fr-limoges",
     "ville-fr-lyon"
    ],
-   "locator": "Sections Gare de Tours ; Poste d’aiguillage de Rennes ; Gare de Limoges ; Le poste d’aiguillage de Lyon Perrache",
-   "resume_passage": "la construction, de 1896 à 1898, de la gare monumentale / Le poste central de Rennes date de 1941",
+   "locator": "Sections Gare de Limoges ; Le poste d’aiguillage de Lyon Perrache (ligne PLM).",
+   "resume_passage": "« Gare de Limoges […] Envisagée dès 1908, pensée avant la Grande Guerre, elle est édifiée dans les années 1920 et inaugurée en 1929. » ; « Le poste d'aiguillage de Lyon Perrache (ligne PLM) […] achevé en 1934 et modernisé en 1952, le poste 1 a organisé la circulation des trains jusqu'en 2017. »",
    "archive_locale": null,
-   "verification_claude": "limite",
-   "notes": "Proposée par Ether (audit transversal 1.x, 05/10/2026). Rôle urbain historique documenté ; aucune capacité, desserte exacte ni continuité du trafic au 1er janvier1945 déduite. Ne pas déplacer le triage de Saint-Pierre-des-Corps à Tours. PDF SNCF sans texte et capture en erreur : preuve retenue sur la page HTML lue. Relecture Claude 05/10/2026 : Tours et Rennes prouvés ; Limoges (sujet de la phrase non nommé dans l'extrait) et Lyon-Perrache (non nommé) non confirmés.",
+   "verification_claude": "ok",
+   "notes": "Proposée par Ether (audit transversal 1.x, 05/10/2026). Rôle urbain historique documenté ; aucune capacité, desserte exacte ni continuité du trafic au 1er janvier1945 déduite. Ne pas déplacer le triage de Saint-Pierre-des-Corps à Tours. PDF SNCF sans texte et capture en erreur : preuve retenue sur la page HTML lue. Relecture Claude 05/10/2026 : Tours et Rennes prouvés ; Limoges (sujet de la phrase non nommé dans l'extrait) et Lyon-Perrache (non nommé) non confirmés. Complément d'Ether (Villes 1.9 cycle 3 d'Ether (06/10/2026)) : localisateur « Sections Gare de Limoges ; Le poste d’aiguillage de Lyon Perrache (ligne PLM). ». Relecture Claude 06/10/2026 (captures d'Ether, hors dépôt) : Lecture par Claude des captures d'Ether (pièces locales du dossier d'échange, hors dépôt public), 06/10/2026 ; pages en anglais/français lues telles quelles. Limoges et Lyon prouvés pour le rôle ferroviaire (gare et poste antérieurs à 1945) ; Tours et Rennes déjà confirmés. Rien sur le service exact au 01/01/1945 ; modernisation de 1952 future. (statut : limite -> ok).",
    "usage": [
     "Rail local daté : Tours1896–1898, poste de Rennes1941, gare de Limoges1929, poste de LyonPerrache1934."
    ],
@@ -41751,7 +41807,36 @@
      "lecture": "relu par Claude (audit transversal 1.x) : la construction, de 1896 à 1898, de la gare monumentale / Le poste central de Rennes date de 1941",
      "date": "2026-10-05",
      "verification": "data/sources/verifications_claude/2026-10-05_villes_audit_1x.json"
+    },
+    "ville-fr-limoges": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude sur capture d'Ether (Villes 1.9 cycle 3 d'Ether (06/10/2026)) : « Gare de Limoges […] Envisagée dès 1908, pensée avant la Grande Guerre, elle est édifiée dans les années 1920 et inaugurée en 1929. » ; « Le poste d'aiguillage de Lyon Perrache (ligne PLM) […] achevé en 1934 et modernisé en 1952, le poste 1 a organisé la circulation des trains jusqu'en 2017. »",
+     "date": "2026-10-06",
+     "verification": "data/sources/verifications_claude/2026-10-06_villes_1-9_cycle3.json"
+    },
+    "ville-fr-lyon": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude sur capture d'Ether (Villes 1.9 cycle 3 d'Ether (06/10/2026)) : « Gare de Limoges […] Envisagée dès 1908, pensée avant la Grande Guerre, elle est édifiée dans les années 1920 et inaugurée en 1929. » ; « Le poste d'aiguillage de Lyon Perrache (ligne PLM) […] achevé en 1934 et modernisé en 1952, le poste 1 a organisé la circulation des trains jusqu'en 2017. »",
+     "date": "2026-10-06",
+     "verification": "data/sources/verifications_claude/2026-10-06_villes_1-9_cycle3.json"
     }
+   },
+   "complement_ether_cycle3_2026_10_06": {
+    "locator": "Sections Gare de Limoges ; Le poste d’aiguillage de Lyon Perrache (ligne PLM).",
+    "note": "Rôle ferroviaire historique seulement, sans certification du service au Snapshot. La modernisation de 1952 est future. Tours et Rennes, déjà confirmées, ne sont pas rouvertes.",
+    "lecture_ether": "La gare de Limoges est inaugurée en 1929 ; le poste d’aiguillage de Lyon-Perrache est achevé en 1934.",
+    "limite": "Rôle ferroviaire historique seulement, sans certification du service au Snapshot. La modernisation de 1952 est future. Tours et Rennes, déjà confirmées, ne sont pas rouvertes.",
+    "pieces": [
+     "2026-10-06_ether_C3_sncf_limoges.jpg",
+     "2026-10-06_ether_C3_sncf_lyon_perrache.jpg"
+    ],
+    "statut": "capture_lue_par_ether_relecture_claude_attendue",
+    "reserve": null,
+    "verification_claude": "ne_pas_modifier_avant_relecture"
    }
   },
   {
@@ -41825,11 +41910,11 @@
     "ville-fr-marseille",
     "ville-fr-toulon"
    ],
-   "locator": "IV §1 p.96–103 ; §2 ouverture28novembre ; §3 p.119–123",
-   "resume_passage": "The long-awaited opening of the port finally took place on 28 November, when the James B. Weaver, a Liberty ship...was berthed.",
+   "locator": "II, chapitre IV, §3 Southern France, p.122–123.",
+   "resume_passage": "p.122 : « on 15 September Marseille received its first Liberty ship for direct ship-to-shore discharge. […] Toulon had been brought into use on 20 September » ; p.123 : « At the end of October it was decided to turn the port of Toulon back to the French. It had been used almost exclusively for the import of civil affairs supplies. »",
    "archive_locale": null,
-   "verification_claude": "limite",
-   "notes": "Proposée par Ether (audit transversal 1.x, 05/10/2026). Histoire institutionnelle rétrospective lue dans la transcription HTML ; les archives originales citées ne sont pas toutes collationnées. Ne pas anticiper les passages de janvier–mai1945 ni étendre une preuve de rôle aux capacités du Snapshot. Relecture Claude 05/10/2026 : Le Havre, Rouen, Anvers prouvés ; Marseille et Toulon absents de cette page.",
+   "verification_claude": "ok",
+   "notes": "Proposée par Ether (audit transversal 1.x, 05/10/2026). Histoire institutionnelle rétrospective lue dans la transcription HTML ; les archives originales citées ne sont pas toutes collationnées. Ne pas anticiper les passages de janvier–mai1945 ni étendre une preuve de rôle aux capacités du Snapshot. Relecture Claude 05/10/2026 : Le Havre, Rouen, Anvers prouvés ; Marseille et Toulon absents de cette page. Complément d'Ether (Villes 1.9 cycle 3 d'Ether (06/10/2026)) : localisateur « II, chapitre IV, §3 Southern France, p.122–123. ». Relecture Claude 06/10/2026 (captures d'Ether, hors dépôt) : Lecture par Claude des captures d'Ether (pièces locales du dossier d'échange, hors dépôt public), 06/10/2026 ; pages en anglais/français lues telles quelles. Marseille et Toulon prouvés (port en service en septembre–octobre 1944). Les totaux de novembre–janvier englobent janvier 1945 : non utilisés pour le Snapshot. Le Havre, Rouen, Anvers déjà confirmés (05/10). (statut : limite -> ok).",
    "usage": [
     "rôles urbains locaux datés ; portée limitée aux passages antérieurs au Snapshot"
    ],
@@ -41870,7 +41955,37 @@
      "lecture": "relu par Claude (audit transversal 1.x) : The long-awaited opening of the port finally took place on 28 November, when the James B. Weaver, a Liberty ship...was berthed.",
      "date": "2026-10-05",
      "verification": "data/sources/verifications_claude/2026-10-05_villes_audit_1x.json"
+    },
+    "ville-fr-marseille": {
+     "roles": [
+      "port_maritime"
+     ],
+     "lecture": "relu par Claude sur capture d'Ether (Villes 1.9 cycle 3 d'Ether (06/10/2026)) : p.122 : « on 15 September Marseille received its first Liberty ship for direct ship-to-shore discharge. […] Toulon had been brought into use on 20 September » ; p.123 : « At the end of October it was decided to turn the port of Toulon back to the French. It had been used almost exclusively for the i",
+     "date": "2026-10-06",
+     "verification": "data/sources/verifications_claude/2026-10-06_villes_1-9_cycle3.json"
+    },
+    "ville-fr-toulon": {
+     "roles": [
+      "port_maritime"
+     ],
+     "lecture": "relu par Claude sur capture d'Ether (Villes 1.9 cycle 3 d'Ether (06/10/2026)) : p.122 : « on 15 September Marseille received its first Liberty ship for direct ship-to-shore discharge. […] Toulon had been brought into use on 20 September » ; p.123 : « At the end of October it was decided to turn the port of Toulon back to the French. It had been used almost exclusively for the i",
+     "date": "2026-10-06",
+     "verification": "data/sources/verifications_claude/2026-10-06_villes_1-9_cycle3.json"
     }
+   },
+   "complement_ether_cycle3_2026_10_06": {
+    "locator": "II, chapitre IV, §3 Southern France, p.122–123.",
+    "note": "Les statistiques agrégées incluant janvier 1945 ne décrivent pas le Snapshot 0. Ne pas attribuer les totaux régionaux à une ville. Aucun changement demandé pour Le Havre, Rouen et Anvers déjà confirmés.",
+    "lecture_ether": "Marseille : premier Liberty déchargé directement à quai le 15 septembre 1944. Toulon : utilisation à partir du 20 septembre ; décision de restitution aux Français fin octobre, emploi ensuite presque exclusivement pour les approvisionnements civils.",
+    "limite": "Les statistiques agrégées incluant janvier 1945 ne décrivent pas le Snapshot 0. Ne pas attribuer les totaux régionaux à une ville. Aucun changement demandé pour Le Havre, Rouen et Anvers déjà confirmés.",
+    "pieces": [
+     "2026-10-06_ether_C3_ruppenthal_ii4_p122.jpg",
+     "2026-10-06_ether_C3_ruppenthal_ii4_p123.jpg",
+     "2026-10-06_ether_C3_ruppenthal_ii4_texte.txt"
+    ],
+    "statut": "capture_lue_par_ether_relecture_claude_attendue",
+    "reserve": null,
+    "verification_claude": "ne_pas_modifier_avant_relecture"
    }
   },
   {
@@ -41896,11 +42011,11 @@
     "ville-fr-lyon",
     "ville-fr-dijon"
    ],
-   "locator": "V §2 p.148–149 et156 ; §4 p.165–166",
-   "resume_passage": "one via Soissons, Laon, and Hirson to Charleroi, where it tied in with the northern line; and a third extending directly east of Paris via Sezanne and Sommesous to the Nancy-Metz-Verdun triangle.",
+   "locator": "II, chapitre V, §2 The Railways, p.148–149, 155–156 ; §4 Inland Waterways, p.166.",
+   "resume_passage": "p.148–149 : « East of Paris three main lines of communications had been opened: one in the north to Liège via Compiègne, Cambrai, Valenciennes, Mons, Charleroi, and Namur » ; « At Liège itself only one bridge was left standing, creating a bottleneck which was not relieved until late in January. » p.155–156 : « one major rail bridge over the Meuse had been destroyed at Namur. During an enemy air raid on 24 December a lucky hit had set off charges […]. The bridge was immediately rebuilt, and was opened to traffic on 5 January. » ; « as far north as Lyon, where the headquarters of the 1st Military Railway Service […] was established on 14 September » ; « By 25 September the line was open as far north as Lyon […]. By the end of the month the line was in operation north to Dijon ». p.166 : « the first coal barges arrived in Paris on the 18th » (novembre 1944).",
    "archive_locale": null,
-   "verification_claude": "limite",
-   "notes": "Proposée par Ether (audit transversal 1.x, 05/10/2026). Histoire institutionnelle rétrospective lue dans la transcription HTML ; les archives originales citées ne sont pas toutes collationnées. Ne pas anticiper les passages de janvier–mai1945 ni étendre une preuve de rôle aux capacités du Snapshot. Relecture Claude 05/10/2026 : Seuls Charleroi et Metz nommés ; Paris (barges du 18/11/1944), Liège, Namur, Lyon, Dijon non retrouvés par l'outil.",
+   "verification_claude": "ok",
+   "notes": "Proposée par Ether (audit transversal 1.x, 05/10/2026). Histoire institutionnelle rétrospective lue dans la transcription HTML ; les archives originales citées ne sont pas toutes collationnées. Ne pas anticiper les passages de janvier–mai1945 ni étendre une preuve de rôle aux capacités du Snapshot. Relecture Claude 05/10/2026 : Seuls Charleroi et Metz nommés ; Paris (barges du 18/11/1944), Liège, Namur, Lyon, Dijon non retrouvés par l'outil. Complément d'Ether (Villes 1.9 cycle 3 d'Ether (06/10/2026)) : localisateur « II, chapitre V, §2 The Railways, p.148–149, 155–156 ; §4 Inland Waterways, p.166. ». Relecture Claude 06/10/2026 (captures d'Ether, hors dépôt) : Lecture par Claude des captures d'Ether (pièces locales du dossier d'échange, hors dépôt public), 06/10/2026 ; pages en anglais/français lues telles quelles. Paris (rail, port fluvial), Liège, Namur, Lyon, Dijon prouvés ; Charleroi et Metz déjà confirmés (05/10). Pont ferroviaire de Namur sur la Meuse détruit le 24/12/1944, rouvert le 05/01/1945 : hors service au Snapshot (un pont, pas toute la ville). Goulet de Liège (un seul pont) jusqu'à fin janvier 1945. Photo du canal Albert (février 1945) non utilisée. (statut : limite -> ok).",
    "usage": [
     "rôles urbains locaux datés ; portée limitée aux passages antérieurs au Snapshot"
    ],
@@ -41933,7 +42048,65 @@
      "lecture": "relu par Claude (audit transversal 1.x) : one via Soissons, Laon, and Hirson to Charleroi, where it tied in with the northern line; and a third extending directly east of Paris via Sezanne and Sommesous to the Nancy-Metz-Verdun triangle.",
      "date": "2026-10-05",
      "verification": "data/sources/verifications_claude/2026-10-05_villes_audit_1x.json"
+    },
+    "ville-fr-paris": {
+     "roles": [
+      "port_fluvial",
+      "rail"
+     ],
+     "lecture": "relu par Claude sur capture d'Ether (Villes 1.9 cycle 3 d'Ether (06/10/2026)) : p.148–149 : « East of Paris three main lines of communications had been opened: one in the north to Liège via Compiègne, Cambrai, Valenciennes, Mons, Charleroi, and Namur » ; « At Liège itself only one bridge was left standing, creating a bottleneck which was not relieved until late in January. » p.",
+     "date": "2026-10-06",
+     "verification": "data/sources/verifications_claude/2026-10-06_villes_1-9_cycle3.json"
+    },
+    "ville-be-liege": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude sur capture d'Ether (Villes 1.9 cycle 3 d'Ether (06/10/2026)) : p.148–149 : « East of Paris three main lines of communications had been opened: one in the north to Liège via Compiègne, Cambrai, Valenciennes, Mons, Charleroi, and Namur » ; « At Liège itself only one bridge was left standing, creating a bottleneck which was not relieved until late in January. » p.",
+     "date": "2026-10-06",
+     "verification": "data/sources/verifications_claude/2026-10-06_villes_1-9_cycle3.json"
+    },
+    "ville-be-namur": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude sur capture d'Ether (Villes 1.9 cycle 3 d'Ether (06/10/2026)) : p.148–149 : « East of Paris three main lines of communications had been opened: one in the north to Liège via Compiègne, Cambrai, Valenciennes, Mons, Charleroi, and Namur » ; « At Liège itself only one bridge was left standing, creating a bottleneck which was not relieved until late in January. » p.",
+     "date": "2026-10-06",
+     "verification": "data/sources/verifications_claude/2026-10-06_villes_1-9_cycle3.json"
+    },
+    "ville-fr-lyon": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude sur capture d'Ether (Villes 1.9 cycle 3 d'Ether (06/10/2026)) : p.148–149 : « East of Paris three main lines of communications had been opened: one in the north to Liège via Compiègne, Cambrai, Valenciennes, Mons, Charleroi, and Namur » ; « At Liège itself only one bridge was left standing, creating a bottleneck which was not relieved until late in January. » p.",
+     "date": "2026-10-06",
+     "verification": "data/sources/verifications_claude/2026-10-06_villes_1-9_cycle3.json"
+    },
+    "ville-fr-dijon": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude sur capture d'Ether (Villes 1.9 cycle 3 d'Ether (06/10/2026)) : p.148–149 : « East of Paris three main lines of communications had been opened: one in the north to Liège via Compiègne, Cambrai, Valenciennes, Mons, Charleroi, and Namur » ; « At Liège itself only one bridge was left standing, creating a bottleneck which was not relieved until late in January. » p.",
+     "date": "2026-10-06",
+     "verification": "data/sources/verifications_claude/2026-10-06_villes_1-9_cycle3.json"
     }
+   },
+   "complement_ether_cycle3_2026_10_06": {
+    "locator": "II, chapitre V, §2 The Railways, p.148–149, 155–156 ; §4 Inland Waterways, p.166.",
+    "note": "La réouverture du 5 janvier et la fin du goulet de Liège fin janvier sont postérieures au Snapshot. La destruction concerne un pont de Namur, pas toute la ville ni tout son trafic. La photographie du canal Albert datée février 1945 sous p.166 ne sert pas de preuve au Snapshot. Le rôle port_fluvial de cette réponse concerne seulement Paris.",
+    "lecture_ether": "Fin septembre 1944, les lignes à l’est de Paris passent par Charleroi et Namur vers Liège. Lyon accueille le quartier général ferroviaire le 14 septembre ; la ligne y est ouverte le 25, et fonctionne jusqu’à Dijon à la fin du mois. Les premières barges de charbon arrivent à Paris le 18 novembre 1944. Un pont ferroviaire sur la Meuse à Namur est détruit le 24 décembre 1944 et ne rouvre que le 5 janvier 1945.",
+    "limite": "La réouverture du 5 janvier et la fin du goulet de Liège fin janvier sont postérieures au Snapshot. La destruction concerne un pont de Namur, pas toute la ville ni tout son trafic. La photographie du canal Albert datée février 1945 sous p.166 ne sert pas de preuve au Snapshot. Le rôle port_fluvial de cette réponse concerne seulement Paris.",
+    "pieces": [
+     "2026-10-06_ether_C3_ruppenthal_ii5_p148.jpg",
+     "2026-10-06_ether_C3_ruppenthal_ii5_p149.jpg",
+     "2026-10-06_ether_C3_ruppenthal_ii5_p155.jpg",
+     "2026-10-06_ether_C3_ruppenthal_ii5_p156.jpg",
+     "2026-10-06_ether_C3_ruppenthal_ii5_p166.jpg",
+     "2026-10-06_ether_C3_ruppenthal_ii5_texte.txt"
+    ],
+    "statut": "capture_lue_par_ether_relecture_claude_attendue",
+    "reserve": null,
+    "verification_claude": "ne_pas_modifier_avant_relecture"
    }
   },
   {
@@ -41959,11 +42132,11 @@
     "ville-gb-cardiff",
     "ville-gb-manchester"
    ],
-   "locator": "III, organisation des zones, p.145–147, ports britanniques avantmai1944",
-   "resume_passage": "",
+   "locator": "I, chapitre III, §3 organisation des zones p.144–145 ; §4 Troop and Cargo Reception p.146–147 (pagination imprimée reproduite dans le HTML).",
+   "resume_passage": "p.144 : « Zone I, designated by the code word SOXO, included […] the Clyde and Mersey River ports (chiefly Glasgow, Liverpool, and Manchester) and also the Humber River ports of Hull and Immingham […]. Zone II, known as GLUE, included […] the ports of the Bristol Channel and Plymouth, Southampton, and London. » p.146 : « The Humber River ports (Hull and Immingham), London, and the southern ports of Southampton and Plymouth, while important in peacetime, […] were not extensively used on American account until the avalanche of supplies began late in 1943. » ; « The Bristol Channel ports--Swansea, Cardiff, Newport, and Avonmouth » ; p.147 : « the Mersey ports--Liverpool, Garston, Manchester, and Birkenhead ».",
    "archive_locale": null,
-   "verification_claude": "faible",
-   "notes": "Proposée par Ether (audit transversal 1.x, 05/10/2026). Histoire institutionnelle rétrospective lue dans la transcription HTML ; les archives originales citées ne sont pas toutes collationnées. Ne pas anticiper les passages de janvier–mai1945 ni étendre une preuve de rôle aux capacités du Snapshot. Relecture Claude 05/10/2026 : Aucun des huit ports n'est nommé dans la page relue par l'outil.",
+   "verification_claude": "ok",
+   "notes": "Proposée par Ether (audit transversal 1.x, 05/10/2026). Histoire institutionnelle rétrospective lue dans la transcription HTML ; les archives originales citées ne sont pas toutes collationnées. Ne pas anticiper les passages de janvier–mai1945 ni étendre une preuve de rôle aux capacités du Snapshot. Relecture Claude 05/10/2026 : Aucun des huit ports n'est nommé dans la page relue par l'outil. Complément d'Ether (Villes 1.9 cycle 3 d'Ether (06/10/2026)) : localisateur « I, chapitre III, §3 organisation des zones p.144–145 ; §4 Troop and Cargo Reception p.146–147 (pagination imprimée reproduite dans le HTML). ». Relecture Claude 06/10/2026 (captures d'Ether, hors dépôt) : Lecture par Claude des captures d'Ether (pièces locales du dossier d'échange, hors dépôt public), 06/10/2026 ; pages en anglais/français lues telles quelles. Les huit ports sont nommés (zonage de 1943 et réception américaine jusqu'en mai 1944). Tonnages par groupes de ports, pas par ville ; rien sur la capacité au 01/01/1945. Manchester n'a pas le rôle port_maritime dans l'Atlas : aucun rôle ajouté. (statut : faible -> ok).",
    "usage": [
     "rôles urbains locaux datés ; portée limitée aux passages antérieurs au Snapshot"
    ],
@@ -41979,6 +42152,87 @@
     "statut": "passages_cibles_lus",
     "date": "2026-10-05",
     "limite": "Histoire institutionnelle rétrospective lue dans la transcription HTML ; les archives originales citées ne sont pas toutes collationnées. Ne pas anticiper les passages de janvier–mai1945 ni étendre une preuve de rôle aux capacités du Snapshot."
+   },
+   "complement_ether_cycle3_2026_10_06": {
+    "locator": "I, chapitre III, §3 organisation des zones p.144–145 ; §4 Troop and Cargo Reception p.146–147 (pagination imprimée reproduite dans le HTML).",
+    "note": "Le localisateur précédent p.145–147 omettait p.144. Les tonnages et débarquements des groupes de ports ne sont pas attribuables à chaque ville. Aucune capacité ou continuité locale au 01/01/1945 déduite.",
+    "lecture_ether": "Les ports sont nommés dans le zonage de 1943 puis dans la réception américaine avant fin mai 1944. Glasgow appartient au groupe de la Clyde, Cardiff à celui du canal de Bristol, Liverpool et Manchester à celui de la Mersey ; Hull, Londres, Southampton et Plymouth sont mentionnés avec leur usage accru à partir de fin 1943.",
+    "limite": "Le localisateur précédent p.145–147 omettait p.144. Les tonnages et débarquements des groupes de ports ne sont pas attribuables à chaque ville. Aucune capacité ou continuité locale au 01/01/1945 déduite.",
+    "pieces": [
+     "2026-10-06_ether_C3_ruppenthal_i3_p144.jpg",
+     "2026-10-06_ether_C3_ruppenthal_i3_p146.jpg",
+     "2026-10-06_ether_C3_ruppenthal_i3_p147.jpg",
+     "2026-10-06_ether_C3_ruppenthal_i3_texte.txt"
+    ],
+    "statut": "capture_lue_par_ether_relecture_claude_attendue",
+    "reserve": null,
+    "verification_claude": "ne_pas_modifier_avant_relecture"
+   },
+   "confirmations_claude": {
+    "ville-gb-londres": {
+     "roles": [
+      "port_maritime"
+     ],
+     "lecture": "relu par Claude sur capture d'Ether (Villes 1.9 cycle 3 d'Ether (06/10/2026)) : p.144 : « Zone I, designated by the code word SOXO, included […] the Clyde and Mersey River ports (chiefly Glasgow, Liverpool, and Manchester) and also the Humber River ports of Hull and Immingham […]. Zone II, known as GLUE, included […] the ports of the Bristol Channel and Plymouth, Southampton, a",
+     "date": "2026-10-06",
+     "verification": "data/sources/verifications_claude/2026-10-06_villes_1-9_cycle3.json"
+    },
+    "ville-gb-liverpool": {
+     "roles": [
+      "port_maritime"
+     ],
+     "lecture": "relu par Claude sur capture d'Ether (Villes 1.9 cycle 3 d'Ether (06/10/2026)) : p.144 : « Zone I, designated by the code word SOXO, included […] the Clyde and Mersey River ports (chiefly Glasgow, Liverpool, and Manchester) and also the Humber River ports of Hull and Immingham […]. Zone II, known as GLUE, included […] the ports of the Bristol Channel and Plymouth, Southampton, a",
+     "date": "2026-10-06",
+     "verification": "data/sources/verifications_claude/2026-10-06_villes_1-9_cycle3.json"
+    },
+    "ville-gb-glasgow": {
+     "roles": [
+      "port_maritime"
+     ],
+     "lecture": "relu par Claude sur capture d'Ether (Villes 1.9 cycle 3 d'Ether (06/10/2026)) : p.144 : « Zone I, designated by the code word SOXO, included […] the Clyde and Mersey River ports (chiefly Glasgow, Liverpool, and Manchester) and also the Humber River ports of Hull and Immingham […]. Zone II, known as GLUE, included […] the ports of the Bristol Channel and Plymouth, Southampton, a",
+     "date": "2026-10-06",
+     "verification": "data/sources/verifications_claude/2026-10-06_villes_1-9_cycle3.json"
+    },
+    "ville-gb-hull": {
+     "roles": [
+      "port_maritime"
+     ],
+     "lecture": "relu par Claude sur capture d'Ether (Villes 1.9 cycle 3 d'Ether (06/10/2026)) : p.144 : « Zone I, designated by the code word SOXO, included […] the Clyde and Mersey River ports (chiefly Glasgow, Liverpool, and Manchester) and also the Humber River ports of Hull and Immingham […]. Zone II, known as GLUE, included […] the ports of the Bristol Channel and Plymouth, Southampton, a",
+     "date": "2026-10-06",
+     "verification": "data/sources/verifications_claude/2026-10-06_villes_1-9_cycle3.json"
+    },
+    "ville-gb-southampton": {
+     "roles": [
+      "port_maritime"
+     ],
+     "lecture": "relu par Claude sur capture d'Ether (Villes 1.9 cycle 3 d'Ether (06/10/2026)) : p.144 : « Zone I, designated by the code word SOXO, included […] the Clyde and Mersey River ports (chiefly Glasgow, Liverpool, and Manchester) and also the Humber River ports of Hull and Immingham […]. Zone II, known as GLUE, included […] the ports of the Bristol Channel and Plymouth, Southampton, a",
+     "date": "2026-10-06",
+     "verification": "data/sources/verifications_claude/2026-10-06_villes_1-9_cycle3.json"
+    },
+    "ville-gb-plymouth": {
+     "roles": [
+      "port_maritime"
+     ],
+     "lecture": "relu par Claude sur capture d'Ether (Villes 1.9 cycle 3 d'Ether (06/10/2026)) : p.144 : « Zone I, designated by the code word SOXO, included […] the Clyde and Mersey River ports (chiefly Glasgow, Liverpool, and Manchester) and also the Humber River ports of Hull and Immingham […]. Zone II, known as GLUE, included […] the ports of the Bristol Channel and Plymouth, Southampton, a",
+     "date": "2026-10-06",
+     "verification": "data/sources/verifications_claude/2026-10-06_villes_1-9_cycle3.json"
+    },
+    "ville-gb-cardiff": {
+     "roles": [
+      "port_maritime"
+     ],
+     "lecture": "relu par Claude sur capture d'Ether (Villes 1.9 cycle 3 d'Ether (06/10/2026)) : p.144 : « Zone I, designated by the code word SOXO, included […] the Clyde and Mersey River ports (chiefly Glasgow, Liverpool, and Manchester) and also the Humber River ports of Hull and Immingham […]. Zone II, known as GLUE, included […] the ports of the Bristol Channel and Plymouth, Southampton, a",
+     "date": "2026-10-06",
+     "verification": "data/sources/verifications_claude/2026-10-06_villes_1-9_cycle3.json"
+    },
+    "ville-gb-manchester": {
+     "roles": [
+      "port_maritime"
+     ],
+     "lecture": "relu par Claude sur capture d'Ether (Villes 1.9 cycle 3 d'Ether (06/10/2026)) : p.144 : « Zone I, designated by the code word SOXO, included […] the Clyde and Mersey River ports (chiefly Glasgow, Liverpool, and Manchester) and also the Humber River ports of Hull and Immingham […]. Zone II, known as GLUE, included […] the ports of the Bristol Channel and Plymouth, Southampton, a",
+     "date": "2026-10-06",
+     "verification": "data/sources/verifications_claude/2026-10-06_villes_1-9_cycle3.json"
+    }
    }
   },
   {
