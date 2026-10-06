@@ -1,6 +1,6 @@
 # Atlas Eurasie — fiche de reprise (à lire en premier)
 
-*Fiche courte pour qu'un nouveau Claude, dans n'importe quelle conversation, sache où on en est sans tout relire. Le reste se lit seulement si besoin. Tenue à jour par Claude (section « État » à chaque lot, le reste quand une règle change). Original : `docs/REPRISE.md` du dépôt ; copies : `00_REPRISE.md` du dossier d'échange et `claude/REPRISE.md` du projet claude.ai. Dernière mise à jour : 04/10/2026.*
+*Fiche courte pour qu'un nouveau Claude, dans n'importe quelle conversation, sache où on en est sans tout relire. Le reste se lit seulement si besoin. Tenue à jour par Claude (section « État » à chaque lot, le reste quand une règle change). Original : `docs/REPRISE.md` du dépôt ; copies : `00_REPRISE.md` du dossier d'échange et `claude/REPRISE.md` du projet claude.ai. Dernière mise à jour : 06/10/2026.*
 
 ## 1. Le projet en 5 lignes
 
@@ -42,10 +42,10 @@ Pas de contact direct entre Claude et Ether : tout passe par le dossier d'échan
 ## 5. État (mis à jour à chaque lot)
 
 - **Frontières** : lots 01 à 04 intégrés (74 territoires, 4 lignes de front).
-- **Villes** : 1.0 à 1.9 intégrés, **1 544 villes** (1.9 Ibérie et marges : 238 villes, intégré le 05/10 après-midi). Lots 1.3 à 1.7 : 3 cycles faits, en attente de la revue finale des réserves.
-- **Dernière intégration (05/10, après-midi)** : lot 1.9 (Espagne, Portugal, micro-États, Malte, Chypre) ; carte Forcano 1942 lue par Claude (167 villes prouvées pour le rail) ; nouvelles questions Q19-01 (5 sources illisibles pour l'outil) et Q19-02 (24 villes non lues sur Forcano, PDF « armada » hors sujet, lectures partielles). Avant, le même jour : réponses 1.7 cycle 3 et 1.8 cycle 2 (commit ad7b2ce).
-- **Ether** : prochaine remise = réponses au 1.8 (cycle 3) et au 1.9 (cycle 2), puis **audit transversal des villes** (pas de nouveau lot géographique). Financement : réveil quotidien.
-- **Sources** : registre v1.27, 860 sources ; 296 à valider par Guizmo, dont **166 importantes**. Page « Sources à valider » : sur claude.ai, ou `00_SOURCES_A_VALIDER.html` dans le dossier d'échange.
+- **Villes** : 1.0 à 1.9 intégrés + 15 villes de l'audit transversal, **1 559 villes**. Lots 1.3 à 1.8 : 3 cycles faits, en attente de la revue finale des réserves. 1.9 : 2 cycles (49 villes « à renforcer »).
+- **Dernière intégration (06/10, nuit)** : réponses 1.9 cycle 2 (Q19-01 et Q19-02 closes, restes en réserve) et **audit transversal 1.x d'Ether** : 15 villes ajoutées (France, Grande-Bretagne : `data/snapshot0/villes_1-x_audit_complements.json`), 23 sources ajoutées à 22 villes du lot 1.0, index de 299 dossiers de réserve. Nouvelle question Q19-03 (sources de l'audit illisibles ou partielles).
+- **Ether** : prochaine étape = réponse à Q19-03 si utile, puis **bilan groupé des réserves avec Guizmo** (pas de nouveau lot géographique). Financement : réveil quotidien.
+- **Sources** : registre v1.30, 887 sources ; 305 à valider par Guizmo, dont **161 importantes**. Page « Sources à valider » : sur claude.ai, ou `00_SOURCES_A_VALIDER.html` dans le dossier d'échange.
 - **Couches suivantes prévues** (une par une, chacune avec feu vert) : routes, rail, maritime, douanes, plaques d'immatriculation, anecdotes sur les flux, migrations ; puis janvier 1945.
-- **Réserves pour la revue finale** : 251 points (avec le 1.9) dans `00_RESERVES_A_TRANCHER.md`.
-- **Reste de la série 1.x** : **audit final** : cohérence de toute la série et **fiche de lecture en français de chaque source**. Puis revue des réserves avec Guizmo, puis feu vert pour la couche suivante.
+- **Réserves pour la revue finale** : 252 points dans `00_RESERVES_A_TRANCHER.md` (+ l'index de 299 dossiers de l'audit d'Ether).
+- **Reste de la série 1.x** : fiche de lecture en français de chaque source (guides d'Ether livrés avec l'audit : 860 notices), revue des réserves avec Guizmo, puis feu vert pour la couche suivante.

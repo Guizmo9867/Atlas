@@ -62,14 +62,18 @@ QUESTIONS_CLAUDE = {
          "Garder la réserve ; Guizmo peut valider la page de Spolète sur la page « Sources à valider »."),
     ],
     'villes_1-9': [
-        ("Q19-01 — Sources du lot 1.9 que l'outil de Claude ne lit pas",
-         "5 pages refusées à l'outil (sans contournement) : port d'Avilés (trop de redirections), capitale d'Andorre (403), fermeture du rail de Saint-Marin en 1944 (robots), musée du rail de Chypre (robots), histoire d'Arrecife (robots).",
-         "Les rôles qui n'ont que ces sources restent « À renforcer » (Avilés port, Andorre-la-Vieille capitale, rail chypriote, Arrecife).",
-         "Ether peut déposer des captures des passages (cycle 2) ; ou Guizmo valide sur la page « Sources à valider »."),
-        ("Q19-02 — Points du lot 1.9 non prouvés à la relecture",
-         "Carte Forcano 1942 : 24 villes non lisibles ou hors ligne exploitée (Séville nom coupé, Riotinto, Tharsis, Setúbal, Portalegre, Vila Real, Bragance, Chaves, Guimarães, Leiria, Medina del Campo, Eibar, Soria, Barbastro, Figueras, Igualada, Palamós, Sant Feliu de Guíxols, Sóller, Artà, Sa Pobla, Santanyí, Fregenal, Jerez de los Caballeros). Lectures partielles : Treccani Espagne et Portugal, chronologie CP (ferry Barreiro, port de Viana), Leixões (Matosinhos seulement lieu des chantiers), Horta (escales Pan Am depuis 1939, pas d'hydravion ni de fin), Gibraltar (port de commerce non dit), Vatican (administration), Chypre, Malte (La Valette capitale non citée), rapport de l'arsenal de Malte 1943, Puerto Cabras. Le PDF « armada » cité pour les arsenaux (Ferrol, Carthagène, San Fernando, Sestao, Puerto Real, Reinosa) parle d'un navire de 1747 : rien sur la SECN.",
-         "70 villes sur 238 gardent au moins un rôle « À renforcer » ; rien n'est retiré.",
-         "Ether peut répondre au cycle 2 (captures, autre source datée) ; sinon garder la réserve."),
+        ("Q19-01 — Sources du lot 1.9 que l'outil de Claude ne lit pas (close au cycle 2, restes en réserve)",
+         "Cycle 2 (06/10) : captures d'Avilés, d'Andorre-la-Vieille et de Saint-Marin déposées par Ether et lues par Claude : port d'Avilés, capitale d'Andorre-la-Vieille et fin du rail de Saint-Marin (26 juin 1944) prouvés. Restent sans capture : musée du rail de Chypre et histoire d'Arrecife (R19-C2-13).",
+         "Les rôles qui n'ont que ces deux sources restent « À renforcer ».",
+         "Garder la réserve ; Guizmo peut valider sur la page « Sources à valider »."),
+        ("Q19-02 — Points du lot 1.9 non prouvés à la relecture (close au cycle 2, restes en réserve)",
+         "Cycle 2 (06/10) : Séville, Riotinto, Tharsis, Fregenal, Jerez de los Caballeros, Setúbal, Vila Real, Bragance, Guimarães, Eibar et Figueras renforcés (gares, chronologie CP, captures Forcano). Restent sans preuve nouvelle : Chaves, Leiria, Medina del Campo, Soria, Barbastro, Igualada, Palamós, Sant Feliu de Guíxols, Sóller, Artà, Sa Pobla, Santanyí (R19-C2-01 à 12). Revue de l'Armada (bonne page, note 17) : localise les arsenaux, rien sur leur activité au 01/01/1945. Treccani : « Lisbona capitale » et « capoluogo » (La Valette) non restitués par l'outil ; Viana (1924) et ferry Barreiro (1973) non atteints sur la chronologie CP ; Famagouste (port), Senglea et Cospicua (militaire) non prouvés (R19-C2-14 à 18).",
+         "49 villes sur 238 gardent au moins un rôle « À renforcer » (70 avant) ; rien n'est retiré.",
+         "Garder la réserve ; Guizmo peut valider sur la page « Sources à valider » ; ou une autre source à la revue finale."),
+        ("Q19-03 — Audit transversal 1.x : sources illisibles ou partielles",
+         "18 sources de l'audit relues : 7 confirmées. Illisibles pour l'outil : Jeumont (PDF derrière une page anti-robots), Dijon (robots). Partielles : Hendaye (rôle frontalier non dit), Tours/Limoges (Limoges non nommée), Ruppenthal II-4 (Marseille, Toulon absents de la page), II-5 (Paris, Liège, Namur, Lyon, Dijon non retrouvés), I-3 (aucun des 8 ports britanniques nommé), Cherbourg (base navale non dite), Bastia (années non restituées).",
+         "Jeumont (rail, industrie), Dijon (rail), Limoges (rail) et Hendaye (frontalier) restent « À renforcer » ; les relations ajoutées aux villes du lot 1.0 portent la mention « (lecture partielle) ».",
+         "Ether peut déposer des captures des passages (cycle suivant) ; ou Guizmo valide sur la page « Sources à valider » ; ou garder la réserve."),
     ],
 }
 
@@ -146,7 +150,7 @@ def a_renforcer():
     for f in sorted(glob.glob(str(RACINE / 'data/snapshot0/villes_1-*.json'))):
         ents = json.load(open(f, encoding='utf-8')).get('entites', [])
         if not ents: continue
-        lot = re.search(r'villes_(1-\d+)', f).group(1)
+        lot = re.search(r'villes_(1-\d+|1-x)', f).group(1)
         n = sum('À renforcer' in e['etats'][0].get('proprietes', {}).get('note', '') for e in ents)
         res[lot] = (n, len(ents))
     return res
@@ -197,7 +201,7 @@ ar = a_renforcer()
 out += ["## Villes marquées « À renforcer » (rappel)", "",
         "Ce ne sont pas des décisions à prendre : ce sont des rôles (port, rail, industrie…) dont aucune preuve n'a encore été confirmée par la relecture de Claude. Ils se consolident au fil des lots et de la page « Sources à valider ».", "",
         "| Lot | Villes « À renforcer » | Villes du lot |", "|---|---|---|"]
-out += [f"| {k.replace('-', '.')} | {v[0]} | {v[1]} |" for k, v in ar.items()]
+out += [f"| {k.replace('-', '.').replace('1.x', '1.x (audit)')} | {v[0]} | {v[1]} |" for k, v in ar.items()]
 out += ["", f"**Total : {total} points à trancher.**", ""]
 texte = '\n'.join(out)
 (RACINE / 'docs/RESERVES_A_TRANCHER.md').write_text(texte, encoding='utf-8')

@@ -1,0 +1,543 @@
+{
+  "date": "2026-10-05T17:02:22.441815+02:00",
+  "statut": "controle_pieces_et_donnees",
+  "erreurs": [],
+  "dependances_avant_publication": [],
+  "canon_villes": 1544,
+  "canon_sources": 860,
+  "villes_proposees": 15,
+  "sources_nouvelles": 27,
+  "sources_nouvelles_par_dossier": {
+    "1.8c3": 5,
+    "1.9c2": 4,
+    "audit": 18
+  },
+  "complements_sources_par_dossier": {
+    "1.8c3": 1,
+    "1.9c2": 12,
+    "audit": 1
+  },
+  "corrections_par_dossier": {
+    "1.8c3": 7,
+    "1.9c2": 32,
+    "audit": 23
+  },
+  "reserves_dossiers": 299,
+  "guides_canoniques": 860,
+  "guides_nouvelles_sources": 27,
+  "fichiers": [
+    {
+      "chemin": "01_lots/villes_1-8/2026-10-05_ether_reponses_cycle3.md",
+      "sha256": "123c85c4b31bfd9b7e87ae9b346cb33f9b42adf7394e6c1633668253cc0c24cc",
+      "octets": 4582,
+      "usage": "document_cycle"
+    },
+    {
+      "chemin": "01_lots/villes_1-8/2026-10-05_ether_sources_reponses_cycle3_delta.json",
+      "sha256": "5fdf4d67c7508f389359b08b80c7b00c04e1fdfd9de029efe620b42038d89b84",
+      "octets": 20972,
+      "usage": "document_cycle"
+    },
+    {
+      "chemin": "01_lots/villes_1-8/2026-10-05_ether_corrections_cycle3.json",
+      "sha256": "af8b21267fceb7ab9062671f0fbebd82f196a04a230483e8bd18c553ffed4fbf",
+      "octets": 8176,
+      "usage": "document_cycle"
+    },
+    {
+      "chemin": "01_lots/villes_1-8/2026-10-05_ether_reserves_complement_cycle3.json",
+      "sha256": "15edfe42b3f98fccf3aa93fd741ca9a819572b8ed4edb753385d16fe2a5166f4",
+      "octets": 1840,
+      "usage": "document_cycle"
+    },
+    {
+      "chemin": "01_lots/villes_1-8/2026-10-05_ether_guide_sources_cycle3.md",
+      "sha256": "7b4116cbe7829933a4a2b407d3c53c0dca710aa226511a4cfdfffd3e91547dbc",
+      "octets": 4858,
+      "usage": "document_cycle"
+    },
+    {
+      "chemin": "01_lots/villes_1-8/2026-10-05_ether_index_preuves_cycle3.json",
+      "sha256": "4135da7019e1ee291be3f2e1b542b61eae65336c896978416955b9166b203aaf",
+      "octets": 852,
+      "usage": "document_cycle"
+    },
+    {
+      "chemin": "01_lots/villes_1-8/2026-10-05_ether_C3_Braila_ExLibris17.pdf",
+      "sha256": "c367f462f1e2ac1c95788c9761aaa232f5a8d6d1f8c5d1da2442f47dfea3e5d5",
+      "octets": 6993456,
+      "usage": "preuve_locale"
+    },
+    {
+      "chemin": "01_lots/villes_1-8/2026-10-05_ether_C3_Braila_p36.png",
+      "sha256": "b9aabf29de471b782f1d626074fae0b5d4927fe02b734b4e4233e408a129f04c",
+      "octets": 147090,
+      "usage": "preuve_locale",
+      "dimensions": [
+        1323,
+        1871
+      ]
+    },
+    {
+      "chemin": "01_lots/villes_1-8/2026-10-04_ether_C2_RE_2_3_3_vue2.jpg",
+      "sha256": "3c8e24e8e56dc200d42e34dc36bd186daafab11ca98b94f1248056e0c8391a9d",
+      "octets": 303889,
+      "usage": "preuve_locale",
+      "dimensions": [
+        1264,
+        1500
+      ]
+    },
+    {
+      "chemin": "01_lots/villes_1-8/2026-10-04_ether_C2_RE_2_3_3_vue3.jpg",
+      "sha256": "74d0f1a2f788b31346b1e8f9c00c98361832d6a62edc02c9fe10e3e3307ce09d",
+      "octets": 377184,
+      "usage": "preuve_locale",
+      "dimensions": [
+        1264,
+        1500
+      ]
+    },
+    {
+      "chemin": "01_lots/villes_1-9/2026-10-05_ether_reponses_cycle2.md",
+      "sha256": "abc35b416f53d365222fd8893ff421ae3a55c20ee48965f35db424dff243476f",
+      "octets": 7439,
+      "usage": "document_cycle"
+    },
+    {
+      "chemin": "01_lots/villes_1-9/2026-10-05_ether_sources_reponses_cycle2_delta.json",
+      "sha256": "25a6d18b9dc500aae9468ae0bb93464332b9f727064f465568d9cc05c1587eac",
+      "octets": 161921,
+      "usage": "document_cycle"
+    },
+    {
+      "chemin": "01_lots/villes_1-9/2026-10-05_ether_corrections_cycle2.json",
+      "sha256": "b5fa18c2b8a0d9b407001b15c1f8376bdbd7d2791d4e43e1514796c39358175c",
+      "octets": 20974,
+      "usage": "document_cycle"
+    },
+    {
+      "chemin": "01_lots/villes_1-9/2026-10-05_ether_reserves_complement_cycle2.json",
+      "sha256": "00fea63616572842b515d5fe20452f6c3dc315d964e9b48a68bc37ffce87cc3d",
+      "octets": 13335,
+      "usage": "document_cycle"
+    },
+    {
+      "chemin": "01_lots/villes_1-9/2026-10-05_ether_guide_sources_cycle2.md",
+      "sha256": "2aad94be54dc68840295100d9960ee8ae76676fdb8ef5b05b1ff1bb34b96d095",
+      "octets": 14257,
+      "usage": "document_cycle"
+    },
+    {
+      "chemin": "01_lots/villes_1-9/2026-10-05_ether_index_preuves_cycle2.json",
+      "sha256": "890b041917013f6e7e043dcb08ccdbb3acff4ea69d7f6006d0e478d97e020c90",
+      "octets": 6729,
+      "usage": "document_cycle"
+    },
+    {
+      "chemin": "01_lots/villes_1-9/2026-10-05_ether_C2_aviles_XIX.png",
+      "sha256": "6bb4c738a0cff4879e6bf362a125406cc2ebd429eb03e8d1cf325dbd0befb2e6",
+      "octets": 128069,
+      "usage": "preuve_locale",
+      "dimensions": [
+        1253,
+        705
+      ]
+    },
+    {
+      "chemin": "01_lots/villes_1-9/2026-10-05_ether_C2_aviles_XX.png",
+      "sha256": "7dfb846c7b4ce2a8d33ca4b3274959f6d913806e864ff7aa0487eb702150dfb5",
+      "octets": 88524,
+      "usage": "preuve_locale",
+      "dimensions": [
+        1253,
+        705
+      ]
+    },
+    {
+      "chemin": "01_lots/villes_1-9/2026-10-05_ether_C2_andorre_capitale_lecture.png",
+      "sha256": "547f3fbaa7738964343ee97c03c25d795b40455fd37a15d18a059af564fc2d79",
+      "octets": 149341,
+      "usage": "preuve_locale",
+      "dimensions": [
+        1265,
+        712
+      ]
+    },
+    {
+      "chemin": "01_lots/villes_1-9/2026-10-05_ether_C2_saint_marin_1944.png",
+      "sha256": "f4db4cd5001c0039011478b4847bee00a5464d32e8a824cc6eb7833398bdbe62",
+      "octets": 78924,
+      "usage": "preuve_locale",
+      "dimensions": [
+        1265,
+        712
+      ]
+    },
+    {
+      "chemin": "01_lots/villes_1-9/2026-10-05_ether_C2_armada133_page101.png",
+      "sha256": "e94b268a880445406d9bb6ec290ca02eda53340300fdb919656e20b776424184",
+      "octets": 405950,
+      "usage": "preuve_locale",
+      "dimensions": [
+        998,
+        1395
+      ]
+    },
+    {
+      "chemin": "01_lots/villes_1-9/2026-10-05_ether_C2_eibar_page1.png",
+      "sha256": "243d0887ba216cfb2ec6fad5058bd4cbd9c85b5404fb54909de9eb98c66e2fad",
+      "octets": 320746,
+      "usage": "preuve_locale",
+      "dimensions": [
+        992,
+        1404
+      ]
+    },
+    {
+      "chemin": "01_lots/villes_1-9/2026-10-05_ether_C2_eibar_page2.png",
+      "sha256": "e18e0370dd131a8627fb70ffe4939f5be582650ba5638155b7a2f6b65a047d6e",
+      "octets": 348988,
+      "usage": "preuve_locale",
+      "dimensions": [
+        992,
+        1404
+      ]
+    },
+    {
+      "chemin": "01_lots/villes_1-9/2026-10-05_ether_C2_figueres_page1.png",
+      "sha256": "722b316774e3908afc763342769a59aaa93ad3c8c74dd4d523da45894c1d5b95",
+      "octets": 597173,
+      "usage": "preuve_locale",
+      "dimensions": [
+        1002,
+        1382
+      ]
+    },
+    {
+      "chemin": "01_lots/villes_1-9/2026-10-05_ether_C2_jerez_page52.png",
+      "sha256": "abddd048c133afd83aa8f4371e76621dab1f5667ce1f31ad6f610f36b39496cf",
+      "octets": 158756,
+      "usage": "preuve_locale",
+      "dimensions": [
+        1404,
+        992
+      ]
+    },
+    {
+      "chemin": "01_lots/villes_1-9/2026-10-05_ether_C2_Forcano_legende_couleurs_lecture.png",
+      "sha256": "d98fff356322359fb0b2e46cea30be50ae85bd34e4c9693790fc39e183964197",
+      "octets": 163115,
+      "usage": "preuve_locale",
+      "dimensions": [
+        1265,
+        712
+      ]
+    },
+    {
+      "chemin": "01_lots/villes_1-9/2026-10-05_ether_C2_Forcano_Riotinto_Fregenal.png",
+      "sha256": "30cbd32cddd7ab4bbd56adfe3fdccfa5e250c394a726a7ddc2d6a8bbf5970e70",
+      "octets": 233402,
+      "usage": "preuve_locale",
+      "dimensions": [
+        1265,
+        712
+      ]
+    },
+    {
+      "chemin": "01_lots/villes_1-9/2026-10-05_ether_C2_Forcano_Tharsis.png",
+      "sha256": "77c1f8630fdb3b94309a84411642ac01813357b4d9d1ef24efff6c862ba6eb01",
+      "octets": 199514,
+      "usage": "preuve_locale",
+      "dimensions": [
+        1265,
+        712
+      ]
+    },
+    {
+      "chemin": "01_lots/villes_1-9/2026-10-05_ether_C2_Forcano_Setubal.png",
+      "sha256": "e8e0579cf52c42443ba479edecede28f643b02dc46525d242d3d787aab30607d",
+      "octets": 189658,
+      "usage": "preuve_locale",
+      "dimensions": [
+        1265,
+        712
+      ]
+    },
+    {
+      "chemin": "01_lots/villes_1-9/2026-10-05_ether_C2_armada133.pdf",
+      "sha256": "406abf005636890f96a37c87bf78651ccadfe2ea6516e9532075f0e458f9942e",
+      "octets": 3488022,
+      "usage": "pdf_complet_acces_local"
+    },
+    {
+      "chemin": "01_lots/villes_1-9/2026-10-05_ether_C2_eibar.pdf",
+      "sha256": "67d0ecd4cedfc2cf16f99d6ebd1a3707146ca15b2e11c2b84f709fcc507821ee",
+      "octets": 104266,
+      "usage": "pdf_complet_acces_local"
+    },
+    {
+      "chemin": "01_lots/villes_1-9/2026-10-05_ether_C2_figueres.pdf",
+      "sha256": "55883cc5cefb26c39db555c8ff0037be95051541a0f3bf708da864d13744cb15",
+      "octets": 1964339,
+      "usage": "pdf_complet_acces_local"
+    },
+    {
+      "chemin": "01_lots/villes_1-9/2026-10-05_ether_C2_jerez.pdf",
+      "sha256": "81d4241caf9d5e98e03a94883250d08990b70ce62b374527a3aeda4cc766f38a",
+      "octets": 227875,
+      "usage": "pdf_complet_acces_local"
+    },
+    {
+      "chemin": "01_lots/villes_1-9/2026-10-05_ether_audit_bilan.md",
+      "sha256": "1022d84670c092c39e3dcea9275337a623359394584d1a15675f48f0be6d4860",
+      "octets": 4991,
+      "usage": "document_audit"
+    },
+    {
+      "chemin": "01_lots/villes_1-9/2026-10-05_ether_audit_complements_villes.json",
+      "sha256": "7026e4a61dcec616707bd9b8818b65fae9c4bca3be10c98fa9a0e1b6db534b54",
+      "octets": 31873,
+      "usage": "document_audit"
+    },
+    {
+      "chemin": "01_lots/villes_1-9/2026-10-05_ether_audit_sources_delta.json",
+      "sha256": "25bdd02aec9529aea8929487579601e8c7e02a862abb8dafd431de4a6509e280",
+      "octets": 297205,
+      "usage": "document_audit"
+    },
+    {
+      "chemin": "01_lots/villes_1-9/2026-10-05_ether_audit_corrections.json",
+      "sha256": "3497937c1785e7ed97baa22594bd81ce005b1d37f326f20d24df65cfb5a3d0ce",
+      "octets": 20832,
+      "usage": "document_audit"
+    },
+    {
+      "chemin": "01_lots/villes_1-9/2026-10-05_ether_audit_controle_complements.json",
+      "sha256": "fe473e27b6f94c353fc8e3345a09bfb9fb8dcc057434c42c25ecbb4619a97e33",
+      "octets": 1023,
+      "usage": "document_audit"
+    },
+    {
+      "chemin": "01_lots/villes_1-9/2026-10-05_ether_audit_guide_complements.md",
+      "sha256": "a9748e223500544f89a3817ec9800a0ead7ff0138743cc652b22317e8d14fa6a",
+      "octets": 15474,
+      "usage": "document_audit"
+    },
+    {
+      "chemin": "01_lots/villes_1-9/2026-10-05_ether_audit_grille_transversale.json",
+      "sha256": "189f86310ad7645e392775f7295d017722b0305db96eedf3a4bbd2de06e96380",
+      "octets": 521352,
+      "usage": "document_audit"
+    },
+    {
+      "chemin": "01_lots/villes_1-9/2026-10-05_ether_audit_grille_transversale.md",
+      "sha256": "4f4b55d365a096b458fcd83a8ca805c35e7a5b094a3e6793a573572959eba422",
+      "octets": 3272,
+      "usage": "document_audit"
+    },
+    {
+      "chemin": "01_lots/villes_1-9/2026-10-05_ether_audit_alertes_fiches.json",
+      "sha256": "3b798d9841dfac3835965f4fa4d812cdcdd645d234af03f732e5b843398dea0a",
+      "octets": 5724409,
+      "usage": "document_audit"
+    },
+    {
+      "chemin": "01_lots/villes_1-9/2026-10-05_ether_audit_corridors.json",
+      "sha256": "f6e13c4bc1e89b0e7487dbfa3eb732eb5876fd10668275b521ff8ce2102afe26",
+      "octets": 14116,
+      "usage": "document_audit"
+    },
+    {
+      "chemin": "01_lots/villes_1-9/2026-10-05_ether_audit_corridors.md",
+      "sha256": "44cea4300ec1ce88f52a9d07e094dd3cb17d98b087d50d972c48c23f6ee56037",
+      "octets": 6766,
+      "usage": "document_audit"
+    },
+    {
+      "chemin": "01_lots/villes_1-9/2026-10-05_ether_audit_inventaire_provisoire.json",
+      "sha256": "9508578214bad5e6c3a4348e91a20781ff565da8971396a18ccd66fd9f28bd9a",
+      "octets": 2291749,
+      "usage": "document_audit"
+    },
+    {
+      "chemin": "01_lots/villes_1-9/2026-10-05_ether_index_reserves_audit.json",
+      "sha256": "627d99499929ef139de28e454ff13edac35e8825e9577e2835bc55b091dfe4ac",
+      "octets": 397871,
+      "usage": "document_audit"
+    },
+    {
+      "chemin": "01_lots/villes_1-9/2026-10-05_ether_index_reserves_audit.md",
+      "sha256": "86b443e9a90ecf38c551983b92241b3ddd63c63fe8fb7b789875417ef188bc36",
+      "octets": 218823,
+      "usage": "document_audit"
+    },
+    {
+      "chemin": "01_lots/villes_1-9/2026-10-05_ether_guides_sources_audit.json",
+      "sha256": "ae7402c7d36b74e599b1555f949b6cf66d2119077b1b2dde59c7f5038562804a",
+      "octets": 2491586,
+      "usage": "document_audit"
+    },
+    {
+      "chemin": "01_lots/villes_1-9/2026-10-05_ether_guides_sources_audit.md",
+      "sha256": "030f48f335810c54d6c4d98634c9543601e73267f2b6a06ed1fa2784e34caa3d",
+      "octets": 996135,
+      "usage": "document_audit"
+    },
+    {
+      "chemin": "01_lots/villes_1-9/2026-10-05_ether_guides_sources_proposees.json",
+      "sha256": "2cc3761da6416e76a53444e4bd265bb3651dbfd93b6ad4eafda65a7be9b2c966",
+      "octets": 69203,
+      "usage": "document_audit"
+    },
+    {
+      "chemin": "01_lots/villes_1-9/2026-10-05_ether_guide_sources_cycle2.json",
+      "sha256": "abde9bec0067f57be30b95f47e100e5ef1f4a40f31ea5fc903b870efa88f843d",
+      "octets": 17313,
+      "usage": "document_audit"
+    },
+    {
+      "chemin": "01_lots/villes_1-9/2026-10-05_ether_audit_carnet.json",
+      "sha256": "d36a7da1c076f5c22cf96ee0808572fed700c42ccf845303cf82d3c5c4e36a69",
+      "octets": 73345,
+      "usage": "document_audit"
+    }
+  ],
+  "nombre_pieces": 52,
+  "baseline_canon_et_retours": [
+    {
+      "path": "C:\\Users\\guill\\Documents\\GitHub\\Atlas\\data\\snapshot0\\villes_1-0_france_benelux_iles_britanniques.json",
+      "sha256": "96a31d809df8041aa5f8690e7358a291f927bfc0d8d871b80528f2316bc615c1"
+    },
+    {
+      "path": "C:\\Users\\guill\\Documents\\GitHub\\Atlas\\data\\snapshot0\\villes_1-1_nordiques.json",
+      "sha256": "45873f3d26e30a6a2b6a6a66ede9666e72dcd8ad52831888d0f0460bb966d3e0"
+    },
+    {
+      "path": "C:\\Users\\guill\\Documents\\GitHub\\Atlas\\data\\snapshot0\\villes_1-2_allemagne_alpes.json",
+      "sha256": "fdb5d7a725b05c14feb49e5f8b983f7894bc00d7dbe8522f3dd736bc159cb78a"
+    },
+    {
+      "path": "C:\\Users\\guill\\Documents\\GitHub\\Atlas\\data\\snapshot0\\villes_1-3_tchequie_slovaquie_hongrie.json",
+      "sha256": "ea40e1a90cafefcd35c2ccbc88524da6d3b17430b4563e6cdb993edac9669a98"
+    },
+    {
+      "path": "C:\\Users\\guill\\Documents\\GitHub\\Atlas\\data\\snapshot0\\villes_1-4_pologne_baltique.json",
+      "sha256": "e4dc70b5a90daa4c1756b885336fe42ab4899ce70b416249cde8b4123efebb8a"
+    },
+    {
+      "path": "C:\\Users\\guill\\Documents\\GitHub\\Atlas\\data\\snapshot0\\villes_1-5_europe_orientale.json",
+      "sha256": "99c48621a25d61fcd3c6ea8bb4852d5df7a406666edf6b961cf2ffd64cade094"
+    },
+    {
+      "path": "C:\\Users\\guill\\Documents\\GitHub\\Atlas\\data\\snapshot0\\villes_1-6_asie_sovietique_mongolie.json",
+      "sha256": "1f44823089840d4dae87cda9da12bb39e91ba52e34dfbf4324460daad596c9d7"
+    },
+    {
+      "path": "C:\\Users\\guill\\Documents\\GitHub\\Atlas\\data\\snapshot0\\villes_1-7_caucase_turquie.json",
+      "sha256": "aab208951377d8826c34a3c310b5f9ccf9463f01d71ff0a93bdfd2b25b2ba2c5"
+    },
+    {
+      "path": "C:\\Users\\guill\\Documents\\GitHub\\Atlas\\data\\snapshot0\\villes_1-8_balkans_grece_italie.json",
+      "sha256": "87db5845b1d0cadf9794fe507eea873d195584c7cb4c4daa358b1cc0348083f4"
+    },
+    {
+      "path": "C:\\Users\\guill\\Documents\\GitHub\\Atlas\\data\\snapshot0\\villes_1-9_iberie_marges.json",
+      "sha256": "67eb951bc05d5cd1fe8219288d59480d5221d57c61b7012a8b6429b64c62a599"
+    },
+    {
+      "path": "C:\\Users\\guill\\Documents\\GitHub\\Atlas\\data\\sources\\atlas_registre_sources.json",
+      "sha256": "f72181d290e5abc2678c25fd211288534eee35522db9dcc34a472cb7e5e0dc93"
+    },
+    {
+      "path": "C:\\Users\\guill\\Desktop\\Atlas\\00_claude_en_cours.json",
+      "sha256": "3185b99859b2b1c939a4b615ede9e9819edfb22d205558d1fe30ce49005e9463"
+    },
+    {
+      "path": "C:\\Users\\guill\\Desktop\\Atlas\\00_TABLEAU_DE_BORD.md",
+      "sha256": "7a2ab5efc548ef75f1ebce19c06c20d4098abe4bd604853937ad7247363e5786"
+    },
+    {
+      "path": "C:\\Users\\guill\\Desktop\\Atlas\\02_references\\JOURNAL_DECISIONS.md",
+      "sha256": "24348491a23bc70f5f4149cfcc24b54e9f9e40b736306b8c73ba169d1bde2e2c"
+    },
+    {
+      "path": "C:\\Users\\guill\\Desktop\\Atlas\\01_lots\\villes_1-7\\00_claude_README_du_lot.md",
+      "sha256": "8b81fda8cb5cc07380d173eb13fc335ace399aef936dcd4bac7dc9fa8dd8dfbb"
+    },
+    {
+      "path": "C:\\Users\\guill\\Desktop\\Atlas\\01_lots\\villes_1-7\\2026-10-03_ether_pour_claude_cycle1.md",
+      "sha256": "6afaae4fb02a0e99e6faf09a4a09890bcbedcfdb0dfb47ad55353fdb83754e71"
+    },
+    {
+      "path": "C:\\Users\\guill\\Desktop\\Atlas\\01_lots\\villes_1-7\\2026-10-04_claude_compte_rendu_1.md",
+      "sha256": "77a7ed449fa6afa902e5426f467bb7b3af0c69d0b20b59398b7742a9048f23c1"
+    },
+    {
+      "path": "C:\\Users\\guill\\Desktop\\Atlas\\01_lots\\villes_1-7\\2026-10-04_claude_compte_rendu_2_reponses.md",
+      "sha256": "81b2fcc047be391e06d4cf1de6554ff195b9fda9bf3e3376f11ee2d5a18f203f"
+    },
+    {
+      "path": "C:\\Users\\guill\\Desktop\\Atlas\\01_lots\\villes_1-7\\2026-10-05_claude_compte_rendu_3_reponses.md",
+      "sha256": "2918816440db5910f2dc76f2ac0b31f93721872fc13a17ee6ca48720ee991d04"
+    },
+    {
+      "path": "C:\\Users\\guill\\Desktop\\Atlas\\01_lots\\villes_1-7\\PRET_claude.md",
+      "sha256": "03a8aa91ca48ee8e1893408c2b86d0f6a64a7b75fa2260de85fcc777df6b11c2"
+    },
+    {
+      "path": "C:\\Users\\guill\\Desktop\\Atlas\\01_lots\\villes_1-7\\STATUT.json",
+      "sha256": "39bd528548398f8735487b70bfc9a90020ab63761f6983e9ad17bade55a21323"
+    },
+    {
+      "path": "C:\\Users\\guill\\Desktop\\Atlas\\01_lots\\villes_1-8\\00_claude_README_du_lot.md",
+      "sha256": "ab21a9637130e1e73731953482e6aa7874b92091a2fa2ccc0ee95ffe43d880e1"
+    },
+    {
+      "path": "C:\\Users\\guill\\Desktop\\Atlas\\01_lots\\villes_1-8\\2026-10-04_claude_compte_rendu_1.md",
+      "sha256": "30dd05990039bd9c441ba88f756516b0f0771e5f2d4d0ef34ecae13874a3bad6"
+    },
+    {
+      "path": "C:\\Users\\guill\\Desktop\\Atlas\\01_lots\\villes_1-8\\2026-10-04_ether_pour_claude_cycle1.md",
+      "sha256": "650f377612bffc3ef74f506ff0ecdd6dd2445b6f6b0ddf0305dc9647ab4f218d"
+    },
+    {
+      "path": "C:\\Users\\guill\\Desktop\\Atlas\\01_lots\\villes_1-8\\2026-10-05_claude_compte_rendu_2_reponses.md",
+      "sha256": "d9e545a4f1f3857d8d542a21461d885b46ad04cdab3d9d4f6b66e8051cfb933c"
+    },
+    {
+      "path": "C:\\Users\\guill\\Desktop\\Atlas\\01_lots\\villes_1-8\\PRET_claude.md",
+      "sha256": "d478be492fc67d89eb096bc033ead50005ab408592c360763092264a0a91bed9"
+    },
+    {
+      "path": "C:\\Users\\guill\\Desktop\\Atlas\\01_lots\\villes_1-8\\STATUT.json",
+      "sha256": "87a9bf91bdb84381e068f7c1a07799f7403efcec82276a2be1633b027710e1ef"
+    },
+    {
+      "path": "C:\\Users\\guill\\Desktop\\Atlas\\01_lots\\villes_1-9\\00_claude_README_du_lot.md",
+      "sha256": "be877519515d19cdae1257585235174df1a213ea250af580013bd9c0647d27a8"
+    },
+    {
+      "path": "C:\\Users\\guill\\Desktop\\Atlas\\01_lots\\villes_1-9\\2026-10-05_claude_compte_rendu_1.md",
+      "sha256": "2c0d2932ab156fdb02891de14f092ee5978db0e863097df5574c5a62619c2667"
+    },
+    {
+      "path": "C:\\Users\\guill\\Desktop\\Atlas\\01_lots\\villes_1-9\\2026-10-05_ether_pour_claude_cycle1.md",
+      "sha256": "dab35dea934aa35c9aeb749fcbbee9d63cb33d3aedf05b11b5244be7778cc789"
+    },
+    {
+      "path": "C:\\Users\\guill\\Desktop\\Atlas\\01_lots\\villes_1-9\\PRET_claude.md",
+      "sha256": "ff0a3a31d0e6cbd18937464ec404ca2c35abeda37a88efa5bc839fd5b20009af"
+    },
+    {
+      "path": "C:\\Users\\guill\\Desktop\\Atlas\\01_lots\\villes_1-9\\STATUT.json",
+      "sha256": "2364e5af834f346f499ea32d116786d088556c801ff30cefb285b2f5e3b45a2a"
+    }
+  ],
+  "limites": [
+    "Contrôle technique et documentaire Ether ; pas une validation humaine ni une intégration.",
+    "Toutes les réserves demeurent ; aucun service effectif de fin 1944 généralisé.",
+    "Copies de lecture locales hors dépôt ; seules références et paraphrases destinées au corpus.",
+    "Une dépendance externe doit être levée avant les marqueurs de remise."
+  ]
+}

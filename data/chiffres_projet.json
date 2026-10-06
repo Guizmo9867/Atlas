@@ -1,16 +1,16 @@
 {
- "genere_le": "2026-10-05 15:22",
+ "genere_le": "2026-10-06 04:16",
  "snapshot0": {
   "date_representee": "1945-01-01 00:00 (dernier état connu avant)",
   "territoires": 74,
   "lignes_de_front": 4,
   "frontieres_tracees": 1,
   "geometries": 77,
-  "villes": 1544,
+  "villes": 1559,
   "villes_par_rang": {
    "A": 85,
-   "B": 611,
-   "C": 848
+   "B": 621,
+   "C": 853
   },
   "capitales": {
    "nationale": 30,
@@ -18,15 +18,15 @@
    "territoire": 6
   },
   "villes_avec_nom_de_1945_different": 212,
-  "villes_avec_reserve_a_renforcer": 438,
+  "villes_avec_reserve_a_renforcer": 421,
   "roles_de_villes": {
-   "rail": 1131,
-   "industrie": 413,
-   "port_maritime": 245,
+   "rail": 1144,
+   "industrie": 415,
+   "port_maritime": 247,
    "administration": 243,
    "port_fluvial": 100,
    "capitale": 64,
-   "frontalier": 39,
+   "frontalier": 42,
    "militaire": 37,
    "aviation": 32,
    "charbon": 23,
@@ -236,7 +236,7 @@
    },
    {
     "fichier": "villes_1-9_iberie_marges.json",
-    "version": "0.1",
+    "version": "0.2",
     "zone": [
      "Alentejo",
      "Algarve",
@@ -282,29 +282,37 @@
     "entites": {
      "ville": 238
     }
+   },
+   {
+    "fichier": "villes_1-x_audit_complements.json",
+    "version": "0.1",
+    "zone": "Compléments de couverture du lot 1.0 (France, Grande-Bretagne) proposés par l'audit transversal 1.x d'Ether",
+    "entites": {
+     "ville": 15
+    }
    }
   ]
  },
  "sources": {
-  "registre_version": "1.28",
-  "total": 865,
+  "registre_version": "1.30",
+  "total": 887,
   "relecture_claude": {
-   "ok": 565,
-   "limite": 151,
-   "non_verifiee": 134,
+   "ok": 579,
+   "limite": 160,
+   "non_verifiee": 133,
    "faible": 7,
    "lien_casse": 8
   },
   "niveaux": {
-   "A": 157,
-   "B": 675,
+   "A": 158,
+   "B": 696,
    "C": 33
   },
-  "en_attente_de_validation_humaine": 297,
+  "en_attente_de_validation_humaine": 305,
   "validees_par_guizmo": 3
  },
  "historique": {
-  "envois_github": 51,
+  "envois_github": 52,
   "premier_envoi": "2026-09-28",
   "dernier_envoi": "2026-10-05",
   "depot_public": "https://github.com/Guizmo9867/Atlas"

@@ -1,5 +1,5 @@
 {
- "version_registre": "1.28",
+ "version_registre": "1.30",
  "sources": [
   {
    "id": "src-12a-chemnitz-industrie",
@@ -517,27 +517,6 @@
    ]
   },
   {
-   "id": "src-19-ad-capitale",
-   "groupe": "a_lire",
-   "statut_claude": "non_verifiee",
-   "niveau": "B",
-   "titre": "Història del Comú",
-   "institution": "Comú d’Andorra la Vella",
-   "url": "https://www.andorralavella.ad/comu/historia-del-comu",
-   "ou_regarder": "Capitalité depuis le XVe siècle ; Casa de la Vall, 1702",
-   "extrait": "",
-   "notes": "Proposée par Ether (villes 1.9, 05/10/2026). Ce que la source prouve selon Ether : ville-ad-andorre-la-vieille : administration, capitale. Limite annoncée par Ether :  Cibles différées : recherche conservée, hors import. Aucune validation humaine présumée. Relecture Claude 05/10/2026 : WebFetch a renvoyé une erreur 403 ; aucun contournement tenté. Capitalité non vérifiée.",
-   "domaine": "villes",
-   "villes": [
-    "Andorre-la-Vieille"
-   ],
-   "remplacee_par": [],
-   "priorite": "importante",
-   "impact": [
-    "Andorre-la-Vieille (capitale)"
-   ]
-  },
-  {
    "id": "src-19-es-arrecife-histoire",
    "groupe": "a_lire",
    "statut_claude": "non_verifiee",
@@ -556,27 +535,6 @@
    "priorite": "importante",
    "impact": [
     "Arrecife (administration, port_maritime)"
-   ]
-  },
-  {
-   "id": "src-19-es-aviles-port",
-   "groupe": "a_lire",
-   "statut_claude": "non_verifiee",
-   "niveau": "B",
-   "titre": "Breve historia del Puerto de Avilés",
-   "institution": "Autoridad Portuaria de Avilés",
-   "url": "https://www.puertoaviles.es/es-ES/autoridad_portuaria/presentacion/historia/",
-   "ou_regarder": "XIXe siècle et Junta de Obras de 1915",
-   "extrait": "",
-   "notes": "Proposée par Ether (villes 1.9, 05/10/2026). Ce que la source prouve selon Ether : ville-es-aviles : port_maritime. Limite annoncée par Ether : ENSIDESA apparaît dans les années 1950 : exclue du Snapshot. Cibles différées : recherche conservée, hors import. Aucune validation humaine présumée. Relecture Claude 05/10/2026 : WebFetch a échoué deux fois (Too many redirects) ; aucun contournement tenté. Charbon XIXe et Junta de Obras 1915 non vérifiés.",
-   "domaine": "villes",
-   "villes": [
-    "Avilés"
-   ],
-   "remplacee_par": [],
-   "priorite": "importante",
-   "impact": [
-    "Avilés (port_maritime)"
    ]
   },
   {
@@ -674,6 +632,27 @@
    "impact": [
     "Tiksi (port_fluvial, port_maritime)",
     "Katchoug (port_fluvial)"
+   ]
+  },
+  {
+   "id": "src-audit1x-fr-jeumont",
+   "groupe": "a_lire",
+   "statut_claude": "non_verifiee",
+   "niveau": "B",
+   "titre": "Présentation de la commune de Jeumont, dossierIA59001366",
+   "institution": "Inventaire général du patrimoine culturel, Hauts-de-France",
+   "url": "https://inventaire.hautsdefrance.fr/dossier/pdf/b944ab33-b2bb-4e71-8025-c755a10609ca/presentation-de-la-commune-de-jeumont.pdf",
+   "ou_regarder": "p.1, Historique",
+   "extrait": "",
+   "notes": "Proposée par Ether (audit transversal 1.x, 05/10/2026). Rôle urbain historique ; service, accès et capacités au Snapshot non déduits. Repère actuel à contrôler séparément. Le HTML affichait un contrôle de connexion ; le PDF public a été lu. Ne pas transférer des activités d’autres communes. La reconstruction de la gare après la Première Guerre mondiale et les logements des ingénieurs FACEJ en1932 sont nommés ; les logements de cheminots de1919–1925 sont à Marpent, pas à Jeumont. La verrerie déplacée à Boussois ne prouve pas une activité jeumontoise en1945. Relecture Claude 05/10/2026 : PDF derrière une page anti-robots (JavaScript requis) ; non contourné.",
+   "domaine": "villes",
+   "villes": [
+    "Jeumont"
+   ],
+   "remplacee_par": [],
+   "priorite": "importante",
+   "impact": [
+    "Jeumont (rail)"
    ]
   },
   {
@@ -2713,7 +2692,7 @@
    "url": "https://www.treccani.it/enciclopedia/cipro_(Enciclopedia-Italiana)/",
    "ou_regarder": "Governo e centri principali ; Morfologia ; Produzione",
    "extrait": "Famagosta (v.), che l'unica ferrovia dell'isola collega (km. 122) a Nicosia e Morphou, non è oggi che l'ombra di quello che fu in passato",
-   "notes": "Proposée par Ether (villes 1.9, 05/10/2026). Ce que la source prouve selon Ether : ville-cy-nicosie : administration, capitale, rail ; ville-cy-larnaca : administration, port_maritime ; ville-cy-limassol : administration, industrie, port_maritime ; ville-cy-famagouste : administration, port_maritime, rail ; ville-cy-paphos : administration ; ville-cy-kyrenia : administration, port_maritime ; ville-cy-morphou : rail. Limite annoncée par Ether : Six chefs-lieux ; ports et voie ferrée nommés localement. Cibles différées : recherche conservée, hors import. Aucune validation humaine présumée. Relecture Claude 05/10/2026 : Prouvé : Nicosie capitale/siège du gouvernement et chef-lieu de district ; 6 districts (administration pour Nicosie, Larnaca, Limassol, Famagouste, Paphos, Kyrenia) ; Larnaca second port ; Limassol port principal et eau-de-vie/vinaigre (industrie, faible) ; Kyrenia petit port ; chemin de fer unique reliant Famagouste, Nicosie et Morphou. Non prouvé par la page : port_maritime de Famagouste (aucune citation sur son port obtenue). Morphou : seule la baie de Morphou est citée (trafic), la gare/ligne l'est via la phrase sur Famagosta. Paphos : seulement district (Ktima).",
+   "notes": "Proposée par Ether (villes 1.9, 05/10/2026). Ce que la source prouve selon Ether : ville-cy-nicosie : administration, capitale, rail ; ville-cy-larnaca : administration, port_maritime ; ville-cy-limassol : administration, industrie, port_maritime ; ville-cy-famagouste : administration, port_maritime, rail ; ville-cy-paphos : administration ; ville-cy-kyrenia : administration, port_maritime ; ville-cy-morphou : rail. Limite annoncée par Ether : Six chefs-lieux ; ports et voie ferrée nommés localement. Cibles différées : recherche conservée, hors import. Aucune validation humaine présumée. Relecture Claude 05/10/2026 : Prouvé : Nicosie capitale/siège du gouvernement et chef-lieu de district ; 6 districts (administration pour Nicosie, Larnaca, Limassol, Famagouste, Paphos, Kyrenia) ; Larnaca second port ; Limassol port principal et eau-de-vie/vinaigre (industrie, faible) ; Kyrenia petit port ; chemin de fer unique reliant Famagouste, Nicosie et Morphou. Non prouvé par la page : port_maritime de Famagouste (aucune citation sur son port obtenue). Morphou : seule la baie de Morphou est citée (trafic), la gare/ligne l'est via la phrase sur Famagosta. Paphos : seulement district (Ktima). Complément d'Ether (villes 1.9, cycle 2, 05/10/2026) : localisateur proposé « Governo e centri principali : Nicosia, six districts, ligne Famagosta–Nicosia–Morphou. ». Relecture Claude 05/10/2026 : Nicosie capitale et siège du gouvernement ; ligne unique Famagouste–Nicosie–Morphou (122 km). Rien sur le port de Famagouste dans ce passage. (statut : limite -> limite).",
    "domaine": "villes",
    "villes": [
     "Nicosie",
@@ -2728,88 +2707,6 @@
    "priorite": "importante",
    "impact": [
     "Famagouste (port_maritime)"
-   ]
-  },
-  {
-   "id": "src-19-es-armada-secn",
-   "groupe": "partielle",
-   "statut_claude": "faible",
-   "niveau": "B",
-   "titre": "Revista de Historia Naval 133 (2016)",
-   "institution": "Instituto de Historia y Cultura Naval",
-   "url": "https://armada.defensa.gob.es/archivo/mardigitalrevistas/rhn/2016/2016n133.pdf",
-   "ou_regarder": "Page imprimée 100, note 17",
-   "extrait": "",
-   "notes": "Proposée par Ether (villes 1.9, 05/10/2026). Ce que la source prouve selon Ether : ville-es-carthagene : base_navale, industrie ; ville-es-ferrol : base_navale, industrie ; ville-es-sestao : construction_navale, industrie ; ville-es-san-fernando : base_navale, industrie ; ville-es-puerto-real : construction_navale, industrie ; ville-es-reinosa : industrie, siderurgie. Limite annoncée par Ether : Passage PDF indexé lu : centres SECN et transition de 1940–1941 ; image non collationnée. Cibles différées : recherche conservée, hors import. Aucune validation humaine présumée. Relecture Claude 05/10/2026 : PDF récupéré mais il s'agit d'un article sur le San Ignacio de Loyola (le Glorioso, 1747) ; la note 17 (p. 31) cite George Walker, rien sur la Sociedad Española de Construcción Naval, ni sur Carthagène, Ferrol, San Fernando, Sestao, Puerto Real, Reinosa. Aucun rôle prouvé ; la source semble mal référencée (autre article du numéro ou autre numéro). Le PDF est long et le résumeur peut avoir tronqué : non exhaustif, mais rien trouvé.",
-   "domaine": "villes",
-   "villes": [
-    "Ferrol",
-    "Carthagène",
-    "San Fernando",
-    "Puerto Real",
-    "Sestao",
-    "Reinosa"
-   ],
-   "remplacee_par": [],
-   "priorite": "importante",
-   "impact": [
-    "Carthagène (base_navale, industrie)",
-    "Ferrol (base_navale, industrie)",
-    "Sestao (construction_navale)",
-    "San Fernando (base_navale, industrie)",
-    "Puerto Real (construction_navale, industrie)",
-    "Reinosa (industrie, siderurgie)"
-   ]
-  },
-  {
-   "id": "src-19-es-treccani1936",
-   "groupe": "partielle",
-   "statut_claude": "limite",
-   "niveau": "A",
-   "titre": "Spagna — Enciclopedia Italiana 1936",
-   "institution": "Istituto della Enciclopedia Italiana",
-   "url": "https://www.treccani.it/enciclopedia/spagna_(Enciclopedia-Italiana)/",
-   "ou_regarder": "Minerali ; Industrie ; Comunicazioni ; ports et industrie nommés localement",
-   "extrait": "armi minute a Toledo e a Siviglia",
-   "notes": "Proposée par Ether (villes 1.9, 05/10/2026). Ce que la source prouve selon Ether : ville-es-tolede : industrie ; ville-es-puertollano : industrie ; ville-es-valence : industrie, port_maritime ; ville-es-grenade : industrie ; ville-es-carthagene : port_maritime ; ville-es-almeria : port_maritime ; ville-es-seville : industrie, port_maritime ; ville-es-huelva : port_maritime ; ville-es-minas-de-riotinto : industrie ; ville-es-tharsis : industrie ; ville-es-malaga : port_maritime ; ville-es-cadix : port_maritime ; ville-es-la-corogne : port_maritime ; ville-es-vigo : port_maritime ; ville-es-santander : port_maritime ; ville-es-bilbao : industrie, port_maritime ; ville-es-logrono : industrie ; ville-es-saragosse : industrie ; ville-es-lerida : industrie ; ville-es-barcelone : industrie, port_maritime ; ville-es-manresa : industrie ; ville-es-sabadell : industrie ; ville-es-vilanova-i-la-geltru : industrie ; ville-es-segovie : industrie ; ville-es-almaden : industrie ; ville-es-badalona : industrie ; ville-es-flix : industrie. Limite annoncée par Ether : Transcription de la notice contemporaine lue ; chiffres non reportés comme valeurs de 1945. Cibles différées : recherche conservée, hors import. Aucune validation humaine présumée. Relecture Claude 05/10/2026 : Page accessible via WebFetch (extraction par résumeur, citations à reconfirmer en partie). Industrie prouvée pour Tolède, Puertollano, Grenade, Séville, Minas de Riotinto/Tharsis (cuivre de la province de Huelva, lieux nommés), Bilbao, Logroño/Lérida/Saragosse (industrie des légumes, formulation vague), Manresa, Sabadell, Vilanova, Ségovie (céramique), Almadén (mines), Badalona, Flix. Ports prouvés : Séville, Málaga, Cadix, Vigo, La Corogne, Santander, Bilbao, Valence (export fruits/vins). NON prouvés : industrie de Valence (seulement 'provincia di Valenza'), industrie de Barcelone (seulement 'metropoli industriale', port non cité en extraction), port de Carthagène, Almería (cité seulement comme province minière) et Huelva (port annoncé sans citation exacte). Le port de Carthagène et de Huelva apparaît dans une liste de ports selon le résumeur, sans citation exacte : non retenu.",
-   "domaine": "villes",
-   "villes": [
-    "Barcelone",
-    "Bilbao",
-    "Vigo",
-    "Santander",
-    "Valence",
-    "Málaga",
-    "Cadix",
-    "Huelva",
-    "Carthagène",
-    "Séville",
-    "Almería",
-    "La Corogne",
-    "Almadén",
-    "Minas de Riotinto",
-    "Tharsis",
-    "Sabadell",
-    "Badalona",
-    "Flix",
-    "Puertollano",
-    "Manresa",
-    "Vilanova i la Geltrú",
-    "Tolède",
-    "Grenade",
-    "Logroño",
-    "Lérida",
-    "Saragosse",
-    "Ségovie"
-   ],
-   "remplacee_par": [],
-   "priorite": "importante",
-   "impact": [
-    "Valence (industrie)",
-    "Carthagène (port_maritime)",
-    "Almería (port_maritime)",
-    "Huelva (port_maritime)",
-    "Barcelone (port_maritime)"
    ]
   },
   {
@@ -2843,7 +2740,7 @@
    "url": "https://artsandculture.google.com/asset/mapa-de-los-ferrocarriles-en-explotaci%C3%B3n-construcci%C3%B3n-y-proyecto-en-espa%C3%B1a-edici%C3%B3n-de-1942-alfredo-forcano-catal%C3%A1n/kAFm5u3_uW6UIQ?hl=es",
    "ou_regarder": "Carte datée 1942 ; légende et captures régionales jointes",
    "extrait": "Légende « SIGNOS CONVENCIONALES » : « CAPITAL DE NACION » = grand symbole à anneaux concentriques ; « ID. DE PROVINCIA » = double anneau ; « EMPALME (de enlace ó confinación) Y PUNTOS DE BIFURCACION O AFLUENCIA DE LINEAS » = point plein ; « ESTACION FINAL O TERMINO DE LINEA » = cercle blanc ; « ESTACION INTERMEDIA » ; « FERROCARRILES EN EXPLOTACION » = doble vía (ancha) / vía única (ancha) / vía estrecha / cremallera, « En colores: Véase LEYENDA » (rouge = Red Nacional de los Ferrocarriles Españoles, violet = « Explotados directamente por el Estado », vert et autres couleurs = autres compagnie",
-   "notes": "Proposée par Ether (villes 1.9, 05/10/2026). Ce que la source prouve selon Ether : ville-es-madrid : administration, capitale, rail ; ville-es-avila : rail ; ville-es-guadalajara : rail ; ville-es-cuenca : rail ; ville-es-teruel : rail ; ville-es-tolede : rail ; ville-es-aranjuez : rail ; ville-es-alcazar-de-san-juan : rail ; ville-es-manzanares : rail ; ville-es-ciudad-real : rail ; ville-es-puertollano : rail ; ville-es-albacete : rail ; ville-es-chinchilla-de-monte-aragon : rail ; ville-es-la-encina : rail ; ville-es-castellon-de-la-plana : rail ; ville-es-sagonte : rail ; ville-es-valence : rail ; ville-es-xativa : rail ; ville-es-gandia : rail ; ville-es-denia : rail ; ville-es-alcoy : rail ; ville-es-villena : rail ; ville-es-alicante : rail ; ville-es-utiel : rail ; ville-es-jaen : rail ; ville-es-grenade : rail ; ville-es-guadix : rail ; ville-es-moreda : rail ; ville-es-baza : rail ; ville-es-almendricos : rail ; ville-es-aguilas : rail ; ville-es-lorca : rail ; ville-es-murcie : rail ; ville-es-carthagene : rail ; ville-es-almeria : rail ; ville-es-cordoue : rail ; ville-es-seville : rail ; ville-es-huelva : rail ; ville-es-gibraleon : rail ; ville-es-minas-de-riotinto : rail ; ville-es-tharsis : rail ; ville-es-utrera : rail ; ville-es-bobadilla : rail ; ville-es-ronda : rail ; ville-es-malaga : rail ; ville-es-jerez-de-la-frontera : rail ; ville-es-el-puerto-de-santa-maria : rail ; ville-es-cadix : rail ; ville-es-algesiras : rail ; ville-pt-lagos : rail ; ville-pt-portimao : rail ; ville-pt-tunes : rail ; ville-pt-faro : rail ; ville-pt-vila-real-de-santo-antonio : rail ; ville-pt-lisbonne : administration, capitale, rail ; ville-pt-setubal : rail ; ville-pt-barreiro : rail ; ville-pt-pinhal-novo : rail ; ville-pt-vendas-novas : rail ; ville-pt-casa-branca : rail ; ville-pt-evora : rail ; ville-pt-portalegre :  ; ville-pt-cabeco-de-vide : rail ; ville-pt-entroncamento : rail ; ville-pt-abrantes : rail ; ville-pt-santarem : rail ; ville-pt-leiria : rail ; ville-pt-figueira-da-foz : rail ; ville-pt-castelo-branco : rail ; ville-es-valencia-de-alcantara : rail ; ville-es-badajoz : rail ; ville-es-merida : rail ; ville-es-caceres : rail ; ville-es-plasencia : rail ; ville-es-zafra : rail ; ville-es-fregenal-de-la-sierra : rail ; ville-es-jerez-de-los-caballeros : rail ; ville-pt-porto : rail ; ville-pt-braga : rail ; ville-pt-viana-do-castelo : rail ; ville-pt-vila-real : rail ; ville-pt-peso-da-regua : rail ; ville-pt-pocinho : rail ; ville-pt-tua : rail ; ville-pt-bragance : rail ; ville-pt-chaves : rail ; ville-pt-valenca : rail ; ville-pt-barca-dalva : rail ; ville-es-la-corogne : rail ; ville-es-ferrol : rail ; ville-es-betanzos : rail ; ville-es-saint-jacques-de-compostelle : rail ; ville-es-vilagarcia-de-arousa : rail ; ville-es-pontevedra : rail ; ville-es-vigo : rail ; ville-es-redondela : rail ; ville-es-tui : rail ; ville-es-ourense : rail ; ville-es-lugo : rail ; ville-es-monforte-de-lemos : rail ; ville-es-oviedo : rail ; ville-es-aviles : rail ; ville-es-gijon : rail ; ville-es-leon : rail ; ville-es-la-robla : rail ; ville-es-ponferrada : rail ; ville-es-astorga : rail ; ville-es-burgos : rail ; ville-es-santander : rail ; ville-es-torrelavega : rail ; ville-es-bilbao : rail ; ville-es-vitoria-gasteiz : rail ; ville-es-saint-sebastien : rail ; ville-es-irun : rail ; ville-es-pampelune : rail ; ville-es-miranda-de-ebro : rail ; ville-es-logrono : rail ; ville-es-haro : rail ; ville-es-calahorra : rail ; ville-es-castejon : rail ; ville-es-altsasu : rail ; ville-es-estella-lizarra : rail ; ville-es-balmaseda : rail ; ville-es-durango : rail ; ville-es-eibar : rail ; ville-es-soria : rail ; ville-es-huesca : rail ; ville-es-jaca : rail ; ville-es-canfranc : rail ; ville-es-puigcerda : rail ; ville-es-barbastro : rail ; ville-es-tardienta : rail ; ville-es-balaguer : rail ; ville-es-saragosse : rail ; ville-es-lerida : rail ; ville-es-gerone : rail ; ville-es-figueras : rail ; ville-es-portbou : rail ; ville-es-ripoll : rail ; ville-es-barcelone : rail ; ville-es-tarragone : rail ; ville-es-reus : rail ; ville-es-tortosa : rail ; ville-es-manresa : rail ; ville-es-sabadell : rail ; ville-es-terrassa : rail ; ville-es-granollers : rail ; ville-es-martorell : rail ; ville-es-igualada : rail ; ville-es-vilanova-i-la-geltru : rail ; ville-es-mollerussa : rail ; ville-es-palamos : rail ; ville-es-sant-feliu-de-guixols : rail ; ville-es-palma : rail ; ville-es-soller : rail ; ville-es-manacor : rail ; ville-es-felanitx : rail ; ville-es-arta : rail ; ville-es-sa-pobla : rail ; ville-es-santanyi : rail ; ville-es-valdepenas : rail ; ville-es-tomelloso : rail ; ville-es-linares : rail ; ville-es-la-carolina : rail ; ville-es-cieza : rail ; ville-es-elche : rail ; ville-es-palencia : rail ; ville-es-valladolid : rail ; ville-es-segovie : rail ; ville-es-medina-del-campo : rail ; ville-es-venta-de-banos : rail ; ville-es-calatayud : rail ; ville-es-tudela : rail ; ville-es-zamora : rail ; ville-es-salamanque : rail ; ville-es-ciudad-rodrigo : rail ; ville-es-bejar : rail ; ville-es-fuentes-de-onoro : rail ; ville-es-la-fregeneda : rail ; ville-pt-aveiro : rail ; ville-pt-viseu : rail ; ville-pt-guarda : rail ; ville-pt-coimbra : rail ; ville-pt-covilha : rail ; ville-pt-guimaraes : rail ; ville-pt-vila-nova-de-famalicao : rail ; ville-pt-trofa : rail ; ville-pt-espinho : rail ; ville-pt-oliveira-de-azemeis : rail ; ville-pt-santa-comba-dao : rail ; ville-pt-pampilhosa : rail ; ville-pt-vilar-formoso : rail ; ville-pt-tomar : rail ; ville-pt-caldas-da-rainha : rail ; ville-pt-marinha-grande : rail ; ville-pt-beja : rail ; ville-pt-elvas : rail ; ville-pt-estremoz : rail ; ville-pt-moura : rail ; ville-pt-aljustrel : rail ; ville-pt-sines : rail ; ville-pt-alcacer-do-sal : rail. Limite annoncée par Ether : Lecture visuelle de la carte ; traits exploités distingués des doubles traits vides en construction et des projets. Un point de gare ne certifie pas à lui seul la proximité du centre urbain. Exemplaire 1948 aperçu puis exclu. Cibles différées : recherche conservée, hors import. Aucune validation humaine présumée. Relecture Claude 05/10/2026 : Carte de 1942 lue par Claude sur 18 captures régionales et la légende (« FERROCARRILES EN EXPLOTACION » en traits de couleur ; « EN CONSTRUCCION » double trait ; « EN PROYECTO » trait simple). 167 villes lues sur une ligne exploitée ; 24 non prouvées (nom coupé ou absent, ligne non colorée ou indistincte). Couleurs des voies étroites (bleu, vert, violet) lues comme lignes exploitées faute de tableau des couleurs dans les captures. Madrid : symbole « CAPITAL DE NACION ». Lisbonne absente des captures.",
+   "notes": "Proposée par Ether (villes 1.9, 05/10/2026). Ce que la source prouve selon Ether : ville-es-madrid : administration, capitale, rail ; ville-es-avila : rail ; ville-es-guadalajara : rail ; ville-es-cuenca : rail ; ville-es-teruel : rail ; ville-es-tolede : rail ; ville-es-aranjuez : rail ; ville-es-alcazar-de-san-juan : rail ; ville-es-manzanares : rail ; ville-es-ciudad-real : rail ; ville-es-puertollano : rail ; ville-es-albacete : rail ; ville-es-chinchilla-de-monte-aragon : rail ; ville-es-la-encina : rail ; ville-es-castellon-de-la-plana : rail ; ville-es-sagonte : rail ; ville-es-valence : rail ; ville-es-xativa : rail ; ville-es-gandia : rail ; ville-es-denia : rail ; ville-es-alcoy : rail ; ville-es-villena : rail ; ville-es-alicante : rail ; ville-es-utiel : rail ; ville-es-jaen : rail ; ville-es-grenade : rail ; ville-es-guadix : rail ; ville-es-moreda : rail ; ville-es-baza : rail ; ville-es-almendricos : rail ; ville-es-aguilas : rail ; ville-es-lorca : rail ; ville-es-murcie : rail ; ville-es-carthagene : rail ; ville-es-almeria : rail ; ville-es-cordoue : rail ; ville-es-seville : rail ; ville-es-huelva : rail ; ville-es-gibraleon : rail ; ville-es-minas-de-riotinto : rail ; ville-es-tharsis : rail ; ville-es-utrera : rail ; ville-es-bobadilla : rail ; ville-es-ronda : rail ; ville-es-malaga : rail ; ville-es-jerez-de-la-frontera : rail ; ville-es-el-puerto-de-santa-maria : rail ; ville-es-cadix : rail ; ville-es-algesiras : rail ; ville-pt-lagos : rail ; ville-pt-portimao : rail ; ville-pt-tunes : rail ; ville-pt-faro : rail ; ville-pt-vila-real-de-santo-antonio : rail ; ville-pt-lisbonne : administration, capitale, rail ; ville-pt-setubal : rail ; ville-pt-barreiro : rail ; ville-pt-pinhal-novo : rail ; ville-pt-vendas-novas : rail ; ville-pt-casa-branca : rail ; ville-pt-evora : rail ; ville-pt-portalegre :  ; ville-pt-cabeco-de-vide : rail ; ville-pt-entroncamento : rail ; ville-pt-abrantes : rail ; ville-pt-santarem : rail ; ville-pt-leiria : rail ; ville-pt-figueira-da-foz : rail ; ville-pt-castelo-branco : rail ; ville-es-valencia-de-alcantara : rail ; ville-es-badajoz : rail ; ville-es-merida : rail ; ville-es-caceres : rail ; ville-es-plasencia : rail ; ville-es-zafra : rail ; ville-es-fregenal-de-la-sierra : rail ; ville-es-jerez-de-los-caballeros : rail ; ville-pt-porto : rail ; ville-pt-braga : rail ; ville-pt-viana-do-castelo : rail ; ville-pt-vila-real : rail ; ville-pt-peso-da-regua : rail ; ville-pt-pocinho : rail ; ville-pt-tua : rail ; ville-pt-bragance : rail ; ville-pt-chaves : rail ; ville-pt-valenca : rail ; ville-pt-barca-dalva : rail ; ville-es-la-corogne : rail ; ville-es-ferrol : rail ; ville-es-betanzos : rail ; ville-es-saint-jacques-de-compostelle : rail ; ville-es-vilagarcia-de-arousa : rail ; ville-es-pontevedra : rail ; ville-es-vigo : rail ; ville-es-redondela : rail ; ville-es-tui : rail ; ville-es-ourense : rail ; ville-es-lugo : rail ; ville-es-monforte-de-lemos : rail ; ville-es-oviedo : rail ; ville-es-aviles : rail ; ville-es-gijon : rail ; ville-es-leon : rail ; ville-es-la-robla : rail ; ville-es-ponferrada : rail ; ville-es-astorga : rail ; ville-es-burgos : rail ; ville-es-santander : rail ; ville-es-torrelavega : rail ; ville-es-bilbao : rail ; ville-es-vitoria-gasteiz : rail ; ville-es-saint-sebastien : rail ; ville-es-irun : rail ; ville-es-pampelune : rail ; ville-es-miranda-de-ebro : rail ; ville-es-logrono : rail ; ville-es-haro : rail ; ville-es-calahorra : rail ; ville-es-castejon : rail ; ville-es-altsasu : rail ; ville-es-estella-lizarra : rail ; ville-es-balmaseda : rail ; ville-es-durango : rail ; ville-es-eibar : rail ; ville-es-soria : rail ; ville-es-huesca : rail ; ville-es-jaca : rail ; ville-es-canfranc : rail ; ville-es-puigcerda : rail ; ville-es-barbastro : rail ; ville-es-tardienta : rail ; ville-es-balaguer : rail ; ville-es-saragosse : rail ; ville-es-lerida : rail ; ville-es-gerone : rail ; ville-es-figueras : rail ; ville-es-portbou : rail ; ville-es-ripoll : rail ; ville-es-barcelone : rail ; ville-es-tarragone : rail ; ville-es-reus : rail ; ville-es-tortosa : rail ; ville-es-manresa : rail ; ville-es-sabadell : rail ; ville-es-terrassa : rail ; ville-es-granollers : rail ; ville-es-martorell : rail ; ville-es-igualada : rail ; ville-es-vilanova-i-la-geltru : rail ; ville-es-mollerussa : rail ; ville-es-palamos : rail ; ville-es-sant-feliu-de-guixols : rail ; ville-es-palma : rail ; ville-es-soller : rail ; ville-es-manacor : rail ; ville-es-felanitx : rail ; ville-es-arta : rail ; ville-es-sa-pobla : rail ; ville-es-santanyi : rail ; ville-es-valdepenas : rail ; ville-es-tomelloso : rail ; ville-es-linares : rail ; ville-es-la-carolina : rail ; ville-es-cieza : rail ; ville-es-elche : rail ; ville-es-palencia : rail ; ville-es-valladolid : rail ; ville-es-segovie : rail ; ville-es-medina-del-campo : rail ; ville-es-venta-de-banos : rail ; ville-es-calatayud : rail ; ville-es-tudela : rail ; ville-es-zamora : rail ; ville-es-salamanque : rail ; ville-es-ciudad-rodrigo : rail ; ville-es-bejar : rail ; ville-es-fuentes-de-onoro : rail ; ville-es-la-fregeneda : rail ; ville-pt-aveiro : rail ; ville-pt-viseu : rail ; ville-pt-guarda : rail ; ville-pt-coimbra : rail ; ville-pt-covilha : rail ; ville-pt-guimaraes : rail ; ville-pt-vila-nova-de-famalicao : rail ; ville-pt-trofa : rail ; ville-pt-espinho : rail ; ville-pt-oliveira-de-azemeis : rail ; ville-pt-santa-comba-dao : rail ; ville-pt-pampilhosa : rail ; ville-pt-vilar-formoso : rail ; ville-pt-tomar : rail ; ville-pt-caldas-da-rainha : rail ; ville-pt-marinha-grande : rail ; ville-pt-beja : rail ; ville-pt-elvas : rail ; ville-pt-estremoz : rail ; ville-pt-moura : rail ; ville-pt-aljustrel : rail ; ville-pt-sines : rail ; ville-pt-alcacer-do-sal : rail. Limite annoncée par Ether : Lecture visuelle de la carte ; traits exploités distingués des doubles traits vides en construction et des projets. Un point de gare ne certifie pas à lui seul la proximité du centre urbain. Exemplaire 1948 aperçu puis exclu. Cibles différées : recherche conservée, hors import. Aucune validation humaine présumée. Relecture Claude 05/10/2026 : Carte de 1942 lue par Claude sur 18 captures régionales et la légende (« FERROCARRILES EN EXPLOTACION » en traits de couleur ; « EN CONSTRUCCION » double trait ; « EN PROYECTO » trait simple). 167 villes lues sur une ligne exploitée ; 24 non prouvées (nom coupé ou absent, ligne non colorée ou indistincte). Couleurs des voies étroites (bleu, vert, violet) lues comme lignes exploitées faute de tableau des couleurs dans les captures. Madrid : symbole « CAPITAL DE NACION ». Lisbonne absente des captures. Complément d'Ether (villes 1.9, cycle 2, 05/10/2026) : localisateur proposé « Captures C2 légende des compagnies, Riotinto–Fregenal, Tharsis et Setúbal ; comparer avec les figurés exploitation/construction de la première livraison. ». Relecture Claude 05/10/2026 : Nouvelles captures lues par Claude : RIO TINTO sur la voie bleue, THARSIS au bout de la voie saumon, Fregenal sur la ligne rouge Zafra–Huelva, Setúbal au bout de l'antenne violette depuis Pinhal Novo. Carte de 1942 : fonction avant le Snapshot. (statut : limite -> limite).",
    "domaine": "villes",
    "villes": [
     "Madrid",
@@ -3052,28 +2949,17 @@
    "remplacee_par": [],
    "priorite": "importante",
    "impact": [
-    "Séville (rail)",
-    "Minas de Riotinto (rail)",
-    "Tharsis (rail)",
     "Lisbonne (capitale)",
-    "Setúbal (rail)",
     "Leiria (rail)",
-    "Fregenal de la Sierra (rail)",
-    "Jerez de los Caballeros (rail)",
-    "Vila Real (rail)",
-    "Bragance (rail)",
     "Chaves (rail)",
     "Valença (rail)",
-    "Eibar (rail)",
     "Soria (rail)",
     "Barbastro (rail)",
-    "Figueras (rail)",
     "Igualada (rail)",
     "Palamós (rail)",
     "Sant Feliu de Guíxols (rail)",
     "Sóller (rail)",
-    "Medina del Campo (rail)",
-    "Guimarães (rail)"
+    "Medina del Campo (rail)"
    ]
   },
   {
@@ -3086,7 +2972,7 @@
    "url": "https://ibccdigitalarchive.omeka.net/collections/document/43577",
    "ou_regarder": "SLambertBrownP19330417v10003 ; §20,25,39,45,48–49",
    "extrait": "The town of Senglea was completely isolated except b passing through the Dockyard, and was completely deprived of water supply.",
-   "notes": "Proposée par Ether (villes 1.9, 05/10/2026). Ce que la source prouve selon Ether : ville-mt-cospicua : base_navale, industrie ; ville-mt-senglea : militaire, port_maritime. Limite annoncée par Ether : Transcription des neuf pages lue ; images non collationnées. Réparations et transit de guerre localisés. Cibles différées : recherche conservée, hors import. Aucune validation humaine présumée. Relecture Claude 05/10/2026 : Transcription lue (via résumé WebFetch, pas texte intégral brut ; la page annonce un manuscrit dactylographié de 9 pages avec transcription). Le §25 renvoyé parle de l'isolement de Senglea, pas de la marina. Le §39 (décembre 1942) ne cite que l'état des cales (« No.1 – In full working ») sans mention explicite de Cospicua ; le §45 mentionne les cales 3 et 4 remises en service en avril 1943. Aucun passage nommant Cospicua ni la marina de Senglea n'a été restitué. Le Dockyard (Cospicua/Senglea, base navale) est impliqué mais non prouvé textuellement par les extraits obtenus. À revérifier.",
+   "notes": "Proposée par Ether (villes 1.9, 05/10/2026). Ce que la source prouve selon Ether : ville-mt-cospicua : base_navale, industrie ; ville-mt-senglea : militaire, port_maritime. Limite annoncée par Ether : Transcription des neuf pages lue ; images non collationnées. Réparations et transit de guerre localisés. Cibles différées : recherche conservée, hors import. Aucune validation humaine présumée. Relecture Claude 05/10/2026 : Transcription lue (via résumé WebFetch, pas texte intégral brut ; la page annonce un manuscrit dactylographié de 9 pages avec transcription). Le §25 renvoyé parle de l'isolement de Senglea, pas de la marina. Le §39 (décembre 1942) ne cite que l'état des cales (« No.1 – In full working ») sans mention explicite de Cospicua ; le §45 mentionne les cales 3 et 4 remises en service en avril 1943. Aucun passage nommant Cospicua ni la marina de Senglea n'a été restitué. Le Dockyard (Cospicua/Senglea, base navale) est impliqué mais non prouvé textuellement par les extraits obtenus. À revérifier. Complément d'Ether (villes 1.9, cycle 2, 05/10/2026) : localisateur proposé « §25, seconde partie : Senglea Marina et navire-citerne ; §39, Compressed Air, conduite via Cospicua, décembre 1942. ». Relecture Claude 05/10/2026 : §25 : navire-citerne d'eau à Senglea Marina (aucun rôle prouvé) ; §39 : conduite d'air comprimé de l'arsenal passant par Cospicua (industrie). Militaire et base navale non prouvés par ces passages. (statut : limite -> limite).",
    "domaine": "villes",
    "villes": [
     "Cospicua",
@@ -3095,7 +2981,7 @@
    "remplacee_par": [],
    "priorite": "importante",
    "impact": [
-    "Cospicua (base_navale, industrie)",
+    "Cospicua (base_navale)",
     "Senglea (militaire, port_maritime)"
    ]
   },
@@ -3130,7 +3016,7 @@
    "url": "https://www.treccani.it/enciclopedia/malta_(Enciclopedia-Italiana)/",
    "ou_regarder": "Demografia ; Morfologia ; Mġarr à Gozo",
    "extrait": "il miglior approdo è la Cala del Migiarro a sud.",
-   "notes": "Proposée par Ether (villes 1.9, 05/10/2026). Ce que la source prouve selon Ether : ville-mt-la-valette : administration, capitale, port_maritime ; ville-mt-mgarr : port_maritime. Limite annoncée par Ether : Ne pas transférer une industrie générale de l’île à chaque ville. Cibles différées : recherche conservée, hors import. Aucune validation humaine présumée. Relecture Claude 05/10/2026 : Mġarr (Gozo) : « miglior approdo » = Cala del Migiarro, cohérent avec le rôle attendu (port_maritime), nom italianisé. La Valette : la page ne donne pas de citation explicite prouvant capitale, administration ou port ; seulement « I centri più notevoli, oltre al capoluogo, La Valletta (22.900 abitanti nel 1931) » et « il commodoro Alessandro Ball entrò in Valletta come governatore » (ambigu), et le Grand Port cité comme zone peuplée. Stricto sensu non prouvé par les passages extraits.",
+   "notes": "Proposée par Ether (villes 1.9, 05/10/2026). Ce que la source prouve selon Ether : ville-mt-la-valette : administration, capitale, port_maritime ; ville-mt-mgarr : port_maritime. Limite annoncée par Ether : Ne pas transférer une industrie générale de l’île à chaque ville. Cibles différées : recherche conservée, hors import. Aucune validation humaine présumée. Relecture Claude 05/10/2026 : Mġarr (Gozo) : « miglior approdo » = Cala del Migiarro, cohérent avec le rôle attendu (port_maritime), nom italianisé. La Valette : la page ne donne pas de citation explicite prouvant capitale, administration ou port ; seulement « I centri più notevoli, oltre al capoluogo, La Valletta (22.900 abitanti nel 1931) » et « il commodoro Alessandro Ball entrò in Valletta come governatore » (ambigu), et le Grand Port cité comme zone peuplée. Stricto sensu non prouvé par les passages extraits. Complément d'Ether (villes 1.9, cycle 2, 05/10/2026) : localisateur proposé « Demografia : « I centri più notevoli… », La Valletta capoluogo ; suite sur l’agglomération autour des deux ports. ». Relecture Claude 05/10/2026 : Ports autour de La Valette relus ; le mot « capoluogo » n'a pas été restitué par l'outil : capitale et administration non confirmées par ce passage. (statut : limite -> limite).",
    "domaine": "villes",
    "villes": [
     "La Valette",
@@ -3139,7 +3025,7 @@
    "remplacee_par": [],
    "priorite": "importante",
    "impact": [
-    "La Valette (administration, capitale, port_maritime)"
+    "La Valette (administration, capitale)"
    ]
   },
   {
@@ -3152,7 +3038,7 @@
    "url": "https://cp.pt/info/en/cronologia",
    "ou_regarder": "Entrées datées, notamment 19 août 1942",
    "extrait": "01.02.1861 - Abertura oficial do troço entre o Barreiro e Vendas Novas na Linha do Sul",
-   "notes": "Proposée par Ether (villes 1.9, 05/10/2026). Ce que la source prouve selon Ether : ville-pt-lisbonne : ferry ; ville-pt-barreiro : ferry, rail ; ville-pt-evora : rail ; ville-es-valencia-de-alcantara : frontalier ; ville-pt-viana-do-castelo : port_maritime ; ville-pt-barca-dalva : frontalier ; ville-es-irun : frontalier ; ville-es-canfranc : frontalier ; ville-es-portbou : frontalier ; ville-es-fuentes-de-onoro : frontalier ; ville-pt-vilar-formoso : frontalier ; ville-pt-beja : rail ; ville-pt-elvas : rail. Limite annoncée par Ether : Passages nommés individuellement ; ne prouve pas une ouverture ininterrompue au passage du Snapshot. Cibles différées : recherche conservée, hors import. Aucune validation humaine présumée. Relecture Claude 05/10/2026 : Rail prouvé pour Barreiro (1861), Évora (14.09.1863), Beja (15.02.1864), Elvas (29.07.1863). Non retrouvés dans la page : ferry Barreiro, entrée 1973/ferry Lisbonne 1927, embranchement du port de Viana 20.03.1924, entrée 19.08.1942 et points frontière. Aucun rôle ferry, port_maritime ou frontalier prouvé.",
+   "notes": "Proposée par Ether (villes 1.9, 05/10/2026). Ce que la source prouve selon Ether : ville-pt-lisbonne : ferry ; ville-pt-barreiro : ferry, rail ; ville-pt-evora : rail ; ville-es-valencia-de-alcantara : frontalier ; ville-pt-viana-do-castelo : port_maritime ; ville-pt-barca-dalva : frontalier ; ville-es-irun : frontalier ; ville-es-canfranc : frontalier ; ville-es-portbou : frontalier ; ville-es-fuentes-de-onoro : frontalier ; ville-pt-vilar-formoso : frontalier ; ville-pt-beja : rail ; ville-pt-elvas : rail. Limite annoncée par Ether : Passages nommés individuellement ; ne prouve pas une ouverture ininterrompue au passage du Snapshot. Cibles différées : recherche conservée, hors import. Aucune validation humaine présumée. Relecture Claude 05/10/2026 : Rail prouvé pour Barreiro (1861), Évora (14.09.1863), Beja (15.02.1864), Elvas (29.07.1863). Non retrouvés dans la page : ferry Barreiro, entrée 1973/ferry Lisbonne 1927, embranchement du port de Viana 20.03.1924, entrée 19.08.1942 et points frontière. Aucun rôle ferry, port_maritime ou frontalier prouvé. Complément d'Ether (villes 1.9, cycle 2, 05/10/2026) : localisateur proposé « Entrées 01/02/1861, 14/04/1884, 12/05/1906, 01/12/1906, 20/03/1924 ; entrée 29/11/1973, paragraphes rétrospectifs sur le bail de 1927 et les années 1930. ». Relecture Claude 05/10/2026 : Page anglaise relue : Setúbal, Guimarães, Vila Real et Bragance trouvées ; la page s'arrête en 1908 pour l'outil : Viana (1924) et le ferry Lisbonne–Barreiro (rappel de 1973) non retrouvés. (statut : limite -> limite).",
    "domaine": "villes",
    "villes": [
     "Barca d’Alva",
@@ -3167,7 +3053,11 @@
     "Évora",
     "Barreiro",
     "Viana do Castelo",
-    "Lisbonne"
+    "Lisbonne",
+    "Setúbal",
+    "Guimarães",
+    "Vila Real",
+    "Bragance"
    ],
    "remplacee_par": [],
    "priorite": "importante",
@@ -3214,7 +3104,7 @@
    "url": "https://www.treccani.it/enciclopedia/portogallo_(Enciclopedia-Italiana)/",
    "ou_regarder": "Circoscrizioni amministrative ; Industria ; Comunicazioni",
    "extrait": "Estremadura: Leiria, Santarem, Lisbona e Setúbal ; Alemtejo: Portalegre, Évora e Beja ; Algarve: Faro",
-   "notes": "Proposée par Ether (villes 1.9, 05/10/2026). Ce que la source prouve selon Ether : ville-pt-faro : administration, port_maritime ; ville-pt-vila-real-de-santo-antonio : port_maritime ; ville-pt-lisbonne : administration, industrie, port_maritime ; ville-pt-setubal : administration, port_maritime ; ville-pt-evora : administration ; ville-pt-portalegre : administration, industrie ; ville-pt-santarem : administration ; ville-pt-leiria : administration ; ville-pt-castelo-branco : administration ; ville-pt-porto : administration, industrie, port_maritime ; ville-pt-braga : administration, industrie ; ville-pt-viana-do-castelo : administration ; ville-pt-vila-real : administration ; ville-pt-bragance : administration ; ville-pt-aveiro : administration ; ville-pt-viseu : administration ; ville-pt-guarda : administration ; ville-pt-coimbra : administration ; ville-pt-covilha : industrie ; ville-pt-caldas-da-rainha : industrie ; ville-pt-marinha-grande : industrie ; ville-pt-beja : administration ; ville-pt-aljustrel : industrie ; ville-pt-angra-do-heroismo : administration ; ville-pt-horta : administration ; ville-pt-ponta-delgada : administration ; ville-pt-funchal : administration ; ville-pt-gouveia : industrie ; ville-pt-alenquer : industrie ; ville-pt-castanheira-de-pera : industrie ; ville-pt-sacavem : industrie ; ville-pt-lousal : industrie. Limite annoncée par Ether : Transcription de la notice contemporaine lue ; chiffres non reportés comme valeurs de 1945. Cibles différées : recherche conservée, hors import. Aucune validation humaine présumée. Relecture Claude 05/10/2026 : Page accessible. Chefs-lieux de district nommés (Circoscrizioni amministrative), ports Lisbonne/Porto/Setúbal/Vila Real de Santo António/Faro nommés, industries Lisbonne, Porto, Braga, Portalegre nommées. Non prouvés : Lousal (industrie) et Aljustrel (non retrouvés dans l'extraction) ; Funchal nommé comme chef-lieu insulaire (Madère) ; les villes sans rôle attendu sont simplement listées ou citées. Extraction faite par WebFetch (résumé), citations à reconfirmer si besoin.",
+   "notes": "Proposée par Ether (villes 1.9, 05/10/2026). Ce que la source prouve selon Ether : ville-pt-faro : administration, port_maritime ; ville-pt-vila-real-de-santo-antonio : port_maritime ; ville-pt-lisbonne : administration, industrie, port_maritime ; ville-pt-setubal : administration, port_maritime ; ville-pt-evora : administration ; ville-pt-portalegre : administration, industrie ; ville-pt-santarem : administration ; ville-pt-leiria : administration ; ville-pt-castelo-branco : administration ; ville-pt-porto : administration, industrie, port_maritime ; ville-pt-braga : administration, industrie ; ville-pt-viana-do-castelo : administration ; ville-pt-vila-real : administration ; ville-pt-bragance : administration ; ville-pt-aveiro : administration ; ville-pt-viseu : administration ; ville-pt-guarda : administration ; ville-pt-coimbra : administration ; ville-pt-covilha : industrie ; ville-pt-caldas-da-rainha : industrie ; ville-pt-marinha-grande : industrie ; ville-pt-beja : administration ; ville-pt-aljustrel : industrie ; ville-pt-angra-do-heroismo : administration ; ville-pt-horta : administration ; ville-pt-ponta-delgada : administration ; ville-pt-funchal : administration ; ville-pt-gouveia : industrie ; ville-pt-alenquer : industrie ; ville-pt-castanheira-de-pera : industrie ; ville-pt-sacavem : industrie ; ville-pt-lousal : industrie. Limite annoncée par Ether : Transcription de la notice contemporaine lue ; chiffres non reportés comme valeurs de 1945. Cibles différées : recherche conservée, hors import. Aucune validation humaine présumée. Relecture Claude 05/10/2026 : Page accessible. Chefs-lieux de district nommés (Circoscrizioni amministrative), ports Lisbonne/Porto/Setúbal/Vila Real de Santo António/Faro nommés, industries Lisbonne, Porto, Braga, Portalegre nommées. Non prouvés : Lousal (industrie) et Aljustrel (non retrouvés dans l'extraction) ; Funchal nommé comme chef-lieu insulaire (Madère) ; les villes sans rôle attendu sont simplement listées ou citées. Extraction faite par WebFetch (résumé), citations à reconfirmer si besoin. Complément d'Ether (villes 1.9, cycle 2, 05/10/2026) : localisateur proposé « Popolazione : paragraphe « Anche nella Beira… », Lisbona capitale ; Produzione mineraria : « I principali distretti… », Aljustrel et Louzal. ». Relecture Claude 05/10/2026 : Aljustrel et Louzal relus (mines). La formule « Lisbona capitale » n'a pas été restituée mot pour mot par l'outil : capitale de Lisbonne non confirmée par ce passage. (statut : limite -> limite).",
    "domaine": "villes",
    "villes": [
     "Viana do Castelo",
@@ -4996,18 +4886,20 @@
    "impact": []
   },
   {
-   "id": "src-19-sm-fermeture-rail1944",
+   "id": "src-audit1x-fr-dijon",
    "groupe": "a_lire",
    "statut_claude": "non_verifiee",
    "niveau": "B",
-   "titre": "Galleria Montale e Treno storico",
-   "institution": "Visit San Marino",
-   "url": "https://www.visitsanmarino.com/pub1/VisitSM/luogo/Arte-e-cultura/Galleria-Montale-e-Treno-storico.html",
-   "ou_regarder": "Bombardement du 26 juin 1944",
+   "titre": "La gare — Dijon",
+   "institution": "Observatoire des CAUE, extrait du Guide d’architecture en Bourgogne1893–2007",
+   "url": "https://www.caue-observatoire.fr/ouvrage/gare-dijon-observatoire-des-caue/",
+   "ou_regarder": "Description architecturale, premier paragraphe1851/1944",
    "extrait": "",
-   "notes": "Proposée par Ether (villes 1.9, 05/10/2026). Ce que la source prouve selon Ether : . Limite annoncée par Ether : Preuve négative : ne pas traiter le chemin de fer ouvert en 1932 comme actif au Snapshot. Cibles différées : recherche conservée, hors import. Aucune validation humaine présumée. Relecture Claude 05/10/2026 : WebFetch refusé (ROBOTS_DISALLOWED). Aucun contournement tenté ; point sur la cessation du rail après le bombardement du 26 juin 1944 non vérifié. À noter : Treccani (src-19-sm-treccani1936) atteste seulement l'ouverture en 1932 de la ligne électrique Rimini–San Marino (32 km). Cibles : candidats différés par Ether (contexte de recherche, aucune ville créée).",
-   "domaine": "frontieres",
-   "villes": [],
+   "notes": "Proposée par Ether (audit transversal 1.x, 05/10/2026). Rôle urbain historique documenté ; aucune capacité, desserte exacte ni continuité du trafic au 1er janvier1945 déduite. Les bâtiments de1947–1962 restent futurs. Destruction de la gare, pas de toute la ville. Relecture Claude 05/10/2026 : Page refusée à l'outil (robots) ; non contournée.",
+   "domaine": "villes",
+   "villes": [
+    "Dijon"
+   ],
    "remplacee_par": [],
    "priorite": "facultative",
    "impact": []
@@ -5744,7 +5636,7 @@
    "url": "https://www.wikidata.org/",
    "ou_regarder": "QID de l'élément (ex. Q90 = Paris), propriété P625 (coordonnées)",
    "extrait": "Coordonnées du centre de la ville.",
-   "notes": "Licence CC0 (domaine public) : réutilisation libre, y compris commerciale. Sert uniquement à placer les villes ; les rôles historiques doivent être sourcés ailleurs. Le QID servira aussi à retrouver les noms dans d'autres langues. Relecture Claude 01/10/2026 (non_verifiee) : WebFetch a répondu que le domaine est « cache-only » et ne peut pas être récupéré ; ni CC0 ni structure QID/P625 vus. Complément d'Ether (villes 1.5, 02/10/2026) : Complément ciblé à la fiche existante : préserver verification_claude, les autres dates, usages et cibles. Données structurées CC0. Ces points ne prouvent ni centre historique, ni nom, rôle ou statut de 1945. Lectures P625 du 02/10/2026 pour 195 villes, recoupées par Claude le même jour par requête SPARQL (QID et coordonnées identiques, pays actuel concordant). Complément d'Ether (villes 1.6, 03/10/2026) : Fusionner seulement ce complément par union ; préserver les consultations et vérifications antérieures. Coordonnées arrondies à six décimales, pas précision historique garantie. Lectures P625 du 03/10/2026 pour 254 villes, recoupées par Claude le même jour par requête SPARQL (QID et coordonnées identiques, pays actuel concordant). Villes 1.7 (04/10/2026) : 166 positions prises dans Wikidata par Claude (élément relié à l'identifiant GeoNames proposé par Ether, QID principal choisi à la main pour 22 villes ; outils/villes/wikidata_ratissage_1_7.json). Villes 1.8 (04/10/2026) : 361 positions proposées par Ether (QID et P625) et recoupées par Claude par SPARQL (aucun écart > 1 km, aucun doublon avec les villes déjà intégrées ; outils/villes/wikidata_ratissage_1_8.json). Villes 1.9 (05/10/2026) : 238 positions proposées par Ether (QID et P625) et recoupées par Claude par SPARQL (aucun écart > 1 km, pays cohérents, aucun doublon avec les villes déjà intégrées ; outils/villes/wikidata_ratissage_1_9.json).",
+   "notes": "Licence CC0 (domaine public) : réutilisation libre, y compris commerciale. Sert uniquement à placer les villes ; les rôles historiques doivent être sourcés ailleurs. Le QID servira aussi à retrouver les noms dans d'autres langues. Relecture Claude 01/10/2026 (non_verifiee) : WebFetch a répondu que le domaine est « cache-only » et ne peut pas être récupéré ; ni CC0 ni structure QID/P625 vus. Complément d'Ether (villes 1.5, 02/10/2026) : Complément ciblé à la fiche existante : préserver verification_claude, les autres dates, usages et cibles. Données structurées CC0. Ces points ne prouvent ni centre historique, ni nom, rôle ou statut de 1945. Lectures P625 du 02/10/2026 pour 195 villes, recoupées par Claude le même jour par requête SPARQL (QID et coordonnées identiques, pays actuel concordant). Complément d'Ether (villes 1.6, 03/10/2026) : Fusionner seulement ce complément par union ; préserver les consultations et vérifications antérieures. Coordonnées arrondies à six décimales, pas précision historique garantie. Lectures P625 du 03/10/2026 pour 254 villes, recoupées par Claude le même jour par requête SPARQL (QID et coordonnées identiques, pays actuel concordant). Villes 1.7 (04/10/2026) : 166 positions prises dans Wikidata par Claude (élément relié à l'identifiant GeoNames proposé par Ether, QID principal choisi à la main pour 22 villes ; outils/villes/wikidata_ratissage_1_7.json). Villes 1.8 (04/10/2026) : 361 positions proposées par Ether (QID et P625) et recoupées par Claude par SPARQL (aucun écart > 1 km, aucun doublon avec les villes déjà intégrées ; outils/villes/wikidata_ratissage_1_8.json). Villes 1.9 (05/10/2026) : 238 positions proposées par Ether (QID et P625) et recoupées par Claude par SPARQL (aucun écart > 1 km, pays cohérents, aucun doublon avec les villes déjà intégrées ; outils/villes/wikidata_ratissage_1_9.json). Audit 1.x d'Ether (05/10/2026) : 15 villes ajoutées aux cibles (positions recoupées par Claude par SPARQL).",
    "domaine": "villes",
    "villes": [
     "Vologda",
@@ -6962,7 +6854,22 @@
     "Puerto Real",
     "Reinosa",
     "Puerto del Rosario",
-    "Arrecife"
+    "Arrecife",
+    "Hendaye",
+    "Cerbère",
+    "Modane",
+    "Jeumont",
+    "Bastia",
+    "Ajaccio",
+    "Crewe",
+    "York",
+    "Dijon",
+    "Le Mans",
+    "Saint-Pierre-des-Corps",
+    "Swindon",
+    "Tours",
+    "Rennes",
+    "Limoges"
    ],
    "remplacee_par": [],
    "priorite": "facultative",
@@ -7535,6 +7442,30 @@
    "impact": []
   },
   {
+   "id": "src-19-es-armada-secn",
+   "groupe": "partielle",
+   "statut_claude": "limite",
+   "niveau": "B",
+   "titre": "Revista de Historia Naval 133 (2016)",
+   "institution": "Instituto de Historia y Cultura Naval",
+   "url": "https://armada.defensa.gob.es/archivo/mardigitalrevistas/rhn/2016/2016n133.pdf",
+   "ou_regarder": "Page imprimée 100, note 17",
+   "extrait": "",
+   "notes": "Proposée par Ether (villes 1.9, 05/10/2026). Ce que la source prouve selon Ether : ville-es-carthagene : base_navale, industrie ; ville-es-ferrol : base_navale, industrie ; ville-es-sestao : construction_navale, industrie ; ville-es-san-fernando : base_navale, industrie ; ville-es-puerto-real : construction_navale, industrie ; ville-es-reinosa : industrie, siderurgie. Limite annoncée par Ether : Passage PDF indexé lu : centres SECN et transition de 1940–1941 ; image non collationnée. Cibles différées : recherche conservée, hors import. Aucune validation humaine présumée. Relecture Claude 05/10/2026 : PDF récupéré mais il s'agit d'un article sur le San Ignacio de Loyola (le Glorioso, 1747) ; la note 17 (p. 31) cite George Walker, rien sur la Sociedad Española de Construcción Naval, ni sur Carthagène, Ferrol, San Fernando, Sestao, Puerto Real, Reinosa. Aucun rôle prouvé ; la source semble mal référencée (autre article du numéro ou autre numéro). Le PDF est long et le résumeur peut avoir tronqué : non exhaustif, mais rien trouvé. Complément d'Ether (villes 1.9, cycle 2, 05/10/2026) : localisateur proposé « Revista de Historia Naval 133 : page 100 imprimée, page 101 du PDF complet (138 pages), note 17, article de Jaime Antón Viscasillas sur l’école des ingénieurs navals de Ferrol. ». Relecture Claude 05/10/2026 : Bonne page cette fois : p. 100 imprimée déposée par Ether, note 17, lue par Claude. Elle localise les chantiers et arsenaux avant 1945 ; elle ne dit rien de leur activité au 01/01/1945 (fin de gestion SECN 1940/1941 pour Ferrol, Carthagène, San Fernando). (statut : faible -> limite).",
+   "domaine": "villes",
+   "villes": [
+    "Ferrol",
+    "Carthagène",
+    "San Fernando",
+    "Puerto Real",
+    "Sestao",
+    "Reinosa"
+   ],
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
+  },
+  {
    "id": "src-19-es-puerto-cabras",
    "groupe": "partielle",
    "statut_claude": "limite",
@@ -7554,6 +7485,51 @@
    "impact": []
   },
   {
+   "id": "src-19-es-treccani1936",
+   "groupe": "partielle",
+   "statut_claude": "limite",
+   "niveau": "A",
+   "titre": "Spagna — Enciclopedia Italiana 1936",
+   "institution": "Istituto della Enciclopedia Italiana",
+   "url": "https://www.treccani.it/enciclopedia/spagna_(Enciclopedia-Italiana)/",
+   "ou_regarder": "Minerali ; Industrie ; Comunicazioni ; ports et industrie nommés localement",
+   "extrait": "armi minute a Toledo e a Siviglia",
+   "notes": "Proposée par Ether (villes 1.9, 05/10/2026). Ce que la source prouve selon Ether : ville-es-tolede : industrie ; ville-es-puertollano : industrie ; ville-es-valence : industrie, port_maritime ; ville-es-grenade : industrie ; ville-es-carthagene : port_maritime ; ville-es-almeria : port_maritime ; ville-es-seville : industrie, port_maritime ; ville-es-huelva : port_maritime ; ville-es-minas-de-riotinto : industrie ; ville-es-tharsis : industrie ; ville-es-malaga : port_maritime ; ville-es-cadix : port_maritime ; ville-es-la-corogne : port_maritime ; ville-es-vigo : port_maritime ; ville-es-santander : port_maritime ; ville-es-bilbao : industrie, port_maritime ; ville-es-logrono : industrie ; ville-es-saragosse : industrie ; ville-es-lerida : industrie ; ville-es-barcelone : industrie, port_maritime ; ville-es-manresa : industrie ; ville-es-sabadell : industrie ; ville-es-vilanova-i-la-geltru : industrie ; ville-es-segovie : industrie ; ville-es-almaden : industrie ; ville-es-badalona : industrie ; ville-es-flix : industrie. Limite annoncée par Ether : Transcription de la notice contemporaine lue ; chiffres non reportés comme valeurs de 1945. Cibles différées : recherche conservée, hors import. Aucune validation humaine présumée. Relecture Claude 05/10/2026 : Page accessible via WebFetch (extraction par résumeur, citations à reconfirmer en partie). Industrie prouvée pour Tolède, Puertollano, Grenade, Séville, Minas de Riotinto/Tharsis (cuivre de la province de Huelva, lieux nommés), Bilbao, Logroño/Lérida/Saragosse (industrie des légumes, formulation vague), Manresa, Sabadell, Vilanova, Ségovie (céramique), Almadén (mines), Badalona, Flix. Ports prouvés : Séville, Málaga, Cadix, Vigo, La Corogne, Santander, Bilbao, Valence (export fruits/vins). NON prouvés : industrie de Valence (seulement 'provincia di Valenza'), industrie de Barcelone (seulement 'metropoli industriale', port non cité en extraction), port de Carthagène, Almería (cité seulement comme province minière) et Huelva (port annoncé sans citation exacte). Le port de Carthagène et de Huelva apparaît dans une liste de ports selon le résumeur, sans citation exacte : non retenu. Complément d'Ether (villes 1.9, cycle 2, 05/10/2026) : localisateur proposé « Comunicazioni, « Massimo fra i porti… » et paragraphe « Seguono… » ; industrie, « L’industria delle costruzioni navali… », Unión Naval de Levante (Valenza). ». Relecture Claude 05/10/2026 : Nouveaux localisateurs relus : Barcelone, Huelva, Carthagène, Almería (ports) ; Unión Naval de Levante à Valence (industrie). (statut : limite -> limite).",
+   "domaine": "villes",
+   "villes": [
+    "Barcelone",
+    "Bilbao",
+    "Vigo",
+    "Santander",
+    "Valence",
+    "Málaga",
+    "Cadix",
+    "Huelva",
+    "Carthagène",
+    "Séville",
+    "Almería",
+    "La Corogne",
+    "Almadén",
+    "Minas de Riotinto",
+    "Tharsis",
+    "Sabadell",
+    "Badalona",
+    "Flix",
+    "Puertollano",
+    "Manresa",
+    "Vilanova i la Geltrú",
+    "Tolède",
+    "Grenade",
+    "Logroño",
+    "Lérida",
+    "Saragosse",
+    "Ségovie"
+   ],
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
+  },
+  {
    "id": "src-19-pt-horta-sata",
    "groupe": "partielle",
    "statut_claude": "limite",
@@ -7563,7 +7539,7 @@
    "url": "https://cdn.azoresairlines.pt/sites/default/files/2020-07/Azorean-Spirit-n_3.pdf",
    "ou_regarder": "Viagem no tempo — escales de la Pan American à Horta, 1939–1945",
    "extrait": "The stopovers made by Pan American World Airways at Horta, in the island of Faial, since 1939, on its routes from New York - Marseille and New York - London, both with stopover in Lisbon, made a great contribution towards achieving the Company objectives.",
-   "notes": "Proposée par Ether (villes 1.9, 05/10/2026). Ce que la source prouve selon Ether : ville-pt-horta : aviation. Limite annoncée par Ether : Texte PDF indexé lu ; page et image à collationner. Vols SATA commerciaux de 1947 exclus. Cibles différées : recherche conservée, hors import. Aucune validation humaine présumée. Relecture Claude 05/10/2026 : Prouve des escales Pan Am à Horta depuis 1939 (donc avant 1945). Mais le mot hydravion/seaplane n'apparaît pas dans le passage et aucune date de fin (1945) n'est précisée ; seul « depuis 1939 » est établi.",
+   "notes": "Proposée par Ether (villes 1.9, 05/10/2026). Ce que la source prouve selon Ether : ville-pt-horta : aviation. Limite annoncée par Ether : Texte PDF indexé lu ; page et image à collationner. Vols SATA commerciaux de 1947 exclus. Cibles différées : recherche conservée, hors import. Aucune validation humaine présumée. Relecture Claude 05/10/2026 : Prouve des escales Pan Am à Horta depuis 1939 (donc avant 1945). Mais le mot hydravion/seaplane n'apparaît pas dans le passage et aucune date de fin (1945) n'est précisée ; seul « depuis 1939 » est établi. Complément d'Ether (villes 1.9, cycle 2, 05/10/2026) : localisateur proposé « Viagem no tempo : escales Pan American « depuis 1939 », selon la relecture partielle de Claude au CR1. ».",
    "domaine": "villes",
    "villes": [
     "Horta"
@@ -7603,6 +7579,198 @@
    "domaine": "villes",
    "villes": [
     "Spassk-Dalni"
+   ],
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
+  },
+  {
+   "id": "src-audit1x-fr-bastia",
+   "groupe": "partielle",
+   "statut_claude": "limite",
+   "niveau": "B",
+   "titre": "Histoire du port de Bastia",
+   "institution": "CCI de Corse, Port de Bastia",
+   "url": "https://bastia-port.cci.corsica/histoire/",
+   "ou_regarder": "Entre-deux-guerres,1943 et Décembre1944",
+   "extrait": "Les bombardements détruisent la quasi totalité des installations portuaires / Le port est toujours encombré par des épaves, le \"Tibériade\" le \"Sidi Mabrouk\" et le \"Mont Agel\"",
+   "notes": "Proposée par Ether (audit transversal 1.x, 05/10/2026). Port urbain historique endommagé et encombré au Snapshot ; aucune fermeture totale déduite du seul encombrement. Le terminal de car-ferries de1975 reste futur. Relecture Claude 05/10/2026 : Faits présents ; les années (1920, 1943, décembre 1944) non restituées par l'outil.",
+   "domaine": "villes",
+   "villes": [
+    "Bastia"
+   ],
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
+  },
+  {
+   "id": "src-audit1x-fr-hendaye",
+   "groupe": "partielle",
+   "statut_claude": "limite",
+   "niveau": "B",
+   "titre": "Le Connecting Europe Express fait escale à Hendaye, 4 septembre2021",
+   "institution": "Ville de Hendaye",
+   "url": "https://www.hendaye.fr/fr/le-connecting-europe-express-fait-escale-a-hendaye/",
+   "ou_regarder": "Discours du maire, premier paragraphe daté15août1864",
+   "extrait": "157 ans après l'arrivée en gare d'Hendaye du 1er train en provenance de Madrid et à destination de Paris (le 15/8/1864)",
+   "notes": "Proposée par Ether (audit transversal 1.x, 05/10/2026). Rôle urbain historique ; service, accès et capacités au Snapshot non déduits. Repère actuel à contrôler séparément. Relecture Claude 05/10/2026 : Rail prouvé ; le rôle frontalier n'est pas dit en toutes lettres.",
+   "domaine": "villes",
+   "villes": [
+    "Hendaye"
+   ],
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
+  },
+  {
+   "id": "src-audit1x-fr-tours",
+   "groupe": "partielle",
+   "statut_claude": "limite",
+   "niveau": "B",
+   "titre": "Gares et réseau ferré — Tours, Rennes, Limoges et Lyon Perrache",
+   "institution": "SNCF Patrimoine",
+   "url": "https://patrimoine.sncf.com/gares-et-reseau-ferre/",
+   "ou_regarder": "Sections Gare de Tours ; Poste d’aiguillage de Rennes ; Gare de Limoges ; Le poste d’aiguillage de Lyon Perrache",
+   "extrait": "la construction, de 1896 à 1898, de la gare monumentale / Le poste central de Rennes date de 1941",
+   "notes": "Proposée par Ether (audit transversal 1.x, 05/10/2026). Rôle urbain historique documenté ; aucune capacité, desserte exacte ni continuité du trafic au 1er janvier1945 déduite. Ne pas déplacer le triage de Saint-Pierre-des-Corps à Tours. PDF SNCF sans texte et capture en erreur : preuve retenue sur la page HTML lue. Relecture Claude 05/10/2026 : Tours et Rennes prouvés ; Limoges (sujet de la phrase non nommé dans l'extrait) et Lyon-Perrache (non nommé) non confirmés.",
+   "domaine": "villes",
+   "villes": [
+    "Tours",
+    "Rennes",
+    "Limoges",
+    "Lyon"
+   ],
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
+  },
+  {
+   "id": "src-audit1x-gb-crewe",
+   "groupe": "partielle",
+   "statut_claude": "limite",
+   "niveau": "B",
+   "titre": "1867 buildings at Crewe Railway Station,1436435",
+   "institution": "Historic England",
+   "url": "https://historicengland.org.uk/listing/the-list/list-entry/1436435",
+   "ou_regarder": "History, paragraphes1837–1867 et1903–1906",
+   "extrait": "The railway opened in 1837. / the first junction between more than two mainline railways.",
+   "notes": "Proposée par Ether (audit transversal 1.x, 05/10/2026). Rôle urbain historique ; service, accès et capacités au Snapshot non déduits. Repère actuel à contrôler séparément. Relecture Claude 05/10/2026 : Carrefour ferroviaire prouvé ; la date de 1837 vaut pour la ligne.",
+   "domaine": "villes",
+   "villes": [
+    "Crewe"
+   ],
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
+  },
+  {
+   "id": "src-audit1x-portsmouth-hansard1946",
+   "groupe": "partielle",
+   "statut_claude": "limite",
+   "niveau": "A",
+   "titre": "Portsmouth Dockyard (Personnel), Hansard,16avril1946",
+   "institution": "Parlement du Royaume-Uni, Hansard",
+   "url": "https://api.parliament.uk/historic-hansard/written-answers/1946/apr/16/portsmouth-dockyard-personnel",
+   "ou_regarder": "Tableau, ligne25th March1944, colonnes432W–434W",
+   "extrait": "Portsmouth Dockyard ... 25th March 1944 ... 17,172",
+   "notes": "Proposée par Ether (audit transversal 1.x, 05/10/2026). Réponse parlementaire de1946 donnant des données datées de1944 ; aucune valeur de1945–1946 reportée au Snapshot. Le tableau de personnel ne fournit pas une capacité portuaire. Relecture Claude 05/10/2026 : Effectifs de l'arsenal au 25 mars 1944 : arsenal en activité ; « base navale » non dite en toutes lettres.",
+   "domaine": "villes",
+   "villes": [
+    "Portsmouth"
+   ],
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
+  },
+  {
+   "id": "src-audit1x-ruppenthal-i3",
+   "groupe": "partielle",
+   "statut_claude": "faible",
+   "niveau": "B",
+   "titre": "Ruppenthal, Logistical Support of the Armies, I, chapitre III",
+   "institution": "U.S. Army, Office/Center of Military History ; transcription HyperWar, ibiblio",
+   "url": "https://www.ibiblio.org/hyperwar/USA/USA-E-Logistics1/USA-E-Logistics1-3.html",
+   "ou_regarder": "III, organisation des zones, p.145–147, ports britanniques avantmai1944",
+   "extrait": "",
+   "notes": "Proposée par Ether (audit transversal 1.x, 05/10/2026). Histoire institutionnelle rétrospective lue dans la transcription HTML ; les archives originales citées ne sont pas toutes collationnées. Ne pas anticiper les passages de janvier–mai1945 ni étendre une preuve de rôle aux capacités du Snapshot. Relecture Claude 05/10/2026 : Aucun des huit ports n'est nommé dans la page relue par l'outil.",
+   "domaine": "villes",
+   "villes": [
+    "Londres",
+    "Liverpool",
+    "Glasgow",
+    "Hull",
+    "Southampton",
+    "Plymouth",
+    "Cardiff",
+    "Manchester"
+   ],
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
+  },
+  {
+   "id": "src-audit1x-ruppenthal-ii3",
+   "groupe": "partielle",
+   "statut_claude": "limite",
+   "niveau": "B",
+   "titre": "Ruppenthal, Logistical Support of the Armies, II, chapitre III",
+   "institution": "U.S. Army, Office/Center of Military History ; transcription HyperWar, ibiblio",
+   "url": "https://www.ibiblio.org/hyperwar/USA/USA-E-Logistics2/USA-E-Logistics2-3.html",
+   "ou_regarder": "III §3 The Role of Cherbourg, p.62–66 ; III §1, p.51–52",
+   "extrait": "the only port in Allied hands which possessed facilities even partially adapted to handling such cargo was Cherbourg",
+   "notes": "Proposée par Ether (audit transversal 1.x, 05/10/2026). Histoire institutionnelle rétrospective lue dans la transcription HTML ; les archives originales citées ne sont pas toutes collationnées. Ne pas anticiper les passages de janvier–mai1945 ni étendre une preuve de rôle aux capacités du Snapshot. Relecture Claude 05/10/2026 : Cherbourg : port en service en 1944 (base navale non dite). Brest : port rendu inutilisable (destruction, pas de rôle à prouver).",
+   "domaine": "villes",
+   "villes": [
+    "Cherbourg",
+    "Brest"
+   ],
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
+  },
+  {
+   "id": "src-audit1x-ruppenthal-ii4",
+   "groupe": "partielle",
+   "statut_claude": "limite",
+   "niveau": "B",
+   "titre": "Ruppenthal, Logistical Support of the Armies, II, chapitre IV",
+   "institution": "U.S. Army, Office/Center of Military History ; transcription HyperWar, ibiblio",
+   "url": "https://www.ibiblio.org/hyperwar/USA/USA-E-Logistics2/USA-E-Logistics2-4.html",
+   "ou_regarder": "IV §1 p.96–103 ; §2 ouverture28novembre ; §3 p.119–123",
+   "extrait": "The long-awaited opening of the port finally took place on 28 November, when the James B. Weaver, a Liberty ship...was berthed.",
+   "notes": "Proposée par Ether (audit transversal 1.x, 05/10/2026). Histoire institutionnelle rétrospective lue dans la transcription HTML ; les archives originales citées ne sont pas toutes collationnées. Ne pas anticiper les passages de janvier–mai1945 ni étendre une preuve de rôle aux capacités du Snapshot. Relecture Claude 05/10/2026 : Le Havre, Rouen, Anvers prouvés ; Marseille et Toulon absents de cette page.",
+   "domaine": "villes",
+   "villes": [
+    "Le Havre",
+    "Rouen",
+    "Anvers",
+    "Marseille",
+    "Toulon"
+   ],
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
+  },
+  {
+   "id": "src-audit1x-ruppenthal-ii5",
+   "groupe": "partielle",
+   "statut_claude": "limite",
+   "niveau": "B",
+   "titre": "Ruppenthal, Logistical Support of the Armies, II, chapitre V",
+   "institution": "U.S. Army, Office/Center of Military History ; transcription HyperWar, ibiblio",
+   "url": "https://www.ibiblio.org/hyperwar/USA/USA-E-Logistics2/USA-E-Logistics2-5.html",
+   "ou_regarder": "V §2 p.148–149 et156 ; §4 p.165–166",
+   "extrait": "one via Soissons, Laon, and Hirson to Charleroi, where it tied in with the northern line; and a third extending directly east of Paris via Sezanne and Sommesous to the Nancy-Metz-Verdun triangle.",
+   "notes": "Proposée par Ether (audit transversal 1.x, 05/10/2026). Histoire institutionnelle rétrospective lue dans la transcription HTML ; les archives originales citées ne sont pas toutes collationnées. Ne pas anticiper les passages de janvier–mai1945 ni étendre une preuve de rôle aux capacités du Snapshot. Relecture Claude 05/10/2026 : Seuls Charleroi et Metz nommés ; Paris (barges du 18/11/1944), Liège, Namur, Lyon, Dijon non retrouvés par l'outil.",
+   "domaine": "villes",
+   "villes": [
+    "Paris",
+    "Metz",
+    "Liège",
+    "Charleroi",
+    "Namur",
+    "Lyon",
+    "Dijon"
    ],
    "remplacee_par": [],
    "priorite": "facultative",

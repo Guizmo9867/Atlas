@@ -6,10 +6,11 @@ Données : proposition JSON d'Ether du 05/10/2026, au format du gabarit
 réserves R19-01 à R19-24 : villes_1-9_iberie_marges_reserves_ether.md ; 10 candidats différés non importés).
 Positions : QID Wikidata (CC0) proposés par Ether, recoupés par Claude par SPARQL (outils/villes/wikidata_ratissage_1_9.json ;
 aucun écart > 1 km, pays cohérents, aucun doublon avec les villes déjà intégrées ; Vatican à 2 km du point de Rome).
-Relancer : python outils/villes/construire_villes_1_9.py (depuis la racine du dépôt), après fusion_sources_1_9.py.
+Relancer : python outils/villes/construire_villes_1_9.py (depuis la racine du dépôt), après fusion_sources_1_9.py et fusion_sources_1_9_cycle2.py.
 """
 import json, pathlib, copy, re
 from confirmations_claude import confirmation
+from remise_ether_2026_10_05 import appliquer_corrections
 
 RACINE = pathlib.Path(__file__).resolve().parents[2]
 ICI = pathlib.Path(__file__).parent
@@ -21,6 +22,9 @@ REGISTRE = {x['source_id']: x for x in json.load(open(RACINE / 'data/sources/atl
 # R19) ; Nicosie et La Valette : chefs-lieux de colonies britanniques (type « territoire »).
 CAPITALES_ATTENDUES = {'ville-es-madrid': 'nationale', 'ville-pt-lisbonne': 'nationale', 'ville-ad-andorre-la-vieille': 'nationale',
                        'ville-sm-saint-marin': 'nationale', 'ville-cy-nicosie': 'territoire', 'ville-mt-la-valette': 'territoire'}
+# Cycle 2 (05/10/2026) : compléments de preuves d'Ether, additifs (Q19-01, Q19-02), 2 corrections de texte ciblées et 1 localisateur.
+OPS_C2 = json.load(open(RACINE / 'data/sources/deltas_ether/2026-10-05_villes_1-9_corrections_cycle2_ether.json', encoding='utf-8'))['corrections']
+JOURNAL_C2 = {}
 NON_PREUVE = ('src-wikidata',)
 INDEXE = ' ; passage indexé seulement, lecture directe à confirmer'
 
@@ -39,6 +43,8 @@ for v in PROPOSITION['entites']:
         if cle in vues: continue
         vues.add(cle); srcs.append(s)
     et['sources'] = srcs
+    f = appliquer_corrections(e, OPS_C2, REGISTRE, "Réponse d'Ether (cycle 2)")
+    if f: JOURNAL_C2[eid] = f
     prouve = set()
     for s in srcs:
         if s['source_id'] in NON_PREUVE:
@@ -61,7 +67,7 @@ for v in PROPOSITION['entites']:
 lot = {
   'metadata_lot': {
     'nom': 'snapshot0_villes_1-9_iberie_marges', 'date_reference': '1945-01-01', 'heure_reference': '00:00',
-    'version': '0.1', 'statut': 'integre_par_claude', 'gabarit_source': 'gabarits/gabarit_entite_temporelle_atlas.json',
+    'version': '0.2', 'statut': 'integre_par_claude', 'gabarit_source': 'gabarits/gabarit_entite_temporelle_atlas.json',
     'zone': PROPOSITION['metadata_lot']['zone'],
     'limites_ether': PROPOSITION['metadata_lot']['limites_ether'],
     'reserves_ether': 'R19-01 à R19-24 (data/snapshot0/villes_1-9_iberie_marges_reserves_ether.md), revue finale 1.x',
@@ -69,11 +75,13 @@ lot = {
       "Données : JSON d'Ether (238 villes : ES 158, PT 61, CY 7, MT 5, AD 2, SM 2, GI 1, VA 1, MC 1), IDs déjà au code du pays actuel ; 3 noms de 1945 dans l'état (El Ferrol del Caudillo, Mahón, Puerto Cabras), nom actuel sur la fiche ; aucun nom_local ; 10 candidats différés non importés (Canfranc, Chinchilla, La Encina, Bobadilla, Moreda, Casa Branca, Tua, Pocinho, Cabeço de Vide, Estella-Lizarra).",
       "Positions : QID Wikidata (CC0) d'Ether recoupés par SPARQL : aucun écart > 1 km, pays cohérents ; aucun ID commun avec les 1306 villes déjà intégrées ; Cité du Vatican à côté de Rome (entités distinctes).",
       "Capitales : « nationale » pour Madrid, Lisbonne, Andorre-la-Vieille, Saint-Marin ; « territoire » pour Nicosie et La Valette ; Monaco et Vatican sans champ capitale (réserve d'Ether). Code pays « sm » ajouté au lexique.",
-      "Preuves : carte Forcano 1942 lue par Claude sur 19 captures déposées par Ether (167 villes lues sur une ligne exploitée) ; 34 pages en ligne relues par WebFetch ; mentions « (non vérifiée par Claude) », « (lecture partielle) » ou « (page relue par Claude pour cette ville) » ; « À renforcer » = rôles sans aucune preuve confirmée."]},
+      "Preuves : carte Forcano 1942 lue par Claude sur 19 captures déposées par Ether (167 villes lues sur une ligne exploitée) ; 34 pages en ligne relues par WebFetch ; mentions « (non vérifiée par Claude) », « (lecture partielle) » ou « (page relue par Claude pour cette ville) » ; « À renforcer » = rôles sans aucune preuve confirmée.",
+      "v0.2 (05/10/2026, réponses d'Ether cycle 2, Q19-01 et Q19-02) : 4 sources nouvelles (gares de Séville, Eibar, Figueras, ligne de Jerez de los Caballeros) et 12 compléments, relus par Claude (registre v1.29) : captures d'Avilés, d'Andorre-la-Vieille et de Saint-Marin, pages de PDF d'Eibar, Figueras, Jerez et de la revue de l'Armada (note 17, p. 100), nouvelles captures Forcano (Riotinto, Tharsis, Fregenal, Setúbal) lues par Claude ; Treccani (Espagne, Portugal, Chypre, Malte), chronologie CP et IBCC relus par WebFetch. Sources ajoutées sans rien remplacer (32 opérations, 29 villes) ; phrases d'Ether ajoutées aux notes seulement pour les sources confirmées ; notes de Horta et Senglea corrigées (texte ciblé), localisateur de Horta corrigé. Mentions de preuve et « À renforcer » recalculés."]},
   },
   'entites': entites,
 }
 out = RACINE / 'data/snapshot0/villes_1-9_iberie_marges.json'
 out.write_text(json.dumps(lot, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+print('cycle 2 :', JOURNAL_C2)
 print(len(entites), 'villes ->', out.relative_to(RACINE), '; à renforcer :', sum('À renforcer' in e['etats'][0]['proprietes']['note'] for e in entites),
       '; noms de 1945 :', sum(1 for e in entites if e['etats'][0]['proprietes'].get('nom')))

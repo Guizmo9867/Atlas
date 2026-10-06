@@ -43,7 +43,9 @@ def appliquer_corrections(e, operations, registre, etiquette):
                 if any(s['source_id'] == sid for s in et['sources']):
                     faits.append(f'{sid} déjà citée'); continue
                 roles = [r for r in roles_usage(a['usage']) if r in p['roles']]
-                et['sources'].append({'source_id': sid, 'locator': a['locator'], 'usage': (', '.join(roles) + ' ; ' if roles else '') + a['usage']})
+                tete = {t.strip() for t in re.split(r'[,;]', re.split(r' — ', a['usage'])[0])}
+                deja = bool(roles) and set(roles) <= tete  # usage qui commence déjà par ses rôles (« rail — … ») : pas de doublon
+                et['sources'].append({'source_id': sid, 'locator': a['locator'], 'usage': (', '.join(roles) + ' ; ' if roles and not deja else '') + a['usage']})
                 faits.append(f'+{sid}')
                 n = op.get('note_a_ajouter')
                 if n and confirmee(registre.get(sid), e['entite_id']):

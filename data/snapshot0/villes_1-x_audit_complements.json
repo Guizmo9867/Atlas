@@ -1,0 +1,739 @@
+{
+  "metadata_lot": {
+    "nom": "snapshot0_villes_1-x_audit_complements",
+    "date_reference": "1945-01-01",
+    "heure_reference": "00:00",
+    "version": "0.1",
+    "statut": "integre_par_claude",
+    "gabarit_source": "gabarits/gabarit_entite_temporelle_atlas.json",
+    "zone": "Compléments de couverture du lot 1.0 (France, Grande-Bretagne) proposés par l'audit transversal 1.x d'Ether",
+    "limites_ether": "À relire par Claude, sans validation implicite des réserves. Les rôles sont historiques ; aucune continuité de service au Snapshot inférée.",
+    "reserves_ether": "Index des réserves de l'audit (data/snapshot0/villes_1x_audit_index_reserves_ether.md), revue finale 1.x",
+    "integration": {
+      "date": "2026-10-05",
+      "par": "Claude",
+      "corrections": [
+        "Données : JSON d'Ether (15 villes : FR 12, GB 3), IDs au code du pays actuel ; aucun nom de 1945 différent, aucune capitale ; gares et ports non séparés des villes. Lens différée par Ether (non importée).",
+        "Positions : QID Wikidata (CC0) d'Ether recoupés par SPARQL : libellé et pays cohérents, écart < 100 m ; aucun QID ni ID déjà dans le corpus ; Hendaye/Irun, Cerbère/Portbou et Tours/Saint-Pierre-des-Corps sont des paires de villes voisines distinctes.",
+        "Preuves : 18 sources de l'audit relues par sous-agents (WebFetch seul) : 7 confirmées, 8 en lecture partielle, 2 illisibles pour l'outil (Jeumont, Dijon), 1 faible (Ruppenthal I-3) ; mentions « (non vérifiée par Claude) », « (lecture partielle) » ou « (page relue par Claude pour cette ville) » ; « À renforcer » = rôles sans aucune preuve confirmée."
+      ]
+    }
+  },
+  "entites": [
+    {
+      "entite_id": "ville-fr-hendaye",
+      "type_entite": "ville",
+      "nom": "Hendaye",
+      "nom_court": "Hendaye",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "C",
+            "roles": [
+              "rail",
+              "frontalier"
+            ],
+            "note": "Complément proposé dans l’audit final 1.x. La municipalité rappelle l’arrivée à Hendaye du premier train Madrid–Paris le15août1864. Cela documente un rôle de passage ferroviaire international avant1945. Rôle urbain historique ; service, accès et capacités au Snapshot non déduits. Repère actuel à contrôler séparément. Repère géographique actuel, ni gare ni port précis, ni centre historique de 1945 certifié. Précision de publication distincte de la précision réelle. Importance C : sélection éditoriale proposée, pas une catégorie administrative. À renforcer : frontalier."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              -1.774444,
+              43.358611
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-audit1x-fr-hendaye",
+              "locator": "Discours du maire, premier paragraphe daté15août1864",
+              "usage": "rail; frontalier — La municipalité rappelle l’arrivée à Hendaye du premier train Madrid–Paris le15août1864. Cela documente un rôle de passage ferroviaire international avant1945. (page relue par Claude pour cette ville : rail)"
+            },
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q191754",
+              "usage": "position actuelle (repère), recoupée par Claude ; aucune preuve de rôle historique"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-fr-cerbere",
+      "type_entite": "ville",
+      "nom": "Cerbère",
+      "nom_court": "Cerbère",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "C",
+            "roles": [
+              "rail",
+              "frontalier"
+            ],
+            "note": "Complément proposé dans l’audit final 1.x. La gare internationale est inaugurée en1878 ; transbordement, contrôle douanier et changement de train structurent ensuite le développement urbain. Rôle urbain historique ; service, accès et capacités au Snapshot non déduits. Repère actuel à contrôler séparément. Aucun poste de douane ni gare autonome créé. Repère géographique actuel, ni gare ni port précis, ni centre historique de 1945 certifié. Précision de publication distincte de la précision réelle. Importance C : sélection éditoriale proposée, pas une catégorie administrative."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              3.164722,
+              42.443333
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-audit1x-fr-cerbere",
+              "locator": "La gare internationale, moteur du développement urbain",
+              "usage": "rail; frontalier — La gare internationale est inaugurée en1878 ; transbordement, contrôle douanier et changement de train structurent ensuite le développement urbain."
+            },
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q6667",
+              "usage": "position actuelle (repère), recoupée par Claude ; aucune preuve de rôle historique"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-fr-modane",
+      "type_entite": "ville",
+      "nom": "Modane",
+      "nom_court": "Modane",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "C",
+            "roles": [
+              "rail",
+              "frontalier"
+            ],
+            "note": "Complément proposé dans l’audit final 1.x. Le tunnel du Fréjus fait de Modane un pôle frontalier ferroviaire en1871. La gare est détruite en1943 puis saccagée en août1944. Ville historique de transit avec rupture de guerre explicite ; aucune ouverture du tunnel ni trafic complet au1janvier1945 certifiés. Ne pas attribuer la destruction de la gare à toute la ville. Repère géographique actuel, ni gare ni port précis, ni centre historique de 1945 certifié. Précision de publication distincte de la précision réelle. Importance C : sélection éditoriale proposée, pas une catégorie administrative."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              6.673333,
+              45.201389
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-audit1x-fr-modane",
+              "locator": "La création d’un réseau frontalier,1871 puis1943–1944",
+              "usage": "rail; frontalier — Le tunnel du Fréjus fait de Modane un pôle frontalier ferroviaire en1871. La gare est détruite en1943 puis saccagée en août1944."
+            },
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q537113",
+              "usage": "position actuelle (repère), recoupée par Claude ; aucune preuve de rôle historique"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-fr-jeumont",
+      "type_entite": "ville",
+      "nom": "Jeumont",
+      "nom_court": "Jeumont",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "C",
+            "roles": [
+              "rail",
+              "industrie"
+            ],
+            "note": "Complément proposé dans l’audit final 1.x. La notice associe le développement industriel de Jeumont à la ligne Paris–Erquelinnes installée en1855 ; elle décrit l’agrandissement de la gare vers1881 et les établissements industriels. Rôle urbain historique ; service, accès et capacités au Snapshot non déduits. Repère actuel à contrôler séparément. Le HTML affichait un contrôle de connexion ; le PDF public a été lu. Ne pas transférer des activités d’autres communes. La reconstruction de la gare après la Première Guerre mondiale et les logements des ingénieurs FACEJ en1932 sont nommés ; les logements de cheminots de1919–1925 sont à Marpent, pas à Jeumont. La verrerie déplacée à Boussois ne prouve pas une activité jeumontoise en1945. Repère géographique actuel, ni gare ni port précis, ni centre historique de 1945 certifié. Précision de publication distincte de la précision réelle. Importance C : sélection éditoriale proposée, pas une catégorie administrative. À renforcer : rail, industrie."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              4.101389,
+              50.294444
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-audit1x-fr-jeumont",
+              "locator": "p.1, Historique",
+              "usage": "rail; industrie — La notice associe le développement industriel de Jeumont à la ligne Paris–Erquelinnes installée en1855 ; elle décrit l’agrandissement de la gare vers1881 et les établissements industriels. (non vérifiée par Claude)"
+            },
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q600164",
+              "usage": "position actuelle (repère), recoupée par Claude ; aucune preuve de rôle historique"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-fr-bastia",
+      "type_entite": "ville",
+      "nom": "Bastia",
+      "nom_court": "Bastia",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "B",
+            "roles": [
+              "port_maritime"
+            ],
+            "note": "Complément proposé dans l’audit final 1.x. Le port, concédé en1920, subit la destruction de presque toutes ses installations en1943. En décembre1944 il reste encombré par trois épaves nommées. Port urbain historique endommagé et encombré au Snapshot ; aucune fermeture totale déduite du seul encombrement. Le terminal de car-ferries de1975 reste futur. Repère géographique actuel, ni gare ni port précis, ni centre historique de 1945 certifié. Précision de publication distincte de la précision réelle. Importance B : sélection éditoriale proposée, pas une catégorie administrative."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              9.449444,
+              42.7
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-audit1x-fr-bastia",
+              "locator": "Entre-deux-guerres,1943 et Décembre1944",
+              "usage": "port_maritime — Le port, concédé en1920, subit la destruction de presque toutes ses installations en1943. En décembre1944 il reste encombré par trois épaves nommées. (page relue par Claude pour cette ville : port_maritime)"
+            },
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q134698",
+              "usage": "position actuelle (repère), recoupée par Claude ; aucune preuve de rôle historique"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-fr-ajaccio",
+      "type_entite": "ville",
+      "nom": "Ajaccio",
+      "nom_court": "Ajaccio",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "B",
+            "roles": [
+              "port_maritime"
+            ],
+            "note": "Complément proposé dans l’audit final 1.x. Des hommes du bataillon de choc accostent à Ajaccio en septembre1943 ; le récit et les photographies décrivent l’arrivée des renforts dans le port. Rôle urbain historique ; service, accès et capacités au Snapshot non déduits. Repère actuel à contrôler séparément. Le rôle portuaire est retenu ; aucune garnison permanente ni volume de trafic1945 déduit. Repère géographique actuel, ni gare ni port précis, ni centre historique de 1945 certifié. Précision de publication distincte de la précision réelle. Importance B : sélection éditoriale proposée, pas une catégorie administrative."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              8.736389,
+              41.925556
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-audit1x-fr-ajaccio",
+              "locator": "Opération Vésuve, débarquements du13septembre et légendes des photographies",
+              "usage": "port_maritime — Des hommes du bataillon de choc accostent à Ajaccio en septembre1943 ; le récit et les photographies décrivent l’arrivée des renforts dans le port."
+            },
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q40104",
+              "usage": "position actuelle (repère), recoupée par Claude ; aucune preuve de rôle historique"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-gb-crewe",
+      "type_entite": "ville",
+      "nom": "Crewe",
+      "nom_court": "Crewe",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "B",
+            "roles": [
+              "rail"
+            ],
+            "note": "Complément proposé dans l’audit final 1.x. La gare ouvre sur la Grand Junction Railway en1837 ; la notice décrit les raccordements et agrandissements qui en font un carrefour ferroviaire avant1945. Rôle urbain historique ; service, accès et capacités au Snapshot non déduits. Repère actuel à contrôler séparément. Repère géographique actuel, ni gare ni port précis, ni centre historique de 1945 certifié. Précision de publication distincte de la précision réelle. Importance B : sélection éditoriale proposée, pas une catégorie administrative."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              -2.44,
+              53.099
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-audit1x-gb-crewe",
+              "locator": "History, paragraphes1837–1867 et1903–1906",
+              "usage": "rail — La gare ouvre sur la Grand Junction Railway en1837 ; la notice décrit les raccordements et agrandissements qui en font un carrefour ferroviaire avant1945. (page relue par Claude pour cette ville : rail)"
+            },
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q648810",
+              "usage": "position actuelle (repère), recoupée par Claude ; aucune preuve de rôle historique"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-gb-york",
+      "type_entite": "ville",
+      "nom": "York",
+      "nom_court": "York",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "B",
+            "roles": [
+              "rail"
+            ],
+            "note": "Complément proposé dans l’audit final 1.x. York est décrit comme centre des itinéraires et de l’administration ferroviaires dès le XIXe siècle ; liaisons1839–1840 et gare1877 explicitement datées. Rôle urbain historique ; service, accès et capacités au Snapshot non déduits. Repère actuel à contrôler séparément. Ne pas transférer l’aérodrome de Clifton ni son rôle à la ville sans étude distincte. Repère géographique actuel, ni gare ni port précis, ni centre historique de 1945 certifié. Précision de publication distincte de la précision réelle. P625 arrondi à la minute ; précision grossière conservée, sans chiffres de précision supposés. Importance B : sélection éditoriale proposée, pas une catégorie administrative."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              -1.083333,
+              53.95
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-audit1x-gb-york",
+              "locator": "§5.51, pages20–21 imprimées / pages21–22 duPDF",
+              "usage": "rail — York est décrit comme centre des itinéraires et de l’administration ferroviaires dès le XIXe siècle ; liaisons1839–1840 et gare1877 explicitement datées."
+            },
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q42462",
+              "usage": "position actuelle (repère), recoupée par Claude ; aucune preuve de rôle historique"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-fr-dijon",
+      "type_entite": "ville",
+      "nom": "Dijon",
+      "nom_court": "Dijon",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "B",
+            "roles": [
+              "rail"
+            ],
+            "note": "Complément proposé dans l’audit final 1.x. La gare dijonnaise suit l’ouverture de Paris–Dijon en1851 ; elle est détruite en1944. Dijon est atteinte par la ligne de ravitaillement à la fin de septembre1944. Rôle urbain historique documenté ; aucune capacité, desserte exacte ni continuité du trafic au 1er janvier1945 déduite. Les bâtiments de1947–1962 restent futurs. Destruction de la gare, pas de toute la ville. Repère actuel ; centre historique exact et position de gare non certifiés. Importance B : sélection éditoriale proposée, pas une catégorie administrative. À renforcer : rail."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              5.041944,
+              47.323056
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-audit1x-fr-dijon",
+              "locator": "Description architecturale, premier paragraphe1851/1944",
+              "usage": "rail — La gare dijonnaise suit l’ouverture de Paris–Dijon en1851 ; elle est détruite en1944. (non vérifiée par Claude)"
+            },
+            {
+              "source_id": "src-audit1x-ruppenthal-ii5",
+              "locator": "V §2 p.156",
+              "usage": "rail — Dijon est atteinte par la ligne de ravitaillement à la fin de septembre1944. (lecture partielle)"
+            },
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q7003",
+              "usage": "position actuelle (repère), recoupée par Claude ; aucune preuve de rôle historique"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-fr-le-mans",
+      "type_entite": "ville",
+      "nom": "Le Mans",
+      "nom_court": "Le Mans",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "B",
+            "roles": [
+              "rail"
+            ],
+            "note": "Complément proposé dans l’audit final 1.x. La ville rappelle l’arrivée du train en1854 et la constitution rapide d’un important maillage ferroviaire. Rôle urbain historique documenté ; aucune capacité, desserte exacte ni continuité du trafic au 1er janvier1945 déduite. Dossier municipal d’exposition complet lu ; un autre PDF des musées avait expiré au téléchargement, non utilisé. Repère actuel ; centre historique exact et position de gare non certifiés. Importance B : sélection éditoriale proposée, pas une catégorie administrative."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              0.196944,
+              48.004167
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-audit1x-fr-le-mans",
+              "locator": "p.4 imprimée/PDF(index3), rubrique Les170ans du train au Mans",
+              "usage": "rail — La ville rappelle l’arrivée du train en1854 et la constitution rapide d’un important maillage ferroviaire."
+            },
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q1476",
+              "usage": "position actuelle (repère), recoupée par Claude ; aucune preuve de rôle historique"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-fr-saint-pierre-des-corps",
+      "type_entite": "ville",
+      "nom": "Saint-Pierre-des-Corps",
+      "nom_court": "Saint-Pierre-des-Corps",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "C",
+            "roles": [
+              "rail"
+            ],
+            "note": "Complément proposé dans l’audit final 1.x. Le récit décrit l’arrivée ferroviaire au XIXe siècle, les emplois du dépôt et du triage, puis les franchissements de1882 et1901. Rôle urbain historique documenté ; aucune capacité, desserte exacte ni continuité du trafic au 1er janvier1945 déduite. La date1844 concerne le tracé, pas une ouverture présumée. Ne pas transférer le triage à Tours ni reprendre les TGV actuels. Repère actuel ; centre historique exact et position de gare non certifiés. Importance C : sélection éditoriale proposée, pas une catégorie administrative."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              0.728056,
+              47.390833
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-audit1x-fr-saint-pierre-des-corps",
+              "locator": "Un peu d’histoire, après les renseignements de transport actuel",
+              "usage": "rail — Le récit décrit l’arrivée ferroviaire au XIXe siècle, les emplois du dépôt et du triage, puis les franchissements de1882 et1901."
+            },
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q1141332",
+              "usage": "position actuelle (repère), recoupée par Claude ; aucune preuve de rôle historique"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-gb-swindon",
+      "type_entite": "ville",
+      "nom": "Swindon",
+      "nom_court": "Swindon",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "B",
+            "roles": [
+              "rail",
+              "industrie"
+            ],
+            "note": "Complément proposé dans l’audit final 1.x. Les ateliers GWR et leur cité sont établis dans les années1840 ; l’usine produit et répare du matériel ferroviaire, avec un pic d’emploi en1925. Rôle urbain historique documenté ; aucune capacité, desserte exacte ni continuité du trafic au 1er janvier1945 déduite. Réparations et fabrication locales ; effectif de1925 non attribué à1945. Q200942 est la ville du Wiltshire, distincte du borough et du village homonyme du Gloucestershire. Repère actuel ; centre historique exact et position de gare non certifiés. Importance B : sélection éditoriale proposée, pas une catégorie administrative."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              -1.781111,
+              51.558333
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-audit1x-gb-swindon",
+              "locator": "History, trois premiers paragraphes ; Reasons for Designation",
+              "usage": "rail; industrie — Les ateliers GWR et leur cité sont établis dans les années1840 ; l’usine produit et répare du matériel ferroviaire, avec un pic d’emploi en1925."
+            },
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q200942",
+              "usage": "position actuelle (repère), recoupée par Claude ; aucune preuve de rôle historique"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-fr-tours",
+      "type_entite": "ville",
+      "nom": "Tours",
+      "nom_court": "Tours",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "B",
+            "roles": [
+              "rail"
+            ],
+            "note": "Complément proposé dans l’audit final 1.x. La gare de Tours est reconstruite en1896–1898 pour réunir deux gares antérieures. Rôle urbain historique documenté ; aucune capacité, desserte exacte ni continuité du trafic au 1er janvier1945 déduite. Ne pas déplacer le triage de Saint-Pierre-des-Corps à Tours. PDF SNCF sans texte et capture en erreur : preuve retenue sur la page HTML lue. Repère actuel ; centre historique exact et position de gare non certifiés. Importance B : sélection éditoriale proposée, pas une catégorie administrative."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              0.688333,
+              47.392778
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-audit1x-fr-tours",
+              "locator": "Section Gare de Tours, premier paragraphe",
+              "usage": "rail — La gare de Tours est reconstruite en1896–1898 pour réunir deux gares antérieures. (page relue par Claude pour cette ville : rail)"
+            },
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q288",
+              "usage": "position actuelle (repère), recoupée par Claude ; aucune preuve de rôle historique"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-fr-rennes",
+      "type_entite": "ville",
+      "nom": "Rennes",
+      "nom_court": "Rennes",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "B",
+            "roles": [
+              "rail"
+            ],
+            "note": "Complément proposé dans l’audit final 1.x. Poste central ferroviaire daté de1941. Rôle ferroviaire urbain historique ; service et capacité1945 non certifiés. Aucun équipement autonome créé. Repère actuel ; centre historique exact et position de gare non certifiés. Importance B : sélection éditoriale proposée, pas une catégorie administrative."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              -1.680833,
+              48.114167
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-audit1x-fr-tours",
+              "locator": "Poste d’aiguillage de Rennes",
+              "usage": "rail — Poste central ferroviaire daté de1941. (page relue par Claude pour cette ville : rail)"
+            },
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q647",
+              "usage": "position actuelle (repère), recoupée par Claude ; aucune preuve de rôle historique"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entite_id": "ville-fr-limoges",
+      "type_entite": "ville",
+      "nom": "Limoges",
+      "nom_court": "Limoges",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "ville_au_snapshot0",
+          "proprietes": {
+            "importance_atlas": "B",
+            "roles": [
+              "rail"
+            ],
+            "note": "Complément proposé dans l’audit final 1.x. Gare inaugurée en1929. Rôle ferroviaire urbain historique ; service et capacité1945 non certifiés. Aucun équipement autonome créé. Repère actuel ; centre historique exact et position de gare non certifiés. Importance B : sélection éditoriale proposée, pas une catégorie administrative. À renforcer : rail."
+          },
+          "geometrie": {
+            "type": "Point",
+            "coordinates": [
+              1.261667,
+              45.834444
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "src-audit1x-fr-tours",
+              "locator": "Gare de Limoges",
+              "usage": "rail — Gare inaugurée en1929. (lecture partielle)"
+            },
+            {
+              "source_id": "src-wikidata",
+              "locator": "Q45656",
+              "usage": "position actuelle (repère), recoupée par Claude ; aucune preuve de rôle historique"
+            }
+          ]
+        }
+      ],
+      "relations": []
+    }
+  ]
+}

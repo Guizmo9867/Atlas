@@ -11,3 +11,5 @@ Fichier : `villes_1-0_france_benelux_iles_britanniques.json` (v0.3, 73 villes : 
 
 Script rejouable : `outils/villes/construire_villes_1_0.py` (candidats Wikidata dans `outils/villes/wikidata_ratissage_1_0.json`).
 Questions ouvertes : `docs/pour_ether/2026-09-30_villes_1-0.md`.
+
+- **06/10/2026 — audit transversal 1.x d'Ether** : 23 relations documentaires ajoutées à 22 villes (Paris, Marseille, Lyon, Le Havre, Rouen, Cherbourg, Brest, Metz, Toulon, Anvers, Liège, Charleroi, Namur, Londres, Liverpool, Manchester, Glasgow, Hull, Southampton, Portsmouth, Cardiff, Plymouth), sans rien retirer ; mentions de preuve selon la relecture de Claude (`outils/villes/appliquer_audit_1x.py`). 15 villes nouvelles de la même zone dans `villes_1-x_audit_complements.json`.

@@ -1,7 +1,7 @@
 {
  "metadata": {
   "nom": "registre_sources_atlas",
-  "version": "1.28",
+  "version": "1.30",
   "date_creation": "2026-09-26",
   "principe": "Une source = un source_id stable. Les fiches événements/entités peuvent référencer ce source_id et préciser l'usage/locator.",
   "statut": "registre_initial_a_completer"
@@ -2196,7 +2196,7 @@
    "locator": "QID de l'élément (ex. Q90 = Paris), propriété P625 (coordonnées)",
    "resume_passage": "Coordonnées du centre de la ville.",
    "archive_locale": null,
-   "notes": "Licence CC0 (domaine public) : réutilisation libre, y compris commerciale. Sert uniquement à placer les villes ; les rôles historiques doivent être sourcés ailleurs. Le QID servira aussi à retrouver les noms dans d'autres langues. Relecture Claude 01/10/2026 (non_verifiee) : WebFetch a répondu que le domaine est « cache-only » et ne peut pas être récupéré ; ni CC0 ni structure QID/P625 vus. Complément d'Ether (villes 1.5, 02/10/2026) : Complément ciblé à la fiche existante : préserver verification_claude, les autres dates, usages et cibles. Données structurées CC0. Ces points ne prouvent ni centre historique, ni nom, rôle ou statut de 1945. Lectures P625 du 02/10/2026 pour 195 villes, recoupées par Claude le même jour par requête SPARQL (QID et coordonnées identiques, pays actuel concordant). Complément d'Ether (villes 1.6, 03/10/2026) : Fusionner seulement ce complément par union ; préserver les consultations et vérifications antérieures. Coordonnées arrondies à six décimales, pas précision historique garantie. Lectures P625 du 03/10/2026 pour 254 villes, recoupées par Claude le même jour par requête SPARQL (QID et coordonnées identiques, pays actuel concordant). Villes 1.7 (04/10/2026) : 166 positions prises dans Wikidata par Claude (élément relié à l'identifiant GeoNames proposé par Ether, QID principal choisi à la main pour 22 villes ; outils/villes/wikidata_ratissage_1_7.json). Villes 1.8 (04/10/2026) : 361 positions proposées par Ether (QID et P625) et recoupées par Claude par SPARQL (aucun écart > 1 km, aucun doublon avec les villes déjà intégrées ; outils/villes/wikidata_ratissage_1_8.json). Villes 1.9 (05/10/2026) : 238 positions proposées par Ether (QID et P625) et recoupées par Claude par SPARQL (aucun écart > 1 km, pays cohérents, aucun doublon avec les villes déjà intégrées ; outils/villes/wikidata_ratissage_1_9.json).",
+   "notes": "Licence CC0 (domaine public) : réutilisation libre, y compris commerciale. Sert uniquement à placer les villes ; les rôles historiques doivent être sourcés ailleurs. Le QID servira aussi à retrouver les noms dans d'autres langues. Relecture Claude 01/10/2026 (non_verifiee) : WebFetch a répondu que le domaine est « cache-only » et ne peut pas être récupéré ; ni CC0 ni structure QID/P625 vus. Complément d'Ether (villes 1.5, 02/10/2026) : Complément ciblé à la fiche existante : préserver verification_claude, les autres dates, usages et cibles. Données structurées CC0. Ces points ne prouvent ni centre historique, ni nom, rôle ou statut de 1945. Lectures P625 du 02/10/2026 pour 195 villes, recoupées par Claude le même jour par requête SPARQL (QID et coordonnées identiques, pays actuel concordant). Complément d'Ether (villes 1.6, 03/10/2026) : Fusionner seulement ce complément par union ; préserver les consultations et vérifications antérieures. Coordonnées arrondies à six décimales, pas précision historique garantie. Lectures P625 du 03/10/2026 pour 254 villes, recoupées par Claude le même jour par requête SPARQL (QID et coordonnées identiques, pays actuel concordant). Villes 1.7 (04/10/2026) : 166 positions prises dans Wikidata par Claude (élément relié à l'identifiant GeoNames proposé par Ether, QID principal choisi à la main pour 22 villes ; outils/villes/wikidata_ratissage_1_7.json). Villes 1.8 (04/10/2026) : 361 positions proposées par Ether (QID et P625) et recoupées par Claude par SPARQL (aucun écart > 1 km, aucun doublon avec les villes déjà intégrées ; outils/villes/wikidata_ratissage_1_8.json). Villes 1.9 (05/10/2026) : 238 positions proposées par Ether (QID et P625) et recoupées par Claude par SPARQL (aucun écart > 1 km, pays cohérents, aucun doublon avec les villes déjà intégrées ; outils/villes/wikidata_ratissage_1_9.json). Audit 1.x d'Ether (05/10/2026) : 15 villes ajoutées aux cibles (positions recoupées par Claude par SPARQL).",
    "verification_claude": "non_verifiee",
    "cibles": [
     "ville-ru-vologda",
@@ -3414,7 +3414,22 @@
     "ville-es-puerto-real",
     "ville-es-reinosa",
     "ville-es-puerto-del-rosario",
-    "ville-es-arrecife"
+    "ville-es-arrecife",
+    "ville-fr-hendaye",
+    "ville-fr-cerbere",
+    "ville-fr-modane",
+    "ville-fr-jeumont",
+    "ville-fr-bastia",
+    "ville-fr-ajaccio",
+    "ville-gb-crewe",
+    "ville-gb-york",
+    "ville-fr-dijon",
+    "ville-fr-le-mans",
+    "ville-fr-saint-pierre-des-corps",
+    "ville-gb-swindon",
+    "ville-fr-tours",
+    "ville-fr-rennes",
+    "ville-fr-limoges"
    ],
    "consultations_ether": [
     {
@@ -37474,7 +37489,7 @@
     "statut": "images_lues",
     "limite": "Rôles localisés avant le Snapshot ; aucune capacité ni continuité du service fin 1944 déduite."
    },
-   "notes": "Proposée par Ether (villes 1.9, 05/10/2026). Ce que la source prouve selon Ether : ville-es-madrid : administration, capitale, rail ; ville-es-avila : rail ; ville-es-guadalajara : rail ; ville-es-cuenca : rail ; ville-es-teruel : rail ; ville-es-tolede : rail ; ville-es-aranjuez : rail ; ville-es-alcazar-de-san-juan : rail ; ville-es-manzanares : rail ; ville-es-ciudad-real : rail ; ville-es-puertollano : rail ; ville-es-albacete : rail ; ville-es-chinchilla-de-monte-aragon : rail ; ville-es-la-encina : rail ; ville-es-castellon-de-la-plana : rail ; ville-es-sagonte : rail ; ville-es-valence : rail ; ville-es-xativa : rail ; ville-es-gandia : rail ; ville-es-denia : rail ; ville-es-alcoy : rail ; ville-es-villena : rail ; ville-es-alicante : rail ; ville-es-utiel : rail ; ville-es-jaen : rail ; ville-es-grenade : rail ; ville-es-guadix : rail ; ville-es-moreda : rail ; ville-es-baza : rail ; ville-es-almendricos : rail ; ville-es-aguilas : rail ; ville-es-lorca : rail ; ville-es-murcie : rail ; ville-es-carthagene : rail ; ville-es-almeria : rail ; ville-es-cordoue : rail ; ville-es-seville : rail ; ville-es-huelva : rail ; ville-es-gibraleon : rail ; ville-es-minas-de-riotinto : rail ; ville-es-tharsis : rail ; ville-es-utrera : rail ; ville-es-bobadilla : rail ; ville-es-ronda : rail ; ville-es-malaga : rail ; ville-es-jerez-de-la-frontera : rail ; ville-es-el-puerto-de-santa-maria : rail ; ville-es-cadix : rail ; ville-es-algesiras : rail ; ville-pt-lagos : rail ; ville-pt-portimao : rail ; ville-pt-tunes : rail ; ville-pt-faro : rail ; ville-pt-vila-real-de-santo-antonio : rail ; ville-pt-lisbonne : administration, capitale, rail ; ville-pt-setubal : rail ; ville-pt-barreiro : rail ; ville-pt-pinhal-novo : rail ; ville-pt-vendas-novas : rail ; ville-pt-casa-branca : rail ; ville-pt-evora : rail ; ville-pt-portalegre :  ; ville-pt-cabeco-de-vide : rail ; ville-pt-entroncamento : rail ; ville-pt-abrantes : rail ; ville-pt-santarem : rail ; ville-pt-leiria : rail ; ville-pt-figueira-da-foz : rail ; ville-pt-castelo-branco : rail ; ville-es-valencia-de-alcantara : rail ; ville-es-badajoz : rail ; ville-es-merida : rail ; ville-es-caceres : rail ; ville-es-plasencia : rail ; ville-es-zafra : rail ; ville-es-fregenal-de-la-sierra : rail ; ville-es-jerez-de-los-caballeros : rail ; ville-pt-porto : rail ; ville-pt-braga : rail ; ville-pt-viana-do-castelo : rail ; ville-pt-vila-real : rail ; ville-pt-peso-da-regua : rail ; ville-pt-pocinho : rail ; ville-pt-tua : rail ; ville-pt-bragance : rail ; ville-pt-chaves : rail ; ville-pt-valenca : rail ; ville-pt-barca-dalva : rail ; ville-es-la-corogne : rail ; ville-es-ferrol : rail ; ville-es-betanzos : rail ; ville-es-saint-jacques-de-compostelle : rail ; ville-es-vilagarcia-de-arousa : rail ; ville-es-pontevedra : rail ; ville-es-vigo : rail ; ville-es-redondela : rail ; ville-es-tui : rail ; ville-es-ourense : rail ; ville-es-lugo : rail ; ville-es-monforte-de-lemos : rail ; ville-es-oviedo : rail ; ville-es-aviles : rail ; ville-es-gijon : rail ; ville-es-leon : rail ; ville-es-la-robla : rail ; ville-es-ponferrada : rail ; ville-es-astorga : rail ; ville-es-burgos : rail ; ville-es-santander : rail ; ville-es-torrelavega : rail ; ville-es-bilbao : rail ; ville-es-vitoria-gasteiz : rail ; ville-es-saint-sebastien : rail ; ville-es-irun : rail ; ville-es-pampelune : rail ; ville-es-miranda-de-ebro : rail ; ville-es-logrono : rail ; ville-es-haro : rail ; ville-es-calahorra : rail ; ville-es-castejon : rail ; ville-es-altsasu : rail ; ville-es-estella-lizarra : rail ; ville-es-balmaseda : rail ; ville-es-durango : rail ; ville-es-eibar : rail ; ville-es-soria : rail ; ville-es-huesca : rail ; ville-es-jaca : rail ; ville-es-canfranc : rail ; ville-es-puigcerda : rail ; ville-es-barbastro : rail ; ville-es-tardienta : rail ; ville-es-balaguer : rail ; ville-es-saragosse : rail ; ville-es-lerida : rail ; ville-es-gerone : rail ; ville-es-figueras : rail ; ville-es-portbou : rail ; ville-es-ripoll : rail ; ville-es-barcelone : rail ; ville-es-tarragone : rail ; ville-es-reus : rail ; ville-es-tortosa : rail ; ville-es-manresa : rail ; ville-es-sabadell : rail ; ville-es-terrassa : rail ; ville-es-granollers : rail ; ville-es-martorell : rail ; ville-es-igualada : rail ; ville-es-vilanova-i-la-geltru : rail ; ville-es-mollerussa : rail ; ville-es-palamos : rail ; ville-es-sant-feliu-de-guixols : rail ; ville-es-palma : rail ; ville-es-soller : rail ; ville-es-manacor : rail ; ville-es-felanitx : rail ; ville-es-arta : rail ; ville-es-sa-pobla : rail ; ville-es-santanyi : rail ; ville-es-valdepenas : rail ; ville-es-tomelloso : rail ; ville-es-linares : rail ; ville-es-la-carolina : rail ; ville-es-cieza : rail ; ville-es-elche : rail ; ville-es-palencia : rail ; ville-es-valladolid : rail ; ville-es-segovie : rail ; ville-es-medina-del-campo : rail ; ville-es-venta-de-banos : rail ; ville-es-calatayud : rail ; ville-es-tudela : rail ; ville-es-zamora : rail ; ville-es-salamanque : rail ; ville-es-ciudad-rodrigo : rail ; ville-es-bejar : rail ; ville-es-fuentes-de-onoro : rail ; ville-es-la-fregeneda : rail ; ville-pt-aveiro : rail ; ville-pt-viseu : rail ; ville-pt-guarda : rail ; ville-pt-coimbra : rail ; ville-pt-covilha : rail ; ville-pt-guimaraes : rail ; ville-pt-vila-nova-de-famalicao : rail ; ville-pt-trofa : rail ; ville-pt-espinho : rail ; ville-pt-oliveira-de-azemeis : rail ; ville-pt-santa-comba-dao : rail ; ville-pt-pampilhosa : rail ; ville-pt-vilar-formoso : rail ; ville-pt-tomar : rail ; ville-pt-caldas-da-rainha : rail ; ville-pt-marinha-grande : rail ; ville-pt-beja : rail ; ville-pt-elvas : rail ; ville-pt-estremoz : rail ; ville-pt-moura : rail ; ville-pt-aljustrel : rail ; ville-pt-sines : rail ; ville-pt-alcacer-do-sal : rail. Limite annoncée par Ether : Lecture visuelle de la carte ; traits exploités distingués des doubles traits vides en construction et des projets. Un point de gare ne certifie pas à lui seul la proximité du centre urbain. Exemplaire 1948 aperçu puis exclu. Cibles différées : recherche conservée, hors import. Aucune validation humaine présumée. Relecture Claude 05/10/2026 : Carte de 1942 lue par Claude sur 18 captures régionales et la légende (« FERROCARRILES EN EXPLOTACION » en traits de couleur ; « EN CONSTRUCCION » double trait ; « EN PROYECTO » trait simple). 167 villes lues sur une ligne exploitée ; 24 non prouvées (nom coupé ou absent, ligne non colorée ou indistincte). Couleurs des voies étroites (bleu, vert, violet) lues comme lignes exploitées faute de tableau des couleurs dans les captures. Madrid : symbole « CAPITAL DE NACION ». Lisbonne absente des captures.",
+   "notes": "Proposée par Ether (villes 1.9, 05/10/2026). Ce que la source prouve selon Ether : ville-es-madrid : administration, capitale, rail ; ville-es-avila : rail ; ville-es-guadalajara : rail ; ville-es-cuenca : rail ; ville-es-teruel : rail ; ville-es-tolede : rail ; ville-es-aranjuez : rail ; ville-es-alcazar-de-san-juan : rail ; ville-es-manzanares : rail ; ville-es-ciudad-real : rail ; ville-es-puertollano : rail ; ville-es-albacete : rail ; ville-es-chinchilla-de-monte-aragon : rail ; ville-es-la-encina : rail ; ville-es-castellon-de-la-plana : rail ; ville-es-sagonte : rail ; ville-es-valence : rail ; ville-es-xativa : rail ; ville-es-gandia : rail ; ville-es-denia : rail ; ville-es-alcoy : rail ; ville-es-villena : rail ; ville-es-alicante : rail ; ville-es-utiel : rail ; ville-es-jaen : rail ; ville-es-grenade : rail ; ville-es-guadix : rail ; ville-es-moreda : rail ; ville-es-baza : rail ; ville-es-almendricos : rail ; ville-es-aguilas : rail ; ville-es-lorca : rail ; ville-es-murcie : rail ; ville-es-carthagene : rail ; ville-es-almeria : rail ; ville-es-cordoue : rail ; ville-es-seville : rail ; ville-es-huelva : rail ; ville-es-gibraleon : rail ; ville-es-minas-de-riotinto : rail ; ville-es-tharsis : rail ; ville-es-utrera : rail ; ville-es-bobadilla : rail ; ville-es-ronda : rail ; ville-es-malaga : rail ; ville-es-jerez-de-la-frontera : rail ; ville-es-el-puerto-de-santa-maria : rail ; ville-es-cadix : rail ; ville-es-algesiras : rail ; ville-pt-lagos : rail ; ville-pt-portimao : rail ; ville-pt-tunes : rail ; ville-pt-faro : rail ; ville-pt-vila-real-de-santo-antonio : rail ; ville-pt-lisbonne : administration, capitale, rail ; ville-pt-setubal : rail ; ville-pt-barreiro : rail ; ville-pt-pinhal-novo : rail ; ville-pt-vendas-novas : rail ; ville-pt-casa-branca : rail ; ville-pt-evora : rail ; ville-pt-portalegre :  ; ville-pt-cabeco-de-vide : rail ; ville-pt-entroncamento : rail ; ville-pt-abrantes : rail ; ville-pt-santarem : rail ; ville-pt-leiria : rail ; ville-pt-figueira-da-foz : rail ; ville-pt-castelo-branco : rail ; ville-es-valencia-de-alcantara : rail ; ville-es-badajoz : rail ; ville-es-merida : rail ; ville-es-caceres : rail ; ville-es-plasencia : rail ; ville-es-zafra : rail ; ville-es-fregenal-de-la-sierra : rail ; ville-es-jerez-de-los-caballeros : rail ; ville-pt-porto : rail ; ville-pt-braga : rail ; ville-pt-viana-do-castelo : rail ; ville-pt-vila-real : rail ; ville-pt-peso-da-regua : rail ; ville-pt-pocinho : rail ; ville-pt-tua : rail ; ville-pt-bragance : rail ; ville-pt-chaves : rail ; ville-pt-valenca : rail ; ville-pt-barca-dalva : rail ; ville-es-la-corogne : rail ; ville-es-ferrol : rail ; ville-es-betanzos : rail ; ville-es-saint-jacques-de-compostelle : rail ; ville-es-vilagarcia-de-arousa : rail ; ville-es-pontevedra : rail ; ville-es-vigo : rail ; ville-es-redondela : rail ; ville-es-tui : rail ; ville-es-ourense : rail ; ville-es-lugo : rail ; ville-es-monforte-de-lemos : rail ; ville-es-oviedo : rail ; ville-es-aviles : rail ; ville-es-gijon : rail ; ville-es-leon : rail ; ville-es-la-robla : rail ; ville-es-ponferrada : rail ; ville-es-astorga : rail ; ville-es-burgos : rail ; ville-es-santander : rail ; ville-es-torrelavega : rail ; ville-es-bilbao : rail ; ville-es-vitoria-gasteiz : rail ; ville-es-saint-sebastien : rail ; ville-es-irun : rail ; ville-es-pampelune : rail ; ville-es-miranda-de-ebro : rail ; ville-es-logrono : rail ; ville-es-haro : rail ; ville-es-calahorra : rail ; ville-es-castejon : rail ; ville-es-altsasu : rail ; ville-es-estella-lizarra : rail ; ville-es-balmaseda : rail ; ville-es-durango : rail ; ville-es-eibar : rail ; ville-es-soria : rail ; ville-es-huesca : rail ; ville-es-jaca : rail ; ville-es-canfranc : rail ; ville-es-puigcerda : rail ; ville-es-barbastro : rail ; ville-es-tardienta : rail ; ville-es-balaguer : rail ; ville-es-saragosse : rail ; ville-es-lerida : rail ; ville-es-gerone : rail ; ville-es-figueras : rail ; ville-es-portbou : rail ; ville-es-ripoll : rail ; ville-es-barcelone : rail ; ville-es-tarragone : rail ; ville-es-reus : rail ; ville-es-tortosa : rail ; ville-es-manresa : rail ; ville-es-sabadell : rail ; ville-es-terrassa : rail ; ville-es-granollers : rail ; ville-es-martorell : rail ; ville-es-igualada : rail ; ville-es-vilanova-i-la-geltru : rail ; ville-es-mollerussa : rail ; ville-es-palamos : rail ; ville-es-sant-feliu-de-guixols : rail ; ville-es-palma : rail ; ville-es-soller : rail ; ville-es-manacor : rail ; ville-es-felanitx : rail ; ville-es-arta : rail ; ville-es-sa-pobla : rail ; ville-es-santanyi : rail ; ville-es-valdepenas : rail ; ville-es-tomelloso : rail ; ville-es-linares : rail ; ville-es-la-carolina : rail ; ville-es-cieza : rail ; ville-es-elche : rail ; ville-es-palencia : rail ; ville-es-valladolid : rail ; ville-es-segovie : rail ; ville-es-medina-del-campo : rail ; ville-es-venta-de-banos : rail ; ville-es-calatayud : rail ; ville-es-tudela : rail ; ville-es-zamora : rail ; ville-es-salamanque : rail ; ville-es-ciudad-rodrigo : rail ; ville-es-bejar : rail ; ville-es-fuentes-de-onoro : rail ; ville-es-la-fregeneda : rail ; ville-pt-aveiro : rail ; ville-pt-viseu : rail ; ville-pt-guarda : rail ; ville-pt-coimbra : rail ; ville-pt-covilha : rail ; ville-pt-guimaraes : rail ; ville-pt-vila-nova-de-famalicao : rail ; ville-pt-trofa : rail ; ville-pt-espinho : rail ; ville-pt-oliveira-de-azemeis : rail ; ville-pt-santa-comba-dao : rail ; ville-pt-pampilhosa : rail ; ville-pt-vilar-formoso : rail ; ville-pt-tomar : rail ; ville-pt-caldas-da-rainha : rail ; ville-pt-marinha-grande : rail ; ville-pt-beja : rail ; ville-pt-elvas : rail ; ville-pt-estremoz : rail ; ville-pt-moura : rail ; ville-pt-aljustrel : rail ; ville-pt-sines : rail ; ville-pt-alcacer-do-sal : rail. Limite annoncée par Ether : Lecture visuelle de la carte ; traits exploités distingués des doubles traits vides en construction et des projets. Un point de gare ne certifie pas à lui seul la proximité du centre urbain. Exemplaire 1948 aperçu puis exclu. Cibles différées : recherche conservée, hors import. Aucune validation humaine présumée. Relecture Claude 05/10/2026 : Carte de 1942 lue par Claude sur 18 captures régionales et la légende (« FERROCARRILES EN EXPLOTACION » en traits de couleur ; « EN CONSTRUCCION » double trait ; « EN PROYECTO » trait simple). 167 villes lues sur une ligne exploitée ; 24 non prouvées (nom coupé ou absent, ligne non colorée ou indistincte). Couleurs des voies étroites (bleu, vert, violet) lues comme lignes exploitées faute de tableau des couleurs dans les captures. Madrid : symbole « CAPITAL DE NACION ». Lisbonne absente des captures. Complément d'Ether (villes 1.9, cycle 2, 05/10/2026) : localisateur proposé « Captures C2 légende des compagnies, Riotinto–Fregenal, Tharsis et Setúbal ; comparer avec les figurés exploitation/construction de la première livraison. ». Relecture Claude 05/10/2026 : Nouvelles captures lues par Claude : RIO TINTO sur la voie bleue, THARSIS au bout de la voie saumon, Fregenal sur la ligne rouge Zafra–Huelva, Setúbal au bout de l'antenne violette depuis Pinhal Novo. Carte de 1942 : fonction avant le Snapshot. (statut : limite -> limite).",
    "resume_francais_ether": "La carte de 1942 distingue les voies exploitées, en construction et projetées en Espagne et au Portugal. Les localités retenues sont lues sur les tracés exploités ; cela ne certifie pas les circulations de fin 1944.",
    "verification_claude_ether": "non_verifiee",
    "facilitateur_traduction": "Google Lens sur les captures locales, en conservant le cartouche 1942 et la légende des lignes ; les toponymes doivent être rapprochés du tracé original.",
@@ -38816,7 +38831,58 @@
      "lecture": "relu par Claude (villes 1.9) : baleares_lu ; FELANITX ; rouge (explotación)",
      "date": "2026-10-05",
      "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-minas-de-riotinto": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9, cycle 2) : RIO TINTO, voie bleue",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9_cycle2.json"
+    },
+    "ville-es-tharsis": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9, cycle 2) : THARSIS, terminus voie saumon",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9_cycle2.json"
+    },
+    "ville-es-fregenal-de-la-sierra": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9, cycle 2) : Fregenal, ligne rouge",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9_cycle2.json"
+    },
+    "ville-pt-setubal": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9, cycle 2) : Setubal, antenne violette",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9_cycle2.json"
     }
+   },
+   "complement_ether_cycle2_2026_10_05": {
+    "date": "2026-10-05",
+    "cibles": [
+     "ville-es-minas-de-riotinto",
+     "ville-es-tharsis",
+     "ville-es-fregenal-de-la-sierra",
+     "ville-pt-setubal"
+    ],
+    "locator": "Captures C2 légende des compagnies, Riotinto–Fregenal, Tharsis et Setúbal ; comparer avec les figurés exploitation/construction de la première livraison.",
+    "ce_que_dit_la_source": "La légende distingue les couleurs des compagnies et réseaux. Les nouvelles vues rendent lisibles Riotinto sur sa voie bleue, Tharsis sur sa voie saumon, Fregenal sur la voie rouge et Setúbal sur la voie violette.",
+    "limites": "Carte de 1942 ; les figurés et couleurs doivent être lus ensemble. Elle ne prouve pas la continuité du service au Snapshot, ni l’identité de tout le bassin minier avec le centre ponctuel. Douze autres cibles de Q19-02 restent à relire individuellement.",
+    "images_locales": [
+     "2026-10-05_ether_C2_Forcano_legende_couleurs_lecture.png",
+     "2026-10-05_ether_C2_Forcano_Riotinto_Fregenal.png",
+     "2026-10-05_ether_C2_Forcano_Tharsis.png",
+     "2026-10-05_ether_C2_Forcano_Setubal.png"
+    ],
+    "statut": "lecture_ether_non_confirmee_par_claude"
    }
   },
   {
@@ -38871,7 +38937,7 @@
     "statut": "texte_lu",
     "limite": "Rôles localisés avant le Snapshot ; aucune capacité ni continuité du service fin 1944 déduite."
    },
-   "notes": "Proposée par Ether (villes 1.9, 05/10/2026). Ce que la source prouve selon Ether : ville-es-tolede : industrie ; ville-es-puertollano : industrie ; ville-es-valence : industrie, port_maritime ; ville-es-grenade : industrie ; ville-es-carthagene : port_maritime ; ville-es-almeria : port_maritime ; ville-es-seville : industrie, port_maritime ; ville-es-huelva : port_maritime ; ville-es-minas-de-riotinto : industrie ; ville-es-tharsis : industrie ; ville-es-malaga : port_maritime ; ville-es-cadix : port_maritime ; ville-es-la-corogne : port_maritime ; ville-es-vigo : port_maritime ; ville-es-santander : port_maritime ; ville-es-bilbao : industrie, port_maritime ; ville-es-logrono : industrie ; ville-es-saragosse : industrie ; ville-es-lerida : industrie ; ville-es-barcelone : industrie, port_maritime ; ville-es-manresa : industrie ; ville-es-sabadell : industrie ; ville-es-vilanova-i-la-geltru : industrie ; ville-es-segovie : industrie ; ville-es-almaden : industrie ; ville-es-badalona : industrie ; ville-es-flix : industrie. Limite annoncée par Ether : Transcription de la notice contemporaine lue ; chiffres non reportés comme valeurs de 1945. Cibles différées : recherche conservée, hors import. Aucune validation humaine présumée. Relecture Claude 05/10/2026 : Page accessible via WebFetch (extraction par résumeur, citations à reconfirmer en partie). Industrie prouvée pour Tolède, Puertollano, Grenade, Séville, Minas de Riotinto/Tharsis (cuivre de la province de Huelva, lieux nommés), Bilbao, Logroño/Lérida/Saragosse (industrie des légumes, formulation vague), Manresa, Sabadell, Vilanova, Ségovie (céramique), Almadén (mines), Badalona, Flix. Ports prouvés : Séville, Málaga, Cadix, Vigo, La Corogne, Santander, Bilbao, Valence (export fruits/vins). NON prouvés : industrie de Valence (seulement 'provincia di Valenza'), industrie de Barcelone (seulement 'metropoli industriale', port non cité en extraction), port de Carthagène, Almería (cité seulement comme province minière) et Huelva (port annoncé sans citation exacte). Le port de Carthagène et de Huelva apparaît dans une liste de ports selon le résumeur, sans citation exacte : non retenu.",
+   "notes": "Proposée par Ether (villes 1.9, 05/10/2026). Ce que la source prouve selon Ether : ville-es-tolede : industrie ; ville-es-puertollano : industrie ; ville-es-valence : industrie, port_maritime ; ville-es-grenade : industrie ; ville-es-carthagene : port_maritime ; ville-es-almeria : port_maritime ; ville-es-seville : industrie, port_maritime ; ville-es-huelva : port_maritime ; ville-es-minas-de-riotinto : industrie ; ville-es-tharsis : industrie ; ville-es-malaga : port_maritime ; ville-es-cadix : port_maritime ; ville-es-la-corogne : port_maritime ; ville-es-vigo : port_maritime ; ville-es-santander : port_maritime ; ville-es-bilbao : industrie, port_maritime ; ville-es-logrono : industrie ; ville-es-saragosse : industrie ; ville-es-lerida : industrie ; ville-es-barcelone : industrie, port_maritime ; ville-es-manresa : industrie ; ville-es-sabadell : industrie ; ville-es-vilanova-i-la-geltru : industrie ; ville-es-segovie : industrie ; ville-es-almaden : industrie ; ville-es-badalona : industrie ; ville-es-flix : industrie. Limite annoncée par Ether : Transcription de la notice contemporaine lue ; chiffres non reportés comme valeurs de 1945. Cibles différées : recherche conservée, hors import. Aucune validation humaine présumée. Relecture Claude 05/10/2026 : Page accessible via WebFetch (extraction par résumeur, citations à reconfirmer en partie). Industrie prouvée pour Tolède, Puertollano, Grenade, Séville, Minas de Riotinto/Tharsis (cuivre de la province de Huelva, lieux nommés), Bilbao, Logroño/Lérida/Saragosse (industrie des légumes, formulation vague), Manresa, Sabadell, Vilanova, Ségovie (céramique), Almadén (mines), Badalona, Flix. Ports prouvés : Séville, Málaga, Cadix, Vigo, La Corogne, Santander, Bilbao, Valence (export fruits/vins). NON prouvés : industrie de Valence (seulement 'provincia di Valenza'), industrie de Barcelone (seulement 'metropoli industriale', port non cité en extraction), port de Carthagène, Almería (cité seulement comme province minière) et Huelva (port annoncé sans citation exacte). Le port de Carthagène et de Huelva apparaît dans une liste de ports selon le résumeur, sans citation exacte : non retenu. Complément d'Ether (villes 1.9, cycle 2, 05/10/2026) : localisateur proposé « Comunicazioni, « Massimo fra i porti… » et paragraphe « Seguono… » ; industrie, « L’industria delle costruzioni navali… », Unión Naval de Levante (Valenza). ». Relecture Claude 05/10/2026 : Nouveaux localisateurs relus : Barcelone, Huelva, Carthagène, Almería (ports) ; Unión Naval de Levante à Valence (industrie). (statut : limite -> limite).",
    "resume_francais_ether": "La notice de 1936 localise les centres industriels, ports et communications espagnols utilisés dans ce lot. Les chiffres et activités nationaux ne sont pas transférés à chaque ville.",
    "verification_claude_ether": "non_verifiee",
    "facilitateur_traduction": "Traduction automatique de la page : https://translate.google.com/?sl=auto&tl=fr&op=websites&text=https%3A%2F%2Fwww.treccani.it%2Fenciclopedia%2Fspagna_%28Enciclopedia-Italiana%29%2F",
@@ -38894,11 +38960,12 @@
     },
     "ville-es-valence": {
      "roles": [
+      "industrie",
       "port_maritime"
      ],
-     "lecture": "relu par Claude (villes 1.9) : Valenza e Málaga (esportazione di frutta e vini)",
+     "lecture": "relu par Claude (villes 1.9, cycle 2) : la 'Unión Naval de Levante' di Valenza",
      "date": "2026-10-05",
-     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9_cycle2.json"
     },
     "ville-es-grenade": {
      "roles": [
@@ -39008,11 +39075,12 @@
     },
     "ville-es-barcelone": {
      "roles": [
-      "industrie"
+      "industrie",
+      "port_maritime"
      ],
-     "lecture": "relu par Claude (villes 1.9) : Barcellona, metropoli industriale e commerciale della Spagna",
+     "lecture": "relu par Claude (villes 1.9, cycle 2) : Massimo fra i porti spagnoli è quello di Barcellona",
      "date": "2026-10-05",
-     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9_cycle2.json"
     },
     "ville-es-manresa": {
      "roles": [
@@ -39069,7 +39137,46 @@
      "lecture": "relu par Claude (villes 1.9) : impianti destinati alla fabbricazione dell'azoto sintetico (Flix, in Catalogna)",
      "date": "2026-10-05",
      "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-es-huelva": {
+     "roles": [
+      "port_maritime"
+     ],
+     "lecture": "relu par Claude (villes 1.9, cycle 2) : Cadice e Huelva (esportazione di minerali)",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9_cycle2.json"
+    },
+    "ville-es-carthagene": {
+     "roles": [
+      "port_maritime"
+     ],
+     "lecture": "relu par Claude (villes 1.9, cycle 2) : Cartagena, Siviglia, Almería, ecc.",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9_cycle2.json"
+    },
+    "ville-es-almeria": {
+     "roles": [
+      "port_maritime"
+     ],
+     "lecture": "relu par Claude (villes 1.9, cycle 2) : Cartagena, Siviglia, Almería, ecc.",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9_cycle2.json"
     }
+   },
+   "complement_ether_cycle2_2026_10_05": {
+    "date": "2026-10-05",
+    "cibles": [
+     "ville-es-barcelone",
+     "ville-es-valence",
+     "ville-es-huelva",
+     "ville-es-carthagene",
+     "ville-es-almeria"
+    ],
+    "locator": "Comunicazioni, « Massimo fra i porti… » et paragraphe « Seguono… » ; industrie, « L’industria delle costruzioni navali… », Unión Naval de Levante (Valenza).",
+    "ce_que_dit_la_source": "La notice décrit Barcelone comme principal port et métropole industrielle et commerciale, puis cite notamment Huelva, Carthagène et Almería parmi les ports. La partie sur la construction navale nomme une entreprise à Valence.",
+    "limites": "Attestations de 1936 ; les données d’une province ne sont pas transférées à sa ville. La preuve de Valence est ici le nom local de l’entreprise, non une statistique provinciale.",
+    "images_locales": [],
+    "statut": "lecture_ether_non_confirmee_par_claude"
    }
   },
   {
@@ -39130,7 +39237,7 @@
     "statut": "texte_lu",
     "limite": "Rôles localisés avant le Snapshot ; aucune capacité ni continuité du service fin 1944 déduite."
    },
-   "notes": "Proposée par Ether (villes 1.9, 05/10/2026). Ce que la source prouve selon Ether : ville-pt-faro : administration, port_maritime ; ville-pt-vila-real-de-santo-antonio : port_maritime ; ville-pt-lisbonne : administration, industrie, port_maritime ; ville-pt-setubal : administration, port_maritime ; ville-pt-evora : administration ; ville-pt-portalegre : administration, industrie ; ville-pt-santarem : administration ; ville-pt-leiria : administration ; ville-pt-castelo-branco : administration ; ville-pt-porto : administration, industrie, port_maritime ; ville-pt-braga : administration, industrie ; ville-pt-viana-do-castelo : administration ; ville-pt-vila-real : administration ; ville-pt-bragance : administration ; ville-pt-aveiro : administration ; ville-pt-viseu : administration ; ville-pt-guarda : administration ; ville-pt-coimbra : administration ; ville-pt-covilha : industrie ; ville-pt-caldas-da-rainha : industrie ; ville-pt-marinha-grande : industrie ; ville-pt-beja : administration ; ville-pt-aljustrel : industrie ; ville-pt-angra-do-heroismo : administration ; ville-pt-horta : administration ; ville-pt-ponta-delgada : administration ; ville-pt-funchal : administration ; ville-pt-gouveia : industrie ; ville-pt-alenquer : industrie ; ville-pt-castanheira-de-pera : industrie ; ville-pt-sacavem : industrie ; ville-pt-lousal : industrie. Limite annoncée par Ether : Transcription de la notice contemporaine lue ; chiffres non reportés comme valeurs de 1945. Cibles différées : recherche conservée, hors import. Aucune validation humaine présumée. Relecture Claude 05/10/2026 : Page accessible. Chefs-lieux de district nommés (Circoscrizioni amministrative), ports Lisbonne/Porto/Setúbal/Vila Real de Santo António/Faro nommés, industries Lisbonne, Porto, Braga, Portalegre nommées. Non prouvés : Lousal (industrie) et Aljustrel (non retrouvés dans l'extraction) ; Funchal nommé comme chef-lieu insulaire (Madère) ; les villes sans rôle attendu sont simplement listées ou citées. Extraction faite par WebFetch (résumé), citations à reconfirmer si besoin.",
+   "notes": "Proposée par Ether (villes 1.9, 05/10/2026). Ce que la source prouve selon Ether : ville-pt-faro : administration, port_maritime ; ville-pt-vila-real-de-santo-antonio : port_maritime ; ville-pt-lisbonne : administration, industrie, port_maritime ; ville-pt-setubal : administration, port_maritime ; ville-pt-evora : administration ; ville-pt-portalegre : administration, industrie ; ville-pt-santarem : administration ; ville-pt-leiria : administration ; ville-pt-castelo-branco : administration ; ville-pt-porto : administration, industrie, port_maritime ; ville-pt-braga : administration, industrie ; ville-pt-viana-do-castelo : administration ; ville-pt-vila-real : administration ; ville-pt-bragance : administration ; ville-pt-aveiro : administration ; ville-pt-viseu : administration ; ville-pt-guarda : administration ; ville-pt-coimbra : administration ; ville-pt-covilha : industrie ; ville-pt-caldas-da-rainha : industrie ; ville-pt-marinha-grande : industrie ; ville-pt-beja : administration ; ville-pt-aljustrel : industrie ; ville-pt-angra-do-heroismo : administration ; ville-pt-horta : administration ; ville-pt-ponta-delgada : administration ; ville-pt-funchal : administration ; ville-pt-gouveia : industrie ; ville-pt-alenquer : industrie ; ville-pt-castanheira-de-pera : industrie ; ville-pt-sacavem : industrie ; ville-pt-lousal : industrie. Limite annoncée par Ether : Transcription de la notice contemporaine lue ; chiffres non reportés comme valeurs de 1945. Cibles différées : recherche conservée, hors import. Aucune validation humaine présumée. Relecture Claude 05/10/2026 : Page accessible. Chefs-lieux de district nommés (Circoscrizioni amministrative), ports Lisbonne/Porto/Setúbal/Vila Real de Santo António/Faro nommés, industries Lisbonne, Porto, Braga, Portalegre nommées. Non prouvés : Lousal (industrie) et Aljustrel (non retrouvés dans l'extraction) ; Funchal nommé comme chef-lieu insulaire (Madère) ; les villes sans rôle attendu sont simplement listées ou citées. Extraction faite par WebFetch (résumé), citations à reconfirmer si besoin. Complément d'Ether (villes 1.9, cycle 2, 05/10/2026) : localisateur proposé « Popolazione : paragraphe « Anche nella Beira… », Lisbona capitale ; Produzione mineraria : « I principali distretti… », Aljustrel et Louzal. ». Relecture Claude 05/10/2026 : Aljustrel et Louzal relus (mines). La formule « Lisbona capitale » n'a pas été restituée mot pour mot par l'outil : capitale de Lisbonne non confirmée par ce passage. (statut : limite -> limite).",
    "resume_francais_ether": "La notice de 1935 nomme les chefs-lieux, ports, centres industriels et lignes du Portugal. Seules les fonctions explicitement localisées sont retenues.",
    "verification_claude_ether": "non_verifiee",
    "facilitateur_traduction": "Traduction automatique de la page : https://translate.google.com/?sl=auto&tl=fr&op=websites&text=https%3A%2F%2Fwww.treccani.it%2Fenciclopedia%2Fportogallo_%28Enciclopedia-Italiana%29%2F",
@@ -39230,7 +39337,36 @@
      "lecture": "relu par Claude (villes 1.9) : Funchal per Madera",
      "date": "2026-10-05",
      "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-pt-aljustrel": {
+     "roles": [
+      "mines"
+     ],
+     "lecture": "relu par Claude (villes 1.9, cycle 2) : distretti di produzione del rame ... Aljustrel",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9_cycle2.json"
+    },
+    "ville-pt-lousal": {
+     "roles": [
+      "mines"
+     ],
+     "lecture": "relu par Claude (villes 1.9, cycle 2) : ... a Louzal",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9_cycle2.json"
     }
+   },
+   "complement_ether_cycle2_2026_10_05": {
+    "date": "2026-10-05",
+    "cibles": [
+     "ville-pt-lisbonne",
+     "ville-pt-aljustrel",
+     "ville-pt-lousal"
+    ],
+    "locator": "Popolazione : paragraphe « Anche nella Beira… », Lisbona capitale ; Produzione mineraria : « I principali distretti… », Aljustrel et Louzal.",
+    "ce_que_dit_la_source": "La notice décrit Lisbonne comme capitale ancienne et cite Aljustrel et Louzal parmi les districts cuprifères. La graphie Louzal doit être rapprochée du repère Lousal sans étendre la preuve à tout centre voisin.",
+    "limites": "Le rôle historique de Lisbonne est explicite ; pas de date d’acte déduite de « 700 ans ». Aljustrel/Louzal désignent des districts miniers, dont le périmètre urbain exact reste réservé.",
+    "images_locales": [],
+    "statut": "lecture_ether_non_confirmee_par_claude"
    }
   },
   {
@@ -39467,7 +39603,11 @@
     "ville-pt-evora",
     "ville-pt-barreiro",
     "ville-pt-viana-do-castelo",
-    "ville-pt-lisbonne"
+    "ville-pt-lisbonne",
+    "ville-pt-setubal",
+    "ville-pt-guimaraes",
+    "ville-pt-vila-real",
+    "ville-pt-bragance"
    ],
    "locator": "Entrées datées, notamment 19 août 1942",
    "resume_passage": "01.02.1861 - Abertura oficial do troço entre o Barreiro e Vendas Novas na Linha do Sul",
@@ -39478,7 +39618,7 @@
     "statut": "texte_lu",
     "limite": "Rôles localisés avant le Snapshot ; aucune capacité ni continuité du service fin 1944 déduite."
    },
-   "notes": "Proposée par Ether (villes 1.9, 05/10/2026). Ce que la source prouve selon Ether : ville-pt-lisbonne : ferry ; ville-pt-barreiro : ferry, rail ; ville-pt-evora : rail ; ville-es-valencia-de-alcantara : frontalier ; ville-pt-viana-do-castelo : port_maritime ; ville-pt-barca-dalva : frontalier ; ville-es-irun : frontalier ; ville-es-canfranc : frontalier ; ville-es-portbou : frontalier ; ville-es-fuentes-de-onoro : frontalier ; ville-pt-vilar-formoso : frontalier ; ville-pt-beja : rail ; ville-pt-elvas : rail. Limite annoncée par Ether : Passages nommés individuellement ; ne prouve pas une ouverture ininterrompue au passage du Snapshot. Cibles différées : recherche conservée, hors import. Aucune validation humaine présumée. Relecture Claude 05/10/2026 : Rail prouvé pour Barreiro (1861), Évora (14.09.1863), Beja (15.02.1864), Elvas (29.07.1863). Non retrouvés dans la page : ferry Barreiro, entrée 1973/ferry Lisbonne 1927, embranchement du port de Viana 20.03.1924, entrée 19.08.1942 et points frontière. Aucun rôle ferry, port_maritime ou frontalier prouvé.",
+   "notes": "Proposée par Ether (villes 1.9, 05/10/2026). Ce que la source prouve selon Ether : ville-pt-lisbonne : ferry ; ville-pt-barreiro : ferry, rail ; ville-pt-evora : rail ; ville-es-valencia-de-alcantara : frontalier ; ville-pt-viana-do-castelo : port_maritime ; ville-pt-barca-dalva : frontalier ; ville-es-irun : frontalier ; ville-es-canfranc : frontalier ; ville-es-portbou : frontalier ; ville-es-fuentes-de-onoro : frontalier ; ville-pt-vilar-formoso : frontalier ; ville-pt-beja : rail ; ville-pt-elvas : rail. Limite annoncée par Ether : Passages nommés individuellement ; ne prouve pas une ouverture ininterrompue au passage du Snapshot. Cibles différées : recherche conservée, hors import. Aucune validation humaine présumée. Relecture Claude 05/10/2026 : Rail prouvé pour Barreiro (1861), Évora (14.09.1863), Beja (15.02.1864), Elvas (29.07.1863). Non retrouvés dans la page : ferry Barreiro, entrée 1973/ferry Lisbonne 1927, embranchement du port de Viana 20.03.1924, entrée 19.08.1942 et points frontière. Aucun rôle ferry, port_maritime ou frontalier prouvé. Complément d'Ether (villes 1.9, cycle 2, 05/10/2026) : localisateur proposé « Entrées 01/02/1861, 14/04/1884, 12/05/1906, 01/12/1906, 20/03/1924 ; entrée 29/11/1973, paragraphes rétrospectifs sur le bail de 1927 et les années 1930. ». Relecture Claude 05/10/2026 : Page anglaise relue : Setúbal, Guimarães, Vila Real et Bragance trouvées ; la page s'arrête en 1908 pour l'outil : Viana (1924) et le ferry Lisbonne–Barreiro (rappel de 1973) non retrouvés. (statut : limite -> limite).",
    "resume_francais_ether": "La chronologie CP localise des ouvertures, jonctions et liaisons frontalières antérieures à 1945, notamment l’entrée du 19 août 1942. Chaque fait est relié à sa ville dans la sélection.",
    "verification_claude_ether": "non_verifiee",
    "facilitateur_traduction": "Traduction automatique de la page : https://translate.google.com/?sl=auto&tl=fr&op=websites&text=https%3A%2F%2Fcp.pt%2Finfo%2Fen%2Fcronologia",
@@ -39514,7 +39654,56 @@
      "lecture": "relu par Claude (villes 1.9) : Abertura à exploração pública do troço entre Crato e Elvas.",
      "date": "2026-10-05",
      "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-pt-setubal": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9, cycle 2) : troço entre Pinhal Novo e Setúbal",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9_cycle2.json"
+    },
+    "ville-pt-guimaraes": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9, cycle 2) : troço entre Vizela e Guimarães",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9_cycle2.json"
+    },
+    "ville-pt-vila-real": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9, cycle 2) : troço entre a Régua e Vila Real",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9_cycle2.json"
+    },
+    "ville-pt-bragance": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (villes 1.9, cycle 2) : Inauguração da Estação de Bragança",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9_cycle2.json"
     }
+   },
+   "complement_ether_cycle2_2026_10_05": {
+    "date": "2026-10-05",
+    "cibles": [
+     "ville-pt-viana-do-castelo",
+     "ville-pt-lisbonne",
+     "ville-pt-barreiro",
+     "ville-pt-setubal",
+     "ville-pt-guimaraes",
+     "ville-pt-vila-real",
+     "ville-pt-bragance"
+    ],
+    "locator": "Entrées 01/02/1861, 14/04/1884, 12/05/1906, 01/12/1906, 20/03/1924 ; entrée 29/11/1973, paragraphes rétrospectifs sur le bail de 1927 et les années 1930.",
+    "ce_que_dit_la_source": "CP date les ouvertures de Setúbal (1861), Guimarães (1884), Vila Real et Bragance (1906), puis le raccordement de Viana à sa darse en 1924. L’entrée de 1973 rappelle l’exploitation fluviale Lisbonne–Barreiro depuis le bail de 1927.",
+    "limites": "Pour le ferry, lire le rappel sous 1973, et non l’entrée annuelle de 1927. Le rattachement précis de la gare distante de Portalegre au centre n’est pas établi ; aucun rôle rail à y ajouter.",
+    "images_locales": [],
+    "statut": "lecture_ether_non_confirmee_par_claude"
    }
   },
   {
@@ -39624,18 +39813,32 @@
     "ville-es-aviles"
    ],
    "locator": "XIXe siècle et Junta de Obras de 1915",
-   "resume_passage": "",
+   "resume_passage": "Entrado el siglo XX, el Puerto ve la creación en 1.915 de la Junta de Obras del Puerto de Avilés",
    "archive_locale": null,
-   "verification_claude": "non_verifiee",
+   "verification_claude": "ok",
    "verification_ether": {
     "date": "2026-10-05",
     "statut": "texte_lu",
     "limite": "Rôles localisés avant le Snapshot ; aucune capacité ni continuité du service fin 1944 déduite."
    },
-   "notes": "Proposée par Ether (villes 1.9, 05/10/2026). Ce que la source prouve selon Ether : ville-es-aviles : port_maritime. Limite annoncée par Ether : ENSIDESA apparaît dans les années 1950 : exclue du Snapshot. Cibles différées : recherche conservée, hors import. Aucune validation humaine présumée. Relecture Claude 05/10/2026 : WebFetch a échoué deux fois (Too many redirects) ; aucun contournement tenté. Charbon XIXe et Junta de Obras 1915 non vérifiés.",
+   "notes": "Proposée par Ether (villes 1.9, 05/10/2026). Ce que la source prouve selon Ether : ville-es-aviles : port_maritime. Limite annoncée par Ether : ENSIDESA apparaît dans les années 1950 : exclue du Snapshot. Cibles différées : recherche conservée, hors import. Aucune validation humaine présumée. Relecture Claude 05/10/2026 : WebFetch a échoué deux fois (Too many redirects) ; aucun contournement tenté. Charbon XIXe et Junta de Obras 1915 non vérifiés. Complément d'Ether (villes 1.9, cycle 2, 05/10/2026) : localisateur proposé « Breve historia : paragraphes sur le XIXe siècle et « Entrado el siglo XX », Junta de Obras de 1915. ». Relecture Claude 05/10/2026 : Page refusée à l'outil (redirections) ; captures XIX et XX déposées par Ether lues par Claude : trafic de passagers et de charbon au XIXe siècle, Junta de Obras en 1915 ; ENSIDESA (années 1950) hors Snapshot. (statut : non_verifiee -> ok).",
    "resume_francais_ether": "L’histoire du port situe ses développements au XIXe siècle et la Junta de Obras en 1915. ENSIDESA, créée après 1945, ne sert pas de preuve industrielle au Snapshot.",
    "verification_claude_ether": "non_verifiee",
-   "facilitateur_traduction": "Traduction automatique de la page : https://translate.google.com/?sl=auto&tl=fr&op=websites&text=https%3A%2F%2Fwww.puertoaviles.es%2Fes-ES%2Fautoridad_portuaria%2Fpresentacion%2Fhistoria%2F"
+   "facilitateur_traduction": "Traduction automatique de la page : https://translate.google.com/?sl=auto&tl=fr&op=websites&text=https%3A%2F%2Fwww.puertoaviles.es%2Fes-ES%2Fautoridad_portuaria%2Fpresentacion%2Fhistoria%2F",
+   "complement_ether_cycle2_2026_10_05": {
+    "date": "2026-10-05",
+    "cibles": [
+     "ville-es-aviles"
+    ],
+    "locator": "Breve historia : paragraphes sur le XIXe siècle et « Entrado el siglo XX », Junta de Obras de 1915.",
+    "ce_que_dit_la_source": "La notice décrit le commerce et le charbon au XIXe siècle, puis la création de la Junta de Obras en 1915. Elle situe ENSIDESA en 1950.",
+    "limites": "Attestation portuaire antérieure au Snapshot ; aucune activité ENSIDESA en 1945 déduite.",
+    "images_locales": [
+     "2026-10-05_ether_C2_aviles_XIX.png",
+     "2026-10-05_ether_C2_aviles_XX.png"
+    ],
+    "statut": "lecture_ether_non_confirmee_par_claude"
+   }
   },
   {
    "source_id": "src-19-es-ahv-barakaldo-sestao",
@@ -39755,7 +39958,7 @@
     "statut": "passage_pdf_indexe_lu_image_non_collationnee",
     "limite": "Rôles localisés avant le Snapshot ; aucune capacité ni continuité du service fin 1944 déduite."
    },
-   "notes": "Proposée par Ether (villes 1.9, 05/10/2026). Ce que la source prouve selon Ether : ville-pt-horta : aviation. Limite annoncée par Ether : Texte PDF indexé lu ; page et image à collationner. Vols SATA commerciaux de 1947 exclus. Cibles différées : recherche conservée, hors import. Aucune validation humaine présumée. Relecture Claude 05/10/2026 : Prouve des escales Pan Am à Horta depuis 1939 (donc avant 1945). Mais le mot hydravion/seaplane n'apparaît pas dans le passage et aucune date de fin (1945) n'est précisée ; seul « depuis 1939 » est établi.",
+   "notes": "Proposée par Ether (villes 1.9, 05/10/2026). Ce que la source prouve selon Ether : ville-pt-horta : aviation. Limite annoncée par Ether : Texte PDF indexé lu ; page et image à collationner. Vols SATA commerciaux de 1947 exclus. Cibles différées : recherche conservée, hors import. Aucune validation humaine présumée. Relecture Claude 05/10/2026 : Prouve des escales Pan Am à Horta depuis 1939 (donc avant 1945). Mais le mot hydravion/seaplane n'apparaît pas dans le passage et aucune date de fin (1945) n'est précisée ; seul « depuis 1939 » est établi. Complément d'Ether (villes 1.9, cycle 2, 05/10/2026) : localisateur proposé « Viagem no tempo : escales Pan American « depuis 1939 », selon la relecture partielle de Claude au CR1. ».",
    "resume_francais_ether": "Le passage indexé situe à Horta des escales Pan American entre 1939 et 1945. Les vols commerciaux SATA à partir de 1947 sont exclus du Snapshot.",
    "verification_claude_ether": "non_verifiee",
    "facilitateur_traduction": "Google Traduction, onglet Documents : ouvrir le PDF original et traduire une copie pour lecture personnelle ; conserver la pagination de l’original.",
@@ -39768,6 +39971,17 @@
      "date": "2026-10-05",
      "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
     }
+   },
+   "complement_ether_cycle2_2026_10_05": {
+    "date": "2026-10-05",
+    "cibles": [
+     "ville-pt-horta"
+    ],
+    "locator": "Viagem no tempo : escales Pan American « depuis 1939 », selon la relecture partielle de Claude au CR1.",
+    "ce_que_dit_la_source": "La lecture rapportée par Claude atteste des escales Pan American à Horta depuis 1939. Elle n’établit ni une fin en 1945, ni le type d’appareil.",
+    "limites": "Correction de portée à partir du retour, sans prétendre avoir recollationné l’image du périodique. Aviation conservée ; mots hydravions et borne 1945 retirés de la nouvelle formulation.",
+    "images_locales": [],
+    "statut": "lecture_ether_non_confirmee_par_claude"
    }
   },
   {
@@ -39818,18 +40032,31 @@
     "ville-ad-andorre-la-vieille"
    ],
    "locator": "Capitalité depuis le XVe siècle ; Casa de la Vall, 1702",
-   "resume_passage": "",
+   "resume_passage": "La consideració d'Andorra la Vella —de fet, fins al segle XVIII se'n deia la vila d'Andorra— com a capital de les Valls és un fet tangible des del segle XV, quan s'hi estableix la primera seu del Consell de la Terra ... El 1702 el Consell va adquirir ... Casa de la Vall.",
    "archive_locale": null,
-   "verification_claude": "non_verifiee",
+   "verification_claude": "ok",
    "verification_ether": {
     "date": "2026-10-05",
     "statut": "texte_lu",
     "limite": "Rôles localisés avant le Snapshot ; aucune capacité ni continuité du service fin 1944 déduite."
    },
-   "notes": "Proposée par Ether (villes 1.9, 05/10/2026). Ce que la source prouve selon Ether : ville-ad-andorre-la-vieille : administration, capitale. Limite annoncée par Ether :  Cibles différées : recherche conservée, hors import. Aucune validation humaine présumée. Relecture Claude 05/10/2026 : WebFetch a renvoyé une erreur 403 ; aucun contournement tenté. Capitalité non vérifiée.",
+   "notes": "Proposée par Ether (villes 1.9, 05/10/2026). Ce que la source prouve selon Ether : ville-ad-andorre-la-vieille : administration, capitale. Limite annoncée par Ether :  Cibles différées : recherche conservée, hors import. Aucune validation humaine présumée. Relecture Claude 05/10/2026 : WebFetch a renvoyé une erreur 403 ; aucun contournement tenté. Capitalité non vérifiée. Complément d'Ether (villes 1.9, cycle 2, 05/10/2026) : localisateur proposé « Paragraphe « La consideració d’Andorra la Vella… », entre le Consell de 1419 et la Nova Reforma de 1866. ». Relecture Claude 05/10/2026 : Page refusée à l'outil (403) ; capture déposée par Ether lue par Claude : capitale et siège du Consell de la Terra depuis le XVe siècle, Casa de la Vall en 1702. (statut : non_verifiee -> ok).",
    "resume_francais_ether": "La page municipale situe la fonction de capitale d’Andorre-la-Vieille depuis le XVe siècle. Le rôle n’est pas déduit de sa population actuelle.",
    "verification_claude_ether": "non_verifiee",
-   "facilitateur_traduction": "Traduction automatique de la page : https://translate.google.com/?sl=auto&tl=fr&op=websites&text=https%3A%2F%2Fwww.andorralavella.ad%2Fcomu%2Fhistoria-del-comu"
+   "facilitateur_traduction": "Traduction automatique de la page : https://translate.google.com/?sl=auto&tl=fr&op=websites&text=https%3A%2F%2Fwww.andorralavella.ad%2Fcomu%2Fhistoria-del-comu",
+   "complement_ether_cycle2_2026_10_05": {
+    "date": "2026-10-05",
+    "cibles": [
+     "ville-ad-andorre-la-vieille"
+    ],
+    "locator": "Paragraphe « La consideració d’Andorra la Vella… », entre le Consell de 1419 et la Nova Reforma de 1866.",
+    "ce_que_dit_la_source": "La page situe au XVe siècle la reconnaissance d’Andorre-la-Vieille comme capitale, liée au siège du Consell de la Terra. Elle mentionne l’installation à la Casa de la Vall en 1702.",
+    "limites": "Preuve du siège et de la tradition de capitale ; ne pas assimiler institutions anciennes et constitution de 1993.",
+    "images_locales": [
+     "2026-10-05_ether_C2_andorre_capitale_lecture.png"
+    ],
+    "statut": "lecture_ether_non_confirmee_par_claude"
+   }
   },
   {
    "source_id": "src-19-ad-reig",
@@ -40050,20 +40277,37 @@
    "periode_couverte": [],
    "zones": [],
    "usages_atlas": [],
-   "cibles": [],
+   "cibles": [
+    "ville-sm-saint-marin",
+    "ville-sm-borgo-maggiore"
+   ],
    "locator": "Bombardement du 26 juin 1944",
-   "resume_passage": "",
+   "resume_passage": "Nel 1932 venne inaugurata la linea ferroviaria Rimini-San Marino ... La ferrovia, poi, cessò di funzionare quando venne distrutta dai bombardamenti aerei del 26 giugno 1944.",
    "archive_locale": null,
-   "verification_claude": "non_verifiee",
+   "verification_claude": "ok",
    "verification_ether": {
     "date": "2026-10-05",
     "statut": "texte_lu",
     "limite": "Rôles localisés avant le Snapshot ; aucune capacité ni continuité du service fin 1944 déduite."
    },
-   "notes": "Proposée par Ether (villes 1.9, 05/10/2026). Ce que la source prouve selon Ether : . Limite annoncée par Ether : Preuve négative : ne pas traiter le chemin de fer ouvert en 1932 comme actif au Snapshot. Cibles différées : recherche conservée, hors import. Aucune validation humaine présumée. Relecture Claude 05/10/2026 : WebFetch refusé (ROBOTS_DISALLOWED). Aucun contournement tenté ; point sur la cessation du rail après le bombardement du 26 juin 1944 non vérifié. À noter : Treccani (src-19-sm-treccani1936) atteste seulement l'ouverture en 1932 de la ligne électrique Rimini–San Marino (32 km). Cibles : candidats différés par Ether (contexte de recherche, aucune ville créée).",
+   "notes": "Proposée par Ether (villes 1.9, 05/10/2026). Ce que la source prouve selon Ether : . Limite annoncée par Ether : Preuve négative : ne pas traiter le chemin de fer ouvert en 1932 comme actif au Snapshot. Cibles différées : recherche conservée, hors import. Aucune validation humaine présumée. Relecture Claude 05/10/2026 : WebFetch refusé (ROBOTS_DISALLOWED). Aucun contournement tenté ; point sur la cessation du rail après le bombardement du 26 juin 1944 non vérifié. À noter : Treccani (src-19-sm-treccani1936) atteste seulement l'ouverture en 1932 de la ligne électrique Rimini–San Marino (32 km). Cibles : candidats différés par Ether (contexte de recherche, aucune ville créée). Complément d'Ether (villes 1.9, cycle 2, 05/10/2026) : localisateur proposé « Storia e valorizzazione : ligne de 1932, bombardement du 26 juin 1944 et fin de l’exploitation. ». Relecture Claude 05/10/2026 : Page refusée à l'outil (robots) ; capture déposée par Ether lue par Claude : la ligne ne fonctionne plus après le 26 juin 1944. Confirme l'absence du rôle rail au Snapshot (déjà exclu) ; aucun rôle à prouver. (statut : non_verifiee -> ok).",
    "resume_francais_ether": "L’histoire du train de Saint-Marin décrit le bombardement du 26 juin 1944. Elle sert à ne pas prolonger automatiquement la desserte ancienne au Snapshot.",
    "verification_claude_ether": "non_verifiee",
-   "facilitateur_traduction": "Traduction automatique de la page : https://translate.google.com/?sl=auto&tl=fr&op=websites&text=https%3A%2F%2Fwww.visitsanmarino.com%2Fpub1%2FVisitSM%2Fluogo%2FArte-e-cultura%2FGalleria-Montale-e-Treno-storico.html"
+   "facilitateur_traduction": "Traduction automatique de la page : https://translate.google.com/?sl=auto&tl=fr&op=websites&text=https%3A%2F%2Fwww.visitsanmarino.com%2Fpub1%2FVisitSM%2Fluogo%2FArte-e-cultura%2FGalleria-Montale-e-Treno-storico.html",
+   "complement_ether_cycle2_2026_10_05": {
+    "date": "2026-10-05",
+    "cibles": [
+     "ville-sm-saint-marin",
+     "ville-sm-borgo-maggiore"
+    ],
+    "locator": "Storia e valorizzazione : ligne de 1932, bombardement du 26 juin 1944 et fin de l’exploitation.",
+    "ce_que_dit_la_source": "La notice décrit la ligne ouverte en 1932 et la fermeture après le bombardement du 26 juin 1944. La restauration touristique de 2012 est postérieure au Snapshot.",
+    "limites": "Confirme le non-ajout du rail au Snapshot pour ces villes ; aucune donnée à retirer, exclusion déjà proposée.",
+    "images_locales": [
+     "2026-10-05_ether_C2_saint_marin_1944.png"
+    ],
+    "statut": "lecture_ether_non_confirmee_par_claude"
+   }
   },
   {
    "source_id": "src-19-cy-treccani1931",
@@ -40100,7 +40344,7 @@
     "statut": "texte_lu",
     "limite": "Rôles localisés avant le Snapshot ; aucune capacité ni continuité du service fin 1944 déduite."
    },
-   "notes": "Proposée par Ether (villes 1.9, 05/10/2026). Ce que la source prouve selon Ether : ville-cy-nicosie : administration, capitale, rail ; ville-cy-larnaca : administration, port_maritime ; ville-cy-limassol : administration, industrie, port_maritime ; ville-cy-famagouste : administration, port_maritime, rail ; ville-cy-paphos : administration ; ville-cy-kyrenia : administration, port_maritime ; ville-cy-morphou : rail. Limite annoncée par Ether : Six chefs-lieux ; ports et voie ferrée nommés localement. Cibles différées : recherche conservée, hors import. Aucune validation humaine présumée. Relecture Claude 05/10/2026 : Prouvé : Nicosie capitale/siège du gouvernement et chef-lieu de district ; 6 districts (administration pour Nicosie, Larnaca, Limassol, Famagouste, Paphos, Kyrenia) ; Larnaca second port ; Limassol port principal et eau-de-vie/vinaigre (industrie, faible) ; Kyrenia petit port ; chemin de fer unique reliant Famagouste, Nicosie et Morphou. Non prouvé par la page : port_maritime de Famagouste (aucune citation sur son port obtenue). Morphou : seule la baie de Morphou est citée (trafic), la gare/ligne l'est via la phrase sur Famagosta. Paphos : seulement district (Ktima).",
+   "notes": "Proposée par Ether (villes 1.9, 05/10/2026). Ce que la source prouve selon Ether : ville-cy-nicosie : administration, capitale, rail ; ville-cy-larnaca : administration, port_maritime ; ville-cy-limassol : administration, industrie, port_maritime ; ville-cy-famagouste : administration, port_maritime, rail ; ville-cy-paphos : administration ; ville-cy-kyrenia : administration, port_maritime ; ville-cy-morphou : rail. Limite annoncée par Ether : Six chefs-lieux ; ports et voie ferrée nommés localement. Cibles différées : recherche conservée, hors import. Aucune validation humaine présumée. Relecture Claude 05/10/2026 : Prouvé : Nicosie capitale/siège du gouvernement et chef-lieu de district ; 6 districts (administration pour Nicosie, Larnaca, Limassol, Famagouste, Paphos, Kyrenia) ; Larnaca second port ; Limassol port principal et eau-de-vie/vinaigre (industrie, faible) ; Kyrenia petit port ; chemin de fer unique reliant Famagouste, Nicosie et Morphou. Non prouvé par la page : port_maritime de Famagouste (aucune citation sur son port obtenue). Morphou : seule la baie de Morphou est citée (trafic), la gare/ligne l'est via la phrase sur Famagosta. Paphos : seulement district (Ktima). Complément d'Ether (villes 1.9, cycle 2, 05/10/2026) : localisateur proposé « Governo e centri principali : Nicosia, six districts, ligne Famagosta–Nicosia–Morphou. ». Relecture Claude 05/10/2026 : Nicosie capitale et siège du gouvernement ; ligne unique Famagouste–Nicosie–Morphou (122 km). Rien sur le port de Famagouste dans ce passage. (statut : limite -> limite).",
    "resume_francais_ether": "La notice nomme les six chefs-lieux de Chypre et localise ports, rail et industrie. La baie de Morphou ne prouve pas un port dans la ville intérieure.",
    "verification_claude_ether": "non_verifiee",
    "facilitateur_traduction": "Traduction automatique de la page : https://translate.google.com/?sl=auto&tl=fr&op=websites&text=https%3A%2F%2Fwww.treccani.it%2Fenciclopedia%2Fcipro_%28Enciclopedia-Italiana%29%2F",
@@ -40111,9 +40355,9 @@
       "capitale",
       "rail"
      ],
-     "lecture": "relu par Claude (villes 1.9) : Nicosia (v.), capitale e sede del Governo (18.570 ab.), è situata quasi nel centro della Messaria.",
+     "lecture": "relu par Claude (villes 1.9, cycle 2) : Nicosia (v.), capitale e sede del Governo",
      "date": "2026-10-05",
-     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9_cycle2.json"
     },
     "ville-cy-larnaca": {
      "roles": [
@@ -40139,9 +40383,9 @@
       "administration",
       "rail"
      ],
-     "lecture": "relu par Claude (villes 1.9) : Famagosta (v.), che l'unica ferrovia dell'isola collega (km. 122) a Nicosia e Morphou, non è oggi che l'ombra di quello che fu in passato",
+     "lecture": "relu par Claude (villes 1.9, cycle 2) : Famagosta (v.), che l'unica ferrovia dell'isola collega (km. 122) a Nicosia e Morphou",
      "date": "2026-10-05",
-     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9_cycle2.json"
     },
     "ville-cy-paphos": {
      "roles": [
@@ -40164,10 +40408,23 @@
      "roles": [
       "rail"
      ],
-     "lecture": "relu par Claude (villes 1.9) : Famagosta (v.), che l'unica ferrovia dell'isola collega (km. 122) a Nicosia e Morphou, non è oggi che l'ombra di quello che fu in passato",
+     "lecture": "relu par Claude (villes 1.9, cycle 2) : collega (km. 122) a Nicosia e Morphou",
      "date": "2026-10-05",
-     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9_cycle2.json"
     }
+   },
+   "complement_ether_cycle2_2026_10_05": {
+    "date": "2026-10-05",
+    "cibles": [
+     "ville-cy-nicosie",
+     "ville-cy-famagouste",
+     "ville-cy-morphou"
+    ],
+    "locator": "Governo e centri principali : Nicosia, six districts, ligne Famagosta–Nicosia–Morphou.",
+    "ce_que_dit_la_source": "La notice localise à Nicosie le siège du gouvernement et décrit la ligne ferroviaire de Famagouste à Nicosie et Morphou. Les ports de Limassol, Larnaca et Kyrenia sont nommés séparément.",
+    "limites": "Ce passage ferroviaire ne prouve pas à lui seul le rôle portuaire de Famagouste. La lecture du musée du rail et le détail de fermeture de la branche Evrychou restent non résolus.",
+    "images_locales": [],
+    "statut": "lecture_ether_non_confirmee_par_claude"
    }
   },
   {
@@ -40230,7 +40487,7 @@
     "statut": "texte_lu",
     "limite": "Rôles localisés avant le Snapshot ; aucune capacité ni continuité du service fin 1944 déduite."
    },
-   "notes": "Proposée par Ether (villes 1.9, 05/10/2026). Ce que la source prouve selon Ether : ville-mt-la-valette : administration, capitale, port_maritime ; ville-mt-mgarr : port_maritime. Limite annoncée par Ether : Ne pas transférer une industrie générale de l’île à chaque ville. Cibles différées : recherche conservée, hors import. Aucune validation humaine présumée. Relecture Claude 05/10/2026 : Mġarr (Gozo) : « miglior approdo » = Cala del Migiarro, cohérent avec le rôle attendu (port_maritime), nom italianisé. La Valette : la page ne donne pas de citation explicite prouvant capitale, administration ou port ; seulement « I centri più notevoli, oltre al capoluogo, La Valletta (22.900 abitanti nel 1931) » et « il commodoro Alessandro Ball entrò in Valletta come governatore » (ambigu), et le Grand Port cité comme zone peuplée. Stricto sensu non prouvé par les passages extraits.",
+   "notes": "Proposée par Ether (villes 1.9, 05/10/2026). Ce que la source prouve selon Ether : ville-mt-la-valette : administration, capitale, port_maritime ; ville-mt-mgarr : port_maritime. Limite annoncée par Ether : Ne pas transférer une industrie générale de l’île à chaque ville. Cibles différées : recherche conservée, hors import. Aucune validation humaine présumée. Relecture Claude 05/10/2026 : Mġarr (Gozo) : « miglior approdo » = Cala del Migiarro, cohérent avec le rôle attendu (port_maritime), nom italianisé. La Valette : la page ne donne pas de citation explicite prouvant capitale, administration ou port ; seulement « I centri più notevoli, oltre al capoluogo, La Valletta (22.900 abitanti nel 1931) » et « il commodoro Alessandro Ball entrò in Valletta come governatore » (ambigu), et le Grand Port cité comme zone peuplée. Stricto sensu non prouvé par les passages extraits. Complément d'Ether (villes 1.9, cycle 2, 05/10/2026) : localisateur proposé « Demografia : « I centri più notevoli… », La Valletta capoluogo ; suite sur l’agglomération autour des deux ports. ». Relecture Claude 05/10/2026 : Ports autour de La Valette relus ; le mot « capoluogo » n'a pas été restitué par l'outil : capitale et administration non confirmées par ce passage. (statut : limite -> limite).",
    "resume_francais_ether": "La notice décrit La Valette comme capitale et port, et Mġarr comme point d’abordage de Gozo. Mġarr est distingué de la commune homonyme de l’île de Malte.",
    "verification_claude_ether": "non_verifiee",
    "facilitateur_traduction": "Traduction automatique de la page : https://translate.google.com/?sl=auto&tl=fr&op=websites&text=https%3A%2F%2Fwww.treccani.it%2Fenciclopedia%2Fmalta_%28Enciclopedia-Italiana%29%2F",
@@ -40242,7 +40499,26 @@
      "lecture": "relu par Claude (villes 1.9) : Gozo ha coste meno frastagliate; ... il miglior approdo è la Cala del Migiarro a sud.",
      "date": "2026-10-05",
      "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9.json"
+    },
+    "ville-mt-la-valette": {
+     "roles": [
+      "port_maritime"
+     ],
+     "lecture": "relu par Claude (villes 1.9, cycle 2) : i due porti intorno a La Valletta",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9_cycle2.json"
     }
+   },
+   "complement_ether_cycle2_2026_10_05": {
+    "date": "2026-10-05",
+    "cibles": [
+     "ville-mt-la-valette"
+    ],
+    "locator": "Demografia : « I centri più notevoli… », La Valletta capoluogo ; suite sur l’agglomération autour des deux ports.",
+    "ce_que_dit_la_source": "La notice qualifie La Valette de chef-lieu et décrit une agglomération entourant les deux ports. Elle ne donne pas une formule de capitale nationale.",
+    "limites": "Conserver le type territoire déjà intégré ; la portée urbaine du port et le siège administratif précis restent à examiner. Ne pas attribuer à chaque ville les fonctions de l’agglomération.",
+    "images_locales": [],
+    "statut": "lecture_ether_non_confirmee_par_claude"
    }
   },
   {
@@ -40274,10 +40550,32 @@
     "statut": "texte_lu",
     "limite": "Rôles localisés avant le Snapshot ; aucune capacité ni continuité du service fin 1944 déduite."
    },
-   "notes": "Proposée par Ether (villes 1.9, 05/10/2026). Ce que la source prouve selon Ether : ville-mt-cospicua : base_navale, industrie ; ville-mt-senglea : militaire, port_maritime. Limite annoncée par Ether : Transcription des neuf pages lue ; images non collationnées. Réparations et transit de guerre localisés. Cibles différées : recherche conservée, hors import. Aucune validation humaine présumée. Relecture Claude 05/10/2026 : Transcription lue (via résumé WebFetch, pas texte intégral brut ; la page annonce un manuscrit dactylographié de 9 pages avec transcription). Le §25 renvoyé parle de l'isolement de Senglea, pas de la marina. Le §39 (décembre 1942) ne cite que l'état des cales (« No.1 – In full working ») sans mention explicite de Cospicua ; le §45 mentionne les cales 3 et 4 remises en service en avril 1943. Aucun passage nommant Cospicua ni la marina de Senglea n'a été restitué. Le Dockyard (Cospicua/Senglea, base navale) est impliqué mais non prouvé textuellement par les extraits obtenus. À revérifier.",
+   "notes": "Proposée par Ether (villes 1.9, 05/10/2026). Ce que la source prouve selon Ether : ville-mt-cospicua : base_navale, industrie ; ville-mt-senglea : militaire, port_maritime. Limite annoncée par Ether : Transcription des neuf pages lue ; images non collationnées. Réparations et transit de guerre localisés. Cibles différées : recherche conservée, hors import. Aucune validation humaine présumée. Relecture Claude 05/10/2026 : Transcription lue (via résumé WebFetch, pas texte intégral brut ; la page annonce un manuscrit dactylographié de 9 pages avec transcription). Le §25 renvoyé parle de l'isolement de Senglea, pas de la marina. Le §39 (décembre 1942) ne cite que l'état des cales (« No.1 – In full working ») sans mention explicite de Cospicua ; le §45 mentionne les cales 3 et 4 remises en service en avril 1943. Aucun passage nommant Cospicua ni la marina de Senglea n'a été restitué. Le Dockyard (Cospicua/Senglea, base navale) est impliqué mais non prouvé textuellement par les extraits obtenus. À revérifier. Complément d'Ether (villes 1.9, cycle 2, 05/10/2026) : localisateur proposé « §25, seconde partie : Senglea Marina et navire-citerne ; §39, Compressed Air, conduite via Cospicua, décembre 1942. ». Relecture Claude 05/10/2026 : §25 : navire-citerne d'eau à Senglea Marina (aucun rôle prouvé) ; §39 : conduite d'air comprimé de l'arsenal passant par Cospicua (industrie). Militaire et base navale non prouvés par ces passages. (statut : limite -> limite).",
    "resume_francais_ether": "Le rapport sur le siège de Malte localise à Cospicua des installations de l’arsenal et à Senglea un approvisionnement pendant les attaques. La transcription est lue ; les neuf images originales ne sont pas toutes collationnées.",
    "verification_claude_ether": "non_verifiee",
-   "facilitateur_traduction": "Traduction automatique de la page : https://translate.google.com/?sl=auto&tl=fr&op=websites&text=https%3A%2F%2Fibccdigitalarchive.omeka.net%2Fcollections%2Fdocument%2F43577"
+   "facilitateur_traduction": "Traduction automatique de la page : https://translate.google.com/?sl=auto&tl=fr&op=websites&text=https%3A%2F%2Fibccdigitalarchive.omeka.net%2Fcollections%2Fdocument%2F43577",
+   "complement_ether_cycle2_2026_10_05": {
+    "date": "2026-10-05",
+    "cibles": [
+     "ville-mt-senglea",
+     "ville-mt-cospicua"
+    ],
+    "locator": "§25, seconde partie : Senglea Marina et navire-citerne ; §39, Compressed Air, conduite via Cospicua, décembre 1942.",
+    "ce_que_dit_la_source": "Le rapport décrit l’approvisionnement en eau de Senglea par un navire-citerne à sa marina. Il mentionne ensuite une conduite d’air comprimé vers le dock nº1 via Cospicua.",
+    "limites": "Navire-citerne ne signifie pas pétrolier. Ces faits de 1942–1943 ne prouvent ni garnison permanente à Senglea, ni capacité commerciale propre à chaque ville ; les paragraphes sur la logistique sicilienne concernent Malte dans son ensemble.",
+    "images_locales": [],
+    "statut": "lecture_ether_non_confirmee_par_claude"
+   },
+   "confirmations_claude": {
+    "ville-mt-cospicua": {
+     "roles": [
+      "industrie"
+     ],
+     "lecture": "relu par Claude (villes 1.9, cycle 2) : Leads extended to No. 1 Dock via Cospicua",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9_cycle2.json"
+    }
+   }
   },
   {
    "source_id": "src-19-mt-luqa",
@@ -40403,16 +40701,92 @@
    "locator": "Page imprimée 100, note 17",
    "resume_passage": "",
    "archive_locale": null,
-   "verification_claude": "faible",
+   "verification_claude": "limite",
    "verification_ether": {
     "date": "2026-10-05",
     "statut": "passage_pdf_indexe_lu_image_non_collationnee",
     "limite": "Rôles localisés avant le Snapshot ; aucune capacité ni continuité du service fin 1944 déduite."
    },
-   "notes": "Proposée par Ether (villes 1.9, 05/10/2026). Ce que la source prouve selon Ether : ville-es-carthagene : base_navale, industrie ; ville-es-ferrol : base_navale, industrie ; ville-es-sestao : construction_navale, industrie ; ville-es-san-fernando : base_navale, industrie ; ville-es-puerto-real : construction_navale, industrie ; ville-es-reinosa : industrie, siderurgie. Limite annoncée par Ether : Passage PDF indexé lu : centres SECN et transition de 1940–1941 ; image non collationnée. Cibles différées : recherche conservée, hors import. Aucune validation humaine présumée. Relecture Claude 05/10/2026 : PDF récupéré mais il s'agit d'un article sur le San Ignacio de Loyola (le Glorioso, 1747) ; la note 17 (p. 31) cite George Walker, rien sur la Sociedad Española de Construcción Naval, ni sur Carthagène, Ferrol, San Fernando, Sestao, Puerto Real, Reinosa. Aucun rôle prouvé ; la source semble mal référencée (autre article du numéro ou autre numéro). Le PDF est long et le résumeur peut avoir tronqué : non exhaustif, mais rien trouvé.",
+   "notes": "Proposée par Ether (villes 1.9, 05/10/2026). Ce que la source prouve selon Ether : ville-es-carthagene : base_navale, industrie ; ville-es-ferrol : base_navale, industrie ; ville-es-sestao : construction_navale, industrie ; ville-es-san-fernando : base_navale, industrie ; ville-es-puerto-real : construction_navale, industrie ; ville-es-reinosa : industrie, siderurgie. Limite annoncée par Ether : Passage PDF indexé lu : centres SECN et transition de 1940–1941 ; image non collationnée. Cibles différées : recherche conservée, hors import. Aucune validation humaine présumée. Relecture Claude 05/10/2026 : PDF récupéré mais il s'agit d'un article sur le San Ignacio de Loyola (le Glorioso, 1747) ; la note 17 (p. 31) cite George Walker, rien sur la Sociedad Española de Construcción Naval, ni sur Carthagène, Ferrol, San Fernando, Sestao, Puerto Real, Reinosa. Aucun rôle prouvé ; la source semble mal référencée (autre article du numéro ou autre numéro). Le PDF est long et le résumeur peut avoir tronqué : non exhaustif, mais rien trouvé. Complément d'Ether (villes 1.9, cycle 2, 05/10/2026) : localisateur proposé « Revista de Historia Naval 133 : page 100 imprimée, page 101 du PDF complet (138 pages), note 17, article de Jaime Antón Viscasillas sur l’école des ingénieurs navals de Ferrol. ». Relecture Claude 05/10/2026 : Bonne page cette fois : p. 100 imprimée déposée par Ether, note 17, lue par Claude. Elle localise les chantiers et arsenaux avant 1945 ; elle ne dit rien de leur activité au 01/01/1945 (fin de gestion SECN 1940/1941 pour Ferrol, Carthagène, San Fernando). (statut : faible -> limite).",
    "resume_francais_ether": "La note historique localise les arsenaux de Ferrol, Carthagène et San Fernando, ainsi que les chantiers de Puerto Real/Sestao et la sidérurgie de Reinosa avant 1945. Seul le passage indexé de la page 100 a été lu, pas son image.",
    "verification_claude_ether": "non_verifiee",
-   "facilitateur_traduction": "Google Traduction, onglet Documents : ouvrir le PDF original et traduire une copie pour lecture personnelle ; conserver la pagination de l’original."
+   "facilitateur_traduction": "Google Traduction, onglet Documents : ouvrir le PDF original et traduire une copie pour lecture personnelle ; conserver la pagination de l’original.",
+   "complement_ether_cycle2_2026_10_05": {
+    "date": "2026-10-05",
+    "cibles": [
+     "ville-es-ferrol",
+     "ville-es-carthagene",
+     "ville-es-san-fernando",
+     "ville-es-sestao",
+     "ville-es-puerto-real",
+     "ville-es-reinosa"
+    ],
+    "locator": "Revista de Historia Naval 133 : page 100 imprimée, page 101 du PDF complet (138 pages), note 17, article de Jaime Antón Viscasillas sur l’école des ingénieurs navals de Ferrol.",
+    "ce_que_dit_la_source": "La note 17 énumère les établissements de la SECN : arsenaux de Ferrol et Carthagène, La Carraca, Matagorda, Sestao et sidérurgie de Reinosa. Elle distingue leurs dates de prise en charge, acquisition ou création entre 1909 et 1917.",
+    "limites": "Le PDF contient plusieurs articles, dont le Glorioso : sa note 17 ne doit pas être substituée à celle de la page 100. La fin de gestion SECN en 1940/1941 ne prouve pas une fermeture des sites ; aucun opérateur SECN en 1945 affirmé.",
+    "images_locales": [
+     "2026-10-05_ether_C2_armada133_page101.png"
+    ],
+    "statut": "lecture_ether_non_confirmee_par_claude"
+   },
+   "confirmations_claude": {
+    "ville-es-ferrol": {
+     "roles": [
+      "base_navale",
+      "construction_navale",
+      "industrie"
+     ],
+     "lecture": "relu par Claude (villes 1.9, cycle 2) : (17) La Sociedad Española de Construcción Naval (SECN) ... los astilleros y zonas industriales de los arsenales de Ferrol y Cartagena (1909-1940) y los talleres de artillería del arsenal de La Carraca (1915-1941) ... astillero y factoría de Matagorda, en Puerto Real, Cádiz (1914); los astilleros y t",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9_cycle2.json"
+    },
+    "ville-es-carthagene": {
+     "roles": [
+      "base_navale",
+      "construction_navale",
+      "industrie"
+     ],
+     "lecture": "relu par Claude (villes 1.9, cycle 2) : (17) La Sociedad Española de Construcción Naval (SECN) ... los astilleros y zonas industriales de los arsenales de Ferrol y Cartagena (1909-1940) y los talleres de artillería del arsenal de La Carraca (1915-1941) ... astillero y factoría de Matagorda, en Puerto Real, Cádiz (1914); los astilleros y t",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9_cycle2.json"
+    },
+    "ville-es-san-fernando": {
+     "roles": [
+      "base_navale",
+      "industrie"
+     ],
+     "lecture": "relu par Claude (villes 1.9, cycle 2) : (17) La Sociedad Española de Construcción Naval (SECN) ... los astilleros y zonas industriales de los arsenales de Ferrol y Cartagena (1909-1940) y los talleres de artillería del arsenal de La Carraca (1915-1941) ... astillero y factoría de Matagorda, en Puerto Real, Cádiz (1914); los astilleros y t",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9_cycle2.json"
+    },
+    "ville-es-puerto-real": {
+     "roles": [
+      "construction_navale",
+      "industrie"
+     ],
+     "lecture": "relu par Claude (villes 1.9, cycle 2) : (17) La Sociedad Española de Construcción Naval (SECN) ... los astilleros y zonas industriales de los arsenales de Ferrol y Cartagena (1909-1940) y los talleres de artillería del arsenal de La Carraca (1915-1941) ... astillero y factoría de Matagorda, en Puerto Real, Cádiz (1914); los astilleros y t",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9_cycle2.json"
+    },
+    "ville-es-sestao": {
+     "roles": [
+      "construction_navale",
+      "industrie"
+     ],
+     "lecture": "relu par Claude (villes 1.9, cycle 2) : (17) La Sociedad Española de Construcción Naval (SECN) ... los astilleros y zonas industriales de los arsenales de Ferrol y Cartagena (1909-1940) y los talleres de artillería del arsenal de La Carraca (1915-1941) ... astillero y factoría de Matagorda, en Puerto Real, Cádiz (1914); los astilleros y t",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9_cycle2.json"
+    },
+    "ville-es-reinosa": {
+     "roles": [
+      "industrie",
+      "siderurgie"
+     ],
+     "lecture": "relu par Claude (villes 1.9, cycle 2) : (17) La Sociedad Española de Construcción Naval (SECN) ... los astilleros y zonas industriales de los arsenales de Ferrol y Cartagena (1909-1940) y los talleres de artillería del arsenal de La Carraca (1915-1941) ... astillero y factoría de Matagorda, en Puerto Real, Cádiz (1914); los astilleros y t",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_1-9_cycle2.json"
+    }
+   }
   },
   {
    "source_id": "src-19-es-puerto-cabras",
@@ -40659,6 +41033,1000 @@
     "La branche Pergola–Fabriano est inaugurée en1895 ; les dommages de guerre interrompent son exploitation, reprise en mai1947."
    ],
    "note": "La branche Pergola–Fabriano est inaugurée en1895 ; les dommages de guerre interrompent son exploitation, reprise en mai1947. Limites : Preuve locale du rôle ancien de Fabriano. La branche vers Pergola ne doit pas être décrite comme exploitée au Snapshot ; cette coupure ne date pas celle de l’autre axe Rome–Ancône. La desserte précise de fin1944 reste à renforcer."
+  },
+  {
+   "source_id": "src-19-c2-seville-gare",
+   "niveau": "B",
+   "type_source": "histoire_institutionnelle",
+   "titre": "Séville, ancienne gare Plaza de Armas",
+   "institution": "Junta de Andalucía, Anuario Arqueológico de Andalucía 1998",
+   "url": "https://www.juntadeandalucia.es/cultura/tabula/bitstream/20.500.11947/17265/1/AAA_1998_106_mercadohervas_plazadearmas_sevilla.pdf",
+   "date_consultation": "2026-10-05",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "role_urbain_historique"
+   ],
+   "cibles": [
+    "ville-es-seville"
+   ],
+   "locator": "Page PDF4, p.715 imprimée, Reseña histórica del edificio, derniers paragraphes.",
+   "resume_passage": "inaugurándose el 18 de Marzo de 1901 ... el edificio mantuvo sus funciones como estación ferroviaria ... En 1990 fue clausurado el edificio ferroviario",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "notes": "Proposée par Ether (villes 1.9, cycle 2, 05/10/2026). Le rapport date l’inauguration de la gare Plaza de Armas de Séville du 18 mars 1901 et sa fonction ferroviaire jusqu’en 1990. Texte indexé lu ; téléchargement refusé au certificat, aucune image locale prétendue. Le rôle historique est local, pas un service précis de fin 1944. Relecture Claude 05/10/2026 : PDF relu par l'outil : gare Plaza de Armas inaugurée en 1901, fonction ferroviaire jusqu'en 1990.",
+   "complement_ether_cycle2_2026_10_05": {
+    "date": "2026-10-05",
+    "cibles": [
+     "ville-es-seville"
+    ],
+    "locator": "Page PDF4, p.715 imprimée, Reseña histórica del edificio, derniers paragraphes.",
+    "ce_que_dit_la_source": "Le rapport date l’inauguration de la gare Plaza de Armas de Séville du 18 mars 1901 et sa fonction ferroviaire jusqu’en 1990.",
+    "limites": "Texte indexé lu ; téléchargement refusé au certificat, aucune image locale prétendue. Le rôle historique est local, pas un service précis de fin 1944.",
+    "images_locales": [],
+    "statut": "lecture_ether_non_confirmee_par_claude"
+   },
+   "usage": [
+    "Le rapport date l’inauguration de la gare Plaza de Armas de Séville du 18 mars 1901 et sa fonction ferroviaire jusqu’en 1990."
+   ],
+   "note": "Le rapport date l’inauguration de la gare Plaza de Armas de Séville du 18 mars 1901 et sa fonction ferroviaire jusqu’en 1990. Texte indexé lu ; téléchargement refusé au certificat, aucune image locale prétendue. Le rôle historique est local, pas un service précis de fin 1944.",
+   "instruction_fusion": "Ajouter le complément Ether cycle 2 ; conserver les champs inconnus, les citations, les avis et confirmations de Claude et de Guizmo. Ne pas remplacer la vérification par la lecture Ether.",
+   "lecture_ether": {
+    "date": "2026-10-05",
+    "ce_que_dit_la_source": "Le rapport date l’inauguration de la gare Plaza de Armas de Séville du 18 mars 1901 et sa fonction ferroviaire jusqu’en 1990.",
+    "ou_lire": "Page PDF4, p.715 imprimée, Reseña histórica del edificio, derniers paragraphes.",
+    "limites": "Texte indexé lu ; téléchargement refusé au certificat, aucune image locale prétendue. Le rôle historique est local, pas un service précis de fin 1944."
+   }
+  },
+  {
+   "source_id": "src-19-c2-eibar-gare",
+   "niveau": "B",
+   "type_source": "histoire_institutionnelle",
+   "titre": "La estación de Eibar; algo más que cien años",
+   "institution": "Juanjo Olaizola Elordi, Museo Vasco del Ferrocarril / EuskoTren, diffusion Ego Ibarra",
+   "url": "https://egoibarra.eus/es/eibar/edificios-y-monumentos/estacion-de-tren/la-estacion-de-eibar-100-anos-de-historia",
+   "date_consultation": "2026-10-05",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "role_urbain_historique"
+   ],
+   "cibles": [
+    "ville-es-eibar"
+   ],
+   "locator": "PDF p.1, premiers et derniers paragraphes ; p.2, réforme de 1941.",
+   "resume_passage": "el ferrocarril que pasa por la villa armera se inauguró ... el 17 de septiembre de 1887 ... Desde el primer momento, Eibar contó con una terminal ferroviaria",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "notes": "Proposée par Ether (villes 1.9, cycle 2, 05/10/2026). L’étude établit une gare propre à Eibar dès l’ouverture de 1887 et décrit sa réforme de 1941. La date 1909 de la façade correspond à un agrandissement. Ne pas confondre Eibar avec Málzaga ni transférer à sa gare la fermeture de l’arrêt d’Ardanza. Relecture Claude 05/10/2026 : Page en ligne relue (réforme de 1941) et page 1 du PDF déposée par Ether lue par Claude : gare propre dès 1887.",
+   "complement_ether_cycle2_2026_10_05": {
+    "date": "2026-10-05",
+    "cibles": [
+     "ville-es-eibar"
+    ],
+    "locator": "PDF p.1, premiers et derniers paragraphes ; p.2, réforme de 1941.",
+    "ce_que_dit_la_source": "L’étude établit une gare propre à Eibar dès l’ouverture de 1887 et décrit sa réforme de 1941. La date 1909 de la façade correspond à un agrandissement.",
+    "limites": "Ne pas confondre Eibar avec Málzaga ni transférer à sa gare la fermeture de l’arrêt d’Ardanza.",
+    "images_locales": [
+     "2026-10-05_ether_C2_eibar_page1.png",
+     "2026-10-05_ether_C2_eibar_page2.png"
+    ],
+    "statut": "lecture_ether_non_confirmee_par_claude"
+   },
+   "usage": [
+    "L’étude établit une gare propre à Eibar dès l’ouverture de 1887 et décrit sa réforme de 1941. La date 1909 de la façade correspond à un agrandissement."
+   ],
+   "note": "L’étude établit une gare propre à Eibar dès l’ouverture de 1887 et décrit sa réforme de 1941. La date 1909 de la façade correspond à un agrandissement. Ne pas confondre Eibar avec Málzaga ni transférer à sa gare la fermeture de l’arrêt d’Ardanza.",
+   "instruction_fusion": "Ajouter le complément Ether cycle 2 ; conserver les champs inconnus, les citations, les avis et confirmations de Claude et de Guizmo. Ne pas remplacer la vérification par la lecture Ether.",
+   "lecture_ether": {
+    "date": "2026-10-05",
+    "ce_que_dit_la_source": "L’étude établit une gare propre à Eibar dès l’ouverture de 1887 et décrit sa réforme de 1941. La date 1909 de la façade correspond à un agrandissement.",
+    "ou_lire": "PDF p.1, premiers et derniers paragraphes ; p.2, réforme de 1941.",
+    "limites": "Ne pas confondre Eibar avec Málzaga ni transférer à sa gare la fermeture de l’arrêt d’Ardanza."
+   }
+  },
+  {
+   "source_id": "src-19-c2-figueras-gare",
+   "niveau": "B",
+   "type_source": "histoire_institutionnelle",
+   "titre": "Cent anys del Ferrocarril a Figueres",
+   "institution": "Josep M.ª Bernils, Revista de Girona, 1977, Diputació de Girona",
+   "url": "https://www.ddgi.cat/revistadegirona/recursos/1977/0081_393.pdf",
+   "date_consultation": "2026-10-05",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "role_urbain_historique"
+   ],
+   "cibles": [
+    "ville-es-figueras"
+   ],
+   "locator": "p.393 imprimée / PDF1, première colonne de texte en haut à droite.",
+   "resume_passage": "Quan el primer tren arriba a Figueres, el 28 d'octubre de 1877",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "notes": "Proposée par Ether (villes 1.9, cycle 2, 05/10/2026). L’article date l’arrivée du premier train à Figueres du 28 octobre 1877. Il replace la desserte dans la liaison vers la frontière française. Première page du scan lue ; ne pas extrapoler horaires ou franchissement ouvert au Snapshot. Relecture Claude 05/10/2026 : PDF relu par l'outil.",
+   "complement_ether_cycle2_2026_10_05": {
+    "date": "2026-10-05",
+    "cibles": [
+     "ville-es-figueras"
+    ],
+    "locator": "p.393 imprimée / PDF1, première colonne de texte en haut à droite.",
+    "ce_que_dit_la_source": "L’article date l’arrivée du premier train à Figueres du 28 octobre 1877. Il replace la desserte dans la liaison vers la frontière française.",
+    "limites": "Première page du scan lue ; ne pas extrapoler horaires ou franchissement ouvert au Snapshot.",
+    "images_locales": [
+     "2026-10-05_ether_C2_figueres_page1.png"
+    ],
+    "statut": "lecture_ether_non_confirmee_par_claude"
+   },
+   "usage": [
+    "L’article date l’arrivée du premier train à Figueres du 28 octobre 1877. Il replace la desserte dans la liaison vers la frontière française."
+   ],
+   "note": "L’article date l’arrivée du premier train à Figueres du 28 octobre 1877. Il replace la desserte dans la liaison vers la frontière française. Première page du scan lue ; ne pas extrapoler horaires ou franchissement ouvert au Snapshot.",
+   "instruction_fusion": "Ajouter le complément Ether cycle 2 ; conserver les champs inconnus, les citations, les avis et confirmations de Claude et de Guizmo. Ne pas remplacer la vérification par la lecture Ether.",
+   "lecture_ether": {
+    "date": "2026-10-05",
+    "ce_que_dit_la_source": "L’article date l’arrivée du premier train à Figueres du 28 octobre 1877. Il replace la desserte dans la liaison vers la frontière française.",
+    "ou_lire": "p.393 imprimée / PDF1, première colonne de texte en haut à droite.",
+    "limites": "Première page du scan lue ; ne pas extrapoler horaires ou franchissement ouvert au Snapshot."
+   }
+  },
+  {
+   "source_id": "src-19-c2-jerez-ffe",
+   "niveau": "B",
+   "type_source": "histoire_institutionnelle",
+   "titre": "Cronología básica del ferrocarril español de vía ancha",
+   "institution": "Joaquín García Raya, Fundación de los Ferrocarriles Españoles, congrès de Málaga 2006",
+   "url": "https://www.docutren.com/historiaferroviaria/malaga2006/pdf/vi04.pdf",
+   "date_consultation": "2026-10-05",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "role_urbain_historique"
+   ],
+   "cibles": [
+    "ville-es-jerez-de-los-caballeros"
+   ],
+   "locator": "p.52 imprimée / PDF52, première ligne du tableau Zafra–Jerez de los Caballeros et note (1), AHF-C/0338/001.",
+   "resume_passage": "ZH | Zafra-Portugal | Zafra-Jerez de los Caballeros | 46,73 | Apert. Servicio 15/11/1936 (1) 23/11/1936 (2) ... la circulación comenzó el 15/11/1936, de forma provisional y condicional",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "notes": "Proposée par Ether (villes 1.9, cycle 2, 05/10/2026). La chronologie donne une circulation provisoire et conditionnelle dès le 15 novembre 1936 pour exploiter des gisements de fer. Elle signale aussi une date du 23 novembre 1936 issue d’une autre référence. Le document d’archives cité n’a pas été relu directement. La carte Forcano ne suffit pas à valider l’exploitation ; ni inauguration solennelle ni service voyageurs régulier en 1945 déduits. Relecture Claude 05/10/2026 : L'outil n'a pas atteint la p. 52 ; la page 52 déposée par Ether a été lue par Claude : ligne ouverte (provisoirement) en novembre 1936. Le régime de service en 1945 n'est pas établi (réserve d'Ether).",
+   "complement_ether_cycle2_2026_10_05": {
+    "date": "2026-10-05",
+    "cibles": [
+     "ville-es-jerez-de-los-caballeros"
+    ],
+    "locator": "p.52 imprimée / PDF52, première ligne du tableau Zafra–Jerez de los Caballeros et note (1), AHF-C/0338/001.",
+    "ce_que_dit_la_source": "La chronologie donne une circulation provisoire et conditionnelle dès le 15 novembre 1936 pour exploiter des gisements de fer. Elle signale aussi une date du 23 novembre 1936 issue d’une autre référence.",
+    "limites": "Le document d’archives cité n’a pas été relu directement. La carte Forcano ne suffit pas à valider l’exploitation ; ni inauguration solennelle ni service voyageurs régulier en 1945 déduits.",
+    "images_locales": [
+     "2026-10-05_ether_C2_jerez_page52.png"
+    ],
+    "statut": "lecture_ether_non_confirmee_par_claude"
+   },
+   "usage": [
+    "La chronologie donne une circulation provisoire et conditionnelle dès le 15 novembre 1936 pour exploiter des gisements de fer. Elle signale aussi une date du 23 novembre 1936 issue d’une autre référence."
+   ],
+   "note": "La chronologie donne une circulation provisoire et conditionnelle dès le 15 novembre 1936 pour exploiter des gisements de fer. Elle signale aussi une date du 23 novembre 1936 issue d’une autre référence. Le document d’archives cité n’a pas été relu directement. La carte Forcano ne suffit pas à valider l’exploitation ; ni inauguration solennelle ni service voyageurs régulier en 1945 déduits.",
+   "instruction_fusion": "Ajouter le complément Ether cycle 2 ; conserver les champs inconnus, les citations, les avis et confirmations de Claude et de Guizmo. Ne pas remplacer la vérification par la lecture Ether.",
+   "lecture_ether": {
+    "date": "2026-10-05",
+    "ce_que_dit_la_source": "La chronologie donne une circulation provisoire et conditionnelle dès le 15 novembre 1936 pour exploiter des gisements de fer. Elle signale aussi une date du 23 novembre 1936 issue d’une autre référence.",
+    "ou_lire": "p.52 imprimée / PDF52, première ligne du tableau Zafra–Jerez de los Caballeros et note (1), AHF-C/0338/001.",
+    "limites": "Le document d’archives cité n’a pas été relu directement. La carte Forcano ne suffit pas à valider l’exploitation ; ni inauguration solennelle ni service voyageurs régulier en 1945 déduits."
+   }
+  },
+  {
+   "source_id": "src-audit1x-fr-hendaye",
+   "niveau": "B",
+   "type_source": "histoire_institutionnelle",
+   "titre": "Le Connecting Europe Express fait escale à Hendaye, 4 septembre2021",
+   "institution": "Ville de Hendaye",
+   "url": "https://www.hendaye.fr/fr/le-connecting-europe-express-fait-escale-a-hendaye/",
+   "date_consultation": "2026-10-05",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "frontalier",
+    "rail"
+   ],
+   "cibles": [
+    "ville-fr-hendaye"
+   ],
+   "locator": "Discours du maire, premier paragraphe daté15août1864",
+   "resume_passage": "157 ans après l'arrivée en gare d'Hendaye du 1er train en provenance de Madrid et à destination de Paris (le 15/8/1864)",
+   "archive_locale": null,
+   "verification_claude": "limite",
+   "notes": "Proposée par Ether (audit transversal 1.x, 05/10/2026). Rôle urbain historique ; service, accès et capacités au Snapshot non déduits. Repère actuel à contrôler séparément. Relecture Claude 05/10/2026 : Rail prouvé ; le rôle frontalier n'est pas dit en toutes lettres.",
+   "usage": [
+    "La municipalité rappelle l’arrivée à Hendaye du premier train Madrid–Paris le15août1864. Cela documente un rôle de passage ferroviaire international avant1945."
+   ],
+   "note": "Rôle urbain historique ; service, accès et capacités au Snapshot non déduits. Repère actuel à contrôler séparément.",
+   "lecture_ether": {
+    "ce_que_dit_la_source": "La municipalité rappelle l’arrivée à Hendaye du premier train Madrid–Paris le15août1864. Cela documente un rôle de passage ferroviaire international avant1945.",
+    "ou_lire": "Discours du maire, premier paragraphe daté15août1864",
+    "limites": "Rôle urbain historique ; service, accès et capacités au Snapshot non déduits. Repère actuel à contrôler séparément.",
+    "statut": "texte_lu_2026-10-05"
+   },
+   "verification_ether": {
+    "statut": "passages_cibles_lus",
+    "date": "2026-10-05",
+    "limite": "Rôle urbain historique ; service, accès et capacités au Snapshot non déduits. Repère actuel à contrôler séparément."
+   },
+   "confirmations_claude": {
+    "ville-fr-hendaye": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (audit transversal 1.x) : 157 ans après l'arrivée en gare d'Hendaye du 1er train en provenance de Madrid et à destination de Paris (le 15/8/1864)",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_audit_1x.json"
+    }
+   }
+  },
+  {
+   "source_id": "src-audit1x-fr-cerbere",
+   "niveau": "B",
+   "type_source": "histoire_institutionnelle",
+   "titre": "Cerbère, un village né du rail",
+   "institution": "Office de tourisme Pyrénées Méditerranée",
+   "url": "https://www.tourisme-pyrenees-mediterranee.com/blog/2026/06/05/cerbere-village-ne-du-rail/",
+   "date_consultation": "2026-10-05",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "frontalier",
+    "rail"
+   ],
+   "cibles": [
+    "ville-fr-cerbere"
+   ],
+   "locator": "La gare internationale, moteur du développement urbain",
+   "resume_passage": "En 1878, la jonction France Espagne est inaugurée. / Les opérations de contrôle douanier, de transbordement et de changement de train mobilisent une importante main-d'œuvre.",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "notes": "Proposée par Ether (audit transversal 1.x, 05/10/2026). Rôle urbain historique ; service, accès et capacités au Snapshot non déduits. Repère actuel à contrôler séparément. Aucun poste de douane ni gare autonome créé. Relecture Claude 05/10/2026 : Rail et frontière (douane, transbordement) prouvés.",
+   "usage": [
+    "La gare internationale est inaugurée en1878 ; transbordement, contrôle douanier et changement de train structurent ensuite le développement urbain."
+   ],
+   "note": "Rôle urbain historique ; service, accès et capacités au Snapshot non déduits. Repère actuel à contrôler séparément. Aucun poste de douane ni gare autonome créé.",
+   "lecture_ether": {
+    "ce_que_dit_la_source": "La gare internationale est inaugurée en1878 ; transbordement, contrôle douanier et changement de train structurent ensuite le développement urbain.",
+    "ou_lire": "La gare internationale, moteur du développement urbain",
+    "limites": "Rôle urbain historique ; service, accès et capacités au Snapshot non déduits. Repère actuel à contrôler séparément. Aucun poste de douane ni gare autonome créé.",
+    "statut": "texte_lu_2026-10-05"
+   },
+   "verification_ether": {
+    "statut": "passages_cibles_lus",
+    "date": "2026-10-05",
+    "limite": "Rôle urbain historique ; service, accès et capacités au Snapshot non déduits. Repère actuel à contrôler séparément. Aucun poste de douane ni gare autonome créé."
+   }
+  },
+  {
+   "source_id": "src-audit1x-fr-modane",
+   "niveau": "B",
+   "type_source": "histoire_institutionnelle",
+   "titre": "Modane, lieu de transit",
+   "institution": "Musée national de l’histoire de l’immigration",
+   "url": "https://www.histoire-immigration.fr/collections/modane-lieu-de-transit",
+   "date_consultation": "2026-10-05",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "frontalier",
+    "rail"
+   ],
+   "cibles": [
+    "ville-fr-modane"
+   ],
+   "locator": "La création d’un réseau frontalier,1871 puis1943–1944",
+   "resume_passage": "le petit bourg de Modane devient un pôle frontalier important doté d'une gare internationale. / La gare est détruite par un bombardement des alliés en 1943, puis elle est saccagée en août 1944",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "notes": "Proposée par Ether (audit transversal 1.x, 05/10/2026). Ville historique de transit avec rupture de guerre explicite ; aucune ouverture du tunnel ni trafic complet au1janvier1945 certifiés. Ne pas attribuer la destruction de la gare à toute la ville. Relecture Claude 05/10/2026 : Tout est sur la page (1871, 1943, août 1944).",
+   "usage": [
+    "Le tunnel du Fréjus fait de Modane un pôle frontalier ferroviaire en1871. La gare est détruite en1943 puis saccagée en août1944."
+   ],
+   "note": "Ville historique de transit avec rupture de guerre explicite ; aucune ouverture du tunnel ni trafic complet au1janvier1945 certifiés. Ne pas attribuer la destruction de la gare à toute la ville.",
+   "lecture_ether": {
+    "ce_que_dit_la_source": "Le tunnel du Fréjus fait de Modane un pôle frontalier ferroviaire en1871. La gare est détruite en1943 puis saccagée en août1944.",
+    "ou_lire": "La création d’un réseau frontalier,1871 puis1943–1944",
+    "limites": "Ville historique de transit avec rupture de guerre explicite ; aucune ouverture du tunnel ni trafic complet au1janvier1945 certifiés. Ne pas attribuer la destruction de la gare à toute la ville.",
+    "statut": "texte_lu_2026-10-05"
+   },
+   "verification_ether": {
+    "statut": "passages_cibles_lus",
+    "date": "2026-10-05",
+    "limite": "Ville historique de transit avec rupture de guerre explicite ; aucune ouverture du tunnel ni trafic complet au1janvier1945 certifiés. Ne pas attribuer la destruction de la gare à toute la ville."
+   }
+  },
+  {
+   "source_id": "src-audit1x-fr-jeumont",
+   "niveau": "B",
+   "type_source": "histoire_institutionnelle",
+   "titre": "Présentation de la commune de Jeumont, dossierIA59001366",
+   "institution": "Inventaire général du patrimoine culturel, Hauts-de-France",
+   "url": "https://inventaire.hautsdefrance.fr/dossier/pdf/b944ab33-b2bb-4e71-8025-c755a10609ca/presentation-de-la-commune-de-jeumont.pdf",
+   "date_consultation": "2026-10-05",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "industrie",
+    "rail"
+   ],
+   "cibles": [
+    "ville-fr-jeumont"
+   ],
+   "locator": "p.1, Historique",
+   "resume_passage": "",
+   "archive_locale": null,
+   "verification_claude": "non_verifiee",
+   "notes": "Proposée par Ether (audit transversal 1.x, 05/10/2026). Rôle urbain historique ; service, accès et capacités au Snapshot non déduits. Repère actuel à contrôler séparément. Le HTML affichait un contrôle de connexion ; le PDF public a été lu. Ne pas transférer des activités d’autres communes. La reconstruction de la gare après la Première Guerre mondiale et les logements des ingénieurs FACEJ en1932 sont nommés ; les logements de cheminots de1919–1925 sont à Marpent, pas à Jeumont. La verrerie déplacée à Boussois ne prouve pas une activité jeumontoise en1945. Relecture Claude 05/10/2026 : PDF derrière une page anti-robots (JavaScript requis) ; non contourné.",
+   "usage": [
+    "La notice associe le développement industriel de Jeumont à la ligne Paris–Erquelinnes installée en1855 ; elle décrit l’agrandissement de la gare vers1881 et les établissements industriels."
+   ],
+   "note": "Rôle urbain historique ; service, accès et capacités au Snapshot non déduits. Repère actuel à contrôler séparément. Le HTML affichait un contrôle de connexion ; le PDF public a été lu. Ne pas transférer des activités d’autres communes. La reconstruction de la gare après la Première Guerre mondiale et les logements des ingénieurs FACEJ en1932 sont nommés ; les logements de cheminots de1919–1925 sont à Marpent, pas à Jeumont. La verrerie déplacée à Boussois ne prouve pas une activité jeumontoise en1945.",
+   "lecture_ether": {
+    "ce_que_dit_la_source": "La notice associe le développement industriel de Jeumont à la ligne Paris–Erquelinnes installée en1855 ; elle décrit l’agrandissement de la gare vers1881 et les établissements industriels.",
+    "ou_lire": "p.1, Historique",
+    "limites": "Rôle urbain historique ; service, accès et capacités au Snapshot non déduits. Repère actuel à contrôler séparément. Le HTML affichait un contrôle de connexion ; le PDF public a été lu. Ne pas transférer des activités d’autres communes. La reconstruction de la gare après la Première Guerre mondiale et les logements des ingénieurs FACEJ en1932 sont nommés ; les logements de cheminots de1919–1925 sont à Marpent, pas à Jeumont. La verrerie déplacée à Boussois ne prouve pas une activité jeumontoise en1945.",
+    "statut": "texte_lu_2026-10-05"
+   },
+   "verification_ether": {
+    "statut": "passages_cibles_lus",
+    "date": "2026-10-05",
+    "limite": "Rôle urbain historique ; service, accès et capacités au Snapshot non déduits. Repère actuel à contrôler séparément. Le HTML affichait un contrôle de connexion ; le PDF public a été lu. Ne pas transférer des activités d’autres communes. La reconstruction de la gare après la Première Guerre mondiale et les logements des ingénieurs FACEJ en1932 sont nommés ; les logements de cheminots de1919–1925 sont à Marpent, pas à Jeumont. La verrerie déplacée à Boussois ne prouve pas une activité jeumontoise en1945."
+   }
+  },
+  {
+   "source_id": "src-audit1x-fr-bastia",
+   "niveau": "B",
+   "type_source": "histoire_institutionnelle",
+   "titre": "Histoire du port de Bastia",
+   "institution": "CCI de Corse, Port de Bastia",
+   "url": "https://bastia-port.cci.corsica/histoire/",
+   "date_consultation": "2026-10-05",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "port_maritime"
+   ],
+   "cibles": [
+    "ville-fr-bastia"
+   ],
+   "locator": "Entre-deux-guerres,1943 et Décembre1944",
+   "resume_passage": "Les bombardements détruisent la quasi totalité des installations portuaires / Le port est toujours encombré par des épaves, le \"Tibériade\" le \"Sidi Mabrouk\" et le \"Mont Agel\"",
+   "archive_locale": null,
+   "verification_claude": "limite",
+   "notes": "Proposée par Ether (audit transversal 1.x, 05/10/2026). Port urbain historique endommagé et encombré au Snapshot ; aucune fermeture totale déduite du seul encombrement. Le terminal de car-ferries de1975 reste futur. Relecture Claude 05/10/2026 : Faits présents ; les années (1920, 1943, décembre 1944) non restituées par l'outil.",
+   "usage": [
+    "Le port, concédé en1920, subit la destruction de presque toutes ses installations en1943. En décembre1944 il reste encombré par trois épaves nommées."
+   ],
+   "note": "Port urbain historique endommagé et encombré au Snapshot ; aucune fermeture totale déduite du seul encombrement. Le terminal de car-ferries de1975 reste futur.",
+   "lecture_ether": {
+    "ce_que_dit_la_source": "Le port, concédé en1920, subit la destruction de presque toutes ses installations en1943. En décembre1944 il reste encombré par trois épaves nommées.",
+    "ou_lire": "Entre-deux-guerres,1943 et Décembre1944",
+    "limites": "Port urbain historique endommagé et encombré au Snapshot ; aucune fermeture totale déduite du seul encombrement. Le terminal de car-ferries de1975 reste futur.",
+    "statut": "texte_lu_2026-10-05"
+   },
+   "verification_ether": {
+    "statut": "passages_cibles_lus",
+    "date": "2026-10-05",
+    "limite": "Port urbain historique endommagé et encombré au Snapshot ; aucune fermeture totale déduite du seul encombrement. Le terminal de car-ferries de1975 reste futur."
+   },
+   "confirmations_claude": {
+    "ville-fr-bastia": {
+     "roles": [
+      "port_maritime"
+     ],
+     "lecture": "relu par Claude (audit transversal 1.x) : Les bombardements détruisent la quasi totalité des installations portuaires / Le port est toujours encombré par des épaves, le \"Tibériade\" le \"Sidi Mabrouk\" et le \"Mont Agel\"",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_audit_1x.json"
+    }
+   }
+  },
+  {
+   "source_id": "src-audit1x-fr-ajaccio",
+   "niveau": "B",
+   "type_source": "histoire_institutionnelle",
+   "titre": "1943 : la libération de la Corse,10 —9septembre : l’insurrection",
+   "institution": "Fondation Charles de Gaulle",
+   "url": "https://www.charles-de-gaulle.org/les-activites/grand-public/expositions/1943-liberation-de-corse-10/",
+   "date_consultation": "2026-10-05",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "port_maritime"
+   ],
+   "cibles": [
+    "ville-fr-ajaccio"
+   ],
+   "locator": "Opération Vésuve, débarquements du13septembre et légendes des photographies",
+   "resume_passage": "Les premiers à accoster à Ajaccio sont 109 hommes du 1er Bataillon parachutiste de Choc, le 13 septembre.",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "notes": "Proposée par Ether (audit transversal 1.x, 05/10/2026). Rôle urbain historique ; service, accès et capacités au Snapshot non déduits. Repère actuel à contrôler séparément. Le rôle portuaire est retenu ; aucune garnison permanente ni volume de trafic1945 déduit. Relecture Claude 05/10/2026 : Débarquement de septembre 1943 confirmé.",
+   "usage": [
+    "Des hommes du bataillon de choc accostent à Ajaccio en septembre1943 ; le récit et les photographies décrivent l’arrivée des renforts dans le port."
+   ],
+   "note": "Rôle urbain historique ; service, accès et capacités au Snapshot non déduits. Repère actuel à contrôler séparément. Le rôle portuaire est retenu ; aucune garnison permanente ni volume de trafic1945 déduit.",
+   "lecture_ether": {
+    "ce_que_dit_la_source": "Des hommes du bataillon de choc accostent à Ajaccio en septembre1943 ; le récit et les photographies décrivent l’arrivée des renforts dans le port.",
+    "ou_lire": "Opération Vésuve, débarquements du13septembre et légendes des photographies",
+    "limites": "Rôle urbain historique ; service, accès et capacités au Snapshot non déduits. Repère actuel à contrôler séparément. Le rôle portuaire est retenu ; aucune garnison permanente ni volume de trafic1945 déduit.",
+    "statut": "texte_lu_2026-10-05"
+   },
+   "verification_ether": {
+    "statut": "passages_cibles_lus",
+    "date": "2026-10-05",
+    "limite": "Rôle urbain historique ; service, accès et capacités au Snapshot non déduits. Repère actuel à contrôler séparément. Le rôle portuaire est retenu ; aucune garnison permanente ni volume de trafic1945 déduit."
+   }
+  },
+  {
+   "source_id": "src-audit1x-gb-crewe",
+   "niveau": "B",
+   "type_source": "histoire_institutionnelle",
+   "titre": "1867 buildings at Crewe Railway Station,1436435",
+   "institution": "Historic England",
+   "url": "https://historicengland.org.uk/listing/the-list/list-entry/1436435",
+   "date_consultation": "2026-10-05",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rail"
+   ],
+   "cibles": [
+    "ville-gb-crewe"
+   ],
+   "locator": "History, paragraphes1837–1867 et1903–1906",
+   "resume_passage": "The railway opened in 1837. / the first junction between more than two mainline railways.",
+   "archive_locale": null,
+   "verification_claude": "limite",
+   "notes": "Proposée par Ether (audit transversal 1.x, 05/10/2026). Rôle urbain historique ; service, accès et capacités au Snapshot non déduits. Repère actuel à contrôler séparément. Relecture Claude 05/10/2026 : Carrefour ferroviaire prouvé ; la date de 1837 vaut pour la ligne.",
+   "usage": [
+    "La gare ouvre sur la Grand Junction Railway en1837 ; la notice décrit les raccordements et agrandissements qui en font un carrefour ferroviaire avant1945."
+   ],
+   "note": "Rôle urbain historique ; service, accès et capacités au Snapshot non déduits. Repère actuel à contrôler séparément.",
+   "lecture_ether": {
+    "ce_que_dit_la_source": "La gare ouvre sur la Grand Junction Railway en1837 ; la notice décrit les raccordements et agrandissements qui en font un carrefour ferroviaire avant1945.",
+    "ou_lire": "History, paragraphes1837–1867 et1903–1906",
+    "limites": "Rôle urbain historique ; service, accès et capacités au Snapshot non déduits. Repère actuel à contrôler séparément.",
+    "statut": "texte_lu_2026-10-05"
+   },
+   "verification_ether": {
+    "statut": "passages_cibles_lus",
+    "date": "2026-10-05",
+    "limite": "Rôle urbain historique ; service, accès et capacités au Snapshot non déduits. Repère actuel à contrôler séparément."
+   },
+   "confirmations_claude": {
+    "ville-gb-crewe": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (audit transversal 1.x) : The railway opened in 1837. / the first junction between more than two mainline railways.",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_audit_1x.json"
+    }
+   }
+  },
+  {
+   "source_id": "src-audit1x-gb-york",
+   "niveau": "B",
+   "type_source": "histoire_institutionnelle",
+   "titre": "Heritage Topic Paper and Impact Appraisal",
+   "institution": "City of York Council",
+   "url": "https://democracy.york.gov.uk/documents/s49668/Annex%20E%20-%20Heritage%20Topic%20Paper%20and%20Impact%20Appraisal.pdf",
+   "date_consultation": "2026-10-05",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rail"
+   ],
+   "cibles": [
+    "ville-gb-york"
+   ],
+   "locator": "§5.51, pages20–21 imprimées / pages21–22 duPDF",
+   "resume_passage": "York has been an important centre not only of railway routes but of railway administration from almost the very start of the Railway era. / In 1877 the current railway station was constructed.",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "notes": "Proposée par Ether (audit transversal 1.x, 05/10/2026). Rôle urbain historique ; service, accès et capacités au Snapshot non déduits. Repère actuel à contrôler séparément. Ne pas transférer l’aérodrome de Clifton ni son rôle à la ville sans étude distincte. Relecture Claude 05/10/2026 : §5.51 relu.",
+   "usage": [
+    "York est décrit comme centre des itinéraires et de l’administration ferroviaires dès le XIXe siècle ; liaisons1839–1840 et gare1877 explicitement datées."
+   ],
+   "note": "Rôle urbain historique ; service, accès et capacités au Snapshot non déduits. Repère actuel à contrôler séparément. Ne pas transférer l’aérodrome de Clifton ni son rôle à la ville sans étude distincte.",
+   "lecture_ether": {
+    "ce_que_dit_la_source": "York est décrit comme centre des itinéraires et de l’administration ferroviaires dès le XIXe siècle ; liaisons1839–1840 et gare1877 explicitement datées.",
+    "ou_lire": "§5.51, pages20–21 imprimées / pages21–22 duPDF",
+    "limites": "Rôle urbain historique ; service, accès et capacités au Snapshot non déduits. Repère actuel à contrôler séparément. Ne pas transférer l’aérodrome de Clifton ni son rôle à la ville sans étude distincte.",
+    "statut": "texte_lu_2026-10-05"
+   },
+   "verification_ether": {
+    "statut": "passages_cibles_lus",
+    "date": "2026-10-05",
+    "limite": "Rôle urbain historique ; service, accès et capacités au Snapshot non déduits. Repère actuel à contrôler séparément. Ne pas transférer l’aérodrome de Clifton ni son rôle à la ville sans étude distincte."
+   }
+  },
+  {
+   "source_id": "src-audit1x-fr-dijon",
+   "niveau": "B",
+   "type_source": "histoire_institutionnelle",
+   "titre": "La gare — Dijon",
+   "institution": "Observatoire des CAUE, extrait du Guide d’architecture en Bourgogne1893–2007",
+   "url": "https://www.caue-observatoire.fr/ouvrage/gare-dijon-observatoire-des-caue/",
+   "date_consultation": "2026-10-05",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rail"
+   ],
+   "cibles": [
+    "ville-fr-dijon"
+   ],
+   "locator": "Description architecturale, premier paragraphe1851/1944",
+   "resume_passage": "",
+   "archive_locale": null,
+   "verification_claude": "non_verifiee",
+   "notes": "Proposée par Ether (audit transversal 1.x, 05/10/2026). Rôle urbain historique documenté ; aucune capacité, desserte exacte ni continuité du trafic au 1er janvier1945 déduite. Les bâtiments de1947–1962 restent futurs. Destruction de la gare, pas de toute la ville. Relecture Claude 05/10/2026 : Page refusée à l'outil (robots) ; non contournée.",
+   "usage": [
+    "La gare dijonnaise suit l’ouverture de Paris–Dijon en1851 ; elle est détruite en1944."
+   ],
+   "note": "Rôle urbain historique documenté ; aucune capacité, desserte exacte ni continuité du trafic au 1er janvier1945 déduite. Les bâtiments de1947–1962 restent futurs. Destruction de la gare, pas de toute la ville.",
+   "lecture_ether": {
+    "ce_que_dit_la_source": "La gare dijonnaise suit l’ouverture de Paris–Dijon en1851 ; elle est détruite en1944.",
+    "ou_lire": "Description architecturale, premier paragraphe1851/1944",
+    "limites": "Rôle urbain historique documenté ; aucune capacité, desserte exacte ni continuité du trafic au 1er janvier1945 déduite. Les bâtiments de1947–1962 restent futurs. Destruction de la gare, pas de toute la ville.",
+    "statut": "texte_lu_2026-10-05"
+   },
+   "verification_ether": {
+    "statut": "passages_cibles_lus",
+    "date": "2026-10-05",
+    "limite": "Rôle urbain historique documenté ; aucune capacité, desserte exacte ni continuité du trafic au 1er janvier1945 déduite. Les bâtiments de1947–1962 restent futurs. Destruction de la gare, pas de toute la ville."
+   }
+  },
+  {
+   "source_id": "src-audit1x-fr-le-mans",
+   "niveau": "B",
+   "type_source": "histoire_institutionnelle",
+   "titre": "Journées européennes du patrimoine2024 — Les170ans du train au Mans",
+   "institution": "Ville du Mans, service Tourisme et Patrimoine",
+   "url": "https://www.lemans-tourisme.com/media/partenaire/fichiers/FMAPDL072V50XM34/j/e/JEP-2024.pdf",
+   "date_consultation": "2026-10-05",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rail"
+   ],
+   "cibles": [
+    "ville-fr-le-mans"
+   ],
+   "locator": "p.4 imprimée/PDF(index3), rubrique Les170ans du train au Mans",
+   "resume_passage": "le 28 mai 1854, à 15h, le premier convoi entre en gare du Mans.",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "notes": "Proposée par Ether (audit transversal 1.x, 05/10/2026). Rôle urbain historique documenté ; aucune capacité, desserte exacte ni continuité du trafic au 1er janvier1945 déduite. Dossier municipal d’exposition complet lu ; un autre PDF des musées avait expiré au téléchargement, non utilisé. Relecture Claude 05/10/2026 : Arrivée du train en 1854 confirmée.",
+   "usage": [
+    "La ville rappelle l’arrivée du train en1854 et la constitution rapide d’un important maillage ferroviaire."
+   ],
+   "note": "Rôle urbain historique documenté ; aucune capacité, desserte exacte ni continuité du trafic au 1er janvier1945 déduite. Dossier municipal d’exposition complet lu ; un autre PDF des musées avait expiré au téléchargement, non utilisé.",
+   "lecture_ether": {
+    "ce_que_dit_la_source": "La ville rappelle l’arrivée du train en1854 et la constitution rapide d’un important maillage ferroviaire.",
+    "ou_lire": "p.4 imprimée/PDF(index3), rubrique Les170ans du train au Mans",
+    "limites": "Rôle urbain historique documenté ; aucune capacité, desserte exacte ni continuité du trafic au 1er janvier1945 déduite. Dossier municipal d’exposition complet lu ; un autre PDF des musées avait expiré au téléchargement, non utilisé.",
+    "statut": "texte_lu_2026-10-05"
+   },
+   "verification_ether": {
+    "statut": "passages_cibles_lus",
+    "date": "2026-10-05",
+    "limite": "Rôle urbain historique documenté ; aucune capacité, desserte exacte ni continuité du trafic au 1er janvier1945 déduite. Dossier municipal d’exposition complet lu ; un autre PDF des musées avait expiré au téléchargement, non utilisé."
+   }
+  },
+  {
+   "source_id": "src-audit1x-fr-saint-pierre-des-corps",
+   "niveau": "B",
+   "type_source": "histoire_institutionnelle",
+   "titre": "En train — Un peu d’histoire",
+   "institution": "Mairie de Saint-Pierre-des-Corps, d’après le Dictionnaire des communes de Touraine",
+   "url": "https://saintpierredescorps.fr/vivre-saint-pierre/se-deplacer/en-train",
+   "date_consultation": "2026-10-05",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rail"
+   ],
+   "cibles": [
+    "ville-fr-saint-pierre-des-corps"
+   ],
+   "locator": "Un peu d’histoire, après les renseignements de transport actuel",
+   "resume_passage": "Le train est un élément fort de l'histoire de la ville / une des plus importantes gares de triage de France",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "notes": "Proposée par Ether (audit transversal 1.x, 05/10/2026). Rôle urbain historique documenté ; aucune capacité, desserte exacte ni continuité du trafic au 1er janvier1945 déduite. La date1844 concerne le tracé, pas une ouverture présumée. Ne pas transférer le triage à Tours ni reprendre les TGV actuels. Relecture Claude 05/10/2026 : Rôle ferroviaire prouvé (1882 et 1901 : passage à niveau et passerelle, pas des ponts).",
+   "usage": [
+    "Le récit décrit l’arrivée ferroviaire au XIXe siècle, les emplois du dépôt et du triage, puis les franchissements de1882 et1901."
+   ],
+   "note": "Rôle urbain historique documenté ; aucune capacité, desserte exacte ni continuité du trafic au 1er janvier1945 déduite. La date1844 concerne le tracé, pas une ouverture présumée. Ne pas transférer le triage à Tours ni reprendre les TGV actuels.",
+   "lecture_ether": {
+    "ce_que_dit_la_source": "Le récit décrit l’arrivée ferroviaire au XIXe siècle, les emplois du dépôt et du triage, puis les franchissements de1882 et1901.",
+    "ou_lire": "Un peu d’histoire, après les renseignements de transport actuel",
+    "limites": "Rôle urbain historique documenté ; aucune capacité, desserte exacte ni continuité du trafic au 1er janvier1945 déduite. La date1844 concerne le tracé, pas une ouverture présumée. Ne pas transférer le triage à Tours ni reprendre les TGV actuels.",
+    "statut": "texte_lu_2026-10-05"
+   },
+   "verification_ether": {
+    "statut": "passages_cibles_lus",
+    "date": "2026-10-05",
+    "limite": "Rôle urbain historique documenté ; aucune capacité, desserte exacte ni continuité du trafic au 1er janvier1945 déduite. La date1844 concerne le tracé, pas une ouverture présumée. Ne pas transférer le triage à Tours ni reprendre les TGV actuels."
+   }
+  },
+  {
+   "source_id": "src-audit1x-gb-swindon",
+   "niveau": "B",
+   "type_source": "histoire_institutionnelle",
+   "titre": "Former GWR works entrance, pedestrian subway and former carriage trimming shop",
+   "institution": "Historic England",
+   "url": "https://historicengland.org.uk/listing/the-list/list-entry/1355905",
+   "date_consultation": "2026-10-05",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "industrie",
+    "rail"
+   ],
+   "cibles": [
+    "ville-gb-swindon"
+   ],
+   "locator": "History, trois premiers paragraphes ; Reasons for Designation",
+   "resume_passage": "The Great Western Railway works in Swindon were established in 1841 ... At its peak in 1925, the workforce numbered over 14,000.",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "notes": "Proposée par Ether (audit transversal 1.x, 05/10/2026). Rôle urbain historique documenté ; aucune capacité, desserte exacte ni continuité du trafic au 1er janvier1945 déduite. Réparations et fabrication locales ; effectif de1925 non attribué à1945. Q200942 est la ville du Wiltshire, distincte du borough et du village homonyme du Gloucestershire. Relecture Claude 05/10/2026 : Tout est confirmé.",
+   "usage": [
+    "Les ateliers GWR et leur cité sont établis dans les années1840 ; l’usine produit et répare du matériel ferroviaire, avec un pic d’emploi en1925."
+   ],
+   "note": "Rôle urbain historique documenté ; aucune capacité, desserte exacte ni continuité du trafic au 1er janvier1945 déduite. Réparations et fabrication locales ; effectif de1925 non attribué à1945. Q200942 est la ville du Wiltshire, distincte du borough et du village homonyme du Gloucestershire.",
+   "lecture_ether": {
+    "ce_que_dit_la_source": "Les ateliers GWR et leur cité sont établis dans les années1840 ; l’usine produit et répare du matériel ferroviaire, avec un pic d’emploi en1925.",
+    "ou_lire": "History, trois premiers paragraphes ; Reasons for Designation",
+    "limites": "Rôle urbain historique documenté ; aucune capacité, desserte exacte ni continuité du trafic au 1er janvier1945 déduite. Réparations et fabrication locales ; effectif de1925 non attribué à1945. Q200942 est la ville du Wiltshire, distincte du borough et du village homonyme du Gloucestershire.",
+    "statut": "texte_lu_2026-10-05"
+   },
+   "verification_ether": {
+    "statut": "passages_cibles_lus",
+    "date": "2026-10-05",
+    "limite": "Rôle urbain historique documenté ; aucune capacité, desserte exacte ni continuité du trafic au 1er janvier1945 déduite. Réparations et fabrication locales ; effectif de1925 non attribué à1945. Q200942 est la ville du Wiltshire, distincte du borough et du village homonyme du Gloucestershire."
+   }
+  },
+  {
+   "source_id": "src-audit1x-fr-tours",
+   "niveau": "B",
+   "type_source": "histoire_institutionnelle",
+   "titre": "Gares et réseau ferré — Tours, Rennes, Limoges et Lyon Perrache",
+   "institution": "SNCF Patrimoine",
+   "url": "https://patrimoine.sncf.com/gares-et-reseau-ferre/",
+   "date_consultation": "2026-10-05",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "rail"
+   ],
+   "cibles": [
+    "ville-fr-tours",
+    "ville-fr-rennes",
+    "ville-fr-limoges",
+    "ville-fr-lyon"
+   ],
+   "locator": "Sections Gare de Tours ; Poste d’aiguillage de Rennes ; Gare de Limoges ; Le poste d’aiguillage de Lyon Perrache",
+   "resume_passage": "la construction, de 1896 à 1898, de la gare monumentale / Le poste central de Rennes date de 1941",
+   "archive_locale": null,
+   "verification_claude": "limite",
+   "notes": "Proposée par Ether (audit transversal 1.x, 05/10/2026). Rôle urbain historique documenté ; aucune capacité, desserte exacte ni continuité du trafic au 1er janvier1945 déduite. Ne pas déplacer le triage de Saint-Pierre-des-Corps à Tours. PDF SNCF sans texte et capture en erreur : preuve retenue sur la page HTML lue. Relecture Claude 05/10/2026 : Tours et Rennes prouvés ; Limoges (sujet de la phrase non nommé dans l'extrait) et Lyon-Perrache (non nommé) non confirmés.",
+   "usage": [
+    "Rail local daté : Tours1896–1898, poste de Rennes1941, gare de Limoges1929, poste de LyonPerrache1934."
+   ],
+   "note": "Rôle urbain historique documenté ; aucune capacité, desserte exacte ni continuité du trafic au 1er janvier1945 déduite. Ne pas déplacer le triage de Saint-Pierre-des-Corps à Tours. PDF SNCF sans texte et capture en erreur : preuve retenue sur la page HTML lue.",
+   "lecture_ether": {
+    "ce_que_dit_la_source": "La page décrit des équipements ferroviaires anciens : Tours1896–1898, Rennes1941, Limoges1929 et LyonPerrache1934.",
+    "ou_lire": "Sections Gare de Tours ; Poste d’aiguillage de Rennes ; Gare de Limoges ; Le poste d’aiguillage de Lyon Perrache",
+    "limites": "Rôle urbain historique documenté ; aucune capacité, desserte exacte ni continuité du trafic au 1er janvier1945 déduite. Ne pas déplacer le triage de Saint-Pierre-des-Corps à Tours. PDF SNCF sans texte et capture en erreur : preuve retenue sur la page HTML lue.",
+    "statut": "texte_lu_2026-10-05"
+   },
+   "verification_ether": {
+    "statut": "passages_cibles_lus",
+    "date": "2026-10-05",
+    "limite": "Rôle urbain historique documenté ; aucune capacité, desserte exacte ni continuité du trafic au 1er janvier1945 déduite. Ne pas déplacer le triage de Saint-Pierre-des-Corps à Tours. PDF SNCF sans texte et capture en erreur : preuve retenue sur la page HTML lue."
+   },
+   "confirmations_claude": {
+    "ville-fr-tours": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (audit transversal 1.x) : la construction, de 1896 à 1898, de la gare monumentale / Le poste central de Rennes date de 1941",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_audit_1x.json"
+    },
+    "ville-fr-rennes": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (audit transversal 1.x) : la construction, de 1896 à 1898, de la gare monumentale / Le poste central de Rennes date de 1941",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_audit_1x.json"
+    }
+   }
+  },
+  {
+   "source_id": "src-audit1x-ruppenthal-ii3",
+   "niveau": "B",
+   "type_source": "histoire_institutionnelle",
+   "titre": "Ruppenthal, Logistical Support of the Armies, II, chapitre III",
+   "institution": "U.S. Army, Office/Center of Military History ; transcription HyperWar, ibiblio",
+   "url": "https://www.ibiblio.org/hyperwar/USA/USA-E-Logistics2/USA-E-Logistics2-3.html",
+   "date_consultation": "2026-10-05",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "base_navale",
+    "port_maritime",
+    "transatlantique"
+   ],
+   "cibles": [
+    "ville-fr-cherbourg",
+    "ville-fr-brest"
+   ],
+   "locator": "III §3 The Role of Cherbourg, p.62–66 ; III §1, p.51–52",
+   "resume_passage": "the only port in Allied hands which possessed facilities even partially adapted to handling such cargo was Cherbourg",
+   "archive_locale": null,
+   "verification_claude": "limite",
+   "notes": "Proposée par Ether (audit transversal 1.x, 05/10/2026). Histoire institutionnelle rétrospective lue dans la transcription HTML ; les archives originales citées ne sont pas toutes collationnées. Ne pas anticiper les passages de janvier–mai1945 ni étendre une preuve de rôle aux capacités du Snapshot. Relecture Claude 05/10/2026 : Cherbourg : port en service en 1944 (base navale non dite). Brest : port rendu inutilisable (destruction, pas de rôle à prouver).",
+   "usage": [
+    "rôles urbains locaux datés ; portée limitée aux passages antérieurs au Snapshot"
+   ],
+   "note": "Histoire institutionnelle rétrospective lue dans la transcription HTML ; les archives originales citées ne sont pas toutes collationnées. Ne pas anticiper les passages de janvier–mai1945 ni étendre une preuve de rôle aux capacités du Snapshot.",
+   "lecture_ether": {
+    "ce_que_dit_la_source": "Le chapitre décrit la réhabilitation de Cherbourg et l’abandon de l’emploi logistique américain de Brest après les destructions de1944.",
+    "ou_lire": "III §3 The Role of Cherbourg, p.62–66 ; III §1, p.51–52",
+    "limites": "Histoire institutionnelle rétrospective lue dans la transcription HTML ; les archives originales citées ne sont pas toutes collationnées. Ne pas anticiper les passages de janvier–mai1945 ni étendre une preuve de rôle aux capacités du Snapshot.",
+    "statut": "texte_lu_2026-10-05"
+   },
+   "notice_editeur": "https://history.army.mil/Publications/Publications-Catalog/Logistical-Support-of-the-Armies/",
+   "verification_ether": {
+    "statut": "passages_cibles_lus",
+    "date": "2026-10-05",
+    "limite": "Histoire institutionnelle rétrospective lue dans la transcription HTML ; les archives originales citées ne sont pas toutes collationnées. Ne pas anticiper les passages de janvier–mai1945 ni étendre une preuve de rôle aux capacités du Snapshot."
+   },
+   "confirmations_claude": {
+    "ville-fr-cherbourg": {
+     "roles": [
+      "port_maritime"
+     ],
+     "lecture": "relu par Claude (audit transversal 1.x) : the only port in Allied hands which possessed facilities even partially adapted to handling such cargo was Cherbourg",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_audit_1x.json"
+    }
+   }
+  },
+  {
+   "source_id": "src-audit1x-ruppenthal-ii4",
+   "niveau": "B",
+   "type_source": "histoire_institutionnelle",
+   "titre": "Ruppenthal, Logistical Support of the Armies, II, chapitre IV",
+   "institution": "U.S. Army, Office/Center of Military History ; transcription HyperWar, ibiblio",
+   "url": "https://www.ibiblio.org/hyperwar/USA/USA-E-Logistics2/USA-E-Logistics2-4.html",
+   "date_consultation": "2026-10-05",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "port_maritime"
+   ],
+   "cibles": [
+    "ville-fr-lehavre",
+    "ville-fr-rouen",
+    "ville-be-anvers",
+    "ville-fr-marseille",
+    "ville-fr-toulon"
+   ],
+   "locator": "IV §1 p.96–103 ; §2 ouverture28novembre ; §3 p.119–123",
+   "resume_passage": "The long-awaited opening of the port finally took place on 28 November, when the James B. Weaver, a Liberty ship...was berthed.",
+   "archive_locale": null,
+   "verification_claude": "limite",
+   "notes": "Proposée par Ether (audit transversal 1.x, 05/10/2026). Histoire institutionnelle rétrospective lue dans la transcription HTML ; les archives originales citées ne sont pas toutes collationnées. Ne pas anticiper les passages de janvier–mai1945 ni étendre une preuve de rôle aux capacités du Snapshot. Relecture Claude 05/10/2026 : Le Havre, Rouen, Anvers prouvés ; Marseille et Toulon absents de cette page.",
+   "usage": [
+    "rôles urbains locaux datés ; portée limitée aux passages antérieurs au Snapshot"
+   ],
+   "note": "Histoire institutionnelle rétrospective lue dans la transcription HTML ; les archives originales citées ne sont pas toutes collationnées. Ne pas anticiper les passages de janvier–mai1945 ni étendre une preuve de rôle aux capacités du Snapshot.",
+   "lecture_ether": {
+    "ce_que_dit_la_source": "Le chapitre décrit les ports du Havre, de Rouen, d’Anvers et de Marseille en fonctionnement à l’automne1944. Toulon est décrit séparément avec ses dommages de guerre.",
+    "ou_lire": "IV §1 p.96–103 ; §2 ouverture28novembre ; §3 p.119–123",
+    "limites": "Histoire institutionnelle rétrospective lue dans la transcription HTML ; les archives originales citées ne sont pas toutes collationnées. Ne pas anticiper les passages de janvier–mai1945 ni étendre une preuve de rôle aux capacités du Snapshot.",
+    "statut": "texte_lu_2026-10-05"
+   },
+   "notice_editeur": "https://history.army.mil/Publications/Publications-Catalog/Logistical-Support-of-the-Armies/",
+   "verification_ether": {
+    "statut": "passages_cibles_lus",
+    "date": "2026-10-05",
+    "limite": "Histoire institutionnelle rétrospective lue dans la transcription HTML ; les archives originales citées ne sont pas toutes collationnées. Ne pas anticiper les passages de janvier–mai1945 ni étendre une preuve de rôle aux capacités du Snapshot."
+   },
+   "confirmations_claude": {
+    "ville-fr-lehavre": {
+     "roles": [
+      "port_maritime"
+     ],
+     "lecture": "relu par Claude (audit transversal 1.x) : The long-awaited opening of the port finally took place on 28 November, when the James B. Weaver, a Liberty ship...was berthed.",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_audit_1x.json"
+    },
+    "ville-fr-rouen": {
+     "roles": [
+      "port_maritime"
+     ],
+     "lecture": "relu par Claude (audit transversal 1.x) : The long-awaited opening of the port finally took place on 28 November, when the James B. Weaver, a Liberty ship...was berthed.",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_audit_1x.json"
+    },
+    "ville-be-anvers": {
+     "roles": [
+      "port_maritime"
+     ],
+     "lecture": "relu par Claude (audit transversal 1.x) : The long-awaited opening of the port finally took place on 28 November, when the James B. Weaver, a Liberty ship...was berthed.",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_audit_1x.json"
+    }
+   }
+  },
+  {
+   "source_id": "src-audit1x-ruppenthal-ii5",
+   "niveau": "B",
+   "type_source": "histoire_institutionnelle",
+   "titre": "Ruppenthal, Logistical Support of the Armies, II, chapitre V",
+   "institution": "U.S. Army, Office/Center of Military History ; transcription HyperWar, ibiblio",
+   "url": "https://www.ibiblio.org/hyperwar/USA/USA-E-Logistics2/USA-E-Logistics2-5.html",
+   "date_consultation": "2026-10-05",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "port_fluvial",
+    "rail"
+   ],
+   "cibles": [
+    "ville-fr-paris",
+    "ville-fr-metz",
+    "ville-be-liege",
+    "ville-be-charleroi",
+    "ville-be-namur",
+    "ville-fr-lyon",
+    "ville-fr-dijon"
+   ],
+   "locator": "V §2 p.148–149 et156 ; §4 p.165–166",
+   "resume_passage": "one via Soissons, Laon, and Hirson to Charleroi, where it tied in with the northern line; and a third extending directly east of Paris via Sezanne and Sommesous to the Nancy-Metz-Verdun triangle.",
+   "archive_locale": null,
+   "verification_claude": "limite",
+   "notes": "Proposée par Ether (audit transversal 1.x, 05/10/2026). Histoire institutionnelle rétrospective lue dans la transcription HTML ; les archives originales citées ne sont pas toutes collationnées. Ne pas anticiper les passages de janvier–mai1945 ni étendre une preuve de rôle aux capacités du Snapshot. Relecture Claude 05/10/2026 : Seuls Charleroi et Metz nommés ; Paris (barges du 18/11/1944), Liège, Namur, Lyon, Dijon non retrouvés par l'outil.",
+   "usage": [
+    "rôles urbains locaux datés ; portée limitée aux passages antérieurs au Snapshot"
+   ],
+   "note": "Histoire institutionnelle rétrospective lue dans la transcription HTML ; les archives originales citées ne sont pas toutes collationnées. Ne pas anticiper les passages de janvier–mai1945 ni étendre une preuve de rôle aux capacités du Snapshot.",
+   "lecture_ether": {
+    "ce_que_dit_la_source": "Le chapitre nomme les liaisons ferroviaires rétablies en1944 et l’arrivée de barges de charbon à Paris en novembre. Le canal de Tancarville n’est réparé qu’en mars1945.",
+    "ou_lire": "V §2 p.148–149 et156 ; §4 p.165–166",
+    "limites": "Histoire institutionnelle rétrospective lue dans la transcription HTML ; les archives originales citées ne sont pas toutes collationnées. Ne pas anticiper les passages de janvier–mai1945 ni étendre une preuve de rôle aux capacités du Snapshot.",
+    "statut": "texte_lu_2026-10-05"
+   },
+   "notice_editeur": "https://history.army.mil/Publications/Publications-Catalog/Logistical-Support-of-the-Armies/",
+   "verification_ether": {
+    "statut": "passages_cibles_lus",
+    "date": "2026-10-05",
+    "limite": "Histoire institutionnelle rétrospective lue dans la transcription HTML ; les archives originales citées ne sont pas toutes collationnées. Ne pas anticiper les passages de janvier–mai1945 ni étendre une preuve de rôle aux capacités du Snapshot."
+   },
+   "confirmations_claude": {
+    "ville-be-charleroi": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (audit transversal 1.x) : one via Soissons, Laon, and Hirson to Charleroi, where it tied in with the northern line; and a third extending directly east of Paris via Sezanne and Sommesous to the Nancy-Metz-Verdun triangle.",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_audit_1x.json"
+    },
+    "ville-fr-metz": {
+     "roles": [
+      "rail"
+     ],
+     "lecture": "relu par Claude (audit transversal 1.x) : one via Soissons, Laon, and Hirson to Charleroi, where it tied in with the northern line; and a third extending directly east of Paris via Sezanne and Sommesous to the Nancy-Metz-Verdun triangle.",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_audit_1x.json"
+    }
+   }
+  },
+  {
+   "source_id": "src-audit1x-ruppenthal-i3",
+   "niveau": "B",
+   "type_source": "histoire_institutionnelle",
+   "titre": "Ruppenthal, Logistical Support of the Armies, I, chapitre III",
+   "institution": "U.S. Army, Office/Center of Military History ; transcription HyperWar, ibiblio",
+   "url": "https://www.ibiblio.org/hyperwar/USA/USA-E-Logistics1/USA-E-Logistics1-3.html",
+   "date_consultation": "2026-10-05",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "port_maritime"
+   ],
+   "cibles": [
+    "ville-gb-londres",
+    "ville-gb-liverpool",
+    "ville-gb-glasgow",
+    "ville-gb-hull",
+    "ville-gb-southampton",
+    "ville-gb-plymouth",
+    "ville-gb-cardiff",
+    "ville-gb-manchester"
+   ],
+   "locator": "III, organisation des zones, p.145–147, ports britanniques avantmai1944",
+   "resume_passage": "",
+   "archive_locale": null,
+   "verification_claude": "faible",
+   "notes": "Proposée par Ether (audit transversal 1.x, 05/10/2026). Histoire institutionnelle rétrospective lue dans la transcription HTML ; les archives originales citées ne sont pas toutes collationnées. Ne pas anticiper les passages de janvier–mai1945 ni étendre une preuve de rôle aux capacités du Snapshot. Relecture Claude 05/10/2026 : Aucun des huit ports n'est nommé dans la page relue par l'outil.",
+   "usage": [
+    "rôles urbains locaux datés ; portée limitée aux passages antérieurs au Snapshot"
+   ],
+   "note": "Histoire institutionnelle rétrospective lue dans la transcription HTML ; les archives originales citées ne sont pas toutes collationnées. Ne pas anticiper les passages de janvier–mai1945 ni étendre une preuve de rôle aux capacités du Snapshot.",
+   "lecture_ether": {
+    "ce_que_dit_la_source": "Le chapitre décrit les ports de la Clyde, de la Mersey, du canal de Bristol et du sud britannique utilisés pour le déploiement américain avantjuin1944. Il distingue les ports locaux des ensembles d’estuaire.",
+    "ou_lire": "III, organisation des zones, p.145–147, ports britanniques avantmai1944",
+    "limites": "Histoire institutionnelle rétrospective lue dans la transcription HTML ; les archives originales citées ne sont pas toutes collationnées. Ne pas anticiper les passages de janvier–mai1945 ni étendre une preuve de rôle aux capacités du Snapshot.",
+    "statut": "texte_lu_2026-10-05"
+   },
+   "notice_editeur": "https://history.army.mil/Publications/Publications-Catalog/Logistical-Support-of-the-Armies/",
+   "verification_ether": {
+    "statut": "passages_cibles_lus",
+    "date": "2026-10-05",
+    "limite": "Histoire institutionnelle rétrospective lue dans la transcription HTML ; les archives originales citées ne sont pas toutes collationnées. Ne pas anticiper les passages de janvier–mai1945 ni étendre une preuve de rôle aux capacités du Snapshot."
+   }
+  },
+  {
+   "source_id": "src-audit1x-portsmouth-hansard1946",
+   "niveau": "A",
+   "type_source": "reponse_parlementaire",
+   "titre": "Portsmouth Dockyard (Personnel), Hansard,16avril1946",
+   "institution": "Parlement du Royaume-Uni, Hansard",
+   "url": "https://api.parliament.uk/historic-hansard/written-answers/1946/apr/16/portsmouth-dockyard-personnel",
+   "date_consultation": "2026-10-05",
+   "periode_couverte": [],
+   "zones": [],
+   "usages_atlas": [
+    "base_navale"
+   ],
+   "cibles": [
+    "ville-gb-portsmouth"
+   ],
+   "locator": "Tableau, ligne25th March1944, colonnes432W–434W",
+   "resume_passage": "Portsmouth Dockyard ... 25th March 1944 ... 17,172",
+   "archive_locale": null,
+   "verification_claude": "limite",
+   "notes": "Proposée par Ether (audit transversal 1.x, 05/10/2026). Réponse parlementaire de1946 donnant des données datées de1944 ; aucune valeur de1945–1946 reportée au Snapshot. Le tableau de personnel ne fournit pas une capacité portuaire. Relecture Claude 05/10/2026 : Effectifs de l'arsenal au 25 mars 1944 : arsenal en activité ; « base navale » non dite en toutes lettres.",
+   "usage": [
+    "rôles urbains locaux datés ; portée limitée aux passages antérieurs au Snapshot"
+   ],
+   "note": "Réponse parlementaire de1946 donnant des données datées de1944 ; aucune valeur de1945–1946 reportée au Snapshot. Le tableau de personnel ne fournit pas une capacité portuaire.",
+   "lecture_ether": {
+    "ce_que_dit_la_source": "La réponse parlementaire donne les effectifs de l’arsenal de Portsmouth au25mars1944. Elle atteste une activité navale locale, sans fournir un état de capacité portuaire au Snapshot.",
+    "ou_lire": "Tableau, ligne25th March1944, colonnes432W–434W",
+    "limites": "Réponse parlementaire de1946 donnant des données datées de1944 ; aucune valeur de1945–1946 reportée au Snapshot. Le tableau de personnel ne fournit pas une capacité portuaire.",
+    "statut": "texte_lu_2026-10-05"
+   },
+   "verification_ether": {
+    "statut": "passages_cibles_lus",
+    "date": "2026-10-05",
+    "limite": "Réponse parlementaire de1946 donnant des données datées de1944 ; aucune valeur de1945–1946 reportée au Snapshot. Le tableau de personnel ne fournit pas une capacité portuaire."
+   },
+   "confirmations_claude": {
+    "ville-gb-portsmouth": {
+     "roles": [
+      "base_navale"
+     ],
+     "lecture": "relu par Claude (audit transversal 1.x) : Portsmouth Dockyard ... 25th March 1944 ... 17,172",
+     "date": "2026-10-05",
+     "verification": "data/sources/verifications_claude/2026-10-05_villes_audit_1x.json"
+    }
+   }
   }
  ]
 }

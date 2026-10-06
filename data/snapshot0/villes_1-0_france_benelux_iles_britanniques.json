@@ -24,7 +24,8 @@
         "Noms français pour l'affichage (Douvres, Édimbourg, Flessingue, Nimègue, La Haye…), nom local conservé.",
         "« Zeebruges / Bruges » : les deux, séparés (Ether, 30/09). Zeebruges deviendra une entité port quand la couche infrastructures arrivera.",
         "v0.3 (30/09) : sources des rôles ajoutées (delta d'Ether vérifié) pour Versailles, Den Helder, Bruges, Zeebruges, Lorient, La Rochelle, Royan, Saint-Nazaire.",
-        "v0.2 (30/09) : 12 villes ajoutées après l'audit d'Ether (Bruges, Lorient, La Rochelle, Royan, Toulon, Versailles, Den Helder, Groningue, Londonderry, Leeds, Sheffield, Aberdeen) ; Reims retirée : elle entre au ratissage de février 1945 (Guizmo). Quand Ether hésite (« C/B »), la première lettre est retenue."
+        "v0.2 (30/09) : 12 villes ajoutées après l'audit d'Ether (Bruges, Lorient, La Rochelle, Royan, Toulon, Versailles, Den Helder, Groningue, Londonderry, Leeds, Sheffield, Aberdeen) ; Reims retirée : elle entre au ratissage de février 1945 (Guizmo). Quand Ether hésite (« C/B »), la première lettre est retenue.",
+        "Audit transversal 1.x d'Ether (05/10/2026) : 23 relations documentaires ajoutées à 22 villes (Ruppenthal, Logistical Support of the Armies I et II ; SNCF/patrimoine ferroviaire ; Hansard 1946 pour Portsmouth), relues par Claude (registre v1.30) ; rien n'est remplacé ni retiré ; phrases d'Ether ajoutées aux notes seulement pour les sources confirmées (outils/villes/appliquer_audit_1x.py)."
       ]
     }
   },
@@ -70,6 +71,11 @@
               "source_id": "src-wikidata",
               "locator": "Q90",
               "usage": "position (coordonnées)"
+            },
+            {
+              "source_id": "src-audit1x-ruppenthal-ii5",
+              "locator": "V §2 p.148–149 ; §4 p.165–166",
+              "usage": "rail, port_fluvial — Paris : voies de ravitaillement ferroviaires et arrivée de barges de charbon le18novembre1944. (lecture partielle)"
             }
           ]
         }
@@ -113,6 +119,11 @@
               "source_id": "src-wikidata",
               "locator": "Q23482",
               "usage": "position (coordonnées)"
+            },
+            {
+              "source_id": "src-audit1x-ruppenthal-ii4",
+              "locator": "IV §3 p.121–123, remise en service et15septembre1944",
+              "usage": "port_maritime — Marseille reçoit un Liberty à quai le15septembre1944 après réhabilitation du port. (lecture partielle)"
             }
           ]
         }
@@ -157,6 +168,16 @@
               "source_id": "src-wikidata",
               "locator": "Q456",
               "usage": "position (coordonnées)"
+            },
+            {
+              "source_id": "src-audit1x-fr-tours",
+              "locator": "Le poste d’aiguillage de Lyon Perrache, achevé1934",
+              "usage": "preuve locale du rôle rail historique (lecture partielle)"
+            },
+            {
+              "source_id": "src-audit1x-ruppenthal-ii5",
+              "locator": "V §2 p.156",
+              "usage": "rail — L’axe ferroviaire depuis Marseille atteint Lyon en septembre1944. (lecture partielle)"
             }
           ]
         }
@@ -276,7 +297,7 @@
               "transatlantique",
               "port_fluvial"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.0) : port océanique, Seine, transatlantique. Rôles à sourcer."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.0) : port océanique, Seine, transatlantique. Rôles à sourcer. Audit 1.x d'Ether : Le Havre reçoit des Liberty ships en octobre1944 et décharge du ravitaillement en novembre. Ni capacité précise au1erjanvier ni rétablissement complet du port déduits."
           },
           "geometrie": {
             "type": "Point",
@@ -290,6 +311,11 @@
               "source_id": "src-wikidata",
               "locator": "Q42810",
               "usage": "position (coordonnées)"
+            },
+            {
+              "source_id": "src-audit1x-ruppenthal-ii4",
+              "locator": "IV §1 p.102–103",
+              "usage": "port_maritime — Le Havre reçoit des Liberty ships en octobre1944 et décharge du ravitaillement en novembre. (page relue par Claude pour cette ville : port_maritime)"
             }
           ]
         }
@@ -545,7 +571,7 @@
               "port_fluvial",
               "port_maritime"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.0) : port fluvial-maritime de la Seine, axe Paris-Manche. Rôles à sourcer."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.0) : port fluvial-maritime de la Seine, axe Paris-Manche. Rôles à sourcer. Audit 1.x d'Ether : Rouen décharge du ravitaillement en octobre–décembre1944, avec des navires de faible tirant d’eau. Ni capacité précise au1erjanvier ni rétablissement complet du port déduits."
           },
           "geometrie": {
             "type": "Point",
@@ -559,6 +585,11 @@
               "source_id": "src-wikidata",
               "locator": "Q30974",
               "usage": "position (coordonnées)"
+            },
+            {
+              "source_id": "src-audit1x-ruppenthal-ii4",
+              "locator": "IV §1 p.102–103, photographie4décembre1944",
+              "usage": "port_maritime — Rouen décharge du ravitaillement en octobre–décembre1944, avec des navires de faible tirant d’eau. (page relue par Claude pour cette ville : port_maritime)"
             }
           ]
         }
@@ -603,6 +634,11 @@
               "source_id": "src-wikidata",
               "locator": "Q3667188",
               "usage": "position (coordonnées)"
+            },
+            {
+              "source_id": "src-audit1x-ruppenthal-ii3",
+              "locator": "III §3 p.62–66",
+              "usage": "port_maritime, base_navale, transatlantique — Cherbourg est décrit comme ancien port de voyageurs et base navale, puis port logistique réhabilité en1944. (page relue par Claude pour cette ville : port_maritime)"
             }
           ]
         }
@@ -646,6 +682,11 @@
               "source_id": "src-wikidata",
               "locator": "Q12193",
               "usage": "position (coordonnées)"
+            },
+            {
+              "source_id": "src-audit1x-ruppenthal-ii3",
+              "locator": "III §1 p.51–52, enquête après capture",
+              "usage": "port_maritime — L’enquête de septembre1944 décrit un port rendu inutilisable ; son développement logistique américain est abandonné. (lecture partielle)"
             }
           ]
         }
@@ -676,7 +717,7 @@
               "industrie",
               "frontalier"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.0) : rail, Lorraine industrielle, Allemagne/Luxembourg. Rôles à sourcer."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.0) : rail, Lorraine industrielle, Allemagne/Luxembourg. Rôles à sourcer. Audit 1.x d'Ether : Metz est nommée dans le triangle desservi par la ligne orientale ouverte fin septembre1944."
           },
           "geometrie": {
             "type": "Point",
@@ -690,6 +731,11 @@
               "source_id": "src-wikidata",
               "locator": "Q22690",
               "usage": "position (coordonnées)"
+            },
+            {
+              "source_id": "src-audit1x-ruppenthal-ii5",
+              "locator": "V §2 p.148–149",
+              "usage": "rail — Metz est nommée dans le triangle desservi par la ligne orientale ouverte fin septembre1944. (page relue par Claude pour cette ville : rail)"
             }
           ]
         }
@@ -860,7 +906,7 @@
               "port_maritime",
               "industrie"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.0) : port majeur européen, Escaut, industrie, hinterland allemand. Rôles à sourcer."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.0) : port majeur européen, Escaut, industrie, hinterland allemand. Rôles à sourcer. Audit 1.x d'Ether : Anvers ouvre au trafic allié le28novembre1944 ; le chapitre décrit son exploitation en décembre. Ni capacité précise au1erjanvier ni rétablissement complet du port déduits."
           },
           "geometrie": {
             "type": "Point",
@@ -874,6 +920,11 @@
               "source_id": "src-wikidata",
               "locator": "Q12892",
               "usage": "position (coordonnées)"
+            },
+            {
+              "source_id": "src-audit1x-ruppenthal-ii4",
+              "locator": "IV §2, paragraphe du James B. Weaver,28novembre1944",
+              "usage": "port_maritime — Anvers ouvre au trafic allié le28novembre1944 ; le chapitre décrit son exploitation en décembre. (page relue par Claude pour cette ville : port_maritime)"
             }
           ]
         }
@@ -923,6 +974,11 @@
               "source_id": "src-wikidata",
               "locator": "Q3992",
               "usage": "position (coordonnées)"
+            },
+            {
+              "source_id": "src-audit1x-ruppenthal-ii5",
+              "locator": "V §2 p.148–149",
+              "usage": "rail — Liège est une tête de ligne de ravitaillement en1944. (lecture partielle)"
             }
           ]
         }
@@ -1001,7 +1057,7 @@
               "charbon",
               "rail"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.0) : industrie lourde, bassin charbonnier, rail. Rôles à sourcer."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.0) : industrie lourde, bassin charbonnier, rail. Rôles à sourcer. Audit 1.x d'Ether : Charleroi est la jonction de deux lignes de ravitaillement en1944."
           },
           "geometrie": {
             "type": "Point",
@@ -1015,6 +1071,11 @@
               "source_id": "src-natural-earth-populated-places",
               "locator": "Charleroi",
               "usage": "position (coordonnées)"
+            },
+            {
+              "source_id": "src-audit1x-ruppenthal-ii5",
+              "locator": "V §2 p.148–149",
+              "usage": "rail — Charleroi est la jonction de deux lignes de ravitaillement en1944. (page relue par Claude pour cette ville : rail)"
             }
           ]
         }
@@ -1157,6 +1218,11 @@
               "source_id": "src-wikidata",
               "locator": "Q134121",
               "usage": "position (coordonnées)"
+            },
+            {
+              "source_id": "src-audit1x-ruppenthal-ii5",
+              "locator": "V §2 p.148–149",
+              "usage": "rail — Namur est nommée sur la liaison ferroviaire vers Liège en1944. (lecture partielle)"
             }
           ]
         }
@@ -1745,6 +1811,11 @@
               "source_id": "src-wikidata",
               "locator": "Q84",
               "usage": "position (coordonnées)"
+            },
+            {
+              "source_id": "src-audit1x-ruppenthal-i3",
+              "locator": "III p.145–147, paragraphes des ports britanniques",
+              "usage": "port_maritime — Port nommé dans les réceptions de troupes ou de fret américaines avantjuin1944. (lecture partielle)"
             }
           ]
         }
@@ -1789,6 +1860,11 @@
               "source_id": "src-wikidata",
               "locator": "Q24826",
               "usage": "position (coordonnées)"
+            },
+            {
+              "source_id": "src-audit1x-ruppenthal-i3",
+              "locator": "III p.145–147, paragraphes des ports britanniques",
+              "usage": "port_maritime — Port nommé dans les réceptions de troupes ou de fret américaines avantjuin1944. (lecture partielle)"
             }
           ]
         }
@@ -1832,6 +1908,11 @@
               "source_id": "src-wikidata",
               "locator": "Q18125",
               "usage": "position (coordonnées)"
+            },
+            {
+              "source_id": "src-audit1x-ruppenthal-i3",
+              "locator": "III p.145–147, paragraphes des ports britanniques",
+              "usage": "port_maritime — Port nommé dans les réceptions de troupes ou de fret américaines avantjuin1944. (lecture partielle)"
             }
           ]
         }
@@ -1919,6 +2000,11 @@
               "source_id": "src-wikidata",
               "locator": "Q4093",
               "usage": "position (coordonnées)"
+            },
+            {
+              "source_id": "src-audit1x-ruppenthal-i3",
+              "locator": "III p.145–147, paragraphes des ports britanniques",
+              "usage": "port_maritime — Port nommé dans les réceptions de troupes ou de fret américaines avantjuin1944. (lecture partielle)"
             }
           ]
         }
@@ -2061,6 +2147,11 @@
               "source_id": "src-wikidata",
               "locator": "Q128147",
               "usage": "position (coordonnées)"
+            },
+            {
+              "source_id": "src-audit1x-ruppenthal-i3",
+              "locator": "III p.145–147, paragraphes des ports britanniques",
+              "usage": "port_maritime — Port nommé dans les réceptions de troupes ou de fret américaines avantjuin1944. (lecture partielle)"
             }
           ]
         }
@@ -2104,6 +2195,11 @@
               "source_id": "src-wikidata",
               "locator": "Q79848",
               "usage": "position (coordonnées)"
+            },
+            {
+              "source_id": "src-audit1x-ruppenthal-i3",
+              "locator": "III p.145–147, paragraphes des ports britanniques",
+              "usage": "port_maritime — Port nommé dans les réceptions de troupes ou de fret américaines avantjuin1944. (lecture partielle)"
             }
           ]
         }
@@ -2132,7 +2228,7 @@
             "roles": [
               "base_navale"
             ],
-            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.0) : grande base navale. Rôles à sourcer."
+            "note": "Rôle dans l'Atlas (Ether, ratissage villes 1.0) : grande base navale. Rôles à sourcer. Audit 1.x d'Ether : L’arsenal naval de Portsmouth possède des effectifs employés recensés au25mars1944."
           },
           "geometrie": {
             "type": "Point",
@@ -2146,6 +2242,11 @@
               "source_id": "src-wikidata",
               "locator": "Q72259",
               "usage": "position (coordonnées)"
+            },
+            {
+              "source_id": "src-audit1x-portsmouth-hansard1946",
+              "locator": "Tableau, ligne25th March1944",
+              "usage": "base_navale — L’arsenal naval de Portsmouth possède des effectifs employés recensés au25mars1944. (page relue par Claude pour cette ville : base_navale)"
             }
           ]
         }
@@ -2281,6 +2382,11 @@
               "source_id": "src-wikidata",
               "locator": "Q10690",
               "usage": "position (coordonnées)"
+            },
+            {
+              "source_id": "src-audit1x-ruppenthal-i3",
+              "locator": "III p.145–147, paragraphes des ports britanniques",
+              "usage": "port_maritime — Port nommé dans les réceptions de troupes ou de fret américaines avantjuin1944. (lecture partielle)"
             }
           ]
         }
@@ -2368,6 +2474,11 @@
               "source_id": "src-wikidata",
               "locator": "Q43382",
               "usage": "position (coordonnées)"
+            },
+            {
+              "source_id": "src-audit1x-ruppenthal-i3",
+              "locator": "III p.145–147, paragraphes des ports britanniques",
+              "usage": "port_maritime — Port nommé dans les réceptions de troupes ou de fret américaines avantjuin1944. (lecture partielle)"
             }
           ]
         }
@@ -3015,6 +3126,11 @@
               "source_id": "src-wikidata",
               "locator": "Q44160",
               "usage": "position (coordonnées)"
+            },
+            {
+              "source_id": "src-audit1x-ruppenthal-ii4",
+              "locator": "IV §3 p.119–122",
+              "usage": "port_maritime — Toulon est un objectif portuaire en août1944 ; ses dommages conduisent à privilégier la restauration de Marseille. (lecture partielle)"
             }
           ]
         }

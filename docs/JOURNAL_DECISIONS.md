@@ -2,6 +2,12 @@
 
 Une ligne par décision, datée. Plus récente en haut. Ce journal remplace les versions éparpillées dans les conversations : si ce n'est pas ici, ce n'est pas décidé.
 
+## 2026-10-06 (nuit : réponses au 1.9, cycle 2, et audit transversal des villes 1.x)
+
+- **Lot 1.9 v0.2** : 4 sources nouvelles et 12 compléments d'Ether, ajoutés sans rien remplacer ; captures d'Avilés, Andorre-la-Vieille et Saint-Marin, pages de PDF (Eibar, Figueras, Jerez, Armada note 17) et 4 nouvelles captures Forcano lues par Claude. « À renforcer » 70 → 49. Q19-01 et Q19-02 closes, restes en réserve (R19-C2-01 à R19-C2-18). *(Ether + Claude)*
+- **Audit transversal 1.x d'Ether intégré** : 15 villes ajoutées (gares frontières, ports corses, nœuds ferroviaires français et britanniques ; fichier `villes_1-x_audit_complements.json`) et 23 relations documentaires sur 22 villes du lot 1.0. 18 sources nouvelles (7 confirmées). **L'Atlas compte 1 559 villes.** Registre v1.30 (887 sources). Nouvelle question Q19-03 (sources de l'audit illisibles ou partielles). 299 dossiers de réserve d'Ether gardés pour la revue finale. *(Ether + Claude)*
+- Réveil interrompu du 05/10 (17 h 20, après la fusion et la construction) repris le 06/10 : validations de Guizmo, validateur, documentation et envoi. *(Claude)*
+
 ## 2026-10-05 (fin d'après-midi : réponses au 1.8, cycle 3)
 
 - **Lot 1.8 v0.3** : 5 sources nouvelles d'Ether ajoutées sans rien remplacer ; rail prouvé pour Ploiești, Buzău, Brăila, Tecuci, Fabriano et Cancello Arnone (page 36 d'EX LIBRIS et captures du rapport RE lues par Claude) ; Spolète reste « À renforcer » (page refusée à l'outil). « À renforcer » 26 → 20. Registre v1.28. *(Ether + Claude)*

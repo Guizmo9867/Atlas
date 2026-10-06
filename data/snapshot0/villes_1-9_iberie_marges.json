@@ -3,7 +3,7 @@
     "nom": "snapshot0_villes_1-9_iberie_marges",
     "date_reference": "1945-01-01",
     "heure_reference": "00:00",
-    "version": "0.1",
+    "version": "0.2",
     "statut": "integre_par_claude",
     "gabarit_source": "gabarits/gabarit_entite_temporelle_atlas.json",
     "zone": [
@@ -63,7 +63,8 @@
         "Données : JSON d'Ether (238 villes : ES 158, PT 61, CY 7, MT 5, AD 2, SM 2, GI 1, VA 1, MC 1), IDs déjà au code du pays actuel ; 3 noms de 1945 dans l'état (El Ferrol del Caudillo, Mahón, Puerto Cabras), nom actuel sur la fiche ; aucun nom_local ; 10 candidats différés non importés (Canfranc, Chinchilla, La Encina, Bobadilla, Moreda, Casa Branca, Tua, Pocinho, Cabeço de Vide, Estella-Lizarra).",
         "Positions : QID Wikidata (CC0) d'Ether recoupés par SPARQL : aucun écart > 1 km, pays cohérents ; aucun ID commun avec les 1306 villes déjà intégrées ; Cité du Vatican à côté de Rome (entités distinctes).",
         "Capitales : « nationale » pour Madrid, Lisbonne, Andorre-la-Vieille, Saint-Marin ; « territoire » pour Nicosie et La Valette ; Monaco et Vatican sans champ capitale (réserve d'Ether). Code pays « sm » ajouté au lexique.",
-        "Preuves : carte Forcano 1942 lue par Claude sur 19 captures déposées par Ether (167 villes lues sur une ligne exploitée) ; 34 pages en ligne relues par WebFetch ; mentions « (non vérifiée par Claude) », « (lecture partielle) » ou « (page relue par Claude pour cette ville) » ; « À renforcer » = rôles sans aucune preuve confirmée."
+        "Preuves : carte Forcano 1942 lue par Claude sur 19 captures déposées par Ether (167 villes lues sur une ligne exploitée) ; 34 pages en ligne relues par WebFetch ; mentions « (non vérifiée par Claude) », « (lecture partielle) » ou « (page relue par Claude pour cette ville) » ; « À renforcer » = rôles sans aucune preuve confirmée.",
+        "v0.2 (05/10/2026, réponses d'Ether cycle 2, Q19-01 et Q19-02) : 4 sources nouvelles (gares de Séville, Eibar, Figueras, ligne de Jerez de los Caballeros) et 12 compléments, relus par Claude (registre v1.29) : captures d'Avilés, d'Andorre-la-Vieille et de Saint-Marin, pages de PDF d'Eibar, Figueras, Jerez et de la revue de l'Armada (note 17, p. 100), nouvelles captures Forcano (Riotinto, Tharsis, Fregenal, Setúbal) lues par Claude ; Treccani (Espagne, Portugal, Chypre, Malte), chronologie CP et IBCC relus par WebFetch. Sources ajoutées sans rien remplacer (32 opérations, 29 villes) ; phrases d'Ether ajoutées aux notes seulement pour les sources confirmées ; notes de Horta et Senglea corrigées (texte ciblé), localisateur de Horta corrigé. Mentions de preuve et « À renforcer » recalculés."
       ]
     }
   },
@@ -789,7 +790,7 @@
               "port_maritime",
               "industrie"
             ],
-            "note": "Ville ou localité desservie sur le tracé exploité de la carte ; service de fin 1944 non certifié. Port explicitement nommé dans la notice de 1936. Construction navale. Implantation attestée en 1936 ; activité et volumes de fin 1944 non déduits. Fonctions attestées avant le Snapshot ; continuité, volumes et capacités de fin 1944 non déduits. Repère actuel Wikidata Q8818 ; centre de 1945 non certifié (R19-01). À renforcer : industrie."
+            "note": "Ville ou localité desservie sur le tracé exploité de la carte ; service de fin 1944 non certifié. Port explicitement nommé dans la notice de 1936. Construction navale. Implantation attestée en 1936 ; activité et volumes de fin 1944 non déduits. Fonctions attestées avant le Snapshot ; continuité, volumes et capacités de fin 1944 non déduits. Repère actuel Wikidata Q8818 ; centre de 1945 non certifié (R19-01)."
           },
           "geometrie": {
             "type": "Point",
@@ -807,12 +808,12 @@
             {
               "source_id": "src-19-es-treccani1936",
               "locator": "Comunicazioni — ports et lignes maritimes",
-              "usage": "port_maritime (page relue par Claude pour cette ville : port_maritime)"
+              "usage": "port_maritime (page relue par Claude pour cette ville : industrie, port_maritime)"
             },
             {
               "source_id": "src-19-es-treccani1936",
               "locator": "Industrie et minéraux — villes nommées",
-              "usage": "industrie (page relue par Claude pour cette ville : port_maritime)"
+              "usage": "industrie (page relue par Claude pour cette ville : industrie, port_maritime)"
             },
             {
               "source_id": "src-wikidata",
@@ -1582,7 +1583,7 @@
               "base_navale",
               "industrie"
             ],
-            "note": "Ville ou localité desservie sur le tracé exploité de la carte ; service de fin 1944 non certifié. Port explicitement nommé dans la notice de 1936. Arsenaux et ateliers locaux ; gestion transitoire jusqu’en 1940–1941, pas de Bazán 1947 anticipée. Fonctions attestées avant le Snapshot ; continuité, volumes et capacités de fin 1944 non déduits. Repère actuel Wikidata Q162615 ; centre de 1945 non certifié (R19-01). À renforcer : port_maritime, base_navale, industrie."
+            "note": "Ville ou localité desservie sur le tracé exploité de la carte ; service de fin 1944 non certifié. Port explicitement nommé dans la notice de 1936. Arsenaux et ateliers locaux ; gestion transitoire jusqu’en 1940–1941, pas de Bazán 1947 anticipée. Fonctions attestées avant le Snapshot ; continuité, volumes et capacités de fin 1944 non déduits. Repère actuel Wikidata Q162615 ; centre de 1945 non certifié (R19-01)."
           },
           "geometrie": {
             "type": "Point",
@@ -1600,12 +1601,12 @@
             {
               "source_id": "src-19-es-treccani1936",
               "locator": "Comunicazioni — ports et lignes maritimes",
-              "usage": "port_maritime (lecture partielle)"
+              "usage": "port_maritime (page relue par Claude pour cette ville : port_maritime)"
             },
             {
               "source_id": "src-19-es-armada-secn",
               "locator": "p.100 note17, 1909–1941",
-              "usage": "base_navale, industrie ; passage indexé, image non collationnée (lecture partielle)"
+              "usage": "base_navale, industrie ; passage indexé, image non collationnée (page relue par Claude pour cette ville : base_navale, construction_navale, industrie)"
             },
             {
               "source_id": "src-wikidata",
@@ -1641,7 +1642,7 @@
               "rail",
               "port_maritime"
             ],
-            "note": "Ville ou localité desservie sur le tracé exploité de la carte ; service de fin 1944 non certifié. Port explicitement nommé dans la notice de 1936. Fonctions attestées avant le Snapshot ; continuité, volumes et capacités de fin 1944 non déduits. Repère actuel Wikidata Q10400 ; centre de 1945 non certifié (R19-01). À renforcer : port_maritime."
+            "note": "Ville ou localité desservie sur le tracé exploité de la carte ; service de fin 1944 non certifié. Port explicitement nommé dans la notice de 1936. Fonctions attestées avant le Snapshot ; continuité, volumes et capacités de fin 1944 non déduits. Repère actuel Wikidata Q10400 ; centre de 1945 non certifié (R19-01)."
           },
           "geometrie": {
             "type": "Point",
@@ -1659,7 +1660,7 @@
             {
               "source_id": "src-19-es-treccani1936",
               "locator": "Comunicazioni — ports et lignes maritimes",
-              "usage": "port_maritime (lecture partielle)"
+              "usage": "port_maritime (page relue par Claude pour cette ville : port_maritime)"
             },
             {
               "source_id": "src-wikidata",
@@ -1749,7 +1750,7 @@
               "industrie",
               "port_fluvial"
             ],
-            "note": "Ville ou localité desservie sur le tracé exploité de la carte ; service de fin 1944 non certifié. Port explicitement nommé dans la notice de 1936. Armement. Implantation attestée en 1936 ; activité et volumes de fin 1944 non déduits. Port maritime intérieur et accès fluvial aménagé avant le Snapshot. Fonctions attestées avant le Snapshot ; continuité, volumes et capacités de fin 1944 non déduits. Repère actuel Wikidata Q8717 ; centre de 1945 non certifié (R19-01). À renforcer : rail."
+            "note": "Ville ou localité desservie sur le tracé exploité de la carte ; service de fin 1944 non certifié. Port explicitement nommé dans la notice de 1936. Armement. Implantation attestée en 1936 ; activité et volumes de fin 1944 non déduits. Port maritime intérieur et accès fluvial aménagé avant le Snapshot. Fonctions attestées avant le Snapshot ; continuité, volumes et capacités de fin 1944 non déduits. Repère actuel Wikidata Q8717 ; centre de 1945 non certifié (R19-01). Réponse d'Ether (cycle 2) : Le rapport date l’inauguration de la gare Plaza de Armas de Séville du 18 mars 1901 et sa fonction ferroviaire jusqu’en 1990."
           },
           "geometrie": {
             "type": "Point",
@@ -1783,6 +1784,11 @@
               "source_id": "src-wikidata",
               "locator": "Q8717 — P625 ; 2026-10-05_ether_WD_groupe_20.json",
               "usage": "position actuelle (repère), recoupée par Claude ; aucune preuve de rôle historique"
+            },
+            {
+              "source_id": "src-19-c2-seville-gare",
+              "locator": "Page PDF4, p.715 imprimée, Reseña histórica del edificio, derniers paragraphes.",
+              "usage": "rail ; rail historique ; Texte indexé lu ; téléchargement refusé au certificat, aucune image locale prétendue. Le rôle historique est local, pas un service précis de fin 1944."
             }
           ]
         }
@@ -1813,7 +1819,7 @@
               "rail",
               "port_maritime"
             ],
-            "note": "Ville ou localité desservie sur le tracé exploité de la carte ; service de fin 1944 non certifié. Port explicitement nommé dans la notice de 1936. Fonctions attestées avant le Snapshot ; continuité, volumes et capacités de fin 1944 non déduits. Repère actuel Wikidata Q12246 ; centre de 1945 non certifié (R19-01). À renforcer : port_maritime."
+            "note": "Ville ou localité desservie sur le tracé exploité de la carte ; service de fin 1944 non certifié. Port explicitement nommé dans la notice de 1936. Fonctions attestées avant le Snapshot ; continuité, volumes et capacités de fin 1944 non déduits. Repère actuel Wikidata Q12246 ; centre de 1945 non certifié (R19-01)."
           },
           "geometrie": {
             "type": "Point",
@@ -1831,7 +1837,7 @@
             {
               "source_id": "src-19-es-treccani1936",
               "locator": "Comunicazioni — ports et lignes maritimes",
-              "usage": "port_maritime (lecture partielle)"
+              "usage": "port_maritime (page relue par Claude pour cette ville : port_maritime)"
             },
             {
               "source_id": "src-wikidata",
@@ -1915,7 +1921,7 @@
               "rail",
               "industrie"
             ],
-            "note": "Ville ou localité desservie sur le tracé exploité de la carte ; service de fin 1944 non certifié. Cuivre. Implantation attestée en 1936 ; activité et volumes de fin 1944 non déduits. Fonctions attestées avant le Snapshot ; continuité, volumes et capacités de fin 1944 non déduits. Repère actuel Wikidata Q923830 ; centre de 1945 non certifié (R19-01). À renforcer : rail."
+            "note": "Ville ou localité desservie sur le tracé exploité de la carte ; service de fin 1944 non certifié. Cuivre. Implantation attestée en 1936 ; activité et volumes de fin 1944 non déduits. Fonctions attestées avant le Snapshot ; continuité, volumes et capacités de fin 1944 non déduits. Repère actuel Wikidata Q923830 ; centre de 1945 non certifié (R19-01)."
           },
           "geometrie": {
             "type": "Point",
@@ -1928,7 +1934,7 @@
             {
               "source_id": "src-19-iberie-forcano1942",
               "locator": "1942 ; zone Andalousie occidentale ; libellé local de Minas de Riotinto",
-              "usage": "rail (lecture partielle)"
+              "usage": "rail (page relue par Claude pour cette ville : rail)"
             },
             {
               "source_id": "src-19-es-treccani1936",
@@ -1969,7 +1975,7 @@
               "rail",
               "industrie"
             ],
-            "note": "Ville ou localité desservie sur le tracé exploité de la carte ; service de fin 1944 non certifié. Cuivre. Implantation attestée en 1936 ; activité et volumes de fin 1944 non déduits. Fonctions attestées avant le Snapshot ; continuité, volumes et capacités de fin 1944 non déduits. Repère actuel Wikidata Q9086636 ; centre de 1945 non certifié (R19-01). À renforcer : rail."
+            "note": "Ville ou localité desservie sur le tracé exploité de la carte ; service de fin 1944 non certifié. Cuivre. Implantation attestée en 1936 ; activité et volumes de fin 1944 non déduits. Fonctions attestées avant le Snapshot ; continuité, volumes et capacités de fin 1944 non déduits. Repère actuel Wikidata Q9086636 ; centre de 1945 non certifié (R19-01)."
           },
           "geometrie": {
             "type": "Point",
@@ -1982,7 +1988,7 @@
             {
               "source_id": "src-19-iberie-forcano1942",
               "locator": "1942 ; zone Andalousie occidentale ; libellé local de Tharsis",
-              "usage": "rail (lecture partielle)"
+              "usage": "rail (page relue par Claude pour cette ville : rail)"
             },
             {
               "source_id": "src-19-es-treccani1936",
@@ -2709,7 +2715,7 @@
               "administration",
               "port_maritime"
             ],
-            "note": "Ville ou localité desservie sur le tracé exploité de la carte ; service de fin 1944 non certifié. Chef-lieu de district attesté dans la notice de 1935. Port local nommé avant le Snapshot. Fonctions attestées avant le Snapshot ; continuité, volumes et capacités de fin 1944 non déduits. Repère actuel Wikidata Q173699 ; centre de 1945 non certifié (R19-01). À renforcer : rail."
+            "note": "Ville ou localité desservie sur le tracé exploité de la carte ; service de fin 1944 non certifié. Chef-lieu de district attesté dans la notice de 1935. Port local nommé avant le Snapshot. Fonctions attestées avant le Snapshot ; continuité, volumes et capacités de fin 1944 non déduits. Repère actuel Wikidata Q173699 ; centre de 1945 non certifié (R19-01)."
           },
           "geometrie": {
             "type": "Point",
@@ -2722,7 +2728,7 @@
             {
               "source_id": "src-19-iberie-forcano1942",
               "locator": "1942 ; zone Lisbonne et Alentejo ; libellé local de Setúbal",
-              "usage": "rail (lecture partielle)"
+              "usage": "rail (page relue par Claude pour cette ville : rail)"
             },
             {
               "source_id": "src-19-pt-treccani1935",
@@ -2738,6 +2744,11 @@
               "source_id": "src-wikidata",
               "locator": "Q173699 — P625 ; 2026-10-05_ether_WD_groupe_40.json",
               "usage": "position actuelle (repère), recoupée par Claude ; aucune preuve de rôle historique"
+            },
+            {
+              "source_id": "src-19-pt-cp-chronologie",
+              "locator": "01/02/1861 : Setúbal–Pinhal Novo",
+              "usage": "rail ; Rôle urbain historique seulement ; ni horaires, ni capacité, ni continuité exacte du service au Snapshot établis. (page relue par Claude pour cette ville : rail)"
             }
           ]
         }
@@ -3651,7 +3662,7 @@
             "roles": [
               "rail"
             ],
-            "note": "Ville ou localité desservie sur le tracé exploité de la carte ; service de fin 1944 non certifié. Fonctions attestées avant le Snapshot ; continuité, volumes et capacités de fin 1944 non déduits. Repère actuel Wikidata Q1613587 ; centre de 1945 non certifié (R19-01). À renforcer : rail."
+            "note": "Ville ou localité desservie sur le tracé exploité de la carte ; service de fin 1944 non certifié. Fonctions attestées avant le Snapshot ; continuité, volumes et capacités de fin 1944 non déduits. Repère actuel Wikidata Q1613587 ; centre de 1945 non certifié (R19-01)."
           },
           "geometrie": {
             "type": "Point",
@@ -3664,7 +3675,7 @@
             {
               "source_id": "src-19-iberie-forcano1942",
               "locator": "1942 ; zone Estrémadure ; libellé local de Fregenal de la Sierra",
-              "usage": "rail (lecture partielle)"
+              "usage": "rail (page relue par Claude pour cette ville : rail)"
             },
             {
               "source_id": "src-wikidata",
@@ -3699,7 +3710,7 @@
             "roles": [
               "rail"
             ],
-            "note": "Ville ou localité desservie sur le tracé exploité de la carte ; service de fin 1944 non certifié. Fonctions attestées avant le Snapshot ; continuité, volumes et capacités de fin 1944 non déduits. Repère actuel Wikidata Q1153945 ; centre de 1945 non certifié (R19-01). À renforcer : rail."
+            "note": "Ville ou localité desservie sur le tracé exploité de la carte ; service de fin 1944 non certifié. Fonctions attestées avant le Snapshot ; continuité, volumes et capacités de fin 1944 non déduits. Repère actuel Wikidata Q1153945 ; centre de 1945 non certifié (R19-01). Réponse d'Ether (cycle 2) : La chronologie donne une circulation provisoire et conditionnelle dès le 15 novembre 1936 pour exploiter des gisements de fer. Elle signale aussi une date du 23 novembre 1936 issue d’une autre référence."
           },
           "geometrie": {
             "type": "Point",
@@ -3718,6 +3729,11 @@
               "source_id": "src-wikidata",
               "locator": "Q1153945 — P625 ; 2026-10-05_ether_WD_groupe_60.json",
               "usage": "position actuelle (repère), recoupée par Claude ; aucune preuve de rôle historique"
+            },
+            {
+              "source_id": "src-19-c2-jerez-ffe",
+              "locator": "p.52 imprimée / PDF52, première ligne du tableau Zafra–Jerez de los Caballeros et note (1), AHF-C/0338/001.",
+              "usage": "rail ; rail historique ; Le document d’archives cité n’a pas été relu directement. La carte Forcano ne suffit pas à valider l’exploitation ; ni inauguration solennelle ni service voyageurs régulier en 1945 déduits."
             }
           ]
         }
@@ -3934,7 +3950,7 @@
               "rail",
               "administration"
             ],
-            "note": "Ville ou localité desservie sur le tracé exploité de la carte ; service de fin 1944 non certifié. Chef-lieu de district attesté dans la notice de 1935. Fonctions attestées avant le Snapshot ; continuité, volumes et capacités de fin 1944 non déduits. Repère actuel Wikidata Q503856 ; centre de 1945 non certifié (R19-01). À renforcer : rail, administration."
+            "note": "Ville ou localité desservie sur le tracé exploité de la carte ; service de fin 1944 non certifié. Chef-lieu de district attesté dans la notice de 1935. Fonctions attestées avant le Snapshot ; continuité, volumes et capacités de fin 1944 non déduits. Repère actuel Wikidata Q503856 ; centre de 1945 non certifié (R19-01). À renforcer : administration."
           },
           "geometrie": {
             "type": "Point",
@@ -3958,6 +3974,11 @@
               "source_id": "src-wikidata",
               "locator": "Q503856 — P625 ; 2026-10-05_ether_WD_groupe_80.json",
               "usage": "position actuelle (repère), recoupée par Claude ; aucune preuve de rôle historique"
+            },
+            {
+              "source_id": "src-19-pt-cp-chronologie",
+              "locator": "12/05/1906 : Régua–Vila Real",
+              "usage": "rail ; Rôle urbain historique seulement ; ni horaires, ni capacité, ni continuité exacte du service au Snapshot établis. (page relue par Claude pour cette ville : rail)"
             }
           ]
         }
@@ -4036,7 +4057,7 @@
               "rail",
               "administration"
             ],
-            "note": "Ville ou localité desservie sur le tracé exploité de la carte ; service de fin 1944 non certifié. Chef-lieu de district attesté dans la notice de 1935. Fonctions attestées avant le Snapshot ; continuité, volumes et capacités de fin 1944 non déduits. Repère actuel Wikidata Q768261 ; centre de 1945 non certifié (R19-01). À renforcer : rail, administration."
+            "note": "Ville ou localité desservie sur le tracé exploité de la carte ; service de fin 1944 non certifié. Chef-lieu de district attesté dans la notice de 1935. Fonctions attestées avant le Snapshot ; continuité, volumes et capacités de fin 1944 non déduits. Repère actuel Wikidata Q768261 ; centre de 1945 non certifié (R19-01). À renforcer : administration."
           },
           "geometrie": {
             "type": "Point",
@@ -4060,6 +4081,11 @@
               "source_id": "src-wikidata",
               "locator": "Q768261 — P625 ; 2026-10-05_ether_WD_precis_20.json",
               "usage": "position actuelle (repère), recoupée par Claude ; aucune preuve de rôle historique"
+            },
+            {
+              "source_id": "src-19-pt-cp-chronologie",
+              "locator": "01/12/1906 : gare de Bragança",
+              "usage": "rail ; Rôle urbain historique seulement ; ni horaires, ni capacité, ni continuité exacte du service au Snapshot établis. (page relue par Claude pour cette ville : rail)"
             }
           ]
         }
@@ -4300,7 +4326,7 @@
               "base_navale",
               "industrie"
             ],
-            "note": "Ville ou localité desservie sur le tracé exploité de la carte ; service de fin 1944 non certifié. Arsenaux et ateliers locaux ; gestion transitoire jusqu’en 1940–1941, pas de Bazán 1947 anticipée. Fonctions attestées avant le Snapshot ; continuité, volumes et capacités de fin 1944 non déduits. Repère actuel Wikidata Q485329 ; centre de 1945 non certifié (R19-01). Nom à la date : El Ferrol del Caudillo (aujourd'hui Ferrol). À renforcer : base_navale, industrie.",
+            "note": "Ville ou localité desservie sur le tracé exploité de la carte ; service de fin 1944 non certifié. Arsenaux et ateliers locaux ; gestion transitoire jusqu’en 1940–1941, pas de Bazán 1947 anticipée. Fonctions attestées avant le Snapshot ; continuité, volumes et capacités de fin 1944 non déduits. Repère actuel Wikidata Q485329 ; centre de 1945 non certifié (R19-01). Nom à la date : El Ferrol del Caudillo (aujourd'hui Ferrol).",
             "nom": "El Ferrol del Caudillo"
           },
           "geometrie": {
@@ -4319,7 +4345,7 @@
             {
               "source_id": "src-19-es-armada-secn",
               "locator": "p.100 note17, 1909–1941",
-              "usage": "base_navale, industrie ; passage indexé, image non collationnée (lecture partielle)"
+              "usage": "base_navale, industrie ; passage indexé, image non collationnée (page relue par Claude pour cette ville : base_navale, construction_navale, industrie)"
             },
             {
               "source_id": "src-wikidata",
@@ -4897,7 +4923,7 @@
               "rail",
               "port_maritime"
             ],
-            "note": "Ville ou localité desservie sur le tracé exploité de la carte ; service de fin 1944 non certifié. Rôle portuaire ancien, sans anticiper ENSIDESA. Fonctions attestées avant le Snapshot ; continuité, volumes et capacités de fin 1944 non déduits. Repère actuel Wikidata Q14649 ; centre de 1945 non certifié (R19-01). À renforcer : port_maritime."
+            "note": "Ville ou localité desservie sur le tracé exploité de la carte ; service de fin 1944 non certifié. Rôle portuaire ancien, sans anticiper ENSIDESA. Fonctions attestées avant le Snapshot ; continuité, volumes et capacités de fin 1944 non déduits. Repère actuel Wikidata Q14649 ; centre de 1945 non certifié (R19-01)."
           },
           "geometrie": {
             "type": "Point",
@@ -4915,7 +4941,7 @@
             {
               "source_id": "src-19-es-aviles-port",
               "locator": "Commerce charbonnier et organisation de 1915",
-              "usage": "port_maritime (non vérifiée par Claude)"
+              "usage": "port_maritime"
             },
             {
               "source_id": "src-wikidata",
@@ -6003,7 +6029,7 @@
             "roles": [
               "rail"
             ],
-            "note": "Ville ou localité desservie sur le tracé exploité de la carte ; service de fin 1944 non certifié. Fonctions attestées avant le Snapshot ; continuité, volumes et capacités de fin 1944 non déduits. Repère actuel Wikidata Q496567 ; centre de 1945 non certifié (R19-01). À renforcer : rail."
+            "note": "Ville ou localité desservie sur le tracé exploité de la carte ; service de fin 1944 non certifié. Fonctions attestées avant le Snapshot ; continuité, volumes et capacités de fin 1944 non déduits. Repère actuel Wikidata Q496567 ; centre de 1945 non certifié (R19-01). Réponse d'Ether (cycle 2) : L’étude établit une gare propre à Eibar dès l’ouverture de 1887 et décrit sa réforme de 1941. La date 1909 de la façade correspond à un agrandissement."
           },
           "geometrie": {
             "type": "Point",
@@ -6022,6 +6048,11 @@
               "source_id": "src-wikidata",
               "locator": "Q496567 — P625 ; 2026-10-05_ether_WD_groupe_120.json",
               "usage": "position actuelle (repère), recoupée par Claude ; aucune preuve de rôle historique"
+            },
+            {
+              "source_id": "src-19-c2-eibar-gare",
+              "locator": "PDF p.1, premiers et derniers paragraphes ; p.2, réforme de 1941.",
+              "usage": "rail ; rail historique ; Ne pas confondre Eibar avec Málzaga ni transférer à sa gare la fermeture de l’arrêt d’Ardanza."
             }
           ]
         }
@@ -6553,7 +6584,7 @@
             "roles": [
               "rail"
             ],
-            "note": "Ville ou localité desservie sur le tracé exploité de la carte ; service de fin 1944 non certifié. Fonctions attestées avant le Snapshot ; continuité, volumes et capacités de fin 1944 non déduits. Repère actuel Wikidata Q6839 ; centre de 1945 non certifié (R19-01). À renforcer : rail."
+            "note": "Ville ou localité desservie sur le tracé exploité de la carte ; service de fin 1944 non certifié. Fonctions attestées avant le Snapshot ; continuité, volumes et capacités de fin 1944 non déduits. Repère actuel Wikidata Q6839 ; centre de 1945 non certifié (R19-01). Réponse d'Ether (cycle 2) : L’article date l’arrivée du premier train à Figueres du 28 octobre 1877. Il replace la desserte dans la liaison vers la frontière française."
           },
           "geometrie": {
             "type": "Point",
@@ -6572,6 +6603,11 @@
               "source_id": "src-wikidata",
               "locator": "Q6839 — P625 ; 2026-10-05_ether_WD_groupe_120.json",
               "usage": "position actuelle (repère), recoupée par Claude ; aucune preuve de rôle historique"
+            },
+            {
+              "source_id": "src-19-c2-figueras-gare",
+              "locator": "p.393 imprimée / PDF1, première colonne de texte en haut à droite.",
+              "usage": "rail ; rail historique ; Première page du scan lue ; ne pas extrapoler horaires ou franchissement ouvert au Snapshot."
             }
           ]
         }
@@ -6707,7 +6743,7 @@
               "port_maritime",
               "industrie"
             ],
-            "note": "Ville ou localité desservie sur le tracé exploité de la carte ; service de fin 1944 non certifié. Port explicitement nommé dans la notice de 1936. Chimie et mécanique. Implantation attestée en 1936 ; activité et volumes de fin 1944 non déduits. Fonctions attestées avant le Snapshot ; continuité, volumes et capacités de fin 1944 non déduits. Repère actuel Wikidata Q1492 ; centre de 1945 non certifié (R19-01). À renforcer : port_maritime."
+            "note": "Ville ou localité desservie sur le tracé exploité de la carte ; service de fin 1944 non certifié. Port explicitement nommé dans la notice de 1936. Chimie et mécanique. Implantation attestée en 1936 ; activité et volumes de fin 1944 non déduits. Fonctions attestées avant le Snapshot ; continuité, volumes et capacités de fin 1944 non déduits. Repère actuel Wikidata Q1492 ; centre de 1945 non certifié (R19-01)."
           },
           "geometrie": {
             "type": "Point",
@@ -6725,12 +6761,12 @@
             {
               "source_id": "src-19-es-treccani1936",
               "locator": "Comunicazioni — ports et lignes maritimes",
-              "usage": "port_maritime (page relue par Claude pour cette ville : industrie)"
+              "usage": "port_maritime (page relue par Claude pour cette ville : industrie, port_maritime)"
             },
             {
               "source_id": "src-19-es-treccani1936",
               "locator": "Industrie et minéraux — villes nommées",
-              "usage": "industrie (page relue par Claude pour cette ville : industrie)"
+              "usage": "industrie (page relue par Claude pour cette ville : industrie, port_maritime)"
             },
             {
               "source_id": "src-wikidata",
@@ -8979,7 +9015,7 @@
             "roles": [
               "rail"
             ],
-            "note": "Tracé exploité identifié dans la capture régionale. Fonctions attestées avant le Snapshot ; continuité, volumes et capacités de fin 1944 non déduits. Repère actuel Wikidata Q170903 ; centre de 1945 non certifié (R19-01). À renforcer : rail."
+            "note": "Tracé exploité identifié dans la capture régionale. Fonctions attestées avant le Snapshot ; continuité, volumes et capacités de fin 1944 non déduits. Repère actuel Wikidata Q170903 ; centre de 1945 non certifié (R19-01)."
           },
           "geometrie": {
             "type": "Point",
@@ -8998,6 +9034,11 @@
               "source_id": "src-wikidata",
               "locator": "Q170903 — P625 ; 2026-10-05_ether_WD_groupe_180.json",
               "usage": "position actuelle (repère), recoupée par Claude ; aucune preuve de rôle historique"
+            },
+            {
+              "source_id": "src-19-pt-cp-chronologie",
+              "locator": "14/04/1884 : Vizela–Guimarães",
+              "usage": "rail ; Rôle urbain historique seulement ; ni horaires, ni capacité, ni continuité exacte du service au Snapshot établis. (page relue par Claude pour cette ville : rail)"
             }
           ]
         }
@@ -9752,7 +9793,7 @@
             {
               "source_id": "src-19-pt-treccani1935",
               "locator": "Industria — noms locaux",
-              "usage": "industrie (lecture partielle)"
+              "usage": "industrie (page relue par Claude pour cette ville : mines)"
             },
             {
               "source_id": "src-wikidata",
@@ -10083,7 +10124,7 @@
               "port_maritime",
               "aviation"
             ],
-            "note": "Chef-lieu du district insulaire. Trois ports explicitement distingués en 1930. Escales d’hydravions, distinctes de l’aéroport terrestre ultérieur. Fonctions attestées avant le Snapshot ; continuité, volumes et capacités de fin 1944 non déduits. Repère actuel Wikidata Q990385 ; centre de 1945 non certifié (R19-01). À renforcer : administration."
+            "note": "Chef-lieu du district insulaire. Trois ports explicitement distingués en 1930. Escales Pan American attestées depuis 1939 ; le type d’appareil et la fin du service ne sont pas établis par la lecture disponible. Fonctions attestées avant le Snapshot ; continuité, volumes et capacités de fin 1944 non déduits. Repère actuel Wikidata Q990385 ; centre de 1945 non certifié (R19-01). À renforcer : administration."
           },
           "geometrie": {
             "type": "Point",
@@ -10105,7 +10146,7 @@
             },
             {
               "source_id": "src-19-pt-horta-sata",
-              "locator": "Viagem no tempo, Pan American 1939–1945",
+              "locator": "Viagem no tempo, escales Pan American depuis 1939 ; date de fin non établie dans la lecture disponible",
               "usage": "aviation ; passage indexé, image non collationnée (page relue par Claude pour cette ville : aviation)"
             },
             {
@@ -10460,7 +10501,7 @@
             {
               "source_id": "src-19-pt-treccani1935",
               "locator": "Industria — noms locaux",
-              "usage": "industrie (lecture partielle)"
+              "usage": "industrie (page relue par Claude pour cette ville : mines)"
             },
             {
               "source_id": "src-wikidata",
@@ -10900,7 +10941,7 @@
               "siderurgie",
               "construction_navale"
             ],
-            "note": "Implantations sidérurgiques localisées avant le Snapshot. Implantations de construction navale explicitement localisées. Fonctions attestées avant le Snapshot ; continuité, volumes et capacités de fin 1944 non déduits. Repère actuel Wikidata Q909707 ; centre de 1945 non certifié (R19-01). À renforcer : construction_navale."
+            "note": "Implantations sidérurgiques localisées avant le Snapshot. Implantations de construction navale explicitement localisées. Fonctions attestées avant le Snapshot ; continuité, volumes et capacités de fin 1944 non déduits. Repère actuel Wikidata Q909707 ; centre de 1945 non certifié (R19-01)."
           },
           "geometrie": {
             "type": "Point",
@@ -10918,7 +10959,7 @@
             {
               "source_id": "src-19-es-armada-secn",
               "locator": "p.100 note17, Matagorda 1914 et Sestao 1915",
-              "usage": "industrie, construction_navale ; passage indexé, image non collationnée (lecture partielle)"
+              "usage": "industrie, construction_navale ; passage indexé, image non collationnée (page relue par Claude pour cette ville : construction_navale, industrie)"
             },
             {
               "source_id": "src-wikidata",
@@ -11005,7 +11046,7 @@
               "capitale",
               "administration"
             ],
-            "note": "Siège politique historique. Siège des sessions du Consell. Fonctions attestées avant le Snapshot ; continuité, volumes et capacités de fin 1944 non déduits. Repère actuel Wikidata Q1863 ; centre de 1945 non certifié (R19-01). À renforcer : capitale.",
+            "note": "Siège politique historique. Siège des sessions du Consell. Fonctions attestées avant le Snapshot ; continuité, volumes et capacités de fin 1944 non déduits. Repère actuel Wikidata Q1863 ; centre de 1945 non certifié (R19-01).",
             "capitale": "nationale"
           },
           "geometrie": {
@@ -11019,7 +11060,7 @@
             {
               "source_id": "src-19-ad-capitale",
               "locator": "Capitalitat ; Casa de la Vall",
-              "usage": "capitale, administration (non vérifiée par Claude)"
+              "usage": "capitale, administration"
             },
             {
               "source_id": "src-19-ad-consell-histoire",
@@ -11761,7 +11802,7 @@
               "administration",
               "port_maritime"
             ],
-            "note": "Capitale coloniale ; port urbain. Fonctions attestées avant le Snapshot ; continuité, volumes et capacités de fin 1944 non déduits. Repère actuel Wikidata Q23800 ; centre de 1945 non certifié (R19-01). À renforcer : capitale, administration, port_maritime.",
+            "note": "Capitale coloniale ; port urbain. Fonctions attestées avant le Snapshot ; continuité, volumes et capacités de fin 1944 non déduits. Repère actuel Wikidata Q23800 ; centre de 1945 non certifié (R19-01). À renforcer : capitale, administration.",
             "capitale": "territoire"
           },
           "geometrie": {
@@ -11775,7 +11816,7 @@
             {
               "source_id": "src-19-mt-treccani1934",
               "locator": "Demografia — capoluogo ; deux ports",
-              "usage": "capitale, administration, port_maritime (lecture partielle)"
+              "usage": "capitale, administration, port_maritime (page relue par Claude pour cette ville : port_maritime)"
             },
             {
               "source_id": "src-wikidata",
@@ -11861,7 +11902,7 @@
               "industrie",
               "base_navale"
             ],
-            "note": "Chantiers et équipements de réparation navale ; passage de conduites par Cospicua, Store Wharf et Church Tunnel. Fonctions attestées avant le Snapshot ; continuité, volumes et capacités de fin 1944 non déduits. Repère actuel Wikidata Q757225 ; centre de 1945 non certifié (R19-01). À renforcer : industrie, base_navale."
+            "note": "Chantiers et équipements de réparation navale ; passage de conduites par Cospicua, Store Wharf et Church Tunnel. Fonctions attestées avant le Snapshot ; continuité, volumes et capacités de fin 1944 non déduits. Repère actuel Wikidata Q757225 ; centre de 1945 non certifié (R19-01). À renforcer : base_navale."
           },
           "geometrie": {
             "type": "Point",
@@ -11874,7 +11915,7 @@
             {
               "source_id": "src-19-mt-ibcc-dockyard1943",
               "locator": "§39, décembre 1942 ; §45",
-              "usage": "industrie, base_navale (lecture partielle)"
+              "usage": "industrie, base_navale (page relue par Claude pour cette ville : industrie)"
             },
             {
               "source_id": "src-wikidata",
@@ -11912,7 +11953,7 @@
               "port_maritime",
               "militaire"
             ],
-            "note": "Approvisionnement de la ville depuis un pétrolier et liaison par l’arsenal pendant le siège. Fonctions attestées avant le Snapshot ; continuité, volumes et capacités de fin 1944 non déduits. Repère actuel Wikidata Q846593 ; centre de 1945 non certifié (R19-01). À renforcer : port_maritime, militaire."
+            "note": "Approvisionnement en eau de la ville par un navire-citerne à Senglea Marina pendant le siège ; le passage ne prouve pas un pétrolier ni une garnison urbaine permanente. Fonctions attestées avant le Snapshot ; continuité, volumes et capacités de fin 1944 non déduits. Repère actuel Wikidata Q846593 ; centre de 1945 non certifié (R19-01). À renforcer : port_maritime, militaire."
           },
           "geometrie": {
             "type": "Point",
@@ -12010,7 +12051,7 @@
               "base_navale",
               "industrie"
             ],
-            "note": "Arsenaux et ateliers locaux ; gestion transitoire jusqu’en 1940–1941, pas de Bazán 1947 anticipée. Fonctions attestées avant le Snapshot ; continuité, volumes et capacités de fin 1944 non déduits. Repère actuel Wikidata Q741765 ; centre de 1945 non certifié (R19-01). À renforcer : base_navale, industrie."
+            "note": "Arsenaux et ateliers locaux ; gestion transitoire jusqu’en 1940–1941, pas de Bazán 1947 anticipée. Fonctions attestées avant le Snapshot ; continuité, volumes et capacités de fin 1944 non déduits. Repère actuel Wikidata Q741765 ; centre de 1945 non certifié (R19-01)."
           },
           "geometrie": {
             "type": "Point",
@@ -12023,7 +12064,7 @@
             {
               "source_id": "src-19-es-armada-secn",
               "locator": "p.100 note17, 1909–1941",
-              "usage": "base_navale, industrie ; passage indexé, image non collationnée (lecture partielle)"
+              "usage": "base_navale, industrie ; passage indexé, image non collationnée (page relue par Claude pour cette ville : base_navale, industrie)"
             },
             {
               "source_id": "src-wikidata",
@@ -12059,7 +12100,7 @@
               "industrie",
               "construction_navale"
             ],
-            "note": "Implantations de construction navale explicitement localisées. Fonctions attestées avant le Snapshot ; continuité, volumes et capacités de fin 1944 non déduits. Repère actuel Wikidata Q846159 ; centre de 1945 non certifié (R19-01). À renforcer : industrie, construction_navale."
+            "note": "Implantations de construction navale explicitement localisées. Fonctions attestées avant le Snapshot ; continuité, volumes et capacités de fin 1944 non déduits. Repère actuel Wikidata Q846159 ; centre de 1945 non certifié (R19-01)."
           },
           "geometrie": {
             "type": "Point",
@@ -12072,7 +12113,7 @@
             {
               "source_id": "src-19-es-armada-secn",
               "locator": "p.100 note17, Matagorda 1914 et Sestao 1915",
-              "usage": "industrie, construction_navale ; passage indexé, image non collationnée (lecture partielle)"
+              "usage": "industrie, construction_navale ; passage indexé, image non collationnée (page relue par Claude pour cette ville : construction_navale, industrie)"
             },
             {
               "source_id": "src-wikidata",
@@ -12108,7 +12149,7 @@
               "industrie",
               "siderurgie"
             ],
-            "note": "Usine sidérurgique localisée. Fonctions attestées avant le Snapshot ; continuité, volumes et capacités de fin 1944 non déduits. Repère actuel Wikidata Q671326 ; centre de 1945 non certifié (R19-01). À renforcer : industrie, siderurgie."
+            "note": "Usine sidérurgique localisée. Fonctions attestées avant le Snapshot ; continuité, volumes et capacités de fin 1944 non déduits. Repère actuel Wikidata Q671326 ; centre de 1945 non certifié (R19-01)."
           },
           "geometrie": {
             "type": "Point",
@@ -12121,7 +12162,7 @@
             {
               "source_id": "src-19-es-armada-secn",
               "locator": "p.100 note17, 1917",
-              "usage": "industrie, siderurgie ; passage indexé, image non collationnée (lecture partielle)"
+              "usage": "industrie, siderurgie ; passage indexé, image non collationnée (page relue par Claude pour cette ville : industrie, siderurgie)"
             },
             {
               "source_id": "src-wikidata",
