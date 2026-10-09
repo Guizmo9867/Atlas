@@ -1,0 +1,52 @@
+# Publie la carte de l'Atlas sur GitHub Pages : https://guizmo9867.github.io/Atlas/
+# À chaque envoi sur main qui touche la carte ou les données (et à la demande, bouton « Run workflow »).
+name: Publier le site de l'Atlas
+
+on:
+  push:
+    branches: [main]
+    paths: ['app/**', 'data/**', '.github/workflows/publier_site.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Un seul déploiement à la fois : un nouvel envoi remplace celui en attente.
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  construire:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: app/package-lock.json
+      - name: Installer
+        working-directory: app
+        run: npm ci --no-audit --no-fund
+      - name: Vérifier les données
+        working-directory: app
+        run: node scripts/validate-data.mjs
+      - name: Construire (site servi sous /Atlas/)
+        working-directory: app
+        run: npx vite build --base /Atlas/
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: app/dist
+
+  publier:
+    needs: construire
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploiement.outputs.page_url }}
+    steps:
+      - id: deploiement
+        uses: actions/deploy-pages@v4
