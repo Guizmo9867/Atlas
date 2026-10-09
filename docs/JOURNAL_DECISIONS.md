@@ -55,6 +55,11 @@ Une ligne par décision, datée. Plus récente en haut. Ce journal remplace les 
 - **Miskolc** (décision de Guizmo « prouve pour 1945, la suite plus tard », avec un nouveau lien et une capture) : vérifiés ; deux sources ajoutées (`src-guizmo-miskolc-tortenete`, `src-guizmo-kis-miskolc-2022`) ; l'article de Kis József (2022) confirme qu'à l'arrivée soviétique Diósgyőr était une commune distincte et que le Grand Miskolc vaut à compter du 1er janvier 1945 : changement daté du 1er janvier, donc après le Snapshot 0 (Diósgyőr reste distincte). L'ancienne source, validée par Guizmo, est gardée. *(Guizmo, Claude)*
 - Sources : 49 nouvelles (28 confirmées, 57 %), registre v1.22, 758 sources ; « Sources à valider » : 267 ; fichier des réserves : 154 points. Nouvelles questions Q17-01 (sources illisibles pour l'outil) et Q17-02 (pages 1940 de Géorgie et d'Arménie). Réserves R17-01 à R17-27 gardées pour la revue finale 1.x. *(Claude)*
 
+## 2026-10-09 (l'Atlas est en ligne)
+
+- **La carte est en ligne : https://guizmo9867.github.io/Atlas/** (recette `.github/workflows/publier_site.yml` créée par Guizmo sur github.com, Pages activé). Vérifié par Claude : la page et le fond de carte répondent. Elle se met à jour à chaque envoi qui touche `app/` ou `data/`.
+- Guizmo garde la Méthode v2 ; il en parle à Ether.
+
 ## 2026-10-08 (Méthode Atlas v2 : la suite du Snapshot 0 et la chronologie)
 
 - **Méthode v2 écrite** (`docs/METHODE_ATLAS_v2.md`, copie `00_METHODE_ATLAS_v2.md` dans le dossier d'échange), validée par Guizmo dans sa conversation avec Claude, à relire avec Ether avant toute mise en route. Remplace la « méthode de ratissage v1 » d'Ether (07/10) en gardant ses règles de preuve, réservoir, raccordements et livrables. **Rien n'est lancé** : feu vert de Guizmo nécessaire pour la phase 2.

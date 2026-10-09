@@ -30,6 +30,8 @@ Pas de contact direct entre Claude et Ether : tout passe par le dossier d'échan
 - **Villes** : ID `ville-<code du pays actuel>-<slug>` ; nom actuel sur la fiche, nom de 1945 dans l'état seulement sur preuve ; « À renforcer » pour un rôle sans preuve confirmée.
 - **Coût** : Guizmo paie à l'usage. Pas de travail inutile, pas de relecture complète de gros fichiers sans besoin. Optimisation à étudier plus tard (modèle moins cher pour la boucle, vérification par échantillon).
 
+- **Carte en ligne** : https://guizmo9867.github.io/Atlas/ (mise à jour automatique à chaque envoi sur GitHub).
+
 ## 4. Où trouver le détail (à lire seulement si besoin)
 
 - `docs/JOURNAL_DECISIONS.md` : toutes les décisions, datées (lire seulement le haut).
