@@ -1,6 +1,7 @@
 # Atlas Eurasie — Méthode de ratissage v2
 
-*08/10/2026. Version validée par Guizmo dans sa conversation avec Claude, à relire avec Ether avant toute mise en route. Remplace la « Méthode de ratissage v1 » d'Ether (07/10/2026), dont elle garde tout ce qui était solide : règles de preuve, réservoir, raccordements aux frontières, livrables.*
+*v2.1 du 09/10/2026 : ajustements demandés par Ether après relecture (grille des 30 filtres, objets multimodes, importance distincte de la portée, définition des zones, volumes = cases de travail, repérage avec indice de confiance, rattachement au protocole de boucle, exemple de Parndorf corrigé).*
+*v2 du 08/10/2026. Version validée par Guizmo dans sa conversation avec Claude, relue par Ether (avis : garder la v2, préciser ces points, tester les subdivisions françaises avant d'étendre). Remplace la « Méthode de ratissage v1 » d'Ether (07/10/2026), dont elle garde tout ce qui était solide : règles de preuve, réservoir, raccordements aux frontières, livrables.*
 *Statut : **rien n'est lancé**. Le passage aux subdivisions (phase 2) et aux campagnes (phase 3) demandera un feu vert explicite de Guizmo.*
 
 ---
@@ -9,7 +10,7 @@
 
 | Mot | Ce que c'est | Change avec le temps ? |
 |---|---|---|
-| **Zone** | Découpage **de travail**, fixé une fois pour toutes sur les frontières de 2026 (59 zones). Sert seulement à savoir **où chercher**. Code = code du pays actuel (`FR`, `PL`, `RU`…), le même que dans les identifiants des villes. | Jamais |
+| **Zone** | Découpage **de travail**, fixé une fois pour toutes sur les frontières de 2026 (61 zones, voir §6). Sert seulement à savoir **où chercher**. Code = code du pays actuel (`FR`, `PL`, `RU`…), le même que dans les identifiants des villes. | Jamais |
 | **Groupe** | Regroupement de zones voisines pour la chronologie (10 groupes, §6). | Jamais |
 | **Territoire** | Ce qu'on **dessine** sur la carte à une date : la France de 1945, la Prusse-Orientale, une poche allemande, une république soviétique… | Oui, par états successifs |
 | **État** | À **qui** appartient le territoire (souveraineté) et qui le **tient** réellement (contrôle). Ce sont deux informations de la fiche du territoire. | Oui |
@@ -26,6 +27,8 @@
 
 Un objet ou un événement a **une seule fiche et un seul identifiant**, même s'il est rencontré dans plusieurs campagnes (pont frontalier, traversée, événement transfrontalier).
 
+**Objets multimodes** (pont route-rail, gare maritime, terminal port-rail, bac transportant des trains…) : une seule fiche, avec **une campagne responsable** (celle qui crée et tient la fiche) et une liste de **modes concernés** (`modes : [C2, C3]`). La fiche reste trouvable dans chaque catégorie concernée ; les autres campagnes la réutilisent sans la recréer.
+
 ## 3. Comment on le classe : catégories + thèmes + portée
 
 **Catégorie = le mode de circulation** (une catégorie principale par objet ou événement) :
@@ -40,11 +43,56 @@ Un objet ou un événement a **une seule fiche et un seul identifiant**, même s
 
 **Thèmes = étiquettes transversales**, autant que nécessaire : industrie et logistique, marchandises, militaire, **migrations**, tourisme et voyageurs, accidents, criminalité, contrôles et bilans, perturbations. Les thèmes ne créent pas de campagnes en plus : ils se posent pendant les campagnes.
 
-**Portée** de chaque événement : locale, régionale, nationale ou internationale. La vue d'ensemble montre les grands événements ; les milliers de petits apparaissent au zoom ou par filtre de thème.
+Chaque événement porte deux mesures **distinctes** :
+- **Portée** = jusqu'où il s'étend : locale, régionale, nationale, internationale ;
+- **Importance** = son poids pour les circulations : majeure, notable, mineure (justifiée par les sources et les conséquences, pas par la portée : un événement local peut être majeur, un événement international peut être mineur).
 
-> **Exemple : Parndorf.** Le 27/08/2015, 71 migrants sont retrouvés morts dans un camion sur l'autoroute A4, près de Parndorf (Autriche).
-> Événement · catégorie **Terre** (A4, camion) · thèmes **migrations, criminalité (passeurs), accident** · portée internationale · lieu : A4 près de Parndorf · date : 27/08/2015.
+La vue d'ensemble montre les événements majeurs ; les milliers d'autres apparaissent au zoom ou par filtre de thème.
+
+**Qualification et dates sourcées.** La nature d'un événement (accident, crime, attentat…) n'est posée que si une source la donne. On distingue, quand elles diffèrent, la **date des faits**, la **date de la découverte** et la **date du signalement ou du jugement**.
+
+> **Exemple : Parndorf.** Le 27/08/2015, un camion contenant les corps de 71 migrants est découvert sur l'autoroute A4, près de Parndorf (Autriche).
+> Événement · catégorie **Terre** (A4, camion) · thèmes **migrations, criminalité (passeurs)** ; l'étiquette « accident » n'est **pas** posée sans source qui la justifie · portée internationale · importance à établir · lieu : A4 près de Parndorf · **date de la découverte : 27/08/2015** ; date des faits : à établir par les sources (récit de l'ORF : https://burgenland.orf.at/magazin/stories/3171201/).
 > Seul, c'est un fait divers. Cumulé à des milliers d'autres sous le thème « migrations », il dessine la route des Balkans de 2015 : c'est la **lecture de données** que l'Atlas veut permettre.
+
+### Grille de contrôle : les 30 filtres
+
+Les catégories organisent le travail ; **la grille des 30 filtres sert à vérifier la couverture**. Chaque table de couverture (§9) reprend ces 30 lignes : aucun sujet ne peut disparaître sans laisser de trace.
+
+| N° | Filtre | Rangé dans |
+|---|---|---|
+| 1 | Régions | Subdivisions (phase 2) + C4 |
+| 2 | Départements et équivalents | Subdivisions (phase 2) + C4 |
+| 3 | Axes routiers | C2 Terre |
+| 4 | Ponts, tunnels, cols routiers | C2 Terre |
+| 5 | Installations frontalières routières (règles : C4) | C2 Terre |
+| 6 | Péages | C2 Terre |
+| 7 | Lignes ferroviaires | C3 Fer |
+| 8 | Gares voyageurs | C3 Fer |
+| 9 | Fret, triages, terminaux | C3 Fer |
+| 10 | Ports maritimes | C1 Eau |
+| 11 | Ports fluviaux | C1 Eau |
+| 12 | Voies navigables, canaux, écluses | C1 Eau |
+| 13 | Liaisons, ferries, traversées | C1 Eau |
+| 14 | Ravitaillement routier (carburant, dépôts) | C2 Terre |
+| 15 | Aires, parkings | C2 Terre |
+| 16 | Vie des routiers (repas, repos, couchage, durée des trajets) | C2 Terre |
+| 17 | Organisation du transport routier, entreprises, véhicules | C2 Terre |
+| 18 | Industrie et logistique | Thème transversal |
+| 19 | Règles générales de circulation | C4 Règles |
+| 20 | Règles professionnelles | C4 Règles |
+| 21 | Plaques d'immatriculation ordinaires | C4 Règles |
+| 22 | Plaques particulières (militaires, diplomatiques, temporaires…) | C4 Règles |
+| 23 | Marchandises | Thème transversal |
+| 24 | Circulations militaires | Thème transversal |
+| 25 | Migrations | Thème transversal |
+| 26 | Tourisme et voyageurs | Thème transversal |
+| 27 | Accidents | Thème transversal |
+| 28 | Criminalité | Thème transversal |
+| 29 | Contrôles des autorités et bilans | Thème transversal |
+| 30 | Perturbations (grèves, intempéries, destructions…) | Thème transversal |
+
+Les thèmes transversaux sont examinés dans chaque catégorie où ils comptent ; ils ne créent pas de campagne à part.
 
 ## 4. Les phases
 
@@ -68,8 +116,9 @@ Trois mécanismes, pour ne jamais supposer qu'une période est « calme » ou «
 1. **Les dates restent toujours exactes.** Le pas de temps sert seulement à découper le travail de recherche, jamais la précision de la carte (Parndorf garde son 27/08/2015).
 2. **Liste des jalons majeurs**, établie à l'avance par zone à partir de chronologies de référence (traité de Rome, Mur de Berlin, fin de l'URSS, Schengen…). Ils sont **toujours traités**, quel que soit le volume de la période : une année « vide » ne peut pas cacher un grand événement.
 3. **Repérage, puis détail.**
-   - **Repérage** : pour chaque année, une passe rapide par groupe × catégorie qui **compte** ce qu'il y a à faire et où (sans remplir de fiches).
-   - **Détail** : le pas découle de ce comptage, **groupe par groupe et catégorie par catégorie** : beaucoup → au mois ; un peu → au trimestre ; presque rien → l'année d'un coup.
+   - **Repérage** : pour chaque année, une passe rapide par groupe × catégorie qui **compte** ce qu'il y a à faire et où (sans remplir de fiches). Il donne aussi un **indice de couverture et de confiance** : quelles sortes de sources ont été consultées (archives, presse, chronologies, études), combien, dans quelles langues, et une confiance bonne / moyenne / faible.
+   - **Prudence** : une recherche rapide mesure ce qu'on a **trouvé**, pas tout ce qui **existe**. Une année peu documentée n'est pas une année calme.
+   - **Détail** : le pas découle de ce comptage **et** de la confiance, **groupe par groupe et catégorie par catégorie** : beaucoup → au mois ; un peu → au trimestre ; presque rien **avec une confiance bonne** → l'année d'un coup. Avec une confiance faible, on ne descend jamais à « l'année d'un coup » : au moins le trimestre, et la case est signalée pour une recherche complémentaire.
    - **Importance** (un seul grand événement) et **volume** (des milliers de petits faits) sont deux mesures distinctes : les jalons garantissent la première, le repérage mesure la seconde.
 
 À chaque pas : **changements d'état** des objets durables (ouverture, fermeture, destruction, reconstruction, changement de tracé ou d'exploitation, nouvelle règle, changement territorial) **et** nouveaux **événements**. Séparer, quand elles diffèrent, les dates de décision, de travaux, d'ouverture et d'entrée en vigueur. Un changement de frontière ne crée pas une nouvelle route : on garde l'objet et on lui ajoute un état.
@@ -80,11 +129,11 @@ Trois mécanismes, pour ne jamais supposer qu'une période est « calme » ou «
 2. **1 an au mois : 1945** (l'année la plus chargée). Bilan : temps et coût réels d'une campagne, gain apporté par le repérage.
 3. Décision sur ces chiffres réels → **5 ans**, puis **10 ans**, puis la suite. Ces mesures servent aussi au dossier de financement.
 
-**Volumes maximaux** (tout au mois, 4 catégories, 10 groupes ; le repérage les réduira, de combien : à mesurer en 1945) :
+**Cases de travail** (combinaisons zone ou groupe × catégorie × pas de temps). Ce sont des **cases, pas une mesure de la charge** : elles ne comptent ni les subdivisions, ni les sous-lots, ni les deux passes de détail, ni les audits, ni les corrections, ni les allers-retours avec Claude. Elles ne permettent donc pas encore de chiffrer le temps ou le coût : **c'est le pilote France, puis l'année 1945, qui mesureront ces écarts.**
 
-| Étape | Campagnes |
+| Étape | Cases |
 |---|---|
-| Reste du Snapshot 0 | subdivisions + 59 zones × 4 catégories = **236** |
+| Reste du Snapshot 0 | subdivisions (61 zones) + 61 zones × 4 catégories = **244** campagnes |
 | Repérage | 10 groupes × 4 catégories = **40 passes par an** |
 | 1 an au mois | 12 × 10 × 4 = **480** |
 | 5 ans au mois | **2 400** |
@@ -95,10 +144,21 @@ Avec l'air (C5), multiplier par 5/4. Ether peut regrouper « un groupe × un moi
 
 ## 6. Zones et groupes (proposition, à figer avec Ether)
 
+**Carte de référence des zones** : les limites des pays de *Natural Earth* (couche « admin 0 », échelle 1:10 m, domaine public), la même famille de données que le fond de carte de l'Atlas. La version utilisée est notée une fois et ne change plus.
+
+**Règles pour les cas particuliers :**
+- **Code** = code ISO 3166-1 alpha-2 du pays ou de la dépendance (`FR`, `JE`, `FO`…). Une dépendance qui a son propre code a sa propre zone (JE, GG, FO, GI ; et IM, SJ ci-dessous).
+- **Territoires disputés ou non reconnus** (Crimée, Transnistrie, Abkhazie, Ossétie du Sud, Karabakh, nord de Chypre, Kosovo…) : rangés dans la zone de l'État membre de l'ONU dont ils relèvent selon la reconnaissance internationale majoritaire, **uniquement comme repère de travail** ; la fiche de zone le signale, et l'histoire du territoire est décrite dans ses états, sans prendre parti.
+- **Marges différées** : signalées par le bilan des villes. Elles ont une zone, avec le statut « différée » tant qu'elles ne sont pas traitées, pour que la couverture reste honnête :
+  - **IM** île de Man → G01 ;
+  - **SJ** Svalbard et Jan Mayen → G02.
+- **Hors périmètre** : tout ce qui n'est pas dans la liste ci-dessous. Une liste explicite des voisins hors périmètre (avec la raison) sera écrite avec Ether, pour qu'aucune zone ne soit oubliée sans le dire.
+- Les 61 zones forment la grille de travail ; elles ne sont pas automatiquement une couverture complète : chaque zone a un statut (à faire, en cours, close avec lacunes, différée).
+
 | Groupe | Zones (codes actuels) |
 |---|---|
-| G01 Ouest | FR, GB, IE, BE, NL, LU, JE, GG, MC |
-| G02 Nord | SE, FI, NO, DK, IS, FO |
+| G01 Ouest | FR, GB, IE, BE, NL, LU, JE, GG, IM, MC |
+| G02 Nord | SE, FI, NO, DK, IS, FO, SJ |
 | G03 Centre | DE, PL, CZ, HU, SK, CH, AT, LI |
 | G04 Baltique | LV, LT, EE |
 | G05 Est | RU, UA, BY, MD |
@@ -147,6 +207,17 @@ Les lots déjà faits gardent leurs noms (`villes_1-x`, frontières `lot01` à `
 7. **Bilan** : ce qui a été examiné, ce qui manque, raccordements à vérifier, prochaine campagne.
 
 Statuts : à faire · en cours · à valider · clos avec lacunes documentées · différé (air). On ne déclare pas un thème clos parce qu'une recherche rapide n'a rien donné.
+
+## 9 bis. Exécution : le protocole de boucle reste la règle
+
+Cette méthode décrit **le contenu**. **L'exécution** reste gouvernée par les protocoles existants, sans changement :
+- côté Ether : `coordination/BOUCLE_LIVRAISON_RATISSAGE.md` (livraisons vérifiées, `PRET_ether.md`, `STATUT.json` par lot) ;
+- côté Claude : `docs/BOUCLE_AUTOMATIQUE.md` (intégration, vérification des sources, comptes rendus, `PRET_claude.md`, envoi sur GitHub) ;
+- retours de Claude par lot, questions numérotées, **réserves** gardées pour la revue finale, **plafond de 3 cycles** d'allers-retours par lot, **arrêt après l'audit** de chaque phase ;
+- **feu vert de Guizmo** pour ouvrir chaque phase (2.x, 3.x, chronologie) et chaque palier (1, 5, 10 ans) ;
+- protocole des sources (`protocole_sources_ether_claude.md`) et page « Sources à valider ».
+
+Pour préparer la France, on traite d'abord, parmi les sources à valider, celles dont dépend son découpage historique.
 
 ## 10. Avant de lancer (ordre des actions)
 
