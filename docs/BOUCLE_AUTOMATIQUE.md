@@ -33,6 +33,7 @@ Claude écrit seulement :
 
 **Feux verts** :
 - **Depuis le 02/10/2026, toute la série 1.x (couche villes du Snapshot 0, toutes zones, audit final compris) est autorisée par Guizmo**, sans feu vert par lot (voir `coordination/AUTORISATIONS_RATISSAGE.json`, `autorisation_globale`, et `coordination/POUR_CLAUDE_2026-10-02.md`).
+- **Lot `2.FR` (subdivisions de la France, pilote de la phase 2) : feu vert de Guizmo le 09/10/2026, en mode manuel.** Si `01_lots/2.FR/PRET_ether.md` est plus récent que `PRET_claude.md` : ne pas l'intégrer au réveil ; écrire « 2.FR livré, à intégrer en conversation avec Guizmo » au tableau de bord (rubrique « À trancher par Guizmo ») et envoyer une notification courte. Fiche de lancement : `docs/lancements/2.FR_lancement.md`.
 - **Il faut un nouveau feu vert de Guizmo** pour toute autre couche ou famille (routes, réseaux ferroviaires, ports autonomes, douanes…) et pour le passage aux mois. Le rôle portuaire ou ferroviaire d'une ville reste dans le 1.x.
 - Claude intègre toute livraison signalée par `PRET_ether.md`. Dans le tableau de bord, l'état d'une suite est recopié fidèlement d'après `AUTORISATIONS_RATISSAGE.json` (autorisée / proposée), jamais deviné.
 
