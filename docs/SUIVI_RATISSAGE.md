@@ -75,3 +75,11 @@ Principe de Guizmo : **maximum d'informations, minimum de visibilité**. La cart
 - **Moins de politique, plus de flux** : la politique n'explique que ce qui fait bouger les flux (règle éditoriale du récap).
 - Exemple visé : on zoome sur la Finlande, on voit la Laponie, on comprend déjà l'essentiel ; on clique pour le détail (neutralité, guerre de Laponie, soutiens).
 - Guizmo a d'autres idées dessinées à venir (affichage des fiches, interface générale).
+
+
+## Subdivisions (phase 2.x)
+
+| Lot | Subdivisions | Tracés | Sources relues | Statut |
+|---|---|---|---|---|
+| 2.FR | 108 (18 régions, 90 départements) | 103 (TRF-GIS 1940, CC BY 4.0) | 11 (5 ok) | intégré le 15/10/2026 (pilote, manuel) |
+| 2.BE | 50 (9 provinces, 41 arrondissements) | 0 (pas de source ouverte de 1945) | 5 (4 ok) | intégré le 15/10/2026 (cycle 1, boucle) |

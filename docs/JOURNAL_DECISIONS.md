@@ -2,6 +2,11 @@
 
 Une ligne par décision, datée. Plus récente en haut. Ce journal remplace les versions éparpillées dans les conversations : si ce n'est pas ici, ce n'est pas décidé.
 
+## 2026-10-15 (nuit : 2.BE intégré, boucle automatique)
+
+- **Lot 2.BE intégré** (cycle 1) : 50 subdivisions de la Belgique au 01/01/1945 = 9 provinces (échelon 1) et 41 arrondissements administratifs (échelon 2), par recoupement 1939 / février 1945 / 1947 ; Eupen, Malmedy, Saint-Vith dans l'arrondissement de Verviers (droit belge). **Aucun tracé** (pas de source de 1945 à licence ouverte, R2BE-01). Réserves R2BE-01 à 06 pour la revue du groupe 1. *(Ether, intégré par Claude)*
+- Sources : 5 nouvelles (4 ok dont 2 sur captures, 1 limite), registre v1.33. *(Claude)*
+
 ## 2026-10-15 (soir : phase 2.x lancée en boucle automatique)
 
 - **Feu vert de Guizmo pour toute la phase 2.x** (subdivisions de chaque État au 01/01/1945) **en boucle automatique**, comme les villes : Ether enchaîne les lots sans attendre, Claude intègre au réveil, 3 cycles au plus par lot, réserves pour la revue. *(décision de Guizmo)*

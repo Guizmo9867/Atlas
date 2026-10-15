@@ -1,0 +1,33 @@
+{
+ "lot": "2.BE",
+ "date": "2026-10-15",
+ "auteur": "Claude",
+ "methode": "Sous-agents (WebFetch seulement, sans contournement) + lecture par Claude des captures déposées par Ether dans preuves/ ; « ok » seulement si la source prouve ce que la fiche lui fait dire à la date.",
+ "resultats": [
+  {
+   "id": "src-be-annuaire-statistique-1942",
+   "statut": "ok",
+   "commentaire": "PDF non récupérable par l'outil de lecture ; captures d'Ether lues par Claude : p. 2 « Divisions administratives et judiciaires, 31.XII.1939 » (9 provinces, 41 arrondissements administratifs ; note (c) : 41 communes soustraites en 1940 à la juridiction administrative belge) et p. 6 (liste nominative des 41 arrondissements par province, état au 31/12/1930)."
+  },
+  {
+   "id": "src-be-chambre-43-1945-02-06",
+   "statut": "ok",
+   "commentaire": "Document daté du 6 février 1945 ; capture p. 3 lue par Claude : tableaux par province, neuf provinces en français et en néerlandais (forme « Liége »). Le nombre neuf se déduit des tableaux."
+  },
+  {
+   "id": "src-statbel-recensement-1947-tome1",
+   "statut": "ok",
+   "commentaire": "PDF non récupérable par l'outil ; captures p. 166–167 lues par Claude : tableau 12, mêmes 41 arrondissements en 1930 et 1947 ; seuls 7 arrondissements modifiés entre 1846 et 1947, par des lois de 1919 à 1927 (aucun changement entre 1930 et 1947 mentionné) ; Eupen, Malmedy, Saint-Vith rattachés à Verviers en 1925. Encadre la date du Snapshot."
+  },
+  {
+   "id": "src-province-liege-histoire",
+   "statut": "limite",
+   "commentaire": "Confirme les changements postérieurs (1962–63, 1976–77, scission du Brabant en 1995) : sert à écarter les limites actuelles, ne prouve pas l'état de 1945."
+  },
+  {
+   "id": "src-cegesoma-brull-annexion-cantons-est",
+   "statut": "ok",
+   "commentaire": "« le Reich annexe le territoire des trois cantons d'Eupen, Malmedy et Saint-Vith » ; annexion non reconnue juridiquement après 1945 : justifie de garder ces cantons dans le cadre belge de droit (contexte, pas une subdivision)."
+  }
+ ]
+}

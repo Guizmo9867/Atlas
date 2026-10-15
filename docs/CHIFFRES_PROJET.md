@@ -1,6 +1,6 @@
 # Atlas Eurasie — chiffres du projet
 
-*Généré automatiquement depuis le dépôt le 2026-10-15 16:30. Aucun chiffre estimé : tout est compté dans les fichiers.
+*Généré automatiquement depuis le dépôt le 2026-10-15 20:17. Aucun chiffre estimé : tout est compté dans les fichiers.
 Version machine : `data/chiffres_projet.json`.*
 
 ## Snapshot 0 (Europe au 1er janvier 1945, 0 h)
@@ -15,20 +15,20 @@ Version machine : `data/chiffres_projet.json`.*
 | Villes affichées sous leur nom de 1945 | 212 |
 | Villes avec une réserve « à renforcer » visible | 419 |
 
-Lots de frontières : 5. Lots de villes : 11 (villes_1-0_france_benelux_iles_britanniques, villes_1-1_nordiques, villes_1-2_allemagne_alpes, villes_1-3_tchequie_slovaquie_hongrie, villes_1-4_pologne_baltique, villes_1-5_europe_orientale, villes_1-6_asie_sovietique_mongolie, villes_1-7_caucase_turquie, villes_1-8_balkans_grece_italie, villes_1-9_iberie_marges, villes_1-x_audit_complements).
+Lots de frontières : 6. Lots de villes : 11 (villes_1-0_france_benelux_iles_britanniques, villes_1-1_nordiques, villes_1-2_allemagne_alpes, villes_1-3_tchequie_slovaquie_hongrie, villes_1-4_pologne_baltique, villes_1-5_europe_orientale, villes_1-6_asie_sovietique_mongolie, villes_1-7_caucase_turquie, villes_1-8_balkans_grece_italie, villes_1-9_iberie_marges, villes_1-x_audit_complements).
 
 ## Sources
 
 | | |
 |---|---|
-| Sources au registre (v1.32) | 898 |
-| Confirmées par la relecture de Claude | 589 (66 %) |
-| Lecture partielle / faible / illisible / lien mort | 159 / 6 / 136 / 8 |
-| En attente de validation humaine | 306 |
+| Sources au registre (v1.33) | 903 |
+| Confirmées par la relecture de Claude | 593 (66 %) |
+| Lecture partielle / faible / illisible / lien mort | 160 / 6 / 136 / 8 |
+| En attente de validation humaine | 307 |
 | Validées par Guizmo | 3 |
-| Niveaux (A primaire / B secondaire / C exploratoire) | 162 / 703 / 33 |
+| Niveaux (A primaire / B secondaire / C exploratoire) | 165 / 705 / 33 |
 
 ## Historique
 
-- Envois sur GitHub : 63 (du 2026-09-28 au 2026-10-09).
+- Envois sur GitHub : 67 (du 2026-09-28 au 2026-10-15).
 - Dépôt public : https://github.com/Guizmo9867/Atlas

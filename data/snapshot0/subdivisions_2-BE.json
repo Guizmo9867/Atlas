@@ -1,0 +1,2670 @@
+{
+ "metadata_lot": {
+  "nom": "snapshot0_subdivisions_2-BE",
+  "date_reference": "1945-01-01",
+  "heure_reference": "00:00",
+  "version": "1.0",
+  "statut": "integre_par_claude",
+  "cycle": 1,
+  "date_integration": "2026-10-15",
+  "gabarit_source": "gabarits/gabarit_entite_temporelle_atlas.json",
+  "lot_methode": "2.BE (phase 2, docs/METHODE_ATLAS_v2.md)",
+  "etat_1945": "Belgique",
+  "proposition_ether": "data/sources/deltas_ether/2026-10-15_2BE_subdivisions_proposees_ether.json",
+  "regles": [
+   "échelon 1 = premier niveau sous l'État ; échelon 2 = le niveau en dessous ; le terme local reste dans statut_administratif",
+   "une subdivision porte la souveraineté de droit ; le contrôle réel vient des territoires et des lignes de front",
+   "affichage : échelon 1 dès le zoom 5, échelon 2 dès le zoom 6,5, mêmes seuils pour tous les pays (calque « Découpage administratif »)",
+   "tracés provisoires ; chefs-lieux proposés = référence, jamais validés sans preuve au 01/01/1945"
+  ],
+  "sans_trace": [
+   "subdivision-be-anvers",
+   "subdivision-be-arrondissement-anvers",
+   "subdivision-be-arrondissement-malines",
+   "subdivision-be-arrondissement-turnhout",
+   "subdivision-be-brabant",
+   "subdivision-be-arrondissement-bruxelles",
+   "subdivision-be-arrondissement-louvain",
+   "subdivision-be-arrondissement-nivelles",
+   "subdivision-be-flandre-occidentale",
+   "subdivision-be-arrondissement-bruges",
+   "subdivision-be-arrondissement-dixmude",
+   "subdivision-be-arrondissement-ypres",
+   "subdivision-be-arrondissement-courtrai",
+   "subdivision-be-arrondissement-ostende",
+   "subdivision-be-arrondissement-roulers",
+   "subdivision-be-arrondissement-tielt",
+   "subdivision-be-arrondissement-furnes",
+   "subdivision-be-flandre-orientale",
+   "subdivision-be-arrondissement-alost",
+   "subdivision-be-arrondissement-termonde",
+   "subdivision-be-arrondissement-eeklo",
+   "subdivision-be-arrondissement-gand",
+   "subdivision-be-arrondissement-audenarde",
+   "subdivision-be-arrondissement-saint-nicolas",
+   "subdivision-be-hainaut",
+   "subdivision-be-arrondissement-ath",
+   "subdivision-be-arrondissement-charleroi",
+   "subdivision-be-arrondissement-mons",
+   "subdivision-be-arrondissement-soignies",
+   "subdivision-be-arrondissement-thuin",
+   "subdivision-be-arrondissement-tournai",
+   "subdivision-be-liege",
+   "subdivision-be-arrondissement-huy",
+   "subdivision-be-arrondissement-liege",
+   "subdivision-be-arrondissement-verviers",
+   "subdivision-be-arrondissement-waremme",
+   "subdivision-be-limbourg",
+   "subdivision-be-arrondissement-hasselt",
+   "subdivision-be-arrondissement-maaseik",
+   "subdivision-be-arrondissement-tongres",
+   "subdivision-be-luxembourg",
+   "subdivision-be-arrondissement-arlon",
+   "subdivision-be-arrondissement-bastogne",
+   "subdivision-be-arrondissement-marche-en-famenne",
+   "subdivision-be-arrondissement-neufchateau",
+   "subdivision-be-arrondissement-virton",
+   "subdivision-be-namur",
+   "subdivision-be-arrondissement-dinant",
+   "subdivision-be-arrondissement-namur",
+   "subdivision-be-arrondissement-philippeville"
+  ]
+ },
+ "entites": [
+  {
+   "entite_id": "subdivision-be-anvers",
+   "type_entite": "subdivision",
+   "nom": "Anvers",
+   "nom_court": "Anvers",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_par_recoupement",
+     "proprietes": {
+      "nom": "Anvers",
+      "niveau": 1,
+      "echelon": 1,
+      "parent_id": "territoire-be-belgique",
+      "souverainete_id": "belgique",
+      "statut_administratif": "province",
+      "preuve_temporelle": "recoupement_anterieur_et_posterieur_au_snapshot",
+      "reserves": [
+       "R2BE-01",
+       "R2BE-02",
+       "R2BE-03"
+      ],
+      "note": "Nomenclature de droit proposée par recoupement ; voir R2BE-02. Aucun contour, siège administratif ou contrôle militaire au jour près n’est déduit de cette fiche.",
+      "autres_noms_hors_date": [
+       {
+        "nom": "Antwerpen",
+        "langue": "nl",
+        "source_id": "src-be-chambre-43-1945-02-06",
+        "date_attestation": "1945-02-06",
+        "note": "Forme parallèle du document, pas une substitution ni un changement de nom."
+       }
+      ]
+     },
+     "sources": [
+      {
+       "source_id": "src-be-annuaire-statistique-1942",
+       "locator": "p.2 (vue42), état au 31/12/1939 ; p.6 (vue46), ligne Anvers",
+       "usage": "nomenclature antérieure ; rang et rattachement"
+      },
+      {
+       "source_id": "src-statbel-recensement-1947-tome1",
+       "locator": "p.166–167, tableau12 ; ligne Anvers",
+       "usage": "recoupement rétrospectif de la nomenclature et de la continuité des limites administratives de droit"
+      },
+      {
+       "source_id": "src-be-chambre-43-1945-02-06",
+       "locator": "p.3, tableau des provinces, ligne Anvers",
+       "usage": "forme française et forme néerlandaise attestées le 06/02/1945"
+      }
+     ]
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-be-arrondissement-anvers",
+   "type_entite": "subdivision",
+   "nom": "Anvers",
+   "nom_court": "Anvers",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_par_recoupement",
+     "proprietes": {
+      "nom": "Anvers",
+      "niveau": 2,
+      "echelon": 2,
+      "parent_id": "subdivision-be-anvers",
+      "souverainete_id": "belgique",
+      "statut_administratif": "arrondissement administratif",
+      "preuve_temporelle": "recoupement_anterieur_et_posterieur_au_snapshot",
+      "reserves": [
+       "R2BE-01",
+       "R2BE-02",
+       "R2BE-03"
+      ],
+      "note": "Nomenclature de droit proposée par recoupement ; voir R2BE-02. Aucun contour, siège administratif ou contrôle militaire au jour près n’est déduit de cette fiche."
+     },
+     "sources": [
+      {
+       "source_id": "src-be-annuaire-statistique-1942",
+       "locator": "p.2 (vue42), état au 31/12/1939 ; p.6 (vue46), ligne Anvers",
+       "usage": "nomenclature antérieure ; rang et rattachement"
+      },
+      {
+       "source_id": "src-statbel-recensement-1947-tome1",
+       "locator": "p.166–167, tableau12 ; ligne Anvers",
+       "usage": "recoupement rétrospectif de la nomenclature et de la continuité des limites administratives de droit"
+      }
+     ]
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-be-arrondissement-malines",
+   "type_entite": "subdivision",
+   "nom": "Malines",
+   "nom_court": "Malines",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_par_recoupement",
+     "proprietes": {
+      "nom": "Malines",
+      "niveau": 2,
+      "echelon": 2,
+      "parent_id": "subdivision-be-anvers",
+      "souverainete_id": "belgique",
+      "statut_administratif": "arrondissement administratif",
+      "preuve_temporelle": "recoupement_anterieur_et_posterieur_au_snapshot",
+      "reserves": [
+       "R2BE-01",
+       "R2BE-02",
+       "R2BE-03"
+      ],
+      "note": "Nomenclature de droit proposée par recoupement ; voir R2BE-02. Aucun contour, siège administratif ou contrôle militaire au jour près n’est déduit de cette fiche."
+     },
+     "sources": [
+      {
+       "source_id": "src-be-annuaire-statistique-1942",
+       "locator": "p.2 (vue42), état au 31/12/1939 ; p.6 (vue46), ligne Malines",
+       "usage": "nomenclature antérieure ; rang et rattachement"
+      },
+      {
+       "source_id": "src-statbel-recensement-1947-tome1",
+       "locator": "p.166–167, tableau12 ; ligne Malines",
+       "usage": "recoupement rétrospectif de la nomenclature et de la continuité des limites administratives de droit"
+      }
+     ]
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-be-arrondissement-turnhout",
+   "type_entite": "subdivision",
+   "nom": "Turnhout",
+   "nom_court": "Turnhout",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_par_recoupement",
+     "proprietes": {
+      "nom": "Turnhout",
+      "niveau": 2,
+      "echelon": 2,
+      "parent_id": "subdivision-be-anvers",
+      "souverainete_id": "belgique",
+      "statut_administratif": "arrondissement administratif",
+      "preuve_temporelle": "recoupement_anterieur_et_posterieur_au_snapshot",
+      "reserves": [
+       "R2BE-01",
+       "R2BE-02",
+       "R2BE-03"
+      ],
+      "note": "Nomenclature de droit proposée par recoupement ; voir R2BE-02. Aucun contour, siège administratif ou contrôle militaire au jour près n’est déduit de cette fiche."
+     },
+     "sources": [
+      {
+       "source_id": "src-be-annuaire-statistique-1942",
+       "locator": "p.2 (vue42), état au 31/12/1939 ; p.6 (vue46), ligne Turnhout",
+       "usage": "nomenclature antérieure ; rang et rattachement"
+      },
+      {
+       "source_id": "src-statbel-recensement-1947-tome1",
+       "locator": "p.166–167, tableau12 ; ligne Turnhout",
+       "usage": "recoupement rétrospectif de la nomenclature et de la continuité des limites administratives de droit"
+      }
+     ]
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-be-brabant",
+   "type_entite": "subdivision",
+   "nom": "Brabant",
+   "nom_court": "Brabant",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_par_recoupement",
+     "proprietes": {
+      "nom": "Brabant",
+      "niveau": 1,
+      "echelon": 1,
+      "parent_id": "territoire-be-belgique",
+      "souverainete_id": "belgique",
+      "statut_administratif": "province",
+      "preuve_temporelle": "recoupement_anterieur_et_posterieur_au_snapshot",
+      "reserves": [
+       "R2BE-01",
+       "R2BE-02",
+       "R2BE-03"
+      ],
+      "note": "Nomenclature de droit proposée par recoupement ; voir R2BE-02. Aucun contour, siège administratif ou contrôle militaire au jour près n’est déduit de cette fiche.",
+      "autres_noms_hors_date": [
+       {
+        "nom": "Brabant",
+        "langue": "nl",
+        "source_id": "src-be-chambre-43-1945-02-06",
+        "date_attestation": "1945-02-06",
+        "note": "Forme parallèle du document, pas une substitution ni un changement de nom."
+       }
+      ]
+     },
+     "sources": [
+      {
+       "source_id": "src-be-annuaire-statistique-1942",
+       "locator": "p.2 (vue42), état au 31/12/1939 ; p.6 (vue46), ligne Brabant",
+       "usage": "nomenclature antérieure ; rang et rattachement"
+      },
+      {
+       "source_id": "src-statbel-recensement-1947-tome1",
+       "locator": "p.166–167, tableau12 ; ligne Brabant",
+       "usage": "recoupement rétrospectif de la nomenclature et de la continuité des limites administratives de droit"
+      },
+      {
+       "source_id": "src-be-chambre-43-1945-02-06",
+       "locator": "p.3, tableau des provinces, ligne Brabant",
+       "usage": "forme française et forme néerlandaise attestées le 06/02/1945"
+      }
+     ]
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-be-arrondissement-bruxelles",
+   "type_entite": "subdivision",
+   "nom": "Bruxelles",
+   "nom_court": "Bruxelles",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_par_recoupement",
+     "proprietes": {
+      "nom": "Bruxelles",
+      "niveau": 2,
+      "echelon": 2,
+      "parent_id": "subdivision-be-brabant",
+      "souverainete_id": "belgique",
+      "statut_administratif": "arrondissement administratif",
+      "preuve_temporelle": "recoupement_anterieur_et_posterieur_au_snapshot",
+      "reserves": [
+       "R2BE-01",
+       "R2BE-02",
+       "R2BE-03"
+      ],
+      "note": "Nomenclature de droit proposée par recoupement ; voir R2BE-02. Aucun contour, siège administratif ou contrôle militaire au jour près n’est déduit de cette fiche."
+     },
+     "sources": [
+      {
+       "source_id": "src-be-annuaire-statistique-1942",
+       "locator": "p.2 (vue42), état au 31/12/1939 ; p.6 (vue46), ligne Bruxelles",
+       "usage": "nomenclature antérieure ; rang et rattachement"
+      },
+      {
+       "source_id": "src-statbel-recensement-1947-tome1",
+       "locator": "p.166–167, tableau12 ; ligne Bruxelles",
+       "usage": "recoupement rétrospectif de la nomenclature et de la continuité des limites administratives de droit"
+      }
+     ]
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-be-arrondissement-louvain",
+   "type_entite": "subdivision",
+   "nom": "Louvain",
+   "nom_court": "Louvain",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_par_recoupement",
+     "proprietes": {
+      "nom": "Louvain",
+      "niveau": 2,
+      "echelon": 2,
+      "parent_id": "subdivision-be-brabant",
+      "souverainete_id": "belgique",
+      "statut_administratif": "arrondissement administratif",
+      "preuve_temporelle": "recoupement_anterieur_et_posterieur_au_snapshot",
+      "reserves": [
+       "R2BE-01",
+       "R2BE-02",
+       "R2BE-03"
+      ],
+      "note": "Nomenclature de droit proposée par recoupement ; voir R2BE-02. Aucun contour, siège administratif ou contrôle militaire au jour près n’est déduit de cette fiche."
+     },
+     "sources": [
+      {
+       "source_id": "src-be-annuaire-statistique-1942",
+       "locator": "p.2 (vue42), état au 31/12/1939 ; p.6 (vue46), ligne Louvain",
+       "usage": "nomenclature antérieure ; rang et rattachement"
+      },
+      {
+       "source_id": "src-statbel-recensement-1947-tome1",
+       "locator": "p.166–167, tableau12 ; ligne Louvain",
+       "usage": "recoupement rétrospectif de la nomenclature et de la continuité des limites administratives de droit"
+      }
+     ]
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-be-arrondissement-nivelles",
+   "type_entite": "subdivision",
+   "nom": "Nivelles",
+   "nom_court": "Nivelles",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_par_recoupement",
+     "proprietes": {
+      "nom": "Nivelles",
+      "niveau": 2,
+      "echelon": 2,
+      "parent_id": "subdivision-be-brabant",
+      "souverainete_id": "belgique",
+      "statut_administratif": "arrondissement administratif",
+      "preuve_temporelle": "recoupement_anterieur_et_posterieur_au_snapshot",
+      "reserves": [
+       "R2BE-01",
+       "R2BE-02",
+       "R2BE-03"
+      ],
+      "note": "Nomenclature de droit proposée par recoupement ; voir R2BE-02. Aucun contour, siège administratif ou contrôle militaire au jour près n’est déduit de cette fiche."
+     },
+     "sources": [
+      {
+       "source_id": "src-be-annuaire-statistique-1942",
+       "locator": "p.2 (vue42), état au 31/12/1939 ; p.6 (vue46), ligne Nivelles",
+       "usage": "nomenclature antérieure ; rang et rattachement"
+      },
+      {
+       "source_id": "src-statbel-recensement-1947-tome1",
+       "locator": "p.166–167, tableau12 ; ligne Nivelles",
+       "usage": "recoupement rétrospectif de la nomenclature et de la continuité des limites administratives de droit"
+      }
+     ]
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-be-flandre-occidentale",
+   "type_entite": "subdivision",
+   "nom": "Flandre occidentale",
+   "nom_court": "Flandre occidentale",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_par_recoupement",
+     "proprietes": {
+      "nom": "Flandre occidentale",
+      "niveau": 1,
+      "echelon": 1,
+      "parent_id": "territoire-be-belgique",
+      "souverainete_id": "belgique",
+      "statut_administratif": "province",
+      "preuve_temporelle": "recoupement_anterieur_et_posterieur_au_snapshot",
+      "reserves": [
+       "R2BE-01",
+       "R2BE-02",
+       "R2BE-03"
+      ],
+      "note": "Nomenclature de droit proposée par recoupement ; voir R2BE-02. Aucun contour, siège administratif ou contrôle militaire au jour près n’est déduit de cette fiche.",
+      "autres_noms_hors_date": [
+       {
+        "nom": "West-Vlaanderen",
+        "langue": "nl",
+        "source_id": "src-be-chambre-43-1945-02-06",
+        "date_attestation": "1945-02-06",
+        "note": "Forme parallèle du document, pas une substitution ni un changement de nom."
+       }
+      ]
+     },
+     "sources": [
+      {
+       "source_id": "src-be-annuaire-statistique-1942",
+       "locator": "p.2 (vue42), état au 31/12/1939 ; p.6 (vue46), ligne Flandre occidentale",
+       "usage": "nomenclature antérieure ; rang et rattachement"
+      },
+      {
+       "source_id": "src-statbel-recensement-1947-tome1",
+       "locator": "p.166–167, tableau12 ; ligne Flandre occidentale",
+       "usage": "recoupement rétrospectif de la nomenclature et de la continuité des limites administratives de droit"
+      },
+      {
+       "source_id": "src-be-chambre-43-1945-02-06",
+       "locator": "p.3, tableau des provinces, ligne Flandre occidentale",
+       "usage": "forme française et forme néerlandaise attestées le 06/02/1945"
+      }
+     ]
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-be-arrondissement-bruges",
+   "type_entite": "subdivision",
+   "nom": "Bruges",
+   "nom_court": "Bruges",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_par_recoupement",
+     "proprietes": {
+      "nom": "Bruges",
+      "niveau": 2,
+      "echelon": 2,
+      "parent_id": "subdivision-be-flandre-occidentale",
+      "souverainete_id": "belgique",
+      "statut_administratif": "arrondissement administratif",
+      "preuve_temporelle": "recoupement_anterieur_et_posterieur_au_snapshot",
+      "reserves": [
+       "R2BE-01",
+       "R2BE-02",
+       "R2BE-03"
+      ],
+      "note": "Nomenclature de droit proposée par recoupement ; voir R2BE-02. Aucun contour, siège administratif ou contrôle militaire au jour près n’est déduit de cette fiche."
+     },
+     "sources": [
+      {
+       "source_id": "src-be-annuaire-statistique-1942",
+       "locator": "p.2 (vue42), état au 31/12/1939 ; p.6 (vue46), ligne Bruges",
+       "usage": "nomenclature antérieure ; rang et rattachement"
+      },
+      {
+       "source_id": "src-statbel-recensement-1947-tome1",
+       "locator": "p.166–167, tableau12 ; ligne Bruges",
+       "usage": "recoupement rétrospectif de la nomenclature et de la continuité des limites administratives de droit"
+      }
+     ]
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-be-arrondissement-dixmude",
+   "type_entite": "subdivision",
+   "nom": "Dixmude",
+   "nom_court": "Dixmude",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_par_recoupement",
+     "proprietes": {
+      "nom": "Dixmude",
+      "niveau": 2,
+      "echelon": 2,
+      "parent_id": "subdivision-be-flandre-occidentale",
+      "souverainete_id": "belgique",
+      "statut_administratif": "arrondissement administratif",
+      "preuve_temporelle": "recoupement_anterieur_et_posterieur_au_snapshot",
+      "reserves": [
+       "R2BE-01",
+       "R2BE-02",
+       "R2BE-03"
+      ],
+      "note": "Nomenclature de droit proposée par recoupement ; voir R2BE-02. Aucun contour, siège administratif ou contrôle militaire au jour près n’est déduit de cette fiche."
+     },
+     "sources": [
+      {
+       "source_id": "src-be-annuaire-statistique-1942",
+       "locator": "p.2 (vue42), état au 31/12/1939 ; p.6 (vue46), ligne Dixmude",
+       "usage": "nomenclature antérieure ; rang et rattachement"
+      },
+      {
+       "source_id": "src-statbel-recensement-1947-tome1",
+       "locator": "p.166–167, tableau12 ; ligne Dixmude",
+       "usage": "recoupement rétrospectif de la nomenclature et de la continuité des limites administratives de droit"
+      }
+     ]
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-be-arrondissement-ypres",
+   "type_entite": "subdivision",
+   "nom": "Ypres",
+   "nom_court": "Ypres",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_par_recoupement",
+     "proprietes": {
+      "nom": "Ypres",
+      "niveau": 2,
+      "echelon": 2,
+      "parent_id": "subdivision-be-flandre-occidentale",
+      "souverainete_id": "belgique",
+      "statut_administratif": "arrondissement administratif",
+      "preuve_temporelle": "recoupement_anterieur_et_posterieur_au_snapshot",
+      "reserves": [
+       "R2BE-01",
+       "R2BE-02",
+       "R2BE-03"
+      ],
+      "note": "Nomenclature de droit proposée par recoupement ; voir R2BE-02. Aucun contour, siège administratif ou contrôle militaire au jour près n’est déduit de cette fiche."
+     },
+     "sources": [
+      {
+       "source_id": "src-be-annuaire-statistique-1942",
+       "locator": "p.2 (vue42), état au 31/12/1939 ; p.6 (vue46), ligne Ypres",
+       "usage": "nomenclature antérieure ; rang et rattachement"
+      },
+      {
+       "source_id": "src-statbel-recensement-1947-tome1",
+       "locator": "p.166–167, tableau12 ; ligne Ypres",
+       "usage": "recoupement rétrospectif de la nomenclature et de la continuité des limites administratives de droit"
+      }
+     ]
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-be-arrondissement-courtrai",
+   "type_entite": "subdivision",
+   "nom": "Courtrai",
+   "nom_court": "Courtrai",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_par_recoupement",
+     "proprietes": {
+      "nom": "Courtrai",
+      "niveau": 2,
+      "echelon": 2,
+      "parent_id": "subdivision-be-flandre-occidentale",
+      "souverainete_id": "belgique",
+      "statut_administratif": "arrondissement administratif",
+      "preuve_temporelle": "recoupement_anterieur_et_posterieur_au_snapshot",
+      "reserves": [
+       "R2BE-01",
+       "R2BE-02",
+       "R2BE-03"
+      ],
+      "note": "Nomenclature de droit proposée par recoupement ; voir R2BE-02. Aucun contour, siège administratif ou contrôle militaire au jour près n’est déduit de cette fiche."
+     },
+     "sources": [
+      {
+       "source_id": "src-be-annuaire-statistique-1942",
+       "locator": "p.2 (vue42), état au 31/12/1939 ; p.6 (vue46), ligne Courtrai",
+       "usage": "nomenclature antérieure ; rang et rattachement"
+      },
+      {
+       "source_id": "src-statbel-recensement-1947-tome1",
+       "locator": "p.166–167, tableau12 ; ligne Courtrai",
+       "usage": "recoupement rétrospectif de la nomenclature et de la continuité des limites administratives de droit"
+      }
+     ]
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-be-arrondissement-ostende",
+   "type_entite": "subdivision",
+   "nom": "Ostende",
+   "nom_court": "Ostende",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_par_recoupement",
+     "proprietes": {
+      "nom": "Ostende",
+      "niveau": 2,
+      "echelon": 2,
+      "parent_id": "subdivision-be-flandre-occidentale",
+      "souverainete_id": "belgique",
+      "statut_administratif": "arrondissement administratif",
+      "preuve_temporelle": "recoupement_anterieur_et_posterieur_au_snapshot",
+      "reserves": [
+       "R2BE-01",
+       "R2BE-02",
+       "R2BE-03"
+      ],
+      "note": "Nomenclature de droit proposée par recoupement ; voir R2BE-02. Aucun contour, siège administratif ou contrôle militaire au jour près n’est déduit de cette fiche."
+     },
+     "sources": [
+      {
+       "source_id": "src-be-annuaire-statistique-1942",
+       "locator": "p.2 (vue42), état au 31/12/1939 ; p.6 (vue46), ligne Ostende",
+       "usage": "nomenclature antérieure ; rang et rattachement"
+      },
+      {
+       "source_id": "src-statbel-recensement-1947-tome1",
+       "locator": "p.166–167, tableau12 ; ligne Ostende",
+       "usage": "recoupement rétrospectif de la nomenclature et de la continuité des limites administratives de droit"
+      }
+     ]
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-be-arrondissement-roulers",
+   "type_entite": "subdivision",
+   "nom": "Roulers",
+   "nom_court": "Roulers",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_par_recoupement",
+     "proprietes": {
+      "nom": "Roulers",
+      "niveau": 2,
+      "echelon": 2,
+      "parent_id": "subdivision-be-flandre-occidentale",
+      "souverainete_id": "belgique",
+      "statut_administratif": "arrondissement administratif",
+      "preuve_temporelle": "recoupement_anterieur_et_posterieur_au_snapshot",
+      "reserves": [
+       "R2BE-01",
+       "R2BE-02",
+       "R2BE-03"
+      ],
+      "note": "Nomenclature de droit proposée par recoupement ; voir R2BE-02. Aucun contour, siège administratif ou contrôle militaire au jour près n’est déduit de cette fiche."
+     },
+     "sources": [
+      {
+       "source_id": "src-be-annuaire-statistique-1942",
+       "locator": "p.2 (vue42), état au 31/12/1939 ; p.6 (vue46), ligne Roulers",
+       "usage": "nomenclature antérieure ; rang et rattachement"
+      },
+      {
+       "source_id": "src-statbel-recensement-1947-tome1",
+       "locator": "p.166–167, tableau12 ; ligne Roulers",
+       "usage": "recoupement rétrospectif de la nomenclature et de la continuité des limites administratives de droit"
+      }
+     ]
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-be-arrondissement-tielt",
+   "type_entite": "subdivision",
+   "nom": "Tielt",
+   "nom_court": "Tielt",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_par_recoupement",
+     "proprietes": {
+      "nom": "Tielt",
+      "niveau": 2,
+      "echelon": 2,
+      "parent_id": "subdivision-be-flandre-occidentale",
+      "souverainete_id": "belgique",
+      "statut_administratif": "arrondissement administratif",
+      "preuve_temporelle": "recoupement_anterieur_et_posterieur_au_snapshot",
+      "reserves": [
+       "R2BE-01",
+       "R2BE-02",
+       "R2BE-03"
+      ],
+      "note": "Nomenclature de droit proposée par recoupement ; voir R2BE-02. Aucun contour, siège administratif ou contrôle militaire au jour près n’est déduit de cette fiche."
+     },
+     "sources": [
+      {
+       "source_id": "src-be-annuaire-statistique-1942",
+       "locator": "p.2 (vue42), état au 31/12/1939 ; p.6 (vue46), ligne Tielt",
+       "usage": "nomenclature antérieure ; rang et rattachement"
+      },
+      {
+       "source_id": "src-statbel-recensement-1947-tome1",
+       "locator": "p.166–167, tableau12 ; ligne Tielt",
+       "usage": "recoupement rétrospectif de la nomenclature et de la continuité des limites administratives de droit"
+      }
+     ]
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-be-arrondissement-furnes",
+   "type_entite": "subdivision",
+   "nom": "Furnes",
+   "nom_court": "Furnes",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_par_recoupement",
+     "proprietes": {
+      "nom": "Furnes",
+      "niveau": 2,
+      "echelon": 2,
+      "parent_id": "subdivision-be-flandre-occidentale",
+      "souverainete_id": "belgique",
+      "statut_administratif": "arrondissement administratif",
+      "preuve_temporelle": "recoupement_anterieur_et_posterieur_au_snapshot",
+      "reserves": [
+       "R2BE-01",
+       "R2BE-02",
+       "R2BE-03"
+      ],
+      "note": "Nomenclature de droit proposée par recoupement ; voir R2BE-02. Aucun contour, siège administratif ou contrôle militaire au jour près n’est déduit de cette fiche."
+     },
+     "sources": [
+      {
+       "source_id": "src-be-annuaire-statistique-1942",
+       "locator": "p.2 (vue42), état au 31/12/1939 ; p.6 (vue46), ligne Furnes",
+       "usage": "nomenclature antérieure ; rang et rattachement"
+      },
+      {
+       "source_id": "src-statbel-recensement-1947-tome1",
+       "locator": "p.166–167, tableau12 ; ligne Furnes",
+       "usage": "recoupement rétrospectif de la nomenclature et de la continuité des limites administratives de droit"
+      }
+     ]
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-be-flandre-orientale",
+   "type_entite": "subdivision",
+   "nom": "Flandre orientale",
+   "nom_court": "Flandre orientale",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_par_recoupement",
+     "proprietes": {
+      "nom": "Flandre orientale",
+      "niveau": 1,
+      "echelon": 1,
+      "parent_id": "territoire-be-belgique",
+      "souverainete_id": "belgique",
+      "statut_administratif": "province",
+      "preuve_temporelle": "recoupement_anterieur_et_posterieur_au_snapshot",
+      "reserves": [
+       "R2BE-01",
+       "R2BE-02",
+       "R2BE-03"
+      ],
+      "note": "Nomenclature de droit proposée par recoupement ; voir R2BE-02. Aucun contour, siège administratif ou contrôle militaire au jour près n’est déduit de cette fiche.",
+      "autres_noms_hors_date": [
+       {
+        "nom": "Oost-Vlaanderen",
+        "langue": "nl",
+        "source_id": "src-be-chambre-43-1945-02-06",
+        "date_attestation": "1945-02-06",
+        "note": "Forme parallèle du document, pas une substitution ni un changement de nom."
+       }
+      ]
+     },
+     "sources": [
+      {
+       "source_id": "src-be-annuaire-statistique-1942",
+       "locator": "p.2 (vue42), état au 31/12/1939 ; p.6 (vue46), ligne Flandre orientale",
+       "usage": "nomenclature antérieure ; rang et rattachement"
+      },
+      {
+       "source_id": "src-statbel-recensement-1947-tome1",
+       "locator": "p.166–167, tableau12 ; ligne Flandre orientale",
+       "usage": "recoupement rétrospectif de la nomenclature et de la continuité des limites administratives de droit"
+      },
+      {
+       "source_id": "src-be-chambre-43-1945-02-06",
+       "locator": "p.3, tableau des provinces, ligne Flandre orientale",
+       "usage": "forme française et forme néerlandaise attestées le 06/02/1945"
+      }
+     ]
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-be-arrondissement-alost",
+   "type_entite": "subdivision",
+   "nom": "Alost",
+   "nom_court": "Alost",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_par_recoupement",
+     "proprietes": {
+      "nom": "Alost",
+      "niveau": 2,
+      "echelon": 2,
+      "parent_id": "subdivision-be-flandre-orientale",
+      "souverainete_id": "belgique",
+      "statut_administratif": "arrondissement administratif",
+      "preuve_temporelle": "recoupement_anterieur_et_posterieur_au_snapshot",
+      "reserves": [
+       "R2BE-01",
+       "R2BE-02",
+       "R2BE-03"
+      ],
+      "note": "Nomenclature de droit proposée par recoupement ; voir R2BE-02. Aucun contour, siège administratif ou contrôle militaire au jour près n’est déduit de cette fiche."
+     },
+     "sources": [
+      {
+       "source_id": "src-be-annuaire-statistique-1942",
+       "locator": "p.2 (vue42), état au 31/12/1939 ; p.6 (vue46), ligne Alost",
+       "usage": "nomenclature antérieure ; rang et rattachement"
+      },
+      {
+       "source_id": "src-statbel-recensement-1947-tome1",
+       "locator": "p.166–167, tableau12 ; ligne Alost",
+       "usage": "recoupement rétrospectif de la nomenclature et de la continuité des limites administratives de droit"
+      }
+     ]
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-be-arrondissement-termonde",
+   "type_entite": "subdivision",
+   "nom": "Termonde",
+   "nom_court": "Termonde",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_par_recoupement",
+     "proprietes": {
+      "nom": "Termonde",
+      "niveau": 2,
+      "echelon": 2,
+      "parent_id": "subdivision-be-flandre-orientale",
+      "souverainete_id": "belgique",
+      "statut_administratif": "arrondissement administratif",
+      "preuve_temporelle": "recoupement_anterieur_et_posterieur_au_snapshot",
+      "reserves": [
+       "R2BE-01",
+       "R2BE-02",
+       "R2BE-03"
+      ],
+      "note": "Nomenclature de droit proposée par recoupement ; voir R2BE-02. Aucun contour, siège administratif ou contrôle militaire au jour près n’est déduit de cette fiche."
+     },
+     "sources": [
+      {
+       "source_id": "src-be-annuaire-statistique-1942",
+       "locator": "p.2 (vue42), état au 31/12/1939 ; p.6 (vue46), ligne Termonde",
+       "usage": "nomenclature antérieure ; rang et rattachement"
+      },
+      {
+       "source_id": "src-statbel-recensement-1947-tome1",
+       "locator": "p.166–167, tableau12 ; ligne Termonde",
+       "usage": "recoupement rétrospectif de la nomenclature et de la continuité des limites administratives de droit"
+      }
+     ]
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-be-arrondissement-eeklo",
+   "type_entite": "subdivision",
+   "nom": "Eeklo",
+   "nom_court": "Eeklo",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_par_recoupement",
+     "proprietes": {
+      "nom": "Eekloo",
+      "niveau": 2,
+      "echelon": 2,
+      "parent_id": "subdivision-be-flandre-orientale",
+      "souverainete_id": "belgique",
+      "statut_administratif": "arrondissement administratif",
+      "preuve_temporelle": "recoupement_anterieur_et_posterieur_au_snapshot",
+      "reserves": [
+       "R2BE-01",
+       "R2BE-02",
+       "R2BE-03",
+       "R2BE-04"
+      ],
+      "note": "Nomenclature de droit proposée par recoupement ; voir R2BE-02. Aucun contour, siège administratif ou contrôle militaire au jour près n’est déduit de cette fiche. Eekloo dans l’annuaire de 1942, Eeklo en 1947 ; forme exacte au Snapshot réservée."
+     },
+     "sources": [
+      {
+       "source_id": "src-be-annuaire-statistique-1942",
+       "locator": "p.2 (vue42), état au 31/12/1939 ; p.6 (vue46), ligne Eeklo",
+       "usage": "nomenclature antérieure ; rang et rattachement"
+      },
+      {
+       "source_id": "src-statbel-recensement-1947-tome1",
+       "locator": "p.166–167, tableau12 ; ligne Eeklo",
+       "usage": "recoupement rétrospectif de la nomenclature et de la continuité des limites administratives de droit"
+      }
+     ]
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-be-arrondissement-gand",
+   "type_entite": "subdivision",
+   "nom": "Gand",
+   "nom_court": "Gand",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_par_recoupement",
+     "proprietes": {
+      "nom": "Gand",
+      "niveau": 2,
+      "echelon": 2,
+      "parent_id": "subdivision-be-flandre-orientale",
+      "souverainete_id": "belgique",
+      "statut_administratif": "arrondissement administratif",
+      "preuve_temporelle": "recoupement_anterieur_et_posterieur_au_snapshot",
+      "reserves": [
+       "R2BE-01",
+       "R2BE-02",
+       "R2BE-03"
+      ],
+      "note": "Nomenclature de droit proposée par recoupement ; voir R2BE-02. Aucun contour, siège administratif ou contrôle militaire au jour près n’est déduit de cette fiche."
+     },
+     "sources": [
+      {
+       "source_id": "src-be-annuaire-statistique-1942",
+       "locator": "p.2 (vue42), état au 31/12/1939 ; p.6 (vue46), ligne Gand",
+       "usage": "nomenclature antérieure ; rang et rattachement"
+      },
+      {
+       "source_id": "src-statbel-recensement-1947-tome1",
+       "locator": "p.166–167, tableau12 ; ligne Gand",
+       "usage": "recoupement rétrospectif de la nomenclature et de la continuité des limites administratives de droit"
+      }
+     ]
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-be-arrondissement-audenarde",
+   "type_entite": "subdivision",
+   "nom": "Audenarde",
+   "nom_court": "Audenarde",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_par_recoupement",
+     "proprietes": {
+      "nom": "Audenarde",
+      "niveau": 2,
+      "echelon": 2,
+      "parent_id": "subdivision-be-flandre-orientale",
+      "souverainete_id": "belgique",
+      "statut_administratif": "arrondissement administratif",
+      "preuve_temporelle": "recoupement_anterieur_et_posterieur_au_snapshot",
+      "reserves": [
+       "R2BE-01",
+       "R2BE-02",
+       "R2BE-03"
+      ],
+      "note": "Nomenclature de droit proposée par recoupement ; voir R2BE-02. Aucun contour, siège administratif ou contrôle militaire au jour près n’est déduit de cette fiche."
+     },
+     "sources": [
+      {
+       "source_id": "src-be-annuaire-statistique-1942",
+       "locator": "p.2 (vue42), état au 31/12/1939 ; p.6 (vue46), ligne Audenarde",
+       "usage": "nomenclature antérieure ; rang et rattachement"
+      },
+      {
+       "source_id": "src-statbel-recensement-1947-tome1",
+       "locator": "p.166–167, tableau12 ; ligne Audenarde",
+       "usage": "recoupement rétrospectif de la nomenclature et de la continuité des limites administratives de droit"
+      }
+     ]
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-be-arrondissement-saint-nicolas",
+   "type_entite": "subdivision",
+   "nom": "Saint-Nicolas",
+   "nom_court": "Saint-Nicolas",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_par_recoupement",
+     "proprietes": {
+      "nom": "Saint-Nicolas",
+      "niveau": 2,
+      "echelon": 2,
+      "parent_id": "subdivision-be-flandre-orientale",
+      "souverainete_id": "belgique",
+      "statut_administratif": "arrondissement administratif",
+      "preuve_temporelle": "recoupement_anterieur_et_posterieur_au_snapshot",
+      "reserves": [
+       "R2BE-01",
+       "R2BE-02",
+       "R2BE-03"
+      ],
+      "note": "Nomenclature de droit proposée par recoupement ; voir R2BE-02. Aucun contour, siège administratif ou contrôle militaire au jour près n’est déduit de cette fiche."
+     },
+     "sources": [
+      {
+       "source_id": "src-be-annuaire-statistique-1942",
+       "locator": "p.2 (vue42), état au 31/12/1939 ; p.6 (vue46), ligne Saint-Nicolas",
+       "usage": "nomenclature antérieure ; rang et rattachement"
+      },
+      {
+       "source_id": "src-statbel-recensement-1947-tome1",
+       "locator": "p.166–167, tableau12 ; ligne Saint-Nicolas",
+       "usage": "recoupement rétrospectif de la nomenclature et de la continuité des limites administratives de droit"
+      }
+     ]
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-be-hainaut",
+   "type_entite": "subdivision",
+   "nom": "Hainaut",
+   "nom_court": "Hainaut",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_par_recoupement",
+     "proprietes": {
+      "nom": "Hainaut",
+      "niveau": 1,
+      "echelon": 1,
+      "parent_id": "territoire-be-belgique",
+      "souverainete_id": "belgique",
+      "statut_administratif": "province",
+      "preuve_temporelle": "recoupement_anterieur_et_posterieur_au_snapshot",
+      "reserves": [
+       "R2BE-01",
+       "R2BE-02",
+       "R2BE-03"
+      ],
+      "note": "Nomenclature de droit proposée par recoupement ; voir R2BE-02. Aucun contour, siège administratif ou contrôle militaire au jour près n’est déduit de cette fiche.",
+      "autres_noms_hors_date": [
+       {
+        "nom": "Henegouwen",
+        "langue": "nl",
+        "source_id": "src-be-chambre-43-1945-02-06",
+        "date_attestation": "1945-02-06",
+        "note": "Forme parallèle du document, pas une substitution ni un changement de nom."
+       }
+      ]
+     },
+     "sources": [
+      {
+       "source_id": "src-be-annuaire-statistique-1942",
+       "locator": "p.2 (vue42), état au 31/12/1939 ; p.6 (vue46), ligne Hainaut",
+       "usage": "nomenclature antérieure ; rang et rattachement"
+      },
+      {
+       "source_id": "src-statbel-recensement-1947-tome1",
+       "locator": "p.166–167, tableau12 ; ligne Hainaut",
+       "usage": "recoupement rétrospectif de la nomenclature et de la continuité des limites administratives de droit"
+      },
+      {
+       "source_id": "src-be-chambre-43-1945-02-06",
+       "locator": "p.3, tableau des provinces, ligne Hainaut",
+       "usage": "forme française et forme néerlandaise attestées le 06/02/1945"
+      }
+     ]
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-be-arrondissement-ath",
+   "type_entite": "subdivision",
+   "nom": "Ath",
+   "nom_court": "Ath",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_par_recoupement",
+     "proprietes": {
+      "nom": "Ath",
+      "niveau": 2,
+      "echelon": 2,
+      "parent_id": "subdivision-be-hainaut",
+      "souverainete_id": "belgique",
+      "statut_administratif": "arrondissement administratif",
+      "preuve_temporelle": "recoupement_anterieur_et_posterieur_au_snapshot",
+      "reserves": [
+       "R2BE-01",
+       "R2BE-02",
+       "R2BE-03"
+      ],
+      "note": "Nomenclature de droit proposée par recoupement ; voir R2BE-02. Aucun contour, siège administratif ou contrôle militaire au jour près n’est déduit de cette fiche."
+     },
+     "sources": [
+      {
+       "source_id": "src-be-annuaire-statistique-1942",
+       "locator": "p.2 (vue42), état au 31/12/1939 ; p.6 (vue46), ligne Ath",
+       "usage": "nomenclature antérieure ; rang et rattachement"
+      },
+      {
+       "source_id": "src-statbel-recensement-1947-tome1",
+       "locator": "p.166–167, tableau12 ; ligne Ath",
+       "usage": "recoupement rétrospectif de la nomenclature et de la continuité des limites administratives de droit"
+      }
+     ]
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-be-arrondissement-charleroi",
+   "type_entite": "subdivision",
+   "nom": "Charleroi",
+   "nom_court": "Charleroi",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_par_recoupement",
+     "proprietes": {
+      "nom": "Charleroi",
+      "niveau": 2,
+      "echelon": 2,
+      "parent_id": "subdivision-be-hainaut",
+      "souverainete_id": "belgique",
+      "statut_administratif": "arrondissement administratif",
+      "preuve_temporelle": "recoupement_anterieur_et_posterieur_au_snapshot",
+      "reserves": [
+       "R2BE-01",
+       "R2BE-02",
+       "R2BE-03"
+      ],
+      "note": "Nomenclature de droit proposée par recoupement ; voir R2BE-02. Aucun contour, siège administratif ou contrôle militaire au jour près n’est déduit de cette fiche."
+     },
+     "sources": [
+      {
+       "source_id": "src-be-annuaire-statistique-1942",
+       "locator": "p.2 (vue42), état au 31/12/1939 ; p.6 (vue46), ligne Charleroi",
+       "usage": "nomenclature antérieure ; rang et rattachement"
+      },
+      {
+       "source_id": "src-statbel-recensement-1947-tome1",
+       "locator": "p.166–167, tableau12 ; ligne Charleroi",
+       "usage": "recoupement rétrospectif de la nomenclature et de la continuité des limites administratives de droit"
+      }
+     ]
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-be-arrondissement-mons",
+   "type_entite": "subdivision",
+   "nom": "Mons",
+   "nom_court": "Mons",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_par_recoupement",
+     "proprietes": {
+      "nom": "Mons",
+      "niveau": 2,
+      "echelon": 2,
+      "parent_id": "subdivision-be-hainaut",
+      "souverainete_id": "belgique",
+      "statut_administratif": "arrondissement administratif",
+      "preuve_temporelle": "recoupement_anterieur_et_posterieur_au_snapshot",
+      "reserves": [
+       "R2BE-01",
+       "R2BE-02",
+       "R2BE-03"
+      ],
+      "note": "Nomenclature de droit proposée par recoupement ; voir R2BE-02. Aucun contour, siège administratif ou contrôle militaire au jour près n’est déduit de cette fiche."
+     },
+     "sources": [
+      {
+       "source_id": "src-be-annuaire-statistique-1942",
+       "locator": "p.2 (vue42), état au 31/12/1939 ; p.6 (vue46), ligne Mons",
+       "usage": "nomenclature antérieure ; rang et rattachement"
+      },
+      {
+       "source_id": "src-statbel-recensement-1947-tome1",
+       "locator": "p.166–167, tableau12 ; ligne Mons",
+       "usage": "recoupement rétrospectif de la nomenclature et de la continuité des limites administratives de droit"
+      }
+     ]
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-be-arrondissement-soignies",
+   "type_entite": "subdivision",
+   "nom": "Soignies",
+   "nom_court": "Soignies",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_par_recoupement",
+     "proprietes": {
+      "nom": "Soignies",
+      "niveau": 2,
+      "echelon": 2,
+      "parent_id": "subdivision-be-hainaut",
+      "souverainete_id": "belgique",
+      "statut_administratif": "arrondissement administratif",
+      "preuve_temporelle": "recoupement_anterieur_et_posterieur_au_snapshot",
+      "reserves": [
+       "R2BE-01",
+       "R2BE-02",
+       "R2BE-03"
+      ],
+      "note": "Nomenclature de droit proposée par recoupement ; voir R2BE-02. Aucun contour, siège administratif ou contrôle militaire au jour près n’est déduit de cette fiche."
+     },
+     "sources": [
+      {
+       "source_id": "src-be-annuaire-statistique-1942",
+       "locator": "p.2 (vue42), état au 31/12/1939 ; p.6 (vue46), ligne Soignies",
+       "usage": "nomenclature antérieure ; rang et rattachement"
+      },
+      {
+       "source_id": "src-statbel-recensement-1947-tome1",
+       "locator": "p.166–167, tableau12 ; ligne Soignies",
+       "usage": "recoupement rétrospectif de la nomenclature et de la continuité des limites administratives de droit"
+      }
+     ]
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-be-arrondissement-thuin",
+   "type_entite": "subdivision",
+   "nom": "Thuin",
+   "nom_court": "Thuin",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_par_recoupement",
+     "proprietes": {
+      "nom": "Thuin",
+      "niveau": 2,
+      "echelon": 2,
+      "parent_id": "subdivision-be-hainaut",
+      "souverainete_id": "belgique",
+      "statut_administratif": "arrondissement administratif",
+      "preuve_temporelle": "recoupement_anterieur_et_posterieur_au_snapshot",
+      "reserves": [
+       "R2BE-01",
+       "R2BE-02",
+       "R2BE-03"
+      ],
+      "note": "Nomenclature de droit proposée par recoupement ; voir R2BE-02. Aucun contour, siège administratif ou contrôle militaire au jour près n’est déduit de cette fiche."
+     },
+     "sources": [
+      {
+       "source_id": "src-be-annuaire-statistique-1942",
+       "locator": "p.2 (vue42), état au 31/12/1939 ; p.6 (vue46), ligne Thuin",
+       "usage": "nomenclature antérieure ; rang et rattachement"
+      },
+      {
+       "source_id": "src-statbel-recensement-1947-tome1",
+       "locator": "p.166–167, tableau12 ; ligne Thuin",
+       "usage": "recoupement rétrospectif de la nomenclature et de la continuité des limites administratives de droit"
+      }
+     ]
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-be-arrondissement-tournai",
+   "type_entite": "subdivision",
+   "nom": "Tournai",
+   "nom_court": "Tournai",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_par_recoupement",
+     "proprietes": {
+      "nom": "Tournai",
+      "niveau": 2,
+      "echelon": 2,
+      "parent_id": "subdivision-be-hainaut",
+      "souverainete_id": "belgique",
+      "statut_administratif": "arrondissement administratif",
+      "preuve_temporelle": "recoupement_anterieur_et_posterieur_au_snapshot",
+      "reserves": [
+       "R2BE-01",
+       "R2BE-02",
+       "R2BE-03"
+      ],
+      "note": "Nomenclature de droit proposée par recoupement ; voir R2BE-02. Aucun contour, siège administratif ou contrôle militaire au jour près n’est déduit de cette fiche."
+     },
+     "sources": [
+      {
+       "source_id": "src-be-annuaire-statistique-1942",
+       "locator": "p.2 (vue42), état au 31/12/1939 ; p.6 (vue46), ligne Tournai",
+       "usage": "nomenclature antérieure ; rang et rattachement"
+      },
+      {
+       "source_id": "src-statbel-recensement-1947-tome1",
+       "locator": "p.166–167, tableau12 ; ligne Tournai",
+       "usage": "recoupement rétrospectif de la nomenclature et de la continuité des limites administratives de droit"
+      }
+     ]
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-be-liege",
+   "type_entite": "subdivision",
+   "nom": "Liège",
+   "nom_court": "Liège",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_par_recoupement",
+     "proprietes": {
+      "nom": "Liége",
+      "niveau": 1,
+      "echelon": 1,
+      "parent_id": "territoire-be-belgique",
+      "souverainete_id": "belgique",
+      "statut_administratif": "province",
+      "preuve_temporelle": "recoupement_anterieur_et_posterieur_au_snapshot",
+      "reserves": [
+       "R2BE-01",
+       "R2BE-02",
+       "R2BE-03",
+       "R2BE-04",
+       "R2BE-05"
+      ],
+      "note": "Nomenclature de droit proposée par recoupement ; voir R2BE-02. Aucun contour, siège administratif ou contrôle militaire au jour près n’est déduit de cette fiche. Liége dans le document parlementaire de février 1945, Liège dans le recensement de 1947 ; variantes conservées sans dater leur changement.",
+      "autres_noms_hors_date": [
+       {
+        "nom": "Luik",
+        "langue": "nl",
+        "source_id": "src-be-chambre-43-1945-02-06",
+        "date_attestation": "1945-02-06",
+        "note": "Forme parallèle du document, pas une substitution ni un changement de nom."
+       }
+      ]
+     },
+     "sources": [
+      {
+       "source_id": "src-be-annuaire-statistique-1942",
+       "locator": "p.2 (vue42), état au 31/12/1939 ; p.6 (vue46), ligne Liège",
+       "usage": "nomenclature antérieure ; rang et rattachement"
+      },
+      {
+       "source_id": "src-statbel-recensement-1947-tome1",
+       "locator": "p.166–167, tableau12 ; ligne Liège",
+       "usage": "recoupement rétrospectif de la nomenclature et de la continuité des limites administratives de droit"
+      },
+      {
+       "source_id": "src-be-chambre-43-1945-02-06",
+       "locator": "p.3, tableau des provinces, ligne Liége",
+       "usage": "forme française et forme néerlandaise attestées le 06/02/1945"
+      },
+      {
+       "source_id": "src-cegesoma-brull-annexion-cantons-est",
+       "locator": "sections Mai 1940 et Dans le Reich allemand",
+       "usage": "contexte de l’annexion de fait ; pas de transfert de souveraineté dans ces fiches"
+      }
+     ]
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-be-arrondissement-huy",
+   "type_entite": "subdivision",
+   "nom": "Huy",
+   "nom_court": "Huy",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_par_recoupement",
+     "proprietes": {
+      "nom": "Huy",
+      "niveau": 2,
+      "echelon": 2,
+      "parent_id": "subdivision-be-liege",
+      "souverainete_id": "belgique",
+      "statut_administratif": "arrondissement administratif",
+      "preuve_temporelle": "recoupement_anterieur_et_posterieur_au_snapshot",
+      "reserves": [
+       "R2BE-01",
+       "R2BE-02",
+       "R2BE-03",
+       "R2BE-05"
+      ],
+      "note": "Nomenclature de droit proposée par recoupement ; voir R2BE-02. Aucun contour, siège administratif ou contrôle militaire au jour près n’est déduit de cette fiche."
+     },
+     "sources": [
+      {
+       "source_id": "src-be-annuaire-statistique-1942",
+       "locator": "p.2 (vue42), état au 31/12/1939 ; p.6 (vue46), ligne Huy",
+       "usage": "nomenclature antérieure ; rang et rattachement"
+      },
+      {
+       "source_id": "src-statbel-recensement-1947-tome1",
+       "locator": "p.166–167, tableau12 ; ligne Huy",
+       "usage": "recoupement rétrospectif de la nomenclature et de la continuité des limites administratives de droit"
+      },
+      {
+       "source_id": "src-cegesoma-brull-annexion-cantons-est",
+       "locator": "sections Mai 1940 et Dans le Reich allemand",
+       "usage": "contexte de l’annexion de fait ; pas de transfert de souveraineté dans ces fiches"
+      }
+     ]
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-be-arrondissement-liege",
+   "type_entite": "subdivision",
+   "nom": "Liège",
+   "nom_court": "Liège",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_par_recoupement",
+     "proprietes": {
+      "nom": "Liége",
+      "niveau": 2,
+      "echelon": 2,
+      "parent_id": "subdivision-be-liege",
+      "souverainete_id": "belgique",
+      "statut_administratif": "arrondissement administratif",
+      "preuve_temporelle": "recoupement_anterieur_et_posterieur_au_snapshot",
+      "reserves": [
+       "R2BE-01",
+       "R2BE-02",
+       "R2BE-03",
+       "R2BE-04",
+       "R2BE-05"
+      ],
+      "note": "Nomenclature de droit proposée par recoupement ; voir R2BE-02. Aucun contour, siège administratif ou contrôle militaire au jour près n’est déduit de cette fiche. Liége dans le document parlementaire de février 1945, Liège dans le recensement de 1947 ; variantes conservées sans dater leur changement."
+     },
+     "sources": [
+      {
+       "source_id": "src-be-annuaire-statistique-1942",
+       "locator": "p.2 (vue42), état au 31/12/1939 ; p.6 (vue46), ligne Liège",
+       "usage": "nomenclature antérieure ; rang et rattachement"
+      },
+      {
+       "source_id": "src-statbel-recensement-1947-tome1",
+       "locator": "p.166–167, tableau12 ; ligne Liège",
+       "usage": "recoupement rétrospectif de la nomenclature et de la continuité des limites administratives de droit"
+      },
+      {
+       "source_id": "src-cegesoma-brull-annexion-cantons-est",
+       "locator": "sections Mai 1940 et Dans le Reich allemand",
+       "usage": "contexte de l’annexion de fait ; pas de transfert de souveraineté dans ces fiches"
+      }
+     ]
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-be-arrondissement-verviers",
+   "type_entite": "subdivision",
+   "nom": "Verviers",
+   "nom_court": "Verviers",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_par_recoupement",
+     "proprietes": {
+      "nom": "Verviers",
+      "niveau": 2,
+      "echelon": 2,
+      "parent_id": "subdivision-be-liege",
+      "souverainete_id": "belgique",
+      "statut_administratif": "arrondissement administratif",
+      "preuve_temporelle": "recoupement_anterieur_et_posterieur_au_snapshot",
+      "reserves": [
+       "R2BE-01",
+       "R2BE-02",
+       "R2BE-03",
+       "R2BE-05"
+      ],
+      "note": "Nomenclature de droit proposée par recoupement ; voir R2BE-02. Aucun contour, siège administratif ou contrôle militaire au jour près n’est déduit de cette fiche."
+     },
+     "sources": [
+      {
+       "source_id": "src-be-annuaire-statistique-1942",
+       "locator": "p.2 (vue42), état au 31/12/1939 ; p.6 (vue46), ligne Verviers",
+       "usage": "nomenclature antérieure ; rang et rattachement"
+      },
+      {
+       "source_id": "src-statbel-recensement-1947-tome1",
+       "locator": "p.166–167, tableau12 ; ligne Verviers",
+       "usage": "recoupement rétrospectif de la nomenclature et de la continuité des limites administratives de droit"
+      },
+      {
+       "source_id": "src-cegesoma-brull-annexion-cantons-est",
+       "locator": "sections Mai 1940 et Dans le Reich allemand",
+       "usage": "contexte de l’annexion de fait ; pas de transfert de souveraineté dans ces fiches"
+      }
+     ]
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-be-arrondissement-waremme",
+   "type_entite": "subdivision",
+   "nom": "Waremme",
+   "nom_court": "Waremme",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_par_recoupement",
+     "proprietes": {
+      "nom": "Waremme",
+      "niveau": 2,
+      "echelon": 2,
+      "parent_id": "subdivision-be-liege",
+      "souverainete_id": "belgique",
+      "statut_administratif": "arrondissement administratif",
+      "preuve_temporelle": "recoupement_anterieur_et_posterieur_au_snapshot",
+      "reserves": [
+       "R2BE-01",
+       "R2BE-02",
+       "R2BE-03",
+       "R2BE-05"
+      ],
+      "note": "Nomenclature de droit proposée par recoupement ; voir R2BE-02. Aucun contour, siège administratif ou contrôle militaire au jour près n’est déduit de cette fiche."
+     },
+     "sources": [
+      {
+       "source_id": "src-be-annuaire-statistique-1942",
+       "locator": "p.2 (vue42), état au 31/12/1939 ; p.6 (vue46), ligne Waremme",
+       "usage": "nomenclature antérieure ; rang et rattachement"
+      },
+      {
+       "source_id": "src-statbel-recensement-1947-tome1",
+       "locator": "p.166–167, tableau12 ; ligne Waremme",
+       "usage": "recoupement rétrospectif de la nomenclature et de la continuité des limites administratives de droit"
+      },
+      {
+       "source_id": "src-cegesoma-brull-annexion-cantons-est",
+       "locator": "sections Mai 1940 et Dans le Reich allemand",
+       "usage": "contexte de l’annexion de fait ; pas de transfert de souveraineté dans ces fiches"
+      }
+     ]
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-be-limbourg",
+   "type_entite": "subdivision",
+   "nom": "Limbourg",
+   "nom_court": "Limbourg",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_par_recoupement",
+     "proprietes": {
+      "nom": "Limbourg",
+      "niveau": 1,
+      "echelon": 1,
+      "parent_id": "territoire-be-belgique",
+      "souverainete_id": "belgique",
+      "statut_administratif": "province",
+      "preuve_temporelle": "recoupement_anterieur_et_posterieur_au_snapshot",
+      "reserves": [
+       "R2BE-01",
+       "R2BE-02",
+       "R2BE-03"
+      ],
+      "note": "Nomenclature de droit proposée par recoupement ; voir R2BE-02. Aucun contour, siège administratif ou contrôle militaire au jour près n’est déduit de cette fiche.",
+      "autres_noms_hors_date": [
+       {
+        "nom": "Limburg",
+        "langue": "nl",
+        "source_id": "src-be-chambre-43-1945-02-06",
+        "date_attestation": "1945-02-06",
+        "note": "Forme parallèle du document, pas une substitution ni un changement de nom."
+       }
+      ]
+     },
+     "sources": [
+      {
+       "source_id": "src-be-annuaire-statistique-1942",
+       "locator": "p.2 (vue42), état au 31/12/1939 ; p.6 (vue46), ligne Limbourg",
+       "usage": "nomenclature antérieure ; rang et rattachement"
+      },
+      {
+       "source_id": "src-statbel-recensement-1947-tome1",
+       "locator": "p.166–167, tableau12 ; ligne Limbourg",
+       "usage": "recoupement rétrospectif de la nomenclature et de la continuité des limites administratives de droit"
+      },
+      {
+       "source_id": "src-be-chambre-43-1945-02-06",
+       "locator": "p.3, tableau des provinces, ligne Limbourg",
+       "usage": "forme française et forme néerlandaise attestées le 06/02/1945"
+      }
+     ]
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-be-arrondissement-hasselt",
+   "type_entite": "subdivision",
+   "nom": "Hasselt",
+   "nom_court": "Hasselt",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_par_recoupement",
+     "proprietes": {
+      "nom": "Hasselt",
+      "niveau": 2,
+      "echelon": 2,
+      "parent_id": "subdivision-be-limbourg",
+      "souverainete_id": "belgique",
+      "statut_administratif": "arrondissement administratif",
+      "preuve_temporelle": "recoupement_anterieur_et_posterieur_au_snapshot",
+      "reserves": [
+       "R2BE-01",
+       "R2BE-02",
+       "R2BE-03"
+      ],
+      "note": "Nomenclature de droit proposée par recoupement ; voir R2BE-02. Aucun contour, siège administratif ou contrôle militaire au jour près n’est déduit de cette fiche."
+     },
+     "sources": [
+      {
+       "source_id": "src-be-annuaire-statistique-1942",
+       "locator": "p.2 (vue42), état au 31/12/1939 ; p.6 (vue46), ligne Hasselt",
+       "usage": "nomenclature antérieure ; rang et rattachement"
+      },
+      {
+       "source_id": "src-statbel-recensement-1947-tome1",
+       "locator": "p.166–167, tableau12 ; ligne Hasselt",
+       "usage": "recoupement rétrospectif de la nomenclature et de la continuité des limites administratives de droit"
+      }
+     ]
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-be-arrondissement-maaseik",
+   "type_entite": "subdivision",
+   "nom": "Maaseik",
+   "nom_court": "Maaseik",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_par_recoupement",
+     "proprietes": {
+      "nom": "Maaseik",
+      "niveau": 2,
+      "echelon": 2,
+      "parent_id": "subdivision-be-limbourg",
+      "souverainete_id": "belgique",
+      "statut_administratif": "arrondissement administratif",
+      "preuve_temporelle": "recoupement_anterieur_et_posterieur_au_snapshot",
+      "reserves": [
+       "R2BE-01",
+       "R2BE-02",
+       "R2BE-03"
+      ],
+      "note": "Nomenclature de droit proposée par recoupement ; voir R2BE-02. Aucun contour, siège administratif ou contrôle militaire au jour près n’est déduit de cette fiche."
+     },
+     "sources": [
+      {
+       "source_id": "src-be-annuaire-statistique-1942",
+       "locator": "p.2 (vue42), état au 31/12/1939 ; p.6 (vue46), ligne Maaseik",
+       "usage": "nomenclature antérieure ; rang et rattachement"
+      },
+      {
+       "source_id": "src-statbel-recensement-1947-tome1",
+       "locator": "p.166–167, tableau12 ; ligne Maaseik",
+       "usage": "recoupement rétrospectif de la nomenclature et de la continuité des limites administratives de droit"
+      }
+     ]
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-be-arrondissement-tongres",
+   "type_entite": "subdivision",
+   "nom": "Tongres",
+   "nom_court": "Tongres",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_par_recoupement",
+     "proprietes": {
+      "nom": "Tongres",
+      "niveau": 2,
+      "echelon": 2,
+      "parent_id": "subdivision-be-limbourg",
+      "souverainete_id": "belgique",
+      "statut_administratif": "arrondissement administratif",
+      "preuve_temporelle": "recoupement_anterieur_et_posterieur_au_snapshot",
+      "reserves": [
+       "R2BE-01",
+       "R2BE-02",
+       "R2BE-03"
+      ],
+      "note": "Nomenclature de droit proposée par recoupement ; voir R2BE-02. Aucun contour, siège administratif ou contrôle militaire au jour près n’est déduit de cette fiche."
+     },
+     "sources": [
+      {
+       "source_id": "src-be-annuaire-statistique-1942",
+       "locator": "p.2 (vue42), état au 31/12/1939 ; p.6 (vue46), ligne Tongres",
+       "usage": "nomenclature antérieure ; rang et rattachement"
+      },
+      {
+       "source_id": "src-statbel-recensement-1947-tome1",
+       "locator": "p.166–167, tableau12 ; ligne Tongres",
+       "usage": "recoupement rétrospectif de la nomenclature et de la continuité des limites administratives de droit"
+      }
+     ]
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-be-luxembourg",
+   "type_entite": "subdivision",
+   "nom": "Luxembourg",
+   "nom_court": "Luxembourg",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_par_recoupement",
+     "proprietes": {
+      "nom": "Luxembourg",
+      "niveau": 1,
+      "echelon": 1,
+      "parent_id": "territoire-be-belgique",
+      "souverainete_id": "belgique",
+      "statut_administratif": "province",
+      "preuve_temporelle": "recoupement_anterieur_et_posterieur_au_snapshot",
+      "reserves": [
+       "R2BE-01",
+       "R2BE-02",
+       "R2BE-03",
+       "R2BE-05"
+      ],
+      "note": "Nomenclature de droit proposée par recoupement ; voir R2BE-02. Aucun contour, siège administratif ou contrôle militaire au jour près n’est déduit de cette fiche.",
+      "autres_noms_hors_date": [
+       {
+        "nom": "Luxemburg",
+        "langue": "nl",
+        "source_id": "src-be-chambre-43-1945-02-06",
+        "date_attestation": "1945-02-06",
+        "note": "Forme parallèle du document, pas une substitution ni un changement de nom."
+       }
+      ]
+     },
+     "sources": [
+      {
+       "source_id": "src-be-annuaire-statistique-1942",
+       "locator": "p.2 (vue42), état au 31/12/1939 ; p.6 (vue46), ligne Luxembourg",
+       "usage": "nomenclature antérieure ; rang et rattachement"
+      },
+      {
+       "source_id": "src-statbel-recensement-1947-tome1",
+       "locator": "p.166–167, tableau12 ; ligne Luxembourg",
+       "usage": "recoupement rétrospectif de la nomenclature et de la continuité des limites administratives de droit"
+      },
+      {
+       "source_id": "src-be-chambre-43-1945-02-06",
+       "locator": "p.3, tableau des provinces, ligne Luxembourg",
+       "usage": "forme française et forme néerlandaise attestées le 06/02/1945"
+      },
+      {
+       "source_id": "src-cegesoma-brull-annexion-cantons-est",
+       "locator": "sections Mai 1940 et Dans le Reich allemand",
+       "usage": "contexte de l’annexion de fait ; pas de transfert de souveraineté dans ces fiches"
+      }
+     ]
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-be-arrondissement-arlon",
+   "type_entite": "subdivision",
+   "nom": "Arlon",
+   "nom_court": "Arlon",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_par_recoupement",
+     "proprietes": {
+      "nom": "Arlon",
+      "niveau": 2,
+      "echelon": 2,
+      "parent_id": "subdivision-be-luxembourg",
+      "souverainete_id": "belgique",
+      "statut_administratif": "arrondissement administratif",
+      "preuve_temporelle": "recoupement_anterieur_et_posterieur_au_snapshot",
+      "reserves": [
+       "R2BE-01",
+       "R2BE-02",
+       "R2BE-03",
+       "R2BE-05"
+      ],
+      "note": "Nomenclature de droit proposée par recoupement ; voir R2BE-02. Aucun contour, siège administratif ou contrôle militaire au jour près n’est déduit de cette fiche."
+     },
+     "sources": [
+      {
+       "source_id": "src-be-annuaire-statistique-1942",
+       "locator": "p.2 (vue42), état au 31/12/1939 ; p.6 (vue46), ligne Arlon",
+       "usage": "nomenclature antérieure ; rang et rattachement"
+      },
+      {
+       "source_id": "src-statbel-recensement-1947-tome1",
+       "locator": "p.166–167, tableau12 ; ligne Arlon",
+       "usage": "recoupement rétrospectif de la nomenclature et de la continuité des limites administratives de droit"
+      },
+      {
+       "source_id": "src-cegesoma-brull-annexion-cantons-est",
+       "locator": "sections Mai 1940 et Dans le Reich allemand",
+       "usage": "contexte de l’annexion de fait ; pas de transfert de souveraineté dans ces fiches"
+      }
+     ]
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-be-arrondissement-bastogne",
+   "type_entite": "subdivision",
+   "nom": "Bastogne",
+   "nom_court": "Bastogne",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_par_recoupement",
+     "proprietes": {
+      "nom": "Bastogne",
+      "niveau": 2,
+      "echelon": 2,
+      "parent_id": "subdivision-be-luxembourg",
+      "souverainete_id": "belgique",
+      "statut_administratif": "arrondissement administratif",
+      "preuve_temporelle": "recoupement_anterieur_et_posterieur_au_snapshot",
+      "reserves": [
+       "R2BE-01",
+       "R2BE-02",
+       "R2BE-03",
+       "R2BE-05"
+      ],
+      "note": "Nomenclature de droit proposée par recoupement ; voir R2BE-02. Aucun contour, siège administratif ou contrôle militaire au jour près n’est déduit de cette fiche."
+     },
+     "sources": [
+      {
+       "source_id": "src-be-annuaire-statistique-1942",
+       "locator": "p.2 (vue42), état au 31/12/1939 ; p.6 (vue46), ligne Bastogne",
+       "usage": "nomenclature antérieure ; rang et rattachement"
+      },
+      {
+       "source_id": "src-statbel-recensement-1947-tome1",
+       "locator": "p.166–167, tableau12 ; ligne Bastogne",
+       "usage": "recoupement rétrospectif de la nomenclature et de la continuité des limites administratives de droit"
+      },
+      {
+       "source_id": "src-cegesoma-brull-annexion-cantons-est",
+       "locator": "sections Mai 1940 et Dans le Reich allemand",
+       "usage": "contexte de l’annexion de fait ; pas de transfert de souveraineté dans ces fiches"
+      }
+     ]
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-be-arrondissement-marche-en-famenne",
+   "type_entite": "subdivision",
+   "nom": "Marche-en-Famenne",
+   "nom_court": "Marche-en-Famenne",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_par_recoupement",
+     "proprietes": {
+      "nom": "Marche-en-Famenne",
+      "niveau": 2,
+      "echelon": 2,
+      "parent_id": "subdivision-be-luxembourg",
+      "souverainete_id": "belgique",
+      "statut_administratif": "arrondissement administratif",
+      "preuve_temporelle": "recoupement_anterieur_et_posterieur_au_snapshot",
+      "reserves": [
+       "R2BE-01",
+       "R2BE-02",
+       "R2BE-03",
+       "R2BE-05"
+      ],
+      "note": "Nomenclature de droit proposée par recoupement ; voir R2BE-02. Aucun contour, siège administratif ou contrôle militaire au jour près n’est déduit de cette fiche."
+     },
+     "sources": [
+      {
+       "source_id": "src-be-annuaire-statistique-1942",
+       "locator": "p.2 (vue42), état au 31/12/1939 ; p.6 (vue46), ligne Marche-en-Famenne",
+       "usage": "nomenclature antérieure ; rang et rattachement"
+      },
+      {
+       "source_id": "src-statbel-recensement-1947-tome1",
+       "locator": "p.166–167, tableau12 ; ligne Marche-en-Famenne",
+       "usage": "recoupement rétrospectif de la nomenclature et de la continuité des limites administratives de droit"
+      },
+      {
+       "source_id": "src-cegesoma-brull-annexion-cantons-est",
+       "locator": "sections Mai 1940 et Dans le Reich allemand",
+       "usage": "contexte de l’annexion de fait ; pas de transfert de souveraineté dans ces fiches"
+      }
+     ]
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-be-arrondissement-neufchateau",
+   "type_entite": "subdivision",
+   "nom": "Neufchâteau",
+   "nom_court": "Neufchâteau",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_par_recoupement",
+     "proprietes": {
+      "nom": "Neufchâteau",
+      "niveau": 2,
+      "echelon": 2,
+      "parent_id": "subdivision-be-luxembourg",
+      "souverainete_id": "belgique",
+      "statut_administratif": "arrondissement administratif",
+      "preuve_temporelle": "recoupement_anterieur_et_posterieur_au_snapshot",
+      "reserves": [
+       "R2BE-01",
+       "R2BE-02",
+       "R2BE-03",
+       "R2BE-05"
+      ],
+      "note": "Nomenclature de droit proposée par recoupement ; voir R2BE-02. Aucun contour, siège administratif ou contrôle militaire au jour près n’est déduit de cette fiche."
+     },
+     "sources": [
+      {
+       "source_id": "src-be-annuaire-statistique-1942",
+       "locator": "p.2 (vue42), état au 31/12/1939 ; p.6 (vue46), ligne Neufchâteau",
+       "usage": "nomenclature antérieure ; rang et rattachement"
+      },
+      {
+       "source_id": "src-statbel-recensement-1947-tome1",
+       "locator": "p.166–167, tableau12 ; ligne Neufchâteau",
+       "usage": "recoupement rétrospectif de la nomenclature et de la continuité des limites administratives de droit"
+      },
+      {
+       "source_id": "src-cegesoma-brull-annexion-cantons-est",
+       "locator": "sections Mai 1940 et Dans le Reich allemand",
+       "usage": "contexte de l’annexion de fait ; pas de transfert de souveraineté dans ces fiches"
+      }
+     ]
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-be-arrondissement-virton",
+   "type_entite": "subdivision",
+   "nom": "Virton",
+   "nom_court": "Virton",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_par_recoupement",
+     "proprietes": {
+      "nom": "Virton",
+      "niveau": 2,
+      "echelon": 2,
+      "parent_id": "subdivision-be-luxembourg",
+      "souverainete_id": "belgique",
+      "statut_administratif": "arrondissement administratif",
+      "preuve_temporelle": "recoupement_anterieur_et_posterieur_au_snapshot",
+      "reserves": [
+       "R2BE-01",
+       "R2BE-02",
+       "R2BE-03",
+       "R2BE-05"
+      ],
+      "note": "Nomenclature de droit proposée par recoupement ; voir R2BE-02. Aucun contour, siège administratif ou contrôle militaire au jour près n’est déduit de cette fiche."
+     },
+     "sources": [
+      {
+       "source_id": "src-be-annuaire-statistique-1942",
+       "locator": "p.2 (vue42), état au 31/12/1939 ; p.6 (vue46), ligne Virton",
+       "usage": "nomenclature antérieure ; rang et rattachement"
+      },
+      {
+       "source_id": "src-statbel-recensement-1947-tome1",
+       "locator": "p.166–167, tableau12 ; ligne Virton",
+       "usage": "recoupement rétrospectif de la nomenclature et de la continuité des limites administratives de droit"
+      },
+      {
+       "source_id": "src-cegesoma-brull-annexion-cantons-est",
+       "locator": "sections Mai 1940 et Dans le Reich allemand",
+       "usage": "contexte de l’annexion de fait ; pas de transfert de souveraineté dans ces fiches"
+      }
+     ]
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-be-namur",
+   "type_entite": "subdivision",
+   "nom": "Namur",
+   "nom_court": "Namur",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_par_recoupement",
+     "proprietes": {
+      "nom": "Namur",
+      "niveau": 1,
+      "echelon": 1,
+      "parent_id": "territoire-be-belgique",
+      "souverainete_id": "belgique",
+      "statut_administratif": "province",
+      "preuve_temporelle": "recoupement_anterieur_et_posterieur_au_snapshot",
+      "reserves": [
+       "R2BE-01",
+       "R2BE-02",
+       "R2BE-03"
+      ],
+      "note": "Nomenclature de droit proposée par recoupement ; voir R2BE-02. Aucun contour, siège administratif ou contrôle militaire au jour près n’est déduit de cette fiche.",
+      "autres_noms_hors_date": [
+       {
+        "nom": "Namen",
+        "langue": "nl",
+        "source_id": "src-be-chambre-43-1945-02-06",
+        "date_attestation": "1945-02-06",
+        "note": "Forme parallèle du document, pas une substitution ni un changement de nom."
+       }
+      ]
+     },
+     "sources": [
+      {
+       "source_id": "src-be-annuaire-statistique-1942",
+       "locator": "p.2 (vue42), état au 31/12/1939 ; p.6 (vue46), ligne Namur",
+       "usage": "nomenclature antérieure ; rang et rattachement"
+      },
+      {
+       "source_id": "src-statbel-recensement-1947-tome1",
+       "locator": "p.166–167, tableau12 ; ligne Namur",
+       "usage": "recoupement rétrospectif de la nomenclature et de la continuité des limites administratives de droit"
+      },
+      {
+       "source_id": "src-be-chambre-43-1945-02-06",
+       "locator": "p.3, tableau des provinces, ligne Namur",
+       "usage": "forme française et forme néerlandaise attestées le 06/02/1945"
+      }
+     ]
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-be-arrondissement-dinant",
+   "type_entite": "subdivision",
+   "nom": "Dinant",
+   "nom_court": "Dinant",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_par_recoupement",
+     "proprietes": {
+      "nom": "Dinant",
+      "niveau": 2,
+      "echelon": 2,
+      "parent_id": "subdivision-be-namur",
+      "souverainete_id": "belgique",
+      "statut_administratif": "arrondissement administratif",
+      "preuve_temporelle": "recoupement_anterieur_et_posterieur_au_snapshot",
+      "reserves": [
+       "R2BE-01",
+       "R2BE-02",
+       "R2BE-03"
+      ],
+      "note": "Nomenclature de droit proposée par recoupement ; voir R2BE-02. Aucun contour, siège administratif ou contrôle militaire au jour près n’est déduit de cette fiche."
+     },
+     "sources": [
+      {
+       "source_id": "src-be-annuaire-statistique-1942",
+       "locator": "p.2 (vue42), état au 31/12/1939 ; p.6 (vue46), ligne Dinant",
+       "usage": "nomenclature antérieure ; rang et rattachement"
+      },
+      {
+       "source_id": "src-statbel-recensement-1947-tome1",
+       "locator": "p.166–167, tableau12 ; ligne Dinant",
+       "usage": "recoupement rétrospectif de la nomenclature et de la continuité des limites administratives de droit"
+      }
+     ]
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-be-arrondissement-namur",
+   "type_entite": "subdivision",
+   "nom": "Namur",
+   "nom_court": "Namur",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_par_recoupement",
+     "proprietes": {
+      "nom": "Namur",
+      "niveau": 2,
+      "echelon": 2,
+      "parent_id": "subdivision-be-namur",
+      "souverainete_id": "belgique",
+      "statut_administratif": "arrondissement administratif",
+      "preuve_temporelle": "recoupement_anterieur_et_posterieur_au_snapshot",
+      "reserves": [
+       "R2BE-01",
+       "R2BE-02",
+       "R2BE-03"
+      ],
+      "note": "Nomenclature de droit proposée par recoupement ; voir R2BE-02. Aucun contour, siège administratif ou contrôle militaire au jour près n’est déduit de cette fiche."
+     },
+     "sources": [
+      {
+       "source_id": "src-be-annuaire-statistique-1942",
+       "locator": "p.2 (vue42), état au 31/12/1939 ; p.6 (vue46), ligne Namur",
+       "usage": "nomenclature antérieure ; rang et rattachement"
+      },
+      {
+       "source_id": "src-statbel-recensement-1947-tome1",
+       "locator": "p.166–167, tableau12 ; ligne Namur",
+       "usage": "recoupement rétrospectif de la nomenclature et de la continuité des limites administratives de droit"
+      }
+     ]
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-be-arrondissement-philippeville",
+   "type_entite": "subdivision",
+   "nom": "Philippeville",
+   "nom_court": "Philippeville",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_par_recoupement",
+     "proprietes": {
+      "nom": "Philippeville",
+      "niveau": 2,
+      "echelon": 2,
+      "parent_id": "subdivision-be-namur",
+      "souverainete_id": "belgique",
+      "statut_administratif": "arrondissement administratif",
+      "preuve_temporelle": "recoupement_anterieur_et_posterieur_au_snapshot",
+      "reserves": [
+       "R2BE-01",
+       "R2BE-02",
+       "R2BE-03"
+      ],
+      "note": "Nomenclature de droit proposée par recoupement ; voir R2BE-02. Aucun contour, siège administratif ou contrôle militaire au jour près n’est déduit de cette fiche."
+     },
+     "sources": [
+      {
+       "source_id": "src-be-annuaire-statistique-1942",
+       "locator": "p.2 (vue42), état au 31/12/1939 ; p.6 (vue46), ligne Philippeville",
+       "usage": "nomenclature antérieure ; rang et rattachement"
+      },
+      {
+       "source_id": "src-statbel-recensement-1947-tome1",
+       "locator": "p.166–167, tableau12 ; ligne Philippeville",
+       "usage": "recoupement rétrospectif de la nomenclature et de la continuité des limites administratives de droit"
+      }
+     ]
+    }
+   ],
+   "relations": []
+  }
+ ]
+}

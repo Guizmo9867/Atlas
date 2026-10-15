@@ -1,5 +1,5 @@
 {
- "genere_le": "2026-10-15 16:30",
+ "genere_le": "2026-10-15 20:17",
  "snapshot0": {
   "date_representee": "1945-01-01 00:00 (dernier état connu avant)",
   "territoires": 74,
@@ -78,6 +78,14 @@
     "entites": {
      "territoire": 36,
      "ligne_front": 1
+    }
+   },
+   {
+    "fichier": "subdivisions_2-BE.json",
+    "version": "1.0",
+    "zone": null,
+    "entites": {
+     "subdivision": 50
     }
    },
    {
@@ -302,27 +310,27 @@
   ]
  },
  "sources": {
-  "registre_version": "1.32",
-  "total": 898,
+  "registre_version": "1.33",
+  "total": 903,
   "relecture_claude": {
-   "ok": 589,
-   "limite": 159,
+   "ok": 593,
+   "limite": 160,
    "non_verifiee": 136,
    "faible": 6,
    "lien_casse": 8
   },
   "niveaux": {
-   "A": 162,
-   "B": 703,
+   "A": 165,
+   "B": 705,
    "C": 33
   },
-  "en_attente_de_validation_humaine": 306,
+  "en_attente_de_validation_humaine": 307,
   "validees_par_guizmo": 3
  },
  "historique": {
-  "envois_github": 63,
+  "envois_github": 67,
   "premier_envoi": "2026-09-28",
-  "dernier_envoi": "2026-10-09",
+  "dernier_envoi": "2026-10-15",
   "depot_public": "https://github.com/Guizmo9867/Atlas"
  }
 }

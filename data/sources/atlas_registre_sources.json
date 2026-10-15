@@ -1,7 +1,7 @@
 {
  "metadata": {
   "nom": "registre_sources_atlas",
-  "version": "1.32",
+  "version": "1.33",
   "date_creation": "2026-09-26",
   "principe": "Une source = un source_id stable. Les fiches événements/entités peuvent référencer ce source_id et préciser l'usage/locator.",
   "statut": "registre_initial_a_completer"
@@ -43322,6 +43322,301 @@
     }
    ],
    "verification_claude_ether": "non_verifiee"
+  },
+  {
+   "source_id": "src-be-annuaire-statistique-1942",
+   "niveau": "A",
+   "type_source": "document_officiel",
+   "titre": "Annuaire statistique de la Belgique et du Congo belge, 1942, tome LXIV",
+   "institution": "Office central de statistique, Ministère des Affaires économiques",
+   "url": "https://pbc.gda.pl/Content/132625/1942.pdf",
+   "date_consultation": "2026-10-15",
+   "periode_couverte": [],
+   "zones": [
+    "BE"
+   ],
+   "usages_atlas": [
+    "subdivisions_snapshot0"
+   ],
+   "cibles": [
+    "subdivision-be-anvers",
+    "subdivision-be-arrondissement-anvers",
+    "subdivision-be-arrondissement-malines",
+    "subdivision-be-arrondissement-turnhout",
+    "subdivision-be-brabant",
+    "subdivision-be-arrondissement-bruxelles",
+    "subdivision-be-arrondissement-louvain",
+    "subdivision-be-arrondissement-nivelles",
+    "subdivision-be-flandre-occidentale",
+    "subdivision-be-arrondissement-bruges",
+    "subdivision-be-arrondissement-dixmude",
+    "subdivision-be-arrondissement-ypres",
+    "subdivision-be-arrondissement-courtrai",
+    "subdivision-be-arrondissement-ostende",
+    "subdivision-be-arrondissement-roulers",
+    "subdivision-be-arrondissement-tielt",
+    "subdivision-be-arrondissement-furnes",
+    "subdivision-be-flandre-orientale",
+    "subdivision-be-arrondissement-alost",
+    "subdivision-be-arrondissement-termonde",
+    "subdivision-be-arrondissement-eeklo",
+    "subdivision-be-arrondissement-gand",
+    "subdivision-be-arrondissement-audenarde",
+    "subdivision-be-arrondissement-saint-nicolas",
+    "subdivision-be-hainaut",
+    "subdivision-be-arrondissement-ath",
+    "subdivision-be-arrondissement-charleroi",
+    "subdivision-be-arrondissement-mons",
+    "subdivision-be-arrondissement-soignies",
+    "subdivision-be-arrondissement-thuin",
+    "subdivision-be-arrondissement-tournai",
+    "subdivision-be-liege",
+    "subdivision-be-arrondissement-huy",
+    "subdivision-be-arrondissement-liege",
+    "subdivision-be-arrondissement-verviers",
+    "subdivision-be-arrondissement-waremme",
+    "subdivision-be-limbourg",
+    "subdivision-be-arrondissement-hasselt",
+    "subdivision-be-arrondissement-maaseik",
+    "subdivision-be-arrondissement-tongres",
+    "subdivision-be-luxembourg",
+    "subdivision-be-arrondissement-arlon",
+    "subdivision-be-arrondissement-bastogne",
+    "subdivision-be-arrondissement-marche-en-famenne",
+    "subdivision-be-arrondissement-neufchateau",
+    "subdivision-be-arrondissement-virton",
+    "subdivision-be-namur",
+    "subdivision-be-arrondissement-dinant",
+    "subdivision-be-arrondissement-namur",
+    "subdivision-be-arrondissement-philippeville"
+   ],
+   "locator": "p.2 et6 ; vuesPDF42 et46",
+   "resume_passage": "PDF non récupérable par l'outil de lecture ; captures d'Ether lues par Claude : p. 2 « Divisions administratives et judiciaires, 31.XII.1939 » (9 provinces, 41 arrondissements administratifs ; note (c) : 41 communes soustraites en 1940 à la juridiction administrative belge) et p. 6 (liste nominative des 41 arrondissements par province, état au 31/12/1930).",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "lu",
+    "date": "2026-10-15",
+    "mode": "PDF et captures visuelles"
+   },
+   "notes": "Proposée par Ether (lot 2.BE, cycle 1). Ce que la source prouve selon Ether : 9 provinces et41 arrondissements ; noms, rangs et rattachements. Limite annoncée par Ether : p.2 : état au 31/12/1939 ; note(c) sur les41 communes soustraites en1940 à la juridiction belge. p.6 : tableau du recensement1930. Ni population ni superficie reportée au Snapshot. Relecture Claude 2026-10-15 : PDF non récupérable par l'outil de lecture ; captures d'Ether lues par Claude : p. 2 « Divisions administratives et judiciaires, 31.XII.1939 » (9 provinces, 41 arrondissements administratifs ; note (c) : 41 communes soustraites en 1940 à la juridiction administrative belge) et p. 6 (liste nominative des 41 arrondissements par province, état au 31/12/1930).",
+   "auteur": "Office central de statistique, Ministère des Affaires économiques",
+   "archives_locales": [
+    "01_lots/2.BE/preuves/Annuaire_1942_pbc.pdf",
+    "01_lots/2.BE/preuves/Annuaire_1942_p2.png",
+    "01_lots/2.BE/preuves/Annuaire_1942_p6.png"
+   ],
+   "droits": "Consultation documentaire et faits sourcés ; aucune autorisation de publier une géométrie déduite de ce document."
+  },
+  {
+   "source_id": "src-be-chambre-43-1945-02-06",
+   "niveau": "A",
+   "type_source": "document_officiel",
+   "titre": "Chambre des représentants, document43, session1944–1945, 6février1945",
+   "institution": "Chambre des représentants de Belgique",
+   "url": "https://www.lachambre.be/digidoc/DPS/K3123/K31230112/K31230112.pdf",
+   "date_consultation": "2026-10-15",
+   "periode_couverte": [],
+   "zones": [
+    "BE"
+   ],
+   "usages_atlas": [
+    "subdivisions_snapshot0"
+   ],
+   "cibles": [
+    "subdivision-be-anvers",
+    "subdivision-be-brabant",
+    "subdivision-be-flandre-occidentale",
+    "subdivision-be-flandre-orientale",
+    "subdivision-be-hainaut",
+    "subdivision-be-liege",
+    "subdivision-be-limbourg",
+    "subdivision-be-luxembourg",
+    "subdivision-be-namur"
+   ],
+   "locator": "p.1 datation ; p.3 tableau provincial bilingue",
+   "resume_passage": "Document daté du 6 février 1945 ; capture p. 3 lue par Claude : tableaux par province, neuf provinces en français et en néerlandais (forme « Liége »). Le nombre neuf se déduit des tableaux.",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "lu",
+    "date": "2026-10-15",
+    "mode": "PDF et captures visuelles"
+   },
+   "notes": "Proposée par Ether (lot 2.BE, cycle 1). Ce que la source prouve selon Ether : 9 noms provinciaux bilingues proches du Snapshot. Limite annoncée par Ether : Proposition de loi postérieure de36jours au Snapshot ; ne prouve ni promulgation ni tracé ni siège au 01/01/1945. Relecture Claude 2026-10-15 : Document daté du 6 février 1945 ; capture p. 3 lue par Claude : tableaux par province, neuf provinces en français et en néerlandais (forme « Liége »). Le nombre neuf se déduit des tableaux.",
+   "auteur": "Chambre des représentants de Belgique",
+   "archives_locales": [
+    "01_lots/2.BE/preuves/Chambre_43_1944_1945.pdf",
+    "01_lots/2.BE/preuves/Chambre_43_p3.png"
+   ],
+   "droits": "Consultation documentaire et faits sourcés ; aucune autorisation de publier une géométrie déduite de ce document."
+  },
+  {
+   "source_id": "src-statbel-recensement-1947-tome1",
+   "niveau": "A",
+   "type_source": "document_officiel",
+   "titre": "Recensement général de la population, de l’industrie et du commerce au31décembre1947, tomeI, 1949",
+   "institution": "Institut national de statistique de Belgique",
+   "url": "https://doc.statbel.fgov.be/publications/S210.A8/S210.A8F_Recensement_1947_Tome_I.pdf",
+   "date_consultation": "2026-10-15",
+   "periode_couverte": [],
+   "zones": [
+    "BE"
+   ],
+   "usages_atlas": [
+    "subdivisions_snapshot0"
+   ],
+   "cibles": [
+    "subdivision-be-anvers",
+    "subdivision-be-arrondissement-anvers",
+    "subdivision-be-arrondissement-malines",
+    "subdivision-be-arrondissement-turnhout",
+    "subdivision-be-brabant",
+    "subdivision-be-arrondissement-bruxelles",
+    "subdivision-be-arrondissement-louvain",
+    "subdivision-be-arrondissement-nivelles",
+    "subdivision-be-flandre-occidentale",
+    "subdivision-be-arrondissement-bruges",
+    "subdivision-be-arrondissement-dixmude",
+    "subdivision-be-arrondissement-ypres",
+    "subdivision-be-arrondissement-courtrai",
+    "subdivision-be-arrondissement-ostende",
+    "subdivision-be-arrondissement-roulers",
+    "subdivision-be-arrondissement-tielt",
+    "subdivision-be-arrondissement-furnes",
+    "subdivision-be-flandre-orientale",
+    "subdivision-be-arrondissement-alost",
+    "subdivision-be-arrondissement-termonde",
+    "subdivision-be-arrondissement-eeklo",
+    "subdivision-be-arrondissement-gand",
+    "subdivision-be-arrondissement-audenarde",
+    "subdivision-be-arrondissement-saint-nicolas",
+    "subdivision-be-hainaut",
+    "subdivision-be-arrondissement-ath",
+    "subdivision-be-arrondissement-charleroi",
+    "subdivision-be-arrondissement-mons",
+    "subdivision-be-arrondissement-soignies",
+    "subdivision-be-arrondissement-thuin",
+    "subdivision-be-arrondissement-tournai",
+    "subdivision-be-liege",
+    "subdivision-be-arrondissement-huy",
+    "subdivision-be-arrondissement-liege",
+    "subdivision-be-arrondissement-verviers",
+    "subdivision-be-arrondissement-waremme",
+    "subdivision-be-limbourg",
+    "subdivision-be-arrondissement-hasselt",
+    "subdivision-be-arrondissement-maaseik",
+    "subdivision-be-arrondissement-tongres",
+    "subdivision-be-luxembourg",
+    "subdivision-be-arrondissement-arlon",
+    "subdivision-be-arrondissement-bastogne",
+    "subdivision-be-arrondissement-marche-en-famenne",
+    "subdivision-be-arrondissement-neufchateau",
+    "subdivision-be-arrondissement-virton",
+    "subdivision-be-namur",
+    "subdivision-be-arrondissement-dinant",
+    "subdivision-be-arrondissement-namur",
+    "subdivision-be-arrondissement-philippeville"
+   ],
+   "locator": "p.166–167, chapitreIV, tableau12",
+   "resume_passage": "PDF non récupérable par l'outil ; captures p. 166–167 lues par Claude : tableau 12, mêmes 41 arrondissements en 1930 et 1947 ; seuls 7 arrondissements modifiés entre 1846 et 1947, par des lois de 1919 à 1927 (aucun changement entre 1930 et 1947 mentionné) ; Eupen, Malmedy, Saint-Vith rattachés à Verviers en 1925. Encadre la date du Snapshot.",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "lu",
+    "date": "2026-10-15",
+    "mode": "PDF et captures visuelles"
+   },
+   "notes": "Proposée par Ether (lot 2.BE, cycle 1). Ce que la source prouve selon Ether : liste et rattachement des41 arrondissements, récapitulatif des modifications1846–1947. Limite annoncée par Ether : p.166 décrit les changements de limites jusqu’en1947 ; derniers actes cités1927. Continuité de la nomenclature de droit inférée, sans affirmer une administration effective continue durant l’occupation. Pas de population1947 reprise. Relecture Claude 2026-10-15 : PDF non récupérable par l'outil ; captures p. 166–167 lues par Claude : tableau 12, mêmes 41 arrondissements en 1930 et 1947 ; seuls 7 arrondissements modifiés entre 1846 et 1947, par des lois de 1919 à 1927 (aucun changement entre 1930 et 1947 mentionné) ; Eupen, Malmedy, Saint-Vith rattachés à Verviers en 1925. Encadre la date du Snapshot.",
+   "auteur": "Institut national de statistique de Belgique",
+   "archives_locales": [
+    "01_lots/2.BE/preuves/Statbel_Recensement_1947_Tome_I.pdf",
+    "01_lots/2.BE/preuves/Statbel_1947_p166.png",
+    "01_lots/2.BE/preuves/Statbel_1947_p167.png"
+   ],
+   "droits": "Consultation documentaire et faits sourcés ; aucune autorisation de publier une géométrie déduite de ce document."
+  },
+  {
+   "source_id": "src-province-liege-histoire",
+   "niveau": "B",
+   "type_source": "publication_institutionnelle",
+   "titre": "Histoire de la Province de Liège",
+   "institution": "Province de Liège",
+   "url": "https://www.provincedeliege.be/fr/node/199",
+   "date_consultation": "2026-10-15",
+   "periode_couverte": [],
+   "zones": [
+    "BE"
+   ],
+   "usages_atlas": [
+    "subdivisions_snapshot0"
+   ],
+   "cibles": [
+    "subdivision-be-brabant",
+    "subdivision-be-liege",
+    "subdivision-be-limbourg",
+    "subdivision-be-namur",
+    "subdivision-be-luxembourg"
+   ],
+   "locator": "sections1831,1962–1963,1976–1977 et1995",
+   "resume_passage": "Confirme les changements postérieurs (1962–63, 1976–77, scission du Brabant en 1995) : sert à écarter les limites actuelles, ne prouve pas l'état de 1945.",
+   "archive_locale": null,
+   "verification_claude": "limite",
+   "verification_ether": {
+    "statut": "lu",
+    "date": "2026-10-15",
+    "mode": "page web et copie HTML"
+   },
+   "notes": "Proposée par Ether (lot 2.BE, cycle 1). Ce que la source prouve selon Ether : contrôle des anachronismes de limites provinciales. Limite annoncée par Ether : Les transferts de1962–1963, les échanges de1976–1977 et la scission du Brabant en1995 interdisent de reprendre simplement les contours actuels. Relecture Claude 2026-10-15 : Confirme les changements postérieurs (1962–63, 1976–77, scission du Brabant en 1995) : sert à écarter les limites actuelles, ne prouve pas l'état de 1945.",
+   "auteur": "Province de Liège",
+   "archives_locales": [
+    "01_lots/2.BE/preuves/Province_Liege_histoire.html"
+   ],
+   "droits": "Consultation documentaire et faits sourcés ; aucune autorisation de publier une géométrie déduite de ce document."
+  },
+  {
+   "source_id": "src-cegesoma-brull-annexion-cantons-est",
+   "niveau": "B",
+   "type_source": "publication_institutionnelle",
+   "titre": "Annexion des Cantons de l’Est",
+   "institution": "CegeSoma / Belgium WWII",
+   "url": "https://www.belgiumwwii.be/belgique-en-guerre/articles/annexion-des-cantons-de-lest.html",
+   "date_consultation": "2026-10-15",
+   "periode_couverte": [],
+   "zones": [
+    "BE"
+   ],
+   "usages_atlas": [
+    "subdivisions_snapshot0"
+   ],
+   "cibles": [
+    "subdivision-be-liege",
+    "subdivision-be-arrondissement-huy",
+    "subdivision-be-arrondissement-liege",
+    "subdivision-be-arrondissement-verviers",
+    "subdivision-be-arrondissement-waremme",
+    "subdivision-be-luxembourg",
+    "subdivision-be-arrondissement-arlon",
+    "subdivision-be-arrondissement-bastogne",
+    "subdivision-be-arrondissement-marche-en-famenne",
+    "subdivision-be-arrondissement-neufchateau",
+    "subdivision-be-arrondissement-virton"
+   ],
+   "locator": "Mai1940 ; Dans le Reich allemand",
+   "resume_passage": "« le Reich annexe le territoire des trois cantons d'Eupen, Malmedy et Saint-Vith » ; annexion non reconnue juridiquement après 1945 : justifie de garder ces cantons dans le cadre belge de droit (contexte, pas une subdivision).",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "lu",
+    "date": "2026-10-15",
+    "mode": "page web et copie HTML"
+   },
+   "notes": "Proposée par Ether (lot 2.BE, cycle 1). Ce que la source prouve selon Ether : annexion de fait des cantons de l’Est et des Dix Communes. Limite annoncée par Ether : Les décrets de mai1940 concernent l’annexion de fait ; la couche subdivisions suit la souveraineté du parent Atlas. Ne prouve pas le front au 01/01/1945. Relecture Claude 2026-10-15 : « le Reich annexe le territoire des trois cantons d'Eupen, Malmedy et Saint-Vith » ; annexion non reconnue juridiquement après 1945 : justifie de garder ces cantons dans le cadre belge de droit (contexte, pas une subdivision).",
+   "auteur": "Christoph Brüll, Université du Luxembourg",
+   "archives_locales": [
+    "01_lots/2.BE/preuves/CegeSoma_annexion.html"
+   ],
+   "droits": "Consultation documentaire et faits sourcés ; aucune autorisation de publier une géométrie déduite de ce document."
   }
  ]
 }
