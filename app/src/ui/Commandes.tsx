@@ -27,6 +27,7 @@ const CALQUES: { cle: keyof Calques | null; nom: string; aide?: string }[] = [
   { cle: 'frontieres', nom: 'Frontières' },
   { cle: 'fronts', nom: 'Lignes de front' },
   { cle: 'villes', nom: 'Villes', aide: 'capitales, puis grandes villes en zoomant' },
+  { cle: 'decoupage', nom: 'Découpage administratif', aide: 'régions, puis départements en zoomant' },
   { cle: 'ponts', nom: 'Ponts' },
   { cle: 'evenements', nom: 'Pastilles d’événements' },
   { cle: 'parcours', nom: 'Parcours', aide: 'routes suivies' },

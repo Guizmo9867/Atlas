@@ -1,7 +1,7 @@
 {
   "gabarit_a_copier": {
     "entite_id": "type-pays-motcle[-precision] (ex: pont-fr-trois-pins, territoire-su-kazakhstan) — IMMUABLE. 'pays' = code ISO 3166-1 alpha-2 en minuscules ; pour un État disparu, son ancien code alpha-2 (su = URSS, yu = Yougoslavie, cs = Tchécoslovaquie, dd = RDA) ; c'est le pays du PREMIER état de l'entité dans le corpus, il ne change jamais même si le territoire change de pays ensuite. L'id désigne le LIEU stable, jamais son statut à une date (pas de 'post-armistice-1944', pas de 'bail-sovietique', pas de 'republique-populaire'). Chaque mot-clé doit figurer dans docs/LEXIQUE_ID.md.",
-    "type_entite": "choisir un seul : frontiere | route | pont | port | ferry | poste_frontiere | territoire | voie_ferree | ligne_front | autre",
+    "type_entite": "choisir un seul : frontiere | route | pont | port | ferry | poste_frontiere | territoire | subdivision | voie_ferree | ligne_front | autre",
     "nom": "nom descriptif de l'entité (peut évoluer librement, contrairement à l'id)",
     "nom_court": "facultatif — étiquette courte affichée sur la carte (ex: URSS, RSS kazakhe). Peut évoluer librement.",
     "etats": [

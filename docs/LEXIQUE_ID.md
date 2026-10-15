@@ -66,7 +66,9 @@ On le construit au fil de l'eau, jamais à l'avance. **Avant de créer un ID : c
 
 ## 3. Types d'entités
 
-`frontiere` · `route` · `pont` · `port` · `ferry` · `poste_frontiere` · `territoire` · `voie_ferree` · `ligne_front` · `autre`
+`ville` · `frontiere` · `route` · `pont` · `port` · `ferry` · `poste_frontiere` · `territoire` · `subdivision` · `voie_ferree` · `ligne_front` · `autre`
+
+**`subdivision`** (ajouté le 15/10/2026, lot 2.FR) : région, département, oblast, Gau… à l'intérieur d'un État. Préfixe = code du **pays actuel** (comme les villes) ; mot-clé = nom actuel sans accents (`subdivision-fr-seine-maritime`), ou `commissariat-<ville>` pour une circonscription régionale (`subdivision-fr-commissariat-lyon`). Propriétés de l'état : `nom` (nom à la date), `echelon` (1 = premier niveau sous l'État, 2 = le niveau en dessous ; même sens dans tous les pays), `niveau` (même valeur, gardé pour les livraisons d'Ether), `statut_administratif` (le **terme local** : département, commissariat régional…), `code` (s'il est attesté), `parent_id`, `souverainete_id` (de droit ; le contrôle réel vient des territoires), `chef_lieu_propose` ou `chef_lieu_id`. Affichage : calque « Découpage administratif », échelon 1 à partir du zoom 5, échelon 2 à partir du zoom 6,5.
 
 ## 4. Mots-clés utilisés dans les IDs
 
@@ -108,6 +110,7 @@ On le construit au fil de l'eau, jamais à l'avance. **Avant de créer un ID : c
 | territoire | `transylvanie-nord` | Transylvanie du Nord (disputée) | `territoire-ro-transylvanie-nord` |
 | territoire | `athenes-piree-combats` | zone des Dekemvriana | `territoire-gr-athenes-piree-combats` |
 | ligne_front | `italie` | front d'Italie (ligne Gothique) | `ligne_front-it-italie` |
+| subdivision | nom actuel sans accents ; `commissariat-<ville>` pour une région de 1944-1945 | région, département… (échelon 1 ou 2) | `subdivision-fr-ain`, `subdivision-fr-seine-maritime`, `subdivision-fr-commissariat-lyon` |
 | ville | nom français sans accents ni espaces | une ville (un point) ; priorité d'affichage `importance_atlas` A/B/C/D, rôles en mots-clés | `ville-fr-paris`, `ville-be-liege`, `ville-nl-lahaye` |
 | territoire | `zone-partisane`, `zone-allemande` | Yougoslavie de part et d'autre du front | `territoire-yu-zone-…` |
 | territoire | `slovaquie` | État slovaque (Tiso) dans la Tchécoslovaquie juridique | `territoire-cs-slovaquie` |

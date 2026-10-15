@@ -1,6 +1,6 @@
 # Atlas Eurasie — fiche de reprise (à lire en premier)
 
-*Fiche courte pour qu'un nouveau Claude, dans n'importe quelle conversation, sache où on en est sans tout relire. Le reste se lit seulement si besoin. Tenue à jour par Claude (section « État » à chaque lot, le reste quand une règle change). Original : `docs/REPRISE.md` du dépôt ; copies : `00_REPRISE.md` du dossier d'échange et `claude/REPRISE.md` du projet claude.ai. Dernière mise à jour : 06/10/2026.*
+*Fiche courte pour qu'un nouveau Claude, dans n'importe quelle conversation, sache où on en est sans tout relire. Le reste se lit seulement si besoin. Tenue à jour par Claude (section « État » à chaque lot, le reste quand une règle change). Original : `docs/REPRISE.md` du dépôt ; copies : `00_REPRISE.md` du dossier d'échange et `claude/REPRISE.md` du projet claude.ai. Dernière mise à jour : 15/10/2026.*
 
 ## 1. Le projet en 5 lignes
 
@@ -44,10 +44,11 @@ Pas de contact direct entre Claude et Ether : tout passe par le dossier d'échan
 ## 5. État (mis à jour à chaque lot)
 
 - **Frontières** : lots 01 à 04 intégrés (74 territoires, 4 lignes de front).
+- **Subdivisions (phase 2)** : pilote **2.FR intégré le 15/10** (en conversation) : 90 départements + 18 régions de 1945 (commissariats régionaux), 103 tracés reconstitués (TRF-GIS 1940), réserves R2FR-01 à 13 pour la revue. Sur la carte : calque « Découpage administratif », échelon 1 dès le zoom 5, échelon 2 dès 6,5, mêmes seuils pour tous les pays. Demandé à Ether : complément `villes_1-10` (72 chefs-lieux sans fiche ville). Autres zones 2.x : feu vert à donner une par une.
 - **Villes** : 1.0 à 1.9 intégrés + 15 villes de l'audit transversal, **1 559 villes**. Lots 1.3 à 1.9 : 3 cycles faits, en attente de la revue finale des réserves (1.9 : 49 villes « à renforcer » ; audit : 2).
 - **Dernière intégration (06/10, fin de matinée)** : réponses 1.9 cycle 3 = sources de l'audit (Q19-03 close) : 15 captures lues par Claude ; 8 ports britanniques, Marseille, Toulon, Paris, Liège, Namur, Lyon, Dijon, Limoges, Bastia prouvés ; Namur : pont sur la Meuse hors service au Snapshot. Restent Hendaye (frontalier) et Jeumont (R19-C3-01 et 02).
 - **Ether** : plus de cycle automatique sur les villes ; prochaine étape = **bilan final et index**, phase « villes terminées, attente de Guizmo ». Puis revue des réserves avec Guizmo. Financement : réveil quotidien.
-- **Sources** : registre v1.31, 887 sources ; 300 à valider par Guizmo, dont **161 importantes**. Page « Sources à valider » : sur claude.ai, ou `00_SOURCES_A_VALIDER.html` dans le dossier d'échange.
-- **Suite du projet : `docs/METHODE_ATLAS_v2.md`** (08/10, validée par Guizmo, à relire avec Ether ; rien de lancé) : zones fixes (frontières 2026) et groupes, catégories Eau / Terre / Fer / Règles (+ Air plus tard), événements avec thèmes et portée ; Snapshot 0 → 2.x subdivisions puis 3.x campagnes (pilote France) ; chronologie par repérage puis détail, paliers 1 an (1945) → 5 → 10 ans avec bilan chiffré. Feu vert donné le 09/10 pour le pilote **2.FR** (subdivisions de la France, mode manuel : Claude intègre en conversation) — fiche `docs/lancements/2.FR_lancement.md`.
+- **Sources** : registre v1.32, 898 sources ; 306 à valider par Guizmo, dont **161 importantes**. Page « Sources à valider » : sur claude.ai, ou `00_SOURCES_A_VALIDER.html` dans le dossier d'échange.
+- **Suite du projet : `docs/METHODE_ATLAS_v2.md`** (08/10, validée par Guizmo, à relire avec Ether ; rien de lancé) : zones fixes (frontières 2026) et groupes, catégories Eau / Terre / Fer / Règles (+ Air plus tard), événements avec thèmes et portée ; Snapshot 0 → 2.x subdivisions puis 3.x campagnes (pilote France) ; chronologie par repérage puis détail, paliers 1 an (1945) → 5 → 10 ans avec bilan chiffré. Pilote **2.FR** fait (voir plus haut) ; fiche de lancement `docs/lancements/2.FR_lancement.md`.
 - **Réserves pour la revue finale** : 252 points dans `00_RESERVES_A_TRANCHER.md` (+ l'index de 301 dossiers d'Ether).
 - **Reste de la série 1.x** : bilan final d'Ether, fiche de lecture en français de chaque source (guides d'Ether livrés avec l'audit : 860 notices), revue des réserves avec Guizmo, puis feu vert pour la couche suivante.

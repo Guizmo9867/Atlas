@@ -22,6 +22,9 @@ export interface Place {
   largeurSous11: number // largeur du sous-titre écrit en 11 px (0 s'il n'y en a pas)
   profondeur: number
   parent: boolean
+  /** Découpage administratif : zoom fixe d'apparition de l'échelon (5 ou 6,5) et taille maximale du nom (plus discret) */
+  seuil?: number
+  tailleMaxi?: number
 }
 
 /** Nom de ville déjà posé sur la carte (prioritaire : les noms de pays l'évitent). */
@@ -95,10 +98,11 @@ export function placerEtiquettes(map: maplibregl.Map, places: Place[], villes: O
   const candidats: { p: Place; taille: number; dispoH: number; dispoL: number; sous: number; l: number; h: number }[] = []
   for (const p of places) {
     // hiérarchie : de loin, seulement les territoires de premier niveau ; de près, les zones plutôt que l'enveloppe
-    const admis = (z >= 3.8 || p.profondeur === 0) && !(z >= 5 && p.parent)
+    // découpage administratif : seulement à partir du seuil de son échelon, et jamais s'il est masqué (calque éteint)
+    const admis = p.seuil !== undefined ? z >= p.seuil && p.el.style.display !== 'none' : (z >= 3.8 || p.profondeur === 0) && !(z >= 5 && p.parent)
     const dispoL = (2 * p.demiLargeur * monde) / 360
     const dispoH = 2 * p.demiHauteur * monde
-    const taille = Math.min(max, (MARGE * dispoL) / (p.largeur16 / 16), (MARGE * dispoH) / HAUTEUR_LIGNE)
+    const taille = Math.min(p.tailleMaxi ?? max, max, (MARGE * dispoL) / (p.largeur16 / 16), (MARGE * dispoH) / HAUTEUR_LIGNE)
     if (!admis || taille < TAILLE_MIN) { p.el.dataset.tient = '0'; continue }
     // sous-titre (alignement…) : seulement s'il tient aussi
     const sous = Math.max(9, Math.min(11, taille * 0.7))
@@ -109,8 +113,8 @@ export function placerEtiquettes(map: maplibregl.Map, places: Place[], villes: O
     p.el.dataset.sous = avecSous ? '1' : '0'
     candidats.push({ p, taille, dispoH, dispoL, sous: avecSous ? sous : 0, l: Math.max((p.largeur16 * taille) / 16, avecSous ? lSous : 0), h: taille * HAUTEUR_LIGNE + (avecSous ? sous * 1.25 : 0) })
   }
-  // chevauchements : les plus grands noms d'abord
-  candidats.sort((a, b) => b.taille - a.taille)
+  // chevauchements : les noms de pays et de zones d'abord, puis le découpage administratif ; à rang égal, les plus grands noms d'abord
+  candidats.sort((a, b) => Number(a.p.seuil !== undefined) - Number(b.p.seuil !== undefined) || b.taille - a.taille)
   const poses: [number, number, number, number][] = []
   const touche = (r: number[], liste: number[][]) => liste.some((o) => r[0] < o[2] && r[2] > o[0] && r[1] < o[3] && r[3] > o[1])
   // 1. Villes visibles à ce zoom : tous les points d'abord (un nom ne cache jamais le point d'une autre ville)

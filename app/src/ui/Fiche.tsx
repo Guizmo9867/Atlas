@@ -7,6 +7,14 @@ const NOMS_PROPRIETES: Record<string, string> = {
   souverainete_id: 'Souveraineté', souverainete_revendiquee_par: 'Souveraineté revendiquée par', controle_id: 'Contrôle effectif', administration_id: 'Administration civile', alignement_id: 'Alignement',
   regime_id: 'Régime', statut_administratif: 'Statut administratif', parent_id: 'Fait partie de', note: 'Note',
   nom: 'Nom à cette date', nom_local: 'Nom sur place', importance_atlas: 'Importance dans l’Atlas', capitale: 'Capitale', roles: 'Rôles', situation: 'Situation',
+  // subdivisions (lot 2.FR) : l'échelon est générique (1 = sous l'État, 2 = en dessous), le terme local est dans « Statut administratif »
+  echelon: 'Échelon', niveau: 'Niveau', code: 'Code', code_systeme: 'Système de codes', chef_lieu_propose: 'Chef-lieu (référence)', chef_lieu_nom: 'Chef-lieu',
+  chef_lieu_id: 'Chef-lieu (fiche ville)', departements_codes_etablis: 'Départements', reserves: 'Réserves',
+}
+/** Une propriété « objet » (ex. chef-lieu proposé) : on montre l'essentiel, jamais l'objet brut. */
+function texteObjet(v: Record<string, unknown>): string {
+  if (typeof v.nom === 'string') return v.annee_preuve ? `${v.nom} (référence ${v.annee_preuve}, à reconfirmer pour 1945)` : v.nom
+  return Object.entries(v).map(([k, x]) => `${k} : ${typeof x === 'object' ? JSON.stringify(x) : String(x)}`).join(' · ')
 }
 const VALEURS_VILLE: Record<string, string> = {
   A: 'A · capitale (visible dès le zoom continental)', B: 'B · grande ville structurante (zoom national)', C: 'C · nœud régional (zoom régional)', D: 'D · micro-histoire (zoom local)',
@@ -125,7 +133,7 @@ export default function Fiche({ selection, date, corpus, onClose, onSelect }: {
             <div className="muet">{e.valid_from.date ? dateCourte(e.valid_from) : 'déjà en place avant l’Atlas'} → {dateCourte(e.valid_to)}</div>
             {e === actif && <>
               <dl>{Object.entries(e.proprietes ?? {}).map(([k, v]) => (
-                <div key={k}><dt>{NOMS_PROPRIETES[k] ?? k}</dt><dd>{Array.isArray(v) ? v.map((x) => LIBELLES[x] ?? x).join(', ') : k === 'parent_id' ? (entiteParId(v)?.nom ?? v) : (k === 'importance_atlas' || k === 'capitale' || k === 'situation' ? (VALEURS_VILLE[v] ?? v) : LIBELLES[v] ?? v)}</dd></div>
+                <div key={k}><dt>{NOMS_PROPRIETES[k] ?? k}</dt><dd>{Array.isArray(v) ? v.map((x) => LIBELLES[x] ?? x).join(', ') : typeof (v as unknown) === 'object' && v ? texteObjet(v as unknown as Record<string, unknown>) : k === 'parent_id' ? (entiteParId(v)?.nom ?? v) : (k === 'importance_atlas' || k === 'capitale' || k === 'situation' ? (VALEURS_VILLE[v] ?? v) : LIBELLES[v] ?? v)}</dd></div>
               ))}</dl>
               <Sources refs={e.sources} corpus={corpus} />
               {e.geometrie_ref && <Trace meta={corpus.geometries[e.geometrie_ref]?.properties as MetaGeometrie | undefined} corpus={corpus} />}

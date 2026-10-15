@@ -16,6 +16,7 @@ export interface Calques {
   evenements: boolean
   parcours: boolean
   villes: boolean
+  decoupage: boolean
   reperesModernes: boolean
 }
 
@@ -26,6 +27,12 @@ const PROFONDEURS = ['atlas', 'regional', 'archive'] as const
 // Villes : priorité d'affichage automatique selon le zoom (Ether, 30/09/2026) — A capitales, B grandes villes, C nœuds régionaux, D micro-histoire
 export const ZOOM_VILLES = { A: 3.8, B: 5, C: 6.5, D: 7.5 } as const
 const IMPORTANCES = ['A', 'B', 'C', 'D'] as const
+
+// Découpage administratif (Guizmo, 15/10/2026) : même principe que les villes, des seuils de zoom FIXES, identiques pour tous les pays.
+// Échelon 1 = premier niveau sous l'État (régions…), échelon 2 = le niveau en dessous (départements…). Le terme local reste dans la fiche.
+export const ZOOM_SUBDIVISIONS = { 1: 5, 2: 6.5 } as const
+const TAILLE_MAX_SUBDIVISIONS = { 1: 15, 2: 13 } as const
+const ECHELONS = [1, 2] as const
 
 const ETAGES = [0, 1, 2]
 const couche = (base: string, d: number) => (d === 0 ? base : `${base}-${d}`)
@@ -38,9 +45,10 @@ const GROUPES: Record<keyof Calques, string[]> = {
   evenements: PROFONDEURS.map((p) => `pastilles-${p}`),
   parcours: PROFONDEURS.map((p) => `parcours-${p}`),
   villes: IMPORTANCES.map((i) => `villes-${i}`),
+  decoupage: ECHELONS.flatMap((n) => [`subdivisions-zone-${n}`, `subdivisions-${n}`]),
   reperesModernes: ['osm'],
 }
-const CLIQUABLES = [...IMPORTANCES.map((i) => `villes-${i}`), ...PROFONDEURS.map((p) => `pastilles-${p}`), ...PROFONDEURS.map((p) => `parcours-${p}`), 'ponts', 'frontieres', ...[...ETAGES].reverse().map((d) => couche('territoires-fond', d))]
+const CLIQUABLES = [...IMPORTANCES.map((i) => `villes-${i}`), ...PROFONDEURS.map((p) => `pastilles-${p}`), ...PROFONDEURS.map((p) => `parcours-${p}`), 'ponts', 'frontieres', 'subdivisions-zone-2', 'subdivisions-zone-1', ...[...ETAGES].reverse().map((d) => couche('territoires-fond', d))]
 
 interface Props {
   emprise: [number, number, number, number]
@@ -71,7 +79,7 @@ export default function MapView({ emprise, couches, calques, selection, onSelect
       maxZoom: 12,
       attributionControl: {
         compact: true,
-        customAttribution: '<a href="https://www.openhistoricalmap.org/copyright" target="_blank">OpenHistoricalMap</a> (CC0) · Kartverket (CC BY 4.0) · GURS Slovénie (CC BY 4.0) · OCHA (CC BY-IGO) · fronts : <a href="https://dhc.westpoint.edu/atlases/" target="_blank">West Point</a> · <a href="https://github.com/Guizmo9867/Atlas" target="_blank">Atlas Eurasie</a> (CC BY 4.0)',
+        customAttribution: '<a href="https://www.openhistoricalmap.org/copyright" target="_blank">OpenHistoricalMap</a> (CC0) · Kartverket (CC BY 4.0) · GURS Slovénie (CC BY 4.0) · OCHA (CC BY-IGO) · départements 1940 : V. Gay, TRF-GIS (CC BY 4.0) · fronts : <a href="https://dhc.westpoint.edu/atlases/" target="_blank">West Point</a> · <a href="https://github.com/Guizmo9867/Atlas" target="_blank">Atlas Eurasie</a> (CC BY 4.0)',
       },
       style: {
         version: 8,
@@ -87,6 +95,7 @@ export default function MapView({ emprise, couches, calques, selection, onSelect
           pastilles: { type: 'geojson', data: VIDE },
           parcours: { type: 'geojson', data: VIDE },
           villes: { type: 'geojson', data: VIDE },
+          subdivisions: { type: 'geojson', data: VIDE },
         },
         layers: [
           { id: 'mer', type: 'background', paint: { 'background-color': '#c6d6dd' } },
@@ -108,6 +117,17 @@ export default function MapView({ emprise, couches, calques, selection, onSelect
           { id: 'territoires-lisere', type: 'line', source: 'territoires', filter: ['!=', ['get', 'lisere'], ''],
             paint: { 'line-color': ['get', 'lisere'] as unknown as string, 'line-width': 3, 'line-opacity': 0.85 } },
           { id: 'territoires-contour', type: 'line', source: 'territoires', paint: { 'line-color': '#5b5448', 'line-width': 0.8 } },
+          // Découpage administratif : style discret (les frontières d'État et les fronts restent très marqués, par-dessus).
+          // Zones transparentes : seulement pour cliquer et ouvrir la fiche (département de près, région un peu plus loin).
+          ...ECHELONS.map((n) => ({ id: `subdivisions-zone-${n}`, type: 'fill' as const, source: 'subdivisions', minzoom: ZOOM_SUBDIVISIONS[n],
+            filter: ['==', ['get', 'echelon'], n] as maplibregl.FilterSpecification, paint: { 'fill-color': '#000000', 'fill-opacity': 0 } })),
+          // échelon 2 : trait fin en pointillé ; échelon 1 : trait gris moyen continu
+          { id: 'subdivisions-2', type: 'line', source: 'subdivisions', minzoom: ZOOM_SUBDIVISIONS[2], filter: ['==', ['get', 'echelon'], 2],
+            layout: { 'line-join': 'round' },
+            paint: { 'line-color': '#8d867b', 'line-width': ['interpolate', ['linear'], ['zoom'], 6.5, 0.7, 9, 1.2] as unknown as number, 'line-dasharray': [4, 3] } },
+          { id: 'subdivisions-1', type: 'line', source: 'subdivisions', minzoom: ZOOM_SUBDIVISIONS[1], filter: ['==', ['get', 'echelon'], 1],
+            layout: { 'line-join': 'round' },
+            paint: { 'line-color': '#6f685d', 'line-width': ['interpolate', ['linear'], ['zoom'], 5, 1, 9, 2] as unknown as number } },
           // L'eau PAR-DESSUS les territoires : lacs et fleuves restent visibles quel que soit le calque
           { id: 'lacs', type: 'fill', source: 'lacs', paint: { 'fill-color': '#c6d6dd' } },
           { id: 'fleuves-majeurs', type: 'line', source: 'fleuves', filter: ['<=', ['get', 'scalerank'], 6],
@@ -175,7 +195,7 @@ export default function MapView({ emprise, couches, calques, selection, onSelect
     map.on('mousemove', (e) => {
       const f = map.queryRenderedFeatures(e.point, { layers: CLIQUABLES })[0]
       map.getCanvas().style.cursor = f ? 'pointer' : ''
-      const titre = f && (f.properties.titre ?? (f.layer.id.startsWith('territoires-fond') ? null : f.properties.nom))
+      const titre = f && (f.properties.titre ?? (f.layer.id.startsWith('territoires-fond') || f.layer.id.startsWith('subdivisions-zone') ? null : f.properties.nom))
       if (titre) survol.setLngLat(e.lngLat).setText(String(titre)).addTo(map)
       else survol.remove()
     })
@@ -205,6 +225,7 @@ export default function MapView({ emprise, couches, calques, selection, onSelect
       prete.current = true
       appliquer(map, derniers.current.couches, etiquettes, places, obstacles, derniers.current.calques.villes)
       visibilite(map, derniers.current.calques)
+      placerEtiquettes(map, places.current, derniers.current.calques.villes ? obstacles.current : [])
       surligner(map, derniers.current.selection)
       derniers.current.onZoom(map.getZoom())
     })
@@ -214,7 +235,8 @@ export default function MapView({ emprise, couches, calques, selection, onSelect
   }, [])
 
   useEffect(() => {
-    if (carte.current && prete.current) { appliquer(carte.current, couches, etiquettes, places, obstacles, derniers.current.calques.villes); visibilite(carte.current, derniers.current.calques) }
+    if (carte.current && prete.current) { appliquer(carte.current, couches, etiquettes, places, obstacles, derniers.current.calques.villes); visibilite(carte.current, derniers.current.calques)
+      placerEtiquettes(carte.current, places.current, derniers.current.calques.villes ? obstacles.current : []) }
   }, [couches])
   useEffect(() => {
     if (carte.current && prete.current) { visibilite(carte.current, calques); placerEtiquettes(carte.current, places.current, calques.villes ? obstacles.current : []) }
@@ -237,6 +259,7 @@ function appliquer(map: maplibregl.Map, c: CouchesDuJour, etiquettes: React.Muta
   src('pastilles').setData(c.pastilles)
   src('parcours').setData(c.parcours)
   src('villes').setData(c.villes)
+  src('subdivisions').setData(c.subdivisions)
   // Étiquettes des territoires (éléments HTML : pas besoin de serveur de polices)
   etiquettes.current.forEach((m) => m.remove())
   places.current = []
@@ -260,6 +283,22 @@ function appliquer(map: maplibregl.Map, c: CouchesDuJour, etiquettes: React.Muta
     })
     return new maplibregl.Marker({ element: el }).setLngLat(point as [number, number]).addTo(map)
   })
+  // Noms du découpage administratif : gris, petites capitales, à partir du seuil de zoom de leur échelon ; les noms de pays passent avant
+  etiquettes.current.push(...c.subdivisions.features.map((f) => {
+    const n = (Number(f.properties?.echelon) === 2 ? 2 : 1) as 1 | 2
+    const nom = String(f.properties?.nom ?? '')
+    const el = document.createElement('div')
+    el.className = 'etiquette etiquette-subdiv'
+    el.dataset.tient = '0'
+    el.dataset.echelon = String(n)
+    const fort = document.createElement('strong')
+    fort.textContent = nom
+    el.append(fort)
+    const place = espaceLibre(f.geometry, pointRepresentatif(f.geometry as Polygon))
+    places.current.push({ el, ...place, largeur16: largeurNom(nom), largeurSous11: 0, profondeur: 0, parent: false,
+      seuil: ZOOM_SUBDIVISIONS[n], tailleMaxi: TAILLE_MAX_SUBDIVISIONS[n] })
+    return new maplibregl.Marker({ element: el }).setLngLat(place.point as [number, number]).addTo(map)
+  }))
   ;(window as unknown as { __atlasPlaces?: Place[] }).__atlasPlaces = places.current // pour les tests automatiques
   // Noms des villes : à droite du point (à gauche si la place est prise, cachés si aucune place : voir etiquettes.ts)
   obstacles.current = []
@@ -285,7 +324,8 @@ function visibilite(map: maplibregl.Map, calques: Calques) {
   for (const [cle, ids] of Object.entries(GROUPES)) {
     for (const id of ids) map.setLayoutProperty(id, 'visibility', calques[cle as keyof Calques] ? 'visible' : 'none')
   }
-  document.querySelectorAll<HTMLElement>('.etiquette').forEach((el) => { el.style.display = calques.territoires ? '' : 'none' })
+  document.querySelectorAll<HTMLElement>('.etiquette:not(.etiquette-subdiv)').forEach((el) => { el.style.display = calques.territoires ? '' : 'none' })
+  document.querySelectorAll<HTMLElement>('.etiquette-subdiv').forEach((el) => { el.style.display = calques.decoupage ? '' : 'none' })
   document.querySelectorAll<HTMLElement>('.ville-nom').forEach((el) => { el.style.display = calques.villes ? '' : 'none' })
 }
 

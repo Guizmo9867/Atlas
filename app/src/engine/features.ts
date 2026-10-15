@@ -14,6 +14,8 @@ export interface CouchesDuJour {
   pastilles: FeatureCollection
   parcours: FeatureCollection
   villes: FeatureCollection
+  /** Découpage administratif (régions, départements…) : échelon 1 = premier niveau sous l'État, 2 = le niveau en dessous */
+  subdivisions: FeatureCollection
   sansGeometrie: string[]
 }
 
@@ -24,7 +26,7 @@ export function construireCouches(
   mode: ModeLecture,
   geometries: Record<string, Geometry> = {},
 ): CouchesDuJour {
-  const c: CouchesDuJour = { territoires: vide(), frontieres: vide(), ponts: vide(), pastilles: vide(), parcours: vide(), villes: vide(), sansGeometrie: [] }
+  const c: CouchesDuJour = { territoires: vide(), frontieres: vide(), ponts: vide(), pastilles: vide(), parcours: vide(), villes: vide(), subdivisions: vide(), sansGeometrie: [] }
 
   // Les territoires « parents » d'abord, les « enfants » (parent_id) par-dessus
   const actifs = new Map(entites.map((e) => [e.entite_id, etatActif(e, date)]))
@@ -41,6 +43,8 @@ export function construireCouches(
   const geomDe = (id: string) => { const et = actifs.get(id); return et?.geometrie ?? (et?.geometrie_ref ? geometries[et.geometrie_ref] : undefined) }
   const couvert = new Map<string, number>()
   for (const e of entites) {
+    // les subdivisions ne « couvrent » pas leur pays : la France garde son nom de près, les départements ont leur propre calque
+    if (e.type_entite === 'subdivision') continue
     const pid = actifs.get(e.entite_id)?.proprietes?.parent_id; const g = geomDe(e.entite_id)
     if (pid && g) couvert.set(pid, (couvert.get(pid) ?? 0) + aireGeometrie(g))
   }
@@ -63,6 +67,12 @@ export function construireCouches(
       c.villes.features.push({ type: 'Feature', geometry: geom, properties: {
         // nom à la date (dans l'état) d'abord, sinon le nom de la fiche
         entite_id: ent.entite_id, nom: p.nom ?? ent.nom_court ?? ent.nom, importance: p.importance_atlas ?? 'C', capitale: p.capitale ?? '', situation: p.situation ?? '' } })
+      continue
+    }
+    if (ent.type_entite === 'subdivision') {
+      const echelon = Number(p.echelon ?? p.niveau ?? 1)
+      c.subdivisions.features.push({ type: 'Feature', geometry: geom, properties: {
+        entite_id: ent.entite_id, nom: ent.nom_court ?? p.nom ?? ent.nom, echelon } })
       continue
     }
     const parent = p.parent_id ? actifs.get(p.parent_id)?.proprietes : undefined

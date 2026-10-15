@@ -10,7 +10,7 @@ const erreurs = [], avertissements = [], provisoires = []
 const err = (f, m) => erreurs.push(`${f} : ${m}`)
 const avert = (f, m) => avertissements.push(`${f} : ${m}`)
 
-const TYPES_ENTITE = ['ville', 'frontiere', 'route', 'pont', 'port', 'ferry', 'poste_frontiere', 'territoire', 'voie_ferree', 'ligne_front', 'autre']
+const TYPES_ENTITE = ['ville', 'frontiere', 'route', 'pont', 'port', 'ferry', 'poste_frontiere', 'territoire', 'subdivision', 'voie_ferree', 'ligne_front', 'autre']
 const RELATIONS_ENTITE = ['precede', 'suit', 'entraine', 'modifie', 'explique', 'detache_de']
 const RELATIONS_EVENEMENT = ['precede', 'suit', 'entraine', 'modifie', 'explique']
 const PRECISIONS = ['exacte', 'mois', 'annee', 'inconnue', 'en_cours']

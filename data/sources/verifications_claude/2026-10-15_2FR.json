@@ -1,0 +1,63 @@
+{
+ "lot": "2.FR",
+ "date": "2026-10-15",
+ "auteur": "Claude",
+ "methode": "Lecture des pages accessibles et des captures déposées par Ether dans 01_lots/2.FR/preuves/ ; ce qui n'a pas pu être lu reste « non_verifiee » et va dans « Sources à valider ».",
+ "resultats": [
+  {
+   "id": "src-trfgis-departements-1940",
+   "statut": "non_verifiee",
+   "commentaire": "La page Harvard Dataverse n'est pas lisible par l'outil de lecture de Claude (accès refusé aux robots). Les tracés livrés par Ether ont été contrôlés à l'intégration (90 départements, codes 01–90, topologie conservée) ; licence CC BY 4.0 annoncée, à confirmer."
+  },
+  {
+   "id": "src-gay-trfgis-methodologie-2020",
+   "statut": "limite",
+   "commentaire": "Document de travail de la Toulouse School of Economics : décrit la méthode de reconstruction des départements à partir des communes. Explique le tracé, mais ne prouve pas à lui seul l'état au 01/01/1945."
+  },
+  {
+   "id": "src-an-reponse-regions-1981-01-12",
+   "statut": "ok",
+   "commentaire": "Page 164 lue par Claude sur la capture d'Ether : commissaires régionaux de la République créés par l'ordonnance du 10/01/1944 ; Strasbourg au 29/09/1944 ; pouvoirs du préfet de la Moselle ; Corse non rattachée au 09/11/1944 ; Lot-et-Garonne rattaché à Bordeaux le 29/11/1944."
+  },
+  {
+   "id": "src-rhone-inventaire-283w-2001",
+   "statut": "ok",
+   "commentaire": "Inventaire 283W des archives du Rhône : circonscription du commissariat régional de la République de Lyon, huit départements après le décret du 27/06/1944."
+  },
+  {
+   "id": "src-insee-annuaire-1940-1945-1946",
+   "statut": "ok",
+   "commentaire": "Page 6 lue par Claude sur la capture d'Ether : tableau « au 1er janvier 1945 » avec les noms de l'époque (Charente-Maritime, Loire-Inférieure, Côtes-du-Nord, Alpes (Basses-)…)."
+  },
+  {
+   "id": "src-lang-histoire-cog-1943",
+   "statut": "ok",
+   "commentaire": "Histoire du Code officiel géographique : codes 01–90 de 1943 et maintien en droit des trois départements annexés de fait (Bas-Rhin, Haut-Rhin, Moselle)."
+  },
+  {
+   "id": "src-haute-vienne-fonds-boursicot-9j",
+   "statut": "non_verifiee",
+   "commentaire": "PDF des archives de la Haute-Vienne non lisible par l'outil de Claude ; Ether l'a lu par l'index seulement (R2FR-04)."
+  },
+  {
+   "id": "src-memorial-alsace-moselle-malgre-nous",
+   "statut": "ok",
+   "commentaire": "Page du Mémorial de l'Alsace-Moselle : annexion de fait et incorporation de force ; sert de note de contexte, pas de limite."
+  },
+  {
+   "id": "src-manche-halais-prefecture-1944",
+   "statut": "non_verifiee",
+   "commentaire": "PDF des archives de la Manche non lisible par l'outil de Claude."
+  },
+  {
+   "id": "src-an-reponse-regions-militaires-1981-08-03",
+   "statut": "non_verifiee",
+   "commentaire": "PDF du Journal officiel non relu par Claude dans ce lot ; utilisé seulement en appui (régions militaires)."
+  },
+  {
+   "id": "src-onu-traite-italie-1947-art2",
+   "statut": "limite",
+   "commentaire": "Traité de paix avec l'Italie (1947), article 2 : changements de frontière postérieurs au Snapshot. Sert seulement d'alerte, rien n'est appliqué au 01/01/1945."
+  }
+ ]
+}

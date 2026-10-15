@@ -2,6 +2,14 @@
 
 Une ligne par décision, datée. Plus récente en haut. Ce journal remplace les versions éparpillées dans les conversations : si ce n'est pas ici, ce n'est pas décidé.
 
+## 2026-10-15 (pilote 2.FR intégré : subdivisions de la France, découpage administratif sur la carte)
+
+- **Lot 2.FR intégré** (cycle 1, mode manuel, en conversation avec Guizmo) : **108 subdivisions** = 90 départements (échelon 2) et 18 circonscriptions des commissaires régionaux de la République (échelon 1), noms de 1945, souveraineté de droit (le contrôle réel reste celui des territoires et des fronts). Fichier `data/snapshot0/subdivisions_2-FR.json`. *(Ether, intégré par Claude)*
+- **Tracés** : TRF-GIS 1940 (Victor Gay, CC BY 4.0) affichés comme « tracé reconstitué », 103 tracés dont 98 + les 5 alpins (Hautes-Alpes, Alpes-Maritimes, Savoie, régions de Lyon et de Marseille) **avec la réserve R2FR-02** ; 5 régions sans tracé (composition incomplète, R2FR-03). Chefs-lieux : référence 1940 seulement (R2FR-05). *(décision de Guizmo)*
+- **Affichage du découpage administratif** : échelons génériques (1 = sous l'État, 2 = en dessous ; le terme local reste dans la fiche), **seuils de zoom fixes et identiques pour tous les pays** comme les villes A/B/C (échelon 1 dès le zoom 5, échelon 2 dès 6,5), un calque « Découpage administratif », style discret (gris, petites capitales, pointillé pour l'échelon 2) ; frontières d'État et fronts restent très marqués. Nouveau type `subdivision` (validateur, gabarit, lexique) ; Méthode v2.1 précisée. *(décision de Guizmo)*
+- Sources : 11 nouvelles (5 ok, 2 limite, 4 non vérifiées → « Sources à valider »), registre v1.32 (898 sources). *(Claude)*
+- **Demande à Ether** : complément villes `villes_1-10` = les 72 chefs-lieux départementaux sans fiche ville (chef-lieu au 01/01/1945), avec le temps actif noté. *(décision de Guizmo)*
+
 ## 2026-10-06 (fin de matinée : réponses au 1.9, cycle 3, sources de l'audit)
 
 - **Q19-03 close** : 15 captures d'Ether lues par Claude ; 8 ports britanniques, Marseille, Toulon, Paris (rail, port fluvial), Liège, Namur, Lyon, Dijon, Limoges, Bastia prouvés ; 19 relations précisées sans doublon. « À renforcer » levé pour Dijon et Limoges (rail). Registre v1.31. *(Ether + Claude)*

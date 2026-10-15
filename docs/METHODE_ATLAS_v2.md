@@ -1,5 +1,7 @@
 # Atlas Eurasie — Méthode de ratissage v2
 
+*Précision du 15/10/2026 (pilote 2.FR) : mot « échelon » et règle d'affichage des subdivisions (§1 et §4).*
+
 *v2.1 du 09/10/2026 : ajustements demandés par Ether après relecture (grille des 30 filtres, objets multimodes, importance distincte de la portée, définition des zones, volumes = cases de travail, repérage avec indice de confiance, rattachement au protocole de boucle, exemple de Parndorf corrigé).*
 *v2 du 08/10/2026. Version validée par Guizmo dans sa conversation avec Claude, relue par Ether (avis : garder la v2, préciser ces points, tester les subdivisions françaises avant d'étendre). Remplace la « Méthode de ratissage v1 » d'Ether (07/10/2026), dont elle garde tout ce qui était solide : règles de preuve, réservoir, raccordements aux frontières, livrables.*
 *Statut : **rien n'est lancé**. Le passage aux subdivisions (phase 2) et aux campagnes (phase 3) demandera un feu vert explicite de Guizmo.*
@@ -15,6 +17,7 @@
 | **Territoire** | Ce qu'on **dessine** sur la carte à une date : la France de 1945, la Prusse-Orientale, une poche allemande, une république soviétique… | Oui, par états successifs |
 | **État** | À **qui** appartient le territoire (souveraineté) et qui le **tient** réellement (contrôle). Ce sont deux informations de la fiche du territoire. | Oui |
 | **Subdivision** | Région, département, oblast, Gau… : un territoire plus petit à l'intérieur d'un autre. | Oui |
+| **Échelon** | Le rang d'une subdivision sous l'État, **le même dans tous les pays** : échelon 1 = premier niveau (régions, Länder, voïvodies…), échelon 2 = le niveau en dessous (départements, Kreise…). Le mot local (département, Gau, oblast) reste dans la fiche. | Non (l'échelon d'une subdivision peut changer par un nouvel état) |
 
 - Le mot « pays » n'est plus utilisé dans les données (il mélange tout) ; il reste dans l'interface, pour le public.
 - Le code dans un identifiant (`ville-ru-kaliningrad`) est une **adresse stable**, comme un code postal : il ne dit rien de l'histoire. La fiche, elle, dit « Königsberg, Reich allemand » au 01/01/1945.
@@ -102,9 +105,10 @@ Les thèmes transversaux sont examinés dans chaque catégorie où ils comptent 
 |---|---|---|
 | **0.x** | Frontières et territoires (74 territoires) | fait |
 | **1.x** | Villes (1 559 villes, 10 lots + audit) | fait ; revue des réserves et sources importantes en cours |
-| **2.x** | **Subdivisions** de 1945 (régions, départements, Gaue, oblasts…), par zone | prochaine étape, feu vert à donner |
+| **2.x** | **Subdivisions** de 1945 (régions, départements, Gaue, oblasts…), par zone | pilote **2.FR intégré le 15/10/2026** ; les autres zones attendent chacune un feu vert |
 | **3.x** | **Campagnes** zone × catégorie (C1 à C4) : réseaux et règles en vigueur au 01/01/1945 | après les subdivisions |
 
+- **Affichage des subdivisions** (décision de Guizmo, 15/10/2026) : même principe que les villes A/B/C, des **seuils de zoom fixes, identiques pour tous les pays** — échelon 1 à partir du zoom 5, échelon 2 à partir du zoom 6,5 — dans un seul calque « Découpage administratif ». Style discret (échelon 1 : trait gris moyen, nom en petites capitales grises ; échelon 2 : trait fin en pointillé, nom plus petit). Les frontières d'État et les fronts restent très marqués, par-dessus.
 - Pas d'**événements** dans le Snapshot 0 : c'est une photo de l'état. Ce qui s'est passé avant et explique l'état de 1945 va dans les notes des fiches.
 - **Pilote : la France** (puis les autres zones, groupe par groupe). Elle est idéale pour tester la séparation souveraineté / contrôle : Alsace-Moselle annexée de fait, poche de Colmar, poches de l'Atlantique (Lorient, Saint-Nazaire, La Rochelle, Dunkerque).
 - **Deux passes de détail** dans une campagne : d'abord le structurant (grands axes, grandes lignes, grands ports), ensuite le détail (stations, aires, restaurants routiers, vie des routiers).

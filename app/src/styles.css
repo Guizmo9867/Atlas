@@ -26,6 +26,11 @@ button { font: inherit; cursor: pointer; }
 .etiquette span { font-family: system-ui, sans-serif; font-size: var(--taille-sous, 11px); color: var(--encre-2); }
 /* Noms des territoires : taille et visibilité calculées selon le zoom (map/etiquettes.ts) */
 .etiquette[data-tient="0"], .etiquette[data-sous="0"] span { display: none; }
+/* Découpage administratif (régions, départements) : discret, gris, petites capitales, jamais en gras */
+.etiquette-subdiv { color: #4f4a42; text-shadow: 0 0 2px #fff, 0 0 4px #fff; }
+.etiquette-subdiv strong { font-weight: 400; font-variant: small-caps; text-transform: none; letter-spacing: .06em; }
+.etiquette-subdiv[data-echelon="2"] { color: #5e584e; }
+.etiquette-subdiv[data-echelon="2"] strong { letter-spacing: .03em; }
 .maplibregl-popup.survol .maplibregl-popup-content { padding: 5px 9px; font-size: 13px; border-radius: 6px; }
 
 /* Règle du temps (en haut de la carte, verre fumé transparent) */
