@@ -1,0 +1,969 @@
+{
+ "metadata_lot": {
+  "nom": "snapshot0_subdivisions_2-LU",
+  "date_reference": "1945-01-01",
+  "heure_reference": "00:00",
+  "version": "1.0",
+  "statut": "integre_par_claude",
+  "cycle": 1,
+  "date_integration": "2026-10-15",
+  "gabarit_source": "gabarits/gabarit_entite_temporelle_atlas.json",
+  "lot_methode": "2.LU (phase 2, docs/METHODE_ATLAS_v2.md)",
+  "etat_1945": "Grand-Duché de Luxembourg",
+  "proposition_ether": "data/sources/deltas_ether/2026-10-15_2LU_subdivisions_proposees_ether.json",
+  "regles": [
+   "échelon 1 = premier niveau sous l'État ; échelon 2 = le niveau en dessous ; le terme local reste dans statut_administratif",
+   "une subdivision porte la souveraineté de droit ; le contrôle réel vient des territoires et des lignes de front",
+   "affichage : échelon 1 dès le zoom 5, échelon 2 dès le zoom 6,5, mêmes seuils pour tous les pays (calque « Découpage administratif »)",
+   "tracés provisoires ; chefs-lieux proposés = référence, jamais validés sans preuve au 01/01/1945"
+  ],
+  "sans_trace": [
+   "subdivision-lu-district-diekirch",
+   "subdivision-lu-canton-vianden",
+   "subdivision-lu-district-grevenmacher",
+   "subdivision-lu-canton-remich"
+  ]
+ },
+ "entites": [
+  {
+   "entite_id": "subdivision-lu-district-luxembourg",
+   "type_entite": "subdivision",
+   "nom": "District de Luxembourg",
+   "nom_court": "Luxembourg",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_par_recoupement",
+     "proprietes": {
+      "nom": "Luxembourg",
+      "echelon": 1,
+      "niveau": 1,
+      "statut_administratif": "district",
+      "parent_id": "territoire-lu-luxembourg",
+      "souverainete_id": "luxembourg",
+      "reserves": [
+       "R2LU-01",
+       "R2LU-02",
+       "R2LU-05",
+       "R2LU-06",
+       "R2LU-04"
+      ],
+      "note": "Découpage de droit proposé par recoupement institutionnel. Les cantons sont des divisions territoriales ; aucun exécutif cantonal propre n’est déduit. Le contrôle réel demeure dans les couches de territoires et de fronts. La ville bénéficie d’une exception à la tutelle du commissaire de district, à distinguer de son appartenance territoriale ; portée à la date réservée.",
+      "preuve_temporelle": "sources_retrospectives_et_base_historique_1920_1977",
+      "chef_lieu_propose": {
+       "nom": "Luxembourg",
+       "annee_preuve": 2018,
+       "source_id": "src-mint-lu-legislation-communale-2018",
+       "locator": "p.5, historique des districts",
+       "statut": "reference_retrospective_non_validee_au_01_01_1945",
+       "reserve_id": "R2LU-05",
+       "ville_id_existante": "ville-lu-luxembourg"
+      }
+     },
+     "sources": [
+      {
+       "source_id": "src-mint-lu-legislation-communale-2018",
+       "locator": "p.5–6, historique et composition des districts",
+       "usage": "rangs, noms français, rattachements et continuité après1867"
+      },
+      {
+       "source_id": "src-act-lu-limites-historiques-1920-1977",
+       "locator": "shapefile1920–1977, attributs DISTRICT et CANTON ; groupe Luxembourg",
+       "usage": "recoupement de la composition territoriale et base géométrique"
+      },
+      {
+       "source_id": "src-chd-lu-6711-abolition-districts",
+       "locator": "dossier consolidé p.10, exposé des motifs, imprimé p.3 ; p.26 pour continuité juridique",
+       "usage": "existence historique des trois districts et ancien district de Mersch"
+      },
+      {
+       "source_id": "src-luxembourg-wwii",
+       "locator": "sections sur1944–1945",
+       "usage": "libération et reprise des combats ; distinction du contrôle et de la souveraineté"
+      }
+     ],
+     "geometrie_ref": "geom-subdivision-lu-district-luxembourg-1945-01-01"
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-lu-canton-capellen",
+   "type_entite": "subdivision",
+   "nom": "Canton de Capellen",
+   "nom_court": "Capellen",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_par_recoupement",
+     "proprietes": {
+      "nom": "Capellen",
+      "echelon": 2,
+      "niveau": 2,
+      "statut_administratif": "canton",
+      "parent_id": "subdivision-lu-district-luxembourg",
+      "souverainete_id": "luxembourg",
+      "reserves": [
+       "R2LU-01",
+       "R2LU-02",
+       "R2LU-05",
+       "R2LU-06",
+       "R2LU-04"
+      ],
+      "note": "Découpage de droit proposé par recoupement institutionnel. Les cantons sont des divisions territoriales ; aucun exécutif cantonal propre n’est déduit. Le contrôle réel demeure dans les couches de territoires et de fronts.",
+      "preuve_temporelle": "sources_retrospectives_et_base_historique_1920_1977"
+     },
+     "sources": [
+      {
+       "source_id": "src-mint-lu-legislation-communale-2018",
+       "locator": "p.5–6, historique et composition des districts",
+       "usage": "rangs, noms français, rattachements et continuité après1867"
+      },
+      {
+       "source_id": "src-act-lu-limites-historiques-1920-1977",
+       "locator": "shapefile1920–1977, attributs DISTRICT et CANTON ; groupe Capellen",
+       "usage": "recoupement de la composition territoriale et base géométrique"
+      },
+      {
+       "source_id": "src-chd-lu-6711-abolition-districts",
+       "locator": "dossier consolidé p.10, exposé des motifs, imprimé p.3 ; p.26 pour continuité juridique",
+       "usage": "existence historique des trois districts et ancien district de Mersch"
+      },
+      {
+       "source_id": "src-luxembourg-wwii",
+       "locator": "sections sur1944–1945",
+       "usage": "libération et reprise des combats ; distinction du contrôle et de la souveraineté"
+      }
+     ],
+     "geometrie_ref": "geom-subdivision-lu-canton-capellen-1945-01-01"
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-lu-canton-esch-sur-alzette",
+   "type_entite": "subdivision",
+   "nom": "Canton d'Esch-sur-Alzette",
+   "nom_court": "Esch-sur-Alzette",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_par_recoupement",
+     "proprietes": {
+      "nom": "Esch-sur-Alzette",
+      "echelon": 2,
+      "niveau": 2,
+      "statut_administratif": "canton",
+      "parent_id": "subdivision-lu-district-luxembourg",
+      "souverainete_id": "luxembourg",
+      "reserves": [
+       "R2LU-01",
+       "R2LU-02",
+       "R2LU-05",
+       "R2LU-06",
+       "R2LU-04"
+      ],
+      "note": "Découpage de droit proposé par recoupement institutionnel. Les cantons sont des divisions territoriales ; aucun exécutif cantonal propre n’est déduit. Le contrôle réel demeure dans les couches de territoires et de fronts.",
+      "preuve_temporelle": "sources_retrospectives_et_base_historique_1920_1977"
+     },
+     "sources": [
+      {
+       "source_id": "src-mint-lu-legislation-communale-2018",
+       "locator": "p.5–6, historique et composition des districts",
+       "usage": "rangs, noms français, rattachements et continuité après1867"
+      },
+      {
+       "source_id": "src-act-lu-limites-historiques-1920-1977",
+       "locator": "shapefile1920–1977, attributs DISTRICT et CANTON ; groupe Esch-sur-Alzette",
+       "usage": "recoupement de la composition territoriale et base géométrique"
+      },
+      {
+       "source_id": "src-chd-lu-6711-abolition-districts",
+       "locator": "dossier consolidé p.10, exposé des motifs, imprimé p.3 ; p.26 pour continuité juridique",
+       "usage": "existence historique des trois districts et ancien district de Mersch"
+      },
+      {
+       "source_id": "src-luxembourg-wwii",
+       "locator": "sections sur1944–1945",
+       "usage": "libération et reprise des combats ; distinction du contrôle et de la souveraineté"
+      }
+     ],
+     "geometrie_ref": "geom-subdivision-lu-canton-esch-sur-alzette-1945-01-01"
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-lu-canton-luxembourg",
+   "type_entite": "subdivision",
+   "nom": "Canton de Luxembourg",
+   "nom_court": "Luxembourg",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_par_recoupement",
+     "proprietes": {
+      "nom": "Luxembourg",
+      "echelon": 2,
+      "niveau": 2,
+      "statut_administratif": "canton",
+      "parent_id": "subdivision-lu-district-luxembourg",
+      "souverainete_id": "luxembourg",
+      "reserves": [
+       "R2LU-01",
+       "R2LU-02",
+       "R2LU-05",
+       "R2LU-06",
+       "R2LU-04"
+      ],
+      "note": "Découpage de droit proposé par recoupement institutionnel. Les cantons sont des divisions territoriales ; aucun exécutif cantonal propre n’est déduit. Le contrôle réel demeure dans les couches de territoires et de fronts. La ville bénéficie d’une exception à la tutelle du commissaire de district, à distinguer de son appartenance territoriale ; portée à la date réservée.",
+      "preuve_temporelle": "sources_retrospectives_et_base_historique_1920_1977"
+     },
+     "sources": [
+      {
+       "source_id": "src-mint-lu-legislation-communale-2018",
+       "locator": "p.5–6, historique et composition des districts",
+       "usage": "rangs, noms français, rattachements et continuité après1867"
+      },
+      {
+       "source_id": "src-act-lu-limites-historiques-1920-1977",
+       "locator": "shapefile1920–1977, attributs DISTRICT et CANTON ; groupe Luxembourg",
+       "usage": "recoupement de la composition territoriale et base géométrique"
+      },
+      {
+       "source_id": "src-chd-lu-6711-abolition-districts",
+       "locator": "dossier consolidé p.10, exposé des motifs, imprimé p.3 ; p.26 pour continuité juridique",
+       "usage": "existence historique des trois districts et ancien district de Mersch"
+      },
+      {
+       "source_id": "src-luxembourg-wwii",
+       "locator": "sections sur1944–1945",
+       "usage": "libération et reprise des combats ; distinction du contrôle et de la souveraineté"
+      }
+     ],
+     "geometrie_ref": "geom-subdivision-lu-canton-luxembourg-1945-01-01"
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-lu-canton-mersch",
+   "type_entite": "subdivision",
+   "nom": "Canton de Mersch",
+   "nom_court": "Mersch",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_par_recoupement",
+     "proprietes": {
+      "nom": "Mersch",
+      "echelon": 2,
+      "niveau": 2,
+      "statut_administratif": "canton",
+      "parent_id": "subdivision-lu-district-luxembourg",
+      "souverainete_id": "luxembourg",
+      "reserves": [
+       "R2LU-01",
+       "R2LU-02",
+       "R2LU-05",
+       "R2LU-06",
+       "R2LU-04"
+      ],
+      "note": "Découpage de droit proposé par recoupement institutionnel. Les cantons sont des divisions territoriales ; aucun exécutif cantonal propre n’est déduit. Le contrôle réel demeure dans les couches de territoires et de fronts.",
+      "preuve_temporelle": "sources_retrospectives_et_base_historique_1920_1977"
+     },
+     "sources": [
+      {
+       "source_id": "src-mint-lu-legislation-communale-2018",
+       "locator": "p.5–6, historique et composition des districts",
+       "usage": "rangs, noms français, rattachements et continuité après1867"
+      },
+      {
+       "source_id": "src-act-lu-limites-historiques-1920-1977",
+       "locator": "shapefile1920–1977, attributs DISTRICT et CANTON ; groupe Mersch",
+       "usage": "recoupement de la composition territoriale et base géométrique"
+      },
+      {
+       "source_id": "src-chd-lu-6711-abolition-districts",
+       "locator": "dossier consolidé p.10, exposé des motifs, imprimé p.3 ; p.26 pour continuité juridique",
+       "usage": "existence historique des trois districts et ancien district de Mersch"
+      },
+      {
+       "source_id": "src-luxembourg-wwii",
+       "locator": "sections sur1944–1945",
+       "usage": "libération et reprise des combats ; distinction du contrôle et de la souveraineté"
+      }
+     ],
+     "geometrie_ref": "geom-subdivision-lu-canton-mersch-1945-01-01"
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-lu-district-diekirch",
+   "type_entite": "subdivision",
+   "nom": "District de Diekirch",
+   "nom_court": "Diekirch",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_par_recoupement",
+     "proprietes": {
+      "nom": "Diekirch",
+      "echelon": 1,
+      "niveau": 1,
+      "statut_administratif": "district",
+      "parent_id": "territoire-lu-luxembourg",
+      "souverainete_id": "luxembourg",
+      "reserves": [
+       "R2LU-01",
+       "R2LU-02",
+       "R2LU-05",
+       "R2LU-06",
+       "R2LU-03"
+      ],
+      "note": "Découpage de droit proposé par recoupement institutionnel. Les cantons sont des divisions territoriales ; aucun exécutif cantonal propre n’est déduit. Le contrôle réel demeure dans les couches de territoires et de fronts.",
+      "preuve_temporelle": "sources_retrospectives_et_base_historique_1920_1977",
+      "chef_lieu_propose": {
+       "nom": "Diekirch",
+       "annee_preuve": 2018,
+       "source_id": "src-mint-lu-legislation-communale-2018",
+       "locator": "p.5, historique des districts",
+       "statut": "reference_retrospective_non_validee_au_01_01_1945",
+       "reserve_id": "R2LU-05"
+      }
+     },
+     "sources": [
+      {
+       "source_id": "src-mint-lu-legislation-communale-2018",
+       "locator": "p.5–6, historique et composition des districts",
+       "usage": "rangs, noms français, rattachements et continuité après1867"
+      },
+      {
+       "source_id": "src-act-lu-limites-historiques-1920-1977",
+       "locator": "shapefile1920–1977, attributs DISTRICT et CANTON ; groupe Diekirch",
+       "usage": "recoupement de la composition territoriale et base géométrique"
+      },
+      {
+       "source_id": "src-chd-lu-6711-abolition-districts",
+       "locator": "dossier consolidé p.10, exposé des motifs, imprimé p.3 ; p.26 pour continuité juridique",
+       "usage": "existence historique des trois districts et ancien district de Mersch"
+      },
+      {
+       "source_id": "src-luxembourg-wwii",
+       "locator": "sections sur1944–1945",
+       "usage": "libération et reprise des combats ; distinction du contrôle et de la souveraineté"
+      },
+      {
+       "source_id": "src-sip-lu-kammerwald-1949",
+       "locator": "p.148, PDF6",
+       "usage": "alerte sur le changement de frontière de1949, non anticipé au Snapshot"
+      }
+     ]
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-lu-canton-clervaux",
+   "type_entite": "subdivision",
+   "nom": "Canton de Clervaux",
+   "nom_court": "Clervaux",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_par_recoupement",
+     "proprietes": {
+      "nom": "Clervaux",
+      "echelon": 2,
+      "niveau": 2,
+      "statut_administratif": "canton",
+      "parent_id": "subdivision-lu-district-diekirch",
+      "souverainete_id": "luxembourg",
+      "reserves": [
+       "R2LU-01",
+       "R2LU-02",
+       "R2LU-05",
+       "R2LU-06"
+      ],
+      "note": "Découpage de droit proposé par recoupement institutionnel. Les cantons sont des divisions territoriales ; aucun exécutif cantonal propre n’est déduit. Le contrôle réel demeure dans les couches de territoires et de fronts.",
+      "preuve_temporelle": "sources_retrospectives_et_base_historique_1920_1977"
+     },
+     "sources": [
+      {
+       "source_id": "src-mint-lu-legislation-communale-2018",
+       "locator": "p.5–6, historique et composition des districts",
+       "usage": "rangs, noms français, rattachements et continuité après1867"
+      },
+      {
+       "source_id": "src-act-lu-limites-historiques-1920-1977",
+       "locator": "shapefile1920–1977, attributs DISTRICT et CANTON ; groupe Clervaux",
+       "usage": "recoupement de la composition territoriale et base géométrique"
+      },
+      {
+       "source_id": "src-chd-lu-6711-abolition-districts",
+       "locator": "dossier consolidé p.10, exposé des motifs, imprimé p.3 ; p.26 pour continuité juridique",
+       "usage": "existence historique des trois districts et ancien district de Mersch"
+      },
+      {
+       "source_id": "src-luxembourg-wwii",
+       "locator": "sections sur1944–1945",
+       "usage": "libération et reprise des combats ; distinction du contrôle et de la souveraineté"
+      }
+     ],
+     "geometrie_ref": "geom-subdivision-lu-canton-clervaux-1945-01-01"
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-lu-canton-diekirch",
+   "type_entite": "subdivision",
+   "nom": "Canton de Diekirch",
+   "nom_court": "Diekirch",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_par_recoupement",
+     "proprietes": {
+      "nom": "Diekirch",
+      "echelon": 2,
+      "niveau": 2,
+      "statut_administratif": "canton",
+      "parent_id": "subdivision-lu-district-diekirch",
+      "souverainete_id": "luxembourg",
+      "reserves": [
+       "R2LU-01",
+       "R2LU-02",
+       "R2LU-05",
+       "R2LU-06"
+      ],
+      "note": "Découpage de droit proposé par recoupement institutionnel. Les cantons sont des divisions territoriales ; aucun exécutif cantonal propre n’est déduit. Le contrôle réel demeure dans les couches de territoires et de fronts.",
+      "preuve_temporelle": "sources_retrospectives_et_base_historique_1920_1977"
+     },
+     "sources": [
+      {
+       "source_id": "src-mint-lu-legislation-communale-2018",
+       "locator": "p.5–6, historique et composition des districts",
+       "usage": "rangs, noms français, rattachements et continuité après1867"
+      },
+      {
+       "source_id": "src-act-lu-limites-historiques-1920-1977",
+       "locator": "shapefile1920–1977, attributs DISTRICT et CANTON ; groupe Diekirch",
+       "usage": "recoupement de la composition territoriale et base géométrique"
+      },
+      {
+       "source_id": "src-chd-lu-6711-abolition-districts",
+       "locator": "dossier consolidé p.10, exposé des motifs, imprimé p.3 ; p.26 pour continuité juridique",
+       "usage": "existence historique des trois districts et ancien district de Mersch"
+      },
+      {
+       "source_id": "src-luxembourg-wwii",
+       "locator": "sections sur1944–1945",
+       "usage": "libération et reprise des combats ; distinction du contrôle et de la souveraineté"
+      }
+     ],
+     "geometrie_ref": "geom-subdivision-lu-canton-diekirch-1945-01-01"
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-lu-canton-redange",
+   "type_entite": "subdivision",
+   "nom": "Canton de Redange",
+   "nom_court": "Redange",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_par_recoupement",
+     "proprietes": {
+      "nom": "Redange",
+      "echelon": 2,
+      "niveau": 2,
+      "statut_administratif": "canton",
+      "parent_id": "subdivision-lu-district-diekirch",
+      "souverainete_id": "luxembourg",
+      "reserves": [
+       "R2LU-01",
+       "R2LU-02",
+       "R2LU-05",
+       "R2LU-06"
+      ],
+      "note": "Découpage de droit proposé par recoupement institutionnel. Les cantons sont des divisions territoriales ; aucun exécutif cantonal propre n’est déduit. Le contrôle réel demeure dans les couches de territoires et de fronts.",
+      "preuve_temporelle": "sources_retrospectives_et_base_historique_1920_1977"
+     },
+     "sources": [
+      {
+       "source_id": "src-mint-lu-legislation-communale-2018",
+       "locator": "p.5–6, historique et composition des districts",
+       "usage": "rangs, noms français, rattachements et continuité après1867"
+      },
+      {
+       "source_id": "src-act-lu-limites-historiques-1920-1977",
+       "locator": "shapefile1920–1977, attributs DISTRICT et CANTON ; groupe Redange",
+       "usage": "recoupement de la composition territoriale et base géométrique"
+      },
+      {
+       "source_id": "src-chd-lu-6711-abolition-districts",
+       "locator": "dossier consolidé p.10, exposé des motifs, imprimé p.3 ; p.26 pour continuité juridique",
+       "usage": "existence historique des trois districts et ancien district de Mersch"
+      },
+      {
+       "source_id": "src-luxembourg-wwii",
+       "locator": "sections sur1944–1945",
+       "usage": "libération et reprise des combats ; distinction du contrôle et de la souveraineté"
+      }
+     ],
+     "geometrie_ref": "geom-subdivision-lu-canton-redange-1945-01-01"
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-lu-canton-vianden",
+   "type_entite": "subdivision",
+   "nom": "Canton de Vianden",
+   "nom_court": "Vianden",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_par_recoupement",
+     "proprietes": {
+      "nom": "Vianden",
+      "echelon": 2,
+      "niveau": 2,
+      "statut_administratif": "canton",
+      "parent_id": "subdivision-lu-district-diekirch",
+      "souverainete_id": "luxembourg",
+      "reserves": [
+       "R2LU-01",
+       "R2LU-02",
+       "R2LU-05",
+       "R2LU-06",
+       "R2LU-03"
+      ],
+      "note": "Découpage de droit proposé par recoupement institutionnel. Les cantons sont des divisions territoriales ; aucun exécutif cantonal propre n’est déduit. Le contrôle réel demeure dans les couches de territoires et de fronts.",
+      "preuve_temporelle": "sources_retrospectives_et_base_historique_1920_1977"
+     },
+     "sources": [
+      {
+       "source_id": "src-mint-lu-legislation-communale-2018",
+       "locator": "p.5–6, historique et composition des districts",
+       "usage": "rangs, noms français, rattachements et continuité après1867"
+      },
+      {
+       "source_id": "src-act-lu-limites-historiques-1920-1977",
+       "locator": "shapefile1920–1977, attributs DISTRICT et CANTON ; groupe Vianden",
+       "usage": "recoupement de la composition territoriale et base géométrique"
+      },
+      {
+       "source_id": "src-chd-lu-6711-abolition-districts",
+       "locator": "dossier consolidé p.10, exposé des motifs, imprimé p.3 ; p.26 pour continuité juridique",
+       "usage": "existence historique des trois districts et ancien district de Mersch"
+      },
+      {
+       "source_id": "src-luxembourg-wwii",
+       "locator": "sections sur1944–1945",
+       "usage": "libération et reprise des combats ; distinction du contrôle et de la souveraineté"
+      },
+      {
+       "source_id": "src-sip-lu-kammerwald-1949",
+       "locator": "p.148, PDF6",
+       "usage": "alerte sur le changement de frontière de1949, non anticipé au Snapshot"
+      }
+     ]
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-lu-canton-wiltz",
+   "type_entite": "subdivision",
+   "nom": "Canton de Wiltz",
+   "nom_court": "Wiltz",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_par_recoupement",
+     "proprietes": {
+      "nom": "Wiltz",
+      "echelon": 2,
+      "niveau": 2,
+      "statut_administratif": "canton",
+      "parent_id": "subdivision-lu-district-diekirch",
+      "souverainete_id": "luxembourg",
+      "reserves": [
+       "R2LU-01",
+       "R2LU-02",
+       "R2LU-05",
+       "R2LU-06"
+      ],
+      "note": "Découpage de droit proposé par recoupement institutionnel. Les cantons sont des divisions territoriales ; aucun exécutif cantonal propre n’est déduit. Le contrôle réel demeure dans les couches de territoires et de fronts.",
+      "preuve_temporelle": "sources_retrospectives_et_base_historique_1920_1977"
+     },
+     "sources": [
+      {
+       "source_id": "src-mint-lu-legislation-communale-2018",
+       "locator": "p.5–6, historique et composition des districts",
+       "usage": "rangs, noms français, rattachements et continuité après1867"
+      },
+      {
+       "source_id": "src-act-lu-limites-historiques-1920-1977",
+       "locator": "shapefile1920–1977, attributs DISTRICT et CANTON ; groupe Wiltz",
+       "usage": "recoupement de la composition territoriale et base géométrique"
+      },
+      {
+       "source_id": "src-chd-lu-6711-abolition-districts",
+       "locator": "dossier consolidé p.10, exposé des motifs, imprimé p.3 ; p.26 pour continuité juridique",
+       "usage": "existence historique des trois districts et ancien district de Mersch"
+      },
+      {
+       "source_id": "src-luxembourg-wwii",
+       "locator": "sections sur1944–1945",
+       "usage": "libération et reprise des combats ; distinction du contrôle et de la souveraineté"
+      }
+     ],
+     "geometrie_ref": "geom-subdivision-lu-canton-wiltz-1945-01-01"
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-lu-district-grevenmacher",
+   "type_entite": "subdivision",
+   "nom": "District de Grevenmacher",
+   "nom_court": "Grevenmacher",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_par_recoupement",
+     "proprietes": {
+      "nom": "Grevenmacher",
+      "echelon": 1,
+      "niveau": 1,
+      "statut_administratif": "district",
+      "parent_id": "territoire-lu-luxembourg",
+      "souverainete_id": "luxembourg",
+      "reserves": [
+       "R2LU-01",
+       "R2LU-02",
+       "R2LU-05",
+       "R2LU-06",
+       "R2LU-07"
+      ],
+      "note": "Découpage de droit proposé par recoupement institutionnel. Les cantons sont des divisions territoriales ; aucun exécutif cantonal propre n’est déduit. Le contrôle réel demeure dans les couches de territoires et de fronts.",
+      "preuve_temporelle": "sources_retrospectives_et_base_historique_1920_1977",
+      "chef_lieu_propose": {
+       "nom": "Grevenmacher",
+       "annee_preuve": 2018,
+       "source_id": "src-mint-lu-legislation-communale-2018",
+       "locator": "p.5, historique des districts",
+       "statut": "reference_retrospective_non_validee_au_01_01_1945",
+       "reserve_id": "R2LU-05"
+      }
+     },
+     "sources": [
+      {
+       "source_id": "src-mint-lu-legislation-communale-2018",
+       "locator": "p.5–6, historique et composition des districts",
+       "usage": "rangs, noms français, rattachements et continuité après1867"
+      },
+      {
+       "source_id": "src-act-lu-limites-historiques-1920-1977",
+       "locator": "shapefile1920–1977, attributs DISTRICT et CANTON ; groupe Grevenmacher",
+       "usage": "recoupement de la composition territoriale et base géométrique"
+      },
+      {
+       "source_id": "src-chd-lu-6711-abolition-districts",
+       "locator": "dossier consolidé p.10, exposé des motifs, imprimé p.3 ; p.26 pour continuité juridique",
+       "usage": "existence historique des trois districts et ancien district de Mersch"
+      },
+      {
+       "source_id": "src-luxembourg-wwii",
+       "locator": "sections sur1944–1945",
+       "usage": "libération et reprise des combats ; distinction du contrôle et de la souveraineté"
+      }
+     ]
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-lu-canton-echternach",
+   "type_entite": "subdivision",
+   "nom": "Canton d'Echternach",
+   "nom_court": "Echternach",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_par_recoupement",
+     "proprietes": {
+      "nom": "Echternach",
+      "echelon": 2,
+      "niveau": 2,
+      "statut_administratif": "canton",
+      "parent_id": "subdivision-lu-district-grevenmacher",
+      "souverainete_id": "luxembourg",
+      "reserves": [
+       "R2LU-01",
+       "R2LU-02",
+       "R2LU-05",
+       "R2LU-06"
+      ],
+      "note": "Découpage de droit proposé par recoupement institutionnel. Les cantons sont des divisions territoriales ; aucun exécutif cantonal propre n’est déduit. Le contrôle réel demeure dans les couches de territoires et de fronts.",
+      "preuve_temporelle": "sources_retrospectives_et_base_historique_1920_1977"
+     },
+     "sources": [
+      {
+       "source_id": "src-mint-lu-legislation-communale-2018",
+       "locator": "p.5–6, historique et composition des districts",
+       "usage": "rangs, noms français, rattachements et continuité après1867"
+      },
+      {
+       "source_id": "src-act-lu-limites-historiques-1920-1977",
+       "locator": "shapefile1920–1977, attributs DISTRICT et CANTON ; groupe Echternach",
+       "usage": "recoupement de la composition territoriale et base géométrique"
+      },
+      {
+       "source_id": "src-chd-lu-6711-abolition-districts",
+       "locator": "dossier consolidé p.10, exposé des motifs, imprimé p.3 ; p.26 pour continuité juridique",
+       "usage": "existence historique des trois districts et ancien district de Mersch"
+      },
+      {
+       "source_id": "src-luxembourg-wwii",
+       "locator": "sections sur1944–1945",
+       "usage": "libération et reprise des combats ; distinction du contrôle et de la souveraineté"
+      }
+     ],
+     "geometrie_ref": "geom-subdivision-lu-canton-echternach-1945-01-01"
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-lu-canton-grevenmacher",
+   "type_entite": "subdivision",
+   "nom": "Canton de Grevenmacher",
+   "nom_court": "Grevenmacher",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_par_recoupement",
+     "proprietes": {
+      "nom": "Grevenmacher",
+      "echelon": 2,
+      "niveau": 2,
+      "statut_administratif": "canton",
+      "parent_id": "subdivision-lu-district-grevenmacher",
+      "souverainete_id": "luxembourg",
+      "reserves": [
+       "R2LU-01",
+       "R2LU-02",
+       "R2LU-05",
+       "R2LU-06"
+      ],
+      "note": "Découpage de droit proposé par recoupement institutionnel. Les cantons sont des divisions territoriales ; aucun exécutif cantonal propre n’est déduit. Le contrôle réel demeure dans les couches de territoires et de fronts.",
+      "preuve_temporelle": "sources_retrospectives_et_base_historique_1920_1977"
+     },
+     "sources": [
+      {
+       "source_id": "src-mint-lu-legislation-communale-2018",
+       "locator": "p.5–6, historique et composition des districts",
+       "usage": "rangs, noms français, rattachements et continuité après1867"
+      },
+      {
+       "source_id": "src-act-lu-limites-historiques-1920-1977",
+       "locator": "shapefile1920–1977, attributs DISTRICT et CANTON ; groupe Grevenmacher",
+       "usage": "recoupement de la composition territoriale et base géométrique"
+      },
+      {
+       "source_id": "src-chd-lu-6711-abolition-districts",
+       "locator": "dossier consolidé p.10, exposé des motifs, imprimé p.3 ; p.26 pour continuité juridique",
+       "usage": "existence historique des trois districts et ancien district de Mersch"
+      },
+      {
+       "source_id": "src-luxembourg-wwii",
+       "locator": "sections sur1944–1945",
+       "usage": "libération et reprise des combats ; distinction du contrôle et de la souveraineté"
+      }
+     ],
+     "geometrie_ref": "geom-subdivision-lu-canton-grevenmacher-1945-01-01"
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-lu-canton-remich",
+   "type_entite": "subdivision",
+   "nom": "Canton de Remich",
+   "nom_court": "Remich",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_par_recoupement",
+     "proprietes": {
+      "nom": "Remich",
+      "echelon": 2,
+      "niveau": 2,
+      "statut_administratif": "canton",
+      "parent_id": "subdivision-lu-district-grevenmacher",
+      "souverainete_id": "luxembourg",
+      "reserves": [
+       "R2LU-01",
+       "R2LU-02",
+       "R2LU-05",
+       "R2LU-06",
+       "R2LU-07"
+      ],
+      "note": "Découpage de droit proposé par recoupement institutionnel. Les cantons sont des divisions territoriales ; aucun exécutif cantonal propre n’est déduit. Le contrôle réel demeure dans les couches de territoires et de fronts.",
+      "preuve_temporelle": "sources_retrospectives_et_base_historique_1920_1977"
+     },
+     "sources": [
+      {
+       "source_id": "src-mint-lu-legislation-communale-2018",
+       "locator": "p.5–6, historique et composition des districts",
+       "usage": "rangs, noms français, rattachements et continuité après1867"
+      },
+      {
+       "source_id": "src-act-lu-limites-historiques-1920-1977",
+       "locator": "shapefile1920–1977, attributs DISTRICT et CANTON ; groupe Remich",
+       "usage": "recoupement de la composition territoriale et base géométrique"
+      },
+      {
+       "source_id": "src-chd-lu-6711-abolition-districts",
+       "locator": "dossier consolidé p.10, exposé des motifs, imprimé p.3 ; p.26 pour continuité juridique",
+       "usage": "existence historique des trois districts et ancien district de Mersch"
+      },
+      {
+       "source_id": "src-luxembourg-wwii",
+       "locator": "sections sur1944–1945",
+       "usage": "libération et reprise des combats ; distinction du contrôle et de la souveraineté"
+      }
+     ]
+    }
+   ],
+   "relations": []
+  }
+ ]
+}

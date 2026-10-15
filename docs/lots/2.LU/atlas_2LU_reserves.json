@@ -1,0 +1,55 @@
+{
+  "lot": "2.LU",
+  "statut": "pour_revue_groupe1",
+  "reserves": [
+    {
+      "reserve_id": "R2LU-01",
+      "point": "Précision des contours historiques",
+      "preuves_et_limites": "ACT publie une reconstruction1920–1977 sous CC0. La précision des lignes à la date exacte n’est pas documentée.",
+      "impact_donnees": "Onze références proposées comme reconstructions provisoires ; quatre tracés exclus. Aucun contour dit certifié.",
+      "choix_a_examiner": "Examiner la précision acceptable lors de la revue, sans remplacer silencieusement par des limites actuelles."
+    },
+    {
+      "reserve_id": "R2LU-02",
+      "point": "Nomenclature de droit et continuité1945",
+      "preuves_et_limites": "Cours ministériel2018 p.5–6 et dossier6711 p.10/26 recoupent la baseACT. Pas d’annuaire complet au01/01/1945 relu.",
+      "impact_donnees": "Noms/rangs français proposés par recoupement ; aucun code actuel ni gouvernement cantonal inventé. Occupation et combats ne changent pas automatiquement la souveraineté luxembourgeoise.",
+      "choix_a_examiner": "Confirmer les champs encore insuffisants avec une pièce datée ; garder les réserves de contrôle des couches existantes."
+    },
+    {
+      "reserve_id": "R2LU-03",
+      "point": "Vianden et changement de frontière de1949",
+      "preuves_et_limites": "Bulletin officiel1949 p.148 date la reprise du Kammerwald après le Snapshot ; la base couvre1920–1977 sans carte de ce changement.",
+      "impact_donnees": "Tracés du canton de Vianden et du district de Diekirch : ne_pas_integrer, références absentes des états. Fiches conservées.",
+      "choix_a_examiner": "Vérifier spatialement l’emprise1945 avant de lever l’exclusion ; ne pas inférer que le polygone est erroné à partir de cette seule alerte."
+    },
+    {
+      "reserve_id": "R2LU-04",
+      "point": "Luxembourg-ville et tutelle du district",
+      "preuves_et_limites": "Le cours2018 p.6 décrit une exception à l’autorité du commissaire ; ce n’est pas une preuve d’un quatrième district territorial.",
+      "impact_donnees": "Luxembourg-ville reste dans la compositionACT ; note spéciale, aucune enclave institutionnelle tracée.",
+      "choix_a_examiner": "Préciser la portée juridique au Snapshot sans confondre appartenance territoriale et tutelle administrative."
+    },
+    {
+      "reserve_id": "R2LU-05",
+      "point": "Sièges et noms locaux",
+      "preuves_et_limites": "Les trois chefs-lieux proviennent de l’historique du cours2018 p.5. Aucun bureau réellement actif en1945 n’a été localisé.",
+      "impact_donnees": "Trois chef_lieu_propose, année_preuve2018 et statut non validé1945. Aucun chef-lieu cantonal ou nom allemand de l’occupation déduit.",
+      "choix_a_examiner": "Vérifier la fonction et les formes locales à la date ; Diekirch et Grevenmacher restent des villes candidates non créées."
+    },
+    {
+      "reserve_id": "R2LU-06",
+      "point": "Raccords avec les voisins",
+      "preuves_et_limites": "Les unions sont contrôlées à l’intérieur de la baseACT. Aucun ajustement aux frontières canoniques, à la France, à la Belgique ou à l’Allemagne.",
+      "impact_donnees": "Raccords externes non certifiés ; valeurs de surface uniquement techniques. Les couches de fronts ne sont pas modifiées.",
+      "choix_a_examiner": "Comparer ultérieurement des bases compatibles et documenter les différences de résolution avant toute correction."
+    },
+    {
+      "reserve_id": "R2LU-07",
+      "point": "Anneaux emboîtés à Dalheim",
+      "preuves_et_limites": "Source invalide : nested shells. make_valid conserve1802 coordonnées mais modifie la surface calculée de−1035,45m². L’interprétation de l’anneau reste ouverte.",
+      "impact_donnees": "Canton de Remich et district de Grevenmacher non intégrables, sans référence dans les états. Reconstruction technique conservée pour inspection. Trois autres réparations numériques de reprojection ont un effet propre inférieur à0,000003m², détaillé au contrôle.",
+      "choix_a_examiner": "Examiner l’anneau source avec la preuve cadastrale avant intégration ; ne pas transformer une correction technique en limite historique validée."
+    }
+  ]
+}

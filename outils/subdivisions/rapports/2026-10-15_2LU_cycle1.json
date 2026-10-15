@@ -1,0 +1,49 @@
+{
+ "lot": "2.LU",
+ "cycle": 1,
+ "date": "2026-10-15",
+ "essai": false,
+ "subdivisions": 15,
+ "echelon_1": 3,
+ "echelon_2": 12,
+ "traces_integres": 11,
+ "sans_trace": [
+  "subdivision-lu-district-diekirch",
+  "subdivision-lu-canton-vianden",
+  "subdivision-lu-district-grevenmacher",
+  "subdivision-lu-canton-remich"
+ ],
+ "traces_refuses": [
+  {
+   "geometry_id": "geom-subdivision-lu-district-diekirch-1945-01-01",
+   "raison": "marqué « ne_pas_integrer » par Ether"
+  },
+  {
+   "geometry_id": "geom-subdivision-lu-district-grevenmacher-1945-01-01",
+   "raison": "marqué « ne_pas_integrer » par Ether"
+  },
+  {
+   "geometry_id": "geom-subdivision-lu-canton-remich-1945-01-01",
+   "raison": "marqué « ne_pas_integrer » par Ether"
+  },
+  {
+   "geometry_id": "geom-subdivision-lu-canton-vianden-1945-01-01",
+   "raison": "marqué « ne_pas_integrer » par Ether"
+  }
+ ],
+ "sources_ajoutees": [
+  "src-act-lu-limites-historiques-1920-1977",
+  "src-mint-lu-legislation-communale-2018",
+  "src-chd-lu-6711-abolition-districts",
+  "src-sip-lu-kammerwald-1949"
+ ],
+ "sources_completees": [
+  "src-luxembourg-wwii"
+ ],
+ "statuts_relecture": {
+  "ok": 3,
+  "limite": 1
+ },
+ "registre": "1.33 -> 1.34",
+ "avertissements": []
+}

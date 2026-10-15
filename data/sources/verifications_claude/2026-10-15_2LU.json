@@ -2,32 +2,32 @@
  "lot": "2.LU",
  "date": "2026-10-15",
  "auteur": "Claude",
- "methode": "Sous-agents (WebFetch seulement, sans contournement) + lecture par Claude des captures déposées par Ether dans preuves/ ; « ok » seulement si la source prouve ce que la fiche lui fait dire à la date.",
+ "methode": "Sous-agent (WebFetch seulement, sans contournement) + lecture par Claude des captures et de la copie HTML déposées par Ether dans preuves/ ; « ok » seulement si la source prouve ce que la fiche lui fait dire à la date.",
  "resultats": [
   {
    "id": "src-act-lu-limites-historiques-1920-1977",
    "statut": "ok",
-   "commentaire": "Page data.public.lu refusée aux robots pour l'outil de lecture ; copie HTML enregistrée par Ether lue par Claude : producteur ACT, période « 1920-1977 », « Licence Creative Commons Zero (CC0) ». Licence acceptée ; précision des limites au 01/01/1945 non documentée (R2LU-01)."
+   "commentaire": "WebFetch refusé par le site (robots), sans contournement ; copie HTML de la page archivée par Ether (preuves/ACT_historique_licence.html) lue par Claude : producteur « Administration du cadastre et de la topographie », « Licence Creative Commons Zero (CC0) », création 24 juillet 2017, période « 1920-1977 » incluse. Contrôle visuel des unions (12 cantons) lu par Claude : composition conforme au cours MINT 2018. Prouve la base des tracés, pas leur exactitude au jour du 01/01/1945 (R2LU-01)."
   },
   {
    "id": "src-mint-lu-legislation-communale-2018",
    "statut": "ok",
-   "commentaire": "Capture p. 5 lue par Claude et page lue par un sous-agent : douze cantons, trois districts (chefs-lieux Luxembourg, Diekirch, Grevenmacher), loi du 24/02/1843, canton de Vianden créé en 1851, district de Mersch créé en 1857 puis supprimé en 1867. Source rétrospective (2018) ; sièges non prouvés pour 1945."
+   "commentaire": "Sous-agent + capture p. 5 lue par Claude : « Le Grand-Duché de Luxembourg est divisé en douze cantons répartis sur trois districts administratifs dont les chefs-lieux sont établis à Luxembourg, à Diekirch et à Grevenmacher » ; composition des trois districts ; canton de Vianden « créé par la loi du 4 avril 1851 » ; p. 6 : suppression du district de Mersch par la loi du 4 mai 1867 et exception de la ville de Luxembourg. Source rétrospective (2018), recoupée (R2LU-02)."
   },
   {
    "id": "src-chd-lu-6711-abolition-districts",
    "statut": "limite",
-   "commentaire": "p. 10 : trois districts créés par la loi du 24/02/1843 ; rien de daté sur 1945 ; p. 26 ne cite que l'abrogation de 1988."
+   "commentaire": "Sous-agent : « Les trois districts actuels de Luxembourg, Diekirch et Grevenmacher ont été créés par la loi du 24 février 1843 » et district de Mersch du 30 mai 1857 au 4 mai 1867. Ne détaille pas les 12 cantons ni Vianden ; numéros de page non confirmés par l'outil. Recoupement seulement."
   },
   {
    "id": "src-sip-lu-kammerwald-1949",
    "statut": "ok",
-   "commentaire": "« La reprise du « Kammerwald » par le Gouvernement luxembourgeois a été, par contre, effectuée comme prévu le 23 avril 1949. » Changement postérieur au Snapshot : justifie l'exclusion des tracés Vianden/Diekirch."
+   "commentaire": "Sous-agent, p. 148 : « La reprise du « Kammerwald » par le Gouvernement luxembourgeois a été, par contre, effectuée comme prévu le 23 avril 1949. » Changement postérieur au Snapshot 0 : prouve l'alerte (R2LU-03), sans dire si la base ACT 1920–1977 l'inclut."
   },
   {
    "id": "src-luxembourg-wwii",
-   "statut": "ok",
-   "commentaire": "« On 10 September 1944, Luxembourg was liberated by the American army. » et contre-offensive des Ardennes : contexte seulement."
+   "statut": "limite",
+   "commentaire": "Sous-agent : « On 10 September 1944, Luxembourg was liberated by the American army. » ; « The Battle of the Bulge wreaked havoc in the north and east of the country. » Contexte seulement (contrôle réel), pas une preuve de subdivision."
   }
  ]
 }

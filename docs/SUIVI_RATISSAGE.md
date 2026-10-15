@@ -83,3 +83,4 @@ Principe de Guizmo : **maximum d'informations, minimum de visibilité**. La cart
 |---|---|---|---|---|
 | 2.FR | 108 (18 régions, 90 départements) | 103 (TRF-GIS 1940, CC BY 4.0) | 11 (5 ok) | intégré le 15/10/2026 (pilote, manuel) |
 | 2.BE | 50 (9 provinces, 41 arrondissements) | 0 (pas de source ouverte de 1945) | 5 (4 ok) | intégré le 15/10/2026 (cycle 1, boucle) |
+| 2.LU | 15 (3 districts, 12 cantons) | 11 (ACT 1920–1977, CC0) ; 4 exclus (Vianden/Diekirch, Remich/Grevenmacher) | 5 (3 ok) | intégré le 15/10/2026 (cycle 1, boucle) |

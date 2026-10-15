@@ -1,7 +1,7 @@
 {
  "metadata": {
   "nom": "registre_sources_atlas",
-  "version": "1.33",
+  "version": "1.34",
   "date_creation": "2026-09-26",
   "principe": "Une source = un source_id stable. Les fiches événements/entités peuvent référencer ce source_id et préciser l'usage/locator.",
   "statut": "registre_initial_a_completer"
@@ -1425,13 +1425,31 @@
    ],
    "zones": [],
    "usages_atlas": [
-    "Libération de septembre 1944 puis retour des combats."
+    "Libération de septembre 1944 puis retour des combats.",
+    "Contexte du lot2.LU : contrôle réel distinct des subdivisions de droit."
    ],
    "locator": "",
    "resume_passage": "On 10 September 1944, Luxembourg was liberated by the American army.",
    "archive_locale": null,
-   "notes": "Apportée par Ether (lot 03), intégrée par Claude le 28/09/2026. Relecture Claude 01/10/2026 (ok) : Libération de sept. 1944, offensive allemande de décembre 1944 et combats jusqu'en février 1945 (Vianden le 22) confirmés.",
-   "verification_claude": "ok"
+   "notes": "Apportée par Ether (lot 03), intégrée par Claude le 28/09/2026. Relecture Claude 01/10/2026 (ok) : Libération de sept. 1944, offensive allemande de décembre 1944 et combats jusqu'en février 1945 (Vianden le 22) confirmés. Lot 2.LU (cycle 1, 2026-10-15) : cibles ajoutées ; relecture : limite. Sous-agent : « On 10 September 1944, Luxembourg was liberated by the American army. » ; « The Battle of the Bulge wreaked havoc in the north and east of the country. » Contexte seulement (contrôle réel), pas une preuve de subdivision.",
+   "verification_claude": "ok",
+   "cibles": [
+    "subdivision-lu-district-luxembourg",
+    "subdivision-lu-canton-capellen",
+    "subdivision-lu-canton-esch-sur-alzette",
+    "subdivision-lu-canton-luxembourg",
+    "subdivision-lu-canton-mersch",
+    "subdivision-lu-district-diekirch",
+    "subdivision-lu-canton-clervaux",
+    "subdivision-lu-canton-diekirch",
+    "subdivision-lu-canton-redange",
+    "subdivision-lu-canton-vianden",
+    "subdivision-lu-canton-wiltz",
+    "subdivision-lu-district-grevenmacher",
+    "subdivision-lu-canton-echternach",
+    "subdivision-lu-canton-grevenmacher",
+    "subdivision-lu-canton-remich"
+   ]
   },
   {
    "source_id": "src-luxembourg-bulge",
@@ -43617,6 +43635,192 @@
     "01_lots/2.BE/preuves/CegeSoma_annexion.html"
    ],
    "droits": "Consultation documentaire et faits sourcés ; aucune autorisation de publier une géométrie déduite de ce document."
+  },
+  {
+   "source_id": "src-act-lu-limites-historiques-1920-1977",
+   "niveau": "A",
+   "type_source": "publication_institutionnelle",
+   "titre": "Limites communales historiques, période1920–1977, ressource24/07/2017",
+   "institution": "Administration du cadastre et de la topographie du Luxembourg (ACT)",
+   "url": "https://data.public.lu/fr/datasets/limites-communales-historiques-1/?resources=all",
+   "date_consultation": "2026-10-15",
+   "periode_couverte": [],
+   "zones": [
+    "LU"
+   ],
+   "usages_atlas": [
+    "subdivisions_snapshot0"
+   ],
+   "cibles": [
+    "subdivision-lu-district-luxembourg",
+    "subdivision-lu-canton-capellen",
+    "subdivision-lu-canton-esch-sur-alzette",
+    "subdivision-lu-canton-luxembourg",
+    "subdivision-lu-canton-mersch",
+    "subdivision-lu-district-diekirch",
+    "subdivision-lu-canton-clervaux",
+    "subdivision-lu-canton-diekirch",
+    "subdivision-lu-canton-redange",
+    "subdivision-lu-canton-vianden",
+    "subdivision-lu-canton-wiltz",
+    "subdivision-lu-district-grevenmacher",
+    "subdivision-lu-canton-echternach",
+    "subdivision-lu-canton-grevenmacher",
+    "subdivision-lu-canton-remich"
+   ],
+   "locator": "Description, licence CC0, ressource1920–1977 ; attributs COMMUNE,CANTON,DISTRICT",
+   "resume_passage": "WebFetch refusé par le site (robots), sans contournement ; copie HTML de la page archivée par Ether (preuves/ACT_historique_licence.html) lue par Claude : producteur « Administration du cadastre et de la topographie », « Licence Creative Commons Zero (CC0) », création 24 juillet 2017, période « 1920-1977 » incluse. Contrôle visuel des unions (12 cantons) lu par Claude : composition conforme au cours MINT 2018. Prouve la base des tracés, pas leur exactitude au jour du 01/01/1945 (R2LU-01).",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "lu",
+    "date": "2026-10-15",
+    "mode": "PDF et captures vus ; données et métadonnées contrôlées pour ACT"
+   },
+   "notes": "Proposée par Ether (lot 2.LU, cycle 1). Ce que la source prouve selon Ether : 126 polygones communaux historiques, composition de trois districts et douze cantons ; source de quinze unions. Limite annoncée par Ether : Reconstruction couvrant une période large, précision historique au jour près non documentée. Noms communaux non validés pour1945. Un défaut à Dalheim, documenté. Quatre unions restent non intégrables. Relecture Claude 2026-10-15 : WebFetch refusé par le site (robots), sans contournement ; copie HTML de la page archivée par Ether (preuves/ACT_historique_licence.html) lue par Claude : producteur « Administration du cadastre et de la topographie », « Licence Creative Commons Zero (CC0) », création 24 juillet 2017, période « 1920-1977 » incluse. Contrôle visuel des unions (12 cantons) lu par Claude : composition conforme au cours MINT 2018. Prouve la base des tracés, pas leur exactitude au jour du 01/01/1945 (R2LU-01).",
+   "auteur": "Administration du cadastre et de la topographie du Luxembourg (ACT)",
+   "archives_locales": [
+    "01_lots/2.LU/preuves/ACT_historique_licence.html",
+    "01_lots/2.LU/preuves/ACT_limites_1920-1977.zip"
+   ],
+   "licence": "CC0",
+   "url_fichier": "https://download.data.public.lu/resources/limites-communales-historiques-1/20170724-132611/Limites_communales_historiques_1920-1977.zip",
+   "version": "Ressource du24/07/2017, sha1 ae3a5eb6df8071ec160433b98ca7f05a9fe124a7",
+   "createur_trace": "ACT Luxembourg",
+   "provenance": "Publication directe du producteur cadastral ; shapefile et métadonnées ArcGIS2017. Aucun fond tiers utilisé pour les unions.",
+   "transformations": "Unions par CANTON/DISTRICT en EPSG:2169, reprojection4326, corrections décrites dans le contrôle géométrique. Aucune simplification."
+  },
+  {
+   "source_id": "src-mint-lu-legislation-communale-2018",
+   "niveau": "B",
+   "type_source": "publication_institutionnelle",
+   "titre": "La législation communale — Notes de cours, juillet2018",
+   "institution": "Ministère de l’Intérieur du Luxembourg",
+   "url": "https://mint.gouvernement.lu/dam-assets/personnel-communal/recrutement-examen-d-admissibilite/programmes/Organisation-des-communes-admissibilite-B1-A-A2-A1.pdf",
+   "date_consultation": "2026-10-15",
+   "periode_couverte": [],
+   "zones": [
+    "LU"
+   ],
+   "usages_atlas": [
+    "subdivisions_snapshot0"
+   ],
+   "cibles": [
+    "subdivision-lu-district-luxembourg",
+    "subdivision-lu-canton-capellen",
+    "subdivision-lu-canton-esch-sur-alzette",
+    "subdivision-lu-canton-luxembourg",
+    "subdivision-lu-canton-mersch",
+    "subdivision-lu-district-diekirch",
+    "subdivision-lu-canton-clervaux",
+    "subdivision-lu-canton-diekirch",
+    "subdivision-lu-canton-redange",
+    "subdivision-lu-canton-vianden",
+    "subdivision-lu-canton-wiltz",
+    "subdivision-lu-district-grevenmacher",
+    "subdivision-lu-canton-echternach",
+    "subdivision-lu-canton-grevenmacher",
+    "subdivision-lu-canton-remich"
+   ],
+   "locator": "p.1 date ; p.5–6 historique des districts et cantons",
+   "resume_passage": "Sous-agent + capture p. 5 lue par Claude : « Le Grand-Duché de Luxembourg est divisé en douze cantons répartis sur trois districts administratifs dont les chefs-lieux sont établis à Luxembourg, à Diekirch et à Grevenmacher » ; composition des trois districts ; canton de Vianden « créé par la loi du 4 avril 1851 » ; p. 6 : suppression du district de Mersch par la loi du 4 mai 1867 et exception de la ville de Luxembourg. Source rétrospective (2018), recoupée (R2LU-02).",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "lu",
+    "date": "2026-10-15",
+    "mode": "PDF et captures vus ; données et métadonnées contrôlées pour ACT"
+   },
+   "notes": "Proposée par Ether (lot 2.LU, cycle 1). Ce que la source prouve selon Ether : trois districts, douze cantons et leur répartition ; création de Vianden1851 ; suppression de Mersch1867 ; sièges de référence. Limite annoncée par Ether : Cours rétrospectif de2018, pas un annuaire1945. Exception de tutelle pour Luxembourg-ville mentionnée sans créer un quatrième district. Relecture Claude 2026-10-15 : Sous-agent + capture p. 5 lue par Claude : « Le Grand-Duché de Luxembourg est divisé en douze cantons répartis sur trois districts administratifs dont les chefs-lieux sont établis à Luxembourg, à Diekirch et à Grevenmacher » ; composition des trois districts ; canton de Vianden « créé par la loi du 4 avril 1851 » ; p. 6 : suppression du district de Mersch par la loi du 4 mai 1867 et exception de la ville de Luxembourg. Source rétrospective (2018), recoupée (R2LU-02).",
+   "auteur": "Ministère de l’Intérieur du Luxembourg",
+   "archives_locales": [
+    "01_lots/2.LU/preuves/MINT_organisation_communes.pdf",
+    "01_lots/2.LU/preuves/MINT_p5.png",
+    "01_lots/2.LU/preuves/MINT_p6.png"
+   ]
+  },
+  {
+   "source_id": "src-chd-lu-6711-abolition-districts",
+   "niveau": "A",
+   "type_source": "publication_institutionnelle",
+   "titre": "Projet de loi6711 portant abolition des districts — dossier consolidé2014–2015",
+   "institution": "Chambre des députés du Luxembourg",
+   "url": "https://wdocs-pub.chd.lu/docs/compilation/docpa/pdf/6711_Dossier_Complet.pdf",
+   "date_consultation": "2026-10-15",
+   "periode_couverte": [],
+   "zones": [
+    "LU"
+   ],
+   "usages_atlas": [
+    "subdivisions_snapshot0"
+   ],
+   "cibles": [
+    "subdivision-lu-district-luxembourg",
+    "subdivision-lu-canton-capellen",
+    "subdivision-lu-canton-esch-sur-alzette",
+    "subdivision-lu-canton-luxembourg",
+    "subdivision-lu-canton-mersch",
+    "subdivision-lu-district-diekirch",
+    "subdivision-lu-canton-clervaux",
+    "subdivision-lu-canton-diekirch",
+    "subdivision-lu-canton-redange",
+    "subdivision-lu-canton-vianden",
+    "subdivision-lu-canton-wiltz",
+    "subdivision-lu-district-grevenmacher",
+    "subdivision-lu-canton-echternach",
+    "subdivision-lu-canton-grevenmacher",
+    "subdivision-lu-canton-remich"
+   ],
+   "locator": "p.10, exposé des motifs, imprimé3 ; p.26, avisSYVICOL du08/12/2014",
+   "resume_passage": "Sous-agent : « Les trois districts actuels de Luxembourg, Diekirch et Grevenmacher ont été créés par la loi du 24 février 1843 » et district de Mersch du 30 mai 1857 au 4 mai 1867. Ne détaille pas les 12 cantons ni Vianden ; numéros de page non confirmés par l'outil. Recoupement seulement.",
+   "archive_locale": null,
+   "verification_claude": "limite",
+   "verification_ether": {
+    "statut": "lu",
+    "date": "2026-10-15",
+    "mode": "PDF et captures vus ; données et métadonnées contrôlées pour ACT"
+   },
+   "notes": "Proposée par Ether (lot 2.LU, cycle 1). Ce que la source prouve selon Ether : cadre historique de1843, épisode du district de Mersch1857–1867, continuité générale du système. Limite annoncée par Ether : Projet d’abolition ultérieur, utilisé pour son historique. Les actes originaux de1843/1867 n’ont pas été relus. Relecture Claude 2026-10-15 : Sous-agent : « Les trois districts actuels de Luxembourg, Diekirch et Grevenmacher ont été créés par la loi du 24 février 1843 » et district de Mersch du 30 mai 1857 au 4 mai 1867. Ne détaille pas les 12 cantons ni Vianden ; numéros de page non confirmés par l'outil. Recoupement seulement.",
+   "auteur": "Chambre des députés du Luxembourg",
+   "archives_locales": [
+    "01_lots/2.LU/preuves/CHD_6711_districts.pdf",
+    "01_lots/2.LU/preuves/CHD_6711_p10.png"
+   ]
+  },
+  {
+   "source_id": "src-sip-lu-kammerwald-1949",
+   "niveau": "A",
+   "type_source": "publication_institutionnelle",
+   "titre": "Bulletin d’information n°4 du30avril1949 : rectification de la frontière germano-luxembourgeoise",
+   "institution": "Ministère d’État, Service Information et Presse du Luxembourg",
+   "url": "https://sip.gouvernement.lu/dam-assets/publications/bulletin/1949/BID_1949_4/BID_1949_4.pdf",
+   "date_consultation": "2026-10-15",
+   "periode_couverte": [],
+   "zones": [
+    "LU"
+   ],
+   "usages_atlas": [
+    "subdivisions_snapshot0"
+   ],
+   "cibles": [
+    "subdivision-lu-district-diekirch",
+    "subdivision-lu-canton-vianden"
+   ],
+   "locator": "p.148, PDF6, rubrique Kammerwald",
+   "resume_passage": "Sous-agent, p. 148 : « La reprise du « Kammerwald » par le Gouvernement luxembourgeois a été, par contre, effectuée comme prévu le 23 avril 1949. » Changement postérieur au Snapshot 0 : prouve l'alerte (R2LU-03), sans dire si la base ACT 1920–1977 l'inclut.",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "lu",
+    "date": "2026-10-15",
+    "mode": "PDF et captures vus ; données et métadonnées contrôlées pour ACT"
+   },
+   "notes": "Proposée par Ether (lot 2.LU, cycle 1). Ce que la source prouve selon Ether : date de reprise administrative du Kammerwald :23/04/1949 ; alerte contre une anticipation. Limite annoncée par Ether : Ne fournit pas un polygone du secteur. L’absence d’anticipation dans la base1920–1977 n’est pas vérifiée ; Vianden et Diekirch non intégrables. Relecture Claude 2026-10-15 : Sous-agent, p. 148 : « La reprise du « Kammerwald » par le Gouvernement luxembourgeois a été, par contre, effectuée comme prévu le 23 avril 1949. » Changement postérieur au Snapshot 0 : prouve l'alerte (R2LU-03), sans dire si la base ACT 1920–1977 l'inclut.",
+   "auteur": "Ministère d’État, Service Information et Presse du Luxembourg",
+   "archives_locales": [
+    "01_lots/2.LU/preuves/SIP_BID_1949_4.pdf",
+    "01_lots/2.LU/preuves/SIP_BID_1949_p148.png"
+   ]
   }
  ]
 }

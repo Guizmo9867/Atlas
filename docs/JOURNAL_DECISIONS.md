@@ -2,6 +2,12 @@
 
 Une ligne par décision, datée. Plus récente en haut. Ce journal remplace les versions éparpillées dans les conversations : si ce n'est pas ici, ce n'est pas décidé.
 
+## 2026-10-15 (nuit : 2.LU intégré, boucle automatique)
+
+- **Lot 2.LU intégré** (cycle 1) : 15 subdivisions du Luxembourg au 01/01/1945 = 3 districts (Luxembourg, Diekirch, Grevenmacher, échelon 1) et 12 cantons (échelon 2). Pas de district de Mersch (supprimé en 1867), pas de quatrième district pour Luxembourg-ville (R2LU-04). *(Ether, intégré par Claude)*
+- **Tracés** : 11 reconstitués d'après l'ACT (Limites communales historiques 1920–1977, CC0) ; 4 laissés sans tracé comme le demandait Ether (Vianden et Diekirch : Kammerwald 1949, R2LU-03 ; Remich et Grevenmacher : anneau invalide à Dalheim, R2LU-07). Ligne ajoutée à `docs/LICENCES_ET_ATTRIBUTIONS.md`. *(Claude)*
+- Sources : 4 nouvelles + 1 complétée (3 ok, 2 limite), registre v1.34. *(Claude)*
+
 ## 2026-10-15 (nuit : 2.BE intégré, boucle automatique)
 
 - **Lot 2.BE intégré** (cycle 1) : 50 subdivisions de la Belgique au 01/01/1945 = 9 provinces (échelon 1) et 41 arrondissements administratifs (échelon 2), par recoupement 1939 / février 1945 / 1947 ; Eupen, Malmedy, Saint-Vith dans l'arrondissement de Verviers (droit belge). **Aucun tracé** (pas de source de 1945 à licence ouverte, R2BE-01). Réserves R2BE-01 à 06 pour la revue du groupe 1. *(Ether, intégré par Claude)*

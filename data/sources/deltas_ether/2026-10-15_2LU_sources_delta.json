@@ -1,0 +1,230 @@
+{
+  "lot": "2.LU",
+  "date": "2026-10-15",
+  "ajouter": [
+    {
+      "source_id": "src-act-lu-limites-historiques-1920-1977",
+      "niveau": "A",
+      "type_source": "publication_institutionnelle",
+      "titre": "Limites communales historiques, période1920–1977, ressource24/07/2017",
+      "institution": "Administration du cadastre et de la topographie du Luxembourg (ACT)",
+      "auteur": "Administration du cadastre et de la topographie du Luxembourg (ACT)",
+      "url": "https://data.public.lu/fr/datasets/limites-communales-historiques-1/?resources=all",
+      "date_consultation": "2026-10-15",
+      "cibles": [
+        "subdivision-lu-district-luxembourg",
+        "subdivision-lu-canton-capellen",
+        "subdivision-lu-canton-esch-sur-alzette",
+        "subdivision-lu-canton-luxembourg",
+        "subdivision-lu-canton-mersch",
+        "subdivision-lu-district-diekirch",
+        "subdivision-lu-canton-clervaux",
+        "subdivision-lu-canton-diekirch",
+        "subdivision-lu-canton-redange",
+        "subdivision-lu-canton-vianden",
+        "subdivision-lu-canton-wiltz",
+        "subdivision-lu-district-grevenmacher",
+        "subdivision-lu-canton-echternach",
+        "subdivision-lu-canton-grevenmacher",
+        "subdivision-lu-canton-remich"
+      ],
+      "usage": [
+        "126 polygones communaux historiques, composition de trois districts et douze cantons ; source de quinze unions"
+      ],
+      "usages_atlas": [
+        "subdivisions_snapshot0"
+      ],
+      "locator": "Description, licence CC0, ressource1920–1977 ; attributs COMMUNE,CANTON,DISTRICT",
+      "note": "Reconstruction couvrant une période large, précision historique au jour près non documentée. Noms communaux non validés pour1945. Un défaut à Dalheim, documenté. Quatre unions restent non intégrables.",
+      "archives_locales": [
+        "01_lots/2.LU/preuves/ACT_historique_licence.html",
+        "01_lots/2.LU/preuves/ACT_limites_1920-1977.zip"
+      ],
+      "verification_ether": {
+        "statut": "lu",
+        "date": "2026-10-15",
+        "mode": "PDF et captures vus ; données et métadonnées contrôlées pour ACT"
+      },
+      "verification_claude": "a_relire",
+      "licence": "CC0",
+      "url_fichier": "https://download.data.public.lu/resources/limites-communales-historiques-1/20170724-132611/Limites_communales_historiques_1920-1977.zip",
+      "version": "Ressource du24/07/2017, sha1 ae3a5eb6df8071ec160433b98ca7f05a9fe124a7",
+      "createur_trace": "ACT Luxembourg",
+      "provenance": "Publication directe du producteur cadastral ; shapefile et métadonnées ArcGIS2017. Aucun fond tiers utilisé pour les unions.",
+      "transformations": "Unions par CANTON/DISTRICT en EPSG:2169, reprojection4326, corrections décrites dans le contrôle géométrique. Aucune simplification."
+    },
+    {
+      "source_id": "src-mint-lu-legislation-communale-2018",
+      "niveau": "B",
+      "type_source": "publication_institutionnelle",
+      "titre": "La législation communale — Notes de cours, juillet2018",
+      "institution": "Ministère de l’Intérieur du Luxembourg",
+      "auteur": "Ministère de l’Intérieur du Luxembourg",
+      "url": "https://mint.gouvernement.lu/dam-assets/personnel-communal/recrutement-examen-d-admissibilite/programmes/Organisation-des-communes-admissibilite-B1-A-A2-A1.pdf",
+      "date_consultation": "2026-10-15",
+      "cibles": [
+        "subdivision-lu-district-luxembourg",
+        "subdivision-lu-canton-capellen",
+        "subdivision-lu-canton-esch-sur-alzette",
+        "subdivision-lu-canton-luxembourg",
+        "subdivision-lu-canton-mersch",
+        "subdivision-lu-district-diekirch",
+        "subdivision-lu-canton-clervaux",
+        "subdivision-lu-canton-diekirch",
+        "subdivision-lu-canton-redange",
+        "subdivision-lu-canton-vianden",
+        "subdivision-lu-canton-wiltz",
+        "subdivision-lu-district-grevenmacher",
+        "subdivision-lu-canton-echternach",
+        "subdivision-lu-canton-grevenmacher",
+        "subdivision-lu-canton-remich"
+      ],
+      "usage": [
+        "trois districts, douze cantons et leur répartition ; création de Vianden1851 ; suppression de Mersch1867 ; sièges de référence"
+      ],
+      "usages_atlas": [
+        "subdivisions_snapshot0"
+      ],
+      "locator": "p.1 date ; p.5–6 historique des districts et cantons",
+      "note": "Cours rétrospectif de2018, pas un annuaire1945. Exception de tutelle pour Luxembourg-ville mentionnée sans créer un quatrième district.",
+      "archives_locales": [
+        "01_lots/2.LU/preuves/MINT_organisation_communes.pdf",
+        "01_lots/2.LU/preuves/MINT_p5.png",
+        "01_lots/2.LU/preuves/MINT_p6.png"
+      ],
+      "verification_ether": {
+        "statut": "lu",
+        "date": "2026-10-15",
+        "mode": "PDF et captures vus ; données et métadonnées contrôlées pour ACT"
+      },
+      "verification_claude": "a_relire"
+    },
+    {
+      "source_id": "src-chd-lu-6711-abolition-districts",
+      "niveau": "A",
+      "type_source": "publication_institutionnelle",
+      "titre": "Projet de loi6711 portant abolition des districts — dossier consolidé2014–2015",
+      "institution": "Chambre des députés du Luxembourg",
+      "auteur": "Chambre des députés du Luxembourg",
+      "url": "https://wdocs-pub.chd.lu/docs/compilation/docpa/pdf/6711_Dossier_Complet.pdf",
+      "date_consultation": "2026-10-15",
+      "cibles": [
+        "subdivision-lu-district-luxembourg",
+        "subdivision-lu-canton-capellen",
+        "subdivision-lu-canton-esch-sur-alzette",
+        "subdivision-lu-canton-luxembourg",
+        "subdivision-lu-canton-mersch",
+        "subdivision-lu-district-diekirch",
+        "subdivision-lu-canton-clervaux",
+        "subdivision-lu-canton-diekirch",
+        "subdivision-lu-canton-redange",
+        "subdivision-lu-canton-vianden",
+        "subdivision-lu-canton-wiltz",
+        "subdivision-lu-district-grevenmacher",
+        "subdivision-lu-canton-echternach",
+        "subdivision-lu-canton-grevenmacher",
+        "subdivision-lu-canton-remich"
+      ],
+      "usage": [
+        "cadre historique de1843, épisode du district de Mersch1857–1867, continuité générale du système"
+      ],
+      "usages_atlas": [
+        "subdivisions_snapshot0"
+      ],
+      "locator": "p.10, exposé des motifs, imprimé3 ; p.26, avisSYVICOL du08/12/2014",
+      "note": "Projet d’abolition ultérieur, utilisé pour son historique. Les actes originaux de1843/1867 n’ont pas été relus.",
+      "archives_locales": [
+        "01_lots/2.LU/preuves/CHD_6711_districts.pdf",
+        "01_lots/2.LU/preuves/CHD_6711_p10.png"
+      ],
+      "verification_ether": {
+        "statut": "lu",
+        "date": "2026-10-15",
+        "mode": "PDF et captures vus ; données et métadonnées contrôlées pour ACT"
+      },
+      "verification_claude": "a_relire"
+    },
+    {
+      "source_id": "src-sip-lu-kammerwald-1949",
+      "niveau": "A",
+      "type_source": "publication_institutionnelle",
+      "titre": "Bulletin d’information n°4 du30avril1949 : rectification de la frontière germano-luxembourgeoise",
+      "institution": "Ministère d’État, Service Information et Presse du Luxembourg",
+      "auteur": "Ministère d’État, Service Information et Presse du Luxembourg",
+      "url": "https://sip.gouvernement.lu/dam-assets/publications/bulletin/1949/BID_1949_4/BID_1949_4.pdf",
+      "date_consultation": "2026-10-15",
+      "cibles": [
+        "subdivision-lu-district-diekirch",
+        "subdivision-lu-canton-vianden"
+      ],
+      "usage": [
+        "date de reprise administrative du Kammerwald :23/04/1949 ; alerte contre une anticipation"
+      ],
+      "usages_atlas": [
+        "subdivisions_snapshot0"
+      ],
+      "locator": "p.148, PDF6, rubrique Kammerwald",
+      "note": "Ne fournit pas un polygone du secteur. L’absence d’anticipation dans la base1920–1977 n’est pas vérifiée ; Vianden et Diekirch non intégrables.",
+      "archives_locales": [
+        "01_lots/2.LU/preuves/SIP_BID_1949_4.pdf",
+        "01_lots/2.LU/preuves/SIP_BID_1949_p148.png"
+      ],
+      "verification_ether": {
+        "statut": "lu",
+        "date": "2026-10-15",
+        "mode": "PDF et captures vus ; données et métadonnées contrôlées pour ACT"
+      },
+      "verification_claude": "a_relire"
+    }
+  ],
+  "completer": [
+    {
+      "source_id": "src-luxembourg-wwii",
+      "niveau": "A",
+      "type_source": "site_gouvernemental",
+      "titre": "The Second World War",
+      "institution": "luxembourg.public.lu",
+      "url": "https://luxembourg.public.lu/en/society-and-culture/history/second-world-war.html",
+      "date_consultation": "2026-09-28",
+      "periode_couverte": [
+        "1944",
+        "1945"
+      ],
+      "zones": [],
+      "usages_atlas": [
+        "Libération de septembre 1944 puis retour des combats.",
+        "Contexte du lot2.LU : contrôle réel distinct des subdivisions de droit."
+      ],
+      "locator": "",
+      "resume_passage": "On 10 September 1944, Luxembourg was liberated by the American army.",
+      "archive_locale": null,
+      "notes": "Apportée par Ether (lot 03), intégrée par Claude le 28/09/2026. Relecture Claude 01/10/2026 (ok) : Libération de sept. 1944, offensive allemande de décembre 1944 et combats jusqu'en février 1945 (Vianden le 22) confirmés.",
+      "verification_claude": "ok",
+      "cibles": [
+        "subdivision-lu-district-luxembourg",
+        "subdivision-lu-canton-capellen",
+        "subdivision-lu-canton-esch-sur-alzette",
+        "subdivision-lu-canton-luxembourg",
+        "subdivision-lu-canton-mersch",
+        "subdivision-lu-district-diekirch",
+        "subdivision-lu-canton-clervaux",
+        "subdivision-lu-canton-diekirch",
+        "subdivision-lu-canton-redange",
+        "subdivision-lu-canton-vianden",
+        "subdivision-lu-canton-wiltz",
+        "subdivision-lu-district-grevenmacher",
+        "subdivision-lu-canton-echternach",
+        "subdivision-lu-canton-grevenmacher",
+        "subdivision-lu-canton-remich"
+      ],
+      "archives_locales": [
+        "01_lots/2.LU/preuves/Luxembourg_wwii.html"
+      ],
+      "verification_ether": {
+        "statut": "relu",
+        "date": "2026-10-15"
+      },
+      "note": "Source existante relue ; aucun découpage militaire ou jour de libération nouveau n’est proposé."
+    }
+  ]
+}

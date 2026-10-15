@@ -1,11 +1,11 @@
 {
- "genere_le": "2026-10-15 20:17",
+ "genere_le": "2026-10-15 21:15",
  "snapshot0": {
   "date_representee": "1945-01-01 00:00 (dernier état connu avant)",
   "territoires": 74,
   "lignes_de_front": 4,
   "frontieres_tracees": 1,
-  "geometries": 180,
+  "geometries": 191,
   "villes": 1559,
   "villes_par_rang": {
    "A": 85,
@@ -94,6 +94,14 @@
     "zone": null,
     "entites": {
      "subdivision": 108
+    }
+   },
+   {
+    "fichier": "subdivisions_2-LU.json",
+    "version": "1.0",
+    "zone": null,
+    "entites": {
+     "subdivision": 15
     }
    }
   ],
@@ -310,25 +318,25 @@
   ]
  },
  "sources": {
-  "registre_version": "1.33",
-  "total": 903,
+  "registre_version": "1.34",
+  "total": 907,
   "relecture_claude": {
-   "ok": 593,
-   "limite": 160,
+   "ok": 596,
+   "limite": 161,
    "non_verifiee": 136,
    "faible": 6,
    "lien_casse": 8
   },
   "niveaux": {
-   "A": 165,
-   "B": 705,
+   "A": 168,
+   "B": 706,
    "C": 33
   },
-  "en_attente_de_validation_humaine": 307,
+  "en_attente_de_validation_humaine": 308,
   "validees_par_guizmo": 3
  },
  "historique": {
-  "envois_github": 67,
+  "envois_github": 68,
   "premier_envoi": "2026-09-28",
   "dernier_envoi": "2026-10-15",
   "depot_public": "https://github.com/Guizmo9867/Atlas"
