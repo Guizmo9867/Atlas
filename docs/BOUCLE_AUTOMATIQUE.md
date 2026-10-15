@@ -33,8 +33,8 @@ Claude écrit seulement :
 
 **Feux verts** :
 - **Depuis le 02/10/2026, toute la série 1.x (couche villes du Snapshot 0, toutes zones, audit final compris) est autorisée par Guizmo**, sans feu vert par lot (voir `coordination/AUTORISATIONS_RATISSAGE.json`, `autorisation_globale`, et `coordination/POUR_CLAUDE_2026-10-02.md`).
-- **Lot `2.FR` (subdivisions de la France, pilote de la phase 2) : feu vert de Guizmo le 09/10/2026, en mode manuel.** Si `01_lots/2.FR/PRET_ether.md` est plus récent que `PRET_claude.md` : ne pas l'intégrer au réveil ; écrire « 2.FR livré, à intégrer en conversation avec Guizmo » au tableau de bord (rubrique « À trancher par Guizmo ») et envoyer une notification courte. Fiche de lancement : `docs/lancements/2.FR_lancement.md`.
-- **Après le pilote 2.FR (intégré le 15/10/2026 en conversation)** : le complément **`villes_1-10`** (72 chefs-lieux départementaux français de 1945, demandé à Ether avec feu vert de Guizmo du 15/10) est un lot de la série villes 1.x : la boucle l'intègre normalement (format et règles des villes). Si une ville de ce lot est le chef-lieu d'une subdivision de `data/snapshot0/subdivisions_2-FR.json` **et** que la preuve vaut pour le 01/01/1945, ajouter `chef_lieu_id` à l'état de la subdivision (garder `chef_lieu_propose`). Une nouvelle livraison 2.FR (cycle 2) reste en mode manuel.
+- **Phase 2.x (subdivisions de chaque État au 01/01/1945) : feu vert de Guizmo le 15/10/2026, en boucle automatique**, après le pilote 2.FR (intégré en conversation le 15/10). Ouvert : **2.FR** (cycles suivants) et le **groupe 1 : 2.BE, 2.LU, 2.NL, 2.CH**. Les groupes suivants s'ouvrent seulement quand le tableau de bord porte « groupe N ouvert par Guizmo » (après le bilan du groupe 1, voir §3 ter). Fiche de lancement : `docs/lancements/2.x_lancement.md` (copie `00_LANCEMENT_2.x.md`). Mode d'intégration : §3 ter.
+- **Complément `villes_1-10`** (72 chefs-lieux départementaux français de 1945, demandé à Ether avec feu vert de Guizmo du 15/10) : lot de la série villes 1.x, intégré normalement. Si une ville de ce lot est le chef-lieu d'une subdivision de `data/snapshot0/subdivisions_2-FR.json` **et** que la preuve vaut pour le 01/01/1945, ajouter `chef_lieu_id` à l'état de la subdivision (garder `chef_lieu_propose`).
 - **Il faut un nouveau feu vert de Guizmo** pour toute autre couche ou famille (routes, réseaux ferroviaires, ports autonomes, douanes…) et pour le passage aux mois. Le rôle portuaire ou ferroviaire d'une ville reste dans le 1.x.
 - Claude intègre toute livraison signalée par `PRET_ether.md`. Dans le tableau de bord, l'état d'une suite est recopié fidèlement d'après `AUTORISATIONS_RATISSAGE.json` (autorisée / proposée), jamais deviné.
 
@@ -159,6 +159,23 @@ Un gros lot peut prendre plus d'une heure, et un autre réveil démarre toutes l
    - publier avec `url` = cette adresse.
    Si ça échoue, le noter au tableau de bord : ça ne bloque pas la boucle.
 7. **Notifier Guizmo** (notification push) seulement s'il y a un point « à trancher » de la liste de la section 5 (hors réserves 1.x) ou une erreur. Sinon, une ligne au tableau de bord suffit.
+
+## 3 ter. Lots de subdivisions 2.x (depuis le 15/10/2026)
+
+Un lot `01_lots/2.<XX>/` (un État de 1945, ou une partie d'un grand État : `2.SU-UA`) suit la même machine à états que les villes (§2, §3), avec ces étapes propres :
+
+1. **Ouvert ?** Seulement 2.FR et les lots des groupes ouverts (§0, Feux verts). Un lot d'un groupe pas encore ouvert : ne pas l'intégrer, le signaler au tableau de bord (« livré, groupe pas encore ouvert ») et passer.
+2. **Lire** `atlas_2<XX>_pour_claude.md`, `atlas_2<XX>_reserves.md`, le delta de sources et les captures de `preuves/` (outil Read).
+3. **Relire les sources** (sous-agents, WebFetch seulement ; captures lues par Claude) et écrire `data/sources/verifications_claude/<date>_2<XX>[_cycle<n>].json` : `{"lot", "date", "auteur", "methode", "resultats": [{"id", "statut": ok|limite|non_verifiee, "commentaire"}]}`. « ok » seulement si la source prouve ce que la fiche lui fait dire (nom, échelon, appartenance, tracé) **à la date**.
+4. **Lancer l'outil** depuis le dépôt, sur l'ordinateur (device_bash ; mapshaper est téléchargé par npx) :
+   `python3 outils/subdivisions/integrer_subdivisions.py $HOME/mnt/Desktop--Atlas/01_lots/2.<XX> --verif data/sources/verifications_claude/<fichier>.json --cycle <n>`
+   Il contrôle les fiches, refuse les tracés à licence non acceptée ou marqués `ne_pas_integrer`, simplifie, écrit `data/snapshot0/subdivisions_2-<XX>.json`, les tracés, les copies de la livraison, fusionne les sources (registre + 0.01) et écrit le rapport `outils/subdivisions/rapports/<date>_2<XX>_cycle<n>.json`. Pour essayer sans rien toucher : `--essai <dossier hors du dépôt>`.
+   - **Erreur bloquante** (code 1, rien n'est écrit) : pas d'intégration ; le compte rendu donne la liste des erreurs à corriger ; cela compte comme un cycle.
+   - **Tracés refusés pour licence** : ligne « À trancher par Guizmo » au tableau de bord (lot, tracés, licence) ; le reste du lot est intégré.
+   - Une **licence CC BY nouvelle** (autre auteur que ceux déjà crédités) : ajouter une ligne à `docs/LICENCES_ET_ATTRIBUTIONS.md` (crédit obligatoire) ; la carte renvoie à cette page.
+5. **Valider** (`node app/scripts/validate-data.mjs`, zéro erreur), recherche de secrets, puis la suite habituelle : journal, compte rendu `docs/pour_ether/<date>_2<XX>[_cycle<n>].md` copié en `01_lots/2.<XX>/<date>_claude_compte_rendu_<n>.md` (rubriques habituelles + chiffres du rapport + chefs-lieux sans fiche ville listés pour plus tard + temps actif d'Ether recopié), régénérations (sources à valider, chiffres, réserves, export), `02_references/`, REPRISE §5, tableau de bord, commit + push, `STATUT.json`, `PRET_claude.md`, verrou.
+6. **Au plus 3 cycles** par lot ; ensuite les réserves restent pour la revue avec Guizmo. Pas de question à Guizmo pendant un lot.
+7. **Bilan de groupe** : quand les lots d'un groupe sont tous intégrés (cycle 1 au moins), écrire au tableau de bord un court bilan (lots, subdivisions, tracés, sources ok, temps actif d'Ether, réveils de Claude utilisés) et la ligne « À trancher par Guizmo : ouvrir le groupe suivant ? ». Ne jamais ouvrir un groupe soi-même.
 
 ## 4. Les règles de fond (rappel ; le détail est dans le journal)
 

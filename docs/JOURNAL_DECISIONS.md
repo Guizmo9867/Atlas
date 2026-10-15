@@ -2,6 +2,13 @@
 
 Une ligne par décision, datée. Plus récente en haut. Ce journal remplace les versions éparpillées dans les conversations : si ce n'est pas ici, ce n'est pas décidé.
 
+## 2026-10-15 (soir : phase 2.x lancée en boucle automatique)
+
+- **Feu vert de Guizmo pour toute la phase 2.x** (subdivisions de chaque État au 01/01/1945) **en boucle automatique**, comme les villes : Ether enchaîne les lots sans attendre, Claude intègre au réveil, 3 cycles au plus par lot, réserves pour la revue. *(décision de Guizmo)*
+- **Un lot = un État de 1945** (pas un pays de 2026) : le découpage est une règle d'État (ex. Autriche dans le Reich). Grands États coupés en parties (URSS par république, Reich si besoin). Les 61 zones de 2026 servent seulement de contrôle de couverture. Règle du pilote gardée : découpage et souveraineté de droit dans les fiches, contrôle réel par les territoires et les fronts. *(Guizmo + Claude)*
+- **On commence petit** : groupe 1 = Belgique, Luxembourg, Pays-Bas, Suisse ; les groupes suivants (Ouest, Nord, Reich, Centre, Balkans et Turquie, URSS) s'ouvrent après le bilan du groupe 1 (temps, coût, qualité). *(décision de Guizmo)*
+- Outil générique `outils/subdivisions/integrer_subdivisions.py` (contrôles, licences acceptées seulement, jamais OSM/ODbL, simplification, fusion des sources), testé sur la livraison 2.FR (tracés identiques) et sur un faux lot (refus ODbL et CC BY-SA, erreur bloquante sur source absente). Fiche `docs/lancements/2.x_lancement.md` ; mode d'emploi de la boucle §3 ter ; la carte renvoie à la page des crédits. *(Claude)*
+
 ## 2026-10-15 (pilote 2.FR intégré : subdivisions de la France, découpage administratif sur la carte)
 
 - **Lot 2.FR intégré** (cycle 1, mode manuel, en conversation avec Guizmo) : **108 subdivisions** = 90 départements (échelon 2) et 18 circonscriptions des commissaires régionaux de la République (échelon 1), noms de 1945, souveraineté de droit (le contrôle réel reste celui des territoires et des fronts). Fichier `data/snapshot0/subdivisions_2-FR.json`. *(Ether, intégré par Claude)*

@@ -105,7 +105,7 @@ Les thèmes transversaux sont examinés dans chaque catégorie où ils comptent 
 |---|---|---|
 | **0.x** | Frontières et territoires (74 territoires) | fait |
 | **1.x** | Villes (1 559 villes, 10 lots + audit) | fait ; revue des réserves et sources importantes en cours |
-| **2.x** | **Subdivisions** de 1945 (régions, départements, Gaue, oblasts…), par zone | pilote **2.FR intégré le 15/10/2026** ; les autres zones attendent chacune un feu vert |
+| **2.x** | **Subdivisions** de 1945 (régions, départements, Gaue, oblasts…), **un lot par État de 1945** | pilote **2.FR intégré le 15/10/2026** ; **boucle automatique lancée le 15/10** (groupe 1 : BE, LU, NL, CH ; groupes suivants après bilan) — `docs/lancements/2.x_lancement.md` |
 | **3.x** | **Campagnes** zone × catégorie (C1 à C4) : réseaux et règles en vigueur au 01/01/1945 | après les subdivisions |
 
 - **Affichage des subdivisions** (décision de Guizmo, 15/10/2026) : même principe que les villes A/B/C, des **seuils de zoom fixes, identiques pour tous les pays** — échelon 1 à partir du zoom 5, échelon 2 à partir du zoom 6,5 — dans un seul calque « Découpage administratif ». Style discret (échelon 1 : trait gris moyen, nom en petites capitales grises ; échelon 2 : trait fin en pointillé, nom plus petit). Les frontières d'État et les fronts restent très marqués, par-dessus.

@@ -4,6 +4,8 @@ Ce qu'on a le droit de faire avec chaque source de données ou chaque outil, et 
 
 ## Données utilisées dans l'Atlas
 
+*La carte renvoie à cette page (« tous les crédits »). Pour les tracés des subdivisions (phase 2.x), chaque nouvelle source sous CC BY ou licence ouverte y est ajoutée par Claude à l'intégration (`docs/BOUCLE_AUTOMATIQUE.md`, §3 ter).*
+
 | Source | Licence | Ce qu'on en fait | Obligation |
 |---|---|---|---|
 | **OpenHistoricalMap (OHM)** | CC0 (domaine public), sauf certains objets sous leur licence d'origine | tracés provisoires du Snapshot 0 (`data/geometries/`) | Crédit **demandé mais pas obligatoire** pour la partie CC0. Formule proposée par OHM : « Map data courtesy of the OpenHistoricalMap project, in the public domain unless otherwise noted. » |

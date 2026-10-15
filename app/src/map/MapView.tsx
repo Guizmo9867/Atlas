@@ -79,7 +79,7 @@ export default function MapView({ emprise, couches, calques, selection, onSelect
       maxZoom: 12,
       attributionControl: {
         compact: true,
-        customAttribution: '<a href="https://www.openhistoricalmap.org/copyright" target="_blank">OpenHistoricalMap</a> (CC0) · Kartverket (CC BY 4.0) · GURS Slovénie (CC BY 4.0) · OCHA (CC BY-IGO) · départements 1940 : V. Gay, TRF-GIS (CC BY 4.0) · fronts : <a href="https://dhc.westpoint.edu/atlases/" target="_blank">West Point</a> · <a href="https://github.com/Guizmo9867/Atlas" target="_blank">Atlas Eurasie</a> (CC BY 4.0)',
+        customAttribution: '<a href="https://www.openhistoricalmap.org/copyright" target="_blank">OpenHistoricalMap</a> (CC0) · Kartverket (CC BY 4.0) · GURS Slovénie (CC BY 4.0) · OCHA (CC BY-IGO) · départements 1940 : V. Gay, TRF-GIS (CC BY 4.0) · fronts : <a href="https://dhc.westpoint.edu/atlases/" target="_blank">West Point</a> · <a href="https://github.com/Guizmo9867/Atlas" target="_blank">Atlas Eurasie</a> (CC BY 4.0) · <a href="https://github.com/Guizmo9867/Atlas/blob/main/docs/LICENCES_ET_ATTRIBUTIONS.md" target="_blank">tous les crédits</a>',
       },
       style: {
         version: 8,
