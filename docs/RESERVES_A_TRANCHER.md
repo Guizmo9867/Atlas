@@ -1,6 +1,6 @@
 # Atlas — réserves et points à trancher (série villes 1.x)
 
-*Généré automatiquement le 16/10/2026 à 00 h 30 par Claude, à partir des fichiers de réserves d'Ether et des comptes rendus de Claude. Régénéré à chaque lot.*
+*Généré automatiquement le 16/10/2026 à 00 h 32 par Claude, à partir des fichiers de réserves d'Ether et des comptes rendus de Claude. Régénéré à chaque lot.*
 
 ## Comment s'en servir
 
@@ -9,6 +9,17 @@
 - Rien ici n'est appliqué tant que tu n'as pas décidé : l'Atlas affiche aujourd'hui la version prudente décrite dans « ce que ça change ».
 - Sous chaque point, **Sources liées** donne les liens des sources citées, avec leur état (confirmée, lecture partielle, illisible…).
 - Toutes les sources à vérifier (liens, passages) sont aussi dans `00_SOURCES_A_VALIDER.md` (même dossier).
+
+## Lot 2.CH — 1 points
+
+### Q2CH-05 — Lien de la Constitution de 1874 introuvable pour l'outil (mineure) *(question de Claude)*
+
+- **Ce qu'on sait** : L'URL Wikimedia Commons de src-ch-constitution-1874-art1 ne répond pas à l'outil de lecture ; la preuve tient par la capture d'Ether (art. 1). Adresse exacte demandée à Ether.
+- **Ce que ça change sur la carte** : Source gardée « ok » d'après la capture ; aucune donnée en dépend seule.
+- **Choix possibles** : Lien corrigé par Ether ; ou garder la capture comme preuve.
+- **Sources liées** (cliquer pour ouvrir) :
+  - [Constitution fédérale de la Confédération suisse du 29mai1874, art.1](https://upload.wikimedia.org/wikipedia/commons/0/0a/Constitution_Suisse%2C_1874.pdf) — `src-ch-constitution-1874-art1` (confirmée par Claude)
+- **Décision de Guizmo** : …
 
 ## Lot villes 1.3 — 7 points
 
@@ -2195,4 +2206,4 @@ Ce ne sont pas des décisions à prendre : ce sont des rôles (port, rail, indus
 | 1.9 | 49 | 238 |
 | 1.x (audit) | 2 | 15 |
 
-**Total : 252 points à trancher.**
+**Total : 253 points à trancher.**

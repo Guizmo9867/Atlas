@@ -2,6 +2,13 @@
 
 Une ligne par décision, datée. Plus récente en haut. Ce journal remplace les versions éparpillées dans les conversations : si ce n'est pas ici, ce n'est pas décidé.
 
+## 2026-10-16 (nuit : 2.CH intégré, groupe 1 complet, boucle automatique)
+
+- **Lot 2.CH intégré** (cycle 1) : 200 subdivisions de la Suisse au 01/01/1945 = 25 unités cantonales (19 cantons, 6 demi-cantons, sans parent fictif) à l'échelon 1 et 175 districts à l'échelon 2 (terme local gardé). 7 cantons sans district, 2 Landesteile d'Appenzell Rhodes-Intérieures réservés. *(Ether, intégré par Claude)*
+- **Aucun tracé** : les 200 contours OFS G1 sont sous « terms_open » d'opendata.swiss (utilisation libre), pas dans la liste des licences acceptées ; Ether les a marqués `ne_pas_integrer`. Admission de ces conditions **à trancher par Guizmo** (R2CH-01). *(Claude)*
+- Sources : 6 nouvelles (4 ok, 2 limite), registre v1.36. *(Claude)*
+- **Groupe 1 complet** (2.BE, 2.LU, 2.NL, 2.CH intégrés au cycle 1) : bilan au tableau de bord ; l'ouverture du groupe suivant attend Guizmo. *(Claude)*
+
 ## 2026-10-16 (nuit : 2.NL intégré, boucle automatique)
 
 - **Lot 2.NL intégré** (cycle 1) : 12 subdivisions des Pays-Bas au 01/01/1945 = 11 provinces et l'organisme public du Noordoostpolder, à l'échelon 1 comme exception (pas une douzième province, R2NL-02). Un seul échelon (communes trop fines). *(Ether, intégré par Claude)*

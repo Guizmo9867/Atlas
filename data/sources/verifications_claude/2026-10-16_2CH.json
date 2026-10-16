@@ -1,0 +1,38 @@
+{
+ "lot": "2.CH",
+ "date": "2026-10-16",
+ "auteur": "Claude",
+ "methode": "Sous-agent (WebFetch seulement, sans contournement) + lecture par Claude des captures, copies et téléchargements déposés par Ether dans preuves/ ; « ok » seulement si la source prouve ce que la fiche lui fait dire à la date.",
+ "resultats": [
+  {
+   "id": "src-ofs-agv-snapshot-1945",
+   "statut": "ok",
+   "commentaire": "WebFetch refusé (robots), sans contournement. Téléchargement d'Ether (preuves/AGV_snapshot_19450101.csv) relu et recompté par Claude : 3 316 lignes, niveau 1 = 25, niveau 2 = 184, niveau 3 = 3 107 ; première ligne « Zürich, ZH », puis « Bezirk Affoltern ». Registre rétrospectif : les dates « 12.09.1848 » sont des bornes, pas des créations (R2CH-03, R2CH-04)."
+  },
+  {
+   "id": "src-ofs-geostat-g1-1945",
+   "statut": "ok",
+   "commentaire": "WebFetch en erreur, sans contournement. Copie des métadonnées d'Ether (preuves/OFS_G1_metadata.json) lue par Claude : licence « https://opendata.swiss/terms-of-use#terms_open » ; conditions archivées (Opendata_conditions.html) : « Utilisation libre ». Prouve l'auteur (OFS GEOSTAT) et les conditions ; ces conditions ne sont pas dans la liste des licences acceptées par Atlas : les 200 tracés restent hors carte (R2CH-01, à trancher par Guizmo)."
+  },
+  {
+   "id": "src-ofs-annuaire-suisse-1945",
+   "statut": "limite",
+   "commentaire": "WebFetch en erreur, sans contournement. Capture de l'avant-propos lue par Claude : « Berne, décembre 1946 — Bureau fédéral de statistique » ; texte d'Ether : lignes « Appenzell A. Rh. » et « Appenzell I. Rh ». Corroboration des unités cantonales seulement (tableau de 1941), pas de preuve des chefs-lieux (R2CH-06)."
+  },
+  {
+   "id": "src-ch-constitution-1874-art1",
+   "statut": "ok",
+   "commentaire": "Lien Wikimedia introuvable pour l'outil (URL_NOT_FOUND) ; capture d'Ether lue par Claude : « Article premier. Les peuples des vingt-deux Cantons souverains de la Suisse, unis par la présente alliance, savoir : Zurich, Berne, Lucerne, Uri, Schwyz, Unterwalden (le Haut et le Bas), … Bâle (Ville et Campagne), … Appenzell (les deux Rhodes) … ». Texte initial de 1874, pas une consolidation de 1945. Lien à vérifier par Ether."
+  },
+  {
+   "id": "src-chinfo-demi-cantons",
+   "statut": "ok",
+   "commentaire": "Sous-agent : « les six cantons que la Constitution fédérale désignait comme «demi-cantons» jusqu’en 1999 » (Obwald, Nidwald, Bâle-Ville, Bâle-Campagne, Appenzell Rhodes-Extérieures et Intérieures). Source actuelle, rétrospective."
+  },
+  {
+   "id": "src-ar-strebel-2020-bezirke",
+   "statut": "limite",
+   "commentaire": "Sous-agent et texte d'Ether : « … auf die vorherige Gliederung in drei Bezirke aber zu verzichten, da ihnen keine politischen oder rechtlichen Aufgaben mehr … ». Prouve l'existence passée de trois districts et leur abandon en 1995, sans les nommer ni dire leurs fonctions en 1945 (R2CH-05)."
+  }
+ ]
+}

@@ -1,0 +1,179 @@
+{
+  "date": "2026-10-15T21:46:35.605286+00:00",
+  "preuves": [
+    {
+      "fichier": "AGV_cantons_19450101.geojson",
+      "sha256": "8d97a339ab45f38350688f351c53d659796b7a94534f96f5022a158c35425b07",
+      "octets": 860751,
+      "url": "https://www.agvchapp.bfs.admin.ch/api/boundaries/divisions?division=Canton&resolution=G1&dissolve=true&date=01-01-1945&format=geojson"
+    },
+    {
+      "fichier": "AGV_communes_19450101.geojson",
+      "sha256": "ce9c88121a1d986556756f79b468c976a8d923c26cba57381ffc76c702e664b3",
+      "octets": 1456066,
+      "url": "https://www.agvchapp.bfs.admin.ch/api/boundaries/divisions?division=District&resolution=G1&dissolve=false&date=01-01-1945&format=geojson",
+      "avertissement": "Mauvais nom de téléchargement : réponse District, doublon exact, exclu de la preuve communale."
+    },
+    {
+      "fichier": "AGV_districts_19450101.geojson",
+      "sha256": "ce9c88121a1d986556756f79b468c976a8d923c26cba57381ffc76c702e664b3",
+      "octets": 1456066,
+      "url": "https://www.agvchapp.bfs.admin.ch/api/boundaries/divisions?division=District&resolution=G1&dissolve=true&date=01-01-1945&format=geojson"
+    },
+    {
+      "fichier": "AGV_geometries.html",
+      "sha256": "ac03f073dc36bdc5ea59910c147c2ae1b6a56e9438e3b9d8b306eee1d96ca52b",
+      "octets": 74495,
+      "url": "https://www.agvchapp.bfs.admin.ch/fr/boundaries"
+    },
+    {
+      "fichier": "AGV_REST_documentation.pdf",
+      "sha256": "3c79462b0380a3a1454b998e06b0007e96b43ff91f40a77a6a7c8c33c766f629",
+      "octets": 412737,
+      "url": "https://www.agvchapp.bfs.admin.ch/documents/rest_api_de.pdf"
+    },
+    {
+      "fichier": "AGV_snapshot_19450101.csv",
+      "sha256": "64573e62983b9d17e69ed2cc45b9914b0a38c3a29605fe9e0b244cc0e0ad2e02",
+      "octets": 222167,
+      "url": "https://www.agvchapp.bfs.admin.ch/api/communes/snapshot?date=01-01-1945"
+    },
+    {
+      "fichier": "Annuaire_pdf18.png",
+      "sha256": "291bec91f7687f077c039215ce54f9309aa4c574ac71626c72cff4142c23ee24",
+      "octets": 181830,
+      "nature": "Rendu local de la page PDF indiquée dans le nom, vu par Ether"
+    },
+    {
+      "fichier": "Annuaire_pdf4.png",
+      "sha256": "d4327bd60bb02701f1fad048f8b3375cb622c6ba6d99adb7aac5fa3193a09244",
+      "octets": 116670,
+      "nature": "Rendu local de la page PDF indiquée dans le nom, vu par Ether"
+    },
+    {
+      "fichier": "Annuaire_suisse_1945.pdf",
+      "sha256": "814a5912c86f3dd4d4069964166f71f5f998b1d70714d39cc59a6ff05e1b59ff",
+      "octets": 34748776,
+      "url": "https://dam-api.bfs.admin.ch/hub/api/dam/assets/346161/master"
+    },
+    {
+      "fichier": "Annuaire_suisse_1945_texte.txt",
+      "sha256": "b06b2e9277d3876b28bda42facb2ef6b2d6ff60d2a90f8cdaefef82ba46e51d8",
+      "octets": 2167837
+    },
+    {
+      "fichier": "AR_Hanspeter_Strebel_2020.pdf",
+      "sha256": "82c3de8f520ecc719217e2b432e15b3aefb1d5cb60f240a54425301cd8dda602",
+      "octets": 135248,
+      "url": "https://ar.ch/fileadmin/user_upload/Regierungsrat/Kantonsverfassung/Zwischenberichte/Zwischenbericht_Januar20.pdf"
+    },
+    {
+      "fichier": "AR_Hanspeter_Strebel_2020_texte.txt",
+      "sha256": "b3e02926f801eb70c8dbbfbe6e52acc86a2e5de3a14d8134e379984653fa76c5",
+      "octets": 11637
+    },
+    {
+      "fichier": "AR_pdf2.png",
+      "sha256": "82f758812545cbdc6e27637dc378c15ee42420e5be3639fc9a4c9a35c15c6e5e",
+      "octets": 405882,
+      "nature": "Rendu local de la page PDF indiquée dans le nom, vu par Ether"
+    },
+    {
+      "fichier": "CHinfo_demi_cantons.html",
+      "sha256": "5f9a20e962b75c80c63d6be959b19990333cb8004c8b1c1ae1ed8cb3dcb29eb2",
+      "octets": 63709,
+      "url": "https://www.ch-info.swiss/fr/das-parlament/organisation-des-parlaments"
+    },
+    {
+      "fichier": "Constitution_1874.pdf",
+      "sha256": "53e02044a5b5e6ef5984477c0b7a324ff5bc0f17eb7cdd3ead319a65fd75c810",
+      "octets": 7873000,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Constitution_Suisse%2C_1874.pdf"
+    },
+    {
+      "fichier": "Constitution_pdf4.png",
+      "sha256": "4e4d8dbb368e0233608e71606c6812ef1d04c2d8f219ca70fb29fb68001b042c",
+      "octets": 1695690,
+      "nature": "Rendu local de la page PDF indiquée dans le nom, vu par Ether"
+    },
+    {
+      "fichier": "controle_geometrique_1945.json",
+      "sha256": "fc7df097266e575a23fd4e0d88e97311855d3acc6c7220f9e8a72a92d359fe51",
+      "octets": 4649
+    },
+    {
+      "fichier": "G1_pdf10.png",
+      "sha256": "0c4ad277c76233e399c79b13482b465b34acd09e23db6f0bc979e5732b13b4db",
+      "octets": 264050,
+      "nature": "Rendu local de la page PDF indiquée dans le nom, vu par Ether"
+    },
+    {
+      "fichier": "G1_pdf3.png",
+      "sha256": "4f59016e9659ae0c27d20c67c78fdc36ddf661fdeba6899b956882ac2a491e60",
+      "octets": 419213,
+      "nature": "Rendu local de la page PDF indiquée dans le nom, vu par Ether"
+    },
+    {
+      "fichier": "G1_pdf6.png",
+      "sha256": "f957616eb9d0b1571c008b55c191a3a36b8d8293b869161e602e64c35208fb26",
+      "octets": 454005,
+      "nature": "Rendu local de la page PDF indiquée dans le nom, vu par Ether"
+    },
+    {
+      "fichier": "G1_pdf9.png",
+      "sha256": "f47c56dfc2e3917de6aa03a18586e9dd4af650cf1a22b1c4e55f1aef90e160f3",
+      "octets": 471202,
+      "nature": "Rendu local de la page PDF indiquée dans le nom, vu par Ether"
+    },
+    {
+      "fichier": "jointure_et_selection_1945.json",
+      "sha256": "ea72df3924c95b1c061c9346b0797e050958c6c608d4d026aad4d2d80b24a8a2",
+      "octets": 67974
+    },
+    {
+      "fichier": "OFS_G1_description.pdf",
+      "sha256": "eb4a8e268a49626418ecb84f48ff87a97cd3fb2b26beb2dfe777bd0b97874365",
+      "octets": 305738,
+      "url": "https://dam-api.bfs.admin.ch/hub/api/dam/assets/36390125/master"
+    },
+    {
+      "fichier": "OFS_G1_description_texte.txt",
+      "sha256": "64f8e427d419348437f6776652aa99c6a5c6cab12e52e26a5aa533aec09afb42",
+      "octets": 35302
+    },
+    {
+      "fichier": "OFS_G1_metadata.json",
+      "sha256": "734830378cdb35d3a0274e5898d0be8d4eda5bfeebe43fdb2f18b698c8b5dc65",
+      "octets": 13159,
+      "url": "https://ckan.opendata.swiss/api/3/action/package_show?id=generalisierte-administrative-grenzen-g1"
+    },
+    {
+      "fichier": "OFS_serie_1850.html",
+      "sha256": "18f63f567a51356ca8c36cc2576cbb79d502ea2f47d4fc2394687054796eef32",
+      "octets": 1801353,
+      "url": "https://www.bfs.admin.ch/content/bfs/en/home/services/geostat/swiss-federal-statistics-geodata/spatial-divisions/municipal-boundaries-time-series.html",
+      "avertissement": "Page technique exploratoire sans contenu probant retenu ; ne pas utiliser pour licence."
+    },
+    {
+      "fichier": "Opendata_conditions.html",
+      "sha256": "8af40895788d53124e9b3537d8b4e96ac34c9fc67129098e3250c5773f0dc819",
+      "octets": 29101,
+      "url": "https://opendata.swiss/fr/terms-of-use"
+    },
+    {
+      "fichier": "swisstopo_voyage.html",
+      "sha256": "b83941290e47ec49186662c1e452f9fae27bf7c98ada67ec5632a698657a2e2e",
+      "octets": 262237,
+      "url": "https://www.swisstopo.admin.ch/en/new-timetravel-boundaries-20231221"
+    },
+    {
+      "fichier": "vue_contours_1945.png",
+      "sha256": "26ec5b0ddd11c73c6605063e616c0cf16bac904befd70d1ad99b64b72162832f",
+      "octets": 101686,
+      "nature": "Vue de contrôle créée par Ether depuis les géométries, examinée ; pas une source historique indépendante"
+    }
+  ],
+  "lecture": "Captures Annuaire4/18, G1 3/6/9/10, AR2 et Constitution4 vues. HTML et JSON lus textuellement ; CSV rapproché par identifiants. Texte PDF utilisé pour repérage et documentation.",
+  "licence_des_traces": "terms_open, tous exclus ; auteur OFS GEOSTAT",
+  "incident_resolu": "Premier téléchargement Python CHinfo échoué sur certificat expiré ; téléchargement Windows ensuite réussi avec validation normale, aucun contournement de certificat."
+}

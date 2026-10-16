@@ -13,6 +13,12 @@ ECHANGE = pathlib.Path(sys.argv[1]) if len(sys.argv) > 1 else RACINE.parent / 'D
 
 # Questions de Claude encore ouvertes (reprises de ses comptes rendus ; les autres sont déjà dans les fichiers d'Ether)
 QUESTIONS_CLAUDE = {
+    '2.CH': [
+        ('Q2CH-05 — Lien de la Constitution de 1874 introuvable pour l\'outil (mineure)',
+         "L'URL Wikimedia Commons de src-ch-constitution-1874-art1 ne répond pas à l'outil de lecture ; la preuve tient par la capture d'Ether (art. 1). Adresse exacte demandée à Ether.",
+         "Source gardée « ok » d'après la capture ; aucune donnée en dépend seule.",
+         "Lien corrigé par Ether ; ou garder la capture comme preuve."),
+    ],
     'villes_1-5': [
         ('Q15-02 — Chefs-lieux de région : faut-il les marquer « capitale » ?',
          "Ether proposait « capitale régionale » pour 15 chefs-lieux d'oblast ou capitales de républiques autonomes (Kazan, Oufa, Simferopol, Grodno…). Claude ne l'a pas appliqué : aucune règle ne couvre ce cas, et d'autres chefs-lieux du même lot (Briansk, Kharkiv, Odessa, Lviv) ne l'avaient pas.",
