@@ -1,6 +1,6 @@
 # Atlas — réserves et points à trancher (série villes 1.x)
 
-*Généré automatiquement le 16/10/2026 à 00 h 32 par Claude, à partir des fichiers de réserves d'Ether et des comptes rendus de Claude. Régénéré à chaque lot.*
+*Généré automatiquement le 16/10/2026 à 02 h 21 par Claude, à partir des fichiers de réserves d'Ether et des comptes rendus de Claude. Régénéré à chaque lot.*
 
 ## Comment s'en servir
 
@@ -10,15 +10,22 @@
 - Sous chaque point, **Sources liées** donne les liens des sources citées, avec leur état (confirmée, lecture partielle, illisible…).
 - Toutes les sources à vérifier (liens, passages) sont aussi dans `00_SOURCES_A_VALIDER.md` (même dossier).
 
-## Lot 2.CH — 1 points
+## Lot villes 1.10 — 2 points
 
-### Q2CH-05 — Lien de la Constitution de 1874 introuvable pour l'outil (mineure) *(question de Claude)*
+### Q110-01 — Brochure de l'académie de Besançon : pièces d'Auxerre, Mâcon et Vesoul à relire *(question de Claude)*
 
-- **Ce qu'on sait** : L'URL Wikimedia Commons de src-ch-constitution-1874-art1 ne répond pas à l'outil de lecture ; la preuve tient par la capture d'Ether (art. 1). Adresse exacte demandée à Ether.
-- **Ce que ça change sur la carte** : Source gardée « ok » d'après la capture ; aucune donnée en dépend seule.
-- **Choix possibles** : Lien corrigé par Ether ; ou garder la capture comme preuve.
+- **Ce qu'on sait** : src-v110-auxerre-resistance : selon la relecture de Claude, les trois pièces ne correspondent pas aux localisateurs d'Ether (Thomassin arrivé le 13/09/1944 ; Drevon introuvable dans le Petit Mâconnais reproduit ; AD89 1 W 155 = liste d'arrestations du 14/06/1944). Statut « faible » (Vesoul : « limite »).
+- **Ce que ça change sur la carte** : Auxerre, Mâcon et Vesoul restent « À renforcer : administration » ; aucun chef-lieu raccordé.
+- **Choix possibles** : Ether redonne les pages exactes (ou des captures) ; ou garder la réserve.
 - **Sources liées** (cliquer pour ouvrir) :
-  - [Constitution fédérale de la Confédération suisse du 29mai1874, art.1](https://upload.wikimedia.org/wikipedia/commons/0/0a/Constitution_Suisse%2C_1874.pdf) — `src-ch-constitution-1874-art1` (confirmée par Claude)
+  - [CNRD 2024–2025, Libérer et refonder la France — brochure Bourgogne–Franche-Comté](https://hg.ac-besancon.fr/wp-content/uploads/sites/63/2024/11/Brochure2025v2.pdf) — `src-v110-auxerre-resistance` (ne prouve pas bien)
+- **Décision de Guizmo** : …
+
+### Q110-02 — Pages des préfectures refusées à l'outil de Claude *(question de Claude)*
+
+- **Ce qu'on sait** : 26 des 63 sources (presque toutes sur les sites *.gouv.fr des préfectures) refusent l'outil de lecture de Claude (robots) ; 25 autres ne sont lues qu'en partie (fait daté de 1944 sans période couvrant le 01/01/1945). 52 villes sur 66 restent « À renforcer : administration ».
+- **Ce que ça change sur la carte** : Villes intégrées avec leur rôle administratif proposé ; seuls 11 chefs-lieux 2.FR raccordés (8 régions par la réponse AN 1981, Mézières, Rodez, Albi).
+- **Choix possibles** : Ether dépose des captures datées des passages utiles (comme au lot 1.8) ou d'autres sources lisibles (archives départementales, JO, annuaires de 1945) ; ou Guizmo valide sur la page « Sources à valider ».
 - **Décision de Guizmo** : …
 
 ## Lot villes 1.3 — 7 points
@@ -2195,6 +2202,7 @@ Ce ne sont pas des décisions à prendre : ce sont des rôles (port, rail, indus
 | Lot | Villes « À renforcer » | Villes du lot |
 |---|---|---|
 | 1.0 | 0 | 73 |
+| 1.10 | 52 | 66 |
 | 1.1 | 0 | 65 |
 | 1.2 | 42 | 73 |
 | 1.3 | 9 | 53 |
@@ -2206,4 +2214,4 @@ Ce ne sont pas des décisions à prendre : ce sont des rôles (port, rail, indus
 | 1.9 | 49 | 238 |
 | 1.x (audit) | 2 | 15 |
 
-**Total : 253 points à trancher.**
+**Total : 254 points à trancher.**

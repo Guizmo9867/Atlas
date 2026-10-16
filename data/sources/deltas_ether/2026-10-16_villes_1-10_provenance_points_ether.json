@@ -1,0 +1,1049 @@
+{
+  "source": "src-trfgis-departements-1940",
+  "licence": "CC BY 4.0",
+  "auteur": "Victor Gay, TSE/IAST",
+  "preuve_licence": "preuves/TRFGIS_metadata.json, latestVersion.termsOfUse ; README",
+  "operations": "Lecture cp1252 du COG ; conversion pyproj EPSG2154→4326 always_xy ; arrondissement à cinq décimales ; aucune géométrie OSM/ODbL. Le nombre de décimales ne mesure pas la précision historique.",
+  "points": [
+    {
+      "ville_id": "ville-fr-bourg",
+      "coordinates": [
+        5.22712,
+        46.20445
+      ],
+      "source_id": "src-trfgis-departements-1940",
+      "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=01053",
+      "licence": "CC BY 4.0",
+      "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+      "precision_historique": "non_etablie",
+      "entree_epsg2154": [
+        871700.0,
+        6569600.0
+      ]
+    },
+    {
+      "ville_id": "ville-fr-laon",
+      "coordinates": [
+        3.62312,
+        49.56306
+      ],
+      "source_id": "src-trfgis-departements-1940",
+      "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=02408",
+      "licence": "CC BY 4.0",
+      "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+      "precision_historique": "non_etablie",
+      "entree_epsg2154": [
+        745100.0,
+        6940600.0
+      ]
+    },
+    {
+      "ville_id": "ville-fr-moulins",
+      "coordinates": [
+        3.3316,
+        46.56435
+      ],
+      "source_id": "src-trfgis-departements-1940",
+      "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=03190",
+      "licence": "CC BY 4.0",
+      "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+      "precision_historique": "non_etablie",
+      "entree_epsg2154": [
+        725400.0,
+        6607200.0
+      ]
+    },
+    {
+      "ville_id": "ville-fr-digne",
+      "coordinates": [
+        6.23532,
+        44.09234
+      ],
+      "source_id": "src-trfgis-departements-1940",
+      "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=04070",
+      "licence": "CC BY 4.0",
+      "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+      "precision_historique": "non_etablie",
+      "entree_epsg2154": [
+        959000.0,
+        6337900.0
+      ]
+    },
+    {
+      "ville_id": "ville-fr-gap",
+      "coordinates": [
+        6.07679,
+        44.55813
+      ],
+      "source_id": "src-trfgis-departements-1940",
+      "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=05061",
+      "licence": "CC BY 4.0",
+      "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+      "precision_historique": "non_etablie",
+      "entree_epsg2154": [
+        944300.0,
+        6389100.0
+      ]
+    },
+    {
+      "ville_id": "ville-fr-nice",
+      "coordinates": [
+        7.26746,
+        43.70188
+      ],
+      "source_id": "src-trfgis-departements-1940",
+      "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=06088",
+      "licence": "CC BY 4.0",
+      "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+      "precision_historique": "non_etablie",
+      "entree_epsg2154": [
+        1043900.0,
+        6298500.0
+      ]
+    },
+    {
+      "ville_id": "ville-fr-privas",
+      "coordinates": [
+        4.59914,
+        44.73439
+      ],
+      "source_id": "src-trfgis-departements-1940",
+      "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=07186",
+      "licence": "CC BY 4.0",
+      "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+      "precision_historique": "non_etablie",
+      "entree_epsg2154": [
+        826600.0,
+        6405200.0
+      ]
+    },
+    {
+      "ville_id": "ville-fr-foix",
+      "coordinates": [
+        1.6064,
+        42.96503
+      ],
+      "source_id": "src-trfgis-departements-1940",
+      "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=09122",
+      "licence": "CC BY 4.0",
+      "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+      "precision_historique": "non_etablie",
+      "entree_epsg2154": [
+        586200.0,
+        6208300.0
+      ]
+    },
+    {
+      "ville_id": "ville-fr-troyes",
+      "coordinates": [
+        4.07743,
+        48.29812
+      ],
+      "source_id": "src-trfgis-departements-1940",
+      "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=10387",
+      "licence": "CC BY 4.0",
+      "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+      "precision_historique": "non_etablie",
+      "entree_epsg2154": [
+        779900.0,
+        6800300.0
+      ]
+    },
+    {
+      "ville_id": "ville-fr-rodez",
+      "coordinates": [
+        2.57347,
+        44.3499
+      ],
+      "source_id": "src-trfgis-departements-1940",
+      "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=12202",
+      "licence": "CC BY 4.0",
+      "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+      "precision_historique": "non_etablie",
+      "entree_epsg2154": [
+        666000.0,
+        6361300.0
+      ]
+    },
+    {
+      "ville_id": "ville-fr-caen",
+      "coordinates": [
+        -0.37064,
+        49.18134
+      ],
+      "source_id": "src-trfgis-departements-1940",
+      "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=14118",
+      "licence": "CC BY 4.0",
+      "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+      "precision_historique": "non_etablie",
+      "entree_epsg2154": [
+        454300.0,
+        6903200.0
+      ]
+    },
+    {
+      "ville_id": "ville-fr-aurillac",
+      "coordinates": [
+        2.43856,
+        44.92458
+      ],
+      "source_id": "src-trfgis-departements-1940",
+      "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=15014",
+      "licence": "CC BY 4.0",
+      "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+      "precision_historique": "non_etablie",
+      "entree_epsg2154": [
+        655700.0,
+        6425200.0
+      ]
+    },
+    {
+      "ville_id": "ville-fr-angouleme",
+      "coordinates": [
+        0.15935,
+        45.64923
+      ],
+      "source_id": "src-trfgis-departements-1940",
+      "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=16015",
+      "licence": "CC BY 4.0",
+      "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+      "precision_historique": "non_etablie",
+      "entree_epsg2154": [
+        478800.0,
+        6509500.0
+      ]
+    },
+    {
+      "ville_id": "ville-fr-bourges",
+      "coordinates": [
+        2.39501,
+        47.08277
+      ],
+      "source_id": "src-trfgis-departements-1940",
+      "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=18033",
+      "licence": "CC BY 4.0",
+      "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+      "precision_historique": "non_etablie",
+      "entree_epsg2154": [
+        654100.0,
+        6664900.0
+      ]
+    },
+    {
+      "ville_id": "ville-fr-tulle",
+      "coordinates": [
+        1.77205,
+        45.26501
+      ],
+      "source_id": "src-trfgis-departements-1940",
+      "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=19272",
+      "licence": "CC BY 4.0",
+      "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+      "precision_historique": "non_etablie",
+      "entree_epsg2154": [
+        603700.0,
+        6463600.0
+      ]
+    },
+    {
+      "ville_id": "ville-fr-saint-brieuc",
+      "coordinates": [
+        -2.76083,
+        48.51342
+      ],
+      "source_id": "src-trfgis-departements-1940",
+      "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=22278",
+      "licence": "CC BY 4.0",
+      "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+      "precision_historique": "non_etablie",
+      "entree_epsg2154": [
+        274900.0,
+        6839200.0
+      ]
+    },
+    {
+      "ville_id": "ville-fr-gueret",
+      "coordinates": [
+        1.86716,
+        46.17019
+      ],
+      "source_id": "src-trfgis-departements-1940",
+      "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=23096",
+      "licence": "CC BY 4.0",
+      "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+      "precision_historique": "non_etablie",
+      "entree_epsg2154": [
+        612600.0,
+        6564000.0
+      ]
+    },
+    {
+      "ville_id": "ville-fr-perigueux",
+      "coordinates": [
+        0.7168,
+        45.18358
+      ],
+      "source_id": "src-trfgis-departements-1940",
+      "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=24322",
+      "licence": "CC BY 4.0",
+      "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+      "precision_historique": "non_etablie",
+      "entree_epsg2154": [
+        520700.0,
+        6456400.0
+      ]
+    },
+    {
+      "ville_id": "ville-fr-besancon",
+      "coordinates": [
+        6.02007,
+        47.24219
+      ],
+      "source_id": "src-trfgis-departements-1940",
+      "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=25056",
+      "licence": "CC BY 4.0",
+      "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+      "precision_historique": "non_etablie",
+      "entree_epsg2154": [
+        928400.0,
+        6686800.0
+      ]
+    },
+    {
+      "ville_id": "ville-fr-valence",
+      "coordinates": [
+        4.89005,
+        44.93244
+      ],
+      "source_id": "src-trfgis-departements-1940",
+      "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=26362",
+      "licence": "CC BY 4.0",
+      "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+      "precision_historique": "non_etablie",
+      "entree_epsg2154": [
+        849100.0,
+        6427700.0
+      ]
+    },
+    {
+      "ville_id": "ville-fr-evreux",
+      "coordinates": [
+        1.15131,
+        49.02275
+      ],
+      "source_id": "src-trfgis-departements-1940",
+      "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=27229",
+      "licence": "CC BY 4.0",
+      "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+      "precision_historique": "non_etablie",
+      "entree_epsg2154": [
+        564800.0,
+        6881900.0
+      ]
+    },
+    {
+      "ville_id": "ville-fr-chartres",
+      "coordinates": [
+        1.4881,
+        48.44634
+      ],
+      "source_id": "src-trfgis-departements-1940",
+      "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=28085",
+      "licence": "CC BY 4.0",
+      "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+      "precision_historique": "non_etablie",
+      "entree_epsg2154": [
+        588200.0,
+        6817300.0
+      ]
+    },
+    {
+      "ville_id": "ville-fr-quimper",
+      "coordinates": [
+        -4.09802,
+        47.99548
+      ],
+      "source_id": "src-trfgis-departements-1940",
+      "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=29232",
+      "licence": "CC BY 4.0",
+      "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+      "precision_historique": "non_etablie",
+      "entree_epsg2154": [
+        171300.0,
+        6789900.0
+      ]
+    },
+    {
+      "ville_id": "ville-fr-nimes",
+      "coordinates": [
+        4.35891,
+        43.83645
+      ],
+      "source_id": "src-trfgis-departements-1940",
+      "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=30189",
+      "licence": "CC BY 4.0",
+      "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+      "precision_historique": "non_etablie",
+      "entree_epsg2154": [
+        809300.0,
+        6305100.0
+      ]
+    },
+    {
+      "ville_id": "ville-fr-auch",
+      "coordinates": [
+        0.58842,
+        43.6445
+      ],
+      "source_id": "src-trfgis-departements-1940",
+      "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=32013",
+      "licence": "CC BY 4.0",
+      "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+      "precision_historique": "non_etablie",
+      "entree_epsg2154": [
+        505400.0,
+        6285800.0
+      ]
+    },
+    {
+      "ville_id": "ville-fr-montpellier",
+      "coordinates": [
+        3.87552,
+        43.61102
+      ],
+      "source_id": "src-trfgis-departements-1940",
+      "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=34172",
+      "licence": "CC BY 4.0",
+      "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+      "precision_historique": "non_etablie",
+      "entree_epsg2154": [
+        770700.0,
+        6279500.0
+      ]
+    },
+    {
+      "ville_id": "ville-fr-chateauroux",
+      "coordinates": [
+        1.68985,
+        46.80949
+      ],
+      "source_id": "src-trfgis-departements-1940",
+      "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=36044",
+      "licence": "CC BY 4.0",
+      "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+      "precision_historique": "non_etablie",
+      "entree_epsg2154": [
+        600100.0,
+        6635200.0
+      ]
+    },
+    {
+      "ville_id": "ville-fr-grenoble",
+      "coordinates": [
+        5.72536,
+        45.18627
+      ],
+      "source_id": "src-trfgis-departements-1940",
+      "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=38185",
+      "licence": "CC BY 4.0",
+      "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+      "precision_historique": "non_etablie",
+      "entree_epsg2154": [
+        914000.0,
+        6457800.0
+      ]
+    },
+    {
+      "ville_id": "ville-fr-lons-le-saunier",
+      "coordinates": [
+        5.55261,
+        46.6742
+      ],
+      "source_id": "src-trfgis-departements-1940",
+      "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=39300",
+      "licence": "CC BY 4.0",
+      "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+      "precision_historique": "non_etablie",
+      "entree_epsg2154": [
+        895100.0,
+        6622500.0
+      ]
+    },
+    {
+      "ville_id": "ville-fr-mont-de-marsan",
+      "coordinates": [
+        -0.50158,
+        43.88956
+      ],
+      "source_id": "src-trfgis-departements-1940",
+      "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=40192",
+      "licence": "CC BY 4.0",
+      "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+      "precision_historique": "non_etablie",
+      "entree_epsg2154": [
+        418700.0,
+        6316300.0
+      ]
+    },
+    {
+      "ville_id": "ville-fr-blois",
+      "coordinates": [
+        1.32595,
+        47.59268
+      ],
+      "source_id": "src-trfgis-departements-1940",
+      "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=41018",
+      "licence": "CC BY 4.0",
+      "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+      "precision_historique": "non_etablie",
+      "entree_epsg2154": [
+        574200.0,
+        6722700.0
+      ]
+    },
+    {
+      "ville_id": "ville-fr-saint-etienne",
+      "coordinates": [
+        4.389,
+        45.43333
+      ],
+      "source_id": "src-trfgis-departements-1940",
+      "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=42218",
+      "licence": "CC BY 4.0",
+      "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+      "precision_historique": "non_etablie",
+      "entree_epsg2154": [
+        808600.0,
+        6482500.0
+      ]
+    },
+    {
+      "ville_id": "ville-fr-le-puy",
+      "coordinates": [
+        3.88395,
+        45.04314
+      ],
+      "source_id": "src-trfgis-departements-1940",
+      "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=43157",
+      "licence": "CC BY 4.0",
+      "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+      "precision_historique": "non_etablie",
+      "entree_epsg2154": [
+        769600.0,
+        6438600.0
+      ]
+    },
+    {
+      "ville_id": "ville-fr-orleans",
+      "coordinates": [
+        1.90384,
+        47.90198
+      ],
+      "source_id": "src-trfgis-departements-1940",
+      "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=45234",
+      "licence": "CC BY 4.0",
+      "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+      "precision_historique": "non_etablie",
+      "entree_epsg2154": [
+        618100.0,
+        6756300.0
+      ]
+    },
+    {
+      "ville_id": "ville-fr-cahors",
+      "coordinates": [
+        1.44041,
+        44.44682
+      ],
+      "source_id": "src-trfgis-departements-1940",
+      "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=46042",
+      "licence": "CC BY 4.0",
+      "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+      "precision_historique": "non_etablie",
+      "entree_epsg2154": [
+        575900.0,
+        6373200.0
+      ]
+    },
+    {
+      "ville_id": "ville-fr-agen",
+      "coordinates": [
+        0.61855,
+        44.20248
+      ],
+      "source_id": "src-trfgis-departements-1940",
+      "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=47001",
+      "licence": "CC BY 4.0",
+      "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+      "precision_historique": "non_etablie",
+      "entree_epsg2154": [
+        509700.0,
+        6347700.0
+      ]
+    },
+    {
+      "ville_id": "ville-fr-mende",
+      "coordinates": [
+        3.49952,
+        44.51794
+      ],
+      "source_id": "src-trfgis-departements-1940",
+      "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=48095",
+      "licence": "CC BY 4.0",
+      "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+      "precision_historique": "non_etablie",
+      "entree_epsg2154": [
+        739700.0,
+        6380000.0
+      ]
+    },
+    {
+      "ville_id": "ville-fr-angers",
+      "coordinates": [
+        -0.55658,
+        47.47207
+      ],
+      "source_id": "src-trfgis-departements-1940",
+      "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=49007",
+      "licence": "CC BY 4.0",
+      "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+      "precision_historique": "non_etablie",
+      "entree_epsg2154": [
+        432200.0,
+        6714000.0
+      ]
+    },
+    {
+      "ville_id": "ville-fr-chalons-sur-marne",
+      "coordinates": [
+        4.3642,
+        48.95639
+      ],
+      "source_id": "src-trfgis-departements-1940",
+      "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=51108",
+      "licence": "CC BY 4.0",
+      "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+      "precision_historique": "non_etablie",
+      "entree_epsg2154": [
+        799900.0,
+        6873800.0
+      ]
+    },
+    {
+      "ville_id": "ville-fr-chaumont",
+      "coordinates": [
+        5.13803,
+        48.11089
+      ],
+      "source_id": "src-trfgis-departements-1940",
+      "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=52121",
+      "licence": "CC BY 4.0",
+      "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+      "precision_historique": "non_etablie",
+      "entree_epsg2154": [
+        859100.0,
+        6781100.0
+      ]
+    },
+    {
+      "ville_id": "ville-fr-laval",
+      "coordinates": [
+        -0.77036,
+        48.07265
+      ],
+      "source_id": "src-trfgis-departements-1940",
+      "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=53130",
+      "licence": "CC BY 4.0",
+      "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+      "precision_historique": "non_etablie",
+      "entree_epsg2154": [
+        419300.0,
+        6781400.0
+      ]
+    },
+    {
+      "ville_id": "ville-fr-nancy",
+      "coordinates": [
+        6.18271,
+        48.69236
+      ],
+      "source_id": "src-trfgis-departements-1940",
+      "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=54395",
+      "licence": "CC BY 4.0",
+      "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+      "precision_historique": "non_etablie",
+      "entree_epsg2154": [
+        934200.0,
+        6848300.0
+      ]
+    },
+    {
+      "ville_id": "ville-fr-bar-le-duc",
+      "coordinates": [
+        5.16642,
+        48.77094
+      ],
+      "source_id": "src-trfgis-departements-1940",
+      "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=55029",
+      "licence": "CC BY 4.0",
+      "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+      "precision_historique": "non_etablie",
+      "entree_epsg2154": [
+        859200.0,
+        6854500.0
+      ]
+    },
+    {
+      "ville_id": "ville-fr-vannes",
+      "coordinates": [
+        -2.76272,
+        47.65438
+      ],
+      "source_id": "src-trfgis-departements-1940",
+      "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=56260",
+      "licence": "CC BY 4.0",
+      "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+      "precision_historique": "non_etablie",
+      "entree_epsg2154": [
+        267800.0,
+        6744000.0
+      ]
+    },
+    {
+      "ville_id": "ville-fr-nevers",
+      "coordinates": [
+        3.15658,
+        46.99241
+      ],
+      "source_id": "src-trfgis-departements-1940",
+      "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=58194",
+      "licence": "CC BY 4.0",
+      "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+      "precision_historique": "non_etablie",
+      "entree_epsg2154": [
+        711900.0,
+        6654700.0
+      ]
+    },
+    {
+      "ville_id": "ville-fr-beauvais",
+      "coordinates": [
+        2.08627,
+        49.43359
+      ],
+      "source_id": "src-trfgis-departements-1940",
+      "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=60057",
+      "licence": "CC BY 4.0",
+      "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+      "precision_historique": "non_etablie",
+      "entree_epsg2154": [
+        633700.0,
+        6926400.0
+      ]
+    },
+    {
+      "ville_id": "ville-fr-alencon",
+      "coordinates": [
+        0.09162,
+        48.42933
+      ],
+      "source_id": "src-trfgis-departements-1940",
+      "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=61001",
+      "licence": "CC BY 4.0",
+      "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+      "precision_historique": "non_etablie",
+      "entree_epsg2154": [
+        484900.0,
+        6818300.0
+      ]
+    },
+    {
+      "ville_id": "ville-fr-arras",
+      "coordinates": [
+        2.77998,
+        50.28848
+      ],
+      "source_id": "src-trfgis-departements-1940",
+      "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=62041",
+      "licence": "CC BY 4.0",
+      "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+      "precision_historique": "non_etablie",
+      "entree_epsg2154": [
+        684300.0,
+        7021200.0
+      ]
+    },
+    {
+      "ville_id": "ville-fr-clermont-ferrand",
+      "coordinates": [
+        3.08623,
+        45.77958
+      ],
+      "source_id": "src-trfgis-departements-1940",
+      "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=63113",
+      "licence": "CC BY 4.0",
+      "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+      "precision_historique": "non_etablie",
+      "entree_epsg2154": [
+        706700.0,
+        6520000.0
+      ]
+    },
+    {
+      "ville_id": "ville-fr-tarbes",
+      "coordinates": [
+        0.07389,
+        43.23214
+      ],
+      "source_id": "src-trfgis-departements-1940",
+      "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=65440",
+      "licence": "CC BY 4.0",
+      "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+      "precision_historique": "non_etablie",
+      "entree_epsg2154": [
+        462200.0,
+        6241400.0
+      ]
+    },
+    {
+      "ville_id": "ville-fr-vesoul",
+      "coordinates": [
+        6.15479,
+        47.62148
+      ],
+      "source_id": "src-trfgis-departements-1940",
+      "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=70550",
+      "licence": "CC BY 4.0",
+      "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+      "precision_historique": "non_etablie",
+      "entree_epsg2154": [
+        936900.0,
+        6729300.0
+      ]
+    },
+    {
+      "ville_id": "ville-fr-macon",
+      "coordinates": [
+        4.8309,
+        46.3052
+      ],
+      "source_id": "src-trfgis-departements-1940",
+      "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=71270",
+      "licence": "CC BY 4.0",
+      "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+      "precision_historique": "non_etablie",
+      "entree_epsg2154": [
+        840900.0,
+        6580000.0
+      ]
+    },
+    {
+      "ville_id": "ville-fr-chambery",
+      "coordinates": [
+        5.91978,
+        45.56611
+      ],
+      "source_id": "src-trfgis-departements-1940",
+      "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=73065",
+      "licence": "CC BY 4.0",
+      "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+      "precision_historique": "non_etablie",
+      "entree_epsg2154": [
+        927700.0,
+        6500500.0
+      ]
+    },
+    {
+      "ville_id": "ville-fr-melun",
+      "coordinates": [
+        2.65863,
+        48.53914
+      ],
+      "source_id": "src-trfgis-departements-1940",
+      "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=77288",
+      "licence": "CC BY 4.0",
+      "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+      "precision_historique": "non_etablie",
+      "entree_epsg2154": [
+        674800.0,
+        6826600.0
+      ]
+    },
+    {
+      "ville_id": "ville-fr-niort",
+      "coordinates": [
+        -0.46243,
+        46.32496
+      ],
+      "source_id": "src-trfgis-departements-1940",
+      "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=79191",
+      "licence": "CC BY 4.0",
+      "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+      "precision_historique": "non_etablie",
+      "entree_epsg2154": [
+        433700.0,
+        6586400.0
+      ]
+    },
+    {
+      "ville_id": "ville-fr-amiens",
+      "coordinates": [
+        2.29639,
+        49.89149
+      ],
+      "source_id": "src-trfgis-departements-1940",
+      "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=80021",
+      "licence": "CC BY 4.0",
+      "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+      "precision_historique": "non_etablie",
+      "entree_epsg2154": [
+        649400.0,
+        6977200.0
+      ]
+    },
+    {
+      "ville_id": "ville-fr-albi",
+      "coordinates": [
+        2.14452,
+        43.92795
+      ],
+      "source_id": "src-trfgis-departements-1940",
+      "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=81004",
+      "licence": "CC BY 4.0",
+      "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+      "precision_historique": "non_etablie",
+      "entree_epsg2154": [
+        631300.0,
+        6314700.0
+      ]
+    },
+    {
+      "ville_id": "ville-fr-montauban",
+      "coordinates": [
+        1.35488,
+        44.01704
+      ],
+      "source_id": "src-trfgis-departements-1940",
+      "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=82121",
+      "licence": "CC BY 4.0",
+      "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+      "precision_historique": "non_etablie",
+      "entree_epsg2154": [
+        568100.0,
+        6325600.0
+      ]
+    },
+    {
+      "ville_id": "ville-fr-draguignan",
+      "coordinates": [
+        6.46537,
+        43.53945
+      ],
+      "source_id": "src-trfgis-departements-1940",
+      "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=83050",
+      "licence": "CC BY 4.0",
+      "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+      "precision_historique": "non_etablie",
+      "entree_epsg2154": [
+        980100.0,
+        6277300.0
+      ]
+    },
+    {
+      "ville_id": "ville-fr-avignon",
+      "coordinates": [
+        4.80759,
+        43.94786
+      ],
+      "source_id": "src-trfgis-departements-1940",
+      "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=84007",
+      "licence": "CC BY 4.0",
+      "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+      "precision_historique": "non_etablie",
+      "entree_epsg2154": [
+        845100.0,
+        6318200.0
+      ]
+    },
+    {
+      "ville_id": "ville-fr-la-roche-sur-yon",
+      "coordinates": [
+        -1.42865,
+        46.66935
+      ],
+      "source_id": "src-trfgis-departements-1940",
+      "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=85191",
+      "licence": "CC BY 4.0",
+      "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+      "precision_historique": "non_etablie",
+      "entree_epsg2154": [
+        361600.0,
+        6628300.0
+      ]
+    },
+    {
+      "ville_id": "ville-fr-poitiers",
+      "coordinates": [
+        0.33422,
+        46.57973
+      ],
+      "source_id": "src-trfgis-departements-1940",
+      "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=86194",
+      "licence": "CC BY 4.0",
+      "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+      "precision_historique": "non_etablie",
+      "entree_epsg2154": [
+        495900.0,
+        6612300.0
+      ]
+    },
+    {
+      "ville_id": "ville-fr-epinal",
+      "coordinates": [
+        6.45167,
+        48.1734
+      ],
+      "source_id": "src-trfgis-departements-1940",
+      "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=88160",
+      "licence": "CC BY 4.0",
+      "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+      "precision_historique": "non_etablie",
+      "entree_epsg2154": [
+        956500.0,
+        6791500.0
+      ]
+    },
+    {
+      "ville_id": "ville-fr-auxerre",
+      "coordinates": [
+        3.56635,
+        47.79683
+      ],
+      "source_id": "src-trfgis-departements-1940",
+      "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=89024",
+      "licence": "CC BY 4.0",
+      "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+      "precision_historique": "non_etablie",
+      "entree_epsg2154": [
+        742400.0,
+        6744200.0
+      ]
+    },
+    {
+      "ville_id": "ville-fr-belfort",
+      "coordinates": [
+        6.84913,
+        47.6403
+      ],
+      "source_id": "src-trfgis-departements-1940",
+      "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=90010",
+      "licence": "CC BY 4.0",
+      "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+      "precision_historique": "non_etablie",
+      "entree_epsg2154": [
+        988900.0,
+        6733700.0
+      ]
+    }
+  ]
+}

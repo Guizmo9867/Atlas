@@ -1,29 +1,29 @@
 {
- "genere_le": "2026-10-16 00:32",
+ "genere_le": "2026-10-16 02:21",
  "snapshot0": {
   "date_representee": "1945-01-01 00:00 (dernier état connu avant)",
   "territoires": 74,
   "lignes_de_front": 4,
   "frontieres_tracees": 1,
   "geometries": 202,
-  "villes": 1559,
+  "villes": 1625,
   "villes_par_rang": {
    "A": 85,
    "B": 621,
-   "C": 853
+   "C": 919
   },
   "capitales": {
    "nationale": 30,
    "regionale": 19,
    "territoire": 6
   },
-  "villes_avec_nom_de_1945_different": 212,
-  "villes_avec_reserve_a_renforcer": 419,
+  "villes_avec_nom_de_1945_different": 216,
+  "villes_avec_reserve_a_renforcer": 471,
   "roles_de_villes": {
    "rail": 1144,
    "industrie": 415,
+   "administration": 309,
    "port_maritime": 247,
-   "administration": 243,
    "port_fluvial": 100,
    "capitale": 64,
    "frontalier": 42,
@@ -128,6 +128,16 @@
     "zone": null,
     "entites": {
      "ville": 73
+    }
+   },
+   {
+    "fichier": "villes_1-10_complement_france.json",
+    "version": "0.1",
+    "zone": [
+     "France — complément administratif"
+    ],
+    "entites": {
+     "ville": 66
     }
    },
    {
@@ -334,25 +344,25 @@
   ]
  },
  "sources": {
-  "registre_version": "1.36",
-  "total": 917,
+  "registre_version": "1.37",
+  "total": 980,
   "relecture_claude": {
-   "ok": 603,
-   "limite": 164,
-   "non_verifiee": 136,
-   "faible": 6,
+   "ok": 614,
+   "limite": 189,
+   "non_verifiee": 162,
+   "faible": 7,
    "lien_casse": 8
   },
   "niveaux": {
    "A": 174,
-   "B": 710,
+   "B": 773,
    "C": 33
   },
-  "en_attente_de_validation_humaine": 311,
+  "en_attente_de_validation_humaine": 363,
   "validees_par_guizmo": 3
  },
  "historique": {
-  "envois_github": 70,
+  "envois_github": 71,
   "premier_envoi": "2026-09-28",
   "dernier_envoi": "2026-10-16",
   "depot_public": "https://github.com/Guizmo9867/Atlas"

@@ -1,0 +1,2962 @@
+{
+  "metadata_delta": {
+    "lot": "villes_1-10",
+    "cycle": 1,
+    "date": "2026-10-16T01:57:22.631435+00:00",
+    "statut": "propose_pour_integration",
+    "portee": "Sources des 66 fiches seulement ; les pistes reportées restent dans la grille. Format villes : sources et operation_registre. Avis et champs canoniques existants à préserver."
+  },
+  "sources": [
+    {
+      "source_id": "src-v110-bourg-histoire",
+      "niveau": "B",
+      "type_source": "publication_institutionnelle",
+      "titre": "Un peu d'histoire... -",
+      "institution": "www.ain.gouv.fr",
+      "url": "https://www.ain.gouv.fr/Services-de-l-Etat/Prefecture-et-sous-prefectures/Prefecture-de-l-Ain/Un-peu-d-histoire",
+      "date_consultation": "2026-10-16",
+      "cibles": [
+        "ville-fr-bourg"
+      ],
+      "usage": [
+        "Rôle administratif historique de Bourg"
+      ],
+      "locator": "Liste des préfets, entrées 1944–1946",
+      "resume_passage": "La liste préfectorale situe Léon Blanchard à partir du 3 septembre 1944 ; l'histoire locale décrit les locaux de la préfecture à Bourg.",
+      "note": "Source lue avec les limites consignées dans la grille. Rétrospective sauf pièce reproduite ; aucune certification automatique du siège au jour exact.",
+      "verification_ether": {
+        "statut": "lu_avec_limites",
+        "date": "2026-10-16",
+        "mode": "Texte local relu et pages PDF utiles contrôlées ; pièces indexées ; aucune validation humaine déduite."
+      },
+      "preuves_ether": [
+        {
+          "fichier": "preuves/bourg-histoire.html",
+          "sha256": "6aff3df88eb8aa124a75a36ecc6941703a0c76b4605f9e945e1cb911d094f308"
+        },
+        {
+          "fichier": "preuves/bourg-histoire.txt",
+          "sha256": "e42467ebe35777947ba9b0ecaa91037ae330c835a22bfae6c9c144f0fc05c698"
+        }
+      ],
+      "operation_registre": "ajouter",
+      "usages_atlas": [
+        "villes_snapshot0",
+        "administration"
+      ]
+    },
+    {
+      "source_id": "src-v110-laon-liberation",
+      "niveau": "B",
+      "type_source": "publication_historique",
+      "titre": "Biographies",
+      "institution": "www2.assemblee-nationale.fr",
+      "url": "https://www2.assemblee-nationale.fr/sycomore/bio?num_dept=874",
+      "date_consultation": "2026-10-16",
+      "cibles": [
+        "ville-fr-laon"
+      ],
+      "usage": [
+        "Rôle administratif historique de Laon"
+      ],
+      "locator": "Notice Élie Bloncourt, paragraphes sur août 1944",
+      "resume_passage": "Bloncourt prend possession de la préfecture de Laon le 30 août 1944 et y installe le comité départemental de Libération.",
+      "note": "Source lue avec les limites consignées dans la grille. Rétrospective sauf pièce reproduite ; aucune certification automatique du siège au jour exact.",
+      "verification_ether": {
+        "statut": "lu_avec_limites",
+        "date": "2026-10-16",
+        "mode": "Texte local relu et pages PDF utiles contrôlées ; pièces indexées ; aucune validation humaine déduite."
+      },
+      "preuves_ether": [
+        {
+          "fichier": "preuves/laon-liberation.html",
+          "sha256": "bddf63bf6c9f9aa749b8667d8c469cdf424431ccecee5659a9898b3627da7de9"
+        },
+        {
+          "fichier": "preuves/laon-liberation.txt",
+          "sha256": "62427dbce4cdac8fcfdad0f92e6d388235273f1475c8dbaf22ff25eee0c47d03"
+        }
+      ],
+      "operation_registre": "ajouter",
+      "usages_atlas": [
+        "villes_snapshot0",
+        "administration"
+      ]
+    },
+    {
+      "source_id": "src-v110-moulins-histoire",
+      "niveau": "B",
+      "type_source": "publication_institutionnelle",
+      "titre": "Histoire de l'hôtel préfectoral -",
+      "institution": "www.allier.gouv.fr",
+      "url": "https://www.allier.gouv.fr/Services-de-l-Etat/Prefecture-et-sous-prefectures/Prefecture/Histoire-de-l-hotel-prefectoral",
+      "date_consultation": "2026-10-16",
+      "cibles": [
+        "ville-fr-moulins"
+      ],
+      "usage": [
+        "Rôle administratif historique de Moulins"
+      ],
+      "locator": "Histoire de l'hôtel, séquences 1884 et 1946",
+      "resume_passage": "Les bureaux préfectoraux de Moulins sont décrits en 1884, puis le projet d'extension de 1946 ; la continuité de la fonction entre ces jalons est proposée.",
+      "note": "Source lue avec les limites consignées dans la grille. Rétrospective sauf pièce reproduite ; aucune certification automatique du siège au jour exact.",
+      "verification_ether": {
+        "statut": "lu_avec_limites",
+        "date": "2026-10-16",
+        "mode": "Texte local relu et pages PDF utiles contrôlées ; pièces indexées ; aucune validation humaine déduite."
+      },
+      "preuves_ether": [
+        {
+          "fichier": "preuves/moulins-histoire.html",
+          "sha256": "d5278c1ceaea65701f199d56b59e093a6a4f7dde45cd89753622897a7da3e521"
+        },
+        {
+          "fichier": "preuves/moulins-histoire.txt",
+          "sha256": "671c875e3290cfb136ab9d0b6b160401861157bf449c91a5d7d9b604d6119b38"
+        }
+      ],
+      "operation_registre": "ajouter",
+      "usages_atlas": [
+        "villes_snapshot0",
+        "administration"
+      ]
+    },
+    {
+      "source_id": "src-v110-digne-chronologie",
+      "niveau": "B",
+      "type_source": "publication_institutionnelle",
+      "titre": "Deux siècles d'activités préfectorales dans les Alpes-de-Haute-Provence -",
+      "institution": "www.alpes-de-haute-provence.gouv.fr",
+      "url": "https://www.alpes-de-haute-provence.gouv.fr/Services-de-l-Etat/Prefecture-et-sous-prefectures/Prefecture-des-Alpes-de-Haute-Provence/Deux-siecles-d-activites-prefectorales-dans-les-Alpes-de-Haute-Provence",
+      "date_consultation": "2026-10-16",
+      "cibles": [
+        "ville-fr-digne"
+      ],
+      "usage": [
+        "Rôle administratif historique de Digne"
+      ],
+      "locator": "Chronologie, 20 août 1944",
+      "resume_passage": "Le récit du 20 août 1944 fait partir de la préfecture de Digne le cortège rétablissant les symboles républicains.",
+      "note": "Source lue avec les limites consignées dans la grille. Rétrospective sauf pièce reproduite ; aucune certification automatique du siège au jour exact.",
+      "verification_ether": {
+        "statut": "lu_avec_limites",
+        "date": "2026-10-16",
+        "mode": "Texte local relu et pages PDF utiles contrôlées ; pièces indexées ; aucune validation humaine déduite."
+      },
+      "preuves_ether": [
+        {
+          "fichier": "preuves/digne-chronologie.html",
+          "sha256": "d041a778c35d2702f4a863b64793ddc1bbc492da3fb2c2eb8b81072c440d7c6a"
+        },
+        {
+          "fichier": "preuves/digne-chronologie.txt",
+          "sha256": "48d510b26859a70a826e97b9b9216341782883790b8e17e6af076019721bf48c"
+        }
+      ],
+      "operation_registre": "ajouter",
+      "usages_atlas": [
+        "villes_snapshot0",
+        "administration"
+      ]
+    },
+    {
+      "source_id": "src-v110-gap-histoire",
+      "niveau": "B",
+      "type_source": "publication_institutionnelle",
+      "titre": "La fonction de Préfet -",
+      "institution": "www.hautes-alpes.gouv.fr",
+      "url": "https://www.hautes-alpes.gouv.fr/Services-de-l-Etat/Prefecture-des-Hautes-Alpes-a-Gap/Le-Prefet/La-fonction-de-Prefet",
+      "date_consultation": "2026-10-16",
+      "cibles": [
+        "ville-fr-gap"
+      ],
+      "usage": [
+        "Rôle administratif historique de Gap"
+      ],
+      "locator": "Historique de la préfecture, 1806 et construction 1827–1840",
+      "resume_passage": "L'histoire de la préfecture de Gap décrit son installation dans l'ancien évêché puis son bâtiment du XIXe siècle ; continuité proposée avec la nomenclature de 1940.",
+      "note": "Source lue avec les limites consignées dans la grille. Rétrospective sauf pièce reproduite ; aucune certification automatique du siège au jour exact.",
+      "verification_ether": {
+        "statut": "lu_avec_limites",
+        "date": "2026-10-16",
+        "mode": "Texte local relu et pages PDF utiles contrôlées ; pièces indexées ; aucune validation humaine déduite."
+      },
+      "preuves_ether": [
+        {
+          "fichier": "preuves/gap-histoire.html",
+          "sha256": "ad84aae78f4c37493ce08e8569555e5e4132b0e3a138d102efe8d688e0198665"
+        },
+        {
+          "fichier": "preuves/gap-histoire.txt",
+          "sha256": "5ed2329f73ba0c4f6540545a79db0b44bcff3e78e12204309b77236870b40da3"
+        }
+      ],
+      "operation_registre": "ajouter",
+      "usages_atlas": [
+        "villes_snapshot0",
+        "administration"
+      ]
+    },
+    {
+      "source_id": "src-v110-nice-histoire",
+      "niveau": "B",
+      "type_source": "publication_institutionnelle",
+      "titre": "Histoire du palais préfectoral -",
+      "institution": "www.alpes-maritimes.gouv.fr",
+      "url": "https://www.alpes-maritimes.gouv.fr/layout/set/print/Decouverte-des-Alpes-Maritimes/Visite-du-palais-prefectoral/Un-peu-d-histoire/Histoire-du-palais-prefectoral",
+      "date_consultation": "2026-10-16",
+      "cibles": [
+        "ville-fr-nice"
+      ],
+      "usage": [
+        "Rôle administratif historique de Nice"
+      ],
+      "locator": "Histoire du palais, installation préfectorale de 1860 et transformations",
+      "resume_passage": "Le palais de Nice devient préfecture en 1860 ; sa fonction et ses transformations ultérieures sont décrites. Continuité proposée avec la nomenclature de 1940.",
+      "note": "Source lue avec les limites consignées dans la grille. Rétrospective sauf pièce reproduite ; aucune certification automatique du siège au jour exact.",
+      "verification_ether": {
+        "statut": "lu_avec_limites",
+        "date": "2026-10-16",
+        "mode": "Texte local relu et pages PDF utiles contrôlées ; pièces indexées ; aucune validation humaine déduite."
+      },
+      "preuves_ether": [
+        {
+          "fichier": "preuves/nice-histoire.html",
+          "sha256": "3fd08929829d6b72b226f0f289cb760653d41c7fafdf872f424894281f14c32c"
+        },
+        {
+          "fichier": "preuves/nice-histoire.txt",
+          "sha256": "a8ad3da6e39cc6c9de014f6218c8b52a7ab0ff532998904b1d69b3c6efdb34d0"
+        }
+      ],
+      "operation_registre": "ajouter",
+      "usages_atlas": [
+        "villes_snapshot0",
+        "administration"
+      ]
+    },
+    {
+      "source_id": "src-v110-privas-prefets",
+      "niveau": "B",
+      "type_source": "publication_institutionnelle",
+      "titre": "Liste des préfets et préfètes du département de l’Ardèche -",
+      "institution": "www.ardeche.gouv.fr",
+      "url": "https://www.ardeche.gouv.fr/index.php/layout/set/print/Services-de-l-Etat/Prefecture-et-sous-prefectures/La-prefecture/Le-Prefet/Liste-des-prefets-et-prefetes-du-departement-de-l-Ardeche",
+      "date_consultation": "2026-10-16",
+      "cibles": [
+        "ville-fr-privas"
+      ],
+      "usage": [
+        "Rôle administratif historique de Privas"
+      ],
+      "locator": "Liste, Robert Pissère 1944 et Aimé Jeanjean 1948 ; histoire locale de l'hôtel en complément",
+      "resume_passage": "La liste préfectorale atteste Robert Pissère à partir de 1944. Le rapprochement avec Privas repose aussi sur l'histoire locale du bâtiment et la nomenclature de 1940 ; l'adresse de ses services au jour exact reste à confirmer.",
+      "note": "Source lue avec les limites consignées dans la grille. Rétrospective sauf pièce reproduite ; aucune certification automatique du siège au jour exact.",
+      "verification_ether": {
+        "statut": "lu_avec_limites",
+        "date": "2026-10-16",
+        "mode": "Texte local relu et pages PDF utiles contrôlées ; pièces indexées ; aucune validation humaine déduite."
+      },
+      "preuves_ether": [
+        {
+          "fichier": "preuves/privas-prefets.html",
+          "sha256": "e205dc3daf3efd32062df7e8cb2cacf30d4b7ecf63f9ddb54d25fc1db563387a"
+        },
+        {
+          "fichier": "preuves/privas-prefets.txt",
+          "sha256": "ec8b96151f08088b0587be6b87facb82ed5ab3ae85edd4718d6cf4a904b4aae6"
+        }
+      ],
+      "operation_registre": "ajouter",
+      "usages_atlas": [
+        "villes_snapshot0",
+        "administration"
+      ]
+    },
+    {
+      "source_id": "src-v110-privas-histoire",
+      "niveau": "B",
+      "type_source": "publication_institutionnelle",
+      "titre": "L'Hôtel de la Préfecture -",
+      "institution": "www.ardeche.gouv.fr",
+      "url": "https://www.ardeche.gouv.fr/Services-de-l-Etat/Prefecture-et-sous-prefectures/La-prefecture/Les-batiments-de-la-prefecture/L-Hotel-de-la-Prefecture",
+      "date_consultation": "2026-10-16",
+      "cibles": [
+        "ville-fr-privas"
+      ],
+      "usage": [
+        "Rôle administratif historique de Privas"
+      ],
+      "locator": "Histoire locale ; complément au document principal",
+      "resume_passage": "Complément local au rapprochement documenté dans la grille.",
+      "note": "Source lue avec les limites consignées dans la grille. Rétrospective sauf pièce reproduite ; aucune certification automatique du siège au jour exact.",
+      "verification_ether": {
+        "statut": "lu_avec_limites",
+        "date": "2026-10-16",
+        "mode": "Texte local relu et pages PDF utiles contrôlées ; pièces indexées ; aucune validation humaine déduite."
+      },
+      "preuves_ether": [
+        {
+          "fichier": "preuves/privas-histoire.html",
+          "sha256": "2d542cf7e512fe9c50ae3432601f64cf16a2f9617b51bc128c8576b843014403"
+        },
+        {
+          "fichier": "preuves/privas-histoire.txt",
+          "sha256": "452dafb3dd56cdd0568a80fe14fc679d35fe3958dbedf5bd8df0d5376baca5f2"
+        }
+      ],
+      "operation_registre": "ajouter",
+      "usages_atlas": [
+        "villes_snapshot0",
+        "administration"
+      ]
+    },
+    {
+      "source_id": "src-v110-mezieres-histoire",
+      "niveau": "B",
+      "type_source": "publication_institutionnelle",
+      "titre": "Dossier historique — Mézières",
+      "institution": "www.ardennes.gouv.fr",
+      "url": "https://www.ardennes.gouv.fr/index.php/contenu/telechargement/3869/38174/file/historique_presentation_pref_cle513827.pdf",
+      "date_consultation": "2026-10-16",
+      "cibles": [
+        "ville-fr-mezieres"
+      ],
+      "usage": [
+        "Rôle administratif historique de Mézières"
+      ],
+      "locator": "PDF p.1, vieux Mézières, occupation préfectorale depuis 1800",
+      "resume_passage": "La préfecture des Ardennes est située dans le vieux Mézières depuis 1800. La fiche conserve cette ville distincte de Charleville ; aucune fusion ultérieure n'est anticipée.",
+      "note": "Source lue avec les limites consignées dans la grille. Rétrospective sauf pièce reproduite ; aucune certification automatique du siège au jour exact.",
+      "verification_ether": {
+        "statut": "lu_avec_limites",
+        "date": "2026-10-16",
+        "mode": "Texte local relu et pages PDF utiles contrôlées ; pièces indexées ; aucune validation humaine déduite."
+      },
+      "preuves_ether": [
+        {
+          "fichier": "preuves/mezieres-histoire.pdf",
+          "sha256": "ac5a5ff56ca390472b09e3fb0bc639067a0d1190b1e78417825131c224509de2"
+        },
+        {
+          "fichier": "preuves/mezieres-histoire.txt",
+          "sha256": "5dd90b2f9439ea9f64288c7c3c253510af078967f23876b5285df7a770e0ebf7"
+        },
+        {
+          "fichier": "preuves/mezieres-histoire_p1.png",
+          "sha256": "c3f05aa88a10517af7761b1bbad4154297db40b2cb9a3b3e8fe05258658dfc77"
+        }
+      ],
+      "operation_registre": "ajouter",
+      "usages_atlas": [
+        "villes_snapshot0",
+        "administration"
+      ]
+    },
+    {
+      "source_id": "src-v110-foix-liberation",
+      "niveau": "B",
+      "type_source": "publication_historique",
+      "titre": "Présentation - Ville de Saint Girons",
+      "institution": "www.ville-st-girons.fr",
+      "url": "https://www.ville-st-girons.fr/presentation/",
+      "date_consultation": "2026-10-16",
+      "cibles": [
+        "ville-fr-foix"
+      ],
+      "usage": [
+        "Rôle administratif historique de Foix"
+      ],
+      "locator": "Récit de la Libération, Gabriel Prosper nommé le 19 août au soir à Foix",
+      "resume_passage": "La page municipale de Saint-Girons situe à Foix la nomination du préfet provisoire Gabriel Prosper le 19 août 1944 ; elle décrit ensuite son intervention à Saint-Girons.",
+      "note": "Source lue avec les limites consignées dans la grille. Rétrospective sauf pièce reproduite ; aucune certification automatique du siège au jour exact.",
+      "verification_ether": {
+        "statut": "lu_avec_limites",
+        "date": "2026-10-16",
+        "mode": "Texte local relu et pages PDF utiles contrôlées ; pièces indexées ; aucune validation humaine déduite."
+      },
+      "preuves_ether": [
+        {
+          "fichier": "preuves/foix-liberation.html",
+          "sha256": "409b7bf5f0fefe2bc8e8b43a964ed751613a279cec7501fcb7b692fef46c3f08"
+        },
+        {
+          "fichier": "preuves/foix-liberation.txt",
+          "sha256": "38e417324656d6c2a8364f9efbc581698930538df7c28806a9d78f926e933a7c"
+        }
+      ],
+      "operation_registre": "ajouter",
+      "usages_atlas": [
+        "villes_snapshot0",
+        "administration"
+      ]
+    },
+    {
+      "source_id": "src-v110-troyes-liberation",
+      "niveau": "B",
+      "type_source": "publication_historique",
+      "titre": "Gabriel THIERRY | L'Ordre de la Libération et son Musée",
+      "institution": "www.ordredelaliberation.fr",
+      "url": "https://www.ordredelaliberation.fr/fr/compagnons/gabriel-thierry",
+      "date_consultation": "2026-10-16",
+      "cibles": [
+        "ville-fr-troyes"
+      ],
+      "usage": [
+        "Rôle administratif historique de Troyes"
+      ],
+      "locator": "Biographie Gabriel Thierry, 25–27 août 1944",
+      "resume_passage": "Thierry s'installe à la préfecture de Troyes le 26 août 1944 ; le préfet s'y présente le lendemain.",
+      "note": "Source lue avec les limites consignées dans la grille. Rétrospective sauf pièce reproduite ; aucune certification automatique du siège au jour exact.",
+      "verification_ether": {
+        "statut": "lu_avec_limites",
+        "date": "2026-10-16",
+        "mode": "Texte local relu et pages PDF utiles contrôlées ; pièces indexées ; aucune validation humaine déduite."
+      },
+      "preuves_ether": [
+        {
+          "fichier": "preuves/troyes-liberation.html",
+          "sha256": "846ab9e2be780829af678298d1e613b989491acb7012df06fbea0ca9501a278c"
+        },
+        {
+          "fichier": "preuves/troyes-liberation.txt",
+          "sha256": "bbe9452cae948226c06e17dcb9f5e7aae5e215029622de28548edb5b04f635db"
+        }
+      ],
+      "operation_registre": "ajouter",
+      "usages_atlas": [
+        "villes_snapshot0",
+        "administration"
+      ]
+    },
+    {
+      "source_id": "src-v110-rodez-histoire",
+      "niveau": "B",
+      "type_source": "publication_institutionnelle",
+      "titre": "L'hôtel de la Préfecture -",
+      "institution": "www.aveyron.gouv.fr",
+      "url": "https://www.aveyron.gouv.fr/Services-de-l-Etat/Prefecture-et-sous-prefectures/Prefecture/Histoire-et-patrimoine/L-hotel-de-la-Prefecture",
+      "date_consultation": "2026-10-16",
+      "cibles": [
+        "ville-fr-rodez"
+      ],
+      "usage": [
+        "Rôle administratif historique de Rodez"
+      ],
+      "locator": "Histoire et patrimoine, installation depuis 1823",
+      "resume_passage": "La page de la préfecture indique qu'elle occupe à Rodez les mêmes locaux depuis 1823 ; cette histoire continue recoupe le chef-lieu recensé en 1940.",
+      "note": "Source lue avec les limites consignées dans la grille. Rétrospective sauf pièce reproduite ; aucune certification automatique du siège au jour exact.",
+      "verification_ether": {
+        "statut": "lu_avec_limites",
+        "date": "2026-10-16",
+        "mode": "Texte local relu et pages PDF utiles contrôlées ; pièces indexées ; aucune validation humaine déduite."
+      },
+      "preuves_ether": [
+        {
+          "fichier": "preuves/rodez-histoire.html",
+          "sha256": "28c046b1e17fa1ee47bda1f296c74f82d19dee02a8e50788df65f8e55da60129"
+        },
+        {
+          "fichier": "preuves/rodez-histoire.txt",
+          "sha256": "0a5db3417a02b85c23af78fc696fb5cea76c07bfc477218bb271702c5cb22fbf"
+        }
+      ],
+      "operation_registre": "ajouter",
+      "usages_atlas": [
+        "villes_snapshot0",
+        "administration"
+      ]
+    },
+    {
+      "source_id": "src-v110-caen-centre",
+      "niveau": "B",
+      "type_source": "publication_institutionnelle",
+      "titre": "Le centre administratif départemental -",
+      "institution": "www.calvados.gouv.fr",
+      "url": "https://www.calvados.gouv.fr/Actions-de-l-Etat/Ressources-historiques-et-memorielles/La-prefecture-du-Calvados/Le-centre-administratif-departemental",
+      "date_consultation": "2026-10-16",
+      "cibles": [
+        "ville-fr-caen"
+      ],
+      "usage": [
+        "Rôle administratif historique de Caen"
+      ],
+      "locator": "Le centre administratif départemental, bombardements de 1944",
+      "resume_passage": "Le récit local précise que la préfecture et les archives de Caen ont été préservées lors des bombardements de 1944 ; il distingue les bâtiments ajoutés après guerre.",
+      "note": "Source lue avec les limites consignées dans la grille. Rétrospective sauf pièce reproduite ; aucune certification automatique du siège au jour exact.",
+      "verification_ether": {
+        "statut": "lu_avec_limites",
+        "date": "2026-10-16",
+        "mode": "Texte local relu et pages PDF utiles contrôlées ; pièces indexées ; aucune validation humaine déduite."
+      },
+      "preuves_ether": [
+        {
+          "fichier": "preuves/caen-centre.html",
+          "sha256": "8af382a7434cfad411f8f5298d354119e4ebd43df029d9721e6e69d784e9d8a0"
+        },
+        {
+          "fichier": "preuves/caen-centre.txt",
+          "sha256": "e459d694765ed2114d74753ee7bdcb197cbee1bba9a94f7682b24f6d89319c83"
+        }
+      ],
+      "operation_registre": "ajouter",
+      "usages_atlas": [
+        "villes_snapshot0",
+        "administration"
+      ]
+    },
+    {
+      "source_id": "src-v110-aurillac-histoire",
+      "niveau": "B",
+      "type_source": "publication_institutionnelle",
+      "titre": "Historique du bâtiment -",
+      "institution": "www.cantal.gouv.fr",
+      "url": "https://www.cantal.gouv.fr/Services-de-l-Etat/Prefecture-et-sous-prefectures/La-prefecture-du-Cantal/Histoire-de-l-Hotel-de-la-Prefecture-d-Aurillac/Historique-du-batiment",
+      "date_consultation": "2026-10-16",
+      "cibles": [
+        "ville-fr-aurillac"
+      ],
+      "usage": [
+        "Rôle administratif historique de Aurillac"
+      ],
+      "locator": "Historique, projet du 30 octobre 1943 et suite 1945–1946",
+      "resume_passage": "Le projet d'agrandissement de la préfecture d'Aurillac du 30 octobre 1943 atteste la fonction avant le Snapshot ; les travaux postérieurs ne sont pas anticipés.",
+      "note": "Source lue avec les limites consignées dans la grille. Rétrospective sauf pièce reproduite ; aucune certification automatique du siège au jour exact.",
+      "verification_ether": {
+        "statut": "lu_avec_limites",
+        "date": "2026-10-16",
+        "mode": "Texte local relu et pages PDF utiles contrôlées ; pièces indexées ; aucune validation humaine déduite."
+      },
+      "preuves_ether": [
+        {
+          "fichier": "preuves/aurillac-histoire.html",
+          "sha256": "5e55ea8fd01ec207c8b57c8c313a05c0660f20e7d1f8deb6a96ac73036cdd88a"
+        },
+        {
+          "fichier": "preuves/aurillac-histoire.txt",
+          "sha256": "79e65276e9e633593102b39cf648dd8daa212e2c6136012eab137cecfc9f15fe"
+        }
+      ],
+      "operation_registre": "ajouter",
+      "usages_atlas": [
+        "villes_snapshot0",
+        "administration"
+      ]
+    },
+    {
+      "source_id": "src-v110-angouleme-histoire",
+      "niveau": "B",
+      "type_source": "publication_institutionnelle",
+      "titre": "Dossier historique — Angoulême",
+      "institution": "www.charente.gouv.fr",
+      "url": "https://www.charente.gouv.fr/content/download/30519/191611/file/20190109_plaquette_information_prefecture.pdf",
+      "date_consultation": "2026-10-16",
+      "cibles": [
+        "ville-fr-angouleme"
+      ],
+      "usage": [
+        "Rôle administratif historique de Angoulême"
+      ],
+      "locator": "PDF p.12, septembre 1944",
+      "resume_passage": "La brochure préfectorale situe le retour du drapeau français sur le balcon de la préfecture d'Angoulême le 1er septembre 1944.",
+      "note": "Source lue avec les limites consignées dans la grille. Rétrospective sauf pièce reproduite ; aucune certification automatique du siège au jour exact.",
+      "verification_ether": {
+        "statut": "lu_avec_limites",
+        "date": "2026-10-16",
+        "mode": "Texte local relu et pages PDF utiles contrôlées ; pièces indexées ; aucune validation humaine déduite."
+      },
+      "preuves_ether": [
+        {
+          "fichier": "preuves/angouleme-histoire.pdf",
+          "sha256": "22f3b8c6a445b33623ccf75f3fe532bae886f0bc558f24cfa214f2ad4dfc567c"
+        },
+        {
+          "fichier": "preuves/angouleme-histoire.txt",
+          "sha256": "b20df6c246090a2ac4eec00cb8241467fb3bd93af20fd904ae3b40d29306398e"
+        },
+        {
+          "fichier": "preuves/angouleme-histoire_p12.png",
+          "sha256": "ce4c37861ecf29253d91ce023cb99d586e0355a629162fe14d9be0753e213696"
+        }
+      ],
+      "operation_registre": "ajouter",
+      "usages_atlas": [
+        "villes_snapshot0",
+        "administration"
+      ]
+    },
+    {
+      "source_id": "src-v110-bourges-liberation",
+      "niveau": "B",
+      "type_source": "publication_institutionnelle",
+      "titre": "Dossier historique — Bourges",
+      "institution": "www.archives18.fr",
+      "url": "https://www.archives18.fr/image/1789311/238869?crop=centre&download=1&force-inline=&format=pdf&realHeight=1756&realWidth=1242&region=full&size=%21800%2C800",
+      "date_consultation": "2026-10-16",
+      "cibles": [
+        "ville-fr-bourges"
+      ],
+      "usage": [
+        "Rôle administratif historique de Bourges"
+      ],
+      "locator": "PDF p.10, journée du 6 septembre 1944",
+      "resume_passage": "Le récit des Archives du Cher décrit l'arrivée des résistants à la préfecture de Bourges et l'arrestation du préfet de Vichy le 6 septembre 1944.",
+      "note": "Source lue avec les limites consignées dans la grille. Rétrospective sauf pièce reproduite ; aucune certification automatique du siège au jour exact.",
+      "verification_ether": {
+        "statut": "lu_avec_limites",
+        "date": "2026-10-16",
+        "mode": "Texte local relu et pages PDF utiles contrôlées ; pièces indexées ; aucune validation humaine déduite."
+      },
+      "preuves_ether": [
+        {
+          "fichier": "preuves/bourges-liberation.pdf",
+          "sha256": "36ca3202ec4cb06b12d1ca61a115372107b2cdd3af95cf14988d80a371e8ba07"
+        },
+        {
+          "fichier": "preuves/bourges-liberation.txt",
+          "sha256": "aef138ecf671fc4406b77cb5f9afd6e3accc28a27a3f7857408ad5d20b13f8d8"
+        },
+        {
+          "fichier": "preuves/bourges-liberation_p10.png",
+          "sha256": "587584ff3f17404527784f6b59158dd5016f3b010b2748769c267f0739e70aec"
+        }
+      ],
+      "operation_registre": "ajouter",
+      "usages_atlas": [
+        "villes_snapshot0",
+        "administration"
+      ]
+    },
+    {
+      "source_id": "src-v110-tulle-histoire",
+      "niveau": "B",
+      "type_source": "publication_institutionnelle",
+      "titre": "L'hôtel préfectoral -",
+      "institution": "www.correze.gouv.fr",
+      "url": "https://www.correze.gouv.fr/Services-de-l-Etat/La-prefecture-et-les-sous-prefectures/La-prefecture-de-la-Correze/L-hotel-prefectoral",
+      "date_consultation": "2026-10-16",
+      "cibles": [
+        "ville-fr-tulle"
+      ],
+      "usage": [
+        "Rôle administratif historique de Tulle"
+      ],
+      "locator": "Hôtel préfectoral, décision 1864 et achèvement 1880",
+      "resume_passage": "L'histoire locale décrit la construction de l'hôtel préfectoral de Tulle au XIXe siècle et sa fonction persistante ; continuité proposée avec la nomenclature de 1940.",
+      "note": "Source lue avec les limites consignées dans la grille. Rétrospective sauf pièce reproduite ; aucune certification automatique du siège au jour exact.",
+      "verification_ether": {
+        "statut": "lu_avec_limites",
+        "date": "2026-10-16",
+        "mode": "Texte local relu et pages PDF utiles contrôlées ; pièces indexées ; aucune validation humaine déduite."
+      },
+      "preuves_ether": [
+        {
+          "fichier": "preuves/tulle-histoire.html",
+          "sha256": "1825d64e30de9fdabef84b1e31bc97ba1638b4f816398338a53d02d45aceb278"
+        },
+        {
+          "fichier": "preuves/tulle-histoire.txt",
+          "sha256": "5886a6fdc1a45f06f3148806b4b846d2ef41c4ca3f93f89fb9a3bd9fbf5793b4"
+        }
+      ],
+      "operation_registre": "ajouter",
+      "usages_atlas": [
+        "villes_snapshot0",
+        "administration"
+      ]
+    },
+    {
+      "source_id": "src-v110-saintbrieuc-liberation",
+      "niveau": "B",
+      "type_source": "publication_institutionnelle",
+      "titre": "Dossier historique — Saint-Brieuc",
+      "institution": "archives.saint-brieuc.fr",
+      "url": "https://archives.saint-brieuc.fr/_depot_arkcms_am_saint_brieuc/_depot_arko/articles/841/fin-de-la-guerre-39-45-et-liberation-a-saint-brieuc_doc.pdf",
+      "date_consultation": "2026-10-16",
+      "cibles": [
+        "ville-fr-saint-brieuc"
+      ],
+      "usage": [
+        "Rôle administratif historique de Saint-Brieuc"
+      ],
+      "locator": "PDF p.1, mise en place des autorités avant le 6 août 1944",
+      "resume_passage": "Les Archives municipales décrivent la mise en place du préfet, du maire et du comité de Libération à Saint-Brieuc avant l'arrivée américaine du 6 août 1944.",
+      "note": "Source lue avec les limites consignées dans la grille. Rétrospective sauf pièce reproduite ; aucune certification automatique du siège au jour exact.",
+      "verification_ether": {
+        "statut": "lu_avec_limites",
+        "date": "2026-10-16",
+        "mode": "Texte local relu et pages PDF utiles contrôlées ; pièces indexées ; aucune validation humaine déduite."
+      },
+      "preuves_ether": [
+        {
+          "fichier": "preuves/saintbrieuc-liberation.pdf",
+          "sha256": "c15bd5f50dbbe0aefc186ce6d376b2f5d8359a3ad46d6c6d1c86c2240f358fe7"
+        },
+        {
+          "fichier": "preuves/saintbrieuc-liberation.txt",
+          "sha256": "cf96e80e1794f083fc2a8e59c059c0eab765899fbd92c4eaac45a4247ec2f6c2"
+        },
+        {
+          "fichier": "preuves/saintbrieuc-liberation_p1.png",
+          "sha256": "179de6dcbf57892cbde38b53e2fe115649a0b5b8db565420c14086c033e98450"
+        }
+      ],
+      "operation_registre": "ajouter",
+      "usages_atlas": [
+        "villes_snapshot0",
+        "administration"
+      ]
+    },
+    {
+      "source_id": "src-v110-gueret-histoire",
+      "niveau": "B",
+      "type_source": "publication_institutionnelle",
+      "titre": "Dossier historique — Guéret",
+      "institution": "www.creuse.gouv.fr",
+      "url": "https://www.creuse.gouv.fr/content/download/2126/13110/file/Pr%C3%A9sentation%20pr%C3%A9fecture.pdf",
+      "date_consultation": "2026-10-16",
+      "cibles": [
+        "ville-fr-gueret"
+      ],
+      "usage": [
+        "Rôle administratif historique de Guéret"
+      ],
+      "locator": "PDF p.4, vente de 1802 et affectation constante",
+      "resume_passage": "La brochure indique que le bâtiment de Guéret, acquis en 1802 pour la préfecture, a constamment conservé cette affectation.",
+      "note": "Source lue avec les limites consignées dans la grille. Rétrospective sauf pièce reproduite ; aucune certification automatique du siège au jour exact.",
+      "verification_ether": {
+        "statut": "lu_avec_limites",
+        "date": "2026-10-16",
+        "mode": "Texte local relu et pages PDF utiles contrôlées ; pièces indexées ; aucune validation humaine déduite."
+      },
+      "preuves_ether": [
+        {
+          "fichier": "preuves/gueret-histoire.pdf",
+          "sha256": "b7fd3ec89aa1bfcf702e6ad594e0ab0187329b4d0f3aaf4e788ec86fae68eab7"
+        },
+        {
+          "fichier": "preuves/gueret-histoire.txt",
+          "sha256": "d80fa7c383d91c4995f341c3815ebf00dbe61accfb2b1d9ccf8f8e61915a00d3"
+        },
+        {
+          "fichier": "preuves/gueret-histoire_p4.png",
+          "sha256": "0be3a9aa1989c2d06a622e1bd948befee8052735c809416a6a246c196ca81032"
+        }
+      ],
+      "operation_registre": "ajouter",
+      "usages_atlas": [
+        "villes_snapshot0",
+        "administration"
+      ]
+    },
+    {
+      "source_id": "src-v110-perigueux-liberation",
+      "niveau": "B",
+      "type_source": "publication_institutionnelle",
+      "titre": "Recenser les crimes de guerre",
+      "institution": "archives.dordogne.fr",
+      "url": "https://archives.dordogne.fr/recenser-les-crimes-de-guerre",
+      "date_consultation": "2026-10-16",
+      "cibles": [
+        "ville-fr-perigueux"
+      ],
+      "usage": [
+        "Rôle administratif historique de Périgueux"
+      ],
+      "locator": "Introduction et circulaire du 29 août 1944, cote 1 W 1809",
+      "resume_passage": "Maxime Roux sort de la clandestinité, s'installe à la préfecture de Dordogne et adresse aux maires une circulaire le 29 août 1944 ; le contexte local est Périgueux.",
+      "note": "Source lue avec les limites consignées dans la grille. Rétrospective sauf pièce reproduite ; aucune certification automatique du siège au jour exact.",
+      "verification_ether": {
+        "statut": "lu_avec_limites",
+        "date": "2026-10-16",
+        "mode": "Texte local relu et pages PDF utiles contrôlées ; pièces indexées ; aucune validation humaine déduite."
+      },
+      "preuves_ether": [
+        {
+          "fichier": "preuves/perigueux-liberation.html",
+          "sha256": "eba27faf318fbcf337e6ae4114e5c1ef1a35e9c2a5bf3f287a224295ad2af688"
+        },
+        {
+          "fichier": "preuves/perigueux-liberation.txt",
+          "sha256": "48a5818bfef5ccbe55fefef5f4f562a0bca76a3e61260d793cebe347ce9172bd"
+        }
+      ],
+      "operation_registre": "ajouter",
+      "usages_atlas": [
+        "villes_snapshot0",
+        "administration"
+      ]
+    },
+    {
+      "source_id": "src-v110-besancon-histoire",
+      "niveau": "B",
+      "type_source": "publication_institutionnelle",
+      "titre": "Préfecture du Doubs -",
+      "institution": "www.doubs.gouv.fr",
+      "url": "https://www.doubs.gouv.fr/Services-de-l-Etat/Prefecture-et-sous-prefectures/La-prefecture-du-Doubs-a-Besancon/Presentation-historique-et-patrimoniale-de-la-prefecture-ancienne-intendance-royale/Prefecture-du-Doubs",
+      "date_consultation": "2026-10-16",
+      "cibles": [
+        "ville-fr-besancon"
+      ],
+      "usage": [
+        "Rôle administratif historique de Besançon"
+      ],
+      "locator": "Présentation, préfecture depuis 1800 et continuité des services",
+      "resume_passage": "L'ancienne intendance de Besançon devient préfecture en 1800 ; la présentation officielle décrit plus de deux siècles d'accueil des services de l'État.",
+      "note": "Source lue avec les limites consignées dans la grille. Rétrospective sauf pièce reproduite ; aucune certification automatique du siège au jour exact.",
+      "verification_ether": {
+        "statut": "lu_avec_limites",
+        "date": "2026-10-16",
+        "mode": "Texte local relu et pages PDF utiles contrôlées ; pièces indexées ; aucune validation humaine déduite."
+      },
+      "preuves_ether": [
+        {
+          "fichier": "preuves/besancon-histoire.html",
+          "sha256": "0f12f1e412e5d2a9bf120ef0060887e128a82a2de66e1fec6b94cecf0f61abfe"
+        },
+        {
+          "fichier": "preuves/besancon-histoire.txt",
+          "sha256": "923e66d3bd21e40d51484067173cdb4f218a71b45b56a4d2e3f4eb0d67a3b01b"
+        }
+      ],
+      "operation_registre": "ajouter",
+      "usages_atlas": [
+        "villes_snapshot0",
+        "administration"
+      ]
+    },
+    {
+      "source_id": "src-v110-valence-liberation",
+      "niveau": "B",
+      "type_source": "publication_institutionnelle",
+      "titre": "Libération de la Drôme -",
+      "institution": "www.drome.gouv.fr",
+      "url": "https://www.drome.gouv.fr/Actions-de-l-Etat/Citoyennete-et-elections/Devoir-de-memoire/Ceremonies-et-commemorations/Autres-ceremonies-et-commemorations/Liberation-de-la-Drome",
+      "date_consultation": "2026-10-16",
+      "cibles": [
+        "ville-fr-valence"
+      ],
+      "usage": [
+        "Rôle administratif historique de Valence"
+      ],
+      "locator": "Libération de la Drôme, 31 août 1944",
+      "resume_passage": "La présentation départementale situe à Valence la préfecture et la libération de la ville le 31 août 1944.",
+      "note": "Source lue avec les limites consignées dans la grille. Rétrospective sauf pièce reproduite ; aucune certification automatique du siège au jour exact.",
+      "verification_ether": {
+        "statut": "lu_avec_limites",
+        "date": "2026-10-16",
+        "mode": "Texte local relu et pages PDF utiles contrôlées ; pièces indexées ; aucune validation humaine déduite."
+      },
+      "preuves_ether": [
+        {
+          "fichier": "preuves/valence-liberation.html",
+          "sha256": "4f1bd78c18d62e6084fb7fa16d27b3f4858a2dc7950864b55fb02f9cb59af7b8"
+        },
+        {
+          "fichier": "preuves/valence-liberation.txt",
+          "sha256": "438de0079b72d5158de303a29b64b9c0f532dc33d5fd8d4b621f0a662b123d7b"
+        }
+      ],
+      "operation_registre": "ajouter",
+      "usages_atlas": [
+        "villes_snapshot0",
+        "administration"
+      ]
+    },
+    {
+      "source_id": "src-v110-evreux-histoire",
+      "niveau": "B",
+      "type_source": "publication_institutionnelle",
+      "titre": "Dossier historique — Évreux",
+      "institution": "www.eure.gouv.fr",
+      "url": "https://www.eure.gouv.fr/content/download/34744/226458/file/Histoire%20de%20la%20Pr%C3%A9fecture.pdf",
+      "date_consultation": "2026-10-16",
+      "cibles": [
+        "ville-fr-evreux"
+      ],
+      "usage": [
+        "Rôle administratif historique de Évreux"
+      ],
+      "locator": "PDF p.1, déplacements de la résidence en 1940 et 1942",
+      "resume_passage": "La résidence du préfet d'Évreux est déplacée rue Victor-Hugo après les destructions de 1940, puis acquise en 1942 ; le projet de reconstruction date de 1944. Le point urbain ne localise pas ces résidences.",
+      "note": "Source lue avec les limites consignées dans la grille. Rétrospective sauf pièce reproduite ; aucune certification automatique du siège au jour exact.",
+      "verification_ether": {
+        "statut": "lu_avec_limites",
+        "date": "2026-10-16",
+        "mode": "Texte local relu et pages PDF utiles contrôlées ; pièces indexées ; aucune validation humaine déduite."
+      },
+      "preuves_ether": [
+        {
+          "fichier": "preuves/evreux-histoire.pdf",
+          "sha256": "1819b9619f8a365cdfce644938d812d54d67d745c974e9256f6558f5f75926b7"
+        },
+        {
+          "fichier": "preuves/evreux-histoire.txt",
+          "sha256": "c54d9e2c5801f5d532e842bd21de5421016e5319a3b7d4f3920c88fd287dccc8"
+        },
+        {
+          "fichier": "preuves/evreux-histoire_p1.png",
+          "sha256": "9d6c3b4b6ed17b5a8c0c34887f8fa03b222aeade7d6139bb3f9e832379eacefa"
+        }
+      ],
+      "operation_registre": "ajouter",
+      "usages_atlas": [
+        "villes_snapshot0",
+        "administration"
+      ]
+    },
+    {
+      "source_id": "src-v110-chartres-histoire",
+      "niveau": "B",
+      "type_source": "publication_institutionnelle",
+      "titre": "Histoire de la préfecture  -",
+      "institution": "www.eure-et-loir.gouv.fr",
+      "url": "https://www.eure-et-loir.gouv.fr/index.php/layout/set/print/Services-de-l-Etat/Prefecture-et-sous-prefectures/Histoire-de-la-prefecture",
+      "date_consultation": "2026-10-16",
+      "cibles": [
+        "ville-fr-chartres"
+      ],
+      "usage": [
+        "Rôle administratif historique de Chartres"
+      ],
+      "locator": "Histoire, visite du 23 août 1944",
+      "resume_passage": "Le récit situe la réception des autorités par de Gaulle à la préfecture de Chartres le 23 août 1944.",
+      "note": "Source lue avec les limites consignées dans la grille. Rétrospective sauf pièce reproduite ; aucune certification automatique du siège au jour exact.",
+      "verification_ether": {
+        "statut": "lu_avec_limites",
+        "date": "2026-10-16",
+        "mode": "Texte local relu et pages PDF utiles contrôlées ; pièces indexées ; aucune validation humaine déduite."
+      },
+      "preuves_ether": [
+        {
+          "fichier": "preuves/chartres-histoire.html",
+          "sha256": "d754a23ae3cf570a9aeaeb61989ca6915d4a02a0fb0efd1184d4aea5a0b5c8a4"
+        },
+        {
+          "fichier": "preuves/chartres-histoire.txt",
+          "sha256": "4581c5e2fb0ba8a35fc3cb65dc97eec34b1517da3d3c91dfa3094c5119fc283d"
+        }
+      ],
+      "operation_registre": "ajouter",
+      "usages_atlas": [
+        "villes_snapshot0",
+        "administration"
+      ]
+    },
+    {
+      "source_id": "src-v110-quimper-liberation",
+      "niveau": "B",
+      "type_source": "publication_institutionnelle",
+      "titre": "La correspondance de la Feldkommandantur | Faire vivre et faire connaître l'histoire du Finistère",
+      "institution": "archives.finistere.fr",
+      "url": "https://archives.finistere.fr/rechercher/aides-la-recherche/aide-la-recherche-seconde-guerre-mondiale/la-correspondance-de-la",
+      "date_consultation": "2026-10-16",
+      "cibles": [
+        "ville-fr-quimper"
+      ],
+      "usage": [
+        "Rôle administratif historique de Quimper"
+      ],
+      "locator": "Correspondance Feldkommandantur 752 ; légende 4 Fi 18, préfecture en feu en 1944",
+      "resume_passage": "Les Archives du Finistère attestent la préfecture de Quimper pendant l'Occupation et son incendie en 1944. La réinstallation exacte des bureaux après l'incendie reste en réserve.",
+      "note": "Source lue avec les limites consignées dans la grille. Rétrospective sauf pièce reproduite ; aucune certification automatique du siège au jour exact.",
+      "verification_ether": {
+        "statut": "lu_avec_limites",
+        "date": "2026-10-16",
+        "mode": "Texte local relu et pages PDF utiles contrôlées ; pièces indexées ; aucune validation humaine déduite."
+      },
+      "preuves_ether": [
+        {
+          "fichier": "preuves/quimper-liberation.html",
+          "sha256": "ddf3210406e140771ac5014055c25e82deeddedc043c500d291ecd76dbb69d1a"
+        },
+        {
+          "fichier": "preuves/quimper-liberation.txt",
+          "sha256": "2cfc838338e4950d294ee30b06e8e7183812d6f75aa71e4fc62e7560226207e9"
+        }
+      ],
+      "operation_registre": "ajouter",
+      "usages_atlas": [
+        "villes_snapshot0",
+        "administration"
+      ]
+    },
+    {
+      "source_id": "src-v110-nimes-histoire",
+      "niveau": "B",
+      "type_source": "publication_institutionnelle",
+      "titre": "Pour en savoir plus sur l'histoire de la préfecture, les préfets du Gard et l'administration -",
+      "institution": "www.gard.gouv.fr",
+      "url": "https://www.gard.gouv.fr/Services-de-l-Etat/Prefecture-et-sous-prefectures/Prefecture/Pour-en-savoir-plus-sur-l-histoire-de-la-prefecture-les-prefets-du-Gard-et-l-administration",
+      "date_consultation": "2026-10-16",
+      "cibles": [
+        "ville-fr-nimes"
+      ],
+      "usage": [
+        "Rôle administratif historique de Nîmes"
+      ],
+      "locator": "Liste des préfets, Paganelli 25 août 1944 et Chaumeil 1er février 1946",
+      "resume_passage": "L'histoire des locaux et la liste des préfets relient la préfecture de Nîmes à la période 1944–1946.",
+      "note": "Source lue avec les limites consignées dans la grille. Rétrospective sauf pièce reproduite ; aucune certification automatique du siège au jour exact.",
+      "verification_ether": {
+        "statut": "lu_avec_limites",
+        "date": "2026-10-16",
+        "mode": "Texte local relu et pages PDF utiles contrôlées ; pièces indexées ; aucune validation humaine déduite."
+      },
+      "preuves_ether": [
+        {
+          "fichier": "preuves/nimes-histoire.html",
+          "sha256": "74ed4a0b42be4b04a9257f714d074704cade53932c3728ea0eb466620ae8a405"
+        },
+        {
+          "fichier": "preuves/nimes-histoire.txt",
+          "sha256": "336daaae1242d754ad1c5dca9f71cbe5aaa138b79e54efe68ce654cdfdaac692"
+        }
+      ],
+      "operation_registre": "ajouter",
+      "usages_atlas": [
+        "villes_snapshot0",
+        "administration"
+      ]
+    },
+    {
+      "source_id": "src-v110-auch-liberation",
+      "niveau": "B",
+      "type_source": "publication_institutionnelle",
+      "titre": "19 août - Libération de la ville d'Auch -",
+      "institution": "www.gers.gouv.fr",
+      "url": "https://www.gers.gouv.fr/layout/set/print/Actualites/Devoir-de-memoire/19-aout-Liberation-de-la-ville-d-Auch",
+      "date_consultation": "2026-10-16",
+      "cibles": [
+        "ville-fr-auch"
+      ],
+      "usage": [
+        "Rôle administratif historique de Auch"
+      ],
+      "locator": "19 août — Libération d'Auch, remplacement du préfet les 20–21 août 1944",
+      "resume_passage": "Le récit préfectoral décrit à Auch le remplacement de Caumont par Dechriste en août 1944.",
+      "note": "Source lue avec les limites consignées dans la grille. Rétrospective sauf pièce reproduite ; aucune certification automatique du siège au jour exact.",
+      "verification_ether": {
+        "statut": "lu_avec_limites",
+        "date": "2026-10-16",
+        "mode": "Texte local relu et pages PDF utiles contrôlées ; pièces indexées ; aucune validation humaine déduite."
+      },
+      "preuves_ether": [
+        {
+          "fichier": "preuves/auch-liberation.html",
+          "sha256": "944cd2c48c695317051573ca6a4985438ee1a5dc05fe8637dc52c5b2078caa5e"
+        },
+        {
+          "fichier": "preuves/auch-liberation.txt",
+          "sha256": "6b35589a8784dd1cb8b5fb67a0a9d5239150d0081d08407bd64103a299c42a61"
+        }
+      ],
+      "operation_registre": "ajouter",
+      "usages_atlas": [
+        "villes_snapshot0",
+        "administration"
+      ]
+    },
+    {
+      "source_id": "src-v110-montpellier-histoire",
+      "niveau": "B",
+      "type_source": "publication_institutionnelle",
+      "titre": "1. Histoire de la Préfecture de l’Hérault -",
+      "institution": "www.herault.gouv.fr",
+      "url": "https://www.herault.gouv.fr/layout/set/print/Actualites/Infos/JEP-2026-La-prefecture-de-l-Herault/1.-Histoire-de-la-Prefecture-de-l-Herault",
+      "date_consultation": "2026-10-16",
+      "cibles": [
+        "ville-fr-montpellier"
+      ],
+      "usage": [
+        "Rôle administratif historique de Montpellier"
+      ],
+      "locator": "Installation le 25 mars 1800, agrandissements de 1867–1870",
+      "resume_passage": "L'histoire de la préfecture de Montpellier décrit son installation en 1800 et ses agrandissements successifs ; continuité proposée avec la nomenclature de 1940.",
+      "note": "Source lue avec les limites consignées dans la grille. Rétrospective sauf pièce reproduite ; aucune certification automatique du siège au jour exact.",
+      "verification_ether": {
+        "statut": "lu_avec_limites",
+        "date": "2026-10-16",
+        "mode": "Texte local relu et pages PDF utiles contrôlées ; pièces indexées ; aucune validation humaine déduite."
+      },
+      "preuves_ether": [
+        {
+          "fichier": "preuves/montpellier-histoire.html",
+          "sha256": "01c3327ce4fe8208dc379677318cd8fcbd52ebe3b9ab8bf368ef0b45dc62740d"
+        },
+        {
+          "fichier": "preuves/montpellier-histoire.txt",
+          "sha256": "e322b52879866fab55703f70d7b0ecd1ba1c6fcf278a2c4e4e75cf7408f9b1af"
+        }
+      ],
+      "operation_registre": "ajouter",
+      "usages_atlas": [
+        "villes_snapshot0",
+        "administration"
+      ]
+    },
+    {
+      "source_id": "src-v110-chateauroux-cazala",
+      "niveau": "B",
+      "type_source": "publication_historique",
+      "titre": "Musée de la résistance en ligne",
+      "institution": "museedelaresistanceenligne.org",
+      "url": "https://museedelaresistanceenligne.org/media9797-Plaque-en-hommage-Roger-Cazala-muse-Bertrand-Chteauroux-Indre",
+      "date_consultation": "2026-10-16",
+      "cibles": [
+        "ville-fr-chateauroux"
+      ],
+      "usage": [
+        "Rôle administratif historique de Châteauroux"
+      ],
+      "locator": "Contexte historique, arrestations du 30 mai 1944",
+      "resume_passage": "La notice de Roger Cazala situe à Châteauroux des responsables du cabinet préfectoral et de la préfecture arrêtés en mai 1944. Elle ne prouve pas la composition du personnel en janvier 1945.",
+      "note": "Source lue avec les limites consignées dans la grille. Rétrospective sauf pièce reproduite ; aucune certification automatique du siège au jour exact.",
+      "verification_ether": {
+        "statut": "lu_avec_limites",
+        "date": "2026-10-16",
+        "mode": "Texte local relu et pages PDF utiles contrôlées ; pièces indexées ; aucune validation humaine déduite."
+      },
+      "preuves_ether": [
+        {
+          "fichier": "preuves/chateauroux-cazala.html",
+          "sha256": "0fd0dd9b47f83c63661c9fe13ed89c68f7332dbf430f1b1b80b1932918f5162c"
+        },
+        {
+          "fichier": "preuves/chateauroux-cazala.txt",
+          "sha256": "31988f72a0bab458db3fbc3ef2c9486afce211b12ffc966637a64c3759e0b6d4"
+        }
+      ],
+      "operation_registre": "ajouter",
+      "usages_atlas": [
+        "villes_snapshot0",
+        "administration"
+      ]
+    },
+    {
+      "source_id": "src-v110-grenoble-liberation",
+      "niveau": "B",
+      "type_source": "publication_historique",
+      "titre": "Le Théâtre de la Libération - Grenoble.fr - Libération",
+      "institution": "www.grenoble.fr",
+      "url": "https://www.grenoble.fr/613-le-theatre-de-la-liberation.htm",
+      "date_consultation": "2026-10-16",
+      "cibles": [
+        "ville-fr-grenoble"
+      ],
+      "usage": [
+        "Rôle administratif historique de Grenoble"
+      ],
+      "locator": "Le théâtre de la Libération, 22 et 28 août 1944",
+      "resume_passage": "Albert Reynier s'installe à la préfecture de Grenoble le 22 août 1944 ; sa qualité est officialisée le 28. Le repère moderne ne représente pas la mairie de 1944, alors à l'hôtel de Lesdiguières.",
+      "note": "Source lue avec les limites consignées dans la grille. Rétrospective sauf pièce reproduite ; aucune certification automatique du siège au jour exact.",
+      "verification_ether": {
+        "statut": "lu_avec_limites",
+        "date": "2026-10-16",
+        "mode": "Texte local relu et pages PDF utiles contrôlées ; pièces indexées ; aucune validation humaine déduite."
+      },
+      "preuves_ether": [
+        {
+          "fichier": "preuves/grenoble-liberation.html",
+          "sha256": "f251e4cd29fda1165b97e4ed53ab53d0d2f34c7fd8827d3cedb48af9621c77fe"
+        },
+        {
+          "fichier": "preuves/grenoble-liberation.txt",
+          "sha256": "baaf6578ded9ee4c79a41f3348936f2c394ff0d251531a2cb3952e219269068d"
+        }
+      ],
+      "operation_registre": "ajouter",
+      "usages_atlas": [
+        "villes_snapshot0",
+        "administration"
+      ]
+    },
+    {
+      "source_id": "src-v110-lons-liberation",
+      "niveau": "B",
+      "type_source": "publication_historique",
+      "titre": "Dossier historique — Lons-le-Saunier",
+      "institution": "www.ecla-jura.fr",
+      "url": "https://www.ecla-jura.fr/wp-content/uploads/2024/04/Programme-80-ans-Web.pdf",
+      "date_consultation": "2026-10-16",
+      "cibles": [
+        "ville-fr-lons-le-saunier"
+      ],
+      "usage": [
+        "Rôle administratif historique de Lons-le-Saunier"
+      ],
+      "locator": "PDF p.2, textes historiques d'André Robert",
+      "resume_passage": "La brochure d'ECLA désigne Lons-le-Saunier comme ville préfecture du Jura dans le récit de sa libération du 25 août 1944.",
+      "note": "Source lue avec les limites consignées dans la grille. Rétrospective sauf pièce reproduite ; aucune certification automatique du siège au jour exact.",
+      "verification_ether": {
+        "statut": "lu_avec_limites",
+        "date": "2026-10-16",
+        "mode": "Texte local relu et pages PDF utiles contrôlées ; pièces indexées ; aucune validation humaine déduite."
+      },
+      "preuves_ether": [
+        {
+          "fichier": "preuves/lons-liberation.pdf",
+          "sha256": "efaf6dcdd43390495d6b7f93acb118a76b488632c07792df151e6d48d5fd4370"
+        },
+        {
+          "fichier": "preuves/lons-liberation.txt",
+          "sha256": "f686e733c9a78015eeddec93768c7b7bf094df5b35b71a414e51ab023f77a4f8"
+        },
+        {
+          "fichier": "preuves/lons-liberation_p2.png",
+          "sha256": "f057d31148513397edf154c246d1598ebb061cc03db4c4f29ce0b41d7523f55b"
+        }
+      ],
+      "operation_registre": "ajouter",
+      "usages_atlas": [
+        "villes_snapshot0",
+        "administration"
+      ]
+    },
+    {
+      "source_id": "src-v110-montdemarsan-histoire",
+      "niveau": "B",
+      "type_source": "publication_institutionnelle",
+      "titre": "Historique -",
+      "institution": "www.landes.gouv.fr",
+      "url": "https://www.landes.gouv.fr/Services-de-l-Etat/Prefecture-et-sous-prefecture/La-prefecture/Historique",
+      "date_consultation": "2026-10-16",
+      "cibles": [
+        "ville-fr-mont-de-marsan"
+      ],
+      "usage": [
+        "Rôle administratif historique de Mont-de-Marsan"
+      ],
+      "locator": "Historique, décret de 1808, installation en 1818, extension de 1905",
+      "resume_passage": "L'histoire des locaux préfectoraux de Mont-de-Marsan fournit les étapes de leur installation et développement ; continuité proposée avec la nomenclature de 1940.",
+      "note": "Source lue avec les limites consignées dans la grille. Rétrospective sauf pièce reproduite ; aucune certification automatique du siège au jour exact.",
+      "verification_ether": {
+        "statut": "lu_avec_limites",
+        "date": "2026-10-16",
+        "mode": "Texte local relu et pages PDF utiles contrôlées ; pièces indexées ; aucune validation humaine déduite."
+      },
+      "preuves_ether": [
+        {
+          "fichier": "preuves/montdemarsan-histoire.html",
+          "sha256": "18ef23790d57d80ce4de81a9f2da85953fb011bbd4498f755a27009a5a65b909"
+        },
+        {
+          "fichier": "preuves/montdemarsan-histoire.txt",
+          "sha256": "e4fff80455500ce74b47444a09f0d2d5775c36ca891f75a0dfb88e906cdaf4ad"
+        }
+      ],
+      "operation_registre": "ajouter",
+      "usages_atlas": [
+        "villes_snapshot0",
+        "administration"
+      ]
+    },
+    {
+      "source_id": "src-v110-blois-dubois",
+      "niveau": "B",
+      "type_source": "publication_historique",
+      "titre": "DUBOIS GÉRARD - AMRDL 41",
+      "institution": "musee-resistance41.fr",
+      "url": "https://musee-resistance41.fr/1939-1945/biographies/dubois-gerard",
+      "date_consultation": "2026-10-16",
+      "cibles": [
+        "ville-fr-blois"
+      ],
+      "usage": [
+        "Rôle administratif historique de Blois"
+      ],
+      "locator": "Biographie par Stanley Thery, groupe de préfecture et arrestation du 28 mars 1944",
+      "resume_passage": "La biographie documente un groupe de résistants travaillant à la préfecture de Blois en 1943–1944 et l'arrestation de Dubois à proximité le 28 mars 1944.",
+      "note": "Source lue avec les limites consignées dans la grille. Rétrospective sauf pièce reproduite ; aucune certification automatique du siège au jour exact.",
+      "verification_ether": {
+        "statut": "lu_avec_limites",
+        "date": "2026-10-16",
+        "mode": "Texte local relu et pages PDF utiles contrôlées ; pièces indexées ; aucune validation humaine déduite."
+      },
+      "preuves_ether": [
+        {
+          "fichier": "preuves/blois-dubois.html",
+          "sha256": "f75237ca797fc400b627f52e1e6e9c10b0db1ca524a34f1e0bf72bb185e57f89"
+        },
+        {
+          "fichier": "preuves/blois-dubois.txt",
+          "sha256": "ce95f95c7160c68bc6c4b71da13abaf59a65229c9c4207d271528287b7913153"
+        }
+      ],
+      "operation_registre": "ajouter",
+      "usages_atlas": [
+        "villes_snapshot0",
+        "administration"
+      ]
+    },
+    {
+      "source_id": "src-v110-saintetienne-histoire",
+      "niveau": "B",
+      "type_source": "publication_institutionnelle",
+      "titre": "Préfecture",
+      "institution": "archives.saint-etienne.fr",
+      "url": "https://archives.saint-etienne.fr/histoires-stephanoises-1/tranches-dhistoire/edifices-administratifs/prefecture",
+      "date_consultation": "2026-10-16",
+      "cibles": [
+        "ville-fr-saint-etienne"
+      ],
+      "usage": [
+        "Rôle administratif historique de Saint-Étienne"
+      ],
+      "locator": "Archives municipales, transfert de 1856, bâtiment de 1902 et iconographie des années 1930–1947",
+      "resume_passage": "L'histoire municipale documente le transfert de la préfecture à Saint-Étienne en 1856, son nouveau bâtiment en 1902 et sa continuité au XXe siècle.",
+      "note": "Source lue avec les limites consignées dans la grille. Rétrospective sauf pièce reproduite ; aucune certification automatique du siège au jour exact.",
+      "verification_ether": {
+        "statut": "lu_avec_limites",
+        "date": "2026-10-16",
+        "mode": "Texte local relu et pages PDF utiles contrôlées ; pièces indexées ; aucune validation humaine déduite."
+      },
+      "preuves_ether": [
+        {
+          "fichier": "preuves/saintetienne-histoire.html",
+          "sha256": "544eb25ead9e54714f8c9f4e8702b0c63543c026d6eda3da9a3a593b84e24418"
+        },
+        {
+          "fichier": "preuves/saintetienne-histoire.txt",
+          "sha256": "99a159e5655529d129d838b242ddbdf626b45358d7adfd19136ed5ce957fa224"
+        }
+      ],
+      "operation_registre": "ajouter",
+      "usages_atlas": [
+        "villes_snapshot0",
+        "administration"
+      ]
+    },
+    {
+      "source_id": "src-v110-puy-histoire",
+      "niveau": "B",
+      "type_source": "publication_institutionnelle",
+      "titre": "Histoire de la préfecture -",
+      "institution": "www.haute-loire.gouv.fr",
+      "url": "https://www.haute-loire.gouv.fr/layout/set/print/Services-de-l-Etat/Prefecture-et-sous-prefectures/Prefecture-de-la-Haute-loire/Presentation-de-la-prefecture/Histoire-de-la-prefecture",
+      "date_consultation": "2026-10-16",
+      "cibles": [
+        "ville-fr-le-puy"
+      ],
+      "usage": [
+        "Rôle administratif historique de Le Puy"
+      ],
+      "locator": "Histoire de la préfecture, 1822–1824, aménagement de 1932",
+      "resume_passage": "Le bâtiment préfectoral du Puy est construit en 1822–1824 et modifié en 1932 ; continuité proposée avec la nomenclature de 1940. Le nom affiché reste Le Puy.",
+      "note": "Source lue avec les limites consignées dans la grille. Rétrospective sauf pièce reproduite ; aucune certification automatique du siège au jour exact.",
+      "verification_ether": {
+        "statut": "lu_avec_limites",
+        "date": "2026-10-16",
+        "mode": "Texte local relu et pages PDF utiles contrôlées ; pièces indexées ; aucune validation humaine déduite."
+      },
+      "preuves_ether": [
+        {
+          "fichier": "preuves/puy-histoire.html",
+          "sha256": "8bb5a1c3b8a395f2783192aa1b44b08796c07de95d5200ad206349fc27e67c5d"
+        },
+        {
+          "fichier": "preuves/puy-histoire.txt",
+          "sha256": "2aa7420869a158185ebfc4a962a93b87fe8605db593371e55b91531c868a7735"
+        }
+      ],
+      "operation_registre": "ajouter",
+      "usages_atlas": [
+        "villes_snapshot0",
+        "administration"
+      ]
+    },
+    {
+      "source_id": "src-v110-cahors-exposition",
+      "niveau": "B",
+      "type_source": "publication_institutionnelle",
+      "titre": "Dossier historique — Cahors",
+      "institution": "www.lot.gouv.fr",
+      "url": "https://www.lot.gouv.fr/contenu/telechargement/23584/176357/file/3.%20L'%C3%A9volution%20de%20la%20pr%C3%A9fecture.pdf",
+      "date_consultation": "2026-10-16",
+      "cibles": [
+        "ville-fr-cahors"
+      ],
+      "usage": [
+        "Rôle administratif historique de Cahors"
+      ],
+      "locator": "PDF p.3, partage du bâtiment pendant plus de deux siècles",
+      "resume_passage": "L'exposition officielle situe à Cahors le palais occupé par les institutions départementales et préfectorales depuis 1800, avec une continuité de plus de deux siècles.",
+      "note": "Source lue avec les limites consignées dans la grille. Rétrospective sauf pièce reproduite ; aucune certification automatique du siège au jour exact.",
+      "verification_ether": {
+        "statut": "lu_avec_limites",
+        "date": "2026-10-16",
+        "mode": "Texte local relu et pages PDF utiles contrôlées ; pièces indexées ; aucune validation humaine déduite."
+      },
+      "preuves_ether": [
+        {
+          "fichier": "preuves/cahors-exposition.pdf",
+          "sha256": "8b96623013e4c0732d8277c002ffec79f187cc4d96dce638b6efcd1cbd983c74"
+        },
+        {
+          "fichier": "preuves/cahors-exposition.txt",
+          "sha256": "7f6c7bf829dc2ffab31e3091aeac421fdceb1a2fe6954b17cb5375f0d6f99a03"
+        },
+        {
+          "fichier": "preuves/cahors-exposition_p3.png",
+          "sha256": "43953efc4c3b5373708b5bb090f3d33b27619ea23be94100ee71b6d88feeb10f"
+        }
+      ],
+      "operation_registre": "ajouter",
+      "usages_atlas": [
+        "villes_snapshot0",
+        "administration"
+      ]
+    },
+    {
+      "source_id": "src-v110-agen-histoire",
+      "niveau": "B",
+      "type_source": "publication_institutionnelle",
+      "titre": "La préfecture de Lot-et-Garonne ouvre ses portes pour les Journées Européennes du Patrimoine (JEP) -",
+      "institution": "www.lot-et-garonne.gouv.fr",
+      "url": "https://www.lot-et-garonne.gouv.fr/Publications/Salle-de-presse/Communiques-de-presse/2026/La-prefecture-de-Lot-et-Garonne-ouvre-ses-portes-pour-les-Journees-Europeennes-du-Patrimoine-JEP",
+      "date_consultation": "2026-10-16",
+      "cibles": [
+        "ville-fr-agen"
+      ],
+      "usage": [
+        "Rôle administratif historique de Agen"
+      ],
+      "locator": "Présentation historique du palais, installation en 1809",
+      "resume_passage": "L'annonce patrimoniale officielle rappelle l'installation de la préfecture dans le palais d'Agen en 1809 ; continuité proposée avec la nomenclature de 1940.",
+      "note": "Source lue avec les limites consignées dans la grille. Rétrospective sauf pièce reproduite ; aucune certification automatique du siège au jour exact.",
+      "verification_ether": {
+        "statut": "lu_avec_limites",
+        "date": "2026-10-16",
+        "mode": "Texte local relu et pages PDF utiles contrôlées ; pièces indexées ; aucune validation humaine déduite."
+      },
+      "preuves_ether": [
+        {
+          "fichier": "preuves/agen-histoire.html",
+          "sha256": "53bef4ecf42e7ec4de8b5111a30f3e6056ddb7e2bcba1ab9a0fdaa4999a96033"
+        },
+        {
+          "fichier": "preuves/agen-histoire.txt",
+          "sha256": "3f622b2e69fd9ab265ff90c57f9b71c581d10145b2e39dc71f5dd0b8ca3b7555"
+        }
+      ],
+      "operation_registre": "ajouter",
+      "usages_atlas": [
+        "villes_snapshot0",
+        "administration"
+      ]
+    },
+    {
+      "source_id": "src-v110-mende-resistance",
+      "niveau": "B",
+      "type_source": "publication_historique",
+      "titre": "Dossier historique — Mende",
+      "institution": "mende.fr",
+      "url": "https://mende.fr/app/uploads/sites/2/2022/12/brochure-resistance-web.pdf",
+      "date_consultation": "2026-10-16",
+      "cibles": [
+        "ville-fr-mende"
+      ],
+      "usage": [
+        "Rôle administratif historique de Mende"
+      ],
+      "locator": "PDF p.12, Urbain Paradis, 1941–juin 1944",
+      "resume_passage": "La brochure municipale situe les agents et bureaux de la préfecture de Lozère à Mende en 1941–1944 ; le statut après la Libération n'est pas détaillé.",
+      "note": "Source lue avec les limites consignées dans la grille. Rétrospective sauf pièce reproduite ; aucune certification automatique du siège au jour exact.",
+      "verification_ether": {
+        "statut": "lu_avec_limites",
+        "date": "2026-10-16",
+        "mode": "Texte local relu et pages PDF utiles contrôlées ; pièces indexées ; aucune validation humaine déduite."
+      },
+      "preuves_ether": [
+        {
+          "fichier": "preuves/mende-resistance.pdf",
+          "sha256": "ea5b8c39ec4c0f82bddb653d66d61ffae24a5411e359257d9037b62dc1497899"
+        },
+        {
+          "fichier": "preuves/mende-resistance.txt",
+          "sha256": "30d95c81f54ded1d7133aaf0e5e42a06d3f155774c381119eb274e8ea229edf0"
+        },
+        {
+          "fichier": "preuves/mende-resistance_p12.png",
+          "sha256": "beb8f89fb9e9c420dcbe3b9b5568addb9d4da961b76fad0558fc49206afc2ee8"
+        }
+      ],
+      "operation_registre": "ajouter",
+      "usages_atlas": [
+        "villes_snapshot0",
+        "administration"
+      ]
+    },
+    {
+      "source_id": "src-v110-angers-liberation",
+      "niveau": "B",
+      "type_source": "publication_institutionnelle",
+      "titre": "Jeudi 10 août 1944 - Archives départementales de Maine-et-Loire (49)",
+      "institution": "archives.maine-et-loire.fr",
+      "url": "https://archives.maine-et-loire.fr/tous-les-documents-du-moment/detail-dun-document/jeudi-10-aout-1944",
+      "date_consultation": "2026-10-16",
+      "cibles": [
+        "ville-fr-angers"
+      ],
+      "usage": [
+        "Rôle administratif historique de Angers"
+      ],
+      "locator": "Notice du 10 août 1944 ; AD49, 48 W 3 et 7 Fi 1497",
+      "resume_passage": "Les Archives de Maine-et-Loire décrivent l'installation des nouvelles autorités à la préfecture d'Angers le 10 août 1944 et la proclamation du commissaire Michel Debré.",
+      "note": "Source lue avec les limites consignées dans la grille. Rétrospective sauf pièce reproduite ; aucune certification automatique du siège au jour exact.",
+      "verification_ether": {
+        "statut": "lu_avec_limites",
+        "date": "2026-10-16",
+        "mode": "Texte local relu et pages PDF utiles contrôlées ; pièces indexées ; aucune validation humaine déduite."
+      },
+      "preuves_ether": [
+        {
+          "fichier": "preuves/angers-liberation.html",
+          "sha256": "5e989ef9477785beefb686d6f8a0f0d06ab2421a0bc9d8909bb5f5ea9810f3ea"
+        },
+        {
+          "fichier": "preuves/angers-liberation.txt",
+          "sha256": "43e55c5f9954b283ec9e23a0fb49930621d63472682f80d97377b356b23f49ee"
+        }
+      ],
+      "operation_registre": "ajouter",
+      "usages_atlas": [
+        "villes_snapshot0",
+        "administration"
+      ]
+    },
+    {
+      "source_id": "src-v110-chalons-affiche",
+      "niveau": "B",
+      "type_source": "publication_historique",
+      "titre": "Musée de la résistance en ligne",
+      "institution": "www.museedelaresistanceenligne.org",
+      "url": "https://www.museedelaresistanceenligne.org/media4082-Affiche-Rmois-Rmoises",
+      "date_consultation": "2026-10-16",
+      "cibles": [
+        "ville-fr-chalons-sur-marne"
+      ],
+      "usage": [
+        "Rôle administratif historique de Châlons-sur-Marne"
+      ],
+      "locator": "Contexte historique, installation de Raymond Jammes le 10 octobre 1944",
+      "resume_passage": "Le commentaire historique relie le rétablissement des autorités à Châlons-sur-Marne en août 1944 et l'installation de Jammes à la préfecture le 10 octobre.",
+      "note": "Source lue avec les limites consignées dans la grille. Rétrospective sauf pièce reproduite ; aucune certification automatique du siège au jour exact.",
+      "verification_ether": {
+        "statut": "lu_avec_limites",
+        "date": "2026-10-16",
+        "mode": "Texte local relu et pages PDF utiles contrôlées ; pièces indexées ; aucune validation humaine déduite."
+      },
+      "preuves_ether": [
+        {
+          "fichier": "preuves/chalons-affiche.html",
+          "sha256": "846313a1db1ca80f25d0b40d84851da5a5da1e281448bbea4552c650cb2c8d60"
+        },
+        {
+          "fichier": "preuves/chalons-affiche.txt",
+          "sha256": "79da71428709c40a732cc94069f3cd4a98fcaec6244773298fca140800037c7b"
+        }
+      ],
+      "operation_registre": "ajouter",
+      "usages_atlas": [
+        "villes_snapshot0",
+        "administration"
+      ]
+    },
+    {
+      "source_id": "src-v110-chaumont-liberation",
+      "niveau": "B",
+      "type_source": "publication_historique",
+      "titre": "Le 13 septembre 1944, Chaumont est libéré. - Chaumont",
+      "institution": "www.ville-chaumont.fr",
+      "url": "https://www.ville-chaumont.fr/actualites/le-13-septembre-1944-chaumont-est-libere/",
+      "date_consultation": "2026-10-16",
+      "cibles": [
+        "ville-fr-chaumont"
+      ],
+      "usage": [
+        "Rôle administratif historique de Chaumont"
+      ],
+      "locator": "Chronologie du 13 septembre 1944, 15 heures",
+      "resume_passage": "La chronologie municipale situe les véhicules de la 2e DB puis les autorités et cérémonies autour de la préfecture de Chaumont en septembre 1944.",
+      "note": "Source lue avec les limites consignées dans la grille. Rétrospective sauf pièce reproduite ; aucune certification automatique du siège au jour exact.",
+      "verification_ether": {
+        "statut": "lu_avec_limites",
+        "date": "2026-10-16",
+        "mode": "Texte local relu et pages PDF utiles contrôlées ; pièces indexées ; aucune validation humaine déduite."
+      },
+      "preuves_ether": [
+        {
+          "fichier": "preuves/chaumont-liberation.html",
+          "sha256": "d4e45503694bbe84a4d53b88ab3b51d3cbddc6a0aed18b8e9a6a0877f8d97f14"
+        },
+        {
+          "fichier": "preuves/chaumont-liberation.txt",
+          "sha256": "8577980e95008b9b9883be062692c7cfb72a747eb30c8ecbffb914052f0fb62c"
+        }
+      ],
+      "operation_registre": "ajouter",
+      "usages_atlas": [
+        "villes_snapshot0",
+        "administration"
+      ]
+    },
+    {
+      "source_id": "src-v110-laval-liberation",
+      "niveau": "B",
+      "type_source": "publication_institutionnelle",
+      "titre": "Il y a 75 ans, le général de Gaulle à Laval | Archives départementales 53",
+      "institution": "archives.lamayenne.fr",
+      "url": "https://archives.lamayenne.fr/article/il-y-75-ans-le-general-de-gaulle-laval",
+      "date_consultation": "2026-10-16",
+      "cibles": [
+        "ville-fr-laval"
+      ],
+      "usage": [
+        "Rôle administratif historique de Laval"
+      ],
+      "locator": "Visite de de Gaulle le 22 août 1944",
+      "resume_passage": "Les Archives de la Mayenne décrivent l'accueil par le préfet Dupérier et la réception à la préfecture de Laval le 22 août 1944.",
+      "note": "Source lue avec les limites consignées dans la grille. Rétrospective sauf pièce reproduite ; aucune certification automatique du siège au jour exact.",
+      "verification_ether": {
+        "statut": "lu_avec_limites",
+        "date": "2026-10-16",
+        "mode": "Texte local relu et pages PDF utiles contrôlées ; pièces indexées ; aucune validation humaine déduite."
+      },
+      "preuves_ether": [
+        {
+          "fichier": "preuves/laval-liberation.html",
+          "sha256": "dc1f8f76e85239fb1ce7a3aaac1d3776214b2bd650687ea933241d166dd17768"
+        },
+        {
+          "fichier": "preuves/laval-liberation.txt",
+          "sha256": "0b7200b054d372b45f8695dbc325a5a2d1073b759d3ec06dd8251080a5629e4b"
+        }
+      ],
+      "operation_registre": "ajouter",
+      "usages_atlas": [
+        "villes_snapshot0",
+        "administration"
+      ]
+    },
+    {
+      "source_id": "src-v110-barleduc-histoire",
+      "niveau": "B",
+      "type_source": "publication_institutionnelle",
+      "titre": "La préfecture -",
+      "institution": "www.meuse.gouv.fr",
+      "url": "https://www.meuse.gouv.fr/Services-de-l-Etat/Prefecture-et-sous-prefectures/La-Prefecture-de-la-Meuse/La-prefecture",
+      "date_consultation": "2026-10-16",
+      "cibles": [
+        "ville-fr-bar-le-duc"
+      ],
+      "usage": [
+        "Rôle administratif historique de Bar-le-Duc"
+      ],
+      "locator": "Historique, centre administratif au XIXe siècle, façade 1906, visite de 1950",
+      "resume_passage": "L'histoire officielle relie Bar-le-Duc aux locaux préfectoraux avant et après la guerre ; continuité proposée entre ces jalons, sans déduire l'adresse de chaque service en 1945.",
+      "note": "Source lue avec les limites consignées dans la grille. Rétrospective sauf pièce reproduite ; aucune certification automatique du siège au jour exact.",
+      "verification_ether": {
+        "statut": "lu_avec_limites",
+        "date": "2026-10-16",
+        "mode": "Texte local relu et pages PDF utiles contrôlées ; pièces indexées ; aucune validation humaine déduite."
+      },
+      "preuves_ether": [
+        {
+          "fichier": "preuves/barleduc-histoire.html",
+          "sha256": "46cc47cc3d80fd15a9448e4e62734c4e056eb5190dbc86526f83fdde1bd069b6"
+        },
+        {
+          "fichier": "preuves/barleduc-histoire.txt",
+          "sha256": "061f1a06ceac7f8d002479abe5d1569ffa34bdbe9c069c230b3845f9db3ec3ca"
+        }
+      ],
+      "operation_registre": "ajouter",
+      "usages_atlas": [
+        "villes_snapshot0",
+        "administration"
+      ]
+    },
+    {
+      "source_id": "src-v110-vannes-liberation",
+      "niveau": "B",
+      "type_source": "publication_institutionnelle",
+      "titre": "La libération du Morbihan",
+      "institution": "patrimoines-archives.morbihan.fr",
+      "url": "https://patrimoines-archives.morbihan.fr/decouvrir/instants-dhistoire/les-millesimes-du-patrimoine/la-liberation-du-morbihan",
+      "date_consultation": "2026-10-16",
+      "cibles": [
+        "ville-fr-vannes"
+      ],
+      "usage": [
+        "Rôle administratif historique de Vannes"
+      ],
+      "locator": "Libération du Morbihan, 4 août 1944",
+      "resume_passage": "La page des Archives du Morbihan décrit à Vannes le départ de Constant et l'installation de Jacques Onfroy comme préfet le 4 août 1944.",
+      "note": "Source lue avec les limites consignées dans la grille. Rétrospective sauf pièce reproduite ; aucune certification automatique du siège au jour exact.",
+      "verification_ether": {
+        "statut": "lu_avec_limites",
+        "date": "2026-10-16",
+        "mode": "Texte local relu et pages PDF utiles contrôlées ; pièces indexées ; aucune validation humaine déduite."
+      },
+      "preuves_ether": [
+        {
+          "fichier": "preuves/vannes-liberation.html",
+          "sha256": "4312299ad54198c1d5a1de600609ef9dea130e0135e6f13651413f4859fdfebe"
+        },
+        {
+          "fichier": "preuves/vannes-liberation.txt",
+          "sha256": "e865d7934a2956e98f436ece93e8de8dd08316f4d77ae4dd68fbdb5e13915ef6"
+        }
+      ],
+      "operation_registre": "ajouter",
+      "usages_atlas": [
+        "villes_snapshot0",
+        "administration"
+      ]
+    },
+    {
+      "source_id": "src-v110-nevers-prefecture",
+      "niveau": "B",
+      "type_source": "publication_historique",
+      "titre": "Jean Battut, François Mitterrand le Nivernais, 1946–1971. La conquête d’un fief, L’Harmattan, 2011",
+      "institution": "api.pageplace.de",
+      "url": "https://api.pageplace.de/preview/DT0400.9782296461680_A24236577/preview-9782296461680_A24236577.pdf",
+      "date_consultation": "2026-10-16",
+      "cibles": [
+        "ville-fr-nevers"
+      ],
+      "usage": [
+        "Rôle administratif historique de Nevers"
+      ],
+      "locator": "Jean Battut, François Mitterrand le Nivernais, 2011, p.28",
+      "resume_passage": "L'ouvrage décrit la prise de possession de la préfecture de Nevers par Jaquin à la Libération de septembre 1944 ; aucune date de contrôle militaire n'est encodée ici.",
+      "note": "Source lue avec les limites consignées dans la grille. Rétrospective sauf pièce reproduite ; aucune certification automatique du siège au jour exact.",
+      "verification_ether": {
+        "statut": "lu_avec_limites",
+        "date": "2026-10-16",
+        "mode": "Texte local relu et pages PDF utiles contrôlées ; pièces indexées ; aucune validation humaine déduite."
+      },
+      "preuves_ether": [
+        {
+          "fichier": "preuves/nevers-prefecture.pdf",
+          "sha256": "92aebc23b44a64711474b8d08de2a50b1c5aa7d7a036f851b5362fd4a4684d68"
+        },
+        {
+          "fichier": "preuves/nevers-prefecture.txt",
+          "sha256": "75fa855833d06a354f17821514c45e8799a3a06bb2931821cdfbce34ecbc067d"
+        },
+        {
+          "fichier": "preuves/nevers-prefecture_p28.png",
+          "sha256": "35cb783b45f05fbbdec42b63f9ea6ad2936a151b37ab602d4d059596fd3d1543"
+        }
+      ],
+      "operation_registre": "ajouter",
+      "usages_atlas": [
+        "villes_snapshot0",
+        "administration"
+      ]
+    },
+    {
+      "source_id": "src-v110-beauvais-liberation",
+      "niveau": "B",
+      "type_source": "publication_institutionnelle",
+      "titre": "Dossier historique — Beauvais",
+      "institution": "www.oise.gouv.fr",
+      "url": "https://www.oise.gouv.fr/contenu/telechargement/25050/169845/file/Les%2Bcommunes%2Bd%C3%A9cor%C3%A9es%2Bde%2Bl%27Oise%2Bde%2Bla%2Bcroix%2Bde%2Bguerre.pdf",
+      "date_consultation": "2026-10-16",
+      "cibles": [
+        "ville-fr-beauvais"
+      ],
+      "usage": [
+        "Rôle administratif historique de Beauvais"
+      ],
+      "locator": "PDF p.16, imprimée 14, résistance face à l'occupant",
+      "resume_passage": "La brochure officielle décrit Beauvais comme siège de la préfecture durant l'Occupation et des agents préfectoraux actifs jusqu'en 1944.",
+      "note": "Source lue avec les limites consignées dans la grille. Rétrospective sauf pièce reproduite ; aucune certification automatique du siège au jour exact.",
+      "verification_ether": {
+        "statut": "lu_avec_limites",
+        "date": "2026-10-16",
+        "mode": "Texte local relu et pages PDF utiles contrôlées ; pièces indexées ; aucune validation humaine déduite."
+      },
+      "preuves_ether": [
+        {
+          "fichier": "preuves/beauvais-liberation.pdf",
+          "sha256": "a72e5dfad876d6add0f32c79fffb8eab0d7989b0d6be306ab5eb515ca7de02a4"
+        },
+        {
+          "fichier": "preuves/beauvais-liberation.txt",
+          "sha256": "740dc109ee33ba209dade500fe08be5558dd2ec12604e1f5b649ab1294a81733"
+        },
+        {
+          "fichier": "preuves/beauvais-liberation_p16.png",
+          "sha256": "f1e8696ddc1785bb93e2187e24dfa6b83464556032139cfd171c8bd9e48e0624"
+        }
+      ],
+      "operation_registre": "ajouter",
+      "usages_atlas": [
+        "villes_snapshot0",
+        "administration"
+      ]
+    },
+    {
+      "source_id": "src-v110-alencon-liberation",
+      "niveau": "B",
+      "type_source": "publication_institutionnelle",
+      "titre": "La nomination de Robert Lécuyer, préfet de la République | Archives et patrimoine culturel de l'Orne",
+      "institution": "archives.orne.fr",
+      "url": "https://archives.orne.fr/document/la-nomination-de-robert-lecuyer-prefet-de-la-republique",
+      "date_consultation": "2026-10-16",
+      "cibles": [
+        "ville-fr-alencon"
+      ],
+      "usage": [
+        "Rôle administratif historique de Alençon"
+      ],
+      "locator": "Notice de l'arrêté du 15 août 1944, AD61 1 W 245",
+      "resume_passage": "La notice des Archives de l'Orne situe à Alençon la prise de fonctions du préfet Robert Lécuyer en août 1944 et décrit son arrêté de nomination.",
+      "note": "Source lue avec les limites consignées dans la grille. Rétrospective sauf pièce reproduite ; aucune certification automatique du siège au jour exact.",
+      "verification_ether": {
+        "statut": "lu_avec_limites",
+        "date": "2026-10-16",
+        "mode": "Texte local relu et pages PDF utiles contrôlées ; pièces indexées ; aucune validation humaine déduite."
+      },
+      "preuves_ether": [
+        {
+          "fichier": "preuves/alencon-liberation.html",
+          "sha256": "c28b411611275b37311e61f9f1027fcdc59687336dd19f6d66c76366d330ef52"
+        },
+        {
+          "fichier": "preuves/alencon-liberation.txt",
+          "sha256": "7187a1604439e5c5051d5b81efbd7935c413e8a228d879851a7c179e6b5867fd"
+        }
+      ],
+      "operation_registre": "ajouter",
+      "usages_atlas": [
+        "villes_snapshot0",
+        "administration"
+      ]
+    },
+    {
+      "source_id": "src-v110-arras-histoire",
+      "niveau": "B",
+      "type_source": "publication_institutionnelle",
+      "titre": "L'hôtel de la Préfecture -",
+      "institution": "www.pas-de-calais.gouv.fr",
+      "url": "https://www.pas-de-calais.gouv.fr/Services-de-l-Etat/Prefecture/Visite-guidee-de-la-Prefecture/L-hotel-de-la-Prefecture",
+      "date_consultation": "2026-10-16",
+      "cibles": [
+        "ville-fr-arras"
+      ],
+      "usage": [
+        "Rôle administratif historique de Arras"
+      ],
+      "locator": "Hôtel de la préfecture, dommages de 1914–1918 et nouveaux bureaux de 1965",
+      "resume_passage": "L'histoire du bâtiment préfectoral d'Arras fournit des jalons avant et après la Seconde Guerre mondiale ; continuité proposée avec la nomenclature de 1940.",
+      "note": "Source lue avec les limites consignées dans la grille. Rétrospective sauf pièce reproduite ; aucune certification automatique du siège au jour exact.",
+      "verification_ether": {
+        "statut": "lu_avec_limites",
+        "date": "2026-10-16",
+        "mode": "Texte local relu et pages PDF utiles contrôlées ; pièces indexées ; aucune validation humaine déduite."
+      },
+      "preuves_ether": [
+        {
+          "fichier": "preuves/arras-histoire.html",
+          "sha256": "d958334f73a4631d7ec7e70b2f59b220fcb7a0f901a86d1e1751f3b7fc54fb61"
+        },
+        {
+          "fichier": "preuves/arras-histoire.txt",
+          "sha256": "00f798d000524779016d61c9374d8320b9d128fd6fd35ebe334826f5d5ec1d50"
+        }
+      ],
+      "operation_registre": "ajouter",
+      "usages_atlas": [
+        "villes_snapshot0",
+        "administration"
+      ]
+    },
+    {
+      "source_id": "src-v110-clermont-liberation",
+      "niveau": "B",
+      "type_source": "publication_institutionnelle",
+      "titre": "Dossier historique — Clermont-Ferrand",
+      "institution": "pedagogie.ac-clermont.fr",
+      "url": "https://pedagogie.ac-clermont.fr/disciplines/histoire-geographie/wp-content/uploads/sites/3/2024/11/CNRD-2024-2025-AD-63.pdf",
+      "date_consultation": "2026-10-16",
+      "cibles": [
+        "ville-fr-clermont-ferrand"
+      ],
+      "usage": [
+        "Rôle administratif historique de Clermont-Ferrand"
+      ],
+      "locator": "PDF p.6, plan 1942–1944, AD63 900 W 51",
+      "resume_passage": "Le dossier pédagogique des Archives du Puy-de-Dôme identifie un plan du quartier de la préfecture de Clermont-Ferrand daté de 1942–1944 ; le plan détaillé n'a pas été relu séparément.",
+      "note": "Source lue avec les limites consignées dans la grille. Rétrospective sauf pièce reproduite ; aucune certification automatique du siège au jour exact.",
+      "verification_ether": {
+        "statut": "lu_avec_limites",
+        "date": "2026-10-16",
+        "mode": "Texte local relu et pages PDF utiles contrôlées ; pièces indexées ; aucune validation humaine déduite."
+      },
+      "preuves_ether": [
+        {
+          "fichier": "preuves/clermont-liberation.pdf",
+          "sha256": "fef31851edb30ae384dd83b497967aff64ecfdde39da154538bfd258cc821d18"
+        },
+        {
+          "fichier": "preuves/clermont-liberation.txt",
+          "sha256": "723a5a1438becc9342582356c6f9f3e749ce9e8937eae08e163e7e022fbada79"
+        },
+        {
+          "fichier": "preuves/clermont-liberation_p6.png",
+          "sha256": "31b6d0ce59b54d87c354db3d233d9fc91b39d112c871fcc0dbde71582e25cc88"
+        }
+      ],
+      "operation_registre": "ajouter",
+      "usages_atlas": [
+        "villes_snapshot0",
+        "administration"
+      ]
+    },
+    {
+      "source_id": "src-v110-tarbes-histoire",
+      "niveau": "B",
+      "type_source": "publication_institutionnelle",
+      "titre": "Du palais épiscopal à l'hôtel de la préfecture -",
+      "institution": "www.hautes-pyrenees.gouv.fr",
+      "url": "https://www.hautes-pyrenees.gouv.fr/layout/set/print/Services-de-l-Etat/Prefecture-et-sous-prefectures/Prefecture/Du-palais-episcopal-a-l-hotel-de-la-prefecture",
+      "date_consultation": "2026-10-16",
+      "cibles": [
+        "ville-fr-tarbes"
+      ],
+      "usage": [
+        "Rôle administratif historique de Tarbes"
+      ],
+      "locator": "Du palais épiscopal à l'hôtel, installation depuis 1800 et bâtiment des années 1930",
+      "resume_passage": "La page officielle indique une installation préfectorale à Tarbes depuis 1800, puis des transformations dans les années 1930 ; continuité historique explicitée par cette source.",
+      "note": "Source lue avec les limites consignées dans la grille. Rétrospective sauf pièce reproduite ; aucune certification automatique du siège au jour exact.",
+      "verification_ether": {
+        "statut": "lu_avec_limites",
+        "date": "2026-10-16",
+        "mode": "Texte local relu et pages PDF utiles contrôlées ; pièces indexées ; aucune validation humaine déduite."
+      },
+      "preuves_ether": [
+        {
+          "fichier": "preuves/tarbes-histoire.html",
+          "sha256": "b210a200a0e6a444798b1f4e0d36bb22be1b76c8c4e460b5be18bf6286f5a1c4"
+        },
+        {
+          "fichier": "preuves/tarbes-histoire.txt",
+          "sha256": "a42342e12d85b9d4f3e01c3d2df81efb1ec4969a27fb26da8cc96b8738a80370"
+        }
+      ],
+      "operation_registre": "ajouter",
+      "usages_atlas": [
+        "villes_snapshot0",
+        "administration"
+      ]
+    },
+    {
+      "source_id": "src-v110-auxerre-resistance",
+      "niveau": "B",
+      "type_source": "publication_institutionnelle",
+      "titre": "CNRD 2024–2025, Libérer et refonder la France — brochure Bourgogne–Franche-Comté",
+      "institution": "hg.ac-besancon.fr",
+      "url": "https://hg.ac-besancon.fr/wp-content/uploads/sites/63/2024/11/Brochure2025v2.pdf",
+      "date_consultation": "2026-10-16",
+      "cibles": [
+        "ville-fr-auxerre",
+        "ville-fr-macon",
+        "ville-fr-vesoul"
+      ],
+      "usage": [
+        "Rôle administratif historique de Vesoul",
+        "Rôle administratif historique de Mâcon",
+        "Rôle administratif historique de Auxerre"
+      ],
+      "locator": "PDF p.49, arrêté du 4 octobre 1944, AD70 216 W 23 ; PDF p.34, Le Petit Mâconnais du 4 septembre 1944 ; PDF p.13, lettre du 16 juin 1944, AD89 1 W 155",
+      "resume_passage": "Le fac-similé montre un arrêté du préfet de Haute-Saône daté à Vesoul du 4 octobre 1944 ; le commentaire situe l'installation de Thomassin en septembre. Le journal reproduit annonce l'exercice des fonctions de préfet de Saône-et-Loire par Drevon à Mâcon en septembre 1944. Le fac-similé porte l'en-tête du cabinet du préfet de l'Yonne et la date d'Auxerre du 16 juin 1944.",
+      "note": "Source lue avec les limites consignées dans la grille. Rétrospective sauf pièce reproduite ; aucune certification automatique du siège au jour exact.",
+      "verification_ether": {
+        "statut": "lu_avec_limites",
+        "date": "2026-10-16",
+        "mode": "Texte local relu et pages PDF utiles contrôlées ; pièces indexées ; aucune validation humaine déduite."
+      },
+      "preuves_ether": [
+        {
+          "fichier": "preuves/auxerre-resistance.pdf",
+          "sha256": "9c0cb0089f6ff6d5a2b2ef1bed9f9353d367de8552c37c80ab3058f44943ce78"
+        },
+        {
+          "fichier": "preuves/auxerre-resistance.txt",
+          "sha256": "9c935a855ff114f8b8b9284746009690c1f101e7745c889731e155aa2a125c9e"
+        },
+        {
+          "fichier": "preuves/auxerre-resistance_p13.png",
+          "sha256": "40ea512d3b1d75e9140907d4906e19ae0dd5e4f2e16707495dead313dc7ac779"
+        },
+        {
+          "fichier": "preuves/auxerre-resistance_p34.png",
+          "sha256": "142bfbc1a3c93ccd836b65e5f14e2d7f046b6b7971784ff261407d7c18e256ea"
+        },
+        {
+          "fichier": "preuves/auxerre-resistance_p49.png",
+          "sha256": "77c5fb073d047b69d4de92de764d4fd3cb00e3decd9e604050229a03e01a8476"
+        }
+      ],
+      "operation_registre": "ajouter",
+      "usages_atlas": [
+        "villes_snapshot0",
+        "administration"
+      ]
+    },
+    {
+      "source_id": "src-v110-chambery-liberation",
+      "niveau": "B",
+      "type_source": "publication_historique",
+      "titre": "Dossier historique — Chambéry",
+      "institution": "www.chambery.fr",
+      "url": "https://www.chambery.fr/264-les-publications.htm?readFile=500",
+      "date_consultation": "2026-10-16",
+      "cibles": [
+        "ville-fr-chambery"
+      ],
+      "usage": [
+        "Rôle administratif historique de Chambéry"
+      ],
+      "locator": "PDF p.1, encart Hôtel de ville — Chambéry se relève",
+      "resume_passage": "L'encart des archives municipales décrit la préfecture de Chambéry investie par la Résistance le 23 août 1944 ; les transformations postérieures ne sont pas anticipées.",
+      "note": "Source lue avec les limites consignées dans la grille. Rétrospective sauf pièce reproduite ; aucune certification automatique du siège au jour exact.",
+      "verification_ether": {
+        "statut": "lu_avec_limites",
+        "date": "2026-10-16",
+        "mode": "Texte local relu et pages PDF utiles contrôlées ; pièces indexées ; aucune validation humaine déduite."
+      },
+      "preuves_ether": [
+        {
+          "fichier": "preuves/chambery-liberation.pdf",
+          "sha256": "623989d208cab4d8ba30300cff8a8f4cef7e09f7a0be8db5f08c34cd5ad5425e"
+        },
+        {
+          "fichier": "preuves/chambery-liberation.txt",
+          "sha256": "4deb98dfaeeaf8e1694f5b8d0b895be0989f954af4ce2aa9fac1f019129b427b"
+        },
+        {
+          "fichier": "preuves/chambery-liberation_p1.png",
+          "sha256": "9e89825a9f67d88dd210c5fe37390518fa5ea34e2925c5c0d1b3e41840092ef8"
+        }
+      ],
+      "operation_registre": "ajouter",
+      "usages_atlas": [
+        "villes_snapshot0",
+        "administration"
+      ]
+    },
+    {
+      "source_id": "src-v110-melun-liberation",
+      "niveau": "B",
+      "type_source": "publication_institutionnelle",
+      "titre": "La Libération de la Seine-et-Marne du 20 au 29 août 1944 | Archives départementales de Seine-et-Marne",
+      "institution": "archives.seine-et-marne.fr",
+      "url": "https://archives.seine-et-marne.fr/fr/la-liberation-de-la-seine-et-marne-du-20-au-29-aout-1944",
+      "date_consultation": "2026-10-16",
+      "cibles": [
+        "ville-fr-melun"
+      ],
+      "usage": [
+        "Rôle administratif historique de Melun"
+      ],
+      "locator": "Libération du sud de la Seine-et-Marne, 25 et 29 août 1944",
+      "resume_passage": "Les Archives décrivent la maîtrise de la préfecture de Melun le 25 août 1944 puis l'arrivée du préfet Jean Latour le 29.",
+      "note": "Source lue avec les limites consignées dans la grille. Rétrospective sauf pièce reproduite ; aucune certification automatique du siège au jour exact.",
+      "verification_ether": {
+        "statut": "lu_avec_limites",
+        "date": "2026-10-16",
+        "mode": "Texte local relu et pages PDF utiles contrôlées ; pièces indexées ; aucune validation humaine déduite."
+      },
+      "preuves_ether": [
+        {
+          "fichier": "preuves/melun-liberation.html",
+          "sha256": "d0d35f007024d3348b9dc124a5eefb98117bac3802ef055c4b88c0ef17d4954a"
+        },
+        {
+          "fichier": "preuves/melun-liberation.txt",
+          "sha256": "949a21d48f4b70780280f26718237c6d80416a93dd32f05423894e267e74fe1d"
+        }
+      ],
+      "operation_registre": "ajouter",
+      "usages_atlas": [
+        "villes_snapshot0",
+        "administration"
+      ]
+    },
+    {
+      "source_id": "src-v110-niort-liberation",
+      "niveau": "B",
+      "type_source": "publication_historique",
+      "titre": "Les années héroïques - Résistance, répression et libération à NIORT - Niort Marais Poitevin Tourisme",
+      "institution": "www.niortmaraispoitevin.com",
+      "url": "https://www.niortmaraispoitevin.com/circuits-et-randonnees/les-annees-heroiques-resistance-repression-et-liberation/",
+      "date_consultation": "2026-10-16",
+      "cibles": [
+        "ville-fr-niort"
+      ],
+      "usage": [
+        "Rôle administratif historique de Niort"
+      ],
+      "locator": "Circuit, étapes 10 et 11, mai et septembre 1944",
+      "resume_passage": "Le circuit historique local décrit la préfecture clandestine de Hudeley à Niort puis son accueil à la préfecture lors du défilé du 6 septembre 1944.",
+      "note": "Source lue avec les limites consignées dans la grille. Rétrospective sauf pièce reproduite ; aucune certification automatique du siège au jour exact.",
+      "verification_ether": {
+        "statut": "lu_avec_limites",
+        "date": "2026-10-16",
+        "mode": "Texte local relu et pages PDF utiles contrôlées ; pièces indexées ; aucune validation humaine déduite."
+      },
+      "preuves_ether": [
+        {
+          "fichier": "preuves/niort-liberation.html",
+          "sha256": "c21fc73dfead0b450214ac4a1cd704ebaae59a5cd41fcaeba21a32ee19a4f4e4"
+        },
+        {
+          "fichier": "preuves/niort-liberation.txt",
+          "sha256": "6a737b50e75353c5ae8d012b73de8d1f5a4b03cc8a54e28f0407cfed142a9cfc"
+        }
+      ],
+      "operation_registre": "ajouter",
+      "usages_atlas": [
+        "villes_snapshot0",
+        "administration"
+      ]
+    },
+    {
+      "source_id": "src-v110-amiens-liberation",
+      "niveau": "B",
+      "type_source": "publication_historique",
+      "titre": "La Libération d'Amiens, 31 août 1944             - Amiens Métropole",
+      "institution": "www.amiens.fr",
+      "url": "https://www.amiens.fr/Vivre-a-Amiens/Culture-Patrimoine/Les-Archives-municipales-et-communautaires/Tresors-d-Archives/Tresors-d-archives/La-Liberation-d-Amiens-31-aout-1944",
+      "date_consultation": "2026-10-16",
+      "cibles": [
+        "ville-fr-amiens"
+      ],
+      "usage": [
+        "Rôle administratif historique de Amiens"
+      ],
+      "locator": "Chronologie du 31 août 1944, 7 heures",
+      "resume_passage": "Les Archives municipales situent la libération de la préfecture et de l'hôtel de ville d'Amiens le 31 août 1944 à 7 heures.",
+      "note": "Source lue avec les limites consignées dans la grille. Rétrospective sauf pièce reproduite ; aucune certification automatique du siège au jour exact.",
+      "verification_ether": {
+        "statut": "lu_avec_limites",
+        "date": "2026-10-16",
+        "mode": "Texte local relu et pages PDF utiles contrôlées ; pièces indexées ; aucune validation humaine déduite."
+      },
+      "preuves_ether": [
+        {
+          "fichier": "preuves/amiens-liberation.html",
+          "sha256": "38bfae75a12ff986e01c901b9184768c2a92e7b0c4ceeb4ad20891dd0b160abc"
+        },
+        {
+          "fichier": "preuves/amiens-liberation.txt",
+          "sha256": "74f763946376f945b797d05a52ec987152ff2199bd977242229dd7457f88d013"
+        }
+      ],
+      "operation_registre": "ajouter",
+      "usages_atlas": [
+        "villes_snapshot0",
+        "administration"
+      ]
+    },
+    {
+      "source_id": "src-v110-albi-prefet",
+      "niveau": "B",
+      "type_source": "publication_institutionnelle",
+      "titre": "Après la Libération, Alfred fait une demande d'aide en tant que réfugié | Archives et patrimoine culturel de l'Orne",
+      "institution": "archives.orne.fr",
+      "url": "https://archives.orne.fr/document/apres-la-liberation-alfred-fait-une-demande-daide-en-tant-que-refugie",
+      "date_consultation": "2026-10-16",
+      "cibles": [
+        "ville-fr-albi"
+      ],
+      "usage": [
+        "Rôle administratif historique de Albi"
+      ],
+      "locator": "Transcription de la lettre du 31 octobre 1944, AD81 348 W 509",
+      "resume_passage": "La lettre d'Alfred Kahn du 31 octobre 1944 est adressée au préfet du Tarn à Albi ; la transcription est publiée par les Archives de l'Orne.",
+      "note": "Source lue avec les limites consignées dans la grille. Rétrospective sauf pièce reproduite ; aucune certification automatique du siège au jour exact.",
+      "verification_ether": {
+        "statut": "lu_avec_limites",
+        "date": "2026-10-16",
+        "mode": "Texte local relu et pages PDF utiles contrôlées ; pièces indexées ; aucune validation humaine déduite."
+      },
+      "preuves_ether": [
+        {
+          "fichier": "preuves/albi-prefet.html",
+          "sha256": "76b6649e6872b1eacfb165f26dfb1fd2c6c50d818c67456478ad69ab8deed5ee"
+        },
+        {
+          "fichier": "preuves/albi-prefet.txt",
+          "sha256": "687fd9c32c6fd03554b182ffc288bcbdcc2b088e97119a95cd3bce3cff5fa734"
+        }
+      ],
+      "operation_registre": "ajouter",
+      "usages_atlas": [
+        "villes_snapshot0",
+        "administration"
+      ]
+    },
+    {
+      "source_id": "src-v110-montauban-institutions",
+      "niveau": "B",
+      "type_source": "publication_historique",
+      "titre": "﻿",
+      "institution": "resistance82.fr",
+      "url": "https://resistance82.fr/des-feux-mal-eteints/",
+      "date_consultation": "2026-10-16",
+      "cibles": [
+        "ville-fr-montauban"
+      ],
+      "usage": [
+        "Rôle administratif historique de Montauban"
+      ],
+      "locator": "Des feux mal éteints, paragraphe initial, 25 août 1944",
+      "resume_passage": "L'extrait historique publié par l'association de mémoire du Tarn-et-Garonne situe l'installation du comité départemental de Libération avec le nouveau préfet à la préfecture le 25 août 1944.",
+      "note": "Source lue avec les limites consignées dans la grille. Rétrospective sauf pièce reproduite ; aucune certification automatique du siège au jour exact.",
+      "verification_ether": {
+        "statut": "lu_avec_limites",
+        "date": "2026-10-16",
+        "mode": "Texte local relu et pages PDF utiles contrôlées ; pièces indexées ; aucune validation humaine déduite."
+      },
+      "preuves_ether": [
+        {
+          "fichier": "preuves/montauban-institutions.html",
+          "sha256": "baee4fd01014774daef0616f87b50be782e4ba0eac2af6ca076cf6184f46aa1a"
+        },
+        {
+          "fichier": "preuves/montauban-institutions.txt",
+          "sha256": "1619d2e78d570b36fd6add119f830c7eb275727f8b813ffba2ce9d6178e1311f"
+        }
+      ],
+      "operation_registre": "ajouter",
+      "usages_atlas": [
+        "villes_snapshot0",
+        "administration"
+      ]
+    },
+    {
+      "source_id": "src-v110-draguignan-1974",
+      "niveau": "B",
+      "type_source": "publication_historique",
+      "titre": "Transfert de la préfecture, 50 ans plus tard - Ville de Draguignan",
+      "institution": "www.ville-draguignan.fr",
+      "url": "https://www.ville-draguignan.fr/actualites/transfert-de-la-prefecture-50-ans-plus-tard/",
+      "date_consultation": "2026-10-16",
+      "cibles": [
+        "ville-fr-draguignan"
+      ],
+      "usage": [
+        "Rôle administratif historique de Draguignan"
+      ],
+      "locator": "Exposition municipale, transfert décidé le 4 décembre 1974 et effectif le 1er janvier 1975",
+      "resume_passage": "Le récit municipal du transfert tardif vers Toulon recoupe Draguignan dans la nomenclature de 1940 ; la continuité avant ce transfert est proposée. Aucun transfert de 1975 n'est anticipé.",
+      "note": "Source lue avec les limites consignées dans la grille. Rétrospective sauf pièce reproduite ; aucune certification automatique du siège au jour exact.",
+      "verification_ether": {
+        "statut": "lu_avec_limites",
+        "date": "2026-10-16",
+        "mode": "Texte local relu et pages PDF utiles contrôlées ; pièces indexées ; aucune validation humaine déduite."
+      },
+      "preuves_ether": [
+        {
+          "fichier": "preuves/draguignan-1974.html",
+          "sha256": "f8392ce06b443c00935c4e02c313e8ec23099ddab78934fa99c3e25c4ca4ff9d"
+        },
+        {
+          "fichier": "preuves/draguignan-1974.txt",
+          "sha256": "d189da17b12ae6c2676ef9e53659609a9a178b563e801b3274fcd46a6987437d"
+        }
+      ],
+      "operation_registre": "ajouter",
+      "usages_atlas": [
+        "villes_snapshot0",
+        "administration"
+      ]
+    },
+    {
+      "source_id": "src-v110-avignon-liberation",
+      "niveau": "B",
+      "type_source": "publication_historique",
+      "titre": "Avignon, ville libérée ! – Memento",
+      "institution": "memento.vaucluse.fr",
+      "url": "https://memento.vaucluse.fr/toutes-les-ressources/avignon-ville-liberee",
+      "date_consultation": "2026-10-16",
+      "cibles": [
+        "ville-fr-avignon"
+      ],
+      "usage": [
+        "Rôle administratif historique de Avignon"
+      ],
+      "locator": "Les zones à éviter, communiqué préfectoral du 24 août 1944",
+      "resume_passage": "La page des Archives de Vaucluse évoque un communiqué préfectoral encadrant les déplacements à Avignon le 24 août 1944 ; aucune liberté de circulation ultérieure n'est déduite.",
+      "note": "Source lue avec les limites consignées dans la grille. Rétrospective sauf pièce reproduite ; aucune certification automatique du siège au jour exact.",
+      "verification_ether": {
+        "statut": "lu_avec_limites",
+        "date": "2026-10-16",
+        "mode": "Texte local relu et pages PDF utiles contrôlées ; pièces indexées ; aucune validation humaine déduite."
+      },
+      "preuves_ether": [
+        {
+          "fichier": "preuves/avignon-liberation.html",
+          "sha256": "810e35bf90b736ebb3cd1e312637c47197c760f18829953e6f2334c8b144838a"
+        },
+        {
+          "fichier": "preuves/avignon-liberation.txt",
+          "sha256": "32edda7cde5ec71627d7c0ce5b2ad7d46697cb1428a6c5b84c25b32e491edd53"
+        }
+      ],
+      "operation_registre": "ajouter",
+      "usages_atlas": [
+        "villes_snapshot0",
+        "administration"
+      ]
+    },
+    {
+      "source_id": "src-v110-rochesuryon-martin",
+      "niveau": "B",
+      "type_source": "publication_historique",
+      "titre": "Léon Martin - Résistance et Déportation - Vendée",
+      "institution": "vendeeresistance.fr",
+      "url": "https://vendeeresistance.fr/documents/leon-martin/",
+      "date_consultation": "2026-10-16",
+      "cibles": [
+        "ville-fr-la-roche-sur-yon"
+      ],
+      "usage": [
+        "Rôle administratif historique de La Roche-sur-Yon"
+      ],
+      "locator": "Notice Léon Martin, mandat du 17 septembre 1944 au 14 juillet 1945",
+      "resume_passage": "La notice mémorielle situe le mandat préfectoral de Léon Martin entre septembre 1944 et juillet 1945 ; le rapprochement local avec La Roche-sur-Yon est complété par le récit municipal de sa Libération et la nomenclature de 1940.",
+      "note": "Source lue avec les limites consignées dans la grille. Rétrospective sauf pièce reproduite ; aucune certification automatique du siège au jour exact.",
+      "verification_ether": {
+        "statut": "lu_avec_limites",
+        "date": "2026-10-16",
+        "mode": "Texte local relu et pages PDF utiles contrôlées ; pièces indexées ; aucune validation humaine déduite."
+      },
+      "preuves_ether": [
+        {
+          "fichier": "preuves/rochesuryon-martin.html",
+          "sha256": "2bae7178ad2be506cc106ffe6624cf50943057d2ad9dc689e13a51b596ddedfb"
+        },
+        {
+          "fichier": "preuves/rochesuryon-martin.txt",
+          "sha256": "30748d6f15bc803d2cd3b8dcedac7e8389b6fd268840df28d7c076c9ec933ac9"
+        }
+      ],
+      "operation_registre": "ajouter",
+      "usages_atlas": [
+        "villes_snapshot0",
+        "administration"
+      ]
+    },
+    {
+      "source_id": "src-v110-rochesuryon-liberation",
+      "niveau": "B",
+      "type_source": "publication_historique",
+      "titre": "Septembre 1944… La Roche-sur-Yon libérée | La Roche-sur-Yon – Ville et Agglomération",
+      "institution": "larochesuryon.fr",
+      "url": "https://larochesuryon.fr/actualites/septembre-1944-la-roche-sur-yon-liberee/",
+      "date_consultation": "2026-10-16",
+      "cibles": [
+        "ville-fr-la-roche-sur-yon"
+      ],
+      "usage": [
+        "Rôle administratif historique de La Roche-sur-Yon"
+      ],
+      "locator": "Histoire locale ; complément au document principal",
+      "resume_passage": "Complément local au rapprochement documenté dans la grille.",
+      "note": "Source lue avec les limites consignées dans la grille. Rétrospective sauf pièce reproduite ; aucune certification automatique du siège au jour exact.",
+      "verification_ether": {
+        "statut": "lu_avec_limites",
+        "date": "2026-10-16",
+        "mode": "Texte local relu et pages PDF utiles contrôlées ; pièces indexées ; aucune validation humaine déduite."
+      },
+      "preuves_ether": [
+        {
+          "fichier": "preuves/rochesuryon-liberation.html",
+          "sha256": "10b19cd3d4ac16788ceb2a2ef83d6435fcf9b3ec4cac71649f8fdab9a3be5e00"
+        },
+        {
+          "fichier": "preuves/rochesuryon-liberation.txt",
+          "sha256": "69817184b6100063abab57a8687e51ac3f23912d1642c37a2743641aef307c90"
+        }
+      ],
+      "operation_registre": "ajouter",
+      "usages_atlas": [
+        "villes_snapshot0",
+        "administration"
+      ]
+    },
+    {
+      "source_id": "src-v110-epinal-liberation",
+      "niveau": "B",
+      "type_source": "publication_historique",
+      "titre": "Dossier historique — Épinal",
+      "institution": "www.epinal.fr",
+      "url": "https://www.epinal.fr/wp-content/uploads/2020/12/panneaux-expo-archives-90x70-cm-x7bassedef.pdf",
+      "date_consultation": "2026-10-16",
+      "cibles": [
+        "ville-fr-epinal"
+      ],
+      "usage": [
+        "Rôle administratif historique de Épinal"
+      ],
+      "locator": "PDF p.9, Les hommes du renouveau, septembre 1944",
+      "resume_passage": "Le panneau municipal attribue au préfet Parisot la réorganisation de l'administration d'Épinal à la Libération de septembre 1944.",
+      "note": "Source lue avec les limites consignées dans la grille. Rétrospective sauf pièce reproduite ; aucune certification automatique du siège au jour exact.",
+      "verification_ether": {
+        "statut": "lu_avec_limites",
+        "date": "2026-10-16",
+        "mode": "Texte local relu et pages PDF utiles contrôlées ; pièces indexées ; aucune validation humaine déduite."
+      },
+      "preuves_ether": [
+        {
+          "fichier": "preuves/epinal-liberation.pdf",
+          "sha256": "99ca3825fa3e9521d869a2a15f35180e49b850517a7f334401f68e68e3e7ee50"
+        },
+        {
+          "fichier": "preuves/epinal-liberation.txt",
+          "sha256": "badf81e13465ec98d7faebef7d93557fb6c88d949cf75712ba11d88894cbece0"
+        },
+        {
+          "fichier": "preuves/epinal-liberation_p9.png",
+          "sha256": "42ee5de209f37b359a4a20e87aea45bb42cdb30a537ceb54b3693f1e84476e84"
+        }
+      ],
+      "operation_registre": "ajouter",
+      "usages_atlas": [
+        "villes_snapshot0",
+        "administration"
+      ]
+    },
+    {
+      "source_id": "src-v110-belfort-liberation",
+      "niveau": "B",
+      "type_source": "publication_institutionnelle",
+      "titre": "Les derniers jours de la Seconde Guerre mondiale à Belfort – Clés pour l'histoire, ressources de Bourgogne-Franche-Comté",
+      "institution": "clespourlhistoire.ac-besancon.fr",
+      "url": "https://clespourlhistoire.ac-besancon.fr/les-derniers-jours-de-la-seconde-guerre-mondiale-a-belfort/",
+      "date_consultation": "2026-10-16",
+      "cibles": [
+        "ville-fr-belfort"
+      ],
+      "usage": [
+        "Rôle administratif historique de Belfort"
+      ],
+      "locator": "Notice de l'affiche du 20 novembre 1944, AD90 11 Fi",
+      "resume_passage": "La notice décrit l'installation secrète de Laumet à Belfort le 1er novembre 1944 et sa proclamation préfectorale du 20 novembre. Le contrôle territorial n'est pas déduit de sa seule présence.",
+      "note": "Source lue avec les limites consignées dans la grille. Rétrospective sauf pièce reproduite ; aucune certification automatique du siège au jour exact.",
+      "verification_ether": {
+        "statut": "lu_avec_limites",
+        "date": "2026-10-16",
+        "mode": "Texte local relu et pages PDF utiles contrôlées ; pièces indexées ; aucune validation humaine déduite."
+      },
+      "preuves_ether": [
+        {
+          "fichier": "preuves/belfort-liberation.html",
+          "sha256": "7a7cc2dc0c134b340a6da9b1a6cfa1f5e875df096eb30a94cf58e2e15e6da1ba"
+        },
+        {
+          "fichier": "preuves/belfort-liberation.txt",
+          "sha256": "ce1335e62ab12b8e3b9438378b25543dc3abc1b26ee516c3ee9111b275f7fd67"
+        }
+      ],
+      "operation_registre": "ajouter",
+      "usages_atlas": [
+        "villes_snapshot0",
+        "administration"
+      ]
+    },
+    {
+      "source_id": "src-trfgis-departements-1940",
+      "niveau": "B",
+      "type_source": "publication_institutionnelle",
+      "titre": "TRF-GIS Départements (1870–1940), version 2.4, millésime 1940",
+      "institution": "Victor Gay / Toulouse School of Economics / Harvard Dataverse",
+      "url": "https://doi.org/10.7910/DVN/ULQYM5",
+      "date_consultation": "2026-10-11",
+      "periode_couverte": [],
+      "zones": [
+        "FR"
+      ],
+      "usages_atlas": [
+        "Nomenclature, chefs-lieux et géométries de référence 1940 ; base de reconstruction, pas preuve directe de 1945.",
+        "Licence CC BY 4.0 confirmée par les conditions Dataverse et README."
+      ],
+      "cibles": [
+        "subdivision-fr-ain",
+        "subdivision-fr-aisne",
+        "subdivision-fr-allier",
+        "subdivision-fr-alpes-de-haute-provence",
+        "subdivision-fr-alpes-maritimes",
+        "subdivision-fr-ardeche",
+        "subdivision-fr-ardennes",
+        "subdivision-fr-ariege",
+        "subdivision-fr-aube",
+        "subdivision-fr-aude",
+        "subdivision-fr-aveyron",
+        "subdivision-fr-bas-rhin",
+        "subdivision-fr-bouches-du-rhone",
+        "subdivision-fr-calvados",
+        "subdivision-fr-cantal",
+        "subdivision-fr-charente",
+        "subdivision-fr-charente-maritime",
+        "subdivision-fr-cher",
+        "subdivision-fr-commissariat-angers",
+        "subdivision-fr-commissariat-bordeaux",
+        "subdivision-fr-commissariat-chalons-sur-marne",
+        "subdivision-fr-commissariat-clermont-ferrand",
+        "subdivision-fr-commissariat-dijon",
+        "subdivision-fr-commissariat-laon",
+        "subdivision-fr-commissariat-lille",
+        "subdivision-fr-commissariat-limoges",
+        "subdivision-fr-commissariat-lyon",
+        "subdivision-fr-commissariat-marseille",
+        "subdivision-fr-commissariat-montpellier",
+        "subdivision-fr-commissariat-nancy",
+        "subdivision-fr-commissariat-orleans",
+        "subdivision-fr-commissariat-poitiers",
+        "subdivision-fr-commissariat-rennes",
+        "subdivision-fr-commissariat-rouen",
+        "subdivision-fr-commissariat-strasbourg",
+        "subdivision-fr-commissariat-toulouse",
+        "subdivision-fr-correze",
+        "subdivision-fr-corse",
+        "subdivision-fr-cote-d-or",
+        "subdivision-fr-cotes-darmor",
+        "subdivision-fr-creuse",
+        "subdivision-fr-deux-sevres",
+        "subdivision-fr-dordogne",
+        "subdivision-fr-doubs",
+        "subdivision-fr-drome",
+        "subdivision-fr-eure",
+        "subdivision-fr-eure-et-loir",
+        "subdivision-fr-finistere",
+        "subdivision-fr-gard",
+        "subdivision-fr-gers",
+        "subdivision-fr-gironde",
+        "subdivision-fr-haut-rhin",
+        "subdivision-fr-haute-garonne",
+        "subdivision-fr-haute-loire",
+        "subdivision-fr-haute-marne",
+        "subdivision-fr-haute-saone",
+        "subdivision-fr-haute-savoie",
+        "subdivision-fr-haute-vienne",
+        "subdivision-fr-hautes-alpes",
+        "subdivision-fr-hautes-pyrenees",
+        "subdivision-fr-herault",
+        "subdivision-fr-ille-et-vilaine",
+        "subdivision-fr-indre",
+        "subdivision-fr-indre-et-loire",
+        "subdivision-fr-isere",
+        "subdivision-fr-jura",
+        "subdivision-fr-landes",
+        "subdivision-fr-loir-et-cher",
+        "subdivision-fr-loire",
+        "subdivision-fr-loire-atlantique",
+        "subdivision-fr-loiret",
+        "subdivision-fr-lot",
+        "subdivision-fr-lot-et-garonne",
+        "subdivision-fr-lozere",
+        "subdivision-fr-maine-et-loire",
+        "subdivision-fr-manche",
+        "subdivision-fr-marne",
+        "subdivision-fr-mayenne",
+        "subdivision-fr-meurthe-et-moselle",
+        "subdivision-fr-meuse",
+        "subdivision-fr-morbihan",
+        "subdivision-fr-moselle",
+        "subdivision-fr-nievre",
+        "subdivision-fr-nord",
+        "subdivision-fr-oise",
+        "subdivision-fr-orne",
+        "subdivision-fr-pas-de-calais",
+        "subdivision-fr-puy-de-dome",
+        "subdivision-fr-pyrenees-atlantiques",
+        "subdivision-fr-pyrenees-orientales",
+        "subdivision-fr-rhone",
+        "subdivision-fr-saone-et-loire",
+        "subdivision-fr-sarthe",
+        "subdivision-fr-savoie",
+        "subdivision-fr-seine",
+        "subdivision-fr-seine-et-marne",
+        "subdivision-fr-seine-et-oise",
+        "subdivision-fr-seine-maritime",
+        "subdivision-fr-somme",
+        "subdivision-fr-tarn",
+        "subdivision-fr-tarn-et-garonne",
+        "subdivision-fr-territoire-de-belfort",
+        "subdivision-fr-var",
+        "subdivision-fr-vaucluse",
+        "subdivision-fr-vendee",
+        "subdivision-fr-vienne",
+        "subdivision-fr-vosges",
+        "subdivision-fr-yonne",
+        "ville-fr-agen",
+        "ville-fr-albi",
+        "ville-fr-alencon",
+        "ville-fr-amiens",
+        "ville-fr-angers",
+        "ville-fr-angouleme",
+        "ville-fr-arras",
+        "ville-fr-auch",
+        "ville-fr-aurillac",
+        "ville-fr-auxerre",
+        "ville-fr-avignon",
+        "ville-fr-bar-le-duc",
+        "ville-fr-beauvais",
+        "ville-fr-belfort",
+        "ville-fr-besancon",
+        "ville-fr-blois",
+        "ville-fr-bourg",
+        "ville-fr-bourges",
+        "ville-fr-caen",
+        "ville-fr-cahors",
+        "ville-fr-chalons-sur-marne",
+        "ville-fr-chambery",
+        "ville-fr-chartres",
+        "ville-fr-chateauroux",
+        "ville-fr-chaumont",
+        "ville-fr-clermont-ferrand",
+        "ville-fr-digne",
+        "ville-fr-draguignan",
+        "ville-fr-epinal",
+        "ville-fr-evreux",
+        "ville-fr-foix",
+        "ville-fr-gap",
+        "ville-fr-grenoble",
+        "ville-fr-gueret",
+        "ville-fr-la-roche-sur-yon",
+        "ville-fr-laon",
+        "ville-fr-laval",
+        "ville-fr-le-puy",
+        "ville-fr-lons-le-saunier",
+        "ville-fr-macon",
+        "ville-fr-melun",
+        "ville-fr-mende",
+        "ville-fr-mezieres",
+        "ville-fr-mont-de-marsan",
+        "ville-fr-montauban",
+        "ville-fr-montpellier",
+        "ville-fr-moulins",
+        "ville-fr-nancy",
+        "ville-fr-nevers",
+        "ville-fr-nice",
+        "ville-fr-nimes",
+        "ville-fr-niort",
+        "ville-fr-orleans",
+        "ville-fr-perigueux",
+        "ville-fr-poitiers",
+        "ville-fr-privas",
+        "ville-fr-quimper",
+        "ville-fr-rodez",
+        "ville-fr-saint-brieuc",
+        "ville-fr-saint-etienne",
+        "ville-fr-tarbes",
+        "ville-fr-troyes",
+        "ville-fr-tulle",
+        "ville-fr-valence",
+        "ville-fr-vannes",
+        "ville-fr-vesoul"
+      ],
+      "locator": "COG_DEPARTEMENTS_1940 ; DEPARTEMENTS_1940 ; README v2 mai 2021",
+      "resume_passage": "",
+      "archive_locale": null,
+      "verification_claude": "non_verifiee",
+      "verification_ether": "lu_avec_limites",
+      "notes": "Proposée par Ether (lot 2.FR, 14/10/2026). Ce que la source prouve selon Ether : Nomenclature, chefs-lieux et géométries de référence 1940 ; base de reconstruction, pas preuve directe de 1945. ; Licence CC BY 4.0 confirmée par les conditions Dataverse et README.. Limite annoncée par Ether : Fichiers API 4083217, 4083523, 4083247, 4083158, 4606821. Ne pas transformer le millésime 1940 en millésime 1945. Polygones issus de communes modernes reconstituées historiquement. Relecture Claude 15/10/2026 : La page Harvard Dataverse n'est pas lisible par l'outil de lecture de Claude (accès refusé aux robots). Les tracés livrés par Ether ont été contrôlés à l'intégration (90 départements, codes 01–90, topologie conservée) ; licence CC BY 4.0 annoncée, à confirmer.",
+      "preuves_ether": [
+        {
+          "fichier": "preuves/TRFGIS_metadata.json",
+          "sha256": "14d19ca758e3284728affd2eb204ed2132d7dd938decaa0a10fdc95ba64af315"
+        },
+        {
+          "fichier": "preuves/README_DEPARTEMENTS.txt",
+          "sha256": "fe9e551adfc54021972c78668799cc32a001ada7bc6d45d891dae06147681af6"
+        },
+        {
+          "fichier": "preuves/COG_DEPARTEMENTS_1940.txt",
+          "sha256": "96546306eadae2095e5f9faa488a1ff8f4c73f6ac28185778c29effe2d14d241"
+        },
+        {
+          "fichier": "preuves/COG_DEPARTEMENTS_1940_CODEBOOK.txt",
+          "sha256": "af9db29d692f0a4493b051eb34c553e00407a36d988e3d889122a1425fc23b99"
+        },
+        {
+          "fichier": "preuves/CHEFLIEU_DEPARTEMENTS_1940.tab",
+          "sha256": "93abf581ea795a73fd4f9a579e6ca359643a628c5bef956f98fbf0e322bcd0c8"
+        },
+        {
+          "fichier": "preuves/DEPARTEMENTS_1940.zip",
+          "sha256": "29f4a6840fe7570a66501dac10ee9a94cf2445fd473c83341b28ca59b41d4f5a"
+        }
+      ],
+      "verification_claude_ether": "non_verifiee",
+      "complement_ether_villes_110": {
+        "date_consultation": "2026-10-16",
+        "cibles": [
+          "ville-fr-bourg",
+          "ville-fr-laon",
+          "ville-fr-moulins",
+          "ville-fr-digne",
+          "ville-fr-gap",
+          "ville-fr-nice",
+          "ville-fr-privas",
+          "ville-fr-mezieres",
+          "ville-fr-foix",
+          "ville-fr-troyes",
+          "ville-fr-rodez",
+          "ville-fr-caen",
+          "ville-fr-aurillac",
+          "ville-fr-angouleme",
+          "ville-fr-bourges",
+          "ville-fr-tulle",
+          "ville-fr-saint-brieuc",
+          "ville-fr-gueret",
+          "ville-fr-perigueux",
+          "ville-fr-besancon",
+          "ville-fr-valence",
+          "ville-fr-evreux",
+          "ville-fr-chartres",
+          "ville-fr-quimper",
+          "ville-fr-nimes",
+          "ville-fr-auch",
+          "ville-fr-montpellier",
+          "ville-fr-chateauroux",
+          "ville-fr-grenoble",
+          "ville-fr-lons-le-saunier",
+          "ville-fr-mont-de-marsan",
+          "ville-fr-blois",
+          "ville-fr-saint-etienne",
+          "ville-fr-le-puy",
+          "ville-fr-orleans",
+          "ville-fr-cahors",
+          "ville-fr-agen",
+          "ville-fr-mende",
+          "ville-fr-angers",
+          "ville-fr-chalons-sur-marne",
+          "ville-fr-chaumont",
+          "ville-fr-laval",
+          "ville-fr-nancy",
+          "ville-fr-bar-le-duc",
+          "ville-fr-vannes",
+          "ville-fr-nevers",
+          "ville-fr-beauvais",
+          "ville-fr-alencon",
+          "ville-fr-arras",
+          "ville-fr-clermont-ferrand",
+          "ville-fr-tarbes",
+          "ville-fr-vesoul",
+          "ville-fr-macon",
+          "ville-fr-chambery",
+          "ville-fr-melun",
+          "ville-fr-niort",
+          "ville-fr-amiens",
+          "ville-fr-albi",
+          "ville-fr-montauban",
+          "ville-fr-draguignan",
+          "ville-fr-avignon",
+          "ville-fr-la-roche-sur-yon",
+          "ville-fr-poitiers",
+          "ville-fr-epinal",
+          "ville-fr-auxerre",
+          "ville-fr-belfort"
+        ],
+        "usage": "Points représentatifs des mairies modernes, noms de référence 1940 ; conversion EPSG2154→4326. Auteur Victor Gay, CC BY 4.0. Aucun chef-lieu 1945 automatiquement validé.",
+        "preuves_ether": [
+          {
+            "fichier": "preuves/CHEFLIEU_DEPARTEMENTS_1940.tab",
+            "sha256": "93abf581ea795a73fd4f9a579e6ca359643a628c5bef956f98fbf0e322bcd0c8"
+          },
+          {
+            "fichier": "preuves/README_DEPARTEMENTS.txt",
+            "sha256": "fe9e551adfc54021972c78668799cc32a001ada7bc6d45d891dae06147681af6"
+          },
+          {
+            "fichier": "preuves/TRFGIS_metadata.json",
+            "sha256": "14d19ca758e3284728affd2eb204ed2132d7dd938decaa0a10fdc95ba64af315"
+          },
+          {
+            "fichier": "preuves/Gay_2020_methodologie.pdf",
+            "sha256": "8adadff2f61e906f72015cd212348c3cf25bf95039b698e0b3e157daf4d72b61"
+          }
+        ]
+      },
+      "operation_registre": "completer"
+    },
+    {
+      "source_id": "src-an-reponse-regions-1981-01-12",
+      "niveau": "A",
+      "type_source": "publication_institutionnelle",
+      "titre": "Assemblée nationale, questions écrites, réponses 37966 et 37967",
+      "institution": "Ministère de l’Intérieur / Journal officiel",
+      "url": "https://archives.assemblee-nationale.fr/6/qst/6-qst-1981-01-12.pdf",
+      "date_consultation": "2026-10-11",
+      "periode_couverte": [],
+      "zones": [
+        "FR"
+      ],
+      "usages_atlas": [
+        "Inventaire gouvernemental rétrospectif des circonscriptions régionales 1941–1944.",
+        "Modifications des 27 juin, 29 septembre, 25 octobre, 9 novembre et 29 novembre 1944.",
+        "Strasbourg : Bas-Rhin/Haut-Rhin ; Moselle : pouvoirs du commissaire au préfet ; Corse hors région provisoirement."
+      ],
+      "cibles": [
+        "subdivision-fr-ain",
+        "subdivision-fr-aisne",
+        "subdivision-fr-allier",
+        "subdivision-fr-alpes-de-haute-provence",
+        "subdivision-fr-alpes-maritimes",
+        "subdivision-fr-ardeche",
+        "subdivision-fr-ardennes",
+        "subdivision-fr-ariege",
+        "subdivision-fr-aube",
+        "subdivision-fr-aude",
+        "subdivision-fr-aveyron",
+        "subdivision-fr-bas-rhin",
+        "subdivision-fr-bouches-du-rhone",
+        "subdivision-fr-calvados",
+        "subdivision-fr-cantal",
+        "subdivision-fr-charente",
+        "subdivision-fr-charente-maritime",
+        "subdivision-fr-cher",
+        "subdivision-fr-commissariat-angers",
+        "subdivision-fr-commissariat-bordeaux",
+        "subdivision-fr-commissariat-chalons-sur-marne",
+        "subdivision-fr-commissariat-clermont-ferrand",
+        "subdivision-fr-commissariat-dijon",
+        "subdivision-fr-commissariat-laon",
+        "subdivision-fr-commissariat-lille",
+        "subdivision-fr-commissariat-limoges",
+        "subdivision-fr-commissariat-lyon",
+        "subdivision-fr-commissariat-marseille",
+        "subdivision-fr-commissariat-montpellier",
+        "subdivision-fr-commissariat-nancy",
+        "subdivision-fr-commissariat-orleans",
+        "subdivision-fr-commissariat-poitiers",
+        "subdivision-fr-commissariat-rennes",
+        "subdivision-fr-commissariat-rouen",
+        "subdivision-fr-commissariat-strasbourg",
+        "subdivision-fr-commissariat-toulouse",
+        "subdivision-fr-correze",
+        "subdivision-fr-corse",
+        "subdivision-fr-cote-d-or",
+        "subdivision-fr-cotes-darmor",
+        "subdivision-fr-creuse",
+        "subdivision-fr-deux-sevres",
+        "subdivision-fr-dordogne",
+        "subdivision-fr-doubs",
+        "subdivision-fr-drome",
+        "subdivision-fr-eure",
+        "subdivision-fr-eure-et-loir",
+        "subdivision-fr-finistere",
+        "subdivision-fr-gard",
+        "subdivision-fr-gers",
+        "subdivision-fr-gironde",
+        "subdivision-fr-haut-rhin",
+        "subdivision-fr-haute-garonne",
+        "subdivision-fr-haute-loire",
+        "subdivision-fr-haute-marne",
+        "subdivision-fr-haute-saone",
+        "subdivision-fr-haute-savoie",
+        "subdivision-fr-haute-vienne",
+        "subdivision-fr-hautes-alpes",
+        "subdivision-fr-hautes-pyrenees",
+        "subdivision-fr-herault",
+        "subdivision-fr-ille-et-vilaine",
+        "subdivision-fr-indre",
+        "subdivision-fr-indre-et-loire",
+        "subdivision-fr-isere",
+        "subdivision-fr-jura",
+        "subdivision-fr-landes",
+        "subdivision-fr-loir-et-cher",
+        "subdivision-fr-loire",
+        "subdivision-fr-loire-atlantique",
+        "subdivision-fr-loiret",
+        "subdivision-fr-lot",
+        "subdivision-fr-lot-et-garonne",
+        "subdivision-fr-lozere",
+        "subdivision-fr-maine-et-loire",
+        "subdivision-fr-manche",
+        "subdivision-fr-marne",
+        "subdivision-fr-mayenne",
+        "subdivision-fr-meurthe-et-moselle",
+        "subdivision-fr-meuse",
+        "subdivision-fr-morbihan",
+        "subdivision-fr-moselle",
+        "subdivision-fr-nievre",
+        "subdivision-fr-nord",
+        "subdivision-fr-oise",
+        "subdivision-fr-orne",
+        "subdivision-fr-pas-de-calais",
+        "subdivision-fr-puy-de-dome",
+        "subdivision-fr-pyrenees-atlantiques",
+        "subdivision-fr-pyrenees-orientales",
+        "subdivision-fr-rhone",
+        "subdivision-fr-saone-et-loire",
+        "subdivision-fr-sarthe",
+        "subdivision-fr-savoie",
+        "subdivision-fr-seine",
+        "subdivision-fr-seine-et-marne",
+        "subdivision-fr-seine-et-oise",
+        "subdivision-fr-seine-maritime",
+        "subdivision-fr-somme",
+        "subdivision-fr-tarn",
+        "subdivision-fr-tarn-et-garonne",
+        "subdivision-fr-territoire-de-belfort",
+        "subdivision-fr-var",
+        "subdivision-fr-vaucluse",
+        "subdivision-fr-vendee",
+        "subdivision-fr-vienne",
+        "subdivision-fr-vosges",
+        "subdivision-fr-yonne",
+        "ville-fr-nancy",
+        "ville-fr-orleans",
+        "ville-fr-poitiers"
+      ],
+      "locator": "Page imprimée 164, page PDF 68",
+      "resume_passage": "Page 164 lue par Claude sur la capture d'Ether : commissaires régionaux de la République créés par l'ordonnance du 10/01/1944 ; Strasbourg au 29/09/1944 ; pouvoirs du préfet de la Moselle ; Corse non rattachée au 09/11/1944 ; Lot-et-Garonne rattaché à Bordeaux le 29/11/1944.",
+      "archive_locale": null,
+      "verification_claude": "ok",
+      "verification_ether": "lu_avec_limites",
+      "notes": "Proposée par Ether (lot 2.FR, 14/10/2026). Ce que la source prouve selon Ether : Inventaire gouvernemental rétrospectif des circonscriptions régionales 1941–1944. ; Modifications des 27 juin, 29 septembre, 25 octobre, 9 novembre et 29 novembre 1944. ; Strasbourg : Bas-Rhin/Haut-Rhin ; Moselle : pouvoirs du commissaire au préfet ; Corse hors région provisoirement.. Limite annoncée par Ether : Fac-similé de la réponse vu. Les actes de 1944 ne sont pas relus directement. Attention aux portions occupées/non occupées de 1941 : aucune agrégation départementale automatique. Relecture Claude 15/10/2026 : Page 164 lue par Claude sur la capture d'Ether : commissaires régionaux de la République créés par l'ordonnance du 10/01/1944 ; Strasbourg au 29/09/1944 ; pouvoirs du préfet de la Moselle ; Corse non rattachée au 09/11/1944 ; Lot-et-Garonne rattaché à Bordeaux le 29/11/1944.",
+      "preuves_ether": [
+        {
+          "fichier": "preuves/AN_1981_01_12.pdf",
+          "sha256": "47cca292f51583f10d0f61b35281c60751ebefc473601fbfb0044783a2788a84"
+        },
+        {
+          "fichier": "preuves/AN_1981_p164.png",
+          "sha256": "a9b10967688f445cd677356eea47fd15b610331708d1e6717fa8f2363cd0ceee"
+        }
+      ],
+      "verification_claude_ether": "non_verifiee",
+      "complement_ether_villes_110": {
+        "date_consultation": "2026-10-16",
+        "cibles": [
+          "ville-fr-nancy",
+          "ville-fr-orleans",
+          "ville-fr-poitiers"
+        ],
+        "usage": "Rôle régional par rapprochement de la réponse rétrospective p.164 ; pas de preuve autonome de siège départemental au jour exact.",
+        "preuves_ether": [
+          {
+            "fichier": "preuves/AN_1981_p164.png",
+            "sha256": "a9b10967688f445cd677356eea47fd15b610331708d1e6717fa8f2363cd0ceee"
+          },
+          {
+            "fichier": "preuves/AN_1981_01_12.pdf",
+            "sha256": "47cca292f51583f10d0f61b35281c60751ebefc473601fbfb0044783a2788a84"
+          }
+        ]
+      },
+      "operation_registre": "completer"
+    }
+  ]
+}

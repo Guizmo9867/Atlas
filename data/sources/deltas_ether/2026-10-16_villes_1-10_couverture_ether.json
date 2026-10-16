@@ -1,0 +1,2821 @@
+{
+  "lot": "villes_1-10",
+  "date": "2026-10-16T01:57:22.631435+00:00",
+  "classes": {
+    "P": "preuve locale datée proche ; continuité proposée avec limite",
+    "C": "histoire locale et continuité proposée, renforcement ciblé à prévoir",
+    "R": "preuve régionale rétrospective, lien départemental réservé"
+  },
+  "candidats": [
+    {
+      "candidat": "Bourg",
+      "ville_id_proposee": "ville-fr-bourg",
+      "departement_id_reference": "subdivision-fr-ain",
+      "reference_1940": {
+        "nom": "Bourg",
+        "annee_preuve": 1940,
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "COG_DEPARTEMENTS_1940, ligne dep=01",
+        "statut": "reference_1940_a_reconfirmer_pour_1945",
+        "reserve_id": "R2FR-05",
+        "raccord_ville": "aucune_correspondance_unique_verifiee ; ne pas créer de ville automatiquement"
+      },
+      "doublons_canoniques": [],
+      "geometrie_reference": {
+        "coordinates": [
+          5.22712,
+          46.20445
+        ],
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=01053",
+        "licence": "CC BY 4.0",
+        "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+        "precision_historique": "non_etablie"
+      },
+      "decision": "fiche_proposee_role_admin_avec_limites",
+      "classe_preuve": "P",
+      "fait_lu": "La liste préfectorale situe Léon Blanchard à partir du 3 septembre 1944 ; l'histoire locale décrit les locaux de la préfecture à Bourg.",
+      "limite": "La fonction est attestée avant le Snapshot ou sur une période qui l’encadre ; sa continuité au 01/01/1945 est proposée, sans preuve de chaque bureau au jour exact. Aucun lien de chef-lieu validé automatiquement (R110-02).",
+      "source_id": "src-v110-bourg-histoire",
+      "source_url": "https://www.ain.gouv.fr/Services-de-l-Etat/Prefecture-et-sous-prefectures/Prefecture-de-l-Ain/Un-peu-d-histoire",
+      "locator": "Liste des préfets, entrées 1944–1946",
+      "raccord_chef_lieu": "ne_pas_appliquer_automatiquement",
+      "reserves": [
+        "R110-01",
+        "R110-02",
+        "R110-03"
+      ]
+    },
+    {
+      "candidat": "Laon",
+      "ville_id_proposee": "ville-fr-laon",
+      "departement_id_reference": "subdivision-fr-aisne",
+      "reference_1940": {
+        "nom": "Laon",
+        "annee_preuve": 1940,
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "COG_DEPARTEMENTS_1940, ligne dep=02",
+        "statut": "reference_1940_a_reconfirmer_pour_1945",
+        "reserve_id": "R2FR-05",
+        "raccord_ville": "aucune_correspondance_unique_verifiee ; ne pas créer de ville automatiquement"
+      },
+      "doublons_canoniques": [],
+      "geometrie_reference": {
+        "coordinates": [
+          3.62312,
+          49.56306
+        ],
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=02408",
+        "licence": "CC BY 4.0",
+        "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+        "precision_historique": "non_etablie"
+      },
+      "decision": "fiche_proposee_role_admin_avec_limites",
+      "classe_preuve": "P",
+      "fait_lu": "Bloncourt prend possession de la préfecture de Laon le 30 août 1944 et y installe le comité départemental de Libération.",
+      "limite": "La fonction est attestée avant le Snapshot ou sur une période qui l’encadre ; sa continuité au 01/01/1945 est proposée, sans preuve de chaque bureau au jour exact. Aucun lien de chef-lieu validé automatiquement (R110-02).",
+      "source_id": "src-v110-laon-liberation",
+      "source_url": "https://www2.assemblee-nationale.fr/sycomore/bio?num_dept=874",
+      "locator": "Notice Élie Bloncourt, paragraphes sur août 1944",
+      "raccord_chef_lieu": "ne_pas_appliquer_automatiquement",
+      "reserves": [
+        "R110-01",
+        "R110-02",
+        "R110-03"
+      ]
+    },
+    {
+      "candidat": "Moulins",
+      "ville_id_proposee": "ville-fr-moulins",
+      "departement_id_reference": "subdivision-fr-allier",
+      "reference_1940": {
+        "nom": "Moulins",
+        "annee_preuve": 1940,
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "COG_DEPARTEMENTS_1940, ligne dep=03",
+        "statut": "reference_1940_a_reconfirmer_pour_1945",
+        "reserve_id": "R2FR-05",
+        "raccord_ville": "aucune_correspondance_unique_verifiee ; ne pas créer de ville automatiquement"
+      },
+      "doublons_canoniques": [],
+      "geometrie_reference": {
+        "coordinates": [
+          3.3316,
+          46.56435
+        ],
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=03190",
+        "licence": "CC BY 4.0",
+        "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+        "precision_historique": "non_etablie"
+      },
+      "decision": "fiche_proposee_role_admin_avec_limites",
+      "classe_preuve": "C",
+      "fait_lu": "Les bureaux préfectoraux de Moulins sont décrits en 1884, puis le projet d'extension de 1946 ; la continuité de la fonction entre ces jalons est proposée.",
+      "limite": "La fonction est attestée avant le Snapshot ou sur une période qui l’encadre ; sa continuité au 01/01/1945 est proposée, sans preuve de chaque bureau au jour exact. Aucun lien de chef-lieu validé automatiquement (R110-02).",
+      "source_id": "src-v110-moulins-histoire",
+      "source_url": "https://www.allier.gouv.fr/Services-de-l-Etat/Prefecture-et-sous-prefectures/Prefecture/Histoire-de-l-hotel-prefectoral",
+      "locator": "Histoire de l'hôtel, séquences 1884 et 1946",
+      "raccord_chef_lieu": "ne_pas_appliquer_automatiquement",
+      "reserves": [
+        "R110-01",
+        "R110-02",
+        "R110-03"
+      ]
+    },
+    {
+      "candidat": "Digne",
+      "ville_id_proposee": "ville-fr-digne",
+      "departement_id_reference": "subdivision-fr-alpes-de-haute-provence",
+      "reference_1940": {
+        "nom": "Digne",
+        "annee_preuve": 1940,
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "COG_DEPARTEMENTS_1940, ligne dep=04",
+        "statut": "reference_1940_a_reconfirmer_pour_1945",
+        "reserve_id": "R2FR-05",
+        "raccord_ville": "aucune_correspondance_unique_verifiee ; ne pas créer de ville automatiquement"
+      },
+      "doublons_canoniques": [],
+      "geometrie_reference": {
+        "coordinates": [
+          6.23532,
+          44.09234
+        ],
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=04070",
+        "licence": "CC BY 4.0",
+        "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+        "precision_historique": "non_etablie"
+      },
+      "decision": "fiche_proposee_role_admin_avec_limites",
+      "classe_preuve": "P",
+      "fait_lu": "Le récit du 20 août 1944 fait partir de la préfecture de Digne le cortège rétablissant les symboles républicains.",
+      "limite": "La fonction est attestée avant le Snapshot ou sur une période qui l’encadre ; sa continuité au 01/01/1945 est proposée, sans preuve de chaque bureau au jour exact. Aucun lien de chef-lieu validé automatiquement (R110-02).",
+      "source_id": "src-v110-digne-chronologie",
+      "source_url": "https://www.alpes-de-haute-provence.gouv.fr/Services-de-l-Etat/Prefecture-et-sous-prefectures/Prefecture-des-Alpes-de-Haute-Provence/Deux-siecles-d-activites-prefectorales-dans-les-Alpes-de-Haute-Provence",
+      "locator": "Chronologie, 20 août 1944",
+      "raccord_chef_lieu": "ne_pas_appliquer_automatiquement",
+      "reserves": [
+        "R110-01",
+        "R110-02",
+        "R110-03"
+      ]
+    },
+    {
+      "candidat": "Gap",
+      "ville_id_proposee": "ville-fr-gap",
+      "departement_id_reference": "subdivision-fr-hautes-alpes",
+      "reference_1940": {
+        "nom": "Gap",
+        "annee_preuve": 1940,
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "COG_DEPARTEMENTS_1940, ligne dep=05",
+        "statut": "reference_1940_a_reconfirmer_pour_1945",
+        "reserve_id": "R2FR-05",
+        "raccord_ville": "aucune_correspondance_unique_verifiee ; ne pas créer de ville automatiquement"
+      },
+      "doublons_canoniques": [],
+      "geometrie_reference": {
+        "coordinates": [
+          6.07679,
+          44.55813
+        ],
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=05061",
+        "licence": "CC BY 4.0",
+        "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+        "precision_historique": "non_etablie"
+      },
+      "decision": "fiche_proposee_role_admin_avec_limites",
+      "classe_preuve": "C",
+      "fait_lu": "L'histoire de la préfecture de Gap décrit son installation dans l'ancien évêché puis son bâtiment du XIXe siècle ; continuité proposée avec la nomenclature de 1940.",
+      "limite": "La fonction est attestée avant le Snapshot ou sur une période qui l’encadre ; sa continuité au 01/01/1945 est proposée, sans preuve de chaque bureau au jour exact. Aucun lien de chef-lieu validé automatiquement (R110-02).",
+      "source_id": "src-v110-gap-histoire",
+      "source_url": "https://www.hautes-alpes.gouv.fr/Services-de-l-Etat/Prefecture-des-Hautes-Alpes-a-Gap/Le-Prefet/La-fonction-de-Prefet",
+      "locator": "Historique de la préfecture, 1806 et construction 1827–1840",
+      "raccord_chef_lieu": "ne_pas_appliquer_automatiquement",
+      "reserves": [
+        "R110-01",
+        "R110-02",
+        "R110-03"
+      ]
+    },
+    {
+      "candidat": "Nice",
+      "ville_id_proposee": "ville-fr-nice",
+      "departement_id_reference": "subdivision-fr-alpes-maritimes",
+      "reference_1940": {
+        "nom": "Nice",
+        "annee_preuve": 1940,
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "COG_DEPARTEMENTS_1940, ligne dep=06",
+        "statut": "reference_1940_a_reconfirmer_pour_1945",
+        "reserve_id": "R2FR-05",
+        "raccord_ville": "aucune_correspondance_unique_verifiee ; ne pas créer de ville automatiquement"
+      },
+      "doublons_canoniques": [],
+      "geometrie_reference": {
+        "coordinates": [
+          7.26746,
+          43.70188
+        ],
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=06088",
+        "licence": "CC BY 4.0",
+        "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+        "precision_historique": "non_etablie"
+      },
+      "decision": "fiche_proposee_role_admin_avec_limites",
+      "classe_preuve": "C",
+      "fait_lu": "Le palais de Nice devient préfecture en 1860 ; sa fonction et ses transformations ultérieures sont décrites. Continuité proposée avec la nomenclature de 1940.",
+      "limite": "La fonction est attestée avant le Snapshot ou sur une période qui l’encadre ; sa continuité au 01/01/1945 est proposée, sans preuve de chaque bureau au jour exact. Aucun lien de chef-lieu validé automatiquement (R110-02).",
+      "source_id": "src-v110-nice-histoire",
+      "source_url": "https://www.alpes-maritimes.gouv.fr/layout/set/print/Decouverte-des-Alpes-Maritimes/Visite-du-palais-prefectoral/Un-peu-d-histoire/Histoire-du-palais-prefectoral",
+      "locator": "Histoire du palais, installation préfectorale de 1860 et transformations",
+      "raccord_chef_lieu": "ne_pas_appliquer_automatiquement",
+      "reserves": [
+        "R110-01",
+        "R110-02",
+        "R110-03"
+      ]
+    },
+    {
+      "candidat": "Privas",
+      "ville_id_proposee": "ville-fr-privas",
+      "departement_id_reference": "subdivision-fr-ardeche",
+      "reference_1940": {
+        "nom": "Privas",
+        "annee_preuve": 1940,
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "COG_DEPARTEMENTS_1940, ligne dep=07",
+        "statut": "reference_1940_a_reconfirmer_pour_1945",
+        "reserve_id": "R2FR-05",
+        "raccord_ville": "aucune_correspondance_unique_verifiee ; ne pas créer de ville automatiquement"
+      },
+      "doublons_canoniques": [],
+      "geometrie_reference": {
+        "coordinates": [
+          4.59914,
+          44.73439
+        ],
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=07186",
+        "licence": "CC BY 4.0",
+        "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+        "precision_historique": "non_etablie"
+      },
+      "decision": "fiche_proposee_role_admin_avec_limites",
+      "classe_preuve": "P",
+      "fait_lu": "La liste préfectorale atteste Robert Pissère à partir de 1944. Le rapprochement avec Privas repose aussi sur l'histoire locale du bâtiment et la nomenclature de 1940 ; l'adresse de ses services au jour exact reste à confirmer.",
+      "limite": "La fonction est attestée avant le Snapshot ou sur une période qui l’encadre ; sa continuité au 01/01/1945 est proposée, sans preuve de chaque bureau au jour exact. Aucun lien de chef-lieu validé automatiquement (R110-02).",
+      "source_id": "src-v110-privas-prefets",
+      "source_url": "https://www.ardeche.gouv.fr/index.php/layout/set/print/Services-de-l-Etat/Prefecture-et-sous-prefectures/La-prefecture/Le-Prefet/Liste-des-prefets-et-prefetes-du-departement-de-l-Ardeche",
+      "locator": "Liste, Robert Pissère 1944 et Aimé Jeanjean 1948 ; histoire locale de l'hôtel en complément",
+      "raccord_chef_lieu": "ne_pas_appliquer_automatiquement",
+      "reserves": [
+        "R110-01",
+        "R110-02",
+        "R110-03"
+      ]
+    },
+    {
+      "candidat": "Mézières",
+      "ville_id_proposee": "ville-fr-mezieres",
+      "departement_id_reference": "subdivision-fr-ardennes",
+      "reference_1940": {
+        "nom": "Mézières",
+        "annee_preuve": 1940,
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "COG_DEPARTEMENTS_1940, ligne dep=08",
+        "statut": "reference_1940_a_reconfirmer_pour_1945",
+        "reserve_id": "R2FR-05",
+        "raccord_ville": "aucune_correspondance_unique_verifiee ; ne pas créer de ville automatiquement"
+      },
+      "doublons_canoniques": [],
+      "geometrie_reference": {
+        "coordinates": [
+          4.71892,
+          49.77089
+        ],
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=08105",
+        "licence": "CC BY 4.0",
+        "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+        "precision_historique": "non_etablie"
+      },
+      "point_non_livre": true,
+      "motif_point_exclu": "Repère moderne code 08105 : vieux Mézières non localisé sûrement ; géométrie absente, aucun faux lien.",
+      "decision": "fiche_proposee_role_admin_avec_limites",
+      "classe_preuve": "C",
+      "fait_lu": "La préfecture des Ardennes est située dans le vieux Mézières depuis 1800. La fiche conserve cette ville distincte de Charleville ; aucune fusion ultérieure n'est anticipée.",
+      "limite": "La fonction est attestée avant le Snapshot ou sur une période qui l’encadre ; sa continuité au 01/01/1945 est proposée, sans preuve de chaque bureau au jour exact. Aucun lien de chef-lieu validé automatiquement (R110-02).",
+      "source_id": "src-v110-mezieres-histoire",
+      "source_url": "https://www.ardennes.gouv.fr/index.php/contenu/telechargement/3869/38174/file/historique_presentation_pref_cle513827.pdf",
+      "locator": "PDF p.1, vieux Mézières, occupation préfectorale depuis 1800",
+      "raccord_chef_lieu": "ne_pas_appliquer_automatiquement",
+      "reserves": [
+        "R110-01",
+        "R110-02",
+        "R110-03"
+      ]
+    },
+    {
+      "candidat": "Foix",
+      "ville_id_proposee": "ville-fr-foix",
+      "departement_id_reference": "subdivision-fr-ariege",
+      "reference_1940": {
+        "nom": "Foix",
+        "annee_preuve": 1940,
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "COG_DEPARTEMENTS_1940, ligne dep=09",
+        "statut": "reference_1940_a_reconfirmer_pour_1945",
+        "reserve_id": "R2FR-05",
+        "raccord_ville": "aucune_correspondance_unique_verifiee ; ne pas créer de ville automatiquement"
+      },
+      "doublons_canoniques": [],
+      "geometrie_reference": {
+        "coordinates": [
+          1.6064,
+          42.96503
+        ],
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=09122",
+        "licence": "CC BY 4.0",
+        "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+        "precision_historique": "non_etablie"
+      },
+      "decision": "fiche_proposee_role_admin_avec_limites",
+      "classe_preuve": "P",
+      "fait_lu": "La page municipale de Saint-Girons situe à Foix la nomination du préfet provisoire Gabriel Prosper le 19 août 1944 ; elle décrit ensuite son intervention à Saint-Girons.",
+      "limite": "La fonction est attestée avant le Snapshot ou sur une période qui l’encadre ; sa continuité au 01/01/1945 est proposée, sans preuve de chaque bureau au jour exact. Aucun lien de chef-lieu validé automatiquement (R110-02).",
+      "source_id": "src-v110-foix-liberation",
+      "source_url": "https://www.ville-st-girons.fr/presentation/",
+      "locator": "Récit de la Libération, Gabriel Prosper nommé le 19 août au soir à Foix",
+      "raccord_chef_lieu": "ne_pas_appliquer_automatiquement",
+      "reserves": [
+        "R110-01",
+        "R110-02",
+        "R110-03"
+      ]
+    },
+    {
+      "candidat": "Troyes",
+      "ville_id_proposee": "ville-fr-troyes",
+      "departement_id_reference": "subdivision-fr-aube",
+      "reference_1940": {
+        "nom": "Troyes",
+        "annee_preuve": 1940,
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "COG_DEPARTEMENTS_1940, ligne dep=10",
+        "statut": "reference_1940_a_reconfirmer_pour_1945",
+        "reserve_id": "R2FR-05",
+        "raccord_ville": "aucune_correspondance_unique_verifiee ; ne pas créer de ville automatiquement"
+      },
+      "doublons_canoniques": [],
+      "geometrie_reference": {
+        "coordinates": [
+          4.07743,
+          48.29812
+        ],
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=10387",
+        "licence": "CC BY 4.0",
+        "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+        "precision_historique": "non_etablie"
+      },
+      "decision": "fiche_proposee_role_admin_avec_limites",
+      "classe_preuve": "P",
+      "fait_lu": "Thierry s'installe à la préfecture de Troyes le 26 août 1944 ; le préfet s'y présente le lendemain.",
+      "limite": "La fonction est attestée avant le Snapshot ou sur une période qui l’encadre ; sa continuité au 01/01/1945 est proposée, sans preuve de chaque bureau au jour exact. Aucun lien de chef-lieu validé automatiquement (R110-02).",
+      "source_id": "src-v110-troyes-liberation",
+      "source_url": "https://www.ordredelaliberation.fr/fr/compagnons/gabriel-thierry",
+      "locator": "Biographie Gabriel Thierry, 25–27 août 1944",
+      "raccord_chef_lieu": "ne_pas_appliquer_automatiquement",
+      "reserves": [
+        "R110-01",
+        "R110-02",
+        "R110-03"
+      ]
+    },
+    {
+      "candidat": "Carcassonne",
+      "ville_id_proposee": "ville-fr-carcassonne",
+      "departement_id_reference": "subdivision-fr-aude",
+      "reference_1940": {
+        "nom": "Carcassonne",
+        "annee_preuve": 1940,
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "COG_DEPARTEMENTS_1940, ligne dep=11",
+        "statut": "reference_1940_a_reconfirmer_pour_1945",
+        "reserve_id": "R2FR-05",
+        "raccord_ville": "aucune_correspondance_unique_verifiee ; ne pas créer de ville automatiquement"
+      },
+      "doublons_canoniques": [],
+      "geometrie_reference": {
+        "coordinates": [
+          2.35064,
+          43.21496
+        ],
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=11069",
+        "licence": "CC BY 4.0",
+        "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+        "precision_historique": "non_etablie"
+      },
+      "decision": "reporte_ne_pas_integrer",
+      "motif": "Le PDF annoncé de la circulaire du 15 décembre 1944 a renvoyé une page de sécurité ; seul un extrait indexé a été trouvé. Aucune preuve de ce document prétendue lue.",
+      "sources_examinees": [
+        {
+          "cle": "carcassonne-circulaire",
+          "villes": [
+            "Carcassonne"
+          ],
+          "url": "https://archivesdepartementales.aude.fr/sites/default/files/media/files/107W625.pdf"
+        }
+      ],
+      "reserve_id": "R110-REPORT-11",
+      "point_non_livre": true
+    },
+    {
+      "candidat": "Rodez",
+      "ville_id_proposee": "ville-fr-rodez",
+      "departement_id_reference": "subdivision-fr-aveyron",
+      "reference_1940": {
+        "nom": "Rodez",
+        "annee_preuve": 1940,
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "COG_DEPARTEMENTS_1940, ligne dep=12",
+        "statut": "reference_1940_a_reconfirmer_pour_1945",
+        "reserve_id": "R2FR-05",
+        "raccord_ville": "aucune_correspondance_unique_verifiee ; ne pas créer de ville automatiquement"
+      },
+      "doublons_canoniques": [],
+      "geometrie_reference": {
+        "coordinates": [
+          2.57347,
+          44.3499
+        ],
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=12202",
+        "licence": "CC BY 4.0",
+        "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+        "precision_historique": "non_etablie"
+      },
+      "decision": "fiche_proposee_role_admin_avec_limites",
+      "classe_preuve": "C",
+      "fait_lu": "La page de la préfecture indique qu'elle occupe à Rodez les mêmes locaux depuis 1823 ; cette histoire continue recoupe le chef-lieu recensé en 1940.",
+      "limite": "La fonction est attestée avant le Snapshot ou sur une période qui l’encadre ; sa continuité au 01/01/1945 est proposée, sans preuve de chaque bureau au jour exact. Aucun lien de chef-lieu validé automatiquement (R110-02).",
+      "source_id": "src-v110-rodez-histoire",
+      "source_url": "https://www.aveyron.gouv.fr/Services-de-l-Etat/Prefecture-et-sous-prefectures/Prefecture/Histoire-et-patrimoine/L-hotel-de-la-Prefecture",
+      "locator": "Histoire et patrimoine, installation depuis 1823",
+      "raccord_chef_lieu": "ne_pas_appliquer_automatiquement",
+      "reserves": [
+        "R110-01",
+        "R110-02",
+        "R110-03"
+      ]
+    },
+    {
+      "candidat": "Caen",
+      "ville_id_proposee": "ville-fr-caen",
+      "departement_id_reference": "subdivision-fr-calvados",
+      "reference_1940": {
+        "nom": "Caen",
+        "annee_preuve": 1940,
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "COG_DEPARTEMENTS_1940, ligne dep=14",
+        "statut": "reference_1940_a_reconfirmer_pour_1945",
+        "reserve_id": "R2FR-05",
+        "raccord_ville": "aucune_correspondance_unique_verifiee ; ne pas créer de ville automatiquement"
+      },
+      "doublons_canoniques": [],
+      "geometrie_reference": {
+        "coordinates": [
+          -0.37064,
+          49.18134
+        ],
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=14118",
+        "licence": "CC BY 4.0",
+        "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+        "precision_historique": "non_etablie"
+      },
+      "decision": "fiche_proposee_role_admin_avec_limites",
+      "classe_preuve": "P",
+      "fait_lu": "Le récit local précise que la préfecture et les archives de Caen ont été préservées lors des bombardements de 1944 ; il distingue les bâtiments ajoutés après guerre.",
+      "limite": "La fonction est attestée avant le Snapshot ou sur une période qui l’encadre ; sa continuité au 01/01/1945 est proposée, sans preuve de chaque bureau au jour exact. Aucun lien de chef-lieu validé automatiquement (R110-02).",
+      "source_id": "src-v110-caen-centre",
+      "source_url": "https://www.calvados.gouv.fr/Actions-de-l-Etat/Ressources-historiques-et-memorielles/La-prefecture-du-Calvados/Le-centre-administratif-departemental",
+      "locator": "Le centre administratif départemental, bombardements de 1944",
+      "raccord_chef_lieu": "ne_pas_appliquer_automatiquement",
+      "reserves": [
+        "R110-01",
+        "R110-02",
+        "R110-03"
+      ]
+    },
+    {
+      "candidat": "Aurillac",
+      "ville_id_proposee": "ville-fr-aurillac",
+      "departement_id_reference": "subdivision-fr-cantal",
+      "reference_1940": {
+        "nom": "Aurillac",
+        "annee_preuve": 1940,
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "COG_DEPARTEMENTS_1940, ligne dep=15",
+        "statut": "reference_1940_a_reconfirmer_pour_1945",
+        "reserve_id": "R2FR-05",
+        "raccord_ville": "aucune_correspondance_unique_verifiee ; ne pas créer de ville automatiquement"
+      },
+      "doublons_canoniques": [],
+      "geometrie_reference": {
+        "coordinates": [
+          2.43856,
+          44.92458
+        ],
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=15014",
+        "licence": "CC BY 4.0",
+        "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+        "precision_historique": "non_etablie"
+      },
+      "decision": "fiche_proposee_role_admin_avec_limites",
+      "classe_preuve": "P",
+      "fait_lu": "Le projet d'agrandissement de la préfecture d'Aurillac du 30 octobre 1943 atteste la fonction avant le Snapshot ; les travaux postérieurs ne sont pas anticipés.",
+      "limite": "La fonction est attestée avant le Snapshot ou sur une période qui l’encadre ; sa continuité au 01/01/1945 est proposée, sans preuve de chaque bureau au jour exact. Aucun lien de chef-lieu validé automatiquement (R110-02).",
+      "source_id": "src-v110-aurillac-histoire",
+      "source_url": "https://www.cantal.gouv.fr/Services-de-l-Etat/Prefecture-et-sous-prefectures/La-prefecture-du-Cantal/Histoire-de-l-Hotel-de-la-Prefecture-d-Aurillac/Historique-du-batiment",
+      "locator": "Historique, projet du 30 octobre 1943 et suite 1945–1946",
+      "raccord_chef_lieu": "ne_pas_appliquer_automatiquement",
+      "reserves": [
+        "R110-01",
+        "R110-02",
+        "R110-03"
+      ]
+    },
+    {
+      "candidat": "Angoulême",
+      "ville_id_proposee": "ville-fr-angouleme",
+      "departement_id_reference": "subdivision-fr-charente",
+      "reference_1940": {
+        "nom": "Angoulême",
+        "annee_preuve": 1940,
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "COG_DEPARTEMENTS_1940, ligne dep=16",
+        "statut": "reference_1940_a_reconfirmer_pour_1945",
+        "reserve_id": "R2FR-05",
+        "raccord_ville": "aucune_correspondance_unique_verifiee ; ne pas créer de ville automatiquement"
+      },
+      "doublons_canoniques": [],
+      "geometrie_reference": {
+        "coordinates": [
+          0.15935,
+          45.64923
+        ],
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=16015",
+        "licence": "CC BY 4.0",
+        "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+        "precision_historique": "non_etablie"
+      },
+      "decision": "fiche_proposee_role_admin_avec_limites",
+      "classe_preuve": "P",
+      "fait_lu": "La brochure préfectorale situe le retour du drapeau français sur le balcon de la préfecture d'Angoulême le 1er septembre 1944.",
+      "limite": "La fonction est attestée avant le Snapshot ou sur une période qui l’encadre ; sa continuité au 01/01/1945 est proposée, sans preuve de chaque bureau au jour exact. Aucun lien de chef-lieu validé automatiquement (R110-02).",
+      "source_id": "src-v110-angouleme-histoire",
+      "source_url": "https://www.charente.gouv.fr/content/download/30519/191611/file/20190109_plaquette_information_prefecture.pdf",
+      "locator": "PDF p.12, septembre 1944",
+      "raccord_chef_lieu": "ne_pas_appliquer_automatiquement",
+      "reserves": [
+        "R110-01",
+        "R110-02",
+        "R110-03"
+      ]
+    },
+    {
+      "candidat": "Bourges",
+      "ville_id_proposee": "ville-fr-bourges",
+      "departement_id_reference": "subdivision-fr-cher",
+      "reference_1940": {
+        "nom": "Bourges",
+        "annee_preuve": 1940,
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "COG_DEPARTEMENTS_1940, ligne dep=18",
+        "statut": "reference_1940_a_reconfirmer_pour_1945",
+        "reserve_id": "R2FR-05",
+        "raccord_ville": "aucune_correspondance_unique_verifiee ; ne pas créer de ville automatiquement"
+      },
+      "doublons_canoniques": [],
+      "geometrie_reference": {
+        "coordinates": [
+          2.39501,
+          47.08277
+        ],
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=18033",
+        "licence": "CC BY 4.0",
+        "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+        "precision_historique": "non_etablie"
+      },
+      "decision": "fiche_proposee_role_admin_avec_limites",
+      "classe_preuve": "P",
+      "fait_lu": "Le récit des Archives du Cher décrit l'arrivée des résistants à la préfecture de Bourges et l'arrestation du préfet de Vichy le 6 septembre 1944.",
+      "limite": "La fonction est attestée avant le Snapshot ou sur une période qui l’encadre ; sa continuité au 01/01/1945 est proposée, sans preuve de chaque bureau au jour exact. Aucun lien de chef-lieu validé automatiquement (R110-02).",
+      "source_id": "src-v110-bourges-liberation",
+      "source_url": "https://www.archives18.fr/image/1789311/238869?crop=centre&download=1&force-inline=&format=pdf&realHeight=1756&realWidth=1242&region=full&size=%21800%2C800",
+      "locator": "PDF p.10, journée du 6 septembre 1944",
+      "raccord_chef_lieu": "ne_pas_appliquer_automatiquement",
+      "reserves": [
+        "R110-01",
+        "R110-02",
+        "R110-03"
+      ]
+    },
+    {
+      "candidat": "Tulle",
+      "ville_id_proposee": "ville-fr-tulle",
+      "departement_id_reference": "subdivision-fr-correze",
+      "reference_1940": {
+        "nom": "Tulle",
+        "annee_preuve": 1940,
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "COG_DEPARTEMENTS_1940, ligne dep=19",
+        "statut": "reference_1940_a_reconfirmer_pour_1945",
+        "reserve_id": "R2FR-05",
+        "raccord_ville": "aucune_correspondance_unique_verifiee ; ne pas créer de ville automatiquement"
+      },
+      "doublons_canoniques": [],
+      "geometrie_reference": {
+        "coordinates": [
+          1.77205,
+          45.26501
+        ],
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=19272",
+        "licence": "CC BY 4.0",
+        "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+        "precision_historique": "non_etablie"
+      },
+      "decision": "fiche_proposee_role_admin_avec_limites",
+      "classe_preuve": "C",
+      "fait_lu": "L'histoire locale décrit la construction de l'hôtel préfectoral de Tulle au XIXe siècle et sa fonction persistante ; continuité proposée avec la nomenclature de 1940.",
+      "limite": "La fonction est attestée avant le Snapshot ou sur une période qui l’encadre ; sa continuité au 01/01/1945 est proposée, sans preuve de chaque bureau au jour exact. Aucun lien de chef-lieu validé automatiquement (R110-02).",
+      "source_id": "src-v110-tulle-histoire",
+      "source_url": "https://www.correze.gouv.fr/Services-de-l-Etat/La-prefecture-et-les-sous-prefectures/La-prefecture-de-la-Correze/L-hotel-prefectoral",
+      "locator": "Hôtel préfectoral, décision 1864 et achèvement 1880",
+      "raccord_chef_lieu": "ne_pas_appliquer_automatiquement",
+      "reserves": [
+        "R110-01",
+        "R110-02",
+        "R110-03"
+      ]
+    },
+    {
+      "candidat": "Saint-Brieuc",
+      "ville_id_proposee": "ville-fr-saint-brieuc",
+      "departement_id_reference": "subdivision-fr-cotes-darmor",
+      "reference_1940": {
+        "nom": "Saint-Brieuc",
+        "annee_preuve": 1940,
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "COG_DEPARTEMENTS_1940, ligne dep=22",
+        "statut": "reference_1940_a_reconfirmer_pour_1945",
+        "reserve_id": "R2FR-05",
+        "raccord_ville": "aucune_correspondance_unique_verifiee ; ne pas créer de ville automatiquement"
+      },
+      "doublons_canoniques": [],
+      "geometrie_reference": {
+        "coordinates": [
+          -2.76083,
+          48.51342
+        ],
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=22278",
+        "licence": "CC BY 4.0",
+        "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+        "precision_historique": "non_etablie"
+      },
+      "decision": "fiche_proposee_role_admin_avec_limites",
+      "classe_preuve": "P",
+      "fait_lu": "Les Archives municipales décrivent la mise en place du préfet, du maire et du comité de Libération à Saint-Brieuc avant l'arrivée américaine du 6 août 1944.",
+      "limite": "La fonction est attestée avant le Snapshot ou sur une période qui l’encadre ; sa continuité au 01/01/1945 est proposée, sans preuve de chaque bureau au jour exact. Aucun lien de chef-lieu validé automatiquement (R110-02).",
+      "source_id": "src-v110-saintbrieuc-liberation",
+      "source_url": "https://archives.saint-brieuc.fr/_depot_arkcms_am_saint_brieuc/_depot_arko/articles/841/fin-de-la-guerre-39-45-et-liberation-a-saint-brieuc_doc.pdf",
+      "locator": "PDF p.1, mise en place des autorités avant le 6 août 1944",
+      "raccord_chef_lieu": "ne_pas_appliquer_automatiquement",
+      "reserves": [
+        "R110-01",
+        "R110-02",
+        "R110-03"
+      ]
+    },
+    {
+      "candidat": "Guéret",
+      "ville_id_proposee": "ville-fr-gueret",
+      "departement_id_reference": "subdivision-fr-creuse",
+      "reference_1940": {
+        "nom": "Guéret",
+        "annee_preuve": 1940,
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "COG_DEPARTEMENTS_1940, ligne dep=23",
+        "statut": "reference_1940_a_reconfirmer_pour_1945",
+        "reserve_id": "R2FR-05",
+        "raccord_ville": "aucune_correspondance_unique_verifiee ; ne pas créer de ville automatiquement"
+      },
+      "doublons_canoniques": [],
+      "geometrie_reference": {
+        "coordinates": [
+          1.86716,
+          46.17019
+        ],
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=23096",
+        "licence": "CC BY 4.0",
+        "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+        "precision_historique": "non_etablie"
+      },
+      "decision": "fiche_proposee_role_admin_avec_limites",
+      "classe_preuve": "C",
+      "fait_lu": "La brochure indique que le bâtiment de Guéret, acquis en 1802 pour la préfecture, a constamment conservé cette affectation.",
+      "limite": "La fonction est attestée avant le Snapshot ou sur une période qui l’encadre ; sa continuité au 01/01/1945 est proposée, sans preuve de chaque bureau au jour exact. Aucun lien de chef-lieu validé automatiquement (R110-02).",
+      "source_id": "src-v110-gueret-histoire",
+      "source_url": "https://www.creuse.gouv.fr/content/download/2126/13110/file/Pr%C3%A9sentation%20pr%C3%A9fecture.pdf",
+      "locator": "PDF p.4, vente de 1802 et affectation constante",
+      "raccord_chef_lieu": "ne_pas_appliquer_automatiquement",
+      "reserves": [
+        "R110-01",
+        "R110-02",
+        "R110-03"
+      ]
+    },
+    {
+      "candidat": "Périgueux",
+      "ville_id_proposee": "ville-fr-perigueux",
+      "departement_id_reference": "subdivision-fr-dordogne",
+      "reference_1940": {
+        "nom": "Périgueux",
+        "annee_preuve": 1940,
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "COG_DEPARTEMENTS_1940, ligne dep=24",
+        "statut": "reference_1940_a_reconfirmer_pour_1945",
+        "reserve_id": "R2FR-05",
+        "raccord_ville": "aucune_correspondance_unique_verifiee ; ne pas créer de ville automatiquement"
+      },
+      "doublons_canoniques": [],
+      "geometrie_reference": {
+        "coordinates": [
+          0.7168,
+          45.18358
+        ],
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=24322",
+        "licence": "CC BY 4.0",
+        "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+        "precision_historique": "non_etablie"
+      },
+      "decision": "fiche_proposee_role_admin_avec_limites",
+      "classe_preuve": "P",
+      "fait_lu": "Maxime Roux sort de la clandestinité, s'installe à la préfecture de Dordogne et adresse aux maires une circulaire le 29 août 1944 ; le contexte local est Périgueux.",
+      "limite": "La fonction est attestée avant le Snapshot ou sur une période qui l’encadre ; sa continuité au 01/01/1945 est proposée, sans preuve de chaque bureau au jour exact. Aucun lien de chef-lieu validé automatiquement (R110-02).",
+      "source_id": "src-v110-perigueux-liberation",
+      "source_url": "https://archives.dordogne.fr/recenser-les-crimes-de-guerre",
+      "locator": "Introduction et circulaire du 29 août 1944, cote 1 W 1809",
+      "raccord_chef_lieu": "ne_pas_appliquer_automatiquement",
+      "reserves": [
+        "R110-01",
+        "R110-02",
+        "R110-03"
+      ]
+    },
+    {
+      "candidat": "Besançon",
+      "ville_id_proposee": "ville-fr-besancon",
+      "departement_id_reference": "subdivision-fr-doubs",
+      "reference_1940": {
+        "nom": "Besançon",
+        "annee_preuve": 1940,
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "COG_DEPARTEMENTS_1940, ligne dep=25",
+        "statut": "reference_1940_a_reconfirmer_pour_1945",
+        "reserve_id": "R2FR-05",
+        "raccord_ville": "aucune_correspondance_unique_verifiee ; ne pas créer de ville automatiquement"
+      },
+      "doublons_canoniques": [],
+      "geometrie_reference": {
+        "coordinates": [
+          6.02007,
+          47.24219
+        ],
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=25056",
+        "licence": "CC BY 4.0",
+        "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+        "precision_historique": "non_etablie"
+      },
+      "decision": "fiche_proposee_role_admin_avec_limites",
+      "classe_preuve": "C",
+      "fait_lu": "L'ancienne intendance de Besançon devient préfecture en 1800 ; la présentation officielle décrit plus de deux siècles d'accueil des services de l'État.",
+      "limite": "La fonction est attestée avant le Snapshot ou sur une période qui l’encadre ; sa continuité au 01/01/1945 est proposée, sans preuve de chaque bureau au jour exact. Aucun lien de chef-lieu validé automatiquement (R110-02).",
+      "source_id": "src-v110-besancon-histoire",
+      "source_url": "https://www.doubs.gouv.fr/Services-de-l-Etat/Prefecture-et-sous-prefectures/La-prefecture-du-Doubs-a-Besancon/Presentation-historique-et-patrimoniale-de-la-prefecture-ancienne-intendance-royale/Prefecture-du-Doubs",
+      "locator": "Présentation, préfecture depuis 1800 et continuité des services",
+      "raccord_chef_lieu": "ne_pas_appliquer_automatiquement",
+      "reserves": [
+        "R110-01",
+        "R110-02",
+        "R110-03"
+      ]
+    },
+    {
+      "candidat": "Valence",
+      "ville_id_proposee": "ville-fr-valence",
+      "departement_id_reference": "subdivision-fr-drome",
+      "reference_1940": {
+        "nom": "Valence",
+        "annee_preuve": 1940,
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "COG_DEPARTEMENTS_1940, ligne dep=26",
+        "statut": "reference_1940_a_reconfirmer_pour_1945",
+        "reserve_id": "R2FR-05",
+        "raccord_ville": "aucune_correspondance_unique_verifiee ; ne pas créer de ville automatiquement"
+      },
+      "doublons_canoniques": [],
+      "geometrie_reference": {
+        "coordinates": [
+          4.89005,
+          44.93244
+        ],
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=26362",
+        "licence": "CC BY 4.0",
+        "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+        "precision_historique": "non_etablie"
+      },
+      "decision": "fiche_proposee_role_admin_avec_limites",
+      "classe_preuve": "P",
+      "fait_lu": "La présentation départementale situe à Valence la préfecture et la libération de la ville le 31 août 1944.",
+      "limite": "La fonction est attestée avant le Snapshot ou sur une période qui l’encadre ; sa continuité au 01/01/1945 est proposée, sans preuve de chaque bureau au jour exact. Aucun lien de chef-lieu validé automatiquement (R110-02).",
+      "source_id": "src-v110-valence-liberation",
+      "source_url": "https://www.drome.gouv.fr/Actions-de-l-Etat/Citoyennete-et-elections/Devoir-de-memoire/Ceremonies-et-commemorations/Autres-ceremonies-et-commemorations/Liberation-de-la-Drome",
+      "locator": "Libération de la Drôme, 31 août 1944",
+      "raccord_chef_lieu": "ne_pas_appliquer_automatiquement",
+      "reserves": [
+        "R110-01",
+        "R110-02",
+        "R110-03"
+      ]
+    },
+    {
+      "candidat": "Évreux",
+      "ville_id_proposee": "ville-fr-evreux",
+      "departement_id_reference": "subdivision-fr-eure",
+      "reference_1940": {
+        "nom": "Évreux",
+        "annee_preuve": 1940,
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "COG_DEPARTEMENTS_1940, ligne dep=27",
+        "statut": "reference_1940_a_reconfirmer_pour_1945",
+        "reserve_id": "R2FR-05",
+        "raccord_ville": "aucune_correspondance_unique_verifiee ; ne pas créer de ville automatiquement"
+      },
+      "doublons_canoniques": [],
+      "geometrie_reference": {
+        "coordinates": [
+          1.15131,
+          49.02275
+        ],
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=27229",
+        "licence": "CC BY 4.0",
+        "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+        "precision_historique": "non_etablie"
+      },
+      "decision": "fiche_proposee_role_admin_avec_limites",
+      "classe_preuve": "P",
+      "fait_lu": "La résidence du préfet d'Évreux est déplacée rue Victor-Hugo après les destructions de 1940, puis acquise en 1942 ; le projet de reconstruction date de 1944. Le point urbain ne localise pas ces résidences.",
+      "limite": "La fonction est attestée avant le Snapshot ou sur une période qui l’encadre ; sa continuité au 01/01/1945 est proposée, sans preuve de chaque bureau au jour exact. Aucun lien de chef-lieu validé automatiquement (R110-02).",
+      "source_id": "src-v110-evreux-histoire",
+      "source_url": "https://www.eure.gouv.fr/content/download/34744/226458/file/Histoire%20de%20la%20Pr%C3%A9fecture.pdf",
+      "locator": "PDF p.1, déplacements de la résidence en 1940 et 1942",
+      "raccord_chef_lieu": "ne_pas_appliquer_automatiquement",
+      "reserves": [
+        "R110-01",
+        "R110-02",
+        "R110-03"
+      ]
+    },
+    {
+      "candidat": "Chartres",
+      "ville_id_proposee": "ville-fr-chartres",
+      "departement_id_reference": "subdivision-fr-eure-et-loir",
+      "reference_1940": {
+        "nom": "Chartres",
+        "annee_preuve": 1940,
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "COG_DEPARTEMENTS_1940, ligne dep=28",
+        "statut": "reference_1940_a_reconfirmer_pour_1945",
+        "reserve_id": "R2FR-05",
+        "raccord_ville": "aucune_correspondance_unique_verifiee ; ne pas créer de ville automatiquement"
+      },
+      "doublons_canoniques": [],
+      "geometrie_reference": {
+        "coordinates": [
+          1.4881,
+          48.44634
+        ],
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=28085",
+        "licence": "CC BY 4.0",
+        "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+        "precision_historique": "non_etablie"
+      },
+      "decision": "fiche_proposee_role_admin_avec_limites",
+      "classe_preuve": "P",
+      "fait_lu": "Le récit situe la réception des autorités par de Gaulle à la préfecture de Chartres le 23 août 1944.",
+      "limite": "La fonction est attestée avant le Snapshot ou sur une période qui l’encadre ; sa continuité au 01/01/1945 est proposée, sans preuve de chaque bureau au jour exact. Aucun lien de chef-lieu validé automatiquement (R110-02).",
+      "source_id": "src-v110-chartres-histoire",
+      "source_url": "https://www.eure-et-loir.gouv.fr/index.php/layout/set/print/Services-de-l-Etat/Prefecture-et-sous-prefectures/Histoire-de-la-prefecture",
+      "locator": "Histoire, visite du 23 août 1944",
+      "raccord_chef_lieu": "ne_pas_appliquer_automatiquement",
+      "reserves": [
+        "R110-01",
+        "R110-02",
+        "R110-03"
+      ]
+    },
+    {
+      "candidat": "Quimper",
+      "ville_id_proposee": "ville-fr-quimper",
+      "departement_id_reference": "subdivision-fr-finistere",
+      "reference_1940": {
+        "nom": "Quimper",
+        "annee_preuve": 1940,
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "COG_DEPARTEMENTS_1940, ligne dep=29",
+        "statut": "reference_1940_a_reconfirmer_pour_1945",
+        "reserve_id": "R2FR-05",
+        "raccord_ville": "aucune_correspondance_unique_verifiee ; ne pas créer de ville automatiquement"
+      },
+      "doublons_canoniques": [],
+      "geometrie_reference": {
+        "coordinates": [
+          -4.09802,
+          47.99548
+        ],
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=29232",
+        "licence": "CC BY 4.0",
+        "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+        "precision_historique": "non_etablie"
+      },
+      "decision": "fiche_proposee_role_admin_avec_limites",
+      "classe_preuve": "P",
+      "fait_lu": "Les Archives du Finistère attestent la préfecture de Quimper pendant l'Occupation et son incendie en 1944. La réinstallation exacte des bureaux après l'incendie reste en réserve.",
+      "limite": "La fonction est attestée avant le Snapshot ou sur une période qui l’encadre ; sa continuité au 01/01/1945 est proposée, sans preuve de chaque bureau au jour exact. Aucun lien de chef-lieu validé automatiquement (R110-02).",
+      "source_id": "src-v110-quimper-liberation",
+      "source_url": "https://archives.finistere.fr/rechercher/aides-la-recherche/aide-la-recherche-seconde-guerre-mondiale/la-correspondance-de-la",
+      "locator": "Correspondance Feldkommandantur 752 ; légende 4 Fi 18, préfecture en feu en 1944",
+      "raccord_chef_lieu": "ne_pas_appliquer_automatiquement",
+      "reserves": [
+        "R110-01",
+        "R110-02",
+        "R110-03"
+      ]
+    },
+    {
+      "candidat": "Nîmes",
+      "ville_id_proposee": "ville-fr-nimes",
+      "departement_id_reference": "subdivision-fr-gard",
+      "reference_1940": {
+        "nom": "Nîmes",
+        "annee_preuve": 1940,
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "COG_DEPARTEMENTS_1940, ligne dep=30",
+        "statut": "reference_1940_a_reconfirmer_pour_1945",
+        "reserve_id": "R2FR-05",
+        "raccord_ville": "aucune_correspondance_unique_verifiee ; ne pas créer de ville automatiquement"
+      },
+      "doublons_canoniques": [],
+      "geometrie_reference": {
+        "coordinates": [
+          4.35891,
+          43.83645
+        ],
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=30189",
+        "licence": "CC BY 4.0",
+        "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+        "precision_historique": "non_etablie"
+      },
+      "decision": "fiche_proposee_role_admin_avec_limites",
+      "classe_preuve": "P",
+      "fait_lu": "L'histoire des locaux et la liste des préfets relient la préfecture de Nîmes à la période 1944–1946.",
+      "limite": "La fonction est attestée avant le Snapshot ou sur une période qui l’encadre ; sa continuité au 01/01/1945 est proposée, sans preuve de chaque bureau au jour exact. Aucun lien de chef-lieu validé automatiquement (R110-02).",
+      "source_id": "src-v110-nimes-histoire",
+      "source_url": "https://www.gard.gouv.fr/Services-de-l-Etat/Prefecture-et-sous-prefectures/Prefecture/Pour-en-savoir-plus-sur-l-histoire-de-la-prefecture-les-prefets-du-Gard-et-l-administration",
+      "locator": "Liste des préfets, Paganelli 25 août 1944 et Chaumeil 1er février 1946",
+      "raccord_chef_lieu": "ne_pas_appliquer_automatiquement",
+      "reserves": [
+        "R110-01",
+        "R110-02",
+        "R110-03"
+      ]
+    },
+    {
+      "candidat": "Auch",
+      "ville_id_proposee": "ville-fr-auch",
+      "departement_id_reference": "subdivision-fr-gers",
+      "reference_1940": {
+        "nom": "Auch",
+        "annee_preuve": 1940,
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "COG_DEPARTEMENTS_1940, ligne dep=32",
+        "statut": "reference_1940_a_reconfirmer_pour_1945",
+        "reserve_id": "R2FR-05",
+        "raccord_ville": "aucune_correspondance_unique_verifiee ; ne pas créer de ville automatiquement"
+      },
+      "doublons_canoniques": [],
+      "geometrie_reference": {
+        "coordinates": [
+          0.58842,
+          43.6445
+        ],
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=32013",
+        "licence": "CC BY 4.0",
+        "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+        "precision_historique": "non_etablie"
+      },
+      "decision": "fiche_proposee_role_admin_avec_limites",
+      "classe_preuve": "P",
+      "fait_lu": "Le récit préfectoral décrit à Auch le remplacement de Caumont par Dechriste en août 1944.",
+      "limite": "La fonction est attestée avant le Snapshot ou sur une période qui l’encadre ; sa continuité au 01/01/1945 est proposée, sans preuve de chaque bureau au jour exact. Aucun lien de chef-lieu validé automatiquement (R110-02).",
+      "source_id": "src-v110-auch-liberation",
+      "source_url": "https://www.gers.gouv.fr/layout/set/print/Actualites/Devoir-de-memoire/19-aout-Liberation-de-la-ville-d-Auch",
+      "locator": "19 août — Libération d'Auch, remplacement du préfet les 20–21 août 1944",
+      "raccord_chef_lieu": "ne_pas_appliquer_automatiquement",
+      "reserves": [
+        "R110-01",
+        "R110-02",
+        "R110-03"
+      ]
+    },
+    {
+      "candidat": "Montpellier",
+      "ville_id_proposee": "ville-fr-montpellier",
+      "departement_id_reference": "subdivision-fr-herault",
+      "reference_1940": {
+        "nom": "Montpellier",
+        "annee_preuve": 1940,
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "COG_DEPARTEMENTS_1940, ligne dep=34",
+        "statut": "reference_1940_a_reconfirmer_pour_1945",
+        "reserve_id": "R2FR-05",
+        "raccord_ville": "aucune_correspondance_unique_verifiee ; ne pas créer de ville automatiquement"
+      },
+      "doublons_canoniques": [],
+      "geometrie_reference": {
+        "coordinates": [
+          3.87552,
+          43.61102
+        ],
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=34172",
+        "licence": "CC BY 4.0",
+        "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+        "precision_historique": "non_etablie"
+      },
+      "decision": "fiche_proposee_role_admin_avec_limites",
+      "classe_preuve": "C",
+      "fait_lu": "L'histoire de la préfecture de Montpellier décrit son installation en 1800 et ses agrandissements successifs ; continuité proposée avec la nomenclature de 1940.",
+      "limite": "La fonction est attestée avant le Snapshot ou sur une période qui l’encadre ; sa continuité au 01/01/1945 est proposée, sans preuve de chaque bureau au jour exact. Aucun lien de chef-lieu validé automatiquement (R110-02).",
+      "source_id": "src-v110-montpellier-histoire",
+      "source_url": "https://www.herault.gouv.fr/layout/set/print/Actualites/Infos/JEP-2026-La-prefecture-de-l-Herault/1.-Histoire-de-la-Prefecture-de-l-Herault",
+      "locator": "Installation le 25 mars 1800, agrandissements de 1867–1870",
+      "raccord_chef_lieu": "ne_pas_appliquer_automatiquement",
+      "reserves": [
+        "R110-01",
+        "R110-02",
+        "R110-03"
+      ]
+    },
+    {
+      "candidat": "Châteauroux",
+      "ville_id_proposee": "ville-fr-chateauroux",
+      "departement_id_reference": "subdivision-fr-indre",
+      "reference_1940": {
+        "nom": "Châteauroux",
+        "annee_preuve": 1940,
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "COG_DEPARTEMENTS_1940, ligne dep=36",
+        "statut": "reference_1940_a_reconfirmer_pour_1945",
+        "reserve_id": "R2FR-05",
+        "raccord_ville": "aucune_correspondance_unique_verifiee ; ne pas créer de ville automatiquement"
+      },
+      "doublons_canoniques": [],
+      "geometrie_reference": {
+        "coordinates": [
+          1.68985,
+          46.80949
+        ],
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=36044",
+        "licence": "CC BY 4.0",
+        "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+        "precision_historique": "non_etablie"
+      },
+      "decision": "fiche_proposee_role_admin_avec_limites",
+      "classe_preuve": "P",
+      "fait_lu": "La notice de Roger Cazala situe à Châteauroux des responsables du cabinet préfectoral et de la préfecture arrêtés en mai 1944. Elle ne prouve pas la composition du personnel en janvier 1945.",
+      "limite": "La fonction est attestée avant le Snapshot ou sur une période qui l’encadre ; sa continuité au 01/01/1945 est proposée, sans preuve de chaque bureau au jour exact. Aucun lien de chef-lieu validé automatiquement (R110-02).",
+      "source_id": "src-v110-chateauroux-cazala",
+      "source_url": "https://museedelaresistanceenligne.org/media9797-Plaque-en-hommage-Roger-Cazala-muse-Bertrand-Chteauroux-Indre",
+      "locator": "Contexte historique, arrestations du 30 mai 1944",
+      "raccord_chef_lieu": "ne_pas_appliquer_automatiquement",
+      "reserves": [
+        "R110-01",
+        "R110-02",
+        "R110-03"
+      ]
+    },
+    {
+      "candidat": "Grenoble",
+      "ville_id_proposee": "ville-fr-grenoble",
+      "departement_id_reference": "subdivision-fr-isere",
+      "reference_1940": {
+        "nom": "Grenoble",
+        "annee_preuve": 1940,
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "COG_DEPARTEMENTS_1940, ligne dep=38",
+        "statut": "reference_1940_a_reconfirmer_pour_1945",
+        "reserve_id": "R2FR-05",
+        "raccord_ville": "aucune_correspondance_unique_verifiee ; ne pas créer de ville automatiquement"
+      },
+      "doublons_canoniques": [],
+      "geometrie_reference": {
+        "coordinates": [
+          5.72536,
+          45.18627
+        ],
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=38185",
+        "licence": "CC BY 4.0",
+        "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+        "precision_historique": "non_etablie"
+      },
+      "decision": "fiche_proposee_role_admin_avec_limites",
+      "classe_preuve": "P",
+      "fait_lu": "Albert Reynier s'installe à la préfecture de Grenoble le 22 août 1944 ; sa qualité est officialisée le 28. Le repère moderne ne représente pas la mairie de 1944, alors à l'hôtel de Lesdiguières.",
+      "limite": "La fonction est attestée avant le Snapshot ou sur une période qui l’encadre ; sa continuité au 01/01/1945 est proposée, sans preuve de chaque bureau au jour exact. Aucun lien de chef-lieu validé automatiquement (R110-02).",
+      "source_id": "src-v110-grenoble-liberation",
+      "source_url": "https://www.grenoble.fr/613-le-theatre-de-la-liberation.htm",
+      "locator": "Le théâtre de la Libération, 22 et 28 août 1944",
+      "raccord_chef_lieu": "ne_pas_appliquer_automatiquement",
+      "reserves": [
+        "R110-01",
+        "R110-02",
+        "R110-03"
+      ]
+    },
+    {
+      "candidat": "Lons-le-Saunier",
+      "ville_id_proposee": "ville-fr-lons-le-saunier",
+      "departement_id_reference": "subdivision-fr-jura",
+      "reference_1940": {
+        "nom": "Lons-le-Saunier",
+        "annee_preuve": 1940,
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "COG_DEPARTEMENTS_1940, ligne dep=39",
+        "statut": "reference_1940_a_reconfirmer_pour_1945",
+        "reserve_id": "R2FR-05",
+        "raccord_ville": "aucune_correspondance_unique_verifiee ; ne pas créer de ville automatiquement"
+      },
+      "doublons_canoniques": [],
+      "geometrie_reference": {
+        "coordinates": [
+          5.55261,
+          46.6742
+        ],
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=39300",
+        "licence": "CC BY 4.0",
+        "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+        "precision_historique": "non_etablie"
+      },
+      "decision": "fiche_proposee_role_admin_avec_limites",
+      "classe_preuve": "P",
+      "fait_lu": "La brochure d'ECLA désigne Lons-le-Saunier comme ville préfecture du Jura dans le récit de sa libération du 25 août 1944.",
+      "limite": "La fonction est attestée avant le Snapshot ou sur une période qui l’encadre ; sa continuité au 01/01/1945 est proposée, sans preuve de chaque bureau au jour exact. Aucun lien de chef-lieu validé automatiquement (R110-02).",
+      "source_id": "src-v110-lons-liberation",
+      "source_url": "https://www.ecla-jura.fr/wp-content/uploads/2024/04/Programme-80-ans-Web.pdf",
+      "locator": "PDF p.2, textes historiques d'André Robert",
+      "raccord_chef_lieu": "ne_pas_appliquer_automatiquement",
+      "reserves": [
+        "R110-01",
+        "R110-02",
+        "R110-03"
+      ]
+    },
+    {
+      "candidat": "Mont-de-Marsan",
+      "ville_id_proposee": "ville-fr-mont-de-marsan",
+      "departement_id_reference": "subdivision-fr-landes",
+      "reference_1940": {
+        "nom": "Mont-de-Marsan",
+        "annee_preuve": 1940,
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "COG_DEPARTEMENTS_1940, ligne dep=40",
+        "statut": "reference_1940_a_reconfirmer_pour_1945",
+        "reserve_id": "R2FR-05",
+        "raccord_ville": "aucune_correspondance_unique_verifiee ; ne pas créer de ville automatiquement"
+      },
+      "doublons_canoniques": [],
+      "geometrie_reference": {
+        "coordinates": [
+          -0.50158,
+          43.88956
+        ],
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=40192",
+        "licence": "CC BY 4.0",
+        "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+        "precision_historique": "non_etablie"
+      },
+      "decision": "fiche_proposee_role_admin_avec_limites",
+      "classe_preuve": "C",
+      "fait_lu": "L'histoire des locaux préfectoraux de Mont-de-Marsan fournit les étapes de leur installation et développement ; continuité proposée avec la nomenclature de 1940.",
+      "limite": "La fonction est attestée avant le Snapshot ou sur une période qui l’encadre ; sa continuité au 01/01/1945 est proposée, sans preuve de chaque bureau au jour exact. Aucun lien de chef-lieu validé automatiquement (R110-02).",
+      "source_id": "src-v110-montdemarsan-histoire",
+      "source_url": "https://www.landes.gouv.fr/Services-de-l-Etat/Prefecture-et-sous-prefecture/La-prefecture/Historique",
+      "locator": "Historique, décret de 1808, installation en 1818, extension de 1905",
+      "raccord_chef_lieu": "ne_pas_appliquer_automatiquement",
+      "reserves": [
+        "R110-01",
+        "R110-02",
+        "R110-03"
+      ]
+    },
+    {
+      "candidat": "Blois",
+      "ville_id_proposee": "ville-fr-blois",
+      "departement_id_reference": "subdivision-fr-loir-et-cher",
+      "reference_1940": {
+        "nom": "Blois",
+        "annee_preuve": 1940,
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "COG_DEPARTEMENTS_1940, ligne dep=41",
+        "statut": "reference_1940_a_reconfirmer_pour_1945",
+        "reserve_id": "R2FR-05",
+        "raccord_ville": "aucune_correspondance_unique_verifiee ; ne pas créer de ville automatiquement"
+      },
+      "doublons_canoniques": [],
+      "geometrie_reference": {
+        "coordinates": [
+          1.32595,
+          47.59268
+        ],
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=41018",
+        "licence": "CC BY 4.0",
+        "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+        "precision_historique": "non_etablie"
+      },
+      "decision": "fiche_proposee_role_admin_avec_limites",
+      "classe_preuve": "P",
+      "fait_lu": "La biographie documente un groupe de résistants travaillant à la préfecture de Blois en 1943–1944 et l'arrestation de Dubois à proximité le 28 mars 1944.",
+      "limite": "La fonction est attestée avant le Snapshot ou sur une période qui l’encadre ; sa continuité au 01/01/1945 est proposée, sans preuve de chaque bureau au jour exact. Aucun lien de chef-lieu validé automatiquement (R110-02).",
+      "source_id": "src-v110-blois-dubois",
+      "source_url": "https://musee-resistance41.fr/1939-1945/biographies/dubois-gerard",
+      "locator": "Biographie par Stanley Thery, groupe de préfecture et arrestation du 28 mars 1944",
+      "raccord_chef_lieu": "ne_pas_appliquer_automatiquement",
+      "reserves": [
+        "R110-01",
+        "R110-02",
+        "R110-03"
+      ]
+    },
+    {
+      "candidat": "Saint-Étienne",
+      "ville_id_proposee": "ville-fr-saint-etienne",
+      "departement_id_reference": "subdivision-fr-loire",
+      "reference_1940": {
+        "nom": "Saint-Étienne",
+        "annee_preuve": 1940,
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "COG_DEPARTEMENTS_1940, ligne dep=42",
+        "statut": "reference_1940_a_reconfirmer_pour_1945",
+        "reserve_id": "R2FR-05",
+        "raccord_ville": "aucune_correspondance_unique_verifiee ; ne pas créer de ville automatiquement"
+      },
+      "doublons_canoniques": [],
+      "geometrie_reference": {
+        "coordinates": [
+          4.389,
+          45.43333
+        ],
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=42218",
+        "licence": "CC BY 4.0",
+        "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+        "precision_historique": "non_etablie"
+      },
+      "decision": "fiche_proposee_role_admin_avec_limites",
+      "classe_preuve": "C",
+      "fait_lu": "L'histoire municipale documente le transfert de la préfecture à Saint-Étienne en 1856, son nouveau bâtiment en 1902 et sa continuité au XXe siècle.",
+      "limite": "La fonction est attestée avant le Snapshot ou sur une période qui l’encadre ; sa continuité au 01/01/1945 est proposée, sans preuve de chaque bureau au jour exact. Aucun lien de chef-lieu validé automatiquement (R110-02).",
+      "source_id": "src-v110-saintetienne-histoire",
+      "source_url": "https://archives.saint-etienne.fr/histoires-stephanoises-1/tranches-dhistoire/edifices-administratifs/prefecture",
+      "locator": "Archives municipales, transfert de 1856, bâtiment de 1902 et iconographie des années 1930–1947",
+      "raccord_chef_lieu": "ne_pas_appliquer_automatiquement",
+      "reserves": [
+        "R110-01",
+        "R110-02",
+        "R110-03"
+      ]
+    },
+    {
+      "candidat": "Le Puy",
+      "ville_id_proposee": "ville-fr-le-puy",
+      "departement_id_reference": "subdivision-fr-haute-loire",
+      "reference_1940": {
+        "nom": "Le Puy",
+        "annee_preuve": 1940,
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "COG_DEPARTEMENTS_1940, ligne dep=43",
+        "statut": "reference_1940_a_reconfirmer_pour_1945",
+        "reserve_id": "R2FR-05",
+        "raccord_ville": "aucune_correspondance_unique_verifiee ; ne pas créer de ville automatiquement"
+      },
+      "doublons_canoniques": [],
+      "geometrie_reference": {
+        "coordinates": [
+          3.88395,
+          45.04314
+        ],
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=43157",
+        "licence": "CC BY 4.0",
+        "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+        "precision_historique": "non_etablie"
+      },
+      "decision": "fiche_proposee_role_admin_avec_limites",
+      "classe_preuve": "C",
+      "fait_lu": "Le bâtiment préfectoral du Puy est construit en 1822–1824 et modifié en 1932 ; continuité proposée avec la nomenclature de 1940. Le nom affiché reste Le Puy.",
+      "limite": "La fonction est attestée avant le Snapshot ou sur une période qui l’encadre ; sa continuité au 01/01/1945 est proposée, sans preuve de chaque bureau au jour exact. Aucun lien de chef-lieu validé automatiquement (R110-02).",
+      "source_id": "src-v110-puy-histoire",
+      "source_url": "https://www.haute-loire.gouv.fr/layout/set/print/Services-de-l-Etat/Prefecture-et-sous-prefectures/Prefecture-de-la-Haute-loire/Presentation-de-la-prefecture/Histoire-de-la-prefecture",
+      "locator": "Histoire de la préfecture, 1822–1824, aménagement de 1932",
+      "raccord_chef_lieu": "ne_pas_appliquer_automatiquement",
+      "reserves": [
+        "R110-01",
+        "R110-02",
+        "R110-03"
+      ]
+    },
+    {
+      "candidat": "Orléans",
+      "ville_id_proposee": "ville-fr-orleans",
+      "departement_id_reference": "subdivision-fr-loiret",
+      "reference_1940": {
+        "nom": "Orléans",
+        "annee_preuve": 1940,
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "COG_DEPARTEMENTS_1940, ligne dep=45",
+        "statut": "reference_1940_a_reconfirmer_pour_1945",
+        "reserve_id": "R2FR-05",
+        "raccord_ville": "aucune_correspondance_unique_verifiee ; ne pas créer de ville automatiquement"
+      },
+      "doublons_canoniques": [],
+      "geometrie_reference": {
+        "coordinates": [
+          1.90384,
+          47.90198
+        ],
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=45234",
+        "licence": "CC BY 4.0",
+        "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+        "precision_historique": "non_etablie"
+      },
+      "decision": "fiche_proposee_role_admin_avec_limites",
+      "classe_preuve": "R",
+      "fait_lu": "La réponse ministérielle rétrospective nomme la circonscription d'Orléans de 1941 et décrit sa continuation par les commissaires de la République en 1944. Elle ne fournit pas l'adresse effective des bureaux au 1er janvier 1945.",
+      "limite": "La preuve porte sur le niveau régional ; elle ne valide pas le chef-lieu départemental ni un bâtiment précis (R110-02).",
+      "source_id": "src-an-reponse-regions-1981-01-12",
+      "source_url": "https://archives.assemblee-nationale.fr/6/qst/6-qst-1981-01-12.pdf",
+      "locator": "JO AN 12 janvier 1981, p.164, Q37966–37967",
+      "raccord_chef_lieu": "ne_pas_appliquer_automatiquement",
+      "reserves": [
+        "R110-01",
+        "R110-02",
+        "R110-03"
+      ]
+    },
+    {
+      "candidat": "Cahors",
+      "ville_id_proposee": "ville-fr-cahors",
+      "departement_id_reference": "subdivision-fr-lot",
+      "reference_1940": {
+        "nom": "Cahors",
+        "annee_preuve": 1940,
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "COG_DEPARTEMENTS_1940, ligne dep=46",
+        "statut": "reference_1940_a_reconfirmer_pour_1945",
+        "reserve_id": "R2FR-05",
+        "raccord_ville": "aucune_correspondance_unique_verifiee ; ne pas créer de ville automatiquement"
+      },
+      "doublons_canoniques": [],
+      "geometrie_reference": {
+        "coordinates": [
+          1.44041,
+          44.44682
+        ],
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=46042",
+        "licence": "CC BY 4.0",
+        "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+        "precision_historique": "non_etablie"
+      },
+      "decision": "fiche_proposee_role_admin_avec_limites",
+      "classe_preuve": "C",
+      "fait_lu": "L'exposition officielle situe à Cahors le palais occupé par les institutions départementales et préfectorales depuis 1800, avec une continuité de plus de deux siècles.",
+      "limite": "La fonction est attestée avant le Snapshot ou sur une période qui l’encadre ; sa continuité au 01/01/1945 est proposée, sans preuve de chaque bureau au jour exact. Aucun lien de chef-lieu validé automatiquement (R110-02).",
+      "source_id": "src-v110-cahors-exposition",
+      "source_url": "https://www.lot.gouv.fr/contenu/telechargement/23584/176357/file/3.%20L'%C3%A9volution%20de%20la%20pr%C3%A9fecture.pdf",
+      "locator": "PDF p.3, partage du bâtiment pendant plus de deux siècles",
+      "raccord_chef_lieu": "ne_pas_appliquer_automatiquement",
+      "reserves": [
+        "R110-01",
+        "R110-02",
+        "R110-03"
+      ]
+    },
+    {
+      "candidat": "Agen",
+      "ville_id_proposee": "ville-fr-agen",
+      "departement_id_reference": "subdivision-fr-lot-et-garonne",
+      "reference_1940": {
+        "nom": "Agen",
+        "annee_preuve": 1940,
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "COG_DEPARTEMENTS_1940, ligne dep=47",
+        "statut": "reference_1940_a_reconfirmer_pour_1945",
+        "reserve_id": "R2FR-05",
+        "raccord_ville": "aucune_correspondance_unique_verifiee ; ne pas créer de ville automatiquement"
+      },
+      "doublons_canoniques": [],
+      "geometrie_reference": {
+        "coordinates": [
+          0.61855,
+          44.20248
+        ],
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=47001",
+        "licence": "CC BY 4.0",
+        "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+        "precision_historique": "non_etablie"
+      },
+      "decision": "fiche_proposee_role_admin_avec_limites",
+      "classe_preuve": "C",
+      "fait_lu": "L'annonce patrimoniale officielle rappelle l'installation de la préfecture dans le palais d'Agen en 1809 ; continuité proposée avec la nomenclature de 1940.",
+      "limite": "La fonction est attestée avant le Snapshot ou sur une période qui l’encadre ; sa continuité au 01/01/1945 est proposée, sans preuve de chaque bureau au jour exact. Aucun lien de chef-lieu validé automatiquement (R110-02).",
+      "source_id": "src-v110-agen-histoire",
+      "source_url": "https://www.lot-et-garonne.gouv.fr/Publications/Salle-de-presse/Communiques-de-presse/2026/La-prefecture-de-Lot-et-Garonne-ouvre-ses-portes-pour-les-Journees-Europeennes-du-Patrimoine-JEP",
+      "locator": "Présentation historique du palais, installation en 1809",
+      "raccord_chef_lieu": "ne_pas_appliquer_automatiquement",
+      "reserves": [
+        "R110-01",
+        "R110-02",
+        "R110-03"
+      ]
+    },
+    {
+      "candidat": "Mende",
+      "ville_id_proposee": "ville-fr-mende",
+      "departement_id_reference": "subdivision-fr-lozere",
+      "reference_1940": {
+        "nom": "Mende",
+        "annee_preuve": 1940,
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "COG_DEPARTEMENTS_1940, ligne dep=48",
+        "statut": "reference_1940_a_reconfirmer_pour_1945",
+        "reserve_id": "R2FR-05",
+        "raccord_ville": "aucune_correspondance_unique_verifiee ; ne pas créer de ville automatiquement"
+      },
+      "doublons_canoniques": [],
+      "geometrie_reference": {
+        "coordinates": [
+          3.49952,
+          44.51794
+        ],
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=48095",
+        "licence": "CC BY 4.0",
+        "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+        "precision_historique": "non_etablie"
+      },
+      "decision": "fiche_proposee_role_admin_avec_limites",
+      "classe_preuve": "P",
+      "fait_lu": "La brochure municipale situe les agents et bureaux de la préfecture de Lozère à Mende en 1941–1944 ; le statut après la Libération n'est pas détaillé.",
+      "limite": "La fonction est attestée avant le Snapshot ou sur une période qui l’encadre ; sa continuité au 01/01/1945 est proposée, sans preuve de chaque bureau au jour exact. Aucun lien de chef-lieu validé automatiquement (R110-02).",
+      "source_id": "src-v110-mende-resistance",
+      "source_url": "https://mende.fr/app/uploads/sites/2/2022/12/brochure-resistance-web.pdf",
+      "locator": "PDF p.12, Urbain Paradis, 1941–juin 1944",
+      "raccord_chef_lieu": "ne_pas_appliquer_automatiquement",
+      "reserves": [
+        "R110-01",
+        "R110-02",
+        "R110-03"
+      ]
+    },
+    {
+      "candidat": "Angers",
+      "ville_id_proposee": "ville-fr-angers",
+      "departement_id_reference": "subdivision-fr-maine-et-loire",
+      "reference_1940": {
+        "nom": "Angers",
+        "annee_preuve": 1940,
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "COG_DEPARTEMENTS_1940, ligne dep=49",
+        "statut": "reference_1940_a_reconfirmer_pour_1945",
+        "reserve_id": "R2FR-05",
+        "raccord_ville": "aucune_correspondance_unique_verifiee ; ne pas créer de ville automatiquement"
+      },
+      "doublons_canoniques": [],
+      "geometrie_reference": {
+        "coordinates": [
+          -0.55658,
+          47.47207
+        ],
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=49007",
+        "licence": "CC BY 4.0",
+        "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+        "precision_historique": "non_etablie"
+      },
+      "decision": "fiche_proposee_role_admin_avec_limites",
+      "classe_preuve": "P",
+      "fait_lu": "Les Archives de Maine-et-Loire décrivent l'installation des nouvelles autorités à la préfecture d'Angers le 10 août 1944 et la proclamation du commissaire Michel Debré.",
+      "limite": "La fonction est attestée avant le Snapshot ou sur une période qui l’encadre ; sa continuité au 01/01/1945 est proposée, sans preuve de chaque bureau au jour exact. Aucun lien de chef-lieu validé automatiquement (R110-02).",
+      "source_id": "src-v110-angers-liberation",
+      "source_url": "https://archives.maine-et-loire.fr/tous-les-documents-du-moment/detail-dun-document/jeudi-10-aout-1944",
+      "locator": "Notice du 10 août 1944 ; AD49, 48 W 3 et 7 Fi 1497",
+      "raccord_chef_lieu": "ne_pas_appliquer_automatiquement",
+      "reserves": [
+        "R110-01",
+        "R110-02",
+        "R110-03"
+      ]
+    },
+    {
+      "candidat": "Saint-Lô",
+      "ville_id_proposee": "ville-fr-saint-lo",
+      "departement_id_reference": "subdivision-fr-manche",
+      "reference_1940": {
+        "nom": "Saint-Lô",
+        "annee_preuve": 1940,
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "COG_DEPARTEMENTS_1940, ligne dep=50",
+        "statut": "reference_1940_a_reconfirmer_pour_1945",
+        "reserve_id": "R2FR-05",
+        "raccord_ville": "aucune_correspondance_unique_verifiee ; ne pas créer de ville automatiquement"
+      },
+      "doublons_canoniques": [],
+      "geometrie_reference": {
+        "coordinates": [
+          -1.09161,
+          49.11397
+        ],
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=50502",
+        "licence": "CC BY 4.0",
+        "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+        "precision_historique": "non_etablie"
+      },
+      "decision": "reporte_ne_pas_integrer",
+      "motif": "La brochure p.3 établit le déplacement des services à Coutances en août 1944. Le statut juridique de Saint-Lô au 1er janvier et la distinction siège/chef-lieu restent à établir ; aucune création automatique de Coutances.",
+      "sources_examinees": [
+        {
+          "cle": "saintlo-coutances",
+          "villes": [
+            "Saint-Lô"
+          ],
+          "url": "https://www.manche.gouv.fr/content/download/15389/91039/file/Plaquette%20JEP%20final%20r"
+        }
+      ],
+      "reserve_id": "R110-REPORT-50",
+      "point_non_livre": true
+    },
+    {
+      "candidat": "Châlons-sur-Marne",
+      "ville_id_proposee": "ville-fr-chalons-sur-marne",
+      "departement_id_reference": "subdivision-fr-marne",
+      "reference_1940": {
+        "nom": "Châlons-sur-Marne",
+        "annee_preuve": 1940,
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "COG_DEPARTEMENTS_1940, ligne dep=51",
+        "statut": "reference_1940_a_reconfirmer_pour_1945",
+        "reserve_id": "R2FR-05",
+        "raccord_ville": "aucune_correspondance_unique_verifiee ; ne pas créer de ville automatiquement"
+      },
+      "doublons_canoniques": [],
+      "geometrie_reference": {
+        "coordinates": [
+          4.3642,
+          48.95639
+        ],
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=51108",
+        "licence": "CC BY 4.0",
+        "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+        "precision_historique": "non_etablie"
+      },
+      "decision": "fiche_proposee_role_admin_avec_limites",
+      "classe_preuve": "P",
+      "fait_lu": "Le commentaire historique relie le rétablissement des autorités à Châlons-sur-Marne en août 1944 et l'installation de Jammes à la préfecture le 10 octobre.",
+      "limite": "La fonction est attestée avant le Snapshot ou sur une période qui l’encadre ; sa continuité au 01/01/1945 est proposée, sans preuve de chaque bureau au jour exact. Aucun lien de chef-lieu validé automatiquement (R110-02).",
+      "source_id": "src-v110-chalons-affiche",
+      "source_url": "https://www.museedelaresistanceenligne.org/media4082-Affiche-Rmois-Rmoises",
+      "locator": "Contexte historique, installation de Raymond Jammes le 10 octobre 1944",
+      "raccord_chef_lieu": "ne_pas_appliquer_automatiquement",
+      "reserves": [
+        "R110-01",
+        "R110-02",
+        "R110-03"
+      ]
+    },
+    {
+      "candidat": "Chaumont",
+      "ville_id_proposee": "ville-fr-chaumont",
+      "departement_id_reference": "subdivision-fr-haute-marne",
+      "reference_1940": {
+        "nom": "Chaumont",
+        "annee_preuve": 1940,
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "COG_DEPARTEMENTS_1940, ligne dep=52",
+        "statut": "reference_1940_a_reconfirmer_pour_1945",
+        "reserve_id": "R2FR-05",
+        "raccord_ville": "aucune_correspondance_unique_verifiee ; ne pas créer de ville automatiquement"
+      },
+      "doublons_canoniques": [],
+      "geometrie_reference": {
+        "coordinates": [
+          5.13803,
+          48.11089
+        ],
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=52121",
+        "licence": "CC BY 4.0",
+        "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+        "precision_historique": "non_etablie"
+      },
+      "decision": "fiche_proposee_role_admin_avec_limites",
+      "classe_preuve": "P",
+      "fait_lu": "La chronologie municipale situe les véhicules de la 2e DB puis les autorités et cérémonies autour de la préfecture de Chaumont en septembre 1944.",
+      "limite": "La fonction est attestée avant le Snapshot ou sur une période qui l’encadre ; sa continuité au 01/01/1945 est proposée, sans preuve de chaque bureau au jour exact. Aucun lien de chef-lieu validé automatiquement (R110-02).",
+      "source_id": "src-v110-chaumont-liberation",
+      "source_url": "https://www.ville-chaumont.fr/actualites/le-13-septembre-1944-chaumont-est-libere/",
+      "locator": "Chronologie du 13 septembre 1944, 15 heures",
+      "raccord_chef_lieu": "ne_pas_appliquer_automatiquement",
+      "reserves": [
+        "R110-01",
+        "R110-02",
+        "R110-03"
+      ]
+    },
+    {
+      "candidat": "Laval",
+      "ville_id_proposee": "ville-fr-laval",
+      "departement_id_reference": "subdivision-fr-mayenne",
+      "reference_1940": {
+        "nom": "Laval",
+        "annee_preuve": 1940,
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "COG_DEPARTEMENTS_1940, ligne dep=53",
+        "statut": "reference_1940_a_reconfirmer_pour_1945",
+        "reserve_id": "R2FR-05",
+        "raccord_ville": "aucune_correspondance_unique_verifiee ; ne pas créer de ville automatiquement"
+      },
+      "doublons_canoniques": [],
+      "geometrie_reference": {
+        "coordinates": [
+          -0.77036,
+          48.07265
+        ],
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=53130",
+        "licence": "CC BY 4.0",
+        "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+        "precision_historique": "non_etablie"
+      },
+      "decision": "fiche_proposee_role_admin_avec_limites",
+      "classe_preuve": "P",
+      "fait_lu": "Les Archives de la Mayenne décrivent l'accueil par le préfet Dupérier et la réception à la préfecture de Laval le 22 août 1944.",
+      "limite": "La fonction est attestée avant le Snapshot ou sur une période qui l’encadre ; sa continuité au 01/01/1945 est proposée, sans preuve de chaque bureau au jour exact. Aucun lien de chef-lieu validé automatiquement (R110-02).",
+      "source_id": "src-v110-laval-liberation",
+      "source_url": "https://archives.lamayenne.fr/article/il-y-75-ans-le-general-de-gaulle-laval",
+      "locator": "Visite de de Gaulle le 22 août 1944",
+      "raccord_chef_lieu": "ne_pas_appliquer_automatiquement",
+      "reserves": [
+        "R110-01",
+        "R110-02",
+        "R110-03"
+      ]
+    },
+    {
+      "candidat": "Nancy",
+      "ville_id_proposee": "ville-fr-nancy",
+      "departement_id_reference": "subdivision-fr-meurthe-et-moselle",
+      "reference_1940": {
+        "nom": "Nancy",
+        "annee_preuve": 1940,
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "COG_DEPARTEMENTS_1940, ligne dep=54",
+        "statut": "reference_1940_a_reconfirmer_pour_1945",
+        "reserve_id": "R2FR-05",
+        "raccord_ville": "aucune_correspondance_unique_verifiee ; ne pas créer de ville automatiquement"
+      },
+      "doublons_canoniques": [],
+      "geometrie_reference": {
+        "coordinates": [
+          6.18271,
+          48.69236
+        ],
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=54395",
+        "licence": "CC BY 4.0",
+        "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+        "precision_historique": "non_etablie"
+      },
+      "decision": "fiche_proposee_role_admin_avec_limites",
+      "classe_preuve": "R",
+      "fait_lu": "La réponse ministérielle nomme la circonscription de Nancy créée en 1941 et la continuité des ressorts par les commissaires de la République en 1944. L'adresse des bureaux et le lien départemental exact restent à confirmer.",
+      "limite": "La preuve porte sur le niveau régional ; elle ne valide pas le chef-lieu départemental ni un bâtiment précis (R110-02).",
+      "source_id": "src-an-reponse-regions-1981-01-12",
+      "source_url": "https://archives.assemblee-nationale.fr/6/qst/6-qst-1981-01-12.pdf",
+      "locator": "JO AN 12 janvier 1981, p.164, Q37966–37967",
+      "raccord_chef_lieu": "ne_pas_appliquer_automatiquement",
+      "reserves": [
+        "R110-01",
+        "R110-02",
+        "R110-03"
+      ]
+    },
+    {
+      "candidat": "Bar-le-Duc",
+      "ville_id_proposee": "ville-fr-bar-le-duc",
+      "departement_id_reference": "subdivision-fr-meuse",
+      "reference_1940": {
+        "nom": "Bar-le-Duc",
+        "annee_preuve": 1940,
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "COG_DEPARTEMENTS_1940, ligne dep=55",
+        "statut": "reference_1940_a_reconfirmer_pour_1945",
+        "reserve_id": "R2FR-05",
+        "raccord_ville": "aucune_correspondance_unique_verifiee ; ne pas créer de ville automatiquement"
+      },
+      "doublons_canoniques": [],
+      "geometrie_reference": {
+        "coordinates": [
+          5.16642,
+          48.77094
+        ],
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=55029",
+        "licence": "CC BY 4.0",
+        "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+        "precision_historique": "non_etablie"
+      },
+      "decision": "fiche_proposee_role_admin_avec_limites",
+      "classe_preuve": "C",
+      "fait_lu": "L'histoire officielle relie Bar-le-Duc aux locaux préfectoraux avant et après la guerre ; continuité proposée entre ces jalons, sans déduire l'adresse de chaque service en 1945.",
+      "limite": "La fonction est attestée avant le Snapshot ou sur une période qui l’encadre ; sa continuité au 01/01/1945 est proposée, sans preuve de chaque bureau au jour exact. Aucun lien de chef-lieu validé automatiquement (R110-02).",
+      "source_id": "src-v110-barleduc-histoire",
+      "source_url": "https://www.meuse.gouv.fr/Services-de-l-Etat/Prefecture-et-sous-prefectures/La-Prefecture-de-la-Meuse/La-prefecture",
+      "locator": "Historique, centre administratif au XIXe siècle, façade 1906, visite de 1950",
+      "raccord_chef_lieu": "ne_pas_appliquer_automatiquement",
+      "reserves": [
+        "R110-01",
+        "R110-02",
+        "R110-03"
+      ]
+    },
+    {
+      "candidat": "Vannes",
+      "ville_id_proposee": "ville-fr-vannes",
+      "departement_id_reference": "subdivision-fr-morbihan",
+      "reference_1940": {
+        "nom": "Vannes",
+        "annee_preuve": 1940,
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "COG_DEPARTEMENTS_1940, ligne dep=56",
+        "statut": "reference_1940_a_reconfirmer_pour_1945",
+        "reserve_id": "R2FR-05",
+        "raccord_ville": "aucune_correspondance_unique_verifiee ; ne pas créer de ville automatiquement"
+      },
+      "doublons_canoniques": [],
+      "geometrie_reference": {
+        "coordinates": [
+          -2.76272,
+          47.65438
+        ],
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=56260",
+        "licence": "CC BY 4.0",
+        "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+        "precision_historique": "non_etablie"
+      },
+      "decision": "fiche_proposee_role_admin_avec_limites",
+      "classe_preuve": "P",
+      "fait_lu": "La page des Archives du Morbihan décrit à Vannes le départ de Constant et l'installation de Jacques Onfroy comme préfet le 4 août 1944.",
+      "limite": "La fonction est attestée avant le Snapshot ou sur une période qui l’encadre ; sa continuité au 01/01/1945 est proposée, sans preuve de chaque bureau au jour exact. Aucun lien de chef-lieu validé automatiquement (R110-02).",
+      "source_id": "src-v110-vannes-liberation",
+      "source_url": "https://patrimoines-archives.morbihan.fr/decouvrir/instants-dhistoire/les-millesimes-du-patrimoine/la-liberation-du-morbihan",
+      "locator": "Libération du Morbihan, 4 août 1944",
+      "raccord_chef_lieu": "ne_pas_appliquer_automatiquement",
+      "reserves": [
+        "R110-01",
+        "R110-02",
+        "R110-03"
+      ]
+    },
+    {
+      "candidat": "Nevers",
+      "ville_id_proposee": "ville-fr-nevers",
+      "departement_id_reference": "subdivision-fr-nievre",
+      "reference_1940": {
+        "nom": "Nevers",
+        "annee_preuve": 1940,
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "COG_DEPARTEMENTS_1940, ligne dep=58",
+        "statut": "reference_1940_a_reconfirmer_pour_1945",
+        "reserve_id": "R2FR-05",
+        "raccord_ville": "aucune_correspondance_unique_verifiee ; ne pas créer de ville automatiquement"
+      },
+      "doublons_canoniques": [],
+      "geometrie_reference": {
+        "coordinates": [
+          3.15658,
+          46.99241
+        ],
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=58194",
+        "licence": "CC BY 4.0",
+        "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+        "precision_historique": "non_etablie"
+      },
+      "decision": "fiche_proposee_role_admin_avec_limites",
+      "classe_preuve": "P",
+      "fait_lu": "L'ouvrage décrit la prise de possession de la préfecture de Nevers par Jaquin à la Libération de septembre 1944 ; aucune date de contrôle militaire n'est encodée ici.",
+      "limite": "La fonction est attestée avant le Snapshot ou sur une période qui l’encadre ; sa continuité au 01/01/1945 est proposée, sans preuve de chaque bureau au jour exact. Aucun lien de chef-lieu validé automatiquement (R110-02).",
+      "source_id": "src-v110-nevers-prefecture",
+      "source_url": "https://api.pageplace.de/preview/DT0400.9782296461680_A24236577/preview-9782296461680_A24236577.pdf",
+      "locator": "Jean Battut, François Mitterrand le Nivernais, 2011, p.28",
+      "raccord_chef_lieu": "ne_pas_appliquer_automatiquement",
+      "reserves": [
+        "R110-01",
+        "R110-02",
+        "R110-03"
+      ]
+    },
+    {
+      "candidat": "Beauvais",
+      "ville_id_proposee": "ville-fr-beauvais",
+      "departement_id_reference": "subdivision-fr-oise",
+      "reference_1940": {
+        "nom": "Beauvais",
+        "annee_preuve": 1940,
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "COG_DEPARTEMENTS_1940, ligne dep=60",
+        "statut": "reference_1940_a_reconfirmer_pour_1945",
+        "reserve_id": "R2FR-05",
+        "raccord_ville": "aucune_correspondance_unique_verifiee ; ne pas créer de ville automatiquement"
+      },
+      "doublons_canoniques": [],
+      "geometrie_reference": {
+        "coordinates": [
+          2.08627,
+          49.43359
+        ],
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=60057",
+        "licence": "CC BY 4.0",
+        "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+        "precision_historique": "non_etablie"
+      },
+      "decision": "fiche_proposee_role_admin_avec_limites",
+      "classe_preuve": "P",
+      "fait_lu": "La brochure officielle décrit Beauvais comme siège de la préfecture durant l'Occupation et des agents préfectoraux actifs jusqu'en 1944.",
+      "limite": "La fonction est attestée avant le Snapshot ou sur une période qui l’encadre ; sa continuité au 01/01/1945 est proposée, sans preuve de chaque bureau au jour exact. Aucun lien de chef-lieu validé automatiquement (R110-02).",
+      "source_id": "src-v110-beauvais-liberation",
+      "source_url": "https://www.oise.gouv.fr/contenu/telechargement/25050/169845/file/Les%2Bcommunes%2Bd%C3%A9cor%C3%A9es%2Bde%2Bl%27Oise%2Bde%2Bla%2Bcroix%2Bde%2Bguerre.pdf",
+      "locator": "PDF p.16, imprimée 14, résistance face à l'occupant",
+      "raccord_chef_lieu": "ne_pas_appliquer_automatiquement",
+      "reserves": [
+        "R110-01",
+        "R110-02",
+        "R110-03"
+      ]
+    },
+    {
+      "candidat": "Alençon",
+      "ville_id_proposee": "ville-fr-alencon",
+      "departement_id_reference": "subdivision-fr-orne",
+      "reference_1940": {
+        "nom": "Alençon",
+        "annee_preuve": 1940,
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "COG_DEPARTEMENTS_1940, ligne dep=61",
+        "statut": "reference_1940_a_reconfirmer_pour_1945",
+        "reserve_id": "R2FR-05",
+        "raccord_ville": "aucune_correspondance_unique_verifiee ; ne pas créer de ville automatiquement"
+      },
+      "doublons_canoniques": [],
+      "geometrie_reference": {
+        "coordinates": [
+          0.09162,
+          48.42933
+        ],
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=61001",
+        "licence": "CC BY 4.0",
+        "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+        "precision_historique": "non_etablie"
+      },
+      "decision": "fiche_proposee_role_admin_avec_limites",
+      "classe_preuve": "P",
+      "fait_lu": "La notice des Archives de l'Orne situe à Alençon la prise de fonctions du préfet Robert Lécuyer en août 1944 et décrit son arrêté de nomination.",
+      "limite": "La fonction est attestée avant le Snapshot ou sur une période qui l’encadre ; sa continuité au 01/01/1945 est proposée, sans preuve de chaque bureau au jour exact. Aucun lien de chef-lieu validé automatiquement (R110-02).",
+      "source_id": "src-v110-alencon-liberation",
+      "source_url": "https://archives.orne.fr/document/la-nomination-de-robert-lecuyer-prefet-de-la-republique",
+      "locator": "Notice de l'arrêté du 15 août 1944, AD61 1 W 245",
+      "raccord_chef_lieu": "ne_pas_appliquer_automatiquement",
+      "reserves": [
+        "R110-01",
+        "R110-02",
+        "R110-03"
+      ]
+    },
+    {
+      "candidat": "Arras",
+      "ville_id_proposee": "ville-fr-arras",
+      "departement_id_reference": "subdivision-fr-pas-de-calais",
+      "reference_1940": {
+        "nom": "Arras",
+        "annee_preuve": 1940,
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "COG_DEPARTEMENTS_1940, ligne dep=62",
+        "statut": "reference_1940_a_reconfirmer_pour_1945",
+        "reserve_id": "R2FR-05",
+        "raccord_ville": "aucune_correspondance_unique_verifiee ; ne pas créer de ville automatiquement"
+      },
+      "doublons_canoniques": [],
+      "geometrie_reference": {
+        "coordinates": [
+          2.77998,
+          50.28848
+        ],
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=62041",
+        "licence": "CC BY 4.0",
+        "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+        "precision_historique": "non_etablie"
+      },
+      "decision": "fiche_proposee_role_admin_avec_limites",
+      "classe_preuve": "C",
+      "fait_lu": "L'histoire du bâtiment préfectoral d'Arras fournit des jalons avant et après la Seconde Guerre mondiale ; continuité proposée avec la nomenclature de 1940.",
+      "limite": "La fonction est attestée avant le Snapshot ou sur une période qui l’encadre ; sa continuité au 01/01/1945 est proposée, sans preuve de chaque bureau au jour exact. Aucun lien de chef-lieu validé automatiquement (R110-02).",
+      "source_id": "src-v110-arras-histoire",
+      "source_url": "https://www.pas-de-calais.gouv.fr/Services-de-l-Etat/Prefecture/Visite-guidee-de-la-Prefecture/L-hotel-de-la-Prefecture",
+      "locator": "Hôtel de la préfecture, dommages de 1914–1918 et nouveaux bureaux de 1965",
+      "raccord_chef_lieu": "ne_pas_appliquer_automatiquement",
+      "reserves": [
+        "R110-01",
+        "R110-02",
+        "R110-03"
+      ]
+    },
+    {
+      "candidat": "Clermont-Ferrand",
+      "ville_id_proposee": "ville-fr-clermont-ferrand",
+      "departement_id_reference": "subdivision-fr-puy-de-dome",
+      "reference_1940": {
+        "nom": "Clermont-Ferrand",
+        "annee_preuve": 1940,
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "COG_DEPARTEMENTS_1940, ligne dep=63",
+        "statut": "reference_1940_a_reconfirmer_pour_1945",
+        "reserve_id": "R2FR-05",
+        "raccord_ville": "aucune_correspondance_unique_verifiee ; ne pas créer de ville automatiquement"
+      },
+      "doublons_canoniques": [],
+      "geometrie_reference": {
+        "coordinates": [
+          3.08623,
+          45.77958
+        ],
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=63113",
+        "licence": "CC BY 4.0",
+        "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+        "precision_historique": "non_etablie"
+      },
+      "decision": "fiche_proposee_role_admin_avec_limites",
+      "classe_preuve": "P",
+      "fait_lu": "Le dossier pédagogique des Archives du Puy-de-Dôme identifie un plan du quartier de la préfecture de Clermont-Ferrand daté de 1942–1944 ; le plan détaillé n'a pas été relu séparément.",
+      "limite": "La fonction est attestée avant le Snapshot ou sur une période qui l’encadre ; sa continuité au 01/01/1945 est proposée, sans preuve de chaque bureau au jour exact. Aucun lien de chef-lieu validé automatiquement (R110-02).",
+      "source_id": "src-v110-clermont-liberation",
+      "source_url": "https://pedagogie.ac-clermont.fr/disciplines/histoire-geographie/wp-content/uploads/sites/3/2024/11/CNRD-2024-2025-AD-63.pdf",
+      "locator": "PDF p.6, plan 1942–1944, AD63 900 W 51",
+      "raccord_chef_lieu": "ne_pas_appliquer_automatiquement",
+      "reserves": [
+        "R110-01",
+        "R110-02",
+        "R110-03"
+      ]
+    },
+    {
+      "candidat": "Pau",
+      "ville_id_proposee": "ville-fr-pau",
+      "departement_id_reference": "subdivision-fr-pyrenees-atlantiques",
+      "reference_1940": {
+        "nom": "Pau",
+        "annee_preuve": 1940,
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "COG_DEPARTEMENTS_1940, ligne dep=64",
+        "statut": "reference_1940_a_reconfirmer_pour_1945",
+        "reserve_id": "R2FR-05",
+        "raccord_ville": "aucune_correspondance_unique_verifiee ; ne pas créer de ville automatiquement"
+      },
+      "doublons_canoniques": [],
+      "geometrie_reference": {
+        "coordinates": [
+          -0.37085,
+          43.3002
+        ],
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=64445",
+        "licence": "CC BY 4.0",
+        "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+        "precision_historique": "non_etablie"
+      },
+      "decision": "reporte_ne_pas_integrer",
+      "motif": "La médiathèque et son ancienne page ont refusé l’accès ; le résultat indexé sur Baylot n’est pas traité comme lecture de la source.",
+      "sources_examinees": [
+        {
+          "cle": "pau-resistance",
+          "villes": [
+            "Pau"
+          ],
+          "url": "https://mediatheques.agglo-pau.fr/actualites/760-refus-et-resistance-a-pau"
+        }
+      ],
+      "reserve_id": "R110-REPORT-64",
+      "point_non_livre": true
+    },
+    {
+      "candidat": "Tarbes",
+      "ville_id_proposee": "ville-fr-tarbes",
+      "departement_id_reference": "subdivision-fr-hautes-pyrenees",
+      "reference_1940": {
+        "nom": "Tarbes",
+        "annee_preuve": 1940,
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "COG_DEPARTEMENTS_1940, ligne dep=65",
+        "statut": "reference_1940_a_reconfirmer_pour_1945",
+        "reserve_id": "R2FR-05",
+        "raccord_ville": "aucune_correspondance_unique_verifiee ; ne pas créer de ville automatiquement"
+      },
+      "doublons_canoniques": [],
+      "geometrie_reference": {
+        "coordinates": [
+          0.07389,
+          43.23214
+        ],
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=65440",
+        "licence": "CC BY 4.0",
+        "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+        "precision_historique": "non_etablie"
+      },
+      "decision": "fiche_proposee_role_admin_avec_limites",
+      "classe_preuve": "C",
+      "fait_lu": "La page officielle indique une installation préfectorale à Tarbes depuis 1800, puis des transformations dans les années 1930 ; continuité historique explicitée par cette source.",
+      "limite": "La fonction est attestée avant le Snapshot ou sur une période qui l’encadre ; sa continuité au 01/01/1945 est proposée, sans preuve de chaque bureau au jour exact. Aucun lien de chef-lieu validé automatiquement (R110-02).",
+      "source_id": "src-v110-tarbes-histoire",
+      "source_url": "https://www.hautes-pyrenees.gouv.fr/layout/set/print/Services-de-l-Etat/Prefecture-et-sous-prefectures/Prefecture/Du-palais-episcopal-a-l-hotel-de-la-prefecture",
+      "locator": "Du palais épiscopal à l'hôtel, installation depuis 1800 et bâtiment des années 1930",
+      "raccord_chef_lieu": "ne_pas_appliquer_automatiquement",
+      "reserves": [
+        "R110-01",
+        "R110-02",
+        "R110-03"
+      ]
+    },
+    {
+      "candidat": "Perpignan",
+      "ville_id_proposee": "ville-fr-perpignan",
+      "departement_id_reference": "subdivision-fr-pyrenees-orientales",
+      "reference_1940": {
+        "nom": "Perpignan",
+        "annee_preuve": 1940,
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "COG_DEPARTEMENTS_1940, ligne dep=66",
+        "statut": "reference_1940_a_reconfirmer_pour_1945",
+        "reserve_id": "R2FR-05",
+        "raccord_ville": "aucune_correspondance_unique_verifiee ; ne pas créer de ville automatiquement"
+      },
+      "doublons_canoniques": [],
+      "geometrie_reference": {
+        "coordinates": [
+          2.89395,
+          42.69706
+        ],
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=66136",
+        "licence": "CC BY 4.0",
+        "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+        "precision_historique": "non_etablie"
+      },
+      "decision": "reporte_ne_pas_integrer",
+      "motif": "La recherche signale un témoignage sur l’occupation de la préfecture ; la page reçue est un inventaire général, sans consultation du témoignage, soumis à autorisation.",
+      "sources_examinees": [
+        {
+          "cle": "perpignan-inventaire",
+          "villes": [
+            "Perpignan"
+          ],
+          "url": "https://archives.humatheque-condorcet.fr/archive/fonds/FRCC_119266/inventaire?RECH_eadid=FRCC_119266&RECH_index=1193719&type=basic"
+        }
+      ],
+      "reserve_id": "R110-REPORT-66",
+      "point_non_livre": true
+    },
+    {
+      "candidat": "Colmar",
+      "ville_id_proposee": "ville-fr-colmar",
+      "departement_id_reference": "subdivision-fr-haut-rhin",
+      "reference_1940": {
+        "nom": "Colmar",
+        "annee_preuve": 1940,
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "COG_DEPARTEMENTS_1940, ligne dep=68",
+        "statut": "reference_1940_a_reconfirmer_pour_1945",
+        "reserve_id": "R2FR-05",
+        "raccord_ville": "aucune_correspondance_unique_verifiee ; ne pas créer de ville automatiquement"
+      },
+      "doublons_canoniques": [],
+      "geometrie_reference": {
+        "coordinates": [
+          7.35451,
+          48.08043
+        ],
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=68066",
+        "licence": "CC BY 4.0",
+        "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+        "precision_historique": "non_etablie"
+      },
+      "decision": "reporte_ne_pas_integrer",
+      "motif": "Le discours préfectoral place la libération au 2 février 1945. Il ne prouve pas le fonctionnement d’une préfecture française à Colmar au 1er janvier ; le régime administratif effectif reste à qualifier.",
+      "sources_examinees": [
+        {
+          "cle": "colmar-discours",
+          "villes": [
+            "Colmar"
+          ],
+          "url": "https://www.haut-rhin.gouv.fr/contenu/telechargement/29303/181071/file/Discours%20Pr%C3%A9fet%20-%2075e%20anniversaire%20lib%C3%A9ration%20de%20COLMAR.pdf"
+        }
+      ],
+      "reserve_id": "R110-REPORT-68",
+      "point_non_livre": true
+    },
+    {
+      "candidat": "Vesoul",
+      "ville_id_proposee": "ville-fr-vesoul",
+      "departement_id_reference": "subdivision-fr-haute-saone",
+      "reference_1940": {
+        "nom": "Vesoul",
+        "annee_preuve": 1940,
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "COG_DEPARTEMENTS_1940, ligne dep=70",
+        "statut": "reference_1940_a_reconfirmer_pour_1945",
+        "reserve_id": "R2FR-05",
+        "raccord_ville": "aucune_correspondance_unique_verifiee ; ne pas créer de ville automatiquement"
+      },
+      "doublons_canoniques": [],
+      "geometrie_reference": {
+        "coordinates": [
+          6.15479,
+          47.62148
+        ],
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=70550",
+        "licence": "CC BY 4.0",
+        "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+        "precision_historique": "non_etablie"
+      },
+      "decision": "fiche_proposee_role_admin_avec_limites",
+      "classe_preuve": "P",
+      "fait_lu": "Le fac-similé montre un arrêté du préfet de Haute-Saône daté à Vesoul du 4 octobre 1944 ; le commentaire situe l'installation de Thomassin en septembre.",
+      "limite": "La fonction est attestée avant le Snapshot ou sur une période qui l’encadre ; sa continuité au 01/01/1945 est proposée, sans preuve de chaque bureau au jour exact. Aucun lien de chef-lieu validé automatiquement (R110-02).",
+      "source_id": "src-v110-auxerre-resistance",
+      "source_url": "https://hg.ac-besancon.fr/wp-content/uploads/sites/63/2024/11/Brochure2025v2.pdf",
+      "locator": "PDF p.49, arrêté du 4 octobre 1944, AD70 216 W 23",
+      "raccord_chef_lieu": "ne_pas_appliquer_automatiquement",
+      "reserves": [
+        "R110-01",
+        "R110-02",
+        "R110-03"
+      ]
+    },
+    {
+      "candidat": "Mâcon",
+      "ville_id_proposee": "ville-fr-macon",
+      "departement_id_reference": "subdivision-fr-saone-et-loire",
+      "reference_1940": {
+        "nom": "Mâcon",
+        "annee_preuve": 1940,
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "COG_DEPARTEMENTS_1940, ligne dep=71",
+        "statut": "reference_1940_a_reconfirmer_pour_1945",
+        "reserve_id": "R2FR-05",
+        "raccord_ville": "aucune_correspondance_unique_verifiee ; ne pas créer de ville automatiquement"
+      },
+      "doublons_canoniques": [],
+      "geometrie_reference": {
+        "coordinates": [
+          4.8309,
+          46.3052
+        ],
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=71270",
+        "licence": "CC BY 4.0",
+        "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+        "precision_historique": "non_etablie"
+      },
+      "decision": "fiche_proposee_role_admin_avec_limites",
+      "classe_preuve": "P",
+      "fait_lu": "Le journal reproduit annonce l'exercice des fonctions de préfet de Saône-et-Loire par Drevon à Mâcon en septembre 1944.",
+      "limite": "La fonction est attestée avant le Snapshot ou sur une période qui l’encadre ; sa continuité au 01/01/1945 est proposée, sans preuve de chaque bureau au jour exact. Aucun lien de chef-lieu validé automatiquement (R110-02).",
+      "source_id": "src-v110-auxerre-resistance",
+      "source_url": "https://hg.ac-besancon.fr/wp-content/uploads/sites/63/2024/11/Brochure2025v2.pdf",
+      "locator": "PDF p.34, Le Petit Mâconnais du 4 septembre 1944",
+      "raccord_chef_lieu": "ne_pas_appliquer_automatiquement",
+      "reserves": [
+        "R110-01",
+        "R110-02",
+        "R110-03"
+      ]
+    },
+    {
+      "candidat": "Chambéry",
+      "ville_id_proposee": "ville-fr-chambery",
+      "departement_id_reference": "subdivision-fr-savoie",
+      "reference_1940": {
+        "nom": "Chambéry",
+        "annee_preuve": 1940,
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "COG_DEPARTEMENTS_1940, ligne dep=73",
+        "statut": "reference_1940_a_reconfirmer_pour_1945",
+        "reserve_id": "R2FR-05",
+        "raccord_ville": "aucune_correspondance_unique_verifiee ; ne pas créer de ville automatiquement"
+      },
+      "doublons_canoniques": [],
+      "geometrie_reference": {
+        "coordinates": [
+          5.91978,
+          45.56611
+        ],
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=73065",
+        "licence": "CC BY 4.0",
+        "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+        "precision_historique": "non_etablie"
+      },
+      "decision": "fiche_proposee_role_admin_avec_limites",
+      "classe_preuve": "P",
+      "fait_lu": "L'encart des archives municipales décrit la préfecture de Chambéry investie par la Résistance le 23 août 1944 ; les transformations postérieures ne sont pas anticipées.",
+      "limite": "La fonction est attestée avant le Snapshot ou sur une période qui l’encadre ; sa continuité au 01/01/1945 est proposée, sans preuve de chaque bureau au jour exact. Aucun lien de chef-lieu validé automatiquement (R110-02).",
+      "source_id": "src-v110-chambery-liberation",
+      "source_url": "https://www.chambery.fr/264-les-publications.htm?readFile=500",
+      "locator": "PDF p.1, encart Hôtel de ville — Chambéry se relève",
+      "raccord_chef_lieu": "ne_pas_appliquer_automatiquement",
+      "reserves": [
+        "R110-01",
+        "R110-02",
+        "R110-03"
+      ]
+    },
+    {
+      "candidat": "Annecy",
+      "ville_id_proposee": "ville-fr-annecy",
+      "departement_id_reference": "subdivision-fr-haute-savoie",
+      "reference_1940": {
+        "nom": "Annecy",
+        "annee_preuve": 1940,
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "COG_DEPARTEMENTS_1940, ligne dep=74",
+        "statut": "reference_1940_a_reconfirmer_pour_1945",
+        "reserve_id": "R2FR-05",
+        "raccord_ville": "aucune_correspondance_unique_verifiee ; ne pas créer de ville automatiquement"
+      },
+      "doublons_canoniques": [],
+      "geometrie_reference": {
+        "coordinates": [
+          6.1297,
+          45.8984
+        ],
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=74010",
+        "licence": "CC BY 4.0",
+        "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+        "precision_historique": "non_etablie"
+      },
+      "decision": "reporte_ne_pas_integrer",
+      "motif": "La page officielle prouve la libération locale en août 1944 mais ne localise pas les services préfectoraux à la date ; l’inventaire SHD complémentaire n’a pas été obtenu.",
+      "sources_examinees": [
+        {
+          "cle": "annecy-liberation",
+          "villes": [
+            "Annecy"
+          ],
+          "url": "https://www.haute-savoie.gouv.fr/Actualites/Memoire/Liberation-de-la-Haute-Savoie"
+        }
+      ],
+      "reserve_id": "R110-REPORT-74",
+      "point_non_livre": true
+    },
+    {
+      "candidat": "Melun",
+      "ville_id_proposee": "ville-fr-melun",
+      "departement_id_reference": "subdivision-fr-seine-et-marne",
+      "reference_1940": {
+        "nom": "Melun",
+        "annee_preuve": 1940,
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "COG_DEPARTEMENTS_1940, ligne dep=77",
+        "statut": "reference_1940_a_reconfirmer_pour_1945",
+        "reserve_id": "R2FR-05",
+        "raccord_ville": "aucune_correspondance_unique_verifiee ; ne pas créer de ville automatiquement"
+      },
+      "doublons_canoniques": [],
+      "geometrie_reference": {
+        "coordinates": [
+          2.65863,
+          48.53914
+        ],
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=77288",
+        "licence": "CC BY 4.0",
+        "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+        "precision_historique": "non_etablie"
+      },
+      "decision": "fiche_proposee_role_admin_avec_limites",
+      "classe_preuve": "P",
+      "fait_lu": "Les Archives décrivent la maîtrise de la préfecture de Melun le 25 août 1944 puis l'arrivée du préfet Jean Latour le 29.",
+      "limite": "La fonction est attestée avant le Snapshot ou sur une période qui l’encadre ; sa continuité au 01/01/1945 est proposée, sans preuve de chaque bureau au jour exact. Aucun lien de chef-lieu validé automatiquement (R110-02).",
+      "source_id": "src-v110-melun-liberation",
+      "source_url": "https://archives.seine-et-marne.fr/fr/la-liberation-de-la-seine-et-marne-du-20-au-29-aout-1944",
+      "locator": "Libération du sud de la Seine-et-Marne, 25 et 29 août 1944",
+      "raccord_chef_lieu": "ne_pas_appliquer_automatiquement",
+      "reserves": [
+        "R110-01",
+        "R110-02",
+        "R110-03"
+      ]
+    },
+    {
+      "candidat": "Niort",
+      "ville_id_proposee": "ville-fr-niort",
+      "departement_id_reference": "subdivision-fr-deux-sevres",
+      "reference_1940": {
+        "nom": "Niort",
+        "annee_preuve": 1940,
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "COG_DEPARTEMENTS_1940, ligne dep=79",
+        "statut": "reference_1940_a_reconfirmer_pour_1945",
+        "reserve_id": "R2FR-05",
+        "raccord_ville": "aucune_correspondance_unique_verifiee ; ne pas créer de ville automatiquement"
+      },
+      "doublons_canoniques": [],
+      "geometrie_reference": {
+        "coordinates": [
+          -0.46243,
+          46.32496
+        ],
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=79191",
+        "licence": "CC BY 4.0",
+        "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+        "precision_historique": "non_etablie"
+      },
+      "decision": "fiche_proposee_role_admin_avec_limites",
+      "classe_preuve": "P",
+      "fait_lu": "Le circuit historique local décrit la préfecture clandestine de Hudeley à Niort puis son accueil à la préfecture lors du défilé du 6 septembre 1944.",
+      "limite": "La fonction est attestée avant le Snapshot ou sur une période qui l’encadre ; sa continuité au 01/01/1945 est proposée, sans preuve de chaque bureau au jour exact. Aucun lien de chef-lieu validé automatiquement (R110-02).",
+      "source_id": "src-v110-niort-liberation",
+      "source_url": "https://www.niortmaraispoitevin.com/circuits-et-randonnees/les-annees-heroiques-resistance-repression-et-liberation/",
+      "locator": "Circuit, étapes 10 et 11, mai et septembre 1944",
+      "raccord_chef_lieu": "ne_pas_appliquer_automatiquement",
+      "reserves": [
+        "R110-01",
+        "R110-02",
+        "R110-03"
+      ]
+    },
+    {
+      "candidat": "Amiens",
+      "ville_id_proposee": "ville-fr-amiens",
+      "departement_id_reference": "subdivision-fr-somme",
+      "reference_1940": {
+        "nom": "Amiens",
+        "annee_preuve": 1940,
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "COG_DEPARTEMENTS_1940, ligne dep=80",
+        "statut": "reference_1940_a_reconfirmer_pour_1945",
+        "reserve_id": "R2FR-05",
+        "raccord_ville": "aucune_correspondance_unique_verifiee ; ne pas créer de ville automatiquement"
+      },
+      "doublons_canoniques": [],
+      "geometrie_reference": {
+        "coordinates": [
+          2.29639,
+          49.89149
+        ],
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=80021",
+        "licence": "CC BY 4.0",
+        "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+        "precision_historique": "non_etablie"
+      },
+      "decision": "fiche_proposee_role_admin_avec_limites",
+      "classe_preuve": "P",
+      "fait_lu": "Les Archives municipales situent la libération de la préfecture et de l'hôtel de ville d'Amiens le 31 août 1944 à 7 heures.",
+      "limite": "La fonction est attestée avant le Snapshot ou sur une période qui l’encadre ; sa continuité au 01/01/1945 est proposée, sans preuve de chaque bureau au jour exact. Aucun lien de chef-lieu validé automatiquement (R110-02).",
+      "source_id": "src-v110-amiens-liberation",
+      "source_url": "https://www.amiens.fr/Vivre-a-Amiens/Culture-Patrimoine/Les-Archives-municipales-et-communautaires/Tresors-d-Archives/Tresors-d-archives/La-Liberation-d-Amiens-31-aout-1944",
+      "locator": "Chronologie du 31 août 1944, 7 heures",
+      "raccord_chef_lieu": "ne_pas_appliquer_automatiquement",
+      "reserves": [
+        "R110-01",
+        "R110-02",
+        "R110-03"
+      ]
+    },
+    {
+      "candidat": "Albi",
+      "ville_id_proposee": "ville-fr-albi",
+      "departement_id_reference": "subdivision-fr-tarn",
+      "reference_1940": {
+        "nom": "Albi",
+        "annee_preuve": 1940,
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "COG_DEPARTEMENTS_1940, ligne dep=81",
+        "statut": "reference_1940_a_reconfirmer_pour_1945",
+        "reserve_id": "R2FR-05",
+        "raccord_ville": "aucune_correspondance_unique_verifiee ; ne pas créer de ville automatiquement"
+      },
+      "doublons_canoniques": [],
+      "geometrie_reference": {
+        "coordinates": [
+          2.14452,
+          43.92795
+        ],
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=81004",
+        "licence": "CC BY 4.0",
+        "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+        "precision_historique": "non_etablie"
+      },
+      "decision": "fiche_proposee_role_admin_avec_limites",
+      "classe_preuve": "P",
+      "fait_lu": "La lettre d'Alfred Kahn du 31 octobre 1944 est adressée au préfet du Tarn à Albi ; la transcription est publiée par les Archives de l'Orne.",
+      "limite": "La fonction est attestée avant le Snapshot ou sur une période qui l’encadre ; sa continuité au 01/01/1945 est proposée, sans preuve de chaque bureau au jour exact. Aucun lien de chef-lieu validé automatiquement (R110-02).",
+      "source_id": "src-v110-albi-prefet",
+      "source_url": "https://archives.orne.fr/document/apres-la-liberation-alfred-fait-une-demande-daide-en-tant-que-refugie",
+      "locator": "Transcription de la lettre du 31 octobre 1944, AD81 348 W 509",
+      "raccord_chef_lieu": "ne_pas_appliquer_automatiquement",
+      "reserves": [
+        "R110-01",
+        "R110-02",
+        "R110-03"
+      ]
+    },
+    {
+      "candidat": "Montauban",
+      "ville_id_proposee": "ville-fr-montauban",
+      "departement_id_reference": "subdivision-fr-tarn-et-garonne",
+      "reference_1940": {
+        "nom": "Montauban",
+        "annee_preuve": 1940,
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "COG_DEPARTEMENTS_1940, ligne dep=82",
+        "statut": "reference_1940_a_reconfirmer_pour_1945",
+        "reserve_id": "R2FR-05",
+        "raccord_ville": "aucune_correspondance_unique_verifiee ; ne pas créer de ville automatiquement"
+      },
+      "doublons_canoniques": [],
+      "geometrie_reference": {
+        "coordinates": [
+          1.35488,
+          44.01704
+        ],
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=82121",
+        "licence": "CC BY 4.0",
+        "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+        "precision_historique": "non_etablie"
+      },
+      "decision": "fiche_proposee_role_admin_avec_limites",
+      "classe_preuve": "P",
+      "fait_lu": "L'extrait historique publié par l'association de mémoire du Tarn-et-Garonne situe l'installation du comité départemental de Libération avec le nouveau préfet à la préfecture le 25 août 1944.",
+      "limite": "La fonction est attestée avant le Snapshot ou sur une période qui l’encadre ; sa continuité au 01/01/1945 est proposée, sans preuve de chaque bureau au jour exact. Aucun lien de chef-lieu validé automatiquement (R110-02).",
+      "source_id": "src-v110-montauban-institutions",
+      "source_url": "https://resistance82.fr/des-feux-mal-eteints/",
+      "locator": "Des feux mal éteints, paragraphe initial, 25 août 1944",
+      "raccord_chef_lieu": "ne_pas_appliquer_automatiquement",
+      "reserves": [
+        "R110-01",
+        "R110-02",
+        "R110-03"
+      ]
+    },
+    {
+      "candidat": "Draguignan",
+      "ville_id_proposee": "ville-fr-draguignan",
+      "departement_id_reference": "subdivision-fr-var",
+      "reference_1940": {
+        "nom": "Draguignan",
+        "annee_preuve": 1940,
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "COG_DEPARTEMENTS_1940, ligne dep=83",
+        "statut": "reference_1940_a_reconfirmer_pour_1945",
+        "reserve_id": "R2FR-05",
+        "raccord_ville": "aucune_correspondance_unique_verifiee ; ne pas créer de ville automatiquement"
+      },
+      "doublons_canoniques": [],
+      "geometrie_reference": {
+        "coordinates": [
+          6.46537,
+          43.53945
+        ],
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=83050",
+        "licence": "CC BY 4.0",
+        "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+        "precision_historique": "non_etablie"
+      },
+      "decision": "fiche_proposee_role_admin_avec_limites",
+      "classe_preuve": "C",
+      "fait_lu": "Le récit municipal du transfert tardif vers Toulon recoupe Draguignan dans la nomenclature de 1940 ; la continuité avant ce transfert est proposée. Aucun transfert de 1975 n'est anticipé.",
+      "limite": "La fonction est attestée avant le Snapshot ou sur une période qui l’encadre ; sa continuité au 01/01/1945 est proposée, sans preuve de chaque bureau au jour exact. Aucun lien de chef-lieu validé automatiquement (R110-02).",
+      "source_id": "src-v110-draguignan-1974",
+      "source_url": "https://www.ville-draguignan.fr/actualites/transfert-de-la-prefecture-50-ans-plus-tard/",
+      "locator": "Exposition municipale, transfert décidé le 4 décembre 1974 et effectif le 1er janvier 1975",
+      "raccord_chef_lieu": "ne_pas_appliquer_automatiquement",
+      "reserves": [
+        "R110-01",
+        "R110-02",
+        "R110-03"
+      ]
+    },
+    {
+      "candidat": "Avignon",
+      "ville_id_proposee": "ville-fr-avignon",
+      "departement_id_reference": "subdivision-fr-vaucluse",
+      "reference_1940": {
+        "nom": "Avignon",
+        "annee_preuve": 1940,
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "COG_DEPARTEMENTS_1940, ligne dep=84",
+        "statut": "reference_1940_a_reconfirmer_pour_1945",
+        "reserve_id": "R2FR-05",
+        "raccord_ville": "aucune_correspondance_unique_verifiee ; ne pas créer de ville automatiquement"
+      },
+      "doublons_canoniques": [],
+      "geometrie_reference": {
+        "coordinates": [
+          4.80759,
+          43.94786
+        ],
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=84007",
+        "licence": "CC BY 4.0",
+        "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+        "precision_historique": "non_etablie"
+      },
+      "decision": "fiche_proposee_role_admin_avec_limites",
+      "classe_preuve": "P",
+      "fait_lu": "La page des Archives de Vaucluse évoque un communiqué préfectoral encadrant les déplacements à Avignon le 24 août 1944 ; aucune liberté de circulation ultérieure n'est déduite.",
+      "limite": "La fonction est attestée avant le Snapshot ou sur une période qui l’encadre ; sa continuité au 01/01/1945 est proposée, sans preuve de chaque bureau au jour exact. Aucun lien de chef-lieu validé automatiquement (R110-02).",
+      "source_id": "src-v110-avignon-liberation",
+      "source_url": "https://memento.vaucluse.fr/toutes-les-ressources/avignon-ville-liberee",
+      "locator": "Les zones à éviter, communiqué préfectoral du 24 août 1944",
+      "raccord_chef_lieu": "ne_pas_appliquer_automatiquement",
+      "reserves": [
+        "R110-01",
+        "R110-02",
+        "R110-03"
+      ]
+    },
+    {
+      "candidat": "La Roche-sur-Yon",
+      "ville_id_proposee": "ville-fr-la-roche-sur-yon",
+      "departement_id_reference": "subdivision-fr-vendee",
+      "reference_1940": {
+        "nom": "La Roche-sur-Yon",
+        "annee_preuve": 1940,
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "COG_DEPARTEMENTS_1940, ligne dep=85",
+        "statut": "reference_1940_a_reconfirmer_pour_1945",
+        "reserve_id": "R2FR-05",
+        "raccord_ville": "aucune_correspondance_unique_verifiee ; ne pas créer de ville automatiquement"
+      },
+      "doublons_canoniques": [],
+      "geometrie_reference": {
+        "coordinates": [
+          -1.42865,
+          46.66935
+        ],
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=85191",
+        "licence": "CC BY 4.0",
+        "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+        "precision_historique": "non_etablie"
+      },
+      "decision": "fiche_proposee_role_admin_avec_limites",
+      "classe_preuve": "P",
+      "fait_lu": "La notice mémorielle situe le mandat préfectoral de Léon Martin entre septembre 1944 et juillet 1945 ; le rapprochement local avec La Roche-sur-Yon est complété par le récit municipal de sa Libération et la nomenclature de 1940.",
+      "limite": "La fonction est attestée avant le Snapshot ou sur une période qui l’encadre ; sa continuité au 01/01/1945 est proposée, sans preuve de chaque bureau au jour exact. Aucun lien de chef-lieu validé automatiquement (R110-02).",
+      "source_id": "src-v110-rochesuryon-martin",
+      "source_url": "https://vendeeresistance.fr/documents/leon-martin/",
+      "locator": "Notice Léon Martin, mandat du 17 septembre 1944 au 14 juillet 1945",
+      "raccord_chef_lieu": "ne_pas_appliquer_automatiquement",
+      "reserves": [
+        "R110-01",
+        "R110-02",
+        "R110-03"
+      ]
+    },
+    {
+      "candidat": "Poitiers",
+      "ville_id_proposee": "ville-fr-poitiers",
+      "departement_id_reference": "subdivision-fr-vienne",
+      "reference_1940": {
+        "nom": "Poitiers",
+        "annee_preuve": 1940,
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "COG_DEPARTEMENTS_1940, ligne dep=86",
+        "statut": "reference_1940_a_reconfirmer_pour_1945",
+        "reserve_id": "R2FR-05",
+        "raccord_ville": "aucune_correspondance_unique_verifiee ; ne pas créer de ville automatiquement"
+      },
+      "doublons_canoniques": [],
+      "geometrie_reference": {
+        "coordinates": [
+          0.33422,
+          46.57973
+        ],
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=86194",
+        "licence": "CC BY 4.0",
+        "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+        "precision_historique": "non_etablie"
+      },
+      "decision": "fiche_proposee_role_admin_avec_limites",
+      "classe_preuve": "R",
+      "fait_lu": "La réponse ministérielle nomme la circonscription de Poitiers de 1941 et la continuité des ressorts par les commissaires de la République en 1944. Elle n'établit pas l'adresse exacte des bureaux ni tous les ressorts en janvier 1945.",
+      "limite": "La preuve porte sur le niveau régional ; elle ne valide pas le chef-lieu départemental ni un bâtiment précis (R110-02).",
+      "source_id": "src-an-reponse-regions-1981-01-12",
+      "source_url": "https://archives.assemblee-nationale.fr/6/qst/6-qst-1981-01-12.pdf",
+      "locator": "JO AN 12 janvier 1981, p.164, Q37966–37967",
+      "raccord_chef_lieu": "ne_pas_appliquer_automatiquement",
+      "reserves": [
+        "R110-01",
+        "R110-02",
+        "R110-03"
+      ]
+    },
+    {
+      "candidat": "Épinal",
+      "ville_id_proposee": "ville-fr-epinal",
+      "departement_id_reference": "subdivision-fr-vosges",
+      "reference_1940": {
+        "nom": "Épinal",
+        "annee_preuve": 1940,
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "COG_DEPARTEMENTS_1940, ligne dep=88",
+        "statut": "reference_1940_a_reconfirmer_pour_1945",
+        "reserve_id": "R2FR-05",
+        "raccord_ville": "aucune_correspondance_unique_verifiee ; ne pas créer de ville automatiquement"
+      },
+      "doublons_canoniques": [],
+      "geometrie_reference": {
+        "coordinates": [
+          6.45167,
+          48.1734
+        ],
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=88160",
+        "licence": "CC BY 4.0",
+        "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+        "precision_historique": "non_etablie"
+      },
+      "decision": "fiche_proposee_role_admin_avec_limites",
+      "classe_preuve": "P",
+      "fait_lu": "Le panneau municipal attribue au préfet Parisot la réorganisation de l'administration d'Épinal à la Libération de septembre 1944.",
+      "limite": "La fonction est attestée avant le Snapshot ou sur une période qui l’encadre ; sa continuité au 01/01/1945 est proposée, sans preuve de chaque bureau au jour exact. Aucun lien de chef-lieu validé automatiquement (R110-02).",
+      "source_id": "src-v110-epinal-liberation",
+      "source_url": "https://www.epinal.fr/wp-content/uploads/2020/12/panneaux-expo-archives-90x70-cm-x7bassedef.pdf",
+      "locator": "PDF p.9, Les hommes du renouveau, septembre 1944",
+      "raccord_chef_lieu": "ne_pas_appliquer_automatiquement",
+      "reserves": [
+        "R110-01",
+        "R110-02",
+        "R110-03"
+      ]
+    },
+    {
+      "candidat": "Auxerre",
+      "ville_id_proposee": "ville-fr-auxerre",
+      "departement_id_reference": "subdivision-fr-yonne",
+      "reference_1940": {
+        "nom": "Auxerre",
+        "annee_preuve": 1940,
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "COG_DEPARTEMENTS_1940, ligne dep=89",
+        "statut": "reference_1940_a_reconfirmer_pour_1945",
+        "reserve_id": "R2FR-05",
+        "raccord_ville": "aucune_correspondance_unique_verifiee ; ne pas créer de ville automatiquement"
+      },
+      "doublons_canoniques": [],
+      "geometrie_reference": {
+        "coordinates": [
+          3.56635,
+          47.79683
+        ],
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=89024",
+        "licence": "CC BY 4.0",
+        "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+        "precision_historique": "non_etablie"
+      },
+      "decision": "fiche_proposee_role_admin_avec_limites",
+      "classe_preuve": "P",
+      "fait_lu": "Le fac-similé porte l'en-tête du cabinet du préfet de l'Yonne et la date d'Auxerre du 16 juin 1944.",
+      "limite": "La fonction est attestée avant le Snapshot ou sur une période qui l’encadre ; sa continuité au 01/01/1945 est proposée, sans preuve de chaque bureau au jour exact. Aucun lien de chef-lieu validé automatiquement (R110-02).",
+      "source_id": "src-v110-auxerre-resistance",
+      "source_url": "https://hg.ac-besancon.fr/wp-content/uploads/sites/63/2024/11/Brochure2025v2.pdf",
+      "locator": "PDF p.13, lettre du 16 juin 1944, AD89 1 W 155",
+      "raccord_chef_lieu": "ne_pas_appliquer_automatiquement",
+      "reserves": [
+        "R110-01",
+        "R110-02",
+        "R110-03"
+      ]
+    },
+    {
+      "candidat": "Belfort",
+      "ville_id_proposee": "ville-fr-belfort",
+      "departement_id_reference": "subdivision-fr-territoire-de-belfort",
+      "reference_1940": {
+        "nom": "Belfort",
+        "annee_preuve": 1940,
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "COG_DEPARTEMENTS_1940, ligne dep=90",
+        "statut": "reference_1940_a_reconfirmer_pour_1945",
+        "reserve_id": "R2FR-05",
+        "raccord_ville": "aucune_correspondance_unique_verifiee ; ne pas créer de ville automatiquement"
+      },
+      "doublons_canoniques": [],
+      "geometrie_reference": {
+        "coordinates": [
+          6.84913,
+          47.6403
+        ],
+        "source_id": "src-trfgis-departements-1940",
+        "locator": "CHEFLIEU_DEPARTEMENTS_1940.tab, cl=90010",
+        "licence": "CC BY 4.0",
+        "attribution": "Victor Gay (TSE/IAST), TRF-GIS ; nomenclature 1940, repère de mairie moderne ; DOI 10.7910/DVN/ULQYM5 ; transformation EPSG:2154 vers EPSG:4326 par Ether",
+        "precision_historique": "non_etablie"
+      },
+      "decision": "fiche_proposee_role_admin_avec_limites",
+      "classe_preuve": "P",
+      "fait_lu": "La notice décrit l'installation secrète de Laumet à Belfort le 1er novembre 1944 et sa proclamation préfectorale du 20 novembre. Le contrôle territorial n'est pas déduit de sa seule présence.",
+      "limite": "La fonction est attestée avant le Snapshot ou sur une période qui l’encadre ; sa continuité au 01/01/1945 est proposée, sans preuve de chaque bureau au jour exact. Aucun lien de chef-lieu validé automatiquement (R110-02).",
+      "source_id": "src-v110-belfort-liberation",
+      "source_url": "https://clespourlhistoire.ac-besancon.fr/les-derniers-jours-de-la-seconde-guerre-mondiale-a-belfort/",
+      "locator": "Notice de l'affiche du 20 novembre 1944, AD90 11 Fi",
+      "raccord_chef_lieu": "ne_pas_appliquer_automatiquement",
+      "reserves": [
+        "R110-01",
+        "R110-02",
+        "R110-03"
+      ]
+    }
+  ]
+}

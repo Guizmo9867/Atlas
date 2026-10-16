@@ -2,6 +2,13 @@
 
 Une ligne par décision, datée. Plus récente en haut. Ce journal remplace les versions éparpillées dans les conversations : si ce n'est pas ici, ce n'est pas décidé.
 
+## 2026-10-16 (nuit : villes 1.10 intégré, complément France, boucle automatique)
+
+- **Lot villes 1.10 intégré** (cycle 1) : 66 chefs-lieux départementaux français de 1945 qui n'avaient pas de fiche ville (rôle « administration », importance C) ; 6 candidats reportés par Ether non importés. **L'Atlas compte 1 625 villes.** *(Ether, intégré par Claude)*
+- IDs mis au nom actuel pour Bourg-en-Bresse, Digne-les-Bains, Le Puy-en-Velay, Châlons-en-Champagne (nom de 1945 dans l'état) ; Mézières reste distincte, sans point. Points TRF-GIS (CC BY 4.0) recoupés avec Wikidata (≤ 1,1 km). *(Claude)*
+- **11 chefs-lieux 2.FR raccordés** (`chef_lieu_id`) : 8 régions (même base que le pilote : réponse AN 1981) et 3 départements à preuve couvrant le 01/01/1945 (Mézières, Rodez, Albi) ; les autres gardent la référence 1940. *(Claude, règle du mode d'emploi §0)*
+- Sources : 63 nouvelles (11 ok, 25 limite, 1 faible, 26 illisibles pour l'outil), registre v1.37 ; 52 villes « à renforcer ». Questions Q110-01 et Q110-02 ; Q2CH-05 close. *(Claude)*
+
 ## 2026-10-16 (nuit : 2.CH intégré, groupe 1 complet, boucle automatique)
 
 - **Lot 2.CH intégré** (cycle 1) : 200 subdivisions de la Suisse au 01/01/1945 = 25 unités cantonales (19 cantons, 6 demi-cantons, sans parent fictif) à l'échelon 1 et 175 districts à l'échelon 2 (terme local gardé). 7 cantons sans district, 2 Landesteile d'Appenzell Rhodes-Intérieures réservés. *(Ether, intégré par Claude)*
