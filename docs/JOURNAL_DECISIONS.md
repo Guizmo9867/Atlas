@@ -2,6 +2,12 @@
 
 Une ligne par décision, datée. Plus récente en haut. Ce journal remplace les versions éparpillées dans les conversations : si ce n'est pas ici, ce n'est pas décidé.
 
+## 2026-10-16 (matin : villes 1.10 cycle 2, boucle automatique)
+
+- **Réponses d'Ether au 1.10 intégrées** (cycle 2) : 6 précisions de fiche (Valence, Grenoble, Lons-le-Saunier, Vesoul, Mâcon, Auxerre), 30 compléments de registre, registre v1.38, lot v0.2. *(Ether, intégré par Claude)*
+- Pièces locales d'Ether (copies HTML à empreinte contrôlée, captures) **acceptées comme support de relecture** quand le site refuse l'outil de Claude, en le disant dans la note de la source (pas présentées comme lecture du site en ligne). 4 sources « ok » (Tarbes, Besançon, Guéret, Cahors : continuité explicite), 23 « limite ». 48 villes « à renforcer ». *(Claude)*
+- **4 chefs-lieux 2.FR de plus raccordés** (Creuse, Doubs, Lot, Hautes-Pyrénées) : 25 en tout. Q110-01 et Q110-02 closes ; réserve R110-C2-01 pour la revue finale. *(Claude, règle du mode d'emploi §0)*
+
 ## 2026-10-16 (nuit : villes 1.10 intégré, complément France, boucle automatique)
 
 - **Lot villes 1.10 intégré** (cycle 1) : 66 chefs-lieux départementaux français de 1945 qui n'avaient pas de fiche ville (rôle « administration », importance C) ; 6 candidats reportés par Ether non importés. **L'Atlas compte 1 625 villes.** *(Ether, intégré par Claude)*

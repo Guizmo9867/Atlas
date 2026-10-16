@@ -1,5 +1,5 @@
 {
- "genere_le": "2026-10-16 02:21",
+ "genere_le": "2026-10-16 04:17",
  "snapshot0": {
   "date_representee": "1945-01-01 00:00 (dernier état connu avant)",
   "territoires": 74,
@@ -18,7 +18,7 @@
    "territoire": 6
   },
   "villes_avec_nom_de_1945_different": 216,
-  "villes_avec_reserve_a_renforcer": 471,
+  "villes_avec_reserve_a_renforcer": 467,
   "roles_de_villes": {
    "rail": 1144,
    "industrie": 415,
@@ -132,7 +132,7 @@
    },
    {
     "fichier": "villes_1-10_complement_france.json",
-    "version": "0.1",
+    "version": "0.2",
     "zone": [
      "France — complément administratif"
     ],
@@ -344,13 +344,13 @@
   ]
  },
  "sources": {
-  "registre_version": "1.37",
+  "registre_version": "1.38",
   "total": 980,
   "relecture_claude": {
-   "ok": 614,
-   "limite": 189,
-   "non_verifiee": 162,
-   "faible": 7,
+   "ok": 618,
+   "limite": 212,
+   "non_verifiee": 136,
+   "faible": 6,
    "lien_casse": 8
   },
   "niveaux": {
@@ -358,11 +358,11 @@
    "B": 773,
    "C": 33
   },
-  "en_attente_de_validation_humaine": 363,
+  "en_attente_de_validation_humaine": 359,
   "validees_par_guizmo": 3
  },
  "historique": {
-  "envois_github": 71,
+  "envois_github": 72,
   "premier_envoi": "2026-09-28",
   "dernier_envoi": "2026-10-16",
   "depot_public": "https://github.com/Guizmo9867/Atlas"

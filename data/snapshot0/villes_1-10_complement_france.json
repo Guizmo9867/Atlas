@@ -3,7 +3,7 @@
     "nom": "snapshot0_villes_1-10_complement_france",
     "date_reference": "1945-01-01",
     "heure_reference": "00:00",
-    "version": "0.1",
+    "version": "0.2",
     "statut": "integre_par_claude",
     "gabarit_source": "gabarits/gabarit_entite_temporelle_atlas.json",
     "zone": [
@@ -25,7 +25,16 @@
         "IDs et noms : 4 fiches mises au nom actuel (Bourg-en-Bresse, Digne-les-Bains, Le Puy-en-Velay, Châlons-en-Champagne), nom de 1945 dans l'état (Bourg, Digne, Le Puy, Châlons-sur-Marne, nomenclature 1940) et en alias ; Mézières reste une ville distincte, sans point.",
         "Positions : 65 points TRF-GIS d'Ether (CC BY 4.0) recoupés avec Wikidata par code INSEE : écart maximal 1,1 km.",
         "Preuves : 63 sources relues par WebFetch (11 ok, 25 limite, 1 faible, 26 non vérifiées : la plupart des pages des préfectures refusent l'outil) ; réponse AN 1981 (déjà « ok ») pour Nancy, Orléans, Poitiers. « À renforcer : administration » pour chaque ville sans preuve confirmée."
-      ]
+      ],
+      "cycle2": {
+        "date": "2026-10-16",
+        "par": "Claude (boucle automatique)",
+        "corrections": [
+          "Réponses d'Ether à Q110-01 et Q110-02 : 6 précisions de note et de localisateur (Valence, Grenoble, Lons-le-Saunier, Vesoul, Mâcon, Auxerre) ; 30 compléments de registre ; aucun changement d'ID, de point, de rôle ou de relation.",
+          "Relecture de Claude sur les pièces locales d'Ether (21 copies HTML à empreinte contrôlée, 10 captures) : 4 sources « ok » (Tarbes, Besançon, Guéret, Cahors : continuité explicite de la préfecture), 22 « non vérifiées » et 1 « faible » deviennent « limite » (fait de 1944 ou indirect).",
+          "« À renforcer : administration » levé pour : ville-fr-gueret, ville-fr-besancon, ville-fr-cahors, ville-fr-tarbes."
+        ]
+      }
     }
   },
   "entites": [
@@ -68,7 +77,7 @@
             {
               "source_id": "src-v110-bourg-histoire",
               "locator": "Liste des préfets, entrées 1944–1946",
-              "usage": "administration — La liste préfectorale situe Léon Blanchard à partir du 3 septembre 1944 ; l'histoire locale décrit les locaux de la préfecture à Bourg. (non vérifiée par Claude)"
+              "usage": "administration — La liste préfectorale situe Léon Blanchard à partir du 3 septembre 1944 ; l'histoire locale décrit les locaux de la préfecture à Bourg. (lecture partielle)"
             },
             {
               "source_id": "src-trfgis-departements-1940",
@@ -263,7 +272,7 @@
             {
               "source_id": "src-v110-gap-histoire",
               "locator": "Historique de la préfecture, 1806 et construction 1827–1840",
-              "usage": "administration — L'histoire de la préfecture de Gap décrit son installation dans l'ancien évêché puis son bâtiment du XIXe siècle ; continuité proposée avec la nomenclature de 1940. (non vérifiée par Claude)"
+              "usage": "administration — L'histoire de la préfecture de Gap décrit son installation dans l'ancien évêché puis son bâtiment du XIXe siècle ; continuité proposée avec la nomenclature de 1940. (lecture partielle)"
             },
             {
               "source_id": "src-trfgis-departements-1940",
@@ -311,7 +320,7 @@
             {
               "source_id": "src-v110-nice-histoire",
               "locator": "Histoire du palais, installation préfectorale de 1860 et transformations",
-              "usage": "administration — Le palais de Nice devient préfecture en 1860 ; sa fonction et ses transformations ultérieures sont décrites. Continuité proposée avec la nomenclature de 1940. (non vérifiée par Claude)"
+              "usage": "administration — Le palais de Nice devient préfecture en 1860 ; sa fonction et ses transformations ultérieures sont décrites. Continuité proposée avec la nomenclature de 1940. (lecture partielle)"
             },
             {
               "source_id": "src-trfgis-departements-1940",
@@ -359,7 +368,7 @@
             {
               "source_id": "src-v110-privas-prefets",
               "locator": "Liste, Robert Pissère 1944 et Aimé Jeanjean 1948 ; histoire locale de l'hôtel en complément",
-              "usage": "administration — La liste préfectorale atteste Robert Pissère à partir de 1944. Le rapprochement avec Privas repose aussi sur l'histoire locale du bâtiment et la nomenclature de 1940 ; l'adresse de ses services au jour exact reste à confirmer. (non vérifiée par Claude)"
+              "usage": "administration — La liste préfectorale atteste Robert Pissère à partir de 1944. Le rapprochement avec Privas repose aussi sur l'histoire locale du bâtiment et la nomenclature de 1940 ; l'adresse de ses services au jour exact reste à confirmer. (lecture partielle)"
             },
             {
               "source_id": "src-trfgis-departements-1940",
@@ -369,7 +378,7 @@
             {
               "source_id": "src-v110-privas-histoire",
               "locator": "Passage historique local",
-              "usage": "Complément de localisation ; limites dans la grille (non vérifiée par Claude)"
+              "usage": "Complément de localisation ; limites dans la grille (lecture partielle)"
             }
           ]
         }
@@ -597,7 +606,7 @@
             {
               "source_id": "src-v110-caen-centre",
               "locator": "Le centre administratif départemental, bombardements de 1944",
-              "usage": "administration — Le récit local précise que la préfecture et les archives de Caen ont été préservées lors des bombardements de 1944 ; il distingue les bâtiments ajoutés après guerre. (non vérifiée par Claude)"
+              "usage": "administration — Le récit local précise que la préfecture et les archives de Caen ont été préservées lors des bombardements de 1944 ; il distingue les bâtiments ajoutés après guerre. (lecture partielle)"
             },
             {
               "source_id": "src-trfgis-departements-1940",
@@ -693,7 +702,7 @@
             {
               "source_id": "src-v110-angouleme-histoire",
               "locator": "PDF p.12, septembre 1944",
-              "usage": "administration — La brochure préfectorale situe le retour du drapeau français sur le balcon de la préfecture d'Angoulême le 1er septembre 1944. (non vérifiée par Claude)"
+              "usage": "administration — La brochure préfectorale situe le retour du drapeau français sur le balcon de la préfecture d'Angoulême le 1er septembre 1944. (lecture partielle)"
             },
             {
               "source_id": "src-trfgis-departements-1940",
@@ -789,7 +798,7 @@
             {
               "source_id": "src-v110-tulle-histoire",
               "locator": "Hôtel préfectoral, décision 1864 et achèvement 1880",
-              "usage": "administration — L'histoire locale décrit la construction de l'hôtel préfectoral de Tulle au XIXe siècle et sa fonction persistante ; continuité proposée avec la nomenclature de 1940. (non vérifiée par Claude)"
+              "usage": "administration — L'histoire locale décrit la construction de l'hôtel préfectoral de Tulle au XIXe siècle et sa fonction persistante ; continuité proposée avec la nomenclature de 1940. (lecture partielle)"
             },
             {
               "source_id": "src-trfgis-departements-1940",
@@ -872,7 +881,7 @@
             "roles": [
               "administration"
             ],
-            "note": "Rôle administratif à renforcer à la date exacte (R110-02). La brochure indique que le bâtiment de Guéret, acquis en 1802 pour la préfecture, a constamment conservé cette affectation. La fonction est attestée avant le Snapshot ou sur une période qui l’encadre ; sa continuité au 01/01/1945 est proposée, sans preuve de chaque bureau au jour exact. Aucun lien de chef-lieu validé automatiquement (R110-02). Point représentatif de la ville issu de la mairie moderne de TRF-GIS ; centre de 1945 non certifié (R110-01). À renforcer : administration."
+            "note": "Rôle administratif à renforcer à la date exacte (R110-02). La brochure indique que le bâtiment de Guéret, acquis en 1802 pour la préfecture, a constamment conservé cette affectation. La fonction est attestée avant le Snapshot ou sur une période qui l’encadre ; sa continuité au 01/01/1945 est proposée, sans preuve de chaque bureau au jour exact. Aucun lien de chef-lieu validé automatiquement (R110-02). Point représentatif de la ville issu de la mairie moderne de TRF-GIS ; centre de 1945 non certifié (R110-01)."
           },
           "geometrie": {
             "type": "Point",
@@ -885,7 +894,7 @@
             {
               "source_id": "src-v110-gueret-histoire",
               "locator": "PDF p.4, vente de 1802 et affectation constante",
-              "usage": "administration — La brochure indique que le bâtiment de Guéret, acquis en 1802 pour la préfecture, a constamment conservé cette affectation. (non vérifiée par Claude)"
+              "usage": "administration — La brochure indique que le bâtiment de Guéret, acquis en 1802 pour la préfecture, a constamment conservé cette affectation."
             },
             {
               "source_id": "src-trfgis-departements-1940",
@@ -933,7 +942,7 @@
             {
               "source_id": "src-v110-perigueux-liberation",
               "locator": "Introduction et circulaire du 29 août 1944, cote 1 W 1809",
-              "usage": "administration — Maxime Roux sort de la clandestinité, s'installe à la préfecture de Dordogne et adresse aux maires une circulaire le 29 août 1944 ; le contexte local est Périgueux. (non vérifiée par Claude)"
+              "usage": "administration — Maxime Roux sort de la clandestinité, s'installe à la préfecture de Dordogne et adresse aux maires une circulaire le 29 août 1944 ; le contexte local est Périgueux. (lecture partielle)"
             },
             {
               "source_id": "src-trfgis-departements-1940",
@@ -968,7 +977,7 @@
             "roles": [
               "administration"
             ],
-            "note": "Rôle administratif à renforcer à la date exacte (R110-02). L'ancienne intendance de Besançon devient préfecture en 1800 ; la présentation officielle décrit plus de deux siècles d'accueil des services de l'État. La fonction est attestée avant le Snapshot ou sur une période qui l’encadre ; sa continuité au 01/01/1945 est proposée, sans preuve de chaque bureau au jour exact. Aucun lien de chef-lieu validé automatiquement (R110-02). Point représentatif de la ville issu de la mairie moderne de TRF-GIS ; centre de 1945 non certifié (R110-01). À renforcer : administration."
+            "note": "Rôle administratif à renforcer à la date exacte (R110-02). L'ancienne intendance de Besançon devient préfecture en 1800 ; la présentation officielle décrit plus de deux siècles d'accueil des services de l'État. La fonction est attestée avant le Snapshot ou sur une période qui l’encadre ; sa continuité au 01/01/1945 est proposée, sans preuve de chaque bureau au jour exact. Aucun lien de chef-lieu validé automatiquement (R110-02). Point représentatif de la ville issu de la mairie moderne de TRF-GIS ; centre de 1945 non certifié (R110-01)."
           },
           "geometrie": {
             "type": "Point",
@@ -981,7 +990,7 @@
             {
               "source_id": "src-v110-besancon-histoire",
               "locator": "Présentation, préfecture depuis 1800 et continuité des services",
-              "usage": "administration — L'ancienne intendance de Besançon devient préfecture en 1800 ; la présentation officielle décrit plus de deux siècles d'accueil des services de l'État. (non vérifiée par Claude)"
+              "usage": "administration — L'ancienne intendance de Besançon devient préfecture en 1800 ; la présentation officielle décrit plus de deux siècles d'accueil des services de l'État."
             },
             {
               "source_id": "src-trfgis-departements-1940",
@@ -1016,7 +1025,7 @@
             "roles": [
               "administration"
             ],
-            "note": "La présentation départementale situe à Valence la préfecture et la libération de la ville le 31 août 1944. La fonction est attestée avant le Snapshot ou sur une période qui l’encadre ; sa continuité au 01/01/1945 est proposée, sans preuve de chaque bureau au jour exact. Aucun lien de chef-lieu validé automatiquement (R110-02). Point représentatif de la ville issu de la mairie moderne de TRF-GIS ; centre de 1945 non certifié (R110-01). À renforcer : administration."
+            "note": "La copie HTML de la présentation départementale qualifie littéralement Valence de préfecture du département dans la liste des villes libérées, à la date du 31 août 1944. Le passage n’établit pas directement l’état des services au 01/01/1945. La fonction est attestée avant le Snapshot ou sur une période qui l’encadre ; sa continuité au 01/01/1945 est proposée, sans preuve de chaque bureau au jour exact. Aucun lien de chef-lieu validé automatiquement (R110-02). Point représentatif de la ville issu de la mairie moderne de TRF-GIS ; centre de 1945 non certifié (R110-01). À renforcer : administration."
           },
           "geometrie": {
             "type": "Point",
@@ -1028,8 +1037,8 @@
           "sources": [
             {
               "source_id": "src-v110-valence-liberation",
-              "locator": "Libération de la Drôme, 31 août 1944",
-              "usage": "administration — La présentation départementale situe à Valence la préfecture et la libération de la ville le 31 août 1944. (lecture partielle)"
+              "locator": "Libération de la Drôme : liste des villes libérées, après Saint Rambert ; TXT local ligne 167",
+              "usage": "administration — La copie HTML de la présentation départementale qualifie littéralement Valence de préfecture du département dans la liste des villes libérées, à la date du 31 août 1944. Le passage n’établit pas directement l’état des services au 01/01/1945. (lecture partielle)"
             },
             {
               "source_id": "src-trfgis-departements-1940",
@@ -1077,7 +1086,7 @@
             {
               "source_id": "src-v110-evreux-histoire",
               "locator": "PDF p.1, déplacements de la résidence en 1940 et 1942",
-              "usage": "administration — La résidence du préfet d'Évreux est déplacée rue Victor-Hugo après les destructions de 1940, puis acquise en 1942 ; le projet de reconstruction date de 1944. Le point urbain ne localise pas ces résidences. (non vérifiée par Claude)"
+              "usage": "administration — La résidence du préfet d'Évreux est déplacée rue Victor-Hugo après les destructions de 1940, puis acquise en 1942 ; le projet de reconstruction date de 1944. Le point urbain ne localise pas ces résidences. (lecture partielle)"
             },
             {
               "source_id": "src-trfgis-departements-1940",
@@ -1125,7 +1134,7 @@
             {
               "source_id": "src-v110-chartres-histoire",
               "locator": "Histoire, visite du 23 août 1944",
-              "usage": "administration — Le récit situe la réception des autorités par de Gaulle à la préfecture de Chartres le 23 août 1944. (non vérifiée par Claude)"
+              "usage": "administration — Le récit situe la réception des autorités par de Gaulle à la préfecture de Chartres le 23 août 1944. (lecture partielle)"
             },
             {
               "source_id": "src-trfgis-departements-1940",
@@ -1221,7 +1230,7 @@
             {
               "source_id": "src-v110-nimes-histoire",
               "locator": "Liste des préfets, Paganelli 25 août 1944 et Chaumeil 1er février 1946",
-              "usage": "administration — L'histoire des locaux et la liste des préfets relient la préfecture de Nîmes à la période 1944–1946. (non vérifiée par Claude)"
+              "usage": "administration — L'histoire des locaux et la liste des préfets relient la préfecture de Nîmes à la période 1944–1946. (lecture partielle)"
             },
             {
               "source_id": "src-trfgis-departements-1940",
@@ -1269,7 +1278,7 @@
             {
               "source_id": "src-v110-auch-liberation",
               "locator": "19 août — Libération d'Auch, remplacement du préfet les 20–21 août 1944",
-              "usage": "administration — Le récit préfectoral décrit à Auch le remplacement de Caumont par Dechriste en août 1944. (non vérifiée par Claude)"
+              "usage": "administration — Le récit préfectoral décrit à Auch le remplacement de Caumont par Dechriste en août 1944. (lecture partielle)"
             },
             {
               "source_id": "src-trfgis-departements-1940",
@@ -1317,7 +1326,7 @@
             {
               "source_id": "src-v110-montpellier-histoire",
               "locator": "Installation le 25 mars 1800, agrandissements de 1867–1870",
-              "usage": "administration — L'histoire de la préfecture de Montpellier décrit son installation en 1800 et ses agrandissements successifs ; continuité proposée avec la nomenclature de 1940. (non vérifiée par Claude)"
+              "usage": "administration — L'histoire de la préfecture de Montpellier décrit son installation en 1800 et ses agrandissements successifs ; continuité proposée avec la nomenclature de 1940. (lecture partielle)"
             },
             {
               "source_id": "src-trfgis-departements-1940",
@@ -1400,7 +1409,7 @@
             "roles": [
               "administration"
             ],
-            "note": "Albert Reynier s'installe à la préfecture de Grenoble le 22 août 1944 ; sa qualité est officialisée le 28. Le repère moderne ne représente pas la mairie de 1944, alors à l'hôtel de Lesdiguières. La fonction est attestée avant le Snapshot ou sur une période qui l’encadre ; sa continuité au 01/01/1945 est proposée, sans preuve de chaque bureau au jour exact. Aucun lien de chef-lieu validé automatiquement (R110-02). Point représentatif de la ville issu de la mairie moderne de TRF-GIS ; centre de 1945 non certifié (R110-01). À renforcer : administration."
+            "note": "Le 22 août 1944, Albert Reynier accueille les résistants devant la préfecture de l’Isère à Grenoble ; le récit situe l’officialisation de son titre au 28 août. Il ne décrit pas explicitement une installation de bureaux le 22. La mairie de 1944 était à l’hôtel de Lesdiguières, distinct du repère moderne. La fonction est attestée avant le Snapshot ou sur une période qui l’encadre ; sa continuité au 01/01/1945 est proposée, sans preuve de chaque bureau au jour exact. Aucun lien de chef-lieu validé automatiquement (R110-02). Point représentatif de la ville issu de la mairie moderne de TRF-GIS ; centre de 1945 non certifié (R110-01). À renforcer : administration."
           },
           "geometrie": {
             "type": "Point",
@@ -1412,8 +1421,8 @@
           "sources": [
             {
               "source_id": "src-v110-grenoble-liberation",
-              "locator": "Le théâtre de la Libération, 22 et 28 août 1944",
-              "usage": "administration — Albert Reynier s'installe à la préfecture de Grenoble le 22 août 1944 ; sa qualité est officialisée le 28. Le repère moderne ne représente pas la mairie de 1944, alors à l'hôtel de Lesdiguières. (lecture partielle)"
+              "locator": "Le théâtre de la Libération : accueil devant la préfecture le 22 août, titre officialisé le 28 août 1944",
+              "usage": "administration — Le 22 août 1944, Albert Reynier accueille les résistants devant la préfecture de l’Isère à Grenoble ; le récit situe l’officialisation de son titre au 28 août. Il ne décrit pas explicitement une installation de bureaux le 22. La mairie de 1944 était à l’hôtel de Lesdiguières, distinct du repère moderne. (lecture partielle)"
             },
             {
               "source_id": "src-trfgis-departements-1940",
@@ -1448,7 +1457,7 @@
             "roles": [
               "administration"
             ],
-            "note": "La brochure d'ECLA désigne Lons-le-Saunier comme ville préfecture du Jura dans le récit de sa libération du 25 août 1944. La fonction est attestée avant le Snapshot ou sur une période qui l’encadre ; sa continuité au 01/01/1945 est proposée, sans preuve de chaque bureau au jour exact. Aucun lien de chef-lieu validé automatiquement (R110-02). Point représentatif de la ville issu de la mairie moderne de TRF-GIS ; centre de 1945 non certifié (R110-01)."
+            "note": "L’avant-propos signé Claude Borcard dans la brochure d’ECLA qualifie Lons-le-Saunier de ville préfecture dans le récit de sa libération du 25 août 1944. La phrase n’appartient pas au texte voisin signé André Robert. La fonction est attestée avant le Snapshot ou sur une période qui l’encadre ; sa continuité au 01/01/1945 est proposée, sans preuve de chaque bureau au jour exact. Aucun lien de chef-lieu validé automatiquement (R110-02). Point représentatif de la ville issu de la mairie moderne de TRF-GIS ; centre de 1945 non certifié (R110-01)."
           },
           "geometrie": {
             "type": "Point",
@@ -1460,8 +1469,8 @@
           "sources": [
             {
               "source_id": "src-v110-lons-liberation",
-              "locator": "PDF p.2, textes historiques d'André Robert",
-              "usage": "administration — La brochure d'ECLA désigne Lons-le-Saunier comme ville préfecture du Jura dans le récit de sa libération du 25 août 1944."
+              "locator": "PDF p.2, colonne gauche, avant-propos de Claude Borcard ; attribution corrigée",
+              "usage": "administration — L’avant-propos signé Claude Borcard dans la brochure d’ECLA qualifie Lons-le-Saunier de ville préfecture dans le récit de sa libération du 25 août 1944. La phrase n’appartient pas au texte voisin signé André Robert."
             },
             {
               "source_id": "src-trfgis-departements-1940",
@@ -1509,7 +1518,7 @@
             {
               "source_id": "src-v110-montdemarsan-histoire",
               "locator": "Historique, décret de 1808, installation en 1818, extension de 1905",
-              "usage": "administration — L'histoire des locaux préfectoraux de Mont-de-Marsan fournit les étapes de leur installation et développement ; continuité proposée avec la nomenclature de 1940. (non vérifiée par Claude)"
+              "usage": "administration — L'histoire des locaux préfectoraux de Mont-de-Marsan fournit les étapes de leur installation et développement ; continuité proposée avec la nomenclature de 1940. (lecture partielle)"
             },
             {
               "source_id": "src-trfgis-departements-1940",
@@ -1656,7 +1665,7 @@
             {
               "source_id": "src-v110-puy-histoire",
               "locator": "Histoire de la préfecture, 1822–1824, aménagement de 1932",
-              "usage": "administration — Le bâtiment préfectoral du Puy est construit en 1822–1824 et modifié en 1932 ; continuité proposée avec la nomenclature de 1940. Le nom affiché reste Le Puy. (non vérifiée par Claude)"
+              "usage": "administration — Le bâtiment préfectoral du Puy est construit en 1822–1824 et modifié en 1932 ; continuité proposée avec la nomenclature de 1940. Le nom affiché reste Le Puy. (lecture partielle)"
             },
             {
               "source_id": "src-trfgis-departements-1940",
@@ -1739,7 +1748,7 @@
             "roles": [
               "administration"
             ],
-            "note": "Rôle administratif à renforcer à la date exacte (R110-02). L'exposition officielle situe à Cahors le palais occupé par les institutions départementales et préfectorales depuis 1800, avec une continuité de plus de deux siècles. La fonction est attestée avant le Snapshot ou sur une période qui l’encadre ; sa continuité au 01/01/1945 est proposée, sans preuve de chaque bureau au jour exact. Aucun lien de chef-lieu validé automatiquement (R110-02). Point représentatif de la ville issu de la mairie moderne de TRF-GIS ; centre de 1945 non certifié (R110-01). À renforcer : administration."
+            "note": "Rôle administratif à renforcer à la date exacte (R110-02). L'exposition officielle situe à Cahors le palais occupé par les institutions départementales et préfectorales depuis 1800, avec une continuité de plus de deux siècles. La fonction est attestée avant le Snapshot ou sur une période qui l’encadre ; sa continuité au 01/01/1945 est proposée, sans preuve de chaque bureau au jour exact. Aucun lien de chef-lieu validé automatiquement (R110-02). Point représentatif de la ville issu de la mairie moderne de TRF-GIS ; centre de 1945 non certifié (R110-01)."
           },
           "geometrie": {
             "type": "Point",
@@ -1752,7 +1761,7 @@
             {
               "source_id": "src-v110-cahors-exposition",
               "locator": "PDF p.3, partage du bâtiment pendant plus de deux siècles",
-              "usage": "administration — L'exposition officielle situe à Cahors le palais occupé par les institutions départementales et préfectorales depuis 1800, avec une continuité de plus de deux siècles. (non vérifiée par Claude)"
+              "usage": "administration — L'exposition officielle situe à Cahors le palais occupé par les institutions départementales et préfectorales depuis 1800, avec une continuité de plus de deux siècles."
             },
             {
               "source_id": "src-trfgis-departements-1940",
@@ -1800,7 +1809,7 @@
             {
               "source_id": "src-v110-agen-histoire",
               "locator": "Présentation historique du palais, installation en 1809",
-              "usage": "administration — L'annonce patrimoniale officielle rappelle l'installation de la préfecture dans le palais d'Agen en 1809 ; continuité proposée avec la nomenclature de 1940. (non vérifiée par Claude)"
+              "usage": "administration — L'annonce patrimoniale officielle rappelle l'installation de la préfecture dans le palais d'Agen en 1809 ; continuité proposée avec la nomenclature de 1940. (lecture partielle)"
             },
             {
               "source_id": "src-trfgis-departements-1940",
@@ -1848,7 +1857,7 @@
             {
               "source_id": "src-v110-mende-resistance",
               "locator": "PDF p.12, Urbain Paradis, 1941–juin 1944",
-              "usage": "administration — La brochure municipale situe les agents et bureaux de la préfecture de Lozère à Mende en 1941–1944 ; le statut après la Libération n'est pas détaillé. (non vérifiée par Claude)"
+              "usage": "administration — La brochure municipale situe les agents et bureaux de la préfecture de Lozère à Mende en 1941–1944 ; le statut après la Libération n'est pas détaillé. (lecture partielle)"
             },
             {
               "source_id": "src-trfgis-departements-1940",
@@ -2283,7 +2292,7 @@
             {
               "source_id": "src-v110-beauvais-liberation",
               "locator": "PDF p.16, imprimée 14, résistance face à l'occupant",
-              "usage": "administration — La brochure officielle décrit Beauvais comme siège de la préfecture durant l'Occupation et des agents préfectoraux actifs jusqu'en 1944. (non vérifiée par Claude)"
+              "usage": "administration — La brochure officielle décrit Beauvais comme siège de la préfecture durant l'Occupation et des agents préfectoraux actifs jusqu'en 1944. (lecture partielle)"
             },
             {
               "source_id": "src-trfgis-departements-1940",
@@ -2379,7 +2388,7 @@
             {
               "source_id": "src-v110-arras-histoire",
               "locator": "Hôtel de la préfecture, dommages de 1914–1918 et nouveaux bureaux de 1965",
-              "usage": "administration — L'histoire du bâtiment préfectoral d'Arras fournit des jalons avant et après la Seconde Guerre mondiale ; continuité proposée avec la nomenclature de 1940. (non vérifiée par Claude)"
+              "usage": "administration — L'histoire du bâtiment préfectoral d'Arras fournit des jalons avant et après la Seconde Guerre mondiale ; continuité proposée avec la nomenclature de 1940. (lecture partielle)"
             },
             {
               "source_id": "src-trfgis-departements-1940",
@@ -2427,7 +2436,7 @@
             {
               "source_id": "src-v110-clermont-liberation",
               "locator": "PDF p.6, plan 1942–1944, AD63 900 W 51",
-              "usage": "administration — Le dossier pédagogique des Archives du Puy-de-Dôme identifie un plan du quartier de la préfecture de Clermont-Ferrand daté de 1942–1944 ; le plan détaillé n'a pas été relu séparément. (non vérifiée par Claude)"
+              "usage": "administration — Le dossier pédagogique des Archives du Puy-de-Dôme identifie un plan du quartier de la préfecture de Clermont-Ferrand daté de 1942–1944 ; le plan détaillé n'a pas été relu séparément. (lecture partielle)"
             },
             {
               "source_id": "src-trfgis-departements-1940",
@@ -2462,7 +2471,7 @@
             "roles": [
               "administration"
             ],
-            "note": "Rôle administratif à renforcer à la date exacte (R110-02). La page officielle indique une installation préfectorale à Tarbes depuis 1800, puis des transformations dans les années 1930 ; continuité historique explicitée par cette source. La fonction est attestée avant le Snapshot ou sur une période qui l’encadre ; sa continuité au 01/01/1945 est proposée, sans preuve de chaque bureau au jour exact. Aucun lien de chef-lieu validé automatiquement (R110-02). Point représentatif de la ville issu de la mairie moderne de TRF-GIS ; centre de 1945 non certifié (R110-01). À renforcer : administration."
+            "note": "Rôle administratif à renforcer à la date exacte (R110-02). La page officielle indique une installation préfectorale à Tarbes depuis 1800, puis des transformations dans les années 1930 ; continuité historique explicitée par cette source. La fonction est attestée avant le Snapshot ou sur une période qui l’encadre ; sa continuité au 01/01/1945 est proposée, sans preuve de chaque bureau au jour exact. Aucun lien de chef-lieu validé automatiquement (R110-02). Point représentatif de la ville issu de la mairie moderne de TRF-GIS ; centre de 1945 non certifié (R110-01)."
           },
           "geometrie": {
             "type": "Point",
@@ -2475,7 +2484,7 @@
             {
               "source_id": "src-v110-tarbes-histoire",
               "locator": "Du palais épiscopal à l'hôtel, installation depuis 1800 et bâtiment des années 1930",
-              "usage": "administration — La page officielle indique une installation préfectorale à Tarbes depuis 1800, puis des transformations dans les années 1930 ; continuité historique explicitée par cette source. (non vérifiée par Claude)"
+              "usage": "administration — La page officielle indique une installation préfectorale à Tarbes depuis 1800, puis des transformations dans les années 1930 ; continuité historique explicitée par cette source."
             },
             {
               "source_id": "src-trfgis-departements-1940",
@@ -2510,7 +2519,7 @@
             "roles": [
               "administration"
             ],
-            "note": "Le fac-similé montre un arrêté du préfet de Haute-Saône daté à Vesoul du 4 octobre 1944 ; le commentaire situe l'installation de Thomassin en septembre. La fonction est attestée avant le Snapshot ou sur une période qui l’encadre ; sa continuité au 01/01/1945 est proposée, sans preuve de chaque bureau au jour exact. Aucun lien de chef-lieu validé automatiquement (R110-02). Point représentatif de la ville issu de la mairie moderne de TRF-GIS ; centre de 1945 non certifié (R110-01). À renforcer : administration."
+            "note": "Le fac-similé porte un arrêté du préfet de Haute-Saône signé à Vesoul le 4 octobre 1944, AD70 216 W 23. Le commentaire situe l’installation de Thomassin le 13 septembre ; il ne date pas l’arrêté de ce jour. La fonction est attestée avant le Snapshot ou sur une période qui l’encadre ; sa continuité au 01/01/1945 est proposée, sans preuve de chaque bureau au jour exact. Aucun lien de chef-lieu validé automatiquement (R110-02). Point représentatif de la ville issu de la mairie moderne de TRF-GIS ; centre de 1945 non certifié (R110-01). À renforcer : administration."
           },
           "geometrie": {
             "type": "Point",
@@ -2522,8 +2531,8 @@
           "sources": [
             {
               "source_id": "src-v110-auxerre-resistance",
-              "locator": "PDF p.49, arrêté du 4 octobre 1944, AD70 216 W 23",
-              "usage": "administration — Le fac-similé montre un arrêté du préfet de Haute-Saône daté à Vesoul du 4 octobre 1944 ; le commentaire situe l'installation de Thomassin en septembre. (lecture partielle)"
+              "locator": "PDF physique p.49, imprimée 48, signature de l’arrêté en bas ; commentaire en dessous, AD70 216 W 23",
+              "usage": "administration — Le fac-similé porte un arrêté du préfet de Haute-Saône signé à Vesoul le 4 octobre 1944, AD70 216 W 23. Le commentaire situe l’installation de Thomassin le 13 septembre ; il ne date pas l’arrêté de ce jour. (lecture partielle)"
             },
             {
               "source_id": "src-trfgis-departements-1940",
@@ -2558,7 +2567,7 @@
             "roles": [
               "administration"
             ],
-            "note": "Le journal reproduit annonce l'exercice des fonctions de préfet de Saône-et-Loire par Drevon à Mâcon en septembre 1944. La fonction est attestée avant le Snapshot ou sur une période qui l’encadre ; sa continuité au 01/01/1945 est proposée, sans preuve de chaque bureau au jour exact. Aucun lien de chef-lieu validé automatiquement (R110-02). Point représentatif de la ville issu de la mairie moderne de TRF-GIS ; centre de 1945 non certifié (R110-01). À renforcer : administration."
+            "note": "Le Petit Mâconnais du 4 septembre 1944 annonce au futur que Lucien Drevon exercera les fonctions de préfet de Saône-et-Loire. Ce journal local ne prouve ni une installation déjà réalisée ni l’adresse des bureaux. Le rapprochement avec Mâcon reste une proposition à renforcer. Aucun lien de chef-lieu validé automatiquement (R110-02). Point représentatif de la ville issu de la mairie moderne de TRF-GIS ; centre de 1945 non certifié (R110-01). À renforcer : administration."
           },
           "geometrie": {
             "type": "Point",
@@ -2570,8 +2579,8 @@
           "sources": [
             {
               "source_id": "src-v110-auxerre-resistance",
-              "locator": "PDF p.34, Le Petit Mâconnais du 4 septembre 1944",
-              "usage": "administration — Le journal reproduit annonce l'exercice des fonctions de préfet de Saône-et-Loire par Drevon à Mâcon en septembre 1944. (non confirmée par la relecture de Claude)"
+              "locator": "PDF physique p.34, imprimée 33, bloc en gras en bas à gauche du journal du 4 septembre 1944",
+              "usage": "administration — Le Petit Mâconnais du 4 septembre 1944 annonce au futur que Lucien Drevon exercera les fonctions de préfet de Saône-et-Loire. Ce journal local ne prouve ni une installation déjà réalisée ni l’adresse des bureaux. Le rapprochement avec Mâcon reste une proposition à renforcer. (lecture partielle)"
             },
             {
               "source_id": "src-trfgis-departements-1940",
@@ -3013,7 +3022,7 @@
             {
               "source_id": "src-v110-rochesuryon-liberation",
               "locator": "Passage historique local",
-              "usage": "Complément de localisation ; limites dans la grille (non vérifiée par Claude)"
+              "usage": "Complément de localisation ; limites dans la grille (lecture partielle)"
             }
           ]
         }
@@ -3139,7 +3148,7 @@
             "roles": [
               "administration"
             ],
-            "note": "Le fac-similé porte l'en-tête du cabinet du préfet de l'Yonne et la date d'Auxerre du 16 juin 1944. La fonction est attestée avant le Snapshot ou sur une période qui l’encadre ; sa continuité au 01/01/1945 est proposée, sans preuve de chaque bureau au jour exact. Aucun lien de chef-lieu validé automatiquement (R110-02). Point représentatif de la ville issu de la mairie moderne de TRF-GIS ; centre de 1945 non certifié (R110-01). À renforcer : administration."
+            "note": "Le fac-similé porte l’en-tête du cabinet du préfet de l’Yonne et une lettre datée à Auxerre du 16 juin 1944 ; la liste et le titre concernent les arrestations du 14 juin. Ces dates désignent deux faits distincts. La fonction est attestée avant le Snapshot ou sur une période qui l’encadre ; sa continuité au 01/01/1945 est proposée, sans preuve de chaque bureau au jour exact. Aucun lien de chef-lieu validé automatiquement (R110-02). Point représentatif de la ville issu de la mairie moderne de TRF-GIS ; centre de 1945 non certifié (R110-01). À renforcer : administration."
           },
           "geometrie": {
             "type": "Point",
@@ -3151,8 +3160,8 @@
           "sources": [
             {
               "source_id": "src-v110-auxerre-resistance",
-              "locator": "PDF p.13, lettre du 16 juin 1944, AD89 1 W 155",
-              "usage": "administration — Le fac-similé porte l'en-tête du cabinet du préfet de l'Yonne et la date d'Auxerre du 16 juin 1944. (non confirmée par la relecture de Claude)"
+              "locator": "PDF physique p.13, imprimée 12, lettre à gauche et en-tête ; AD89 1 W 155",
+              "usage": "administration — Le fac-similé porte l’en-tête du cabinet du préfet de l’Yonne et une lettre datée à Auxerre du 16 juin 1944 ; la liste et le titre concernent les arrestations du 14 juin. Ces dates désignent deux faits distincts. (lecture partielle)"
             },
             {
               "source_id": "src-trfgis-departements-1940",

@@ -14,14 +14,10 @@ ECHANGE = pathlib.Path(sys.argv[1]) if len(sys.argv) > 1 else RACINE.parent / 'D
 # Questions de Claude encore ouvertes (reprises de ses comptes rendus ; les autres sont déjà dans les fichiers d'Ether)
 QUESTIONS_CLAUDE = {
     'villes_1-10': [
-        ('Q110-01 — Brochure de l\'académie de Besançon : pièces d\'Auxerre, Mâcon et Vesoul à relire',
-         "src-v110-auxerre-resistance : selon la relecture de Claude, les trois pièces ne correspondent pas aux localisateurs d'Ether (Thomassin arrivé le 13/09/1944 ; Drevon introuvable dans le Petit Mâconnais reproduit ; AD89 1 W 155 = liste d'arrestations du 14/06/1944). Statut « faible » (Vesoul : « limite »).",
-         "Auxerre, Mâcon et Vesoul restent « À renforcer : administration » ; aucun chef-lieu raccordé.",
-         "Ether redonne les pages exactes (ou des captures) ; ou garder la réserve."),
-        ('Q110-02 — Pages des préfectures refusées à l\'outil de Claude',
-         "26 des 63 sources (presque toutes sur les sites *.gouv.fr des préfectures) refusent l'outil de lecture de Claude (robots) ; 25 autres ne sont lues qu'en partie (fait daté de 1944 sans période couvrant le 01/01/1945). 52 villes sur 66 restent « À renforcer : administration ».",
-         "Villes intégrées avec leur rôle administratif proposé ; seuls 11 chefs-lieux 2.FR raccordés (8 régions par la réponse AN 1981, Mézières, Rodez, Albi).",
-         "Ether dépose des captures datées des passages utiles (comme au lot 1.8) ou d'autres sources lisibles (archives départementales, JO, annuaires de 1945) ; ou Guizmo valide sur la page « Sources à valider »."),
+        ('R110-C2-01 — 48 chefs-lieux français sans preuve au 01/01/1945 (Q110-01 et Q110-02 closes au cycle 2)',
+         "Au cycle 2, Claude a relu les pièces locales d'Ether (21 copies HTML à empreinte contrôlée, 10 captures) : localisateurs de la brochure de Besançon confirmés (Auxerre 16/06/1944, Mâcon 04/09/1944, Vesoul 04/10/1944 : « limite ») ; 4 sources prouvent la continuité de la préfecture (Tarbes, Besançon, Guéret, Cahors : « ok ») ; 22 autres ne donnent qu'un fait de 1944 ou un indice indirect (« limite »).",
+         "18 villes sur 66 ont leur rôle administratif prouvé ; 48 restent « À renforcer : administration » ; 15 chefs-lieux 2.FR raccordés (8 régions, Mézières, Rodez, Albi, Guéret, Besançon, Cahors, Tarbes).",
+         "Accepter la continuité 1944 → 01/01/1945 pour les préfectures (règle générale) ; ou garder la réserve ; ou Guizmo valide source par source sur la page « Sources à valider »."),
     ],
     'villes_1-5': [
         ('Q15-02 — Chefs-lieux de région : faut-il les marquer « capitale » ?',

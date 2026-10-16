@@ -1,0 +1,134 @@
+{
+  "lot": "villes_1-10",
+  "cycle": 2,
+  "base_canon_sha256": "78e3db2c6127a55aaf2d60db7775cb66e39ca763e529a0251322ab5f52aaa048",
+  "mode": "modifier_uniquement_champs_cibles_apres_comparaison",
+  "corrections": [
+    {
+      "entite_id": "ville-fr-valence",
+      "etat_id": "etat-01",
+      "avant": {
+        "note": "La présentation départementale situe à Valence la préfecture et la libération de la ville le 31 août 1944. La fonction est attestée avant le Snapshot ou sur une période qui l’encadre ; sa continuité au 01/01/1945 est proposée, sans preuve de chaque bureau au jour exact. Aucun lien de chef-lieu validé automatiquement (R110-02). Point représentatif de la ville issu de la mairie moderne de TRF-GIS ; centre de 1945 non certifié (R110-01). À renforcer : administration.",
+        "source": {
+          "source_id": "src-v110-valence-liberation",
+          "locator": "Libération de la Drôme, 31 août 1944",
+          "usage": "administration — La présentation départementale situe à Valence la préfecture et la libération de la ville le 31 août 1944. (lecture partielle)"
+        }
+      },
+      "apres": {
+        "note": "La copie HTML de la présentation départementale qualifie littéralement Valence de préfecture du département dans la liste des villes libérées, à la date du 31 août 1944. Le passage n’établit pas directement l’état des services au 01/01/1945. La fonction est attestée avant le Snapshot ou sur une période qui l’encadre ; sa continuité au 01/01/1945 est proposée, sans preuve de chaque bureau au jour exact. Aucun lien de chef-lieu validé automatiquement (R110-02). Point représentatif de la ville issu de la mairie moderne de TRF-GIS ; centre de 1945 non certifié (R110-01). À renforcer : administration.",
+        "source": {
+          "source_id": "src-v110-valence-liberation",
+          "locator": "Libération de la Drôme : liste des villes libérées, après Saint Rambert ; TXT local ligne 167",
+          "usage": "administration — La copie HTML de la présentation départementale qualifie littéralement Valence de préfecture du département dans la liste des villes libérées, à la date du 31 août 1944. Le passage n’établit pas directement l’état des services au 01/01/1945. Précision Ether cycle2 ; avis de Claude à réexaminer sans validation implicite."
+        }
+      },
+      "motif": "Précision documentaire et portée limitée ; aucune modification du rôle, des dates, de la géométrie ou des relations."
+    },
+    {
+      "entite_id": "ville-fr-grenoble",
+      "etat_id": "etat-01",
+      "avant": {
+        "note": "Albert Reynier s'installe à la préfecture de Grenoble le 22 août 1944 ; sa qualité est officialisée le 28. Le repère moderne ne représente pas la mairie de 1944, alors à l'hôtel de Lesdiguières. La fonction est attestée avant le Snapshot ou sur une période qui l’encadre ; sa continuité au 01/01/1945 est proposée, sans preuve de chaque bureau au jour exact. Aucun lien de chef-lieu validé automatiquement (R110-02). Point représentatif de la ville issu de la mairie moderne de TRF-GIS ; centre de 1945 non certifié (R110-01). À renforcer : administration.",
+        "source": {
+          "source_id": "src-v110-grenoble-liberation",
+          "locator": "Le théâtre de la Libération, 22 et 28 août 1944",
+          "usage": "administration — Albert Reynier s'installe à la préfecture de Grenoble le 22 août 1944 ; sa qualité est officialisée le 28. Le repère moderne ne représente pas la mairie de 1944, alors à l'hôtel de Lesdiguières. (lecture partielle)"
+        }
+      },
+      "apres": {
+        "note": "Le 22 août 1944, Albert Reynier accueille les résistants devant la préfecture de l’Isère à Grenoble ; le récit situe l’officialisation de son titre au 28 août. Il ne décrit pas explicitement une installation de bureaux le 22. La mairie de 1944 était à l’hôtel de Lesdiguières, distinct du repère moderne. La fonction est attestée avant le Snapshot ou sur une période qui l’encadre ; sa continuité au 01/01/1945 est proposée, sans preuve de chaque bureau au jour exact. Aucun lien de chef-lieu validé automatiquement (R110-02). Point représentatif de la ville issu de la mairie moderne de TRF-GIS ; centre de 1945 non certifié (R110-01). À renforcer : administration.",
+        "source": {
+          "source_id": "src-v110-grenoble-liberation",
+          "locator": "Le théâtre de la Libération : accueil devant la préfecture le 22 août, titre officialisé le 28 août 1944",
+          "usage": "administration — Le 22 août 1944, Albert Reynier accueille les résistants devant la préfecture de l’Isère à Grenoble ; le récit situe l’officialisation de son titre au 28 août. Il ne décrit pas explicitement une installation de bureaux le 22. La mairie de 1944 était à l’hôtel de Lesdiguières, distinct du repère moderne. Précision Ether cycle2 ; avis de Claude à réexaminer sans validation implicite."
+        }
+      },
+      "motif": "Précision documentaire et portée limitée ; aucune modification du rôle, des dates, de la géométrie ou des relations."
+    },
+    {
+      "entite_id": "ville-fr-lons-le-saunier",
+      "etat_id": "etat-01",
+      "avant": {
+        "note": "La brochure d'ECLA désigne Lons-le-Saunier comme ville préfecture du Jura dans le récit de sa libération du 25 août 1944. La fonction est attestée avant le Snapshot ou sur une période qui l’encadre ; sa continuité au 01/01/1945 est proposée, sans preuve de chaque bureau au jour exact. Aucun lien de chef-lieu validé automatiquement (R110-02). Point représentatif de la ville issu de la mairie moderne de TRF-GIS ; centre de 1945 non certifié (R110-01).",
+        "source": {
+          "source_id": "src-v110-lons-liberation",
+          "locator": "PDF p.2, textes historiques d'André Robert",
+          "usage": "administration — La brochure d'ECLA désigne Lons-le-Saunier comme ville préfecture du Jura dans le récit de sa libération du 25 août 1944."
+        }
+      },
+      "apres": {
+        "note": "L’avant-propos signé Claude Borcard dans la brochure d’ECLA qualifie Lons-le-Saunier de ville préfecture dans le récit de sa libération du 25 août 1944. La phrase n’appartient pas au texte voisin signé André Robert. La fonction est attestée avant le Snapshot ou sur une période qui l’encadre ; sa continuité au 01/01/1945 est proposée, sans preuve de chaque bureau au jour exact. Aucun lien de chef-lieu validé automatiquement (R110-02). Point représentatif de la ville issu de la mairie moderne de TRF-GIS ; centre de 1945 non certifié (R110-01).",
+        "source": {
+          "source_id": "src-v110-lons-liberation",
+          "locator": "PDF p.2, colonne gauche, avant-propos de Claude Borcard ; attribution corrigée",
+          "usage": "administration — L’avant-propos signé Claude Borcard dans la brochure d’ECLA qualifie Lons-le-Saunier de ville préfecture dans le récit de sa libération du 25 août 1944. La phrase n’appartient pas au texte voisin signé André Robert. Précision Ether cycle2 ; avis de Claude à réexaminer sans validation implicite."
+        }
+      },
+      "motif": "Précision documentaire et portée limitée ; aucune modification du rôle, des dates, de la géométrie ou des relations."
+    },
+    {
+      "entite_id": "ville-fr-vesoul",
+      "etat_id": "etat-01",
+      "avant": {
+        "note": "Le fac-similé montre un arrêté du préfet de Haute-Saône daté à Vesoul du 4 octobre 1944 ; le commentaire situe l'installation de Thomassin en septembre. La fonction est attestée avant le Snapshot ou sur une période qui l’encadre ; sa continuité au 01/01/1945 est proposée, sans preuve de chaque bureau au jour exact. Aucun lien de chef-lieu validé automatiquement (R110-02). Point représentatif de la ville issu de la mairie moderne de TRF-GIS ; centre de 1945 non certifié (R110-01). À renforcer : administration.",
+        "source": {
+          "source_id": "src-v110-auxerre-resistance",
+          "locator": "PDF p.49, arrêté du 4 octobre 1944, AD70 216 W 23",
+          "usage": "administration — Le fac-similé montre un arrêté du préfet de Haute-Saône daté à Vesoul du 4 octobre 1944 ; le commentaire situe l'installation de Thomassin en septembre. (lecture partielle)"
+        }
+      },
+      "apres": {
+        "note": "Le fac-similé porte un arrêté du préfet de Haute-Saône signé à Vesoul le 4 octobre 1944, AD70 216 W 23. Le commentaire situe l’installation de Thomassin le 13 septembre ; il ne date pas l’arrêté de ce jour. La fonction est attestée avant le Snapshot ou sur une période qui l’encadre ; sa continuité au 01/01/1945 est proposée, sans preuve de chaque bureau au jour exact. Aucun lien de chef-lieu validé automatiquement (R110-02). Point représentatif de la ville issu de la mairie moderne de TRF-GIS ; centre de 1945 non certifié (R110-01). À renforcer : administration.",
+        "source": {
+          "source_id": "src-v110-auxerre-resistance",
+          "locator": "PDF physique p.49, imprimée 48, signature de l’arrêté en bas ; commentaire en dessous, AD70 216 W 23",
+          "usage": "administration — Le fac-similé porte un arrêté du préfet de Haute-Saône signé à Vesoul le 4 octobre 1944, AD70 216 W 23. Le commentaire situe l’installation de Thomassin le 13 septembre ; il ne date pas l’arrêté de ce jour. Précision Ether cycle2 ; avis de Claude à réexaminer sans validation implicite."
+        }
+      },
+      "motif": "Précision documentaire et portée limitée ; aucune modification du rôle, des dates, de la géométrie ou des relations."
+    },
+    {
+      "entite_id": "ville-fr-macon",
+      "etat_id": "etat-01",
+      "avant": {
+        "note": "Le journal reproduit annonce l'exercice des fonctions de préfet de Saône-et-Loire par Drevon à Mâcon en septembre 1944. La fonction est attestée avant le Snapshot ou sur une période qui l’encadre ; sa continuité au 01/01/1945 est proposée, sans preuve de chaque bureau au jour exact. Aucun lien de chef-lieu validé automatiquement (R110-02). Point représentatif de la ville issu de la mairie moderne de TRF-GIS ; centre de 1945 non certifié (R110-01). À renforcer : administration.",
+        "source": {
+          "source_id": "src-v110-auxerre-resistance",
+          "locator": "PDF p.34, Le Petit Mâconnais du 4 septembre 1944",
+          "usage": "administration — Le journal reproduit annonce l'exercice des fonctions de préfet de Saône-et-Loire par Drevon à Mâcon en septembre 1944. (non confirmée par la relecture de Claude)"
+        }
+      },
+      "apres": {
+        "note": "Le Petit Mâconnais du 4 septembre 1944 annonce au futur que Lucien Drevon exercera les fonctions de préfet de Saône-et-Loire. Ce journal local ne prouve ni une installation déjà réalisée ni l’adresse des bureaux. Le rapprochement avec Mâcon reste une proposition à renforcer. Aucun lien de chef-lieu validé automatiquement (R110-02). Point représentatif de la ville issu de la mairie moderne de TRF-GIS ; centre de 1945 non certifié (R110-01). À renforcer : administration.",
+        "source": {
+          "source_id": "src-v110-auxerre-resistance",
+          "locator": "PDF physique p.34, imprimée 33, bloc en gras en bas à gauche du journal du 4 septembre 1944",
+          "usage": "administration — Le Petit Mâconnais du 4 septembre 1944 annonce au futur que Lucien Drevon exercera les fonctions de préfet de Saône-et-Loire. Ce journal local ne prouve ni une installation déjà réalisée ni l’adresse des bureaux. Le rapprochement avec Mâcon reste une proposition à renforcer. Précision Ether cycle2 ; avis de Claude à réexaminer sans validation implicite."
+        }
+      },
+      "motif": "Précision documentaire et portée limitée ; aucune modification du rôle, des dates, de la géométrie ou des relations."
+    },
+    {
+      "entite_id": "ville-fr-auxerre",
+      "etat_id": "etat-01",
+      "avant": {
+        "note": "Le fac-similé porte l'en-tête du cabinet du préfet de l'Yonne et la date d'Auxerre du 16 juin 1944. La fonction est attestée avant le Snapshot ou sur une période qui l’encadre ; sa continuité au 01/01/1945 est proposée, sans preuve de chaque bureau au jour exact. Aucun lien de chef-lieu validé automatiquement (R110-02). Point représentatif de la ville issu de la mairie moderne de TRF-GIS ; centre de 1945 non certifié (R110-01). À renforcer : administration.",
+        "source": {
+          "source_id": "src-v110-auxerre-resistance",
+          "locator": "PDF p.13, lettre du 16 juin 1944, AD89 1 W 155",
+          "usage": "administration — Le fac-similé porte l'en-tête du cabinet du préfet de l'Yonne et la date d'Auxerre du 16 juin 1944. (non confirmée par la relecture de Claude)"
+        }
+      },
+      "apres": {
+        "note": "Le fac-similé porte l’en-tête du cabinet du préfet de l’Yonne et une lettre datée à Auxerre du 16 juin 1944 ; la liste et le titre concernent les arrestations du 14 juin. Ces dates désignent deux faits distincts. La fonction est attestée avant le Snapshot ou sur une période qui l’encadre ; sa continuité au 01/01/1945 est proposée, sans preuve de chaque bureau au jour exact. Aucun lien de chef-lieu validé automatiquement (R110-02). Point représentatif de la ville issu de la mairie moderne de TRF-GIS ; centre de 1945 non certifié (R110-01). À renforcer : administration.",
+        "source": {
+          "source_id": "src-v110-auxerre-resistance",
+          "locator": "PDF physique p.13, imprimée 12, lettre à gauche et en-tête ; AD89 1 W 155",
+          "usage": "administration — Le fac-similé porte l’en-tête du cabinet du préfet de l’Yonne et une lettre datée à Auxerre du 16 juin 1944 ; la liste et le titre concernent les arrestations du 14 juin. Ces dates désignent deux faits distincts. Précision Ether cycle2 ; avis de Claude à réexaminer sans validation implicite."
+        }
+      },
+      "motif": "Précision documentaire et portée limitée ; aucune modification du rôle, des dates, de la géométrie ou des relations."
+    }
+  ]
+}
