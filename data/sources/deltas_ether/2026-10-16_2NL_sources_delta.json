@@ -1,0 +1,195 @@
+{
+  "ajouter": [
+    {
+      "source_id": "src-cbs-nl-bevolking-1944-1946",
+      "niveau": "A",
+      "type_source": "publication_statistique",
+      "titre": "Bevolking der gemeenten van Nederland op 1 januari 1944, 1945 en 1946 (1947)",
+      "institution": "Centraal Bureau voor de Statistiek (CBS), copie DBNL",
+      "auteur": "Centraal Bureau voor de Statistiek (CBS), copie DBNL",
+      "url": "https://www.dbnl.org/arch/_bev001bevo20_01/pag/_bev001bevo20_01.pdf",
+      "date_consultation": "2026-10-15",
+      "cibles": [
+        "subdivision-nl-groningue",
+        "subdivision-nl-frise",
+        "subdivision-nl-drenthe",
+        "subdivision-nl-overijssel",
+        "subdivision-nl-gueldre",
+        "subdivision-nl-utrecht",
+        "subdivision-nl-hollande-septentrionale",
+        "subdivision-nl-hollande-meridionale",
+        "subdivision-nl-zelande",
+        "subdivision-nl-brabant-septentrional",
+        "subdivision-nl-limbourg",
+        "subdivision-nl-noordoostpolder"
+      ],
+      "usage": [
+        "Onze provinces et organisme spécial, effectifs communaux au 01/01/1945, noms et rattachements locaux"
+      ],
+      "usages_atlas": [
+        "subdivisions_snapshot0"
+      ],
+      "locator": "p.30–33, table I, p.64 ; PDF32–35,68",
+      "note": "Ne pas reprendre population ou superficie de 1946. Graphies statistiques contemporaines, pas transcription vérifiée des actes constitutifs. OCR utilisé pour repérage, images pour les conflits et les tableaux clés.",
+      "archives_locales": [
+        "01_lots/2.NL/preuves/CBS_1944_1945_1946.pdf",
+        "01_lots/2.NL/preuves/CBS_p33.png",
+        "01_lots/2.NL/preuves/CBS_p64.png",
+        "01_lots/2.NL/preuves/CBS_iles_Urk-62.png",
+        "01_lots/2.NL/preuves/CBS_iles_Urk-63.png",
+        "01_lots/2.NL/preuves/CBS_Wieringen.png",
+        "01_lots/2.NL/preuves/CBS_p41.png",
+        "01_lots/2.NL/preuves/CBS_p55.png"
+      ],
+      "verification_ether": {
+        "statut": "lu",
+        "date": "2026-10-15",
+        "mode": "PDF et captures vus pour CBS/Staatsblad ; métadonnées et données DANS contrôlées ; passage du Nationaal Archief lu"
+      },
+      "verification_claude": "a_relire"
+    },
+    {
+      "source_id": "src-boonstra-nlgis-1945",
+      "niveau": "B",
+      "type_source": "jeu_donnees_historiques",
+      "titre": "NLGIS shapefiles : communes 1945 corrigées le 26/05/2009 ; provinces 1940 utilisées comme repère",
+      "institution": "Dr. O. W. A. Boonstra, Radboud Universiteit Nijmegen ; dépôt DANS",
+      "auteur": "Dr. O. W. A. Boonstra, Radboud Universiteit Nijmegen ; dépôt DANS",
+      "url": "https://doi.org/10.17026/dans-xb9-t677",
+      "date_consultation": "2026-10-15",
+      "cibles": [
+        "subdivision-nl-groningue",
+        "subdivision-nl-frise",
+        "subdivision-nl-drenthe",
+        "subdivision-nl-overijssel",
+        "subdivision-nl-gueldre",
+        "subdivision-nl-utrecht",
+        "subdivision-nl-hollande-septentrionale",
+        "subdivision-nl-hollande-meridionale",
+        "subdivision-nl-zelande",
+        "subdivision-nl-brabant-septentrional",
+        "subdivision-nl-limbourg",
+        "subdivision-nl-noordoostpolder"
+      ],
+      "usage": [
+        "Source des tracés de 1945, classement par repère 1940 et recoupement CBS ; reconstitution de douze emprises"
+      ],
+      "usages_atlas": [
+        "subdivisions_snapshot0"
+      ],
+      "locator": "Version 2.2 publiée le 19/07/2026 ; fichiers nl_1945 et PROV1940 ; licence de latestVersion",
+      "note": "Reconstruction historique annuelle. CRS natif non déclaré dans un PRJ téléchargé ; EPSG:28992 inféré et comparé à tous les objets du service NLGIS : écart maximal 0,000435 m. Le fond 1940 sert uniquement au classement.",
+      "archives_locales": [
+        "01_lots/2.NL/preuves/DANS_NLGIS_metadata.json",
+        "01_lots/2.NL/preuves/nl_1945.shp",
+        "01_lots/2.NL/preuves/nl_1945.shx",
+        "01_lots/2.NL/preuves/nl_1945.dbf",
+        "01_lots/2.NL/preuves/PROV1940.SHP",
+        "01_lots/2.NL/preuves/PROV1940.SHX",
+        "01_lots/2.NL/preuves/PROV1940.DBF",
+        "01_lots/2.NL/preuves/NLGIS_api_1945.geojson",
+        "01_lots/2.NL/preuves/controle_preliminaire.json",
+        "01_lots/2.NL/preuves/resolutions_controle.json"
+      ],
+      "verification_ether": {
+        "statut": "lu",
+        "date": "2026-10-15",
+        "mode": "PDF et captures vus pour CBS/Staatsblad ; métadonnées et données DANS contrôlées ; passage du Nationaal Archief lu"
+      },
+      "verification_claude": "a_relire",
+      "licence": "CC0-1.0",
+      "createur_trace": "Dr. O. W. A. Boonstra",
+      "version": "DANS 2.2, fichiers corrigés 26/05/2009",
+      "url_metadonnees": "https://ssh.datastations.nl/api/datasets/:persistentId/?persistentId=doi:10.17026/dans-xb9-t677",
+      "url_controle": "https://nlgis.nl/api/maps?year=1945&format=geojson",
+      "provenance": "Dépôt NLGIS du producteur historique ; hashes SHA1 des six fichiers conformes aux métadonnées. Attribution Ether limitée au regroupement et à la conversion.",
+      "transformations": "Voir opérations de chaque géométrie et ether_controler_base_2NL.py ; aucune simplification."
+    },
+    {
+      "source_id": "src-na-nl-noordoostpolder-20487",
+      "niveau": "B",
+      "type_source": "document_institutionnel",
+      "titre": "Archives 2.04.87 — contexte : Histoire du Noordoostpolder",
+      "institution": "Nationaal Archief",
+      "auteur": "Nationaal Archief",
+      "url": "https://www.nationaalarchief.nl/onderzoeken/archief/2.04.87/beschrijving/context?page=498",
+      "date_consultation": "2026-10-15",
+      "cibles": [
+        "subdivision-nl-groningue",
+        "subdivision-nl-frise",
+        "subdivision-nl-drenthe",
+        "subdivision-nl-overijssel",
+        "subdivision-nl-gueldre",
+        "subdivision-nl-utrecht",
+        "subdivision-nl-hollande-septentrionale",
+        "subdivision-nl-hollande-meridionale",
+        "subdivision-nl-zelande",
+        "subdivision-nl-brabant-septentrional",
+        "subdivision-nl-limbourg",
+        "subdivision-nl-noordoostpolder"
+      ],
+      "usage": [
+        "Organisme de 1942 ; fonctions provinciales exercées par le gouvernement ; noms Urkerland et Noordoostpolder"
+      ],
+      "usages_atlas": [
+        "subdivisions_snapshot0"
+      ],
+      "locator": "Geschiedenis van de Noordoostpolder, renvois aux inventaires 851,855,858–861",
+      "note": "Notice rétrospective, actes originaux non consultés. Aucune extension des événements de 1948/1962 au snapshot.",
+      "archives_locales": [
+        "01_lots/2.NL/preuves/NA_noordoostpolder.html",
+        "01_lots/2.NL/preuves/NA_noordoostpolder_passage.txt"
+      ],
+      "verification_ether": {
+        "statut": "lu",
+        "date": "2026-10-15",
+        "mode": "PDF et captures vus pour CBS/Staatsblad ; métadonnées et données DANS contrôlées ; passage du Nationaal Archief lu"
+      },
+      "verification_claude": "a_relire"
+    },
+    {
+      "source_id": "src-stb-nl-1951-25",
+      "niveau": "A",
+      "type_source": "document_institutionnel",
+      "titre": "Staatsblad 1951 n°25 — Wet bezettingsmaatregelen IV",
+      "institution": "Staatsblad van het Koninkrijk der Nederlanden",
+      "auteur": "Staatsblad van het Koninkrijk der Nederlanden",
+      "url": "https://zoek.officielebekendmakingen.nl/stb-1951-25.pdf",
+      "date_consultation": "2026-10-15",
+      "cibles": [
+        "subdivision-nl-groningue",
+        "subdivision-nl-frise",
+        "subdivision-nl-drenthe",
+        "subdivision-nl-overijssel",
+        "subdivision-nl-gueldre",
+        "subdivision-nl-utrecht",
+        "subdivision-nl-hollande-septentrionale",
+        "subdivision-nl-hollande-meridionale",
+        "subdivision-nl-zelande",
+        "subdivision-nl-brabant-septentrional",
+        "subdivision-nl-limbourg",
+        "subdivision-nl-noordoostpolder"
+      ],
+      "usage": [
+        "Renvoi légal postérieur à la neuvième ordonnance sur Vlieland et Terschelling, Verordeningenblad 1942 n°73"
+      ],
+      "usages_atlas": [
+        "subdivisions_snapshot0"
+      ],
+      "locator": "PDF1, loi du 25/01/1951 ; PDF4, première annexe, Binnenlandse Zaken n°1",
+      "note": "Source de 1951 utilisée seulement comme piste et contexte juridique rétrospectif ; ne prouve pas seule l’état de droit au 01/01/1945.",
+      "archives_locales": [
+        "01_lots/2.NL/preuves/Staatsblad_1951_25.pdf",
+        "01_lots/2.NL/preuves/Staatsblad_1951_25_p1.png",
+        "01_lots/2.NL/preuves/Staatsblad_1951_25_p4.png"
+      ],
+      "verification_ether": {
+        "statut": "lu",
+        "date": "2026-10-15",
+        "mode": "PDF et captures vus pour CBS/Staatsblad ; métadonnées et données DANS contrôlées ; passage du Nationaal Archief lu"
+      },
+      "verification_claude": "a_relire"
+    }
+  ],
+  "completer": []
+}

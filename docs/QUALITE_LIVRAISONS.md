@@ -24,3 +24,4 @@ Une ligne par livraison intégrée, ajoutée par Claude (mode d'emploi, étape 7
 | 2026-10-06 | villes_1-9 cycle 3 (Q19-03, audit) | Codex, GPT-6 (aucun sous-agent) | 7 (15 captures) | 6 confirmées (86 %), 1 confirmée pour sa ville (Dijon CAUE) ; Jeumont sans pièce | 0 | 0 | 0 | aucun | « rail et port_fluvial » → « rail, port_fluvial » |
 | 2026-10-15 | 2.BE cycle 1 | Codex (version non attestée) | 5 (+5 captures) | 4 confirmées (80 %), 1 limite | 0 | 0 | 0 | aucun | aucune |
 | 2026-10-15 | 2.LU cycle 1 | Codex (version non attestée) | 5 (+4 captures, 1 page HTML archivée) | 3 confirmées (60 %), 2 limite | 0 | 0 (page ACT refusée à l'outil, copie d'Ether lue) | 0 | aucun | aucune |
+| 2026-10-16 | 2.NL cycle 1 | Codex (version non attestée) | 4 (+11 captures, 2 copies de pages) | 3 confirmées (75 %), 1 limite | 0 | 0 (dbnl, DANS et Staatsblad refusés ou en erreur pour l'outil ; captures et copies d'Ether lues) | 0 | aucun | aucune |

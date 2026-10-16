@@ -1,0 +1,93 @@
+{
+  "lot": "2.NL",
+  "reserves": [
+    {
+      "reserve_id": "R2NL-01",
+      "lot": "2.NL",
+      "statut": "reserve_pour_revue_guizmo_non_validee",
+      "point": "Précision et classement des contours historiques",
+      "preuves_et_limites": "NLGIS fournit un millésime annuel 1945, pas une certification au jour près. Les 1 016 objets sont valides. Les effectifs provinciaux concordent avec le CBS au 01/01/1945 ; 712 lignes ont un rapprochement OCR unique, 304 non. Trois faux conflits ont été résolus sur les images. Le fond provincial de 1940 sert au classement seulement.",
+      "impact_donnees": "Onze contours proposés comme reconstitutions provisoires ; aucune exactitude cadastrale ni limite des eaux revendiquée. Pas de simplification par Ether.",
+      "choix_a_examiner": "Conserver ces reconstitutions à l’échelle de l’Atlas ou demander une certification locale des segments sensibles.",
+      "sources": [
+        "src-cbs-nl-bevolking-1944-1946",
+        "src-boonstra-nlgis-1945"
+      ]
+    },
+    {
+      "reserve_id": "R2NL-02",
+      "lot": "2.NL",
+      "statut": "reserve_pour_revue_guizmo_non_validee",
+      "point": "Noordoostpolder : organisme distinct, nom et rang",
+      "preuves_et_limites": "Le CBS p.30 et p.64 distingue le public body des onze provinces. Le Nationaal Archief décrit un organisme créé le 28/07/1942 dont les fonctions provinciales sont exercées par le gouvernement ; il mentionne Urkerland en 1944 et le retour au nom Noordoostpolder en 1948. L’acte original de dénomination n’a pas été consulté.",
+      "impact_donnees": "Fiche distincte, statut openbaar lichaam et rattachement direct à l’État. Échelon 1 fonctionnel proposé, sans le transformer en province. Nom institutionnel repris du CBS, qualification de la preuve explicite ; aucun chef-lieu validé.",
+      "choix_a_examiner": "Confirmer le traitement cartographique de cette exception et la forme officielle exacte au 01/01/1945. Urkerland reste en note, sans substitution automatique.",
+      "sources": [
+        "src-cbs-nl-bevolking-1944-1946",
+        "src-na-nl-noordoostpolder-20487"
+      ]
+    },
+    {
+      "reserve_id": "R2NL-03",
+      "lot": "2.NL",
+      "statut": "reserve_pour_revue_guizmo_non_validee",
+      "point": "Îles : état statistique établi, fondement juridique à compléter",
+      "preuves_et_limites": "Le CBS de 1947 donne Terschelling et Vlieland en Frise, Urk et Wieringen en Hollande-Septentrionale pour la période observée ; captures relues. Le Staatsblad de 1951 renvoie à la neuvième ordonnance, Verordeningenblad 1942 n°73. L’original de cette ordonnance n’a pas été relu.",
+      "impact_donnees": "Rattachements du CBS maintenus ; le fond de 1940 est corrigé pour les deux îles. Aucune prise d’effet de la loi de 1951 anticipée en 1945.",
+      "choix_a_examiner": "Compléter la preuve juridique originale si la revue exige de distinguer portée de droit et pratique administrative de guerre.",
+      "sources": [
+        "src-cbs-nl-bevolking-1944-1946",
+        "src-stb-nl-1951-25"
+      ]
+    },
+    {
+      "reserve_id": "R2NL-04",
+      "lot": "2.NL",
+      "statut": "reserve_pour_revue_guizmo_non_validee",
+      "point": "Chefs-lieux au jour de référence",
+      "preuves_et_limites": "La liste provinciale et les contours ne prouvent pas le siège de chaque administration au 01/01/1945. Les noms usuels de sièges sont seulement des pistes.",
+      "impact_donnees": "Aucun chef_lieu_propose ni chef-lieu validé ajouté aux fiches. Six candidats sans fiche ville sont signalés dans la note, sans création.",
+      "choix_a_examiner": "Rechercher des preuves datées avant de publier un siège ou d’autoriser un complément villes néerlandais.",
+      "sources": [
+        "src-cbs-nl-bevolking-1944-1946"
+      ]
+    },
+    {
+      "reserve_id": "R2NL-05",
+      "lot": "2.NL",
+      "statut": "reserve_pour_revue_guizmo_non_validee",
+      "point": "Découpage de droit et autorités effectives",
+      "preuves_et_limites": "Le lot décrit les provinces et l’exception du polder ; il ne documente pas une cartographie complète de l’administration d’occupation ou des autorités militaires au 01/01/1945. Le territoire canonique et la zone libérée du sud portent déjà le contrôle.",
+      "impact_donnees": "Souveraineté pays_bas, parent territoire-nl-pays-bas. Aucun district de parti, ressort militaire, contrôle homogène ou nouvelle frontière de front créé.",
+      "choix_a_examiner": "Examiner séparément un éventuel système parallèle seulement si son intérêt pour les circulations est établi.",
+      "sources": [
+        "src-cbs-nl-bevolking-1944-1946",
+        "src-na-nl-noordoostpolder-20487"
+      ]
+    },
+    {
+      "reserve_id": "R2NL-06",
+      "lot": "2.NL",
+      "statut": "reserve_pour_revue_guizmo_non_validee",
+      "point": "Baarle : contour du Brabant-Septentrional réservé",
+      "preuves_et_limites": "Le polygone communal NLGIS de Baarle-Nassau possède un anneau intérieur. Cette représentation n’a pas été confrontée à un plan des enclaves au 01/01/1945 ; la validité topologique ne suffit pas à certifier leur détail historique.",
+      "impact_donnees": "La fiche provinciale est proposée. Son contour complet est livré avec statut ne_pas_integrer et sans geometrie_ref : exclusion prudente, pas constat d’une erreur démontrée.",
+      "choix_a_examiner": "Comparer les enclaves et contre-enclaves avec une source locale datée avant d’autoriser ce tracé.",
+      "sources": [
+        "src-boonstra-nlgis-1945"
+      ]
+    },
+    {
+      "reserve_id": "R2NL-07",
+      "lot": "2.NL",
+      "statut": "reserve_pour_revue_guizmo_non_validee",
+      "point": "Raccords Belgique, Allemagne et eaux",
+      "preuves_et_limites": "Les unions néerlandaises ne se chevauchent pas à la tolérance numérique. Les raccords externes n’ont pas été certifiés sur des tracés contemporains des deux côtés ; Belgique livrée sans contours, Allemagne hors groupe 1. Les eaux et la côte ne sont pas des frontières cadastrales garanties.",
+      "impact_donnees": "Aucun ajustement automatique aux frontières canoniques ou aux couches modernes. Propositions de géométries qualifiées, pas de nouvelle frontière d’État.",
+      "choix_a_examiner": "Contrôler les segments transfrontaliers et les eaux à la revue des raccords ; conserver les limites actuelles de la preuve.",
+      "sources": [
+        "src-boonstra-nlgis-1945"
+      ]
+    }
+  ]
+}

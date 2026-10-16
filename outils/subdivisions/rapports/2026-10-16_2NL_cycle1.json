@@ -1,0 +1,32 @@
+{
+ "lot": "2.NL",
+ "cycle": 1,
+ "date": "2026-10-16",
+ "essai": false,
+ "subdivisions": 12,
+ "echelon_1": 12,
+ "echelon_2": 0,
+ "traces_integres": 11,
+ "sans_trace": [
+  "subdivision-nl-brabant-septentrional"
+ ],
+ "traces_refuses": [
+  {
+   "geometry_id": "geom-subdivision-nl-brabant-septentrional-1945-01-01",
+   "raison": "marqué « ne_pas_integrer » par Ether"
+  }
+ ],
+ "sources_ajoutees": [
+  "src-cbs-nl-bevolking-1944-1946",
+  "src-boonstra-nlgis-1945",
+  "src-na-nl-noordoostpolder-20487",
+  "src-stb-nl-1951-25"
+ ],
+ "sources_completees": [],
+ "statuts_relecture": {
+  "ok": 3,
+  "limite": 1
+ },
+ "registre": "1.34 -> 1.35",
+ "avertissements": []
+}

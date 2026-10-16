@@ -1,0 +1,644 @@
+{
+ "metadata_lot": {
+  "nom": "snapshot0_subdivisions_2-NL",
+  "date_reference": "1945-01-01",
+  "heure_reference": "00:00",
+  "version": "1.0",
+  "statut": "integre_par_claude",
+  "cycle": 1,
+  "date_integration": "2026-10-16",
+  "gabarit_source": "gabarits/gabarit_entite_temporelle_atlas.json",
+  "lot_methode": "2.NL (phase 2, docs/METHODE_ATLAS_v2.md)",
+  "etat_1945": "Pays-Bas européens",
+  "proposition_ether": "data/sources/deltas_ether/2026-10-16_2NL_subdivisions_proposees_ether.json",
+  "regles": [
+   "échelon 1 = premier niveau sous l'État ; échelon 2 = le niveau en dessous ; le terme local reste dans statut_administratif",
+   "une subdivision porte la souveraineté de droit ; le contrôle réel vient des territoires et des lignes de front",
+   "affichage : échelon 1 dès le zoom 5, échelon 2 dès le zoom 6,5, mêmes seuils pour tous les pays (calque « Découpage administratif »)",
+   "tracés provisoires ; chefs-lieux proposés = référence, jamais validés sans preuve au 01/01/1945"
+  ],
+  "sans_trace": [
+   "subdivision-nl-brabant-septentrional"
+  ]
+ },
+ "entites": [
+  {
+   "entite_id": "subdivision-nl-groningue",
+   "type_entite": "subdivision",
+   "nom": "Groningue",
+   "nom_court": "Groningue",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_sous_reserves",
+     "proprietes": {
+      "nom": "Groningen",
+      "niveau": 1,
+      "echelon": 1,
+      "statut_administratif": "provincie",
+      "parent_id": "territoire-nl-pays-bas",
+      "souverainete_id": "pays_bas",
+      "preuve_temporelle": "CBS : colonne au 01/01/1945 ; contour NLGIS annuel 1945",
+      "note": "Découpage de droit. La forme néerlandaise suit le CBS (publication de 1947, colonnes 1944–1946) ; orthographe d’un acte provincial non contrôlée. Le contrôle réel reste dans les territoires et fronts.",
+      "reserves": [
+       "R2NL-01",
+       "R2NL-04",
+       "R2NL-05",
+       "R2NL-07"
+      ]
+     },
+     "sources": [
+      {
+       "source_id": "src-cbs-nl-bevolking-1944-1946",
+       "locator": "p.30, p.33 et p.64 (PDF32,35,68), colonne 1945 ; table I",
+       "usage": "existence, noms et composition ; nom officiel proposé d’après la forme statistique contemporaine"
+      },
+      {
+       "source_id": "src-boonstra-nlgis-1945",
+       "locator": "nl_1945 corrigé le 26/05/2009 ; composition_provinces_1945.json, groupe 1",
+       "usage": "reconstitution des contours communaux et regroupement contrôlé"
+      }
+     ],
+     "geometrie_ref": "geom-subdivision-nl-groningue-1945-01-01"
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-nl-frise",
+   "type_entite": "subdivision",
+   "nom": "Frise",
+   "nom_court": "Frise",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_sous_reserves",
+     "proprietes": {
+      "nom": "Friesland",
+      "niveau": 1,
+      "echelon": 1,
+      "statut_administratif": "provincie",
+      "parent_id": "territoire-nl-pays-bas",
+      "souverainete_id": "pays_bas",
+      "preuve_temporelle": "CBS : colonne au 01/01/1945 ; contour NLGIS annuel 1945",
+      "note": "Découpage de droit. La forme néerlandaise suit le CBS (publication de 1947, colonnes 1944–1946) ; orthographe d’un acte provincial non contrôlée. Le contrôle réel reste dans les territoires et fronts.",
+      "reserves": [
+       "R2NL-01",
+       "R2NL-04",
+       "R2NL-05",
+       "R2NL-07",
+       "R2NL-03"
+      ]
+     },
+     "sources": [
+      {
+       "source_id": "src-cbs-nl-bevolking-1944-1946",
+       "locator": "p.30, p.33 et p.64 (PDF32,35,68), colonne 1945 ; table I",
+       "usage": "existence, noms et composition ; nom officiel proposé d’après la forme statistique contemporaine"
+      },
+      {
+       "source_id": "src-boonstra-nlgis-1945",
+       "locator": "nl_1945 corrigé le 26/05/2009 ; composition_provinces_1945.json, groupe 2",
+       "usage": "reconstitution des contours communaux et regroupement contrôlé"
+      },
+      {
+       "source_id": "src-stb-nl-1951-25",
+       "locator": "PDF4, première annexe, Binnenlandse Zaken, entrée 1",
+       "usage": "référence ultérieure à l’ordonnance de 1942, sans anticipation de la loi de 1951"
+      }
+     ],
+     "geometrie_ref": "geom-subdivision-nl-frise-1945-01-01"
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-nl-drenthe",
+   "type_entite": "subdivision",
+   "nom": "Drenthe",
+   "nom_court": "Drenthe",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_sous_reserves",
+     "proprietes": {
+      "nom": "Drenthe",
+      "niveau": 1,
+      "echelon": 1,
+      "statut_administratif": "provincie",
+      "parent_id": "territoire-nl-pays-bas",
+      "souverainete_id": "pays_bas",
+      "preuve_temporelle": "CBS : colonne au 01/01/1945 ; contour NLGIS annuel 1945",
+      "note": "Découpage de droit. La forme néerlandaise suit le CBS (publication de 1947, colonnes 1944–1946) ; orthographe d’un acte provincial non contrôlée. Le contrôle réel reste dans les territoires et fronts.",
+      "reserves": [
+       "R2NL-01",
+       "R2NL-04",
+       "R2NL-05",
+       "R2NL-07"
+      ]
+     },
+     "sources": [
+      {
+       "source_id": "src-cbs-nl-bevolking-1944-1946",
+       "locator": "p.30, p.33 et p.64 (PDF32,35,68), colonne 1945 ; table I",
+       "usage": "existence, noms et composition ; nom officiel proposé d’après la forme statistique contemporaine"
+      },
+      {
+       "source_id": "src-boonstra-nlgis-1945",
+       "locator": "nl_1945 corrigé le 26/05/2009 ; composition_provinces_1945.json, groupe 3",
+       "usage": "reconstitution des contours communaux et regroupement contrôlé"
+      }
+     ],
+     "geometrie_ref": "geom-subdivision-nl-drenthe-1945-01-01"
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-nl-overijssel",
+   "type_entite": "subdivision",
+   "nom": "Overijssel",
+   "nom_court": "Overijssel",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_sous_reserves",
+     "proprietes": {
+      "nom": "Overijssel",
+      "niveau": 1,
+      "echelon": 1,
+      "statut_administratif": "provincie",
+      "parent_id": "territoire-nl-pays-bas",
+      "souverainete_id": "pays_bas",
+      "preuve_temporelle": "CBS : colonne au 01/01/1945 ; contour NLGIS annuel 1945",
+      "note": "Découpage de droit. La forme néerlandaise suit le CBS (publication de 1947, colonnes 1944–1946) ; orthographe d’un acte provincial non contrôlée. Le contrôle réel reste dans les territoires et fronts.",
+      "reserves": [
+       "R2NL-01",
+       "R2NL-04",
+       "R2NL-05",
+       "R2NL-07"
+      ]
+     },
+     "sources": [
+      {
+       "source_id": "src-cbs-nl-bevolking-1944-1946",
+       "locator": "p.30, p.33 et p.64 (PDF32,35,68), colonne 1945 ; table I",
+       "usage": "existence, noms et composition ; nom officiel proposé d’après la forme statistique contemporaine"
+      },
+      {
+       "source_id": "src-boonstra-nlgis-1945",
+       "locator": "nl_1945 corrigé le 26/05/2009 ; composition_provinces_1945.json, groupe 4",
+       "usage": "reconstitution des contours communaux et regroupement contrôlé"
+      }
+     ],
+     "geometrie_ref": "geom-subdivision-nl-overijssel-1945-01-01"
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-nl-gueldre",
+   "type_entite": "subdivision",
+   "nom": "Gueldre",
+   "nom_court": "Gueldre",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_sous_reserves",
+     "proprietes": {
+      "nom": "Gelderland",
+      "niveau": 1,
+      "echelon": 1,
+      "statut_administratif": "provincie",
+      "parent_id": "territoire-nl-pays-bas",
+      "souverainete_id": "pays_bas",
+      "preuve_temporelle": "CBS : colonne au 01/01/1945 ; contour NLGIS annuel 1945",
+      "note": "Découpage de droit. La forme néerlandaise suit le CBS (publication de 1947, colonnes 1944–1946) ; orthographe d’un acte provincial non contrôlée. Le contrôle réel reste dans les territoires et fronts.",
+      "reserves": [
+       "R2NL-01",
+       "R2NL-04",
+       "R2NL-05",
+       "R2NL-07"
+      ]
+     },
+     "sources": [
+      {
+       "source_id": "src-cbs-nl-bevolking-1944-1946",
+       "locator": "p.30, p.33 et p.64 (PDF32,35,68), colonne 1945 ; table I",
+       "usage": "existence, noms et composition ; nom officiel proposé d’après la forme statistique contemporaine"
+      },
+      {
+       "source_id": "src-boonstra-nlgis-1945",
+       "locator": "nl_1945 corrigé le 26/05/2009 ; composition_provinces_1945.json, groupe 5",
+       "usage": "reconstitution des contours communaux et regroupement contrôlé"
+      }
+     ],
+     "geometrie_ref": "geom-subdivision-nl-gueldre-1945-01-01"
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-nl-utrecht",
+   "type_entite": "subdivision",
+   "nom": "Utrecht",
+   "nom_court": "Utrecht",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_sous_reserves",
+     "proprietes": {
+      "nom": "Utrecht",
+      "niveau": 1,
+      "echelon": 1,
+      "statut_administratif": "provincie",
+      "parent_id": "territoire-nl-pays-bas",
+      "souverainete_id": "pays_bas",
+      "preuve_temporelle": "CBS : colonne au 01/01/1945 ; contour NLGIS annuel 1945",
+      "note": "Découpage de droit. La forme néerlandaise suit le CBS (publication de 1947, colonnes 1944–1946) ; orthographe d’un acte provincial non contrôlée. Le contrôle réel reste dans les territoires et fronts.",
+      "reserves": [
+       "R2NL-01",
+       "R2NL-04",
+       "R2NL-05",
+       "R2NL-07"
+      ]
+     },
+     "sources": [
+      {
+       "source_id": "src-cbs-nl-bevolking-1944-1946",
+       "locator": "p.30, p.33 et p.64 (PDF32,35,68), colonne 1945 ; table I",
+       "usage": "existence, noms et composition ; nom officiel proposé d’après la forme statistique contemporaine"
+      },
+      {
+       "source_id": "src-boonstra-nlgis-1945",
+       "locator": "nl_1945 corrigé le 26/05/2009 ; composition_provinces_1945.json, groupe 6",
+       "usage": "reconstitution des contours communaux et regroupement contrôlé"
+      }
+     ],
+     "geometrie_ref": "geom-subdivision-nl-utrecht-1945-01-01"
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-nl-hollande-septentrionale",
+   "type_entite": "subdivision",
+   "nom": "Hollande-Septentrionale",
+   "nom_court": "Hollande-Septentrionale",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_sous_reserves",
+     "proprietes": {
+      "nom": "Noordholland",
+      "niveau": 1,
+      "echelon": 1,
+      "statut_administratif": "provincie",
+      "parent_id": "territoire-nl-pays-bas",
+      "souverainete_id": "pays_bas",
+      "preuve_temporelle": "CBS : colonne au 01/01/1945 ; contour NLGIS annuel 1945",
+      "note": "Découpage de droit. La forme néerlandaise suit le CBS (publication de 1947, colonnes 1944–1946) ; orthographe d’un acte provincial non contrôlée. Le contrôle réel reste dans les territoires et fronts.",
+      "reserves": [
+       "R2NL-01",
+       "R2NL-04",
+       "R2NL-05",
+       "R2NL-07",
+       "R2NL-03"
+      ]
+     },
+     "sources": [
+      {
+       "source_id": "src-cbs-nl-bevolking-1944-1946",
+       "locator": "p.30, p.33 et p.64 (PDF32,35,68), colonne 1945 ; table I",
+       "usage": "existence, noms et composition ; nom officiel proposé d’après la forme statistique contemporaine"
+      },
+      {
+       "source_id": "src-boonstra-nlgis-1945",
+       "locator": "nl_1945 corrigé le 26/05/2009 ; composition_provinces_1945.json, groupe 7",
+       "usage": "reconstitution des contours communaux et regroupement contrôlé"
+      },
+      {
+       "source_id": "src-stb-nl-1951-25",
+       "locator": "PDF4, première annexe, Binnenlandse Zaken, entrée 1",
+       "usage": "référence ultérieure à l’ordonnance de 1942, sans anticipation de la loi de 1951"
+      }
+     ],
+     "geometrie_ref": "geom-subdivision-nl-hollande-septentrionale-1945-01-01"
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-nl-hollande-meridionale",
+   "type_entite": "subdivision",
+   "nom": "Hollande-Méridionale",
+   "nom_court": "Hollande-Méridionale",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_sous_reserves",
+     "proprietes": {
+      "nom": "Zuidholland",
+      "niveau": 1,
+      "echelon": 1,
+      "statut_administratif": "provincie",
+      "parent_id": "territoire-nl-pays-bas",
+      "souverainete_id": "pays_bas",
+      "preuve_temporelle": "CBS : colonne au 01/01/1945 ; contour NLGIS annuel 1945",
+      "note": "Découpage de droit. La forme néerlandaise suit le CBS (publication de 1947, colonnes 1944–1946) ; orthographe d’un acte provincial non contrôlée. Le contrôle réel reste dans les territoires et fronts.",
+      "reserves": [
+       "R2NL-01",
+       "R2NL-04",
+       "R2NL-05",
+       "R2NL-07"
+      ]
+     },
+     "sources": [
+      {
+       "source_id": "src-cbs-nl-bevolking-1944-1946",
+       "locator": "p.30, p.33 et p.64 (PDF32,35,68), colonne 1945 ; table I",
+       "usage": "existence, noms et composition ; nom officiel proposé d’après la forme statistique contemporaine"
+      },
+      {
+       "source_id": "src-boonstra-nlgis-1945",
+       "locator": "nl_1945 corrigé le 26/05/2009 ; composition_provinces_1945.json, groupe 8",
+       "usage": "reconstitution des contours communaux et regroupement contrôlé"
+      }
+     ],
+     "geometrie_ref": "geom-subdivision-nl-hollande-meridionale-1945-01-01"
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-nl-zelande",
+   "type_entite": "subdivision",
+   "nom": "Zélande",
+   "nom_court": "Zélande",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_sous_reserves",
+     "proprietes": {
+      "nom": "Zeeland",
+      "niveau": 1,
+      "echelon": 1,
+      "statut_administratif": "provincie",
+      "parent_id": "territoire-nl-pays-bas",
+      "souverainete_id": "pays_bas",
+      "preuve_temporelle": "CBS : colonne au 01/01/1945 ; contour NLGIS annuel 1945",
+      "note": "Découpage de droit. La forme néerlandaise suit le CBS (publication de 1947, colonnes 1944–1946) ; orthographe d’un acte provincial non contrôlée. Le contrôle réel reste dans les territoires et fronts.",
+      "reserves": [
+       "R2NL-01",
+       "R2NL-04",
+       "R2NL-05",
+       "R2NL-07"
+      ]
+     },
+     "sources": [
+      {
+       "source_id": "src-cbs-nl-bevolking-1944-1946",
+       "locator": "p.30, p.33 et p.64 (PDF32,35,68), colonne 1945 ; table I",
+       "usage": "existence, noms et composition ; nom officiel proposé d’après la forme statistique contemporaine"
+      },
+      {
+       "source_id": "src-boonstra-nlgis-1945",
+       "locator": "nl_1945 corrigé le 26/05/2009 ; composition_provinces_1945.json, groupe 9",
+       "usage": "reconstitution des contours communaux et regroupement contrôlé"
+      }
+     ],
+     "geometrie_ref": "geom-subdivision-nl-zelande-1945-01-01"
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-nl-brabant-septentrional",
+   "type_entite": "subdivision",
+   "nom": "Brabant-Septentrional",
+   "nom_court": "Brabant-Septentrional",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_sous_reserves",
+     "proprietes": {
+      "nom": "Noordbrabant",
+      "niveau": 1,
+      "echelon": 1,
+      "statut_administratif": "provincie",
+      "parent_id": "territoire-nl-pays-bas",
+      "souverainete_id": "pays_bas",
+      "preuve_temporelle": "CBS : colonne au 01/01/1945 ; contour NLGIS annuel 1945",
+      "note": "Découpage de droit. La forme néerlandaise suit le CBS (publication de 1947, colonnes 1944–1946) ; orthographe d’un acte provincial non contrôlée. Le contrôle réel reste dans les territoires et fronts.",
+      "reserves": [
+       "R2NL-01",
+       "R2NL-04",
+       "R2NL-05",
+       "R2NL-07",
+       "R2NL-06"
+      ]
+     },
+     "sources": [
+      {
+       "source_id": "src-cbs-nl-bevolking-1944-1946",
+       "locator": "p.30, p.33 et p.64 (PDF32,35,68), colonne 1945 ; table I",
+       "usage": "existence, noms et composition ; nom officiel proposé d’après la forme statistique contemporaine"
+      },
+      {
+       "source_id": "src-boonstra-nlgis-1945",
+       "locator": "nl_1945 corrigé le 26/05/2009 ; composition_provinces_1945.json, groupe 10",
+       "usage": "reconstitution des contours communaux et regroupement contrôlé"
+      }
+     ]
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-nl-limbourg",
+   "type_entite": "subdivision",
+   "nom": "Limbourg",
+   "nom_court": "Limbourg",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_sous_reserves",
+     "proprietes": {
+      "nom": "Limburg",
+      "niveau": 1,
+      "echelon": 1,
+      "statut_administratif": "provincie",
+      "parent_id": "territoire-nl-pays-bas",
+      "souverainete_id": "pays_bas",
+      "preuve_temporelle": "CBS : colonne au 01/01/1945 ; contour NLGIS annuel 1945",
+      "note": "Découpage de droit. La forme néerlandaise suit le CBS (publication de 1947, colonnes 1944–1946) ; orthographe d’un acte provincial non contrôlée. Le contrôle réel reste dans les territoires et fronts.",
+      "reserves": [
+       "R2NL-01",
+       "R2NL-04",
+       "R2NL-05",
+       "R2NL-07"
+      ]
+     },
+     "sources": [
+      {
+       "source_id": "src-cbs-nl-bevolking-1944-1946",
+       "locator": "p.30, p.33 et p.64 (PDF32,35,68), colonne 1945 ; table I",
+       "usage": "existence, noms et composition ; nom officiel proposé d’après la forme statistique contemporaine"
+      },
+      {
+       "source_id": "src-boonstra-nlgis-1945",
+       "locator": "nl_1945 corrigé le 26/05/2009 ; composition_provinces_1945.json, groupe 11",
+       "usage": "reconstitution des contours communaux et regroupement contrôlé"
+      }
+     ],
+     "geometrie_ref": "geom-subdivision-nl-limbourg-1945-01-01"
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-nl-noordoostpolder",
+   "type_entite": "subdivision",
+   "nom": "Noordoostpolder",
+   "nom_court": "Noordoostpolder",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_sous_reserves",
+     "proprietes": {
+      "nom": "Openbaar lichaam de Noordoostelijke Polder",
+      "niveau": 1,
+      "echelon": 1,
+      "statut_administratif": "openbaar lichaam",
+      "parent_id": "territoire-nl-pays-bas",
+      "souverainete_id": "pays_bas",
+      "preuve_temporelle": "CBS : colonne au 01/01/1945 ; contour NLGIS annuel 1945",
+      "note": "Découpage de droit. La forme néerlandaise suit le CBS (publication de 1947, colonnes 1944–1946) ; orthographe d’un acte provincial non contrôlée. Le contrôle réel reste dans les territoires et fronts. Organisme directement sous l’État, distinct des onze provinces. Échelon 1 fonctionnel proposé. Le nom Urkerland en 1944 est attesté rétrospectivement ; sa portée officielle exacte reste réservée.",
+      "reserves": [
+       "R2NL-01",
+       "R2NL-04",
+       "R2NL-05",
+       "R2NL-07",
+       "R2NL-02"
+      ]
+     },
+     "sources": [
+      {
+       "source_id": "src-cbs-nl-bevolking-1944-1946",
+       "locator": "p.30, p.33 et p.64 (PDF32,35,68), colonne 1945 ; table I",
+       "usage": "existence, noms et composition ; nom officiel proposé d’après la forme statistique contemporaine"
+      },
+      {
+       "source_id": "src-boonstra-nlgis-1945",
+       "locator": "nl_1945 corrigé le 26/05/2009 ; composition_provinces_1945.json, groupe 12",
+       "usage": "reconstitution des contours communaux et regroupement contrôlé"
+      },
+      {
+       "source_id": "src-na-nl-noordoostpolder-20487",
+       "locator": "Histoire du Noordoostpolder ; inventaires 851,855,858–861",
+       "usage": "statut spécial, fonctions municipales et provinciales ; noms Urkerland/Noordoostpolder, source rétrospective"
+      }
+     ],
+     "geometrie_ref": "geom-subdivision-nl-noordoostpolder-1945-01-01"
+    }
+   ],
+   "relations": []
+  }
+ ]
+}

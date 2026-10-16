@@ -2,6 +2,13 @@
 
 Une ligne par décision, datée. Plus récente en haut. Ce journal remplace les versions éparpillées dans les conversations : si ce n'est pas ici, ce n'est pas décidé.
 
+## 2026-10-16 (nuit : 2.NL intégré, boucle automatique)
+
+- **Lot 2.NL intégré** (cycle 1) : 12 subdivisions des Pays-Bas au 01/01/1945 = 11 provinces et l'organisme public du Noordoostpolder, à l'échelon 1 comme exception (pas une douzième province, R2NL-02). Un seul échelon (communes trop fines). *(Ether, intégré par Claude)*
+- **Tracés** : 11 reconstitués d'après NLGIS (Boonstra, DANS, communes 1945, CC0-1.0) ; Brabant-Septentrional laissé sans tracé comme le demandait Ether (enclaves de Baarle, R2NL-06). Ligne ajoutée à `docs/LICENCES_ET_ATTRIBUTIONS.md`. *(Claude)*
+- Sources : 4 nouvelles (3 ok, 1 limite), registre v1.35. *(Claude)*
+- Reprise : le réveil de 1 h 12 a trouvé 2.LU commité mais pas envoyé (verrou de git resté après un essai raté) ; verrou et fichiers temporaires de git effacés avec l'autorisation de suppression, 2.LU envoyé, `PRET_claude.md` écrit. *(Claude)*
+
 ## 2026-10-15 (nuit : 2.LU intégré, boucle automatique)
 
 - **Lot 2.LU intégré** (cycle 1) : 15 subdivisions du Luxembourg au 01/01/1945 = 3 districts (Luxembourg, Diekirch, Grevenmacher, échelon 1) et 12 cantons (échelon 2). Pas de district de Mersch (supprimé en 1867), pas de quatrième district pour Luxembourg-ville (R2LU-04). *(Ether, intégré par Claude)*

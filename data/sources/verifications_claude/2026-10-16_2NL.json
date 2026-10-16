@@ -1,0 +1,28 @@
+{
+ "lot": "2.NL",
+ "date": "2026-10-16",
+ "auteur": "Claude",
+ "methode": "Sous-agent (WebFetch seulement, sans contournement) + lecture par Claude des captures et copies déposées par Ether dans preuves/ ; « ok » seulement si la source prouve ce que la fiche lui fait dire à la date.",
+ "resultats": [
+  {
+   "id": "src-cbs-nl-bevolking-1944-1946",
+   "statut": "ok",
+   "commentaire": "WebFetch refusé (robots dbnl.org), sans contournement. Captures d'Ether lues par Claude : p. 33, « STAAT 8. Aantal gemeenten naar provinciën », ligne « 1 Jan 1945 » : 57, 44, 34, 52, 112, 67, 121, 173, 101, 143, 111, total 1016, note « Met inbegrip van den Noordoostelijken Polder, die nog niet bij een provincie is ingedeeld » ; p. 64, « TABEL II. Bevolking der provinciën … op 1 Januari 1944, 1945 en 1946 » : 11 provinces puis « Noordoostel. Polder » ; p. 58 : « Terschelling … F. », « Urk … NH. ». Publication de 1947, statistique (graphies, pas actes constitutifs : R2NL-02, R2NL-03)."
+  },
+  {
+   "id": "src-boonstra-nlgis-1945",
+   "statut": "ok",
+   "commentaire": "WebFetch refusé (robots sur le DOI), sans contournement. Copie de la notice API du dépôt DANS archivée par Ether (preuves/preuve_licence_DANS.json) lue par Claude : version 2.2, auteur « Dr. O. W. A. Boonstra », licence « CC0-1.0 », fichiers nl_1945 et PROV1940 avec SHA1. Prouve la base et la licence des tracés, pas leur exactitude au jour du 01/01/1945 (R2NL-01, R2NL-06, R2NL-07)."
+  },
+  {
+   "id": "src-na-nl-noordoostpolder-20487",
+   "statut": "ok",
+   "commentaire": "Sous-agent : « Bij Besluit van 28 juli 1942 werd het Openbaar Lichaam van de Noordoostelijke Polder ingesteld » et « In de oorlog (1944) werd deze gewijzigd in Urkerland. » Copie d'Ether (NA_noordoostpolder_passage.txt) lue par Claude : « De provinciale taak ten aanzien van het poldergebied werd niet door een provinciaal bestuur, maar door de regering zelf uitgevoerd » ; nom officiel Noordoostpolder fixé par la Staatscourant du 20 août 1948. Notice rétrospective (R2NL-02)."
+  },
+  {
+   "id": "src-stb-nl-1951-25",
+   "statut": "limite",
+   "commentaire": "WebFetch en erreur, sans contournement. Capture p. 4 lue par Claude : « Negende Verordening van de Rijkscommissaris voor het bezette Nederlandse gebied betreffende bijzondere administratiefrechtelijke maatregelen (Vlieland en Terschelling). Verordeningenblad 1942, no. 73. » Texte de 1951, contexte juridique rétrospectif seulement ; l'ordonnance de 1942 elle-même n'est pas relue (R2NL-03)."
+  }
+ ]
+}
