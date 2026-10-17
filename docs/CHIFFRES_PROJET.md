@@ -1,6 +1,6 @@
 # Atlas Eurasie — chiffres du projet
 
-*Généré automatiquement depuis le dépôt le 2026-10-16 04:17. Aucun chiffre estimé : tout est compté dans les fichiers.
+*Généré automatiquement depuis le dépôt le 2026-10-17 15:33. Aucun chiffre estimé : tout est compté dans les fichiers.
 Version machine : `data/chiffres_projet.json`.*
 
 ## Snapshot 0 (Europe au 1er janvier 1945, 0 h)
@@ -9,7 +9,7 @@ Version machine : `data/chiffres_projet.json`.*
 |---|---|
 | Territoires (souveraineté, contrôle, occupation) | 74 |
 | Lignes de front | 4 |
-| Géométries tracées | 202 |
+| Géométries tracées | 402 |
 | Villes | 1625 (rang A : 85, B : 621, C : 919, D : 0) |
 | Capitales | 30 nationales, 19 régionales, 6 de territoire |
 | Villes affichées sous leur nom de 1945 | 216 |
@@ -21,7 +21,7 @@ Lots de frontières : 9. Lots de villes : 12 (villes_1-0_france_benelux_iles_bri
 
 | | |
 |---|---|
-| Sources au registre (v1.38) | 980 |
+| Sources au registre (v1.39) | 980 |
 | Confirmées par la relecture de Claude | 618 (63 %) |
 | Lecture partielle / faible / illisible / lien mort | 212 / 6 / 136 / 8 |
 | En attente de validation humaine | 359 |
@@ -30,5 +30,5 @@ Lots de frontières : 9. Lots de villes : 12 (villes_1-0_france_benelux_iles_bri
 
 ## Historique
 
-- Envois sur GitHub : 72 (du 2026-09-28 au 2026-10-16).
+- Envois sur GitHub : 73 (du 2026-09-28 au 2026-10-16).
 - Dépôt public : https://github.com/Guizmo9867/Atlas

@@ -40,6 +40,11 @@ Une ligne par décision, datée. Plus récente en haut. Ce journal remplace les 
 - **Lot 2.BE intégré** (cycle 1) : 50 subdivisions de la Belgique au 01/01/1945 = 9 provinces (échelon 1) et 41 arrondissements administratifs (échelon 2), par recoupement 1939 / février 1945 / 1947 ; Eupen, Malmedy, Saint-Vith dans l'arrondissement de Verviers (droit belge). **Aucun tracé** (pas de source de 1945 à licence ouverte, R2BE-01). Réserves R2BE-01 à 06 pour la revue du groupe 1. *(Ether, intégré par Claude)*
 - Sources : 5 nouvelles (4 ok dont 2 sur captures, 1 limite), registre v1.33. *(Claude)*
 
+## 2026-10-17 (licence suisse acceptée, groupe 2 ouvert)
+
+- **Contours suisses (2.CH, R2CH-01)** : Guizmo accepte les conditions opendata.swiss « Utilisation libre » (`terms_open` : usage commercial et non commercial autorisés, mention de la source recommandée ; texte relu par Claude sur opendata.swiss). Les **200 contours** OFS GEOSTAT G1 (25 cantons et demi-cantons, 175 districts) sont sur la carte ; OFS crédité quand même. L'outil accepte désormais `terms_open` et `terms_by` (pas les variantes « ask ») ; décision par lot dans `outils/subdivisions/decisions_guizmo.json`. *(décision de Guizmo)*
+- **Groupe 2 de la phase 2.x ouvert** : Espagne, Portugal, Italie, Royaume-Uni, Irlande et micro-États. *(décision de Guizmo : « ça se passe plutôt bien, autant continuer »)*
+
 ## 2026-10-15 (soir : phase 2.x lancée en boucle automatique)
 
 - **Feu vert de Guizmo pour toute la phase 2.x** (subdivisions de chaque État au 01/01/1945) **en boucle automatique**, comme les villes : Ether enchaîne les lots sans attendre, Claude intègre au réveil, 3 cycles au plus par lot, réserves pour la revue. *(décision de Guizmo)*

@@ -10,7 +10,8 @@ Usage (depuis la racine du dépôt) :
 
 Ce que fait l'outil :
   1. contrôle les fiches (ID, échelon 1 ou 2, parent, souveraineté, sources) ;
-  2. trie les tracés : licence autorisée (domaine public, CC0, CC BY sans NC/SA/ND, Licence Ouverte/Etalab, OGL, DL-DE BY/Zero)
+  2. trie les tracés : licence autorisée (domaine public, CC0, CC BY sans NC/SA/ND, Licence Ouverte/Etalab, OGL, DL-DE BY/Zero,
+     opendata.swiss terms_open / terms_by) ; une décision de Guizmo (decisions_guizmo.json) peut lever la marque ne_pas_integrer
      et pas marqués « ne_pas_integrer » par Ether ; tout ce qui touche à OpenStreetMap/ODbL est refusé ;
   3. simplifie les tracés gardés avec mapshaper (topologie conservée ; 400 m pour l'échelon 2, 600 m pour l'échelon 1),
      un fichier par tracé dans data/geometries/snapshot0/ ;
@@ -47,6 +48,10 @@ def lire(*noms):
 prop, p_prop = lire(f'atlas_2{COMPACT}_subdivisions_proposees.json', f'atlas_2{CODE}_subdivisions_proposees.json')
 geo, p_geo = lire(f'geometries/atlas_2{COMPACT}_geometries_proposees.geojson', f'geometries/atlas_2{CODE}_geometries_proposees.geojson')
 delta, p_delta = lire(f'atlas_registre_sources_2{COMPACT}_delta.json', f'atlas_registre_sources_2{CODE}_delta.json')
+# Décisions de Guizmo qui lèvent la marque « ne_pas_integrer » d'Ether pour un lot (ex. 2.CH, licence acceptée le 17/10/2026).
+# La licence est quand même contrôlée.
+DEC = RACINE / 'outils/subdivisions/decisions_guizmo.json'
+FORCER = json.load(open(DEC, encoding='utf-8')).get('lots', {}).get(f'2.{CODE}', {}).get('integrer_traces_marques', False) if DEC.exists() else False
 verif = {r['id']: r for r in json.load(open(RACINE / a.verif if not pathlib.Path(a.verif).is_absolute() else a.verif, encoding='utf-8'))['resultats']}
 reg = json.load(open(RACINE / 'data/sources/atlas_registre_sources.json', encoding='utf-8'))
 
@@ -92,6 +97,9 @@ def licence_ok(lic, texte):
     n = re.sub(r'[\s_.\-]', '', (lic or '').lower())
     if not n: return False, 'licence absente'
     if n.startswith('cc0') or n in ('domainepublic', 'publicdomain', 'pd'): return True, ''
+    # opendata.swiss (décision de Guizmo du 17/10/2026) : « Utilisation libre » (terms_open) et « … mention de la source obligatoire »
+    # (terms_by) autorisent l'usage commercial ; les variantes « ask » (autorisation requise pour l'usage commercial) restent refusées
+    if 'terms' in n and ('termsopen' in n or 'termsby' in n): return (False, f'licence {lic} (usage commercial sur autorisation : à trancher)') if 'ask' in n else (True, '')
     if n.startswith('ccby'):
         return (False, f'licence {lic} (NC, SA ou ND : à trancher)') if re.search(r'(^|[\s\-_/])(nc|sa|nd)([\s\-_/.]|$)', lic.lower()) else (True, '')
     if any(n.startswith(x) for x in ('licenceouverte', 'etalab', 'ogl', 'opengovernmentlicence', 'dlde/by', 'dlde/zero', 'dldeby', 'dldezero')): return True, ''
@@ -106,7 +114,7 @@ for f in geo['features']:
     if gid != f"geom-{eid}-1945-01-01": avert.append(f"{gid} : nom attendu geom-{eid}-1945-01-01 (renommé)"); p['geometry_id'] = gid = f"geom-{eid}-1945-01-01"
     if eid not in echelon_de: avert.append(f"{gid} : aucune fiche gardée pour {eid} (tracé ignoré)"); continue
     ok, pourquoi = licence_ok(p.get('licence'), json.dumps(p, ensure_ascii=False))
-    if 'ne_pas_integrer' in str(p.get('statut', '')): ok, pourquoi = False, f"marqué « {p.get('statut')} » par Ether"
+    if 'ne_pas_integrer' in str(p.get('statut', '')) and not FORCER: ok, pourquoi = False, f"marqué « {p.get('statut')} » par Ether"
     if not ok: refus.append({'geometry_id': gid, 'raison': pourquoi}); continue
     if f.get('geometry', {}).get('type') not in ('Polygon', 'MultiPolygon'): erreurs.append(f"{gid} : un tracé de subdivision doit être un polygone"); continue
     a_simplifier[echelon_de[eid]].append(f)
@@ -137,7 +145,8 @@ with tempfile.TemporaryDirectory() as tmp:
                     try: p[k] = json.loads(v)
                     except Exception: pass
             if not f.get('geometry'): refus.append({'geometry_id': p['geometry_id'], 'raison': 'vide après simplification'}); continue
-            srcs = p.get('sources') or []
+            liste = lambda v: [] if v in (None, '') else (v if isinstance(v, list) else [v])   # Ether livre parfois une chaîne au lieu d'une liste
+            srcs = liste(p.get('sources'))
             props = {
                 'geometry_id': p['geometry_id'], 'date_validite': '1945-01-01',
                 'statut': 'provisoire_' + re.sub(r'[^a-z0-9_]+', '_', str(p.get('statut') or 'reconstruction').lower()).strip('_'),
@@ -145,9 +154,9 @@ with tempfile.TemporaryDirectory() as tmp:
                 'licence': p.get('licence'), 'attribution': p.get('attribution'),
                 'millesime_source': p.get('millesime_source') or p.get('millésime_source'),
                 'precision': f"simplifié au pas de {PAS[n]} m (mapshaper, topologie conservée) ; {p.get('precision') or ''}".strip(' ;'),
-                'limite': p.get('limite'), 'reserves': p.get('reserves') or [],
+                'limite': p.get('limite'), 'reserves': liste(p.get('reserves')),
                 'sources': [x if isinstance(x, dict) else {'source_id': x, 'usage': 'tracé'} for x in srcs],
-                'operations': (p.get('operations') or []) + [f'simplification mapshaper interval={PAS[n]} m keep-shapes, nettoyage (Claude, {AUJ})'],
+                'operations': liste(p.get('operations')) + [f'simplification mapshaper interval={PAS[n]} m keep-shapes, nettoyage (Claude, {AUJ})'],
                 'auteur': 'Ether (proposition), Claude (intégration)', 'date_creation': AUJ,
                 'script': 'outils/subdivisions/integrer_subdivisions.py',
             }
