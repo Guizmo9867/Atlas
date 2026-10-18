@@ -2,6 +2,12 @@
 
 Une ligne par décision, datée. Plus récente en haut. Ce journal remplace les versions éparpillées dans les conversations : si ce n'est pas ici, ce n'est pas décidé.
 
+## 2026-10-18 (soir : 2.GB intégré, boucle automatique)
+
+- **Lot 2.GB intégré** (cycle 1, groupe 2) : 197 subdivisions à l'échelon 1 = Angleterre/Galles 62 administrative counties + 83 county boroughs + Scilly, Écosse 33 counties + 4 cities, Irlande du Nord 6 counties + 2 county boroughs, Chypre 6 districts (IDs `cy`). Organisations parallèles par `systeme_administratif` (Q2GB-05 acceptée). *(Ether, intégré par Claude)*
+- **Aucun tracé** (pas de contour de 1945 à licence acceptée, R2GB-01), aucun chef-lieu. Malte et Gibraltar sans subdivision (R2GB-07). Réserves R2GB-01 à 08 pour la revue du groupe 2. *(Claude)*
+- Sources : 16 nouvelles (12 ok, 4 limite), registre v1.43. *(Claude)*
+
 ## 2026-10-18 (soir : 2.IT intégré, boucle automatique)
 
 - **Lot 2.IT intégré** (cycle 1, groupe 2) : 93 provinces de l'Italie au 01/01/1945 (annuaire Istat 1943), noms de la date ; Carnaro reporté faute de préfixe de pays actuel établi (R2IT-08) ; Gorizia/Trieste en `si`, Istria/Zara en `hr`, souveraineté italienne (Q2IT-05 acceptée). *(Ether, intégré par Claude)*

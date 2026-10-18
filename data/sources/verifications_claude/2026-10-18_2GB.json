@@ -1,0 +1,88 @@
+{
+ "lot": "2.GB",
+ "date": "2026-10-18",
+ "auteur": "Claude",
+ "methode": "Sous-agents (WebFetch seulement, sans contournement) + lecture par Claude des copies déposées par Ether dans preuves/ (archive CR03, texte NISRA, notes du Register, index CyLaw) ; « ok » seulement si la source prouve ce que la fiche lui fait dire à la date.",
+ "resultats": [
+  {
+   "id": "src-ons-nomis-census1931-cr03",
+   "statut": "ok",
+   "commentaire": "Le zip est illisible pour le sous-agent ; archive officielle cr03.zip copiée par Ether (preuves/nomis_cr03.zip) ouverte par Claude : 1931_cr03_values.csv, colonne area_type = 62 « Administrative County (excluding County Boroughs) », 82 « County Borough » et 1 « York, City and County of CB », soit 83 county boroughs (recensement du 26/04/1931 ; continuité jusqu'en 1945 = réserve R2GB-02)."
+  },
+  {
+   "id": "src-hmso-national-register1939-1944",
+   "statut": "limite",
+   "commentaire": "Site refusé à l'outil (robots). Copie HTML d'Ether (preuves/register1939_notes.txt) lue par Claude comme support de relecture : liste « Scotland … Counties of … » avec 33 noms (Aberdeen… Zetland, dont Kinross, Moray, Nairn séparés) ; mise en page aplatie, rattachement City/County d'Aberdeen ambigu. Pas une lecture du site en ligne."
+  },
+  {
+   "id": "src-uk-local-elections-act1939",
+   "statut": "ok",
+   "commentaire": "Art. 6 : « Suspension of power to make orders altering areas or constitution of local authorities » ; art. 8 pour l'Écosse."
+  },
+  {
+   "id": "src-uk-local-elections-act1944",
+   "statut": "ok",
+   "commentaire": "Art. 1(1) : la loi de 1939 « as amended by the Acts of 1940, 1941, 1942 and 1943, shall continue in force until the thirty-first day of March, nineteen hundred and forty-five » ; couvre le 01/01/1945. En-tête de régnal à revérifier (OCR)."
+  },
+  {
+   "id": "src-uk-scilly-order1930-216",
+   "statut": "ok",
+   "commentaire": "Entrée en vigueur le 1st day of April, 1930 ; art. 2(3) : dispositions lues « as if the Isles of Scilly were an administrative County »."
+  },
+  {
+   "id": "src-uk-local-government-scotland-act1929",
+   "statut": "limite",
+   "commentaire": "Art. 10(7) : Kinross combiné avec Perth et Nairn avec Moray, conseil conjoint ; texte récupéré tronqué, la limite « certaines fonctions seulement » plausible mais pas lue en entier ; catégories county of a city / large burgh / small burgh vues."
+  },
+  {
+   "id": "src-nrs-valuation-counties-burghs",
+   "statut": "ok",
+   "commentaire": "« In 1929 all burghs were classified as small burghs, large burghs or cities … The four cities for local government purposes were Aberdeen, Dundee, Edinburgh and Glasgow. » (guide rétrospectif)."
+  },
+  {
+   "id": "src-nisra-census1937-general-summary",
+   "statut": "ok",
+   "commentaire": "Sous-agent : OCR bruité, Belfast et Londonderry County Borough vus. Texte du PDF officiel copié par Ether (preuves/nisra_1937.txt) lu par Claude : lignes Antrim, Armagh, Down, Fermanagh, Londonderry, Tyrone + deux county boroughs. Base 1937 ; continuité = R2GB-02."
+  },
+  {
+   "id": "src-cy-administrative-divisions-law1878",
+   "statut": "ok",
+   "commentaire": "Art. 3 : « The High Commissioner shall from time to time by Proclamation limit and define » districts et nahiehs ; art. 4 commissaires. Cadre seulement, pas la liste de 1945."
+  },
+  {
+   "id": "src-cy-gazette1943-district-boards-277-282",
+   "statut": "ok",
+   "commentaire": "Feuillets 277 (Nicosia, Kyrenia) et 279 (Limassol, Larnaca, Famagusta, Paphos) : « ORDER MADE BY THE BOARD FOR THE DISTRICT OF … ». Numéro 3067, p. 247 et date 5/8/1943 confirmés par l'index CyLaw copié par Ether (lu par Claude). Ordres de ravitaillement : attestent les noms, pas les limites."
+  },
+  {
+   "id": "src-ons-counties1921-ew-metadata",
+   "statut": "limite",
+   "commentaire": "Métadonnées : « historical counties in England and Wales as at Census Day 1921 » ; licenseInfo = lien vers la page ONS, qui place les contours sous l'Open Government Licence. Candidat non utilisé (1921, comtés historiques)."
+  },
+  {
+   "id": "src-os-boundary-line-description",
+   "statut": "limite",
+   "commentaire": "« historical county boundaries from as far back as the late 19th Century » ; pas de 1945. Candidat non utilisé : l'usage « pas une restitution de 1945 » est déduit."
+  },
+  {
+   "id": "src-gbhgis-ukds9179-readme1961",
+   "statut": "ok",
+   "commentaire": "« Prepared November 2022 … by Paula Aucott » ; Great Britain Historical GIS, University of Portsmouth ; renvoi à la licence UK Data Service CC-BY-SA ; jeu daté 1961."
+  },
+  {
+   "id": "src-gibraltar-city-council-centenary2021",
+   "statut": "ok",
+   "commentaire": "Création du City Council en 1921 ; « Its re-establishment in 1945 » après sa suspension pendant la guerre."
+  },
+  {
+   "id": "src-nso-malta-history-census",
+   "statut": "ok",
+   "commentaire": "Tableau : recensements du 26/04/1931 puis du 14/06/1948, rien entre ; aucun découpage de 1945 donné (preuve par absence, conforme à l'usage)."
+  },
+  {
+   "id": "src-nag-gozo-fonds-inventory",
+   "statut": "ok",
+   "commentaire": "« The Council was founded on 23 November 1958 » ; responsabilités depuis le 04/04/1960 ; Ordinance XI du 14/04/1961 ; local councils de Gozo depuis 1993."
+  }
+ ]
+}

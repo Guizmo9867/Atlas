@@ -89,3 +89,4 @@ Principe de Guizmo : **maximum d'informations, minimum de visibilité**. La cart
 | 2.ES | 57 (50 provinces, 7 îles à cabildo) | 0 (pas de contour de 1945 à licence ouverte, R2ES-01) | 10 (7 ok) | intégré le 18/10/2026 (cycle 1, boucle) |
 | 2.PT | 33 (11 provinces, 18 districts, 4 districts insulaires) | 0 (pas de contour de 1945 à licence ouverte, R2PT-01) | 6 (6 ok) | intégré le 18/10/2026 (cycle 1, boucle) |
 | 2.IT | 93 provinces (Carnaro reporté, R2IT-08) | 80 provisoires (Istat 1936, CC BY 4.0) ; 11 écartés par Ether | 10 (8 ok) | intégré le 18/10/2026 (cycle 1, boucle) |
+| 2.GB | 197 (comtés et county boroughs, comtés et cities écossais, Irlande du Nord, 6 districts de Chypre) | 0 (pas de contour de 1945 à licence acceptée, R2GB-01) | 16 (12 ok) | intégré le 18/10/2026 (cycle 1, boucle) |
