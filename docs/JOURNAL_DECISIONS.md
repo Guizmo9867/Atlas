@@ -2,6 +2,12 @@
 
 Une ligne par décision, datée. Plus récente en haut. Ce journal remplace les versions éparpillées dans les conversations : si ce n'est pas ici, ce n'est pas décidé.
 
+## 2026-10-18 (soir : 2.IE intégré, boucle automatique)
+
+- **Lot 2.IE intégré** (cycle 1, groupe 2) : 31 subdivisions de l'Irlande au 01/01/1945 = 27 administrative counties (deux Tipperary, Laoighis) et 4 county boroughs (Cork, Dublin, Limerick, Waterford), un seul échelon (Q2IE-05 acceptée). Crumlin, Howth et l'extension de Waterford (1944) notés sans contour. *(Ether, intégré par Claude)*
+- **Aucun tracé** (jeu Tailte Éireann 2024 CC BY 4.0 = 26 comtés actuels, R2IE-01), aucun chef-lieu. Réserves R2IE-01 à 06 pour la revue du groupe 2. *(Claude)*
+- Sources : 14 nouvelles (8 ok, 5 limite, 1 non vérifiée), registre v1.44. *(Claude)*
+
 ## 2026-10-18 (soir : 2.GB intégré, boucle automatique)
 
 - **Lot 2.GB intégré** (cycle 1, groupe 2) : 197 subdivisions à l'échelon 1 = Angleterre/Galles 62 administrative counties + 83 county boroughs + Scilly, Écosse 33 counties + 4 cities, Irlande du Nord 6 counties + 2 county boroughs, Chypre 6 districts (IDs `cy`). Organisations parallèles par `systeme_administratif` (Q2GB-05 acceptée). *(Ether, intégré par Claude)*

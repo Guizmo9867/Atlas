@@ -1,0 +1,1936 @@
+{
+ "note": "Copie fidèle de 01_lots/2.IE/atlas_2IE_subdivisions_proposees.json (Ether, cycle 1), sous la clé proposition_ether pour que le validateur ne la lise pas comme un lot du corpus (entités intégrées : data/snapshot0/subdivisions_2-IE.json).",
+ "proposition_ether": {
+  "metadata_lot": {
+   "lot": "2.IE",
+   "etat_1945": "Irlande",
+   "date_reference": "1945-01-01",
+   "heure_reference": "00:00",
+   "cycle": 1,
+   "statut": "propose_par_ether_a_relire_par_claude",
+   "comptages": {
+    "comtes_administratifs": 27,
+    "county_boroughs": 4,
+    "total": 31
+   },
+   "convention_dates": "Début de la fenêtre observée, pas date de création. État documentaire proposé sous réserves, aucune certification générale des limites.",
+   "echelon_1": "27 comtés administratifs et 4 county boroughs ; pas les 26 comtés géographiques seuls.",
+   "echelon_2": "Non livré : un échelon suffit à l’échelle retenue pour ce petit État. Municipalités, divisions électorales et districts spécialisés ne forment pas un second maillage homogène. R2IE-05.",
+   "chefs_lieux_proposes": 0,
+   "chefs_lieux_1945_valides": 0,
+   "geometries_liees": 0,
+   "perimetre": "Territoire-ie-irlande du canon ; aucune anticipation de la République de 1949, aucune subdivision nord-irlandaise recréée."
+  },
+  "entites": [
+   {
+    "entite_id": "subdivision-ie-comte-carlow",
+    "type_entite": "subdivision",
+    "nom": "Comté de Carlow",
+    "nom_court": "Comté de Carlow",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Carlow County",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "county (administrative county)",
+       "parent_id": "territoire-ie-irlande",
+       "souverainete_id": "irlande",
+       "reserves": [
+        "R2IE-01",
+        "R2IE-02",
+        "R2IE-03",
+        "R2IE-04",
+        "R2IE-06"
+       ],
+       "note": "Comté administratif proposé au premier échelon. Nom transcrit dans les recensements de 1936 et 1946, avec le cadre de gestion entré en vigueur en 1942. Le recoupement encadre la date mais ne certifie pas une identité de limites. Aucun chiffre de population, code contemporain, chef-lieu ou contour moderne transféré. Le First Schedule de 1940 groupe Carlow et Kildare pour la direction : il conserve les deux comtés. Les exceptions liées aux conseils suspendus prévues en 1942 ne créent pas de fusion territoriale."
+      },
+      "sources": [
+       {
+        "source_id": "src-cso-census1936-volume1-counties",
+        "locator": "Table 6, p. 9, en-tête Carlow County",
+        "usage": "nom et catégorie administrative avant la date observée"
+       },
+       {
+        "source_id": "src-cso-census1946-volume1-counties",
+        "locator": "Table 6, p. 9, en-tête Carlow County",
+        "usage": "recoupement postérieur de la même unité ; aucune population ni limite transférée"
+       },
+       {
+        "source_id": "src-ie-county-management-act1940",
+        "locator": "art. 3 ; First Schedule pour les comtés groupés",
+        "usage": "régime des comtés et distinction entre unité et direction commune"
+       },
+       {
+        "source_id": "src-ie-county-management-commencement1942",
+        "locator": "art. 2",
+        "usage": "entrée en vigueur du County Management Act le 26/08/1942"
+       },
+       {
+        "source_id": "src-ie-county-management-amendment1942",
+        "locator": "art. 4 et 5, notamment 5(1)(d)",
+        "usage": "aménagements de nomination et exception temporaire à la direction commune ; pas fusion"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-ie-comte-cavan",
+    "type_entite": "subdivision",
+    "nom": "Comté de Cavan",
+    "nom_court": "Comté de Cavan",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Cavan County",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "county (administrative county)",
+       "parent_id": "territoire-ie-irlande",
+       "souverainete_id": "irlande",
+       "reserves": [
+        "R2IE-01",
+        "R2IE-02",
+        "R2IE-03",
+        "R2IE-04",
+        "R2IE-06"
+       ],
+       "note": "Comté administratif proposé au premier échelon. Nom transcrit dans les recensements de 1936 et 1946, avec le cadre de gestion entré en vigueur en 1942. Le recoupement encadre la date mais ne certifie pas une identité de limites. Aucun chiffre de population, code contemporain, chef-lieu ou contour moderne transféré."
+      },
+      "sources": [
+       {
+        "source_id": "src-cso-census1936-volume1-counties",
+        "locator": "Table 6, p. 9, en-tête Cavan County",
+        "usage": "nom et catégorie administrative avant la date observée"
+       },
+       {
+        "source_id": "src-cso-census1946-volume1-counties",
+        "locator": "Table 6, p. 9, en-tête Cavan County",
+        "usage": "recoupement postérieur de la même unité ; aucune population ni limite transférée"
+       },
+       {
+        "source_id": "src-ie-county-management-act1940",
+        "locator": "art. 3 ; First Schedule pour les comtés groupés",
+        "usage": "régime des comtés et distinction entre unité et direction commune"
+       },
+       {
+        "source_id": "src-ie-county-management-commencement1942",
+        "locator": "art. 2",
+        "usage": "entrée en vigueur du County Management Act le 26/08/1942"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-ie-comte-clare",
+    "type_entite": "subdivision",
+    "nom": "Comté de Clare",
+    "nom_court": "Comté de Clare",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Clare County",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "county (administrative county)",
+       "parent_id": "territoire-ie-irlande",
+       "souverainete_id": "irlande",
+       "reserves": [
+        "R2IE-01",
+        "R2IE-02",
+        "R2IE-03",
+        "R2IE-04",
+        "R2IE-06"
+       ],
+       "note": "Comté administratif proposé au premier échelon. Nom transcrit dans les recensements de 1936 et 1946, avec le cadre de gestion entré en vigueur en 1942. Le recoupement encadre la date mais ne certifie pas une identité de limites. Aucun chiffre de population, code contemporain, chef-lieu ou contour moderne transféré."
+      },
+      "sources": [
+       {
+        "source_id": "src-cso-census1936-volume1-counties",
+        "locator": "Table 6, p. 9, en-tête Clare County",
+        "usage": "nom et catégorie administrative avant la date observée"
+       },
+       {
+        "source_id": "src-cso-census1946-volume1-counties",
+        "locator": "Table 6, p. 9, en-tête Clare County",
+        "usage": "recoupement postérieur de la même unité ; aucune population ni limite transférée"
+       },
+       {
+        "source_id": "src-ie-county-management-act1940",
+        "locator": "art. 3 ; First Schedule pour les comtés groupés",
+        "usage": "régime des comtés et distinction entre unité et direction commune"
+       },
+       {
+        "source_id": "src-ie-county-management-commencement1942",
+        "locator": "art. 2",
+        "usage": "entrée en vigueur du County Management Act le 26/08/1942"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-ie-comte-cork",
+    "type_entite": "subdivision",
+    "nom": "Comté de Cork",
+    "nom_court": "Comté de Cork",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Cork County",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "county (administrative county)",
+       "parent_id": "territoire-ie-irlande",
+       "souverainete_id": "irlande",
+       "reserves": [
+        "R2IE-01",
+        "R2IE-02",
+        "R2IE-03",
+        "R2IE-04",
+        "R2IE-06"
+       ],
+       "note": "Comté administratif proposé au premier échelon. Nom transcrit dans les recensements de 1936 et 1946, avec le cadre de gestion entré en vigueur en 1942. Le recoupement encadre la date mais ne certifie pas une identité de limites. Aucun chiffre de population, code contemporain, chef-lieu ou contour moderne transféré."
+      },
+      "sources": [
+       {
+        "source_id": "src-cso-census1936-volume1-counties",
+        "locator": "Table 6, p. 9, en-tête Cork County",
+        "usage": "nom et catégorie administrative avant la date observée"
+       },
+       {
+        "source_id": "src-cso-census1946-volume1-counties",
+        "locator": "Table 6, p. 9, en-tête Cork County",
+        "usage": "recoupement postérieur de la même unité ; aucune population ni limite transférée"
+       },
+       {
+        "source_id": "src-ie-county-management-act1940",
+        "locator": "art. 3 ; First Schedule pour les comtés groupés",
+        "usage": "régime des comtés et distinction entre unité et direction commune"
+       },
+       {
+        "source_id": "src-ie-county-management-commencement1942",
+        "locator": "art. 2",
+        "usage": "entrée en vigueur du County Management Act le 26/08/1942"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-ie-comte-donegal",
+    "type_entite": "subdivision",
+    "nom": "Comté de Donegal",
+    "nom_court": "Comté de Donegal",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Donegal County",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "county (administrative county)",
+       "parent_id": "territoire-ie-irlande",
+       "souverainete_id": "irlande",
+       "reserves": [
+        "R2IE-01",
+        "R2IE-02",
+        "R2IE-03",
+        "R2IE-04",
+        "R2IE-06"
+       ],
+       "note": "Comté administratif proposé au premier échelon. Nom transcrit dans les recensements de 1936 et 1946, avec le cadre de gestion entré en vigueur en 1942. Le recoupement encadre la date mais ne certifie pas une identité de limites. Aucun chiffre de population, code contemporain, chef-lieu ou contour moderne transféré."
+      },
+      "sources": [
+       {
+        "source_id": "src-cso-census1936-volume1-counties",
+        "locator": "Table 6, p. 9, en-tête Donegal County",
+        "usage": "nom et catégorie administrative avant la date observée"
+       },
+       {
+        "source_id": "src-cso-census1946-volume1-counties",
+        "locator": "Table 6, p. 9, en-tête Donegal County",
+        "usage": "recoupement postérieur de la même unité ; aucune population ni limite transférée"
+       },
+       {
+        "source_id": "src-ie-county-management-act1940",
+        "locator": "art. 3 ; First Schedule pour les comtés groupés",
+        "usage": "régime des comtés et distinction entre unité et direction commune"
+       },
+       {
+        "source_id": "src-ie-county-management-commencement1942",
+        "locator": "art. 2",
+        "usage": "entrée en vigueur du County Management Act le 26/08/1942"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-ie-comte-dublin",
+    "type_entite": "subdivision",
+    "nom": "Comté de Dublin",
+    "nom_court": "Comté de Dublin",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Dublin County",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "county (administrative county)",
+       "parent_id": "territoire-ie-irlande",
+       "souverainete_id": "irlande",
+       "reserves": [
+        "R2IE-01",
+        "R2IE-02",
+        "R2IE-03",
+        "R2IE-04",
+        "R2IE-06"
+       ],
+       "note": "Comté administratif proposé au premier échelon. Nom transcrit dans les recensements de 1936 et 1946, avec le cadre de gestion entré en vigueur en 1942. Le recoupement encadre la date mais ne certifie pas une identité de limites. Aucun chiffre de population, code contemporain, chef-lieu ou contour moderne transféré. Distinct du county borough de Dublin. Dún Laoghaire reste une partie du comté selon l’art. 3(3) de 1930. Crumlin est détaché le 17/07/1941 ; Howth le 24/08/1942. Les cartes de 1936 ou de 2024 ne peuvent donc être copiées sans correction."
+      },
+      "sources": [
+       {
+        "source_id": "src-cso-census1936-volume1-counties",
+        "locator": "Table 6, p. 9, en-tête Dublin County",
+        "usage": "nom et catégorie administrative avant la date observée"
+       },
+       {
+        "source_id": "src-cso-census1946-volume1-counties",
+        "locator": "Table 6, p. 9, en-tête Dublin County",
+        "usage": "recoupement postérieur de la même unité ; aucune population ni limite transférée"
+       },
+       {
+        "source_id": "src-ie-county-management-act1940",
+        "locator": "art. 3 ; First Schedule pour les comtés groupés",
+        "usage": "régime des comtés et distinction entre unité et direction commune"
+       },
+       {
+        "source_id": "src-ie-county-management-commencement1942",
+        "locator": "art. 2",
+        "usage": "entrée en vigueur du County Management Act le 26/08/1942"
+       },
+       {
+        "source_id": "src-ie-local-government-dublin1930",
+        "locator": "art. 3(3) et 82",
+        "usage": "Dun Laoghaire dans le comté ; suppression des rural district councils"
+       },
+       {
+        "source_id": "src-ie-dublin-extension-confirmation1941",
+        "locator": "art. 1 ; Schedule, art. 2 et 4, description finale",
+        "usage": "extension de Crumlin et date d’effet"
+       },
+       {
+        "source_id": "src-ie-local-government-dublin1940",
+        "locator": "art. 4",
+        "usage": "détachement de Howth du comté"
+       },
+       {
+        "source_id": "src-ie-dublin-appointed-day1942",
+        "locator": "art. 2",
+        "usage": "date d’effet 24/08/1942"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-ie-comte-galway",
+    "type_entite": "subdivision",
+    "nom": "Comté de Galway",
+    "nom_court": "Comté de Galway",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Galway County",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "county (administrative county)",
+       "parent_id": "territoire-ie-irlande",
+       "souverainete_id": "irlande",
+       "reserves": [
+        "R2IE-01",
+        "R2IE-02",
+        "R2IE-03",
+        "R2IE-04",
+        "R2IE-06"
+       ],
+       "note": "Comté administratif proposé au premier échelon. Nom transcrit dans les recensements de 1936 et 1946, avec le cadre de gestion entré en vigueur en 1942. Le recoupement encadre la date mais ne certifie pas une identité de limites. Aucun chiffre de population, code contemporain, chef-lieu ou contour moderne transféré."
+      },
+      "sources": [
+       {
+        "source_id": "src-cso-census1936-volume1-counties",
+        "locator": "Table 6, p. 9, en-tête Galway County",
+        "usage": "nom et catégorie administrative avant la date observée"
+       },
+       {
+        "source_id": "src-cso-census1946-volume1-counties",
+        "locator": "Table 6, p. 9, en-tête Galway County",
+        "usage": "recoupement postérieur de la même unité ; aucune population ni limite transférée"
+       },
+       {
+        "source_id": "src-ie-county-management-act1940",
+        "locator": "art. 3 ; First Schedule pour les comtés groupés",
+        "usage": "régime des comtés et distinction entre unité et direction commune"
+       },
+       {
+        "source_id": "src-ie-county-management-commencement1942",
+        "locator": "art. 2",
+        "usage": "entrée en vigueur du County Management Act le 26/08/1942"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-ie-comte-kerry",
+    "type_entite": "subdivision",
+    "nom": "Comté de Kerry",
+    "nom_court": "Comté de Kerry",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Kerry County",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "county (administrative county)",
+       "parent_id": "territoire-ie-irlande",
+       "souverainete_id": "irlande",
+       "reserves": [
+        "R2IE-01",
+        "R2IE-02",
+        "R2IE-03",
+        "R2IE-04",
+        "R2IE-06"
+       ],
+       "note": "Comté administratif proposé au premier échelon. Nom transcrit dans les recensements de 1936 et 1946, avec le cadre de gestion entré en vigueur en 1942. Le recoupement encadre la date mais ne certifie pas une identité de limites. Aucun chiffre de population, code contemporain, chef-lieu ou contour moderne transféré."
+      },
+      "sources": [
+       {
+        "source_id": "src-cso-census1936-volume1-counties",
+        "locator": "Table 6, p. 10, en-tête Kerry County",
+        "usage": "nom et catégorie administrative avant la date observée"
+       },
+       {
+        "source_id": "src-cso-census1946-volume1-counties",
+        "locator": "Table 6, p. 10, en-tête Kerry County",
+        "usage": "recoupement postérieur de la même unité ; aucune population ni limite transférée"
+       },
+       {
+        "source_id": "src-ie-county-management-act1940",
+        "locator": "art. 3 ; First Schedule pour les comtés groupés",
+        "usage": "régime des comtés et distinction entre unité et direction commune"
+       },
+       {
+        "source_id": "src-ie-county-management-commencement1942",
+        "locator": "art. 2",
+        "usage": "entrée en vigueur du County Management Act le 26/08/1942"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-ie-comte-kildare",
+    "type_entite": "subdivision",
+    "nom": "Comté de Kildare",
+    "nom_court": "Comté de Kildare",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Kildare County",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "county (administrative county)",
+       "parent_id": "territoire-ie-irlande",
+       "souverainete_id": "irlande",
+       "reserves": [
+        "R2IE-01",
+        "R2IE-02",
+        "R2IE-03",
+        "R2IE-04",
+        "R2IE-06"
+       ],
+       "note": "Comté administratif proposé au premier échelon. Nom transcrit dans les recensements de 1936 et 1946, avec le cadre de gestion entré en vigueur en 1942. Le recoupement encadre la date mais ne certifie pas une identité de limites. Aucun chiffre de population, code contemporain, chef-lieu ou contour moderne transféré. Le First Schedule de 1940 groupe Carlow et Kildare pour la direction : il conserve les deux comtés. Les exceptions liées aux conseils suspendus prévues en 1942 ne créent pas de fusion territoriale."
+      },
+      "sources": [
+       {
+        "source_id": "src-cso-census1936-volume1-counties",
+        "locator": "Table 6, p. 10, en-tête Kildare County",
+        "usage": "nom et catégorie administrative avant la date observée"
+       },
+       {
+        "source_id": "src-cso-census1946-volume1-counties",
+        "locator": "Table 6, p. 10, en-tête Kildare County",
+        "usage": "recoupement postérieur de la même unité ; aucune population ni limite transférée"
+       },
+       {
+        "source_id": "src-ie-county-management-act1940",
+        "locator": "art. 3 ; First Schedule pour les comtés groupés",
+        "usage": "régime des comtés et distinction entre unité et direction commune"
+       },
+       {
+        "source_id": "src-ie-county-management-commencement1942",
+        "locator": "art. 2",
+        "usage": "entrée en vigueur du County Management Act le 26/08/1942"
+       },
+       {
+        "source_id": "src-ie-county-management-amendment1942",
+        "locator": "art. 4 et 5, notamment 5(1)(d)",
+        "usage": "aménagements de nomination et exception temporaire à la direction commune ; pas fusion"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-ie-comte-kilkenny",
+    "type_entite": "subdivision",
+    "nom": "Comté de Kilkenny",
+    "nom_court": "Comté de Kilkenny",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Kilkenny County",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "county (administrative county)",
+       "parent_id": "territoire-ie-irlande",
+       "souverainete_id": "irlande",
+       "reserves": [
+        "R2IE-01",
+        "R2IE-02",
+        "R2IE-03",
+        "R2IE-04",
+        "R2IE-06"
+       ],
+       "note": "Comté administratif proposé au premier échelon. Nom transcrit dans les recensements de 1936 et 1946, avec le cadre de gestion entré en vigueur en 1942. Le recoupement encadre la date mais ne certifie pas une identité de limites. Aucun chiffre de population, code contemporain, chef-lieu ou contour moderne transféré. Le First Schedule de 1940 groupe Kilkenny et Waterford pour la direction : il conserve les deux comtés. Les exceptions liées aux conseils suspendus prévues en 1942 ne créent pas de fusion territoriale."
+      },
+      "sources": [
+       {
+        "source_id": "src-cso-census1936-volume1-counties",
+        "locator": "Table 6, p. 10, en-tête Kilkenny County",
+        "usage": "nom et catégorie administrative avant la date observée"
+       },
+       {
+        "source_id": "src-cso-census1946-volume1-counties",
+        "locator": "Table 6, p. 10, en-tête Kilkenny County",
+        "usage": "recoupement postérieur de la même unité ; aucune population ni limite transférée"
+       },
+       {
+        "source_id": "src-ie-county-management-act1940",
+        "locator": "art. 3 ; First Schedule pour les comtés groupés",
+        "usage": "régime des comtés et distinction entre unité et direction commune"
+       },
+       {
+        "source_id": "src-ie-county-management-commencement1942",
+        "locator": "art. 2",
+        "usage": "entrée en vigueur du County Management Act le 26/08/1942"
+       },
+       {
+        "source_id": "src-ie-county-management-amendment1942",
+        "locator": "art. 4 et 5, notamment 5(1)(d)",
+        "usage": "aménagements de nomination et exception temporaire à la direction commune ; pas fusion"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-ie-comte-laois",
+    "type_entite": "subdivision",
+    "nom": "Comté de Laois",
+    "nom_court": "Comté de Laois",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Laoighis County",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "county (administrative county)",
+       "parent_id": "territoire-ie-irlande",
+       "souverainete_id": "irlande",
+       "reserves": [
+        "R2IE-01",
+        "R2IE-02",
+        "R2IE-03",
+        "R2IE-04",
+        "R2IE-06"
+       ],
+       "note": "Comté administratif proposé au premier échelon. Nom transcrit dans les recensements de 1936 et 1946, avec le cadre de gestion entré en vigueur en 1942. Le recoupement encadre la date mais ne certifie pas une identité de limites. Aucun chiffre de population, code contemporain, chef-lieu ou contour moderne transféré. Le First Schedule de 1940 groupe Laoighis et Offaly pour la direction : il conserve les deux comtés. Les exceptions liées aux conseils suspendus prévues en 1942 ne créent pas de fusion territoriale. Laoighis est la graphie des sources datées ; Laois sert au nom usuel de fiche et à la clé. Les autres variantes linguistiques restent à établir individuellement."
+      },
+      "sources": [
+       {
+        "source_id": "src-cso-census1936-volume1-counties",
+        "locator": "Table 6, p. 10, en-tête Laoighis County",
+        "usage": "nom et catégorie administrative avant la date observée"
+       },
+       {
+        "source_id": "src-cso-census1946-volume1-counties",
+        "locator": "Table 6, p. 10, en-tête Laoighis County",
+        "usage": "recoupement postérieur de la même unité ; aucune population ni limite transférée"
+       },
+       {
+        "source_id": "src-ie-county-management-act1940",
+        "locator": "art. 3 ; First Schedule pour les comtés groupés",
+        "usage": "régime des comtés et distinction entre unité et direction commune"
+       },
+       {
+        "source_id": "src-ie-county-management-commencement1942",
+        "locator": "art. 2",
+        "usage": "entrée en vigueur du County Management Act le 26/08/1942"
+       },
+       {
+        "source_id": "src-ie-county-management-amendment1942",
+        "locator": "art. 4 et 5, notamment 5(1)(d)",
+        "usage": "aménagements de nomination et exception temporaire à la direction commune ; pas fusion"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-ie-comte-leitrim",
+    "type_entite": "subdivision",
+    "nom": "Comté de Leitrim",
+    "nom_court": "Comté de Leitrim",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Leitrim County",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "county (administrative county)",
+       "parent_id": "territoire-ie-irlande",
+       "souverainete_id": "irlande",
+       "reserves": [
+        "R2IE-01",
+        "R2IE-02",
+        "R2IE-03",
+        "R2IE-04",
+        "R2IE-06"
+       ],
+       "note": "Comté administratif proposé au premier échelon. Nom transcrit dans les recensements de 1936 et 1946, avec le cadre de gestion entré en vigueur en 1942. Le recoupement encadre la date mais ne certifie pas une identité de limites. Aucun chiffre de population, code contemporain, chef-lieu ou contour moderne transféré. Le First Schedule de 1940 groupe Leitrim et Sligo pour la direction : il conserve les deux comtés. Les exceptions liées aux conseils suspendus prévues en 1942 ne créent pas de fusion territoriale."
+      },
+      "sources": [
+       {
+        "source_id": "src-cso-census1936-volume1-counties",
+        "locator": "Table 6, p. 10, en-tête Leitrim County",
+        "usage": "nom et catégorie administrative avant la date observée"
+       },
+       {
+        "source_id": "src-cso-census1946-volume1-counties",
+        "locator": "Table 6, p. 10, en-tête Leitrim County",
+        "usage": "recoupement postérieur de la même unité ; aucune population ni limite transférée"
+       },
+       {
+        "source_id": "src-ie-county-management-act1940",
+        "locator": "art. 3 ; First Schedule pour les comtés groupés",
+        "usage": "régime des comtés et distinction entre unité et direction commune"
+       },
+       {
+        "source_id": "src-ie-county-management-commencement1942",
+        "locator": "art. 2",
+        "usage": "entrée en vigueur du County Management Act le 26/08/1942"
+       },
+       {
+        "source_id": "src-ie-county-management-amendment1942",
+        "locator": "art. 4 et 5, notamment 5(1)(d)",
+        "usage": "aménagements de nomination et exception temporaire à la direction commune ; pas fusion"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-ie-comte-limerick",
+    "type_entite": "subdivision",
+    "nom": "Comté de Limerick",
+    "nom_court": "Comté de Limerick",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Limerick County",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "county (administrative county)",
+       "parent_id": "territoire-ie-irlande",
+       "souverainete_id": "irlande",
+       "reserves": [
+        "R2IE-01",
+        "R2IE-02",
+        "R2IE-03",
+        "R2IE-04",
+        "R2IE-06"
+       ],
+       "note": "Comté administratif proposé au premier échelon. Nom transcrit dans les recensements de 1936 et 1946, avec le cadre de gestion entré en vigueur en 1942. Le recoupement encadre la date mais ne certifie pas une identité de limites. Aucun chiffre de population, code contemporain, chef-lieu ou contour moderne transféré."
+      },
+      "sources": [
+       {
+        "source_id": "src-cso-census1936-volume1-counties",
+        "locator": "Table 6, p. 10, en-tête Limerick County",
+        "usage": "nom et catégorie administrative avant la date observée"
+       },
+       {
+        "source_id": "src-cso-census1946-volume1-counties",
+        "locator": "Table 6, p. 10, en-tête Limerick County",
+        "usage": "recoupement postérieur de la même unité ; aucune population ni limite transférée"
+       },
+       {
+        "source_id": "src-ie-county-management-act1940",
+        "locator": "art. 3 ; First Schedule pour les comtés groupés",
+        "usage": "régime des comtés et distinction entre unité et direction commune"
+       },
+       {
+        "source_id": "src-ie-county-management-commencement1942",
+        "locator": "art. 2",
+        "usage": "entrée en vigueur du County Management Act le 26/08/1942"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-ie-comte-longford",
+    "type_entite": "subdivision",
+    "nom": "Comté de Longford",
+    "nom_court": "Comté de Longford",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Longford County",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "county (administrative county)",
+       "parent_id": "territoire-ie-irlande",
+       "souverainete_id": "irlande",
+       "reserves": [
+        "R2IE-01",
+        "R2IE-02",
+        "R2IE-03",
+        "R2IE-04",
+        "R2IE-06"
+       ],
+       "note": "Comté administratif proposé au premier échelon. Nom transcrit dans les recensements de 1936 et 1946, avec le cadre de gestion entré en vigueur en 1942. Le recoupement encadre la date mais ne certifie pas une identité de limites. Aucun chiffre de population, code contemporain, chef-lieu ou contour moderne transféré. Le First Schedule de 1940 groupe Longford et Westmeath pour la direction : il conserve les deux comtés. Les exceptions liées aux conseils suspendus prévues en 1942 ne créent pas de fusion territoriale."
+      },
+      "sources": [
+       {
+        "source_id": "src-cso-census1936-volume1-counties",
+        "locator": "Table 6, p. 10, en-tête Longford County",
+        "usage": "nom et catégorie administrative avant la date observée"
+       },
+       {
+        "source_id": "src-cso-census1946-volume1-counties",
+        "locator": "Table 6, p. 10, en-tête Longford County",
+        "usage": "recoupement postérieur de la même unité ; aucune population ni limite transférée"
+       },
+       {
+        "source_id": "src-ie-county-management-act1940",
+        "locator": "art. 3 ; First Schedule pour les comtés groupés",
+        "usage": "régime des comtés et distinction entre unité et direction commune"
+       },
+       {
+        "source_id": "src-ie-county-management-commencement1942",
+        "locator": "art. 2",
+        "usage": "entrée en vigueur du County Management Act le 26/08/1942"
+       },
+       {
+        "source_id": "src-ie-county-management-amendment1942",
+        "locator": "art. 4 et 5, notamment 5(1)(d)",
+        "usage": "aménagements de nomination et exception temporaire à la direction commune ; pas fusion"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-ie-comte-louth",
+    "type_entite": "subdivision",
+    "nom": "Comté de Louth",
+    "nom_court": "Comté de Louth",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Louth County",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "county (administrative county)",
+       "parent_id": "territoire-ie-irlande",
+       "souverainete_id": "irlande",
+       "reserves": [
+        "R2IE-01",
+        "R2IE-02",
+        "R2IE-03",
+        "R2IE-04",
+        "R2IE-06"
+       ],
+       "note": "Comté administratif proposé au premier échelon. Nom transcrit dans les recensements de 1936 et 1946, avec le cadre de gestion entré en vigueur en 1942. Le recoupement encadre la date mais ne certifie pas une identité de limites. Aucun chiffre de population, code contemporain, chef-lieu ou contour moderne transféré."
+      },
+      "sources": [
+       {
+        "source_id": "src-cso-census1936-volume1-counties",
+        "locator": "Table 6, p. 10, en-tête Louth County",
+        "usage": "nom et catégorie administrative avant la date observée"
+       },
+       {
+        "source_id": "src-cso-census1946-volume1-counties",
+        "locator": "Table 6, p. 10, en-tête Louth County",
+        "usage": "recoupement postérieur de la même unité ; aucune population ni limite transférée"
+       },
+       {
+        "source_id": "src-ie-county-management-act1940",
+        "locator": "art. 3 ; First Schedule pour les comtés groupés",
+        "usage": "régime des comtés et distinction entre unité et direction commune"
+       },
+       {
+        "source_id": "src-ie-county-management-commencement1942",
+        "locator": "art. 2",
+        "usage": "entrée en vigueur du County Management Act le 26/08/1942"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-ie-comte-mayo",
+    "type_entite": "subdivision",
+    "nom": "Comté de Mayo",
+    "nom_court": "Comté de Mayo",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Mayo County",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "county (administrative county)",
+       "parent_id": "territoire-ie-irlande",
+       "souverainete_id": "irlande",
+       "reserves": [
+        "R2IE-01",
+        "R2IE-02",
+        "R2IE-03",
+        "R2IE-04",
+        "R2IE-06"
+       ],
+       "note": "Comté administratif proposé au premier échelon. Nom transcrit dans les recensements de 1936 et 1946, avec le cadre de gestion entré en vigueur en 1942. Le recoupement encadre la date mais ne certifie pas une identité de limites. Aucun chiffre de population, code contemporain, chef-lieu ou contour moderne transféré."
+      },
+      "sources": [
+       {
+        "source_id": "src-cso-census1936-volume1-counties",
+        "locator": "Table 6, p. 10, en-tête Mayo County",
+        "usage": "nom et catégorie administrative avant la date observée"
+       },
+       {
+        "source_id": "src-cso-census1946-volume1-counties",
+        "locator": "Table 6, p. 10, en-tête Mayo County",
+        "usage": "recoupement postérieur de la même unité ; aucune population ni limite transférée"
+       },
+       {
+        "source_id": "src-ie-county-management-act1940",
+        "locator": "art. 3 ; First Schedule pour les comtés groupés",
+        "usage": "régime des comtés et distinction entre unité et direction commune"
+       },
+       {
+        "source_id": "src-ie-county-management-commencement1942",
+        "locator": "art. 2",
+        "usage": "entrée en vigueur du County Management Act le 26/08/1942"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-ie-comte-meath",
+    "type_entite": "subdivision",
+    "nom": "Comté de Meath",
+    "nom_court": "Comté de Meath",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Meath County",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "county (administrative county)",
+       "parent_id": "territoire-ie-irlande",
+       "souverainete_id": "irlande",
+       "reserves": [
+        "R2IE-01",
+        "R2IE-02",
+        "R2IE-03",
+        "R2IE-04",
+        "R2IE-06"
+       ],
+       "note": "Comté administratif proposé au premier échelon. Nom transcrit dans les recensements de 1936 et 1946, avec le cadre de gestion entré en vigueur en 1942. Le recoupement encadre la date mais ne certifie pas une identité de limites. Aucun chiffre de population, code contemporain, chef-lieu ou contour moderne transféré."
+      },
+      "sources": [
+       {
+        "source_id": "src-cso-census1936-volume1-counties",
+        "locator": "Table 6, p. 11, en-tête Meath County",
+        "usage": "nom et catégorie administrative avant la date observée"
+       },
+       {
+        "source_id": "src-cso-census1946-volume1-counties",
+        "locator": "Table 6, p. 11, en-tête Meath County",
+        "usage": "recoupement postérieur de la même unité ; aucune population ni limite transférée"
+       },
+       {
+        "source_id": "src-ie-county-management-act1940",
+        "locator": "art. 3 ; First Schedule pour les comtés groupés",
+        "usage": "régime des comtés et distinction entre unité et direction commune"
+       },
+       {
+        "source_id": "src-ie-county-management-commencement1942",
+        "locator": "art. 2",
+        "usage": "entrée en vigueur du County Management Act le 26/08/1942"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-ie-comte-monaghan",
+    "type_entite": "subdivision",
+    "nom": "Comté de Monaghan",
+    "nom_court": "Comté de Monaghan",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Monaghan County",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "county (administrative county)",
+       "parent_id": "territoire-ie-irlande",
+       "souverainete_id": "irlande",
+       "reserves": [
+        "R2IE-01",
+        "R2IE-02",
+        "R2IE-03",
+        "R2IE-04",
+        "R2IE-06"
+       ],
+       "note": "Comté administratif proposé au premier échelon. Nom transcrit dans les recensements de 1936 et 1946, avec le cadre de gestion entré en vigueur en 1942. Le recoupement encadre la date mais ne certifie pas une identité de limites. Aucun chiffre de population, code contemporain, chef-lieu ou contour moderne transféré."
+      },
+      "sources": [
+       {
+        "source_id": "src-cso-census1936-volume1-counties",
+        "locator": "Table 6, p. 11, en-tête Monaghan County",
+        "usage": "nom et catégorie administrative avant la date observée"
+       },
+       {
+        "source_id": "src-cso-census1946-volume1-counties",
+        "locator": "Table 6, p. 11, en-tête Monaghan County",
+        "usage": "recoupement postérieur de la même unité ; aucune population ni limite transférée"
+       },
+       {
+        "source_id": "src-ie-county-management-act1940",
+        "locator": "art. 3 ; First Schedule pour les comtés groupés",
+        "usage": "régime des comtés et distinction entre unité et direction commune"
+       },
+       {
+        "source_id": "src-ie-county-management-commencement1942",
+        "locator": "art. 2",
+        "usage": "entrée en vigueur du County Management Act le 26/08/1942"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-ie-comte-offaly",
+    "type_entite": "subdivision",
+    "nom": "Comté de Offaly",
+    "nom_court": "Comté de Offaly",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Offaly County",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "county (administrative county)",
+       "parent_id": "territoire-ie-irlande",
+       "souverainete_id": "irlande",
+       "reserves": [
+        "R2IE-01",
+        "R2IE-02",
+        "R2IE-03",
+        "R2IE-04",
+        "R2IE-06"
+       ],
+       "note": "Comté administratif proposé au premier échelon. Nom transcrit dans les recensements de 1936 et 1946, avec le cadre de gestion entré en vigueur en 1942. Le recoupement encadre la date mais ne certifie pas une identité de limites. Aucun chiffre de population, code contemporain, chef-lieu ou contour moderne transféré. Le First Schedule de 1940 groupe Laoighis et Offaly pour la direction : il conserve les deux comtés. Les exceptions liées aux conseils suspendus prévues en 1942 ne créent pas de fusion territoriale."
+      },
+      "sources": [
+       {
+        "source_id": "src-cso-census1936-volume1-counties",
+        "locator": "Table 6, p. 11, en-tête Offaly County",
+        "usage": "nom et catégorie administrative avant la date observée"
+       },
+       {
+        "source_id": "src-cso-census1946-volume1-counties",
+        "locator": "Table 6, p. 11, en-tête Offaly County",
+        "usage": "recoupement postérieur de la même unité ; aucune population ni limite transférée"
+       },
+       {
+        "source_id": "src-ie-county-management-act1940",
+        "locator": "art. 3 ; First Schedule pour les comtés groupés",
+        "usage": "régime des comtés et distinction entre unité et direction commune"
+       },
+       {
+        "source_id": "src-ie-county-management-commencement1942",
+        "locator": "art. 2",
+        "usage": "entrée en vigueur du County Management Act le 26/08/1942"
+       },
+       {
+        "source_id": "src-ie-county-management-amendment1942",
+        "locator": "art. 4 et 5, notamment 5(1)(d)",
+        "usage": "aménagements de nomination et exception temporaire à la direction commune ; pas fusion"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-ie-comte-roscommon",
+    "type_entite": "subdivision",
+    "nom": "Comté de Roscommon",
+    "nom_court": "Comté de Roscommon",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Roscommon County",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "county (administrative county)",
+       "parent_id": "territoire-ie-irlande",
+       "souverainete_id": "irlande",
+       "reserves": [
+        "R2IE-01",
+        "R2IE-02",
+        "R2IE-03",
+        "R2IE-04",
+        "R2IE-06"
+       ],
+       "note": "Comté administratif proposé au premier échelon. Nom transcrit dans les recensements de 1936 et 1946, avec le cadre de gestion entré en vigueur en 1942. Le recoupement encadre la date mais ne certifie pas une identité de limites. Aucun chiffre de population, code contemporain, chef-lieu ou contour moderne transféré."
+      },
+      "sources": [
+       {
+        "source_id": "src-cso-census1936-volume1-counties",
+        "locator": "Table 6, p. 11, en-tête Roscommon County",
+        "usage": "nom et catégorie administrative avant la date observée"
+       },
+       {
+        "source_id": "src-cso-census1946-volume1-counties",
+        "locator": "Table 6, p. 11, en-tête Roscommon County",
+        "usage": "recoupement postérieur de la même unité ; aucune population ni limite transférée"
+       },
+       {
+        "source_id": "src-ie-county-management-act1940",
+        "locator": "art. 3 ; First Schedule pour les comtés groupés",
+        "usage": "régime des comtés et distinction entre unité et direction commune"
+       },
+       {
+        "source_id": "src-ie-county-management-commencement1942",
+        "locator": "art. 2",
+        "usage": "entrée en vigueur du County Management Act le 26/08/1942"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-ie-comte-sligo",
+    "type_entite": "subdivision",
+    "nom": "Comté de Sligo",
+    "nom_court": "Comté de Sligo",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Sligo County",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "county (administrative county)",
+       "parent_id": "territoire-ie-irlande",
+       "souverainete_id": "irlande",
+       "reserves": [
+        "R2IE-01",
+        "R2IE-02",
+        "R2IE-03",
+        "R2IE-04",
+        "R2IE-06"
+       ],
+       "note": "Comté administratif proposé au premier échelon. Nom transcrit dans les recensements de 1936 et 1946, avec le cadre de gestion entré en vigueur en 1942. Le recoupement encadre la date mais ne certifie pas une identité de limites. Aucun chiffre de population, code contemporain, chef-lieu ou contour moderne transféré. Le First Schedule de 1940 groupe Leitrim et Sligo pour la direction : il conserve les deux comtés. Les exceptions liées aux conseils suspendus prévues en 1942 ne créent pas de fusion territoriale."
+      },
+      "sources": [
+       {
+        "source_id": "src-cso-census1936-volume1-counties",
+        "locator": "Table 6, p. 11, en-tête Sligo County",
+        "usage": "nom et catégorie administrative avant la date observée"
+       },
+       {
+        "source_id": "src-cso-census1946-volume1-counties",
+        "locator": "Table 6, p. 11, en-tête Sligo County",
+        "usage": "recoupement postérieur de la même unité ; aucune population ni limite transférée"
+       },
+       {
+        "source_id": "src-ie-county-management-act1940",
+        "locator": "art. 3 ; First Schedule pour les comtés groupés",
+        "usage": "régime des comtés et distinction entre unité et direction commune"
+       },
+       {
+        "source_id": "src-ie-county-management-commencement1942",
+        "locator": "art. 2",
+        "usage": "entrée en vigueur du County Management Act le 26/08/1942"
+       },
+       {
+        "source_id": "src-ie-county-management-amendment1942",
+        "locator": "art. 4 et 5, notamment 5(1)(d)",
+        "usage": "aménagements de nomination et exception temporaire à la direction commune ; pas fusion"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-ie-comte-tipperary-du-nord",
+    "type_entite": "subdivision",
+    "nom": "Comté de Tipperary du Nord",
+    "nom_court": "Comté de Tipperary du Nord",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Tipperary, North Riding",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "county (administrative county)",
+       "parent_id": "territoire-ie-irlande",
+       "souverainete_id": "irlande",
+       "reserves": [
+        "R2IE-01",
+        "R2IE-02",
+        "R2IE-03",
+        "R2IE-04",
+        "R2IE-06"
+       ],
+       "note": "Comté administratif proposé au premier échelon. Nom transcrit dans les recensements de 1936 et 1946, avec le cadre de gestion entré en vigueur en 1942. Le recoupement encadre la date mais ne certifie pas une identité de limites. Aucun chiffre de population, code contemporain, chef-lieu ou contour moderne transféré. Le First Schedule de 1940 groupe Tipperary, North Riding et Tipperary, South Riding pour la direction : il conserve les deux comtés. Les exceptions liées aux conseils suspendus prévues en 1942 ne créent pas de fusion territoriale. La clé distingue les deux anciennes divisions ; elle ne prétend pas qu’une collectivité actuelle de mêmes limites subsiste."
+      },
+      "sources": [
+       {
+        "source_id": "src-cso-census1936-volume1-counties",
+        "locator": "Table 6, p. 11, en-tête Tipperary, North Riding",
+        "usage": "nom et catégorie administrative avant la date observée"
+       },
+       {
+        "source_id": "src-cso-census1946-volume1-counties",
+        "locator": "Table 6, p. 11, en-tête Tipperary, North Riding",
+        "usage": "recoupement postérieur de la même unité ; aucune population ni limite transférée"
+       },
+       {
+        "source_id": "src-ie-county-management-act1940",
+        "locator": "art. 3 ; First Schedule pour les comtés groupés",
+        "usage": "régime des comtés et distinction entre unité et direction commune"
+       },
+       {
+        "source_id": "src-ie-county-management-commencement1942",
+        "locator": "art. 2",
+        "usage": "entrée en vigueur du County Management Act le 26/08/1942"
+       },
+       {
+        "source_id": "src-ie-county-management-amendment1942",
+        "locator": "art. 4 et 5, notamment 5(1)(d)",
+        "usage": "aménagements de nomination et exception temporaire à la direction commune ; pas fusion"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-ie-comte-tipperary-du-sud",
+    "type_entite": "subdivision",
+    "nom": "Comté de Tipperary du Sud",
+    "nom_court": "Comté de Tipperary du Sud",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Tipperary, South Riding",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "county (administrative county)",
+       "parent_id": "territoire-ie-irlande",
+       "souverainete_id": "irlande",
+       "reserves": [
+        "R2IE-01",
+        "R2IE-02",
+        "R2IE-03",
+        "R2IE-04",
+        "R2IE-06"
+       ],
+       "note": "Comté administratif proposé au premier échelon. Nom transcrit dans les recensements de 1936 et 1946, avec le cadre de gestion entré en vigueur en 1942. Le recoupement encadre la date mais ne certifie pas une identité de limites. Aucun chiffre de population, code contemporain, chef-lieu ou contour moderne transféré. Le First Schedule de 1940 groupe Tipperary, North Riding et Tipperary, South Riding pour la direction : il conserve les deux comtés. Les exceptions liées aux conseils suspendus prévues en 1942 ne créent pas de fusion territoriale. La clé distingue les deux anciennes divisions ; elle ne prétend pas qu’une collectivité actuelle de mêmes limites subsiste."
+      },
+      "sources": [
+       {
+        "source_id": "src-cso-census1936-volume1-counties",
+        "locator": "Table 6, p. 11, en-tête Tipperary, South Riding",
+        "usage": "nom et catégorie administrative avant la date observée"
+       },
+       {
+        "source_id": "src-cso-census1946-volume1-counties",
+        "locator": "Table 6, p. 11, en-tête Tipperary, South Riding",
+        "usage": "recoupement postérieur de la même unité ; aucune population ni limite transférée"
+       },
+       {
+        "source_id": "src-ie-county-management-act1940",
+        "locator": "art. 3 ; First Schedule pour les comtés groupés",
+        "usage": "régime des comtés et distinction entre unité et direction commune"
+       },
+       {
+        "source_id": "src-ie-county-management-commencement1942",
+        "locator": "art. 2",
+        "usage": "entrée en vigueur du County Management Act le 26/08/1942"
+       },
+       {
+        "source_id": "src-ie-county-management-amendment1942",
+        "locator": "art. 4 et 5, notamment 5(1)(d)",
+        "usage": "aménagements de nomination et exception temporaire à la direction commune ; pas fusion"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-ie-comte-waterford",
+    "type_entite": "subdivision",
+    "nom": "Comté de Waterford",
+    "nom_court": "Comté de Waterford",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Waterford County",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "county (administrative county)",
+       "parent_id": "territoire-ie-irlande",
+       "souverainete_id": "irlande",
+       "reserves": [
+        "R2IE-01",
+        "R2IE-02",
+        "R2IE-03",
+        "R2IE-04",
+        "R2IE-06"
+       ],
+       "note": "Comté administratif proposé au premier échelon. Nom transcrit dans les recensements de 1936 et 1946, avec le cadre de gestion entré en vigueur en 1942. Le recoupement encadre la date mais ne certifie pas une identité de limites. Aucun chiffre de population, code contemporain, chef-lieu ou contour moderne transféré. Le First Schedule de 1940 groupe Kilkenny et Waterford pour la direction : il conserve les deux comtés. Les exceptions liées aux conseils suspendus prévues en 1942 ne créent pas de fusion territoriale. Le county borough est distinct. L’extension urbaine de 1944 détache du comté la portion décrite dans le Second Schedule ; prise d’effet le 03/10/1944, et non rétroactivement au 01/04/1944."
+      },
+      "sources": [
+       {
+        "source_id": "src-cso-census1936-volume1-counties",
+        "locator": "Table 6, p. 11, en-tête Waterford County",
+        "usage": "nom et catégorie administrative avant la date observée"
+       },
+       {
+        "source_id": "src-cso-census1946-volume1-counties",
+        "locator": "Table 6, p. 11, en-tête Waterford County",
+        "usage": "recoupement postérieur de la même unité ; aucune population ni limite transférée"
+       },
+       {
+        "source_id": "src-ie-county-management-act1940",
+        "locator": "art. 3 ; First Schedule pour les comtés groupés",
+        "usage": "régime des comtés et distinction entre unité et direction commune"
+       },
+       {
+        "source_id": "src-ie-county-management-commencement1942",
+        "locator": "art. 2",
+        "usage": "entrée en vigueur du County Management Act le 26/08/1942"
+       },
+       {
+        "source_id": "src-ie-county-management-amendment1942",
+        "locator": "art. 4 et 5, notamment 5(1)(d)",
+        "usage": "aménagements de nomination et exception temporaire à la direction commune ; pas fusion"
+       },
+       {
+        "source_id": "src-ie-waterford-extension-confirmation1944",
+        "locator": "art. 2 ; Second Schedule, art. 2–4",
+        "usage": "extension applicable au Snapshot 0"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-ie-comte-westmeath",
+    "type_entite": "subdivision",
+    "nom": "Comté de Westmeath",
+    "nom_court": "Comté de Westmeath",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Westmeath County",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "county (administrative county)",
+       "parent_id": "territoire-ie-irlande",
+       "souverainete_id": "irlande",
+       "reserves": [
+        "R2IE-01",
+        "R2IE-02",
+        "R2IE-03",
+        "R2IE-04",
+        "R2IE-06"
+       ],
+       "note": "Comté administratif proposé au premier échelon. Nom transcrit dans les recensements de 1936 et 1946, avec le cadre de gestion entré en vigueur en 1942. Le recoupement encadre la date mais ne certifie pas une identité de limites. Aucun chiffre de population, code contemporain, chef-lieu ou contour moderne transféré. Le First Schedule de 1940 groupe Longford et Westmeath pour la direction : il conserve les deux comtés. Les exceptions liées aux conseils suspendus prévues en 1942 ne créent pas de fusion territoriale."
+      },
+      "sources": [
+       {
+        "source_id": "src-cso-census1936-volume1-counties",
+        "locator": "Table 6, p. 12, en-tête Westmeath County",
+        "usage": "nom et catégorie administrative avant la date observée"
+       },
+       {
+        "source_id": "src-cso-census1946-volume1-counties",
+        "locator": "Table 6, p. 11, en-tête Westmeath County",
+        "usage": "recoupement postérieur de la même unité ; aucune population ni limite transférée"
+       },
+       {
+        "source_id": "src-ie-county-management-act1940",
+        "locator": "art. 3 ; First Schedule pour les comtés groupés",
+        "usage": "régime des comtés et distinction entre unité et direction commune"
+       },
+       {
+        "source_id": "src-ie-county-management-commencement1942",
+        "locator": "art. 2",
+        "usage": "entrée en vigueur du County Management Act le 26/08/1942"
+       },
+       {
+        "source_id": "src-ie-county-management-amendment1942",
+        "locator": "art. 4 et 5, notamment 5(1)(d)",
+        "usage": "aménagements de nomination et exception temporaire à la direction commune ; pas fusion"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-ie-comte-wexford",
+    "type_entite": "subdivision",
+    "nom": "Comté de Wexford",
+    "nom_court": "Comté de Wexford",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Wexford County",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "county (administrative county)",
+       "parent_id": "territoire-ie-irlande",
+       "souverainete_id": "irlande",
+       "reserves": [
+        "R2IE-01",
+        "R2IE-02",
+        "R2IE-03",
+        "R2IE-04",
+        "R2IE-06"
+       ],
+       "note": "Comté administratif proposé au premier échelon. Nom transcrit dans les recensements de 1936 et 1946, avec le cadre de gestion entré en vigueur en 1942. Le recoupement encadre la date mais ne certifie pas une identité de limites. Aucun chiffre de population, code contemporain, chef-lieu ou contour moderne transféré."
+      },
+      "sources": [
+       {
+        "source_id": "src-cso-census1936-volume1-counties",
+        "locator": "Table 6, p. 12, en-tête Wexford County",
+        "usage": "nom et catégorie administrative avant la date observée"
+       },
+       {
+        "source_id": "src-cso-census1946-volume1-counties",
+        "locator": "Table 6, p. 11, en-tête Wexford County",
+        "usage": "recoupement postérieur de la même unité ; aucune population ni limite transférée"
+       },
+       {
+        "source_id": "src-ie-county-management-act1940",
+        "locator": "art. 3 ; First Schedule pour les comtés groupés",
+        "usage": "régime des comtés et distinction entre unité et direction commune"
+       },
+       {
+        "source_id": "src-ie-county-management-commencement1942",
+        "locator": "art. 2",
+        "usage": "entrée en vigueur du County Management Act le 26/08/1942"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-ie-comte-wicklow",
+    "type_entite": "subdivision",
+    "nom": "Comté de Wicklow",
+    "nom_court": "Comté de Wicklow",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Wicklow County",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "county (administrative county)",
+       "parent_id": "territoire-ie-irlande",
+       "souverainete_id": "irlande",
+       "reserves": [
+        "R2IE-01",
+        "R2IE-02",
+        "R2IE-03",
+        "R2IE-04",
+        "R2IE-06"
+       ],
+       "note": "Comté administratif proposé au premier échelon. Nom transcrit dans les recensements de 1936 et 1946, avec le cadre de gestion entré en vigueur en 1942. Le recoupement encadre la date mais ne certifie pas une identité de limites. Aucun chiffre de population, code contemporain, chef-lieu ou contour moderne transféré."
+      },
+      "sources": [
+       {
+        "source_id": "src-cso-census1936-volume1-counties",
+        "locator": "Table 6, p. 12, en-tête Wicklow County",
+        "usage": "nom et catégorie administrative avant la date observée"
+       },
+       {
+        "source_id": "src-cso-census1946-volume1-counties",
+        "locator": "Table 6, p. 12, en-tête Wicklow County",
+        "usage": "recoupement postérieur de la même unité ; aucune population ni limite transférée"
+       },
+       {
+        "source_id": "src-ie-county-management-act1940",
+        "locator": "art. 3 ; First Schedule pour les comtés groupés",
+        "usage": "régime des comtés et distinction entre unité et direction commune"
+       },
+       {
+        "source_id": "src-ie-county-management-commencement1942",
+        "locator": "art. 2",
+        "usage": "entrée en vigueur du County Management Act le 26/08/1942"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-ie-county-borough-cork",
+    "type_entite": "subdivision",
+    "nom": "County borough de Cork",
+    "nom_court": "County borough de Cork",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Cork County Borough",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "county borough",
+       "parent_id": "territoire-ie-irlande",
+       "souverainete_id": "irlande",
+       "reserves": [
+        "R2IE-01",
+        "R2IE-02",
+        "R2IE-03",
+        "R2IE-04",
+        "R2IE-06"
+       ],
+       "note": "County borough autonome au rang du comté ; parent direct du territoire irlandais, distinct du comté homonyme. La fiche représente la circonscription, sans créer de nouvelle ville ni déduire un siège administratif du nom. Les limites du recensement de 1946 ne sont pas automatiquement celles du 01/01/1945."
+      },
+      "sources": [
+       {
+        "source_id": "src-cso-census1936-volume1-counties",
+        "locator": "Table 6, p. 13, Cork County Borough",
+        "usage": "statut autonome au rang du comté"
+       },
+       {
+        "source_id": "src-cso-census1946-volume1-counties",
+        "locator": "Table 6, p. 12, Cork County Borough ; notes p. vii",
+        "usage": "recoupement postérieur des quatre county boroughs"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-ie-county-borough-dublin",
+    "type_entite": "subdivision",
+    "nom": "County borough de Dublin",
+    "nom_court": "County borough de Dublin",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Dublin County Borough",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "county borough",
+       "parent_id": "territoire-ie-irlande",
+       "souverainete_id": "irlande",
+       "reserves": [
+        "R2IE-01",
+        "R2IE-02",
+        "R2IE-03",
+        "R2IE-04",
+        "R2IE-06"
+       ],
+       "note": "County borough autonome au rang du comté ; parent direct du territoire irlandais, distinct du comté homonyme. La fiche représente la circonscription, sans créer de nouvelle ville ni déduire un siège administratif du nom. Les limites du recensement de 1946 ne sont pas automatiquement celles du 01/01/1945. Crumlin est ajouté en 1941 et Howth le 24/08/1942. Le partage d’un manager avec le comté ne supprime pas leur distinction. Les wards redéfinis en juillet 1946 ne sont pas anticipés."
+      },
+      "sources": [
+       {
+        "source_id": "src-cso-census1936-volume1-counties",
+        "locator": "Table 6, p. 13, Dublin County Borough",
+        "usage": "statut autonome au rang du comté"
+       },
+       {
+        "source_id": "src-cso-census1946-volume1-counties",
+        "locator": "Table 6, p. 12, Dublin County Borough ; notes p. vii",
+        "usage": "recoupement postérieur des quatre county boroughs"
+       },
+       {
+        "source_id": "src-ie-local-government-dublin1930",
+        "locator": "art. 1–2",
+        "usage": "distinction City/County et extension antérieure"
+       },
+       {
+        "source_id": "src-ie-county-management-act1940",
+        "locator": "art. 3(3)",
+        "usage": "direction commune de la ville et du comté sans fusion"
+       },
+       {
+        "source_id": "src-ie-dublin-extension-confirmation1941",
+        "locator": "art. 1 ; Schedule, art. 2 et 4",
+        "usage": "Crumlin, prise d’effet 17/07/1941"
+       },
+       {
+        "source_id": "src-ie-local-government-dublin1940",
+        "locator": "art. 4",
+        "usage": "inclusion de Howth"
+       },
+       {
+        "source_id": "src-ie-dublin-appointed-day1942",
+        "locator": "art. 2",
+        "usage": "prise d’effet 24/08/1942"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-ie-county-borough-limerick",
+    "type_entite": "subdivision",
+    "nom": "County borough de Limerick",
+    "nom_court": "County borough de Limerick",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Limerick County Borough",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "county borough",
+       "parent_id": "territoire-ie-irlande",
+       "souverainete_id": "irlande",
+       "reserves": [
+        "R2IE-01",
+        "R2IE-02",
+        "R2IE-03",
+        "R2IE-04",
+        "R2IE-06"
+       ],
+       "note": "County borough autonome au rang du comté ; parent direct du territoire irlandais, distinct du comté homonyme. La fiche représente la circonscription, sans créer de nouvelle ville ni déduire un siège administratif du nom. Les limites du recensement de 1946 ne sont pas automatiquement celles du 01/01/1945."
+      },
+      "sources": [
+       {
+        "source_id": "src-cso-census1936-volume1-counties",
+        "locator": "Table 6, p. 13, Limerick County Borough",
+        "usage": "statut autonome au rang du comté"
+       },
+       {
+        "source_id": "src-cso-census1946-volume1-counties",
+        "locator": "Table 6, p. 12, Limerick County Borough ; notes p. vii",
+        "usage": "recoupement postérieur des quatre county boroughs"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-ie-county-borough-waterford",
+    "type_entite": "subdivision",
+    "nom": "County borough de Waterford",
+    "nom_court": "County borough de Waterford",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Waterford County Borough",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "county borough",
+       "parent_id": "territoire-ie-irlande",
+       "souverainete_id": "irlande",
+       "reserves": [
+        "R2IE-01",
+        "R2IE-02",
+        "R2IE-03",
+        "R2IE-04",
+        "R2IE-06"
+       ],
+       "note": "County borough autonome au rang du comté ; parent direct du territoire irlandais, distinct du comté homonyme. La fiche représente la circonscription, sans créer de nouvelle ville ni déduire un siège administratif du nom. Les limites du recensement de 1946 ne sont pas automatiquement celles du 01/01/1945. Extension en vigueur le 03/10/1944 : date déduite de la sanction et de la clause retenant la plus tardive de la sanction et du 01/04/1944. Les cartes déposées prévues à l’art. 6 n’ont pas été obtenues ; aucun tracé reconstruit à partir du seul croquis ultérieur."
+      },
+      "sources": [
+       {
+        "source_id": "src-cso-census1936-volume1-counties",
+        "locator": "Table 6, p. 13, Waterford County Borough",
+        "usage": "statut autonome au rang du comté"
+       },
+       {
+        "source_id": "src-cso-census1946-volume1-counties",
+        "locator": "Table 6, p. 12, Waterford County Borough ; notes p. vii",
+        "usage": "recoupement postérieur des quatre county boroughs"
+       },
+       {
+        "source_id": "src-ie-waterford-extension-confirmation1944",
+        "locator": "art. 2 ; Second Schedule, art. 2–6 et description annexée",
+        "usage": "extension effective le 03/10/1944 et cartes légales à consulter"
+       },
+       {
+        "source_id": "src-kilkenny-waterford-extensions-map",
+        "locator": "p. 87, figure 4.2 (PDF p. 5)",
+        "usage": "recoupement rétrospectif de l’extension de 1944, pas géométrie réutilisable"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   }
+  ]
+ }
+}

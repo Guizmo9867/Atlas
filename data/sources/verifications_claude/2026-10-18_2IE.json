@@ -1,0 +1,78 @@
+{
+ "lot": "2.IE",
+ "date": "2026-10-18",
+ "auteur": "Claude",
+ "methode": "Sous-agents (WebFetch seulement, sans contournement) + lecture par Claude des captures (Table 6 de 1936 p.13 et de 1946 p.11) et des copies texte d'Ether dans preuves/ ; « ok » seulement si la source prouve ce que la fiche lui fait dire à la date.",
+ "resultats": [
+  {
+   "id": "src-cso-census1936-volume1-counties",
+   "statut": "ok",
+   "commentaire": "PDF scanné sans texte pour l'outil. Captures d'Ether lues par Claude : Table 6, p.13 « BOROUGH ELECTORAL AREAS : Cork County Borough … Dublin County Borough … Limerick County Borough … Waterford County Borough » ; liste des comtés (transcription d'Ether p.9–12, dont Laoighis et Tipperary North/South Riding). Recensement du 26/04/1936."
+  },
+  {
+   "id": "src-cso-census1946-volume1-counties",
+   "statut": "ok",
+   "commentaire": "PDF scanné sans texte pour l'outil. Capture d'Ether p.11 lue par Claude : « Tipperary, North Riding », « Tipperary, South Riding », Meath, Monaghan, Offaly… County ; recensement postérieur (mai 1946), recoupement seulement."
+  },
+  {
+   "id": "src-ie-county-management-act1940",
+   "statut": "ok",
+   "commentaire": "Site irishstatutebook en erreur pour l'outil ; copie texte d'Ether (preuves/) lue par Claude, pas une lecture du site en ligne : « FIRST SCHEDULE » ; « one and the same person shall be the county manager for each of the counties included in such group » (comtés distincts)."
+  },
+  {
+   "id": "src-ie-county-management-amendment1942",
+   "statut": "limite",
+   "commentaire": "Site irishstatutebook en erreur pour l'outil ; copie texte d'Ether (preuves/) lue par Claude, pas une lecture du site en ligne : définition de « suspended » (membres d'un conseil remplacés par un commissaire) ; art. 5(1)(d) non retrouvé mot pour mot."
+  },
+  {
+   "id": "src-ie-county-management-commencement1942",
+   "statut": "ok",
+   "commentaire": "« The County Management Act, 1940, shall come into operation on the 26th day of August, 1942. »"
+  },
+  {
+   "id": "src-ie-local-government-act1925",
+   "statut": "limite",
+   "commentaire": "Art. 3(1) : « On and after the appointed day all rural district councils shall cease to exist » ; appointed day = 1st October 1925 ; Part I sans effet pour le comté et la ville de Dublin (lecture tronquée par l'outil)."
+  },
+  {
+   "id": "src-ie-local-government-dublin1930",
+   "statut": "limite",
+   "commentaire": "Site irishstatutebook en erreur pour l'outil ; copie texte d'Ether (preuves/) lue par Claude, pas une lecture du site en ligne : « Formation of the Borough of Dun Laoghaire », « Abolition of rural district councils in the County » ; le maintien de Dun Laoghaire dans le comté n'est pas relu mot pour mot."
+  },
+  {
+   "id": "src-ie-local-government-dublin1940",
+   "statut": "ok",
+   "commentaire": "Site irishstatutebook en erreur pour l'outil ; copie texte d'Ether (preuves/) lue par Claude, pas une lecture du site en ligne : « Inclusion of Howth Urban District in the County Borough of Dublin »."
+  },
+  {
+   "id": "src-ie-dublin-extension-confirmation1941",
+   "statut": "limite",
+   "commentaire": "Site irishstatutebook en erreur pour l'outil ; copie texte d'Ether (preuves/) lue par Claude, pas une lecture du site en ligne : terres de Crumlin « detached from the County » à la « commencement of this Order » ; date du 17/07/1941 déduite par Ether (sanction + art. 2), non relue."
+  },
+  {
+   "id": "src-ie-dublin-appointed-day1942",
+   "statut": "ok",
+   "commentaire": "S.R.O. 372/1942 : appointed day de la loi de 1940 = « the 24th day of August, 1942 » ; le lien avec Howth vient de la loi de 1940 (relue sur la copie d'Ether)."
+  },
+  {
+   "id": "src-ie-waterford-extension-confirmation1944",
+   "statut": "ok",
+   "commentaire": "Site irishstatutebook en erreur pour l'outil ; copie texte d'Ether (preuves/) lue par Claude, pas une lecture du site en ligne : « Order shall come into force upon the day … on which the Act confirming this Order is passed or on the 1st day of April, 1944, whichever is the later » : loi de confirmation de 1944, donc en vigueur avant le 01/01/1945 (date de sanction du 03/10/1944 non relue)."
+  },
+  {
+   "id": "src-tailte-counties2024-metadata",
+   "statut": "ok",
+   "commentaire": "« licenced under a Creative Commons Attribution 4.0 International » ; « © Tailte Éireann » ; « There are 26 counties » ; jeu 2024, non utilisé."
+  },
+  {
+   "id": "src-tailte-boundary-data-description",
+   "statut": "limite",
+   "commentaire": "Rubriques Statute Boundaries / Administrative Boundaries / Statistical / Cultural Historical (Provinces) ; documentation actuelle."
+  },
+  {
+   "id": "src-kilkenny-waterford-extensions-map",
+   "statut": "non_verifiee",
+   "commentaire": "PDF sans texte pour l'outil ; captures d'Ether non relues par Claude ce cycle. Carte rétrospective, contexte seulement, aucune donnée tirée."
+  }
+ ]
+}

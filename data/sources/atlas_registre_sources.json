@@ -1,7 +1,7 @@
 {
  "metadata": {
   "nom": "registre_sources_atlas",
-  "version": "1.43",
+  "version": "1.44",
   "date_creation": "2026-09-26",
   "principe": "Une source = un source_id stable. Les fiches événements/entités peuvent référencer ce source_id et préciser l'usage/locator.",
   "statut": "registre_initial_a_completer"
@@ -52191,6 +52191,628 @@
    "auteur": "National Archives of Malta, Gozo Section",
    "archives_locales": [
     "01_lots/2.GB/preuves/malte_note_consultation_ether.md"
+   ]
+  },
+  {
+   "source_id": "src-cso-census1936-volume1-counties",
+   "niveau": "A",
+   "type_source": "document_officiel",
+   "titre": "Census of Population 1936, volume I — Table 6 et notes explicatives",
+   "institution": "Central Statistics Office, archives du recensement",
+   "url": "https://www.cso.ie/en/media/csoie/census/census1936results/volume1/C_1936_Vol_1_T6.pdf",
+   "date_consultation": "2026-10-18",
+   "periode_couverte": [],
+   "zones": [
+    "IE"
+   ],
+   "usages_atlas": [
+    "subdivisions_snapshot0"
+   ],
+   "cibles": [
+    "subdivision-ie-comte-carlow",
+    "subdivision-ie-comte-cavan",
+    "subdivision-ie-comte-clare",
+    "subdivision-ie-comte-cork",
+    "subdivision-ie-comte-donegal",
+    "subdivision-ie-comte-dublin",
+    "subdivision-ie-comte-galway",
+    "subdivision-ie-comte-kerry",
+    "subdivision-ie-comte-kildare",
+    "subdivision-ie-comte-kilkenny",
+    "subdivision-ie-comte-laois",
+    "subdivision-ie-comte-leitrim",
+    "subdivision-ie-comte-limerick",
+    "subdivision-ie-comte-longford",
+    "subdivision-ie-comte-louth",
+    "subdivision-ie-comte-mayo",
+    "subdivision-ie-comte-meath",
+    "subdivision-ie-comte-monaghan",
+    "subdivision-ie-comte-offaly",
+    "subdivision-ie-comte-roscommon",
+    "subdivision-ie-comte-sligo",
+    "subdivision-ie-comte-tipperary-du-nord",
+    "subdivision-ie-comte-tipperary-du-sud",
+    "subdivision-ie-comte-waterford",
+    "subdivision-ie-comte-westmeath",
+    "subdivision-ie-comte-wexford",
+    "subdivision-ie-comte-wicklow",
+    "subdivision-ie-county-borough-cork",
+    "subdivision-ie-county-borough-dublin",
+    "subdivision-ie-county-borough-limerick",
+    "subdivision-ie-county-borough-waterford"
+   ],
+   "locator": "Table 6, p. 9–13 ; notes p. v–vi",
+   "resume_passage": "PDF scanné sans texte pour l'outil. Captures d'Ether lues par Claude : Table 6, p.13 « BOROUGH ELECTORAL AREAS : Cork County Borough … Dublin County Borough … Limerick County Borough … Waterford County Borough » ; liste des comtés (transcription d'Ether p.9–12, dont Laoighis et Tipperary North/South Riding). Recensement du 26/04/1936.",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "lu_parties_utilisees",
+    "date": "2026-10-18",
+    "mode": "Captures PDF examinées et textes officiels localisés. Index de lecture fourni ; pas de lecture intégrale revendiquée."
+   },
+   "notes": "Proposée par Ether (lot 2.IE, cycle 1). Ce que la source prouve selon Ether : liste nominative antérieure et distinction entre unités administratives et statistiques. Limite annoncée par Ether : Recensement du 26/04/1936 ; publication postérieure, qui mentionne la Constitution de 1937. Les annotations manuscrites de l’exemplaire ne sont pas une preuve datée de modifications. Notes : https://www.cso.ie/en/media/csoie/census/census1936results/volume1/C_1936_Vol_1_Explan.pdf . Relecture Claude 2026-10-18 : PDF scanné sans texte pour l'outil. Captures d'Ether lues par Claude : Table 6, p.13 « BOROUGH ELECTORAL AREAS : Cork County Borough … Dublin County Borough … Limerick County Borough … Waterford County Borough » ; liste des comtés (transcription d'Ether p.9–12, dont Laoighis et Tipperary North/South Riding). Recensement du 26/04/1936.",
+   "auteur": "Central Statistics Office, archives du recensement",
+   "archives_locales": [
+    "01_lots/2.IE/preuves/cso1936_t6.pdf",
+    "01_lots/2.IE/preuves/cso1936_t6_p1.png",
+    "01_lots/2.IE/preuves/cso1936_t6_p2.png",
+    "01_lots/2.IE/preuves/cso1936_t6_p3.png",
+    "01_lots/2.IE/preuves/cso1936_t6_p4.png",
+    "01_lots/2.IE/preuves/cso1936_t6_p5.png",
+    "01_lots/2.IE/preuves/cso1936_notes.pdf",
+    "01_lots/2.IE/preuves/cso1936_notes_p1.png",
+    "01_lots/2.IE/preuves/cso1936_notes_p2.png"
+   ]
+  },
+  {
+   "source_id": "src-cso-census1946-volume1-counties",
+   "niveau": "A",
+   "type_source": "document_officiel",
+   "titre": "Census of Population 1946, volume I — Tables 6–7 et notes explicatives",
+   "institution": "Central Statistics Office",
+   "url": "https://www.cso.ie/en/media/csoie/census/census1946results/volume1/C_1946_V1_T6.pdf",
+   "date_consultation": "2026-10-18",
+   "periode_couverte": [],
+   "zones": [
+    "IE"
+   ],
+   "usages_atlas": [
+    "subdivisions_snapshot0"
+   ],
+   "cibles": [
+    "subdivision-ie-comte-carlow",
+    "subdivision-ie-comte-cavan",
+    "subdivision-ie-comte-clare",
+    "subdivision-ie-comte-cork",
+    "subdivision-ie-comte-donegal",
+    "subdivision-ie-comte-dublin",
+    "subdivision-ie-comte-galway",
+    "subdivision-ie-comte-kerry",
+    "subdivision-ie-comte-kildare",
+    "subdivision-ie-comte-kilkenny",
+    "subdivision-ie-comte-laois",
+    "subdivision-ie-comte-leitrim",
+    "subdivision-ie-comte-limerick",
+    "subdivision-ie-comte-longford",
+    "subdivision-ie-comte-louth",
+    "subdivision-ie-comte-mayo",
+    "subdivision-ie-comte-meath",
+    "subdivision-ie-comte-monaghan",
+    "subdivision-ie-comte-offaly",
+    "subdivision-ie-comte-roscommon",
+    "subdivision-ie-comte-sligo",
+    "subdivision-ie-comte-tipperary-du-nord",
+    "subdivision-ie-comte-tipperary-du-sud",
+    "subdivision-ie-comte-waterford",
+    "subdivision-ie-comte-westmeath",
+    "subdivision-ie-comte-wexford",
+    "subdivision-ie-comte-wicklow",
+    "subdivision-ie-county-borough-cork",
+    "subdivision-ie-county-borough-dublin",
+    "subdivision-ie-county-borough-limerick",
+    "subdivision-ie-county-borough-waterford"
+   ],
+   "locator": "Table 6, p. 9–12 ; Table 7, p. 13 ; notes p. v–vii",
+   "resume_passage": "PDF scanné sans texte pour l'outil. Capture d'Ether p.11 lue par Claude : « Tipperary, North Riding », « Tipperary, South Riding », Meath, Monaghan, Offaly… County ; recensement postérieur (mai 1946), recoupement seulement.",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "lu_parties_utilisees",
+    "date": "2026-10-18",
+    "mode": "Captures PDF examinées et textes officiels localisés. Index de lecture fourni ; pas de lecture intégrale revendiquée."
+   },
+   "notes": "Proposée par Ether (lot 2.IE, cycle 1). Ce que la source prouve selon Ether : recoupement postérieur des noms et avertissement sur les comparaisons de limites. Limite annoncée par Ether : Recensement du 12/13 mai 1946, postérieur au Snapshot. Les comparaisons 1936 sont souvent recalculées sur les limites de 1946 ; wards de Dublin de juillet 1946 également utilisés. Notes : https://www.cso.ie/en/media/csoie/census/census1946results/volume1/C_3_1946_V1_Explan.pdf ; T7 : https://www.cso.ie/en/media/csoie/census/census1946results/volume1/C_1946_V1_T7.pdf . Relecture Claude 2026-10-18 : PDF scanné sans texte pour l'outil. Capture d'Ether p.11 lue par Claude : « Tipperary, North Riding », « Tipperary, South Riding », Meath, Monaghan, Offaly… County ; recensement postérieur (mai 1946), recoupement seulement.",
+   "auteur": "Central Statistics Office",
+   "archives_locales": [
+    "01_lots/2.IE/preuves/cso1946_t6.pdf",
+    "01_lots/2.IE/preuves/cso1946_t6_p1.png",
+    "01_lots/2.IE/preuves/cso1946_t6_p2.png",
+    "01_lots/2.IE/preuves/cso1946_t6_p3.png",
+    "01_lots/2.IE/preuves/cso1946_t6_p4.png",
+    "01_lots/2.IE/preuves/cso1946_notes.pdf",
+    "01_lots/2.IE/preuves/cso1946_notes_p1.png",
+    "01_lots/2.IE/preuves/cso1946_notes_p2.png",
+    "01_lots/2.IE/preuves/cso1946_notes_p3.png",
+    "01_lots/2.IE/preuves/cso1946_t7.pdf",
+    "01_lots/2.IE/preuves/cso1946_t7_p1.png"
+   ]
+  },
+  {
+   "source_id": "src-ie-county-management-act1940",
+   "niveau": "A",
+   "type_source": "document_officiel",
+   "titre": "County Management Act 1940, no 12",
+   "institution": "Oireachtas ; Irish Statute Book",
+   "url": "https://www.irishstatutebook.ie/eli/1940/act/12/enacted/en/print.html",
+   "date_consultation": "2026-10-18",
+   "periode_couverte": [],
+   "zones": [
+    "IE"
+   ],
+   "usages_atlas": [
+    "subdivisions_snapshot0"
+   ],
+   "cibles": [
+    "subdivision-ie-comte-carlow",
+    "subdivision-ie-comte-cavan",
+    "subdivision-ie-comte-clare",
+    "subdivision-ie-comte-cork",
+    "subdivision-ie-comte-donegal",
+    "subdivision-ie-comte-dublin",
+    "subdivision-ie-comte-galway",
+    "subdivision-ie-comte-kerry",
+    "subdivision-ie-comte-kildare",
+    "subdivision-ie-comte-kilkenny",
+    "subdivision-ie-comte-laois",
+    "subdivision-ie-comte-leitrim",
+    "subdivision-ie-comte-limerick",
+    "subdivision-ie-comte-longford",
+    "subdivision-ie-comte-louth",
+    "subdivision-ie-comte-mayo",
+    "subdivision-ie-comte-meath",
+    "subdivision-ie-comte-monaghan",
+    "subdivision-ie-comte-offaly",
+    "subdivision-ie-comte-roscommon",
+    "subdivision-ie-comte-sligo",
+    "subdivision-ie-comte-tipperary-du-nord",
+    "subdivision-ie-comte-tipperary-du-sud",
+    "subdivision-ie-comte-waterford",
+    "subdivision-ie-comte-westmeath",
+    "subdivision-ie-comte-wexford",
+    "subdivision-ie-comte-wicklow",
+    "subdivision-ie-county-borough-dublin"
+   ],
+   "locator": "art. 2–4 et First Schedule",
+   "resume_passage": "Site irishstatutebook en erreur pour l'outil ; copie texte d'Ether (preuves/) lue par Claude, pas une lecture du site en ligne : « FIRST SCHEDULE » ; « one and the same person shall be the county manager for each of the counties included in such group » (comtés distincts).",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "lu_parties_utilisees",
+    "date": "2026-10-18",
+    "mode": "Captures PDF examinées et textes officiels localisés. Index de lecture fourni ; pas de lecture intégrale revendiquée."
+   },
+   "notes": "Proposée par Ether (lot 2.IE, cycle 1). Ce que la source prouve selon Ether : comtés distincts et direction commune de certains groupes. Limite annoncée par Ether : Texte du 13/06/1940, entrée en vigueur seulement en août 1942. Groupement de managers, pas fusion des comtés ; exception de 1942 distinctement documentée. Relecture Claude 2026-10-18 : Site irishstatutebook en erreur pour l'outil ; copie texte d'Ether (preuves/) lue par Claude, pas une lecture du site en ligne : « FIRST SCHEDULE » ; « one and the same person shall be the county manager for each of the counties included in such group » (comtés distincts).",
+   "auteur": "Oireachtas ; Irish Statute Book",
+   "archives_locales": [
+    "01_lots/2.IE/preuves/management1940.html",
+    "01_lots/2.IE/preuves/management1940.txt"
+   ]
+  },
+  {
+   "source_id": "src-ie-county-management-amendment1942",
+   "niveau": "A",
+   "type_source": "document_officiel",
+   "titre": "County Management (Amendment) Act 1942, no 13",
+   "institution": "Oireachtas ; Irish Statute Book",
+   "url": "https://www.irishstatutebook.ie/eli/1942/act/13/enacted/en/print.html",
+   "date_consultation": "2026-10-18",
+   "periode_couverte": [],
+   "zones": [
+    "IE"
+   ],
+   "usages_atlas": [
+    "subdivisions_snapshot0"
+   ],
+   "cibles": [
+    "subdivision-ie-comte-carlow",
+    "subdivision-ie-comte-kildare",
+    "subdivision-ie-comte-kilkenny",
+    "subdivision-ie-comte-laois",
+    "subdivision-ie-comte-leitrim",
+    "subdivision-ie-comte-longford",
+    "subdivision-ie-comte-offaly",
+    "subdivision-ie-comte-sligo",
+    "subdivision-ie-comte-tipperary-du-nord",
+    "subdivision-ie-comte-tipperary-du-sud",
+    "subdivision-ie-comte-waterford",
+    "subdivision-ie-comte-westmeath"
+   ],
+   "locator": "art. 1–5, surtout 5(1)(d)",
+   "resume_passage": "Site irishstatutebook en erreur pour l'outil ; copie texte d'Ether (preuves/) lue par Claude, pas une lecture du site en ligne : définition de « suspended » (membres d'un conseil remplacés par un commissaire) ; art. 5(1)(d) non retrouvé mot pour mot.",
+   "archive_locale": null,
+   "verification_claude": "limite",
+   "verification_ether": {
+    "statut": "lu_parties_utilisees",
+    "date": "2026-10-18",
+    "mode": "Captures PDF examinées et textes officiels localisés. Index de lecture fourni ; pas de lecture intégrale revendiquée."
+   },
+   "notes": "Proposée par Ether (lot 2.IE, cycle 1). Ce que la source prouve selon Ether : limites de la généralisation de la direction commune. Limite annoncée par Ether : 25/06/1942 : nominations, organismes conjoints et conseils suspendus. Aucun inventaire nominatif de conseils suspendus au Snapshot déduit de cette habilitation. Relecture Claude 2026-10-18 : Site irishstatutebook en erreur pour l'outil ; copie texte d'Ether (preuves/) lue par Claude, pas une lecture du site en ligne : définition de « suspended » (membres d'un conseil remplacés par un commissaire) ; art. 5(1)(d) non retrouvé mot pour mot.",
+   "auteur": "Oireachtas ; Irish Statute Book",
+   "archives_locales": [
+    "01_lots/2.IE/preuves/management1942.html",
+    "01_lots/2.IE/preuves/management1942.txt"
+   ]
+  },
+  {
+   "source_id": "src-ie-county-management-commencement1942",
+   "niveau": "A",
+   "type_source": "document_officiel",
+   "titre": "County Management Act 1940 (Date of Commencement) Order 1942, no 365",
+   "institution": "Minister for Local Government and Public Health ; Irish Statute Book",
+   "url": "https://www.irishstatutebook.ie/eli/1942/sro/365/made/en/print",
+   "date_consultation": "2026-10-18",
+   "periode_couverte": [],
+   "zones": [
+    "IE"
+   ],
+   "usages_atlas": [
+    "subdivisions_snapshot0"
+   ],
+   "cibles": [
+    "subdivision-ie-comte-carlow",
+    "subdivision-ie-comte-cavan",
+    "subdivision-ie-comte-clare",
+    "subdivision-ie-comte-cork",
+    "subdivision-ie-comte-donegal",
+    "subdivision-ie-comte-dublin",
+    "subdivision-ie-comte-galway",
+    "subdivision-ie-comte-kerry",
+    "subdivision-ie-comte-kildare",
+    "subdivision-ie-comte-kilkenny",
+    "subdivision-ie-comte-laois",
+    "subdivision-ie-comte-leitrim",
+    "subdivision-ie-comte-limerick",
+    "subdivision-ie-comte-longford",
+    "subdivision-ie-comte-louth",
+    "subdivision-ie-comte-mayo",
+    "subdivision-ie-comte-meath",
+    "subdivision-ie-comte-monaghan",
+    "subdivision-ie-comte-offaly",
+    "subdivision-ie-comte-roscommon",
+    "subdivision-ie-comte-sligo",
+    "subdivision-ie-comte-tipperary-du-nord",
+    "subdivision-ie-comte-tipperary-du-sud",
+    "subdivision-ie-comte-waterford",
+    "subdivision-ie-comte-westmeath",
+    "subdivision-ie-comte-wexford",
+    "subdivision-ie-comte-wicklow"
+   ],
+   "locator": "art. 2, signature du 20/08/1942",
+   "resume_passage": "« The County Management Act, 1940, shall come into operation on the 26th day of August, 1942. »",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "lu_parties_utilisees",
+    "date": "2026-10-18",
+    "mode": "Captures PDF examinées et textes officiels localisés. Index de lecture fourni ; pas de lecture intégrale revendiquée."
+   },
+   "notes": "Proposée par Ether (lot 2.IE, cycle 1). Ce que la source prouve selon Ether : entrée en vigueur le 26/08/1942. Limite annoncée par Ether : Date d’application, distincte de la date de la loi. Relecture Claude 2026-10-18 : « The County Management Act, 1940, shall come into operation on the 26th day of August, 1942. »",
+   "auteur": "Minister for Local Government and Public Health ; Irish Statute Book",
+   "archives_locales": [
+    "01_lots/2.IE/preuves/commencement1942.html",
+    "01_lots/2.IE/preuves/commencement1942.txt"
+   ]
+  },
+  {
+   "source_id": "src-ie-local-government-act1925",
+   "niveau": "A",
+   "type_source": "document_officiel",
+   "titre": "Local Government Act 1925, no 5",
+   "institution": "Oireachtas ; Irish Statute Book",
+   "url": "https://www.irishstatutebook.ie/eli/1925/act/5/enacted/en/print.html",
+   "date_consultation": "2026-10-18",
+   "periode_couverte": [],
+   "zones": [
+    "IE"
+   ],
+   "usages_atlas": [
+    "subdivisions_snapshot0"
+   ],
+   "cibles": [
+    "territoire-ie-irlande"
+   ],
+   "locator": "art. 1–3, surtout 2 et 3(1)",
+   "resume_passage": "Art. 3(1) : « On and after the appointed day all rural district councils shall cease to exist » ; appointed day = 1st October 1925 ; Part I sans effet pour le comté et la ville de Dublin (lecture tronquée par l'outil).",
+   "archive_locale": null,
+   "verification_claude": "limite",
+   "verification_ether": {
+    "statut": "lu_parties_utilisees",
+    "date": "2026-10-18",
+    "mode": "Captures PDF examinées et textes officiels localisés. Index de lecture fourni ; pas de lecture intégrale revendiquée."
+   },
+   "notes": "Proposée par Ether (lot 2.IE, cycle 1). Ce que la source prouve selon Ether : suppression des rural district councils hors Dublin. Limite annoncée par Ether : Part I exclut Dublin. Le texte fixe le 01/10/1925 ; les notes CSO 1946 donnent 1926 pour l’abolition des aires statistiques, tandis que les notes 1936 donnent 1925. Distinction et divergence conservées ; ne pas rétablir un maillage rural en 1945. Relecture Claude 2026-10-18 : Art. 3(1) : « On and after the appointed day all rural district councils shall cease to exist » ; appointed day = 1st October 1925 ; Part I sans effet pour le comté et la ville de Dublin (lecture tronquée par l'outil).",
+   "auteur": "Oireachtas ; Irish Statute Book",
+   "archives_locales": [
+    "01_lots/2.IE/preuves/local1925.html",
+    "01_lots/2.IE/preuves/local1925.txt"
+   ]
+  },
+  {
+   "source_id": "src-ie-local-government-dublin1930",
+   "niveau": "A",
+   "type_source": "document_officiel",
+   "titre": "Local Government (Dublin) Act 1930, no 27",
+   "institution": "Oireachtas ; Irish Statute Book",
+   "url": "https://www.irishstatutebook.ie/eli/1930/act/27/enacted/en/print.html",
+   "date_consultation": "2026-10-18",
+   "periode_couverte": [],
+   "zones": [
+    "IE"
+   ],
+   "usages_atlas": [
+    "subdivisions_snapshot0"
+   ],
+   "cibles": [
+    "subdivision-ie-comte-dublin",
+    "subdivision-ie-county-borough-dublin"
+   ],
+   "locator": "art. 1–3, notamment 3(3) ; art. 82",
+   "resume_passage": "Site irishstatutebook en erreur pour l'outil ; copie texte d'Ether (preuves/) lue par Claude, pas une lecture du site en ligne : « Formation of the Borough of Dun Laoghaire », « Abolition of rural district councils in the County » ; le maintien de Dun Laoghaire dans le comté n'est pas relu mot pour mot.",
+   "archive_locale": null,
+   "verification_claude": "limite",
+   "verification_ether": {
+    "statut": "lu_parties_utilisees",
+    "date": "2026-10-18",
+    "mode": "Captures PDF examinées et textes officiels localisés. Index de lecture fourni ; pas de lecture intégrale revendiquée."
+   },
+   "notes": "Proposée par Ether (lot 2.IE, cycle 1). Ce que la source prouve selon Ether : Dun Laoghaire appartient au comté ; suppression des conseils ruraux. Limite annoncée par Ether : Les dispositions ne créent pas un cinquième county borough. La suppression des conseils ruraux de Dublin est liée au jour de l’élection ; les notes CSO la situent en 1930. Relecture Claude 2026-10-18 : Site irishstatutebook en erreur pour l'outil ; copie texte d'Ether (preuves/) lue par Claude, pas une lecture du site en ligne : « Formation of the Borough of Dun Laoghaire », « Abolition of rural district councils in the County » ; le maintien de Dun Laoghaire dans le comté n'est pas relu mot pour mot.",
+   "auteur": "Oireachtas ; Irish Statute Book",
+   "archives_locales": [
+    "01_lots/2.IE/preuves/dublin1930.html",
+    "01_lots/2.IE/preuves/dublin1930.txt"
+   ]
+  },
+  {
+   "source_id": "src-ie-local-government-dublin1940",
+   "niveau": "A",
+   "type_source": "document_officiel",
+   "titre": "Local Government (Dublin) (Amendment) Act 1940, no 21",
+   "institution": "Oireachtas ; Irish Statute Book",
+   "url": "https://www.irishstatutebook.ie/eli/1940/act/21/enacted/en/print.html",
+   "date_consultation": "2026-10-18",
+   "periode_couverte": [],
+   "zones": [
+    "IE"
+   ],
+   "usages_atlas": [
+    "subdivisions_snapshot0"
+   ],
+   "cibles": [
+    "subdivision-ie-comte-dublin",
+    "subdivision-ie-county-borough-dublin"
+   ],
+   "locator": "art. 3–4",
+   "resume_passage": "Site irishstatutebook en erreur pour l'outil ; copie texte d'Ether (preuves/) lue par Claude, pas une lecture du site en ligne : « Inclusion of Howth Urban District in the County Borough of Dublin ».",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "lu_parties_utilisees",
+    "date": "2026-10-18",
+    "mode": "Captures PDF examinées et textes officiels localisés. Index de lecture fourni ; pas de lecture intégrale revendiquée."
+   },
+   "notes": "Proposée par Ether (lot 2.IE, cycle 1). Ce que la source prouve selon Ether : inclusion de Howth dans la ville. Limite annoncée par Ether : Loi du 10/07/1940 ; la date d’effet est fixée par l’Order 372/1942, non par la seule sanction. Relecture Claude 2026-10-18 : Site irishstatutebook en erreur pour l'outil ; copie texte d'Ether (preuves/) lue par Claude, pas une lecture du site en ligne : « Inclusion of Howth Urban District in the County Borough of Dublin ».",
+   "auteur": "Oireachtas ; Irish Statute Book",
+   "archives_locales": [
+    "01_lots/2.IE/preuves/dublin1940.html",
+    "01_lots/2.IE/preuves/dublin1940.txt"
+   ]
+  },
+  {
+   "source_id": "src-ie-dublin-extension-confirmation1941",
+   "niveau": "A",
+   "type_source": "document_officiel",
+   "titre": "Local Government and Public Health Provisional Order Confirmation Act 1941, no 1 (Private)",
+   "institution": "Oireachtas ; Irish Statute Book",
+   "url": "https://www.irishstatutebook.ie/eli/1941/prv/1/enacted/en/print.html",
+   "date_consultation": "2026-10-18",
+   "periode_couverte": [],
+   "zones": [
+    "IE"
+   ],
+   "usages_atlas": [
+    "subdivisions_snapshot0"
+   ],
+   "cibles": [
+    "subdivision-ie-comte-dublin",
+    "subdivision-ie-county-borough-dublin"
+   ],
+   "locator": "art. 1 ; Schedule, art. 2 et 4 ; description des terres de Crumlin",
+   "resume_passage": "Site irishstatutebook en erreur pour l'outil ; copie texte d'Ether (preuves/) lue par Claude, pas une lecture du site en ligne : terres de Crumlin « detached from the County » à la « commencement of this Order » ; date du 17/07/1941 déduite par Ether (sanction + art. 2), non relue.",
+   "archive_locale": null,
+   "verification_claude": "limite",
+   "verification_ether": {
+    "statut": "lu_parties_utilisees",
+    "date": "2026-10-18",
+    "mode": "Captures PDF examinées et textes officiels localisés. Index de lecture fourni ; pas de lecture intégrale revendiquée."
+   },
+   "notes": "Proposée par Ether (lot 2.IE, cycle 1). Ce que la source prouve selon Ether : extension de Crumlin effective le 17/07/1941. Limite annoncée par Ether : Date déduite de la sanction et de l’art. 2 de l’Order confirmé. Description juridique conservée ; aucune géométrie dessinée sans fond approprié. Relecture Claude 2026-10-18 : Site irishstatutebook en erreur pour l'outil ; copie texte d'Ether (preuves/) lue par Claude, pas une lecture du site en ligne : terres de Crumlin « detached from the County » à la « commencement of this Order » ; date du 17/07/1941 déduite par Ether (sanction + art. 2), non relue.",
+   "auteur": "Oireachtas ; Irish Statute Book",
+   "archives_locales": [
+    "01_lots/2.IE/preuves/dublin1941_crumlin.html",
+    "01_lots/2.IE/preuves/dublin1941_crumlin.txt"
+   ]
+  },
+  {
+   "source_id": "src-ie-dublin-appointed-day1942",
+   "niveau": "A",
+   "type_source": "document_officiel",
+   "titre": "Local Government (Dublin) (Amendment) Act 1940 (Appointed Day) Order 1942, no 372",
+   "institution": "Minister for Local Government and Public Health ; Irish Statute Book",
+   "url": "https://www.irishstatutebook.ie/eli/1942/sro/372/made/en/print",
+   "date_consultation": "2026-10-18",
+   "periode_couverte": [],
+   "zones": [
+    "IE"
+   ],
+   "usages_atlas": [
+    "subdivisions_snapshot0"
+   ],
+   "cibles": [
+    "subdivision-ie-comte-dublin",
+    "subdivision-ie-county-borough-dublin"
+   ],
+   "locator": "art. 2",
+   "resume_passage": "S.R.O. 372/1942 : appointed day de la loi de 1940 = « the 24th day of August, 1942 » ; le lien avec Howth vient de la loi de 1940 (relue sur la copie d'Ether).",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "lu_parties_utilisees",
+    "date": "2026-10-18",
+    "mode": "Captures PDF examinées et textes officiels localisés. Index de lecture fourni ; pas de lecture intégrale revendiquée."
+   },
+   "notes": "Proposée par Ether (lot 2.IE, cycle 1). Ce que la source prouve selon Ether : Howth ajouté le 24/08/1942. Limite annoncée par Ether : Signé le 20/08/1942, date d’effet 24/08/1942. Relecture Claude 2026-10-18 : S.R.O. 372/1942 : appointed day de la loi de 1940 = « the 24th day of August, 1942 » ; le lien avec Howth vient de la loi de 1940 (relue sur la copie d'Ether).",
+   "auteur": "Minister for Local Government and Public Health ; Irish Statute Book",
+   "archives_locales": [
+    "01_lots/2.IE/preuves/dublin1942_order.html",
+    "01_lots/2.IE/preuves/dublin1942_order.txt"
+   ]
+  },
+  {
+   "source_id": "src-ie-waterford-extension-confirmation1944",
+   "niveau": "A",
+   "type_source": "document_officiel",
+   "titre": "Local Government and Public Health Provisional Orders Confirmation Act 1944, no 1 (Private)",
+   "institution": "Oireachtas ; Irish Statute Book",
+   "url": "https://www.irishstatutebook.ie/eli/1944/prv/1/enacted/en/print.html",
+   "date_consultation": "2026-10-18",
+   "periode_couverte": [],
+   "zones": [
+    "IE"
+   ],
+   "usages_atlas": [
+    "subdivisions_snapshot0"
+   ],
+   "cibles": [
+    "subdivision-ie-comte-waterford",
+    "subdivision-ie-county-borough-waterford"
+   ],
+   "locator": "art. 2 ; Second Schedule, art. 2–6 et description annexée",
+   "resume_passage": "Site irishstatutebook en erreur pour l'outil ; copie texte d'Ether (preuves/) lue par Claude, pas une lecture du site en ligne : « Order shall come into force upon the day … on which the Act confirming this Order is passed or on the 1st day of April, 1944, whichever is the later » : loi de confirmation de 1944, donc en vigueur avant le 01/01/1945 (date de sanction du 03/10/1944 non relue).",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "lu_parties_utilisees",
+    "date": "2026-10-18",
+    "mode": "Captures PDF examinées et textes officiels localisés. Index de lecture fourni ; pas de lecture intégrale revendiquée."
+   },
+   "notes": "Proposée par Ether (lot 2.IE, cycle 1). Ce que la source prouve selon Ether : extension de Waterford en vigueur au 01/01/1945. Limite annoncée par Ether : Sanction le 03/10/1944. La clause de commencement retient le plus tardif de cette date et du 01/04/1944. Les cartes déposées ont une valeur probante particulière selon l’art. 6 ; non obtenues dans ce cycle. Le port sanitaire de Cork du First Schedule ne devient pas une subdivision généraliste. Relecture Claude 2026-10-18 : Site irishstatutebook en erreur pour l'outil ; copie texte d'Ether (preuves/) lue par Claude, pas une lecture du site en ligne : « Order shall come into force upon the day … on which the Act confirming this Order is passed or on the 1st day of April, 1944, whichever is the later » : loi de confirmation de 1944, donc en vigueur avant le 01/01/1945 (date de sanction du 03/10/1944 non relue).",
+   "auteur": "Oireachtas ; Irish Statute Book",
+   "archives_locales": [
+    "01_lots/2.IE/preuves/waterford1944.html",
+    "01_lots/2.IE/preuves/waterford1944.txt"
+   ]
+  },
+  {
+   "source_id": "src-tailte-counties2024-metadata",
+   "niveau": "A",
+   "type_source": "document_officiel",
+   "titre": "Counties — National Statutory Boundaries — Ungeneralised — 2024, métadonnées producteur",
+   "institution": "Tailte Éireann",
+   "url": "https://www.arcgis.com/sharing/rest/content/items/dc24df2a5ce84ee9a38d9afe8431ee9b?f=pjson",
+   "date_consultation": "2026-10-18",
+   "periode_couverte": [],
+   "zones": [
+    "IE"
+   ],
+   "usages_atlas": [
+    "subdivisions_snapshot0"
+   ],
+   "cibles": [
+    "territoire-ie-irlande"
+   ],
+   "locator": "title, description, licenseInfo, accessInformation",
+   "resume_passage": "« licenced under a Creative Commons Attribution 4.0 International » ; « © Tailte Éireann » ; « There are 26 counties » ; jeu 2024, non utilisé.",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "lu_parties_utilisees",
+    "date": "2026-10-18",
+    "mode": "Captures PDF examinées et textes officiels localisés. Index de lecture fourni ; pas de lecture intégrale revendiquée."
+   },
+   "notes": "Proposée par Ether (lot 2.IE, cycle 1). Ce que la source prouve selon Ether : évaluation historique et juridique d’un candidat de contours. Limite annoncée par Ether : Licence explicite CC BY 4.0, recevable ; attribution © Tailte Éireann. Cette preuve corrige le catalogue data.gov.ie qui affiche No licence specified. Le jeu décrit 26 comtés statutaires de 2024, pas les 31 unités administratives de 1945 ; aucun contour téléchargé ou livré. Le millésime ancien du levé ne date pas l’état numérique de 1945. Relecture Claude 2026-10-18 : « licenced under a Creative Commons Attribution 4.0 International » ; « © Tailte Éireann » ; « There are 26 counties » ; jeu 2024, non utilisé.",
+   "auteur": "Tailte Éireann",
+   "archives_locales": [
+    "01_lots/2.IE/preuves/tailte_counties2024_metadata.json",
+    "01_lots/2.IE/preuves/tailte_counties2024.html",
+    "01_lots/2.IE/preuves/tailte_counties2024.txt"
+   ]
+  },
+  {
+   "source_id": "src-tailte-boundary-data-description",
+   "niveau": "A",
+   "type_source": "document_officiel",
+   "titre": "Boundary Data — présentation des produits",
+   "institution": "Tailte Éireann",
+   "url": "https://tailte.ie/map-shop/professional-map-products/boundary-data/",
+   "date_consultation": "2026-10-18",
+   "periode_couverte": [],
+   "zones": [
+    "IE"
+   ],
+   "usages_atlas": [
+    "subdivisions_snapshot0"
+   ],
+   "cibles": [
+    "territoire-ie-irlande"
+   ],
+   "locator": "Statute / Administrative / Statistical / Cultural Historical",
+   "resume_passage": "Rubriques Statute Boundaries / Administrative Boundaries / Statistical / Cultural Historical (Provinces) ; documentation actuelle.",
+   "archive_locale": null,
+   "verification_claude": "limite",
+   "verification_ether": {
+    "statut": "lu_parties_utilisees",
+    "date": "2026-10-18",
+    "mode": "Captures PDF examinées et textes officiels localisés. Index de lecture fourni ; pas de lecture intégrale revendiquée."
+   },
+   "notes": "Proposée par Ether (lot 2.IE, cycle 1). Ce que la source prouve selon Ether : distinction des familles de limites et des provinces culturelles. Limite annoncée par Ether : Documentation actuelle utilisée pour évaluer les candidats, jamais pour reconstruire seule l’organisation de 1945. Les provinces ne sont pas ajoutées comme parents administratifs. Relecture Claude 2026-10-18 : Rubriques Statute Boundaries / Administrative Boundaries / Statistical / Cultural Historical (Provinces) ; documentation actuelle.",
+   "auteur": "Tailte Éireann",
+   "archives_locales": [
+    "01_lots/2.IE/preuves/tailte_boundaries.html",
+    "01_lots/2.IE/preuves/tailte_boundaries.txt"
+   ]
+  },
+  {
+   "source_id": "src-kilkenny-waterford-extensions-map",
+   "niveau": "A",
+   "type_source": "document_officiel",
+   "titre": "Waterford City — History of Boundary Extensions, figure 4.2",
+   "institution": "Kilkenny County Council ; fond Ordnance Survey of Ireland, licence cartographique Kilkenny CCMA 03 07",
+   "url": "https://kilkennycoco.ie/eng/services/planning/development-plans/planning_publications/appendices-waterford-city-extension.pdf",
+   "date_consultation": "2026-10-18",
+   "periode_couverte": [],
+   "zones": [
+    "IE"
+   ],
+   "usages_atlas": [
+    "subdivisions_snapshot0"
+   ],
+   "cibles": [
+    "subdivision-ie-county-borough-waterford"
+   ],
+   "locator": "p. 87, figure 4.2 (PDF p. 5)",
+   "resume_passage": "",
+   "archive_locale": null,
+   "verification_claude": "non_verifiee",
+   "verification_ether": {
+    "statut": "lu_parties_utilisees",
+    "date": "2026-10-18",
+    "mode": "Captures PDF examinées et textes officiels localisés. Index de lecture fourni ; pas de lecture intégrale revendiquée."
+   },
+   "notes": "Proposée par Ether (lot 2.IE, cycle 1). Ce que la source prouve selon Ether : localisation indicative rétrospective de l’extension de 1944. Limite annoncée par Ether : Carte d’un dossier ultérieur ; année d’édition non établie dans cet extrait. Licence de reproduction ouverte non prouvée par la mention CCMA ; pas de numérisation ni de contour Atlas tiré de cette figure. Carte légale déposée encore nécessaire. Relecture Claude 2026-10-18 : PDF sans texte pour l'outil ; captures d'Ether non relues par Claude ce cycle. Carte rétrospective, contexte seulement, aucune donnée tirée.",
+   "auteur": "Kilkenny County Council ; fond Ordnance Survey of Ireland, licence cartographique Kilkenny CCMA 03 07",
+   "archives_locales": [
+    "01_lots/2.IE/preuves/waterford_extensions.pdf",
+    "01_lots/2.IE/preuves/waterford_extensions_p5.png"
    ]
   }
  ]
