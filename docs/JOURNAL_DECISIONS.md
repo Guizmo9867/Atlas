@@ -2,6 +2,12 @@
 
 Une ligne par décision, datée. Plus récente en haut. Ce journal remplace les versions éparpillées dans les conversations : si ce n'est pas ici, ce n'est pas décidé.
 
+## 2026-10-18 (soir : 2.IT intégré, boucle automatique)
+
+- **Lot 2.IT intégré** (cycle 1, groupe 2) : 93 provinces de l'Italie au 01/01/1945 (annuaire Istat 1943), noms de la date ; Carnaro reporté faute de préfixe de pays actuel établi (R2IT-08) ; Gorizia/Trieste en `si`, Istria/Zara en `hr`, souveraineté italienne (Q2IT-05 acceptée). *(Ether, intégré par Claude)*
+- **80 tracés provisoires** (reconstruction Istat 1936, CC BY 4.0, crédit ajouté) ; 11 contours écartés par Ether pour raisons historiques. 90 chefs-lieux proposés, aucun validé. Réserves R2IT-01 à 08 pour la revue du groupe 2. *(Claude)*
+- Sources : 10 nouvelles (8 ok, 2 limite), registre v1.42. *(Claude)*
+
 ## 2026-10-18 (fin d'après-midi : 2.PT intégré, boucle automatique)
 
 - **Lot 2.PT intégré** (cycle 1, groupe 2) : 33 subdivisions du Portugal au 01/01/1945 = 11 provinces, 18 districts continentaux et 4 districts autonomes insulaires, toutes à l'échelon 1, en deux organisations parallèles (`systeme_administratif`) : un district peut chevaucher plusieurs provinces, donc pas d'arbre province → district (Q2PT-05, R2PT-02). *(Ether, intégré par Claude)*

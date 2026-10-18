@@ -1,0 +1,50 @@
+{
+  "erreurs": [],
+  "chevauchements_superieurs_a_1m2": [],
+  "enclaves_canoniques_a_rapprocher": [
+    {
+      "entite_id": "territoire-va-vatican",
+      "etats": [
+        {
+          "etat_id": "etat-01",
+          "valid_from": {
+            "date": "1929-02-11",
+            "precision": "exacte"
+          },
+          "valid_to": {
+            "date": "",
+            "precision": "inconnue"
+          },
+          "statut": "etat_souverain",
+          "proprietes": {
+            "souverainete_id": "vatican",
+            "controle_id": "vatican",
+            "alignement_id": "neutral_ww2"
+          },
+          "geometrie_ref": "geom-territoire-va-vatican-1945-01-01",
+          "sources": [
+            {
+              "source_id": "src-vatican-history-1929",
+              "locator": "à préciser",
+              "usage": ""
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "limite": "Carte sans fond moderne ni certification historique ; surfaces techniques calculées enUTM32, non publiées dans les fiches.",
+  "lecture_visuelle_ether": {
+    "date": "2026-10-18T14:41:24.418465+00:00",
+    "fichier": "atlas_2IT_apercu_controles.png",
+    "resultat": "Organisation provinciale et îles visibles ; contours exclus en rouge. Aucun territoire oriental manquant reconstruit."
+  },
+  "controle_vatican": {
+    "comparaison": "Contour canonique du Vatican en lecture seule, aucun réemploi dans le tracé livré",
+    "trou_present_dans_rome": true,
+    "point_interieur_canonique_hors_province_rome": true,
+    "chevauchement_bordure_m2_approximatif": 3964.27,
+    "surface_canonique_comparee_m2": 496357.08,
+    "conclusion": "Enclave présente ; raccord fin imparfait, conservé sous R2IT-03. Aucun redécoupage automatique."
+  }
+}

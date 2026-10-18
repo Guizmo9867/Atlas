@@ -1,0 +1,90 @@
+{
+ "lot": "2.IT",
+ "cycle": 1,
+ "date": "2026-10-18",
+ "essai": false,
+ "subdivisions": 93,
+ "echelon_1": 93,
+ "echelon_2": 0,
+ "traces_integres": 80,
+ "sans_trace": [
+  "subdivision-it-turin",
+  "subdivision-it-cuneo",
+  "subdivision-it-aoste",
+  "subdivision-it-imperia",
+  "subdivision-it-udine",
+  "subdivision-si-gorizia",
+  "subdivision-si-trieste",
+  "subdivision-it-modene",
+  "subdivision-it-pistoia",
+  "subdivision-it-latina",
+  "subdivision-it-naples",
+  "subdivision-hr-istrie",
+  "subdivision-hr-zadar"
+ ],
+ "traces_refuses": [
+  {
+   "geometry_id": "geom-subdivision-it-turin-1945-01-01",
+   "raison": "marqué « ne_pas_integrer » par Ether"
+  },
+  {
+   "geometry_id": "geom-subdivision-it-cuneo-1945-01-01",
+   "raison": "marqué « ne_pas_integrer » par Ether"
+  },
+  {
+   "geometry_id": "geom-subdivision-it-aoste-1945-01-01",
+   "raison": "marqué « ne_pas_integrer » par Ether"
+  },
+  {
+   "geometry_id": "geom-subdivision-it-imperia-1945-01-01",
+   "raison": "marqué « ne_pas_integrer » par Ether"
+  },
+  {
+   "geometry_id": "geom-subdivision-it-udine-1945-01-01",
+   "raison": "marqué « ne_pas_integrer » par Ether"
+  },
+  {
+   "geometry_id": "geom-subdivision-si-trieste-1945-01-01",
+   "raison": "marqué « ne_pas_integrer » par Ether"
+  },
+  {
+   "geometry_id": "geom-subdivision-it-modene-1945-01-01",
+   "raison": "marqué « ne_pas_integrer » par Ether"
+  },
+  {
+   "geometry_id": "geom-subdivision-it-pistoia-1945-01-01",
+   "raison": "marqué « ne_pas_integrer » par Ether"
+  },
+  {
+   "geometry_id": "geom-subdivision-it-latina-1945-01-01",
+   "raison": "marqué « ne_pas_integrer » par Ether"
+  },
+  {
+   "geometry_id": "geom-subdivision-it-naples-1945-01-01",
+   "raison": "marqué « ne_pas_integrer » par Ether"
+  },
+  {
+   "geometry_id": "geom-subdivision-si-gorizia-1945-01-01",
+   "raison": "marqué « ne_pas_integrer » par Ether"
+  }
+ ],
+ "sources_ajoutees": [
+  "src-istat-it-annuaire-1943",
+  "src-istat-it-structure-administrative-2018",
+  "src-istat-it-confins-provinces-1936",
+  "src-istat-it-mouvement-1943-1948",
+  "src-gu-it-apuania-1860-1938",
+  "src-gu-it-abetone-1297-1936",
+  "src-gu-it-littoria-270-1945",
+  "src-siusa-it-ozak",
+  "src-trentino-it-ozav",
+  "src-istat-it-licence-site"
+ ],
+ "sources_completees": [],
+ "statuts_relecture": {
+  "ok": 8,
+  "limite": 2
+ },
+ "registre": "1.41 -> 1.42",
+ "avertissements": []
+}

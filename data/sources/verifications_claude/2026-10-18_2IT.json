@@ -1,0 +1,58 @@
+{
+ "lot": "2.IT",
+ "date": "2026-10-18",
+ "auteur": "Claude",
+ "methode": "Sous-agents (WebFetch seulement, sans contournement) + lecture par Claude des captures et copies déposées par Ether dans preuves/ ; « ok » seulement si la source prouve ce que la fiche lui fait dire à la date.",
+ "resultats": [
+  {
+   "id": "src-istat-it-annuaire-1943",
+   "statut": "ok",
+   "commentaire": "Le sous-agent n'a pas retrouvé le tableau par extraction de texte (pagination). Captures d'Ether p.28–29 (PDF44–45) lues par Claude : tableau « 2. Matrimoni, nascite, morti nel 1942 », colonne « Province e Compartimenti » : … Carnaro, Gorizia, Istria, Trieste, Zara (Venezia G. e Zara), Apuania (Toscana), Frosinone, Littoria, Rieti, Roma, Viterbo (Lazio), Ionio (Puglie), Enna, Caltanissetta… ; total « Regno ». Liste provinciale statistique de 1942 aux noms de la date ; continuité 1942→1945 supposée (R2IT-02)."
+  },
+  {
+   "id": "src-istat-it-structure-administrative-2018",
+   "statut": "ok",
+   "commentaire": "Sous-agent : « sopprime tutti i circondari e i mandamenti » (1927). Capture p.42 lue par Claude : « Dopo il superamento dei circondari e dei mandamenti, l'amministrazione statale … prevede la sua articolazione su due soli livelli territoriali: le province e i comuni; e questo assetto persisterà fino al 1948. » Copie texte d'Ether pp.43–49 : « Nel 1945, il Decreto legislativo luogotenenziale 11 giugno, n. 373, disporrà la ricostituzione della provincia di Caserta » ; tableau : « Gorizia … 2.702 », « Trieste … 1.230 ». Étude rétrospective (2018)."
+  },
+  {
+   "id": "src-istat-it-confins-provinces-1936",
+   "statut": "ok",
+   "commentaire": "Lu par le sous-agent : Limiti_1936.zip listé, « Per gli anni 1931-1981 sono disponibili shape a livello provinciale », base communale du recensement 2011 ; « le geografie pubblicate potrebbero scontare qualche necessaria approssimazione » ; système « WGS84 32N » annoncé (le PRJ de l'archive dit ED50 : R2IT-03). Prouve l'auteur, la méthode et l'approximation, pas les limites au 01/01/1945."
+  },
+  {
+   "id": "src-istat-it-mouvement-1943-1948",
+   "statut": "limite",
+   "commentaire": "Le sous-agent n'a pas atteint les tableaux. Capture p.30 (PDF92) lue par Claude : « COMUNI CAPOLUOGHI DI PROVINCIA », Alessandria … Apuania (d) …, mais regroupements d'après-guerre (« Aosta-Valle d'Aosta », « Friuli-Venezia Giulia », « Emilia-Romagna ») : liste rétrospective publiée en 1952, ne prouve pas le statut de chef-lieu au 01/01/1945 (R2IT-05)."
+  },
+  {
+   "id": "src-gu-it-apuania-1860-1938",
+   "statut": "ok",
+   "commentaire": "Lu par le sous-agent : « I comuni di Massa, Carrara e Montignoso sono fusi in unico comune denominato « Apuania ». / La provincia di Massa e Carrara assume la denominazione « Provincia di Apuania ». / … entrerà in vigore il giorno 18 dicembre 1938-XVII »."
+  },
+  {
+   "id": "src-gu-it-abetone-1297-1936",
+   "statut": "ok",
+   "commentaire": "Lu par le sous-agent : « E' costituito il comune dell'Abetone, con circoscrizione comprendente le zone di territorio attualmente appartenenti ai comuni di Cutigliano (Pistoia) e Fiumalbo (Modena)… Il comune dell'Abetone fa parte della provincia di Pistoia. » Le transfert d'une partie de Fiumalbo (Modena) vers Pistoia découle directement des art. 1–2 (déduction notée)."
+  },
+  {
+   "id": "src-gu-it-littoria-270-1945",
+   "statut": "ok",
+   "commentaire": "Lu par le sous-agent : « Il comune di Littoria, in provincia di Littoria, e' autorizzato a modificare la propria denominazione in «Latina» » ; délibération du 27/01/1945, avis de la députation provinciale du 31/01/1945 ; GU n.68 du 07/06/1945. Le nom « Littoria » vaut au 01/01/1945 ; le décret ne touche que la commune."
+  },
+  {
+   "id": "src-siusa-it-ozak",
+   "statut": "limite",
+   "commentaire": "WebFetch refusé (robots.txt), sans contournement. Copie texte d'Ether lue par Claude : « Dal settembre 1943 al maggio 1945 le province dell'Italia nord-orientale sono occupate dai tedeschi e amministrate direttamente dalla Germania nazista … L'OZAC comprende le province di Udine, Gorizia, Trieste, Pola, Fiume e Lubiana ». Notice de producteur d'archives, contexte seulement (contrôle réel, pas découpage de droit)."
+  },
+  {
+   "id": "src-trentino-it-ozav",
+   "statut": "ok",
+   "commentaire": "Lu par le sous-agent : « Con ordinanza di Hitler del 10 settembre 1943 venivano costituite le due zone d'operazione … Alpenvorland con le province di Bolzano, Trento e Belluno » (commissaire suprême Franz Hofer). Contexte de l'occupation, pas un changement de découpage de droit."
+  },
+  {
+   "id": "src-istat-it-licence-site",
+   "statut": "ok",
+   "commentaire": "Lu par le sous-agent : « Creative Commons – Attribuzione – versione 4.0 », « Salvo diversa indicazione », contenus de tiers exclus. Réserve mineure : un lien de la page pointe vers by/3.0/it ; dans les deux cas CC BY sans NC/SA/ND, compatible."
+  }
+ ]
+}
