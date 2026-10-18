@@ -1,0 +1,58 @@
+{
+ "lot": "2.ES",
+ "date": "2026-10-18",
+ "auteur": "Claude",
+ "methode": "Sous-agents (WebFetch seulement, sans contournement) + lecture par Claude des captures et copies déposées par Ether dans preuves/ ; « ok » seulement si la source prouve ce que la fiche lui fait dire à la date.",
+ "resultats": [
+  {
+   "id": "src-ine-es-anuario-1944-1945-territorio",
+   "statut": "ok",
+   "commentaire": "WebFetch en erreur serveur (2 essais), sans contournement. Captures d'Ether lues par Claude (preuves/ine_provinces_p1.png, ine_capitales_p1.png ; pied « Anuario 1944 - 1945, Fondo documental del Instituto Nacional de Estadística ») : table IX p.19 « Extensión superficial, absoluta y relativa, de las provincias de España », 50 provinces recomptées (Alava … Zaragoza) ; table XI p.20, capitales de province (Vitoria (Alava), Bilbao (Vizcaya), San Sebastián (Guipúzcoa), Pamplona (Navarra), Oviedo, Santander, Logroño…). Effectifs communaux datés « fin del año 1940 » : non repris (R2ES-02). Prouve la nomenclature de l'annuaire 1944-1945, pas chaque limite au jour."
+  },
+  {
+   "id": "src-gaceta-es-rd1586-1927-canarias",
+   "statut": "ok",
+   "commentaire": "Lu par le sous-agent (PDF) et capture p.1659 lue par Claude : « Artículo 1.º El territorio nacional que constituye el Archipiélago canario se dividirá en dos provincias… Santa Cruz de Tenerife y Las Palmas » ; art. 2 : Tenerife, Palma, Gomera y Hierro / Gran Canaria, Lanzarote y Fuerteventura (con los islotes de Alegranza, Roque del Este, Roque del Oeste, Graciosa, Montaña Clara y Lobos) ; art. 5 : « Subsistirán en cada una de las siete islas mayores… los actuales Cabildos insulares ». Texte de 1927 : continuité au 01/01/1945 supposée (R2ES-04)."
+  },
+  {
+   "id": "src-ieal-es-revl14-1944-personal",
+   "statut": "ok",
+   "commentaire": "Capture p.325 lue par Claude : « PROVINCIA DE SANTA CRUZ DE TENERIFE — Cabildo Insular de la Gomera.—9.000 pesetas. Cabildo Insular de Hierro.—9.000 pesetas. » ; « Madrid, 20 de abril de 1944.—El Director General, Carlos Pinilla. » Le sous-agent (OCR) plaçait ces lignes vers p.324 : la capture montre bien le numéro 325. Prouve l'existence des deux cabildos dans la province en 1944."
+  },
+  {
+   "id": "src-ieal-es-revl18-1944-actividades",
+   "statut": "limite",
+   "commentaire": "Lu par le sous-agent et capture p.1044 lue par Claude : « MEMORIAS, REGLAMENTOS Y PRESUPUESTOS DE CABILDOS INSULARES — Gran Canaria. Lanzarote. Las Palmas. / Villa de Arico. Tenerife. » Inventaire bibliographique de 1944 : atteste des cabildos en activité, pas un acte de délimitation ; entrées « Las Palmas » et « Villa de Arico » ambiguës (non utilisées)."
+  },
+  {
+   "id": "src-cabildofuer-siege-1944",
+   "statut": "limite",
+   "commentaire": "Lu par le sous-agent : « hasta 1944, el Cabildo Insular no contó con sede propia ; desde 1913 hasta 1934 compartió espacio público con el Ayuntamiento ». Notice rétrospective de 2023 : atteste l'institution avant 1945, pas un document de la date ; le bâtiment reste une hypothèse."
+  },
+  {
+   "id": "src-goerlich-perez-lau2spain-2025",
+   "statut": "ok",
+   "commentaire": "Lu par le sous-agent : série municipale 1998-2025, limites provinciales et extérieures « se mantienen fijos a los de la fecha de la descarga ». Prouve ce qu'Ether lui fait dire : base inutilisable pour 1945 (aucun tracé repris)."
+  },
+  {
+   "id": "src-ign-es-licence-donnees-2015",
+   "statut": "ok",
+   "commentaire": "Lu par le sous-agent : « conlleva la aceptación por el usuario de una licencia CC-BY 4.0 ». Preuve de licence seulement, pas de date ; aucun tracé IGN livré."
+  },
+  {
+   "id": "src-ign-es-provincial200-historique",
+   "statut": "ok",
+   "commentaire": "WebFetch en erreur serveur, sans contournement. Copie HTML d'Ether (preuves/ign_provincial_raster_catalogue.html, empreinte notée) lue par Claude : « Archivos ráster correspondientes a todas las ediciones de cada mapa de la serie provincial 1:200.000, procedentes del escaneado de los mapas en papel ». Prouve qu'il s'agit de scans, pas de contours vectoriels (R2ES-01)."
+  },
+  {
+   "id": "src-boe-es-gatova-1995",
+   "statut": "ok",
+   "commentaire": "Lu par le sous-agent : « El municipio de Gátova, actualmente perteneciente a la provincia de Castellón de la Plana, … queda agregado a la provincia de Valencia. » Changement de 1995, à ne pas rétroprojeter sur 1945."
+  },
+  {
+   "id": "src-boe-es-sanquirce-1973",
+   "statut": "limite",
+   "commentaire": "Lu par le sous-agent : notice BOE (Decreto 202/1973, BOE núm. 38 du 13/02/1973, p.2745-2746, San Quirce de Ríopisuerga (Burgos) incorporé à Alar del Rey (Palencia)) ; texte opératif « no disponible » en ligne. Le passage d'une province à l'autre se déduit des deux noms de province, pas d'un texte lu."
+  }
+ ]
+}

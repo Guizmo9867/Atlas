@@ -1,0 +1,2852 @@
+{
+ "note": "Copie fidèle de 01_lots/2.ES/atlas_2ES_subdivisions_proposees.json (Ether, cycle 1), sous la clé proposition_ether pour que le validateur ne la lise pas comme un lot du corpus (entités intégrées : data/snapshot0/subdivisions_2-ES.json).",
+ "proposition_ether": {
+  "metadata_lot": {
+   "lot": "2.ES",
+   "etat_1945": "Espagne — péninsule, Baléares, Canaries",
+   "date_reference": "1945-01-01",
+   "heure_reference": "00:00",
+   "cycle": 1,
+   "statut": "propose_par_ether_a_relire_par_claude",
+   "convention_dates": "Début de fenêtre observée, pas date de création ; fin inconnue.",
+   "provinces": 50,
+   "iles_a_cabildo": 7,
+   "geometries_liees": 0,
+   "chef_lieu_1945_valide": 0,
+   "exclusions": "Possessions africaines hors périmètre du territoire canonique ; Gibraltar distinct. Pas de communautés autonomes actuelles ; pas de communes. Partidos judiciaires non assimilés à un niveau administratif général."
+  },
+  "entites": [
+   {
+    "entite_id": "subdivision-es-alava",
+    "type_entite": "subdivision",
+    "nom": "Álava",
+    "nom_court": "Álava",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Alava",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "provincia",
+       "parent_id": "territoire-es-espagne",
+       "souverainete_id": "espagne",
+       "reserves": [
+        "R2ES-01",
+        "R2ES-02",
+        "R2ES-03",
+        "R2ES-05"
+       ],
+       "note": "Nom proposé d’après l’annuaire 1944–1945 ; graphies statistiques et non transcription d’un acte constitutif. Les surfaces et les nombres de communes de 1940 ne sont pas repris. Aucun code administratif moderne ni contour attribué. La mention provincia ne tranche pas les régimes foraux et fiscaux particuliers.",
+       "chef_lieu_propose": {
+        "nom": "Vitoria",
+        "annee_preuve": "1944–1945",
+        "source_id": "src-ine-es-anuario-1944-1945-territorio",
+        "locator": "p.20, table XI ; p.5, table IV, ligne Vitoria",
+        "statut": "reference_contemporaine_a_relire_non_validee_au_jour",
+        "ville_id_existante": "ville-es-vitoria-gasteiz"
+       }
+      },
+      "sources": [
+       {
+        "source_id": "src-ine-es-anuario-1944-1945-territorio",
+        "locator": "p.19, table IX, ligne Alava ; p.20, table XI, ligne Vitoria",
+        "usage": "liste provinciale et capitale ; forme statistique contemporaine"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-es-province-albacete",
+    "type_entite": "subdivision",
+    "nom": "Albacete",
+    "nom_court": "Albacete",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Albacete",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "provincia",
+       "parent_id": "territoire-es-espagne",
+       "souverainete_id": "espagne",
+       "reserves": [
+        "R2ES-01",
+        "R2ES-02",
+        "R2ES-03"
+       ],
+       "note": "Nom proposé d’après l’annuaire 1944–1945 ; graphies statistiques et non transcription d’un acte constitutif. Les surfaces et les nombres de communes de 1940 ne sont pas repris. Aucun code administratif moderne ni contour attribué.",
+       "chef_lieu_propose": {
+        "nom": "Albacete",
+        "annee_preuve": "1944–1945",
+        "source_id": "src-ine-es-anuario-1944-1945-territorio",
+        "locator": "p.20, table XI ; p.5, table IV, ligne Albacete",
+        "statut": "reference_contemporaine_a_relire_non_validee_au_jour",
+        "ville_id_existante": "ville-es-albacete"
+       }
+      },
+      "sources": [
+       {
+        "source_id": "src-ine-es-anuario-1944-1945-territorio",
+        "locator": "p.19, table IX, ligne Albacete ; p.20, table XI, ligne Albacete",
+        "usage": "liste provinciale et capitale ; forme statistique contemporaine"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-es-province-alicante",
+    "type_entite": "subdivision",
+    "nom": "Alicante",
+    "nom_court": "Alicante",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Alicante",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "provincia",
+       "parent_id": "territoire-es-espagne",
+       "souverainete_id": "espagne",
+       "reserves": [
+        "R2ES-01",
+        "R2ES-02",
+        "R2ES-03"
+       ],
+       "note": "Nom proposé d’après l’annuaire 1944–1945 ; graphies statistiques et non transcription d’un acte constitutif. Les surfaces et les nombres de communes de 1940 ne sont pas repris. Aucun code administratif moderne ni contour attribué.",
+       "chef_lieu_propose": {
+        "nom": "Alicante",
+        "annee_preuve": "1944–1945",
+        "source_id": "src-ine-es-anuario-1944-1945-territorio",
+        "locator": "p.20, table XI ; p.5, table IV, ligne Alicante",
+        "statut": "reference_contemporaine_a_relire_non_validee_au_jour",
+        "ville_id_existante": "ville-es-alicante"
+       }
+      },
+      "sources": [
+       {
+        "source_id": "src-ine-es-anuario-1944-1945-territorio",
+        "locator": "p.19, table IX, ligne Alicante ; p.20, table XI, ligne Alicante",
+        "usage": "liste provinciale et capitale ; forme statistique contemporaine"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-es-province-almeria",
+    "type_entite": "subdivision",
+    "nom": "Almería",
+    "nom_court": "Almería",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Almería",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "provincia",
+       "parent_id": "territoire-es-espagne",
+       "souverainete_id": "espagne",
+       "reserves": [
+        "R2ES-01",
+        "R2ES-02",
+        "R2ES-03"
+       ],
+       "note": "Nom proposé d’après l’annuaire 1944–1945 ; graphies statistiques et non transcription d’un acte constitutif. Les surfaces et les nombres de communes de 1940 ne sont pas repris. Aucun code administratif moderne ni contour attribué.",
+       "chef_lieu_propose": {
+        "nom": "Almería",
+        "annee_preuve": "1944–1945",
+        "source_id": "src-ine-es-anuario-1944-1945-territorio",
+        "locator": "p.20, table XI ; p.5, table IV, ligne Almería",
+        "statut": "reference_contemporaine_a_relire_non_validee_au_jour",
+        "ville_id_existante": "ville-es-almeria"
+       }
+      },
+      "sources": [
+       {
+        "source_id": "src-ine-es-anuario-1944-1945-territorio",
+        "locator": "p.19, table IX, ligne Almería ; p.20, table XI, ligne Almería",
+        "usage": "liste provinciale et capitale ; forme statistique contemporaine"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-es-province-avila",
+    "type_entite": "subdivision",
+    "nom": "Ávila",
+    "nom_court": "Ávila",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Avila",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "provincia",
+       "parent_id": "territoire-es-espagne",
+       "souverainete_id": "espagne",
+       "reserves": [
+        "R2ES-01",
+        "R2ES-02",
+        "R2ES-03"
+       ],
+       "note": "Nom proposé d’après l’annuaire 1944–1945 ; graphies statistiques et non transcription d’un acte constitutif. Les surfaces et les nombres de communes de 1940 ne sont pas repris. Aucun code administratif moderne ni contour attribué.",
+       "chef_lieu_propose": {
+        "nom": "Avila",
+        "annee_preuve": "1944–1945",
+        "source_id": "src-ine-es-anuario-1944-1945-territorio",
+        "locator": "p.20, table XI ; p.5, table IV, ligne Avila",
+        "statut": "reference_contemporaine_a_relire_non_validee_au_jour",
+        "ville_id_existante": "ville-es-avila"
+       }
+      },
+      "sources": [
+       {
+        "source_id": "src-ine-es-anuario-1944-1945-territorio",
+        "locator": "p.19, table IX, ligne Avila ; p.20, table XI, ligne Avila",
+        "usage": "liste provinciale et capitale ; forme statistique contemporaine"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-es-province-badajoz",
+    "type_entite": "subdivision",
+    "nom": "Badajoz",
+    "nom_court": "Badajoz",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Badajoz",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "provincia",
+       "parent_id": "territoire-es-espagne",
+       "souverainete_id": "espagne",
+       "reserves": [
+        "R2ES-01",
+        "R2ES-02",
+        "R2ES-03"
+       ],
+       "note": "Nom proposé d’après l’annuaire 1944–1945 ; graphies statistiques et non transcription d’un acte constitutif. Les surfaces et les nombres de communes de 1940 ne sont pas repris. Aucun code administratif moderne ni contour attribué.",
+       "chef_lieu_propose": {
+        "nom": "Badajoz",
+        "annee_preuve": "1944–1945",
+        "source_id": "src-ine-es-anuario-1944-1945-territorio",
+        "locator": "p.20, table XI ; p.5, table IV, ligne Badajoz",
+        "statut": "reference_contemporaine_a_relire_non_validee_au_jour",
+        "ville_id_existante": "ville-es-badajoz"
+       }
+      },
+      "sources": [
+       {
+        "source_id": "src-ine-es-anuario-1944-1945-territorio",
+        "locator": "p.19, table IX, ligne Badajoz ; p.20, table XI, ligne Badajoz",
+        "usage": "liste provinciale et capitale ; forme statistique contemporaine"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-es-baleares",
+    "type_entite": "subdivision",
+    "nom": "Baléares",
+    "nom_court": "Baléares",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Baleares",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "provincia",
+       "parent_id": "territoire-es-espagne",
+       "souverainete_id": "espagne",
+       "reserves": [
+        "R2ES-01",
+        "R2ES-02",
+        "R2ES-03"
+       ],
+       "note": "Nom proposé d’après l’annuaire 1944–1945 ; graphies statistiques et non transcription d’un acte constitutif. Les surfaces et les nombres de communes de 1940 ne sont pas repris. Aucun code administratif moderne ni contour attribué.",
+       "chef_lieu_propose": {
+        "nom": "Palma de Mallorca",
+        "annee_preuve": "1944–1945",
+        "source_id": "src-ine-es-anuario-1944-1945-territorio",
+        "locator": "p.20, table XI ; p.5, table IV, ligne Palma de Mallorca",
+        "statut": "reference_contemporaine_a_relire_non_validee_au_jour",
+        "ville_id_existante": "ville-es-palma"
+       }
+      },
+      "sources": [
+       {
+        "source_id": "src-ine-es-anuario-1944-1945-territorio",
+        "locator": "p.19, table IX, ligne Baleares ; p.20, table XI, ligne Palma de Mallorca",
+        "usage": "liste provinciale et capitale ; forme statistique contemporaine"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-es-province-barcelone",
+    "type_entite": "subdivision",
+    "nom": "Barcelone",
+    "nom_court": "Barcelone",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Barcelona",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "provincia",
+       "parent_id": "territoire-es-espagne",
+       "souverainete_id": "espagne",
+       "reserves": [
+        "R2ES-01",
+        "R2ES-02",
+        "R2ES-03"
+       ],
+       "note": "Nom proposé d’après l’annuaire 1944–1945 ; graphies statistiques et non transcription d’un acte constitutif. Les surfaces et les nombres de communes de 1940 ne sont pas repris. Aucun code administratif moderne ni contour attribué.",
+       "chef_lieu_propose": {
+        "nom": "Barcelona",
+        "annee_preuve": "1944–1945",
+        "source_id": "src-ine-es-anuario-1944-1945-territorio",
+        "locator": "p.20, table XI ; p.5, table IV, ligne Barcelona",
+        "statut": "reference_contemporaine_a_relire_non_validee_au_jour",
+        "ville_id_existante": "ville-es-barcelone"
+       }
+      },
+      "sources": [
+       {
+        "source_id": "src-ine-es-anuario-1944-1945-territorio",
+        "locator": "p.19, table IX, ligne Barcelona ; p.20, table XI, ligne Barcelona",
+        "usage": "liste provinciale et capitale ; forme statistique contemporaine"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-es-province-burgos",
+    "type_entite": "subdivision",
+    "nom": "Burgos",
+    "nom_court": "Burgos",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Burgos",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "provincia",
+       "parent_id": "territoire-es-espagne",
+       "souverainete_id": "espagne",
+       "reserves": [
+        "R2ES-01",
+        "R2ES-02",
+        "R2ES-03"
+       ],
+       "note": "Nom proposé d’après l’annuaire 1944–1945 ; graphies statistiques et non transcription d’un acte constitutif. Les surfaces et les nombres de communes de 1940 ne sont pas repris. Aucun code administratif moderne ni contour attribué.",
+       "chef_lieu_propose": {
+        "nom": "Burgos",
+        "annee_preuve": "1944–1945",
+        "source_id": "src-ine-es-anuario-1944-1945-territorio",
+        "locator": "p.20, table XI ; p.5, table IV, ligne Burgos",
+        "statut": "reference_contemporaine_a_relire_non_validee_au_jour",
+        "ville_id_existante": "ville-es-burgos"
+       }
+      },
+      "sources": [
+       {
+        "source_id": "src-ine-es-anuario-1944-1945-territorio",
+        "locator": "p.19, table IX, ligne Burgos ; p.20, table XI, ligne Burgos",
+        "usage": "liste provinciale et capitale ; forme statistique contemporaine"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-es-province-caceres",
+    "type_entite": "subdivision",
+    "nom": "Cáceres",
+    "nom_court": "Cáceres",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Cáceres",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "provincia",
+       "parent_id": "territoire-es-espagne",
+       "souverainete_id": "espagne",
+       "reserves": [
+        "R2ES-01",
+        "R2ES-02",
+        "R2ES-03"
+       ],
+       "note": "Nom proposé d’après l’annuaire 1944–1945 ; graphies statistiques et non transcription d’un acte constitutif. Les surfaces et les nombres de communes de 1940 ne sont pas repris. Aucun code administratif moderne ni contour attribué.",
+       "chef_lieu_propose": {
+        "nom": "Cáceres",
+        "annee_preuve": "1944–1945",
+        "source_id": "src-ine-es-anuario-1944-1945-territorio",
+        "locator": "p.20, table XI ; p.5, table IV, ligne Cáceres",
+        "statut": "reference_contemporaine_a_relire_non_validee_au_jour",
+        "ville_id_existante": "ville-es-caceres"
+       }
+      },
+      "sources": [
+       {
+        "source_id": "src-ine-es-anuario-1944-1945-territorio",
+        "locator": "p.19, table IX, ligne Cáceres ; p.20, table XI, ligne Cáceres",
+        "usage": "liste provinciale et capitale ; forme statistique contemporaine"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-es-province-cadix",
+    "type_entite": "subdivision",
+    "nom": "Cadix",
+    "nom_court": "Cadix",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Cádiz",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "provincia",
+       "parent_id": "territoire-es-espagne",
+       "souverainete_id": "espagne",
+       "reserves": [
+        "R2ES-01",
+        "R2ES-02",
+        "R2ES-03"
+       ],
+       "note": "Nom proposé d’après l’annuaire 1944–1945 ; graphies statistiques et non transcription d’un acte constitutif. Les surfaces et les nombres de communes de 1940 ne sont pas repris. Aucun code administratif moderne ni contour attribué.",
+       "chef_lieu_propose": {
+        "nom": "Cádiz",
+        "annee_preuve": "1944–1945",
+        "source_id": "src-ine-es-anuario-1944-1945-territorio",
+        "locator": "p.20, table XI ; p.5, table IV, ligne Cádiz",
+        "statut": "reference_contemporaine_a_relire_non_validee_au_jour",
+        "ville_id_existante": "ville-es-cadix"
+       }
+      },
+      "sources": [
+       {
+        "source_id": "src-ine-es-anuario-1944-1945-territorio",
+        "locator": "p.19, table IX, ligne Cádiz ; p.20, table XI, ligne Cádiz",
+        "usage": "liste provinciale et capitale ; forme statistique contemporaine"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-es-province-castellon-de-la-plana",
+    "type_entite": "subdivision",
+    "nom": "Castellón de la Plana",
+    "nom_court": "Castellón de la Plana",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Castellón de la Plana",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "provincia",
+       "parent_id": "territoire-es-espagne",
+       "souverainete_id": "espagne",
+       "reserves": [
+        "R2ES-01",
+        "R2ES-02",
+        "R2ES-03"
+       ],
+       "note": "Nom proposé d’après l’annuaire 1944–1945 ; graphies statistiques et non transcription d’un acte constitutif. Les surfaces et les nombres de communes de 1940 ne sont pas repris. Aucun code administratif moderne ni contour attribué.",
+       "chef_lieu_propose": {
+        "nom": "Castellón de la Plana",
+        "annee_preuve": "1944–1945",
+        "source_id": "src-ine-es-anuario-1944-1945-territorio",
+        "locator": "p.20, table XI ; p.5, table IV, ligne Castellón de la Plana",
+        "statut": "reference_contemporaine_a_relire_non_validee_au_jour",
+        "ville_id_existante": "ville-es-castellon-de-la-plana"
+       }
+      },
+      "sources": [
+       {
+        "source_id": "src-ine-es-anuario-1944-1945-territorio",
+        "locator": "p.19, table IX, ligne Castellón de la Plana ; p.20, table XI, ligne Castellón de la Plana",
+        "usage": "liste provinciale et capitale ; forme statistique contemporaine"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-es-province-ciudad-real",
+    "type_entite": "subdivision",
+    "nom": "Ciudad Real",
+    "nom_court": "Ciudad Real",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Ciudad Real",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "provincia",
+       "parent_id": "territoire-es-espagne",
+       "souverainete_id": "espagne",
+       "reserves": [
+        "R2ES-01",
+        "R2ES-02",
+        "R2ES-03"
+       ],
+       "note": "Nom proposé d’après l’annuaire 1944–1945 ; graphies statistiques et non transcription d’un acte constitutif. Les surfaces et les nombres de communes de 1940 ne sont pas repris. Aucun code administratif moderne ni contour attribué.",
+       "chef_lieu_propose": {
+        "nom": "Ciudad Real",
+        "annee_preuve": "1944–1945",
+        "source_id": "src-ine-es-anuario-1944-1945-territorio",
+        "locator": "p.20, table XI ; p.5, table IV, ligne Ciudad Real",
+        "statut": "reference_contemporaine_a_relire_non_validee_au_jour",
+        "ville_id_existante": "ville-es-ciudad-real"
+       }
+      },
+      "sources": [
+       {
+        "source_id": "src-ine-es-anuario-1944-1945-territorio",
+        "locator": "p.19, table IX, ligne Ciudad Real ; p.20, table XI, ligne Ciudad Real",
+        "usage": "liste provinciale et capitale ; forme statistique contemporaine"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-es-province-cordoue",
+    "type_entite": "subdivision",
+    "nom": "Cordoue",
+    "nom_court": "Cordoue",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Córdoba",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "provincia",
+       "parent_id": "territoire-es-espagne",
+       "souverainete_id": "espagne",
+       "reserves": [
+        "R2ES-01",
+        "R2ES-02",
+        "R2ES-03"
+       ],
+       "note": "Nom proposé d’après l’annuaire 1944–1945 ; graphies statistiques et non transcription d’un acte constitutif. Les surfaces et les nombres de communes de 1940 ne sont pas repris. Aucun code administratif moderne ni contour attribué.",
+       "chef_lieu_propose": {
+        "nom": "Córdoba",
+        "annee_preuve": "1944–1945",
+        "source_id": "src-ine-es-anuario-1944-1945-territorio",
+        "locator": "p.20, table XI ; p.5, table IV, ligne Córdoba",
+        "statut": "reference_contemporaine_a_relire_non_validee_au_jour",
+        "ville_id_existante": "ville-es-cordoue"
+       }
+      },
+      "sources": [
+       {
+        "source_id": "src-ine-es-anuario-1944-1945-territorio",
+        "locator": "p.19, table IX, ligne Córdoba ; p.20, table XI, ligne Córdoba",
+        "usage": "liste provinciale et capitale ; forme statistique contemporaine"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-es-province-la-corogne",
+    "type_entite": "subdivision",
+    "nom": "La Corogne",
+    "nom_court": "La Corogne",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "La Coruña",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "provincia",
+       "parent_id": "territoire-es-espagne",
+       "souverainete_id": "espagne",
+       "reserves": [
+        "R2ES-01",
+        "R2ES-02",
+        "R2ES-03"
+       ],
+       "note": "Nom proposé d’après l’annuaire 1944–1945 ; graphies statistiques et non transcription d’un acte constitutif. Les surfaces et les nombres de communes de 1940 ne sont pas repris. Aucun code administratif moderne ni contour attribué.",
+       "chef_lieu_propose": {
+        "nom": "La Coruña",
+        "annee_preuve": "1944–1945",
+        "source_id": "src-ine-es-anuario-1944-1945-territorio",
+        "locator": "p.20, table XI ; p.5, table IV, ligne La Coruña",
+        "statut": "reference_contemporaine_a_relire_non_validee_au_jour",
+        "ville_id_existante": "ville-es-la-corogne"
+       }
+      },
+      "sources": [
+       {
+        "source_id": "src-ine-es-anuario-1944-1945-territorio",
+        "locator": "p.19, table IX, ligne La Coruña ; p.20, table XI, ligne La Coruña",
+        "usage": "liste provinciale et capitale ; forme statistique contemporaine"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-es-province-cuenca",
+    "type_entite": "subdivision",
+    "nom": "Cuenca",
+    "nom_court": "Cuenca",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Cuenca",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "provincia",
+       "parent_id": "territoire-es-espagne",
+       "souverainete_id": "espagne",
+       "reserves": [
+        "R2ES-01",
+        "R2ES-02",
+        "R2ES-03"
+       ],
+       "note": "Nom proposé d’après l’annuaire 1944–1945 ; graphies statistiques et non transcription d’un acte constitutif. Les surfaces et les nombres de communes de 1940 ne sont pas repris. Aucun code administratif moderne ni contour attribué.",
+       "chef_lieu_propose": {
+        "nom": "Cuenca",
+        "annee_preuve": "1944–1945",
+        "source_id": "src-ine-es-anuario-1944-1945-territorio",
+        "locator": "p.20, table XI ; p.5, table IV, ligne Cuenca",
+        "statut": "reference_contemporaine_a_relire_non_validee_au_jour",
+        "ville_id_existante": "ville-es-cuenca"
+       }
+      },
+      "sources": [
+       {
+        "source_id": "src-ine-es-anuario-1944-1945-territorio",
+        "locator": "p.19, table IX, ligne Cuenca ; p.20, table XI, ligne Cuenca",
+        "usage": "liste provinciale et capitale ; forme statistique contemporaine"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-es-province-gerone",
+    "type_entite": "subdivision",
+    "nom": "Gérone",
+    "nom_court": "Gérone",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Gerona",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "provincia",
+       "parent_id": "territoire-es-espagne",
+       "souverainete_id": "espagne",
+       "reserves": [
+        "R2ES-01",
+        "R2ES-02",
+        "R2ES-03"
+       ],
+       "note": "Nom proposé d’après l’annuaire 1944–1945 ; graphies statistiques et non transcription d’un acte constitutif. Les surfaces et les nombres de communes de 1940 ne sont pas repris. Aucun code administratif moderne ni contour attribué.",
+       "chef_lieu_propose": {
+        "nom": "Gerona",
+        "annee_preuve": "1944–1945",
+        "source_id": "src-ine-es-anuario-1944-1945-territorio",
+        "locator": "p.20, table XI ; p.5, table IV, ligne Gerona",
+        "statut": "reference_contemporaine_a_relire_non_validee_au_jour",
+        "ville_id_existante": "ville-es-gerone"
+       }
+      },
+      "sources": [
+       {
+        "source_id": "src-ine-es-anuario-1944-1945-territorio",
+        "locator": "p.19, table IX, ligne Gerona ; p.20, table XI, ligne Gerona",
+        "usage": "liste provinciale et capitale ; forme statistique contemporaine"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-es-province-grenade",
+    "type_entite": "subdivision",
+    "nom": "Grenade",
+    "nom_court": "Grenade",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Granada",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "provincia",
+       "parent_id": "territoire-es-espagne",
+       "souverainete_id": "espagne",
+       "reserves": [
+        "R2ES-01",
+        "R2ES-02",
+        "R2ES-03"
+       ],
+       "note": "Nom proposé d’après l’annuaire 1944–1945 ; graphies statistiques et non transcription d’un acte constitutif. Les surfaces et les nombres de communes de 1940 ne sont pas repris. Aucun code administratif moderne ni contour attribué.",
+       "chef_lieu_propose": {
+        "nom": "Granada",
+        "annee_preuve": "1944–1945",
+        "source_id": "src-ine-es-anuario-1944-1945-territorio",
+        "locator": "p.20, table XI ; p.5, table IV, ligne Granada",
+        "statut": "reference_contemporaine_a_relire_non_validee_au_jour",
+        "ville_id_existante": "ville-es-grenade"
+       }
+      },
+      "sources": [
+       {
+        "source_id": "src-ine-es-anuario-1944-1945-territorio",
+        "locator": "p.19, table IX, ligne Granada ; p.20, table XI, ligne Granada",
+        "usage": "liste provinciale et capitale ; forme statistique contemporaine"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-es-province-guadalajara",
+    "type_entite": "subdivision",
+    "nom": "Guadalajara",
+    "nom_court": "Guadalajara",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Guadalajara",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "provincia",
+       "parent_id": "territoire-es-espagne",
+       "souverainete_id": "espagne",
+       "reserves": [
+        "R2ES-01",
+        "R2ES-02",
+        "R2ES-03"
+       ],
+       "note": "Nom proposé d’après l’annuaire 1944–1945 ; graphies statistiques et non transcription d’un acte constitutif. Les surfaces et les nombres de communes de 1940 ne sont pas repris. Aucun code administratif moderne ni contour attribué.",
+       "chef_lieu_propose": {
+        "nom": "Guadalajara",
+        "annee_preuve": "1944–1945",
+        "source_id": "src-ine-es-anuario-1944-1945-territorio",
+        "locator": "p.20, table XI ; p.5, table IV, ligne Guadalajara",
+        "statut": "reference_contemporaine_a_relire_non_validee_au_jour",
+        "ville_id_existante": "ville-es-guadalajara"
+       }
+      },
+      "sources": [
+       {
+        "source_id": "src-ine-es-anuario-1944-1945-territorio",
+        "locator": "p.19, table IX, ligne Guadalajara ; p.20, table XI, ligne Guadalajara",
+        "usage": "liste provinciale et capitale ; forme statistique contemporaine"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-es-guipuscoa",
+    "type_entite": "subdivision",
+    "nom": "Guipuscoa",
+    "nom_court": "Guipuscoa",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Guipúzcoa",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "provincia",
+       "parent_id": "territoire-es-espagne",
+       "souverainete_id": "espagne",
+       "reserves": [
+        "R2ES-01",
+        "R2ES-02",
+        "R2ES-03",
+        "R2ES-05"
+       ],
+       "note": "Nom proposé d’après l’annuaire 1944–1945 ; graphies statistiques et non transcription d’un acte constitutif. Les surfaces et les nombres de communes de 1940 ne sont pas repris. Aucun code administratif moderne ni contour attribué. La mention provincia ne tranche pas les régimes foraux et fiscaux particuliers.",
+       "chef_lieu_propose": {
+        "nom": "San Sebastián",
+        "annee_preuve": "1944–1945",
+        "source_id": "src-ine-es-anuario-1944-1945-territorio",
+        "locator": "p.20, table XI ; p.5, table IV, ligne San Sebastián",
+        "statut": "reference_contemporaine_a_relire_non_validee_au_jour",
+        "ville_id_existante": "ville-es-saint-sebastien"
+       }
+      },
+      "sources": [
+       {
+        "source_id": "src-ine-es-anuario-1944-1945-territorio",
+        "locator": "p.19, table IX, ligne Guipúzcoa ; p.20, table XI, ligne San Sebastián",
+        "usage": "liste provinciale et capitale ; forme statistique contemporaine"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-es-province-huelva",
+    "type_entite": "subdivision",
+    "nom": "Huelva",
+    "nom_court": "Huelva",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Huelva",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "provincia",
+       "parent_id": "territoire-es-espagne",
+       "souverainete_id": "espagne",
+       "reserves": [
+        "R2ES-01",
+        "R2ES-02",
+        "R2ES-03"
+       ],
+       "note": "Nom proposé d’après l’annuaire 1944–1945 ; graphies statistiques et non transcription d’un acte constitutif. Les surfaces et les nombres de communes de 1940 ne sont pas repris. Aucun code administratif moderne ni contour attribué.",
+       "chef_lieu_propose": {
+        "nom": "Huelva",
+        "annee_preuve": "1944–1945",
+        "source_id": "src-ine-es-anuario-1944-1945-territorio",
+        "locator": "p.20, table XI ; p.5, table IV, ligne Huelva",
+        "statut": "reference_contemporaine_a_relire_non_validee_au_jour",
+        "ville_id_existante": "ville-es-huelva"
+       }
+      },
+      "sources": [
+       {
+        "source_id": "src-ine-es-anuario-1944-1945-territorio",
+        "locator": "p.19, table IX, ligne Huelva ; p.20, table XI, ligne Huelva",
+        "usage": "liste provinciale et capitale ; forme statistique contemporaine"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-es-province-huesca",
+    "type_entite": "subdivision",
+    "nom": "Huesca",
+    "nom_court": "Huesca",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Huesca",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "provincia",
+       "parent_id": "territoire-es-espagne",
+       "souverainete_id": "espagne",
+       "reserves": [
+        "R2ES-01",
+        "R2ES-02",
+        "R2ES-03"
+       ],
+       "note": "Nom proposé d’après l’annuaire 1944–1945 ; graphies statistiques et non transcription d’un acte constitutif. Les surfaces et les nombres de communes de 1940 ne sont pas repris. Aucun code administratif moderne ni contour attribué.",
+       "chef_lieu_propose": {
+        "nom": "Huesca",
+        "annee_preuve": "1944–1945",
+        "source_id": "src-ine-es-anuario-1944-1945-territorio",
+        "locator": "p.20, table XI ; p.5, table IV, ligne Huesca",
+        "statut": "reference_contemporaine_a_relire_non_validee_au_jour",
+        "ville_id_existante": "ville-es-huesca"
+       }
+      },
+      "sources": [
+       {
+        "source_id": "src-ine-es-anuario-1944-1945-territorio",
+        "locator": "p.19, table IX, ligne Huesca ; p.20, table XI, ligne Huesca",
+        "usage": "liste provinciale et capitale ; forme statistique contemporaine"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-es-province-jaen",
+    "type_entite": "subdivision",
+    "nom": "Jaén",
+    "nom_court": "Jaén",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Jaén",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "provincia",
+       "parent_id": "territoire-es-espagne",
+       "souverainete_id": "espagne",
+       "reserves": [
+        "R2ES-01",
+        "R2ES-02",
+        "R2ES-03"
+       ],
+       "note": "Nom proposé d’après l’annuaire 1944–1945 ; graphies statistiques et non transcription d’un acte constitutif. Les surfaces et les nombres de communes de 1940 ne sont pas repris. Aucun code administratif moderne ni contour attribué.",
+       "chef_lieu_propose": {
+        "nom": "Jaén",
+        "annee_preuve": "1944–1945",
+        "source_id": "src-ine-es-anuario-1944-1945-territorio",
+        "locator": "p.20, table XI ; p.5, table IV, ligne Jaén",
+        "statut": "reference_contemporaine_a_relire_non_validee_au_jour",
+        "ville_id_existante": "ville-es-jaen"
+       }
+      },
+      "sources": [
+       {
+        "source_id": "src-ine-es-anuario-1944-1945-territorio",
+        "locator": "p.19, table IX, ligne Jaén ; p.20, table XI, ligne Jaén",
+        "usage": "liste provinciale et capitale ; forme statistique contemporaine"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-es-province-leon",
+    "type_entite": "subdivision",
+    "nom": "León",
+    "nom_court": "León",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "León",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "provincia",
+       "parent_id": "territoire-es-espagne",
+       "souverainete_id": "espagne",
+       "reserves": [
+        "R2ES-01",
+        "R2ES-02",
+        "R2ES-03"
+       ],
+       "note": "Nom proposé d’après l’annuaire 1944–1945 ; graphies statistiques et non transcription d’un acte constitutif. Les surfaces et les nombres de communes de 1940 ne sont pas repris. Aucun code administratif moderne ni contour attribué.",
+       "chef_lieu_propose": {
+        "nom": "León",
+        "annee_preuve": "1944–1945",
+        "source_id": "src-ine-es-anuario-1944-1945-territorio",
+        "locator": "p.20, table XI ; p.5, table IV, ligne León",
+        "statut": "reference_contemporaine_a_relire_non_validee_au_jour",
+        "ville_id_existante": "ville-es-leon"
+       }
+      },
+      "sources": [
+       {
+        "source_id": "src-ine-es-anuario-1944-1945-territorio",
+        "locator": "p.19, table IX, ligne León ; p.20, table XI, ligne León",
+        "usage": "liste provinciale et capitale ; forme statistique contemporaine"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-es-province-lerida",
+    "type_entite": "subdivision",
+    "nom": "Lérida",
+    "nom_court": "Lérida",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Lérida",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "provincia",
+       "parent_id": "territoire-es-espagne",
+       "souverainete_id": "espagne",
+       "reserves": [
+        "R2ES-01",
+        "R2ES-02",
+        "R2ES-03"
+       ],
+       "note": "Nom proposé d’après l’annuaire 1944–1945 ; graphies statistiques et non transcription d’un acte constitutif. Les surfaces et les nombres de communes de 1940 ne sont pas repris. Aucun code administratif moderne ni contour attribué.",
+       "chef_lieu_propose": {
+        "nom": "Lérida",
+        "annee_preuve": "1944–1945",
+        "source_id": "src-ine-es-anuario-1944-1945-territorio",
+        "locator": "p.20, table XI ; p.5, table IV, ligne Lérida",
+        "statut": "reference_contemporaine_a_relire_non_validee_au_jour",
+        "ville_id_existante": "ville-es-lerida"
+       }
+      },
+      "sources": [
+       {
+        "source_id": "src-ine-es-anuario-1944-1945-territorio",
+        "locator": "p.19, table IX, ligne Lérida ; p.20, table XI, ligne Lérida",
+        "usage": "liste provinciale et capitale ; forme statistique contemporaine"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-es-la-rioja",
+    "type_entite": "subdivision",
+    "nom": "Logroño",
+    "nom_court": "Logroño",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Logroño",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "provincia",
+       "parent_id": "territoire-es-espagne",
+       "souverainete_id": "espagne",
+       "reserves": [
+        "R2ES-01",
+        "R2ES-02",
+        "R2ES-03"
+       ],
+       "note": "Nom proposé d’après l’annuaire 1944–1945 ; graphies statistiques et non transcription d’un acte constitutif. Les surfaces et les nombres de communes de 1940 ne sont pas repris. Aucun code administratif moderne ni contour attribué.",
+       "chef_lieu_propose": {
+        "nom": "Logroño",
+        "annee_preuve": "1944–1945",
+        "source_id": "src-ine-es-anuario-1944-1945-territorio",
+        "locator": "p.20, table XI ; p.5, table IV, ligne Logroño",
+        "statut": "reference_contemporaine_a_relire_non_validee_au_jour",
+        "ville_id_existante": "ville-es-logrono"
+       }
+      },
+      "sources": [
+       {
+        "source_id": "src-ine-es-anuario-1944-1945-territorio",
+        "locator": "p.19, table IX, ligne Logroño ; p.20, table XI, ligne Logroño",
+        "usage": "liste provinciale et capitale ; forme statistique contemporaine"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-es-province-lugo",
+    "type_entite": "subdivision",
+    "nom": "Lugo",
+    "nom_court": "Lugo",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Lugo",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "provincia",
+       "parent_id": "territoire-es-espagne",
+       "souverainete_id": "espagne",
+       "reserves": [
+        "R2ES-01",
+        "R2ES-02",
+        "R2ES-03"
+       ],
+       "note": "Nom proposé d’après l’annuaire 1944–1945 ; graphies statistiques et non transcription d’un acte constitutif. Les surfaces et les nombres de communes de 1940 ne sont pas repris. Aucun code administratif moderne ni contour attribué.",
+       "chef_lieu_propose": {
+        "nom": "Lugo",
+        "annee_preuve": "1944–1945",
+        "source_id": "src-ine-es-anuario-1944-1945-territorio",
+        "locator": "p.20, table XI ; p.5, table IV, ligne Lugo",
+        "statut": "reference_contemporaine_a_relire_non_validee_au_jour",
+        "ville_id_existante": "ville-es-lugo"
+       }
+      },
+      "sources": [
+       {
+        "source_id": "src-ine-es-anuario-1944-1945-territorio",
+        "locator": "p.19, table IX, ligne Lugo ; p.20, table XI, ligne Lugo",
+        "usage": "liste provinciale et capitale ; forme statistique contemporaine"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-es-province-madrid",
+    "type_entite": "subdivision",
+    "nom": "Madrid",
+    "nom_court": "Madrid",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Madrid",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "provincia",
+       "parent_id": "territoire-es-espagne",
+       "souverainete_id": "espagne",
+       "reserves": [
+        "R2ES-01",
+        "R2ES-02",
+        "R2ES-03"
+       ],
+       "note": "Nom proposé d’après l’annuaire 1944–1945 ; graphies statistiques et non transcription d’un acte constitutif. Les surfaces et les nombres de communes de 1940 ne sont pas repris. Aucun code administratif moderne ni contour attribué.",
+       "chef_lieu_propose": {
+        "nom": "Madrid",
+        "annee_preuve": "1944–1945",
+        "source_id": "src-ine-es-anuario-1944-1945-territorio",
+        "locator": "p.20, table XI ; p.5, table IV, ligne Madrid",
+        "statut": "reference_contemporaine_a_relire_non_validee_au_jour",
+        "ville_id_existante": "ville-es-madrid"
+       }
+      },
+      "sources": [
+       {
+        "source_id": "src-ine-es-anuario-1944-1945-territorio",
+        "locator": "p.19, table IX, ligne Madrid ; p.20, table XI, ligne Madrid",
+        "usage": "liste provinciale et capitale ; forme statistique contemporaine"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-es-province-malaga",
+    "type_entite": "subdivision",
+    "nom": "Málaga",
+    "nom_court": "Málaga",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Málaga",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "provincia",
+       "parent_id": "territoire-es-espagne",
+       "souverainete_id": "espagne",
+       "reserves": [
+        "R2ES-01",
+        "R2ES-02",
+        "R2ES-03"
+       ],
+       "note": "Nom proposé d’après l’annuaire 1944–1945 ; graphies statistiques et non transcription d’un acte constitutif. Les surfaces et les nombres de communes de 1940 ne sont pas repris. Aucun code administratif moderne ni contour attribué.",
+       "chef_lieu_propose": {
+        "nom": "Málaga",
+        "annee_preuve": "1944–1945",
+        "source_id": "src-ine-es-anuario-1944-1945-territorio",
+        "locator": "p.20, table XI ; p.5, table IV, ligne Málaga",
+        "statut": "reference_contemporaine_a_relire_non_validee_au_jour",
+        "ville_id_existante": "ville-es-malaga"
+       }
+      },
+      "sources": [
+       {
+        "source_id": "src-ine-es-anuario-1944-1945-territorio",
+        "locator": "p.19, table IX, ligne Málaga ; p.20, table XI, ligne Málaga",
+        "usage": "liste provinciale et capitale ; forme statistique contemporaine"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-es-province-murcie",
+    "type_entite": "subdivision",
+    "nom": "Murcie",
+    "nom_court": "Murcie",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Murcia",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "provincia",
+       "parent_id": "territoire-es-espagne",
+       "souverainete_id": "espagne",
+       "reserves": [
+        "R2ES-01",
+        "R2ES-02",
+        "R2ES-03"
+       ],
+       "note": "Nom proposé d’après l’annuaire 1944–1945 ; graphies statistiques et non transcription d’un acte constitutif. Les surfaces et les nombres de communes de 1940 ne sont pas repris. Aucun code administratif moderne ni contour attribué.",
+       "chef_lieu_propose": {
+        "nom": "Murcia",
+        "annee_preuve": "1944–1945",
+        "source_id": "src-ine-es-anuario-1944-1945-territorio",
+        "locator": "p.20, table XI ; p.5, table IV, ligne Murcia",
+        "statut": "reference_contemporaine_a_relire_non_validee_au_jour",
+        "ville_id_existante": "ville-es-murcie"
+       }
+      },
+      "sources": [
+       {
+        "source_id": "src-ine-es-anuario-1944-1945-territorio",
+        "locator": "p.19, table IX, ligne Murcia ; p.20, table XI, ligne Murcia",
+        "usage": "liste provinciale et capitale ; forme statistique contemporaine"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-es-navarre",
+    "type_entite": "subdivision",
+    "nom": "Navarre",
+    "nom_court": "Navarre",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Navarra",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "provincia",
+       "parent_id": "territoire-es-espagne",
+       "souverainete_id": "espagne",
+       "reserves": [
+        "R2ES-01",
+        "R2ES-02",
+        "R2ES-03",
+        "R2ES-05"
+       ],
+       "note": "Nom proposé d’après l’annuaire 1944–1945 ; graphies statistiques et non transcription d’un acte constitutif. Les surfaces et les nombres de communes de 1940 ne sont pas repris. Aucun code administratif moderne ni contour attribué. La mention provincia ne tranche pas les régimes foraux et fiscaux particuliers.",
+       "chef_lieu_propose": {
+        "nom": "Pamplona",
+        "annee_preuve": "1944–1945",
+        "source_id": "src-ine-es-anuario-1944-1945-territorio",
+        "locator": "p.20, table XI ; p.5, table IV, ligne Pamplona",
+        "statut": "reference_contemporaine_a_relire_non_validee_au_jour",
+        "ville_id_existante": "ville-es-pampelune"
+       }
+      },
+      "sources": [
+       {
+        "source_id": "src-ine-es-anuario-1944-1945-territorio",
+        "locator": "p.19, table IX, ligne Navarra ; p.20, table XI, ligne Pamplona",
+        "usage": "liste provinciale et capitale ; forme statistique contemporaine"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-es-province-ourense",
+    "type_entite": "subdivision",
+    "nom": "Ourense",
+    "nom_court": "Ourense",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Orense",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "provincia",
+       "parent_id": "territoire-es-espagne",
+       "souverainete_id": "espagne",
+       "reserves": [
+        "R2ES-01",
+        "R2ES-02",
+        "R2ES-03"
+       ],
+       "note": "Nom proposé d’après l’annuaire 1944–1945 ; graphies statistiques et non transcription d’un acte constitutif. Les surfaces et les nombres de communes de 1940 ne sont pas repris. Aucun code administratif moderne ni contour attribué.",
+       "chef_lieu_propose": {
+        "nom": "Orense",
+        "annee_preuve": "1944–1945",
+        "source_id": "src-ine-es-anuario-1944-1945-territorio",
+        "locator": "p.20, table XI ; p.5, table IV, ligne Orense",
+        "statut": "reference_contemporaine_a_relire_non_validee_au_jour",
+        "ville_id_existante": "ville-es-ourense"
+       }
+      },
+      "sources": [
+       {
+        "source_id": "src-ine-es-anuario-1944-1945-territorio",
+        "locator": "p.19, table IX, ligne Orense ; p.20, table XI, ligne Orense",
+        "usage": "liste provinciale et capitale ; forme statistique contemporaine"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-es-asturies",
+    "type_entite": "subdivision",
+    "nom": "Oviedo",
+    "nom_court": "Oviedo",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Oviedo",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "provincia",
+       "parent_id": "territoire-es-espagne",
+       "souverainete_id": "espagne",
+       "reserves": [
+        "R2ES-01",
+        "R2ES-02",
+        "R2ES-03"
+       ],
+       "note": "Nom proposé d’après l’annuaire 1944–1945 ; graphies statistiques et non transcription d’un acte constitutif. Les surfaces et les nombres de communes de 1940 ne sont pas repris. Aucun code administratif moderne ni contour attribué.",
+       "chef_lieu_propose": {
+        "nom": "Oviedo",
+        "annee_preuve": "1944–1945",
+        "source_id": "src-ine-es-anuario-1944-1945-territorio",
+        "locator": "p.20, table XI ; p.5, table IV, ligne Oviedo",
+        "statut": "reference_contemporaine_a_relire_non_validee_au_jour",
+        "ville_id_existante": "ville-es-oviedo"
+       }
+      },
+      "sources": [
+       {
+        "source_id": "src-ine-es-anuario-1944-1945-territorio",
+        "locator": "p.19, table IX, ligne Oviedo ; p.20, table XI, ligne Oviedo",
+        "usage": "liste provinciale et capitale ; forme statistique contemporaine"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-es-province-palencia",
+    "type_entite": "subdivision",
+    "nom": "Palencia",
+    "nom_court": "Palencia",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Palencia",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "provincia",
+       "parent_id": "territoire-es-espagne",
+       "souverainete_id": "espagne",
+       "reserves": [
+        "R2ES-01",
+        "R2ES-02",
+        "R2ES-03"
+       ],
+       "note": "Nom proposé d’après l’annuaire 1944–1945 ; graphies statistiques et non transcription d’un acte constitutif. Les surfaces et les nombres de communes de 1940 ne sont pas repris. Aucun code administratif moderne ni contour attribué.",
+       "chef_lieu_propose": {
+        "nom": "Palencia",
+        "annee_preuve": "1944–1945",
+        "source_id": "src-ine-es-anuario-1944-1945-territorio",
+        "locator": "p.20, table XI ; p.5, table IV, ligne Palencia",
+        "statut": "reference_contemporaine_a_relire_non_validee_au_jour",
+        "ville_id_existante": "ville-es-palencia"
+       }
+      },
+      "sources": [
+       {
+        "source_id": "src-ine-es-anuario-1944-1945-territorio",
+        "locator": "p.19, table IX, ligne Palencia ; p.20, table XI, ligne Palencia",
+        "usage": "liste provinciale et capitale ; forme statistique contemporaine"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-es-province-las-palmas",
+    "type_entite": "subdivision",
+    "nom": "Las Palmas",
+    "nom_court": "Las Palmas",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Las Palmas",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "provincia",
+       "parent_id": "territoire-es-espagne",
+       "souverainete_id": "espagne",
+       "reserves": [
+        "R2ES-01",
+        "R2ES-02",
+        "R2ES-03"
+       ],
+       "note": "Nom proposé d’après l’annuaire 1944–1945 ; graphies statistiques et non transcription d’un acte constitutif. Les surfaces et les nombres de communes de 1940 ne sont pas repris. Aucun code administratif moderne ni contour attribué. Régime insulaire : cabildos et mancomunidad provinciale interinsulaire ; ne pas assimiler cette dernière à une diputación ordinaire.",
+       "chef_lieu_propose": {
+        "nom": "Las Palmas",
+        "annee_preuve": "1944–1945",
+        "source_id": "src-ine-es-anuario-1944-1945-territorio",
+        "locator": "p.20, table XI ; p.5, table IV, ligne Las Palmas",
+        "statut": "reference_contemporaine_a_relire_non_validee_au_jour",
+        "ville_id_existante": "ville-es-las-palmas-de-gran-canaria"
+       }
+      },
+      "sources": [
+       {
+        "source_id": "src-ine-es-anuario-1944-1945-territorio",
+        "locator": "p.19, table IX, ligne Las Palmas ; p.20, table XI, ligne Las Palmas",
+        "usage": "liste provinciale et capitale ; forme statistique contemporaine"
+       },
+       {
+        "source_id": "src-gaceta-es-rd1586-1927-canarias",
+        "locator": "p.1659 (PDF3), art.1–5",
+        "usage": "deux provinces, composition insulaire et cabildos"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-es-province-pontevedra",
+    "type_entite": "subdivision",
+    "nom": "Pontevedra",
+    "nom_court": "Pontevedra",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Pontevedra",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "provincia",
+       "parent_id": "territoire-es-espagne",
+       "souverainete_id": "espagne",
+       "reserves": [
+        "R2ES-01",
+        "R2ES-02",
+        "R2ES-03"
+       ],
+       "note": "Nom proposé d’après l’annuaire 1944–1945 ; graphies statistiques et non transcription d’un acte constitutif. Les surfaces et les nombres de communes de 1940 ne sont pas repris. Aucun code administratif moderne ni contour attribué.",
+       "chef_lieu_propose": {
+        "nom": "Pontevedra",
+        "annee_preuve": "1944–1945",
+        "source_id": "src-ine-es-anuario-1944-1945-territorio",
+        "locator": "p.20, table XI ; p.5, table IV, ligne Pontevedra",
+        "statut": "reference_contemporaine_a_relire_non_validee_au_jour",
+        "ville_id_existante": "ville-es-pontevedra"
+       }
+      },
+      "sources": [
+       {
+        "source_id": "src-ine-es-anuario-1944-1945-territorio",
+        "locator": "p.19, table IX, ligne Pontevedra ; p.20, table XI, ligne Pontevedra",
+        "usage": "liste provinciale et capitale ; forme statistique contemporaine"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-es-province-salamanque",
+    "type_entite": "subdivision",
+    "nom": "Salamanque",
+    "nom_court": "Salamanque",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Salamanca",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "provincia",
+       "parent_id": "territoire-es-espagne",
+       "souverainete_id": "espagne",
+       "reserves": [
+        "R2ES-01",
+        "R2ES-02",
+        "R2ES-03"
+       ],
+       "note": "Nom proposé d’après l’annuaire 1944–1945 ; graphies statistiques et non transcription d’un acte constitutif. Les surfaces et les nombres de communes de 1940 ne sont pas repris. Aucun code administratif moderne ni contour attribué.",
+       "chef_lieu_propose": {
+        "nom": "Salamanca",
+        "annee_preuve": "1944–1945",
+        "source_id": "src-ine-es-anuario-1944-1945-territorio",
+        "locator": "p.20, table XI ; p.5, table IV, ligne Salamanca",
+        "statut": "reference_contemporaine_a_relire_non_validee_au_jour",
+        "ville_id_existante": "ville-es-salamanque"
+       }
+      },
+      "sources": [
+       {
+        "source_id": "src-ine-es-anuario-1944-1945-territorio",
+        "locator": "p.19, table IX, ligne Salamanca ; p.20, table XI, ligne Salamanca",
+        "usage": "liste provinciale et capitale ; forme statistique contemporaine"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-es-province-santa-cruz-de-tenerife",
+    "type_entite": "subdivision",
+    "nom": "Santa Cruz de Tenerife",
+    "nom_court": "Santa Cruz de Tenerife",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Santa Cruz de Tenerife",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "provincia",
+       "parent_id": "territoire-es-espagne",
+       "souverainete_id": "espagne",
+       "reserves": [
+        "R2ES-01",
+        "R2ES-02",
+        "R2ES-03"
+       ],
+       "note": "Nom proposé d’après l’annuaire 1944–1945 ; graphies statistiques et non transcription d’un acte constitutif. Les surfaces et les nombres de communes de 1940 ne sont pas repris. Aucun code administratif moderne ni contour attribué. Régime insulaire : cabildos et mancomunidad provinciale interinsulaire ; ne pas assimiler cette dernière à une diputación ordinaire.",
+       "chef_lieu_propose": {
+        "nom": "Santa Cruz de Tenerife",
+        "annee_preuve": "1944–1945",
+        "source_id": "src-ine-es-anuario-1944-1945-territorio",
+        "locator": "p.20, table XI ; p.5, table IV, ligne Santa Cruz de Tenerife",
+        "statut": "reference_contemporaine_a_relire_non_validee_au_jour",
+        "ville_id_existante": "ville-es-santa-cruz-de-tenerife"
+       }
+      },
+      "sources": [
+       {
+        "source_id": "src-ine-es-anuario-1944-1945-territorio",
+        "locator": "p.19, table IX, ligne Santa Cruz de Tenerife ; p.20, table XI, ligne Santa Cruz de Tenerife",
+        "usage": "liste provinciale et capitale ; forme statistique contemporaine"
+       },
+       {
+        "source_id": "src-gaceta-es-rd1586-1927-canarias",
+        "locator": "p.1659 (PDF3), art.1–5",
+        "usage": "deux provinces, composition insulaire et cabildos"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-es-cantabrie",
+    "type_entite": "subdivision",
+    "nom": "Santander",
+    "nom_court": "Santander",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Santander",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "provincia",
+       "parent_id": "territoire-es-espagne",
+       "souverainete_id": "espagne",
+       "reserves": [
+        "R2ES-01",
+        "R2ES-02",
+        "R2ES-03"
+       ],
+       "note": "Nom proposé d’après l’annuaire 1944–1945 ; graphies statistiques et non transcription d’un acte constitutif. Les surfaces et les nombres de communes de 1940 ne sont pas repris. Aucun code administratif moderne ni contour attribué.",
+       "chef_lieu_propose": {
+        "nom": "Santander",
+        "annee_preuve": "1944–1945",
+        "source_id": "src-ine-es-anuario-1944-1945-territorio",
+        "locator": "p.20, table XI ; p.5, table IV, ligne Santander",
+        "statut": "reference_contemporaine_a_relire_non_validee_au_jour",
+        "ville_id_existante": "ville-es-santander"
+       }
+      },
+      "sources": [
+       {
+        "source_id": "src-ine-es-anuario-1944-1945-territorio",
+        "locator": "p.19, table IX, ligne Santander ; p.20, table XI, ligne Santander",
+        "usage": "liste provinciale et capitale ; forme statistique contemporaine"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-es-province-segovie",
+    "type_entite": "subdivision",
+    "nom": "Ségovie",
+    "nom_court": "Ségovie",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Segovia",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "provincia",
+       "parent_id": "territoire-es-espagne",
+       "souverainete_id": "espagne",
+       "reserves": [
+        "R2ES-01",
+        "R2ES-02",
+        "R2ES-03"
+       ],
+       "note": "Nom proposé d’après l’annuaire 1944–1945 ; graphies statistiques et non transcription d’un acte constitutif. Les surfaces et les nombres de communes de 1940 ne sont pas repris. Aucun code administratif moderne ni contour attribué.",
+       "chef_lieu_propose": {
+        "nom": "Segovia",
+        "annee_preuve": "1944–1945",
+        "source_id": "src-ine-es-anuario-1944-1945-territorio",
+        "locator": "p.20, table XI ; p.5, table IV, ligne Segovia",
+        "statut": "reference_contemporaine_a_relire_non_validee_au_jour",
+        "ville_id_existante": "ville-es-segovie"
+       }
+      },
+      "sources": [
+       {
+        "source_id": "src-ine-es-anuario-1944-1945-territorio",
+        "locator": "p.19, table IX, ligne Segovia ; p.20, table XI, ligne Segovia",
+        "usage": "liste provinciale et capitale ; forme statistique contemporaine"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-es-province-seville",
+    "type_entite": "subdivision",
+    "nom": "Séville",
+    "nom_court": "Séville",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Sevilla",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "provincia",
+       "parent_id": "territoire-es-espagne",
+       "souverainete_id": "espagne",
+       "reserves": [
+        "R2ES-01",
+        "R2ES-02",
+        "R2ES-03"
+       ],
+       "note": "Nom proposé d’après l’annuaire 1944–1945 ; graphies statistiques et non transcription d’un acte constitutif. Les surfaces et les nombres de communes de 1940 ne sont pas repris. Aucun code administratif moderne ni contour attribué.",
+       "chef_lieu_propose": {
+        "nom": "Sevilla",
+        "annee_preuve": "1944–1945",
+        "source_id": "src-ine-es-anuario-1944-1945-territorio",
+        "locator": "p.20, table XI ; p.5, table IV, ligne Sevilla",
+        "statut": "reference_contemporaine_a_relire_non_validee_au_jour",
+        "ville_id_existante": "ville-es-seville"
+       }
+      },
+      "sources": [
+       {
+        "source_id": "src-ine-es-anuario-1944-1945-territorio",
+        "locator": "p.19, table IX, ligne Sevilla ; p.20, table XI, ligne Sevilla",
+        "usage": "liste provinciale et capitale ; forme statistique contemporaine"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-es-province-soria",
+    "type_entite": "subdivision",
+    "nom": "Soria",
+    "nom_court": "Soria",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Soria",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "provincia",
+       "parent_id": "territoire-es-espagne",
+       "souverainete_id": "espagne",
+       "reserves": [
+        "R2ES-01",
+        "R2ES-02",
+        "R2ES-03"
+       ],
+       "note": "Nom proposé d’après l’annuaire 1944–1945 ; graphies statistiques et non transcription d’un acte constitutif. Les surfaces et les nombres de communes de 1940 ne sont pas repris. Aucun code administratif moderne ni contour attribué.",
+       "chef_lieu_propose": {
+        "nom": "Soria",
+        "annee_preuve": "1944–1945",
+        "source_id": "src-ine-es-anuario-1944-1945-territorio",
+        "locator": "p.20, table XI ; p.5, table IV, ligne Soria",
+        "statut": "reference_contemporaine_a_relire_non_validee_au_jour",
+        "ville_id_existante": "ville-es-soria"
+       }
+      },
+      "sources": [
+       {
+        "source_id": "src-ine-es-anuario-1944-1945-territorio",
+        "locator": "p.19, table IX, ligne Soria ; p.20, table XI, ligne Soria",
+        "usage": "liste provinciale et capitale ; forme statistique contemporaine"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-es-province-tarragone",
+    "type_entite": "subdivision",
+    "nom": "Tarragone",
+    "nom_court": "Tarragone",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Tarragona",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "provincia",
+       "parent_id": "territoire-es-espagne",
+       "souverainete_id": "espagne",
+       "reserves": [
+        "R2ES-01",
+        "R2ES-02",
+        "R2ES-03"
+       ],
+       "note": "Nom proposé d’après l’annuaire 1944–1945 ; graphies statistiques et non transcription d’un acte constitutif. Les surfaces et les nombres de communes de 1940 ne sont pas repris. Aucun code administratif moderne ni contour attribué.",
+       "chef_lieu_propose": {
+        "nom": "Tarragona",
+        "annee_preuve": "1944–1945",
+        "source_id": "src-ine-es-anuario-1944-1945-territorio",
+        "locator": "p.20, table XI ; p.5, table IV, ligne Tarragona",
+        "statut": "reference_contemporaine_a_relire_non_validee_au_jour",
+        "ville_id_existante": "ville-es-tarragone"
+       }
+      },
+      "sources": [
+       {
+        "source_id": "src-ine-es-anuario-1944-1945-territorio",
+        "locator": "p.19, table IX, ligne Tarragona ; p.20, table XI, ligne Tarragona",
+        "usage": "liste provinciale et capitale ; forme statistique contemporaine"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-es-province-teruel",
+    "type_entite": "subdivision",
+    "nom": "Teruel",
+    "nom_court": "Teruel",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Teruel",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "provincia",
+       "parent_id": "territoire-es-espagne",
+       "souverainete_id": "espagne",
+       "reserves": [
+        "R2ES-01",
+        "R2ES-02",
+        "R2ES-03"
+       ],
+       "note": "Nom proposé d’après l’annuaire 1944–1945 ; graphies statistiques et non transcription d’un acte constitutif. Les surfaces et les nombres de communes de 1940 ne sont pas repris. Aucun code administratif moderne ni contour attribué.",
+       "chef_lieu_propose": {
+        "nom": "Teruel",
+        "annee_preuve": "1944–1945",
+        "source_id": "src-ine-es-anuario-1944-1945-territorio",
+        "locator": "p.20, table XI ; p.5, table IV, ligne Teruel",
+        "statut": "reference_contemporaine_a_relire_non_validee_au_jour",
+        "ville_id_existante": "ville-es-teruel"
+       }
+      },
+      "sources": [
+       {
+        "source_id": "src-ine-es-anuario-1944-1945-territorio",
+        "locator": "p.19, table IX, ligne Teruel ; p.20, table XI, ligne Teruel",
+        "usage": "liste provinciale et capitale ; forme statistique contemporaine"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-es-province-tolede",
+    "type_entite": "subdivision",
+    "nom": "Tolède",
+    "nom_court": "Tolède",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Toledo",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "provincia",
+       "parent_id": "territoire-es-espagne",
+       "souverainete_id": "espagne",
+       "reserves": [
+        "R2ES-01",
+        "R2ES-02",
+        "R2ES-03"
+       ],
+       "note": "Nom proposé d’après l’annuaire 1944–1945 ; graphies statistiques et non transcription d’un acte constitutif. Les surfaces et les nombres de communes de 1940 ne sont pas repris. Aucun code administratif moderne ni contour attribué.",
+       "chef_lieu_propose": {
+        "nom": "Toledo",
+        "annee_preuve": "1944–1945",
+        "source_id": "src-ine-es-anuario-1944-1945-territorio",
+        "locator": "p.20, table XI ; p.5, table IV, ligne Toledo",
+        "statut": "reference_contemporaine_a_relire_non_validee_au_jour",
+        "ville_id_existante": "ville-es-tolede"
+       }
+      },
+      "sources": [
+       {
+        "source_id": "src-ine-es-anuario-1944-1945-territorio",
+        "locator": "p.19, table IX, ligne Toledo ; p.20, table XI, ligne Toledo",
+        "usage": "liste provinciale et capitale ; forme statistique contemporaine"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-es-province-valence",
+    "type_entite": "subdivision",
+    "nom": "Valence",
+    "nom_court": "Valence",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Valencia",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "provincia",
+       "parent_id": "territoire-es-espagne",
+       "souverainete_id": "espagne",
+       "reserves": [
+        "R2ES-01",
+        "R2ES-02",
+        "R2ES-03"
+       ],
+       "note": "Nom proposé d’après l’annuaire 1944–1945 ; graphies statistiques et non transcription d’un acte constitutif. Les surfaces et les nombres de communes de 1940 ne sont pas repris. Aucun code administratif moderne ni contour attribué.",
+       "chef_lieu_propose": {
+        "nom": "Valencia",
+        "annee_preuve": "1944–1945",
+        "source_id": "src-ine-es-anuario-1944-1945-territorio",
+        "locator": "p.20, table XI ; p.5, table IV, ligne Valencia",
+        "statut": "reference_contemporaine_a_relire_non_validee_au_jour",
+        "ville_id_existante": "ville-es-valence"
+       }
+      },
+      "sources": [
+       {
+        "source_id": "src-ine-es-anuario-1944-1945-territorio",
+        "locator": "p.19, table IX, ligne Valencia ; p.20, table XI, ligne Valencia",
+        "usage": "liste provinciale et capitale ; forme statistique contemporaine"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-es-province-valladolid",
+    "type_entite": "subdivision",
+    "nom": "Valladolid",
+    "nom_court": "Valladolid",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Valladolid",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "provincia",
+       "parent_id": "territoire-es-espagne",
+       "souverainete_id": "espagne",
+       "reserves": [
+        "R2ES-01",
+        "R2ES-02",
+        "R2ES-03"
+       ],
+       "note": "Nom proposé d’après l’annuaire 1944–1945 ; graphies statistiques et non transcription d’un acte constitutif. Les surfaces et les nombres de communes de 1940 ne sont pas repris. Aucun code administratif moderne ni contour attribué.",
+       "chef_lieu_propose": {
+        "nom": "Valladolid",
+        "annee_preuve": "1944–1945",
+        "source_id": "src-ine-es-anuario-1944-1945-territorio",
+        "locator": "p.20, table XI ; p.5, table IV, ligne Valladolid",
+        "statut": "reference_contemporaine_a_relire_non_validee_au_jour",
+        "ville_id_existante": "ville-es-valladolid"
+       }
+      },
+      "sources": [
+       {
+        "source_id": "src-ine-es-anuario-1944-1945-territorio",
+        "locator": "p.19, table IX, ligne Valladolid ; p.20, table XI, ligne Valladolid",
+        "usage": "liste provinciale et capitale ; forme statistique contemporaine"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-es-biscaye",
+    "type_entite": "subdivision",
+    "nom": "Biscaye",
+    "nom_court": "Biscaye",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Vizcaya",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "provincia",
+       "parent_id": "territoire-es-espagne",
+       "souverainete_id": "espagne",
+       "reserves": [
+        "R2ES-01",
+        "R2ES-02",
+        "R2ES-03",
+        "R2ES-05"
+       ],
+       "note": "Nom proposé d’après l’annuaire 1944–1945 ; graphies statistiques et non transcription d’un acte constitutif. Les surfaces et les nombres de communes de 1940 ne sont pas repris. Aucun code administratif moderne ni contour attribué. La mention provincia ne tranche pas les régimes foraux et fiscaux particuliers.",
+       "chef_lieu_propose": {
+        "nom": "Bilbao",
+        "annee_preuve": "1944–1945",
+        "source_id": "src-ine-es-anuario-1944-1945-territorio",
+        "locator": "p.20, table XI ; p.5, table IV, ligne Bilbao",
+        "statut": "reference_contemporaine_a_relire_non_validee_au_jour",
+        "ville_id_existante": "ville-es-bilbao"
+       }
+      },
+      "sources": [
+       {
+        "source_id": "src-ine-es-anuario-1944-1945-territorio",
+        "locator": "p.19, table IX, ligne Vizcaya ; p.20, table XI, ligne Bilbao",
+        "usage": "liste provinciale et capitale ; forme statistique contemporaine"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-es-province-zamora",
+    "type_entite": "subdivision",
+    "nom": "Zamora",
+    "nom_court": "Zamora",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Zamora",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "provincia",
+       "parent_id": "territoire-es-espagne",
+       "souverainete_id": "espagne",
+       "reserves": [
+        "R2ES-01",
+        "R2ES-02",
+        "R2ES-03"
+       ],
+       "note": "Nom proposé d’après l’annuaire 1944–1945 ; graphies statistiques et non transcription d’un acte constitutif. Les surfaces et les nombres de communes de 1940 ne sont pas repris. Aucun code administratif moderne ni contour attribué.",
+       "chef_lieu_propose": {
+        "nom": "Zamora",
+        "annee_preuve": "1944–1945",
+        "source_id": "src-ine-es-anuario-1944-1945-territorio",
+        "locator": "p.20, table XI ; p.5, table IV, ligne Zamora",
+        "statut": "reference_contemporaine_a_relire_non_validee_au_jour",
+        "ville_id_existante": "ville-es-zamora"
+       }
+      },
+      "sources": [
+       {
+        "source_id": "src-ine-es-anuario-1944-1945-territorio",
+        "locator": "p.19, table IX, ligne Zamora ; p.20, table XI, ligne Zamora",
+        "usage": "liste provinciale et capitale ; forme statistique contemporaine"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-es-province-saragosse",
+    "type_entite": "subdivision",
+    "nom": "Saragosse",
+    "nom_court": "Saragosse",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Zaragoza",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "provincia",
+       "parent_id": "territoire-es-espagne",
+       "souverainete_id": "espagne",
+       "reserves": [
+        "R2ES-01",
+        "R2ES-02",
+        "R2ES-03"
+       ],
+       "note": "Nom proposé d’après l’annuaire 1944–1945 ; graphies statistiques et non transcription d’un acte constitutif. Les surfaces et les nombres de communes de 1940 ne sont pas repris. Aucun code administratif moderne ni contour attribué.",
+       "chef_lieu_propose": {
+        "nom": "Zaragoza",
+        "annee_preuve": "1944–1945",
+        "source_id": "src-ine-es-anuario-1944-1945-territorio",
+        "locator": "p.20, table XI ; p.5, table IV, ligne Zaragoza",
+        "statut": "reference_contemporaine_a_relire_non_validee_au_jour",
+        "ville_id_existante": "ville-es-saragosse"
+       }
+      },
+      "sources": [
+       {
+        "source_id": "src-ine-es-anuario-1944-1945-territorio",
+        "locator": "p.19, table IX, ligne Zaragoza ; p.20, table XI, ligne Zaragoza",
+        "usage": "liste provinciale et capitale ; forme statistique contemporaine"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-es-tenerife",
+    "type_entite": "subdivision",
+    "nom": "Tenerife",
+    "nom_court": "Tenerife",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Tenerife",
+       "niveau": 2,
+       "echelon": 2,
+       "statut_administratif": "isla (Cabildo insular)",
+       "parent_id": "subdivision-es-province-santa-cruz-de-tenerife",
+       "souverainete_id": "espagne",
+       "reserves": [
+        "R2ES-01",
+        "R2ES-04"
+       ],
+       "note": "Unité territoriale insulaire administrée par un cabildo ; le conseil n’est pas une entité territoriale supplémentaire. Nom insulaire du texte de 1927, continuité au 01/01/1945 proposée ; preuve locale inégale, particulièrement La Palma. Aucun siège du cabildo ni code ni tracé ajouté."
+      },
+      "sources": [
+       {
+        "source_id": "src-gaceta-es-rd1586-1927-canarias",
+        "locator": "p.1659 (PDF3), art.2 et 5",
+        "usage": "territoire insulaire, rattachement provincial et maintien des cabildos"
+       },
+       {
+        "source_id": "src-ieal-es-revl18-1944-actividades",
+        "locator": "p.1044 (PDF12), inventaire documentaire",
+        "usage": "attestation complémentaire de l’institution ; portée détaillée dans R2ES-04"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-es-la-palma",
+    "type_entite": "subdivision",
+    "nom": "La Palma",
+    "nom_court": "La Palma",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Palma",
+       "niveau": 2,
+       "echelon": 2,
+       "statut_administratif": "isla (Cabildo insular)",
+       "parent_id": "subdivision-es-province-santa-cruz-de-tenerife",
+       "souverainete_id": "espagne",
+       "reserves": [
+        "R2ES-01",
+        "R2ES-04"
+       ],
+       "note": "Unité territoriale insulaire administrée par un cabildo ; le conseil n’est pas une entité territoriale supplémentaire. Nom insulaire du texte de 1927, continuité au 01/01/1945 proposée ; preuve locale inégale, particulièrement La Palma. Aucun siège du cabildo ni code ni tracé ajouté."
+      },
+      "sources": [
+       {
+        "source_id": "src-gaceta-es-rd1586-1927-canarias",
+        "locator": "p.1659 (PDF3), art.2 et 5",
+        "usage": "territoire insulaire, rattachement provincial et maintien des cabildos"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-es-la-gomera",
+    "type_entite": "subdivision",
+    "nom": "La Gomera",
+    "nom_court": "La Gomera",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Gomera",
+       "niveau": 2,
+       "echelon": 2,
+       "statut_administratif": "isla (Cabildo insular)",
+       "parent_id": "subdivision-es-province-santa-cruz-de-tenerife",
+       "souverainete_id": "espagne",
+       "reserves": [
+        "R2ES-01",
+        "R2ES-04"
+       ],
+       "note": "Unité territoriale insulaire administrée par un cabildo ; le conseil n’est pas une entité territoriale supplémentaire. Nom insulaire du texte de 1927, continuité au 01/01/1945 proposée ; preuve locale inégale, particulièrement La Palma. Aucun siège du cabildo ni code ni tracé ajouté."
+      },
+      "sources": [
+       {
+        "source_id": "src-gaceta-es-rd1586-1927-canarias",
+        "locator": "p.1659 (PDF3), art.2 et 5",
+        "usage": "territoire insulaire, rattachement provincial et maintien des cabildos"
+       },
+       {
+        "source_id": "src-ieal-es-revl14-1944-personal",
+        "locator": "p.325 (PDF5), concours du 20/04/1944",
+        "usage": "attestation complémentaire de l’institution ; portée détaillée dans R2ES-04"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-es-el-hierro",
+    "type_entite": "subdivision",
+    "nom": "El Hierro",
+    "nom_court": "El Hierro",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Hierro",
+       "niveau": 2,
+       "echelon": 2,
+       "statut_administratif": "isla (Cabildo insular)",
+       "parent_id": "subdivision-es-province-santa-cruz-de-tenerife",
+       "souverainete_id": "espagne",
+       "reserves": [
+        "R2ES-01",
+        "R2ES-04"
+       ],
+       "note": "Unité territoriale insulaire administrée par un cabildo ; le conseil n’est pas une entité territoriale supplémentaire. Nom insulaire du texte de 1927, continuité au 01/01/1945 proposée ; preuve locale inégale, particulièrement La Palma. Aucun siège du cabildo ni code ni tracé ajouté."
+      },
+      "sources": [
+       {
+        "source_id": "src-gaceta-es-rd1586-1927-canarias",
+        "locator": "p.1659 (PDF3), art.2 et 5",
+        "usage": "territoire insulaire, rattachement provincial et maintien des cabildos"
+       },
+       {
+        "source_id": "src-ieal-es-revl14-1944-personal",
+        "locator": "p.325 (PDF5), concours du 20/04/1944",
+        "usage": "attestation complémentaire de l’institution ; portée détaillée dans R2ES-04"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-es-grande-canarie",
+    "type_entite": "subdivision",
+    "nom": "Grande Canarie",
+    "nom_court": "Grande Canarie",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Gran Canaria",
+       "niveau": 2,
+       "echelon": 2,
+       "statut_administratif": "isla (Cabildo insular)",
+       "parent_id": "subdivision-es-province-las-palmas",
+       "souverainete_id": "espagne",
+       "reserves": [
+        "R2ES-01",
+        "R2ES-04"
+       ],
+       "note": "Unité territoriale insulaire administrée par un cabildo ; le conseil n’est pas une entité territoriale supplémentaire. Nom insulaire du texte de 1927, continuité au 01/01/1945 proposée ; preuve locale inégale, particulièrement La Palma. Aucun siège du cabildo ni code ni tracé ajouté."
+      },
+      "sources": [
+       {
+        "source_id": "src-gaceta-es-rd1586-1927-canarias",
+        "locator": "p.1659 (PDF3), art.2 et 5",
+        "usage": "territoire insulaire, rattachement provincial et maintien des cabildos"
+       },
+       {
+        "source_id": "src-ieal-es-revl18-1944-actividades",
+        "locator": "p.1044 (PDF12), inventaire documentaire",
+        "usage": "attestation complémentaire de l’institution ; portée détaillée dans R2ES-04"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-es-lanzarote",
+    "type_entite": "subdivision",
+    "nom": "Lanzarote",
+    "nom_court": "Lanzarote",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Lanzarote",
+       "niveau": 2,
+       "echelon": 2,
+       "statut_administratif": "isla (Cabildo insular)",
+       "parent_id": "subdivision-es-province-las-palmas",
+       "souverainete_id": "espagne",
+       "reserves": [
+        "R2ES-01",
+        "R2ES-04"
+       ],
+       "note": "Unité territoriale insulaire administrée par un cabildo ; le conseil n’est pas une entité territoriale supplémentaire. Nom insulaire du texte de 1927, continuité au 01/01/1945 proposée ; preuve locale inégale, particulièrement La Palma. Aucun siège du cabildo ni code ni tracé ajouté."
+      },
+      "sources": [
+       {
+        "source_id": "src-gaceta-es-rd1586-1927-canarias",
+        "locator": "p.1659 (PDF3), art.2 et 5",
+        "usage": "territoire insulaire, rattachement provincial et maintien des cabildos"
+       },
+       {
+        "source_id": "src-ieal-es-revl18-1944-actividades",
+        "locator": "p.1044 (PDF12), inventaire documentaire",
+        "usage": "attestation complémentaire de l’institution ; portée détaillée dans R2ES-04"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-es-fuerteventura",
+    "type_entite": "subdivision",
+    "nom": "Fuerteventura",
+    "nom_court": "Fuerteventura",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Fuerteventura",
+       "niveau": 2,
+       "echelon": 2,
+       "statut_administratif": "isla (Cabildo insular)",
+       "parent_id": "subdivision-es-province-las-palmas",
+       "souverainete_id": "espagne",
+       "reserves": [
+        "R2ES-01",
+        "R2ES-04"
+       ],
+       "note": "Unité territoriale insulaire administrée par un cabildo ; le conseil n’est pas une entité territoriale supplémentaire. Nom insulaire du texte de 1927, continuité au 01/01/1945 proposée ; preuve locale inégale, particulièrement La Palma. Aucun siège du cabildo ni code ni tracé ajouté."
+      },
+      "sources": [
+       {
+        "source_id": "src-gaceta-es-rd1586-1927-canarias",
+        "locator": "p.1659 (PDF3), art.2 et 5",
+        "usage": "territoire insulaire, rattachement provincial et maintien des cabildos"
+       },
+       {
+        "source_id": "src-cabildofuer-siege-1944",
+        "locator": "notice du 27/03/2023, paragraphe sur le siège avant 1944",
+        "usage": "attestation complémentaire de l’institution ; portée détaillée dans R2ES-04"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   }
+  ]
+ }
+}

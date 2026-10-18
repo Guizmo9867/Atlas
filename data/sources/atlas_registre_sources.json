@@ -1,7 +1,7 @@
 {
  "metadata": {
   "nom": "registre_sources_atlas",
-  "version": "1.39",
+  "version": "1.40",
   "date_creation": "2026-09-26",
   "principe": "Une source = un source_id stable. Les fiches événements/entités peuvent référencer ce source_id et préciser l'usage/locator.",
   "statut": "registre_initial_a_completer"
@@ -48616,6 +48616,575 @@
      "fichier": "preuves/belfort-liberation.txt",
      "sha256": "ce1335e62ab12b8e3b9438378b25543dc3abc1b26ee516c3ee9111b275f7fd67"
     }
+   ]
+  },
+  {
+   "source_id": "src-ine-es-anuario-1944-1945-territorio",
+   "niveau": "A",
+   "type_source": "publication_statistique",
+   "titre": "Anuario estadístico de España 1944–1945 — Territorio, tables IV, IX–XI",
+   "institution": "Instituto Nacional de Estadística ; données de l’Instituto Geográfico y Catastral",
+   "url": "https://ine.es/inebaseweb/treeNavigation.do?L=0&tn=161964",
+   "date_consultation": "2026-10-18",
+   "periode_couverte": [],
+   "zones": [
+    "ES"
+   ],
+   "usages_atlas": [
+    "subdivisions_snapshot0"
+   ],
+   "cibles": [
+    "subdivision-es-alava",
+    "subdivision-es-province-albacete",
+    "subdivision-es-province-alicante",
+    "subdivision-es-province-almeria",
+    "subdivision-es-province-avila",
+    "subdivision-es-province-badajoz",
+    "subdivision-es-baleares",
+    "subdivision-es-province-barcelone",
+    "subdivision-es-province-burgos",
+    "subdivision-es-province-caceres",
+    "subdivision-es-province-cadix",
+    "subdivision-es-province-castellon-de-la-plana",
+    "subdivision-es-province-ciudad-real",
+    "subdivision-es-province-cordoue",
+    "subdivision-es-province-la-corogne",
+    "subdivision-es-province-cuenca",
+    "subdivision-es-province-gerone",
+    "subdivision-es-province-grenade",
+    "subdivision-es-province-guadalajara",
+    "subdivision-es-guipuscoa",
+    "subdivision-es-province-huelva",
+    "subdivision-es-province-huesca",
+    "subdivision-es-province-jaen",
+    "subdivision-es-province-leon",
+    "subdivision-es-province-lerida",
+    "subdivision-es-la-rioja",
+    "subdivision-es-province-lugo",
+    "subdivision-es-province-madrid",
+    "subdivision-es-province-malaga",
+    "subdivision-es-province-murcie",
+    "subdivision-es-navarre",
+    "subdivision-es-province-ourense",
+    "subdivision-es-asturies",
+    "subdivision-es-province-palencia",
+    "subdivision-es-province-las-palmas",
+    "subdivision-es-province-pontevedra",
+    "subdivision-es-province-salamanque",
+    "subdivision-es-province-santa-cruz-de-tenerife",
+    "subdivision-es-cantabrie",
+    "subdivision-es-province-segovie",
+    "subdivision-es-province-seville",
+    "subdivision-es-province-soria",
+    "subdivision-es-province-tarragone",
+    "subdivision-es-province-teruel",
+    "subdivision-es-province-tolede",
+    "subdivision-es-province-valence",
+    "subdivision-es-province-valladolid",
+    "subdivision-es-biscaye",
+    "subdivision-es-province-zamora",
+    "subdivision-es-province-saragosse"
+   ],
+   "locator": "p.5,19,20 ; chaque téléchargement PDF a une page",
+   "resume_passage": "WebFetch en erreur serveur (2 essais), sans contournement. Captures d'Ether lues par Claude (preuves/ine_provinces_p1.png, ine_capitales_p1.png ; pied « Anuario 1944 - 1945, Fondo documental del Instituto Nacional de Estadística ») : table IX p.19 « Extensión superficial, absoluta y relativa, de las provincias de España », 50 provinces recomptées (Alava … Zaragoza) ; table XI p.20, capitales de province (Vitoria (Alava), Bilbao (Vizcaya), San Sebastián (Guipúzcoa), Pamplona (Navarra), Oviedo, Santander, Logroño…). Effectifs communaux datés « fin del año 1940 » : non repris (R2ES-02). Prouve la nomenclature de l'annuaire 1944-1945, pas chaque limite au jour.",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "lu",
+    "date": "2026-10-18",
+    "mode": "Tableaux INE, BOE1927 et INAP14 vus en capture ; autres textes lus, limites explicites."
+   },
+   "notes": "Proposée par Ether (lot 2.ES, cycle 1). Ce que la source prouve selon Ether : 50 provinces, noms et références de capitales. Limite annoncée par Ether : Les nombres communaux de la table X sont datés fin1940. Ne pas les transformer en dénombrement au 01/01/1945 ; l’annuaire atteste la nomenclature contemporaine, pas chaque changement au jour. Relecture Claude 2026-10-18 : WebFetch en erreur serveur (2 essais), sans contournement. Captures d'Ether lues par Claude (preuves/ine_provinces_p1.png, ine_capitales_p1.png ; pied « Anuario 1944 - 1945, Fondo documental del Instituto Nacional de Estadística ») : table IX p.19 « Extensión superficial, absoluta y relativa, de las provincias de España », 50 provinces recomptées (Alava … Zaragoza) ; table XI p.20, capitales de province (Vitoria (Alava), Bilbao (Vizcaya), San Sebastián (Guipúzcoa), Pamplona (Navarra), Oviedo, Santander, Logroño…). Effectifs communaux datés « fin del año 1940 » : non repris (R2ES-02). Prouve la nomenclature de l'annuaire 1944-1945, pas chaque limite au jour.",
+   "auteur": "Instituto Nacional de Estadística ; données de l’Instituto Geográfico y Catastral",
+   "archives_locales": [
+    "01_lots/2.ES/preuves/ine_provinces.pdf",
+    "01_lots/2.ES/preuves/ine_provinces_p1.png",
+    "01_lots/2.ES/preuves/ine_capitales.pdf",
+    "01_lots/2.ES/preuves/ine_capitales_p1.png",
+    "01_lots/2.ES/preuves/ine_altitudes_capitales.pdf",
+    "01_lots/2.ES/preuves/ine_territoire_tables.html"
+   ]
+  },
+  {
+   "source_id": "src-gaceta-es-rd1586-1927-canarias",
+   "niveau": "A",
+   "type_source": "document_officiel",
+   "titre": "Real decreto núm.1586, 21/09/1927 — division provinciale des Canaries",
+   "institution": "Presidencia del Consejo de Ministros ; Gaceta de Madrid",
+   "url": "https://www.boe.es/gazeta/dias/1927/09/23/pdfs/GMD-1927-266.pdf",
+   "date_consultation": "2026-10-18",
+   "periode_couverte": [],
+   "zones": [
+    "ES"
+   ],
+   "usages_atlas": [
+    "subdivisions_snapshot0"
+   ],
+   "cibles": [
+    "subdivision-es-province-las-palmas",
+    "subdivision-es-province-santa-cruz-de-tenerife",
+    "subdivision-es-tenerife",
+    "subdivision-es-la-palma",
+    "subdivision-es-la-gomera",
+    "subdivision-es-el-hierro",
+    "subdivision-es-grande-canarie",
+    "subdivision-es-lanzarote",
+    "subdivision-es-fuerteventura"
+   ],
+   "locator": "23/09/1927, p.1659 (PDF3), art.1–5",
+   "resume_passage": "Lu par le sous-agent (PDF) et capture p.1659 lue par Claude : « Artículo 1.º El territorio nacional que constituye el Archipiélago canario se dividirá en dos provincias… Santa Cruz de Tenerife y Las Palmas » ; art. 2 : Tenerife, Palma, Gomera y Hierro / Gran Canaria, Lanzarote y Fuerteventura (con los islotes de Alegranza, Roque del Este, Roque del Oeste, Graciosa, Montaña Clara y Lobos) ; art. 5 : « Subsistirán en cada una de las siete islas mayores… los actuales Cabildos insulares ». Texte de 1927 : continuité au 01/01/1945 supposée (R2ES-04).",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "lu",
+    "date": "2026-10-18",
+    "mode": "Tableaux INE, BOE1927 et INAP14 vus en capture ; autres textes lus, limites explicites."
+   },
+   "notes": "Proposée par Ether (lot 2.ES, cycle 1). Ce que la source prouve selon Ether : deux provinces, sept îles à cabildo, régime interinsulaire. Limite annoncée par Ether :  Relecture Claude 2026-10-18 : Lu par le sous-agent (PDF) et capture p.1659 lue par Claude : « Artículo 1.º El territorio nacional que constituye el Archipiélago canario se dividirá en dos provincias… Santa Cruz de Tenerife y Las Palmas » ; art. 2 : Tenerife, Palma, Gomera y Hierro / Gran Canaria, Lanzarote y Fuerteventura (con los islotes de Alegranza, Roque del Este, Roque del Oeste, Graciosa, Montaña Clara y Lobos) ; art. 5 : « Subsistirán en cada una de las siete islas mayores… los actuales Cabildos insulares ». Texte de 1927 : continuité au 01/01/1945 supposée (R2ES-04).",
+   "auteur": "Presidencia del Consejo de Ministros ; Gaceta de Madrid",
+   "archives_locales": [
+    "01_lots/2.ES/preuves/boe_canaries_1927.pdf",
+    "01_lots/2.ES/preuves/boe_canaries_1927_p3.png"
+   ]
+  },
+  {
+   "source_id": "src-ieal-es-revl14-1944-personal",
+   "niveau": "A",
+   "type_source": "document_officiel",
+   "titre": "REVL1944, nº14 — Información profesional",
+   "institution": "Instituto de Estudios de Administración Local ; dépôt INAP",
+   "url": "https://revistasonline.inap.es/index.php/REALA/article/download/3998/4052",
+   "date_consultation": "2026-10-18",
+   "periode_couverte": [],
+   "zones": [
+    "ES"
+   ],
+   "usages_atlas": [
+    "subdivisions_snapshot0"
+   ],
+   "cibles": [
+    "subdivision-es-la-gomera",
+    "subdivision-es-el-hierro"
+   ],
+   "locator": "p.325 (PDF5), concours du20/04/1944 ; p.331 (PDF11)",
+   "resume_passage": "Capture p.325 lue par Claude : « PROVINCIA DE SANTA CRUZ DE TENERIFE — Cabildo Insular de la Gomera.—9.000 pesetas. Cabildo Insular de Hierro.—9.000 pesetas. » ; « Madrid, 20 de abril de 1944.—El Director General, Carlos Pinilla. » Le sous-agent (OCR) plaçait ces lignes vers p.324 : la capture montre bien le numéro 325. Prouve l'existence des deux cabildos dans la province en 1944.",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "lu",
+    "date": "2026-10-18",
+    "mode": "Tableaux INE, BOE1927 et INAP14 vus en capture ; autres textes lus, limites explicites."
+   },
+   "notes": "Proposée par Ether (lot 2.ES, cycle 1). Ce que la source prouve selon Ether : cabildos de Gomera et Hierro sous Santa Cruz de Tenerife. Limite annoncée par Ether :  Relecture Claude 2026-10-18 : Capture p.325 lue par Claude : « PROVINCIA DE SANTA CRUZ DE TENERIFE — Cabildo Insular de la Gomera.—9.000 pesetas. Cabildo Insular de Hierro.—9.000 pesetas. » ; « Madrid, 20 de abril de 1944.—El Director General, Carlos Pinilla. » Le sous-agent (OCR) plaçait ces lignes vers p.324 : la capture montre bien le numéro 325. Prouve l'existence des deux cabildos dans la province en 1944.",
+   "auteur": "Instituto de Estudios de Administración Local ; dépôt INAP",
+   "archives_locales": [
+    "01_lots/2.ES/preuves/inap_concours_1944.pdf",
+    "01_lots/2.ES/preuves/inap_concours_p5.png"
+   ]
+  },
+  {
+   "source_id": "src-ieal-es-revl18-1944-actividades",
+   "niveau": "A",
+   "type_source": "document_officiel",
+   "titre": "REVL1944, nº18 — Actividades del Instituto",
+   "institution": "Instituto de Estudios de Administración Local ; dépôt INAP",
+   "url": "https://revistasonline.inap.es/index.php/REALA/article/download/5731/5783/5961",
+   "date_consultation": "2026-10-18",
+   "periode_couverte": [],
+   "zones": [
+    "ES"
+   ],
+   "usages_atlas": [
+    "subdivisions_snapshot0"
+   ],
+   "cibles": [
+    "subdivision-es-tenerife",
+    "subdivision-es-grande-canarie",
+    "subdivision-es-lanzarote"
+   ],
+   "locator": "p.1044 (PDF12), inventaire de mémoires, règlements et budgets",
+   "resume_passage": "Lu par le sous-agent et capture p.1044 lue par Claude : « MEMORIAS, REGLAMENTOS Y PRESUPUESTOS DE CABILDOS INSULARES — Gran Canaria. Lanzarote. Las Palmas. / Villa de Arico. Tenerife. » Inventaire bibliographique de 1944 : atteste des cabildos en activité, pas un acte de délimitation ; entrées « Las Palmas » et « Villa de Arico » ambiguës (non utilisées).",
+   "archive_locale": null,
+   "verification_claude": "limite",
+   "verification_ether": {
+    "statut": "lu",
+    "date": "2026-10-18",
+    "mode": "Tableaux INE, BOE1927 et INAP14 vus en capture ; autres textes lus, limites explicites."
+   },
+   "notes": "Proposée par Ether (lot 2.ES, cycle 1). Ce que la source prouve selon Ether : mentions documentaires de Gran Canaria, Lanzarote et Tenerife. Limite annoncée par Ether : Inventaire bibliographique contemporain, pas acte de délimitation ; ne pas prendre les autres entrées ambiguës pour une nouvelle île. Relecture Claude 2026-10-18 : Lu par le sous-agent et capture p.1044 lue par Claude : « MEMORIAS, REGLAMENTOS Y PRESUPUESTOS DE CABILDOS INSULARES — Gran Canaria. Lanzarote. Las Palmas. / Villa de Arico. Tenerife. » Inventaire bibliographique de 1944 : atteste des cabildos en activité, pas un acte de délimitation ; entrées « Las Palmas » et « Villa de Arico » ambiguës (non utilisées).",
+   "auteur": "Instituto de Estudios de Administración Local ; dépôt INAP",
+   "archives_locales": [
+    "01_lots/2.ES/preuves/inap_cabildos_1944.pdf",
+    "01_lots/2.ES/preuves/inap_cabildos_1944_p12.png"
+   ]
+  },
+  {
+   "source_id": "src-cabildofuer-siege-1944",
+   "niveau": "B",
+   "type_source": "etude_documentaire",
+   "titre": "La primera sede del Cabildo de Fuerteventura ya es parte del Patrimonio de la isla",
+   "institution": "Cabildo de Fuerteventura ; notice citant le rapport historique de Francisco Cerdeña",
+   "url": "https://www.cabildofuer.es/cabildo/la-primera-sede-del-cabildo-de-fuerteventura-ya-es-parte-del-patrimonio-de-la-isla/",
+   "date_consultation": "2026-10-18",
+   "periode_couverte": [],
+   "zones": [
+    "ES"
+   ],
+   "usages_atlas": [
+    "subdivisions_snapshot0"
+   ],
+   "cibles": [
+    "subdivision-es-fuerteventura"
+   ],
+   "locator": "27/03/2023, paragraphes sur les locaux utilisés avant1944",
+   "resume_passage": "Lu par le sous-agent : « hasta 1944, el Cabildo Insular no contó con sede propia ; desde 1913 hasta 1934 compartió espacio público con el Ayuntamiento ». Notice rétrospective de 2023 : atteste l'institution avant 1945, pas un document de la date ; le bâtiment reste une hypothèse.",
+   "archive_locale": null,
+   "verification_claude": "limite",
+   "verification_ether": {
+    "statut": "lu",
+    "date": "2026-10-18",
+    "mode": "Tableaux INE, BOE1927 et INAP14 vus en capture ; autres textes lus, limites explicites."
+   },
+   "notes": "Proposée par Ether (lot 2.ES, cycle 1). Ce que la source prouve selon Ether : attestation rétrospective du cabildo avant1945. Limite annoncée par Ether : Le bâtiment précis est présenté comme une hypothèse par la notice ; aucune adresse de siège ni géométrie déduite. Relecture Claude 2026-10-18 : Lu par le sous-agent : « hasta 1944, el Cabildo Insular no contó con sede propia ; desde 1913 hasta 1934 compartió espacio público con el Ayuntamiento ». Notice rétrospective de 2023 : atteste l'institution avant 1945, pas un document de la date ; le bâtiment reste une hypothèse.",
+   "auteur": "Cabildo de Fuerteventura ; notice citant le rapport historique de Francisco Cerdeña",
+   "archives_locales": [
+    "01_lots/2.ES/preuves/fuerteventura_siege.html"
+   ]
+  },
+  {
+   "source_id": "src-goerlich-perez-lau2spain-2025",
+   "niveau": "B",
+   "type_source": "etude_documentaire",
+   "titre": "Base de datos histórica de contornos municipales de España — LAU2boundaries4Spain",
+   "institution": "Francisco Goerlich et Pedro Pérez, Universidad de Valencia / Ivie",
+   "url": "https://www.uv.es/goerlich/Ivie/LAU2boundaries4Spain.html",
+   "date_consultation": "2026-10-18",
+   "periode_couverte": [],
+   "zones": [
+    "ES"
+   ],
+   "usages_atlas": [
+    "subdivisions_snapshot0"
+   ],
+   "cibles": [
+    "subdivision-es-alava",
+    "subdivision-es-province-albacete",
+    "subdivision-es-province-alicante",
+    "subdivision-es-province-almeria",
+    "subdivision-es-province-avila",
+    "subdivision-es-province-badajoz",
+    "subdivision-es-baleares",
+    "subdivision-es-province-barcelone",
+    "subdivision-es-province-burgos",
+    "subdivision-es-province-caceres",
+    "subdivision-es-province-cadix",
+    "subdivision-es-province-castellon-de-la-plana",
+    "subdivision-es-province-ciudad-real",
+    "subdivision-es-province-cordoue",
+    "subdivision-es-province-la-corogne",
+    "subdivision-es-province-cuenca",
+    "subdivision-es-province-gerone",
+    "subdivision-es-province-grenade",
+    "subdivision-es-province-guadalajara",
+    "subdivision-es-guipuscoa",
+    "subdivision-es-province-huelva",
+    "subdivision-es-province-huesca",
+    "subdivision-es-province-jaen",
+    "subdivision-es-province-leon",
+    "subdivision-es-province-lerida",
+    "subdivision-es-la-rioja",
+    "subdivision-es-province-lugo",
+    "subdivision-es-province-madrid",
+    "subdivision-es-province-malaga",
+    "subdivision-es-province-murcie",
+    "subdivision-es-navarre",
+    "subdivision-es-province-ourense",
+    "subdivision-es-asturies",
+    "subdivision-es-province-palencia",
+    "subdivision-es-province-las-palmas",
+    "subdivision-es-province-pontevedra",
+    "subdivision-es-province-salamanque",
+    "subdivision-es-province-santa-cruz-de-tenerife",
+    "subdivision-es-cantabrie",
+    "subdivision-es-province-segovie",
+    "subdivision-es-province-seville",
+    "subdivision-es-province-soria",
+    "subdivision-es-province-tarragone",
+    "subdivision-es-province-teruel",
+    "subdivision-es-province-tolede",
+    "subdivision-es-province-valence",
+    "subdivision-es-province-valladolid",
+    "subdivision-es-biscaye",
+    "subdivision-es-province-zamora",
+    "subdivision-es-province-saragosse",
+    "subdivision-es-tenerife",
+    "subdivision-es-la-palma",
+    "subdivision-es-la-gomera",
+    "subdivision-es-el-hierro",
+    "subdivision-es-grande-canarie",
+    "subdivision-es-lanzarote",
+    "subdivision-es-fuerteventura"
+   ],
+   "locator": "§2,2.1 ; mise à jour21/10/2025",
+   "resume_passage": "Lu par le sous-agent : série municipale 1998-2025, limites provinciales et extérieures « se mantienen fijos a los de la fecha de la descarga ». Prouve ce qu'Ether lui fait dire : base inutilisable pour 1945 (aucun tracé repris).",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "lu",
+    "date": "2026-10-18",
+    "mode": "Tableaux INE, BOE1927 et INAP14 vus en capture ; autres textes lus, limites explicites."
+   },
+   "notes": "Proposée par Ether (lot 2.ES, cycle 1). Ce que la source prouve selon Ether : écarter une fausse profondeur historique1945. Limite annoncée par Ether : Reconstruction jusqu’à1998, limites provinciales et extérieures maintenues au millésime de téléchargement2025. Aucun fichier géométrique repris. Relecture Claude 2026-10-18 : Lu par le sous-agent : série municipale 1998-2025, limites provinciales et extérieures « se mantienen fijos a los de la fecha de la descarga ». Prouve ce qu'Ether lui fait dire : base inutilisable pour 1945 (aucun tracé repris).",
+   "auteur": "Francisco Goerlich et Pedro Pérez, Universidad de Valencia / Ivie",
+   "archives_locales": [
+    "01_lots/2.ES/preuves/uv_goerlich_perez_2025.html"
+   ]
+  },
+  {
+   "source_id": "src-ign-es-licence-donnees-2015",
+   "niveau": "A",
+   "type_source": "document_officiel",
+   "titre": "Licencia de los productos y servicios de datos geográficos producidos por el IGN",
+   "institution": "Instituto Geográfico Nacional",
+   "url": "https://www.ign.es/resources/licencia/Condiciones_licenciaUso_IGN.pdf",
+   "date_consultation": "2026-10-18",
+   "periode_couverte": [],
+   "zones": [
+    "ES"
+   ],
+   "usages_atlas": [
+    "subdivisions_snapshot0"
+   ],
+   "cibles": [
+    "subdivision-es-alava",
+    "subdivision-es-province-albacete",
+    "subdivision-es-province-alicante",
+    "subdivision-es-province-almeria",
+    "subdivision-es-province-avila",
+    "subdivision-es-province-badajoz",
+    "subdivision-es-baleares",
+    "subdivision-es-province-barcelone",
+    "subdivision-es-province-burgos",
+    "subdivision-es-province-caceres",
+    "subdivision-es-province-cadix",
+    "subdivision-es-province-castellon-de-la-plana",
+    "subdivision-es-province-ciudad-real",
+    "subdivision-es-province-cordoue",
+    "subdivision-es-province-la-corogne",
+    "subdivision-es-province-cuenca",
+    "subdivision-es-province-gerone",
+    "subdivision-es-province-grenade",
+    "subdivision-es-province-guadalajara",
+    "subdivision-es-guipuscoa",
+    "subdivision-es-province-huelva",
+    "subdivision-es-province-huesca",
+    "subdivision-es-province-jaen",
+    "subdivision-es-province-leon",
+    "subdivision-es-province-lerida",
+    "subdivision-es-la-rioja",
+    "subdivision-es-province-lugo",
+    "subdivision-es-province-madrid",
+    "subdivision-es-province-malaga",
+    "subdivision-es-province-murcie",
+    "subdivision-es-navarre",
+    "subdivision-es-province-ourense",
+    "subdivision-es-asturies",
+    "subdivision-es-province-palencia",
+    "subdivision-es-province-las-palmas",
+    "subdivision-es-province-pontevedra",
+    "subdivision-es-province-salamanque",
+    "subdivision-es-province-santa-cruz-de-tenerife",
+    "subdivision-es-cantabrie",
+    "subdivision-es-province-segovie",
+    "subdivision-es-province-seville",
+    "subdivision-es-province-soria",
+    "subdivision-es-province-tarragone",
+    "subdivision-es-province-teruel",
+    "subdivision-es-province-tolede",
+    "subdivision-es-province-valence",
+    "subdivision-es-province-valladolid",
+    "subdivision-es-biscaye",
+    "subdivision-es-province-zamora",
+    "subdivision-es-province-saragosse",
+    "subdivision-es-tenerife",
+    "subdivision-es-la-palma",
+    "subdivision-es-la-gomera",
+    "subdivision-es-el-hierro",
+    "subdivision-es-grande-canarie",
+    "subdivision-es-lanzarote",
+    "subdivision-es-fuerteventura"
+   ],
+   "locator": "p.1–2",
+   "resume_passage": "Lu par le sous-agent : « conlleva la aceptación por el usuario de una licencia CC-BY 4.0 ». Preuve de licence seulement, pas de date ; aucun tracé IGN livré.",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "lu",
+    "date": "2026-10-18",
+    "mode": "Tableaux INE, BOE1927 et INAP14 vus en capture ; autres textes lus, limites explicites."
+   },
+   "notes": "Proposée par Ether (lot 2.ES, cycle 1). Ce que la source prouve selon Ether : preuve de licence pour les candidats IGN, non preuve de date. Limite annoncée par Ether :  Relecture Claude 2026-10-18 : Lu par le sous-agent : « conlleva la aceptación por el usuario de una licencia CC-BY 4.0 ». Preuve de licence seulement, pas de date ; aucun tracé IGN livré.",
+   "auteur": "Instituto Geográfico Nacional",
+   "archives_locales": [
+    "01_lots/2.ES/preuves/ign_licence.pdf"
+   ],
+   "licence": "CC BY 4.0"
+  },
+  {
+   "source_id": "src-ign-es-provincial200-historique",
+   "niveau": "A",
+   "type_source": "document_officiel",
+   "titre": "Mapa Provincial 1:200.000 (históricos) — catalogue",
+   "institution": "Instituto Geográfico Nacional / CNIG ; datos.gob.es",
+   "url": "https://datos.gob.es/es/catalogo/e00125901-spaignmp200historicorasterserie2013071700000",
+   "date_consultation": "2026-10-18",
+   "periode_couverte": [],
+   "zones": [
+    "ES"
+   ],
+   "usages_atlas": [
+    "subdivisions_snapshot0"
+   ],
+   "cibles": [
+    "subdivision-es-alava",
+    "subdivision-es-province-albacete",
+    "subdivision-es-province-alicante",
+    "subdivision-es-province-almeria",
+    "subdivision-es-province-avila",
+    "subdivision-es-province-badajoz",
+    "subdivision-es-baleares",
+    "subdivision-es-province-barcelone",
+    "subdivision-es-province-burgos",
+    "subdivision-es-province-caceres",
+    "subdivision-es-province-cadix",
+    "subdivision-es-province-castellon-de-la-plana",
+    "subdivision-es-province-ciudad-real",
+    "subdivision-es-province-cordoue",
+    "subdivision-es-province-la-corogne",
+    "subdivision-es-province-cuenca",
+    "subdivision-es-province-gerone",
+    "subdivision-es-province-grenade",
+    "subdivision-es-province-guadalajara",
+    "subdivision-es-guipuscoa",
+    "subdivision-es-province-huelva",
+    "subdivision-es-province-huesca",
+    "subdivision-es-province-jaen",
+    "subdivision-es-province-leon",
+    "subdivision-es-province-lerida",
+    "subdivision-es-la-rioja",
+    "subdivision-es-province-lugo",
+    "subdivision-es-province-madrid",
+    "subdivision-es-province-malaga",
+    "subdivision-es-province-murcie",
+    "subdivision-es-navarre",
+    "subdivision-es-province-ourense",
+    "subdivision-es-asturies",
+    "subdivision-es-province-palencia",
+    "subdivision-es-province-las-palmas",
+    "subdivision-es-province-pontevedra",
+    "subdivision-es-province-salamanque",
+    "subdivision-es-province-santa-cruz-de-tenerife",
+    "subdivision-es-cantabrie",
+    "subdivision-es-province-segovie",
+    "subdivision-es-province-seville",
+    "subdivision-es-province-soria",
+    "subdivision-es-province-tarragone",
+    "subdivision-es-province-teruel",
+    "subdivision-es-province-tolede",
+    "subdivision-es-province-valence",
+    "subdivision-es-province-valladolid",
+    "subdivision-es-biscaye",
+    "subdivision-es-province-zamora",
+    "subdivision-es-province-saragosse",
+    "subdivision-es-tenerife",
+    "subdivision-es-la-palma",
+    "subdivision-es-la-gomera",
+    "subdivision-es-el-hierro",
+    "subdivision-es-grande-canarie",
+    "subdivision-es-lanzarote",
+    "subdivision-es-fuerteventura"
+   ],
+   "locator": "description et distribution de la série",
+   "resume_passage": "WebFetch en erreur serveur, sans contournement. Copie HTML d'Ether (preuves/ign_provincial_raster_catalogue.html, empreinte notée) lue par Claude : « Archivos ráster correspondientes a todas las ediciones de cada mapa de la serie provincial 1:200.000, procedentes del escaneado de los mapas en papel ». Prouve qu'il s'agit de scans, pas de contours vectoriels (R2ES-01).",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "lu",
+    "date": "2026-10-18",
+    "mode": "Tableaux INE, BOE1927 et INAP14 vus en capture ; autres textes lus, limites explicites."
+   },
+   "notes": "Proposée par Ether (lot 2.ES, cycle 1). Ce que la source prouve selon Ether : piste raster historique à géoréférencer, pas contour vectoriel validé. Limite annoncée par Ether :  Relecture Claude 2026-10-18 : WebFetch en erreur serveur, sans contournement. Copie HTML d'Ether (preuves/ign_provincial_raster_catalogue.html, empreinte notée) lue par Claude : « Archivos ráster correspondientes a todas las ediciones de cada mapa de la serie provincial 1:200.000, procedentes del escaneado de los mapas en papel ». Prouve qu'il s'agit de scans, pas de contours vectoriels (R2ES-01).",
+   "auteur": "Instituto Geográfico Nacional / CNIG ; datos.gob.es",
+   "archives_locales": [
+    "01_lots/2.ES/preuves/ign_provincial_raster_catalogue.html"
+   ]
+  },
+  {
+   "source_id": "src-boe-es-gatova-1995",
+   "niveau": "A",
+   "type_source": "document_officiel",
+   "titre": "Ley Orgánica15/1995 — transfert de Gátova, Castellón vers Valencia",
+   "institution": "Jefatura del Estado ; BOE",
+   "url": "https://www.boe.es/eli/es/lo/1995/12/27/15",
+   "date_consultation": "2026-10-18",
+   "periode_couverte": [],
+   "zones": [
+    "ES"
+   ],
+   "usages_atlas": [
+    "subdivisions_snapshot0"
+   ],
+   "cibles": [
+    "subdivision-es-province-castellon-de-la-plana",
+    "subdivision-es-province-valence"
+   ],
+   "locator": "art.unique ; entrée en vigueur29/12/1995",
+   "resume_passage": "Lu par le sous-agent : « El municipio de Gátova, actualmente perteneciente a la provincia de Castellón de la Plana, … queda agregado a la provincia de Valencia. » Changement de 1995, à ne pas rétroprojeter sur 1945.",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "lu",
+    "date": "2026-10-18",
+    "mode": "Tableaux INE, BOE1927 et INAP14 vus en capture ; autres textes lus, limites explicites."
+   },
+   "notes": "Proposée par Ether (lot 2.ES, cycle 1). Ce que la source prouve selon Ether : preuve d’une modification postérieure à ne pas rétroprojeter. Limite annoncée par Ether :  Relecture Claude 2026-10-18 : Lu par le sous-agent : « El municipio de Gátova, actualmente perteneciente a la provincia de Castellón de la Plana, … queda agregado a la provincia de Valencia. » Changement de 1995, à ne pas rétroprojeter sur 1945.",
+   "auteur": "Jefatura del Estado ; BOE",
+   "archives_locales": [
+    "01_lots/2.ES/preuves/boe_gatova_1995.html"
+   ]
+  },
+  {
+   "source_id": "src-boe-es-sanquirce-1973",
+   "niveau": "A",
+   "type_source": "document_officiel",
+   "titre": "Decreto202/1973 — San Quirce de Ríopisuerga (Burgos) vers Alar del Rey (Palencia)",
+   "institution": "Ministerio de la Gobernación ; BOE",
+   "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1973-32569",
+   "date_consultation": "2026-10-18",
+   "periode_couverte": [],
+   "zones": [
+    "ES"
+   ],
+   "usages_atlas": [
+    "subdivisions_snapshot0"
+   ],
+   "cibles": [
+    "subdivision-es-province-burgos",
+    "subdivision-es-province-palencia"
+   ],
+   "locator": "notice officielle, BOE38 du13/02/1973, p.2745–2746",
+   "resume_passage": "Lu par le sous-agent : notice BOE (Decreto 202/1973, BOE núm. 38 du 13/02/1973, p.2745-2746, San Quirce de Ríopisuerga (Burgos) incorporé à Alar del Rey (Palencia)) ; texte opératif « no disponible » en ligne. Le passage d'une province à l'autre se déduit des deux noms de province, pas d'un texte lu.",
+   "archive_locale": null,
+   "verification_claude": "limite",
+   "verification_ether": {
+    "statut": "lu",
+    "date": "2026-10-18",
+    "mode": "Tableaux INE, BOE1927 et INAP14 vus en capture ; autres textes lus, limites explicites."
+   },
+   "notes": "Proposée par Ether (lot 2.ES, cycle 1). Ce que la source prouve selon Ether : preuve de modification provinciale postérieure ; texte PDF non transcrit ici. Limite annoncée par Ether :  Relecture Claude 2026-10-18 : Lu par le sous-agent : notice BOE (Decreto 202/1973, BOE núm. 38 du 13/02/1973, p.2745-2746, San Quirce de Ríopisuerga (Burgos) incorporé à Alar del Rey (Palencia)) ; texte opératif « no disponible » en ligne. Le passage d'une province à l'autre se déduit des deux noms de province, pas d'un texte lu.",
+   "auteur": "Ministerio de la Gobernación ; BOE",
+   "archives_locales": [
+    "01_lots/2.ES/preuves/boe_sanquirce_1973.html"
    ]
   }
  ]

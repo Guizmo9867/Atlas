@@ -2,6 +2,12 @@
 
 Une ligne par décision, datée. Plus récente en haut. Ce journal remplace les versions éparpillées dans les conversations : si ce n'est pas ici, ce n'est pas décidé.
 
+## 2026-10-18 (après-midi : 2.ES intégré, boucle automatique)
+
+- **Lot 2.ES intégré** (cycle 1, premier lot du groupe 2) : 57 subdivisions de l'Espagne au 01/01/1945 = 50 provinces (échelon 1, d'après l'annuaire INE 1944-1945) et 7 îles canariennes à cabildo (échelon 2, RD 1586/1927 et pièces de 1944). Pas de partidos judiciales ni de communes ; possessions africaines hors lot. *(Ether, intégré par Claude)*
+- **Aucun tracé** : pas de contour de 1945 à licence ouverte (IGN en scans, base Goerlich-Pérez depuis 1998, changements de 1973 et 1995), R2ES-01. Chefs-lieux proposés, aucun validé (R2ES-03). Réserves R2ES-01 à 05 pour la revue du groupe 2. *(Claude)*
+- Sources : 10 nouvelles (7 ok, 3 limite), registre v1.40. *(Claude)*
+
 ## 2026-10-16 (matin : villes 1.10 cycle 2, boucle automatique)
 
 - **Réponses d'Ether au 1.10 intégrées** (cycle 2) : 6 précisions de fiche (Valence, Grenoble, Lons-le-Saunier, Vesoul, Mâcon, Auxerre), 30 compléments de registre, registre v1.38, lot v0.2. *(Ether, intégré par Claude)*
