@@ -1,0 +1,1916 @@
+{
+ "metadata_lot": {
+  "nom": "snapshot0_subdivisions_2-PT",
+  "date_reference": "1945-01-01",
+  "heure_reference": "00:00",
+  "version": "1.0",
+  "statut": "integre_par_claude",
+  "cycle": 1,
+  "date_integration": "2026-10-18",
+  "gabarit_source": "gabarits/gabarit_entite_temporelle_atlas.json",
+  "lot_methode": "2.PT (phase 2, docs/METHODE_ATLAS_v2.md)",
+  "etat_1945": "Portugal — continent et îles adjacentes",
+  "proposition_ether": "data/sources/deltas_ether/2026-10-18_2PT_subdivisions_proposees_ether.json",
+  "regles": [
+   "échelon 1 = premier niveau sous l'État ; échelon 2 = le niveau en dessous ; le terme local reste dans statut_administratif",
+   "une subdivision porte la souveraineté de droit ; le contrôle réel vient des territoires et des lignes de front",
+   "affichage : échelon 1 dès le zoom 5, échelon 2 dès le zoom 6,5, mêmes seuils pour tous les pays (calque « Découpage administratif »)",
+   "tracés provisoires ; chefs-lieux proposés = référence, jamais validés sans preuve au 01/01/1945"
+  ],
+  "sans_trace": [
+   "subdivision-pt-minho",
+   "subdivision-pt-tras-os-montes-e-alto-douro",
+   "subdivision-pt-douro-litoral",
+   "subdivision-pt-beira-alta",
+   "subdivision-pt-beira-baixa",
+   "subdivision-pt-beira-litoral",
+   "subdivision-pt-ribatejo",
+   "subdivision-pt-estremadure",
+   "subdivision-pt-haut-alentejo",
+   "subdivision-pt-bas-alentejo",
+   "subdivision-pt-algarve",
+   "subdivision-pt-district-aveiro",
+   "subdivision-pt-district-beja",
+   "subdivision-pt-district-braga",
+   "subdivision-pt-district-bragance",
+   "subdivision-pt-district-castelo-branco",
+   "subdivision-pt-district-coimbra",
+   "subdivision-pt-district-evora",
+   "subdivision-pt-district-faro",
+   "subdivision-pt-district-guarda",
+   "subdivision-pt-district-leiria",
+   "subdivision-pt-district-lisbonne",
+   "subdivision-pt-district-portalegre",
+   "subdivision-pt-district-porto",
+   "subdivision-pt-district-santarem",
+   "subdivision-pt-district-setubal",
+   "subdivision-pt-district-viana-do-castelo",
+   "subdivision-pt-district-vila-real",
+   "subdivision-pt-district-viseu",
+   "subdivision-pt-district-angra-do-heroismo",
+   "subdivision-pt-district-horta",
+   "subdivision-pt-district-ponta-delgada",
+   "subdivision-pt-district-funchal"
+  ]
+ },
+ "entites": [
+  {
+   "entite_id": "subdivision-pt-minho",
+   "type_entite": "subdivision",
+   "nom": "Minho",
+   "nom_court": "Minho",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_sous_reserves",
+     "proprietes": {
+      "nom": "Minho",
+      "niveau": 1,
+      "echelon": 1,
+      "statut_administratif": "província",
+      "systeme_administratif": "association_provinciale_de_concelhos",
+      "parent_id": "territoire-pt-portugal",
+      "souverainete_id": "portugal",
+      "reserves": [
+       "R2PT-01",
+       "R2PT-02",
+       "R2PT-03",
+       "R2PT-04",
+       "R2PT-05"
+      ],
+      "note": "La province associe des concelhos. Le tableau contient des parties de districts : ce n’est pas une fédération de districts entiers. Parent Portugal proposé ; aucun district placé sous une province. État juridique de 1940 reconduit comme hypothèse documentaire au 01/01/1945, sans géométrie ni code moderne.",
+      "chef_lieu_propose": {
+       "nom": "Braga",
+       "annee_preuve": "1936",
+       "source_id": "src-dr-pt-code-administratif-27424-1936",
+       "locator": "p.1869, MAPA III, rubrique Minho (PDF97)",
+       "statut": "reference_documentee_anterieure_a_1945_non_validee_au_jour",
+       "ville_id_existante": "ville-pt-braga"
+      }
+     },
+     "sources": [
+      {
+       "source_id": "src-dr-pt-code-administratif-27424-1936",
+       "locator": "p.1869, MAPA III, rubrique Minho (PDF97)",
+       "usage": "province et capitale explicitement désignée"
+      },
+      {
+       "source_id": "src-dr-pt-code-administratif-31095-1940",
+       "locator": "p.1637 art.2 du décret ; p.1641 art.1 du Code ; p.1669 art.284–286 (PDF1,5,33)",
+       "usage": "maintien des tableaux, régime et siège provincial"
+      }
+     ]
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-pt-tras-os-montes-e-alto-douro",
+   "type_entite": "subdivision",
+   "nom": "Trás-os-Montes e Alto Douro",
+   "nom_court": "Trás-os-Montes e Alto Douro",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_sous_reserves",
+     "proprietes": {
+      "nom": "Trás-os-Montes e Alto Douro",
+      "niveau": 1,
+      "echelon": 1,
+      "statut_administratif": "província",
+      "systeme_administratif": "association_provinciale_de_concelhos",
+      "parent_id": "territoire-pt-portugal",
+      "souverainete_id": "portugal",
+      "reserves": [
+       "R2PT-01",
+       "R2PT-02",
+       "R2PT-03",
+       "R2PT-04",
+       "R2PT-05"
+      ],
+      "note": "La province associe des concelhos. Le tableau contient des parties de districts : ce n’est pas une fédération de districts entiers. Parent Portugal proposé ; aucun district placé sous une province. État juridique de 1940 reconduit comme hypothèse documentaire au 01/01/1945, sans géométrie ni code moderne.",
+      "chef_lieu_propose": {
+       "nom": "Vila Real",
+       "annee_preuve": "1936",
+       "source_id": "src-dr-pt-code-administratif-27424-1936",
+       "locator": "p.1869, MAPA III, rubrique Trás-os-Montes e Alto Douro (PDF97)",
+       "statut": "reference_documentee_anterieure_a_1945_non_validee_au_jour",
+       "ville_id_existante": "ville-pt-vila-real"
+      }
+     },
+     "sources": [
+      {
+       "source_id": "src-dr-pt-code-administratif-27424-1936",
+       "locator": "p.1869, MAPA III, rubrique Trás-os-Montes e Alto Douro (PDF97)",
+       "usage": "province et capitale explicitement désignée"
+      },
+      {
+       "source_id": "src-dr-pt-code-administratif-31095-1940",
+       "locator": "p.1637 art.2 du décret ; p.1641 art.1 du Code ; p.1669 art.284–286 (PDF1,5,33)",
+       "usage": "maintien des tableaux, régime et siège provincial"
+      }
+     ]
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-pt-douro-litoral",
+   "type_entite": "subdivision",
+   "nom": "Douro Litoral",
+   "nom_court": "Douro Litoral",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_sous_reserves",
+     "proprietes": {
+      "nom": "Douro Litoral",
+      "niveau": 1,
+      "echelon": 1,
+      "statut_administratif": "província",
+      "systeme_administratif": "association_provinciale_de_concelhos",
+      "parent_id": "territoire-pt-portugal",
+      "souverainete_id": "portugal",
+      "reserves": [
+       "R2PT-01",
+       "R2PT-02",
+       "R2PT-03",
+       "R2PT-04",
+       "R2PT-05"
+      ],
+      "note": "La province associe des concelhos. Le tableau contient des parties de districts : ce n’est pas une fédération de districts entiers. Parent Portugal proposé ; aucun district placé sous une province. État juridique de 1940 reconduit comme hypothèse documentaire au 01/01/1945, sans géométrie ni code moderne.",
+      "chef_lieu_propose": {
+       "nom": "Pôrto",
+       "annee_preuve": "1936",
+       "source_id": "src-dr-pt-code-administratif-27424-1936",
+       "locator": "p.1869, MAPA III, rubrique Douro Litoral (PDF97)",
+       "statut": "reference_documentee_anterieure_a_1945_non_validee_au_jour",
+       "ville_id_existante": "ville-pt-porto"
+      }
+     },
+     "sources": [
+      {
+       "source_id": "src-dr-pt-code-administratif-27424-1936",
+       "locator": "p.1869, MAPA III, rubrique Douro Litoral (PDF97)",
+       "usage": "province et capitale explicitement désignée"
+      },
+      {
+       "source_id": "src-dr-pt-code-administratif-31095-1940",
+       "locator": "p.1637 art.2 du décret ; p.1641 art.1 du Code ; p.1669 art.284–286 (PDF1,5,33)",
+       "usage": "maintien des tableaux, régime et siège provincial"
+      }
+     ]
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-pt-beira-alta",
+   "type_entite": "subdivision",
+   "nom": "Beira Alta",
+   "nom_court": "Beira Alta",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_sous_reserves",
+     "proprietes": {
+      "nom": "Beira Alta",
+      "niveau": 1,
+      "echelon": 1,
+      "statut_administratif": "província",
+      "systeme_administratif": "association_provinciale_de_concelhos",
+      "parent_id": "territoire-pt-portugal",
+      "souverainete_id": "portugal",
+      "reserves": [
+       "R2PT-01",
+       "R2PT-02",
+       "R2PT-03",
+       "R2PT-04",
+       "R2PT-05"
+      ],
+      "note": "La province associe des concelhos. Le tableau contient des parties de districts : ce n’est pas une fédération de districts entiers. Parent Portugal proposé ; aucun district placé sous une province. État juridique de 1940 reconduit comme hypothèse documentaire au 01/01/1945, sans géométrie ni code moderne.",
+      "chef_lieu_propose": {
+       "nom": "Viseu",
+       "annee_preuve": "1936",
+       "source_id": "src-dr-pt-code-administratif-27424-1936",
+       "locator": "p.1869, MAPA III, rubrique Beira Alta (PDF97)",
+       "statut": "reference_documentee_anterieure_a_1945_non_validee_au_jour",
+       "ville_id_existante": "ville-pt-viseu"
+      }
+     },
+     "sources": [
+      {
+       "source_id": "src-dr-pt-code-administratif-27424-1936",
+       "locator": "p.1869, MAPA III, rubrique Beira Alta (PDF97)",
+       "usage": "province et capitale explicitement désignée"
+      },
+      {
+       "source_id": "src-dr-pt-code-administratif-31095-1940",
+       "locator": "p.1637 art.2 du décret ; p.1641 art.1 du Code ; p.1669 art.284–286 (PDF1,5,33)",
+       "usage": "maintien des tableaux, régime et siège provincial"
+      }
+     ]
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-pt-beira-baixa",
+   "type_entite": "subdivision",
+   "nom": "Beira Baixa",
+   "nom_court": "Beira Baixa",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_sous_reserves",
+     "proprietes": {
+      "nom": "Beira Baixa",
+      "niveau": 1,
+      "echelon": 1,
+      "statut_administratif": "província",
+      "systeme_administratif": "association_provinciale_de_concelhos",
+      "parent_id": "territoire-pt-portugal",
+      "souverainete_id": "portugal",
+      "reserves": [
+       "R2PT-01",
+       "R2PT-02",
+       "R2PT-03",
+       "R2PT-04",
+       "R2PT-05"
+      ],
+      "note": "La province associe des concelhos. Le tableau contient des parties de districts : ce n’est pas une fédération de districts entiers. Parent Portugal proposé ; aucun district placé sous une province. État juridique de 1940 reconduit comme hypothèse documentaire au 01/01/1945, sans géométrie ni code moderne.",
+      "chef_lieu_propose": {
+       "nom": "Castelo Branco",
+       "annee_preuve": "1936",
+       "source_id": "src-dr-pt-code-administratif-27424-1936",
+       "locator": "p.1869, MAPA III, rubrique Beira Baixa (PDF97)",
+       "statut": "reference_documentee_anterieure_a_1945_non_validee_au_jour",
+       "ville_id_existante": "ville-pt-castelo-branco"
+      }
+     },
+     "sources": [
+      {
+       "source_id": "src-dr-pt-code-administratif-27424-1936",
+       "locator": "p.1869, MAPA III, rubrique Beira Baixa (PDF97)",
+       "usage": "province et capitale explicitement désignée"
+      },
+      {
+       "source_id": "src-dr-pt-code-administratif-31095-1940",
+       "locator": "p.1637 art.2 du décret ; p.1641 art.1 du Code ; p.1669 art.284–286 (PDF1,5,33)",
+       "usage": "maintien des tableaux, régime et siège provincial"
+      }
+     ]
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-pt-beira-litoral",
+   "type_entite": "subdivision",
+   "nom": "Beira Litoral",
+   "nom_court": "Beira Litoral",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_sous_reserves",
+     "proprietes": {
+      "nom": "Beira Litoral",
+      "niveau": 1,
+      "echelon": 1,
+      "statut_administratif": "província",
+      "systeme_administratif": "association_provinciale_de_concelhos",
+      "parent_id": "territoire-pt-portugal",
+      "souverainete_id": "portugal",
+      "reserves": [
+       "R2PT-01",
+       "R2PT-02",
+       "R2PT-03",
+       "R2PT-04",
+       "R2PT-05"
+      ],
+      "note": "La province associe des concelhos. Le tableau contient des parties de districts : ce n’est pas une fédération de districts entiers. Parent Portugal proposé ; aucun district placé sous une province. État juridique de 1940 reconduit comme hypothèse documentaire au 01/01/1945, sans géométrie ni code moderne.",
+      "chef_lieu_propose": {
+       "nom": "Coimbra",
+       "annee_preuve": "1936",
+       "source_id": "src-dr-pt-code-administratif-27424-1936",
+       "locator": "p.1869, MAPA III, rubrique Beira Litoral (PDF97)",
+       "statut": "reference_documentee_anterieure_a_1945_non_validee_au_jour",
+       "ville_id_existante": "ville-pt-coimbra"
+      }
+     },
+     "sources": [
+      {
+       "source_id": "src-dr-pt-code-administratif-27424-1936",
+       "locator": "p.1869, MAPA III, rubrique Beira Litoral (PDF97)",
+       "usage": "province et capitale explicitement désignée"
+      },
+      {
+       "source_id": "src-dr-pt-code-administratif-31095-1940",
+       "locator": "p.1637 art.2 du décret ; p.1641 art.1 du Code ; p.1669 art.284–286 (PDF1,5,33)",
+       "usage": "maintien des tableaux, régime et siège provincial"
+      }
+     ]
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-pt-ribatejo",
+   "type_entite": "subdivision",
+   "nom": "Ribatejo",
+   "nom_court": "Ribatejo",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_sous_reserves",
+     "proprietes": {
+      "nom": "Ribatejo",
+      "niveau": 1,
+      "echelon": 1,
+      "statut_administratif": "província",
+      "systeme_administratif": "association_provinciale_de_concelhos",
+      "parent_id": "territoire-pt-portugal",
+      "souverainete_id": "portugal",
+      "reserves": [
+       "R2PT-01",
+       "R2PT-02",
+       "R2PT-03",
+       "R2PT-04",
+       "R2PT-05"
+      ],
+      "note": "La province associe des concelhos. Le tableau contient des parties de districts : ce n’est pas une fédération de districts entiers. Parent Portugal proposé ; aucun district placé sous une province. État juridique de 1940 reconduit comme hypothèse documentaire au 01/01/1945, sans géométrie ni code moderne.",
+      "chef_lieu_propose": {
+       "nom": "Santarém",
+       "annee_preuve": "1936",
+       "source_id": "src-dr-pt-code-administratif-27424-1936",
+       "locator": "p.1870, MAPA III, rubrique Ribatejo (PDF98)",
+       "statut": "reference_documentee_anterieure_a_1945_non_validee_au_jour",
+       "ville_id_existante": "ville-pt-santarem"
+      }
+     },
+     "sources": [
+      {
+       "source_id": "src-dr-pt-code-administratif-27424-1936",
+       "locator": "p.1870, MAPA III, rubrique Ribatejo (PDF98)",
+       "usage": "province et capitale explicitement désignée"
+      },
+      {
+       "source_id": "src-dr-pt-code-administratif-31095-1940",
+       "locator": "p.1637 art.2 du décret ; p.1641 art.1 du Code ; p.1669 art.284–286 (PDF1,5,33)",
+       "usage": "maintien des tableaux, régime et siège provincial"
+      }
+     ]
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-pt-estremadure",
+   "type_entite": "subdivision",
+   "nom": "Estremadure",
+   "nom_court": "Estremadure",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_sous_reserves",
+     "proprietes": {
+      "nom": "Estremadura",
+      "niveau": 1,
+      "echelon": 1,
+      "statut_administratif": "província",
+      "systeme_administratif": "association_provinciale_de_concelhos",
+      "parent_id": "territoire-pt-portugal",
+      "souverainete_id": "portugal",
+      "reserves": [
+       "R2PT-01",
+       "R2PT-02",
+       "R2PT-03",
+       "R2PT-04",
+       "R2PT-05"
+      ],
+      "note": "La province associe des concelhos. Le tableau contient des parties de districts : ce n’est pas une fédération de districts entiers. Parent Portugal proposé ; aucun district placé sous une province. État juridique de 1940 reconduit comme hypothèse documentaire au 01/01/1945, sans géométrie ni code moderne.",
+      "chef_lieu_propose": {
+       "nom": "Lisboa",
+       "annee_preuve": "1936",
+       "source_id": "src-dr-pt-code-administratif-27424-1936",
+       "locator": "p.1870, MAPA III, rubrique Estremadura (PDF98)",
+       "statut": "reference_documentee_anterieure_a_1945_non_validee_au_jour",
+       "ville_id_existante": "ville-pt-lisbonne"
+      }
+     },
+     "sources": [
+      {
+       "source_id": "src-dr-pt-code-administratif-27424-1936",
+       "locator": "p.1870, MAPA III, rubrique Estremadura (PDF98)",
+       "usage": "province et capitale explicitement désignée"
+      },
+      {
+       "source_id": "src-dr-pt-code-administratif-31095-1940",
+       "locator": "p.1637 art.2 du décret ; p.1641 art.1 du Code ; p.1669 art.284–286 (PDF1,5,33)",
+       "usage": "maintien des tableaux, régime et siège provincial"
+      }
+     ]
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-pt-haut-alentejo",
+   "type_entite": "subdivision",
+   "nom": "Haut Alentejo",
+   "nom_court": "Haut Alentejo",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_sous_reserves",
+     "proprietes": {
+      "nom": "Alto Alentejo",
+      "niveau": 1,
+      "echelon": 1,
+      "statut_administratif": "província",
+      "systeme_administratif": "association_provinciale_de_concelhos",
+      "parent_id": "territoire-pt-portugal",
+      "souverainete_id": "portugal",
+      "reserves": [
+       "R2PT-01",
+       "R2PT-02",
+       "R2PT-03",
+       "R2PT-04",
+       "R2PT-05"
+      ],
+      "note": "La province associe des concelhos. Le tableau contient des parties de districts : ce n’est pas une fédération de districts entiers. Parent Portugal proposé ; aucun district placé sous une province. État juridique de 1940 reconduit comme hypothèse documentaire au 01/01/1945, sans géométrie ni code moderne.",
+      "chef_lieu_propose": {
+       "nom": "Évora",
+       "annee_preuve": "1936",
+       "source_id": "src-dr-pt-code-administratif-27424-1936",
+       "locator": "p.1870, MAPA III, rubrique Alto Alentejo (PDF98)",
+       "statut": "reference_documentee_anterieure_a_1945_non_validee_au_jour",
+       "ville_id_existante": "ville-pt-evora"
+      }
+     },
+     "sources": [
+      {
+       "source_id": "src-dr-pt-code-administratif-27424-1936",
+       "locator": "p.1870, MAPA III, rubrique Alto Alentejo (PDF98)",
+       "usage": "province et capitale explicitement désignée"
+      },
+      {
+       "source_id": "src-dr-pt-code-administratif-31095-1940",
+       "locator": "p.1637 art.2 du décret ; p.1641 art.1 du Code ; p.1669 art.284–286 (PDF1,5,33)",
+       "usage": "maintien des tableaux, régime et siège provincial"
+      }
+     ]
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-pt-bas-alentejo",
+   "type_entite": "subdivision",
+   "nom": "Bas Alentejo",
+   "nom_court": "Bas Alentejo",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_sous_reserves",
+     "proprietes": {
+      "nom": "Baixo Alentejo",
+      "niveau": 1,
+      "echelon": 1,
+      "statut_administratif": "província",
+      "systeme_administratif": "association_provinciale_de_concelhos",
+      "parent_id": "territoire-pt-portugal",
+      "souverainete_id": "portugal",
+      "reserves": [
+       "R2PT-01",
+       "R2PT-02",
+       "R2PT-03",
+       "R2PT-04",
+       "R2PT-05"
+      ],
+      "note": "La province associe des concelhos. Le tableau contient des parties de districts : ce n’est pas une fédération de districts entiers. Parent Portugal proposé ; aucun district placé sous une province. État juridique de 1940 reconduit comme hypothèse documentaire au 01/01/1945, sans géométrie ni code moderne.",
+      "chef_lieu_propose": {
+       "nom": "Beja",
+       "annee_preuve": "1936",
+       "source_id": "src-dr-pt-code-administratif-27424-1936",
+       "locator": "p.1870, MAPA III, rubrique Baixo Alentejo (PDF98)",
+       "statut": "reference_documentee_anterieure_a_1945_non_validee_au_jour",
+       "ville_id_existante": "ville-pt-beja"
+      }
+     },
+     "sources": [
+      {
+       "source_id": "src-dr-pt-code-administratif-27424-1936",
+       "locator": "p.1870, MAPA III, rubrique Baixo Alentejo (PDF98)",
+       "usage": "province et capitale explicitement désignée"
+      },
+      {
+       "source_id": "src-dr-pt-code-administratif-31095-1940",
+       "locator": "p.1637 art.2 du décret ; p.1641 art.1 du Code ; p.1669 art.284–286 (PDF1,5,33)",
+       "usage": "maintien des tableaux, régime et siège provincial"
+      }
+     ]
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-pt-algarve",
+   "type_entite": "subdivision",
+   "nom": "Algarve",
+   "nom_court": "Algarve",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_sous_reserves",
+     "proprietes": {
+      "nom": "Algarve",
+      "niveau": 1,
+      "echelon": 1,
+      "statut_administratif": "província",
+      "systeme_administratif": "association_provinciale_de_concelhos",
+      "parent_id": "territoire-pt-portugal",
+      "souverainete_id": "portugal",
+      "reserves": [
+       "R2PT-01",
+       "R2PT-02",
+       "R2PT-03",
+       "R2PT-04",
+       "R2PT-05"
+      ],
+      "note": "La province associe des concelhos. Le tableau contient des parties de districts : ce n’est pas une fédération de districts entiers. Parent Portugal proposé ; aucun district placé sous une province. État juridique de 1940 reconduit comme hypothèse documentaire au 01/01/1945, sans géométrie ni code moderne.",
+      "chef_lieu_propose": {
+       "nom": "Faro",
+       "annee_preuve": "1936",
+       "source_id": "src-dr-pt-code-administratif-27424-1936",
+       "locator": "p.1870, MAPA III, rubrique Algarve (PDF98)",
+       "statut": "reference_documentee_anterieure_a_1945_non_validee_au_jour",
+       "ville_id_existante": "ville-pt-faro"
+      }
+     },
+     "sources": [
+      {
+       "source_id": "src-dr-pt-code-administratif-27424-1936",
+       "locator": "p.1870, MAPA III, rubrique Algarve (PDF98)",
+       "usage": "province et capitale explicitement désignée"
+      },
+      {
+       "source_id": "src-dr-pt-code-administratif-31095-1940",
+       "locator": "p.1637 art.2 du décret ; p.1641 art.1 du Code ; p.1669 art.284–286 (PDF1,5,33)",
+       "usage": "maintien des tableaux, régime et siège provincial"
+      }
+     ]
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-pt-district-aveiro",
+   "type_entite": "subdivision",
+   "nom": "District d'Aveiro",
+   "nom_court": "District d'Aveiro",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_sous_reserves",
+     "proprietes": {
+      "nom": "Aveiro",
+      "niveau": 1,
+      "echelon": 1,
+      "statut_administratif": "distrito",
+      "systeme_administratif": "circonscription_de_representation_du_gouvernement",
+      "parent_id": "territoire-pt-portugal",
+      "souverainete_id": "portugal",
+      "reserves": [
+       "R2PT-01",
+       "R2PT-02",
+       "R2PT-03",
+       "R2PT-04",
+       "R2PT-05"
+      ],
+      "note": "Circonscription territoriale de représentation du gouvernement. Échelon 1 parallèle aux provinces, pas enfant automatique de la province homonyme ou englobante. Les ordres du MAPA IV classent les districts ; ils ne définissent pas plusieurs niveaux hiérarchiques. Chef-lieu renseigné seulement quand la pièce l’identifie explicitement dans le passage contrôlé.",
+      "chef_lieu_propose": {
+       "nom": "Aveiro",
+       "annee_preuve": "1936",
+       "source_id": "src-dr-pt-code-administratif-27424-1936",
+       "locator": "p.1836, MAPA I, concelhos rurais avec siège en capitale de district (PDF64), ligne Aveiro",
+       "statut": "reference_documentee_anterieure_a_1945_non_validee_au_jour",
+       "ville_id_existante": "ville-pt-aveiro"
+      }
+     },
+     "sources": [
+      {
+       "source_id": "src-dr-pt-code-administratif-27424-1936",
+       "locator": "p.1870, MAPA IV, ligne Aveiro (PDF98)",
+       "usage": "liste des districts ; catégories d’ordre non assimilées à un échelon"
+      },
+      {
+       "source_id": "src-dr-pt-code-administratif-31095-1940",
+       "locator": "p.1637 art.2 du décret ; p.1641 art.1 du Code ; p.1679 art.404–407 (PDF1,5,43)",
+       "usage": "continuité des circonscriptions ; gouverneur civil représentant du gouvernement"
+      }
+     ]
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-pt-district-beja",
+   "type_entite": "subdivision",
+   "nom": "District de Beja",
+   "nom_court": "District de Beja",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_sous_reserves",
+     "proprietes": {
+      "nom": "Beja",
+      "niveau": 1,
+      "echelon": 1,
+      "statut_administratif": "distrito",
+      "systeme_administratif": "circonscription_de_representation_du_gouvernement",
+      "parent_id": "territoire-pt-portugal",
+      "souverainete_id": "portugal",
+      "reserves": [
+       "R2PT-01",
+       "R2PT-02",
+       "R2PT-03",
+       "R2PT-04",
+       "R2PT-05"
+      ],
+      "note": "Circonscription territoriale de représentation du gouvernement. Échelon 1 parallèle aux provinces, pas enfant automatique de la province homonyme ou englobante. Les ordres du MAPA IV classent les districts ; ils ne définissent pas plusieurs niveaux hiérarchiques. Chef-lieu renseigné seulement quand la pièce l’identifie explicitement dans le passage contrôlé.",
+      "chef_lieu_propose": {
+       "nom": "Beja",
+       "annee_preuve": "1936",
+       "source_id": "src-dr-pt-code-administratif-27424-1936",
+       "locator": "p.1836, MAPA I, concelhos rurais avec siège en capitale de district (PDF64), ligne Beja",
+       "statut": "reference_documentee_anterieure_a_1945_non_validee_au_jour",
+       "ville_id_existante": "ville-pt-beja"
+      }
+     },
+     "sources": [
+      {
+       "source_id": "src-dr-pt-code-administratif-27424-1936",
+       "locator": "p.1870, MAPA IV, ligne Beja (PDF98)",
+       "usage": "liste des districts ; catégories d’ordre non assimilées à un échelon"
+      },
+      {
+       "source_id": "src-dr-pt-code-administratif-31095-1940",
+       "locator": "p.1637 art.2 du décret ; p.1641 art.1 du Code ; p.1679 art.404–407 (PDF1,5,43)",
+       "usage": "continuité des circonscriptions ; gouverneur civil représentant du gouvernement"
+      }
+     ]
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-pt-district-braga",
+   "type_entite": "subdivision",
+   "nom": "District de Braga",
+   "nom_court": "District de Braga",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_sous_reserves",
+     "proprietes": {
+      "nom": "Braga",
+      "niveau": 1,
+      "echelon": 1,
+      "statut_administratif": "distrito",
+      "systeme_administratif": "circonscription_de_representation_du_gouvernement",
+      "parent_id": "territoire-pt-portugal",
+      "souverainete_id": "portugal",
+      "reserves": [
+       "R2PT-01",
+       "R2PT-02",
+       "R2PT-03",
+       "R2PT-04",
+       "R2PT-05"
+      ],
+      "note": "Circonscription territoriale de représentation du gouvernement. Échelon 1 parallèle aux provinces, pas enfant automatique de la province homonyme ou englobante. Les ordres du MAPA IV classent les districts ; ils ne définissent pas plusieurs niveaux hiérarchiques. Chef-lieu renseigné seulement quand la pièce l’identifie explicitement dans le passage contrôlé."
+     },
+     "sources": [
+      {
+       "source_id": "src-dr-pt-code-administratif-27424-1936",
+       "locator": "p.1870, MAPA IV, ligne Braga (PDF98)",
+       "usage": "liste des districts ; catégories d’ordre non assimilées à un échelon"
+      },
+      {
+       "source_id": "src-dr-pt-code-administratif-31095-1940",
+       "locator": "p.1637 art.2 du décret ; p.1641 art.1 du Code ; p.1679 art.404–407 (PDF1,5,43)",
+       "usage": "continuité des circonscriptions ; gouverneur civil représentant du gouvernement"
+      }
+     ]
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-pt-district-bragance",
+   "type_entite": "subdivision",
+   "nom": "District de Bragance",
+   "nom_court": "District de Bragance",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_sous_reserves",
+     "proprietes": {
+      "nom": "Bragança",
+      "niveau": 1,
+      "echelon": 1,
+      "statut_administratif": "distrito",
+      "systeme_administratif": "circonscription_de_representation_du_gouvernement",
+      "parent_id": "territoire-pt-portugal",
+      "souverainete_id": "portugal",
+      "reserves": [
+       "R2PT-01",
+       "R2PT-02",
+       "R2PT-03",
+       "R2PT-04",
+       "R2PT-05"
+      ],
+      "note": "Circonscription territoriale de représentation du gouvernement. Échelon 1 parallèle aux provinces, pas enfant automatique de la province homonyme ou englobante. Les ordres du MAPA IV classent les districts ; ils ne définissent pas plusieurs niveaux hiérarchiques. Chef-lieu renseigné seulement quand la pièce l’identifie explicitement dans le passage contrôlé.",
+      "chef_lieu_propose": {
+       "nom": "Bragança",
+       "annee_preuve": "1936",
+       "source_id": "src-dr-pt-code-administratif-27424-1936",
+       "locator": "p.1836, MAPA I, concelhos rurais avec siège en capitale de district (PDF64), ligne Bragança",
+       "statut": "reference_documentee_anterieure_a_1945_non_validee_au_jour",
+       "ville_id_existante": "ville-pt-bragance"
+      }
+     },
+     "sources": [
+      {
+       "source_id": "src-dr-pt-code-administratif-27424-1936",
+       "locator": "p.1870, MAPA IV, ligne Bragança (PDF98)",
+       "usage": "liste des districts ; catégories d’ordre non assimilées à un échelon"
+      },
+      {
+       "source_id": "src-dr-pt-code-administratif-31095-1940",
+       "locator": "p.1637 art.2 du décret ; p.1641 art.1 du Code ; p.1679 art.404–407 (PDF1,5,43)",
+       "usage": "continuité des circonscriptions ; gouverneur civil représentant du gouvernement"
+      }
+     ]
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-pt-district-castelo-branco",
+   "type_entite": "subdivision",
+   "nom": "District de Castelo Branco",
+   "nom_court": "District de Castelo Branco",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_sous_reserves",
+     "proprietes": {
+      "nom": "Castelo Branco",
+      "niveau": 1,
+      "echelon": 1,
+      "statut_administratif": "distrito",
+      "systeme_administratif": "circonscription_de_representation_du_gouvernement",
+      "parent_id": "territoire-pt-portugal",
+      "souverainete_id": "portugal",
+      "reserves": [
+       "R2PT-01",
+       "R2PT-02",
+       "R2PT-03",
+       "R2PT-04",
+       "R2PT-05"
+      ],
+      "note": "Circonscription territoriale de représentation du gouvernement. Échelon 1 parallèle aux provinces, pas enfant automatique de la province homonyme ou englobante. Les ordres du MAPA IV classent les districts ; ils ne définissent pas plusieurs niveaux hiérarchiques. Chef-lieu renseigné seulement quand la pièce l’identifie explicitement dans le passage contrôlé.",
+      "chef_lieu_propose": {
+       "nom": "Castelo Branco",
+       "annee_preuve": "1936",
+       "source_id": "src-dr-pt-code-administratif-27424-1936",
+       "locator": "p.1836, MAPA I, concelhos rurais avec siège en capitale de district (PDF64), ligne Castelo Branco",
+       "statut": "reference_documentee_anterieure_a_1945_non_validee_au_jour",
+       "ville_id_existante": "ville-pt-castelo-branco"
+      }
+     },
+     "sources": [
+      {
+       "source_id": "src-dr-pt-code-administratif-27424-1936",
+       "locator": "p.1870, MAPA IV, ligne Castelo Branco (PDF98)",
+       "usage": "liste des districts ; catégories d’ordre non assimilées à un échelon"
+      },
+      {
+       "source_id": "src-dr-pt-code-administratif-31095-1940",
+       "locator": "p.1637 art.2 du décret ; p.1641 art.1 du Code ; p.1679 art.404–407 (PDF1,5,43)",
+       "usage": "continuité des circonscriptions ; gouverneur civil représentant du gouvernement"
+      }
+     ]
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-pt-district-coimbra",
+   "type_entite": "subdivision",
+   "nom": "District de Coimbra",
+   "nom_court": "District de Coimbra",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_sous_reserves",
+     "proprietes": {
+      "nom": "Coimbra",
+      "niveau": 1,
+      "echelon": 1,
+      "statut_administratif": "distrito",
+      "systeme_administratif": "circonscription_de_representation_du_gouvernement",
+      "parent_id": "territoire-pt-portugal",
+      "souverainete_id": "portugal",
+      "reserves": [
+       "R2PT-01",
+       "R2PT-02",
+       "R2PT-03",
+       "R2PT-04",
+       "R2PT-05"
+      ],
+      "note": "Circonscription territoriale de représentation du gouvernement. Échelon 1 parallèle aux provinces, pas enfant automatique de la province homonyme ou englobante. Les ordres du MAPA IV classent les districts ; ils ne définissent pas plusieurs niveaux hiérarchiques. Chef-lieu renseigné seulement quand la pièce l’identifie explicitement dans le passage contrôlé."
+     },
+     "sources": [
+      {
+       "source_id": "src-dr-pt-code-administratif-27424-1936",
+       "locator": "p.1870, MAPA IV, ligne Coimbra (PDF98)",
+       "usage": "liste des districts ; catégories d’ordre non assimilées à un échelon"
+      },
+      {
+       "source_id": "src-dr-pt-code-administratif-31095-1940",
+       "locator": "p.1637 art.2 du décret ; p.1641 art.1 du Code ; p.1679 art.404–407 (PDF1,5,43)",
+       "usage": "continuité des circonscriptions ; gouverneur civil représentant du gouvernement"
+      }
+     ]
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-pt-district-evora",
+   "type_entite": "subdivision",
+   "nom": "District d'Évora",
+   "nom_court": "District d'Évora",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_sous_reserves",
+     "proprietes": {
+      "nom": "Évora",
+      "niveau": 1,
+      "echelon": 1,
+      "statut_administratif": "distrito",
+      "systeme_administratif": "circonscription_de_representation_du_gouvernement",
+      "parent_id": "territoire-pt-portugal",
+      "souverainete_id": "portugal",
+      "reserves": [
+       "R2PT-01",
+       "R2PT-02",
+       "R2PT-03",
+       "R2PT-04",
+       "R2PT-05"
+      ],
+      "note": "Circonscription territoriale de représentation du gouvernement. Échelon 1 parallèle aux provinces, pas enfant automatique de la province homonyme ou englobante. Les ordres du MAPA IV classent les districts ; ils ne définissent pas plusieurs niveaux hiérarchiques. Chef-lieu renseigné seulement quand la pièce l’identifie explicitement dans le passage contrôlé."
+     },
+     "sources": [
+      {
+       "source_id": "src-dr-pt-code-administratif-27424-1936",
+       "locator": "p.1870, MAPA IV, ligne Évora (PDF98)",
+       "usage": "liste des districts ; catégories d’ordre non assimilées à un échelon"
+      },
+      {
+       "source_id": "src-dr-pt-code-administratif-31095-1940",
+       "locator": "p.1637 art.2 du décret ; p.1641 art.1 du Code ; p.1679 art.404–407 (PDF1,5,43)",
+       "usage": "continuité des circonscriptions ; gouverneur civil représentant du gouvernement"
+      }
+     ]
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-pt-district-faro",
+   "type_entite": "subdivision",
+   "nom": "District de Faro",
+   "nom_court": "District de Faro",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_sous_reserves",
+     "proprietes": {
+      "nom": "Faro",
+      "niveau": 1,
+      "echelon": 1,
+      "statut_administratif": "distrito",
+      "systeme_administratif": "circonscription_de_representation_du_gouvernement",
+      "parent_id": "territoire-pt-portugal",
+      "souverainete_id": "portugal",
+      "reserves": [
+       "R2PT-01",
+       "R2PT-02",
+       "R2PT-03",
+       "R2PT-04",
+       "R2PT-05"
+      ],
+      "note": "Circonscription territoriale de représentation du gouvernement. Échelon 1 parallèle aux provinces, pas enfant automatique de la province homonyme ou englobante. Les ordres du MAPA IV classent les districts ; ils ne définissent pas plusieurs niveaux hiérarchiques. Chef-lieu renseigné seulement quand la pièce l’identifie explicitement dans le passage contrôlé.",
+      "chef_lieu_propose": {
+       "nom": "Faro",
+       "annee_preuve": "1936",
+       "source_id": "src-dr-pt-code-administratif-27424-1936",
+       "locator": "p.1836, MAPA I, concelhos rurais avec siège en capitale de district (PDF64), ligne Faro",
+       "statut": "reference_documentee_anterieure_a_1945_non_validee_au_jour",
+       "ville_id_existante": "ville-pt-faro"
+      }
+     },
+     "sources": [
+      {
+       "source_id": "src-dr-pt-code-administratif-27424-1936",
+       "locator": "p.1870, MAPA IV, ligne Faro (PDF98)",
+       "usage": "liste des districts ; catégories d’ordre non assimilées à un échelon"
+      },
+      {
+       "source_id": "src-dr-pt-code-administratif-31095-1940",
+       "locator": "p.1637 art.2 du décret ; p.1641 art.1 du Code ; p.1679 art.404–407 (PDF1,5,43)",
+       "usage": "continuité des circonscriptions ; gouverneur civil représentant du gouvernement"
+      }
+     ]
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-pt-district-guarda",
+   "type_entite": "subdivision",
+   "nom": "District de Guarda",
+   "nom_court": "District de Guarda",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_sous_reserves",
+     "proprietes": {
+      "nom": "Guarda",
+      "niveau": 1,
+      "echelon": 1,
+      "statut_administratif": "distrito",
+      "systeme_administratif": "circonscription_de_representation_du_gouvernement",
+      "parent_id": "territoire-pt-portugal",
+      "souverainete_id": "portugal",
+      "reserves": [
+       "R2PT-01",
+       "R2PT-02",
+       "R2PT-03",
+       "R2PT-04",
+       "R2PT-05"
+      ],
+      "note": "Circonscription territoriale de représentation du gouvernement. Échelon 1 parallèle aux provinces, pas enfant automatique de la province homonyme ou englobante. Les ordres du MAPA IV classent les districts ; ils ne définissent pas plusieurs niveaux hiérarchiques. Chef-lieu renseigné seulement quand la pièce l’identifie explicitement dans le passage contrôlé.",
+      "chef_lieu_propose": {
+       "nom": "Guarda",
+       "annee_preuve": "1936",
+       "source_id": "src-dr-pt-code-administratif-27424-1936",
+       "locator": "p.1836, MAPA I, concelhos rurais avec siège en capitale de district (PDF64), ligne Guarda",
+       "statut": "reference_documentee_anterieure_a_1945_non_validee_au_jour",
+       "ville_id_existante": "ville-pt-guarda"
+      }
+     },
+     "sources": [
+      {
+       "source_id": "src-dr-pt-code-administratif-27424-1936",
+       "locator": "p.1870, MAPA IV, ligne Guarda (PDF98)",
+       "usage": "liste des districts ; catégories d’ordre non assimilées à un échelon"
+      },
+      {
+       "source_id": "src-dr-pt-code-administratif-31095-1940",
+       "locator": "p.1637 art.2 du décret ; p.1641 art.1 du Code ; p.1679 art.404–407 (PDF1,5,43)",
+       "usage": "continuité des circonscriptions ; gouverneur civil représentant du gouvernement"
+      }
+     ]
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-pt-district-leiria",
+   "type_entite": "subdivision",
+   "nom": "District de Leiria",
+   "nom_court": "District de Leiria",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_sous_reserves",
+     "proprietes": {
+      "nom": "Leiria",
+      "niveau": 1,
+      "echelon": 1,
+      "statut_administratif": "distrito",
+      "systeme_administratif": "circonscription_de_representation_du_gouvernement",
+      "parent_id": "territoire-pt-portugal",
+      "souverainete_id": "portugal",
+      "reserves": [
+       "R2PT-01",
+       "R2PT-02",
+       "R2PT-03",
+       "R2PT-04",
+       "R2PT-05"
+      ],
+      "note": "Circonscription territoriale de représentation du gouvernement. Échelon 1 parallèle aux provinces, pas enfant automatique de la province homonyme ou englobante. Les ordres du MAPA IV classent les districts ; ils ne définissent pas plusieurs niveaux hiérarchiques. Chef-lieu renseigné seulement quand la pièce l’identifie explicitement dans le passage contrôlé.",
+      "chef_lieu_propose": {
+       "nom": "Leiria",
+       "annee_preuve": "1936",
+       "source_id": "src-dr-pt-code-administratif-27424-1936",
+       "locator": "p.1836, MAPA I, concelhos rurais avec siège en capitale de district (PDF64), ligne Leiria",
+       "statut": "reference_documentee_anterieure_a_1945_non_validee_au_jour",
+       "ville_id_existante": "ville-pt-leiria"
+      }
+     },
+     "sources": [
+      {
+       "source_id": "src-dr-pt-code-administratif-27424-1936",
+       "locator": "p.1870, MAPA IV, ligne Leiria (PDF98)",
+       "usage": "liste des districts ; catégories d’ordre non assimilées à un échelon"
+      },
+      {
+       "source_id": "src-dr-pt-code-administratif-31095-1940",
+       "locator": "p.1637 art.2 du décret ; p.1641 art.1 du Code ; p.1679 art.404–407 (PDF1,5,43)",
+       "usage": "continuité des circonscriptions ; gouverneur civil représentant du gouvernement"
+      }
+     ]
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-pt-district-lisbonne",
+   "type_entite": "subdivision",
+   "nom": "District de Lisbonne",
+   "nom_court": "District de Lisbonne",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_sous_reserves",
+     "proprietes": {
+      "nom": "Lisboa",
+      "niveau": 1,
+      "echelon": 1,
+      "statut_administratif": "distrito",
+      "systeme_administratif": "circonscription_de_representation_du_gouvernement",
+      "parent_id": "territoire-pt-portugal",
+      "souverainete_id": "portugal",
+      "reserves": [
+       "R2PT-01",
+       "R2PT-02",
+       "R2PT-03",
+       "R2PT-04",
+       "R2PT-05"
+      ],
+      "note": "Circonscription territoriale de représentation du gouvernement. Échelon 1 parallèle aux provinces, pas enfant automatique de la province homonyme ou englobante. Les ordres du MAPA IV classent les districts ; ils ne définissent pas plusieurs niveaux hiérarchiques. Chef-lieu renseigné seulement quand la pièce l’identifie explicitement dans le passage contrôlé."
+     },
+     "sources": [
+      {
+       "source_id": "src-dr-pt-code-administratif-27424-1936",
+       "locator": "p.1870, MAPA IV, ligne Lisboa (PDF98)",
+       "usage": "liste des districts ; catégories d’ordre non assimilées à un échelon"
+      },
+      {
+       "source_id": "src-dr-pt-code-administratif-31095-1940",
+       "locator": "p.1637 art.2 du décret ; p.1641 art.1 du Code ; p.1679 art.404–407 (PDF1,5,43)",
+       "usage": "continuité des circonscriptions ; gouverneur civil représentant du gouvernement"
+      }
+     ]
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-pt-district-portalegre",
+   "type_entite": "subdivision",
+   "nom": "District de Portalegre",
+   "nom_court": "District de Portalegre",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_sous_reserves",
+     "proprietes": {
+      "nom": "Portalegre",
+      "niveau": 1,
+      "echelon": 1,
+      "statut_administratif": "distrito",
+      "systeme_administratif": "circonscription_de_representation_du_gouvernement",
+      "parent_id": "territoire-pt-portugal",
+      "souverainete_id": "portugal",
+      "reserves": [
+       "R2PT-01",
+       "R2PT-02",
+       "R2PT-03",
+       "R2PT-04",
+       "R2PT-05"
+      ],
+      "note": "Circonscription territoriale de représentation du gouvernement. Échelon 1 parallèle aux provinces, pas enfant automatique de la province homonyme ou englobante. Les ordres du MAPA IV classent les districts ; ils ne définissent pas plusieurs niveaux hiérarchiques. Chef-lieu renseigné seulement quand la pièce l’identifie explicitement dans le passage contrôlé.",
+      "chef_lieu_propose": {
+       "nom": "Portalegre",
+       "annee_preuve": "1936",
+       "source_id": "src-dr-pt-code-administratif-27424-1936",
+       "locator": "p.1836, MAPA I, concelhos rurais avec siège en capitale de district (PDF64), ligne Portalegre",
+       "statut": "reference_documentee_anterieure_a_1945_non_validee_au_jour",
+       "ville_id_existante": "ville-pt-portalegre"
+      }
+     },
+     "sources": [
+      {
+       "source_id": "src-dr-pt-code-administratif-27424-1936",
+       "locator": "p.1870, MAPA IV, ligne Portalegre (PDF98)",
+       "usage": "liste des districts ; catégories d’ordre non assimilées à un échelon"
+      },
+      {
+       "source_id": "src-dr-pt-code-administratif-31095-1940",
+       "locator": "p.1637 art.2 du décret ; p.1641 art.1 du Code ; p.1679 art.404–407 (PDF1,5,43)",
+       "usage": "continuité des circonscriptions ; gouverneur civil représentant du gouvernement"
+      }
+     ]
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-pt-district-porto",
+   "type_entite": "subdivision",
+   "nom": "District de Porto",
+   "nom_court": "District de Porto",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_sous_reserves",
+     "proprietes": {
+      "nom": "Pôrto",
+      "niveau": 1,
+      "echelon": 1,
+      "statut_administratif": "distrito",
+      "systeme_administratif": "circonscription_de_representation_du_gouvernement",
+      "parent_id": "territoire-pt-portugal",
+      "souverainete_id": "portugal",
+      "reserves": [
+       "R2PT-01",
+       "R2PT-02",
+       "R2PT-03",
+       "R2PT-04",
+       "R2PT-05"
+      ],
+      "note": "Circonscription territoriale de représentation du gouvernement. Échelon 1 parallèle aux provinces, pas enfant automatique de la province homonyme ou englobante. Les ordres du MAPA IV classent les districts ; ils ne définissent pas plusieurs niveaux hiérarchiques. Chef-lieu renseigné seulement quand la pièce l’identifie explicitement dans le passage contrôlé."
+     },
+     "sources": [
+      {
+       "source_id": "src-dr-pt-code-administratif-27424-1936",
+       "locator": "p.1870, MAPA IV, ligne Pôrto (PDF98)",
+       "usage": "liste des districts ; catégories d’ordre non assimilées à un échelon"
+      },
+      {
+       "source_id": "src-dr-pt-code-administratif-31095-1940",
+       "locator": "p.1637 art.2 du décret ; p.1641 art.1 du Code ; p.1679 art.404–407 (PDF1,5,43)",
+       "usage": "continuité des circonscriptions ; gouverneur civil représentant du gouvernement"
+      }
+     ]
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-pt-district-santarem",
+   "type_entite": "subdivision",
+   "nom": "District de Santarém",
+   "nom_court": "District de Santarém",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_sous_reserves",
+     "proprietes": {
+      "nom": "Santarém",
+      "niveau": 1,
+      "echelon": 1,
+      "statut_administratif": "distrito",
+      "systeme_administratif": "circonscription_de_representation_du_gouvernement",
+      "parent_id": "territoire-pt-portugal",
+      "souverainete_id": "portugal",
+      "reserves": [
+       "R2PT-01",
+       "R2PT-02",
+       "R2PT-03",
+       "R2PT-04",
+       "R2PT-05"
+      ],
+      "note": "Circonscription territoriale de représentation du gouvernement. Échelon 1 parallèle aux provinces, pas enfant automatique de la province homonyme ou englobante. Les ordres du MAPA IV classent les districts ; ils ne définissent pas plusieurs niveaux hiérarchiques. Chef-lieu renseigné seulement quand la pièce l’identifie explicitement dans le passage contrôlé.",
+      "chef_lieu_propose": {
+       "nom": "Santarém",
+       "annee_preuve": "1936",
+       "source_id": "src-dr-pt-code-administratif-27424-1936",
+       "locator": "p.1836, MAPA I, concelhos rurais avec siège en capitale de district (PDF64), ligne Santarém",
+       "statut": "reference_documentee_anterieure_a_1945_non_validee_au_jour",
+       "ville_id_existante": "ville-pt-santarem"
+      }
+     },
+     "sources": [
+      {
+       "source_id": "src-dr-pt-code-administratif-27424-1936",
+       "locator": "p.1870, MAPA IV, ligne Santarém (PDF98)",
+       "usage": "liste des districts ; catégories d’ordre non assimilées à un échelon"
+      },
+      {
+       "source_id": "src-dr-pt-code-administratif-31095-1940",
+       "locator": "p.1637 art.2 du décret ; p.1641 art.1 du Code ; p.1679 art.404–407 (PDF1,5,43)",
+       "usage": "continuité des circonscriptions ; gouverneur civil représentant du gouvernement"
+      }
+     ]
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-pt-district-setubal",
+   "type_entite": "subdivision",
+   "nom": "District de Setúbal",
+   "nom_court": "District de Setúbal",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_sous_reserves",
+     "proprietes": {
+      "nom": "Setúbal",
+      "niveau": 1,
+      "echelon": 1,
+      "statut_administratif": "distrito",
+      "systeme_administratif": "circonscription_de_representation_du_gouvernement",
+      "parent_id": "territoire-pt-portugal",
+      "souverainete_id": "portugal",
+      "reserves": [
+       "R2PT-01",
+       "R2PT-02",
+       "R2PT-03",
+       "R2PT-04",
+       "R2PT-05"
+      ],
+      "note": "Circonscription territoriale de représentation du gouvernement. Échelon 1 parallèle aux provinces, pas enfant automatique de la province homonyme ou englobante. Les ordres du MAPA IV classent les districts ; ils ne définissent pas plusieurs niveaux hiérarchiques. Chef-lieu renseigné seulement quand la pièce l’identifie explicitement dans le passage contrôlé."
+     },
+     "sources": [
+      {
+       "source_id": "src-dr-pt-code-administratif-27424-1936",
+       "locator": "p.1870, MAPA IV, ligne Setúbal (PDF98)",
+       "usage": "liste des districts ; catégories d’ordre non assimilées à un échelon"
+      },
+      {
+       "source_id": "src-dr-pt-code-administratif-31095-1940",
+       "locator": "p.1637 art.2 du décret ; p.1641 art.1 du Code ; p.1679 art.404–407 (PDF1,5,43)",
+       "usage": "continuité des circonscriptions ; gouverneur civil représentant du gouvernement"
+      }
+     ]
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-pt-district-viana-do-castelo",
+   "type_entite": "subdivision",
+   "nom": "District de Viana do Castelo",
+   "nom_court": "District de Viana do Castelo",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_sous_reserves",
+     "proprietes": {
+      "nom": "Viana do Castelo",
+      "niveau": 1,
+      "echelon": 1,
+      "statut_administratif": "distrito",
+      "systeme_administratif": "circonscription_de_representation_du_gouvernement",
+      "parent_id": "territoire-pt-portugal",
+      "souverainete_id": "portugal",
+      "reserves": [
+       "R2PT-01",
+       "R2PT-02",
+       "R2PT-03",
+       "R2PT-04",
+       "R2PT-05"
+      ],
+      "note": "Circonscription territoriale de représentation du gouvernement. Échelon 1 parallèle aux provinces, pas enfant automatique de la province homonyme ou englobante. Les ordres du MAPA IV classent les districts ; ils ne définissent pas plusieurs niveaux hiérarchiques. Chef-lieu renseigné seulement quand la pièce l’identifie explicitement dans le passage contrôlé.",
+      "chef_lieu_propose": {
+       "nom": "Viana do Castelo",
+       "annee_preuve": "1936",
+       "source_id": "src-dr-pt-code-administratif-27424-1936",
+       "locator": "p.1836, MAPA I, concelhos rurais avec siège en capitale de district (PDF64), ligne Viana do Castelo",
+       "statut": "reference_documentee_anterieure_a_1945_non_validee_au_jour",
+       "ville_id_existante": "ville-pt-viana-do-castelo"
+      }
+     },
+     "sources": [
+      {
+       "source_id": "src-dr-pt-code-administratif-27424-1936",
+       "locator": "p.1870, MAPA IV, ligne Viana do Castelo (PDF98)",
+       "usage": "liste des districts ; catégories d’ordre non assimilées à un échelon"
+      },
+      {
+       "source_id": "src-dr-pt-code-administratif-31095-1940",
+       "locator": "p.1637 art.2 du décret ; p.1641 art.1 du Code ; p.1679 art.404–407 (PDF1,5,43)",
+       "usage": "continuité des circonscriptions ; gouverneur civil représentant du gouvernement"
+      }
+     ]
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-pt-district-vila-real",
+   "type_entite": "subdivision",
+   "nom": "District de Vila Real",
+   "nom_court": "District de Vila Real",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_sous_reserves",
+     "proprietes": {
+      "nom": "Vila Real",
+      "niveau": 1,
+      "echelon": 1,
+      "statut_administratif": "distrito",
+      "systeme_administratif": "circonscription_de_representation_du_gouvernement",
+      "parent_id": "territoire-pt-portugal",
+      "souverainete_id": "portugal",
+      "reserves": [
+       "R2PT-01",
+       "R2PT-02",
+       "R2PT-03",
+       "R2PT-04",
+       "R2PT-05"
+      ],
+      "note": "Circonscription territoriale de représentation du gouvernement. Échelon 1 parallèle aux provinces, pas enfant automatique de la province homonyme ou englobante. Les ordres du MAPA IV classent les districts ; ils ne définissent pas plusieurs niveaux hiérarchiques. Chef-lieu renseigné seulement quand la pièce l’identifie explicitement dans le passage contrôlé.",
+      "chef_lieu_propose": {
+       "nom": "Vila Real",
+       "annee_preuve": "1936",
+       "source_id": "src-dr-pt-code-administratif-27424-1936",
+       "locator": "p.1836, MAPA I, concelhos rurais avec siège en capitale de district (PDF64), ligne Vila Real",
+       "statut": "reference_documentee_anterieure_a_1945_non_validee_au_jour",
+       "ville_id_existante": "ville-pt-vila-real"
+      }
+     },
+     "sources": [
+      {
+       "source_id": "src-dr-pt-code-administratif-27424-1936",
+       "locator": "p.1870, MAPA IV, ligne Vila Real (PDF98)",
+       "usage": "liste des districts ; catégories d’ordre non assimilées à un échelon"
+      },
+      {
+       "source_id": "src-dr-pt-code-administratif-31095-1940",
+       "locator": "p.1637 art.2 du décret ; p.1641 art.1 du Code ; p.1679 art.404–407 (PDF1,5,43)",
+       "usage": "continuité des circonscriptions ; gouverneur civil représentant du gouvernement"
+      }
+     ]
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-pt-district-viseu",
+   "type_entite": "subdivision",
+   "nom": "District de Viseu",
+   "nom_court": "District de Viseu",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_sous_reserves",
+     "proprietes": {
+      "nom": "Viseu",
+      "niveau": 1,
+      "echelon": 1,
+      "statut_administratif": "distrito",
+      "systeme_administratif": "circonscription_de_representation_du_gouvernement",
+      "parent_id": "territoire-pt-portugal",
+      "souverainete_id": "portugal",
+      "reserves": [
+       "R2PT-01",
+       "R2PT-02",
+       "R2PT-03",
+       "R2PT-04",
+       "R2PT-05"
+      ],
+      "note": "Circonscription territoriale de représentation du gouvernement. Échelon 1 parallèle aux provinces, pas enfant automatique de la province homonyme ou englobante. Les ordres du MAPA IV classent les districts ; ils ne définissent pas plusieurs niveaux hiérarchiques. Chef-lieu renseigné seulement quand la pièce l’identifie explicitement dans le passage contrôlé.",
+      "chef_lieu_propose": {
+       "nom": "Viseu",
+       "annee_preuve": "1936",
+       "source_id": "src-dr-pt-code-administratif-27424-1936",
+       "locator": "p.1836, MAPA I, concelhos rurais avec siège en capitale de district (PDF64), ligne Viseu",
+       "statut": "reference_documentee_anterieure_a_1945_non_validee_au_jour",
+       "ville_id_existante": "ville-pt-viseu"
+      }
+     },
+     "sources": [
+      {
+       "source_id": "src-dr-pt-code-administratif-27424-1936",
+       "locator": "p.1870, MAPA IV, ligne Viseu (PDF98)",
+       "usage": "liste des districts ; catégories d’ordre non assimilées à un échelon"
+      },
+      {
+       "source_id": "src-dr-pt-code-administratif-31095-1940",
+       "locator": "p.1637 art.2 du décret ; p.1641 art.1 du Code ; p.1679 art.404–407 (PDF1,5,43)",
+       "usage": "continuité des circonscriptions ; gouverneur civil représentant du gouvernement"
+      }
+     ]
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-pt-district-angra-do-heroismo",
+   "type_entite": "subdivision",
+   "nom": "District autonome d'Angra do Heroísmo",
+   "nom_court": "District autonome d'Angra do Heroísmo",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_sous_reserves",
+     "proprietes": {
+      "nom": "Angra do Heroísmo",
+      "niveau": 1,
+      "echelon": 1,
+      "statut_administratif": "distrito autónomo",
+      "systeme_administratif": "district_autonome_des_iles_adjacentes",
+      "parent_id": "territoire-pt-portugal",
+      "souverainete_id": "portugal",
+      "reserves": [
+       "R2PT-01",
+       "R2PT-02",
+       "R2PT-03",
+       "R2PT-04",
+       "R2PT-05"
+      ],
+      "note": "District autonome des îles adjacentes : personnalité publique, autonomie administrative et financière, junta geral et gouverneur civil selon le Statut de 1940. Parent Portugal ; aucune région autonome moderne des Açores ou de Madère intercalée. Les concelhos et îles ne sont pas créés comme subdivisions supplémentaires dans ce cycle. Répartition insulaire complète et dépendances non habitées à contrôler avant tracé.",
+      "chef_lieu_propose": {
+       "nom": "Angra do Heroísmo",
+       "annee_preuve": "1939",
+       "source_id": "src-dr-pt-districts-autonomes-30214-1939",
+       "locator": "p.1633, MAPA I, concelhos rurais avec siège en capitale de district (PDF19), ligne Angra do Heroísmo",
+       "statut": "reference_documentee_anterieure_a_1945_non_validee_au_jour",
+       "ville_id_existante": "ville-pt-angra-do-heroismo"
+      }
+     },
+     "sources": [
+      {
+       "source_id": "src-dr-pt-districts-autonomes-30214-1939",
+       "locator": "p.1619 art.1–5 ; p.1633–1634, MAPA I/II (PDF5,19,20)",
+       "usage": "régime autonome, liste des districts et concelhos"
+      },
+      {
+       "source_id": "src-dr-pt-code-administratif-31095-1940",
+       "locator": "p.1637 art.2 du décret ; p.1639–1640 MAPA II ; p.1727 art.1–5 du Statut (PDF1,3,4,91)",
+       "usage": "régime applicable à partir de 1940 et quatre administrations nommées"
+      }
+     ]
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-pt-district-horta",
+   "type_entite": "subdivision",
+   "nom": "District autonome de Horta",
+   "nom_court": "District autonome de Horta",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_sous_reserves",
+     "proprietes": {
+      "nom": "Horta",
+      "niveau": 1,
+      "echelon": 1,
+      "statut_administratif": "distrito autónomo",
+      "systeme_administratif": "district_autonome_des_iles_adjacentes",
+      "parent_id": "territoire-pt-portugal",
+      "souverainete_id": "portugal",
+      "reserves": [
+       "R2PT-01",
+       "R2PT-02",
+       "R2PT-03",
+       "R2PT-04",
+       "R2PT-05"
+      ],
+      "note": "District autonome des îles adjacentes : personnalité publique, autonomie administrative et financière, junta geral et gouverneur civil selon le Statut de 1940. Parent Portugal ; aucune région autonome moderne des Açores ou de Madère intercalée. Les concelhos et îles ne sont pas créés comme subdivisions supplémentaires dans ce cycle. Répartition insulaire complète et dépendances non habitées à contrôler avant tracé.",
+      "chef_lieu_propose": {
+       "nom": "Horta",
+       "annee_preuve": "1939",
+       "source_id": "src-dr-pt-districts-autonomes-30214-1939",
+       "locator": "p.1633, MAPA I, concelhos rurais avec siège en capitale de district (PDF19), ligne Horta",
+       "statut": "reference_documentee_anterieure_a_1945_non_validee_au_jour",
+       "ville_id_existante": "ville-pt-horta"
+      }
+     },
+     "sources": [
+      {
+       "source_id": "src-dr-pt-districts-autonomes-30214-1939",
+       "locator": "p.1619 art.1–5 ; p.1633–1634, MAPA I/II (PDF5,19,20)",
+       "usage": "régime autonome, liste des districts et concelhos"
+      },
+      {
+       "source_id": "src-dr-pt-code-administratif-31095-1940",
+       "locator": "p.1637 art.2 du décret ; p.1639–1640 MAPA II ; p.1727 art.1–5 du Statut (PDF1,3,4,91)",
+       "usage": "régime applicable à partir de 1940 et quatre administrations nommées"
+      }
+     ]
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-pt-district-ponta-delgada",
+   "type_entite": "subdivision",
+   "nom": "District autonome de Ponta Delgada",
+   "nom_court": "District autonome de Ponta Delgada",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_sous_reserves",
+     "proprietes": {
+      "nom": "Ponta Delgada",
+      "niveau": 1,
+      "echelon": 1,
+      "statut_administratif": "distrito autónomo",
+      "systeme_administratif": "district_autonome_des_iles_adjacentes",
+      "parent_id": "territoire-pt-portugal",
+      "souverainete_id": "portugal",
+      "reserves": [
+       "R2PT-01",
+       "R2PT-02",
+       "R2PT-03",
+       "R2PT-04",
+       "R2PT-05"
+      ],
+      "note": "District autonome des îles adjacentes : personnalité publique, autonomie administrative et financière, junta geral et gouverneur civil selon le Statut de 1940. Parent Portugal ; aucune région autonome moderne des Açores ou de Madère intercalée. Les concelhos et îles ne sont pas créés comme subdivisions supplémentaires dans ce cycle. Répartition insulaire complète et dépendances non habitées à contrôler avant tracé.",
+      "chef_lieu_propose": {
+       "nom": "Ponta Delgada",
+       "annee_preuve": "1939",
+       "source_id": "src-dr-pt-districts-autonomes-30214-1939",
+       "locator": "p.1633, MAPA I, concelhos rurais avec siège en capitale de district (PDF19), ligne Ponta Delgada",
+       "statut": "reference_documentee_anterieure_a_1945_non_validee_au_jour",
+       "ville_id_existante": "ville-pt-ponta-delgada"
+      }
+     },
+     "sources": [
+      {
+       "source_id": "src-dr-pt-districts-autonomes-30214-1939",
+       "locator": "p.1619 art.1–5 ; p.1633–1634, MAPA I/II (PDF5,19,20)",
+       "usage": "régime autonome, liste des districts et concelhos"
+      },
+      {
+       "source_id": "src-dr-pt-code-administratif-31095-1940",
+       "locator": "p.1637 art.2 du décret ; p.1639–1640 MAPA II ; p.1727 art.1–5 du Statut (PDF1,3,4,91)",
+       "usage": "régime applicable à partir de 1940 et quatre administrations nommées"
+      }
+     ]
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-pt-district-funchal",
+   "type_entite": "subdivision",
+   "nom": "District autonome de Funchal",
+   "nom_court": "District autonome de Funchal",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_sous_reserves",
+     "proprietes": {
+      "nom": "Funchal",
+      "niveau": 1,
+      "echelon": 1,
+      "statut_administratif": "distrito autónomo",
+      "systeme_administratif": "district_autonome_des_iles_adjacentes",
+      "parent_id": "territoire-pt-portugal",
+      "souverainete_id": "portugal",
+      "reserves": [
+       "R2PT-01",
+       "R2PT-02",
+       "R2PT-03",
+       "R2PT-04",
+       "R2PT-05"
+      ],
+      "note": "District autonome des îles adjacentes : personnalité publique, autonomie administrative et financière, junta geral et gouverneur civil selon le Statut de 1940. Parent Portugal ; aucune région autonome moderne des Açores ou de Madère intercalée. Les concelhos et îles ne sont pas créés comme subdivisions supplémentaires dans ce cycle. Répartition insulaire complète et dépendances non habitées à contrôler avant tracé."
+     },
+     "sources": [
+      {
+       "source_id": "src-dr-pt-districts-autonomes-30214-1939",
+       "locator": "p.1619 art.1–5 ; p.1633–1634, MAPA I/II (PDF5,19,20)",
+       "usage": "régime autonome, liste des districts et concelhos"
+      },
+      {
+       "source_id": "src-dr-pt-code-administratif-31095-1940",
+       "locator": "p.1637 art.2 du décret ; p.1639–1640 MAPA II ; p.1727 art.1–5 du Statut (PDF1,3,4,91)",
+       "usage": "régime applicable à partir de 1940 et quatre administrations nommées"
+      }
+     ]
+    }
+   ],
+   "relations": []
+  }
+ ]
+}

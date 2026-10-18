@@ -87,3 +87,4 @@ Principe de Guizmo : **maximum d'informations, minimum de visibilité**. La cart
 | 2.NL | 12 (11 provinces, Noordoostpolder) | 11 (NLGIS Boonstra 1945, CC0) ; 1 exclu (Brabant-Septentrional, Baarle) | 4 (3 ok) | intégré le 16/10/2026 (cycle 1, boucle) |
 | 2.CH | 200 (25 cantons et demi-cantons, 175 districts) | 0 (200 contours OFS G1 « terms_open », hors licences acceptées : à trancher par Guizmo) | 6 (4 ok) | intégré le 16/10/2026 (cycle 1, boucle) |
 | 2.ES | 57 (50 provinces, 7 îles à cabildo) | 0 (pas de contour de 1945 à licence ouverte, R2ES-01) | 10 (7 ok) | intégré le 18/10/2026 (cycle 1, boucle) |
+| 2.PT | 33 (11 provinces, 18 districts, 4 districts insulaires) | 0 (pas de contour de 1945 à licence ouverte, R2PT-01) | 6 (6 ok) | intégré le 18/10/2026 (cycle 1, boucle) |

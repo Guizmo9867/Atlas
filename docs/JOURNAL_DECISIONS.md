@@ -2,6 +2,12 @@
 
 Une ligne par décision, datée. Plus récente en haut. Ce journal remplace les versions éparpillées dans les conversations : si ce n'est pas ici, ce n'est pas décidé.
 
+## 2026-10-18 (fin d'après-midi : 2.PT intégré, boucle automatique)
+
+- **Lot 2.PT intégré** (cycle 1, groupe 2) : 33 subdivisions du Portugal au 01/01/1945 = 11 provinces, 18 districts continentaux et 4 districts autonomes insulaires, toutes à l'échelon 1, en deux organisations parallèles (`systeme_administratif`) : un district peut chevaucher plusieurs provinces, donc pas d'arbre province → district (Q2PT-05, R2PT-02). *(Ether, intégré par Claude)*
+- **Aucun tracé** (pas de contour de 1945 à licence ouverte, R2PT-01). 26 chefs-lieux proposés, aucun validé (R2PT-04). Réserves R2PT-01 à 05 pour la revue du groupe 2. *(Claude)*
+- Sources : 6 nouvelles (6 ok, dont 4 sur captures d'Ether, les PDF du Diário étant sans texte pour l'outil), registre v1.41. *(Claude)*
+
 ## 2026-10-18 (après-midi : 2.ES intégré, boucle automatique)
 
 - **Lot 2.ES intégré** (cycle 1, premier lot du groupe 2) : 57 subdivisions de l'Espagne au 01/01/1945 = 50 provinces (échelon 1, d'après l'annuaire INE 1944-1945) et 7 îles canariennes à cabildo (échelon 2, RD 1586/1927 et pièces de 1944). Pas de partidos judiciales ni de communes ; possessions africaines hors lot. *(Ether, intégré par Claude)*

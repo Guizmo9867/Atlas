@@ -1,0 +1,38 @@
+{
+ "lot": "2.PT",
+ "date": "2026-10-18",
+ "auteur": "Claude",
+ "methode": "Sous-agents (WebFetch seulement, sans contournement) + lecture par Claude des captures et copies déposées par Ether dans preuves/ ; « ok » seulement si la source prouve ce que la fiche lui fait dire à la date.",
+ "resultats": [
+  {
+   "id": "src-dr-pt-code-administratif-27424-1936",
+   "statut": "ok",
+   "commentaire": "WebFetch : PDF sans texte lisible par l'outil. Capture d'Ether p.1869 (PDF97) lue par Claude : « MAPA III — Províncias », Minho (Braga (capital), Viana do Castelo), Trás-os-Montes e Alto Douro (Vila Real (capital), Bragança, Guarda, Viseu), Douro Litoral (Pôrto (capital), Aveiro, Viseu), Beira Alta (Viseu (capital), Coimbra, Guarda), Beira Baixa (Castelo Branco (capital)…), Beira Litoral (Coimbra (capital), Aveiro, Leiria, Santarém) : districts répartis entre plusieurs provinces (Guarda, Viseu, Aveiro…). Texte de 1936 : continuité au 01/01/1945 par l'art. 2 du décret 31095 de 1940 (R2PT-03)."
+  },
+  {
+   "id": "src-dr-pt-districts-autonomes-30214-1939",
+   "statut": "ok",
+   "commentaire": "WebFetch : PDF sans texte lisible par l'outil. Capture p.1633 (PDF19) lue par Claude : « Concelhos rurais : 1.ª ordem : Com sede em capital de distrito … Angra do Heroísmo. Horta. Ponta Delgada. » ; « Distrito do Funchal », « Distrito de Ponta Delgada », « Distrito de Angra do Heroísmo », « Distrito da Horta ». Prouve les quatre districts insulaires et trois sièges ; Funchal comme siège de district non explicite sur cette page (R2PT-04)."
+  },
+  {
+   "id": "src-dr-pt-code-administratif-31095-1940",
+   "statut": "ok",
+   "commentaire": "Page diariodarepublica.pt : coquille JavaScript pour l'outil. Capture d'Ether du PDF (p.1, Diário do Govêrno 31/12/1940, suplemento) lue par Claude : « Art. 2.º As circunscrições administrativas do continente e das ilhas adjacentes são as que constam dos mapas aprovados pelos decretos-leis n.os 27:424, de 31 de Dezembro de 1936, e n.º 30:214, de 22 de Dezembro de 1939, com as alterações constantes do mapa I anexo ». Articles 1, 284–286, 404 du Code et 1–5 du Statut non relus en capture par Claude (pages fournies en texte OCR) : appui pour la continuité des listes."
+  },
+  {
+   "id": "src-dr-pt-code-modification-31386-1941",
+   "statut": "ok",
+   "commentaire": "WebFetch : PDF sans texte lisible par l'outil. Capture p.604 lue par Claude : « Artigo 1.º São alterados os artigos 18.º, 39.º, 73.º, 109.º, 176.º, 306.º, 308.º, … e 848.º do Código Administrativo … e bem assim os artigos 72.º, 103.º, 104.º e 118.º … do Estatuto » ; art. 9 rectifie l'art. 18 du décret 31095 (Junta Autónoma dos portos do distrito de Ponta Delgada). Ni l'art. 1, 284–286, 404 du Code ni l'art. 1–5 du Statut ne sont modifiés. Contrôle non exhaustif de 1941–1944 (R2PT-03)."
+  },
+  {
+   "id": "src-dgt-pt-caop-catalogue",
+   "statut": "ok",
+   "commentaire": "Lu par le sous-agent : « A Carta Administrativa Oficial de Portugal, versão de 2025 - CAOP2025 », version en vigueur. Prouve que la CAOP est une carte actuelle, pas une restitution de 1945 (usage annoncé)."
+  },
+  {
+   "id": "src-alves-pt-atlas-historique-2024",
+   "statut": "ok",
+   "commentaire": "Lu par le sous-agent (DOI → revistas.uminho.pt/h2d/…/6114) : Daniel Alves, H2D vol.6 n°1, 20/12/2024, CC BY 4.0 ; « partindo sempre do nível básico da paróquia/freguesia » ; projet conçu et coordonné par Luís Espinha da Silveira. La licence vaut pour l'article, pas pour les tracés du projet (aucun tracé utilisé)."
+  }
+ ]
+}
