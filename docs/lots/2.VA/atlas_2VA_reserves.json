@@ -1,0 +1,55 @@
+{
+  "lot": "2.VA",
+  "reserves": [
+    {
+      "reserve_id": "R2VA-01",
+      "point": "Absence de subdivision proposée et portée de la recherche",
+      "preuves": "Lois de 1929 : pouvoirs centraux et organisation des bureaux ; actes de 1944 : Commission et gouverneur.",
+      "limites": "Les actes de 1929–1944 ne sont pas tous dépouillés ; aucun inventaire de tous les zonages techniques, ecclésiastiques ou immobiliers n’est établi.",
+      "impact_donnees": "Zéro subdivision nouvelle ; décision documentée de ne pas dupliquer l’État, sans affirmer une inexistence absolue de tout zonage.",
+      "choix_a_examiner": "Claude : relire cette décision à l’échelle de l’Atlas, conserver la limite documentaire.",
+      "sources": [
+        "src-va-lois-fondamentales1929",
+        "src-va-aas-actes1944"
+      ],
+      "statut": "reserve_revue_groupe2"
+    },
+    {
+      "reserve_id": "R2VA-02",
+      "point": "Extraterritorialité et cas de Saint-Pierre",
+      "preuves": "Traité art. 3 : place Saint-Pierre dans la Cité avec régime de police particulier ; art. 15 : immeubles protégés situés en Italie.",
+      "limites": "Évolution complète des propriétés jusqu’au Snapshot et plans individuels non audités ; contrôle effectif des accès pendant la guerre non revérifié ici.",
+      "impact_donnees": "Aucun district Castel Gandolfo, Latran ou Saint-Pierre créé ; aucune souveraineté ni contrôle modifiés.",
+      "choix_a_examiner": "Conserver les distinctions ; un audit immobilier ou territorial distinct nécessiterait un périmètre autorisé.",
+      "sources": [
+        "src-va-traite-latran1929"
+      ],
+      "statut": "reserve_revue_groupe2"
+    },
+    {
+      "reserve_id": "R2VA-03",
+      "point": "Cartographie et licence",
+      "preuves": "Aucune unité subnationale nouvelle retenue ; annexe I du traité concerne la frontière nationale.",
+      "limites": "Aucun tracé interne ou licence propre à un tracé vérifiés ; aucune preuve de droits de géométrie déduite de la publication du texte.",
+      "impact_donnees": "FeatureCollection vide ; la géométrie canonique nationale reste inchangée.",
+      "choix_a_examiner": "N’exiger un contour qu’après identification d’une unité utile et de sa provenance.",
+      "sources": [
+        "src-va-traite-latran1929",
+        "src-va-lois-fondamentales1929"
+      ],
+      "statut": "reserve_revue_groupe2"
+    },
+    {
+      "reserve_id": "R2VA-04",
+      "point": "Signature du traité et date du parent canonique",
+      "preuves": "Parent existant daté du 11/02/1929 ; traité art. 27 prévoit l’effet à l’échange des ratifications, date du 07/06/1929 portée par le lien vers le procès-verbal en en-tête (texte non consulté).",
+      "limites": "Le présent lot ne réaudite pas toutes les dates des territoires.",
+      "impact_donnees": "Écart conservé en réserve ; aucun changement automatique de la fiche territoriale. Sans incidence sur l’existence de l’État au 01/01/1945.",
+      "choix_a_examiner": "Claude : enregistrer la distinction signature/entrée en vigueur pour revue, sans rouvrir une campagne territoriale.",
+      "sources": [
+        "src-va-traite-latran1929"
+      ],
+      "statut": "reserve_revue_groupe2"
+    }
+  ]
+}

@@ -2,6 +2,13 @@
 
 Une ligne par décision, datée. Plus récente en haut. Ce journal remplace les versions éparpillées dans les conversations : si ce n'est pas ici, ce n'est pas décidé.
 
+## 2026-10-19 (matin : 2.SM et 2.VA intégrés, boucle automatique)
+
+- **Lot 2.SM intégré** (cycle 1, groupe 2) : **0 fiche importée** pour Saint-Marin. Le canon n'a **aucun territoire Saint-Marin** (seulement la ville `ville-sm-saint-marin` ; lot04 l'avait différé) : les 8 castelli documentés par Ether (règlement du 16/03/1925, renommages de 1944) restent **hors import** (`docs/lots/2.SM/atlas_2SM_candidats_documentes_non_importables.json`), sans rattachement à l'Italie ni à la ville. Guaita/Montale différés (fusion constatée en avril 1945, effet non daté). Giunte Ausiliarie (nov. 1945) non anticipées. *(Ether, intégré par Claude)*
+- **À trancher par Guizmo** : créer (ou non) un territoire et une souveraineté Saint-Marin dans le canon, préalable pour importer ces castelli (changement de la couche territoires, hors boucle automatique). *(Claude)*
+- **Lot 2.VA intégré** (cycle 1, groupe 2) : **note sans subdivision** pour la Cité du Vatican (lois I et IV du 07/06/1929 : bureaux centraux, pas de districts ; Saint-Pierre dans la Cité, immeubles de l'art. 15 en territoire italien). Écart signature (11/02/1929) / entrée en vigueur (07/06/1929) du parent `territoire-va-vatican` gardé en réserve (R2VA-04), sans correction. *(Ether, intégré par Claude)*
+- Sources : 4 (2.SM, 4 ok) et 3 (2.VA, 3 ok), registre v1.48. Aucun tracé, aucun chef-lieu. Réserves R2SM-01 à 05 et R2VA-01 à 04 pour la revue du groupe 2. *(Claude)*
+
 ## 2026-10-19 (nuit : 2.MC intégré, boucle automatique)
 
 - **Lot 2.MC intégré** (cycle 1, groupe 2) : **note sans subdivision** pour Monaco au 01/01/1945 : une seule commune depuis l'ordonnance du 18/11/1917 (Constitution de 1911, art. 37–38) ; les trois communes de 1911 ne sont pas recréées ; quartiers non promus (Q2MC-01 à 05 acceptées). *(Ether, intégré par Claude)*

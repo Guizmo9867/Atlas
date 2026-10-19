@@ -1,0 +1,23 @@
+{
+ "metadata_lot": {
+  "nom": "snapshot0_subdivisions_2-SM",
+  "date_reference": "1945-01-01",
+  "heure_reference": "00:00",
+  "version": "1.0",
+  "statut": "integre_par_claude",
+  "cycle": 1,
+  "date_integration": "2026-10-19",
+  "gabarit_source": "gabarits/gabarit_entite_temporelle_atlas.json",
+  "lot_methode": "2.SM (phase 2, docs/METHODE_ATLAS_v2.md)",
+  "etat_1945": "Saint-Marin",
+  "proposition_ether": "data/sources/deltas_ether/2026-10-19_2SM_subdivisions_proposees_ether.json",
+  "regles": [
+   "échelon 1 = premier niveau sous l'État ; échelon 2 = le niveau en dessous ; le terme local reste dans statut_administratif",
+   "une subdivision porte la souveraineté de droit ; le contrôle réel vient des territoires et des lignes de front",
+   "affichage : échelon 1 dès le zoom 5, échelon 2 dès le zoom 6,5, mêmes seuils pour tous les pays (calque « Découpage administratif »)",
+   "tracés provisoires ; chefs-lieux proposés = référence, jamais validés sans preuve au 01/01/1945"
+  ],
+  "sans_trace": []
+ },
+ "entites": []
+}

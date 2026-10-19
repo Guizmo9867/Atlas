@@ -1,0 +1,15 @@
+# Vatican — cycle 1, note sans subdivision supplémentaire
+
+Proposition au 01/01/1945 à 00:00 : **aucune subdivision nouvelle**. Trois sources nouvelles, quatre réserves, trois fichiers de données complets (entités et géométries vides). Le territoire canonique territoire-va-vatican, souveraineté vatican, existe déjà. Une subdivision couvrant à nouveau tout l’État serait un doublon sans niveau administratif distinct établi.
+
+- Q2VA-01 : les lois I et IV de 1929 organisent le souverain, le gouverneur et les bureaux centraux. Le mot Governatorato décrit l’administration de l’État, pas un district inférieur. Les actes de mai/novembre 1944 attestent aussi la Commission pontificale et le gouverneur : l’organisation de 1929 n’est donc pas présentée comme intégralement inchangée. Aucun échelon territorial inférieur utile identifié.
+- Q2VA-02 : liste proposée vide, décision de modélisation étayée, pas résultat d’un simple manque de recherche. Les services, jardins, musées et institutions ecclésiastiques ne sont pas transformés en subdivisions civiles. L’exhaustivité de tous les zonages possibles reste réservée.
+- Q2VA-03 : aucun contour de subdivision, puisque aucune unité nouvelle n’est proposée. Aucun plan moderne, OSM/ODbL ou géométrie nationale recopiés ; aucune licence de tracé prétendue. La présence d’un document sur un site officiel ne vaut pas licence de cartographie.
+- Q2VA-04 : l’art. 15 du traité situe les immeubles bénéficiant d’immunités dans le territoire italien ; ils ne deviennent pas des districts de l’État. Saint-Pierre est dans la Cité avec un régime de police particulier (art. 3), pas une province italienne ajoutée au Vatican. Aucune frontière, souveraineté ou couche de contrôle modifiée ; les extensions et réformes postérieures ne sont pas anticipées.
+- Q2VA-05 : relire le choix d’une note sans découpage et conserver les quatre réserves. Le parent canonique commence au 11/02/1929, date de signature, alors que l’art. 27 prévoit l’effet à l’échange des ratifications, que l’en-tête de la page date du 07/06/1929 ; le texte du procès-verbal lui-même n’a pas été consulté. Cette distinction est signalée pour revue, sans correction territoriale automatique et sans effet sur le Snapshot 1945.
+
+Chefs-lieux sans fiche ville : aucun à proposer puisqu’aucune subdivision n’est créée. La ville et le territoire existants ne sont pas dupliqués. Raccord avec l’Italie : aucun contour nouveau.
+
+preuves/INDEX_PREUVES_ETHER.md précise les pages réellement lues. Le premier PDF exporté de la loi fondamentale ne contenait que son en-tête : il est conservé comme incident, **pas comme preuve de son texte**. Les lois ont été vérifiées dans le recueil officiel de 37 pages, et la loi IV retrouvée malgré l’ancien lien 404.
+
+Saint-Marin est remis séparément : huit dossiers candidats documentés hors import, parent territorial absent, pas de faux rattachement. Ne pas confondre son fichier d’entités vide pour ce motif avec la décision de modélisation du Vatican. Retours AD/MC clos sans relivraison.

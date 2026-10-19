@@ -1,0 +1,32 @@
+{
+ "note": "Copie fidèle de 01_lots/2.VA/atlas_2VA_subdivisions_proposees.json (Ether, cycle 1), sous la clé proposition_ether pour que le validateur ne la lise pas comme un lot du corpus (entités intégrées : data/snapshot0/subdivisions_2-VA.json).",
+ "proposition_ether": {
+  "metadata_lot": {
+   "lot": "2.VA",
+   "etat_1945": "Cité du Vatican",
+   "date_reference": "1945-01-01",
+   "heure_reference": "00:00",
+   "cycle": 1,
+   "statut": "note_documentee_sans_decoupage_supplementaire_propose",
+   "comptages": {
+    "total": 0,
+    "echelon_1": 0,
+    "echelon_2": 0
+   },
+   "decision": "Aucun échelon territorial supplémentaire utile et étayé identifié. L’État existant n’est pas dupliqué par une subdivision de même emprise.",
+   "portee": "Décision de modélisation tirée des textes consultés, pas preuve exhaustive de l’absence de tout zonage interne.",
+   "echelon_1": "Aucun proposé ; organes centraux et services non assimilés à des districts.",
+   "echelon_2": "Sans objet dans la proposition.",
+   "parent_canonique_lu": "territoire-va-vatican",
+   "souverainete_canonique_lue": "vatican",
+   "chefs_lieux_proposes": 0,
+   "geometries_liees": 0,
+   "sources_justificatives": [
+    "src-va-lois-fondamentales1929",
+    "src-va-traite-latran1929",
+    "src-va-aas-actes1944"
+   ]
+  },
+  "entites": []
+ }
+}

@@ -1,0 +1,69 @@
+{
+  "lot": "2.SM",
+  "reserves": [
+    {
+      "reserve_id": "R2SM-01",
+      "point": "Parent territorial absent du canon",
+      "preuves": "Scan des entités canoniques et mention Saint-Marin différé dans lot04.",
+      "limites": "La ville existe, mais aucun territoire Saint-Marin ni souveraineté de rattachement n’est disponible.",
+      "impact_donnees": "Zéro fiche dans le fichier importé ; huit dossiers candidats séparés.",
+      "choix_a_examiner": "Claude : confirmer le préalable territorial et conserver ces dossiers ; aucune création de territoire ni rattachement italien demandé implicitement.",
+      "sources": [],
+      "statut": "reserve_revue_groupe2"
+    },
+    {
+      "reserve_id": "R2SM-02",
+      "point": "Transition 1943–1945 et secteur central",
+      "preuves": "Le règlement de 1925 décrit dix districts ; la synthèse cite six nominations en avril et octobre 1944, puis neuf districts en avril 1945.",
+      "limites": "Six nominations ne prouvent pas six districts. Date exacte de fusion Guaita/Montale et continuité des autres limites non établies ; originaux non lus.",
+      "impact_donnees": "Deux secteurs centraux différés. Huit unités indépendantes documentées, sans affirmer une couverture nationale complète.",
+      "choix_a_examiner": "Examiner les minutes de 1944 et l’acte de fusion avant de choisir neuf ou dix unités au Snapshot.",
+      "sources": [
+        "src-sm-reglement-castelli1925",
+        "src-sm-bastianelli-histoire-castelli",
+        "src-sm-loi-giunte1945"
+      ],
+      "statut": "reserve_revue_groupe2"
+    },
+    {
+      "reserve_id": "R2SM-03",
+      "point": "Géométries, licence et attribution",
+      "preuves": "Cadastre 2025 distingue dix paroisses et castelli suivant une loi de 2020.",
+      "limites": "Aucune géométrie historique, licence propre au tracé ou chaîne de reconstruction trouvée.",
+      "impact_donnees": "GeoJSON vide, sans geometrie_ref ; aucune copie de limites actuelles.",
+      "choix_a_examiner": "Chercher un tracé historiquement adapté et explicitement licencié si un complément est ouvert.",
+      "sources": [
+        "src-sm-statistique-cadastre2025",
+        "src-sm-reglement-castelli1925"
+      ],
+      "statut": "reserve_revue_groupe2"
+    },
+    {
+      "reserve_id": "R2SM-04",
+      "point": "Échelon fin et institutions successives",
+      "preuves": "Castello = district de surveillance ; particularité communale de Serravalle, Faetano, Montegiardino art. 3.",
+      "limites": "Paroisses et gualdarie ne forment pas un second niveau civil homogène démontré pour 1945.",
+      "impact_donnees": "Un seul échelon envisagé ; aucune Giunta Ausiliaria de novembre 1945 ou réforme de 1979 anticipée.",
+      "choix_a_examiner": "Conserver cette séparation d’institutions et de dates.",
+      "sources": [
+        "src-sm-reglement-castelli1925",
+        "src-sm-bastianelli-histoire-castelli",
+        "src-sm-loi-giunte1945"
+      ],
+      "statut": "reserve_revue_groupe2"
+    },
+    {
+      "reserve_id": "R2SM-05",
+      "point": "Sièges et formes de noms",
+      "preuves": "Noms de 1925 et changements de Domagnano/Chiesanuova en 1944 localisés.",
+      "limites": "Fratta/Borgo et Montecerreto/Acquaviva : emploi officiel exact au Snapshot à confirmer ; aucun siège daté ni bâtiment communal vérifié.",
+      "impact_donnees": "Noms actuels seulement sur les dossiers de fiche ; noms historiques pour l’état envisagé. Aucun chef-lieu, ville nouvelle ou code actuel.",
+      "choix_a_examiner": "Relecture des noms et des sièges seulement sur preuve datée.",
+      "sources": [
+        "src-sm-reglement-castelli1925",
+        "src-sm-bastianelli-histoire-castelli"
+      ],
+      "statut": "reserve_revue_groupe2"
+    }
+  ]
+}

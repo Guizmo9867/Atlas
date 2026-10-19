@@ -1,7 +1,7 @@
 {
  "metadata": {
   "nom": "registre_sources_atlas",
-  "version": "1.46",
+  "version": "1.48",
   "date_creation": "2026-09-26",
   "principe": "Une source = un source_id stable. Les fiches événements/entités peuvent référencer ce source_id et préciser l'usage/locator.",
   "statut": "registre_initial_a_completer"
@@ -53073,6 +53073,290 @@
    "archives_locales": [
     "01_lots/2.MC/preuves/palais2011.html",
     "01_lots/2.MC/preuves/palais2011.txt"
+   ]
+  },
+  {
+   "source_id": "src-sm-reglement-castelli1925",
+   "niveau": "A",
+   "type_source": "texte_normatif",
+   "titre": "Regolamento per l’elezione e l’ufficio dei Capitani dei Castelli — 16/03/1925 n° 10",
+   "institution": "Consiglio Grande e Generale",
+   "url": "https://www.consigliograndeegenerale.sm/on-line/home/archivio-leggi-decreti-e-regolamenti/documento17017123.html",
+   "date_consultation": "2026-10-19",
+   "periode_couverte": [],
+   "zones": [
+    "SM"
+   ],
+   "usages_atlas": [
+    "subdivisions_snapshot0"
+   ],
+   "cibles": [
+    "subdivision-sm-borgo-maggiore",
+    "subdivision-sm-acquaviva",
+    "subdivision-sm-fiorentino",
+    "subdivision-sm-chiesanuova",
+    "subdivision-sm-domagnano",
+    "subdivision-sm-serravalle",
+    "subdivision-sm-faetano",
+    "subdivision-sm-montegiardino"
+   ],
+   "locator": "art. 1–7, PDF p. 1–2 ; errata p. 3",
+   "resume_passage": "Page lue (WebFetch) : règlement du 16/03/1925, n° 10 (erratum : le Bollettino imprimait n° 7) ; art. 2 « Il Territorio della Repubblica è diviso nei seguenti Distretti: ... Guaita, Fratta, Montale, Fiorentino, Pennarossa, Montecerreto, Torraccia, Serravalle, Faetano e Montegiardino » ; art. 3 Serravalle, Faetano, Montegiardino « conservano le loro funzioni di capi delle rispettive amministrazioni comunali » ; « entrerà in vigore col 1° Aprile 1925 ». Les dix districts sont à l'art. 2 (pas à l'art. 1).",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "lu_parties_utilisees",
+    "date": "2026-10-19",
+    "mode": "PDF extraits et pages citées contrôlées ; HTML institutionnel lu. Pas de consultation des minutes originales de 1944."
+   },
+   "notes": "Proposée par Ether (lot 2.SM, cycle 1). Ce que la source prouve selon Ether : dix districts et leurs compétences en 1925, base antérieure au Snapshot. Limite annoncée par Ether : Transcription officielle avec errata, non fac-similé du bulletin. Entrée en vigueur le 01/04/1925. Les limites paroissiales textuelles ne sont pas transformées en contours. Relecture Claude 2026-10-19 : Page lue (WebFetch) : règlement du 16/03/1925, n° 10 (erratum : le Bollettino imprimait n° 7) ; art. 2 « Il Territorio della Repubblica è diviso nei seguenti Distretti: ... Guaita, Fratta, Montale, Fiorentino, Pennarossa, Montecerreto, Torraccia, Serravalle, Faetano e Montegiardino » ; art. 3 Serravalle, Faetano, Montegiardino « conservano le loro funzioni di capi delle rispettive amministrazioni comunali » ; « entrerà in vigore col 1° Aprile 1925 ». Les dix districts sont à l'art. 2 (pas à l'art. 1).",
+   "auteur": "Consiglio Grande e Generale ; Capitani Reggenti",
+   "archives_locales": [
+    "01_lots/2.SM/preuves/reglement1925.pdf",
+    "01_lots/2.SM/preuves/reglement1925.txt",
+    "01_lots/2.SM/preuves/reglement1925_p1.png",
+    "01_lots/2.SM/preuves/reglement1925_p2.png",
+    "01_lots/2.SM/preuves/reglement1925_p3.png"
+   ]
+  },
+  {
+   "source_id": "src-sm-bastianelli-histoire-castelli",
+   "niveau": "B",
+   "type_source": "histoire_institutionnelle",
+   "titre": "Cenni storici e Curiosità — histoire des Giunte di Castello",
+   "institution": "Segreteria di Stato per gli Affari Interni",
+   "url": "https://www.elezioni.sm/on-line/home/elezioni-giunte/cenni-storici-e-curiosita.html",
+   "date_consultation": "2026-10-19",
+   "periode_couverte": [],
+   "zones": [
+    "SM"
+   ],
+   "usages_atlas": [
+    "subdivisions_snapshot0"
+   ],
+   "cibles": [
+    "subdivision-sm-borgo-maggiore",
+    "subdivision-sm-acquaviva",
+    "subdivision-sm-fiorentino",
+    "subdivision-sm-chiesanuova",
+    "subdivision-sm-domagnano",
+    "subdivision-sm-serravalle",
+    "subdivision-sm-faetano",
+    "subdivision-sm-montegiardino"
+   ],
+   "locator": "sections 16 MARZO 1925, 17 NOVEMBRE 1945 et 30 NOVEMBRE 1979",
+   "resume_passage": "Page lue (WebFetch, résumé) et copie texte d'Ether lue par Claude (l. 77) : « Il 2 aprile 1944 sono aggiunte anche le nomine dei Capitani di Castello di Fiorentino, Domagnano e Chiesanuova. E vengono adottate per la prima volta le denominazioni di Domagnano e Chiesanuova al posto di Torraccia e Pennarossa. [...] L'8 aprile del 45 sono elencati nove Castelli, essendo stati accorpati la Guaita e il Montale ». Synthèse rétrospective (Bastianelli, 1993) : minutes originales non lues.",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "lu_parties_utilisees",
+    "date": "2026-10-19",
+    "mode": "PDF extraits et pages citées contrôlées ; HTML institutionnel lu. Pas de consultation des minutes originales de 1944."
+   },
+   "notes": "Proposée par Ether (lot 2.SM, cycle 1). Ce que la source prouve selon Ether : renommages attestés en 1944 et distinction des réformes postérieures. Limite annoncée par Ether : Synthèse rétrospective ; date de publication non établie. Les minutes d’Arengo citées ne sont pas consultées. La liste de neuf du 08/04/1945 ne date pas à elle seule l’effet de la fusion. La phrase résumant la partition de Città ne remplace pas l’art. 2 du règlement. Relecture Claude 2026-10-19 : Page lue (WebFetch, résumé) et copie texte d'Ether lue par Claude (l. 77) : « Il 2 aprile 1944 sono aggiunte anche le nomine dei Capitani di Castello di Fiorentino, Domagnano e Chiesanuova. E vengono adottate per la prima volta le denominazioni di Domagnano e Chiesanuova al posto di Torraccia e Pennarossa. [...] L'8 aprile del 45 sono elencati nove Castelli, essendo stati accorpati la Guaita e il Montale ». Synthèse rétrospective (Bastianelli, 1993) : minutes originales non lues.",
+   "auteur": "Clara Bastianelli, extrait de Dalle gualdarie alle comunità locali",
+   "archives_locales": [
+    "01_lots/2.SM/preuves/histoire_castelli.html",
+    "01_lots/2.SM/preuves/histoire_castelli.txt"
+   ]
+  },
+  {
+   "source_id": "src-sm-loi-giunte1945",
+   "niveau": "A",
+   "type_source": "texte_normatif",
+   "titre": "Legge che istituisce le Giunte Ausiliarie — n° 66, décision du 17/11/1945",
+   "institution": "Consiglio Grande e Generale",
+   "url": "https://www.consigliograndeegenerale.sm/on-line/home/archivio-leggi-decreti-e-regolamenti/documento17017729.html",
+   "date_consultation": "2026-10-19",
+   "periode_couverte": [],
+   "zones": [
+    "SM"
+   ],
+   "usages_atlas": [
+    "subdivisions_snapshot0"
+   ],
+   "cibles": [
+    "subdivision-sm-borgo-maggiore",
+    "subdivision-sm-acquaviva",
+    "subdivision-sm-fiorentino",
+    "subdivision-sm-chiesanuova",
+    "subdivision-sm-domagnano",
+    "subdivision-sm-serravalle",
+    "subdivision-sm-faetano",
+    "subdivision-sm-montegiardino"
+   ],
+   "locator": "PDF p. 1, art. 1–3 ; p. 2, art. 8–10 et date finale",
+   "resume_passage": "Page lue (WebFetch) : « Legge che istituisce le Giunte Ausiliarie ed abroga il regolamento 16 Marzo 1925 sui Capitani dei Castelli » ; « Dato dalla Nostra Residenza, addì 26 Novembre 1945 » ; « La presente Legge andrà in esecuzione dopo la sua pubblicazione ». Prouve une réforme postérieure au Snapshot. Précision : le 17/11/1945 est la séance du Consiglio (« Tornata del 17 Novembre 1945 ») qui a donné pouvoir aux Reggenti, pas la date de la loi.",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "lu_parties_utilisees",
+    "date": "2026-10-19",
+    "mode": "PDF extraits et pages citées contrôlées ; HTML institutionnel lu. Pas de consultation des minutes originales de 1944."
+   },
+   "notes": "Proposée par Ether (lot 2.SM, cycle 1). Ce que la source prouve selon Ether : réforme postérieure à exclure du Snapshot. Limite annoncée par Ether : Décision du 17/11/1945, promulgation datée du 26/11/1945, effet après publication art. 10. Huit centres nommés ; ne pas en déduire huit districts au 01/01/1945. Relecture Claude 2026-10-19 : Page lue (WebFetch) : « Legge che istituisce le Giunte Ausiliarie ed abroga il regolamento 16 Marzo 1925 sui Capitani dei Castelli » ; « Dato dalla Nostra Residenza, addì 26 Novembre 1945 » ; « La presente Legge andrà in esecuzione dopo la sua pubblicazione ». Prouve une réforme postérieure au Snapshot. Précision : le 17/11/1945 est la séance du Consiglio (« Tornata del 17 Novembre 1945 ») qui a donné pouvoir aux Reggenti, pas la date de la loi.",
+   "auteur": "Capitani Reggenti",
+   "archives_locales": [
+    "01_lots/2.SM/preuves/loi1945.pdf",
+    "01_lots/2.SM/preuves/loi1945.txt",
+    "01_lots/2.SM/preuves/loi1945_p1.png",
+    "01_lots/2.SM/preuves/loi1945_p2.png"
+   ]
+  },
+  {
+   "source_id": "src-sm-statistique-cadastre2025",
+   "niveau": "A",
+   "type_source": "documentation_cartographique",
+   "titre": "II Statistica del Catasto Fabbricati — 2025, données au 31/12/2024",
+   "institution": "Ufficio Tecnico del Catasto e Cartografia, Dipartimento Territorio e Ambiente",
+   "url": "https://www.gov.sm/pub1/GovSM/dam/jcr%3A2e168cc5-520f-499b-a79c-76b68d598742/Seconda%20Statistica%20Catastale%202025%20-%20ANNO%202024.pdf",
+   "date_consultation": "2026-10-19",
+   "periode_couverte": [],
+   "zones": [
+    "SM"
+   ],
+   "usages_atlas": [
+    "subdivisions_snapshot0"
+   ],
+   "cibles": [
+    "subdivision-sm-borgo-maggiore",
+    "subdivision-sm-acquaviva",
+    "subdivision-sm-fiorentino",
+    "subdivision-sm-chiesanuova",
+    "subdivision-sm-domagnano",
+    "subdivision-sm-serravalle",
+    "subdivision-sm-faetano",
+    "subdivision-sm-montegiardino"
+   ],
+   "locator": "PDF p. 3, introduction et note 1",
+   "resume_passage": "PDF lu (WebFetch) : « La banca dati catastale di per sé non contiene l'informazione relativa ai Castelli, ma è suddivisa in dieci Parrocchie » ; « con la suddivisione cartografica in Castelli come da legge 24 settembre 2020 n. 158 ». Sert seulement à écarter un tracé moderne ; page exacte non confirmée par l'outil.",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "lu_parties_utilisees",
+    "date": "2026-10-19",
+    "mode": "PDF extraits et pages citées contrôlées ; HTML institutionnel lu. Pas de consultation des minutes originales de 1944."
+   },
+   "notes": "Proposée par Ether (lot 2.SM, cycle 1). Ce que la source prouve selon Ether : distinction entre paroisses cadastrales et castelli modernes. Limite annoncée par Ether : La note renvoie au découpage de la loi du 24/09/2020 n° 158. Auteur institutionnel du rapport identifié ; aucun fichier vectoriel ni auteur individuel de tracé ni licence de réutilisation du tracé établis. Cette réserve ne refuse aucune licence expressément acceptée. Relecture Claude 2026-10-19 : PDF lu (WebFetch) : « La banca dati catastale di per sé non contiene l'informazione relativa ai Castelli, ma è suddivisa in dieci Parrocchie » ; « con la suddivisione cartografica in Castelli come da legge 24 settembre 2020 n. 158 ». Sert seulement à écarter un tracé moderne ; page exacte non confirmée par l'outil.",
+   "auteur": "Ufficio Tecnico del Catasto e Cartografia",
+   "archives_locales": [
+    "01_lots/2.SM/preuves/statistique_cadastre2025.pdf",
+    "01_lots/2.SM/preuves/statistique_cadastre2025.txt",
+    "01_lots/2.SM/preuves/statistique_cadastre2025_p1.png",
+    "01_lots/2.SM/preuves/statistique_cadastre2025_p3.png"
+   ]
+  },
+  {
+   "source_id": "src-va-lois-fondamentales1929",
+   "niveau": "A",
+   "type_source": "texte_normatif",
+   "titre": "Lois I et IV du 07/06/1929 — Supplemento leggi e disposizioni",
+   "institution": "Saint-Siège / État de la Cité du Vatican",
+   "url": "https://www.vaticanstate.va/phocadownload/laws-decrees/Supplementoleggiedisposizioni.pdf",
+   "date_consultation": "2026-10-19",
+   "periode_couverte": [],
+   "zones": [
+    "VA"
+   ],
+   "usages_atlas": [
+    "subdivisions_snapshot0"
+   ],
+   "cibles": [
+    "territoire-va-vatican"
+   ],
+   "locator": "Loi I art. 1–8 : PDF p. 2–3 ; loi IV art. 1–18 : PDF p. 22–25, surtout art. 5–9 p. 23",
+   "resume_passage": "PDF lu (WebFetch) : « N. I - Legge fondamentale della Città del Vaticano », 7 giugno 1929 ; « Legge sull'ordinamento amministrativo », 7 giugno 1929, n. IV (art. 1-18). Aucun district ni circonscription interne. La loi fondamentale a 21 articles (art. 1-8 cités).",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "lu_parties_utilisees",
+    "date": "2026-10-19",
+    "mode": "Texte localisé ; pages des lois et des actes 1944 examinées visuellement. HTML du traité lu."
+   },
+   "notes": "Proposée par Ether (lot 2.VA, cycle 1). Ce que la source prouve selon Ether : organisation centrale et distinction entre répartition des bureaux et circonscriptions territoriales. Limite annoncée par Ether : Transcription officielle du recueil de 1929, pas un état consolidé au 01/01/1945. Les services sont définis fonctionnellement ; aucun maillage territorial subnational établi par ces articles. Les changements centraux attestés en 1944 sont traités avec la source AAS, sans projeter les réformes de 2000/2023. Relecture Claude 2026-10-19 : PDF lu (WebFetch) : « N. I - Legge fondamentale della Città del Vaticano », 7 giugno 1929 ; « Legge sull'ordinamento amministrativo », 7 giugno 1929, n. IV (art. 1-18). Aucun district ni circonscription interne. La loi fondamentale a 21 articles (art. 1-8 cités).",
+   "auteur": "Pie XI ; édition institutionnelle du recueil",
+   "archives_locales": [
+    "01_lots/2.VA/preuves/supplemento1929.pdf",
+    "01_lots/2.VA/preuves/supplemento1929.txt",
+    "01_lots/2.VA/preuves/supplemento1929_p2.png",
+    "01_lots/2.VA/preuves/supplemento1929_p22.png",
+    "01_lots/2.VA/preuves/supplemento1929_p23.png",
+    "01_lots/2.VA/preuves/supplemento1929_p24.png",
+    "01_lots/2.VA/preuves/supplemento1929_p25.png",
+    "01_lots/2.VA/preuves/supplemento1929_p3.png"
+   ]
+  },
+  {
+   "source_id": "src-va-traite-latran1929",
+   "niveau": "A",
+   "type_source": "texte_normatif",
+   "titre": "Traité du Latran, signé le 11/02/1929 ; page mentionnant l’échange des ratifications du 07/06/1929",
+   "institution": "Saint-Siège / État de la Cité du Vatican",
+   "url": "https://www.vatican.va/roman_curia/secretariat_state/archivio/documents/rc_seg-st_19290211_patti-lateranensi_it.html",
+   "date_consultation": "2026-10-19",
+   "periode_couverte": [],
+   "zones": [
+    "VA"
+   ],
+   "usages_atlas": [
+    "subdivisions_snapshot0"
+   ],
+   "cibles": [
+    "territoire-va-vatican"
+   ],
+   "locator": "Traité art. 3–4, 13–16, 24 et 27 ; en-tête : lien PROCESSO VERBALE DELLO SCAMBIO DELLE RATIFICHE daté du 07/06/1929 (texte du procès-verbal non consulté)",
+   "resume_passage": "Page lue (WebFetch) et copie texte d'Ether lue par Claude : art. 3 « la piazza di San Pietro, pur facendo parte della Città del Vaticano, continuerà ad essere normalmente aperta al pubblico e soggetta ai poteri di polizia delle autorità italiane » ; art. 15 « benché facenti parte del territorio dello Stato italiano, godranno delle immunità » ; art. 27 « entrerà in vigore all'atto stesso dello scambio delle ratifiche » ; en-tête « PROCESSO VERBALE DELLO SCAMBIO DELLE RATIFICHE, 7 giugno 1929 » (texte du procès-verbal non lu).",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "lu_parties_utilisees",
+    "date": "2026-10-19",
+    "mode": "Texte localisé ; pages des lois et des actes 1944 examinées visuellement. HTML du traité lu."
+   },
+   "notes": "Proposée par Ether (lot 2.VA, cycle 1). Ce que la source prouve selon Ether : territoire souverain, régime de Saint-Pierre, distinction des immeubles extraterritoriaux et date d’effet. Limite annoncée par Ether : Art. 15 situe les immeubles protégés dans le territoire italien. Les annexes cartographiques sont indiquées mais non géoréférencées ni transférées. Texte du traité distingué du Concordat sur la même page. Les autres annexes ne servent pas au lot. La date du 07/06/1929 est lue dans le libellé du lien d’en-tête ; le procès-verbal complet n’est pas présent dans le texte téléchargé et n’est pas prétendu lu. Relecture Claude 2026-10-19 : Page lue (WebFetch) et copie texte d'Ether lue par Claude : art. 3 « la piazza di San Pietro, pur facendo parte della Città del Vaticano, continuerà ad essere normalmente aperta al pubblico e soggetta ai poteri di polizia delle autorità italiane » ; art. 15 « benché facenti parte del territorio dello Stato italiano, godranno delle immunità » ; art. 27 « entrerà in vigore all'atto stesso dello scambio delle ratifiche » ; en-tête « PROCESSO VERBALE DELLO SCAMBIO DELLE RATIFICHE, 7 giugno 1929 » (texte du procès-verbal non lu).",
+   "auteur": "Saint-Siège et Royaume d’Italie ; plénipotentiaires Pietro Gasparri et Benito Mussolini",
+   "archives_locales": [
+    "01_lots/2.VA/preuves/lateran1929.html",
+    "01_lots/2.VA/preuves/lateran1929.txt"
+   ]
+  },
+  {
+   "source_id": "src-va-aas-actes1944",
+   "niveau": "A",
+   "type_source": "texte_normatif",
+   "titre": "Acta Apostolicae Sedis 36 (1944) — supplément, actes XXVI, XXVII et XXVIII",
+   "institution": "Saint-Siège / État de la Cité du Vatican",
+   "url": "https://www.vatican.va/archive/aas/documents/AAS-36-1944-ocr.pdf",
+   "date_consultation": "2026-10-19",
+   "periode_couverte": [],
+   "zones": [
+    "VA"
+   ],
+   "usages_atlas": [
+    "subdivisions_snapshot0"
+   ],
+   "cibles": [
+    "territoire-va-vatican"
+   ],
+   "locator": "Supplément p. 5–6, 9–10 et 13–16 (PDF p. 373–380) ; décret du 31/05 et ordonnances des 11 et 30/11/1944",
+   "resume_passage": "WebFetch n'a atteint que le début du PDF (janvier-février 1944). Copie texte d'Ether du même PDF officiel lue par Claude (PDF p. 373-380) : « N. XXVI. - Decreto della Pontificia Commissione per lo Stato della Città del Vaticano col quale sono apportate modificazioni all'organico [...] del personale del Governatorato », 31 maggio 1944 ; « N. XXVII. - Ordinanza del Governatore dello Stato », 11 novembre 1944, « Visto l'articolo 5 [...] della legge fondamentale », signé « CAMILLO SERAFINI » ; ordonnance du 30 novembre 1944, même signature. Lecture par la copie d'Ether, pas par la page en ligne.",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "lu_parties_utilisees",
+    "date": "2026-10-19",
+    "mode": "Texte localisé ; pages des lois et des actes 1944 examinées visuellement. HTML du traité lu."
+   },
+   "notes": "Proposée par Ether (lot 2.VA, cycle 1). Ce que la source prouve selon Ether : présence de la Commission et du gouverneur en 1944 ; usage explicite de la loi fondamentale de 1929. Limite annoncée par Ether : Décret XXVI : personnel du Governatorato, non districts. Ordonnances XXVII/XXVIII : autorité centrale active fin 1944, non preuve de subdivision ni campagne postale autorisée. Les tableaux de tarifs ne sont pas importés. Le recueil entier n’est pas présenté comme dépouillé. Relecture Claude 2026-10-19 : WebFetch n'a atteint que le début du PDF (janvier-février 1944). Copie texte d'Ether du même PDF officiel lue par Claude (PDF p. 373-380) : « N. XXVI. - Decreto della Pontificia Commissione per lo Stato della Città del Vaticano col quale sono apportate modificazioni all'organico [...] del personale del Governatorato », 31 maggio 1944 ; « N. XXVII. - Ordinanza del Governatore dello Stato », 11 novembre 1944, « Visto l'articolo 5 [...] della legge fondamentale », signé « CAMILLO SERAFINI » ; ordonnance du 30 novembre 1944, même signature. Lecture par la copie d'Ether, pas par la page en ligne.",
+   "auteur": "Pontificia Commissione per lo Stato della Città del Vaticano ; gouverneur Camillo Serafini",
+   "archives_locales": [
+    "01_lots/2.VA/preuves/aas1944.pdf",
+    "01_lots/2.VA/preuves/aas1944.txt",
+    "01_lots/2.VA/preuves/aas1944_p373.png",
+    "01_lots/2.VA/preuves/aas1944_p374.png",
+    "01_lots/2.VA/preuves/aas1944_p375.png",
+    "01_lots/2.VA/preuves/aas1944_p377.png",
+    "01_lots/2.VA/preuves/aas1944_p380.png"
    ]
   }
  ]
