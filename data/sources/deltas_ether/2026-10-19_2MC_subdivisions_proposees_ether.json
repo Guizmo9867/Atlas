@@ -1,0 +1,51 @@
+{
+ "note": "Copie fidèle de 01_lots/2.MC/atlas_2MC_subdivisions_proposees.json (Ether, cycle 1), sous la clé proposition_ether pour que le validateur ne la lise pas comme un lot du corpus (entités intégrées : data/snapshot0/subdivisions_2-MC.json).",
+ "proposition_ether": {
+  "metadata_lot": {
+   "lot": "2.MC",
+   "etat_1945": "Monaco",
+   "date_reference": "1945-01-01",
+   "heure_reference": "00:00",
+   "cycle": 1,
+   "statut": "note_documentee_a_relire_par_claude",
+   "nature_livraison": "note_sans_decoupage_supplementaire",
+   "comptages": {
+    "total": 0,
+    "echelon_1": 0,
+    "echelon_2": 0
+   },
+   "territoire_concerne": "territoire-mc-monaco",
+   "souverainete_id": "monaco",
+   "conclusion": "Une commune unique couvre la Principauté ; aucun maillage interne utile proposé dans le périmètre 2.x. L’institution communale existe et demeure distincte de l’État.",
+   "fondement": "Constitution de 1911, art. 37–38 annotés modifiés le 18/11/1917, recoupés par l’allocution du 05/01/2011.",
+   "echelon_1": "Pas de fiche supplémentaire : choix de note autorisé pour un micro-État sans découpage spatial utile. La commune unique n’est pas assimilée à une absence d’administration locale.",
+   "echelon_2": "Aucun ; quartiers non promus en subdivisions administratives de 1945.",
+   "convention_dates": "Date de lecture du Snapshot ; aucune date de création ou d’abrogation encodée dans une nouvelle entité.",
+   "chefs_lieux_proposes": 0,
+   "geometries_liees": 0,
+   "reserves": [
+    "R2MC-01",
+    "R2MC-02",
+    "R2MC-03"
+   ],
+   "sources": [
+    {
+     "source_id": "src-mc-constitution1911-legimonaco",
+     "locator": "p. 6, titre VI, art. 37–38 ; en-tête p. 1",
+     "usage": "commune unique et annotation de modification de 1917, limite de consolidation"
+    },
+    {
+     "source_id": "src-mc-loi30-1920-notice",
+     "locator": "Notice et historique de consolidation",
+     "usage": "identification de la loi municipale de 1920 et de ses versions ; pas lecture de ses articles"
+    },
+    {
+     "source_id": "src-mc-palais-allocution2011",
+     "locator": "05/01/2011, passage A la Mairie et paragraphe sur l’ordonnance du 18/11/1917",
+     "usage": "recoupement institutionnel rétrospectif de l’unification"
+    }
+   ]
+  },
+  "entites": []
+ }
+}

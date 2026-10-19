@@ -1,0 +1,313 @@
+{
+ "note": "Copie fidèle de 01_lots/2.AD/atlas_2AD_subdivisions_proposees.json (Ether, cycle 1), sous la clé proposition_ether pour que le validateur ne la lise pas comme un lot du corpus (entités intégrées : data/snapshot0/subdivisions_2-AD.json).",
+ "proposition_ether": {
+  "metadata_lot": {
+   "lot": "2.AD",
+   "etat_1945": "Andorre",
+   "date_reference": "1945-01-01",
+   "heure_reference": "00:00",
+   "cycle": 1,
+   "statut": "propose_par_ether_a_relire_par_claude",
+   "comptages": {
+    "total": 6,
+    "echelon_1": 6,
+    "echelon_2": 0
+   },
+   "convention_dates": "Début de fenêtre observée, pas création des paroisses. Continuité au jour exact réservée.",
+   "echelon_1": "Six paroisses civiles coutumières ; Escaldes-Engordany non séparée.",
+   "echelon_2": "Quarts et veïnats non livrés : niveau local fin, liste et limites de 1945 non établies.",
+   "chefs_lieux_proposes": 0,
+   "geometries_liees": 0
+  },
+  "entites": [
+   {
+    "entite_id": "subdivision-ad-canillo",
+    "type_entite": "subdivision",
+    "nom": "Canillo",
+    "nom_court": "Canillo",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Canillo",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "parròquia",
+       "parent_id": "territoire-ad-andorre",
+       "souverainete_id": "andorre",
+       "reserves": [
+        "R2AD-01",
+        "R2AD-02",
+        "R2AD-03",
+        "R2AD-05"
+       ],
+       "note": "Paroisse civile, administrée par un comú. Nom attesté dans la transcription du décret du 18/07/1933 ; maintien au Snapshot proposé par recoupement avec l’histoire des six paroisses coutumières jusqu’en 1978. La continuité des limites et la graphie réglementaire exacte du 01/01/1945 ne sont pas certifiées. Aucun contour, population, code moderne ni chef-lieu déduit du nom."
+      },
+      "sources": [
+       {
+        "source_id": "src-ad-gonzalez-cruilla1933",
+        "locator": "p. 95–96 (PDF p. 100–101), décret du 18/07/1933, art. I et note 132 ; p. 11 (PDF p. 16)",
+        "usage": "liste et noms paroissiaux attestés en 1933, via transcription sourcée"
+       },
+       {
+        "source_id": "src-ad-cavero-administracio2011",
+        "locator": "p. 24 (PDF p. 2), De l’administració electa",
+        "usage": "six paroisses coutumières, gouvernement communal et ajout d’Escaldes-Engordany en 1978"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-ad-encamp",
+    "type_entite": "subdivision",
+    "nom": "Encamp",
+    "nom_court": "Encamp",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Encamp",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "parròquia",
+       "parent_id": "territoire-ad-andorre",
+       "souverainete_id": "andorre",
+       "reserves": [
+        "R2AD-01",
+        "R2AD-02",
+        "R2AD-03",
+        "R2AD-05"
+       ],
+       "note": "Paroisse civile, administrée par un comú. Nom attesté dans la transcription du décret du 18/07/1933 ; maintien au Snapshot proposé par recoupement avec l’histoire des six paroisses coutumières jusqu’en 1978. La continuité des limites et la graphie réglementaire exacte du 01/01/1945 ne sont pas certifiées. Aucun contour, population, code moderne ni chef-lieu déduit du nom."
+      },
+      "sources": [
+       {
+        "source_id": "src-ad-gonzalez-cruilla1933",
+        "locator": "p. 95–96 (PDF p. 100–101), décret du 18/07/1933, art. I et note 132 ; p. 11 (PDF p. 16)",
+        "usage": "liste et noms paroissiaux attestés en 1933, via transcription sourcée"
+       },
+       {
+        "source_id": "src-ad-cavero-administracio2011",
+        "locator": "p. 24 (PDF p. 2), De l’administració electa",
+        "usage": "six paroisses coutumières, gouvernement communal et ajout d’Escaldes-Engordany en 1978"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-ad-ordino",
+    "type_entite": "subdivision",
+    "nom": "Ordino",
+    "nom_court": "Ordino",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Ordino",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "parròquia",
+       "parent_id": "territoire-ad-andorre",
+       "souverainete_id": "andorre",
+       "reserves": [
+        "R2AD-01",
+        "R2AD-02",
+        "R2AD-03",
+        "R2AD-05"
+       ],
+       "note": "Paroisse civile, administrée par un comú. Nom attesté dans la transcription du décret du 18/07/1933 ; maintien au Snapshot proposé par recoupement avec l’histoire des six paroisses coutumières jusqu’en 1978. La continuité des limites et la graphie réglementaire exacte du 01/01/1945 ne sont pas certifiées. Aucun contour, population, code moderne ni chef-lieu déduit du nom."
+      },
+      "sources": [
+       {
+        "source_id": "src-ad-gonzalez-cruilla1933",
+        "locator": "p. 95–96 (PDF p. 100–101), décret du 18/07/1933, art. I et note 132 ; p. 11 (PDF p. 16)",
+        "usage": "liste et noms paroissiaux attestés en 1933, via transcription sourcée"
+       },
+       {
+        "source_id": "src-ad-cavero-administracio2011",
+        "locator": "p. 24 (PDF p. 2), De l’administració electa",
+        "usage": "six paroisses coutumières, gouvernement communal et ajout d’Escaldes-Engordany en 1978"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-ad-la-massana",
+    "type_entite": "subdivision",
+    "nom": "La Massana",
+    "nom_court": "La Massana",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "La Massana",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "parròquia",
+       "parent_id": "territoire-ad-andorre",
+       "souverainete_id": "andorre",
+       "reserves": [
+        "R2AD-01",
+        "R2AD-02",
+        "R2AD-03",
+        "R2AD-05"
+       ],
+       "note": "Paroisse civile, administrée par un comú. Nom attesté dans la transcription du décret du 18/07/1933 ; maintien au Snapshot proposé par recoupement avec l’histoire des six paroisses coutumières jusqu’en 1978. La continuité des limites et la graphie réglementaire exacte du 01/01/1945 ne sont pas certifiées. Aucun contour, population, code moderne ni chef-lieu déduit du nom."
+      },
+      "sources": [
+       {
+        "source_id": "src-ad-gonzalez-cruilla1933",
+        "locator": "p. 95–96 (PDF p. 100–101), décret du 18/07/1933, art. I et note 132 ; p. 11 (PDF p. 16)",
+        "usage": "liste et noms paroissiaux attestés en 1933, via transcription sourcée"
+       },
+       {
+        "source_id": "src-ad-cavero-administracio2011",
+        "locator": "p. 24 (PDF p. 2), De l’administració electa",
+        "usage": "six paroisses coutumières, gouvernement communal et ajout d’Escaldes-Engordany en 1978"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-ad-andorre-la-vieille",
+    "type_entite": "subdivision",
+    "nom": "Andorre-la-Vieille",
+    "nom_court": "Andorre-la-Vieille",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Andorra la Vella",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "parròquia",
+       "parent_id": "territoire-ad-andorre",
+       "souverainete_id": "andorre",
+       "reserves": [
+        "R2AD-01",
+        "R2AD-02",
+        "R2AD-03",
+        "R2AD-05"
+       ],
+       "note": "Paroisse civile, administrée par un comú. Nom attesté dans la transcription du décret du 18/07/1933 ; maintien au Snapshot proposé par recoupement avec l’histoire des six paroisses coutumières jusqu’en 1978. La continuité des limites et la graphie réglementaire exacte du 01/01/1945 ne sont pas certifiées. Aucun contour, population, code moderne ni chef-lieu déduit du nom. Le périmètre historique comprend le secteur d’Escaldes-Engordany, sans créer la septième paroisse de 1978. Les quarts et leur autonomie antérieure restent distincts du rang paroissial ; aucune fusion géométrique de limites actuelles effectuée."
+      },
+      "sources": [
+       {
+        "source_id": "src-ad-gonzalez-cruilla1933",
+        "locator": "p. 95–96 (PDF p. 100–101), décret du 18/07/1933, art. I et note 132 ; p. 11 (PDF p. 16)",
+        "usage": "liste et noms paroissiaux attestés en 1933, via transcription sourcée"
+       },
+       {
+        "source_id": "src-ad-cavero-administracio2011",
+        "locator": "p. 24 (PDF p. 2), De l’administració electa",
+        "usage": "six paroisses coutumières, gouvernement communal et ajout d’Escaldes-Engordany en 1978"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-ad-sant-julia-de-loria",
+    "type_entite": "subdivision",
+    "nom": "Sant Julià de Lòria",
+    "nom_court": "Sant Julià de Lòria",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Sant Julià de Lòria",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "parròquia",
+       "parent_id": "territoire-ad-andorre",
+       "souverainete_id": "andorre",
+       "reserves": [
+        "R2AD-01",
+        "R2AD-02",
+        "R2AD-03",
+        "R2AD-05"
+       ],
+       "note": "Paroisse civile, administrée par un comú. Nom attesté dans la transcription du décret du 18/07/1933 ; maintien au Snapshot proposé par recoupement avec l’histoire des six paroisses coutumières jusqu’en 1978. La continuité des limites et la graphie réglementaire exacte du 01/01/1945 ne sont pas certifiées. Aucun contour, population, code moderne ni chef-lieu déduit du nom."
+      },
+      "sources": [
+       {
+        "source_id": "src-ad-gonzalez-cruilla1933",
+        "locator": "p. 95–96 (PDF p. 100–101), décret du 18/07/1933, art. I et note 132 ; p. 11 (PDF p. 16)",
+        "usage": "liste et noms paroissiaux attestés en 1933, via transcription sourcée"
+       },
+       {
+        "source_id": "src-ad-cavero-administracio2011",
+        "locator": "p. 24 (PDF p. 2), De l’administració electa",
+        "usage": "six paroisses coutumières, gouvernement communal et ajout d’Escaldes-Engordany en 1978"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   }
+  ]
+ }
+}

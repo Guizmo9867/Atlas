@@ -1,0 +1,71 @@
+{
+  "lot": "2.AD",
+  "reserves": [
+    {
+      "reserve_id": "R2AD-01",
+      "point": "Continuité au jour exact",
+      "preuves": "Le décret transcrit du 18/07/1933 nomme six paroisses ; Cavero décrit leur maintien coutumier avant 1978.",
+      "limites": "La chaîne complète des actes de 1933 à fin 1944 et les originaux d’archives ne sont pas dépouillés.",
+      "impact_donnees": "Six fiches proposées sous réserve ; aucune certification des frontières internes.",
+      "choix_a_examiner": "Examiner le degré de continuité documentaire à accepter.",
+      "sources": [
+        "src-ad-gonzalez-cruilla1933",
+        "src-ad-cavero-administracio2011"
+      ],
+      "statut": "reserve_revue_groupe2"
+    },
+    {
+      "reserve_id": "R2AD-02",
+      "point": "Contours, millésime, licence et attribution",
+      "preuves": "Candidat IDE identifié ; avis général IEA conservé séparément.",
+      "limites": "Pas de fichier de limites de 1945, ni licence spécifique ni auteur de tracé vérifiés ; scission de 1978 non reconstructible par simple copie.",
+      "impact_donnees": "GeoJSON vide et aucune geometrie_ref.",
+      "choix_a_examiner": "Chercher une base historique traçable et une licence acceptée avant toute géométrie.",
+      "sources": [
+        "src-ad-ide-geodades",
+        "src-ad-iea-avis-legal",
+        "src-ad-cavero-administracio2011"
+      ],
+      "statut": "reserve_revue_groupe2"
+    },
+    {
+      "reserve_id": "R2AD-03",
+      "point": "Noms et variantes",
+      "preuves": "Six graphies catalanes attestées dans la transcription du décret de 1933.",
+      "limites": "Andorra / Andorra la Vella varie selon les usages ; aucun texte normalisant toutes les formes au 01/01/1945.",
+      "impact_donnees": "Formes documentées gardées ; nom usuel français Andorre-la-Vieille, pas d’alias inventé ni code actuel.",
+      "choix_a_examiner": "Vérifier les graphies officielles de la date lors de la revue.",
+      "sources": [
+        "src-ad-gonzalez-cruilla1933",
+        "src-ad-cavero-administracio2011"
+      ],
+      "statut": "reserve_revue_groupe2"
+    },
+    {
+      "reserve_id": "R2AD-04",
+      "point": "Quarts, veïnats et autonomie d’Escaldes",
+      "preuves": "Cavero distingue les institutions locales des paroisses et date l’ajout de la septième paroisse en 1978.",
+      "limites": "Liste, compétences et limites de tous les quarts / veïnats de 1945 non établies ; autonomie antérieure d’Escaldes non assimilée à une paroisse.",
+      "impact_donnees": "Un seul échelon livré ; niveau fin explicitement non couvert.",
+      "choix_a_examiner": "Décider si un complément local est utile à l’échelle de l’Atlas.",
+      "sources": [
+        "src-ad-cavero-administracio2011",
+        "src-ad-gonzalez-cruilla1933"
+      ],
+      "statut": "reserve_revue_groupe2"
+    },
+    {
+      "reserve_id": "R2AD-05",
+      "point": "Chefs-lieux et locaux communaux",
+      "preuves": "Les documents nomment des unités et des responsables, pas un inventaire de sièges au Snapshot.",
+      "limites": "Le toponyme de la paroisse ne prouve pas le siège ni ses locaux au 01/01/1945.",
+      "impact_donnees": "Aucun chef_lieu_propose, aucune ville nouvelle ; liste des chefs-lieux absents non établie.",
+      "choix_a_examiner": "Compléter seulement sur preuve datée des sièges.",
+      "sources": [
+        "src-ad-gonzalez-cruilla1933",
+        "src-ad-cavero-administracio2011"
+      ],
+      "statut": "reserve_revue_groupe2"
+    }
+  ]
+}

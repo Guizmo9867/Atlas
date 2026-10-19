@@ -1,0 +1,28 @@
+{
+ "lot": "2.AD",
+ "date": "2026-10-18",
+ "auteur": "Claude",
+ "methode": "Sous-agents (WebFetch seulement, sans contournement) + lecture par Claude des copies texte d'Ether dans preuves/ ; « ok » seulement si la source prouve ce que la fiche lui fait dire à la date.",
+ "resultats": [
+  {
+   "id": "src-ad-gonzalez-cruilla1933",
+   "statut": "ok",
+   "commentaire": "Le PDF en ligne n'a pas livré les p. 95–96 à l'outil ; copie texte d'Ether (preuves/gonzalez1933_p101.txt, p. 96) lue par Claude : « en concepte de representants de cadascuna de les parroquies: Andorra la Vella … Canillo … Encamp … La Massana … Ordino … Sant Julià de Lòria », note 132 « CADN, AVFA, n. 225 … 18-VII-1933 ». Prouve les six paroisses en 1933 ; la continuité jusqu'au 01/01/1945 repose sur Cavero (R2AD-01)."
+  },
+  {
+   "id": "src-ad-cavero-administracio2011",
+   "statut": "ok",
+   "commentaire": "PDF lu par l'outil, p. 24 : « A les sis parròquies consuetudinàries, l'any 1978 s'hi afegeix la parròquia d'Escaldes-Engordany » ; « Les parròquies es regeixen pel Consell del Comú, format pels dos cònsols i els consellers comunals. » Synthèse de 2011 : six paroisses jusqu'en 1978 ; pas de limites."
+  },
+  {
+   "id": "src-ad-ide-geodades",
+   "statut": "limite",
+   "commentaire": "Portail lu : « Geodades: Portal de descàrrega de cartografia del Govern d'Andorra » (shp, tif, kml ; inscription obligatoire). Aucune licence ni millésime visible : contexte seulement, aucun tracé utilisé."
+  },
+  {
+   "id": "src-ad-iea-avis-legal",
+   "statut": "non_verifiee",
+   "commentaire": "Page refusée à l'outil (robots.txt), aucun contournement. Note de lecture d'Ether (preuves/iea_avis_legal_extrait_web.txt) seulement : « L’accés per part de l’usuari als continguts i els serveis dels webs no implica cap dret ». Contexte de licence, rien n'en dépend."
+  }
+ ]
+}

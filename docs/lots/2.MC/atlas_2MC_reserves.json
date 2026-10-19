@@ -1,0 +1,45 @@
+{
+  "lot": "2.MC",
+  "reserves": [
+    {
+      "reserve_id": "R2MC-01",
+      "point": "Édition consolidée et droit au jour exact",
+      "preuves": "Les art. 37–38 du PDF officiel renvoient à la modification du 18/11/1917 ; le discours de 2011 confirme l’unification. La notice de 1920 précise les références de la loi municipale.",
+      "limites": "Le PDF contient aussi 1946. L’original du Journal de Monaco de 1917 n’a pas été obtenu ; le corps de la loi de 1920 et sa modification de 1923 ne sont pas lus. La chaîne complète de validité à fin 1944 n’est pas certifiée.",
+      "impact_donnees": "Conclusion limitée à la commune unique ; aucune compétence, règle budgétaire ou composition effective de 1945 encodée.",
+      "choix_a_examiner": "Apprécier si cette preuve localisée suffit pour la note ou si les originaux de 1917/1920/1923 doivent être ajoutés lors de la revue.",
+      "sources": [
+        "src-mc-constitution1911-legimonaco",
+        "src-mc-loi30-1920-notice",
+        "src-mc-palais-allocution2011"
+      ],
+      "statut": "reserve_revue_groupe2"
+    },
+    {
+      "reserve_id": "R2MC-02",
+      "point": "Institution communale et représentation dans l’Atlas",
+      "preuves": "La commune unique et son administration sont attestées par les art. 37–38 ; le lancement G2 autorise une note pour les micro-États sans découpage utile.",
+      "limites": "L’État et la commune sont des institutions distinctes même si la commune ne produit pas de partition interne de l’État. Le choix de ne pas créer une fiche est une proposition de représentation, pas l’affirmation d’une absence de commune.",
+      "impact_donnees": "Zéro fiche de subdivision ; territoire et souveraineté canoniques conservés.",
+      "choix_a_examiner": "Examiner en revue la nécessité éventuelle d’une fiche institutionnelle coextensive, sans la créer implicitement.",
+      "sources": [
+        "src-mc-constitution1911-legimonaco",
+        "src-mc-palais-allocution2011"
+      ],
+      "statut": "reserve_revue_groupe2"
+    },
+    {
+      "reserve_id": "R2MC-03",
+      "point": "Quartiers, contours et sièges historiques",
+      "preuves": "Les sources établissent l’unification communale ; elles ne fournissent pas de plan des limites internes et des sièges au 01/01/1945.",
+      "limites": "Pas de liste homogène des quartiers dotés de compétences administratives en 1945, ni de tracé daté avec auteur et licence établis. Aucun audit du littoral ou des limites nationales réalisé dans cette note.",
+      "impact_donnees": "GeoJSON vide ; aucune geometrie_ref, ville, adresse de mairie, population ou code moderne ajouté. Les noms de Monaco, La Condamine et Monte-Carlo de 1911 ne deviennent pas trois communes de 1945.",
+      "choix_a_examiner": "Ne compléter des quartiers ou sièges que si leur utilité à l’échelle de l’Atlas et des preuves datées sont établies.",
+      "sources": [
+        "src-mc-constitution1911-legimonaco",
+        "src-mc-palais-allocution2011"
+      ],
+      "statut": "reserve_revue_groupe2"
+    }
+  ]
+}

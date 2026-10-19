@@ -1,5 +1,5 @@
 {
- "version_registre": "1.44",
+ "version_registre": "1.46",
  "sources": [
   {
    "id": "src-12a-chemnitz-industrie",
@@ -4886,6 +4886,25 @@
    "impact": []
   },
   {
+   "id": "src-ad-iea-avis-legal",
+   "groupe": "a_lire",
+   "statut_claude": "non_verifiee",
+   "niveau": "A",
+   "titre": "Avís legal — propriété intellectuelle des contenus",
+   "institution": "Govern d’Andorra",
+   "url": "https://www.iea.ad/avis-legal",
+   "ou_regarder": "PROPIETAT INTEL·LECTUAL SOBRE ELS CONTINGUTS",
+   "extrait": "",
+   "notes": "Proposée par Ether (lot 2.AD, cycle 1). Ce que la source prouve selon Ether : limites des droits généraux du site IEA/SIGMA. Limite annoncée par Ether : L’avis général ne constitue pas une licence ouverte de contours. Ne pas l’assimiler à une licence propre au jeu IDE, qui reste à établir ; pas de conclusion juridique générale ni d’exclusion d’une licence expressément acceptée. Relecture Claude 2026-10-18 : Page refusée à l'outil (robots.txt), aucun contournement. Note de lecture d'Ether (preuves/iea_avis_legal_extrait_web.txt) seulement : « L’accés per part de l’usuari als continguts i els serveis dels webs no implica cap dret ». Contexte de licence, rien n'en dépend.",
+   "domaine": "frontieres",
+   "villes": [
+    "Andorre"
+   ],
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
+  },
+  {
    "id": "src-an-reponse-regions-militaires-1981-08-03",
    "groupe": "a_lire",
    "statut_claude": "non_verifiee",
@@ -7814,6 +7833,25 @@
    "domaine": "villes",
    "villes": [
     "Horta"
+   ],
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
+  },
+  {
+   "id": "src-ad-ide-geodades",
+   "groupe": "partielle",
+   "statut_claude": "limite",
+   "niveau": "B",
+   "titre": "Geodades — catalogue et formulaire de téléchargement",
+   "institution": "Govern d’Andorra",
+   "url": "https://www.ideandorra.ad/geodades/mIndex.jsp?lang=es",
+   "ou_regarder": "Cartografía base / Límites parroquiales (shp) dans le catalogue indexé ; formulaire de téléchargement",
+   "extrait": "Portail lu : « Geodades: Portal de descàrrega de cartografia del Govern d'Andorra » (shp, tif, kml ; inscription obligatoire). Aucune licence ni millésime visible : contexte seulement, aucun tracé utilisé.",
+   "notes": "Proposée par Ether (lot 2.AD, cycle 1). Ce que la source prouve selon Ether : évaluation d’un candidat cartographique. Limite annoncée par Ether : Portail dynamique : le HTML local garde l’interface mais pas toute la liste chargée. Le catalogue Web a signalé Límites parroquiales (shp). Aucune donnée géométrique téléchargée ; date de production et licence particulière non établies. Le formulaire demande des coordonnées : aucune identité ni demande envoyée. Relecture Claude 2026-10-18 : Portail lu : « Geodades: Portal de descàrrega de cartografia del Govern d'Andorra » (shp, tif, kml ; inscription obligatoire). Aucune licence ni millésime visible : contexte seulement, aucun tracé utilisé.",
+   "domaine": "frontieres",
+   "villes": [
+    "Andorre"
    ],
    "remplacee_par": [],
    "priorite": "facultative",

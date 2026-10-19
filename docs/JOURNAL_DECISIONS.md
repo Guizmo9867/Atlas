@@ -2,6 +2,18 @@
 
 Une ligne par décision, datée. Plus récente en haut. Ce journal remplace les versions éparpillées dans les conversations : si ce n'est pas ici, ce n'est pas décidé.
 
+## 2026-10-19 (nuit : 2.MC intégré, boucle automatique)
+
+- **Lot 2.MC intégré** (cycle 1, groupe 2) : **note sans subdivision** pour Monaco au 01/01/1945 : une seule commune depuis l'ordonnance du 18/11/1917 (Constitution de 1911, art. 37–38) ; les trois communes de 1911 ne sont pas recréées ; quartiers non promus (Q2MC-01 à 05 acceptées). *(Ether, intégré par Claude)*
+- Aucun tracé, aucun chef-lieu. Réserves R2MC-01 à 03 pour la revue du groupe 2 (dont la question d'une fiche communale coextensive, R2MC-02). *(Claude)*
+- Sources : 3 nouvelles (3 ok), registre v1.46. *(Claude)*
+
+## 2026-10-18 (nuit : 2.AD intégré, boucle automatique)
+
+- **Lot 2.AD intégré** (cycle 1, groupe 2) : 6 paroisses de l'Andorre au 01/01/1945 (Canillo, Encamp, Ordino, La Massana, Andorre-la-Vieille, Sant Julià de Lòria), un seul échelon sous `territoire-ad-andorre` ; Escaldes-Engordany pas encore paroisse (1978) ; quarts et veïnats non ajoutés (Q2AD-01 à 05 acceptées). *(Ether, intégré par Claude)*
+- **Aucun tracé** (portail IDE sans licence ni millésime établis, R2AD-02), aucun chef-lieu. Réserves R2AD-01 à 05 pour la revue du groupe 2. *(Claude)*
+- Sources : 4 nouvelles (2 ok, 1 limite, 1 non vérifiée), registre v1.45. *(Claude)*
+
 ## 2026-10-18 (soir : 2.IE intégré, boucle automatique)
 
 - **Lot 2.IE intégré** (cycle 1, groupe 2) : 31 subdivisions de l'Irlande au 01/01/1945 = 27 administrative counties (deux Tipperary, Laoighis) et 4 county boroughs (Cork, Dublin, Limerick, Waterford), un seul échelon (Q2IE-05 acceptée). Crumlin, Howth et l'extension de Waterford (1944) notés sans contour. *(Ether, intégré par Claude)*
