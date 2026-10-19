@@ -2,6 +2,12 @@
 
 Une ligne par décision, datée. Plus récente en haut. Ce journal remplace les versions éparpillées dans les conversations : si ce n'est pas ici, ce n'est pas décidé.
 
+## 2026-10-19 (midi : 2.LI intégré, fin du groupe 2, boucle automatique)
+
+- **Lot 2.LI intégré** (cycle 1, groupe 2) : **0 fiche importée** pour le Liechtenstein. Les deux Landschaften (Vaduz/Oberland, Schellenberg/Unterland) sont des régions constitutionnelles et des circonscriptions électorales (Constitution de 1921, version du 20/01/1939, art. 1 et 46 ; loi du 18/01/1939), pas des provinces ; les onze Gemeinden relèvent du niveau communal, exclu. Le canon n'a **aucun territoire Liechtenstein** (seulement `ville-li-vaduz` et `ville-li-schaan`). Inventaire gardé hors import (`docs/lots/2.LI/`). *(Ether, intégré par Claude)*
+- **À trancher par Guizmo** : créer (ou non) un territoire et une souveraineté Liechtenstein dans le canon (même préalable que Saint-Marin). *(Claude)*
+- Sources : 3 (2 ok, 1 non vérifiée), registre v1.49. Réserves R2LI-01 à 04. **Groupe 2 terminé** (10 lots) : bilan au tableau de bord ; groupe suivant à ouvrir seulement sur décision de Guizmo. *(Claude)*
+
 ## 2026-10-19 (matin : 2.SM et 2.VA intégrés, boucle automatique)
 
 - **Lot 2.SM intégré** (cycle 1, groupe 2) : **0 fiche importée** pour Saint-Marin. Le canon n'a **aucun territoire Saint-Marin** (seulement la ville `ville-sm-saint-marin` ; lot04 l'avait différé) : les 8 castelli documentés par Ether (règlement du 16/03/1925, renommages de 1944) restent **hors import** (`docs/lots/2.SM/atlas_2SM_candidats_documentes_non_importables.json`), sans rattachement à l'Italie ni à la ville. Guaita/Montale différés (fusion constatée en avril 1945, effet non daté). Giunte Ausiliarie (nov. 1945) non anticipées. *(Ether, intégré par Claude)*

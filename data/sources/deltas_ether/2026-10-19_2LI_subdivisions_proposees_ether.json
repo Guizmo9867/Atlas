@@ -1,0 +1,30 @@
+{
+ "note": "Copie fidèle de 01_lots/2.LI/atlas_2LI_subdivisions_proposees.json (Ether, cycle 1), sous la clé proposition_ether pour que le validateur ne la lise pas comme un lot du corpus (entités intégrées : data/snapshot0/subdivisions_2-LI.json).",
+ "proposition_ether": {
+  "metadata_lot": {
+   "lot": "2.LI",
+   "cycle": 1,
+   "etat_1945": "Principauté de Liechtenstein",
+   "snapshot": "1945-01-01T00:00:00",
+   "auteur": "Ether",
+   "date_preparation": "2026-10-19T11:07:52.191397+00:00",
+   "nature": "Note documentée sans subdivision importable retenue dans le périmètre actuel",
+   "parent_id": null,
+   "souverainete_id": null,
+   "motifs": [
+    "Deux Landschaften attestées, fonction électorale établie ; non assimilées à des provinces administratives.",
+    "Onze Gemeinden documentées ; niveau communal exclu par 00_LANCEMENT_2.x.md §1, proposition de traitement soumise à la relecture de Claude.",
+    "Territoire Liechtenstein absent du canon ; aucune création dans la couche territoires autorisée ici."
+   ],
+   "inventaire_hors_import": "atlas_2LI_inventaire_documentaire.json",
+   "reserves": [
+    "R2LI-01",
+    "R2LI-02",
+    "R2LI-03",
+    "R2LI-04"
+   ],
+   "limite": "Zéro fiche ne signifie pas absence de communes ou de régions historiques. Aucun inventaire exhaustif des découpages sectoriels."
+  },
+  "entites": []
+ }
+}

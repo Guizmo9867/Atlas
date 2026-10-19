@@ -1,0 +1,23 @@
+{
+ "lot": "2.LI",
+ "date": "2026-10-19",
+ "auteur": "Claude",
+ "methode": "Sous-agent (WebFetch seulement, sans contournement) + lecture par Claude des copies texte d'Ether dans preuves/ ; « ok » seulement si la source prouve ce que la fiche lui fait dire à la date.",
+ "resultats": [
+  {
+   "id": "src-li-constitution-version1939",
+   "statut": "ok",
+   "commentaire": "PDF officiel lu (WebFetch) : en-tête « Fassung: 20.01.1939 » ; page d'historique Lilex : version 4 = 20.01.1939 – 29.12.1947 ; art. 1 « Das Fürstentum Liechtenstein bildet in der Vereinigung seiner beiden Landschaften Vaduz und Schellenberg » ; art. 110 « Über Bestand, Organisation und Aufgaben der Gemeinden … bestimmen die Gesetze ». Liste des onze Gemeinden par Landschaft et art. 1(2) « Vaduz ist der Hauptort und der Sitz der Landesbehörden » lus par Claude dans la copie texte d'Ether du même PDF (page 1, pied « Fassung: 20.01.1939 »)."
+  },
+  {
+   "id": "src-li-amendement-constitution1939",
+   "statut": "ok",
+   "commentaire": "PDF lu (WebFetch) : « Gesetz vom 18. Januar 1939 betreffend Abänderung von Art. 46, 47, 49 und 53 der Verfassung » ; « Das Oberland und Unterland bilden je einen Wahlbezirk. » ; « Von den 15 Abgeordneten entfallen 9 auf das Oberland und 6 auf das Unterland. » ; « ausgegeben am 20. Januar 1939 »."
+  },
+  {
+   "id": "src-li-bussjager-commentaire-art1",
+   "statut": "non_verifiee",
+   "commentaire": "Page refusée à WebFetch (robots.txt), sans contournement ; seule la note de lecture d'Ether existe. Appui d'interprétation, aucune donnée n'en dépend."
+  }
+ ]
+}

@@ -95,3 +95,4 @@ Principe de Guizmo : **maximum d'informations, minimum de visibilité**. La cart
 | 2.MC | 0 (note : commune unique depuis 1917) | 0 | 3 (3 ok) | intégré le 19/10/2026 (cycle 1, boucle) |
 | 2.SM | 0 importée (8 castelli documentés hors import : territoire Saint-Marin absent du canon, R2SM-01) | 0 | 4 (4 ok) | intégré le 19/10/2026 (cycle 1, boucle) |
 | 2.VA | 0 (note : pas d'échelon sous l'État) | 0 | 3 (3 ok) | intégré le 19/10/2026 (cycle 1, boucle) |
+| 2.LI | 0 importée (2 Landschaften électorales et 11 communes documentées hors import ; territoire Liechtenstein absent du canon) | 0 | 3 (2 ok, 1 non vérifiée) | intégré le 19/10/2026 (cycle 1, boucle) |

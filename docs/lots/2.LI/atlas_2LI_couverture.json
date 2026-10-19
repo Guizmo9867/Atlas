@@ -1,0 +1,47 @@
+{
+  "lot": "2.LI",
+  "snapshot": "1945-01-01T00:00:00",
+  "ensemble_documente": {
+    "regions_constitutionnelles_electorales": 2,
+    "communes": 11,
+    "liste_exacte": "atlas_2LI_inventaire_documentaire.json"
+  },
+  "axes": [
+    {
+      "axe": "Composition territoriale constitutionnelle et noms",
+      "etat": "documente",
+      "preuve": "Constitution version4 art.1 p.1"
+    },
+    {
+      "axe": "Évolution du droit jusqu’au Snapshot",
+      "etat": "documente_pour_articles_utilises",
+      "preuve": "Version officielle20.01.1939–29.12.1947 et amendement1939"
+    },
+    {
+      "axe": "Fonction des régions",
+      "etat": "electorale_documentee_non_proposee_comme_admin",
+      "preuve": "art46 et commentaireIV.A"
+    },
+    {
+      "axe": "Niveau municipal",
+      "etat": "documente_exclu_du_perimetre_import",
+      "preuve": "art110 et fiche de lancement§1"
+    },
+    {
+      "axe": "Parent canonique",
+      "etat": "absence_verifiee_localement",
+      "preuve": "preuves/controle_parent_canonique.json"
+    },
+    {
+      "axe": "Contours historiques, enclaves et licences vectorielles",
+      "etat": "non_recherches_a_fond_non_couverts",
+      "reserve": "R2LI-03"
+    },
+    {
+      "axe": "Découpages sectoriels",
+      "etat": "non_recherches_non_couverts",
+      "reserve": "R2LI-04"
+    }
+  ],
+  "conclusion": "Note justifiée ; pas de couverture cartographique ou sectorielle exhaustive revendiquée."
+}

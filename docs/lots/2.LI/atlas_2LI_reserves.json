@@ -1,0 +1,52 @@
+{
+  "lot": "2.LI",
+  "reserves": [
+    {
+      "reserve_id": "R2LI-01",
+      "point": "Traitement des Landschaften et des onze communes",
+      "preuves": "Constitution version1939 art.1,46,110 ; commentaire Bussjäger IV.A.",
+      "limites": "Deux régions constitutionnelles/électorales, non proposées comme provinces ; onze communes documentées mais exclues par la granularité demandée.",
+      "impact_donnees": "0 fiche importable. L’inventaire conserve deux groupements et onze communes.",
+      "choix_a_examiner": "Confirmer la note ; une éventuelle exception municipale ou couche électorale exige une décision de périmètre, pas une validation implicite.",
+      "sources": [
+        "src-li-constitution-version1939",
+        "src-li-amendement-constitution1939",
+        "src-li-bussjager-commentaire-art1"
+      ],
+      "statut": "reserve_revue_groupe2"
+    },
+    {
+      "reserve_id": "R2LI-02",
+      "point": "Parent territorial absent du canon",
+      "preuves": "Contrôle de tous les fichiers entites du Snapshot local ; lot04 contient Liechtenstein dans entites_differees_a_sourcer.",
+      "limites": "Deux villes existantes ne constituent pas un territoire ; pas de souveraineté canonique LI déduite.",
+      "impact_donnees": "Aucun parent inventé ni rattachement suisse/autrichien.",
+      "choix_a_examiner": "Guizmo examine le préalable territorial au bilan, hors création automatique.",
+      "sources": [],
+      "statut": "reserve_revue_groupe2"
+    },
+    {
+      "reserve_id": "R2LI-03",
+      "point": "Contours de 1945 et licence non établis",
+      "preuves": "Aucune géométrie retenue puisque aucune fiche proposée dans le périmètre actuel.",
+      "limites": "Pas de campagne de reconstitution des limites communales ni de validation des enclaves/limites en 1945 ; aucune licence de tracé revendiquée.",
+      "impact_donnees": "GeoJSON vide, sans faux lien ; aucune donnée OSM/ODbL.",
+      "choix_a_examiner": "Si un découpage est ultérieurement retenu, rechercher une géométrie historiquement étayée, un auteur et une licence acceptée.",
+      "sources": [],
+      "statut": "reserve_revue_groupe2"
+    },
+    {
+      "reserve_id": "R2LI-04",
+      "point": "Portée de la note et copie du commentaire",
+      "preuves": "Sources primaires locales complètes ; commentaire lu en ligne ; incident TLS enregistré.",
+      "limites": "Pas d’inventaire exhaustif de tous les secteurs administratifs, judiciaires ou religieux ; commentaire de 2015 non datation autonome de 1945 et non archivé intégralement.",
+      "impact_donnees": "La conclusion est un choix de modélisation sous réserves, pas une preuve d’absence de tout découpage.",
+      "choix_a_examiner": "Conserver la réserve ; compléter l’archive du commentaire si utile, sans prolonger automatiquement le groupe.",
+      "sources": [
+        "src-li-constitution-version1939",
+        "src-li-bussjager-commentaire-art1"
+      ],
+      "statut": "reserve_revue_groupe2"
+    }
+  ]
+}

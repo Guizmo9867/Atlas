@@ -1,7 +1,7 @@
 {
  "metadata": {
   "nom": "registre_sources_atlas",
-  "version": "1.48",
+  "version": "1.49",
   "date_creation": "2026-09-26",
   "principe": "Une source = un source_id stable. Les fiches événements/entités peuvent référencer ce source_id et préciser l'usage/locator.",
   "statut": "registre_initial_a_completer"
@@ -53357,6 +53357,122 @@
     "01_lots/2.VA/preuves/aas1944_p375.png",
     "01_lots/2.VA/preuves/aas1944_p377.png",
     "01_lots/2.VA/preuves/aas1944_p380.png"
+   ]
+  },
+  {
+   "source_id": "src-li-constitution-version1939",
+   "niveau": "A",
+   "type_source": "texte_normatif",
+   "titre": "Constitution du Liechtenstein du 5 octobre 1921, version applicable du 20 janvier 1939 au 29 décembre 1947",
+   "institution": "Rechtsdienst der Regierung / Lilex ; Landesarchiv pour le texte initial",
+   "url": "https://www.gesetze.li/konso/pdf/1921015000?version=4",
+   "date_consultation": "2026-10-19",
+   "periode_couverte": [],
+   "zones": [
+    "LI"
+   ],
+   "usages_atlas": [
+    "subdivisions_snapshot0"
+   ],
+   "cibles": [],
+   "locator": "Art. 1 p. 1 ; art. 46 p. 10–11 ; art. 110 p. 28 ; page finale des modifications p. 35. Intervalle de version : menu Lilex, valeur 4.",
+   "resume_passage": "PDF officiel lu (WebFetch) : en-tête « Fassung: 20.01.1939 » ; page d'historique Lilex : version 4 = 20.01.1939 – 29.12.1947 ; art. 1 « Das Fürstentum Liechtenstein bildet in der Vereinigung seiner beiden Landschaften Vaduz und Schellenberg » ; art. 110 « Über Bestand, Organisation und Aufgaben der Gemeinden … bestimmen die Gesetze ». Liste des onze Gemeinden par Landschaft et art. 1(2) « Vaduz ist der Hauptort und der Sitz der Landesbehörden » lus par Claude dans la copie texte d'Ether du même PDF (page 1, pied « Fassung: 20.01.1939 »).",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "lu_parties_utilisees",
+    "date": "2026-10-19",
+    "mode": "PDF officiel et captures visualisées"
+   },
+   "notes": "Proposée par Ether (lot 2.LI, cycle 1). Ce que la source prouve selon Ether : Liste des onze communes et des deux Landschaften ; fonction électorale ; autonomie municipale ; preuve de la version valable au Snapshot.. Limite annoncée par Ether : La version consolidée est explicitement datée 20.01.1939. La transcription du texte initial porte un nom de fichier 1921_10_04, mais le titre et le texte donnent 5 octobre 1921 ; la publication du journal est le 24 octobre. Pas de réforme de 2003 anticipée. Relecture Claude 2026-10-19 : PDF officiel lu (WebFetch) : en-tête « Fassung: 20.01.1939 » ; page d'historique Lilex : version 4 = 20.01.1939 – 29.12.1947 ; art. 1 « Das Fürstentum Liechtenstein bildet in der Vereinigung seiner beiden Landschaften Vaduz und Schellenberg » ; art. 110 « Über Bestand, Organisation und Aufgaben der Gemeinden … bestimmen die Gesetze ». Liste des onze Gemeinden par Landschaft et art. 1(2) « Vaduz ist der Hauptort und der Sitz der Landesbehörden » lus par Claude dans la copie texte d'Ether du même PDF (page 1, pied « Fassung: 20.01.1939 »).",
+   "cibles_documentaires": [
+    "01_lots/2.LI/atlas_2LI_inventaire_documentaire.json"
+   ],
+   "archives_locales": [
+    "01_lots/2.LI/preuves/constitution1939.pdf",
+    "01_lots/2.LI/preuves/constitution1939.txt",
+    "01_lots/2.LI/preuves/constitution1939_capture.json",
+    "01_lots/2.LI/preuves/constitution1939_page01.png",
+    "01_lots/2.LI/preuves/constitution1939_page10.png",
+    "01_lots/2.LI/preuves/constitution1939_page28.png",
+    "01_lots/2.LI/preuves/constitution1921_original.pdf",
+    "01_lots/2.LI/preuves/constitution1921_original.txt",
+    "01_lots/2.LI/preuves/constitution1921_original_capture.json",
+    "01_lots/2.LI/preuves/constitution1921.html",
+    "01_lots/2.LI/preuves/constitution1921_capture.json",
+    "01_lots/2.LI/preuves/lilex_versions.html",
+    "01_lots/2.LI/preuves/lilex_versions.txt",
+    "01_lots/2.LI/preuves/lilex_versions_capture.json"
+   ]
+  },
+  {
+   "source_id": "src-li-amendement-constitution1939",
+   "niveau": "A",
+   "type_source": "texte_normatif",
+   "titre": "Loi du 18 janvier 1939 modifiant les articles 46, 47, 49 et 53 de la Constitution — LGBl. 1939 Nr. 3",
+   "institution": "Rechtsdienst der Regierung / Liechtensteinisches Landesgesetzblatt",
+   "url": "https://www.gesetze.li/chrono/pdf/1939003000",
+   "date_consultation": "2026-10-19",
+   "periode_couverte": [],
+   "zones": [
+    "LI"
+   ],
+   "usages_atlas": [
+    "subdivisions_snapshot0"
+   ],
+   "cibles": [],
+   "locator": "§1 p. 1 ; §5 et signatures p. 2 ; en-tête : publication du 20 janvier 1939.",
+   "resume_passage": "PDF lu (WebFetch) : « Gesetz vom 18. Januar 1939 betreffend Abänderung von Art. 46, 47, 49 und 53 der Verfassung » ; « Das Oberland und Unterland bilden je einen Wahlbezirk. » ; « Von den 15 Abgeordneten entfallen 9 auf das Oberland und 6 auf das Unterland. » ; « ausgegeben am 20. Januar 1939 ».",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "lu_parties_utilisees",
+    "date": "2026-10-19",
+    "mode": "PDF officiel lu, §1 et §5"
+   },
+   "notes": "Proposée par Ether (lot 2.LI, cycle 1). Ce que la source prouve selon Ether : Oberland et Unterland sont chacun un Wahlbezirk ; quinze députés, neuf et six ; entrée en vigueur à la publication.. Limite annoncée par Ether : Correction de version nécessaire : ne pas employer sans réserve l’article 46 initial de 1921. Aucun système électoral actuel projeté sur 1945. Relecture Claude 2026-10-19 : PDF lu (WebFetch) : « Gesetz vom 18. Januar 1939 betreffend Abänderung von Art. 46, 47, 49 und 53 der Verfassung » ; « Das Oberland und Unterland bilden je einen Wahlbezirk. » ; « Von den 15 Abgeordneten entfallen 9 auf das Oberland und 6 auf das Unterland. » ; « ausgegeben am 20. Januar 1939 ».",
+   "cibles_documentaires": [
+    "01_lots/2.LI/atlas_2LI_inventaire_documentaire.json"
+   ],
+   "archives_locales": [
+    "01_lots/2.LI/preuves/amendement1939.pdf",
+    "01_lots/2.LI/preuves/amendement1939.txt",
+    "01_lots/2.LI/preuves/amendement1939_capture.json",
+    "01_lots/2.LI/preuves/amendement1939_page01.png"
+   ]
+  },
+  {
+   "source_id": "src-li-bussjager-commentaire-art1",
+   "niveau": "B",
+   "type_source": "commentaire_scientifique",
+   "titre": "Commentaire de l’article 1 de la Constitution du Liechtenstein",
+   "institution": "Liechtenstein-Institut ; auteur : Peter Bussjäger",
+   "url": "https://verfassung.li/Art._1",
+   "date_consultation": "2026-10-19",
+   "periode_couverte": [],
+   "zones": [
+    "LI"
+   ],
+   "usages_atlas": [
+    "subdivisions_snapshot0"
+   ],
+   "cibles": [],
+   "locator": "I (évolution de l’article 1 avant 2003) ; IV.A, paragraphes 48 et 53 ; IV.B, paragraphes 55 et 58.",
+   "resume_passage": "",
+   "archive_locale": null,
+   "verification_claude": "non_verifiee",
+   "verification_ether": {
+    "statut": "lu_parties_utilisees",
+    "date": "2026-10-19",
+    "mode": "Page lue via outil web ; copie directe non obtenue"
+   },
+   "notes": "Proposée par Ether (lot 2.LI, cycle 1). Ce que la source prouve selon Ether : Interprétation de la distinction régions électorales / administration communale ; appui méthodologique, non preuve autonome de 1945.. Limite annoncée par Ether : Texte daté du 31/08/2015, lu sur le web. Archivage direct TLS échoué ; compte rendu de lecture seul conservé. La réserve de modélisation demeure. Relecture Claude 2026-10-19 : Page refusée à WebFetch (robots.txt), sans contournement ; seule la note de lecture d'Ether existe. Appui d'interprétation, aucune donnée n'en dépend.",
+   "cibles_documentaires": [
+    "01_lots/2.LI/atlas_2LI_inventaire_documentaire.json"
+   ],
+   "archives_locales": [
+    "01_lots/2.LI/preuves/commentaire_art1_lecture_web.md",
+    "01_lots/2.LI/preuves/commentaire_art1_incident.json"
    ]
   }
  ]
