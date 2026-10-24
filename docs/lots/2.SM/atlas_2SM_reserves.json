@@ -3,13 +3,23 @@
   "reserves": [
     {
       "reserve_id": "R2SM-01",
-      "point": "Parent territorial absent du canon",
-      "preuves": "Scan des entités canoniques et mention Saint-Marin différé dans lot04.",
-      "limites": "La ville existe, mais aucun territoire Saint-Marin ni souveraineté de rattachement n’est disponible.",
-      "impact_donnees": "Zéro fiche dans le fichier importé ; huit dossiers candidats séparés.",
-      "choix_a_examiner": "Claude : confirmer le préalable territorial et conserver ces dossiers ; aucune création de territoire ni rattachement italien demandé implicitement.",
+      "point": "Parent territorial désormais présent",
+      "preuves": "Décision humaine et note Claude du 24/10 ; fichier canonique contrôlé directement.",
+      "limites": "Cette résolution porte uniquement sur le parent et la souveraineté.",
+      "impact_donnees": "Huit fiches proposées sous territoire-sm-saint-marin ; intégration du cycle 2 encore attendue.",
+      "choix_a_examiner": "Aucun arbitrage territorial encore requis ; conserver les réserves historiques R2SM-02 à 05.",
       "sources": [],
-      "statut": "reserve_revue_groupe2"
+      "statut": "prealable_resolu_decision_guizmo_2026_10_24",
+      "historique_cycle1": {
+        "reserve_id": "R2SM-01",
+        "point": "Parent territorial absent du canon",
+        "preuves": "Scan des entités canoniques et mention Saint-Marin différé dans lot04.",
+        "limites": "La ville existe, mais aucun territoire Saint-Marin ni souveraineté de rattachement n’est disponible.",
+        "impact_donnees": "Zéro fiche dans le fichier importé ; huit dossiers candidats séparés.",
+        "choix_a_examiner": "Claude : confirmer le préalable territorial et conserver ces dossiers ; aucune création de territoire ni rattachement italien demandé implicitement.",
+        "sources": [],
+        "statut": "reserve_revue_groupe2"
+      }
     },
     {
       "reserve_id": "R2SM-02",
@@ -23,7 +33,7 @@
         "src-sm-bastianelli-histoire-castelli",
         "src-sm-loi-giunte1945"
       ],
-      "statut": "reserve_revue_groupe2"
+      "statut": "reserve_conservee_cycle2_revue_guizmo"
     },
     {
       "reserve_id": "R2SM-03",
@@ -36,7 +46,7 @@
         "src-sm-statistique-cadastre2025",
         "src-sm-reglement-castelli1925"
       ],
-      "statut": "reserve_revue_groupe2"
+      "statut": "reserve_conservee_cycle2_revue_guizmo"
     },
     {
       "reserve_id": "R2SM-04",
@@ -50,7 +60,7 @@
         "src-sm-bastianelli-histoire-castelli",
         "src-sm-loi-giunte1945"
       ],
-      "statut": "reserve_revue_groupe2"
+      "statut": "reserve_conservee_cycle2_revue_guizmo"
     },
     {
       "reserve_id": "R2SM-05",
@@ -63,7 +73,8 @@
         "src-sm-reglement-castelli1925",
         "src-sm-bastianelli-histoire-castelli"
       ],
-      "statut": "reserve_revue_groupe2"
+      "statut": "reserve_conservee_cycle2_revue_guizmo"
     }
-  ]
+  ],
+  "cycle": 2
 }

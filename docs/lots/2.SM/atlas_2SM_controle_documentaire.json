@@ -1,20 +1,14 @@
 {
-  "lot": "2.SM",
-  "date": "2026-10-19T10:05:46.940411+00:00",
-  "erreurs": [],
-  "controles": [
-    "8 dossiers distincts concordent avec art. 2 du règlement",
-    "Guaita/Montale différés, pas de nombre national 9 ou 10 affirmé au Snapshot",
-    "Date de novembre 1945 non anticipée",
-    "Aucun parent inventé ; dossiers hors import séparés",
-    "4 sources nouvelles contrôlées par URL et ID",
-    "Aucun contour, siège ou code moderne fabriqué"
-  ],
-  "limites": [
-    "Parent territorial absent",
-    "Réserve sur continuité et fusion centrale",
-    "Aucune carte historique ni licence de tracé établie"
-  ],
-  "fiches_importables": 0,
-  "candidats_hors_import": 8
+  "cycle": 2,
+  "date": "2026-10-24T18:19:31.693345+00:00",
+  "parent_resolu": true,
+  "source_liste": "src-sm-reglement-castelli1925, art. 2",
+  "loi_1945": "26/11/1945, séance 17/11/1945",
+  "originaux_arengo_non_lus": true,
+  "contours_absents": true,
+  "references": [
+    "preuves/ether_controle_parent_cycle2.json",
+    "2026-10-19_claude_compte_rendu_1.md",
+    "2026-10-24_claude_note_decision_guizmo.md"
+  ]
 }

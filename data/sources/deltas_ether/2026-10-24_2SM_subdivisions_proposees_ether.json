@@ -1,0 +1,404 @@
+{
+ "note": "Copie fidèle de 01_lots/2.SM/atlas_2SM_subdivisions_proposees.json (Ether, cycle 2), sous la clé proposition_ether pour que le validateur ne la lise pas comme un lot du corpus (entités intégrées : data/snapshot0/subdivisions_2-SM.json).",
+ "proposition_ether": {
+  "metadata_lot": {
+   "lot": "2.SM",
+   "etat_1945": "Saint-Marin",
+   "date_reference": "1945-01-01",
+   "heure_reference": "00:00",
+   "cycle": 2,
+   "statut": "proposition_a_relire",
+   "comptages": {
+    "total": 8,
+    "echelon_1": 8,
+    "echelon_2": 0
+   },
+   "geometries_liees": 0,
+   "chefs_lieux_proposes": 0,
+   "secteurs_differes": [
+    "Guaita",
+    "Montale"
+   ],
+   "couverture_complete": false,
+   "autorisation": "coordination/AUTORISATIONS_RATISSAGE.json#subdivisions_groupe_3"
+  },
+  "entites": [
+   {
+    "entite_id": "subdivision-sm-borgo-maggiore",
+    "type_entite": "subdivision",
+    "nom": "Borgo Maggiore",
+    "nom_court": "Fratta",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Fratta",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "castello",
+       "parent_id": "territoire-sm-saint-marin",
+       "souverainete_id": "saint_marin",
+       "reserves": [
+        "R2SM-02",
+        "R2SM-03",
+        "R2SM-05"
+       ],
+       "note": "Parrocchia del Borgo, versant nord-est du Monte Titano et paroisse de San Giovanni selon art. 2. Ne pas confondre avec la tour. Continuité au jour exact sous réserve. Aucun siège, code ou contour déduit. Rattachement autorisé le 24/10/2026 ; la levée du préalable territorial ne lève aucune incertitude historique."
+      },
+      "sources": [
+       {
+        "source_id": "src-sm-reglement-castelli1925",
+        "locator": "art. 2, n° 2, PDF p. 1",
+        "usage": "unité et emprise textuelle de 1925"
+       },
+       {
+        "source_id": "src-sm-bastianelli-histoire-castelli",
+        "locator": "section 16 MARZO 1925, paragraphes sur les Arenghi 1943–1945",
+        "usage": "nominations et changements de noms en 1944 ; limites de la continuité"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-sm-acquaviva",
+    "type_entite": "subdivision",
+    "nom": "Acquaviva",
+    "nom_court": "Montecerreto",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Montecerreto",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "castello",
+       "parent_id": "territoire-sm-saint-marin",
+       "souverainete_id": "saint_marin",
+       "reserves": [
+        "R2SM-02",
+        "R2SM-03",
+        "R2SM-05"
+       ],
+       "note": "Paroisse d’Acquaviva selon art. 2 ; nom Acquaviva attesté dans la liste d’avril 1945, non anticipé comme nom officiel certain. Continuité au jour exact sous réserve. Aucun siège, code ou contour déduit. Rattachement autorisé le 24/10/2026 ; la levée du préalable territorial ne lève aucune incertitude historique."
+      },
+      "sources": [
+       {
+        "source_id": "src-sm-reglement-castelli1925",
+        "locator": "art. 2, n° 6, PDF p. 1",
+        "usage": "unité et emprise textuelle de 1925"
+       },
+       {
+        "source_id": "src-sm-bastianelli-histoire-castelli",
+        "locator": "section 16 MARZO 1925, paragraphes sur les Arenghi 1943–1945",
+        "usage": "nominations et changements de noms en 1944 ; limites de la continuité"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-sm-fiorentino",
+    "type_entite": "subdivision",
+    "nom": "Fiorentino",
+    "nom_court": "Fiorentino",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Fiorentino",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "castello",
+       "parent_id": "territoire-sm-saint-marin",
+       "souverainete_id": "saint_marin",
+       "reserves": [
+        "R2SM-02",
+        "R2SM-03",
+        "R2SM-05"
+       ],
+       "note": "Paroisse homonyme selon art. 2 ; capitaine cité en avril et octobre 1944. Continuité au jour exact sous réserve. Aucun siège, code ou contour déduit. Rattachement autorisé le 24/10/2026 ; la levée du préalable territorial ne lève aucune incertitude historique."
+      },
+      "sources": [
+       {
+        "source_id": "src-sm-reglement-castelli1925",
+        "locator": "art. 2, n° 4, PDF p. 1",
+        "usage": "unité et emprise textuelle de 1925"
+       },
+       {
+        "source_id": "src-sm-bastianelli-histoire-castelli",
+        "locator": "section 16 MARZO 1925, paragraphes sur les Arenghi 1943–1945",
+        "usage": "nominations et changements de noms en 1944 ; limites de la continuité"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-sm-chiesanuova",
+    "type_entite": "subdivision",
+    "nom": "Chiesanuova",
+    "nom_court": "Chiesanuova",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Chiesanuova",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "castello",
+       "parent_id": "territoire-sm-saint-marin",
+       "souverainete_id": "saint_marin",
+       "reserves": [
+        "R2SM-02",
+        "R2SM-03",
+        "R2SM-05"
+       ],
+       "note": "Pennarossa dans le règlement de 1925 ; Chiesanuova dans les nominations d’avril et octobre 1944 selon la synthèse institutionnelle. Continuité au jour exact sous réserve. Aucun siège, code ou contour déduit. Rattachement autorisé le 24/10/2026 ; la levée du préalable territorial ne lève aucune incertitude historique."
+      },
+      "sources": [
+       {
+        "source_id": "src-sm-reglement-castelli1925",
+        "locator": "art. 2, n° 5, PDF p. 1",
+        "usage": "unité et emprise textuelle de 1925"
+       },
+       {
+        "source_id": "src-sm-bastianelli-histoire-castelli",
+        "locator": "section 16 MARZO 1925, paragraphes sur les Arenghi 1943–1945",
+        "usage": "nominations et changements de noms en 1944 ; limites de la continuité"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-sm-domagnano",
+    "type_entite": "subdivision",
+    "nom": "Domagnano",
+    "nom_court": "Domagnano",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Domagnano",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "castello",
+       "parent_id": "territoire-sm-saint-marin",
+       "souverainete_id": "saint_marin",
+       "reserves": [
+        "R2SM-02",
+        "R2SM-03",
+        "R2SM-05"
+       ],
+       "note": "Torraccia dans le règlement de 1925 ; Domagnano dans les nominations d’avril et octobre 1944 selon la synthèse institutionnelle. Continuité au jour exact sous réserve. Aucun siège, code ou contour déduit. Rattachement autorisé le 24/10/2026 ; la levée du préalable territorial ne lève aucune incertitude historique."
+      },
+      "sources": [
+       {
+        "source_id": "src-sm-reglement-castelli1925",
+        "locator": "art. 2, n° 7, PDF p. 1",
+        "usage": "unité et emprise textuelle de 1925"
+       },
+       {
+        "source_id": "src-sm-bastianelli-histoire-castelli",
+        "locator": "section 16 MARZO 1925, paragraphes sur les Arenghi 1943–1945",
+        "usage": "nominations et changements de noms en 1944 ; limites de la continuité"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-sm-serravalle",
+    "type_entite": "subdivision",
+    "nom": "Serravalle",
+    "nom_court": "Serravalle",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Serravalle",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "castello",
+       "parent_id": "territoire-sm-saint-marin",
+       "souverainete_id": "saint_marin",
+       "reserves": [
+        "R2SM-02",
+        "R2SM-03",
+        "R2SM-05"
+       ],
+       "note": "Paroisse homonyme ; administration communale particulière conservée par art. 3. Continuité au jour exact sous réserve. Aucun siège, code ou contour déduit. Rattachement autorisé le 24/10/2026 ; la levée du préalable territorial ne lève aucune incertitude historique."
+      },
+      "sources": [
+       {
+        "source_id": "src-sm-reglement-castelli1925",
+        "locator": "art. 2, n° 8, PDF p. 2",
+        "usage": "unité et emprise textuelle de 1925"
+       },
+       {
+        "source_id": "src-sm-bastianelli-histoire-castelli",
+        "locator": "section 16 MARZO 1925, paragraphes sur les Arenghi 1943–1945",
+        "usage": "nominations et changements de noms en 1944 ; limites de la continuité"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-sm-faetano",
+    "type_entite": "subdivision",
+    "nom": "Faetano",
+    "nom_court": "Faetano",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Faetano",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "castello",
+       "parent_id": "territoire-sm-saint-marin",
+       "souverainete_id": "saint_marin",
+       "reserves": [
+        "R2SM-02",
+        "R2SM-03",
+        "R2SM-05"
+       ],
+       "note": "Paroisse homonyme ; administration communale particulière conservée par art. 3. Continuité au jour exact sous réserve. Aucun siège, code ou contour déduit. Rattachement autorisé le 24/10/2026 ; la levée du préalable territorial ne lève aucune incertitude historique."
+      },
+      "sources": [
+       {
+        "source_id": "src-sm-reglement-castelli1925",
+        "locator": "art. 2, n° 9, PDF p. 2",
+        "usage": "unité et emprise textuelle de 1925"
+       },
+       {
+        "source_id": "src-sm-bastianelli-histoire-castelli",
+        "locator": "section 16 MARZO 1925, paragraphes sur les Arenghi 1943–1945",
+        "usage": "nominations et changements de noms en 1944 ; limites de la continuité"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-sm-montegiardino",
+    "type_entite": "subdivision",
+    "nom": "Montegiardino",
+    "nom_court": "Montegiardino",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Montegiardino",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "castello",
+       "parent_id": "territoire-sm-saint-marin",
+       "souverainete_id": "saint_marin",
+       "reserves": [
+        "R2SM-02",
+        "R2SM-03",
+        "R2SM-05"
+       ],
+       "note": "Paroisse homonyme ; administration communale particulière conservée par art. 3. Continuité au jour exact sous réserve. Aucun siège, code ou contour déduit. Rattachement autorisé le 24/10/2026 ; la levée du préalable territorial ne lève aucune incertitude historique."
+      },
+      "sources": [
+       {
+        "source_id": "src-sm-reglement-castelli1925",
+        "locator": "art. 2, n° 10, PDF p. 2",
+        "usage": "unité et emprise textuelle de 1925"
+       },
+       {
+        "source_id": "src-sm-bastianelli-histoire-castelli",
+        "locator": "section 16 MARZO 1925, paragraphes sur les Arenghi 1943–1945",
+        "usage": "nominations et changements de noms en 1944 ; limites de la continuité"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   }
+  ]
+ }
+}

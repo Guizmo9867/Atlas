@@ -1,28 +1,26 @@
 {
-  "lot": "2.SM",
-  "date": "2026-10-19T10:05:47.054415+00:00",
-  "erreurs": [],
+  "date": "2026-10-24T18:20:23.214099+00:00",
+  "cycle": 2,
+  "resultat": "conforme",
+  "comptages": {
+    "entites": 8,
+    "echelon_1": 8,
+    "echelon_2": 0,
+    "geometries": 0,
+    "sources_ajouter": 0,
+    "sources_completer": 4,
+    "reserves_ouvertes": 4,
+    "prealable_resolu": 1,
+    "chefs_lieux_proposes": 0
+  },
   "controles": [
-    "JSON lisibles",
-    "unicité et syntaxe des ID",
-    "absence de collision dans le canon local",
-    "parents et capitales existants",
-    "sources citées disponibles et localisées",
-    "copies probantes présentes",
-    "fenêtre1945 et échelons",
-    "absence de faux lien géométrique",
-    "aucune géométrie OSM/ODbL"
-  ],
-  "entites": 0,
-  "echelon_1": 0,
-  "echelon_2": 0,
-  "geometries": 0,
-  "sources_ajouter": 4,
-  "sources_completer": 0,
-  "limite": "Contrôle structurel et références locales, distinct de la relecture historique de Claude. Les absences et limites historiques demeurent dans les réserves.",
-  "donnees_sha256": {
-    "atlas_2SM_subdivisions_proposees.json": "0efce75dd9c0334f60b4cc6c5d4deff0ded3f1f39d7dd88f1d2b9e9a6c722083",
-    "geometries\\atlas_2SM_geometries_proposees.geojson": "92a0da06c604b60e1d98d6672b6b943ec0457b276da728a2688b751bd4eb81a9",
-    "atlas_registre_sources_2SM_delta.json": "a6d5dfc090c7c0a629d3f8d7e57ff5a3dbbff763cb66809f26db11a4dfaa9dcf"
-  }
+    "8 IDs uniques, identiques aux candidats",
+    "parent et souveraineté présents",
+    "dates Snapshot et fin inconnue",
+    "sources et preuves locales présentes",
+    "4 sources dans completer, vérifications Claude conservées",
+    "GeoJSON vide sans faux lien",
+    "cycle 1 archivé, réserves explicites",
+    "STATUT et retour Claude inchangés avant remise"
+  ]
 }

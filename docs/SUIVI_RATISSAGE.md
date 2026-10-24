@@ -93,6 +93,6 @@ Principe de Guizmo : **maximum d'informations, minimum de visibilité**. La cart
 | 2.IE | 31 (27 comtés, 4 county boroughs) | 0 (pas de contour de 1945, R2IE-01) | 14 (8 ok) | intégré le 18/10/2026 (cycle 1, boucle) |
 | 2.AD | 6 paroisses | 0 (pas de contour de 1945 à licence établie, R2AD-02) | 4 (2 ok) | intégré le 18/10/2026 (cycle 1, boucle) |
 | 2.MC | 0 (note : commune unique depuis 1917) | 0 | 3 (3 ok) | intégré le 19/10/2026 (cycle 1, boucle) |
-| 2.SM | 0 importée (8 castelli documentés hors import : territoire Saint-Marin absent du canon, R2SM-01) | 0 | 4 (4 ok) | intégré le 19/10/2026 (cycle 1, boucle) |
+| 2.SM | 8 castelli (secteur central Guaita/Montale sans fiche, R2SM-02) | 0 | 4 (4 ok) | intégré le 24/10/2026 (cycle 2, boucle) ; cycle 1 du 19/10 sans import |
 | 2.VA | 0 (note : pas d'échelon sous l'État) | 0 | 3 (3 ok) | intégré le 19/10/2026 (cycle 1, boucle) |
 | 2.LI | 0 importée (2 Landschaften électorales et 11 communes documentées hors import ; territoire Liechtenstein absent du canon) | 0 | 3 (2 ok, 1 non vérifiée) | intégré le 19/10/2026 (cycle 1, boucle) |

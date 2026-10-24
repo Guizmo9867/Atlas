@@ -2,6 +2,11 @@
 
 Une ligne par décision, datée. Plus récente en haut. Ce journal remplace les versions éparpillées dans les conversations : si ce n'est pas ici, ce n'est pas décidé.
 
+## 2026-10-24 (soir : 2.SM cycle 2 intégré, boucle automatique)
+
+- **Lot 2.SM intégré** (cycle 2, groupe 2) : **8 castelli** de Saint-Marin au 01/01/1945 sous `territoire-sm-saint-marin`, un seul échelon (Borgo Maggiore/Fratta, Acquaviva/Montecerreto, Fiorentino, Chiesanuova, Domagnano, Serravalle, Faetano, Montegiardino) ; secteur central (Guaita, Montale) sans fiche (R2SM-02). *(Ether, intégré par Claude)*
+- Aucun tracé, aucun chef-lieu. Sources : 4 complétées (4 ok), registre v1.50. Réserves R2SM-02 à 05 gardées. *(Claude)*
+
 ## 2026-10-19 (midi : 2.LI intégré, fin du groupe 2, boucle automatique)
 
 - **Lot 2.LI intégré** (cycle 1, groupe 2) : **0 fiche importée** pour le Liechtenstein. Les deux Landschaften (Vaduz/Oberland, Schellenberg/Unterland) sont des régions constitutionnelles et des circonscriptions électorales (Constitution de 1921, version du 20/01/1939, art. 1 et 46 ; loi du 18/01/1939), pas des provinces ; les onze Gemeinden relèvent du niveau communal, exclu. Le canon n'a **aucun territoire Liechtenstein** (seulement `ville-li-vaduz` et `ville-li-schaan`). Inventaire gardé hors import (`docs/lots/2.LI/`). *(Ether, intégré par Claude)*
