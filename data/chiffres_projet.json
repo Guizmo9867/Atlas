@@ -1,11 +1,11 @@
 {
- "genere_le": "2026-10-19 11:22",
+ "genere_le": "2026-10-24 13:19",
  "snapshot0": {
   "date_representee": "1945-01-01 00:00 (dernier état connu avant)",
-  "territoires": 74,
+  "territoires": 76,
   "lignes_de_front": 4,
   "frontieres_tracees": 1,
-  "geometries": 482,
+  "geometries": 484,
   "villes": 1625,
   "villes_par_rang": {
    "A": 85,
@@ -191,6 +191,14 @@
     "version": "1.0",
     "zone": null,
     "entites": {}
+   },
+   {
+    "fichier": "territoires_micro_etats_sm_li.json",
+    "version": "1.0",
+    "zone": null,
+    "entites": {
+     "territoire": 2
+    }
    }
   ],
   "lots_villes": [
@@ -434,7 +442,7 @@
   "validees_par_guizmo": 3
  },
  "historique": {
-  "envois_github": 81,
+  "envois_github": 82,
   "premier_envoi": "2026-09-28",
   "dernier_envoi": "2026-10-19",
   "depot_public": "https://github.com/Guizmo9867/Atlas"

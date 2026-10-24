@@ -1,0 +1,65 @@
+{
+ "note": "Suivi des États dont les subdivisions de 1945 n'ont pas (ou pas toutes) de tracé sur la carte. Demande de Guizmo du 24/10/2026 : garder la liste à jour à chaque lot 2.x (la boucle complète « pourquoi » et « pistes » ; le reste est calculé par outils/subdivisions/suivi_traces.py).",
+ "lots": {
+  "2.FR": {
+   "pourquoi": "5 régions (Angers, Bordeaux, Orléans, Poitiers, Toulouse) à la composition incomplète (R2FR-03).",
+   "pistes": "compléter les compositions régionales, puis unir les départements déjà tracés"
+  },
+  "2.BE": {
+   "pourquoi": "aucun tracé de 1945 sous licence libre trouvé (R2BE-01).",
+   "pistes": "limites modernes ouvertes (Statbel/NGI) + différences documentées depuis 1945, comme TRF-GIS pour la France"
+  },
+  "2.LU": {
+   "pourquoi": "4 cantons écartés par prudence par Ether (Vianden, Diekirch, Remich, Grevenmacher : rectifications de frontière).",
+   "pistes": "vérifier les rectifications et lever la marque"
+  },
+  "2.NL": {
+   "pourquoi": "Brabant-Septentrional écarté par prudence (enclaves de Baarle).",
+   "pistes": "accepter le tracé avec réserve, ou découper les enclaves"
+  },
+  "2.CH": {
+   "pourquoi": "plus rien : 200 contours affichés depuis le 17/10 (licence opendata.swiss acceptée).",
+   "pistes": ""
+  },
+  "2.ES": {
+   "pourquoi": "aucun tracé de 1945 sous licence libre : l'IGN n'a que des scans de cartes, la base ouverte commence en 1998 (R2ES-01).",
+   "pistes": "provinces quasi inchangées depuis 1927 : limites modernes ouvertes + différences documentées"
+  },
+  "2.PT": {
+   "pourquoi": "CAOP seulement moderne ; reconstitution REGIS annoncée CC BY-NC (refusée) ; droits des tracés d'Alves 2024 non établis (R2PT-01).",
+   "pistes": "CAOP moderne + différences documentées ; demander la licence des tracés d'Alves"
+  },
+  "2.IT": {
+   "pourquoi": "11 provinces écartées par prudence par Ether (tracés jugés douteux pour 1945 : voir les réserves R2IT).",
+   "pistes": "relire les réserves R2IT et lever la marque province par province"
+  },
+  "2.GB": {
+   "pourquoi": "GB Historical GIS est sous CC BY-SA (refusée par notre liste) ; ONS 1921 (OGL) n'a pas le bon découpage ; rien pour l'Irlande du Nord ni l'Écosse (R2GB-01).",
+   "pistes": "décider si on accepte CC BY-SA pour des tracés (question pour Guizmo) ; ou limites modernes + différences"
+  },
+  "2.IE": {
+   "pourquoi": "candidat Tailte 2024 (CC BY 4.0) mais pas encore rapproché des 31 unités de 1945 (R2IE-01).",
+   "pistes": "comtés irlandais presque inchangés : utiliser Tailte avec les différences documentées"
+  },
+  "2.AD": {
+   "pourquoi": "6 paroisses sans tracé libre.",
+   "pistes": "limites modernes ouvertes des paroisses + changements documentés depuis 1945 (réserve R2AD-01)"
+  },
+  "2.MC": {
+   "pourquoi": "pas de découpage utile en 1945 (rien à tracer).",
+   "pistes": ""
+  },
+  "2.VA": {
+   "pourquoi": "pas de découpage utile en 1945 (rien à tracer).",
+   "pistes": ""
+  },
+  "2.SM": {
+   "pourquoi": "territoire Saint-Marin créé le 24/10 (décision de Guizmo) ; les 8 castelli attendent la relivraison d'Ether (cycle 2).",
+   "pistes": "Ether relivre les castelli rattachés à territoire-sm-saint-marin"
+  },
+  "2.LI": {
+   "pourquoi": "territoire Liechtenstein créé le 24/10 ; pas de découpage interne retenu (Landschaften surtout électorales, décision de Guizmo).",
+   "pistes": ""
+  }
+ }
+}

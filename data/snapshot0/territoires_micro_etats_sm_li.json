@@ -1,0 +1,92 @@
+{
+ "metadata_lot": {
+  "nom": "snapshot0_territoires_micro_etats_sm_li",
+  "date_reference": "1945-01-01",
+  "heure_reference": "00:00",
+  "version": "1.0",
+  "statut": "integre_par_claude",
+  "gabarit_source": "gabarits/gabarit_entite_temporelle_atlas.json",
+  "origine": "Décision de Guizmo du 24/10/2026 : créer les territoires de Saint-Marin et du Liechtenstein, mis de côté au lot 04 (frontières), pour pouvoir y ranger leurs subdivisions (lots 2.SM et 2.LI).",
+  "regles": [
+   "tracés OpenHistoricalMap (CC0), ajustés pour toucher exactement les voisins du lot 04 (outils/geo/deriver_micro_etats_sm_li.py)",
+   "alignement neutral_ww2 au Snapshot 0, comme Andorre, Monaco et la Suisse"
+  ]
+ },
+ "entites": [
+  {
+   "entite_id": "territoire-sm-saint-marin",
+   "type_entite": "territoire",
+   "nom": "Saint-Marin",
+   "nom_court": "Saint-Marin",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "etat_neutre",
+     "proprietes": {
+      "souverainete_id": "saint_marin",
+      "controle_id": "saint_marin",
+      "alignement_id": "neutral_ww2",
+      "note": "République indépendante. Brièvement traversée par les combats de la ligne Gothique (septembre 1944), puis occupée par les Alliés jusqu'en novembre 1944 (à préciser par source) ; au 01/01/1945, État souverain neutre. Subdivisions (castelli) : lot 2.SM, à relivrer par Ether maintenant que le territoire existe. [Créé par Claude sur décision de Guizmo du 24/10/2026.]"
+     },
+     "geometrie_ref": "geom-territoire-sm-saint-marin-1945-01-01",
+     "sources": [
+      {
+       "source_id": "src-19-sm-treccani1936",
+       "locator": "article San Marino",
+       "usage": "État souverain, capitale, administration"
+      },
+      {
+       "source_id": "src-sm-reglement-castelli1925",
+       "locator": "règlement n° 10 du 16/03/1925",
+       "usage": "organisation de l'État en castelli (antérieure au Snapshot)"
+      }
+     ]
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "territoire-li-liechtenstein",
+   "type_entite": "territoire",
+   "nom": "Liechtenstein",
+   "nom_court": "Liechtenstein",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "etat_neutre",
+     "proprietes": {
+      "souverainete_id": "liechtenstein",
+      "controle_id": "liechtenstein",
+      "alignement_id": "neutral_ww2",
+      "note": "Principauté souveraine, neutre pendant la guerre, en union douanière et monétaire avec la Suisse (à préciser par source pour la couche des flux). Pas de découpage interne retenu au Snapshot 0 : ses deux Landschaften de 1945 (Oberland, Unterland) étaient surtout des circonscriptions électorales (lot 2.LI ; décision de Guizmo du 24/10/2026). [Créé par Claude sur décision de Guizmo du 24/10/2026.]"
+     },
+     "geometrie_ref": "geom-territoire-li-liechtenstein-1945-01-01",
+     "sources": [
+      {
+       "source_id": "src-li-constitution-version1939",
+       "locator": "Constitution du 05/10/1921, version du 20/01/1939",
+       "usage": "État souverain, Landschaften et communes"
+      }
+     ]
+    }
+   ],
+   "relations": []
+  }
+ ]
+}

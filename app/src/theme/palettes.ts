@@ -11,7 +11,7 @@ const ACTEURS: Palette = {
   allemagne: '#44444c', autriche: '#c49a6c', pologne: '#6f9f5f',
   danemark: '#a8505a', feroe: '#7a9a8a', norvege: '#4a6f9a', suede: '#d2b04c', islande: '#6fa3b8', royaume_uni: '#7d3c5a', couronne_britannique: '#9a5a7a',
   irlande: '#5f9a5a', france: '#5a6fb0', belgique: '#c98b3a', luxembourg: '#8fb3d1', pays_bas: '#d9822b', etats_unis: '#3d5a80',
-  espagne: '#c9a24a', portugal: '#6f9a6a', andorre: '#9a7a5a', suisse: '#b84a4a', monaco: '#b06a8a', vatican: '#d8c06a', italie: '#4f8a6a',
+  espagne: '#c9a24a', portugal: '#6f9a6a', andorre: '#9a7a5a', suisse: '#b84a4a', monaco: '#b06a8a', vatican: '#d8c06a', saint_marin: '#7f93c4', liechtenstein: '#4f7fb0', italie: '#4f8a6a',
   republique_sociale_italienne: '#5a5a3a', allies_occidentaux: '#3d5a80', tchecoslovaquie: '#5a7ab0', hongrie: '#7a8a4a', roumanie: '#b09a3a',
   bulgarie: '#6a9a7a', yougoslavie: '#8a5a8a', partisans_yougoslaves: '#a04a4a', albanie: '#9a3a3a', grece: '#4a8ab0', turquie: '#b04a3a',
   // fictifs (prototype)
@@ -51,7 +51,7 @@ export const LIBELLES: Record<string, string> = {
   allemagne: 'Allemagne', autriche: 'Autriche', pologne: 'Pologne',
   danemark: 'Danemark', feroe: 'autorités féroïennes', norvege: 'Norvège', suede: 'Suède', islande: 'Islande', royaume_uni: 'Royaume-Uni', couronne_britannique: 'Couronne britannique',
   irlande: 'Irlande', france: 'France', belgique: 'Belgique', luxembourg: 'Luxembourg', pays_bas: 'Pays-Bas', etats_unis: 'États-Unis', gprf: 'Gouvernement provisoire',
-  espagne: 'Espagne', portugal: 'Portugal', andorre: 'Andorre', suisse: 'Suisse', monaco: 'Monaco', vatican: 'Saint-Siège', italie: 'Italie',
+  espagne: 'Espagne', portugal: 'Portugal', andorre: 'Andorre', suisse: 'Suisse', monaco: 'Monaco', vatican: 'Saint-Siège', saint_marin: 'Saint-Marin', liechtenstein: 'Liechtenstein', italie: 'Italie',
   republique_sociale_italienne: 'République sociale italienne', allies_occidentaux: 'Alliés occidentaux', tchecoslovaquie: 'Tchécoslovaquie', hongrie: 'Hongrie',
   gouvernement_provisoire_hongrois: 'Gouvernement provisoire hongrois (Debrecen)', roumanie: 'Roumanie', bulgarie: 'Bulgarie', yougoslavie: 'Yougoslavie',
   partisans_yougoslaves: 'Partisans yougoslaves', republique_slovaque: 'État slovaque (Tiso)', albanie: 'Albanie', grece: 'Grèce', turquie: 'Turquie',

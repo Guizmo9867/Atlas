@@ -95,6 +95,12 @@ Une ligne par décision, datée. Plus récente en haut. Ce journal remplace les 
 - **Lot 2.BE intégré** (cycle 1) : 50 subdivisions de la Belgique au 01/01/1945 = 9 provinces (échelon 1) et 41 arrondissements administratifs (échelon 2), par recoupement 1939 / février 1945 / 1947 ; Eupen, Malmedy, Saint-Vith dans l'arrondissement de Verviers (droit belge). **Aucun tracé** (pas de source de 1945 à licence ouverte, R2BE-01). Réserves R2BE-01 à 06 pour la revue du groupe 1. *(Ether, intégré par Claude)*
 - Sources : 5 nouvelles (4 ok dont 2 sur captures, 1 limite), registre v1.33. *(Claude)*
 
+## 2026-10-24 (groupe 3 ouvert, Saint-Marin et Liechtenstein, suivi des pays sans tracé)
+
+- **Groupe 3 de la phase 2.x ouvert** : Danemark, Norvège, Suède, Finlande, Islande. *(décision de Guizmo)*
+- **Territoires Saint-Marin et Liechtenstein créés** (mis de côté au lot 04) : États neutres souverains au 01/01/1945, tracés OpenHistoricalMap (CC0) ajustés aux voisins (Saint-Marin = le trou déjà laissé par l'Italie ; Liechtenstein sans chevauchement avec la Suisse ni l'Autriche). Saint-Marin : les 8 castelli seront importés au cycle 2 de 2.SM ; Liechtenstein : **pas de découpage interne** (Landschaften surtout électorales). *(décision de Guizmo)*
+- **Suivi des pays sans tracé** : `docs/SUBDIVISIONS_SANS_TRACE.md` (copie `00_SUBDIVISIONS_SANS_TRACE.md`), tenu à jour par la boucle à chaque lot (pourquoi, pistes). Au 24/10 : 405 subdivisions tracées sur 802 ; Belgique, Espagne, Portugal, Royaume-Uni, Irlande, Andorre sans tracé. *(demande de Guizmo)*
+
 ## 2026-10-17 (licence suisse acceptée, groupe 2 ouvert)
 
 - **Contours suisses (2.CH, R2CH-01)** : Guizmo accepte les conditions opendata.swiss « Utilisation libre » (`terms_open` : usage commercial et non commercial autorisés, mention de la source recommandée ; texte relu par Claude sur opendata.swiss). Les **200 contours** OFS GEOSTAT G1 (25 cantons et demi-cantons, 175 districts) sont sur la carte ; OFS crédité quand même. L'outil accepte désormais `terms_open` et `terms_by` (pas les variantes « ask ») ; décision par lot dans `outils/subdivisions/decisions_guizmo.json`. *(décision de Guizmo)*
