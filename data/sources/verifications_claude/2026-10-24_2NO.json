@@ -1,0 +1,63 @@
+{
+ "lot": "2.NO",
+ "date": "2026-10-24",
+ "auteur": "Claude",
+ "methode": "Sous-agents (WebFetch seulement, sans contournement) le 24/10/2026, puis lecture par Claude des copies d'Ether (texte des PDF officiels téléchargés et pages enregistrées dans 01_lots/<lot>/preuves/) pour les passages que WebFetch n'a pas atteints.",
+ "resultats": [
+  {
+   "id": "src-ssb-annuaire1943-1945",
+   "statut": "ok",
+   "commentaire": "WebFetch : titre « Norges administrative delinger pr. 1 juli 1945 » et renvoi Svalbard p. 441. Claude, copie PDF p. 34 : « Fylker — préfectures » = 20, divisions civiles / ecclésiastiques / judiciaires séparées ; liste Østfold … Opland … Finnmark (graphie Opland)."
+  },
+  {
+   "id": "src-ssb-annuaire1942",
+   "statut": "limite",
+   "commentaire": "WebFetch en échec (erreur client) : adresse non confirmée en ligne. Claude, copie PDF d'Ether p. 31 « administrative delinger pr. 1 juli 1942 » et p. 33 liste des fylker (Opland), Jan Mayen mentionné."
+  },
+  {
+   "id": "src-ssb-juvkam1999-limites",
+   "statut": "ok",
+   "commentaire": "WebFetch : « De kommunenumrene […] ble laget i forbindelse med folketellingen i 1946 » ; « Det er usikkert i hvilken grad grensejusteringer i ubebodde områder har blitt fanget opp » ; Aker → Oslo 1.1.1948. Claude, copie p. 51 : « 1301 Bergen 111 925 1.1.1972 1201 Bergen » ; p. 88 : « 0218 Aker 0301 Oslo 1.1.1948 Akershus/Oslo »."
+  },
+  {
+   "id": "src-nasjonalarkivet-fogderier-police",
+   "statut": "limite",
+   "commentaire": "WebFetch n'a pas trouvé le passage (réponse résumée). Claude l'a lu dans la page enregistrée par Ether : « Fogdeembetene ble opphevet i løpet av perioden 1898-1919 […] overtatt av politimestrene, sorenskriverne, skattefuten og lensmennene ». À relire en ligne."
+  },
+  {
+   "id": "src-kartverket-administratif-historique",
+   "statut": "non_verifiee",
+   "commentaire": "Page du catalogue Geonorge rendue en JavaScript : WebFetch ne lit que « Kartkatalogen »."
+  },
+  {
+   "id": "src-kartverket-conditions-open-data",
+   "statut": "ok",
+   "commentaire": "WebFetch : « Kartverkets gratisprodukt er lisensierte etter Creative Commons Navngivelse 4.0 international (CC BY 4.0) » ; « Kart yngre enn 100 år er lisensiert etter […] CC BY 4.0 » ; attribution requise."
+  },
+  {
+   "id": "src-kartverket-herredskart-6539-1941",
+   "statut": "limite",
+   "commentaire": "WebFetch : « Herredskart over Sør-Norge », 1:1000000, aarstall 1941, merknad « 1931, 1941 », cartographe « Ukjent ». Licence absente de la notice (vient des conditions générales) ; base 1918 non visible dans la notice."
+  },
+  {
+   "id": "src-kartverket-herredskart-6526-1941",
+   "statut": "limite",
+   "commentaire": "WebFetch : « Herredskart over Nord-Norge », 1:1000000, 1941, « 1931, 1941 », cartographe « Ukjent ». Même limite que 6539."
+  },
+  {
+   "id": "src-kartverket-amtskart-wms",
+   "statut": "non_verifiee",
+   "commentaire": "Page du catalogue Geonorge rendue en JavaScript : rien de lisible par WebFetch."
+  },
+  {
+   "id": "src-ssb-geodata-historique",
+   "statut": "ok",
+   "commentaire": "WebFetch : « en egen serie med forbedret grensenøyaktighet, for perioden 1986-2019 » : rien pour 1945."
+  },
+  {
+   "id": "src-sikt-kommunedatabasen-api",
+   "statut": "ok",
+   "commentaire": "WebFetch : « data kan hentes ut for gjeldende kommunegrenser for et hvilket som helst år » (statistiques) ; aucun polygone téléchargeable annoncé."
+  }
+ ]
+}

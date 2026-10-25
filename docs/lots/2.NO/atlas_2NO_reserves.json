@@ -1,0 +1,92 @@
+{
+  "lot": "2.NO",
+  "cycle": 1,
+  "date": "2026-10-24T20:10:25.531996+00:00",
+  "reserves": [
+    {
+      "id": "R2NO-01",
+      "objet": "Contours historiques non vectorisés",
+      "cibles": "Les vingt fiches",
+      "question": "Cartes de 1941 admises sous CC BY 4.0, mais pas de géoréférencement et de vectorisation contrôlés ; versions vectorielles officielles examinées à partir de 1997.",
+      "impact": "Aucun contour ni faux lien livré. Les cartes constituent une piste concrète, pas une absence de source ni un refus de licence.",
+      "suite_possible": "Reconstruction à partir des deux feuilles, contrôle de projection, côtes, îles, enclaves Oslo/Bergen et raccords ; vérifier chaque changement après 1941.",
+      "sources": [
+        "src-kartverket-administratif-historique",
+        "src-kartverket-conditions-open-data",
+        "src-kartverket-herredskart-6539-1941",
+        "src-kartverket-herredskart-6526-1941",
+        "src-kartverket-amtskart-wms",
+        "src-ssb-geodata-historique",
+        "src-sikt-kommunedatabasen-api"
+      ],
+      "statut": "reserve_revue_groupe3_non_validee"
+    },
+    {
+      "id": "R2NO-02",
+      "objet": "Bornage temporel et limites fines",
+      "cibles": "Les vingt fiches",
+      "question": "L’annuaire de 1945 est arrêté au 1er juillet, celui de 1942 est antérieur ; la continuité retenue est une inférence documentée. La synthèse 1999 avertit de lacunes dans les ajustements non peuplés.",
+      "impact": "Liste proposée pour janvier ; pas de métrique, population ni limite postérieure introduite.",
+      "suite_possible": "Contrôler les actes localisés si un tracé doit être publié ; Aker 1948 et Bergen 1955/1972 exclus.",
+      "sources": [
+        "src-ssb-annuaire1943-1945",
+        "src-ssb-annuaire1942",
+        "src-ssb-juvkam1999-limites"
+      ],
+      "statut": "reserve_revue_groupe3_non_validee"
+    },
+    {
+      "id": "R2NO-03",
+      "objet": "Contrôle réel et systèmes spécialisés",
+      "cibles": "Finnmark et ensemble norvégien",
+      "question": "Ne pas confondre le fylke de droit avec Est-Finnmark libéré, les subdivisions de l’occupant ou les districts de police. Les anciens fogderier ne forment plus le second niveau général.",
+      "impact": "Aucun découpage militaire ou spécialisé ajouté ; surcouche canonique conservée en lecture seule.",
+      "suite_possible": "Claude : confirmer l’application de la règle de droit et du contrôle territorial existant. Pas de nouvelle couche.",
+      "sources": [
+        "src-ssb-annuaire1943-1945",
+        "src-nasjonalarkivet-fogderier-police"
+      ],
+      "statut": "reserve_revue_groupe3_non_validee"
+    },
+    {
+      "id": "R2NO-04",
+      "objet": "Chefs-lieux et codes non attestés à la date",
+      "cibles": "Les vingt fiches",
+      "question": "Les cartes distinguent villes et communes, pas les sièges administratifs de janvier 1945. Le système de numéros SSB décrit en 1999 a été établi pour 1946.",
+      "impact": "Pas de chef_lieu_propose ni de code ; les numéros 1–20 du tableau ne deviennent pas des codes historiques.",
+      "suite_possible": "Établir les sièges par annuaire administratif daté avant toute relation de chef-lieu ; aucun rôle de ville ajouté.",
+      "sources": [
+        "src-ssb-annuaire1943-1945",
+        "src-ssb-annuaire1942",
+        "src-ssb-juvkam1999-limites"
+      ],
+      "statut": "reserve_revue_groupe3_non_validee"
+    },
+    {
+      "id": "R2NO-05",
+      "objet": "Graphie historique Opland",
+      "cibles": "subdivision-no-oppland",
+      "question": "Les annuaires emploient Opland ; l’Atlas utilise Oppland comme nom de repérage actuel. Acte fixant la graphie officielle exacte non consulté.",
+      "impact": "Opland proposé dans l’état ; aucune date de renommage inventée.",
+      "suite_possible": "Claude : conserver cette distinction ou signaler une preuve officielle contraire.",
+      "sources": [
+        "src-ssb-annuaire1943-1945",
+        "src-ssb-annuaire1942"
+      ],
+      "statut": "reserve_revue_groupe3_non_validee"
+    },
+    {
+      "id": "R2NO-06",
+      "objet": "Territoires polaires différés du canon",
+      "cibles": "Svalbard, Jan Mayen ; dépendances antarctiques",
+      "question": "Les annuaires distinguent Svalbard comme unité séparée sous sysselmann. Le canon inscrit Svalbard/Jan Mayen parmi les territoires différés, sans entité parent ; aucune subdivision créée à leur place.",
+      "impact": "Couverture déclarée limitée aux vingt fylker de la Norvège continentale et de ses îles côtières. Les territoires polaires ne sont pas déclarés couverts.",
+      "suite_possible": "Conserver la distinction territoire/subdivision pour le bilan ; aucun nouveau territoire créé dans ce lot.",
+      "sources": [
+        "src-ssb-annuaire1943-1945",
+        "src-ssb-annuaire1942"
+      ],
+      "statut": "reserve_revue_groupe3_non_validee"
+    }
+  ]
+}

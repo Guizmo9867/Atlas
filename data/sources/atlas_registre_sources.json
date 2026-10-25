@@ -1,7 +1,7 @@
 {
  "metadata": {
   "nom": "registre_sources_atlas",
-  "version": "1.51",
+  "version": "1.52",
   "date_creation": "2026-09-26",
   "principe": "Une source = un source_id stable. Les fiches événements/entités peuvent référencer ce source_id et préciser l'usage/locator.",
   "statut": "registre_initial_a_completer"
@@ -54054,6 +54054,591 @@
    "archives_locales": [
     "01_lots/2.DK/preuves/lex_herred.html",
     "01_lots/2.DK/preuves/lex_herred.txt"
+   ]
+  },
+  {
+   "source_id": "src-ssb-annuaire1943-1945",
+   "niveau": "A",
+   "type_source": "publication_officielle",
+   "titre": "Statistisk årbok for Norge 1943–1945 (62.–64. årgang, publié en 1946)",
+   "institution": "Statistisk Sentralbyrå",
+   "url": "https://www.ssb.no/a/histstat/aarbok/1943-1945.pdf",
+   "date_consultation": "2026-10-24",
+   "periode_couverte": [],
+   "zones": [
+    "NO"
+   ],
+   "usages_atlas": [
+    "subdivisions_snapshot0"
+   ],
+   "cibles": [
+    "subdivision-no-ostfold",
+    "subdivision-no-akershus",
+    "subdivision-no-fylke-oslo",
+    "subdivision-no-hedmark",
+    "subdivision-no-oppland",
+    "subdivision-no-buskerud",
+    "subdivision-no-vestfold",
+    "subdivision-no-telemark",
+    "subdivision-no-aust-agder",
+    "subdivision-no-vest-agder",
+    "subdivision-no-rogaland",
+    "subdivision-no-hordaland",
+    "subdivision-no-fylke-bergen",
+    "subdivision-no-sogn-og-fjordane",
+    "subdivision-no-more-og-romsdal",
+    "subdivision-no-sor-trondelag",
+    "subdivision-no-nord-trondelag",
+    "subdivision-no-nordland",
+    "subdivision-no-troms",
+    "subdivision-no-finnmark"
+   ],
+   "locator": "pp. imprimées 1–2, PDF 33–34 ; tableau 2 au 1er juillet 1945",
+   "resume_passage": "WebFetch : titre « Norges administrative delinger pr. 1 juli 1945 » et renvoi Svalbard p. 441. Claude, copie PDF p. 34 : « Fylker — préfectures » = 20, divisions civiles / ecclésiastiques / judiciaires séparées ; liste Østfold … Opland … Finnmark (graphie Opland).",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "lu_parties_utilisees",
+    "date": "2026-10-24",
+    "mode": "Texte officiel ou métadonnées téléchargés ; captures des pages PDF et cartes citées inspectées"
+   },
+   "notes": "Proposée par Ether (lot 2.NO, cycle 1). Ce que la source prouve selon Ether : Vingt fylker, leurs noms et la distinction des divisions civiles, judiciaires et spécialisées. Situation polaire séparée.. Limite annoncée par Ether : Liste postérieure au Snapshot : recoupement avec 1942, cartes 1941 et historique 1999 ; aucune population ni superficie rétrodatée. Opland est la graphie du tableau. Relecture Claude 2026-10-25 : WebFetch : titre « Norges administrative delinger pr. 1 juli 1945 » et renvoi Svalbard p. 441. Claude, copie PDF p. 34 : « Fylker — préfectures » = 20, divisions civiles / ecclésiastiques / judiciaires séparées ; liste Østfold … Opland … Finnmark (graphie Opland).",
+   "auteur": "Statistisk Sentralbyrå",
+   "archives_locales": [
+    "01_lots/2.NO/preuves/annuaire1943_45.pdf",
+    "01_lots/2.NO/preuves/annuaire1943_45_pages.json",
+    "01_lots/2.NO/preuves/annuaire1943_45_p33.png",
+    "01_lots/2.NO/preuves/annuaire1943_45_p34.png",
+    "01_lots/2.NO/preuves/ssb_annuaire1943_45_page.html"
+   ]
+  },
+  {
+   "source_id": "src-ssb-annuaire1942",
+   "niveau": "A",
+   "type_source": "publication_officielle",
+   "titre": "Statistisk årbok for Kongeriket Norge 1942",
+   "institution": "Statistisk Sentralbyrå",
+   "url": "https://www.ssb.no/a/histstat/aarbok/1942.pdf",
+   "date_consultation": "2026-10-24",
+   "periode_couverte": [],
+   "zones": [
+    "NO"
+   ],
+   "usages_atlas": [
+    "subdivisions_snapshot0"
+   ],
+   "cibles": [
+    "subdivision-no-ostfold",
+    "subdivision-no-akershus",
+    "subdivision-no-fylke-oslo",
+    "subdivision-no-hedmark",
+    "subdivision-no-oppland",
+    "subdivision-no-buskerud",
+    "subdivision-no-vestfold",
+    "subdivision-no-telemark",
+    "subdivision-no-aust-agder",
+    "subdivision-no-vest-agder",
+    "subdivision-no-rogaland",
+    "subdivision-no-hordaland",
+    "subdivision-no-fylke-bergen",
+    "subdivision-no-sogn-og-fjordane",
+    "subdivision-no-more-og-romsdal",
+    "subdivision-no-sor-trondelag",
+    "subdivision-no-nord-trondelag",
+    "subdivision-no-nordland",
+    "subdivision-no-troms",
+    "subdivision-no-finnmark"
+   ],
+   "locator": "p. 1 tableau 1 au 1er juillet 1942 (PDF 31) ; p. 3 tableaux 3–4 (PDF 33)",
+   "resume_passage": "WebFetch en échec (erreur client) : adresse non confirmée en ligne. Claude, copie PDF d'Ether p. 31 « administrative delinger pr. 1 juli 1942 » et p. 33 liste des fylker (Opland), Jan Mayen mentionné.",
+   "archive_locale": null,
+   "verification_claude": "limite",
+   "verification_ether": {
+    "statut": "lu_parties_utilisees",
+    "date": "2026-10-24",
+    "mode": "Texte officiel ou métadonnées téléchargés ; captures des pages PDF et cartes citées inspectées"
+   },
+   "notes": "Proposée par Ether (lot 2.NO, cycle 1). Ce que la source prouve selon Ether : Vingt fylker avant le Snapshot ; noms dans les tableaux publiés en 1942 et distinction de Svalbard/Jan Mayen.. Limite annoncée par Ether : Les tableaux de p. 3 donnent des populations antérieures, notamment 1930 : seules leurs rubriques sont comparées, sans prétendre qu’elles datent toutes les limites de 1942. Relecture Claude 2026-10-25 : WebFetch en échec (erreur client) : adresse non confirmée en ligne. Claude, copie PDF d'Ether p. 31 « administrative delinger pr. 1 juli 1942 » et p. 33 liste des fylker (Opland), Jan Mayen mentionné.",
+   "auteur": "Statistisk Sentralbyrå",
+   "archives_locales": [
+    "01_lots/2.NO/preuves/annuaire1942.pdf",
+    "01_lots/2.NO/preuves/annuaire1942_pages.json",
+    "01_lots/2.NO/preuves/annuaire1942_p31.png",
+    "01_lots/2.NO/preuves/annuaire1942_p33.png"
+   ]
+  },
+  {
+   "source_id": "src-ssb-juvkam1999-limites",
+   "niveau": "A",
+   "type_source": "publication_officielle",
+   "titre": "Historisk oversikt over endringer i kommune- og fylkesinndelingen — Rapporter 99/13",
+   "institution": "Dag Juvkam ; Statistisk sentralbyrå",
+   "url": "https://www.ssb.no/a/publikasjoner/pdf/rapp_9913/rapp_9913.pdf",
+   "date_consultation": "2026-10-24",
+   "periode_couverte": [],
+   "zones": [
+    "NO"
+   ],
+   "usages_atlas": [
+    "subdivisions_snapshot0"
+   ],
+   "cibles": [
+    "subdivision-no-ostfold",
+    "subdivision-no-akershus",
+    "subdivision-no-fylke-oslo",
+    "subdivision-no-hedmark",
+    "subdivision-no-oppland",
+    "subdivision-no-buskerud",
+    "subdivision-no-vestfold",
+    "subdivision-no-telemark",
+    "subdivision-no-aust-agder",
+    "subdivision-no-vest-agder",
+    "subdivision-no-rogaland",
+    "subdivision-no-hordaland",
+    "subdivision-no-fylke-bergen",
+    "subdivision-no-sogn-og-fjordane",
+    "subdivision-no-more-og-romsdal",
+    "subdivision-no-sor-trondelag",
+    "subdivision-no-nord-trondelag",
+    "subdivision-no-nordland",
+    "subdivision-no-troms",
+    "subdivision-no-finnmark"
+   ],
+   "locator": "pp. 7–9, 51–52, 87–89 (pagination PDF identique)",
+   "resume_passage": "WebFetch : « De kommunenumrene […] ble laget i forbindelse med folketellingen i 1946 » ; « Det er usikkert i hvilken grad grensejusteringer i ubebodde områder har blitt fanget opp » ; Aker → Oslo 1.1.1948. Claude, copie p. 51 : « 1301 Bergen 111 925 1.1.1972 1201 Bergen » ; p. 88 : « 0218 Aker 0301 Oslo 1.1.1948 Akershus/Oslo ».",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "lu_parties_utilisees",
+    "date": "2026-10-24",
+    "mode": "Texte officiel ou métadonnées téléchargés ; captures des pages PDF et cartes citées inspectées"
+   },
+   "notes": "Proposée par Ether (lot 2.NO, cycle 1). Ce que la source prouve selon Ether : Chronologie des changements : Aker–Oslo en 1948, extensions de Bergen, entrée de Bergen dans Hordaland en 1972 ; origine de la numérotation en 1946.. Limite annoncée par Ether : Synthèse rétrospective ; p. 7 signale l’incomplétude possible des ajustements de limites non peuplées. Ne remplace pas une carte au jour exact. Relecture Claude 2026-10-25 : WebFetch : « De kommunenumrene […] ble laget i forbindelse med folketellingen i 1946 » ; « Det er usikkert i hvilken grad grensejusteringer i ubebodde områder har blitt fanget opp » ; Aker → Oslo 1.1.1948. Claude, copie p. 51 : « 1301 Bergen 111 925 1.1.1972 1201 Bergen » ; p. 88 : « 0218 Aker 0301 Oslo 1.1.1948 Akershus/Oslo ».",
+   "auteur": "Dag Juvkam ; Statistisk sentralbyrå",
+   "archives_locales": [
+    "01_lots/2.NO/preuves/historique_limites1999.pdf",
+    "01_lots/2.NO/preuves/historique_limites1999_pages.json",
+    "01_lots/2.NO/preuves/historique_limites1999_p8.png",
+    "01_lots/2.NO/preuves/historique_limites1999_p51.png",
+    "01_lots/2.NO/preuves/historique_limites1999_p52.png",
+    "01_lots/2.NO/preuves/historique_limites1999_p87.png",
+    "01_lots/2.NO/preuves/historique_limites1999_p88.png",
+    "01_lots/2.NO/preuves/historique_limites1999_p89.png"
+   ]
+  },
+  {
+   "source_id": "src-nasjonalarkivet-fogderier-police",
+   "niveau": "A",
+   "type_source": "guide_archives",
+   "titre": "Skeiv historie – Politiarkiver : histoire des organismes producteurs",
+   "institution": "Nasjonalarkivet",
+   "url": "https://www.nasjonalarkivet.no/veiledere/politiarkiver/",
+   "date_consultation": "2026-10-24",
+   "periode_couverte": [],
+   "zones": [
+    "NO"
+   ],
+   "usages_atlas": [
+    "subdivisions_snapshot0"
+   ],
+   "cibles": [
+    "subdivision-no-ostfold",
+    "subdivision-no-akershus",
+    "subdivision-no-fylke-oslo",
+    "subdivision-no-hedmark",
+    "subdivision-no-oppland",
+    "subdivision-no-buskerud",
+    "subdivision-no-vestfold",
+    "subdivision-no-telemark",
+    "subdivision-no-aust-agder",
+    "subdivision-no-vest-agder",
+    "subdivision-no-rogaland",
+    "subdivision-no-hordaland",
+    "subdivision-no-fylke-bergen",
+    "subdivision-no-sogn-og-fjordane",
+    "subdivision-no-more-og-romsdal",
+    "subdivision-no-sor-trondelag",
+    "subdivision-no-nord-trondelag",
+    "subdivision-no-nordland",
+    "subdivision-no-troms",
+    "subdivision-no-finnmark"
+   ],
+   "locator": "Section Politiarkiver (arkivskaper), sous-section Før 1972, paragraphe sur la période 1898–1919",
+   "resume_passage": "WebFetch n'a pas trouvé le passage (réponse résumée). Claude l'a lu dans la page enregistrée par Ether : « Fogdeembetene ble opphevet i løpet av perioden 1898-1919 […] overtatt av politimestrene, sorenskriverne, skattefuten og lensmennene ». À relire en ligne.",
+   "archive_locale": null,
+   "verification_claude": "limite",
+   "verification_ether": {
+    "statut": "lu_parties_utilisees",
+    "date": "2026-10-24",
+    "mode": "Texte officiel ou métadonnées téléchargés ; captures des pages PDF et cartes citées inspectées"
+   },
+   "notes": "Proposée par Ether (lot 2.NO, cycle 1). Ce que la source prouve selon Ether : Suppression des fogdeembeter achevée entre 1898 et 1919, tâches réparties entre plusieurs administrations.. Limite annoncée par Ether : Guide d’archives rétrospectif, utilisé seulement pour éviter de créer les anciens fogderier comme échelon civil général de 1945. Relecture Claude 2026-10-25 : WebFetch n'a pas trouvé le passage (réponse résumée). Claude l'a lu dans la page enregistrée par Ether : « Fogdeembetene ble opphevet i løpet av perioden 1898-1919 […] overtatt av politimestrene, sorenskriverne, skattefuten og lensmennene ». À relire en ligne.",
+   "auteur": "Nasjonalarkivet",
+   "archives_locales": [
+    "01_lots/2.NO/preuves/archives_fogderier.html",
+    "01_lots/2.NO/preuves/archives_fogderier.html.txt"
+   ]
+  },
+  {
+   "source_id": "src-kartverket-administratif-historique",
+   "niveau": "A",
+   "type_source": "catalogue_geographique",
+   "titre": "Administrative enheter — historiske versjoner",
+   "institution": "Kartverket ; géométrie issue du cadastre mis à jour par les communes",
+   "url": "https://kartkatalog.geonorge.no/metadata/uuid/9bc064e3-6c34-4c3a-8421-00290052e9c0",
+   "date_consultation": "2026-10-24",
+   "periode_couverte": [],
+   "zones": [
+    "NO"
+   ],
+   "usages_atlas": [
+    "subdivisions_snapshot0"
+   ],
+   "cibles": [
+    "subdivision-no-ostfold",
+    "subdivision-no-akershus",
+    "subdivision-no-fylke-oslo",
+    "subdivision-no-hedmark",
+    "subdivision-no-oppland",
+    "subdivision-no-buskerud",
+    "subdivision-no-vestfold",
+    "subdivision-no-telemark",
+    "subdivision-no-aust-agder",
+    "subdivision-no-vest-agder",
+    "subdivision-no-rogaland",
+    "subdivision-no-hordaland",
+    "subdivision-no-fylke-bergen",
+    "subdivision-no-sogn-og-fjordane",
+    "subdivision-no-more-og-romsdal",
+    "subdivision-no-sor-trondelag",
+    "subdivision-no-nord-trondelag",
+    "subdivision-no-nordland",
+    "subdivision-no-troms",
+    "subdivision-no-finnmark"
+   ],
+   "locator": "API getdata, Abstract, Constraints, SerieDatasets ; WMS GetCapabilities",
+   "resume_passage": "",
+   "archive_locale": null,
+   "verification_claude": "non_verifiee",
+   "verification_ether": {
+    "statut": "lu_parties_utilisees",
+    "date": "2026-10-24",
+    "mode": "Texte officiel ou métadonnées téléchargés ; captures des pages PDF et cartes citées inspectées"
+   },
+   "notes": "Proposée par Ether (lot 2.NO, cycle 1). Ce que la source prouve selon Ether : Audit des versions numériques effectivement cataloguées et de leur licence.. Limite annoncée par Ether : 35 notices associées, millésimes 1997 à 2025, aucun 1945 dans cette réponse. Données non téléchargées ni utilisées comme contours 1945 ; CC BY 4.0 acceptée. Relecture Claude 2026-10-25 : Page du catalogue Geonorge rendue en JavaScript : WebFetch ne lit que « Kartkatalogen ».",
+   "auteur": "Kartverket ; géométrie issue du cadastre mis à jour par les communes",
+   "archives_locales": [
+    "01_lots/2.NO/preuves/geonorge_historique.json",
+    "01_lots/2.NO/preuves/geonorge_wms.xml"
+   ],
+   "licence": "CC BY 4.0"
+  },
+  {
+   "source_id": "src-kartverket-conditions-open-data",
+   "niveau": "A",
+   "type_source": "conditions_reutilisation",
+   "titre": "Vilkår for bruk av Kartverkets opne data",
+   "institution": "Kartverket",
+   "url": "https://www.kartverket.no/api-og-data/vilkar-for-bruk",
+   "date_consultation": "2026-10-24",
+   "periode_couverte": [],
+   "zones": [
+    "NO"
+   ],
+   "usages_atlas": [
+    "subdivisions_snapshot0"
+   ],
+   "cibles": [
+    "subdivision-no-ostfold",
+    "subdivision-no-akershus",
+    "subdivision-no-fylke-oslo",
+    "subdivision-no-hedmark",
+    "subdivision-no-oppland",
+    "subdivision-no-buskerud",
+    "subdivision-no-vestfold",
+    "subdivision-no-telemark",
+    "subdivision-no-aust-agder",
+    "subdivision-no-vest-agder",
+    "subdivision-no-rogaland",
+    "subdivision-no-hordaland",
+    "subdivision-no-fylke-bergen",
+    "subdivision-no-sogn-og-fjordane",
+    "subdivision-no-more-og-romsdal",
+    "subdivision-no-sor-trondelag",
+    "subdivision-no-nord-trondelag",
+    "subdivision-no-nordland",
+    "subdivision-no-troms",
+    "subdivision-no-finnmark"
+   ],
+   "locator": "Sections Lisens et Historiske kart",
+   "resume_passage": "WebFetch : « Kartverkets gratisprodukt er lisensierte etter Creative Commons Navngivelse 4.0 international (CC BY 4.0) » ; « Kart yngre enn 100 år er lisensiert etter […] CC BY 4.0 » ; attribution requise.",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "lu_parties_utilisees",
+    "date": "2026-10-24",
+    "mode": "Texte officiel ou métadonnées téléchargés ; captures des pages PDF et cartes citées inspectées"
+   },
+   "notes": "Proposée par Ether (lot 2.NO, cycle 1). Ce que la source prouve selon Ether : Conditions de réutilisation des données et des cartes historiques ; attribution requise.. Limite annoncée par Ether : CC BY 4.0 pour les cartes de moins de cent ans ; les cartes plus anciennes sont considérées libres par Kartverket. Respecter aussi les auteurs d’origine et les éventuelles données externes. Relecture Claude 2026-10-25 : WebFetch : « Kartverkets gratisprodukt er lisensierte etter Creative Commons Navngivelse 4.0 international (CC BY 4.0) » ; « Kart yngre enn 100 år er lisensiert etter […] CC BY 4.0 » ; attribution requise.",
+   "auteur": "Kartverket",
+   "archives_locales": [
+    "01_lots/2.NO/preuves/kartverket_conditions.html",
+    "01_lots/2.NO/preuves/kartverket_conditions.html.txt"
+   ],
+   "licence": "CC BY 4.0"
+  },
+  {
+   "source_id": "src-kartverket-herredskart-6539-1941",
+   "niveau": "A",
+   "type_source": "carte_historique",
+   "titre": "Herredskart over Sør-Norge — base 1918, mise à jour 1941",
+   "institution": "Norges Geografiske Opmaaling ; conservation et diffusion Kartverket",
+   "url": "https://ws.geonorge.no/historiske-kart/v3/publiserte-kart/6539",
+   "date_consultation": "2026-10-24",
+   "periode_couverte": [],
+   "zones": [
+    "NO"
+   ],
+   "usages_atlas": [
+    "subdivisions_snapshot0"
+   ],
+   "cibles": [
+    "subdivision-no-ostfold",
+    "subdivision-no-akershus",
+    "subdivision-no-fylke-oslo",
+    "subdivision-no-hedmark",
+    "subdivision-no-oppland",
+    "subdivision-no-buskerud",
+    "subdivision-no-vestfold",
+    "subdivision-no-telemark",
+    "subdivision-no-aust-agder",
+    "subdivision-no-vest-agder",
+    "subdivision-no-rogaland",
+    "subdivision-no-hordaland",
+    "subdivision-no-fylke-bergen",
+    "subdivision-no-sogn-og-fjordane",
+    "subdivision-no-more-og-romsdal",
+    "subdivision-no-sor-trondelag",
+    "subdivision-no-nord-trondelag"
+   ],
+   "locator": "Carte entière, légende, titre 1918 et mention Ajourført 1941 en marge basse ; notice id 6539",
+   "resume_passage": "WebFetch : « Herredskart over Sør-Norge », 1:1000000, aarstall 1941, merknad « 1931, 1941 », cartographe « Ukjent ». Licence absente de la notice (vient des conditions générales) ; base 1918 non visible dans la notice.",
+   "archive_locale": null,
+   "verification_claude": "limite",
+   "verification_ether": {
+    "statut": "lu_parties_utilisees",
+    "date": "2026-10-24",
+    "mode": "Texte officiel ou métadonnées téléchargés ; captures des pages PDF et cartes citées inspectées"
+   },
+   "notes": "Proposée par Ether (lot 2.NO, cycle 1). Ce que la source prouve selon Ether : Position relative des fylker et piste de reconstruction des limites historiques.. Limite annoncée par Ether : Image raster au 1:1 000 000, pas un polygone EPSG:4326. Mention 1931, 1941 dans la notice ; cartographe individuel indiqué inconnu. La projection, les limites fines et le raccord des deux feuilles restent à contrôler avant vectorisation. Relecture Claude 2026-10-25 : WebFetch : « Herredskart over Sør-Norge », 1:1000000, aarstall 1941, merknad « 1931, 1941 », cartographe « Ukjent ». Licence absente de la notice (vient des conditions générales) ; base 1918 non visible dans la notice.",
+   "auteur": "Norges Geografiske Opmaaling ; conservation et diffusion Kartverket",
+   "archives_locales": [
+    "01_lots/2.NO/preuves/histkart_admin1945.json",
+    "01_lots/2.NO/preuves/ether_provenance_cartes1941.json",
+    "01_lots/2.NO/preuves/carte1941_6539.jpg"
+   ],
+   "licence": "CC BY 4.0",
+   "attribution": "Kartverket (Norges Geografiske Opmaaling), Herredskart over Sør-Norge, 1918, mis à jour 1941, 1:1 000 000 ; cartographe individuel non identifié dans la notice."
+  },
+  {
+   "source_id": "src-kartverket-herredskart-6526-1941",
+   "niveau": "A",
+   "type_source": "carte_historique",
+   "titre": "Herredskart over Nord-Norge — base 1918, mise à jour 1941",
+   "institution": "Norges Geografiske Opmaaling ; conservation et diffusion Kartverket",
+   "url": "https://ws.geonorge.no/historiske-kart/v3/publiserte-kart/6526",
+   "date_consultation": "2026-10-24",
+   "periode_couverte": [],
+   "zones": [
+    "NO"
+   ],
+   "usages_atlas": [
+    "subdivisions_snapshot0"
+   ],
+   "cibles": [
+    "subdivision-no-nordland",
+    "subdivision-no-troms",
+    "subdivision-no-finnmark"
+   ],
+   "locator": "Carte entière, légende, titre 1918 et mention Ajourført 1941 en marge basse ; notice id 6526",
+   "resume_passage": "WebFetch : « Herredskart over Nord-Norge », 1:1000000, 1941, « 1931, 1941 », cartographe « Ukjent ». Même limite que 6539.",
+   "archive_locale": null,
+   "verification_claude": "limite",
+   "verification_ether": {
+    "statut": "lu_parties_utilisees",
+    "date": "2026-10-24",
+    "mode": "Texte officiel ou métadonnées téléchargés ; captures des pages PDF et cartes citées inspectées"
+   },
+   "notes": "Proposée par Ether (lot 2.NO, cycle 1). Ce que la source prouve selon Ether : Position relative des fylker et piste de reconstruction des limites historiques.. Limite annoncée par Ether : Image raster au 1:1 000 000, pas un polygone EPSG:4326. Mention 1931, 1941 dans la notice ; cartographe individuel indiqué inconnu. La projection, les limites fines et le raccord des deux feuilles restent à contrôler avant vectorisation. Relecture Claude 2026-10-25 : WebFetch : « Herredskart over Nord-Norge », 1:1000000, 1941, « 1931, 1941 », cartographe « Ukjent ». Même limite que 6539.",
+   "auteur": "Norges Geografiske Opmaaling ; conservation et diffusion Kartverket",
+   "archives_locales": [
+    "01_lots/2.NO/preuves/histkart_admin1945.json",
+    "01_lots/2.NO/preuves/ether_provenance_cartes1941.json",
+    "01_lots/2.NO/preuves/carte1941_6526.jpg"
+   ],
+   "licence": "CC BY 4.0",
+   "attribution": "Kartverket (Norges Geografiske Opmaaling), Herredskart over Nord-Norge, 1918, mis à jour 1941, 1:1 000 000 ; cartographe individuel non identifié dans la notice."
+  },
+  {
+   "source_id": "src-kartverket-amtskart-wms",
+   "niveau": "A",
+   "type_source": "catalogue_geographique",
+   "titre": "Historiske kart WMS — amtskart géoréférencés",
+   "institution": "Kartverket ; série historique de Norges Geografiske Oppmåling",
+   "url": "https://kartkatalog.geonorge.no/Metadata/uuid/f0ef87bf-91a1-4f00-b864-9655d3d7c1de",
+   "date_consultation": "2026-10-24",
+   "periode_couverte": [],
+   "zones": [
+    "NO"
+   ],
+   "usages_atlas": [
+    "subdivisions_snapshot0"
+   ],
+   "cibles": [
+    "subdivision-no-ostfold",
+    "subdivision-no-akershus",
+    "subdivision-no-fylke-oslo",
+    "subdivision-no-hedmark",
+    "subdivision-no-oppland",
+    "subdivision-no-buskerud",
+    "subdivision-no-vestfold",
+    "subdivision-no-telemark",
+    "subdivision-no-aust-agder",
+    "subdivision-no-vest-agder",
+    "subdivision-no-rogaland",
+    "subdivision-no-hordaland",
+    "subdivision-no-fylke-bergen",
+    "subdivision-no-sogn-og-fjordane",
+    "subdivision-no-more-og-romsdal",
+    "subdivision-no-sor-trondelag",
+    "subdivision-no-nord-trondelag",
+    "subdivision-no-nordland",
+    "subdivision-no-troms",
+    "subdivision-no-finnmark"
+   ],
+   "locator": "Abstract, Constraints, DistributionDetails ; capacités WMS, couches georefererte et amt1",
+   "resume_passage": "",
+   "archive_locale": null,
+   "verification_claude": "non_verifiee",
+   "verification_ether": {
+    "statut": "lu_parties_utilisees",
+    "date": "2026-10-24",
+    "mode": "Texte officiel ou métadonnées téléchargés ; captures des pages PDF et cartes citées inspectées"
+   },
+   "notes": "Proposée par Ether (lot 2.NO, cycle 1). Ce que la source prouve selon Ether : Existence d’un service de cartes anciennes géoréférencées et licence admise.. Limite annoncée par Ether : Série commencée en 1826, terminée avant la production des feuilles du Nordland ; ce n’est pas une couche vectorielle des vingt fylker de 1945. Aucun tracé extrait. Relecture Claude 2026-10-25 : Page du catalogue Geonorge rendue en JavaScript : rien de lisible par WebFetch.",
+   "auteur": "Kartverket ; série historique de Norges Geografiske Oppmåling",
+   "archives_locales": [
+    "01_lots/2.NO/preuves/geonorge_amtskart.json",
+    "01_lots/2.NO/preuves/amtskart_capabilities.xml"
+   ],
+   "licence": "CC BY 4.0"
+  },
+  {
+   "source_id": "src-ssb-geodata-historique",
+   "niveau": "A",
+   "type_source": "documentation_geographique",
+   "titre": "Geodata — données administratives et reconstructions historiques",
+   "institution": "Statistisk sentralbyrå",
+   "url": "https://www.ssb.no/natur-og-miljo/geodata",
+   "date_consultation": "2026-10-24",
+   "periode_couverte": [],
+   "zones": [
+    "NO"
+   ],
+   "usages_atlas": [
+    "subdivisions_snapshot0"
+   ],
+   "cibles": [
+    "subdivision-no-ostfold",
+    "subdivision-no-akershus",
+    "subdivision-no-fylke-oslo",
+    "subdivision-no-hedmark",
+    "subdivision-no-oppland",
+    "subdivision-no-buskerud",
+    "subdivision-no-vestfold",
+    "subdivision-no-telemark",
+    "subdivision-no-aust-agder",
+    "subdivision-no-vest-agder",
+    "subdivision-no-rogaland",
+    "subdivision-no-hordaland",
+    "subdivision-no-fylke-bergen",
+    "subdivision-no-sogn-og-fjordane",
+    "subdivision-no-more-og-romsdal",
+    "subdivision-no-sor-trondelag",
+    "subdivision-no-nord-trondelag",
+    "subdivision-no-nordland",
+    "subdivision-no-troms",
+    "subdivision-no-finnmark"
+   ],
+   "locator": "Rubrique des communes historiques 1986–2019, méthode à partir de la base 2019",
+   "resume_passage": "WebFetch : « en egen serie med forbedret grensenøyaktighet, for perioden 1986-2019 » : rien pour 1945.",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "lu_parties_utilisees",
+    "date": "2026-10-24",
+    "mode": "Texte officiel ou métadonnées téléchargés ; captures des pages PDF et cartes citées inspectées"
+   },
+   "notes": "Proposée par Ether (lot 2.NO, cycle 1). Ce que la source prouve selon Ether : Bornage de l’offre de limites communales historiques examinée.. Limite annoncée par Ether : Offre consultée trop récente pour fournir directement le Snapshot 1945. Aucune absence générale de données historiques n’en est déduite. Relecture Claude 2026-10-25 : WebFetch : « en egen serie med forbedret grensenøyaktighet, for perioden 1986-2019 » : rien pour 1945.",
+   "auteur": "Statistisk sentralbyrå",
+   "archives_locales": [
+    "01_lots/2.NO/preuves/ssb_geodata.html",
+    "01_lots/2.NO/preuves/ssb_geodata.html.txt"
+   ]
+  },
+  {
+   "source_id": "src-sikt-kommunedatabasen-api",
+   "niveau": "A",
+   "type_source": "documentation_service",
+   "titre": "Kommunedatabasen — présentation et API",
+   "institution": "Sikt",
+   "url": "https://kommunedatabasen.sikt.no/about",
+   "date_consultation": "2026-10-24",
+   "periode_couverte": [],
+   "zones": [
+    "NO"
+   ],
+   "usages_atlas": [
+    "subdivisions_snapshot0"
+   ],
+   "cibles": [
+    "subdivision-no-ostfold",
+    "subdivision-no-akershus",
+    "subdivision-no-fylke-oslo",
+    "subdivision-no-hedmark",
+    "subdivision-no-oppland",
+    "subdivision-no-buskerud",
+    "subdivision-no-vestfold",
+    "subdivision-no-telemark",
+    "subdivision-no-aust-agder",
+    "subdivision-no-vest-agder",
+    "subdivision-no-rogaland",
+    "subdivision-no-hordaland",
+    "subdivision-no-fylke-bergen",
+    "subdivision-no-sogn-og-fjordane",
+    "subdivision-no-more-og-romsdal",
+    "subdivision-no-sor-trondelag",
+    "subdivision-no-nord-trondelag",
+    "subdivision-no-nordland",
+    "subdivision-no-troms",
+    "subdivision-no-finnmark"
+   ],
+   "locator": "Présentation, puis https://kommunedatabasen.sikt.no/api : variable, history et calculation",
+   "resume_passage": "WebFetch : « data kan hentes ut for gjeldende kommunegrenser for et hvilket som helst år » (statistiques) ; aucun polygone téléchargeable annoncé.",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "lu_parties_utilisees",
+    "date": "2026-10-24",
+    "mode": "Texte officiel ou métadonnées téléchargés ; captures des pages PDF et cartes citées inspectées"
+   },
+   "notes": "Proposée par Ether (lot 2.NO, cycle 1). Ce que la source prouve selon Ether : Vérification du service public et de ses possibilités de conversion statistique selon les années.. Limite annoncée par Ether : Service statistique : aucun téléchargement de polygones 1945 ni licence propre à ces géométries établi dans les pages examinées. Ne pas confondre conversion de statistiques et contours. Relecture Claude 2026-10-25 : WebFetch : « data kan hentes ut for gjeldende kommunegrenser for et hvilket som helst år » (statistiques) ; aucun polygone téléchargeable annoncé.",
+   "auteur": "Sikt",
+   "archives_locales": [
+    "01_lots/2.NO/preuves/sikt_about.html",
+    "01_lots/2.NO/preuves/sikt_about.html.txt",
+    "01_lots/2.NO/preuves/sikt_api.html",
+    "01_lots/2.NO/preuves/sikt_api.html.txt"
    ]
   }
  ]

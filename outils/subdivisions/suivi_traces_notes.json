@@ -64,6 +64,10 @@
   "2.DK": {
    "pourquoi": "piste DigDag (Rigsarkivet, CC BY 4.0) mais accès au service en échec (jeton, certificat expiré, disponibilité réduite), R2DK-01 ; Féroé : carte 2011 sous conditions propres, pas CC BY, R2DK-02.",
    "pistes": "DigDag « Amt og Region » (polygones historiques calculés depuis les ejerlav) via un accès avec jeton Dataforsyningen ; à transformer en EPSG:4326."
+  },
+  "2.NO": {
+   "pourquoi": "cartes historiques Herredskart (Kartverket, 1918 mises à jour 1941, CC BY 4.0) disponibles, mais non géoréférencées ni vectorisées ; versions vectorielles officielles seulement depuis 1997 (R2NO-01).",
+   "pistes": "géoréférencer et vectoriser les feuilles 6539 (Sør-Norge) et 6526 (Nord-Norge) : https://ws.geonorge.no/historiske-kart/v3/publiserte-kart/6539 et …/6526 ; crédit Kartverket."
   }
  }
 }

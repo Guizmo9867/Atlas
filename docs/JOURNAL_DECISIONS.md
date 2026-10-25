@@ -2,6 +2,12 @@
 
 Une ligne par décision, datée. Plus récente en haut. Ce journal remplace les versions éparpillées dans les conversations : si ce n'est pas ici, ce n'est pas décidé.
 
+## 2026-10-25 (matin : 2.NO intégré, groupe 3, boucle automatique)
+
+- **Lot 2.NO intégré** (cycle 1, groupe 3) : **20 fylker** de droit sous `territoire-no-norvege`, un seul échelon, Oslo et Bergen à part ; état « Opland » (annuaires), fiche « Oppland » ; liste de l'annuaire SSB au 01/07/1945, continuité au 01/01/1945 inférée (R2NO-02). *(Ether, intégré par Claude)*
+- Aucun tracé (Herredskart Kartverket 1941, CC BY 4.0, non vectorisés, R2NO-01), aucun chef-lieu ni code ; Svalbard / Jan Mayen sans territoire parent, sans fiche (R2NO-06). Sources : 11 ajoutées (5 ok, 4 limite, 2 non vérifiées), registre v1.52. Réserves R2NO-01 à 06 gardées. *(Claude)*
+- 2.DK envoyé sur GitHub (commit `3c2fcee`) après mise de côté, sans suppression, de verrous de git restés depuis le 24/10 au soir. *(Claude)*
+
 ## 2026-10-24 (nuit : 2.DK intégré, groupe 3, boucle automatique)
 
 - **Lot 2.DK intégré** (cycle 1, groupe 3) : **30 subdivisions**. Danemark : Copenhague + 22 amter d'État (Overøvrighedskredse ; Aarhus et Skanderborg séparés le 01/04/1942, loi n° 530 du 22/12/1941), un seul échelon ; les districts de conseils ne sont pas des amter. Féroé sous `territoire-dk-feroe` (préfixe `fo`) : Færø Amt et six sysler (échelon 2), Tórshavn dans Strømø. *(Ether, intégré par Claude)*

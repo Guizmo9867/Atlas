@@ -1,0 +1,1152 @@
+{
+ "note": "Copie fidèle de 01_lots/2.NO/atlas_2NO_subdivisions_proposees.json (Ether, cycle 1), sous la clé proposition_ether pour que le validateur ne la lise pas comme un lot du corpus (entités intégrées : data/snapshot0/subdivisions_2-NO.json).",
+ "proposition_ether": {
+  "metadata_lot": {
+   "lot": "2.NO",
+   "cycle": 1,
+   "etat_1945": "Norvège",
+   "date_historique": "1945-01-01T00:00:00",
+   "auteur": "Ether",
+   "date_preparation": "2026-10-24T20:10:25.531996+00:00",
+   "nature": "proposition, non intégrée",
+   "perimetre": "20 fylker de droit de Norvège continentale et îles côtières ; territoires polaires différés explicitement",
+   "echelon_2": "non retenu : communes hors granularité et districts spécialisés distincts",
+   "geometries": "aucune ; cartes raster historiques identifiées et conservées",
+   "source_parent": "data/snapshot0/lot03_nord_ouest_europe.json"
+  },
+  "entites": [
+   {
+    "entite_id": "subdivision-no-ostfold",
+    "type_entite": "subdivision",
+    "nom": "Østfold",
+    "nom_court": "Østfold",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Østfold",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "fylke",
+       "parent_id": "territoire-no-norvege",
+       "souverainete_id": "norvege",
+       "note": "Découpage de droit ; le contrôle réel relève des territoires et fronts existants. La date est le début de la fenêtre observée, pas la création du fylke. Liste rapprochée de sources avant/après le Snapshot ; aucun chiffre postérieur rétrodaté.",
+       "reserves": [
+        "R2NO-01",
+        "R2NO-02",
+        "R2NO-04"
+       ]
+      },
+      "sources": [
+       {
+        "source_id": "src-ssb-annuaire1943-1945",
+        "locator": "tableau 2 p. 2 (PDF 34), ligne 1 : Østfold",
+        "usage": "Nom et rang dans la liste des fylker au 1er juillet 1945, recoupés pour le Snapshot."
+       },
+       {
+        "source_id": "src-ssb-annuaire1942",
+        "locator": "p. 1 (PDF 31), tableau 1 ; p. 3 (PDF 33), rubriques des tableaux 3–4",
+        "usage": "Vingt fylker attestés avant 1945 et rubrique homonyme ; aucune population importée."
+       },
+       {
+        "source_id": "src-ssb-juvkam1999-limites",
+        "locator": "pp. 7–9, 51–52 et 87–89",
+        "usage": "Contrôle des anachronismes et des limites de la reconstruction."
+       },
+       {
+        "source_id": "src-kartverket-herredskart-6539-1941",
+        "locator": "Feuille sud, inscription du fylke Østfold",
+        "usage": "Repérage géographique seulement ; aucune géométrie dérivée."
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-no-akershus",
+    "type_entite": "subdivision",
+    "nom": "Akershus",
+    "nom_court": "Akershus",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Akershus",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "fylke",
+       "parent_id": "territoire-no-norvege",
+       "souverainete_id": "norvege",
+       "note": "Découpage de droit ; le contrôle réel relève des territoires et fronts existants. La date est le début de la fenêtre observée, pas la création du fylke. Liste rapprochée de sources avant/après le Snapshot ; aucun chiffre postérieur rétrodaté. Aker appartient encore à Akershus ; son rattachement à Oslo n’intervient que le 01/01/1948.",
+       "reserves": [
+        "R2NO-01",
+        "R2NO-02",
+        "R2NO-04"
+       ]
+      },
+      "sources": [
+       {
+        "source_id": "src-ssb-annuaire1943-1945",
+        "locator": "tableau 2 p. 2 (PDF 34), ligne 2 : Akershus",
+        "usage": "Nom et rang dans la liste des fylker au 1er juillet 1945, recoupés pour le Snapshot."
+       },
+       {
+        "source_id": "src-ssb-annuaire1942",
+        "locator": "p. 1 (PDF 31), tableau 1 ; p. 3 (PDF 33), rubriques des tableaux 3–4",
+        "usage": "Vingt fylker attestés avant 1945 et rubrique homonyme ; aucune population importée."
+       },
+       {
+        "source_id": "src-ssb-juvkam1999-limites",
+        "locator": "pp. 7–9, 51–52 et 87–89",
+        "usage": "Contrôle des anachronismes et des limites de la reconstruction."
+       },
+       {
+        "source_id": "src-kartverket-herredskart-6539-1941",
+        "locator": "Feuille sud, inscription du fylke Akershus",
+        "usage": "Repérage géographique seulement ; aucune géométrie dérivée."
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-no-fylke-oslo",
+    "type_entite": "subdivision",
+    "nom": "Oslo — fylke",
+    "nom_court": "Oslo",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Oslo",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "fylke",
+       "parent_id": "territoire-no-norvege",
+       "souverainete_id": "norvege",
+       "note": "Découpage de droit ; le contrôle réel relève des territoires et fronts existants. La date est le début de la fenêtre observée, pas la création du fylke. Liste rapprochée de sources avant/après le Snapshot ; aucun chiffre postérieur rétrodaté. Aker appartient encore à Akershus ; son rattachement à Oslo n’intervient que le 01/01/1948.",
+       "reserves": [
+        "R2NO-01",
+        "R2NO-02",
+        "R2NO-04"
+       ]
+      },
+      "sources": [
+       {
+        "source_id": "src-ssb-annuaire1943-1945",
+        "locator": "tableau 2 p. 2 (PDF 34), ligne 3 : Oslo",
+        "usage": "Nom et rang dans la liste des fylker au 1er juillet 1945, recoupés pour le Snapshot."
+       },
+       {
+        "source_id": "src-ssb-annuaire1942",
+        "locator": "p. 1 (PDF 31), tableau 1 ; p. 3 (PDF 33), rubriques des tableaux 3–4",
+        "usage": "Vingt fylker attestés avant 1945 et rubrique homonyme ; aucune population importée."
+       },
+       {
+        "source_id": "src-ssb-juvkam1999-limites",
+        "locator": "pp. 7–9, 51–52 et 87–89",
+        "usage": "Contrôle des anachronismes et des limites de la reconstruction."
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-no-hedmark",
+    "type_entite": "subdivision",
+    "nom": "Hedmark",
+    "nom_court": "Hedmark",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Hedmark",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "fylke",
+       "parent_id": "territoire-no-norvege",
+       "souverainete_id": "norvege",
+       "note": "Découpage de droit ; le contrôle réel relève des territoires et fronts existants. La date est le début de la fenêtre observée, pas la création du fylke. Liste rapprochée de sources avant/après le Snapshot ; aucun chiffre postérieur rétrodaté.",
+       "reserves": [
+        "R2NO-01",
+        "R2NO-02",
+        "R2NO-04"
+       ]
+      },
+      "sources": [
+       {
+        "source_id": "src-ssb-annuaire1943-1945",
+        "locator": "tableau 2 p. 2 (PDF 34), ligne 4 : Hedmark",
+        "usage": "Nom et rang dans la liste des fylker au 1er juillet 1945, recoupés pour le Snapshot."
+       },
+       {
+        "source_id": "src-ssb-annuaire1942",
+        "locator": "p. 1 (PDF 31), tableau 1 ; p. 3 (PDF 33), rubriques des tableaux 3–4",
+        "usage": "Vingt fylker attestés avant 1945 et rubrique homonyme ; aucune population importée."
+       },
+       {
+        "source_id": "src-ssb-juvkam1999-limites",
+        "locator": "pp. 7–9, 51–52 et 87–89",
+        "usage": "Contrôle des anachronismes et des limites de la reconstruction."
+       },
+       {
+        "source_id": "src-kartverket-herredskart-6539-1941",
+        "locator": "Feuille sud, inscription du fylke Hedmark",
+        "usage": "Repérage géographique seulement ; aucune géométrie dérivée."
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-no-oppland",
+    "type_entite": "subdivision",
+    "nom": "Oppland",
+    "nom_court": "Oppland",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Opland",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "fylke",
+       "parent_id": "territoire-no-norvege",
+       "souverainete_id": "norvege",
+       "note": "Découpage de droit ; le contrôle réel relève des territoires et fronts existants. La date est le début de la fenêtre observée, pas la création du fylke. Liste rapprochée de sources avant/après le Snapshot ; aucun chiffre postérieur rétrodaté. Graphie Opland reproduite des annuaires 1942 et 1943–1945 ; la fiche et l’ID emploient Oppland pour le repérage, sans dater ici le changement orthographique.",
+       "reserves": [
+        "R2NO-01",
+        "R2NO-02",
+        "R2NO-04",
+        "R2NO-05"
+       ]
+      },
+      "sources": [
+       {
+        "source_id": "src-ssb-annuaire1943-1945",
+        "locator": "tableau 2 p. 2 (PDF 34), ligne 5 : Opland",
+        "usage": "Nom et rang dans la liste des fylker au 1er juillet 1945, recoupés pour le Snapshot."
+       },
+       {
+        "source_id": "src-ssb-annuaire1942",
+        "locator": "p. 1 (PDF 31), tableau 1 ; p. 3 (PDF 33), rubriques des tableaux 3–4",
+        "usage": "Vingt fylker attestés avant 1945 et rubrique homonyme ; aucune population importée."
+       },
+       {
+        "source_id": "src-ssb-juvkam1999-limites",
+        "locator": "pp. 7–9, 51–52 et 87–89",
+        "usage": "Contrôle des anachronismes et des limites de la reconstruction."
+       },
+       {
+        "source_id": "src-kartverket-herredskart-6539-1941",
+        "locator": "Feuille sud, inscription du fylke Opland",
+        "usage": "Repérage géographique seulement ; aucune géométrie dérivée."
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-no-buskerud",
+    "type_entite": "subdivision",
+    "nom": "Buskerud",
+    "nom_court": "Buskerud",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Buskerud",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "fylke",
+       "parent_id": "territoire-no-norvege",
+       "souverainete_id": "norvege",
+       "note": "Découpage de droit ; le contrôle réel relève des territoires et fronts existants. La date est le début de la fenêtre observée, pas la création du fylke. Liste rapprochée de sources avant/après le Snapshot ; aucun chiffre postérieur rétrodaté.",
+       "reserves": [
+        "R2NO-01",
+        "R2NO-02",
+        "R2NO-04"
+       ]
+      },
+      "sources": [
+       {
+        "source_id": "src-ssb-annuaire1943-1945",
+        "locator": "tableau 2 p. 2 (PDF 34), ligne 6 : Buskerud",
+        "usage": "Nom et rang dans la liste des fylker au 1er juillet 1945, recoupés pour le Snapshot."
+       },
+       {
+        "source_id": "src-ssb-annuaire1942",
+        "locator": "p. 1 (PDF 31), tableau 1 ; p. 3 (PDF 33), rubriques des tableaux 3–4",
+        "usage": "Vingt fylker attestés avant 1945 et rubrique homonyme ; aucune population importée."
+       },
+       {
+        "source_id": "src-ssb-juvkam1999-limites",
+        "locator": "pp. 7–9, 51–52 et 87–89",
+        "usage": "Contrôle des anachronismes et des limites de la reconstruction."
+       },
+       {
+        "source_id": "src-kartverket-herredskart-6539-1941",
+        "locator": "Feuille sud, inscription du fylke Buskerud",
+        "usage": "Repérage géographique seulement ; aucune géométrie dérivée."
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-no-vestfold",
+    "type_entite": "subdivision",
+    "nom": "Vestfold",
+    "nom_court": "Vestfold",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Vestfold",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "fylke",
+       "parent_id": "territoire-no-norvege",
+       "souverainete_id": "norvege",
+       "note": "Découpage de droit ; le contrôle réel relève des territoires et fronts existants. La date est le début de la fenêtre observée, pas la création du fylke. Liste rapprochée de sources avant/après le Snapshot ; aucun chiffre postérieur rétrodaté.",
+       "reserves": [
+        "R2NO-01",
+        "R2NO-02",
+        "R2NO-04"
+       ]
+      },
+      "sources": [
+       {
+        "source_id": "src-ssb-annuaire1943-1945",
+        "locator": "tableau 2 p. 2 (PDF 34), ligne 7 : Vestfold",
+        "usage": "Nom et rang dans la liste des fylker au 1er juillet 1945, recoupés pour le Snapshot."
+       },
+       {
+        "source_id": "src-ssb-annuaire1942",
+        "locator": "p. 1 (PDF 31), tableau 1 ; p. 3 (PDF 33), rubriques des tableaux 3–4",
+        "usage": "Vingt fylker attestés avant 1945 et rubrique homonyme ; aucune population importée."
+       },
+       {
+        "source_id": "src-ssb-juvkam1999-limites",
+        "locator": "pp. 7–9, 51–52 et 87–89",
+        "usage": "Contrôle des anachronismes et des limites de la reconstruction."
+       },
+       {
+        "source_id": "src-kartverket-herredskart-6539-1941",
+        "locator": "Feuille sud, inscription du fylke Vestfold",
+        "usage": "Repérage géographique seulement ; aucune géométrie dérivée."
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-no-telemark",
+    "type_entite": "subdivision",
+    "nom": "Telemark",
+    "nom_court": "Telemark",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Telemark",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "fylke",
+       "parent_id": "territoire-no-norvege",
+       "souverainete_id": "norvege",
+       "note": "Découpage de droit ; le contrôle réel relève des territoires et fronts existants. La date est le début de la fenêtre observée, pas la création du fylke. Liste rapprochée de sources avant/après le Snapshot ; aucun chiffre postérieur rétrodaté.",
+       "reserves": [
+        "R2NO-01",
+        "R2NO-02",
+        "R2NO-04"
+       ]
+      },
+      "sources": [
+       {
+        "source_id": "src-ssb-annuaire1943-1945",
+        "locator": "tableau 2 p. 2 (PDF 34), ligne 8 : Telemark",
+        "usage": "Nom et rang dans la liste des fylker au 1er juillet 1945, recoupés pour le Snapshot."
+       },
+       {
+        "source_id": "src-ssb-annuaire1942",
+        "locator": "p. 1 (PDF 31), tableau 1 ; p. 3 (PDF 33), rubriques des tableaux 3–4",
+        "usage": "Vingt fylker attestés avant 1945 et rubrique homonyme ; aucune population importée."
+       },
+       {
+        "source_id": "src-ssb-juvkam1999-limites",
+        "locator": "pp. 7–9, 51–52 et 87–89",
+        "usage": "Contrôle des anachronismes et des limites de la reconstruction."
+       },
+       {
+        "source_id": "src-kartverket-herredskart-6539-1941",
+        "locator": "Feuille sud, inscription du fylke Telemark",
+        "usage": "Repérage géographique seulement ; aucune géométrie dérivée."
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-no-aust-agder",
+    "type_entite": "subdivision",
+    "nom": "Aust-Agder",
+    "nom_court": "Aust-Agder",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Aust-Agder",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "fylke",
+       "parent_id": "territoire-no-norvege",
+       "souverainete_id": "norvege",
+       "note": "Découpage de droit ; le contrôle réel relève des territoires et fronts existants. La date est le début de la fenêtre observée, pas la création du fylke. Liste rapprochée de sources avant/après le Snapshot ; aucun chiffre postérieur rétrodaté.",
+       "reserves": [
+        "R2NO-01",
+        "R2NO-02",
+        "R2NO-04"
+       ]
+      },
+      "sources": [
+       {
+        "source_id": "src-ssb-annuaire1943-1945",
+        "locator": "tableau 2 p. 2 (PDF 34), ligne 9 : Aust-Agder",
+        "usage": "Nom et rang dans la liste des fylker au 1er juillet 1945, recoupés pour le Snapshot."
+       },
+       {
+        "source_id": "src-ssb-annuaire1942",
+        "locator": "p. 1 (PDF 31), tableau 1 ; p. 3 (PDF 33), rubriques des tableaux 3–4",
+        "usage": "Vingt fylker attestés avant 1945 et rubrique homonyme ; aucune population importée."
+       },
+       {
+        "source_id": "src-ssb-juvkam1999-limites",
+        "locator": "pp. 7–9, 51–52 et 87–89",
+        "usage": "Contrôle des anachronismes et des limites de la reconstruction."
+       },
+       {
+        "source_id": "src-kartverket-herredskart-6539-1941",
+        "locator": "Feuille sud, inscription du fylke Aust-Agder",
+        "usage": "Repérage géographique seulement ; aucune géométrie dérivée."
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-no-vest-agder",
+    "type_entite": "subdivision",
+    "nom": "Vest-Agder",
+    "nom_court": "Vest-Agder",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Vest-Agder",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "fylke",
+       "parent_id": "territoire-no-norvege",
+       "souverainete_id": "norvege",
+       "note": "Découpage de droit ; le contrôle réel relève des territoires et fronts existants. La date est le début de la fenêtre observée, pas la création du fylke. Liste rapprochée de sources avant/après le Snapshot ; aucun chiffre postérieur rétrodaté.",
+       "reserves": [
+        "R2NO-01",
+        "R2NO-02",
+        "R2NO-04"
+       ]
+      },
+      "sources": [
+       {
+        "source_id": "src-ssb-annuaire1943-1945",
+        "locator": "tableau 2 p. 2 (PDF 34), ligne 10 : Vest-Agder",
+        "usage": "Nom et rang dans la liste des fylker au 1er juillet 1945, recoupés pour le Snapshot."
+       },
+       {
+        "source_id": "src-ssb-annuaire1942",
+        "locator": "p. 1 (PDF 31), tableau 1 ; p. 3 (PDF 33), rubriques des tableaux 3–4",
+        "usage": "Vingt fylker attestés avant 1945 et rubrique homonyme ; aucune population importée."
+       },
+       {
+        "source_id": "src-ssb-juvkam1999-limites",
+        "locator": "pp. 7–9, 51–52 et 87–89",
+        "usage": "Contrôle des anachronismes et des limites de la reconstruction."
+       },
+       {
+        "source_id": "src-kartverket-herredskart-6539-1941",
+        "locator": "Feuille sud, inscription du fylke Vest-Agder",
+        "usage": "Repérage géographique seulement ; aucune géométrie dérivée."
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-no-rogaland",
+    "type_entite": "subdivision",
+    "nom": "Rogaland",
+    "nom_court": "Rogaland",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Rogaland",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "fylke",
+       "parent_id": "territoire-no-norvege",
+       "souverainete_id": "norvege",
+       "note": "Découpage de droit ; le contrôle réel relève des territoires et fronts existants. La date est le début de la fenêtre observée, pas la création du fylke. Liste rapprochée de sources avant/après le Snapshot ; aucun chiffre postérieur rétrodaté.",
+       "reserves": [
+        "R2NO-01",
+        "R2NO-02",
+        "R2NO-04"
+       ]
+      },
+      "sources": [
+       {
+        "source_id": "src-ssb-annuaire1943-1945",
+        "locator": "tableau 2 p. 2 (PDF 34), ligne 11 : Rogaland",
+        "usage": "Nom et rang dans la liste des fylker au 1er juillet 1945, recoupés pour le Snapshot."
+       },
+       {
+        "source_id": "src-ssb-annuaire1942",
+        "locator": "p. 1 (PDF 31), tableau 1 ; p. 3 (PDF 33), rubriques des tableaux 3–4",
+        "usage": "Vingt fylker attestés avant 1945 et rubrique homonyme ; aucune population importée."
+       },
+       {
+        "source_id": "src-ssb-juvkam1999-limites",
+        "locator": "pp. 7–9, 51–52 et 87–89",
+        "usage": "Contrôle des anachronismes et des limites de la reconstruction."
+       },
+       {
+        "source_id": "src-kartverket-herredskart-6539-1941",
+        "locator": "Feuille sud, inscription du fylke Rogaland",
+        "usage": "Repérage géographique seulement ; aucune géométrie dérivée."
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-no-hordaland",
+    "type_entite": "subdivision",
+    "nom": "Hordaland",
+    "nom_court": "Hordaland",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Hordaland",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "fylke",
+       "parent_id": "territoire-no-norvege",
+       "souverainete_id": "norvege",
+       "note": "Découpage de droit ; le contrôle réel relève des territoires et fronts existants. La date est le début de la fenêtre observée, pas la création du fylke. Liste rapprochée de sources avant/après le Snapshot ; aucun chiffre postérieur rétrodaté. Bergen est un fylke distinct ; ni l’extension de 1955 ni le regroupement du 01/01/1972 ne sont anticipés.",
+       "reserves": [
+        "R2NO-01",
+        "R2NO-02",
+        "R2NO-04"
+       ]
+      },
+      "sources": [
+       {
+        "source_id": "src-ssb-annuaire1943-1945",
+        "locator": "tableau 2 p. 2 (PDF 34), ligne 12 : Hordaland",
+        "usage": "Nom et rang dans la liste des fylker au 1er juillet 1945, recoupés pour le Snapshot."
+       },
+       {
+        "source_id": "src-ssb-annuaire1942",
+        "locator": "p. 1 (PDF 31), tableau 1 ; p. 3 (PDF 33), rubriques des tableaux 3–4",
+        "usage": "Vingt fylker attestés avant 1945 et rubrique homonyme ; aucune population importée."
+       },
+       {
+        "source_id": "src-ssb-juvkam1999-limites",
+        "locator": "pp. 7–9, 51–52 et 87–89",
+        "usage": "Contrôle des anachronismes et des limites de la reconstruction."
+       },
+       {
+        "source_id": "src-kartverket-herredskart-6539-1941",
+        "locator": "Feuille sud, inscription du fylke Hordaland",
+        "usage": "Repérage géographique seulement ; aucune géométrie dérivée."
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-no-fylke-bergen",
+    "type_entite": "subdivision",
+    "nom": "Bergen — fylke",
+    "nom_court": "Bergen",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Bergen",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "fylke",
+       "parent_id": "territoire-no-norvege",
+       "souverainete_id": "norvege",
+       "note": "Découpage de droit ; le contrôle réel relève des territoires et fronts existants. La date est le début de la fenêtre observée, pas la création du fylke. Liste rapprochée de sources avant/après le Snapshot ; aucun chiffre postérieur rétrodaté. Bergen est un fylke distinct ; ni l’extension de 1955 ni le regroupement du 01/01/1972 ne sont anticipés.",
+       "reserves": [
+        "R2NO-01",
+        "R2NO-02",
+        "R2NO-04"
+       ]
+      },
+      "sources": [
+       {
+        "source_id": "src-ssb-annuaire1943-1945",
+        "locator": "tableau 2 p. 2 (PDF 34), ligne 13 : Bergen",
+        "usage": "Nom et rang dans la liste des fylker au 1er juillet 1945, recoupés pour le Snapshot."
+       },
+       {
+        "source_id": "src-ssb-annuaire1942",
+        "locator": "p. 1 (PDF 31), tableau 1 ; p. 3 (PDF 33), rubriques des tableaux 3–4",
+        "usage": "Vingt fylker attestés avant 1945 et rubrique homonyme ; aucune population importée."
+       },
+       {
+        "source_id": "src-ssb-juvkam1999-limites",
+        "locator": "pp. 7–9, 51–52 et 87–89",
+        "usage": "Contrôle des anachronismes et des limites de la reconstruction."
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-no-sogn-og-fjordane",
+    "type_entite": "subdivision",
+    "nom": "Sogn og Fjordane",
+    "nom_court": "Sogn og Fjordane",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Sogn og Fjordane",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "fylke",
+       "parent_id": "territoire-no-norvege",
+       "souverainete_id": "norvege",
+       "note": "Découpage de droit ; le contrôle réel relève des territoires et fronts existants. La date est le début de la fenêtre observée, pas la création du fylke. Liste rapprochée de sources avant/après le Snapshot ; aucun chiffre postérieur rétrodaté.",
+       "reserves": [
+        "R2NO-01",
+        "R2NO-02",
+        "R2NO-04"
+       ]
+      },
+      "sources": [
+       {
+        "source_id": "src-ssb-annuaire1943-1945",
+        "locator": "tableau 2 p. 2 (PDF 34), ligne 14 : Sogn og Fjordane",
+        "usage": "Nom et rang dans la liste des fylker au 1er juillet 1945, recoupés pour le Snapshot."
+       },
+       {
+        "source_id": "src-ssb-annuaire1942",
+        "locator": "p. 1 (PDF 31), tableau 1 ; p. 3 (PDF 33), rubriques des tableaux 3–4",
+        "usage": "Vingt fylker attestés avant 1945 et rubrique homonyme ; aucune population importée."
+       },
+       {
+        "source_id": "src-ssb-juvkam1999-limites",
+        "locator": "pp. 7–9, 51–52 et 87–89",
+        "usage": "Contrôle des anachronismes et des limites de la reconstruction."
+       },
+       {
+        "source_id": "src-kartverket-herredskart-6539-1941",
+        "locator": "Feuille sud, inscription du fylke Sogn og Fjordane",
+        "usage": "Repérage géographique seulement ; aucune géométrie dérivée."
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-no-more-og-romsdal",
+    "type_entite": "subdivision",
+    "nom": "Møre og Romsdal",
+    "nom_court": "Møre og Romsdal",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Møre og Romsdal",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "fylke",
+       "parent_id": "territoire-no-norvege",
+       "souverainete_id": "norvege",
+       "note": "Découpage de droit ; le contrôle réel relève des territoires et fronts existants. La date est le début de la fenêtre observée, pas la création du fylke. Liste rapprochée de sources avant/après le Snapshot ; aucun chiffre postérieur rétrodaté.",
+       "reserves": [
+        "R2NO-01",
+        "R2NO-02",
+        "R2NO-04"
+       ]
+      },
+      "sources": [
+       {
+        "source_id": "src-ssb-annuaire1943-1945",
+        "locator": "tableau 2 p. 2 (PDF 34), ligne 15 : Møre og Romsdal",
+        "usage": "Nom et rang dans la liste des fylker au 1er juillet 1945, recoupés pour le Snapshot."
+       },
+       {
+        "source_id": "src-ssb-annuaire1942",
+        "locator": "p. 1 (PDF 31), tableau 1 ; p. 3 (PDF 33), rubriques des tableaux 3–4",
+        "usage": "Vingt fylker attestés avant 1945 et rubrique homonyme ; aucune population importée."
+       },
+       {
+        "source_id": "src-ssb-juvkam1999-limites",
+        "locator": "pp. 7–9, 51–52 et 87–89",
+        "usage": "Contrôle des anachronismes et des limites de la reconstruction."
+       },
+       {
+        "source_id": "src-kartverket-herredskart-6539-1941",
+        "locator": "Feuille sud, inscription du fylke Møre og Romsdal",
+        "usage": "Repérage géographique seulement ; aucune géométrie dérivée."
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-no-sor-trondelag",
+    "type_entite": "subdivision",
+    "nom": "Sør-Trøndelag",
+    "nom_court": "Sør-Trøndelag",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Sør-Trøndelag",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "fylke",
+       "parent_id": "territoire-no-norvege",
+       "souverainete_id": "norvege",
+       "note": "Découpage de droit ; le contrôle réel relève des territoires et fronts existants. La date est le début de la fenêtre observée, pas la création du fylke. Liste rapprochée de sources avant/après le Snapshot ; aucun chiffre postérieur rétrodaté.",
+       "reserves": [
+        "R2NO-01",
+        "R2NO-02",
+        "R2NO-04"
+       ]
+      },
+      "sources": [
+       {
+        "source_id": "src-ssb-annuaire1943-1945",
+        "locator": "tableau 2 p. 2 (PDF 34), ligne 16 : Sør-Trøndelag",
+        "usage": "Nom et rang dans la liste des fylker au 1er juillet 1945, recoupés pour le Snapshot."
+       },
+       {
+        "source_id": "src-ssb-annuaire1942",
+        "locator": "p. 1 (PDF 31), tableau 1 ; p. 3 (PDF 33), rubriques des tableaux 3–4",
+        "usage": "Vingt fylker attestés avant 1945 et rubrique homonyme ; aucune population importée."
+       },
+       {
+        "source_id": "src-ssb-juvkam1999-limites",
+        "locator": "pp. 7–9, 51–52 et 87–89",
+        "usage": "Contrôle des anachronismes et des limites de la reconstruction."
+       },
+       {
+        "source_id": "src-kartverket-herredskart-6539-1941",
+        "locator": "Feuille sud, inscription du fylke Sør-Trøndelag",
+        "usage": "Repérage géographique seulement ; aucune géométrie dérivée."
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-no-nord-trondelag",
+    "type_entite": "subdivision",
+    "nom": "Nord-Trøndelag",
+    "nom_court": "Nord-Trøndelag",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Nord-Trøndelag",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "fylke",
+       "parent_id": "territoire-no-norvege",
+       "souverainete_id": "norvege",
+       "note": "Découpage de droit ; le contrôle réel relève des territoires et fronts existants. La date est le début de la fenêtre observée, pas la création du fylke. Liste rapprochée de sources avant/après le Snapshot ; aucun chiffre postérieur rétrodaté.",
+       "reserves": [
+        "R2NO-01",
+        "R2NO-02",
+        "R2NO-04"
+       ]
+      },
+      "sources": [
+       {
+        "source_id": "src-ssb-annuaire1943-1945",
+        "locator": "tableau 2 p. 2 (PDF 34), ligne 17 : Nord-Trøndelag",
+        "usage": "Nom et rang dans la liste des fylker au 1er juillet 1945, recoupés pour le Snapshot."
+       },
+       {
+        "source_id": "src-ssb-annuaire1942",
+        "locator": "p. 1 (PDF 31), tableau 1 ; p. 3 (PDF 33), rubriques des tableaux 3–4",
+        "usage": "Vingt fylker attestés avant 1945 et rubrique homonyme ; aucune population importée."
+       },
+       {
+        "source_id": "src-ssb-juvkam1999-limites",
+        "locator": "pp. 7–9, 51–52 et 87–89",
+        "usage": "Contrôle des anachronismes et des limites de la reconstruction."
+       },
+       {
+        "source_id": "src-kartverket-herredskart-6539-1941",
+        "locator": "Feuille sud, inscription du fylke Nord-Trøndelag",
+        "usage": "Repérage géographique seulement ; aucune géométrie dérivée."
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-no-nordland",
+    "type_entite": "subdivision",
+    "nom": "Nordland",
+    "nom_court": "Nordland",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Nordland",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "fylke",
+       "parent_id": "territoire-no-norvege",
+       "souverainete_id": "norvege",
+       "note": "Découpage de droit ; le contrôle réel relève des territoires et fronts existants. La date est le début de la fenêtre observée, pas la création du fylke. Liste rapprochée de sources avant/après le Snapshot ; aucun chiffre postérieur rétrodaté.",
+       "reserves": [
+        "R2NO-01",
+        "R2NO-02",
+        "R2NO-04"
+       ]
+      },
+      "sources": [
+       {
+        "source_id": "src-ssb-annuaire1943-1945",
+        "locator": "tableau 2 p. 2 (PDF 34), ligne 18 : Nordland",
+        "usage": "Nom et rang dans la liste des fylker au 1er juillet 1945, recoupés pour le Snapshot."
+       },
+       {
+        "source_id": "src-ssb-annuaire1942",
+        "locator": "p. 1 (PDF 31), tableau 1 ; p. 3 (PDF 33), rubriques des tableaux 3–4",
+        "usage": "Vingt fylker attestés avant 1945 et rubrique homonyme ; aucune population importée."
+       },
+       {
+        "source_id": "src-ssb-juvkam1999-limites",
+        "locator": "pp. 7–9, 51–52 et 87–89",
+        "usage": "Contrôle des anachronismes et des limites de la reconstruction."
+       },
+       {
+        "source_id": "src-kartverket-herredskart-6526-1941",
+        "locator": "Feuille nord, inscription du fylke Nordland",
+        "usage": "Repérage géographique seulement ; aucune géométrie dérivée."
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-no-troms",
+    "type_entite": "subdivision",
+    "nom": "Troms",
+    "nom_court": "Troms",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Troms",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "fylke",
+       "parent_id": "territoire-no-norvege",
+       "souverainete_id": "norvege",
+       "note": "Découpage de droit ; le contrôle réel relève des territoires et fronts existants. La date est le début de la fenêtre observée, pas la création du fylke. Liste rapprochée de sources avant/après le Snapshot ; aucun chiffre postérieur rétrodaté.",
+       "reserves": [
+        "R2NO-01",
+        "R2NO-02",
+        "R2NO-04"
+       ]
+      },
+      "sources": [
+       {
+        "source_id": "src-ssb-annuaire1943-1945",
+        "locator": "tableau 2 p. 2 (PDF 34), ligne 19 : Troms",
+        "usage": "Nom et rang dans la liste des fylker au 1er juillet 1945, recoupés pour le Snapshot."
+       },
+       {
+        "source_id": "src-ssb-annuaire1942",
+        "locator": "p. 1 (PDF 31), tableau 1 ; p. 3 (PDF 33), rubriques des tableaux 3–4",
+        "usage": "Vingt fylker attestés avant 1945 et rubrique homonyme ; aucune population importée."
+       },
+       {
+        "source_id": "src-ssb-juvkam1999-limites",
+        "locator": "pp. 7–9, 51–52 et 87–89",
+        "usage": "Contrôle des anachronismes et des limites de la reconstruction."
+       },
+       {
+        "source_id": "src-kartverket-herredskart-6526-1941",
+        "locator": "Feuille nord, inscription du fylke Troms",
+        "usage": "Repérage géographique seulement ; aucune géométrie dérivée."
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-no-finnmark",
+    "type_entite": "subdivision",
+    "nom": "Finnmark",
+    "nom_court": "Finnmark",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Finnmark",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "fylke",
+       "parent_id": "territoire-no-norvege",
+       "souverainete_id": "norvege",
+       "note": "Découpage de droit ; le contrôle réel relève des territoires et fronts existants. La date est le début de la fenêtre observée, pas la création du fylke. Liste rapprochée de sources avant/après le Snapshot ; aucun chiffre postérieur rétrodaté. Le fylke de droit n’est pas divisé suivant la surcouche militaire territoire-no-est-finnmark ; aucune limite de contrôle inventée.",
+       "reserves": [
+        "R2NO-01",
+        "R2NO-02",
+        "R2NO-04",
+        "R2NO-03"
+       ]
+      },
+      "sources": [
+       {
+        "source_id": "src-ssb-annuaire1943-1945",
+        "locator": "tableau 2 p. 2 (PDF 34), ligne 20 : Finnmark",
+        "usage": "Nom et rang dans la liste des fylker au 1er juillet 1945, recoupés pour le Snapshot."
+       },
+       {
+        "source_id": "src-ssb-annuaire1942",
+        "locator": "p. 1 (PDF 31), tableau 1 ; p. 3 (PDF 33), rubriques des tableaux 3–4",
+        "usage": "Vingt fylker attestés avant 1945 et rubrique homonyme ; aucune population importée."
+       },
+       {
+        "source_id": "src-ssb-juvkam1999-limites",
+        "locator": "pp. 7–9, 51–52 et 87–89",
+        "usage": "Contrôle des anachronismes et des limites de la reconstruction."
+       },
+       {
+        "source_id": "src-kartverket-herredskart-6526-1941",
+        "locator": "Feuille nord, inscription du fylke Finnmark",
+        "usage": "Repérage géographique seulement ; aucune géométrie dérivée."
+       }
+      ]
+     }
+    ],
+    "relations": []
+   }
+  ]
+ }
+}

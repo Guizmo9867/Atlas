@@ -1,8 +1,8 @@
 # Subdivisions sans tracé sur la carte — suivi
 
-*Mis à jour le 24/10/2026 par `outils/subdivisions/suivi_traces.py` (demande de Guizmo du 24/10/2026 : garder dans un coin les pays qui posent problème). Les fiches existent toujours (noms, rangs, sources) ; seul le dessin manque. À reprendre plus tard, pays par pays.*
+*Mis à jour le 25/10/2026 par `outils/subdivisions/suivi_traces.py` (demande de Guizmo du 24/10/2026 : garder dans un coin les pays qui posent problème). Les fiches existent toujours (noms, rangs, sources) ; seul le dessin manque. À reprendre plus tard, pays par pays.*
 
-**En tout : 405 subdivisions tracées sur 840.**
+**En tout : 405 subdivisions tracées sur 860.**
 
 | Lot | Subdivisions | Tracées | État | Pourquoi | Pistes |
 |---|---|---|---|---|---|
@@ -12,6 +12,7 @@
 | 2.ES | 57 | 0 | aucun tracé | aucun tracé de 1945 sous licence libre : l'IGN n'a que des scans de cartes, la base ouverte commence en 1998 (R2ES-01). | provinces quasi inchangées depuis 1927 : limites modernes ouvertes + différences documentées |
 | 2.GB | 197 | 0 | aucun tracé | GB Historical GIS est sous CC BY-SA (refusée par notre liste) ; ONS 1921 (OGL) n'a pas le bon découpage ; rien pour l'Irlande du Nord ni l'Écosse (R2GB-01). | décider si on accepte CC BY-SA pour des tracés (question pour Guizmo) ; ou limites modernes + différences |
 | 2.IE | 31 | 0 | aucun tracé | candidat Tailte 2024 (CC BY 4.0) mais pas encore rapproché des 31 unités de 1945 (R2IE-01). | comtés irlandais presque inchangés : utiliser Tailte avec les différences documentées |
+| 2.NO | 20 | 0 | aucun tracé | cartes historiques Herredskart (Kartverket, 1918 mises à jour 1941, CC BY 4.0) disponibles, mais non géoréférencées ni vectorisées ; versions vectorielles officielles seulement depuis 1997 (R2NO-01). | géoréférencer et vectoriser les feuilles 6539 (Sør-Norge) et 6526 (Nord-Norge) : https://ws.geonorge.no/historiske-kart/v3/publiserte-kart/6539 et …/6526 ; crédit Kartverket. |
 | 2.PT | 33 | 0 | aucun tracé | CAOP seulement moderne ; reconstitution REGIS annoncée CC BY-NC (refusée) ; droits des tracés d'Alves 2024 non établis (R2PT-01). | CAOP moderne + différences documentées ; demander la licence des tracés d'Alves |
 | 2.SM | 8 | 0 | aucun tracé | aucun tracé historique ni licence propre trouvés ; le cadastre ne connaît que les paroisses, la carte des castelli date de la loi de 2020 (R2SM-03). | voir réserves R2SM ; un tracé ancien des castelli à licence libre reste à trouver |
 | 2.FR | 108 | 103 | en partie | 5 régions (Angers, Bordeaux, Orléans, Poitiers, Toulouse) à la composition incomplète (R2FR-03). | compléter les compositions régionales, puis unir les départements déjà tracés |

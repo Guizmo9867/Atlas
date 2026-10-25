@@ -1,0 +1,63 @@
+{
+  "date": "2026-10-24T20:13:06.627212+00:00",
+  "lot": "2.NO",
+  "cycle": 1,
+  "resultat": "conforme_techniquement_sous_reserves_historiques",
+  "comptages": {
+    "entites": 20,
+    "echelon_1": 20,
+    "echelon_2": 0,
+    "geometries": 0,
+    "sources_ajouter": 11,
+    "sources_completer": 0,
+    "reserves": 6,
+    "chefs_lieux_proposes": 0
+  },
+  "controles": [
+    "Format et unicité des IDs, absence de collision canonique",
+    "Parents existants et souveraineté du territoire, arbre à un niveau",
+    "Dates Snapshot et fin inconnue",
+    "Références, cibles et preuves locales ; empreintes des téléchargements",
+    "Inventaire régional exactement égal aux vingt fiches",
+    "GeoJSON vide, aucun faux lien, pas de code ni siège inventé",
+    "Licence CC BY 4.0 reconnue par l’intégrateur ; absence de contour indépendante de la licence",
+    "Précontrôle du véritable intégrateur arrêté avant toute écriture canonique"
+  ],
+  "precontrole_integrateur": {
+    "script": "C:\\Users\\guill\\Documents\\GitHub\\Atlas\\outils\\subdivisions\\integrer_subdivisions.py",
+    "sha256": "54ea1688b90f752913d6f09e154b259ca444c7efe689c1ef041a1283dc328649",
+    "erreurs": [],
+    "avertissements": [],
+    "limite": "Contrôles en mémoire seulement ; aucune intégration, aucun avis Claude simulé"
+  },
+  "fichiers_principaux": [
+    {
+      "chemin": "atlas_2NO_subdivisions_proposees.json",
+      "sha256": "df31d0a91f46e89f9c53a8491c3eb9749d1e23e6dd0472a5e9e06cbd1e980ac1"
+    },
+    {
+      "chemin": "geometries/atlas_2NO_geometries_proposees.geojson",
+      "sha256": "7626ea83caeb18d3dad503b15bfd7eb88c4c13ba8440fab45c456f9288f03cce"
+    },
+    {
+      "chemin": "atlas_registre_sources_2NO_delta.json",
+      "sha256": "5312fb6b5299a07f1eb519f789f88cdfb24c6002be62230daa99098b1eebf81c"
+    },
+    {
+      "chemin": "atlas_2NO_pour_claude.md",
+      "sha256": "a2054907d1a18a42f6cac499112aee706ed6e970f9ffd39c71269d0e2aabb3d6"
+    },
+    {
+      "chemin": "atlas_2NO_reserves.md",
+      "sha256": "f253d89eb4cdf2e3ca50588b38712f45c8bc0ce2c882d83b10367e67e7c8d5e9"
+    },
+    {
+      "chemin": "atlas_2NO_reserves.json",
+      "sha256": "371d8739aa1a7f07c8af03988ba626ab25209e6e1abf39fb1d5cc2a13bbc01a9"
+    },
+    {
+      "chemin": "atlas_2NO_couverture.json",
+      "sha256": "cd4cf6d4af3cfb560c7541ff871b414ee89e690afaf41e1fc480b191549d8215"
+    }
+  ]
+}
