@@ -2,6 +2,12 @@
 
 Une ligne par décision, datée. Plus récente en haut. Ce journal remplace les versions éparpillées dans les conversations : si ce n'est pas ici, ce n'est pas décidé.
 
+## 2026-10-25 (midi : 2.FI envoyé, 2.IS intégré, groupe 3 terminé, boucle automatique)
+
+- **2.FI envoyé sur GitHub** (commit `375845e`) après deux réveils interrompus ; verrous de git mis de côté sans rien supprimer dans `.git/_a_supprimer_par_guizmo/`. *(Claude)*
+- **Lot 2.IS intégré** (cycle 1, groupe 3) : **33 subdivisions** sous `territoire-is-islande` : 23 sýslufélög et 10 kaupstaðir (Ólafsfjörður kaupstaður au 01/01/1945). 3 tracés CC BY 4.0 NÁTT (Siglufjörður, Ólafsfjörður, Seyðisfjörður) ; 28 candidats `ne_pas_integrer` respectés. Sources : 8 ajoutées (5 ok, 2 limite, 1 non vérifiée), registre v1.55. Réserves R2IS-01 à 06 gardées. *(Ether, intégré par Claude)*
+- **Groupe 3 terminé** (DK, NO, SE, FI, IS : 166 subdivisions, 26 tracés). Ouverture du groupe suivant : à Guizmo. *(Claude)*
+
 ## 2026-10-25 (matin, fin : 2.FI intégré, groupe 3, boucle automatique)
 
 - **Lot 2.FI intégré** (cycle 1, groupe 3) : **58 subdivisions** sous `territoire-fi-finlande` : 10 provinces (9 lääni + Åland autonome) et 48 kihlakunnat, d'après l'annuaire statistique 1944–45 (« vuoden 1945 alussa ») ; Viipurin lääni limité à la partie restée finlandaise. *(Ether, intégré par Claude)*

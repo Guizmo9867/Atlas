@@ -1,0 +1,521 @@
+{
+  "date": "2026-10-25T08:29:47.473018+00:00",
+  "lot": "2.IS",
+  "cycle": 1,
+  "resultat": "conforme_techniquement_sous_reserves_historiques",
+  "comptages": {
+    "entites": 33,
+    "echelon_1": 33,
+    "echelon_2": 0,
+    "geometries": 31,
+    "geometries_proposables": 3,
+    "geometries_ne_pas_integrer": 28,
+    "sources_ajouter": 8,
+    "sources_completer": 0,
+    "reserves": 6,
+    "chefs_lieux_proposes": 0
+  },
+  "controles": [
+    "IDs uniques et parents existants",
+    "Noms et dates Snapshot, références sources et réserves",
+    "Preuves et empreintes des téléchargements",
+    "Inventaire égal aux fiches",
+    "Polygones valides EPSG4326, attributions et licences",
+    "Précontrôle du véritable intégrateur sans écriture canonique"
+  ],
+  "geometries": [
+    {
+      "entite_id": "subdivision-is-gullbringusysla",
+      "valide": true,
+      "bbox": [
+        -22.753923430661498,
+        63.79989055793323,
+        -21.64816435867921,
+        64.1197658152022
+      ],
+      "statut": "ne_pas_integrer"
+    },
+    {
+      "entite_id": "subdivision-is-kjosarsysla",
+      "valide": true,
+      "bbox": [
+        -22.036085569940592,
+        64.07170284060281,
+        -21.162504173139578,
+        64.38043549259304
+      ],
+      "statut": "ne_pas_integrer"
+    },
+    {
+      "entite_id": "subdivision-is-borgarfjardarsysla",
+      "valide": true,
+      "bbox": [
+        -22.043701888977207,
+        64.29852735106748,
+        -20.348635496752568,
+        64.73246978353794
+      ],
+      "statut": "ne_pas_integrer"
+    },
+    {
+      "entite_id": "subdivision-is-myrasysla",
+      "valide": true,
+      "bbox": [
+        -22.450648281629043,
+        64.45963641565896,
+        -19.793182145114038,
+        65.00474528175448
+      ],
+      "statut": "ne_pas_integrer"
+    },
+    {
+      "entite_id": "subdivision-is-snaefellsnes-og-hnappadalssysla",
+      "valide": true,
+      "bbox": [
+        -24.04839348451708,
+        64.66677303796385,
+        -21.894799126671614,
+        65.08259565058069
+      ],
+      "statut": "ne_pas_integrer"
+    },
+    {
+      "entite_id": "subdivision-is-dalasysla",
+      "valide": true,
+      "bbox": [
+        -22.562815494718045,
+        64.86569649257915,
+        -21.18802196007566,
+        65.50616560572143
+      ],
+      "statut": "ne_pas_integrer"
+    },
+    {
+      "entite_id": "subdivision-is-austur-bardastrandarsysla",
+      "valide": true,
+      "bbox": [
+        -22.97164744306961,
+        65.37104463885366,
+        -21.621329747959923,
+        65.77009595678389
+      ],
+      "statut": "ne_pas_integrer"
+    },
+    {
+      "entite_id": "subdivision-is-vestur-bardastrandarsysla",
+      "valide": true,
+      "bbox": [
+        -24.53267538615402,
+        65.4071344678251,
+        -22.879794055411583,
+        65.80698389728329
+      ],
+      "statut": "ne_pas_integrer"
+    },
+    {
+      "entite_id": "subdivision-is-vestur-isafjardarsysla",
+      "valide": true,
+      "bbox": [
+        -23.86877963035662,
+        65.68730564623831,
+        -22.971555665863338,
+        66.17752820336709
+      ],
+      "statut": "ne_pas_integrer"
+    },
+    {
+      "entite_id": "subdivision-is-nordur-isafjardarsysla",
+      "valide": true,
+      "bbox": [
+        -23.54164013850175,
+        65.67474623512501,
+        -21.955709475082635,
+        66.46963301722157
+      ],
+      "statut": "ne_pas_integrer"
+    },
+    {
+      "entite_id": "subdivision-is-strandasysla",
+      "valide": true,
+      "bbox": [
+        -22.190353230660183,
+        64.95563049018364,
+        -20.980296415193013,
+        66.26969680559387
+      ],
+      "statut": "ne_pas_integrer"
+    },
+    {
+      "entite_id": "subdivision-is-vestur-hunavatnssysla",
+      "valide": true,
+      "bbox": [
+        -21.11482976227375,
+        64.9086182394574,
+        -20.091517761736977,
+        65.68759588370403
+      ],
+      "statut": "ne_pas_integrer"
+    },
+    {
+      "entite_id": "subdivision-is-austur-hunavatnssysla",
+      "valide": true,
+      "bbox": [
+        -20.59699327548327,
+        64.76534698722371,
+        -18.870090097392445,
+        66.12582572128846
+      ],
+      "statut": "ne_pas_integrer"
+    },
+    {
+      "entite_id": "subdivision-is-skagafjardarsysla",
+      "valide": true,
+      "bbox": [
+        -20.214493863403384,
+        64.81050093740598,
+        -18.288999111584218,
+        66.19889696982409
+      ],
+      "statut": "ne_pas_integrer"
+    },
+    {
+      "entite_id": "subdivision-is-eyjafjardarsysla",
+      "valide": true,
+      "bbox": [
+        -18.98491365016316,
+        64.77187160222465,
+        -17.822671406927448,
+        66.56643619160998
+      ],
+      "statut": "ne_pas_integrer"
+    },
+    {
+      "entite_id": "subdivision-is-sudur-thingeyjarsysla",
+      "valide": true,
+      "bbox": [
+        -18.32404584117814,
+        64.40927456135394,
+        -16.006520288057814,
+        66.20774016150426
+      ],
+      "statut": "ne_pas_integrer"
+    },
+    {
+      "entite_id": "subdivision-is-nordur-thingeyjarsysla",
+      "valide": true,
+      "bbox": [
+        -17.06222730796474,
+        65.48078674609195,
+        -14.5298976224732,
+        66.53779331019923
+      ],
+      "statut": "ne_pas_integrer"
+    },
+    {
+      "entite_id": "subdivision-is-sudur-mulasysla",
+      "valide": true,
+      "bbox": [
+        -15.123110112919655,
+        64.44736406826665,
+        -13.494620624431105,
+        65.44923690327504
+      ],
+      "statut": "ne_pas_integrer"
+    },
+    {
+      "entite_id": "subdivision-is-austur-skaftafellssysla",
+      "valide": true,
+      "bbox": [
+        -17.382677373590113,
+        63.768420961885255,
+        -14.497453762963238,
+        64.69998588063265
+      ],
+      "statut": "ne_pas_integrer"
+    },
+    {
+      "entite_id": "subdivision-is-vestur-skaftafellssysla",
+      "valide": true,
+      "bbox": [
+        -19.422620685155056,
+        63.39439277876607,
+        -17.276961262172964,
+        64.64080331910186
+      ],
+      "statut": "ne_pas_integrer"
+    },
+    {
+      "entite_id": "subdivision-is-rangarvallasysla",
+      "valide": true,
+      "bbox": [
+        -20.79790269857115,
+        63.4618720330686,
+        -17.527449584919324,
+        64.78772212074101
+      ],
+      "statut": "ne_pas_integrer"
+    },
+    {
+      "entite_id": "subdivision-is-arnessysla",
+      "valide": true,
+      "bbox": [
+        -21.912642893608368,
+        63.77237469362933,
+        -18.314177533674297,
+        64.86756578473869
+      ],
+      "statut": "ne_pas_integrer"
+    },
+    {
+      "entite_id": "subdivision-is-kaupstadur-reykjavik",
+      "valide": true,
+      "bbox": [
+        -21.983846586502732,
+        63.990169158416144,
+        -21.56939071704787,
+        64.17601657975739
+      ],
+      "statut": "ne_pas_integrer"
+    },
+    {
+      "entite_id": "subdivision-is-kaupstadur-hafnarfjordur",
+      "valide": true,
+      "bbox": [
+        -22.13088209612882,
+        63.82938570823258,
+        -21.64800070032738,
+        64.08321252886198
+      ],
+      "statut": "ne_pas_integrer"
+    },
+    {
+      "entite_id": "subdivision-is-kaupstadur-akranes",
+      "valide": true,
+      "bbox": [
+        -22.10949479853985,
+        64.30755581621925,
+        -21.99747339004936,
+        64.35311888817225
+      ],
+      "statut": "ne_pas_integrer"
+    },
+    {
+      "entite_id": "subdivision-is-kaupstadur-siglufjordur",
+      "valide": true,
+      "bbox": [
+        -19.04414591575522,
+        66.04411752312541,
+        -18.625787782509008,
+        66.19889696982409
+      ],
+      "statut": "propose_provisoire_sous_reserves"
+    },
+    {
+      "entite_id": "subdivision-is-kaupstadur-olafsfjordur",
+      "valide": true,
+      "bbox": [
+        -18.90258611397913,
+        65.8941109123033,
+        -18.563949556561205,
+        66.13307383766865
+      ],
+      "statut": "propose_provisoire_sous_reserves"
+    },
+    {
+      "entite_id": "subdivision-is-kaupstadur-akureyri",
+      "valide": true,
+      "bbox": [
+        -18.388243440697444,
+        65.55306746904726,
+        -18.050188408924264,
+        65.71872056650938
+      ],
+      "statut": "ne_pas_integrer"
+    },
+    {
+      "entite_id": "subdivision-is-kaupstadur-seydisfjordur",
+      "valide": true,
+      "bbox": [
+        -14.226287974841515,
+        65.19317898212798,
+        -13.71942592949447,
+        65.33693370511271
+      ],
+      "statut": "propose_provisoire_sous_reserves"
+    },
+    {
+      "entite_id": "subdivision-is-kaupstadur-neskaupstadur",
+      "valide": true,
+      "bbox": [
+        -13.76442358790099,
+        65.14084659899162,
+        -13.623097428623861,
+        65.18970439014042
+      ],
+      "statut": "ne_pas_integrer"
+    },
+    {
+      "entite_id": "subdivision-is-kaupstadur-vestmannaeyjar",
+      "valide": true,
+      "bbox": [
+        -20.61777121313751,
+        63.29576608812857,
+        -20.167815894721528,
+        63.49195827929763
+      ],
+      "statut": "ne_pas_integrer"
+    }
+  ],
+  "precontrole_integrateur": {
+    "script": "C:\\Users\\guill\\Documents\\GitHub\\Atlas\\outils\\subdivisions\\integrer_subdivisions.py",
+    "sha256": "54ea1688b90f752913d6f09e154b259ca444c7efe689c1ef041a1283dc328649",
+    "erreurs": [],
+    "avertissements": [],
+    "refus_attendus": [
+      {
+        "geometry_id": "geom-subdivision-is-gullbringusysla-1945-01-01",
+        "raison": "marqué « ne_pas_integrer » par Ether"
+      },
+      {
+        "geometry_id": "geom-subdivision-is-kjosarsysla-1945-01-01",
+        "raison": "marqué « ne_pas_integrer » par Ether"
+      },
+      {
+        "geometry_id": "geom-subdivision-is-borgarfjardarsysla-1945-01-01",
+        "raison": "marqué « ne_pas_integrer » par Ether"
+      },
+      {
+        "geometry_id": "geom-subdivision-is-myrasysla-1945-01-01",
+        "raison": "marqué « ne_pas_integrer » par Ether"
+      },
+      {
+        "geometry_id": "geom-subdivision-is-snaefellsnes-og-hnappadalssysla-1945-01-01",
+        "raison": "marqué « ne_pas_integrer » par Ether"
+      },
+      {
+        "geometry_id": "geom-subdivision-is-dalasysla-1945-01-01",
+        "raison": "marqué « ne_pas_integrer » par Ether"
+      },
+      {
+        "geometry_id": "geom-subdivision-is-austur-bardastrandarsysla-1945-01-01",
+        "raison": "marqué « ne_pas_integrer » par Ether"
+      },
+      {
+        "geometry_id": "geom-subdivision-is-vestur-bardastrandarsysla-1945-01-01",
+        "raison": "marqué « ne_pas_integrer » par Ether"
+      },
+      {
+        "geometry_id": "geom-subdivision-is-vestur-isafjardarsysla-1945-01-01",
+        "raison": "marqué « ne_pas_integrer » par Ether"
+      },
+      {
+        "geometry_id": "geom-subdivision-is-nordur-isafjardarsysla-1945-01-01",
+        "raison": "marqué « ne_pas_integrer » par Ether"
+      },
+      {
+        "geometry_id": "geom-subdivision-is-strandasysla-1945-01-01",
+        "raison": "marqué « ne_pas_integrer » par Ether"
+      },
+      {
+        "geometry_id": "geom-subdivision-is-vestur-hunavatnssysla-1945-01-01",
+        "raison": "marqué « ne_pas_integrer » par Ether"
+      },
+      {
+        "geometry_id": "geom-subdivision-is-austur-hunavatnssysla-1945-01-01",
+        "raison": "marqué « ne_pas_integrer » par Ether"
+      },
+      {
+        "geometry_id": "geom-subdivision-is-skagafjardarsysla-1945-01-01",
+        "raison": "marqué « ne_pas_integrer » par Ether"
+      },
+      {
+        "geometry_id": "geom-subdivision-is-eyjafjardarsysla-1945-01-01",
+        "raison": "marqué « ne_pas_integrer » par Ether"
+      },
+      {
+        "geometry_id": "geom-subdivision-is-sudur-thingeyjarsysla-1945-01-01",
+        "raison": "marqué « ne_pas_integrer » par Ether"
+      },
+      {
+        "geometry_id": "geom-subdivision-is-nordur-thingeyjarsysla-1945-01-01",
+        "raison": "marqué « ne_pas_integrer » par Ether"
+      },
+      {
+        "geometry_id": "geom-subdivision-is-sudur-mulasysla-1945-01-01",
+        "raison": "marqué « ne_pas_integrer » par Ether"
+      },
+      {
+        "geometry_id": "geom-subdivision-is-austur-skaftafellssysla-1945-01-01",
+        "raison": "marqué « ne_pas_integrer » par Ether"
+      },
+      {
+        "geometry_id": "geom-subdivision-is-vestur-skaftafellssysla-1945-01-01",
+        "raison": "marqué « ne_pas_integrer » par Ether"
+      },
+      {
+        "geometry_id": "geom-subdivision-is-rangarvallasysla-1945-01-01",
+        "raison": "marqué « ne_pas_integrer » par Ether"
+      },
+      {
+        "geometry_id": "geom-subdivision-is-arnessysla-1945-01-01",
+        "raison": "marqué « ne_pas_integrer » par Ether"
+      },
+      {
+        "geometry_id": "geom-subdivision-is-kaupstadur-reykjavik-1945-01-01",
+        "raison": "marqué « ne_pas_integrer » par Ether"
+      },
+      {
+        "geometry_id": "geom-subdivision-is-kaupstadur-hafnarfjordur-1945-01-01",
+        "raison": "marqué « ne_pas_integrer » par Ether"
+      },
+      {
+        "geometry_id": "geom-subdivision-is-kaupstadur-akranes-1945-01-01",
+        "raison": "marqué « ne_pas_integrer » par Ether"
+      },
+      {
+        "geometry_id": "geom-subdivision-is-kaupstadur-akureyri-1945-01-01",
+        "raison": "marqué « ne_pas_integrer » par Ether"
+      },
+      {
+        "geometry_id": "geom-subdivision-is-kaupstadur-neskaupstadur-1945-01-01",
+        "raison": "marqué « ne_pas_integrer » par Ether"
+      },
+      {
+        "geometry_id": "geom-subdivision-is-kaupstadur-vestmannaeyjar-1945-01-01",
+        "raison": "marqué « ne_pas_integrer » par Ether"
+      }
+    ],
+    "traces_retenus": 3,
+    "limite": "En mémoire avant la partie 3 ; aucune intégration ni simplification"
+  },
+  "fichiers_principaux": [
+    {
+      "chemin": "atlas_2IS_subdivisions_proposees.json",
+      "sha256": "0319b38867c4b1ee309dbcd4b70f8bbba7450b746b2d3e6f7026703707ad3a49"
+    },
+    {
+      "chemin": "geometries/atlas_2IS_geometries_proposees.geojson",
+      "sha256": "964a67a18d4cdc65a3f6ddff474b4ce17c8e3aae3d16b0b5f648d0c975641642"
+    },
+    {
+      "chemin": "atlas_registre_sources_2IS_delta.json",
+      "sha256": "1c03115fa44df7d057c019afd10c979abe26eb36ec61e9102be2c93cd9310c52"
+    },
+    {
+      "chemin": "atlas_2IS_pour_claude.md",
+      "sha256": "a97f8aaa99dfb751dfab3ab943aac9ec682e06ede49741c82168f6c68749a5f4"
+    },
+    {
+      "chemin": "atlas_2IS_reserves.md",
+      "sha256": "e320f4b4f836212515c88ff6a533d0b0299fcb2140e4af2ab9febab06519488c"
+    },
+    {
+      "chemin": "atlas_2IS_reserves.json",
+      "sha256": "7baffb6f342deee2178ba4d5d28ee0c9ad63c913dfdfe1c0b24aac23e345125f"
+    },
+    {
+      "chemin": "atlas_2IS_couverture.json",
+      "sha256": "c71788cbeaee58a723d175cfe564fa748efd9c9005ae37d249502a54227e4f6b"
+    }
+  ]
+}

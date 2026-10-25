@@ -1,0 +1,1738 @@
+{
+ "note": "Copie fidèle de 01_lots/2.IS/atlas_2IS_subdivisions_proposees.json (Ether, cycle 1), sous la clé proposition_ether pour que le validateur ne la lise pas comme un lot du corpus (entités intégrées : data/snapshot0/subdivisions_2-IS.json).",
+ "proposition_ether": {
+  "metadata_lot": {
+   "lot": "2.IS",
+   "cycle": 1,
+   "etat_1945": "Islande",
+   "date_historique": "1945-01-01T00:00:00",
+   "auteur": "Ether",
+   "date_preparation": "2026-10-25T08:29:19.047445+00:00",
+   "nature": "proposition non intégrée",
+   "perimetre": "23 associations de comté et 10 villes indépendantes ; communes ordinaires exclues"
+  },
+  "entites": [
+   {
+    "entite_id": "subdivision-is-gullbringusysla",
+    "type_entite": "subdivision",
+    "nom": "Gullbringusýsla",
+    "nom_court": "Gullbringusýsla",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Gullbringusýsla",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "sýsla (sýslufélag)",
+       "parent_id": "territoire-is-islande",
+       "souverainete_id": "islande",
+       "note": "Premier niveau de droit au 01/01/1945, début de fenêtre observée et non date de création. La souveraineté islande et le parent sont repris du territoire canonique. Association de comté pour les affaires locales ; ne pas confondre avec le ressort judiciaire ou la région statistique. Scission Gullbringu/Kjós : loi 22 du 03/10/1903, deux sýslufélög pour les affaires locales ; PDF p.44.",
+       "reserves": [
+        "R2IS-04",
+        "R2IS-05",
+        "R2IS-01"
+       ]
+      },
+      "sources": [
+       {
+        "source_id": "src-hagstofa-regions-islande2012",
+        "locator": "PDF p.14–16, §3.1–3.2",
+        "usage": "Nature des sýslur/sýslufélög et des villes indépendantes ; niveau général retenu."
+       },
+       {
+        "source_id": "src-althingi-tableau-islande1946",
+        "locator": "PDF p.4, tableau de 1946–47, ligne Gullbringusýsla",
+        "usage": "Corroboration proche de la liste et du nom ; postérieure au Snapshot, avec regroupements."
+       },
+       {
+        "source_id": "src-hagstofa-changements-islande1876-2019",
+        "locator": "Scission Gullbringu/Kjós : loi 22 du 03/10/1903, deux sýslufélög pour les affaires locales ; PDF p.44.",
+        "usage": "Vérification des changements et des scissions antérieurs ou postérieurs au Snapshot."
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-is-kjosarsysla",
+    "type_entite": "subdivision",
+    "nom": "Kjósarsýsla",
+    "nom_court": "Kjósarsýsla",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Kjósarsýsla",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "sýsla (sýslufélag)",
+       "parent_id": "territoire-is-islande",
+       "souverainete_id": "islande",
+       "note": "Premier niveau de droit au 01/01/1945, début de fenêtre observée et non date de création. La souveraineté islande et le parent sont repris du territoire canonique. Association de comté pour les affaires locales ; ne pas confondre avec le ressort judiciaire ou la région statistique. Même scission de 1903 ; PDF p.44. Ne pas rétroprojeter les transferts de 1974 (p.54–55).",
+       "reserves": [
+        "R2IS-04",
+        "R2IS-05",
+        "R2IS-01"
+       ]
+      },
+      "sources": [
+       {
+        "source_id": "src-hagstofa-regions-islande2012",
+        "locator": "PDF p.14–16, §3.1–3.2",
+        "usage": "Nature des sýslur/sýslufélög et des villes indépendantes ; niveau général retenu."
+       },
+       {
+        "source_id": "src-althingi-tableau-islande1946",
+        "locator": "PDF p.4, tableau de 1946–47, ligne Kjósarsýsla",
+        "usage": "Corroboration proche de la liste et du nom ; postérieure au Snapshot, avec regroupements."
+       },
+       {
+        "source_id": "src-hagstofa-changements-islande1876-2019",
+        "locator": "Même scission de 1903 ; PDF p.44. Ne pas rétroprojeter les transferts de 1974 (p.54–55).",
+        "usage": "Vérification des changements et des scissions antérieurs ou postérieurs au Snapshot."
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-is-borgarfjardarsysla",
+    "type_entite": "subdivision",
+    "nom": "Borgarfjarðarsýsla",
+    "nom_court": "Borgarfjarðarsýsla",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Borgarfjarðarsýsla",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "sýsla (sýslufélag)",
+       "parent_id": "territoire-is-islande",
+       "souverainete_id": "islande",
+       "note": "Premier niveau de droit au 01/01/1945, début de fenêtre observée et non date de création. La souveraineté islande et le parent sont repris du territoire canonique. Association de comté pour les affaires locales ; ne pas confondre avec le ressort judiciaire ou la région statistique. Nom attesté au tableau proche de 1946 ; cadre des sýslufélög confirmé par Hagstofa 2012, p.14–16.",
+       "reserves": [
+        "R2IS-04",
+        "R2IS-05",
+        "R2IS-01"
+       ]
+      },
+      "sources": [
+       {
+        "source_id": "src-hagstofa-regions-islande2012",
+        "locator": "PDF p.14–16, §3.1–3.2",
+        "usage": "Nature des sýslur/sýslufélög et des villes indépendantes ; niveau général retenu."
+       },
+       {
+        "source_id": "src-althingi-tableau-islande1946",
+        "locator": "PDF p.4, tableau de 1946–47, ligne Borgarfjarðarsýsla",
+        "usage": "Corroboration proche de la liste et du nom ; postérieure au Snapshot, avec regroupements."
+       },
+       {
+        "source_id": "src-hagstofa-changements-islande1876-2019",
+        "locator": "Parties I–II, p.2–75 ; cadre et changements nominatifs, croisés avec la table de 1946.",
+        "usage": "Vérification des changements et des scissions antérieurs ou postérieurs au Snapshot."
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-is-myrasysla",
+    "type_entite": "subdivision",
+    "nom": "Mýrasýsla",
+    "nom_court": "Mýrasýsla",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Mýrasýsla",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "sýsla (sýslufélag)",
+       "parent_id": "territoire-is-islande",
+       "souverainete_id": "islande",
+       "note": "Premier niveau de droit au 01/01/1945, début de fenêtre observée et non date de création. La souveraineté islande et le parent sont repris du territoire canonique. Association de comté pour les affaires locales ; ne pas confondre avec le ressort judiciaire ou la région statistique. Nom attesté au tableau proche de 1946 ; cadre des sýslufélög confirmé par Hagstofa 2012, p.14–16.",
+       "reserves": [
+        "R2IS-04",
+        "R2IS-05",
+        "R2IS-01"
+       ]
+      },
+      "sources": [
+       {
+        "source_id": "src-hagstofa-regions-islande2012",
+        "locator": "PDF p.14–16, §3.1–3.2",
+        "usage": "Nature des sýslur/sýslufélög et des villes indépendantes ; niveau général retenu."
+       },
+       {
+        "source_id": "src-althingi-tableau-islande1946",
+        "locator": "PDF p.4, tableau de 1946–47, ligne Mýrasýsla",
+        "usage": "Corroboration proche de la liste et du nom ; postérieure au Snapshot, avec regroupements."
+       },
+       {
+        "source_id": "src-hagstofa-changements-islande1876-2019",
+        "locator": "Parties I–II, p.2–75 ; cadre et changements nominatifs, croisés avec la table de 1946.",
+        "usage": "Vérification des changements et des scissions antérieurs ou postérieurs au Snapshot."
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-is-snaefellsnes-og-hnappadalssysla",
+    "type_entite": "subdivision",
+    "nom": "Snæfellsnes- og Hnappadalssýsla",
+    "nom_court": "Snæfellsnes- og Hnappadalssýsla",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Snæfellsnes- og Hnappadalssýsla",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "sýsla (sýslufélag)",
+       "parent_id": "territoire-is-islande",
+       "souverainete_id": "islande",
+       "note": "Premier niveau de droit au 01/01/1945, début de fenêtre observée et non date de création. La souveraineté islande et le parent sont repris du territoire canonique. Association de comté pour les affaires locales ; ne pas confondre avec le ressort judiciaire ou la région statistique. Nom attesté au tableau proche de 1946 ; cadre des sýslufélög confirmé par Hagstofa 2012, p.14–16. Snæfellsnes et Hnappadal forment ici une seule unité ; aucun Hnappadal séparé ajouté.",
+       "reserves": [
+        "R2IS-04",
+        "R2IS-05",
+        "R2IS-01"
+       ]
+      },
+      "sources": [
+       {
+        "source_id": "src-hagstofa-regions-islande2012",
+        "locator": "PDF p.14–16, §3.1–3.2",
+        "usage": "Nature des sýslur/sýslufélög et des villes indépendantes ; niveau général retenu."
+       },
+       {
+        "source_id": "src-althingi-tableau-islande1946",
+        "locator": "PDF p.4, tableau de 1946–47, ligne Snæfellsnes- og Hnappadalssýsla",
+        "usage": "Corroboration proche de la liste et du nom ; postérieure au Snapshot, avec regroupements."
+       },
+       {
+        "source_id": "src-hagstofa-changements-islande1876-2019",
+        "locator": "Parties I–II, p.2–75 ; cadre et changements nominatifs, croisés avec la table de 1946.",
+        "usage": "Vérification des changements et des scissions antérieurs ou postérieurs au Snapshot."
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-is-dalasysla",
+    "type_entite": "subdivision",
+    "nom": "Dalasýsla",
+    "nom_court": "Dalasýsla",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Dalasýsla",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "sýsla (sýslufélag)",
+       "parent_id": "territoire-is-islande",
+       "souverainete_id": "islande",
+       "note": "Premier niveau de droit au 01/01/1945, début de fenêtre observée et non date de création. La souveraineté islande et le parent sont repris du territoire canonique. Association de comté pour les affaires locales ; ne pas confondre avec le ressort judiciaire ou la région statistique. Nom attesté au tableau proche de 1946 ; cadre des sýslufélög confirmé par Hagstofa 2012, p.14–16.",
+       "reserves": [
+        "R2IS-04",
+        "R2IS-05",
+        "R2IS-01"
+       ]
+      },
+      "sources": [
+       {
+        "source_id": "src-hagstofa-regions-islande2012",
+        "locator": "PDF p.14–16, §3.1–3.2",
+        "usage": "Nature des sýslur/sýslufélög et des villes indépendantes ; niveau général retenu."
+       },
+       {
+        "source_id": "src-althingi-tableau-islande1946",
+        "locator": "PDF p.4, tableau de 1946–47, ligne Dalasýsla",
+        "usage": "Corroboration proche de la liste et du nom ; postérieure au Snapshot, avec regroupements."
+       },
+       {
+        "source_id": "src-hagstofa-changements-islande1876-2019",
+        "locator": "Parties I–II, p.2–75 ; cadre et changements nominatifs, croisés avec la table de 1946.",
+        "usage": "Vérification des changements et des scissions antérieurs ou postérieurs au Snapshot."
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-is-austur-bardastrandarsysla",
+    "type_entite": "subdivision",
+    "nom": "Austur-Barðastrandarsýsla",
+    "nom_court": "Austur-Barðastrandarsýsla",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Austur-Barðastrandarsýsla",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "sýsla (sýslufélag)",
+       "parent_id": "territoire-is-islande",
+       "souverainete_id": "islande",
+       "note": "Premier niveau de droit au 01/01/1945, début de fenêtre observée et non date de création. La souveraineté islande et le parent sont repris du territoire canonique. Association de comté pour les affaires locales ; ne pas confondre avec le ressort judiciaire ou la région statistique. Scission de Barðastrandarsýsla, loi 27/1887, en vigueur 01/01/1889 ; PDF p.42.",
+       "reserves": [
+        "R2IS-04",
+        "R2IS-05",
+        "R2IS-01"
+       ]
+      },
+      "sources": [
+       {
+        "source_id": "src-hagstofa-regions-islande2012",
+        "locator": "PDF p.14–16, §3.1–3.2",
+        "usage": "Nature des sýslur/sýslufélög et des villes indépendantes ; niveau général retenu."
+       },
+       {
+        "source_id": "src-althingi-tableau-islande1946",
+        "locator": "PDF p.4, tableau de 1946–47, ligne Austur-Barðastrandarsýsla",
+        "usage": "Corroboration proche de la liste et du nom ; postérieure au Snapshot, avec regroupements."
+       },
+       {
+        "source_id": "src-hagstofa-changements-islande1876-2019",
+        "locator": "Scission de Barðastrandarsýsla, loi 27/1887, en vigueur 01/01/1889 ; PDF p.42.",
+        "usage": "Vérification des changements et des scissions antérieurs ou postérieurs au Snapshot."
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-is-vestur-bardastrandarsysla",
+    "type_entite": "subdivision",
+    "nom": "Vestur-Barðastrandarsýsla",
+    "nom_court": "Vestur-Barðastrandarsýsla",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Vestur-Barðastrandarsýsla",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "sýsla (sýslufélag)",
+       "parent_id": "territoire-is-islande",
+       "souverainete_id": "islande",
+       "note": "Premier niveau de droit au 01/01/1945, début de fenêtre observée et non date de création. La souveraineté islande et le parent sont repris du territoire canonique. Association de comté pour les affaires locales ; ne pas confondre avec le ressort judiciaire ou la région statistique. Même scission de Barðastrandarsýsla ; PDF p.42.",
+       "reserves": [
+        "R2IS-04",
+        "R2IS-05",
+        "R2IS-01"
+       ]
+      },
+      "sources": [
+       {
+        "source_id": "src-hagstofa-regions-islande2012",
+        "locator": "PDF p.14–16, §3.1–3.2",
+        "usage": "Nature des sýslur/sýslufélög et des villes indépendantes ; niveau général retenu."
+       },
+       {
+        "source_id": "src-althingi-tableau-islande1946",
+        "locator": "PDF p.4, tableau de 1946–47, ligne Vestur-Barðastrandarsýsla",
+        "usage": "Corroboration proche de la liste et du nom ; postérieure au Snapshot, avec regroupements."
+       },
+       {
+        "source_id": "src-hagstofa-changements-islande1876-2019",
+        "locator": "Même scission de Barðastrandarsýsla ; PDF p.42.",
+        "usage": "Vérification des changements et des scissions antérieurs ou postérieurs au Snapshot."
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-is-vestur-isafjardarsysla",
+    "type_entite": "subdivision",
+    "nom": "Vestur-Ísafjarðarsýsla",
+    "nom_court": "Vestur-Ísafjarðarsýsla",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Vestur-Ísafjarðarsýsla",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "sýsla (sýslufélag)",
+       "parent_id": "territoire-is-islande",
+       "souverainete_id": "islande",
+       "note": "Premier niveau de droit au 01/01/1945, début de fenêtre observée et non date de création. La souveraineté islande et le parent sont repris du territoire canonique. Association de comté pour les affaires locales ; ne pas confondre avec le ressort judiciaire ou la région statistique. Scission de Ísafjarðarsýsla, loi 3 du 06/03/1896 ; PDF p.44.",
+       "reserves": [
+        "R2IS-04",
+        "R2IS-05",
+        "R2IS-01"
+       ]
+      },
+      "sources": [
+       {
+        "source_id": "src-hagstofa-regions-islande2012",
+        "locator": "PDF p.14–16, §3.1–3.2",
+        "usage": "Nature des sýslur/sýslufélög et des villes indépendantes ; niveau général retenu."
+       },
+       {
+        "source_id": "src-althingi-tableau-islande1946",
+        "locator": "PDF p.4, tableau de 1946–47, ligne Vestur-Ísafjarðarsýsla",
+        "usage": "Corroboration proche de la liste et du nom ; postérieure au Snapshot, avec regroupements."
+       },
+       {
+        "source_id": "src-hagstofa-changements-islande1876-2019",
+        "locator": "Scission de Ísafjarðarsýsla, loi 3 du 06/03/1896 ; PDF p.44.",
+        "usage": "Vérification des changements et des scissions antérieurs ou postérieurs au Snapshot."
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-is-nordur-isafjardarsysla",
+    "type_entite": "subdivision",
+    "nom": "Norður-Ísafjarðarsýsla",
+    "nom_court": "Norður-Ísafjarðarsýsla",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Norður-Ísafjarðarsýsla",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "sýsla (sýslufélag)",
+       "parent_id": "territoire-is-islande",
+       "souverainete_id": "islande",
+       "note": "Premier niveau de droit au 01/01/1945, début de fenêtre observée et non date de création. La souveraineté islande et le parent sont repris du territoire canonique. Association de comté pour les affaires locales ; ne pas confondre avec le ressort judiciaire ou la région statistique. Même scission de Ísafjarðarsýsla ; PDF p.44.",
+       "reserves": [
+        "R2IS-04",
+        "R2IS-05",
+        "R2IS-01"
+       ]
+      },
+      "sources": [
+       {
+        "source_id": "src-hagstofa-regions-islande2012",
+        "locator": "PDF p.14–16, §3.1–3.2",
+        "usage": "Nature des sýslur/sýslufélög et des villes indépendantes ; niveau général retenu."
+       },
+       {
+        "source_id": "src-althingi-tableau-islande1946",
+        "locator": "PDF p.4, tableau de 1946–47, ligne Norður-Ísafjarðarsýsla",
+        "usage": "Corroboration proche de la liste et du nom ; postérieure au Snapshot, avec regroupements."
+       },
+       {
+        "source_id": "src-hagstofa-changements-islande1876-2019",
+        "locator": "Même scission de Ísafjarðarsýsla ; PDF p.44.",
+        "usage": "Vérification des changements et des scissions antérieurs ou postérieurs au Snapshot."
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-is-strandasysla",
+    "type_entite": "subdivision",
+    "nom": "Strandasýsla",
+    "nom_court": "Strandasýsla",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Strandasýsla",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "sýsla (sýslufélag)",
+       "parent_id": "territoire-is-islande",
+       "souverainete_id": "islande",
+       "note": "Premier niveau de droit au 01/01/1945, début de fenêtre observée et non date de création. La souveraineté islande et le parent sont repris du territoire canonique. Association de comté pour les affaires locales ; ne pas confondre avec le ressort judiciaire ou la région statistique. Nom attesté au tableau proche de 1946 ; cadre des sýslufélög confirmé par Hagstofa 2012, p.14–16.",
+       "reserves": [
+        "R2IS-04",
+        "R2IS-05",
+        "R2IS-01"
+       ]
+      },
+      "sources": [
+       {
+        "source_id": "src-hagstofa-regions-islande2012",
+        "locator": "PDF p.14–16, §3.1–3.2",
+        "usage": "Nature des sýslur/sýslufélög et des villes indépendantes ; niveau général retenu."
+       },
+       {
+        "source_id": "src-althingi-tableau-islande1946",
+        "locator": "PDF p.4, tableau de 1946–47, ligne Strandasýsla",
+        "usage": "Corroboration proche de la liste et du nom ; postérieure au Snapshot, avec regroupements."
+       },
+       {
+        "source_id": "src-hagstofa-changements-islande1876-2019",
+        "locator": "Parties I–II, p.2–75 ; cadre et changements nominatifs, croisés avec la table de 1946.",
+        "usage": "Vérification des changements et des scissions antérieurs ou postérieurs au Snapshot."
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-is-vestur-hunavatnssysla",
+    "type_entite": "subdivision",
+    "nom": "Vestur-Húnavatnssýsla",
+    "nom_court": "Vestur-Húnavatnssýsla",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Vestur-Húnavatnssýsla",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "sýsla (sýslufélag)",
+       "parent_id": "territoire-is-islande",
+       "souverainete_id": "islande",
+       "note": "Premier niveau de droit au 01/01/1945, début de fenêtre observée et non date de création. La souveraineté islande et le parent sont repris du territoire canonique. Association de comté pour les affaires locales ; ne pas confondre avec le ressort judiciaire ou la région statistique. Scission de Húnavatnssýsla, loi 77 du 22/11/1907 ; PDF p.46.",
+       "reserves": [
+        "R2IS-04",
+        "R2IS-05",
+        "R2IS-01"
+       ]
+      },
+      "sources": [
+       {
+        "source_id": "src-hagstofa-regions-islande2012",
+        "locator": "PDF p.14–16, §3.1–3.2",
+        "usage": "Nature des sýslur/sýslufélög et des villes indépendantes ; niveau général retenu."
+       },
+       {
+        "source_id": "src-althingi-tableau-islande1946",
+        "locator": "PDF p.4, tableau de 1946–47, ligne Vestur-Húnavatnssýsla",
+        "usage": "Corroboration proche de la liste et du nom ; postérieure au Snapshot, avec regroupements."
+       },
+       {
+        "source_id": "src-hagstofa-changements-islande1876-2019",
+        "locator": "Scission de Húnavatnssýsla, loi 77 du 22/11/1907 ; PDF p.46.",
+        "usage": "Vérification des changements et des scissions antérieurs ou postérieurs au Snapshot."
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-is-austur-hunavatnssysla",
+    "type_entite": "subdivision",
+    "nom": "Austur-Húnavatnssýsla",
+    "nom_court": "Austur-Húnavatnssýsla",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Austur-Húnavatnssýsla",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "sýsla (sýslufélag)",
+       "parent_id": "territoire-is-islande",
+       "souverainete_id": "islande",
+       "note": "Premier niveau de droit au 01/01/1945, début de fenêtre observée et non date de création. La souveraineté islande et le parent sont repris du territoire canonique. Association de comté pour les affaires locales ; ne pas confondre avec le ressort judiciaire ou la région statistique. Même scission de Húnavatnssýsla ; PDF p.46.",
+       "reserves": [
+        "R2IS-04",
+        "R2IS-05",
+        "R2IS-01"
+       ]
+      },
+      "sources": [
+       {
+        "source_id": "src-hagstofa-regions-islande2012",
+        "locator": "PDF p.14–16, §3.1–3.2",
+        "usage": "Nature des sýslur/sýslufélög et des villes indépendantes ; niveau général retenu."
+       },
+       {
+        "source_id": "src-althingi-tableau-islande1946",
+        "locator": "PDF p.4, tableau de 1946–47, ligne Austur-Húnavatnssýsla",
+        "usage": "Corroboration proche de la liste et du nom ; postérieure au Snapshot, avec regroupements."
+       },
+       {
+        "source_id": "src-hagstofa-changements-islande1876-2019",
+        "locator": "Même scission de Húnavatnssýsla ; PDF p.46.",
+        "usage": "Vérification des changements et des scissions antérieurs ou postérieurs au Snapshot."
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-is-skagafjardarsysla",
+    "type_entite": "subdivision",
+    "nom": "Skagafjarðarsýsla",
+    "nom_court": "Skagafjarðarsýsla",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Skagafjarðarsýsla",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "sýsla (sýslufélag)",
+       "parent_id": "territoire-is-islande",
+       "souverainete_id": "islande",
+       "note": "Premier niveau de droit au 01/01/1945, début de fenêtre observée et non date de création. La souveraineté islande et le parent sont repris du territoire canonique. Association de comté pour les affaires locales ; ne pas confondre avec le ressort judiciaire ou la région statistique. Nom attesté au tableau proche de 1946 ; cadre des sýslufélög confirmé par Hagstofa 2012, p.14–16.",
+       "reserves": [
+        "R2IS-04",
+        "R2IS-05",
+        "R2IS-01"
+       ]
+      },
+      "sources": [
+       {
+        "source_id": "src-hagstofa-regions-islande2012",
+        "locator": "PDF p.14–16, §3.1–3.2",
+        "usage": "Nature des sýslur/sýslufélög et des villes indépendantes ; niveau général retenu."
+       },
+       {
+        "source_id": "src-althingi-tableau-islande1946",
+        "locator": "PDF p.4, tableau de 1946–47, ligne Skagafjarðarsýsla",
+        "usage": "Corroboration proche de la liste et du nom ; postérieure au Snapshot, avec regroupements."
+       },
+       {
+        "source_id": "src-hagstofa-changements-islande1876-2019",
+        "locator": "Parties I–II, p.2–75 ; cadre et changements nominatifs, croisés avec la table de 1946.",
+        "usage": "Vérification des changements et des scissions antérieurs ou postérieurs au Snapshot."
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-is-eyjafjardarsysla",
+    "type_entite": "subdivision",
+    "nom": "Eyjafjarðarsýsla",
+    "nom_court": "Eyjafjarðarsýsla",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Eyjafjarðarsýsla",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "sýsla (sýslufélag)",
+       "parent_id": "territoire-is-islande",
+       "souverainete_id": "islande",
+       "note": "Premier niveau de droit au 01/01/1945, début de fenêtre observée et non date de création. La souveraineté islande et le parent sont repris du territoire canonique. Association de comté pour les affaires locales ; ne pas confondre avec le ressort judiciaire ou la région statistique. Nom attesté au tableau proche de 1946 ; cadre des sýslufélög confirmé par Hagstofa 2012, p.14–16.",
+       "reserves": [
+        "R2IS-04",
+        "R2IS-05",
+        "R2IS-01"
+       ]
+      },
+      "sources": [
+       {
+        "source_id": "src-hagstofa-regions-islande2012",
+        "locator": "PDF p.14–16, §3.1–3.2",
+        "usage": "Nature des sýslur/sýslufélög et des villes indépendantes ; niveau général retenu."
+       },
+       {
+        "source_id": "src-althingi-tableau-islande1946",
+        "locator": "PDF p.4, tableau de 1946–47, ligne Eyjafjarðarsýsla",
+        "usage": "Corroboration proche de la liste et du nom ; postérieure au Snapshot, avec regroupements."
+       },
+       {
+        "source_id": "src-hagstofa-changements-islande1876-2019",
+        "locator": "Parties I–II, p.2–75 ; cadre et changements nominatifs, croisés avec la table de 1946.",
+        "usage": "Vérification des changements et des scissions antérieurs ou postérieurs au Snapshot."
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-is-sudur-thingeyjarsysla",
+    "type_entite": "subdivision",
+    "nom": "Suður-Þingeyjarsýsla",
+    "nom_court": "Suður-Þingeyjarsýsla",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Suður-Þingeyjarsýsla",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "sýsla (sýslufélag)",
+       "parent_id": "territoire-is-islande",
+       "souverainete_id": "islande",
+       "note": "Premier niveau de droit au 01/01/1945, début de fenêtre observée et non date de création. La souveraineté islande et le parent sont repris du territoire canonique. Association de comté pour les affaires locales ; ne pas confondre avec le ressort judiciaire ou la région statistique. Scission de Þingeyjarsýsla, loi 31/1877, en vigueur 01/01/1879 ; PDF p.41.",
+       "reserves": [
+        "R2IS-04",
+        "R2IS-05",
+        "R2IS-01"
+       ]
+      },
+      "sources": [
+       {
+        "source_id": "src-hagstofa-regions-islande2012",
+        "locator": "PDF p.14–16, §3.1–3.2",
+        "usage": "Nature des sýslur/sýslufélög et des villes indépendantes ; niveau général retenu."
+       },
+       {
+        "source_id": "src-althingi-tableau-islande1946",
+        "locator": "PDF p.4, tableau de 1946–47, ligne Suður-Þingeyjarsýsla",
+        "usage": "Corroboration proche de la liste et du nom ; postérieure au Snapshot, avec regroupements."
+       },
+       {
+        "source_id": "src-hagstofa-changements-islande1876-2019",
+        "locator": "Scission de Þingeyjarsýsla, loi 31/1877, en vigueur 01/01/1879 ; PDF p.41.",
+        "usage": "Vérification des changements et des scissions antérieurs ou postérieurs au Snapshot."
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-is-nordur-thingeyjarsysla",
+    "type_entite": "subdivision",
+    "nom": "Norður-Þingeyjarsýsla",
+    "nom_court": "Norður-Þingeyjarsýsla",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Norður-Þingeyjarsýsla",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "sýsla (sýslufélag)",
+       "parent_id": "territoire-is-islande",
+       "souverainete_id": "islande",
+       "note": "Premier niveau de droit au 01/01/1945, début de fenêtre observée et non date de création. La souveraineté islande et le parent sont repris du territoire canonique. Association de comté pour les affaires locales ; ne pas confondre avec le ressort judiciaire ou la région statistique. Même scission de Þingeyjarsýsla ; PDF p.41.",
+       "reserves": [
+        "R2IS-04",
+        "R2IS-05",
+        "R2IS-01"
+       ]
+      },
+      "sources": [
+       {
+        "source_id": "src-hagstofa-regions-islande2012",
+        "locator": "PDF p.14–16, §3.1–3.2",
+        "usage": "Nature des sýslur/sýslufélög et des villes indépendantes ; niveau général retenu."
+       },
+       {
+        "source_id": "src-althingi-tableau-islande1946",
+        "locator": "PDF p.4, tableau de 1946–47, ligne Norður-Þingeyjarsýsla",
+        "usage": "Corroboration proche de la liste et du nom ; postérieure au Snapshot, avec regroupements."
+       },
+       {
+        "source_id": "src-hagstofa-changements-islande1876-2019",
+        "locator": "Même scission de Þingeyjarsýsla ; PDF p.41.",
+        "usage": "Vérification des changements et des scissions antérieurs ou postérieurs au Snapshot."
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-is-nordur-mulasysla",
+    "type_entite": "subdivision",
+    "nom": "Norður-Múlasýsla",
+    "nom_court": "Norður-Múlasýsla",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Norður-Múlasýsla",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "sýsla (sýslufélag)",
+       "parent_id": "territoire-is-islande",
+       "souverainete_id": "islande",
+       "note": "Premier niveau de droit au 01/01/1945, début de fenêtre observée et non date de création. La souveraineté islande et le parent sont repris du territoire canonique. Association de comté pour les affaires locales ; ne pas confondre avec le ressort judiciaire ou la région statistique. Nom attesté au tableau proche de 1946 ; cadre des sýslufélög confirmé par Hagstofa 2012, p.14–16.",
+       "reserves": [
+        "R2IS-04",
+        "R2IS-05",
+        "R2IS-06"
+       ]
+      },
+      "sources": [
+       {
+        "source_id": "src-hagstofa-regions-islande2012",
+        "locator": "PDF p.14–16, §3.1–3.2",
+        "usage": "Nature des sýslur/sýslufélög et des villes indépendantes ; niveau général retenu."
+       },
+       {
+        "source_id": "src-althingi-tableau-islande1946",
+        "locator": "PDF p.4, tableau de 1946–47, ligne Norður-Múlasýsla",
+        "usage": "Corroboration proche de la liste et du nom ; postérieure au Snapshot, avec regroupements."
+       },
+       {
+        "source_id": "src-hagstofa-changements-islande1876-2019",
+        "locator": "Parties I–II, p.2–75 ; cadre et changements nominatifs, croisés avec la table de 1946.",
+        "usage": "Vérification des changements et des scissions antérieurs ou postérieurs au Snapshot."
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-is-sudur-mulasysla",
+    "type_entite": "subdivision",
+    "nom": "Suður-Múlasýsla",
+    "nom_court": "Suður-Múlasýsla",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Suður-Múlasýsla",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "sýsla (sýslufélag)",
+       "parent_id": "territoire-is-islande",
+       "souverainete_id": "islande",
+       "note": "Premier niveau de droit au 01/01/1945, début de fenêtre observée et non date de création. La souveraineté islande et le parent sont repris du territoire canonique. Association de comté pour les affaires locales ; ne pas confondre avec le ressort judiciaire ou la région statistique. Nom attesté au tableau proche de 1946 ; cadre des sýslufélög confirmé par Hagstofa 2012, p.14–16.",
+       "reserves": [
+        "R2IS-04",
+        "R2IS-05",
+        "R2IS-01"
+       ]
+      },
+      "sources": [
+       {
+        "source_id": "src-hagstofa-regions-islande2012",
+        "locator": "PDF p.14–16, §3.1–3.2",
+        "usage": "Nature des sýslur/sýslufélög et des villes indépendantes ; niveau général retenu."
+       },
+       {
+        "source_id": "src-althingi-tableau-islande1946",
+        "locator": "PDF p.4, tableau de 1946–47, ligne Suður-Múlasýsla",
+        "usage": "Corroboration proche de la liste et du nom ; postérieure au Snapshot, avec regroupements."
+       },
+       {
+        "source_id": "src-hagstofa-changements-islande1876-2019",
+        "locator": "Parties I–II, p.2–75 ; cadre et changements nominatifs, croisés avec la table de 1946.",
+        "usage": "Vérification des changements et des scissions antérieurs ou postérieurs au Snapshot."
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-is-austur-skaftafellssysla",
+    "type_entite": "subdivision",
+    "nom": "Austur-Skaftafellssýsla",
+    "nom_court": "Austur-Skaftafellssýsla",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Austur-Skaftafellssýsla",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "sýsla (sýslufélag)",
+       "parent_id": "territoire-is-islande",
+       "souverainete_id": "islande",
+       "note": "Premier niveau de droit au 01/01/1945, début de fenêtre observée et non date de création. La souveraineté islande et le parent sont repris du territoire canonique. Association de comté pour les affaires locales ; ne pas confondre avec le ressort judiciaire ou la région statistique. Scission de Skaftafellssýsla, loi 31/1877, en vigueur 01/01/1879 ; PDF p.41.",
+       "reserves": [
+        "R2IS-04",
+        "R2IS-05",
+        "R2IS-01"
+       ]
+      },
+      "sources": [
+       {
+        "source_id": "src-hagstofa-regions-islande2012",
+        "locator": "PDF p.14–16, §3.1–3.2",
+        "usage": "Nature des sýslur/sýslufélög et des villes indépendantes ; niveau général retenu."
+       },
+       {
+        "source_id": "src-althingi-tableau-islande1946",
+        "locator": "PDF p.4, tableau de 1946–47, ligne Austur-Skaftafellssýsla",
+        "usage": "Corroboration proche de la liste et du nom ; postérieure au Snapshot, avec regroupements."
+       },
+       {
+        "source_id": "src-hagstofa-changements-islande1876-2019",
+        "locator": "Scission de Skaftafellssýsla, loi 31/1877, en vigueur 01/01/1879 ; PDF p.41.",
+        "usage": "Vérification des changements et des scissions antérieurs ou postérieurs au Snapshot."
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-is-vestur-skaftafellssysla",
+    "type_entite": "subdivision",
+    "nom": "Vestur-Skaftafellssýsla",
+    "nom_court": "Vestur-Skaftafellssýsla",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Vestur-Skaftafellssýsla",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "sýsla (sýslufélag)",
+       "parent_id": "territoire-is-islande",
+       "souverainete_id": "islande",
+       "note": "Premier niveau de droit au 01/01/1945, début de fenêtre observée et non date de création. La souveraineté islande et le parent sont repris du territoire canonique. Association de comté pour les affaires locales ; ne pas confondre avec le ressort judiciaire ou la région statistique. Même scission de Skaftafellssýsla ; PDF p.41.",
+       "reserves": [
+        "R2IS-04",
+        "R2IS-05",
+        "R2IS-01"
+       ]
+      },
+      "sources": [
+       {
+        "source_id": "src-hagstofa-regions-islande2012",
+        "locator": "PDF p.14–16, §3.1–3.2",
+        "usage": "Nature des sýslur/sýslufélög et des villes indépendantes ; niveau général retenu."
+       },
+       {
+        "source_id": "src-althingi-tableau-islande1946",
+        "locator": "PDF p.4, tableau de 1946–47, ligne Vestur-Skaftafellssýsla",
+        "usage": "Corroboration proche de la liste et du nom ; postérieure au Snapshot, avec regroupements."
+       },
+       {
+        "source_id": "src-hagstofa-changements-islande1876-2019",
+        "locator": "Même scission de Skaftafellssýsla ; PDF p.41.",
+        "usage": "Vérification des changements et des scissions antérieurs ou postérieurs au Snapshot."
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-is-rangarvallasysla",
+    "type_entite": "subdivision",
+    "nom": "Rangárvallasýsla",
+    "nom_court": "Rangárvallasýsla",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Rangárvallasýsla",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "sýsla (sýslufélag)",
+       "parent_id": "territoire-is-islande",
+       "souverainete_id": "islande",
+       "note": "Premier niveau de droit au 01/01/1945, début de fenêtre observée et non date de création. La souveraineté islande et le parent sont repris du territoire canonique. Association de comté pour les affaires locales ; ne pas confondre avec le ressort judiciaire ou la région statistique. Nom attesté au tableau proche de 1946 ; cadre des sýslufélög confirmé par Hagstofa 2012, p.14–16.",
+       "reserves": [
+        "R2IS-04",
+        "R2IS-05",
+        "R2IS-01"
+       ]
+      },
+      "sources": [
+       {
+        "source_id": "src-hagstofa-regions-islande2012",
+        "locator": "PDF p.14–16, §3.1–3.2",
+        "usage": "Nature des sýslur/sýslufélög et des villes indépendantes ; niveau général retenu."
+       },
+       {
+        "source_id": "src-althingi-tableau-islande1946",
+        "locator": "PDF p.4, tableau de 1946–47, ligne Rangárvallasýsla",
+        "usage": "Corroboration proche de la liste et du nom ; postérieure au Snapshot, avec regroupements."
+       },
+       {
+        "source_id": "src-hagstofa-changements-islande1876-2019",
+        "locator": "Parties I–II, p.2–75 ; cadre et changements nominatifs, croisés avec la table de 1946.",
+        "usage": "Vérification des changements et des scissions antérieurs ou postérieurs au Snapshot."
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-is-arnessysla",
+    "type_entite": "subdivision",
+    "nom": "Árnessýsla",
+    "nom_court": "Árnessýsla",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Árnessýsla",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "sýsla (sýslufélag)",
+       "parent_id": "territoire-is-islande",
+       "souverainete_id": "islande",
+       "note": "Premier niveau de droit au 01/01/1945, début de fenêtre observée et non date de création. La souveraineté islande et le parent sont repris du territoire canonique. Association de comté pour les affaires locales ; ne pas confondre avec le ressort judiciaire ou la région statistique. Nom attesté au tableau proche de 1946 ; cadre des sýslufélög confirmé par Hagstofa 2012, p.14–16.",
+       "reserves": [
+        "R2IS-04",
+        "R2IS-05",
+        "R2IS-01"
+       ]
+      },
+      "sources": [
+       {
+        "source_id": "src-hagstofa-regions-islande2012",
+        "locator": "PDF p.14–16, §3.1–3.2",
+        "usage": "Nature des sýslur/sýslufélög et des villes indépendantes ; niveau général retenu."
+       },
+       {
+        "source_id": "src-althingi-tableau-islande1946",
+        "locator": "PDF p.4, tableau de 1946–47, ligne Árnessýsla",
+        "usage": "Corroboration proche de la liste et du nom ; postérieure au Snapshot, avec regroupements."
+       },
+       {
+        "source_id": "src-hagstofa-changements-islande1876-2019",
+        "locator": "Parties I–II, p.2–75 ; cadre et changements nominatifs, croisés avec la table de 1946.",
+        "usage": "Vérification des changements et des scissions antérieurs ou postérieurs au Snapshot."
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-is-kaupstadur-reykjavik",
+    "type_entite": "subdivision",
+    "nom": "Reykjavík — ville indépendante",
+    "nom_court": "Reykjavík",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Reykjavík",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "kaupstaður",
+       "parent_id": "territoire-is-islande",
+       "souverainete_id": "islande",
+       "note": "Premier niveau de droit au 01/01/1945, début de fenêtre observée et non date de création. La souveraineté islande et le parent sont repris du territoire canonique. Ville indépendante du sýslufélag environnant ; fiche de circonscription, sans création d’une fiche ville. PDF p.48 et 50 : extensions 1923, 1929, 1932, 1943 ; ville distincte au tableau 1946.",
+       "reserves": [
+        "R2IS-04",
+        "R2IS-05",
+        "R2IS-02"
+       ]
+      },
+      "sources": [
+       {
+        "source_id": "src-hagstofa-regions-islande2012",
+        "locator": "PDF p.14–16, §3.1–3.2",
+        "usage": "Nature des sýslur/sýslufélög et des villes indépendantes ; niveau général retenu."
+       },
+       {
+        "source_id": "src-althingi-tableau-islande1946",
+        "locator": "PDF p.4, tableau de 1946–47, ligne Reykjavík",
+        "usage": "Corroboration proche de la liste et du nom ; postérieure au Snapshot, avec regroupements."
+       },
+       {
+        "source_id": "src-hagstofa-changements-islande1876-2019",
+        "locator": "PDF p.48 et 50 : extensions 1923, 1929, 1932, 1943 ; ville distincte au tableau 1946.",
+        "usage": "Vérification des changements et des scissions antérieurs ou postérieurs au Snapshot."
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-is-kaupstadur-hafnarfjordur",
+    "type_entite": "subdivision",
+    "nom": "Hafnarfjörður — ville indépendante",
+    "nom_court": "Hafnarfjörður",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Hafnarfjörður",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "kaupstaður",
+       "parent_id": "territoire-is-islande",
+       "souverainete_id": "islande",
+       "note": "Premier niveau de droit au 01/01/1945, début de fenêtre observée et non date de création. La souveraineté islande et le parent sont repris du territoire canonique. Ville indépendante du sýslufélag environnant ; fiche de circonscription, sans création d’une fiche ville. PDF p.46 : statut au 01/06/1908 ; p.49 extension 1936.",
+       "reserves": [
+        "R2IS-04",
+        "R2IS-05",
+        "R2IS-02"
+       ]
+      },
+      "sources": [
+       {
+        "source_id": "src-hagstofa-regions-islande2012",
+        "locator": "PDF p.14–16, §3.1–3.2",
+        "usage": "Nature des sýslur/sýslufélög et des villes indépendantes ; niveau général retenu."
+       },
+       {
+        "source_id": "src-althingi-tableau-islande1946",
+        "locator": "PDF p.4, tableau de 1946–47, ligne Hafnarfjörður",
+        "usage": "Corroboration proche de la liste et du nom ; postérieure au Snapshot, avec regroupements."
+       },
+       {
+        "source_id": "src-hagstofa-changements-islande1876-2019",
+        "locator": "PDF p.46 : statut au 01/06/1908 ; p.49 extension 1936.",
+        "usage": "Vérification des changements et des scissions antérieurs ou postérieurs au Snapshot."
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-is-kaupstadur-akranes",
+    "type_entite": "subdivision",
+    "nom": "Akranes — ville indépendante",
+    "nom_court": "Akranes",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Akranes",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "kaupstaður",
+       "parent_id": "territoire-is-islande",
+       "souverainete_id": "islande",
+       "note": "Premier niveau de droit au 01/01/1945, début de fenêtre observée et non date de création. La souveraineté islande et le parent sont repris du territoire canonique. Ville indépendante du sýslufélag environnant ; fiche de circonscription, sans création d’une fiche ville. PDF p.49 : Ytri-Akraneshreppur reçoit le statut au 01/01/1942.",
+       "reserves": [
+        "R2IS-04",
+        "R2IS-05",
+        "R2IS-02"
+       ]
+      },
+      "sources": [
+       {
+        "source_id": "src-hagstofa-regions-islande2012",
+        "locator": "PDF p.14–16, §3.1–3.2",
+        "usage": "Nature des sýslur/sýslufélög et des villes indépendantes ; niveau général retenu."
+       },
+       {
+        "source_id": "src-althingi-tableau-islande1946",
+        "locator": "PDF p.4, tableau de 1946–47, ligne Akranes",
+        "usage": "Corroboration proche de la liste et du nom ; postérieure au Snapshot, avec regroupements."
+       },
+       {
+        "source_id": "src-hagstofa-changements-islande1876-2019",
+        "locator": "PDF p.49 : Ytri-Akraneshreppur reçoit le statut au 01/01/1942.",
+        "usage": "Vérification des changements et des scissions antérieurs ou postérieurs au Snapshot."
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-is-kaupstadur-isafjordur",
+    "type_entite": "subdivision",
+    "nom": "Ísafjörður — ville indépendante",
+    "nom_court": "Ísafjörður",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Ísafjörður",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "kaupstaður",
+       "parent_id": "territoire-is-islande",
+       "souverainete_id": "islande",
+       "note": "Premier niveau de droit au 01/01/1945, début de fenêtre observée et non date de création. La souveraineté islande et le parent sont repris du territoire canonique. Ville indépendante du sýslufélag environnant ; fiche de circonscription, sans création d’une fiche ville. PDF p.20 : extension de 1918 ; ville distincte dans tableau Alþingi 1946.",
+       "reserves": [
+        "R2IS-04",
+        "R2IS-05",
+        "R2IS-06"
+       ]
+      },
+      "sources": [
+       {
+        "source_id": "src-hagstofa-regions-islande2012",
+        "locator": "PDF p.14–16, §3.1–3.2",
+        "usage": "Nature des sýslur/sýslufélög et des villes indépendantes ; niveau général retenu."
+       },
+       {
+        "source_id": "src-althingi-tableau-islande1946",
+        "locator": "PDF p.4, tableau de 1946–47, ligne Ísafjörður",
+        "usage": "Corroboration proche de la liste et du nom ; postérieure au Snapshot, avec regroupements."
+       },
+       {
+        "source_id": "src-hagstofa-changements-islande1876-2019",
+        "locator": "PDF p.20 : extension de 1918 ; ville distincte dans tableau Alþingi 1946.",
+        "usage": "Vérification des changements et des scissions antérieurs ou postérieurs au Snapshot."
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-is-kaupstadur-siglufjordur",
+    "type_entite": "subdivision",
+    "nom": "Siglufjörður — ville indépendante",
+    "nom_court": "Siglufjörður",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Siglufjörður",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "kaupstaður",
+       "parent_id": "territoire-is-islande",
+       "souverainete_id": "islande",
+       "note": "Premier niveau de droit au 01/01/1945, début de fenêtre observée et non date de création. La souveraineté islande et le parent sont repris du territoire canonique. Ville indépendante du sýslufélag environnant ; fiche de circonscription, sans création d’une fiche ville. PDF p.32, notice Hvanneyrarhreppur/Siglufjörður : statut antérieur à 1945 ; p.32 fusion 2006.",
+       "reserves": [
+        "R2IS-04",
+        "R2IS-05",
+        "R2IS-03"
+       ]
+      },
+      "sources": [
+       {
+        "source_id": "src-hagstofa-regions-islande2012",
+        "locator": "PDF p.14–16, §3.1–3.2",
+        "usage": "Nature des sýslur/sýslufélög et des villes indépendantes ; niveau général retenu."
+       },
+       {
+        "source_id": "src-althingi-tableau-islande1946",
+        "locator": "PDF p.4, tableau de 1946–47, ligne Siglufjörður",
+        "usage": "Corroboration proche de la liste et du nom ; postérieure au Snapshot, avec regroupements."
+       },
+       {
+        "source_id": "src-hagstofa-changements-islande1876-2019",
+        "locator": "PDF p.32, notice Hvanneyrarhreppur/Siglufjörður : statut antérieur à 1945 ; p.32 fusion 2006.",
+        "usage": "Vérification des changements et des scissions antérieurs ou postérieurs au Snapshot."
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-is-kaupstadur-olafsfjordur",
+    "type_entite": "subdivision",
+    "nom": "Ólafsfjörður — ville indépendante",
+    "nom_court": "Ólafsfjörður",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Ólafsfjörður",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "kaupstaður",
+       "parent_id": "territoire-is-islande",
+       "souverainete_id": "islande",
+       "note": "Premier niveau de droit au 01/01/1945, début de fenêtre observée et non date de création. La souveraineté islande et le parent sont repris du territoire canonique. Ville indépendante du sýslufélag environnant ; fiche de circonscription, sans création d’une fiche ville. PDF p.50 : loi 60 du 31/10/1944, effet 01/01/1945.",
+       "reserves": [
+        "R2IS-04",
+        "R2IS-05",
+        "R2IS-03"
+       ]
+      },
+      "sources": [
+       {
+        "source_id": "src-hagstofa-regions-islande2012",
+        "locator": "PDF p.14–16, §3.1–3.2",
+        "usage": "Nature des sýslur/sýslufélög et des villes indépendantes ; niveau général retenu."
+       },
+       {
+        "source_id": "src-althingi-tableau-islande1946",
+        "locator": "PDF p.4, tableau de 1946–47, ligne Ólafsfjörður",
+        "usage": "Corroboration proche de la liste et du nom ; postérieure au Snapshot, avec regroupements."
+       },
+       {
+        "source_id": "src-hagstofa-changements-islande1876-2019",
+        "locator": "PDF p.50 : loi 60 du 31/10/1944, effet 01/01/1945.",
+        "usage": "Vérification des changements et des scissions antérieurs ou postérieurs au Snapshot."
+       },
+       {
+        "source_id": "src-vedur-olafsfjordur-histoire2004",
+        "locator": "PDF p.12, page imprimée 13, §2.2",
+        "usage": "Confirme le statut le 1er janvier 1945, sur l’ensemble rural et urbain."
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-is-kaupstadur-akureyri",
+    "type_entite": "subdivision",
+    "nom": "Akureyri — ville indépendante",
+    "nom_court": "Akureyri",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Akureyri",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "kaupstaður",
+       "parent_id": "territoire-is-islande",
+       "souverainete_id": "islande",
+       "note": "Premier niveau de droit au 01/01/1945, début de fenêtre observée et non date de création. La souveraineté islande et le parent sont repris du territoire canonique. Ville indépendante du sýslufélag environnant ; fiche de circonscription, sans création d’une fiche ville. PDF p.2 : extensions 1896, 1909, 1920, puis 1955 ; ville distincte au tableau 1946.",
+       "reserves": [
+        "R2IS-04",
+        "R2IS-05",
+        "R2IS-02"
+       ]
+      },
+      "sources": [
+       {
+        "source_id": "src-hagstofa-regions-islande2012",
+        "locator": "PDF p.14–16, §3.1–3.2",
+        "usage": "Nature des sýslur/sýslufélög et des villes indépendantes ; niveau général retenu."
+       },
+       {
+        "source_id": "src-althingi-tableau-islande1946",
+        "locator": "PDF p.4, tableau de 1946–47, ligne Akureyri",
+        "usage": "Corroboration proche de la liste et du nom ; postérieure au Snapshot, avec regroupements."
+       },
+       {
+        "source_id": "src-hagstofa-changements-islande1876-2019",
+        "locator": "PDF p.2 : extensions 1896, 1909, 1920, puis 1955 ; ville distincte au tableau 1946.",
+        "usage": "Vérification des changements et des scissions antérieurs ou postérieurs au Snapshot."
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-is-kaupstadur-seydisfjordur",
+    "type_entite": "subdivision",
+    "nom": "Seyðisfjörður — ville indépendante",
+    "nom_court": "Seyðisfjörður",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Seyðisfjörður",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "kaupstaður",
+       "parent_id": "territoire-is-islande",
+       "souverainete_id": "islande",
+       "note": "Premier niveau de droit au 01/01/1945, début de fenêtre observée et non date de création. La souveraineté islande et le parent sont repris du territoire canonique. Ville indépendante du sýslufélag environnant ; fiche de circonscription, sans création d’une fiche ville. PDF p.20 et 31 : statut au 01/01/1895 ; réunion du hreppur seulement le 01/04/1990.",
+       "reserves": [
+        "R2IS-04",
+        "R2IS-05",
+        "R2IS-03"
+       ]
+      },
+      "sources": [
+       {
+        "source_id": "src-hagstofa-regions-islande2012",
+        "locator": "PDF p.14–16, §3.1–3.2",
+        "usage": "Nature des sýslur/sýslufélög et des villes indépendantes ; niveau général retenu."
+       },
+       {
+        "source_id": "src-althingi-tableau-islande1946",
+        "locator": "PDF p.4, tableau de 1946–47, ligne Seyðisfjörður",
+        "usage": "Corroboration proche de la liste et du nom ; postérieure au Snapshot, avec regroupements."
+       },
+       {
+        "source_id": "src-hagstofa-changements-islande1876-2019",
+        "locator": "PDF p.20 et 31 : statut au 01/01/1895 ; réunion du hreppur seulement le 01/04/1990.",
+        "usage": "Vérification des changements et des scissions antérieurs ou postérieurs au Snapshot."
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-is-kaupstadur-neskaupstadur",
+    "type_entite": "subdivision",
+    "nom": "Neskaupstaður — ville indépendante",
+    "nom_court": "Neskaupstaður",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Neskaupstaður",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "kaupstaður",
+       "parent_id": "territoire-is-islande",
+       "souverainete_id": "islande",
+       "note": "Premier niveau de droit au 01/01/1945, début de fenêtre observée et non date de création. La souveraineté islande et le parent sont repris du territoire canonique. Ville indépendante du sýslufélag environnant ; fiche de circonscription, sans création d’une fiche ville. PDF p.48 : Neshreppur reçoit le statut au 01/01/1929 ; p.49–50 extension 1943. Alias Norðfjörður dans la table de 1946.",
+       "reserves": [
+        "R2IS-04",
+        "R2IS-05",
+        "R2IS-02"
+       ]
+      },
+      "sources": [
+       {
+        "source_id": "src-hagstofa-regions-islande2012",
+        "locator": "PDF p.14–16, §3.1–3.2",
+        "usage": "Nature des sýslur/sýslufélög et des villes indépendantes ; niveau général retenu."
+       },
+       {
+        "source_id": "src-althingi-tableau-islande1946",
+        "locator": "PDF p.4, tableau de 1946–47, ligne Norðfjörður",
+        "usage": "Corroboration proche de la liste et du nom ; postérieure au Snapshot, avec regroupements."
+       },
+       {
+        "source_id": "src-hagstofa-changements-islande1876-2019",
+        "locator": "PDF p.48 : Neshreppur reçoit le statut au 01/01/1929 ; p.49–50 extension 1943.",
+        "usage": "Vérification des changements et des scissions antérieurs ou postérieurs au Snapshot."
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-is-kaupstadur-vestmannaeyjar",
+    "type_entite": "subdivision",
+    "nom": "Vestmannaeyjar — ville indépendante",
+    "nom_court": "Vestmannaeyjar",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Vestmannaeyjar",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "kaupstaður",
+       "parent_id": "territoire-is-islande",
+       "souverainete_id": "islande",
+       "note": "Premier niveau de droit au 01/01/1945, début de fenêtre observée et non date de création. La souveraineté islande et le parent sont repris du territoire canonique. Ville indépendante du sýslufélag environnant ; fiche de circonscription, sans création d’une fiche ville. PDF p.36 : statut au 01/01/1919 ; ville distincte au tableau 1946.",
+       "reserves": [
+        "R2IS-04",
+        "R2IS-05",
+        "R2IS-02"
+       ]
+      },
+      "sources": [
+       {
+        "source_id": "src-hagstofa-regions-islande2012",
+        "locator": "PDF p.14–16, §3.1–3.2",
+        "usage": "Nature des sýslur/sýslufélög et des villes indépendantes ; niveau général retenu."
+       },
+       {
+        "source_id": "src-althingi-tableau-islande1946",
+        "locator": "PDF p.4, tableau de 1946–47, ligne Vestmannaeyjar",
+        "usage": "Corroboration proche de la liste et du nom ; postérieure au Snapshot, avec regroupements."
+       },
+       {
+        "source_id": "src-hagstofa-changements-islande1876-2019",
+        "locator": "PDF p.36 : statut au 01/01/1919 ; ville distincte au tableau 1946.",
+        "usage": "Vérification des changements et des scissions antérieurs ou postérieurs au Snapshot."
+       }
+      ]
+     }
+    ],
+    "relations": []
+   }
+  ]
+ }
+}

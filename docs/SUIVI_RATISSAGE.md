@@ -100,3 +100,4 @@ Principe de Guizmo : **maximum d'informations, minimum de visibilité**. La cart
 | 2.NO | 20 (fylker, Oslo et Bergen à part) | 0 (Herredskart 1941 CC BY 4.0 non vectorisés, R2NO-01) | 11 (5 ok) | intégré le 25/10/2026 (cycle 1, boucle) |
 | 2.SE | 25 (Stockholms stad + 24 län) | 23 (histmaps Junkka/Riksarkivet CC0 ; Stockholm ville et län sans tracé, R2SE-02) | 5 (2 ok) | intégré le 25/10/2026 (cycle 1, boucle) |
 | 2.FI | 58 (10 provinces dont Åland ; 48 kihlakunnat, sur 54 au total national, R2FI-02) | 0 (SAPO/Sorvi CC BY 4.0, assemblage 1945 non validé, R2FI-01) | 7 (4 ok) | intégré le 25/10/2026 (cycle 1, boucle) |
+| 2.IS | 33 (23 sýslufélög, 10 kaupstaðir) | 3 (NÁTT Sveitarfélög tímalína, CC BY 4.0 ; comtés de 1990 non retenus, R2IS-01) | 8 (5 ok) | intégré le 25/10/2026 (cycle 1, boucle) ; groupe 3 terminé |

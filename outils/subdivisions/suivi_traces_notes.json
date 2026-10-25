@@ -76,6 +76,10 @@
   "2.FI": {
    "pourquoi": "aucun contour de province ou de district au 01/01/1945 validé ; SAPO (communes historiques, CC BY 4.0) a des manques (84 des 547 communes de 1945 sans géométrie), des enclaves absentes et pas de jointure communes → districts de 1945 (R2FI-01).",
    "pistes": "SAPO via Sorvi/rOpenGov (révision 65a9a2c) : https://ropengov.github.io/sorvi/articles/finnish-historical-maps.html ; licence et auteurs : https://dev.hipla.fi/ (FinnONTO/SeCo Aalto, CC BY 4.0) ; reconstituer les communes de 1945 et leur rattachement, avec cessions et Porkkala."
+  },
+  "2.IS": {
+   "pourquoi": "23 comtés sans tracé : la seule couche ouverte (« Gömlu sýslurnar », LMÍ) est fondée sur une carte de 1990, englobe des villes indépendantes et n'établit pas les limites de 1945 (R2IS-01) ; 7 villes sans tracé fiable (périodes incompatibles, Surtsey, Ísafjörður absent : R2IS-02, R2IS-06).",
+   "pistes": "Carte des comtés de 1990 (gis.natt.is, CC BY 4.0) en retirant les kaupstaðir de 1945, à contrôler par les lois de chaque comté ; frise Sveitarfélög tímalína (NÁTT, CC BY 4.0) pour les villes, après correction des périodes."
   }
  }
 }

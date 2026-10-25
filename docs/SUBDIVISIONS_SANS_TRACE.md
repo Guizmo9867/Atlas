@@ -2,7 +2,7 @@
 
 *Mis à jour le 25/10/2026 par `outils/subdivisions/suivi_traces.py` (demande de Guizmo du 24/10/2026 : garder dans un coin les pays qui posent problème). Les fiches existent toujours (noms, rangs, sources) ; seul le dessin manque. À reprendre plus tard, pays par pays.*
 
-**En tout : 428 subdivisions tracées sur 943.**
+**En tout : 431 subdivisions tracées sur 976.**
 
 | Lot | Subdivisions | Tracées | État | Pourquoi | Pistes |
 |---|---|---|---|---|---|
@@ -17,6 +17,7 @@
 | 2.PT | 33 | 0 | aucun tracé | CAOP seulement moderne ; reconstitution REGIS annoncée CC BY-NC (refusée) ; droits des tracés d'Alves 2024 non établis (R2PT-01). | CAOP moderne + différences documentées ; demander la licence des tracés d'Alves |
 | 2.SM | 8 | 0 | aucun tracé | aucun tracé historique ni licence propre trouvés ; le cadastre ne connaît que les paroisses, la carte des castelli date de la loi de 2020 (R2SM-03). | voir réserves R2SM ; un tracé ancien des castelli à licence libre reste à trouver |
 | 2.FR | 108 | 103 | en partie | 5 régions (Angers, Bordeaux, Orléans, Poitiers, Toulouse) à la composition incomplète (R2FR-03). | compléter les compositions régionales, puis unir les départements déjà tracés |
+| 2.IS | 33 | 3 | en partie | 23 comtés sans tracé : la seule couche ouverte (« Gömlu sýslurnar », LMÍ) est fondée sur une carte de 1990, englobe des villes indépendantes et n'établit pas les limites de 1945 (R2IS-01) ; 7 villes sans tracé fiable (périodes incompatibles, Surtsey, Ísafjörður absent : R2IS-02, R2IS-06). | Carte des comtés de 1990 (gis.natt.is, CC BY 4.0) en retirant les kaupstaðir de 1945, à contrôler par les lois de chaque comté ; frise Sveitarfélög tímalína (NÁTT, CC BY 4.0) pour les villes, après correction des périodes. |
 | 2.IT | 93 | 80 | en partie | 11 provinces écartées par prudence par Ether (tracés jugés douteux pour 1945 : voir les réserves R2IT). | relire les réserves R2IT et lever la marque province par province |
 | 2.LU | 15 | 11 | en partie | 4 cantons écartés par prudence par Ether (Vianden, Diekirch, Remich, Grevenmacher : rectifications de frontière). | vérifier les rectifications et lever la marque |
 | 2.NL | 12 | 11 | en partie | Brabant-Septentrional écarté par prudence (enclaves de Baarle). | accepter le tracé avec réserve, ou découper les enclaves |

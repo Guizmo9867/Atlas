@@ -1,7 +1,7 @@
 {
  "metadata": {
   "nom": "registre_sources_atlas",
-  "version": "1.54",
+  "version": "1.55",
   "date_creation": "2026-09-26",
   "principe": "Une source = un source_id stable. Les fiches événements/entités peuvent référencer ce source_id et préciser l'usage/locator.",
   "statut": "registre_initial_a_completer"
@@ -55467,6 +55467,452 @@
     "01_lots/2.FI/preuves/hipla_sources.html"
    ],
    "licence": "CC BY 4.0"
+  },
+  {
+   "source_id": "src-hagstofa-changements-islande1876-2019",
+   "niveau": "A",
+   "type_source": "publication_officielle_retrospective",
+   "titre": "Breytingar á skipan, mörkum og heitum sveitarfélaga og sýslna 1876–2019",
+   "institution": "Hagstofa Íslands",
+   "url": "https://hagstofan.s3.amazonaws.com/media/public/2020/ed57e753-4fee-4b8b-a46f-d7dfe3287b69.pdf",
+   "date_consultation": "2026-10-25",
+   "periode_couverte": [],
+   "zones": [
+    "IS"
+   ],
+   "usages_atlas": [
+    "subdivisions_snapshot0"
+   ],
+   "cibles": [
+    "subdivision-is-gullbringusysla",
+    "subdivision-is-kjosarsysla",
+    "subdivision-is-borgarfjardarsysla",
+    "subdivision-is-myrasysla",
+    "subdivision-is-snaefellsnes-og-hnappadalssysla",
+    "subdivision-is-dalasysla",
+    "subdivision-is-austur-bardastrandarsysla",
+    "subdivision-is-vestur-bardastrandarsysla",
+    "subdivision-is-vestur-isafjardarsysla",
+    "subdivision-is-nordur-isafjardarsysla",
+    "subdivision-is-strandasysla",
+    "subdivision-is-vestur-hunavatnssysla",
+    "subdivision-is-austur-hunavatnssysla",
+    "subdivision-is-skagafjardarsysla",
+    "subdivision-is-eyjafjardarsysla",
+    "subdivision-is-sudur-thingeyjarsysla",
+    "subdivision-is-nordur-thingeyjarsysla",
+    "subdivision-is-nordur-mulasysla",
+    "subdivision-is-sudur-mulasysla",
+    "subdivision-is-austur-skaftafellssysla",
+    "subdivision-is-vestur-skaftafellssysla",
+    "subdivision-is-rangarvallasysla",
+    "subdivision-is-arnessysla",
+    "subdivision-is-kaupstadur-reykjavik",
+    "subdivision-is-kaupstadur-hafnarfjordur",
+    "subdivision-is-kaupstadur-akranes",
+    "subdivision-is-kaupstadur-isafjordur",
+    "subdivision-is-kaupstadur-siglufjordur",
+    "subdivision-is-kaupstadur-olafsfjordur",
+    "subdivision-is-kaupstadur-akureyri",
+    "subdivision-is-kaupstadur-seydisfjordur",
+    "subdivision-is-kaupstadur-neskaupstadur",
+    "subdivision-is-kaupstadur-vestmannaeyjar"
+   ],
+   "locator": "PDF p.2,20,26,31–32,36,41–42,44,46,48–50,54–55",
+   "resume_passage": "Sous-agent (WebFetch) : scissions Skaftafell 1879, Barðastrandar 1889, Ísafjarðar 1896, Gullbringu/Kjós 1903, Húnavatns 1907 lues ; « Sýslunni skipt í tvö sýslufélag að því er stjórn sveitarmála snertir, Austur- og Vestur-Barðastrandarsýslu. » Entrées manquées par WebFetch relues par Claude dans la copie du PDF officiel livrée par Ether (preuves/hagstofa_changements1876_2019.pdf, extraite avec pdftotext) : « Norður-Þingeyjarsýsla Sýslunni skipt í tvö sýslufélag … Lög nr. 31 14. desember 1877. Í gildi 1. janúar 1879. » ; « Ólafsfjarðarhreppur fær kaupstaðarréttindi. Lög nr. 60 31. október 1944. Í gildi 1. janúar 1945. » ; « Ytri-Akraneshreppur fær kaupstaðarréttindi og nefnist Akranes. Lög nr. 45 27. júní 1941. Í gildi 1. janúar 1942. »",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "lu_parties_utilisees",
+    "date": "2026-10-25"
+   },
+   "notes": "Proposée par Ether (lot 2.IS, cycle 1). Ce que la source prouve selon Ether : Compilation officielle des changements avec références des lois et dates d’effet ; les lois originales ne sont pas toutes lues. Ne pas traiter une date de carte comme une date de droit.. Limite annoncée par Ether : Compilation officielle des changements avec références des lois et dates d’effet ; les lois originales ne sont pas toutes lues. Ne pas traiter une date de carte comme une date de droit. Relecture Claude 2026-10-25 : Sous-agent (WebFetch) : scissions Skaftafell 1879, Barðastrandar 1889, Ísafjarðar 1896, Gullbringu/Kjós 1903, Húnavatns 1907 lues ; « Sýslunni skipt í tvö sýslufélag að því er stjórn sveitarmála snertir, Austur- og Vestur-Barðastrandarsýslu. » Entrées manquées par WebFetch relues par Claude dans la copie du PDF officiel livrée par Ether (preuves/hagstofa_changements1876_2019.pdf, extraite avec pdftotext) : « Norður-Þingeyjarsýsla Sýslunni skipt í tvö sýslufélag … Lög nr. 31 14. desember 1877. Í gildi 1. janúar 1879. » ; « Ólafsfjarðarhreppur fær kaupstaðarréttindi. Lög nr. 60 31. október 1944. Í gildi 1. janúar 1945. » ; « Ytri-Akraneshreppur fær kaupstaðarréttindi og nefnist Akranes. Lög nr. 45 27. júní 1941. Í gildi 1. janúar 1942. »",
+   "auteur": "Hagstofa Íslands",
+   "archives_locales": [
+    "01_lots/2.IS/preuves/hagstofa_changements1876_2019.pdf",
+    "01_lots/2.IS/preuves/hagstofa_changements1876_2019.pdf.txt",
+    "01_lots/2.IS/preuves/hagstofa_changements_p2.png",
+    "01_lots/2.IS/preuves/hagstofa_changements_p20.png",
+    "01_lots/2.IS/preuves/hagstofa_changements_p26.png",
+    "01_lots/2.IS/preuves/hagstofa_changements_p31.png",
+    "01_lots/2.IS/preuves/hagstofa_changements_p32.png",
+    "01_lots/2.IS/preuves/hagstofa_changements_p36.png",
+    "01_lots/2.IS/preuves/hagstofa_changements_p41.png",
+    "01_lots/2.IS/preuves/hagstofa_changements_p42.png",
+    "01_lots/2.IS/preuves/hagstofa_changements_p44.png",
+    "01_lots/2.IS/preuves/hagstofa_changements_p46.png",
+    "01_lots/2.IS/preuves/hagstofa_changements_p48.png",
+    "01_lots/2.IS/preuves/hagstofa_changements_p49.png",
+    "01_lots/2.IS/preuves/hagstofa_changements_p50.png",
+    "01_lots/2.IS/preuves/hagstofa_changements_p54.png",
+    "01_lots/2.IS/preuves/hagstofa_changements_p55.png"
+   ]
+  },
+  {
+   "source_id": "src-hagstofa-regions-islande2012",
+   "niveau": "A",
+   "type_source": "publication_officielle_retrospective",
+   "titre": "Íslensk hagskýrslusvæði á héraðsstjórnarstigi — 1er octobre 2012",
+   "institution": "Ómar Harðarson et Jórunn Íris Sindradóttir ; Hagstofa Íslands",
+   "url": "https://hagstofa.is/media/49843/islensk_hagskyrslusvaedi_oktober_2012.pdf",
+   "date_consultation": "2026-10-25",
+   "periode_couverte": [],
+   "zones": [
+    "IS"
+   ],
+   "usages_atlas": [
+    "subdivisions_snapshot0"
+   ],
+   "cibles": [
+    "subdivision-is-gullbringusysla",
+    "subdivision-is-kjosarsysla",
+    "subdivision-is-borgarfjardarsysla",
+    "subdivision-is-myrasysla",
+    "subdivision-is-snaefellsnes-og-hnappadalssysla",
+    "subdivision-is-dalasysla",
+    "subdivision-is-austur-bardastrandarsysla",
+    "subdivision-is-vestur-bardastrandarsysla",
+    "subdivision-is-vestur-isafjardarsysla",
+    "subdivision-is-nordur-isafjardarsysla",
+    "subdivision-is-strandasysla",
+    "subdivision-is-vestur-hunavatnssysla",
+    "subdivision-is-austur-hunavatnssysla",
+    "subdivision-is-skagafjardarsysla",
+    "subdivision-is-eyjafjardarsysla",
+    "subdivision-is-sudur-thingeyjarsysla",
+    "subdivision-is-nordur-thingeyjarsysla",
+    "subdivision-is-nordur-mulasysla",
+    "subdivision-is-sudur-mulasysla",
+    "subdivision-is-austur-skaftafellssysla",
+    "subdivision-is-vestur-skaftafellssysla",
+    "subdivision-is-rangarvallasysla",
+    "subdivision-is-arnessysla",
+    "subdivision-is-kaupstadur-reykjavik",
+    "subdivision-is-kaupstadur-hafnarfjordur",
+    "subdivision-is-kaupstadur-akranes",
+    "subdivision-is-kaupstadur-isafjordur",
+    "subdivision-is-kaupstadur-siglufjordur",
+    "subdivision-is-kaupstadur-olafsfjordur",
+    "subdivision-is-kaupstadur-akureyri",
+    "subdivision-is-kaupstadur-seydisfjordur",
+    "subdivision-is-kaupstadur-neskaupstadur",
+    "subdivision-is-kaupstadur-vestmannaeyjar"
+   ],
+   "locator": "PDF p.14–16, §3.1 et 3.2",
+   "resume_passage": "Pages 14–16 : sýslur, sýslufélög (abolis en 1986) et kaupstaðir comme ressorts distincts ; « Eftir þann tíma urðu sýslur eingöngu landfræðileg hugtök, en ekki stjórnsýslueiningar, og hrepparnir jafnsettir kaupstöðum. » N'oppose pas explicitement, dans ces pages, comtés administratifs et ressorts judiciaires.",
+   "archive_locale": null,
+   "verification_claude": "limite",
+   "verification_ether": {
+    "statut": "lu_parties_utilisees",
+    "date": "2026-10-25"
+   },
+   "notes": "Proposée par Ether (lot 2.IS, cycle 1). Ce que la source prouve selon Ether : Explique les comtés et villes indépendantes jusqu’en 1986 et les changements ultérieurs ; le chiffre de 23 associations en 1986 n’est pas utilisé seul comme preuve de 1945.. Limite annoncée par Ether : Explique les comtés et villes indépendantes jusqu’en 1986 et les changements ultérieurs ; le chiffre de 23 associations en 1986 n’est pas utilisé seul comme preuve de 1945. Relecture Claude 2026-10-25 : Pages 14–16 : sýslur, sýslufélög (abolis en 1986) et kaupstaðir comme ressorts distincts ; « Eftir þann tíma urðu sýslur eingöngu landfræðileg hugtök, en ekki stjórnsýslueiningar, og hrepparnir jafnsettir kaupstöðum. » N'oppose pas explicitement, dans ces pages, comtés administratifs et ressorts judiciaires.",
+   "auteur": "Ómar Harðarson et Jórunn Íris Sindradóttir ; Hagstofa Íslands",
+   "archives_locales": [
+    "01_lots/2.IS/preuves/hagstofa_regions2012.pdf",
+    "01_lots/2.IS/preuves/hagstofa_regions2012_p14.png",
+    "01_lots/2.IS/preuves/hagstofa_regions2012_p15.png",
+    "01_lots/2.IS/preuves/hagstofa_regions2012_p16.png"
+   ]
+  },
+  {
+   "source_id": "src-althingi-tableau-islande1946",
+   "niveau": "A",
+   "type_source": "document_parlementaire",
+   "titre": "Alþingi, þskj. 528, 47. mál — tableau population 1946 et élèves 1946–47",
+   "institution": "Alþingi ; commission scolaire (annexe signée Ásmundur Guðmundsson et Helgi Elíasson)",
+   "url": "https://www.althingi.is/altext/68/s/pdf/0528.pdf",
+   "date_consultation": "2026-10-25",
+   "periode_couverte": [],
+   "zones": [
+    "IS"
+   ],
+   "usages_atlas": [
+    "subdivisions_snapshot0"
+   ],
+   "cibles": [
+    "subdivision-is-gullbringusysla",
+    "subdivision-is-kjosarsysla",
+    "subdivision-is-borgarfjardarsysla",
+    "subdivision-is-myrasysla",
+    "subdivision-is-snaefellsnes-og-hnappadalssysla",
+    "subdivision-is-dalasysla",
+    "subdivision-is-austur-bardastrandarsysla",
+    "subdivision-is-vestur-bardastrandarsysla",
+    "subdivision-is-vestur-isafjardarsysla",
+    "subdivision-is-nordur-isafjardarsysla",
+    "subdivision-is-strandasysla",
+    "subdivision-is-vestur-hunavatnssysla",
+    "subdivision-is-austur-hunavatnssysla",
+    "subdivision-is-skagafjardarsysla",
+    "subdivision-is-eyjafjardarsysla",
+    "subdivision-is-sudur-thingeyjarsysla",
+    "subdivision-is-nordur-thingeyjarsysla",
+    "subdivision-is-nordur-mulasysla",
+    "subdivision-is-sudur-mulasysla",
+    "subdivision-is-austur-skaftafellssysla",
+    "subdivision-is-vestur-skaftafellssysla",
+    "subdivision-is-rangarvallasysla",
+    "subdivision-is-arnessysla",
+    "subdivision-is-kaupstadur-reykjavik",
+    "subdivision-is-kaupstadur-hafnarfjordur",
+    "subdivision-is-kaupstadur-akranes",
+    "subdivision-is-kaupstadur-isafjordur",
+    "subdivision-is-kaupstadur-siglufjordur",
+    "subdivision-is-kaupstadur-olafsfjordur",
+    "subdivision-is-kaupstadur-akureyri",
+    "subdivision-is-kaupstadur-seydisfjordur",
+    "subdivision-is-kaupstadur-neskaupstadur",
+    "subdivision-is-kaupstadur-vestmannaeyjar"
+   ],
+   "locator": "PDF p.4 ; rapport 05/04/1949, annexe 29/11/1947",
+   "resume_passage": "Sous-agent (WebFetch) : tableau p.4 « íbúar 1946 » listant les dix kaupstaðir (Reykjavík, Hafnarfjörður, Akranes, Ísafjörður, Siglufjörður, Ólafsfjörður, Akureyri, Seyðisfjörður, Norðfjörður, Vestmannaeyjar) et les sýslur. Corroboration postérieure de peu (1946) ; page écrit « Norðfjörður ». Texte OCR bruité, aucun chiffre importé.",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "lu_parties_utilisees",
+    "date": "2026-10-25"
+   },
+   "notes": "Proposée par Ether (lot 2.IS, cycle 1). Ce que la source prouve selon Ether : Liste de dix villes et des comtés, certains regroupés. Corroboration après le Snapshot ; aucun chiffre importé. Lecture web ; copie directe et capture indisponibles, note Ether clairement identifiée.. Limite annoncée par Ether : Liste de dix villes et des comtés, certains regroupés. Corroboration après le Snapshot ; aucun chiffre importé. Lecture web ; copie directe et capture indisponibles, note Ether clairement identifiée. Relecture Claude 2026-10-25 : Sous-agent (WebFetch) : tableau p.4 « íbúar 1946 » listant les dix kaupstaðir (Reykjavík, Hafnarfjörður, Akranes, Ísafjörður, Siglufjörður, Ólafsfjörður, Akureyri, Seyðisfjörður, Norðfjörður, Vestmannaeyjar) et les sýslur. Corroboration postérieure de peu (1946) ; page écrit « Norðfjörður ». Texte OCR bruité, aucun chiffre importé.",
+   "auteur": "Alþingi ; commission scolaire (annexe signée Ásmundur Guðmundsson et Helgi Elíasson)",
+   "archives_locales": [
+    "01_lots/2.IS/preuves/ether_lectures_web.json"
+   ]
+  },
+  {
+   "source_id": "src-vedur-olafsfjordur-histoire2004",
+   "niveau": "A",
+   "type_source": "publication_officielle_retrospective",
+   "titre": "Hættumat fyrir Ólafsfjörð, Greinargerð 04021, VÍ-VS-13, octobre 2004",
+   "institution": "Kristján Ágústsson et Hörður Þór Sigurðsson ; Veðurstofa Íslands",
+   "url": "https://www.vedur.is/gogn/snjoflod/haettumat/of/of_taekni.pdf",
+   "date_consultation": "2026-10-25",
+   "periode_couverte": [],
+   "zones": [
+    "IS"
+   ],
+   "usages_atlas": [
+    "subdivisions_snapshot0"
+   ],
+   "cibles": [
+    "subdivision-is-kaupstadur-olafsfjordur"
+   ],
+   "locator": "PDF p.12, imprimé 13, §2.2",
+   "resume_passage": "« Ólafsfjörður fékk kaupstaðarréttindi 1. janúar 1945 og undir sveitarfélagið féllu bæði byggð í dreifbýli og þéttbýli. »",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "lu_parties_utilisees",
+    "date": "2026-10-25"
+   },
+   "notes": "Proposée par Ether (lot 2.IS, cycle 1). Ce que la source prouve selon Ether : Statut urbain au 01/01/1945, territoire rural et urbain inclus ; ne fournit pas un contour cadastral de 1945.. Limite annoncée par Ether : Statut urbain au 01/01/1945, territoire rural et urbain inclus ; ne fournit pas un contour cadastral de 1945. Relecture Claude 2026-10-25 : « Ólafsfjörður fékk kaupstaðarréttindi 1. janúar 1945 og undir sveitarfélagið féllu bæði byggð í dreifbýli og þéttbýli. »",
+   "auteur": "Kristján Ágústsson et Hörður Þór Sigurðsson ; Veðurstofa Íslands",
+   "archives_locales": [
+    "01_lots/2.IS/preuves/vedur_olafsfjordur.pdf",
+    "01_lots/2.IS/preuves/vedur_olafsfjordur_couverture.png",
+    "01_lots/2.IS/preuves/vedur_olafsfjordur_p12.png"
+   ]
+  },
+  {
+   "source_id": "src-natt-sveitarfelog-timalina-islande",
+   "niveau": "B",
+   "type_source": "reconstruction_historique_geographique",
+   "titre": "Sveitarfélög tímalína — service public de la Sveitarfélagssjá",
+   "institution": "Náttúrufræðistofnun (NÁTT), service cartographique issu de Landmælingar Íslands (LMÍ)",
+   "url": "https://markasja.gis.is/mapview/?application=markasja",
+   "date_consultation": "2026-10-25",
+   "periode_couverte": [],
+   "zones": [
+    "IS"
+   ],
+   "usages_atlas": [
+    "subdivisions_snapshot0"
+   ],
+   "cibles": [
+    "subdivision-is-kaupstadur-reykjavik",
+    "subdivision-is-kaupstadur-hafnarfjordur",
+    "subdivision-is-kaupstadur-akranes",
+    "subdivision-is-kaupstadur-isafjordur",
+    "subdivision-is-kaupstadur-siglufjordur",
+    "subdivision-is-kaupstadur-olafsfjordur",
+    "subdivision-is-kaupstadur-akureyri",
+    "subdivision-is-kaupstadur-seydisfjordur",
+    "subdivision-is-kaupstadur-neskaupstadur",
+    "subdivision-is-kaupstadur-vestmannaeyjar"
+   ],
+   "locator": "WFS LMI_vektor:Sveitarfelog_timalina ; filtre intervalle incluant 1945-01-01, EPSG:3057, 221 résultats",
+   "resume_passage": "La page cartographique (application dynamique) ne renvoie que son titre ; l'existence de la frise des limites municipales depuis 1904 est attestée par l'annonce natt.is du 24/02/2021, pas par la page elle-même. La justesse historique de chaque période reste à vérifier (R2IS-02, R2IS-03).",
+   "archive_locale": null,
+   "verification_claude": "limite",
+   "verification_ether": {
+    "statut": "lu_parties_utilisees",
+    "date": "2026-10-25"
+   },
+   "notes": "Proposée par Ether (lot 2.IS, cycle 1). Ce que la source prouve selon Ether : Source SIG officielle, propriétaire NÁTT dans chaque feature. Reprojection seulement. Périodes parfois grossières ou contradictoires avec les lois : six candidats urbains écartés, trois proposés sous réserve. Champs codes non rétrodatés. Licence CC BY 4.0 documentée séparément.. Limite annoncée par Ether : Source SIG officielle, propriétaire NÁTT dans chaque feature. Reprojection seulement. Périodes parfois grossières ou contradictoires avec les lois : six candidats urbains écartés, trois proposés sous réserve. Champs codes non rétrodatés. Licence CC BY 4.0 documentée séparément. Relecture Claude 2026-10-25 : La page cartographique (application dynamique) ne renvoie que son titre ; l'existence de la frise des limites municipales depuis 1904 est attestée par l'annonce natt.is du 24/02/2021, pas par la page elle-même. La justesse historique de chaque période reste à vérifier (R2IS-02, R2IS-03).",
+   "auteur": "Náttúrufræðistofnun (NÁTT), service cartographique issu de Landmælingar Íslands (LMÍ)",
+   "archives_locales": [
+    "01_lots/2.IS/preuves/natt_wfs_capabilities.xml",
+    "01_lots/2.IS/preuves/natt_timalina_schema.xml",
+    "01_lots/2.IS/preuves/natt_timalina1945.geojson",
+    "01_lots/2.IS/preuves/natt_timalina_attributs.json",
+    "01_lots/2.IS/preuves/ether_provenance_telechargements.json",
+    "01_lots/2.IS/preuves/ether_analyse_contours.json",
+    "01_lots/2.IS/preuves/ether_contours_proposables.png",
+    "01_lots/2.IS/preuves/ether_lectures_web.json"
+   ]
+  },
+  {
+   "source_id": "src-lmi-syslur-carte1990-islande",
+   "niveau": "A",
+   "type_source": "donnees_geographiques_officielles",
+   "titre": "Gömlu sýslurnar — byggt á korti 1990",
+   "institution": "Landmælingar Íslands (LMÍ) ; diffusion Náttúrufræðistofnun",
+   "url": "https://gis.natt.is/geoserver/wfs",
+   "date_consultation": "2026-10-25",
+   "periode_couverte": [],
+   "zones": [
+    "IS"
+   ],
+   "usages_atlas": [
+    "subdivisions_snapshot0"
+   ],
+   "cibles": [
+    "subdivision-is-gullbringusysla",
+    "subdivision-is-kjosarsysla",
+    "subdivision-is-borgarfjardarsysla",
+    "subdivision-is-myrasysla",
+    "subdivision-is-snaefellsnes-og-hnappadalssysla",
+    "subdivision-is-dalasysla",
+    "subdivision-is-austur-bardastrandarsysla",
+    "subdivision-is-vestur-bardastrandarsysla",
+    "subdivision-is-vestur-isafjardarsysla",
+    "subdivision-is-nordur-isafjardarsysla",
+    "subdivision-is-strandasysla",
+    "subdivision-is-vestur-hunavatnssysla",
+    "subdivision-is-austur-hunavatnssysla",
+    "subdivision-is-skagafjardarsysla",
+    "subdivision-is-eyjafjardarsysla",
+    "subdivision-is-sudur-thingeyjarsysla",
+    "subdivision-is-nordur-thingeyjarsysla",
+    "subdivision-is-nordur-mulasysla",
+    "subdivision-is-sudur-mulasysla",
+    "subdivision-is-austur-skaftafellssysla",
+    "subdivision-is-vestur-skaftafellssysla",
+    "subdivision-is-rangarvallasysla",
+    "subdivision-is-arnessysla"
+   ],
+   "locator": "LMI_vektor:gomlu_syslurnar_byggt_a_korti_1990 ; 28 features, 23 numéros de comté et 5 villes",
+   "resume_passage": "",
+   "archive_locale": null,
+   "verification_claude": "non_verifiee",
+   "verification_ether": {
+    "statut": "lu_parties_utilisees",
+    "date": "2026-10-25"
+   },
+   "notes": "Proposée par Ether (lot 2.IS, cycle 1). Ce que la source prouve selon Ether : Carte IS 50V fondée sur 1990, pas une carte de 1945. Champs auteur/heimild conservés. 22 comtés valides livrés ne_pas_integrer ; Norður-Múlasýsla invalide gardé en preuve. Les cinq villes de cette couche ne sont pas reprises dans le fichier de candidats.. Limite annoncée par Ether : Carte IS 50V fondée sur 1990, pas une carte de 1945. Champs auteur/heimild conservés. 22 comtés valides livrés ne_pas_integrer ; Norður-Múlasýsla invalide gardé en preuve. Les cinq villes de cette couche ne sont pas reprises dans le fichier de candidats. Relecture Claude 2026-10-25 : WebFetch refusé (robots_disallowed) sur le GetCapabilities ; aucun contournement. Couche et carte de 1990 attestées seulement par les téléchargements d'Ether (preuves/natt_syslur1990_*). Tracés non intégrés de toute façon (ne_pas_integrer, R2IS-01).",
+   "auteur": "Landmælingar Íslands (LMÍ) ; diffusion Náttúrufræðistofnun",
+   "archives_locales": [
+    "01_lots/2.IS/preuves/natt_syslur1990.geojson",
+    "01_lots/2.IS/preuves/natt_syslur1990_schema.xml",
+    "01_lots/2.IS/preuves/ether_provenance_telechargements.json",
+    "01_lots/2.IS/preuves/ether_analyse_contours.json"
+   ]
+  },
+  {
+   "source_id": "src-natt-licence-donnees-ouvertes",
+   "niveau": "A",
+   "type_source": "conditions_utilisation_officielles",
+   "titre": "Open data — Use of data",
+   "institution": "Náttúrufræðistofnun",
+   "url": "https://www.natt.is/en/resources/open-data",
+   "date_consultation": "2026-10-25",
+   "periode_couverte": [],
+   "zones": [
+    "IS"
+   ],
+   "usages_atlas": [
+    "subdivisions_snapshot0"
+   ],
+   "cibles": [
+    "subdivision-is-gullbringusysla",
+    "subdivision-is-kjosarsysla",
+    "subdivision-is-borgarfjardarsysla",
+    "subdivision-is-myrasysla",
+    "subdivision-is-snaefellsnes-og-hnappadalssysla",
+    "subdivision-is-dalasysla",
+    "subdivision-is-austur-bardastrandarsysla",
+    "subdivision-is-vestur-bardastrandarsysla",
+    "subdivision-is-vestur-isafjardarsysla",
+    "subdivision-is-nordur-isafjardarsysla",
+    "subdivision-is-strandasysla",
+    "subdivision-is-vestur-hunavatnssysla",
+    "subdivision-is-austur-hunavatnssysla",
+    "subdivision-is-skagafjardarsysla",
+    "subdivision-is-eyjafjardarsysla",
+    "subdivision-is-sudur-thingeyjarsysla",
+    "subdivision-is-nordur-thingeyjarsysla",
+    "subdivision-is-nordur-mulasysla",
+    "subdivision-is-sudur-mulasysla",
+    "subdivision-is-austur-skaftafellssysla",
+    "subdivision-is-vestur-skaftafellssysla",
+    "subdivision-is-rangarvallasysla",
+    "subdivision-is-arnessysla",
+    "subdivision-is-kaupstadur-reykjavik",
+    "subdivision-is-kaupstadur-hafnarfjordur",
+    "subdivision-is-kaupstadur-akranes",
+    "subdivision-is-kaupstadur-isafjordur",
+    "subdivision-is-kaupstadur-siglufjordur",
+    "subdivision-is-kaupstadur-olafsfjordur",
+    "subdivision-is-kaupstadur-akureyri",
+    "subdivision-is-kaupstadur-seydisfjordur",
+    "subdivision-is-kaupstadur-neskaupstadur",
+    "subdivision-is-kaupstadur-vestmannaeyjar"
+   ],
+   "locator": "Rubrique Use of data, CC BY 4.0 et attribution",
+   "resume_passage": "« published under the CC BY 4.0 – Attribution 4.0 International Deed » ; attribution exigée (auteur original, nom du jeu, licence).",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "lu_parties_utilisees",
+    "date": "2026-10-25"
+   },
+   "notes": "Proposée par Ether (lot 2.IS, cycle 1). Ce que la source prouve selon Ether : Licence des données ouvertes NÁTT ; auteur original, jeu et licence doivent être mentionnés. Attribution institutionnelle du producteur conservée pour LMÍ ; aucun auteur individuel de numérisation identifié. Cette licence admise ne vaut pas validation historique.. Limite annoncée par Ether : Licence des données ouvertes NÁTT ; auteur original, jeu et licence doivent être mentionnés. Attribution institutionnelle du producteur conservée pour LMÍ ; aucun auteur individuel de numérisation identifié. Cette licence admise ne vaut pas validation historique. Relecture Claude 2026-10-25 : « published under the CC BY 4.0 – Attribution 4.0 International Deed » ; attribution exigée (auteur original, nom du jeu, licence).",
+   "auteur": "Náttúrufræðistofnun",
+   "archives_locales": [
+    "01_lots/2.IS/preuves/ether_lectures_web.json"
+   ]
+  },
+  {
+   "source_id": "src-natt-surtsey-naissance1963",
+   "niveau": "A",
+   "type_source": "publication_institutionnelle",
+   "titre": "Surtsey 55 ára — 13 novembre 2018",
+   "institution": "Náttúrufræðistofnun",
+   "url": "https://www.natt.is/is/frettir/2018/11/surtsey-55-ara",
+   "date_consultation": "2026-10-25",
+   "periode_couverte": [],
+   "zones": [
+    "IS"
+   ],
+   "usages_atlas": [
+    "subdivisions_snapshot0"
+   ],
+   "cibles": [
+    "subdivision-is-kaupstadur-vestmannaeyjar"
+   ],
+   "locator": "Début de l’article : éruption du 14/11/1963 et apparition de l’île",
+   "resume_passage": "« Það var að morgni 14. nóvember 1963 » : début de l'éruption de Surtsey, île absente au 01/01/1945.",
+   "archive_locale": null,
+   "verification_claude": "ok",
+   "verification_ether": {
+    "statut": "lu_parties_utilisees",
+    "date": "2026-10-25"
+   },
+   "notes": "Proposée par Ether (lot 2.IS, cycle 1). Ce que la source prouve selon Ether : Empêche de rétroprojeter Surtsey comme terre émergée dans le tracé des Vestmannaeyjar au Snapshot.. Limite annoncée par Ether : Empêche de rétroprojeter Surtsey comme terre émergée dans le tracé des Vestmannaeyjar au Snapshot. Relecture Claude 2026-10-25 : « Það var að morgni 14. nóvember 1963 » : début de l'éruption de Surtsey, île absente au 01/01/1945.",
+   "auteur": "Náttúrufræðistofnun",
+   "archives_locales": [
+    "01_lots/2.IS/preuves/ether_lectures_web.json"
+   ]
   }
  ]
 }

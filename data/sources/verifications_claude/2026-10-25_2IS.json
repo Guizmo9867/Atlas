@@ -1,0 +1,48 @@
+{
+ "lot": "2.IS",
+ "date": "2026-10-25",
+ "auteur": "Claude",
+ "methode": "Sous-agents (WebFetch seulement, sans contournement) le 25/10/2026, puis lecture par Claude du PDF officiel Hagstofa livré par Ether (preuves/) pour les entrées manquées.",
+ "resultats": [
+  {
+   "id": "src-hagstofa-changements-islande1876-2019",
+   "statut": "ok",
+   "commentaire": "Sous-agent (WebFetch) : scissions Skaftafell 1879, Barðastrandar 1889, Ísafjarðar 1896, Gullbringu/Kjós 1903, Húnavatns 1907 lues ; « Sýslunni skipt í tvö sýslufélag að því er stjórn sveitarmála snertir, Austur- og Vestur-Barðastrandarsýslu. » Entrées manquées par WebFetch relues par Claude dans la copie du PDF officiel livrée par Ether (preuves/hagstofa_changements1876_2019.pdf, extraite avec pdftotext) : « Norður-Þingeyjarsýsla Sýslunni skipt í tvö sýslufélag … Lög nr. 31 14. desember 1877. Í gildi 1. janúar 1879. » ; « Ólafsfjarðarhreppur fær kaupstaðarréttindi. Lög nr. 60 31. október 1944. Í gildi 1. janúar 1945. » ; « Ytri-Akraneshreppur fær kaupstaðarréttindi og nefnist Akranes. Lög nr. 45 27. júní 1941. Í gildi 1. janúar 1942. »"
+  },
+  {
+   "id": "src-hagstofa-regions-islande2012",
+   "statut": "limite",
+   "commentaire": "Pages 14–16 : sýslur, sýslufélög (abolis en 1986) et kaupstaðir comme ressorts distincts ; « Eftir þann tíma urðu sýslur eingöngu landfræðileg hugtök, en ekki stjórnsýslueiningar, og hrepparnir jafnsettir kaupstöðum. » N'oppose pas explicitement, dans ces pages, comtés administratifs et ressorts judiciaires."
+  },
+  {
+   "id": "src-althingi-tableau-islande1946",
+   "statut": "ok",
+   "commentaire": "Sous-agent (WebFetch) : tableau p.4 « íbúar 1946 » listant les dix kaupstaðir (Reykjavík, Hafnarfjörður, Akranes, Ísafjörður, Siglufjörður, Ólafsfjörður, Akureyri, Seyðisfjörður, Norðfjörður, Vestmannaeyjar) et les sýslur. Corroboration postérieure de peu (1946) ; page écrit « Norðfjörður ». Texte OCR bruité, aucun chiffre importé."
+  },
+  {
+   "id": "src-vedur-olafsfjordur-histoire2004",
+   "statut": "ok",
+   "commentaire": "« Ólafsfjörður fékk kaupstaðarréttindi 1. janúar 1945 og undir sveitarfélagið féllu bæði byggð í dreifbýli og þéttbýli. »"
+  },
+  {
+   "id": "src-natt-sveitarfelog-timalina-islande",
+   "statut": "limite",
+   "commentaire": "La page cartographique (application dynamique) ne renvoie que son titre ; l'existence de la frise des limites municipales depuis 1904 est attestée par l'annonce natt.is du 24/02/2021, pas par la page elle-même. La justesse historique de chaque période reste à vérifier (R2IS-02, R2IS-03)."
+  },
+  {
+   "id": "src-lmi-syslur-carte1990-islande",
+   "statut": "non_verifiee",
+   "commentaire": "WebFetch refusé (robots_disallowed) sur le GetCapabilities ; aucun contournement. Couche et carte de 1990 attestées seulement par les téléchargements d'Ether (preuves/natt_syslur1990_*). Tracés non intégrés de toute façon (ne_pas_integrer, R2IS-01)."
+  },
+  {
+   "id": "src-natt-licence-donnees-ouvertes",
+   "statut": "ok",
+   "commentaire": "« published under the CC BY 4.0 – Attribution 4.0 International Deed » ; attribution exigée (auteur original, nom du jeu, licence)."
+  },
+  {
+   "id": "src-natt-surtsey-naissance1963",
+   "statut": "ok",
+   "commentaire": "« Það var að morgni 14. nóvember 1963 » : début de l'éruption de Surtsey, île absente au 01/01/1945."
+  }
+ ]
+}
