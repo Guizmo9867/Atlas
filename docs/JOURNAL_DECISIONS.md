@@ -128,6 +128,10 @@ Une ligne par décision, datée. Plus récente en haut. Ce journal remplace les 
 - **Lot 2.BE intégré** (cycle 1) : 50 subdivisions de la Belgique au 01/01/1945 = 9 provinces (échelon 1) et 41 arrondissements administratifs (échelon 2), par recoupement 1939 / février 1945 / 1947 ; Eupen, Malmedy, Saint-Vith dans l'arrondissement de Verviers (droit belge). **Aucun tracé** (pas de source de 1945 à licence ouverte, R2BE-01). Réserves R2BE-01 à 06 pour la revue du groupe 1. *(Ether, intégré par Claude)*
 - Sources : 5 nouvelles (4 ok dont 2 sur captures, 1 limite), registre v1.33. *(Claude)*
 
+## 2026-10-25 (règle sur les tracés)
+
+- **Règle de Guizmo (25/10/2026) : pas de donnée de 1945, pas de tracé.** Un tracé n'est accepté que s'il représente **l'état de 1945** (ou d'une date très proche, sans changement prouvé entre les deux, comme TRF-GIS millésime 1940 pour la France), même s'il a été publié bien plus tard (une reconstitution historique, une base historique datée qui couvre 1945). Une carte qui montre l'état d'une **autre date** (1990, aujourd'hui…) n'est **pas adaptée par nous**, même avec des corrections : la subdivision reste sans tracé, et on se servira de ce qu'on saura plus tard. Conséquence : les « pistes » du suivi des pays sans tracé qui proposaient d'adapter des limites modernes (Belgique, Espagne, Portugal, Royaume-Uni, Irlande, Andorre, Islande 1990) sont retirées ; restent seulement les pistes de données de 1945 ou d'une base historique datée. *(décision de Guizmo)*
+
 ## 2026-10-24 (groupe 3 ouvert, Saint-Marin et Liechtenstein, suivi des pays sans tracé)
 
 - **Groupe 3 de la phase 2.x ouvert** : Danemark, Norvège, Suède, Finlande, Islande. *(décision de Guizmo)*
