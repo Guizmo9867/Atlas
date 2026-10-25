@@ -1,0 +1,63 @@
+{
+  "date": "2026-10-24T18:37:04.928531+00:00",
+  "lot": "2.DK",
+  "cycle": 1,
+  "resultat": "conforme_techniquement_sous_reserves_historiques",
+  "comptages": {
+    "entites": 30,
+    "echelon_1": 24,
+    "echelon_2": 6,
+    "geometries": 0,
+    "sources_ajouter": 10,
+    "sources_completer": 0,
+    "reserves": 7,
+    "chefs_lieux_proposes": 0
+  },
+  "controles": [
+    "IDs uniques, format et absence de collision canonique",
+    "parents existants, souveraineté, niveaux et arbre sans cycle",
+    "dates Snapshot et fin inconnue",
+    "sources existantes/nouvelles, cibles, localisateurs et fichiers de preuve",
+    "réserves référencées présentes",
+    "GeoJSON valide et vide, aucun faux lien",
+    "conditions historiques, licences et échecs séparés dans la note",
+    "précontrôles du véritable intégrateur exécutés en mémoire uniquement"
+  ],
+  "precontrole_integrateur": {
+    "script": "C:\\Users\\guill\\Documents\\GitHub\\Atlas\\outils\\subdivisions\\integrer_subdivisions.py",
+    "sha256": "54ea1688b90f752913d6f09e154b259ca444c7efe689c1ef041a1283dc328649",
+    "limite": "Exécution arrêtée avant toute section d’écriture ; pas d’intégration et pas de vérification Claude",
+    "erreurs": [],
+    "avertissements": []
+  },
+  "fichiers_principaux": [
+    {
+      "chemin": "atlas_2DK_subdivisions_proposees.json",
+      "sha256": "093536839a2cdf635c1fd4e19e983779ebd5d6e6b7b14210bde86407db761c92"
+    },
+    {
+      "chemin": "geometries/atlas_2DK_geometries_proposees.geojson",
+      "sha256": "7626ea83caeb18d3dad503b15bfd7eb88c4c13ba8440fab45c456f9288f03cce"
+    },
+    {
+      "chemin": "atlas_registre_sources_2DK_delta.json",
+      "sha256": "9c8f4e6755a88675199db6220c0294392542920d21efb32bf5ddd29d08e5ed40"
+    },
+    {
+      "chemin": "atlas_2DK_pour_claude.md",
+      "sha256": "6d0ea996b133680a732c69bbaaccbac53420d96194bb1b54510f380e5297e0e4"
+    },
+    {
+      "chemin": "atlas_2DK_reserves.md",
+      "sha256": "8f1719d53ec8bccc5ff05529fe9a78718e61530accf712213a5860530b8c4467"
+    },
+    {
+      "chemin": "atlas_2DK_reserves.json",
+      "sha256": "14c315a9d26fae39aa4b97bcbb8f81814aca09d8e383ae69ed855216714dd009"
+    },
+    {
+      "chemin": "atlas_2DK_couverture.json",
+      "sha256": "9237f0507c50e5e8218749ebce46a7bfeb0c93e313f442b367860773171c76c3"
+    }
+  ]
+}

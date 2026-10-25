@@ -1,0 +1,48 @@
+{
+  "choix": "Amter d’État pour le niveau 1 ; Færø Amt et six sysler. Les systèmes suivants ne sont pas importés comme hiérarchie générale.",
+  "amter_avec_plusieurs_conseils": [
+    {
+      "amt": "Københavns Amt",
+      "conseils": [
+        "Københavns Amtsraadskreds",
+        "Roskilde Amtsraadskreds"
+      ],
+      "exception": "Frederiksberg est dans l’amt, hors des conseils ruraux."
+    },
+    {
+      "amt": "Odense Amt",
+      "conseils": [
+        "Odense Amtsraadskreds",
+        "Assens Amtsraadskreds"
+      ]
+    },
+    {
+      "amt": "Aabenraa-Sønderborg Amt",
+      "conseils": [
+        "Aabenraa Amtsraadskreds",
+        "Sønderborg Amtsraadskreds"
+      ]
+    }
+  ],
+  "anciens_raccords": [
+    {
+      "objet": "Aarhus / Skanderborg",
+      "decision": "Deux amter d’État à compter du 01/04/1942, pas un amt comme en 1935."
+    },
+    {
+      "objet": "Herlufsholm et Dronninglund",
+      "decision": "Limites d’amt et d’amtskommune différentes, pas de fusion géométrique déduite."
+    }
+  ],
+  "exception_non_importee": {
+    "nom": "Christiansø",
+    "constat": "Hors commune, administration Marine, annuaire 1944 tableau 2 note 4",
+    "reserve": "R2DK-05"
+  },
+  "sources": [
+    "src-dst-folkemaengde1935",
+    "src-dst-statistisk-aarbog1944",
+    "src-dst-folkemaengde1945",
+    "src-lex-jorgensen-herred"
+  ]
+}

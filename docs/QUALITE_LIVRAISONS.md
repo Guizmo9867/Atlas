@@ -39,3 +39,4 @@ Une ligne par livraison intégrée, ajoutée par Claude (mode d'emploi, étape 7
 | 2026-10-19 | 2.VA cycle 1 | Codex (version non attestée) | 3 (+ PDF, captures et copies texte) | 3 confirmées (100 %, dont 1 par la copie texte d'Ether : AAS 1944 trop long pour l'outil) | 0 | 0 mort (ancien lien 404 de la loi IV remplacé par Ether lui-même) | 0 | aucun | aucune |
 | 2026-10-19 | 2.LI cycle 1 | Codex (version non attestée) | 3 (+ PDF, captures et copies texte) | 2 confirmées (67 % ; la 3e, commentaire Bussjäger, refusée à la lecture automatique) | 0 | 0 | 0 | aucun | aucune |
 | 2026-10-24 | 2.SM cycle 2 | Codex (version non attestée) | 4 complétées, 0 nouvelle | 4 confirmées (100 %, relecture du cycle 1) | 0 | 0 | 0 | aucun | aucune |
+| 2026-10-24 | 2.DK cycle 1 | Codex (version non attestée) | 10 (+ copies texte des PDF) | 7 confirmées (70 %) | 0 | 0 | 0 | aucun | aucune |

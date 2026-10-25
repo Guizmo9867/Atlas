@@ -1,0 +1,58 @@
+{
+ "lot": "2.DK",
+ "date": "2026-10-24",
+ "auteur": "Claude",
+ "methode": "Sous-agents (WebFetch seulement, sans contournement) le 24/10/2026, puis lecture par Claude des copies d'Ether (texte des PDF officiels téléchargés et pages enregistrées dans 01_lots/<lot>/preuves/) pour les passages que WebFetch n'a pas atteints.",
+ "resultats": [
+  {
+   "id": "src-dst-folkemaengde1935",
+   "statut": "ok",
+   "commentaire": "WebFetch : document en ligne, titres « Overøvrighedskredse, Amter » (tableau 2) et « Sysler, Kommuner, Sogne og Bygder » (tableau 23). Claude, copie PDF p. 204 : « Der er 6 Sysseler […] Thorshavn By horer til Stremo Syssel »."
+  },
+  {
+   "id": "src-dst-statistisk-aarbog1944",
+   "statut": "ok",
+   "commentaire": "WebFetch : titre « Danmarks administrative Inddeling (1. April 1944) ». Claude, copie PDF p. 34, note : « Uden Christiansø, der ikke er nogen Kommune, men administreres af Marineministeriet » ; Asaa-Melholt partagé Aalborg/Hjørring."
+  },
+  {
+   "id": "src-dst-statistisk-aarbog1945",
+   "statut": "limite",
+   "commentaire": "WebFetch : seul le titre du tableau 2 (1er avril 1945) est lu. Sert de contrôle postérieur seulement, comme le dit Ether."
+  },
+  {
+   "id": "src-dst-folkemaengde1945",
+   "statut": "ok",
+   "commentaire": "WebFetch : tableau 1 = Københavns Kommune + amter 2 à 23, Aarhus et Skanderborg séparés ; tableau 21 Færø Amt. Claude, copie PDF pp. 309–313 : « Lov Nr. 530 af 22. December 1941: Aarhus Amt […] to Amter […] fra 1. April 1942 » ; « 1. Oktober 1944. Matr. Nr. 2az Mørkhøj indlemmes i København » ; Rødovre « fra 1. April 1945 » ; « Folketallet den 15. Juni 1945 »."
+  },
+  {
+   "id": "src-rigsarkivet-digdag-amt-region",
+   "statut": "ok",
+   "commentaire": "WebFetch : « Rigsarkivet leder forskningsinfrastrukturen og ejer datasættet », CC BY 4.0, EPSG:25832, polygones calculés à partir d'environ 10 000 ejerlav. Le champ de contact nomme Klimadatastyrelsen (diffusion)."
+  },
+  {
+   "id": "src-dataforsyningen-acces-services",
+   "statut": "ok",
+   "commentaire": "WebFetch : « skal token altid sendes med hver forespørgsel til Dataforsyningen, undtagen alle DAWA og Inspire OGC-tjenesterne »."
+  },
+  {
+   "id": "src-rigsarkivet-digdag-disponibilite",
+   "statut": "ok",
+   "commentaire": "WebFetch : « Grundet tekniske vanskeligheder med DigDag, har vi været nødt til at midlertidigt at lukke for dele af siden. » Avis non daté."
+  },
+  {
+   "id": "src-us-foroyakort-cartes-administratives2011",
+   "statut": "limite",
+   "commentaire": "WebFetch : la page propose bien Syslur_2011.pdf (limites des sýslur en 2011), mais ni la date du 28/01/2011 ni les six noms ne sont sur la page (seulement dans le PDF, non ouvert par WebFetch)."
+  },
+  {
+   "id": "src-us-foroyakort-conditions2019",
+   "statut": "limite",
+   "commentaire": "WebFetch : modification, usage commercial et attribution (agence, jeu, date de téléchargement) confirmés ; conditions propres à Umhvørvisstovan, sans CC BY. La date « juin 2019 » n'apparaît pas dans l'extrait lu."
+  },
+  {
+   "id": "src-lex-jorgensen-herred",
+   "statut": "ok",
+   "commentaire": "WebFetch : notice de Jens Ulf Jørgensen ; « vedblev herredet også efter Retsplejelovens ikrafttræden i 1919 at ligge til grund for inddelingen i rets- og politikredse »."
+  }
+ ]
+}

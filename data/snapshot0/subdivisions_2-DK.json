@@ -1,0 +1,1628 @@
+{
+ "metadata_lot": {
+  "nom": "snapshot0_subdivisions_2-DK",
+  "date_reference": "1945-01-01",
+  "heure_reference": "00:00",
+  "version": "1.0",
+  "statut": "integre_par_claude",
+  "cycle": 1,
+  "date_integration": "2026-10-24",
+  "gabarit_source": "gabarits/gabarit_entite_temporelle_atlas.json",
+  "lot_methode": "2.DK (phase 2, docs/METHODE_ATLAS_v2.md)",
+  "etat_1945": "Royaume de Danemark, territoires Atlas Danemark et Féroé",
+  "proposition_ether": "data/sources/deltas_ether/2026-10-24_2DK_subdivisions_proposees_ether.json",
+  "regles": [
+   "échelon 1 = premier niveau sous l'État ; échelon 2 = le niveau en dessous ; le terme local reste dans statut_administratif",
+   "une subdivision porte la souveraineté de droit ; le contrôle réel vient des territoires et des lignes de front",
+   "affichage : échelon 1 dès le zoom 5, échelon 2 dès le zoom 6,5, mêmes seuils pour tous les pays (calque « Découpage administratif »)",
+   "tracés provisoires ; chefs-lieux proposés = référence, jamais validés sans preuve au 01/01/1945"
+  ],
+  "sans_trace": [
+   "subdivision-dk-kommune-kobenhavn",
+   "subdivision-dk-amt-kobenhavn",
+   "subdivision-dk-amt-frederiksborg",
+   "subdivision-dk-amt-holbaek",
+   "subdivision-dk-amt-soro",
+   "subdivision-dk-amt-praesto",
+   "subdivision-dk-bornholm",
+   "subdivision-dk-amt-maribo",
+   "subdivision-dk-amt-svendborg",
+   "subdivision-dk-amt-odense",
+   "subdivision-dk-amt-vejle",
+   "subdivision-dk-amt-skanderborg",
+   "subdivision-dk-amt-aarhus",
+   "subdivision-dk-amt-randers",
+   "subdivision-dk-amt-aalborg",
+   "subdivision-dk-amt-hjorring",
+   "subdivision-dk-amt-thisted",
+   "subdivision-dk-amt-viborg",
+   "subdivision-dk-amt-ringkobing",
+   "subdivision-dk-amt-ribe",
+   "subdivision-dk-amt-haderslev",
+   "subdivision-dk-amt-aabenraa-sonderborg",
+   "subdivision-dk-amt-tonder",
+   "subdivision-fo-feroe",
+   "subdivision-fo-nordoya",
+   "subdivision-fo-eysturoyar",
+   "subdivision-fo-streymoyar",
+   "subdivision-fo-vaga",
+   "subdivision-fo-sandoyar",
+   "subdivision-fo-suduroyar"
+  ]
+ },
+ "entites": [
+  {
+   "entite_id": "subdivision-dk-kommune-kobenhavn",
+   "type_entite": "subdivision",
+   "nom": "Copenhague — commune hors amt",
+   "nom_court": "Copenhague",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_sous_reserves",
+     "proprietes": {
+      "nom": "Københavns Kommune",
+      "niveau": 1,
+      "echelon": 1,
+      "statut_administratif": "kommune hors amt (overøvrighedskreds distincte)",
+      "parent_id": "territoire-dk-danemark",
+      "souverainete_id": "danemark",
+      "note": "La date du Snapshot est la fenêtre observée, non la création. Continuité de la liste recoupée avant et après le 01/01/1945 ; pas de superficies ni de populations de juin 1945 reportées à janvier. Le contrôle réel est celui du territoire existant. Exception au niveau communal ordinaire : unité distincte au même rang que les amter dans le tableau des overøvrighedskredse. Ne pas annexer Rødovre par anticipation.",
+      "reserves": [
+       "R2DK-01",
+       "R2DK-03",
+       "R2DK-06"
+      ]
+     },
+     "sources": [
+      {
+       "source_id": "src-dst-folkemaengde1935",
+       "locator": "Tableau 2, p. 95",
+       "usage": "Copenhague distincte de Københavns Amt."
+      },
+      {
+       "source_id": "src-dst-statistisk-aarbog1944",
+       "locator": "Tableau 2 p. 2 (PDF 34)",
+       "usage": "Situation administrative en avril 1944."
+      },
+      {
+       "source_id": "src-dst-folkemaengde1945",
+       "locator": "Tableau 1 p. 1 (PDF 5) et p. 308 (PDF 312)",
+       "usage": "Unité distincte ; transfert Mørkhøj effectif au 01/10/1944, transfert Rødovre seulement au 01/04/1945."
+      }
+     ]
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-dk-amt-kobenhavn",
+   "type_entite": "subdivision",
+   "nom": "Amt de Copenhague",
+   "nom_court": "Copenhague",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_sous_reserves",
+     "proprietes": {
+      "nom": "Københavns Amt",
+      "niveau": 1,
+      "echelon": 1,
+      "statut_administratif": "amt",
+      "parent_id": "territoire-dk-danemark",
+      "souverainete_id": "danemark",
+      "note": "La date du Snapshot est la fenêtre observée, non la création. Continuité de la liste recoupée avant et après le 01/01/1945 ; pas de superficies ni de populations de juin 1945 reportées à janvier. Le contrôle réel est celui du territoire existant. Comprend Frederiksberg ainsi que les deux districts de conseils København et Roskilde. La commune de Copenhague relève d’une autre fiche.",
+      "reserves": [
+       "R2DK-01",
+       "R2DK-03",
+       "R2DK-06"
+      ]
+     },
+     "sources": [
+      {
+       "source_id": "src-dst-folkemaengde1935",
+       "locator": "Tableau 2, p. imprimée/PDF 95",
+       "usage": "Liste des amter et systèmes distincts en 1935 ; antécédent seulement, avec correction Aarhus/Skanderborg en 1942."
+      },
+      {
+       "source_id": "src-dst-statistisk-aarbog1944",
+       "locator": "Tableau 2, p. 2 (PDF 34), situation au 01/04/1944",
+       "usage": "Contrôle antérieur des noms et distinction amter / amtsrådskredse."
+      },
+      {
+       "source_id": "src-dst-folkemaengde1945",
+       "locator": "Tableau 1, p. 1 (PDF 5) ; modifications pp. 305–309 (PDF 309–313)",
+       "usage": "Liste de 1945 rapprochée des sources antérieures et des changements datés ; aucune limite postérieure automatiquement appliquée."
+      }
+     ]
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-dk-amt-frederiksborg",
+   "type_entite": "subdivision",
+   "nom": "Amt de Frederiksborg",
+   "nom_court": "Frederiksborg",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_sous_reserves",
+     "proprietes": {
+      "nom": "Frederiksborg Amt",
+      "niveau": 1,
+      "echelon": 1,
+      "statut_administratif": "amt",
+      "parent_id": "territoire-dk-danemark",
+      "souverainete_id": "danemark",
+      "note": "La date du Snapshot est la fenêtre observée, non la création. Continuité de la liste recoupée avant et après le 01/01/1945 ; pas de superficies ni de populations de juin 1945 reportées à janvier. Le contrôle réel est celui du territoire existant. ",
+      "reserves": [
+       "R2DK-01",
+       "R2DK-03",
+       "R2DK-06"
+      ]
+     },
+     "sources": [
+      {
+       "source_id": "src-dst-folkemaengde1935",
+       "locator": "Tableau 2, p. imprimée/PDF 95",
+       "usage": "Liste des amter et systèmes distincts en 1935 ; antécédent seulement, avec correction Aarhus/Skanderborg en 1942."
+      },
+      {
+       "source_id": "src-dst-statistisk-aarbog1944",
+       "locator": "Tableau 2, p. 2 (PDF 34), situation au 01/04/1944",
+       "usage": "Contrôle antérieur des noms et distinction amter / amtsrådskredse."
+      },
+      {
+       "source_id": "src-dst-folkemaengde1945",
+       "locator": "Tableau 1, p. 1 (PDF 5) ; modifications pp. 305–309 (PDF 309–313)",
+       "usage": "Liste de 1945 rapprochée des sources antérieures et des changements datés ; aucune limite postérieure automatiquement appliquée."
+      }
+     ]
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-dk-amt-holbaek",
+   "type_entite": "subdivision",
+   "nom": "Amt de Holbæk",
+   "nom_court": "Holbæk",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_sous_reserves",
+     "proprietes": {
+      "nom": "Holbæk Amt",
+      "niveau": 1,
+      "echelon": 1,
+      "statut_administratif": "amt",
+      "parent_id": "territoire-dk-danemark",
+      "souverainete_id": "danemark",
+      "note": "La date du Snapshot est la fenêtre observée, non la création. Continuité de la liste recoupée avant et après le 01/01/1945 ; pas de superficies ni de populations de juin 1945 reportées à janvier. Le contrôle réel est celui du territoire existant. ",
+      "reserves": [
+       "R2DK-01",
+       "R2DK-03",
+       "R2DK-06"
+      ]
+     },
+     "sources": [
+      {
+       "source_id": "src-dst-folkemaengde1935",
+       "locator": "Tableau 2, p. imprimée/PDF 95",
+       "usage": "Liste des amter et systèmes distincts en 1935 ; antécédent seulement, avec correction Aarhus/Skanderborg en 1942."
+      },
+      {
+       "source_id": "src-dst-statistisk-aarbog1944",
+       "locator": "Tableau 2, p. 2 (PDF 34), situation au 01/04/1944",
+       "usage": "Contrôle antérieur des noms et distinction amter / amtsrådskredse."
+      },
+      {
+       "source_id": "src-dst-folkemaengde1945",
+       "locator": "Tableau 1, p. 1 (PDF 5) ; modifications pp. 305–309 (PDF 309–313)",
+       "usage": "Liste de 1945 rapprochée des sources antérieures et des changements datés ; aucune limite postérieure automatiquement appliquée."
+      }
+     ]
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-dk-amt-soro",
+   "type_entite": "subdivision",
+   "nom": "Amt de Sorø",
+   "nom_court": "Sorø",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_sous_reserves",
+     "proprietes": {
+      "nom": "Sorø Amt",
+      "niveau": 1,
+      "echelon": 1,
+      "statut_administratif": "amt",
+      "parent_id": "territoire-dk-danemark",
+      "souverainete_id": "danemark",
+      "note": "La date du Snapshot est la fenêtre observée, non la création. Continuité de la liste recoupée avant et après le 01/01/1945 ; pas de superficies ni de populations de juin 1945 reportées à janvier. Le contrôle réel est celui du territoire existant. Herlufsholm est partagé entre les amter de Sorø et Præstø dans le découpage d’État, tout en relevant entièrement du conseil de Sorø : note du tableau 1.",
+      "reserves": [
+       "R2DK-01",
+       "R2DK-03",
+       "R2DK-06"
+      ]
+     },
+     "sources": [
+      {
+       "source_id": "src-dst-folkemaengde1935",
+       "locator": "Tableau 2, p. imprimée/PDF 95",
+       "usage": "Liste des amter et systèmes distincts en 1935 ; antécédent seulement, avec correction Aarhus/Skanderborg en 1942."
+      },
+      {
+       "source_id": "src-dst-statistisk-aarbog1944",
+       "locator": "Tableau 2, p. 2 (PDF 34), situation au 01/04/1944",
+       "usage": "Contrôle antérieur des noms et distinction amter / amtsrådskredse."
+      },
+      {
+       "source_id": "src-dst-folkemaengde1945",
+       "locator": "Tableau 1, p. 1 (PDF 5) ; modifications pp. 305–309 (PDF 309–313)",
+       "usage": "Liste de 1945 rapprochée des sources antérieures et des changements datés ; aucune limite postérieure automatiquement appliquée."
+      }
+     ]
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-dk-amt-praesto",
+   "type_entite": "subdivision",
+   "nom": "Amt de Præstø",
+   "nom_court": "Præstø",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_sous_reserves",
+     "proprietes": {
+      "nom": "Præstø Amt",
+      "niveau": 1,
+      "echelon": 1,
+      "statut_administratif": "amt",
+      "parent_id": "territoire-dk-danemark",
+      "souverainete_id": "danemark",
+      "note": "La date du Snapshot est la fenêtre observée, non la création. Continuité de la liste recoupée avant et après le 01/01/1945 ; pas de superficies ni de populations de juin 1945 reportées à janvier. Le contrôle réel est celui du territoire existant. Ne pas assimiler la limite de l’amt à la limite de son conseil : cas de Herlufsholm, note du tableau 1.",
+      "reserves": [
+       "R2DK-01",
+       "R2DK-03",
+       "R2DK-06"
+      ]
+     },
+     "sources": [
+      {
+       "source_id": "src-dst-folkemaengde1935",
+       "locator": "Tableau 2, p. imprimée/PDF 96",
+       "usage": "Liste des amter et systèmes distincts en 1935 ; antécédent seulement, avec correction Aarhus/Skanderborg en 1942."
+      },
+      {
+       "source_id": "src-dst-statistisk-aarbog1944",
+       "locator": "Tableau 2, p. 2 (PDF 34), situation au 01/04/1944",
+       "usage": "Contrôle antérieur des noms et distinction amter / amtsrådskredse."
+      },
+      {
+       "source_id": "src-dst-folkemaengde1945",
+       "locator": "Tableau 1, p. 1 (PDF 5) ; modifications pp. 305–309 (PDF 309–313)",
+       "usage": "Liste de 1945 rapprochée des sources antérieures et des changements datés ; aucune limite postérieure automatiquement appliquée."
+      }
+     ]
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-dk-bornholm",
+   "type_entite": "subdivision",
+   "nom": "Amt de Bornholm",
+   "nom_court": "Bornholm",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_sous_reserves",
+     "proprietes": {
+      "nom": "Bornholms Amt",
+      "niveau": 1,
+      "echelon": 1,
+      "statut_administratif": "amt",
+      "parent_id": "territoire-dk-danemark",
+      "souverainete_id": "danemark",
+      "note": "La date du Snapshot est la fenêtre observée, non la création. Continuité de la liste recoupée avant et après le 01/01/1945 ; pas de superficies ni de populations de juin 1945 reportées à janvier. Le contrôle réel est celui du territoire existant. Christiansø est administré par le ministère de la Marine, non par une commune : exception conservée en R2DK-05, sans contour englobant présumé.",
+      "reserves": [
+       "R2DK-01",
+       "R2DK-03",
+       "R2DK-06",
+       "R2DK-05"
+      ]
+     },
+     "sources": [
+      {
+       "source_id": "src-dst-folkemaengde1935",
+       "locator": "Tableau 2, p. imprimée/PDF 96",
+       "usage": "Liste des amter et systèmes distincts en 1935 ; antécédent seulement, avec correction Aarhus/Skanderborg en 1942."
+      },
+      {
+       "source_id": "src-dst-statistisk-aarbog1944",
+       "locator": "Tableau 2, p. 2 (PDF 34), situation au 01/04/1944",
+       "usage": "Contrôle antérieur des noms et distinction amter / amtsrådskredse."
+      },
+      {
+       "source_id": "src-dst-folkemaengde1945",
+       "locator": "Tableau 1, p. 2 (PDF 6) ; modifications pp. 305–309 (PDF 309–313)",
+       "usage": "Liste de 1945 rapprochée des sources antérieures et des changements datés ; aucune limite postérieure automatiquement appliquée."
+      }
+     ]
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-dk-amt-maribo",
+   "type_entite": "subdivision",
+   "nom": "Amt de Maribo",
+   "nom_court": "Maribo",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_sous_reserves",
+     "proprietes": {
+      "nom": "Maribo Amt",
+      "niveau": 1,
+      "echelon": 1,
+      "statut_administratif": "amt",
+      "parent_id": "territoire-dk-danemark",
+      "souverainete_id": "danemark",
+      "note": "La date du Snapshot est la fenêtre observée, non la création. Continuité de la liste recoupée avant et après le 01/01/1945 ; pas de superficies ni de populations de juin 1945 reportées à janvier. Le contrôle réel est celui du territoire existant. ",
+      "reserves": [
+       "R2DK-01",
+       "R2DK-03",
+       "R2DK-06"
+      ]
+     },
+     "sources": [
+      {
+       "source_id": "src-dst-folkemaengde1935",
+       "locator": "Tableau 2, p. imprimée/PDF 96",
+       "usage": "Liste des amter et systèmes distincts en 1935 ; antécédent seulement, avec correction Aarhus/Skanderborg en 1942."
+      },
+      {
+       "source_id": "src-dst-statistisk-aarbog1944",
+       "locator": "Tableau 2, p. 2 (PDF 34), situation au 01/04/1944",
+       "usage": "Contrôle antérieur des noms et distinction amter / amtsrådskredse."
+      },
+      {
+       "source_id": "src-dst-folkemaengde1945",
+       "locator": "Tableau 1, p. 2 (PDF 6) ; modifications pp. 305–309 (PDF 309–313)",
+       "usage": "Liste de 1945 rapprochée des sources antérieures et des changements datés ; aucune limite postérieure automatiquement appliquée."
+      }
+     ]
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-dk-amt-svendborg",
+   "type_entite": "subdivision",
+   "nom": "Amt de Svendborg",
+   "nom_court": "Svendborg",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_sous_reserves",
+     "proprietes": {
+      "nom": "Svendborg Amt",
+      "niveau": 1,
+      "echelon": 1,
+      "statut_administratif": "amt",
+      "parent_id": "territoire-dk-danemark",
+      "souverainete_id": "danemark",
+      "note": "La date du Snapshot est la fenêtre observée, non la création. Continuité de la liste recoupée avant et après le 01/01/1945 ; pas de superficies ni de populations de juin 1945 reportées à janvier. Le contrôle réel est celui du territoire existant. ",
+      "reserves": [
+       "R2DK-01",
+       "R2DK-03",
+       "R2DK-06"
+      ]
+     },
+     "sources": [
+      {
+       "source_id": "src-dst-folkemaengde1935",
+       "locator": "Tableau 2, p. imprimée/PDF 96",
+       "usage": "Liste des amter et systèmes distincts en 1935 ; antécédent seulement, avec correction Aarhus/Skanderborg en 1942."
+      },
+      {
+       "source_id": "src-dst-statistisk-aarbog1944",
+       "locator": "Tableau 2, p. 2 (PDF 34), situation au 01/04/1944",
+       "usage": "Contrôle antérieur des noms et distinction amter / amtsrådskredse."
+      },
+      {
+       "source_id": "src-dst-folkemaengde1945",
+       "locator": "Tableau 1, p. 2 (PDF 6) ; modifications pp. 305–309 (PDF 309–313)",
+       "usage": "Liste de 1945 rapprochée des sources antérieures et des changements datés ; aucune limite postérieure automatiquement appliquée."
+      }
+     ]
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-dk-amt-odense",
+   "type_entite": "subdivision",
+   "nom": "Amt d’Odense",
+   "nom_court": "Odense",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_sous_reserves",
+     "proprietes": {
+      "nom": "Odense Amt",
+      "niveau": 1,
+      "echelon": 1,
+      "statut_administratif": "amt",
+      "parent_id": "territoire-dk-danemark",
+      "souverainete_id": "danemark",
+      "note": "La date du Snapshot est la fenêtre observée, non la création. Continuité de la liste recoupée avant et après le 01/01/1945 ; pas de superficies ni de populations de juin 1945 reportées à janvier. Le contrôle réel est celui du territoire existant. Deux districts de conseils : Odense et Assens ; un seul amt d’État.",
+      "reserves": [
+       "R2DK-01",
+       "R2DK-03",
+       "R2DK-06"
+      ]
+     },
+     "sources": [
+      {
+       "source_id": "src-dst-folkemaengde1935",
+       "locator": "Tableau 2, p. imprimée/PDF 97",
+       "usage": "Liste des amter et systèmes distincts en 1935 ; antécédent seulement, avec correction Aarhus/Skanderborg en 1942."
+      },
+      {
+       "source_id": "src-dst-statistisk-aarbog1944",
+       "locator": "Tableau 2, p. 2 (PDF 34), situation au 01/04/1944",
+       "usage": "Contrôle antérieur des noms et distinction amter / amtsrådskredse."
+      },
+      {
+       "source_id": "src-dst-folkemaengde1945",
+       "locator": "Tableau 1, p. 2 (PDF 6) ; modifications pp. 305–309 (PDF 309–313)",
+       "usage": "Liste de 1945 rapprochée des sources antérieures et des changements datés ; aucune limite postérieure automatiquement appliquée."
+      }
+     ]
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-dk-amt-vejle",
+   "type_entite": "subdivision",
+   "nom": "Amt de Vejle",
+   "nom_court": "Vejle",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_sous_reserves",
+     "proprietes": {
+      "nom": "Vejle Amt",
+      "niveau": 1,
+      "echelon": 1,
+      "statut_administratif": "amt",
+      "parent_id": "territoire-dk-danemark",
+      "souverainete_id": "danemark",
+      "note": "La date du Snapshot est la fenêtre observée, non la création. Continuité de la liste recoupée avant et après le 01/01/1945 ; pas de superficies ni de populations de juin 1945 reportées à janvier. Le contrôle réel est celui du territoire existant. ",
+      "reserves": [
+       "R2DK-01",
+       "R2DK-03",
+       "R2DK-06"
+      ]
+     },
+     "sources": [
+      {
+       "source_id": "src-dst-folkemaengde1935",
+       "locator": "Tableau 2, p. imprimée/PDF 97",
+       "usage": "Liste des amter et systèmes distincts en 1935 ; antécédent seulement, avec correction Aarhus/Skanderborg en 1942."
+      },
+      {
+       "source_id": "src-dst-statistisk-aarbog1944",
+       "locator": "Tableau 2, p. 2 (PDF 34), situation au 01/04/1944",
+       "usage": "Contrôle antérieur des noms et distinction amter / amtsrådskredse."
+      },
+      {
+       "source_id": "src-dst-folkemaengde1945",
+       "locator": "Tableau 1, p. 2 (PDF 6) ; modifications pp. 305–309 (PDF 309–313)",
+       "usage": "Liste de 1945 rapprochée des sources antérieures et des changements datés ; aucune limite postérieure automatiquement appliquée."
+      }
+     ]
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-dk-amt-skanderborg",
+   "type_entite": "subdivision",
+   "nom": "Amt de Skanderborg",
+   "nom_court": "Skanderborg",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_sous_reserves",
+     "proprietes": {
+      "nom": "Skanderborg Amt",
+      "niveau": 1,
+      "echelon": 1,
+      "statut_administratif": "amt",
+      "parent_id": "territoire-dk-danemark",
+      "souverainete_id": "danemark",
+      "note": "La date du Snapshot est la fenêtre observée, non la création. Continuité de la liste recoupée avant et après le 01/01/1945 ; pas de superficies ni de populations de juin 1945 reportées à janvier. Le contrôle réel est celui du territoire existant. Séparé de l’amt d’Aarhus le 01/04/1942, loi n° 530 du 22/12/1941 citée dans le recensement 1945, p. 306. La colonne 1935 n’établit pas encore un amt indépendant.",
+      "reserves": [
+       "R2DK-01",
+       "R2DK-03",
+       "R2DK-06"
+      ]
+     },
+     "sources": [
+      {
+       "source_id": "src-dst-folkemaengde1935",
+       "locator": "Tableau 2, p. imprimée/PDF 97",
+       "usage": "Liste des amter et systèmes distincts en 1935 ; antécédent seulement, avec correction Aarhus/Skanderborg en 1942."
+      },
+      {
+       "source_id": "src-dst-statistisk-aarbog1944",
+       "locator": "Tableau 2, p. 2 (PDF 34), situation au 01/04/1944",
+       "usage": "Contrôle antérieur des noms et distinction amter / amtsrådskredse."
+      },
+      {
+       "source_id": "src-dst-folkemaengde1945",
+       "locator": "Tableau 1, p. 3 (PDF 7) ; modifications pp. 305–309 (PDF 309–313)",
+       "usage": "Liste de 1945 rapprochée des sources antérieures et des changements datés ; aucune limite postérieure automatiquement appliquée."
+      },
+      {
+       "source_id": "src-dst-folkemaengde1945",
+       "locator": "p. 306 (PDF 310), loi n° 530 du 22/12/1941",
+       "usage": "Date effective de la séparation des deux amter : 01/04/1942."
+      }
+     ]
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-dk-amt-aarhus",
+   "type_entite": "subdivision",
+   "nom": "Amt d’Aarhus",
+   "nom_court": "Aarhus",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_sous_reserves",
+     "proprietes": {
+      "nom": "Aarhus Amt",
+      "niveau": 1,
+      "echelon": 1,
+      "statut_administratif": "amt",
+      "parent_id": "territoire-dk-danemark",
+      "souverainete_id": "danemark",
+      "note": "La date du Snapshot est la fenêtre observée, non la création. Continuité de la liste recoupée avant et après le 01/01/1945 ; pas de superficies ni de populations de juin 1945 reportées à janvier. Le contrôle réel est celui du territoire existant. Périmètre distinct de Skanderborg depuis le 01/04/1942 ; ne pas reprendre l’amt commun de 1935.",
+      "reserves": [
+       "R2DK-01",
+       "R2DK-03",
+       "R2DK-06"
+      ]
+     },
+     "sources": [
+      {
+       "source_id": "src-dst-folkemaengde1935",
+       "locator": "Tableau 2, p. imprimée/PDF 97",
+       "usage": "Liste des amter et systèmes distincts en 1935 ; antécédent seulement, avec correction Aarhus/Skanderborg en 1942."
+      },
+      {
+       "source_id": "src-dst-statistisk-aarbog1944",
+       "locator": "Tableau 2, p. 2 (PDF 34), situation au 01/04/1944",
+       "usage": "Contrôle antérieur des noms et distinction amter / amtsrådskredse."
+      },
+      {
+       "source_id": "src-dst-folkemaengde1945",
+       "locator": "Tableau 1, p. 3 (PDF 7) ; modifications pp. 305–309 (PDF 309–313)",
+       "usage": "Liste de 1945 rapprochée des sources antérieures et des changements datés ; aucune limite postérieure automatiquement appliquée."
+      },
+      {
+       "source_id": "src-dst-folkemaengde1945",
+       "locator": "p. 306 (PDF 310), loi n° 530 du 22/12/1941",
+       "usage": "Date effective de la séparation des deux amter : 01/04/1942."
+      }
+     ]
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-dk-amt-randers",
+   "type_entite": "subdivision",
+   "nom": "Amt de Randers",
+   "nom_court": "Randers",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_sous_reserves",
+     "proprietes": {
+      "nom": "Randers Amt",
+      "niveau": 1,
+      "echelon": 1,
+      "statut_administratif": "amt",
+      "parent_id": "territoire-dk-danemark",
+      "souverainete_id": "danemark",
+      "note": "La date du Snapshot est la fenêtre observée, non la création. Continuité de la liste recoupée avant et après le 01/01/1945 ; pas de superficies ni de populations de juin 1945 reportées à janvier. Le contrôle réel est celui du territoire existant. ",
+      "reserves": [
+       "R2DK-01",
+       "R2DK-03",
+       "R2DK-06"
+      ]
+     },
+     "sources": [
+      {
+       "source_id": "src-dst-folkemaengde1935",
+       "locator": "Tableau 2, p. imprimée/PDF 98",
+       "usage": "Liste des amter et systèmes distincts en 1935 ; antécédent seulement, avec correction Aarhus/Skanderborg en 1942."
+      },
+      {
+       "source_id": "src-dst-statistisk-aarbog1944",
+       "locator": "Tableau 2, p. 2 (PDF 34), situation au 01/04/1944",
+       "usage": "Contrôle antérieur des noms et distinction amter / amtsrådskredse."
+      },
+      {
+       "source_id": "src-dst-folkemaengde1945",
+       "locator": "Tableau 1, p. 3 (PDF 7) ; modifications pp. 305–309 (PDF 309–313)",
+       "usage": "Liste de 1945 rapprochée des sources antérieures et des changements datés ; aucune limite postérieure automatiquement appliquée."
+      }
+     ]
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-dk-amt-aalborg",
+   "type_entite": "subdivision",
+   "nom": "Amt d’Aalborg",
+   "nom_court": "Aalborg",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_sous_reserves",
+     "proprietes": {
+      "nom": "Aalborg Amt",
+      "niveau": 1,
+      "echelon": 1,
+      "statut_administratif": "amt",
+      "parent_id": "territoire-dk-danemark",
+      "souverainete_id": "danemark",
+      "note": "La date du Snapshot est la fenêtre observée, non la création. Continuité de la liste recoupée avant et après le 01/01/1945 ; pas de superficies ni de populations de juin 1945 reportées à janvier. Le contrôle réel est celui du territoire existant. Dronninglund est partagé entre les amter d’Aalborg et Hjørring, mais relève entièrement du conseil de Hjørring : note du tableau 1.",
+      "reserves": [
+       "R2DK-01",
+       "R2DK-03",
+       "R2DK-06"
+      ]
+     },
+     "sources": [
+      {
+       "source_id": "src-dst-folkemaengde1935",
+       "locator": "Tableau 2, p. imprimée/PDF 98",
+       "usage": "Liste des amter et systèmes distincts en 1935 ; antécédent seulement, avec correction Aarhus/Skanderborg en 1942."
+      },
+      {
+       "source_id": "src-dst-statistisk-aarbog1944",
+       "locator": "Tableau 2, p. 2 (PDF 34), situation au 01/04/1944",
+       "usage": "Contrôle antérieur des noms et distinction amter / amtsrådskredse."
+      },
+      {
+       "source_id": "src-dst-folkemaengde1945",
+       "locator": "Tableau 1, p. 3 (PDF 7) ; modifications pp. 305–309 (PDF 309–313)",
+       "usage": "Liste de 1945 rapprochée des sources antérieures et des changements datés ; aucune limite postérieure automatiquement appliquée."
+      }
+     ]
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-dk-amt-hjorring",
+   "type_entite": "subdivision",
+   "nom": "Amt de Hjørring",
+   "nom_court": "Hjørring",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_sous_reserves",
+     "proprietes": {
+      "nom": "Hjørring Amt",
+      "niveau": 1,
+      "echelon": 1,
+      "statut_administratif": "amt",
+      "parent_id": "territoire-dk-danemark",
+      "souverainete_id": "danemark",
+      "note": "La date du Snapshot est la fenêtre observée, non la création. Continuité de la liste recoupée avant et après le 01/01/1945 ; pas de superficies ni de populations de juin 1945 reportées à janvier. Le contrôle réel est celui du territoire existant. Dronninglund : le rattachement au conseil local ne suffit pas à définir la limite de l’amt d’État.",
+      "reserves": [
+       "R2DK-01",
+       "R2DK-03",
+       "R2DK-06"
+      ]
+     },
+     "sources": [
+      {
+       "source_id": "src-dst-folkemaengde1935",
+       "locator": "Tableau 2, p. imprimée/PDF 98",
+       "usage": "Liste des amter et systèmes distincts en 1935 ; antécédent seulement, avec correction Aarhus/Skanderborg en 1942."
+      },
+      {
+       "source_id": "src-dst-statistisk-aarbog1944",
+       "locator": "Tableau 2, p. 2 (PDF 34), situation au 01/04/1944",
+       "usage": "Contrôle antérieur des noms et distinction amter / amtsrådskredse."
+      },
+      {
+       "source_id": "src-dst-folkemaengde1945",
+       "locator": "Tableau 1, p. 3 (PDF 7) ; modifications pp. 305–309 (PDF 309–313)",
+       "usage": "Liste de 1945 rapprochée des sources antérieures et des changements datés ; aucune limite postérieure automatiquement appliquée."
+      }
+     ]
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-dk-amt-thisted",
+   "type_entite": "subdivision",
+   "nom": "Amt de Thisted",
+   "nom_court": "Thisted",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_sous_reserves",
+     "proprietes": {
+      "nom": "Thisted Amt",
+      "niveau": 1,
+      "echelon": 1,
+      "statut_administratif": "amt",
+      "parent_id": "territoire-dk-danemark",
+      "souverainete_id": "danemark",
+      "note": "La date du Snapshot est la fenêtre observée, non la création. Continuité de la liste recoupée avant et après le 01/01/1945 ; pas de superficies ni de populations de juin 1945 reportées à janvier. Le contrôle réel est celui du territoire existant. ",
+      "reserves": [
+       "R2DK-01",
+       "R2DK-03",
+       "R2DK-06"
+      ]
+     },
+     "sources": [
+      {
+       "source_id": "src-dst-folkemaengde1935",
+       "locator": "Tableau 2, p. imprimée/PDF 98",
+       "usage": "Liste des amter et systèmes distincts en 1935 ; antécédent seulement, avec correction Aarhus/Skanderborg en 1942."
+      },
+      {
+       "source_id": "src-dst-statistisk-aarbog1944",
+       "locator": "Tableau 2, p. 2 (PDF 34), situation au 01/04/1944",
+       "usage": "Contrôle antérieur des noms et distinction amter / amtsrådskredse."
+      },
+      {
+       "source_id": "src-dst-folkemaengde1945",
+       "locator": "Tableau 1, p. 3 (PDF 7) ; modifications pp. 305–309 (PDF 309–313)",
+       "usage": "Liste de 1945 rapprochée des sources antérieures et des changements datés ; aucune limite postérieure automatiquement appliquée."
+      }
+     ]
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-dk-amt-viborg",
+   "type_entite": "subdivision",
+   "nom": "Amt de Viborg",
+   "nom_court": "Viborg",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_sous_reserves",
+     "proprietes": {
+      "nom": "Viborg Amt",
+      "niveau": 1,
+      "echelon": 1,
+      "statut_administratif": "amt",
+      "parent_id": "territoire-dk-danemark",
+      "souverainete_id": "danemark",
+      "note": "La date du Snapshot est la fenêtre observée, non la création. Continuité de la liste recoupée avant et après le 01/01/1945 ; pas de superficies ni de populations de juin 1945 reportées à janvier. Le contrôle réel est celui du territoire existant. ",
+      "reserves": [
+       "R2DK-01",
+       "R2DK-03",
+       "R2DK-06"
+      ]
+     },
+     "sources": [
+      {
+       "source_id": "src-dst-folkemaengde1935",
+       "locator": "Tableau 2, p. imprimée/PDF 98",
+       "usage": "Liste des amter et systèmes distincts en 1935 ; antécédent seulement, avec correction Aarhus/Skanderborg en 1942."
+      },
+      {
+       "source_id": "src-dst-statistisk-aarbog1944",
+       "locator": "Tableau 2, p. 2 (PDF 34), situation au 01/04/1944",
+       "usage": "Contrôle antérieur des noms et distinction amter / amtsrådskredse."
+      },
+      {
+       "source_id": "src-dst-folkemaengde1945",
+       "locator": "Tableau 1, p. 3 (PDF 7) ; modifications pp. 305–309 (PDF 309–313)",
+       "usage": "Liste de 1945 rapprochée des sources antérieures et des changements datés ; aucune limite postérieure automatiquement appliquée."
+      }
+     ]
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-dk-amt-ringkobing",
+   "type_entite": "subdivision",
+   "nom": "Amt de Ringkøbing",
+   "nom_court": "Ringkøbing",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_sous_reserves",
+     "proprietes": {
+      "nom": "Ringkøbing Amt",
+      "niveau": 1,
+      "echelon": 1,
+      "statut_administratif": "amt",
+      "parent_id": "territoire-dk-danemark",
+      "souverainete_id": "danemark",
+      "note": "La date du Snapshot est la fenêtre observée, non la création. Continuité de la liste recoupée avant et après le 01/01/1945 ; pas de superficies ni de populations de juin 1945 reportées à janvier. Le contrôle réel est celui du territoire existant. ",
+      "reserves": [
+       "R2DK-01",
+       "R2DK-03",
+       "R2DK-06"
+      ]
+     },
+     "sources": [
+      {
+       "source_id": "src-dst-folkemaengde1935",
+       "locator": "Tableau 2, p. imprimée/PDF 99",
+       "usage": "Liste des amter et systèmes distincts en 1935 ; antécédent seulement, avec correction Aarhus/Skanderborg en 1942."
+      },
+      {
+       "source_id": "src-dst-statistisk-aarbog1944",
+       "locator": "Tableau 2, p. 2 (PDF 34), situation au 01/04/1944",
+       "usage": "Contrôle antérieur des noms et distinction amter / amtsrådskredse."
+      },
+      {
+       "source_id": "src-dst-folkemaengde1945",
+       "locator": "Tableau 1, p. 3 (PDF 7) ; modifications pp. 305–309 (PDF 309–313)",
+       "usage": "Liste de 1945 rapprochée des sources antérieures et des changements datés ; aucune limite postérieure automatiquement appliquée."
+      }
+     ]
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-dk-amt-ribe",
+   "type_entite": "subdivision",
+   "nom": "Amt de Ribe",
+   "nom_court": "Ribe",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_sous_reserves",
+     "proprietes": {
+      "nom": "Ribe Amt",
+      "niveau": 1,
+      "echelon": 1,
+      "statut_administratif": "amt",
+      "parent_id": "territoire-dk-danemark",
+      "souverainete_id": "danemark",
+      "note": "La date du Snapshot est la fenêtre observée, non la création. Continuité de la liste recoupée avant et après le 01/01/1945 ; pas de superficies ni de populations de juin 1945 reportées à janvier. Le contrôle réel est celui du territoire existant. ",
+      "reserves": [
+       "R2DK-01",
+       "R2DK-03",
+       "R2DK-06"
+      ]
+     },
+     "sources": [
+      {
+       "source_id": "src-dst-folkemaengde1935",
+       "locator": "Tableau 2, p. imprimée/PDF 99",
+       "usage": "Liste des amter et systèmes distincts en 1935 ; antécédent seulement, avec correction Aarhus/Skanderborg en 1942."
+      },
+      {
+       "source_id": "src-dst-statistisk-aarbog1944",
+       "locator": "Tableau 2, p. 2 (PDF 34), situation au 01/04/1944",
+       "usage": "Contrôle antérieur des noms et distinction amter / amtsrådskredse."
+      },
+      {
+       "source_id": "src-dst-folkemaengde1945",
+       "locator": "Tableau 1, p. 4 (PDF 8) ; modifications pp. 305–309 (PDF 309–313)",
+       "usage": "Liste de 1945 rapprochée des sources antérieures et des changements datés ; aucune limite postérieure automatiquement appliquée."
+      }
+     ]
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-dk-amt-haderslev",
+   "type_entite": "subdivision",
+   "nom": "Amt de Haderslev",
+   "nom_court": "Haderslev",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_sous_reserves",
+     "proprietes": {
+      "nom": "Haderslev Amt",
+      "niveau": 1,
+      "echelon": 1,
+      "statut_administratif": "amt",
+      "parent_id": "territoire-dk-danemark",
+      "souverainete_id": "danemark",
+      "note": "La date du Snapshot est la fenêtre observée, non la création. Continuité de la liste recoupée avant et après le 01/01/1945 ; pas de superficies ni de populations de juin 1945 reportées à janvier. Le contrôle réel est celui du territoire existant. ",
+      "reserves": [
+       "R2DK-01",
+       "R2DK-03",
+       "R2DK-06"
+      ]
+     },
+     "sources": [
+      {
+       "source_id": "src-dst-folkemaengde1935",
+       "locator": "Tableau 2, p. imprimée/PDF 99",
+       "usage": "Liste des amter et systèmes distincts en 1935 ; antécédent seulement, avec correction Aarhus/Skanderborg en 1942."
+      },
+      {
+       "source_id": "src-dst-statistisk-aarbog1944",
+       "locator": "Tableau 2, p. 2 (PDF 34), situation au 01/04/1944",
+       "usage": "Contrôle antérieur des noms et distinction amter / amtsrådskredse."
+      },
+      {
+       "source_id": "src-dst-folkemaengde1945",
+       "locator": "Tableau 1, p. 4 (PDF 8) ; modifications pp. 305–309 (PDF 309–313)",
+       "usage": "Liste de 1945 rapprochée des sources antérieures et des changements datés ; aucune limite postérieure automatiquement appliquée."
+      }
+     ]
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-dk-amt-aabenraa-sonderborg",
+   "type_entite": "subdivision",
+   "nom": "Amt d’Aabenraa-Sønderborg",
+   "nom_court": "Aabenraa-Sønderborg",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_sous_reserves",
+     "proprietes": {
+      "nom": "Aabenraa-Sønderborg Amt",
+      "niveau": 1,
+      "echelon": 1,
+      "statut_administratif": "amt",
+      "parent_id": "territoire-dk-danemark",
+      "souverainete_id": "danemark",
+      "note": "La date du Snapshot est la fenêtre observée, non la création. Continuité de la liste recoupée avant et après le 01/01/1945 ; pas de superficies ni de populations de juin 1945 reportées à janvier. Le contrôle réel est celui du territoire existant. Un amt d’État, deux districts de conseils Aabenraa et Sønderborg ; ne pas compter deux amter d’État.",
+      "reserves": [
+       "R2DK-01",
+       "R2DK-03",
+       "R2DK-06"
+      ]
+     },
+     "sources": [
+      {
+       "source_id": "src-dst-folkemaengde1935",
+       "locator": "Tableau 2, p. imprimée/PDF 99",
+       "usage": "Liste des amter et systèmes distincts en 1935 ; antécédent seulement, avec correction Aarhus/Skanderborg en 1942."
+      },
+      {
+       "source_id": "src-dst-statistisk-aarbog1944",
+       "locator": "Tableau 2, p. 2 (PDF 34), situation au 01/04/1944",
+       "usage": "Contrôle antérieur des noms et distinction amter / amtsrådskredse."
+      },
+      {
+       "source_id": "src-dst-folkemaengde1945",
+       "locator": "Tableau 1, p. 4 (PDF 8) ; modifications pp. 305–309 (PDF 309–313)",
+       "usage": "Liste de 1945 rapprochée des sources antérieures et des changements datés ; aucune limite postérieure automatiquement appliquée."
+      }
+     ]
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-dk-amt-tonder",
+   "type_entite": "subdivision",
+   "nom": "Amt de Tønder",
+   "nom_court": "Tønder",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_sous_reserves",
+     "proprietes": {
+      "nom": "Tønder Amt",
+      "niveau": 1,
+      "echelon": 1,
+      "statut_administratif": "amt",
+      "parent_id": "territoire-dk-danemark",
+      "souverainete_id": "danemark",
+      "note": "La date du Snapshot est la fenêtre observée, non la création. Continuité de la liste recoupée avant et après le 01/01/1945 ; pas de superficies ni de populations de juin 1945 reportées à janvier. Le contrôle réel est celui du territoire existant. Aucun prolongement vers le Schleswig allemand n’est proposé.",
+      "reserves": [
+       "R2DK-01",
+       "R2DK-03",
+       "R2DK-06"
+      ]
+     },
+     "sources": [
+      {
+       "source_id": "src-dst-folkemaengde1935",
+       "locator": "Tableau 2, p. imprimée/PDF 99",
+       "usage": "Liste des amter et systèmes distincts en 1935 ; antécédent seulement, avec correction Aarhus/Skanderborg en 1942."
+      },
+      {
+       "source_id": "src-dst-statistisk-aarbog1944",
+       "locator": "Tableau 2, p. 2 (PDF 34), situation au 01/04/1944",
+       "usage": "Contrôle antérieur des noms et distinction amter / amtsrådskredse."
+      },
+      {
+       "source_id": "src-dst-folkemaengde1945",
+       "locator": "Tableau 1, p. 4 (PDF 8) ; modifications pp. 305–309 (PDF 309–313)",
+       "usage": "Liste de 1945 rapprochée des sources antérieures et des changements datés ; aucune limite postérieure automatiquement appliquée."
+      }
+     ]
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-fo-feroe",
+   "type_entite": "subdivision",
+   "nom": "Amt des Féroé",
+   "nom_court": "Féroé",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_sous_reserves",
+     "proprietes": {
+      "nom": "Færø Amt",
+      "niveau": 1,
+      "echelon": 1,
+      "statut_administratif": "amt",
+      "parent_id": "territoire-dk-feroe",
+      "souverainete_id": "danemark",
+      "note": "Échelon administratif d’État à l’intérieur du territoire géopolitique existant des Féroé ; aucune création de territoire. Gestion de guerre et contrôle britannique conservés dans le parent, sans anticiper l’autonomie de 1948. La fiche permet aux sysler de conserver le niveau 2 au sens commun de la phase.",
+      "reserves": [
+       "R2DK-02",
+       "R2DK-03",
+       "R2DK-06",
+       "R2DK-07"
+      ]
+     },
+     "sources": [
+      {
+       "source_id": "src-dst-folkemaengde1935",
+       "locator": "Tableaux 21–23, pp. 199–205",
+       "usage": "Færø Amt et ses six sysler avant le Snapshot."
+      },
+      {
+       "source_id": "src-dst-folkemaengde1945",
+       "locator": "Tableaux 21–22, pp. 274–277 (PDF 278–281)",
+       "usage": "Færø Amt et six sysler à la fin de 1945, contrôle de continuité."
+      }
+     ]
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-fo-nordoya",
+   "type_entite": "subdivision",
+   "nom": "Norðoya sýsla",
+   "nom_court": "Norðoya",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_sous_reserves",
+     "proprietes": {
+      "nom": "Norderøernes Syssel",
+      "niveau": 2,
+      "echelon": 2,
+      "statut_administratif": "syssel",
+      "parent_id": "subdivision-fo-feroe",
+      "souverainete_id": "danemark",
+      "note": "Juridiction territoriale documentée dans les recensements, pas une commune ni une circonscription électorale ajoutée. Bordø, Kalsø, Kunø, Viderø, Svinø et Fuglø. Continuité nominative proposée par recoupement 1935/1945, sans tracer automatiquement les îles modernes.",
+      "reserves": [
+       "R2DK-02",
+       "R2DK-03",
+       "R2DK-06",
+       "R2DK-07"
+      ]
+     },
+     "sources": [
+      {
+       "source_id": "src-dst-folkemaengde1935",
+       "locator": "Tableau 22 p. 202, tableau 23 p. 203",
+       "usage": "Syssel, composition insulaire et rattachement à Færø Amt avant le Snapshot."
+      },
+      {
+       "source_id": "src-dst-folkemaengde1945",
+       "locator": "Tableau 21 p. 274 (PDF 278) ; tableau 22 pp. 276–277 (PDF 280–281)",
+       "usage": "Contrôle des six sysler et distinction avec les communes à la fin de 1945. Le recensement est du 31/12/1945."
+      },
+      {
+       "source_id": "src-us-foroyakort-cartes-administratives2011",
+       "locator": "Carte Sýslur í Føroyum, 28/01/2011, page unique",
+       "usage": "Forme féroïenne actuelle utilisée pour le nom stable ; pas une preuve du contour en 1945."
+      }
+     ]
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-fo-eysturoyar",
+   "type_entite": "subdivision",
+   "nom": "Eysturoyar sýsla",
+   "nom_court": "Eysturoyar",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_sous_reserves",
+     "proprietes": {
+      "nom": "Østerø Syssel",
+      "niveau": 2,
+      "echelon": 2,
+      "statut_administratif": "syssel",
+      "parent_id": "subdivision-fo-feroe",
+      "souverainete_id": "danemark",
+      "note": "Juridiction territoriale documentée dans les recensements, pas une commune ni une circonscription électorale ajoutée. Østerø. Continuité nominative proposée par recoupement 1935/1945, sans tracer automatiquement les îles modernes.",
+      "reserves": [
+       "R2DK-02",
+       "R2DK-03",
+       "R2DK-06",
+       "R2DK-07"
+      ]
+     },
+     "sources": [
+      {
+       "source_id": "src-dst-folkemaengde1935",
+       "locator": "Tableau 22 p. 202, tableau 23 p. 203",
+       "usage": "Syssel, composition insulaire et rattachement à Færø Amt avant le Snapshot."
+      },
+      {
+       "source_id": "src-dst-folkemaengde1945",
+       "locator": "Tableau 21 p. 274 (PDF 278) ; tableau 22 pp. 276–277 (PDF 280–281)",
+       "usage": "Contrôle des six sysler et distinction avec les communes à la fin de 1945. Le recensement est du 31/12/1945."
+      },
+      {
+       "source_id": "src-us-foroyakort-cartes-administratives2011",
+       "locator": "Carte Sýslur í Føroyum, 28/01/2011, page unique",
+       "usage": "Forme féroïenne actuelle utilisée pour le nom stable ; pas une preuve du contour en 1945."
+      }
+     ]
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-fo-streymoyar",
+   "type_entite": "subdivision",
+   "nom": "Streymoyar sýsla",
+   "nom_court": "Streymoyar",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_sous_reserves",
+     "proprietes": {
+      "nom": "Strømø Syssel",
+      "niveau": 2,
+      "echelon": 2,
+      "statut_administratif": "syssel",
+      "parent_id": "subdivision-fo-feroe",
+      "souverainete_id": "danemark",
+      "note": "Juridiction territoriale documentée dans les recensements, pas une commune ni une circonscription électorale ajoutée. Strømø avec Thorshavn, Nolsø, Hestø et Kolter. Le tableau 21 isole la commune urbaine pour ses comptes, mais le tableau 22 dit explicitement « med Thorshavn ». Continuité nominative proposée par recoupement 1935/1945, sans tracer automatiquement les îles modernes.",
+      "reserves": [
+       "R2DK-02",
+       "R2DK-03",
+       "R2DK-06",
+       "R2DK-07"
+      ]
+     },
+     "sources": [
+      {
+       "source_id": "src-dst-folkemaengde1935",
+       "locator": "Tableau 22 p. 202, tableau 23 p. 204",
+       "usage": "Syssel, composition insulaire et rattachement à Færø Amt avant le Snapshot."
+      },
+      {
+       "source_id": "src-dst-folkemaengde1945",
+       "locator": "Tableau 21 p. 274 (PDF 278) ; tableau 22 pp. 276–277 (PDF 280–281)",
+       "usage": "Contrôle des six sysler et distinction avec les communes à la fin de 1945. Le recensement est du 31/12/1945."
+      },
+      {
+       "source_id": "src-us-foroyakort-cartes-administratives2011",
+       "locator": "Carte Sýslur í Føroyum, 28/01/2011, page unique",
+       "usage": "Forme féroïenne actuelle utilisée pour le nom stable ; pas une preuve du contour en 1945."
+      }
+     ]
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-fo-vaga",
+   "type_entite": "subdivision",
+   "nom": "Vága sýsla",
+   "nom_court": "Vága",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_sous_reserves",
+     "proprietes": {
+      "nom": "Vaagø Syssel",
+      "niveau": 2,
+      "echelon": 2,
+      "statut_administratif": "syssel",
+      "parent_id": "subdivision-fo-feroe",
+      "souverainete_id": "danemark",
+      "note": "Juridiction territoriale documentée dans les recensements, pas une commune ni une circonscription électorale ajoutée. Vaagø et Myggenæs. Continuité nominative proposée par recoupement 1935/1945, sans tracer automatiquement les îles modernes.",
+      "reserves": [
+       "R2DK-02",
+       "R2DK-03",
+       "R2DK-06",
+       "R2DK-07"
+      ]
+     },
+     "sources": [
+      {
+       "source_id": "src-dst-folkemaengde1935",
+       "locator": "Tableau 22 p. 202, tableau 23 p. 204",
+       "usage": "Syssel, composition insulaire et rattachement à Færø Amt avant le Snapshot."
+      },
+      {
+       "source_id": "src-dst-folkemaengde1945",
+       "locator": "Tableau 21 p. 274 (PDF 278) ; tableau 22 pp. 276–277 (PDF 280–281)",
+       "usage": "Contrôle des six sysler et distinction avec les communes à la fin de 1945. Le recensement est du 31/12/1945."
+      },
+      {
+       "source_id": "src-us-foroyakort-cartes-administratives2011",
+       "locator": "Carte Sýslur í Føroyum, 28/01/2011, page unique",
+       "usage": "Forme féroïenne actuelle utilisée pour le nom stable ; pas une preuve du contour en 1945."
+      }
+     ]
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-fo-sandoyar",
+   "type_entite": "subdivision",
+   "nom": "Sandoyar sýsla",
+   "nom_court": "Sandoyar",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_sous_reserves",
+     "proprietes": {
+      "nom": "Sandø Syssel",
+      "niveau": 2,
+      "echelon": 2,
+      "statut_administratif": "syssel",
+      "parent_id": "subdivision-fo-feroe",
+      "souverainete_id": "danemark",
+      "note": "Juridiction territoriale documentée dans les recensements, pas une commune ni une circonscription électorale ajoutée. Sandø, Skuø et Store Dimon. Continuité nominative proposée par recoupement 1935/1945, sans tracer automatiquement les îles modernes.",
+      "reserves": [
+       "R2DK-02",
+       "R2DK-03",
+       "R2DK-06",
+       "R2DK-07"
+      ]
+     },
+     "sources": [
+      {
+       "source_id": "src-dst-folkemaengde1935",
+       "locator": "Tableau 22 p. 202, tableau 23 p. 204",
+       "usage": "Syssel, composition insulaire et rattachement à Færø Amt avant le Snapshot."
+      },
+      {
+       "source_id": "src-dst-folkemaengde1945",
+       "locator": "Tableau 21 p. 275 (PDF 279) ; tableau 22 pp. 276–277 (PDF 280–281)",
+       "usage": "Contrôle des six sysler et distinction avec les communes à la fin de 1945. Le recensement est du 31/12/1945."
+      },
+      {
+       "source_id": "src-us-foroyakort-cartes-administratives2011",
+       "locator": "Carte Sýslur í Føroyum, 28/01/2011, page unique",
+       "usage": "Forme féroïenne actuelle utilisée pour le nom stable ; pas une preuve du contour en 1945."
+      }
+     ]
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-fo-suduroyar",
+   "type_entite": "subdivision",
+   "nom": "Suðuroyar sýsla",
+   "nom_court": "Suðuroyar",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_sous_reserves",
+     "proprietes": {
+      "nom": "Suderø Syssel",
+      "niveau": 2,
+      "echelon": 2,
+      "statut_administratif": "syssel",
+      "parent_id": "subdivision-fo-feroe",
+      "souverainete_id": "danemark",
+      "note": "Juridiction territoriale documentée dans les recensements, pas une commune ni une circonscription électorale ajoutée. Suderø et Lille Dimon ; la différence des surfaces statistiques entre les volumes ne définit pas une cession territoriale. Continuité nominative proposée par recoupement 1935/1945, sans tracer automatiquement les îles modernes.",
+      "reserves": [
+       "R2DK-02",
+       "R2DK-03",
+       "R2DK-06",
+       "R2DK-07"
+      ]
+     },
+     "sources": [
+      {
+       "source_id": "src-dst-folkemaengde1935",
+       "locator": "Tableau 22 p. 202, tableau 23 p. 205",
+       "usage": "Syssel, composition insulaire et rattachement à Færø Amt avant le Snapshot."
+      },
+      {
+       "source_id": "src-dst-folkemaengde1945",
+       "locator": "Tableau 21 p. 275 (PDF 279) ; tableau 22 pp. 276–277 (PDF 280–281)",
+       "usage": "Contrôle des six sysler et distinction avec les communes à la fin de 1945. Le recensement est du 31/12/1945."
+      },
+      {
+       "source_id": "src-us-foroyakort-cartes-administratives2011",
+       "locator": "Carte Sýslur í Føroyum, 28/01/2011, page unique",
+       "usage": "Forme féroïenne actuelle utilisée pour le nom stable ; pas une preuve du contour en 1945."
+      }
+     ]
+    }
+   ],
+   "relations": []
+  }
+ ]
+}

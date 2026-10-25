@@ -1,0 +1,109 @@
+{
+  "lot": "2.DK",
+  "cycle": 1,
+  "date": "2026-10-24T18:35:56.805652+00:00",
+  "reserves": [
+    {
+      "id": "R2DK-01",
+      "objet": "Tracés danois DigDag",
+      "cibles": "23 fiches danoises",
+      "question": "La licence CC BY 4.0 est admise ; aucun contour historique n’a été récupéré et contrôlé à la date.",
+      "preuves_et_limites": "Notice officielle XML ; service local HTTP 455, WFS en erreur de certificat ; documentation du jeton.",
+      "impact": "FeatureCollection vide ; aucun lien de géométrie.",
+      "suite_possible": "Reprendre une extraction officielle autorisée disponible, contrôler la couche amter et la date 01/01/1945, puis convertir EPSG:25832 vers 4326. Aucun jeton tiers ni contournement.",
+      "sources": [
+        "src-rigsarkivet-digdag-amt-region",
+        "src-dataforsyningen-acces-services",
+        "src-rigsarkivet-digdag-disponibilite"
+      ],
+      "statut": "reserve_revue_groupe3_non_validee"
+    },
+    {
+      "id": "R2DK-02",
+      "objet": "Tracés féroïens : licence spécifique et millésime",
+      "cibles": "Færø Amt et six sysler",
+      "question": "Les conditions de juin 2019 autorisent largement l’usage mais ne sont pas une licence nommée dans la liste automatique. La carte examinée est de 2011 et non géoréférencée.",
+      "preuves_et_limites": "Catalogue officiel, conditions lues via outil web, PDF officiel conservé et inspecté.",
+      "impact": "Aucun tracé fourni ; aucune requalification en CC BY ; les noms modernes seuls sont employés hors état historique.",
+      "suite_possible": "Conserver pour revue de groupe la licence exacte et une éventuelle preuve de stabilité historique avant extraction.",
+      "sources": [
+        "src-us-foroyakort-cartes-administratives2011",
+        "src-us-foroyakort-conditions2019"
+      ],
+      "statut": "reserve_revue_groupe3_non_validee"
+    },
+    {
+      "id": "R2DK-03",
+      "objet": "Continuité au jour exact et limites locales",
+      "cibles": "Toutes les fiches",
+      "question": "La liste est reconstruite par sources antérieures et postérieures, sans recensement de janvier. Les limites ponctuelles ne sont pas toutes numérisées.",
+      "preuves_et_limites": "1935, annuaires avril 1944 et avril 1945, recensement juin/décembre 1945, changements pp. 305–309.",
+      "impact": "Pas de superficies ou populations postérieures, pas de contour supposé. Mørkhøj 01/10/1944 retenu dans la note, Rødovre 01/04/1945 exclu du Snapshot.",
+      "suite_possible": "Renforcer les points locaux par les actes originaux si une géométrie doit être publiée ; ne pas redater les limites des tableaux postérieurs.",
+      "sources": [
+        "src-dst-folkemaengde1935",
+        "src-dst-statistisk-aarbog1944",
+        "src-dst-statistisk-aarbog1945",
+        "src-dst-folkemaengde1945"
+      ],
+      "statut": "reserve_revue_groupe3_non_validee"
+    },
+    {
+      "id": "R2DK-04",
+      "objet": "Amter, conseils et systèmes spécialisés",
+      "cibles": "Danemark proprement dit",
+      "question": "Choix d’un seul échelon civil général d’État. Conseils départementaux et juridictions ne sont pas une hiérarchie uniforme emboîtée.",
+      "preuves_et_limites": "Tableaux 1/2, notes Herlufsholm et Dronninglund ; distinctions de l’annuaire ; notice historique des herreder.",
+      "impact": "22 amter et Copenhague ; pas de fausse liste de 25 amter d’État, pas de second échelon inventé. Les juridictions ne sont pas exhaustivement livrées.",
+      "suite_possible": "Claude peut revoir ce choix dans le cadre autorisé. Un autre système ne doit être ajouté qu’en explicitant sa fonction et sa pertinence, sans modifier le sens des niveaux.",
+      "sources": [
+        "src-dst-folkemaengde1935",
+        "src-dst-statistisk-aarbog1944",
+        "src-dst-folkemaengde1945",
+        "src-lex-jorgensen-herred"
+      ],
+      "statut": "reserve_revue_groupe3_non_validee"
+    },
+    {
+      "id": "R2DK-05",
+      "objet": "Exception Christiansø",
+      "cibles": "Îlot administré par la Marine",
+      "question": "L’annuaire distingue une administration par le ministère de la Marine et l’absence de commune ; représentation propre non proposée.",
+      "preuves_et_limites": "Annuaire 1944 tableau 2, p. 2/PDF 34, note 4.",
+      "impact": "Christiansø ne doit pas être déclaré administrativement couvert par la fiche Bornholm ; aucune géométrie englobante.",
+      "suite_possible": "Décider en revue de sa représentation pertinente comme exception du premier niveau, sans inférer une commune ou une dépendance de Bornholm.",
+      "sources": [
+        "src-dst-statistisk-aarbog1944"
+      ],
+      "statut": "reserve_revue_groupe3_non_validee"
+    },
+    {
+      "id": "R2DK-06",
+      "objet": "Sièges et codes non établis",
+      "cibles": "Toutes les fiches",
+      "question": "Les sources de liste ne prouvent pas à elles seules chaque siège administratif au jour exact ; leurs numéros ne valent pas codes.",
+      "preuves_et_limites": "Tableaux officiels examinés, limites de leur contenu.",
+      "impact": "Aucun chef_lieu_propose, ville créée ou code rempli.",
+      "suite_possible": "Si nécessaire, rechercher ultérieurement les sièges dans un annuaire administratif contemporain ; conserver les villes et le canon actuels.",
+      "sources": [
+        "src-dst-folkemaengde1935",
+        "src-dst-folkemaengde1945"
+      ],
+      "statut": "reserve_revue_groupe3_non_validee"
+    },
+    {
+      "id": "R2DK-07",
+      "objet": "Représentation de Færø Amt et des sysler",
+      "cibles": "Féroé",
+      "question": "Le territoire existant est géopolitique ; l’amt niveau 1 et les juridictions syssel niveau 2 sont proposés comme hiérarchie administrative distincte.",
+      "preuves_et_limites": "Recensements 1935/1945 : amt et six sysler ; le tableau 22 inclut Thorshavn dans Strømø.",
+      "impact": "Sept fiches, aucun septième syssel ni découpage électoral ajouté ; pas d’autonomie de 1948 anticipée.",
+      "suite_possible": "Claude vérifie que cette représentation préserve la convention commune des niveaux et le contrôle territorial existant.",
+      "sources": [
+        "src-dst-folkemaengde1935",
+        "src-dst-folkemaengde1945"
+      ],
+      "statut": "reserve_revue_groupe3_non_validee"
+    }
+  ]
+}

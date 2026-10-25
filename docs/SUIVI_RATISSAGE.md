@@ -96,3 +96,4 @@ Principe de Guizmo : **maximum d'informations, minimum de visibilité**. La cart
 | 2.SM | 8 castelli (secteur central Guaita/Montale sans fiche, R2SM-02) | 0 | 4 (4 ok) | intégré le 24/10/2026 (cycle 2, boucle) ; cycle 1 du 19/10 sans import |
 | 2.VA | 0 (note : pas d'échelon sous l'État) | 0 | 3 (3 ok) | intégré le 19/10/2026 (cycle 1, boucle) |
 | 2.LI | 0 importée (2 Landschaften électorales et 11 communes documentées hors import ; territoire Liechtenstein absent du canon) | 0 | 3 (2 ok, 1 non vérifiée) | intégré le 19/10/2026 (cycle 1, boucle) |
+| 2.DK | 30 (Copenhague + 22 amter ; Færø Amt et 6 sysler) | 0 (DigDag CC BY 4.0, accès non résolu, R2DK-01) | 10 (7 ok) | intégré le 24/10/2026 (cycle 1, boucle) |

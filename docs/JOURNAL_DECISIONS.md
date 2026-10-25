@@ -2,6 +2,11 @@
 
 Une ligne par décision, datée. Plus récente en haut. Ce journal remplace les versions éparpillées dans les conversations : si ce n'est pas ici, ce n'est pas décidé.
 
+## 2026-10-24 (nuit : 2.DK intégré, groupe 3, boucle automatique)
+
+- **Lot 2.DK intégré** (cycle 1, groupe 3) : **30 subdivisions**. Danemark : Copenhague + 22 amter d'État (Overøvrighedskredse ; Aarhus et Skanderborg séparés le 01/04/1942, loi n° 530 du 22/12/1941), un seul échelon ; les districts de conseils ne sont pas des amter. Féroé sous `territoire-dk-feroe` (préfixe `fo`) : Færø Amt et six sysler (échelon 2), Tórshavn dans Strømø. *(Ether, intégré par Claude)*
+- Aucun tracé (DigDag CC BY 4.0, accès non résolu, R2DK-01 ; conditions féroïennes propres, R2DK-02), aucun chef-lieu ; Christiansø sans fiche (R2DK-05). Sources : 10 ajoutées (7 ok, 3 limite), registre v1.51. Réserves R2DK-01 à 07 gardées. *(Claude)*
+
 ## 2026-10-24 (soir : 2.SM cycle 2 intégré, boucle automatique)
 
 - **Lot 2.SM intégré** (cycle 2, groupe 2) : **8 castelli** de Saint-Marin au 01/01/1945 sous `territoire-sm-saint-marin`, un seul échelon (Borgo Maggiore/Fratta, Acquaviva/Montecerreto, Fiorentino, Chiesanuova, Domagnano, Serravalle, Faetano, Montegiardino) ; secteur central (Guaita, Montale) sans fiche (R2SM-02). *(Ether, intégré par Claude)*
