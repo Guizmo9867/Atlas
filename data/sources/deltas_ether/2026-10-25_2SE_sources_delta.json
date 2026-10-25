@@ -1,0 +1,225 @@
+{
+  "ajouter": [
+    {
+      "source_id": "src-scb-annuaire1945-suede",
+      "titre": "Statistisk årsbok för Sverige 1945 — Annuaire statistique de Suède",
+      "institution": "Statistiska centralbyrån",
+      "auteur": "Statistiska centralbyrån",
+      "url": "https://share.scb.se/ov9993/data/historisk%20statistik//SOS%201911-/Statistisk%20%C3%A5rsbok%20%28SOS%29%201914-2014/Statistisk-arsbok-for-Sverige-1945.pdf",
+      "niveau": "A",
+      "type_source": "publication_officielle",
+      "date_consultation": "2026-10-25",
+      "cibles": [
+        "subdivision-se-stad-stockholm",
+        "subdivision-se-lan-stockholm",
+        "subdivision-se-lan-uppsala",
+        "subdivision-se-sodermanland",
+        "subdivision-se-ostergotland",
+        "subdivision-se-lan-jonkoping",
+        "subdivision-se-kronoberg",
+        "subdivision-se-lan-kalmar",
+        "subdivision-se-gotland",
+        "subdivision-se-blekinge",
+        "subdivision-se-lan-kristianstad",
+        "subdivision-se-malmohus",
+        "subdivision-se-halland",
+        "subdivision-se-goteborg-et-bohus",
+        "subdivision-se-alvsborg",
+        "subdivision-se-skaraborg",
+        "subdivision-se-varmland",
+        "subdivision-se-lan-orebro",
+        "subdivision-se-vastmanland",
+        "subdivision-se-dalarna",
+        "subdivision-se-gavleborg",
+        "subdivision-se-vasternorrland",
+        "subdivision-se-jamtland",
+        "subdivision-se-vasterbotten",
+        "subdivision-se-norrbotten"
+      ],
+      "usage": [
+        "Liste, noms et rang des 24 län et de Stockholm ville au jour exact du Snapshot ; distinction des systèmes spécialisés."
+      ],
+      "usages_atlas": [
+        "subdivisions_snapshot0"
+      ],
+      "zones": [
+        "SE"
+      ],
+      "locator": "p. 2 tableau 2 (PDF 22), p. 3 tableau 3 (PDF 23) ; table des matières PDF 6",
+      "note": "Publié en 1945 mais tableau explicitement arrêté au 1er janvier. Tableau 2 lu dans la capture, son corps n’est pas extrait par la couche OCR. Superficies uniquement comparées aux contours, non importées comme propriétés.",
+      "archives_locales": [
+        "01_lots/2.SE/preuves/scb1945.pdf",
+        "01_lots/2.SE/preuves/scb1945_pages_initiales.json",
+        "01_lots/2.SE/preuves/scb1945_p22.png",
+        "01_lots/2.SE/preuves/scb1945_p23.png"
+      ],
+      "verification_ether": {
+        "statut": "lu_parties_utilisees",
+        "date": "2026-10-25"
+      }
+    },
+    {
+      "source_id": "src-junkka-histmaps-historique-suede",
+      "titre": "histmaps — Swedish historical administrative maps, version 0.3.1.9999",
+      "institution": "Johan Junkka ; données Riksarkivet / projet QVIZ, dernière mise à jour d’origine à University of Portsmouth en 2008",
+      "auteur": "Johan Junkka ; données Riksarkivet / projet QVIZ, dernière mise à jour d’origine à University of Portsmouth en 2008",
+      "url": "https://github.com/junkka/histmaps/tree/3861a14cda6346b710c7e7f42581e0957233d73c",
+      "niveau": "B",
+      "type_source": "reconstruction_historique_geographique",
+      "date_consultation": "2026-10-25",
+      "cibles": [
+        "subdivision-se-stad-stockholm",
+        "subdivision-se-lan-stockholm",
+        "subdivision-se-lan-uppsala",
+        "subdivision-se-sodermanland",
+        "subdivision-se-ostergotland",
+        "subdivision-se-lan-jonkoping",
+        "subdivision-se-kronoberg",
+        "subdivision-se-lan-kalmar",
+        "subdivision-se-gotland",
+        "subdivision-se-blekinge",
+        "subdivision-se-lan-kristianstad",
+        "subdivision-se-malmohus",
+        "subdivision-se-halland",
+        "subdivision-se-goteborg-et-bohus",
+        "subdivision-se-alvsborg",
+        "subdivision-se-skaraborg",
+        "subdivision-se-varmland",
+        "subdivision-se-lan-orebro",
+        "subdivision-se-vastmanland",
+        "subdivision-se-dalarna",
+        "subdivision-se-gavleborg",
+        "subdivision-se-vasternorrland",
+        "subdivision-se-jamtland",
+        "subdivision-se-vasterbotten",
+        "subdivision-se-norrbotten"
+      ],
+      "usage": [
+        "Géométries historiques datées, métadonnées et déclaration de licence des données suédoises."
+      ],
+      "usages_atlas": [
+        "subdivisions_snapshot0"
+      ],
+      "zones": [
+        "SE"
+      ],
+      "locator": "README, vignettes/histmaps.Rmd (Data sources, License, Limitations), R/get_boundaries.R ; data/geom_sp.rda, sélection county et start <= 1945 <= end",
+      "note": "CC0 déclaré par le producteur/redistributeur dans son rapport ; la notice originale Riksarkivet n’est plus proposée dans le catalogue actuel. Logiciel MIT, notice conservée. Les données européennes MPIDR, distinctes et non commerciales, ne sont ni téléchargées ni utilisées. Labels de trois comtés modernisés dans la source : corrigés selon SCB. Contrôles révélant une anomalie à Stockholm et trois auto-intersections.",
+      "archives_locales": [
+        "01_lots/2.SE/preuves/histmaps_readme.md",
+        "01_lots/2.SE/preuves/histmaps_histmaps.Rmd",
+        "01_lots/2.SE/preuves/histmaps_DESCRIPTION",
+        "01_lots/2.SE/preuves/histmaps_LICENSE",
+        "01_lots/2.SE/preuves/histmaps_get_boundaries.R",
+        "01_lots/2.SE/preuves/histmaps_datasets.R",
+        "01_lots/2.SE/preuves/histmaps_geom_sp.rda",
+        "01_lots/2.SE/preuves/histmaps_geom_meta.rda",
+        "01_lots/2.SE/preuves/histmaps_tree.json",
+        "01_lots/2.SE/preuves/histmaps_counties1945_meta.json",
+        "01_lots/2.SE/preuves/ether_audit_contours1945.json"
+      ],
+      "verification_ether": {
+        "statut": "lu_parties_utilisees",
+        "date": "2026-10-25"
+      },
+      "licence": "CC0",
+      "revision": "3861a14cda6346b710c7e7f42581e0957233d73c"
+    },
+    {
+      "source_id": "src-lansstyrelsen-stockholm-histoire-lan",
+      "titre": "Om länet — histoire des armoiries et du län",
+      "institution": "Länsstyrelsen Stockholm",
+      "auteur": "Länsstyrelsen Stockholm",
+      "url": "https://www.lansstyrelsen.se/stockholm/om-oss/om-lanet.html",
+      "niveau": "A",
+      "type_source": "notice_officielle_historique",
+      "date_consultation": "2026-10-25",
+      "cibles": [
+        "subdivision-se-stad-stockholm",
+        "subdivision-se-lan-stockholm"
+      ],
+      "usage": [
+        "Administration séparée de Stockholm en 1941, réunion avec le län en 1968."
+      ],
+      "usages_atlas": [
+        "subdivisions_snapshot0"
+      ],
+      "zones": [
+        "SE"
+      ],
+      "locator": "Stockholms länsvapen, paragraphes 1941 et 1968",
+      "note": "Notice rétrospective ; codes actuels de la page non rétrodatés. Lecture web seulement, notes locales ; copie HTML directe indisponible (certificat expiré).",
+      "archives_locales": [
+        "01_lots/2.SE/preuves/ether_lectures_web.json"
+      ],
+      "verification_ether": {
+        "statut": "lu_parties_utilisees",
+        "date": "2026-10-25"
+      }
+    },
+    {
+      "source_id": "src-riksarkivet-stockholm-overstathallarambetet",
+      "titre": "Mantals- och kronotaxeringslängder Stockholms stad",
+      "institution": "Riksarkivet ; archives conservées au Stockholms stadsarkiv",
+      "auteur": "Riksarkivet ; archives conservées au Stockholms stadsarkiv",
+      "url": "https://sok.riksarkivet.se/mantalslangder-stockholms-stad",
+      "niveau": "A",
+      "type_source": "guide_archives",
+      "date_consultation": "2026-10-25",
+      "cibles": [
+        "subdivision-se-stad-stockholm"
+      ],
+      "usage": [
+        "Nature de la plus haute autorité civile de Stockholm, 1634–1967."
+      ],
+      "usages_atlas": [
+        "subdivisions_snapshot0"
+      ],
+      "zones": [
+        "SE"
+      ],
+      "locator": "Vilken är källan?",
+      "note": "Guide d’archives rétrospectif, pas une preuve de chaque limite géographique.",
+      "archives_locales": [
+        "01_lots/2.SE/preuves/ether_lectures_web.json"
+      ],
+      "verification_ether": {
+        "statut": "lu_parties_utilisees",
+        "date": "2026-10-25"
+      }
+    },
+    {
+      "source_id": "src-stockholmskallan-spanga1949",
+      "titre": "Spånga socken – en gammal kulturbygd — notice de la brochure de 1977",
+      "institution": "Sixten Källberg ; Stockholms stadsarkiv",
+      "auteur": "Sixten Källberg ; Stockholms stadsarkiv",
+      "url": "https://stockholmskallan.stockholm.se/post/35446",
+      "niveau": "A",
+      "type_source": "notice_archivistique",
+      "date_consultation": "2026-10-25",
+      "cibles": [
+        "subdivision-se-stad-stockholm",
+        "subdivision-se-lan-stockholm"
+      ],
+      "usage": [
+        "Incorporation partielle de Spånga à Stockholm en 1949, postérieure au Snapshot."
+      ],
+      "usages_atlas": [
+        "subdivisions_snapshot0"
+      ],
+      "zones": [
+        "SE"
+      ],
+      "locator": "Notice, paragraphe avant Tid ; objet SE/SSA/Biblioteket/Ncaaz Västerort",
+      "note": "Notice lue ; brochure non téléchargée. Sert au contrôle des anachronismes, pas à tracer une limite.",
+      "archives_locales": [
+        "01_lots/2.SE/preuves/ether_lectures_web.json"
+      ],
+      "verification_ether": {
+        "statut": "lu_parties_utilisees",
+        "date": "2026-10-25"
+      }
+    }
+  ],
+  "completer": []
+}

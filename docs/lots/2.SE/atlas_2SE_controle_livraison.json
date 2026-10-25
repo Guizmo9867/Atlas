@@ -1,0 +1,351 @@
+{
+  "date": "2026-10-25T06:16:51.700954+00:00",
+  "lot": "2.SE",
+  "cycle": 1,
+  "resultat": "conforme_techniquement_sous_reserves_historiques",
+  "comptages": {
+    "entites": 25,
+    "echelon_1": 25,
+    "echelon_2": 0,
+    "geometries": 25,
+    "geometries_proposables": 23,
+    "geometries_ne_pas_integrer": 2,
+    "sources_ajouter": 5,
+    "sources_completer": 0,
+    "reserves": 6,
+    "chefs_lieux_proposes": 0
+  },
+  "controles": [
+    "IDs uniques et parents existants",
+    "Noms et dates Snapshot, références sources et réserves",
+    "Preuves et empreintes des téléchargements",
+    "Inventaire égal aux fiches",
+    "Polygones valides EPSG4326, attributions et licences",
+    "Précontrôle du véritable intégrateur sans écriture canonique"
+  ],
+  "geometries": [
+    {
+      "entite_id": "subdivision-se-stad-stockholm",
+      "valide": true,
+      "bbox": [
+        17.776187557395073,
+        59.22771588619986,
+        18.20837677528956,
+        59.44039361972601
+      ],
+      "statut": "ne_pas_integrer_anomalie_historique_stockholm"
+    },
+    {
+      "entite_id": "subdivision-se-lan-stockholm",
+      "valide": true,
+      "bbox": [
+        17.301011137962846,
+        58.79606484940928,
+        19.083595308349416,
+        60.53195181306573
+      ],
+      "statut": "ne_pas_integrer_anomalie_historique_stockholm"
+    },
+    {
+      "entite_id": "subdivision-se-lan-uppsala",
+      "valide": true,
+      "bbox": [
+        16.815888631147892,
+        59.429869131556096,
+        18.342248585191598,
+        60.65285671792056
+      ],
+      "statut": "reconstruction_historique_sous_reserves"
+    },
+    {
+      "entite_id": "subdivision-se-sodermanland",
+      "valide": true,
+      "bbox": [
+        15.61934874572367,
+        58.61331101536,
+        17.70878649212728,
+        59.51942006841883
+      ],
+      "statut": "reconstruction_historique_sous_reserves"
+    },
+    {
+      "entite_id": "subdivision-se-ostergotland",
+      "valide": true,
+      "bbox": [
+        14.538925946899429,
+        57.69998881336306,
+        16.949473978937213,
+        59.01934240276849
+      ],
+      "statut": "reconstruction_historique_sous_reserves"
+    },
+    {
+      "entite_id": "subdivision-se-lan-jonkoping",
+      "valide": true,
+      "bbox": [
+        13.080282116504078,
+        56.82379399826078,
+        15.668108811506798,
+        58.15165424326281
+      ],
+      "statut": "reconstruction_historique_sous_reserves"
+    },
+    {
+      "entite_id": "subdivision-se-kronoberg",
+      "valide": true,
+      "bbox": [
+        13.301225291946327,
+        56.35964074970576,
+        15.839852276188402,
+        57.239003525250865
+      ],
+      "statut": "reconstruction_historique_sous_reserves"
+    },
+    {
+      "entite_id": "subdivision-se-lan-kalmar",
+      "valide": true,
+      "bbox": [
+        15.34020674900118,
+        56.19663702726899,
+        17.147181403837543,
+        58.271798459741674
+      ],
+      "statut": "reconstruction_historique_sous_reserves"
+    },
+    {
+      "entite_id": "subdivision-se-gotland",
+      "valide": true,
+      "bbox": [
+        18.09826804842583,
+        56.91001481066927,
+        19.353984731316086,
+        58.3977158794568
+      ],
+      "statut": "reconstruction_historique_sous_reserves"
+    },
+    {
+      "entite_id": "subdivision-se-blekinge",
+      "valide": true,
+      "bbox": [
+        14.39331192277819,
+        55.99831696236075,
+        16.052519408422068,
+        56.50353087167192
+      ],
+      "statut": "reconstruction_historique_sous_reserves"
+    },
+    {
+      "entite_id": "subdivision-se-lan-kristianstad",
+      "valide": true,
+      "bbox": [
+        12.625042547572484,
+        55.37734919468081,
+        14.58879256625841,
+        56.53192484729528
+      ],
+      "statut": "reconstruction_historique_sous_reserves"
+    },
+    {
+      "entite_id": "subdivision-se-malmohus",
+      "valide": true,
+      "bbox": [
+        12.447647214426084,
+        55.339381107772574,
+        14.012326757036488,
+        56.301932685333675
+      ],
+      "statut": "reconstruction_historique_sous_reserves"
+    },
+    {
+      "entite_id": "subdivision-se-halland",
+      "valide": true,
+      "bbox": [
+        11.913459015912885,
+        56.32278551842083,
+        13.47150326822927,
+        57.63195659866034
+      ],
+      "statut": "reconstruction_historique_sous_reserves"
+    },
+    {
+      "entite_id": "subdivision-se-goteborg-et-bohus",
+      "valide": true,
+      "bbox": [
+        11.122390593909834,
+        57.55389763451109,
+        12.426209902323741,
+        59.11088330714215
+      ],
+      "statut": "reconstruction_historique_sous_reserves"
+    },
+    {
+      "entite_id": "subdivision-se-alvsborg",
+      "valide": true,
+      "bbox": [
+        11.655516977993843,
+        57.1457262377423,
+        13.7939561954842,
+        59.26336944665905
+      ],
+      "statut": "reconstruction_historique_sous_reserves"
+    },
+    {
+      "entite_id": "subdivision-se-skaraborg",
+      "valide": true,
+      "bbox": [
+        12.43757735234743,
+        57.80481342043951,
+        14.711141891936432,
+        59.01787479274301
+      ],
+      "statut": "reconstruction_historique_sous_reserves"
+    },
+    {
+      "entite_id": "subdivision-se-varmland",
+      "valide": true,
+      "bbox": [
+        11.69408343154857,
+        58.88877117042578,
+        14.478677415149075,
+        61.05664928539453
+      ],
+      "statut": "reconstruction_historique_sous_reserves"
+    },
+    {
+      "entite_id": "subdivision-se-lan-orebro",
+      "valide": true,
+      "bbox": [
+        14.2133262901928,
+        58.683451263731804,
+        15.864834415769336,
+        60.111002220145906
+      ],
+      "statut": "reconstruction_historique_sous_reserves"
+    },
+    {
+      "entite_id": "subdivision-se-vastmanland",
+      "valide": true,
+      "bbox": [
+        15.424784983710046,
+        59.27565760919542,
+        17.375888536437664,
+        60.303591406954354
+      ],
+      "statut": "reconstruction_historique_sous_reserves"
+    },
+    {
+      "entite_id": "subdivision-se-dalarna",
+      "valide": true,
+      "bbox": [
+        12.140927601084414,
+        59.854590442213635,
+        16.70692488971225,
+        62.26883006591431
+      ],
+      "statut": "reconstruction_historique_sous_reserves"
+    },
+    {
+      "entite_id": "subdivision-se-gavleborg",
+      "valide": true,
+      "bbox": [
+        14.45037742650734,
+        60.18931218043429,
+        17.51630777499047,
+        62.344215358302925
+      ],
+      "statut": "reconstruction_historique_sous_reserves"
+    },
+    {
+      "entite_id": "subdivision-se-vasternorrland",
+      "valide": true,
+      "bbox": [
+        14.783591100307577,
+        62.13779748060336,
+        19.295586592426275,
+        64.53891639692395
+      ],
+      "statut": "reconstruction_historique_sous_reserves"
+    },
+    {
+      "entite_id": "subdivision-se-jamtland",
+      "valide": true,
+      "bbox": [
+        11.975732159981812,
+        61.56439950663486,
+        17.0024339716316,
+        65.11966691326896
+      ],
+      "statut": "reconstruction_historique_sous_reserves"
+    },
+    {
+      "entite_id": "subdivision-se-vasterbotten",
+      "valide": true,
+      "bbox": [
+        14.328781668565915,
+        63.42228391475852,
+        21.608129156453103,
+        66.34650149673728
+      ],
+      "statut": "reconstruction_historique_sous_reserves"
+    },
+    {
+      "entite_id": "subdivision-se-norrbotten",
+      "valide": true,
+      "bbox": [
+        15.38074304329906,
+        65.066391752757,
+        24.161165531439465,
+        69.06143545301789
+      ],
+      "statut": "reconstruction_historique_sous_reserves"
+    }
+  ],
+  "precontrole_integrateur": {
+    "script": "C:\\Users\\guill\\Documents\\GitHub\\Atlas\\outils\\subdivisions\\integrer_subdivisions.py",
+    "sha256": "54ea1688b90f752913d6f09e154b259ca444c7efe689c1ef041a1283dc328649",
+    "erreurs": [],
+    "avertissements": [],
+    "refus_attendus": [
+      {
+        "geometry_id": "geom-subdivision-se-stad-stockholm-1945-01-01",
+        "raison": "marqué « ne_pas_integrer_anomalie_historique_stockholm » par Ether"
+      },
+      {
+        "geometry_id": "geom-subdivision-se-lan-stockholm-1945-01-01",
+        "raison": "marqué « ne_pas_integrer_anomalie_historique_stockholm » par Ether"
+      }
+    ],
+    "traces_retenus": 23,
+    "limite": "En mémoire avant la partie 3 ; aucune intégration ni simplification"
+  },
+  "fichiers_principaux": [
+    {
+      "chemin": "atlas_2SE_subdivisions_proposees.json",
+      "sha256": "d2e25f1a595209864364b4202f171b854d6bb55c63d652adeac7bcd220a873ea"
+    },
+    {
+      "chemin": "geometries/atlas_2SE_geometries_proposees.geojson",
+      "sha256": "6c031ac2e3faa2a40f889a2f7450787330e871c71793d061a204555715d7b237"
+    },
+    {
+      "chemin": "atlas_registre_sources_2SE_delta.json",
+      "sha256": "8773ae4d0a26bed09354c0c0f81e12d58fa4f5eaba260d1c391e05dbc56d5403"
+    },
+    {
+      "chemin": "atlas_2SE_pour_claude.md",
+      "sha256": "e9065765c984150def1ace9a8a2ec463054b80ba406aa8655dcc6c5c8938a636"
+    },
+    {
+      "chemin": "atlas_2SE_reserves.md",
+      "sha256": "e8250c4c3820c36f5db4fb1a0df6288caa13b538181c0399445094698fbc3a2f"
+    },
+    {
+      "chemin": "atlas_2SE_reserves.json",
+      "sha256": "7410e2a806c45b50bb98b6c12eda6b18457f1b7e151121388f9bad97dd72d979"
+    },
+    {
+      "chemin": "atlas_2SE_couverture.json",
+      "sha256": "4bfee205b58df41822eef10c3696337d222f50f2bc061e36c5d5b10469a0c4b1"
+    }
+  ]
+}

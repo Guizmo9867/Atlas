@@ -1,0 +1,73 @@
+{
+  "lot": "2.SE",
+  "cycle": 1,
+  "reserves": [
+    {
+      "id": "R2SE-01",
+      "objet": "Portée des contours",
+      "question": "Contours historiques reconstruits, périodes annuelles et généralisation d’origine ; comparaison aux superficies SCB et inspection régionale effectuées, sans validation cadastrale exhaustive. Des écarts de 0,01 à 2,25 % environ subsistent hors Stockholm.",
+      "impact": "23 contours provisoires proposés ; aucun calage arbitraire sur les pays voisins.",
+      "sources": [
+        "src-scb-annuaire1945-suede",
+        "src-junkka-histmaps-historique-suede"
+      ],
+      "statut": "reserve_revue_groupe3_non_validee"
+    },
+    {
+      "id": "R2SE-02",
+      "objet": "Stockholm ville et län",
+      "question": "La couche county donne une ville de 192,53 km² contre 142,78 km² au tableau SCB. Une couche municipal 1916–1948 donne 147,25 km² ; elle ne suffit pas à certifier les limites et le complément du län. Spånga ne doit entrer qu’après 1945.",
+      "impact": "Les deux contours county restent livrés ne_pas_integrer pour examen ; fiches conservées, aucun faux lien. Aucun redécoupage automatique.",
+      "sources": [
+        "src-scb-annuaire1945-suede",
+        "src-junkka-histmaps-historique-suede",
+        "src-lansstyrelsen-stockholm-histoire-lan",
+        "src-stockholmskallan-spanga1949"
+      ],
+      "statut": "reserve_revue_groupe3_non_validee"
+    },
+    {
+      "id": "R2SE-03",
+      "objet": "Étiquettes modernes dans histmaps",
+      "question": "Les géométries 12499, 12507, 12537 portent Skåne, Västra Götalands, Dalarnas ; leur extension et période sont historiques. Le tableau 1945 impose Malmöhus, Göteborgs och Bohus, Kopparbergs.",
+      "impact": "Correspondance explicite dans la preuve ; aucune fusion de Kristianstad/Malmöhus ou des comtés occidentaux.",
+      "sources": [
+        "src-scb-annuaire1945-suede",
+        "src-junkka-histmaps-historique-suede"
+      ],
+      "statut": "reserve_revue_groupe3_non_validee"
+    },
+    {
+      "id": "R2SE-04",
+      "objet": "Traçabilité de la licence d’origine",
+      "question": "Johan Junkka déclare explicitement CC0 pour les données suédoises Riksarkivet dans README et rapport technique ; notice originale non retrouvée au catalogue officiel actuel. Le logiciel MIT et les données européennes MPIDR ont des régimes distincts.",
+      "impact": "CC0 reconnue et retenue pour les données suédoises ; preuve du redistributeur conservée, limite documentaire signalée sans refuser cette licence acceptée. Pas de données MPIDR utilisées.",
+      "sources": [
+        "src-junkka-histmaps-historique-suede"
+      ],
+      "statut": "reserve_revue_groupe3_non_validee"
+    },
+    {
+      "id": "R2SE-05",
+      "objet": "Codes, chefs-lieux et échelon inférieur",
+      "question": "L’annuaire distingue län, communes, ressorts judiciaires, fögderier fiscaux, conseils généraux et divisions ecclésiastiques. Le jeu SIG donne des centres et codes non datés spécifiquement de 1945.",
+      "impact": "Un seul niveau général retenu ; aucun code ni chef_lieu_propose. Pas de communes ordinaires ou de systèmes spécialisés ajoutés. Complément de sièges seulement sur preuve datée.",
+      "sources": [
+        "src-scb-annuaire1945-suede",
+        "src-junkka-histmaps-historique-suede",
+        "src-riksarkivet-stockholm-overstathallarambetet"
+      ],
+      "statut": "reserve_revue_groupe3_non_validee"
+    },
+    {
+      "id": "R2SE-06",
+      "objet": "Topologie de la reconstruction",
+      "question": "Auto-intersections de Södermanland, Malmöhus, Värmland réparées par make_valid avec variation de surface inférieure à 0,02 m² chacune. Chevauchement Jönköping/Älvsborg d’environ 0,838 km² dans les données d’origine.",
+      "impact": "Réparations enregistrées ; chevauchement conservé et signalé pour relecture, sans attribuer arbitrairement la bande à un comté.",
+      "sources": [
+        "src-junkka-histmaps-historique-suede"
+      ],
+      "statut": "reserve_revue_groupe3_non_validee"
+    }
+  ]
+}

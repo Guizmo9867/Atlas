@@ -1,5 +1,5 @@
 {
- "version_registre": "1.52",
+ "version_registre": "1.53",
  "sources": [
   {
    "id": "src-12a-chemnitz-industrie",
@@ -9202,6 +9202,49 @@
    "impact": []
   },
   {
+   "id": "src-junkka-histmaps-historique-suede",
+   "groupe": "partielle",
+   "statut_claude": "limite",
+   "niveau": "B",
+   "titre": "histmaps — Swedish historical administrative maps, version 0.3.1.9999",
+   "institution": "Johan Junkka ; données Riksarkivet / projet QVIZ, dernière mise à jour d’origine à University of Portsmouth en 2008",
+   "url": "https://github.com/junkka/histmaps/tree/3861a14cda6346b710c7e7f42581e0957233d73c",
+   "ou_regarder": "README, vignettes/histmaps.Rmd (Data sources, License, Limitations), R/get_boundaries.R ; data/geom_sp.rda, sélection county et start <= 1945 <= end",
+   "extrait": "Page GitHub (tree) refusée (robots) ; README brut : « Swedish historical administrative boundaries for parishes and counties 1600-1990 » ; « historical GIS data from the Swedish National Archive released under Creative Commons CCZero ». Prouve source et licence CC0 ; pas les tracés au jour près (granularité annuelle, R2SE-01).",
+   "notes": "Proposée par Ether (lot 2.SE, cycle 1). Ce que la source prouve selon Ether : Géométries historiques datées, métadonnées et déclaration de licence des données suédoises.. Limite annoncée par Ether : CC0 déclaré par le producteur/redistributeur dans son rapport ; la notice originale Riksarkivet n’est plus proposée dans le catalogue actuel. Logiciel MIT, notice conservée. Les données européennes MPIDR, distinctes et non commerciales, ne sont ni téléchargées ni utilisées. Labels de trois comtés modernisés dans la source : corrigés selon SCB. Contrôles révélant une anomalie à Stockholm et trois auto-intersections. Relecture Claude 2026-10-25 : Page GitHub (tree) refusée (robots) ; README brut : « Swedish historical administrative boundaries for parishes and counties 1600-1990 » ; « historical GIS data from the Swedish National Archive released under Creative Commons CCZero ». Prouve source et licence CC0 ; pas les tracés au jour près (granularité annuelle, R2SE-01).",
+   "domaine": "frontieres",
+   "villes": [
+    "Stockholm — ville",
+    "Stockholm — comté",
+    "Uppsala",
+    "Södermanland",
+    "Östergötland",
+    "Jönköping",
+    "Kronoberg",
+    "Kalmar",
+    "Gotland",
+    "Blekinge",
+    "Kristianstad",
+    "Malmöhus",
+    "Halland",
+    "Göteborg et Bohus",
+    "Älvsborg",
+    "Skaraborg",
+    "Värmland",
+    "Örebro",
+    "Västmanland",
+    "Dalécarlie",
+    "Gävleborg",
+    "Västernorrland",
+    "Jämtland",
+    "Västerbotten",
+    "Norrbotten"
+   ],
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
+  },
+  {
    "id": "src-karlskrona-naval-base",
    "groupe": "partielle",
    "statut_claude": "limite",
@@ -9746,6 +9789,25 @@
    "impact": []
   },
   {
+   "id": "src-riksarkivet-stockholm-overstathallarambetet",
+   "groupe": "partielle",
+   "statut_claude": "limite",
+   "niveau": "A",
+   "titre": "Mantals- och kronotaxeringslängder Stockholms stad",
+   "institution": "Riksarkivet ; archives conservées au Stockholms stadsarkiv",
+   "url": "https://sok.riksarkivet.se/mantalslangder-stockholms-stad",
+   "ou_regarder": "Vilken är källan?",
+   "extrait": "« Överståthållarämbetet (ÖÄ) var den högsta civila förvaltningsmyndigheten i Stockholms stad mellan åren 1634–1967. » Couvre 1945 ; l'équivalence avec une länsstyrelse n'est pas écrite telle quelle.",
+   "notes": "Proposée par Ether (lot 2.SE, cycle 1). Ce que la source prouve selon Ether : Nature de la plus haute autorité civile de Stockholm, 1634–1967.. Limite annoncée par Ether : Guide d’archives rétrospectif, pas une preuve de chaque limite géographique. Relecture Claude 2026-10-25 : « Överståthållarämbetet (ÖÄ) var den högsta civila förvaltningsmyndigheten i Stockholms stad mellan åren 1634–1967. » Couvre 1945 ; l'équivalence avec une länsstyrelse n'est pas écrite telle quelle.",
+   "domaine": "frontieres",
+   "villes": [
+    "Stockholm — ville"
+   ],
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
+  },
+  {
    "id": "src-sever-aero-alsib-memoire",
    "groupe": "partielle",
    "statut_claude": "limite",
@@ -10077,6 +10139,26 @@
    "domaine": "villes",
    "villes": [
     "Steyr"
+   ],
+   "remplacee_par": [],
+   "priorite": "facultative",
+   "impact": []
+  },
+  {
+   "id": "src-stockholmskallan-spanga1949",
+   "groupe": "partielle",
+   "statut_claude": "limite",
+   "niveau": "A",
+   "titre": "Spånga socken – en gammal kulturbygd — notice de la brochure de 1977",
+   "institution": "Sixten Källberg ; Stockholms stadsarkiv",
+   "url": "https://stockholmskallan.stockholm.se/post/35446",
+   "ou_regarder": "Notice, paragraphe avant Tid ; objet SE/SSA/Biblioteket/Ncaaz Västerort",
+   "extrait": "« Fram till 1949 var Spånga en egen kommun, sedan inkorporerades delar av Spånga med Stockholm. » Cohérent avec une entrée partielle après 1945 ; sert seulement à la réserve R2SE-02.",
+   "notes": "Proposée par Ether (lot 2.SE, cycle 1). Ce que la source prouve selon Ether : Incorporation partielle de Spånga à Stockholm en 1949, postérieure au Snapshot.. Limite annoncée par Ether : Notice lue ; brochure non téléchargée. Sert au contrôle des anachronismes, pas à tracer une limite. Relecture Claude 2026-10-25 : « Fram till 1949 var Spånga en egen kommun, sedan inkorporerades delar av Spånga med Stockholm. » Cohérent avec une entrée partielle après 1945 ; sert seulement à la réserve R2SE-02.",
+   "domaine": "frontieres",
+   "villes": [
+    "Stockholm — ville",
+    "Stockholm — comté"
    ],
    "remplacee_par": [],
    "priorite": "facultative",

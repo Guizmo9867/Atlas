@@ -1,0 +1,43 @@
+{
+ "lot": "2.FI",
+ "date": "2026-10-25",
+ "auteur": "Claude",
+ "methode": "Sous-agents (WebFetch seulement, sans contournement) le 25/10/2026, puis lecture par Claude des captures d'Ether (01_lots/<lot>/preuves/) pour les PDF que WebFetch n'a pas atteints.",
+ "resultats": [
+  {
+   "id": "src-statfi-annuaire-1944-1945-finlande",
+   "statut": "ok",
+   "commentaire": "WebFetch en échec (erreur client) sur le PDF. Claude, captures annuaire_pdf_25.png : tableau 2 « Pinta-ala ja suurimmat vesistöalueet vuoden 1945 alussa » — 10 läänit Uudenmaan … Lapin ; annuaire_pdf_26.png : tableau 3, ligne 1945, colonne Kihlakunta — Härad : 4, 9, 1, 6, 9 (« Viipuri (Kymen) »), 4, 6, 8, 4, 3 = 54. Le détail des 48 districts (tableau 15) n'a pas été relu ligne à ligne par Claude (R2FI-02)."
+  },
+  {
+   "id": "src-kansallisarkisto-histoire-laaninhallitukset",
+   "statut": "ok",
+   "commentaire": "« Suomen itsenäistyttyä lääninhallitukset tulivat sisäasiainministeriön alaisiksi. » ; autorité générale régionale de l'État."
+  },
+  {
+   "id": "src-finlex-he-148-1996-histoire-provinces",
+   "statut": "non_verifiee",
+   "commentaire": "WebFetch n'a renvoyé que la navigation et la description de la page ; l'exposé historique (Kymi 1945) n'a pas été lu. Usage déjà limité par Ether à un contrôle rétrospectif."
+  },
+  {
+   "id": "src-kansallisarkisto-carelie-cedee",
+   "statut": "limite",
+   "commentaire": "« virat lakkautettiin vuonna 1945 ja tehtävät siirrettiin Kymen lääninhallituksen alaiselle siirtoväen siviilirekisteritoimistolle. » Prouve le sort des registres évacués ; la séparation registres/territoire est une lecture d'Ether."
+  },
+  {
+   "id": "src-lagtinget-autonomie-aland-1920",
+   "statut": "ok",
+   "commentaire": "« Landskapet Åland, som omfattar det nuvarande Ålands län, skall tillkomma självstyrelse » ; « Regeringen företrädes i landskapet Åland av landshövdingen, som utnämnes av republikens president. » Texte original de 1920 (pas une version consolidée en 1945, R2FI-05)."
+  },
+  {
+   "id": "src-sorvi-sapo-communes-historiques-finlande",
+   "statut": "ok",
+   "commentaire": "« the rural municipality polygon is too simplified and has no holes » ; « Some municipality enclaves or exclaves might not be properly represented. » ; « Data attribution: FinnONTO Consortium. » Sert seulement de piste de tracés (aucun tracé importé)."
+  },
+  {
+   "id": "src-seco-hipla-licence-sapo",
+   "statut": "limite",
+   "commentaire": "« Created by SeCo @ Aalto University. » ; « The dataset is published using the » CC-BY 4.0. L'intitulé exact « Finnish places (SAPO 1865–2010) » n'a pas été retrouvé tel quel par la lecture automatique."
+  }
+ ]
+}

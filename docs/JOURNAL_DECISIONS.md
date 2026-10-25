@@ -2,6 +2,11 @@
 
 Une ligne par décision, datée. Plus récente en haut. Ce journal remplace les versions éparpillées dans les conversations : si ce n'est pas ici, ce n'est pas décidé.
 
+## 2026-10-25 (matin, suite : 2.SE intégré, groupe 3, boucle automatique)
+
+- **Lot 2.SE intégré** (cycle 1, groupe 3) : **25 subdivisions** sous `territoire-se-suede`, un seul échelon : Stockholms stad (à part jusqu'en 1968) et 24 län, d'après le tableau 2 de l'annuaire SCB 1945 (« vid början av år 1945 ») ; noms de 1945 (Malmöhus, Göteborgs och Bohus, Kopparbergs). *(Ether, intégré par Claude)*
+- **23 tracés** provisoires (histmaps de Johan Junkka, données Riksarkivet, CC0) ; Stockholm ville et län sans tracé (contour « county » trop grand, R2SE-02). Aucun chef-lieu ni code. Sources : 5 ajoutées (2 ok, 3 limite), registre v1.53. Réserves R2SE-01 à 06 gardées. *(Claude)*
+
 ## 2026-10-25 (matin : 2.NO intégré, groupe 3, boucle automatique)
 
 - **Lot 2.NO intégré** (cycle 1, groupe 3) : **20 fylker** de droit sous `territoire-no-norvege`, un seul échelon, Oslo et Bergen à part ; état « Opland » (annuaires), fiche « Oppland » ; liste de l'annuaire SSB au 01/07/1945, continuité au 01/01/1945 inférée (R2NO-02). *(Ether, intégré par Claude)*

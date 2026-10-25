@@ -41,3 +41,4 @@ Une ligne par livraison intégrée, ajoutée par Claude (mode d'emploi, étape 7
 | 2026-10-24 | 2.SM cycle 2 | Codex (version non attestée) | 4 complétées, 0 nouvelle | 4 confirmées (100 %, relecture du cycle 1) | 0 | 0 | 0 | aucun | aucune |
 | 2026-10-24 | 2.DK cycle 1 | Codex (version non attestée) | 10 (+ copies texte des PDF) | 7 confirmées (70 %) | 0 | 0 | 0 | aucun | aucune |
 | 2026-10-25 | 2.NO cycle 1 | Codex (version non attestée) | 11 (+ copies PDF et pages enregistrées) | 5 confirmées (45 % ; 2 catalogues en JavaScript illisibles) | 0 | 0 sûr (1 refusé par l'outil) | 0 | aucun | aucune |
+| 2026-10-25 | 2.SE cycle 1 | Codex (version non attestée) | 5 (+ captures de l'annuaire SCB) | 2 confirmées (40 % ; annuaire relu sur capture, PDF refusé par l'outil) | 0 | 0 sûr (2 refusés par l'outil) | 0 | aucun | aucune |

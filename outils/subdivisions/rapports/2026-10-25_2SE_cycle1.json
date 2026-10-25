@@ -1,0 +1,38 @@
+{
+ "lot": "2.SE",
+ "cycle": 1,
+ "date": "2026-10-25",
+ "essai": false,
+ "subdivisions": 25,
+ "echelon_1": 25,
+ "echelon_2": 0,
+ "traces_integres": 23,
+ "sans_trace": [
+  "subdivision-se-stad-stockholm",
+  "subdivision-se-lan-stockholm"
+ ],
+ "traces_refuses": [
+  {
+   "geometry_id": "geom-subdivision-se-stad-stockholm-1945-01-01",
+   "raison": "marqué « ne_pas_integrer_anomalie_historique_stockholm » par Ether"
+  },
+  {
+   "geometry_id": "geom-subdivision-se-lan-stockholm-1945-01-01",
+   "raison": "marqué « ne_pas_integrer_anomalie_historique_stockholm » par Ether"
+  }
+ ],
+ "sources_ajoutees": [
+  "src-scb-annuaire1945-suede",
+  "src-junkka-histmaps-historique-suede",
+  "src-lansstyrelsen-stockholm-histoire-lan",
+  "src-riksarkivet-stockholm-overstathallarambetet",
+  "src-stockholmskallan-spanga1949"
+ ],
+ "sources_completees": [],
+ "statuts_relecture": {
+  "ok": 2,
+  "limite": 3
+ },
+ "registre": "1.52 -> 1.53",
+ "avertissements": []
+}

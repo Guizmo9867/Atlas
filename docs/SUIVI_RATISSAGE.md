@@ -98,3 +98,4 @@ Principe de Guizmo : **maximum d'informations, minimum de visibilité**. La cart
 | 2.LI | 0 importée (2 Landschaften électorales et 11 communes documentées hors import ; territoire Liechtenstein absent du canon) | 0 | 3 (2 ok, 1 non vérifiée) | intégré le 19/10/2026 (cycle 1, boucle) |
 | 2.DK | 30 (Copenhague + 22 amter ; Færø Amt et 6 sysler) | 0 (DigDag CC BY 4.0, accès non résolu, R2DK-01) | 10 (7 ok) | intégré le 24/10/2026 (cycle 1, boucle) |
 | 2.NO | 20 (fylker, Oslo et Bergen à part) | 0 (Herredskart 1941 CC BY 4.0 non vectorisés, R2NO-01) | 11 (5 ok) | intégré le 25/10/2026 (cycle 1, boucle) |
+| 2.SE | 25 (Stockholms stad + 24 län) | 23 (histmaps Junkka/Riksarkivet CC0 ; Stockholm ville et län sans tracé, R2SE-02) | 5 (2 ok) | intégré le 25/10/2026 (cycle 1, boucle) |

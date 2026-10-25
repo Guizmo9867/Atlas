@@ -1,0 +1,33 @@
+{
+ "lot": "2.SE",
+ "date": "2026-10-25",
+ "auteur": "Claude",
+ "methode": "Sous-agents (WebFetch seulement, sans contournement) le 25/10/2026, puis lecture par Claude des captures d'Ether (01_lots/<lot>/preuves/) pour les PDF que WebFetch n'a pas atteints.",
+ "resultats": [
+  {
+   "id": "src-scb-annuaire1945-suede",
+   "statut": "ok",
+   "commentaire": "WebFetch en échec (erreur client) sur le PDF. Claude, capture scb1945_p22.png : « Tab. 2. Areal, folkmängdstäthet och indelningar vid början av år 1945, länsvis » / « au 1er janv. 1945, par département » ; 25 lignes Stockholms stad … Norrbottens län ; Stockholms stad 142·78 km² total."
+  },
+  {
+   "id": "src-junkka-histmaps-historique-suede",
+   "statut": "limite",
+   "commentaire": "Page GitHub (tree) refusée (robots) ; README brut : « Swedish historical administrative boundaries for parishes and counties 1600-1990 » ; « historical GIS data from the Swedish National Archive released under Creative Commons CCZero ». Prouve source et licence CC0 ; pas les tracés au jour près (granularité annuelle, R2SE-01)."
+  },
+  {
+   "id": "src-lansstyrelsen-stockholm-histoire-lan",
+   "statut": "ok",
+   "commentaire": "« Stockholm ingick då inte i länet utan administrerades av Överståthållarämbetet … År 1968 inkorporerades Stockholm i länet »."
+  },
+  {
+   "id": "src-riksarkivet-stockholm-overstathallarambetet",
+   "statut": "limite",
+   "commentaire": "« Överståthållarämbetet (ÖÄ) var den högsta civila förvaltningsmyndigheten i Stockholms stad mellan åren 1634–1967. » Couvre 1945 ; l'équivalence avec une länsstyrelse n'est pas écrite telle quelle."
+  },
+  {
+   "id": "src-stockholmskallan-spanga1949",
+   "statut": "limite",
+   "commentaire": "« Fram till 1949 var Spånga en egen kommun, sedan inkorporerades delar av Spånga med Stockholm. » Cohérent avec une entrée partielle après 1945 ; sert seulement à la réserve R2SE-02."
+  }
+ ]
+}

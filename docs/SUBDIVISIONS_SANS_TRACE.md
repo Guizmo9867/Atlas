@@ -2,7 +2,7 @@
 
 *Mis à jour le 25/10/2026 par `outils/subdivisions/suivi_traces.py` (demande de Guizmo du 24/10/2026 : garder dans un coin les pays qui posent problème). Les fiches existent toujours (noms, rangs, sources) ; seul le dessin manque. À reprendre plus tard, pays par pays.*
 
-**En tout : 405 subdivisions tracées sur 860.**
+**En tout : 428 subdivisions tracées sur 885.**
 
 | Lot | Subdivisions | Tracées | État | Pourquoi | Pistes |
 |---|---|---|---|---|---|
@@ -19,6 +19,7 @@
 | 2.IT | 93 | 80 | en partie | 11 provinces écartées par prudence par Ether (tracés jugés douteux pour 1945 : voir les réserves R2IT). | relire les réserves R2IT et lever la marque province par province |
 | 2.LU | 15 | 11 | en partie | 4 cantons écartés par prudence par Ether (Vianden, Diekirch, Remich, Grevenmacher : rectifications de frontière). | vérifier les rectifications et lever la marque |
 | 2.NL | 12 | 11 | en partie | Brabant-Septentrional écarté par prudence (enclaves de Baarle). | accepter le tracé avec réserve, ou découper les enclaves |
+| 2.SE | 25 | 23 | en partie | 23 tracés intégrés (histmaps, CC0) ; seuls Stockholm ville et Stockholms län manquent : contour « county » de la ville de 192,53 km² contre 142,78 km² au tableau SCB, marqué « ne pas intégrer » par Ether (R2SE-02). | couche « municipal » 1916–1948 de histmaps (147,25 km²) à recouper avec le tableau SCB ; Spånga seulement après 1949. |
 | 2.LI | 0 | 0 | rien à tracer | territoire Liechtenstein créé le 24/10 ; pas de découpage interne retenu (Landschaften surtout électorales, décision de Guizmo). |  |
 | 2.MC | 0 | 0 | rien à tracer | pas de découpage utile en 1945 (rien à tracer). |  |
 | 2.VA | 0 | 0 | rien à tracer | pas de découpage utile en 1945 (rien à tracer). |  |

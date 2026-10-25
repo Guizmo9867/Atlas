@@ -1,0 +1,1250 @@
+{
+ "metadata_lot": {
+  "nom": "snapshot0_subdivisions_2-SE",
+  "date_reference": "1945-01-01",
+  "heure_reference": "00:00",
+  "version": "1.0",
+  "statut": "integre_par_claude",
+  "cycle": 1,
+  "date_integration": "2026-10-25",
+  "gabarit_source": "gabarits/gabarit_entite_temporelle_atlas.json",
+  "lot_methode": "2.SE (phase 2, docs/METHODE_ATLAS_v2.md)",
+  "etat_1945": "Suède",
+  "proposition_ether": "data/sources/deltas_ether/2026-10-25_2SE_subdivisions_proposees_ether.json",
+  "regles": [
+   "échelon 1 = premier niveau sous l'État ; échelon 2 = le niveau en dessous ; le terme local reste dans statut_administratif",
+   "une subdivision porte la souveraineté de droit ; le contrôle réel vient des territoires et des lignes de front",
+   "affichage : échelon 1 dès le zoom 5, échelon 2 dès le zoom 6,5, mêmes seuils pour tous les pays (calque « Découpage administratif »)",
+   "tracés provisoires ; chefs-lieux proposés = référence, jamais validés sans preuve au 01/01/1945"
+  ],
+  "sans_trace": [
+   "subdivision-se-stad-stockholm",
+   "subdivision-se-lan-stockholm"
+  ]
+ },
+ "entites": [
+  {
+   "entite_id": "subdivision-se-stad-stockholm",
+   "type_entite": "subdivision",
+   "nom": "Stockholm — ville",
+   "nom_court": "Stockholm — ville",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_sous_reserves",
+     "proprietes": {
+      "nom": "Stockholms stad",
+      "niveau": 1,
+      "echelon": 1,
+      "statut_administratif": "stad sous Överståthållarämbetet",
+      "parent_id": "territoire-se-suede",
+      "souverainete_id": "suede",
+      "note": "Premier niveau de droit au 01/01/1945. Date de début de fenêtre, non date de création. Les län ne sont ni les landskap historiques ni les districts des conseils généraux. Aucun code ni siège administratif rétrodaté depuis histmaps. Ville distincte du län, sous Överståthållarämbetet ; circonscription de premier niveau, pas ajout d’une nouvelle fiche ville.",
+      "reserves": [
+       "R2SE-01",
+       "R2SE-04",
+       "R2SE-05",
+       "R2SE-02"
+      ]
+     },
+     "sources": [
+      {
+       "source_id": "src-scb-annuaire1945-suede",
+       "locator": "p. 2, tableau 2 (PDF 22), ligne 1 : Stockholms stad",
+       "usage": "Liste et nom au 1er janvier 1945."
+      },
+      {
+       "source_id": "src-junkka-histmaps-historique-suede",
+       "locator": "geom_sp geom_id=12461, ref_code=SE/020000000, période annuelle 1909–1967",
+       "usage": "Tracé reconstruit, sous réserve de la granularité annuelle et des anomalies documentées."
+      },
+      {
+       "source_id": "src-lansstyrelsen-stockholm-histoire-lan",
+       "locator": "Stockholms länsvapen, 1941 et 1968",
+       "usage": "Séparation administrative de la ville et du län."
+      },
+      {
+       "source_id": "src-riksarkivet-stockholm-overstathallarambetet",
+       "locator": "Vilken är källan?",
+       "usage": "Statut de l’Överståthållarämbetet."
+      }
+     ]
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-se-lan-stockholm",
+   "type_entite": "subdivision",
+   "nom": "Stockholm — comté",
+   "nom_court": "Stockholm — comté",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_sous_reserves",
+     "proprietes": {
+      "nom": "Stockholms län",
+      "niveau": 1,
+      "echelon": 1,
+      "statut_administratif": "län",
+      "parent_id": "territoire-se-suede",
+      "souverainete_id": "suede",
+      "note": "Premier niveau de droit au 01/01/1945. Date de début de fenêtre, non date de création. Les län ne sont ni les landskap historiques ni les districts des conseils généraux. Aucun code ni siège administratif rétrodaté depuis histmaps.",
+      "reserves": [
+       "R2SE-01",
+       "R2SE-04",
+       "R2SE-05",
+       "R2SE-02"
+      ]
+     },
+     "sources": [
+      {
+       "source_id": "src-scb-annuaire1945-suede",
+       "locator": "p. 2, tableau 2 (PDF 22), ligne 2 : Stockholms län",
+       "usage": "Liste et nom au 1er janvier 1945."
+      },
+      {
+       "source_id": "src-junkka-histmaps-historique-suede",
+       "locator": "geom_sp geom_id=12514, ref_code=SE/010000000, période annuelle 1909–1966",
+       "usage": "Tracé reconstruit, sous réserve de la granularité annuelle et des anomalies documentées."
+      },
+      {
+       "source_id": "src-lansstyrelsen-stockholm-histoire-lan",
+       "locator": "Stockholms länsvapen, 1941 et 1968",
+       "usage": "Séparation administrative de la ville et du län."
+      }
+     ]
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-se-lan-uppsala",
+   "type_entite": "subdivision",
+   "nom": "Uppsala",
+   "nom_court": "Uppsala",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_sous_reserves",
+     "proprietes": {
+      "nom": "Uppsala län",
+      "niveau": 1,
+      "echelon": 1,
+      "statut_administratif": "län",
+      "parent_id": "territoire-se-suede",
+      "souverainete_id": "suede",
+      "note": "Premier niveau de droit au 01/01/1945. Date de début de fenêtre, non date de création. Les län ne sont ni les landskap historiques ni les districts des conseils généraux. Aucun code ni siège administratif rétrodaté depuis histmaps.",
+      "reserves": [
+       "R2SE-01",
+       "R2SE-04",
+       "R2SE-05"
+      ]
+     },
+     "sources": [
+      {
+       "source_id": "src-scb-annuaire1945-suede",
+       "locator": "p. 2, tableau 2 (PDF 22), ligne 3 : Uppsala län",
+       "usage": "Liste et nom au 1er janvier 1945."
+      },
+      {
+       "source_id": "src-junkka-histmaps-historique-suede",
+       "locator": "geom_sp geom_id=12464, ref_code=SE/030000000, période annuelle 1943–1970",
+       "usage": "Tracé reconstruit, sous réserve de la granularité annuelle et des anomalies documentées."
+      }
+     ],
+     "geometrie_ref": "geom-subdivision-se-lan-uppsala-1945-01-01"
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-se-sodermanland",
+   "type_entite": "subdivision",
+   "nom": "Södermanland",
+   "nom_court": "Södermanland",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_sous_reserves",
+     "proprietes": {
+      "nom": "Södermanlands län",
+      "niveau": 1,
+      "echelon": 1,
+      "statut_administratif": "län",
+      "parent_id": "territoire-se-suede",
+      "souverainete_id": "suede",
+      "note": "Premier niveau de droit au 01/01/1945. Date de début de fenêtre, non date de création. Les län ne sont ni les landskap historiques ni les districts des conseils généraux. Aucun code ni siège administratif rétrodaté depuis histmaps.",
+      "reserves": [
+       "R2SE-01",
+       "R2SE-04",
+       "R2SE-05",
+       "R2SE-06"
+      ]
+     },
+     "sources": [
+      {
+       "source_id": "src-scb-annuaire1945-suede",
+       "locator": "p. 2, tableau 2 (PDF 22), ligne 4 : Södermanlands län",
+       "usage": "Liste et nom au 1er janvier 1945."
+      },
+      {
+       "source_id": "src-junkka-histmaps-historique-suede",
+       "locator": "geom_sp geom_id=12467, ref_code=SE/040000000, période annuelle 1943–1966",
+       "usage": "Tracé reconstruit, sous réserve de la granularité annuelle et des anomalies documentées."
+      }
+     ],
+     "geometrie_ref": "geom-subdivision-se-sodermanland-1945-01-01"
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-se-ostergotland",
+   "type_entite": "subdivision",
+   "nom": "Östergötland",
+   "nom_court": "Östergötland",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_sous_reserves",
+     "proprietes": {
+      "nom": "Östergötlands län",
+      "niveau": 1,
+      "echelon": 1,
+      "statut_administratif": "län",
+      "parent_id": "territoire-se-suede",
+      "souverainete_id": "suede",
+      "note": "Premier niveau de droit au 01/01/1945. Date de début de fenêtre, non date de création. Les län ne sont ni les landskap historiques ni les districts des conseils généraux. Aucun code ni siège administratif rétrodaté depuis histmaps.",
+      "reserves": [
+       "R2SE-01",
+       "R2SE-04",
+       "R2SE-05"
+      ]
+     },
+     "sources": [
+      {
+       "source_id": "src-scb-annuaire1945-suede",
+       "locator": "p. 2, tableau 2 (PDF 22), ligne 5 : Östergötlands län",
+       "usage": "Liste et nom au 1er janvier 1945."
+      },
+      {
+       "source_id": "src-junkka-histmaps-historique-suede",
+       "locator": "geom_sp geom_id=12471, ref_code=SE/050000000, période annuelle 0–1970",
+       "usage": "Tracé reconstruit, sous réserve de la granularité annuelle et des anomalies documentées."
+      }
+     ],
+     "geometrie_ref": "geom-subdivision-se-ostergotland-1945-01-01"
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-se-lan-jonkoping",
+   "type_entite": "subdivision",
+   "nom": "Jönköping",
+   "nom_court": "Jönköping",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_sous_reserves",
+     "proprietes": {
+      "nom": "Jönköpings län",
+      "niveau": 1,
+      "echelon": 1,
+      "statut_administratif": "län",
+      "parent_id": "territoire-se-suede",
+      "souverainete_id": "suede",
+      "note": "Premier niveau de droit au 01/01/1945. Date de début de fenêtre, non date de création. Les län ne sont ni les landskap historiques ni les districts des conseils généraux. Aucun code ni siège administratif rétrodaté depuis histmaps.",
+      "reserves": [
+       "R2SE-01",
+       "R2SE-04",
+       "R2SE-05",
+       "R2SE-06"
+      ]
+     },
+     "sources": [
+      {
+       "source_id": "src-scb-annuaire1945-suede",
+       "locator": "p. 2, tableau 2 (PDF 22), ligne 6 : Jönköpings län",
+       "usage": "Liste et nom au 1er janvier 1945."
+      },
+      {
+       "source_id": "src-junkka-histmaps-historique-suede",
+       "locator": "geom_sp geom_id=12474, ref_code=SE/060000000, période annuelle 1732–1969",
+       "usage": "Tracé reconstruit, sous réserve de la granularité annuelle et des anomalies documentées."
+      }
+     ],
+     "geometrie_ref": "geom-subdivision-se-lan-jonkoping-1945-01-01"
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-se-kronoberg",
+   "type_entite": "subdivision",
+   "nom": "Kronoberg",
+   "nom_court": "Kronoberg",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_sous_reserves",
+     "proprietes": {
+      "nom": "Kronobergs län",
+      "niveau": 1,
+      "echelon": 1,
+      "statut_administratif": "län",
+      "parent_id": "territoire-se-suede",
+      "souverainete_id": "suede",
+      "note": "Premier niveau de droit au 01/01/1945. Date de début de fenêtre, non date de création. Les län ne sont ni les landskap historiques ni les districts des conseils généraux. Aucun code ni siège administratif rétrodaté depuis histmaps.",
+      "reserves": [
+       "R2SE-01",
+       "R2SE-04",
+       "R2SE-05"
+      ]
+     },
+     "sources": [
+      {
+       "source_id": "src-scb-annuaire1945-suede",
+       "locator": "p. 2, tableau 2 (PDF 22), ligne 7 : Kronobergs län",
+       "usage": "Liste et nom au 1er janvier 1945."
+      },
+      {
+       "source_id": "src-junkka-histmaps-historique-suede",
+       "locator": "geom_sp geom_id=12478, ref_code=SE/070000000, période annuelle 0–1968",
+       "usage": "Tracé reconstruit, sous réserve de la granularité annuelle et des anomalies documentées."
+      }
+     ],
+     "geometrie_ref": "geom-subdivision-se-kronoberg-1945-01-01"
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-se-lan-kalmar",
+   "type_entite": "subdivision",
+   "nom": "Kalmar",
+   "nom_court": "Kalmar",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_sous_reserves",
+     "proprietes": {
+      "nom": "Kalmar län",
+      "niveau": 1,
+      "echelon": 1,
+      "statut_administratif": "län",
+      "parent_id": "territoire-se-suede",
+      "souverainete_id": "suede",
+      "note": "Premier niveau de droit au 01/01/1945. Date de début de fenêtre, non date de création. Les län ne sont ni les landskap historiques ni les districts des conseils généraux. Aucun code ni siège administratif rétrodaté depuis histmaps.",
+      "reserves": [
+       "R2SE-01",
+       "R2SE-04",
+       "R2SE-05"
+      ]
+     },
+     "sources": [
+      {
+       "source_id": "src-scb-annuaire1945-suede",
+       "locator": "p. 2, tableau 2 (PDF 22), ligne 8 : Kalmar län",
+       "usage": "Liste et nom au 1er janvier 1945."
+      },
+      {
+       "source_id": "src-junkka-histmaps-historique-suede",
+       "locator": "geom_sp geom_id=12485, ref_code=SE/080000000, période annuelle 1827–1969",
+       "usage": "Tracé reconstruit, sous réserve de la granularité annuelle et des anomalies documentées."
+      }
+     ],
+     "geometrie_ref": "geom-subdivision-se-lan-kalmar-1945-01-01"
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-se-gotland",
+   "type_entite": "subdivision",
+   "nom": "Gotland",
+   "nom_court": "Gotland",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_sous_reserves",
+     "proprietes": {
+      "nom": "Gotlands län",
+      "niveau": 1,
+      "echelon": 1,
+      "statut_administratif": "län",
+      "parent_id": "territoire-se-suede",
+      "souverainete_id": "suede",
+      "note": "Premier niveau de droit au 01/01/1945. Date de début de fenêtre, non date de création. Les län ne sont ni les landskap historiques ni les districts des conseils généraux. Aucun code ni siège administratif rétrodaté depuis histmaps.",
+      "reserves": [
+       "R2SE-01",
+       "R2SE-04",
+       "R2SE-05"
+      ]
+     },
+     "sources": [
+      {
+       "source_id": "src-scb-annuaire1945-suede",
+       "locator": "p. 2, tableau 2 (PDF 22), ligne 9 : Gotlands län",
+       "usage": "Liste et nom au 1er janvier 1945."
+      },
+      {
+       "source_id": "src-junkka-histmaps-historique-suede",
+       "locator": "geom_sp geom_id=12488, ref_code=SE/090000000, période annuelle 0–9999",
+       "usage": "Tracé reconstruit, sous réserve de la granularité annuelle et des anomalies documentées."
+      }
+     ],
+     "geometrie_ref": "geom-subdivision-se-gotland-1945-01-01"
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-se-blekinge",
+   "type_entite": "subdivision",
+   "nom": "Blekinge",
+   "nom_court": "Blekinge",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_sous_reserves",
+     "proprietes": {
+      "nom": "Blekinge län",
+      "niveau": 1,
+      "echelon": 1,
+      "statut_administratif": "län",
+      "parent_id": "territoire-se-suede",
+      "souverainete_id": "suede",
+      "note": "Premier niveau de droit au 01/01/1945. Date de début de fenêtre, non date de création. Les län ne sont ni les landskap historiques ni les districts des conseils généraux. Aucun code ni siège administratif rétrodaté depuis histmaps.",
+      "reserves": [
+       "R2SE-01",
+       "R2SE-04",
+       "R2SE-05"
+      ]
+     },
+     "sources": [
+      {
+       "source_id": "src-scb-annuaire1945-suede",
+       "locator": "p. 2, tableau 2 (PDF 22), ligne 10 : Blekinge län",
+       "usage": "Liste et nom au 1er janvier 1945."
+      },
+      {
+       "source_id": "src-junkka-histmaps-historique-suede",
+       "locator": "geom_sp geom_id=12489, ref_code=SE/100000000, période annuelle 0–9999",
+       "usage": "Tracé reconstruit, sous réserve de la granularité annuelle et des anomalies documentées."
+      }
+     ],
+     "geometrie_ref": "geom-subdivision-se-blekinge-1945-01-01"
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-se-lan-kristianstad",
+   "type_entite": "subdivision",
+   "nom": "Kristianstad",
+   "nom_court": "Kristianstad",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_sous_reserves",
+     "proprietes": {
+      "nom": "Kristianstads län",
+      "niveau": 1,
+      "echelon": 1,
+      "statut_administratif": "län",
+      "parent_id": "territoire-se-suede",
+      "souverainete_id": "suede",
+      "note": "Premier niveau de droit au 01/01/1945. Date de début de fenêtre, non date de création. Les län ne sont ni les landskap historiques ni les districts des conseils généraux. Aucun code ni siège administratif rétrodaté depuis histmaps.",
+      "reserves": [
+       "R2SE-01",
+       "R2SE-04",
+       "R2SE-05"
+      ]
+     },
+     "sources": [
+      {
+       "source_id": "src-scb-annuaire1945-suede",
+       "locator": "p. 2, tableau 2 (PDF 22), ligne 11 : Kristianstads län",
+       "usage": "Liste et nom au 1er janvier 1945."
+      },
+      {
+       "source_id": "src-junkka-histmaps-historique-suede",
+       "locator": "geom_sp geom_id=12493, ref_code=SE/110000000, période annuelle 1891–1951",
+       "usage": "Tracé reconstruit, sous réserve de la granularité annuelle et des anomalies documentées."
+      }
+     ],
+     "geometrie_ref": "geom-subdivision-se-lan-kristianstad-1945-01-01"
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-se-malmohus",
+   "type_entite": "subdivision",
+   "nom": "Malmöhus",
+   "nom_court": "Malmöhus",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_sous_reserves",
+     "proprietes": {
+      "nom": "Malmöhus län",
+      "niveau": 1,
+      "echelon": 1,
+      "statut_administratif": "län",
+      "parent_id": "territoire-se-suede",
+      "souverainete_id": "suede",
+      "note": "Premier niveau de droit au 01/01/1945. Date de début de fenêtre, non date de création. Les län ne sont ni les landskap historiques ni les districts des conseils généraux. Aucun code ni siège administratif rétrodaté depuis histmaps. Le label moderne du jeu géographique est remplacé par le nom du tableau SCB de 1945 ; aucune fusion moderne anticipée.",
+      "reserves": [
+       "R2SE-01",
+       "R2SE-04",
+       "R2SE-05",
+       "R2SE-03",
+       "R2SE-06"
+      ]
+     },
+     "sources": [
+      {
+       "source_id": "src-scb-annuaire1945-suede",
+       "locator": "p. 2, tableau 2 (PDF 22), ligne 12 : Malmöhus län",
+       "usage": "Liste et nom au 1er janvier 1945."
+      },
+      {
+       "source_id": "src-junkka-histmaps-historique-suede",
+       "locator": "geom_sp geom_id=12499, ref_code=SE/120000000, période annuelle 1891–1951",
+       "usage": "Tracé reconstruit, sous réserve de la granularité annuelle et des anomalies documentées."
+      }
+     ],
+     "geometrie_ref": "geom-subdivision-se-malmohus-1945-01-01"
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-se-halland",
+   "type_entite": "subdivision",
+   "nom": "Halland",
+   "nom_court": "Halland",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_sous_reserves",
+     "proprietes": {
+      "nom": "Hallands län",
+      "niveau": 1,
+      "echelon": 1,
+      "statut_administratif": "län",
+      "parent_id": "territoire-se-suede",
+      "souverainete_id": "suede",
+      "note": "Premier niveau de droit au 01/01/1945. Date de début de fenêtre, non date de création. Les län ne sont ni les landskap historiques ni les districts des conseils généraux. Aucun code ni siège administratif rétrodaté depuis histmaps.",
+      "reserves": [
+       "R2SE-01",
+       "R2SE-04",
+       "R2SE-05"
+      ]
+     },
+     "sources": [
+      {
+       "source_id": "src-scb-annuaire1945-suede",
+       "locator": "p. 2, tableau 2 (PDF 22), ligne 13 : Hallands län",
+       "usage": "Liste et nom au 1er janvier 1945."
+      },
+      {
+       "source_id": "src-junkka-histmaps-historique-suede",
+       "locator": "geom_sp geom_id=12504, ref_code=SE/130000000, période annuelle 0–1970",
+       "usage": "Tracé reconstruit, sous réserve de la granularité annuelle et des anomalies documentées."
+      }
+     ],
+     "geometrie_ref": "geom-subdivision-se-halland-1945-01-01"
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-se-goteborg-et-bohus",
+   "type_entite": "subdivision",
+   "nom": "Göteborg et Bohus",
+   "nom_court": "Göteborg et Bohus",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_sous_reserves",
+     "proprietes": {
+      "nom": "Göteborgs och Bohus län",
+      "niveau": 1,
+      "echelon": 1,
+      "statut_administratif": "län",
+      "parent_id": "territoire-se-suede",
+      "souverainete_id": "suede",
+      "note": "Premier niveau de droit au 01/01/1945. Date de début de fenêtre, non date de création. Les län ne sont ni les landskap historiques ni les districts des conseils généraux. Aucun code ni siège administratif rétrodaté depuis histmaps. Le label moderne du jeu géographique est remplacé par le nom du tableau SCB de 1945 ; aucune fusion moderne anticipée.",
+      "reserves": [
+       "R2SE-01",
+       "R2SE-04",
+       "R2SE-05",
+       "R2SE-03"
+      ]
+     },
+     "sources": [
+      {
+       "source_id": "src-scb-annuaire1945-suede",
+       "locator": "p. 2, tableau 2 (PDF 22), ligne 14 : Göteborgs och Bohus län",
+       "usage": "Liste et nom au 1er janvier 1945."
+      },
+      {
+       "source_id": "src-junkka-histmaps-historique-suede",
+       "locator": "geom_sp geom_id=12507, ref_code=SE/140000000, période annuelle 0–1966",
+       "usage": "Tracé reconstruit, sous réserve de la granularité annuelle et des anomalies documentées."
+      }
+     ],
+     "geometrie_ref": "geom-subdivision-se-goteborg-et-bohus-1945-01-01"
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-se-alvsborg",
+   "type_entite": "subdivision",
+   "nom": "Älvsborg",
+   "nom_court": "Älvsborg",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_sous_reserves",
+     "proprietes": {
+      "nom": "Älvsborgs län",
+      "niveau": 1,
+      "echelon": 1,
+      "statut_administratif": "län",
+      "parent_id": "territoire-se-suede",
+      "souverainete_id": "suede",
+      "note": "Premier niveau de droit au 01/01/1945. Date de début de fenêtre, non date de création. Les län ne sont ni les landskap historiques ni les districts des conseils généraux. Aucun code ni siège administratif rétrodaté depuis histmaps.",
+      "reserves": [
+       "R2SE-01",
+       "R2SE-04",
+       "R2SE-05",
+       "R2SE-06"
+      ]
+     },
+     "sources": [
+      {
+       "source_id": "src-scb-annuaire1945-suede",
+       "locator": "p. 2, tableau 2 (PDF 22), ligne 15 : Älvsborgs län",
+       "usage": "Liste et nom au 1er janvier 1945."
+      },
+      {
+       "source_id": "src-junkka-histmaps-historique-suede",
+       "locator": "geom_sp geom_id=12510, ref_code=SE/150000000, période annuelle 0–1951",
+       "usage": "Tracé reconstruit, sous réserve de la granularité annuelle et des anomalies documentées."
+      }
+     ],
+     "geometrie_ref": "geom-subdivision-se-alvsborg-1945-01-01"
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-se-skaraborg",
+   "type_entite": "subdivision",
+   "nom": "Skaraborg",
+   "nom_court": "Skaraborg",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_sous_reserves",
+     "proprietes": {
+      "nom": "Skaraborgs län",
+      "niveau": 1,
+      "echelon": 1,
+      "statut_administratif": "län",
+      "parent_id": "territoire-se-suede",
+      "souverainete_id": "suede",
+      "note": "Premier niveau de droit au 01/01/1945. Date de début de fenêtre, non date de création. Les län ne sont ni les landskap historiques ni les districts des conseils généraux. Aucun code ni siège administratif rétrodaté depuis histmaps.",
+      "reserves": [
+       "R2SE-01",
+       "R2SE-04",
+       "R2SE-05"
+      ]
+     },
+     "sources": [
+      {
+       "source_id": "src-scb-annuaire1945-suede",
+       "locator": "p. 2, tableau 2 (PDF 22), ligne 16 : Skaraborgs län",
+       "usage": "Liste et nom au 1er janvier 1945."
+      },
+      {
+       "source_id": "src-junkka-histmaps-historique-suede",
+       "locator": "geom_sp geom_id=12518, ref_code=SE/160000000, période annuelle 1732–1951",
+       "usage": "Tracé reconstruit, sous réserve de la granularité annuelle et des anomalies documentées."
+      }
+     ],
+     "geometrie_ref": "geom-subdivision-se-skaraborg-1945-01-01"
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-se-varmland",
+   "type_entite": "subdivision",
+   "nom": "Värmland",
+   "nom_court": "Värmland",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_sous_reserves",
+     "proprietes": {
+      "nom": "Värmlands län",
+      "niveau": 1,
+      "echelon": 1,
+      "statut_administratif": "län",
+      "parent_id": "territoire-se-suede",
+      "souverainete_id": "suede",
+      "note": "Premier niveau de droit au 01/01/1945. Date de début de fenêtre, non date de création. Les län ne sont ni les landskap historiques ni les districts des conseils généraux. Aucun code ni siège administratif rétrodaté depuis histmaps.",
+      "reserves": [
+       "R2SE-01",
+       "R2SE-04",
+       "R2SE-05",
+       "R2SE-06"
+      ]
+     },
+     "sources": [
+      {
+       "source_id": "src-scb-annuaire1945-suede",
+       "locator": "p. 2, tableau 2 (PDF 22), ligne 17 : Värmlands län",
+       "usage": "Liste et nom au 1er janvier 1945."
+      },
+      {
+       "source_id": "src-junkka-histmaps-historique-suede",
+       "locator": "geom_sp geom_id=12524, ref_code=SE/170000000, période annuelle 1923–1951",
+       "usage": "Tracé reconstruit, sous réserve de la granularité annuelle et des anomalies documentées."
+      }
+     ],
+     "geometrie_ref": "geom-subdivision-se-varmland-1945-01-01"
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-se-lan-orebro",
+   "type_entite": "subdivision",
+   "nom": "Örebro",
+   "nom_court": "Örebro",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_sous_reserves",
+     "proprietes": {
+      "nom": "Örebro län",
+      "niveau": 1,
+      "echelon": 1,
+      "statut_administratif": "län",
+      "parent_id": "territoire-se-suede",
+      "souverainete_id": "suede",
+      "note": "Premier niveau de droit au 01/01/1945. Date de début de fenêtre, non date de création. Les län ne sont ni les landskap historiques ni les districts des conseils généraux. Aucun code ni siège administratif rétrodaté depuis histmaps.",
+      "reserves": [
+       "R2SE-01",
+       "R2SE-04",
+       "R2SE-05"
+      ]
+     },
+     "sources": [
+      {
+       "source_id": "src-scb-annuaire1945-suede",
+       "locator": "p. 2, tableau 2 (PDF 22), ligne 18 : Örebro län",
+       "usage": "Liste et nom au 1er janvier 1945."
+      },
+      {
+       "source_id": "src-junkka-histmaps-historique-suede",
+       "locator": "geom_sp geom_id=12529, ref_code=SE/180000000, période annuelle 1923–1951",
+       "usage": "Tracé reconstruit, sous réserve de la granularité annuelle et des anomalies documentées."
+      }
+     ],
+     "geometrie_ref": "geom-subdivision-se-lan-orebro-1945-01-01"
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-se-vastmanland",
+   "type_entite": "subdivision",
+   "nom": "Västmanland",
+   "nom_court": "Västmanland",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_sous_reserves",
+     "proprietes": {
+      "nom": "Västmanlands län",
+      "niveau": 1,
+      "echelon": 1,
+      "statut_administratif": "län",
+      "parent_id": "territoire-se-suede",
+      "souverainete_id": "suede",
+      "note": "Premier niveau de droit au 01/01/1945. Date de début de fenêtre, non date de création. Les län ne sont ni les landskap historiques ni les districts des conseils généraux. Aucun code ni siège administratif rétrodaté depuis histmaps.",
+      "reserves": [
+       "R2SE-01",
+       "R2SE-04",
+       "R2SE-05"
+      ]
+     },
+     "sources": [
+      {
+       "source_id": "src-scb-annuaire1945-suede",
+       "locator": "p. 2, tableau 2 (PDF 22), ligne 19 : Västmanlands län",
+       "usage": "Liste et nom au 1er janvier 1945."
+      },
+      {
+       "source_id": "src-junkka-histmaps-historique-suede",
+       "locator": "geom_sp geom_id=12533, ref_code=SE/190000000, période annuelle 0–1970",
+       "usage": "Tracé reconstruit, sous réserve de la granularité annuelle et des anomalies documentées."
+      }
+     ],
+     "geometrie_ref": "geom-subdivision-se-vastmanland-1945-01-01"
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-se-dalarna",
+   "type_entite": "subdivision",
+   "nom": "Dalécarlie",
+   "nom_court": "Dalécarlie",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_sous_reserves",
+     "proprietes": {
+      "nom": "Kopparbergs län",
+      "niveau": 1,
+      "echelon": 1,
+      "statut_administratif": "län",
+      "parent_id": "territoire-se-suede",
+      "souverainete_id": "suede",
+      "note": "Premier niveau de droit au 01/01/1945. Date de début de fenêtre, non date de création. Les län ne sont ni les landskap historiques ni les districts des conseils généraux. Aucun code ni siège administratif rétrodaté depuis histmaps. Le nom de repérage Dalécarlie et l’ID dalarna restent distincts du nom daté Kopparbergs län.",
+      "reserves": [
+       "R2SE-01",
+       "R2SE-04",
+       "R2SE-05",
+       "R2SE-03"
+      ]
+     },
+     "sources": [
+      {
+       "source_id": "src-scb-annuaire1945-suede",
+       "locator": "p. 2, tableau 2 (PDF 22), ligne 20 : Kopparbergs län",
+       "usage": "Liste et nom au 1er janvier 1945."
+      },
+      {
+       "source_id": "src-junkka-histmaps-historique-suede",
+       "locator": "geom_sp geom_id=12537, ref_code=SE/200000000, période annuelle 0–9999",
+       "usage": "Tracé reconstruit, sous réserve de la granularité annuelle et des anomalies documentées."
+      }
+     ],
+     "geometrie_ref": "geom-subdivision-se-dalarna-1945-01-01"
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-se-gavleborg",
+   "type_entite": "subdivision",
+   "nom": "Gävleborg",
+   "nom_court": "Gävleborg",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_sous_reserves",
+     "proprietes": {
+      "nom": "Gävleborgs län",
+      "niveau": 1,
+      "echelon": 1,
+      "statut_administratif": "län",
+      "parent_id": "territoire-se-suede",
+      "souverainete_id": "suede",
+      "note": "Premier niveau de droit au 01/01/1945. Date de début de fenêtre, non date de création. Les län ne sont ni les landskap historiques ni les districts des conseils généraux. Aucun code ni siège administratif rétrodaté depuis histmaps.",
+      "reserves": [
+       "R2SE-01",
+       "R2SE-04",
+       "R2SE-05"
+      ]
+     },
+     "sources": [
+      {
+       "source_id": "src-scb-annuaire1945-suede",
+       "locator": "p. 2, tableau 2 (PDF 22), ligne 21 : Gävleborgs län",
+       "usage": "Liste et nom au 1er janvier 1945."
+      },
+      {
+       "source_id": "src-junkka-histmaps-historique-suede",
+       "locator": "geom_sp geom_id=12540, ref_code=SE/210000000, période annuelle 1864–9999",
+       "usage": "Tracé reconstruit, sous réserve de la granularité annuelle et des anomalies documentées."
+      }
+     ],
+     "geometrie_ref": "geom-subdivision-se-gavleborg-1945-01-01"
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-se-vasternorrland",
+   "type_entite": "subdivision",
+   "nom": "Västernorrland",
+   "nom_court": "Västernorrland",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_sous_reserves",
+     "proprietes": {
+      "nom": "Västernorrlands län",
+      "niveau": 1,
+      "echelon": 1,
+      "statut_administratif": "län",
+      "parent_id": "territoire-se-suede",
+      "souverainete_id": "suede",
+      "note": "Premier niveau de droit au 01/01/1945. Date de début de fenêtre, non date de création. Les län ne sont ni les landskap historiques ni les districts des conseils généraux. Aucun code ni siège administratif rétrodaté depuis histmaps.",
+      "reserves": [
+       "R2SE-01",
+       "R2SE-04",
+       "R2SE-05"
+      ]
+     },
+     "sources": [
+      {
+       "source_id": "src-scb-annuaire1945-suede",
+       "locator": "p. 2, tableau 2 (PDF 22), ligne 22 : Västernorrlands län",
+       "usage": "Liste et nom au 1er janvier 1945."
+      },
+      {
+       "source_id": "src-junkka-histmaps-historique-suede",
+       "locator": "geom_sp geom_id=12543, ref_code=SE/220000000, période annuelle 1810–1973",
+       "usage": "Tracé reconstruit, sous réserve de la granularité annuelle et des anomalies documentées."
+      }
+     ],
+     "geometrie_ref": "geom-subdivision-se-vasternorrland-1945-01-01"
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-se-jamtland",
+   "type_entite": "subdivision",
+   "nom": "Jämtland",
+   "nom_court": "Jämtland",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_sous_reserves",
+     "proprietes": {
+      "nom": "Jämtlands län",
+      "niveau": 1,
+      "echelon": 1,
+      "statut_administratif": "län",
+      "parent_id": "territoire-se-suede",
+      "souverainete_id": "suede",
+      "note": "Premier niveau de droit au 01/01/1945. Date de début de fenêtre, non date de création. Les län ne sont ni les landskap historiques ni les districts des conseils généraux. Aucun code ni siège administratif rétrodaté depuis histmaps.",
+      "reserves": [
+       "R2SE-01",
+       "R2SE-04",
+       "R2SE-05"
+      ]
+     },
+     "sources": [
+      {
+       "source_id": "src-scb-annuaire1945-suede",
+       "locator": "p. 2, tableau 2 (PDF 22), ligne 23 : Jämtlands län",
+       "usage": "Liste et nom au 1er janvier 1945."
+      },
+      {
+       "source_id": "src-junkka-histmaps-historique-suede",
+       "locator": "geom_sp geom_id=12546, ref_code=SE/230000000, période annuelle 1864–1973",
+       "usage": "Tracé reconstruit, sous réserve de la granularité annuelle et des anomalies documentées."
+      }
+     ],
+     "geometrie_ref": "geom-subdivision-se-jamtland-1945-01-01"
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-se-vasterbotten",
+   "type_entite": "subdivision",
+   "nom": "Västerbotten",
+   "nom_court": "Västerbotten",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_sous_reserves",
+     "proprietes": {
+      "nom": "Västerbottens län",
+      "niveau": 1,
+      "echelon": 1,
+      "statut_administratif": "län",
+      "parent_id": "territoire-se-suede",
+      "souverainete_id": "suede",
+      "note": "Premier niveau de droit au 01/01/1945. Date de début de fenêtre, non date de création. Les län ne sont ni les landskap historiques ni les districts des conseils généraux. Aucun code ni siège administratif rétrodaté depuis histmaps.",
+      "reserves": [
+       "R2SE-01",
+       "R2SE-04",
+       "R2SE-05"
+      ]
+     },
+     "sources": [
+      {
+       "source_id": "src-scb-annuaire1945-suede",
+       "locator": "p. 2, tableau 2 (PDF 22), ligne 24 : Västerbottens län",
+       "usage": "Liste et nom au 1er janvier 1945."
+      },
+      {
+       "source_id": "src-junkka-histmaps-historique-suede",
+       "locator": "geom_sp geom_id=12552, ref_code=SE/240000000, période annuelle 1869–9999",
+       "usage": "Tracé reconstruit, sous réserve de la granularité annuelle et des anomalies documentées."
+      }
+     ],
+     "geometrie_ref": "geom-subdivision-se-vasterbotten-1945-01-01"
+    }
+   ],
+   "relations": []
+  },
+  {
+   "entite_id": "subdivision-se-norrbotten",
+   "type_entite": "subdivision",
+   "nom": "Norrbotten",
+   "nom_court": "Norrbotten",
+   "etats": [
+    {
+     "etat_id": "etat-01",
+     "valid_from": {
+      "date": "1945-01-01",
+      "precision": "exacte"
+     },
+     "valid_to": {
+      "date": "",
+      "precision": "inconnue"
+     },
+     "statut": "decoupage_de_droit_propose_sous_reserves",
+     "proprietes": {
+      "nom": "Norrbottens län",
+      "niveau": 1,
+      "echelon": 1,
+      "statut_administratif": "län",
+      "parent_id": "territoire-se-suede",
+      "souverainete_id": "suede",
+      "note": "Premier niveau de droit au 01/01/1945. Date de début de fenêtre, non date de création. Les län ne sont ni les landskap historiques ni les districts des conseils généraux. Aucun code ni siège administratif rétrodaté depuis histmaps.",
+      "reserves": [
+       "R2SE-01",
+       "R2SE-04",
+       "R2SE-05"
+      ]
+     },
+     "sources": [
+      {
+       "source_id": "src-scb-annuaire1945-suede",
+       "locator": "p. 2, tableau 2 (PDF 22), ligne 25 : Norrbottens län",
+       "usage": "Liste et nom au 1er janvier 1945."
+      },
+      {
+       "source_id": "src-junkka-histmaps-historique-suede",
+       "locator": "geom_sp geom_id=12555, ref_code=SE/250000000, période annuelle 1869–9999",
+       "usage": "Tracé reconstruit, sous réserve de la granularité annuelle et des anomalies documentées."
+      }
+     ],
+     "geometrie_ref": "geom-subdivision-se-norrbotten-1945-01-01"
+    }
+   ],
+   "relations": []
+  }
+ ]
+}
