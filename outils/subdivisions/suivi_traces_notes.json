@@ -72,6 +72,10 @@
   "2.SE": {
    "pourquoi": "23 tracés intégrés (histmaps, CC0) ; seuls Stockholm ville et Stockholms län manquent : contour « county » de la ville de 192,53 km² contre 142,78 km² au tableau SCB, marqué « ne pas intégrer » par Ether (R2SE-02).",
    "pistes": "couche « municipal » 1916–1948 de histmaps (147,25 km²) à recouper avec le tableau SCB ; Spånga seulement après 1949."
+  },
+  "2.FI": {
+   "pourquoi": "aucun contour de province ou de district au 01/01/1945 validé ; SAPO (communes historiques, CC BY 4.0) a des manques (84 des 547 communes de 1945 sans géométrie), des enclaves absentes et pas de jointure communes → districts de 1945 (R2FI-01).",
+   "pistes": "SAPO via Sorvi/rOpenGov (révision 65a9a2c) : https://ropengov.github.io/sorvi/articles/finnish-historical-maps.html ; licence et auteurs : https://dev.hipla.fi/ (FinnONTO/SeCo Aalto, CC BY 4.0) ; reconstituer les communes de 1945 et leur rattachement, avec cessions et Porkkala."
   }
  }
 }

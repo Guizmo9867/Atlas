@@ -1,0 +1,66 @@
+{
+  "date": "2026-10-25T06:35:31.935955+00:00",
+  "lot": "2.FI",
+  "cycle": 1,
+  "resultat": "conforme_techniquement_sous_reserves_historiques",
+  "comptages": {
+    "entites": 58,
+    "echelon_1": 10,
+    "echelon_2": 48,
+    "geometries": 0,
+    "geometries_proposables": 0,
+    "geometries_ne_pas_integrer": 0,
+    "sources_ajouter": 7,
+    "sources_completer": 0,
+    "reserves": 6,
+    "chefs_lieux_proposes": 0
+  },
+  "controles": [
+    "IDs uniques et parents existants",
+    "Noms et dates Snapshot, références sources et réserves",
+    "Preuves et empreintes des téléchargements",
+    "Inventaire égal aux fiches",
+    "Polygones valides EPSG4326, attributions et licences",
+    "Précontrôle du véritable intégrateur sans écriture canonique"
+  ],
+  "geometries": [],
+  "precontrole_integrateur": {
+    "script": "C:\\Users\\guill\\Documents\\GitHub\\Atlas\\outils\\subdivisions\\integrer_subdivisions.py",
+    "sha256": "54ea1688b90f752913d6f09e154b259ca444c7efe689c1ef041a1283dc328649",
+    "erreurs": [],
+    "avertissements": [],
+    "refus_attendus": [],
+    "traces_retenus": 0,
+    "limite": "En mémoire avant la partie 3 ; aucune intégration ni simplification"
+  },
+  "fichiers_principaux": [
+    {
+      "chemin": "atlas_2FI_subdivisions_proposees.json",
+      "sha256": "1f47531206ddf4ebaaa833967d9eb694b07ce20ecff3ef2b42b554e3388d4414"
+    },
+    {
+      "chemin": "geometries/atlas_2FI_geometries_proposees.geojson",
+      "sha256": "f4d70af11895c1bc48f33110f5ea382b9cdde559c9b22f2bd3aa9fb6ee96e22d"
+    },
+    {
+      "chemin": "atlas_registre_sources_2FI_delta.json",
+      "sha256": "52c868c1f2d3873d75147cd885d0e3ffc8189bef594af5a22ff35791190ae367"
+    },
+    {
+      "chemin": "atlas_2FI_pour_claude.md",
+      "sha256": "df1788efd46a356a007ba7b94dce660652e0204e30b604b9782d4fc497e98653"
+    },
+    {
+      "chemin": "atlas_2FI_reserves.md",
+      "sha256": "2327f998538b12e2617163d15948f479e8d167cff0ec614a59a61b5d8d228b7e"
+    },
+    {
+      "chemin": "atlas_2FI_reserves.json",
+      "sha256": "0f85e8c32295a771311b6ad2976d89801fcf5e5dcd6591dac29c259c23dc3a9c"
+    },
+    {
+      "chemin": "atlas_2FI_couverture.json",
+      "sha256": "4a28091bad32bf240bc2f5da93918d3c745c726d01a4c23c3792dcae8890af82"
+    }
+  ]
+}

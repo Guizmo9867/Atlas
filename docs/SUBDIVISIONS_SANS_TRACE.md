@@ -2,7 +2,7 @@
 
 *Mis à jour le 25/10/2026 par `outils/subdivisions/suivi_traces.py` (demande de Guizmo du 24/10/2026 : garder dans un coin les pays qui posent problème). Les fiches existent toujours (noms, rangs, sources) ; seul le dessin manque. À reprendre plus tard, pays par pays.*
 
-**En tout : 428 subdivisions tracées sur 885.**
+**En tout : 428 subdivisions tracées sur 943.**
 
 | Lot | Subdivisions | Tracées | État | Pourquoi | Pistes |
 |---|---|---|---|---|---|
@@ -10,6 +10,7 @@
 | 2.BE | 50 | 0 | aucun tracé | aucun tracé de 1945 sous licence libre trouvé (R2BE-01). | limites modernes ouvertes (Statbel/NGI) + différences documentées depuis 1945, comme TRF-GIS pour la France |
 | 2.DK | 30 | 0 | aucun tracé | piste DigDag (Rigsarkivet, CC BY 4.0) mais accès au service en échec (jeton, certificat expiré, disponibilité réduite), R2DK-01 ; Féroé : carte 2011 sous conditions propres, pas CC BY, R2DK-02. | DigDag « Amt og Region » (polygones historiques calculés depuis les ejerlav) via un accès avec jeton Dataforsyningen ; à transformer en EPSG:4326. |
 | 2.ES | 57 | 0 | aucun tracé | aucun tracé de 1945 sous licence libre : l'IGN n'a que des scans de cartes, la base ouverte commence en 1998 (R2ES-01). | provinces quasi inchangées depuis 1927 : limites modernes ouvertes + différences documentées |
+| 2.FI | 58 | 0 | aucun tracé | aucun contour de province ou de district au 01/01/1945 validé ; SAPO (communes historiques, CC BY 4.0) a des manques (84 des 547 communes de 1945 sans géométrie), des enclaves absentes et pas de jointure communes → districts de 1945 (R2FI-01). | SAPO via Sorvi/rOpenGov (révision 65a9a2c) : https://ropengov.github.io/sorvi/articles/finnish-historical-maps.html ; licence et auteurs : https://dev.hipla.fi/ (FinnONTO/SeCo Aalto, CC BY 4.0) ; reconstituer les communes de 1945 et leur rattachement, avec cessions et Porkkala. |
 | 2.GB | 197 | 0 | aucun tracé | GB Historical GIS est sous CC BY-SA (refusée par notre liste) ; ONS 1921 (OGL) n'a pas le bon découpage ; rien pour l'Irlande du Nord ni l'Écosse (R2GB-01). | décider si on accepte CC BY-SA pour des tracés (question pour Guizmo) ; ou limites modernes + différences |
 | 2.IE | 31 | 0 | aucun tracé | candidat Tailte 2024 (CC BY 4.0) mais pas encore rapproché des 31 unités de 1945 (R2IE-01). | comtés irlandais presque inchangés : utiliser Tailte avec les différences documentées |
 | 2.NO | 20 | 0 | aucun tracé | cartes historiques Herredskart (Kartverket, 1918 mises à jour 1941, CC BY 4.0) disponibles, mais non géoréférencées ni vectorisées ; versions vectorielles officielles seulement depuis 1997 (R2NO-01). | géoréférencer et vectoriser les feuilles 6539 (Sør-Norge) et 6526 (Nord-Norge) : https://ws.geonorge.no/historiske-kart/v3/publiserte-kart/6539 et …/6526 ; crédit Kartverket. |

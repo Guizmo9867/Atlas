@@ -2,6 +2,12 @@
 
 Une ligne par décision, datée. Plus récente en haut. Ce journal remplace les versions éparpillées dans les conversations : si ce n'est pas ici, ce n'est pas décidé.
 
+## 2026-10-25 (matin, fin : 2.FI intégré, groupe 3, boucle automatique)
+
+- **Lot 2.FI intégré** (cycle 1, groupe 3) : **58 subdivisions** sous `territoire-fi-finlande` : 10 provinces (9 lääni + Åland autonome) et 48 kihlakunnat, d'après l'annuaire statistique 1944–45 (« vuoden 1945 alussa ») ; Viipurin lääni limité à la partie restée finlandaise. *(Ether, intégré par Claude)*
+- Aucun tracé (SAPO/Sorvi CC BY 4.0, assemblage de 1945 non validé, R2FI-01) ; 48 districts contre 54 au total national, non réconcilié (R2FI-02) ; aucun chef-lieu ni code. Sources : 7 ajoutées (4 ok, 2 limite, 1 non vérifiée), registre v1.54. Réserves R2FI-01 à 06 gardées. *(Claude)*
+- Réveil interrompu repris : 2.SE était déjà envoyé sur GitHub (commit `b1b8117`) avec son `PRET_claude.md`. *(Claude)*
+
 ## 2026-10-25 (matin, suite : 2.SE intégré, groupe 3, boucle automatique)
 
 - **Lot 2.SE intégré** (cycle 1, groupe 3) : **25 subdivisions** sous `territoire-se-suede`, un seul échelon : Stockholms stad (à part jusqu'en 1968) et 24 län, d'après le tableau 2 de l'annuaire SCB 1945 (« vid början av år 1945 ») ; noms de 1945 (Malmöhus, Göteborgs och Bohus, Kopparbergs). *(Ether, intégré par Claude)*

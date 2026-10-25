@@ -1,0 +1,2804 @@
+{
+ "note": "Copie fidèle de 01_lots/2.FI/atlas_2FI_subdivisions_proposees.json (Ether, cycle 1), sous la clé proposition_ether pour que le validateur ne la lise pas comme un lot du corpus (entités intégrées : data/snapshot0/subdivisions_2-FI.json).",
+ "proposition_ether": {
+  "metadata_lot": {
+   "lot": "2.FI",
+   "cycle": 1,
+   "etat_1945": "Finlande",
+   "date_historique": "1945-01-01T00:00:00",
+   "producteur": "Ether",
+   "preparation": "2026-10-25T06:35:19.061028+00:00",
+   "perimetre": "10 provinces et 48 districts administratifs documentés sur le territoire conservé ; inventaire résiduel sous réserve R2FI-02.",
+   "couverture_echelon1": "10/10 provinces de l’annuaire daté",
+   "couverture_echelon2": "48 unités territoriales documentées ; ne vaut pas réconciliation du total administratif de 54.",
+   "geometries": "Aucune géométrie validée à livrer ; fiches sans faux lien.",
+   "date_valid_from": "Début de la fenêtre observée, pas date de création."
+  },
+  "entites": [
+   {
+    "entite_id": "subdivision-fi-laani-uusimaa",
+    "type_entite": "subdivision",
+    "nom": "Province de Uusimaa",
+    "nom_court": "Uusimaa",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Uudenmaan lääni",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "lääni",
+       "parent_id": "territoire-fi-finlande",
+       "souverainete_id": "finlande",
+       "note": "Découpage de droit au 1er janvier 1945. Le début de validité est celui du Snapshot, pas la création de la province. Forme suédoise du tableau : Nylands län. Les chefs-lieux et codes ne sont pas déduits des noms. Les districts ruraux ne constituent pas une partition de toutes les villes. Aucun tracé validé livré. La zone louée de Porkkala demeure une superposition de contrôle soviétique déjà portée par territoire-fi-porkkala ; ne pas transformer cette occupation en nouvelle province.",
+       "reserves": [
+        "R2FI-01",
+        "R2FI-02",
+        "R2FI-06",
+        "R2FI-04"
+       ]
+      },
+      "sources": [
+       {
+        "source_id": "src-statfi-annuaire-1944-1945-finlande",
+        "locator": "Tableau 2 p. 1 (PDF 25), ligne Uusimaa ; tableau 3 p. 2–3 (PDF 26) ; tableau 15 PDF 37, 38",
+        "usage": "Existence et nom à la date ; distinction province/districts et villes"
+       },
+       {
+        "source_id": "src-kansallisarkisto-histoire-laaninhallitukset",
+        "locator": "Sections sur les lääninhallitukset et leur organisation dans la Finlande indépendante",
+        "usage": "Nature administrative de la province, sans importer les compétences de 2026"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-fi-kihlakunta-raasepori",
+    "type_entite": "subdivision",
+    "nom": "District de Raasepori",
+    "nom_court": "Raasepori",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Raaseporin kihlakunta",
+       "niveau": 2,
+       "echelon": 2,
+       "statut_administratif": "kihlakunta",
+       "parent_id": "subdivision-fi-laani-uusimaa",
+       "souverainete_id": "finlande",
+       "note": "District administratif rural (kihlakunta, härad dans la colonne suédoise) documenté dans la province indiquée. Les villes sont listées séparément : aucune ville n’est automatiquement affectée au district homonyme. Il ne s’agit ni d’une commune ni d’une circonscription judiciaire (tuomiokunta/domsaga). Inventaire de 48 unités documentées sur le territoire conservé ; le total national de 54 du tableau 3 reste à réconcilier. Aucun tracé ni siège déduit du nom. Le contrôle militaire effectif reste celui des superpositions déjà intégrées au territoire national.",
+       "reserves": [
+        "R2FI-01",
+        "R2FI-02",
+        "R2FI-06",
+        "R2FI-04"
+       ]
+      },
+      "sources": [
+       {
+        "source_id": "src-statfi-annuaire-1944-1945-finlande",
+        "locator": "Tableau 15, p. 14–15 (PDF 37), colonne des noms et superficie terrestre au 1.1.1945, ligne « Raaseporin kihlakunta »",
+        "usage": "Nom et parent de l’échelon administratif rural ; territoire conservé"
+       },
+       {
+        "source_id": "src-statfi-annuaire-1944-1945-finlande",
+        "locator": "Tableau 3 p. 2–3 (PDF 26), colonnes administratives et judiciaires",
+        "usage": "Distinction kihlakunta administratif / division judiciaire"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-fi-kihlakunta-lohja",
+    "type_entite": "subdivision",
+    "nom": "District de Lohja",
+    "nom_court": "Lohja",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Lohjan kihlakunta",
+       "niveau": 2,
+       "echelon": 2,
+       "statut_administratif": "kihlakunta",
+       "parent_id": "subdivision-fi-laani-uusimaa",
+       "souverainete_id": "finlande",
+       "note": "District administratif rural (kihlakunta, härad dans la colonne suédoise) documenté dans la province indiquée. Les villes sont listées séparément : aucune ville n’est automatiquement affectée au district homonyme. Il ne s’agit ni d’une commune ni d’une circonscription judiciaire (tuomiokunta/domsaga). Inventaire de 48 unités documentées sur le territoire conservé ; le total national de 54 du tableau 3 reste à réconcilier. Aucun tracé ni siège déduit du nom. Le contrôle militaire effectif reste celui des superpositions déjà intégrées au territoire national.",
+       "reserves": [
+        "R2FI-01",
+        "R2FI-02",
+        "R2FI-06",
+        "R2FI-04"
+       ]
+      },
+      "sources": [
+       {
+        "source_id": "src-statfi-annuaire-1944-1945-finlande",
+        "locator": "Tableau 15, p. 14–15 (PDF 37), colonne des noms et superficie terrestre au 1.1.1945, ligne « Lohjan kihlakunta »",
+        "usage": "Nom et parent de l’échelon administratif rural ; territoire conservé"
+       },
+       {
+        "source_id": "src-statfi-annuaire-1944-1945-finlande",
+        "locator": "Tableau 3 p. 2–3 (PDF 26), colonnes administratives et judiciaires",
+        "usage": "Distinction kihlakunta administratif / division judiciaire"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-fi-kihlakunta-helsinki",
+    "type_entite": "subdivision",
+    "nom": "District de Helsinki",
+    "nom_court": "Helsinki",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Helsingin kihlakunta",
+       "niveau": 2,
+       "echelon": 2,
+       "statut_administratif": "kihlakunta",
+       "parent_id": "subdivision-fi-laani-uusimaa",
+       "souverainete_id": "finlande",
+       "note": "District administratif rural (kihlakunta, härad dans la colonne suédoise) documenté dans la province indiquée. Les villes sont listées séparément : aucune ville n’est automatiquement affectée au district homonyme. Il ne s’agit ni d’une commune ni d’une circonscription judiciaire (tuomiokunta/domsaga). Inventaire de 48 unités documentées sur le territoire conservé ; le total national de 54 du tableau 3 reste à réconcilier. Aucun tracé ni siège déduit du nom. Le contrôle militaire effectif reste celui des superpositions déjà intégrées au territoire national.",
+       "reserves": [
+        "R2FI-01",
+        "R2FI-02",
+        "R2FI-06",
+        "R2FI-04"
+       ]
+      },
+      "sources": [
+       {
+        "source_id": "src-statfi-annuaire-1944-1945-finlande",
+        "locator": "Tableau 15, p. 14–15 (PDF 37), colonne des noms et superficie terrestre au 1.1.1945, ligne « Helsingin kihlakunta »",
+        "usage": "Nom et parent de l’échelon administratif rural ; territoire conservé"
+       },
+       {
+        "source_id": "src-statfi-annuaire-1944-1945-finlande",
+        "locator": "Tableau 3 p. 2–3 (PDF 26), colonnes administratives et judiciaires",
+        "usage": "Distinction kihlakunta administratif / division judiciaire"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-fi-kihlakunta-pernaja",
+    "type_entite": "subdivision",
+    "nom": "District de Pernaja",
+    "nom_court": "Pernaja",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Pernajan kihlakunta",
+       "niveau": 2,
+       "echelon": 2,
+       "statut_administratif": "kihlakunta",
+       "parent_id": "subdivision-fi-laani-uusimaa",
+       "souverainete_id": "finlande",
+       "note": "District administratif rural (kihlakunta, härad dans la colonne suédoise) documenté dans la province indiquée. Les villes sont listées séparément : aucune ville n’est automatiquement affectée au district homonyme. Il ne s’agit ni d’une commune ni d’une circonscription judiciaire (tuomiokunta/domsaga). Inventaire de 48 unités documentées sur le territoire conservé ; le total national de 54 du tableau 3 reste à réconcilier. Aucun tracé ni siège déduit du nom. Le contrôle militaire effectif reste celui des superpositions déjà intégrées au territoire national.",
+       "reserves": [
+        "R2FI-01",
+        "R2FI-02",
+        "R2FI-06",
+        "R2FI-04"
+       ]
+      },
+      "sources": [
+       {
+        "source_id": "src-statfi-annuaire-1944-1945-finlande",
+        "locator": "Tableau 15, p. 16–17 (PDF 38), colonne des noms et superficie terrestre au 1.1.1945, ligne « Pernajan kihlakunta »",
+        "usage": "Nom et parent de l’échelon administratif rural ; territoire conservé"
+       },
+       {
+        "source_id": "src-statfi-annuaire-1944-1945-finlande",
+        "locator": "Tableau 3 p. 2–3 (PDF 26), colonnes administratives et judiciaires",
+        "usage": "Distinction kihlakunta administratif / division judiciaire"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-fi-laani-turku-pori",
+    "type_entite": "subdivision",
+    "nom": "Province de Turku et Pori",
+    "nom_court": "Turku et Pori",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Turun-Porin lääni",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "lääni",
+       "parent_id": "territoire-fi-finlande",
+       "souverainete_id": "finlande",
+       "note": "Découpage de droit au 1er janvier 1945. Le début de validité est celui du Snapshot, pas la création de la province. Forme suédoise du tableau : Åbo-Björneborgs län. Les chefs-lieux et codes ne sont pas déduits des noms. Les districts ruraux ne constituent pas une partition de toutes les villes. Aucun tracé validé livré.",
+       "reserves": [
+        "R2FI-01",
+        "R2FI-02",
+        "R2FI-06"
+       ]
+      },
+      "sources": [
+       {
+        "source_id": "src-statfi-annuaire-1944-1945-finlande",
+        "locator": "Tableau 2 p. 1 (PDF 25), ligne Turku et Pori ; tableau 3 p. 2–3 (PDF 26) ; tableau 15 PDF 38, 39, 40",
+        "usage": "Existence et nom à la date ; distinction province/districts et villes"
+       },
+       {
+        "source_id": "src-kansallisarkisto-histoire-laaninhallitukset",
+        "locator": "Sections sur les lääninhallitukset et leur organisation dans la Finlande indépendante",
+        "usage": "Nature administrative de la province, sans importer les compétences de 2026"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-fi-kihlakunta-vehmaa",
+    "type_entite": "subdivision",
+    "nom": "District de Vehmaa",
+    "nom_court": "Vehmaa",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Vehmaan kihlakunta",
+       "niveau": 2,
+       "echelon": 2,
+       "statut_administratif": "kihlakunta",
+       "parent_id": "subdivision-fi-laani-turku-pori",
+       "souverainete_id": "finlande",
+       "note": "District administratif rural (kihlakunta, härad dans la colonne suédoise) documenté dans la province indiquée. Les villes sont listées séparément : aucune ville n’est automatiquement affectée au district homonyme. Il ne s’agit ni d’une commune ni d’une circonscription judiciaire (tuomiokunta/domsaga). Inventaire de 48 unités documentées sur le territoire conservé ; le total national de 54 du tableau 3 reste à réconcilier. Aucun tracé ni siège déduit du nom.",
+       "reserves": [
+        "R2FI-01",
+        "R2FI-02",
+        "R2FI-06"
+       ]
+      },
+      "sources": [
+       {
+        "source_id": "src-statfi-annuaire-1944-1945-finlande",
+        "locator": "Tableau 15, p. 16–17 (PDF 38), colonne des noms et superficie terrestre au 1.1.1945, ligne « Vehmaan kihlakunta »",
+        "usage": "Nom et parent de l’échelon administratif rural ; territoire conservé"
+       },
+       {
+        "source_id": "src-statfi-annuaire-1944-1945-finlande",
+        "locator": "Tableau 3 p. 2–3 (PDF 26), colonnes administratives et judiciaires",
+        "usage": "Distinction kihlakunta administratif / division judiciaire"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-fi-kihlakunta-mynamaki",
+    "type_entite": "subdivision",
+    "nom": "District de Mynämäki",
+    "nom_court": "Mynämäki",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Mynämäen kihlakunta",
+       "niveau": 2,
+       "echelon": 2,
+       "statut_administratif": "kihlakunta",
+       "parent_id": "subdivision-fi-laani-turku-pori",
+       "souverainete_id": "finlande",
+       "note": "District administratif rural (kihlakunta, härad dans la colonne suédoise) documenté dans la province indiquée. Les villes sont listées séparément : aucune ville n’est automatiquement affectée au district homonyme. Il ne s’agit ni d’une commune ni d’une circonscription judiciaire (tuomiokunta/domsaga). Inventaire de 48 unités documentées sur le territoire conservé ; le total national de 54 du tableau 3 reste à réconcilier. Aucun tracé ni siège déduit du nom.",
+       "reserves": [
+        "R2FI-01",
+        "R2FI-02",
+        "R2FI-06"
+       ]
+      },
+      "sources": [
+       {
+        "source_id": "src-statfi-annuaire-1944-1945-finlande",
+        "locator": "Tableau 15, p. 16–17 (PDF 38), colonne des noms et superficie terrestre au 1.1.1945, ligne « Mynämäen kihlakunta »",
+        "usage": "Nom et parent de l’échelon administratif rural ; territoire conservé"
+       },
+       {
+        "source_id": "src-statfi-annuaire-1944-1945-finlande",
+        "locator": "Tableau 3 p. 2–3 (PDF 26), colonnes administratives et judiciaires",
+        "usage": "Distinction kihlakunta administratif / division judiciaire"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-fi-kihlakunta-piikkio",
+    "type_entite": "subdivision",
+    "nom": "District de Piikkiö",
+    "nom_court": "Piikkiö",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Piikkiön kihlakunta",
+       "niveau": 2,
+       "echelon": 2,
+       "statut_administratif": "kihlakunta",
+       "parent_id": "subdivision-fi-laani-turku-pori",
+       "souverainete_id": "finlande",
+       "note": "District administratif rural (kihlakunta, härad dans la colonne suédoise) documenté dans la province indiquée. Les villes sont listées séparément : aucune ville n’est automatiquement affectée au district homonyme. Il ne s’agit ni d’une commune ni d’une circonscription judiciaire (tuomiokunta/domsaga). Inventaire de 48 unités documentées sur le territoire conservé ; le total national de 54 du tableau 3 reste à réconcilier. Aucun tracé ni siège déduit du nom.",
+       "reserves": [
+        "R2FI-01",
+        "R2FI-02",
+        "R2FI-06"
+       ]
+      },
+      "sources": [
+       {
+        "source_id": "src-statfi-annuaire-1944-1945-finlande",
+        "locator": "Tableau 15, p. 16–17 (PDF 38), colonne des noms et superficie terrestre au 1.1.1945, ligne « Piikkiön kihlakunta »",
+        "usage": "Nom et parent de l’échelon administratif rural ; territoire conservé"
+       },
+       {
+        "source_id": "src-statfi-annuaire-1944-1945-finlande",
+        "locator": "Tableau 3 p. 2–3 (PDF 26), colonnes administratives et judiciaires",
+        "usage": "Distinction kihlakunta administratif / division judiciaire"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-fi-kihlakunta-halikko",
+    "type_entite": "subdivision",
+    "nom": "District de Halikko",
+    "nom_court": "Halikko",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Halikon kihlakunta",
+       "niveau": 2,
+       "echelon": 2,
+       "statut_administratif": "kihlakunta",
+       "parent_id": "subdivision-fi-laani-turku-pori",
+       "souverainete_id": "finlande",
+       "note": "District administratif rural (kihlakunta, härad dans la colonne suédoise) documenté dans la province indiquée. Les villes sont listées séparément : aucune ville n’est automatiquement affectée au district homonyme. Il ne s’agit ni d’une commune ni d’une circonscription judiciaire (tuomiokunta/domsaga). Inventaire de 48 unités documentées sur le territoire conservé ; le total national de 54 du tableau 3 reste à réconcilier. Aucun tracé ni siège déduit du nom.",
+       "reserves": [
+        "R2FI-01",
+        "R2FI-02",
+        "R2FI-06"
+       ]
+      },
+      "sources": [
+       {
+        "source_id": "src-statfi-annuaire-1944-1945-finlande",
+        "locator": "Tableau 15, p. 16–17 (PDF 38), colonne des noms et superficie terrestre au 1.1.1945, ligne « Halikon kihlakunta »",
+        "usage": "Nom et parent de l’échelon administratif rural ; territoire conservé"
+       },
+       {
+        "source_id": "src-statfi-annuaire-1944-1945-finlande",
+        "locator": "Tableau 3 p. 2–3 (PDF 26), colonnes administratives et judiciaires",
+        "usage": "Distinction kihlakunta administratif / division judiciaire"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-fi-kihlakunta-masku",
+    "type_entite": "subdivision",
+    "nom": "District de Masku",
+    "nom_court": "Masku",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Maskun kihlakunta",
+       "niveau": 2,
+       "echelon": 2,
+       "statut_administratif": "kihlakunta",
+       "parent_id": "subdivision-fi-laani-turku-pori",
+       "souverainete_id": "finlande",
+       "note": "District administratif rural (kihlakunta, härad dans la colonne suédoise) documenté dans la province indiquée. Les villes sont listées séparément : aucune ville n’est automatiquement affectée au district homonyme. Il ne s’agit ni d’une commune ni d’une circonscription judiciaire (tuomiokunta/domsaga). Inventaire de 48 unités documentées sur le territoire conservé ; le total national de 54 du tableau 3 reste à réconcilier. Aucun tracé ni siège déduit du nom.",
+       "reserves": [
+        "R2FI-01",
+        "R2FI-02",
+        "R2FI-06"
+       ]
+      },
+      "sources": [
+       {
+        "source_id": "src-statfi-annuaire-1944-1945-finlande",
+        "locator": "Tableau 15, p. 18–19 (PDF 39), colonne des noms et superficie terrestre au 1.1.1945, ligne « Maskun kihlakunta »",
+        "usage": "Nom et parent de l’échelon administratif rural ; territoire conservé"
+       },
+       {
+        "source_id": "src-statfi-annuaire-1944-1945-finlande",
+        "locator": "Tableau 3 p. 2–3 (PDF 26), colonnes administratives et judiciaires",
+        "usage": "Distinction kihlakunta administratif / division judiciaire"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-fi-kihlakunta-ulvila",
+    "type_entite": "subdivision",
+    "nom": "District de Ulvila",
+    "nom_court": "Ulvila",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Ulvilan kihlakunta",
+       "niveau": 2,
+       "echelon": 2,
+       "statut_administratif": "kihlakunta",
+       "parent_id": "subdivision-fi-laani-turku-pori",
+       "souverainete_id": "finlande",
+       "note": "District administratif rural (kihlakunta, härad dans la colonne suédoise) documenté dans la province indiquée. Les villes sont listées séparément : aucune ville n’est automatiquement affectée au district homonyme. Il ne s’agit ni d’une commune ni d’une circonscription judiciaire (tuomiokunta/domsaga). Inventaire de 48 unités documentées sur le territoire conservé ; le total national de 54 du tableau 3 reste à réconcilier. Aucun tracé ni siège déduit du nom.",
+       "reserves": [
+        "R2FI-01",
+        "R2FI-02",
+        "R2FI-06"
+       ]
+      },
+      "sources": [
+       {
+        "source_id": "src-statfi-annuaire-1944-1945-finlande",
+        "locator": "Tableau 15, p. 18–19 (PDF 39), colonne des noms et superficie terrestre au 1.1.1945, ligne « Ulvilan kihlakunta »",
+        "usage": "Nom et parent de l’échelon administratif rural ; territoire conservé"
+       },
+       {
+        "source_id": "src-statfi-annuaire-1944-1945-finlande",
+        "locator": "Tableau 3 p. 2–3 (PDF 26), colonnes administratives et judiciaires",
+        "usage": "Distinction kihlakunta administratif / division judiciaire"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-fi-kihlakunta-ikaalinen",
+    "type_entite": "subdivision",
+    "nom": "District de Ikaalinen",
+    "nom_court": "Ikaalinen",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Ikaalisten kihlakunta",
+       "niveau": 2,
+       "echelon": 2,
+       "statut_administratif": "kihlakunta",
+       "parent_id": "subdivision-fi-laani-turku-pori",
+       "souverainete_id": "finlande",
+       "note": "District administratif rural (kihlakunta, härad dans la colonne suédoise) documenté dans la province indiquée. Les villes sont listées séparément : aucune ville n’est automatiquement affectée au district homonyme. Il ne s’agit ni d’une commune ni d’une circonscription judiciaire (tuomiokunta/domsaga). Inventaire de 48 unités documentées sur le territoire conservé ; le total national de 54 du tableau 3 reste à réconcilier. Aucun tracé ni siège déduit du nom.",
+       "reserves": [
+        "R2FI-01",
+        "R2FI-02",
+        "R2FI-06"
+       ]
+      },
+      "sources": [
+       {
+        "source_id": "src-statfi-annuaire-1944-1945-finlande",
+        "locator": "Tableau 15, p. 18–19 (PDF 39), colonne des noms et superficie terrestre au 1.1.1945, ligne « Ikaalisten kihlakunta »",
+        "usage": "Nom et parent de l’échelon administratif rural ; territoire conservé"
+       },
+       {
+        "source_id": "src-statfi-annuaire-1944-1945-finlande",
+        "locator": "Tableau 3 p. 2–3 (PDF 26), colonnes administratives et judiciaires",
+        "usage": "Distinction kihlakunta administratif / division judiciaire"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-fi-kihlakunta-tyrvaa",
+    "type_entite": "subdivision",
+    "nom": "District de Tyrvää",
+    "nom_court": "Tyrvää",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Tyrvään kihlakunta",
+       "niveau": 2,
+       "echelon": 2,
+       "statut_administratif": "kihlakunta",
+       "parent_id": "subdivision-fi-laani-turku-pori",
+       "souverainete_id": "finlande",
+       "note": "District administratif rural (kihlakunta, härad dans la colonne suédoise) documenté dans la province indiquée. Les villes sont listées séparément : aucune ville n’est automatiquement affectée au district homonyme. Il ne s’agit ni d’une commune ni d’une circonscription judiciaire (tuomiokunta/domsaga). Inventaire de 48 unités documentées sur le territoire conservé ; le total national de 54 du tableau 3 reste à réconcilier. Aucun tracé ni siège déduit du nom.",
+       "reserves": [
+        "R2FI-01",
+        "R2FI-02",
+        "R2FI-06"
+       ]
+      },
+      "sources": [
+       {
+        "source_id": "src-statfi-annuaire-1944-1945-finlande",
+        "locator": "Tableau 15, p. 18–19 (PDF 39), colonne des noms et superficie terrestre au 1.1.1945, ligne « Tyrvään kihlakunta »",
+        "usage": "Nom et parent de l’échelon administratif rural ; territoire conservé"
+       },
+       {
+        "source_id": "src-statfi-annuaire-1944-1945-finlande",
+        "locator": "Tableau 3 p. 2–3 (PDF 26), colonnes administratives et judiciaires",
+        "usage": "Distinction kihlakunta administratif / division judiciaire"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-fi-kihlakunta-loimaa",
+    "type_entite": "subdivision",
+    "nom": "District de Loimaa",
+    "nom_court": "Loimaa",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Loimaan kihlakunta",
+       "niveau": 2,
+       "echelon": 2,
+       "statut_administratif": "kihlakunta",
+       "parent_id": "subdivision-fi-laani-turku-pori",
+       "souverainete_id": "finlande",
+       "note": "District administratif rural (kihlakunta, härad dans la colonne suédoise) documenté dans la province indiquée. Les villes sont listées séparément : aucune ville n’est automatiquement affectée au district homonyme. Il ne s’agit ni d’une commune ni d’une circonscription judiciaire (tuomiokunta/domsaga). Inventaire de 48 unités documentées sur le territoire conservé ; le total national de 54 du tableau 3 reste à réconcilier. Aucun tracé ni siège déduit du nom.",
+       "reserves": [
+        "R2FI-01",
+        "R2FI-02",
+        "R2FI-06"
+       ]
+      },
+      "sources": [
+       {
+        "source_id": "src-statfi-annuaire-1944-1945-finlande",
+        "locator": "Tableau 15, p. 20–21 (PDF 40), colonne des noms et superficie terrestre au 1.1.1945, ligne « Loimaan kihlakunta »",
+        "usage": "Nom et parent de l’échelon administratif rural ; territoire conservé"
+       },
+       {
+        "source_id": "src-statfi-annuaire-1944-1945-finlande",
+        "locator": "Tableau 3 p. 2–3 (PDF 26), colonnes administratives et judiciaires",
+        "usage": "Distinction kihlakunta administratif / division judiciaire"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-fi-aland",
+    "type_entite": "subdivision",
+    "nom": "Åland",
+    "nom_court": "Åland",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Ahvenanmaan maakunta",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "maakunta",
+       "parent_id": "territoire-fi-finlande",
+       "souverainete_id": "finlande",
+       "note": "Découpage de droit au 1er janvier 1945. Le début de validité est celui du Snapshot, pas la création de la province. Forme suédoise du tableau : Landskapet Åland. Les chefs-lieux et codes ne sont pas déduits des noms. Les districts ruraux ne constituent pas une partition de toutes les villes. Aucun tracé validé livré. Pays autonome (maakunta/landskap) au sein de la Finlande, et circonscription d’administration de l’État. Une seule fiche représente ici ce niveau territorial ; le gouverneur de l’État et l’administration autonome ne sont pas deux territoires. La loi de 1920 atteste le principe d’autonomie, les organes et la représentation de l’État ; la version originale ne vaut pas consolidation de toutes les compétences au 1.1.1945.",
+       "reserves": [
+        "R2FI-01",
+        "R2FI-02",
+        "R2FI-06",
+        "R2FI-05"
+       ]
+      },
+      "sources": [
+       {
+        "source_id": "src-statfi-annuaire-1944-1945-finlande",
+        "locator": "Tableau 2 p. 1 (PDF 25), ligne Åland ; tableau 3 p. 2–3 (PDF 26) ; tableau 15 PDF 40",
+        "usage": "Existence et nom à la date ; distinction province/districts et villes"
+       },
+       {
+        "source_id": "src-kansallisarkisto-histoire-laaninhallitukset",
+        "locator": "Sections sur les lääninhallitukset et leur organisation dans la Finlande indépendante",
+        "usage": "Nature administrative de la province, sans importer les compétences de 2026"
+       },
+       {
+        "source_id": "src-lagtinget-autonomie-aland-1920",
+        "locator": "Loi du 6.5.1920, §§1–4, p. 954 (PDF 1) ; page de contexte du Lagting",
+        "usage": "Principe d’autonomie, Landsting, landskapsnämnd, gouverneur représentant la République"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-fi-kihlakunta-aland",
+    "type_entite": "subdivision",
+    "nom": "District d’Åland",
+    "nom_court": "Åland",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Ahvenanmaan kihlakunta",
+       "niveau": 2,
+       "echelon": 2,
+       "statut_administratif": "kihlakunta",
+       "parent_id": "subdivision-fi-aland",
+       "souverainete_id": "finlande",
+       "note": "District administratif rural (kihlakunta, härad dans la colonne suédoise) documenté dans la province indiquée. Les villes sont listées séparément : aucune ville n’est automatiquement affectée au district homonyme. Il ne s’agit ni d’une commune ni d’une circonscription judiciaire (tuomiokunta/domsaga). Inventaire de 48 unités documentées sur le territoire conservé ; le total national de 54 du tableau 3 reste à réconcilier. Aucun tracé ni siège déduit du nom. Ålands härad est le district rural ; Mariehamn apparaît séparément. Ce district n’est donc pas présenté comme une copie de toute la province autonome.",
+       "reserves": [
+        "R2FI-01",
+        "R2FI-02",
+        "R2FI-06",
+        "R2FI-05"
+       ]
+      },
+      "sources": [
+       {
+        "source_id": "src-statfi-annuaire-1944-1945-finlande",
+        "locator": "Tableau 15, p. 20–21 (PDF 40), colonne des noms et superficie terrestre au 1.1.1945, ligne « Ahvenanmaan kihlakunta »",
+        "usage": "Nom et parent de l’échelon administratif rural ; territoire conservé"
+       },
+       {
+        "source_id": "src-statfi-annuaire-1944-1945-finlande",
+        "locator": "Tableau 3 p. 2–3 (PDF 26), colonnes administratives et judiciaires",
+        "usage": "Distinction kihlakunta administratif / division judiciaire"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-fi-laani-hame",
+    "type_entite": "subdivision",
+    "nom": "Province de Häme",
+    "nom_court": "Häme",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Hämeen lääni",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "lääni",
+       "parent_id": "territoire-fi-finlande",
+       "souverainete_id": "finlande",
+       "note": "Découpage de droit au 1er janvier 1945. Le début de validité est celui du Snapshot, pas la création de la province. Forme suédoise du tableau : Tavastehus län. Les chefs-lieux et codes ne sont pas déduits des noms. Les districts ruraux ne constituent pas une partition de toutes les villes. Aucun tracé validé livré.",
+       "reserves": [
+        "R2FI-01",
+        "R2FI-02",
+        "R2FI-06"
+       ]
+      },
+      "sources": [
+       {
+        "source_id": "src-statfi-annuaire-1944-1945-finlande",
+        "locator": "Tableau 2 p. 1 (PDF 25), ligne Häme ; tableau 3 p. 2–3 (PDF 26) ; tableau 15 PDF 40, 41",
+        "usage": "Existence et nom à la date ; distinction province/districts et villes"
+       },
+       {
+        "source_id": "src-kansallisarkisto-histoire-laaninhallitukset",
+        "locator": "Sections sur les lääninhallitukset et leur organisation dans la Finlande indépendante",
+        "usage": "Nature administrative de la province, sans importer les compétences de 2026"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-fi-kihlakunta-tammela",
+    "type_entite": "subdivision",
+    "nom": "District de Tammela",
+    "nom_court": "Tammela",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Tammelan kihlakunta",
+       "niveau": 2,
+       "echelon": 2,
+       "statut_administratif": "kihlakunta",
+       "parent_id": "subdivision-fi-laani-hame",
+       "souverainete_id": "finlande",
+       "note": "District administratif rural (kihlakunta, härad dans la colonne suédoise) documenté dans la province indiquée. Les villes sont listées séparément : aucune ville n’est automatiquement affectée au district homonyme. Il ne s’agit ni d’une commune ni d’une circonscription judiciaire (tuomiokunta/domsaga). Inventaire de 48 unités documentées sur le territoire conservé ; le total national de 54 du tableau 3 reste à réconcilier. Aucun tracé ni siège déduit du nom.",
+       "reserves": [
+        "R2FI-01",
+        "R2FI-02",
+        "R2FI-06"
+       ]
+      },
+      "sources": [
+       {
+        "source_id": "src-statfi-annuaire-1944-1945-finlande",
+        "locator": "Tableau 15, p. 20–21 (PDF 40), colonne des noms et superficie terrestre au 1.1.1945, ligne « Tammelan kihlakunta »",
+        "usage": "Nom et parent de l’échelon administratif rural ; territoire conservé"
+       },
+       {
+        "source_id": "src-statfi-annuaire-1944-1945-finlande",
+        "locator": "Tableau 3 p. 2–3 (PDF 26), colonnes administratives et judiciaires",
+        "usage": "Distinction kihlakunta administratif / division judiciaire"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-fi-kihlakunta-pirkkala",
+    "type_entite": "subdivision",
+    "nom": "District de Pirkkala",
+    "nom_court": "Pirkkala",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Pirkkalan kihlakunta",
+       "niveau": 2,
+       "echelon": 2,
+       "statut_administratif": "kihlakunta",
+       "parent_id": "subdivision-fi-laani-hame",
+       "souverainete_id": "finlande",
+       "note": "District administratif rural (kihlakunta, härad dans la colonne suédoise) documenté dans la province indiquée. Les villes sont listées séparément : aucune ville n’est automatiquement affectée au district homonyme. Il ne s’agit ni d’une commune ni d’une circonscription judiciaire (tuomiokunta/domsaga). Inventaire de 48 unités documentées sur le territoire conservé ; le total national de 54 du tableau 3 reste à réconcilier. Aucun tracé ni siège déduit du nom.",
+       "reserves": [
+        "R2FI-01",
+        "R2FI-02",
+        "R2FI-06"
+       ]
+      },
+      "sources": [
+       {
+        "source_id": "src-statfi-annuaire-1944-1945-finlande",
+        "locator": "Tableau 15, p. 22–23 (PDF 41), colonne des noms et superficie terrestre au 1.1.1945, ligne « Pirkkalan kihlakunta »",
+        "usage": "Nom et parent de l’échelon administratif rural ; territoire conservé"
+       },
+       {
+        "source_id": "src-statfi-annuaire-1944-1945-finlande",
+        "locator": "Tableau 3 p. 2–3 (PDF 26), colonnes administratives et judiciaires",
+        "usage": "Distinction kihlakunta administratif / division judiciaire"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-fi-kihlakunta-ruovesi",
+    "type_entite": "subdivision",
+    "nom": "District de Ruovesi",
+    "nom_court": "Ruovesi",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Ruoveden kihlakunta",
+       "niveau": 2,
+       "echelon": 2,
+       "statut_administratif": "kihlakunta",
+       "parent_id": "subdivision-fi-laani-hame",
+       "souverainete_id": "finlande",
+       "note": "District administratif rural (kihlakunta, härad dans la colonne suédoise) documenté dans la province indiquée. Les villes sont listées séparément : aucune ville n’est automatiquement affectée au district homonyme. Il ne s’agit ni d’une commune ni d’une circonscription judiciaire (tuomiokunta/domsaga). Inventaire de 48 unités documentées sur le territoire conservé ; le total national de 54 du tableau 3 reste à réconcilier. Aucun tracé ni siège déduit du nom.",
+       "reserves": [
+        "R2FI-01",
+        "R2FI-02",
+        "R2FI-06"
+       ]
+      },
+      "sources": [
+       {
+        "source_id": "src-statfi-annuaire-1944-1945-finlande",
+        "locator": "Tableau 15, p. 22–23 (PDF 41), colonne des noms et superficie terrestre au 1.1.1945, ligne « Ruoveden kihlakunta »",
+        "usage": "Nom et parent de l’échelon administratif rural ; territoire conservé"
+       },
+       {
+        "source_id": "src-statfi-annuaire-1944-1945-finlande",
+        "locator": "Tableau 3 p. 2–3 (PDF 26), colonnes administratives et judiciaires",
+        "usage": "Distinction kihlakunta administratif / division judiciaire"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-fi-kihlakunta-jamsa",
+    "type_entite": "subdivision",
+    "nom": "District de Jämsä",
+    "nom_court": "Jämsä",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Jämsän kihlakunta",
+       "niveau": 2,
+       "echelon": 2,
+       "statut_administratif": "kihlakunta",
+       "parent_id": "subdivision-fi-laani-hame",
+       "souverainete_id": "finlande",
+       "note": "District administratif rural (kihlakunta, härad dans la colonne suédoise) documenté dans la province indiquée. Les villes sont listées séparément : aucune ville n’est automatiquement affectée au district homonyme. Il ne s’agit ni d’une commune ni d’une circonscription judiciaire (tuomiokunta/domsaga). Inventaire de 48 unités documentées sur le territoire conservé ; le total national de 54 du tableau 3 reste à réconcilier. Aucun tracé ni siège déduit du nom.",
+       "reserves": [
+        "R2FI-01",
+        "R2FI-02",
+        "R2FI-06"
+       ]
+      },
+      "sources": [
+       {
+        "source_id": "src-statfi-annuaire-1944-1945-finlande",
+        "locator": "Tableau 15, p. 22–23 (PDF 41), colonne des noms et superficie terrestre au 1.1.1945, ligne « Jämsän kihlakunta »",
+        "usage": "Nom et parent de l’échelon administratif rural ; territoire conservé"
+       },
+       {
+        "source_id": "src-statfi-annuaire-1944-1945-finlande",
+        "locator": "Tableau 3 p. 2–3 (PDF 26), colonnes administratives et judiciaires",
+        "usage": "Distinction kihlakunta administratif / division judiciaire"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-fi-kihlakunta-hauho",
+    "type_entite": "subdivision",
+    "nom": "District de Hauho",
+    "nom_court": "Hauho",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Hauhon kihlakunta",
+       "niveau": 2,
+       "echelon": 2,
+       "statut_administratif": "kihlakunta",
+       "parent_id": "subdivision-fi-laani-hame",
+       "souverainete_id": "finlande",
+       "note": "District administratif rural (kihlakunta, härad dans la colonne suédoise) documenté dans la province indiquée. Les villes sont listées séparément : aucune ville n’est automatiquement affectée au district homonyme. Il ne s’agit ni d’une commune ni d’une circonscription judiciaire (tuomiokunta/domsaga). Inventaire de 48 unités documentées sur le territoire conservé ; le total national de 54 du tableau 3 reste à réconcilier. Aucun tracé ni siège déduit du nom.",
+       "reserves": [
+        "R2FI-01",
+        "R2FI-02",
+        "R2FI-06"
+       ]
+      },
+      "sources": [
+       {
+        "source_id": "src-statfi-annuaire-1944-1945-finlande",
+        "locator": "Tableau 15, p. 22–23 (PDF 41), colonne des noms et superficie terrestre au 1.1.1945, ligne « Hauhon kihlakunta »",
+        "usage": "Nom et parent de l’échelon administratif rural ; territoire conservé"
+       },
+       {
+        "source_id": "src-statfi-annuaire-1944-1945-finlande",
+        "locator": "Tableau 3 p. 2–3 (PDF 26), colonnes administratives et judiciaires",
+        "usage": "Distinction kihlakunta administratif / division judiciaire"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-fi-kihlakunta-hollola",
+    "type_entite": "subdivision",
+    "nom": "District de Hollola",
+    "nom_court": "Hollola",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Hollolan kihlakunta",
+       "niveau": 2,
+       "echelon": 2,
+       "statut_administratif": "kihlakunta",
+       "parent_id": "subdivision-fi-laani-hame",
+       "souverainete_id": "finlande",
+       "note": "District administratif rural (kihlakunta, härad dans la colonne suédoise) documenté dans la province indiquée. Les villes sont listées séparément : aucune ville n’est automatiquement affectée au district homonyme. Il ne s’agit ni d’une commune ni d’une circonscription judiciaire (tuomiokunta/domsaga). Inventaire de 48 unités documentées sur le territoire conservé ; le total national de 54 du tableau 3 reste à réconcilier. Aucun tracé ni siège déduit du nom.",
+       "reserves": [
+        "R2FI-01",
+        "R2FI-02",
+        "R2FI-06"
+       ]
+      },
+      "sources": [
+       {
+        "source_id": "src-statfi-annuaire-1944-1945-finlande",
+        "locator": "Tableau 15, p. 22–23 (PDF 41), colonne des noms et superficie terrestre au 1.1.1945, ligne « Hollolan kihlakunta »",
+        "usage": "Nom et parent de l’échelon administratif rural ; territoire conservé"
+       },
+       {
+        "source_id": "src-statfi-annuaire-1944-1945-finlande",
+        "locator": "Tableau 3 p. 2–3 (PDF 26), colonnes administratives et judiciaires",
+        "usage": "Distinction kihlakunta administratif / division judiciaire"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-fi-laani-viipuri",
+    "type_entite": "subdivision",
+    "nom": "Province de Viipuri (partie finlandaise)",
+    "nom_court": "Viipuri (partie finlandaise)",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Viipurin lääni",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "lääni",
+       "parent_id": "territoire-fi-finlande",
+       "souverainete_id": "finlande",
+       "note": "Découpage de droit au 1er janvier 1945. Le début de validité est celui du Snapshot, pas la création de la province. Forme suédoise du tableau : Viborgs län. Les chefs-lieux et codes ne sont pas déduits des noms. Les districts ruraux ne constituent pas une partition de toutes les villes. Aucun tracé validé livré. La fiche ne comprend que le territoire demeuré finlandais après les cessions de 1944. Viipuri reste le nom du tableau daté ; la mention rétrospective Kymen lääni du tableau 15, publié en 1946, ne prouve pas une substitution au 1er janvier 1945. La ville cédée de Viipuri/Vyborg n’est ni une dépendance finlandaise ni un chef-lieu proposé. L’ID désigne ici le reste finlandais de la province, pas la ville désormais soviétique.",
+       "reserves": [
+        "R2FI-01",
+        "R2FI-02",
+        "R2FI-06",
+        "R2FI-03",
+        "R2FI-04"
+       ]
+      },
+      "sources": [
+       {
+        "source_id": "src-statfi-annuaire-1944-1945-finlande",
+        "locator": "Tableau 2 p. 1 (PDF 25), ligne Viipuri (partie finlandaise) ; tableau 3 p. 2–3 (PDF 26) ; tableau 15 PDF 42, 43",
+        "usage": "Existence et nom à la date ; distinction province/districts et villes"
+       },
+       {
+        "source_id": "src-kansallisarkisto-histoire-laaninhallitukset",
+        "locator": "Sections sur les lääninhallitukset et leur organisation dans la Finlande indépendante",
+        "usage": "Nature administrative de la province, sans importer les compétences de 2026"
+       },
+       {
+        "source_id": "src-finlex-he-148-1996-histoire-provinces",
+        "locator": "HE 148/1996, historique des provinces : formation de Kymi en 1945",
+        "usage": "Contrôle rétrospectif ; jour exact non établi ici"
+       },
+       {
+        "source_id": "src-kansallisarkisto-carelie-cedee",
+        "locator": "Sections communes et registres de la Carélie cédée",
+        "usage": "Séparer registres évacués et territoire sous souveraineté finlandaise"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-fi-kihlakunta-kymi",
+    "type_entite": "subdivision",
+    "nom": "District de Kymi",
+    "nom_court": "Kymi",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Kymin kihlakunta",
+       "niveau": 2,
+       "echelon": 2,
+       "statut_administratif": "kihlakunta",
+       "parent_id": "subdivision-fi-laani-viipuri",
+       "souverainete_id": "finlande",
+       "note": "District administratif rural (kihlakunta, härad dans la colonne suédoise) documenté dans la province indiquée. Les villes sont listées séparément : aucune ville n’est automatiquement affectée au district homonyme. Il ne s’agit ni d’une commune ni d’une circonscription judiciaire (tuomiokunta/domsaga). Inventaire de 48 unités documentées sur le territoire conservé ; le total national de 54 du tableau 3 reste à réconcilier. Aucun tracé ni siège déduit du nom. Vahviala, partie conservée, est transférée de Viipuri à Kymi au 1.1.1945 (note 2). Les parties cédées mentionnées dans les registres sont exclues du périmètre de droit proposé.",
+       "reserves": [
+        "R2FI-01",
+        "R2FI-02",
+        "R2FI-06",
+        "R2FI-03",
+        "R2FI-04"
+       ]
+      },
+      "sources": [
+       {
+        "source_id": "src-statfi-annuaire-1944-1945-finlande",
+        "locator": "Tableau 15, p. 24–25 (PDF 42), colonne des noms et superficie terrestre au 1.1.1945, ligne « Kymin kihlakunta »",
+        "usage": "Nom et parent de l’échelon administratif rural ; territoire conservé"
+       },
+       {
+        "source_id": "src-statfi-annuaire-1944-1945-finlande",
+        "locator": "Tableau 3 p. 2–3 (PDF 26), colonnes administratives et judiciaires",
+        "usage": "Distinction kihlakunta administratif / division judiciaire"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-fi-kihlakunta-lappee",
+    "type_entite": "subdivision",
+    "nom": "District de Lappee",
+    "nom_court": "Lappee",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Lappeen kihlakunta",
+       "niveau": 2,
+       "echelon": 2,
+       "statut_administratif": "kihlakunta",
+       "parent_id": "subdivision-fi-laani-viipuri",
+       "souverainete_id": "finlande",
+       "note": "District administratif rural (kihlakunta, härad dans la colonne suédoise) documenté dans la province indiquée. Les villes sont listées séparément : aucune ville n’est automatiquement affectée au district homonyme. Il ne s’agit ni d’une commune ni d’une circonscription judiciaire (tuomiokunta/domsaga). Inventaire de 48 unités documentées sur le territoire conservé ; le total national de 54 du tableau 3 reste à réconcilier. Aucun tracé ni siège déduit du nom. Nuijamaa, partie conservée, est transférée de Viipuri à Lappee au 1.1.1945 (note 3). Les parties cédées mentionnées dans les registres sont exclues du périmètre de droit proposé.",
+       "reserves": [
+        "R2FI-01",
+        "R2FI-02",
+        "R2FI-06",
+        "R2FI-03",
+        "R2FI-04"
+       ]
+      },
+      "sources": [
+       {
+        "source_id": "src-statfi-annuaire-1944-1945-finlande",
+        "locator": "Tableau 15, p. 24–25 (PDF 42), colonne des noms et superficie terrestre au 1.1.1945, ligne « Lappeen kihlakunta »",
+        "usage": "Nom et parent de l’échelon administratif rural ; territoire conservé"
+       },
+       {
+        "source_id": "src-statfi-annuaire-1944-1945-finlande",
+        "locator": "Tableau 3 p. 2–3 (PDF 26), colonnes administratives et judiciaires",
+        "usage": "Distinction kihlakunta administratif / division judiciaire"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-fi-kihlakunta-jaaski",
+    "type_entite": "subdivision",
+    "nom": "District de Jääski",
+    "nom_court": "Jääski",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Jääsken kihlakunta",
+       "niveau": 2,
+       "echelon": 2,
+       "statut_administratif": "kihlakunta",
+       "parent_id": "subdivision-fi-laani-viipuri",
+       "souverainete_id": "finlande",
+       "note": "District administratif rural (kihlakunta, härad dans la colonne suédoise) documenté dans la province indiquée. Les villes sont listées séparément : aucune ville n’est automatiquement affectée au district homonyme. Il ne s’agit ni d’une commune ni d’une circonscription judiciaire (tuomiokunta/domsaga). Inventaire de 48 unités documentées sur le territoire conservé ; le total national de 54 du tableau 3 reste à réconcilier. Aucun tracé ni siège déduit du nom. Les parties conservées de Parikkala, Saari et Simpele passent de Kurkijoki à Jääski au 1.1.1945 (note 4). Les parties cédées mentionnées dans les registres sont exclues du périmètre de droit proposé.",
+       "reserves": [
+        "R2FI-01",
+        "R2FI-02",
+        "R2FI-06",
+        "R2FI-03",
+        "R2FI-04"
+       ]
+      },
+      "sources": [
+       {
+        "source_id": "src-statfi-annuaire-1944-1945-finlande",
+        "locator": "Tableau 15, p. 24–25 (PDF 42), colonne des noms et superficie terrestre au 1.1.1945, ligne « Jääsken kihlakunta »",
+        "usage": "Nom et parent de l’échelon administratif rural ; territoire conservé"
+       },
+       {
+        "source_id": "src-statfi-annuaire-1944-1945-finlande",
+        "locator": "Tableau 3 p. 2–3 (PDF 26), colonnes administratives et judiciaires",
+        "usage": "Distinction kihlakunta administratif / division judiciaire"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-fi-laani-mikkeli",
+    "type_entite": "subdivision",
+    "nom": "Province de Mikkeli",
+    "nom_court": "Mikkeli",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Mikkelin lääni",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "lääni",
+       "parent_id": "territoire-fi-finlande",
+       "souverainete_id": "finlande",
+       "note": "Découpage de droit au 1er janvier 1945. Le début de validité est celui du Snapshot, pas la création de la province. Forme suédoise du tableau : S:t Michels län. Les chefs-lieux et codes ne sont pas déduits des noms. Les districts ruraux ne constituent pas une partition de toutes les villes. Aucun tracé validé livré.",
+       "reserves": [
+        "R2FI-01",
+        "R2FI-02",
+        "R2FI-06"
+       ]
+      },
+      "sources": [
+       {
+        "source_id": "src-statfi-annuaire-1944-1945-finlande",
+        "locator": "Tableau 2 p. 1 (PDF 25), ligne Mikkeli ; tableau 3 p. 2–3 (PDF 26) ; tableau 15 PDF 43, 44",
+        "usage": "Existence et nom à la date ; distinction province/districts et villes"
+       },
+       {
+        "source_id": "src-kansallisarkisto-histoire-laaninhallitukset",
+        "locator": "Sections sur les lääninhallitukset et leur organisation dans la Finlande indépendante",
+        "usage": "Nature administrative de la province, sans importer les compétences de 2026"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-fi-kihlakunta-heinola",
+    "type_entite": "subdivision",
+    "nom": "District de Heinola",
+    "nom_court": "Heinola",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Heinolan kihlakunta",
+       "niveau": 2,
+       "echelon": 2,
+       "statut_administratif": "kihlakunta",
+       "parent_id": "subdivision-fi-laani-mikkeli",
+       "souverainete_id": "finlande",
+       "note": "District administratif rural (kihlakunta, härad dans la colonne suédoise) documenté dans la province indiquée. Les villes sont listées séparément : aucune ville n’est automatiquement affectée au district homonyme. Il ne s’agit ni d’une commune ni d’une circonscription judiciaire (tuomiokunta/domsaga). Inventaire de 48 unités documentées sur le territoire conservé ; le total national de 54 du tableau 3 reste à réconcilier. Aucun tracé ni siège déduit du nom.",
+       "reserves": [
+        "R2FI-01",
+        "R2FI-02",
+        "R2FI-06"
+       ]
+      },
+      "sources": [
+       {
+        "source_id": "src-statfi-annuaire-1944-1945-finlande",
+        "locator": "Tableau 15, p. 26–27 (PDF 43), colonne des noms et superficie terrestre au 1.1.1945, ligne « Heinolan kihlakunta »",
+        "usage": "Nom et parent de l’échelon administratif rural ; territoire conservé"
+       },
+       {
+        "source_id": "src-statfi-annuaire-1944-1945-finlande",
+        "locator": "Tableau 3 p. 2–3 (PDF 26), colonnes administratives et judiciaires",
+        "usage": "Distinction kihlakunta administratif / division judiciaire"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-fi-kihlakunta-mikkeli",
+    "type_entite": "subdivision",
+    "nom": "District de Mikkeli",
+    "nom_court": "Mikkeli",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Mikkelin kihlakunta",
+       "niveau": 2,
+       "echelon": 2,
+       "statut_administratif": "kihlakunta",
+       "parent_id": "subdivision-fi-laani-mikkeli",
+       "souverainete_id": "finlande",
+       "note": "District administratif rural (kihlakunta, härad dans la colonne suédoise) documenté dans la province indiquée. Les villes sont listées séparément : aucune ville n’est automatiquement affectée au district homonyme. Il ne s’agit ni d’une commune ni d’une circonscription judiciaire (tuomiokunta/domsaga). Inventaire de 48 unités documentées sur le territoire conservé ; le total national de 54 du tableau 3 reste à réconcilier. Aucun tracé ni siège déduit du nom.",
+       "reserves": [
+        "R2FI-01",
+        "R2FI-02",
+        "R2FI-06"
+       ]
+      },
+      "sources": [
+       {
+        "source_id": "src-statfi-annuaire-1944-1945-finlande",
+        "locator": "Tableau 15, p. 26–27 (PDF 43), colonne des noms et superficie terrestre au 1.1.1945, ligne « Mikkelin kihlakunta »",
+        "usage": "Nom et parent de l’échelon administratif rural ; territoire conservé"
+       },
+       {
+        "source_id": "src-statfi-annuaire-1944-1945-finlande",
+        "locator": "Tableau 3 p. 2–3 (PDF 26), colonnes administratives et judiciaires",
+        "usage": "Distinction kihlakunta administratif / division judiciaire"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-fi-kihlakunta-juva",
+    "type_entite": "subdivision",
+    "nom": "District de Juva",
+    "nom_court": "Juva",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Juvan kihlakunta",
+       "niveau": 2,
+       "echelon": 2,
+       "statut_administratif": "kihlakunta",
+       "parent_id": "subdivision-fi-laani-mikkeli",
+       "souverainete_id": "finlande",
+       "note": "District administratif rural (kihlakunta, härad dans la colonne suédoise) documenté dans la province indiquée. Les villes sont listées séparément : aucune ville n’est automatiquement affectée au district homonyme. Il ne s’agit ni d’une commune ni d’une circonscription judiciaire (tuomiokunta/domsaga). Inventaire de 48 unités documentées sur le territoire conservé ; le total national de 54 du tableau 3 reste à réconcilier. Aucun tracé ni siège déduit du nom.",
+       "reserves": [
+        "R2FI-01",
+        "R2FI-02",
+        "R2FI-06"
+       ]
+      },
+      "sources": [
+       {
+        "source_id": "src-statfi-annuaire-1944-1945-finlande",
+        "locator": "Tableau 15, p. 28–29 (PDF 44), colonne des noms et superficie terrestre au 1.1.1945, ligne « Juvan kihlakunta »",
+        "usage": "Nom et parent de l’échelon administratif rural ; territoire conservé"
+       },
+       {
+        "source_id": "src-statfi-annuaire-1944-1945-finlande",
+        "locator": "Tableau 3 p. 2–3 (PDF 26), colonnes administratives et judiciaires",
+        "usage": "Distinction kihlakunta administratif / division judiciaire"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-fi-kihlakunta-rantasalmi",
+    "type_entite": "subdivision",
+    "nom": "District de Rantasalmi",
+    "nom_court": "Rantasalmi",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Rantasalmen kihlakunta",
+       "niveau": 2,
+       "echelon": 2,
+       "statut_administratif": "kihlakunta",
+       "parent_id": "subdivision-fi-laani-mikkeli",
+       "souverainete_id": "finlande",
+       "note": "District administratif rural (kihlakunta, härad dans la colonne suédoise) documenté dans la province indiquée. Les villes sont listées séparément : aucune ville n’est automatiquement affectée au district homonyme. Il ne s’agit ni d’une commune ni d’une circonscription judiciaire (tuomiokunta/domsaga). Inventaire de 48 unités documentées sur le territoire conservé ; le total national de 54 du tableau 3 reste à réconcilier. Aucun tracé ni siège déduit du nom.",
+       "reserves": [
+        "R2FI-01",
+        "R2FI-02",
+        "R2FI-06"
+       ]
+      },
+      "sources": [
+       {
+        "source_id": "src-statfi-annuaire-1944-1945-finlande",
+        "locator": "Tableau 15, p. 28–29 (PDF 44), colonne des noms et superficie terrestre au 1.1.1945, ligne « Rantasalmen kihlakunta »",
+        "usage": "Nom et parent de l’échelon administratif rural ; territoire conservé"
+       },
+       {
+        "source_id": "src-statfi-annuaire-1944-1945-finlande",
+        "locator": "Tableau 3 p. 2–3 (PDF 26), colonnes administratives et judiciaires",
+        "usage": "Distinction kihlakunta administratif / division judiciaire"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-fi-laani-kuopio",
+    "type_entite": "subdivision",
+    "nom": "Province de Kuopio",
+    "nom_court": "Kuopio",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Kuopion lääni",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "lääni",
+       "parent_id": "territoire-fi-finlande",
+       "souverainete_id": "finlande",
+       "note": "Découpage de droit au 1er janvier 1945. Le début de validité est celui du Snapshot, pas la création de la province. Forme suédoise du tableau : Kuopio län. Les chefs-lieux et codes ne sont pas déduits des noms. Les districts ruraux ne constituent pas une partition de toutes les villes. Aucun tracé validé livré. Les parties restées finlandaises d’Uukuniemi et Korpiselkä sont transférées à cette province au 1.1.1945 selon les notes 5 et 6 du tableau 15 p. 24–25.",
+       "reserves": [
+        "R2FI-01",
+        "R2FI-02",
+        "R2FI-06",
+        "R2FI-04"
+       ]
+      },
+      "sources": [
+       {
+        "source_id": "src-statfi-annuaire-1944-1945-finlande",
+        "locator": "Tableau 2 p. 1 (PDF 25), ligne Kuopio ; tableau 3 p. 2–3 (PDF 26) ; tableau 15 PDF 44, 45",
+        "usage": "Existence et nom à la date ; distinction province/districts et villes"
+       },
+       {
+        "source_id": "src-kansallisarkisto-histoire-laaninhallitukset",
+        "locator": "Sections sur les lääninhallitukset et leur organisation dans la Finlande indépendante",
+        "usage": "Nature administrative de la province, sans importer les compétences de 2026"
+       },
+       {
+        "source_id": "src-statfi-annuaire-1944-1945-finlande",
+        "locator": "Tableau 15 p. 24–25 (PDF 42), notes 5–6 ; p. 28–31 (PDF 44–45)",
+        "usage": "Transferts d’Uukuniemi vers Liperi et de Korpiselkä vers Ilomantsi au jour du Snapshot"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-fi-kihlakunta-rautalampi",
+    "type_entite": "subdivision",
+    "nom": "District de Rautalampi",
+    "nom_court": "Rautalampi",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Rautalammin kihlakunta",
+       "niveau": 2,
+       "echelon": 2,
+       "statut_administratif": "kihlakunta",
+       "parent_id": "subdivision-fi-laani-kuopio",
+       "souverainete_id": "finlande",
+       "note": "District administratif rural (kihlakunta, härad dans la colonne suédoise) documenté dans la province indiquée. Les villes sont listées séparément : aucune ville n’est automatiquement affectée au district homonyme. Il ne s’agit ni d’une commune ni d’une circonscription judiciaire (tuomiokunta/domsaga). Inventaire de 48 unités documentées sur le territoire conservé ; le total national de 54 du tableau 3 reste à réconcilier. Aucun tracé ni siège déduit du nom.",
+       "reserves": [
+        "R2FI-01",
+        "R2FI-02",
+        "R2FI-06"
+       ]
+      },
+      "sources": [
+       {
+        "source_id": "src-statfi-annuaire-1944-1945-finlande",
+        "locator": "Tableau 15, p. 28–29 (PDF 44), colonne des noms et superficie terrestre au 1.1.1945, ligne « Rautalammin kihlakunta »",
+        "usage": "Nom et parent de l’échelon administratif rural ; territoire conservé"
+       },
+       {
+        "source_id": "src-statfi-annuaire-1944-1945-finlande",
+        "locator": "Tableau 3 p. 2–3 (PDF 26), colonnes administratives et judiciaires",
+        "usage": "Distinction kihlakunta administratif / division judiciaire"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-fi-kihlakunta-kuopio",
+    "type_entite": "subdivision",
+    "nom": "District de Kuopio",
+    "nom_court": "Kuopio",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Kuopion kihlakunta",
+       "niveau": 2,
+       "echelon": 2,
+       "statut_administratif": "kihlakunta",
+       "parent_id": "subdivision-fi-laani-kuopio",
+       "souverainete_id": "finlande",
+       "note": "District administratif rural (kihlakunta, härad dans la colonne suédoise) documenté dans la province indiquée. Les villes sont listées séparément : aucune ville n’est automatiquement affectée au district homonyme. Il ne s’agit ni d’une commune ni d’une circonscription judiciaire (tuomiokunta/domsaga). Inventaire de 48 unités documentées sur le territoire conservé ; le total national de 54 du tableau 3 reste à réconcilier. Aucun tracé ni siège déduit du nom.",
+       "reserves": [
+        "R2FI-01",
+        "R2FI-02",
+        "R2FI-06"
+       ]
+      },
+      "sources": [
+       {
+        "source_id": "src-statfi-annuaire-1944-1945-finlande",
+        "locator": "Tableau 15, p. 28–29 (PDF 44), colonne des noms et superficie terrestre au 1.1.1945, ligne « Kuopion kihlakunta »",
+        "usage": "Nom et parent de l’échelon administratif rural ; territoire conservé"
+       },
+       {
+        "source_id": "src-statfi-annuaire-1944-1945-finlande",
+        "locator": "Tableau 3 p. 2–3 (PDF 26), colonnes administratives et judiciaires",
+        "usage": "Distinction kihlakunta administratif / division judiciaire"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-fi-kihlakunta-iisalmi",
+    "type_entite": "subdivision",
+    "nom": "District de Iisalmi",
+    "nom_court": "Iisalmi",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Iisalmen kihlakunta",
+       "niveau": 2,
+       "echelon": 2,
+       "statut_administratif": "kihlakunta",
+       "parent_id": "subdivision-fi-laani-kuopio",
+       "souverainete_id": "finlande",
+       "note": "District administratif rural (kihlakunta, härad dans la colonne suédoise) documenté dans la province indiquée. Les villes sont listées séparément : aucune ville n’est automatiquement affectée au district homonyme. Il ne s’agit ni d’une commune ni d’une circonscription judiciaire (tuomiokunta/domsaga). Inventaire de 48 unités documentées sur le territoire conservé ; le total national de 54 du tableau 3 reste à réconcilier. Aucun tracé ni siège déduit du nom.",
+       "reserves": [
+        "R2FI-01",
+        "R2FI-02",
+        "R2FI-06"
+       ]
+      },
+      "sources": [
+       {
+        "source_id": "src-statfi-annuaire-1944-1945-finlande",
+        "locator": "Tableau 15, p. 28–29 (PDF 44), colonne des noms et superficie terrestre au 1.1.1945, ligne « Iisalmen kihlakunta »",
+        "usage": "Nom et parent de l’échelon administratif rural ; territoire conservé"
+       },
+       {
+        "source_id": "src-statfi-annuaire-1944-1945-finlande",
+        "locator": "Tableau 3 p. 2–3 (PDF 26), colonnes administratives et judiciaires",
+        "usage": "Distinction kihlakunta administratif / division judiciaire"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-fi-kihlakunta-liperi",
+    "type_entite": "subdivision",
+    "nom": "District de Liperi",
+    "nom_court": "Liperi",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Liperin kihlakunta",
+       "niveau": 2,
+       "echelon": 2,
+       "statut_administratif": "kihlakunta",
+       "parent_id": "subdivision-fi-laani-kuopio",
+       "souverainete_id": "finlande",
+       "note": "District administratif rural (kihlakunta, härad dans la colonne suédoise) documenté dans la province indiquée. Les villes sont listées séparément : aucune ville n’est automatiquement affectée au district homonyme. Il ne s’agit ni d’une commune ni d’une circonscription judiciaire (tuomiokunta/domsaga). Inventaire de 48 unités documentées sur le territoire conservé ; le total national de 54 du tableau 3 reste à réconcilier. Aucun tracé ni siège déduit du nom. Transfert au 1.1.1945 de la partie finlandaise d’Uukuniemi (note 5).",
+       "reserves": [
+        "R2FI-01",
+        "R2FI-02",
+        "R2FI-06",
+        "R2FI-04"
+       ]
+      },
+      "sources": [
+       {
+        "source_id": "src-statfi-annuaire-1944-1945-finlande",
+        "locator": "Tableau 15, p. 28–29 (PDF 44), colonne des noms et superficie terrestre au 1.1.1945, ligne « Liperin kihlakunta »",
+        "usage": "Nom et parent de l’échelon administratif rural ; territoire conservé"
+       },
+       {
+        "source_id": "src-statfi-annuaire-1944-1945-finlande",
+        "locator": "Tableau 3 p. 2–3 (PDF 26), colonnes administratives et judiciaires",
+        "usage": "Distinction kihlakunta administratif / division judiciaire"
+       },
+       {
+        "source_id": "src-statfi-annuaire-1944-1945-finlande",
+        "locator": "Tableau 15 p. 24–25 (PDF 42), notes 5–6 ; Tableau 15, p. 30–31 (PDF 45), colonne des noms et superficie terrestre au 1.1.1945",
+        "usage": "Transfert territorial daté du jour du Snapshot"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-fi-kihlakunta-ilomantsi",
+    "type_entite": "subdivision",
+    "nom": "District de Ilomantsi",
+    "nom_court": "Ilomantsi",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Ilomantsin kihlakunta",
+       "niveau": 2,
+       "echelon": 2,
+       "statut_administratif": "kihlakunta",
+       "parent_id": "subdivision-fi-laani-kuopio",
+       "souverainete_id": "finlande",
+       "note": "District administratif rural (kihlakunta, härad dans la colonne suédoise) documenté dans la province indiquée. Les villes sont listées séparément : aucune ville n’est automatiquement affectée au district homonyme. Il ne s’agit ni d’une commune ni d’une circonscription judiciaire (tuomiokunta/domsaga). Inventaire de 48 unités documentées sur le territoire conservé ; le total national de 54 du tableau 3 reste à réconcilier. Aucun tracé ni siège déduit du nom. Transfert au 1.1.1945 de la partie finlandaise de Korpiselkä (note 6).",
+       "reserves": [
+        "R2FI-01",
+        "R2FI-02",
+        "R2FI-06",
+        "R2FI-04"
+       ]
+      },
+      "sources": [
+       {
+        "source_id": "src-statfi-annuaire-1944-1945-finlande",
+        "locator": "Tableau 15, p. 30–31 (PDF 45), colonne des noms et superficie terrestre au 1.1.1945, ligne « Ilomantsin kihlakunta »",
+        "usage": "Nom et parent de l’échelon administratif rural ; territoire conservé"
+       },
+       {
+        "source_id": "src-statfi-annuaire-1944-1945-finlande",
+        "locator": "Tableau 3 p. 2–3 (PDF 26), colonnes administratives et judiciaires",
+        "usage": "Distinction kihlakunta administratif / division judiciaire"
+       },
+       {
+        "source_id": "src-statfi-annuaire-1944-1945-finlande",
+        "locator": "Tableau 15 p. 24–25 (PDF 42), notes 5–6 ; Tableau 15, p. 30–31 (PDF 45), colonne des noms et superficie terrestre au 1.1.1945",
+        "usage": "Transfert territorial daté du jour du Snapshot"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-fi-kihlakunta-pielisjarvi",
+    "type_entite": "subdivision",
+    "nom": "District de Pielisjärvi",
+    "nom_court": "Pielisjärvi",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Pielisjärven kihlakunta",
+       "niveau": 2,
+       "echelon": 2,
+       "statut_administratif": "kihlakunta",
+       "parent_id": "subdivision-fi-laani-kuopio",
+       "souverainete_id": "finlande",
+       "note": "District administratif rural (kihlakunta, härad dans la colonne suédoise) documenté dans la province indiquée. Les villes sont listées séparément : aucune ville n’est automatiquement affectée au district homonyme. Il ne s’agit ni d’une commune ni d’une circonscription judiciaire (tuomiokunta/domsaga). Inventaire de 48 unités documentées sur le territoire conservé ; le total national de 54 du tableau 3 reste à réconcilier. Aucun tracé ni siège déduit du nom.",
+       "reserves": [
+        "R2FI-01",
+        "R2FI-02",
+        "R2FI-06"
+       ]
+      },
+      "sources": [
+       {
+        "source_id": "src-statfi-annuaire-1944-1945-finlande",
+        "locator": "Tableau 15, p. 30–31 (PDF 45), colonne des noms et superficie terrestre au 1.1.1945, ligne « Pielisjärven kihlakunta »",
+        "usage": "Nom et parent de l’échelon administratif rural ; territoire conservé"
+       },
+       {
+        "source_id": "src-statfi-annuaire-1944-1945-finlande",
+        "locator": "Tableau 3 p. 2–3 (PDF 26), colonnes administratives et judiciaires",
+        "usage": "Distinction kihlakunta administratif / division judiciaire"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-fi-laani-vaasa",
+    "type_entite": "subdivision",
+    "nom": "Province de Vaasa",
+    "nom_court": "Vaasa",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Vaasan lääni",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "lääni",
+       "parent_id": "territoire-fi-finlande",
+       "souverainete_id": "finlande",
+       "note": "Découpage de droit au 1er janvier 1945. Le début de validité est celui du Snapshot, pas la création de la province. Forme suédoise du tableau : Vasa län. Les chefs-lieux et codes ne sont pas déduits des noms. Les districts ruraux ne constituent pas une partition de toutes les villes. Aucun tracé validé livré.",
+       "reserves": [
+        "R2FI-01",
+        "R2FI-02",
+        "R2FI-06"
+       ]
+      },
+      "sources": [
+       {
+        "source_id": "src-statfi-annuaire-1944-1945-finlande",
+        "locator": "Tableau 2 p. 1 (PDF 25), ligne Vaasa ; tableau 3 p. 2–3 (PDF 26) ; tableau 15 PDF 45, 46, 47",
+        "usage": "Existence et nom à la date ; distinction province/districts et villes"
+       },
+       {
+        "source_id": "src-kansallisarkisto-histoire-laaninhallitukset",
+        "locator": "Sections sur les lääninhallitukset et leur organisation dans la Finlande indépendante",
+        "usage": "Nature administrative de la province, sans importer les compétences de 2026"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-fi-kihlakunta-narpio",
+    "type_entite": "subdivision",
+    "nom": "District de Närpiö",
+    "nom_court": "Närpiö",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Närpiön kihlakunta",
+       "niveau": 2,
+       "echelon": 2,
+       "statut_administratif": "kihlakunta",
+       "parent_id": "subdivision-fi-laani-vaasa",
+       "souverainete_id": "finlande",
+       "note": "District administratif rural (kihlakunta, härad dans la colonne suédoise) documenté dans la province indiquée. Les villes sont listées séparément : aucune ville n’est automatiquement affectée au district homonyme. Il ne s’agit ni d’une commune ni d’une circonscription judiciaire (tuomiokunta/domsaga). Inventaire de 48 unités documentées sur le territoire conservé ; le total national de 54 du tableau 3 reste à réconcilier. Aucun tracé ni siège déduit du nom.",
+       "reserves": [
+        "R2FI-01",
+        "R2FI-02",
+        "R2FI-06"
+       ]
+      },
+      "sources": [
+       {
+        "source_id": "src-statfi-annuaire-1944-1945-finlande",
+        "locator": "Tableau 15, p. 30–31 (PDF 45), colonne des noms et superficie terrestre au 1.1.1945, ligne « Närpiön kihlakunta »",
+        "usage": "Nom et parent de l’échelon administratif rural ; territoire conservé"
+       },
+       {
+        "source_id": "src-statfi-annuaire-1944-1945-finlande",
+        "locator": "Tableau 3 p. 2–3 (PDF 26), colonnes administratives et judiciaires",
+        "usage": "Distinction kihlakunta administratif / division judiciaire"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-fi-kihlakunta-ilmajoki",
+    "type_entite": "subdivision",
+    "nom": "District de Ilmajoki",
+    "nom_court": "Ilmajoki",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Ilmajoen kihlakunta",
+       "niveau": 2,
+       "echelon": 2,
+       "statut_administratif": "kihlakunta",
+       "parent_id": "subdivision-fi-laani-vaasa",
+       "souverainete_id": "finlande",
+       "note": "District administratif rural (kihlakunta, härad dans la colonne suédoise) documenté dans la province indiquée. Les villes sont listées séparément : aucune ville n’est automatiquement affectée au district homonyme. Il ne s’agit ni d’une commune ni d’une circonscription judiciaire (tuomiokunta/domsaga). Inventaire de 48 unités documentées sur le territoire conservé ; le total national de 54 du tableau 3 reste à réconcilier. Aucun tracé ni siège déduit du nom.",
+       "reserves": [
+        "R2FI-01",
+        "R2FI-02",
+        "R2FI-06"
+       ]
+      },
+      "sources": [
+       {
+        "source_id": "src-statfi-annuaire-1944-1945-finlande",
+        "locator": "Tableau 15, p. 30–31 (PDF 45), colonne des noms et superficie terrestre au 1.1.1945, ligne « Ilmajoen kihlakunta »",
+        "usage": "Nom et parent de l’échelon administratif rural ; territoire conservé"
+       },
+       {
+        "source_id": "src-statfi-annuaire-1944-1945-finlande",
+        "locator": "Tableau 3 p. 2–3 (PDF 26), colonnes administratives et judiciaires",
+        "usage": "Distinction kihlakunta administratif / division judiciaire"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-fi-kihlakunta-korsholm",
+    "type_entite": "subdivision",
+    "nom": "District de Korsholm",
+    "nom_court": "Korsholm",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Korsholman kihlakunta",
+       "niveau": 2,
+       "echelon": 2,
+       "statut_administratif": "kihlakunta",
+       "parent_id": "subdivision-fi-laani-vaasa",
+       "souverainete_id": "finlande",
+       "note": "District administratif rural (kihlakunta, härad dans la colonne suédoise) documenté dans la province indiquée. Les villes sont listées séparément : aucune ville n’est automatiquement affectée au district homonyme. Il ne s’agit ni d’une commune ni d’une circonscription judiciaire (tuomiokunta/domsaga). Inventaire de 48 unités documentées sur le territoire conservé ; le total national de 54 du tableau 3 reste à réconcilier. Aucun tracé ni siège déduit du nom. Korsholman est le nom du district, distinct du nom de la commune Mustasaari ; aucune substitution automatique.",
+       "reserves": [
+        "R2FI-01",
+        "R2FI-02",
+        "R2FI-06"
+       ]
+      },
+      "sources": [
+       {
+        "source_id": "src-statfi-annuaire-1944-1945-finlande",
+        "locator": "Tableau 15, p. 30–31 (PDF 45), colonne des noms et superficie terrestre au 1.1.1945, ligne « Korsholman kihlakunta »",
+        "usage": "Nom et parent de l’échelon administratif rural ; territoire conservé"
+       },
+       {
+        "source_id": "src-statfi-annuaire-1944-1945-finlande",
+        "locator": "Tableau 3 p. 2–3 (PDF 26), colonnes administratives et judiciaires",
+        "usage": "Distinction kihlakunta administratif / division judiciaire"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-fi-kihlakunta-lapua",
+    "type_entite": "subdivision",
+    "nom": "District de Lapua",
+    "nom_court": "Lapua",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Lapuan kihlakunta",
+       "niveau": 2,
+       "echelon": 2,
+       "statut_administratif": "kihlakunta",
+       "parent_id": "subdivision-fi-laani-vaasa",
+       "souverainete_id": "finlande",
+       "note": "District administratif rural (kihlakunta, härad dans la colonne suédoise) documenté dans la province indiquée. Les villes sont listées séparément : aucune ville n’est automatiquement affectée au district homonyme. Il ne s’agit ni d’une commune ni d’une circonscription judiciaire (tuomiokunta/domsaga). Inventaire de 48 unités documentées sur le territoire conservé ; le total national de 54 du tableau 3 reste à réconcilier. Aucun tracé ni siège déduit du nom.",
+       "reserves": [
+        "R2FI-01",
+        "R2FI-02",
+        "R2FI-06"
+       ]
+      },
+      "sources": [
+       {
+        "source_id": "src-statfi-annuaire-1944-1945-finlande",
+        "locator": "Tableau 15, p. 32–33 (PDF 46), colonne des noms et superficie terrestre au 1.1.1945, ligne « Lapuan kihlakunta »",
+        "usage": "Nom et parent de l’échelon administratif rural ; territoire conservé"
+       },
+       {
+        "source_id": "src-statfi-annuaire-1944-1945-finlande",
+        "locator": "Tableau 3 p. 2–3 (PDF 26), colonnes administratives et judiciaires",
+        "usage": "Distinction kihlakunta administratif / division judiciaire"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-fi-kihlakunta-pietarsaari",
+    "type_entite": "subdivision",
+    "nom": "District de Pietarsaari",
+    "nom_court": "Pietarsaari",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Pietarsaaren kihlakunta",
+       "niveau": 2,
+       "echelon": 2,
+       "statut_administratif": "kihlakunta",
+       "parent_id": "subdivision-fi-laani-vaasa",
+       "souverainete_id": "finlande",
+       "note": "District administratif rural (kihlakunta, härad dans la colonne suédoise) documenté dans la province indiquée. Les villes sont listées séparément : aucune ville n’est automatiquement affectée au district homonyme. Il ne s’agit ni d’une commune ni d’une circonscription judiciaire (tuomiokunta/domsaga). Inventaire de 48 unités documentées sur le territoire conservé ; le total national de 54 du tableau 3 reste à réconcilier. Aucun tracé ni siège déduit du nom. Colonne suédoise : Pedersöre härad ; ne pas confondre le ressort avec la ville de Jakobstad/Pietarsaari.",
+       "reserves": [
+        "R2FI-01",
+        "R2FI-02",
+        "R2FI-06"
+       ]
+      },
+      "sources": [
+       {
+        "source_id": "src-statfi-annuaire-1944-1945-finlande",
+        "locator": "Tableau 15, p. 32–33 (PDF 46), colonne des noms et superficie terrestre au 1.1.1945, ligne « Pietarsaaren kihlakunta »",
+        "usage": "Nom et parent de l’échelon administratif rural ; territoire conservé"
+       },
+       {
+        "source_id": "src-statfi-annuaire-1944-1945-finlande",
+        "locator": "Tableau 3 p. 2–3 (PDF 26), colonnes administratives et judiciaires",
+        "usage": "Distinction kihlakunta administratif / division judiciaire"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-fi-kihlakunta-kuortane",
+    "type_entite": "subdivision",
+    "nom": "District de Kuortane",
+    "nom_court": "Kuortane",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Kuortaneen kihlakunta",
+       "niveau": 2,
+       "echelon": 2,
+       "statut_administratif": "kihlakunta",
+       "parent_id": "subdivision-fi-laani-vaasa",
+       "souverainete_id": "finlande",
+       "note": "District administratif rural (kihlakunta, härad dans la colonne suédoise) documenté dans la province indiquée. Les villes sont listées séparément : aucune ville n’est automatiquement affectée au district homonyme. Il ne s’agit ni d’une commune ni d’une circonscription judiciaire (tuomiokunta/domsaga). Inventaire de 48 unités documentées sur le territoire conservé ; le total national de 54 du tableau 3 reste à réconcilier. Aucun tracé ni siège déduit du nom.",
+       "reserves": [
+        "R2FI-01",
+        "R2FI-02",
+        "R2FI-06"
+       ]
+      },
+      "sources": [
+       {
+        "source_id": "src-statfi-annuaire-1944-1945-finlande",
+        "locator": "Tableau 15, p. 32–33 (PDF 46), colonne des noms et superficie terrestre au 1.1.1945, ligne « Kuortaneen kihlakunta »",
+        "usage": "Nom et parent de l’échelon administratif rural ; territoire conservé"
+       },
+       {
+        "source_id": "src-statfi-annuaire-1944-1945-finlande",
+        "locator": "Tableau 3 p. 2–3 (PDF 26), colonnes administratives et judiciaires",
+        "usage": "Distinction kihlakunta administratif / division judiciaire"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-fi-kihlakunta-laukaa",
+    "type_entite": "subdivision",
+    "nom": "District de Laukaa",
+    "nom_court": "Laukaa",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Laukaan kihlakunta",
+       "niveau": 2,
+       "echelon": 2,
+       "statut_administratif": "kihlakunta",
+       "parent_id": "subdivision-fi-laani-vaasa",
+       "souverainete_id": "finlande",
+       "note": "District administratif rural (kihlakunta, härad dans la colonne suédoise) documenté dans la province indiquée. Les villes sont listées séparément : aucune ville n’est automatiquement affectée au district homonyme. Il ne s’agit ni d’une commune ni d’une circonscription judiciaire (tuomiokunta/domsaga). Inventaire de 48 unités documentées sur le territoire conservé ; le total national de 54 du tableau 3 reste à réconcilier. Aucun tracé ni siège déduit du nom.",
+       "reserves": [
+        "R2FI-01",
+        "R2FI-02",
+        "R2FI-06"
+       ]
+      },
+      "sources": [
+       {
+        "source_id": "src-statfi-annuaire-1944-1945-finlande",
+        "locator": "Tableau 15, p. 32–33 (PDF 46), colonne des noms et superficie terrestre au 1.1.1945, ligne « Laukaan kihlakunta »",
+        "usage": "Nom et parent de l’échelon administratif rural ; territoire conservé"
+       },
+       {
+        "source_id": "src-statfi-annuaire-1944-1945-finlande",
+        "locator": "Tableau 3 p. 2–3 (PDF 26), colonnes administratives et judiciaires",
+        "usage": "Distinction kihlakunta administratif / division judiciaire"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-fi-kihlakunta-viitasaari",
+    "type_entite": "subdivision",
+    "nom": "District de Viitasaari",
+    "nom_court": "Viitasaari",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Viitasaaren kihlakunta",
+       "niveau": 2,
+       "echelon": 2,
+       "statut_administratif": "kihlakunta",
+       "parent_id": "subdivision-fi-laani-vaasa",
+       "souverainete_id": "finlande",
+       "note": "District administratif rural (kihlakunta, härad dans la colonne suédoise) documenté dans la province indiquée. Les villes sont listées séparément : aucune ville n’est automatiquement affectée au district homonyme. Il ne s’agit ni d’une commune ni d’une circonscription judiciaire (tuomiokunta/domsaga). Inventaire de 48 unités documentées sur le territoire conservé ; le total national de 54 du tableau 3 reste à réconcilier. Aucun tracé ni siège déduit du nom.",
+       "reserves": [
+        "R2FI-01",
+        "R2FI-02",
+        "R2FI-06"
+       ]
+      },
+      "sources": [
+       {
+        "source_id": "src-statfi-annuaire-1944-1945-finlande",
+        "locator": "Tableau 15, p. 34–35 (PDF 47), colonne des noms et superficie terrestre au 1.1.1945, ligne « Viitasaaren kihlakunta »",
+        "usage": "Nom et parent de l’échelon administratif rural ; territoire conservé"
+       },
+       {
+        "source_id": "src-statfi-annuaire-1944-1945-finlande",
+        "locator": "Tableau 3 p. 2–3 (PDF 26), colonnes administratives et judiciaires",
+        "usage": "Distinction kihlakunta administratif / division judiciaire"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-fi-laani-oulu",
+    "type_entite": "subdivision",
+    "nom": "Province de Oulu",
+    "nom_court": "Oulu",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Oulun lääni",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "lääni",
+       "parent_id": "territoire-fi-finlande",
+       "souverainete_id": "finlande",
+       "note": "Découpage de droit au 1er janvier 1945. Le début de validité est celui du Snapshot, pas la création de la province. Forme suédoise du tableau : Uleåborgs län. Les chefs-lieux et codes ne sont pas déduits des noms. Les districts ruraux ne constituent pas une partition de toutes les villes. Aucun tracé validé livré. Les parties cédées de Kuusamo ne sont pas rétablies par cette fiche.",
+       "reserves": [
+        "R2FI-01",
+        "R2FI-02",
+        "R2FI-06",
+        "R2FI-04"
+       ]
+      },
+      "sources": [
+       {
+        "source_id": "src-statfi-annuaire-1944-1945-finlande",
+        "locator": "Tableau 2 p. 1 (PDF 25), ligne Oulu ; tableau 3 p. 2–3 (PDF 26) ; tableau 15 PDF 47, 48",
+        "usage": "Existence et nom à la date ; distinction province/districts et villes"
+       },
+       {
+        "source_id": "src-kansallisarkisto-histoire-laaninhallitukset",
+        "locator": "Sections sur les lääninhallitukset et leur organisation dans la Finlande indépendante",
+        "usage": "Nature administrative de la province, sans importer les compétences de 2026"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-fi-kihlakunta-saloinen",
+    "type_entite": "subdivision",
+    "nom": "District de Sälöinen",
+    "nom_court": "Sälöinen",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Sälöisten kihlakunta",
+       "niveau": 2,
+       "echelon": 2,
+       "statut_administratif": "kihlakunta",
+       "parent_id": "subdivision-fi-laani-oulu",
+       "souverainete_id": "finlande",
+       "note": "District administratif rural (kihlakunta, härad dans la colonne suédoise) documenté dans la province indiquée. Les villes sont listées séparément : aucune ville n’est automatiquement affectée au district homonyme. Il ne s’agit ni d’une commune ni d’une circonscription judiciaire (tuomiokunta/domsaga). Inventaire de 48 unités documentées sur le territoire conservé ; le total national de 54 du tableau 3 reste à réconcilier. Aucun tracé ni siège déduit du nom. Forme historique Sälöisten conservée dans le nom officiel ; pas de modernisation silencieuse en Saloisten.",
+       "reserves": [
+        "R2FI-01",
+        "R2FI-02",
+        "R2FI-06"
+       ]
+      },
+      "sources": [
+       {
+        "source_id": "src-statfi-annuaire-1944-1945-finlande",
+        "locator": "Tableau 15, p. 34–35 (PDF 47), colonne des noms et superficie terrestre au 1.1.1945, ligne « Sälöisten kihlakunta »",
+        "usage": "Nom et parent de l’échelon administratif rural ; territoire conservé"
+       },
+       {
+        "source_id": "src-statfi-annuaire-1944-1945-finlande",
+        "locator": "Tableau 3 p. 2–3 (PDF 26), colonnes administratives et judiciaires",
+        "usage": "Distinction kihlakunta administratif / division judiciaire"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-fi-kihlakunta-haapajarvi",
+    "type_entite": "subdivision",
+    "nom": "District de Haapajärvi",
+    "nom_court": "Haapajärvi",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Haapajärven kihlakunta",
+       "niveau": 2,
+       "echelon": 2,
+       "statut_administratif": "kihlakunta",
+       "parent_id": "subdivision-fi-laani-oulu",
+       "souverainete_id": "finlande",
+       "note": "District administratif rural (kihlakunta, härad dans la colonne suédoise) documenté dans la province indiquée. Les villes sont listées séparément : aucune ville n’est automatiquement affectée au district homonyme. Il ne s’agit ni d’une commune ni d’une circonscription judiciaire (tuomiokunta/domsaga). Inventaire de 48 unités documentées sur le territoire conservé ; le total national de 54 du tableau 3 reste à réconcilier. Aucun tracé ni siège déduit du nom.",
+       "reserves": [
+        "R2FI-01",
+        "R2FI-02",
+        "R2FI-06"
+       ]
+      },
+      "sources": [
+       {
+        "source_id": "src-statfi-annuaire-1944-1945-finlande",
+        "locator": "Tableau 15, p. 34–35 (PDF 47), colonne des noms et superficie terrestre au 1.1.1945, ligne « Haapajärven kihlakunta »",
+        "usage": "Nom et parent de l’échelon administratif rural ; territoire conservé"
+       },
+       {
+        "source_id": "src-statfi-annuaire-1944-1945-finlande",
+        "locator": "Tableau 3 p. 2–3 (PDF 26), colonnes administratives et judiciaires",
+        "usage": "Distinction kihlakunta administratif / division judiciaire"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-fi-kihlakunta-kajaani",
+    "type_entite": "subdivision",
+    "nom": "District de Kajaani",
+    "nom_court": "Kajaani",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Kajaanin kihlakunta",
+       "niveau": 2,
+       "echelon": 2,
+       "statut_administratif": "kihlakunta",
+       "parent_id": "subdivision-fi-laani-oulu",
+       "souverainete_id": "finlande",
+       "note": "District administratif rural (kihlakunta, härad dans la colonne suédoise) documenté dans la province indiquée. Les villes sont listées séparément : aucune ville n’est automatiquement affectée au district homonyme. Il ne s’agit ni d’une commune ni d’une circonscription judiciaire (tuomiokunta/domsaga). Inventaire de 48 unités documentées sur le territoire conservé ; le total national de 54 du tableau 3 reste à réconcilier. Aucun tracé ni siège déduit du nom.",
+       "reserves": [
+        "R2FI-01",
+        "R2FI-02",
+        "R2FI-06"
+       ]
+      },
+      "sources": [
+       {
+        "source_id": "src-statfi-annuaire-1944-1945-finlande",
+        "locator": "Tableau 15, p. 34–35 (PDF 47), colonne des noms et superficie terrestre au 1.1.1945, ligne « Kajaanin kihlakunta »",
+        "usage": "Nom et parent de l’échelon administratif rural ; territoire conservé"
+       },
+       {
+        "source_id": "src-statfi-annuaire-1944-1945-finlande",
+        "locator": "Tableau 3 p. 2–3 (PDF 26), colonnes administratives et judiciaires",
+        "usage": "Distinction kihlakunta administratif / division judiciaire"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-fi-kihlakunta-oulu",
+    "type_entite": "subdivision",
+    "nom": "District de Oulu",
+    "nom_court": "Oulu",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Oulun kihlakunta",
+       "niveau": 2,
+       "echelon": 2,
+       "statut_administratif": "kihlakunta",
+       "parent_id": "subdivision-fi-laani-oulu",
+       "souverainete_id": "finlande",
+       "note": "District administratif rural (kihlakunta, härad dans la colonne suédoise) documenté dans la province indiquée. Les villes sont listées séparément : aucune ville n’est automatiquement affectée au district homonyme. Il ne s’agit ni d’une commune ni d’une circonscription judiciaire (tuomiokunta/domsaga). Inventaire de 48 unités documentées sur le territoire conservé ; le total national de 54 du tableau 3 reste à réconcilier. Aucun tracé ni siège déduit du nom.",
+       "reserves": [
+        "R2FI-01",
+        "R2FI-02",
+        "R2FI-06"
+       ]
+      },
+      "sources": [
+       {
+        "source_id": "src-statfi-annuaire-1944-1945-finlande",
+        "locator": "Tableau 15, p. 34–35 (PDF 47), colonne des noms et superficie terrestre au 1.1.1945, ligne « Oulun kihlakunta »",
+        "usage": "Nom et parent de l’échelon administratif rural ; territoire conservé"
+       },
+       {
+        "source_id": "src-statfi-annuaire-1944-1945-finlande",
+        "locator": "Tableau 3 p. 2–3 (PDF 26), colonnes administratives et judiciaires",
+        "usage": "Distinction kihlakunta administratif / division judiciaire"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-fi-laani-laponie",
+    "type_entite": "subdivision",
+    "nom": "Province de Laponie",
+    "nom_court": "Laponie",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Lapin lääni",
+       "niveau": 1,
+       "echelon": 1,
+       "statut_administratif": "lääni",
+       "parent_id": "territoire-fi-finlande",
+       "souverainete_id": "finlande",
+       "note": "Découpage de droit au 1er janvier 1945. Le début de validité est celui du Snapshot, pas la création de la province. Forme suédoise du tableau : Lapplands län. Les chefs-lieux et codes ne sont pas déduits des noms. Les districts ruraux ne constituent pas une partition de toutes les villes. Aucun tracé validé livré. Petsamo cédé à l’URSS n’est pas rattaché à cette fiche. Inari et Utsjoki passent au district de Kittilä au 1.1.1945 (note 2 p. 36–37, image vérifiée malgré l’OCR fautif). Le contrôle allemand du nord-ouest relève de la superposition canonique existante, sans seconde province.",
+       "reserves": [
+        "R2FI-01",
+        "R2FI-02",
+        "R2FI-06",
+        "R2FI-04"
+       ]
+      },
+      "sources": [
+       {
+        "source_id": "src-statfi-annuaire-1944-1945-finlande",
+        "locator": "Tableau 2 p. 1 (PDF 25), ligne Laponie ; tableau 3 p. 2–3 (PDF 26) ; tableau 15 PDF 48",
+        "usage": "Existence et nom à la date ; distinction province/districts et villes"
+       },
+       {
+        "source_id": "src-kansallisarkisto-histoire-laaninhallitukset",
+        "locator": "Sections sur les lääninhallitukset et leur organisation dans la Finlande indépendante",
+        "usage": "Nature administrative de la province, sans importer les compétences de 2026"
+       },
+       {
+        "source_id": "src-statfi-annuaire-1944-1945-finlande",
+        "locator": "Tableau 15, p. 36–37 (PDF 48), colonne des noms et superficie terrestre au 1.1.1945 ; note 2",
+        "usage": "Transfert d’Inari et Utsjoki, exclusion de Petsamo cédé"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-fi-kihlakunta-rovaniemi",
+    "type_entite": "subdivision",
+    "nom": "District de Rovaniemi",
+    "nom_court": "Rovaniemi",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Rovaniemen kihlakunta",
+       "niveau": 2,
+       "echelon": 2,
+       "statut_administratif": "kihlakunta",
+       "parent_id": "subdivision-fi-laani-laponie",
+       "souverainete_id": "finlande",
+       "note": "District administratif rural (kihlakunta, härad dans la colonne suédoise) documenté dans la province indiquée. Les villes sont listées séparément : aucune ville n’est automatiquement affectée au district homonyme. Il ne s’agit ni d’une commune ni d’une circonscription judiciaire (tuomiokunta/domsaga). Inventaire de 48 unités documentées sur le territoire conservé ; le total national de 54 du tableau 3 reste à réconcilier. Aucun tracé ni siège déduit du nom. Le contrôle militaire effectif reste celui des superpositions déjà intégrées au territoire national.",
+       "reserves": [
+        "R2FI-01",
+        "R2FI-02",
+        "R2FI-06",
+        "R2FI-04"
+       ]
+      },
+      "sources": [
+       {
+        "source_id": "src-statfi-annuaire-1944-1945-finlande",
+        "locator": "Tableau 15, p. 36–37 (PDF 48), colonne des noms et superficie terrestre au 1.1.1945, ligne « Rovaniemen kihlakunta »",
+        "usage": "Nom et parent de l’échelon administratif rural ; territoire conservé"
+       },
+       {
+        "source_id": "src-statfi-annuaire-1944-1945-finlande",
+        "locator": "Tableau 3 p. 2–3 (PDF 26), colonnes administratives et judiciaires",
+        "usage": "Distinction kihlakunta administratif / division judiciaire"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-fi-kihlakunta-kemi",
+    "type_entite": "subdivision",
+    "nom": "District de Kemi",
+    "nom_court": "Kemi",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Kemin kihlakunta",
+       "niveau": 2,
+       "echelon": 2,
+       "statut_administratif": "kihlakunta",
+       "parent_id": "subdivision-fi-laani-laponie",
+       "souverainete_id": "finlande",
+       "note": "District administratif rural (kihlakunta, härad dans la colonne suédoise) documenté dans la province indiquée. Les villes sont listées séparément : aucune ville n’est automatiquement affectée au district homonyme. Il ne s’agit ni d’une commune ni d’une circonscription judiciaire (tuomiokunta/domsaga). Inventaire de 48 unités documentées sur le territoire conservé ; le total national de 54 du tableau 3 reste à réconcilier. Aucun tracé ni siège déduit du nom. Le contrôle militaire effectif reste celui des superpositions déjà intégrées au territoire national.",
+       "reserves": [
+        "R2FI-01",
+        "R2FI-02",
+        "R2FI-06",
+        "R2FI-04"
+       ]
+      },
+      "sources": [
+       {
+        "source_id": "src-statfi-annuaire-1944-1945-finlande",
+        "locator": "Tableau 15, p. 36–37 (PDF 48), colonne des noms et superficie terrestre au 1.1.1945, ligne « Kemin kihlakunta »",
+        "usage": "Nom et parent de l’échelon administratif rural ; territoire conservé"
+       },
+       {
+        "source_id": "src-statfi-annuaire-1944-1945-finlande",
+        "locator": "Tableau 3 p. 2–3 (PDF 26), colonnes administratives et judiciaires",
+        "usage": "Distinction kihlakunta administratif / division judiciaire"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   },
+   {
+    "entite_id": "subdivision-fi-kihlakunta-kittila",
+    "type_entite": "subdivision",
+    "nom": "District de Kittilä",
+    "nom_court": "Kittilä",
+    "etats": [
+     {
+      "etat_id": "etat-01",
+      "valid_from": {
+       "date": "1945-01-01",
+       "precision": "exacte"
+      },
+      "valid_to": {
+       "date": "",
+       "precision": "inconnue"
+      },
+      "statut": "decoupage_de_droit_propose_sous_reserves",
+      "proprietes": {
+       "nom": "Kittilän kihlakunta",
+       "niveau": 2,
+       "echelon": 2,
+       "statut_administratif": "kihlakunta",
+       "parent_id": "subdivision-fi-laani-laponie",
+       "souverainete_id": "finlande",
+       "note": "District administratif rural (kihlakunta, härad dans la colonne suédoise) documenté dans la province indiquée. Les villes sont listées séparément : aucune ville n’est automatiquement affectée au district homonyme. Il ne s’agit ni d’une commune ni d’une circonscription judiciaire (tuomiokunta/domsaga). Inventaire de 48 unités documentées sur le territoire conservé ; le total national de 54 du tableau 3 reste à réconcilier. Aucun tracé ni siège déduit du nom. Inari et Utsjoki y sont transférées du district de Petsamo au 1.1.1945 ; note 2 de la page 36–37 vérifiée visuellement, OCR non fiable sur l’année. Le contrôle militaire effectif reste celui des superpositions déjà intégrées au territoire national.",
+       "reserves": [
+        "R2FI-01",
+        "R2FI-02",
+        "R2FI-06",
+        "R2FI-04"
+       ]
+      },
+      "sources": [
+       {
+        "source_id": "src-statfi-annuaire-1944-1945-finlande",
+        "locator": "Tableau 15, p. 36–37 (PDF 48), colonne des noms et superficie terrestre au 1.1.1945, ligne « Kittilän kihlakunta »",
+        "usage": "Nom et parent de l’échelon administratif rural ; territoire conservé"
+       },
+       {
+        "source_id": "src-statfi-annuaire-1944-1945-finlande",
+        "locator": "Tableau 3 p. 2–3 (PDF 26), colonnes administratives et judiciaires",
+        "usage": "Distinction kihlakunta administratif / division judiciaire"
+       }
+      ]
+     }
+    ],
+    "relations": []
+   }
+  ]
+ }
+}
