@@ -1,6 +1,6 @@
 # Atlas Eurasie — fiche de reprise (à lire en premier)
 
-*Fiche courte pour qu'un nouveau Claude, dans n'importe quelle conversation, sache où on en est sans tout relire. Le reste se lit seulement si besoin. Tenue à jour par Claude (section « État » à chaque lot, le reste quand une règle change). Original : `docs/REPRISE.md` du dépôt ; copies : `00_REPRISE.md` du dossier d'échange et `claude/REPRISE.md` du projet claude.ai. Dernière mise à jour : 24/10/2026.*
+*Fiche courte pour qu'un nouveau Claude, dans n'importe quelle conversation, sache où on en est sans tout relire. Le reste se lit seulement si besoin. Tenue à jour par Claude (section « État » à chaque lot, le reste quand une règle change). Original : `docs/REPRISE.md` du dépôt ; copies : `00_REPRISE.md` du dossier d'échange et `claude/REPRISE.md` du projet claude.ai. Dernière mise à jour : 26/10/2026.*
 
 ## 1. Le projet en 5 lignes
 

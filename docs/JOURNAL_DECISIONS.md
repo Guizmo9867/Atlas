@@ -128,6 +128,11 @@ Une ligne par décision, datée. Plus récente en haut. Ce journal remplace les 
 - **Lot 2.BE intégré** (cycle 1) : 50 subdivisions de la Belgique au 01/01/1945 = 9 provinces (échelon 1) et 41 arrondissements administratifs (échelon 2), par recoupement 1939 / février 1945 / 1947 ; Eupen, Malmedy, Saint-Vith dans l'arrondissement de Verviers (droit belge). **Aucun tracé** (pas de source de 1945 à licence ouverte, R2BE-01). Réserves R2BE-01 à 06 pour la revue du groupe 1. *(Ether, intégré par Claude)*
 - Sources : 5 nouvelles (4 ok dont 2 sur captures, 1 limite), registre v1.33. *(Claude)*
 
+## 2026-10-26 (groupe 4 ouvert ; traits de la carte)
+
+- **Groupe 4 de la phase 2.x ouvert** : Reich allemand (`2.DE`, en parties si besoin) et Autriche (`2.AT`), partagés selon la souveraineté déjà dans l'Atlas. Questions de départ pour Ether : découpage de l'État ou du parti (Q2DE-01), Autriche d'avant 1938 ou Reichsgaue (Q2AT-01). *(décision de Guizmo)*
+- **Lisibilité des traits** : Guizmo veut une hiérarchie claire (gros trait = frontière d'État, plus fin = région…), une légende, et plus de couleur, en pensant aux futures routes (grandes routes en jaune, petites en gris, comme Google Maps). Claude prépare une maquette avant/après ; rien n'est changé sur la vraie carte avant son avis. *(Guizmo + Claude)*
+
 ## 2026-10-26 (correction d'affichage)
 
 - **Deux défauts de dessin sur la Belgique corrigés** (signalés par Guizmo) : triangle bleu plus foncé entre Bruxelles et l'Allemagne vu de loin, et trait droit Bruxelles–Liège vu de près. Cause : la carte simplifiait les contours, et les petites enclaves allemandes du Vennbahn (à 10–30 m de la frontière) passaient de l'autre côté du bord. Les territoires ne sont plus simplifiés par la carte (aucune donnée changée). *(Claude, à la demande de Guizmo)*
