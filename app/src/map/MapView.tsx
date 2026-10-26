@@ -89,7 +89,10 @@ export default function MapView({ emprise, couches, calques, selection, onSelect
           lacs: { type: 'geojson', data: import.meta.env.BASE_URL + 'fond/lacs_10m.geojson' },
           fleuves: { type: 'geojson', data: import.meta.env.BASE_URL + 'fond/fleuves_10m.geojson' },
           osm: { type: 'raster', tiles: ['https://tile.openstreetmap.org/{z}/{x}/{y}.png'], tileSize: 256, maxzoom: 19, attribution: '© OpenStreetMap contributors' },
-          territoires: { type: 'geojson', data: VIDE },
+          // tolerance 0 : pas de simplification des territoires par la carte. Sinon, de loin, de petits trous tout près d'une frontière
+          // (enclaves allemandes du Vennbahn, Baarle) passent de l'autre côté du bord et le dessin « bave » : triangles foncés,
+          // trait droit à travers la Belgique (signalé par Guizmo le 26/10/2026)
+          territoires: { type: 'geojson', data: VIDE, tolerance: 0 },
           frontieres: { type: 'geojson', data: VIDE },
           ponts: { type: 'geojson', data: VIDE },
           pastilles: { type: 'geojson', data: VIDE },
